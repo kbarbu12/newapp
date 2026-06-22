@@ -1,4 +1,4 @@
-import { quests } from "../data/quests.js";
+import { quests, gameImages } from "../data/quests.js";
 
 const searchInput = document.querySelector("#searchInput");
 const gameFilter = document.querySelector("#gameFilter");
@@ -57,20 +57,36 @@ function createQuestCard(quest) {
   const article = document.createElement("article");
   article.className = "quest-card";
 
+  const img = gameImages[quest.game];
+  const bannerStyle = `background: ${img.gradient};`;
+
   article.innerHTML = `
-    <div class="card-topline">
-      <span class="game-name">${quest.game}</span>
-      <span class="pill ${quest.length}">${quest.length}</span>
+    <div class="card-banner" style="${bannerStyle}">
+      <img
+        src="${img.cover}"
+        alt="${quest.game} cover art"
+        class="card-banner-img"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      />
+      <div class="card-banner-fallback" style="display:none;">
+        <span class="banner-abbr">${img.abbr}</span>
+      </div>
     </div>
-    <h3>${quest.title}</h3>
-    <p class="meta"><strong>Location:</strong> ${quest.location}</p>
-    <p class="meta"><strong>Difficulty:</strong> ${quest.difficulty}</p>
-    <p>${quest.summary}</p>
-    <div class="summary-box">
-      <strong>AI-style recommendation:</strong>
-      <p>${quest.aiTip}</p>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="game-name">${quest.game}</span>
+        <span class="pill ${quest.length}">${quest.length}</span>
+      </div>
+      <h3>${quest.title}</h3>
+      <p class="meta"><strong>Location:</strong> ${quest.location}</p>
+      <p class="meta"><strong>Difficulty:</strong> ${quest.difficulty}</p>
+      <p>${quest.summary}</p>
+      <div class="summary-box">
+        <strong>AI-style recommendation:</strong>
+        <p>${quest.aiTip}</p>
+      </div>
+      <p class="reward"><strong>Reward:</strong> ${quest.reward}</p>
     </div>
-    <p class="reward"><strong>Reward:</strong> ${quest.reward}</p>
   `;
 
   return article;
@@ -108,5 +124,5 @@ renderQuests();
 
 searchInput.addEventListener("input", renderQuests);
 gameFilter.addEventListener("change", renderQuests);
-lengthFilter.addEventListener("change", renderQuests);
+lengthFilter.addEventListener("click", resetFilters);
 resetButton.addEventListener("click", resetFilters);
