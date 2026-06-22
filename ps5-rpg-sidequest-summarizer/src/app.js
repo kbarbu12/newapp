@@ -3,10 +3,15 @@ import { quests, gameImages } from "../data/quests.js";
 const searchInput = document.querySelector("#searchInput");
 const gameFilter = document.querySelector("#gameFilter");
 const lengthFilter = document.querySelector("#lengthFilter");
+const chapterFilter = document.querySelector("#chapterFilter");
+const chapterFilterGroup = document.querySelector("#chapterFilterGroup");
+const videoFilter = document.querySelector("#videoFilter");
+const videoFilterGroup = document.querySelector("#videoFilterGroup");
 const resetButton = document.querySelector("#resetButton");
 const questGrid = document.querySelector("#questGrid");
 const resultCount = document.querySelector("#resultCount");
 
+const BMW_GAME = "Black Myth: Wukong";
 const uniqueGames = [...new Set(quests.map((quest) => quest.game))].sort();
 
 function populateGameFilter() {
@@ -39,17 +44,31 @@ function questMatchesSearch(quest, searchTerm) {
   return searchableText.includes(searchTerm);
 }
 
+function updateSubFilters() {
+  const isBMW = gameFilter.value === BMW_GAME;
+  chapterFilterGroup.style.display = isBMW ? "" : "none";
+  videoFilterGroup.style.display = isBMW ? "" : "none";
+  if (!isBMW) {
+    chapterFilter.value = "all";
+    videoFilter.value = "all";
+  }
+}
+
 function getFilteredQuests() {
   const searchTerm = normalize(searchInput.value);
   const selectedGame = gameFilter.value;
   const selectedLength = lengthFilter.value;
+  const selectedChapter = chapterFilter.value;
+  const selectedVideo = videoFilter.value;
 
   return quests.filter((quest) => {
     const matchesSearch = !searchTerm || questMatchesSearch(quest, searchTerm);
     const matchesGame = selectedGame === "all" || quest.game === selectedGame;
     const matchesLength = selectedLength === "all" || quest.length === selectedLength;
+    const matchesChapter = selectedChapter === "all" || (quest.chapter && quest.chapter === Number(selectedChapter));
+    const matchesVideo = selectedVideo === "all" || (selectedVideo === "video" && quest.video);
 
-    return matchesSearch && matchesGame && matchesLength;
+    return matchesSearch && matchesGame && matchesLength && matchesChapter && matchesVideo;
   });
 }
 
@@ -78,6 +97,7 @@ function createQuestCard(quest) {
         <span class="pill ${quest.length}">${quest.length}</span>
       </div>
       <h3>${quest.title}</h3>
+      ${quest.chapter ? `<p class="meta"><strong>Chapter:</strong> ${quest.chapter}</p>` : ""}
       <p class="meta"><strong>Location:</strong> ${quest.location}</p>
       <p class="meta"><strong>Difficulty:</strong> ${quest.difficulty}</p>
       <p>${quest.summary}</p>
@@ -86,6 +106,7 @@ function createQuestCard(quest) {
         <p>${quest.aiTip}</p>
       </div>
       <p class="reward"><strong>Reward:</strong> ${quest.reward}</p>
+      ${quest.video ? `<a class="video-link" href="${quest.video}" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>` : ""}
     </div>
   `;
 
@@ -116,6 +137,14 @@ function resetFilters() {
   searchInput.value = "";
   gameFilter.value = "all";
   lengthFilter.value = "all";
+  chapterFilter.value = "all";
+  videoFilter.value = "all";
+  updateSubFilters();
+  renderQuests();
+}
+
+function onGameChange() {
+  updateSubFilters();
   renderQuests();
 }
 
@@ -123,6 +152,8 @@ populateGameFilter();
 renderQuests();
 
 searchInput.addEventListener("input", renderQuests);
-gameFilter.addEventListener("change", renderQuests);
-lengthFilter.addEventListener("click", resetFilters);
+gameFilter.addEventListener("change", onGameChange);
+lengthFilter.addEventListener("change", renderQuests);
+chapterFilter.addEventListener("change", renderQuests);
+videoFilter.addEventListener("change", renderQuests);
 resetButton.addEventListener("click", resetFilters);

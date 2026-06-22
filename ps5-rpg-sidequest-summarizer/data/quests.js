@@ -38,6 +38,11 @@ export const gameImages = {
     gradient: "linear-gradient(135deg, #1a0f00 0%, #92400e 50%, #f59e0b 100%)",
     abbr: "HL",
     cover: "https://upload.wikimedia.org/wikipedia/en/e/e8/Hogwarts_Legacy_cover_art.png"
+  },
+  "Black Myth: Wukong": {
+    gradient: "linear-gradient(135deg, #1a0800 0%, #b45309 50%, #f97316 100%)",
+    abbr: "BMW",
+    cover: "https://upload.wikimedia.org/wikipedia/en/f/f4/Black_Myth_Wukong_cover_art.jpg"
   }
 };
 
@@ -353,5 +358,124 @@ export const quests = [
       "Solve a series of block-pushing puzzles hidden within Hogwarts to unlock additional gear capacity. One of the most useful side quests in the entire game.",
     aiTip:
       "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves."
+  },
+  {
+    id: 25,
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "The Three Bells",
+    location: "Chapter 1 – Black Wind Mountain",
+    length: "long",
+    difficulty: "High",
+    reward: "Fireproof Mantle, Elder Jinchi boss fight",
+    summary:
+      "Find and ring three hidden bells scattered across the three regions of Chapter 1. Ringing the final bell teleports you to a secret Ancient Guanyin Temple where you face Elder Jinchi, a powerful Yaoguai King.",
+    aiTip:
+      "The bells are easy to miss — explore every branching path in each region. Defeating Elder Jinchi rewards the Fireproof Mantle, which is useful for fire-heavy chapters ahead.",
+    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+  },
+  {
+    id: 26,
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "The Red Loong",
+    location: "Chapter 1 – Forest of Wolves",
+    length: "medium",
+    difficulty: "High",
+    reward: "Loong Scales, unique boss drops",
+    summary:
+      "A hidden dragon boss lurks behind a waterfall near the Outside of the Forest Shrine. Once you obtain Loong Scales, the waterfall reveals a secret arena for an intense dragon fight.",
+    aiTip:
+      "You need Loong Scales before attempting this. The Red Loong hits extremely hard — learn its attack patterns and dodge toward its hind legs for openings.",
+    video: "https://www.youtube.com/watch?v=T4DFKOlrXCQ"
+  },
+  {
+    id: 27,
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "The Drunken Boar – Kingdom of Sahali",
+    location: "Chapter 2 – Rockrest Flat",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Access to Kingdom of Sahali, Fuban boss fight",
+    summary:
+      "Find the Yellow-Robed Squire hidden behind Rockrest Flat. This drunken boar sends you on a multi-part quest to gather a Sobering Stone, Jade Lotus, and Arhat Gold Piece, unlocking the secret Kingdom of Sahali area and the giant beetle boss Fuban.",
+    aiTip:
+      "The Squire is easy to walk past — check behind buildings in Rockrest Flat. Each fetch item is in a different sub-area of Chapter 2, so explore thoroughly before progressing.",
+    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+  },
+  {
+    id: 28,
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "The Black Loong",
+    location: "Chapter 2 – Rockrest Flat",
+    length: "medium",
+    difficulty: "High",
+    reward: "Loong-related upgrade materials",
+    summary:
+      "Another hidden dragon boss found behind a waterfall near the Rockrest Flat Shrine. The Black Loong attacks rhythmically to its own battle music — learning to dodge to the beat is the key to victory.",
+    aiTip:
+      "Listen to the boss music. Its weapon slams follow the beat — jump and dodge in rhythm. Head toward boulders for cover during its ranged attacks.",
+    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+  },
+  {
+    id: 29,
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Shigandang – The Stone Giant",
+    location: "Chapter 2 – Rockrest Flat",
+    length: "short",
+    difficulty: "High",
+    reward: "Rare crafting materials, Spirit",
+    summary:
+      "Trigger this secret boss by collecting and dropping six Buddha's Eyeballs onto a large rock near the Rockrest Flat Shrine. The massive stone giant has devastating ground-pound attacks.",
+    aiTip:
+      "Target the blue crystals on its fists — that's the weak point. When it slams the ground causing shockwaves, jump into the air to avoid damage.",
+    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+  },
+  {
+    id: 30,
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "The Prisoner – Pagoda Realm",
+    location: "Chapter 3 – Pagoda Realm",
+    length: "long",
+    difficulty: "High",
+    reward: "Chu-Bai Spearhead, Chu-Bai Spear crafting material",
+    summary:
+      "Discover a prisoner deep within the Pagoda Realm and help them escape captivity. This sprawling side quest introduces unique areas, multiple new bosses, and one of the strongest weapons in the game — the Chu-Bai Spear.",
+    aiTip:
+      "Don't rush through Chapter 3 — the Pagoda Realm is easy to miss. The Chu-Bai Spear is worth the effort and remains viable through endgame.",
+    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+  },
+  {
+    id: 31,
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "The Five Element Carts",
+    location: "Chapter 3 – Woods of Ember",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Elemental crafting materials, unique Spirits",
+    summary:
+      "After defeating the Pale-Axe Stalwart in the Woods of Ember, speak with him to trigger a psychedelic quest where you battle five sentient, decorated carts — each representing one of the five elements.",
+    aiTip:
+      "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
+    video: "https://www.youtube.com/watch?v=T4DFKOlrXCQ"
+  },
+  {
+    id: 32,
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "Yin Tiger – The Blacksmith's Challenge",
+    location: "Chapter 3 – Zodiac Village",
+    length: "short",
+    difficulty: "High",
+    reward: "Smithing upgrades, unique equipment",
+    summary:
+      "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
+    aiTip:
+      "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential."
   }
 ];
