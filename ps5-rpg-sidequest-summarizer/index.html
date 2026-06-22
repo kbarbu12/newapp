@@ -27,15 +27,7 @@
           <option value="all">All games</option>
         </select>
 
-        <div id="chapterFilterGroup" class="sub-filter" style="display:none;">
-          <label for="chapterFilter">Chapter</label>
-          <select id="chapterFilter">
-            <option value="all">All chapters</option>
-            <option value="1">Chapter 1 – Black Wind Mountain</option>
-            <option value="2">Chapter 2 – Yellow Wind Ridge</option>
-            <option value="3">Chapter 3 – Yellowbrow</option>
-          </select>
-        </div>
+        <div id="subFilterContainer"></div>
 
         <div id="videoFilterGroup" class="sub-filter" style="display:none;">
           <label for="videoFilter">Walkthrough</label>
@@ -69,6 +61,7 @@
       Built as a mock GitHub-ready project for learning AI-assisted app workflows.
     </footer>
 
-    <script type="module" src="src/app.js"></script>
+    <script src="data/quests.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-export const gameImages = {
+const gameImages = {
   "Baldur's Gate 3": {
     gradient: "linear-gradient(135deg, #1a0a2e 0%, #6b21a8 50%, #c084fc 100%)",
     abbr: "BG3",
@@ -19,7 +19,7 @@ export const gameImages = {
     abbr: "CP77",
     cover: "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
   },
-  "The Witcher 3: Wild Hunt Complete Edition": {
+  "The Witcher 3: Wild Hunt": {
     gradient: "linear-gradient(135deg, #0a1a0a 0%, #15803d 50%, #4ade80 100%)",
     abbr: "TW3",
     cover: "https://upload.wikimedia.org/wikipedia/en/0/06/The_Witcher_3_cover_art.jpg"
@@ -46,7 +46,30 @@ export const gameImages = {
   }
 };
 
-export const quests = [
+const subFilterConfig = {
+  "Black Myth: Wukong": {
+    field: "chapter",
+    label: "Chapter",
+    options: [
+      { value: "1", text: "Chapter 1 – Black Wind Mountain" },
+      { value: "2", text: "Chapter 2 – Yellow Wind Ridge" },
+      { value: "3", text: "Chapter 3 – Yellowbrow" }
+    ]
+  },
+  "The Witcher 3: Wild Hunt": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "White Orchard", text: "White Orchard" },
+      { value: "Velen", text: "Velen" },
+      { value: "Novigrad", text: "Novigrad" },
+      { value: "Skellige", text: "Skellige" },
+      { value: "Toussaint", text: "Toussaint (Blood & Wine)" }
+    ]
+  }
+};
+
+const quests = [
   {
     id: 1,
     game: "Baldur's Gate 3",
@@ -205,33 +228,38 @@ export const quests = [
   },
   {
     id: 13,
-    game: "The Witcher 3: Wild Hunt Complete Edition",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
     title: "The Bloody Baron",
-    location: "Velen",
+    location: "Crow's Perch, Velen",
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, moral consequences",
     summary:
       "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
     aiTip:
-      "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves."
+      "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
   },
   {
     id: 14,
-    game: "The Witcher 3: Wild Hunt Complete Edition",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
     title: "A Towerful of Mice",
-    location: "Fyke Isle",
+    location: "Fyke Isle, Velen",
     length: "medium",
     difficulty: "Medium",
     reward: "XP, story outcome, Keira Metz progression",
     summary:
       "A haunted-island investigation mixing tragedy, curses, and player judgment. The best outcome depends on careful questioning and skepticism.",
     aiTip:
-      "Use Witcher senses thoroughly and think carefully before trusting supernatural characters."
+      "Use Witcher senses thoroughly and think carefully before trusting supernatural characters.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
   },
   {
     id: 15,
-    game: "The Witcher 3: Wild Hunt Complete Edition",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
     title: "Carnal Sins",
     location: "Novigrad",
     length: "medium",
@@ -240,7 +268,8 @@ export const quests = [
     summary:
       "A murder mystery in Novigrad where Geralt must identify a serial killer targeting religious figures. The investigation has a false lead that can result in killing the wrong suspect.",
     aiTip:
-      "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome."
+      "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
   },
   {
     id: 16,
@@ -477,5 +506,184 @@ export const quests = [
       "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
     aiTip:
       "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential."
+  },
+  {
+    id: 33,
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Devil by the Well",
+    location: "Abandoned Village, White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, XP, early Witcher contract experience",
+    summary:
+      "Geralt's first Witcher contract — investigate a haunted well and defeat the Noonwraith lurking there. A perfect introduction to the investigation-then-combat loop that defines the game.",
+    aiTip:
+      "Use Yrden sign during the fight and read the bestiary entry. This quest teaches core mechanics you'll use for 100+ hours.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+  },
+  {
+    id: 34,
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Missing in Action",
+    location: "Battlefield, White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, gold, introduction to moral choices",
+    summary:
+      "Help a soldier's brother search a battlefield for his missing sibling. A short quest that introduces the game's moral ambiguity early — things are rarely what they seem.",
+    aiTip:
+      "Pay attention to dialogue — the 'right' answer isn't obvious. This sets the tone for how Witcher 3 handles choices throughout.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+  },
+  {
+    id: 35,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Whispering Hillock",
+    location: "Ancient Oak, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Major story branch, affects Bloody Baron outcome",
+    summary:
+      "Investigate a mysterious voice trapped beneath an ancient tree. Your choice here directly impacts the Bloody Baron questline and the fate of the orphans of Crookback Bog — one of the game's most agonizing moral dilemmas.",
+    aiTip:
+      "There is no 'good' outcome — every choice has a cost. Save before deciding and consider which consequences you can live with.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+  },
+  {
+    id: 36,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Return to Crookback Bog",
+    location: "Crookback Bog, Velen",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story resolution, emotional payoff",
+    summary:
+      "Return to the Crones' domain to confront the consequences of your earlier choices. A harrowing quest that brings the Velen storyline to its conclusion with a boss fight and devastating narrative beats.",
+    aiTip:
+      "Prepare for a tough fight with multiple enemies. Your choices from The Whispering Hillock determine what you face here.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+  },
+  {
+    id: 37,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Dangerous Game",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare Gwent cards, gold",
+    summary:
+      "Help Zoltan recover a collection of rare Gwent cards stolen by Novigrad's criminal underworld. A quest that blends intrigue, combat, and the game's beloved card game into one adventure.",
+    aiTip:
+      "Keep all three cards at the end for Gwent collection progress. The monetary reward for returning them isn't worth it compared to the cards' value.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+  },
+  {
+    id: 38,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Now or Never",
+    location: "Novigrad",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Triss romance path, major story consequence",
+    summary:
+      "Help Triss smuggle persecuted mages out of Novigrad before the witch hunters close in. A tense, emotionally charged quest that determines Geralt's romantic future and the fate of Novigrad's mage population.",
+    aiTip:
+      "This is your last chance to commit to Triss's romance. If you tell her to stay at the docks, the romance locks in — choose carefully.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+  },
+  {
+    id: 39,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Lord of Undvik",
+    location: "Undvik, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "XP, Hjalmar's loyalty, succession influence",
+    summary:
+      "Track Hjalmar an Craite to the island of Undvik where he's hunting an ice giant. A sprawling adventure across a frozen island filled with environmental storytelling, puzzles, and one of the game's most cinematic boss fights.",
+    aiTip:
+      "Explore the entire island before confronting the giant — there's a companion to rescue and environmental clues that enrich the story enormously.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+  },
+  {
+    id: 40,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Possession",
+    location: "Svorlag, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cerys's loyalty, succession influence",
+    summary:
+      "Help Cerys an Craite investigate a jarl's baby who seems cursed. A quest that blends detective work with Skellige folklore, culminating in a clever solution that proves Cerys's leadership qualities.",
+    aiTip:
+      "Follow Cerys's lead and trust her plan — it's unconventional but it works. This quest is key if you want Cerys to rule Skellige.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+  },
+  {
+    id: 41,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Phantom of Eldberg",
+    location: "Eldberg Lighthouse, Skellige",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, XP, lighthouse restoration",
+    summary:
+      "Investigate why the Eldberg lighthouse keeps going dark, leading to a tense nighttime battle against a Penitent wraith. The atmosphere and buildup make this one of the most memorable Witcher contracts.",
+    aiTip:
+      "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost."
+  },
+  {
+    id: 42,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Warble of a Smitten Knight",
+    location: "Tourney Grounds, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Tournament rewards, unique armor, romance option",
+    summary:
+      "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
+    aiTip:
+      "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
+    video: "https://www.youtube.com/playlist?list=PLWfn8XPMjoaP1CV5wL7qtQ2kfAyL0hc8B"
+  },
+  {
+    id: 43,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Beyond Hill and Dale",
+    location: "Land of a Thousand Fables, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, unique location exploration",
+    summary:
+      "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
+    aiTip:
+      "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
+    video: "https://www.youtube.com/playlist?list=PLWfn8XPMjoaP1CV5wL7qtQ2kfAyL0hc8B"
+  },
+  {
+    id: 44,
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Of Swords and Dumplings",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Mastercraft sword upgrades unlocked",
+    summary:
+      "Help a dwarven blacksmith named Hattori reclaim his smithing business from the Novigrad underworld. Completing this unlocks the ability to craft the best Witcher swords in the game.",
+    aiTip:
+      "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
+    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
   }
 ];
