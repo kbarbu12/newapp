@@ -86,6 +86,7 @@ function createQuestCard(quest) {
         <p>${quest.aiTip}</p>
       </div>
       <p class="reward"><strong>Reward:</strong> ${quest.reward}</p>
+      ${quest.video ? `<a class="video-link" href="${quest.video}" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>` : ""}
     </div>
   `;
 
@@ -124,5 +125,5 @@ renderQuests();
 
 searchInput.addEventListener("input", renderQuests);
 gameFilter.addEventListener("change", renderQuests);
-lengthFilter.addEventListener("click", resetFilters);
+lengthFilter.addEventListener("change", renderQuests);
 resetButton.addEventListener("click", resetFilters);

@@ -223,6 +223,23 @@ button:hover {
   margin-bottom: 0;
 }
 
+.video-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #dc2626 0%, #f97316 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: filter 0.15s;
+}
+
+.video-link:hover {
+  filter: brightness(1.15);
+}
+
 .empty-state {
   padding: 2rem;
   grid-column: 1 / -1;
