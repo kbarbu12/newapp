@@ -362,6 +362,7 @@ export const quests = [
   {
     id: 25,
     game: "Black Myth: Wukong",
+    chapter: 1,
     title: "The Three Bells",
     location: "Chapter 1 – Black Wind Mountain",
     length: "long",
@@ -376,6 +377,7 @@ export const quests = [
   {
     id: 26,
     game: "Black Myth: Wukong",
+    chapter: 1,
     title: "The Red Loong",
     location: "Chapter 1 – Forest of Wolves",
     length: "medium",
@@ -390,6 +392,7 @@ export const quests = [
   {
     id: 27,
     game: "Black Myth: Wukong",
+    chapter: 2,
     title: "The Drunken Boar – Kingdom of Sahali",
     location: "Chapter 2 – Rockrest Flat",
     length: "long",
@@ -404,6 +407,7 @@ export const quests = [
   {
     id: 28,
     game: "Black Myth: Wukong",
+    chapter: 2,
     title: "The Black Loong",
     location: "Chapter 2 – Rockrest Flat",
     length: "medium",
@@ -418,6 +422,7 @@ export const quests = [
   {
     id: 29,
     game: "Black Myth: Wukong",
+    chapter: 2,
     title: "Shigandang – The Stone Giant",
     location: "Chapter 2 – Rockrest Flat",
     length: "short",
@@ -432,6 +437,7 @@ export const quests = [
   {
     id: 30,
     game: "Black Myth: Wukong",
+    chapter: 3,
     title: "The Prisoner – Pagoda Realm",
     location: "Chapter 3 – Pagoda Realm",
     length: "long",
@@ -446,6 +452,7 @@ export const quests = [
   {
     id: 31,
     game: "Black Myth: Wukong",
+    chapter: 3,
     title: "The Five Element Carts",
     location: "Chapter 3 – Woods of Ember",
     length: "medium",
@@ -460,6 +467,7 @@ export const quests = [
   {
     id: 32,
     game: "Black Myth: Wukong",
+    chapter: 3,
     title: "Yin Tiger – The Blacksmith's Challenge",
     location: "Chapter 3 – Zodiac Village",
     length: "short",
