@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PS5 RPG Side Quest Summarizer</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Mock AI Course Project</p>
+        <h1>PS5 RPG Side Quest Summarizer</h1>
+        <p class="subtitle">
+          Browse, filter, and summarize memorable side quests from popular RPG games on PS5.
+        </p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel controls" aria-label="Quest filters">
+        <label for="searchInput">Search quests</label>
+        <input id="searchInput" type="search" placeholder="Try: companion, boss, reward..." />
+
+        <label for="gameFilter">Game</label>
+        <select id="gameFilter">
+          <option value="all">All games</option>
+        </select>
+
+        <label for="lengthFilter">Quest length</label>
+        <select id="lengthFilter">
+          <option value="all">Any length</option>
+          <option value="short">Short</option>
+          <option value="medium">Medium</option>
+          <option value="long">Long</option>
+        </select>
+
+        <button id="resetButton" type="button">Reset filters</button>
+      </section>
+
+      <section class="content">
+        <div class="results-header">
+          <h2>Quest Library</h2>
+          <span id="resultCount" class="result-count"></span>
+        </div>
+        <div id="questGrid" class="quest-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      Built as a mock GitHub-ready project for learning AI-assisted app workflows.
+    </footer>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
