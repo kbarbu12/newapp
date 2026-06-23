@@ -158,12 +158,7 @@
       img.cover +
       '" alt="' +
       quest.game +
-      ' cover art" class="card-banner-img" onerror="this.style.display=\'none\'; this.nextElementSibling.style.display=\'flex\';" />' +
-      '<div class="card-banner-fallback" style="display:none;">' +
-      '<span class="banner-abbr">' +
-      img.abbr +
-      "</span>" +
-      "</div>" +
+      '" class="card-banner-img" />' +
       "</div>" +
       '<div class="card-body">' +
       '<div class="card-topline">' +

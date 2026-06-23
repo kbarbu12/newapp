@@ -2,67 +2,67 @@ const gameImages = {
   "Baldur's Gate 3": {
     gradient: "linear-gradient(135deg, #1a0a2e 0%, #6b21a8 50%, #c084fc 100%)",
     abbr: "BG3",
-    cover: "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg"
+    cover: "images/baldurs-gate-3.svg"
   },
   "Elden Ring": {
     gradient: "linear-gradient(135deg, #1c1a00 0%, #a16207 50%, #fbbf24 100%)",
     abbr: "ER",
-    cover: "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
+    cover: "images/elden-ring.svg"
   },
   "Final Fantasy VII Rebirth": {
     gradient: "linear-gradient(135deg, #0a1628 0%, #1d4ed8 50%, #60a5fa 100%)",
     abbr: "FF7R",
-    cover: "https://upload.wikimedia.org/wikipedia/en/3/35/Final_Fantasy_VII_Rebirth_cover_art.jpg"
+    cover: "images/ff7-rebirth.svg"
   },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
     abbr: "CP77",
-    cover: "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
+    cover: "images/cyberpunk-2077.svg"
   },
   "The Witcher 3: Wild Hunt": {
     gradient: "linear-gradient(135deg, #0a1a0a 0%, #15803d 50%, #4ade80 100%)",
     abbr: "TW3",
-    cover: "https://upload.wikimedia.org/wikipedia/en/0/06/The_Witcher_3_cover_art.jpg"
+    cover: "images/witcher-3.svg"
   },
   "Metaphor: ReFantazio": {
     gradient: "linear-gradient(135deg, #1a0a1e 0%, #9333ea 50%, #f0abfc 100%)",
     abbr: "MRF",
-    cover: "https://upload.wikimedia.org/wikipedia/en/a/a2/Metaphor_ReFantazio_cover_art.png"
+    cover: "images/metaphor-refantazio.svg"
   },
   "Demon's Souls": {
     gradient: "linear-gradient(135deg, #0d0d1a 0%, #374151 50%, #9ca3af 100%)",
     abbr: "DS",
-    cover: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_2020_cover_art.jpg"
+    cover: "images/demons-souls.svg"
   },
   "Hogwarts Legacy": {
     gradient: "linear-gradient(135deg, #1a0f00 0%, #92400e 50%, #f59e0b 100%)",
     abbr: "HL",
-    cover: "https://upload.wikimedia.org/wikipedia/en/e/e8/Hogwarts_Legacy_cover_art.png"
+    cover: "images/hogwarts-legacy.svg"
   },
   "Black Myth: Wukong": {
     gradient: "linear-gradient(135deg, #1a0800 0%, #b45309 50%, #f97316 100%)",
     abbr: "BMW",
-    cover: "https://upload.wikimedia.org/wikipedia/en/f/f4/Black_Myth_Wukong_cover_art.jpg"
+    cover: "images/black-myth-wukong.svg"
   },
   "God of War Ragnarök": {
     gradient: "linear-gradient(135deg, #1a3a5c 0%, #4a8bc2 50%, #8fb8de 100%)",
     abbr: "GOW",
-    cover: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg"
+    cover: "images/god-of-war-ragnarok.svg"
   },
   "Persona 5 Royal": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #d40000 50%, #ff1a1a 100%)",
     abbr: "P5R",
-    cover: "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_Royal.jpg"
+    cover: "images/persona-5-royal.svg"
   },
   "Ghost of Tsushima": {
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #c4a35a 50%, #e8d5a3 100%)",
     abbr: "GOT",
-    cover: "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg"
+    cover: "images/ghost-of-tsushima.svg"
   },
   "Horizon Forbidden West": {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
     abbr: "HFW",
-    cover: "https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg"
+    cover: "images/horizon-forbidden-west.svg"
   }
 };
 
