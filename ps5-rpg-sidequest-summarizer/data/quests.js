@@ -43,6 +43,26 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #1a0800 0%, #b45309 50%, #f97316 100%)",
     abbr: "BMW",
     cover: "https://upload.wikimedia.org/wikipedia/en/f/f4/Black_Myth_Wukong_cover_art.jpg"
+  },
+  "God of War Ragnarök": {
+    gradient: "linear-gradient(135deg, #1a3a5c 0%, #4a8bc2 50%, #8fb8de 100%)",
+    abbr: "GOW",
+    cover: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg"
+  },
+  "Persona 5 Royal": {
+    gradient: "linear-gradient(135deg, #1a0a0a 0%, #d40000 50%, #ff1a1a 100%)",
+    abbr: "P5R",
+    cover: "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_Royal.jpg"
+  },
+  "Ghost of Tsushima": {
+    gradient: "linear-gradient(135deg, #1a1a2e 0%, #c4a35a 50%, #e8d5a3 100%)",
+    abbr: "GOT",
+    cover: "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg"
+  },
+  "Horizon Forbidden West": {
+    gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
+    abbr: "HFW",
+    cover: "https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg"
   }
 };
 
@@ -685,5 +705,161 @@ const quests = [
     aiTip:
       "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
     video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+  },
+  {
+    id: 45,
+    game: "God of War Ragnarök",
+    title: "The Lost Lindwyrms",
+    location: "Svartalfheim & Vanaheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Gale Flame, Lindwyrm Scales, 4500 XP",
+    summary:
+      "Ratatoskr tasks Kratos with capturing six escaped Lindwyrms scattered across Svartalfheim and Vanaheim. The quest involves tracking down creatures in hidden locations across two realms while enjoying Ratatoskr's sharp-tongued banter.",
+    aiTip:
+      "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade."
+  },
+  {
+    id: 46,
+    game: "God of War Ragnarök",
+    title: "Defend Your Valor",
+    location: "Muspelheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Queen's Armor, Queen's Roar Runic Summon, 4000 XP",
+    summary:
+      "Freya seeks to reclaim her Valkyrie title by defeating Gná, one of the toughest bosses in the game. This endgame favour tests your combat mastery in an intense one-on-one battle.",
+    aiTip:
+      "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight."
+  },
+  {
+    id: 47,
+    game: "God of War Ragnarök",
+    title: "Freyr's Gift",
+    location: "The Forbidden Sands, Alfheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Invoke the Storm Runic Summon, Whispering Slabs",
+    summary:
+      "A brief but lore-rich favour at a large statue west of The Burrows in Alfheim. Kratos solves a light crystal puzzle to activate Freyr's monument while Mimir narrates the history of elven cooperation.",
+    aiTip:
+      "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability."
+  },
+  {
+    id: 48,
+    game: "Persona 5 Royal",
+    title: "A Teacher Maid to Suffer",
+    location: "Path of Adyeshach, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unlocks Temperance Confidant Rank 9 (Kawakami)",
+    summary:
+      "Kawakami's exploitative former employers must have their hearts changed in Mementos. This request unlocks after reaching Rank 8 with the Temperance Confidant and is required to continue her storyline.",
+    aiTip:
+      "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game."
+  },
+  {
+    id: 49,
+    game: "Persona 5 Royal",
+    title: "Winners Don't Use Cheats",
+    location: "Path of Chemdah, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unlocks Tower Confidant (Shinya Oda)",
+    summary:
+      "Mishima reports a kid terrorizing an arcade with impossible win streaks. The target Shadow Nejima evades all attacks on the first encounter, forcing you to return with help from Shinya Oda.",
+    aiTip:
+      "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits."
+  },
+  {
+    id: 50,
+    game: "Persona 5 Royal",
+    title: "One Who Bullies Bullies",
+    location: "Path of Aiyatsbus, Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Protein, Moon Confidant progression",
+    summary:
+      "After dealing with a school bully in a prior request, Mishima discovers a master bully coercing others into tormenting students. Eavesdrop at the school gate to identify the target before heading to Mementos.",
+    aiTip:
+      "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses."
+  },
+  {
+    id: 51,
+    game: "Ghost of Tsushima",
+    title: "The Spirit of Yarikawa's Vengeance",
+    location: "Ruins of Old Yarikawa, Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dance of Wrath combat technique, Omukade's Revenge Sword Kit",
+    summary:
+      "This Mythic Tale sends Jin to the ruins of Old Yarikawa to confront a vengeful spirit. After finding pillars of white smoke and collecting offerings, a tense duel awaits in the Garden of the Gods.",
+    aiTip:
+      "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints."
+  },
+  {
+    id: 52,
+    game: "Ghost of Tsushima",
+    title: "The Curse of Uchitsune",
+    location: "Hiyoshi Springs, Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Uchitsune's Longbow, Heavy & Explosive Arrows",
+    summary:
+      "A musician's tale leads Jin on a treasure hunt across painted landmarks to find the legendary Longbow of Uchitsune. Picking up the cursed weapon triggers a hallucination and a duel with a Tengu Demon.",
+    aiTip:
+      "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game."
+  },
+  {
+    id: 53,
+    game: "Ghost of Tsushima",
+    title: "The Tale of Sensei Ishikawa",
+    location: "Hiyoshi Springs, Izuhara",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Half Bow, Kunai Ghost Weapon, Major Legend Increase",
+    summary:
+      "A nine-mission questline spanning all three regions of Tsushima following archery master Ishikawa as he tracks his former student Tomoe. The story is a poignant tale of betrayal, duty, and redemption.",
+    aiTip:
+      "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard."
+  },
+  {
+    id: 54,
+    game: "Horizon Forbidden West",
+    title: "Blood for Blood",
+    location: "Memorial Grove, Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Perimeter Tripcaster, 2 Skill Points, 4750 XP",
+    summary:
+      "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
+    aiTip:
+      "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels."
+  },
+  {
+    id: 55,
+    game: "Horizon Forbidden West",
+    title: "Forbidden Legacy",
+    location: "Legacy's Landfall, San Francisco",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Utaru Protector Outfit, 3 Skill Points, 7500 XP",
+    summary:
+      "Alva discovers data about Leviathan, a defunct flood control system in the Great Delta. She and Aloy explore the ruins of Atbay Global Infrastructure in San Francisco to recover critical repair data.",
+    aiTip:
+      "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations."
+  },
+  {
+    id: 56,
+    game: "Horizon Forbidden West",
+    title: "The Gate of the Vanquished",
+    location: "Scalding Spear, Desert",
+    length: "long",
+    difficulty: "High",
+    reward: "Firestorm Warrior Bow, 3 Skill Points, 4125 XP",
+    summary:
+      "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
+    aiTip:
+      "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision."
   }
 ];

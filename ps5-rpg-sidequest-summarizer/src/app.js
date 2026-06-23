@@ -2,12 +2,15 @@
   var searchInput = document.querySelector("#searchInput");
   var gameFilter = document.querySelector("#gameFilter");
   var lengthFilter = document.querySelector("#lengthFilter");
+  var difficultyFilter = document.querySelector("#difficultyFilter");
   var videoFilter = document.querySelector("#videoFilter");
   var videoFilterGroup = document.querySelector("#videoFilterGroup");
   var subFilterContainer = document.querySelector("#subFilterContainer");
   var resetButton = document.querySelector("#resetButton");
   var questGrid = document.querySelector("#questGrid");
   var resultCount = document.querySelector("#resultCount");
+  var filterPanel = document.querySelector("#filterPanel");
+  var filterToggle = document.querySelector("#mobileFilterToggle");
 
   var activeSubFilter = null;
   var uniqueGames = [];
@@ -104,6 +107,7 @@
     var searchTerm = normalize(searchInput.value);
     var selectedGame = gameFilter.value;
     var selectedLength = lengthFilter.value;
+    var selectedDifficulty = difficultyFilter.value;
     var selectedVideo = videoFilter.value;
 
     var subValue = "all";
@@ -117,10 +121,11 @@
       var matchesSearch = !searchTerm || questMatchesSearch(quest, searchTerm);
       var matchesGame = selectedGame === "all" || quest.game === selectedGame;
       var matchesLength = selectedLength === "all" || quest.length === selectedLength;
+      var matchesDifficulty = selectedDifficulty === "all" || quest.difficulty === selectedDifficulty;
       var matchesVideo = selectedVideo === "all" || (selectedVideo === "video" && quest.video);
       var matchesSub = subValue === "all" || String(quest[subField]) === subValue;
 
-      return matchesSearch && matchesGame && matchesLength && matchesVideo && matchesSub;
+      return matchesSearch && matchesGame && matchesLength && matchesDifficulty && matchesVideo && matchesSub;
     });
   }
 
@@ -142,6 +147,8 @@
         quest.video +
         '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>'
       : "";
+
+    var diffClass = quest.difficulty.toLowerCase();
 
     article.innerHTML =
       '<div class="card-banner" style="' +
@@ -171,20 +178,18 @@
       "</div>" +
       "<h3>" +
       quest.title +
+      ' <span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
       "</h3>" +
       chapterHtml +
       regionHtml +
       '<p class="meta"><strong>Location:</strong> ' +
       quest.location +
       "</p>" +
-      '<p class="meta"><strong>Difficulty:</strong> ' +
-      quest.difficulty +
-      "</p>" +
-      "<p>" +
+      '<p class="summary-text">' +
       quest.summary +
       "</p>" +
-      '<div class="summary-box">' +
-      "<strong>AI-style recommendation:</strong>" +
+      '<div class="tip-box">' +
+      "<strong>Tip</strong>" +
       "<p>" +
       quest.aiTip +
       "</p>" +
@@ -202,7 +207,7 @@
     var filteredQuests = getFilteredQuests();
     questGrid.innerHTML = "";
     resultCount.textContent =
-      filteredQuests.length + " result" + (filteredQuests.length === 1 ? "" : "s");
+      filteredQuests.length + " quest" + (filteredQuests.length === 1 ? "" : "s");
 
     if (filteredQuests.length === 0) {
       questGrid.innerHTML =
@@ -222,6 +227,7 @@
     searchInput.value = "";
     gameFilter.value = "all";
     lengthFilter.value = "all";
+    difficultyFilter.value = "all";
     videoFilter.value = "all";
     updateSubFilters();
     renderQuests();
@@ -232,12 +238,18 @@
     renderQuests();
   }
 
+  function toggleFilters() {
+    filterPanel.classList.toggle("open");
+  }
+
   populateGameFilter();
   renderQuests();
 
   searchInput.addEventListener("input", renderQuests);
   gameFilter.addEventListener("change", onGameChange);
   lengthFilter.addEventListener("change", renderQuests);
+  difficultyFilter.addEventListener("change", renderQuests);
   videoFilter.addEventListener("change", renderQuests);
   resetButton.addEventListener("click", resetFilters);
+  filterToggle.addEventListener("click", toggleFilters);
 })();
