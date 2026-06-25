@@ -213,8 +213,10 @@
       return;
     }
 
-    filteredQuests.forEach(function (quest) {
-      questGrid.appendChild(createQuestCard(quest));
+    filteredQuests.forEach(function (quest, index) {
+      var card = createQuestCard(quest);
+      card.style.animationDelay = Math.min(index * 0.06, 0.6) + "s";
+      questGrid.appendChild(card);
     });
   }
 

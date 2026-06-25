@@ -17,6 +17,32 @@
   margin: 0;
 }
 
+/* ── Keyframes ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(108, 140, 255, 0.4); }
+  50% { box-shadow: 0 4px 28px rgba(108, 140, 255, 0.65); }
+}
+
 body {
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   background: var(--bg);
@@ -37,6 +63,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  animation: slideDown 0.5s ease both;
 }
 
 .nav-brand {
@@ -80,6 +107,7 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
+  animation: fadeInUp 0.6s ease both;
 }
 
 h1 {
@@ -87,6 +115,7 @@ h1 {
   font-weight: 900;
   line-height: 1.05;
   letter-spacing: -0.03em;
+  animation: fadeInUp 0.7s ease 0.1s both;
 }
 
 .subtitle {
@@ -97,6 +126,7 @@ h1 {
   max-width: 540px;
   margin-left: auto;
   margin-right: auto;
+  animation: fadeInUp 0.7s ease 0.2s both;
 }
 
 .hero-search {
@@ -105,6 +135,7 @@ h1 {
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
+  animation: fadeInUp 0.7s ease 0.35s both;
 }
 
 .search-icon {
@@ -130,7 +161,7 @@ h1 {
 
 .hero-search input:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-dim);
+  box-shadow: 0 0 0 3px var(--accent-dim), 0 0 20px rgba(108, 140, 255, 0.1);
 }
 
 .hero-search input::placeholder {
@@ -160,6 +191,7 @@ h1 {
   top: 4rem;
   height: fit-content;
   padding: 1.25rem;
+  animation: fadeIn 0.5s ease 0.3s both;
 }
 
 .filter-header {
@@ -215,7 +247,7 @@ select {
   font-size: 0.9rem;
   cursor: pointer;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
   -webkit-appearance: none;
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%238c95aa' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -226,6 +258,7 @@ select {
 
 select:focus {
   border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-dim);
 }
 
 .sub-filter {
@@ -272,13 +305,14 @@ select:focus {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: fadeInUp 0.5s ease both;
 }
 
 .quest-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-  border-color: rgba(108, 140, 255, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(108, 140, 255, 0.15);
+  border-color: rgba(108, 140, 255, 0.35);
 }
 
 .card-banner {
@@ -295,6 +329,11 @@ select:focus {
   height: 100%;
   object-fit: cover;
   object-position: top center;
+  transition: transform 0.4s ease;
+}
+
+.quest-card:hover .card-banner-img {
+  transform: scale(1.08);
 }
 
 .card-banner-fallback {
@@ -480,9 +519,14 @@ select:focus {
   padding: 0;
 }
 
+.chat-toggle {
+  animation: scaleIn 0.4s ease 1s both, pulse 3s ease-in-out 2s infinite;
+}
+
 .chat-toggle:hover {
-  transform: scale(1.08);
-  box-shadow: 0 6px 28px rgba(108, 140, 255, 0.5);
+  transform: scale(1.12);
+  box-shadow: 0 6px 28px rgba(108, 140, 255, 0.55);
+  animation: none;
 }
 
 .chat-panel {
@@ -498,6 +542,8 @@ select:focus {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  animation: scaleIn 0.25s ease both;
+  transform-origin: bottom right;
 }
 
 .chat-header {
