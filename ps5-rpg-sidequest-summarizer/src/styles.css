@@ -30,8 +30,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(108, 140, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(108, 140, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(108, 140, 255, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(108, 140, 255, 0.09) 1px, transparent 1px);
   background-size: 60px 60px;
   animation: gridDrift 20s linear infinite;
 }
@@ -45,7 +45,7 @@
 .bg-orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(108, 140, 255, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(108, 140, 255, 0.22) 0%, transparent 70%);
   top: -10%;
   left: -5%;
   animation: orbFloat1 25s ease-in-out infinite;
@@ -54,7 +54,7 @@
 .bg-orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(192, 132, 252, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.18) 0%, transparent 70%);
   top: 40%;
   right: -8%;
   animation: orbFloat2 30s ease-in-out infinite;
@@ -63,7 +63,7 @@
 .bg-orb-3 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle, rgba(74, 222, 128, 0.04) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(74, 222, 128, 0.14) 0%, transparent 70%);
   bottom: -5%;
   left: 30%;
   animation: orbFloat3 22s ease-in-out infinite;
@@ -89,14 +89,14 @@
   background: var(--accent);
 }
 
-.bg-p1 { width: 3px; height: 3px; top: 15%; left: 10%; animation: particleRise 12s linear infinite; opacity: 0.3; }
-.bg-p2 { width: 2px; height: 2px; top: 25%; left: 30%; animation: particleRise 15s linear 2s infinite; opacity: 0.2; }
-.bg-p3 { width: 4px; height: 4px; top: 45%; left: 55%; animation: particleRise 10s linear 4s infinite; opacity: 0.15; }
-.bg-p4 { width: 2px; height: 2px; top: 60%; left: 75%; animation: particleRise 14s linear 1s infinite; opacity: 0.25; }
-.bg-p5 { width: 3px; height: 3px; top: 70%; left: 20%; animation: particleRise 16s linear 3s infinite; opacity: 0.2; }
-.bg-p6 { width: 2px; height: 2px; top: 35%; left: 85%; animation: particleRise 11s linear 5s infinite; opacity: 0.15; }
-.bg-p7 { width: 3px; height: 3px; top: 80%; left: 45%; animation: particleRise 13s linear 7s infinite; opacity: 0.2; }
-.bg-p8 { width: 2px; height: 2px; top: 50%; left: 65%; animation: particleRise 17s linear 6s infinite; opacity: 0.15; }
+.bg-p1 { width: 4px; height: 4px; top: 15%; left: 10%; animation: particleRise 12s linear infinite; opacity: 0.6; background: #6c8cff; box-shadow: 0 0 6px #6c8cff; }
+.bg-p2 { width: 3px; height: 3px; top: 25%; left: 30%; animation: particleRise 15s linear 2s infinite; opacity: 0.5; background: #c084fc; box-shadow: 0 0 6px #c084fc; }
+.bg-p3 { width: 5px; height: 5px; top: 45%; left: 55%; animation: particleRise 10s linear 4s infinite; opacity: 0.45; background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+.bg-p4 { width: 3px; height: 3px; top: 60%; left: 75%; animation: particleRise 14s linear 1s infinite; opacity: 0.55; background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+.bg-p5 { width: 4px; height: 4px; top: 70%; left: 20%; animation: particleRise 16s linear 3s infinite; opacity: 0.5; background: #f87171; box-shadow: 0 0 6px #f87171; }
+.bg-p6 { width: 3px; height: 3px; top: 35%; left: 85%; animation: particleRise 11s linear 5s infinite; opacity: 0.45; background: #6c8cff; box-shadow: 0 0 6px #6c8cff; }
+.bg-p7 { width: 4px; height: 4px; top: 80%; left: 45%; animation: particleRise 13s linear 7s infinite; opacity: 0.5; background: #c084fc; box-shadow: 0 0 6px #c084fc; }
+.bg-p8 { width: 3px; height: 3px; top: 50%; left: 65%; animation: particleRise 17s linear 6s infinite; opacity: 0.5; background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
 
 /* ── Keyframes ── */
 @keyframes fadeInUp {
@@ -180,9 +180,9 @@
 
 @keyframes particleRise {
   0% { transform: translateY(0) translateX(0); opacity: 0; }
-  10% { opacity: 0.3; }
-  90% { opacity: 0.1; }
-  100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
+  8% { opacity: 0.7; }
+  85% { opacity: 0.3; }
+  100% { transform: translateY(-100vh) translateX(40px); opacity: 0; }
 }
 
 body {
