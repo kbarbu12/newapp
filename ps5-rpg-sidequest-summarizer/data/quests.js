@@ -2,67 +2,67 @@ const gameImages = {
   "Baldur's Gate 3": {
     gradient: "linear-gradient(135deg, #1a0a2e 0%, #6b21a8 50%, #c084fc 100%)",
     abbr: "BG3",
-    cover: "images/baldurs-gate-3.svg"
+    cover: "images/baldurs-gate-3-cover.jpg"
   },
   "Elden Ring": {
     gradient: "linear-gradient(135deg, #1c1a00 0%, #a16207 50%, #fbbf24 100%)",
     abbr: "ER",
-    cover: "images/elden-ring.svg"
+    cover: "images/elden-ring-cover.jpg"
   },
   "Final Fantasy VII Rebirth": {
     gradient: "linear-gradient(135deg, #0a1628 0%, #1d4ed8 50%, #60a5fa 100%)",
     abbr: "FF7R",
-    cover: "images/ff7-rebirth.svg"
+    cover: "images/ff7-rebirth-cover.jpg"
   },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
     abbr: "CP77",
-    cover: "images/cyberpunk-2077.svg"
+    cover: "images/cyberpunk-2077-cover.jpg"
   },
   "The Witcher 3: Wild Hunt": {
     gradient: "linear-gradient(135deg, #0a1a0a 0%, #15803d 50%, #4ade80 100%)",
     abbr: "TW3",
-    cover: "images/witcher-3.svg"
+    cover: "images/witcher-3-cover.jpg"
   },
   "Metaphor: ReFantazio": {
     gradient: "linear-gradient(135deg, #1a0a1e 0%, #9333ea 50%, #f0abfc 100%)",
     abbr: "MRF",
-    cover: "images/metaphor-refantazio.svg"
+    cover: "images/metaphor-refantazio-cover.jpg"
   },
   "Demon's Souls": {
     gradient: "linear-gradient(135deg, #0d0d1a 0%, #374151 50%, #9ca3af 100%)",
     abbr: "DS",
-    cover: "images/demons-souls.svg"
+    cover: "images/demons-souls-cover.jpg"
   },
   "Hogwarts Legacy": {
     gradient: "linear-gradient(135deg, #1a0f00 0%, #92400e 50%, #f59e0b 100%)",
     abbr: "HL",
-    cover: "images/hogwarts-legacy.svg"
+    cover: "images/hogwarts-legacy-cover.jpg"
   },
   "Black Myth: Wukong": {
     gradient: "linear-gradient(135deg, #1a0800 0%, #b45309 50%, #f97316 100%)",
     abbr: "BMW",
-    cover: "images/black-myth-wukong.svg"
+    cover: "images/black-myth-wukong-cover.jpg"
   },
   "God of War Ragnarök": {
     gradient: "linear-gradient(135deg, #1a3a5c 0%, #4a8bc2 50%, #8fb8de 100%)",
     abbr: "GOW",
-    cover: "images/god-of-war-ragnarok.svg"
+    cover: "images/god-of-war-cover.jpg"
   },
   "Persona 5 Royal": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #d40000 50%, #ff1a1a 100%)",
     abbr: "P5R",
-    cover: "images/persona-5-royal.svg"
+    cover: "images/persona-5-royal-cover.jpg"
   },
   "Ghost of Tsushima": {
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #c4a35a 50%, #e8d5a3 100%)",
     abbr: "GOT",
-    cover: "images/ghost-of-tsushima.svg"
+    cover: "images/ghost-of-tsushima-cover.jpg"
   },
   "Horizon Forbidden West": {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
     abbr: "HFW",
-    cover: "images/horizon-forbidden-west.svg"
+    cover: "images/horizon-forbidden-west-cover.jpg"
   },
   "Pillars of Eternity": {
     gradient: "linear-gradient(135deg, #1a1400 0%, #8b6914 50%, #d4a836 100%)",
