@@ -975,5 +975,616 @@ const quests = [
       "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
     aiTip:
       "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories."
+  },
+  {
+    id: 65,
+    game: "Baldur's Gate 3",
+    title: "Investigate the Suspicious Toys",
+    location: "Lower City, Baldur's Gate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Explosive toys, unique vendor access",
+    summary:
+      "Discover a toymaker whose creations are actually disguised explosives being distributed to children. The investigation leads through the Lower City's criminal networks and forces a moral confrontation.",
+    aiTip:
+      "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker."
+  },
+  {
+    id: 66,
+    game: "Baldur's Gate 3",
+    title: "Free the Artist",
+    location: "Zhentarim Hideout / Grymforge",
+    length: "short",
+    difficulty: "Low",
+    reward: "Oskar's paintings, unique interactions in Act 3",
+    summary:
+      "Rescue the kidnapped painter Oskar from Zhentarim slavers. What seems like a simple rescue sets up a haunting storyline that doesn't resolve until much later in Baldur's Gate itself.",
+    aiTip:
+      "Buy Oskar's freedom rather than fighting — it's cheaper than the healing you'll need. Visit his house in Act 3 for the quest's surprising conclusion."
+  },
+  {
+    id: 67,
+    game: "Baldur's Gate 3",
+    title: "Avenge the Drowned",
+    location: "Lower City, Water Queen's House",
+    length: "medium",
+    difficulty: "High",
+    reward: "Wavemother's Robe, Flooding legendary trident",
+    summary:
+      "The temple of Umberlee demands vengeance against those who wronged the sea goddess. Navigate a web of maritime grudges, underwater exploration, and divine wrath in one of Act 3's most atmospheric quests.",
+    aiTip:
+      "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat."
+  },
+  {
+    id: 68,
+    game: "Baldur's Gate 3",
+    title: "Help Omeluum Investigate the Parasite",
+    location: "Underdark, Myconid Colony",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ring of Mind-Shielding, parasite lore",
+    summary:
+      "A friendly Mind Flayer named Omeluum offers to study your tadpole and brew a potential cure. The quest sends you deep into the Underdark to find rare ingredients while learning more about your condition.",
+    aiTip:
+      "The Tongue of Madness and Timmask Spores are both found in the Underdark biome. Omeluum's potion doesn't cure you, but the ring reward is excellent for resisting psychic attacks."
+  },
+  {
+    id: 69,
+    game: "Baldur's Gate 3",
+    title: "Rescue Wulbren and the Tieflings",
+    location: "Moonrise Towers Prison",
+    length: "long",
+    difficulty: "High",
+    reward: "Allied reinforcements, companion approval",
+    summary:
+      "Infiltrate the prison beneath Moonrise Towers to free captured Tieflings and the gnome inventor Wulbren. A tense stealth-or-combat mission with major consequences for the Ironhand Gnomes and Last Light Inn storylines.",
+    aiTip:
+      "Free the Tieflings first — they can create a diversion. Wulbren's escape route through the docks avoids the heaviest guard patrols."
+  },
+  {
+    id: 70,
+    game: "Elden Ring",
+    title: "Volcano Manor Questline",
+    location: "Mt. Gelmir, Volcano Manor",
+    length: "long",
+    difficulty: "High",
+    reward: "Raging Wolf Set, Taker's Cameo talisman, Serpentbone Blade",
+    summary:
+      "Join a secret assassination covenant within Volcano Manor and hunt down Tarnished targets across the Lands Between. Each contract reveals more about the Manor's sinister mistress, Tanith, and the God-Devouring Serpent.",
+    aiTip:
+      "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions."
+  },
+  {
+    id: 71,
+    game: "Elden Ring",
+    title: "Fia's Questline",
+    location: "Roundtable Hold, Deeproot Depths",
+    length: "long",
+    difficulty: "High",
+    reward: "Mending Rune of the Death-Prince, alternate ending",
+    summary:
+      "Follow the Deathbed Companion Fia through a storyline about Those Who Live in Death. Her quest spans from the Roundtable Hold to the hidden Deeproot Depths and unlocks one of the game's secret endings.",
+    aiTip:
+      "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses."
+  },
+  {
+    id: 72,
+    game: "Elden Ring",
+    title: "Nepheli Loux's Questline",
+    location: "Stormveil Castle, Roundtable Hold, Village of the Albinaurics",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient Dragon Smithing Stone, Stormhawk King ash",
+    summary:
+      "Help the warrior Nepheli find her purpose after being disowned by her adoptive father Gideon. Her journey through betrayal and self-discovery culminates in her becoming the rightful ruler of Limgrave.",
+    aiTip:
+      "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion."
+  },
+  {
+    id: 73,
+    game: "Elden Ring",
+    title: "Goldmask's Questline",
+    location: "Altus Plateau, Leyndell, Mountaintops",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Mending Rune of Perfect Order, alternate ending",
+    summary:
+      "Aid Brother Corhyn and the enigmatic Goldmask in deciphering the fundamental flaws of the Golden Order. A philosophical questline about faith, divinity, and the nature of the Erdtree's rule.",
+    aiTip:
+      "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret."
+  },
+  {
+    id: 74,
+    game: "Final Fantasy VII Rebirth",
+    title: "The Protorelic Quests",
+    location: "Multiple Regions",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Protorelic summon materia, powerful summons",
+    summary:
+      "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
+    aiTip:
+      "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game."
+  },
+  {
+    id: 75,
+    game: "Final Fantasy VII Rebirth",
+    title: "Flowers from the Hill",
+    location: "Kalm Region",
+    length: "short",
+    difficulty: "Low",
+    reward: "Relationship points, crafting materials",
+    summary:
+      "A gentle early quest where Cloud helps a young girl gather rare flowers on the outskirts of Kalm. It establishes the exploration mechanics and rewards careful attention to the environment.",
+    aiTip:
+      "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby."
+  },
+  {
+    id: 76,
+    game: "Final Fantasy VII Rebirth",
+    title: "The Musclehead Colosseum",
+    location: "Gold Saucer / Corel Region",
+    length: "medium",
+    difficulty: "High",
+    reward: "Unique materia, rare equipment, GP",
+    summary:
+      "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
+    aiTip:
+      "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks."
+  },
+  {
+    id: 77,
+    game: "Final Fantasy VII Rebirth",
+    title: "Where the Wind Blows",
+    location: "Junon Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chocobo gear upgrades, exploration access",
+    summary:
+      "Help a chocobo rancher investigate why the local chocobos have been acting strangely. The investigation reveals environmental threats and unlocks new chocobo traversal abilities for the region.",
+    aiTip:
+      "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation."
+  },
+  {
+    id: 78,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Judy's Questline (Pyramid Song)",
+    location: "Night City / Laguna Bend",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Judy romance, Diving Suit, emotional payoff",
+    summary:
+      "Follow Judy Alvarez through her quest to take down the Clouds dollhouse and reclaim her past. The final quest, Pyramid Song, features an underwater dive through a submerged town — one of the most beautiful and intimate moments in the game.",
+    aiTip:
+      "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush."
+  },
+  {
+    id: 79,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Chippin' In",
+    location: "Night City / Oil Fields",
+    length: "long",
+    difficulty: "High",
+    reward: "Johnny's Porsche 911 II, Malorian Arms pistol",
+    summary:
+      "Help Johnny Silverhand settle old scores with the remnants of his band and confront his past at the oil fields where his body was dumped. A pivotal quest that determines your relationship with Johnny and unlocks the secret ending.",
+    aiTip:
+      "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available."
+  },
+  {
+    id: 80,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "The Peralez Conspiracy (I Fought the Law)",
+    location: "Night City / Charter Hill",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Eddies, political intrigue resolution",
+    summary:
+      "Investigate a seemingly routine case for a mayoral candidate that spirals into a terrifying conspiracy about mind control, surveillance, and hidden powers manipulating Night City from the shadows.",
+    aiTip:
+      "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture."
+  },
+  {
+    id: 81,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Phantom Liberty – Firestarter",
+    location: "Dogtown",
+    length: "long",
+    difficulty: "High",
+    reward: "Relic skill tree access, Dogtown exploration",
+    summary:
+      "The opening mission of the Phantom Liberty expansion plunges V into Dogtown's dangerous politics. Work with NUSA agent Solomon Reed to infiltrate a fortified stadium and rescue the President of the New United States.",
+    aiTip:
+      "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly."
+  },
+  {
+    id: 82,
+    game: "Metaphor: ReFantazio",
+    title: "The Tournament of Souls",
+    location: "Grand Trad Arena",
+    length: "long",
+    difficulty: "High",
+    reward: "Archetype unlock, rare equipment, massive follower growth",
+    summary:
+      "Enter a multi-round combat tournament that tests your party composition against increasingly powerful opponents. Each round introduces unique mechanics and enemy archetypes that force you to adapt your strategy.",
+    aiTip:
+      "Switch Archetypes between rounds to exploit enemy weaknesses. The final opponent resists everything — raw damage output and buff stacking are your best options."
+  },
+  {
+    id: 83,
+    game: "Metaphor: ReFantazio",
+    title: "The Nameless Soldier",
+    location: "Fort Endra",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Virtue growth, unique weapon, lore revelations",
+    summary:
+      "Investigate reports of a ghostly soldier haunting a ruined fortress. The quest blends dungeon exploration with a poignant story about loyalty, sacrifice, and the cost of the kingdom's wars.",
+    aiTip:
+      "Bring characters with high Courage — several dialogue checks require it. The ghost's weakness is Light-type attacks."
+  },
+  {
+    id: 84,
+    game: "Metaphor: ReFantazio",
+    title: "Follower: Louis's Request",
+    location: "Varies by story chapter",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Louis Confidant progression, unique Archetype abilities",
+    summary:
+      "Deepen your bond with the enigmatic Louis through a series of conversations and tasks that reveal his complex motivations. His questline is one of the most narratively important in the game and directly affects the ending.",
+    aiTip:
+      "Prioritize Louis's Follower ranks early — his later abilities are among the strongest in the game. Pay close attention to his philosophy; your responses matter."
+  },
+  {
+    id: 85,
+    game: "Demon's Souls",
+    title: "Saint Urbain's Rescue",
+    location: "Shrine of Storms (4-2)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Access to miracle spells, Second Chance miracle",
+    summary:
+      "Rescue the holy man Saint Urbain from the depths of the Shrine of Storms. He's trapped in a pit surrounded by deadly shadow lurkers, and freeing him unlocks the game's most powerful defensive miracle.",
+    aiTip:
+      "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP."
+  },
+  {
+    id: 86,
+    game: "Demon's Souls",
+    title: "Mephistopheles' Assassinations",
+    location: "The Nexus",
+    length: "long",
+    difficulty: "High",
+    reward: "Foe's Ring, unique souls, Colorless Demon Souls",
+    summary:
+      "A mysterious woman in black appears in the Nexus at Pure Black Character Tendency and tasks you with assassinating every named NPC. A dark questline for players willing to sacrifice their allies for power.",
+    aiTip:
+      "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players."
+  },
+  {
+    id: 87,
+    game: "Demon's Souls",
+    title: "Patches the Hyena",
+    location: "Stonefang Tunnel (2-2), Shrine of Storms (4-2)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Heavy Arrows, vendor access, comedic encounters",
+    summary:
+      "Encounter the treacherous Patches across multiple worlds as he repeatedly tries to trick you into traps. A recurring FromSoftware character who became a staple of the Souls series starting here.",
+    aiTip:
+      "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome."
+  },
+  {
+    id: 88,
+    game: "Hogwarts Legacy",
+    title: "The Hippogriff Marks the Spot",
+    location: "Poidsear Coast",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure vault loot, exploration XP, unique gear",
+    summary:
+      "Follow a treasure map leading to a series of clues scattered across the Poidsear Coast. Each clue brings you closer to a hidden vault guarded by dark wizards and ancient enchantments.",
+    aiTip:
+      "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first."
+  },
+  {
+    id: 89,
+    game: "Hogwarts Legacy",
+    title: "In the Shadow of the Undercroft",
+    location: "Hogwarts Castle",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Sebastian Sallow companion quests, Dark Arts access",
+    summary:
+      "Sebastian Sallow reveals a secret room beneath Hogwarts and begins teaching you forbidden magic. This questline spans the entire game and forces increasingly difficult moral choices about the Dark Arts.",
+    aiTip:
+      "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices."
+  },
+  {
+    id: 90,
+    game: "Hogwarts Legacy",
+    title: "Mer-ky Depths",
+    location: "Black Lake",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique underwater gear, rare crafting materials",
+    summary:
+      "Investigate disturbances in the Black Lake involving agitated Grindylows and a mystery beneath the water's surface. Features one of the game's most visually impressive underwater sequences.",
+    aiTip:
+      "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage."
+  },
+  {
+    id: 91,
+    game: "Hogwarts Legacy",
+    title: "Natty's Questline (The High Keep)",
+    location: "Feldcroft Region / Falbarton Castle",
+    length: "long",
+    difficulty: "High",
+    reward: "Natsai Onai companion progression, powerful gear",
+    summary:
+      "Help Natsai Onai investigate Harlow's criminal operations and ultimately assault Falbarton Castle. The questline explores themes of justice, revenge, and the limits of doing what's right.",
+    aiTip:
+      "The castle assault is one of the harder combat encounters — stock up on potions and upgrade your combat plants. Use the environment for cover during the courtyard fight."
+  },
+  {
+    id: 92,
+    game: "God of War Ragnarök",
+    title: "The Weight of Chains",
+    location: "Svartalfheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Draupnir Spear attachments, Lunda's Armor set",
+    summary:
+      "Investigate the dwarven mining operations in Svartalfheim and uncover the brutal conditions imposed by Odin's regime. A quest chain that deepens the world-building around dwarven culture and resistance.",
+    aiTip:
+      "Complete the optional dock areas for crafting materials. Lunda's armor set inflicts Poison on parry — one of the best early armor options."
+  },
+  {
+    id: 93,
+    game: "God of War Ragnarök",
+    title: "Spirit of Rebellion",
+    location: "Vanaheim, The Crater",
+    length: "long",
+    difficulty: "High",
+    reward: "Rond of Affliction shield attachment, Chaos Flame",
+    summary:
+      "Help the Vanir resistance fight back against Asgardian occupation in Vanaheim's massive Crater region. This sprawling favour chain opens up one of the game's largest optional areas with day/night cycle mechanics.",
+    aiTip:
+      "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times."
+  },
+  {
+    id: 94,
+    game: "God of War Ragnarök",
+    title: "Fit for a King",
+    location: "Svartalfheim, Niðavellir",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Steinbjörn Armor set materials, Amulet Enchantment",
+    summary:
+      "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
+    aiTip:
+      "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage."
+  },
+  {
+    id: 95,
+    game: "God of War Ragnarök",
+    title: "The Berserker Gravestone Battles",
+    location: "Multiple Realms",
+    length: "long",
+    difficulty: "High",
+    reward: "Berserker Armor set, Hilt of Skofnung",
+    summary:
+      "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
+    aiTip:
+      "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended."
+  },
+  {
+    id: 96,
+    game: "Persona 5 Royal",
+    title: "Maruki's Confidant (Councillor)",
+    location: "Shujin Academy",
+    length: "long",
+    difficulty: "Low",
+    reward: "Third semester access, true ending, unique Personas",
+    summary:
+      "Build your relationship with Dr. Takuto Maruki, the new school counselor. His Confidant is the single most important side activity in Royal — reaching Rank 9 before November unlocks the entire third semester and true ending.",
+    aiTip:
+      "This is NON-NEGOTIABLE for the true ending. Prioritize Maruki above all other Confidants. You must reach Rank 9 by November 17th or you miss the best content in the game."
+  },
+  {
+    id: 97,
+    game: "Persona 5 Royal",
+    title: "Akechi's Confidant (Justice)",
+    location: "Kichijoji",
+    length: "long",
+    difficulty: "Low",
+    reward: "Third semester content, story revelations, powerful abilities",
+    summary:
+      "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
+    aiTip:
+      "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains."
+  },
+  {
+    id: 98,
+    game: "Persona 5 Royal",
+    title: "Mementos Mission: The Killer Who Cleans Up",
+    location: "Path of Da'at, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Massive XP, unlocks Empress Confidant progression",
+    summary:
+      "Target a dangerous serial killer hiding deep in Mementos who has been eliminating witnesses. One of the more challenging Mementos requests featuring a Shadow with powerful instant-kill abilities.",
+    aiTip:
+      "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win."
+  },
+  {
+    id: 99,
+    game: "Persona 5 Royal",
+    title: "Yoshizawa's Confidant (Faith)",
+    location: "Kichijoji / Various",
+    length: "long",
+    difficulty: "Low",
+    reward: "Kasumi's true awakening, powerful party member",
+    summary:
+      "Follow gymnast Kasumi Yoshizawa's story through her struggles with identity, loss, and self-worth. Her Confidant unfolds slowly but delivers one of Royal's biggest emotional and narrative surprises.",
+    aiTip:
+      "Her Confidant auto-progresses through story events until the third semester. Focus on the choices that show genuine support rather than empty encouragement."
+  },
+  {
+    id: 100,
+    game: "Ghost of Tsushima",
+    title: "The Legend of Tadayori",
+    location: "Azamo Bay, Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tadayori's Armor set (best archery armor)",
+    summary:
+      "Track down the legendary armor of the archer Tadayori by following clues across Izuhara. The quest culminates in a duel against a ronin guarding the armor's resting place — a test of your ranged combat skills.",
+    aiTip:
+      "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early."
+  },
+  {
+    id: 101,
+    game: "Ghost of Tsushima",
+    title: "The Heavenly Strike",
+    location: "Toyotama",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Heavenly Strike combat technique",
+    summary:
+      "A Mythic Tale that teaches Jin a devastating unblockable attack. Follow a musician's directions to a hidden dojo where you must prove your swordsmanship through a series of increasingly difficult combat trials.",
+    aiTip:
+      "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm."
+  },
+  {
+    id: 102,
+    game: "Ghost of Tsushima",
+    title: "The Tale of Lady Masako",
+    location: "Izuhara / Toyotama",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Major Legend Increase, unique dye, emotional story",
+    summary:
+      "A nine-part questline following the elderly warrior Lady Masako as she hunts down those responsible for the massacre of her entire family. A revenge story that explores grief, obsession, and whether vengeance can ever bring peace.",
+    aiTip:
+      "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin."
+  },
+  {
+    id: 103,
+    game: "Ghost of Tsushima",
+    title: "Gosaku's Armor",
+    location: "Akashima, Toyotama",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Gosaku's Armor (best melee armor), massive stagger damage",
+    summary:
+      "Liberate six occupied farmsteads across Toyotama to collect keys that unlock the legendary armor of the warrior Gosaku. Each farmstead is a combat encounter with Mongol forces, building toward the armor's hidden shrine.",
+    aiTip:
+      "Gosaku's Armor restores health on staggered kills — it's arguably the best combat armor. The six farmsteads are spread across the map; liberate them as you explore naturally."
+  },
+  {
+    id: 104,
+    game: "Horizon Forbidden West",
+    title: "The Kulrut",
+    location: "Memorial Grove, Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tenakth allies, arena access, 5000 XP",
+    summary:
+      "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
+    aiTip:
+      "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage."
+  },
+  {
+    id: 105,
+    game: "Horizon Forbidden West",
+    title: "The Wings of the Ten",
+    location: "Sheerside Mountains",
+    length: "long",
+    difficulty: "High",
+    reward: "Sunwing Override, flying mount access",
+    summary:
+      "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
+    aiTip:
+      "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach."
+  },
+  {
+    id: 106,
+    game: "Horizon Forbidden West",
+    title: "Tallneck: The Devil's Thirst",
+    location: "The Daunt",
+    length: "short",
+    difficulty: "Low",
+    reward: "Map reveal, XP, early exploration boost",
+    summary:
+      "Override the first Tallneck to reveal the surrounding map. Each Tallneck is an environmental puzzle requiring Aloy to find a path to its head — this one involves climbing ruins around a flooded area.",
+    aiTip:
+      "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites."
+  },
+  {
+    id: 107,
+    game: "Horizon Forbidden West",
+    title: "The Sea of Sands",
+    location: "Stillsands, Desert",
+    length: "long",
+    difficulty: "High",
+    reward: "Arena access, Oseram Artificer gear, 6000 XP",
+    summary:
+      "Cross a treacherous desert filled with burrowing machines to reach a buried ruin. The sandstorms limit visibility while Tremortusks and Slitherfangs patrol the dunes — one of the tensest exploration sequences in the game.",
+    aiTip:
+      "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops."
+  },
+  {
+    id: 108,
+    game: "Pillars of Eternity",
+    title: "The Dozen's Dispute",
+    location: "Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Faction reputation, gold, Act 2 allies",
+    summary:
+      "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
+    aiTip:
+      "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content."
+  },
+  {
+    id: 109,
+    game: "Pillars of Eternity",
+    title: "Through Death's Gate",
+    location: "Brackenbury, Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare ring, animancy lore, XP",
+    summary:
+      "Investigate a sanitarium where animancers are conducting controversial experiments on souls. The quest explores the game's central theme of soul manipulation and forces you to decide how far science should go.",
+    aiTip:
+      "Read every patient record — they contain hints about the correct ward to investigate. Your choices here affect the animancy hearing later in the act."
+  },
+  {
+    id: 110,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Hasongo Investigation",
+    location: "Hasongo Island",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, Naga allies or enemies, XP",
+    summary:
+      "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
+    aiTip:
+      "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise."
+  },
+  {
+    id: 111,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Berath's Blessings",
+    location: "Various Islands",
+    length: "long",
+    difficulty: "High",
+    reward: "Unique enchantments, powerful soul-bound weapons",
+    summary:
+      "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
+    aiTip:
+      "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks."
   }
 ];
