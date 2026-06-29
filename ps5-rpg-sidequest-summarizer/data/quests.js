@@ -111,7 +111,8 @@ const quests = [
     summary:
       "A politically important rescue quest with multiple branching outcomes. The player must balance combat, exploration, and timed decision-making while managing companion reactions.",
     aiTip:
-      "Prioritize mobility spells, prepare healing, and save before major dialogue choices. This quest is best approached after checking companion objectives."
+      "Prioritize mobility spells, prepare healing, and save before major dialogue choices. This quest is best approached after checking companion objectives.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 2,
@@ -124,7 +125,8 @@ const quests = [
     summary:
       "A layered side quest that becomes central to Shadowheart's character arc. It mixes puzzle rooms, combat encounters, and a major moral decision.",
     aiTip:
-      "Bring Shadowheart for maximum narrative impact and explore each trial carefully before entering the final area."
+      "Bring Shadowheart for maximum narrative impact and explore each trial carefully before entering the final area.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 3,
@@ -137,7 +139,8 @@ const quests = [
     summary:
       "Infiltrate the Steel Watch Foundry to free enslaved Gondian gnomes forced to build mechanical enforcers. Combat is intense and decisions affect the finale.",
     aiTip:
-      "Protect the Gondians during combat — if too many die, you lose their support. Area-of-effect spells can backfire here."
+      "Protect the Gondians during combat — if too many die, you lose their support. Area-of-effect spells can backfire here.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 4,
@@ -150,7 +153,8 @@ const quests = [
     summary:
       "A mysterious multi-zone questline involving hidden cities, powerful bosses, and one of the game's most iconic alternate endings.",
     aiTip:
-      "Track NPC dialogue carefully. This quest is easier if you keep notes because the game rarely gives direct objective markers."
+      "Track NPC dialogue carefully. This quest is easier if you keep notes because the game rarely gives direct objective markers.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 5,
@@ -163,7 +167,8 @@ const quests = [
     summary:
       "A memorable NPC journey following a warrior jar across major regions. It rewards exploration and creates a surprisingly emotional arc.",
     aiTip:
-      "Speak to Alexander whenever you meet him and avoid rushing late-game areas before progressing his earlier encounters."
+      "Speak to Alexander whenever you meet him and avoid rushing late-game areas before progressing his earlier encounters.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 6,
@@ -176,7 +181,8 @@ const quests = [
     summary:
       "Help a Scarlet Rot-afflicted warrior across the Lands Between. The quest spans nearly the entire map and ends with a pivotal choice at the Haligtree.",
     aiTip:
-      "Don't miss Gowry's shack in Caelid early on. The quest has easy-to-miss steps — check back with NPCs after major boss kills."
+      "Don't miss Gowry's shack in Caelid early on. The quest has easy-to-miss steps — check back with NPCs after major boss kills.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 7,
@@ -189,7 +195,8 @@ const quests = [
     summary:
       "An early side quest that introduces open-zone investigation. The player tracks a monster threat and learns how Rebirth uses regional activities.",
     aiTip:
-      "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content."
+      "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 8,
@@ -202,7 +209,8 @@ const quests = [
     summary:
       "A light-hearted but involved quest chain focused on rebuilding and supporting a local inn. It blends exploration, mini-objectives, and character humor.",
     aiTip:
-      "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked."
+      "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 9,
@@ -215,7 +223,8 @@ const quests = [
     summary:
       "A sprawling mini-game marathon at the Gold Saucer theme park. Completing activities builds relationship points that influence a key story date scene.",
     aiTip:
-      "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns."
+      "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 10,
@@ -228,7 +237,8 @@ const quests = [
     summary:
       "A disturbing and philosophical questline built around guilt, punishment, media exploitation, and player discomfort rather than traditional combat.",
     aiTip:
-      "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward."
+      "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 11,
@@ -241,7 +251,8 @@ const quests = [
     summary:
       "A conspiracy-focused side quest where investigation matters more than combat. It explores surveillance, manipulation, and power in Night City.",
     aiTip:
-      "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal."
+      "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 12,
@@ -254,7 +265,8 @@ const quests = [
     summary:
       "A dark detective questline where you use braindance technology to track a serial kidnapper. One of the most tense and emotionally heavy side jobs in the game.",
     aiTip:
-      "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically."
+      "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 13,
@@ -312,7 +324,8 @@ const quests = [
     summary:
       "An early activity-style quest that teaches time management and social-stat progression, which are core to the broader RPG loop.",
     aiTip:
-      "Good to complete early because it supports character growth without requiring heavy combat preparation."
+      "Good to complete early because it supports character growth without requiring heavy combat preparation.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 17,
@@ -325,7 +338,8 @@ const quests = [
     summary:
       "A side story focused on prejudice, belief, and social pressure. It gives the world more texture beyond the central tournament plot.",
     aiTip:
-      "Treat dialogue as part of the quest system. Metaphor often rewards attention to social context, not only combat strength."
+      "Treat dialogue as part of the quest system. Metaphor often rewards attention to social context, not only combat strength.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 18,
@@ -338,7 +352,8 @@ const quests = [
     summary:
       "Track a dangerous creature lurking beneath the capital city. The dungeon is optional but holds some of the best mid-game loot and tests party composition.",
     aiTip:
-      "Bring a healer Archetype and stock up on MP restoratives. The boss hits hard and exploits elemental weaknesses."
+      "Bring a healer Archetype and stock up on MP restoratives. The boss hits hard and exploits elemental weaknesses.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 19,
@@ -351,7 +366,8 @@ const quests = [
     summary:
       "Navigate the nightmarish prison of Latria to free a powerful witch. The tower is filled with mind flayer enemies, narrow walkways, and environmental traps.",
     aiTip:
-      "Bring a ranged option and move slowly. The Mind Flayers can paralyze and one-shot you. Free Yuria's key from the guards first."
+      "Bring a ranged option and move slowly. The Mind Flayers can paralyze and one-shot you. Free Yuria's key from the guards first.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 20,
@@ -364,7 +380,8 @@ const quests = [
     summary:
       "An invisible crow on a high nest accepts item trades. Drop specific items and reload the area to receive rare rewards not available anywhere else.",
     aiTip:
-      "Look up the trade list — some of the best rewards come from common items you might otherwise sell."
+      "Look up the trade list — some of the best rewards come from common items you might otherwise sell.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 21,
@@ -377,7 +394,8 @@ const quests = [
     summary:
       "Meet a wandering warrior who challenges you to prove your worth. Completing his request unlocks one of the most powerful strength weapons in the game.",
     aiTip:
-      "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly."
+      "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 22,
@@ -390,7 +408,8 @@ const quests = [
     summary:
       "Follow a ghostly trail through the Forbidden Forest at night to uncover a hidden treasure. A short atmospheric quest that showcases the game's exploration.",
     aiTip:
-      "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far."
+      "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 23,
@@ -403,7 +422,8 @@ const quests = [
     summary:
       "Help a student recover their pet Niffler from a poacher hideout. The dungeon features puzzle-based combat rooms mixing spell types and environmental mechanics.",
     aiTip:
-      "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum."
+      "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 24,
@@ -416,7 +436,8 @@ const quests = [
     summary:
       "Solve a series of block-pushing puzzles hidden within Hogwarts to unlock additional gear capacity. One of the most useful side quests in the entire game.",
     aiTip:
-      "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves."
+      "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 25,
@@ -535,7 +556,8 @@ const quests = [
     summary:
       "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
     aiTip:
-      "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential."
+      "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential.",
+    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
   },
   {
     id: 33,
@@ -669,7 +691,8 @@ const quests = [
     summary:
       "Investigate why the Eldberg lighthouse keeps going dark, leading to a tense nighttime battle against a Penitent wraith. The atmosphere and buildup make this one of the most memorable Witcher contracts.",
     aiTip:
-      "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost."
+      "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost.",
+    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
   },
   {
     id: 42,
@@ -727,7 +750,8 @@ const quests = [
     summary:
       "Ratatoskr tasks Kratos with capturing six escaped Lindwyrms scattered across Svartalfheim and Vanaheim. The quest involves tracking down creatures in hidden locations across two realms while enjoying Ratatoskr's sharp-tongued banter.",
     aiTip:
-      "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade."
+      "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 46,
@@ -740,7 +764,8 @@ const quests = [
     summary:
       "Freya seeks to reclaim her Valkyrie title by defeating Gná, one of the toughest bosses in the game. This endgame favour tests your combat mastery in an intense one-on-one battle.",
     aiTip:
-      "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight."
+      "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 47,
@@ -753,7 +778,8 @@ const quests = [
     summary:
       "A brief but lore-rich favour at a large statue west of The Burrows in Alfheim. Kratos solves a light crystal puzzle to activate Freyr's monument while Mimir narrates the history of elven cooperation.",
     aiTip:
-      "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability."
+      "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 48,
@@ -766,7 +792,8 @@ const quests = [
     summary:
       "Kawakami's exploitative former employers must have their hearts changed in Mementos. This request unlocks after reaching Rank 8 with the Temperance Confidant and is required to continue her storyline.",
     aiTip:
-      "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game."
+      "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 49,
@@ -779,7 +806,8 @@ const quests = [
     summary:
       "Mishima reports a kid terrorizing an arcade with impossible win streaks. The target Shadow Nejima evades all attacks on the first encounter, forcing you to return with help from Shinya Oda.",
     aiTip:
-      "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits."
+      "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 50,
@@ -792,7 +820,8 @@ const quests = [
     summary:
       "After dealing with a school bully in a prior request, Mishima discovers a master bully coercing others into tormenting students. Eavesdrop at the school gate to identify the target before heading to Mementos.",
     aiTip:
-      "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses."
+      "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 51,
@@ -805,7 +834,8 @@ const quests = [
     summary:
       "This Mythic Tale sends Jin to the ruins of Old Yarikawa to confront a vengeful spirit. After finding pillars of white smoke and collecting offerings, a tense duel awaits in the Garden of the Gods.",
     aiTip:
-      "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints."
+      "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 52,
@@ -818,7 +848,8 @@ const quests = [
     summary:
       "A musician's tale leads Jin on a treasure hunt across painted landmarks to find the legendary Longbow of Uchitsune. Picking up the cursed weapon triggers a hallucination and a duel with a Tengu Demon.",
     aiTip:
-      "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game."
+      "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 53,
@@ -831,7 +862,8 @@ const quests = [
     summary:
       "A nine-mission questline spanning all three regions of Tsushima following archery master Ishikawa as he tracks his former student Tomoe. The story is a poignant tale of betrayal, duty, and redemption.",
     aiTip:
-      "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard."
+      "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 54,
@@ -844,7 +876,8 @@ const quests = [
     summary:
       "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
     aiTip:
-      "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels."
+      "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 55,
@@ -857,7 +890,8 @@ const quests = [
     summary:
       "Alva discovers data about Leviathan, a defunct flood control system in the Great Delta. She and Aloy explore the ruins of Atbay Global Infrastructure in San Francisco to recover critical repair data.",
     aiTip:
-      "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations."
+      "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 56,
@@ -870,7 +904,8 @@ const quests = [
     summary:
       "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
     aiTip:
-      "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision."
+      "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 57,
@@ -883,7 +918,8 @@ const quests = [
     summary:
       "Heritage Hill has been sealed off due to undead rising from the graves. Investigate the source of the disturbance — an ancient Engwithan machine reanimating corpses — and decide the fate of the souls trapped within.",
     aiTip:
-      "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding."
+      "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 58,
@@ -896,7 +932,8 @@ const quests = [
     summary:
       "Unravel the troubled past of Durance, a fanatical priest of Magran, through campfire conversations. His story reveals dark truths about the gods and the Saint's War that reshape your understanding of Eora's history.",
     aiTip:
-      "Talk to Durance at every rest. His dialogue triggers are tied to story progression milestones — miss them and you lock yourself out of later revelations."
+      "Talk to Durance at every rest. His dialogue triggers are tied to story progression milestones — miss them and you lock yourself out of later revelations.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 59,
@@ -909,7 +946,8 @@ const quests = [
     summary:
       "Explore the ancient Engwithan ruin of Cliaban Rilag, a flooded temple complex guarded by powerful spirits and constructs. The dungeon reveals secrets about the civilization that created the gods.",
     aiTip:
-      "This dungeon hits hard — bring crowd control and area-of-effect damage. The spirits inside resist physical attacks, so casters shine here."
+      "This dungeon hits hard — bring crowd control and area-of-effect damage. The spirits inside resist physical attacks, so casters shine here.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 60,
@@ -922,7 +960,8 @@ const quests = [
     summary:
       "Descend all fifteen levels of the Endless Paths beneath your stronghold to confront the Adra Dragon at the bottom. The mega-dungeon spans the entire game and escalates from bandits to some of the toughest encounters in the series.",
     aiTip:
-      "Don't try to clear it in one go — return between levels to rest and resupply. The Adra Dragon can be talked down if your Resolve and Lore are high enough."
+      "Don't try to clear it in one go — return between levels to rest and resupply. The Adra Dragon can be talked down if your Resolve and Lore are high enough.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 61,
@@ -935,7 +974,8 @@ const quests = [
     summary:
       "Investigate a mysterious storm surrounding an ancient Engwithan dig site. The Vailian Trading Company wants the artifacts inside, but the ruin's guardians and rival factions have other plans.",
     aiTip:
-      "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior."
+      "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   },
   {
     id: 62,
@@ -948,7 +988,8 @@ const quests = [
     summary:
       "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
     aiTip:
-      "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial."
+      "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   },
   {
     id: 63,
@@ -961,7 +1002,8 @@ const quests = [
     summary:
       "Track down lost grimoires scattered across the Deadfire Archipelago for the eccentric wizard Berkana. Each grimoire contains unique spell combinations not found elsewhere in the game.",
     aiTip:
-      "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members."
+      "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   },
   {
     id: 64,
@@ -974,7 +1016,8 @@ const quests = [
     summary:
       "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
     aiTip:
-      "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories."
+      "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   },
   {
     id: 65,
@@ -987,7 +1030,8 @@ const quests = [
     summary:
       "Discover a toymaker whose creations are actually disguised explosives being distributed to children. The investigation leads through the Lower City's criminal networks and forces a moral confrontation.",
     aiTip:
-      "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker."
+      "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 66,
@@ -1000,7 +1044,8 @@ const quests = [
     summary:
       "Rescue the kidnapped painter Oskar from Zhentarim slavers. What seems like a simple rescue sets up a haunting storyline that doesn't resolve until much later in Baldur's Gate itself.",
     aiTip:
-      "Buy Oskar's freedom rather than fighting — it's cheaper than the healing you'll need. Visit his house in Act 3 for the quest's surprising conclusion."
+      "Buy Oskar's freedom rather than fighting — it's cheaper than the healing you'll need. Visit his house in Act 3 for the quest's surprising conclusion.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 67,
@@ -1013,7 +1058,8 @@ const quests = [
     summary:
       "The temple of Umberlee demands vengeance against those who wronged the sea goddess. Navigate a web of maritime grudges, underwater exploration, and divine wrath in one of Act 3's most atmospheric quests.",
     aiTip:
-      "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat."
+      "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 68,
@@ -1026,7 +1072,8 @@ const quests = [
     summary:
       "A friendly Mind Flayer named Omeluum offers to study your tadpole and brew a potential cure. The quest sends you deep into the Underdark to find rare ingredients while learning more about your condition.",
     aiTip:
-      "The Tongue of Madness and Timmask Spores are both found in the Underdark biome. Omeluum's potion doesn't cure you, but the ring reward is excellent for resisting psychic attacks."
+      "The Tongue of Madness and Timmask Spores are both found in the Underdark biome. Omeluum's potion doesn't cure you, but the ring reward is excellent for resisting psychic attacks.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 69,
@@ -1039,7 +1086,8 @@ const quests = [
     summary:
       "Infiltrate the prison beneath Moonrise Towers to free captured Tieflings and the gnome inventor Wulbren. A tense stealth-or-combat mission with major consequences for the Ironhand Gnomes and Last Light Inn storylines.",
     aiTip:
-      "Free the Tieflings first — they can create a diversion. Wulbren's escape route through the docks avoids the heaviest guard patrols."
+      "Free the Tieflings first — they can create a diversion. Wulbren's escape route through the docks avoids the heaviest guard patrols.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
   },
   {
     id: 70,
@@ -1052,7 +1100,8 @@ const quests = [
     summary:
       "Join a secret assassination covenant within Volcano Manor and hunt down Tarnished targets across the Lands Between. Each contract reveals more about the Manor's sinister mistress, Tanith, and the God-Devouring Serpent.",
     aiTip:
-      "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions."
+      "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 71,
@@ -1065,7 +1114,8 @@ const quests = [
     summary:
       "Follow the Deathbed Companion Fia through a storyline about Those Who Live in Death. Her quest spans from the Roundtable Hold to the hidden Deeproot Depths and unlocks one of the game's secret endings.",
     aiTip:
-      "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses."
+      "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 72,
@@ -1078,7 +1128,8 @@ const quests = [
     summary:
       "Help the warrior Nepheli find her purpose after being disowned by her adoptive father Gideon. Her journey through betrayal and self-discovery culminates in her becoming the rightful ruler of Limgrave.",
     aiTip:
-      "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion."
+      "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 73,
@@ -1091,7 +1142,8 @@ const quests = [
     summary:
       "Aid Brother Corhyn and the enigmatic Goldmask in deciphering the fundamental flaws of the Golden Order. A philosophical questline about faith, divinity, and the nature of the Erdtree's rule.",
     aiTip:
-      "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret."
+      "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
   },
   {
     id: 74,
@@ -1104,7 +1156,8 @@ const quests = [
     summary:
       "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
     aiTip:
-      "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game."
+      "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 75,
@@ -1117,7 +1170,8 @@ const quests = [
     summary:
       "A gentle early quest where Cloud helps a young girl gather rare flowers on the outskirts of Kalm. It establishes the exploration mechanics and rewards careful attention to the environment.",
     aiTip:
-      "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby."
+      "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 76,
@@ -1130,7 +1184,8 @@ const quests = [
     summary:
       "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
     aiTip:
-      "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks."
+      "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 77,
@@ -1143,7 +1198,8 @@ const quests = [
     summary:
       "Help a chocobo rancher investigate why the local chocobos have been acting strangely. The investigation reveals environmental threats and unlocks new chocobo traversal abilities for the region.",
     aiTip:
-      "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation."
+      "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
   },
   {
     id: 78,
@@ -1156,7 +1212,8 @@ const quests = [
     summary:
       "Follow Judy Alvarez through her quest to take down the Clouds dollhouse and reclaim her past. The final quest, Pyramid Song, features an underwater dive through a submerged town — one of the most beautiful and intimate moments in the game.",
     aiTip:
-      "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush."
+      "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 79,
@@ -1169,7 +1226,8 @@ const quests = [
     summary:
       "Help Johnny Silverhand settle old scores with the remnants of his band and confront his past at the oil fields where his body was dumped. A pivotal quest that determines your relationship with Johnny and unlocks the secret ending.",
     aiTip:
-      "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available."
+      "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 80,
@@ -1182,7 +1240,8 @@ const quests = [
     summary:
       "Investigate a seemingly routine case for a mayoral candidate that spirals into a terrifying conspiracy about mind control, surveillance, and hidden powers manipulating Night City from the shadows.",
     aiTip:
-      "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture."
+      "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 81,
@@ -1195,7 +1254,8 @@ const quests = [
     summary:
       "The opening mission of the Phantom Liberty expansion plunges V into Dogtown's dangerous politics. Work with NUSA agent Solomon Reed to infiltrate a fortified stadium and rescue the President of the New United States.",
     aiTip:
-      "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly."
+      "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
   },
   {
     id: 82,
@@ -1208,7 +1268,8 @@ const quests = [
     summary:
       "Enter a multi-round combat tournament that tests your party composition against increasingly powerful opponents. Each round introduces unique mechanics and enemy archetypes that force you to adapt your strategy.",
     aiTip:
-      "Switch Archetypes between rounds to exploit enemy weaknesses. The final opponent resists everything — raw damage output and buff stacking are your best options."
+      "Switch Archetypes between rounds to exploit enemy weaknesses. The final opponent resists everything — raw damage output and buff stacking are your best options.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 83,
@@ -1221,7 +1282,8 @@ const quests = [
     summary:
       "Investigate reports of a ghostly soldier haunting a ruined fortress. The quest blends dungeon exploration with a poignant story about loyalty, sacrifice, and the cost of the kingdom's wars.",
     aiTip:
-      "Bring characters with high Courage — several dialogue checks require it. The ghost's weakness is Light-type attacks."
+      "Bring characters with high Courage — several dialogue checks require it. The ghost's weakness is Light-type attacks.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 84,
@@ -1234,7 +1296,8 @@ const quests = [
     summary:
       "Deepen your bond with the enigmatic Louis through a series of conversations and tasks that reveal his complex motivations. His questline is one of the most narratively important in the game and directly affects the ending.",
     aiTip:
-      "Prioritize Louis's Follower ranks early — his later abilities are among the strongest in the game. Pay close attention to his philosophy; your responses matter."
+      "Prioritize Louis's Follower ranks early — his later abilities are among the strongest in the game. Pay close attention to his philosophy; your responses matter.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
   },
   {
     id: 85,
@@ -1247,7 +1310,8 @@ const quests = [
     summary:
       "Rescue the holy man Saint Urbain from the depths of the Shrine of Storms. He's trapped in a pit surrounded by deadly shadow lurkers, and freeing him unlocks the game's most powerful defensive miracle.",
     aiTip:
-      "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP."
+      "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 86,
@@ -1260,7 +1324,8 @@ const quests = [
     summary:
       "A mysterious woman in black appears in the Nexus at Pure Black Character Tendency and tasks you with assassinating every named NPC. A dark questline for players willing to sacrifice their allies for power.",
     aiTip:
-      "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players."
+      "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 87,
@@ -1273,7 +1338,8 @@ const quests = [
     summary:
       "Encounter the treacherous Patches across multiple worlds as he repeatedly tries to trick you into traps. A recurring FromSoftware character who became a staple of the Souls series starting here.",
     aiTip:
-      "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome."
+      "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
   },
   {
     id: 88,
@@ -1286,7 +1352,8 @@ const quests = [
     summary:
       "Follow a treasure map leading to a series of clues scattered across the Poidsear Coast. Each clue brings you closer to a hidden vault guarded by dark wizards and ancient enchantments.",
     aiTip:
-      "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first."
+      "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 89,
@@ -1299,7 +1366,8 @@ const quests = [
     summary:
       "Sebastian Sallow reveals a secret room beneath Hogwarts and begins teaching you forbidden magic. This questline spans the entire game and forces increasingly difficult moral choices about the Dark Arts.",
     aiTip:
-      "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices."
+      "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 90,
@@ -1312,7 +1380,8 @@ const quests = [
     summary:
       "Investigate disturbances in the Black Lake involving agitated Grindylows and a mystery beneath the water's surface. Features one of the game's most visually impressive underwater sequences.",
     aiTip:
-      "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage."
+      "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 91,
@@ -1325,7 +1394,8 @@ const quests = [
     summary:
       "Help Natsai Onai investigate Harlow's criminal operations and ultimately assault Falbarton Castle. The questline explores themes of justice, revenge, and the limits of doing what's right.",
     aiTip:
-      "The castle assault is one of the harder combat encounters — stock up on potions and upgrade your combat plants. Use the environment for cover during the courtyard fight."
+      "The castle assault is one of the harder combat encounters — stock up on potions and upgrade your combat plants. Use the environment for cover during the courtyard fight.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
   },
   {
     id: 92,
@@ -1338,7 +1408,8 @@ const quests = [
     summary:
       "Investigate the dwarven mining operations in Svartalfheim and uncover the brutal conditions imposed by Odin's regime. A quest chain that deepens the world-building around dwarven culture and resistance.",
     aiTip:
-      "Complete the optional dock areas for crafting materials. Lunda's armor set inflicts Poison on parry — one of the best early armor options."
+      "Complete the optional dock areas for crafting materials. Lunda's armor set inflicts Poison on parry — one of the best early armor options.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 93,
@@ -1351,7 +1422,8 @@ const quests = [
     summary:
       "Help the Vanir resistance fight back against Asgardian occupation in Vanaheim's massive Crater region. This sprawling favour chain opens up one of the game's largest optional areas with day/night cycle mechanics.",
     aiTip:
-      "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times."
+      "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 94,
@@ -1364,7 +1436,8 @@ const quests = [
     summary:
       "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
     aiTip:
-      "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage."
+      "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 95,
@@ -1377,7 +1450,8 @@ const quests = [
     summary:
       "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
     aiTip:
-      "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended."
+      "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
   },
   {
     id: 96,
@@ -1390,7 +1464,8 @@ const quests = [
     summary:
       "Build your relationship with Dr. Takuto Maruki, the new school counselor. His Confidant is the single most important side activity in Royal — reaching Rank 9 before November unlocks the entire third semester and true ending.",
     aiTip:
-      "This is NON-NEGOTIABLE for the true ending. Prioritize Maruki above all other Confidants. You must reach Rank 9 by November 17th or you miss the best content in the game."
+      "This is NON-NEGOTIABLE for the true ending. Prioritize Maruki above all other Confidants. You must reach Rank 9 by November 17th or you miss the best content in the game.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 97,
@@ -1403,7 +1478,8 @@ const quests = [
     summary:
       "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
     aiTip:
-      "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains."
+      "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 98,
@@ -1416,7 +1492,8 @@ const quests = [
     summary:
       "Target a dangerous serial killer hiding deep in Mementos who has been eliminating witnesses. One of the more challenging Mementos requests featuring a Shadow with powerful instant-kill abilities.",
     aiTip:
-      "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win."
+      "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 99,
@@ -1429,7 +1506,8 @@ const quests = [
     summary:
       "Follow gymnast Kasumi Yoshizawa's story through her struggles with identity, loss, and self-worth. Her Confidant unfolds slowly but delivers one of Royal's biggest emotional and narrative surprises.",
     aiTip:
-      "Her Confidant auto-progresses through story events until the third semester. Focus on the choices that show genuine support rather than empty encouragement."
+      "Her Confidant auto-progresses through story events until the third semester. Focus on the choices that show genuine support rather than empty encouragement.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
   {
     id: 100,
@@ -1442,7 +1520,8 @@ const quests = [
     summary:
       "Track down the legendary armor of the archer Tadayori by following clues across Izuhara. The quest culminates in a duel against a ronin guarding the armor's resting place — a test of your ranged combat skills.",
     aiTip:
-      "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early."
+      "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 101,
@@ -1455,7 +1534,8 @@ const quests = [
     summary:
       "A Mythic Tale that teaches Jin a devastating unblockable attack. Follow a musician's directions to a hidden dojo where you must prove your swordsmanship through a series of increasingly difficult combat trials.",
     aiTip:
-      "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm."
+      "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 102,
@@ -1468,7 +1548,8 @@ const quests = [
     summary:
       "A nine-part questline following the elderly warrior Lady Masako as she hunts down those responsible for the massacre of her entire family. A revenge story that explores grief, obsession, and whether vengeance can ever bring peace.",
     aiTip:
-      "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin."
+      "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 103,
@@ -1481,7 +1562,8 @@ const quests = [
     summary:
       "Liberate six occupied farmsteads across Toyotama to collect keys that unlock the legendary armor of the warrior Gosaku. Each farmstead is a combat encounter with Mongol forces, building toward the armor's hidden shrine.",
     aiTip:
-      "Gosaku's Armor restores health on staggered kills — it's arguably the best combat armor. The six farmsteads are spread across the map; liberate them as you explore naturally."
+      "Gosaku's Armor restores health on staggered kills — it's arguably the best combat armor. The six farmsteads are spread across the map; liberate them as you explore naturally.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
   },
   {
     id: 104,
@@ -1494,7 +1576,8 @@ const quests = [
     summary:
       "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
     aiTip:
-      "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage."
+      "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 105,
@@ -1507,7 +1590,8 @@ const quests = [
     summary:
       "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
     aiTip:
-      "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach."
+      "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 106,
@@ -1520,7 +1604,8 @@ const quests = [
     summary:
       "Override the first Tallneck to reveal the surrounding map. Each Tallneck is an environmental puzzle requiring Aloy to find a path to its head — this one involves climbing ruins around a flooded area.",
     aiTip:
-      "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites."
+      "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 107,
@@ -1533,7 +1618,8 @@ const quests = [
     summary:
       "Cross a treacherous desert filled with burrowing machines to reach a buried ruin. The sandstorms limit visibility while Tremortusks and Slitherfangs patrol the dunes — one of the tensest exploration sequences in the game.",
     aiTip:
-      "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops."
+      "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 108,
@@ -1546,7 +1632,8 @@ const quests = [
     summary:
       "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
     aiTip:
-      "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content."
+      "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 109,
@@ -1559,7 +1646,8 @@ const quests = [
     summary:
       "Investigate a sanitarium where animancers are conducting controversial experiments on souls. The quest explores the game's central theme of soul manipulation and forces you to decide how far science should go.",
     aiTip:
-      "Read every patient record — they contain hints about the correct ward to investigate. Your choices here affect the animancy hearing later in the act."
+      "Read every patient record — they contain hints about the correct ward to investigate. Your choices here affect the animancy hearing later in the act.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
   },
   {
     id: 110,
@@ -1572,7 +1660,8 @@ const quests = [
     summary:
       "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
     aiTip:
-      "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise."
+      "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   },
   {
     id: 111,
@@ -1585,6 +1674,7 @@ const quests = [
     summary:
       "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
     aiTip:
-      "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks."
+      "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   }
 ];
