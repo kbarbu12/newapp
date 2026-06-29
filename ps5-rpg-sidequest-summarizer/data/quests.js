@@ -63,6 +63,16 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
     abbr: "HFW",
     cover: "images/horizon-forbidden-west.svg"
+  },
+  "Pillars of Eternity": {
+    gradient: "linear-gradient(135deg, #1a1400 0%, #8b6914 50%, #d4a836 100%)",
+    abbr: "POE",
+    cover: "images/pillars-of-eternity.svg"
+  },
+  "Pillars of Eternity II: Deadfire": {
+    gradient: "linear-gradient(135deg, #0a1a2e 0%, #1e6091 50%, #38bdf8 100%)",
+    abbr: "POE2",
+    cover: "images/pillars-of-eternity-2.svg"
   }
 };
 
@@ -861,5 +871,109 @@ const quests = [
       "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
     aiTip:
       "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision."
+  },
+  {
+    id: 57,
+    game: "Pillars of Eternity",
+    title: "The Man Who Waits",
+    location: "Heritage Hill, Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Heritage Hill access cleared, Act 2 progression",
+    summary:
+      "Heritage Hill has been sealed off due to undead rising from the graves. Investigate the source of the disturbance — an ancient Engwithan machine reanimating corpses — and decide the fate of the souls trapped within.",
+    aiTip:
+      "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding."
+  },
+  {
+    id: 58,
+    game: "Pillars of Eternity",
+    title: "The Trials of Durance",
+    location: "Party Companion Quest",
+    length: "long",
+    difficulty: "Low",
+    reward: "Durance's full backstory, companion ability upgrades",
+    summary:
+      "Unravel the troubled past of Durance, a fanatical priest of Magran, through campfire conversations. His story reveals dark truths about the gods and the Saint's War that reshape your understanding of Eora's history.",
+    aiTip:
+      "Talk to Durance at every rest. His dialogue triggers are tied to story progression milestones — miss them and you lock yourself out of later revelations."
+  },
+  {
+    id: 59,
+    game: "Pillars of Eternity",
+    title: "The Bronze Beneath the Lake",
+    location: "Cliaban Rilag, Stormwall Gorge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Engwithan lore, rare equipment, XP",
+    summary:
+      "Explore the ancient Engwithan ruin of Cliaban Rilag, a flooded temple complex guarded by powerful spirits and constructs. The dungeon reveals secrets about the civilization that created the gods.",
+    aiTip:
+      "This dungeon hits hard — bring crowd control and area-of-effect damage. The spirits inside resist physical attacks, so casters shine here."
+  },
+  {
+    id: 60,
+    game: "Pillars of Eternity",
+    title: "The Master Below",
+    location: "Endless Paths of Od Nua, Caed Nua",
+    length: "long",
+    difficulty: "High",
+    reward: "Legendary loot, stronghold upgrade, massive XP",
+    summary:
+      "Descend all fifteen levels of the Endless Paths beneath your stronghold to confront the Adra Dragon at the bottom. The mega-dungeon spans the entire game and escalates from bandits to some of the toughest encounters in the series.",
+    aiTip:
+      "Don't try to clear it in one go — return between levels to rest and resupply. The Adra Dragon can be talked down if your Resolve and Lore are high enough."
+  },
+  {
+    id: 61,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The Storms of Poko Kohara",
+    location: "Poko Kohara Island",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Engwithan artifact, faction reputation, XP",
+    summary:
+      "Investigate a mysterious storm surrounding an ancient Engwithan dig site. The Vailian Trading Company wants the artifacts inside, but the ruin's guardians and rival factions have other plans.",
+    aiTip:
+      "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior."
+  },
+  {
+    id: 62,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "A Sorcerer and a Gentleman",
+    location: "Arkemyr's Manor, Periki's Overlook",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Arkemyr's grimoire, rare scrolls, companion quest progression",
+    summary:
+      "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
+    aiTip:
+      "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial."
+  },
+  {
+    id: 63,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The Lost Grimoires",
+    location: "Berkana's Observatory, Magran's Teeth",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Unique grimoires, wizard spell access",
+    summary:
+      "Track down lost grimoires scattered across the Deadfire Archipelago for the eccentric wizard Berkana. Each grimoire contains unique spell combinations not found elsewhere in the game.",
+    aiTip:
+      "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members."
+  },
+  {
+    id: 64,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The Changeling's Dance",
+    location: "The Gullet, Neketaka",
+    length: "long",
+    difficulty: "High",
+    reward: "Faction reputation, unique cloak, massive XP",
+    summary:
+      "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
+    aiTip:
+      "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories."
   }
 ];

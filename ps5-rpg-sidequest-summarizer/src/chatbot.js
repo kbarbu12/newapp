@@ -185,7 +185,9 @@
       "god of war": "God of War Ragnarök", "ragnarok": "God of War Ragnarök", "gow": "God of War Ragnarök", "kratos": "God of War Ragnarök",
       "persona": "Persona 5 Royal", "p5r": "Persona 5 Royal", "p5": "Persona 5 Royal",
       "ghost": "Ghost of Tsushima", "tsushima": "Ghost of Tsushima", "jin": "Ghost of Tsushima",
-      "horizon": "Horizon Forbidden West", "hfw": "Horizon Forbidden West", "aloy": "Horizon Forbidden West", "forbidden west": "Horizon Forbidden West"
+      "horizon": "Horizon Forbidden West", "hfw": "Horizon Forbidden West", "aloy": "Horizon Forbidden West", "forbidden west": "Horizon Forbidden West",
+      "pillars of eternity 2": "Pillars of Eternity II: Deadfire", "poe2": "Pillars of Eternity II: Deadfire", "deadfire": "Pillars of Eternity II: Deadfire",
+      "pillars of eternity": "Pillars of Eternity", "poe": "Pillars of Eternity", "pillars": "Pillars of Eternity", "eora": "Pillars of Eternity", "watcher": "Pillars of Eternity"
     };
     var keys = Object.keys(aliases);
     for (var j = 0; j < keys.length; j++) {
