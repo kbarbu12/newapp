@@ -467,7 +467,7 @@ select:focus {
 }
 
 .card-banner {
-  height: 120px;
+  height: 180px;
   position: relative;
   display: flex;
   align-items: center;
@@ -476,10 +476,10 @@ select:focus {
 }
 
 .card-banner-img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  max-width: 100%;
+  object-fit: contain;
   transition: transform 0.4s ease;
 }
 
@@ -899,7 +899,7 @@ footer {
   }
 
   .card-banner {
-    height: 100px;
+    height: 140px;
   }
 
   .card-body {
