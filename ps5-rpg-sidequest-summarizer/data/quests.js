@@ -1676,5 +1676,1263 @@ const quests = [
     aiTip:
       "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
     video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+
+  // ── Baldur's Gate 3 (additional) ──────────────────────────────────────────
+  {
+    id: 112,
+    game: "Baldur's Gate 3",
+    title: "The Pale Elf",
+    location: "Wilderness / Act 1",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Astarion companion, vampire lore, unique dialogue",
+    summary:
+      "Recruit Astarion, a charming vampire spawn with a dark secret. His companion quest unfolds across all three acts, building toward a pivotal choice that determines whether he becomes a true vampire lord or breaks free of his master.",
+    aiTip:
+      "Don't let Astarion bite you at camp early on — it has consequences. His questline rewards players who take time to understand his past rather than judge him.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 113,
+    game: "Baldur's Gate 3",
+    title: "Shadowheart's Past",
+    location: "Gauntlet of Shar / Baldur's Gate",
+    length: "long",
+    difficulty: "High",
+    reward: "Shadowheart loyalty, powerful cleric abilities, story resolution",
+    summary:
+      "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
+    aiTip:
+      "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 114,
+    game: "Baldur's Gate 3",
+    title: "Investigate the Murders",
+    location: "Lower City, Baldur's Gate",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Pearlescent Strix weapon, justice for victims",
+    summary:
+      "Track a serial killer stalking the streets of Baldur's Gate who leaves victims drained of blood. The investigation leads through the city's underworld and connects to a much larger conspiracy in Act 3.",
+    aiTip:
+      "Examine every victim carefully and follow every lead before confronting suspects. The killer's identity is well-disguised and multiple false trails are laid.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 115,
+    game: "Baldur's Gate 3",
+    title: "The Stolen Gnome",
+    location: "Blighted Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gnome companion assistance, XP, unique dialogue",
+    summary:
+      "Rescue a gnome inventor named Barcus Wroot who has been strapped to a windmill by goblins. A quick but memorable encounter that introduces recurring NPC Barcus and showcases the game's environmental storytelling.",
+    aiTip:
+      "Stop the windmill before freeing Barcus — there's a brake lever nearby. Freeing him correctly sets up later encounters where he repays the favour.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 116,
+    game: "Baldur's Gate 3",
+    title: "Lift the Shadow Curse",
+    location: "Shadow-Cursed Lands, Act 2",
+    length: "long",
+    difficulty: "High",
+    reward: "Art Cullagh freed, Halsin quest progression, Last Light Inn saved",
+    summary:
+      "Work with the druid Halsin to break the ancient shadow curse blighting the land around Moonrise Towers. The quest requires venturing deep into cursed territory and confronting the source of the darkness.",
+    aiTip:
+      "Always carry Moonlantern or pixie blessing to survive the shadow curse. Escort Halsin carefully during the ritual — he can die, which locks you out of the good ending.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 117,
+    game: "Baldur's Gate 3",
+    title: "Gale's Ambition",
+    location: "Blackstaff Tower / Waterdeep",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Gale companion resolution, unique ending option",
+    summary:
+      "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
+    aiTip:
+      "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+  {
+    id: 118,
+    game: "Baldur's Gate 3",
+    title: "Wyll's Pact",
+    location: "Various / Act 3",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Wyll companion resolution, pact broken or maintained",
+    summary:
+      "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
+    aiTip:
+      "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
+    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+  },
+
+  // ── Elden Ring (additional) ───────────────────────────────────────────────
+  {
+    id: 119,
+    game: "Elden Ring",
+    title: "Patches' Questline",
+    location: "Murkwater Cave, Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Patches as vendor, Dancer's Castanets, comedic encounters",
+    summary:
+      "Encounter the treacherous merchant Patches across multiple locations as he tricks, betrays, and ultimately befriends the Tarnished. A recurring FromSoftware character with a surprisingly heartfelt conclusion.",
+    aiTip:
+      "Don't kill Patches after his ambush — forgive him to unlock his shop. His questline ends at the Volcano Manor with a touching final letter.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+  {
+    id: 120,
+    game: "Elden Ring",
+    title: "Hyetta's Questline",
+    location: "Liurnia, Leyndell, Frenzied Flame Proscription",
+    length: "long",
+    difficulty: "High",
+    reward: "Frenzied Flame Seal incantation tool, questline lore",
+    summary:
+      "Follow a blind woman who seeks grape-like eyes across Liurnia and beyond. Her quest leads deep into the lore of the Three Fingers and the Frenzied Flame ending path.",
+    aiTip:
+      "You must give Hyetta Shabriri Grapes at each location she appears. Her final location requires accessing the Frenzied Flame Proscription — an area that locks you into a specific ending if you interact with it.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+  {
+    id: 121,
+    game: "Elden Ring",
+    title: "Dung Eater's Questline",
+    location: "Roundtable Hold, Subterranean Shunning-Grounds",
+    length: "long",
+    difficulty: "High",
+    reward: "Mending Rune of the Fell Curse, Omen armor set",
+    summary:
+      "Interact with the cursed and terrifying Dung Eater at the Roundtable Hold, then hunt Seedbed Curse items to fulfill his vile requests. His ending is one of the darkest in the game.",
+    aiTip:
+      "Don't free the Dung Eater from prison until you've bought everything from Patches and other Roundtable Hold NPCs — freeing him turns him hostile to others.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+  {
+    id: 122,
+    game: "Elden Ring",
+    title: "Sorcerer Rogier's Questline",
+    location: "Stormveil Castle, Roundtable Hold, Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rogier's Rapier, Black Knifeprint, lore revelations",
+    summary:
+      "Help the ailing sorcerer Rogier uncover the truth about the Black Knife Assassins and their role in the Night of Black Knives. His questline intersects with Ranni's and reveals crucial backstory about the Shattering.",
+    aiTip:
+      "Find the bloodstain beneath Stormveil Castle first to trigger his questline. His quest ties into Ranni's — progress both together for the full picture.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+  {
+    id: 123,
+    game: "Elden Ring",
+    title: "White Mask Varre's Questline",
+    location: "Limgrave, Rose Church, Mohgwyn Palace",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Early access to Mohgwyn Palace, Varre's Bouquet weapon",
+    summary:
+      "Follow the taunting NPC Varre from the very start of the game through his questline that eventually grants access to one of the best early farming locations in Elden Ring.",
+    aiTip:
+      "Invading other players three times is required — you don't need to win. This is the fastest route to Mohgwyn Palace, which has one of the best rune farming spots in the game.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+  {
+    id: 124,
+    game: "Elden Ring",
+    title: "Blackguard Big Boggart's Quest",
+    location: "Liurnia, Leyndell",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Boiled prawns, Iron Ball weapon, questline conclusion",
+    summary:
+      "Meet a lovable prawn-boiling merchant who gets caught up in Rya's questline. A surprisingly touching side story about a simple man living honestly in a brutal world.",
+    aiTip:
+      "Buy prawns from Boggart and exhaust his dialogue each time you meet him. Don't let Rya's questline progress too far before speaking to him or you'll miss key interactions.",
+    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+  },
+
+  // ── Final Fantasy VII Rebirth (additional) ────────────────────────────────
+  {
+    id: 125,
+    game: "Final Fantasy VII Rebirth",
+    title: "Tifa's Piano Recital",
+    location: "Various Regions",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Relationship points with Tifa, unique music",
+    summary:
+      "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
+    aiTip:
+      "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 126,
+    game: "Final Fantasy VII Rebirth",
+    title: "The Excavation Expert",
+    location: "Corel Desert",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare materia, Gil, chocobo upgrades",
+    summary:
+      "Help a team of archaeologists excavating ancient ruins in the Corel Desert. The quest involves tracking down missing workers, solving environmental puzzles, and fending off desert monsters threatening the dig site.",
+    aiTip:
+      "Equip Lightning materia before heading in — the scorpion-type machines in the desert are weak to it. Completing all excavation objectives unlocks a bonus chest with rare equipment.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 127,
+    game: "Final Fantasy VII Rebirth",
+    title: "Aerith's Cetra Vision",
+    location: "Cosmo Canyon",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Relationship points with Aerith, Ancient lore",
+    summary:
+      "Aerith experiences visions of the Ancients near Cosmo Canyon's sacred sites. Follow her as she communes with the Planet, deepening Cloud's understanding of her heritage and the weight she carries.",
+    aiTip:
+      "This quest is heavily story-driven — focus on dialogue choices that show empathy. Your responses significantly affect the Aerith relationship score for the date scene.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 128,
+    game: "Final Fantasy VII Rebirth",
+    title: "Junon Parade Training",
+    location: "Junon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Junon Region Intel, materia, access to parade events",
+    summary:
+      "Cloud must infiltrate the Shinra military parade in Junon by mastering parade drill movements. A memorable set piece blending rhythm-based mini-games with stealth as Cloud marches alongside actual Shinra soldiers.",
+    aiTip:
+      "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 129,
+    game: "Final Fantasy VII Rebirth",
+    title: "Queen's Blood Champion",
+    location: "Various / Gold Saucer",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare Queen's Blood cards, Champion title",
+    summary:
+      "Challenge and defeat every Queen's Blood card player across the world to become the undisputed champion. The card game deepens in complexity as you collect more powerful cards and face tougher opponents.",
+    aiTip:
+      "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 130,
+    game: "Final Fantasy VII Rebirth",
+    title: "Gongaga Rescue Mission",
+    location: "Gongaga Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Party EXP, Gongaga region Intel complete",
+    summary:
+      "Help the residents of Gongaga village deal with the dangerous wildlife that has overrun their region following the Mako reactor explosion. Multiple linked quests involving reconnaissance, rescue, and extermination.",
+    aiTip:
+      "Complete the regional Intel before starting — it reveals enemy locations and makes the rescue objectives faster to complete. The boss creature has a weakness to Ice.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+  {
+    id: 131,
+    game: "Final Fantasy VII Rebirth",
+    title: "Yuffie's Wutai Intel",
+    location: "Various Regions",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Yuffie relationship points, rare materia, Wutai lore",
+    summary:
+      "Assist Yuffie in gathering intelligence about Shinra's activities across regions for her homeland Wutai. Her energetic approach to espionage makes for some of the game's funniest and most action-packed optional scenes.",
+    aiTip:
+      "Complete Yuffie's combat challenges in each region — they're fast and reward unique materia. Her affection score affects an optional scene in the Gold Saucer.",
+    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+  },
+
+  // ── Cyberpunk 2077 (additional) ───────────────────────────────────────────
+  {
+    id: 132,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Kerry Eurodyne's Questline",
+    location: "Night City / Kerry's Villa",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Kerry romance, Davoud guitar, emotional payoff",
+    summary:
+      "Help legendary rocker Kerry Eurodyne reignite his passion for music and deal with corporate sabotage of his comeback tour. A feel-good questline with an optional romance and some of the best music in the game.",
+    aiTip:
+      "Male V only for the romance option. Exhaust all dialogue during band practice sessions — it unlocks additional quest steps and raises the affection meter.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 133,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "River Ward's Questline (I Forgive You)",
+    location: "Night City / Badlands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "River romance, unique revolver, NCPD ally",
+    summary:
+      "Help detective River Ward track down his missing nephew Randy through a harrowing chain of events involving a serial killer, illegal braindances, and a derelict farm. One of the most emotionally impactful side quests in the game.",
+    aiTip:
+      "Female V only for the romance path. During the farm sequence, memorise the four sets of directions given — you must recall them precisely without notes to save Randy.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 134,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Panam Palmer's Questline",
+    location: "Badlands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Panam romance, Aldecaldo family allies, secret ending",
+    summary:
+      "Build a relationship with nomad Panam Palmer as she rallies her clan against Militech and plans a massive heist. Her storyline is one of the most satisfying in the game and unlocks the secret Nomad ending.",
+    aiTip:
+      "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 135,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Phantom Liberty – Somewhat Damaged",
+    location: "Dogtown / Cynosure",
+    length: "long",
+    difficulty: "High",
+    reward: "New Relic ending, Songbird resolution",
+    summary:
+      "The climactic mission of Phantom Liberty forces an impossible choice between saving Songbird or handing her over to the NUSA. The most morally complex decision in the expansion with two wildly different conclusions.",
+    aiTip:
+      "Save before this mission and experience both endings — they're dramatically different. The Songbird path unlocks a brand new fourth ending for the base game.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 136,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Violence",
+    location: "Night City / Clouds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Stairway to Heaven iconic weapon, XP",
+    summary:
+      "Help a mysterious braindance artist named Lizzy Wizzy who is struggling with grief and identity after having her entire body chrome-plated. A quiet, atmospheric quest that highlights the human cost of body modification.",
+    aiTip:
+      "This quest has no combat — it's purely dialogue and atmosphere. Take your time and engage fully with Lizzy's story for the best experience and the iconic weapon reward.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 137,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Riders on the Storm",
+    location: "Badlands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Panam questline progression, Saul rescued",
+    summary:
+      "Race against a deadly Raffen Shiv sandstorm to rescue Panam's clan leader Saul from a nomad gang's camp. A time-pressured mission that tests both driving skills and combat ability under harsh weather conditions.",
+    aiTip:
+      "The storm hits a timer — don't explore, go straight to the objective. Inside the camp, stealth is possible but the storm outside forces combat on the way out.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+  {
+    id: 138,
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "The Ballad of Buck Ravers",
+    location: "Pacifica",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique weapon, local lore, XP",
+    summary:
+      "Track down a legendary street musician in Pacifica whose music has taken on almost mythical status in Night City. A short but beautifully written quest about art, legacy, and how stories grow in the telling.",
+    aiTip:
+      "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
+    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+  },
+
+  // ── Demon's Souls (additional) ────────────────────────────────────────────
+  {
+    id: 139,
+    game: "Demon's Souls",
+    title: "Ostrava of Boletaria",
+    location: "Boletarian Palace (1-1, 1-2, 1-3)",
+    length: "long",
+    difficulty: "High",
+    reward: "Mausoleum Key, Rune Sword and Shield",
+    summary:
+      "Rescue the noble Ostrava repeatedly across three stages of Boletarian Palace. His questline ends in tragedy and rewards the key to the Mausoleum, which contains one of the game's most powerful weapon sets.",
+    aiTip:
+      "Rescue Ostrava every time you encounter him or he dies and the quest fails. Never invade him as a Black Phantom early — let the questline resolve naturally for the Mausoleum Key.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 140,
+    game: "Demon's Souls",
+    title: "Sage Freke's Rescue",
+    location: "Tower of Latria (3-1)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Access to advanced sorcery spells, XP",
+    summary:
+      "Free the imprisoned sorcerer Sage Freke from the Tower of Latria. He becomes a spell vendor in the Nexus offering powerful magic unavailable elsewhere, making him essential for intelligence-build characters.",
+    aiTip:
+      "His cell key is held by the Mindflayer jailer on the second level. Clear surrounding enemies before grabbing the key — the jailers respawn and their paralysis can be lethal.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 141,
+    game: "Demon's Souls",
+    title: "Stockpile Thomas",
+    location: "The Nexus",
+    length: "short",
+    difficulty: "Low",
+    reward: "Item storage, merchant services, NPC lore",
+    summary:
+      "Meet Stockpile Thomas in the Nexus, a kind-hearted man searching for his family. He provides the invaluable service of storing excess items and unlocking later in his questline reveals a heartbreaking backstory.",
+    aiTip:
+      "Always use Thomas to store excess items — inventory management is critical in Demon's Souls. Talk to him after major boss kills to unlock new dialogue about his family.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 142,
+    game: "Demon's Souls",
+    title: "Dragon God's Weakness",
+    location: "Stonefang Tunnel (2-3)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Dragon Demon's Soul, Pure Dragonstone access",
+    summary:
+      "Defeat the Dragon God by using ballista traps in the arena rather than direct combat. One of the most creative boss fights in the game, requiring observation and patience rather than combat skill.",
+    aiTip:
+      "The Dragon God is effectively invincible to direct attacks early in the fight. Use the environment — activate the two ballista traps in sequence while avoiding its gaze to stun it for the kill.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 143,
+    game: "Demon's Souls",
+    title: "The Old Monk's Trial",
+    location: "Tower of Latria (3-3)",
+    length: "short",
+    difficulty: "High",
+    reward: "Monk's Head Collar, Old Monk's Soul",
+    summary:
+      "Face the Old Monk boss who summons a real player to fight as the final encounter — a groundbreaking mechanic for its time. If no player is available, a Black Phantom NPC takes their place.",
+    aiTip:
+      "Prepare for a human opponent — they can use any build and will exploit your weaknesses. Keep a Fire Spray or Soul Ray ready as a ranged punish option.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 144,
+    game: "Demon's Souls",
+    title: "Maiden Astraea's Mercy",
+    location: "Valley of Defilement (5-3)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pureblood Demon's Soul, Sword of Searching",
+    summary:
+      "Confront Maiden Astraea, a saint who descended into the Valley of Defilement to care for the suffering. She and her guardian Garl Vinland present one of the most emotionally devastating boss encounters in FromSoftware history.",
+    aiTip:
+      "You can kill Garl Vinland first to make Astraea vulnerable, or you can talk to Astraea and she will take her own life. Neither method feels like a victory — that's the point.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+  {
+    id: 145,
+    game: "Demon's Souls",
+    title: "Worshiper of God's Questline",
+    location: "Various Worlds",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Faith-based miracles, Pure White World Tendency",
+    summary:
+      "Interact with various NPC characters who follow the God of the nexus across multiple worlds. Their questlines reward miracles and demonstrate how Demon's Souls uses NPCs to reflect the game's morality system.",
+    aiTip:
+      "Maintaining Pure White World Tendency opens additional NPC interactions and spawns unique items. Avoid dying in body form and kill Black Phantom NPCs to shift tendency toward white.",
+    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+  },
+
+  // ── Hogwarts Legacy (additional) ──────────────────────────────────────────
+  {
+    id: 146,
+    game: "Hogwarts Legacy",
+    title: "The Elf, the Nab-Sack, and the Loom",
+    location: "Hogsmeade / Vivarium",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Nab-Sack, Room of Requirement Vivarium, beast rescuing",
+    summary:
+      "Befriend Deek the house elf and unlock the ability to rescue magical beasts using a Nab-Sack. This quest opens the Vivarium in the Room of Requirement where you can care for animals and harvest upgrade materials.",
+    aiTip:
+      "Complete this early — beast materials are used to upgrade gear throughout the game. The Vivarium becomes a key resource hub, so setting it up promptly pays off.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 147,
+    game: "Hogwarts Legacy",
+    title: "Charles Rookwood's Trial",
+    location: "Rookwood Castle",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient Magic Throw ability, ancient magic meter increase",
+    summary:
+      "Complete a magical trial hidden within Rookwood Castle to master Ancient Magic Throw. The dungeon tests your understanding of the combat system through carefully designed puzzle-combat rooms.",
+    aiTip:
+      "Ancient Magic Throw lets you hurl enemy projectiles and environmental objects back at foes — it fundamentally changes combat. Learn the timing in the trial rooms before using it against tough enemies.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 148,
+    game: "Hogwarts Legacy",
+    title: "Poppy's Questline (The Plight of the House-Elf)",
+    location: "Feldcroft / Clagmar Coast",
+    length: "long",
+    difficulty: "High",
+    reward: "Poppy Sweeting companion quest resolution, dragon lore",
+    summary:
+      "Help Poppy Sweeting expose and confront the poacher ring exploiting magical creatures. The questline culminates in an encounter with a massive dragon and reveals the full extent of Rookwood's illegal operations.",
+    aiTip:
+      "Stock up on high-level potions before the final encounter. The dragon sequence is one of the most visually spectacular moments in the game — enjoy it but stay mobile.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 149,
+    game: "Hogwarts Legacy",
+    title: "The Lost Astrolabe",
+    location: "Black Lake Shore",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gil's boat use, exploration access, XP",
+    summary:
+      "Help a fisherman named Gil recover his stolen astrolabe from nesting diricawl birds near the Black Lake. A brief quest that teaches creature interaction mechanics and opens up boat travel along the lake.",
+    aiTip:
+      "Use Accio to retrieve the astrolabe from the nest rather than disturbing the birds directly. Completing this unlocks Gil's boat, which provides a faster travel route along the lakeshore.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 150,
+    game: "Hogwarts Legacy",
+    title: "Solved by the Bell",
+    location: "Clagmar Castle",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Music box puzzle treasure, rare equipment",
+    summary:
+      "Follow a set of clues involving a musical puzzle to unlock a secret treasure hidden within Clagmar Castle. The puzzle requires you to play specific musical notes in sequence using bells scattered around the area.",
+    aiTip:
+      "Write down the note sequence from the music box before approaching the bells — there's no in-game record of it. The sequence is fixed, not randomised.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 151,
+    game: "Hogwarts Legacy",
+    title: "Flying off the Shelves",
+    location: "Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Wingardium Leviosa spell, early game utility",
+    summary:
+      "Help the owner of Tomes and Scrolls recover books that have flown off the shelves using a levitation charm. This short quest teaches Wingardium Leviosa, an essential spell for environmental puzzles throughout the game.",
+    aiTip:
+      "Wingardium Leviosa is used constantly for puzzles and combat. Unlock it early and experiment with levitating different objects in the environment — some hide secrets.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+  {
+    id: 152,
+    game: "Hogwarts Legacy",
+    title: "Astronomy Table Challenges",
+    location: "Various Locations",
+    length: "long",
+    difficulty: "Low",
+    reward: "Cosmetic gear sets, unique outfit unlocks",
+    summary:
+      "Locate and complete all astronomy table challenges scattered across the Hogwarts grounds and surrounding region. Each challenge requires visiting a specific location at the right time and completing a star-charting mini-game.",
+    aiTip:
+      "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
+    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+  },
+
+  // ── Metaphor: ReFantazio (additional) ─────────────────────────────────────
+  {
+    id: 153,
+    game: "Metaphor: ReFantazio",
+    title: "Follower: Hulkenberg's Resolve",
+    location: "Various / Story Chapters",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Hulkenberg Confidant progression, Knight Archetype upgrades",
+    summary:
+      "Deepen your bond with Hulkenberg, the stoic knight who joins your party early. Her questline explores duty, personal sacrifice, and what it means to serve a cause you believe in — one of the most grounded stories in the game.",
+    aiTip:
+      "Choose dialogue options that respect her sense of duty rather than challenging it. Her later Archetype upgrades dramatically improve physical combat for the whole party.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+  {
+    id: 154,
+    game: "Metaphor: ReFantazio",
+    title: "The Gauntlet Runner Races",
+    location: "Gauntlet Runner / Travel Routes",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique accessories, crafting materials, downtime activities",
+    summary:
+      "Compete in races and challenges aboard the Gauntlet Runner between locations. These optional events reward rare accessories and provide a break from dungeon crawling while developing the world's culture.",
+    aiTip:
+      "Upgrade the Gauntlet Runner's speed stats when possible — faster travel reduces time costs and unlocks harder race tiers. The top tier races reward some of the best accessories in the game.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+  {
+    id: 155,
+    game: "Metaphor: ReFantazio",
+    title: "Follower: Strohl's Rage",
+    location: "Various / Story Chapters",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Strohl Confidant progression, Warrior Archetype upgrades",
+    summary:
+      "Follow Strohl's journey as he wrestles with his volatile nature and a painful past. His questline explores themes of anger, identity, and self-mastery, leading to powerful Archetype evolutions.",
+    aiTip:
+      "Support Strohl without being dismissive of his anger — he responds best to dialogue that acknowledges his feelings. His Archetype evolutions make him one of the strongest physical attackers.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+  {
+    id: 156,
+    game: "Metaphor: ReFantazio",
+    title: "Akademeia's Lost Archives",
+    location: "Grand Trad / Akademeia",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rare spellbooks, lore insight, Archetype points",
+    summary:
+      "Assist scholars at the prestigious Akademeia institute in recovering stolen research documents. The quest provides significant lore about the Archetype system and rewards rare materials for upgrading your party's magical abilities.",
+    aiTip:
+      "Bring a party member with high Wisdom for the dialogue checks in this quest. The spellbook rewards are especially valuable for magic-focused builds.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+  {
+    id: 157,
+    game: "Metaphor: ReFantazio",
+    title: "The Royal Election Debates",
+    location: "Grand Trad Arena / Various",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Popularity growth, new followers, election story progression",
+    summary:
+      "Participate in public debates against rival candidates vying for the throne. Each debate requires choosing the right responses to sway public opinion — a unique mix of social simulation and political strategy.",
+    aiTip:
+      "Research each rival's platform before the debate — their weaknesses are telegraphed in NPC conversations beforehand. High Eloquence makes debate options more persuasive.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+  {
+    id: 158,
+    game: "Metaphor: ReFantazio",
+    title: "The Ancient Ruin Expedition",
+    location: "Faraway Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Unique Archetype unlock, powerful equipment",
+    summary:
+      "Venture into a dangerous pre-civilization ruin that predates even the Euchronian Kingdom. The dungeon contains enemies resistant to conventional magic and rewards careful party composition and elemental strategy.",
+    aiTip:
+      "The enemies here require specific elemental counters — scout them with a high-Wisdom party member before committing to attacks. The Archetype unlock at the end is worth every challenge.",
+    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+  },
+
+  // ── God of War Ragnarök (additional) ──────────────────────────────────────
+  {
+    id: 159,
+    game: "God of War Ragnarök",
+    title: "Freya's Missing Peace",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sigrun's Curse shield attachment, Freya companion upgrade",
+    summary:
+      "Help Freya reconnect with her homeland Vanaheim and begin healing from her traumatic past with Odin. A quieter quest focused on character development that deepens Freya's arc beyond her role as a combat companion.",
+    aiTip:
+      "Exhaust all dialogue options during the quiet moments — Freya's backstory is delivered through these scenes. Completing her personal quests unlocks combat dialogue upgrades.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 160,
+    game: "God of War Ragnarök",
+    title: "In Plain Sight",
+    location: "Midgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Muspelheim Seed piece, unique armour enchantment",
+    summary:
+      "Investigate a series of strange occurrences in Midgard that seem connected to hidden Asgardian activity. A short favour chain that rewards exploration and environmental observation.",
+    aiTip:
+      "Use Atreus's ability to read rune inscriptions throughout the area — they point to hidden compartments. The Muspelheim Seed piece is crucial for unlocking endgame challenge content.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 161,
+    game: "God of War Ragnarök",
+    title: "The Raven Tree",
+    location: "Niflheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Odin's Ravens rewards, unique armour and enchantments",
+    summary:
+      "Track down all 48 of Odin's Ravens hidden across the Nine Realms and return to the Raven Tree in Niflheim for escalating rewards. The ravens glow green and emit a distinct sound — but some are hidden in very obscure locations.",
+    aiTip:
+      "Use the map to track which realms have ravens remaining. Some ravens are only accessible after completing story missions that open new areas. The final reward set is among the best armour in the game.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 162,
+    game: "God of War Ragnarök",
+    title: "Atreus's Search",
+    location: "Various Realms",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Lore, Atreus story resolution, unique companion dialogue",
+    summary:
+      "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
+    aiTip:
+      "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 163,
+    game: "God of War Ragnarök",
+    title: "The Crucible",
+    location: "Muspelheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Chaos Flames, Muspelheim armour set materials",
+    summary:
+      "Complete a series of escalating combat challenges in the fiery realm of Muspelheim to earn Chaos Flames for upgrading the Blades of Chaos. Six initial trials lead to harder Surtr's Crucible challenges for the best rewards.",
+    aiTip:
+      "Complete the six initial trials before attempting Surtr's Crucible. Lunda's Poison armour works exceptionally well here — poison on parry shreds through the challenge health gates.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 164,
+    game: "God of War Ragnarök",
+    title: "Mimir's Knowledge",
+    location: "Various Realms",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Lore collectibles, world-building, XP",
+    summary:
+      "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
+    aiTip:
+      "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+  {
+    id: 165,
+    game: "God of War Ragnarök",
+    title: "Sigrun's Curse",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rond of Purification, Valkyrie armour upgrade materials",
+    summary:
+      "Investigate a curse affecting the Valkyries that has left them trapped between worlds. The quest chain leads to several powerful Valkyrie mini-bosses and uncovers the connection between Odin's manipulation and their imprisonment.",
+    aiTip:
+      "Each Valkyrie has unique attack patterns — observe before committing to aggression. Shield parry timing is critical; learn to deflect their wing attacks for free damage windows.",
+    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+  },
+
+  // ── Persona 5 Royal (additional) ──────────────────────────────────────────
+  {
+    id: 166,
+    game: "Persona 5 Royal",
+    title: "Ryuji's Confidant (Chariot)",
+    location: "Shibuya / Track Field",
+    length: "long",
+    difficulty: "Low",
+    reward: "Ryuji abilities, Charge skill, baton pass upgrades",
+    summary:
+      "Rebuild Ryuji's relationship with his old track team after an injury derailed his athletic career. His Confidant explores themes of friendship, regret, and moving forward — and his ultimate ability Captain Kidd's upgrade is invaluable.",
+    aiTip:
+      "Rank up Ryuji's Confidant as early as possible — his Baton Pass upgrade lets him transfer turn momentum to other party members, one of the most powerful mechanics in the game.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 167,
+    game: "Persona 5 Royal",
+    title: "Ann's Confidant (Lovers)",
+    location: "Shibuya / Various",
+    length: "long",
+    difficulty: "Low",
+    reward: "Ann abilities, Charm attribute growth, healing upgrades",
+    summary:
+      "Support Ann Takamaki as she pursues modelling and grapples with how she's perceived by others. Her Confidant explores self-worth and authenticity, and her support skills become some of the most useful healing abilities in the game.",
+    aiTip:
+      "Ann's insta-cure status effect ability at higher Confidant ranks is incredibly useful in late-game Palaces where status ailments become frequent. Prioritise it mid-game.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 168,
+    game: "Persona 5 Royal",
+    title: "Futaba's Confidant (Hermit)",
+    location: "Yongen-Jaya / Akihabara",
+    length: "long",
+    difficulty: "Low",
+    reward: "Futaba navigator abilities, Oracle upgrades",
+    summary:
+      "Help Futaba overcome her social anxiety and reconnect with the outside world through a series of increasingly adventurous outings. Her Confidant unlocks powerful Navigator abilities that give the whole party battle advantages.",
+    aiTip:
+      "Futaba's Navigator upgrades include enemy scanning, HP/SP recovery mid-battle, and follow-up attacks. Max her Confidant as soon as possible — these abilities save resources throughout late-game Palaces.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 169,
+    game: "Persona 5 Royal",
+    title: "Sojiro's Confidant (Hierophant)",
+    location: "Café Leblanc",
+    length: "long",
+    difficulty: "Low",
+    reward: "Coffee and Curry crafting, SP recovery items",
+    summary:
+      "Build a relationship with Sojiro Sakura, Joker's guardian and the owner of Café Leblanc. His Confidant involves uncovering a painful secret about his past, and completing it teaches Joker to brew SP-restoring coffee and curry.",
+    aiTip:
+      "Sojiro's coffee and curry are among the best SP recovery items in the game — craft them regularly. His Confidant maxes out relatively quickly if you interact at the café frequently.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 170,
+    game: "Persona 5 Royal",
+    title: "Mementos Requests: The Killer's Profile",
+    location: "Path of Chemdah, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Empress Confidant rank-up, XP",
+    summary:
+      "Expose and defeat a corrupt politician hiding in Mementos who has been covering up crimes for years. One of the most satisfying Mementos requests, tying directly into the larger theme of justice that drives the Phantom Thieves.",
+    aiTip:
+      "The Shadow is weak to Ice and Nuke. Bring Ann for Freeze technical combos and Ryuji for Nuke technical chains — the combination destroys it quickly.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 171,
+    game: "Persona 5 Royal",
+    title: "Iwai's Confidant (Hanged Man)",
+    location: "Untouchable, Shibuya",
+    length: "long",
+    difficulty: "Low",
+    reward: "Airsoft gun customisation, unique accessories",
+    summary:
+      "Help the mysterious airsoft shop owner Munehisa Iwai navigate yakuza entanglements threatening his family. His Confidant unlocks the ability to customise Phantom Thief equipment beyond standard upgrades.",
+    aiTip:
+      "Iwai's equipment customisation options include powerful attachments not available through standard shops. Raise his Confidant to at least Rank 7 before the late-game for the best customisation options.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+  {
+    id: 172,
+    game: "Persona 5 Royal",
+    title: "Ohya's Confidant (Devil)",
+    location: "Crossroads Bar, Shinjuku",
+    length: "long",
+    difficulty: "Low",
+    reward: "Palace security reduction, investigation suppression",
+    summary:
+      "Help reporter Ichiko Ohya find the truth about a conspiracy tied to the Phantom Thieves' activities. Her Confidant ability reduces Palace security level increases when Joker is spotted — a powerful quality-of-life upgrade for stealth play.",
+    aiTip:
+      "Ohya's security suppression ability is especially valuable in the later Palaces where being spotted triggers powerful Shadow reinforcements. Level her up before tackling Shido's Palace.",
+    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+  },
+
+  // ── Ghost of Tsushima (additional) ────────────────────────────────────────
+  {
+    id: 173,
+    game: "Ghost of Tsushima",
+    title: "The Six Blades of Kojiro",
+    location: "Iki Island / Toyotama",
+    length: "long",
+    difficulty: "High",
+    reward: "Kensei Armour set, Ghost Stance upgrade",
+    summary:
+      "Hunt down six legendary swordsmen — the surviving members of the Straw Hat Ronin gang — across Tsushima. Each duel is a unique challenge that tests a different aspect of your sword mastery.",
+    aiTip:
+      "Face the six blades in order of difficulty — the final duel with Kojiro himself is one of the hardest fights in the base game. The Kensei Armor enhances Ghost Stance, making this questline doubly rewarding.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+  {
+    id: 174,
+    game: "Ghost of Tsushima",
+    title: "The Unbreakable Gosaku",
+    location: "Toyotama Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gosaku's Armour upgrade materials, Samurai lore",
+    summary:
+      "Follow the legend of Gosaku the farmer-warrior and uncover hidden shrines that reveal his story. The tale of a common man who stood against overwhelming odds mirrors Jin's own struggle and adds weight to the Gosaku Armor questline.",
+    aiTip:
+      "The shrines are well-hidden — use Guiding Wind frequently. Reading Gosaku's story in full provides buffs at each shrine that make the final farmstead liberations slightly easier.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+  {
+    id: 175,
+    game: "Ghost of Tsushima",
+    title: "Norio's Devotion",
+    location: "Toyotama / Kamiagata",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Norio companion quest complete, unique dye, Legend increase",
+    summary:
+      "Accompany the warrior monk Norio as he tracks down the Mongol commander responsible for destroying his temple and killing his brother. A quest about faith, vengeance, and whether peace of mind can be found through violence.",
+    aiTip:
+      "Complete all three of Norio's companion missions in sequence. The final confrontation has a meaningful choice — both options have emotional weight depending on your interpretation of Norio's journey.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+  {
+    id: 176,
+    game: "Ghost of Tsushima",
+    title: "A Reckoning in Blood",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sakai Clan Armor upgrade, massive Legend increase",
+    summary:
+      "Confront the Mongol general Dokhoi who committed atrocities against the people of Kamiagata. A large-scale assault requiring stealth infiltration followed by intense open combat as Jin's legend reaches its peak.",
+    aiTip:
+      "Scout the encampment fully before engaging — use the Ghost stance to eliminate key targets early. The general himself fights with two weapons simultaneously; watch for the stance changes.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+  {
+    id: 177,
+    game: "Ghost of Tsushima",
+    title: "The Tournament of Kenjutsu",
+    location: "Iki Island (Director's Cut)",
+    length: "long",
+    difficulty: "High",
+    reward: "Iki Island armor set, duelling techniques",
+    summary:
+      "Enter a prestigious sword tournament on Iki Island and face increasingly skilled opponents from across the region. Each round reveals more about Iki Island's culture and Jin's complicated connection to the island.",
+    aiTip:
+      "Tournament opponents each use a specific fighting style — switch stances between rounds. The final opponent counters aggression; use reactive parry strategies.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+  {
+    id: 178,
+    game: "Ghost of Tsushima",
+    title: "Yuna's Pursuit",
+    location: "Izuhara / Toyotama",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Yuna companion quest complete, unique Ghost armor dye",
+    summary:
+      "Help Yuna track down her brother Taka and the Mongols who are exploiting Tsushima's civilians. Her companion quest adds important context to the dynamic between the samurai code and Jin's evolution into the Ghost.",
+    aiTip:
+      "Side with Yuna in disagreements — her practical approach reflects the Ghost philosophy. Completing all her quests before the end of Act 2 provides the best emotional payoff.",
+    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+  },
+
+  // ── Horizon Forbidden West (additional) ───────────────────────────────────
+  {
+    id: 179,
+    game: "Horizon Forbidden West",
+    title: "The Daunt Errands",
+    location: "The Daunt",
+    length: "short",
+    difficulty: "Low",
+    reward: "Resources, XP, faction reputation",
+    summary:
+      "Complete a series of errands for the Oseram settlers establishing themselves in The Daunt. These quick tasks introduce Horizon's errand system and teach combat and exploration mechanics in a safe opening environment.",
+    aiTip:
+      "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 180,
+    game: "Horizon Forbidden West",
+    title: "The Broken Sky",
+    location: "Sheerside Mountains",
+    length: "long",
+    difficulty: "High",
+    reward: "4 Skill Points, Grimhorn machine override, 6000 XP",
+    summary:
+      "Investigate a Cauldron in the Sheerside Mountains that has been producing corrupted machines. Navigating the facility requires solving power puzzles while fending off aggressive Apex-class machines.",
+    aiTip:
+      "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 181,
+    game: "Horizon Forbidden West",
+    title: "The Distant Lands",
+    location: "No Man's Land / Utaru Territory",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Utaru Seed-Caller armour, 3 Skill Points, 5500 XP",
+    summary:
+      "Travel beyond Tenakth borders to the dying Utaru tribe's homeland, where the Plague is ravaging crops and people. Aloy must navigate Utaru customs and traditions to earn their trust and access vital information.",
+    aiTip:
+      "Use Concentration during the ritual portions of this quest — the pacing is slow but skipping dialogue misses critical worldbuilding. The Utaru armor provides useful stealth bonuses.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 182,
+    game: "Horizon Forbidden West",
+    title: "The Old Varl's Refuge",
+    location: "Legacy's Landfall",
+    length: "short",
+    difficulty: "Low",
+    reward: "Oseram Flameworks weapon, 2 Skill Points, 3500 XP",
+    summary:
+      "Help a group of elderly Nora refugees who have settled in the ruins of an old Vantage Point and are being harassed by scavengers. A short but touching quest about community and resilience in a collapsed world.",
+    aiTip:
+      "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 183,
+    game: "Horizon Forbidden West",
+    title: "Faro's Tomb",
+    location: "San Francisco Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Faro's Spear weapon, 3 Skill Points, 7000 XP",
+    summary:
+      "Explore the sealed tomb of Ted Faro, the man responsible for the extinction of the Old World. The dungeon confronts Aloy with the full horror of HEPHAESTUS's legacy and rewards a powerful endgame spear.",
+    aiTip:
+      "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 184,
+    game: "Horizon Forbidden West",
+    title: "The Bristlebacks",
+    location: "Plainsong, Utaru Territory",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bristleback mount override, 2 Skill Points, 4000 XP",
+    summary:
+      "Investigate a herd of corrupted Bristleback machines terrorising the Utaru farming communities. Clearing the corruption and overriding a Bristleback provides a fast travel mount usable across open terrain.",
+    aiTip:
+      "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+  {
+    id: 185,
+    game: "Horizon Forbidden West",
+    title: "The Dying Lands",
+    location: "Thornmarsh",
+    length: "long",
+    difficulty: "High",
+    reward: "3 Skill Points, Clawstrider override, 6500 XP",
+    summary:
+      "Investigate the mysterious blight killing the swamp ecosystem in Thornmarsh and confront the Apex Clawstrider pack responsible. A multi-stage quest that demonstrates Horizon's approach to environmental storytelling.",
+    aiTip:
+      "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+  },
+
+  // ── Pillars of Eternity (additional) ──────────────────────────────────────
+  {
+    id: 186,
+    game: "Pillars of Eternity",
+    title: "Lord of a Barren Land",
+    location: "Esternwood, Act 2",
+    length: "medium",
+    difficulty: "High",
+    reward: "Stronghold influence, rare equipment, XP",
+    summary:
+      "Confront a group of bandits who have taken up residence near the Watcher's stronghold and are terrorising the local farmsteads. The quest escalates into a larger conflict involving a deposed noble seeking to reclaim his land.",
+    aiTip:
+      "Negotiate first — the noble's demands can be met diplomatically, avoiding a difficult multi-wave battle. Choosing the right outcome improves your Stronghold's relationship with local settlers.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 187,
+    game: "Pillars of Eternity",
+    title: "The Parable of Wael",
+    location: "Copperlane, Defiance Bay",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Wael faction reputation, unique grimoire, cipher spells",
+    summary:
+      "Recover a stolen holy text belonging to followers of Wael, the god of secrets and mysteries. The quest has multiple solutions and explores the game's theme of truth versus comfortable deception.",
+    aiTip:
+      "The 'best' outcome is hidden behind skill checks — Lore and Insight help here. Reading the text before deciding what to do with it changes available dialogue options.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 188,
+    game: "Pillars of Eternity",
+    title: "Brave Derrin",
+    location: "Dyrford Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, reputation, child's gratitude",
+    summary:
+      "A young boy in Dyrford Village is missing, and the adults seem unwilling to search properly. A brief but touching quest that demonstrates the game's commitment to portraying ordinary lives amid extraordinary events.",
+    aiTip:
+      "This is one of the shortest quests in the game — complete it early in your Dyrford visit. The reward is minor but the dialogue with the child adds unexpected emotional depth.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 189,
+    game: "Pillars of Eternity",
+    title: "The Nest Egg",
+    location: "Elmshore",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, rare ingredients, XP",
+    summary:
+      "Retrieve a valuable egg stolen from a merchant by bandits hiding in Elmshore's dangerous wilderness. A simple fetch quest elevated by the beautiful environment and the option to deal with the bandits through negotiation or combat.",
+    aiTip:
+      "The bandit camp has a hard encounter if you fight. A high-Intimidate character can convince them to hand over the egg without a fight. The Elmshore area itself contains several rare crafting ingredients worth looting.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 190,
+    game: "Pillars of Eternity",
+    title: "A Mother's Plea",
+    location: "Defiance Bay / Copperlane",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, faction reputation, emotional resolution",
+    summary:
+      "A desperate mother begs the Watcher to help find her missing son who has become entangled with a criminal gang in Defiance Bay. The investigation reveals the city's dark underworld and forces a moral choice about redemption.",
+    aiTip:
+      "Complete the investigation before confronting anyone — partial information leads to a worse outcome. Your choice at the end affects Copperlane faction reputation.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 191,
+    game: "Pillars of Eternity",
+    title: "Burning Bridges",
+    location: "Ondra's Gift, Defiance Bay",
+    length: "medium",
+    difficulty: "High",
+    reward: "Faction alliance, unique armour, safe passage",
+    summary:
+      "Navigate a gang war brewing in Ondra's Gift between the Doemenel family and a rival faction. Your choice of allegiance shapes the balance of power in Defiance Bay's criminal underworld for the rest of Act 2.",
+    aiTip:
+      "Back up your chosen faction fully before the confrontation — half-measures result in a difficult three-way battle. The Doemenels offer the best equipment reward if you side with them.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+  {
+    id: 192,
+    game: "Pillars of Eternity",
+    title: "Never Far from the Queen",
+    location: "Copperlane / Twin Elms",
+    length: "long",
+    difficulty: "High",
+    reward: "Twin Elms access, Act 3 progression, faction reputation",
+    summary:
+      "Unravel the mystery of a missing Glanfathan noble in Defiance Bay whose disappearance has diplomatic implications. The investigation stretches from Copperlane's streets to the sacred elven city of Twin Elms.",
+    aiTip:
+      "This quest is required to access Twin Elms and Act 3. Don't rush it — the political consequences of your choices here echo through the game's final act.",
+    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+  },
+
+  // ── Pillars of Eternity II: Deadfire (additional) ─────────────────────────
+  {
+    id: 193,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Fruitful Alliance",
+    location: "Neketaka, Queen's Berth",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Faction reputation, trade route access, unique equipment",
+    summary:
+      "Negotiate trade agreements between rival factions in Neketaka's bustling port district. A diplomacy-heavy quest that rewards high Persuasion and Diplomacy skills with outcomes that open up more lucrative opportunities later.",
+    aiTip:
+      "Having a party member with Merchant background makes several dialogue options significantly more persuasive. Complete this before committing fully to any one faction.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 194,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The Rite of Passage",
+    location: "Tikawara Island",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tikawaran allies, unique spear, island access",
+    summary:
+      "Prove yourself worthy to the Tikawaran tribe by completing their traditional rite of passage in the island's dangerous jungle interior. The rite involves both combat challenges and diplomatic negotiations with the local spirits.",
+    aiTip:
+      "Bring a druid or priest for the spirit interactions — their dialogue options are significantly more effective. Completing the rite opens up Tikawara as a safe harbour and trading post.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 195,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Seeker, Slayer, Survivor",
+    location: "Ukaizo / Ori o Koīki Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Unique weapons and armour, Beast of Winter DLC access",
+    summary:
+      "Travel to a mysterious island arena where warriors from across the Deadfire compete in brutal combat. A gladiatorial questline testing party endurance across multiple consecutive fights with unique rules for each round.",
+    aiTip:
+      "Conserve resources between fights — you cannot rest during the arena sequence. Bring multiple party members with healing abilities and stock heavy on injury prevention items.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 196,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The Forgotten Sanctum",
+    location: "Black Isles",
+    length: "long",
+    difficulty: "High",
+    reward: "Unique spells, powerful grimoires, DLC story resolution",
+    summary:
+      "Explore the hidden library of the Watcher of the Black Isles, a legendary wizard, and uncover the truth about why the world's arcane knowledge has been sealed away. The DLC's narrative culminates in a choice about the future of magic itself.",
+    aiTip:
+      "This is DLC content — approach it with a well-developed party. The final boss adapts to your spell selection; bring varied damage types and avoid relying on one element.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 197,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Companion: Xoti's Lantern",
+    location: "Various Islands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Xoti Confidant completion, Harvest and Hunt ability upgrades",
+    summary:
+      "Travel with the monk-priestess Xoti as she struggles with the weight of souls she has harvested in her lantern. Her questline explores religious devotion, trauma, and the burden of a divine calling across multiple islands.",
+    aiTip:
+      "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 198,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "The City Lost to Time",
+    location: "Ukaizo",
+    length: "long",
+    difficulty: "High",
+    reward: "Endgame resolution, faction ending, ultimate loot",
+    summary:
+      "Reach the legendary lost city of Ukaizo — the final destination of your pursuit of the god Eothas. The city's secrets and your faction allegiance determine which of several dramatically different endings plays out.",
+    aiTip:
+      "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 199,
+    game: "Pillars of Eternity II: Deadfire",
+    title: "Companion: Pallegina's Mission",
+    location: "Various / Vailian Republics Quests",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Pallegina abilities upgraded, Vailian faction standing",
+    summary:
+      "Help Pallegina the godlike soldier navigate her complicated loyalty to the Vailian Trading Company while staying true to her own moral compass. Her questline adds nuance to the game's faction conflicts and her own identity struggle.",
+    aiTip:
+      "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
+    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
   }
 ];
