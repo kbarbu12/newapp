@@ -238,7 +238,7 @@ const quests = [
       "A disturbing and philosophical questline built around guilt, punishment, media exploitation, and player discomfort rather than traditional combat.",
     aiTip:
       "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=M8kG3zOzoSQ"
   },
   {
     id: 11,
@@ -252,7 +252,7 @@ const quests = [
       "A conspiracy-focused side quest where investigation matters more than combat. It explores surveillance, manipulation, and power in Night City.",
     aiTip:
       "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=PzNDAYy10BY"
   },
   {
     id: 12,
@@ -266,7 +266,7 @@ const quests = [
       "A dark detective questline where you use braindance technology to track a serial kidnapper. One of the most tense and emotionally heavy side jobs in the game.",
     aiTip:
       "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=rDjVYk-ByhQ"
   },
   {
     id: 13,
@@ -281,7 +281,7 @@ const quests = [
       "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
     aiTip:
       "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=dVv0wLSYCB4"
   },
   {
     id: 14,
@@ -296,7 +296,7 @@ const quests = [
       "A haunted-island investigation mixing tragedy, curses, and player judgment. The best outcome depends on careful questioning and skepticism.",
     aiTip:
       "Use Witcher senses thoroughly and think carefully before trusting supernatural characters.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=FFI2FSIVBuE"
   },
   {
     id: 15,
@@ -311,7 +311,7 @@ const quests = [
       "A murder mystery in Novigrad where Geralt must identify a serial killer targeting religious figures. The investigation has a false lead that can result in killing the wrong suspect.",
     aiTip:
       "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=71PzwhZZFZk"
   },
   {
     id: 16,
@@ -572,7 +572,7 @@ const quests = [
       "Geralt's first Witcher contract — investigate a haunted well and defeat the Noonwraith lurking there. A perfect introduction to the investigation-then-combat loop that defines the game.",
     aiTip:
       "Use Yrden sign during the fight and read the bestiary entry. This quest teaches core mechanics you'll use for 100+ hours.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=Q4GLjCF0rHg"
   },
   {
     id: 34,
@@ -587,7 +587,7 @@ const quests = [
       "Help a soldier's brother search a battlefield for his missing sibling. A short quest that introduces the game's moral ambiguity early — things are rarely what they seem.",
     aiTip:
       "Pay attention to dialogue — the 'right' answer isn't obvious. This sets the tone for how Witcher 3 handles choices throughout.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=MFgAIteo-X0"
   },
   {
     id: 35,
@@ -602,7 +602,7 @@ const quests = [
       "Investigate a mysterious voice trapped beneath an ancient tree. Your choice here directly impacts the Bloody Baron questline and the fate of the orphans of Crookback Bog — one of the game's most agonizing moral dilemmas.",
     aiTip:
       "There is no 'good' outcome — every choice has a cost. Save before deciding and consider which consequences you can live with.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=F72fGFPr1IY"
   },
   {
     id: 36,
@@ -617,7 +617,7 @@ const quests = [
       "Return to the Crones' domain to confront the consequences of your earlier choices. A harrowing quest that brings the Velen storyline to its conclusion with a boss fight and devastating narrative beats.",
     aiTip:
       "Prepare for a tough fight with multiple enemies. Your choices from The Whispering Hillock determine what you face here.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=WgRN7SYJb_M"
   },
   {
     id: 37,
@@ -632,7 +632,7 @@ const quests = [
       "Help Zoltan recover a collection of rare Gwent cards stolen by Novigrad's criminal underworld. A quest that blends intrigue, combat, and the game's beloved card game into one adventure.",
     aiTip:
       "Keep all three cards at the end for Gwent collection progress. The monetary reward for returning them isn't worth it compared to the cards' value.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=9oUv31iv-E0"
   },
   {
     id: 38,
@@ -647,7 +647,7 @@ const quests = [
       "Help Triss smuggle persecuted mages out of Novigrad before the witch hunters close in. A tense, emotionally charged quest that determines Geralt's romantic future and the fate of Novigrad's mage population.",
     aiTip:
       "This is your last chance to commit to Triss's romance. If you tell her to stay at the docks, the romance locks in — choose carefully.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=V0uK3Kuzq_g"
   },
   {
     id: 39,
@@ -662,7 +662,7 @@ const quests = [
       "Track Hjalmar an Craite to the island of Undvik where he's hunting an ice giant. A sprawling adventure across a frozen island filled with environmental storytelling, puzzles, and one of the game's most cinematic boss fights.",
     aiTip:
       "Explore the entire island before confronting the giant — there's a companion to rescue and environmental clues that enrich the story enormously.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=TQBe8UKsvDo"
   },
   {
     id: 40,
@@ -677,7 +677,7 @@ const quests = [
       "Help Cerys an Craite investigate a jarl's baby who seems cursed. A quest that blends detective work with Skellige folklore, culminating in a clever solution that proves Cerys's leadership qualities.",
     aiTip:
       "Follow Cerys's lead and trust her plan — it's unconventional but it works. This quest is key if you want Cerys to rule Skellige.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=uTEAl3zf1Ws"
   },
   {
     id: 41,
@@ -692,7 +692,7 @@ const quests = [
       "Investigate why the Eldberg lighthouse keeps going dark, leading to a tense nighttime battle against a Penitent wraith. The atmosphere and buildup make this one of the most memorable Witcher contracts.",
     aiTip:
       "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost.",
-    video: "https://www.youtube.com/watch?v=CIHatVq0ras"
+    video: "https://www.youtube.com/watch?v=j9GrBz96UdM"
   },
   {
     id: 42,
@@ -707,7 +707,7 @@ const quests = [
       "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
     aiTip:
       "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
-    video: "https://www.youtube.com/playlist?list=PLWfn8XPMjoaP1CV5wL7qtQ2kfAyL0hc8B"
+    video: "https://www.youtube.com/watch?v=EHhayw2Na0Y"
   },
   {
     id: 43,
@@ -722,7 +722,7 @@ const quests = [
       "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
     aiTip:
       "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
-    video: "https://www.youtube.com/playlist?list=PLWfn8XPMjoaP1CV5wL7qtQ2kfAyL0hc8B"
+    video: "https://www.youtube.com/watch?v=lRL8pJR45bU"
   },
   {
     id: 44,
@@ -737,7 +737,7 @@ const quests = [
       "Help a dwarven blacksmith named Hattori reclaim his smithing business from the Novigrad underworld. Completing this unlocks the ability to craft the best Witcher swords in the game.",
     aiTip:
       "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
-    video: "https://www.youtube.com/watch?v=k08RRor_zPI"
+    video: "https://www.youtube.com/watch?v=3VQyzSeVY0U"
   },
   {
     id: 45,
@@ -1213,7 +1213,7 @@ const quests = [
       "Follow Judy Alvarez through her quest to take down the Clouds dollhouse and reclaim her past. The final quest, Pyramid Song, features an underwater dive through a submerged town — one of the most beautiful and intimate moments in the game.",
     aiTip:
       "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=M-9aTafUwgI"
   },
   {
     id: 79,
@@ -1227,7 +1227,7 @@ const quests = [
       "Help Johnny Silverhand settle old scores with the remnants of his band and confront his past at the oil fields where his body was dumped. A pivotal quest that determines your relationship with Johnny and unlocks the secret ending.",
     aiTip:
       "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=LI9x_SG0zMg"
   },
   {
     id: 80,
@@ -1241,7 +1241,7 @@ const quests = [
       "Investigate a seemingly routine case for a mayoral candidate that spirals into a terrifying conspiracy about mind control, surveillance, and hidden powers manipulating Night City from the shadows.",
     aiTip:
       "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=CBZYBz7ku5k"
   },
   {
     id: 81,
@@ -1255,7 +1255,7 @@ const quests = [
       "The opening mission of the Phantom Liberty expansion plunges V into Dogtown's dangerous politics. Work with NUSA agent Solomon Reed to infiltrate a fortified stadium and rescue the President of the New United States.",
     aiTip:
       "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=r31zTg5KEXU"
   },
   {
     id: 82,
@@ -1977,7 +1977,7 @@ const quests = [
       "Help legendary rocker Kerry Eurodyne reignite his passion for music and deal with corporate sabotage of his comeback tour. A feel-good questline with an optional romance and some of the best music in the game.",
     aiTip:
       "Male V only for the romance option. Exhaust all dialogue during band practice sessions — it unlocks additional quest steps and raises the affection meter.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=TarX-C4vhik"
   },
   {
     id: 133,
@@ -1991,7 +1991,7 @@ const quests = [
       "Help detective River Ward track down his missing nephew Randy through a harrowing chain of events involving a serial killer, illegal braindances, and a derelict farm. One of the most emotionally impactful side quests in the game.",
     aiTip:
       "Female V only for the romance path. During the farm sequence, memorise the four sets of directions given — you must recall them precisely without notes to save Randy.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=xX6auIAS1uU"
   },
   {
     id: 134,
@@ -2005,7 +2005,7 @@ const quests = [
       "Build a relationship with nomad Panam Palmer as she rallies her clan against Militech and plans a massive heist. Her storyline is one of the most satisfying in the game and unlocks the secret Nomad ending.",
     aiTip:
       "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/playlist?list=PLU9RCp3FVNkSAPtWpgXD3NabQLTHTj-36"
   },
   {
     id: 135,
@@ -2019,7 +2019,7 @@ const quests = [
       "The climactic mission of Phantom Liberty forces an impossible choice between saving Songbird or handing her over to the NUSA. The most morally complex decision in the expansion with two wildly different conclusions.",
     aiTip:
       "Save before this mission and experience both endings — they're dramatically different. The Songbird path unlocks a brand new fourth ending for the base game.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=FjJaMeQ8wLE"
   },
   {
     id: 136,
@@ -2033,7 +2033,7 @@ const quests = [
       "Help a mysterious braindance artist named Lizzy Wizzy who is struggling with grief and identity after having her entire body chrome-plated. A quiet, atmospheric quest that highlights the human cost of body modification.",
     aiTip:
       "This quest has no combat — it's purely dialogue and atmosphere. Take your time and engage fully with Lizzy's story for the best experience and the iconic weapon reward.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=1YNkVrWNP0o"
   },
   {
     id: 137,
@@ -2047,7 +2047,7 @@ const quests = [
       "Race against a deadly Raffen Shiv sandstorm to rescue Panam's clan leader Saul from a nomad gang's camp. A time-pressured mission that tests both driving skills and combat ability under harsh weather conditions.",
     aiTip:
       "The storm hits a timer — don't explore, go straight to the objective. Inside the camp, stealth is possible but the storm outside forces combat on the way out.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=82hrT1j_Fpc"
   },
   {
     id: 138,
@@ -2061,7 +2061,7 @@ const quests = [
       "Track down a legendary street musician in Pacifica whose music has taken on almost mythical status in Night City. A short but beautifully written quest about art, legacy, and how stories grow in the telling.",
     aiTip:
       "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
-    video: "https://www.youtube.com/watch?v=XYNOuLikqGs"
+    video: "https://www.youtube.com/watch?v=Ea6mRQEyT7g"
   },
 
   // ── Demon's Souls (additional) ────────────────────────────────────────────
