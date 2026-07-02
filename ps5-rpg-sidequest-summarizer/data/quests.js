@@ -196,7 +196,7 @@ const quests = [
       "An early side quest that introduces open-zone investigation. The player tracks a monster threat and learns how Rebirth uses regional activities.",
     aiTip:
       "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=Wl5PRcqEAWs"
   },
   {
     id: 8,
@@ -210,7 +210,7 @@ const quests = [
       "A light-hearted but involved quest chain focused on rebuilding and supporting a local inn. It blends exploration, mini-objectives, and character humor.",
     aiTip:
       "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=jj9_6zvmCE4"
   },
   {
     id: 9,
@@ -224,7 +224,7 @@ const quests = [
       "A sprawling mini-game marathon at the Gold Saucer theme park. Completing activities builds relationship points that influence a key story date scene.",
     aiTip:
       "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=knOyK-htZSA"
   },
   {
     id: 10,
@@ -1157,7 +1157,7 @@ const quests = [
       "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
     aiTip:
       "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=_WIDD8VTlu4"
   },
   {
     id: 75,
@@ -1171,7 +1171,7 @@ const quests = [
       "A gentle early quest where Cloud helps a young girl gather rare flowers on the outskirts of Kalm. It establishes the exploration mechanics and rewards careful attention to the environment.",
     aiTip:
       "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=FOAAzPumW44"
   },
   {
     id: 76,
@@ -1185,7 +1185,7 @@ const quests = [
       "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
     aiTip:
       "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=wkTEyy0nRyo"
   },
   {
     id: 77,
@@ -1199,7 +1199,7 @@ const quests = [
       "Help a chocobo rancher investigate why the local chocobos have been acting strangely. The investigation reveals environmental threats and unlocks new chocobo traversal abilities for the region.",
     aiTip:
       "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=PswNcC3SHKw"
   },
   {
     id: 78,
@@ -1877,7 +1877,7 @@ const quests = [
       "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
     aiTip:
       "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=E_Any2rW-RE"
   },
   {
     id: 126,
@@ -1919,7 +1919,7 @@ const quests = [
       "Cloud must infiltrate the Shinra military parade in Junon by mastering parade drill movements. A memorable set piece blending rhythm-based mini-games with stealth as Cloud marches alongside actual Shinra soldiers.",
     aiTip:
       "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=csddQ1EAQrg"
   },
   {
     id: 129,
@@ -1933,7 +1933,7 @@ const quests = [
       "Challenge and defeat every Queen's Blood card player across the world to become the undisputed champion. The card game deepens in complexity as you collect more powerful cards and face tougher opponents.",
     aiTip:
       "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+    video: "https://www.youtube.com/watch?v=08Vbxkzxbio"
   },
   {
     id: 130,
