@@ -39,7 +39,7 @@
   <rect x="80" y="200" width="6" height="120" rx="3" fill="url(#accent)"/>
 
   <!-- Title -->
-  <text x="116" y="264" font-family="system-ui,-apple-system,sans-serif" font-size="86" font-weight="900" fill="white" opacity="0.95">QuestDB</text>
+  <text x="116" y="264" font-family="system-ui,-apple-system,sans-serif" font-size="86" font-weight="900" fill="white" opacity="0.95">RPG Quest Guide</text>
 
   <!-- Tagline -->
   <text x="116" y="320" font-family="system-ui,-apple-system,sans-serif" font-size="30" font-weight="400" fill="white" opacity="0.55">Your guide to the best RPG side quests</text>

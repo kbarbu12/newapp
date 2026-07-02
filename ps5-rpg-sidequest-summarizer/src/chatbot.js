@@ -6,7 +6,7 @@
   var sendBtn = document.getElementById("chatSend");
   var messages = document.getElementById("chatMessages");
 
-  var FALLBACK = 'I couldn\'t find that in our quest database. Please contact the support team via the email <a href="mailto:k.barbu12@gmail.com">k.barbu12@gmail.com</a>';
+  var FALLBACK = 'I couldn\'t find that in RPG Quest Guide. Please contact us via <a href="mailto:k.barbu12@gmail.com">k.barbu12@gmail.com</a>';
 
   toggle.addEventListener("click", function () {
     panel.style.display = panel.style.display === "none" ? "flex" : "none";
