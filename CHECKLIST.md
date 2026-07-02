@@ -14,7 +14,7 @@
 - [x] Expand quest library to 199 quests (~15 per game)
 
 ## 🚧 Quest Detail Pages (current focus)
-- [ ] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
+- [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
 - [ ] **Phase 2 — Sidebar extras**: related quests from same game, "Buy this game" buttons (placeholder links until affiliate signup)
 - [ ] **Phase 3 — SEO polish**: per-quest page title + meta description, game grouping headers in "All games" view
 - [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
