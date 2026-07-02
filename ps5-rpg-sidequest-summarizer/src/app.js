@@ -2,6 +2,7 @@
   var searchInput = document.querySelector("#searchInput");
   var gameFilter = document.querySelector("#gameFilter");
   var lengthFilter = document.querySelector("#lengthFilter");
+  var typeFilter = document.querySelector("#typeFilter");
   var difficultyFilter = document.querySelector("#difficultyFilter");
   var videoFilter = document.querySelector("#videoFilter");
   var videoFilterGroup = document.querySelector("#videoFilterGroup");
@@ -110,6 +111,7 @@
     var searchTerm = normalize(searchInput.value);
     var selectedGame = gameFilter.value;
     var selectedLength = lengthFilter.value;
+    var selectedType = typeFilter.value;
     var selectedDifficulty = difficultyFilter.value;
     var selectedVideo = videoFilter.value;
 
@@ -124,11 +126,12 @@
       var matchesSearch = !searchTerm || questMatchesSearch(quest, searchTerm);
       var matchesGame = selectedGame === "all" || quest.game === selectedGame;
       var matchesLength = selectedLength === "all" || quest.length === selectedLength;
+      var matchesType = selectedType === "all" || quest.type === selectedType;
       var matchesDifficulty = selectedDifficulty === "all" || quest.difficulty === selectedDifficulty;
       var matchesVideo = selectedVideo === "all" || (selectedVideo === "video" && quest.video);
       var matchesSub = subValue === "all" || String(quest[subField]) === subValue;
 
-      return matchesSearch && matchesGame && matchesLength && matchesDifficulty && matchesVideo && matchesSub;
+      return matchesSearch && matchesGame && matchesType && matchesLength && matchesDifficulty && matchesVideo && matchesSub;
     });
   }
 
@@ -183,6 +186,7 @@
       '<span class="game-name">' +
       quest.game +
       "</span>" +
+      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span>" +
       '<span class="pill ' +
       quest.length +
       '">' +
@@ -242,6 +246,7 @@
     searchInput.value = "";
     gameFilter.value = "all";
     lengthFilter.value = "all";
+    typeFilter.value = "all";
     difficultyFilter.value = "all";
     videoFilter.value = "all";
     updateSubFilters();
@@ -296,6 +301,8 @@
 
     var statsHtml =
       '<div class="detail-stats">' +
+      '<div class="stat"><span class="stat-label">Quest Type</span>' +
+      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span></div>" +
       '<div class="stat"><span class="stat-label">Difficulty</span>' +
       '<span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span></div>" +
       '<div class="stat"><span class="stat-label">Duration</span>' +
@@ -368,6 +375,7 @@
   searchInput.addEventListener("input", renderQuests);
   gameFilter.addEventListener("change", onGameChange);
   lengthFilter.addEventListener("change", renderQuests);
+  typeFilter.addEventListener("change", renderQuests);
   difficultyFilter.addEventListener("change", renderQuests);
   videoFilter.addEventListener("change", renderQuests);
   resetButton.addEventListener("click", resetFilters);

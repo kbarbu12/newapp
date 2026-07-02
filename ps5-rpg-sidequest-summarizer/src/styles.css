@@ -632,6 +632,19 @@ select:focus {
   vertical-align: middle;
 }
 
+.quest-type-badge {
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.quest-type-badge.main { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.35); }
+.quest-type-badge.side { background: rgba(108, 140, 255, 0.12); color: #8fb3ff; border: 1px solid rgba(108, 140, 255, 0.3); }
+
 .difficulty-badge.low { background: #1e3a2a; color: #6ee7a0; }
 .difficulty-badge.medium { background: #3a3420; color: #fbbf24; }
 .difficulty-badge.high { background: #3a202a; color: #f87171; }

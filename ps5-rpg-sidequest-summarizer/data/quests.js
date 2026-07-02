@@ -102,6 +102,7 @@ const subFilterConfig = {
 const quests = [
   {
     id: 1,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Rescue the Grand Duke",
     location: "Wyrm's Rock / Iron Throne",
@@ -116,6 +117,7 @@ const quests = [
   },
   {
     id: 2,
+    type: "main",
     game: "Baldur's Gate 3",
     title: "Find the Nightsong",
     location: "Gauntlet of Shar",
@@ -130,6 +132,7 @@ const quests = [
   },
   {
     id: 3,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Save the Gondians",
     location: "Steel Watch Foundry",
@@ -144,6 +147,7 @@ const quests = [
   },
   {
     id: 4,
+    type: "side",
     game: "Elden Ring",
     title: "Ranni's Questline",
     location: "Liurnia, Nokron, Ainsel River",
@@ -158,6 +162,7 @@ const quests = [
   },
   {
     id: 5,
+    type: "side",
     game: "Elden Ring",
     title: "Alexander the Iron Fist",
     location: "Limgrave to Farum Azula",
@@ -172,6 +177,7 @@ const quests = [
   },
   {
     id: 6,
+    type: "side",
     game: "Elden Ring",
     title: "Millicent's Questline",
     location: "Caelid, Altus Plateau, Haligtree",
@@ -186,6 +192,7 @@ const quests = [
   },
   {
     id: 7,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Livestock's Bane",
     location: "Grasslands",
@@ -200,6 +207,7 @@ const quests = [
   },
   {
     id: 8,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "The Saga of the Seaside Inn",
     location: "Corel / Costa del Sol",
@@ -214,6 +222,7 @@ const quests = [
   },
   {
     id: 9,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Can't Stop Won't Stop",
     location: "Gold Saucer",
@@ -228,6 +237,7 @@ const quests = [
   },
   {
     id: 10,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Sinnerman",
     location: "Night City",
@@ -242,6 +252,7 @@ const quests = [
   },
   {
     id: 11,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Dream On",
     location: "Night City / Peralez Apartment",
@@ -256,6 +267,7 @@ const quests = [
   },
   {
     id: 12,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "The Hunt",
     location: "Night City / Braindance sequences",
@@ -270,6 +282,7 @@ const quests = [
   },
   {
     id: 13,
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Bloody Baron",
@@ -285,6 +298,7 @@ const quests = [
   },
   {
     id: 14,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Towerful of Mice",
@@ -300,6 +314,7 @@ const quests = [
   },
   {
     id: 15,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Carnal Sins",
@@ -315,6 +330,7 @@ const quests = [
   },
   {
     id: 16,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Help the Hushed Honeybee",
     location: "Grand Trad",
@@ -329,6 +345,7 @@ const quests = [
   },
   {
     id: 17,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Pagan's Dilemma",
     location: "Grand Trad",
@@ -343,6 +360,7 @@ const quests = [
   },
   {
     id: 18,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Monster of Grand Trad",
     location: "Grand Trad Sewers",
@@ -357,6 +375,7 @@ const quests = [
   },
   {
     id: 19,
+    type: "side",
     game: "Demon's Souls",
     title: "Yuria the Witch's Rescue",
     location: "Tower of Latria (3-1)",
@@ -371,6 +390,7 @@ const quests = [
   },
   {
     id: 20,
+    type: "side",
     game: "Demon's Souls",
     title: "Sparkly the Crow's Trades",
     location: "Shrine of Storms (4-1)",
@@ -385,6 +405,7 @@ const quests = [
   },
   {
     id: 21,
+    type: "side",
     game: "Demon's Souls",
     title: "Scirvir the Wanderer's Challenge",
     location: "Stonefang Tunnel (2-2)",
@@ -399,6 +420,7 @@ const quests = [
   },
   {
     id: 22,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "The Ghost of Our Love",
     location: "Forbidden Forest",
@@ -413,6 +435,7 @@ const quests = [
   },
   {
     id: 23,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Rescuing Rococo",
     location: "Henrietta's Hideaway",
@@ -427,6 +450,7 @@ const quests = [
   },
   {
     id: 24,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "The Hall of Herodiana",
     location: "Hogwarts Castle",
@@ -441,6 +465,7 @@ const quests = [
   },
   {
     id: 25,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 1,
     title: "The Three Bells",
@@ -456,6 +481,7 @@ const quests = [
   },
   {
     id: 26,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 1,
     title: "The Red Loong",
@@ -471,6 +497,7 @@ const quests = [
   },
   {
     id: 27,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 2,
     title: "The Drunken Boar – Kingdom of Sahali",
@@ -486,6 +513,7 @@ const quests = [
   },
   {
     id: 28,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 2,
     title: "The Black Loong",
@@ -501,6 +529,7 @@ const quests = [
   },
   {
     id: 29,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 2,
     title: "Shigandang – The Stone Giant",
@@ -516,6 +545,7 @@ const quests = [
   },
   {
     id: 30,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
     title: "The Prisoner – Pagoda Realm",
@@ -531,6 +561,7 @@ const quests = [
   },
   {
     id: 31,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
     title: "The Five Element Carts",
@@ -546,6 +577,7 @@ const quests = [
   },
   {
     id: 32,
+    type: "side",
     game: "Black Myth: Wukong",
     chapter: 3,
     title: "Yin Tiger – The Blacksmith's Challenge",
@@ -561,6 +593,7 @@ const quests = [
   },
   {
     id: 33,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Devil by the Well",
@@ -576,6 +609,7 @@ const quests = [
   },
   {
     id: 34,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Missing in Action",
@@ -591,6 +625,7 @@ const quests = [
   },
   {
     id: 35,
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Whispering Hillock",
@@ -606,6 +641,7 @@ const quests = [
   },
   {
     id: 36,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Return to Crookback Bog",
@@ -621,6 +657,7 @@ const quests = [
   },
   {
     id: 37,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Dangerous Game",
@@ -636,6 +673,7 @@ const quests = [
   },
   {
     id: 38,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Now or Never",
@@ -651,6 +689,7 @@ const quests = [
   },
   {
     id: 39,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Lord of Undvik",
@@ -666,6 +705,7 @@ const quests = [
   },
   {
     id: 40,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Possession",
@@ -681,6 +721,7 @@ const quests = [
   },
   {
     id: 41,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Phantom of Eldberg",
@@ -696,6 +737,7 @@ const quests = [
   },
   {
     id: 42,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "The Warble of a Smitten Knight",
@@ -711,6 +753,7 @@ const quests = [
   },
   {
     id: 43,
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Beyond Hill and Dale",
@@ -726,6 +769,7 @@ const quests = [
   },
   {
     id: 44,
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Of Swords and Dumplings",
@@ -741,6 +785,7 @@ const quests = [
   },
   {
     id: 45,
+    type: "side",
     game: "God of War Ragnarök",
     title: "The Lost Lindwyrms",
     location: "Svartalfheim & Vanaheim",
@@ -755,6 +800,7 @@ const quests = [
   },
   {
     id: 46,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Defend Your Valor",
     location: "Muspelheim",
@@ -769,6 +815,7 @@ const quests = [
   },
   {
     id: 47,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Freyr's Gift",
     location: "The Forbidden Sands, Alfheim",
@@ -783,6 +830,7 @@ const quests = [
   },
   {
     id: 48,
+    type: "side",
     game: "Persona 5 Royal",
     title: "A Teacher Maid to Suffer",
     location: "Path of Adyeshach, Mementos",
@@ -797,6 +845,7 @@ const quests = [
   },
   {
     id: 49,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Winners Don't Use Cheats",
     location: "Path of Chemdah, Mementos",
@@ -811,6 +860,7 @@ const quests = [
   },
   {
     id: 50,
+    type: "side",
     game: "Persona 5 Royal",
     title: "One Who Bullies Bullies",
     location: "Path of Aiyatsbus, Mementos",
@@ -825,6 +875,7 @@ const quests = [
   },
   {
     id: 51,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Spirit of Yarikawa's Vengeance",
     location: "Ruins of Old Yarikawa, Toyotama",
@@ -839,6 +890,7 @@ const quests = [
   },
   {
     id: 52,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Curse of Uchitsune",
     location: "Hiyoshi Springs, Izuhara",
@@ -853,6 +905,7 @@ const quests = [
   },
   {
     id: 53,
+    type: "main",
     game: "Ghost of Tsushima",
     title: "The Tale of Sensei Ishikawa",
     location: "Hiyoshi Springs, Izuhara",
@@ -867,6 +920,7 @@ const quests = [
   },
   {
     id: 54,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "Blood for Blood",
     location: "Memorial Grove, Daunt",
@@ -881,6 +935,7 @@ const quests = [
   },
   {
     id: 55,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "Forbidden Legacy",
     location: "Legacy's Landfall, San Francisco",
@@ -895,6 +950,7 @@ const quests = [
   },
   {
     id: 56,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "The Gate of the Vanquished",
     location: "Scalding Spear, Desert",
@@ -909,6 +965,7 @@ const quests = [
   },
   {
     id: 57,
+    type: "main",
     game: "Pillars of Eternity",
     title: "The Man Who Waits",
     location: "Heritage Hill, Defiance Bay",
@@ -923,6 +980,7 @@ const quests = [
   },
   {
     id: 58,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Trials of Durance",
     location: "Party Companion Quest",
@@ -937,6 +995,7 @@ const quests = [
   },
   {
     id: 59,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Bronze Beneath the Lake",
     location: "Cliaban Rilag, Stormwall Gorge",
@@ -951,6 +1010,7 @@ const quests = [
   },
   {
     id: 60,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Master Below",
     location: "Endless Paths of Od Nua, Caed Nua",
@@ -965,6 +1025,7 @@ const quests = [
   },
   {
     id: 61,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Storms of Poko Kohara",
     location: "Poko Kohara Island",
@@ -979,6 +1040,7 @@ const quests = [
   },
   {
     id: 62,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "A Sorcerer and a Gentleman",
     location: "Arkemyr's Manor, Periki's Overlook",
@@ -993,6 +1055,7 @@ const quests = [
   },
   {
     id: 63,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Lost Grimoires",
     location: "Berkana's Observatory, Magran's Teeth",
@@ -1007,6 +1070,7 @@ const quests = [
   },
   {
     id: 64,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Changeling's Dance",
     location: "The Gullet, Neketaka",
@@ -1021,6 +1085,7 @@ const quests = [
   },
   {
     id: 65,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Investigate the Suspicious Toys",
     location: "Lower City, Baldur's Gate",
@@ -1035,6 +1100,7 @@ const quests = [
   },
   {
     id: 66,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Free the Artist",
     location: "Zhentarim Hideout / Grymforge",
@@ -1049,6 +1115,7 @@ const quests = [
   },
   {
     id: 67,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Avenge the Drowned",
     location: "Lower City, Water Queen's House",
@@ -1063,6 +1130,7 @@ const quests = [
   },
   {
     id: 68,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Help Omeluum Investigate the Parasite",
     location: "Underdark, Myconid Colony",
@@ -1077,6 +1145,7 @@ const quests = [
   },
   {
     id: 69,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Rescue Wulbren and the Tieflings",
     location: "Moonrise Towers Prison",
@@ -1091,6 +1160,7 @@ const quests = [
   },
   {
     id: 70,
+    type: "side",
     game: "Elden Ring",
     title: "Volcano Manor Questline",
     location: "Mt. Gelmir, Volcano Manor",
@@ -1105,6 +1175,7 @@ const quests = [
   },
   {
     id: 71,
+    type: "side",
     game: "Elden Ring",
     title: "Fia's Questline",
     location: "Roundtable Hold, Deeproot Depths",
@@ -1119,6 +1190,7 @@ const quests = [
   },
   {
     id: 72,
+    type: "side",
     game: "Elden Ring",
     title: "Nepheli Loux's Questline",
     location: "Stormveil Castle, Roundtable Hold, Village of the Albinaurics",
@@ -1133,6 +1205,7 @@ const quests = [
   },
   {
     id: 73,
+    type: "side",
     game: "Elden Ring",
     title: "Goldmask's Questline",
     location: "Altus Plateau, Leyndell, Mountaintops",
@@ -1147,6 +1220,7 @@ const quests = [
   },
   {
     id: 74,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "The Protorelic Quests",
     location: "Multiple Regions",
@@ -1161,6 +1235,7 @@ const quests = [
   },
   {
     id: 75,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Flowers from the Hill",
     location: "Kalm Region",
@@ -1175,6 +1250,7 @@ const quests = [
   },
   {
     id: 76,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "The Musclehead Colosseum",
     location: "Gold Saucer / Corel Region",
@@ -1189,6 +1265,7 @@ const quests = [
   },
   {
     id: 77,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Where the Wind Blows",
     location: "Junon Region",
@@ -1203,6 +1280,7 @@ const quests = [
   },
   {
     id: 78,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Judy's Questline (Pyramid Song)",
     location: "Night City / Laguna Bend",
@@ -1217,6 +1295,7 @@ const quests = [
   },
   {
     id: 79,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Chippin' In",
     location: "Night City / Oil Fields",
@@ -1231,6 +1310,7 @@ const quests = [
   },
   {
     id: 80,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "The Peralez Conspiracy (I Fought the Law)",
     location: "Night City / Charter Hill",
@@ -1245,6 +1325,7 @@ const quests = [
   },
   {
     id: 81,
+    type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Phantom Liberty – Firestarter",
     location: "Dogtown",
@@ -1259,6 +1340,7 @@ const quests = [
   },
   {
     id: 82,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Tournament of Souls",
     location: "Grand Trad Arena",
@@ -1273,6 +1355,7 @@ const quests = [
   },
   {
     id: 83,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Nameless Soldier",
     location: "Fort Endra",
@@ -1287,6 +1370,7 @@ const quests = [
   },
   {
     id: 84,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Follower: Louis's Request",
     location: "Varies by story chapter",
@@ -1301,6 +1385,7 @@ const quests = [
   },
   {
     id: 85,
+    type: "side",
     game: "Demon's Souls",
     title: "Saint Urbain's Rescue",
     location: "Shrine of Storms (4-2)",
@@ -1315,6 +1400,7 @@ const quests = [
   },
   {
     id: 86,
+    type: "side",
     game: "Demon's Souls",
     title: "Mephistopheles' Assassinations",
     location: "The Nexus",
@@ -1329,6 +1415,7 @@ const quests = [
   },
   {
     id: 87,
+    type: "side",
     game: "Demon's Souls",
     title: "Patches the Hyena",
     location: "Stonefang Tunnel (2-2), Shrine of Storms (4-2)",
@@ -1343,6 +1430,7 @@ const quests = [
   },
   {
     id: 88,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "The Hippogriff Marks the Spot",
     location: "Poidsear Coast",
@@ -1357,6 +1445,7 @@ const quests = [
   },
   {
     id: 89,
+    type: "main",
     game: "Hogwarts Legacy",
     title: "In the Shadow of the Undercroft",
     location: "Hogwarts Castle",
@@ -1371,6 +1460,7 @@ const quests = [
   },
   {
     id: 90,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Mer-ky Depths",
     location: "Black Lake",
@@ -1385,6 +1475,7 @@ const quests = [
   },
   {
     id: 91,
+    type: "main",
     game: "Hogwarts Legacy",
     title: "Natty's Questline (The High Keep)",
     location: "Feldcroft Region / Falbarton Castle",
@@ -1399,6 +1490,7 @@ const quests = [
   },
   {
     id: 92,
+    type: "side",
     game: "God of War Ragnarök",
     title: "The Weight of Chains",
     location: "Svartalfheim",
@@ -1413,6 +1505,7 @@ const quests = [
   },
   {
     id: 93,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Spirit of Rebellion",
     location: "Vanaheim, The Crater",
@@ -1427,6 +1520,7 @@ const quests = [
   },
   {
     id: 94,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Fit for a King",
     location: "Svartalfheim, Niðavellir",
@@ -1441,6 +1535,7 @@ const quests = [
   },
   {
     id: 95,
+    type: "side",
     game: "God of War Ragnarök",
     title: "The Berserker Gravestone Battles",
     location: "Multiple Realms",
@@ -1455,6 +1550,7 @@ const quests = [
   },
   {
     id: 96,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Maruki's Confidant (Councillor)",
     location: "Shujin Academy",
@@ -1469,6 +1565,7 @@ const quests = [
   },
   {
     id: 97,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Akechi's Confidant (Justice)",
     location: "Kichijoji",
@@ -1483,6 +1580,7 @@ const quests = [
   },
   {
     id: 98,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Mementos Mission: The Killer Who Cleans Up",
     location: "Path of Da'at, Mementos",
@@ -1497,6 +1595,7 @@ const quests = [
   },
   {
     id: 99,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Yoshizawa's Confidant (Faith)",
     location: "Kichijoji / Various",
@@ -1511,6 +1610,7 @@ const quests = [
   },
   {
     id: 100,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Legend of Tadayori",
     location: "Azamo Bay, Izuhara",
@@ -1525,6 +1625,7 @@ const quests = [
   },
   {
     id: 101,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Heavenly Strike",
     location: "Toyotama",
@@ -1539,6 +1640,7 @@ const quests = [
   },
   {
     id: 102,
+    type: "main",
     game: "Ghost of Tsushima",
     title: "The Tale of Lady Masako",
     location: "Izuhara / Toyotama",
@@ -1553,6 +1655,7 @@ const quests = [
   },
   {
     id: 103,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "Gosaku's Armor",
     location: "Akashima, Toyotama",
@@ -1567,6 +1670,7 @@ const quests = [
   },
   {
     id: 104,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "The Kulrut",
     location: "Memorial Grove, Daunt",
@@ -1581,6 +1685,7 @@ const quests = [
   },
   {
     id: 105,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "The Wings of the Ten",
     location: "Sheerside Mountains",
@@ -1595,6 +1700,7 @@ const quests = [
   },
   {
     id: 106,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "Tallneck: The Devil's Thirst",
     location: "The Daunt",
@@ -1609,6 +1715,7 @@ const quests = [
   },
   {
     id: 107,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "The Sea of Sands",
     location: "Stillsands, Desert",
@@ -1623,6 +1730,7 @@ const quests = [
   },
   {
     id: 108,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Dozen's Dispute",
     location: "Defiance Bay",
@@ -1637,6 +1745,7 @@ const quests = [
   },
   {
     id: 109,
+    type: "main",
     game: "Pillars of Eternity",
     title: "Through Death's Gate",
     location: "Brackenbury, Defiance Bay",
@@ -1651,6 +1760,7 @@ const quests = [
   },
   {
     id: 110,
+    type: "main",
     game: "Pillars of Eternity II: Deadfire",
     title: "Hasongo Investigation",
     location: "Hasongo Island",
@@ -1665,6 +1775,7 @@ const quests = [
   },
   {
     id: 111,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Berath's Blessings",
     location: "Various Islands",
@@ -1681,6 +1792,7 @@ const quests = [
   // ── Baldur's Gate 3 (additional) ──────────────────────────────────────────
   {
     id: 112,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "The Pale Elf",
     location: "Wilderness / Act 1",
@@ -1695,6 +1807,7 @@ const quests = [
   },
   {
     id: 113,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Shadowheart's Past",
     location: "Gauntlet of Shar / Baldur's Gate",
@@ -1709,6 +1822,7 @@ const quests = [
   },
   {
     id: 114,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Investigate the Murders",
     location: "Lower City, Baldur's Gate",
@@ -1723,6 +1837,7 @@ const quests = [
   },
   {
     id: 115,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "The Stolen Gnome",
     location: "Blighted Village",
@@ -1737,6 +1852,7 @@ const quests = [
   },
   {
     id: 116,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Lift the Shadow Curse",
     location: "Shadow-Cursed Lands, Act 2",
@@ -1751,6 +1867,7 @@ const quests = [
   },
   {
     id: 117,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Gale's Ambition",
     location: "Blackstaff Tower / Waterdeep",
@@ -1765,6 +1882,7 @@ const quests = [
   },
   {
     id: 118,
+    type: "side",
     game: "Baldur's Gate 3",
     title: "Wyll's Pact",
     location: "Various / Act 3",
@@ -1781,6 +1899,7 @@ const quests = [
   // ── Elden Ring (additional) ───────────────────────────────────────────────
   {
     id: 119,
+    type: "side",
     game: "Elden Ring",
     title: "Patches' Questline",
     location: "Murkwater Cave, Various",
@@ -1795,6 +1914,7 @@ const quests = [
   },
   {
     id: 120,
+    type: "side",
     game: "Elden Ring",
     title: "Hyetta's Questline",
     location: "Liurnia, Leyndell, Frenzied Flame Proscription",
@@ -1809,6 +1929,7 @@ const quests = [
   },
   {
     id: 121,
+    type: "side",
     game: "Elden Ring",
     title: "Dung Eater's Questline",
     location: "Roundtable Hold, Subterranean Shunning-Grounds",
@@ -1823,6 +1944,7 @@ const quests = [
   },
   {
     id: 122,
+    type: "side",
     game: "Elden Ring",
     title: "Sorcerer Rogier's Questline",
     location: "Stormveil Castle, Roundtable Hold, Liurnia",
@@ -1837,6 +1959,7 @@ const quests = [
   },
   {
     id: 123,
+    type: "side",
     game: "Elden Ring",
     title: "White Mask Varre's Questline",
     location: "Limgrave, Rose Church, Mohgwyn Palace",
@@ -1851,6 +1974,7 @@ const quests = [
   },
   {
     id: 124,
+    type: "side",
     game: "Elden Ring",
     title: "Blackguard Big Boggart's Quest",
     location: "Liurnia, Leyndell",
@@ -1867,6 +1991,7 @@ const quests = [
   // ── Final Fantasy VII Rebirth (additional) ────────────────────────────────
   {
     id: 125,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Tifa's Piano Recital",
     location: "Various Regions",
@@ -1881,6 +2006,7 @@ const quests = [
   },
   {
     id: 126,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "The Excavation Expert",
     location: "Corel Desert",
@@ -1895,6 +2021,7 @@ const quests = [
   },
   {
     id: 127,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Aerith's Cetra Vision",
     location: "Cosmo Canyon",
@@ -1909,6 +2036,7 @@ const quests = [
   },
   {
     id: 128,
+    type: "main",
     game: "Final Fantasy VII Rebirth",
     title: "Junon Parade Training",
     location: "Junon",
@@ -1923,6 +2051,7 @@ const quests = [
   },
   {
     id: 129,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Queen's Blood Champion",
     location: "Various / Gold Saucer",
@@ -1937,6 +2066,7 @@ const quests = [
   },
   {
     id: 130,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Gongaga Rescue Mission",
     location: "Gongaga Region",
@@ -1951,6 +2081,7 @@ const quests = [
   },
   {
     id: 131,
+    type: "side",
     game: "Final Fantasy VII Rebirth",
     title: "Yuffie's Wutai Intel",
     location: "Various Regions",
@@ -1967,6 +2098,7 @@ const quests = [
   // ── Cyberpunk 2077 (additional) ───────────────────────────────────────────
   {
     id: 132,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Kerry Eurodyne's Questline",
     location: "Night City / Kerry's Villa",
@@ -1981,6 +2113,7 @@ const quests = [
   },
   {
     id: 133,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "River Ward's Questline (I Forgive You)",
     location: "Night City / Badlands",
@@ -1995,6 +2128,7 @@ const quests = [
   },
   {
     id: 134,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Panam Palmer's Questline",
     location: "Badlands",
@@ -2009,6 +2143,7 @@ const quests = [
   },
   {
     id: 135,
+    type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Phantom Liberty – Somewhat Damaged",
     location: "Dogtown / Cynosure",
@@ -2023,6 +2158,7 @@ const quests = [
   },
   {
     id: 136,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Violence",
     location: "Night City / Clouds",
@@ -2037,6 +2173,7 @@ const quests = [
   },
   {
     id: 137,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "Riders on the Storm",
     location: "Badlands",
@@ -2051,6 +2188,7 @@ const quests = [
   },
   {
     id: 138,
+    type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
     title: "The Ballad of Buck Ravers",
     location: "Pacifica",
@@ -2067,6 +2205,7 @@ const quests = [
   // ── Demon's Souls (additional) ────────────────────────────────────────────
   {
     id: 139,
+    type: "side",
     game: "Demon's Souls",
     title: "Ostrava of Boletaria",
     location: "Boletarian Palace (1-1, 1-2, 1-3)",
@@ -2081,6 +2220,7 @@ const quests = [
   },
   {
     id: 140,
+    type: "side",
     game: "Demon's Souls",
     title: "Sage Freke's Rescue",
     location: "Tower of Latria (3-1)",
@@ -2095,6 +2235,7 @@ const quests = [
   },
   {
     id: 141,
+    type: "side",
     game: "Demon's Souls",
     title: "Stockpile Thomas",
     location: "The Nexus",
@@ -2109,6 +2250,7 @@ const quests = [
   },
   {
     id: 142,
+    type: "main",
     game: "Demon's Souls",
     title: "Dragon God's Weakness",
     location: "Stonefang Tunnel (2-3)",
@@ -2123,6 +2265,7 @@ const quests = [
   },
   {
     id: 143,
+    type: "main",
     game: "Demon's Souls",
     title: "The Old Monk's Trial",
     location: "Tower of Latria (3-3)",
@@ -2137,6 +2280,7 @@ const quests = [
   },
   {
     id: 144,
+    type: "main",
     game: "Demon's Souls",
     title: "Maiden Astraea's Mercy",
     location: "Valley of Defilement (5-3)",
@@ -2151,6 +2295,7 @@ const quests = [
   },
   {
     id: 145,
+    type: "side",
     game: "Demon's Souls",
     title: "Worshiper of God's Questline",
     location: "Various Worlds",
@@ -2167,6 +2312,7 @@ const quests = [
   // ── Hogwarts Legacy (additional) ──────────────────────────────────────────
   {
     id: 146,
+    type: "main",
     game: "Hogwarts Legacy",
     title: "The Elf, the Nab-Sack, and the Loom",
     location: "Hogsmeade / Vivarium",
@@ -2181,6 +2327,7 @@ const quests = [
   },
   {
     id: 147,
+    type: "main",
     game: "Hogwarts Legacy",
     title: "Charles Rookwood's Trial",
     location: "Rookwood Castle",
@@ -2195,6 +2342,7 @@ const quests = [
   },
   {
     id: 148,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Poppy's Questline (The Plight of the House-Elf)",
     location: "Feldcroft / Clagmar Coast",
@@ -2209,6 +2357,7 @@ const quests = [
   },
   {
     id: 149,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "The Lost Astrolabe",
     location: "Black Lake Shore",
@@ -2223,6 +2372,7 @@ const quests = [
   },
   {
     id: 150,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Solved by the Bell",
     location: "Clagmar Castle",
@@ -2237,6 +2387,7 @@ const quests = [
   },
   {
     id: 151,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Flying off the Shelves",
     location: "Hogsmeade",
@@ -2251,6 +2402,7 @@ const quests = [
   },
   {
     id: 152,
+    type: "side",
     game: "Hogwarts Legacy",
     title: "Astronomy Table Challenges",
     location: "Various Locations",
@@ -2267,6 +2419,7 @@ const quests = [
   // ── Metaphor: ReFantazio (additional) ─────────────────────────────────────
   {
     id: 153,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Follower: Hulkenberg's Resolve",
     location: "Various / Story Chapters",
@@ -2281,6 +2434,7 @@ const quests = [
   },
   {
     id: 154,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Gauntlet Runner Races",
     location: "Gauntlet Runner / Travel Routes",
@@ -2295,6 +2449,7 @@ const quests = [
   },
   {
     id: 155,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Follower: Strohl's Rage",
     location: "Various / Story Chapters",
@@ -2309,6 +2464,7 @@ const quests = [
   },
   {
     id: 156,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "Akademeia's Lost Archives",
     location: "Grand Trad / Akademeia",
@@ -2323,6 +2479,7 @@ const quests = [
   },
   {
     id: 157,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Royal Election Debates",
     location: "Grand Trad Arena / Various",
@@ -2337,6 +2494,7 @@ const quests = [
   },
   {
     id: 158,
+    type: "side",
     game: "Metaphor: ReFantazio",
     title: "The Ancient Ruin Expedition",
     location: "Faraway Ruins",
@@ -2353,6 +2511,7 @@ const quests = [
   // ── God of War Ragnarök (additional) ──────────────────────────────────────
   {
     id: 159,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Freya's Missing Peace",
     location: "Vanaheim",
@@ -2367,6 +2526,7 @@ const quests = [
   },
   {
     id: 160,
+    type: "side",
     game: "God of War Ragnarök",
     title: "In Plain Sight",
     location: "Midgard",
@@ -2381,6 +2541,7 @@ const quests = [
   },
   {
     id: 161,
+    type: "side",
     game: "God of War Ragnarök",
     title: "The Raven Tree",
     location: "Niflheim",
@@ -2395,6 +2556,7 @@ const quests = [
   },
   {
     id: 162,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Atreus's Search",
     location: "Various Realms",
@@ -2409,6 +2571,7 @@ const quests = [
   },
   {
     id: 163,
+    type: "side",
     game: "God of War Ragnarök",
     title: "The Crucible",
     location: "Muspelheim",
@@ -2423,6 +2586,7 @@ const quests = [
   },
   {
     id: 164,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Mimir's Knowledge",
     location: "Various Realms",
@@ -2437,6 +2601,7 @@ const quests = [
   },
   {
     id: 165,
+    type: "side",
     game: "God of War Ragnarök",
     title: "Sigrun's Curse",
     location: "Midgard",
@@ -2453,6 +2618,7 @@ const quests = [
   // ── Persona 5 Royal (additional) ──────────────────────────────────────────
   {
     id: 166,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Ryuji's Confidant (Chariot)",
     location: "Shibuya / Track Field",
@@ -2467,6 +2633,7 @@ const quests = [
   },
   {
     id: 167,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Ann's Confidant (Lovers)",
     location: "Shibuya / Various",
@@ -2481,6 +2648,7 @@ const quests = [
   },
   {
     id: 168,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Futaba's Confidant (Hermit)",
     location: "Yongen-Jaya / Akihabara",
@@ -2495,6 +2663,7 @@ const quests = [
   },
   {
     id: 169,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Sojiro's Confidant (Hierophant)",
     location: "Café Leblanc",
@@ -2509,6 +2678,7 @@ const quests = [
   },
   {
     id: 170,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Mementos Requests: The Killer's Profile",
     location: "Path of Chemdah, Mementos",
@@ -2523,6 +2693,7 @@ const quests = [
   },
   {
     id: 171,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Iwai's Confidant (Hanged Man)",
     location: "Untouchable, Shibuya",
@@ -2537,6 +2708,7 @@ const quests = [
   },
   {
     id: 172,
+    type: "side",
     game: "Persona 5 Royal",
     title: "Ohya's Confidant (Devil)",
     location: "Crossroads Bar, Shinjuku",
@@ -2553,6 +2725,7 @@ const quests = [
   // ── Ghost of Tsushima (additional) ────────────────────────────────────────
   {
     id: 173,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Six Blades of Kojiro",
     location: "Iki Island / Toyotama",
@@ -2567,6 +2740,7 @@ const quests = [
   },
   {
     id: 174,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Unbreakable Gosaku",
     location: "Toyotama Region",
@@ -2581,6 +2755,7 @@ const quests = [
   },
   {
     id: 175,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "Norio's Devotion",
     location: "Toyotama / Kamiagata",
@@ -2595,6 +2770,7 @@ const quests = [
   },
   {
     id: 176,
+    type: "main",
     game: "Ghost of Tsushima",
     title: "A Reckoning in Blood",
     location: "Kamiagata",
@@ -2609,6 +2785,7 @@ const quests = [
   },
   {
     id: 177,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "The Tournament of Kenjutsu",
     location: "Iki Island (Director's Cut)",
@@ -2623,6 +2800,7 @@ const quests = [
   },
   {
     id: 178,
+    type: "side",
     game: "Ghost of Tsushima",
     title: "Yuna's Pursuit",
     location: "Izuhara / Toyotama",
@@ -2639,6 +2817,7 @@ const quests = [
   // ── Horizon Forbidden West (additional) ───────────────────────────────────
   {
     id: 179,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "The Daunt Errands",
     location: "The Daunt",
@@ -2653,6 +2832,7 @@ const quests = [
   },
   {
     id: 180,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "The Broken Sky",
     location: "Sheerside Mountains",
@@ -2667,6 +2847,7 @@ const quests = [
   },
   {
     id: 181,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "The Distant Lands",
     location: "No Man's Land / Utaru Territory",
@@ -2681,6 +2862,7 @@ const quests = [
   },
   {
     id: 182,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "The Old Varl's Refuge",
     location: "Legacy's Landfall",
@@ -2695,6 +2877,7 @@ const quests = [
   },
   {
     id: 183,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "Faro's Tomb",
     location: "San Francisco Ruins",
@@ -2709,6 +2892,7 @@ const quests = [
   },
   {
     id: 184,
+    type: "side",
     game: "Horizon Forbidden West",
     title: "The Bristlebacks",
     location: "Plainsong, Utaru Territory",
@@ -2723,6 +2907,7 @@ const quests = [
   },
   {
     id: 185,
+    type: "main",
     game: "Horizon Forbidden West",
     title: "The Dying Lands",
     location: "Thornmarsh",
@@ -2739,6 +2924,7 @@ const quests = [
   // ── Pillars of Eternity (additional) ──────────────────────────────────────
   {
     id: 186,
+    type: "side",
     game: "Pillars of Eternity",
     title: "Lord of a Barren Land",
     location: "Esternwood, Act 2",
@@ -2753,6 +2939,7 @@ const quests = [
   },
   {
     id: 187,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Parable of Wael",
     location: "Copperlane, Defiance Bay",
@@ -2767,6 +2954,7 @@ const quests = [
   },
   {
     id: 188,
+    type: "side",
     game: "Pillars of Eternity",
     title: "Brave Derrin",
     location: "Dyrford Village",
@@ -2781,6 +2969,7 @@ const quests = [
   },
   {
     id: 189,
+    type: "side",
     game: "Pillars of Eternity",
     title: "The Nest Egg",
     location: "Elmshore",
@@ -2795,6 +2984,7 @@ const quests = [
   },
   {
     id: 190,
+    type: "side",
     game: "Pillars of Eternity",
     title: "A Mother's Plea",
     location: "Defiance Bay / Copperlane",
@@ -2809,6 +2999,7 @@ const quests = [
   },
   {
     id: 191,
+    type: "side",
     game: "Pillars of Eternity",
     title: "Burning Bridges",
     location: "Ondra's Gift, Defiance Bay",
@@ -2823,6 +3014,7 @@ const quests = [
   },
   {
     id: 192,
+    type: "main",
     game: "Pillars of Eternity",
     title: "Never Far from the Queen",
     location: "Copperlane / Twin Elms",
@@ -2839,6 +3031,7 @@ const quests = [
   // ── Pillars of Eternity II: Deadfire (additional) ─────────────────────────
   {
     id: 193,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Fruitful Alliance",
     location: "Neketaka, Queen's Berth",
@@ -2853,6 +3046,7 @@ const quests = [
   },
   {
     id: 194,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Rite of Passage",
     location: "Tikawara Island",
@@ -2867,6 +3061,7 @@ const quests = [
   },
   {
     id: 195,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Seeker, Slayer, Survivor",
     location: "Ukaizo / Ori o Koīki Island",
@@ -2881,6 +3076,7 @@ const quests = [
   },
   {
     id: 196,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Forgotten Sanctum",
     location: "Black Isles",
@@ -2895,6 +3091,7 @@ const quests = [
   },
   {
     id: 197,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Companion: Xoti's Lantern",
     location: "Various Islands",
@@ -2909,6 +3106,7 @@ const quests = [
   },
   {
     id: 198,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The City Lost to Time",
     location: "Ukaizo",
@@ -2923,6 +3121,7 @@ const quests = [
   },
   {
     id: 199,
+    type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Companion: Pallegina's Mission",
     location: "Various / Vailian Republics Quests",
