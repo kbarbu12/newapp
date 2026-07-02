@@ -284,33 +284,53 @@
     var chapterHtml = quest.chapter
       ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>"
       : "";
-    var videoHtml = quest.video
-      ? '<a class="video-link" href="' +
+    var videoSidebarHtml = quest.video
+      ? '<div class="sidebar-card">' +
+        '<h3 class="sidebar-title">Watch Walkthrough</h3>' +
+        '<a class="video-link video-link-wide" href="' +
         quest.video +
-        '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>' +
-        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>'
+        '" target="_blank" rel="noopener noreferrer">&#9654; Watch on YouTube</a>' +
+        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>' +
+        "</div>"
       : "";
+
+    var statsHtml =
+      '<div class="detail-stats">' +
+      '<div class="stat"><span class="stat-label">Difficulty</span>' +
+      '<span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span></div>" +
+      '<div class="stat"><span class="stat-label">Duration</span>' +
+      '<span class="pill ' + quest.length + '">' + quest.length + "</span></div>" +
+      '<div class="stat"><span class="stat-label">Location</span>' +
+      '<span class="stat-value">' + quest.location + "</span></div>" +
+      "</div>";
 
     questDetail.innerHTML =
       '<button type="button" class="btn-back" id="detailBack">&larr; Back to all quests</button>' +
       '<article class="detail-card">' +
-      '<div class="detail-banner" style="background: ' + img.gradient + ';">' +
+      '<div class="detail-banner">' +
+      '<img src="' + img.cover + '" alt="" class="detail-banner-bg" aria-hidden="true" />' +
       '<img src="' + img.cover + '" alt="' + quest.game + '" class="detail-banner-img" />' +
       "</div>" +
+      '<div class="detail-columns">' +
       '<div class="detail-body">' +
       '<p class="game-name">' + quest.game + "</p>" +
-      "<h1>" + quest.title +
-      ' <span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
-      ' <span class="pill ' + quest.length + '">' + quest.length + "</span>" +
-      "</h1>" +
+      "<h1>" + quest.title + "</h1>" +
+      statsHtml +
       chapterHtml +
       regionHtml +
-      '<p class="meta"><strong>Location:</strong> ' + quest.location + "</p>" +
       '<h2 class="detail-heading">Quest Summary</h2>' +
       '<p class="summary-text">' + quest.summary + "</p>" +
       '<div class="tip-box"><strong>Tip</strong><p>' + quest.aiTip + "</p></div>" +
       '<p class="reward"><strong>Reward:</strong> ' + quest.reward + "</p>" +
-      videoHtml +
+      "</div>" +
+      '<aside class="detail-sidebar">' +
+      videoSidebarHtml +
+      '<div class="sidebar-card">' +
+      '<h3 class="sidebar-title">About the Game</h3>' +
+      '<p class="sidebar-text">This quest is part of <strong>' + quest.game + "</strong>. " +
+      "Buy links and related quests are coming soon.</p>" +
+      "</div>" +
+      "</aside>" +
       "</div>" +
       "</article>";
 
