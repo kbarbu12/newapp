@@ -877,7 +877,7 @@ const quests = [
       "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
     aiTip:
       "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=iC_HQB2WOds"
   },
   {
     id: 55,
@@ -891,7 +891,7 @@ const quests = [
       "Alva discovers data about Leviathan, a defunct flood control system in the Great Delta. She and Aloy explore the ruins of Atbay Global Infrastructure in San Francisco to recover critical repair data.",
     aiTip:
       "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=mTt0HqyaFbQ"
   },
   {
     id: 56,
@@ -905,7 +905,7 @@ const quests = [
       "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
     aiTip:
       "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=B4zNx29HC84"
   },
   {
     id: 57,
@@ -1577,7 +1577,7 @@ const quests = [
       "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
     aiTip:
       "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=_j4_NpcVMHw"
   },
   {
     id: 105,
@@ -1591,7 +1591,7 @@ const quests = [
       "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
     aiTip:
       "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=jMCtZ4xkIJ4"
   },
   {
     id: 106,
@@ -1605,7 +1605,7 @@ const quests = [
       "Override the first Tallneck to reveal the surrounding map. Each Tallneck is an environmental puzzle requiring Aloy to find a path to its head — this one involves climbing ruins around a flooded area.",
     aiTip:
       "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=w3wURjVgnI0"
   },
   {
     id: 107,
@@ -1619,7 +1619,7 @@ const quests = [
       "Cross a treacherous desert filled with burrowing machines to reach a buried ruin. The sandstorms limit visibility while Tremortusks and Slitherfangs patrol the dunes — one of the tensest exploration sequences in the game.",
     aiTip:
       "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=UP5p7BpHyjc"
   },
   {
     id: 108,
@@ -2649,7 +2649,7 @@ const quests = [
       "Complete a series of errands for the Oseram settlers establishing themselves in The Daunt. These quick tasks introduce Horizon's errand system and teach combat and exploration mechanics in a safe opening environment.",
     aiTip:
       "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/playlist?list=PLNVZ0VbA46mqXmXe_XscAEyZUCEHJpemQ"
   },
   {
     id: 180,
@@ -2663,7 +2663,7 @@ const quests = [
       "Investigate a Cauldron in the Sheerside Mountains that has been producing corrupted machines. Navigating the facility requires solving power puzzles while fending off aggressive Apex-class machines.",
     aiTip:
       "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=pFEhMNlfCA0"
   },
   {
     id: 181,
@@ -2705,7 +2705,7 @@ const quests = [
       "Explore the sealed tomb of Ted Faro, the man responsible for the extinction of the Old World. The dungeon confronts Aloy with the full horror of HEPHAESTUS's legacy and rewards a powerful endgame spear.",
     aiTip:
       "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=cA_I3lOQmvA"
   },
   {
     id: 184,
@@ -2719,7 +2719,7 @@ const quests = [
       "Investigate a herd of corrupted Bristleback machines terrorising the Utaru farming communities. Clearing the corruption and overriding a Bristleback provides a fast travel mount usable across open terrain.",
     aiTip:
       "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=7JVGDFq0bw8"
   },
   {
     id: 185,
@@ -2733,7 +2733,7 @@ const quests = [
       "Investigate the mysterious blight killing the swamp ecosystem in Thornmarsh and confront the Apex Clawstrider pack responsible. A multi-stage quest that demonstrates Horizon's approach to environmental storytelling.",
     aiTip:
       "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/watch?v=goI8MktOdhM"
   },
 
   // ── Pillars of Eternity (additional) ──────────────────────────────────────
