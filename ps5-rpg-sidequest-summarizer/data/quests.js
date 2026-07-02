@@ -112,7 +112,7 @@ const quests = [
       "A politically important rescue quest with multiple branching outcomes. The player must balance combat, exploration, and timed decision-making while managing companion reactions.",
     aiTip:
       "Prioritize mobility spells, prepare healing, and save before major dialogue choices. This quest is best approached after checking companion objectives.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 2,
@@ -126,7 +126,7 @@ const quests = [
       "A layered side quest that becomes central to Shadowheart's character arc. It mixes puzzle rooms, combat encounters, and a major moral decision.",
     aiTip:
       "Bring Shadowheart for maximum narrative impact and explore each trial carefully before entering the final area.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
   },
   {
     id: 3,
@@ -140,7 +140,7 @@ const quests = [
       "Infiltrate the Steel Watch Foundry to free enslaved Gondian gnomes forced to build mechanical enforcers. Combat is intense and decisions affect the finale.",
     aiTip:
       "Protect the Gondians during combat — if too many die, you lose their support. Area-of-effect spells can backfire here.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 4,
@@ -196,7 +196,7 @@ const quests = [
       "An early side quest that introduces open-zone investigation. The player tracks a monster threat and learns how Rebirth uses regional activities.",
     aiTip:
       "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 8,
@@ -210,7 +210,7 @@ const quests = [
       "A light-hearted but involved quest chain focused on rebuilding and supporting a local inn. It blends exploration, mini-objectives, and character humor.",
     aiTip:
       "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 9,
@@ -224,7 +224,7 @@ const quests = [
       "A sprawling mini-game marathon at the Gold Saucer theme park. Completing activities builds relationship points that influence a key story date scene.",
     aiTip:
       "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 10,
@@ -877,7 +877,7 @@ const quests = [
       "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
     aiTip:
       "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 55,
@@ -891,7 +891,7 @@ const quests = [
       "Alva discovers data about Leviathan, a defunct flood control system in the Great Delta. She and Aloy explore the ruins of Atbay Global Infrastructure in San Francisco to recover critical repair data.",
     aiTip:
       "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 56,
@@ -905,7 +905,7 @@ const quests = [
       "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
     aiTip:
       "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 57,
@@ -1031,7 +1031,7 @@ const quests = [
       "Discover a toymaker whose creations are actually disguised explosives being distributed to children. The investigation leads through the Lower City's criminal networks and forces a moral confrontation.",
     aiTip:
       "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 66,
@@ -1059,7 +1059,7 @@ const quests = [
       "The temple of Umberlee demands vengeance against those who wronged the sea goddess. Navigate a web of maritime grudges, underwater exploration, and divine wrath in one of Act 3's most atmospheric quests.",
     aiTip:
       "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 68,
@@ -1087,7 +1087,7 @@ const quests = [
       "Infiltrate the prison beneath Moonrise Towers to free captured Tieflings and the gnome inventor Wulbren. A tense stealth-or-combat mission with major consequences for the Ironhand Gnomes and Last Light Inn storylines.",
     aiTip:
       "Free the Tieflings first — they can create a diversion. Wulbren's escape route through the docks avoids the heaviest guard patrols.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
   },
   {
     id: 70,
@@ -1157,7 +1157,7 @@ const quests = [
       "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
     aiTip:
       "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 75,
@@ -1171,7 +1171,7 @@ const quests = [
       "A gentle early quest where Cloud helps a young girl gather rare flowers on the outskirts of Kalm. It establishes the exploration mechanics and rewards careful attention to the environment.",
     aiTip:
       "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 76,
@@ -1185,7 +1185,7 @@ const quests = [
       "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
     aiTip:
       "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 77,
@@ -1199,7 +1199,7 @@ const quests = [
       "Help a chocobo rancher investigate why the local chocobos have been acting strangely. The investigation reveals environmental threats and unlocks new chocobo traversal abilities for the region.",
     aiTip:
       "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 78,
@@ -1577,7 +1577,7 @@ const quests = [
       "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
     aiTip:
       "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 105,
@@ -1591,7 +1591,7 @@ const quests = [
       "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
     aiTip:
       "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 106,
@@ -1605,7 +1605,7 @@ const quests = [
       "Override the first Tallneck to reveal the surrounding map. Each Tallneck is an environmental puzzle requiring Aloy to find a path to its head — this one involves climbing ruins around a flooded area.",
     aiTip:
       "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 107,
@@ -1619,7 +1619,7 @@ const quests = [
       "Cross a treacherous desert filled with burrowing machines to reach a buried ruin. The sandstorms limit visibility while Tremortusks and Slitherfangs patrol the dunes — one of the tensest exploration sequences in the game.",
     aiTip:
       "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 108,
@@ -1705,7 +1705,7 @@ const quests = [
       "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
     aiTip:
       "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
   },
   {
     id: 114,
@@ -1719,7 +1719,7 @@ const quests = [
       "Track a serial killer stalking the streets of Baldur's Gate who leaves victims drained of blood. The investigation leads through the city's underworld and connects to a much larger conspiracy in Act 3.",
     aiTip:
       "Examine every victim carefully and follow every lead before confronting suspects. The killer's identity is well-disguised and multiple false trails are laid.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 115,
@@ -1747,7 +1747,7 @@ const quests = [
       "Work with the druid Halsin to break the ancient shadow curse blighting the land around Moonrise Towers. The quest requires venturing deep into cursed territory and confronting the source of the darkness.",
     aiTip:
       "Always carry Moonlantern or pixie blessing to survive the shadow curse. Escort Halsin carefully during the ritual — he can die, which locks you out of the good ending.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
   },
   {
     id: 117,
@@ -1761,7 +1761,7 @@ const quests = [
       "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
     aiTip:
       "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
   {
     id: 118,
@@ -1775,7 +1775,7 @@ const quests = [
       "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
     aiTip:
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
   },
 
   // ── Elden Ring (additional) ───────────────────────────────────────────────
@@ -1877,7 +1877,7 @@ const quests = [
       "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
     aiTip:
       "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 126,
@@ -1891,7 +1891,7 @@ const quests = [
       "Help a team of archaeologists excavating ancient ruins in the Corel Desert. The quest involves tracking down missing workers, solving environmental puzzles, and fending off desert monsters threatening the dig site.",
     aiTip:
       "Equip Lightning materia before heading in — the scorpion-type machines in the desert are weak to it. Completing all excavation objectives unlocks a bonus chest with rare equipment.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 127,
@@ -1905,7 +1905,7 @@ const quests = [
       "Aerith experiences visions of the Ancients near Cosmo Canyon's sacred sites. Follow her as she communes with the Planet, deepening Cloud's understanding of her heritage and the weight she carries.",
     aiTip:
       "This quest is heavily story-driven — focus on dialogue choices that show empathy. Your responses significantly affect the Aerith relationship score for the date scene.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 128,
@@ -1919,7 +1919,7 @@ const quests = [
       "Cloud must infiltrate the Shinra military parade in Junon by mastering parade drill movements. A memorable set piece blending rhythm-based mini-games with stealth as Cloud marches alongside actual Shinra soldiers.",
     aiTip:
       "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 129,
@@ -1933,7 +1933,7 @@ const quests = [
       "Challenge and defeat every Queen's Blood card player across the world to become the undisputed champion. The card game deepens in complexity as you collect more powerful cards and face tougher opponents.",
     aiTip:
       "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 130,
@@ -1947,7 +1947,7 @@ const quests = [
       "Help the residents of Gongaga village deal with the dangerous wildlife that has overrun their region following the Mako reactor explosion. Multiple linked quests involving reconnaissance, rescue, and extermination.",
     aiTip:
       "Complete the regional Intel before starting — it reveals enemy locations and makes the rescue objectives faster to complete. The boss creature has a weakness to Ice.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
   {
     id: 131,
@@ -1961,7 +1961,7 @@ const quests = [
       "Assist Yuffie in gathering intelligence about Shinra's activities across regions for her homeland Wutai. Her energetic approach to espionage makes for some of the game's funniest and most action-packed optional scenes.",
     aiTip:
       "Complete Yuffie's combat challenges in each region — they're fast and reward unique materia. Her affection score affects an optional scene in the Gold Saucer.",
-    video: "https://www.youtube.com/watch?v=ZnCXVzDb9ps"
+    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
   },
 
   // ── Cyberpunk 2077 (additional) ───────────────────────────────────────────
@@ -2649,7 +2649,7 @@ const quests = [
       "Complete a series of errands for the Oseram settlers establishing themselves in The Daunt. These quick tasks introduce Horizon's errand system and teach combat and exploration mechanics in a safe opening environment.",
     aiTip:
       "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 180,
@@ -2663,7 +2663,7 @@ const quests = [
       "Investigate a Cauldron in the Sheerside Mountains that has been producing corrupted machines. Navigating the facility requires solving power puzzles while fending off aggressive Apex-class machines.",
     aiTip:
       "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 181,
@@ -2677,7 +2677,7 @@ const quests = [
       "Travel beyond Tenakth borders to the dying Utaru tribe's homeland, where the Plague is ravaging crops and people. Aloy must navigate Utaru customs and traditions to earn their trust and access vital information.",
     aiTip:
       "Use Concentration during the ritual portions of this quest — the pacing is slow but skipping dialogue misses critical worldbuilding. The Utaru armor provides useful stealth bonuses.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 182,
@@ -2691,7 +2691,7 @@ const quests = [
       "Help a group of elderly Nora refugees who have settled in the ruins of an old Vantage Point and are being harassed by scavengers. A short but touching quest about community and resilience in a collapsed world.",
     aiTip:
       "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 183,
@@ -2705,7 +2705,7 @@ const quests = [
       "Explore the sealed tomb of Ted Faro, the man responsible for the extinction of the Old World. The dungeon confronts Aloy with the full horror of HEPHAESTUS's legacy and rewards a powerful endgame spear.",
     aiTip:
       "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 184,
@@ -2719,7 +2719,7 @@ const quests = [
       "Investigate a herd of corrupted Bristleback machines terrorising the Utaru farming communities. Clearing the corruption and overriding a Bristleback provides a fast travel mount usable across open terrain.",
     aiTip:
       "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
   {
     id: 185,
@@ -2733,7 +2733,7 @@ const quests = [
       "Investigate the mysterious blight killing the swamp ecosystem in Thornmarsh and confront the Apex Clawstrider pack responsible. A multi-stage quest that demonstrates Horizon's approach to environmental storytelling.",
     aiTip:
       "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
-    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
+    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
   },
 
   // ── Pillars of Eternity (additional) ──────────────────────────────────────
