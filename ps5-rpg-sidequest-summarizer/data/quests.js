@@ -325,7 +325,7 @@ const quests = [
       "An early activity-style quest that teaches time management and social-stat progression, which are core to the broader RPG loop.",
     aiTip:
       "Good to complete early because it supports character growth without requiring heavy combat preparation.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/watch?v=zNjNXgEthy4"
   },
   {
     id: 17,
@@ -339,7 +339,7 @@ const quests = [
       "A side story focused on prejudice, belief, and social pressure. It gives the world more texture beyond the central tournament plot.",
     aiTip:
       "Treat dialogue as part of the quest system. Metaphor often rewards attention to social context, not only combat strength.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/watch?v=Qp8q2DB5MFw"
   },
   {
     id: 18,
@@ -467,7 +467,7 @@ const quests = [
       "A hidden dragon boss lurks behind a waterfall near the Outside of the Forest Shrine. Once you obtain Loong Scales, the waterfall reveals a secret arena for an intense dragon fight.",
     aiTip:
       "You need Loong Scales before attempting this. The Red Loong hits extremely hard — learn its attack patterns and dodge toward its hind legs for openings.",
-    video: "https://www.youtube.com/watch?v=T4DFKOlrXCQ"
+    video: "https://www.youtube.com/watch?v=T4gT29_KTeI"
   },
   {
     id: 27,
@@ -497,7 +497,7 @@ const quests = [
       "Another hidden dragon boss found behind a waterfall near the Rockrest Flat Shrine. The Black Loong attacks rhythmically to its own battle music — learning to dodge to the beat is the key to victory.",
     aiTip:
       "Listen to the boss music. Its weapon slams follow the beat — jump and dodge in rhythm. Head toward boulders for cover during its ranged attacks.",
-    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+    video: "https://www.youtube.com/watch?v=aws_pIoWkHA"
   },
   {
     id: 29,
@@ -542,7 +542,7 @@ const quests = [
       "After defeating the Pale-Axe Stalwart in the Woods of Ember, speak with him to trigger a psychedelic quest where you battle five sentient, decorated carts — each representing one of the five elements.",
     aiTip:
       "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
-    video: "https://www.youtube.com/watch?v=T4DFKOlrXCQ"
+    video: "https://www.youtube.com/watch?v=4c3j5Igj9NQ"
   },
   {
     id: 32,
@@ -919,7 +919,7 @@ const quests = [
       "Heritage Hill has been sealed off due to undead rising from the graves. Investigate the source of the disturbance — an ancient Engwithan machine reanimating corpses — and decide the fate of the souls trapped within.",
     aiTip:
       "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/watch?v=TR0TQ9U-abg"
   },
   {
     id: 58,
@@ -2877,7 +2877,7 @@ const quests = [
       "Travel to a mysterious island arena where warriors from across the Deadfire compete in brutal combat. A gladiatorial questline testing party endurance across multiple consecutive fights with unique rules for each round.",
     aiTip:
       "Conserve resources between fights — you cannot rest during the arena sequence. Bring multiple party members with healing abilities and stock heavy on injury prevention items.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/watch?v=V3GbGyej3JQ"
   },
   {
     id: 196,
@@ -2891,7 +2891,7 @@ const quests = [
       "Explore the hidden library of the Watcher of the Black Isles, a legendary wizard, and uncover the truth about why the world's arcane knowledge has been sealed away. The DLC's narrative culminates in a choice about the future of magic itself.",
     aiTip:
       "This is DLC content — approach it with a well-developed party. The final boss adapts to your spell selection; bring varied damage types and avoid relying on one element.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/watch?v=dWWWCSiZXuo"
   },
   {
     id: 197,
