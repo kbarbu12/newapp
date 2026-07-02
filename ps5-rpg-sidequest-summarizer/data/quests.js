@@ -112,7 +112,7 @@ const quests = [
       "A politically important rescue quest with multiple branching outcomes. The player must balance combat, exploration, and timed decision-making while managing companion reactions.",
     aiTip:
       "Prioritize mobility spells, prepare healing, and save before major dialogue choices. This quest is best approached after checking companion objectives.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=pskHqvzf6lE"
   },
   {
     id: 2,
@@ -126,7 +126,7 @@ const quests = [
       "A layered side quest that becomes central to Shadowheart's character arc. It mixes puzzle rooms, combat encounters, and a major moral decision.",
     aiTip:
       "Bring Shadowheart for maximum narrative impact and explore each trial carefully before entering the final area.",
-    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
+    video: "https://www.youtube.com/watch?v=oRpfzA0JcGw"
   },
   {
     id: 3,
@@ -140,7 +140,7 @@ const quests = [
       "Infiltrate the Steel Watch Foundry to free enslaved Gondian gnomes forced to build mechanical enforcers. Combat is intense and decisions affect the finale.",
     aiTip:
       "Protect the Gondians during combat — if too many die, you lose their support. Area-of-effect spells can backfire here.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=rUeiZ38w6dE"
   },
   {
     id: 4,
@@ -154,7 +154,7 @@ const quests = [
       "A mysterious multi-zone questline involving hidden cities, powerful bosses, and one of the game's most iconic alternate endings.",
     aiTip:
       "Track NPC dialogue carefully. This quest is easier if you keep notes because the game rarely gives direct objective markers.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=0RBa82TpYrM"
   },
   {
     id: 5,
@@ -168,7 +168,7 @@ const quests = [
       "A memorable NPC journey following a warrior jar across major regions. It rewards exploration and creates a surprisingly emotional arc.",
     aiTip:
       "Speak to Alexander whenever you meet him and avoid rushing late-game areas before progressing his earlier encounters.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=OR_nbiYVEe0"
   },
   {
     id: 6,
@@ -182,7 +182,7 @@ const quests = [
       "Help a Scarlet Rot-afflicted warrior across the Lands Between. The quest spans nearly the entire map and ends with a pivotal choice at the Haligtree.",
     aiTip:
       "Don't miss Gowry's shack in Caelid early on. The quest has easy-to-miss steps — check back with NPCs after major boss kills.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=aCy_ZEP4AHs"
   },
   {
     id: 7,
@@ -1031,7 +1031,7 @@ const quests = [
       "Discover a toymaker whose creations are actually disguised explosives being distributed to children. The investigation leads through the Lower City's criminal networks and forces a moral confrontation.",
     aiTip:
       "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=BTU7jPtqSFs"
   },
   {
     id: 66,
@@ -1045,7 +1045,7 @@ const quests = [
       "Rescue the kidnapped painter Oskar from Zhentarim slavers. What seems like a simple rescue sets up a haunting storyline that doesn't resolve until much later in Baldur's Gate itself.",
     aiTip:
       "Buy Oskar's freedom rather than fighting — it's cheaper than the healing you'll need. Visit his house in Act 3 for the quest's surprising conclusion.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=_BpJ_9fwNGk"
   },
   {
     id: 67,
@@ -1059,7 +1059,7 @@ const quests = [
       "The temple of Umberlee demands vengeance against those who wronged the sea goddess. Navigate a web of maritime grudges, underwater exploration, and divine wrath in one of Act 3's most atmospheric quests.",
     aiTip:
       "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=wHtKGBsib_w"
   },
   {
     id: 68,
@@ -1073,7 +1073,7 @@ const quests = [
       "A friendly Mind Flayer named Omeluum offers to study your tadpole and brew a potential cure. The quest sends you deep into the Underdark to find rare ingredients while learning more about your condition.",
     aiTip:
       "The Tongue of Madness and Timmask Spores are both found in the Underdark biome. Omeluum's potion doesn't cure you, but the ring reward is excellent for resisting psychic attacks.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=OwuMRZFbeTo"
   },
   {
     id: 69,
@@ -1101,7 +1101,7 @@ const quests = [
       "Join a secret assassination covenant within Volcano Manor and hunt down Tarnished targets across the Lands Between. Each contract reveals more about the Manor's sinister mistress, Tanith, and the God-Devouring Serpent.",
     aiTip:
       "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=adyGTfYzW1o"
   },
   {
     id: 71,
@@ -1115,7 +1115,7 @@ const quests = [
       "Follow the Deathbed Companion Fia through a storyline about Those Who Live in Death. Her quest spans from the Roundtable Hold to the hidden Deeproot Depths and unlocks one of the game's secret endings.",
     aiTip:
       "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=85I3cqQ1gK0"
   },
   {
     id: 72,
@@ -1129,7 +1129,7 @@ const quests = [
       "Help the warrior Nepheli find her purpose after being disowned by her adoptive father Gideon. Her journey through betrayal and self-discovery culminates in her becoming the rightful ruler of Limgrave.",
     aiTip:
       "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=EY6CiENiNw4"
   },
   {
     id: 73,
@@ -1143,7 +1143,7 @@ const quests = [
       "Aid Brother Corhyn and the enigmatic Goldmask in deciphering the fundamental flaws of the Golden Order. A philosophical questline about faith, divinity, and the nature of the Erdtree's rule.",
     aiTip:
       "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=-FeB5PTagZY"
   },
   {
     id: 74,
@@ -1691,7 +1691,7 @@ const quests = [
       "Recruit Astarion, a charming vampire spawn with a dark secret. His companion quest unfolds across all three acts, building toward a pivotal choice that determines whether he becomes a true vampire lord or breaks free of his master.",
     aiTip:
       "Don't let Astarion bite you at camp early on — it has consequences. His questline rewards players who take time to understand his past rather than judge him.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=rUJ9dRaOyns"
   },
   {
     id: 113,
@@ -1705,7 +1705,7 @@ const quests = [
       "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
     aiTip:
       "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
-    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
+    video: "https://www.youtube.com/watch?v=QEx4mUKNcr8"
   },
   {
     id: 114,
@@ -1719,7 +1719,7 @@ const quests = [
       "Track a serial killer stalking the streets of Baldur's Gate who leaves victims drained of blood. The investigation leads through the city's underworld and connects to a much larger conspiracy in Act 3.",
     aiTip:
       "Examine every victim carefully and follow every lead before confronting suspects. The killer's identity is well-disguised and multiple false trails are laid.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=Arve0okS648"
   },
   {
     id: 115,
@@ -1733,7 +1733,7 @@ const quests = [
       "Rescue a gnome inventor named Barcus Wroot who has been strapped to a windmill by goblins. A quick but memorable encounter that introduces recurring NPC Barcus and showcases the game's environmental storytelling.",
     aiTip:
       "Stop the windmill before freeing Barcus — there's a brake lever nearby. Freeing him correctly sets up later encounters where he repays the favour.",
-    video: "https://www.youtube.com/watch?v=VmxPVwEkl48"
+    video: "https://www.youtube.com/watch?v=dZTXqF9r0uE"
   },
   {
     id: 116,
@@ -1747,7 +1747,7 @@ const quests = [
       "Work with the druid Halsin to break the ancient shadow curse blighting the land around Moonrise Towers. The quest requires venturing deep into cursed territory and confronting the source of the darkness.",
     aiTip:
       "Always carry Moonlantern or pixie blessing to survive the shadow curse. Escort Halsin carefully during the ritual — he can die, which locks you out of the good ending.",
-    video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
+    video: "https://www.youtube.com/watch?v=Z5eYa3hzlVQ"
   },
   {
     id: 117,
@@ -1761,7 +1761,7 @@ const quests = [
       "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
     aiTip:
       "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=6SFzGBlOqjI"
   },
   {
     id: 118,
@@ -1775,7 +1775,7 @@ const quests = [
       "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
     aiTip:
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
-    video: "https://www.youtube.com/watch?v=uOgiMiSsDMM"
+    video: "https://www.youtube.com/watch?v=bcREpftv-fk"
   },
 
   // ── Elden Ring (additional) ───────────────────────────────────────────────
@@ -1791,7 +1791,7 @@ const quests = [
       "Encounter the treacherous merchant Patches across multiple locations as he tricks, betrays, and ultimately befriends the Tarnished. A recurring FromSoftware character with a surprisingly heartfelt conclusion.",
     aiTip:
       "Don't kill Patches after his ambush — forgive him to unlock his shop. His questline ends at the Volcano Manor with a touching final letter.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=QmjBZifDJnM"
   },
   {
     id: 120,
@@ -1805,7 +1805,7 @@ const quests = [
       "Follow a blind woman who seeks grape-like eyes across Liurnia and beyond. Her quest leads deep into the lore of the Three Fingers and the Frenzied Flame ending path.",
     aiTip:
       "You must give Hyetta Shabriri Grapes at each location she appears. Her final location requires accessing the Frenzied Flame Proscription — an area that locks you into a specific ending if you interact with it.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=bYySdvILKcM"
   },
   {
     id: 121,
@@ -1819,7 +1819,7 @@ const quests = [
       "Interact with the cursed and terrifying Dung Eater at the Roundtable Hold, then hunt Seedbed Curse items to fulfill his vile requests. His ending is one of the darkest in the game.",
     aiTip:
       "Don't free the Dung Eater from prison until you've bought everything from Patches and other Roundtable Hold NPCs — freeing him turns him hostile to others.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=_LvxUP5_eCg"
   },
   {
     id: 122,
@@ -1833,7 +1833,7 @@ const quests = [
       "Help the ailing sorcerer Rogier uncover the truth about the Black Knife Assassins and their role in the Night of Black Knives. His questline intersects with Ranni's and reveals crucial backstory about the Shattering.",
     aiTip:
       "Find the bloodstain beneath Stormveil Castle first to trigger his questline. His quest ties into Ranni's — progress both together for the full picture.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=SLFciQ383XY"
   },
   {
     id: 123,
@@ -1847,7 +1847,7 @@ const quests = [
       "Follow the taunting NPC Varre from the very start of the game through his questline that eventually grants access to one of the best early farming locations in Elden Ring.",
     aiTip:
       "Invading other players three times is required — you don't need to win. This is the fastest route to Mohgwyn Palace, which has one of the best rune farming spots in the game.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=zGDQ7yiHxns"
   },
   {
     id: 124,
@@ -1861,7 +1861,7 @@ const quests = [
       "Meet a lovable prawn-boiling merchant who gets caught up in Rya's questline. A surprisingly touching side story about a simple man living honestly in a brutal world.",
     aiTip:
       "Buy prawns from Boggart and exhaust his dialogue each time you meet him. Don't let Rya's questline progress too far before speaking to him or you'll miss key interactions.",
-    video: "https://www.youtube.com/watch?v=rgCgsiCrFX8"
+    video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
   },
 
   // ── Final Fantasy VII Rebirth (additional) ────────────────────────────────
