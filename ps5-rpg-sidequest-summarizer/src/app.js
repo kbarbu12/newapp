@@ -11,6 +11,9 @@
   var resultCount = document.querySelector("#resultCount");
   var filterPanel = document.querySelector("#filterPanel");
   var filterToggle = document.querySelector("#mobileFilterToggle");
+  var questDetail = document.querySelector("#questDetail");
+  var mainLayout = document.querySelector("main.layout");
+  var heroSection = document.querySelector("header.hero");
 
   var activeSubFilter = null;
   var uniqueGames = [];
@@ -151,6 +154,20 @@
 
     var diffClass = quest.difficulty.toLowerCase();
 
+    article.classList.add("clickable");
+    article.setAttribute("tabindex", "0");
+    article.setAttribute("role", "link");
+    article.setAttribute("aria-label", "View details for " + quest.title);
+    article.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      window.location.hash = "quest-" + quest.id;
+    });
+    article.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        window.location.hash = "quest-" + quest.id;
+      }
+    });
+
     article.innerHTML =
       '<div class="card-banner" style="' +
       bannerStyle +
@@ -250,8 +267,83 @@
     filterPanel.classList.toggle("open");
   }
 
+  function findQuestById(id) {
+    for (var i = 0; i < quests.length; i++) {
+      if (quests[i].id === id) return quests[i];
+    }
+    return null;
+  }
+
+  function renderQuestDetail(quest) {
+    var img = gameImages[quest.game];
+    var diffClass = quest.difficulty.toLowerCase();
+
+    var regionHtml = quest.region
+      ? '<p class="meta"><strong>Region:</strong> ' + quest.region + "</p>"
+      : "";
+    var chapterHtml = quest.chapter
+      ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>"
+      : "";
+    var videoHtml = quest.video
+      ? '<a class="video-link" href="' +
+        quest.video +
+        '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>' +
+        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>'
+      : "";
+
+    questDetail.innerHTML =
+      '<button type="button" class="btn-back" id="detailBack">&larr; Back to all quests</button>' +
+      '<article class="detail-card">' +
+      '<div class="detail-banner" style="background: ' + img.gradient + ';">' +
+      '<img src="' + img.cover + '" alt="' + quest.game + '" class="detail-banner-img" />' +
+      "</div>" +
+      '<div class="detail-body">' +
+      '<p class="game-name">' + quest.game + "</p>" +
+      "<h1>" + quest.title +
+      ' <span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
+      ' <span class="pill ' + quest.length + '">' + quest.length + "</span>" +
+      "</h1>" +
+      chapterHtml +
+      regionHtml +
+      '<p class="meta"><strong>Location:</strong> ' + quest.location + "</p>" +
+      '<h2 class="detail-heading">Quest Summary</h2>' +
+      '<p class="summary-text">' + quest.summary + "</p>" +
+      '<div class="tip-box"><strong>Tip</strong><p>' + quest.aiTip + "</p></div>" +
+      '<p class="reward"><strong>Reward:</strong> ' + quest.reward + "</p>" +
+      videoHtml +
+      "</div>" +
+      "</article>";
+
+    document.querySelector("#detailBack").addEventListener("click", function () {
+      window.location.hash = "";
+    });
+  }
+
+  function handleRoute() {
+    var match = window.location.hash.match(/^#quest-(\d+)$/);
+    var quest = match ? findQuestById(parseInt(match[1], 10)) : null;
+
+    if (quest) {
+      renderQuestDetail(quest);
+      questDetail.style.display = "block";
+      mainLayout.style.display = "none";
+      heroSection.style.display = "none";
+      document.title = quest.title + " — " + quest.game + " | RPG Quest Guide";
+      window.scrollTo(0, 0);
+    } else {
+      questDetail.style.display = "none";
+      questDetail.innerHTML = "";
+      mainLayout.style.display = "";
+      heroSection.style.display = "";
+      updatePageTitle();
+    }
+  }
+
   populateGameFilter();
   renderQuests();
+  handleRoute();
+
+  window.addEventListener("hashchange", handleRoute);
 
   searchInput.addEventListener("input", renderQuests);
   gameFilter.addEventListener("change", onGameChange);

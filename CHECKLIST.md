@@ -1,0 +1,35 @@
+# RPG Quest Guide — Launch & Improvement Checklist
+
+## ✅ Done
+- [x] Site live on GitHub Pages (https://kbarbu12.github.io/newapp/)
+- [x] Rename site to "RPG Quest Guide"
+- [x] SEO meta tags, Open Graph, Twitter cards, JSON-LD
+- [x] sitemap.xml + robots.txt
+- [x] Google Search Console verification + sitemap submitted
+- [x] Favicon + social preview image
+- [x] Walkthrough video links on all quests
+- [x] Video copyright disclaimer (footer + per card)
+- [x] Dynamic page title on game filter
+- [x] Fix card banner images (no cropping)
+- [x] Expand quest library to 199 quests (~15 per game)
+
+## 🚧 Quest Detail Pages (current focus)
+- [ ] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
+- [ ] **Phase 2 — Sidebar extras**: related quests from same game, "Buy this game" buttons (placeholder links until affiliate signup)
+- [ ] **Phase 3 — SEO polish**: per-quest page title + meta description, game grouping headers in "All games" view
+- [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
+
+## 📋 Backlog
+- [ ] Real cover images for Pillars of Eternity 1 & 2
+- [ ] Bing Webmaster Tools setup
+- [ ] Sign up for Amazon Associates / GOG affiliate program
+- [ ] Swap placeholder buy-links for real affiliate links
+- [ ] Apply for Google AdSense (needs traffic first)
+- [ ] Quest completed tracker (localStorage)
+- [ ] Add more games (Skyrim, Dark Souls, Dragon Age)
+
+## 📣 Marketing
+- [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)
+- [ ] Share in game-specific Discord servers
+- [ ] Twitter/X account for daily quest tips
+- [ ] TikTok/YouTube Short showing the site
