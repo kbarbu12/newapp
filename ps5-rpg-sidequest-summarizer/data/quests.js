@@ -3133,5 +3133,95 @@ const quests = [
     aiTip:
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
     video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+  },
+  {
+    id: 200,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Escape the Nautiloid",
+    location: "Nautiloid / Prologue",
+    length: "short",
+    difficulty: "Low",
+    reward: "First companions, story setup, tadpole introduction",
+    summary:
+      "The explosive opening of the game. Wake aboard a mind flayer ship under attack, recruit your first companions, and fight to the helm before the ship crashes.",
+    aiTip:
+      "Loot everything and free Shadowheart from her pod before reaching the helm — you can recruit her immediately and she carries a key story item.",
+    video: "https://www.youtube.com/watch?v=PAv1X-MfIWQ"
+  },
+  {
+    id: 201,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Defeat Ketheric Thorm",
+    location: "Moonrise Towers",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 2 finale, Netherstone, major story progression",
+    summary:
+      "The climactic multi-phase battle of Act 2. Assault Moonrise Towers, chase Ketheric into the Mind Flayer colony below, and face the Apostle of Myrkul.",
+    aiTip:
+      "Use the Restoration Pod near the final elevator to fully heal, and free Dame Aylin from her Soul Cage first — Ketheric is nearly invulnerable until you do.",
+    video: "https://www.youtube.com/watch?v=0mvmj0OLKII"
+  },
+  {
+    id: 202,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "Save Mayrina",
+    location: "Sunlit Wetlands / Riverside Teahouse",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique wand, hag rewards or bargains, story consequences",
+    summary:
+      "Confront Auntie Ethel the hag in her twisted lair beneath the teahouse to rescue the pregnant Mayrina. Full of illusions, moral traps, and one of Act 1's most memorable villains.",
+    aiTip:
+      "Ethel burns Mayrina's cage during the fight — douse it fast with water. Wearing the Whispering Mask in the lair is tempting but risky; remove it before the fight.",
+    video: "https://www.youtube.com/watch?v=5n4PJyVc5ow"
+  },
+  {
+    id: 203,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Starscourge Radahn",
+    location: "Redmane Castle / Caelid",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Starscourge, Great Rune, unlocks Nokron",
+    summary:
+      "Trigger the Radahn Festival at Redmane Castle and face the mightiest demigod on a massive battlefield where you can summon a small army of NPC allies.",
+    aiTip:
+      "Resummon fallen NPC allies constantly — they respawn via summon signs around the arena. Torrent is available, so use hit-and-run tactics during the meteor phase.",
+    video: "https://www.youtube.com/watch?v=eM5U791Oof0"
+  },
+  {
+    id: 204,
+    type: "side",
+    game: "Elden Ring",
+    title: "Sorceress Sellen's Questline",
+    location: "Waypoint Ruins, Sellia, Raya Lucaria",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Legendary sorceries (Comet Azur, Stars of Ruin), Witch's Glintstone Crown",
+    summary:
+      "Aid the outlawed sorceress Sellen in her forbidden pursuit of the primeval current. The quest spans hidden bodies, secret puzzle walls, and ends in a choice between Sellen and Witch-Hunter Jerren.",
+    aiTip:
+      "The quest has easy-to-miss steps gated behind defeating Radahn and Rennala. Look for the illusory wall in Sellia's cellar — it hides her true body.",
+    video: "https://www.youtube.com/watch?v=gjtKLzNi8cs"
+  },
+  {
+    id: 205,
+    type: "side",
+    game: "Elden Ring",
+    title: "Boc the Seamster's Questline",
+    location: "Limgrave to Altus Plateau",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Free garment alterations, gold sewing tools, emotional payoff",
+    summary:
+      "A humble talking bush in Limgrave turns out to be Boc, a demi-human seamster searching for purpose. Follow him across the Lands Between as he seeks to prove his worth.",
+    aiTip:
+      "Talk to the bush near Agheel Lake to start. Give him a Larval Tear only if you want the sad ending — telling him he's beautiful with the Mimic's Veil keeps him alive.",
+    video: "https://www.youtube.com/watch?v=YJGX2u-96ho"
   }
 ];
