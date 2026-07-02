@@ -367,7 +367,7 @@ const quests = [
       "Navigate the nightmarish prison of Latria to free a powerful witch. The tower is filled with mind flayer enemies, narrow walkways, and environmental traps.",
     aiTip:
       "Bring a ranged option and move slowly. The Mind Flayers can paralyze and one-shot you. Free Yuria's key from the guards first.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=IAMn_0_6IvY"
   },
   {
     id: 20,
@@ -381,7 +381,7 @@ const quests = [
       "An invisible crow on a high nest accepts item trades. Drop specific items and reload the area to receive rare rewards not available anywhere else.",
     aiTip:
       "Look up the trade list — some of the best rewards come from common items you might otherwise sell.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=Riigb2TiFFo"
   },
   {
     id: 21,
@@ -395,7 +395,7 @@ const quests = [
       "Meet a wandering warrior who challenges you to prove your worth. Completing his request unlocks one of the most powerful strength weapons in the game.",
     aiTip:
       "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=4QzsNkwfzIg"
   },
   {
     id: 22,
@@ -1311,7 +1311,7 @@ const quests = [
       "Rescue the holy man Saint Urbain from the depths of the Shrine of Storms. He's trapped in a pit surrounded by deadly shadow lurkers, and freeing him unlocks the game's most powerful defensive miracle.",
     aiTip:
       "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=th0qgF9VTsA"
   },
   {
     id: 86,
@@ -1325,7 +1325,7 @@ const quests = [
       "A mysterious woman in black appears in the Nexus at Pure Black Character Tendency and tasks you with assassinating every named NPC. A dark questline for players willing to sacrifice their allies for power.",
     aiTip:
       "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=L-uQipj4SKc"
   },
   {
     id: 87,
@@ -1339,7 +1339,7 @@ const quests = [
       "Encounter the treacherous Patches across multiple worlds as he repeatedly tries to trick you into traps. A recurring FromSoftware character who became a staple of the Souls series starting here.",
     aiTip:
       "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=rvLPhn9oh4k"
   },
   {
     id: 88,
@@ -2077,7 +2077,7 @@ const quests = [
       "Rescue the noble Ostrava repeatedly across three stages of Boletarian Palace. His questline ends in tragedy and rewards the key to the Mausoleum, which contains one of the game's most powerful weapon sets.",
     aiTip:
       "Rescue Ostrava every time you encounter him or he dies and the quest fails. Never invade him as a Black Phantom early — let the questline resolve naturally for the Mausoleum Key.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=8-_55ap2Q5s"
   },
   {
     id: 140,
@@ -2091,7 +2091,7 @@ const quests = [
       "Free the imprisoned sorcerer Sage Freke from the Tower of Latria. He becomes a spell vendor in the Nexus offering powerful magic unavailable elsewhere, making him essential for intelligence-build characters.",
     aiTip:
       "His cell key is held by the Mindflayer jailer on the second level. Clear surrounding enemies before grabbing the key — the jailers respawn and their paralysis can be lethal.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=XyzirgD-YOY"
   },
   {
     id: 141,
@@ -2119,7 +2119,7 @@ const quests = [
       "Defeat the Dragon God by using ballista traps in the arena rather than direct combat. One of the most creative boss fights in the game, requiring observation and patience rather than combat skill.",
     aiTip:
       "The Dragon God is effectively invincible to direct attacks early in the fight. Use the environment — activate the two ballista traps in sequence while avoiding its gaze to stun it for the kill.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=wFBFbLHL8CQ"
   },
   {
     id: 143,
@@ -2133,7 +2133,7 @@ const quests = [
       "Face the Old Monk boss who summons a real player to fight as the final encounter — a groundbreaking mechanic for its time. If no player is available, a Black Phantom NPC takes their place.",
     aiTip:
       "Prepare for a human opponent — they can use any build and will exploit your weaknesses. Keep a Fire Spray or Soul Ray ready as a ranged punish option.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=GpKMwv2AU1w"
   },
   {
     id: 144,
@@ -2147,7 +2147,7 @@ const quests = [
       "Confront Maiden Astraea, a saint who descended into the Valley of Defilement to care for the suffering. She and her guardian Garl Vinland present one of the most emotionally devastating boss encounters in FromSoftware history.",
     aiTip:
       "You can kill Garl Vinland first to make Astraea vulnerable, or you can talk to Astraea and she will take her own life. Neither method feels like a victory — that's the point.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/watch?v=k2chOJD9DoI"
   },
   {
     id: 145,
