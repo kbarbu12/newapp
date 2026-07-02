@@ -409,7 +409,7 @@ const quests = [
       "Follow a ghostly trail through the Forbidden Forest at night to uncover a hidden treasure. A short atmospheric quest that showcases the game's exploration.",
     aiTip:
       "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=ftHhNS_PJFw"
   },
   {
     id: 23,
@@ -423,7 +423,7 @@ const quests = [
       "Help a student recover their pet Niffler from a poacher hideout. The dungeon features puzzle-based combat rooms mixing spell types and environmental mechanics.",
     aiTip:
       "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=T8k6izOn6Bs"
   },
   {
     id: 24,
@@ -437,7 +437,7 @@ const quests = [
       "Solve a series of block-pushing puzzles hidden within Hogwarts to unlock additional gear capacity. One of the most useful side quests in the entire game.",
     aiTip:
       "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=48cEYhXFMrI"
   },
   {
     id: 25,
@@ -1353,7 +1353,7 @@ const quests = [
       "Follow a treasure map leading to a series of clues scattered across the Poidsear Coast. Each clue brings you closer to a hidden vault guarded by dark wizards and ancient enchantments.",
     aiTip:
       "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=G6qxi3c8_9I"
   },
   {
     id: 89,
@@ -1367,7 +1367,7 @@ const quests = [
       "Sebastian Sallow reveals a secret room beneath Hogwarts and begins teaching you forbidden magic. This questline spans the entire game and forces increasingly difficult moral choices about the Dark Arts.",
     aiTip:
       "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=fuvTMtslfCQ"
   },
   {
     id: 90,
@@ -1381,7 +1381,7 @@ const quests = [
       "Investigate disturbances in the Black Lake involving agitated Grindylows and a mystery beneath the water's surface. Features one of the game's most visually impressive underwater sequences.",
     aiTip:
       "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=HJWdEOHVZhk"
   },
   {
     id: 91,
@@ -1395,7 +1395,7 @@ const quests = [
       "Help Natsai Onai investigate Harlow's criminal operations and ultimately assault Falbarton Castle. The questline explores themes of justice, revenge, and the limits of doing what's right.",
     aiTip:
       "The castle assault is one of the harder combat encounters — stock up on potions and upgrade your combat plants. Use the environment for cover during the courtyard fight.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=oxCQJy9qGw0"
   },
   {
     id: 92,
@@ -2177,7 +2177,7 @@ const quests = [
       "Befriend Deek the house elf and unlock the ability to rescue magical beasts using a Nab-Sack. This quest opens the Vivarium in the Room of Requirement where you can care for animals and harvest upgrade materials.",
     aiTip:
       "Complete this early — beast materials are used to upgrade gear throughout the game. The Vivarium becomes a key resource hub, so setting it up promptly pays off.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=QJZOywqytyM"
   },
   {
     id: 147,
@@ -2191,7 +2191,7 @@ const quests = [
       "Complete a magical trial hidden within Rookwood Castle to master Ancient Magic Throw. The dungeon tests your understanding of the combat system through carefully designed puzzle-combat rooms.",
     aiTip:
       "Ancient Magic Throw lets you hurl enemy projectiles and environmental objects back at foes — it fundamentally changes combat. Learn the timing in the trial rooms before using it against tough enemies.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=0e1tDb6CnXg"
   },
   {
     id: 148,
@@ -2205,7 +2205,7 @@ const quests = [
       "Help Poppy Sweeting expose and confront the poacher ring exploiting magical creatures. The questline culminates in an encounter with a massive dragon and reveals the full extent of Rookwood's illegal operations.",
     aiTip:
       "Stock up on high-level potions before the final encounter. The dragon sequence is one of the most visually spectacular moments in the game — enjoy it but stay mobile.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=9qAEXqMhnGQ"
   },
   {
     id: 149,
@@ -2219,7 +2219,7 @@ const quests = [
       "Help a fisherman named Gil recover his stolen astrolabe from nesting diricawl birds near the Black Lake. A brief quest that teaches creature interaction mechanics and opens up boat travel along the lake.",
     aiTip:
       "Use Accio to retrieve the astrolabe from the nest rather than disturbing the birds directly. Completing this unlocks Gil's boat, which provides a faster travel route along the lakeshore.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=dQEkASZR7CY"
   },
   {
     id: 150,
@@ -2233,7 +2233,7 @@ const quests = [
       "Follow a set of clues involving a musical puzzle to unlock a secret treasure hidden within Clagmar Castle. The puzzle requires you to play specific musical notes in sequence using bells scattered around the area.",
     aiTip:
       "Write down the note sequence from the music box before approaching the bells — there's no in-game record of it. The sequence is fixed, not randomised.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=fftOxQH9tAE"
   },
   {
     id: 151,
@@ -2247,7 +2247,7 @@ const quests = [
       "Help the owner of Tomes and Scrolls recover books that have flown off the shelves using a levitation charm. This short quest teaches Wingardium Leviosa, an essential spell for environmental puzzles throughout the game.",
     aiTip:
       "Wingardium Leviosa is used constantly for puzzles and combat. Unlock it early and experiment with levitating different objects in the environment — some hide secrets.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=X_3qK9gvHoY"
   },
   {
     id: 152,
@@ -2261,7 +2261,7 @@ const quests = [
       "Locate and complete all astronomy table challenges scattered across the Hogwarts grounds and surrounding region. Each challenge requires visiting a specific location at the right time and completing a star-charting mini-game.",
     aiTip:
       "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
-    video: "https://www.youtube.com/watch?v=2D3l7JImSXU"
+    video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
   },
 
   // ── Metaphor: ReFantazio (additional) ─────────────────────────────────────
