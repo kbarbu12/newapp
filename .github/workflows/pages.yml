@@ -29,10 +29,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './ps5-rpg-sidequest-summarizer'
+          # unique per attempt so re-running a failed run doesn't create
+          # a duplicate "github-pages" artifact, which breaks deploy-pages
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          # Pages queue can be congested; default 10min timeout cancels
-          # deployments that would eventually succeed
-          timeout: 1800000
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
