@@ -2062,31 +2062,31 @@ const quests = [
     id: 126,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    title: "The Excavation Expert",
-    location: "Corel Desert",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Rare materia, Gil, chocobo upgrades",
+    title: "Lifeline in Peril",
+    location: "Grasslands / Kalm",
+    length: "short",
+    difficulty: "Low",
+    reward: "Party EXP, Kalm community standing",
     summary:
-      "Help a team of archaeologists excavating ancient ruins in the Corel Desert. The quest involves tracking down missing workers, solving environmental puzzles, and fending off desert monsters threatening the dig site.",
+      "Kalm's mako pipeline is failing and the mercenary hired to fix it needs backup. Gather repair materials across the Grasslands and escort Kyrie between damaged pipeline sections.",
     aiTip:
-      "Equip Lightning materia before heading in — the scorpion-type machines in the desert are weak to it. Completing all excavation objectives unlocks a bonus chest with rare equipment.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+      "Grab three Rusted Sheet Metals and five Corroded Nails before meeting Kyrie — it skips a return trip. The Noxicaps at the final site are weak to Fire.",
+    video: "https://www.youtube.com/watch?v=X3_hppsWl6A"
   },
   {
     id: 127,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    title: "Aerith's Cetra Vision",
-    location: "Cosmo Canyon",
+    title: "My White-Haired Angel",
+    location: "Nibel Region / Nibelheim",
     length: "medium",
     difficulty: "Low",
-    reward: "Relationship points with Aerith, Ancient lore",
+    reward: "Relationship points with Aerith, piano scene",
     summary:
-      "Aerith experiences visions of the Ancients near Cosmo Canyon's sacred sites. Follow her as she communes with the Planet, deepening Cloud's understanding of her heritage and the weight she carries.",
+      "Help a Nibelheim resident find Fluffy the missing cat, ending in one of the game's loveliest moments — Aerith performing her theme on the piano.",
     aiTip:
-      "This quest is heavily story-driven — focus on dialogue choices that show empathy. Your responses significantly affect the Aerith relationship score for the date scene.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+      "Practice the piano minigame beforehand; the quest's rendition of Aerith's Theme counts your performance. The cat likes quiet approaches.",
+    video: "https://www.youtube.com/watch?v=6OXlfEXagSw"
   },
   {
     id: 128,
@@ -2122,31 +2122,31 @@ const quests = [
     id: 130,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    title: "Gongaga Rescue Mission",
-    location: "Gongaga Region",
+    title: "When Words Won't Do",
+    location: "Junon Region / Crow's Nest",
     length: "medium",
     difficulty: "Medium",
-    reward: "Party EXP, Gongaga region Intel complete",
+    reward: "Party EXP, Barret relationship, unlocks The Hardest Sell",
     summary:
-      "Help the residents of Gongaga village deal with the dangerous wildlife that has overrun their region following the Mako reactor explosion. Multiple linked quests involving reconnaissance, rescue, and extermination.",
+      "Escort Rhonda's dog Salmon across the Junon region to deliver money to her son in Crow's Nest — a surprisingly heartfelt Barret-centric quest with real fights along the way.",
     aiTip:
-      "Complete the regional Intel before starting — it reveals enemy locations and makes the rescue objectives faster to complete. The boss creature has a weakness to Ice.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+      "Equip Aero materia before setting out: the Sandstorm Drakes guarding the final stretch are weak to Wind. Keep enemies off Salmon during escort fights.",
+    video: "https://www.youtube.com/watch?v=33WEPH7F1sA"
   },
   {
     id: 131,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    title: "Yuffie's Wutai Intel",
-    location: "Various Regions",
-    length: "long",
+    title: "The Hardest Sell",
+    location: "Junon Region / Abandoned Lighthouse",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Yuffie relationship points, rare materia, Wutai lore",
+    reward: "Party EXP, White Mousse boss fight",
     summary:
-      "Assist Yuffie in gathering intelligence about Shinra's activities across regions for her homeland Wutai. Her energetic approach to espionage makes for some of the game's funniest and most action-packed optional scenes.",
+      "Kyrie's advertising scheme at the abandoned lighthouse south of Crow's Nest attracts the wrong crowd. Clear waves of monsters and face the gelatinous White Mousse boss.",
     aiTip:
-      "Complete Yuffie's combat challenges in each region — they're fast and reward unique materia. Her affection score affects an optional scene in the Gold Saucer.",
-    video: "https://www.youtube.com/playlist?list=PLRr5L69yg_kHaW5zjEbZotm_2F9mP1fh5"
+      "White Mousse shifts elemental weaknesses as it changes color — match your spells to its current hue. Requires completing When Words Won't Do first.",
+    video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
   },
 
   // ── Cyberpunk 2077 (additional) ───────────────────────────────────────────
@@ -3891,5 +3891,155 @@ const quests = [
     aiTip:
       "Bring two Stonesword Keys. Equip your best gear BEFORE summoning — the mimic copies your current loadout, and it uses HP instead of FP to summon.",
     video: "https://www.youtube.com/watch?v=ZlmtbD_8SiU"
+  },
+  {
+    id: 244,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    title: "Dyne – All That Glitters",
+    location: "Chapter 8 – Corel Prison / Gold Saucer",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chapter 8 climax, Barret's defining story moment",
+    summary:
+      "Barret finally confronts his oldest friend and greatest regret beneath the Gold Saucer. A one-on-one duel that doubles as the emotional core of the Corel arc.",
+    aiTip:
+      "It's Barret solo — equip him with Fire materia (Dyne's only weakness) and use Maximum Fury to shred the scrap-metal body parts during Phantom Ray.",
+    video: "https://www.youtube.com/watch?v=UiUD4jaIFEY"
+  },
+  {
+    id: 245,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    title: "Sephiroth Reborn – End of the World",
+    location: "Chapter 14 – Edge of Creation",
+    length: "long",
+    difficulty: "High",
+    reward: "Game finale",
+    summary:
+      "The multi-phase finale that rotates through the entire party — and Zack — before Cloud and Aerith face Sephiroth's final form at the edge of creation.",
+    aiTip:
+      "Destroy the Wing and Masamune with magic when Whisper Cannon exposes them. Stack healing materia on Cloud and Aerith for the last phase.",
+    video: "https://www.youtube.com/watch?v=JMdc6ry7mi0"
+  },
+  {
+    id: 246,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    title: "Gilgamesh – The Ultimate Summon",
+    location: "Gilgamesh Island / Meridian Ocean",
+    length: "long",
+    difficulty: "High",
+    reward: "Gilgamesh summon materia, superboss trophy",
+    summary:
+      "Complete every region's Protorelic questline to unlock Gilgamesh Island and challenge the legendary sword collector himself — the game's ultimate superboss.",
+    aiTip:
+      "Come at level 70 with Fire builds. Perfect-block his attacks to pressure him into dropping weapons, and stagger him before his five-count Ultimate Illusion lands.",
+    video: "https://www.youtube.com/watch?v=hahMCMyXzSI"
+  },
+  {
+    id: 247,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    title: "Rulers of the Outer Worlds",
+    location: "Chadley's Combat Simulator",
+    length: "medium",
+    difficulty: "High",
+    reward: "Brutal challenge completion, elite gear",
+    summary:
+      "The combat simulator's most feared gauntlet: five rounds of paired summons — Titan, Bahamut Arisen, Alexander, Odin — capped by Gilgamesh and a virtual Sephiroth.",
+    aiTip:
+      "Kill Odin first in round three or Zantetsuken will end the run. Break Bahamut's wings during Particle Charge to interrupt its Gigaflare countdown.",
+    video: "https://www.youtube.com/watch?v=qq6Wj7qOh00"
+  },
+  {
+    id: 248,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "The Heist",
+    location: "Konpeki Plaza / City Center",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Relic, the story's inciting event",
+    summary:
+      "V and Jackie infiltrate Konpeki Plaza to steal Arasaka's experimental biochip. The night that changes everything — and gives V an unwanted passenger named Johnny Silverhand.",
+    aiTip:
+      "Loot Yorinobu's suite thoroughly (the iguana egg is here!) and don't rush the stealth section — the hotel turns hostile the moment the alarm trips.",
+    video: "https://www.youtube.com/watch?v=qbIs8-j1UmY"
+  },
+  {
+    id: 249,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Transmission",
+    location: "Pacifica / Voodoo Boys' Data Fortress",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Contact with Alt Cunningham, Johnny's backstory",
+    summary:
+      "Descend beneath the Pacifica chapel into the Voodoo Boys' netrunner den and dive past the Blackwall to meet the legendary Alt Cunningham.",
+    aiTip:
+      "Your NetWatch-or-Voodoo-Boys choice in I Walk the Line decides whether you leave peacefully or fight Placide's men on the way out — pick before you commit.",
+    video: "https://www.youtube.com/watch?v=e9pzvGVexsg"
+  },
+  {
+    id: 250,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Nocturne Op55N1 – Point of No Return",
+    location: "Embers / Misty's rooftop",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Access to every ending path",
+    summary:
+      "Dinner with Hanako Arasaka, then the rooftop with Misty: the single conversation that decides which of the game's endings you'll experience.",
+    aiTip:
+      "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
+    video: "https://www.youtube.com/watch?v=onmRkZZRMy0"
+  },
+  {
+    id: 251,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "(Don't Fear) The Reaper – Secret Ending",
+    location: "Arasaka Tower (solo assault)",
+    length: "long",
+    difficulty: "High",
+    reward: "The hidden ending — V and Johnny storm Arasaka alone",
+    summary:
+      "The game's true secret: earn Johnny's respect in Chippin' In, then stay silent on the rooftop for five minutes and he'll propose a two-man suicide run on Arasaka Tower. No allies, no second chances.",
+    aiTip:
+      "You must pick the exact 'friendship' dialogue at Johnny's grave in Chippin' In. Dying in the tower means game over — no respawn. Stock grenades and healing.",
+    video: "https://www.youtube.com/watch?v=gKr_dniHkyE"
+  },
+  {
+    id: 252,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Machine Gun – Skippy the Talking Pistol",
+    location: "Heywood / Vista del Rey alley",
+    length: "short",
+    difficulty: "Low",
+    reward: "Skippy, the self-aware iconic smart pistol",
+    summary:
+      "In a Heywood alley lies Skippy — a chirpy, singing, morally opinionated smart pistol. Use him for 50 kills and he demands to be returned to his original owner.",
+    aiTip:
+      "Choose 'Stone Cold Killer' mode when he asks — Skippy ironically switches to the pacifist setting permanently after 50 kills, and headshot mode is the one you want long-term.",
+    video: "https://www.youtube.com/watch?v=H8UbAFX9Xos"
+  },
+  {
+    id: 253,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    title: "Cyberpsycho Sightings – I Am The Law",
+    location: "All districts of Night City",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Regina's reward stream, I Am The Law achievement",
+    summary:
+      "Regina Jones tasks V with taking down all 17 cyberpsychos scattered across Night City — non-lethally if you can manage it. Each one is a mini boss fight with its own tragic story.",
+    aiTip:
+      "Use blunt weapons or short-circuit quickhacks to keep them alive; read each victim's shard afterward. Several only spawn after certain story progress.",
+    video: "https://www.youtube.com/watch?v=nYIw1huUd4Q"
   }
 ];
