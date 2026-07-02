@@ -793,7 +793,7 @@ const quests = [
       "Kawakami's exploitative former employers must have their hearts changed in Mementos. This request unlocks after reaching Rank 8 with the Temperance Confidant and is required to continue her storyline.",
     aiTip:
       "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=4ewz8qCh2rg"
   },
   {
     id: 49,
@@ -807,7 +807,7 @@ const quests = [
       "Mishima reports a kid terrorizing an arcade with impossible win streaks. The target Shadow Nejima evades all attacks on the first encounter, forcing you to return with help from Shinya Oda.",
     aiTip:
       "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=uB7YvEUtwxM"
   },
   {
     id: 50,
@@ -821,7 +821,7 @@ const quests = [
       "After dealing with a school bully in a prior request, Mishima discovers a master bully coercing others into tormenting students. Eavesdrop at the school gate to identify the target before heading to Mementos.",
     aiTip:
       "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=QiqnGBceMnQ"
   },
   {
     id: 51,
@@ -1465,7 +1465,7 @@ const quests = [
       "Build your relationship with Dr. Takuto Maruki, the new school counselor. His Confidant is the single most important side activity in Royal — reaching Rank 9 before November unlocks the entire third semester and true ending.",
     aiTip:
       "This is NON-NEGOTIABLE for the true ending. Prioritize Maruki above all other Confidants. You must reach Rank 9 by November 17th or you miss the best content in the game.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=_Hqs6ztq29s"
   },
   {
     id: 97,
@@ -1479,7 +1479,7 @@ const quests = [
       "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
     aiTip:
       "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=FdLgyv7Zmaw"
   },
   {
     id: 98,
@@ -1493,7 +1493,7 @@ const quests = [
       "Target a dangerous serial killer hiding deep in Mementos who has been eliminating witnesses. One of the more challenging Mementos requests featuring a Shadow with powerful instant-kill abilities.",
     aiTip:
       "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=bhECGheHrKc"
   },
   {
     id: 99,
@@ -1507,7 +1507,7 @@ const quests = [
       "Follow gymnast Kasumi Yoshizawa's story through her struggles with identity, loss, and self-worth. Her Confidant unfolds slowly but delivers one of Royal's biggest emotional and narrative surprises.",
     aiTip:
       "Her Confidant auto-progresses through story events until the third semester. Focus on the choices that show genuine support rather than empty encouragement.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=c_zQVGlTO-4"
   },
   {
     id: 100,
@@ -2463,7 +2463,7 @@ const quests = [
       "Rebuild Ryuji's relationship with his old track team after an injury derailed his athletic career. His Confidant explores themes of friendship, regret, and moving forward — and his ultimate ability Captain Kidd's upgrade is invaluable.",
     aiTip:
       "Rank up Ryuji's Confidant as early as possible — his Baton Pass upgrade lets him transfer turn momentum to other party members, one of the most powerful mechanics in the game.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=YdyzsLtsYjQ"
   },
   {
     id: 167,
@@ -2477,7 +2477,7 @@ const quests = [
       "Support Ann Takamaki as she pursues modelling and grapples with how she's perceived by others. Her Confidant explores self-worth and authenticity, and her support skills become some of the most useful healing abilities in the game.",
     aiTip:
       "Ann's insta-cure status effect ability at higher Confidant ranks is incredibly useful in late-game Palaces where status ailments become frequent. Prioritise it mid-game.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=SXZonGHQLRg"
   },
   {
     id: 168,
@@ -2491,7 +2491,7 @@ const quests = [
       "Help Futaba overcome her social anxiety and reconnect with the outside world through a series of increasingly adventurous outings. Her Confidant unlocks powerful Navigator abilities that give the whole party battle advantages.",
     aiTip:
       "Futaba's Navigator upgrades include enemy scanning, HP/SP recovery mid-battle, and follow-up attacks. Max her Confidant as soon as possible — these abilities save resources throughout late-game Palaces.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
   },
   {
     id: 169,
@@ -2505,7 +2505,7 @@ const quests = [
       "Build a relationship with Sojiro Sakura, Joker's guardian and the owner of Café Leblanc. His Confidant involves uncovering a painful secret about his past, and completing it teaches Joker to brew SP-restoring coffee and curry.",
     aiTip:
       "Sojiro's coffee and curry are among the best SP recovery items in the game — craft them regularly. His Confidant maxes out relatively quickly if you interact at the café frequently.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=AcnGlLoSd0Y"
   },
   {
     id: 170,
@@ -2533,7 +2533,7 @@ const quests = [
       "Help the mysterious airsoft shop owner Munehisa Iwai navigate yakuza entanglements threatening his family. His Confidant unlocks the ability to customise Phantom Thief equipment beyond standard upgrades.",
     aiTip:
       "Iwai's equipment customisation options include powerful attachments not available through standard shops. Raise his Confidant to at least Rank 7 before the late-game for the best customisation options.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=St2qV3aXJIk"
   },
   {
     id: 172,
@@ -2547,7 +2547,7 @@ const quests = [
       "Help reporter Ichiko Ohya find the truth about a conspiracy tied to the Phantom Thieves' activities. Her Confidant ability reduces Palace security level increases when Joker is spotted — a powerful quality-of-life upgrade for stealth play.",
     aiTip:
       "Ohya's security suppression ability is especially valuable in the later Palaces where being spotted triggers powerful Shadow reinforcements. Level her up before tackling Shido's Palace.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
+    video: "https://www.youtube.com/watch?v=e3kNa_G8_yQ"
   },
 
   // ── Ghost of Tsushima (additional) ────────────────────────────────────────
