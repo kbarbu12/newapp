@@ -751,7 +751,7 @@ const quests = [
       "Ratatoskr tasks Kratos with capturing six escaped Lindwyrms scattered across Svartalfheim and Vanaheim. The quest involves tracking down creatures in hidden locations across two realms while enjoying Ratatoskr's sharp-tongued banter.",
     aiTip:
       "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=O1bWR8i5Krg"
   },
   {
     id: 46,
@@ -765,7 +765,7 @@ const quests = [
       "Freya seeks to reclaim her Valkyrie title by defeating Gná, one of the toughest bosses in the game. This endgame favour tests your combat mastery in an intense one-on-one battle.",
     aiTip:
       "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=5HM0a3iCn_8"
   },
   {
     id: 47,
@@ -779,7 +779,7 @@ const quests = [
       "A brief but lore-rich favour at a large statue west of The Burrows in Alfheim. Kratos solves a light crystal puzzle to activate Freyr's monument while Mimir narrates the history of elven cooperation.",
     aiTip:
       "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=CxURjVeuuKA"
   },
   {
     id: 48,
@@ -835,7 +835,7 @@ const quests = [
       "This Mythic Tale sends Jin to the ruins of Old Yarikawa to confront a vengeful spirit. After finding pillars of white smoke and collecting offerings, a tense duel awaits in the Garden of the Gods.",
     aiTip:
       "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=0CR-bVq-xdA"
   },
   {
     id: 52,
@@ -849,7 +849,7 @@ const quests = [
       "A musician's tale leads Jin on a treasure hunt across painted landmarks to find the legendary Longbow of Uchitsune. Picking up the cursed weapon triggers a hallucination and a duel with a Tengu Demon.",
     aiTip:
       "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=6XQ45T4ruDQ"
   },
   {
     id: 53,
@@ -863,7 +863,7 @@ const quests = [
       "A nine-mission questline spanning all three regions of Tsushima following archery master Ishikawa as he tracks his former student Tomoe. The story is a poignant tale of betrayal, duty, and redemption.",
     aiTip:
       "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=ismSt2eMGdo"
   },
   {
     id: 54,
@@ -1409,7 +1409,7 @@ const quests = [
       "Investigate the dwarven mining operations in Svartalfheim and uncover the brutal conditions imposed by Odin's regime. A quest chain that deepens the world-building around dwarven culture and resistance.",
     aiTip:
       "Complete the optional dock areas for crafting materials. Lunda's armor set inflicts Poison on parry — one of the best early armor options.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=64sie5KvlWU"
   },
   {
     id: 93,
@@ -1423,7 +1423,7 @@ const quests = [
       "Help the Vanir resistance fight back against Asgardian occupation in Vanaheim's massive Crater region. This sprawling favour chain opens up one of the game's largest optional areas with day/night cycle mechanics.",
     aiTip:
       "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=6PdPpJlonMM"
   },
   {
     id: 94,
@@ -1437,7 +1437,7 @@ const quests = [
       "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
     aiTip:
       "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=QHVV4jmX0N4"
   },
   {
     id: 95,
@@ -1451,7 +1451,7 @@ const quests = [
       "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
     aiTip:
       "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=QHVV4jmX0N4"
   },
   {
     id: 96,
@@ -1521,7 +1521,7 @@ const quests = [
       "Track down the legendary armor of the archer Tadayori by following clues across Izuhara. The quest culminates in a duel against a ronin guarding the armor's resting place — a test of your ranged combat skills.",
     aiTip:
       "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=0WV7wgGfe-g"
   },
   {
     id: 101,
@@ -1535,7 +1535,7 @@ const quests = [
       "A Mythic Tale that teaches Jin a devastating unblockable attack. Follow a musician's directions to a hidden dojo where you must prove your swordsmanship through a series of increasingly difficult combat trials.",
     aiTip:
       "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=SDRtxDz7Duc"
   },
   {
     id: 102,
@@ -1549,7 +1549,7 @@ const quests = [
       "A nine-part questline following the elderly warrior Lady Masako as she hunts down those responsible for the massacre of her entire family. A revenge story that explores grief, obsession, and whether vengeance can ever bring peace.",
     aiTip:
       "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=Uw12nUwnKWM"
   },
   {
     id: 103,
@@ -1563,7 +1563,7 @@ const quests = [
       "Liberate six occupied farmsteads across Toyotama to collect keys that unlock the legendary armor of the warrior Gosaku. Each farmstead is a combat encounter with Mongol forces, building toward the armor's hidden shrine.",
     aiTip:
       "Gosaku's Armor restores health on staggered kills — it's arguably the best combat armor. The six farmsteads are spread across the map; liberate them as you explore naturally.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=MATxmNS9GxY"
   },
   {
     id: 104,
@@ -2363,7 +2363,7 @@ const quests = [
       "Help Freya reconnect with her homeland Vanaheim and begin healing from her traumatic past with Odin. A quieter quest focused on character development that deepens Freya's arc beyond her role as a combat companion.",
     aiTip:
       "Exhaust all dialogue options during the quiet moments — Freya's backstory is delivered through these scenes. Completing her personal quests unlocks combat dialogue upgrades.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=LkmFAuvkxVQ"
   },
   {
     id: 160,
@@ -2377,7 +2377,7 @@ const quests = [
       "Investigate a series of strange occurrences in Midgard that seem connected to hidden Asgardian activity. A short favour chain that rewards exploration and environmental observation.",
     aiTip:
       "Use Atreus's ability to read rune inscriptions throughout the area — they point to hidden compartments. The Muspelheim Seed piece is crucial for unlocking endgame challenge content.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=w7nx2a8ocmg"
   },
   {
     id: 161,
@@ -2391,7 +2391,7 @@ const quests = [
       "Track down all 48 of Odin's Ravens hidden across the Nine Realms and return to the Raven Tree in Niflheim for escalating rewards. The ravens glow green and emit a distinct sound — but some are hidden in very obscure locations.",
     aiTip:
       "Use the map to track which realms have ravens remaining. Some ravens are only accessible after completing story missions that open new areas. The final reward set is among the best armour in the game.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=7BgCbCDpm6c"
   },
   {
     id: 162,
@@ -2419,7 +2419,7 @@ const quests = [
       "Complete a series of escalating combat challenges in the fiery realm of Muspelheim to earn Chaos Flames for upgrading the Blades of Chaos. Six initial trials lead to harder Surtr's Crucible challenges for the best rewards.",
     aiTip:
       "Complete the six initial trials before attempting Surtr's Crucible. Lunda's Poison armour works exceptionally well here — poison on parry shreds through the challenge health gates.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=YnnRcfIMHNA"
   },
   {
     id: 164,
@@ -2447,7 +2447,7 @@ const quests = [
       "Investigate a curse affecting the Valkyries that has left them trapped between worlds. The quest chain leads to several powerful Valkyrie mini-bosses and uncovers the connection between Odin's manipulation and their imprisonment.",
     aiTip:
       "Each Valkyrie has unique attack patterns — observe before committing to aggression. Shield parry timing is critical; learn to deflect their wing attacks for free damage windows.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/watch?v=JmBTiG6pCfk"
   },
 
   // ── Persona 5 Royal (additional) ──────────────────────────────────────────
@@ -2563,7 +2563,7 @@ const quests = [
       "Hunt down six legendary swordsmen — the surviving members of the Straw Hat Ronin gang — across Tsushima. Each duel is a unique challenge that tests a different aspect of your sword mastery.",
     aiTip:
       "Face the six blades in order of difficulty — the final duel with Kojiro himself is one of the hardest fights in the base game. The Kensei Armor enhances Ghost Stance, making this questline doubly rewarding.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=LfHsYzm3Zp4"
   },
   {
     id: 174,
@@ -2577,7 +2577,7 @@ const quests = [
       "Follow the legend of Gosaku the farmer-warrior and uncover hidden shrines that reveal his story. The tale of a common man who stood against overwhelming odds mirrors Jin's own struggle and adds weight to the Gosaku Armor questline.",
     aiTip:
       "The shrines are well-hidden — use Guiding Wind frequently. Reading Gosaku's story in full provides buffs at each shrine that make the final farmstead liberations slightly easier.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=bWe2G16Hsks"
   },
   {
     id: 175,
@@ -2591,7 +2591,7 @@ const quests = [
       "Accompany the warrior monk Norio as he tracks down the Mongol commander responsible for destroying his temple and killing his brother. A quest about faith, vengeance, and whether peace of mind can be found through violence.",
     aiTip:
       "Complete all three of Norio's companion missions in sequence. The final confrontation has a meaningful choice — both options have emotional weight depending on your interpretation of Norio's journey.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=NFIy0-yiTg4"
   },
   {
     id: 176,
@@ -2605,7 +2605,7 @@ const quests = [
       "Confront the Mongol general Dokhoi who committed atrocities against the people of Kamiagata. A large-scale assault requiring stealth infiltration followed by intense open combat as Jin's legend reaches its peak.",
     aiTip:
       "Scout the encampment fully before engaging — use the Ghost stance to eliminate key targets early. The general himself fights with two weapons simultaneously; watch for the stance changes.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/watch?v=F2duQ_Yt3zk"
   },
   {
     id: 177,
