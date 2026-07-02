@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI Options Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+
+    /* ── Tab switcher ── */
+    .tab-bar {
+      display: flex;
+      gap: 0;
+      background: #1a1d2e;
+      border-bottom: 2px solid #2d3048;
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .tab {
+      padding: 1rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #94a3b8;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      transition: all 0.2s;
+    }
+    .tab.active { color: #6c8cff; border-bottom-color: #6c8cff; }
+    .tab:hover:not(.active) { color: #e2e8f0; }
+
+    .panel { display: none; padding: 2rem; max-width: 1100px; margin: 0 auto; }
+    .panel.active { display: block; }
+
+    .option-label {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 0.3rem;
+      color: #fff;
+    }
+    .option-desc {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+
+    /* ── Shared card styles ── */
+    .quest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.2rem;
+    }
+    .quest-card {
+      background: #1a1d2e;
+      border: 1px solid #2d3048;
+      border-radius: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .quest-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(108,140,255,0.18);
+      border-color: #6c8cff;
+    }
+    .card-banner {
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+    .card-body { padding: 1rem 1.1rem 1.2rem; }
+    .card-topline { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+    .game-name { font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
+    .pill { font-size: 0.68rem; padding: 0.2rem 0.6rem; border-radius: 99px; font-weight: 600; text-transform: capitalize; }
+    .pill.short { background: rgba(74,222,128,0.15); color: #4ade80; }
+    .pill.medium { background: rgba(251,191,36,0.15); color: #fbbf24; }
+    .pill.long { background: rgba(248,113,113,0.15); color: #f87171; }
+    .card-body h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .difficulty-badge { font-size: 0.65rem; padding: 0.15rem 0.5rem; border-radius: 6px; margin-left: 0.4rem; font-weight: 600; vertical-align: middle; }
+    .difficulty-badge.low { background: rgba(74,222,128,0.15); color: #4ade80; }
+    .difficulty-badge.medium { background: rgba(251,191,36,0.15); color: #fbbf24; }
+    .difficulty-badge.high { background: rgba(248,113,113,0.15); color: #f87171; }
+    .meta { font-size: 0.78rem; color: #94a3b8; margin-bottom: 0.3rem; }
+    .summary-text { font-size: 0.82rem; color: #cbd5e1; line-height: 1.55; margin: 0.5rem 0; }
+    .tip-box { background: rgba(108,140,255,0.08); border-left: 3px solid #6c8cff; padding: 0.6rem 0.8rem; border-radius: 0 8px 8px 0; margin: 0.6rem 0; font-size: 0.78rem; color: #a5b4fc; }
+    .reward { font-size: 0.78rem; color: #fbbf24; }
+
+    /* click hint */
+    .click-hint {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.72rem;
+      color: #6c8cff;
+      margin-top: 0.7rem;
+      opacity: 0.7;
+    }
+
+    /* ── OPTION A: Modal ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: #1a1d2e;
+      border: 1px solid #2d3048;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 640px;
+      max-height: 90vh;
+      overflow-y: auto;
+      animation: slideUp 0.25s ease;
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .modal-banner {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      border-radius: 20px 20px 0 0;
+      position: relative;
+    }
+    .modal-close {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .modal-body { padding: 1.5rem 1.8rem 2rem; }
+    .modal-game { font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .modal-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 1rem; }
+    .modal-meta-row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .modal-summary { font-size: 0.9rem; color: #cbd5e1; line-height: 1.6; margin-bottom: 1rem; }
+    .modal-tip { background: rgba(108,140,255,0.08); border-left: 3px solid #6c8cff; padding: 0.8rem 1rem; border-radius: 0 8px 8px 0; margin-bottom: 1rem; font-size: 0.85rem; color: #a5b4fc; }
+    .modal-reward { font-size: 0.85rem; color: #fbbf24; margin-bottom: 1.4rem; }
+
+    .modal-actions { display: flex; flex-direction: column; gap: 0.7rem; }
+    .btn-video {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      background: #e53e3e; color: #fff;
+      padding: 0.7rem 1.2rem; border-radius: 10px;
+      font-size: 0.9rem; font-weight: 600; text-decoration: none;
+      border: none; cursor: pointer;
+    }
+    .btn-buy {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      background: linear-gradient(135deg, #6c8cff, #a78bfa);
+      color: #fff;
+      padding: 0.7rem 1.2rem; border-radius: 10px;
+      font-size: 0.9rem; font-weight: 600; text-decoration: none;
+      border: none; cursor: pointer;
+    }
+    .buy-note { font-size: 0.7rem; opacity: 0.5; text-align: center; }
+
+    .related-title { font-size: 0.85rem; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin: 1.4rem 0 0.7rem; }
+    .related-list { display: flex; flex-direction: column; gap: 0.4rem; }
+    .related-item {
+      background: #12141f;
+      border: 1px solid #2d3048;
+      border-radius: 8px;
+      padding: 0.55rem 0.9rem;
+      font-size: 0.82rem;
+      cursor: pointer;
+      color: #a5b4fc;
+      transition: background 0.15s;
+    }
+    .related-item:hover { background: #1e2238; }
+
+    /* ── OPTION B: Hash / detail page ── */
+    .page-view { display: none; }
+    .page-view.active { display: block; }
+
+    .browser-bar {
+      background: #12141f;
+      border: 1px solid #2d3048;
+      border-radius: 10px 10px 0 0;
+      padding: 0.6rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-size: 0.78rem;
+      color: #94a3b8;
+    }
+    .browser-dots { display: flex; gap: 5px; }
+    .browser-dots span { width: 10px; height: 10px; border-radius: 50%; }
+    .dot-r { background: #f87171; }
+    .dot-y { background: #fbbf24; }
+    .dot-g { background: #4ade80; }
+    .browser-url {
+      flex: 1;
+      background: #1a1d2e;
+      border: 1px solid #2d3048;
+      border-radius: 6px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.75rem;
+      color: #a5b4fc;
+    }
+
+    .detail-page {
+      background: #12141f;
+      border: 1px solid #2d3048;
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+      overflow: hidden;
+    }
+    .detail-hero {
+      background: linear-gradient(135deg, #1a0533 0%, #0f1117 60%);
+      padding: 3rem 2rem 2rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .detail-hero-icon { font-size: 5rem; flex-shrink: 0; }
+    .detail-hero-text { flex: 1; }
+    .detail-breadcrumb { font-size: 0.75rem; color: #6c8cff; margin-bottom: 0.6rem; }
+    .detail-breadcrumb a { color: #6c8cff; text-decoration: none; }
+    .detail-title { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.7rem; }
+    .detail-badges { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+    .detail-meta { font-size: 0.82rem; color: #94a3b8; }
+
+    .detail-body { padding: 2rem; display: grid; grid-template-columns: 1fr 280px; gap: 2rem; }
+    .detail-main h2 { font-size: 1rem; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.6rem; }
+    .detail-main p { font-size: 0.9rem; color: #cbd5e1; line-height: 1.65; margin-bottom: 1.4rem; }
+    .detail-tip { background: rgba(108,140,255,0.08); border-left: 3px solid #6c8cff; padding: 0.8rem 1rem; border-radius: 0 8px 8px 0; font-size: 0.88rem; color: #a5b4fc; margin-bottom: 1.4rem; }
+
+    .detail-sidebar { display: flex; flex-direction: column; gap: 1rem; }
+    .sidebar-card {
+      background: #1a1d2e;
+      border: 1px solid #2d3048;
+      border-radius: 12px;
+      padding: 1.1rem 1.2rem;
+    }
+    .sidebar-card h3 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 0.8rem; }
+    .sidebar-card .reward-val { font-size: 0.9rem; color: #fbbf24; font-weight: 600; }
+
+    .btn-video-lg, .btn-buy-lg {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 0.75rem 1rem; border-radius: 10px;
+      font-size: 0.88rem; font-weight: 700; text-decoration: none;
+      border: none; cursor: pointer; width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    .btn-video-lg { background: #e53e3e; color: #fff; }
+    .btn-buy-lg { background: linear-gradient(135deg, #6c8cff, #a78bfa); color: #fff; }
+    .affiliate-note { font-size: 0.68rem; opacity: 0.45; text-align: center; margin-top: 0.3rem; }
+
+    .back-btn {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: #1a1d2e; border: 1px solid #2d3048;
+      color: #a5b4fc; padding: 0.5rem 1rem; border-radius: 8px;
+      font-size: 0.82rem; font-weight: 600; cursor: pointer; margin-bottom: 1.5rem;
+      transition: background 0.15s;
+    }
+    .back-btn:hover { background: #2d3048; }
+
+    /* ── Grouping section (always shown at top) ── */
+    .group-demo { margin-bottom: 3rem; }
+    .group-heading {
+      display: flex; align-items: center; gap: 1rem;
+      margin: 2rem 0 1rem;
+    }
+    .group-heading h2 { font-size: 1.05rem; font-weight: 800; color: #e2e8f0; white-space: nowrap; }
+    .group-heading .line { flex: 1; height: 1px; background: #2d3048; }
+    .group-heading .count { font-size: 0.75rem; color: #94a3b8; }
+
+    /* ── Promo note ── */
+    .promo {
+      background: linear-gradient(135deg, rgba(108,140,255,0.1), rgba(167,139,250,0.1));
+      border: 1px solid rgba(108,140,255,0.25);
+      border-radius: 12px;
+      padding: 1rem 1.3rem;
+      margin-bottom: 2rem;
+      font-size: 0.85rem;
+      color: #a5b4fc;
+    }
+    .promo strong { color: #fff; }
+  </style>
+</head>
+<body>
+
+<div class="tab-bar">
+  <div class="tab active" onclick="switchTab('grouping')">Game Grouping (both options)</div>
+  <div class="tab" onclick="switchTab('modal')">Option A — Modal</div>
+  <div class="tab" onclick="switchTab('hashpage')">Option B — Detail Page</div>
+</div>
+
+<!-- ════════════════════════════════════════
+     GROUPING DEMO
+════════════════════════════════════════ -->
+<div id="tab-grouping" class="panel active">
+  <div class="option-label">Game Grouping (applies to both options)</div>
+  <div class="option-desc">When "All games" is selected, quests are divided by game with headings instead of one flat list.</div>
+
+  <div class="group-demo">
+    <div class="group-heading">
+      <h2>⚔️ Elden Ring</h2>
+      <div class="line"></div>
+      <span class="count">15 quests</span>
+    </div>
+    <div class="quest-grid">
+      <div class="quest-card" onclick="alert('Opens modal or detail page')">
+        <div class="card-banner" style="background:linear-gradient(135deg,#2d1b00,#0f1117)">🗡️</div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="game-name">Elden Ring</span>
+            <span class="pill medium">Medium</span>
+          </div>
+          <h3>Ranni the Witch <span class="difficulty-badge medium">Medium</span></h3>
+          <p class="meta"><strong>Location:</strong> Ranni's Rise, Liurnia</p>
+          <p class="summary-text">Aid the mysterious lunar witch Ranni on her quest to claim the power of the Rune of Death...</p>
+          <div class="click-hint">👆 Click to see full details</div>
+        </div>
+      </div>
+      <div class="quest-card" onclick="alert('Opens modal or detail page')">
+        <div class="card-banner" style="background:linear-gradient(135deg,#1a1200,#0f1117)">🏹</div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="game-name">Elden Ring</span>
+            <span class="pill long">Long</span>
+          </div>
+          <h3>Millicent <span class="difficulty-badge high">High</span></h3>
+          <p class="meta"><strong>Location:</strong> Caelid, Altus Plateau</p>
+          <p class="summary-text">Help Millicent, afflicted by Scarlet Rot, on her journey to reclaim her arm...</p>
+          <div class="click-hint">👆 Click to see full details</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="group-heading">
+      <h2>🎲 Baldur's Gate 3</h2>
+      <div class="line"></div>
+      <span class="count">15 quests</span>
+    </div>
+    <div class="quest-grid">
+      <div class="quest-card" onclick="alert('Opens modal or detail page')">
+        <div class="card-banner" style="background:linear-gradient(135deg,#1a0a2e,#0f1117)">🧙</div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="game-name">Baldur's Gate 3</span>
+            <span class="pill medium">Medium</span>
+          </div>
+          <h3>Astarion's Pale Elf <span class="difficulty-badge medium">Medium</span></h3>
+          <p class="meta"><strong>Location:</strong> Baldur's Gate</p>
+          <p class="summary-text">Help Astarion confront his past and decide the fate of the vampire spawn...</p>
+          <div class="click-hint">👆 Click to see full details</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     OPTION A — MODAL
+════════════════════════════════════════ -->
+<div id="tab-modal" class="panel">
+  <div class="option-label">Option A — Modal overlay</div>
+  <div class="option-desc">Click any quest card → a pop-up opens with full details, video walkthrough button, and a "Buy this game" affiliate link. Everything stays on the same page.</div>
+
+  <div class="promo">
+    <strong>Click a card below</strong> to see the modal in action.
+  </div>
+
+  <div class="quest-grid">
+    <div class="quest-card" onclick="openModal('ranni')">
+      <div class="card-banner" style="background:linear-gradient(135deg,#2d1b00,#0f1117)">🗡️</div>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="game-name">Elden Ring</span>
+          <span class="pill medium">Medium</span>
+        </div>
+        <h3>Ranni the Witch <span class="difficulty-badge medium">Medium</span></h3>
+        <p class="meta"><strong>Location:</strong> Ranni's Rise, Liurnia</p>
+        <p class="summary-text">Aid the mysterious lunar witch on her quest to claim the power of the Rune of Death...</p>
+        <div class="click-hint">👆 Click for full details</div>
+      </div>
+    </div>
+
+    <div class="quest-card" onclick="openModal('astarion')">
+      <div class="card-banner" style="background:linear-gradient(135deg,#1a0a2e,#0f1117)">🧙</div>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="game-name">Baldur's Gate 3</span>
+          <span class="pill long">Long</span>
+        </div>
+        <h3>Astarion's Pale Elf <span class="difficulty-badge high">High</span></h3>
+        <p class="meta"><strong>Location:</strong> Baldur's Gate</p>
+        <p class="summary-text">Help Astarion confront his dark past and decide the fate of the vampire spawn ritual...</p>
+        <div class="click-hint">👆 Click for full details</div>
+      </div>
+    </div>
+
+    <div class="quest-card" onclick="openModal('witcher')">
+      <div class="card-banner" style="background:linear-gradient(135deg,#001a0a,#0f1117)">🐺</div>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="game-name">The Witcher 3</span>
+          <span class="pill short">Short</span>
+        </div>
+        <h3>A Towerful of Mice <span class="difficulty-badge low">Low</span></h3>
+        <p class="meta"><strong>Location:</strong> Fyke Isle, Velen</p>
+        <p class="summary-text">Investigate a haunted tower on Fyke Isle and unravel the tragedy that befell its inhabitants...</p>
+        <div class="click-hint">👆 Click for full details</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     OPTION B — HASH / DETAIL PAGE
+════════════════════════════════════════ -->
+<div id="tab-hashpage" class="panel">
+  <div class="option-label">Option B — Detail page (URL-based)</div>
+  <div class="option-desc">Click a card → the URL changes to <code style="background:#1a1d2e;padding:0.1rem 0.4rem;border-radius:4px;font-size:0.82rem">#quest-1</code> and a full quest detail page slides in. Shareable URLs, better for SEO. Back button returns to the list.</div>
+
+  <div class="promo">
+    <strong>Click a card below</strong> to see the detail page in action.
+  </div>
+
+  <!-- List view -->
+  <div id="list-view">
+    <div class="quest-grid">
+      <div class="quest-card" onclick="openDetail('ranni')">
+        <div class="card-banner" style="background:linear-gradient(135deg,#2d1b00,#0f1117)">🗡️</div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="game-name">Elden Ring</span>
+            <span class="pill medium">Medium</span>
+          </div>
+          <h3>Ranni the Witch <span class="difficulty-badge medium">Medium</span></h3>
+          <p class="meta"><strong>Location:</strong> Ranni's Rise, Liurnia</p>
+          <p class="summary-text">Aid the mysterious lunar witch on her quest to claim the power of the Rune of Death...</p>
+          <div class="click-hint">👆 Click for full page</div>
+        </div>
+      </div>
+
+      <div class="quest-card" onclick="openDetail('astarion')">
+        <div class="card-banner" style="background:linear-gradient(135deg,#1a0a2e,#0f1117)">🧙</div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="game-name">Baldur's Gate 3</span>
+            <span class="pill long">Long</span>
+          </div>
+          <h3>Astarion's Pale Elf <span class="difficulty-badge high">High</span></h3>
+          <p class="meta"><strong>Location:</strong> Baldur's Gate</p>
+          <p class="summary-text">Help Astarion confront his dark past and decide the fate of the vampire spawn ritual...</p>
+          <div class="click-hint">👆 Click for full page</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail view -->
+  <div id="detail-view" class="page-view">
+    <div class="browser-bar">
+      <div class="browser-dots">
+        <span class="dot-r"></span>
+        <span class="dot-y"></span>
+        <span class="dot-g"></span>
+      </div>
+      <div class="browser-url" id="url-bar">rpgquestguide.com/#quest-1</div>
+    </div>
+    <div class="detail-page">
+      <div class="detail-hero" id="detail-hero">
+        <div class="detail-hero-icon" id="detail-icon">🗡️</div>
+        <div class="detail-hero-text">
+          <div class="detail-breadcrumb"><a href="#">RPG Quest Guide</a> › <span id="detail-game-bc">Elden Ring</span></div>
+          <div class="detail-title" id="detail-title">Ranni the Witch</div>
+          <div class="detail-badges" id="detail-badges">
+            <span class="pill medium">Medium</span>
+            <span class="difficulty-badge medium">Medium</span>
+          </div>
+          <div class="detail-meta" id="detail-meta">📍 Ranni's Rise, Liurnia</div>
+        </div>
+      </div>
+      <div class="detail-body">
+        <div class="detail-main">
+          <button class="back-btn" onclick="closeDetail()">← Back to all quests</button>
+          <h2>Quest Summary</h2>
+          <p id="detail-summary">Aid the mysterious lunar witch Ranni on her quest to claim the power of the Rune of Death. Follow her across multiple regions, defeat Starscourge Radahn to unlock a meteor event, explore Nokron and Ainsel River, and ultimately witness the Age of Stars ending.</p>
+          <h2>AI Tip</h2>
+          <div class="detail-tip" id="detail-tip">Don't miss the Fingerslayer Blade in Nokron — it's essential to progress Ranni's quest. Exhaust all her dialogue at each step.</div>
+          <h2>Reward</h2>
+          <p class="reward" id="detail-reward" style="color:#fbbf24">🏆 Dark Moon Greatsword, Age of Stars ending</p>
+        </div>
+        <div class="detail-sidebar">
+          <div class="sidebar-card">
+            <h3>Watch Walkthrough</h3>
+            <a class="btn-video-lg" href="#" onclick="return false;">▶ Watch on YouTube</a>
+            <p style="font-size:0.7rem;opacity:0.4;text-align:center">Video by its creator — not affiliated with RPG Quest Guide</p>
+          </div>
+          <div class="sidebar-card">
+            <h3>Get this game</h3>
+            <a class="btn-buy-lg" href="#" onclick="return false;">🛒 Buy on Amazon</a>
+            <a class="btn-buy-lg" href="#" onclick="return false;" style="background:linear-gradient(135deg,#16a34a,#15803d);margin-top:0">🎮 Buy on GOG</a>
+            <p class="affiliate-note">Affiliate links — we earn a small commission at no extra cost to you.</p>
+          </div>
+          <div class="sidebar-card">
+            <h3>More Elden Ring Quests</h3>
+            <div class="related-list">
+              <div class="related-item">Millicent →</div>
+              <div class="related-item">Patches →</div>
+              <div class="related-item">Hyetta →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ MODAL ════════════════ -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modalBox">
+    <div class="modal-banner" id="modalBanner">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <span id="modalIcon" style="font-size:4rem">🗡️</span>
+    </div>
+    <div class="modal-body">
+      <div class="modal-game" id="modalGame">Elden Ring</div>
+      <div class="modal-title" id="modalTitle">Ranni the Witch</div>
+      <div class="modal-meta-row" id="modalBadges">
+        <span class="pill medium">Medium</span>
+        <span class="difficulty-badge medium">Medium</span>
+        <span style="font-size:0.78rem;color:#94a3b8">📍 Ranni's Rise</span>
+      </div>
+      <p class="modal-summary" id="modalSummary">Aid the mysterious lunar witch Ranni on her quest to claim the power of the Rune of Death. Follow her across multiple regions and unlock a hidden Age of Stars ending.</p>
+      <div class="modal-tip" id="modalTip"><strong>💡 Tip:</strong> Don't miss the Fingerslayer Blade in Nokron — it's essential to progress the quest. Exhaust all dialogue.</div>
+      <div class="modal-reward" id="modalReward">🏆 Reward: Dark Moon Greatsword, Age of Stars ending</div>
+      <div class="modal-actions">
+        <a class="btn-video" href="#" onclick="return false;">▶ Watch Walkthrough on YouTube</a>
+        <a class="btn-buy" href="#" onclick="return false;">🛒 Buy this game on Amazon</a>
+        <p class="buy-note">Affiliate link — we earn a small commission at no extra cost to you</p>
+      </div>
+      <div class="related-title" id="relatedTitle">More Elden Ring quests</div>
+      <div class="related-list">
+        <div class="related-item">Millicent →</div>
+        <div class="related-item">Patches →</div>
+        <div class="related-item">Hyetta →</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var quests = {
+    ranni: {
+      icon: '🗡️', game: 'Elden Ring', title: 'Ranni the Witch',
+      length: 'medium', difficulty: 'Medium', diffClass: 'medium',
+      location: 'Ranni\'s Rise, Liurnia',
+      summary: 'Aid the mysterious lunar witch Ranni on her quest to claim the power of the Rune of Death. Follow her across multiple regions, defeat Starscourge Radahn to unlock a meteor event, explore Nokron and Ainsel River, and ultimately witness the Age of Stars ending.',
+      tip: 'Don\'t miss the Fingerslayer Blade in Nokron — it\'s essential to progress. Exhaust all her dialogue at each step.',
+      reward: 'Dark Moon Greatsword, Age of Stars ending',
+      gradient: 'linear-gradient(135deg,#2d1b00,#0f1117)',
+      related: ['Millicent', 'Patches', 'Hyetta'],
+      url: 'rpgquestguide.com/#quest-2'
+    },
+    astarion: {
+      icon: '🧙', game: 'Baldur\'s Gate 3', title: 'Astarion\'s Pale Elf',
+      length: 'long', difficulty: 'High', diffClass: 'high',
+      location: 'Baldur\'s Gate, Act 3',
+      summary: 'Help Astarion confront his centuries of servitude under the vampire lord Cazador. Navigate a complex moral choice: let Astarion complete the Rite of Profane Ascension to become a powerful Vampire Ascendant, or convince him to free all the vampire spawn instead.',
+      tip: 'Your choice here permanently changes Astarion\'s personality and abilities. Ascendant gives power but changes him darkly. Freeing the spawn is the "good" path.',
+      reward: 'Astarion companion quest resolved, unique story outcomes',
+      gradient: 'linear-gradient(135deg,#1a0a2e,#0f1117)',
+      related: ['Shadowheart\'s Past', 'Wyll\'s Pact', 'Gale\'s Ambition'],
+      url: 'rpgquestguide.com/#quest-112'
+    },
+    witcher: {
+      icon: '🐺', game: 'The Witcher 3', title: 'A Towerful of Mice',
+      length: 'short', difficulty: 'Low', diffClass: 'low',
+      location: 'Fyke Isle, Velen',
+      summary: 'Keira Metz sends Geralt to retrieve a magical parcel from a plague-ridden tower on Fyke Isle. Upon arrival, Geralt discovers the tower is haunted by the ghost of a nobleman\'s daughter and must uncover the tragic events that unfolded there.',
+      tip: 'Agree to help the spirit Anabelle — it leads to a better outcome than refusing. Bring the skull to Graham on the mainland.',
+      reward: 'XP, Keira Metz relationship advancement',
+      gradient: 'linear-gradient(135deg,#001a0a,#0f1117)',
+      related: ['Witches\' Sabbath', 'Possession', 'In the Heart of the Woods'],
+      url: 'rpgquestguide.com/#quest-17'
+    }
+  };
+
+  function switchTab(id) {
+    document.querySelectorAll('.tab').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+    event.target.classList.add('active');
+    document.getElementById('tab-' + id).classList.add('active');
+  }
+
+  function openModal(key) {
+    var q = quests[key];
+    document.getElementById('modalBanner').style.background = q.gradient;
+    document.getElementById('modalIcon').textContent = q.icon;
+    document.getElementById('modalGame').textContent = q.game;
+    document.getElementById('modalTitle').textContent = q.title;
+    document.getElementById('modalBadges').innerHTML =
+      '<span class="pill ' + q.length + '">' + q.length + '</span>' +
+      '<span class="difficulty-badge ' + q.diffClass + '">' + q.difficulty + '</span>' +
+      '<span style="font-size:0.78rem;color:#94a3b8">📍 ' + q.location + '</span>';
+    document.getElementById('modalSummary').textContent = q.summary;
+    document.getElementById('modalTip').innerHTML = '<strong>💡 Tip:</strong> ' + q.tip;
+    document.getElementById('modalReward').textContent = '🏆 Reward: ' + q.reward;
+    document.getElementById('relatedTitle').textContent = 'More ' + q.game + ' quests';
+    document.getElementById('modalOverlay').classList.add('open');
+  }
+
+  function closeModal(e) {
+    if (!e || e.target === document.getElementById('modalOverlay') || e.target.classList.contains('modal-close')) {
+      document.getElementById('modalOverlay').classList.remove('open');
+    }
+  }
+
+  function openDetail(key) {
+    var q = quests[key];
+    document.getElementById('detail-hero').style.background = 'linear-gradient(135deg, ' + q.gradient.split('(')[1];
+    document.getElementById('detail-icon').textContent = q.icon;
+    document.getElementById('detail-game-bc').textContent = q.game;
+    document.getElementById('detail-title').textContent = q.title;
+    document.getElementById('detail-badges').innerHTML =
+      '<span class="pill ' + q.length + '">' + q.length + '</span>' +
+      '<span class="difficulty-badge ' + q.diffClass + '">' + q.difficulty + '</span>';
+    document.getElementById('detail-meta').textContent = '📍 ' + q.location;
+    document.getElementById('detail-summary').textContent = q.summary;
+    document.getElementById('detail-tip').innerHTML = q.tip;
+    document.getElementById('detail-reward').textContent = '🏆 ' + q.reward;
+    document.getElementById('url-bar').textContent = q.url;
+    document.getElementById('list-view').style.display = 'none';
+    document.getElementById('detail-view').classList.add('active');
+  }
+
+  function closeDetail() {
+    document.getElementById('list-view').style.display = 'block';
+    document.getElementById('detail-view').classList.remove('active');
+  }
+</script>
+</body>
+</html>
