@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kbarbu12.github.io/newapp/ps5-rpg-sidequest-summarizer/sitemap.xml
