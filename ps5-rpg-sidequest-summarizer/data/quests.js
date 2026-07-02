@@ -3549,5 +3549,265 @@ const quests = [
     aiTip:
       "You must defeat Venom Daoist twice earlier in the chapter to open Purple Cloud Mountain. Fight the Scorpionlord BEFORE Duskveil or he vanishes permanently.",
     video: "https://www.youtube.com/watch?v=KOBHv03ztck"
+  },
+  {
+    id: 227,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Unlock the Azure Dust Transformation",
+    location: "Chapter 2 – Fright Cliff",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Azure Dust transformation (stone form)",
+    summary:
+      "Help the Man-in-Stone buried in a Fright Cliff ravine: defeat the Mother of Stones, return his Stone Essence, then beat him in a duel to earn the rock-solid Azure Dust transformation.",
+    aiTip:
+      "The Man-in-Stone is hidden past Squall Hideout between two rock guai. Azure Dust also doubles as a wall-breaker for reaching the Loong Scales secret.",
+    video: "https://www.youtube.com/watch?v=pYScnK8bA04"
+  },
+  {
+    id: 228,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Obtain the Loong Scales",
+    location: "Chapter 2 – Village of Despair cave",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Loong Scales key item — unlocks all hidden dragon bosses",
+    summary:
+      "A hidden key item behind a destructible wall in the Sandgate caves. The Loong Scales open the way to the Red, Black, and Cyan Loong secret fights across the game.",
+    aiTip:
+      "Break the cracked wall near the First Prince of Flowing Sands arena using the Wandering Wight spirit or Azure Dust transformation, then grab the golden chest.",
+    video: "https://www.youtube.com/watch?v=lSOI9seMoQ4"
+  },
+  {
+    id: 229,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "Unlock the Golden Lining Transformation",
+    location: "Chapters 1–4 – all four Loongs",
+    length: "long",
+    difficulty: "High",
+    reward: "Golden Lining dragon transformation",
+    summary:
+      "The dragon-slayer's reward: collect the Loong Scales, defeat the Red, Black, and Cyan Loongs, then bring down the Yellow Loong in Chapter 4 to claim the game's hidden dragon transformation.",
+    aiTip:
+      "Do the three lesser Loongs as you pass through their chapters — going back later means re-clearing paths. Golden Lining's counterstance rewards aggressive timing.",
+    video: "https://www.youtube.com/watch?v=kTFKuaPsILs"
+  },
+  {
+    id: 230,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "The Plantain Fan",
+    location: "Chapter 5 – Bishui Cave / chapter finale",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Plantain Fan vessel (tornado + stamina regen)",
+    summary:
+      "The legendary fan of Princess Iron Fan, earned through the events of Chapter 5. Its conjured tornado immobilizes groups and its passive boosts stamina recovery for the endgame.",
+    aiTip:
+      "Complete the Five Element Carts quest for the Bishui Cave secret area first — its rewards plus the Fan make Chapter 6's gauntlet dramatically easier.",
+    video: "https://www.youtube.com/watch?v=AVGVPesMlks"
+  },
+  {
+    id: 231,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 6,
+    title: "Erlang Shen & the True Ending",
+    location: "SECRET: Mount Mei / Great Pagoda",
+    length: "long",
+    difficulty: "High",
+    reward: "True ending, Erlang Shen superboss, Sacred Divinity fight",
+    summary:
+      "The ultimate secret: clear the hidden areas of Chapters 1–5 and the Treasure Hunter quest, then enter the Great Pagoda mural to face Erlang Shen and the Four Heavenly Kings — unlocking the game's true ending.",
+    aiTip:
+      "Erlang's stance meter must be broken before he takes real damage, and it refreshes at health thresholds. This is widely considered the hardest fight in the game — level fully first.",
+    video: "https://www.youtube.com/watch?v=ael32jxy3EU"
+  },
+  {
+    id: 232,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "The Adamantine Forge",
+    location: "Grymforge / Underdark",
+    length: "medium",
+    difficulty: "High",
+    reward: "Adamantine weapons and armour, Grym boss fight",
+    summary:
+      "A hidden ancient forge deep below Grymforge. Feed it Mithral Ore and forge some of Act 1's best gear — but hammering the mould wakes Grym, the forge's hulking guardian.",
+    aiTip:
+      "Grym is only vulnerable when superheated by lava and can be crushed by the forge hammer itself — lure him onto the central platform and pull the lever.",
+    video: "https://www.youtube.com/watch?v=pCBlyrTQaRc"
+  },
+  {
+    id: 233,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "The Blood of Lathander",
+    location: "Rosymorn Monastery / Mountain Pass",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blood of Lathander legendary mace",
+    summary:
+      "Solve the stained-glass ritual puzzle in Rosymorn Monastery and disarm an ancient trap to claim one of the game's earliest legendary weapons — a mace that blinds fiends and undead.",
+    aiTip:
+      "Place the correct weapons on the altar (check the window mural) to open the vault. Bring Misty Step to bypass the destroying-beam trap on the way out.",
+    video: "https://www.youtube.com/watch?v=zLIRdgQzTeo"
+  },
+  {
+    id: 234,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "Raid the House of Hope",
+    location: "House of Hope / Avernus",
+    length: "long",
+    difficulty: "High",
+    reward: "Orphic Hammer, legendary loot, Raphael boss fight",
+    summary:
+      "Sneak into the devil Raphael's private domain in Avernus to steal the Orphic Hammer. Free the tormented Hope and you can face Raphael himself in one of the game's best boss fights.",
+    aiTip:
+      "Say 'Give me my heart's desire' at the Archives to take the hammer. Destroy the four soul pillars during the Raphael fight to cut off his power.",
+    video: "https://www.youtube.com/watch?v=ELhgIdeoeew"
+  },
+  {
+    id: 235,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "The Necromancy of Thay",
+    location: "Blighted Village → Sorcerous Sundries",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Forbidden Knowledge buffs, Danse Macabre spell",
+    summary:
+      "A sinister tome found in the Blighted Village cellar. Open it with the Dark Amethyst from the spider matriarch's pit, resist its whispers across all three acts, and claim its dark powers.",
+    aiTip:
+      "Reading every chapter requires three successful saves — cast Guidance and save first. Keep the book until Act 3: the Tharchiate Codex in Sorcerous Sundries completes it.",
+    video: "https://www.youtube.com/watch?v=wgsHxAaRzuQ"
+  },
+  {
+    id: 236,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "Rescue Minsc (The High Harper)",
+    location: "Counting House / Lower City Sewers",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Minsc (and Boo) as a companion",
+    summary:
+      "Help Jaheira track the 'Stone Lord' through Baldur's Gate's underworld — only to find the legendary ranger Minsc, duped by a doppelganger. Save him from himself to recruit him.",
+    aiTip:
+      "Toggle non-lethal attacks before the sewer fight and knock Minsc out last. Jaheira must be alive and in the party for the quest to progress.",
+    video: "https://www.youtube.com/watch?v=W4zJP42TDgU"
+  },
+  {
+    id: 237,
+    type: "side",
+    game: "Baldur's Gate 3",
+    title: "Adopt the Owlbear Cub",
+    location: "Owlbear Nest / Goblin Camp",
+    length: "short",
+    difficulty: "Low",
+    reward: "Owlbear cub camp companion (and Act 3 surprise)",
+    summary:
+      "Spare the owlbear cub in its nest, then win it from the goblins tormenting it at their camp. Feed it patiently over several long rests and it becomes your camp's fluffiest resident.",
+    aiTip:
+      "Let the cub smell your hand at the goblin camp and don't rush it at camp — kindness across several rests pays off spectacularly in the final battle.",
+    video: "https://www.youtube.com/watch?v=S7wCREHYyoc"
+  },
+  {
+    id: 238,
+    type: "side",
+    game: "Elden Ring",
+    title: "Reach Miquella's Haligtree",
+    location: "Village of the Albinaurics / Castle Sol",
+    length: "long",
+    difficulty: "High",
+    reward: "Access to the secret Haligtree region and Elphael",
+    summary:
+      "The game's best-hidden region. Find both halves of the Haligtree Secret Medallion — one from Albus disguised as a pot, one from Commander Niall at Castle Sol — and hoist them at the Grand Lift of Rold.",
+    aiTip:
+      "Hit the lone pot in the Village of the Albinaurics to reveal Albus. Castle Sol's Commander Niall is brutal — bring spirit ashes that split his knight summons.",
+    video: "https://www.youtube.com/watch?v=HEdXuQ186DU"
+  },
+  {
+    id: 239,
+    type: "side",
+    game: "Elden Ring",
+    title: "Defeat Malenia, Blade of Miquella",
+    location: "Elphael, Brace of the Haligtree",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Rot Goddess, Malenia's Great Rune",
+    summary:
+      "The hardest fight in the game. The undefeated swordswoman of the Haligtree heals with every blow she lands and blooms into the Goddess of Rot in phase two.",
+    aiTip:
+      "Her Waterfowl Dance is the killer — sprint away from the first flurry, dodge into the rest. Bleed weapons and aggressive spirit ashes shorten both phases.",
+    video: "https://www.youtube.com/watch?v=-D5vwtjmkIE"
+  },
+  {
+    id: 240,
+    type: "side",
+    game: "Elden Ring",
+    title: "Defeat Mohg, Lord of Blood",
+    location: "Mohgwyn Palace",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Blood Lord, Mohg's Great Rune",
+    summary:
+      "The Lord of Blood awaits beneath his hidden palace, reachable through Varre's quest or a secret Consecrated Snowfield teleporter. His cursed ritual counts down to a devastating bloodflame nova.",
+    aiTip:
+      "Buy the Purifying Crystal Tear (Yura's quest) — it nullifies Mohg's 'Nihil' ritual entirely. His arena is also the game's best rune-farming spot.",
+    video: "https://www.youtube.com/watch?v=r0IgQ9s6AEs"
+  },
+  {
+    id: 241,
+    type: "side",
+    game: "Elden Ring",
+    title: "Defeat Dragonlord Placidusax",
+    location: "Crumbling Farum Azula (hidden arena)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Dragonlord",
+    summary:
+      "A secret superboss outside time itself. Lie down in an empty coffin alcove in Farum Azula to be carried to the storm's eye, where the two-headed former Elden Lord waits.",
+    aiTip:
+      "When he vanishes, sprint — the lightning teleport strikes are on a timer. Stay under his chest between the heads; most breath attacks miss there entirely.",
+    video: "https://www.youtube.com/watch?v=Tf0DXto9Iig"
+  },
+  {
+    id: 242,
+    type: "side",
+    game: "Elden Ring",
+    title: "Defeat Astel, Naturalborn of the Void",
+    location: "Lake of Rot / Grand Cloister",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Naturalborn, unlocks Ranni's path forward",
+    summary:
+      "A cosmic horror at the bottom of the Lake of Rot, guarding the way to the Moonlight Altar. Gravity magic, teleports, and a one-shot grab make it a unique endgame test.",
+    aiTip:
+      "Watch for the grab — dodge sideways the instant its arms spread. Clearing the Lake of Rot is half the fight: bring Preserving Boluses and run, don't fight.",
+    video: "https://www.youtube.com/watch?v=dzrSCDUcFys"
+  },
+  {
+    id: 243,
+    type: "side",
+    game: "Elden Ring",
+    title: "Get the Mimic Tear Spirit Ashes",
+    location: "Nokron, Eternal City – Night's Sacred Ground",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mimic Tear ashes — the game's strongest summon",
+    summary:
+      "Hidden behind an imp-statue door in Nokron after Radahn falls, the Mimic Tear summons a full copy of your character — gear, spells, flasks and all.",
+    aiTip:
+      "Bring two Stonesword Keys. Equip your best gear BEFORE summoning — the mimic copies your current loadout, and it uses HP instead of FP to summon.",
+    video: "https://www.youtube.com/watch?v=ZlmtbD_8SiU"
   }
 ];
