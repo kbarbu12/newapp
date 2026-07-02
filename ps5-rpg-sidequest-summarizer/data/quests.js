@@ -83,7 +83,10 @@ const subFilterConfig = {
     options: [
       { value: "1", text: "Chapter 1 – Black Wind Mountain" },
       { value: "2", text: "Chapter 2 – Yellow Wind Ridge" },
-      { value: "3", text: "Chapter 3 – Yellowbrow" }
+      { value: "3", text: "Chapter 3 – Yellowbrow" },
+      { value: "4", text: "Chapter 4 – The Webbed Hollow" },
+      { value: "5", text: "Chapter 5 – Flaming Mountains" },
+      { value: "6", text: "Chapter 6 – Mount Huaguo" }
     ]
   },
   "The Witcher 3: Wild Hunt": {
@@ -541,7 +544,7 @@ const quests = [
       "Trigger this secret boss by collecting and dropping six Buddha's Eyeballs onto a large rock near the Rockrest Flat Shrine. The massive stone giant has devastating ground-pound attacks.",
     aiTip:
       "Target the blue crystals on its fists — that's the weak point. When it slams the ground causing shockwaves, jump into the air to avoid damage.",
-    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+    video: "https://www.youtube.com/watch?v=cA1w2eTChGs"
   },
   {
     id: 30,
@@ -557,7 +560,7 @@ const quests = [
       "Discover a prisoner deep within the Pagoda Realm and help them escape captivity. This sprawling side quest introduces unique areas, multiple new bosses, and one of the strongest weapons in the game — the Chu-Bai Spear.",
     aiTip:
       "Don't rush through Chapter 3 — the Pagoda Realm is easy to miss. The Chu-Bai Spear is worth the effort and remains viable through endgame.",
-    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+    video: "https://www.youtube.com/watch?v=CbFLORHqUXU"
   },
   {
     id: 31,
@@ -589,7 +592,7 @@ const quests = [
       "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
     aiTip:
       "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential.",
-    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+    video: "https://www.youtube.com/watch?v=3Z1T0f9f4Vw"
   },
   {
     id: 33,
@@ -3223,5 +3226,328 @@ const quests = [
     aiTip:
       "Talk to the bush near Agheel Lake to start. Give him a Larval Tear only if you want the sad ending — telling him he's beautiful with the Mimic's Veil keeps him alive.",
     video: "https://www.youtube.com/watch?v=YJGX2u-96ho"
+  },
+  {
+    id: 206,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Rescue the Druid Halsin",
+    location: "Emerald Grove / Goblin Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Halsin as ally, path to lifting the Shadow Curse",
+    summary:
+      "Act 1's central quest. Track the missing First Druid to the Goblin Camp's Worg Pens, free him, and help him take down the three goblin leaders to save the Grove.",
+    aiTip:
+      "Free Halsin before triggering open combat in the Shattered Sanctum — he fights alongside you in bear form and makes the leader fights far easier.",
+    video: "https://www.youtube.com/watch?v=FpEtlz0MgPE"
+  },
+  {
+    id: 207,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Travel through the Underdark",
+    location: "Underdark / Grymforge",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Safer route to Act 2, unique gear, Grymforge content",
+    summary:
+      "One of two routes to the Shadow-Cursed Lands. Descend beneath the Grove, navigate myconid colonies and duergar patrols, and cross the lake to Grymforge.",
+    aiTip:
+      "Enter via the Zhentarim hideout elevator or the Selûnite Outpost. Grab the Sussur bloom and visit the Myconid Colony before pushing to Grymforge.",
+    video: "https://www.youtube.com/watch?v=hc__xLF6m1A"
+  },
+  {
+    id: 208,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Infiltrate Moonrise Towers",
+    location: "Shadow-Cursed Lands / Moonrise Towers",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Access to the Absolute's inner circle, key Act 2 progression",
+    summary:
+      "Pose as a True Soul to walk into the cult's headquarters. Balance staying undercover with rescuing prisoners and gathering intel on Ketheric Thorm.",
+    aiTip:
+      "Keep your cover as long as possible — open hostility locks you out of valuable dialogue, vendors, and the chance to free the tiefling prisoners quietly.",
+    video: "https://www.youtube.com/watch?v=86grzufcTj8"
+  },
+  {
+    id: 209,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "The Gauntlet of Shar",
+    location: "Grand Mausoleum / Shadowfell",
+    length: "long",
+    difficulty: "High",
+    reward: "Umbral Gems, Nightsong revelation, Shadowheart's defining choice",
+    summary:
+      "Complete the trials of the Lady of Loss — Soft-Step, Self-Same, and Faith-Leap — plus the optional Yurgir encounter, then descend into the Shadowfell.",
+    aiTip:
+      "Bring Shadowheart and save before the final descent. Use Fog Cloud to trivialize the Self-Same trial and note the faith symbols before the Faith-Leap.",
+    video: "https://www.youtube.com/watch?v=Z-scYDKEJ7I"
+  },
+  {
+    id: 210,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Gather Your Allies",
+    location: "All Acts / Baldur's Gate",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Summons, buffs, and reinforcements for the final battle",
+    summary:
+      "A campaign-spanning quest: every faction and friend you help along the way pledges support, and they all appear at your side for the assault on the Netherbrain.",
+    aiTip:
+      "Ally strength is decided by choices made across all three acts — spare, help, and recruit generously. Check the quest journal before the point of no return.",
+    video: "https://www.youtube.com/watch?v=cwhYTTp124g"
+  },
+  {
+    id: 211,
+    type: "main",
+    game: "Baldur's Gate 3",
+    title: "Confront the Elder Brain",
+    location: "Upper City / Morphic Pool",
+    length: "long",
+    difficulty: "High",
+    reward: "Game finale, all endings",
+    summary:
+      "The final battle. Fight through the city, ascend the Netherbrain's stem with your gathered allies, and decide the fate of the Absolute — and yourself.",
+    aiTip:
+      "Long-rest and finish companion quests before the Morphic Pool. In the final fight, use your allies' summons aggressively — they exist to soak the chaos.",
+    video: "https://www.youtube.com/watch?v=Cr5Muw-zIYg"
+  },
+  {
+    id: 212,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Margit the Fell Omen",
+    location: "Stormveil Castle approach",
+    length: "short",
+    difficulty: "High",
+    reward: "Talisman Pouch, access to Stormveil Castle",
+    summary:
+      "The game's first great wall. Margit guards the bridge to Stormveil and punishes impatience with delayed, feinting swings that break new players' habits.",
+    aiTip:
+      "Buy Margit's Shackle from Patches to pin him twice, summon Rogier at the fog gate, and learn to dodge late — his swings hang in the air on purpose.",
+    video: "https://www.youtube.com/watch?v=02PjeMllulQ"
+  },
+  {
+    id: 213,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Godrick the Grafted",
+    location: "Stormveil Castle",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Godrick's Great Rune, Remembrance of the Grafted",
+    summary:
+      "The first demigod and Great Rune holder. A two-phase fight against the grafted lord of Stormveil, who swaps his axe for a dragon's head halfway through.",
+    aiTip:
+      "Summon Nepheli Loux just before the fog gate. In phase two, stick to his left leg — the dragon-arm flamethrower leaves his back exposed for long punishes.",
+    video: "https://www.youtube.com/watch?v=_wl71myyD-k"
+  },
+  {
+    id: 214,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Rennala, Queen of the Full Moon",
+    location: "Academy of Raya Lucaria",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rennala's Great Rune, respec unlocked, Remembrance",
+    summary:
+      "A two-act boss: break the singing children's shields to topple Rennala, then face her true moon-sorcery form in a dreamlike second phase.",
+    aiTip:
+      "In phase one, hit the glowing golden students to drop her barrier. Phase two is very parry- and stagger-friendly — stay aggressive between her casts.",
+    video: "https://www.youtube.com/watch?v=4r1wihoPGmU"
+  },
+  {
+    id: 215,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Morgott the Omen King",
+    location: "Leyndell, Royal Capital",
+    length: "medium",
+    difficulty: "High",
+    reward: "Morgott's Great Rune, access to the Mountaintops",
+    summary:
+      "Margit's true form defends the Erdtree itself. A relentless, mobile duel against the Omen King with cursed blades, spears, and holy fire.",
+    aiTip:
+      "Melina can be summoned for this fight. Morgott is weak to bleed and vulnerable after his triple-blade slam — that's your biggest punish window.",
+    video: "https://www.youtube.com/watch?v=RbMrdVOk2ok"
+  },
+  {
+    id: 216,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat the Fire Giant",
+    location: "Mountaintops of the Giants",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Fire Giant, path to the Forge",
+    summary:
+      "The last of the giants guards the Forge of the Giants. A colossal endurance fight where the arena itself becomes a hazard once he tears off his own leg.",
+    aiTip:
+      "Fight from Torrent and stay glued to his ankles. In phase two, run TOWARD him when he rolls — chasing the roll is how most deaths happen.",
+    video: "https://www.youtube.com/watch?v=tzwsy8AqW34"
+  },
+  {
+    id: 217,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Maliketh, the Black Blade",
+    location: "Crumbling Farum Azula",
+    length: "medium",
+    difficulty: "High",
+    reward: "Remembrance of the Black Blade, triggers the burning of the Erdtree",
+    summary:
+      "First the Beast Clergyman, then Destined Death incarnate. Maliketh's second phase is one of the fastest, most acrobatic duels in the game.",
+    aiTip:
+      "The Blasphemous Claw (from Recusant Bernahl's quest) parries his glowing attacks in phase two. His combos end with long recovery — punish only then.",
+    video: "https://www.youtube.com/watch?v=LPyue4RK_jw"
+  },
+  {
+    id: 218,
+    type: "main",
+    game: "Elden Ring",
+    title: "Defeat Radagon and the Elden Beast",
+    location: "Erdtree / Stone Platform",
+    length: "long",
+    difficulty: "High",
+    reward: "Game finale, choice of ending",
+    summary:
+      "The true final battle: the shattered god Radagon, followed immediately by the Elden Beast, an alien embodiment of Order — two full bosses, one attempt.",
+    aiTip:
+      "Radagon is weak to fire and physical stagger; save your flask charges for the Elden Beast and sprint diagonally from Elden Stars rather than away from it.",
+    video: "https://www.youtube.com/watch?v=rvfNBQcSr1Q"
+  },
+  {
+    id: 219,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Black Bear Guai – Chapter 1 Finale",
+    location: "Chapter 1 – Bodhi Peak",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chapter 1 completion, Craving Eyes relic",
+    summary:
+      "The Black Wind King reveals his true form atop Bodhi Peak. A fiery two-phase duel against the giant black bear that closes out Chapter 1.",
+    aiTip:
+      "Save your spells and Wandering Wight spirit for phase two when his arms ignite. Dodge through his charge rather than away — it tracks hard.",
+    video: "https://www.youtube.com/watch?v=3nrZp3R5dLQ"
+  },
+  {
+    id: 220,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Yellow Wind Sage – Chapter 2 Finale",
+    location: "Chapter 2 – Windseal Gate",
+    length: "medium",
+    difficulty: "High",
+    reward: "Chapter 2 completion, Fiery Eyes relic",
+    summary:
+      "The sandstorm-wielding final boss of Yellow Wind Ridge. Wind blades, ground eruptions, and a blinding tornado phase test everything learned so far.",
+    aiTip:
+      "Bring the Wind Tamer vessel — popping it during his tornado phase stuns him for a huge free punish. Stay on his flank to dodge the spear combos.",
+    video: "https://www.youtube.com/watch?v=vDZEWXWXyig"
+  },
+  {
+    id: 221,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "Yellowbrow – Chapter 3 Finale",
+    location: "Chapter 3 – Great Pagoda / Mirrormere",
+    length: "long",
+    difficulty: "High",
+    reward: "Chapter 3 completion, relic upgrade",
+    summary:
+      "The false Buddha of the snowy realm. A marathon three-part finale that pits you against Yellowbrow's illusions and a desperate ally's sacrifice.",
+    aiTip:
+      "Refuse his golden temptation mid-fight — accepting it heals him. Save transformations for the final phase after the Macaque Chief intervenes.",
+    video: "https://www.youtube.com/watch?v=8zKGKr7rpfk"
+  },
+  {
+    id: 222,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "Hundred-Eyed Daoist Master – Chapter 4 Finale",
+    location: "Chapter 4 – Temple of the Yellow Flowers",
+    length: "medium",
+    difficulty: "High",
+    reward: "Chapter 4 completion, relic",
+    summary:
+      "The venomous master of the Webbed Hollow descends. A blinding flurry of golden light beams and poison caps off the spider-infested chapter.",
+    aiTip:
+      "His golden-light eye attacks punish greed — dodge twice, hit once. Poison resistance food and the Pluck of Many transformation carry this fight.",
+    video: "https://www.youtube.com/watch?v=-EI1MrUzAqY"
+  },
+  {
+    id: 223,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "Red Boy & Yaksha King – Chapter 5 Finale",
+    location: "Chapter 5 – Field of Fire / Fallen Furnace",
+    length: "medium",
+    difficulty: "High",
+    reward: "Chapter 5 completion, relic",
+    summary:
+      "The son of the Bull King unleashes samadhi fire, then transforms into the towering Yaksha King for a brutal second act among the flames.",
+    aiTip:
+      "Use the chapter's fire-warding vessel and keep mid-range — Red Boy's spear lunges are safest to punish. The Yaksha King phase is weak to stagger.",
+    video: "https://www.youtube.com/watch?v=s4bat9aKTis"
+  },
+  {
+    id: 224,
+    type: "main",
+    game: "Black Myth: Wukong",
+    chapter: 6,
+    title: "The Great Sage's Broken Shell – Final Boss",
+    location: "Chapter 6 – Mount Huaguo",
+    length: "long",
+    difficulty: "High",
+    reward: "Game completion, both endings",
+    summary:
+      "The journey ends where it began. Atop Mount Huaguo, the Destined One faces the stone echo of Sun Wukong himself in a mirror-match finale.",
+    aiTip:
+      "He fights with your own moveset — treat it like a duel: bait his heavy, dodge the fourth light attack, and spend focus points on staggered punishes.",
+    video: "https://www.youtube.com/watch?v=S5BuIh6NU5A"
+  },
+  {
+    id: 225,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "The Mad Tiger – Old Rattle-Drum",
+    location: "Chapter 2 – Windrest Hamlet / Bottom of the Well",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tiger Spirit (one of the best spirit skills)",
+    summary:
+      "Defeat the Tiger's Acolyte for the Old Rattle-Drum, beat it at three shrines across Yellow Wind Ridge, then descend the well to face the sorrowful Mad Tiger.",
+    aiTip:
+      "Beat the drum at the three marked spots in order, then drop into the Windrest Hamlet well. The Mad Tiger parries often — delay your combo finishers.",
+    video: "https://www.youtube.com/watch?v=H3ZAONSUVyQ"
+  },
+  {
+    id: 226,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "The Scorpionlord – Purple Cloud Mountain",
+    location: "Chapter 4 – SECRET: Purple Cloud Mountain",
+    length: "medium",
+    difficulty: "High",
+    reward: "Deathstinger weapon material, secret-area completion",
+    summary:
+      "Hidden in Chapter 4's secret area, the courteous Scorpionlord duels you among the peach blossoms. Miss him before facing Duskveil and he's gone forever.",
+    aiTip:
+      "You must defeat Venom Daoist twice earlier in the chapter to open Purple Cloud Mountain. Fight the Scorpionlord BEFORE Duskveil or he vanishes permanently.",
+    video: "https://www.youtube.com/watch?v=KOBHv03ztck"
   }
 ];
