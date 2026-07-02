@@ -231,9 +231,19 @@
     renderQuests();
   }
 
+  function updatePageTitle() {
+    var selectedGame = gameFilter.value;
+    if (selectedGame === "all") {
+      document.title = "RPG Quest Guide — Side Quests & Walkthroughs";
+    } else {
+      document.title = selectedGame + " Side Quests & Walkthroughs — RPG Quest Guide";
+    }
+  }
+
   function onGameChange() {
     updateSubFilters();
     renderQuests();
+    updatePageTitle();
   }
 
   function toggleFilters() {
