@@ -614,6 +614,14 @@ select:focus {
   transform: scale(1.03);
 }
 
+.video-disclaimer {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.7rem;
+  opacity: 0.4;
+  font-style: italic;
+}
+
 .difficulty-badge {
   display: inline-block;
   font-size: 0.72rem;

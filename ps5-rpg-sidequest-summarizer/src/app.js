@@ -145,7 +145,8 @@
     var videoHtml = quest.video
       ? '<a class="video-link" href="' +
         quest.video +
-        '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>'
+        '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>' +
+        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>'
       : "";
 
     var diffClass = quest.difficulty.toLowerCase();
