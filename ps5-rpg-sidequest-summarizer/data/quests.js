@@ -5600,5 +5600,1524 @@ const quests = [
     aiTip:
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
+  },
+  {
+    id: 349,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "On Death's Bed",
+    location: "White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Herbalist alliance, crafting supplies",
+    summary:
+      "A poisoned man clings to life; Geralt gathers the herbs for a cure — or lets nature take its course.",
+    aiTip:
+      "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
+  },
+  {
+    id: 350,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Twisted Firestarter",
+    location: "White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin, blacksmith access",
+    summary:
+      "Geralt investigates who torched the local smith's forge in sleepy White Orchard.",
+    aiTip:
+      "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
+  },
+  {
+    id: 351,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Contract: Devil by the Well",
+    location: "White Orchard",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Silver, noonwraith trophy",
+    summary:
+      "A noonwraith haunts an abandoned village well. Geralt must lure and banish the vengeful spirit.",
+    aiTip:
+      "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
+  },
+  {
+    id: 352,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Princess in Distress",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Baron questline progress",
+    summary:
+      "Part of the Bloody Baron saga: help track the missing Anna and uncover the family's dark story.",
+    aiTip:
+      "Ties directly into the Baron's main arc — do it before leaving Velen.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
+  },
+  {
+    id: 353,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Merry Widow (Contract)",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, grave hag trophy",
+    summary:
+      "Villagers near a crossroads are being slain by a grave hag lurking among the dead.",
+    aiTip:
+      "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
+  },
+  {
+    id: 354,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Hunting a Witch",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Keira Metz alliance",
+    summary:
+      "Follow the trail of the sorceress Keira Metz through the swamps of Velen.",
+    aiTip:
+      "Reading the hidden notes reveals Keira's true motives before you meet her.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
+  },
+  {
+    id: 355,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Wandering in the Dark",
+    location: "Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Keira questline, elven ruins loot",
+    summary:
+      "Geralt and Keira delve into an ancient elven ruin sealed for centuries, chased by a monstrous gargoyle.",
+    aiTip:
+      "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 356,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Magic Lamp",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Keira questline, sealed vault",
+    summary:
+      "Use a captured djinn's lamp to breach a mage's sealed sanctum during Keira's quest.",
+    aiTip:
+      "Equip the lamp and use it on the shimmering barriers to press forward.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
+  },
+  {
+    id: 357,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Woodland Beast",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, monster trophy",
+    summary:
+      "A leshen terrorizes a superstitious hamlet that half-worships it.",
+    aiTip:
+      "Torch the leshen's totems first, then bring Relict Oil and Igni.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
+  },
+  {
+    id: 358,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad Dreaming",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Corinne Tilly seer contact",
+    summary:
+      "A house is said to be haunted; Geralt investigates the tragic ghost of a devoted dog and its master.",
+    aiTip:
+      "A short, poignant contract — follow the flowers to piece the story together.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
+  },
+  {
+    id: 359,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Play's the Thing",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Priscilla & Dandelion arc, unique scene",
+    summary:
+      "Geralt moonlights as an actor in Irina's theatre to draw out a lead on Dandelion.",
+    aiTip:
+      "Ham it up on stage — the performance choices are pure delight and affect the scene.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
+  },
+  {
+    id: 360,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Poet Under Pressure",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dandelion rescued",
+    summary:
+      "Storm the Whoreson Junior's operation to rescue the captured bard Dandelion.",
+    aiTip:
+      "Bring good armor; the hideout is a tough multi-wave fight.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
+  },
+  {
+    id: 361,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Cabaret",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin, Priscilla's cabaret opens",
+    summary:
+      "Help Dandelion turn a rundown building into the Chameleon cabaret with an eventful 'date'.",
+    aiTip:
+      "A charming lighthearted quest — enjoy the banter, low combat.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
+  },
+  {
+    id: 362,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Count Reuven's Treasure",
+    location: "Novigrad",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Triss arc, Sigismund Dijkstra ally",
+    summary:
+      "Investigate the theft of Dijkstra's fortune, uncovering the pogrom against Novigrad's mages.",
+    aiTip:
+      "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
+  },
+  {
+    id: 363,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Redania's Most Wanted",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Triss questline progress",
+    summary:
+      "Help Triss and the hunted mages of Novigrad evade the witch hunters.",
+    aiTip:
+      "Ties into the Triss romance path — pursue it if you want that ending.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
+  },
+  {
+    id: 364,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: Deadly Delights",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, katakan trophy",
+    summary:
+      "A string of romantic rendezvous end in death — a katakan vampire is hunting lovers.",
+    aiTip:
+      "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
+  },
+  {
+    id: 365,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Honor Among Thieves",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Triss arc, mage-smuggling caper",
+    summary:
+      "Help Triss run a daring operation to smuggle mages out of Novigrad by sea.",
+    aiTip:
+      "The auction house infiltration rewards patience over brute force.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
+  },
+  {
+    id: 366,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Echoes of the Past",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ciri flashback, Skjall's tale",
+    summary:
+      "Follow Ciri's trail on Skellige and learn of the villager Skjall who sheltered her.",
+    aiTip:
+      "The Wild Hunt flashback battle is scripted — focus on survival.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
+  },
+  {
+    id: 367,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Last Trial",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Ciri questline progress",
+    summary:
+      "Ciri must complete a Skellige rite to be recognized — with the Wild Hunt closing in.",
+    aiTip:
+      "A story-driven quest with a memorable Ciri-playable segment.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
+  },
+  {
+    id: 368,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Practicum in Advanced Alchemy",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Low",
+    reward: "Alchemy formula, coin",
+    summary:
+      "Investigate a mage's mysterious death at a coastal alchemical lab.",
+    aiTip:
+      "Piece together the reagents with Witcher Senses to reconstruct the accident.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
+  },
+  {
+    id: 369,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: The White Lady",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, wraith trophy",
+    summary:
+      "A pale spirit haunts a Skellige homestead, and the truth is a family tragedy.",
+    aiTip:
+      "Specter Oil and Yrden as always for wraith-type foes.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
+  },
+  {
+    id: 370,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Skellige's Most Wanted",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Coin, arachas trophy",
+    summary:
+      "A bounty on a nest of monstrous arachasae draws Geralt into the mountains.",
+    aiTip:
+      "Bring Insectoid Oil and dodge the ranged spit before closing in.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
+  },
+  {
+    id: 371,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Nameless",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wild Hunt lore, Craite alliance",
+    summary:
+      "A Skellige mystery ties an amnesiac stranger to the wider Wild Hunt saga.",
+    aiTip:
+      "Read the environmental clues; the payoff informs the main story.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
+  },
+  {
+    id: 372,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    title: "Ugly Baby",
+    location: "Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Uma's curse lead, allies gather",
+    summary:
+      "Bring the cursed 'Uma' to Kaer Morhen and gather the witchers to attempt a brutal curse-breaking.",
+    aiTip:
+      "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
+  },
+  {
+    id: 373,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Dead Man's Party",
+    location: "Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Hearts of Stone arc, Vlodimir body-share",
+    summary:
+      "Possessed by the ghost Vlodimir, Geralt crashes a wedding in the wildest quest in the game.",
+    aiTip:
+      "Just go with it — the outrageous choices are the whole point and mostly harmless.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
+  },
+  {
+    id: 374,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame!",
+    location: "Velen",
+    length: "long",
+    difficulty: "High",
+    reward: "Hearts of Stone heist, Ofieri gear",
+    summary:
+      "Pull off an elaborate auction-house heist for Olgierd's cursed employer, Gaunter O'Dimm.",
+    aiTip:
+      "The vault has a fistfight and a puzzle — prep both combat and patience.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
+  },
+  {
+    id: 375,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Scenes From a Marriage",
+    location: "Velen",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Iris von Everec's painted world",
+    summary:
+      "Enter the haunted painted world of Iris von Everec to reunite her sundered memories.",
+    aiTip:
+      "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
+  },
+  {
+    id: 376,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Beast of Toussaint",
+    location: "Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blood and Wine main arc start",
+    summary:
+      "A monstrous killer stalks the fairy-tale duchy of Toussaint; Geralt is summoned to hunt it.",
+    aiTip:
+      "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
+  },
+  {
+    id: 377,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "La Cage au Fou",
+    location: "Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bruxa mystery, Blood and Wine progress",
+    summary:
+      "Investigate a grisly killing tied to the elusive vampire threat haunting Beauclair.",
+    aiTip:
+      "Vampire Oil and Black Blood are essential against the higher vampires.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
+  },
+  {
+    id: 378,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Where the Cat and Wolf Play",
+    location: "Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Village tragedy, moral choice",
+    summary:
+      "A witcher of the Cat School has slaughtered a village; Geralt uncovers the grim full story.",
+    aiTip:
+      "There's a lone survivor — how you handle her is the quest's real weight.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
+  },
+  {
+    id: 379,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Consorting",
+    location: "Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "Vineyard reward, coin",
+    summary:
+      "Help feuding Toussaint vineyards outmaneuver each other in a series of estate errands.",
+    aiTip:
+      "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
+  },
+  {
+    id: 380,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Creature from the Oxenfurt Forest",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, fiend trophy",
+    summary:
+      "A fiend terrorizes travelers in the woods near Oxenfurt (Hearts of Stone).",
+    aiTip:
+      "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
+  },
+  {
+    id: 381,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Turn and Face the Strange",
+    location: "Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "Manor renovation, coin",
+    summary:
+      "Settle into Corvo Bianco vineyard and set its restoration in motion.",
+    aiTip:
+      "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
+  },
+  {
+    id: 382,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Big Game Hunter",
+    location: "Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, kikimore trophy",
+    summary:
+      "Hunt a monstrous kikimore queen threatening Toussaint's countryside.",
+    aiTip:
+      "Insectoid Oil and dodge the burrow-and-lunge pattern.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
+  },
+  {
+    id: 383,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Sacred Lands",
+    title: "Reach for the Stars",
+    location: "The Sacred Lands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story start, GAIA search begins",
+    summary:
+      "Aloy sets out west to recover a working copy of GAIA and stop the biosphere's collapse.",
+    aiTip:
+      "The opening region eases you into new gear and machines — grab the pullcaster and diving mask upgrades early.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
+  },
+  {
+    id: 384,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "To the Brink",
+    location: "The Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chainscrape hub, embassy access",
+    summary:
+      "Aloy enters The Daunt to attend a tense embassy and secure passage deeper into the Forbidden West.",
+    aiTip:
+      "Chainscrape becomes an early hub — pick up its side quests before pushing on.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
+  },
+  {
+    id: 385,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "The Point of the Lance",
+    location: "Barren Light",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tenakth alliance foothold",
+    summary:
+      "Aloy helps defend a Tenakth outpost, earning a foothold among the tribe.",
+    aiTip:
+      "A combat-focused chapter; learn to exploit machine components with the right ammo.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
+  },
+  {
+    id: 386,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Sacred Lands",
+    title: "Death's Door",
+    location: "The Embassy / Spire",
+    length: "long",
+    difficulty: "High",
+    reward: "GAIA sub-function lead",
+    summary:
+      "Aloy tracks the signal from the Spire, uncovering the scope of the western threat.",
+    aiTip:
+      "Story-heavy with a major reveal — stock resources before the finale stretch.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
+  },
+  {
+    id: 387,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Gemini",
+    location: "The Base",
+    length: "long",
+    difficulty: "High",
+    reward: "GAIA restoration nears",
+    summary:
+      "Aloy pushes toward reuniting GAIA's functions as the Zeniths' plan accelerates.",
+    aiTip:
+      "A major story chapter; upgrade your best weapons before diving in.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
+  },
+  {
+    id: 388,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Singularity",
+    location: "Zenith Stronghold",
+    length: "long",
+    difficulty: "High",
+    reward: "Final confrontation, ending",
+    summary:
+      "The climactic assault on the Zeniths to secure the future of the biosphere.",
+    aiTip:
+      "The finale is a gauntlet — bring your strongest coils, potions, and elemental loadout.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
+  },
+  {
+    id: 389,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "The Twilight Path",
+    location: "Chainscrape",
+    length: "short",
+    difficulty: "Low",
+    reward: "Petra's cannon, unique weapon",
+    summary:
+      "Petra needs rare parts to build a machine-killing cannon; Aloy hunts them down.",
+    aiTip:
+      "Unlocks after The Bristlebacks — Petra's gear is worth the trip.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Twilight%20Path%20walkthrough"
+  },
+  {
+    id: 390,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
+    title: "Nights of Lights",
+    location: "Scalding Spear",
+    length: "short",
+    difficulty: "Low",
+    reward: "Old World ornament, collectible",
+    summary:
+      "Aloy helps Stemmur recover an Old World holiday ornament from the ruins of Las Vegas.",
+    aiTip:
+      "A charming errand with light puzzle-solving — follow the power cables.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Nights%20of%20Lights%20walkthrough"
+  },
+  {
+    id: 391,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Shadow in the West",
+    location: "Plainsong",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Utaru clan aid, machine mystery",
+    summary:
+      "Investigate strange machine behavior threatening the peaceful Utaru of Plainsong.",
+    aiTip:
+      "Scan the affected machines to trace the corruption to its source.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20in%20the%20West%20walkthrough"
+  },
+  {
+    id: 392,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "In the Fog",
+    location: "No Man's Land",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Missing hunters found",
+    summary:
+      "Hunters have vanished into a fog-shrouded valley stalked by an unseen machine.",
+    aiTip:
+      "Bring cold/impact ammo — the culprit ambushes from concealment.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
+  },
+  {
+    id: 393,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "A Hunt So Sweet",
+    location: "Plainsong",
+    length: "short",
+    difficulty: "Low",
+    reward: "Utaru delicacy, coin",
+    summary:
+      "Aloy helps gather ingredients for a prized Utaru delicacy amid roaming machines.",
+    aiTip:
+      "A relaxed gathering quest — a nice palate cleanser between story beats.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20So%20Sweet%20walkthrough"
+  },
+  {
+    id: 394,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Blood Choke",
+    location: "The Grove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tenakth rebel intel",
+    summary:
+      "Track down a Tenakth rebel cell operating in the borderlands.",
+    aiTip:
+      "Rebels use heavy weapons — knock them off overwatch positions with the ropecaster.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
+  },
+  {
+    id: 395,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Seeds of the Past",
+    location: "Plainsong",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Utaru heritage, unique reward",
+    summary:
+      "Uncover an Utaru mystery tied to their song-fields and the machines that tend them.",
+    aiTip:
+      "Lore-rich and emotional — read the datapoints for the full picture.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
+  },
+  {
+    id: 396,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Cause for Concern",
+    location: "The Base",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion bonding, base upgrade",
+    summary:
+      "A quiet moment with Aloy's allies at the Base reveals personal stakes.",
+    aiTip:
+      "A character quest that deepens your companions before the finale.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cause%20for%20Concern%20walkthrough"
+  },
+  {
+    id: 397,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
+    title: "The Wound in the Land",
+    location: "Cinnabar Sands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Corruption source neutralized",
+    summary:
+      "Aloy investigates a spreading blight of corrupted machines scarring the land.",
+    aiTip:
+      "Corrupted machines hit harder — bring purgewater and status resist.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Land%20walkthrough"
+  },
+  {
+    id: 398,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Cauldrons: Machine Overrides",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "New machine mounts and overrides",
+    summary:
+      "Delve into the West's Cauldrons (GEMINI, IOTA, KAPPA, TAU, CHI) to unlock overrides for more machines.",
+    aiTip:
+      "Each cauldron ends in a boss machine — clearing all expands your override roster hugely.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cauldrons%3A%20Machine%20Overrides%20walkthrough"
+  },
+  {
+    id: 399,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Rebel Camps & Outposts",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rebel gear, region liberation",
+    summary:
+      "Clear the Tenakth rebel camps fortified across the Forbidden West.",
+    aiTip:
+      "Stealth-thin the guards first, then take the commander — they drop strong loot.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Rebel%20Camps%20%26%20Outposts%20walkthrough"
+  },
+  {
+    id: 400,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Hunting Grounds Trials",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill challenges, weapon rewards",
+    summary:
+      "Complete timed combat trials at the West's Hunting Grounds for prestige gear.",
+    aiTip:
+      "Study each trial's objective; specialized ammo and traps beat the clock.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
+  },
+  {
+    id: 401,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Relic Ruins",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Old World treasures, coin",
+    summary:
+      "Solve the traversal puzzles inside Old World Relic Ruins to claim their sealed treasures.",
+    aiTip:
+      "Use the pullcaster and scan for climb points — most are pure platforming puzzles.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
+  },
+  {
+    id: 402,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Tallnecks",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Map reveal, fast travel",
+    summary:
+      "Scale the towering Tallnecks to reveal each region's map and machine sites.",
+    aiTip:
+      "Each Tallneck has a unique approach puzzle — look for the machine or structure to reach it.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Tallnecks%20walkthrough"
+  },
+  {
+    id: 403,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Salvage Contracts",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rare crafting components",
+    summary:
+      "Take machine-part salvage contracts from Stitcher hubs for rare upgrade materials.",
+    aiTip:
+      "Target the exact components requested to fulfill contracts efficiently.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Salvage%20Contracts%20walkthrough"
+  },
+  {
+    id: 404,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Gauntlet Runs",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Racing rewards, mount upgrades",
+    summary:
+      "Win machine-mounted races across the West's Gauntlet Run courses.",
+    aiTip:
+      "Learn the boost pads and shortcuts; a fast mount and clean lines win.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gauntlet%20Runs%20walkthrough"
+  },
+  {
+    id: 405,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Arena",
+    location: "Thornmarsh",
+    length: "medium",
+    difficulty: "High",
+    reward: "Arena tokens, exclusive gear",
+    summary:
+      "Battle waves of machines under special modifiers in the Maze's combat Arena.",
+    aiTip:
+      "Modifiers reward build flexibility — swap loadouts to match each challenge.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Arena%20walkthrough"
+  },
+  {
+    id: 406,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Melee Pits",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Advanced melee combos",
+    summary:
+      "Master Aloy's spear at the Melee Pits to unlock powerful resonator-blast combos.",
+    aiTip:
+      "These combos massively boost melee damage — worth learning for tough fights.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Melee%20Pits%20walkthrough"
+  },
+  {
+    id: 407,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Machine Strike Champions",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Board-game prizes, bragging rights",
+    summary:
+      "Beat the West's best players at the in-world tabletop game Machine Strike.",
+    aiTip:
+      "A chess-like minigame — control the center and bait aggressive opponents.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
+  },
+  {
+    id: 408,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "Burning Shores: In the Flood",
+    location: "Los Angeles Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "DLC start, Seyka ally",
+    summary:
+      "Aloy travels to the drowned ruins of Los Angeles and teams with the rebel Seyka against a lingering Zenith threat.",
+    aiTip:
+      "Kicks off the Burning Shores DLC — it's endgame content, so come well-equipped.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20In%20the%20Flood%20walkthrough"
+  },
+  {
+    id: 409,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "Burning Shores: Gilded Prophecy",
+    location: "Los Angeles Ruins",
+    length: "medium",
+    difficulty: "High",
+    reward: "DLC gear, Horus lore",
+    summary:
+      "Investigate a doomsday cult and the buried secrets of the volcanic Burning Shores.",
+    aiTip:
+      "The DLC introduces new machines like the Bilegut — bring acid resistance.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20Gilded%20Prophecy%20walkthrough"
+  },
+  {
+    id: 410,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Surviving Fimbulwinter",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story start, Atreus's search",
+    summary:
+      "As the great winter rages, Kratos and Atreus are drawn toward a prophecy and an unwelcome visit from Freya and Odin's envoy.",
+    aiTip:
+      "The opening teaches the new combat and Atreus's role — experiment with the Leviathan and Blades.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Surviving%20Fimbulwinter%20walkthrough"
+  },
+  {
+    id: 411,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "The Quest for Tyr",
+    location: "Svartalfheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Tyr freed, realm travel opens",
+    summary:
+      "Kratos and Atreus seek the lost war god Tyr, journeying to the dwarven realm of Svartalfheim.",
+    aiTip:
+      "Svartalfheim is huge — grab the boat and revisit for favors once you have new tools.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Quest%20for%20Tyr%20walkthrough"
+  },
+  {
+    id: 412,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "The Reckoning",
+    location: "Svartalfheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, boss fight",
+    summary:
+      "A confrontation forces Kratos to face old habits and a formidable foe in the mines.",
+    aiTip:
+      "Learn to parry and use runic attacks; this fight rewards defensive timing.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Reckoning%20walkthrough"
+  },
+  {
+    id: 413,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Old Friends",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ally reunion, story beat",
+    summary:
+      "Kratos reconnects with an old ally to push the quest forward.",
+    aiTip:
+      "A story-focused chapter — enjoy the character work between fights.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Old%20Friends%20walkthrough"
+  },
+  {
+    id: 414,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Groa's Secret",
+    location: "Vanaheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Prophecy insight, Vanaheim access",
+    summary:
+      "The party uncovers the giant Groa's hidden knowledge about the war to come.",
+    aiTip:
+      "Vanaheim opens up richly here — mark favors to return to after the story.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Groa's%20Secret%20walkthrough"
+  },
+  {
+    id: 415,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "The Word of Fate",
+    location: "Alfheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Norns' prophecy revealed",
+    summary:
+      "Kratos seeks the Norns to learn whether fate can be defied.",
+    aiTip:
+      "A revelatory chapter with tense encounters — keep resurrection stones handy.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Word%20of%20Fate%20walkthrough"
+  },
+  {
+    id: 416,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "Forging Destiny",
+    location: "Multiple realms",
+    length: "medium",
+    difficulty: "High",
+    reward: "Draupnir Spear obtained",
+    summary:
+      "Kratos forges a legendary new weapon to change the odds against Odin.",
+    aiTip:
+      "The Draupnir Spear is a build-defining weapon — respec runic attacks around it.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Forging%20Destiny%20walkthrough"
+  },
+  {
+    id: 417,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Reunion",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Family reunited, story beat",
+    summary:
+      "Separated threads of the family come back together as Ragnarök nears.",
+    aiTip:
+      "Emotional pivot point — a lighter combat chapter.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Reunion%20walkthrough"
+  },
+  {
+    id: 418,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Creatures of Prophecy",
+    location: "Multiple realms",
+    length: "long",
+    difficulty: "High",
+    reward: "Story climax build-up",
+    summary:
+      "The prophecy's pieces align as the realms edge toward open war.",
+    aiTip:
+      "Escalating encounters — upgrade armor at Brok and Sindri before proceeding.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Creatures%20of%20Prophecy%20walkthrough"
+  },
+  {
+    id: 419,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Helheim",
+    title: "Unleashing Hel",
+    location: "Helheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Helheim confronted, story turn",
+    summary:
+      "A journey into Helheim forces a reckoning with grief and rage.",
+    aiTip:
+      "Helheim's frost enemies resist ice — favor the Blades of Chaos here.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Unleashing%20Hel%20walkthrough"
+  },
+  {
+    id: 420,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Asgard",
+    title: "The Realms at War",
+    location: "Asgard / Multiple",
+    length: "long",
+    difficulty: "High",
+    reward: "Final battle begins",
+    summary:
+      "Ragnarök erupts as the realms unite against Asgard.",
+    aiTip:
+      "The war chapter is a spectacle gauntlet — bring your strongest setup.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Realms%20at%20War%20walkthrough"
+  },
+  {
+    id: 421,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Beyond Ragnarök",
+    location: "All realms",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Free roam, cleanup unlocked",
+    summary:
+      "With the story's climax past, the realms open fully for remaining favors and challenges.",
+    aiTip:
+      "Now's the time to mop up favors, Berserkers, and collectibles across all nine realms.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Beyond%20Ragnar%C3%B6k%20walkthrough"
+  },
+  {
+    id: 422,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "In Service of Asgard",
+    location: "Svartalfheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Aurvangar Wetlands cleared, gear",
+    summary:
+      "Clear the Aesir raiders and machines fouling the Aurvangar Wetlands for the dwarves.",
+    aiTip:
+      "A good early favor to learn Svartalfheim traversal and grab Hacksilver.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20In%20Service%20of%20Asgard%20walkthrough"
+  },
+  {
+    id: 423,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "The Lost Treasure",
+    location: "Svartalfheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Legendary chest, gear",
+    summary:
+      "Follow a dwarven map to a hidden cache of treasure in Svartalfheim.",
+    aiTip:
+      "Solve the environmental clue to unseal the vault — good early upgrade loot.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Lost%20Treasure%20walkthrough"
+  },
+  {
+    id: 424,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Scent of Survival",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Vanaheim gear, machine hunt",
+    summary:
+      "Hunt a dangerous predator threatening travelers in the Vanaheim jungle.",
+    aiTip:
+      "Bring Sonic and Bifröst-boosted attacks; dodge its pounce.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Scent%20of%20Survival%20walkthrough"
+  },
+  {
+    id: 425,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Return of the River",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "The Jungle opens up, gear",
+    summary:
+      "Restore a dammed river in Vanaheim to reveal new paths and treasures.",
+    aiTip:
+      "Reopening the river unlocks traversal to previously blocked areas — do it early in Vanaheim.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Return%20of%20the%20River%20walkthrough"
+  },
+  {
+    id: 426,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "For Vanaheim!",
+    location: "Vanaheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Freyr's camp, region liberation",
+    summary:
+      "Join Freyr's resistance to drive Odin's forces out of Vanaheim once and for all.",
+    aiTip:
+      "A big multi-part favor with tough camps — bring your best runic loadout.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20For%20Vanaheim!%20walkthrough"
+  },
+  {
+    id: 427,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "The Desert Door",
+    location: "Alfheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Barrens sealed vault",
+    summary:
+      "Brave the shifting sandstorms of Alfheim's Barrens to reach a sealed door and its reward.",
+    aiTip:
+      "The sandstorm slows you — use the sled and follow the wind-cleared paths.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Desert%20Door%20walkthrough"
+  },
+  {
+    id: 428,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "The Elven Sanctum",
+    location: "Alfheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sealed sanctum loot, lore",
+    summary:
+      "Breach an ancient elven sanctum locked away in Alfheim.",
+    aiTip:
+      "Light/Dark elf puzzles gate the way — use Sigil arrows to redirect the light.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Elven%20Sanctum%20walkthrough"
+  },
+  {
+    id: 429,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "Secret of the Sands",
+    location: "Alfheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Forbidden Sands treasure",
+    summary:
+      "Uncover what the Light Elves buried beneath the Forbidden Sands.",
+    aiTip:
+      "Pairs well with The Desert Door — clear both on one Barrens trip.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Secret%20of%20the%20Sands%20walkthrough"
+  },
+  {
+    id: 430,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Niflheim",
+    title: "The Broken Prison",
+    location: "Niflheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dreamshade flower, Niflheim loot",
+    summary:
+      "Descend into the mists of Niflheim's Broken Prison for a rare flower and dangerous foes.",
+    aiTip:
+      "The mist drains health — keep moving toward the objective and manage resources.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Broken%20Prison%20walkthrough"
+  },
+  {
+    id: 431,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Nine Realms in Bloom",
+    location: "All realms",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Yggdrasil's Dew (permanent stat boosts)",
+    summary:
+      "Find nine mysterious flowers scattered across every realm to restore Ratatoskr's tree.",
+    aiTip:
+      "Each flower grants a permanent stat boost via Yggdrasil's Dew — a top-priority collectible favor.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Nine%20Realms%20in%20Bloom%20walkthrough"
+  },
+  {
+    id: 432,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "The Mysterious Orb",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion favor, gear",
+    summary:
+      "Investigate a strange glowing orb and the being connected to it.",
+    aiTip:
+      "A short lore favor with a memorable payoff — read the dialogue.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Mysterious%20Orb%20walkthrough"
+  },
+  {
+    id: 433,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Trail of the Dead",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Draugr threat cleared, gear",
+    summary:
+      "Follow a grisly trail of draugr corpses to their source in Vanaheim.",
+    aiTip:
+      "Draugr swarm — area runic attacks clear them fast.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Trail%20of%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 434,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Path of Destruction",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Machine wreckage loot, gear",
+    summary:
+      "Deal with the destruction left in the wake of a rampaging force in Vanaheim.",
+    aiTip:
+      "Rewards solid crafting resources — a good mid-game favor.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Path%20of%20Destruction%20walkthrough"
+  },
+  {
+    id: 435,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "In the Dead of Night",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dreki hide, crafting mats",
+    summary:
+      "Track a fearsome Dreki to its hideout in the Vanaheim plains and take it down.",
+    aiTip:
+      "Dreki charge lightning attacks — parry the tail sweep and punish after.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20In%20the%20Dead%20of%20Night%20walkthrough"
+  },
+  {
+    id: 436,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Quaking Hollow",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Sealed cave loot",
+    summary:
+      "Investigate the tremors emanating from a hollow deep in Vanaheim.",
+    aiTip:
+      "Use the spear's environmental detonations to open the way.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Quaking%20Hollow%20walkthrough"
+  },
+  {
+    id: 437,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "The Burning Skies",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Aerial machine downed, gear",
+    summary:
+      "Bring down a menacing airborne machine darkening Vanaheim's skies.",
+    aiTip:
+      "Sonic arrows stagger it out of the air — then close for the kill.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Burning%20Skies%20walkthrough"
+  },
+  {
+    id: 438,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Conscience for the Dead",
+    location: "Midgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lúnda's questline, gear",
+    summary:
+      "Help lay a haunted soul to rest as part of the Dead trilogy of favors.",
+    aiTip:
+      "One of three linked 'Dead' favors — completing all three tells a full story.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Conscience%20for%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 439,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Casualty of War: The Stein",
+    location: "Multiple realms",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Berserker Gravestone reward",
+    summary:
+      "Answer a Berserker's challenge and defeat the summoned undead champion.",
+    aiTip:
+      "Berserkers are optional bosses — upgrade gear first; they hit brutally hard.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Stein%20walkthrough"
+  },
+  {
+    id: 440,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Fit for a King (Berserkers)",
+    location: "Multiple realms",
+    length: "long",
+    difficulty: "High",
+    reward: "King Hrólf boss, best-in-slot gear",
+    summary:
+      "Defeat all the Berserker Souls across the realms to face their king, Hrólf Kraki.",
+    aiTip:
+      "The toughest optional fights in the game — save Hrólf for endgame with maxed gear.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Fit%20for%20a%20King%20(Berserkers)%20walkthrough"
+  },
+  {
+    id: 441,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "The All-Father Blinded (Odin's Ravens)",
+    location: "All realms",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Raven Keeper reward, gear",
+    summary:
+      "Hunt down and destroy Odin's spectral ravens hidden across the nine realms.",
+    aiTip:
+      "Listen for their green glow and cawing — a satisfying realm-spanning collectible favor.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20All-Father%20Blinded%20(Odin's%20Ravens)%20walkthrough"
+  },
+  {
+    id: 442,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "Guiding Light",
+    location: "Alfheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Strönd navigated, gear",
+    summary:
+      "Restore light to a darkened elven region to press onward.",
+    aiTip:
+      "Redirect the elven light beams with Sigil arrows to banish the dark.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Guiding%20Light%20walkthrough"
+  },
+  {
+    id: 443,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Sigrún's Curse",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Cursed grove cleansed, rare gear",
+    summary:
+      "Lift a lingering curse plaguing a Vanaheim grove.",
+    aiTip:
+      "A tougher favor with a strong reward — bring status-resist armor.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Sigr%C3%BAn's%20Curse%20walkthrough"
   }
 ];

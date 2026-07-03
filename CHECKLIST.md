@@ -1,5 +1,10 @@
 # RPG Quest Guide — Launch & Improvement Checklist
 
+> 📊 **Live progress, per-game coverage tracker, and roadmap now live in [`PROGRESS.md`](PROGRESS.md).**
+> This file tracks launch/platform tasks; `PROGRESS.md` tracks quest-content coverage.
+>
+> **Status legend:** ✅ done · 🟡 done but not verified against a guide · 🔴 not started / sample only
+
 ## ✅ Done
 - [x] Site live on GitHub Pages (https://kbarbu12.github.io/newapp/)
 - [x] Rename site to "RPG Quest Guide"
@@ -12,7 +17,9 @@
 - [x] Dynamic page title on game filter
 - [x] Fix card banner images (no cropping)
 - [x] Expand quest library to 199 quests (~15 per game)
-- [x] Full coverage pass for Cyberpunk 2077 (20 → 76) and FF7 Rebirth (18 → 57)
+- [x] Full coverage pass — Cyberpunk 2077 (20 → 76) and FF7 Rebirth (18 → 57)
+- [x] Full coverage pass — Witcher 3 (15 → 49), God of War Ragnarök (14 → 48), Horizon FW (14 → 41)
+- [x] Library now at 443 quests across 15 games
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
@@ -37,6 +44,8 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 - [ ] DLC / expansion content (e.g. Phantom Liberty, Shadow of the Erdtree)
 - [ ] Secrets, legendary items, and endings
 - [ ] Verify against a canonical guide (PowerPyx / Game8 / Fextralife) before marking done
+
+**Next coverage batch (per `PROGRESS.md`):** Persona 5 Royal · Ghost of Tsushima · Hogwarts Legacy
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)
