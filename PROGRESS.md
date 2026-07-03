@@ -1,7 +1,7 @@
 # RPG Quest Guide — Progress & Roadmap
 
 **Last updated:** 2026-07-03
-**Branch:** `claude/security-hardening`
+**Branch:** `claude/quest-audit-222ne7`
 **Live site:** https://kbarbu12.github.io/newapp/
 
 ---
@@ -125,6 +125,11 @@ client-side injection and abuse of the one outbound call (the feedback form). Do
 "Complete" here means all **named quests** (main story, side quests, and named repeatable
 contracts like gigs/favours/tales), **not** every collectible or filler activity.
 
+This tracks two different lenses: **completeness** (how much of each game is covered) and
+**accuracy** (whether the entries we *do* list are named/described correctly). Completeness
+tiers first, then the Jul 3 accuracy pass.
+
+**Completeness — where each game stands:**
 - ✅ **Effectively complete for their scope:** FF7 Rebirth, God of War Ragnarök,
   Demon's Souls (boss/NPC-driven). Cyberpunk 2077, The Witcher 3, and Horizon Forbidden
   West are **close** but likely missing a handful of gigs/contracts/errands.
@@ -148,6 +153,34 @@ returns counts/summaries but not full enumerated name lists. So the individual-q
 expansion for the 🟠/🟡 games **cannot be done accurately from inside this environment** —
 it needs either guide-host egress enabled (for a scripted wiki diff) or the lists supplied
 directly. Fabricating ~200 unverified entries from memory would degrade a guide users rely on.
+
+### Accuracy audit — quest-audit pass (Jul 3)
+Separate from completeness: a data-integrity + name-accuracy sweep over the library. It does
+**not** expand coverage (see the blocker above) — it verifies that the entries already present
+are correct. Findings:
+- **Integrity (clean):** no duplicate IDs, no missing required fields, no duplicate titles
+  within a game, no malformed/reused video links. Per-game counts match this file's table.
+  Verified via a headless-Chromium render (all cards draw, no app JS errors).
+- **Content fixes — Pillars of Eternity & Deadfire (11 companion-quest titles):** these
+  entries carried plausible-but-wrong titles (real side-quest names misattributed to
+  companions). Each real title was verified against the **official Pillars of Eternity Fandom
+  wiki** (cross-checked with Fextralife / gamepressure) and corrected, along with the embedded
+  YouTube search links:
+  - PoE1 — Edér: *The Talons Abound* → **Fragments of a Scattered Faith**; Aloth: *The Hollow
+    Within* → **Two-Sided**; Sagani: *Vengeance from the Grave* → **The Long Hunt**; Pallegina:
+    *Clandestine Cargo* → **The Child of Five Suns**; Grieving Mother: *Ghosts of Time* →
+    **Dream and Memory**.
+  - Deadfire — Edér: *Home Fires* → **The Lighted Path**; Serafen: *A Man of Ill Tidings* →
+    **A Sorcerer and a Gentleman**; Maia Rua: *A Sinking Feeling* → **The Courier's Calling**;
+    Xoti: *Xoti's Lantern* → **The Lantern of Gaun**; Pallegina: *Pallegina's Mission* →
+    **The Man of Chimes**; Tekēhu: *The Painted Masks* → **The Shadow Under Neketaka** (Tekēhu
+    has no standalone personal quest — he is central to the Watershaper Guild questline instead).
+  - Also fixed two false summary claims: Serafen's quest is tracking the pirate **Remaro**
+    (not a "slaver captain"), and **Maia Rua's brother is Kana Rua, not Serafen** (they are not
+    siblings). And retagged Elden Ring's *Diallos & the Volcano Manor* from **Caelid** (wrong —
+    Diallos has no Caelid ties) to **Leyndell & Altus**, matching the other Volcano Manor entry.
+  - *Note: Pillars I & II remain 🔴 on **completeness** above — the accuracy pass corrected the
+    entries that exist; it did not add the missing ones.*
 
 ### Tooling note (why a few entries may be missing)
 This environment's egress policy blocks direct page fetches to the wiki/guide hosts
