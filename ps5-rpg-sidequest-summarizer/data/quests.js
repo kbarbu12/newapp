@@ -2498,16 +2498,16 @@ const quests = [
     type: "side",
     game: "Demon's Souls",
     region: "Latria",
-    title: "Worshiper of God's Questline",
-    location: "Various Worlds",
-    length: "long",
+    title: "Yurt, the Silent Chief",
+    location: "Tower of Latria (3-2) / The Nexus",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Faith-based miracles, Pure White World Tendency",
+    reward: "Gloom Set, NPC fates",
     summary:
-      "Interact with various NPC characters who follow the God of the nexus across multiple worlds. Their questlines reward miracles and demonstrate how Demon's Souls uses NPCs to reflect the game's morality system.",
+      "Decide the fate of the caged assassin Yurt in the Tower of Latria. Free him and he relocates to the Nexus, murdering a named NPC each time you slay an archdemon; cut him down there instead to claim the Gloom Set. His killings serve his accomplice Mephistopheles.",
     aiTip:
-      "Maintaining Pure White World Tendency opens additional NPC interactions and spawns unique items. Avoid dying in body form and kill Black Phantom NPCs to shift tendency toward white.",
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Worshiper%20of%20God's%20Questline%20walkthrough"
+      "Freeing Yurt is a trap — to keep the Nexus vendors and questline NPCs alive, kill him on sight once he appears. His victims can otherwise only be 'avenged' by taking Mephistopheles' contracts at Pure Black tendency.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
   },
   {
     id: 146,
@@ -3273,7 +3273,7 @@ const quests = [
     id: 197,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "Companion: Xoti's Lantern",
+    title: "Companion: Xoti — The Lantern of Gaun",
     location: "Various Islands",
     length: "long",
     difficulty: "Medium",
@@ -3282,7 +3282,7 @@ const quests = [
       "Travel with the monk-priestess Xoti as she struggles with the weight of souls she has harvested in her lantern. Her questline explores religious devotion, trauma, and the burden of a divine calling across multiple islands.",
     aiTip:
       "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti's%20Lantern%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
   },
   {
     id: 198,
@@ -3303,7 +3303,7 @@ const quests = [
     id: 199,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
-    title: "Companion: Pallegina's Mission",
+    title: "Companion: Pallegina — The Man of Chimes",
     location: "Various / Vailian Republics Quests",
     length: "long",
     difficulty: "Medium",
@@ -3312,7 +3312,7 @@ const quests = [
       "Help Pallegina the godlike soldier navigate her complicated loyalty to the Vailian Trading Company while staying true to her own moral compass. Her questline adds nuance to the game's faction conflicts and her own identity struggle.",
     aiTip:
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina's%20Mission%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
   },
   {
     id: 200,
@@ -12335,7 +12335,7 @@ const quests = [
     type: "side",
     game: "Pillars of Eternity",
     region: "Gilded Vale",
-    title: "Companion: Edér — The Talons Abound",
+    title: "Companion: Edér — Fragments of a Scattered Faith",
     location: "Gilded Vale / Dyrford",
     length: "medium",
     difficulty: "Medium",
@@ -12344,14 +12344,14 @@ const quests = [
       "Help Edér uncover the truth about his brother Woden and the war that tore the Dyrwood apart.",
     aiTip:
       "Edér's quest deepens the game's religious themes — a rewarding companion arc.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Talons%20Abound%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Fragments%20of%20a%20Scattered%20Faith%20walkthrough"
   },
   {
     id: 764,
     type: "side",
     game: "Pillars of Eternity",
     region: "Defiance Bay",
-    title: "Companion: Aloth — The Hollow Within",
+    title: "Companion: Aloth — Two-Sided",
     location: "Defiance Bay",
     length: "medium",
     difficulty: "Medium",
@@ -12360,14 +12360,14 @@ const quests = [
       "Unravel the mystery of the wizard Aloth's hidden second personality and his ties to the Leaden Key.",
     aiTip:
       "His arc ties directly into the main conspiracy — pursue it before the finale.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20The%20Hollow%20Within%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20Two-Sided%20walkthrough"
   },
   {
     id: 765,
     type: "side",
     game: "Pillars of Eternity",
     region: "Caed Nua",
-    title: "Companion: Sagani — Vengeance from the Grave",
+    title: "Companion: Sagani — The Long Hunt",
     location: "Various",
     length: "medium",
     difficulty: "Medium",
@@ -12376,14 +12376,14 @@ const quests = [
       "Aid the dwarven hunter Sagani in her lifelong quest to find the reincarnation of her village's elder.",
     aiTip:
       "Her quest can conclude across the world map — bring her along as you travel.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20Vengeance%20from%20the%20Grave%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20The%20Long%20Hunt%20walkthrough"
   },
   {
     id: 766,
     type: "side",
     game: "Pillars of Eternity",
     region: "Defiance Bay",
-    title: "Companion: Pallegina — Clandestine Cargo",
+    title: "Companion: Pallegina — The Child of Five Suns",
     location: "Defiance Bay",
     length: "medium",
     difficulty: "Medium",
@@ -12392,14 +12392,14 @@ const quests = [
       "Help the godlike paladin Pallegina serve the Vailian Republics — or defy their orders.",
     aiTip:
       "Your advice affects Pallegina's standing with her order and her ending.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20Clandestine%20Cargo%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Child%20of%20Five%20Suns%20walkthrough"
   },
   {
     id: 767,
     type: "side",
     game: "Pillars of Eternity",
     region: "Dyrford",
-    title: "Companion: Grieving Mother — Ghosts of Time",
+    title: "Companion: Grieving Mother — Dream and Memory",
     location: "Dyrford",
     length: "medium",
     difficulty: "High",
@@ -12408,7 +12408,7 @@ const quests = [
       "Peer into the fractured memories of the mysterious Grieving Mother and the terrible mercy she performs.",
     aiTip:
       "One of the most thematically rich companion arcs — take your time with the memories.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Ghosts%20of%20Time%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Dream%20and%20Memory%20walkthrough"
   },
   {
     id: 768,
@@ -12623,7 +12623,7 @@ const quests = [
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Companion: Edér — Home Fires",
+    title: "Companion: Edér — The Lighted Path",
     location: "Sayuka",
     length: "medium",
     difficulty: "Medium",
@@ -12632,55 +12632,55 @@ const quests = [
       "Help Edér find a lost love and reckon with his faith now that Eothas has returned.",
     aiTip:
       "A warm, human arc amid the divine stakes — worth doing before the finale.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Home%20Fires%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
   },
   {
     id: 782,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Companion: Serafen — A Man of Ill Tidings",
+    title: "Companion: Serafen — A Sorcerer and a Gentleman",
     location: "Deadfire seas",
     length: "medium",
     difficulty: "High",
-    reward: "Serafen's past, slaver reckoning",
+    reward: "Serafen's past, Remaro's fate",
     summary:
-      "Aid the cipher orlan pirate Serafen in confronting the slaver captain from his past.",
+      "Aid the cipher orlan pirate Serafen in tracking down Remaro, an old pirate the Príncipi have branded a mutineer and traitor.",
     aiTip:
       "Ship-combat friendly — chase the target across the seas with the Defiant.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Man%20of%20Ill%20Tidings%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
   {
     id: 783,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Companion: Maia Rua — A Sinking Feeling",
+    title: "Companion: Maia Rua — The Courier's Calling",
     location: "Deadfire seas",
     length: "medium",
     difficulty: "Medium",
-    reward: "Maia's Rauatai orders, family",
+    reward: "Maia's Rauatai orders, RDC standing",
     summary:
-      "Help the Rauataian sharpshooter Maia balance her orders against her brother Serafen's loyalties.",
+      "Help the Rauataian sharpshooter Maia deliver the Royal Deadfire Company's missives across the archipelago — and reckon with the ruthless orders that come with them.",
     aiTip:
-      "Their sibling arc can collide — your mediation matters.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20A%20Sinking%20Feeling%20walkthrough"
+      "Her loyalty to Rauatai can clash with the Watcher's conscience — your input shapes her ending.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
   },
   {
     id: 784,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Companion: Tekēhu — The Painted Masks",
+    title: "Companion: Tekēhu — The Shadow Under Neketaka",
     location: "Neketaka",
     length: "medium",
     difficulty: "Medium",
     reward: "Tekēhu's watershaper heritage",
     summary:
-      "Guide the flamboyant godlike Tekēhu as he wrestles with his rare watershaper gifts and Huana duty.",
+      "Tekēhu has no standalone personal quest — instead the flamboyant godlike watershaper takes center stage in the Watershaper Guild's investigation of The Shadow Under Neketaka, wrestling with his rare gifts and Huana duty.",
     aiTip:
       "A charismatic arc exploring the Huana's caste system and divine blood.",
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Painted%20Masks%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
   },
   {
     id: 785,
@@ -13150,9 +13150,9 @@ const quests = [
     id: 814,
     type: "side",
     game: "Elden Ring",
-    region: "Caelid",
+    region: "Leyndell & Altus",
     title: "Diallos & the Volcano Manor",
-    location: "Caelid",
+    location: "Volcano Manor / Jarburg",
     length: "medium",
     difficulty: "Medium",
     reward: "Diallos's fate, Hoslow's gear",
