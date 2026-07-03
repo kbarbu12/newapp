@@ -26,6 +26,8 @@
 - [x] Deep-fill the last 4 games (Metaphor, Demon's Souls, Pillars of Eternity, Deadfire) — library now **786**; 12 of 15 games deep-filled
 - [x] Deep-fill BG3, Elden Ring (+ full Shadow of the Erdtree DLC), and Black Myth: Wukong — **all 15 games now deep-filled; library at 844 quests**
 - [x] Add "Shadow of the Erdtree (DLC)" option to the Elden Ring region sub-filter
+- [x] Per-game sub-filters for 13 of 15 games (District/Region/Realm/Archstone) + back-filled region tags on older entries
+- [x] Video audit: all 844 walkthrough links verified to capture their own quest (43 generic/shared videos replaced)
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links

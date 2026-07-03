@@ -123,6 +123,111 @@ const subFilterConfig = {
       { value: "Skellige", text: "Skellige" },
       { value: "Toussaint", text: "Toussaint (Blood & Wine)" }
     ]
+  },
+  "Cyberpunk 2077: Ultimate Edition": {
+    field: "region",
+    label: "District",
+    options: [
+      { value: "Watson", text: "Watson" },
+      { value: "Westbrook", text: "Westbrook" },
+      { value: "Heywood", text: "Heywood" },
+      { value: "Pacifica", text: "Pacifica" },
+      { value: "Santo Domingo", text: "Santo Domingo" },
+      { value: "City Center", text: "City Center" },
+      { value: "Badlands", text: "Badlands" },
+      { value: "Dogtown", text: "Dogtown (Phantom Liberty)" }
+    ]
+  },
+  "Final Fantasy VII Rebirth": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Grasslands", text: "Grasslands" },
+      { value: "Junon", text: "Junon" },
+      { value: "Corel", text: "Corel" },
+      { value: "Gongaga", text: "Gongaga" },
+      { value: "Cosmo Canyon", text: "Cosmo Canyon" },
+      { value: "Nibel", text: "Nibel" }
+    ]
+  },
+  "God of War Ragnarök": {
+    field: "region",
+    label: "Realm",
+    options: [
+      { value: "Midgard", text: "Midgard" },
+      { value: "Svartalfheim", text: "Svartalfheim" },
+      { value: "Vanaheim", text: "Vanaheim" },
+      { value: "Alfheim", text: "Alfheim" },
+      { value: "Muspelheim", text: "Muspelheim" },
+      { value: "Niflheim", text: "Niflheim" },
+      { value: "Helheim", text: "Helheim" },
+      { value: "Asgard", text: "Asgard" }
+    ]
+  },
+  "Horizon Forbidden West": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Sacred Lands", text: "Sacred Lands" },
+      { value: "The Daunt", text: "The Daunt" },
+      { value: "The Clan Lands", text: "The Clan Lands" },
+      { value: "The Sea of Sands", text: "The Sea of Sands" },
+      { value: "Burning Shores", text: "Burning Shores (DLC)" }
+    ]
+  },
+  "Ghost of Tsushima": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Izuhara", text: "Izuhara" },
+      { value: "Toyotama", text: "Toyotama" },
+      { value: "Kamiagata", text: "Kamiagata" },
+      { value: "Iki Island", text: "Iki Island (DLC)" }
+    ]
+  },
+  "Hogwarts Legacy": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Hogwarts", text: "Hogwarts Castle" },
+      { value: "Hogsmeade", text: "Hogsmeade" },
+      { value: "Highlands", text: "Highlands" },
+      { value: "Feldcroft", text: "Feldcroft Region" }
+    ]
+  },
+  "Metaphor: ReFantazio": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Grand Trad", text: "Grand Trad" },
+      { value: "Martira", text: "Martira" },
+      { value: "Kriegante", text: "Kriegante" },
+      { value: "Skanda", text: "Skanda" }
+    ]
+  },
+  "Demon's Souls": {
+    field: "region",
+    label: "Archstone",
+    options: [
+      { value: "Boletaria", text: "Boletarian Palace" },
+      { value: "Stonefang", text: "Stonefang Tunnel" },
+      { value: "Latria", text: "Tower of Latria" },
+      { value: "Shrine of Storms", text: "Shrine of Storms" },
+      { value: "Valley of Defilement", text: "Valley of Defilement" },
+      { value: "The Nexus", text: "The Nexus" }
+    ]
+  },
+  "Pillars of Eternity": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Gilded Vale", text: "Gilded Vale" },
+      { value: "Caed Nua", text: "Caed Nua" },
+      { value: "Defiance Bay", text: "Defiance Bay" },
+      { value: "Twin Elms", text: "Twin Elms" },
+      { value: "Dyrford", text: "Dyrford" },
+      { value: "White March", text: "The White March (DLC)" }
+    ]
   }
 };
 
@@ -227,6 +332,7 @@ const quests = [
     id: 7,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Livestock's Bane",
     location: "Grasslands",
     length: "short",
@@ -242,6 +348,7 @@ const quests = [
     id: 8,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Corel",
     title: "The Saga of the Seaside Inn",
     location: "Corel / Costa del Sol",
     length: "medium",
@@ -257,6 +364,7 @@ const quests = [
     id: 9,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Can't Stop Won't Stop",
     location: "Gold Saucer",
     length: "medium",
@@ -272,6 +380,7 @@ const quests = [
     id: 10,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
     title: "Sinnerman",
     location: "Night City",
     length: "medium",
@@ -287,6 +396,7 @@ const quests = [
     id: 11,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
     title: "Dream On",
     location: "Night City / Peralez Apartment",
     length: "medium",
@@ -302,6 +412,7 @@ const quests = [
     id: 12,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
     title: "The Hunt",
     location: "Night City / Braindance sequences",
     length: "long",
@@ -365,6 +476,7 @@ const quests = [
     id: 16,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "Help the Hushed Honeybee",
     location: "Grand Trad",
     length: "short",
@@ -380,6 +492,7 @@ const quests = [
     id: 17,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "Pagan's Dilemma",
     location: "Grand Trad",
     length: "medium",
@@ -395,6 +508,7 @@ const quests = [
     id: 18,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "The Monster of Grand Trad",
     location: "Grand Trad Sewers",
     length: "medium",
@@ -404,12 +518,13 @@ const quests = [
       "Track a dangerous creature lurking beneath the capital city. The dungeon is optional but holds some of the best mid-game loot and tests party composition.",
     aiTip:
       "Bring a healer Archetype and stock up on MP restoratives. The boss hits hard and exploits elemental weaknesses.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Monster%20of%20Grand%20Trad%20walkthrough"
   },
   {
     id: 19,
     type: "side",
     game: "Demon's Souls",
+    region: "Latria",
     title: "Yuria the Witch's Rescue",
     location: "Tower of Latria (3-1)",
     length: "medium",
@@ -425,6 +540,7 @@ const quests = [
     id: 20,
     type: "side",
     game: "Demon's Souls",
+    region: "Shrine of Storms",
     title: "Sparkly the Crow's Trades",
     location: "Shrine of Storms (4-1)",
     length: "short",
@@ -440,6 +556,7 @@ const quests = [
     id: 21,
     type: "side",
     game: "Demon's Souls",
+    region: "Stonefang",
     title: "Scirvir the Wanderer's Challenge",
     location: "Stonefang Tunnel (2-2)",
     length: "short",
@@ -455,6 +572,7 @@ const quests = [
     id: 22,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "The Ghost of Our Love",
     location: "Forbidden Forest",
     length: "short",
@@ -470,6 +588,7 @@ const quests = [
     id: 23,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogsmeade",
     title: "Rescuing Rococo",
     location: "Henrietta's Hideaway",
     length: "medium",
@@ -485,6 +604,7 @@ const quests = [
     id: 24,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "The Hall of Herodiana",
     location: "Hogwarts Castle",
     length: "medium",
@@ -820,6 +940,7 @@ const quests = [
     id: 45,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Svartalfheim",
     title: "The Lost Lindwyrms",
     location: "Svartalfheim & Vanaheim",
     length: "long",
@@ -835,6 +956,7 @@ const quests = [
     id: 46,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Muspelheim",
     title: "Defend Your Valor",
     location: "Muspelheim",
     length: "medium",
@@ -850,6 +972,7 @@ const quests = [
     id: 47,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Vanaheim",
     title: "Freyr's Gift",
     location: "The Forbidden Sands, Alfheim",
     length: "short",
@@ -910,6 +1033,7 @@ const quests = [
     id: 51,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "The Spirit of Yarikawa's Vengeance",
     location: "Ruins of Old Yarikawa, Toyotama",
     length: "medium",
@@ -925,6 +1049,7 @@ const quests = [
     id: 52,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "The Curse of Uchitsune",
     location: "Hiyoshi Springs, Izuhara",
     length: "medium",
@@ -940,6 +1065,7 @@ const quests = [
     id: 53,
     type: "main",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "The Tale of Sensei Ishikawa",
     location: "Hiyoshi Springs, Izuhara",
     length: "long",
@@ -955,6 +1081,7 @@ const quests = [
     id: 54,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "Blood for Blood",
     location: "Memorial Grove, Daunt",
     length: "medium",
@@ -970,6 +1097,7 @@ const quests = [
     id: 55,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Daunt",
     title: "Forbidden Legacy",
     location: "Legacy's Landfall, San Francisco",
     length: "long",
@@ -985,6 +1113,7 @@ const quests = [
     id: 56,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
     title: "The Gate of the Vanquished",
     location: "Scalding Spear, Desert",
     length: "long",
@@ -1000,6 +1129,7 @@ const quests = [
     id: 57,
     type: "main",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "The Man Who Waits",
     location: "Heritage Hill, Defiance Bay",
     length: "medium",
@@ -1015,6 +1145,7 @@ const quests = [
     id: 58,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Caed Nua",
     title: "The Trials of Durance",
     location: "Party Companion Quest",
     length: "long",
@@ -1024,12 +1155,13 @@ const quests = [
       "Unravel the troubled past of Durance, a fanatical priest of Magran, through campfire conversations. His story reveals dark truths about the gods and the Saint's War that reshape your understanding of Eora's history.",
     aiTip:
       "Talk to Durance at every rest. His dialogue triggers are tied to story progression milestones — miss them and you lock yourself out of later revelations.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Trials%20of%20Durance%20walkthrough"
   },
   {
     id: 59,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "The Bronze Beneath the Lake",
     location: "Cliaban Rilag, Stormwall Gorge",
     length: "medium",
@@ -1039,12 +1171,13 @@ const quests = [
       "Explore the ancient Engwithan ruin of Cliaban Rilag, a flooded temple complex guarded by powerful spirits and constructs. The dungeon reveals secrets about the civilization that created the gods.",
     aiTip:
       "This dungeon hits hard — bring crowd control and area-of-effect damage. The spirits inside resist physical attacks, so casters shine here.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Bronze%20Beneath%20the%20Lake%20walkthrough"
   },
   {
     id: 60,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Caed Nua",
     title: "The Master Below",
     location: "Endless Paths of Od Nua, Caed Nua",
     length: "long",
@@ -1054,7 +1187,7 @@ const quests = [
       "Descend all fifteen levels of the Endless Paths beneath your stronghold to confront the Adra Dragon at the bottom. The mega-dungeon spans the entire game and escalates from bandits to some of the toughest encounters in the series.",
     aiTip:
       "Don't try to clear it in one go — return between levels to rest and resupply. The Adra Dragon can be talked down if your Resolve and Lore are high enough.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master%20Below%20walkthrough"
   },
   {
     id: 61,
@@ -1069,7 +1202,7 @@ const quests = [
       "Investigate a mysterious storm surrounding an ancient Engwithan dig site. The Vailian Trading Company wants the artifacts inside, but the ruin's guardians and rival factions have other plans.",
     aiTip:
       "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
   },
   {
     id: 62,
@@ -1084,7 +1217,7 @@ const quests = [
       "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
     aiTip:
       "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
   {
     id: 63,
@@ -1099,7 +1232,7 @@ const quests = [
       "Track down lost grimoires scattered across the Deadfire Archipelago for the eccentric wizard Berkana. Each grimoire contains unique spell combinations not found elsewhere in the game.",
     aiTip:
       "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
   },
   {
     id: 64,
@@ -1114,7 +1247,7 @@ const quests = [
       "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
     aiTip:
       "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
   },
   {
     id: 65,
@@ -1264,6 +1397,7 @@ const quests = [
     id: 74,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "The Protorelic Quests",
     location: "Multiple Regions",
     length: "long",
@@ -1279,6 +1413,7 @@ const quests = [
     id: 75,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Flowers from the Hill",
     location: "Kalm Region",
     length: "short",
@@ -1294,6 +1429,7 @@ const quests = [
     id: 76,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Corel",
     title: "The Musclehead Colosseum",
     location: "Gold Saucer / Corel Region",
     length: "medium",
@@ -1309,6 +1445,7 @@ const quests = [
     id: 77,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Where the Wind Blows",
     location: "Junon Region",
     length: "medium",
@@ -1324,6 +1461,7 @@ const quests = [
     id: 78,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
     title: "Judy's Questline (Pyramid Song)",
     location: "Night City / Laguna Bend",
     length: "long",
@@ -1339,6 +1477,7 @@ const quests = [
     id: 79,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
     title: "Chippin' In",
     location: "Night City / Oil Fields",
     length: "long",
@@ -1354,6 +1493,7 @@ const quests = [
     id: 80,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
     title: "The Peralez Conspiracy (I Fought the Law)",
     location: "Night City / Charter Hill",
     length: "long",
@@ -1369,6 +1509,7 @@ const quests = [
     id: 81,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
     title: "Phantom Liberty – Firestarter",
     location: "Dogtown",
     length: "long",
@@ -1384,6 +1525,7 @@ const quests = [
     id: 82,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "The Tournament of Souls",
     location: "Grand Trad Arena",
     length: "long",
@@ -1393,12 +1535,13 @@ const quests = [
       "Enter a multi-round combat tournament that tests your party composition against increasingly powerful opponents. Each round introduces unique mechanics and enemy archetypes that force you to adapt your strategy.",
     aiTip:
       "Switch Archetypes between rounds to exploit enemy weaknesses. The final opponent resists everything — raw damage output and buff stacking are your best options.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Tournament%20of%20Souls%20walkthrough"
   },
   {
     id: 83,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Martira",
     title: "The Nameless Soldier",
     location: "Fort Endra",
     length: "medium",
@@ -1408,12 +1551,13 @@ const quests = [
       "Investigate reports of a ghostly soldier haunting a ruined fortress. The quest blends dungeon exploration with a poignant story about loyalty, sacrifice, and the cost of the kingdom's wars.",
     aiTip:
       "Bring characters with high Courage — several dialogue checks require it. The ghost's weakness is Light-type attacks.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Nameless%20Soldier%20walkthrough"
   },
   {
     id: 84,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "Follower: Louis's Request",
     location: "Varies by story chapter",
     length: "long",
@@ -1423,12 +1567,13 @@ const quests = [
       "Deepen your bond with the enigmatic Louis through a series of conversations and tasks that reveal his complex motivations. His questline is one of the most narratively important in the game and directly affects the ending.",
     aiTip:
       "Prioritize Louis's Follower ranks early — his later abilities are among the strongest in the game. Pay close attention to his philosophy; your responses matter.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Louis's%20Request%20walkthrough"
   },
   {
     id: 85,
     type: "side",
     game: "Demon's Souls",
+    region: "Latria",
     title: "Saint Urbain's Rescue",
     location: "Shrine of Storms (4-2)",
     length: "medium",
@@ -1444,6 +1589,7 @@ const quests = [
     id: 86,
     type: "side",
     game: "Demon's Souls",
+    region: "The Nexus",
     title: "Mephistopheles' Assassinations",
     location: "The Nexus",
     length: "long",
@@ -1459,6 +1605,7 @@ const quests = [
     id: 87,
     type: "side",
     game: "Demon's Souls",
+    region: "Stonefang",
     title: "Patches the Hyena",
     location: "Stonefang Tunnel (2-2), Shrine of Storms (4-2)",
     length: "short",
@@ -1474,6 +1621,7 @@ const quests = [
     id: 88,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Highlands",
     title: "The Hippogriff Marks the Spot",
     location: "Poidsear Coast",
     length: "medium",
@@ -1489,6 +1637,7 @@ const quests = [
     id: 89,
     type: "main",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "In the Shadow of the Undercroft",
     location: "Hogwarts Castle",
     length: "long",
@@ -1504,6 +1653,7 @@ const quests = [
     id: 90,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "Mer-ky Depths",
     location: "Black Lake",
     length: "medium",
@@ -1519,6 +1669,7 @@ const quests = [
     id: 91,
     type: "main",
     game: "Hogwarts Legacy",
+    region: "Highlands",
     title: "Natty's Questline (The High Keep)",
     location: "Feldcroft Region / Falbarton Castle",
     length: "long",
@@ -1534,6 +1685,7 @@ const quests = [
     id: 92,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Svartalfheim",
     title: "The Weight of Chains",
     location: "Svartalfheim",
     length: "long",
@@ -1549,6 +1701,7 @@ const quests = [
     id: 93,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Svartalfheim",
     title: "Spirit of Rebellion",
     location: "Vanaheim, The Crater",
     length: "long",
@@ -1564,6 +1717,7 @@ const quests = [
     id: 94,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Midgard",
     title: "Fit for a King",
     location: "Svartalfheim, Niðavellir",
     length: "medium",
@@ -1573,12 +1727,13 @@ const quests = [
       "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
     aiTip:
       "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage.",
-    video: "https://www.youtube.com/watch?v=QHVV4jmX0N4"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Fit%20for%20a%20King%20walkthrough"
   },
   {
     id: 95,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Midgard",
     title: "The Berserker Gravestone Battles",
     location: "Multiple Realms",
     length: "long",
@@ -1588,7 +1743,7 @@ const quests = [
       "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
     aiTip:
       "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended.",
-    video: "https://www.youtube.com/watch?v=QHVV4jmX0N4"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Berserker%20Gravestone%20Battles%20walkthrough"
   },
   {
     id: 96,
@@ -1654,6 +1809,7 @@ const quests = [
     id: 100,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "The Legend of Tadayori",
     location: "Azamo Bay, Izuhara",
     length: "medium",
@@ -1669,6 +1825,7 @@ const quests = [
     id: 101,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "The Heavenly Strike",
     location: "Toyotama",
     length: "short",
@@ -1684,6 +1841,7 @@ const quests = [
     id: 102,
     type: "main",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "The Tale of Lady Masako",
     location: "Izuhara / Toyotama",
     length: "long",
@@ -1699,6 +1857,7 @@ const quests = [
     id: 103,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "Gosaku's Armor",
     location: "Akashima, Toyotama",
     length: "long",
@@ -1714,6 +1873,7 @@ const quests = [
     id: 104,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "The Kulrut",
     location: "Memorial Grove, Daunt",
     length: "medium",
@@ -1729,6 +1889,7 @@ const quests = [
     id: 105,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "The Wings of the Ten",
     location: "Sheerside Mountains",
     length: "long",
@@ -1744,6 +1905,7 @@ const quests = [
     id: 106,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Daunt",
     title: "Tallneck: The Devil's Thirst",
     location: "The Daunt",
     length: "short",
@@ -1759,6 +1921,7 @@ const quests = [
     id: 107,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
     title: "The Sea of Sands",
     location: "Stillsands, Desert",
     length: "long",
@@ -1774,6 +1937,7 @@ const quests = [
     id: 108,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "The Dozen's Dispute",
     location: "Defiance Bay",
     length: "medium",
@@ -1783,12 +1947,13 @@ const quests = [
       "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
     aiTip:
       "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Dozen's%20Dispute%20walkthrough"
   },
   {
     id: 109,
     type: "main",
     game: "Pillars of Eternity",
+    region: "Twin Elms",
     title: "Through Death's Gate",
     location: "Brackenbury, Defiance Bay",
     length: "medium",
@@ -1798,7 +1963,7 @@ const quests = [
       "Investigate a sanitarium where animancers are conducting controversial experiments on souls. The quest explores the game's central theme of soul manipulation and forces you to decide how far science should go.",
     aiTip:
       "Read every patient record — they contain hints about the correct ward to investigate. Your choices here affect the animancy hearing later in the act.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Through%20Death's%20Gate%20walkthrough"
   },
   {
     id: 110,
@@ -1813,7 +1978,7 @@ const quests = [
       "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
     aiTip:
       "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
   },
   {
     id: 111,
@@ -1828,10 +1993,8 @@ const quests = [
       "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
     aiTip:
       "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Berath's%20Blessings%20walkthrough"
   },
-
-  // ── Baldur's Gate 3 (additional) ──────────────────────────────────────────
   {
     id: 112,
     type: "side",
@@ -1944,8 +2107,6 @@ const quests = [
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
     video: "https://www.youtube.com/watch?v=bcREpftv-fk"
   },
-
-  // ── Elden Ring (additional) ───────────────────────────────────────────────
   {
     id: 119,
     type: "side",
@@ -2042,12 +2203,11 @@ const quests = [
       "Buy prawns from Boggart and exhaust his dialogue each time you meet him. Don't let Rya's questline progress too far before speaking to him or you'll miss key interactions.",
     video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
   },
-
-  // ── Final Fantasy VII Rebirth (additional) ────────────────────────────────
   {
     id: 125,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
     title: "Tifa's Piano Recital",
     location: "Various Regions",
     length: "medium",
@@ -2063,6 +2223,7 @@ const quests = [
     id: 126,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Lifeline in Peril",
     location: "Grasslands / Kalm",
     length: "short",
@@ -2078,6 +2239,7 @@ const quests = [
     id: 127,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
     title: "My White-Haired Angel",
     location: "Nibel Region / Nibelheim",
     length: "medium",
@@ -2093,6 +2255,7 @@ const quests = [
     id: 128,
     type: "main",
     game: "Final Fantasy VII Rebirth",
+    region: "Junon",
     title: "Junon Parade Training",
     location: "Junon",
     length: "medium",
@@ -2108,6 +2271,7 @@ const quests = [
     id: 129,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
     title: "Queen's Blood Champion",
     location: "Various / Gold Saucer",
     length: "long",
@@ -2123,6 +2287,7 @@ const quests = [
     id: 130,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Junon",
     title: "When Words Won't Do",
     location: "Junon Region / Crow's Nest",
     length: "medium",
@@ -2138,6 +2303,7 @@ const quests = [
     id: 131,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Junon",
     title: "The Hardest Sell",
     location: "Junon Region / Abandoned Lighthouse",
     length: "medium",
@@ -2149,12 +2315,11 @@ const quests = [
       "White Mousse shifts elemental weaknesses as it changes color — match your spells to its current hue. Requires completing When Words Won't Do first.",
     video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
   },
-
-  // ── Cyberpunk 2077 (additional) ───────────────────────────────────────────
   {
     id: 132,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
     title: "Kerry Eurodyne's Questline",
     location: "Night City / Kerry's Villa",
     length: "long",
@@ -2170,6 +2335,7 @@ const quests = [
     id: 133,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
     title: "River Ward's Questline (I Forgive You)",
     location: "Night City / Badlands",
     length: "long",
@@ -2185,6 +2351,7 @@ const quests = [
     id: 134,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
     title: "Panam Palmer's Questline",
     location: "Badlands",
     length: "long",
@@ -2200,6 +2367,7 @@ const quests = [
     id: 135,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
     title: "Phantom Liberty – Somewhat Damaged",
     location: "Dogtown / Cynosure",
     length: "long",
@@ -2215,6 +2383,7 @@ const quests = [
     id: 136,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
     title: "Violence",
     location: "Night City / Clouds",
     length: "medium",
@@ -2230,6 +2399,7 @@ const quests = [
     id: 137,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
     title: "Riders on the Storm",
     location: "Badlands",
     length: "medium",
@@ -2245,6 +2415,7 @@ const quests = [
     id: 138,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
     title: "The Ballad of Buck Ravers",
     location: "Pacifica",
     length: "short",
@@ -2256,12 +2427,11 @@ const quests = [
       "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
     video: "https://www.youtube.com/watch?v=Ea6mRQEyT7g"
   },
-
-  // ── Demon's Souls (additional) ────────────────────────────────────────────
   {
     id: 139,
     type: "side",
     game: "Demon's Souls",
+    region: "Boletaria",
     title: "Ostrava of Boletaria",
     location: "Boletarian Palace (1-1, 1-2, 1-3)",
     length: "long",
@@ -2277,6 +2447,7 @@ const quests = [
     id: 140,
     type: "side",
     game: "Demon's Souls",
+    region: "Latria",
     title: "Sage Freke's Rescue",
     location: "Tower of Latria (3-1)",
     length: "medium",
@@ -2292,6 +2463,7 @@ const quests = [
     id: 141,
     type: "side",
     game: "Demon's Souls",
+    region: "The Nexus",
     title: "Stockpile Thomas",
     location: "The Nexus",
     length: "short",
@@ -2301,12 +2473,13 @@ const quests = [
       "Meet Stockpile Thomas in the Nexus, a kind-hearted man searching for his family. He provides the invaluable service of storing excess items and unlocking later in his questline reveals a heartbreaking backstory.",
     aiTip:
       "Always use Thomas to store excess items — inventory management is critical in Demon's Souls. Talk to him after major boss kills to unlock new dialogue about his family.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stockpile%20Thomas%20walkthrough"
   },
   {
     id: 142,
     type: "main",
     game: "Demon's Souls",
+    region: "Stonefang",
     title: "Dragon God's Weakness",
     location: "Stonefang Tunnel (2-3)",
     length: "short",
@@ -2322,6 +2495,7 @@ const quests = [
     id: 143,
     type: "main",
     game: "Demon's Souls",
+    region: "Latria",
     title: "The Old Monk's Trial",
     location: "Tower of Latria (3-3)",
     length: "short",
@@ -2337,6 +2511,7 @@ const quests = [
     id: 144,
     type: "main",
     game: "Demon's Souls",
+    region: "Valley of Defilement",
     title: "Maiden Astraea's Mercy",
     location: "Valley of Defilement (5-3)",
     length: "medium",
@@ -2352,6 +2527,7 @@ const quests = [
     id: 145,
     type: "side",
     game: "Demon's Souls",
+    region: "Latria",
     title: "Worshiper of God's Questline",
     location: "Various Worlds",
     length: "long",
@@ -2361,14 +2537,13 @@ const quests = [
       "Interact with various NPC characters who follow the God of the nexus across multiple worlds. Their questlines reward miracles and demonstrate how Demon's Souls uses NPCs to reflect the game's morality system.",
     aiTip:
       "Maintaining Pure White World Tendency opens additional NPC interactions and spawns unique items. Avoid dying in body form and kill Black Phantom NPCs to shift tendency toward white.",
-    video: "https://www.youtube.com/watch?v=AT8nZUQI2Eg"
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Worshiper%20of%20God's%20Questline%20walkthrough"
   },
-
-  // ── Hogwarts Legacy (additional) ──────────────────────────────────────────
   {
     id: 146,
     type: "main",
     game: "Hogwarts Legacy",
+    region: "Highlands",
     title: "The Elf, the Nab-Sack, and the Loom",
     location: "Hogsmeade / Vivarium",
     length: "medium",
@@ -2384,6 +2559,7 @@ const quests = [
     id: 147,
     type: "main",
     game: "Hogwarts Legacy",
+    region: "Highlands",
     title: "Charles Rookwood's Trial",
     location: "Rookwood Castle",
     length: "medium",
@@ -2399,6 +2575,7 @@ const quests = [
     id: 148,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Highlands",
     title: "Poppy's Questline (The Plight of the House-Elf)",
     location: "Feldcroft / Clagmar Coast",
     length: "long",
@@ -2414,6 +2591,7 @@ const quests = [
     id: 149,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "The Lost Astrolabe",
     location: "Black Lake Shore",
     length: "short",
@@ -2429,6 +2607,7 @@ const quests = [
     id: 150,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogsmeade",
     title: "Solved by the Bell",
     location: "Clagmar Castle",
     length: "medium",
@@ -2444,6 +2623,7 @@ const quests = [
     id: 151,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogsmeade",
     title: "Flying off the Shelves",
     location: "Hogsmeade",
     length: "short",
@@ -2459,6 +2639,7 @@ const quests = [
     id: 152,
     type: "side",
     game: "Hogwarts Legacy",
+    region: "Hogwarts",
     title: "Astronomy Table Challenges",
     location: "Various Locations",
     length: "long",
@@ -2470,12 +2651,11 @@ const quests = [
       "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
     video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
   },
-
-  // ── Metaphor: ReFantazio (additional) ─────────────────────────────────────
   {
     id: 153,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "Follower: Hulkenberg's Resolve",
     location: "Various / Story Chapters",
     length: "long",
@@ -2485,12 +2665,13 @@ const quests = [
       "Deepen your bond with Hulkenberg, the stoic knight who joins your party early. Her questline explores duty, personal sacrifice, and what it means to serve a cause you believe in — one of the most grounded stories in the game.",
     aiTip:
       "Choose dialogue options that respect her sense of duty rather than challenging it. Her later Archetype upgrades dramatically improve physical combat for the whole party.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Hulkenberg's%20Resolve%20walkthrough"
   },
   {
     id: 154,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "The Gauntlet Runner Races",
     location: "Gauntlet Runner / Travel Routes",
     length: "medium",
@@ -2500,12 +2681,13 @@ const quests = [
       "Compete in races and challenges aboard the Gauntlet Runner between locations. These optional events reward rare accessories and provide a break from dungeon crawling while developing the world's culture.",
     aiTip:
       "Upgrade the Gauntlet Runner's speed stats when possible — faster travel reduces time costs and unlocks harder race tiers. The top tier races reward some of the best accessories in the game.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Gauntlet%20Runner%20Races%20walkthrough"
   },
   {
     id: 155,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "Follower: Strohl's Rage",
     location: "Various / Story Chapters",
     length: "long",
@@ -2515,12 +2697,13 @@ const quests = [
       "Follow Strohl's journey as he wrestles with his volatile nature and a painful past. His questline explores themes of anger, identity, and self-mastery, leading to powerful Archetype evolutions.",
     aiTip:
       "Support Strohl without being dismissive of his anger — he responds best to dialogue that acknowledges his feelings. His Archetype evolutions make him one of the strongest physical attackers.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Strohl's%20Rage%20walkthrough"
   },
   {
     id: 156,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Martira",
     title: "Akademeia's Lost Archives",
     location: "Grand Trad / Akademeia",
     length: "medium",
@@ -2530,12 +2713,13 @@ const quests = [
       "Assist scholars at the prestigious Akademeia institute in recovering stolen research documents. The quest provides significant lore about the Archetype system and rewards rare materials for upgrading your party's magical abilities.",
     aiTip:
       "Bring a party member with high Wisdom for the dialogue checks in this quest. The spellbook rewards are especially valuable for magic-focused builds.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Akademeia's%20Lost%20Archives%20walkthrough"
   },
   {
     id: 157,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
     title: "The Royal Election Debates",
     location: "Grand Trad Arena / Various",
     length: "long",
@@ -2545,12 +2729,13 @@ const quests = [
       "Participate in public debates against rival candidates vying for the throne. Each debate requires choosing the right responses to sway public opinion — a unique mix of social simulation and political strategy.",
     aiTip:
       "Research each rival's platform before the debate — their weaknesses are telegraphed in NPC conversations beforehand. High Eloquence makes debate options more persuasive.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Royal%20Election%20Debates%20walkthrough"
   },
   {
     id: 158,
     type: "side",
     game: "Metaphor: ReFantazio",
+    region: "Martira",
     title: "The Ancient Ruin Expedition",
     location: "Faraway Ruins",
     length: "long",
@@ -2560,14 +2745,13 @@ const quests = [
       "Venture into a dangerous pre-civilization ruin that predates even the Euchronian Kingdom. The dungeon contains enemies resistant to conventional magic and rewards careful party composition and elemental strategy.",
     aiTip:
       "The enemies here require specific elemental counters — scout them with a high-Wisdom party member before committing to attacks. The Archetype unlock at the end is worth every challenge.",
-    video: "https://www.youtube.com/watch?v=tcST2UBAATE"
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Ancient%20Ruin%20Expedition%20walkthrough"
   },
-
-  // ── God of War Ragnarök (additional) ──────────────────────────────────────
   {
     id: 159,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Vanaheim",
     title: "Freya's Missing Peace",
     location: "Vanaheim",
     length: "medium",
@@ -2583,6 +2767,7 @@ const quests = [
     id: 160,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Alfheim",
     title: "In Plain Sight",
     location: "Midgard",
     length: "short",
@@ -2598,6 +2783,7 @@ const quests = [
     id: 161,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Midgard",
     title: "The Raven Tree",
     location: "Niflheim",
     length: "long",
@@ -2613,6 +2799,7 @@ const quests = [
     id: 162,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Midgard",
     title: "Atreus's Search",
     location: "Various Realms",
     length: "long",
@@ -2622,12 +2809,13 @@ const quests = [
       "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
     aiTip:
       "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Atreus's%20Search%20walkthrough"
   },
   {
     id: 163,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Muspelheim",
     title: "The Crucible",
     location: "Muspelheim",
     length: "long",
@@ -2643,6 +2831,7 @@ const quests = [
     id: 164,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Midgard",
     title: "Mimir's Knowledge",
     location: "Various Realms",
     length: "medium",
@@ -2652,12 +2841,13 @@ const quests = [
       "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
     aiTip:
       "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
-    video: "https://www.youtube.com/watch?v=S8lHQrkiUeg"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Mimir's%20Knowledge%20walkthrough"
   },
   {
     id: 165,
     type: "side",
     game: "God of War Ragnarök",
+    region: "Vanaheim",
     title: "Sigrun's Curse",
     location: "Midgard",
     length: "medium",
@@ -2669,8 +2859,6 @@ const quests = [
       "Each Valkyrie has unique attack patterns — observe before committing to aggression. Shield parry timing is critical; learn to deflect their wing attacks for free damage windows.",
     video: "https://www.youtube.com/watch?v=JmBTiG6pCfk"
   },
-
-  // ── Persona 5 Royal (additional) ──────────────────────────────────────────
   {
     id: 166,
     type: "side",
@@ -2776,12 +2964,11 @@ const quests = [
       "Ohya's security suppression ability is especially valuable in the later Palaces where being spotted triggers powerful Shadow reinforcements. Level her up before tackling Shido's Palace.",
     video: "https://www.youtube.com/watch?v=e3kNa_G8_yQ"
   },
-
-  // ── Ghost of Tsushima (additional) ────────────────────────────────────────
   {
     id: 173,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "The Six Blades of Kojiro",
     location: "Iki Island / Toyotama",
     length: "long",
@@ -2797,6 +2984,7 @@ const quests = [
     id: 174,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "The Unbreakable Gosaku",
     location: "Toyotama Region",
     length: "medium",
@@ -2812,6 +3000,7 @@ const quests = [
     id: 175,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "Norio's Devotion",
     location: "Toyotama / Kamiagata",
     length: "long",
@@ -2827,6 +3016,7 @@ const quests = [
     id: 176,
     type: "main",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "A Reckoning in Blood",
     location: "Kamiagata",
     length: "medium",
@@ -2842,6 +3032,7 @@ const quests = [
     id: 177,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Toyotama",
     title: "The Tournament of Kenjutsu",
     location: "Iki Island (Director's Cut)",
     length: "long",
@@ -2851,12 +3042,13 @@ const quests = [
       "Enter a prestigious sword tournament on Iki Island and face increasingly skilled opponents from across the region. Each round reveals more about Iki Island's culture and Jin's complicated connection to the island.",
     aiTip:
       "Tournament opponents each use a specific fighting style — switch stances between rounds. The final opponent counters aggression; use reactive parry strategies.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tournament%20of%20Kenjutsu%20walkthrough"
   },
   {
     id: 178,
     type: "side",
     game: "Ghost of Tsushima",
+    region: "Izuhara",
     title: "Yuna's Pursuit",
     location: "Izuhara / Toyotama",
     length: "long",
@@ -2866,14 +3058,13 @@ const quests = [
       "Help Yuna track down her brother Taka and the Mongols who are exploiting Tsushima's civilians. Her companion quest adds important context to the dynamic between the samurai code and Jin's evolution into the Ghost.",
     aiTip:
       "Side with Yuna in disagreements — her practical approach reflects the Ghost philosophy. Completing all her quests before the end of Act 2 provides the best emotional payoff.",
-    video: "https://www.youtube.com/watch?v=346BJtEDT7o"
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Yuna's%20Pursuit%20walkthrough"
   },
-
-  // ── Horizon Forbidden West (additional) ───────────────────────────────────
   {
     id: 179,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Daunt",
     title: "The Daunt Errands",
     location: "The Daunt",
     length: "short",
@@ -2889,6 +3080,7 @@ const quests = [
     id: 180,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "The Broken Sky",
     location: "Sheerside Mountains",
     length: "long",
@@ -2904,6 +3096,7 @@ const quests = [
     id: 181,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "Sacred Lands",
     title: "The Distant Lands",
     location: "No Man's Land / Utaru Territory",
     length: "medium",
@@ -2913,12 +3106,13 @@ const quests = [
       "Travel beyond Tenakth borders to the dying Utaru tribe's homeland, where the Plague is ravaging crops and people. Aloy must navigate Utaru customs and traditions to earn their trust and access vital information.",
     aiTip:
       "Use Concentration during the ritual portions of this quest — the pacing is slow but skipping dialogue misses critical worldbuilding. The Utaru armor provides useful stealth bonuses.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Distant%20Lands%20walkthrough"
   },
   {
     id: 182,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "The Old Varl's Refuge",
     location: "Legacy's Landfall",
     length: "short",
@@ -2928,12 +3122,13 @@ const quests = [
       "Help a group of elderly Nora refugees who have settled in the ruins of an old Vantage Point and are being harassed by scavengers. A short but touching quest about community and resilience in a collapsed world.",
     aiTip:
       "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
-    video: "https://www.youtube.com/watch?v=QkonvBAhgCk"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Old%20Varl's%20Refuge%20walkthrough"
   },
   {
     id: 183,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "Faro's Tomb",
     location: "San Francisco Ruins",
     length: "long",
@@ -2949,6 +3144,7 @@ const quests = [
     id: 184,
     type: "side",
     game: "Horizon Forbidden West",
+    region: "The Daunt",
     title: "The Bristlebacks",
     location: "Plainsong, Utaru Territory",
     length: "medium",
@@ -2964,6 +3160,7 @@ const quests = [
     id: 185,
     type: "main",
     game: "Horizon Forbidden West",
+    region: "The Clan Lands",
     title: "The Dying Lands",
     location: "Thornmarsh",
     length: "long",
@@ -2975,12 +3172,11 @@ const quests = [
       "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
     video: "https://www.youtube.com/watch?v=goI8MktOdhM"
   },
-
-  // ── Pillars of Eternity (additional) ──────────────────────────────────────
   {
     id: 186,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Twin Elms",
     title: "Lord of a Barren Land",
     location: "Esternwood, Act 2",
     length: "medium",
@@ -2990,12 +3186,13 @@ const quests = [
       "Confront a group of bandits who have taken up residence near the Watcher's stronghold and are terrorising the local farmsteads. The quest escalates into a larger conflict involving a deposed noble seeking to reclaim his land.",
     aiTip:
       "Negotiate first — the noble's demands can be met diplomatically, avoiding a difficult multi-wave battle. Choosing the right outcome improves your Stronghold's relationship with local settlers.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Lord%20of%20a%20Barren%20Land%20walkthrough"
   },
   {
     id: 187,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "The Parable of Wael",
     location: "Copperlane, Defiance Bay",
     length: "medium",
@@ -3005,12 +3202,13 @@ const quests = [
       "Recover a stolen holy text belonging to followers of Wael, the god of secrets and mysteries. The quest has multiple solutions and explores the game's theme of truth versus comfortable deception.",
     aiTip:
       "The 'best' outcome is hidden behind skill checks — Lore and Insight help here. Reading the text before deciding what to do with it changes available dialogue options.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Parable%20of%20Wael%20walkthrough"
   },
   {
     id: 188,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Gilded Vale",
     title: "Brave Derrin",
     location: "Dyrford Village",
     length: "short",
@@ -3020,12 +3218,13 @@ const quests = [
       "A young boy in Dyrford Village is missing, and the adults seem unwilling to search properly. A brief but touching quest that demonstrates the game's commitment to portraying ordinary lives amid extraordinary events.",
     aiTip:
       "This is one of the shortest quests in the game — complete it early in your Dyrford visit. The reward is minor but the dialogue with the child adds unexpected emotional depth.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Brave%20Derrin%20walkthrough"
   },
   {
     id: 189,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Gilded Vale",
     title: "The Nest Egg",
     location: "Elmshore",
     length: "short",
@@ -3035,12 +3234,13 @@ const quests = [
       "Retrieve a valuable egg stolen from a merchant by bandits hiding in Elmshore's dangerous wilderness. A simple fetch quest elevated by the beautiful environment and the option to deal with the bandits through negotiation or combat.",
     aiTip:
       "The bandit camp has a hard encounter if you fight. A high-Intimidate character can convince them to hand over the egg without a fight. The Elmshore area itself contains several rare crafting ingredients worth looting.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Egg%20walkthrough"
   },
   {
     id: 190,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Dyrford",
     title: "A Mother's Plea",
     location: "Defiance Bay / Copperlane",
     length: "medium",
@@ -3050,12 +3250,13 @@ const quests = [
       "A desperate mother begs the Watcher to help find her missing son who has become entangled with a criminal gang in Defiance Bay. The investigation reveals the city's dark underworld and forces a moral choice about redemption.",
     aiTip:
       "Complete the investigation before confronting anyone — partial information leads to a worse outcome. Your choice at the end affects Copperlane faction reputation.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
   },
   {
     id: 191,
     type: "side",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "Burning Bridges",
     location: "Ondra's Gift, Defiance Bay",
     length: "medium",
@@ -3065,12 +3266,13 @@ const quests = [
       "Navigate a gang war brewing in Ondra's Gift between the Doemenel family and a rival faction. Your choice of allegiance shapes the balance of power in Defiance Bay's criminal underworld for the rest of Act 2.",
     aiTip:
       "Back up your chosen faction fully before the confrontation — half-measures result in a difficult three-way battle. The Doemenels offer the best equipment reward if you side with them.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Burning%20Bridges%20walkthrough"
   },
   {
     id: 192,
     type: "main",
     game: "Pillars of Eternity",
+    region: "Defiance Bay",
     title: "Never Far from the Queen",
     location: "Copperlane / Twin Elms",
     length: "long",
@@ -3080,10 +3282,8 @@ const quests = [
       "Unravel the mystery of a missing Glanfathan noble in Defiance Bay whose disappearance has diplomatic implications. The investigation stretches from Copperlane's streets to the sacred elven city of Twin Elms.",
     aiTip:
       "This quest is required to access Twin Elms and Act 3. Don't rush it — the political consequences of your choices here echo through the game's final act.",
-    video: "https://www.youtube.com/watch?v=jdctxlkILKg"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Never%20Far%20from%20the%20Queen%20walkthrough"
   },
-
-  // ── Pillars of Eternity II: Deadfire (additional) ─────────────────────────
   {
     id: 193,
     type: "side",
@@ -3097,7 +3297,7 @@ const quests = [
       "Negotiate trade agreements between rival factions in Neketaka's bustling port district. A diplomacy-heavy quest that rewards high Persuasion and Diplomacy skills with outcomes that open up more lucrative opportunities later.",
     aiTip:
       "Having a party member with Merchant background makes several dialogue options significantly more persuasive. Complete this before committing fully to any one faction.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
   },
   {
     id: 194,
@@ -3112,7 +3312,7 @@ const quests = [
       "Prove yourself worthy to the Tikawaran tribe by completing their traditional rite of passage in the island's dangerous jungle interior. The rite involves both combat challenges and diplomatic negotiations with the local spirits.",
     aiTip:
       "Bring a druid or priest for the spirit interactions — their dialogue options are significantly more effective. Completing the rite opens up Tikawara as a safe harbour and trading post.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
   },
   {
     id: 195,
@@ -3157,7 +3357,7 @@ const quests = [
       "Travel with the monk-priestess Xoti as she struggles with the weight of souls she has harvested in her lantern. Her questline explores religious devotion, trauma, and the burden of a divine calling across multiple islands.",
     aiTip:
       "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti's%20Lantern%20walkthrough"
   },
   {
     id: 198,
@@ -3172,7 +3372,7 @@ const quests = [
       "Reach the legendary lost city of Ukaizo — the final destination of your pursuit of the god Eothas. The city's secrets and your faction allegiance determine which of several dramatically different endings plays out.",
     aiTip:
       "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
   },
   {
     id: 199,
@@ -3187,7 +3387,7 @@ const quests = [
       "Help Pallegina the godlike soldier navigate her complicated loyalty to the Vailian Trading Company while staying true to her own moral compass. Her questline adds nuance to the game's faction conflicts and her own identity struggle.",
     aiTip:
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
-    video: "https://www.youtube.com/watch?v=WLdvPE8kjSo"
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina's%20Mission%20walkthrough"
   },
   {
     id: 200,
@@ -3897,6 +4097,7 @@ const quests = [
     id: 244,
     type: "main",
     game: "Final Fantasy VII Rebirth",
+    region: "Corel",
     title: "Dyne – All That Glitters",
     location: "Chapter 8 – Corel Prison / Gold Saucer",
     length: "medium",
@@ -3912,6 +4113,7 @@ const quests = [
     id: 245,
     type: "main",
     game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
     title: "Sephiroth Reborn – End of the World",
     location: "Chapter 14 – Edge of Creation",
     length: "long",
@@ -3927,6 +4129,7 @@ const quests = [
     id: 246,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
     title: "Gilgamesh – The Ultimate Summon",
     location: "Gilgamesh Island / Meridian Ocean",
     length: "long",
@@ -3942,6 +4145,7 @@ const quests = [
     id: 247,
     type: "side",
     game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
     title: "Rulers of the Outer Worlds",
     location: "Chadley's Combat Simulator",
     length: "medium",
@@ -3957,6 +4161,7 @@ const quests = [
     id: 248,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
     title: "The Heist",
     location: "Konpeki Plaza / City Center",
     length: "medium",
@@ -3972,6 +4177,7 @@ const quests = [
     id: 249,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
     title: "Transmission",
     location: "Pacifica / Voodoo Boys' Data Fortress",
     length: "medium",
@@ -3987,6 +4193,7 @@ const quests = [
     id: 250,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
     title: "Nocturne Op55N1 – Point of No Return",
     location: "Embers / Misty's rooftop",
     length: "short",
@@ -4002,6 +4209,7 @@ const quests = [
     id: 251,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
     title: "(Don't Fear) The Reaper – Secret Ending",
     location: "Arasaka Tower (solo assault)",
     length: "long",
@@ -4017,6 +4225,7 @@ const quests = [
     id: 252,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
     title: "Machine Gun – Skippy the Talking Pistol",
     location: "Heywood / Vista del Rey alley",
     length: "short",
@@ -4032,6 +4241,7 @@ const quests = [
     id: 253,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Multiple",
     title: "Cyberpsycho Sightings – I Am The Law",
     location: "All districts of Night City",
     length: "long",
