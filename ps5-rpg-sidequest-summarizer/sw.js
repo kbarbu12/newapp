@@ -14,6 +14,7 @@ const PRECACHE_URLS = [
   'src/feedback.js?v=7',
   'manifest.json',
   'images/favicon.svg',
+  'images/favicon.ico',
   'images/icon-192.png',
   'images/icon-512.png',
   'images/apple-touch-icon.png',
