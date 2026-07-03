@@ -186,17 +186,15 @@
       '<span class="game-name">' +
       quest.game +
       "</span>" +
-      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span>" +
-      '<span class="pill ' +
-      quest.length +
-      '">' +
-      quest.length +
-      "</span>" +
       "</div>" +
       "<h3>" +
       quest.title +
-      ' <span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
       "</h3>" +
+      '<div class="card-meta-row">' +
+      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span>" +
+      '<span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
+      '<span class="pill ' + quest.length + '">' + quest.length + "</span>" +
+      "</div>" +
       chapterHtml +
       regionHtml +
       '<p class="meta"><strong>Location:</strong> ' +
