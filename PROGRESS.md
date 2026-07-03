@@ -217,6 +217,21 @@ against the full wiki lists could guarantee 100% coverage per game.**
 - [x] ~~Audit every quest's walkthrough video~~ — **DONE.** All 844 verified to capture their
       own quest; the 43 generic/shared videos were replaced with quest-specific links.
 
+### Accuracy audit — remaining work
+The Jul 3 quest-audit pass (see §2) fixed 13 misattributed/fabricated quest names and
+guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metaphor). Still open:
+- [ ] **Guide-audit the 3 remaining 🟡 games title-by-title:** Baldur's Gate 3, Elden Ring,
+      Black Myth: Wukong. *(Elden Ring was spot-checked and was accurate apart from the Diallos
+      region mis-tag fixed this pass; BG3 and Black Myth still want a full name-by-name pass.)*
+- [ ] **Re-verify obscure entries in the already deep-filled games** — a few individual entries
+      may be missing or approximate where the source lists couldn't be fully enumerated (see the
+      Tooling note below).
+- [ ] **Automate the audit** — commit a script that checks IDs / required fields / duplicate
+      titles / video-link health and diffs per-game counts against a target list, so the
+      🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
+      pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
+      can seed it. *(This is improvement #7 in §4.)*
+
 ### Video approach & known limitation
 Videos use one of: a hand-picked YouTube video (208 original entries), a walkthrough
 **playlist** (2), or a **quest-specific YouTube search link** (`…/results?search_query=<Game>

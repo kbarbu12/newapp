@@ -61,6 +61,13 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 
 **All 15 games are deep-filled ✅** — see `PROGRESS.md` for the full per-game tracker and optional polish items.
 
+### 🔎 Accuracy audit (in progress)
+Beyond deep-fill, a name-by-name accuracy audit against canonical guides is underway:
+- [x] Pillars of Eternity, Pillars of Eternity II: Deadfire, Demon's Souls, Metaphor: ReFantazio
+      — guide-audited (13 misattributed/fabricated quest names fixed; see `PROGRESS.md` §2).
+- [ ] Baldur's Gate 3, Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit title-by-title.
+- [ ] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
+
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)
 - [ ] Share in game-specific Discord servers
