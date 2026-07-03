@@ -8,10 +8,11 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **786** (was 253 at the start of this work — **+533**)
-- **Games covered:** 15 — **12 deep-filled**; the last 3 (BG3, Elden Ring, Black Myth) still need a guide audit
+- **Total quests in library:** **844** (was 253 at the start of this work — **+591**)
+- **Games covered:** 15 — **all 15 now deep-filled** ✅
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
-- **Region/Act sub-filters:** live for Baldur's Gate 3, Elden Ring, Black Myth: Wukong, The Witcher 3
+- **Region/Act sub-filters:** live for Baldur's Gate 3 (Act), Elden Ring (Region, incl. Shadow of the Erdtree DLC), Black Myth: Wukong (Chapter), The Witcher 3 (Region)
+- **Walkthrough videos:** every quest (all 844) has a walkthrough video link
 
 ### Per-game coverage
 
@@ -22,16 +23,16 @@
 | Final Fantasy VII Rebirth | 72 | 17 | 55 | — | ✅ Deep-filled (14 chapters, 36 Odd Jobs, World Intel, minigames, summons) |
 | God of War Ragnarök | 62 | 18 | 44 | — | ✅ Deep-filled (all main missions, favors across 9 realms, Berserkers, collectible favors) |
 | Hogwarts Legacy | 60 | 24 | 36 | — | ✅ Deep-filled (main + class quests, companion arcs, side quests, assignments, system content) |
+| Elden Ring | 54 | 16 | 38 | ✅ | ✅ Deep-filled (legacy dungeons, bosses, NPC questlines, full Shadow of the Erdtree DLC) |
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
 | Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
+| Baldur's Gate 3 | 47 | 10 | 37 | ✅ | ✅ Deep-filled (Acts 1–3 main story, companion arcs, major side quests) |
 | Ghost of Tsushima | 47 | 19 | 28 | — | ✅ Deep-filled (Act 1–3 tales, 7 Mythic Tales, companion tales, Iki Island) |
 | Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
-| Baldur's Gate 3 | 30 | 9 | 21 | ✅ | 🟡 Good, not audited |
-| Elden Ring | 29 | 8 | 21 | ✅ | 🟡 Good, not audited |
+| Black Myth: Wukong | 37 | 6 | 31 | ✅ | ✅ Deep-filled (chapter bosses across all 6 chapters, transformations, secrets) |
 | Pillars of Eternity II: Deadfire | 29 | 7 | 22 | — | ✅ Deep-filled (main story, 4 faction paths, companion quests, DLCs) |
 | Pillars of Eternity | 28 | 10 | 18 | — | ✅ Deep-filled (Acts I–III main story, companion quests, White March DLC) |
 | Demon's Souls | 23 | 10 | 13 | — | ✅ Deep-filled (all 5 Archstone worlds + bosses, tendency system, NPC arcs) |
-| Black Myth: Wukong | 21 | 6 | 15 | ✅ | 🟡 Good, not audited |
 
 Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited against a guide · 🔴 sample only, needs a full pass
 
@@ -110,10 +111,12 @@ against the full wiki lists could guarantee 100% coverage per game.**
 ## 3. What still needs to be done
 
 ### High priority
-- [x] ~~Full coverage pass on the 🔴 games~~ — done: Metaphor, Demon's Souls, Pillars of
-      Eternity, and Deadfire are all deep-filled.
-- [ ] **Audit the 3 remaining 🟡 games** (BG3, Elden Ring, Black Myth: Wukong) against a guide
-      and deep-fill any gaps, then promote them to ✅. *(These are the only games left.)*
+- [x] ~~Full coverage pass on all 15 games~~ — **DONE. Every game is deep-filled.**
+- [ ] Optional polish: replace the YouTube **search** walkthrough links with hand-picked
+      per-quest videos (site-wide).
+- [ ] Optional: add region/district sub-filters for the games that don't yet have one
+      (Cyberpunk, FF7, GoW, Horizon, Ghost) — entries are already region-tagged.
+- [ ] Optional: add brand-new games (Skyrim, Dark Souls, Dragon Age) per the backlog.
 
 ### Sub-filters
 - [ ] Add **district sub-filter** for Cyberpunk 2077 and **region sub-filter** for FF7

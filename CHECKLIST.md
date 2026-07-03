@@ -24,6 +24,8 @@
 - [x] Cyberpunk 2077 deep-fill (76 → 148): remaining main jobs, side jobs, ~37 gigs, Phantom Liberty
 - [x] Deep-fill all 8 covered games (Witcher 3 full main story, FF7 World Intel/minigames/summons, GoW favors, Horizon, P5R Confidants/Mementos, Ghost tales, Hogwarts class/side quests) — library now **717**
 - [x] Deep-fill the last 4 games (Metaphor, Demon's Souls, Pillars of Eternity, Deadfire) — library now **786**; 12 of 15 games deep-filled
+- [x] Deep-fill BG3, Elden Ring (+ full Shadow of the Erdtree DLC), and Black Myth: Wukong — **all 15 games now deep-filled; library at 844 quests**
+- [x] Add "Shadow of the Erdtree (DLC)" option to the Elden Ring region sub-filter
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
@@ -49,7 +51,7 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 - [ ] Secrets, legendary items, and endings
 - [ ] Verify against a canonical guide (PowerPyx / Game8 / Fextralife) before marking done
 
-**Only games left to audit:** Baldur's Gate 3 · Elden Ring · Black Myth: Wukong (🟡 — verify against a guide, then deep-fill gaps)
+**All 15 games are deep-filled ✅** — see `PROGRESS.md` for the full per-game tracker and optional polish items.
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)

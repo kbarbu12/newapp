@@ -97,7 +97,8 @@ const subFilterConfig = {
       { value: "Mountaintops", text: "Mountaintops of the Giants" },
       { value: "Underground", text: "Underground & Eternal Cities" },
       { value: "Farum Azula", text: "Crumbling Farum Azula" },
-      { value: "Haligtree", text: "Miquella's Haligtree" }
+      { value: "Haligtree", text: "Miquella's Haligtree" },
+      { value: "Land of Shadow", text: "Shadow of the Erdtree (DLC)" }
     ]
   },
   "Black Myth: Wukong": {
@@ -12577,5 +12578,933 @@ const quests = [
     aiTip:
       "A combat-focused DLC — ideal for testing a min-maxed party build.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
+  },
+  {
+    id: 787,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Save the Refugees (Druid Grove)",
+    location: "Emerald Grove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tiefling allies, grove saved",
+    summary:
+      "Broker peace between the druids' ritual and the tiefling refugees before Kagha seals the grove.",
+    aiTip:
+      "Your choices here ripple through both later acts — the tieflings remember how you treat them.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
+  },
+  {
+    id: 788,
+    type: "main",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Raid the Goblin Camp",
+    location: "Shattered Sanctum",
+    length: "long",
+    difficulty: "High",
+    reward: "Goblin leaders slain, Halsin freed",
+    summary:
+      "Take down the three goblin leaders — Minthara, Dror Ragzlin, and Priestess Gut — to break the cult of the Absolute.",
+    aiTip:
+      "You can fight your way in or talk/sneak — sparing Minthara opens a very different path.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
+  },
+  {
+    id: 789,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "The Blighted Village & Whispering Depths",
+    location: "Blighted Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Loot, Phase Spider Matriarch",
+    summary:
+      "Clear the gnoll- and goblin-infested Blighted Village and the spider-filled Whispering Depths below.",
+    aiTip:
+      "The Phase Spider Matriarch is a nasty early fight — use the chasms and fire to your advantage.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
+  },
+  {
+    id: 790,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Free Nere (Grymforge Duergar)",
+    location: "Grymforge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Deep gnomes freed, True Soul intel",
+    summary:
+      "Decide the fate of the trapped deep gnomes and the duergar under the True Soul Nere.",
+    aiTip:
+      "Siding with the gnomes vs. the duergar changes who helps you at the Adamantine Forge.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
+  },
+  {
+    id: 791,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Companion: Lae'zel & the Creche",
+    location: "Rosymorn Monastery",
+    length: "long",
+    difficulty: "High",
+    reward: "Githyanki truth, Astral tadpole",
+    summary:
+      "Escort Lae'zel to the githyanki Creche Y'llek to seek a cure — and confront her people's lies.",
+    aiTip:
+      "A pivotal companion arc; the Creche also holds powerful gear and the Blood of Lathander.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Lae'zel%20%26%20the%20Creche%20walkthrough"
+  },
+  {
+    id: 792,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Companion: Karlach's Infernal Engine",
+    location: "Risen Road",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Karlach's heart repaired",
+    summary:
+      "Help the fugitive tiefling Karlach cool her failing infernal engine and hunt the paladins of Tyr.",
+    aiTip:
+      "Bring her infernal iron to Dammon across the acts to keep her heart from burning out.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Karlach's%20Infernal%20Engine%20walkthrough"
+  },
+  {
+    id: 793,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Reach the Last Light Inn",
+    location: "Shadow-Cursed Lands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Safe haven, Isobel's protection",
+    summary:
+      "Cross the deadly Shadow-Cursed Lands to the Harper stronghold sheltered by the cleric Isobel.",
+    aiTip:
+      "Keep a light source at all times — the shadow curse kills the unprotected quickly.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
+  },
+  {
+    id: 794,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Save Arabella (Kithrak Voss)",
+    location: "Last Light Inn",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Tiefling child saved",
+    summary:
+      "Rescue the young tiefling Arabella from the shadows before grief consumes her family.",
+    aiTip:
+      "A time-sensitive rescue — act fast when the shadows close in around the inn.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20(Kithrak%20Voss)%20walkthrough"
+  },
+  {
+    id: 795,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Free the Nightsong (Gauntlet of Shar)",
+    location: "Gauntlet of Shar",
+    length: "long",
+    difficulty: "High",
+    reward: "Shadowheart's fate, Aylin freed",
+    summary:
+      "Survive Shar's trials in the Gauntlet and decide the fate of the imprisoned Nightsong.",
+    aiTip:
+      "This is Shadowheart's defining choice — spare or slay the Nightsong shapes her whole arc.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
+  },
+  {
+    id: 796,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "The Mind Flayer Colony",
+    location: "Moonrise Towers",
+    length: "long",
+    difficulty: "High",
+    reward: "Astral Prism secrets, Emperor",
+    summary:
+      "Descend beneath Moonrise into the mind flayer colony to confront the truth of your tadpole.",
+    aiTip:
+      "A major story reveal — how you handle the Emperor here echoes into the finale.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
+  },
+  {
+    id: 797,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Companion: Astarion's Ascension",
+    location: "Baldur's Gate",
+    length: "long",
+    difficulty: "High",
+    reward: "Cazador defeated, Astarion's fate",
+    summary:
+      "Help Astarion confront his vampire master Cazador — and decide whether he claims dark power or freedom.",
+    aiTip:
+      "Ascending Astarion vs. keeping him free is one of the game's most impactful companion choices.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
+  },
+  {
+    id: 798,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Stop the Murder Tribunal (Dribbles the Clown)",
+    location: "Baldur's Gate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Serial-killer case solved",
+    summary:
+      "Investigate the ritual murders across Baldur's Gate and track the killer to Cazador's orbit.",
+    aiTip:
+      "Collect Dribbles the Clown's scattered body parts for a key clue in the Murder Tribunal.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
+  },
+  {
+    id: 799,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "The Iron Throne",
+    location: "Wyrm's Rock",
+    length: "long",
+    difficulty: "High",
+    reward: "Prisoners rescued, Gondians freed",
+    summary:
+      "Mount an underwater prison break at the Iron Throne before Gortash floods it.",
+    aiTip:
+      "A brutal timer — prioritize who you save; you can't get everyone without preparation.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
+  },
+  {
+    id: 800,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Destroy the Steel Watch Foundry",
+    location: "Baldur's Gate",
+    length: "long",
+    difficulty: "High",
+    reward: "Steel Watch disabled, Gortash weakened",
+    summary:
+      "Sabotage Gortash's Steel Watch army at its foundry to cripple his hold on the city.",
+    aiTip:
+      "Freeing the Gondians at the Iron Throne first makes disabling the Watch far easier.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
+  },
+  {
+    id: 801,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Defeat the Chosen: Orin & Gortash",
+    location: "Baldur's Gate",
+    length: "long",
+    difficulty: "High",
+    reward: "Netherstones claimed",
+    summary:
+      "Hunt down the Chosen of Bhaal (Orin) and Bane (Gortash) to seize their Netherstones.",
+    aiTip:
+      "Gather allies and the other Netherstones before the finale — the Elder Brain awaits.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Chosen%3A%20Orin%20%26%20Gortash%20walkthrough"
+  },
+  {
+    id: 802,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Companion: Wyll & Mizora's Bargain",
+    location: "Baldur's Gate",
+    length: "medium",
+    difficulty: "High",
+    reward: "Wyll's pact resolved, Zariel's Asset",
+    summary:
+      "Confront the terms of Wyll's infernal pact with Mizora and his father Duke Ravengard's fate.",
+    aiTip:
+      "Breaking or keeping the pact changes Wyll's ending — and whether his father survives.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Wyll%20%26%20Mizora's%20Bargain%20walkthrough"
+  },
+  {
+    id: 803,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Confront Raphael (House of Hope)",
+    location: "House of Hope",
+    length: "long",
+    difficulty: "High",
+    reward: "Orphic Hammer, Hope freed",
+    summary:
+      "Heist the devil Raphael's own domain to steal the Orphic Hammer and free the archdevil's prisoners.",
+    aiTip:
+      "One of the toughest optional fights — free Hope and grab the Infernal loot before facing Raphael.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
+  },
+  {
+    id: 804,
+    type: "main",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Explore Stormveil Castle",
+    location: "Limgrave",
+    length: "long",
+    difficulty: "High",
+    reward: "Legacy dungeon, Godrick's rune",
+    summary:
+      "Infiltrate Godrick the Grafted's fortress, Stormveil Castle, choosing the main gate or the sewer path.",
+    aiTip:
+      "Recruit Nepheli Loux and use the Rusty Key's side route to skip the deadly courtyard.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
+  },
+  {
+    id: 805,
+    type: "main",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Raya Lucaria Academy",
+    location: "Liurnia",
+    length: "long",
+    difficulty: "High",
+    reward: "Legacy dungeon, Rennala's rune",
+    summary:
+      "Breach the sorcerers' Academy of Raya Lucaria to reach Rennala, Queen of the Full Moon.",
+    aiTip:
+      "Grab the Glintstone Key to open the gate — the rooftop route hides valuable loot.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
+  },
+  {
+    id: 806,
+    type: "main",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Defeat Rykard, Lord of Blasphemy",
+    location: "Leyndell & Altus",
+    length: "long",
+    difficulty: "High",
+    reward: "Great rune, Blasphemous Blade",
+    summary:
+      "Complete the Volcano Manor and slay the serpent-god Rykard with the Serpent-Hunter greatspear.",
+    aiTip:
+      "The Serpent-Hunter weapon by the arena trivializes the fight — use it and stagger him.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
+  },
+  {
+    id: 807,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Defeat the Godskin Noble",
+    location: "Liurnia",
+    length: "medium",
+    difficulty: "High",
+    reward: "Godskin gear, progression",
+    summary:
+      "Best the bloated Godskin Noble in the Temple of Eiglay and other haunts of the Godskin Apostles.",
+    aiTip:
+      "Its rolling attack is punishing — stay close and punish the recovery.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
+  },
+  {
+    id: 808,
+    type: "side",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Defeat Godefroy the Grafted",
+    location: "Leyndell & Altus",
+    length: "medium",
+    difficulty: "High",
+    reward: "Golden Order lore, runes",
+    summary:
+      "Defeat the hidden echo of Godrick, Godefroy the Grafted, in the Golden Lineage evergaol.",
+    aiTip:
+      "A tougher reprise of Godrick — bleed and stance-breaks work well.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
+  },
+  {
+    id: 809,
+    type: "side",
+    game: "Elden Ring",
+    region: "Mountaintops",
+    title: "Defeat Commander Niall",
+    location: "Mountaintops",
+    length: "long",
+    difficulty: "High",
+    reward: "Great rune path, Veteran's set",
+    summary:
+      "Overcome Commander Niall and his spectral knights atop Castle Sol to claim the Haligtree medallion half.",
+    aiTip:
+      "Kill the two summoned knights first, then focus Niall — a very tough optional fight.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
+  },
+  {
+    id: 810,
+    type: "side",
+    game: "Elden Ring",
+    region: "Underground",
+    title: "Defeat Lichdragon Fortissax",
+    location: "Underground",
+    length: "long",
+    difficulty: "High",
+    reward: "Fia's questline, Cursemark of Death",
+    summary:
+      "Enter Fia's dream to battle the Lichdragon Fortissax and complete the Deathbed Companion's arc.",
+    aiTip:
+      "Lightning resistance helps enormously; finish Fia's quest to earn a unique ending item.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
+  },
+  {
+    id: 811,
+    type: "side",
+    game: "Elden Ring",
+    region: "Underground",
+    title: "Defeat Regal Ancestor Spirit",
+    location: "Underground",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ancestral rewards, Remembrance",
+    summary:
+      "Track the glowing trail through the Nokron/Siofra depths to the majestic Regal Ancestor Spirit.",
+    aiTip:
+      "Light the braziers around the arena to reveal the boss and land hits.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
+  },
+  {
+    id: 812,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Yura, Hunter of the Bloody Fingers",
+    location: "Limgrave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Nagakiba, anti-invader arc",
+    summary:
+      "Aid the bloody-finger hunter Yura against invaders and the maiden Eleonora across the Lands Between.",
+    aiTip:
+      "Answer his summons at Murkwater Cave and the Second Church of Marika to see his tale through.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
+  },
+  {
+    id: 813,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Latenna the Albinauric",
+    location: "Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Haligtree medallion half, Spirit Ash",
+    summary:
+      "Help the archer Latenna reach the Lands of the Albinaurics and honor her wolf-bound pact.",
+    aiTip:
+      "Her questline yields a Haligtree medallion half and a strong summon.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
+  },
+  {
+    id: 814,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Diallos & the Volcano Manor",
+    location: "Caelid",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Diallos's fate, Hoslow's gear",
+    summary:
+      "Follow the hapless noble Diallos through grief and the assassin's contracts of Volcano Manor.",
+    aiTip:
+      "His arc intersects Jarburg and the manor — check in across your playthrough.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
+  },
+  {
+    id: 815,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Gowry & Millicent (Scarlet Rot)",
+    location: "Caelid",
+    length: "long",
+    difficulty: "High",
+    reward: "Unalloyed needle, Rot arc",
+    summary:
+      "Aid the sorcerer Gowry and the rot-stricken Millicent, choosing whether to help or hinder her sisters.",
+    aiTip:
+      "One of the most involved quests — the Haligtree finale rewards a unique talisman.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
+  },
+  {
+    id: 816,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Rya & Volcano Manor Invitation",
+    location: "Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Serpent lore, Zorayas arc",
+    summary:
+      "Return the noblewoman Rya's necklace and follow her into the intrigues of Volcano Manor.",
+    aiTip:
+      "Her arc opens the Volcano Manor questline and its assassination contracts.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
+  },
+  {
+    id: 817,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Kenneth Haight & Fort Haight",
+    location: "Limgrave",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ally, settlement restored",
+    summary:
+      "Help the exiled lord Kenneth Haight reclaim Fort Haight and restore a fragment of order.",
+    aiTip:
+      "A short early questline that connects to Nepheli Loux's story.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
+  },
+  {
+    id: 818,
+    type: "main",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Enter the Land of Shadow (Scadutree)",
+    location: "Land of Shadow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "DLC start, Scadutree Blessing",
+    summary:
+      "Answer Miquella's call through Mohg's arena into the Land of Shadow and begin gathering Scadutree Fragments.",
+    aiTip:
+      "Scadutree Fragments are the DLC's key power scaling — collect them before every major boss.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
+  },
+  {
+    id: 819,
+    type: "main",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Divine Beast Dancing Lion",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Belurat cleared",
+    summary:
+      "Face the Divine Beast Dancing Lion atop Belurat, Tower Settlement — the DLC's first great hurdle.",
+    aiTip:
+      "Its element shifts (wind, frost, lightning) mid-fight; watch the mask to read the next phase.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
+  },
+  {
+    id: 820,
+    type: "main",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Rellana, Twin Moon Knight",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Castle Ensis cleared",
+    summary:
+      "Duel Rellana, Twin Moon Knight, guarding the pass beyond Castle Ensis.",
+    aiTip:
+      "A fast, aggressive duelist — learn her dual-moon combo and punish the recovery.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
+  },
+  {
+    id: 821,
+    type: "main",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Messmer the Impaler",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Shadow Keep opened",
+    summary:
+      "Storm the Shadow Keep and defeat Messmer the Impaler, the fire-and-serpent scion.",
+    aiTip:
+      "His second phase adds serpents and impaling spears — fire resistance and patience are key.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
+  },
+  {
+    id: 822,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Bayle the Dread",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, dragon communion",
+    summary:
+      "Descend the Jagged Peak with Igon to slay the ancient dragon Bayle the Dread.",
+    aiTip:
+      "Igon's summon and spear buff help enormously — do his questline first.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
+  },
+  {
+    id: 823,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Midra, Lord of Frenzied Flame",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Frenzied Flame lore",
+    summary:
+      "Delve into Midra's Manse to confront the tragic Lord of Frenzied Flame.",
+    aiTip:
+      "Madness resistance and a steady approach keep the Frenzied Flame from overwhelming you.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
+  },
+  {
+    id: 824,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Metyr, Mother of Fingers",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Count Ymir's arc",
+    summary:
+      "Follow Count Ymir's questline to the Finger Ruins and the cosmic horror Metyr, Mother of Fingers.",
+    aiTip:
+      "A ranged-heavy boss — close distance during her beam attacks and punish between casts.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
+  },
+  {
+    id: 825,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Romina, Saint of the Bud",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Remembrance, Haligtree path",
+    summary:
+      "Best Romina, Saint of the Bud, guarding the Church of the Bud on the way to Enir-Ilim.",
+    aiTip:
+      "Scarlet rot buildup is deadly here — bring cleansing items and rot resistance.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
+  },
+  {
+    id: 826,
+    type: "main",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Defeat Promised Consort Radahn",
+    location: "Land of Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "DLC finale, Miquella's ending",
+    summary:
+      "At Enir-Ilim, confront Radahn, Consort of Miquella — the climax of Shadow of the Erdtree.",
+    aiTip:
+      "The hardest fight in the game; max your Scadutree Blessing and bring a strong summon.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
+  },
+  {
+    id: 827,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Needle Knight Leda & the Companions",
+    location: "Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "DLC NPC arc, invasions",
+    summary:
+      "Navigate the shifting loyalties of Leda's band — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
+    aiTip:
+      "Their allegiances split near the end; your choices decide who invades and who aids you.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
+  },
+  {
+    id: 828,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "St. Trina & Thiollier",
+    location: "Land of Shadow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sleep arc, unique reward",
+    summary:
+      "Follow the melancholic Thiollier to the slumbering St. Trina hidden in the Land of Shadow.",
+    aiTip:
+      "A quiet, lore-rich side arc that rewards patience and exploration.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
+  },
+  {
+    id: 829,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "The Wandering Wight",
+    location: "Black Wind Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit absorbed, upgrades",
+    summary:
+      "Battle the lumbering Wandering Wight, a mound of vengeful earth and bone in Chapter 1.",
+    aiTip:
+      "Dodge its ground-slams and punish the long recovery; absorb its spirit for a useful skill.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Wandering%20Wight%20walkthrough"
+  },
+  {
+    id: 830,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Guangzhi & the Wolf Vanguard",
+    location: "Black Wind Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Transformation spirit, gear",
+    summary:
+      "Defeat the wolf commander Guangzhi, whose flaming glaive guards the mountain paths.",
+    aiTip:
+      "His fire combos are relentless — stay mobile and strike between his lunges.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangzhi%20%26%20the%20Wolf%20Vanguard%20walkthrough"
+  },
+  {
+    id: 831,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Elder Jinchi (Lingxuzi)",
+    location: "Black Wind Mountain",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 1 secret",
+    summary:
+      "Face the serpent-adjacent Elder Jinchi, a hidden Chapter 1 boss tied to the mountain's masters.",
+    aiTip:
+      "A tougher optional fight — bring focus and the right stance for its quick strikes.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Elder%20Jinchi%20(Lingxuzi)%20walkthrough"
+  },
+  {
+    id: 832,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Whiteclad Noble & Baw-Li-Guhh-Lang",
+    location: "Black Wind Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit, side loot",
+    summary:
+      "Defeat the snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang haunting Chapter 1's byways.",
+    aiTip:
+      "Watch for poison; keep healing gourd charges ready for the drawn-out fight.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20walkthrough"
+  },
+  {
+    id: 833,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Tiger Vanguard",
+    location: "Yellow Wind Ridge",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 2 gatekeeper",
+    summary:
+      "Clash with the fearsome Tiger Vanguard, a towering blademaster of the sandy ridge.",
+    aiTip:
+      "One of the game's iconic hard fights — learn his charge and counter with immobilize.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Tiger%20Vanguard%20walkthrough"
+  },
+  {
+    id: 834,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Kang-Jin Loong",
+    location: "Yellow Wind Ridge",
+    length: "long",
+    difficulty: "High",
+    reward: "Loong spirit, dragon skill",
+    summary:
+      "Battle the golden dragon Kang-Jin Loong coiling through Chapter 2's ruins.",
+    aiTip:
+      "Aerial and dashing attacks abound — punish after his dive and keep your distance otherwise.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Kang-Jin%20Loong%20walkthrough"
+  },
+  {
+    id: 835,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 2,
+    title: "Stone Vanguard",
+    location: "Yellow Wind Ridge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit, upgrade material",
+    summary:
+      "Topple the hulking Stone Vanguard guarding a Chapter 2 path.",
+    aiTip:
+      "Its armor shrugs off light hits — use heavy stance combos and dodge the shockwaves.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Stone%20Vanguard%20walkthrough"
+  },
+  {
+    id: 836,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "Macaque Chief (Non-Void)",
+    location: "Pagoda Realm",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 3 lore",
+    summary:
+      "Confront the illusion-weaving Macaque Chief amid the snows of Chapter 3.",
+    aiTip:
+      "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Macaque%20Chief%20(Non-Void)%20walkthrough"
+  },
+  {
+    id: 837,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "Captain Wise-Voice",
+    location: "Pagoda Realm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit, upgrade",
+    summary:
+      "Defeat the froglike Captain Wise-Voice in the frozen Chapter 3 wilds.",
+    aiTip:
+      "Sound-based attacks telegraph slowly — dodge in and punish the wind-up.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Captain%20Wise-Voice%20walkthrough"
+  },
+  {
+    id: 838,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 3,
+    title: "The Yakshas of the Pagoda",
+    location: "Pagoda Realm",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spirits, Chapter 3 secret",
+    summary:
+      "Battle the Yaksha kings woven into Chapter 3's tragic tale of the four sisters.",
+    aiTip:
+      "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Yakshas%20of%20the%20Pagoda%20walkthrough"
+  },
+  {
+    id: 839,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "Violet Spider (Second Sister)",
+    location: "Webbed Hollow",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 4 arc",
+    summary:
+      "Face the venomous Violet Spider and her brood in the poisonous Webbed Hollow.",
+    aiTip:
+      "Poison stacks fast — cleanse often and burst her down during openings.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Violet%20Spider%20(Second%20Sister)%20walkthrough"
+  },
+  {
+    id: 840,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "Duo of Corruption",
+    location: "Webbed Hollow",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, upgrade",
+    summary:
+      "Take on the paired insect-demon Duo of Corruption guarding Chapter 4's depths.",
+    aiTip:
+      "Split your attention carefully — immobilize one while you focus the other.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
+  },
+  {
+    id: 841,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "Bull King & Cloudtreading Deer",
+    location: "Flaming Mountains",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 5 progression",
+    summary:
+      "Battle the mighty Bull King and the swift Cloudtreading Deer amid the volcanic Chapter 5.",
+    aiTip:
+      "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20walkthrough"
+  },
+  {
+    id: 842,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "The Fire Sages (Five Elements)",
+    location: "Flaming Mountains",
+    length: "medium",
+    difficulty: "High",
+    reward: "Elemental spirits, upgrades",
+    summary:
+      "Defeat the elemental sages tied to the Five-Element Carts and the Flaming Mountains' curse.",
+    aiTip:
+      "Bring fire resistance and rotate stances to break each sage's guard.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
+  },
+  {
+    id: 843,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 6,
+    title: "Giant Shigandang",
+    location: "Mount Huaguo",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirit, Chapter 6 hurdle",
+    summary:
+      "Face the colossal Giant Shigandang on the road to Wukong's homeland in Chapter 6.",
+    aiTip:
+      "A huge stone brute — bait its slams, then unload heavy combos on the openings.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Giant%20Shigandang%20walkthrough"
+  },
+  {
+    id: 844,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 6,
+    title: "Supreme Inspector & the Final Trials",
+    location: "Mount Huaguo",
+    length: "long",
+    difficulty: "High",
+    reward: "Spirits, endgame prep",
+    summary:
+      "Overcome the Supreme Inspector and the last trials guarding the Great Sage's legacy.",
+    aiTip:
+      "Late-game difficulty — max your spells, gourd, and transformations before the finale.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
   }
 ];
