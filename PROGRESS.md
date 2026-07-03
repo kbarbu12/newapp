@@ -18,7 +18,7 @@
   Horizon (Region), Ghost of Tsushima (Region), Hogwarts (Region), Metaphor (Region),
   Demon's Souls (Archstone), Pillars of Eternity (Region). *(Deadfire and Persona 5 use the
   global filters — no clean single-geography axis.)*
-- **Walkthrough videos:** every quest (all 844) has a walkthrough video that captures **its
+- **Walkthrough videos:** every quest (all 839) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
 
@@ -214,7 +214,7 @@ against the full wiki lists could guarantee 100% coverage per game.**
 - [x] ~~Full coverage pass on all 15 games~~ — **DONE. Every game is deep-filled.**
 - [x] ~~Per-game sub-filters~~ — **DONE.** 13 of 15 games now show a contextual sub-filter when
       selected; all older entries were back-filled with region tags so none are hidden.
-- [x] ~~Audit every quest's walkthrough video~~ — **DONE.** All 844 verified to capture their
+- [x] ~~Audit every quest's walkthrough video~~ — **DONE.** All 839 verified to capture their
       own quest; the 43 generic/shared videos were replaced with quest-specific links.
 
 ### Accuracy audit — remaining work
