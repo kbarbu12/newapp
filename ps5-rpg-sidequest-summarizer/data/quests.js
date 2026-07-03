@@ -186,13 +186,14 @@ const subFilterConfig = {
     ]
   },
   "Hogwarts Legacy": {
-    field: "region",
-    label: "Region",
+    field: "category",
+    label: "Category",
     options: [
-      { value: "Hogwarts", text: "Hogwarts Castle" },
-      { value: "Hogsmeade", text: "Hogsmeade" },
-      { value: "Highlands", text: "Highlands" },
-      { value: "Feldcroft", text: "Feldcroft Region" }
+      { value: "Main Story", text: "Main Story" },
+      { value: "Side Quest", text: "Side Quests" },
+      { value: "Relationship", text: "Relationship" },
+      { value: "Assignment", text: "Assignments" },
+      { value: "Challenges", text: "Challenges" }
     ]
   },
   "Metaphor: ReFantazio": {
@@ -571,6 +572,7 @@ const quests = [
   {
     id: 22,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Ghost of Our Love",
@@ -587,6 +589,7 @@ const quests = [
   {
     id: 23,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Rescuing Rococo",
@@ -603,6 +606,7 @@ const quests = [
   {
     id: 24,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Hall of Herodiana",
@@ -1620,6 +1624,7 @@ const quests = [
   {
     id: 88,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Hippogriff Marks the Spot",
@@ -1636,6 +1641,7 @@ const quests = [
   {
     id: 89,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "In the Shadow of the Undercroft",
@@ -1652,6 +1658,7 @@ const quests = [
   {
     id: 90,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Mer-ky Depths",
@@ -1668,6 +1675,7 @@ const quests = [
   {
     id: 91,
     type: "main",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Natty's Questline (The High Keep)",
@@ -2512,6 +2520,7 @@ const quests = [
   {
     id: 146,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Elf, the Nab-Sack, and the Loom",
@@ -2528,6 +2537,7 @@ const quests = [
   {
     id: 147,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Charles Rookwood's Trial",
@@ -2544,6 +2554,7 @@ const quests = [
   {
     id: 148,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Poppy's Questline (The Plight of the House-Elf)",
@@ -2560,6 +2571,7 @@ const quests = [
   {
     id: 149,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Lost Astrolabe",
@@ -2576,6 +2588,7 @@ const quests = [
   {
     id: 150,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Solved by the Bell",
@@ -2592,6 +2605,7 @@ const quests = [
   {
     id: 151,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Flying off the Shelves",
@@ -2608,6 +2622,7 @@ const quests = [
   {
     id: 152,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Astronomy Table Challenges",
@@ -7965,6 +7980,7 @@ const quests = [
   {
     id: 489,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Path to Hogwarts",
@@ -7981,6 +7997,7 @@ const quests = [
   {
     id: 490,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Welcome to Hogwarts",
@@ -7997,6 +8014,7 @@ const quests = [
   {
     id: 491,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Locket's Secret",
@@ -8013,6 +8031,7 @@ const quests = [
   {
     id: 492,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Percival Rackham's Trial",
@@ -8029,6 +8048,7 @@ const quests = [
   {
     id: 493,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Jackdaw's Rest",
@@ -8045,6 +8065,7 @@ const quests = [
   {
     id: 494,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The High Keep",
@@ -8061,6 +8082,7 @@ const quests = [
   {
     id: 495,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Girl from Uagadou",
@@ -8077,6 +8099,7 @@ const quests = [
   {
     id: 496,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Niamh Fitzgerald's Trial",
@@ -8093,6 +8116,7 @@ const quests = [
   {
     id: 497,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "San Bakar's Trial",
@@ -8109,6 +8133,7 @@ const quests = [
   {
     id: 498,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "In the Shadow of the Relic",
@@ -8125,6 +8150,7 @@ const quests = [
   {
     id: 499,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Final Repository",
@@ -8141,6 +8167,7 @@ const quests = [
   {
     id: 500,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "In the Shadow of the Bloodline (Sebastian)",
@@ -8157,6 +8184,7 @@ const quests = [
   {
     id: 501,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "In the Shadow of Time (Sebastian)",
@@ -8173,6 +8201,7 @@ const quests = [
   {
     id: 502,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Lost Child (Natty)",
@@ -8189,6 +8218,7 @@ const quests = [
   {
     id: 503,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Grief and Vengeance (Natty)",
@@ -8205,6 +8235,7 @@ const quests = [
   {
     id: 504,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Poppy's Restful Retreat (Poppy)",
@@ -8221,6 +8252,7 @@ const quests = [
   {
     id: 505,
     type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Trials of Amit (Amit)",
@@ -8237,6 +8269,7 @@ const quests = [
   {
     id: 506,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Well, Well, Well",
@@ -8253,6 +8286,7 @@ const quests = [
   {
     id: 507,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Minding Your Own Business",
@@ -8269,6 +8303,7 @@ const quests = [
   {
     id: 508,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Daedalian Keys",
@@ -8285,6 +8320,7 @@ const quests = [
   {
     id: 509,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Ollivanders & the Perfect Wand",
@@ -8301,6 +8337,7 @@ const quests = [
   {
     id: 510,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "The Tale of Rowland Oakes",
@@ -8317,6 +8354,7 @@ const quests = [
   {
     id: 511,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Prison of Love",
@@ -8333,6 +8371,7 @@ const quests = [
   {
     id: 512,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Merlin Trials",
@@ -8349,6 +8388,7 @@ const quests = [
   {
     id: 513,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Field Guide Pages",
@@ -8365,6 +8405,7 @@ const quests = [
   {
     id: 514,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Demiguise Statues",
@@ -8381,6 +8422,7 @@ const quests = [
   {
     id: 515,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Ancient Magic Hotspots & Collection Chests",
@@ -8397,6 +8439,7 @@ const quests = [
   {
     id: 516,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Room of Requirement & Vivarium",
@@ -11325,6 +11368,7 @@ const quests = [
   {
     id: 700,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Charms Class",
@@ -11341,6 +11385,7 @@ const quests = [
   {
     id: 701,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Defence Against the Dark Arts Class",
@@ -11357,6 +11402,7 @@ const quests = [
   {
     id: 702,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Potions Class",
@@ -11373,6 +11419,7 @@ const quests = [
   {
     id: 703,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Flying Class",
@@ -11389,6 +11436,7 @@ const quests = [
   {
     id: 704,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Secrets of the Restricted Section",
@@ -11405,6 +11453,7 @@ const quests = [
   {
     id: 705,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Map Chamber",
@@ -11421,6 +11470,7 @@ const quests = [
   {
     id: 706,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Helm of Urtkot",
@@ -11437,6 +11487,7 @@ const quests = [
   {
     id: 707,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Fire and Vice",
@@ -11453,6 +11504,7 @@ const quests = [
   {
     id: 708,
     type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "In the Shadow of the Study (Sebastian)",
@@ -11469,6 +11521,7 @@ const quests = [
   {
     id: 709,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "The Unnatural Animagus",
@@ -11485,6 +11538,7 @@ const quests = [
   {
     id: 710,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Man Behind the Moons",
@@ -11501,6 +11555,7 @@ const quests = [
   {
     id: 711,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "A Bird in the Hand",
@@ -11517,6 +11572,7 @@ const quests = [
   {
     id: 712,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Cache in the Castle",
@@ -11533,6 +11589,7 @@ const quests = [
   {
     id: 713,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "The Sky is the Limit",
@@ -11549,6 +11606,7 @@ const quests = [
   {
     id: 714,
     type: "side",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Crossed Wands & Summoner's Court",
@@ -11565,6 +11623,7 @@ const quests = [
   {
     id: 715,
     type: "side",
+    category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Class Assignments (Professors)",
@@ -11581,6 +11640,7 @@ const quests = [
   {
     id: 716,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "The Foal of the Dead",
@@ -11597,6 +11657,7 @@ const quests = [
   {
     id: 717,
     type: "side",
+    category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Trafficking Talents",
