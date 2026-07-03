@@ -1,7 +1,7 @@
 # RPG Quest Guide — Progress & Roadmap
 
 **Last updated:** 2026-07-03
-**Branch:** `claude/continue-previous-task-ljm8v9`
+**Branch:** `claude/mobile-app-strategy-1bb77n`
 **Live site:** https://kbarbu12.github.io/newapp/
 
 ---
@@ -80,6 +80,21 @@ Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited agains
 - Every new entry carries `region` (and `chapter` where relevant), which surface on both
   the card and the detail view.
 - Added a **Coverage Protocol** to `CHECKLIST.md` so future game work is exhaustive.
+- **Installable as a mobile app (PWA)** — the site now ships a web-app manifest, a service
+  worker, and app icons, so it installs to the home screen on **Android and iOS** from the
+  same codebase (no App Store / Play Store, no native rewrite). Details:
+  - `manifest.json` — name, gold-on-black theme, `display: standalone`, icon set.
+  - `sw.js` — service worker: precaches the app shell, network-first for pages
+    (content stays fresh), stale-while-revalidate for assets, offline fallback. Only
+    same-origin requests are managed — Google Fonts / YouTube embeds pass straight through.
+  - `images/` — generated PNG icons (192, 512, maskable 512, 180 apple-touch) from a new
+    `app-icon.svg` master.
+  - `src/pwa.js` — registers the SW and shows a dismissible install banner (real
+    `beforeinstallprompt` on Android/Chromium; manual "Add to Home Screen" hint on iOS
+    Safari). Self-contained (styles injected) so no existing `?v=` bumps were needed.
+  - Verified end-to-end: SW reaches `active`, manifest + theme-color load, no console
+    errors from PWA code. *(Rationale for PWA over native apps captured in the branch
+    discussion — a content browser doesn't justify two native codebases or store fees.)*
 
 ### Completeness audit — where each game stands
 "Complete" here means all **named quests** (main story, side quests, and named repeatable
