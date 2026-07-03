@@ -15,14 +15,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kbarbu12.github.io/newapp/ps5-rpg-sidequest-summarizer/" />
     <meta property="og:title" content="RPG Quest Guide — RPG Side Quest Guide & Walkthroughs" />
-    <meta property="og:description" content="199 side quests across 15 RPGs. Filter by game, difficulty, length, and watch video walkthroughs. Elden Ring, BG3, Witcher 3, Cyberpunk 2077 & more." />
+    <meta property="og:description" content="Side quests across 15 RPGs. Filter by game, difficulty, length, and watch video walkthroughs. Elden Ring, BG3, Witcher 3, Cyberpunk 2077 & more." />
     <meta property="og:image" content="https://kbarbu12.github.io/newapp/ps5-rpg-sidequest-summarizer/images/og-preview.svg" />
     <meta property="og:site_name" content="RPG Quest Guide" />
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="RPG Quest Guide — RPG Side Quest Guide & Walkthroughs" />
-    <meta name="twitter:description" content="199 side quests across 15 RPGs. Filter by game, difficulty, length, and watch video walkthroughs." />
+    <meta name="twitter:description" content="Side quests across 15 RPGs. Filter by game, difficulty, length, and watch video walkthroughs." />
     <meta name="twitter:image" content="https://kbarbu12.github.io/newapp/ps5-rpg-sidequest-summarizer/images/og-preview.svg" />
 
     <!-- Favicon -->
@@ -32,8 +32,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="src/styles.css?v=6" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles.css?v=7" />
 
     <!-- Structured Data (Google Rich Results) -->
     <script type="application/ld+json">
@@ -52,161 +52,118 @@
     </script>
   </head>
   <body>
-    <div class="bg-scene" aria-hidden="true">
-      <div class="bg-grid"></div>
-      <div class="bg-orb bg-orb-1"></div>
-      <div class="bg-orb bg-orb-2"></div>
-      <div class="bg-orb bg-orb-3"></div>
-      <svg class="bg-icons" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
-        <!-- Sword -->
-        <g class="bg-icon bg-float-1" opacity="0.18">
-          <path d="M180 120 L195 80 L210 120 L200 125 L210 200 L195 210 L180 200 L190 125Z" fill="#6c8cff"/>
-          <line x1="175" y1="125" x2="215" y2="125" stroke="#6c8cff" stroke-width="3"/>
-        </g>
-        <!-- Shield -->
-        <g class="bg-icon bg-float-2" opacity="0.15">
-          <path d="M900 150 Q900 100 950 80 Q1000 100 1000 150 Q1000 220 950 260 Q900 220 900 150Z" fill="none" stroke="#8fb3ff" stroke-width="2.5"/>
-          <path d="M930 130 L950 110 L970 130 L970 180 L950 200 L930 180Z" fill="none" stroke="#8fb3ff" stroke-width="1.5"/>
-        </g>
-        <!-- D20 Dice -->
-        <g class="bg-icon bg-float-3" opacity="0.15">
-          <polygon points="500,50 540,85 520,130 480,130 460,85" fill="none" stroke="#c084fc" stroke-width="2.5"/>
-          <line x1="500" y1="50" x2="500" y2="130" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
-          <line x1="460" y1="85" x2="540" y2="85" stroke="#c084fc" stroke-width="1.5" opacity="0.6"/>
-        </g>
-        <!-- Potion -->
-        <g class="bg-icon bg-float-4" opacity="0.18">
-          <path d="M730 500 L740 500 L740 520 L755 560 Q760 575 745 580 L725 580 Q710 575 715 560 L730 520Z" fill="none" stroke="#4ade80" stroke-width="2.5"/>
-          <rect x="727" y="490" width="16" height="12" rx="2" fill="none" stroke="#4ade80" stroke-width="2.5"/>
-        </g>
-        <!-- Gem / Crystal -->
-        <g class="bg-icon bg-float-5" opacity="0.16">
-          <polygon points="150,450 170,420 190,450 170,490" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
-          <line x1="170" y1="420" x2="170" y2="490" stroke="#fbbf24" stroke-width="1.5" opacity="0.5"/>
-        </g>
-        <!-- Controller -->
-        <g class="bg-icon bg-float-2" opacity="0.14" transform="translate(350, 600)">
-          <ellipse cx="0" cy="0" rx="40" ry="22" fill="none" stroke="#f87171" stroke-width="2.5"/>
-          <circle cx="-15" cy="-2" r="4" fill="none" stroke="#f87171" stroke-width="2"/>
-          <circle cx="15" cy="-2" r="4" fill="none" stroke="#f87171" stroke-width="2"/>
-          <rect x="-5" y="-8" width="10" height="6" rx="1" fill="none" stroke="#f87171" stroke-width="1.5"/>
-        </g>
-        <!-- Scroll -->
-        <g class="bg-icon bg-float-6" opacity="0.15" transform="translate(1050, 450)">
-          <rect x="-20" y="-30" width="40" height="60" rx="3" fill="none" stroke="#8fb3ff" stroke-width="2.5"/>
-          <ellipse cx="-20" cy="-30" rx="5" ry="8" fill="none" stroke="#8fb3ff" stroke-width="2"/>
-          <ellipse cx="-20" cy="30" rx="5" ry="8" fill="none" stroke="#8fb3ff" stroke-width="2"/>
-          <line x1="-10" y1="-15" x2="15" y2="-15" stroke="#8fb3ff" stroke-width="1.5" opacity="0.5"/>
-          <line x1="-10" y1="-5" x2="15" y2="-5" stroke="#8fb3ff" stroke-width="1.5" opacity="0.5"/>
-          <line x1="-10" y1="5" x2="10" y2="5" stroke="#8fb3ff" stroke-width="1.5" opacity="0.5"/>
-        </g>
-        <!-- Star -->
-        <g class="bg-icon bg-float-1" opacity="0.14" transform="translate(800, 350)">
-          <polygon points="0,-25 7,-8 25,-8 11,4 17,22 0,12 -17,22 -11,4 -25,-8 -7,-8" fill="none" stroke="#fcd34d" stroke-width="2.5"/>
-        </g>
-      </svg>
-      <div class="bg-particle bg-p1"></div>
-      <div class="bg-particle bg-p2"></div>
-      <div class="bg-particle bg-p3"></div>
-      <div class="bg-particle bg-p4"></div>
-      <div class="bg-particle bg-p5"></div>
-      <div class="bg-particle bg-p6"></div>
-      <div class="bg-particle bg-p7"></div>
-      <div class="bg-particle bg-p8"></div>
-    </div>
-
-    <nav class="topnav">
-      <span class="nav-brand">RPG Quest Guide</span>
-      <button id="mobileFilterToggle" class="nav-toggle" type="button" aria-label="Toggle filters">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M5 10h10M7 15h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        Filters
-      </button>
-    </nav>
-
-    <header class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow">Game Quests and Walkthroughs</p>
-        <h1>Discover the Best<br />RPG Side Quests</h1>
-        <p class="subtitle">
-          Browse, filter, and explore side quests and video walkthroughs from popular RPG games.
-        </p>
-        <div class="hero-search">
-          <svg class="search-icon" width="18" height="18" viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/><path d="M14 14l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input id="searchInput" type="search" placeholder="Search quests, games, rewards..." />
-        </div>
+    <!-- ── Header ── -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./">
+          <span class="brand-logo" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>
+          </span>
+          <span class="brand-name">RPG Quest Guide</span>
+        </a>
+        <nav class="main-nav">
+          <a href="#library">Library</a>
+          <a href="#games">Games</a>
+          <a href="#library">Walkthroughs</a>
+          <a href="#feedback">About</a>
+        </nav>
+        <span class="header-count" id="headerCount"></span>
       </div>
     </header>
 
-    <main class="layout">
-      <aside id="filterPanel" class="panel controls" aria-label="Quest filters">
-        <div class="filter-header">
-          <h3>Filters</h3>
-          <button id="resetButton" type="button" class="btn-reset">Clear all</button>
-        </div>
+    <!-- ── Hero ── -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay-1" aria-hidden="true"></div>
+      <div class="hero-overlay-2" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="hero-eyebrow">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.3 16.5 14 18.5 21 12 17 5.5 21 7.5 14 2 9.3 9 9"/></svg>
+          Fan-made RPG Quest Database
+        </p>
+        <h1 id="heroTitle">Discover the Best RPG Side Quests</h1>
+        <p class="hero-sub" id="heroSub">Browse walkthroughs and guides across 15 games — filtered to exactly what you need.</p>
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+    </section>
 
-        <div class="filter-group">
-          <label for="gameFilter">Game</label>
-          <select id="gameFilter">
-            <option value="all">All games</option>
-          </select>
+    <!-- ── Game gallery ── -->
+    <div class="gallery-section" id="games">
+      <div class="gallery-inner">
+        <div class="gallery-head">
+          <span class="gallery-label">Browse by Game</span>
+          <button type="button" class="gallery-showall" id="galleryShowAll">↺ Show all</button>
         </div>
+        <div class="gallery-scroll" id="gameGallery"></div>
+      </div>
+    </div>
 
-        <div id="subFilterContainer"></div>
-
-        <div id="videoFilterGroup" class="filter-group" style="display:none;">
-          <label for="videoFilter">Walkthrough</label>
-          <select id="videoFilter">
-            <option value="all">All quests</option>
-            <option value="video">With video walkthrough</option>
-          </select>
+    <!-- ── Filter bar ── -->
+    <div class="filter-bar" id="library">
+      <div class="filter-bar-inner">
+        <div class="filter-row" data-filter="type">
+          <span class="filter-label">Type</span>
+          <div class="pill-group">
+            <button type="button" class="filter-pill active" data-value="all">All</button>
+            <button type="button" class="filter-pill" data-value="side">Side</button>
+            <button type="button" class="filter-pill" data-value="main">Main</button>
+          </div>
         </div>
-
-        <div class="filter-group">
-          <label for="typeFilter">Quest type</label>
-          <select id="typeFilter">
-            <option value="all">All types</option>
-            <option value="main">Main quests</option>
-            <option value="side">Side quests</option>
-          </select>
+        <div class="filter-divider"></div>
+        <div class="filter-row" data-filter="difficulty">
+          <span class="filter-label">Difficulty</span>
+          <div class="pill-group">
+            <button type="button" class="filter-pill active" data-value="all">All</button>
+            <button type="button" class="filter-pill" data-value="Low">Low</button>
+            <button type="button" class="filter-pill" data-value="Medium">Medium</button>
+            <button type="button" class="filter-pill" data-value="High">High</button>
+          </div>
         </div>
-
-        <div class="filter-group">
-          <label for="lengthFilter">Quest length</label>
-          <select id="lengthFilter">
-            <option value="all">Any length</option>
-            <option value="short">Short</option>
-            <option value="medium">Medium</option>
-            <option value="long">Long</option>
-          </select>
+        <div class="filter-divider"></div>
+        <div class="filter-row" data-filter="length">
+          <span class="filter-label">Length</span>
+          <div class="pill-group">
+            <button type="button" class="filter-pill active" data-value="all">All</button>
+            <button type="button" class="filter-pill" data-value="short">Short</button>
+            <button type="button" class="filter-pill" data-value="medium">Medium</button>
+            <button type="button" class="filter-pill" data-value="long">Long</button>
+          </div>
         </div>
-
-        <div class="filter-group">
-          <label for="difficultyFilter">Difficulty</label>
-          <select id="difficultyFilter">
-            <option value="all">Any difficulty</option>
-            <option value="Low">Low</option>
-            <option value="Medium">Medium</option>
-            <option value="High">High</option>
-          </select>
+        <div class="filter-divider" id="videoDivider" style="display:none;"></div>
+        <div class="filter-row" data-filter="video" id="videoFilterRow" style="display:none;">
+          <span class="filter-label">Walkthrough</span>
+          <div class="pill-group">
+            <button type="button" class="filter-pill active" data-value="all">All</button>
+            <button type="button" class="filter-pill" data-value="video">Video</button>
+          </div>
         </div>
-      </aside>
+        <div class="filter-divider" id="subDivider" style="display:none;"></div>
+        <div class="filter-row" data-filter="sub" id="subFilterRow" style="display:none;"></div>
+        <button type="button" class="filter-reset" id="resetButton">↺ Reset</button>
+      </div>
+    </div>
 
-      <section class="content">
-        <div class="results-header">
-          <h2>Quest Library</h2>
-          <span id="resultCount" class="result-count"></span>
+    <!-- ── Quest library ── -->
+    <main class="content">
+      <div class="content-head">
+        <div class="search-box">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/><path d="M14 14l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="searchInput" class="search-input" type="search" placeholder="Search quests, games, descriptions…" />
         </div>
-        <div id="questGrid" class="quest-grid" aria-live="polite"></div>
-      </section>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+      <div id="questGrid" class="quest-grid" aria-live="polite"></div>
     </main>
 
+    <!-- ── Quest detail (hash-routed) ── -->
     <section id="questDetail" class="quest-detail" style="display:none;" aria-live="polite"></section>
 
+    <!-- ── Feedback ── -->
     <section id="feedback" class="feedback" aria-labelledby="feedbackHeading">
       <div class="feedback-inner">
         <h2 id="feedbackHeading">Share your feedback</h2>
         <p class="feedback-sub">
-          Got a suggestion, spotted a mistake, or want us to add a game or quest? Let us know &mdash; we read every message.
+          Got a suggestion, spotted a mistake, or want us to add a game or quest? Let us know — we read every message.
         </p>
         <form id="feedbackForm" class="feedback-form" novalidate>
           <div class="feedback-row">
@@ -238,41 +195,51 @@
       </div>
     </section>
 
-    <footer>
-      <p><strong>RPG Quest Guide</strong> &mdash; Your guide to the best RPG side quests.</p>
-      <p style="margin-top:0.4rem;font-size:0.8rem;opacity:0.5;">
-        199 quests across 15 games &mdash; Elden Ring, Baldur's Gate 3, The Witcher 3, Cyberpunk 2077 &amp; more.
-        &nbsp;|&nbsp; <a href="mailto:k.barbu12@gmail.com" style="color:inherit;">Contact</a>
-      </p>
-      <p style="margin-top:0.5rem;font-size:0.75rem;opacity:0.35;">
-        RPG Quest Guide is a fan-made reference site. All game names, characters, and content are trademarks of their respective owners.
-        Walkthrough videos are created by their respective YouTube creators and are not owned by RPG Quest Guide.
-        This site is not affiliated with or endorsed by any game publisher.
-      </p>
+    <!-- ── Footer ── -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>
+            RPG Quest Guide
+          </div>
+          <div class="footer-links">
+            <a href="mailto:k.barbu12@gmail.com">k.barbu12@gmail.com</a>
+            <p class="footer-fine">Fan-made · Not affiliated with any publisher or developer.</p>
+          </div>
+        </div>
+        <p class="footer-fine">
+          All game names, characters, and content are trademarks of their respective owners.
+          Walkthrough videos are created by their respective YouTube creators and are not owned by RPG Quest Guide.
+        </p>
+      </div>
     </footer>
 
+    <!-- ── Chat widget ── -->
     <div id="chatWidget" class="chat-widget">
-      <button id="chatToggle" class="chat-toggle" type="button" aria-label="Open chat">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
       <div id="chatPanel" class="chat-panel" style="display:none;">
         <div class="chat-header">
           <span class="chat-title">Quest Assistant</span>
           <button id="chatClose" class="chat-close" type="button" aria-label="Close chat">&times;</button>
         </div>
         <div id="chatMessages" class="chat-messages">
-          <div class="chat-msg bot">Hi! Ask me anything about the quests, games, or walkthroughs on this site.</div>
+          <div class="chat-msg bot">Greetings, adventurer. Ask me anything about the quests, games, or walkthroughs on this site.</div>
         </div>
         <div class="chat-input-row">
-          <input id="chatInput" type="text" placeholder="Ask a question..." autocomplete="off" />
-          <button id="chatSend" type="button">Send</button>
+          <input id="chatInput" type="text" placeholder="Ask about a quest…" autocomplete="off" />
+          <button id="chatSend" type="button" aria-label="Send">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
         </div>
       </div>
+      <button id="chatToggle" class="chat-toggle" type="button" aria-label="Open chat">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+      </button>
     </div>
 
-    <script src="data/quests.js?v=6"></script>
-    <script src="src/app.js?v=6"></script>
-    <script src="src/chatbot.js?v=6"></script>
-    <script src="src/feedback.js?v=6"></script>
+    <script src="data/quests.js?v=7"></script>
+    <script src="src/app.js?v=7"></script>
+    <script src="src/chatbot.js?v=7"></script>
+    <script src="src/feedback.js?v=7"></script>
   </body>
 </html>
