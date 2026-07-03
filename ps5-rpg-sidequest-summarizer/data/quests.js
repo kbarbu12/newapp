@@ -11473,5 +11473,1109 @@ const quests = [
     aiTip:
       "Combat-focused — free the beasts and grab the loot from the camp.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trafficking%20Talents%20walkthrough"
+  },
+  {
+    id: 718,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Regalith Grand Cathedral",
+    location: "Grand Trad",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story start, first Archetype awakening",
+    summary:
+      "The assassination of the king sets the race for the throne in motion; the protagonist and Gallica infiltrate the capital's grand cathedral.",
+    aiTip:
+      "The tutorial dungeon — learn the Archetype (class) system and Synthesis attacks here.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Regalith%20Grand%20Cathedral%20walkthrough"
+  },
+  {
+    id: 719,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Belega Corridor",
+    location: "Route to Martira",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gauntlet Runner travel, party growth",
+    summary:
+      "The party journeys aboard the Gauntlet Runner, clearing the monster-infested Belega Corridor on the road to Martira.",
+    aiTip:
+      "Manage travel-day time carefully — the calendar system rewards planning like Persona.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Belega%20Corridor%20walkthrough"
+  },
+  {
+    id: 720,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Tradia Desert",
+    location: "Martira Region",
+    length: "long",
+    difficulty: "High",
+    reward: "Louis confrontation lead, Archetypes",
+    summary:
+      "Cross the harsh Tradia Desert and its ruins as the election tournament and Louis's shadow loom.",
+    aiTip:
+      "Bring wind/fire coverage and watch for the desert's tough optional bosses.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Tradia%20Desert%20walkthrough"
+  },
+  {
+    id: 721,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Abandoned Tomb",
+    location: "Martira Region",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, new Archetypes",
+    summary:
+      "Delve into an ancient abandoned tomb tied to the history of the fantasy novel that shapes the world.",
+    aiTip:
+      "A lore-heavy dungeon — the Archetype lineage rewards here are strong upgrades.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Abandoned%20Tomb%20walkthrough"
+  },
+  {
+    id: 722,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Giant Sandworm's Belly",
+    location: "Tradia Desert",
+    length: "long",
+    difficulty: "High",
+    reward: "Escape sequence, party bond",
+    summary:
+      "Swallowed whole, the party must fight their way out of a colossal sandworm from the inside.",
+    aiTip:
+      "A memorable set-piece dungeon — keep healing items topped up for the escape.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Giant%20Sandworm's%20Belly%20walkthrough"
+  },
+  {
+    id: 723,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Giant Sandworm's Nest",
+    location: "Tradia Desert",
+    length: "long",
+    difficulty: "High",
+    reward: "Sandworm threat ended, gear",
+    summary:
+      "Track the sandworms to their nest to end the threat menacing the desert region.",
+    aiTip:
+      "Exploit the brood's shared weakness and use Synthesis skills to clear packs.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Giant%20Sandworm's%20Nest%20walkthrough"
+  },
+  {
+    id: 724,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Kriegante Castle",
+    location: "Kriegante",
+    length: "long",
+    difficulty: "High",
+    reward: "Faction confrontation, story turn",
+    summary:
+      "Storm the fortress of Kriegante as the throne race turns violent and alliances fracture.",
+    aiTip:
+      "A boss-dense castle — swap Archetypes to counter each guardian's element.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Kriegante%20Castle%20walkthrough"
+  },
+  {
+    id: 725,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Dragon Temple",
+    location: "Skanda",
+    length: "long",
+    difficulty: "High",
+    reward: "Royal magic trial, near-finale",
+    summary:
+      "Undertake the sacred Dragon Temple trial to prove worthiness for the throne.",
+    aiTip:
+      "Late-game difficulty spike — max your Archetype masteries before entering.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Dragon%20Temple%20walkthrough"
+  },
+  {
+    id: 726,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Skybound Avatar",
+    location: "Final Region",
+    length: "long",
+    difficulty: "High",
+    reward: "Finale, the true king revealed",
+    summary:
+      "The climactic ascent to confront the source of the kingdom's despair and claim the future.",
+    aiTip:
+      "The finale is a multi-phase gauntlet — bring your strongest Archetype lineages and items.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Skybound%20Avatar%20walkthrough"
+  },
+  {
+    id: 727,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Gallica",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Gallica. Your fairy companion whose fate is bound to the protagonist's journey.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Gallica%20walkthrough"
+  },
+  {
+    id: 728,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Strohl",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Strohl. The noble-hearted swordsman who becomes your first steadfast ally.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Strohl%20walkthrough"
+  },
+  {
+    id: 729,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Hulkenberg",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Hulkenberg. The dutiful knight sworn to protect the prince — and now you.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Hulkenberg%20walkthrough"
+  },
+  {
+    id: 730,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Heismay",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Heismay. The wary eugief elder whose past hides a tragic mystery.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Heismay%20walkthrough"
+  },
+  {
+    id: 731,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Junah",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Junah. The enigmatic singer with a hidden agenda and a powerful voice.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Junah%20walkthrough"
+  },
+  {
+    id: 732,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Eupha",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Eupha. The soft-spoken mystic of a persecuted tribe seeking peace.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Eupha%20walkthrough"
+  },
+  {
+    id: 733,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Basilio",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Basilio. The battle-hardened mercenary with a surprising philosophical streak.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Basilio%20walkthrough"
+  },
+  {
+    id: 734,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: More",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with More. Your loyal Gauntlet Runner driver and tactical support.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20More%20walkthrough"
+  },
+  {
+    id: 735,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Maria",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Maria. A kind healer at the clinic whose bond restores the party's spirit.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Maria%20walkthrough"
+  },
+  {
+    id: 736,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Brigitta",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Brigitta. The ambitious merchant whose network opens up rare goods.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Brigitta%20walkthrough"
+  },
+  {
+    id: 737,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Catherina",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Catherina. The recruitment-center manager who connects you with bounties and allies.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Catherina%20walkthrough"
+  },
+  {
+    id: 738,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Neuras",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Neuras. The eccentric engineer who upgrades the Gauntlet Runner.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Neuras%20walkthrough"
+  },
+  {
+    id: 739,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Alonzo",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Alonzo. The slippery informant whose loyalties are never quite clear.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Alonzo%20walkthrough"
+  },
+  {
+    id: 740,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Follower Bond: Bardon",
+    location: "Grand Trad / travels",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlocks, combat & social perks",
+    summary:
+      "Deepen your bond with Bardon. The gruff military man who respects strength and resolve.",
+    aiTip:
+      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Bardon%20walkthrough"
+  },
+  {
+    id: 741,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Bounty: The Man-Eater in the Mine",
+    location: "Recruitment Center",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty reward, rare materials",
+    summary:
+      "Hunt the alpha Rockworm Valvo lurking in the Man-Eater's Grotto.",
+    aiTip:
+      "Bounties are posted at recruitment centers — bring elemental coverage for the boss.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20The%20Man-Eater%20in%20the%20Mine%20walkthrough"
+  },
+  {
+    id: 742,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Bounty: The New King of the Imps",
+    location: "Recruitment Center",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Bounty reward, coin",
+    summary:
+      "Clear out the Imp's Den and slay the cunning beast that rules it.",
+    aiTip:
+      "A quick bounty — exploit the imps' weakness for a fast clear.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20The%20New%20King%20of%20the%20Imps%20walkthrough"
+  },
+  {
+    id: 743,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Bounty: Man's Not-So-Best Friend",
+    location: "Recruitment Center",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty reward, gear",
+    summary:
+      "Defeat the monstrous beast prowling the depths of the Tradia Desert.",
+    aiTip:
+      "Accept from the recruitment center; a mid-tier bounty with a solid payout.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20Man's%20Not-So-Best%20Friend%20walkthrough"
+  },
+  {
+    id: 744,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Requests & Favours",
+    location: "Towns & Recruitment Centers",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, items, follower progress",
+    summary:
+      "Take on the townsfolk's Requests and Favours — fetch tasks, escorts, and small hunts.",
+    aiTip:
+      "Many requests gate Follower bond progress — clear them as they appear.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Requests%20%26%20Favours%20walkthrough"
+  },
+  {
+    id: 745,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "The King's Trials (Virtue Trials)",
+    location: "Various",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal Virtue growth, Archetype boosts",
+    summary:
+      "Complete the trials that test the five Royal Virtues (Courage, Wisdom, Tolerance, etc.).",
+    aiTip:
+      "Raising Royal Virtues unlocks better Archetypes and key dialogue options.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20King's%20Trials%20(Virtue%20Trials)%20walkthrough"
+  },
+  {
+    id: 746,
+    type: "main",
+    game: "Demon's Souls",
+    region: "The Nexus",
+    title: "The Nexus",
+    location: "The Nexus",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hub unlocked, Archstones",
+    summary:
+      "Slain in Boletaria, the player wakes in the Nexus — the soul-bound hub linking the five worlds.",
+    aiTip:
+      "Return here to level up with the Maiden in Black and spend souls between runs.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
+  },
+  {
+    id: 747,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "Boletaria Palace (World 1)",
+    location: "Boletaria",
+    length: "long",
+    difficulty: "High",
+    reward: "Phalanx, Tower Knight, Penetrator, False King",
+    summary:
+      "Storm the fog-choked royal palace of Boletaria, from the Gates to the throne of the False King Allant.",
+    aiTip:
+      "Bring lightning-resist for Tower Knight; the Penetrator fight rewards saving Biorr.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
+  },
+  {
+    id: 748,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Stonefang",
+    title: "Stonefang Tunnel (World 2)",
+    location: "Stonefang",
+    length: "long",
+    difficulty: "High",
+    reward: "Armor Spider, Flamelurker, Dragon God",
+    summary:
+      "Descend the dwarven mines of Stonefang, ending at the imprisoned Dragon God.",
+    aiTip:
+      "Turpentine/fire buffs melt the Armor Spider; the Dragon God is a stealth-and-ballista puzzle.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
+  },
+  {
+    id: 749,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Latria",
+    title: "Tower of Latria (World 3)",
+    location: "Latria",
+    length: "long",
+    difficulty: "High",
+    reward: "Fool's Idol, Maneater, Old Monk",
+    summary:
+      "Escape the prison towers of Latria, past the Fool's Idol and the dreaded Maneaters.",
+    aiTip:
+      "Kill the disciple to stop Fool's Idol reviving; the Old Monk fight can summon another player.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
+  },
+  {
+    id: 750,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Shrine of Storms",
+    title: "Shrine of Storms (World 4)",
+    location: "Shrine of Storms",
+    length: "long",
+    difficulty: "High",
+    reward: "Adjudicator, Old Hero, Storm King",
+    summary:
+      "Brave the storm-lashed cliffs and crypts of the Shrine, home to the Storm King.",
+    aiTip:
+      "The blind Old Hero tracks by sound — sneak and strike. Storm Ruler trivializes the Storm King.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
+  },
+  {
+    id: 751,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Valley of Defilement",
+    title: "Valley of Defilement (World 5)",
+    location: "Valley of Defilement",
+    length: "long",
+    difficulty: "High",
+    reward: "Leechmonger, Dirty Colossus, Maiden Astraea",
+    summary:
+      "Wade through the plague-ridden swamps of the Valley to the merciful Maiden Astraea.",
+    aiTip:
+      "Bring plague/poison cures; the Astraea encounter is a heartbreaking moral choice.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
+  },
+  {
+    id: 752,
+    type: "main",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "The False King & Old One",
+    location: "Boletaria / The Nexus",
+    length: "long",
+    difficulty: "High",
+    reward: "Endgame, character/world tendency ending",
+    summary:
+      "Defeat the False King Allant and confront the Old One to decide the fate of the waking world.",
+    aiTip:
+      "Your ending choice (lull the Old One or seize power) reflects your journey — save first.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
+  },
+  {
+    id: 753,
+    type: "side",
+    game: "Demon's Souls",
+    region: "The Nexus",
+    title: "World & Character Tendency",
+    location: "All worlds",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Black/White events, unique gear",
+    summary:
+      "Manage World and Character Tendency — pure-white and pure-black states unlock exclusive bosses and loot.",
+    aiTip:
+      "Dying in body form blackens tendency; some rare items require a specific tendency, so plan runs.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
+  },
+  {
+    id: 754,
+    type: "side",
+    game: "Demon's Souls",
+    region: "The Nexus",
+    title: "Primeval Demons & Colorless Souls",
+    location: "All worlds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Colorless Demon's Souls, upgrades",
+    summary:
+      "Hunt the optional Primeval Demons that drop Colorless Demon's Souls for special upgrades.",
+    aiTip:
+      "Their spawns depend on World Tendency — a reason to push tendency pure-white.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
+  },
+  {
+    id: 755,
+    type: "side",
+    game: "Demon's Souls",
+    region: "Stonefang",
+    title: "Blacksmith Ed & Weapon Paths",
+    location: "Stonefang",
+    length: "short",
+    difficulty: "Low",
+    reward: "Boss-soul weapons, upgrades",
+    summary:
+      "Rescue and supply Blacksmith Ed to forge unique weapons from Demon's Souls.",
+    aiTip:
+      "Spend boss souls wisely — some make build-defining weapons like the Northern Regalia.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
+  },
+  {
+    id: 756,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Gilded Vale",
+    title: "A Moment's Respite",
+    location: "Valewood / Gilded Vale",
+    length: "short",
+    difficulty: "Low",
+    reward: "Watcher awakening, story start",
+    summary:
+      "Ambushed on the road to Gilded Vale, the protagonist survives a biawac and awakens as a Watcher who sees past lives.",
+    aiTip:
+      "The prologue introduces the soul-reading Watcher mechanic that drives the whole story.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Moment's%20Respite%20walkthrough"
+  },
+  {
+    id: 757,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Gilded Vale",
+    title: "The Gilded Vale & Raedric's Hold",
+    location: "Gilded Vale",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Lord Raedric quest, companions",
+    summary:
+      "Seek answers in the hanging-tree village of Gilded Vale and choose a side in Lord Raedric's brutal rule.",
+    aiTip:
+      "You can side with, spare, or depose Raedric — each path has different rewards and allies.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Gilded%20Vale%20%26%20Raedric's%20Hold%20walkthrough"
+  },
+  {
+    id: 758,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Caed Nua",
+    title: "Building a Fortress: Caed Nua",
+    location: "Caed Nua",
+    length: "long",
+    difficulty: "High",
+    reward: "Stronghold acquired, Maerwald",
+    summary:
+      "Claim the ruined keep of Caed Nua from the mad Watcher Maerwald and the endless dungeon below it.",
+    aiTip:
+      "Caed Nua becomes your stronghold — invest in it for income, allies, and side content.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Building%20a%20Fortress%3A%20Caed%20Nua%20walkthrough"
+  },
+  {
+    id: 759,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Defiance Bay",
+    title: "The Hermit of Hadret House",
+    location: "Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Animancy conspiracy, Act 2",
+    summary:
+      "Investigate the animancy conspiracy roiling Defiance Bay and the truth behind the hollowborn crisis.",
+    aiTip:
+      "Opens Act 2's faction intrigue — your choices shape Defiance Bay's fate.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hermit%20of%20Hadret%20House%20walkthrough"
+  },
+  {
+    id: 760,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Defiance Bay",
+    title: "The Champion of Berath / Faction War",
+    location: "Defiance Bay",
+    length: "long",
+    difficulty: "High",
+    reward: "Faction allegiance, Act 2 climax",
+    summary:
+      "Navigate the three-way struggle between the Crucible Knights, the Dozens, and House Doemenel.",
+    aiTip:
+      "Pick a faction for Act 2's finale — it changes who helps you and who turns hostile.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Champion%20of%20Berath%20%2F%20Faction%20War%20walkthrough"
+  },
+  {
+    id: 761,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Twin Elms",
+    title: "The Hunt for Thaos: Twin Elms",
+    location: "Twin Elms",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 3, Leaden Key trail",
+    summary:
+      "Journey to the elven city of Twin Elms to track the Leaden Key's leader, Thaos, to his source.",
+    aiTip:
+      "The Engwithan ruins here reveal the gods' true nature — read the lore closely.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunt%20for%20Thaos%3A%20Twin%20Elms%20walkthrough"
+  },
+  {
+    id: 762,
+    type: "main",
+    game: "Pillars of Eternity",
+    region: "Twin Elms",
+    title: "Sun in Shadow",
+    location: "Sun in Shadow",
+    length: "long",
+    difficulty: "High",
+    reward: "Finale, the wheel of souls choice",
+    summary:
+      "Descend into the Engwithan machine beneath Teir Evron to confront Thaos and decide the fate of countless souls.",
+    aiTip:
+      "The ending is a philosophical choice about souls and the gods — there's no simple 'right' answer.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sun%20in%20Shadow%20walkthrough"
+  },
+  {
+    id: 763,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "Gilded Vale",
+    title: "Companion: Edér — The Talons Abound",
+    location: "Gilded Vale / Dyrford",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Edér's loyalty, backstory",
+    summary:
+      "Help Edér uncover the truth about his brother Woden and the war that tore the Dyrwood apart.",
+    aiTip:
+      "Edér's quest deepens the game's religious themes — a rewarding companion arc.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Talons%20Abound%20walkthrough"
+  },
+  {
+    id: 764,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "Defiance Bay",
+    title: "Companion: Aloth — The Hollow Within",
+    location: "Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Aloth's second soul revealed",
+    summary:
+      "Unravel the mystery of the wizard Aloth's hidden second personality and his ties to the Leaden Key.",
+    aiTip:
+      "His arc ties directly into the main conspiracy — pursue it before the finale.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20The%20Hollow%20Within%20walkthrough"
+  },
+  {
+    id: 765,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "Caed Nua",
+    title: "Companion: Sagani — Vengeance from the Grave",
+    location: "Various",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sagani's mission, closure",
+    summary:
+      "Aid the dwarven hunter Sagani in her lifelong quest to find the reincarnation of her village's elder.",
+    aiTip:
+      "Her quest can conclude across the world map — bring her along as you travel.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20Vengeance%20from%20the%20Grave%20walkthrough"
+  },
+  {
+    id: 766,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "Defiance Bay",
+    title: "Companion: Pallegina — Clandestine Cargo",
+    location: "Defiance Bay",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pallegina's order, Vailian ties",
+    summary:
+      "Help the godlike paladin Pallegina serve the Vailian Republics — or defy their orders.",
+    aiTip:
+      "Your advice affects Pallegina's standing with her order and her ending.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20Clandestine%20Cargo%20walkthrough"
+  },
+  {
+    id: 767,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "Dyrford",
+    title: "Companion: Grieving Mother — Ghosts of Time",
+    location: "Dyrford",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grieving Mother's secret",
+    summary:
+      "Peer into the fractured memories of the mysterious Grieving Mother and the terrible mercy she performs.",
+    aiTip:
+      "One of the most thematically rich companion arcs — take your time with the memories.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Ghosts%20of%20Time%20walkthrough"
+  },
+  {
+    id: 768,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "White March",
+    title: "The White March: Durgan's Battery",
+    location: "Stalwart / White March",
+    length: "long",
+    difficulty: "High",
+    reward: "Durgan steel, dwarven stronghold",
+    summary:
+      "Reopen the frozen dwarven fortress of Durgan's Battery and recover the secret of Durgan steel.",
+    aiTip:
+      "The White March Part I expansion — high-level content best done mid-to-late game.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
+  },
+  {
+    id: 769,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "White March",
+    title: "The White March: He Waits in Fire",
+    location: "Stalwart / White March",
+    length: "long",
+    difficulty: "High",
+    reward: "Abydon's forge, moral choice",
+    summary:
+      "Confront the sleeping god-forge and the fate of the smith-god Abydon in Part II.",
+    aiTip:
+      "A dramatic set piece with a weighty theological choice — think it through.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20He%20Waits%20in%20Fire%20walkthrough"
+  },
+  {
+    id: 770,
+    type: "side",
+    game: "Pillars of Eternity",
+    region: "White March",
+    title: "The White March: Cragholdt Bluffs",
+    location: "Cragholdt",
+    length: "long",
+    difficulty: "High",
+    reward: "Concelhaut's tower, powerful loot",
+    summary:
+      "Storm the mercenary-held Cragholdt Bluffs and the tower of the lich Concelhaut.",
+    aiTip:
+      "Very difficult optional content — bring a well-geared, high-level party.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Cragholdt%20Bluffs%20walkthrough"
+  },
+  {
+    id: 771,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "The Cornett's Call",
+    location: "Caed Nua ruins",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Watcher revived, Eothas awakens",
+    summary:
+      "The god Eothas reawakens beneath Caed Nua, drains the Watcher's soul, and marches into the sea — the chase begins.",
+    aiTip:
+      "The prologue reunites you with old companions and sets your soul-bond stakes for the game.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
+  },
+  {
+    id: 772,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Port Maje & the Gullet",
+    location: "Port Maje / Neketaka",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Deadfire opened, ship & crew",
+    summary:
+      "Wash ashore at Port Maje, then reach the great city of Neketaka to outfit your ship, the Defiant.",
+    aiTip:
+      "Neketaka is the hub — recruit crew, upgrade the Defiant, and pick up faction and companion quests.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
+  },
+  {
+    id: 773,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Hasongo",
+    location: "Hasongo",
+    length: "medium",
+    difficulty: "High",
+    reward: "Eothas's trail, faction stakes",
+    summary:
+      "Reach the fortress island of Hasongo to catch Eothas's trail and get drawn into the powers' schemes.",
+    aiTip:
+      "Which faction you help here begins to steer the archipelago's fate.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20walkthrough"
+  },
+  {
+    id: 774,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Ashen Maw",
+    location: "Magran's Teeth",
+    length: "long",
+    difficulty: "High",
+    reward: "Confront Eothas, faction climax",
+    summary:
+      "Brave the volcanic Ashen Maw to finally confront the titan of Eothas and the god's true plan.",
+    aiTip:
+      "A major turning point — your faction allegiance shapes who stands with you.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
+  },
+  {
+    id: 775,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "The Coming Storm / A Glimpse Beyond",
+    location: "Ukaizo approach",
+    length: "long",
+    difficulty: "High",
+    reward: "Ukaizo unlocked, endgame",
+    summary:
+      "Secure passage past the Storm of Ukaizo to reach the lost Engwithan city and the god's final act.",
+    aiTip:
+      "Requires a faction's help to cross — the endgame branches hard on your choices.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
+  },
+  {
+    id: 776,
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "The Fall of Ukaizo",
+    location: "Ukaizo",
+    length: "long",
+    difficulty: "High",
+    reward: "Finale, the wheel's fate",
+    summary:
+      "At the ancient city of Ukaizo, the Watcher decides how to answer Eothas's world-shaking gambit.",
+    aiTip:
+      "The ending weighs the gods, the mortal world, and your faction — save before the final talks.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
+  },
+  {
+    id: 777,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Faction: The Huana",
+    location: "Neketaka",
+    length: "long",
+    difficulty: "High",
+    reward: "Huana alliance, sovereignty",
+    summary:
+      "Serve Queen Onekaza and the native Huana as they fight to keep the Deadfire from foreign powers.",
+    aiTip:
+      "One of four mutually-exclusive faction paths to the finale — pick the vision you believe in.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
+  },
+  {
+    id: 778,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Faction: Vailian Trading Company",
+    location: "Neketaka",
+    length: "long",
+    difficulty: "High",
+    reward: "VTC alliance, commerce",
+    summary:
+      "Advance the Vailian Trading Company's grip on the archipelago's soul-rich adra trade.",
+    aiTip:
+      "Aligning with the VTC alienates rival factions — choose deliberately.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
+  },
+  {
+    id: 779,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Faction: Príncipi sen Patrena",
+    location: "Deadfire seas",
+    length: "long",
+    difficulty: "High",
+    reward: "Pirate alliance, freedom",
+    summary:
+      "Throw in with the pirate confederation, the Príncipi, and their dream of a free Deadfire.",
+    aiTip:
+      "The most freewheeling faction — great for a swashbuckling captain playthrough.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Pr%C3%ADncipi%20sen%20Patrena%20walkthrough"
+  },
+  {
+    id: 780,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Faction: Rauataian Royal Deadfire Company",
+    location: "Neketaka",
+    length: "long",
+    difficulty: "High",
+    reward: "Rauatai alliance, empire",
+    summary:
+      "Help the imperial Rauataians impose order — and control — over the islands.",
+    aiTip:
+      "A colonizing power path with hard moral trade-offs; your choices color the ending.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
+  },
+  {
+    id: 781,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Companion: Edér — Home Fires",
+    location: "Sayuka",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Edér's faith and family",
+    summary:
+      "Help Edér find a lost love and reckon with his faith now that Eothas has returned.",
+    aiTip:
+      "A warm, human arc amid the divine stakes — worth doing before the finale.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Home%20Fires%20walkthrough"
+  },
+  {
+    id: 782,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Companion: Serafen — A Man of Ill Tidings",
+    location: "Deadfire seas",
+    length: "medium",
+    difficulty: "High",
+    reward: "Serafen's past, slaver reckoning",
+    summary:
+      "Aid the cipher orlan pirate Serafen in confronting the slaver captain from his past.",
+    aiTip:
+      "Ship-combat friendly — chase the target across the seas with the Defiant.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Man%20of%20Ill%20Tidings%20walkthrough"
+  },
+  {
+    id: 783,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Companion: Maia Rua — A Sinking Feeling",
+    location: "Deadfire seas",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Maia's Rauatai orders, family",
+    summary:
+      "Help the Rauataian sharpshooter Maia balance her orders against her brother Serafen's loyalties.",
+    aiTip:
+      "Their sibling arc can collide — your mediation matters.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20A%20Sinking%20Feeling%20walkthrough"
+  },
+  {
+    id: 784,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Companion: Tekēhu — The Painted Masks",
+    location: "Neketaka",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tekēhu's watershaper heritage",
+    summary:
+      "Guide the flamboyant godlike Tekēhu as he wrestles with his rare watershaper gifts and Huana duty.",
+    aiTip:
+      "A charismatic arc exploring the Huana's caste system and divine blood.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Painted%20Masks%20walkthrough"
+  },
+  {
+    id: 785,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "The Beast of Winter (DLC)",
+    location: "Harbinger's Watch",
+    length: "long",
+    difficulty: "High",
+    reward: "Rymrgand's trial, unique rewards",
+    summary:
+      "Answer a cult's summons to the frozen isle and enter the death-god Rymrgand's domain.",
+    aiTip:
+      "A darkly imaginative DLC — bring cold resistance and a high-level party.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
+  },
+  {
+    id: 786,
+    type: "side",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "Seeker, Slayer, Survivor (DLC)",
+    location: "Old City arena",
+    length: "long",
+    difficulty: "High",
+    reward: "Combat trials, prestige gear",
+    summary:
+      "Compete in the spectral arena of the Faces of War for glory and powerful loot.",
+    aiTip:
+      "A combat-focused DLC — ideal for testing a min-maxed party build.",
+    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
   }
 ];

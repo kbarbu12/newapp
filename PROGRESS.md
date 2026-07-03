@@ -8,8 +8,8 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **717** (was 253 at the start of this work — **+464**)
-- **Games covered:** 15 — **8 fully deep-filled** (all named main + side + repeatable content)
+- **Total quests in library:** **786** (was 253 at the start of this work — **+533**)
+- **Games covered:** 15 — **12 deep-filled**; the last 3 (BG3, Elden Ring, Black Myth) still need a guide audit
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
 - **Region/Act sub-filters:** live for Baldur's Gate 3, Elden Ring, Black Myth: Wukong, The Witcher 3
 
@@ -25,13 +25,13 @@
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
 | Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
 | Ghost of Tsushima | 47 | 19 | 28 | — | ✅ Deep-filled (Act 1–3 tales, 7 Mythic Tales, companion tales, Iki Island) |
+| Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
 | Baldur's Gate 3 | 30 | 9 | 21 | ✅ | 🟡 Good, not audited |
 | Elden Ring | 29 | 8 | 21 | ✅ | 🟡 Good, not audited |
+| Pillars of Eternity II: Deadfire | 29 | 7 | 22 | — | ✅ Deep-filled (main story, 4 faction paths, companion quests, DLCs) |
+| Pillars of Eternity | 28 | 10 | 18 | — | ✅ Deep-filled (Acts I–III main story, companion quests, White March DLC) |
+| Demon's Souls | 23 | 10 | 13 | — | ✅ Deep-filled (all 5 Archstone worlds + bosses, tendency system, NPC arcs) |
 | Black Myth: Wukong | 21 | 6 | 15 | ✅ | 🟡 Good, not audited |
-| Demon's Souls | 13 | 3 | 10 | — | 🔴 Needs full pass |
-| Pillars of Eternity | 13 | 3 | 10 | — | 🔴 Needs full pass |
-| Pillars of Eternity II: Deadfire | 13 | 1 | 12 | — | 🔴 Needs full pass |
-| Metaphor: ReFantazio | 12 | 0 | 12 | — | 🔴 Needs full pass |
 
 Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited against a guide · 🔴 sample only, needs a full pass
 
@@ -110,11 +110,10 @@ against the full wiki lists could guarantee 100% coverage per game.**
 ## 3. What still needs to be done
 
 ### High priority
-- [ ] **Full coverage pass on the remaining 4 🔴 games**: Demon's Souls, Pillars of Eternity,
-      Pillars of Eternity II: Deadfire, Metaphor: ReFantazio. (Next batch of 3: **Metaphor**,
-      **Demon's Souls**, **Pillars of Eternity** — then Deadfire.)
-- [ ] **Audit the 🟡 games** (BG3, Elden Ring, Black Myth) against a guide to confirm they're
-      actually complete, then promote them to ✅.
+- [x] ~~Full coverage pass on the 🔴 games~~ — done: Metaphor, Demon's Souls, Pillars of
+      Eternity, and Deadfire are all deep-filled.
+- [ ] **Audit the 3 remaining 🟡 games** (BG3, Elden Ring, Black Myth: Wukong) against a guide
+      and deep-fill any gaps, then promote them to ✅. *(These are the only games left.)*
 
 ### Sub-filters
 - [ ] Add **district sub-filter** for Cyberpunk 2077 and **region sub-filter** for FF7
