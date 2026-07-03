@@ -1049,6 +1049,135 @@ select:focus {
   filter: brightness(1.1);
 }
 
+/* ── Feedback ── */
+.feedback {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 1.25rem 1rem;
+}
+
+.feedback-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.75rem 1.75rem 2rem;
+}
+
+.feedback-inner h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+.feedback-sub {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.feedback-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+}
+
+.feedback-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.feedback-field label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.fb-optional {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.feedback-field input,
+.feedback-field select,
+.feedback-field textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.feedback-field textarea {
+  resize: vertical;
+  min-height: 90px;
+  line-height: 1.5;
+}
+
+.feedback-field input:focus,
+.feedback-field select:focus,
+.feedback-field textarea:focus {
+  border-color: var(--accent);
+}
+
+.feedback-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.feedback-submit {
+  padding: 0.65rem 1.4rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: filter 0.15s, transform 0.15s;
+}
+
+.feedback-submit:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.feedback-status {
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.feedback-status.is-ok {
+  color: #4ade80;
+}
+
+.feedback-status.is-error {
+  color: #f87171;
+}
+
+@media (max-width: 560px) {
+  .feedback-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── Footer ── */
 footer {
   color: var(--muted);

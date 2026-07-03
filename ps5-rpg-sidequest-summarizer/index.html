@@ -202,6 +202,41 @@
 
     <section id="questDetail" class="quest-detail" style="display:none;" aria-live="polite"></section>
 
+    <section id="feedback" class="feedback" aria-labelledby="feedbackHeading">
+      <div class="feedback-inner">
+        <h2 id="feedbackHeading">Share your feedback</h2>
+        <p class="feedback-sub">
+          Got a suggestion, spotted a mistake, or want us to add a game or quest? Let us know &mdash; we read every message.
+        </p>
+        <form id="feedbackForm" class="feedback-form" novalidate>
+          <div class="feedback-row">
+            <div class="feedback-field">
+              <label for="fbName">Name <span class="fb-optional">(optional)</span></label>
+              <input id="fbName" name="name" type="text" placeholder="Your name" autocomplete="name" />
+            </div>
+            <div class="feedback-field">
+              <label for="fbTopic">Topic</label>
+              <select id="fbTopic" name="topic">
+                <option value="Suggestion">Suggestion / idea</option>
+                <option value="Missing quest or game">Missing quest or game</option>
+                <option value="Bug or error">Bug or error</option>
+                <option value="Compliment">Compliment</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="feedback-field">
+            <label for="fbMessage">Your message</label>
+            <textarea id="fbMessage" name="message" rows="4" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+          <div class="feedback-actions">
+            <button type="submit" class="feedback-submit">Send feedback</button>
+            <span id="feedbackStatus" class="feedback-status" role="status" aria-live="polite"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+
     <footer>
       <p><strong>RPG Quest Guide</strong> &mdash; Your guide to the best RPG side quests.</p>
       <p style="margin-top:0.4rem;font-size:0.8rem;opacity:0.5;">
@@ -237,5 +272,6 @@
     <script src="data/quests.js?v=6"></script>
     <script src="src/app.js?v=6"></script>
     <script src="src/chatbot.js?v=6"></script>
+    <script src="src/feedback.js?v=6"></script>
   </body>
 </html>
