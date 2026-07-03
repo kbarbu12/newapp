@@ -19,7 +19,8 @@
 - [x] Expand quest library to 199 quests (~15 per game)
 - [x] Full coverage pass — Cyberpunk 2077 (20 → 76) and FF7 Rebirth (18 → 57)
 - [x] Full coverage pass — Witcher 3 (15 → 49), God of War Ragnarök (14 → 48), Horizon FW (14 → 41)
-- [x] Library now at 443 quests across 15 games
+- [x] Full coverage pass — Persona 5 Royal (14 → 37), Ghost of Tsushima (13 → 35), Hogwarts Legacy (14 → 42)
+- [x] Library now at 516 quests across 15 games (8 games fully covered)
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
@@ -45,7 +46,7 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 - [ ] Secrets, legendary items, and endings
 - [ ] Verify against a canonical guide (PowerPyx / Game8 / Fextralife) before marking done
 
-**Next coverage batch (per `PROGRESS.md`):** Persona 5 Royal · Ghost of Tsushima · Hogwarts Legacy
+**Next coverage batch (per `PROGRESS.md`):** Metaphor: ReFantazio · Demon's Souls · Pillars of Eternity (then Deadfire)
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)

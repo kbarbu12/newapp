@@ -8,8 +8,8 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **443** (was 253 at the start of this work — **+190**)
-- **Games covered:** 15
+- **Total quests in library:** **516** (was 253 at the start of this work — **+263**)
+- **Games covered:** 15 — **8 now have a full, guide-verified coverage pass**
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
 - **Region/Act sub-filters:** live for Baldur's Gate 3, Elden Ring, Black Myth: Wukong, The Witcher 3
 
@@ -21,14 +21,14 @@
 | Final Fantasy VII Rebirth | 57 | 17 | 40 | — | ✅ Full pass done |
 | The Witcher 3: Wild Hunt | 49 | 3 | 46 | ✅ | ✅ Full pass done |
 | God of War Ragnarök | 48 | 12 | 36 | — | ✅ Full pass done |
+| Hogwarts Legacy | 42 | 15 | 27 | — | ✅ Full pass done |
 | Horizon Forbidden West | 41 | 13 | 28 | — | ✅ Full pass done |
+| Persona 5 Royal | 37 | 9 | 28 | — | ✅ Full pass done |
+| Ghost of Tsushima | 35 | 11 | 24 | — | ✅ Full pass done |
 | Baldur's Gate 3 | 30 | 9 | 21 | ✅ | 🟡 Good, not audited |
 | Elden Ring | 29 | 8 | 21 | ✅ | 🟡 Good, not audited |
 | Black Myth: Wukong | 21 | 6 | 15 | ✅ | 🟡 Good, not audited |
-| Hogwarts Legacy | 14 | 4 | 10 | — | 🔴 Needs full pass |
-| Persona 5 Royal | 14 | 0 | 14 | — | 🔴 Needs full pass |
 | Demon's Souls | 13 | 3 | 10 | — | 🔴 Needs full pass |
-| Ghost of Tsushima | 13 | 3 | 10 | — | 🔴 Needs full pass |
 | Pillars of Eternity | 13 | 3 | 10 | — | 🔴 Needs full pass |
 | Pillars of Eternity II: Deadfire | 13 | 1 | 12 | — | 🔴 Needs full pass |
 | Metaphor: ReFantazio | 12 | 0 | 12 | — | 🔴 Needs full pass |
@@ -53,6 +53,16 @@ Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited agains
 5. **Horizon Forbidden West** (14 → 41): main quests, side quests, errands, system content
    (Cauldrons, Rebel Camps, Hunting Grounds, Relic Ruins, Tallnecks, Arena, Machine Strike)
    and the Burning Shores DLC.
+6. **Persona 5 Royal** (14 → 37): all Palaces + the Depths of Mementos and the Royal-exclusive
+   Maruki's Palace (main), plus the Confidant social links (Fortune, Hanged Man, Death,
+   Temperance, Devil, Tower, Star, Moon, Sun, Strength, Faith, Councillor…) and Mementos
+   Requests / Will Seeds.
+7. **Ghost of Tsushima** (13 → 35): main Act tales, all **7 Mythic Tales**, companion Tales
+   (Yuna, Ishikawa, Masako, Kenji, Norio, Ryuzo), system content (Fox Dens, Shrines, Bamboo
+   Strikes, Haiku, Hot Springs, Duels) and the Iki Island DLC.
+8. **Hogwarts Legacy** (14 → 42): main story quests, companion relationship quests (Sebastian,
+   Natty, Poppy, Amit), notable side quests, and system content (Merlin Trials, Field Guide
+   Pages, Demiguise Statues, Room of Requirement).
 
 ### Platform / structure
 - Every new entry carries `region` (and `chapter` where relevant), which surface on both
@@ -73,8 +83,9 @@ Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited agains
 ## 3. What still needs to be done
 
 ### High priority
-- [ ] **Full coverage pass on the remaining 10 games** (🔴 rows above), 3 at a time.
-      Suggested next batch: **Persona 5 Royal**, **Ghost of Tsushima**, **Hogwarts Legacy**.
+- [ ] **Full coverage pass on the remaining 4 🔴 games**: Demon's Souls, Pillars of Eternity,
+      Pillars of Eternity II: Deadfire, Metaphor: ReFantazio. (Next batch of 3: **Metaphor**,
+      **Demon's Souls**, **Pillars of Eternity** — then Deadfire.)
 - [ ] **Audit the 🟡 games** (BG3, Elden Ring, Black Myth) against a guide to confirm they're
       actually complete, then promote them to ✅.
 

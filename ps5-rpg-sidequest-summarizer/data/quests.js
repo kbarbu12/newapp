@@ -7119,5 +7119,1159 @@ const quests = [
     aiTip:
       "A tougher favor with a strong reward — bring status-resist armor.",
     video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Sigr%C3%BAn's%20Curse%20walkthrough"
+  },
+  {
+    id: 444,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 1,
+    title: "Kamoshida's Palace — Castle of Lust",
+    location: "Shujin Academy",
+    length: "long",
+    difficulty: "Medium",
+    reward: "First Persona awakenings, Kamoshida's change of heart",
+    summary:
+      "The Phantom Thieves' first target: the abusive gym teacher Suguru Kamoshida, whose twisted heart appears as a castle where students are slaves.",
+    aiTip:
+      "Secure the infiltration route early, then send the calling card only when you're ready for the boss — the deadline clock starts ticking.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
+  },
+  {
+    id: 445,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 2,
+    title: "Madarame's Palace — Museum of Vanity",
+    location: "Shibuya",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Yusuke recruited, Madarame confession",
+    summary:
+      "Expose the celebrated artist Madarame, who plagiarizes his pupils' work — his heart is a museum of counterfeit masterpieces.",
+    aiTip:
+      "The shifting corridors hide switches; use Third Eye and note the fake vs. real paintings puzzle.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
+  },
+  {
+    id: 446,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 3,
+    title: "Kaneshiro's Palace — Bank of Gluttony",
+    location: "Shibuya",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Makoto recruited, Kaneshiro takedown",
+    summary:
+      "Take down the mafia extortionist Junya Kaneshiro, whose greed manifests as a floating bank vault.",
+    aiTip:
+      "The vault-door riddles gate progress — grind a little for the piggytron boss's big HP pool.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
+  },
+  {
+    id: 447,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 4,
+    title: "Futaba's Palace — Pyramid of Wrath",
+    location: "Yongen-Jaya",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Futaba recruited, hikikomori healed",
+    summary:
+      "A rare heist to save a friend: Futaba Sakura's own heart, a pyramid built from guilt over her mother's death.",
+    aiTip:
+      "The Sphinx boss punishes wrong answers — read Futaba's memories carefully before responding.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
+  },
+  {
+    id: 448,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 5,
+    title: "Okumura's Palace — Spaceport of Greed",
+    location: "Shibuya",
+    length: "long",
+    difficulty: "High",
+    reward: "Haru recruited, corporate conspiracy deepens",
+    summary:
+      "Infiltrate fast-food magnate Kunikazu Okumura's spaceport palace, staffed by robotic exploited workers.",
+    aiTip:
+      "The final robot-boss gauntlet is time-pressured; bring Baton Pass chains and status ailments.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
+  },
+  {
+    id: 449,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 6,
+    title: "Niijima's Palace — Casino of Envy",
+    location: "Shibuya",
+    length: "long",
+    difficulty: "High",
+    reward: "Group revived, Akechi's true colors",
+    summary:
+      "The prosecutor Sae Niijima's heart is a rigged casino — the heist that frames the game's mid-story twist.",
+    aiTip:
+      "Rig the house's games via the lockdown puzzles; the twist afterward recontextualizes everything.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
+  },
+  {
+    id: 450,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 7,
+    title: "Shido's Palace — Cruiser of Pride",
+    location: "Shibuya",
+    length: "long",
+    difficulty: "High",
+    reward: "Conspiracy exposed, near-endgame",
+    summary:
+      "Confront the corrupt politician Masayoshi Shido aboard a Diet-building cruiser sailing a drowned Tokyo.",
+    aiTip:
+      "A long, boss-dense palace — stock SP items and Revival Beads before the multi-phase Shido fight.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
+  },
+  {
+    id: 451,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 8,
+    title: "Depths of Mementos — Prison of Regression",
+    location: "Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Yaldabaoth confronted, true nature of the world",
+    summary:
+      "The public's collective heart forms the sprawling Mementos, whose depths hide the god of control, Yaldabaoth.",
+    aiTip:
+      "Max key confidants beforehand — several unlock crucial combat perks for the final ascent.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
+  },
+  {
+    id: 452,
+    type: "main",
+    game: "Persona 5 Royal",
+    chapter: 9,
+    title: "Maruki's Palace — Laboratory of Sloth",
+    location: "Odaiba",
+    length: "long",
+    difficulty: "High",
+    reward: "Royal third-semester finale, true ending",
+    summary:
+      "The Royal-exclusive finale: counselor Takuto Maruki reshapes reality itself, and the Thieves must reject a gilded false paradise.",
+    aiTip:
+      "Requires maxing Maruki, Kasumi, and Akechi's arcs to unlock. The two-phase final duel is the game's hardest.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
+  },
+  {
+    id: 453,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Chihaya Mifune (Fortune)",
+    location: "Shinjuku",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Fortune readings, luck & affinity boosts",
+    summary:
+      "Help the fortune teller Chihaya escape a fraud cult; her readings unlock affinity-boosting fortunes.",
+    aiTip:
+      "Buy the Holy Stone early to fast-track her rank-ups — her fortunes speed every other confidant.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
+  },
+  {
+    id: 454,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Munehisa Iwai (Hanged Man)",
+    location: "Yongen-Jaya",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Discounted & customized guns",
+    summary:
+      "The airsoft-shop owner Iwai is tangled with the yakuza; clearing his debt unlocks cheaper firearms.",
+    aiTip:
+      "His model-gun discounts and custom mods make ranged combat far stronger — prioritize for gun builds.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
+  },
+  {
+    id: 455,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Tae Takemi (Death)",
+    location: "Yongen-Jaya",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Powerful healing & SP items",
+    summary:
+      "The back-alley doctor Takemi trials experimental medicine on Joker in exchange for restoring her reputation.",
+    aiTip:
+      "Her clinic stocks the best SP-recovery items in the game — invaluable for long Mementos runs.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
+  },
+  {
+    id: 456,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Sadayo Kawakami (Temperance)",
+    location: "Shibuya",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Maid services, free time actions",
+    summary:
+      "Your homeroom teacher moonlights as a maid to pay off a debt; helping her frees up Joker's schedule.",
+    aiTip:
+      "Her rank perks let you craft tools in class and skip nights — a huge time-economy win.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
+  },
+  {
+    id: 457,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Ichiko Ohya (Devil)",
+    location: "Shinjuku",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Reduced alert, negotiation edge",
+    summary:
+      "The journalist Ohya chases the Thieves' story; help her expose corruption and lower Palace security.",
+    aiTip:
+      "Her perks reduce enemy alertness — great for stealthy, no-fail infiltration runs.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
+  },
+  {
+    id: 458,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Shinya Oda (Tower)",
+    location: "Akihabara",
+    length: "medium",
+    difficulty: "Low",
+    reward: "One-more & instant-kill combat perks",
+    summary:
+      "Coach the arcade prodigy Shinya through his bullying troubles to earn deadly gun perks.",
+    aiTip:
+      "His 'Down Shot' and instant-kill perks trivialize weaker Mementos enemies.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
+  },
+  {
+    id: 459,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Hifumi Togo (Star)",
+    location: "Kanda",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Baton Pass & escape perks",
+    summary:
+      "The shogi champion Hifumi teaches tactics that let the team reposition and flee mid-battle.",
+    aiTip:
+      "Her Baton Pass unlock is combat-defining — rank her for aggressive weakness chaining.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
+  },
+  {
+    id: 460,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Yuuki Mishima (Moon)",
+    location: "Shibuya",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Bonus EXP & money from Mementos",
+    summary:
+      "The Phantom Thieves' webmaster Mishima spreads your fame — and grants EXP for benched members.",
+    aiTip:
+      "His EXP-share perk keeps your reserve party leveled without extra grinding.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
+  },
+  {
+    id: 461,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Toranosuke Yoshida (Sun)",
+    location: "Shibuya",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Advanced Hold Up negotiation",
+    summary:
+      "Aid the outcast politician Yoshida's street campaign to master persuading Shadows for money and items.",
+    aiTip:
+      "His negotiation perks squeeze more cash and rare Personas out of every Hold Up.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
+  },
+  {
+    id: 462,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Caroline & Justine (Strength)",
+    location: "Velvet Room",
+    length: "medium",
+    difficulty: "High",
+    reward: "Advanced Persona fusions & executions",
+    summary:
+      "The Velvet Room wardens task Joker with fusing specific Personas to complete their requests.",
+    aiTip:
+      "Fulfilling their fusion list unlocks the best fusion accidents and, in Royal, a key story reward.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
+  },
+  {
+    id: 463,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Kasumi Yoshizawa (Faith)",
+    location: "Kichijoji",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal ally, ultimate persona",
+    summary:
+      "The talented gymnast Kasumi (Royal-exclusive) fights alongside Joker as her own story unravels.",
+    aiTip:
+      "Maxing Faith is required for the Royal third semester and true ending — don't neglect it.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
+  },
+  {
+    id: 464,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Takuto Maruki (Councillor)",
+    location: "Shujin Academy",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal counselor, SP & healing perks",
+    summary:
+      "The kind school counselor Maruki (Royal-exclusive) offers therapy — and hides the game's biggest secret.",
+    aiTip:
+      "His confidant is Royal-only and gates the true ending; his SP-recovery perks help every fight.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
+  },
+  {
+    id: 465,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Mementos Requests",
+    location: "Mementos",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Money, items, arcana affinity",
+    summary:
+      "Take the Phantom Aficionado Website's requests to change the hearts of minor villains lurking in Mementos.",
+    aiTip:
+      "Clear requests as they appear — many gate confidant progress or reward rare fusion material.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Requests%20walkthrough"
+  },
+  {
+    id: 466,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Will Seeds & Jose (Royal)",
+    location: "Mementos / Palaces",
+    length: "short",
+    difficulty: "Low",
+    reward: "Powerful accessories, growth boosts",
+    summary:
+      "Collect the Royal-exclusive Will Seeds hidden in each Palace and trade Jose's flowers/stamps for buffs.",
+    aiTip:
+      "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
+  },
+  {
+    id: 467,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Warrior's Code",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story start, samurai training",
+    summary:
+      "The Mongol invasion of Tsushima begins; Jin Sakai survives Komoda Beach and vows to take the island back.",
+    aiTip:
+      "Learn parry and Resolve early — the opening sets the samurai-vs-Ghost tension that drives the game.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
+  },
+  {
+    id: 468,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Blood on the Grass",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ghost stance seeds, Yuna alliance",
+    summary:
+      "Jin embraces dishonorable tactics to survive, wrestling with the samurai code as the Ghost is born.",
+    aiTip:
+      "This is where 'the Ghost' begins — stealth and terror tactics open up alongside honorable dueling.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
+  },
+  {
+    id: 469,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Shadow of the Samurai",
+    location: "Izuhara",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 1 finale, Castle Kaneda",
+    summary:
+      "The assault to reclaim Castle Kaneda and confront Khotun Khan's grip on the Izuhara region.",
+    aiTip:
+      "A major set-piece battle — master the standoff mechanic to thin enemy ranks before the walls.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
+  },
+  {
+    id: 470,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "A Gathering Storm",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Act 2 begins, allies rally",
+    summary:
+      "Jin heads to Toyotama to gather allies and a straw-hat army against the Mongols.",
+    aiTip:
+      "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
+  },
+  {
+    id: 471,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "A Message in Fire",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Poison plot, deepening conflict",
+    summary:
+      "Jin uncovers a plan to burn the enemy out — and confronts the cost of the Ghost's methods.",
+    aiTip:
+      "The poison arc tests Jin's honor; upgrades to the blowgun and Ghost tools pay off here.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
+  },
+  {
+    id: 472,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Ghosts from the Past",
+    location: "Toyotama",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 2 climax, Ryuzo's betrayal",
+    summary:
+      "Old bonds shatter as the Straw Hat Ronin turn, culminating in a wrenching confrontation.",
+    aiTip:
+      "An emotional, duel-heavy chapter — sharpen your parry timing for the rival showdown.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
+  },
+  {
+    id: 473,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Tale of Lord Shimura",
+    location: "Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 3 finale, the ending choice",
+    summary:
+      "The road to the final reckoning: liberate Kamiagata and face an impossible choice about honor and family.",
+    aiTip:
+      "The finale offers a defining choice — both endings are worth seeing; make a manual save first.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
+  },
+  {
+    id: 474,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Undying Flame",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Fire-based legendary reward",
+    summary:
+      "In Act 3, chase a burning legend through Kamiagata for a fearsome fire technique.",
+    aiTip:
+      "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
+  },
+  {
+    id: 475,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Tales of Yuna",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yuna & Taka arc, ally upgrades",
+    summary:
+      "Follow the thief Yuna and her brother Taka as they aid Jin's fight and pursue their own hopes.",
+    aiTip:
+      "Yuna's tales unlock key story allies and gear — a high-value companion chain.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Yuna%20walkthrough"
+  },
+  {
+    id: 476,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Tales of Sensei Ishikawa",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ishikawa's bow mastery, betrayal arc",
+    summary:
+      "Help the master archer Ishikawa hunt his traitorous former student, Tomoe.",
+    aiTip:
+      "Completing his tales upgrades your bow and reveals a tense mentor-student saga.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Sensei%20Ishikawa%20walkthrough"
+  },
+  {
+    id: 477,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Tales of Lady Masako",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako's revenge, armor dyes",
+    summary:
+      "Aid the vengeful noblewoman Masako as she hunts the killers of her entire family.",
+    aiTip:
+      "Her tales grant unique rewards and one of the game's most memorable revenge stories.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Lady%20Masako%20walkthrough"
+  },
+  {
+    id: 478,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Tales of Kenji",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sake-fueled comic relief, allies",
+    summary:
+      "Follow the bumbling sake trader Kenji through a string of lighthearted, boozy misadventures.",
+    aiTip:
+      "A comedic palate cleanser between grim main tales — easy, fun rewards.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Kenji%20walkthrough"
+  },
+  {
+    id: 479,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Tales of Norio",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Warrior monk ally, spirit arc",
+    summary:
+      "Join the warrior monk Norio of Cedar Temple as faith and violence collide against the Mongols.",
+    aiTip:
+      "His tales add a spiritual dimension and a capable ally for larger battles.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Norio%20walkthrough"
+  },
+  {
+    id: 480,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Tales of Ryuzo",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "High",
+    reward: "Straw Hat Ronin arc",
+    summary:
+      "Confront Jin's old friend Ryuzo, whose desperation leads the Straw Hat Ronin down a dark path.",
+    aiTip:
+      "Ties directly into the main story's biggest betrayal — emotionally and mechanically weighty.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Ryuzo%20walkthrough"
+  },
+  {
+    id: 481,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Fox Dens & Inari Shrines",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Charm slots, Inari charms",
+    summary:
+      "Follow foxes to hidden Inari shrines to earn charm slots and blessings across Tsushima.",
+    aiTip:
+      "More charm slots = more build flexibility. Pet the fox afterward — it's the law.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
+  },
+  {
+    id: 482,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Shinto Shrines",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Legendary charms, platforming",
+    summary:
+      "Climb the treacherous mountain paths to Tsushima's Shinto shrines for powerful charms.",
+    aiTip:
+      "These are platforming puzzles more than combat — take your time on the ledges.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
+  },
+  {
+    id: 483,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Bamboo Strikes",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Max Resolve increases",
+    summary:
+      "Complete the button-sequence bamboo-cutting trials to permanently raise Jin's Resolve.",
+    aiTip:
+      "More Resolve means more healing and Ghost abilities in combat — a priority pickup.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
+  },
+  {
+    id: 484,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Haiku & Hot Springs",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Headbands (haiku), max health (springs)",
+    summary:
+      "Compose haiku for cosmetic headbands and bathe in hot springs to increase maximum health.",
+    aiTip:
+      "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
+  },
+  {
+    id: 485,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Pillars of Honor & Duels",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sword kits, standoff practice",
+    summary:
+      "Seek out the Pillars of Honor to challenge fearsome swordsmen in one-on-one duels.",
+    aiTip:
+      "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
+  },
+  {
+    id: 486,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Mongol Artifacts & Records",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cosmetics, lore, supplies",
+    summary:
+      "Loot Mongol camps and artifacts to gather supplies, lore records, and cosmetic rewards.",
+    aiTip:
+      "Clearing camps also liberates the map — combine collection runs with liberation.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
+  },
+  {
+    id: 487,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "Journey into the Past (Iki Island)",
+    location: "Iki Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Iki DLC start, new region",
+    summary:
+      "Jin travels to Iki Island to counter a new Mongol threat and confront traumatic memories of his father.",
+    aiTip:
+      "Kicks off the Director's Cut Iki expansion — a self-contained region with new mechanics and animal sanctuaries.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
+  },
+  {
+    id: 488,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "The Eagle's Cry (Iki Island)",
+    location: "Iki Island",
+    length: "medium",
+    difficulty: "High",
+    reward: "Iki tales, hallucinogen arc",
+    summary:
+      "Face the shaman known as the Eagle and the mind-bending poisons she wields against Jin.",
+    aiTip:
+      "The Iki hallucination sequences are unique boss encounters — steel yourself for them.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
+  },
+  {
+    id: 489,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Path to Hogwarts",
+    location: "Gringotts / Hogwarts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Wand, ancient magic revealed",
+    summary:
+      "A late arrival to Hogwarts, your fifth-year student survives a dragon attack and discovers a gift for ancient magic.",
+    aiTip:
+      "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Path%20to%20Hogwarts%20walkthrough"
+  },
+  {
+    id: 490,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Welcome to Hogwarts",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Sorting, common room, first classes",
+    summary:
+      "Get sorted, meet Professor Fig and your housemates, and settle into castle life.",
+    aiTip:
+      "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogwarts%20walkthrough"
+  },
+  {
+    id: 491,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Locket's Secret",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pensieve vault, story deepens",
+    summary:
+      "Professor Fig and your student delve into a locket's memories tied to the goblin rebellion.",
+    aiTip:
+      "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Locket's%20Secret%20walkthrough"
+  },
+  {
+    id: 492,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Percival Rackham's Trial",
+    location: "Hogwarts Highlands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Ancient magic training, map chamber",
+    summary:
+      "Enter the first Keeper's trial to learn the truth about ancient magic and the wizard Isidora.",
+    aiTip:
+      "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Percival%20Rackham's%20Trial%20walkthrough"
+  },
+  {
+    id: 493,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Jackdaw's Rest",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Map upgrade, treasure lead",
+    summary:
+      "Follow the ghost of the student Richard Jackdaw to unlock hidden passages beneath the castle.",
+    aiTip:
+      "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Jackdaw's%20Rest%20walkthrough"
+  },
+  {
+    id: 494,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The High Keep",
+    location: "Hogwarts Highlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Poppy arc, poached beasts freed",
+    summary:
+      "Storm a poacher stronghold with Poppy Sweeting to rescue captured magical beasts.",
+    aiTip:
+      "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20High%20Keep%20walkthrough"
+  },
+  {
+    id: 495,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Girl from Uagadou",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Natty arc, poacher intel",
+    summary:
+      "Team with Natsai Onai to investigate the poachers and dark wizard Victor Rookwood.",
+    aiTip:
+      "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Girl%20from%20Uagadou%20walkthrough"
+  },
+  {
+    id: 496,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Niamh Fitzgerald's Trial",
+    location: "Hogwarts",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Second Keeper trial, ancient magic",
+    summary:
+      "Solve the second Keeper's trial to gather more of the ancient magic that Ranrok covets.",
+    aiTip:
+      "Another puzzle dungeon — the new abilities carry into combat and exploration.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Niamh%20Fitzgerald's%20Trial%20walkthrough"
+  },
+  {
+    id: 497,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "San Bakar's Trial",
+    location: "Hogwarts Highlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Third Keeper trial, mount unlock",
+    summary:
+      "Brave San Bakar's trial high in the mountains, unlocking new traversal and ancient power.",
+    aiTip:
+      "Rewards flight/mount access to remote areas — a big exploration upgrade.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20San%20Bakar's%20Trial%20walkthrough"
+  },
+  {
+    id: 498,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "In the Shadow of the Relic",
+    location: "Hogwarts / Highlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Sebastian climax, dark choice",
+    summary:
+      "Sebastian's pursuit of dark magic reaches a breaking point, forcing a hard choice about the Unforgivable Curses.",
+    aiTip:
+      "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Relic%20walkthrough"
+  },
+  {
+    id: 499,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Final Repository",
+    location: "Hogwarts Highlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Finale, Ranrok defeated",
+    summary:
+      "The climactic battle against the goblin leader Ranrok and the hoard of contained ancient magic.",
+    aiTip:
+      "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Final%20Repository%20walkthrough"
+  },
+  {
+    id: 500,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of the Bloodline (Sebastian)",
+    location: "Feldcroft",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship, Slytherin lore",
+    summary:
+      "Help Sebastian search for a cure for his cursed twin sister, Anne.",
+    aiTip:
+      "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Bloodline%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 501,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Time (Sebastian)",
+    location: "Feldcroft",
+    length: "long",
+    difficulty: "High",
+    reward: "Unforgivable Curses, arc finale",
+    summary:
+      "Sebastian's quest for forbidden power culminates in tragedy and a choice about loyalty.",
+    aiTip:
+      "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Time%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 502,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Lost Child (Natty)",
+    location: "Hogwarts Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Natty relationship, poacher raid",
+    summary:
+      "Join Natty to rescue a child abducted by poachers and gather intel on Rookwood.",
+    aiTip:
+      "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lost%20Child%20(Natty)%20walkthrough"
+  },
+  {
+    id: 503,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Grief and Vengeance (Natty)",
+    location: "Hogwarts Highlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Natty arc finale, Rookwood blow",
+    summary:
+      "The conclusion of Natty's hunt for the poachers and the man who hurt her family.",
+    aiTip:
+      "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Grief%20and%20Vengeance%20(Natty)%20walkthrough"
+  },
+  {
+    id: 504,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Poppy's Restful Retreat (Poppy)",
+    location: "Hogwarts Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Poppy relationship, beast sanctuary",
+    summary:
+      "Support the gentle Poppy Sweeting as she protects magical beasts from ruthless poachers.",
+    aiTip:
+      "Her arc unlocks beast-focused rewards and the game's most heartfelt friendship.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Poppy's%20Restful%20Retreat%20(Poppy)%20walkthrough"
+  },
+  {
+    id: 505,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Trials of Amit (Amit)",
+    location: "Astronomy Wing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Astronomy tables, star lore",
+    summary:
+      "Explore the night sky with the bookish Amit Thakkar to complete a set of astronomy trials.",
+    aiTip:
+      "Amit's stargazing unlocks Astronomy Table locations — handy for gear appearances.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Trials%20of%20Amit%20(Amit)%20walkthrough"
+  },
+  {
+    id: 506,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Well, Well, Well",
+    location: "Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin, mystery solved",
+    summary:
+      "Investigate the strange magical wells scattered around the Hogwarts region for a curious researcher.",
+    aiTip:
+      "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Well%2C%20Well%2C%20Well%20walkthrough"
+  },
+  {
+    id: 507,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Minding Your Own Business",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Your own Hogsmeade shop",
+    summary:
+      "Take over an abandoned Hogsmeade shop and turn it into your personal storefront.",
+    aiTip:
+      "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Minding%20Your%20Own%20Business%20walkthrough"
+  },
+  {
+    id: 508,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Daedalian Keys",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "House-token rewards, cosmetics",
+    summary:
+      "Chase the flying Daedalian Keys through the castle to unlock a rewarding chest hoard.",
+    aiTip:
+      "There are 16 keys — catch each one, then find its matching moving door for the loot.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Daedalian%20Keys%20walkthrough"
+  },
+  {
+    id: 509,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Ollivanders & the Perfect Wand",
+    location: "Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Wand handle customization",
+    summary:
+      "Assist Mr. Ollivander's shop and craft the wand that best suits you.",
+    aiTip:
+      "Wand cosmetics are purely visual, but the quest is a lovely bit of wizarding flavor.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivanders%20%26%20the%20Perfect%20Wand%20walkthrough"
+  },
+  {
+    id: 510,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "The Tale of Rowland Oakes",
+    location: "Feldcroft Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Missing-person mystery, gear",
+    summary:
+      "Track down the missing explorer Rowland Oakes across dangerous ruins and caves.",
+    aiTip:
+      "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Tale%20of%20Rowland%20Oakes%20walkthrough"
+  },
+  {
+    id: 511,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Prison of Love",
+    location: "Hogwarts Highlands",
+    length: "short",
+    difficulty: "Low",
+    reward: "Comic side story, coin",
+    summary:
+      "Help a lovestruck ghost reconnect with a lost sweetheart in a bittersweet, funny detour.",
+    aiTip:
+      "Low stakes and charming — a good break between combat-heavy quests.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Prison%20of%20Love%20walkthrough"
+  },
+  {
+    id: 512,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Merlin Trials",
+    location: "Open world",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gear inventory upgrades",
+    summary:
+      "Solve the environmental Merlin Trials scattered across the Highlands to expand your gear capacity.",
+    aiTip:
+      "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Merlin%20Trials%20walkthrough"
+  },
+  {
+    id: 513,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Field Guide Pages",
+    location: "Hogwarts & beyond",
+    length: "short",
+    difficulty: "Low",
+    reward: "Field guide completion, house points",
+    summary:
+      "Collect the hidden Field Guide Pages using Revelio and the Flying-page chases.",
+    aiTip:
+      "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Field%20Guide%20Pages%20walkthrough"
+  },
+  {
+    id: 514,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Demiguise Statues",
+    location: "Open world",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alohomora upgrades (higher lock tiers)",
+    summary:
+      "Recover the elusive Demiguise Statues at night for Gladwin Moon to upgrade your Alohomora spell.",
+    aiTip:
+      "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Demiguise%20Statues%20walkthrough"
+  },
+  {
+    id: 515,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Ancient Magic Hotspots & Collection Chests",
+    location: "Open world",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cosmetics, gear, lore",
+    summary:
+      "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
+    aiTip:
+      "Pure completionist content — pair with Merlin Trials while exploring each region.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ancient%20Magic%20Hotspots%20%26%20Collection%20Chests%20walkthrough"
+  },
+  {
+    id: 516,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Room of Requirement & Vivarium",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Crafting, beast breeding, gear upgrades",
+    summary:
+      "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
+    aiTip:
+      "Central to progression — breed beasts for Traits that upgrade your gear's power.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20%26%20Vivarium%20walkthrough"
   }
 ];
