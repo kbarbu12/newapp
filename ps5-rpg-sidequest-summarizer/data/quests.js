@@ -2498,16 +2498,16 @@ const quests = [
     type: "side",
     game: "Demon's Souls",
     region: "Latria",
-    title: "Worshiper of God's Questline",
-    location: "Various Worlds",
-    length: "long",
+    title: "Yurt, the Silent Chief",
+    location: "Tower of Latria (3-2) / The Nexus",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Faith-based miracles, Pure White World Tendency",
+    reward: "Gloom Set, NPC fates",
     summary:
-      "Interact with various NPC characters who follow the God of the nexus across multiple worlds. Their questlines reward miracles and demonstrate how Demon's Souls uses NPCs to reflect the game's morality system.",
+      "Decide the fate of the caged assassin Yurt in the Tower of Latria. Free him and he relocates to the Nexus, murdering a named NPC each time you slay an archdemon; cut him down there instead to claim the Gloom Set. His killings serve his accomplice Mephistopheles.",
     aiTip:
-      "Maintaining Pure White World Tendency opens additional NPC interactions and spawns unique items. Avoid dying in body form and kill Black Phantom NPCs to shift tendency toward white.",
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Worshiper%20of%20God's%20Questline%20walkthrough"
+      "Freeing Yurt is a trap — to keep the Nexus vendors and questline NPCs alive, kill him on sight once he appears. His victims can otherwise only be 'avenged' by taking Mephistopheles' contracts at Pure Black tendency.",
+    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
   },
   {
     id: 146,

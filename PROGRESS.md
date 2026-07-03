@@ -179,8 +179,14 @@ are correct. Findings:
     (not a "slaver captain"), and **Maia Rua's brother is Kana Rua, not Serafen** (they are not
     siblings). And retagged Elden Ring's *Diallos & the Volcano Manor* from **Caelid** (wrong —
     Diallos has no Caelid ties) to **Leyndell & Altus**, matching the other Volcano Manor entry.
-  - *Note: Pillars I & II remain 🔴 on **completeness** above — the accuracy pass corrected the
-    entries that exist; it did not add the missing ones.*
+  - **Demon's Souls:** replaced the fabricated umbrella entry *Worshiper of God's Questline*
+    (not a real quest — it duplicated the existing *World & Character Tendency* entry) with the
+    real, iconic, previously-missing NPC questline **Yurt, the Silent Chief** (Tower of Latria →
+    the Nexus; verified against the Fextralife/Fandom Demon's Souls wikis).
+  - **Metaphor: ReFantazio (checked, no changes):** all 14 Followers and the 9 main-story
+    dungeons cross-check against Game8's lists — data was already accurate.
+  - *Note: Pillars I & II and Metaphor remain 🔴/🔴 on **completeness** above — the accuracy
+    pass corrected/verified the entries that exist; it did not add the missing ones.*
 
 ### Tooling note (why a few entries may be missing)
 This environment's egress policy blocks direct page fetches to the wiki/guide hosts
