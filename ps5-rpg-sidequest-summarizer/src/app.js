@@ -1,381 +1,389 @@
 (function () {
+  "use strict";
+
+  // ── Per-game accent colors (from the QuestAtlas design) ──────────────────
+  var ACCENTS = {
+    "Baldur's Gate 3": "#c084fc",
+    "Elden Ring": "#fbbf24",
+    "Final Fantasy VII Rebirth": "#60a5fa",
+    "Cyberpunk 2077: Ultimate Edition": "#fcd34d",
+    "The Witcher 3: Wild Hunt": "#4ade80",
+    "Metaphor: ReFantazio": "#f0abfc",
+    "Demon's Souls": "#9ca3af",
+    "Hogwarts Legacy": "#f59e0b",
+    "Black Myth: Wukong": "#f97316",
+    "God of War Ragnarök": "#8fb8de",
+    "Persona 5 Royal": "#ff4444",
+    "Ghost of Tsushima": "#e8d5a3",
+    "Horizon Forbidden West": "#e8a84c",
+    "Pillars of Eternity": "#d4a836",
+    "Pillars of Eternity II: Deadfire": "#38bdf8",
+  };
+  function accent(game) { return ACCENTS[game] || "#c5933a"; }
+
+  // ── Inline icons ─────────────────────────────────────────────────────────
+  var ICON = {
+    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    flame: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4-2 5-2 8a2 2 0 004 0c0-1 2 2 2 4a6 6 0 11-9-5c2-2 3-5 5-7z"/></svg>',
+    zap: '<svg viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9.3 16.5 14 18.5 21 12 17 5.5 21 7.5 14 2 9.3 9 9"/></svg>',
+    book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h9a3 3 0 013 3v13a2.5 2.5 0 00-2.5-2.5H4z"/><path d="M20 4h-3a3 3 0 00-3 3v13a2.5 2.5 0 012.5-2.5H20z"/></svg>',
+    youtube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.4-5.1a2.6 2.6 0 00-1.8-1.8C19.1 4.7 12 4.7 12 4.7s-7.1 0-8.8.4a2.6 2.6 0 00-1.8 1.8C1 8.5 1 12 1 12s0 3.5.4 5.1a2.6 2.6 0 001.8 1.8c1.7.4 8.8.4 8.8.4s7.1 0 8.8-.4a2.6 2.6 0 001.8-1.8C23 15.5 23 12 23 12zM9.7 15.3V8.7l5.7 3.3z"/></svg>',
+    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg>',
+    swords: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" y1="14" x2="9" y2="18"/><line x1="7" y1="17" x2="4" y2="20"/><line x1="3" y1="19" x2="5" y2="21"/></svg>',
+  };
+
+  // ── DOM refs ─────────────────────────────────────────────────────────────
   var searchInput = document.querySelector("#searchInput");
-  var gameFilter = document.querySelector("#gameFilter");
-  var lengthFilter = document.querySelector("#lengthFilter");
-  var typeFilter = document.querySelector("#typeFilter");
-  var difficultyFilter = document.querySelector("#difficultyFilter");
-  var videoFilter = document.querySelector("#videoFilter");
-  var videoFilterGroup = document.querySelector("#videoFilterGroup");
-  var subFilterContainer = document.querySelector("#subFilterContainer");
-  var resetButton = document.querySelector("#resetButton");
   var questGrid = document.querySelector("#questGrid");
   var resultCount = document.querySelector("#resultCount");
-  var filterPanel = document.querySelector("#filterPanel");
-  var filterToggle = document.querySelector("#mobileFilterToggle");
+  var headerCount = document.querySelector("#headerCount");
+  var heroTitle = document.querySelector("#heroTitle");
+  var heroSub = document.querySelector("#heroSub");
+  var heroStats = document.querySelector("#heroStats");
+  var gameGallery = document.querySelector("#gameGallery");
+  var galleryShowAll = document.querySelector("#galleryShowAll");
+  var resetButton = document.querySelector("#resetButton");
+  var subFilterRow = document.querySelector("#subFilterRow");
+  var subDivider = document.querySelector("#subDivider");
+  var videoFilterRow = document.querySelector("#videoFilterRow");
+  var videoDivider = document.querySelector("#videoDivider");
   var questDetail = document.querySelector("#questDetail");
-  var mainLayout = document.querySelector("main.layout");
-  var heroSection = document.querySelector("header.hero");
 
-  var activeSubFilter = null;
-  var uniqueGames = [];
-  var seen = {};
-  quests.forEach(function (q) {
-    if (!seen[q.game]) {
-      seen[q.game] = true;
-      uniqueGames.push(q.game);
+  var browseSections = [
+    document.querySelector(".hero"),
+    document.querySelector(".gallery-section"),
+    document.querySelector(".filter-bar"),
+    document.querySelector("main.content"),
+    document.querySelector("#feedback"),
+  ];
+
+  // ── State ────────────────────────────────────────────────────────────────
+  var state = {
+    game: "all",
+    type: "all",
+    difficulty: "all",
+    length: "all",
+    video: "all",
+    sub: "all",
+  };
+  var subField = null;
+
+  // ── Game list (ordered as in gameImages) ─────────────────────────────────
+  var games = Object.keys(gameImages);
+  var countByGame = {};
+  quests.forEach(function (q) { countByGame[q.game] = (countByGame[q.game] || 0) + 1; });
+
+  // ── Hero ─────────────────────────────────────────────────────────────────
+  function renderHeroStats() {
+    var withVideo = quests.filter(function (q) { return q.video; }).length;
+    var high = quests.filter(function (q) { return q.difficulty === "High"; }).length;
+    var tiles = [
+      { label: "Quests", value: quests.length },
+      { label: "Games", value: games.length },
+      { label: "With Video", value: withVideo },
+      { label: "High Difficulty", value: high },
+    ];
+    heroStats.innerHTML = tiles.map(function (t) {
+      return '<div class="stat-tile"><span class="stat-value">' + t.value +
+        '</span><span class="stat-label">' + t.label + "</span></div>";
+    }).join("");
+    headerCount.textContent = quests.length + " quests · " + games.length + " games";
+  }
+
+  function updateHero() {
+    if (state.game === "all") {
+      heroTitle.textContent = "Discover the Best RPG Side Quests";
+      heroSub.textContent = "Browse walkthroughs and guides across " + games.length +
+        " games — filtered to exactly what you need.";
+      document.title = "RPG Quest Guide — Side Quests & Walkthroughs";
+    } else {
+      heroTitle.innerHTML =
+        '<span class="game-accent" style="color:' + accent(state.game) + '">' + state.game + "</span>" +
+        '<span class="game-sub">Quest Library</span>';
+      heroSub.textContent = countByGame[state.game] + " quests documented for " + state.game + ".";
+      document.title = state.game + " Side Quests & Walkthroughs — RPG Quest Guide";
     }
-  });
-  uniqueGames.sort();
+  }
 
-  function populateGameFilter() {
-    uniqueGames.forEach(function (game) {
-      var option = document.createElement("option");
-      option.value = game;
-      option.textContent = game;
-      gameFilter.appendChild(option);
+  // ── Game gallery ─────────────────────────────────────────────────────────
+  function buildGallery() {
+    gameGallery.innerHTML = "";
+    games.forEach(function (game) {
+      var meta = gameImages[game];
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "game-poster" + (state.game === game ? " selected" : "");
+      btn.style.setProperty("--poster-accent", accent(game));
+      btn.setAttribute("aria-label", game);
+      btn.innerHTML =
+        '<img src="' + meta.cover + '" alt="' + game + '" loading="lazy" />' +
+        '<span class="poster-shade"></span>' +
+        '<span class="poster-dot"></span>' +
+        '<span class="poster-meta">' +
+        '<span class="poster-abbr">' + meta.abbr + "</span>" +
+        '<span class="poster-count">' + (countByGame[game] || 0) + " quests</span>" +
+        "</span>";
+      btn.addEventListener("click", function () { selectGame(game); });
+      gameGallery.appendChild(btn);
     });
   }
 
-  function normalize(value) {
-    return value.toLowerCase().trim();
+  function selectGame(game) {
+    state.game = state.game === game ? "all" : game;
+    state.sub = "all";
+    galleryShowAll.style.display = state.game === "all" ? "none" : "";
+    buildGallery();
+    updateSubFilter();
+    updateHero();
+    renderQuests();
   }
 
-  function questMatchesSearch(quest, searchTerm) {
-    var searchableText = [
-      quest.game,
-      quest.title,
-      quest.location,
-      quest.length,
-      quest.difficulty,
-      quest.reward,
-      quest.summary,
-      quest.aiTip
-    ]
-      .join(" ")
-      .toLowerCase();
-
-    return searchableText.includes(searchTerm);
-  }
-
-  function buildSubFilter(config) {
-    subFilterContainer.innerHTML = "";
+  // ── Sub-filter (per-game act/region/chapter) as pills ────────────────────
+  function updateSubFilter() {
+    var config = state.game !== "all" ? subFilterConfig[state.game] : null;
     if (!config) {
-      activeSubFilter = null;
+      subField = null;
+      state.sub = "all";
+      subFilterRow.style.display = "none";
+      subFilterRow.innerHTML = "";
+      subDivider.style.display = "none";
       return;
     }
-    var wrapper = document.createElement("div");
-    wrapper.className = "sub-filter";
-
-    var label = document.createElement("label");
-    label.setAttribute("for", "gameSubFilter");
-    label.textContent = config.label;
-    wrapper.appendChild(label);
-
-    var select = document.createElement("select");
-    select.id = "gameSubFilter";
-
-    var allOpt = document.createElement("option");
-    allOpt.value = "all";
-    allOpt.textContent = "All " + config.label.toLowerCase() + "s";
-    select.appendChild(allOpt);
-
+    subField = config.field;
+    var pills = '<button type="button" class="filter-pill active" data-value="all">All</button>';
     config.options.forEach(function (opt) {
-      var o = document.createElement("option");
-      o.value = opt.value;
-      o.textContent = opt.text;
-      select.appendChild(o);
+      pills += '<button type="button" class="filter-pill" data-value="' + opt.value + '">' +
+        opt.text + "</button>";
     });
+    subFilterRow.innerHTML =
+      '<span class="filter-label">' + config.label + "</span>" +
+      '<div class="pill-group">' + pills + "</div>";
+    subFilterRow.style.display = "";
+    subDivider.style.display = "";
 
-    wrapper.appendChild(select);
-    subFilterContainer.appendChild(wrapper);
-
-    select.addEventListener("change", renderQuests);
-    activeSubFilter = { field: config.field, select: select };
-  }
-
-  function updateSubFilters() {
-    var selectedGame = gameFilter.value;
-    var config = subFilterConfig[selectedGame];
-    var hasVideo = quests.some(function (q) {
-      return q.game === selectedGame && q.video;
-    });
-
-    buildSubFilter(config || null);
-    videoFilterGroup.style.display = hasVideo ? "" : "none";
-    if (!hasVideo) {
-      videoFilter.value = "all";
-    }
-  }
-
-  function getFilteredQuests() {
-    var searchTerm = normalize(searchInput.value);
-    var selectedGame = gameFilter.value;
-    var selectedLength = lengthFilter.value;
-    var selectedType = typeFilter.value;
-    var selectedDifficulty = difficultyFilter.value;
-    var selectedVideo = videoFilter.value;
-
-    var subValue = "all";
-    var subField = null;
-    if (activeSubFilter) {
-      subValue = activeSubFilter.select.value;
-      subField = activeSubFilter.field;
-    }
-
-    return quests.filter(function (quest) {
-      var matchesSearch = !searchTerm || questMatchesSearch(quest, searchTerm);
-      var matchesGame = selectedGame === "all" || quest.game === selectedGame;
-      var matchesLength = selectedLength === "all" || quest.length === selectedLength;
-      var matchesType = selectedType === "all" || quest.type === selectedType;
-      var matchesDifficulty = selectedDifficulty === "all" || quest.difficulty === selectedDifficulty;
-      var matchesVideo = selectedVideo === "all" || (selectedVideo === "video" && quest.video);
-      var matchesSub = subValue === "all" || String(quest[subField]) === subValue;
-
-      return matchesSearch && matchesGame && matchesType && matchesLength && matchesDifficulty && matchesVideo && matchesSub;
+    subFilterRow.querySelectorAll(".filter-pill").forEach(function (pill) {
+      pill.addEventListener("click", function () {
+        setActivePill(subFilterRow, pill);
+        state.sub = pill.getAttribute("data-value");
+        renderQuests();
+      });
     });
   }
 
-  function createQuestCard(quest) {
+  function setActivePill(row, pill) {
+    row.querySelectorAll(".filter-pill").forEach(function (p) { p.classList.remove("active"); });
+    pill.classList.add("active");
+  }
+
+  // ── Filtering ────────────────────────────────────────────────────────────
+  function questMatchesSearch(quest, term) {
+    return [quest.game, quest.title, quest.location, quest.length, quest.difficulty, quest.reward, quest.summary, quest.aiTip]
+      .join(" ").toLowerCase().includes(term);
+  }
+
+  function getFiltered() {
+    var term = searchInput.value.toLowerCase().trim();
+    return quests.filter(function (q) {
+      if (state.game !== "all" && q.game !== state.game) return false;
+      if (state.type !== "all" && q.type !== state.type) return false;
+      if (state.difficulty !== "all" && q.difficulty !== state.difficulty) return false;
+      if (state.length !== "all" && q.length !== state.length) return false;
+      if (state.video === "video" && !q.video) return false;
+      if (subField && state.sub !== "all" && String(q[subField]) !== state.sub) return false;
+      if (term && !questMatchesSearch(q, term)) return false;
+      return true;
+    });
+  }
+
+  // ── Quest card ───────────────────────────────────────────────────────────
+  function diffTag(level) {
+    var key = level.toLowerCase();
+    var ic = { low: ICON.shield, medium: ICON.flame, high: ICON.zap }[key];
+    return '<span class="tag tag-diff-' + key + '">' + ic + level + "</span>";
+  }
+
+  function lenDots(length) {
+    var n = { short: 1, medium: 2, long: 3 }[length] || 1;
+    var dots = "";
+    for (var i = 0; i < 3; i++) dots += '<span class="len-dot' + (i < n ? " on" : "") + '"></span>';
+    return '<span class="len-wrap"><span class="len-clock">' + ICON.clock +
+      '</span><span class="len-dots">' + dots + '</span><span class="len-label">' + length + "</span></span>";
+  }
+
+  function createCard(quest) {
+    var meta = gameImages[quest.game];
+    var col = accent(quest.game);
     var article = document.createElement("article");
     article.className = "quest-card";
-
-    var img = gameImages[quest.game];
-    var bannerStyle = "background: " + img.gradient + ";";
-
-    var regionHtml = quest.region
-      ? '<p class="meta"><strong>Region:</strong> ' + quest.region + "</p>"
-      : "";
-    var chapterHtml = quest.chapter
-      ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>"
-      : "";
-    var videoHtml = quest.video
-      ? '<a class="video-link" href="' +
-        quest.video +
-        '" target="_blank" rel="noopener noreferrer">&#9654; Watch Walkthrough</a>' +
-        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>'
-      : "";
-
-    var diffClass = quest.difficulty.toLowerCase();
-
-    article.classList.add("clickable");
+    article.style.setProperty("--card-accent", col);
     article.setAttribute("tabindex", "0");
     article.setAttribute("role", "link");
     article.setAttribute("aria-label", "View details for " + quest.title);
-    article.addEventListener("click", function (e) {
-      if (e.target.closest("a")) return;
-      window.location.hash = "quest-" + quest.id;
-    });
-    article.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
-        window.location.hash = "quest-" + quest.id;
-      }
-    });
+
+    var typeTag = quest.type === "main"
+      ? '<span class="tag tag-main">' + ICON.star + "Main</span>"
+      : '<span class="tag tag-side">' + ICON.book + "Side</span>";
+    var videoTag = quest.video
+      ? '<span class="card-video">' + ICON.youtube + "Video</span>" : "";
 
     article.innerHTML =
-      '<div class="card-banner" style="' +
-      bannerStyle +
-      '">' +
-      '<img src="' +
-      img.cover +
-      '" alt="' +
-      quest.game +
-      '" class="card-banner-img" />' +
+      '<div class="card-cover">' +
+      '<img src="' + meta.cover + '" alt="' + quest.game + '" loading="lazy" />' +
+      '<span class="cover-fade"></span><span class="card-edge"></span>' +
       "</div>" +
-      '<div class="card-body">' +
-      '<div class="card-topline">' +
-      '<span class="game-name">' +
-      quest.game +
-      "</span>" +
+      '<div class="card-content">' +
+      '<div class="card-top">' +
+      '<span class="card-game" style="color:' + col + '">' + quest.game + "</span>" +
+      videoTag +
       "</div>" +
-      "<h3>" +
-      quest.title +
-      "</h3>" +
-      '<div class="card-meta-row">' +
-      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span>" +
-      '<span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span>" +
-      '<span class="pill ' + quest.length + '">' + quest.length + "</span>" +
-      "</div>" +
-      chapterHtml +
-      regionHtml +
-      '<p class="meta"><strong>Location:</strong> ' +
-      quest.location +
-      "</p>" +
-      '<p class="summary-text">' +
-      quest.summary +
-      "</p>" +
-      '<div class="tip-box">' +
-      "<strong>Tip</strong>" +
-      "<p>" +
-      quest.aiTip +
-      "</p>" +
-      "</div>" +
-      '<p class="reward"><strong>Reward:</strong> ' +
-      quest.reward +
-      "</p>" +
-      videoHtml +
+      '<h3 class="card-title">' + quest.title + "</h3>" +
+      '<p class="card-summary">' + quest.summary + "</p>" +
+      '<div class="card-tags">' + typeTag + diffTag(quest.difficulty) + lenDots(quest.length) + "</div>" +
       "</div>";
 
+    function open() { window.location.hash = "quest-" + quest.id; }
+    article.addEventListener("click", function (e) { if (!e.target.closest("a")) open(); });
+    article.addEventListener("keydown", function (e) { if (e.key === "Enter") open(); });
     return article;
   }
 
   function renderQuests() {
-    var filteredQuests = getFilteredQuests();
+    var list = getFiltered();
+    resultCount.textContent = list.length + " result" + (list.length === 1 ? "" : "s");
     questGrid.innerHTML = "";
-    resultCount.textContent =
-      filteredQuests.length + " quest" + (filteredQuests.length === 1 ? "" : "s");
-
-    if (filteredQuests.length === 0) {
+    if (list.length === 0) {
       questGrid.innerHTML =
-        '<div class="empty-state">' +
-        "<h3>No quests found</h3>" +
-        "<p>Try changing the game, length, or search term.</p>" +
-        "</div>";
+        '<div class="empty-state"><h3>No quests match your filters</h3>' +
+        "<p>Try changing the game, filters, or search term.</p>" +
+        '<button type="button" id="emptyReset">Reset filters</button></div>';
+      var er = document.querySelector("#emptyReset");
+      if (er) er.addEventListener("click", resetFilters);
       return;
     }
+    var frag = document.createDocumentFragment();
+    list.forEach(function (q, i) {
+      var card = createCard(q);
+      card.style.animationDelay = Math.min(i * 0.03, 0.5) + "s";
+      frag.appendChild(card);
+    });
+    questGrid.appendChild(frag);
+  }
 
-    filteredQuests.forEach(function (quest, index) {
-      var card = createQuestCard(quest);
-      card.style.animationDelay = Math.min(index * 0.06, 0.6) + "s";
-      questGrid.appendChild(card);
+  // ── Pill filter wiring (static rows) ─────────────────────────────────────
+  function wirePillRow(name) {
+    var row = document.querySelector('.filter-row[data-filter="' + name + '"]');
+    if (!row) return;
+    row.querySelectorAll(".filter-pill").forEach(function (pill) {
+      pill.addEventListener("click", function () {
+        setActivePill(row, pill);
+        state[name] = pill.getAttribute("data-value");
+        renderQuests();
+      });
     });
   }
 
   function resetFilters() {
+    state = { game: "all", type: "all", difficulty: "all", length: "all", video: "all", sub: "all" };
+    subField = null;
     searchInput.value = "";
-    gameFilter.value = "all";
-    lengthFilter.value = "all";
-    typeFilter.value = "all";
-    difficultyFilter.value = "all";
-    videoFilter.value = "all";
-    updateSubFilters();
+    document.querySelectorAll(".filter-bar .filter-row").forEach(function (row) {
+      var pills = row.querySelectorAll(".filter-pill");
+      pills.forEach(function (p, i) { p.classList.toggle("active", i === 0); });
+    });
+    galleryShowAll.style.display = "none";
+    buildGallery();
+    updateSubFilter();
+    updateHero();
     renderQuests();
   }
 
-  function updatePageTitle() {
-    var selectedGame = gameFilter.value;
-    if (selectedGame === "all") {
-      document.title = "RPG Quest Guide — Side Quests & Walkthroughs";
-    } else {
-      document.title = selectedGame + " Side Quests & Walkthroughs — RPG Quest Guide";
-    }
-  }
-
-  function onGameChange() {
-    updateSubFilters();
-    renderQuests();
-    updatePageTitle();
-  }
-
-  function toggleFilters() {
-    filterPanel.classList.toggle("open");
-  }
-
-  function findQuestById(id) {
-    for (var i = 0; i < quests.length; i++) {
-      if (quests[i].id === id) return quests[i];
-    }
+  // ── Quest detail page ────────────────────────────────────────────────────
+  function findQuest(id) {
+    for (var i = 0; i < quests.length; i++) if (quests[i].id === id) return quests[i];
     return null;
   }
 
-  function renderQuestDetail(quest) {
-    var img = gameImages[quest.game];
-    var diffClass = quest.difficulty.toLowerCase();
+  function renderDetail(quest) {
+    var meta = gameImages[quest.game];
+    var col = accent(quest.game);
+    var d = quest.difficulty.toLowerCase();
 
-    var regionHtml = quest.region
-      ? '<p class="meta"><strong>Region:</strong> ' + quest.region + "</p>"
+    var regionHtml = quest.region ? '<p class="meta"><strong>Region:</strong> ' + quest.region + "</p>" : "";
+    var chapterHtml = quest.chapter ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>" : "";
+    var videoCard = quest.video
+      ? '<div class="sidebar-card"><h3 class="sidebar-title">Watch Walkthrough</h3>' +
+        '<a class="video-link video-link-wide" href="' + quest.video +
+        '" target="_blank" rel="noopener noreferrer">' + ICON.youtube + " Watch on YouTube</a>" +
+        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span></div>'
       : "";
-    var chapterHtml = quest.chapter
-      ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>"
-      : "";
-    var videoSidebarHtml = quest.video
-      ? '<div class="sidebar-card">' +
-        '<h3 class="sidebar-title">Watch Walkthrough</h3>' +
-        '<a class="video-link video-link-wide" href="' +
-        quest.video +
-        '" target="_blank" rel="noopener noreferrer">&#9654; Watch on YouTube</a>' +
-        '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span>' +
-        "</div>"
-      : "";
-
-    var statsHtml =
-      '<div class="detail-stats">' +
-      '<div class="stat"><span class="stat-label">Quest Type</span>' +
-      '<span class="quest-type-badge ' + quest.type + '">' + (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span></div>" +
-      '<div class="stat"><span class="stat-label">Difficulty</span>' +
-      '<span class="difficulty-badge ' + diffClass + '">' + quest.difficulty + "</span></div>" +
-      '<div class="stat"><span class="stat-label">Duration</span>' +
-      '<span class="pill ' + quest.length + '">' + quest.length + "</span></div>" +
-      '<div class="stat"><span class="stat-label">Location</span>' +
-      '<span class="stat-value">' + quest.location + "</span></div>" +
-      "</div>";
 
     questDetail.innerHTML =
-      '<button type="button" class="btn-back" id="detailBack">&larr; Back to all quests</button>' +
+      '<button type="button" class="btn-back" id="detailBack">← Back to all quests</button>' +
       '<article class="detail-card">' +
       '<div class="detail-banner">' +
-      '<img src="' + img.cover + '" alt="" class="detail-banner-bg" aria-hidden="true" />' +
-      '<img src="' + img.cover + '" alt="' + quest.game + '" class="detail-banner-img" />' +
+      '<img src="' + meta.cover + '" alt="" class="detail-banner-bg" aria-hidden="true" />' +
+      '<img src="' + meta.cover + '" alt="' + quest.game + '" class="detail-banner-img" />' +
       "</div>" +
       '<div class="detail-columns">' +
       '<div class="detail-body">' +
-      '<p class="game-name">' + quest.game + "</p>" +
+      '<p class="game-name" style="color:' + col + '">' + quest.game + "</p>" +
       "<h1>" + quest.title + "</h1>" +
-      statsHtml +
-      chapterHtml +
-      regionHtml +
+      '<div class="detail-stats">' +
+      '<div class="stat"><span class="stat-label-sm">Quest Type</span><span class="stat-value-sm">' +
+      (quest.type === "main" ? "Main Quest" : "Side Quest") + "</span></div>" +
+      '<div class="stat"><span class="stat-label-sm">Difficulty</span><span class="difficulty-badge ' + d + '">' + quest.difficulty + "</span></div>" +
+      '<div class="stat"><span class="stat-label-sm">Duration</span><span class="stat-value-sm" style="text-transform:capitalize">' + quest.length + "</span></div>" +
+      '<div class="stat"><span class="stat-label-sm">Location</span><span class="stat-value-sm">' + quest.location + "</span></div>" +
+      "</div>" +
+      chapterHtml + regionHtml +
       '<h2 class="detail-heading">Quest Summary</h2>' +
       '<p class="summary-text">' + quest.summary + "</p>" +
       '<div class="tip-box"><strong>Tip</strong><p>' + quest.aiTip + "</p></div>" +
       '<p class="reward"><strong>Reward:</strong> ' + quest.reward + "</p>" +
       "</div>" +
-      '<aside class="detail-sidebar">' +
-      videoSidebarHtml +
-      '<div class="sidebar-card">' +
-      '<h3 class="sidebar-title">About the Game</h3>' +
-      '<p class="sidebar-text">This quest is part of <strong>' + quest.game + "</strong>. " +
-      "Buy links and related quests are coming soon.</p>" +
-      "</div>" +
-      "</aside>" +
-      "</div>" +
-      "</article>";
+      '<aside class="detail-sidebar">' + videoCard +
+      '<div class="sidebar-card"><h3 class="sidebar-title">About the Game</h3>' +
+      '<p class="sidebar-text">This quest is part of <strong>' + quest.game +
+      "</strong>. Buy links and related quests are coming soon.</p></div>" +
+      "</aside></div></article>";
 
-    document.querySelector("#detailBack").addEventListener("click", function () {
-      window.location.hash = "";
-    });
+    document.querySelector("#detailBack").addEventListener("click", function () { window.location.hash = ""; });
+  }
+
+  function showBrowse(show) {
+    browseSections.forEach(function (el) { if (el) el.style.display = show ? "" : "none"; });
   }
 
   function handleRoute() {
-    var match = window.location.hash.match(/^#quest-(\d+)$/);
-    var quest = match ? findQuestById(parseInt(match[1], 10)) : null;
-
+    var m = window.location.hash.match(/^#quest-(\d+)$/);
+    var quest = m ? findQuest(parseInt(m[1], 10)) : null;
     if (quest) {
-      renderQuestDetail(quest);
+      renderDetail(quest);
       questDetail.style.display = "block";
-      mainLayout.style.display = "none";
-      heroSection.style.display = "none";
+      showBrowse(false);
       document.title = quest.title + " — " + quest.game + " | RPG Quest Guide";
       window.scrollTo(0, 0);
     } else {
       questDetail.style.display = "none";
       questDetail.innerHTML = "";
-      mainLayout.style.display = "";
-      heroSection.style.display = "";
-      updatePageTitle();
+      showBrowse(true);
+      updateHero();
     }
   }
 
-  populateGameFilter();
+  // ── Init ─────────────────────────────────────────────────────────────────
+  renderHeroStats();
+  buildGallery();
+  updateHero();
+  ["type", "difficulty", "length", "video"].forEach(wirePillRow);
+  videoFilterRow.style.display = "";
+  videoDivider.style.display = "";
   renderQuests();
   handleRoute();
 
   window.addEventListener("hashchange", handleRoute);
-
   searchInput.addEventListener("input", renderQuests);
-  gameFilter.addEventListener("change", onGameChange);
-  lengthFilter.addEventListener("change", renderQuests);
-  typeFilter.addEventListener("change", renderQuests);
-  difficultyFilter.addEventListener("change", renderQuests);
-  videoFilter.addEventListener("change", renderQuests);
   resetButton.addEventListener("click", resetFilters);
-  filterToggle.addEventListener("click", toggleFilters);
+  galleryShowAll.addEventListener("click", function () { selectGame(state.game); });
 })();
