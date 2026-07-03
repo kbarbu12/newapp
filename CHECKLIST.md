@@ -21,7 +21,8 @@
 - [x] Full coverage pass — Witcher 3 (15 → 49), God of War Ragnarök (14 → 48), Horizon FW (14 → 41)
 - [x] Full coverage pass — Persona 5 Royal (14 → 37), Ghost of Tsushima (13 → 35), Hogwarts Legacy (14 → 42)
 - [x] Library now at 516 quests across 15 games (8 games fully covered)
-- [x] Cyberpunk 2077 deep-fill (76 → 148): remaining main jobs, side jobs, ~37 gigs, Phantom Liberty — library now 588
+- [x] Cyberpunk 2077 deep-fill (76 → 148): remaining main jobs, side jobs, ~37 gigs, Phantom Liberty
+- [x] Deep-fill all 8 covered games (Witcher 3 full main story, FF7 World Intel/minigames/summons, GoW favors, Horizon, P5R Confidants/Mementos, Ghost tales, Hogwarts class/side quests) — library now **717**
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links

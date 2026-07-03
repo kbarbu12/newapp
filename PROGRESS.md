@@ -8,8 +8,8 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **588** (was 253 at the start of this work — **+335**)
-- **Games covered:** 15 — **8 have a full, guide-verified coverage pass** (Cyberpunk deep-filled to near-complete)
+- **Total quests in library:** **717** (was 253 at the start of this work — **+464**)
+- **Games covered:** 15 — **8 fully deep-filled** (all named main + side + repeatable content)
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
 - **Region/Act sub-filters:** live for Baldur's Gate 3, Elden Ring, Black Myth: Wukong, The Witcher 3
 
@@ -17,14 +17,14 @@
 
 | Game | Quests | Main | Side | Sub-filter | Coverage status |
 |------|:------:|:----:|:----:|:----------:|-----------------|
-| Cyberpunk 2077: Ultimate Edition | 148 | 41 | 107 | — | ✅ Deep pass (main jobs, side jobs, ~37 gigs, all 17 Cyberpsychos, Phantom Liberty) |
-| Final Fantasy VII Rebirth | 57 | 17 | 40 | — | ✅ Full pass done |
-| The Witcher 3: Wild Hunt | 49 | 3 | 46 | ✅ | ✅ Full pass done |
-| God of War Ragnarök | 48 | 12 | 36 | — | ✅ Full pass done |
-| Hogwarts Legacy | 42 | 15 | 27 | — | ✅ Full pass done |
-| Horizon Forbidden West | 41 | 13 | 28 | — | ✅ Full pass done |
-| Persona 5 Royal | 37 | 9 | 28 | — | ✅ Full pass done |
-| Ghost of Tsushima | 35 | 11 | 24 | — | ✅ Full pass done |
+| Cyberpunk 2077: Ultimate Edition | 148 | 41 | 107 | — | ✅ Deep-filled (main jobs, side jobs, ~37 gigs, all 17 Cyberpsychos, Phantom Liberty) |
+| The Witcher 3: Wild Hunt | 96 | 32 | 64 | ✅ | ✅ Deep-filled (full main story, HoS + B&W, secondaries, contracts, witcher-gear hunts) |
+| Final Fantasy VII Rebirth | 72 | 17 | 55 | — | ✅ Deep-filled (14 chapters, 36 Odd Jobs, World Intel, minigames, summons) |
+| God of War Ragnarök | 62 | 18 | 44 | — | ✅ Deep-filled (all main missions, favors across 9 realms, Berserkers, collectible favors) |
+| Hogwarts Legacy | 60 | 24 | 36 | — | ✅ Deep-filled (main + class quests, companion arcs, side quests, assignments, system content) |
+| Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
+| Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
+| Ghost of Tsushima | 47 | 19 | 28 | — | ✅ Deep-filled (Act 1–3 tales, 7 Mythic Tales, companion tales, Iki Island) |
 | Baldur's Gate 3 | 30 | 9 | 21 | ✅ | 🟡 Good, not audited |
 | Elden Ring | 29 | 8 | 21 | ✅ | 🟡 Good, not audited |
 | Black Myth: Wukong | 21 | 6 | 15 | ✅ | 🟡 Good, not audited |
@@ -77,10 +77,12 @@ Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited agains
 "Complete" here means all **named quests** (main story, side quests, and named repeatable
 contracts like gigs/favours/tales), **not** every collectible or filler activity.
 
-- ✅ **Near-complete on named quests:** Cyberpunk 2077, FF7 Rebirth, The Witcher 3,
-  God of War Ragnarök, Horizon Forbidden West, Persona 5 Royal, Ghost of Tsushima,
-  Hogwarts Legacy. A few individual gigs/errands may still be missing where the source
-  lists couldn't be fully enumerated (see tooling note).
+- ✅ **Deep-filled (Jul 3):** Cyberpunk 2077, The Witcher 3, FF7 Rebirth, God of War
+  Ragnarök, Hogwarts Legacy, Horizon Forbidden West, Persona 5 Royal, Ghost of Tsushima.
+  Each now covers the full main story, the named side content, and the game's repeatable
+  systems (gigs/favours/contracts/tales/World Intel/Confidants). A few obscure individual
+  entries may still be missing where the source lists couldn't be fully enumerated (see
+  tooling note).
 - 🟡 **Solid, needs a guide audit:** Baldur's Gate 3, Elden Ring, Black Myth: Wukong.
 - 🔴 **Sample only, full pass pending:** Demon's Souls, Pillars of Eternity,
   Pillars of Eternity II: Deadfire, Metaphor: ReFantazio.

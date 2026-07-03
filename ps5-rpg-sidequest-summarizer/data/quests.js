@@ -9425,5 +9425,2053 @@ const quests = [
     aiTip:
       "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
+  },
+  {
+    id: 589,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Lilac and Gooseberries",
+    location: "White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Yennefer's trail, story start",
+    summary:
+      "Geralt and Vesemir follow Yennefer's summons to war-torn White Orchard, hunting a griffin along the way.",
+    aiTip:
+      "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
+  },
+  {
+    id: 590,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "The Beast of White Orchard",
+    location: "White Orchard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Griffin slain, Nilfgaard contact",
+    summary:
+      "Track and slay the royal griffin terrorizing White Orchard to earn passage and information.",
+    aiTip:
+      "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
+  },
+  {
+    id: 591,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Imperial Audience",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Emperor's contract, Ciri's trail",
+    summary:
+      "Geralt is escorted to Emperor Emhyr, who hires him to find Ciri before the Wild Hunt does.",
+    aiTip:
+      "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
+  },
+  {
+    id: 592,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Nilfgaardian Connection",
+    location: "Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ciri lead, Baron introduction",
+    summary:
+      "Chase Ciri's trail to Velen's Bloody Baron, following a Nilfgaardian informant network.",
+    aiTip:
+      "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
+  },
+  {
+    id: 593,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Family Matters",
+    location: "Velen",
+    length: "long",
+    difficulty: "High",
+    reward: "Baron's family, Ciri intel",
+    summary:
+      "Help the Bloody Baron find his missing wife and daughter in exchange for news of Ciri.",
+    aiTip:
+      "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
+  },
+  {
+    id: 594,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ladies of the Wood",
+    location: "Velen",
+    length: "long",
+    difficulty: "High",
+    reward: "Crones' bargain, orphans' fate",
+    summary:
+      "Deal with the sinister Crones of Crookback Bog and the Ghost in the Whispering Hillock.",
+    aiTip:
+      "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
+  },
+  {
+    id: 595,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Broken Flowers",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dandelion's trail, old contacts",
+    summary:
+      "Search Novigrad's underworld for Dandelion by retracing his romances and debts.",
+    aiTip:
+      "Visit all the leads — the trail winds through the city's most colorful characters.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
+  },
+  {
+    id: 596,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Get Junior",
+    location: "Novigrad",
+    length: "long",
+    difficulty: "High",
+    reward: "Dandelion found, Whoreson Junior",
+    summary:
+      "Take down the sadistic crime boss Whoreson Junior to rescue Dandelion.",
+    aiTip:
+      "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
+  },
+  {
+    id: 597,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Favor for Radovid",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Radovid's aid, Dijkstra path",
+    summary:
+      "The mad king Radovid offers help finding Dandelion's associates — for a price.",
+    aiTip:
+      "Radovid is dangerous; his questline steers Novigrad's political ending.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
+  },
+  {
+    id: 598,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Gangs of Novigrad",
+    location: "Novigrad",
+    length: "long",
+    difficulty: "High",
+    reward: "Dijkstra alliance, coup groundwork",
+    summary:
+      "Broker between Dijkstra, Roche, and the city's gangs to plot against Radovid.",
+    aiTip:
+      "Sets up the Novigrad power struggle — choices here decide who rules the North.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
+  },
+  {
+    id: 599,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Destination: Skellige",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Skellige reached, Ciri's trail",
+    summary:
+      "Sail to the storm-lashed isles of Skellige to continue the hunt for Ciri.",
+    aiTip:
+      "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
+  },
+  {
+    id: 600,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The King is Dead — Long Live the King",
+    location: "Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Cerys/Hjalmar succession, Ciri clue",
+    summary:
+      "A royal wedding turns to bloodshed as Skellige's succession crisis explodes.",
+    aiTip:
+      "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
+  },
+  {
+    id: 601,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Nameless",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ciri reunion, Wild Hunt closes in",
+    summary:
+      "The pieces come together on Skellige as Geralt finally closes on Ciri and Uma's curse.",
+    aiTip:
+      "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
+  },
+  {
+    id: 602,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Isle of Mists",
+    location: "Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Ciri found, act turn",
+    summary:
+      "Geralt braves the cursed Isle of Mists to find Ciri — a pivotal, mood-defining chapter.",
+    aiTip:
+      "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
+  },
+  {
+    id: 603,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    title: "The Battle of Kaer Morhen",
+    location: "Kaer Morhen",
+    length: "long",
+    difficulty: "High",
+    reward: "Wild Hunt repelled, allies' cost",
+    summary:
+      "Rally the witchers, sorceresses, and friends to defend Kaer Morhen against the Wild Hunt.",
+    aiTip:
+      "Recruit as many allies beforehand as you can — it changes who survives the siege.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
+  },
+  {
+    id: 604,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    title: "Blood on the Battlefield",
+    location: "Kaer Morhen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Aftermath, Ciri's grief",
+    summary:
+      "Pick up the pieces after the Wild Hunt's assault and steady Ciri for the road ahead.",
+    aiTip:
+      "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
+  },
+  {
+    id: 605,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Bald Mountain",
+    location: "Velen",
+    length: "long",
+    difficulty: "High",
+    reward: "Crones defeated, Ciri's power",
+    summary:
+      "Geralt and Ciri storm Bald Mountain to end the Crones and unleash Ciri's Elder Blood.",
+    aiTip:
+      "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
+  },
+  {
+    id: 606,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Through Time and Space",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Avallac'h's path, elven worlds",
+    summary:
+      "Travel with Avallac'h across shattered worlds via magic portals to find a way to stop the White Frost.",
+    aiTip:
+      "A surreal, linear chapter — enjoy the alien vistas between fights.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
+  },
+  {
+    id: 607,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Tedd Deireadh, the Final Age",
+    location: "Undvik / Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Final battle, Eredin defeated",
+    summary:
+      "The climactic confrontation with the Wild Hunt's king, Eredin Bréacc Glas.",
+    aiTip:
+      "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
+  },
+  {
+    id: 608,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    title: "Something Ends, Something Begins",
+    location: "Various",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Epilogue, Ciri's fate",
+    summary:
+      "The quiet epilogue where Geralt's and Ciri's fates are sealed by everything you've done.",
+    aiTip:
+      "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
+  },
+  {
+    id: 609,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Evil's Soul",
+    location: "Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Olgierd's pact, Gaunter O'Dimm",
+    summary:
+      "Bound to the immortal Olgierd von Everec by Gaunter O'Dimm, Geralt must grant three impossible wishes.",
+    aiTip:
+      "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
+  },
+  {
+    id: 610,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Whatsoever a Man Soweth...",
+    location: "Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Olgierd's first wish, heist prep",
+    summary:
+      "Fulfill Olgierd's first bizarre wish involving a rowdy wedding and a runaway spirit.",
+    aiTip:
+      "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
+  },
+  {
+    id: 611,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Bald Mountain (HoS): A Midnight Clear",
+    location: "Garin Estate (Hearts of Stone)",
+    length: "medium",
+    difficulty: "High",
+    reward: "O'Dimm's game, final choice",
+    summary:
+      "The reckoning with Gaunter O'Dimm — outwit the devil in a deadly riddle to save your soul.",
+    aiTip:
+      "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
+  },
+  {
+    id: 612,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Envoys, Wineboys",
+    location: "Toussaint (Blood and Wine)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Toussaint arrives, knights' errand",
+    summary:
+      "Duchess Anna Henrietta's knights summon Geralt to fairy-tale Toussaint to hunt a beast slaying knights.",
+    aiTip:
+      "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
+  },
+  {
+    id: 613,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Beast of Toussaint (B&W)",
+    location: "Toussaint (Blood and Wine)",
+    length: "long",
+    difficulty: "High",
+    reward: "Vampire mystery deepens",
+    summary:
+      "Investigate the grisly knight-killings plaguing Beauclair and the higher vampire behind them.",
+    aiTip:
+      "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
+  },
+  {
+    id: 614,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Blood Run",
+    location: "Toussaint (Blood and Wine)",
+    length: "long",
+    difficulty: "High",
+    reward: "Dettlaff confrontation, Syanna lead",
+    summary:
+      "Chase the vampire Dettlaff through Beauclair as the conspiracy tightens around Syanna.",
+    aiTip:
+      "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
+  },
+  {
+    id: 615,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Tesham Mutna",
+    location: "Toussaint (Blood and Wine)",
+    length: "long",
+    difficulty: "High",
+    reward: "Regis's aid, vampire lore",
+    summary:
+      "Delve into vampire history with Regis to find a way to stop Dettlaff's rampage.",
+    aiTip:
+      "Regis is a fantastic companion here — soak in the lore before the finale.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
+  },
+  {
+    id: 616,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Beyond Hill and Dale... (B&W)",
+    location: "Land of a Thousand Fables",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Syanna found, fairy-tale realm",
+    summary:
+      "Enter the storybook Land of a Thousand Fables to find the runaway Syanna.",
+    aiTip:
+      "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
+  },
+  {
+    id: 617,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Pomp and Strange Circumstance",
+    location: "Toussaint (Blood and Wine)",
+    length: "long",
+    difficulty: "High",
+    reward: "Blood and Wine finale, ending choice",
+    summary:
+      "The climax of Blood and Wine, where the fate of Dettlaff, Syanna, and the duchess is decided.",
+    aiTip:
+      "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
+  },
+  {
+    id: 618,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Fake Papers",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Refugee saved, coin",
+    summary:
+      "Help a refugee forge papers to escape Velen's war and the Nilfgaardian dragnet.",
+    aiTip:
+      "A small mercy quest — the outcome depends on trusting the right smuggler.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
+  },
+  {
+    id: 619,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Greedy God",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Sylvan/godling lore, reward",
+    summary:
+      "Investigate a bog 'god' extorting a village and decide the fate of the creature behind it.",
+    aiTip:
+      "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
+  },
+  {
+    id: 620,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Volunteer",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Elf's fate, karma",
+    summary:
+      "An elf begs Geralt to help find her people amid the ruins of a flooded elven bath house.",
+    aiTip:
+      "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
+  },
+  {
+    id: 621,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Funeral Pyres",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin, karma",
+    summary:
+      "Deal with the Nilfgaardian soldiers desecrating the dead across Velen's battlefields.",
+    aiTip:
+      "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
+  },
+  {
+    id: 622,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Fall of the House of Reardon",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Wraith lore, treasure",
+    summary:
+      "Investigate a haunted, abandoned estate and the tragedy that cursed the Reardon family.",
+    aiTip:
+      "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
+  },
+  {
+    id: 623,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Gwent: Old Pals",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rare Gwent cards",
+    summary:
+      "Play Novigrad's finest Gwent players to win rare cards for your collection.",
+    aiTip:
+      "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
+  },
+  {
+    id: 624,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Gwent: Playing Innkeeps",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gwent cards, coin",
+    summary:
+      "Tour the taverns of Velen and Novigrad beating innkeepers at Gwent.",
+    aiTip:
+      "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
+  },
+  {
+    id: 625,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Deadly Plot",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Triss & mages arc, ambush foiled",
+    summary:
+      "Uncover a witch-hunter plot targeting Triss and the fleeing mages of Novigrad.",
+    aiTip:
+      "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
+  },
+  {
+    id: 626,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: The Phantom of Eldberg",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, wraith trophy",
+    summary:
+      "A lighthouse keeper's death has loosed a vicious wraith on a Skellige isle.",
+    aiTip:
+      "Restore the lighthouse flame and use Yrden against the penitent wraith.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
+  },
+  {
+    id: 627,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Contract: Missing Brother",
+    location: "White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin, cockatrice/monster trophy",
+    summary:
+      "A woman's brother has vanished on the road; follow the grisly trail to the culprit.",
+    aiTip:
+      "An early contract that teaches monster tracking with Witcher Senses.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
+  },
+  {
+    id: 628,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Merry Widow",
+    location: "Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, grave hag trophy",
+    summary:
+      "Villagers near a crossroads are slain by a grave hag feeding on the war dead.",
+    aiTip:
+      "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
+  },
+  {
+    id: 629,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Oxenfurt Drunk",
+    location: "Velen (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Coin, monster trophy",
+    summary:
+      "A 'drunk' terrorizing Oxenfurt's outskirts turns out to be something far worse.",
+    aiTip:
+      "Investigate the attacks first — the true culprit isn't the obvious one.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
+  },
+  {
+    id: 630,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Scavenger Hunt: Cat School Gear",
+    location: "Velen / Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Feline witcher armor set",
+    summary:
+      "Follow old maps to recover the fast, light Feline (Cat) School witcher gear.",
+    aiTip:
+      "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
+  },
+  {
+    id: 631,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Scavenger Hunt: Griffin School Gear",
+    location: "Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Griffin witcher armor set",
+    summary:
+      "Track down the Griffin School gear diagrams, ideal for a Sign-focused build.",
+    aiTip:
+      "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
+  },
+  {
+    id: 632,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Scavenger Hunt: Bear School Gear",
+    location: "Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ursine (Bear) witcher armor set",
+    summary:
+      "Climb Skellige's peaks and dive its wrecks for the heavy, tanky Ursine gear.",
+    aiTip:
+      "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
+  },
+  {
+    id: 633,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    title: "Scavenger Hunt: Wolf School Gear",
+    location: "Kaer Morhen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wolven witcher armor set (balanced)",
+    summary:
+      "Recover the balanced Wolf School gear scattered around Kaer Morhen and Velen.",
+    aiTip:
+      "A well-rounded set — a safe default while you gather the specialized schools.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
+  },
+  {
+    id: 634,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Manticore School Gear",
+    location: "Toussaint (Blood and Wine)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Manticore witcher set (alchemy)",
+    summary:
+      "Hunt the Manticore School gear across Toussaint for a potent alchemy-focused set.",
+    aiTip:
+      "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
+  },
+  {
+    id: 635,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Fists of Fury: Skellige",
+    location: "Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Boxing champion coin",
+    summary:
+      "Beat Skellige's toughest brawlers in bare-knuckle boxing matches.",
+    aiTip:
+      "Dodge and counter — trading blows with the islanders is a losing game.",
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
+  },
+  {
+    id: 636,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "World Intel: Remnawave Towers",
+    location: "All regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Map reveal, fast travel, rewards",
+    summary:
+      "Activate MAI's Remnawave communication towers to reveal each region's map and its intel objectives.",
+    aiTip:
+      "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
+  },
+  {
+    id: 637,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "World Intel: Fiend Intel & Combat Assessments",
+    location: "All regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Combat sim unlocks, enhancement cores",
+    summary:
+      "Complete Chadley's Fiend Intel hunts and combat assessments to study the planet's monsters.",
+    aiTip:
+      "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
+  },
+  {
+    id: 638,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "World Intel: Lifesprings",
+    location: "All regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Planet lore, MP restoration",
+    summary:
+      "Investigate the mysterious Lifesprings welling up across each region for lore and rewards.",
+    aiTip:
+      "A relaxing collectible chain — the lore deepens the game's ecological themes.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
+  },
+  {
+    id: 639,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "World Intel: Divine Intel (Protorelics)",
+    location: "All regions",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Summon materia, powerful abilities",
+    summary:
+      "Solve each region's multi-step Protorelic puzzle to earn unique summon materia.",
+    aiTip:
+      "These are the best World Intel rewards — do the region's other intel first to unlock them.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
+  },
+  {
+    id: 640,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "World Intel: Expeditions & Chocobo Stops",
+    location: "All regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Chocobo traversal, map access",
+    summary:
+      "Restore Chocobo Stops and complete moogle expeditions to open up each region's traversal.",
+    aiTip:
+      "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
+  },
+  {
+    id: 641,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "Queen's Blood: The Card Game",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare cards, Queen's Blood champion",
+    summary:
+      "Master the in-world card game Queen's Blood, defeating players from Kalm to the Gold Saucer.",
+    aiTip:
+      "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
+  },
+  {
+    id: 642,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    title: "Fort Condor",
+    location: "Junon / Under Junon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Miniature-strategy rewards",
+    summary:
+      "Play the tower-defense minigame Fort Condor against escalating opponents.",
+    aiTip:
+      "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
+  },
+  {
+    id: 643,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    title: "3D Brawler",
+    location: "Costa del Sol / Gold Saucer",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Minigame prizes",
+    summary:
+      "Face off in the reaction-based 3D Brawler boxing minigame for prizes and trophies.",
+    aiTip:
+      "Watch the opponent's tells and punish openings — patience beats button-mashing.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
+  },
+  {
+    id: 644,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    title: "Gears & Gambits",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Combat-sim programming rewards",
+    summary:
+      "Program tin soldiers in the auto-battle puzzle minigame Gears & Gambits.",
+    aiTip:
+      "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
+  },
+  {
+    id: 645,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    title: "Chocobo Racing (Gold Saucer)",
+    location: "Gold Saucer",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gil, GP, exclusive gear",
+    summary:
+      "Race chocobos around the Gold Saucer's tracks for gil, GP, and cosmetic rewards.",
+    aiTip:
+      "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
+  },
+  {
+    id: 646,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "Piano Performances",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sheet music, cosmetic rewards",
+    summary:
+      "Perform sheet music on pianos across the world in the rhythm minigame.",
+    aiTip:
+      "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
+  },
+  {
+    id: 647,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    title: "Summon: Titan",
+    location: "Grasslands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Titan summon materia",
+    summary:
+      "Best Titan in a combat simulator trial to earn the earth-elemental summon.",
+    aiTip:
+      "Ward against earth and punish its stagger windows — a strong early summon.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
+  },
+  {
+    id: 648,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    title: "Summon: Alexander",
+    location: "Junon",
+    length: "medium",
+    difficulty: "High",
+    reward: "Alexander summon materia",
+    summary:
+      "Defeat the holy fortress Alexander in Chadley's VR trial for a powerful summon.",
+    aiTip:
+      "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
+  },
+  {
+    id: 649,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    title: "Summon: Bahamut Arisen",
+    location: "Cosmo Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Bahamut Arisen summon materia",
+    summary:
+      "Overcome the ultimate dragon king Bahamut Arisen in a demanding VR assessment.",
+    aiTip:
+      "One of the toughest summon fights — max your materia and elemental resists first.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
+  },
+  {
+    id: 650,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    title: "Summon: Odin",
+    location: "Nibel",
+    length: "long",
+    difficulty: "High",
+    reward: "Odin summon materia",
+    summary:
+      "Face Odin under a strict time limit to claim the instant-death summon.",
+    aiTip:
+      "Odin's trial is a DPS race — build for maximum stagger and damage.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
+  },
+  {
+    id: 651,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "The Lost Sanctuary",
+    location: "Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Vanaheim exploration, story beat",
+    summary:
+      "Kratos and companions seek a hidden sanctuary in Vanaheim's jungle as the plan against Odin forms.",
+    aiTip:
+      "Vanaheim rewards revisiting — note favors you can't yet reach and return with new tools.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Lost%20Sanctuary%20walkthrough"
+  },
+  {
+    id: 652,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "The Runaway",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Atreus's arc, trust tested",
+    summary:
+      "Atreus goes his own way, forcing Kratos to confront his son's independence and secrets.",
+    aiTip:
+      "A father-son turning point — the story leans into Atreus's playable sections here.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Runaway%20walkthrough"
+  },
+  {
+    id: 653,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Muspelheim",
+    title: "Into the Fire",
+    location: "Muspelheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Muspelheim opened, story beat",
+    summary:
+      "The party braves the fire realm of Muspelheim in pursuit of the tools of prophecy.",
+    aiTip:
+      "Muspelheim's heat and foes are brutal — upgrade armor before lingering for its trials.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Into%20the%20Fire%20walkthrough"
+  },
+  {
+    id: 654,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Unlocking the Mask",
+    location: "Multiple realms",
+    length: "medium",
+    difficulty: "High",
+    reward: "The mask's power, story turn",
+    summary:
+      "Assemble and unlock the ancient mask Atreus believes can reveal a way to change fate.",
+    aiTip:
+      "A lore-heavy chapter tying together threads from across the realms.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Unlocking%20the%20Mask%20walkthrough"
+  },
+  {
+    id: 655,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Helheim",
+    title: "Hunting for Solace",
+    location: "Helheim",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grief confronted, story beat",
+    summary:
+      "A journey through Helheim forces the party to face loss before the war can begin.",
+    aiTip:
+      "Helheim's frost enemies resist ice — favor the Blades of Chaos throughout.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Hunting%20for%20Solace%20walkthrough"
+  },
+  {
+    id: 656,
+    type: "main",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "The Summoning",
+    location: "Midgard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Allies gathered, Ragnarök nears",
+    summary:
+      "Kratos rallies the realms' champions for the coming war against Asgard.",
+    aiTip:
+      "Emotional pre-finale beat — make sure outstanding favors are done before the point of no return.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Summoning%20walkthrough"
+  },
+  {
+    id: 657,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "A Viking Funeral",
+    location: "Midgard",
+    length: "short",
+    difficulty: "Medium",
+    reward: "'Dead' favor arc, gear",
+    summary:
+      "Help lay a fallen warrior to rest with the honor a Viking's death demands.",
+    aiTip:
+      "Part of the linked 'Dead' favors — completing all of them tells a full, moving story.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20A%20Viking%20Funeral%20walkthrough"
+  },
+  {
+    id: 658,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Cure for the Dead",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "'Dead' favor arc, gear",
+    summary:
+      "Seek a remedy tied to the grim mystery running through Vanaheim's afflicted.",
+    aiTip:
+      "Follow the 'Dead' favor chain in order for the best narrative payoff.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Cure%20for%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 659,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Garden for the Dead",
+    location: "Vanaheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "'Dead' favor arc conclusion, gear",
+    summary:
+      "Bring peace to a haunted Vanaheim garden as the 'Dead' favor trilogy concludes.",
+    aiTip:
+      "The capstone of the 'Dead' favors — a satisfying, somber resolution.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Garden%20for%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 660,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Casualty of War: The Toy",
+    location: "Multiple realms",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Berserker Gravestone reward",
+    summary:
+      "Answer a Berserker's summons and defeat the vengeful undead champion.",
+    aiTip:
+      "Berserkers are optional bosses — upgrade gear first; they punish sloppy dodging.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Toy%20walkthrough"
+  },
+  {
+    id: 661,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Casualty of War: The Hourglass",
+    location: "Multiple realms",
+    length: "short",
+    difficulty: "High",
+    reward: "Berserker Gravestone reward",
+    summary:
+      "Face another of the Nine Realms' Berserker souls in single combat.",
+    aiTip:
+      "Learn each Berserker's tells; parry-heavy play beats trading blows.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Hourglass%20walkthrough"
+  },
+  {
+    id: 662,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "What Lies Below",
+    location: "Svartalfheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Dwarven vault loot",
+    summary:
+      "Investigate the tremors beneath a Svartalfheim mine and claim what's sealed within.",
+    aiTip:
+      "Use the Draupnir Spear's detonations to open the collapsed passages.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20What%20Lies%20Below%20walkthrough"
+  },
+  {
+    id: 663,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "The Applecore",
+    location: "Svartalfheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Mining elevator restored, region access",
+    summary:
+      "Restore the derelict Applecore elevator to open up new areas of the Aurvangar Wetlands.",
+    aiTip:
+      "Reopening it unlocks traversal and hidden chests across the wetlands.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Applecore%20walkthrough"
+  },
+  {
+    id: 664,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Svartalfheim",
+    title: "The Weight of Chains (Lyngbakr)",
+    location: "Svartalfheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Lyngbakr freed, Mimir arc",
+    summary:
+      "Free the imprisoned sea beast Lyngbakr, chained by Odin, to ease Mimir's old guilt.",
+    aiTip:
+      "Requires returning with the right tools — a rewarding multi-step favor.",
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Weight%20of%20Chains%20(Lyngbakr)%20walkthrough"
+  },
+  {
+    id: 665,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Cradle of Echoes",
+    location: "Cauldron",
+    length: "long",
+    difficulty: "High",
+    reward: "GAIA sub-function, override",
+    summary:
+      "Descend into a cauldron to recover another of GAIA's scattered sub-functions.",
+    aiTip:
+      "Cauldrons end in a boss machine — clearing them expands your override roster.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
+  },
+  {
+    id: 666,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Second Verse",
+    location: "The Base",
+    length: "long",
+    difficulty: "High",
+    reward: "GAIA restoration progresses",
+    summary:
+      "Aloy pushes to reunite GAIA's functions as the Zeniths' countdown accelerates.",
+    aiTip:
+      "Upgrade your best weapons before this stretch — the fights escalate sharply.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Second%20Verse%20walkthrough"
+  },
+  {
+    id: 667,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "All That Remains",
+    location: "Zenith Stronghold",
+    length: "long",
+    difficulty: "High",
+    reward: "Pre-finale, allies rally",
+    summary:
+      "The team makes its final preparations before the assault on the Zeniths.",
+    aiTip:
+      "Finish side quests and errands now — the finale is close after this.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
+  },
+  {
+    id: 668,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "The Deluge",
+    location: "The Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Water source restored, settlement saved",
+    summary:
+      "Restore a failing Old World water system before the Daunt's settlements run dry.",
+    aiTip:
+      "An Old World facility puzzle — use the Pullcaster and scan for power routes.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Deluge%20walkthrough"
+  },
+  {
+    id: 669,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
+    title: "Lofty Ambitions",
+    location: "Scalding Spear",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Desert Clan aid, gear",
+    summary:
+      "Help a Desert Clan inventor test a daring flying contraption over the dunes.",
+    aiTip:
+      "A charming quest with a memorable set piece — light on combat.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Lofty%20Ambitions%20walkthrough"
+  },
+  {
+    id: 670,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Roots that Bind",
+    location: "Plainsong",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Utaru song-field mystery, reward",
+    summary:
+      "Investigate why the Utaru's machine-tended song-fields are failing.",
+    aiTip:
+      "Scan the affected machines to trace the fault to its source.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Roots%20that%20Bind%20walkthrough"
+  },
+  {
+    id: 671,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "First to Fly",
+    location: "Memorial Grove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Companion arc, gear",
+    summary:
+      "A personal quest for one of Aloy's allies chasing a lifelong dream of flight.",
+    aiTip:
+      "A character-focused quest that deepens a key companion bond.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20First%20to%20Fly%20walkthrough"
+  },
+  {
+    id: 672,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
+    title: "Signals of the Sun",
+    location: "Cinnabar Sands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sun-worship mystery, reward",
+    summary:
+      "Follow strange signals tied to the Sun-worshipping remnants of the old Carja.",
+    aiTip:
+      "Lore-rich — the datapoints connect the Forbidden West to Aloy's homeland.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signals%20of%20the%20Sun%20walkthrough"
+  },
+  {
+    id: 673,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Bad Blood",
+    location: "Thornmarsh",
+    length: "medium",
+    difficulty: "High",
+    reward: "Tenakth grudge settled, gear",
+    summary:
+      "Mediate a violent grudge between Tenakth clans before it erupts into open war.",
+    aiTip:
+      "Hear both sides out — the resolution hinges on your judgment.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Bad%20Blood%20walkthrough"
+  },
+  {
+    id: 674,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Drowned Hopes",
+    location: "No Man's Land",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Diving reward, salvage",
+    summary:
+      "Dive into flooded ruins to recover something precious lost beneath the water.",
+    aiTip:
+      "Upgrade the diving mask first — deeper sections need the breath extension.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Drowned%20Hopes%20walkthrough"
+  },
+  {
+    id: 675,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Way Home",
+    location: "The Base",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion closure, base upgrade",
+    summary:
+      "A quiet quest helping an ally find belonging among Aloy's growing found-family.",
+    aiTip:
+      "A gentle character beat — a nice breather between major missions.",
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Way%20Home%20walkthrough"
+  },
+  {
+    id: 676,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Yusuke Kitagawa (Emperor)",
+    location: "Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Yusuke combat perks, follow-up attacks",
+    summary:
+      "Deepen the bond with the eccentric artist Yusuke, unlocking team follow-up attacks.",
+    aiTip:
+      "His confidant perks add powerful assist moves — level him for tougher palaces.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
+  },
+  {
+    id: 677,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Makoto Niijima (Priestess)",
+    location: "Various",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Makoto perks, healing & negotiation",
+    summary:
+      "Grow closer to the student council president Makoto for battle and money-making perks.",
+    aiTip:
+      "Her Follow Up and healing perks are excellent — a high-value confidant to max.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
+  },
+  {
+    id: 678,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Haru Okumura (Empress)",
+    location: "Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Haru perks, gardening & EXP",
+    summary:
+      "Bond with the gentle heiress Haru, whose perks grow SP-restoring plants and boost EXP.",
+    aiTip:
+      "Her rooftop garden yields SP-recovery veggies — great for palace stamina.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
+  },
+  {
+    id: 679,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Morgana (Magician)",
+    location: "Café Leblanc",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Morgana perks, item crafting",
+    summary:
+      "Strengthen your bond with Morgana, unlocking better ambushes and item crafting.",
+    aiTip:
+      "An easy early confidant — his perks smooth out the whole early game.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
+  },
+  {
+    id: 680,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Sae Niijima (Judgement)",
+    location: "Courtroom / Leblanc",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Judgement arc, endgame perks",
+    summary:
+      "The prosecutor Sae's confidant unfolds through the story's interrogation frame.",
+    aiTip:
+      "Progresses automatically with the plot — pays off in the game's climax.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
+  },
+  {
+    id: 681,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Mementos Request: The Man of Plans and Capital",
+    location: "Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Money, arcana affinity",
+    summary:
+      "Change the heart of a ruthless loan shark preying on the desperate.",
+    aiTip:
+      "Send the calling card once you've cleared the target's Mementos floor.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Man%20of%20Plans%20and%20Capital%20walkthrough"
+  },
+  {
+    id: 682,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Mementos Request: A Bounty Hunter Scorned",
+    location: "Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rare item, affinity",
+    summary:
+      "Take down a violent bounty hunter terrorizing Tokyo's underworld.",
+    aiTip:
+      "Exploit the shadow's weakness for a quick, clean Hold Up.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20A%20Bounty%20Hunter%20Scorned%20walkthrough"
+  },
+  {
+    id: 683,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Mementos Request: The Lockdown Hero",
+    location: "Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Money, item reward",
+    summary:
+      "Deal with a self-styled vigilante whose 'justice' has curdled into cruelty.",
+    aiTip:
+      "A morally grey request — the reward and lore make it worth the trip.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Lockdown%20Hero%20walkthrough"
+  },
+  {
+    id: 684,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Mementos Request: The Illustrious Blackmailer",
+    location: "Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rare fusion material, affinity",
+    summary:
+      "Change the heart of a serial blackmailer exploiting Shibuya's students.",
+    aiTip:
+      "Time it after the relevant confidant hint appears for the fullest story.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Illustrious%20Blackmailer%20walkthrough"
+  },
+  {
+    id: 685,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Kichijoji Activities: Jazz Jin, Darts & Billiards",
+    location: "Kichijoji",
+    length: "short",
+    difficulty: "Low",
+    reward: "Social stats, Baton Pass & SP perks",
+    summary:
+      "Frequent Kichijoji's jazz club, darts, and billiards to boost stats and unlock combat perks.",
+    aiTip:
+      "Darts raises Baton Pass rank; Jazz Jin recovers SP for two party members — both huge.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
+  },
+  {
+    id: 686,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "The Thieves Den",
+    location: "Velvet Room",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cosmetics, records, replay value",
+    summary:
+      "Explore the Royal-exclusive Thieves Den to review the Phantom Thieves' exploits and unlock decor.",
+    aiTip:
+      "A relaxing meta-hub — collect trophies and models as you progress the story.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
+  },
+  {
+    id: 687,
+    type: "side",
+    game: "Persona 5 Royal",
+    title: "Confidant: Sojiro Sakura (Hierophant)",
+    location: "Café Leblanc",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Leblanc perks, coffee & curry",
+    summary:
+      "Earn the trust of your gruff guardian Sojiro, unlocking coffee and curry that restore SP.",
+    aiTip:
+      "His SP-restoring brews and dishes are invaluable for long palace runs.",
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
+  },
+  {
+    id: 688,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Broken Blacksmith",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ally rescued, gear",
+    summary:
+      "Rescue a captured blacksmith to keep Jin's growing resistance armed.",
+    aiTip:
+      "An early Act 1 tale — rescuing allies expands your support network.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
+  },
+  {
+    id: 689,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Iron Hook",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Grappling hook unlocked, traversal",
+    summary:
+      "Recover the grappling hook that opens up Tsushima's cliffs and hidden paths.",
+    aiTip:
+      "The hook is a major traversal upgrade — grab it before exploring the peaks.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
+  },
+  {
+    id: 690,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Hammer and the Forge",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ghost weapons, gear",
+    summary:
+      "Aid the war effort by securing the means to craft the Ghost's deadly tools.",
+    aiTip:
+      "Unlocks key Ghost weapons — a turning point in Jin's tactics.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
+  },
+  {
+    id: 691,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Tale of Ryuzo",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Straw Hat Ronin arc, duel",
+    summary:
+      "Confront Jin's desperate old friend Ryuzo as the Straw Hats side with the Mongols.",
+    aiTip:
+      "An emotionally charged duel — sharpen your parry timing beforehand.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
+  },
+  {
+    id: 692,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Heart of the Jito",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Regional liberation, ally",
+    summary:
+      "Break the Mongol hold on a key Toyotama stronghold to rally the region.",
+    aiTip:
+      "A large-scale assault — use stealth to thin the garrison before going loud.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
+  },
+  {
+    id: 693,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "From the Darkness",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ghost legend grows, story turn",
+    summary:
+      "Jin fully embraces the Ghost's fearsome reputation as the war in Toyotama peaks.",
+    aiTip:
+      "The Ghost's terror tactics come into full force — lean into fear-based play.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
+  },
+  {
+    id: 694,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Coward's Deception",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Kamiagata liberated, finale approach",
+    summary:
+      "Root out betrayal and reclaim northern Kamiagata as the final reckoning nears.",
+    aiTip:
+      "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
+  },
+  {
+    id: 695,
+    type: "main",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "A New Horizon",
+    location: "Tsushima",
+    length: "short",
+    difficulty: "High",
+    reward: "Ending, Jin's fate",
+    summary:
+      "The quiet aftermath of Jin's war — the honor-versus-survival theme reaches its close.",
+    aiTip:
+      "Follows the main finale; your defining choice colors this epilogue.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
+  },
+  {
+    id: 696,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "A Lost Friend (Iki Island)",
+    location: "Iki Island",
+    length: "medium",
+    difficulty: "High",
+    reward: "Iki tale, Mongol shaman arc",
+    summary:
+      "On Iki, Jin hunts for a captured ally while battling hallucinogenic Mongol poisons.",
+    aiTip:
+      "The Eagle's hallucinations are unique encounters — steel yourself for the trippy set pieces.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
+  },
+  {
+    id: 697,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "The Blessing of Death (Iki Island)",
+    location: "Iki Island",
+    length: "medium",
+    difficulty: "High",
+    reward: "Iki tale conclusion, gear",
+    summary:
+      "Confront the shaman known as the Eagle in the climax of the Iki Island expansion.",
+    aiTip:
+      "A tough finale duel — the Eagle's mind-games make it as much mental as mechanical.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
+  },
+  {
+    id: 698,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "Animal Sanctuaries (Iki Island)",
+    location: "Iki Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "Flute tunes, cosmetic charms",
+    summary:
+      "Play Jin's flute to soothe Iki's wildlife and unlock sanctuaries and cosmetics.",
+    aiTip:
+      "Relaxing rhythm minigames — a lovely break from the fighting.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
+  },
+  {
+    id: 699,
+    type: "side",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Sensei Ishikawa: The Mongol Bows",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bow upgrades, Tomoe arc",
+    summary:
+      "Continue Ishikawa's hunt for his traitor student and master new archery.",
+    aiTip:
+      "Advances the mentor's arc and upgrades your bow — a strong companion chain.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Sensei%20Ishikawa%3A%20The%20Mongol%20Bows%20walkthrough"
+  },
+  {
+    id: 700,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Charms Class",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Accio spell, class progression",
+    summary:
+      "Attend Professor Ronen's Charms lesson and learn the summoning charm Accio.",
+    aiTip:
+      "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Class%20walkthrough"
+  },
+  {
+    id: 701,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Defence Against the Dark Arts Class",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Levioso spell, combat basics",
+    summary:
+      "Learn the levitation spell Levioso in Professor Hecat's DADA lesson.",
+    aiTip:
+      "Levioso suspends enemies — a key combat opener you'll use constantly.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Class%20walkthrough"
+  },
+  {
+    id: 702,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Potions Class",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Potion brewing, Edurus",
+    summary:
+      "Brew your first potions with Professor Sharp and unlock the Potions station.",
+    aiTip:
+      "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Class%20walkthrough"
+  },
+  {
+    id: 703,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Flying Class",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Broom unlocked, fast travel",
+    summary:
+      "Master broom flight with Madam Kogawa, unlocking the skies over the Highlands.",
+    aiTip:
+      "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Class%20walkthrough"
+  },
+  {
+    id: 704,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Secrets of the Restricted Section",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Nighttime infiltration, story clue",
+    summary:
+      "Sneak into the library's Restricted Section with Sebastian to chase forbidden knowledge.",
+    aiTip:
+      "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Secrets%20of%20the%20Restricted%20Section%20walkthrough"
+  },
+  {
+    id: 705,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Map Chamber",
+    location: "Hogwarts",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Keepers' map, ancient magic hub",
+    summary:
+      "Unlock the hidden Map Chamber and the Keepers' guidance beneath the school.",
+    aiTip:
+      "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Map%20Chamber%20walkthrough"
+  },
+  {
+    id: 706,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Helm of Urtkot",
+    location: "Hogwarts Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Goblin lore, region unlocked",
+    summary:
+      "Help the goblin Lodgok recover a stolen ceremonial helm, deepening the Ranrok conflict.",
+    aiTip:
+      "An early Highlands quest that opens up exploration and goblin-plot context.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Helm%20of%20Urtkot%20walkthrough"
+  },
+  {
+    id: 707,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Fire and Vice",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ashwinder plot, region intel",
+    summary:
+      "Investigate the Ashwinder gang's arson and extortion around Hogsmeade.",
+    aiTip:
+      "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Fire%20and%20Vice%20walkthrough"
+  },
+  {
+    id: 708,
+    type: "main",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of the Study (Sebastian)",
+    location: "Feldcroft",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Scriptorium opened, dark-magic lead",
+    summary:
+      "Delve with Sebastian into the Sallow family's cursed scriptorium for a cure for Anne.",
+    aiTip:
+      "Advances the game's darkest arc — the moral choices intensify from here.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Study%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 709,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "The Unnatural Animagus",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Animagus mystery, gear",
+    summary:
+      "Investigate a poacher-linked Animagus with the eccentric Poppy connection.",
+    aiTip:
+      "A memorable side story with a satisfying reveal — moderate combat.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unnatural%20Animagus%20walkthrough"
+  },
+  {
+    id: 710,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Man Behind the Moons",
+    location: "Hogwarts Highlands",
+    length: "short",
+    difficulty: "Low",
+    reward: "Demiguise lore, cosmetic",
+    summary:
+      "Help the reclusive Gladwin Moon in the quest tied to upgrading your Alohomora.",
+    aiTip:
+      "Pairs with Demiguise Statue collection — do them together at night.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Man%20Behind%20the%20Moons%20walkthrough"
+  },
+  {
+    id: 711,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "A Bird in the Hand",
+    location: "Hogwarts Highlands",
+    length: "short",
+    difficulty: "Low",
+    reward: "Beast rescue, Nab-Sack",
+    summary:
+      "Rescue a hunted magical beast and learn to use the Nab-Sack from Deek.",
+    aiTip:
+      "Introduces beast-catching — the foundation for Vivarium upgrades.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Bird%20in%20the%20Hand%20walkthrough"
+  },
+  {
+    id: 712,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Cache in the Castle",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hidden treasure, house lore",
+    summary:
+      "Follow a riddle to a hidden cache tucked deep within Hogwarts castle.",
+    aiTip:
+      "A light puzzle quest — Revelio and a keen eye for detail solve it.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cache%20in%20the%20Castle%20walkthrough"
+  },
+  {
+    id: 713,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "The Sky is the Limit",
+    location: "Hogsmeade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Broom upgrade, race",
+    summary:
+      "Test a souped-up broom in a high-flying challenge for Albie Weekes.",
+    aiTip:
+      "A flying-focused quest — great practice before the broom races.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Sky%20is%20the%20Limit%20walkthrough"
+  },
+  {
+    id: 714,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Crossed Wands & Summoner's Court",
+    location: "Hogwarts",
+    length: "short",
+    difficulty: "Low",
+    reward: "Duel prestige, minigame rewards",
+    summary:
+      "Enter the student duelling circuit (Crossed Wands) and the Summoner's Court challenges.",
+    aiTip:
+      "Great for practicing spell combos safely — the rewards feed your build.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Crossed%20Wands%20%26%20Summoner's%20Court%20walkthrough"
+  },
+  {
+    id: 715,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Class Assignments (Professors)",
+    location: "Hogwarts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Advanced spells & talents",
+    summary:
+      "Complete each professor's assignment to unlock advanced spells and talent points.",
+    aiTip:
+      "These gate key spells like Depulso and Incendio — prioritize them early.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Class%20Assignments%20(Professors)%20walkthrough"
+  },
+  {
+    id: 716,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "The Foal of the Dead",
+    location: "Feldcroft Region",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Thestral lore, beast",
+    summary:
+      "Investigate a Thestral tied to a somber Feldcroft mystery.",
+    aiTip:
+      "A quieter, eerie side quest — read the environmental clues.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Foal%20of%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 717,
+    type: "side",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Trafficking Talents",
+    location: "Hogwarts Highlands",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Poacher intel, gear",
+    summary:
+      "Break up a poacher operation trafficking magical beasts across the Highlands.",
+    aiTip:
+      "Combat-focused — free the beasts and grab the loot from the camp.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trafficking%20Talents%20walkthrough"
   }
 ];
