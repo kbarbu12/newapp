@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Content Security Policy (defence-in-depth for a static site).
+         script-src is strict: only same-origin files + the hashed inline JSON-LD
+         block below. If that JSON-LD is edited, recompute its sha256 or it will
+         be blocked. style-src allows 'unsafe-inline' because the markup uses a
+         few inline style attributes and pwa.js injects a <style> element.
+         Note: frame-ancestors / clickjacking protection needs a real HTTP header,
+         which GitHub Pages cannot set, so it is not enforceable here. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               base-uri 'self';
+               object-src 'none';
+               form-action 'self';
+               script-src 'self' 'sha256-l58C4cNVRm+k/Am05apyUWYJjvQX1kuTfJd3nGw8VnE=';
+               style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+               font-src 'self' https://fonts.gstatic.com;
+               img-src 'self' data: https://images.unsplash.com;
+               connect-src 'self' https://api.web3forms.com"
+    />
+
     <!-- Primary SEO -->
     <title>RPG Quest Guide — RPG Side Quest Guide & Walkthroughs</title>
     <meta name="description" content="Browse, filter, and explore side quests and video walkthroughs for Elden Ring, Baldur's Gate 3, The Witcher 3, Cyberpunk 2077, Ghost of Tsushima, and 10 more RPGs. 199 quests and counting." />

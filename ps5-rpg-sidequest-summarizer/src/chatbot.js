@@ -22,10 +22,21 @@
     if (e.key === "Enter") handleSend();
   });
 
+  // User input is rendered via innerHTML in addMsg, so it must be escaped —
+  // otherwise typing markup like "<img onerror=…>" would execute (self-XSS).
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
   function handleSend() {
     var text = input.value.trim();
     if (!text) return;
-    addMsg("user", text);
+    addMsg("user", escapeHtml(text));
     input.value = "";
     var reply = getAnswer(text);
     setTimeout(function () { addMsg("bot", reply); }, 300);
@@ -106,7 +117,7 @@
         "<strong>Reward:</strong> " + qst.reward + "<br><br>" +
         qst.summary + "<br><br>" +
         "<strong>Tip:</strong> " + qst.aiTip +
-        (qst.video ? '<br><br><a href="' + qst.video + '" target="_blank">Watch Walkthrough</a>' : "");
+        (qst.video ? '<br><br><a href="' + qst.video + '" target="_blank" rel="noopener noreferrer">Watch Walkthrough</a>' : "");
     }
 
     if (matchAny(q, ["short quest", "short", "quick"])) {
