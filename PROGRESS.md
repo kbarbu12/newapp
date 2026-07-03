@@ -135,6 +135,14 @@ correct, current walkthrough for that exact quest. **If YouTube access were enab
 could be upgraded to single hand-verified videos.**
 
 ### Backlog / optional
+- [ ] **Card artwork rework (deferred — optional).** The covers are portrait 3:4 box-art shown
+      in a landscape strip, so cards have empty gradient bars on the sides. A mockup of 5
+      options was built and reviewed (see below). Decision: **keep as an optional future
+      rework, not implemented yet.** When picked up, the recommended options are **C —
+      blurred backdrop + centered poster** (small change; the detail page already uses this
+      pattern) or **E — full-bleed poster with title overlay** (bolder storefront look).
+      Implementation touches `.card-banner*` in `src/styles.css` and `createQuestCard()` in
+      `src/app.js`. Mockup source: `scratchpad/mockup-artwork.html` (not committed).
 - [ ] Upgrade the quest-specific search links to single hand-picked videos (needs YouTube access).
 - [ ] Region sub-filters for Deadfire and Persona 5 (need a per-quest sub-location/category tag first).
 - [ ] **Add brand-new games** (Skyrim, Dark Souls, Dragon Age) per the original backlog.
