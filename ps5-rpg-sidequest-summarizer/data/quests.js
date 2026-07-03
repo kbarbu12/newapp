@@ -8273,5 +8273,1157 @@ const quests = [
     aiTip:
       "Central to progression — breed beasts for Traits that upgrade your gear's power.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20%26%20Vivarium%20walkthrough"
+  },
+  {
+    id: 517,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "The Rescue",
+    location: "Watson – Little China",
+    length: "short",
+    difficulty: "Low",
+    reward: "V's story begins, lifepath intro",
+    summary:
+      "V and Jackie rescue a kidnapped corpo, Sandra Dorsett, in the job that kicks off V's merc career.",
+    aiTip:
+      "The prologue converges all three lifepaths here — after this, Night City opens up.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
+  },
+  {
+    id: 518,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "The Ripperdoc",
+    location: "Watson – Little China",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cyberware slots, Kiroshi optics",
+    summary:
+      "Vik Vector installs V's iconic Kiroshi optics and Militech arm, unlocking the scanner and cyberware.",
+    aiTip:
+      "Vik gives a friends' discount all game — return to him for the best-value implants.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
+  },
+  {
+    id: 519,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "The Ride",
+    location: "Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Dexter DeShawn contact",
+    summary:
+      "Dexter DeShawn sizes V up for a career-making heist during a drive through Night City.",
+    aiTip:
+      "Dialogue-only — the choices set your rapport with Dex but don't gate much.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
+  },
+  {
+    id: 520,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Love Like Fire",
+    location: "Corpo Plaza / Watson",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Johnny's story, Act 2 opens",
+    summary:
+      "Johnny Silverhand relives his 2023 Arasaka raid as V comes to terms with sharing a skull.",
+    aiTip:
+      "Marks the shift into Act 2 and the open city — start banking gigs and side jobs now.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
+  },
+  {
+    id: 521,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Ghost Town",
+    location: "Badlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Panam Palmer & Aldecaldos contact",
+    summary:
+      "V heads to the Badlands to chase a lead through Panam Palmer and the nomad Aldecaldos.",
+    aiTip:
+      "Opens the Panam questline — pursue it fully for the best (Star) ending options.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
+  },
+  {
+    id: 522,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Lightning Breaks",
+    location: "Badlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Nash dealt with, Panam bond",
+    summary:
+      "V and Panam ambush the raffen Nash to recover stolen goods and settle a score.",
+    aiTip:
+      "A combat-heavy nomad job; the Thermal Katana reward is tucked in Nash's stash.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
+  },
+  {
+    id: 523,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Life During Wartime",
+    location: "Badlands",
+    length: "long",
+    difficulty: "High",
+    reward: "Hellman captured, conspiracy lead",
+    summary:
+      "V and Panam raid a Militech-occupied town to snatch the scientist Anders Hellman.",
+    aiTip:
+      "The Basilisk-adjacent set piece is tough — bring armor and let Panam draw fire.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
+  },
+  {
+    id: 524,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Down on the Street",
+    location: "Westbrook – Japantown",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Takemura alliance, Hanako plan",
+    summary:
+      "Goro Takemura and V scheme to reach Hanako Arasaka, starting with fixer Wakako.",
+    aiTip:
+      "Kicks off the Takemura path — his gigs and calls add key endgame options.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
+  },
+  {
+    id: 525,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gimme Danger",
+    location: "Westbrook – Japantown",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Arasaka parade recon",
+    summary:
+      "V and Takemura scout the Arasaka Industrial Park ahead of a daring infiltration.",
+    aiTip:
+      "Do the optional recon fully — it unlocks stealthier routes in the follow-up.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
+  },
+  {
+    id: 526,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "M'ap Tann Pelen",
+    location: "Pacifica",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Voodoo Boys contact",
+    summary:
+      "In drowned Pacifica, V seeks the Voodoo Boys netrunners for help with the relic.",
+    aiTip:
+      "Placide is not to be trusted — stay sharp through the mall and dataterm work.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
+  },
+  {
+    id: 527,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Tapeworm",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Johnny Silverhand relationship beats",
+    summary:
+      "Recurring quiet interludes where V and Johnny drink, argue, and slowly understand each other.",
+    aiTip:
+      "These raise Johnny's rapport, which gates the secret ending — don't skip them.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
+  },
+  {
+    id: 528,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Totalimmortal",
+    location: "City Center – Arasaka",
+    length: "long",
+    difficulty: "High",
+    reward: "Rogue's ending path, Adam Smasher",
+    summary:
+      "On the Rogue path, V storms Arasaka Tower with the Afterlife's queen and faces Adam Smasher.",
+    aiTip:
+      "Save Rogue's side jobs first. Smasher is a brutal fight — bring anti-armor and quickhacks.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Totalimmortal%20walkthrough"
+  },
+  {
+    id: 529,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Belly of the Beast",
+    location: "City Center – Arasaka",
+    length: "long",
+    difficulty: "High",
+    reward: "Aldecaldos ending assault",
+    summary:
+      "On the Aldecaldos path, Panam's family blasts into Arasaka Tower to get V to Mikoshi.",
+    aiTip:
+      "Requires Panam's full questline. The Basilisk tank makes the approach a spectacle.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
+  },
+  {
+    id: 530,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "For Whom the Bell Tolls",
+    location: "City Center – Arasaka",
+    length: "short",
+    difficulty: "High",
+    reward: "Endgame, Mikoshi decision",
+    summary:
+      "Inside Mikoshi, V faces the final choice about their body, their soul, and Johnny.",
+    aiTip:
+      "This is the crossroads for every ending — make a manual save before the elevator.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
+  },
+  {
+    id: 531,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "New Dawn Fades",
+    location: "City Center – Arasaka",
+    length: "medium",
+    difficulty: "High",
+    reward: "Arasaka (Devil) ending path",
+    summary:
+      "Trusting Arasaka to fix the relic leads V down the grim corporate 'Devil' ending.",
+    aiTip:
+      "Requires low Johnny rapport; widely seen as the bleakest ending.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
+  },
+  {
+    id: 532,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Path of Glory",
+    location: "Beyond Night City",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Star ending epilogue",
+    summary:
+      "On the Aldecaldos ending, V rides into the sunset with the nomad family toward a cure.",
+    aiTip:
+      "The most hopeful epilogue — needs Panam's romance/quests completed.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
+  },
+  {
+    id: 533,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Holdin' On",
+    location: "Northside – Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Kerry Eurodyne arc begins",
+    summary:
+      "Rocker Kerry Eurodyne, bored and self-destructive, pulls V into his chaotic world.",
+    aiTip:
+      "Start of Kerry's chain — pursue it for the Us Cracks caper and a male-V romance.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
+  },
+  {
+    id: 534,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Second Conflict",
+    location: "North Oak",
+    length: "short",
+    difficulty: "Low",
+    reward: "Kerry arc, band reunion choice",
+    summary:
+      "Help Kerry decide whether to reunite Samurai as a corporate buyout looms.",
+    aiTip:
+      "Your advice shapes Kerry's arc; siding with his integrity feels most in-character.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
+  },
+  {
+    id: 535,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "A Like Supreme",
+    location: "Rancho Coronado",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Kerry arc, jam session",
+    summary:
+      "Track down a legendary guitar and help a young musician for Kerry's sake.",
+    aiTip:
+      "A feel-good detour — the payoff is a fun jam and Kerry rapport.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
+  },
+  {
+    id: 536,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Rebel! Rebel!",
+    location: "North Oak",
+    length: "short",
+    difficulty: "Low",
+    reward: "Kerry arc, Us Cracks",
+    summary:
+      "Kerry ropes V into helping the pop group Us Cracks with a very Night City problem.",
+    aiTip:
+      "Comedic and light — advances Kerry's storyline toward the finale.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
+  },
+  {
+    id: 537,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Off the Leash",
+    location: "North Oak",
+    length: "short",
+    difficulty: "Low",
+    reward: "Kerry arc, yacht party",
+    summary:
+      "Join Kerry for a wild night that either cements a romance or a friendship.",
+    aiTip:
+      "This is the Kerry romance gate for male V — read the moment.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
+  },
+  {
+    id: 538,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Boat Drinks",
+    location: "North Oak",
+    length: "short",
+    difficulty: "Low",
+    reward: "Kerry romance epilogue",
+    summary:
+      "A quiet getaway with Kerry that caps his arc on a hopeful note.",
+    aiTip:
+      "The tender close to Kerry's story — pure character payoff, no combat.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
+  },
+  {
+    id: 539,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Ex-Factor",
+    location: "Kabuki – Watson",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Judy arc, Clouds plan",
+    summary:
+      "Judy recruits V to strike back at the Tyger Claws controlling Clouds.",
+    aiTip:
+      "Opens the Judy questline proper; leads toward Pisces and the romance.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
+  },
+  {
+    id: 540,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Both Sides, Now",
+    location: "Kabuki – Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Judy relationship deepens",
+    summary:
+      "In the aftermath of Evelyn's tragedy, V and Judy share a raw, honest moment.",
+    aiTip:
+      "A short but pivotal beat for the Judy romance (female V).",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Both%20Sides%2C%20Now%20walkthrough"
+  },
+  {
+    id: 541,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Pyramid Song",
+    location: "Laguna Bend",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Judy romance, diving date",
+    summary:
+      "Judy takes V free-diving to a submerged town and her drowned past.",
+    aiTip:
+      "The Judy romance culminates here for female V — a beautiful, quiet quest.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
+  },
+  {
+    id: 542,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Human Nature",
+    location: "Rancho Coronado",
+    length: "short",
+    difficulty: "Low",
+    reward: "Delamain arc tie-in, karma",
+    summary:
+      "A tangled favor exposing how far people (and AIs) will go to feel something real.",
+    aiTip:
+      "A short character piece — the choice at the end has a small moral weight.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
+  },
+  {
+    id: 543,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Send in the Clowns",
+    location: "Kabuki – Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Chaotic night out, unique gear",
+    summary:
+      "A deranged clown gang drags V into one of Night City's weirdest nights.",
+    aiTip:
+      "Roll with the absurdity — the loot and the story are worth the chaos.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
+  },
+  {
+    id: 544,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Sweet Dreams",
+    location: "Vista del Rey",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Stinger scam survived, cautionary tale",
+    summary:
+      "A 'harmless' braindance hookup turns into a robbery-by-implant nightmare.",
+    aiTip:
+      "A cautionary vignette — expect a fight to reclaim your gear.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
+  },
+  {
+    id: 545,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Fortunate Son",
+    location: "Badlands",
+    length: "short",
+    difficulty: "Low",
+    reward: "Old cowboy's last wish",
+    summary:
+      "Help a dying Badlands old-timer settle his affairs under the desert sky.",
+    aiTip:
+      "A melancholy, low-combat quest — a nice change of pace.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
+  },
+  {
+    id: 546,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Coin Operated Boy",
+    location: "Kabuki – Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Emotional robot vignette",
+    summary:
+      "V encounters a decommissioned companion android with an unexpectedly human problem.",
+    aiTip:
+      "Short and bittersweet — the choice is about compassion, not combat.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
+  },
+  {
+    id: 547,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "War Pigs",
+    location: "City Center",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Corporate espionage, coin",
+    summary:
+      "A tense corporate job that reminds V how ruthless Night City's suits can be.",
+    aiTip:
+      "Scan for the quiet route; a loud approach draws heavy corpo security.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
+  },
+  {
+    id: 548,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Only Pain",
+    location: "Santo Domingo",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Cult mystery, moral choice",
+    summary:
+      "Investigate a pain-worshipping cult and the disturbing draw it holds over its members.",
+    aiTip:
+      "A dark thread connected to the Sinnerman arc's themes.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
+  },
+  {
+    id: 549,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Every Breath You Take",
+    location: "Japantown – Westbrook",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Stalker exposed, victim saved",
+    summary:
+      "Uncover a predator using braindance tech to stalk victims and shut him down.",
+    aiTip:
+      "Investigate the studio thoroughly before confronting him.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
+  },
+  {
+    id: 550,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Small Man, Big Mouth",
+    location: "Kabuki – Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Fixer favor, coin",
+    summary:
+      "A loudmouth's tall tales land him in trouble that V has to untangle.",
+    aiTip:
+      "A quick, flavorful favor — light combat, good pocket money.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
+  },
+  {
+    id: 551,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "I'll Fly Away",
+    location: "Badlands",
+    length: "short",
+    difficulty: "Low",
+    reward: "Nomad tragedy, closure",
+    summary:
+      "A somber Badlands job about loss on the open road.",
+    aiTip:
+      "A quiet story beat — read the shards for the full picture.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
+  },
+  {
+    id: 552,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Kold Mirage",
+    location: "Santo Domingo",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blue Eyes / Mr. Blue lead, Bartmoss myth",
+    summary:
+      "Chase the legend of Rache Bartmoss's cyberdeck and the secrets it hides.",
+    aiTip:
+      "Ties into the mysterious 'Mr. Blue Eyes' thread — atmospheric and lore-rich.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
+  },
+  {
+    id: 553,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Killing in the Name",
+    location: "City Center",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bes Isis netrunner arc, unique reward",
+    summary:
+      "Team with the anti-corpo netrunner Bes Isis to expose a subliminal advertising conspiracy.",
+    aiTip:
+      "A multi-step investigative chain — quickhacks and stealth pay off.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
+  },
+  {
+    id: 554,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Raymond Chandler Evening",
+    location: "Heywood",
+    length: "short",
+    difficulty: "Low",
+    reward: "Barry's storyline, karma",
+    summary:
+      "A follow-up to Happy Together about the aftermath of a life saved.",
+    aiTip:
+      "A quiet epilogue that rewards having handled Barry's crisis with care.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
+  },
+  {
+    id: 555,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Dancing on a Minefield",
+    location: "North Oak",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Rogue romance beat",
+    summary:
+      "A charged night with Rogue Amendiares that can spark an older-flame romance.",
+    aiTip:
+      "Part of Rogue's arc — advancing it opens her ending path with Johnny.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
+  },
+  {
+    id: 556,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Blistering Love",
+    location: "Silver Pines Drive-In",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rogue date, drive-in movie",
+    summary:
+      "Take Rogue to a drive-in for a rare tender night amid all the violence.",
+    aiTip:
+      "A charming Rogue romance beat — enjoy the quiet before the storms.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
+  },
+  {
+    id: 557,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "A Cool Metal Fire",
+    location: "Afterlife",
+    length: "short",
+    difficulty: "Low",
+    reward: "Johnny & Rogue reconciliation",
+    summary:
+      "Old wounds between Johnny and Rogue surface as V mediates a fraught reunion.",
+    aiTip:
+      "Advances both the Rogue arc and Johnny's rapport (secret-ending relevant).",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
+  },
+  {
+    id: 558,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Two Wrongs Makes Us Right",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Recover a stolen car and settle a double-cross for Regina Jones.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
+  },
+  {
+    id: 559,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Shark in the Water",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Extract a hostage from a Maelstrom-linked kidnapping.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
+  },
+  {
+    id: 560,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Woman of La Mancha",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Retrieve stolen tech from a gang stronghold for Regina.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
+  },
+  {
+    id: 561,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Hot Merchandise",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Rescue trafficked victims from a slaver operation.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
+  },
+  {
+    id: 562,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Backs Against the Wall",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Save a Militech agent pinned down by Maelstrom.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
+  },
+  {
+    id: 563,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Big Pete's Got Big Problems",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Sort out a small-time dealer's very large debt problem.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
+  },
+  {
+    id: 564,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Eye for an Eye",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Recover a client's stolen property and mete out payback.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
+  },
+  {
+    id: 565,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Cuckoo's Nest",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Watson: Investigate a compromised safehouse for Regina.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
+  },
+  {
+    id: 566,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gig: Wakako's Favorite",
+    location: "Westbrook – Japantown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Westbrook: Handle a delicate personal matter for fixer Wakako Okada.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
+  },
+  {
+    id: 567,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gig: Occupational Hazard",
+    location: "Westbrook – Charter Hill",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Westbrook: Clear a Tyger Claws den threatening one of Wakako's clients.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
+  },
+  {
+    id: 568,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gig: Dirty Biz",
+    location: "Westbrook – Japantown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Westbrook: Untangle a shady deal gone wrong in Japantown.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
+  },
+  {
+    id: 569,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Gig: God Bless This Mess",
+    location: "Heywood – Wellsprings",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Heywood: Recover a stolen relic before Padre's client loses everything.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
+  },
+  {
+    id: 570,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Gig: Old Friends",
+    location: "Heywood – The Glen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Heywood: Settle an old debt between former partners for Padre.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
+  },
+  {
+    id: 571,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Gig: Hippocratic Oath",
+    location: "Heywood – Vista del Rey",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Heywood: Rescue a doctor forced to work for a gang.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
+  },
+  {
+    id: 572,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "Gig: Race to the Top",
+    location: "Pacifica – Coastview",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Pacifica: Extract a target from a fortified position for El Capitán.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
+  },
+  {
+    id: 573,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "Gig: No Fixers",
+    location: "Pacifica – Coastview",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Pacifica: Handle a job the other fixers wouldn't touch.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
+  },
+  {
+    id: 574,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "Gig: Sr. Ladrillo's Private Collection",
+    location: "Pacifica – West Wind Estate",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Pacifica: Steal back a prized collection from a Pacifica warlord.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
+  },
+  {
+    id: 575,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Gig: Over the Edge",
+    location: "Badlands – Rocky Ridge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Badlands: Stop a raffen ambush in the Badlands for Dakota.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
+  },
+  {
+    id: 576,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Gig: Family Matters",
+    location: "Badlands – Jackson Plains",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Badlands: Resolve a violent nomad family feud.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
+  },
+  {
+    id: 577,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Gig: An Inconvenient Killer",
+    location: "Badlands – near Sunset Motel",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Badlands: Take down a rogue killer threatening Dakota's clients.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
+  },
+  {
+    id: 578,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Gig: Trevor's Last Ride",
+    location: "Badlands – Rocky Ridge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Badlands: Recover a hijacked truck and its driver in the wastes.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
+  },
+  {
+    id: 579,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Gig: Going-away Party",
+    location: "Santo Domingo – Rancho Coronado",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Santo Domingo: Extract a defecting 6th Street member before payback lands.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
+  },
+  {
+    id: 580,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Gig: Bring Me the Head of Gustavo Orta",
+    location: "Santo Domingo – Arroyo",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Santo Domingo: Capture or kill a slippery target for fixer Dino Dinovic.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
+  },
+  {
+    id: 581,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Gig: Many Ways to Skin a Cat",
+    location: "Santo Domingo – Arroyo",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in Santo Domingo: Recover stolen corporate data from an industrial site.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
+  },
+  {
+    id: 582,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Gig: The Lord Giveth and Taketh Away",
+    location: "City Center – Downtown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fixer payout, street cred, gear",
+    summary:
+      "A fixer gig in City Center: Retrieve compromising evidence from a corpo penthouse.",
+    aiTip:
+      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
+  },
+  {
+    id: 583,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – You Know My Name",
+    location: "Dogtown",
+    length: "medium",
+    difficulty: "High",
+    reward: "Reed/Alex intel, Dogtown deepens",
+    summary:
+      "V and Solomon Reed work a Dogtown lead through the enigmatic netrunner Songbird.",
+    aiTip:
+      "Dialogue choices here nudge the branching Phantom Liberty ending — play consistent.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
+  },
+  {
+    id: 584,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Get It Together",
+    location: "Dogtown",
+    length: "long",
+    difficulty: "High",
+    reward: "Songbird cure plan advances",
+    summary:
+      "Assemble the crew and gear for the plan to save Songbird as Barghest closes in.",
+    aiTip:
+      "Prep loadouts — this leads into some of the DLC's toughest fights.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
+  },
+  {
+    id: 585,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Birds with Broken Wings",
+    location: "Dogtown",
+    length: "long",
+    difficulty: "High",
+    reward: "Major branch point, Reed vs Songbird",
+    summary:
+      "A tense operation forces V to weigh loyalty to Reed against sympathy for Songbird.",
+    aiTip:
+      "This is the pivotal choice that steers you toward one of the two endings.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
+  },
+  {
+    id: 586,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty Gig: Spy in the Jungle",
+    location: "Dogtown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mr. Hands payout, Dogtown rep",
+    summary:
+      "Mr. Hands sends V to surveil and handle a target hiding in Dogtown's overgrowth.",
+    aiTip:
+      "Bring optical camo or netrunner tools — stealth is the intended route.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
+  },
+  {
+    id: 587,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty Gig: Waiting for Dodger",
+    location: "Dogtown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mr. Hands payout, gear",
+    summary:
+      "Navigate Dogtown's power games to deal with the gang boss Dodger's people.",
+    aiTip:
+      "Read the situation before shooting — some Dogtown targets are better turned than killed.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
+  },
+  {
+    id: 588,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty Gig: Prototype in the Scraper",
+    location: "Dogtown",
+    length: "short",
+    difficulty: "High",
+    reward: "Rare Militech prototype, payout",
+    summary:
+      "Infiltrate a Dogtown high-rise to secure a stolen Militech prototype.",
+    aiTip:
+      "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
   }
 ];
