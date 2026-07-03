@@ -1746,21 +1746,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Berserker%20Gravestone%20Battles%20walkthrough"
   },
   {
-    id: 96,
-    type: "side",
-    game: "Persona 5 Royal",
-    title: "Maruki's Confidant (Councillor)",
-    location: "Shujin Academy",
-    length: "long",
-    difficulty: "Low",
-    reward: "Third semester access, true ending, unique Personas",
-    summary:
-      "Build your relationship with Dr. Takuto Maruki, the new school counselor. His Confidant is the single most important side activity in Royal — reaching Rank 9 before November unlocks the entire third semester and true ending.",
-    aiTip:
-      "This is NON-NEGOTIABLE for the true ending. Prioritize Maruki above all other Confidants. You must reach Rank 9 by November 17th or you miss the best content in the game.",
-    video: "https://www.youtube.com/watch?v=_Hqs6ztq29s"
-  },
-  {
     id: 97,
     type: "side",
     game: "Persona 5 Royal",
@@ -1789,21 +1774,6 @@ const quests = [
     aiTip:
       "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win.",
     video: "https://www.youtube.com/watch?v=bhECGheHrKc"
-  },
-  {
-    id: 99,
-    type: "side",
-    game: "Persona 5 Royal",
-    title: "Yoshizawa's Confidant (Faith)",
-    location: "Kichijoji / Various",
-    length: "long",
-    difficulty: "Low",
-    reward: "Kasumi's true awakening, powerful party member",
-    summary:
-      "Follow gymnast Kasumi Yoshizawa's story through her struggles with identity, loss, and self-worth. Her Confidant unfolds slowly but delivers one of Royal's biggest emotional and narrative surprises.",
-    aiTip:
-      "Her Confidant auto-progresses through story events until the third semester. Focus on the choices that show genuine support rather than empty encouragement.",
-    video: "https://www.youtube.com/watch?v=c_zQVGlTO-4"
   },
   {
     id: 100,
@@ -2905,21 +2875,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
   },
   {
-    id: 169,
-    type: "side",
-    game: "Persona 5 Royal",
-    title: "Sojiro's Confidant (Hierophant)",
-    location: "Café Leblanc",
-    length: "long",
-    difficulty: "Low",
-    reward: "Coffee and Curry crafting, SP recovery items",
-    summary:
-      "Build a relationship with Sojiro Sakura, Joker's guardian and the owner of Café Leblanc. His Confidant involves uncovering a painful secret about his past, and completing it teaches Joker to brew SP-restoring coffee and curry.",
-    aiTip:
-      "Sojiro's coffee and curry are among the best SP recovery items in the game — craft them regularly. His Confidant maxes out relatively quickly if you interact at the café frequently.",
-    video: "https://www.youtube.com/watch?v=AcnGlLoSd0Y"
-  },
-  {
     id: 170,
     type: "side",
     game: "Persona 5 Royal",
@@ -2933,36 +2888,6 @@ const quests = [
     aiTip:
       "The Shadow is weak to Ice and Nuke. Bring Ann for Freeze technical combos and Ryuji for Nuke technical chains — the combination destroys it quickly.",
     video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
-  },
-  {
-    id: 171,
-    type: "side",
-    game: "Persona 5 Royal",
-    title: "Iwai's Confidant (Hanged Man)",
-    location: "Untouchable, Shibuya",
-    length: "long",
-    difficulty: "Low",
-    reward: "Airsoft gun customisation, unique accessories",
-    summary:
-      "Help the mysterious airsoft shop owner Munehisa Iwai navigate yakuza entanglements threatening his family. His Confidant unlocks the ability to customise Phantom Thief equipment beyond standard upgrades.",
-    aiTip:
-      "Iwai's equipment customisation options include powerful attachments not available through standard shops. Raise his Confidant to at least Rank 7 before the late-game for the best customisation options.",
-    video: "https://www.youtube.com/watch?v=St2qV3aXJIk"
-  },
-  {
-    id: 172,
-    type: "side",
-    game: "Persona 5 Royal",
-    title: "Ohya's Confidant (Devil)",
-    location: "Crossroads Bar, Shinjuku",
-    length: "long",
-    difficulty: "Low",
-    reward: "Palace security reduction, investigation suppression",
-    summary:
-      "Help reporter Ichiko Ohya find the truth about a conspiracy tied to the Phantom Thieves' activities. Her Confidant ability reduces Palace security level increases when Joker is spotted — a powerful quality-of-life upgrade for stealth play.",
-    aiTip:
-      "Ohya's security suppression ability is especially valuable in the later Palaces where being spotted triggers powerful Shadow reinforcements. Level her up before tackling Shido's Palace.",
-    video: "https://www.youtube.com/watch?v=e3kNa_G8_yQ"
   },
   {
     id: 173,
