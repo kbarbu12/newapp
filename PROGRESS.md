@@ -1,7 +1,7 @@
 # RPG Quest Guide — Progress & Roadmap
 
 **Last updated:** 2026-07-03
-**Branch:** `claude/mobile-app-strategy-1bb77n`
+**Branch:** `claude/security-hardening`
 **Live site:** https://kbarbu12.github.io/newapp/
 
 ---
@@ -96,6 +96,30 @@ Legend: ✅ full coverage pass complete · 🟡 solid but not yet audited agains
     errors from PWA code. *(Rationale for PWA over native apps captured in the branch
     discussion — a content browser doesn't justify two native codebases or store fees.)*
 
+### Security hardening
+Threat model is narrow — a static, read-only site with no backend, login, database, or PII,
+so server-side classes (SQLi, auth bypass, RCE, data breach) don't apply. The real surface is
+client-side injection and abuse of the one outbound call (the feedback form). Done this pass:
+- **Fixed a chatbot DOM-XSS (`src/chatbot.js`).** User input was rendered via `innerHTML`
+  unescaped, so typed markup would execute (self-XSS, client-only). User messages now go
+  through a new `escapeHtml()` helper and render as inert text.
+- **Added a Content-Security-Policy** (`<meta http-equiv>`, since GitHub Pages can't set
+  headers). Strict `script-src 'self'` + a **sha256 hash** of the inline JSON-LD block (no
+  `'unsafe-inline'` for scripts); `style-src` allows `'unsafe-inline'` because the markup uses
+  inline `style` attributes and `pwa.js` injects a `<style>`. Allowlists exactly what the site
+  uses: Google Fonts, `api.web3forms.com`, and the Unsplash hero image. **If the JSON-LD is
+  edited, recompute its hash or the block is blocked.**
+- **Fixed reverse-tabnabbing** — the chatbot's `target="_blank"` walkthrough link was missing
+  `rel="noopener noreferrer"` (`app.js` already had it).
+- **Form-spam honeypot: already present** — `feedback.js` + the hidden `#fbBotcheck` field
+  (`index.html`) already implement it; no change needed.
+- Verified end-to-end in a headless browser: **0 CSP violations**, JSON-LD hash accepted, app
+  scripts run under the strict policy, the XSS payload renders as escaped text (no `alert`, no
+  global set), SW still registers.
+- Deferred to backlog (by decision): escape **all** interpolated *data* fields via a shared
+  helper (#3), and self-hosting the Unsplash hero image. Not achievable on Pages: a real
+  `frame-ancestors`/`X-Frame-Options` clickjacking header (needs server headers).
+
 ### Completeness audit — where each game stands
 "Complete" here means all **named quests** (main story, side quests, and named repeatable
 contracts like gigs/favours/tales), **not** every collectible or filler activity.
@@ -150,6 +174,19 @@ correct, current walkthrough for that exact quest. **If YouTube access were enab
 could be upgraded to single hand-verified videos.**
 
 ### Backlog / optional
+- [ ] **Central `escapeHtml()` for all interpolated data fields (security hardening #3).**
+      Quest fields (`title`, `summary`, `aiTip`, `video` URL, etc.) are injected via
+      `innerHTML` in ~10 sites across `src/app.js` and `src/chatbot.js` without escaping.
+      Today the data in `data/quests.js` is authored/trusted, so this is not exploitable —
+      but it means the data file is the security boundary. If any field ever comes from an
+      external source (CMS, API, user submissions), these become stored-XSS sinks. Fix:
+      route every interpolated data field through a shared `escapeHtml()` helper (the one now
+      in `chatbot.js` can be lifted to a small shared util). Deferred by decision — do it
+      before wiring any external/user-sourced quest data. *(The strict `script-src` CSP added
+      in this pass is the interim mitigation.)*
+- [ ] **Self-host the hero background image (optional).** The hero pulls a background from
+      `images.unsplash.com` (now allowlisted in the CSP `img-src`). Self-hosting it would drop
+      an external dependency + third-party request and let `img-src` tighten to `'self'`.
 - [ ] **Card artwork rework (deferred — optional).** The covers are portrait 3:4 box-art shown
       in a landscape strip, so cards have empty gradient bars on the sides. A mockup of 5
       options was built and reviewed (see below). Decision: **keep as an optional future
