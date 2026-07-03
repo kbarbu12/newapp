@@ -65,9 +65,11 @@
     difficulty: "all",
     length: "all",
     video: "all",
-    sub: "all",
+    subs: {},
   };
-  var subField = null;
+  // Active per-game sub-filter configs (a game may expose more than one axis,
+  // e.g. Hogwarts Legacy shows both Region and Category).
+  var subConfigs = [];
 
   // ── Game list (ordered as in gameImages) ─────────────────────────────────
   var games = Object.keys(gameImages);
@@ -131,7 +133,7 @@
 
   function selectGame(game) {
     state.game = state.game === game ? "all" : game;
-    state.sub = "all";
+    state.subs = {};
     galleryShowAll.style.display = state.game === "all" ? "none" : "";
     buildGallery();
     updateSubFilter();
@@ -139,34 +141,47 @@
     renderQuests();
   }
 
-  // ── Sub-filter (per-game act/region/chapter) as pills ────────────────────
+  // ── Sub-filter(s) (per-game act/region/chapter/category) as pills ─────────
+  // A game's config may be a single axis or an array of axes; each renders as
+  // its own labelled pill row and filters independently (AND-combined).
   function updateSubFilter() {
-    var config = state.game !== "all" ? subFilterConfig[state.game] : null;
-    if (!config) {
-      subField = null;
-      state.sub = "all";
+    var raw = state.game !== "all" ? subFilterConfig[state.game] : null;
+    var configs = raw ? (Array.isArray(raw) ? raw : [raw]) : null;
+    if (!configs || !configs.length) {
+      subConfigs = [];
+      state.subs = {};
       subFilterRow.style.display = "none";
       subFilterRow.innerHTML = "";
       subDivider.style.display = "none";
       return;
     }
-    subField = config.field;
-    var pills = '<button type="button" class="filter-pill active" data-value="all">All</button>';
-    config.options.forEach(function (opt) {
-      pills += '<button type="button" class="filter-pill" data-value="' + opt.value + '">' +
-        opt.text + "</button>";
+    subConfigs = configs;
+    state.subs = {};
+    var html = "";
+    configs.forEach(function (config) {
+      state.subs[config.field] = "all";
+      var pills = '<button type="button" class="filter-pill active" data-value="all">All</button>';
+      config.options.forEach(function (opt) {
+        pills += '<button type="button" class="filter-pill" data-value="' + opt.value + '">' +
+          opt.text + "</button>";
+      });
+      html +=
+        '<div class="filter-row sub-filter-block" data-sub-field="' + config.field + '">' +
+        '<span class="filter-label">' + config.label + "</span>" +
+        '<div class="pill-group">' + pills + "</div></div>";
     });
-    subFilterRow.innerHTML =
-      '<span class="filter-label">' + config.label + "</span>" +
-      '<div class="pill-group">' + pills + "</div>";
+    subFilterRow.innerHTML = html;
     subFilterRow.style.display = "";
     subDivider.style.display = "";
 
-    subFilterRow.querySelectorAll(".filter-pill").forEach(function (pill) {
-      pill.addEventListener("click", function () {
-        setActivePill(subFilterRow, pill);
-        state.sub = pill.getAttribute("data-value");
-        renderQuests();
+    subFilterRow.querySelectorAll(".sub-filter-block").forEach(function (block) {
+      var field = block.getAttribute("data-sub-field");
+      block.querySelectorAll(".filter-pill").forEach(function (pill) {
+        pill.addEventListener("click", function () {
+          setActivePill(block, pill);
+          state.subs[field] = pill.getAttribute("data-value");
+          renderQuests();
+        });
       });
     });
   }
@@ -190,7 +205,11 @@
       if (state.difficulty !== "all" && q.difficulty !== state.difficulty) return false;
       if (state.length !== "all" && q.length !== state.length) return false;
       if (state.video === "video" && !q.video) return false;
-      if (subField && state.sub !== "all" && String(q[subField]) !== state.sub) return false;
+      for (var s = 0; s < subConfigs.length; s++) {
+        var field = subConfigs[s].field;
+        var val = state.subs[field];
+        if (val && val !== "all" && String(q[field]) !== val) return false;
+      }
       if (term && !questMatchesSearch(q, term)) return false;
       return true;
     });
@@ -284,8 +303,8 @@
   }
 
   function resetFilters() {
-    state = { game: "all", type: "all", difficulty: "all", length: "all", video: "all", sub: "all" };
-    subField = null;
+    state = { game: "all", type: "all", difficulty: "all", length: "all", video: "all", subs: {} };
+    subConfigs = [];
     searchInput.value = "";
     document.querySelectorAll(".filter-bar .filter-row").forEach(function (row) {
       var pills = row.querySelectorAll(".filter-pill");

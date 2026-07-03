@@ -185,17 +185,29 @@ const subFilterConfig = {
       { value: "Iki Island", text: "Iki Island (DLC)" }
     ]
   },
-  "Hogwarts Legacy": {
-    field: "category",
-    label: "Category",
-    options: [
-      { value: "Main Story", text: "Main Story" },
-      { value: "Side Quest", text: "Side Quests" },
-      { value: "Relationship", text: "Relationship" },
-      { value: "Assignment", text: "Assignments" },
-      { value: "Challenges", text: "Challenges" }
-    ]
-  },
+  "Hogwarts Legacy": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Main Story", text: "Main Story" },
+        { value: "Side Quest", text: "Side Quests" },
+        { value: "Relationship", text: "Relationship" },
+        { value: "Assignment", text: "Assignments" },
+        { value: "Challenges", text: "Challenges" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Region",
+      options: [
+        { value: "Hogwarts", text: "Hogwarts Castle" },
+        { value: "Hogsmeade", text: "Hogsmeade" },
+        { value: "Highlands", text: "Highlands" },
+        { value: "Feldcroft", text: "Feldcroft Region" }
+      ]
+    }
+  ],
   "Metaphor: ReFantazio": {
     field: "region",
     label: "Region",
@@ -1674,20 +1686,20 @@ const quests = [
   },
   {
     id: 91,
-    type: "main",
+    type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "Natty's Questline (The High Keep)",
-    location: "Feldcroft Region / Falbarton Castle",
-    length: "long",
-    difficulty: "High",
-    reward: "Natsai Onai companion progression, powerful gear",
+    title: "Mum's the Word (Natty)",
+    location: "Lower Hogsfield / Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Natsai Onai relationship progression",
     summary:
-      "Help Natsai Onai investigate Harlow's criminal operations and ultimately assault Falbarton Castle. The questline explores themes of justice, revenge, and the limits of doing what's right.",
+      "Open Natsai Onai's companion questline by helping her and her mother settle into the Dyrwood — and dig into the Ashwinder trouble stirring nearby.",
     aiTip:
-      "The castle assault is one of the harder combat encounters — stock up on potions and upgrade your combat plants. Use the environment for cover during the courtyard fight.",
-    video: "https://www.youtube.com/watch?v=oxCQJy9qGw0"
+      "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Mum's%20the%20Word%20Natty%20walkthrough"
   },
   {
     id: 92,
@@ -2557,16 +2569,16 @@ const quests = [
     category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "Poppy's Questline (The Plight of the House-Elf)",
-    location: "Feldcroft / Clagmar Coast",
-    length: "long",
-    difficulty: "High",
-    reward: "Poppy Sweeting companion quest resolution, dragon lore",
+    title: "Poached Egg (Poppy)",
+    location: "Hogsmeade / Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Poppy Sweeting relationship progression",
     summary:
-      "Help Poppy Sweeting expose and confront the poacher ring exploiting magical creatures. The questline culminates in an encounter with a massive dragon and reveals the full extent of Rookwood's illegal operations.",
+      "Begin Poppy Sweeting's companion questline by helping her rescue a poached beast egg and return it safely to its mother.",
     aiTip:
-      "Stock up on high-level potions before the final encounter. The dragon sequence is one of the most visually spectacular moments in the game — enjoy it but stay mobile.",
-    video: "https://www.youtube.com/watch?v=9qAEXqMhnGQ"
+      "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Poached%20Egg%20Poppy%20walkthrough"
   },
   {
     id: 149,
@@ -8238,16 +8250,16 @@ const quests = [
     category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "Poppy's Restful Retreat (Poppy)",
+    title: "Surprise Meeting (Poppy)",
     location: "Hogwarts Highlands",
     length: "medium",
     difficulty: "Medium",
-    reward: "Poppy relationship, beast sanctuary",
+    reward: "Poppy relationship progression",
     summary:
-      "Support the gentle Poppy Sweeting as she protects magical beasts from ruthless poachers.",
+      "Meet Poppy Sweeting for a planned outing that takes an unexpected turn, deepening your friendship as her questline continues.",
     aiTip:
-      "Her arc unlocks beast-focused rewards and the game's most heartfelt friendship.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Poppy's%20Restful%20Retreat%20(Poppy)%20walkthrough"
+      "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Surprise%20Meeting%20Poppy%20walkthrough"
   },
   {
     id: 505,
@@ -8255,16 +8267,16 @@ const quests = [
     category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "The Trials of Amit (Amit)",
+    title: "It's All Gobbledegook (Amit)",
     location: "Astronomy Wing",
     length: "short",
     difficulty: "Low",
-    reward: "Astronomy tables, star lore",
+    reward: "Amit Thakkar relationship, star lore",
     summary:
-      "Explore the night sky with the bookish Amit Thakkar to complete a set of astronomy trials.",
+      "Join the bookish Amit Thakkar to decode a goblin manuscript and share a stargazing outing — his companion questline.",
     aiTip:
-      "Amit's stargazing unlocks Astronomy Table locations — handy for gear appearances.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Trials%20of%20Amit%20(Amit)%20walkthrough"
+      "Amit's stargazing dates unlock Astronomy Table locations, handy for gear appearances.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20All%20Gobbledegook%20Amit%20walkthrough"
   },
   {
     id: 506,
@@ -11621,23 +11633,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Crossed%20Wands%20%26%20Summoner's%20Court%20walkthrough"
   },
   {
-    id: 715,
-    type: "side",
-    category: "Assignment",
-    game: "Hogwarts Legacy",
-    region: "Hogwarts",
-    title: "Class Assignments (Professors)",
-    location: "Hogwarts",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Advanced spells & talents",
-    summary:
-      "Complete each professor's assignment to unlock advanced spells and talent points.",
-    aiTip:
-      "These gate key spells like Depulso and Incendio — prioritize them early.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Class%20Assignments%20(Professors)%20walkthrough"
-  },
-  {
     id: 716,
     type: "side",
     category: "Side Quest",
@@ -13702,5 +13697,532 @@ const quests = [
     aiTip:
       "Late-game difficulty — max your spells, gourd, and transformations before the finale.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
+  },
+  {
+    id: 845,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Herbology Assignment I — Professor Garlick",
+    location: "Herbology Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Ancient Magic, spell knowledge",
+    summary:
+      "Grow and harvest a Mandrake, then use it against enemies as Professor Garlick asks.",
+    aiTip:
+      "Buy a Mandrake seed from the Magic Neep in Hogsmeade if you don't have one.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20I%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+  },
+  {
+    id: 846,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Herbology Assignment II — Professor Garlick",
+    location: "Herbology Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Chinese Chomping Cabbage combat",
+    summary:
+      "Prove your mastery of offensive plants by defeating foes with Chomping Cabbages.",
+    aiTip:
+      "Equip the Chomping Cabbage to your plant slot and throw it into groups.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20II%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+  },
+  {
+    id: 847,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Defence Against the Dark Arts Assignment I — Professor Hecat",
+    location: "DADA Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Levioso mastery",
+    summary:
+      "Hit enemies with Levioso, then combo them in the air as Hecat instructs.",
+    aiTip:
+      "Levioso first, then basic-cast while they float to chain the requirement.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20I%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+  },
+  {
+    id: 848,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Defence Against the Dark Arts Assignment II — Professor Hecat",
+    location: "DADA Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Stupefy counter mastery",
+    summary:
+      "Stun enemies with Stupefy after blocking their attacks.",
+    aiTip:
+      "Protego to block, then immediately Stupefy the staggered enemy.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20II%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+  },
+  {
+    id: 849,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Potions Assignment I — Professor Sharp",
+    location: "Potions Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Edurus / potion knowledge",
+    summary:
+      "Brew and use a required potion in combat for Professor Sharp.",
+    aiTip:
+      "Brew ahead at a Potion Station and keep one equipped before reporting back.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20I%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+  },
+  {
+    id: 850,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Potions Assignment II — Professor Sharp",
+    location: "Potions Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Thunderbrew / Invisibility potion use",
+    summary:
+      "Demonstrate advanced potion use against tougher enemies.",
+    aiTip:
+      "Thunderbrew clears crowds fast and satisfies the combat requirement.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20II%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+  },
+  {
+    id: 851,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Beasts Assignment — Professor Howin",
+    location: "Beasts Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Nab-Sack & feeding know-how",
+    summary:
+      "Capture a beast with the Nab-Sack and care for it in the Room of Requirement.",
+    aiTip:
+      "Complete 'The Elf, the Nab-Sack, and the Loom' first to unlock the Nab-Sack.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Assignment%20%E2%80%94%20Professor%20Howin%20walkthrough"
+  },
+  {
+    id: 852,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Charms Assignment — Professor Ronen",
+    location: "Charms Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Accio / Charms knowledge",
+    summary:
+      "Use taught charms to solve Ronen's practical challenge.",
+    aiTip:
+      "Accio and Wingardium Leviosa cover most of Ronen's requests.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Assignment%20%E2%80%94%20Professor%20Ronen%20walkthrough"
+  },
+  {
+    id: 853,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Transfiguration Assignment — Professor Weasley",
+    location: "Transfiguration Courtyard",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Transformation spell knowledge",
+    summary:
+      "Use Transformation on objects and enemies as Professor Weasley directs.",
+    aiTip:
+      "Unlock Transformation from Weasley's earlier class before attempting.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Transfiguration%20Assignment%20%E2%80%94%20Professor%20Weasley%20walkthrough"
+  },
+  {
+    id: 854,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Divination Assignment — Professor Onai",
+    location: "Divination Classroom",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Insight into the future",
+    summary:
+      "Complete Professor Onai's divination-themed task around the castle.",
+    aiTip:
+      "Follow the marked locations; no combat pressure here.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Divination%20Assignment%20%E2%80%94%20Professor%20Onai%20walkthrough"
+  },
+  {
+    id: 855,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Flying Assignment I — Madam Kogawa",
+    location: "Broom flight / Hogwarts grounds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Broom control practice",
+    summary:
+      "Complete Madam Kogawa's first timed broom-flying course.",
+    aiTip:
+      "Buy a broom from Spintwitches in Hogsmeade first; boost through every ring.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20I%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+  },
+  {
+    id: 856,
+    type: "side",
+    category: "Assignment",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Flying Assignment II — Madam Kogawa",
+    location: "Broom flight / Highlands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Advanced broom handling",
+    summary:
+      "Beat Kogawa's tougher second flying course against the clock.",
+    aiTip:
+      "Chain speed boosts and cut corners tight to beat the timer.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20II%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+  },
+  {
+    id: 857,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Welcome to Hogsmeade",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Access to Hogsmeade shops",
+    summary:
+      "Travel to Hogsmeade with Sebastian and help fend off a troll attacking the village.",
+    aiTip:
+      "Use nearby barrels and Accio to hurl objects at the troll's back.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogsmeade%20walkthrough"
+  },
+  {
+    id: 858,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Weasley After Class",
+    location: "Headmaster's Office / Hogwarts",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "Meet Professor Weasley after class to discuss your unusual gift for ancient magic.",
+    aiTip:
+      "Purely narrative — talk through the dialogue to open the next classes.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Weasley%20After%20Class%20walkthrough"
+  },
+  {
+    id: 859,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Tomes and Tribulations",
+    location: "Hogsmeade / Library Annex",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spellcraft, first field trip",
+    summary:
+      "Shop for school supplies with Sebastian and learn spells at the shady Tomes and Scrolls annex.",
+    aiTip:
+      "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tomes%20and%20Tribulations%20walkthrough"
+  },
+  {
+    id: 860,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Herbology Class",
+    location: "Herbology Classroom / Greenhouses",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mandrake, plant combat",
+    summary:
+      "Attend Professor Garlick's Herbology class and learn to wield combat plants.",
+    aiTip:
+      "Unlocks the Herbology assignments and plant loadouts.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Class%20walkthrough"
+  },
+  {
+    id: 861,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Trials of Merlin",
+    location: "Highlands",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Wand handle, Merlin Trial system",
+    summary:
+      "Meet Nora Treadwell and reawaken the ancient Merlin Trials scattered across the Highlands.",
+    aiTip:
+      "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trials%20of%20Merlin%20walkthrough"
+  },
+  {
+    id: 862,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Room of Requirement",
+    location: "Room of Requirement",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Room of Requirement, Conjuration",
+    summary:
+      "Deek the house-elf reveals the Room of Requirement — your personal magical workshop and vivarium hub.",
+    aiTip:
+      "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20walkthrough"
+  },
+  {
+    id: 863,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Beasts Class",
+    location: "Beasts Classroom",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Nab-Sack intro",
+    summary:
+      "Attend Professor Howin's Beasts class and learn the basics of magical creature care.",
+    aiTip:
+      "Leads into unlocking the Nab-Sack and the beast vivariums.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Class%20walkthrough"
+  },
+  {
+    id: 864,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Caretaker's Lunar Lament",
+    location: "Hogwarts Castle",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Demiguise Statues, unlocks Alohomora",
+    summary:
+      "Help caretaker Gladwin Moon recover Demiguise Statues to learn and upgrade Alohomora.",
+    aiTip:
+      "Demiguise Statues only appear at night — use the wait function to change time.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Caretaker's%20Lunar%20Lament%20walkthrough"
+  },
+  {
+    id: 865,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of the Estate",
+    location: "Feldcroft Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian arc, Feldcroft access",
+    summary:
+      "Join Sebastian and Ominis at the Gaunt family estate to seek a cure for Anne's curse.",
+    aiTip:
+      "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Estate%20walkthrough"
+  },
+  {
+    id: 866,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Astronomy Class",
+    location: "Astronomy Tower",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Astronomy Tables, star charts",
+    summary:
+      "Attend Astronomy class and learn to read the star tables dotted around the map.",
+    aiTip:
+      "Unlocks the Astronomy Table pairs that grant collection rewards.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Astronomy%20Class%20walkthrough"
+  },
+  {
+    id: 867,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Back on the Path",
+    location: "Highlands",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "After a detour, rejoin Professor Fig and pick the main investigation back up.",
+    aiTip:
+      "A connective story beat — pursue it to reopen the trial questline.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Back%20on%20the%20Path%20walkthrough"
+  },
+  {
+    id: 868,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "In the Shadow of Revelation",
+    location: "Highlands / Map Chamber",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Isidora's memory, endgame setup",
+    summary:
+      "Follow the aftermath of the Final Repository as Isidora Morganach's secret is fully revealed.",
+    aiTip:
+      "Flows straight out of 'The Final Repository' — save loadouts before you commit to the finale.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Revelation%20walkthrough"
+  },
+  {
+    id: 869,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Poacher's House Call (Poppy)",
+    location: "Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Poppy relationship",
+    summary:
+      "Help Poppy Sweeting confront poachers who have tracked her down over her rescued beasts.",
+    aiTip:
+      "Bring crowd-control spells — the poacher camp comes at you in numbers.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Poacher's%20House%20Call%20(Poppy)%20walkthrough"
+  },
+  {
+    id: 870,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Centaur and the Stone (Poppy)",
+    location: "Highlands / Centaur Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Poppy relationship",
+    summary:
+      "Accompany Poppy to the centaur camp to recover a stolen moonstone and earn the herd's trust.",
+    aiTip:
+      "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Centaur%20and%20the%20Stone%20(Poppy)%20walkthrough"
+  },
+  {
+    id: 871,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "It's in the Stars (Poppy)",
+    location: "Highlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Poppy relationship, finale",
+    summary:
+      "Share a quiet, starlit outing with Poppy that closes her companion questline.",
+    aiTip:
+      "The capstone of Poppy's arc — do it after her earlier beast quests.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20in%20the%20Stars%20(Poppy)%20walkthrough"
+  },
+  {
+    id: 872,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "A Basis for Blackmail (Natty)",
+    location: "Highlands / Lower Hogsfield",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Natty relationship",
+    summary:
+      "Help Natsai Onai dig up leverage on the Ashwinder-aligned townsfolk troubling her mother.",
+    aiTip:
+      "Stealth with Disillusionment to gather evidence without a fight.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Basis%20for%20Blackmail%20(Natty)%20walkthrough"
+  },
+  {
+    id: 873,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Discovery (Sebastian)",
+    location: "Feldcroft / Catacombs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship",
+    summary:
+      "Descend into a catacomb with Sebastian as he chases a forbidden cure for his sister.",
+    aiTip:
+      "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Discovery%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 874,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Distance (Sebastian)",
+    location: "Feldcroft Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship",
+    summary:
+      "Sebastian's pursuit of dark knowledge starts to strain his bond with Ominis and with you.",
+    aiTip:
+      "Your choices here steer whether Sebastian embraces the Dark Arts.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Distance%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 875,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Fate (Sebastian)",
+    location: "Feldcroft / Catacombs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship, major choice",
+    summary:
+      "Reach the wrenching climax of Sebastian's story and decide how far you'll follow him.",
+    aiTip:
+      "A defining, irreversible choice — read every line before you answer.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Fate%20(Sebastian)%20walkthrough"
   }
 ];
