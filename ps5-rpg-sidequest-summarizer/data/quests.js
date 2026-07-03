@@ -4041,5 +4041,1564 @@ const quests = [
     aiTip:
       "Use blunt weapons or short-circuit quickhacks to keep them alive; read each victim's shard afterward. Several only spawn after certain story progress.",
     video: "https://www.youtube.com/watch?v=nYIw1huUd4Q"
+  },
+  {
+    id: 254,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "The Pickup",
+    location: "Watson – Northside",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Flathead combat drone, Maelstrom or Militech alliance",
+    summary:
+      "V and Jackie's first real gig: acquire a militarized Flathead bot from the Maelstrom gang. Handle the deal with Militech agent Meredith Stout and the volatile Royce however you like — bullets, credchips, or silver tongue.",
+    aiTip:
+      "Scanning the malware-laced credchip lets you disarm it and keep Meredith on-side. A peaceful Maelstrom deal preserves a fixer relationship you'll appreciate later.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
+  },
+  {
+    id: 255,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "The Information",
+    location: "Watson – Little China",
+    length: "short",
+    difficulty: "Low",
+    reward: "Braindance training, Evelyn Parker contact",
+    summary:
+      "V meets Evelyn Parker and Dexter DeShawn to plan the Konpeki Plaza heist, learning the braindance editor by scrubbing through a recorded infiltration.",
+    aiTip:
+      "Take your time in the braindance editor scrubbing visual, thermal, and audio layers — the same skill returns in several later missions.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
+  },
+  {
+    id: 256,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Playing for Time",
+    location: "Watson – Megabuilding H10",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Johnny Silverhand engram, Ripperdoc Vik path",
+    summary:
+      "Waking up after the heist with a dead man's engram in your head, V hunts for a way to survive while Johnny Silverhand starts talking back.",
+    aiTip:
+      "Sell Johnny's iconic gear only if you must — the Malorian Arms 3516 and Samurai jacket are worth holding onto for the story payoff.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
+  },
+  {
+    id: 257,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Automatic Love",
+    location: "Westbrook – Japantown",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Clouds access, Skye/Angel braindance lead",
+    summary:
+      "The trail to Evelyn leads to Clouds, an elite dollhouse in Japantown. Book a doll, follow the leads, and uncover what happened after the heist went wrong.",
+    aiTip:
+      "Either doll (Skye or Angel) works — you're really there for the conversation, so pick whoever you're comfortable talking to and stay alert leaving Clouds.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
+  },
+  {
+    id: 258,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Disasterpiece",
+    location: "Westbrook – Japantown",
+    length: "long",
+    difficulty: "High",
+    reward: "Judy alliance, XBD workshop cleared",
+    summary:
+      "V and Judy raid a Scav den to find Evelyn, wading through the worst of Night City's illegal braindance trade in the process.",
+    aiTip:
+      "Bring anti-Scav loadout and armor — the warehouse is a tough gauntlet. Loot the XBD lab thoroughly for eddies and crafting specs.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
+  },
+  {
+    id: 259,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "I Walk the Line",
+    location: "Pacifica – Coastview",
+    length: "long",
+    difficulty: "High",
+    reward: "Voodoo Boys deal, NetWatch choice",
+    summary:
+      "The Voodoo Boys will only help with Johnny if V dives into the deep net for them — but NetWatch has other plans in the drowned GIM mall.",
+    aiTip:
+      "Siding with NetWatch or the Voodoo Boys changes who turns hostile immediately; the NetWatch route keeps Alt Cunningham's help intact for the finale.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
+  },
+  {
+    id: 260,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Search and Destroy",
+    location: "Watson – Arasaka Waterfront",
+    length: "long",
+    difficulty: "High",
+    reward: "Takemura rescued, Oda confrontation",
+    summary:
+      "Goro Takemura calls in a favor: storm an Arasaka safehouse to rescue him and interrogate Hanako's captor before the parade.",
+    aiTip:
+      "Save Takemura by clearing the room fast — his survival unlocks extra dialogue and a hidden option in the endgame.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
+  },
+  {
+    id: 261,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Play It Safe",
+    location: "Westbrook – Japantown",
+    length: "long",
+    difficulty: "High",
+    reward: "Oda defeated, Hanako intel",
+    summary:
+      "The plan to reach Hanako Arasaka runs through her bodyguard Oda and a heavily fortified Arasaka safe house during a citywide lockdown.",
+    aiTip:
+      "Non-lethal takedowns on Oda are possible and canonically 'kinder' — short-circuit and blunt weapons let you spare him.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
+  },
+  {
+    id: 262,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Never Fade Away",
+    location: "City Center – Arasaka Tower (2013)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Johnny's memories, relationship insight",
+    summary:
+      "Relive Johnny Silverhand's disastrous 2023 raid on Arasaka Tower alongside Rogue, playing as the rockerboy himself.",
+    aiTip:
+      "Explore freely as Johnny — this flashback deepens the Rogue romance/alliance options in Act 3, so soak in the dialogue.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
+  },
+  {
+    id: 263,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Nocturne Op55N1",
+    location: "City Center – Embers",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Point of no return, ending path selection",
+    summary:
+      "The final calm before the storm. V chooses how to assault Arasaka — with Rogue, Panam's Aldecaldos, alone, or by trusting Johnny with their body.",
+    aiTip:
+      "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
+  },
+  {
+    id: 264,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "The Star – Aldecaldos Ending",
+    location: "Badlands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Leave Night City with the Aldecaldos",
+    summary:
+      "V rides out of Night City with Panam and the Aldecaldos, chasing a cure beyond the corporate walls.",
+    aiTip:
+      "Requires completing Panam's questline (Queen of the Highway). Widely considered the most hopeful ending.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
+  },
+  {
+    id: 265,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "The Sun – Legendary Ending",
+    location: "City Center",
+    length: "long",
+    difficulty: "High",
+    reward: "Become a Night City legend",
+    summary:
+      "V storms Arasaka with Rogue's crew and, win or lose, cements their legend — with a shot at the stars and a deal with Mr. Blue Eyes.",
+    aiTip:
+      "Requires Rogue's side jobs. Choosing to let Johnny take over vs. going in yourself changes the epilogue significantly.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
+  },
+  {
+    id: 266,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Happy Together",
+    location: "Watson – Little China",
+    length: "short",
+    difficulty: "Low",
+    reward: "River Ward relationship start, karma",
+    summary:
+      "Detective River Ward asks V to talk his sister's coworker's brother down from suicide over a braindance addiction.",
+    aiTip:
+      "Read the room and stay calm — how you talk Barry through it determines whether he lives, and it colors River's arc.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Happy%20Together%20walkthrough"
+  },
+  {
+    id: 267,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Big in Japan",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Low",
+    reward: "Eddies, Wakako fixer favor",
+    summary:
+      "A quick smash-and-grab that goes sideways, showing off Night City's chaotic gig economy.",
+    aiTip:
+      "Watch the tone shift — this one rewards a light touch and quick exit over a firefight.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
+  },
+  {
+    id: 268,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Multiple",
+    title: "Beat on the Brat",
+    location: "Multiple districts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Boxing champion title, unique fists",
+    summary:
+      "A city-spanning boxing questline: beat the toughest brawlers in each district bare-knuckle, culminating in a fight with the Twins and Razor Hughes.",
+    aiTip:
+      "Level up Body and buy Gorilla Arms before the later bouts. Block-and-counter beats trading blows against the champions.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Beat%20on%20the%20Brat%20walkthrough"
+  },
+  {
+    id: 269,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Multiple",
+    title: "Epistrophy",
+    location: "Multiple districts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Delamain cab fleet, unique AI companion",
+    summary:
+      "Delamain's rogue autonomous cabs have scattered across the city with fractured personalities. Track and reboot each one for the beleaguered AI.",
+    aiTip:
+      "Each cab is a self-contained vignette across every district — a relaxing way to see Night City and bank easy eddies.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
+  },
+  {
+    id: 270,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Space Oddity",
+    location: "Badlands – near Sunset Motel",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Rare painting worth a fortune (with a catch)",
+    summary:
+      "A tip leads V to a mysterious dead-drop and a valuable painting — but everyone wants a cut and nothing about the deal is straight.",
+    aiTip:
+      "Sell the painting to the right buyer for a huge payout; don't accept the first lowball offer at the drop point.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
+  },
+  {
+    id: 271,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Heroes",
+    location: "Heywood – Vista del Rey",
+    length: "short",
+    difficulty: "Low",
+    reward: "Jackie's ofrenda, emotional payoff",
+    summary:
+      "Mama Welles invites V to Jackie Welles' Día de los Muertos ofrenda to say goodbye to their fallen partner.",
+    aiTip:
+      "Bring one of Jackie's belongings to the ofrenda for the fuller, more heartfelt version of the scene.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
+  },
+  {
+    id: 272,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Queen of the Highway",
+    location: "Badlands – Aldecaldos Camp",
+    length: "long",
+    difficulty: "High",
+    reward: "Basilisk tank, Panam romance/ending path",
+    summary:
+      "Panam and the Aldecaldos pull off a heist for a Militech Basilisk hovertank, cementing V's bond with the nomad family.",
+    aiTip:
+      "This unlocks the Aldecaldos (The Star) ending. Pursue Panam's romance dialogue here if you want that path.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
+  },
+  {
+    id: 273,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "With a Little Help from My Friends",
+    location: "Badlands – Aldecaldos Camp",
+    length: "short",
+    difficulty: "Low",
+    reward: "Nomad camaraderie, quiet character beat",
+    summary:
+      "A rare quiet night at the Aldecaldos camp — drinks, stories, and a campfire with Panam and the family.",
+    aiTip:
+      "A pure character moment. Sit through the conversations; it pays off emotionally in the endgame.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
+  },
+  {
+    id: 274,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Following the River",
+    location: "Santo Domingo – Rancho Coronado",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "River Ward romance, missing-kids case close",
+    summary:
+      "V and River Ward chase the last leads on a child abduction case tied to a corrupt politician, then share a moment on a water tower.",
+    aiTip:
+      "Complete this to progress River's romance (available to female-bodied V). The braindance investigation rewards careful scrubbing.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
+  },
+  {
+    id: 275,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Pisces",
+    location: "Japantown – Clouds",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Judy questline, Clouds workers' fate",
+    summary:
+      "Judy plans to take Clouds back for its workers. V helps negotiate with the Tyger Claws — a deal that can go very wrong.",
+    aiTip:
+      "Sparing Maiko vs. accepting her deal changes the outcome and Judy's mood. This gates the Judy romance path.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
+  },
+  {
+    id: 276,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Talkin' 'Bout a Revolution",
+    location: "Santo Domingo",
+    length: "short",
+    difficulty: "Low",
+    reward: "Eddies, worker-uprising vignette",
+    summary:
+      "A gig-style side job that drops V into a simmering labor dispute in the industrial districts.",
+    aiTip:
+      "A short but flavorful detour into Night City's class politics — grab the loot and the shard lore.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
+  },
+  {
+    id: 277,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "They Won't Go When I Go",
+    location: "Santo Domingo",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sinnerman arc conclusion, moral gut-punch",
+    summary:
+      "The disturbing continuation of the Sinnerman arc: V witnesses a man's chosen crucifixion recorded as a braindance.",
+    aiTip:
+      "One of the darkest, most divisive quests in the game. It has no combat — it's entirely a choice about how far you'll go.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
+  },
+  {
+    id: 278,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Monster Hunt",
+    location: "Kabuki – Watson",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina payout, rescued victim",
+    summary:
+      "Fixer Regina Jones sends V to stop a violent john who's been brutalizing joytoys in Kabuki.",
+    aiTip:
+      "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
+  },
+  {
+    id: 279,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gig: Freedom of the Press",
+    location: "Westbrook – Japantown",
+    length: "short",
+    difficulty: "Low",
+    reward: "Max Jones payout, journalist saved",
+    summary:
+      "Help investigative journalist Max Jones dodge a Militech hit squad and get his story out.",
+    aiTip:
+      "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
+  },
+  {
+    id: 280,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Gig: Family Heirloom",
+    location: "Heywood – Wellsprings",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Padre payout, recovered mnemonic device",
+    summary:
+      "Fixer Padre wants a stolen mnemonic memory device recovered from a gang stash before its owner loses everything.",
+    aiTip:
+      "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
+  },
+  {
+    id: 281,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Gig: Life's Work",
+    location: "Heywood – The Glen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Padre payout, sculptor's magnum opus",
+    summary:
+      "Recover a dying artist's final sculpture from thieves so his life's work isn't lost.",
+    aiTip:
+      "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
+  },
+  {
+    id: 282,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Westbrook",
+    title: "Gig: Serious Side Effects",
+    location: "Westbrook – Japantown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Wakako payout, stolen meds recovered",
+    summary:
+      "Wakako Okada tasks V with recovering a shipment of stolen immunosuppressant drugs from a ripperdoc gone bad.",
+    aiTip:
+      "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
+  },
+  {
+    id: 283,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Gig: Flight of the Cheetah",
+    location: "Santo Domingo – Arroyo",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dino Dinovic payout, defector extracted",
+    summary:
+      "Extract a Militech scientist and his experimental combat implant before Militech's cleaners silence him.",
+    aiTip:
+      "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
+  },
+  {
+    id: 284,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Gig: Getting Warmer...",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "High",
+    reward: "Regina payout, defused suicide bomber",
+    summary:
+      "A former Maelstromer named Brick is wired to explode. V must find and defuse the bomb before Night City loses a city block.",
+    aiTip:
+      "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
+  },
+  {
+    id: 285,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Gig: Last Login",
+    location: "Santo Domingo – Rancho Coronado",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sebastian 'Padre' payout, closure for a family",
+    summary:
+      "Recover a dead 6th Street gang member's belongings so his brother can lay him to rest.",
+    aiTip:
+      "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
+  },
+  {
+    id: 286,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Cyberpsycho Sighting: Second Chances",
+    location: "Badlands – Rocky Ridge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
+  },
+  {
+    id: 287,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Cyberpsycho Sighting: The Wasteland",
+    location: "Badlands – Jackson Plains",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Euralio Alma, a mercenary lost to combat implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
+  },
+  {
+    id: 288,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "Cyberpsycho Sighting: House on a Hill",
+    location: "Badlands – East",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
+  },
+  {
+    id: 289,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Cyberpsycho Sighting: Discount Doc",
+    location: "Santo Domingo – Rancho Coronado",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
+  },
+  {
+    id: 290,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Where the Bodies Hit the Floor",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
+  },
+  {
+    id: 291,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Bloody Ritual",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Zaria Hughes, staging grotesque ritual scenes. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
+  },
+  {
+    id: 292,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Six Feet Under",
+    location: "Watson – Northside",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
+  },
+  {
+    id: 293,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Demons of War",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
+  },
+  {
+    id: 294,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Lt. Mower",
+    location: "Watson – Kabuki",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Lieutenant Mower, ex-Militent overloaded with military ware. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
+  },
+  {
+    id: 295,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Watson",
+    title: "Cyberpsycho Sighting: Ticket to the Major Leagues",
+    location: "Watson – Little China",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
+  },
+  {
+    id: 296,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Cyberpsycho Sighting: Phantom of Night City",
+    location: "City Center – Corpo Plaza",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Norio Akuhara, a masked corporate stalker. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
+  },
+  {
+    id: 297,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "Cyberpsycho Sighting: On Deaf Ears",
+    location: "City Center – Downtown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
+  },
+  {
+    id: 298,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "Cyberpsycho Sighting: Smoke on the Water",
+    location: "Pacifica – Coastview",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Diego Ramirez, holed up by the water. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
+  },
+  {
+    id: 299,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Pacifica",
+    title: "Cyberpsycho Sighting: Lex Talionis",
+    location: "Pacifica – Coastview",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Ben Debaillon, dispensing violent 'justice'. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
+  },
+  {
+    id: 300,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Cyberpsycho Sighting: Letter of the Law",
+    location: "Heywood – Wellsprings",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: a rogue enforcer taking the law into his own hands. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
+  },
+  {
+    id: 301,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "Cyberpsycho Sighting: Seaside Cafe",
+    location: "Heywood – Wellsprings",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: a cyberpsycho who turned a cafe into a bloodbath. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
+  },
+  {
+    id: 302,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Santo Domingo",
+    title: "Cyberpsycho Sighting: Under the Bridge",
+    location: "Santo Domingo – Arroyo",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Regina reward, non-lethal bonus, victim's shard",
+    summary:
+      "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip:
+      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
+  },
+  {
+    id: 303,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Dog Eat Dog",
+    location: "Dogtown",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Songbird contact, Dogtown access",
+    summary:
+      "A mysterious netrunner, Songbird, pulls V into Dogtown to save the crashing spacecraft of NUSA President Rosalind Myers.",
+    aiTip:
+      "This opens the whole expansion. Explore Dogtown afterward — its vendors, drops, and airdrops are some of the best gear sources in the game.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
+  },
+  {
+    id: 304,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Hole in the Sky",
+    location: "Dogtown",
+    length: "medium",
+    difficulty: "High",
+    reward: "President Myers rescued, Reed intel",
+    summary:
+      "V infiltrates the crashed Space Force One to extract President Myers from Kurt Hansen's Barghest soldiers.",
+    aiTip:
+      "Stealth is viable but Barghest hit hard — a well-armored, quickhack-ready build makes the extraction smoother.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
+  },
+  {
+    id: 305,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Spider and the Fly",
+    location: "Dogtown",
+    length: "long",
+    difficulty: "High",
+    reward: "Reed alliance, deeper Dogtown conspiracy",
+    summary:
+      "Teaming with FIA agent Solomon Reed, V works a black-tie gala to expose a mole and get closer to Hansen and Songbird's true plan.",
+    aiTip:
+      "The gala rewards a subtle approach and good dialogue reads — going loud spoils the intel you're there for.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
+  },
+  {
+    id: 306,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – Lucretia My Reflection",
+    location: "Dogtown",
+    length: "long",
+    difficulty: "High",
+    reward: "Chimera boss defeated, Songbird's plan revealed",
+    summary:
+      "Chasing Songbird's promised cure, V and Reed confront the Chimera — Hansen's monstrous automated tank.",
+    aiTip:
+      "The Chimera fight punishes standing still; use cover, the environment, and status quickhacks to whittle its phases.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
+  },
+  {
+    id: 307,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty – The Killing Moon",
+    location: "Dogtown / NUSA",
+    length: "long",
+    difficulty: "High",
+    reward: "Phantom Liberty ending, Songbird's fate",
+    summary:
+      "The expansion's climax: V decides whether to hand Songbird to Reed and the NUSA or help her escape to the Moon.",
+    aiTip:
+      "This choice defines the entire Phantom Liberty ending — and one path unlocks a very different fate for V in the base game. Choose deliberately.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
+  },
+  {
+    id: 308,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty Gig: Baby Let Me Take You",
+    location: "Dogtown",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mr. Hands payout, Dogtown reputation",
+    summary:
+      "Fixer Mr. Hands sends V on a Dogtown gig navigating the district's shifting power players.",
+    aiTip:
+      "Mr. Hands' Dogtown gigs often reward a diplomatic touch — hear people out before drawing iron.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
+  },
+  {
+    id: 309,
+    type: "side",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Dogtown",
+    title: "Phantom Liberty: Black Steel in the Hour of Chaos",
+    location: "Dogtown",
+    length: "medium",
+    difficulty: "High",
+    reward: "Reed/Songbird story branch, unique rewards",
+    summary:
+      "A pivotal Phantom Liberty side operation that deepens the Reed and Songbird conflict and tests where V's loyalties lie.",
+    aiTip:
+      "Your earlier Dogtown choices echo here — play it consistent with the ending you're aiming for.",
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
+  },
+  {
+    id: 310,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 1,
+    title: "Chapter 1: Fall of a Hero",
+    location: "Nibelheim (Flashback)",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The game opens with the fateful Nibelheim flashback — Cloud and Sephiroth's mission to the reactor, and the truth Cloud has buried.",
+    aiTip:
+      "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
+  },
+  {
+    id: 311,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    chapter: 2,
+    title: "Chapter 2: A New Journey Begins",
+    location: "Kalm & the Grasslands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The party leaves Midgar behind and reaches Kalm, opening the sprawling Grasslands — Rebirth's first open region with chocobos, towers, and Odd Jobs.",
+    aiTip:
+      "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
+  },
+  {
+    id: 312,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    chapter: 3,
+    title: "Chapter 3: Deeper into Darkness",
+    location: "Mythril Mine & the road to Junon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The group cuts through the Mythril Mine, tangling with the Turks and a certain mysterious swordsman on the way to the coast.",
+    aiTip:
+      "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
+  },
+  {
+    id: 313,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 4,
+    title: "Chapter 4: Dawn of a New Era",
+    location: "Junon Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "Arrival in the Junon region: military spectacle, the coastal plains, and a fresh batch of Odd Jobs and minigames.",
+    aiTip:
+      "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
+  },
+  {
+    id: 314,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 5,
+    title: "Chapter 5: Blood in the Water",
+    location: "Junon & the Shinra transport",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The party boards Shinra transport across the sea, with tensions high and Sephiroth's shadow never far behind.",
+    aiTip:
+      "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
+  },
+  {
+    id: 315,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 6,
+    title: "Chapter 6: Fool's Paradise",
+    location: "Costa del Sol",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The resort town of Costa del Sol offers a rare beach holiday — swimwear, minigames, and the calm before the storm.",
+    aiTip:
+      "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
+  },
+  {
+    id: 316,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 7,
+    title: "Chapter 7: Those Left Behind",
+    location: "Corel Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The Corel region opens up: desert prison, dustbowl, and the shadow of Barret and Dyne's shared past.",
+    aiTip:
+      "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
+  },
+  {
+    id: 317,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 8,
+    title: "Chapter 8: All That Glitters",
+    location: "Gold Saucer & Corel",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The dazzling Gold Saucer amusement park — and the wrenching story of Dyne — collide in one of the game's biggest chapters.",
+    aiTip:
+      "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
+  },
+  {
+    id: 318,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "Chapter 9: The Planet Stirs",
+    location: "Gongaga Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The lush, mushroom-filled Gongaga jungle hides Zack's hometown, the Turks, and a reactor meltdown's legacy.",
+    aiTip:
+      "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
+  },
+  {
+    id: 319,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 10,
+    title: "Chapter 10: Watcher of the Vale",
+    location: "Cosmo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "Red XIII comes home to Cosmo Canyon, the spiritual heart of the Planet, where the party learns about the Lifestream.",
+    aiTip:
+      "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
+  },
+  {
+    id: 320,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 11,
+    title: "Chapter 11: The Long Shadow of Shinra",
+    location: "Nibel Region & Nibelheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "Return to Nibelheim in the present day, where the truth of Cloud's memories and Shinra's experiments come to a head.",
+    aiTip:
+      "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
+  },
+  {
+    id: 321,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 12,
+    title: "Chapter 12: A Golden Key",
+    location: "Gold Saucer (endgame hub)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The party regroups at the Gold Saucer for the run-up to the finale, unlocking the last wave of Odd Jobs across every region.",
+    aiTip:
+      "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
+  },
+  {
+    id: 322,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 13,
+    title: "Chapter 13: Where Angels Fear to Tread",
+    location: "Temple of the Ancients",
+    length: "long",
+    difficulty: "High",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "The Temple of the Ancients: shifting geometry, ancient guardians, and a confrontation that changes everything.",
+    aiTip:
+      "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
+  },
+  {
+    id: 323,
+    type: "main",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 14,
+    title: "Chapter 14: End of the World",
+    location: "The Forgotten Capital",
+    length: "long",
+    difficulty: "High",
+    reward: "Main story progression, new region/party abilities",
+    summary:
+      "Rebirth's climactic finale at the Forgotten Capital — the destined encounter fans have waited decades to see reinterpreted.",
+    aiTip:
+      "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
+  },
+  {
+    id: 324,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    chapter: 2,
+    title: "A Rare Card Lost",
+    location: "Grasslands – Bill's Ranch",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Queen's Blood card, Chadley intel",
+    summary:
+      "A ranch hand has lost a prized Queen's Blood card. Track it down across the Grasslands to add it to your deck.",
+    aiTip:
+      "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
+  },
+  {
+    id: 325,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 4,
+    title: "Stuck in a Rut",
+    location: "Junon – Under Junon",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Chocobo gear, region traversal boost",
+    summary:
+      "Help a rancher wrangle and calm the local chocobos so they'll cooperate with travelers.",
+    aiTip:
+      "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
+  },
+  {
+    id: 326,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 4,
+    title: "Dreaming of Blue Skies",
+    location: "Junon – Coastal Junon",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Party bond, accessory reward",
+    summary:
+      "A wistful local asks the party for help chasing a small, hopeful dream against Junon's militarized backdrop.",
+    aiTip:
+      "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
+  },
+  {
+    id: 327,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 4,
+    title: "Calling All Frogs",
+    location: "Junon – Wetlands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Enemy intel, materia reward",
+    summary:
+      "The wetlands' frog population has gone haywire. Investigate the cause and restore the balance.",
+    aiTip:
+      "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
+  },
+  {
+    id: 328,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 6,
+    title: "Rendezvous in Costa del Sol",
+    location: "Corel – Costa del Sol",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Party date-scene flag, accessory",
+    summary:
+      "Costa del Sol's holiday mood sets up a lighthearted rendezvous quest full of beach-town charm.",
+    aiTip:
+      "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
+  },
+  {
+    id: 329,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 6,
+    title: "Bodybuilders in a Bind",
+    location: "Corel – Costa del Sol",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Squats minigame reward, stat boost",
+    summary:
+      "The local muscleheads challenge the party to prove their strength with a squats showdown.",
+    aiTip:
+      "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
+  },
+  {
+    id: 330,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 7,
+    title: "Of Robed Men and Ransoms",
+    location: "Corel – The Dustbowl",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Story lore, materia reward",
+    summary:
+      "Reports of black-robed men lead the party into a ransom scheme tied to Sephiroth's followers.",
+    aiTip:
+      "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
+  },
+  {
+    id: 331,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 7,
+    title: "Sand and Circuses",
+    location: "Corel – The Dustbowl (Prison)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Combat challenge reward, party bond",
+    summary:
+      "The desert prison runs a brutal arena. Fight through its circus of combat trials for the crowd — and a payout.",
+    aiTip:
+      "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
+  },
+  {
+    id: 332,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "Missing: Mr. Birdie",
+    location: "Gongaga – Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Chocobo lure, region reward",
+    summary:
+      "A villager's beloved bird has vanished into the Gongaga jungle. Follow the clues to bring Mr. Birdie home.",
+    aiTip:
+      "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
+  },
+  {
+    id: 333,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "The Pursuit of Perfection",
+    location: "Gongaga – Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Crafting materials, accessory",
+    summary:
+      "A perfectionist craftsman needs rare Gongaga ingredients to complete his flawless creation.",
+    aiTip:
+      "Gather the exact items requested — partial deliveries won't satisfy this client.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
+  },
+  {
+    id: 334,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "O Chicken, Where Art Thou",
+    location: "Gongaga – Jungle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Party bond, item reward",
+    summary:
+      "Round up escaped fowl scattered across the treacherous Gongaga jungle paths.",
+    aiTip:
+      "Chocobo traversal and the region's springs make chasing down the strays far easier.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
+  },
+  {
+    id: 335,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "Teach Me, Great Warrior",
+    location: "Gongaga – Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Yuffie bond, combat technique",
+    summary:
+      "Yuffie is roped into proving herself to an aspiring young 'warrior' in Gongaga, with comedic results.",
+    aiTip:
+      "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
+  },
+  {
+    id: 336,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 9,
+    title: "The Spice of Life",
+    location: "Gongaga – Cissnei's House",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Cooking recipe, Magonga Mushrooms",
+    summary:
+      "Cissnei needs rare Magonga Mushrooms to finish a dish. Sniff them out with your chocobo across the jungle.",
+    aiTip:
+      "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
+  },
+  {
+    id: 337,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 10,
+    title: "Bonds of Trust",
+    location: "Cosmo Canyon – Canyon paths",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Crescent Sickle (Yuffie weapon), Chocobo",
+    summary:
+      "Earn the trust of Cosmo Canyon's people and its wildlife to unlock the region's mountain chocobo.",
+    aiTip:
+      "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
+  },
+  {
+    id: 338,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 10,
+    title: "Absence of a Sign",
+    location: "Cosmo Canyon – Observatory",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Star-chart lore, materia",
+    summary:
+      "Help restore the canyon's astronomical markers, tying into Cosmo Canyon's cosmology and the Planet's story.",
+    aiTip:
+      "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
+  },
+  {
+    id: 339,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 10,
+    title: "From Whence Life Flows",
+    location: "Cosmo Canyon – Lifestream site",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Healing materia, story lore",
+    summary:
+      "Investigate a sacred Lifestream-touched site and the strange phenomena disturbing it.",
+    aiTip:
+      "A lore-rich quest about the Lifestream — the reward materia suits a support build.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
+  },
+  {
+    id: 340,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 10,
+    title: "Promises to Keep",
+    location: "Cosmo Canyon – Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Party bond, accessory reward",
+    summary:
+      "An old promise resurfaces in Cosmo Canyon, asking the party to honor a departed friend's wish.",
+    aiTip:
+      "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
+  },
+  {
+    id: 341,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 11,
+    title: "Esoteric Secrets of the Elders",
+    location: "Nibel – Mt. Nibel",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare materia, combat challenge",
+    summary:
+      "Ancient trials hidden on Mt. Nibel test the party with esoteric puzzles and guardian battles.",
+    aiTip:
+      "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
+  },
+  {
+    id: 342,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 11,
+    title: "Tides of War and Worry",
+    location: "Nibel / Junon coast",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Party bond, accessory",
+    summary:
+      "Wartime anxieties ripple through the region; help those caught between Shinra's machine and daily survival.",
+    aiTip:
+      "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
+  },
+  {
+    id: 343,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Grasslands",
+    chapter: 12,
+    title: "Hustle and Grind",
+    location: "Grasslands (revisit)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Endgame materia, combat reward",
+    summary:
+      "A tougher Chapter 12 job sends the party back to the Grasslands for high-stakes work against upgraded foes.",
+    aiTip:
+      "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
+  },
+  {
+    id: 344,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Junon",
+    chapter: 12,
+    title: "Beneath Still Waters",
+    location: "Junon – Wetlands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rare item, exploration reward",
+    summary:
+      "A late-game mystery draws the party to Junon's waters to uncover what lurks beneath the surface.",
+    aiTip:
+      "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
+  },
+  {
+    id: 345,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    chapter: 12,
+    title: "Trouble in Paradise",
+    location: "Corel – Costa del Sol",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Costa del Sol payoff, accessory",
+    summary:
+      "The resort's earlier lightheartedness sours as an endgame threat reaches Costa del Sol.",
+    aiTip:
+      "A callback quest — earlier Costa del Sol choices color how this one resolves.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
+  },
+  {
+    id: 346,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    chapter: 12,
+    title: "Woodland Vigil",
+    location: "Gongaga – Jungle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rare crafting mats, materia",
+    summary:
+      "Stand watch over the Gongaga woodland against an escalating endgame incursion.",
+    aiTip:
+      "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
+  },
+  {
+    id: 347,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Cosmo Canyon",
+    chapter: 12,
+    title: "Victim of Circumstance",
+    location: "Cosmo Canyon",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Magnify Materia, Yuffie bond",
+    summary:
+      "An endgame Cosmo Canyon job with real consequences, rewarding one of the game's best support materia.",
+    aiTip:
+      "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
+  },
+  {
+    id: 348,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Nibel",
+    chapter: 12,
+    title: "Lament of the Damned",
+    location: "Nibel – Mt. Nibel",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Art of Swordplay Vol. VI, Barret bond, Hojo's Exams",
+    summary:
+      "A grim Chapter 12 quest on Mt. Nibel that unlocks Hojo's combat exams and strengthens Barret's resolve.",
+    aiTip:
+      "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
+    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   }
 ];

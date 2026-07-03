@@ -12,6 +12,7 @@
 - [x] Dynamic page title on game filter
 - [x] Fix card banner images (no cropping)
 - [x] Expand quest library to 199 quests (~15 per game)
+- [x] Full coverage pass for Cyberpunk 2077 (20 → 76) and FF7 Rebirth (18 → 57)
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
@@ -27,6 +28,15 @@
 - [ ] Apply for Google AdSense (needs traffic first)
 - [ ] Quest completed tracker (localStorage)
 - [ ] Add more games (Skyrim, Dark Souls, Dragon Age)
+
+## 🧭 Coverage Protocol (apply to every game)
+When adding or expanding a game, cover **everything tied to it**, not just a sample:
+- [ ] Main story (all chapters / main jobs / acts)
+- [ ] All named side quests / side jobs / odd jobs
+- [ ] Repeatable/system content (gigs, cyberpsycho sightings, world intel, hunts, bounties)
+- [ ] DLC / expansion content (e.g. Phantom Liberty, Shadow of the Erdtree)
+- [ ] Secrets, legendary items, and endings
+- [ ] Verify against a canonical guide (PowerPyx / Game8 / Fextralife) before marking done
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)
