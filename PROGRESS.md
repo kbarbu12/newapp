@@ -8,7 +8,8 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **844** (was 253 at the start of this work — **+591**)
+- **Total quests in library:** **839** (was 253 at the start of this work; briefly 844
+  before 5 duplicate Persona 5 Confidant entries were removed — see Jul 3 data-quality fix)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
 - **Sub-filters (per-game, shown when a game is selected):** live for **13 of 15 games** —
@@ -124,15 +125,29 @@ client-side injection and abuse of the one outbound call (the feedback form). Do
 "Complete" here means all **named quests** (main story, side quests, and named repeatable
 contracts like gigs/favours/tales), **not** every collectible or filler activity.
 
-- ✅ **Deep-filled (Jul 3):** Cyberpunk 2077, The Witcher 3, FF7 Rebirth, God of War
-  Ragnarök, Hogwarts Legacy, Horizon Forbidden West, Persona 5 Royal, Ghost of Tsushima.
-  Each now covers the full main story, the named side content, and the game's repeatable
-  systems (gigs/favours/contracts/tales/World Intel/Confidants). A few obscure individual
-  entries may still be missing where the source lists couldn't be fully enumerated (see
-  tooling note).
-- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3, Elden Ring, Black Myth: Wukong.
-- 🔴 **Sample only, full pass pending:** Demon's Souls, Pillars of Eternity,
-  Pillars of Eternity II: Deadfire, Metaphor: ReFantazio.
+- ✅ **Effectively complete for their scope:** FF7 Rebirth, God of War Ragnarök,
+  Demon's Souls (boss/NPC-driven). Cyberpunk 2077, The Witcher 3, and Horizon Forbidden
+  West are **close** but likely missing a handful of gigs/contracts/errands.
+- 🟠 **Over-claimed — main story done, but many individual side quests are still collapsed
+  into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (60 vs ~120+ real named
+  quests), Ghost of Tsushima (47 vs **61 side Tales + 7 Mythic Tales** confirmed via web
+  search — the side Tales are grouped under ~6 "Tales of X" umbrella entries, not listed
+  individually), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
+  Requests are mostly under one umbrella). *These three were previously tagged "deep-filled";
+  that was inaccurate.*
+- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (47 vs 100+), Elden Ring, Black Myth.
+- 🔴 **Sample only, full pass pending:** Pillars of Eternity I & II, Metaphor: ReFantazio.
+
+**Data-quality fix (Jul 3):** removed 5 duplicate Confidant entries in Persona 5 Royal
+(each appeared twice under two naming schemes). Library 844 → 839. A whole-dataset scan
+found no other exact-duplicate titles.
+
+**Blocker confirmed (Jul 3):** re-verified that the guide/wiki hosts (Game8, PowerPyx,
+Fextralife, Fandom, gamepressure) still return **403 at the egress proxy**, and web search
+returns counts/summaries but not full enumerated name lists. So the individual-quest
+expansion for the 🟠/🟡 games **cannot be done accurately from inside this environment** —
+it needs either guide-host egress enabled (for a scripted wiki diff) or the lists supplied
+directly. Fabricating ~200 unverified entries from memory would degrade a guide users rely on.
 
 ### Tooling note (why a few entries may be missing)
 This environment's egress policy blocks direct page fetches to the wiki/guide hosts
