@@ -36,6 +36,12 @@
 - [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
 
 ## 📋 Backlog
+- [ ] **Connect the feedback box** — the "Share your feedback" section is built and
+      live (`src/feedback.js`, Web3Forms integration), but needs a free Web3Forms
+      access key to actually deliver mail to k.barbu12@gmail.com. To finish:
+      get a key at https://web3forms.com (enter k.barbu12@gmail.com), paste it into
+      `ACCESS_KEY` in `src/feedback.js`, confirm the one-time verification email,
+      then send a live test. Until then the form shows an "email us directly" fallback.
 - [ ] Real cover images for Pillars of Eternity 1 & 2
 - [ ] Bing Webmaster Tools setup
 - [ ] Sign up for Amazon Associates / GOG affiliate program
