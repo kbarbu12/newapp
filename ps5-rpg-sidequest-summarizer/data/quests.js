@@ -8263,20 +8263,20 @@ const quests = [
   },
   {
     id: 505,
-    type: "side",
-    category: "Relationship",
+    type: "main",
+    category: "Main Story",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "It's All Gobbledegook (Amit)",
-    location: "Astronomy Wing",
-    length: "short",
-    difficulty: "Low",
-    reward: "Amit Thakkar relationship, star lore",
+    title: "It's All Gobbledegook",
+    location: "Map Chamber / Goblin Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ranrok's plans revealed, story progress",
     summary:
-      "Join the bookish Amit Thakkar to decode a goblin manuscript and share a stargazing outing — his companion questline.",
+      "Enlist the Gobbledegook-reading Ravenclaw Amit Thakkar to translate a captured goblin manuscript and uncover Ranrok's plans. (Amit is the one companion with no personal relationship questline — this is a main-story quest.)",
     aiTip:
-      "Amit's stargazing dates unlock Astronomy Table locations, handy for gear appearances.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20All%20Gobbledegook%20Amit%20walkthrough"
+      "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20All%20Gobbledegook%20walkthrough"
   },
   {
     id: 506,
@@ -14751,5 +14751,56 @@ const quests = [
     aiTip:
       "Ring the bells in the order the owl statues indicate to complete the puzzle.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20All's%20Well%20That%20Ends%20Bell%20walkthrough"
+  },
+  {
+    id: 907,
+    type: "main",
+    category: "Main Story",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "In the Shadow of the Mine",
+    location: "Goblin Mine / Feldcroft",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ranrok arc progress, gear",
+    summary:
+      "Descend into a goblin mine with the translated manuscript to uncover Ranrok's loyalists at work — a key step in the Stop Ranrok and Rookwood arc.",
+    aiTip:
+      "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Mine%20walkthrough"
+  },
+  {
+    id: 908,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Brother's Keeper",
+    location: "Upper Hogsfield",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, gear",
+    summary:
+      "Help a troubled resident of Upper Hogsfield lay a painful family matter — and a brother's fate — to rest.",
+    aiTip:
+      "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Brother's%20Keeper%20walkthrough"
+  },
+  {
+    id: 909,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Troll Control",
+    location: "Brocburrow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, gear",
+    summary:
+      "Defend the village of Brocburrow when a rampaging mountain troll comes crashing through.",
+    aiTip:
+      "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Troll%20Control%20walkthrough"
   }
 ];
