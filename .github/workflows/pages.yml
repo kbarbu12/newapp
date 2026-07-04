@@ -18,7 +18,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,8 +32,22 @@ jobs:
           # unique per attempt so re-running a failed run doesn't create
           # a duplicate "github-pages" artifact, which breaks deploy-pages
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      # GitHub Pages' publish API intermittently returns "Deployment failed,
+      # try again later" even when the build + artifact upload succeed. The
+      # first attempt is tolerated (continue-on-error) and retried once after a
+      # short pause, so a transient flake no longer fails the whole deploy.
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Wait before retrying deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
