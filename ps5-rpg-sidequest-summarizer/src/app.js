@@ -135,9 +135,17 @@
     });
   }
 
+  function accentColor(game) {
+    var meta = gameImages[game];
+    if (!meta || !meta.gradient) return "var(--accent)";
+    var hexes = meta.gradient.match(/#[0-9a-fA-F]{3,8}/g);
+    return hexes && hexes.length ? hexes[hexes.length - 1] : "var(--accent)";
+  }
+
   function createQuestCard(quest) {
     var article = document.createElement("article");
     article.className = "quest-card";
+    article.style.setProperty("--card-accent", accentColor(quest.game));
 
     var img = gameImages[quest.game];
     var bannerStyle = "background: " + img.gradient + ";";
@@ -240,6 +248,40 @@
       card.style.animationDelay = Math.min(index * 0.06, 0.6) + "s";
       questGrid.appendChild(card);
     });
+
+    updateResetButton();
+  }
+
+  function getActiveFilterCount() {
+    var count = 0;
+    if (gameFilter.value !== "all") count++;
+    if (lengthFilter.value !== "all") count++;
+    if (typeFilter.value !== "all") count++;
+    if (difficultyFilter.value !== "all") count++;
+    if (videoFilter.value !== "all") count++;
+    if (normalize(searchInput.value) !== "") count++;
+    if (activeSubFilter && activeSubFilter.select.value !== "all") count++;
+    return count;
+  }
+
+  function updateResetButton() {
+    var n = getActiveFilterCount();
+    resetButton.innerHTML = n > 0
+      ? 'Clear all <span class="filter-badge">' + n + "</span>"
+      : "Clear all";
+  }
+
+  function updateHero() {
+    var heroBg = document.querySelector(".hero-bg");
+    if (!heroBg) return;
+    var selectedGame = gameFilter.value;
+    if (selectedGame !== "all" && gameImages[selectedGame]) {
+      heroBg.style.backgroundImage = 'url("' + gameImages[selectedGame].cover + '")';
+      heroBg.style.opacity = "0.22";
+    } else {
+      heroBg.style.backgroundImage = "";
+      heroBg.style.opacity = "0";
+    }
   }
 
   function resetFilters() {
@@ -266,6 +308,7 @@
     updateSubFilters();
     renderQuests();
     updatePageTitle();
+    updateHero();
   }
 
   function toggleFilters() {

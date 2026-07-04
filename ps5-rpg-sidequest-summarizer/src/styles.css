@@ -241,12 +241,28 @@ footer,
 
 /* ── Hero ── */
 .hero {
+  position: relative;
+  overflow: hidden;
   padding: 3.5rem 2rem 2rem;
   background: radial-gradient(ellipse 80% 60% at 50% 30%, rgba(108, 140, 255, 0.08) 0%, transparent 70%);
   text-align: center;
 }
 
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.6s ease, background-image 0s;
+  pointer-events: none;
+  -webkit-mask-image: radial-gradient(ellipse 70% 85% at 50% 30%, #000 0%, transparent 72%);
+          mask-image: radial-gradient(ellipse 70% 85% at 50% 30%, #000 0%, transparent 72%);
+}
+
 .hero-inner {
+  position: relative;
+  z-index: 1;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -373,6 +389,23 @@ h1 {
   background: var(--accent-dim);
 }
 
+.filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #0b0e1a;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
 .filter-group {
   margin-top: 0.75rem;
 }
@@ -462,8 +495,10 @@ select:focus {
 
 .quest-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(108, 140, 255, 0.15);
-  border-color: rgba(108, 140, 255, 0.35);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45),
+              0 0 0 1px color-mix(in srgb, var(--card-accent, var(--accent)) 30%, transparent),
+              0 6px 28px color-mix(in srgb, var(--card-accent, var(--accent)) 18%, transparent);
+  border-color: color-mix(in srgb, var(--card-accent, var(--accent)) 45%, transparent);
 }
 
 .card-banner {
