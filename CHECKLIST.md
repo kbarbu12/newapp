@@ -85,7 +85,19 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 Beyond deep-fill, a name-by-name accuracy audit against canonical guides is underway:
 - [x] Pillars of Eternity, Pillars of Eternity II: Deadfire, Demon's Souls, Metaphor: ReFantazio
       — guide-audited (13 misattributed/fabricated quest names fixed; see `PROGRESS.md` §2).
-- [ ] Baldur's Gate 3, Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit title-by-title.
+- [~] **Black Myth: Wukong — checked (Jul 4), partially expanded.** Verified our 37 entries cover
+      all 6 chapter finales + major Yaoguai Kings; added 2 name-verified Chapter 1 bosses
+      (Bullguard, Guangmou → 39). Game has ~91 bosses total (11-12/17/21/15/14/12 per chapter);
+      the remaining ~50 are minor "Yaoguai Chief" bosses whose English names **conflict across the
+      reachable guides** (localization variants) — gated on the 403-blocked Fextralife/Fandom wiki.
+      Paste that list into `tools/guide-cache/black-myth-wukong.txt` (or enable egress) to finish.
+- [~] **Elden Ring — audited + expanded (Jul 4, 54→65).** Existing entries verified accurate;
+      added 11 unambiguously-named missing entries: main boss **Godfrey/Hoarah Loux**, the
+      **Godskin Duo** boss, and NPC questlines **Roderika, Gurranq (Deathroot), Seluvis,
+      Irina & Edgar, Blaidd, Warmaster Bernahl, D Hunter of the Dead, Thops, Jar Bairn**.
+      (ER names are stable across guides, so no localization ambiguity blocked this.)
+- [ ] Baldur's Gate 3 — remaining 🟡 game to audit title-by-title (biggest completeness gap,
+      ~47 of 100+; well-named content, good candidate for a full pass with a pasted quest list).
 - [x] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
       → `ps5-rpg-sidequest-summarizer/tools/audit.mjs` (Node, no deps). Integrity checks run
         offline and gate on a non-zero exit; the `--diff` step fetches canonical guide pages

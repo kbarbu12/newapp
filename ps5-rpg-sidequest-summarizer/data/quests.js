@@ -15302,5 +15302,181 @@ const quests = [
     aiTip:
       "Close the distance to shut down his ranged casts, but watch for the poison pools; reposition out of the AoE before punishing.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangmou%20boss%20walkthrough"
+  },
+  {
+    id: 937,
+    type: "main",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Defeat Godfrey, First Elden Lord (Hoarah Loux)",
+    location: "Erdtree Sanctuary / Leyndell",
+    length: "medium",
+    difficulty: "High",
+    reward: "Great Rune progression, endgame access",
+    summary:
+      "A mandatory endgame duel with the first Elden Lord — a golden shade at first, then the wild warrior Hoarah Loux who abandons his weapon to grapple you bare-handed.",
+    aiTip:
+      "Phase two is faster and unblockable on the grabs — roll toward him during the wrestling combos and heal only after his big slam recovers.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Godfrey%20Hoarah%20Loux%20boss%20walkthrough"
+  },
+  {
+    id: 938,
+    type: "side",
+    game: "Elden Ring",
+    region: "Farum Azula",
+    title: "Defeat the Godskin Duo",
+    location: "Crumbling Farum Azula",
+    length: "medium",
+    difficulty: "High",
+    reward: "Black Flame's Protection, Godskin gear",
+    summary:
+      "A brutal gank fight against a Godskin Apostle and a Godskin Noble at once, sharing a single health pool in Crumbling Farum Azula.",
+    aiTip:
+      "Focus one target and use Spirit Ashes (Mimic/Tiche) to split aggro. Sleep pots stagger both — they are vulnerable to sleep.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Godskin%20Duo%20boss%20walkthrough"
+  },
+  {
+    id: 939,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Roderika's Questline (Spirit Tuning)",
+    location: "Stormhill Shack / Roundtable Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit Tuning unlocked, Spirit Ash upgrades",
+    summary:
+      "Help the grieving Roderika move past the Chrysalids' Memento; she recovers and becomes the Roundtable Hold's Spirit Tuner, letting you upgrade Spirit Ashes.",
+    aiTip:
+      "Speak to her at Stormhill Shack, tell Smithing Master Hewg about her, then talk to her repeatedly at the Roundtable to unlock Spirit Tuning.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Roderika%20questline%20walkthrough"
+  },
+  {
+    id: 940,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Gurranq, the Beast Clergyman (Deathroot)",
+    location: "Bestial Sanctum, Caelid",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Beast incantations, Bestial gear",
+    summary:
+      "Feed the ravenous Beast Clergyman all nine Deathroot found across the Lands Between; each offering rewards a Beast incantation before he departs to become Maliketh.",
+    aiTip:
+      "He attacks after the first few Deathroot — sprint in, offer, and retreat, or use the nearby Sword of St. Trina to calm him. Fast-travel out to reset him.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Beast%20Clergyman%20Deathroot%20questline"
+  },
+  {
+    id: 941,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Seluvis's Questline",
+    location: "Seluvis's Rise, Three Sisters",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Puppet Spirit Ashes, sorceries",
+    summary:
+      "The scheming Preceptor Seluvis enlists you in a plot involving a potion for Nepheli and his collection of puppet 'dolls' — a morally murky branch tied to Ranni's tower.",
+    aiTip:
+      "His quest conflicts with others (Nepheli/Gideon) — decide whether to deliver or withhold his potion. Completing it grants unique Puppet spirit summons.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+  },
+  {
+    id: 942,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Irina & Edgar (Castle Morne)",
+    location: "Weeping Peninsula / Castle Morne",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sacrificial Twig, Edgar as ally",
+    summary:
+      "Deliver Irina's letter to her father Edgar at rebellion-torn Castle Morne; how their story ends depends on whether you clear the castle and which fate you set in motion.",
+    aiTip:
+      "Take Irina's letter to Edgar, defeat the Leonine Misbegotten boss, then return — the outcome feeds into Edgar's later appearance in Liurnia.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Irina%20Edgar%20Castle%20Morne%20questline"
+  },
+  {
+    id: 943,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Blaidd the Half-Wolf's Questline",
+    location: "Mistwood / Forlorn Hound Evergaol",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Royal Greatsword, Ranni-line progression",
+    summary:
+      "Aid Ranni's loyal shadowbound-beast Blaidd — from the Mistwood howl and the Radahn Festival through his tragic, fate-sealed end intertwined with Ranni's questline.",
+    aiTip:
+      "Ring the bell in Mistwood, follow him through the Radahn Festival and Seluvis/Sellen threads; his questline overlaps Ranni's, so progress them together.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+  },
+  {
+    id: 944,
+    type: "side",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Warmaster Bernahl's Questline",
+    location: "Warmaster's Shack / Volcano Manor",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ashes of War, Beast Champion gear",
+    summary:
+      "Learn Ashes of War from the exiled knight Bernahl, then follow his turn to the Recusants of Volcano Manor, culminating in an invasion duel in Crumbling Farum Azula.",
+    aiTip:
+      "Buy his teachings early, join Volcano Manor to advance his arc, and be ready to fight him near the Beside the great-Bridge site in Farum Azula.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+  },
+  {
+    id: 945,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "D, Hunter of the Dead's Questline",
+    location: "Summonwater / Roundtable Hold",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Twinned armor set, Fia-line branch",
+    summary:
+      "The stoic hunter of Those Who Live in Death crosses paths with Fia's Deathbed cause — a questline whose outcome hinges on his twin brother and a fateful set of armor.",
+    aiTip:
+      "Whether you give D's armor to his brother changes Fia's questline outcome — decide carefully, as it locks off part of the Deathbed Companion path.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20D%20Hunter%20of%20the%20Dead%20questline"
+  },
+  {
+    id: 946,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Thops's Questline",
+    location: "Church of Irith / Schoolhouse Classroom",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thops's Barrier sorcery, Bell Bearing",
+    summary:
+      "Bring the impoverished sorcerer Thops an Academy Glintstone Key so he can finally enter Raya Lucaria; his short arc ends with his sorceries left behind.",
+    aiTip:
+      "Give him a spare Academy Glintstone Key (a second one spawns in the Academy), then return to the Schoolhouse Classroom to collect his sorceries.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Thops%20questline%20walkthrough"
+  },
+  {
+    id: 947,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Jar Bairn's Questline",
+    location: "Jarburg, Liurnia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion Jar Talisman, Iron Fist Alexander link",
+    summary:
+      "Mentor the innocent Living Jar of Jarburg as it dreams of becoming a great pot — a gentle questline that connects to Iron Fist Alexander's story.",
+    aiTip:
+      "Progress Alexander's quest alongside it and keep returning to Jarburg after key steps; protect the village to reach the peaceful ending and the Companion Jar Talisman.",
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
   }
 ];
