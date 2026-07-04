@@ -2371,7 +2371,7 @@ const quests = [
       "Build a relationship with nomad Panam Palmer as she rallies her clan against Militech and plans a massive heist. Her storyline is one of the most satisfying in the game and unlocks the secret Nomad ending.",
     aiTip:
       "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
-    video: "https://www.youtube.com/playlist?list=PLU9RCp3FVNkSAPtWpgXD3NabQLTHTj-36"
+    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Panam%20Palmer%20questline%20walkthrough"
   },
   {
     id: 135,
@@ -3052,7 +3052,7 @@ const quests = [
       "Complete a series of errands for the Oseram settlers establishing themselves in The Daunt. These quick tasks introduce Horizon's errand system and teach combat and exploration mechanics in a safe opening environment.",
     aiTip:
       "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
-    video: "https://www.youtube.com/playlist?list=PLNVZ0VbA46mqXmXe_XscAEyZUCEHJpemQ"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Daunt%20Errands%20walkthrough"
   },
   {
     id: 180,

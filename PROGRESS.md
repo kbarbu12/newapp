@@ -149,12 +149,16 @@ tiers first, then the Jul 3 accuracy pass.
 (each appeared twice under two naming schemes). Library 844 → 839. A whole-dataset scan
 found no other exact-duplicate titles.
 
-**Blocker confirmed (Jul 3):** re-verified that the guide/wiki hosts (Game8, PowerPyx,
-Fextralife, Fandom, gamepressure) still return **403 at the egress proxy**, and web search
-returns counts/summaries but not full enumerated name lists. So the individual-quest
-expansion for the 🟠/🟡 games **cannot be done accurately from inside this environment** —
-it needs either guide-host egress enabled (for a scripted wiki diff) or the lists supplied
-directly. Fabricating ~200 unverified entries from memory would degrade a guide users rely on.
+**Blocker confirmed (Jul 3; re-verified Jul 4):** the guide/wiki hosts (Game8, PowerPyx,
+Fextralife, Fandom, gamepressure) still return **403 at the egress proxy** — re-checked Jul 4
+across `curl`, `WebFetch`, **and every wiki host in `tools/guide-sources.mjs`** (all 14
+blocked; even wikipedia.org / google.com 403), and web search returns counts/summaries but not
+full enumerated name lists. Enabling egress is an **environment network-policy** change (made
+from the Claude Code on the web environment settings, not from inside a session), so the
+individual-quest expansion for the 🟠/🟡 games **cannot be done accurately from inside this
+environment** until it is turned on — then `node tools/audit.mjs --diff` produces the scripted
+wiki diff automatically. The alternative is supplying the full lists directly in chat.
+Fabricating ~200 unverified entries from memory would degrade a guide users rely on.
 
 ### Accuracy audit — quest-audit pass (Jul 3)
 Separate from completeness: a data-integrity + name-accuracy sweep over the library. It does
@@ -228,11 +232,17 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
 - [ ] **Re-verify obscure entries in the already deep-filled games** — a few individual entries
       may be missing or approximate where the source lists couldn't be fully enumerated (see the
       Tooling note below).
-- [ ] **Automate the audit** — commit a script that checks IDs / required fields / duplicate
-      titles / video-link health and diffs per-game counts against a target list, so the
-      🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
-      pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
-      can seed it. *(This is improvement #7 in §4.)*
+- [x] **Automate the audit** — **DONE (Jul 4).** `ps5-rpg-sidequest-summarizer/tools/audit.mjs`
+      (Node ≥ 22, zero deps). Offline it checks duplicate/malformed IDs, missing required
+      fields, invalid `type`, duplicate titles per game, video-link format, and reused
+      `watch?v=` links, and prints per-game counts; it exits non-zero on any integrity problem
+      so CI can gate on it. First run flagged **2 non-standard video links** (Panam Palmer's
+      Questline, The Daunt Errands used `youtube.com/playlist?list=` instead of a per-quest
+      link) — both fixed to the standard `results?search_query=` form; audit is now clean.
+      The `--diff` step (in `tools/guide-diff.mjs` + `tools/guide-sources.mjs`) fetches each
+      game's canonical wiki page and reports titles-not-on-guide vs. names-on-guide-not-listed
+      — it runs the moment guide-host egress is enabled, and skips cleanly (probe reports every
+      host blocked) until then. *(This was improvement #7 in §4.)*
 
 ### Ghost of Tsushima expansion — DONE (Jul 4)
 Applied the same treatment as Hogwarts to the other 🟠 game. **47 → 71.** Names verified via

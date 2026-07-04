@@ -66,7 +66,10 @@ Beyond deep-fill, a name-by-name accuracy audit against canonical guides is unde
 - [x] Pillars of Eternity, Pillars of Eternity II: Deadfire, Demon's Souls, Metaphor: ReFantazio
       — guide-audited (13 misattributed/fabricated quest names fixed; see `PROGRESS.md` §2).
 - [ ] Baldur's Gate 3, Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit title-by-title.
-- [ ] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
+- [x] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
+      → `ps5-rpg-sidequest-summarizer/tools/audit.mjs` (Node, no deps). Integrity checks run
+        offline and gate on a non-zero exit; the `--diff` step fetches canonical guide pages
+        once guide-host egress is enabled. First run found + fixed 2 non-standard video links.
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)
