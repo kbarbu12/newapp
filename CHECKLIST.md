@@ -5,6 +5,34 @@
 >
 > **Status legend:** ✅ done · 🟡 done but not verified against a guide · 🔴 not started / sample only
 
+## 🔜 Resume here — quest-expansion work (paused Jul 4)
+Library is at **949 quests / 15 games**, integrity clean (`node ps5-rpg-sidequest-summarizer/tools/audit.mjs`).
+
+**Done this session (accuracy-safe — only names verified across guides were added):**
+- [x] Built the audit + guide-diff tool (`tools/audit.mjs`, offline cache path) — see roadmap #7.
+- [x] Fixed 2 non-standard video links (Panam Palmer's Questline, The Daunt Errands).
+- [x] Black Myth: Wukong 37 → **39** (added Bullguard, Guangmou).
+- [x] Elden Ring 54 → **65** (+Godfrey/Hoarah Loux, Godskin Duo, 9 NPC questlines).
+- [x] Baldur's Gate 3 47 → **56** (+9 quests: Artefact, Ruins/Withers, Volo, Githyanki Egg,
+      Barcus, Masterwork Weapon, Vanra, Ansur/Wyrmway, Karlach's Hellion's Heart).
+- [x] Replaced POE 1 & 2 placeholder covers with themed SVG art.
+
+**To continue (in priority order) — each is gated on getting the full canonical list:**
+- [ ] **Black Myth: Wukong → ~91 bosses** (currently 39). Blocked: minor "Yaoguai Chief" names
+      conflict across reachable guides. Needs the Fextralife/Fandom BMW boss list pasted into
+      `tools/guide-cache/black-myth-wukong.txt`, then `audit.mjs --diff`.
+- [ ] **Baldur's Gate 3 → ~100+** (currently 56). Remaining = many minor Act 3 Lower City quests;
+      names are documented but numerous — paste the `bg3.wiki` quest list to finish exhaustively.
+- [ ] **Persona 5 Royal → ~95** (currently 44). Gap is the ~65 individual **Mementos Requests**
+      collapsed under one umbrella — stably named on Game8; paste that list for a clean pass.
+- [ ] **Ghost of Tsushima → ~80** (currently 71). Remaining = standalone **Tales of Tsushima**
+      not tied to a companion.
+- [ ] **🔴 completeness games** — Pillars of Eternity I & II, Metaphor: ReFantazio are still
+      "sample only"; enumerate their full quest lists (paste or egress).
+- [ ] **The general blocker:** all wiki/guide hosts return 403 (see "Action needed" below).
+      Enabling egress **or** pasting per-game lists into `tools/guide-cache/` unblocks every item
+      above; then a single `audit.mjs --diff` per game generates the exact gap list to fill.
+
 ## 👤 Action needed from you — enable guide-host egress (unblocks exhaustive completion)
 The scripted wiki fetch-and-diff (`tools/audit.mjs --diff`) needs outbound access to the
 guide/wiki hosts. Every one of them currently returns **403** at the environment egress proxy,
