@@ -5,6 +5,26 @@
 >
 > **Status legend:** ✅ done · 🟡 done but not verified against a guide · 🔴 not started / sample only
 
+## 👤 Action needed from you — enable guide-host egress (unblocks exhaustive completion)
+The scripted wiki fetch-and-diff (`tools/audit.mjs --diff`) needs outbound access to the
+guide/wiki hosts. Every one of them currently returns **403** at the environment egress proxy,
+and that policy can only be changed by you, from outside the session. Steps:
+
+- [ ] **1. Open the environment's network policy** — Claude Code on the web → the environment
+      running this repo → settings. Docs: https://code.claude.com/docs/en/claude-code-on-the-web
+- [ ] **2. Allow the guide hosts** — choose a **full/trusted egress** policy, *or* a custom
+      allowlist that includes these two globs (they cover all 14 hosts the tool targets):
+      `*.fandom.com` and `*.wiki.fextralife.com`
+- [ ] **3. Start a fresh session** on the reconfigured environment (same repo, branch
+      `claude/guide-host-egress-env-qtgou9`). Egress is fixed when a container starts, so a
+      running session won't pick up the change — a new session will.
+- [ ] **4. Run the diff** — in that session: `node ps5-rpg-sidequest-summarizer/tools/audit.mjs --diff`
+      → produces the per-game review list; then Claude fills the verified gaps game by game.
+
+> **Alternative that needs no egress:** paste a game's full wiki quest list into chat (or save
+> it under `ps5-rpg-sidequest-summarizer/tools/guide-cache/<game-slug>.txt`) and run
+> `--diff` — the tool diffs against the pasted list directly. See `tools/README.md`.
+
 ## ✅ Done
 - [x] Site live on GitHub Pages (https://kbarbu12.github.io/newapp/)
 - [x] Rename site to "RPG Quest Guide"

@@ -1,4 +1,26 @@
 // Canonical guide/wiki sources per game, plus a reachability probe.
+import { fileURLToPath } from "node:url";
+import { dirname, resolve } from "node:path";
+import { existsSync, readFileSync } from "node:fs";
+
+const here = dirname(fileURLToPath(import.meta.url));
+export const CACHE_DIR = resolve(here, "guide-cache");
+
+// Filesystem-safe slug for a game name → guide-cache/<slug>.(txt|html)
+export function gameSlug(game) {
+  return String(game).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+// Read a locally cached guide list for a game, if the user has pasted/saved one.
+// Lets the whole diff run with no egress. Returns the file text or null.
+export function readCachedGuide(game) {
+  for (const ext of ["txt", "html", "md"]) {
+    const p = resolve(CACHE_DIR, `${gameSlug(game)}.${ext}`);
+    if (existsSync(p)) return readFileSync(p, "utf8");
+  }
+  return null;
+}
+
 //
 // These are the hosts the environment egress policy must allow for `--diff` to
 // work. Today they all return 403 at the egress proxy; this file is the single

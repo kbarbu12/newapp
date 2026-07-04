@@ -27,9 +27,14 @@ Those hosts are currently **blocked by the environment egress policy** (403 at
 the proxy), so `--diff` is skipped with a message and the probe lists every host
 as blocked.
 
-To enable it, allow the hosts listed by `node tools/audit.mjs` in the Claude
-Code on the web environment's **network policy**, then re-run with `--diff`. It
-reports, per game:
+**Offline alternative (no egress):** drop a game's quest list into
+`tools/guide-cache/<game-slug>.txt` (raw text or copied HTML — see
+`guide-cache/README.md` for the exact filenames) and run `--diff`. A cached file
+takes priority over fetching, so a pasted list diffs with no network at all.
+
+To use the live fetch, allow the hosts listed by `node tools/audit.mjs` in the
+Claude Code on the web environment's **network policy**, then re-run with
+`--diff`. Either way it reports, per game:
 
 - **missingFromGuide** — titles we list that don't appear on the guide page
   (candidate fabrications / typos / mis-attributions — high signal).

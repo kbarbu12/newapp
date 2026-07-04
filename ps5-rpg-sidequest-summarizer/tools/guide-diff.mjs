@@ -12,7 +12,7 @@
 // The membership direction is reliable and site-agnostic. The extraction
 // direction is intentionally conservative and flagged best-effort because it
 // depends on each wiki's markup.
-import { GUIDE_SOURCES, fetchText } from "./guide-sources.mjs";
+import { GUIDE_SOURCES, fetchText, readCachedGuide } from "./guide-sources.mjs";
 
 const norm = (s) =>
   String(s)
@@ -40,11 +40,16 @@ function extractCandidateNames(html) {
   for (const m of html.matchAll(/<a\b[^>]*>([\s\S]*?)<\/a>/gi)) push(m[1]);
   for (const m of html.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/gi)) push(m[1]);
   for (const m of html.matchAll(/<b\b[^>]*>([\s\S]*?)<\/b>/gi)) push(m[1]);
+  // Plain-text / markdown lists (one name per line): treat each line as a
+  // candidate too, so a pasted text list feeds the gap check, not just HTML.
+  for (const raw of html.split(/\r?\n/)) {
+    push(raw.replace(/^\s*(?:[-*+•]|\d+[.)])\s+/, "")); // strip bullet/number prefixes
+  }
   return [...names];
 }
 
 export async function diffAllGames(quests, reachableHosts) {
-  const reachable = new Set(reachableHosts);
+  const reachable = new Set(reachableHosts || []);
   const byGame = new Map();
   for (const q of quests) {
     if (!byGame.has(q.game)) byGame.set(q.game, []);
@@ -53,17 +58,27 @@ export async function diffAllGames(quests, reachableHosts) {
 
   const games = [];
   for (const src of GUIDE_SOURCES) {
-    if (!reachable.has(src.host)) continue;
     const listed = byGame.get(src.game) || [];
     if (!listed.length) continue;
 
+    // Source order: a locally cached/pasted list wins (works offline); otherwise
+    // fetch the canonical pages if the host is reachable. Skip if neither.
+    const cached = readCachedGuide(src.game);
+    if (!cached && !reachable.has(src.host)) continue;
+
     let corpus = "";
+    let source = cached ? "cache" : "fetch";
     const candidates = new Set();
-    for (const url of src.urls) {
-      const r = await fetchText(url);
-      if (!r.ok) continue;
-      corpus += "\n" + r.text;
-      for (const n of extractCandidateNames(r.text)) candidates.add(n);
+    if (cached) {
+      corpus += "\n" + cached;
+      for (const n of extractCandidateNames(cached)) candidates.add(n);
+    } else {
+      for (const url of src.urls) {
+        const r = await fetchText(url);
+        if (!r.ok) continue;
+        corpus += "\n" + r.text;
+        for (const n of extractCandidateNames(r.text)) candidates.add(n);
+      }
     }
     const corpusNorm = " " + norm(corpus) + " ";
 
@@ -78,8 +93,9 @@ export async function diffAllGames(quests, reachableHosts) {
 
     games.push({
       game: src.game,
+      source,
       listed: listed.length,
-      sources: src.urls,
+      sources: source === "cache" ? [`guide-cache/${src.game}`] : src.urls,
       missingFromGuide,
       candidateGaps,
     });
