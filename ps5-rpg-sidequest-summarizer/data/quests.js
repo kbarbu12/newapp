@@ -15478,5 +15478,149 @@ const quests = [
     aiTip:
       "Progress Alexander's quest alongside it and keep returning to Jarburg after key steps; protect the village to reach the peaceful ending and the Companion Jar Talisman.",
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+  },
+  {
+    id: 948,
+    type: "main",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "The Mysterious Artefact",
+    location: "Nautiloid / Emerald Grove",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Astral-Touched Tadpole, Guardian visions",
+    summary:
+      "The strange githyanki prism you carry protects you from ceremorphosis and summons a Guardian in your dreams — an overarching thread that unravels the Emperor's true nature.",
+    aiTip:
+      "Keep the artefact and meet your Dream Guardian each long rest; the choices here echo all the way into Act 3, so weigh how much you trust it.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mysterious%20Artefact%20quest%20walkthrough"
+  },
+  {
+    id: 949,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Explore the Ruins",
+    location: "Dank Crypt, Ravaged Beach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Withers unlocked, loot",
+    summary:
+      "Delve the buried Dank Crypt beneath the ruins near the crash site, fend off adventurers and undead, and open the sarcophagus that awakens Withers.",
+    aiTip:
+      "Loot the History-checked sarcophagus in the lower chamber to free Withers, who then offers revival and hireling services at camp.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20Dank%20Crypt%20Withers"
+  },
+  {
+    id: 950,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Rescue Volo",
+    location: "Goblin Camp / Shattered Sanctum",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Volo's aid (Act 2 eye 'surgery')",
+    summary:
+      "The self-important bard Volothamp Geddarm is caged in the Goblin Camp; free him and he later repays you with a very memorable — if crude — bit of parasite removal.",
+    aiTip:
+      "Free him from the kennel/cage during or after dealing with the goblins; find him again in Act 2 to let him operate on your infected eye.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20Volo%20walkthrough"
+  },
+  {
+    id: 951,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "The Githyanki Egg",
+    location: "Mountain Pass, Lady Esther",
+    length: "short",
+    difficulty: "Low",
+    reward: "Choice reward from Lady Esther, moral branch",
+    summary:
+      "The researcher Lady Esther at the Mountain Pass asks you to steal a githyanki egg from the Creche — a decision that pits scholarly curiosity against the survival of a species.",
+    aiTip:
+      "You can take the egg for Lady Esther's reward or keep it to protect the hatchling; the choice affects githyanki-related dialogue later.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Githyanki%20Egg%20Lady%20Esther"
+  },
+  {
+    id: 952,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Save Barcus Wroot",
+    location: "Blighted Village Windmill / Grymforge",
+    length: "short",
+    difficulty: "Low",
+    reward: "Barcus as ally, later Grymforge aid",
+    summary:
+      "A deep gnome is strapped to a spinning windmill sail by cruel goblins; rescue him and Barcus Wroot turns up again in the Underdark's Grymforge.",
+    aiTip:
+      "Turn off the windmill via the lever inside before he's flung to his death, then meet him again at Grymforge to advance his thread.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Barcus%20Wroot%20windmill"
+  },
+  {
+    id: 953,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Finish the Masterwork Weapon",
+    location: "Grymforge, Underdark",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masterwork/legendary weapon components",
+    summary:
+      "In the ancient Sharran forge of Grymforge, gather the mould, the Sussur ingredients, and adamantine ore to smith a masterwork weapon or armour at the Adamantine Forge.",
+    aiTip:
+      "Bring an armour scrap or weapon mould plus an Adamantine Ore to the forge, and be ready to fight the Grym construct — lure it onto the heated central plate.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20Grymforge"
+  },
+  {
+    id: 954,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Save Vanra",
+    location: "Basilisk Gate Barracks / Auntie Ethel's Lair",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reputation, Auntie Ethel loot",
+    summary:
+      "The hag Auntie Ethel returns in Baldur's Gate: her mother Lora begs you to rescue the child Vanra, swallowed whole and hidden in Ethel's grotesque hideout.",
+    aiTip:
+      "Start it by talking to Lora at the Basilisk Gate Barracks; inside Ethel's lair you can free Vanra from within the hag — don't trust Ethel's bargains.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
+  },
+  {
+    id: 955,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "The Legend of Ansur (The Wyrmway)",
+    location: "Wyrmway, Baldur's Gate",
+    length: "long",
+    difficulty: "High",
+    reward: "Helm of Balduran, Ansur trials",
+    summary:
+      "Follow the legend of the bronze dragon Ansur into the hidden Wyrmway beneath Wyrm's Rock, pass its elemental trials, and confront the great wyrm's fallen shade.",
+    aiTip:
+      "Read 'The Legend of Ansur' to open the Wyrmway, solve the four trial chambers, then either fight Ansur or resolve it peacefully to claim the Helm of Balduran.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Legend%20of%20Ansur%20Wyrmway%20walkthrough"
+  },
+  {
+    id: 956,
+    type: "side",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Companion: Karlach — The Hellion's Heart",
+    location: "Baldur's Gate / Cazador's Palace forge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Karlach's infernal engine upgrade, ending branch",
+    summary:
+      "Karlach's Zariel-forged engine is failing; hunt for infernal iron and a way to fix her heart, shaping whether she can survive outside Avernus.",
+    aiTip:
+      "Collect Infernal Iron across the acts and bring it to Dammon (Emerald Grove → Last Light → Baldur's Gate); her Act 3 options decide her bittersweet fate.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Hellion's%20Heart%20Karlach%20walkthrough"
   }
 ];

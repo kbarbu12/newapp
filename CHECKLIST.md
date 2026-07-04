@@ -96,8 +96,12 @@ Beyond deep-fill, a name-by-name accuracy audit against canonical guides is unde
       **Godskin Duo** boss, and NPC questlines **Roderika, Gurranq (Deathroot), Seluvis,
       Irina & Edgar, Blaidd, Warmaster Bernahl, D Hunter of the Dead, Thops, Jar Bairn**.
       (ER names are stable across guides, so no localization ambiguity blocked this.)
-- [ ] Baldur's Gate 3 — remaining 🟡 game to audit title-by-title (biggest completeness gap,
-      ~47 of 100+; well-named content, good candidate for a full pass with a pasted quest list).
+- [~] **Baldur's Gate 3 — audited + expanded (Jul 4, 47→56).** Added 9 well-documented missing
+      quests: **The Mysterious Artefact** (main), and side quests **Explore the Ruins** (Withers),
+      **Rescue Volo, The Githyanki Egg, Save Barcus Wroot, Finish the Masterwork Weapon** (Act 1),
+      **Save Vanra, The Legend of Ansur/Wyrmway, Karlach — The Hellion's Heart** (Act 3).
+      Still short of the full ~100+ (many minor Act 3 city quests remain) — a complete pass wants
+      the bg3.wiki quest list pasted into `tools/guide-cache/baldur-s-gate-3.txt`.
 - [x] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
       → `ps5-rpg-sidequest-summarizer/tools/audit.mjs` (Node, no deps). Integrity checks run
         offline and gate on a non-zero exit; the `--diff` step fetches canonical guide pages
