@@ -1797,7 +1797,7 @@ const quests = [
       "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
     aiTip:
       "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Fit%20for%20a%20King%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Fit%20for%20a%20King%20walkthrough"
   },
   {
     id: 95,
@@ -1813,7 +1813,7 @@ const quests = [
       "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
     aiTip:
       "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Berserker%20Gravestone%20Battles%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Berserker%20Gravestone%20Battles%20walkthrough"
   },
   {
     id: 97,
@@ -2869,7 +2869,7 @@ const quests = [
       "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
     aiTip:
       "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Atreus's%20Search%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Atreus%27s%20Search%20walkthrough"
   },
   {
     id: 163,
@@ -2901,7 +2901,7 @@ const quests = [
       "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
     aiTip:
       "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Mimir's%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Mimir%27s%20Knowledge%20walkthrough"
   },
   {
     id: 165,
@@ -6842,7 +6842,7 @@ const quests = [
       "As the great winter rages, Kratos and Atreus are drawn toward a prophecy and an unwelcome visit from Freya and Odin's envoy.",
     aiTip:
       "The opening teaches the new combat and Atreus's role — experiment with the Leviathan and Blades.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Surviving%20Fimbulwinter%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Surviving%20Fimbulwinter%20walkthrough"
   },
   {
     id: 411,
@@ -6858,7 +6858,7 @@ const quests = [
       "Kratos and Atreus seek the lost war god Tyr, journeying to the dwarven realm of Svartalfheim.",
     aiTip:
       "Svartalfheim is huge — grab the boat and revisit for favors once you have new tools.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Quest%20for%20Tyr%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Quest%20for%20Tyr%20walkthrough"
   },
   {
     id: 412,
@@ -6874,7 +6874,7 @@ const quests = [
       "A confrontation forces Kratos to face old habits and a formidable foe in the mines.",
     aiTip:
       "Learn to parry and use runic attacks; this fight rewards defensive timing.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Reckoning%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Reckoning%20walkthrough"
   },
   {
     id: 413,
@@ -6890,7 +6890,7 @@ const quests = [
       "Kratos reconnects with an old ally to push the quest forward.",
     aiTip:
       "A story-focused chapter — enjoy the character work between fights.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Old%20Friends%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Old%20Friends%20walkthrough"
   },
   {
     id: 414,
@@ -6906,7 +6906,7 @@ const quests = [
       "The party uncovers the giant Groa's hidden knowledge about the war to come.",
     aiTip:
       "Vanaheim opens up richly here — mark favors to return to after the story.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Groa's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Groa%27s%20Secret%20walkthrough"
   },
   {
     id: 415,
@@ -6922,7 +6922,7 @@ const quests = [
       "Kratos seeks the Norns to learn whether fate can be defied.",
     aiTip:
       "A revelatory chapter with tense encounters — keep resurrection stones handy.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Word%20of%20Fate%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Word%20of%20Fate%20walkthrough"
   },
   {
     id: 416,
@@ -6938,7 +6938,7 @@ const quests = [
       "Kratos forges a legendary new weapon to change the odds against Odin.",
     aiTip:
       "The Draupnir Spear is a build-defining weapon — respec runic attacks around it.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Forging%20Destiny%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Forging%20Destiny%20walkthrough"
   },
   {
     id: 417,
@@ -6954,7 +6954,7 @@ const quests = [
       "Separated threads of the family come back together as Ragnarök nears.",
     aiTip:
       "Emotional pivot point — a lighter combat chapter.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Reunion%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Reunion%20walkthrough"
   },
   {
     id: 418,
@@ -6970,7 +6970,7 @@ const quests = [
       "The prophecy's pieces align as the realms edge toward open war.",
     aiTip:
       "Escalating encounters — upgrade armor at Brok and Sindri before proceeding.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Creatures%20of%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Creatures%20of%20Prophecy%20walkthrough"
   },
   {
     id: 419,
@@ -6986,7 +6986,7 @@ const quests = [
       "A journey into Helheim forces a reckoning with grief and rage.",
     aiTip:
       "Helheim's frost enemies resist ice — favor the Blades of Chaos here.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Unleashing%20Hel%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Unleashing%20Hel%20walkthrough"
   },
   {
     id: 420,
@@ -7002,7 +7002,7 @@ const quests = [
       "Ragnarök erupts as the realms unite against Asgard.",
     aiTip:
       "The war chapter is a spectacle gauntlet — bring your strongest setup.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Realms%20at%20War%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Realms%20at%20War%20walkthrough"
   },
   {
     id: 421,
@@ -7018,7 +7018,7 @@ const quests = [
       "With the story's climax past, the realms open fully for remaining favors and challenges.",
     aiTip:
       "Now's the time to mop up favors, Berserkers, and collectibles across all nine realms.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Beyond%20Ragnar%C3%B6k%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Beyond%20Ragnar%C3%B6k%20walkthrough"
   },
   {
     id: 422,
@@ -7034,7 +7034,7 @@ const quests = [
       "Clear the Aesir raiders and machines fouling the Aurvangar Wetlands for the dwarves.",
     aiTip:
       "A good early favor to learn Svartalfheim traversal and grab Hacksilver.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20In%20Service%20of%20Asgard%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20In%20Service%20of%20Asgard%20walkthrough"
   },
   {
     id: 423,
@@ -7050,7 +7050,7 @@ const quests = [
       "Follow a dwarven map to a hidden cache of treasure in Svartalfheim.",
     aiTip:
       "Solve the environmental clue to unseal the vault — good early upgrade loot.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Lost%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Lost%20Treasure%20walkthrough"
   },
   {
     id: 424,
@@ -7066,7 +7066,7 @@ const quests = [
       "Hunt a dangerous predator threatening travelers in the Vanaheim jungle.",
     aiTip:
       "Bring Sonic and Bifröst-boosted attacks; dodge its pounce.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Scent%20of%20Survival%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Scent%20of%20Survival%20walkthrough"
   },
   {
     id: 425,
@@ -7082,7 +7082,7 @@ const quests = [
       "Restore a dammed river in Vanaheim to reveal new paths and treasures.",
     aiTip:
       "Reopening the river unlocks traversal to previously blocked areas — do it early in Vanaheim.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Return%20of%20the%20River%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Return%20of%20the%20River%20walkthrough"
   },
   {
     id: 426,
@@ -7098,7 +7098,7 @@ const quests = [
       "Join Freyr's resistance to drive Odin's forces out of Vanaheim once and for all.",
     aiTip:
       "A big multi-part favor with tough camps — bring your best runic loadout.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20For%20Vanaheim!%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20For%20Vanaheim%21%20walkthrough"
   },
   {
     id: 427,
@@ -7114,7 +7114,7 @@ const quests = [
       "Brave the shifting sandstorms of Alfheim's Barrens to reach a sealed door and its reward.",
     aiTip:
       "The sandstorm slows you — use the sled and follow the wind-cleared paths.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Desert%20Door%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Desert%20Door%20walkthrough"
   },
   {
     id: 428,
@@ -7130,7 +7130,7 @@ const quests = [
       "Breach an ancient elven sanctum locked away in Alfheim.",
     aiTip:
       "Light/Dark elf puzzles gate the way — use Sigil arrows to redirect the light.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Elven%20Sanctum%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Elven%20Sanctum%20walkthrough"
   },
   {
     id: 429,
@@ -7146,7 +7146,7 @@ const quests = [
       "Uncover what the Light Elves buried beneath the Forbidden Sands.",
     aiTip:
       "Pairs well with The Desert Door — clear both on one Barrens trip.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Secret%20of%20the%20Sands%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Secret%20of%20the%20Sands%20walkthrough"
   },
   {
     id: 430,
@@ -7162,7 +7162,7 @@ const quests = [
       "Descend into the mists of Niflheim's Broken Prison for a rare flower and dangerous foes.",
     aiTip:
       "The mist drains health — keep moving toward the objective and manage resources.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Broken%20Prison%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Broken%20Prison%20walkthrough"
   },
   {
     id: 431,
@@ -7178,7 +7178,7 @@ const quests = [
       "Find nine mysterious flowers scattered across every realm to restore Ratatoskr's tree.",
     aiTip:
       "Each flower grants a permanent stat boost via Yggdrasil's Dew — a top-priority collectible favor.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Nine%20Realms%20in%20Bloom%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Nine%20Realms%20in%20Bloom%20walkthrough"
   },
   {
     id: 432,
@@ -7194,7 +7194,7 @@ const quests = [
       "Investigate a strange glowing orb and the being connected to it.",
     aiTip:
       "A short lore favor with a memorable payoff — read the dialogue.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Mysterious%20Orb%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Mysterious%20Orb%20walkthrough"
   },
   {
     id: 433,
@@ -7210,7 +7210,7 @@ const quests = [
       "Follow a grisly trail of draugr corpses to their source in Vanaheim.",
     aiTip:
       "Draugr swarm — area runic attacks clear them fast.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Trail%20of%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Trail%20of%20the%20Dead%20walkthrough"
   },
   {
     id: 434,
@@ -7226,7 +7226,7 @@ const quests = [
       "Deal with the destruction left in the wake of a rampaging force in Vanaheim.",
     aiTip:
       "Rewards solid crafting resources — a good mid-game favor.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Path%20of%20Destruction%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Path%20of%20Destruction%20walkthrough"
   },
   {
     id: 435,
@@ -7242,7 +7242,7 @@ const quests = [
       "Track a fearsome Dreki to its hideout in the Vanaheim plains and take it down.",
     aiTip:
       "Dreki charge lightning attacks — parry the tail sweep and punish after.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20In%20the%20Dead%20of%20Night%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20In%20the%20Dead%20of%20Night%20walkthrough"
   },
   {
     id: 436,
@@ -7258,7 +7258,7 @@ const quests = [
       "Investigate the tremors emanating from a hollow deep in Vanaheim.",
     aiTip:
       "Use the spear's environmental detonations to open the way.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Quaking%20Hollow%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Quaking%20Hollow%20walkthrough"
   },
   {
     id: 437,
@@ -7274,7 +7274,7 @@ const quests = [
       "Bring down a menacing airborne machine darkening Vanaheim's skies.",
     aiTip:
       "Sonic arrows stagger it out of the air — then close for the kill.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Burning%20Skies%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Burning%20Skies%20walkthrough"
   },
   {
     id: 438,
@@ -7290,7 +7290,7 @@ const quests = [
       "Help lay a haunted soul to rest as part of the Dead trilogy of favors.",
     aiTip:
       "One of three linked 'Dead' favors — completing all three tells a full story.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Conscience%20for%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Conscience%20for%20the%20Dead%20walkthrough"
   },
   {
     id: 439,
@@ -7306,7 +7306,7 @@ const quests = [
       "Answer a Berserker's challenge and defeat the summoned undead champion.",
     aiTip:
       "Berserkers are optional bosses — upgrade gear first; they hit brutally hard.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Stein%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Casualty%20of%20War%3A%20The%20Stein%20walkthrough"
   },
   {
     id: 440,
@@ -7322,7 +7322,7 @@ const quests = [
       "Defeat all the Berserker Souls across the realms to face their king, Hrólf Kraki.",
     aiTip:
       "The toughest optional fights in the game — save Hrólf for endgame with maxed gear.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Fit%20for%20a%20King%20(Berserkers)%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Fit%20for%20a%20King%20%28Berserkers%29%20walkthrough"
   },
   {
     id: 441,
@@ -7338,7 +7338,7 @@ const quests = [
       "Hunt down and destroy Odin's spectral ravens hidden across the nine realms.",
     aiTip:
       "Listen for their green glow and cawing — a satisfying realm-spanning collectible favor.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20All-Father%20Blinded%20(Odin's%20Ravens)%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20All-Father%20Blinded%20%28Odin%27s%20Ravens%29%20walkthrough"
   },
   {
     id: 442,
@@ -7354,7 +7354,7 @@ const quests = [
       "Restore light to a darkened elven region to press onward.",
     aiTip:
       "Redirect the elven light beams with Sigil arrows to banish the dark.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Guiding%20Light%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Guiding%20Light%20walkthrough"
   },
   {
     id: 443,
@@ -7370,7 +7370,7 @@ const quests = [
       "Lift a lingering curse plaguing a Vanaheim grove.",
     aiTip:
       "A tougher favor with a strong reward — bring status-resist armor.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Sigr%C3%BAn's%20Curse%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Sigr%C3%BAn%27s%20Curse%20walkthrough"
   },
   {
     id: 444,
@@ -10740,7 +10740,7 @@ const quests = [
       "Kratos and companions seek a hidden sanctuary in Vanaheim's jungle as the plan against Odin forms.",
     aiTip:
       "Vanaheim rewards revisiting — note favors you can't yet reach and return with new tools.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Lost%20Sanctuary%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Lost%20Sanctuary%20walkthrough"
   },
   {
     id: 652,
@@ -10756,7 +10756,7 @@ const quests = [
       "Atreus goes his own way, forcing Kratos to confront his son's independence and secrets.",
     aiTip:
       "A father-son turning point — the story leans into Atreus's playable sections here.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Runaway%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Runaway%20walkthrough"
   },
   {
     id: 653,
@@ -10772,7 +10772,7 @@ const quests = [
       "The party braves the fire realm of Muspelheim in pursuit of the tools of prophecy.",
     aiTip:
       "Muspelheim's heat and foes are brutal — upgrade armor before lingering for its trials.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Into%20the%20Fire%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Into%20the%20Fire%20walkthrough"
   },
   {
     id: 654,
@@ -10788,7 +10788,7 @@ const quests = [
       "Assemble and unlock the ancient mask Atreus believes can reveal a way to change fate.",
     aiTip:
       "A lore-heavy chapter tying together threads from across the realms.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Unlocking%20the%20Mask%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Unlocking%20the%20Mask%20walkthrough"
   },
   {
     id: 655,
@@ -10804,7 +10804,7 @@ const quests = [
       "A journey through Helheim forces the party to face loss before the war can begin.",
     aiTip:
       "Helheim's frost enemies resist ice — favor the Blades of Chaos throughout.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Hunting%20for%20Solace%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Hunting%20for%20Solace%20walkthrough"
   },
   {
     id: 656,
@@ -10820,7 +10820,7 @@ const quests = [
       "Kratos rallies the realms' champions for the coming war against Asgard.",
     aiTip:
       "Emotional pre-finale beat — make sure outstanding favors are done before the point of no return.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Summoning%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Summoning%20walkthrough"
   },
   {
     id: 657,
@@ -10836,7 +10836,7 @@ const quests = [
       "Help lay a fallen warrior to rest with the honor a Viking's death demands.",
     aiTip:
       "Part of the linked 'Dead' favors — completing all of them tells a full, moving story.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20A%20Viking%20Funeral%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20A%20Viking%20Funeral%20walkthrough"
   },
   {
     id: 658,
@@ -10852,7 +10852,7 @@ const quests = [
       "Seek a remedy tied to the grim mystery running through Vanaheim's afflicted.",
     aiTip:
       "Follow the 'Dead' favor chain in order for the best narrative payoff.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Cure%20for%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Cure%20for%20the%20Dead%20walkthrough"
   },
   {
     id: 659,
@@ -10868,7 +10868,7 @@ const quests = [
       "Bring peace to a haunted Vanaheim garden as the 'Dead' favor trilogy concludes.",
     aiTip:
       "The capstone of the 'Dead' favors — a satisfying, somber resolution.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Garden%20for%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Garden%20for%20the%20Dead%20walkthrough"
   },
   {
     id: 660,
@@ -10884,7 +10884,7 @@ const quests = [
       "Answer a Berserker's summons and defeat the vengeful undead champion.",
     aiTip:
       "Berserkers are optional bosses — upgrade gear first; they punish sloppy dodging.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Toy%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Casualty%20of%20War%3A%20The%20Toy%20walkthrough"
   },
   {
     id: 661,
@@ -10900,7 +10900,7 @@ const quests = [
       "Face another of the Nine Realms' Berserker souls in single combat.",
     aiTip:
       "Learn each Berserker's tells; parry-heavy play beats trading blows.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20Casualty%20of%20War%3A%20The%20Hourglass%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20Casualty%20of%20War%3A%20The%20Hourglass%20walkthrough"
   },
   {
     id: 662,
@@ -10916,7 +10916,7 @@ const quests = [
       "Investigate the tremors beneath a Svartalfheim mine and claim what's sealed within.",
     aiTip:
       "Use the Draupnir Spear's detonations to open the collapsed passages.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20What%20Lies%20Below%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20What%20Lies%20Below%20walkthrough"
   },
   {
     id: 663,
@@ -10932,7 +10932,7 @@ const quests = [
       "Restore the derelict Applecore elevator to open up new areas of the Aurvangar Wetlands.",
     aiTip:
       "Reopening it unlocks traversal and hidden chests across the wetlands.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Applecore%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Applecore%20walkthrough"
   },
   {
     id: 664,
@@ -10948,7 +10948,7 @@ const quests = [
       "Free the imprisoned sea beast Lyngbakr, chained by Odin, to ease Mimir's old guilt.",
     aiTip:
       "Requires returning with the right tools — a rewarding multi-step favor.",
-    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnarok%20The%20Weight%20of%20Chains%20(Lyngbakr)%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=God%20of%20War%20Ragnar%C3%B6k%20The%20Weight%20of%20Chains%20%28Lyngbakr%29%20walkthrough"
   },
   {
     id: 665,
