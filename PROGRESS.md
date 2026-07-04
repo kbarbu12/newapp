@@ -260,11 +260,16 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
 - [ ] **Re-verify obscure entries in the already deep-filled games** — a few individual entries
       may be missing or approximate where the source lists couldn't be fully enumerated (see the
       Tooling note below).
-- [ ] **Automate the audit** — commit a script that checks IDs / required fields / duplicate
-      titles / video-link health and diffs per-game counts against a target list, so the
-      🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
-      pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
-      can seed it. *(This is improvement #7 in §4.)*
+- [x] ~~**Automate the audit**~~ — **DONE (Jul 4).** Committed `scripts/audit.js` — run
+      `node scripts/audit.js`. It checks duplicate IDs, missing required fields, duplicate
+      titles per game, video-link health (malformed / reused hardcoded IDs / reused search
+      terms), and **sub-filter value consistency** (any `region`/`act`/`category` that isn't a
+      configured filter option, i.e. a quest hidden from its own filter). Errors exit non-zero
+      (CI/hook-ready); it also prints a per-game **coverage table** (listed vs the estimated-full
+      target) that generates the 🔴/🟡/✅ status instead of hand-maintaining it. *(Improvement
+      #7 in §4.)* On its first run it caught **8 hidden quests** — 3 Cyberpunk (`region:"Multiple"`)
+      and 5 Witcher (no region, all Kaer Morhen) — now fixed by adding a **City-Wide** district
+      option, a **Kaer Morhen** region option, and tagging the five.
 
 ### Ghost of Tsushima expansion — DONE (Jul 4)
 Applied the same treatment as Hogwarts to the other 🟠 game. **47 → 71.** Names verified via
