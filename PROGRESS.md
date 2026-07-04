@@ -8,7 +8,7 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **903** (was 253 at the start of this work; 844 → 839 after
+- **Total quests in library:** **927** (was 253 at the start of this work; 844 → 839 after
   5 duplicate Persona 5 Confidant entries were removed, then **+64** from the Hogwarts Legacy
   expansion — Phases 1–4, see §3)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
@@ -16,11 +16,11 @@
 - **Sub-filters (per-game, shown when a game is selected):** live for **13 of 15 games** —
   BG3 (Act), Black Myth (Chapter), Elden Ring (Region + Shadow of the Erdtree DLC),
   Witcher 3 (Region), Cyberpunk (District), FF7 Rebirth (Region), God of War (Realm),
-  Horizon (Region), Ghost of Tsushima (Region), Hogwarts (**two axes** — Category +
+  Horizon (Region), Ghost of Tsushima (**two axes** — Category + Region), Hogwarts (**two axes** — Category +
   Region, added Jul 3), Metaphor (Region),
   Demon's Souls (Archstone), Pillars of Eternity (Region). *(Deadfire and Persona 5 use the
   global filters — no clean single-geography axis.)*
-- **Walkthrough videos:** every quest (all 903) has a walkthrough video that captures **its
+- **Walkthrough videos:** every quest (all 927) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
 
@@ -37,7 +37,7 @@
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
 | Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
 | Baldur's Gate 3 | 47 | 10 | 37 | ✅ | ✅ Deep-filled (Acts 1–3 main story, companion arcs, major side quests) |
-| Ghost of Tsushima | 47 | 19 | 28 | — | ✅ Deep-filled (Act 1–3 tales, 7 Mythic Tales, companion tales, Iki Island) |
+| Ghost of Tsushima | 71 | 18 | 53 | ✅✅ | ✅ Expanded (Jul 4): all 9 Mythic Tales + individual companion Tales (Ishikawa 9, Masako 9, Norio 9, Yuna 4, Kenji 3); fixed Gosaku duplicate + bogus Ryuzo umbrella. Two sub-filters: **Category** + **Region** |
 | Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
 | Black Myth: Wukong | 37 | 6 | 31 | ✅ | ✅ Deep-filled (chapter bosses across all 6 chapters, transformations, secrets) |
 | Pillars of Eternity II: Deadfire | 29 | 7 | 22 | — | ✅ Deep-filled (main story, 4 faction paths, companion quests, DLCs) |
@@ -138,9 +138,8 @@ tiers first, then the Jul 3 accuracy pass.
 - 🟠 **Over-claimed — main story done, but many individual side quests are still collapsed
   into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (**now 124** of ~130 real named
   quests after the Phases 1–4 expansion — 37 main / 51 side / 12 assignments / 16 relationship;
-  **~6 obscure names still gated, see §3**), Ghost of Tsushima (47 vs **61 side Tales + 7 Mythic Tales** confirmed via web
-  search — the side Tales are grouped under ~6 "Tales of X" umbrella entries, not listed
-  individually), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
+  **~6 obscure names still gated, see §3**), ~~Ghost of Tsushima~~ **(EXPANDED Jul 4 → 71:** the ~6
+  "Tales of X" umbrellas were broken into individual companion tales; all 9 Mythic Tales present), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
   Requests are mostly under one umbrella). *These three were previously tagged "deep-filled";
   that was inaccurate.*
 - 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (47 vs 100+), Elden Ring, Black Myth.
@@ -234,6 +233,27 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
       🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
       pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
       can seed it. *(This is improvement #7 in §4.)*
+
+### Ghost of Tsushima expansion — DONE (Jul 4)
+Applied the same treatment as Hogwarts to the other 🟠 game. **47 → 71.** Names verified via
+web search (GamesRadar / PushSquare / Fandom / PowerPyx snippets):
+- **Broke the 6 "Tales of X" umbrella cards into individual companion tales:** Ishikawa 9
+  (The Sensei and the Student, The Past Never Passes, The Way of the Bow, Dreams of Conquest,
+  The Ghost and the Demon Sensei, The Terror of Otsuna, Friends in Passing, Laid to Rest),
+  Masako 9 (The Headman/Husband/Traitor/Fool/Family Man/Thief/Conspirator/Sister Betrayed +
+  A Mother's Peace), Norio 9 (The Last Warrior Monk … This Threefold World), Yuna 4, Kenji 3.
+- **All 9 Mythic Tales** now present — added the 2 Iki ones (**The Legend of Black Hand Riku,
+  The Legacy of Kazumasa Sakai**).
+- **Fixed 2 data bugs:** `#103 "Gosaku's Armor"` was a **duplicate** (it's the *reward* for the
+  Mythic Tale "The Unbreakable Gosaku", not a quest) → repurposed to Black Hand Riku; and the
+  **"Tales of Ryuzo" umbrella was bogus** (Ryuzo has no side tales — "The Tale of Ryuzo" is a
+  main tale) → deleted.
+- **Filters:** added a **Category** axis (Jin's Journey / Tales of Tsushima / Mythic Tales /
+  Tales of Iki / Exploration) alongside the existing **Region** axis — two AND-combining
+  sub-filters, same as Hogwarts. Verified in headless Chromium (71 cards, counts
+  18/33/9/4/7, Mythic ∩ Iki = 2, no JS errors).
+- *Remaining:* the standalone (non-companion) Tales of Tsushima toward the full 61 are still
+  gated on the 403-blocked full guide list.
 
 ### Hogwarts Legacy expansion — Phases 1–4 (Jul 3)
 **Goal:** bring Hogwarts Legacy from 60 listed quests toward its full ~130 (the 🟠

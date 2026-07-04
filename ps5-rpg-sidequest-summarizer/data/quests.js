@@ -175,16 +175,29 @@ const subFilterConfig = {
       { value: "Burning Shores", text: "Burning Shores (DLC)" }
     ]
   },
-  "Ghost of Tsushima": {
-    field: "region",
-    label: "Region",
-    options: [
-      { value: "Izuhara", text: "Izuhara" },
-      { value: "Toyotama", text: "Toyotama" },
-      { value: "Kamiagata", text: "Kamiagata" },
-      { value: "Iki Island", text: "Iki Island (DLC)" }
-    ]
-  },
+  "Ghost of Tsushima": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Jin's Journey", text: "Jin's Journey" },
+        { value: "Tales of Tsushima", text: "Tales of Tsushima" },
+        { value: "Mythic Tales", text: "Mythic Tales" },
+        { value: "Tales of Iki", text: "Tales of Iki" },
+        { value: "Exploration", text: "Exploration" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Region",
+      options: [
+        { value: "Izuhara", text: "Izuhara" },
+        { value: "Toyotama", text: "Toyotama" },
+        { value: "Kamiagata", text: "Kamiagata" },
+        { value: "Iki Island", text: "Iki Island (DLC)" }
+      ]
+    }
+  ],
   "Hogwarts Legacy": [
     {
       field: "category",
@@ -1048,6 +1061,7 @@ const quests = [
   {
     id: 51,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Spirit of Yarikawa's Vengeance",
@@ -1064,6 +1078,7 @@ const quests = [
   {
     id: 52,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Curse of Uchitsune",
@@ -1080,6 +1095,7 @@ const quests = [
   {
     id: 53,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Tale of Sensei Ishikawa",
@@ -1798,6 +1814,7 @@ const quests = [
   {
     id: 100,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Legend of Tadayori",
@@ -1814,6 +1831,7 @@ const quests = [
   {
     id: 101,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Heavenly Strike",
@@ -1830,6 +1848,7 @@ const quests = [
   {
     id: 102,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Tale of Lady Masako",
@@ -1846,18 +1865,19 @@ const quests = [
   {
     id: 103,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
-    region: "Toyotama",
-    title: "Gosaku's Armor",
-    location: "Akashima, Toyotama",
+    region: "Iki Island",
+    title: "The Legend of Black Hand Riku",
+    location: "Iki Island",
     length: "long",
-    difficulty: "Medium",
-    reward: "Gosaku's Armor (best melee armor), massive stagger damage",
+    difficulty: "High",
+    reward: "Kensei armor dye, Mythic reward",
     summary:
-      "Liberate six occupied farmsteads across Toyotama to collect keys that unlock the legendary armor of the warrior Gosaku. Each farmstead is a combat encounter with Mongol forces, building toward the armor's hidden shrine.",
+      "Hunt down the legend of Black Hand Riku, a fearsome raider whose ghost still haunts Iki Island.",
     aiTip:
-      "Gosaku's Armor restores health on staggered kills — it's arguably the best combat armor. The six farmsteads are spread across the map; liberate them as you explore naturally.",
-    video: "https://www.youtube.com/watch?v=MATxmNS9GxY"
+      "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
   {
     id: 104,
@@ -2919,6 +2939,7 @@ const quests = [
   {
     id: 173,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Six Blades of Kojiro",
@@ -2935,6 +2956,7 @@ const quests = [
   {
     id: 174,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Unbreakable Gosaku",
@@ -2951,22 +2973,24 @@ const quests = [
   {
     id: 175,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Toyotama",
-    title: "Norio's Devotion",
-    location: "Toyotama / Kamiagata",
-    length: "long",
+    title: "Three Actions, Three Illusions",
+    location: "Toyotama",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Norio companion quest complete, unique dye, Legend increase",
+    reward: "Norio tale progress",
     summary:
-      "Accompany the warrior monk Norio as he tracks down the Mongol commander responsible for destroying his temple and killing his brother. A quest about faith, vengeance, and whether peace of mind can be found through violence.",
+      "Continue with Norio as he confronts the illusions of vengeance while liberating the faithful.",
     aiTip:
-      "Complete all three of Norio's companion missions in sequence. The final confrontation has a meaningful choice — both options have emotional weight depending on your interpretation of Norio's journey.",
-    video: "https://www.youtube.com/watch?v=NFIy0-yiTg4"
+      "Norio Tale 2 of 9.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
   {
     id: 176,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "A Reckoning in Blood",
@@ -2983,34 +3007,36 @@ const quests = [
   {
     id: 177,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Toyotama",
-    title: "The Tournament of Kenjutsu",
-    location: "Iki Island (Director's Cut)",
-    length: "long",
-    difficulty: "High",
-    reward: "Iki Island armor set, duelling techniques",
+    title: "Nattou and the Sake Seller",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Kenji tale progress",
     summary:
-      "Enter a prestigious sword tournament on Iki Island and face increasingly skilled opponents from across the region. Each round reveals more about Iki Island's culture and Jin's complicated connection to the island.",
+      "Help Kenji chase a rival sake seller and a batch of stolen nattou across Toyotama.",
     aiTip:
-      "Tournament opponents each use a specific fighting style — switch stances between rounds. The final opponent counters aggression; use reactive parry strategies.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tournament%20of%20Kenjutsu%20walkthrough"
+      "Kenji Tale 2 of 3.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
   {
     id: 178,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Yuna's Pursuit",
-    location: "Izuhara / Toyotama",
-    length: "long",
+    title: "Silent Death",
+    location: "Izuhara",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Yuna companion quest complete, unique Ghost armor dye",
+    reward: "Yuna tale progress",
     summary:
-      "Help Yuna track down her brother Taka and the Mongols who are exploiting Tsushima's civilians. Her companion quest adds important context to the dynamic between the samurai code and Jin's evolution into the Ghost.",
+      "Help Yuna deal ruthlessly with the Mongols hunting her, learning how far she'll go to survive.",
     aiTip:
-      "Side with Yuna in disagreements — her practical approach reflects the Ghost philosophy. Completing all her quests before the end of Act 2 provides the best emotional payoff.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Yuna's%20Pursuit%20walkthrough"
+      "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
   {
     id: 179,
@@ -7640,6 +7666,7 @@ const quests = [
   {
     id: 467,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Warrior's Code",
@@ -7656,6 +7683,7 @@ const quests = [
   {
     id: 468,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Blood on the Grass",
@@ -7672,6 +7700,7 @@ const quests = [
   {
     id: 469,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Shadow of the Samurai",
@@ -7688,6 +7717,7 @@ const quests = [
   {
     id: 470,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "A Gathering Storm",
@@ -7704,6 +7734,7 @@ const quests = [
   {
     id: 471,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "A Message in Fire",
@@ -7720,6 +7751,7 @@ const quests = [
   {
     id: 472,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "Ghosts from the Past",
@@ -7736,6 +7768,7 @@ const quests = [
   {
     id: 473,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Kamiagata",
     title: "The Tale of Lord Shimura",
@@ -7752,6 +7785,7 @@ const quests = [
   {
     id: 474,
     type: "side",
+    category: "Mythic Tales",
     game: "Ghost of Tsushima",
     region: "Kamiagata",
     title: "The Undying Flame",
@@ -7768,102 +7802,92 @@ const quests = [
   {
     id: 475,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Tales of Yuna",
-    location: "Multiple regions",
+    title: "The Tale of Yuna",
+    location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Yuna & Taka arc, ally upgrades",
+    reward: "Yuna's trust, charm",
     summary:
-      "Follow the thief Yuna and her brother Taka as they aid Jin's fight and pursue their own hopes.",
+      "Begin the thief Yuna's questline as she and Jin search for her captured blacksmith brother, Taka.",
     aiTip:
-      "Yuna's tales unlock key story allies and gear — a high-value companion chain.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Yuna%20walkthrough"
+      "First of Yuna's four tales; unlocks after the early story on Tsushima.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
   {
     id: 476,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Tales of Sensei Ishikawa",
-    location: "Multiple regions",
+    title: "The Sensei and the Student",
+    location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ishikawa's bow mastery, betrayal arc",
+    reward: "Ishikawa tale progress",
     summary:
-      "Help the master archer Ishikawa hunt his traitorous former student, Tomoe.",
+      "Aid Sensei Ishikawa as he tracks his traitorous former student, the archer Tomoe.",
     aiTip:
-      "Completing his tales upgrades your bow and reveals a tense mentor-student saga.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Sensei%20Ishikawa%20walkthrough"
+      "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
   {
     id: 477,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Tales of Lady Masako",
-    location: "Multiple regions",
+    title: "The Headman",
+    location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Masako's revenge, armor dyes",
+    reward: "Masako tale progress",
     summary:
-      "Aid the vengeful noblewoman Masako as she hunts the killers of her entire family.",
+      "Join Lady Masako hunting the men who slaughtered Clan Adachi — starting with a village headman.",
     aiTip:
-      "Her tales grant unique rewards and one of the game's most memorable revenge stories.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Lady%20Masako%20walkthrough"
+      "First of Masako's revenge tales; expect grim choices.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
   {
     id: 478,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Tales of Kenji",
-    location: "Multiple regions",
-    length: "short",
+    title: "Servant of the People",
+    location: "Izuhara",
+    length: "medium",
     difficulty: "Low",
-    reward: "Sake-fueled comic relief, allies",
+    reward: "Kenji tale progress",
     summary:
-      "Follow the bumbling sake trader Kenji through a string of lighthearted, boozy misadventures.",
+      "Get roped into the sake trader Kenji's schemes as he insists he serves the common folk.",
     aiTip:
-      "A comedic palate cleanser between grim main tales — easy, fun rewards.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Kenji%20walkthrough"
+      "Kenji Tale 1 of 3 — comic relief with a sting.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
   },
   {
     id: 479,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
     region: "Toyotama",
-    title: "Tales of Norio",
-    location: "Toyotama",
+    title: "The Last Warrior Monk",
+    location: "Jogaku / Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Warrior monk ally, spirit arc",
+    reward: "Norio tale progress",
     summary:
-      "Join the warrior monk Norio of Cedar Temple as faith and violence collide against the Mongols.",
+      "Meet the naginata-wielding monk Norio as he fights to reclaim Cedar Temple from the Mongols.",
     aiTip:
-      "His tales add a spiritual dimension and a capable ally for larger battles.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Norio%20walkthrough"
-  },
-  {
-    id: 480,
-    type: "side",
-    game: "Ghost of Tsushima",
-    region: "Toyotama",
-    title: "Tales of Ryuzo",
-    location: "Multiple regions",
-    length: "medium",
-    difficulty: "High",
-    reward: "Straw Hat Ronin arc",
-    summary:
-      "Confront Jin's old friend Ryuzo, whose desperation leads the Straw Hat Ronin down a dark path.",
-    aiTip:
-      "Ties directly into the main story's biggest betrayal — emotionally and mechanically weighty.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Tales%20of%20Ryuzo%20walkthrough"
+      "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
   {
     id: 481,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Fox Dens & Inari Shrines",
@@ -7880,6 +7904,7 @@ const quests = [
   {
     id: 482,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Shinto Shrines",
@@ -7896,6 +7921,7 @@ const quests = [
   {
     id: 483,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Bamboo Strikes",
@@ -7912,6 +7938,7 @@ const quests = [
   {
     id: 484,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Haiku & Hot Springs",
@@ -7928,6 +7955,7 @@ const quests = [
   {
     id: 485,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Pillars of Honor & Duels",
@@ -7944,6 +7972,7 @@ const quests = [
   {
     id: 486,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Mongol Artifacts & Records",
@@ -7960,6 +7989,7 @@ const quests = [
   {
     id: 487,
     type: "main",
+    category: "Tales of Iki",
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "Journey into the Past (Iki Island)",
@@ -7976,6 +8006,7 @@ const quests = [
   {
     id: 488,
     type: "side",
+    category: "Tales of Iki",
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "The Eagle's Cry (Iki Island)",
@@ -11188,6 +11219,7 @@ const quests = [
   {
     id: 688,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Broken Blacksmith",
@@ -11204,6 +11236,7 @@ const quests = [
   {
     id: 689,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Iron Hook",
@@ -11220,6 +11253,7 @@ const quests = [
   {
     id: 690,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "Hammer and the Forge",
@@ -11236,6 +11270,7 @@ const quests = [
   {
     id: 691,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Tale of Ryuzo",
@@ -11252,6 +11287,7 @@ const quests = [
   {
     id: 692,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "Heart of the Jito",
@@ -11268,6 +11304,7 @@ const quests = [
   {
     id: 693,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "From the Darkness",
@@ -11284,6 +11321,7 @@ const quests = [
   {
     id: 694,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Kamiagata",
     title: "The Coward's Deception",
@@ -11300,6 +11338,7 @@ const quests = [
   {
     id: 695,
     type: "main",
+    category: "Jin's Journey",
     game: "Ghost of Tsushima",
     region: "Kamiagata",
     title: "A New Horizon",
@@ -11316,6 +11355,7 @@ const quests = [
   {
     id: 696,
     type: "side",
+    category: "Tales of Iki",
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "A Lost Friend (Iki Island)",
@@ -11332,6 +11372,7 @@ const quests = [
   {
     id: 697,
     type: "side",
+    category: "Tales of Iki",
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "The Blessing of Death (Iki Island)",
@@ -11348,6 +11389,7 @@ const quests = [
   {
     id: 698,
     type: "side",
+    category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "Animal Sanctuaries (Iki Island)",
@@ -11364,18 +11406,19 @@ const quests = [
   {
     id: 699,
     type: "side",
+    category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Toyotama",
-    title: "Sensei Ishikawa: The Mongol Bows",
-    location: "Toyotama",
+    region: "Izuhara",
+    title: "The Past Never Passes",
+    location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Bow upgrades, Tomoe arc",
+    reward: "Ishikawa tale progress",
     summary:
-      "Continue Ishikawa's hunt for his traitor student and master new archery.",
+      "Follow Ishikawa deeper into his history with Tomoe as old wounds resurface.",
     aiTip:
-      "Advances the mentor's arc and upgrades your bow — a strong companion chain.",
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Sensei%20Ishikawa%3A%20The%20Mongol%20Bows%20walkthrough"
+      "Part of the Unbending Archer questline; verify against a guide if replaying.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
   {
     id: 700,
@@ -14802,5 +14845,430 @@ const quests = [
     aiTip:
       "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Troll%20Control%20walkthrough"
+  },
+  {
+    id: 910,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Black Wolf",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yuna tale progress",
+    summary:
+      "Track a brutal Mongol commander known as the Black Wolf alongside Yuna.",
+    aiTip:
+      "Yuna Tale 3 of 4.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
+  },
+  {
+    id: 911,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Message in Blood",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yuna questline finale",
+    summary:
+      "Close out Yuna's story as her search for Taka reaches its emotional end.",
+    aiTip:
+      "Yuna Tale 4 of 4.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
+  },
+  {
+    id: 912,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Way of the Bow",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ishikawa tale progress",
+    summary:
+      "Train and hunt with Ishikawa as he teaches Jin the discipline of the bow.",
+    aiTip:
+      "Ishikawa questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
+  },
+  {
+    id: 913,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Dreams of Conquest",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ishikawa tale progress",
+    summary:
+      "Pursue Tomoe as she aids the Mongols' ambitions across Toyotama.",
+    aiTip:
+      "Ishikawa questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
+  },
+  {
+    id: 914,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Ghost and the Demon Sensei",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ishikawa tale progress",
+    summary:
+      "Confront the darker rumors about Ishikawa as the hunt for Tomoe intensifies.",
+    aiTip:
+      "Ishikawa questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
+  },
+  {
+    id: 915,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Terror of Otsuna",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ishikawa tale progress",
+    summary:
+      "Chase Tomoe to Otsuna, where her reign of terror must finally be answered.",
+    aiTip:
+      "Ishikawa questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
+  },
+  {
+    id: 916,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Friends in Passing",
+    location: "Izuhara",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Ishikawa tale progress",
+    summary:
+      "A quieter beat in Ishikawa's story as allies come and go.",
+    aiTip:
+      "Ishikawa questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
+  },
+  {
+    id: 917,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "Laid to Rest",
+    location: "Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Unbending Archer trophy",
+    summary:
+      "Bring the Sensei and the Student saga to its bittersweet conclusion.",
+    aiTip:
+      "Final Ishikawa tale — completes the Unbending Archer.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
+  },
+  {
+    id: 918,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Husband",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako tale progress",
+    summary:
+      "Follow a lead to one of the Adachi conspirators — a man hiding behind his marriage.",
+    aiTip:
+      "Masako revenge tale.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
+  },
+  {
+    id: 919,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Traitor",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako tale progress",
+    summary:
+      "Unmask a traitor who sold out Clan Adachi from within.",
+    aiTip:
+      "Masako revenge tale.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
+  },
+  {
+    id: 920,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Fool",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako tale progress",
+    summary:
+      "Track a foolish accomplice in the Adachi massacre.",
+    aiTip:
+      "Masako revenge tale.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
+  },
+  {
+    id: 921,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Family Man",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako tale progress",
+    summary:
+      "Weigh mercy against vengeance when a killer turns out to be a devoted father.",
+    aiTip:
+      "Masako revenge tale — a hard choice.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
+  },
+  {
+    id: 922,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Thief",
+    location: "Izuhara",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masako tale progress",
+    summary:
+      "Hunt a thief tangled up in the betrayal of Masako's family.",
+    aiTip:
+      "Masako revenge tale.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
+  },
+  {
+    id: 923,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Conspirator",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Masako tale progress",
+    summary:
+      "Close in on the conspirator orchestrating the Adachi killings.",
+    aiTip:
+      "Masako revenge tale.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
+  },
+  {
+    id: 924,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Sister Betrayed",
+    location: "Toyotama",
+    length: "long",
+    difficulty: "High",
+    reward: "Vengeful Warrior trophy",
+    summary:
+      "Reach the wrenching heart of Masako's revenge — the sister who betrayed her.",
+    aiTip:
+      "Completes the Vengeful Warrior.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
+  },
+  {
+    id: 925,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "A Mother's Peace",
+    location: "Izuhara",
+    length: "short",
+    difficulty: "Low",
+    reward: "Masako bonus tale",
+    summary:
+      "A quiet, optional coda to Masako's story about the family she lost.",
+    aiTip:
+      "Bonus tale — unlocks after The Husband.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
+  },
+  {
+    id: 926,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Delicate Art of Negotiation",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Kenji questline finale",
+    summary:
+      "Back Kenji in a wildly ill-advised 'negotiation' that only he could talk his way into.",
+    aiTip:
+      "Kenji Tale 3 of 3.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
+  },
+  {
+    id: 927,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "Ghosts in the Fog",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Norio tale progress",
+    summary:
+      "Fight beside Norio to free monks and villagers hidden in the fog.",
+    aiTip:
+      "Norio questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
+  },
+  {
+    id: 928,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Birth of Suffering",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Norio tale progress",
+    summary:
+      "Norio wrestles with the violence his cause demands.",
+    aiTip:
+      "Norio questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
+  },
+  {
+    id: 929,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Blood Sutra",
+    location: "Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Norio tale progress",
+    summary:
+      "Recover a blood-stained sutra and confront what Norio is becoming.",
+    aiTip:
+      "Norio questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
+  },
+  {
+    id: 930,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Cause of Suffering",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Norio tale progress",
+    summary:
+      "Trace the root of the suffering plaguing Kamiagata's faithful.",
+    aiTip:
+      "Norio questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
+  },
+  {
+    id: 931,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The End of Suffering",
+    location: "Kamiagata",
+    length: "medium",
+    difficulty: "High",
+    reward: "Norio tale progress",
+    summary:
+      "Help Norio bring an end to a cycle of vengeance and grief.",
+    aiTip:
+      "Norio questline.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
+  },
+  {
+    id: 932,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Guardian of Tsushima",
+    location: "Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Norio tale progress",
+    summary:
+      "Stand with Norio as the guardian the island's people need.",
+    aiTip:
+      "Norio Tale 8 of 9.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
+  },
+  {
+    id: 933,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "This Threefold World",
+    location: "Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Warrior Monk trophy",
+    summary:
+      "Bring Norio's story to its close in a final reckoning of faith and blood.",
+    aiTip:
+      "Completes the Warrior Monk.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
+  },
+  {
+    id: 934,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Tsushima",
+    region: "Iki Island",
+    title: "The Legacy of Kazumasa Sakai",
+    location: "Iki Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Sakai armor dye, Mythic reward",
+    summary:
+      "Uncover the legend of Jin's father, Kazumasa Sakai, in this Iki Island Mythic Tale.",
+    aiTip:
+      "Iki Mythic Tale — follow the musician's song, then win the final duel.",
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   }
 ];
