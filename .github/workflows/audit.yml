@@ -1,0 +1,36 @@
+name: Quest data audit
+
+# Runs the automated data audit (integrity + coverage diff) on every push and
+# pull request that touches the quest data, the audit tooling, or the app's
+# sub-filter logic. Fails the build on any integrity error (duplicate ids,
+# missing fields, duplicate titles, bad video links, or sub-filter tag gaps).
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "ps5-rpg-sidequest-summarizer/data/**"
+      - "ps5-rpg-sidequest-summarizer/scripts/**"
+      - "ps5-rpg-sidequest-summarizer/src/app.js"
+      - ".github/workflows/audit.yml"
+  pull_request:
+    paths:
+      - "ps5-rpg-sidequest-summarizer/data/**"
+      - "ps5-rpg-sidequest-summarizer/scripts/**"
+      - "ps5-rpg-sidequest-summarizer/src/app.js"
+      - ".github/workflows/audit.yml"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ps5-rpg-sidequest-summarizer
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run quest data audit
+        run: node scripts/audit.js

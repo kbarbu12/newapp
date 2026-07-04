@@ -66,7 +66,17 @@ Beyond deep-fill, a name-by-name accuracy audit against canonical guides is unde
 - [x] Pillars of Eternity, Pillars of Eternity II: Deadfire, Demon's Souls, Metaphor: ReFantazio
       — guide-audited (13 misattributed/fabricated quest names fixed; see `PROGRESS.md` §2).
 - [ ] Baldur's Gate 3, Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit title-by-title.
-- [ ] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
+- [x] **Automate the audit** — committed `scripts/audit.js` (+ `scripts/targets.js`), wired to
+      `npm test` / `npm run audit` and a GitHub Actions workflow (`.github/workflows/audit.yml`).
+      It checks IDs / required fields / duplicate titles / video-link health / sub-filter tag
+      integrity, and **generates** the per-game ✅/🟡/🔴 status by diffing counts against a
+      target list. Fails CI on any integrity error.
+- [x] **Re-verify obscure entries in the deep-filled games** (internal-consistency pass) — the new
+      audit caught **8 real bugs**: 3 Cyberpunk city-wide quests tagged `region:"Multiple"` and 5
+      Witcher quests with a missing/unlisted region — all were invisible to their game's sub-filter.
+      Fixed by adding a **Kaer Morhen** option (Witcher) + **Multiple / City-wide** option (Cyberpunk)
+      and tagging the entries; verified in headless Chromium. *(Guide-content re-verification of the
+      🟡 games still needs guide-host egress — see `PROGRESS.md` §2 blocker.)*
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)

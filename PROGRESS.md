@@ -1,7 +1,7 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-07-03
-**Branch:** `claude/quest-audit-222ne7`
+**Last updated:** 2026-07-04
+**Branch:** `claude/document-sharing-oo7pq2`
 **Live site:** https://kbarbu12.github.io/newapp/
 
 ---
@@ -225,14 +225,30 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
 - [ ] **Guide-audit the 3 remaining 🟡 games title-by-title:** Baldur's Gate 3, Elden Ring,
       Black Myth: Wukong. *(Elden Ring was spot-checked and was accurate apart from the Diallos
       region mis-tag fixed this pass; BG3 and Black Myth still want a full name-by-name pass.)*
-- [ ] **Re-verify obscure entries in the already deep-filled games** — a few individual entries
-      may be missing or approximate where the source lists couldn't be fully enumerated (see the
-      Tooling note below).
-- [ ] **Automate the audit** — commit a script that checks IDs / required fields / duplicate
-      titles / video-link health and diffs per-game counts against a target list, so the
-      🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
-      pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
-      can seed it. *(This is improvement #7 in §4.)*
+- [x] **Re-verify obscure entries in the already deep-filled games** — ran an internal-consistency
+      re-verification via the new audit (below). It found **8 real bugs** that made entries
+      **invisible to their game's sub-filter**: 3 Cyberpunk quests carried `region: "Multiple"`
+      (a value with no matching District pill — *Cyberpsycho Sightings – I Am The Law*, *Beat on
+      the Brat*, *Epistrophy*, all genuinely city-wide) and 5 Witcher 3 quests had a missing or
+      unlisted region (*Ugly Baby* → Velen; *The Battle of Kaer Morhen*, *Blood on the Battlefield*,
+      *Something Ends, Something Begins*, *Scavenger Hunt: Wolf School Gear* → Kaer Morhen). Fixes:
+      added a **Kaer Morhen** region option (Witcher) and a **Multiple / City-wide** district option
+      (Cyberpunk), and tagged the entries. Verified in headless Chromium — the Witcher *Kaer Morhen*
+      pill returns its 4 quests and the Cyberpunk *Multiple* pill its 3, with 0 JS errors.
+      *(Guide-content re-verification of the 🟡 games — actual quest-name accuracy — still needs
+      guide-host egress; see the §2 blocker.)*
+- [x] **Automate the audit** — **DONE.** Committed `scripts/audit.js` + `scripts/targets.js`, run via
+      `npm test` / `npm run audit` (and `--json` / `--quiet`) and a GitHub Actions workflow
+      (`.github/workflows/audit.yml`) that gates every push/PR touching the data or app filter logic.
+      It runs two passes: **integrity** (unique positive-int IDs, all required fields present,
+      `type ∈ {main,side}`, known game + cover-on-disk, no duplicate titles per game, well-formed
+      YouTube watch/playlist/search video URLs, and **sub-filter tag integrity** — every quest in a
+      game with a sub-filter axis carries a valid option value) and **quality/re-verify** advisories
+      (stub summaries/tips, reused boilerplate, bogus umbrella titles, search-video queries that
+      don't match the title). It then **generates** the per-game ✅/🟡/🔴 status by diffing actual
+      counts against `targets.js`, so the status table is no longer hand-maintained. Exit code is
+      non-zero on any integrity error. *(This is improvement #7 in §4.)* Current run: **0 integrity
+      errors**, 21 advisory flags (all terse-but-valid aiTips).
 
 ### Ghost of Tsushima expansion — DONE (Jul 4)
 Applied the same treatment as Hogwarts to the other 🟠 game. **47 → 71.** Names verified via

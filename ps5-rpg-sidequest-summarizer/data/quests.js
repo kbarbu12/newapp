@@ -121,6 +121,7 @@ const subFilterConfig = {
       { value: "Velen", text: "Velen" },
       { value: "Novigrad", text: "Novigrad" },
       { value: "Skellige", text: "Skellige" },
+      { value: "Kaer Morhen", text: "Kaer Morhen" },
       { value: "Toussaint", text: "Toussaint (Blood & Wine)" }
     ]
   },
@@ -135,7 +136,8 @@ const subFilterConfig = {
       { value: "Santo Domingo", text: "Santo Domingo" },
       { value: "City Center", text: "City Center" },
       { value: "Badlands", text: "Badlands" },
-      { value: "Dogtown", text: "Dogtown (Phantom Liberty)" }
+      { value: "Dogtown", text: "Dogtown (Phantom Liberty)" },
+      { value: "Multiple", text: "Multiple / City-wide" }
     ]
   },
   "Final Fantasy VII Rebirth": {
@@ -6162,6 +6164,7 @@ const quests = [
     id: 372,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
     title: "Ugly Baby",
     location: "Velen",
     length: "medium",
@@ -9876,6 +9879,7 @@ const quests = [
     id: 603,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "The Battle of Kaer Morhen",
     location: "Kaer Morhen",
     length: "long",
@@ -9891,6 +9895,7 @@ const quests = [
     id: 604,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Blood on the Battlefield",
     location: "Kaer Morhen",
     length: "short",
@@ -9954,6 +9959,7 @@ const quests = [
     id: 608,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Something Ends, Something Begins",
     location: "Various",
     length: "short",
@@ -10353,6 +10359,7 @@ const quests = [
     id: 633,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Scavenger Hunt: Wolf School Gear",
     location: "Kaer Morhen",
     length: "medium",

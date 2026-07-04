@@ -1,0 +1,12 @@
+{
+  "name": "rpg-quest-guide",
+  "version": "1.0.0",
+  "description": "RPG Quest Guide — a static PS5 RPG side-quest walkthrough site. This package.json exists to run the data audit; the site itself ships as static files.",
+  "private": true,
+  "scripts": {
+    "audit": "node scripts/audit.js",
+    "audit:json": "node scripts/audit.js --json",
+    "test": "node scripts/audit.js --quiet"
+  },
+  "license": "UNLICENSED"
+}
