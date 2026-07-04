@@ -23,6 +23,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # Gate the live deploy on the quest-data audit — a data bug (dup IDs,
+      # missing fields, dup titles, malformed/reused videos, quests hidden from
+      # their sub-filter) fails the build before anything ships.
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Audit quest data
+        working-directory: ps5-rpg-sidequest-summarizer
+        run: node scripts/audit.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
