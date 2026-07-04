@@ -214,6 +214,36 @@ against the full wiki lists could guarantee 100% coverage per game.**
 
 ## 3. What still needs to be done
 
+### 🔎 Known gaps to revisit (content that exists but isn't fully enumerated yet)
+This is the **"come back to this later" list**. These are quests/activities known to exist in
+each game that are **not yet listed individually** — almost all blocked by the same cause: the
+guide hosts (PowerPyx / Game8 / Fandom / Fextralife / gamepressure) return **403** at the
+egress proxy and `curl`/WebFetch to any site returns `000`, so only web **search** works, and
+the remaining names don't surface in search snippets. **Unblock path for every row below:**
+enable guide-host egress for a scripted fetch → diff, or paste the exact name list.
+*(Guessed names that web search actively **rejected** as not-real are NOT listed here — they
+were dropped on purpose, not deferred.)*
+
+| Game | Listed | Est. real | Gap to revisit |
+|------|:------:|:---------:|----------------|
+| Persona 5 Royal | 44 | ~65 | **~20 individual Mementos Requests** still under the `#465` umbrella — request names don't appear in search snippets. Palaces (9) + Confidants (~22) are complete. |
+| Ghost of Tsushima | 71 | ~76 | The **standalone (non-companion) Tales of Tsushima** toward the full 61; the Exploration umbrellas (Fox Dens, Shinto/Inari Shrines, Bamboo Strikes, Haiku, Hot Springs, Pillars of Honor, Mongol artifacts) each collapse many activities. |
+| Hogwarts Legacy | 124 | ~130 | **~6:** a few obscure creature-den / treasure-vault side quests (~51 of 57 named), ~3 epilogue/House-Cup main quests. Note some "side quests" in guides (Crossed Wands, Summoner's Court, The Daedalian Keys) live under the **Challenges** bucket here. |
+| Cyberpunk 2077 | 148 | ~150 | A handful of the ~78 fixer **gigs** may be missing (reconstructed from search + canon). NCPD Scanner Hustles are intentionally excluded as filler, not quests. |
+| Pillars of Eternity / Deadfire | 28 / 29 | 50+ each | These are content-dense CRPGs: main story + companion quests + DLC are covered, but **many minor tasks / bounties / errands** per region are not individually listed. |
+| God of War Ragnarök | 62 | ~70 | Some **Berserker Gravestones**, **Odin's Ravens**, and collectible "Favor" sub-objectives are grouped under umbrella entries rather than listed 1:1. |
+| Horizon Forbidden West | 52 | ~70 | System content (Cauldrons, Rebel Camps, Hunting Grounds, Relic Ruins, Tallnecks, Salvage Contracts) is partly **umbrella'd**; individual errands may be missing. |
+| The Witcher 3 | 96 | ~100+ | Believed comprehensive for story + secondaries + witcher contracts + treasure hunts; minor **"?" points of interest** and some **Gwent quests** may be missing. |
+| FF7 Rebirth | 72 | ~80 | Chapters + Odd Jobs covered; some **region intel objectives and minigame side-stories** are umbrella'd. |
+| Elden Ring | 54 | ~60 | Main bosses + NPC questlines + full SotE covered; some **optional catacomb/cave bosses** aren't listed 1:1. |
+| Metaphor / Black Myth / Demon's Souls | 40 / 37 / 23 | close | Believed complete for their scope; a few **optional bounties (Metaphor)**, **secret bosses (Black Myth)**, and NPC micro-arcs may remain. |
+| Baldur's Gate 3 | 47 | 100+ | 🟡 Largest remaining gap — main + companion + major side quests only; **Act 1–3 has many more named side quests**. (Being worked next.) |
+
+**Every game not called out with a hard number is "believed complete for its scope"** — i.e.
+all main story + named side/companion content is present, and only obscure collectibles or
+micro-quests might be missing. The rows above are where a future guide-list diff would add the
+most.
+
 ### High priority — all complete ✅
 - [x] ~~Full coverage pass on all 15 games~~ — **DONE. Every game is deep-filled.**
 - [x] ~~Per-game sub-filters~~ — **DONE.** 13 of 15 games now show a contextual sub-filter when
