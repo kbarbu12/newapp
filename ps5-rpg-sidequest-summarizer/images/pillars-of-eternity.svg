@@ -1,18 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="215" viewBox="0 0 460 215">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="215" viewBox="0 0 460 215" role="img" aria-label="Pillars of Eternity cover art">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a1400"/>
-      <stop offset="50%" stop-color="#8b6914"/>
-      <stop offset="100%" stop-color="#d4a836"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241a02"/>
+      <stop offset="45%" stop-color="#5c440d"/>
+      <stop offset="100%" stop-color="#c9a02f"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
-    </filter>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#f0c85a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f0c85a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="soul" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d8"/>
+      <stop offset="100%" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1a1200" stop-opacity="0.85"/>
+    </linearGradient>
   </defs>
-  <rect width="460" height="215" fill="url(#bg)"/>
-  <circle cx="340" cy="50" r="80" fill="#d4a836" opacity="0.08" filter="url(#glow)"/>
-  <circle cx="120" cy="180" r="60" fill="#d4a836" opacity="0.06" filter="url(#glow)"/>
-  <text x="230" y="95" text-anchor="middle" font-family="system-ui,sans-serif" font-size="48" font-weight="900" fill="rgba(255,255,255,0.85)" letter-spacing="0.05em">POE</text>
-  <text x="230" y="135" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.45)" letter-spacing="0.08em">PILLARS OF ETERNITY</text>
-  <line x1="170" y1="155" x2="290" y2="155" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <rect width="460" height="215" fill="url(#sky)"/>
+  <!-- soul-sun -->
+  <circle cx="300" cy="70" r="120" fill="url(#sun)"/>
+  <circle cx="300" cy="70" r="30" fill="#ffedb0" opacity="0.9"/>
+
+  <!-- distant mountains -->
+  <path d="M0 150 L70 108 L120 138 L190 96 L250 140 L320 104 L400 146 L460 118 L460 215 L0 215 Z" fill="#3d2c08" opacity="0.7"/>
+  <path d="M0 172 L90 138 L160 166 L240 132 L330 168 L410 140 L460 160 L460 215 L0 215 Z" fill="#2a1d04" opacity="0.85"/>
+
+  <!-- central monument / pillar -->
+  <g fill="#170f01" opacity="0.92">
+    <rect x="214" y="70" width="32" height="120"/>
+    <polygon points="214,70 230,42 246,70"/>
+    <rect x="206" y="182" width="48" height="10"/>
+    <rect x="209" y="176" width="42" height="7" opacity="0.8"/>
+  </g>
+  <!-- glyph glow on the pillar -->
+  <circle cx="230" cy="118" r="7" fill="#ffe9a8" opacity="0.85"/>
+  <line x1="230" y1="98" x2="230" y2="180" stroke="#ffe6a0" stroke-width="1" opacity="0.25"/>
+
+  <!-- flanking broken pillars -->
+  <rect x="120" y="120" width="16" height="70" fill="#170f01" opacity="0.8"/>
+  <polygon points="120,120 128,104 136,120" fill="#170f01" opacity="0.8"/>
+  <rect x="330" y="128" width="14" height="62" fill="#170f01" opacity="0.75"/>
+
+  <!-- floating soul motes -->
+  <circle cx="176" cy="92" r="9" fill="url(#soul)"/>
+  <circle cx="286" cy="150" r="7" fill="url(#soul)"/>
+  <circle cx="358" cy="96" r="8" fill="url(#soul)"/>
+  <circle cx="150" cy="150" r="6" fill="url(#soul)"/>
+
+  <rect width="460" height="215" fill="url(#fade)"/>
+
+  <text x="230" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" fill="#fdf1cf" letter-spacing="0.04em">Pillars of Eternity</text>
+  <line x1="150" y1="188" x2="310" y2="188" stroke="#e8c86a" stroke-width="1" opacity="0.55"/>
+  <text x="230" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#e8c86a" letter-spacing="0.32em">THE EASTERN REACH</text>
 </svg>

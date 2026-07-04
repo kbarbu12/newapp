@@ -1,18 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="215" viewBox="0 0 460 215">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="215" viewBox="0 0 460 215" role="img" aria-label="Pillars of Eternity II: Deadfire cover art">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a1a2e"/>
-      <stop offset="50%" stop-color="#1e6091"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050d1c"/>
+      <stop offset="55%" stop-color="#123a5e"/>
+      <stop offset="100%" stop-color="#2f88bf"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
-    </filter>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d3a5c"/>
+      <stop offset="100%" stop-color="#061826"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eaf6ff" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#8fd0f2" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8fd0f2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04101c" stop-opacity="0.88"/>
+    </linearGradient>
   </defs>
-  <rect width="460" height="215" fill="url(#bg)"/>
-  <circle cx="340" cy="50" r="80" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
-  <circle cx="120" cy="180" r="60" fill="#38bdf8" opacity="0.06" filter="url(#glow)"/>
-  <text x="230" y="95" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="900" fill="rgba(255,255,255,0.85)" letter-spacing="0.05em">POE2</text>
-  <text x="230" y="135" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.45)" letter-spacing="0.08em">PILLARS OF ETERNITY II: DEADFIRE</text>
-  <line x1="150" y1="155" x2="310" y2="155" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <rect width="460" height="215" fill="url(#sky2)"/>
+  <!-- moon -->
+  <circle cx="120" cy="66" r="90" fill="url(#moon)"/>
+  <circle cx="120" cy="66" r="24" fill="#eaf6ff" opacity="0.92"/>
+  <circle cx="132" cy="60" r="24" fill="#123a5e" opacity="0.55"/>
+
+  <!-- stars -->
+  <g fill="#dff2ff">
+    <circle cx="250" cy="30" r="1.3"/><circle cx="300" cy="52" r="1"/><circle cx="350" cy="26" r="1.4"/>
+    <circle cx="410" cy="44" r="1.1"/><circle cx="380" cy="70" r="1"/><circle cx="210" cy="60" r="1"/>
+    <circle cx="440" cy="20" r="1.2"/>
+  </g>
+
+  <!-- Eothas colossus rising in the haze -->
+  <g fill="#0b2135" opacity="0.7">
+    <rect x="322" y="58" width="26" height="86"/>
+    <circle cx="335" cy="52" r="13"/>
+    <rect x="300" y="78" width="18" height="60"/>
+    <rect x="352" y="78" width="18" height="60"/>
+  </g>
+  <circle cx="335" cy="52" r="4" fill="#7fe3ff" opacity="0.8"/>
+
+  <!-- volcanic isle -->
+  <path d="M300 140 L360 100 L420 140 Z" fill="#0a1b28" opacity="0.9"/>
+  <path d="M352 112 L360 100 L368 112 Z" fill="#e05a2b" opacity="0.7"/>
+
+  <!-- sea -->
+  <rect x="0" y="140" width="460" height="75" fill="url(#sea)"/>
+  <!-- moon reflection -->
+  <rect x="112" y="140" width="16" height="60" fill="#bfe6fa" opacity="0.12"/>
+  <!-- waves -->
+  <g stroke="#4a93c0" stroke-width="1" opacity="0.4" fill="none">
+    <path d="M20 158 q14 -5 28 0 t28 0 t28 0"/>
+    <path d="M240 170 q16 -6 32 0 t32 0 t32 0"/>
+    <path d="M60 186 q16 -6 32 0 t32 0 t32 0"/>
+  </g>
+
+  <!-- sailing ship silhouette -->
+  <g fill="#03121e">
+    <path d="M150 150 q40 8 80 0 l-10 16 q-30 6 -60 0 Z"/>
+    <rect x="188" y="108" width="3" height="44"/>
+    <path d="M191 112 q26 8 26 24 l-26 4 Z"/>
+    <path d="M188 116 q-22 6 -22 22 l22 3 Z"/>
+    <rect x="205" y="120" width="2.5" height="32"/>
+    <path d="M207 124 q16 5 16 16 l-16 3 Z"/>
+  </g>
+
+  <rect width="460" height="215" fill="url(#fade2)"/>
+
+  <text x="230" y="176" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#eaf6ff" letter-spacing="0.03em">Pillars of Eternity II</text>
+  <line x1="150" y1="187" x2="310" y2="187" stroke="#5fc0ec" stroke-width="1" opacity="0.55"/>
+  <text x="230" y="201" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#5fc0ec" letter-spacing="0.42em">DEADFIRE</text>
 </svg>
