@@ -36,6 +36,10 @@
 - [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
 
 ## 📋 Backlog
+- [ ] **Match real YouTube walkthrough videos to the remaining 14 games** — replace the
+      placeholder `results?search_query=` links with direct, quest-matched `watch?v=` links,
+      as already done for all 62 God of War Ragnarök quests. ~695 search links remain across
+      Cyberpunk 2077, Hogwarts Legacy, The Witcher 3, and the other games.
 - [ ] **Connect the feedback box** — the "Share your feedback" section is built and
       live (`src/feedback.js`, Web3Forms integration), but needs a free Web3Forms
       access key to actually deliver mail to k.barbu12@gmail.com. To finish:
