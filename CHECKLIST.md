@@ -36,6 +36,7 @@
 - [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
 
 ## 📋 Backlog
+- [ ] **Quest detail UX redesign (possible)** — structure the detail view into Summary / Key Objectives / Important Details sections with Copy & Share buttons. Requires adding an `objectives[]` field to the quest schema and restructuring the detail card layout. Honest take: only ~30% of the "PS5_RPG_Side_Quest_Summarizer_Redesign.md" doc applies (this app is pre-curated, not AI-generated); skip the loading skeletons, Regenerate button, and backend prompt parts. Revisit only if coverage gaps remain or user feedback asks for more scannable quest info.
 - [ ] **Match real YouTube walkthrough videos to the remaining 14 games** — replace the
       placeholder `results?search_query=` links with direct, quest-matched `watch?v=` links,
       as already done for all 62 God of War Ragnarök quests. ~695 search links remain across
