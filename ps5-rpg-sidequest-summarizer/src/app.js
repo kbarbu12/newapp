@@ -94,6 +94,16 @@
   }
 
   function updateHero() {
+    var heroImg = document.querySelector(".hero-bg");
+    if (heroImg) {
+      if (state.game !== "all" && gameImages[state.game]) {
+        heroImg.style.backgroundImage = 'url("' + gameImages[state.game].cover + '")';
+        heroImg.style.opacity = "0.25";
+      } else {
+        heroImg.style.backgroundImage = "";
+        heroImg.style.opacity = "0.9";
+      }
+    }
     if (state.game === "all") {
       heroTitle.textContent = "Discover the Best RPG Side Quests";
       heroSub.textContent = "Browse walkthroughs and guides across " + games.length +
@@ -267,7 +277,23 @@
     return article;
   }
 
+  // Count active non-"all" filters (games, static rows, and per-game sub-axes).
+  function getActiveFilterCount() {
+    return [state.type, state.difficulty, state.length, state.video]
+      .filter(function (v) { return v !== "all"; }).length
+      + (state.game !== "all" ? 1 : 0)
+      + Object.keys(state.subs).filter(function (k) { return state.subs[k] !== "all"; }).length;
+  }
+
+  function updateResetButton() {
+    var n = getActiveFilterCount();
+    resetButton.innerHTML = n > 0
+      ? '↺ Reset <span class="filter-badge">' + n + "</span>"
+      : "↺ Reset";
+  }
+
   function renderQuests() {
+    updateResetButton();
     var list = getFiltered();
     resultCount.textContent = list.length + " result" + (list.length === 1 ? "" : "s");
     questGrid.innerHTML = "";
@@ -283,7 +309,7 @@
     var frag = document.createDocumentFragment();
     list.forEach(function (q, i) {
       var card = createCard(q);
-      card.style.animationDelay = Math.min(i * 0.03, 0.5) + "s";
+      card.style.animationDelay = Math.min(i * 0.035, 0.35) + "s";
       frag.appendChild(card);
     });
     questGrid.appendChild(frag);
