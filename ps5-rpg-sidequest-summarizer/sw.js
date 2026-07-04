@@ -1,17 +1,17 @@
 /* RPG Quest Guide — service worker
    Bump CACHE_VERSION whenever the precached shell changes. */
-const CACHE_VERSION = 'quest-guide-v1';
+const CACHE_VERSION = 'quest-guide-v2';
 const OFFLINE_URL = 'index.html';
 
 /* App shell — kept in sync with the ?v= query strings in index.html. */
 const PRECACHE_URLS = [
   './',
   'index.html',
-  'src/styles.css?v=7',
-  'data/quests.js?v=7',
-  'src/app.js?v=7',
-  'src/chatbot.js?v=7',
-  'src/feedback.js?v=7',
+  'src/styles.css?v=8',
+  'data/quests.js?v=8',
+  'src/app.js?v=8',
+  'src/chatbot.js?v=8',
+  'src/feedback.js?v=8',
   'manifest.json',
   'images/favicon.svg',
   'images/favicon.ico',
