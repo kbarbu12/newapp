@@ -14224,5 +14224,362 @@ const quests = [
     aiTip:
       "A defining, irreversible choice — read every line before you answer.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Fate%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 876,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "Sacking Selwyn's Estate",
+    location: "Feldcroft Region / Selwyn Estate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, gold",
+    summary:
+      "Infiltrate the pure-blood Selwyn family estate to recover what a desperate house-elf's plight demands.",
+    aiTip:
+      "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sacking%20Selwyn's%20Estate%20walkthrough"
+  },
+  {
+    id: 877,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "Cursed Tomb Treasure",
+    location: "Poidsear Coast / Tomb of Treachery",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rare gear",
+    summary:
+      "Follow a treasure map to the Tomb of Treachery, where an ambush by Ailsa Travers and the Lord of the Manor awaits.",
+    aiTip:
+      "A tough double ambush — go in over-levelled and keep your dodge ready.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cursed%20Tomb%20Treasure%20walkthrough"
+  },
+  {
+    id: 878,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Phoenix Rising",
+    location: "Poidsear Coast / Phoenix Den",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Phoenix beast",
+    summary:
+      "Help Deek rescue a majestic phoenix hidden in a mountain cave from the poachers hunting it.",
+    aiTip:
+      "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Phoenix%20Rising%20walkthrough"
+  },
+  {
+    id: 879,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Lord of the Manor",
+    location: "Manor Cape / Manor Glen",
+    length: "medium",
+    difficulty: "High",
+    reward: "Gear, Infamous Foe kill",
+    summary:
+      "Descend into Manor Glen to face the Lord of the Manor, an Infamous Foe, and his accomplice Ailsa Travers.",
+    aiTip:
+      "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lord%20of%20the%20Manor%20walkthrough"
+  },
+  {
+    id: 880,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "E is for Erised",
+    location: "Cragcroftshire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, gear",
+    summary:
+      "Help a troubled villager whose obsession echoes the Mirror of Erised's dangerous pull on the heart's desire.",
+    aiTip:
+      "A shorter narrative quest — follow the marked leads around Cragcroftshire.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20E%20is%20for%20Erised%20walkthrough"
+  },
+  {
+    id: 881,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Venomous Valour",
+    location: "Astronomy Wing / DADA Tower",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, talent practice",
+    summary:
+      "Prove yourself to the boastful Duncan Hobhouse by clearing out a dangerous nest he's too afraid to face.",
+    aiTip:
+      "Bring solid AoE — the den throws several foes at you at once.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Venomous%20Valour%20walkthrough"
+  },
+  {
+    id: 882,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Like a Moth to a Frame",
+    location: "Hogwarts Castle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Portrait lore, cosmetic",
+    summary:
+      "Aid the vain portrait subject Nellie Oggspire, who wants her likeness admired across the castle's frames.",
+    aiTip:
+      "A light, exploration-focused quest around the castle corridors.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Like%20a%20Moth%20to%20a%20Frame%20walkthrough"
+  },
+  {
+    id: 883,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Portrait in a Pickle",
+    location: "Library Annex",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Free a portrait trapped behind the Library Annex and untangle the mischief that got it stuck.",
+    aiTip:
+      "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Portrait%20in%20a%20Pickle%20walkthrough"
+  },
+  {
+    id: 884,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Follow the Butterflies",
+    location: "Hogsmeade / Highlands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Collection Chest, gear",
+    summary:
+      "Trail Clementine Willardsey's enchanted wildflower butterflies to a hidden treasure.",
+    aiTip:
+      "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Follow%20the%20Butterflies%20walkthrough"
+  },
+  {
+    id: 885,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Take the Biscuit",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Settle a curious dispute over a batch of enchanted biscuits for a Hogsmeade local.",
+    aiTip:
+      "A quick, low-stakes fetch-and-talk quest.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Take%20the%20Biscuit%20walkthrough"
+  },
+  {
+    id: 886,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Plight of the House-Elf",
+    location: "Hogwarts / Room of Requirement",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Deek's story, gear",
+    summary:
+      "Help the house-elf Deek confront the cruelty of a house-elf's servitude under a pure-blood master.",
+    aiTip:
+      "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Plight%20of%20the%20House-Elf%20walkthrough"
+  },
+  {
+    id: 887,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Flight Test",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Broom upgrade",
+    summary:
+      "Take on Everett Clopton's daredevil broom-flying test through a course of rings.",
+    aiTip:
+      "Available after Flying Class; boost through every ring without missing one.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flight%20Test%20walkthrough"
+  },
+  {
+    id: 888,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Sweeping the Competition",
+    location: "Highlands / Broom Race",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Broom upgrade",
+    summary:
+      "Beat rival flier Imelda Reyes in a high-speed broom race across the Highlands.",
+    aiTip:
+      "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sweeping%20the%20Competition%20walkthrough"
+  },
+  {
+    id: 889,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Tangled Web",
+    location: "Highlands / Spider Lair",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, gold",
+    summary:
+      "Clear out a nest of Venomous Tentacula and giant spiders threatening a local's livelihood.",
+    aiTip:
+      "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tangled%20Web%20walkthrough"
+  },
+  {
+    id: 890,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Absconder",
+    location: "Forbidden Forest / Absconder Den",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rare gear, Infamous Foe kill",
+    summary:
+      "Track and defeat the Absconder, a colossal Infamous Foe lurking in a hidden den.",
+    aiTip:
+      "A boss-tier creature — bring Maxima potions and dodge its charge.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Absconder%20walkthrough"
+  },
+  {
+    id: 891,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "The Hunt for the Missing Pages",
+    location: "Hogwarts Castle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Field Guide Pages",
+    summary:
+      "Recover a set of stolen Field Guide pages that have gone missing around the castle.",
+    aiTip:
+      "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Hunt%20for%20the%20Missing%20Pages%20walkthrough"
+  },
+  {
+    id: 892,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Dissending for Sweets",
+    location: "Hogsmeade / Honeydukes",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Help Garreth Weasley sneak into the Honeydukes cellar to retrieve ingredients for his experiments.",
+    aiTip:
+      "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Dissending%20for%20Sweets%20walkthrough"
+  },
+  {
+    id: 893,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "A Demanding Delivery",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold",
+    summary:
+      "Make good on a delivery for a pushy Hogsmeade shopkeeper before their patience runs out.",
+    aiTip:
+      "A short courier quest — follow the marker and hand over the goods.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Demanding%20Delivery%20walkthrough"
+  },
+  {
+    id: 894,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Kidnapped Cabbage",
+    location: "Highlands",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Combat plant, gold",
+    summary:
+      "Rescue a prized (and very loud) Chinese Chomping Cabbage that poachers have made off with.",
+    aiTip:
+      "Combat plant reward — handy for the Herbology assignments.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Kidnapped%20Cabbage%20walkthrough"
+  },
+  {
+    id: 895,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Hope (Sebastian)",
+    location: "Feldcroft / Catacombs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship",
+    summary:
+      "Chase a fragile hope for curing Anne's curse as Sebastian's search leads deeper into dark magic.",
+    aiTip:
+      "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Hope%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 896,
+    type: "side",
+    category: "Relationship",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "In the Shadow of Friendship (Sebastian)",
+    location: "Feldcroft Region",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sebastian relationship",
+    summary:
+      "Your loyalty to Sebastian is tested as the cost of his choices comes due for those around him.",
+    aiTip:
+      "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Friendship%20(Sebastian)%20walkthrough"
   }
 ];
