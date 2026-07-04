@@ -77,15 +77,26 @@ const gameImages = {
 };
 
 const subFilterConfig = {
-  "Baldur's Gate 3": {
-    field: "act",
-    label: "Act",
-    options: [
-      { value: "1", text: "Act 1 – Wilderness & Underdark" },
-      { value: "2", text: "Act 2 – Shadow-Cursed Lands" },
-      { value: "3", text: "Act 3 – Baldur's Gate" }
-    ]
-  },
+  "Baldur's Gate 3": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Main Story", text: "Main Story" },
+        { value: "Companion", text: "Companion" },
+        { value: "Side Quest", text: "Side Quests" }
+      ]
+    },
+    {
+      field: "act",
+      label: "Act",
+      options: [
+        { value: "1", text: "Act 1 – Wilderness & Underdark" },
+        { value: "2", text: "Act 2 – Shadow-Cursed Lands" },
+        { value: "3", text: "Act 3 – Baldur's Gate" }
+      ]
+    }
+  ],
   "Elden Ring": {
     field: "region",
     label: "Region",
@@ -121,6 +132,7 @@ const subFilterConfig = {
       { value: "Velen", text: "Velen" },
       { value: "Novigrad", text: "Novigrad" },
       { value: "Skellige", text: "Skellige" },
+      { value: "Kaer Morhen", text: "Kaer Morhen" },
       { value: "Toussaint", text: "Toussaint (Blood & Wine)" }
     ]
   },
@@ -135,7 +147,8 @@ const subFilterConfig = {
       { value: "Santo Domingo", text: "Santo Domingo" },
       { value: "City Center", text: "City Center" },
       { value: "Badlands", text: "Badlands" },
-      { value: "Dogtown", text: "Dogtown (Phantom Liberty)" }
+      { value: "Dogtown", text: "Dogtown (Phantom Liberty)" },
+      { value: "Multiple", text: "City-Wide" }
     ]
   },
   "Final Fantasy VII Rebirth": {
@@ -254,6 +267,16 @@ const subFilterConfig = {
       { value: "Dyrford", text: "Dyrford" },
       { value: "White March", text: "The White March (DLC)" }
     ]
+  },
+  "Persona 5 Royal": {
+    field: "category",
+    label: "Category",
+    options: [
+      { value: "Palaces", text: "Palaces" },
+      { value: "Confidants", text: "Confidants" },
+      { value: "Mementos Requests", text: "Mementos Requests" },
+      { value: "Activities", text: "Activities" }
+    ]
   }
 };
 
@@ -261,6 +284,7 @@ const quests = [
   {
     id: 1,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Rescue the Grand Duke",
@@ -277,6 +301,7 @@ const quests = [
   {
     id: 2,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Find the Nightsong",
@@ -293,6 +318,7 @@ const quests = [
   {
     id: 3,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Save the Gondians",
@@ -1016,6 +1042,7 @@ const quests = [
   {
     id: 48,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "A Teacher Maid to Suffer",
     location: "Path of Adyeshach, Mementos",
@@ -1031,6 +1058,7 @@ const quests = [
   {
     id: 49,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Winners Don't Use Cheats",
     location: "Path of Chemdah, Mementos",
@@ -1046,6 +1074,7 @@ const quests = [
   {
     id: 50,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "One Who Bullies Bullies",
     location: "Path of Aiyatsbus, Mementos",
@@ -1284,6 +1313,7 @@ const quests = [
   {
     id: 65,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Investigate the Suspicious Toys",
@@ -1300,6 +1330,7 @@ const quests = [
   {
     id: 66,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Free the Artist",
@@ -1316,6 +1347,7 @@ const quests = [
   {
     id: 67,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Avenge the Drowned",
@@ -1332,6 +1364,7 @@ const quests = [
   {
     id: 68,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Help Omeluum Investigate the Parasite",
@@ -1348,6 +1381,7 @@ const quests = [
   {
     id: 69,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Rescue Wulbren and the Tieflings",
@@ -1784,6 +1818,7 @@ const quests = [
   {
     id: 97,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Akechi's Confidant (Justice)",
     location: "Kichijoji",
@@ -1799,6 +1834,7 @@ const quests = [
   {
     id: 98,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Mission: The Killer Who Cleans Up",
     location: "Path of Da'at, Mementos",
@@ -2008,6 +2044,7 @@ const quests = [
   {
     id: 112,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 3,
     title: "The Pale Elf",
@@ -2024,9 +2061,10 @@ const quests = [
   {
     id: 113,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 2,
-    title: "Shadowheart's Past",
+    title: "Companion: Shadowheart — Daughter of Darkness",
     location: "Gauntlet of Shar / Baldur's Gate",
     length: "long",
     difficulty: "High",
@@ -2035,11 +2073,12 @@ const quests = [
       "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
     aiTip:
       "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
-    video: "https://www.youtube.com/watch?v=QEx4mUKNcr8"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
   },
   {
     id: 114,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Investigate the Murders",
@@ -2056,6 +2095,7 @@ const quests = [
   {
     id: 115,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "The Stolen Gnome",
@@ -2072,6 +2112,7 @@ const quests = [
   {
     id: 116,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Lift the Shadow Curse",
@@ -2088,9 +2129,10 @@ const quests = [
   {
     id: 117,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Gale's Ambition",
+    title: "Companion: Gale — The Wizard of Waterdeep",
     location: "Blackstaff Tower / Waterdeep",
     length: "long",
     difficulty: "Medium",
@@ -2099,14 +2141,15 @@ const quests = [
       "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
     aiTip:
       "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
-    video: "https://www.youtube.com/watch?v=6SFzGBlOqjI"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
   },
   {
     id: 118,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Wyll's Pact",
+    title: "Companion: Wyll — The Blade of Frontiers",
     location: "Various / Act 3",
     length: "long",
     difficulty: "Medium",
@@ -2115,7 +2158,7 @@ const quests = [
       "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
     aiTip:
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
-    video: "https://www.youtube.com/watch?v=bcREpftv-fk"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
   },
   {
     id: 119,
@@ -2879,6 +2922,7 @@ const quests = [
   {
     id: 166,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Ryuji's Confidant (Chariot)",
     location: "Shibuya / Track Field",
@@ -2894,6 +2938,7 @@ const quests = [
   {
     id: 167,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Ann's Confidant (Lovers)",
     location: "Shibuya / Various",
@@ -2909,6 +2954,7 @@ const quests = [
   {
     id: 168,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Futaba's Confidant (Hermit)",
     location: "Yongen-Jaya / Akihabara",
@@ -2924,6 +2970,7 @@ const quests = [
   {
     id: 170,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Requests: The Killer's Profile",
     location: "Path of Chemdah, Mementos",
@@ -3370,6 +3417,7 @@ const quests = [
   {
     id: 200,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Escape the Nautiloid",
@@ -3386,6 +3434,7 @@ const quests = [
   {
     id: 201,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Defeat Ketheric Thorm",
@@ -3402,6 +3451,7 @@ const quests = [
   {
     id: 202,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Save Mayrina",
@@ -3466,6 +3516,7 @@ const quests = [
   {
     id: 206,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Rescue the Druid Halsin",
@@ -3482,6 +3533,7 @@ const quests = [
   {
     id: 207,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Travel through the Underdark",
@@ -3498,6 +3550,7 @@ const quests = [
   {
     id: 208,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Infiltrate Moonrise Towers",
@@ -3514,6 +3567,7 @@ const quests = [
   {
     id: 209,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 2,
     title: "The Gauntlet of Shar",
@@ -3530,6 +3584,7 @@ const quests = [
   {
     id: 210,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Gather Your Allies",
@@ -3546,6 +3601,7 @@ const quests = [
   {
     id: 211,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Confront the Elder Brain",
@@ -3882,6 +3938,7 @@ const quests = [
   {
     id: 232,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "The Adamantine Forge",
@@ -3898,9 +3955,10 @@ const quests = [
   {
     id: 233,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
-    title: "The Blood of Lathander",
+    title: "Find the Blood of Lathander",
     location: "Rosymorn Monastery / Mountain Pass",
     length: "medium",
     difficulty: "Medium",
@@ -3909,11 +3967,12 @@ const quests = [
       "Solve the stained-glass ritual puzzle in Rosymorn Monastery and disarm an ancient trap to claim one of the game's earliest legendary weapons — a mace that blinds fiends and undead.",
     aiTip:
       "Place the correct weapons on the altar (check the window mural) to open the vault. Bring Misty Step to bypass the destroying-beam trap on the way out.",
-    video: "https://www.youtube.com/watch?v=zLIRdgQzTeo"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
   },
   {
     id: 234,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Raid the House of Hope",
@@ -3930,6 +3989,7 @@ const quests = [
   {
     id: 235,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "The Necromancy of Thay",
@@ -3946,6 +4006,7 @@ const quests = [
   {
     id: 236,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Rescue Minsc (The High Harper)",
@@ -3962,6 +4023,7 @@ const quests = [
   {
     id: 237,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Adopt the Owlbear Cub",
@@ -6162,6 +6224,7 @@ const quests = [
     id: 372,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Ugly Baby",
     location: "Velen",
     length: "medium",
@@ -7312,6 +7375,7 @@ const quests = [
   {
     id: 444,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 1,
     title: "Kamoshida's Palace — Castle of Lust",
@@ -7328,6 +7392,7 @@ const quests = [
   {
     id: 445,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 2,
     title: "Madarame's Palace — Museum of Vanity",
@@ -7344,6 +7409,7 @@ const quests = [
   {
     id: 446,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 3,
     title: "Kaneshiro's Palace — Bank of Gluttony",
@@ -7360,6 +7426,7 @@ const quests = [
   {
     id: 447,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 4,
     title: "Futaba's Palace — Pyramid of Wrath",
@@ -7376,6 +7443,7 @@ const quests = [
   {
     id: 448,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 5,
     title: "Okumura's Palace — Spaceport of Greed",
@@ -7392,6 +7460,7 @@ const quests = [
   {
     id: 449,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 6,
     title: "Niijima's Palace — Casino of Envy",
@@ -7408,6 +7477,7 @@ const quests = [
   {
     id: 450,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 7,
     title: "Shido's Palace — Cruiser of Pride",
@@ -7424,6 +7494,7 @@ const quests = [
   {
     id: 451,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 8,
     title: "Depths of Mementos — Prison of Regression",
@@ -7440,6 +7511,7 @@ const quests = [
   {
     id: 452,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 9,
     title: "Maruki's Palace — Laboratory of Sloth",
@@ -7456,6 +7528,7 @@ const quests = [
   {
     id: 453,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Chihaya Mifune (Fortune)",
     location: "Shinjuku",
@@ -7471,6 +7544,7 @@ const quests = [
   {
     id: 454,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Munehisa Iwai (Hanged Man)",
     location: "Yongen-Jaya",
@@ -7486,6 +7560,7 @@ const quests = [
   {
     id: 455,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Tae Takemi (Death)",
     location: "Yongen-Jaya",
@@ -7501,6 +7576,7 @@ const quests = [
   {
     id: 456,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sadayo Kawakami (Temperance)",
     location: "Shibuya",
@@ -7516,6 +7592,7 @@ const quests = [
   {
     id: 457,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Ichiko Ohya (Devil)",
     location: "Shinjuku",
@@ -7531,6 +7608,7 @@ const quests = [
   {
     id: 458,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Shinya Oda (Tower)",
     location: "Akihabara",
@@ -7546,6 +7624,7 @@ const quests = [
   {
     id: 459,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Hifumi Togo (Star)",
     location: "Kanda",
@@ -7561,6 +7640,7 @@ const quests = [
   {
     id: 460,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Yuuki Mishima (Moon)",
     location: "Shibuya",
@@ -7576,6 +7656,7 @@ const quests = [
   {
     id: 461,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Toranosuke Yoshida (Sun)",
     location: "Shibuya",
@@ -7591,6 +7672,7 @@ const quests = [
   {
     id: 462,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Caroline & Justine (Strength)",
     location: "Velvet Room",
@@ -7606,6 +7688,7 @@ const quests = [
   {
     id: 463,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Kasumi Yoshizawa (Faith)",
     location: "Kichijoji",
@@ -7621,6 +7704,7 @@ const quests = [
   {
     id: 464,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Takuto Maruki (Councillor)",
     location: "Shujin Academy",
@@ -7636,6 +7720,7 @@ const quests = [
   {
     id: 465,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Requests",
     location: "Mementos",
@@ -7651,6 +7736,7 @@ const quests = [
   {
     id: 466,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "Will Seeds & Jose (Royal)",
     location: "Mementos / Palaces",
@@ -9876,6 +9962,7 @@ const quests = [
     id: 603,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "The Battle of Kaer Morhen",
     location: "Kaer Morhen",
     length: "long",
@@ -9891,6 +9978,7 @@ const quests = [
     id: 604,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Blood on the Battlefield",
     location: "Kaer Morhen",
     length: "short",
@@ -9954,6 +10042,7 @@ const quests = [
     id: 608,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Something Ends, Something Begins",
     location: "Various",
     length: "short",
@@ -10353,6 +10442,7 @@ const quests = [
     id: 633,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
     title: "Scavenger Hunt: Wolf School Gear",
     location: "Kaer Morhen",
     length: "medium",
@@ -11039,6 +11129,7 @@ const quests = [
   {
     id: 676,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Yusuke Kitagawa (Emperor)",
     location: "Various",
@@ -11054,6 +11145,7 @@ const quests = [
   {
     id: 677,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Makoto Niijima (Priestess)",
     location: "Various",
@@ -11069,6 +11161,7 @@ const quests = [
   {
     id: 678,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Haru Okumura (Empress)",
     location: "Various",
@@ -11084,6 +11177,7 @@ const quests = [
   {
     id: 679,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Morgana (Magician)",
     location: "Café Leblanc",
@@ -11099,6 +11193,7 @@ const quests = [
   {
     id: 680,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sae Niijima (Judgement)",
     location: "Courtroom / Leblanc",
@@ -11114,6 +11209,7 @@ const quests = [
   {
     id: 681,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Man of Plans and Capital",
     location: "Mementos",
@@ -11129,6 +11225,7 @@ const quests = [
   {
     id: 682,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: A Bounty Hunter Scorned",
     location: "Mementos",
@@ -11144,6 +11241,7 @@ const quests = [
   {
     id: 683,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Lockdown Hero",
     location: "Mementos",
@@ -11159,6 +11257,7 @@ const quests = [
   {
     id: 684,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Illustrious Blackmailer",
     location: "Mementos",
@@ -11174,6 +11273,7 @@ const quests = [
   {
     id: 685,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "Kichijoji Activities: Jazz Jin, Darts & Billiards",
     location: "Kichijoji",
@@ -11189,6 +11289,7 @@ const quests = [
   {
     id: 686,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "The Thieves Den",
     location: "Velvet Room",
@@ -11204,6 +11305,7 @@ const quests = [
   {
     id: 687,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sojiro Sakura (Hierophant)",
     location: "Café Leblanc",
@@ -12816,6 +12918,7 @@ const quests = [
   {
     id: 787,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Save the Refugees (Druid Grove)",
@@ -12832,6 +12935,7 @@ const quests = [
   {
     id: 788,
     type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Raid the Goblin Camp",
@@ -12848,6 +12952,7 @@ const quests = [
   {
     id: 789,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "The Blighted Village & Whispering Depths",
@@ -12864,6 +12969,7 @@ const quests = [
   {
     id: 790,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
     title: "Free Nere (Grymforge Duergar)",
@@ -12880,9 +12986,10 @@ const quests = [
   {
     id: 791,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 1,
-    title: "Companion: Lae'zel & the Creche",
+    title: "Companion: Lae'zel — The Githyanki Warrior",
     location: "Rosymorn Monastery",
     length: "long",
     difficulty: "High",
@@ -12891,14 +12998,15 @@ const quests = [
       "Escort Lae'zel to the githyanki Creche Y'llek to seek a cure — and confront her people's lies.",
     aiTip:
       "A pivotal companion arc; the Creche also holds powerful gear and the Blood of Lathander.",
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Lae'zel%20%26%20the%20Creche%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
   },
   {
     id: 792,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 1,
-    title: "Companion: Karlach's Infernal Engine",
+    title: "Companion: Karlach — The Hellion's Heart",
     location: "Risen Road",
     length: "medium",
     difficulty: "Medium",
@@ -12907,11 +13015,12 @@ const quests = [
       "Help the fugitive tiefling Karlach cool her failing infernal engine and hunt the paladins of Tyr.",
     aiTip:
       "Bring her infernal iron to Dammon across the acts to keep her heart from burning out.",
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Karlach's%20Infernal%20Engine%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
   },
   {
     id: 793,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Reach the Last Light Inn",
@@ -12928,6 +13037,7 @@ const quests = [
   {
     id: 794,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Save Arabella (Kithrak Voss)",
@@ -12944,6 +13054,7 @@ const quests = [
   {
     id: 795,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "Free the Nightsong (Gauntlet of Shar)",
@@ -12960,6 +13071,7 @@ const quests = [
   {
     id: 796,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
     title: "The Mind Flayer Colony",
@@ -12976,6 +13088,7 @@ const quests = [
   {
     id: 797,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Companion: Astarion's Ascension",
@@ -12992,6 +13105,7 @@ const quests = [
   {
     id: 798,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Stop the Murder Tribunal (Dribbles the Clown)",
@@ -13008,6 +13122,7 @@ const quests = [
   {
     id: 799,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "The Iron Throne",
@@ -13024,6 +13139,7 @@ const quests = [
   {
     id: 800,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Destroy the Steel Watch Foundry",
@@ -13040,6 +13156,7 @@ const quests = [
   {
     id: 801,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Defeat the Chosen: Orin & Gortash",
@@ -13056,22 +13173,24 @@ const quests = [
   {
     id: 802,
     type: "side",
+    category: "Companion",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Companion: Wyll & Mizora's Bargain",
-    location: "Baldur's Gate",
-    length: "medium",
+    title: "Companion: Jaheira — The High Harper",
+    location: "Last Light Inn / Baldur's Gate",
+    length: "long",
     difficulty: "High",
-    reward: "Wyll's pact resolved, Zariel's Asset",
+    reward: "Jaheira's loyalty, Harper allies",
     summary:
-      "Confront the terms of Wyll's infernal pact with Mizora and his father Duke Ravengard's fate.",
+      "Stand with the veteran Harper Jaheira as she rallies her old network and settles a decades-old score against the Absolute's chosen.",
     aiTip:
-      "Breaking or keeping the pact changes Wyll's ending — and whether his father survives.",
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Wyll%20%26%20Mizora's%20Bargain%20walkthrough"
+      "Her arc pays off in Act 3 — keep her in the party for the Harper reinforcements at the finale.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
   },
   {
     id: 803,
     type: "side",
+    category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
     title: "Confront Raphael (House of Hope)",
@@ -15270,5 +15389,192 @@ const quests = [
     aiTip:
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
+  },
+  {
+    id: 935,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find the Missing Shipment",
+    location: "Risen Road / Waukeen's Rest",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Zhentarim allies, gear",
+    summary:
+      "Track down the Zhentarim's stolen shipment and decide whether to side with the smugglers.",
+    aiTip:
+      "Leads into The Risen Road; talk your way past the Zhent guards or fight through.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
+  },
+  {
+    id: 936,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Rescue the Gnome",
+    location: "Blighted Village Windmill",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Barcus Wroot ally",
+    summary:
+      "Free the deep gnome Barcus Wroot from the windmill's sails before the goblins finish him off.",
+    aiTip:
+      "Turn the windmill brake inside first, then interact with the sails to save him.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
+  },
+  {
+    id: 937,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Investigate Kagha",
+    location: "Emerald Grove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Grove politics, tiefling fate",
+    summary:
+      "Uncover druid Kagha's secret dealings with the Shadow Druids that threaten the tiefling refugees.",
+    aiTip:
+      "Read the letter in the Grove and confront Kagha to change the Grove's outcome.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
+  },
+  {
+    id: 938,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Finish the Masterwork Weapon",
+    location: "Nautiloid Crash / Blighted Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masterwork weapon",
+    summary:
+      "Help the smith complete a masterwork weapon by recovering the sundered fragments.",
+    aiTip:
+      "Bring the missing pieces to the forge; ties into the Adamantine Forge questline.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
+  },
+  {
+    id: 939,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "The Risen Road",
+    location: "Risen Road",
+    length: "medium",
+    difficulty: "High",
+    reward: "Gear, Gut/paladins outcome",
+    summary:
+      "Brave the Risen Road and its warring factions — paladins of Tyr, a hidden fiend, and Zhentarim smugglers.",
+    aiTip:
+      "Watch for the fiend disguised among the survivors; approach the toll bridge carefully.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
+  },
+  {
+    id: 940,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Find the Missing Boots",
+    location: "Last Light Inn",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gear, minor reward",
+    summary:
+      "Recover a pair of missing boots for a distraught patron at the Last Light Inn.",
+    aiTip:
+      "A quick fetch quest around the inn and its surrounds.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
+  },
+  {
+    id: 941,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Save Vanra",
+    location: "Lower City / Old Garlow's Place",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Vanra rescued, hag loot",
+    summary:
+      "Rescue the girl Vanra from a hag preying on the mothers of the Lower City.",
+    aiTip:
+      "Another Auntie Ethel-style hag fight — bring anti-charm options and save first.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
+  },
+  {
+    id: 942,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Explore the Ruins",
+    location: "Nautiloid Crash / Dank Crypt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, Withers unlocked",
+    summary:
+      "Delve the overgrown ruins near the crash site and the crypt below to face a hooded skeleton and claim its secrets.",
+    aiTip:
+      "Persuade or fight the adventurers at the door; the Dank Crypt's sarcophagus reveals Withers.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
+  },
+  {
+    id: 943,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Search the Cellar",
+    location: "Blighted Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Necromancy of Thay",
+    summary:
+      "Investigate the hidden cellar beneath the Blighted Village apothecary and its arcane mirror.",
+    aiTip:
+      "Ties into The Necromancy of Thay; answer the mirror's riddle to pass unharmed.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
+  },
+  {
+    id: 944,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Steal the Sacred Idol",
+    location: "Emerald Grove",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Idol of Silvanus, grove tension",
+    summary:
+      "Sneak into the druids' inner sanctum and lift the Idol of Silvanus at Mol's request.",
+    aiTip:
+      "Use Stealth/Invisibility; taking the idol has consequences for the grove.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
+  },
+  {
+    id: 945,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Wake Up Art Cullagh",
+    location: "Last Light Inn",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Lead to Thaniel, Halsin arc",
+    summary:
+      "Rouse the catatonic Art Cullagh at Last Light Inn to uncover the key to lifting the shadow curse.",
+    aiTip:
+      "Play the flute found at the Mason's Guild by his bedside; feeds Halsin's Thaniel questline.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
   }
 ];

@@ -8,19 +8,20 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **927** (was 253 at the start of this work; 844 → 839 after
+- **Total quests in library:** **938** (was 253 at the start of this work; 844 → 839 after
   5 duplicate Persona 5 Confidant entries were removed, then **+64** from the Hogwarts Legacy
   expansion — Phases 1–4, see §3)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
-- **Sub-filters (per-game, shown when a game is selected):** live for **13 of 15 games** —
+- **Sub-filters (per-game, shown when a game is selected):** live for **14 of 15 games** —
   BG3 (Act), Black Myth (Chapter), Elden Ring (Region + Shadow of the Erdtree DLC),
   Witcher 3 (Region), Cyberpunk (District), FF7 Rebirth (Region), God of War (Realm),
   Horizon (Region), Ghost of Tsushima (**two axes** — Category + Region), Hogwarts (**two axes** — Category +
   Region, added Jul 3), Metaphor (Region),
-  Demon's Souls (Archstone), Pillars of Eternity (Region). *(Deadfire and Persona 5 use the
-  global filters — no clean single-geography axis.)*
-- **Walkthrough videos:** every quest (all 927) has a walkthrough video that captures **its
+  Demon's Souls (Archstone), Pillars of Eternity (Region), Persona 5 Royal (**Category** —
+  Palaces/Confidants/Mementos Requests/Activities, added Jul 4). *(Only Deadfire still uses the
+  global filters — no clean single axis.)*
+- **Walkthrough videos:** every quest (all 938) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
 
@@ -35,8 +36,8 @@
 | Hogwarts Legacy | 124 | 37 | 87 | ✅✅ | 🟠→ Expanding — 124 of ~130 (Phases 1–4: 12 assignments, 37 main, 16 relationship, 51 side; **~6 obscure names still gated**, see §3). Two sub-filters: **Category** + **Region** |
 | Elden Ring | 54 | 16 | 38 | ✅ | ✅ Deep-filled (legacy dungeons, bosses, NPC questlines, full Shadow of the Erdtree DLC) |
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
-| Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
-| Baldur's Gate 3 | 47 | 10 | 37 | ✅ | ✅ Deep-filled (Acts 1–3 main story, companion arcs, major side quests) |
+| Persona 5 Royal | 44 | 9 | 35 | ✅ | 🟠 44 of ~65 (9 Palaces, ~22 Confidants complete; ~9 named Mementos Requests + umbrella). **Category** sub-filter added Jul 4. Remaining Mementos Request names not surfaced by search — gated |
+| Baldur's Gate 3 | 58 | 10 | 48 | ✅✅ | 🟡→ Audited + expanding (Jul 4): companion titles fixed to official names, +Jaheira, +11 verified side quests. Two sub-filters: **Category** + **Act**. 58 of 100+ — more Act 1–3 side quests remain (gated) |
 | Ghost of Tsushima | 71 | 18 | 53 | ✅✅ | ✅ Expanded (Jul 4): all 9 Mythic Tales + individual companion Tales (Ishikawa 9, Masako 9, Norio 9, Yuna 4, Kenji 3); fixed Gosaku duplicate + bogus Ryuzo umbrella. Two sub-filters: **Category** + **Region** |
 | Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
 | Black Myth: Wukong | 37 | 6 | 31 | ✅ | ✅ Deep-filled (chapter bosses across all 6 chapters, transformations, secrets) |
@@ -139,10 +140,11 @@ tiers first, then the Jul 3 accuracy pass.
   into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (**now 124** of ~130 real named
   quests after the Phases 1–4 expansion — 37 main / 51 side / 12 assignments / 16 relationship;
   **~6 obscure names still gated, see §3**), ~~Ghost of Tsushima~~ **(EXPANDED Jul 4 → 71:** the ~6
-  "Tales of X" umbrellas were broken into individual companion tales; all 9 Mythic Tales present), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
-  Requests are mostly under one umbrella). *These three were previously tagged "deep-filled";
+  "Tales of X" umbrellas were broken into individual companion tales; all 9 Mythic Tales present), Persona 5 Royal (44 vs ~65 real — **not ~90+**; the ~30 individual Mementos Requests
+  are mostly under one umbrella, and their exact names do not surface in web search — gated on
+  the 403-blocked guides. A **Category** sub-filter was added Jul 4). *These three were previously tagged "deep-filled";
   that was inaccurate.*
-- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (47 vs 100+), Elden Ring, Black Myth.
+- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (54 vs 100+), Elden Ring, Black Myth.
 - 🔴 **Sample only, full pass pending:** Pillars of Eternity I & II, Metaphor: ReFantazio.
 
 **Data-quality fix (Jul 3):** removed 5 duplicate Confidant entries in Persona 5 Royal
@@ -212,6 +214,36 @@ against the full wiki lists could guarantee 100% coverage per game.**
 
 ## 3. What still needs to be done
 
+### 🔎 Known gaps to revisit (content that exists but isn't fully enumerated yet)
+This is the **"come back to this later" list**. These are quests/activities known to exist in
+each game that are **not yet listed individually** — almost all blocked by the same cause: the
+guide hosts (PowerPyx / Game8 / Fandom / Fextralife / gamepressure) return **403** at the
+egress proxy and `curl`/WebFetch to any site returns `000`, so only web **search** works, and
+the remaining names don't surface in search snippets. **Unblock path for every row below:**
+enable guide-host egress for a scripted fetch → diff, or paste the exact name list.
+*(Guessed names that web search actively **rejected** as not-real are NOT listed here — they
+were dropped on purpose, not deferred.)*
+
+| Game | Listed | Est. real | Gap to revisit |
+|------|:------:|:---------:|----------------|
+| Persona 5 Royal | 44 | ~65 | **~20 individual Mementos Requests** still under the `#465` umbrella — request names don't appear in search snippets. Palaces (9) + Confidants (~22) are complete. |
+| Ghost of Tsushima | 71 | ~76 | The **standalone (non-companion) Tales of Tsushima** toward the full 61; the Exploration umbrellas (Fox Dens, Shinto/Inari Shrines, Bamboo Strikes, Haiku, Hot Springs, Pillars of Honor, Mongol artifacts) each collapse many activities. |
+| Hogwarts Legacy | 124 | ~130 | **~6:** a few obscure creature-den / treasure-vault side quests (~51 of 57 named), ~3 epilogue/House-Cup main quests. Note some "side quests" in guides (Crossed Wands, Summoner's Court, The Daedalian Keys) live under the **Challenges** bucket here. |
+| Cyberpunk 2077 | 148 | ~150 | A handful of the ~78 fixer **gigs** may be missing (reconstructed from search + canon). NCPD Scanner Hustles are intentionally excluded as filler, not quests. |
+| Pillars of Eternity / Deadfire | 28 / 29 | 50+ each | These are content-dense CRPGs: main story + companion quests + DLC are covered, but **many minor tasks / bounties / errands** per region are not individually listed. |
+| God of War Ragnarök | 62 | ~70 | Some **Berserker Gravestones**, **Odin's Ravens**, and collectible "Favor" sub-objectives are grouped under umbrella entries rather than listed 1:1. |
+| Horizon Forbidden West | 52 | ~70 | System content (Cauldrons, Rebel Camps, Hunting Grounds, Relic Ruins, Tallnecks, Salvage Contracts) is partly **umbrella'd**; individual errands may be missing. |
+| The Witcher 3 | 96 | ~100+ | Believed comprehensive for story + secondaries + witcher contracts + treasure hunts; minor **"?" points of interest** and some **Gwent quests** may be missing. |
+| FF7 Rebirth | 72 | ~80 | Chapters + Odd Jobs covered; some **region intel objectives and minigame side-stories** are umbrella'd. |
+| Elden Ring | 54 | ~60 | Main bosses + NPC questlines + full SotE covered; some **optional catacomb/cave bosses** aren't listed 1:1. |
+| Metaphor / Black Myth / Demon's Souls | 40 / 37 / 23 | close | Believed complete for their scope; a few **optional bounties (Metaphor)**, **secret bosses (Black Myth)**, and NPC micro-arcs may remain. |
+| Baldur's Gate 3 | 58 | 100+ | 🟡 Companion quests audited (titles corrected to official names) + Category filter added Jul 4; still the largest gap — **many Act 1–3 named side quests** remain, gated on the guide list. |
+
+**Every game not called out with a hard number is "believed complete for its scope"** — i.e.
+all main story + named side/companion content is present, and only obscure collectibles or
+micro-quests might be missing. The rows above are where a future guide-list diff would add the
+most.
+
 ### High priority — all complete ✅
 - [x] ~~Full coverage pass on all 15 games~~ — **DONE. Every game is deep-filled.**
 - [x] ~~Per-game sub-filters~~ — **DONE.** 13 of 15 games now show a contextual sub-filter when
@@ -228,11 +260,16 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
 - [ ] **Re-verify obscure entries in the already deep-filled games** — a few individual entries
       may be missing or approximate where the source lists couldn't be fully enumerated (see the
       Tooling note below).
-- [ ] **Automate the audit** — commit a script that checks IDs / required fields / duplicate
-      titles / video-link health and diffs per-game counts against a target list, so the
-      🔴/🟡/✅ status is generated rather than hand-maintained. The integrity checks run this
-      pass (sequential-ID check, dup-title check, video reuse/format check, render smoke test)
-      can seed it. *(This is improvement #7 in §4.)*
+- [x] ~~**Automate the audit**~~ — **DONE (Jul 4).** Committed `scripts/audit.js` — run
+      `node scripts/audit.js`. It checks duplicate IDs, missing required fields, duplicate
+      titles per game, video-link health (malformed / reused hardcoded IDs / reused search
+      terms), and **sub-filter value consistency** (any `region`/`act`/`category` that isn't a
+      configured filter option, i.e. a quest hidden from its own filter). Errors exit non-zero
+      (CI/hook-ready); it also prints a per-game **coverage table** (listed vs the estimated-full
+      target) that generates the 🔴/🟡/✅ status instead of hand-maintaining it. *(Improvement
+      #7 in §4.)* On its first run it caught **8 hidden quests** — 3 Cyberpunk (`region:"Multiple"`)
+      and 5 Witcher (no region, all Kaer Morhen) — now fixed by adding a **City-Wide** district
+      option, a **Kaer Morhen** region option, and tagging the five.
 
 ### Ghost of Tsushima expansion — DONE (Jul 4)
 Applied the same treatment as Hogwarts to the other 🟠 game. **47 → 71.** Names verified via
