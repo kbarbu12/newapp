@@ -13,13 +13,14 @@
   expansion — Phases 1–4, see §3)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
-- **Sub-filters (per-game, shown when a game is selected):** live for **13 of 15 games** —
+- **Sub-filters (per-game, shown when a game is selected):** live for **14 of 15 games** —
   BG3 (Act), Black Myth (Chapter), Elden Ring (Region + Shadow of the Erdtree DLC),
   Witcher 3 (Region), Cyberpunk (District), FF7 Rebirth (Region), God of War (Realm),
   Horizon (Region), Ghost of Tsushima (**two axes** — Category + Region), Hogwarts (**two axes** — Category +
   Region, added Jul 3), Metaphor (Region),
-  Demon's Souls (Archstone), Pillars of Eternity (Region). *(Deadfire and Persona 5 use the
-  global filters — no clean single-geography axis.)*
+  Demon's Souls (Archstone), Pillars of Eternity (Region), Persona 5 Royal (**Category** —
+  Palaces/Confidants/Mementos Requests/Activities, added Jul 4). *(Only Deadfire still uses the
+  global filters — no clean single axis.)*
 - **Walkthrough videos:** every quest (all 927) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
@@ -35,7 +36,7 @@
 | Hogwarts Legacy | 124 | 37 | 87 | ✅✅ | 🟠→ Expanding — 124 of ~130 (Phases 1–4: 12 assignments, 37 main, 16 relationship, 51 side; **~6 obscure names still gated**, see §3). Two sub-filters: **Category** + **Region** |
 | Elden Ring | 54 | 16 | 38 | ✅ | ✅ Deep-filled (legacy dungeons, bosses, NPC questlines, full Shadow of the Erdtree DLC) |
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
-| Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
+| Persona 5 Royal | 44 | 9 | 35 | ✅ | 🟠 44 of ~65 (9 Palaces, ~22 Confidants complete; ~9 named Mementos Requests + umbrella). **Category** sub-filter added Jul 4. Remaining Mementos Request names not surfaced by search — gated |
 | Baldur's Gate 3 | 47 | 10 | 37 | ✅ | ✅ Deep-filled (Acts 1–3 main story, companion arcs, major side quests) |
 | Ghost of Tsushima | 71 | 18 | 53 | ✅✅ | ✅ Expanded (Jul 4): all 9 Mythic Tales + individual companion Tales (Ishikawa 9, Masako 9, Norio 9, Yuna 4, Kenji 3); fixed Gosaku duplicate + bogus Ryuzo umbrella. Two sub-filters: **Category** + **Region** |
 | Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
@@ -139,8 +140,9 @@ tiers first, then the Jul 3 accuracy pass.
   into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (**now 124** of ~130 real named
   quests after the Phases 1–4 expansion — 37 main / 51 side / 12 assignments / 16 relationship;
   **~6 obscure names still gated, see §3**), ~~Ghost of Tsushima~~ **(EXPANDED Jul 4 → 71:** the ~6
-  "Tales of X" umbrellas were broken into individual companion tales; all 9 Mythic Tales present), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
-  Requests are mostly under one umbrella). *These three were previously tagged "deep-filled";
+  "Tales of X" umbrellas were broken into individual companion tales; all 9 Mythic Tales present), Persona 5 Royal (44 vs ~65 real — **not ~90+**; the ~30 individual Mementos Requests
+  are mostly under one umbrella, and their exact names do not surface in web search — gated on
+  the 403-blocked guides. A **Category** sub-filter was added Jul 4). *These three were previously tagged "deep-filled";
   that was inaccurate.*
 - 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (47 vs 100+), Elden Ring, Black Myth.
 - 🔴 **Sample only, full pass pending:** Pillars of Eternity I & II, Metaphor: ReFantazio.

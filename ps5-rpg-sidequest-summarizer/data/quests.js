@@ -254,6 +254,16 @@ const subFilterConfig = {
       { value: "Dyrford", text: "Dyrford" },
       { value: "White March", text: "The White March (DLC)" }
     ]
+  },
+  "Persona 5 Royal": {
+    field: "category",
+    label: "Category",
+    options: [
+      { value: "Palaces", text: "Palaces" },
+      { value: "Confidants", text: "Confidants" },
+      { value: "Mementos Requests", text: "Mementos Requests" },
+      { value: "Activities", text: "Activities" }
+    ]
   }
 };
 
@@ -1016,6 +1026,7 @@ const quests = [
   {
     id: 48,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "A Teacher Maid to Suffer",
     location: "Path of Adyeshach, Mementos",
@@ -1031,6 +1042,7 @@ const quests = [
   {
     id: 49,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Winners Don't Use Cheats",
     location: "Path of Chemdah, Mementos",
@@ -1046,6 +1058,7 @@ const quests = [
   {
     id: 50,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "One Who Bullies Bullies",
     location: "Path of Aiyatsbus, Mementos",
@@ -1784,6 +1797,7 @@ const quests = [
   {
     id: 97,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Akechi's Confidant (Justice)",
     location: "Kichijoji",
@@ -1799,6 +1813,7 @@ const quests = [
   {
     id: 98,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Mission: The Killer Who Cleans Up",
     location: "Path of Da'at, Mementos",
@@ -2879,6 +2894,7 @@ const quests = [
   {
     id: 166,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Ryuji's Confidant (Chariot)",
     location: "Shibuya / Track Field",
@@ -2894,6 +2910,7 @@ const quests = [
   {
     id: 167,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Ann's Confidant (Lovers)",
     location: "Shibuya / Various",
@@ -2909,6 +2926,7 @@ const quests = [
   {
     id: 168,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Futaba's Confidant (Hermit)",
     location: "Yongen-Jaya / Akihabara",
@@ -2924,6 +2942,7 @@ const quests = [
   {
     id: 170,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Requests: The Killer's Profile",
     location: "Path of Chemdah, Mementos",
@@ -7312,6 +7331,7 @@ const quests = [
   {
     id: 444,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 1,
     title: "Kamoshida's Palace — Castle of Lust",
@@ -7328,6 +7348,7 @@ const quests = [
   {
     id: 445,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 2,
     title: "Madarame's Palace — Museum of Vanity",
@@ -7344,6 +7365,7 @@ const quests = [
   {
     id: 446,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 3,
     title: "Kaneshiro's Palace — Bank of Gluttony",
@@ -7360,6 +7382,7 @@ const quests = [
   {
     id: 447,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 4,
     title: "Futaba's Palace — Pyramid of Wrath",
@@ -7376,6 +7399,7 @@ const quests = [
   {
     id: 448,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 5,
     title: "Okumura's Palace — Spaceport of Greed",
@@ -7392,6 +7416,7 @@ const quests = [
   {
     id: 449,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 6,
     title: "Niijima's Palace — Casino of Envy",
@@ -7408,6 +7433,7 @@ const quests = [
   {
     id: 450,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 7,
     title: "Shido's Palace — Cruiser of Pride",
@@ -7424,6 +7450,7 @@ const quests = [
   {
     id: 451,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 8,
     title: "Depths of Mementos — Prison of Regression",
@@ -7440,6 +7467,7 @@ const quests = [
   {
     id: 452,
     type: "main",
+    category: "Palaces",
     game: "Persona 5 Royal",
     chapter: 9,
     title: "Maruki's Palace — Laboratory of Sloth",
@@ -7456,6 +7484,7 @@ const quests = [
   {
     id: 453,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Chihaya Mifune (Fortune)",
     location: "Shinjuku",
@@ -7471,6 +7500,7 @@ const quests = [
   {
     id: 454,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Munehisa Iwai (Hanged Man)",
     location: "Yongen-Jaya",
@@ -7486,6 +7516,7 @@ const quests = [
   {
     id: 455,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Tae Takemi (Death)",
     location: "Yongen-Jaya",
@@ -7501,6 +7532,7 @@ const quests = [
   {
     id: 456,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sadayo Kawakami (Temperance)",
     location: "Shibuya",
@@ -7516,6 +7548,7 @@ const quests = [
   {
     id: 457,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Ichiko Ohya (Devil)",
     location: "Shinjuku",
@@ -7531,6 +7564,7 @@ const quests = [
   {
     id: 458,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Shinya Oda (Tower)",
     location: "Akihabara",
@@ -7546,6 +7580,7 @@ const quests = [
   {
     id: 459,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Hifumi Togo (Star)",
     location: "Kanda",
@@ -7561,6 +7596,7 @@ const quests = [
   {
     id: 460,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Yuuki Mishima (Moon)",
     location: "Shibuya",
@@ -7576,6 +7612,7 @@ const quests = [
   {
     id: 461,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Toranosuke Yoshida (Sun)",
     location: "Shibuya",
@@ -7591,6 +7628,7 @@ const quests = [
   {
     id: 462,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Caroline & Justine (Strength)",
     location: "Velvet Room",
@@ -7606,6 +7644,7 @@ const quests = [
   {
     id: 463,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Kasumi Yoshizawa (Faith)",
     location: "Kichijoji",
@@ -7621,6 +7660,7 @@ const quests = [
   {
     id: 464,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Takuto Maruki (Councillor)",
     location: "Shujin Academy",
@@ -7636,6 +7676,7 @@ const quests = [
   {
     id: 465,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Requests",
     location: "Mementos",
@@ -7651,6 +7692,7 @@ const quests = [
   {
     id: 466,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "Will Seeds & Jose (Royal)",
     location: "Mementos / Palaces",
@@ -11039,6 +11081,7 @@ const quests = [
   {
     id: 676,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Yusuke Kitagawa (Emperor)",
     location: "Various",
@@ -11054,6 +11097,7 @@ const quests = [
   {
     id: 677,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Makoto Niijima (Priestess)",
     location: "Various",
@@ -11069,6 +11113,7 @@ const quests = [
   {
     id: 678,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Haru Okumura (Empress)",
     location: "Various",
@@ -11084,6 +11129,7 @@ const quests = [
   {
     id: 679,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Morgana (Magician)",
     location: "Café Leblanc",
@@ -11099,6 +11145,7 @@ const quests = [
   {
     id: 680,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sae Niijima (Judgement)",
     location: "Courtroom / Leblanc",
@@ -11114,6 +11161,7 @@ const quests = [
   {
     id: 681,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Man of Plans and Capital",
     location: "Mementos",
@@ -11129,6 +11177,7 @@ const quests = [
   {
     id: 682,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: A Bounty Hunter Scorned",
     location: "Mementos",
@@ -11144,6 +11193,7 @@ const quests = [
   {
     id: 683,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Lockdown Hero",
     location: "Mementos",
@@ -11159,6 +11209,7 @@ const quests = [
   {
     id: 684,
     type: "side",
+    category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Mementos Request: The Illustrious Blackmailer",
     location: "Mementos",
@@ -11174,6 +11225,7 @@ const quests = [
   {
     id: 685,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "Kichijoji Activities: Jazz Jin, Darts & Billiards",
     location: "Kichijoji",
@@ -11189,6 +11241,7 @@ const quests = [
   {
     id: 686,
     type: "side",
+    category: "Activities",
     game: "Persona 5 Royal",
     title: "The Thieves Den",
     location: "Velvet Room",
@@ -11204,6 +11257,7 @@ const quests = [
   {
     id: 687,
     type: "side",
+    category: "Confidants",
     game: "Persona 5 Royal",
     title: "Confidant: Sojiro Sakura (Hierophant)",
     location: "Café Leblanc",
