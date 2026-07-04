@@ -15270,5 +15270,37 @@ const quests = [
     aiTip:
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
+  },
+  {
+    id: 935,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Bullguard",
+    location: "Forest of Wolves, Black Wind Mountain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit absorbed, early upgrades",
+    summary:
+      "The first true boss of Chapter 1, blocking the path toward the Forest of Wolves — an early test of the Destined One's staff stances.",
+    aiTip:
+      "An introductory fight: bait its heavy swing, dodge late, and combo during the recovery. Good for practising light-attack focus generation.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bullguard%20boss%20walkthrough"
+  },
+  {
+    id: 936,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Guangmou",
+    location: "Black Wind Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit absorbed, upgrades",
+    summary:
+      "A wolf commander who fights with ranged magic — area-of-effect shockwaves and poison sprays — distinct from his counterpart Guangzhi.",
+    aiTip:
+      "Close the distance to shut down his ranged casts, but watch for the poison pools; reposition out of the AoE before punishing.",
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangmou%20boss%20walkthrough"
   }
 ];
