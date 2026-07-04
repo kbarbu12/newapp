@@ -65,8 +65,14 @@ When adding or expanding a game, cover **everything tied to it**, not just a sam
 Beyond deep-fill, a name-by-name accuracy audit against canonical guides is underway:
 - [x] Pillars of Eternity, Pillars of Eternity II: Deadfire, Demon's Souls, Metaphor: ReFantazio
       — guide-audited (13 misattributed/fabricated quest names fixed; see `PROGRESS.md` §2).
-- [ ] Baldur's Gate 3, Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit title-by-title.
-- [ ] Automate the audit (integrity + per-game count diff) so status is generated, not hand-kept.
+- [~] Baldur's Gate 3 (in progress), Elden Ring, Black Myth: Wukong — remaining 🟡 games to audit
+      title-by-title. **BG3:** companion quests corrected to official journal names; 2 misattributions
+      fixed (Arabella/Voss, Minsc/High-Harper duplicate) and 5 more name-verified side quests added
+      (now 63 of 100+). Remaining Act 1–3 side quests gated on guide-host egress.
+- [x] **Automate the audit** — `scripts/audit.js` runs the integrity checks (IDs / required fields /
+      duplicate titles / video-link health / sub-filter tag integrity) and a per-game count diff, so
+      the ✅/🟡/🔴 status is generated. Wired to `npm test` + CI (`.github/workflows/audit.yml`,
+      and it gates the Pages deploy).
 
 ## 📣 Marketing
 - [ ] Post in game subreddits (r/Eldenring, r/witcher, r/GhostOfTsushima…)

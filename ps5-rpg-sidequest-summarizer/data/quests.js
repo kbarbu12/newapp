@@ -4009,16 +4009,16 @@ const quests = [
     category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Rescue Minsc (The High Harper)",
-    location: "Counting House / Lower City Sewers",
+    title: "Help Kith'rak Voss",
+    location: "Wyrm's Crossing / Camp",
     length: "medium",
     difficulty: "Medium",
-    reward: "Minsc (and Boo) as a companion",
+    reward: "Githyanki ally; ties into the Astral Prism",
     summary:
-      "Help Jaheira track the 'Stone Lord' through Baldur's Gate's underworld — only to find the legendary ranger Minsc, duped by a doppelganger. Save him from himself to recruit him.",
+      "The githyanki commander Kith'rak Voss, now a traitor to Vlaakith, visits your camp seeking aid to free a prisoner held within the Astral Prism. Hear out a gith's rebellion and decide whether to help.",
     aiTip:
-      "Toggle non-lethal attacks before the sewer fight and knock Minsc out last. Jaheira must be alive and in the party for the quest to progress.",
-    video: "https://www.youtube.com/watch?v=W4zJP42TDgU"
+      "Voss appears after you confront Vlaakith during Lae'zel's questline ('The Githyanki Warrior'). Keeping him alive earlier in Act 2 is required for him to return here.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
   },
   {
     id: 237,
@@ -13040,16 +13040,16 @@ const quests = [
     category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 2,
-    title: "Save Arabella (Kithrak Voss)",
-    location: "Last Light Inn",
+    title: "Find Arabella's Parents",
+    location: "Reithwin Town / Last Light Inn",
     length: "short",
     difficulty: "Medium",
-    reward: "Tiefling child saved",
+    reward: "Tiefling family's fate resolved",
     summary:
-      "Rescue the young tiefling Arabella from the shadows before grief consumes her family.",
+      "Arabella, sheltering at Last Light Inn, begs you to find her parents Locke and Komira, lost in the Shadow-Cursed Lands. Track them through Reithwin before the curse claims them.",
     aiTip:
-      "A time-sensitive rescue — act fast when the shadows close in around the inn.",
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20(Kithrak%20Voss)%20walkthrough"
+      "Search Reithwin Town near the toll house; carry Moonlanterns and light sources to survive the shadows on the way.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
   },
   {
     id: 795,
@@ -15576,5 +15576,90 @@ const quests = [
     aiTip:
       "Play the flute found at the Mason's Guild by his bedside; feeds Halsin's Thaniel questline.",
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
+  },
+  {
+    id: 946,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Steal a Githyanki Egg",
+    location: "Mountain Pass / Crèche Y'llek",
+    length: "medium",
+    difficulty: "High",
+    reward: "Reward from Lady Esther, or Lae'zel approval",
+    summary:
+      "Lady Esther at the Mountain Pass asks you to steal a githyanki egg from the Hatchery deep in Crèche Y'llek. Retrieve it, then decide its fate — hand it over, keep it, or let Lae'zel raise it.",
+    aiTip:
+      "You need boots that resist the caustic pools in the Hatchery. Giving the egg to Lae'zel instead of Esther deepens her approval.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
+  },
+  {
+    id: 947,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Punish the Wicked",
+    location: "Ruined Battlefield (Shadow-Cursed Lands)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spirit's blessing",
+    summary:
+      "Speak with the tormented spirit He Who Was on the Ruined Battlefield and avenge him by hunting down the paladins of Tyr who broke their oath and became the Shadow-Cursed dead.",
+    aiTip:
+      "The oathbreaker paladins are scattered across Act 2 — finish them before you leave the Shadow-Cursed Lands or the spirit's vengeance goes uncompleted.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
+  },
+  {
+    id: 948,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Free Counsellor Florrick",
+    location: "Wyrm's Rock Fortress",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ally at the final battle",
+    summary:
+      "An execution notice in the Lower City reveals Counsellor Florrick is imprisoned deep within Wyrm's Rock. Break her out before Gortash carries out the sentence.",
+    aiTip:
+      "Time-sensitive — she must be freed within about five long rests. A cultist disguise or the Wyrm's Rock sewers ease the approach.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
+  },
+  {
+    id: 949,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Find the Missing Letters",
+    location: "Baldur's Gate — Lower City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold and sundry rewards",
+    summary:
+      "Postmaster Danzo's carrier pigeons have scattered across the city with their letters undelivered. Recover the lost mail in a quirky citywide errand.",
+    aiTip:
+      "The pigeons perch on rooftops and ledges around the Lower City — Feather Fall, jump, or a fly spell make reaching them painless.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
+  },
+  {
+    id: 950,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Deal with the Gnomes",
+    location: "Rivington — Falcäo's Checkpoint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, or gnomish allies",
+    summary:
+      "Manip Falcäo hires you to wipe out the gnomes raiding his checkpoint and bring back their leader's head — though the Ironhand gnomes' side of the story may change your mind.",
+    aiTip:
+      "You can side with Falcäo or the gnomes; the Ironhand gnomes tie into the Steel Watch and Gondian questlines, so weigh the bigger picture before striking.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
   }
 ];

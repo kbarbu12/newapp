@@ -8,7 +8,7 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **938** (was 253 at the start of this work; 844 → 839 after
+- **Total quests in library:** **943** (was 253 at the start of this work; 844 → 839 after
   5 duplicate Persona 5 Confidant entries were removed, then **+64** from the Hogwarts Legacy
   expansion — Phases 1–4, see §3)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
@@ -21,7 +21,7 @@
   Demon's Souls (Archstone), Pillars of Eternity (Region), Persona 5 Royal (**Category** —
   Palaces/Confidants/Mementos Requests/Activities, added Jul 4). *(Only Deadfire still uses the
   global filters — no clean single axis.)*
-- **Walkthrough videos:** every quest (all 938) has a walkthrough video that captures **its
+- **Walkthrough videos:** every quest (all 943) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
 
@@ -37,7 +37,7 @@
 | Elden Ring | 54 | 16 | 38 | ✅ | ✅ Deep-filled (legacy dungeons, bosses, NPC questlines, full Shadow of the Erdtree DLC) |
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
 | Persona 5 Royal | 44 | 9 | 35 | ✅ | 🟠 44 of ~65 (9 Palaces, ~22 Confidants complete; ~9 named Mementos Requests + umbrella). **Category** sub-filter added Jul 4. Remaining Mementos Request names not surfaced by search — gated |
-| Baldur's Gate 3 | 58 | 10 | 48 | ✅✅ | 🟡→ Audited + expanding (Jul 4): companion titles fixed to official names, +Jaheira, +11 verified side quests. Two sub-filters: **Category** + **Act**. 58 of 100+ — more Act 1–3 side quests remain (gated) |
+| Baldur's Gate 3 | 63 | 10 | 53 | ✅✅ | 🟡→ Audited + expanding (Jul 4): companion titles fixed to official names, +Jaheira; **2 misattributions fixed** (Arabella/Voss, Minsc/High-Harper duplicate) + **5 more verified side quests**. Two sub-filters: **Category** + **Act**. 63 of 100+ — more Act 1–3 side quests remain (gated) |
 | Ghost of Tsushima | 71 | 18 | 53 | ✅✅ | ✅ Expanded (Jul 4): all 9 Mythic Tales + individual companion Tales (Ishikawa 9, Masako 9, Norio 9, Yuna 4, Kenji 3); fixed Gosaku duplicate + bogus Ryuzo umbrella. Two sub-filters: **Category** + **Region** |
 | Metaphor: ReFantazio | 40 | 9 | 31 | — | ✅ Deep-filled (9 main dungeons, all 14 Follower bonds, bounties, requests, trials) |
 | Black Myth: Wukong | 37 | 6 | 31 | ✅ | ✅ Deep-filled (chapter bosses across all 6 chapters, transformations, secrets) |
@@ -144,7 +144,7 @@ tiers first, then the Jul 3 accuracy pass.
   are mostly under one umbrella, and their exact names do not surface in web search — gated on
   the 403-blocked guides. A **Category** sub-filter was added Jul 4). *These three were previously tagged "deep-filled";
   that was inaccurate.*
-- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (54 vs 100+), Elden Ring, Black Myth.
+- 🟡 **Solid, needs a guide audit:** Baldur's Gate 3 (63 vs 100+), Elden Ring, Black Myth.
 - 🔴 **Sample only, full pass pending:** Pillars of Eternity I & II, Metaphor: ReFantazio.
 
 **Data-quality fix (Jul 3):** removed 5 duplicate Confidant entries in Persona 5 Royal
@@ -237,7 +237,7 @@ were dropped on purpose, not deferred.)*
 | FF7 Rebirth | 72 | ~80 | Chapters + Odd Jobs covered; some **region intel objectives and minigame side-stories** are umbrella'd. |
 | Elden Ring | 54 | ~60 | Main bosses + NPC questlines + full SotE covered; some **optional catacomb/cave bosses** aren't listed 1:1. |
 | Metaphor / Black Myth / Demon's Souls | 40 / 37 / 23 | close | Believed complete for their scope; a few **optional bounties (Metaphor)**, **secret bosses (Black Myth)**, and NPC micro-arcs may remain. |
-| Baldur's Gate 3 | 58 | 100+ | 🟡 Companion quests audited (titles corrected to official names) + Category filter added Jul 4; still the largest gap — **many Act 1–3 named side quests** remain, gated on the guide list. |
+| Baldur's Gate 3 | 63 | 100+ | 🟡 Companion quests audited (titles corrected to official names) + Category filter added Jul 4. Second Jul-4 pass: fixed 2 misattributions (#794 *Save Arabella (Kithrak Voss)* → **Find Arabella's Parents**; #236 *Rescue Minsc (The High Harper)*, a duplicate of Jaheira's quest, → **Help Kith'rak Voss**) and added 5 name-verified side quests (Steal a Githyanki Egg, Punish the Wicked, Free Counsellor Florrick, Find the Missing Letters, Deal with the Gnomes). Still the largest gap — **many Act 1–3 named side quests** remain, gated on the guide list. |
 
 **Every game not called out with a hard number is "believed complete for its scope"** — i.e.
 all main story + named side/companion content is present, and only obscure collectibles or
