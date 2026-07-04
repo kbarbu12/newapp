@@ -15508,5 +15508,73 @@ const quests = [
     aiTip:
       "Another Auntie Ethel-style hag fight — bring anti-charm options and save first.",
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
+  },
+  {
+    id: 942,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Explore the Ruins",
+    location: "Nautiloid Crash / Dank Crypt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, Withers unlocked",
+    summary:
+      "Delve the overgrown ruins near the crash site and the crypt below to face a hooded skeleton and claim its secrets.",
+    aiTip:
+      "Persuade or fight the adventurers at the door; the Dank Crypt's sarcophagus reveals Withers.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
+  },
+  {
+    id: 943,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Search the Cellar",
+    location: "Blighted Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Necromancy of Thay",
+    summary:
+      "Investigate the hidden cellar beneath the Blighted Village apothecary and its arcane mirror.",
+    aiTip:
+      "Ties into The Necromancy of Thay; answer the mirror's riddle to pass unharmed.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
+  },
+  {
+    id: 944,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Steal the Sacred Idol",
+    location: "Emerald Grove",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Idol of Silvanus, grove tension",
+    summary:
+      "Sneak into the druids' inner sanctum and lift the Idol of Silvanus at Mol's request.",
+    aiTip:
+      "Use Stealth/Invisibility; taking the idol has consequences for the grove.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
+  },
+  {
+    id: 945,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Wake Up Art Cullagh",
+    location: "Last Light Inn",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Lead to Thaniel, Halsin arc",
+    summary:
+      "Rouse the catatonic Art Cullagh at Last Light Inn to uncover the key to lifting the shadow curse.",
+    aiTip:
+      "Play the flute found at the Mason's Guild by his bedside; feeds Halsin's Thaniel questline.",
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
   }
 ];
