@@ -8,8 +8,8 @@
 
 ## 1. Snapshot
 
-- **Total quests in library:** **890** (was 253 at the start of this work; 844 → 839 after
-  5 duplicate Persona 5 Confidant entries were removed, then **+51** from the Hogwarts Legacy
+- **Total quests in library:** **900** (was 253 at the start of this work; 844 → 839 after
+  5 duplicate Persona 5 Confidant entries were removed, then **+61** from the Hogwarts Legacy
   expansion — Phases 1–4, see §3)
 - **Games covered:** 15 — **all 15 now deep-filled** ✅
 - **Detail pages:** working (clickable cards → `#quest-N` → detail view, back button, shareable links)
@@ -20,7 +20,7 @@
   Region, added Jul 3), Metaphor (Region),
   Demon's Souls (Archstone), Pillars of Eternity (Region). *(Deadfire and Persona 5 use the
   global filters — no clean single-geography axis.)*
-- **Walkthrough videos:** every quest (all 890) has a walkthrough video that captures **its
+- **Walkthrough videos:** every quest (all 900) has a walkthrough video that captures **its
   own** quest — audited so 0 are missing and 0 reuse a generic/shared video (the 43 quests
   that previously shared 8 stand-in videos were each given a quest-specific link).
 
@@ -32,7 +32,7 @@
 | The Witcher 3: Wild Hunt | 96 | 32 | 64 | ✅ | ✅ Deep-filled (full main story, HoS + B&W, secondaries, contracts, witcher-gear hunts) |
 | Final Fantasy VII Rebirth | 72 | 17 | 55 | — | ✅ Deep-filled (14 chapters, 36 Odd Jobs, World Intel, minigames, summons) |
 | God of War Ragnarök | 62 | 18 | 44 | — | ✅ Deep-filled (all main missions, favors across 9 realms, Berserkers, collectible favors) |
-| Hogwarts Legacy | 111 | 35 | 76 | ✅✅ | 🟠→ Expanding — 111 of ~130 (Phases 1–4: 12 assignments, +12 main, 17 relationship, 39 side; **~19 obscure names still gated**, see §3). Two sub-filters: **Category** + **Region** |
+| Hogwarts Legacy | 121 | 35 | 86 | ✅✅ | 🟠→ Expanding — 121 of ~130 (Phases 1–4: 12 assignments, +12 main, 17 relationship, 49 side; **~9 obscure names still gated**, see §3). Two sub-filters: **Category** + **Region** |
 | Elden Ring | 54 | 16 | 38 | ✅ | ✅ Deep-filled (legacy dungeons, bosses, NPC questlines, full Shadow of the Erdtree DLC) |
 | Horizon Forbidden West | 52 | 16 | 36 | — | ✅ Deep-filled (main quests, side quests, errands, system content, Burning Shores) |
 | Persona 5 Royal | 49 | 9 | 40 | — | ✅ Deep-filled (all Palaces + Mementos, every Confidant, Mementos Requests, activities) |
@@ -136,9 +136,9 @@ tiers first, then the Jul 3 accuracy pass.
   Demon's Souls (boss/NPC-driven). Cyberpunk 2077, The Witcher 3, and Horizon Forbidden
   West are **close** but likely missing a handful of gigs/contracts/errands.
 - 🟠 **Over-claimed — main story done, but many individual side quests are still collapsed
-  into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (**now 111** of ~130 real named
-  quests after the Phases 1–4 expansion — 35 main / 39 side / 12 assignments / 17 relationship;
-  **~19 obscure names still gated, see §3**), Ghost of Tsushima (47 vs **61 side Tales + 7 Mythic Tales** confirmed via web
+  into "umbrella" cards (re-audited Jul 3):** Hogwarts Legacy (**now 121** of ~130 real named
+  quests after the Phases 1–4 expansion — 35 main / 49 side / 12 assignments / 17 relationship;
+  **~9 obscure names still gated, see §3**), Ghost of Tsushima (47 vs **61 side Tales + 7 Mythic Tales** confirmed via web
   search — the side Tales are grouped under ~6 "Tales of X" umbrella entries, not listed
   individually), Persona 5 Royal (44 after de-dup vs ~90+; the ~65 individual Mementos
   Requests are mostly under one umbrella). *These three were previously tagged "deep-filled";
@@ -238,40 +238,44 @@ guide-audited **4** games (Pillars of Eternity, Deadfire, Demon's Souls, Metapho
 ### Hogwarts Legacy expansion — Phases 1–4 (Jul 3)
 **Goal:** bring Hogwarts Legacy from 60 listed quests toward its full ~130 (the 🟠
 "over-claimed" flag in §2). Counts are the PS5 figures, cross-checked against PowerPyx,
-PlayStationTrophies, and Game8 (via web search). **Status: Hogwarts is now 111 quests
-(was 60), +51.** Every quest title was **verified by name via web search** before authoring —
+PlayStationTrophies, and Game8 (via web search). **Status: Hogwarts is now 121 quests
+(was 60), +61.** Every quest title was **verified by name via web search** before authoring —
 nothing was invented. The remaining ~19 are obscure names the blocked guide pages don't
 surface in search snippets.
 
 | Category | Real total | Was | **Now** | Remaining |
 |----------|:----------:|:---:|:-------:|:---------:|
 | Main Story | ~40 (incl. 2 epilogue) | 23 | **35** | ~5 (epilogue/House-Cup names unconfirmable) |
-| Side Quests | 57 (+1 PS-exclusive) | 20 | **39** | ~18 (obscure creature/treasure quests) |
+| Side Quests | 57 (+1 PS-exclusive) | 20 | **49** | ~8 (obscure creature/treasure quests) |
 | Relationship | 21 | 8 (2 umbrellas) | **17** | ~4 (extra Sebastian/Amit names) |
 | Assignments | 12 | 1 umbrella | **12** ✅ | 0 — complete |
 | Challenges | (umbrella system cards) | 8 | 8 | — kept as-is |
-| **Total** | **~130** | **60** | **111** | **~19 (unconfirmable names)** |
+| **Total** | **~130** | **60** | **121** | **~9 (unconfirmable names)** |
 
-**What shipped (51 net new entries, IDs 845–896; `#715` umbrella removed):**
+**What shipped (61 net new entries, IDs 845–906; `#715` umbrella removed):**
 - **Assignments — all 12** authored individually (Garlick 1&2, Hecat 1&2, Sharp 1&2, Howin,
   Ronen, Weasley, Onai, Kogawa 1&2); the `#715` "Class Assignments" umbrella was deleted.
 - **Main Story +12** (Welcome to Hogsmeade, Weasley After Class, Tomes and Tribulations,
   Herbology/Beasts/Astronomy Class, Trials of Merlin, The Room of Requirement, The Caretaker's
   Lunar Lament, In the Shadow of the Estate, Back on the Path, In the Shadow of Revelation) → 35.
-- **Side Quests +19** (all name-verified): Sacking Selwyn's Estate, Cursed Tomb Treasure,
+- **Side Quests +29** (all name-verified): Sacking Selwyn's Estate, Cursed Tomb Treasure,
   Phoenix Rising, The Lord of the Manor, E is for Erised, Venomous Valour, Like a Moth to a
   Frame, Portrait in a Pickle, Follow the Butterflies, Take the Biscuit, The Plight of the
   House-Elf, Flight Test, Sweeping the Competition, Tangled Web, Absconder, The Hunt for the
-  Missing Pages, Dissending for Sweets, A Demanding Delivery, Kidnapped Cabbage → 39 of 57.
+  Missing Pages, Dissending for Sweets, A Demanding Delivery, Kidnapped Cabbage, **The Unique
+  Unicorn, Ollivander's Heirloom (Ravenclaw), Scrope's Last Hope (Slytherin), Interior
+  Decorating, Spot Removal, A Friend in Deed, Gobs of Gobstones, A Thief in the Night, Breaking
+  Camp, All's Well That Ends Bell** → 49 of 57. Also fixed a title typo: `#511` *Prison of Love*
+  → **Prisoner of Love** (the Hufflepuff house-exclusive quest).
 - **Relationship cleanup + 9** → 17 of 21. Repurposed the 2 umbrella cards and 2 fabricated
   titles into real quests (`#91` → *Mum's the Word*, `#148` → *Poached Egg*, `#504` → *Surprise
   Meeting*, `#505` → *It's All Gobbledegook*), and added Poppy's, Natty's, and Sebastian's
   confirmed quests (incl. In the Shadow of Discovery / Distance / Fate / Hope / Friendship).
   Poppy's set (5) and Natty's set (4) are complete.
 - **Not fabricated:** during authoring, web search *rejected* several guessed titles (e.g. "The
-  Muddy Solution", "Norwegian Ridgeback", "The High Ground") — those were **dropped, not added**.
-  The ~19 quests whose exact names the blocked guide pages don't surface were left out on
-  purpose; they'll be added if guide-host egress is enabled or the lists are supplied.
+  Muddy Solution", "Norwegian Ridgeback", "The High Ground", "The Tempered Fury", "Mine's a
+  Kneazle") — those were **dropped, not added**. The ~9 quests whose exact names the blocked
+  guide pages don't surface were left out on purpose; add them once egress is enabled or supplied.
 - **Videos:** every new entry has a quest-specific YouTube walkthrough **search** link
   (`youtube.com/results?search_query=Hogwarts Legacy <title> walkthrough`) — the project's
   standard, since YouTube is egress-blocked so a specific video ID can't be watched to verify.
@@ -290,7 +294,7 @@ Prof. Hecat 1 & 2 (DADA), Prof. Sharp 1 & 2 (Potions), Prof. Howin (Beasts), Pro
 - *Natty*: Mum's the Word, A Basis for Blackmail, Grief and Vengeance, The Lost Child.
 - *Amit*: It's All Gobbledegook (+ Stargazing / astronomy dates).
 
-**Side Quests — 39 of 57 now covered.** Rather than a scripted wiki diff (guide hosts are
+**Side Quests — 49 of 57 now covered.** Rather than a scripted wiki diff (guide hosts are
 403-blocked), each candidate title was **confirmed by name via web search** before authoring;
 searches that came back empty caused the guess to be dropped. The remaining ~18 are obscure
 creature-den / treasure-vault quests the snippets don't surface. **To finish this category:**
@@ -301,7 +305,7 @@ enable guide-host egress for a scripted fetch → diff, or paste the remaining n
 Hogwarts Castle / Hogsmeade / Highlands / Feldcroft). This needed a small `app.js` change so a
 game's `subFilterConfig` entry can be an **array of axes** (each renders its own labelled pill
 row; they AND-combine). Every Hogwarts quest — old and new — carries both `category` and
-`region`. Verified in headless Chromium: both rows render, counts correct (35/39/17/12/8 by
+`region`. Verified in headless Chromium: both rows render, counts correct (35/49/17/12/8 by
 category), AND-combination works (e.g. Relationship ∩ Highlands), no JS errors. **Every new
 Hogwarts entry must carry both `region` and `category`.**
 
@@ -309,9 +313,9 @@ Hogwarts entry must carry both `region` and `category`.**
 1. ~~**Assignments** — 12 authored, `#715` umbrella removed.~~ ✅ **DONE**
 2. ~~**Main Story** — +12 verified quests (23 → 35 of ~40).~~ ✅ **DONE** *(~5 unconfirmed names deferred)*
 3. ~~**Relationship** — umbrellas/fabricated titles fixed, +9 (8 → 17 of 21).~~ ✅ **DONE** *(~4 obscure names deferred)*
-4. ~~**Side Quests** — +19 name-verified quests (20 → 39 of 57).~~ ✅ **DONE (partial)** *(~18 unconfirmable names gated)*
+4. ~~**Side Quests** — +29 name-verified quests (20 → 49 of 57).~~ ✅ **DONE (partial)** *(~8 unconfirmable names gated)*
 5. ~~**Data hygiene** — every entry has `region` + `category`; integrity + render re-checked.~~ ✅ **DONE**
-6. **Remaining ~19** — ⏳ **gated** on guide-host egress or a supplied name list.
+6. **Remaining ~9** — ⏳ **gated** on guide-host egress or a supplied name list.
 
 **Token cost** (each entry ≈ 150–200 tokens of committed source; authoring cost ≈ 3–4× that
 with research + verification):

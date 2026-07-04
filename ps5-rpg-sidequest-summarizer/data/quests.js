@@ -8369,7 +8369,7 @@ const quests = [
     category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "Prison of Love",
+    title: "Prisoner of Love",
     location: "Hogwarts Highlands",
     length: "short",
     difficulty: "Low",
@@ -8378,7 +8378,7 @@ const quests = [
       "Help a lovestruck ghost reconnect with a lost sweetheart in a bittersweet, funny detour.",
     aiTip:
       "Low stakes and charming — a good break between combat-heavy quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Prison%20of%20Love%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Prisoner%20of%20Love%20walkthrough"
   },
   {
     id: 512,
@@ -14581,5 +14581,175 @@ const quests = [
     aiTip:
       "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Friendship%20(Sebastian)%20walkthrough"
+  },
+  {
+    id: 897,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "The Unique Unicorn",
+    location: "Hogwarts Valley / Unicorn Den",
+    length: "medium",
+    difficulty: "Low",
+    reward: "The Unicorn beast",
+    summary:
+      "Help a kind witch rescue a unicorn and its foal from poachers and settle them safely in a sanctuary.",
+    aiTip:
+      "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unique%20Unicorn%20walkthrough"
+  },
+  {
+    id: 898,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Ollivander's Heirloom",
+    location: "Hogsmeade / Ollivanders",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, Ravenclaw lore",
+    summary:
+      "Ravenclaw house quest — help Mr. Ollivander recover a treasured wandmaking heirloom lost to thieves.",
+    aiTip:
+      "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivander's%20Heirloom%20walkthrough"
+  },
+  {
+    id: 899,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Scrope's Last Hope",
+    location: "Hogsmeade / Gaunt connections",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gear, Slytherin lore",
+    summary:
+      "Slytherin house quest — aid the loyal house-elf Scrope in fulfilling his late master's final wish.",
+    aiTip:
+      "Slytherin-exclusive; a story-driven quest with a poignant finish.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Scrope's%20Last%20Hope%20walkthrough"
+  },
+  {
+    id: 900,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Interior Decorating",
+    location: "Room of Requirement",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Conjuration recipes",
+    summary:
+      "Help decorate the Room of Requirement to a fellow student's exacting taste using Conjuration.",
+    aiTip:
+      "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Interior%20Decorating%20walkthrough"
+  },
+  {
+    id: 901,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Spot Removal",
+    location: "Hogsmeade",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Gather Bubotuber pus to help a mortified student clear up a nasty magical breakout of spots.",
+    aiTip:
+      "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Spot%20Removal%20walkthrough"
+  },
+  {
+    id: 902,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "A Friend in Deed",
+    location: "Hogwarts Castle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Lend a hand to a fellow student caught in a bind and repay a small debt of friendship.",
+    aiTip:
+      "A short, low-stakes favour quest around the castle.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Friend%20in%20Deed%20walkthrough"
+  },
+  {
+    id: 903,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Gobs of Gobstones",
+    location: "Hogwarts Castle",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gobstones set, gear",
+    summary:
+      "Track down six lost Gobstones scattered around the castle for the keen collector Zenobia Noke.",
+    aiTip:
+      "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Gobs%20of%20Gobstones%20walkthrough"
+  },
+  {
+    id: 904,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Feldcroft",
+    title: "A Thief in the Night",
+    location: "Feldcroft / Irondale",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gold, gear",
+    summary:
+      "Help Padraic Haggarty catch the sneaky Niffler pilfering coins by following its trail through the night.",
+    aiTip:
+      "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Thief%20in%20the%20Night%20walkthrough"
+  },
+  {
+    id: 905,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Highlands",
+    title: "Breaking Camp",
+    location: "Highlands / Goblin Camps",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, gear",
+    summary:
+      "Answer Claire's plea and clear out the goblin camps menacing travellers across the Highlands.",
+    aiTip:
+      "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Breaking%20Camp%20walkthrough"
+  },
+  {
+    id: 906,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "All's Well That Ends Bell",
+    location: "Hogwarts / Bell Tower Courtyard",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gear, castle lore",
+    summary:
+      "Solve the enchanted Owl Bell Tower puzzle to lay a restless matter to rest at Hogwarts.",
+    aiTip:
+      "Ring the bells in the order the owl statues indicate to complete the puzzle.",
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20All's%20Well%20That%20Ends%20Bell%20walkthrough"
   }
 ];
