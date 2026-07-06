@@ -45,14 +45,22 @@ jobs:
         run: |
           npm run build:staging
           npm run build:prod
-      # Assemble the published site: the vanilla app stays at the root
-      # (/newapp/) untouched; the redesign bundles mount alongside it.
+      # Assemble the published site:
+      #   /            -> redirect to the promoted redesign (/app/)
+      #   /app/        -> promoted redesign (only approved tabs)
+      #   /staging/    -> full redesign
+      #   /classic/    -> vanilla site, self-contained (its service worker
+      #                   scopes to /classic/ so it can't cache the redesign)
+      #   /sw.js       -> kill-switch worker that clears the legacy root-scoped
+      #                   registration lingering in returning visitors' browsers
       - name: Assemble site
         run: |
-          rm -rf _site
-          cp -r ps5-rpg-sidequest-summarizer _site
+          rm -rf _site && mkdir _site
+          cp -r ps5-rpg-sidequest-summarizer _site/classic
           cp -r redesign/dist/staging _site/staging
           cp -r redesign/dist/app _site/app
+          cp deploy/root-index.html _site/index.html
+          cp deploy/root-sw.js _site/sw.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
