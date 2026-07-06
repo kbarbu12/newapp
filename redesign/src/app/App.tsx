@@ -510,6 +510,10 @@ export default function App() {
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
 
+  // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
+  // at the top, not wherever the previous tab was scrolled to.
+  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
+
   // In prod only promoted tabs are reachable; a shortcut to an un-promoted tab
   // is a no-op there. In staging every tab is live.
   // Navigate to a tab, optionally pre-applying a filter set. When filters are
