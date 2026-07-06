@@ -12231,6 +12231,14 @@ const quests = [
       "Storm the fog-choked royal palace of Boletaria, from the Gates to the throne of the False King Allant.",
     aiTip:
       "Bring lightning-resist for Tower Knight; the Penetrator fight rewards saving Biorr.",
+    walkthrough: [
+      "From the Gates of Boletaria, cross the outer bridge and clear the courtyard to reach the Phalanx fog gate.",
+      "Beat Phalanx with firebombs or a fire weapon, then push up the ramparts toward the Tower Knight.",
+      "Clear the archers on the side stairs first, then fight the Tower Knight with lightning resistance and strikes to its legs.",
+      "Free the knight Biorr from his locked cell along the route so he can be summoned later.",
+      "Defeat the Penetrator (summon Biorr for help) to open the inner keep.",
+      "Take the archstone up to the False King's arena to finish the world."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
   },
   {
@@ -12247,6 +12255,14 @@ const quests = [
       "Descend the dwarven mines of Stonefang, ending at the imprisoned Dragon God.",
     aiTip:
       "Turpentine/fire buffs melt the Armor Spider; the Dragon God is a stealth-and-ballista puzzle.",
+    walkthrough: [
+      "Descend from the Smithing Grounds and clear the tunnels to the Armor Spider fog gate.",
+      "Apply Turpentine or a fire buff and fight the Armor Spider from range to melt it quickly.",
+      "Work down through the mine-cart and lava paths to the Flamelurker.",
+      "Beat the Flamelurker by dodging its explosive combos, then open the depths.",
+      "At the Dragon God, move between the stone cover so it can't spot you, and reach the two ballistae.",
+      "Fire both ballistae to pin its arms, then hit its exposed head to finish the Dragon God."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
   },
   {
@@ -12263,6 +12279,14 @@ const quests = [
       "Escape the prison towers of Latria, past the Fool's Idol and the dreaded Maneaters.",
     aiTip:
       "Kill the disciple to stop Fool's Idol reviving; the Old Monk fight can summon another player.",
+    walkthrough: [
+      "Escape the prison cells, avoiding the Mind Flayers' magic, and reach the walkway to the Fool's Idol.",
+      "During the Fool's Idol fight, find and kill the hidden disciple in the room so the Idol can no longer revive.",
+      "Cross the swinging bridges and rooftops toward the second archstone.",
+      "Bait the twin Maneaters onto the narrow bridge and fight them one at a time.",
+      "Continue to the Old Monk — note the fight may summon another player to act as the boss.",
+      "Defeat the Old Monk (or the invading phantom) to clear the tower."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
   },
   {
@@ -12279,6 +12303,14 @@ const quests = [
       "Brave the storm-lashed cliffs and crypts of the Shrine, home to the Storm King.",
     aiTip:
       "The blind Old Hero tracks by sound — sneak and strike. Storm Ruler trivializes the Storm King.",
+    walkthrough: [
+      "Climb the storm-lashed cliffs and kill the Reaper first so the skeletons stop reviving.",
+      "Enter the crypts and fight the Adjudicator, striking the glowing wound on its belly, then its head when it drops.",
+      "Reach the blind Old Hero — move quietly and reposition after each hit, since it tracks by sound.",
+      "Pick up the Storm Ruler sword in the arena before the final boss.",
+      "At the Storm King, charge the Storm Ruler's heavy attack to loose wind blades that shred the flying Manta swarm.",
+      "Keep firing wind blades to bring the Storm King down and complete the world."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
   },
   {
@@ -12295,6 +12327,14 @@ const quests = [
       "Wade through the plague-ridden swamps of the Valley to the merciful Maiden Astraea.",
     aiTip:
       "Bring plague/poison cures; the Astraea encounter is a heartbreaking moral choice.",
+    walkthrough: [
+      "Descend the shanty scaffolding, carrying plague and poison cures for the swamp below.",
+      "Fight the Leechmonger in the pit — use fire to stop it healing and burn it down.",
+      "Wade through the poison swamp, sticking to the shallow paths, toward Maiden Astraea's sanctuary.",
+      "Cross to the boss area and face Garl Vinland, Astraea's devoted protector.",
+      "Either defeat Garl or slip past him and approach Astraea directly.",
+      "Choose whether to strike down Maiden Astraea to claim her Demon's Soul — an intentionally somber kill."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
   },
   {
@@ -12311,6 +12351,14 @@ const quests = [
       "Defeat the False King Allant and confront the Old One to decide the fate of the waking world.",
     aiTip:
       "Your ending choice (lull the Old One or seize power) reflects your journey — save first.",
+    walkthrough: [
+      "Complete all five worlds so each Archdemon's soul is collected.",
+      "Return to the top of Boletaria and enter the False King Allant's arena — save your game first.",
+      "Beat Allant, avoiding his soul-draining grab that permanently lowers your Soul Level.",
+      "Head back to the Nexus; the path to the Old One opens once Allant falls.",
+      "Walk out to the Old One and approach the Maiden in Black.",
+      "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
   },
   {
@@ -12327,6 +12375,14 @@ const quests = [
       "Manage World and Character Tendency — pure-white and pure-black states unlock exclusive bosses and loot.",
     aiTip:
       "Dying in body form blackens tendency; some rare items require a specific tendency, so plan runs.",
+    walkthrough: [
+      "Learn the two meters: World Tendency (per world) and Character Tendency (your own alignment).",
+      "Explore in Soul form or as a Blue Phantom to avoid blackening a world by dying in body form.",
+      "Push a world toward Pure White by killing its bosses and Black Phantoms without dying in body form.",
+      "Push toward Pure Black by dying in body form repeatedly or killing key NPCs, unlocking black-tendency enemies and loot.",
+      "Shift Character Tendency white by co-op and aiding others, or black by invasions and killing NPCs.",
+      "Plan runs around tendency, since some NPCs, bosses, and rare items only appear at a specific state."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
   },
   {
@@ -12343,6 +12399,14 @@ const quests = [
       "Hunt the optional Primeval Demons that drop Colorless Demon's Souls for special upgrades.",
     aiTip:
       "Their spawns depend on World Tendency — a reason to push tendency pure-white.",
+    walkthrough: [
+      "Note that Primeval Demons are optional foes that drop Colorless Demon's Souls used for flexible upgrades.",
+      "Push the target world to Pure White Tendency, since their spawns depend on it.",
+      "Travel to that world's Primeval Demon location and clear the path to it.",
+      "Defeat the Primeval Demon to claim its Colorless Demon's Soul.",
+      "Take Colorless Souls to Blacksmith Ed or Boldwin to apply special upgrades.",
+      "Repeat across worlds at Pure White to gather enough Colorless Souls for your build."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
   },
   {
@@ -12359,6 +12423,14 @@ const quests = [
       "Rescue and supply Blacksmith Ed to forge unique weapons from Demon's Souls.",
     aiTip:
       "Spend boss souls wisely — some make build-defining weapons like the Northern Regalia.",
+    walkthrough: [
+      "In Stonefang Tunnel, find Blacksmith Ed and talk to him so he relocates to the Nexus.",
+      "Return to the Nexus and bring Ed the boss (Demon's) souls you want to invest.",
+      "Ask Ed to forge unique weapons from specific Demon's Souls.",
+      "Save build-defining souls — for example, work the right souls toward the Northern Regalia.",
+      "Use Colorless Demon's Souls with Ed to push weapons down their special upgrade paths.",
+      "Upgrade deliberately, since boss souls are limited per playthrough."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
   },
   {
