@@ -215,6 +215,7 @@
       if (state.difficulty !== "all" && q.difficulty !== state.difficulty) return false;
       if (state.length !== "all" && q.length !== state.length) return false;
       if (state.video === "video" && !q.video) return false;
+      if (state.video === "none" && q.video) return false;
       for (var s = 0; s < subConfigs.length; s++) {
         var field = subConfigs[s].field;
         var val = state.subs[field];
