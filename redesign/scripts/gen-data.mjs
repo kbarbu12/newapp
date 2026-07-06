@@ -18,11 +18,10 @@ const PROD_DATA = path.resolve(
 );
 const OUT = path.resolve(__dirname, "../src/generated/data.ts");
 
-// The deploy publishes the vanilla site's contents at the Pages root
-// (/newapp/), so its images/ dir lives at /newapp/images/. Use an absolute URL
-// so covers resolve no matter where the redesign is hosted (/staging/, /app/,
-// or local dev).
-const IMG_BASE = "https://kbarbu12.github.io/newapp/";
+// The deploy publishes the vanilla site under /newapp/classic/, so its images/
+// dir lives at /newapp/classic/images/. Use an absolute URL so covers resolve
+// no matter where the redesign is hosted (/staging/, /app/, or local dev).
+const IMG_BASE = "https://kbarbu12.github.io/newapp/classic/";
 
 // The prod file declares `const gameImages = {...}` and `const quests = [...]`
 // with no exports. Append an export line, import it as a temp ESM module.
