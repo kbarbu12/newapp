@@ -13,10 +13,10 @@
 export type Tab = "home" | "browse" | "news" | "saved";
 
 export const PROMOTED_TABS: Record<Tab, boolean> = {
-  home: false,
-  browse: false,
-  news: false,
-  saved: false,
+  home: false,   // staging only for now
+  browse: true,  // Library — live in prod
+  news: false,   // staging only for now
+  saved: true,   // live in prod
 };
 
 // Build target — injected by Vite (VITE_TARGET). Defaults to staging so local
