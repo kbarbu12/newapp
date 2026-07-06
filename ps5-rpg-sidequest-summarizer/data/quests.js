@@ -2478,6 +2478,13 @@ const quests = [
       "Meet Stockpile Thomas in the Nexus, a kind-hearted man searching for his family. He provides the invaluable service of storing excess items and unlocking later in his questline reveals a heartbreaking backstory.",
     aiTip:
       "Always use Thomas to store excess items — inventory management is critical in Demon's Souls. Talk to him after major boss kills to unlock new dialogue about his family.",
+    walkthrough: [
+      "Descend to the lower tier of the Nexus and speak with Stockpile Thomas, the large man seated near the archstones.",
+      "Use his storage service to deposit excess weapons, armor, and consumables — your carry weight and inventory space are limited.",
+      "Return and talk to him again after each major boss (archdemon) kill to advance his dialogue.",
+      "Keep checking in across your playthrough to hear his search for his family unfold.",
+      "Continue the conversations to their end to reach the questline's somber conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stockpile%20Thomas%20walkthrough"
   },
   {
@@ -2542,6 +2549,14 @@ const quests = [
       "Decide the fate of the caged assassin Yurt in the Tower of Latria. Free him and he relocates to the Nexus, murdering a named NPC each time you slay an archdemon; cut him down there instead to claim the Gloom Set. His killings serve his accomplice Mephistopheles.",
     aiTip:
       "Freeing Yurt is a trap — to keep the Nexus vendors and questline NPCs alive, kill him on sight once he appears. His victims can otherwise only be 'avenged' by taking Mephistopheles' contracts at Pure Black tendency.",
+    walkthrough: [
+      "Reach the Tower of Latria (3-2) and find Yurt locked in a hanging cage suspended over the walkway.",
+      "Free him only if you intend to farm the Gloom armor route — otherwise leave the cage shut and move on.",
+      "If freed, Yurt travels to the Nexus and murders one named NPC each time you defeat an archdemon.",
+      "To protect the Nexus merchants and questline NPCs, kill Yurt on sight the moment he appears there.",
+      "Cutting him down in the Nexus rewards the full Gloom Set.",
+      "Advanced: his killings serve Mephistopheles — only accept her contracts at Pure Black world tendency if you deliberately want that path."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
   },
   {
@@ -12193,6 +12208,13 @@ const quests = [
       "Slain in Boletaria, the player wakes in the Nexus — the soul-bound hub linking the five worlds.",
     aiTip:
       "Return here to level up with the Maiden in Black and spend souls between runs.",
+    walkthrough: [
+      "After dying in the Boletaria tutorial, watch the opening and wake in the Nexus.",
+      "Speak with the Monumental to learn the hub's purpose and unlock the archstones.",
+      "Talk to the Maiden in Black to spend accumulated souls and level up.",
+      "Use the archstones to travel out to any of the five worlds.",
+      "Return to the Nexus between runs to restock, store items with Stockpile Thomas, and level up."
+    ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
   },
   {
