@@ -6,6 +6,7 @@ import {
   TrendingUp, Calendar, Home, Grid3X3
 } from "lucide-react";
 import { GAMES, QUESTS, type Quest } from "../generated/data";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
@@ -69,10 +70,12 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
 function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; compact?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
-  const [showSteps, setShowSteps] = useState(false);
+  const [open, setOpen] = useState(false);
   const hasGuide = !!quest.walkthrough?.length;
   return (
+    <>
     <article
+      onClick={()=>setOpen(true)}
       className="group flex bg-card border border-border rounded-lg overflow-hidden cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
       onMouseEnter={e=>{const el=e.currentTarget;el.style.borderColor=col+"55";el.style.boxShadow=`0 12px 32px rgba(0,0,0,.5),0 0 0 1px ${col}22,0 4px 20px ${col}15`;}}
       onMouseLeave={e=>{const el=e.currentTarget;el.style.borderColor="";el.style.boxShadow="";}}
@@ -102,28 +105,52 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <DiffBadge level={quest.difficulty}/>
           <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><LenDots length={quest.length}/><span className="text-[9px] text-muted-foreground font-mono capitalize">{quest.length}</span></span>
         </div>
-        {hasGuide && (
-          <div className="mt-1 pt-2 border-t border-border/50">
-            <button
-              onClick={e=>{e.stopPropagation();setShowSteps(s=>!s);}}
-              className="flex items-center gap-1 text-[10px] font-mono text-primary hover:underline"
-            >
-              <BookOpen size={10}/>{showSteps ? "Hide step-by-step guide" : "Step-by-step guide"}
-            </button>
-            {showSteps && (
-              <ol className="mt-2 flex flex-col gap-1.5 list-none">
-                {quest.walkthrough!.map((s,i)=>(
-                  <li key={i} className="flex gap-2 text-[11px] text-muted-foreground leading-relaxed">
-                    <span className="shrink-0 w-4 h-4 rounded bg-primary/15 text-primary text-[9px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
-                    <span>{s}</span>
-                  </li>
-                ))}
-              </ol>
-            )}
-          </div>
-        )}
       </div>
     </article>
+
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto">
+        <DialogHeader>
+          <span className="text-[10px] font-mono font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
+          <DialogTitle className="text-lg leading-snug" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</DialogTitle>
+        </DialogHeader>
+
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <Pill className={quest.type==="main"?"bg-primary/10 text-primary border-primary/25":"bg-white/5 text-muted-foreground border-white/10"}>
+            {quest.type==="main"?<Star size={8}/>:<BookOpen size={8}/>}{quest.type==="main"?"Main":"Side"}
+          </Pill>
+          <DiffBadge level={quest.difficulty}/>
+          <span className="flex items-center gap-1"><Clock size={9} className="text-muted-foreground"/><LenDots length={quest.length}/><span className="text-[9px] text-muted-foreground font-mono capitalize">{quest.length}</span></span>
+        </div>
+
+        <p className="text-xs text-muted-foreground leading-relaxed">{quest.summary}</p>
+
+        {quest.reward && (
+          <p className="text-xs text-muted-foreground"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
+        )}
+
+        {quest.video && (
+          <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline w-fit">
+            <Youtube size={13}/> Watch video walkthrough
+          </a>
+        )}
+
+        {hasGuide && (
+          <div className="pt-3 border-t border-border">
+            <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-primary mb-3">Step by step walkthrough</h4>
+            <ol className="flex flex-col gap-2.5 list-none">
+              {quest.walkthrough!.map((s,i)=>(
+                <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
+                  <span className="shrink-0 w-5 h-5 rounded bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+      </DialogContent>
+    </Dialog>
+    </>
   );
 }
 
