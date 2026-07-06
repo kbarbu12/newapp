@@ -1752,27 +1752,11 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Mum's%20the%20Word%20Natty%20walkthrough"
   },
   {
-    id: 92,
-    type: "side",
-    game: "God of War Ragnarök",
-    region: "Svartalfheim",
-    title: "The Weight of Chains",
-    location: "Svartalfheim",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Draupnir Spear attachments, Lunda's Armor set",
-    summary:
-      "Investigate the dwarven mining operations in Svartalfheim and uncover the brutal conditions imposed by Odin's regime. A quest chain that deepens the world-building around dwarven culture and resistance.",
-    aiTip:
-      "Complete the optional dock areas for crafting materials. Lunda's armor set inflicts Poison on parry — one of the best early armor options.",
-    video: "https://www.youtube.com/watch?v=64sie5KvlWU"
-  },
-  {
     id: 93,
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "Spirit of Rebellion",
+    title: "The Spirit of Rebellion",
     location: "Vanaheim, The Crater",
     length: "long",
     difficulty: "High",
@@ -1782,38 +1766,6 @@ const quests = [
     aiTip:
       "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
     video: "https://www.youtube.com/watch?v=6PdPpJlonMM"
-  },
-  {
-    id: 94,
-    type: "side",
-    game: "God of War Ragnarök",
-    region: "Midgard",
-    title: "Fit for a King",
-    location: "Svartalfheim, Niðavellir",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Steinbjörn Armor set materials, Amulet Enchantment",
-    summary:
-      "Track down the legendary Sleeping Troll hidden in Svartalfheim's mountains. Waking and defeating it provides materials for one of the game's most powerful armor sets.",
-    aiTip:
-      "The Sleeping Troll is a mini-boss that hits extremely hard. Use the Draupnir Spear's range to stay safe and detonate embedded spears for burst damage.",
-    video: "https://www.youtube.com/watch?v=Z9fikYfG7og"
-  },
-  {
-    id: 95,
-    type: "side",
-    game: "God of War Ragnarök",
-    region: "Midgard",
-    title: "The Berserker Gravestone Battles",
-    location: "Multiple Realms",
-    length: "long",
-    difficulty: "High",
-    reward: "Berserker Armor set, Hilt of Skofnung",
-    summary:
-      "Find and battle twelve Berserker spirits sealed in gravestones across all nine realms. The ultimate optional boss rush culminates in a fight against the Berserker King — one of the hardest encounters in the game.",
-    aiTip:
-      "Each Berserker has different elemental affinities — switch equipment accordingly. Save the King for last; he's harder than the final story boss. Level 9 gear is recommended.",
-    video: "https://www.youtube.com/watch?v=bCHlBSRZ9J8"
   },
   {
     id: 97,
@@ -2840,22 +2792,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=w7nx2a8ocmg"
   },
   {
-    id: 161,
-    type: "side",
-    game: "God of War Ragnarök",
-    region: "Midgard",
-    title: "The Raven Tree",
-    location: "Niflheim",
-    length: "long",
-    difficulty: "High",
-    reward: "Odin's Ravens rewards, unique armour and enchantments",
-    summary:
-      "Track down all 48 of Odin's Ravens hidden across the Nine Realms and return to the Raven Tree in Niflheim for escalating rewards. The ravens glow green and emit a distinct sound — but some are hidden in very obscure locations.",
-    aiTip:
-      "Use the map to track which realms have ravens remaining. Some ravens are only accessible after completing story missions that open new areas. The final reward set is among the best armour in the game.",
-    video: "https://www.youtube.com/watch?v=7BgCbCDpm6c"
-  },
-  {
     id: 162,
     type: "side",
     game: "God of War Ragnarök",
@@ -2902,22 +2838,6 @@ const quests = [
     aiTip:
       "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
     video: "https://www.youtube.com/watch?v=pIbXqpQmuIg"
-  },
-  {
-    id: 165,
-    type: "side",
-    game: "God of War Ragnarök",
-    region: "Vanaheim",
-    title: "Sigrun's Curse",
-    location: "Midgard",
-    length: "medium",
-    difficulty: "High",
-    reward: "Rond of Purification, Valkyrie armour upgrade materials",
-    summary:
-      "Investigate a curse affecting the Valkyries that has left them trapped between worlds. The quest chain leads to several powerful Valkyrie mini-bosses and uncovers the connection between Odin's manipulation and their imprisonment.",
-    aiTip:
-      "Each Valkyrie has unique attack patterns — observe before committing to aggression. Shield parry timing is critical; learn to deflect their wing attacks for free damage windows.",
-    video: "https://www.youtube.com/watch?v=JmBTiG6pCfk"
   },
   {
     id: 166,
@@ -7025,7 +6945,7 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "In Service of Asgard",
+    title: "In Service to Asgard",
     location: "Svartalfheim",
     length: "short",
     difficulty: "Low",
@@ -7313,7 +7233,7 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "Fit for a King (Berserkers)",
+    title: "Fit for a King",
     location: "Multiple realms",
     length: "long",
     difficulty: "High",
@@ -7329,7 +7249,7 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Midgard",
-    title: "The All-Father Blinded (Odin's Ravens)",
+    title: "The Eyes of Odin",
     location: "All realms",
     length: "medium",
     difficulty: "Low",
@@ -10939,7 +10859,7 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "The Weight of Chains (Lyngbakr)",
+    title: "The Weight of Chains",
     location: "Svartalfheim",
     length: "medium",
     difficulty: "Medium",
