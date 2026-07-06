@@ -1,3 +1,63 @@
+# Update — Redesign, Staging Environment & Walkthrough Expansion
+
+**Date:** 2026-07-06
+**Branch:** `claude/staging-env-design-review-tybqwn`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Brought in a full React/Vite redesign of the site, stood up a staging
+environment and a per-tab promotion pipeline so parts of the redesign can go
+live only after review, then routed production to the promoted redesign and
+began filling in written walkthroughs for quests with no video.
+
+### Redesign wired to real data
+- Imported the React/Vite/Tailwind (shadcn) redesign into `redesign/`.
+- Added `redesign/scripts/gen-data.mjs`, which generates the app's data from
+  the live `data/quests.js` at build time (949 quests, 15 games) — a single
+  source of truth, no hand-maintained copy. Mirrors the site's real-video rule
+  (placeholder `…/results` search links don't count → 254 real videos).
+
+### Staging + per-tab promotion
+- `redesign/src/config/promotion.ts` gates each tab. Staging shows every tab;
+  production shows only tabs flipped to `true`.
+- CI (`.github/workflows/pages.yml`) builds two bundles and publishes:
+  - `/newapp/` — the **promoted redesign** (Library + Saved live)
+  - `/newapp/staging/` — the full redesign, all tabs
+  - `/newapp/classic/` — the original vanilla site, self-contained
+- Promoted **Library** and **Saved** to production; **Home** and **News**
+  remain staging-only for now.
+
+### Production routing & caching
+- Moved the vanilla site to `/newapp/classic/` so its PWA service worker
+  scopes to `/classic/` and can no longer serve a stale redesign; added a
+  kill-switch `/newapp/sw.js` to clear the legacy root-scoped worker.
+- Redesign published at the `/newapp/` root (no `/app/` subpath, no redirect);
+  cover images served from `/newapp/classic/images/`; dropped the redesign's
+  `noindex` so production stays indexable.
+
+### UX fixes
+- Home quick-shortcuts (High Difficulty, With Video, Short Quests, Main Quests
+  Only) now apply their filter when jumping to the Library.
+- Scroll resets to the top when switching tabs.
+- Added the **No Video** option to the Walkthrough filter (parity with the
+  vanilla site: All / Video Only / No Video).
+- Rebuilt the quest detail **modal** to match the pre-redesign layout (banner,
+  Quest Type / Difficulty / Duration / Location, Region, Summary, Tip, Reward,
+  Step-by-Step Walkthrough, plus Watch Walkthrough / About the Game side
+  cards) and widened it.
+- Mobile: enlarged the "Browse by game" cards and fixed the modal so it fits
+  the viewport with the close button always reachable.
+
+### Written walkthroughs (no-video quests)
+Added step-by-step guides, shown in the detail modal and on the classic site.
+
+| Game | Guides added | Coverage |
+|------|:------------:|:--------:|
+| Demon's Souls | 12 | all no-video quests ✅ |
+| Pillars of Eternity | 27 | all no-video quests ✅ |
+
+---
+
 # Update — Full Coverage Pass for Cyberpunk 2077 & FF7 Rebirth
 
 **Date:** 2026-07-03
