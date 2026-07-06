@@ -361,6 +361,16 @@
         '<a class="video-link video-link-wide" href="' + quest.video +
         '" target="_blank" rel="noopener noreferrer">' + ICON.youtube + " Watch on YouTube</a>" +
         '<span class="video-disclaimer">Video by its respective creator — not affiliated with RPG Quest Guide</span></div>'
+      : '<div class="sidebar-card"><h3 class="sidebar-title">Watch Walkthrough</h3>' +
+        '<p class="video-unavailable">Video walkthrough not available</p>' +
+        (quest.walkthrough ? '<span class="video-disclaimer">A written step-by-step guide is provided below.</span>' : "") +
+        "</div>";
+
+    var walkthroughHtml = (!quest.video && quest.walkthrough)
+      ? '<h2 class="detail-heading">Step-by-Step Walkthrough</h2>' +
+        '<ol class="walkthrough-steps">' +
+        quest.walkthrough.map(function (s) { return "<li>" + s + "</li>"; }).join("") +
+        "</ol>"
       : "";
 
     questDetail.innerHTML =
@@ -386,6 +396,7 @@
       '<p class="summary-text">' + quest.summary + "</p>" +
       '<div class="tip-box"><strong>Tip</strong><p>' + quest.aiTip + "</p></div>" +
       '<p class="reward"><strong>Reward:</strong> ' + quest.reward + "</p>" +
+      walkthroughHtml +
       "</div>" +
       '<aside class="detail-sidebar">' + videoCard +
       '<div class="sidebar-card"><h3 class="sidebar-title">About the Game</h3>' +

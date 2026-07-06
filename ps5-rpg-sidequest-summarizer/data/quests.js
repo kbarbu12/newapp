@@ -15661,5 +15661,182 @@ const quests = [
     aiTip:
       "You can side with Falcäo or the gnomes; the Ironhand gnomes tie into the Steel Watch and Gondian questlines, so weigh the bigger picture before striking.",
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
+  },
+  {
+    id: 951,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Alfheim",
+    title: "Song of the Sands",
+    location: "The Forbidden Sands, Alfheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Hardened Svartalfheim Steel, Sand-swept loot, XP",
+    summary:
+      "Deep in Alfheim's Forbidden Sands, giant sand-whales called Hafgufa lie trapped beneath the dunes. Kratos must solve the red-vine sand-flow puzzles to raise and lower the seas of sand and free every Hafgufa so their song can be heard again.",
+    aiTip:
+      "Hit the red sap-vine growths to drain or flood each basin of sand, then climb the exposed structures. Free all of the Hafgufas to finish the favor and open the path to Song of the Sands' loot.",
+    video: "https://www.youtube.com/watch?v=182xIugReiM"
+  },
+  {
+    id: 952,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Animal Instincts",
+    location: "Raider Hideouts, Lake of Nine, Midgard",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Besties Trophy, Kol raider loot, XP",
+    summary:
+      "Sindri asks Kratos to clear the Kol Raider hideouts that have sprung up around the Lake of Nine. Work through every camp and finally defeat their leader, Oluf Nautson, to break the raiders' grip on Midgard.",
+    aiTip:
+      "The camps unlock as the lake water level drops during the story, so return to Midgard mid/late-game. Save Oluf Nautson's camp for last — he is a tougher fight than the rank-and-file raiders.",
+    video: "https://www.youtube.com/watch?v=gjn2zni1ArY"
+  },
+  {
+    id: 953,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "A Stag for All Seasons",
+    location: "The Crater, Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pure of Hart Trophy, seasonal loot, XP",
+    summary:
+      "Ratatoskr sends Kratos to find four mystical Stags of the Seasons hidden throughout Vanaheim's Crater. Each stag is tied to a season and must be tracked down and freed.",
+    aiTip:
+      "You can only reach the Crater after the Scent of Survival favor opens it. Use Spartan Rage to break the roots binding each stag; finding all four earns the Pure of Hart trophy.",
+    video: "https://www.youtube.com/watch?v=v6dCmR0ALw4"
+  },
+  {
+    id: 954,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Nocturnal Predator",
+    location: "The Plains, Vanaheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sigil Plate, Flame Phantom loot, XP",
+    summary:
+      "A night-only favor on Vanaheim's Plains. Capture the three roaming Wisps with the Blades of Chaos, then face the Flame Phantom boss that guards the sealed plate.",
+    aiTip:
+      "Change the time to night at a Celestial Altar first, or the Wisps will not appear. Aim the Blades of Chaos (L2 + R2) to pin each Wisp, then keep your distance and dodge during the fire-based Flame Phantom fight.",
+    video: "https://www.youtube.com/watch?v=0xC1RQX85Qo"
+  },
+  {
+    id: 955,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Casualty of War: The Scroll",
+    location: "The Plains, Vanaheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit's gratitude, loot, XP",
+    summary:
+      "One of the Casualties of War favor chain. Picking up half of a burnt scroll in a cave on The Plains summons a spirit; find the matching half to make the spirit whole and learn more about the battle between Faye and Thor.",
+    aiTip:
+      "Smash the cracked rocks nearby to reach the cave, then follow the marker to the second scroll half. This chain also includes the Toy, Hourglass, Stein and Brooch — do them together while you sweep The Plains.",
+    video: "https://www.youtube.com/watch?v=641Y-tmjE0I"
+  },
+  {
+    id: 956,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Vanaheim",
+    title: "Casualty of War: The Brooch",
+    location: "The Plains, Vanaheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Spirit's gratitude, loot, XP",
+    summary:
+      "Another Casualties of War favor. A broken brooch on The Plains summons a spirit who wants to be made whole. The second half sits across a gap south of the Eastern Plains Celestial Altar, guarded by Egil the Oath Guard.",
+    aiTip:
+      "Defeat Egil the Oath Guard — a mini-boss — before you can grab the brooch half. Bring healing; he hits hard for an optional encounter.",
+    video: "https://www.youtube.com/watch?v=xKukCdtgelM"
+  },
+  {
+    id: 957,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Muspelheim",
+    title: "The Final Challenges",
+    location: "The Crucible, Muspelheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Chaos/Frozen Flames, cosmetic armor, XP",
+    summary:
+      "After completing The Crucible, a second, much harder set of six combat trials unlocks in Muspelheim — a true endgame boss-rush and survival gauntlet that tests every skill Kratos has learned.",
+    aiTip:
+      "Come back late or post-game with upgraded gear and a Realm Shift/relic setup. Each of the six challenges rewards Muspelheim ore and cosmetics; the boss-rush trial is the toughest optional fight before the Berserkers and Gná.",
+    video: "https://www.youtube.com/watch?v=dqYmv1KA1H0"
+  },
+  {
+    id: 958,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Across the Realms",
+    location: "Sindri's House / multiple realms",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rare crafting ingredients, XP",
+    summary:
+      "Lunda asks Kratos to gather four rare cooking ingredients scattered across the Nine Realms for a special feast. A light, exploration-focused favor that rewards realm traversal.",
+    aiTip:
+      "The ingredients (Eternal Campfire, Nordic Gourd, Prongfruit, Elven Cap, Bantam Melon) are marked once you have the traversal tools. Do it late so every realm is fully accessible and you can grab them in one loop.",
+    video: "https://www.youtube.com/watch?v=M-frWdmibHs"
+  },
+  {
+    id: 959,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "The Last Remnants of Asgard",
+    location: "Post-game / multiple realms",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Fortified & Tempered Remnants, lore scrolls, XP",
+    summary:
+      "A post-game favor unlocked after The Realms at War. Ten wreckages of Asgard now litter the realms, each guarded by Einherjar. Track them all down and clear the guardians to loot the fallen kingdom's remains.",
+    aiTip:
+      "Locations are roughly noted in the Goals menu and marked on the map. Each site drops a lore scroll plus Fortified/Tempered Remnants used for top-tier armor upgrades — worth doing before the hardest post-game bosses.",
+    video: "https://www.youtube.com/watch?v=qNkb-BU04WM"
+  },
+  {
+    id: 960,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Hel to Pay",
+    location: "Hel-Tears / multiple realms",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Rare enchantments, loot, XP",
+    summary:
+      "Six Hel-Tears have torn open across the realms, spilling out undead. Closing the first one begins the favor; seal all six, defeating the increasingly dangerous Draugr and Wraiths that pour from each.",
+    aiTip:
+      "Each Hel-Tear scales up in difficulty. Bring resurrection stones for the later ones and clear the surrounding enemies before channeling to close the rift, or you will be interrupted.",
+    video: "https://www.youtube.com/watch?v=bHT3DbsrwTI"
+  },
+  {
+    id: 961,
+    type: "side",
+    game: "God of War Ragnarök",
+    region: "Midgard",
+    title: "Born From Fire",
+    location: "Draugr Holes / multiple realms",
+    length: "long",
+    difficulty: "High",
+    reward: "The Hateful loot, rare crafting mats, XP",
+    summary:
+      "Six Draugr Holes have opened across the realms, each belching out endless undead. Close all six and defeat the recurring Draugr boss, The Hateful, that guards the source.",
+    aiTip:
+      "The Hateful is a repeated, aggressive fight — learn its unblockable tells and use ranged Blades attacks to whittle it down. Closing every Draugr Hole is required for full realm completion.",
+    video: "https://www.youtube.com/watch?v=mhUSLQwhsJ4"
   }
+
 ];

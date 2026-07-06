@@ -579,6 +579,9 @@ button { font-family: inherit; cursor: pointer; }
 .video-link:hover { filter: brightness(1.1); }
 .video-link-wide { width: 100%; justify-content: center; }
 .video-disclaimer { display: block; font-size: 0.62rem; color: var(--muted-foreground); margin-top: 0.4rem; font-style: italic; }
+.video-unavailable { font-size: 0.8rem; color: var(--muted-foreground); font-style: italic; margin: 0.2rem 0; }
+.walkthrough-steps { margin: 0.5rem 0 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.walkthrough-steps li { font-size: 0.9rem; line-height: 1.55; color: var(--foreground); }
 
 /* ── Feedback ───────────────────────────────────────────────────────────── */
 .feedback { padding: 2.5rem 1.5rem 1rem; }
