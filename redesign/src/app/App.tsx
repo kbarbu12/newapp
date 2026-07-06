@@ -109,7 +109,7 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
     </article>
 
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="max-w-3xl max-h-[88vh] overflow-y-auto p-0 gap-0">
+      <DialogContent className="w-[calc(100%-2rem)] sm:max-w-4xl max-h-[88vh] overflow-y-auto p-0 gap-0">
         {/* Banner */}
         <div className="relative h-40 overflow-hidden rounded-t-lg">
           {meta?.cover && (<>
