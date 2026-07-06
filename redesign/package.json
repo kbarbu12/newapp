@@ -10,7 +10,7 @@
     "prebuild": "node scripts/gen-data.mjs",
     "build": "vite build",
     "build:staging": "node scripts/gen-data.mjs && VITE_TARGET=staging vite build --base=/newapp/staging/ --outDir dist/staging",
-    "build:prod": "node scripts/gen-data.mjs && VITE_TARGET=prod vite build --base=/newapp/app/ --outDir dist/app"
+    "build:prod": "node scripts/gen-data.mjs && VITE_TARGET=prod vite build --base=/newapp/ --outDir dist/prod"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
