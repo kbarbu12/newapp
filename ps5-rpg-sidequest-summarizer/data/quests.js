@@ -1216,6 +1216,13 @@ const quests = [
       "Unravel the troubled past of Durance, a fanatical priest of Magran, through campfire conversations. His story reveals dark truths about the gods and the Saint's War that reshape your understanding of Eora's history.",
     aiTip:
       "Talk to Durance at every rest. His dialogue triggers are tied to story progression milestones — miss them and you lock yourself out of later revelations.",
+    walkthrough: [
+      "Recruit Durance near Magran's Fork on the road to Gilded Vale early in Act 1.",
+      "Speak with him at every campfire rest to trigger his story dialogue.",
+      "Advance the main story between rests, since his triggers are tied to milestones.",
+      "Pursue his questions about Magran and the Saint's War to unlock deeper revelations.",
+      "Reach his final confrontation dialogue to resolve his fate and the truth about the gods."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Trials%20of%20Durance%20walkthrough"
   },
   {
@@ -1232,6 +1239,13 @@ const quests = [
       "Explore the ancient Engwithan ruin of Cliaban Rilag, a flooded temple complex guarded by powerful spirits and constructs. The dungeon reveals secrets about the civilization that created the gods.",
     aiTip:
       "This dungeon hits hard — bring crowd control and area-of-effect damage. The spirits inside resist physical attacks, so casters shine here.",
+    walkthrough: [
+      "Travel to Cliaban Rilag via Stormwall Gorge in Act 2.",
+      "Bring crowd control and area damage, and ready casters — the spirits resist physical attacks.",
+      "Work through the flooded temple, solving its Engwithan mechanisms and clearing side rooms.",
+      "Defeat the guardian spirits and constructs in the depths.",
+      "Claim the ruin's secrets and loot about the civilization that made the gods."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Bronze%20Beneath%20the%20Lake%20walkthrough"
   },
   {
@@ -1248,6 +1262,13 @@ const quests = [
       "Descend all fifteen levels of the Endless Paths beneath your stronghold to confront the Adra Dragon at the bottom. The mega-dungeon spans the entire game and escalates from bandits to some of the toughest encounters in the series.",
     aiTip:
       "Don't try to clear it in one go — return between levels to rest and resupply. The Adra Dragon can be talked down if your Resolve and Lore are high enough.",
+    walkthrough: [
+      "Enter the Endless Paths of Od Nua beneath Caed Nua after claiming the stronghold.",
+      "Descend a few levels at a time, returning to rest and resupply between them.",
+      "Push through the escalating encounters down all fifteen levels.",
+      "At the bottom, face the Adra Dragon — or talk it down with high Resolve and Lore.",
+      "Resolve the dragon to complete the mega-dungeon and claim its rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master%20Below%20walkthrough"
   },
   {
@@ -1945,6 +1966,13 @@ const quests = [
       "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
     aiTip:
       "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content.",
+    walkthrough: [
+      "In Defiance Bay, meet the three factions: the Dozens, the Crucible Knights, and the Doemenels.",
+      "Take a starter quest from each to gauge their rewards and tone.",
+      "Commit to one faction, knowing it locks out the others' questlines.",
+      "Complete your faction's tasks — Crucible Knights for gear, Dozens for story content.",
+      "Build your faction's standing ahead of the Act 2 faction war."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Dozen's%20Dispute%20walkthrough"
   },
   {
@@ -1961,6 +1989,13 @@ const quests = [
       "Investigate a sanitarium where animancers are conducting controversial experiments on souls. The quest explores the game's central theme of soul manipulation and forces you to decide how far science should go.",
     aiTip:
       "Read every patient record — they contain hints about the correct ward to investigate. Your choices here affect the animancy hearing later in the act.",
+    walkthrough: [
+      "Travel to the sanitarium in Brackenbury and gain entry to investigate the animancers.",
+      "Read every patient record — they hint at which ward to investigate.",
+      "Explore the wards and question the staff about the soul experiments.",
+      "Decide how far the animancy should go; your choice affects the later hearing.",
+      "Resolve the confrontation to close out the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Through%20Death's%20Gate%20walkthrough"
   },
   {
@@ -3146,6 +3181,13 @@ const quests = [
       "Confront a group of bandits who have taken up residence near the Watcher's stronghold and are terrorising the local farmsteads. The quest escalates into a larger conflict involving a deposed noble seeking to reclaim his land.",
     aiTip:
       "Negotiate first — the noble's demands can be met diplomatically, avoiding a difficult multi-wave battle. Choosing the right outcome improves your Stronghold's relationship with local settlers.",
+    walkthrough: [
+      "Travel to Esternwood near the stronghold in Act 2 to find the bandits.",
+      "Negotiate first — the deposed noble's demands can be met diplomatically.",
+      "If talks fail, prepare for a difficult multi-wave battle instead.",
+      "Choose an outcome that improves your Stronghold's ties with local settlers.",
+      "Report back to close the quest and secure the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Lord%20of%20a%20Barren%20Land%20walkthrough"
   },
   {
@@ -3162,6 +3204,13 @@ const quests = [
       "Recover a stolen holy text belonging to followers of Wael, the god of secrets and mysteries. The quest has multiple solutions and explores the game's theme of truth versus comfortable deception.",
     aiTip:
       "The 'best' outcome is hidden behind skill checks — Lore and Insight help here. Reading the text before deciding what to do with it changes available dialogue options.",
+    walkthrough: [
+      "Take the quest from Wael's followers in Copperlane to recover the stolen holy text.",
+      "Track down the thief and retrieve the book.",
+      "Read the text before deciding — it unlocks extra dialogue options.",
+      "Use Lore and Insight checks to reach the hidden 'best' outcome.",
+      "Choose truth or comfortable deception, then return the text (or don't)."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Parable%20of%20Wael%20walkthrough"
   },
   {
@@ -3178,6 +3227,13 @@ const quests = [
       "A young boy in Dyrford Village is missing, and the adults seem unwilling to search properly. A brief but touching quest that demonstrates the game's commitment to portraying ordinary lives amid extraordinary events.",
     aiTip:
       "This is one of the shortest quests in the game — complete it early in your Dyrford visit. The reward is minor but the dialogue with the child adds unexpected emotional depth.",
+    walkthrough: [
+      "In Dyrford Village, hear that a young boy has gone missing.",
+      "Ask the reluctant adults and search the village outskirts for clues.",
+      "Follow the trail to find the child early in your Dyrford visit.",
+      "Speak with the boy for the quest's touching dialogue.",
+      "Return to collect the minor reward and close the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Brave%20Derrin%20walkthrough"
   },
   {
@@ -3194,6 +3250,13 @@ const quests = [
       "Retrieve a valuable egg stolen from a merchant by bandits hiding in Elmshore's dangerous wilderness. A simple fetch quest elevated by the beautiful environment and the option to deal with the bandits through negotiation or combat.",
     aiTip:
       "The bandit camp has a hard encounter if you fight. A high-Intimidate character can convince them to hand over the egg without a fight. The Elmshore area itself contains several rare crafting ingredients worth looting.",
+    walkthrough: [
+      "Accept the merchant's request to recover a stolen egg, then head to Elmshore.",
+      "Track the bandits to their camp in the wilderness.",
+      "Use a high-Intimidate character to make them hand the egg over without a fight.",
+      "Otherwise clear the hard camp encounter, and loot Elmshore's rare crafting ingredients.",
+      "Return the egg to the merchant for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Egg%20walkthrough"
   },
   {
@@ -3210,6 +3273,13 @@ const quests = [
       "A desperate mother begs the Watcher to help find her missing son who has become entangled with a criminal gang in Defiance Bay. The investigation reveals the city's dark underworld and forces a moral choice about redemption.",
     aiTip:
       "Complete the investigation before confronting anyone — partial information leads to a worse outcome. Your choice at the end affects Copperlane faction reputation.",
+    walkthrough: [
+      "Meet the desperate mother in Defiance Bay and take the search for her son.",
+      "Investigate the criminal gang's ties fully before confronting anyone.",
+      "Gather complete information — partial leads give a worse outcome.",
+      "Make the moral choice about the son's redemption.",
+      "Resolve it, noting the effect on Copperlane faction reputation."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
   },
   {
@@ -3226,6 +3296,13 @@ const quests = [
       "Navigate a gang war brewing in Ondra's Gift between the Doemenel family and a rival faction. Your choice of allegiance shapes the balance of power in Defiance Bay's criminal underworld for the rest of Act 2.",
     aiTip:
       "Back up your chosen faction fully before the confrontation — half-measures result in a difficult three-way battle. The Doemenels offer the best equipment reward if you side with them.",
+    walkthrough: [
+      "In Ondra's Gift, learn of the brewing gang war between the Doemenels and a rival.",
+      "Choose which faction to back in the conflict.",
+      "Commit fully to your side — half-measures trigger a difficult three-way battle.",
+      "Win the confrontation for your chosen faction.",
+      "Claim the reward (best gear if you side with the Doemenels) and shift the balance of power."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Burning%20Bridges%20walkthrough"
   },
   {
@@ -3242,6 +3319,13 @@ const quests = [
       "Unravel the mystery of a missing Glanfathan noble in Defiance Bay whose disappearance has diplomatic implications. The investigation stretches from Copperlane's streets to the sacred elven city of Twin Elms.",
     aiTip:
       "This quest is required to access Twin Elms and Act 3. Don't rush it — the political consequences of your choices here echo through the game's final act.",
+    walkthrough: [
+      "In Copperlane, take up the case of the missing Glanfathan noble.",
+      "Follow the investigation from the city streets toward Twin Elms.",
+      "Weigh the diplomatic consequences of each choice carefully.",
+      "Uncover the noble's fate — this quest gates access to Twin Elms and Act 3.",
+      "Resolve it to open the path into the game's final act."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Never%20Far%20from%20the%20Queen%20walkthrough"
   },
   {
@@ -12447,6 +12531,12 @@ const quests = [
       "Ambushed on the road to Gilded Vale, the protagonist survives a biawac and awakens as a Watcher who sees past lives.",
     aiTip:
       "The prologue introduces the soul-reading Watcher mechanic that drives the whole story.",
+    walkthrough: [
+      "Survive the ambush and biawac storm on the road to Gilded Vale in the prologue.",
+      "Awaken as a Watcher who can see past lives.",
+      "Follow the tutorial prompts to learn the soul-reading mechanic.",
+      "Make your way onward toward Gilded Vale to begin the story."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Moment's%20Respite%20walkthrough"
   },
   {
@@ -12463,6 +12553,12 @@ const quests = [
       "Seek answers in the hanging-tree village of Gilded Vale and choose a side in Lord Raedric's brutal rule.",
     aiTip:
       "You can side with, spare, or depose Raedric — each path has different rewards and allies.",
+    walkthrough: [
+      "Arrive in Gilded Vale beneath its hanging tree and speak with the townsfolk.",
+      "Investigate Lord Raedric's brutal rule and the unrest it has caused.",
+      "Decide whether to side with, spare, or depose Raedric at his hold.",
+      "Carry out your chosen path through Raedric's Hold, each giving different rewards and allies."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Gilded%20Vale%20%26%20Raedric's%20Hold%20walkthrough"
   },
   {
@@ -12479,6 +12575,12 @@ const quests = [
       "Claim the ruined keep of Caed Nua from the mad Watcher Maerwald and the endless dungeon below it.",
     aiTip:
       "Caed Nua becomes your stronghold — invest in it for income, allies, and side content.",
+    walkthrough: [
+      "Travel to the ruined keep of Caed Nua and confront the mad Watcher Maerwald.",
+      "Clear the keep and defeat or resolve Maerwald to claim the stronghold.",
+      "Begin exploring the Endless Paths dungeon beneath it.",
+      "Invest in Caed Nua's upgrades for income, allies, and side content."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Building%20a%20Fortress%3A%20Caed%20Nua%20walkthrough"
   },
   {
@@ -12495,6 +12597,12 @@ const quests = [
       "Investigate the animancy conspiracy roiling Defiance Bay and the truth behind the hollowborn crisis.",
     aiTip:
       "Opens Act 2's faction intrigue — your choices shape Defiance Bay's fate.",
+    walkthrough: [
+      "Reach Hadret House in Defiance Bay and meet the hermit at its center.",
+      "Investigate the animancy conspiracy behind the hollowborn crisis.",
+      "Follow the leads into the city's factions.",
+      "Make the choices that open Act 2's intrigue and shape Defiance Bay's fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hermit%20of%20Hadret%20House%20walkthrough"
   },
   {
@@ -12511,6 +12619,12 @@ const quests = [
       "Navigate the three-way struggle between the Crucible Knights, the Dozens, and House Doemenel.",
     aiTip:
       "Pick a faction for Act 2's finale — it changes who helps you and who turns hostile.",
+    walkthrough: [
+      "Engage the three-way struggle between the Crucible Knights, the Dozens, and House Doemenel.",
+      "Complete quests to earn each faction's trust before the finale.",
+      "Pick one faction for the Act 2 climax.",
+      "Fight through the faction war, gaining your allies and turning the rest hostile."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Champion%20of%20Berath%20%2F%20Faction%20War%20walkthrough"
   },
   {
@@ -12527,6 +12641,12 @@ const quests = [
       "Journey to the elven city of Twin Elms to track the Leaden Key's leader, Thaos, to his source.",
     aiTip:
       "The Engwithan ruins here reveal the gods' true nature — read the lore closely.",
+    walkthrough: [
+      "Journey to the elven city of Twin Elms to pick up Thaos's trail.",
+      "Work through the Engwithan ruins and their guardians.",
+      "Read the lore closely — it reveals the gods' true nature.",
+      "Track the Leaden Key to its source to press on toward Thaos."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunt%20for%20Thaos%3A%20Twin%20Elms%20walkthrough"
   },
   {
@@ -12543,6 +12663,12 @@ const quests = [
       "Descend into the Engwithan machine beneath Teir Evron to confront Thaos and decide the fate of countless souls.",
     aiTip:
       "The ending is a philosophical choice about souls and the gods — there's no simple 'right' answer.",
+    walkthrough: [
+      "Descend into Sun in Shadow beneath Teir Evron.",
+      "Fight through the Engwithan machine to reach Thaos.",
+      "Defeat Thaos in the final confrontation.",
+      "Make the ending choice about the fate of countless souls — there is no simple right answer."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sun%20in%20Shadow%20walkthrough"
   },
   {
@@ -12559,6 +12685,12 @@ const quests = [
       "Help Edér uncover the truth about his brother Woden and the war that tore the Dyrwood apart.",
     aiTip:
       "Edér's quest deepens the game's religious themes — a rewarding companion arc.",
+    walkthrough: [
+      "Bring Edér along and pursue his search for the truth about his brother Woden.",
+      "Investigate the war that tore the Dyrwood apart via Gilded Vale and Dyrford leads.",
+      "Follow the religious threads the quest raises.",
+      "Reach the resolution of Edér's faith to complete his companion arc."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Fragments%20of%20a%20Scattered%20Faith%20walkthrough"
   },
   {
@@ -12575,6 +12707,12 @@ const quests = [
       "Unravel the mystery of the wizard Aloth's hidden second personality and his ties to the Leaden Key.",
     aiTip:
       "His arc ties directly into the main conspiracy — pursue it before the finale.",
+    walkthrough: [
+      "Trigger Aloth's arc by exploring his hidden second personality.",
+      "Follow the clues tying him to the Leaden Key in Defiance Bay.",
+      "Pursue the mystery before the finale, since it ties into the main conspiracy.",
+      "Resolve which side of Aloth prevails to close his arc."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20Two-Sided%20walkthrough"
   },
   {
@@ -12591,6 +12729,12 @@ const quests = [
       "Aid the dwarven hunter Sagani in her lifelong quest to find the reincarnation of her village's elder.",
     aiTip:
       "Her quest can conclude across the world map — bring her along as you travel.",
+    walkthrough: [
+      "Take Sagani along and help her hunt for her village elder's reincarnation.",
+      "Follow the animal-companion Itumaak's cues across the world map.",
+      "Track the target through the various regions as you travel.",
+      "Reach the reincarnation to conclude her long hunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20The%20Long%20Hunt%20walkthrough"
   },
   {
@@ -12607,6 +12751,12 @@ const quests = [
       "Help the godlike paladin Pallegina serve the Vailian Republics — or defy their orders.",
     aiTip:
       "Your advice affects Pallegina's standing with her order and her ending.",
+    walkthrough: [
+      "Aid Pallegina as she serves the Vailian Republics in Defiance Bay.",
+      "Weigh whether she should follow or defy her order's orders.",
+      "Advise her at the key decision points.",
+      "Your guidance sets her standing with the order and her ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Child%20of%20Five%20Suns%20walkthrough"
   },
   {
@@ -12623,6 +12773,12 @@ const quests = [
       "Peer into the fractured memories of the mysterious Grieving Mother and the terrible mercy she performs.",
     aiTip:
       "One of the most thematically rich companion arcs — take your time with the memories.",
+    walkthrough: [
+      "Recruit the Grieving Mother and enter her fractured memories.",
+      "Work carefully through each memory sequence.",
+      "Uncover the terrible mercy she performs on the hollowborn.",
+      "Take your time to reach the arc's thematically rich conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Dream%20and%20Memory%20walkthrough"
   },
   {
@@ -12639,6 +12795,12 @@ const quests = [
       "Reopen the frozen dwarven fortress of Durgan's Battery and recover the secret of Durgan steel.",
     aiTip:
       "The White March Part I expansion — high-level content best done mid-to-late game.",
+    walkthrough: [
+      "Travel to Stalwart in the White March and reopen the frozen fortress of Durgan's Battery.",
+      "Clear the fortress of its dangers as high-level, mid-to-late-game content.",
+      "Restore the forge and recover the secret of Durgan steel.",
+      "Claim the steel to upgrade your best equipment."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
   },
   {
@@ -12655,6 +12817,12 @@ const quests = [
       "Confront the sleeping god-forge and the fate of the smith-god Abydon in Part II.",
     aiTip:
       "A dramatic set piece with a weighty theological choice — think it through.",
+    walkthrough: [
+      "Continue the White March into He Waits in Fire and reach the sleeping god-forge.",
+      "Confront the fate of the smith-god Abydon.",
+      "Weigh the weighty theological choice the set piece presents.",
+      "Decide Abydon's fate to complete Part II."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20He%20Waits%20in%20Fire%20walkthrough"
   },
   {
@@ -12671,6 +12839,12 @@ const quests = [
       "Storm the mercenary-held Cragholdt Bluffs and the tower of the lich Concelhaut.",
     aiTip:
       "Very difficult optional content — bring a well-geared, high-level party.",
+    walkthrough: [
+      "Approach the mercenary-held Cragholdt Bluffs — very difficult optional content.",
+      "Bring a well-geared, high-level party before attempting it.",
+      "Fight through the mercenaries to the lich Concelhaut's tower.",
+      "Defeat Concelhaut to claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Cragholdt%20Bluffs%20walkthrough"
   },
   {
