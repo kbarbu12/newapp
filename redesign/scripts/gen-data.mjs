@@ -62,6 +62,9 @@ const QUESTS = quests.map((q) => ({
   length: q.length,
   difficulty: q.difficulty,
   summary: q.summary,
+  ...(q.location ? { location: q.location } : {}),
+  ...(q.region ? { region: q.region } : {}),
+  ...(q.aiTip ? { aiTip: q.aiTip } : {}),
   ...(hasRealVideo(q.video) ? { video: q.video } : {}),
   ...(q.reward ? { reward: q.reward } : {}),
   ...(Array.isArray(q.walkthrough) && q.walkthrough.length
@@ -78,7 +81,8 @@ const body =
   "\nexport interface Quest {\n" +
   "  id: number; type: \"side\" | \"main\"; game: string; title: string;\n" +
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\";\n" +
-  "  summary: string; video?: string; reward?: string; walkthrough?: string[];\n" +
+  "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
+  "  video?: string; reward?: string; walkthrough?: string[];\n" +
   "}\n\n" +
   "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; }\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
