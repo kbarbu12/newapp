@@ -76,9 +76,15 @@
   var countByGame = {};
   quests.forEach(function (q) { countByGame[q.game] = (countByGame[q.game] || 0) + 1; });
 
+  // A "real" walkthrough video is a specific YouTube video/playlist link.
+  // Placeholder search links (…/results?search_query=…) don't count.
+  function hasRealVideo(q) {
+    return !!q.video && q.video.indexOf("/results") === -1;
+  }
+
   // ── Hero ─────────────────────────────────────────────────────────────────
   function renderHeroStats() {
-    var withVideo = quests.filter(function (q) { return q.video; }).length;
+    var withVideo = quests.filter(hasRealVideo).length;
     var high = quests.filter(function (q) { return q.difficulty === "High"; }).length;
     var tiles = [
       { label: "Quests", value: quests.length },
@@ -214,8 +220,8 @@
       if (state.type !== "all" && q.type !== state.type) return false;
       if (state.difficulty !== "all" && q.difficulty !== state.difficulty) return false;
       if (state.length !== "all" && q.length !== state.length) return false;
-      if (state.video === "video" && !q.video) return false;
-      if (state.video === "none" && q.video) return false;
+      if (state.video === "video" && !hasRealVideo(q)) return false;
+      if (state.video === "none" && hasRealVideo(q)) return false;
       for (var s = 0; s < subConfigs.length; s++) {
         var field = subConfigs[s].field;
         var val = state.subs[field];
@@ -254,7 +260,7 @@
     var typeTag = quest.type === "main"
       ? '<span class="tag tag-main">' + ICON.star + "Main</span>"
       : '<span class="tag tag-side">' + ICON.book + "Side</span>";
-    var videoTag = quest.video
+    var videoTag = hasRealVideo(quest)
       ? '<span class="card-video">' + ICON.youtube + "Video</span>" : "";
 
     article.innerHTML =
@@ -357,7 +363,7 @@
 
     var regionHtml = quest.region ? '<p class="meta"><strong>Region:</strong> ' + quest.region + "</p>" : "";
     var chapterHtml = quest.chapter ? '<p class="meta"><strong>Chapter:</strong> ' + quest.chapter + "</p>" : "";
-    var videoCard = quest.video
+    var videoCard = hasRealVideo(quest)
       ? '<div class="sidebar-card"><h3 class="sidebar-title">Watch Walkthrough</h3>' +
         '<a class="video-link video-link-wide" href="' + quest.video +
         '" target="_blank" rel="noopener noreferrer">' + ICON.youtube + " Watch on YouTube</a>" +
@@ -367,7 +373,7 @@
         (quest.walkthrough ? '<span class="video-disclaimer">A written step-by-step guide is provided below.</span>' : "") +
         "</div>";
 
-    var walkthroughHtml = (!quest.video && quest.walkthrough)
+    var walkthroughHtml = (!hasRealVideo(quest) && quest.walkthrough)
       ? '<h2 class="detail-heading">Step-by-Step Walkthrough</h2>' +
         '<ol class="walkthrough-steps">' +
         quest.walkthrough.map(function (s) { return "<li>" + s + "</li>"; }).join("") +
