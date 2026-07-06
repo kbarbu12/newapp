@@ -129,12 +129,6 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <p className="text-xs text-muted-foreground"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
         )}
 
-        {quest.video && (
-          <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline w-fit">
-            <Youtube size={13}/> Watch video walkthrough
-          </a>
-        )}
-
         {hasGuide && (
           <div className="pt-3 border-t border-border">
             <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-primary mb-3">Step by step walkthrough</h4>
@@ -147,6 +141,12 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
               ))}
             </ol>
           </div>
+        )}
+
+        {quest.video && (
+          <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline w-fit">
+            <Youtube size={13}/> Watch video walkthrough
+          </a>
         )}
       </DialogContent>
     </Dialog>
