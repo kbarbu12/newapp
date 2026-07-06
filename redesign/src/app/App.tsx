@@ -31,6 +31,8 @@ type Tab = "home"|"browse"|"news"|"saved";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
 type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
+// Filters a shortcut can pre-apply when jumping to the Library tab.
+type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:"All"|"Video Only" };
 interface ChatMsg { role:"user"|"assistant"; content:string; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -145,7 +147,7 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
 
 // ─── Home Tab ─────────────────────────────────────────────────────────────────
 
-function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,game?:string)=>void; savedIds:Set<number>; onSave:(id:number)=>void }) {
+function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void }) {
   const questOfWeek = QUESTS.find(q=>q.id===11)!; // The Bloody Baron
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
@@ -321,7 +323,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,game?:string)=>
               return (
                 <button
                   key={name}
-                  onClick={()=>onGoTo("browse",name)}
+                  onClick={()=>onGoTo("browse",{game:name})}
                   className="group relative rounded-lg overflow-hidden border border-border hover:border-white/25 hover:scale-[1.04] transition-all duration-200 shadow-sm"
                   style={{aspectRatio:"2/3"}}
                   aria-label={name}
@@ -357,10 +359,10 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,game?:string)=>
         {/* ── Quick shortcuts ── */}
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {[
-            { label:"High Difficulty",  icon:<Zap size={14}/>,      color:"text-red-400",    cb:()=>onGoTo("browse") },
-            { label:"With Video",       icon:<Youtube size={14}/>,   color:"text-red-400",    cb:()=>onGoTo("browse") },
-            { label:"Short Quests",     icon:<Clock size={14}/>,     color:"text-emerald-400",cb:()=>onGoTo("browse") },
-            { label:"Main Quests Only", icon:<Star size={14}/>,      color:"text-primary",    cb:()=>onGoTo("browse") },
+            { label:"High Difficulty",  icon:<Zap size={14}/>,      color:"text-red-400",    cb:()=>onGoTo("browse",{diff:"High"}) },
+            { label:"With Video",       icon:<Youtube size={14}/>,   color:"text-red-400",    cb:()=>onGoTo("browse",{video:"Video Only"}) },
+            { label:"Short Quests",     icon:<Clock size={14}/>,     color:"text-emerald-400",cb:()=>onGoTo("browse",{len:"short"}) },
+            { label:"Main Quests Only", icon:<Star size={14}/>,      color:"text-primary",    cb:()=>onGoTo("browse",{type:"main"}) },
           ].map(s=>(
             <button key={s.label} onClick={s.cb}
               className="flex items-center gap-2.5 p-4 bg-card border border-border rounded-lg hover:border-white/15 hover:bg-secondary transition-all duration-150 text-left group">
@@ -510,7 +512,20 @@ export default function App() {
 
   // In prod only promoted tabs are reachable; a shortcut to an un-promoted tab
   // is a no-op there. In staging every tab is live.
-  const goTo=(t:Tab,game?:string)=>{ if(!isTabLive(t))return; setTab(t); if(game){ setSelectedGame(game); } };
+  // Navigate to a tab, optionally pre-applying a filter set. When filters are
+  // given every filter is reset first so the Library shows exactly that view.
+  const goTo=(t:Tab,f?:QuestFilters)=>{
+    if(!isTabLive(t))return;
+    setTab(t);
+    if(f){
+      setSelectedGame(f.game ?? "All");
+      setTypeFilter(f.type ?? "All");
+      setDiffFilter(f.diff ?? "All");
+      setLenFilter(f.len ?? "All");
+      setVideoFilter(f.video ?? "All");
+      setSearch("");
+    }
+  };
 
   const filtered = useMemo(()=>QUESTS.filter(q=>{
     if(selectedGame!=="All"&&q.game!==selectedGame)return false;
