@@ -33,12 +33,32 @@ jobs:
       - name: Audit quest data
         working-directory: ps5-rpg-sidequest-summarizer
         run: node scripts/audit.js
+      # Build the redesign into two bundles from one codebase:
+      #   staging/ — every tab visible, for reviewing the whole redesign
+      #   app/     — only tabs promoted in src/config/promotion.ts
+      # Both read the same live quest data (redesign/scripts/gen-data.mjs).
+      - name: Install redesign deps
+        working-directory: redesign
+        run: npm ci
+      - name: Build redesign (staging + promoted prod)
+        working-directory: redesign
+        run: |
+          npm run build:staging
+          npm run build:prod
+      # Assemble the published site: the vanilla app stays at the root
+      # (/newapp/) untouched; the redesign bundles mount alongside it.
+      - name: Assemble site
+        run: |
+          rm -rf _site
+          cp -r ps5-rpg-sidequest-summarizer _site
+          cp -r redesign/dist/staging _site/staging
+          cp -r redesign/dist/app _site/app
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './ps5-rpg-sidequest-summarizer'
+          path: './_site'
           # unique per attempt so re-running a failed run doesn't create
           # a duplicate "github-pages" artifact, which breaks deploy-pages
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
