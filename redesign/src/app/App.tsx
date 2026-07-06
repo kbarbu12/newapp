@@ -31,8 +31,10 @@ type Tab = "home"|"browse"|"news"|"saved";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
 type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
+// Walkthrough filter — mirrors the live site's All / Video / No video options.
+type VideoFilter = "All"|"Video Only"|"No Video";
 // Filters a shortcut can pre-apply when jumping to the Library tab.
-type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:"All"|"Video Only" };
+type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter };
 interface ChatMsg { role:"user"|"assistant"; content:string; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -504,7 +506,7 @@ export default function App() {
   const [typeFilter,  setTypeFilter]  = useState<TypeFilter>("All");
   const [diffFilter,  setDiffFilter]  = useState<DiffFilter>("All");
   const [lenFilter,   setLenFilter]   = useState<LenFilter>("All");
-  const [videoFilter, setVideoFilter] = useState<"All"|"Video Only">("All");
+  const [videoFilter, setVideoFilter] = useState<VideoFilter>("All");
   const [search,      setSearch]      = useState("");
   const [savedIds,    setSavedIds]    = useState<Set<number>>(new Set());
 
@@ -537,6 +539,7 @@ export default function App() {
     if(diffFilter!=="All"&&q.difficulty!==diffFilter)return false;
     if(lenFilter!=="All"&&q.length!==lenFilter)return false;
     if(videoFilter==="Video Only"&&!q.video)return false;
+    if(videoFilter==="No Video"&&q.video)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
   }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search]);
@@ -656,7 +659,7 @@ export default function App() {
                   <div className="w-px h-8 bg-border hidden sm:block"/>
                   <div className="flex flex-col gap-1"><span className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                   <div className="w-px h-8 bg-border hidden sm:block"/>
-                  <div className="flex flex-col gap-1"><span className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5">{pills(["All","Video Only"],videoFilter,setVideoFilter)}</div></div>
+                  <div className="flex flex-col gap-1"><span className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
                   <button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="ml-auto text-[10px] font-mono text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
                     ↺ Reset{activeFilters>0&&<span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold ml-1">{activeFilters}</span>}
                   </button>
