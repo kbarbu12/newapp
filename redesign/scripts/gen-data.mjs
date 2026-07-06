@@ -48,6 +48,12 @@ for (const [name, gi] of Object.entries(gameImages)) {
   };
 }
 
+// A "real" walkthrough is a specific video/playlist link. Placeholder search
+// links (…/results?search_query=…) don't count — mirror the live site
+// (ps5-rpg-sidequest-summarizer/src/app.js:hasRealVideo) so the video filter
+// and "With Video" stat match prod.
+const hasRealVideo = (v) => !!v && !v.includes("/results");
+
 // Keep only the fields the design consumes.
 const QUESTS = quests.map((q) => ({
   id: q.id,
@@ -57,7 +63,7 @@ const QUESTS = quests.map((q) => ({
   length: q.length,
   difficulty: q.difficulty,
   summary: q.summary,
-  ...(q.video ? { video: q.video } : {}),
+  ...(hasRealVideo(q.video) ? { video: q.video } : {}),
   ...(q.reward ? { reward: q.reward } : {}),
 }));
 
