@@ -65,6 +65,9 @@ const QUESTS = quests.map((q) => ({
   summary: q.summary,
   ...(hasRealVideo(q.video) ? { video: q.video } : {}),
   ...(q.reward ? { reward: q.reward } : {}),
+  ...(Array.isArray(q.walkthrough) && q.walkthrough.length
+    ? { walkthrough: q.walkthrough }
+    : {}),
 }));
 
 const banner =
@@ -76,7 +79,7 @@ const body =
   "\nexport interface Quest {\n" +
   "  id: number; type: \"side\" | \"main\"; game: string; title: string;\n" +
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\";\n" +
-  "  summary: string; video?: string; reward?: string;\n" +
+  "  summary: string; video?: string; reward?: string; walkthrough?: string[];\n" +
   "}\n\n" +
   "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; }\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +

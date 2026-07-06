@@ -69,6 +69,8 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
 function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; compact?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
+  const [showSteps, setShowSteps] = useState(false);
+  const hasGuide = !!quest.walkthrough?.length;
   return (
     <article
       className="group flex bg-card border border-border rounded-lg overflow-hidden cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
@@ -85,6 +87,7 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <span className="text-[10px] font-mono font-semibold tracking-wider uppercase truncate" style={{ color:col }}>{quest.game}</span>
           <div className="flex items-center gap-2 shrink-0">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60 font-mono"><Youtube size={9}/> Video</span>}
+            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70 font-mono"><BookOpen size={9}/> Guide</span>}
             <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} className="text-muted-foreground/40 hover:text-primary transition-colors">
               {saved ? <BookmarkCheck size={13} className="text-primary"/> : <Bookmark size={13}/>}
             </button>
@@ -99,6 +102,26 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <DiffBadge level={quest.difficulty}/>
           <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><LenDots length={quest.length}/><span className="text-[9px] text-muted-foreground font-mono capitalize">{quest.length}</span></span>
         </div>
+        {hasGuide && (
+          <div className="mt-1 pt-2 border-t border-border/50">
+            <button
+              onClick={e=>{e.stopPropagation();setShowSteps(s=>!s);}}
+              className="flex items-center gap-1 text-[10px] font-mono text-primary hover:underline"
+            >
+              <BookOpen size={10}/>{showSteps ? "Hide step-by-step guide" : "Step-by-step guide"}
+            </button>
+            {showSteps && (
+              <ol className="mt-2 flex flex-col gap-1.5 list-none">
+                {quest.walkthrough!.map((s,i)=>(
+                  <li key={i} className="flex gap-2 text-[11px] text-muted-foreground leading-relaxed">
+                    <span className="shrink-0 w-4 h-4 rounded bg-primary/15 text-primary text-[9px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
+                    <span>{s}</span>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </div>
+        )}
       </div>
     </article>
   );
