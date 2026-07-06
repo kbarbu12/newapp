@@ -109,45 +109,99 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
     </article>
 
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto">
-        <DialogHeader>
-          <span className="text-[10px] font-mono font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
-          <DialogTitle className="text-lg leading-snug" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</DialogTitle>
-        </DialogHeader>
-
-        <div className="flex items-center gap-1.5 flex-wrap">
-          <Pill className={quest.type==="main"?"bg-primary/10 text-primary border-primary/25":"bg-white/5 text-muted-foreground border-white/10"}>
-            {quest.type==="main"?<Star size={8}/>:<BookOpen size={8}/>}{quest.type==="main"?"Main":"Side"}
-          </Pill>
-          <DiffBadge level={quest.difficulty}/>
-          <span className="flex items-center gap-1"><Clock size={9} className="text-muted-foreground"/><LenDots length={quest.length}/><span className="text-[9px] text-muted-foreground font-mono capitalize">{quest.length}</span></span>
+      <DialogContent className="max-w-3xl max-h-[88vh] overflow-y-auto p-0 gap-0">
+        {/* Banner */}
+        <div className="relative h-40 overflow-hidden rounded-t-lg">
+          {meta?.cover && (<>
+            <img src={meta.cover} alt="" aria-hidden className="absolute inset-0 w-full h-full object-cover blur-2xl opacity-40 scale-110"/>
+            <img src={meta.cover} alt={quest.game} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-auto"/>
+          </>)}
+          <div className="absolute inset-0" style={{background:"linear-gradient(to top,var(--card),transparent 70%)"}}/>
         </div>
 
-        <p className="text-xs text-muted-foreground leading-relaxed">{quest.summary}</p>
+        <div className="grid md:grid-cols-[1fr_15rem] gap-6 p-6">
+          {/* Body */}
+          <div>
+            <DialogHeader className="space-y-1 text-left">
+              <span className="text-[10px] font-mono font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
+              <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</DialogTitle>
+            </DialogHeader>
 
-        {quest.reward && (
-          <p className="text-xs text-muted-foreground"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
-        )}
+            {/* Stats */}
+            <div className="grid grid-cols-2 gap-2 mt-4">
+              <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5">
+                <div className="text-[9px] font-mono uppercase tracking-widest text-muted-foreground mb-1">Quest Type</div>
+                <div className="text-xs text-foreground">{quest.type==="main"?"Main Quest":"Side Quest"}</div>
+              </div>
+              <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5">
+                <div className="text-[9px] font-mono uppercase tracking-widest text-muted-foreground mb-1">Difficulty</div>
+                <DiffBadge level={quest.difficulty}/>
+              </div>
+              <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5">
+                <div className="text-[9px] font-mono uppercase tracking-widest text-muted-foreground mb-1">Duration</div>
+                <div className="text-xs text-foreground capitalize">{quest.length}</div>
+              </div>
+              {quest.location && (
+                <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5">
+                  <div className="text-[9px] font-mono uppercase tracking-widest text-muted-foreground mb-1">Location</div>
+                  <div className="text-xs text-foreground">{quest.location}</div>
+                </div>
+              )}
+            </div>
 
-        {hasGuide && (
-          <div className="pt-3 border-t border-border">
-            <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-primary mb-3">Step by step walkthrough</h4>
-            <ol className="flex flex-col gap-2.5 list-none">
-              {quest.walkthrough!.map((s,i)=>(
-                <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
-                  <span className="shrink-0 w-5 h-5 rounded bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
-                  <span>{s}</span>
-                </li>
-              ))}
-            </ol>
+            {quest.region && (
+              <p className="text-xs text-muted-foreground mt-3"><span className="text-foreground font-semibold">Region: </span>{quest.region}</p>
+            )}
+
+            <h3 className="text-sm font-semibold text-foreground mt-5 mb-2" style={{ fontFamily:"'Cinzel',serif" }}>Quest Summary</h3>
+            <p className="text-xs text-muted-foreground leading-relaxed">{quest.summary}</p>
+
+            {quest.aiTip && (
+              <div className="mt-4 rounded-lg border border-primary/25 bg-primary/5 p-3">
+                <div className="text-[10px] font-mono font-bold uppercase tracking-widest text-primary mb-1">Tip</div>
+                <p className="text-xs text-muted-foreground leading-relaxed">{quest.aiTip}</p>
+              </div>
+            )}
+
+            {quest.reward && (
+              <p className="text-xs text-muted-foreground mt-4"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
+            )}
+
+            {hasGuide && (
+              <div className="mt-5">
+                <h3 className="text-sm font-semibold text-foreground mb-3" style={{ fontFamily:"'Cinzel',serif" }}>Step-by-Step Walkthrough</h3>
+                <ol className="flex flex-col gap-2.5 list-none">
+                  {quest.walkthrough!.map((s,i)=>(
+                    <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
+                      <span className="shrink-0 w-5 h-5 rounded bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
+                      <span>{s}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
           </div>
-        )}
 
-        {quest.video && (
-          <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline w-fit">
-            <Youtube size={13}/> Watch video walkthrough
-          </a>
-        )}
+          {/* Sidebar */}
+          <aside className="flex flex-col gap-3">
+            <div className="rounded-lg border border-border bg-secondary/40 p-4">
+              <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
+              {quest.video ? (<>
+                <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
+                  <Youtube size={13}/> Watch on YouTube
+                </a>
+                <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
+              </>) : (<>
+                <p className="text-xs text-muted-foreground italic">Video walkthrough not available</p>
+                {hasGuide && <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">A written step-by-step guide is provided below.</p>}
+              </>)}
+            </div>
+            <div className="rounded-lg border border-border bg-secondary/40 p-4">
+              <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-foreground mb-2">About the Game</h4>
+              <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>. Buy links and related quests are coming soon.</p>
+            </div>
+          </aside>
+        </div>
       </DialogContent>
     </Dialog>
     </>
