@@ -46,8 +46,7 @@ jobs:
           npm run build:staging
           npm run build:prod
       # Assemble the published site:
-      #   /            -> redirect to the promoted redesign (/app/)
-      #   /app/        -> promoted redesign (only approved tabs)
+      #   /            -> promoted redesign (only approved tabs) — the live site
       #   /staging/    -> full redesign
       #   /classic/    -> vanilla site, self-contained (its service worker
       #                   scopes to /classic/ so it can't cache the redesign)
@@ -58,8 +57,7 @@ jobs:
           rm -rf _site && mkdir _site
           cp -r ps5-rpg-sidequest-summarizer _site/classic
           cp -r redesign/dist/staging _site/staging
-          cp -r redesign/dist/app _site/app
-          cp deploy/root-index.html _site/index.html
+          cp -r redesign/dist/prod/. _site/
           cp deploy/root-sw.js _site/sw.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
