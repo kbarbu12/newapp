@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Auto-generated from the live quest data at build time (see scripts/gen-data.mjs)
+src/generated/
