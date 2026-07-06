@@ -109,7 +109,8 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
     </article>
 
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="w-[calc(100%-2rem)] sm:max-w-4xl max-h-[88vh] overflow-y-auto p-0 gap-0">
+      <DialogContent className="w-[calc(100%-2rem)] sm:max-w-4xl max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col">
+        <div className="overflow-y-auto overflow-x-hidden">
         {/* Banner */}
         <div className="relative h-40 overflow-hidden rounded-t-lg">
           {meta?.cover && (<>
@@ -119,9 +120,9 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <div className="absolute inset-0" style={{background:"linear-gradient(to top,var(--card),transparent 70%)"}}/>
         </div>
 
-        <div className="grid md:grid-cols-[1fr_15rem] gap-6 p-6">
+        <div className="grid md:grid-cols-[minmax(0,1fr)_15rem] gap-6 p-4 sm:p-6">
           {/* Body */}
-          <div>
+          <div className="min-w-0">
             <DialogHeader className="space-y-1 text-left">
               <span className="text-[10px] font-mono font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
               <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</DialogTitle>
@@ -142,9 +143,9 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
                 <div className="text-xs text-foreground capitalize">{quest.length}</div>
               </div>
               {quest.location && (
-                <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5">
+                <div className="rounded-lg border border-border bg-secondary/40 px-3 py-2.5 min-w-0">
                   <div className="text-[9px] font-mono uppercase tracking-widest text-muted-foreground mb-1">Location</div>
-                  <div className="text-xs text-foreground">{quest.location}</div>
+                  <div className="text-xs text-foreground break-words">{quest.location}</div>
                 </div>
               )}
             </div>
@@ -183,7 +184,7 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           </div>
 
           {/* Sidebar */}
-          <aside className="flex flex-col gap-3">
+          <aside className="flex flex-col gap-3 min-w-0">
             <div className="rounded-lg border border-border bg-secondary/40 p-4">
               <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
               {quest.video ? (<>
@@ -201,6 +202,7 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
               <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>. Buy links and related quests are coming soon.</p>
             </div>
           </aside>
+        </div>
         </div>
       </DialogContent>
     </Dialog>
@@ -229,15 +231,15 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
           const sel=selectedGame===name;
           return (
             <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name}
-              className={`relative flex-shrink-0 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
-              style={{width:"7rem",aspectRatio:"2/3"}}>
+              className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
+              style={{aspectRatio:"2/3"}}>
               <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover"/>
               <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.92) 40%,rgba(0,0,0,.15))"}}/>
               {sel&&<div className="absolute inset-0 opacity-25" style={{background:meta.gradient}}/>}
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
               <div className="absolute bottom-0 inset-x-0 p-2 text-left">
-                <div className="text-[9px] font-mono font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
-                <div className="text-[8px] text-white/50 font-mono">{questCount[name]||0} quests</div>
+                <div className="text-[11px] sm:text-[9px] font-mono font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
+                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">{questCount[name]||0} quests</div>
               </div>
             </button>
           );
