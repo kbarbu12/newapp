@@ -1,0 +1,16 @@
+{
+  "name": "RPG Quest Guide",
+  "short_name": "Quest Guide",
+  "description": "Browse, filter, and explore side quests and video walkthroughs for popular RPGs.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07070c",
+  "theme_color": "#07070c",
+  "icons": [
+    {
+      "src": "https://kbarbu12.github.io/newapp/classic/images/baldurs-gate-3-cover.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

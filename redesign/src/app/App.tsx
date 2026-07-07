@@ -3,7 +3,7 @@ import {
   Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
-  TrendingUp, Calendar, Home, Grid3X3
+  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle
 } from "lucide-react";
 import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
@@ -34,8 +34,12 @@ type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
 // Walkthrough filter — mirrors the live site's All / Video / No video options.
 type VideoFilter = "All"|"Video Only"|"No Video";
+type SortOption = "default"|"difficulty"|"length"|"game"|"title";
 // Filters a shortcut can pre-apply when jumping to the Library tab.
 type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter };
+
+const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
+const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
 interface ChatMsg { role:"user"|"assistant"; content:string; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -67,7 +71,7 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; compact?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, onComplete, compact=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; compact?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -97,6 +101,11 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <div className="flex items-center gap-2 shrink-0">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60 font-mono"><Youtube size={9}/> Video</span>}
             {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70 font-mono"><BookOpen size={9}/> Guide</span>}
+            {onComplete && (
+              <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={completed?"text-emerald-400":"text-muted-foreground/40 hover:text-emerald-400 transition-colors"}>
+                {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
+              </button>
+            )}
             <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} aria-label={saved?"Remove from saved quests":"Save quest"} className="text-muted-foreground/40 hover:text-primary transition-colors">
               {saved ? <BookmarkCheck size={13} className="text-primary"/> : <Bookmark size={13}/>}
             </button>
@@ -552,7 +561,7 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave }: { savedIds:Set<number>; onSave:(id:number)=>void }) {
+function SavedTab({ savedIds, onSave, completedIds, onComplete }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
@@ -568,7 +577,7 @@ function SavedTab({ savedIds, onSave }: { savedIds:Set<number>; onSave:(id:numbe
         <button onClick={()=>saved.forEach(q=>onSave(q.id))} className="text-xs text-muted-foreground hover:text-primary font-mono transition-colors">Clear all</button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-        {saved.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave}/>)}
+        {saved.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete}/>)}
       </div>
     </div>
   );
@@ -617,20 +626,30 @@ function ChatWidget() {
 
 export default function App() {
   const [tab,         setTab]         = useState<Tab>(LIVE_TABS[0] ?? "home");
-  const [selectedGame,setSelectedGame]= useState("All");
-  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>("All");
-  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>("All");
-  const [lenFilter,   setLenFilter]   = useState<LenFilter>("All");
-  const [videoFilter, setVideoFilter] = useState<VideoFilter>("All");
+  // Last-used game + filters are restored on load so a returning visitor
+  // lands back where they left off instead of a blank "All" library.
+  const [selectedGame,setSelectedGame]= useState(()=>localStorage.getItem("lastGame") ?? "All");
+  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>(localStorage.getItem("lastType") as TypeFilter) ?? "All");
+  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>(localStorage.getItem("lastDiff") as DiffFilter) ?? "All");
+  const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>(localStorage.getItem("lastLen") as LenFilter) ?? "All");
+  const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>(localStorage.getItem("lastVideo") as VideoFilter) ?? "All");
+  const [sort,        setSort]        = useState<SortOption>("default");
   const [search,      setSearch]      = useState("");
   const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
     try { return new Set(JSON.parse(localStorage.getItem("savedQuests") ?? "[]")); }
     catch { return new Set(); }
   });
+  const [completedIds,setCompletedIds]= useState<Set<number>>(()=>{
+    try { return new Set(JSON.parse(localStorage.getItem("completedQuests") ?? "[]")); }
+    catch { return new Set(); }
+  });
 
   useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
+  useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
+  useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
+  const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
@@ -662,7 +681,13 @@ export default function App() {
     if(videoFilter==="No Video"&&q.video)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
-  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search]);
+  }).sort((a,b)=>{
+    if(sort==="difficulty")return DIFF_RANK[a.difficulty]-DIFF_RANK[b.difficulty];
+    if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
+    if(sort==="game")return a.game.localeCompare(b.game);
+    if(sort==="title")return a.title.localeCompare(b.title);
+    return 0;
+  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search,sort]);
 
   // Only a bounded batch of quest cards is mounted at once — 949 cards in the
   // DOM simultaneously was the main source of the page's bloat. Reset the
@@ -752,6 +777,19 @@ export default function App() {
                  `${savedIds.size} saved`}
               </p>
             </div>
+            {tab==="browse" && selectedGame!=="All" && (()=>{
+              const gameQuests = QUESTS.filter(q=>q.game===selectedGame);
+              const done = gameQuests.filter(q=>completedIds.has(q.id)).length;
+              const pct = gameQuests.length ? Math.round((done/gameQuests.length)*100) : 0;
+              return (
+                <div className="ml-auto flex items-center gap-2 min-w-[10rem]">
+                  <div className="flex-1 h-1.5 rounded-full bg-secondary overflow-hidden">
+                    <div className="h-full rounded-full" style={{ width:`${pct}%`, backgroundColor:selectedMeta?.accent ?? "#c5933a" }}/>
+                  </div>
+                  <span className="text-[10px] font-mono text-muted-foreground whitespace-nowrap">{done}/{gameQuests.length} done</span>
+                </div>
+              );
+            })()}
           </div>
         </div>
       )}
@@ -803,12 +841,19 @@ export default function App() {
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
                     <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
                   </div>
+                  <select value={sort} onChange={e=>setSort(e.target.value as SortOption)} aria-label="Sort quests" className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
+                    <option value="default">Sort: Default</option>
+                    <option value="difficulty">Sort: Difficulty</option>
+                    <option value="length">Sort: Length</option>
+                    <option value="game">Sort: Game</option>
+                    <option value="title">Sort: Title</option>
+                  </select>
                   <span className="text-sm text-muted-foreground font-mono">{filtered.length} result{filtered.length!==1?"s":""}</span>
                 </div>
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
                   : <>
-                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave}/>)}</div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete}/>)}</div>
                       {visibleCount<filtered.length && (
                         <button onClick={()=>setVisibleCount(v=>v+BATCH)} className="mx-auto px-4 py-2 rounded-lg border border-border text-xs font-mono text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">
                           Load more ({filtered.length-visibleCount} remaining)
@@ -819,7 +864,7 @@ export default function App() {
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete}/>}
           </main>
         </>
       )}
