@@ -72,16 +72,22 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
   const hasGuide = !!quest.walkthrough?.length;
+  // Radix returns focus to its own DialogTrigger on close, but this card
+  // isn't one — it's a whole clickable article. Track it ourselves so focus
+  // lands back on the card (not <body>) once the modal closes.
+  const triggerRef = useRef<HTMLElement>(null);
   return (
     <>
     <article
+      ref={triggerRef}
+      tabIndex={-1}
       onClick={()=>setOpen(true)}
       className="group flex bg-card border border-border rounded-lg overflow-hidden cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
       onMouseEnter={e=>{const el=e.currentTarget;el.style.borderColor=col+"55";el.style.boxShadow=`0 12px 32px rgba(0,0,0,.5),0 0 0 1px ${col}22,0 4px 20px ${col}15`;}}
       onMouseLeave={e=>{const el=e.currentTarget;el.style.borderColor="";el.style.boxShadow="";}}
     >
       <div className="relative flex-shrink-0 overflow-hidden" style={{ width:"5.5rem" }}>
-        {meta?.cover && <img src={meta.cover} alt={quest.game} className="absolute inset-0 w-full h-full object-cover object-top"/>}
+        {meta?.cover && <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card/60"/>
         <div className="absolute left-0 top-0 bottom-0 w-0.5" style={{ backgroundColor:col }}/>
       </div>
@@ -91,12 +97,12 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
           <div className="flex items-center gap-2 shrink-0">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60 font-mono"><Youtube size={9}/> Video</span>}
             {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70 font-mono"><BookOpen size={9}/> Guide</span>}
-            <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} className="text-muted-foreground/40 hover:text-primary transition-colors">
+            <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} aria-label={saved?"Remove from saved quests":"Save quest"} className="text-muted-foreground/40 hover:text-primary transition-colors">
               {saved ? <BookmarkCheck size={13} className="text-primary"/> : <Bookmark size={13}/>}
             </button>
           </div>
         </div>
-        <h3 className="text-sm font-semibold leading-snug text-foreground group-hover:text-primary transition-colors" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</h3>
+        <p className="text-sm font-semibold leading-snug text-foreground group-hover:text-primary transition-colors" style={{ fontFamily:"'Cinzel',serif" }}>{quest.title}</p>
         {!compact && <p className="text-[11px] text-muted-foreground leading-relaxed line-clamp-3 flex-1">{quest.summary}</p>}
         <div className="flex items-center gap-1.5 flex-wrap">
           <Pill className={quest.type==="main"?"bg-primary/10 text-primary border-primary/25":"bg-white/5 text-muted-foreground border-white/10"}>
@@ -109,7 +115,10 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
     </article>
 
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="w-[calc(100%-2rem)] sm:max-w-4xl max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col">
+      <DialogContent
+        className="w-[calc(100%-2rem)] sm:max-w-4xl max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col"
+        onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
+      >
         <div className="overflow-y-auto overflow-x-hidden">
         {/* Banner */}
         <div className="relative h-40 overflow-hidden rounded-t-lg">
@@ -188,8 +197,8 @@ function QuestCard({ quest, saved, onSave, compact=false }: { quest:Quest; saved
             <div className="rounded-lg border border-border bg-secondary/40 p-4">
               <h4 className="text-xs font-mono font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
               {quest.video ? (<>
-                <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
-                  <Youtube size={13}/> Watch on YouTube
+                <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
+                  <Youtube size={13}/> Watch on YouTube <span aria-hidden="true">↗</span>
                 </a>
                 <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
               </>) : (<>
@@ -581,7 +590,7 @@ function ChatWidget() {
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
             <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Cinzel',serif"}}>Quest Assistant</span></div>
-            <button onClick={()=>setOpen(false)} className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
           </div>
           <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
             {msgs.map((m,i)=>(
@@ -593,11 +602,11 @@ function ChatWidget() {
           </div>
           <div className="border-t border-border p-3 flex gap-2">
             <input value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()} placeholder="Ask about a quest…" className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
-            <button onClick={send} className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
+            <button onClick={send} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
           </div>
         </div>
       )}
-      <button onClick={()=>setOpen(!open)} className="w-12 h-12 rounded-full bg-primary hover:bg-primary/80 text-primary-foreground flex items-center justify-center transition-all duration-200 hover:scale-105" style={{boxShadow:"0 0 20px rgba(197,147,58,.35)"}}>
+      <button onClick={()=>setOpen(!open)} aria-label={open?"Close quest assistant chat":"Open quest assistant chat"} className="w-12 h-12 rounded-full bg-primary hover:bg-primary/80 text-primary-foreground flex items-center justify-center transition-all duration-200 hover:scale-105" style={{boxShadow:"0 0 20px rgba(197,147,58,.35)"}}>
         {open?<X size={20}/>:<MessageCircle size={20}/>}
       </button>
     </div>
@@ -614,7 +623,12 @@ export default function App() {
   const [lenFilter,   setLenFilter]   = useState<LenFilter>("All");
   const [videoFilter, setVideoFilter] = useState<VideoFilter>("All");
   const [search,      setSearch]      = useState("");
-  const [savedIds,    setSavedIds]    = useState<Set<number>>(new Set());
+  const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
+    try { return new Set(JSON.parse(localStorage.getItem("savedQuests") ?? "[]")); }
+    catch { return new Set(); }
+  });
+
+  useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
 
@@ -649,6 +663,13 @@ export default function App() {
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
   }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search]);
+
+  // Only a bounded batch of quest cards is mounted at once — 949 cards in the
+  // DOM simultaneously was the main source of the page's bloat. Reset the
+  // batch whenever the result set changes so "Load more" starts fresh.
+  const BATCH = 36;
+  const [visibleCount, setVisibleCount] = useState(BATCH);
+  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search]);
 
   const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",!!search].filter(Boolean).length;
 
@@ -720,11 +741,11 @@ export default function App() {
         <div className="border-b border-border bg-secondary/20">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center gap-4">
             <div>
-              <h2 className="text-lg font-bold text-foreground" style={{fontFamily:"'Cinzel',serif"}}>
+              <h1 className="text-lg font-bold text-foreground" style={{fontFamily:"'Cinzel',serif"}}>
                 {tab==="browse" ? (selectedGame!=="All" ? <><span style={{color:selectedMeta?.accent}}>{selectedGame}</span> — Quest Library</> : "Quest Library")
                  : tab==="news" ? "Latest Updates"
                  : "Saved Quests"}
-              </h2>
+              </h1>
               <p className="text-xs text-muted-foreground mt-0.5">
                 {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
@@ -786,7 +807,14 @@ export default function App() {
                 </div>
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave}/>)}</div>
+                  : <>
+                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave}/>)}</div>
+                      {visibleCount<filtered.length && (
+                        <button onClick={()=>setVisibleCount(v=>v+BATCH)} className="mx-auto px-4 py-2 rounded-lg border border-border text-xs font-mono text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">
+                          Load more ({filtered.length-visibleCount} remaining)
+                        </button>
+                      )}
+                    </>
                 }
               </>
             )}
