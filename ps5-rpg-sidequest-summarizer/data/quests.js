@@ -2855,6 +2855,13 @@ const quests = [
       "Follow Atreus's personal quest to understand his Giant heritage and his role in Ragnarök. Played from Atreus's perspective in key sections, this questline provides crucial context for the game's ending.",
     aiTip:
       "The Atreus sections play differently from Kratos — focus on stealth and puzzle-solving rather than direct combat. His sections contain some of the best environmental storytelling in the game.",
+    walkthrough: [
+      "Progress the main story until control switches to Atreus for his solo sections — these trigger automatically at set story beats.",
+      "During Atreus's chapters, favour stealth and his bow puzzles over head-on fights; use Sonic Arrows to reveal and activate mechanisms.",
+      "Explore fully while playing as Atreus — his sections gate unique lore and dialogue you can't revisit later as Kratos.",
+      "Follow the objective markers through each realm segment, completing the environmental puzzles that block your path.",
+      "Reach the end of his questline to unlock the story context that sets up the game's final act."
+    ],
     video: "https://www.youtube.com/watch?v=U3InCcqtpNs"
   },
   {
@@ -2887,6 +2894,13 @@ const quests = [
       "Collect Lore Markers and listen to Mimir's stories about Norse mythology throughout the Nine Realms. His narration provides rich context for the world's history and makes exploration feel purposeful.",
     aiTip:
       "Never skip Mimir's commentary — it's some of the best writing in the game. Many lore items are hidden off the main path in areas that look like dead ends.",
+    walkthrough: [
+      "Watch for glowing Lore Marker collectibles as you explore each realm — they sit on stones, tablets, and ruins.",
+      "Interact with a Lore Marker to trigger Mimir's narrated story, then let the dialogue finish before moving on.",
+      "Search side paths, dead ends, and optional rooms — many markers are deliberately off the critical path.",
+      "Use the realm-completion menu to see how many lore items remain in each region and revisit areas you've missed.",
+      "Collect every Lore Marker across the Nine Realms to complete the set and its associated Labour progress."
+    ],
     video: "https://www.youtube.com/watch?v=pIbXqpQmuIg"
   },
   {
@@ -10951,6 +10965,13 @@ const quests = [
       "Restore the derelict Applecore elevator to open up new areas of the Aurvangar Wetlands.",
     aiTip:
       "Reopening it unlocks traversal and hidden chests across the wetlands.",
+    walkthrough: [
+      "Reach the derelict Applecore elevator in the Aurvangar Wetlands of Svartalfheim during or after the main-story visit.",
+      "Interact with the elevator controls to learn the mechanism is jammed and needs power restored.",
+      "Clear the surrounding enemies and use the Draupnir Spear or Blades of Chaos to activate the sealed vents and gears.",
+      "Ride the restored elevator between its upper and lower stops to open the newly reachable sections of the wetlands.",
+      "Explore the freshly opened areas to grab the hidden chests and collectibles the elevator now makes accessible."
+    ],
     video: "https://www.youtube.com/watch?v=HPe5WhV0LFY"
   },
   {
