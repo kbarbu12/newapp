@@ -4,6 +4,12 @@ Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-s
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
+## Deployment
+
+All changes deploy to **staging first, prod only on the user's say-so.** Work
+lands on the `staging` branch (auto-deploys to `/staging/`); promote to the live
+`/` site by merging `staging` → `main`. See `DEPLOY.md` for the full flow.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
