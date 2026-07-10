@@ -10831,7 +10831,7 @@ const quests = [
       "A Chapter 12 odd job posted by Billy in the Corel region. He asks you to enter and win the Gold Cup chocobo race at the Gold Saucer on his behalf, putting your racing setup and mount to the test.",
     aiTip:
       "Upgrade your chocobo's stats and stock stat-boosting items at the racing shop before entering — the Gold Cup field is fast, so prioritize acceleration and top speed and grab every boost gate.",
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gold%20Cup%20or%20Bust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=B8oUhHkOKak"
   },
   {
     id: 1058,
@@ -10847,7 +10847,7 @@ const quests = [
       "A Chapter 12 odd job for the author Maeve in the Gongaga region. She has run dry on ideas for her children's book, so she asks you to photograph Red XIII in specific poses and locations to spark her inspiration.",
     aiTip:
       "Line up each photo spot and wait for the prompted pose before snapping — the game only accepts the shot when Red XIII strikes the exact expression the objective describes.",
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Escape%20from%20Endless%20Writer%27s%20Block%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pIsaVCnmNNo"
   },
   {
     id: 651,
