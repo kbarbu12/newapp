@@ -2060,6 +2060,14 @@ const quests = [
       "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
     aiTip:
       "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
+    walkthrough: [
+      "Keep Shadowheart in your party and complete the Gauntlet of Shar to reach the Nightsong.",
+      "At the Nightsong, choose whether Shadowheart obeys Shar and kills her, or spares her.",
+      "In Act 3, travel to the Shadowfold Temple / House of Grief in the Lower City.",
+      "Confront Mother Superior Viconia and the Sharran clergy.",
+      "Support Shadowheart's decision to reject or embrace Shar.",
+      "Resolve her parents' fate to complete her arc and lock in her ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
   },
   {
@@ -2128,6 +2136,14 @@ const quests = [
       "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
     aiTip:
       "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
+    walkthrough: [
+      "Talk to Gale early and let him feed magical items to his Netherese orb when it flares.",
+      "Progress his story to learn about Mystra, Elminster's letter, and the orb's true purpose.",
+      "In Act 3, pursue the Crown of Karsus questline beneath the city.",
+      "Decide whether Gale seeks godhood or renounces the Crown.",
+      "Guide his choice at the Elder Brain confrontation (detonate the orb or not).",
+      "His ending follows the path you steered him toward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
   },
   {
@@ -2145,6 +2161,14 @@ const quests = [
       "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
     aiTip:
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
+    walkthrough: [
+      "Recruit Wyll and learn of his pact with the devil Mizora.",
+      "In Act 2, when Mizora is captured at Moonrise, decide whether to free her.",
+      "This choice affects Wyll's pact and his father Duke Ravengard.",
+      "In Act 3, rescue Duke Ravengard from the Iron Throne and Bhaal's cult.",
+      "Help Wyll confront Mizora and choose to keep, renegotiate, or break the pact.",
+      "His fate as the Blade of Avernus or a free man depends on these choices."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
   },
   {
@@ -4000,6 +4024,14 @@ const quests = [
       "Solve the stained-glass ritual puzzle in Rosymorn Monastery and disarm an ancient trap to claim one of the game's earliest legendary weapons — a mace that blinds fiends and undead.",
     aiTip:
       "Place the correct weapons on the altar (check the window mural) to open the vault. Bring Misty Step to bypass the destroying-beam trap on the way out.",
+    walkthrough: [
+      "Reach Crèche Y'llek via the Mountain Pass.",
+      "Find the Rosymorn Monastery Trail and climb to the abandoned monastery above.",
+      "Collect the three ceremonial weapons (mace, staff, greatsword) from the monastery.",
+      "Place each weapon on the correct statue to open the inner sanctum.",
+      "Solve the dawnmaster's puzzle by rotating the mirrors to bathe the altar in light.",
+      "Claim the Blood of Lathander legendary mace before the trap triggers."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
   },
   {
@@ -4051,6 +4083,14 @@ const quests = [
       "The githyanki commander Kith'rak Voss, now a traitor to Vlaakith, visits your camp seeking aid to free a prisoner held within the Astral Prism. Hear out a gith's rebellion and decide whether to help.",
     aiTip:
       "Voss appears after you confront Vlaakith during Lae'zel's questline ('The Githyanki Warrior'). Keeping him alive earlier in Act 2 is required for him to return here.",
+    walkthrough: [
+      "Encounter the githyanki knight Voss at Crèche Y'llek or later in the Shadow-Cursed Lands.",
+      "Learn he opposes Vlaakith and seeks the Orpheus prism.",
+      "In Act 3, meet Voss atop the roof near the Elfsong Tavern.",
+      "Help him recover his dragon Ghustil or aid his rebellion against the lich-queen.",
+      "Return the Astral Prism knowledge that frees Orpheus.",
+      "Voss becomes an ally for the finale if you support his cause."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
   },
   {
@@ -13139,6 +13179,14 @@ const quests = [
       "Broker peace between the druids' ritual and the tiefling refugees before Kagha seals the grove.",
     aiTip:
       "Your choices here ripple through both later acts — the tieflings remember how you treat them.",
+    walkthrough: [
+      "Speak with the tieflings and druids inside the Emerald Grove.",
+      "Learn that Kagha's druids want to seal the grove and evict the refugees.",
+      "Defuse tensions by resolving Arabella's fate and exposing Kagha's Shadow Druid ties.",
+      "Deal with the goblin threat that endangers everyone (see Raid the Goblin Camp).",
+      "Prevent the ritual sealing the grove.",
+      "Keep the refugees safe so they can flee toward the mountain pass."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
   },
   {
@@ -13156,6 +13204,14 @@ const quests = [
       "Take down the three goblin leaders — Minthara, Dror Ragzlin, and Priestess Gut — to break the cult of the Absolute.",
     aiTip:
       "You can fight your way in or talk/sneak — sparing Minthara opens a very different path.",
+    walkthrough: [
+      "Travel west from the Blighted Village to the goblin camp at the ruined temple.",
+      "Enter openly, in disguise, or by force; the Shattered Sanctum lies below.",
+      "Track down the three goblin leaders: Priestess Gut, Dror Ragzlin, and Minthara.",
+      "Kill each leader — pick them off separately to avoid being swarmed.",
+      "Optionally drop the chandelier or use the war drums against the horde.",
+      "With all three dead, the Absolute's grip on the region breaks and Halsin is freed."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
   },
   {
@@ -13173,6 +13229,14 @@ const quests = [
       "Clear the gnoll- and goblin-infested Blighted Village and the spider-filled Whispering Depths below.",
     aiTip:
       "The Phase Spider Matriarch is a nasty early fight — use the chasms and fire to your advantage.",
+    walkthrough: [
+      "Explore the Blighted Village and clear its goblin and ogre occupants.",
+      "Search the buildings for loot, the Whispering Depths well, and hidden cellars.",
+      "Descend the well into the Whispering Depths.",
+      "Fight through the phase spiders in the cavern.",
+      "Defeat the Phase Spider Matriarch, using the egg sacs and chasm to your advantage.",
+      "Collect the loot and find the passage onward to the Underdark."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
   },
   {
@@ -13190,6 +13254,14 @@ const quests = [
       "Decide the fate of the trapped deep gnomes and the duergar under the True Soul Nere.",
     aiTip:
       "Siding with the gnomes vs. the duergar changes who helps you at the Adamantine Forge.",
+    walkthrough: [
+      "Reach Grymforge via the Underdark boat.",
+      "Learn that the true soul Nere is trapped behind a collapsed tunnel by poison gas.",
+      "Find explosives (Smokepowder barrels or a runepowder bomb) to clear the rubble.",
+      "Detonate the charge to free Nere and the choking deep gnomes.",
+      "Decide whether to side with Nere or turn on him with the gnomes.",
+      "Kill Nere for his head-bounty, or let him live and continue."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
   },
   {
@@ -13207,6 +13279,14 @@ const quests = [
       "Escort Lae'zel to the githyanki Creche Y'llek to seek a cure — and confront her people's lies.",
     aiTip:
       "A pivotal companion arc; the Creche also holds powerful gear and the Blood of Lathander.",
+    walkthrough: [
+      "Keep Lae'zel in your party and travel to Crèche Y'llek.",
+      "Test the zaith'isk and uncover Vlaakith's lies about the tadpole cure.",
+      "Learn the truth about Orpheus from the Astral Prism.",
+      "Guide Lae'zel to question her devotion to the lich-queen.",
+      "In Act 3, help her confront Vlaakith's agents and choose Orpheus over the queen.",
+      "Her ending as a rebel leader depends on breaking her faith in Vlaakith."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
   },
   {
@@ -13224,6 +13304,14 @@ const quests = [
       "Help the fugitive tiefling Karlach cool her failing infernal engine and hunt the paladins of Tyr.",
     aiTip:
       "Bring her infernal iron to Dammon across the acts to keep her heart from burning out.",
+    walkthrough: [
+      "Recruit Karlach after resolving the Hunt the Devil encounter on the Risen Road.",
+      "Learn her infernal engine is failing and needs Infernal Iron to patch.",
+      "Bring Infernal Iron to Dammon the tiefling smith in each act to upgrade her engine.",
+      "In Act 3, confront Gortash, who once sold her to Zariel.",
+      "Explore options to save her: return to Avernus, become a mind flayer, or others.",
+      "Choose her ending — most paths require leaving for Avernus with a companion."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
   },
   {
@@ -13241,6 +13329,14 @@ const quests = [
       "Cross the deadly Shadow-Cursed Lands to the Harper stronghold sheltered by the cleric Isobel.",
     aiTip:
       "Keep a light source at all times — the shadow curse kills the unprotected quickly.",
+    walkthrough: [
+      "Enter the Shadow-Cursed Lands from the Underdark or Mountain Pass.",
+      "Acquire protection from the curse: a Moonlantern or Isobel's blessing.",
+      "Stay within light sources to avoid the deadly shadows.",
+      "Follow the road, freeing the pixie Dolly Dolly Dolly from a Moonlantern if you wish.",
+      "Cross the bridge to the Last Light Inn, a Harper safe haven.",
+      "Meet Jaheira and Isobel to establish your base for Act 2."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
   },
   {
@@ -13258,6 +13354,14 @@ const quests = [
       "Arabella, sheltering at Last Light Inn, begs you to find her parents Locke and Komira, lost in the Shadow-Cursed Lands. Track them through Reithwin before the curse claims them.",
     aiTip:
       "Search Reithwin Town near the toll house; carry Moonlanterns and light sources to survive the shadows on the way.",
+    walkthrough: [
+      "At the Last Light Inn, meet the grieving tiefling child Arabella.",
+      "Agree to search the Shadow-Cursed Lands for her missing parents.",
+      "Travel toward the Ruined Battlefield and the Thorm mausoleum area.",
+      "Find her parents' fate among the shadow-cursed victims.",
+      "Return to Arabella with the news.",
+      "Comfort her and complete the quest at the inn."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
   },
   {
@@ -13275,6 +13379,14 @@ const quests = [
       "Survive Shar's trials in the Gauntlet and decide the fate of the imprisoned Nightsong.",
     aiTip:
       "This is Shadowheart's defining choice — spare or slay the Nightsong shapes her whole arc.",
+    walkthrough: [
+      "Complete the Gauntlet of Shar's Soft-Step trials to earn the Spear of Night.",
+      "Enter the inner sanctum and meet Balthazar and the imprisoned Nightsong (Dame Aylin).",
+      "Choose to free Aylin rather than kill her for Shar.",
+      "Use the Spear of Night to shatter her prison.",
+      "Defeat Balthazar if he turns hostile.",
+      "Free Aylin, weakening Ketheric Thorm's immortality."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
   },
   {
@@ -13292,6 +13404,14 @@ const quests = [
       "Descend beneath Moonrise into the mind flayer colony to confront the truth of your tadpole.",
     aiTip:
       "A major story reveal — how you handle the Emperor here echoes into the finale.",
+    walkthrough: [
+      "Descend beneath Moonrise Towers into the ancient Thorm temple.",
+      "Work through the Mind Flayer Colony's illithid horrors and thralls.",
+      "Confront Balthazar and secure Ketheric's relic / the Nightsong.",
+      "Find the Astral-Touched tadpole and decide whether to use it.",
+      "Fight through to the colony's heart.",
+      "Emerge to face Ketheric now that his immortality is broken."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
   },
   {
@@ -13309,6 +13429,14 @@ const quests = [
       "Help Astarion confront his vampire master Cazador — and decide whether he claims dark power or freedom.",
     aiTip:
       "Ascending Astarion vs. keeping him free is one of the game's most impactful companion choices.",
+    walkthrough: [
+      "Progress Astarion's story to reveal his master, the vampire lord Cazador.",
+      "In Act 3, investigate Cazador's Palace and read the Rite of Profane Ascension.",
+      "Rescue Astarion's fellow spawn siblings held in the kennels.",
+      "Confront Cazador during the ritual in the ceremony chamber.",
+      "Decide: let Astarion complete the ascension ritual, or stop him and kill Cazador.",
+      "His ending — ascended vampire or free spawn — follows that choice."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
   },
   {
@@ -13326,6 +13454,14 @@ const quests = [
       "Investigate the ritual murders across Baldur's Gate and track the killer to Cazador's orbit.",
     aiTip:
       "Collect Dribbles the Clown's scattered body parts for a key clue in the Murder Tribunal.",
+    walkthrough: [
+      "Investigate the serial murders tied to the Bhaal cult in the Lower City.",
+      "Follow the 'Murder Tribunal' clues and the Dribbles the Clown circus lead.",
+      "Collect Dribbles' scattered body parts across the city for the gruesome side task.",
+      "Trace the killings to the Temple of Bhaal beneath the Undercity.",
+      "Confront Orin and the Bhaalist cult.",
+      "End the murder spree by clearing the temple."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
   },
   {
@@ -13343,6 +13479,14 @@ const quests = [
       "Mount an underwater prison break at the Iron Throne before Gortash floods it.",
     aiTip:
       "A brutal timer — prioritize who you save; you can't get everyone without preparation.",
+    walkthrough: [
+      "Learn that hostages (including Duke Ravengard) are held in the underwater Iron Throne.",
+      "Take the submersible from the Flymm Cargo warehouse down to the prison.",
+      "Race the flooding timer once inside.",
+      "Free as many prisoners as you can, prioritizing key NPCs.",
+      "Fight the guards and Gortash's assassin.",
+      "Escape via the submersible before the prison fully floods."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
   },
   {
@@ -13360,6 +13504,14 @@ const quests = [
       "Sabotage Gortash's Steel Watch army at its foundry to cripple his hold on the city.",
     aiTip:
       "Freeing the Gondians at the Iron Throne first makes disabling the Watch far easier.",
+    walkthrough: [
+      "Ally with the Ironhand gnomes and Wulbren to plan the sabotage.",
+      "Retrieve the runepowder bomb from the gnomes.",
+      "Infiltrate the Steel Watch Foundry in Rivington.",
+      "Free the enslaved Gondian workers before the blast.",
+      "Plant the runepowder at the foundry's core.",
+      "Detonate it to destroy the Steel Watch production and cripple Gortash's army."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
   },
   {
@@ -13377,6 +13529,14 @@ const quests = [
       "Hunt down the Chosen of Bhaal (Orin) and Bane (Gortash) to seize their Netherstones.",
     aiTip:
       "Gather allies and the other Netherstones before the finale — the Elder Brain awaits.",
+    walkthrough: [
+      "Gather the three Netherstones to control the Elder Brain.",
+      "Confront Enver Gortash at his coronation in Wyrm's Rock and take his stone.",
+      "Disable the Steel Watch first to weaken his defenses.",
+      "Track Orin the Red, who hides among your allies in disguise.",
+      "Answer her challenge at the Temple of Bhaal and defeat her in single combat.",
+      "Claim both Netherstones to prepare for the Netherbrain."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Chosen%3A%20Orin%20%26%20Gortash%20walkthrough"
   },
   {
@@ -13394,6 +13554,14 @@ const quests = [
       "Stand with the veteran Harper Jaheira as she rallies her old network and settles a decades-old score against the Absolute's chosen.",
     aiTip:
       "Her arc pays off in Act 3 — keep her in the party for the Harper reinforcements at the finale.",
+    walkthrough: [
+      "Meet Jaheira at the Last Light Inn and earn her trust through Act 2.",
+      "Recruit her after the assault on Moonrise Towers.",
+      "In Act 3, visit her home and family in the Lower City.",
+      "Help defend the Harpers and her loved ones from the cults.",
+      "Reunite her with Minsc after clearing his mind control in the Counting House.",
+      "Complete her arc alongside Minsc for the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
   },
   {
@@ -13411,6 +13579,14 @@ const quests = [
       "Heist the devil Raphael's own domain to steal the Orphic Hammer and free the archdevil's prisoners.",
     aiTip:
       "One of the toughest optional fights — free Hope and grab the Infernal loot before facing Raphael.",
+    walkthrough: [
+      "Obtain the ritual components from Helsik at the Devil's Fee.",
+      "Perform the ritual to teleport into the House of Hope.",
+      "Meet Hope, the imprisoned archivist, and free her to gain an ally.",
+      "Loot the Boudoir and vault for the Orphic Hammer and legendary gear.",
+      "Trigger and win the fight against Raphael and his cambions.",
+      "Escape with the Orphic Hammer needed to free Orpheus."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
   },
   {
@@ -15614,6 +15790,14 @@ const quests = [
       "Track down the Zhentarim's stolen shipment and decide whether to side with the smugglers.",
     aiTip:
       "Leads into The Risen Road; talk your way past the Zhent guards or fight through.",
+    walkthrough: [
+      "Speak with the Zhentarim contact about their lost caravan.",
+      "Search the Risen Road for the ambushed shipment.",
+      "Find the hidden Zhentarim basement beneath the toll house waypoint.",
+      "Use the password or fight your way in.",
+      "Locate the stolen goods within the hideout.",
+      "Return the shipment or claim it for a reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
   },
   {
@@ -15631,6 +15815,14 @@ const quests = [
       "Free the deep gnome Barcus Wroot from the windmill's sails before the goblins finish him off.",
     aiTip:
       "Turn the windmill brake inside first, then interact with the sails to save him.",
+    walkthrough: [
+      "Reach the goblin camp and spot the deep gnome Barcus Wroot tied to a windmill sail.",
+      "Climb to the windmill's mechanism inside.",
+      "Stop the sails (or pass a check) so Barcus isn't flung off.",
+      "Cut Barcus loose safely.",
+      "Fend off any goblins who attack.",
+      "Send Barcus on his way — he reappears later in the Underdark."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
   },
   {
@@ -15648,6 +15840,14 @@ const quests = [
       "Uncover druid Kagha's secret dealings with the Shadow Druids that threaten the tiefling refugees.",
     aiTip:
       "Read the letter in the Grove and confront Kagha to change the Grove's outcome.",
+    walkthrough: [
+      "Notice Kagha's harsh treatment of the tieflings in the Emerald Grove.",
+      "Search the grove for evidence of her secret dealings.",
+      "Read the letter revealing her ties to the Shadow Druids.",
+      "Confront Kagha with the proof in front of the circle.",
+      "Expose or spare her depending on your approach.",
+      "Resolve the grove's leadership crisis."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
   },
   {
@@ -15665,6 +15865,14 @@ const quests = [
       "Help the smith complete a masterwork weapon by recovering the sundered fragments.",
     aiTip:
       "Bring the missing pieces to the forge; ties into the Adamantine Forge questline.",
+    walkthrough: [
+      "Talk to the smith about the unfinished masterwork weapon.",
+      "Learn you need the Sussur Bark from the Underdark's Arcane Tower.",
+      "Travel to the glowing Sussur Tree and harvest the bark (magic is nullified nearby).",
+      "Return the Sussur Bloom/Bark to the forge.",
+      "Complete the weapon at the Grymforge or smithy.",
+      "Claim the finished anti-magic weapon."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
   },
   {
@@ -15682,6 +15890,14 @@ const quests = [
       "Brave the Risen Road and its warring factions — paladins of Tyr, a hidden fiend, and Zhentarim smugglers.",
     aiTip:
       "Watch for the fiend disguised among the survivors; approach the toll bridge carefully.",
+    walkthrough: [
+      "Head east along the Risen Road from the Blighted Village.",
+      "Deal with the paladins of Tyr and the disguised cultists (Hunt the Devil).",
+      "Clear the burning toll house and the gnolls in the area.",
+      "Rescue any survivors trapped inside.",
+      "Explore the Zhentarim hideout hidden nearby.",
+      "Secure the road and its loot before moving on."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
   },
   {
@@ -15699,6 +15915,14 @@ const quests = [
       "Recover a pair of missing boots for a distraught patron at the Last Light Inn.",
     aiTip:
       "A quick fetch quest around the inn and its surrounds.",
+    walkthrough: [
+      "Meet the shoe-obsessed NPC at the Last Light Inn asking after special boots.",
+      "Search the Shadow-Cursed Lands for the missing footwear.",
+      "Check the shadow-cursed corpses and hidden stashes.",
+      "Recover the boots.",
+      "Return them to the owner.",
+      "Collect your reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
   },
   {
@@ -15716,6 +15940,14 @@ const quests = [
       "Rescue the girl Vanra from a hag preying on the mothers of the Lower City.",
     aiTip:
       "Another Auntie Ethel-style hag fight — bring anti-charm options and save first.",
+    walkthrough: [
+      "Meet the distraught mother at the Baldur's Gate market whose daughter Vanra is taken.",
+      "Learn the hag Auntie Ethel is behind the abduction.",
+      "Track Ethel to her lair beneath the city (the riverside/sewer entrance).",
+      "Navigate the illusions and swallow trap inside the hag's lair.",
+      "Defeat Ethel and free Vanra from her clutches (or from being swallowed).",
+      "Return Vanra to her mother."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
   },
   {
@@ -15733,6 +15965,14 @@ const quests = [
       "Delve the overgrown ruins near the crash site and the crypt below to face a hooded skeleton and claim its secrets.",
     aiTip:
       "Persuade or fight the adventurers at the door; the Dank Crypt's sarcophagus reveals Withers.",
+    walkthrough: [
+      "From the Ravaged Beach, head up to the Dank Crypt / overgrown ruins.",
+      "Deal with the adventurers arguing outside over buried treasure.",
+      "Enter the ruins and search for the hidden crypt below.",
+      "Disarm the trapped sarcophagus room.",
+      "Defeat or avoid the awakened skeletons and Withers' guardians.",
+      "Loot the crypt and awaken Withers, who joins your camp."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
   },
   {
@@ -15750,6 +15990,14 @@ const quests = [
       "Investigate the hidden cellar beneath the Blighted Village apothecary and its arcane mirror.",
     aiTip:
       "Ties into The Necromancy of Thay; answer the mirror's riddle to pass unharmed.",
+    walkthrough: [
+      "Find the trapdoor to the Blighted Village apothecary's cellar (or Waukeen's Rest cellar).",
+      "Descend and search for hidden compartments.",
+      "Watch for traps and ambushing enemies.",
+      "Read the notes and letters to uncover the cellar's secret.",
+      "Collect the hidden loot or quest item.",
+      "Report back or continue the related questline."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
   },
   {
@@ -15767,6 +16015,14 @@ const quests = [
       "Sneak into the druids' inner sanctum and lift the Idol of Silvanus at Mol's request.",
     aiTip:
       "Use Stealth/Invisibility; taking the idol has consequences for the grove.",
+    walkthrough: [
+      "Learn from Zevlor or a tiefling that the druids' Idol of Silvanus could distract them.",
+      "Enter the inner sanctum where the druids perform their ritual.",
+      "Sneak or turn invisible to approach the idol undetected.",
+      "Pass a Sleight of Hand check to lift the idol from its pedestal.",
+      "Avoid or survive the summoned guardian if you fail.",
+      "Escape with the idol and deliver it as agreed."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
   },
   {
@@ -15784,6 +16040,14 @@ const quests = [
       "Rouse the catatonic Art Cullagh at Last Light Inn to uncover the key to lifting the shadow curse.",
     aiTip:
       "Play the flute found at the Mason's Guild by his bedside; feeds Halsin's Thaniel questline.",
+    walkthrough: [
+      "Find the wounded Art Cullagh unconscious in the Last Light Inn's infirmary.",
+      "Speak with Halsin, who wants to reach Cullagh's mind.",
+      "Search for what stirs his memory — a song tied to Thaniel.",
+      "Trigger the memory to wake Cullagh briefly.",
+      "Learn about Thaniel and the way to lift the Shadow Curse.",
+      "This opens Halsin's path to heal the land."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
   },
   {
@@ -15801,6 +16065,14 @@ const quests = [
       "Lady Esther at the Mountain Pass asks you to steal a githyanki egg from the Hatchery deep in Crèche Y'llek. Retrieve it, then decide its fate — hand it over, keep it, or let Lae'zel raise it.",
     aiTip:
       "You need boots that resist the caustic pools in the Hatchery. Giving the egg to Lae'zel instead of Esther deepens her approval.",
+    walkthrough: [
+      "At Crèche Y'llek, take on the task (from Voss) to retrieve a githyanki egg.",
+      "Find the incubation chamber deep in the crèche.",
+      "Pass the guards using stealth, disguise, or distraction.",
+      "Sleight of Hand the egg from its nest without raising the alarm.",
+      "Slip back out of the chamber.",
+      "Deliver the egg to complete the covert task."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
   },
   {
@@ -15818,6 +16090,14 @@ const quests = [
       "Speak with the tormented spirit He Who Was on the Ruined Battlefield and avenge him by hunting down the paladins of Tyr who broke their oath and became the Shadow-Cursed dead.",
     aiTip:
       "The oathbreaker paladins are scattered across Act 2 — finish them before you leave the Shadow-Cursed Lands or the spirit's vengeance goes uncompleted.",
+    walkthrough: [
+      "Accept the Selûnite/Harper task to bring justice to a shadow-cursed wrongdoer.",
+      "Investigate the target's crimes in the Shadow-Cursed Lands.",
+      "Track them to their hiding place near Moonrise or the ruined village.",
+      "Confront the guilty party.",
+      "Deliver punishment or show mercy per your judgment.",
+      "Report the outcome to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
   },
   {
@@ -15835,6 +16115,14 @@ const quests = [
       "An execution notice in the Lower City reveals Counsellor Florrick is imprisoned deep within Wyrm's Rock. Break her out before Gortash carries out the sentence.",
     aiTip:
       "Time-sensitive — she must be freed within about five long rests. A cultist disguise or the Wyrm's Rock sewers ease the approach.",
+    walkthrough: [
+      "Learn that Counsellor Florrick is imprisoned at Wyrm's Rock Fortress.",
+      "Gain entry to the fortress (invitation or infiltration).",
+      "Find Florrick held in the prison cells.",
+      "Persuade the guards or fight to reach her cell.",
+      "Free Florrick before her scheduled execution.",
+      "Escort her to safety to earn an ally."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
   },
   {
@@ -15852,6 +16140,14 @@ const quests = [
       "Postmaster Danzo's carrier pigeons have scattered across the city with their letters undelivered. Recover the lost mail in a quirky citywide errand.",
     aiTip:
       "The pigeons perch on rooftops and ledges around the Lower City — Feather Fall, jump, or a fly spell make reaching them painless.",
+    walkthrough: [
+      "Take the task from the Zhentarim/Guild about intercepted correspondence.",
+      "Search the Lower City for the missing letters.",
+      "Check couriers, hidden stashes, and the Counting House.",
+      "Recover all the letters.",
+      "Read them for blackmail material or leads.",
+      "Return them to your employer for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
   },
   {
@@ -15869,6 +16165,14 @@ const quests = [
       "Manip Falcäo hires you to wipe out the gnomes raiding his checkpoint and bring back their leader's head — though the Ironhand gnomes' side of the story may change your mind.",
     aiTip:
       "You can side with Falcäo or the gnomes; the Ironhand gnomes tie into the Steel Watch and Gondian questlines, so weigh the bigger picture before striking.",
+    walkthrough: [
+      "Meet the Ironhand gnomes who want revenge on Gortash for enslaving them.",
+      "Coordinate with Wulbren and the Underduke on a plan.",
+      "Retrieve the runepowder needed for sabotage.",
+      "Decide whether to back Wulbren's aggressive plan or restrain him.",
+      "Help strike at the Steel Watch Foundry.",
+      "Resolve the gnomes' fate based on your guidance."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
   },
   {
