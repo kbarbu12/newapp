@@ -178,13 +178,18 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
 
         {/* Sidebar */}
         <aside className="flex flex-col gap-3 min-w-0">
-          {quest.video && (
+          {quest.video ? (
             <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
               <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
               <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
                 <Youtube size={13}/> Watch on YouTube <span aria-hidden="true">↗</span>
               </a>
               <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
+            </div>
+          ) : (
+            <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
+              <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
+              <p className="text-xs italic text-muted-foreground/70">Video walkthrough not available</p>
             </div>
           )}
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
