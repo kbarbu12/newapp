@@ -10,6 +10,17 @@ All changes deploy to **staging first, prod only on the user's say-so.** Work
 lands on the `staging` branch (auto-deploys to `/staging/`); promote to the live
 `/` site by merging `staging` → `main`. See `DEPLOY.md` for the full flow.
 
+## Quest data entries
+
+Quests live in `ps5-rpg-sidequest-summarizer/data/quests.js` (the single source
+of truth; the redesign regenerates from it).
+
+**Every new quest entry must have a walkthrough.** Check for a `video` first: a
+"real" video is a specific `youtube.com/watch?v=…` (or playlist) link — a
+`results?search_query=…` search URL does **not** count. If a new entry has no
+real video, add a step-by-step `walkthrough: [ … ]` array instead (see existing
+entries for the format).
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
