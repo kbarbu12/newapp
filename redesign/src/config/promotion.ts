@@ -1,14 +1,14 @@
 // ─── Per-tab promotion control ──────────────────────────────────────────────
 //
 // The redesign ships to two places from one codebase:
-//   • STAGING  (kbarbu12.github.io/newapp/staging/) — every tab is visible so
-//     the whole redesign can be reviewed against real quest data.
-//   • PROD     (kbarbu12.github.io/newapp/app/)     — only tabs that have been
-//     reviewed and approved appear.
+//   • STAGING  (kbarbu12.github.io/newapp/staging/) — a preview build for
+//     reviewing against real quest data before it ships.
+//   • PROD     (kbarbu12.github.io/newapp/app/)     — the live site.
 //
-// To promote a tab after it passes testing in staging, flip it to `true` here
-// and merge to main. CI rebuilds the prod bundle and the tab goes live; the
-// staging bundle is unaffected. Nothing is promoted until it is proven good.
+// Both show the same set of tabs (PROMOTED_TABS below) so what's reviewed in
+// staging is exactly what's live in prod. To ship a new tab, build it behind
+// a flag elsewhere first; flip it to `true` here only once it's ready to go
+// live in both places.
 
 export type Tab = "home" | "browse" | "news" | "saved";
 
@@ -28,8 +28,9 @@ const TARGET =
 
 export const IS_STAGING = TARGET === "staging";
 
-// A tab is live if we're in staging (everything) or it's been promoted to prod.
-export const isTabLive = (t: Tab): boolean => IS_STAGING || PROMOTED_TABS[t];
+// A tab is live only once it's been promoted — staging mirrors prod so what's
+// reviewed there matches what ships.
+export const isTabLive = (t: Tab): boolean => PROMOTED_TABS[t];
 
 const TAB_ORDER: Tab[] = ["home", "browse", "news", "saved"];
 export const LIVE_TABS: Tab[] = TAB_ORDER.filter(isTabLive);
