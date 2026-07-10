@@ -14003,6 +14003,16 @@ const quests = [
       "The central journey of Elden Ring: rise from a graveyard-bound Tarnished, defeat the demigod Shardbearers, and claim the Elden Throne.",
     aiTip:
       "Explore widely and level up before major bosses. The main path is gated by Great Runes, so tackle Godrick and Rennala early to open the route north.",
+    walkthrough: [
+      "Start at the Stranded Graveyard and reach the open world of Limgrave.",
+      "Unlock the Roundtable Hold hub after your first grace-guided steps.",
+      "Defeat the Shardbearers: Godrick, Rennala, Radahn, and Morgott.",
+      "Reach the Mountaintops of the Giants and defeat the Fire Giant.",
+      "Burn the Erdtree, then clear Crumbling Farum Azula and defeat Maliketh.",
+      "Return to the Ashen Capital and beat Godfrey and Morgott's echoes.",
+      "Face the final bosses, Radagon and the Elden Beast.",
+      "Choose your ending at the Elden Throne to become Elden Lord."
+    ],
     video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
   },
   {
@@ -14019,6 +14029,13 @@ const quests = [
       "Guide the timid Roderika from Stormhill Shack to Roundtable Hold, where she overcomes her grief and becomes the Spirit Tuner.",
     aiTip:
       "Deliver her chrysalids' memento to Blacksmith Hewg, then speak to both repeatedly across visits to unlock Spirit Ash upgrades.",
+    walkthrough: [
+      "Find Roderika at the Stormhill Shack near the start of Limgrave.",
+      "Exhaust her dialogue and encourage her to travel to the Roundtable Hold.",
+      "Deliver her chrysalids' memento to Blacksmith Hewg at the Roundtable.",
+      "Speak with both Roderika and Hewg again to nudge her past her grief.",
+      "Return across later visits until she becomes the Spirit Tuner and unlocks Spirit Ash upgrades."
+    ],
     video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
   },
   {
@@ -14035,6 +14052,13 @@ const quests = [
       "A sorcerer locked out of the Academy asks you to find him a Glintstone Key so he can return to his studies.",
     aiTip:
       "Grab a Glintstone Key from the dragon-guarded rise near the Academy, give it to Thops, then return later to find his fate and claim his gear.",
+    walkthrough: [
+      "Meet Thops at the Church of Irith in eastern Liurnia and hear his request for a Glintstone Key.",
+      "Collect a Glintstone Key from the dragon-guarded Gate Town Bridge rise near Raya Lucaria.",
+      "Return and hand the Glintstone Key to Thops so he can enter the Academy.",
+      "Progress the game, then travel to the Raya Lucaria Academy classroom.",
+      "Find Thops's remains there to claim Thops's Barrier sorcery and his Bell Bearing."
+    ],
     video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
   },
   {
