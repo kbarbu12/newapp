@@ -13990,6 +13990,353 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
   },
   {
+    id: 1011,
+    type: "main",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Become Elden Lord (Main Story)",
+    location: "The Lands Between (Limgrave to Farum Azula)",
+    length: "long",
+    difficulty: "High",
+    reward: "Elden Lord ending, Rune of the chosen ending",
+    summary:
+      "The central journey of Elden Ring: rise from a graveyard-bound Tarnished, defeat the demigod Shardbearers, and claim the Elden Throne.",
+    aiTip:
+      "Explore widely and level up before major bosses. The main path is gated by Great Runes, so tackle Godrick and Rennala early to open the route north.",
+    video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
+  },
+  {
+    id: 1012,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Roderika's Questline",
+    location: "Stormhill Shack, Roundtable Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit Ash tuning at Roundtable Hold",
+    summary:
+      "Guide the timid Roderika from Stormhill Shack to Roundtable Hold, where she overcomes her grief and becomes the Spirit Tuner.",
+    aiTip:
+      "Deliver her chrysalids' memento to Blacksmith Hewg, then speak to both repeatedly across visits to unlock Spirit Ash upgrades.",
+    video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
+  },
+  {
+    id: 1013,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Thops' Questline",
+    location: "Church of Irith, Raya Lucaria Academy",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thops's Barrier sorcery, Thops's Bell Bearing",
+    summary:
+      "A sorcerer locked out of the Academy asks you to find him a Glintstone Key so he can return to his studies.",
+    aiTip:
+      "Grab a Glintstone Key from the dragon-guarded rise near the Academy, give it to Thops, then return later to find his fate and claim his gear.",
+    video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
+  },
+  {
+    id: 1014,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Seluvis' Questline",
+    location: "Seluvis's Rise, Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Seluvis's Potion, Magic Scorpion Charm, puppet Spirit Ashes",
+    summary:
+      "The scheming sorcerer Seluvis entangles you in his puppet plots, tied closely to Ranni's and Nepheli's questlines.",
+    aiTip:
+      "His quest branches sharply — the potion he gives you can be used on Nepheli or given to Gideon. Decide carefully, as choices lock out rewards.",
+    walkthrough: [
+      "Reach Seluvis's Rise in Liurnia (accessible via Ranni's questline through Renna's Rise).",
+      "Accept his task to deliver Seluvis's Potion to Nepheli Loux.",
+      "Choose whether to puppet Nepheli, warn her, or hand the potion to Gideon instead.",
+      "Return to buy puppet Spirit Ashes from his stock at Seluvis's Rise.",
+      "Progress Ranni's questline; siding with Ranni ultimately ends Seluvis's scheme."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+  },
+  {
+    id: 1015,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Blaidd's Questline",
+    location: "Mistwood, Siofra River, Forlorn Hound Evergaol",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal Greatsword (after his fate), story progression",
+    summary:
+      "Ranni's loyal half-wolf shadow Blaidd aids you across the map, from Mistwood howls to the Radahn Festival, before a tragic end.",
+    aiTip:
+      "Free him from the Forlorn Hound Evergaol early and follow Ranni's quest — Blaidd's arc is bound to hers and can be missed if you rush.",
+    walkthrough: [
+      "Howl at the Mistwood ruins after speaking to Kalé, or free Blaidd from the Forlorn Hound Evergaol.",
+      "Meet him again in the Siofra River and receive his help hints for Ranni's quest.",
+      "Fight alongside him at the Radahn Festival in Redmane Castle.",
+      "Continue Ranni's questline through Nokron and beyond.",
+      "Return to Ranni's Rise near the end to confront the maddened Blaidd and claim his gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+  },
+  {
+    id: 1016,
+    type: "side",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Bernahl's Questline",
+    location: "Warmaster's Shack, Volcano Manor, Farum Azula",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Devourer's Scepter, Beast Champion armor set",
+    summary:
+      "The Recusant Bernahl teaches Ashes of War before recruiting you into Volcano Manor's assassination schemes and a final duel in Farum Azula.",
+    aiTip:
+      "Buy his Ashes of War at Warmaster's Shack early. His arc concludes as an endgame invasion — don't skip past Farum Azula without triggering it.",
+    walkthrough: [
+      "Meet Bernahl at the Warmaster's Shack in Limgrave and buy Ashes of War.",
+      "Join Volcano Manor and find Bernahl there among the recusants.",
+      "Complete Volcano Manor assassination contracts alongside the questline.",
+      "Travel to Crumbling Farum Azula late in the game.",
+      "Answer his invasion sign and defeat him to claim the Devourer's Scepter."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+  },
+  {
+    id: 1017,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Gurranq, Beast Clergyman",
+    location: "Bestial Sanctum, Caelid",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Beast-based incantations, Ash of War: Determination, Clawmark Seal",
+    summary:
+      "Feed Deathroot to the ravenous Beast Clergyman Gurranq to unlock powerful beast incantations and rare rewards.",
+    aiTip:
+      "Use the teleporter trap in eastern Limgrave to reach the Bestial Sanctum early. Back off when Gurranq turns hostile after feedings, then continue.",
+    walkthrough: [
+      "Reach the Bestial Sanctum in northern Caelid (fastest via the Limgrave teleporter trap).",
+      "Speak with Gurranq and hand over your first Deathroot.",
+      "When he becomes aggressive, retreat or survive until he calms, then talk again.",
+      "Collect Deathroot from dungeon and boss drops across the Lands Between.",
+      "Deliver all nine Deathroot to exhaust his rewards, including the Beast Eye and Clawmark Seal."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
+  },
+  {
+    id: 1018,
+    type: "side",
+    game: "Elden Ring",
+    region: "Haligtree",
+    title: "Jar Bairn's Questline",
+    location: "Jarburg, Liurnia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion Jar talisman, Ash of War: Lightning Ram",
+    summary:
+      "A gentle living jar in Jarburg dreams of becoming a great pot, tied to Diallos's and Iron Fist Alexander's arcs.",
+    aiTip:
+      "Visit Jarburg repeatedly and progress Diallos's Volcano Manor thread — Jar Bairn's ending depends on advising him after Diallos falls.",
+    walkthrough: [
+      "Travel to Jarburg in eastern Liurnia and speak with Jar Bairn.",
+      "Talk to Diallos, who has come to protect the village.",
+      "Return after major story progress to find the village attacked and Diallos wounded.",
+      "Advise Jar Bairn about his future when prompted in dialogue.",
+      "Continue visiting to receive the Companion Jar talisman and Lightning Ram."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+  },
+  {
+    id: 1019,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Shabriri & the Frenzied Flame",
+    location: "Frenzied Flame Village, Subterranean Shunning-Grounds",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Path to the Lord of Frenzied Flame ending",
+    summary:
+      "The malevolent Shabriri, disguised as Yura, steers you toward embracing the Frenzied Flame and its world-ending ending.",
+    aiTip:
+      "This locks you into the Frenzied Flame ending unless reversed via Miquella's Needle. Warn: it overrides other endings until cured.",
+    walkthrough: [
+      "Progress Yura's questline until Shabriri possesses his body in the Zamor Ruins area.",
+      "Speak with Shabriri, who directs you to the Frenzied Flame Proscription.",
+      "Descend the Subterranean Shunning-Grounds to the Frenzied Flame Proscription door.",
+      "Remove all armor and touch the Three Fingers to accept the Frenzied Flame.",
+      "This sets the Lord of Frenzied Flame ending — reverse it later with Miquella's Needle if desired."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
+  },
+  {
+    id: 1020,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Sir Ansbach's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ansbach's armor set, Nail-Bracelet Talisman, endgame support",
+    summary:
+      "A loyal servant of Mohg who now follows Miquella's trail, Sir Ansbach aids you through Shadow of the Erdtree's finale.",
+    aiTip:
+      "Track Miquella's crosses and speak with Ansbach at each Shadow Keep visit. His fate depends on how St. Trina's and Leda's threads resolve.",
+    walkthrough: [
+      "Meet Sir Ansbach in the Shadow Keep's Storehouse, disguised among the servants.",
+      "Follow Miquella's crosses across the Land of Shadow, reporting back as the story advances.",
+      "Deliver information about Miquella's true plan when he asks.",
+      "Side with him during the Needle Knight Leda companions' confrontation.",
+      "Reach the final boss arena, where Ansbach's summon sign aids you if he survives."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
+  },
+  {
+    id: 1021,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Hornsent & Grandam (DLC)",
+    location: "Belurat, Enir-Ilim, Land of Shadow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unique gestures and lore rewards",
+    summary:
+      "The vengeful Hornsent and the mysterious Grandam share a linked storyline about the shamans and the crucible of the Hornsent people.",
+    aiTip:
+      "Speak to Grandam in Bonny Village between Hornsent's appearances — her cryptic hints and his revenge arc unfold together across the DLC.",
+    walkthrough: [
+      "Meet Hornsent early after entering the Land of Shadow near Belurat.",
+      "Find Grandam seated in Bonny Village and exhaust her dialogue.",
+      "Progress toward Shadow Keep, meeting Hornsent again at key sites.",
+      "Return to Grandam after major bosses for further lore and gestures.",
+      "Follow Hornsent to Enir-Ilim to resolve his vengeance at the tower's summit."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
+  },
+  {
+    id: 1022,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Ymir & Jolán (DLC)",
+    location: "Church of the Bud, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Finger-based sorceries, boss fight against Ymir",
+    summary:
+      "Mother Church sage Ymir and his attendant Jolán guide a magic-focused questline that unravels into a hidden boss encounter.",
+    aiTip:
+      "Buy his sorceries and follow Jolán's leads. Ymir's quest branches into a fight — keep Jolán's thread alive for the full resolution.",
+    walkthrough: [
+      "Meet Ymir at the Church of the Bud in Scadu Altus and purchase sorceries.",
+      "Accept his tasks and speak with his attendant Jolán.",
+      "Follow the map markers to the two Fingers he sends you to investigate.",
+      "Return to trigger the confrontation and defeat Ymir, Mother of Fingers' would-be heir.",
+      "Complete Jolán's follow-up to conclude the questline and claim its rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
+  },
+  {
+    id: 1023,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Igon & the Dragon Priestess (DLC)",
+    location: "Jagged Peak, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Aid against Bayle, dragon communion rewards",
+    summary:
+      "The dragon-hunter Igon's fury against Bayle the Dread and the Dragon Priestess's rites drive a questline of dragon transformation rewards.",
+    aiTip:
+      "Summon Igon for the Bayle fight — his impassioned battle cries mark the arc's climax. Complete dragon communion at the Priestess's altar afterward.",
+    walkthrough: [
+      "Find the wounded Igon along the path up the Jagged Peak.",
+      "Read his messages and progress toward Bayle's lair.",
+      "Summon Igon at the fog wall before Bayle the Dread and defeat the dragon together.",
+      "Speak with the Dragon Priestess to access dragon communion incantations.",
+      "Offer Dragon Hearts at the altar to claim the DLC's dragon rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
+  },
+  {
+    id: 1024,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Moore's Questline (DLC)",
+    location: "Gravesite Plain, Land of Shadow",
+    length: "short",
+    difficulty: "Low",
+    reward: "Aged One's Exultation talisman",
+    summary:
+      "A soft-spoken merchant met early in the Land of Shadow, Moore's short arc rewards revisiting him as the story unfolds.",
+    aiTip:
+      "Note his changing location and mood after major DLC bosses — speaking to him each time is needed to reach his questline's end.",
+    walkthrough: [
+      "Meet Moore near the Gravesite Plain shortly after entering the Land of Shadow.",
+      "Buy from his stock and exhaust his dialogue.",
+      "Return after progressing the DLC to find him relocated.",
+      "Continue talking across visits as his outlook darkens.",
+      "Resolve his final encounter to obtain the Aged One's Exultation talisman."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
+  },
+  {
+    id: 1025,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Queelign's Questline (DLC)",
+    location: "Fire Knights' sites, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fire Knight incantations, unique gear",
+    summary:
+      "The zealous Fire Knight Queelign hunts the impure across the Land of Shadow before a final duel decides his fate.",
+    aiTip:
+      "Give him the Fire Knight's Prayerbook to unlock incantations, then meet him where he invades to complete the arc.",
+    walkthrough: [
+      "Encounter Queelign preaching at Belurat or the Church District.",
+      "Locate the Fire Knight's Prayerbook and hand it to him.",
+      "Purchase his fire incantations from his stock.",
+      "Travel onward until he appears as an invader.",
+      "Defeat Queelign in his final duel to complete the questline."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
+  },
+  {
+    id: 1026,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Freyja's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Companionship, endgame summon support",
+    summary:
+      "One of Miquella's followers among Leda's companions, Freyja's arc weaves through the group's growing conflict in the Land of Shadow.",
+    aiTip:
+      "Speak with Freyja at each Shadow Keep rest and track how the companions turn on one another — her survival hinges on the choices you make.",
+    walkthrough: [
+      "Meet Freyja among Leda's companions after reaching the Shadow Keep.",
+      "Talk to her at rest sites as the group discusses Miquella's path.",
+      "Follow the companions' storyline through the mounting tension.",
+      "Take sides during the companions' final confrontation.",
+      "If she survives, summon Freyja for support in the DLC's climactic battle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
+  },
+  {
     id: 829,
     type: "side",
     game: "Black Myth: Wukong",
