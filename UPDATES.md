@@ -1,3 +1,50 @@
+# Update — FF7 Rebirth Missing Odd Jobs & New-Entry Walkthrough Rule
+
+**Date:** 2026-07-10
+**Branch:** `claude/game-dev-clarification-v1zjky`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Reconciled an uploaded FF7 Rebirth quest DOCX against the database, added only
+the entries that were genuinely missing (with real data, not the DOCX's
+placeholder templates), gave them real walkthrough videos, and codified a rule
+for future entries.
+
+## What was added
+- **Two FF7 Rebirth side quests (Odd Jobs)** added to
+  `ps5-rpg-sidequest-summarizer/data/quests.js` — the single source of truth:
+  - **Gold Cup or Bust** (Corel / Gold Saucer) — win the Gold Cup chocobo race
+    for Billy; reward Chocoking's Cape. Video:
+    `youtube.com/watch?v=B8oUhHkOKak`.
+  - **Escape from Endless Writer's Block** (Gongaga) — photograph Red XIII for
+    the author Maeve. Video: `youtube.com/watch?v=pIsaVCnmNNo`.
+  - FF7 Rebirth now has 74 quests.
+
+## Why nothing else from the DOCX was imported
+- The uploaded `FF7_Rebirth_Quest_Database.docx` ("DOCX 2.0") duplicated a game
+  already fully in the database: all 14 main quests and 47 of 49 side quests
+  already existed, with richer data than the DOCX (real summaries, tips,
+  rewards, videos vs. the DOCX's identical "Add YouTube link here" templates).
+- Per user direction, existing entries were left untouched and only the two
+  truly missing titles were added — avoiding duplicates and avoiding
+  overwriting good data with placeholders.
+
+## Process change
+- **New rule in `CLAUDE.md` ("Quest data entries"):** every new quest entry must
+  have a walkthrough. Check for a real `youtube.com/watch?v=…` video first (a
+  `results?search_query=…` search URL does **not** count); if there's no real
+  video, add a step-by-step `walkthrough: [ … ]` array instead.
+
+## Verified
+- `redesign/scripts/gen-data.mjs` regenerates cleanly (no syntax errors); both
+  new videos pass the real-video filter and register in the "With Video" stat.
+- No duplicate IDs.
+
+## Deployment
+- Shipped to `staging`, then promoted `staging` → `main` (live).
+
+---
+
 # Update — Redesign, Staging Environment & Walkthrough Expansion
 
 **Date:** 2026-07-06
