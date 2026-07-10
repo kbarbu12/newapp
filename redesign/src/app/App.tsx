@@ -273,6 +273,8 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
               {quest.type==="main"?<Star size={8}/>:<BookOpen size={8}/>}{quest.type==="main"?"Main":"Side"}
             </Pill>
             <DifficultyChip level={quest.difficulty}/>
+            {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
+            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
             <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
           </div>
         </div>
