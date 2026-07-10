@@ -14,6 +14,11 @@ const gameImages = {
     abbr: "FF7R",
     cover: "images/ff7-rebirth-cover.jpg"
   },
+  "Final Fantasy VII Remake": {
+    gradient: "linear-gradient(135deg, #05140d 0%, #0f766e 50%, #34d399 100%)",
+    abbr: "FF7RE",
+    cover: "images/ff7-remake-cover.webp"
+  },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
     abbr: "CP77",
@@ -161,6 +166,19 @@ const subFilterConfig = {
       { value: "Gongaga", text: "Gongaga" },
       { value: "Cosmo Canyon", text: "Cosmo Canyon" },
       { value: "Nibel", text: "Nibel" }
+    ]
+  },
+  "Final Fantasy VII Remake": {
+    field: "region",
+    label: "Area",
+    options: [
+      { value: "Sector 7 Slums", text: "Sector 7 Slums" },
+      { value: "Sector 5 Slums", text: "Sector 5 Slums" },
+      { value: "Wall Market", text: "Wall Market" },
+      { value: "Reactors & Upper Plate", text: "Reactors & Upper Plate" },
+      { value: "Sewers & Graveyard", text: "Sewers & Train Graveyard" },
+      { value: "Shinra HQ & Midgar", text: "Shinra HQ & Midgar" },
+      { value: "Intermission", text: "The Intermission (DLC)" }
     ]
   },
   "God of War Ragnarök": {
@@ -13603,6 +13621,14 @@ const quests = [
       "Infiltrate Godrick the Grafted's fortress, Stormveil Castle, choosing the main gate or the sewer path.",
     aiTip:
       "Recruit Nepheli Loux and use the Rusty Key's side route to skip the deadly courtyard.",
+    walkthrough: [
+      "Defeat Margit the Fell Omen at the bridge to open the main gate.",
+      "Choose your entry: the front gate gauntlet or the sewer path on the cliffside to the right.",
+      "Rest at the Stormveil Cliffside grace and grab the Rusty Key to unlock the side courtyard route.",
+      "Work up through the ramparts, clearing the giant and archers rather than rushing the trapped courtyard.",
+      "Find and summon Nepheli Loux near the throne room before the boss fog gate.",
+      "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the dungeon."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
   },
   {
@@ -13619,6 +13645,13 @@ const quests = [
       "Breach the sorcerers' Academy of Raya Lucaria to reach Rennala, Queen of the Full Moon.",
     aiTip:
       "Grab the Glintstone Key to open the gate — the rooftop route hides valuable loot.",
+    walkthrough: [
+      "Cross into Liurnia and approach the Academy of Raya Lucaria gate.",
+      "Retrieve the Academy Glintstone Key (from the dragon-topped turtle at Church of Vows) and use the sealing to enter.",
+      "Rest at the first grace, then take the rooftop route right to loot the hidden gear and shortcuts.",
+      "Fight down through the debate parlor and library to the Rennala fog gate.",
+      "Defeat Rennala, Queen of the Full Moon, to claim her Great Rune and unlock respeccing."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
   },
   {
@@ -13635,6 +13668,13 @@ const quests = [
       "Complete the Volcano Manor and slay the serpent-god Rykard with the Serpent-Hunter greatspear.",
     aiTip:
       "The Serpent-Hunter weapon by the arena trivializes the fight — use it and stagger him.",
+    walkthrough: [
+      "Reach Volcano Manor in the Altus region and accept Lady Tanith's invitation.",
+      "Work through the manor's contract questline and lava-tunnel gauntlet to reach Rykard's arena.",
+      "Pick up the Serpent-Hunter greatspear lying just before the fog gate.",
+      "Enter the fight and rely on the Serpent-Hunter's ranged sweeps to build stagger.",
+      "Stagger Rykard, Lord of Blasphemy, and finish him for his Great Rune and the Blasphemous Blade."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
   },
   {
@@ -13651,6 +13691,13 @@ const quests = [
       "Best the bloated Godskin Noble in the Temple of Eiglay and other haunts of the Godskin Apostles.",
     aiTip:
       "Its rolling attack is punishing — stay close and punish the recovery.",
+    walkthrough: [
+      "Travel to the Temple of Eiglay within Volcano Manor.",
+      "Clear the path to the Godskin Noble's chamber and rest at the nearby grace.",
+      "Stay close during his rolling body-slam and dodge into it rather than away.",
+      "Punish the recovery after each roll and belly-flop to whittle his health.",
+      "Defeat the Godskin Noble to claim the Godskin gear and continue the region."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
   },
   {
@@ -13667,6 +13714,13 @@ const quests = [
       "Defeat the hidden echo of Godrick, Godefroy the Grafted, in the Golden Lineage evergaol.",
     aiTip:
       "A tougher reprise of Godrick — bleed and stance-breaks work well.",
+    walkthrough: [
+      "Head to the Golden Lineage Evergaol on the Altus Plateau.",
+      "Activate the evergaol to be pulled into Godefroy's arena.",
+      "Treat him as a tougher Godrick reprise — bait the wind and axe combos.",
+      "Apply bleed or repeated stance-breaks to open big punish windows.",
+      "Defeat Godefroy the Grafted for his runes and lineage lore."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
   },
   {
@@ -13683,6 +13737,13 @@ const quests = [
       "Overcome Commander Niall and his spectral knights atop Castle Sol to claim the Haligtree medallion half.",
     aiTip:
       "Kill the two summoned knights first, then focus Niall — a very tough optional fight.",
+    walkthrough: [
+      "Reach Castle Sol in the Mountaintops of the Giants and fight to the summit.",
+      "Rest at the grace before the boss and top up your flasks.",
+      "At the start of the fight, focus down the two summoned spectral knights first.",
+      "With the adds cleared, bait Niall's cannon-arm and greatshield combos and punish gaps.",
+      "Defeat Commander Niall to claim the Haligtree Secret Medallion (Left)."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
   },
   {
@@ -13699,6 +13760,13 @@ const quests = [
       "Enter Fia's dream to battle the Lichdragon Fortissax and complete the Deathbed Companion's arc.",
     aiTip:
       "Lightning resistance helps enormously; finish Fia's quest to earn a unique ending item.",
+    walkthrough: [
+      "Progress Fia's questline at the Roundtable Hold until she offers her embrace request.",
+      "Complete the Deathbed Companion steps to reach Deeproot Depths.",
+      "Rest at Fia's side and enter her dream to start the Fortissax fight.",
+      "Equip lightning-resistant gear and stay under the dragon to avoid its beams.",
+      "Defeat Lichdragon Fortissax to finish Fia's arc and earn the Cursemark of Death."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
   },
   {
@@ -13715,6 +13783,13 @@ const quests = [
       "Track the glowing trail through the Nokron/Siofra depths to the majestic Regal Ancestor Spirit.",
     aiTip:
       "Light the braziers around the arena to reveal the boss and land hits.",
+    walkthrough: [
+      "Descend into the Siofra/Nokron Eternal City depths.",
+      "Follow the glowing ancestral trail of spectral deer to the boss arena.",
+      "Light the braziers ringing the arena to make the Regal Ancestor Spirit visible.",
+      "With the boss lit, focus its head and legs while dodging the antler charges.",
+      "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
   },
   {
@@ -13731,6 +13806,13 @@ const quests = [
       "Aid the bloody-finger hunter Yura against invaders and the maiden Eleonora across the Lands Between.",
     aiTip:
       "Answer his summons at Murkwater Cave and the Second Church of Marika to see his tale through.",
+    walkthrough: [
+      "Answer Yura's first summon sign outside Murkwater Cave in Limgrave.",
+      "Aid him against the invader, then meet him again near the Second Church of Marika.",
+      "Continue answering his summons as his hunt for Eleonora unfolds.",
+      "Support Yura through his final confrontation to see his tale through.",
+      "Complete the arc to inherit the Nagakiba and his anti-invader legacy."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
   },
   {
@@ -13747,6 +13829,13 @@ const quests = [
       "Help the archer Latenna reach the Lands of the Albinaurics and honor her wolf-bound pact.",
     aiTip:
       "Her questline yields a Haligtree medallion half and a strong summon.",
+    walkthrough: [
+      "Find Latenna in the Slumbering Wolf's Shack in western Liurnia.",
+      "Agree to carry her to the Lands of the Albinaurics.",
+      "Travel to the Consecrated Snowfield's Apostate Derelict and interact with her spirit there.",
+      "Complete her pact to honor her wolf-bound vow.",
+      "Receive the Haligtree Secret Medallion (Right) and the Latenna Spirit Ash."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
   },
   {
@@ -13763,6 +13852,13 @@ const quests = [
       "Follow the hapless noble Diallos through grief and the assassin's contracts of Volcano Manor.",
     aiTip:
       "His arc intersects Jarburg and the manor — check in across your playthrough.",
+    walkthrough: [
+      "Meet Diallos at the Roundtable Hold and again at Volcano Manor.",
+      "Follow his assassination-contract steps alongside the manor questline.",
+      "Check in on him at Jarburg as he grieves and searches for purpose.",
+      "See his story through its bittersweet confrontation.",
+      "Complete Diallos's arc for his fate and Hoslow's gear connections."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
   },
   {
@@ -13779,6 +13875,13 @@ const quests = [
       "Aid the sorcerer Gowry and the rot-stricken Millicent, choosing whether to help or hinder her sisters.",
     aiTip:
       "One of the most involved quests — the Haligtree finale rewards a unique talisman.",
+    walkthrough: [
+      "Speak with Gowry in his shack near Sellia, Caelid, and deliver the Unalloyed Gold Needle to be repaired.",
+      "Give the repaired needle to Millicent to halt her scarlet rot.",
+      "Follow Millicent's journey from Caelid to the Erdtree-adjacent regions.",
+      "At the Haligtree, choose whether to aid Millicent against her sisters or hinder her.",
+      "Complete the arc for the unique talisman reward and rot questline conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
   },
   {
@@ -13795,6 +13898,13 @@ const quests = [
       "Return the noblewoman Rya's necklace and follow her into the intrigues of Volcano Manor.",
     aiTip:
       "Her arc opens the Volcano Manor questline and its assassination contracts.",
+    walkthrough: [
+      "Meet Rya at the Scenic Isle in Liurnia and recover her stolen necklace.",
+      "Return the necklace to learn her true nature and role at Volcano Manor.",
+      "Follow her to Volcano Manor and accept Lady Tanith's invitation.",
+      "Take on the manor's assassination contracts she helps arrange.",
+      "Advance her arc into the deeper Volcano Manor intrigues and Zorayas's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
   },
   {
@@ -13811,6 +13921,13 @@ const quests = [
       "Help the exiled lord Kenneth Haight reclaim Fort Haight and restore a fragment of order.",
     aiTip:
       "A short early questline that connects to Nepheli Loux's story.",
+    walkthrough: [
+      "Find Kenneth Haight on the ruins overlooking eastern Limgrave.",
+      "Agree to help him retake Fort Haight to the south.",
+      "Clear the enemies occupying Fort Haight.",
+      "Report back to Kenneth so he can reclaim the fort.",
+      "Complete the short arc to gain an ally and its link to Nepheli Loux's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
   },
   {
@@ -13827,6 +13944,13 @@ const quests = [
       "Answer Miquella's call through Mohg's arena into the Land of Shadow and begin gathering Scadutree Fragments.",
     aiTip:
       "Scadutree Fragments are the DLC's key power scaling — collect them before every major boss.",
+    walkthrough: [
+      "Defeat Mohg, Lord of Blood at Mohgwyn Palace to access his arena.",
+      "Interact with the withered arm in Mohg's arena to be drawn into the Land of Shadow.",
+      "Rest at the first Gravesite Plain grace and get your bearings.",
+      "Begin collecting Scadutree Fragments scattered across the map.",
+      "Spend fragments at any grace to raise your Scadutree Blessing before major bosses."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
   },
   {
@@ -13843,6 +13967,13 @@ const quests = [
       "Face the Divine Beast Dancing Lion atop Belurat, Tower Settlement — the DLC's first great hurdle.",
     aiTip:
       "Its element shifts (wind, frost, lightning) mid-fight; watch the mask to read the next phase.",
+    walkthrough: [
+      "Enter Belurat, Tower Settlement from the Gravesite Plain.",
+      "Fight up through the settlement to the rooftop arena and rest at the grace.",
+      "Watch the Dancing Lion's mask to read its wind, frost, and lightning phases.",
+      "Dodge through the spinning attacks and punish after each elemental burst.",
+      "Defeat the Divine Beast Dancing Lion for its Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
   },
   {
@@ -13859,6 +13990,13 @@ const quests = [
       "Duel Rellana, Twin Moon Knight, guarding the pass beyond Castle Ensis.",
     aiTip:
       "A fast, aggressive duelist — learn her dual-moon combo and punish the recovery.",
+    walkthrough: [
+      "Make your way through Castle Ensis to the pass beyond it.",
+      "Rest at the grace before Rellana's fog gate.",
+      "Learn her dual-moon combo — bait the twin-blade flurry and the moon projectiles.",
+      "Dodge late into her combos and punish the long recovery.",
+      "Defeat Rellana, Twin Moon Knight, to clear the pass and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
   },
   {
@@ -13875,6 +14013,13 @@ const quests = [
       "Storm the Shadow Keep and defeat Messmer the Impaler, the fire-and-serpent scion.",
     aiTip:
       "His second phase adds serpents and impaling spears — fire resistance and patience are key.",
+    walkthrough: [
+      "Reach the Shadow Keep and fight through to Messmer's tower.",
+      "Rest at the grace and equip fire-resistant gear.",
+      "In phase one, punish the gaps in his flame and spear combos.",
+      "In phase two, watch for the serpents and impaling spears and keep your distance when they rise.",
+      "Defeat Messmer the Impaler to open the Shadow Keep and earn his Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
   },
   {
@@ -13891,6 +14036,13 @@ const quests = [
       "Descend the Jagged Peak with Igon to slay the ancient dragon Bayle the Dread.",
     aiTip:
       "Igon's summon and spear buff help enormously — do his questline first.",
+    walkthrough: [
+      "Complete Igon's questline so he will aid you against Bayle.",
+      "Descend the Jagged Peak to Bayle's lair and rest at the grace.",
+      "Summon Igon and apply his dragon-spear buff at the start of the fight.",
+      "Stay under Bayle's body to avoid the fire breath and lightning slams.",
+      "Slay Bayle the Dread for his Remembrance and dragon communion reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
   },
   {
@@ -13907,6 +14059,13 @@ const quests = [
       "Delve into Midra's Manse to confront the tragic Lord of Frenzied Flame.",
     aiTip:
       "Madness resistance and a steady approach keep the Frenzied Flame from overwhelming you.",
+    walkthrough: [
+      "Find the entrance to Midra's Manse in the Abyssal Woods.",
+      "Move quietly through the Manse to avoid drawing the frenzied enemies.",
+      "Rest at the grace and equip madness-resistant gear before the fight.",
+      "Keep pressure on Midra while dodging the Frenzied Flame beams that build madness.",
+      "Defeat Midra, Lord of Frenzied Flame, for his Remembrance and lore."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
   },
   {
@@ -13923,6 +14082,13 @@ const quests = [
       "Follow Count Ymir's questline to the Finger Ruins and the cosmic horror Metyr, Mother of Fingers.",
     aiTip:
       "A ranged-heavy boss — close distance during her beam attacks and punish between casts.",
+    walkthrough: [
+      "Complete Count Ymir's questline at the Church of the Bud/Cathedral of Manus Metyr.",
+      "Follow the trail to the Finger Ruins and the path to Metyr.",
+      "Rest at the grace before her arena.",
+      "Close the distance during her beam and finger-rain casts and punish between them.",
+      "Defeat Metyr, Mother of Fingers, to finish Ymir's arc and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
   },
   {
@@ -13939,6 +14105,13 @@ const quests = [
       "Best Romina, Saint of the Bud, guarding the Church of the Bud on the way to Enir-Ilim.",
     aiTip:
       "Scarlet rot buildup is deadly here — bring cleansing items and rot resistance.",
+    walkthrough: [
+      "Travel toward Enir-Ilim and reach the Church of the Bud.",
+      "Rest at the grace and bring rot-cleansing items and rot-resistant gear.",
+      "Dodge Romina's spear thrusts and butterfly swarms to limit scarlet rot buildup.",
+      "Cure rot immediately if the meter fills, then resume pressure.",
+      "Defeat Romina, Saint of the Bud, to open the path to Enir-Ilim and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
   },
   {
@@ -13955,6 +14128,13 @@ const quests = [
       "At Enir-Ilim, confront Radahn, Consort of Miquella — the climax of Shadow of the Erdtree.",
     aiTip:
       "The hardest fight in the game; max your Scadutree Blessing and bring a strong summon.",
+    walkthrough: [
+      "Reach the summit of Enir-Ilim and rest at the final grace.",
+      "Max out your Scadutree Blessing and bring a strong Spirit Ash summon.",
+      "In phase one, hug Radahn and dodge into his gravity slams and cross-slashes.",
+      "In phase two, weather Miquella's light storm and punish the brief openings after his combos.",
+      "Defeat Promised Consort Radahn to complete Shadow of the Erdtree."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
   },
   {
@@ -13971,6 +14151,13 @@ const quests = [
       "Navigate the shifting loyalties of Leda's band — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
     aiTip:
       "Their allegiances split near the end; your choices decide who invades and who aids you.",
+    walkthrough: [
+      "Meet Leda and her companions across the Land of Shadow's graces.",
+      "Advance each companion's dialogue — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
+      "Make your choices as their loyalties begin to split near Enir-Ilim.",
+      "Survive the invasions triggered by the fractured band.",
+      "Resolve Leda's questline to determine who aids you and who turns hostile."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
   },
   {
@@ -13987,7 +14174,385 @@ const quests = [
       "Follow the melancholic Thiollier to the slumbering St. Trina hidden in the Land of Shadow.",
     aiTip:
       "A quiet, lore-rich side arc that rewards patience and exploration.",
+    walkthrough: [
+      "Find Thiollier among Leda's companions and progress his dialogue.",
+      "Follow his search for St. Trina across the Land of Shadow.",
+      "Explore to the hidden location where St. Trina slumbers.",
+      "Complete Thiollier's steps at St. Trina's resting place.",
+      "Finish the arc for its sleep-themed conclusion and unique reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
+  },
+  {
+    id: 1011,
+    type: "main",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Become Elden Lord (Main Story)",
+    location: "The Lands Between (Limgrave to Farum Azula)",
+    length: "long",
+    difficulty: "High",
+    reward: "Elden Lord ending, Rune of the chosen ending",
+    summary:
+      "The central journey of Elden Ring: rise from a graveyard-bound Tarnished, defeat the demigod Shardbearers, and claim the Elden Throne.",
+    aiTip:
+      "Explore widely and level up before major bosses. The main path is gated by Great Runes, so tackle Godrick and Rennala early to open the route north.",
+    walkthrough: [
+      "Start at the Stranded Graveyard and reach the open world of Limgrave.",
+      "Unlock the Roundtable Hold hub after your first grace-guided steps.",
+      "Defeat the Shardbearers: Godrick, Rennala, Radahn, and Morgott.",
+      "Reach the Mountaintops of the Giants and defeat the Fire Giant.",
+      "Burn the Erdtree, then clear Crumbling Farum Azula and defeat Maliketh.",
+      "Return to the Ashen Capital and beat Godfrey and Morgott's echoes.",
+      "Face the final bosses, Radagon and the Elden Beast.",
+      "Choose your ending at the Elden Throne to become Elden Lord."
+    ],
+    video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
+  },
+  {
+    id: 1012,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Roderika's Questline",
+    location: "Stormhill Shack, Roundtable Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit Ash tuning at Roundtable Hold",
+    summary:
+      "Guide the timid Roderika from Stormhill Shack to Roundtable Hold, where she overcomes her grief and becomes the Spirit Tuner.",
+    aiTip:
+      "Deliver her chrysalids' memento to Blacksmith Hewg, then speak to both repeatedly across visits to unlock Spirit Ash upgrades.",
+    walkthrough: [
+      "Find Roderika at the Stormhill Shack near the start of Limgrave.",
+      "Exhaust her dialogue and encourage her to travel to the Roundtable Hold.",
+      "Deliver her chrysalids' memento to Blacksmith Hewg at the Roundtable.",
+      "Speak with both Roderika and Hewg again to nudge her past her grief.",
+      "Return across later visits until she becomes the Spirit Tuner and unlocks Spirit Ash upgrades."
+    ],
+    video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
+  },
+  {
+    id: 1013,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Thops' Questline",
+    location: "Church of Irith, Raya Lucaria Academy",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thops's Barrier sorcery, Thops's Bell Bearing",
+    summary:
+      "A sorcerer locked out of the Academy asks you to find him a Glintstone Key so he can return to his studies.",
+    aiTip:
+      "Grab a Glintstone Key from the dragon-guarded rise near the Academy, give it to Thops, then return later to find his fate and claim his gear.",
+    walkthrough: [
+      "Meet Thops at the Church of Irith in eastern Liurnia and hear his request for a Glintstone Key.",
+      "Collect a Glintstone Key from the dragon-guarded Gate Town Bridge rise near Raya Lucaria.",
+      "Return and hand the Glintstone Key to Thops so he can enter the Academy.",
+      "Progress the game, then travel to the Raya Lucaria Academy classroom.",
+      "Find Thops's remains there to claim Thops's Barrier sorcery and his Bell Bearing."
+    ],
+    video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
+  },
+  {
+    id: 1014,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Seluvis' Questline",
+    location: "Seluvis's Rise, Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Seluvis's Potion, Magic Scorpion Charm, puppet Spirit Ashes",
+    summary:
+      "The scheming sorcerer Seluvis entangles you in his puppet plots, tied closely to Ranni's and Nepheli's questlines.",
+    aiTip:
+      "His quest branches sharply — the potion he gives you can be used on Nepheli or given to Gideon. Decide carefully, as choices lock out rewards.",
+    walkthrough: [
+      "Reach Seluvis's Rise in Liurnia (accessible via Ranni's questline through Renna's Rise).",
+      "Accept his task to deliver Seluvis's Potion to Nepheli Loux.",
+      "Choose whether to puppet Nepheli, warn her, or hand the potion to Gideon instead.",
+      "Return to buy puppet Spirit Ashes from his stock at Seluvis's Rise.",
+      "Progress Ranni's questline; siding with Ranni ultimately ends Seluvis's scheme."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+  },
+  {
+    id: 1015,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Blaidd's Questline",
+    location: "Mistwood, Siofra River, Forlorn Hound Evergaol",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal Greatsword (after his fate), story progression",
+    summary:
+      "Ranni's loyal half-wolf shadow Blaidd aids you across the map, from Mistwood howls to the Radahn Festival, before a tragic end.",
+    aiTip:
+      "Free him from the Forlorn Hound Evergaol early and follow Ranni's quest — Blaidd's arc is bound to hers and can be missed if you rush.",
+    walkthrough: [
+      "Howl at the Mistwood ruins after speaking to Kalé, or free Blaidd from the Forlorn Hound Evergaol.",
+      "Meet him again in the Siofra River and receive his help hints for Ranni's quest.",
+      "Fight alongside him at the Radahn Festival in Redmane Castle.",
+      "Continue Ranni's questline through Nokron and beyond.",
+      "Return to Ranni's Rise near the end to confront the maddened Blaidd and claim his gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+  },
+  {
+    id: 1016,
+    type: "side",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Bernahl's Questline",
+    location: "Warmaster's Shack, Volcano Manor, Farum Azula",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Devourer's Scepter, Beast Champion armor set",
+    summary:
+      "The Recusant Bernahl teaches Ashes of War before recruiting you into Volcano Manor's assassination schemes and a final duel in Farum Azula.",
+    aiTip:
+      "Buy his Ashes of War at Warmaster's Shack early. His arc concludes as an endgame invasion — don't skip past Farum Azula without triggering it.",
+    walkthrough: [
+      "Meet Bernahl at the Warmaster's Shack in Limgrave and buy Ashes of War.",
+      "Join Volcano Manor and find Bernahl there among the recusants.",
+      "Complete Volcano Manor assassination contracts alongside the questline.",
+      "Travel to Crumbling Farum Azula late in the game.",
+      "Answer his invasion sign and defeat him to claim the Devourer's Scepter."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+  },
+  {
+    id: 1017,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Gurranq, Beast Clergyman",
+    location: "Bestial Sanctum, Caelid",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Beast-based incantations, Ash of War: Determination, Clawmark Seal",
+    summary:
+      "Feed Deathroot to the ravenous Beast Clergyman Gurranq to unlock powerful beast incantations and rare rewards.",
+    aiTip:
+      "Use the teleporter trap in eastern Limgrave to reach the Bestial Sanctum early. Back off when Gurranq turns hostile after feedings, then continue.",
+    walkthrough: [
+      "Reach the Bestial Sanctum in northern Caelid (fastest via the Limgrave teleporter trap).",
+      "Speak with Gurranq and hand over your first Deathroot.",
+      "When he becomes aggressive, retreat or survive until he calms, then talk again.",
+      "Collect Deathroot from dungeon and boss drops across the Lands Between.",
+      "Deliver all nine Deathroot to exhaust his rewards, including the Beast Eye and Clawmark Seal."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
+  },
+  {
+    id: 1018,
+    type: "side",
+    game: "Elden Ring",
+    region: "Haligtree",
+    title: "Jar Bairn's Questline",
+    location: "Jarburg, Liurnia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion Jar talisman, Ash of War: Lightning Ram",
+    summary:
+      "A gentle living jar in Jarburg dreams of becoming a great pot, tied to Diallos's and Iron Fist Alexander's arcs.",
+    aiTip:
+      "Visit Jarburg repeatedly and progress Diallos's Volcano Manor thread — Jar Bairn's ending depends on advising him after Diallos falls.",
+    walkthrough: [
+      "Travel to Jarburg in eastern Liurnia and speak with Jar Bairn.",
+      "Talk to Diallos, who has come to protect the village.",
+      "Return after major story progress to find the village attacked and Diallos wounded.",
+      "Advise Jar Bairn about his future when prompted in dialogue.",
+      "Continue visiting to receive the Companion Jar talisman and Lightning Ram."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+  },
+  {
+    id: 1019,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Shabriri & the Frenzied Flame",
+    location: "Frenzied Flame Village, Subterranean Shunning-Grounds",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Path to the Lord of Frenzied Flame ending",
+    summary:
+      "The malevolent Shabriri, disguised as Yura, steers you toward embracing the Frenzied Flame and its world-ending ending.",
+    aiTip:
+      "This locks you into the Frenzied Flame ending unless reversed via Miquella's Needle. Warn: it overrides other endings until cured.",
+    walkthrough: [
+      "Progress Yura's questline until Shabriri possesses his body in the Zamor Ruins area.",
+      "Speak with Shabriri, who directs you to the Frenzied Flame Proscription.",
+      "Descend the Subterranean Shunning-Grounds to the Frenzied Flame Proscription door.",
+      "Remove all armor and touch the Three Fingers to accept the Frenzied Flame.",
+      "This sets the Lord of Frenzied Flame ending — reverse it later with Miquella's Needle if desired."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
+  },
+  {
+    id: 1020,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Sir Ansbach's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ansbach's armor set, Nail-Bracelet Talisman, endgame support",
+    summary:
+      "A loyal servant of Mohg who now follows Miquella's trail, Sir Ansbach aids you through Shadow of the Erdtree's finale.",
+    aiTip:
+      "Track Miquella's crosses and speak with Ansbach at each Shadow Keep visit. His fate depends on how St. Trina's and Leda's threads resolve.",
+    walkthrough: [
+      "Meet Sir Ansbach in the Shadow Keep's Storehouse, disguised among the servants.",
+      "Follow Miquella's crosses across the Land of Shadow, reporting back as the story advances.",
+      "Deliver information about Miquella's true plan when he asks.",
+      "Side with him during the Needle Knight Leda companions' confrontation.",
+      "Reach the final boss arena, where Ansbach's summon sign aids you if he survives."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
+  },
+  {
+    id: 1021,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Hornsent & Grandam (DLC)",
+    location: "Belurat, Enir-Ilim, Land of Shadow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unique gestures and lore rewards",
+    summary:
+      "The vengeful Hornsent and the mysterious Grandam share a linked storyline about the shamans and the crucible of the Hornsent people.",
+    aiTip:
+      "Speak to Grandam in Bonny Village between Hornsent's appearances — her cryptic hints and his revenge arc unfold together across the DLC.",
+    walkthrough: [
+      "Meet Hornsent early after entering the Land of Shadow near Belurat.",
+      "Find Grandam seated in Bonny Village and exhaust her dialogue.",
+      "Progress toward Shadow Keep, meeting Hornsent again at key sites.",
+      "Return to Grandam after major bosses for further lore and gestures.",
+      "Follow Hornsent to Enir-Ilim to resolve his vengeance at the tower's summit."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
+  },
+  {
+    id: 1022,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Ymir & Jolán (DLC)",
+    location: "Church of the Bud, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Finger-based sorceries, boss fight against Ymir",
+    summary:
+      "Mother Church sage Ymir and his attendant Jolán guide a magic-focused questline that unravels into a hidden boss encounter.",
+    aiTip:
+      "Buy his sorceries and follow Jolán's leads. Ymir's quest branches into a fight — keep Jolán's thread alive for the full resolution.",
+    walkthrough: [
+      "Meet Ymir at the Church of the Bud in Scadu Altus and purchase sorceries.",
+      "Accept his tasks and speak with his attendant Jolán.",
+      "Follow the map markers to the two Fingers he sends you to investigate.",
+      "Return to trigger the confrontation and defeat Ymir, Mother of Fingers' would-be heir.",
+      "Complete Jolán's follow-up to conclude the questline and claim its rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
+  },
+  {
+    id: 1023,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Igon & the Dragon Priestess (DLC)",
+    location: "Jagged Peak, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Aid against Bayle, dragon communion rewards",
+    summary:
+      "The dragon-hunter Igon's fury against Bayle the Dread and the Dragon Priestess's rites drive a questline of dragon transformation rewards.",
+    aiTip:
+      "Summon Igon for the Bayle fight — his impassioned battle cries mark the arc's climax. Complete dragon communion at the Priestess's altar afterward.",
+    walkthrough: [
+      "Find the wounded Igon along the path up the Jagged Peak.",
+      "Read his messages and progress toward Bayle's lair.",
+      "Summon Igon at the fog wall before Bayle the Dread and defeat the dragon together.",
+      "Speak with the Dragon Priestess to access dragon communion incantations.",
+      "Offer Dragon Hearts at the altar to claim the DLC's dragon rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
+  },
+  {
+    id: 1024,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Moore's Questline (DLC)",
+    location: "Gravesite Plain, Land of Shadow",
+    length: "short",
+    difficulty: "Low",
+    reward: "Aged One's Exultation talisman",
+    summary:
+      "A soft-spoken merchant met early in the Land of Shadow, Moore's short arc rewards revisiting him as the story unfolds.",
+    aiTip:
+      "Note his changing location and mood after major DLC bosses — speaking to him each time is needed to reach his questline's end.",
+    walkthrough: [
+      "Meet Moore near the Gravesite Plain shortly after entering the Land of Shadow.",
+      "Buy from his stock and exhaust his dialogue.",
+      "Return after progressing the DLC to find him relocated.",
+      "Continue talking across visits as his outlook darkens.",
+      "Resolve his final encounter to obtain the Aged One's Exultation talisman."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
+  },
+  {
+    id: 1025,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Queelign's Questline (DLC)",
+    location: "Fire Knights' sites, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fire Knight incantations, unique gear",
+    summary:
+      "The zealous Fire Knight Queelign hunts the impure across the Land of Shadow before a final duel decides his fate.",
+    aiTip:
+      "Give him the Fire Knight's Prayerbook to unlock incantations, then meet him where he invades to complete the arc.",
+    walkthrough: [
+      "Encounter Queelign preaching at Belurat or the Church District.",
+      "Locate the Fire Knight's Prayerbook and hand it to him.",
+      "Purchase his fire incantations from his stock.",
+      "Travel onward until he appears as an invader.",
+      "Defeat Queelign in his final duel to complete the questline."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
+  },
+  {
+    id: 1026,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Freyja's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Companionship, endgame summon support",
+    summary:
+      "One of Miquella's followers among Leda's companions, Freyja's arc weaves through the group's growing conflict in the Land of Shadow.",
+    aiTip:
+      "Speak with Freyja at each Shadow Keep rest and track how the companions turn on one another — her survival hinges on the choices you make.",
+    walkthrough: [
+      "Meet Freyja among Leda's companions after reaching the Shadow Keep.",
+      "Talk to her at rest sites as the group discusses Miquella's path.",
+      "Follow the companions' storyline through the mounting tension.",
+      "Take sides during the companions' final confrontation.",
+      "If she survives, summon Freyja for support in the DLC's climactic battle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
   },
   {
     id: 829,
@@ -17479,4 +18044,666 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20Emperor's%20Hideout%20walkthrough"
   }
 
+,  {
+    id: 1027,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Bombing Mission",
+    location: "Sector 1 Reactor",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, first Materia and the Guard Scorpion boss",
+    summary:
+      "Join Avalanche's raid on the Mako Reactor 1 in the game's explosive opening, ending in a duel with Shinra's Guard Scorpion.",
+    aiTip:
+      "Attack the Guard Scorpion's tail when it braces to fire its tail laser, and take cover behind rubble during its barrage phase.",
+    walkthrough: [
+      "Follow Barret through the Sector 1 station and into the reactor.",
+      "Set the bomb at the reactor core when prompted.",
+      "Fight the Guard Scorpion — target its weak points with Cloud's Braver ability.",
+      "Take cover behind debris when it charges the tail laser, then punish the recovery.",
+      "Escape the reactor before the timer expires."
+    ],
+    video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
+  },
+  {
+    id: 1028,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Escape from the Reactor",
+    location: "Sector 8",
+    length: "short",
+    difficulty: "Low",
+    reward: "Story progression, Aerith encounter",
+    summary:
+      "Flee the collapsing Sector 8 after the bombing and meet the flower girl Aerith amid the chaos.",
+    aiTip:
+      "There's no combat pressure here — explore Sector 8 for items and enjoy the set-piece before regrouping with Avalanche.",
+    walkthrough: [
+      "Escape the reactor blast and reach the Sector 8 streets.",
+      "Speak with Aerith when you meet her among the swirling Whispers.",
+      "Push through the Shinra troops blocking the plaza.",
+      "Board the train back to the Sector 7 hideout."
+    ],
+    video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
+  },
+  {
+    id: 1029,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Sector 7 Slums",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the slums hub and its side quests",
+    summary:
+      "Return to the Seventh Heaven hideout, meet Tifa, and get your first taste of the Sector 7 slums where side jobs open up.",
+    aiTip:
+      "Talk to everyone in the slums to unlock the odd-job board — this is your first window for missable side quests.",
+    walkthrough: [
+      "Arrive at the Seventh Heaven bar and reunite with Tifa.",
+      "Explore the Sector 7 slums and speak with residents.",
+      "Accept available odd jobs from the notice board.",
+      "Rest at the hideout to advance the story."
+    ],
+    video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
+  },
+  {
+    id: 1030,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Jessie's Home Invasion",
+    location: "Upper Plate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, upgraded weapons materia",
+    summary:
+      "Sneak onto the upper plate with Jessie, Biggs, and Wedge to steal explosives from her family's home for the next reactor job.",
+    aiTip:
+      "Use the motorcycle sequence to build up your limit gauge — you'll want it charged for the ambush at the end.",
+    walkthrough: [
+      "Ride the train and infiltrate the upper plate with Jessie's crew.",
+      "Sneak past the Shinra patrols to Jessie's house.",
+      "Recover the stashed explosives.",
+      "Escape on the highway and survive the Roche motorcycle chase."
+    ],
+    video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
+  },
+  {
+    id: 1031,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Reactor 5 Raid",
+    location: "Railway",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Crab Warden boss materia",
+    summary:
+      "Ride the rails to Mako Reactor 5 for a second bombing run that goes wrong when Shinra springs a trap.",
+    aiTip:
+      "Save your ATB for the Crab Warden's legs — breaking them staggers it and opens a huge damage window.",
+    walkthrough: [
+      "Traverse the railway and enter Reactor 5.",
+      "Plant the bomb at the core with Tifa and Barret.",
+      "Fight the Crab Warden — destroy its legs to topple it.",
+      "Exploit the stagger to burn it down before its cannon volley.",
+      "Survive the ambush that follows the explosion."
+    ],
+    video: "https://www.youtube.com/watch?v=VGR8joU9ems"
+  },
+  {
+    id: 1032,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Town That Never Sleeps",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "With the sun-lamps of the slums as backdrop, Cloud is separated from the group and plummets into the Sector 5 church.",
+    aiTip:
+      "This chapter is light on combat and heavy on story — explore for hidden items before the fall.",
+    walkthrough: [
+      "Fight through the reactor aftermath alongside Barret.",
+      "Get separated during the escape and fall through the plate.",
+      "Awaken in the Sector 5 church and meet Aerith again.",
+      "Fend off the first wave of Shinra pursuers."
+    ],
+    video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
+  },
+  {
+    id: 1033,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Defeat Airbuster",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, Airbuster boss loot and materia choices",
+    summary:
+      "Confront Shinra's Airbuster war machine on the reactor bridge — a fight whose difficulty you can ease beforehand.",
+    aiTip:
+      "Divert the keycards to strip the Airbuster's parts before the fight; lightning materia melts its health bar.",
+    walkthrough: [
+      "Choose which keycard terminals to divert to weaken the Airbuster.",
+      "Enter the bridge fight and stay mobile to avoid its missile spread.",
+      "Hit it with Thunder/Thundara to build stagger fast.",
+      "Destroy it, then survive the cliffhanger with Barret."
+    ],
+    video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
+  },
+  {
+    id: 1034,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Escort the Flower Girl",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unlocks Sector 5 side quests",
+    summary:
+      "Guide Aerith safely home through the Sector 5 slums, opening up the district's odd jobs and the moogle shop.",
+    aiTip:
+      "Take the detours with Aerith to trigger her side content — several missable jobs unlock only during this stretch.",
+    walkthrough: [
+      "Walk Aerith home through the Sector 5 slums.",
+      "Complete the slum errands that open along the way.",
+      "Reach Aerith's house and rest.",
+      "Agree to help her cross to Sector 7 the next day."
+    ],
+    video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
+  },
+  {
+    id: 1035,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Wall Market",
+    location: "Wall Market",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, the crossdressing set-piece and dress outcome",
+    summary:
+      "Infiltrate Don Corneo's mansion by winning over Wall Market — the outcome depends on the sidequests you complete.",
+    aiTip:
+      "Do the Corneo Colosseum and dressmaker sidequests to earn the best dress and honeybee outcomes; they're fully missable.",
+    walkthrough: [
+      "Arrive in Wall Market and learn Tifa has gone to Corneo's mansion.",
+      "Complete the dress, colosseum, and massage-parlor branches for better outcomes.",
+      "Get dressed up and enter the mansion audition.",
+      "Confront Don Corneo and escape with Tifa and Aerith."
+    ],
+    video: "https://www.youtube.com/watch?v=2gShRpduP38"
+  },
+  {
+    id: 1036,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Collapsed Expressway",
+    location: "Sewers",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Abzu boss materia",
+    summary:
+      "Drop into the sewers beneath Wall Market and fight through Corneo's beasts, including the hulking Abzu.",
+    aiTip:
+      "Abzu is weak to fire; keep Aerith at range casting while Cloud pressures it up close.",
+    walkthrough: [
+      "Descend into the Sector 6 sewers after fleeing Corneo.",
+      "Navigate the flooded tunnels and sluice gates.",
+      "Fight Abzu — exploit its fire weakness and dodge its charge.",
+      "Reach the exit toward the train graveyard."
+    ],
+    video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
+  },
+  {
+    id: 1037,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Train Graveyard",
+    location: "Graveyard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Ghost enemy materia",
+    summary:
+      "Pick through the eerie, ghost-haunted Train Graveyard on the way back to Sector 7.",
+    aiTip:
+      "The child-ghost puzzles gate your progress — interact with the kids in order and use fire on the spectral enemies.",
+    walkthrough: [
+      "Enter the Train Graveyard with Tifa and Aerith.",
+      "Solve the ghost-children puzzles to open the path.",
+      "Burn down the Eligor and ghost enemies with fire spells.",
+      "Emerge at the base of the Sector 7 pillar."
+    ],
+    video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
+  },
+  {
+    id: 1038,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "The Sector 7 Plate Collapse",
+    location: "Sector 7",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Reno & Rude boss fight",
+    summary:
+      "Race to stop Shinra from dropping the Sector 7 plate, battling the Turks Reno and Rude atop the pillar.",
+    aiTip:
+      "Reno punishes greed — bait his EM-rod combos, then punish; swap targets when Rude casts to interrupt.",
+    walkthrough: [
+      "Climb the Sector 7 pillar under fire.",
+      "Fight Reno and Rude at the top of the tower.",
+      "Reach the plate-support terminal.",
+      "Survive the collapse and its heartbreaking aftermath."
+    ],
+    video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
+  },
+  {
+    id: 1039,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Rescue Aerith",
+    location: "Sector 7",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, underground lab route",
+    summary:
+      "Descend through the ruined slums and the underground lab in pursuit of the Turks who captured Aerith.",
+    aiTip:
+      "Stock up and upgrade weapons at the collapse aftermath — the Shinra Building assault ahead is long with no shops.",
+    walkthrough: [
+      "Search the ruins of Sector 7 for a way up.",
+      "Travel through the underground test lab.",
+      "Regroup with Barret and Tifa on the plan to save Aerith.",
+      "Reach the base of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/watch?v=cItnWImfcwk"
+  },
+  {
+    id: 1040,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Open the Hub",
+    location: "Sector 5/6",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Multiple side quests unlock, Chocobo & moogle content",
+    summary:
+      "A breather chapter that reopens the slums as a hub, letting you mop up side quests before the Shinra assault.",
+    aiTip:
+      "This is the last chance for many Sector 5/6 side quests — clear the job board before advancing to Shinra HQ.",
+    walkthrough: [
+      "Return to the reopened slums hub.",
+      "Accept and complete the remaining odd jobs.",
+      "Upgrade weapons and restock consumables.",
+      "Meet the group to begin the Shinra Building plan."
+    ],
+    video: "https://www.youtube.com/watch?v=cS07VIv18uA"
+  },
+  {
+    id: 1041,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Climb the Plate",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "Scale the towering support structure of Midgar's plate to infiltrate the Shinra Building from below.",
+    aiTip:
+      "Manage stamina during the climb sequences and pick up the hidden manuscripts tucked along the girders.",
+    walkthrough: [
+      "Begin the long climb up the plate supports.",
+      "Cross the collapsing walkways and machinery.",
+      "Fight the security drones guarding the ascent.",
+      "Reach the rear entrance of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
+  },
+  {
+    id: 1042,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Infiltrate Shinra HQ",
+    location: "Shinra",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Shinra Building exploration and lore",
+    summary:
+      "Break into Shinra headquarters — by stairs or front door — and climb its floors toward the executive suites.",
+    aiTip:
+      "Take the stairs for the achievement and extra fights, or the front assault for a quicker, harder path.",
+    walkthrough: [
+      "Choose the stealth stairwell or the front-door assault.",
+      "Work through the corporate floors and museum exhibits.",
+      "Recover Aerith and confront the science department.",
+      "Reach the executive levels for the confrontation with Hojo."
+    ],
+    video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
+  },
+  {
+    id: 1043,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Hojo's Laboratory",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Jenova Dreamweaver & Rufus boss fights",
+    summary:
+      "Break out of Hojo's specimen labs and battle your way down through Jenova and Rufus Shinra's escape.",
+    aiTip:
+      "Rufus's fight is a duel — dodge his pistol shots and Dark Nation's buffs, and punish between his gunslinger combos.",
+    walkthrough: [
+      "Escape the specimen containment in Hojo's lab.",
+      "Fight Jenova Dreamweaver alongside the party.",
+      "Duel Rufus Shinra and Dark Nation on the helipad.",
+      "Regroup for the escape from the tower."
+    ],
+    video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
+  },
+  {
+    id: 1044,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Escape from Midgar",
+    location: "Midgar",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Motor Ball and the Arbiter of Fate finale",
+    summary:
+      "Blast down the Midgar Expressway on stolen bikes, defeat Motor Ball, and face the Whispers to leave the city behind.",
+    aiTip:
+      "Charge your limit breaks before the highway boss; the multi-phase finale rewards saving them for the Arbiter of Fate.",
+    walkthrough: [
+      "Flee Shinra HQ on the highway with the party split across vehicles.",
+      "Defeat Motor Ball during the expressway chase.",
+      "Confront Sephiroth at the edge of Midgar.",
+      "Battle the Whispers — the Arbiter of Fate — to close the story."
+    ],
+    video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
+  },
+  {
+    id: 1045,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Chocobo Search (Rat Problem)",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gil and a Chocobo & Moogle summon materia progress",
+    summary:
+      "Help Wymer clear a rat and monster infestation plaguing the Sector 7 slums.",
+    aiTip:
+      "Quick early-game job — bring some AoE to sweep the rat packs efficiently.",
+    walkthrough: [
+      "Take the request from Wymer at the slum entrance.",
+      "Track down the wererat nests around Sector 7.",
+      "Clear each infestation point.",
+      "Return to Wymer for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
+  },
+  {
+    id: 1046,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Lost Friends",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Healing items and slum reputation",
+    summary:
+      "Round up a group of missing cats for a worried slum resident.",
+    aiTip:
+      "The cats are scattered across nearby screens — check rooftops and alleys; no combat required beyond stray monsters.",
+    walkthrough: [
+      "Accept the Lost Friends job in Sector 7.",
+      "Search the slum streets for each missing cat.",
+      "Coax the cats back one by one.",
+      "Report back to complete the request."
+    ],
+    video: "https://www.youtube.com/watch?v=YJQZl0q2SSU"
+  },
+  {
+    id: 1047,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "On the Prowl",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Elixir and combat reputation",
+    summary:
+      "Hunt down the aggressive monsters stalking the Sector 7 slum outskirts for the watch.",
+    aiTip:
+      "Equip an Assess materia to spot each target's weakness and finish the hunt faster.",
+    walkthrough: [
+      "Take the hunt request from the slum watch.",
+      "Locate the marked monster dens.",
+      "Defeat the prowling beasts.",
+      "Turn in the bounty for an Elixir."
+    ],
+    video: "https://www.youtube.com/watch?v=cyNzZULI_EQ"
+  },
+  {
+    id: 1048,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Kids on Patrol",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "A weapon and slum-kid reputation",
+    summary:
+      "Play along with the slum children's neighborhood watch by clearing the pests they've marked.",
+    aiTip:
+      "Light, low-stakes job — good for testing new materia loadouts on weak enemies.",
+    walkthrough: [
+      "Accept Kids on Patrol from the children in Sector 5.",
+      "Visit each patrol point they mark.",
+      "Defeat the monsters harassing the area.",
+      "Return to the kids for a weapon reward."
+    ],
+    video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
+  },
+  {
+    id: 1049,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "The Angel of the Slums (Moogle Merchant)",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the Moogle Emporium shop",
+    summary:
+      "Earn Moogle Medals for the mysterious child running the Moogle Emporium to unlock its exclusive stock.",
+    aiTip:
+      "Save your Moogle Medals for the summon and accessory items — they're some of the best early purchases.",
+    walkthrough: [
+      "Find the Moogle Emporium in the Sector 5 slums.",
+      "Complete tasks to earn Moogle Medals.",
+      "Spend medals to unlock the shop's stock.",
+      "Buy the exclusive materia and items."
+    ],
+    video: "https://www.youtube.com/watch?v=CRGlett0WO8"
+  },
+  {
+    id: 1050,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Burning Thighs",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Improves the Wall Market dress branch outcome",
+    summary:
+      "Train at the Wall Market gym in a squat-contest minigame that feeds into the crossdressing set-piece.",
+    aiTip:
+      "Nail the button rhythm to beat the champion — winning improves which dress and outcome you unlock later.",
+    walkthrough: [
+      "Enter the gym in Wall Market and challenge the squat contest.",
+      "Match the on-screen button prompts in rhythm.",
+      "Beat the reigning champion Jules.",
+      "Collect the reward that boosts your dress-branch outcome."
+    ],
+    video: "https://www.youtube.com/watch?v=XDwOql565bQ"
+  },
+  {
+    id: 1051,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "The Price of Thievery",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wall Market rewards and dress-branch progress",
+    summary:
+      "Recover stolen goods for a Wall Market vendor as part of earning your way into Corneo's audition.",
+    aiTip:
+      "This branch feeds the same outcome tree as the dress and colosseum jobs — complete it before the mansion.",
+    walkthrough: [
+      "Take the vendor's request in Wall Market.",
+      "Track the thieves through the back alleys.",
+      "Defeat them and recover the stolen goods.",
+      "Return the goods for rewards and branch progress."
+    ],
+    video: "https://www.youtube.com/watch?v=ahnJxa4n-3o"
+  },
+  {
+    id: 1052,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Missing Children",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Accessories and Chapter 14 reputation",
+    summary:
+      "Search the reopened Sector 5 slums for children who wandered off toward the collapsed plate.",
+    aiTip:
+      "Available only in the Chapter 14 hub window — grab it before advancing or it's gone.",
+    walkthrough: [
+      "Accept Missing Children in the Chapter 14 slum hub.",
+      "Follow the trail toward the ruined outskirts.",
+      "Fight off the monsters and find each child.",
+      "Escort them home for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FMkKY_34Q3Q"
+  },
+  {
+    id: 1053,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Secret Medicine",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare healing items and reputation",
+    summary:
+      "Gather ingredients for a slum doctor's remedy during the Chapter 14 hub window.",
+    aiTip:
+      "Note the ingredient locations before you start — a couple require clearing monster nests near the waterway.",
+    walkthrough: [
+      "Take the Secret Medicine request from the slum clinic.",
+      "Collect the required ingredients around Sector 5.",
+      "Clear the monsters guarding the rarer components.",
+      "Deliver everything to the doctor for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=QCiLElY5Vb0"
+  },
+  {
+    id: 1054,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Wutai's Finest",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Yuffie and the Fort Condor minigame unlock",
+    summary:
+      "Play as Yuffie Kisaragi infiltrating Midgar to steal Shinra's ultimate materia in the INTERmission DLC.",
+    aiTip:
+      "Master Yuffie's ranged/melee stance swap early — throwing and recalling her shuriken is her whole damage engine.",
+    walkthrough: [
+      "Arrive in Midgar as Yuffie and meet your Avalanche HQ contact.",
+      "Learn Yuffie's shuriken-throw and elemental ninjutsu combat.",
+      "Explore the slums and unlock the Fort Condor board-game minigame.",
+      "Team up with Sonon to begin the infiltration."
+    ],
+    video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
+  },
+  {
+    id: 1055,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Covert Ops",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Nero the Sable boss fight",
+    summary:
+      "Break into the Shinra Building with Sonon, culminating in a desperate duel against Nero the Sable.",
+    aiTip:
+      "Use Synchronized ATB with Sonon to chain abilities; Nero's darkness voids punish sloppy dodges, so stay patient.",
+    walkthrough: [
+      "Infiltrate the Shinra Building's lower levels with Sonon.",
+      "Fight through the security and research floors.",
+      "Confront Nero the Sable in the depths.",
+      "Use synergy attacks to break him and escape with the materia."
+    ],
+    video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
+  },
+  {
+    id: 1056,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Fort Condor",
+    location: "Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Unlocks board-game rewards and materia",
+    summary:
+      "Take on the slums' Fort Condor board-game champions across Midgar for exclusive materia and prizes.",
+    aiTip:
+      "Build a balanced deck of ranged, defense, and vanguard units, and target the enemy's outposts first to snowball.",
+    walkthrough: [
+      "Unlock the Fort Condor minigame during Wutai's Finest.",
+      "Challenge each ranked board-game opponent.",
+      "Adjust your unit loadout between matches.",
+      "Beat the champions to claim the exclusive rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
+  }
 ];

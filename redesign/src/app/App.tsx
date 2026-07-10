@@ -236,7 +236,6 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
-  const hasGuide = !!quest.walkthrough?.length;
   // Radix returns focus to its own DialogTrigger on close, but this card
   // isn't one — it's a whole clickable article. Track it ourselves so focus
   // lands back on the card (not <body>) once the modal closes.
@@ -279,7 +278,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
             </Pill>
             <DifficultyChip level={quest.difficulty}/>
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
             <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
           </div>
         </div>
@@ -316,7 +315,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
           {showGameLabel && <span className="text-[10px] font-semibold tracking-wider uppercase truncate" style={{ color:col }}>{quest.game}</span>}
           <div className="flex items-center gap-2 shrink-0 ml-auto">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
             {onComplete && (
               <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={completed?"text-emerald-400":"text-muted-foreground/40 hover:text-emerald-400 transition-colors"}>
                 {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
