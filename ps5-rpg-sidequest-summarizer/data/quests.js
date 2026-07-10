@@ -17694,7 +17694,7 @@ const quests = [
       "Take cover behind debris when it charges the tail laser, then punish the recovery.",
       "Escape the reactor before the timer expires."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Bombing%20Mission%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
   },
   {
     id: 1028,
@@ -17716,7 +17716,7 @@ const quests = [
       "Push through the Shinra troops blocking the plaza.",
       "Board the train back to the Sector 7 hideout."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escape%20from%20the%20Reactor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
   },
   {
     id: 1029,
@@ -17738,7 +17738,7 @@ const quests = [
       "Accept available odd jobs from the notice board.",
       "Rest at the hideout to advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Sector%207%20Slums%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
   },
   {
     id: 1030,
@@ -17760,7 +17760,7 @@ const quests = [
       "Recover the stashed explosives.",
       "Escape on the highway and survive the Roche motorcycle chase."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Jessie's%20Home%20Invasion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
   },
   {
     id: 1031,
@@ -17783,7 +17783,7 @@ const quests = [
       "Exploit the stagger to burn it down before its cannon volley.",
       "Survive the ambush that follows the explosion."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Reactor%205%20Raid%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VGR8joU9ems"
   },
   {
     id: 1032,
@@ -17805,7 +17805,7 @@ const quests = [
       "Awaken in the Sector 5 church and meet Aerith again.",
       "Fend off the first wave of Shinra pursuers."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Town%20That%20Never%20Sleeps%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
   },
   {
     id: 1033,
@@ -17827,7 +17827,7 @@ const quests = [
       "Hit it with Thunder/Thundara to build stagger fast.",
       "Destroy it, then survive the cliffhanger with Barret."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Defeat%20Airbuster%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
   },
   {
     id: 1034,
@@ -17849,7 +17849,7 @@ const quests = [
       "Reach Aerith's house and rest.",
       "Agree to help her cross to Sector 7 the next day."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escort%20the%20Flower%20Girl%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
   },
   {
     id: 1035,
@@ -17871,7 +17871,7 @@ const quests = [
       "Get dressed up and enter the mansion audition.",
       "Confront Don Corneo and escape with Tifa and Aerith."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Wall%20Market%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2gShRpduP38"
   },
   {
     id: 1036,
@@ -17893,7 +17893,7 @@ const quests = [
       "Fight Abzu — exploit its fire weakness and dodge its charge.",
       "Reach the exit toward the train graveyard."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Collapsed%20Expressway%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
   },
   {
     id: 1037,
@@ -17915,7 +17915,7 @@ const quests = [
       "Burn down the Eligor and ghost enemies with fire spells.",
       "Emerge at the base of the Sector 7 pillar."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Train%20Graveyard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
   },
   {
     id: 1038,
@@ -17937,7 +17937,7 @@ const quests = [
       "Reach the plate-support terminal.",
       "Survive the collapse and its heartbreaking aftermath."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Sector%207%20Plate%20Collapse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
   },
   {
     id: 1039,
@@ -17959,7 +17959,7 @@ const quests = [
       "Regroup with Barret and Tifa on the plan to save Aerith.",
       "Reach the base of the Shinra Building."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Rescue%20Aerith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cItnWImfcwk"
   },
   {
     id: 1040,
@@ -17981,7 +17981,7 @@ const quests = [
       "Upgrade weapons and restock consumables.",
       "Meet the group to begin the Shinra Building plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Open%20the%20Hub%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cS07VIv18uA"
   },
   {
     id: 1041,
@@ -18003,7 +18003,7 @@ const quests = [
       "Fight the security drones guarding the ascent.",
       "Reach the rear entrance of the Shinra Building."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Climb%20the%20Plate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
   },
   {
     id: 1042,
@@ -18025,7 +18025,7 @@ const quests = [
       "Recover Aerith and confront the science department.",
       "Reach the executive levels for the confrontation with Hojo."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Infiltrate%20Shinra%20HQ%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
   },
   {
     id: 1043,
@@ -18047,7 +18047,7 @@ const quests = [
       "Duel Rufus Shinra and Dark Nation on the helipad.",
       "Regroup for the escape from the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Hojo's%20Laboratory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
   },
   {
     id: 1044,
@@ -18069,7 +18069,7 @@ const quests = [
       "Confront Sephiroth at the edge of Midgar.",
       "Battle the Whispers — the Arbiter of Fate — to close the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escape%20from%20Midgar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
   },
   {
     id: 1045,
@@ -18091,7 +18091,7 @@ const quests = [
       "Clear each infestation point.",
       "Return to Wymer for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Chocobo%20Search%20(Rat%20Problem)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
   },
   {
     id: 1046,
@@ -18113,7 +18113,7 @@ const quests = [
       "Coax the cats back one by one.",
       "Report back to complete the request."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Lost%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YJQZl0q2SSU"
   },
   {
     id: 1047,
@@ -18135,7 +18135,7 @@ const quests = [
       "Defeat the prowling beasts.",
       "Turn in the bounty for an Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20On%20the%20Prowl%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cyNzZULI_EQ"
   },
   {
     id: 1048,
@@ -18157,7 +18157,7 @@ const quests = [
       "Defeat the monsters harassing the area.",
       "Return to the kids for a weapon reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Kids%20on%20Patrol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
   },
   {
     id: 1049,
@@ -18179,7 +18179,7 @@ const quests = [
       "Spend medals to unlock the shop's stock.",
       "Buy the exclusive materia and items."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Angel%20of%20the%20Slums%20(Moogle%20Merchant)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CRGlett0WO8"
   },
   {
     id: 1050,
@@ -18201,7 +18201,7 @@ const quests = [
       "Beat the reigning champion Jules.",
       "Collect the reward that boosts your dress-branch outcome."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Burning%20Thighs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XDwOql565bQ"
   },
   {
     id: 1051,
@@ -18223,7 +18223,7 @@ const quests = [
       "Defeat them and recover the stolen goods.",
       "Return the goods for rewards and branch progress."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Price%20of%20Thievery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ahnJxa4n-3o"
   },
   {
     id: 1052,
@@ -18245,7 +18245,7 @@ const quests = [
       "Fight off the monsters and find each child.",
       "Escort them home for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Missing%20Children%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FMkKY_34Q3Q"
   },
   {
     id: 1053,
@@ -18267,7 +18267,7 @@ const quests = [
       "Clear the monsters guarding the rarer components.",
       "Deliver everything to the doctor for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Secret%20Medicine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QCiLElY5Vb0"
   },
   {
     id: 1054,
@@ -18289,7 +18289,7 @@ const quests = [
       "Explore the slums and unlock the Fort Condor board-game minigame.",
       "Team up with Sonon to begin the infiltration."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Wutai's%20Finest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
   },
   {
     id: 1055,
@@ -18311,7 +18311,7 @@ const quests = [
       "Confront Nero the Sable in the depths.",
       "Use synergy attacks to break him and escape with the materia."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Covert%20Ops%20walkthrough"
+    video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
   },
   {
     id: 1056,
@@ -18333,6 +18333,6 @@ const quests = [
       "Adjust your unit loadout between matches.",
       "Beat the champions to claim the exclusive rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Fort%20Condor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
   }
 ];
