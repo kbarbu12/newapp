@@ -830,8 +830,8 @@ export default function App() {
   // at the top, not wherever the previous tab was scrolled to.
   useEffect(()=>{ window.scrollTo(0,0); },[tab]);
 
-  // In prod only promoted tabs are reachable; a shortcut to an un-promoted tab
-  // is a no-op there. In staging every tab is live.
+  // Only promoted tabs are reachable in both prod and staging (staging mirrors
+  // prod); a shortcut to an un-promoted tab is a no-op.
   // Navigate to a tab, optionally pre-applying a filter set. When filters are
   // given every filter is reset first so the Library shows exactly that view.
   const goTo=(t:Tab,f?:QuestFilters)=>{
@@ -886,8 +886,8 @@ export default function App() {
     {id:"saved" as Tab, icon:<Bookmark size={13}/>,  label:"Saved", badge:savedIds.size||undefined},
   ].filter(t=>isTabLive(t.id));
 
-  // Prod build with nothing promoted yet: show a neutral placeholder rather
-  // than a tab the user hasn't approved. (Staging always has live tabs.)
+  // Nothing promoted yet: show a neutral placeholder rather than a tab the
+  // user hasn't approved. (Applies to prod and staging alike.)
   if(TABS.length===0){
     return (
       <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 text-center" style={{fontFamily:"'Inter',sans-serif"}}>
