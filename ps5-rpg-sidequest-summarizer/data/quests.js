@@ -17,7 +17,7 @@ const gameImages = {
   "Final Fantasy VII Remake": {
     gradient: "linear-gradient(135deg, #05140d 0%, #0f766e 50%, #34d399 100%)",
     abbr: "FF7RE",
-    cover: "images/ff7-remake.svg"
+    cover: "images/ff7-remake-cover.webp"
   },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
