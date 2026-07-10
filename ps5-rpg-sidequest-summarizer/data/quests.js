@@ -14,6 +14,11 @@ const gameImages = {
     abbr: "FF7R",
     cover: "images/ff7-rebirth-cover.jpg"
   },
+  "Final Fantasy VII Remake": {
+    gradient: "linear-gradient(135deg, #05140d 0%, #0f766e 50%, #34d399 100%)",
+    abbr: "FF7RE",
+    cover: "images/ff7-remake.svg"
+  },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
     abbr: "CP77",
@@ -161,6 +166,19 @@ const subFilterConfig = {
       { value: "Gongaga", text: "Gongaga" },
       { value: "Cosmo Canyon", text: "Cosmo Canyon" },
       { value: "Nibel", text: "Nibel" }
+    ]
+  },
+  "Final Fantasy VII Remake": {
+    field: "region",
+    label: "Area",
+    options: [
+      { value: "Sector 7 Slums", text: "Sector 7 Slums" },
+      { value: "Sector 5 Slums", text: "Sector 5 Slums" },
+      { value: "Wall Market", text: "Wall Market" },
+      { value: "Reactors & Upper Plate", text: "Reactors & Upper Plate" },
+      { value: "Sewers & Graveyard", text: "Sewers & Train Graveyard" },
+      { value: "Shinra HQ & Midgar", text: "Shinra HQ & Midgar" },
+      { value: "Intermission", text: "The Intermission (DLC)" }
     ]
   },
   "God of War Ragnarök": {
@@ -18026,4 +18044,666 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20Emperor's%20Hideout%20walkthrough"
   }
 
+,  {
+    id: 1027,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Bombing Mission",
+    location: "Sector 1 Reactor",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, first Materia and the Guard Scorpion boss",
+    summary:
+      "Join Avalanche's raid on the Mako Reactor 1 in the game's explosive opening, ending in a duel with Shinra's Guard Scorpion.",
+    aiTip:
+      "Attack the Guard Scorpion's tail when it braces to fire its tail laser, and take cover behind rubble during its barrage phase.",
+    walkthrough: [
+      "Follow Barret through the Sector 1 station and into the reactor.",
+      "Set the bomb at the reactor core when prompted.",
+      "Fight the Guard Scorpion — target its weak points with Cloud's Braver ability.",
+      "Take cover behind debris when it charges the tail laser, then punish the recovery.",
+      "Escape the reactor before the timer expires."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Bombing%20Mission%20walkthrough"
+  },
+  {
+    id: 1028,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Escape from the Reactor",
+    location: "Sector 8",
+    length: "short",
+    difficulty: "Low",
+    reward: "Story progression, Aerith encounter",
+    summary:
+      "Flee the collapsing Sector 8 after the bombing and meet the flower girl Aerith amid the chaos.",
+    aiTip:
+      "There's no combat pressure here — explore Sector 8 for items and enjoy the set-piece before regrouping with Avalanche.",
+    walkthrough: [
+      "Escape the reactor blast and reach the Sector 8 streets.",
+      "Speak with Aerith when you meet her among the swirling Whispers.",
+      "Push through the Shinra troops blocking the plaza.",
+      "Board the train back to the Sector 7 hideout."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escape%20from%20the%20Reactor%20walkthrough"
+  },
+  {
+    id: 1029,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Sector 7 Slums",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the slums hub and its side quests",
+    summary:
+      "Return to the Seventh Heaven hideout, meet Tifa, and get your first taste of the Sector 7 slums where side jobs open up.",
+    aiTip:
+      "Talk to everyone in the slums to unlock the odd-job board — this is your first window for missable side quests.",
+    walkthrough: [
+      "Arrive at the Seventh Heaven bar and reunite with Tifa.",
+      "Explore the Sector 7 slums and speak with residents.",
+      "Accept available odd jobs from the notice board.",
+      "Rest at the hideout to advance the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Sector%207%20Slums%20walkthrough"
+  },
+  {
+    id: 1030,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Jessie's Home Invasion",
+    location: "Upper Plate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, upgraded weapons materia",
+    summary:
+      "Sneak onto the upper plate with Jessie, Biggs, and Wedge to steal explosives from her family's home for the next reactor job.",
+    aiTip:
+      "Use the motorcycle sequence to build up your limit gauge — you'll want it charged for the ambush at the end.",
+    walkthrough: [
+      "Ride the train and infiltrate the upper plate with Jessie's crew.",
+      "Sneak past the Shinra patrols to Jessie's house.",
+      "Recover the stashed explosives.",
+      "Escape on the highway and survive the Roche motorcycle chase."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Jessie's%20Home%20Invasion%20walkthrough"
+  },
+  {
+    id: 1031,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Reactor 5 Raid",
+    location: "Railway",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Crab Warden boss materia",
+    summary:
+      "Ride the rails to Mako Reactor 5 for a second bombing run that goes wrong when Shinra springs a trap.",
+    aiTip:
+      "Save your ATB for the Crab Warden's legs — breaking them staggers it and opens a huge damage window.",
+    walkthrough: [
+      "Traverse the railway and enter Reactor 5.",
+      "Plant the bomb at the core with Tifa and Barret.",
+      "Fight the Crab Warden — destroy its legs to topple it.",
+      "Exploit the stagger to burn it down before its cannon volley.",
+      "Survive the ambush that follows the explosion."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Reactor%205%20Raid%20walkthrough"
+  },
+  {
+    id: 1032,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Town That Never Sleeps",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "With the sun-lamps of the slums as backdrop, Cloud is separated from the group and plummets into the Sector 5 church.",
+    aiTip:
+      "This chapter is light on combat and heavy on story — explore for hidden items before the fall.",
+    walkthrough: [
+      "Fight through the reactor aftermath alongside Barret.",
+      "Get separated during the escape and fall through the plate.",
+      "Awaken in the Sector 5 church and meet Aerith again.",
+      "Fend off the first wave of Shinra pursuers."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Town%20That%20Never%20Sleeps%20walkthrough"
+  },
+  {
+    id: 1033,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Defeat Airbuster",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, Airbuster boss loot and materia choices",
+    summary:
+      "Confront Shinra's Airbuster war machine on the reactor bridge — a fight whose difficulty you can ease beforehand.",
+    aiTip:
+      "Divert the keycards to strip the Airbuster's parts before the fight; lightning materia melts its health bar.",
+    walkthrough: [
+      "Choose which keycard terminals to divert to weaken the Airbuster.",
+      "Enter the bridge fight and stay mobile to avoid its missile spread.",
+      "Hit it with Thunder/Thundara to build stagger fast.",
+      "Destroy it, then survive the cliffhanger with Barret."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Defeat%20Airbuster%20walkthrough"
+  },
+  {
+    id: 1034,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Escort the Flower Girl",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unlocks Sector 5 side quests",
+    summary:
+      "Guide Aerith safely home through the Sector 5 slums, opening up the district's odd jobs and the moogle shop.",
+    aiTip:
+      "Take the detours with Aerith to trigger her side content — several missable jobs unlock only during this stretch.",
+    walkthrough: [
+      "Walk Aerith home through the Sector 5 slums.",
+      "Complete the slum errands that open along the way.",
+      "Reach Aerith's house and rest.",
+      "Agree to help her cross to Sector 7 the next day."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escort%20the%20Flower%20Girl%20walkthrough"
+  },
+  {
+    id: 1035,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Wall Market",
+    location: "Wall Market",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, the crossdressing set-piece and dress outcome",
+    summary:
+      "Infiltrate Don Corneo's mansion by winning over Wall Market — the outcome depends on the sidequests you complete.",
+    aiTip:
+      "Do the Corneo Colosseum and dressmaker sidequests to earn the best dress and honeybee outcomes; they're fully missable.",
+    walkthrough: [
+      "Arrive in Wall Market and learn Tifa has gone to Corneo's mansion.",
+      "Complete the dress, colosseum, and massage-parlor branches for better outcomes.",
+      "Get dressed up and enter the mansion audition.",
+      "Confront Don Corneo and escape with Tifa and Aerith."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Wall%20Market%20walkthrough"
+  },
+  {
+    id: 1036,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Collapsed Expressway",
+    location: "Sewers",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Abzu boss materia",
+    summary:
+      "Drop into the sewers beneath Wall Market and fight through Corneo's beasts, including the hulking Abzu.",
+    aiTip:
+      "Abzu is weak to fire; keep Aerith at range casting while Cloud pressures it up close.",
+    walkthrough: [
+      "Descend into the Sector 6 sewers after fleeing Corneo.",
+      "Navigate the flooded tunnels and sluice gates.",
+      "Fight Abzu — exploit its fire weakness and dodge its charge.",
+      "Reach the exit toward the train graveyard."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Collapsed%20Expressway%20walkthrough"
+  },
+  {
+    id: 1037,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Train Graveyard",
+    location: "Graveyard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Ghost enemy materia",
+    summary:
+      "Pick through the eerie, ghost-haunted Train Graveyard on the way back to Sector 7.",
+    aiTip:
+      "The child-ghost puzzles gate your progress — interact with the kids in order and use fire on the spectral enemies.",
+    walkthrough: [
+      "Enter the Train Graveyard with Tifa and Aerith.",
+      "Solve the ghost-children puzzles to open the path.",
+      "Burn down the Eligor and ghost enemies with fire spells.",
+      "Emerge at the base of the Sector 7 pillar."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Train%20Graveyard%20walkthrough"
+  },
+  {
+    id: 1038,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "The Sector 7 Plate Collapse",
+    location: "Sector 7",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Reno & Rude boss fight",
+    summary:
+      "Race to stop Shinra from dropping the Sector 7 plate, battling the Turks Reno and Rude atop the pillar.",
+    aiTip:
+      "Reno punishes greed — bait his EM-rod combos, then punish; swap targets when Rude casts to interrupt.",
+    walkthrough: [
+      "Climb the Sector 7 pillar under fire.",
+      "Fight Reno and Rude at the top of the tower.",
+      "Reach the plate-support terminal.",
+      "Survive the collapse and its heartbreaking aftermath."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Sector%207%20Plate%20Collapse%20walkthrough"
+  },
+  {
+    id: 1039,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Rescue Aerith",
+    location: "Sector 7",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, underground lab route",
+    summary:
+      "Descend through the ruined slums and the underground lab in pursuit of the Turks who captured Aerith.",
+    aiTip:
+      "Stock up and upgrade weapons at the collapse aftermath — the Shinra Building assault ahead is long with no shops.",
+    walkthrough: [
+      "Search the ruins of Sector 7 for a way up.",
+      "Travel through the underground test lab.",
+      "Regroup with Barret and Tifa on the plan to save Aerith.",
+      "Reach the base of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Rescue%20Aerith%20walkthrough"
+  },
+  {
+    id: 1040,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Open the Hub",
+    location: "Sector 5/6",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Multiple side quests unlock, Chocobo & moogle content",
+    summary:
+      "A breather chapter that reopens the slums as a hub, letting you mop up side quests before the Shinra assault.",
+    aiTip:
+      "This is the last chance for many Sector 5/6 side quests — clear the job board before advancing to Shinra HQ.",
+    walkthrough: [
+      "Return to the reopened slums hub.",
+      "Accept and complete the remaining odd jobs.",
+      "Upgrade weapons and restock consumables.",
+      "Meet the group to begin the Shinra Building plan."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Open%20the%20Hub%20walkthrough"
+  },
+  {
+    id: 1041,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Climb the Plate",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "Scale the towering support structure of Midgar's plate to infiltrate the Shinra Building from below.",
+    aiTip:
+      "Manage stamina during the climb sequences and pick up the hidden manuscripts tucked along the girders.",
+    walkthrough: [
+      "Begin the long climb up the plate supports.",
+      "Cross the collapsing walkways and machinery.",
+      "Fight the security drones guarding the ascent.",
+      "Reach the rear entrance of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Climb%20the%20Plate%20walkthrough"
+  },
+  {
+    id: 1042,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Infiltrate Shinra HQ",
+    location: "Shinra",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Shinra Building exploration and lore",
+    summary:
+      "Break into Shinra headquarters — by stairs or front door — and climb its floors toward the executive suites.",
+    aiTip:
+      "Take the stairs for the achievement and extra fights, or the front assault for a quicker, harder path.",
+    walkthrough: [
+      "Choose the stealth stairwell or the front-door assault.",
+      "Work through the corporate floors and museum exhibits.",
+      "Recover Aerith and confront the science department.",
+      "Reach the executive levels for the confrontation with Hojo."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Infiltrate%20Shinra%20HQ%20walkthrough"
+  },
+  {
+    id: 1043,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Hojo's Laboratory",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Jenova Dreamweaver & Rufus boss fights",
+    summary:
+      "Break out of Hojo's specimen labs and battle your way down through Jenova and Rufus Shinra's escape.",
+    aiTip:
+      "Rufus's fight is a duel — dodge his pistol shots and Dark Nation's buffs, and punish between his gunslinger combos.",
+    walkthrough: [
+      "Escape the specimen containment in Hojo's lab.",
+      "Fight Jenova Dreamweaver alongside the party.",
+      "Duel Rufus Shinra and Dark Nation on the helipad.",
+      "Regroup for the escape from the tower."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Hojo's%20Laboratory%20walkthrough"
+  },
+  {
+    id: 1044,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Escape from Midgar",
+    location: "Midgar",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Motor Ball and the Arbiter of Fate finale",
+    summary:
+      "Blast down the Midgar Expressway on stolen bikes, defeat Motor Ball, and face the Whispers to leave the city behind.",
+    aiTip:
+      "Charge your limit breaks before the highway boss; the multi-phase finale rewards saving them for the Arbiter of Fate.",
+    walkthrough: [
+      "Flee Shinra HQ on the highway with the party split across vehicles.",
+      "Defeat Motor Ball during the expressway chase.",
+      "Confront Sephiroth at the edge of Midgar.",
+      "Battle the Whispers — the Arbiter of Fate — to close the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Escape%20from%20Midgar%20walkthrough"
+  },
+  {
+    id: 1045,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Chocobo Search (Rat Problem)",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gil and a Chocobo & Moogle summon materia progress",
+    summary:
+      "Help Wymer clear a rat and monster infestation plaguing the Sector 7 slums.",
+    aiTip:
+      "Quick early-game job — bring some AoE to sweep the rat packs efficiently.",
+    walkthrough: [
+      "Take the request from Wymer at the slum entrance.",
+      "Track down the wererat nests around Sector 7.",
+      "Clear each infestation point.",
+      "Return to Wymer for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Chocobo%20Search%20(Rat%20Problem)%20walkthrough"
+  },
+  {
+    id: 1046,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Lost Friends",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Healing items and slum reputation",
+    summary:
+      "Round up a group of missing cats for a worried slum resident.",
+    aiTip:
+      "The cats are scattered across nearby screens — check rooftops and alleys; no combat required beyond stray monsters.",
+    walkthrough: [
+      "Accept the Lost Friends job in Sector 7.",
+      "Search the slum streets for each missing cat.",
+      "Coax the cats back one by one.",
+      "Report back to complete the request."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Lost%20Friends%20walkthrough"
+  },
+  {
+    id: 1047,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "On the Prowl",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Elixir and combat reputation",
+    summary:
+      "Hunt down the aggressive monsters stalking the Sector 7 slum outskirts for the watch.",
+    aiTip:
+      "Equip an Assess materia to spot each target's weakness and finish the hunt faster.",
+    walkthrough: [
+      "Take the hunt request from the slum watch.",
+      "Locate the marked monster dens.",
+      "Defeat the prowling beasts.",
+      "Turn in the bounty for an Elixir."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20On%20the%20Prowl%20walkthrough"
+  },
+  {
+    id: 1048,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Kids on Patrol",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "A weapon and slum-kid reputation",
+    summary:
+      "Play along with the slum children's neighborhood watch by clearing the pests they've marked.",
+    aiTip:
+      "Light, low-stakes job — good for testing new materia loadouts on weak enemies.",
+    walkthrough: [
+      "Accept Kids on Patrol from the children in Sector 5.",
+      "Visit each patrol point they mark.",
+      "Defeat the monsters harassing the area.",
+      "Return to the kids for a weapon reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Kids%20on%20Patrol%20walkthrough"
+  },
+  {
+    id: 1049,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "The Angel of the Slums (Moogle Merchant)",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the Moogle Emporium shop",
+    summary:
+      "Earn Moogle Medals for the mysterious child running the Moogle Emporium to unlock its exclusive stock.",
+    aiTip:
+      "Save your Moogle Medals for the summon and accessory items — they're some of the best early purchases.",
+    walkthrough: [
+      "Find the Moogle Emporium in the Sector 5 slums.",
+      "Complete tasks to earn Moogle Medals.",
+      "Spend medals to unlock the shop's stock.",
+      "Buy the exclusive materia and items."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Angel%20of%20the%20Slums%20(Moogle%20Merchant)%20walkthrough"
+  },
+  {
+    id: 1050,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Burning Thighs",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Improves the Wall Market dress branch outcome",
+    summary:
+      "Train at the Wall Market gym in a squat-contest minigame that feeds into the crossdressing set-piece.",
+    aiTip:
+      "Nail the button rhythm to beat the champion — winning improves which dress and outcome you unlock later.",
+    walkthrough: [
+      "Enter the gym in Wall Market and challenge the squat contest.",
+      "Match the on-screen button prompts in rhythm.",
+      "Beat the reigning champion Jules.",
+      "Collect the reward that boosts your dress-branch outcome."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Burning%20Thighs%20walkthrough"
+  },
+  {
+    id: 1051,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "The Price of Thievery",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wall Market rewards and dress-branch progress",
+    summary:
+      "Recover stolen goods for a Wall Market vendor as part of earning your way into Corneo's audition.",
+    aiTip:
+      "This branch feeds the same outcome tree as the dress and colosseum jobs — complete it before the mansion.",
+    walkthrough: [
+      "Take the vendor's request in Wall Market.",
+      "Track the thieves through the back alleys.",
+      "Defeat them and recover the stolen goods.",
+      "Return the goods for rewards and branch progress."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20The%20Price%20of%20Thievery%20walkthrough"
+  },
+  {
+    id: 1052,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Missing Children",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Accessories and Chapter 14 reputation",
+    summary:
+      "Search the reopened Sector 5 slums for children who wandered off toward the collapsed plate.",
+    aiTip:
+      "Available only in the Chapter 14 hub window — grab it before advancing or it's gone.",
+    walkthrough: [
+      "Accept Missing Children in the Chapter 14 slum hub.",
+      "Follow the trail toward the ruined outskirts.",
+      "Fight off the monsters and find each child.",
+      "Escort them home for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Missing%20Children%20walkthrough"
+  },
+  {
+    id: 1053,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Secret Medicine",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare healing items and reputation",
+    summary:
+      "Gather ingredients for a slum doctor's remedy during the Chapter 14 hub window.",
+    aiTip:
+      "Note the ingredient locations before you start — a couple require clearing monster nests near the waterway.",
+    walkthrough: [
+      "Take the Secret Medicine request from the slum clinic.",
+      "Collect the required ingredients around Sector 5.",
+      "Clear the monsters guarding the rarer components.",
+      "Deliver everything to the doctor for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Secret%20Medicine%20walkthrough"
+  },
+  {
+    id: 1054,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Wutai's Finest",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Yuffie and the Fort Condor minigame unlock",
+    summary:
+      "Play as Yuffie Kisaragi infiltrating Midgar to steal Shinra's ultimate materia in the INTERmission DLC.",
+    aiTip:
+      "Master Yuffie's ranged/melee stance swap early — throwing and recalling her shuriken is her whole damage engine.",
+    walkthrough: [
+      "Arrive in Midgar as Yuffie and meet your Avalanche HQ contact.",
+      "Learn Yuffie's shuriken-throw and elemental ninjutsu combat.",
+      "Explore the slums and unlock the Fort Condor board-game minigame.",
+      "Team up with Sonon to begin the infiltration."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Wutai's%20Finest%20walkthrough"
+  },
+  {
+    id: 1055,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Covert Ops",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Nero the Sable boss fight",
+    summary:
+      "Break into the Shinra Building with Sonon, culminating in a desperate duel against Nero the Sable.",
+    aiTip:
+      "Use Synchronized ATB with Sonon to chain abilities; Nero's darkness voids punish sloppy dodges, so stay patient.",
+    walkthrough: [
+      "Infiltrate the Shinra Building's lower levels with Sonon.",
+      "Fight through the security and research floors.",
+      "Confront Nero the Sable in the depths.",
+      "Use synergy attacks to break him and escape with the materia."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Covert%20Ops%20walkthrough"
+  },
+  {
+    id: 1056,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Fort Condor",
+    location: "Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Unlocks board-game rewards and materia",
+    summary:
+      "Take on the slums' Fort Condor board-game champions across Midgar for exclusive materia and prizes.",
+    aiTip:
+      "Build a balanced deck of ranged, defense, and vanguard units, and target the enemy's outposts first to snowball.",
+    walkthrough: [
+      "Unlock the Fort Condor minigame during Wutai's Finest.",
+      "Challenge each ranked board-game opponent.",
+      "Adjust your unit loadout between matches.",
+      "Beat the champions to claim the exclusive rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Final%20Fantasy%20VII%20Remake%20Fort%20Condor%20walkthrough"
+  }
 ];
