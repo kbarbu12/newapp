@@ -13603,6 +13603,14 @@ const quests = [
       "Infiltrate Godrick the Grafted's fortress, Stormveil Castle, choosing the main gate or the sewer path.",
     aiTip:
       "Recruit Nepheli Loux and use the Rusty Key's side route to skip the deadly courtyard.",
+    walkthrough: [
+      "Defeat Margit the Fell Omen at the bridge to open the main gate.",
+      "Choose your entry: the front gate gauntlet or the sewer path on the cliffside to the right.",
+      "Rest at the Stormveil Cliffside grace and grab the Rusty Key to unlock the side courtyard route.",
+      "Work up through the ramparts, clearing the giant and archers rather than rushing the trapped courtyard.",
+      "Find and summon Nepheli Loux near the throne room before the boss fog gate.",
+      "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the dungeon."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
   },
   {
