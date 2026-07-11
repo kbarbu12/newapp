@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
-  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap,
+  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle
@@ -8,6 +8,7 @@ import {
 import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
+import { answerQuestion } from "./chatEngine";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
@@ -40,7 +41,7 @@ type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:Len
 
 const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
 const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
-interface ChatMsg { role:"user"|"assistant"; content:string; }
+interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
 
@@ -739,33 +740,71 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
 
 // ─── Chat Widget ──────────────────────────────────────────────────────────────
 
+// Example prompts shown in the "what can I ask?" help panel — clicking one sends it.
+const CHAT_EXAMPLES=[
+  "How do I finish Ranni's questline?",
+  "Show me hard Elden Ring quests",
+  "How many Witcher 3 quests are there?",
+  "Recommend some short Cyberpunk quests",
+];
+
 function ChatWidget() {
   const [open,setOpen]=useState(false);
+  const [showHelp,setShowHelp]=useState(false);
   const [input,setInput]=useState("");
   const [msgs,setMsgs]=useState<ChatMsg[]>([{role:"assistant",content:"Greetings, adventurer. Ask me anything about quests, strategies, or walkthroughs."}]);
   const bottomRef=useRef<HTMLDivElement>(null);
-  useEffect(()=>{if(open)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open]);
-  const REPLIES=["Make sure you talk to every NPC before triggering the next objective — many quests have easy-to-miss setup steps.","For that difficulty level, I'd recommend upgrading your gear first.","That quest has multiple endings — your dialogue choices determine the outcome.","Save before that conversation. The choice locks you into a specific branch.","Check the video walkthrough — the route isn't obvious from the map alone."];
-  const send=()=>{ if(!input.trim())return; setMsgs(p=>[...p,{role:"user",content:input},{role:"assistant",content:REPLIES[Math.floor(Math.random()*REPLIES.length)]}]); setInput(""); };
+  useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
+  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   return (
     <div className="fixed bottom-24 sm:bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
             <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>Quest Assistant</span></div>
-            <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            <div className="flex items-center gap-1">
+              <button onClick={()=>setShowHelp(h=>!h)} aria-label="What can I ask?" aria-pressed={showHelp} className={`transition-colors ${showHelp?"text-primary":"text-muted-foreground hover:text-foreground"}`}><Info size={15}/></button>
+              <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            </div>
           </div>
-          <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
-            {msgs.map((m,i)=>(
-              <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
-                <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>{m.content}</div>
+          <div className="flex-1 min-h-0 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
+            {showHelp ? (
+              <div className="text-xs leading-relaxed text-muted-foreground">
+                <p className="text-foreground font-medium mb-2">What I can help with</p>
+                <ul className="flex flex-col gap-1.5 mb-3">
+                  <li>• <span className="text-foreground">Look up a quest</span> — get its summary, tip, reward and walkthrough video</li>
+                  <li>• <span className="text-foreground">Browse by game &amp; difficulty</span> — e.g. hard or short quests in a game</li>
+                  <li>• <span className="text-foreground">Ask for counts</span> — how many quests a game has</li>
+                </ul>
+                <p className="mb-2">Try one:</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {CHAT_EXAMPLES.map(ex=>(
+                    <button key={ex} onClick={()=>send(ex)} className="rounded-full border border-border bg-background px-2.5 py-1 text-[11px] text-foreground hover:border-primary/50 hover:text-primary transition-colors">{ex}</button>
+                  ))}
+                </div>
+                <p className="mt-3 text-[10px]">Answers come from this site's quest library — it's not open-ended chat.</p>
               </div>
-            ))}
-            <div ref={bottomRef}/>
+            ) : (
+              <>
+                {msgs.map((m,i)=>(
+                  <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
+                    <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
+                      {m.content}
+                      {m.quest?.video&&(
+                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                          <Youtube size={13}/> Watch walkthrough
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                <div ref={bottomRef}/>
+              </>
+            )}
           </div>
           <div className="border-t border-border p-3 flex gap-2">
             <input value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()} placeholder="Ask about a quest…" className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
-            <button onClick={send} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
+            <button onClick={()=>send()} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
           </div>
         </div>
       )}
