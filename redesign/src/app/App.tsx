@@ -767,37 +767,40 @@ function ChatWidget() {
               <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
             </div>
           </div>
-          {showHelp&&(
-            <div className="border-b border-border bg-secondary/40 p-4 text-xs leading-relaxed text-muted-foreground">
-              <p className="text-foreground font-medium mb-2">What I can help with</p>
-              <ul className="flex flex-col gap-1.5 mb-3">
-                <li>• <span className="text-foreground">Look up a quest</span> — get its summary, tip, reward and walkthrough video</li>
-                <li>• <span className="text-foreground">Browse by game &amp; difficulty</span> — e.g. hard or short quests in a game</li>
-                <li>• <span className="text-foreground">Ask for counts</span> — how many quests a game has</li>
-              </ul>
-              <p className="mb-2">Try one:</p>
-              <div className="flex flex-wrap gap-1.5">
-                {CHAT_EXAMPLES.map(ex=>(
-                  <button key={ex} onClick={()=>send(ex)} className="rounded-full border border-border bg-background px-2.5 py-1 text-[11px] text-foreground hover:border-primary/50 hover:text-primary transition-colors">{ex}</button>
-                ))}
-              </div>
-              <p className="mt-3 text-[10px]">Answers come from this site's quest library — it's not open-ended chat.</p>
-            </div>
-          )}
-          <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
-            {msgs.map((m,i)=>(
-              <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
-                <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
-                  {m.content}
-                  {m.quest?.video&&(
-                    <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
-                      <Youtube size={13}/> Watch walkthrough
-                    </a>
-                  )}
+          <div className="flex-1 min-h-0 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
+            {showHelp ? (
+              <div className="text-xs leading-relaxed text-muted-foreground">
+                <p className="text-foreground font-medium mb-2">What I can help with</p>
+                <ul className="flex flex-col gap-1.5 mb-3">
+                  <li>• <span className="text-foreground">Look up a quest</span> — get its summary, tip, reward and walkthrough video</li>
+                  <li>• <span className="text-foreground">Browse by game &amp; difficulty</span> — e.g. hard or short quests in a game</li>
+                  <li>• <span className="text-foreground">Ask for counts</span> — how many quests a game has</li>
+                </ul>
+                <p className="mb-2">Try one:</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {CHAT_EXAMPLES.map(ex=>(
+                    <button key={ex} onClick={()=>send(ex)} className="rounded-full border border-border bg-background px-2.5 py-1 text-[11px] text-foreground hover:border-primary/50 hover:text-primary transition-colors">{ex}</button>
+                  ))}
                 </div>
+                <p className="mt-3 text-[10px]">Answers come from this site's quest library — it's not open-ended chat.</p>
               </div>
-            ))}
-            <div ref={bottomRef}/>
+            ) : (
+              <>
+                {msgs.map((m,i)=>(
+                  <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
+                    <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
+                      {m.content}
+                      {m.quest?.video&&(
+                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                          <Youtube size={13}/> Watch walkthrough
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                <div ref={bottomRef}/>
+              </>
+            )}
           </div>
           <div className="border-t border-border p-3 flex gap-2">
             <input value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()} placeholder="Ask about a quest…" className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
