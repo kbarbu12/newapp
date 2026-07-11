@@ -1,3 +1,59 @@
+# Update — Smarter Quest Assistant, Chat Info Panel & Mobile Chat Layout
+
+**Date:** 2026-07-11
+**Branch:** `claude/bottom-menu-layout-26xlps`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Made the redesign's Quest Assistant chat genuinely useful, added an in-chat
+help affordance so users know what to ask, and fixed the mobile chat layout —
+all in `redesign/`. Shipped to `staging`, then promoted `staging` → `main` (live).
+
+## Smarter Quest Assistant (data-grounded, no backend)
+- Replaced the chat's 5 random canned replies with a client-side retrieval
+  engine, `redesign/src/app/chatEngine.ts`, that reads the question and answers
+  from the real quest dataset (`GAMES` / `QUESTS`). No API key, no backend, no
+  cost — it ships on GitHub Pages as-is.
+- It routes intents over the data:
+  - **Specific quest** ("how do I rescue the grand duke in bg3?") → full
+    breakdown: type, difficulty, length, summary, AI tip, reward, and a
+    clickable **Watch walkthrough** link (or numbered walkthrough steps when a
+    quest has no video).
+  - **Counts** ("how many Witcher 3 quests are there?") → answered live.
+  - **Filtered listings** ("show me hard Elden Ring quests", "short Cyberpunk
+    quests") → real matching quests.
+  - **Fuzzy / unknown** → closest related quests, or a graceful fallback.
+- *Not an LLM:* it's keyword retrieval, so it won't hold open-ended
+  conversation. A true conversational LLM (needs a backend/proxy for the API
+  key + per-message cost) is logged as a backlog item in `CHECKLIST.md`.
+
+## Chat info panel ("what can I ask?")
+- Added an **ⓘ** button to the chat header that opens a short help panel:
+  what the assistant can do, four **clickable example prompts** (clicking one
+  sends it), and a note that answers are grounded in the quest library.
+
+## Mobile chat layout
+- Enlarged the mobile bottom tab bar (bigger padding, text, and icons) and
+  lifted the floating chat button above it so they no longer overlap.
+- **Fixed a chat overlap bug:** with the help panel open, the card grew past
+  its max-height and pushed the message area + text input out of view. The help
+  content now lives inside the scrollable body (shown in place of the messages
+  while open) with `min-h-0`, so the header and input always stay visible and
+  bounded.
+
+## Docs
+- `CHECKLIST.md`: marked the smarter chatbot and mobile-layout work done, and
+  added a backlog item for the optional conversational-LLM upgrade.
+
+## Verified
+- `redesign` builds clean (`pnpm build`).
+- Exercised the chat engine against the real dataset across all intents.
+- Drove the app in a headless phone-sized browser: help panel opens from the ⓘ
+  button, example chips send and return the correct answer, and the input stays
+  visible with the help panel open (overlap fixed).
+
+---
+
 # Update — FF7 Rebirth Missing Odd Jobs & New-Entry Walkthrough Rule
 
 **Date:** 2026-07-10
