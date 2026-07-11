@@ -748,7 +748,7 @@ function ChatWidget() {
   const REPLIES=["Make sure you talk to every NPC before triggering the next objective — many quests have easy-to-miss setup steps.","For that difficulty level, I'd recommend upgrading your gear first.","That quest has multiple endings — your dialogue choices determine the outcome.","Save before that conversation. The choice locks you into a specific branch.","Check the video walkthrough — the route isn't obvious from the map alone."];
   const send=()=>{ if(!input.trim())return; setMsgs(p=>[...p,{role:"user",content:input},{role:"assistant",content:REPLIES[Math.floor(Math.random()*REPLIES.length)]}]); setInput(""); };
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className="fixed bottom-24 sm:bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
@@ -782,8 +782,8 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
   return (
     <nav className="sm:hidden fixed bottom-0 inset-x-0 z-40 border-t border-border bg-background/95 backdrop-blur-md flex items-stretch" style={{ paddingBottom:"env(safe-area-inset-bottom)" }}>
       {tabs.map(t=>(
-        <button key={t.id} onClick={()=>setTab(t.id)} className={`relative flex-1 flex flex-col items-center justify-center gap-0.5 py-2 text-[10px] font-medium transition-colors ${tab===t.id?"text-primary":"text-muted-foreground"}`}>
-          {t.icon}
+        <button key={t.id} onClick={()=>setTab(t.id)} className={`relative flex-1 flex flex-col items-center justify-center gap-1 py-3.5 text-[11px] font-medium transition-colors ${tab===t.id?"text-primary":"text-muted-foreground"}`}>
+          <span className="[&>svg]:w-[18px] [&>svg]:h-[18px]">{t.icon}</span>
           <span>{t.label}</span>
           {t.badge!==undefined&&(
             <span className="absolute top-1 right-[28%] w-3.5 h-3.5 rounded-full bg-primary text-primary-foreground text-[8px] font-bold flex items-center justify-center border-2 border-background">
@@ -902,7 +902,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground pb-16 sm:pb-0" style={{fontFamily:"'Inter',sans-serif"}}>
+    <div className="min-h-screen bg-background text-foreground pb-20 sm:pb-0" style={{fontFamily:"'Inter',sans-serif"}}>
 
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-md">
