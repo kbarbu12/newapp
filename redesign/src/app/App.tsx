@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
-  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap,
+  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle
@@ -740,21 +740,50 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
 
 // ─── Chat Widget ──────────────────────────────────────────────────────────────
 
+// Example prompts shown in the "what can I ask?" help panel — clicking one sends it.
+const CHAT_EXAMPLES=[
+  "How do I finish Ranni's questline?",
+  "Show me hard Elden Ring quests",
+  "How many Witcher 3 quests are there?",
+  "Recommend some short Cyberpunk quests",
+];
+
 function ChatWidget() {
   const [open,setOpen]=useState(false);
+  const [showHelp,setShowHelp]=useState(false);
   const [input,setInput]=useState("");
   const [msgs,setMsgs]=useState<ChatMsg[]>([{role:"assistant",content:"Greetings, adventurer. Ask me anything about quests, strategies, or walkthroughs."}]);
   const bottomRef=useRef<HTMLDivElement>(null);
-  useEffect(()=>{if(open)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open]);
-  const send=()=>{ if(!input.trim())return; const reply=answerQuestion(input); setMsgs(p=>[...p,{role:"user",content:input},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); };
+  useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
+  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   return (
     <div className="fixed bottom-24 sm:bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
             <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>Quest Assistant</span></div>
-            <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            <div className="flex items-center gap-1">
+              <button onClick={()=>setShowHelp(h=>!h)} aria-label="What can I ask?" aria-pressed={showHelp} className={`transition-colors ${showHelp?"text-primary":"text-muted-foreground hover:text-foreground"}`}><Info size={15}/></button>
+              <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            </div>
           </div>
+          {showHelp&&(
+            <div className="border-b border-border bg-secondary/40 p-4 text-xs leading-relaxed text-muted-foreground">
+              <p className="text-foreground font-medium mb-2">What I can help with</p>
+              <ul className="flex flex-col gap-1.5 mb-3">
+                <li>• <span className="text-foreground">Look up a quest</span> — get its summary, tip, reward and walkthrough video</li>
+                <li>• <span className="text-foreground">Browse by game &amp; difficulty</span> — e.g. hard or short quests in a game</li>
+                <li>• <span className="text-foreground">Ask for counts</span> — how many quests a game has</li>
+              </ul>
+              <p className="mb-2">Try one:</p>
+              <div className="flex flex-wrap gap-1.5">
+                {CHAT_EXAMPLES.map(ex=>(
+                  <button key={ex} onClick={()=>send(ex)} className="rounded-full border border-border bg-background px-2.5 py-1 text-[11px] text-foreground hover:border-primary/50 hover:text-primary transition-colors">{ex}</button>
+                ))}
+              </div>
+              <p className="mt-3 text-[10px]">Answers come from this site's quest library — it's not open-ended chat.</p>
+            </div>
+          )}
           <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
             {msgs.map((m,i)=>(
               <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
@@ -772,7 +801,7 @@ function ChatWidget() {
           </div>
           <div className="border-t border-border p-3 flex gap-2">
             <input value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()} placeholder="Ask about a quest…" className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
-            <button onClick={send} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
+            <button onClick={()=>send()} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
           </div>
         </div>
       )}
