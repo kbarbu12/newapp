@@ -57,6 +57,42 @@ All 10 fixable issues were resolved in a single commit to `redesign/src/app/App.
 ## What was not fixed
 - **F-01** — Not a real bug. The STAGING badge is already correctly hidden in the prod build.
 
+## Staging QA results
+
+Tested against the actual staging build (`VITE_TARGET=staging`, base path `/newapp/staging/`) served locally — the same bundle that CI deploys to `kbarbu12.github.io/newapp/staging/`.
+
+| Check | Result |
+|-------|--------|
+| STAGING badge visible on staging build | ✅ Correct — shows on staging, hidden on prod |
+| Onboarding intro card (desktop) | ✅ "1,117 quests across 16 RPGs…" shown when no game/filter active |
+| Onboarding card hides after game selection | ✅ Disappears when Elden Ring is selected |
+| "scroll" label removed | ✅ Gone |
+| Difficulty chips inline | ✅ All / Low / Medium / High visible below game chips |
+| Header count updates on game filter | ✅ Shows "70 quests · Elden Ring" |
+| "Steps" badge / "Guide" badge removed | ✅ Steps present, Guide gone |
+| Quest detail modal | ✅ Type, difficulty, duration, location, region, summary, tip, reward, video link all render |
+| Completion chip after Mark done | ✅ ER chip changes from "70 quests" to "1/70" in accent colour |
+| Email removed from footer | ✅ Replaced with "Report an issue ↗" |
+| MRF quest count | ✅ 111 quests (correct — staging has all 71 new entries) |
+| Mobile home view | ✅ Game chips, intro card, quest list all render correctly |
+| Mobile quest detail | ✅ Full modal renders correctly at 390px |
+| Auto-load on scroll (F-09) | ⚠️ Not exercised in automated QA — sentinel is in the DOM; relies on real scroll behaviour |
+| Saved tab empty state | ⚠️ Tab navigation didn't fire in automated QA context; empty-state CTA code is confirmed in source |
+
+**Status: ready for your review at `/staging/` before promoting to prod.**
+
+## Additional improvements identified during QA
+
+These were not in the original 12 findings. Noted here for the next pass.
+
+| # | Area | Finding | Reasoning |
+|---|------|---------|-----------|
+| N-01 | Default sort | When "All" games are shown, quests are ordered arbitrarily (BG3 first, then ER, FF7R, etc.) rather than grouped by game. A user scanning all quests has no logical structure to navigate. | Defaulting the sort to "Game" when no game chip is selected would make the full list far more scannable — all BG3 quests together, then all ER quests, etc. Right now the "Sort: Game" option exists but isn't the default. |
+| N-02 | Search UX | The search box has no clear/reset button (×). Once a user types something and wants to go back to browsing, they have to manually delete the text. | A small × icon inside the input that clears it on click is a standard pattern that saves friction. |
+| N-03 | Mobile difficulty chips | The inline Difficulty chips row added below the game carousel wasn't visible in the first 30 lines of the mobile page text — it may be rendered below the fold or clipped. Needs a real device check. | If the chips are out of view on mobile, the whole F-06 fix gives no benefit on the platform where filtering matters most. |
+| N-04 | "Sort: Game" label | The sort dropdown option reads "Sort: Game" but what it actually does is group quests by game alphabetically. The label is accurate but "Sort: Game" could be read as "sort by the game's name" — which is what it does — or "sort within a game" which it doesn't. | Renaming to "Sort: By Game" or "Group by Game" would remove the ambiguity. Minor, but sort controls are a common source of user confusion. |
+| N-05 | No visual selected state on game chips | When a game chip is selected, it scales up slightly and gets a border highlight — but the selected chip often scrolls out of view as the page reflows after filtering. There's no persistent visible indicator (e.g. a chip that stays in view) showing which game is currently active. | The "↺ Show all" link appears, but a user who scrolled past the chip row has no way to see which game is filtered without scrolling back up. A sticky indicator or a label like "Filtered: Elden Ring ×" near the search bar would solve it. |
+
 ---
 
 # Update — Metaphor: ReFantazio Full Quest Database (71 New Entries)
