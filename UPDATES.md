@@ -1,3 +1,41 @@
+# Update — UX Round 2 Improvements (N-01 through N-05)
+
+**Date:** 2026-07-13
+**Branch:** `staging`
+**Deploy target:** `kbarbu12.github.io/newapp/staging/` only — not yet promoted to prod
+
+## What this update does
+Tackled the 5 follow-up improvement findings (N-01 through N-05) identified during the first staging QA pass. All changes are in `redesign/src/app/App.tsx`.
+
+## Changes applied
+
+| # | Area | Change |
+|---|------|--------|
+| N-01 | Default sort | When "All" games is selected, the sort order defaults to grouping by game name (`a.game.localeCompare(b.game)`). All BG3 quests appear together, then ER, FF7R, etc. — previously the order was arbitrary. |
+| N-02 | Search clear | A × button now appears inside the search input whenever text is present. Clicking it clears the search and restores the full quest list without manual backspacing. |
+| N-03 | Difficulty chips mobile | The inline Difficulty chips row now has `overflow-x-auto` and `flex-nowrap` so it scrolls horizontally on narrow screens instead of wrapping or clipping. |
+| N-04 | Sort label clarity | "Sort: Game" renamed to "Sort: By Game" in the sort dropdown to disambiguate. |
+| N-05 | Active-game indicator | When a game chip is selected, a pill button showing the game name + × appears inline next to the search bar. Clicking it deselects the game and shows all quests again — no need to scroll back up to the chip row. |
+
+## Staging QA results (round 2)
+
+Tested against a fresh `pnpm build:staging` bundle served at `/newapp/staging/` via Playwright + Chromium headless.
+
+| Check | Result |
+|-------|--------|
+| N-04 Sort: By Game label in dropdown | ✅ Correct |
+| N-01 Sort by game option works | ✅ Grid renders when sort selected |
+| N-02 Clear button appears on search input | ✅ Visible after typing |
+| N-02 Clear button empties input | ✅ Input value = "" after click |
+| N-05 Active game pill appears on game select | ✅ Shows "Baldur's Gate 3 ×" |
+| N-05 Pill click deselects game | ✅ Pill disappears, all quests shown |
+| N-03 Difficulty row has overflow-x-auto | ✅ Correct class present |
+| App renders | ✅ |
+
+**Status: all 5 improvements verified on staging. Ready for review before promoting to prod.**
+
+---
+
 # Update — UX Review & Fixes (10 Issues Resolved)
 
 **Date:** 2026-07-13
