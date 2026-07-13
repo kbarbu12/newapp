@@ -20229,6 +20229,15 @@ const quests = [
       "A secret dungeon only accessible after clearing the true ending. The ultimate challenge of Metaphor: ReFantazio — enemies here exceed final boss difficulty and require maxed-out Archetypes.",
     aiTip:
       "Bring your three strongest Archetype builds and enough revival items for a sustained run. The final floor boss has no elemental weakness.",
+    walkthrough: [
+      "Complete the true ending route and reach the postgame save point.",
+      "Look for the hidden dungeon entrance in the Skanda region — it only appears after the credits.",
+      "Stock up on revival items, MP restoratives, and high-tier consumables before entering.",
+      "Each floor introduces enemies that exceed final-boss difficulty; use Press Turn mechanics to chain weaknesses.",
+      "Max out your three primary Archetypes before attempting — underlevelled parties will be wiped on floor 3+.",
+      "The final floor boss has no elemental weakness; use your strongest physical and almighty skills.",
+      "Clearing the dungeon unlocks the ultimate equipment set and the platinum trophy route."
+    ],
     video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
   }
 ];
