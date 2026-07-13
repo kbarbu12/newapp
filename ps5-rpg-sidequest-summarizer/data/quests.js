@@ -18740,7 +18740,7 @@ const quests = [
   },
   // ── Metaphor: ReFantazio — Main Quests (MQ-01 to MQ-11) ──
   {
-    id: 1057,
+    id: 1128,
     type: "main",
     game: "Metaphor: ReFantazio",
     region: "Grand Trad",
@@ -18756,7 +18756,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
   },
   {
-    id: 1058,
+    id: 1129,
     type: "main",
     game: "Metaphor: ReFantazio",
     region: "Grand Trad",
@@ -19043,6 +19043,7 @@ const quests = [
       "A Grand Trad resident is in trouble and needs help that goes beyond coin. A short quest that expands the city's texture and rewards a modest MAG boost.",
     aiTip:
       "Talk to everyone around the quest NPC — one of their neighbours holds the key information needed to resolve the situation.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+A+Friend+in+Need+walkthrough",
     walkthrough: [
       "Speak to the troubled NPC in Grand Trad with the '!' marker to accept the quest.",
       "Talk to the two neighbours indicated nearby to gather information about the problem.",
@@ -19065,6 +19066,7 @@ const quests = [
       "A child has wandered off into a dangerous part of Grand Trad. Track them down before nightfall in this time-sensitive fetch quest that rewards Courage stat growth.",
     aiTip:
       "The child hides in the area nearest the city walls — check the outer residential alley first to save time.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Child+walkthrough",
     walkthrough: [
       "Accept the quest from the worried parent in the Grand Trad residential district.",
       "Head to the outer alley near the city walls — the child is hiding behind a stack of crates.",
@@ -19087,6 +19089,7 @@ const quests = [
       "A market merchant needs a specific item retrieved to fulfil a trade order. Simple but rewards a permanent shop discount that makes it well worth doing early.",
     aiTip:
       "The item the merchant needs is sold by the vendor two stalls over — buy it immediately and return for the discount reward.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Merchant%27s+Request+walkthrough",
     walkthrough: [
       "Talk to the merchant with the '!' marker in Grand Trad's market district.",
       "Note the specific item they need — it is stocked by a nearby vendor in the same market.",
@@ -19109,6 +19112,7 @@ const quests = [
       "A courier is blocked from making a delivery by a bureaucratic obstacle. Help cut through the red tape and see the package delivered to earn Tolerance stat growth.",
     aiTip:
       "The gatekeeper NPC who is blocking the delivery has a hidden condition — speak to a nearby guard first to learn how to satisfy it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Delivery+Troubles+walkthrough",
     walkthrough: [
       "Accept the quest from the frustrated courier outside a gated district in Grand Trad.",
       "Talk to the nearby guard to learn what document or condition would allow passage.",
@@ -19131,6 +19135,7 @@ const quests = [
       "Goods have been stolen from a vendor in the market. Track the thief through Grand Trad, retrieve the stolen merchandise, and return it to the owner.",
     aiTip:
       "The thief is near the city's lower district — follow the trail of NPC hints rather than wandering; each one points closer.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Stolen+Goods+Recovery+walkthrough",
     walkthrough: [
       "Speak to the victimised vendor with the '!' marker in the Grand Trad market.",
       "Ask nearby stall owners about unusual activity — each gives a clue narrowing the location.",
@@ -19153,6 +19158,7 @@ const quests = [
       "A soldier stationed at Fort Endra is struggling with something that goes beyond combat fatigue. Hear him out, gather what he needs, and help him find his footing again.",
     aiTip:
       "This quest has two parts visited on separate calendar days — return to Fort Endra after advancing the main quest by one day.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Troubled+Soldier+walkthrough",
     walkthrough: [
       "Find the troubled soldier at Fort Endra's barracks with the '!' quest marker.",
       "Listen to his concerns and choose the empathetic dialogue response to progress the quest.",
@@ -19175,6 +19181,7 @@ const quests = [
       "An NPC has lost a treasured necklace somewhere in Grand Trad. Search the city's hidden corners, question witnesses, and return the keepsake for a Wisdom reward.",
     aiTip:
       "The necklace is in a non-obvious spot behind a breakable object — check the area around the fountain near the market.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Lost+Necklace+walkthrough",
     walkthrough: [
       "Accept the quest from the upset NPC near the Grand Trad residential entrance.",
       "Question the three witnesses scattered around the central plaza for location clues.",
@@ -19197,6 +19204,7 @@ const quests = [
       "A healer needs rare herbs to prepare medicine for sick residents. Gather the herbs from the outskirts of Grand Trad and return them for a healing item reward.",
     aiTip:
       "The herbs spawn on the outer road near the Gauntlet Runner docking area — they respawn on calendar days so check back if you missed them.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Herbal+Remedy+walkthrough",
     walkthrough: [
       "Speak to the healer at the clinic in Grand Trad with the '!' marker.",
       "Head to the outer road near the Gauntlet Runner dock and gather the glowing herb nodes.",
@@ -19219,6 +19227,7 @@ const quests = [
       "A city guard needs backup during a short patrol after reports of suspicious activity near the gate. Accompany them, handle any encounter, and report back.",
     aiTip:
       "The enemy that spawns during patrol is weak to lightning — bring a Mage-type Archetype for a quick sweep.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Guard+Duty+Assistance+walkthrough",
     walkthrough: [
       "Talk to the guard at the Grand Trad city gate with the '!' marker to start escort duty.",
       "Follow the guard along the patrol route, keeping pace with their movement.",
@@ -19241,6 +19250,7 @@ const quests = [
       "A fisherman at Port Brilehaven is being driven out of his usual spot by a territorial creature. Clear the nuisance and let him fish in peace.",
     aiTip:
       "The creature guarding the fishing spot is an early-rank bounty-style monster — hit it with fire to end the fight quickly.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Fisherman%27s+Problem+walkthrough",
     walkthrough: [
       "Find the fisherman with the '!' marker at Port Brilehaven's dock.",
       "Head to the marked fishing spot on the port's outer edge where the creature lurks.",
@@ -19263,6 +19273,7 @@ const quests = [
       "An elderly woman asks you to find a specific person in Grand Trad she has lost contact with. A simple but touching quest about reconnection in the middle of political upheaval.",
     aiTip:
       "The person she's looking for has moved to a different district — check the lower residential area near the market.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Old+Woman%27s+Request+walkthrough",
     walkthrough: [
       "Speak to the old woman with the '!' marker near the Grand Trad residential square.",
       "Note the name of the person she is looking for and head to the lower residential district.",
@@ -19285,6 +19296,7 @@ const quests = [
       "A merchant's cart broke down on the trade road into Martira, blocking goods from reaching the market. Gather repair materials from the roadside and fix the cart.",
     aiTip:
       "The repair materials are scattered on the road itself as glowing pickups — no combat required for this quest.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Broken+Cart+walkthrough",
     walkthrough: [
       "Speak to the stranded merchant on the trade road outside Martira with the '!' marker.",
       "Walk along the road and collect the three glowing material nodes nearby.",
@@ -19307,6 +19319,7 @@ const quests = [
       "Refugees from the ongoing conflict need aid that the city can't provide alone. Gather supplies, speak to the right official, and ensure the camp gets what it needs.",
     aiTip:
       "The official who can authorize aid is in the Martira government building — bring him the petition from the camp leader first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Refugee+Aid+walkthrough",
     walkthrough: [
       "Visit the refugee camp on Martira's outskirts and speak to the camp leader with the '!' marker.",
       "Accept the petition document and take it to the official in the Martira government building.",
@@ -19329,6 +19342,7 @@ const quests = [
       "Two noble factions in Martira are on the verge of a violent confrontation. Mediate the dispute using dialogue skill and gather intel on Louis's backing in the process.",
     aiTip:
       "The correct mediation path requires Wisdom Rank 3 — if you don't have it, grind a social activity first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Dispute+walkthrough",
     walkthrough: [
       "Speak to the agitated noble representative near the Martira noble district gate.",
       "Visit both factions' representatives and hear each side's grievance.",
@@ -19351,6 +19365,7 @@ const quests = [
       "A food supply shortage is hitting Martira's lower districts hard. Track down where the supplies are being diverted and return them to the market.",
     aiTip:
       "The diversion point is a storage warehouse on the docks — a guard there requires either a bribe (costs MAG) or a Courage check to pass.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Food+Supply+Crisis+walkthrough",
     walkthrough: [
       "Speak to the market vendor with the '!' marker about the food shortage.",
       "Follow the paper trail by visiting the city's supply office and asking about recent shipments.",
@@ -19373,6 +19388,7 @@ const quests = [
       "A merchant caravan needs protection on a stretch of road where bandits have been active. Escort them safely through two ambush encounters.",
     aiTip:
       "The second ambush includes a magic-type enemy that hits hard — position your knight Archetype in front and have your healer ready.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Caravan+Escort+walkthrough",
     walkthrough: [
       "Speak to the caravan leader at the Martira gate with the '!' marker to begin the escort.",
       "Follow the caravan along the trade road; the first bandit ambush triggers after the first bend.",
@@ -19396,6 +19412,7 @@ const quests = [
       "A large predatory beast has been terrorizing travellers in the forest outside Grand Trad. Accept the bounty from the recruitment center and eliminate it.",
     aiTip:
       "The Forest Beast is weak to fire — a single Mage with a fire Archetype can stagger it each round.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Forest+Beast+walkthrough",
     walkthrough: [
       "Accept the Forest Beast bounty from the recruitment center in Grand Trad.",
       "Travel to the forest zone indicated on the world map and locate the creature's territory.",
@@ -19418,6 +19435,7 @@ const quests = [
       "Something horrifying lurks in the cave system east of Grand Trad. Track it to its den and exterminate it before it claims more victims.",
     aiTip:
       "Bring a torch or light-type skill — the cave has dark sections that reduce accuracy without illumination.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Cave+Horror+walkthrough",
     walkthrough: [
       "Pick up the Cave Horror bounty at the Grand Trad recruitment center.",
       "Navigate the cave entrance using the minimap — the Horror is in the deepest chamber.",
@@ -19440,6 +19458,7 @@ const quests = [
       "The leader of a bandit gang operating on Martira's outskirts has a bounty on their head. Find their camp and defeat them to break up the gang.",
     aiTip:
       "The Bandit Leader surrounds themselves with three minions — use a multi-target spell to clear the adds first, then focus the leader.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Bandit+Leader+walkthrough",
     walkthrough: [
       "Accept the Bandit Leader bounty from Martira's recruitment center.",
       "Head to the camp location on Martira's outskirts — look for smoke on the hillside.",
@@ -19462,6 +19481,7 @@ const quests = [
       "A massive creature has claimed the Martira swamplands, cutting off a key supply route. Eliminate it to reopen the path.",
     aiTip:
       "The Swamp Creature is resistant to physical attacks and water — bring wind or electric Archetypes for best results.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Swamp+Creature+walkthrough",
     walkthrough: [
       "Accept the Swamp Creature bounty at the Martira recruitment center.",
       "Travel to the swamplands zone south of Martira — expect the terrain to slow movement.",
@@ -19484,6 +19504,7 @@ const quests = [
       "An apex predator is picking off caravans crossing the Tradia Desert. Hunt it down and secure the trade route.",
     aiTip:
       "Desert Predators are fast and attack first — equip an Agility-boosting accessory or use a Knight Archetype to absorb the opening hit.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Desert+Predator+walkthrough",
     walkthrough: [
       "Pick up the Desert Predator bounty from Martira's recruitment center before heading into the desert.",
       "Travel through the Tradia Desert and look for tracks leading to the predator's hunting ground.",
@@ -19506,6 +19527,7 @@ const quests = [
       "A Mountain Giant is blocking the Kriegante mountain pass, making travel impossible. Take the bounty and clear the path — but be prepared for a multi-phase fight.",
     aiTip:
       "Giants have enormous HP and hit extremely hard — bring a Healer Archetype and stack physical defense buffs before engaging.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Mountain+Giant+walkthrough",
     walkthrough: [
       "Accept the Mountain Giant bounty from the Kriegante recruitment center.",
       "Travel up the mountain pass to the giant's location — be prepared, it patrols a large area.",
@@ -19528,6 +19550,7 @@ const quests = [
       "An undead commander is rallying the dead in Kriegante's ancient ruins, threatening the region. Put it down permanently and disperse its undead forces.",
     aiTip:
       "Light-element skills are essential here — both the commander and its undead retinue share a light weakness.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Undead+Commander+walkthrough",
     walkthrough: [
       "Accept the Undead Commander bounty at the Kriegante recruitment center.",
       "Navigate the ruins to the central hall where the commander is raising the dead.",
@@ -19550,6 +19573,7 @@ const quests = [
       "A rogue mage has taken over a tower in Kriegante and is using it to launch magical attacks on the region. Ascend the tower and bring the mage down.",
     aiTip:
       "The Rogue Mage reflects magical attacks periodically — watch for the buff indicator and switch to physical skills when it is active.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Rogue+Mage+walkthrough",
     walkthrough: [
       "Take the Rogue Mage bounty from the Kriegante recruitment center.",
       "Enter the tower and fight through the two floors of construct guardians — they fall easily to physical attacks.",
@@ -19572,6 +19596,7 @@ const quests = [
       "A rogue fighter has claimed the Grand Trad Arena's champion title through force and intimidation. Challenge them in a regulated bout and take back the title.",
     aiTip:
       "The Arena Champion has no elemental weakness — fight with your strongest physical Archetypes and buff up before the match.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Arena+Champion+walkthrough",
     walkthrough: [
       "Pick up the Arena Champion bounty from the Grand Trad recruitment center.",
       "Register at the arena front desk and wait for the match to be announced.",
@@ -19594,6 +19619,7 @@ const quests = [
       "An Ancient Guardian has awoken in Skanda's ruins and is classified as an SSS-rank threat. The highest-tier bounty in the game — only attempt it with maxed Archetypes.",
     aiTip:
       "The Ancient Guardian cycles through elemental buffs — bring a party that can exploit multiple elements and switch targets based on the active cycle.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Ancient+Guardian+walkthrough",
     walkthrough: [
       "Accept the Ancient Guardian bounty at the Skanda recruitment center — requires having cleared all previous bounties.",
       "Enter the ruins and navigate to the inner sanctum where the guardian stands dormant.",
@@ -19617,6 +19643,7 @@ const quests = [
       "Suspicious activity in Grand Trad's cathedral district warrants an investigation. Interview clergy, search restricted areas, and uncover who is operating in the shadows of the church.",
     aiTip:
       "One of the priests you need to interview will only speak to you after a Wisdom Rank 3 dialogue check — raise Wisdom first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Church+Investigation+walkthrough",
     walkthrough: [
       "Accept the investigation request from the contact with the '!' marker near the cathedral.",
       "Interview three clergy members in the district — note their inconsistencies.",
@@ -19639,6 +19666,7 @@ const quests = [
       "A spy is leaking election campaign intelligence in Martira. Identify them before they can report to their handlers and eliminate the information leak.",
     aiTip:
       "The spy rotates between three locations on a schedule — visit each location in the morning, afternoon, and evening to catch them in the act.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Political+Spy+Hunt+walkthrough",
     walkthrough: [
       "Accept the quest from the contact in the Martira government district.",
       "Visit the three indicated locations — government office, market, and tavern — at different times of day.",
@@ -19661,6 +19689,7 @@ const quests = [
       "A mid-ranking official who handles merchant permits has gone missing. Find them — the trail leads somewhere unexpected and reveals a minor conspiracy.",
     aiTip:
       "The official is being held in the dockside warehouse — you need Courage Rank 2 to bluff past the guard at the gate.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Official+walkthrough",
     walkthrough: [
       "Speak to the official's aide with the '!' marker in the Martira government building.",
       "Ask merchants in the market about the official — one saw them near the docks.",
@@ -19683,6 +19712,7 @@ const quests = [
       "Rumours point to an underground network operating beneath Grand Trad dealing in stolen Archetypes. Infiltrate it and shut it down before it grows further.",
     aiTip:
       "The underground entrance is accessed through a hidden door in the market's eastern alley — inspect the cracked wall to reveal it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Underground+Network+walkthrough",
     walkthrough: [
       "Accept the investigation tip from the informant with the '!' marker in the market alley.",
       "Inspect the cracked wall in the eastern alley to find and open the hidden entrance.",
@@ -19705,6 +19735,7 @@ const quests = [
       "A smuggling operation at Port Brilehaven is funnelling goods to Louis's faction. Expose the ring's ringleader and disrupt the supply chain.",
     aiTip:
       "The ringleader is disguised as a dockworker — use the Wisdom dialogue check to identify them from a group of three suspects.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Smuggling+Ring+walkthrough",
     walkthrough: [
       "Accept the quest from the customs officer with the '!' marker at Port Brilehaven.",
       "Inspect the three marked cargo areas on the docks for suspicious manifests.",
@@ -19727,6 +19758,7 @@ const quests = [
       "A historian believes a hidden archive beneath Grand Trad's library holds records that could change the kingdom's official history. Help access and retrieve the documents.",
     aiTip:
       "The hidden archive door requires solving a three-part symbol puzzle — the solution is hinted at in the books on the library's upper floor.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Archive+walkthrough",
     walkthrough: [
       "Speak to the historian with the '!' marker in Grand Trad's library.",
       "Read the three relevant books on the upper floor to gather the symbol puzzle hints.",
@@ -19749,6 +19781,7 @@ const quests = [
       "A whistleblower reveals that illegal experiments are being conducted in a Martira research facility. Investigate, gather evidence, and neutralise the experiment before it escapes.",
     aiTip:
       "The experimental creature that escapes at the quest's climax has no elemental weakness — use debuffs to reduce its stats and outlast it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Secret+Experiment+walkthrough",
     walkthrough: [
       "Meet the whistleblower at the Martira marketplace to receive the facility location and access key.",
       "Enter the research facility after hours and document the experiments in the first two labs.",
@@ -19771,6 +19804,7 @@ const quests = [
       "Noble families in Kriegante are conspiring to tip the Royal Election through fraud and intimidation. Expose the conspiracy to protect the election's integrity.",
     aiTip:
       "This quest has three investigation stages spread across three calendar days — start it at least four days before the next main quest deadline.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Conspiracy+walkthrough",
     walkthrough: [
       "Accept the quest from the anonymous tip contact with the '!' marker in Kriegante's town square.",
       "On day 1, investigate the noble's estate by interviewing servants — gather statements from two of them.",
@@ -19793,6 +19827,7 @@ const quests = [
       "Critical royal documents have gone missing from the archive during the political chaos. Retrieve them before they fall into the wrong hands.",
     aiTip:
       "The thief who stole the documents took them to the market district — a Courage Rank 2 check convinces a fence to give up the buyer's location.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Royal+Document+Recovery+walkthrough",
     walkthrough: [
       "Speak to the archive custodian with the '!' marker in the Grand Trad Royal Archive.",
       "Head to the market and locate the fence who received the stolen documents.",
@@ -19815,6 +19850,7 @@ const quests = [
       "An assassination plot targeting an election candidate has been uncovered. Stop the assassins before the target is killed — failure ends the candidate's campaign permanently.",
     aiTip:
       "This quest is time-sensitive: once accepted, you have two calendar days to complete it. The assassins are among the toughest enemies in the side quest pool.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Assassin+Plot+walkthrough",
     walkthrough: [
       "Accept the urgent tip from the informant at Martira's tavern — the clock starts immediately.",
       "Head to the candidate's safehouse and confirm the threat — pick up the assassins' trail from a witness.",
@@ -19838,6 +19874,7 @@ const quests = [
       "A sacred artifact has been moved to an unsecured part of the Grand Trad cathedral. Retrieve it before thieves can claim it.",
     aiTip:
       "The vault section of the cathedral has dark corridors that lower accuracy — equip a light skill before entering.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Retrieve+Sacred+Artifact+walkthrough",
     walkthrough: [
       "Speak to the cathedral keeper with the '!' marker about the missing artifact.",
       "Enter the lower cathedral vault via the side passage behind the main altar.",
@@ -19860,6 +19897,7 @@ const quests = [
       "A soldier's heirloom weapon was lost on the battlefield outside Martira. Enter the monster-infested field to find it.",
     aiTip:
       "The weapon is in a chest guarded by a stronger-than-usual field enemy — preemptive strike from behind to get the initiative advantage.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Recover+Lost+Weapon+walkthrough",
     walkthrough: [
       "Accept the quest from the veteran soldier with the '!' marker at Fort Endra.",
       "Travel to the battlefield zone outside Martira marked on the map.",
@@ -19882,6 +19920,7 @@ const quests = [
       "A collector in Skanda is seeking ancient relics buried in the region's ruins. Retrieve three specific pieces from different ruin chambers.",
     aiTip:
       "Each chamber has a trap mechanic — step on the correct floor tiles to deactivate traps before opening the relic chest.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Ancient+Relic+Hunt+walkthrough",
     walkthrough: [
       "Accept the hunt from the collector with the '!' marker in Skanda's town.",
       "Travel to the Skanda ruins and enter the first chamber — deactivate the trap tiles before opening the chest.",
@@ -19904,6 +19943,7 @@ const quests = [
       "The key to a sealed treasure vault inside Martira's dungeon has been misplaced. Find the key and unlock the vault for the dungeon's keeper.",
     aiTip:
       "The key is held by a mid-boss on floor two — it will not drop unless you trigger the quest first, so accept it before entering the dungeon.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Dungeon+Key+Search+walkthrough",
     walkthrough: [
       "Speak to the dungeon keeper with the '!' marker at the Martira dungeon entrance.",
       "Enter the dungeon and proceed to floor two, fighting through the standard enemy patrol.",
@@ -19926,6 +19966,7 @@ const quests = [
       "An old treasure map has surfaced in Grand Trad's market. Decode the map's clues to find the buried treasure before another party gets there first.",
     aiTip:
       "The three map clues correspond to city landmarks — the fountain, the gate, and the old tree — each pointing to the next location.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Treasure+Map+walkthrough",
     walkthrough: [
       "Purchase or receive the treasure map from an NPC with the '!' marker in the market.",
       "Visit the fountain landmark and examine it to find the first directional clue.",
@@ -19948,6 +19989,7 @@ const quests = [
       "A librarian reveals that an abandoned wing of the Grand Trad library holds books sealed off for decades. Clear out the monsters that moved in and recover the lost volumes.",
     aiTip:
       "The enemies in the abandoned wing are undead — bring light-element skills to sweep them efficiently.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forgotten+Library+walkthrough",
     walkthrough: [
       "Speak to the librarian with the '!' marker about the forbidden abandoned wing.",
       "Gain access to the wing via a key the librarian provides.",
@@ -19970,6 +20012,7 @@ const quests = [
       "Partially submerged coastal ruins near Martira hide a cache of pre-kingdom treasures. Wade into the ruins and retrieve them before the tides rise again.",
     aiTip:
       "The boss guarding the treasure cache is ice-elemental — bring fire Archetypes for easy damage and exploit the weakness for Press Turns.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Sunken+Ruins+Expedition+walkthrough",
     walkthrough: [
       "Accept the expedition request from the adventurer with the '!' marker at Port Brilehaven.",
       "Travel to the coastal ruins location and navigate the flooded first floor on foot.",
@@ -19992,6 +20035,7 @@ const quests = [
       "A craftsman in Skanda needs a crystal core from the depths of the local crystal caves to forge a special weapon. Retrieve the core from the cave's guarded inner chamber.",
     aiTip:
       "The Crystal Guardian boss shatters into multiple smaller crystals when damaged — use area-of-effect skills to damage all fragments simultaneously.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Crystal+Core+Retrieval+walkthrough",
     walkthrough: [
       "Accept the commission from the craftsman with the '!' marker in Skanda's market.",
       "Enter the crystal caves and follow the luminescent trail to the inner chamber.",
@@ -20014,6 +20058,7 @@ const quests = [
       "A forbidden tome locked away in Kriegante Castle's private library contains dangerous knowledge. Retrieve it before the wrong people read it.",
     aiTip:
       "Access to the castle library requires either Louis's enemy status to have been established in the story, or a Wisdom Rank 4 forgery check.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forbidden+Tome+walkthrough",
     walkthrough: [
       "Accept the quest from the scholar contact with the '!' marker in Kriegante's town.",
       "Gain castle library access via the story flag or the Wisdom Rank 4 forgery check.",
@@ -20036,6 +20081,7 @@ const quests = [
       "A mystic orb of enormous power has been stolen from Skanda's spirit shrine and taken deep into a spirit-infested ruin. Recover it before it falls into enemy hands.",
     aiTip:
       "The spirit enemies here drain MP instead of HP on their special attacks — bring MP recovery items or a Knight tank to absorb the drain.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Mystic+Orb+Recovery+walkthrough",
     walkthrough: [
       "Accept the recovery quest from the shrine keeper with the '!' marker at Skanda's spirit shrine.",
       "Enter the ruin and encounter the spirit enemies — bring MP recovery items to counter their drain attacks.",
@@ -20059,6 +20105,7 @@ const quests = [
       "Grand Trad is holding a festival and volunteers are needed to help set up. A brief but rewarding quest that unlocks festival-exclusive items only available during this calendar window.",
     aiTip:
       "The festival quest is available for only two calendar days — accept and complete it immediately when it appears.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Festival+Preparation+walkthrough",
     walkthrough: [
       "Spot the '!' marker at the Grand Trad plaza — it appears only during the designated festival calendar window.",
       "Accept the organizer's request and complete the three preparation tasks: gather supplies, decorate the stall, and recruit a performer.",
@@ -20081,6 +20128,7 @@ const quests = [
       "Qualify for the Grand Trad Arena's main tournament bracket by winning the qualifier rounds. Three consecutive fights with increasing difficulty.",
     aiTip:
       "The third qualifier opponent uses a full buff rotation on turn one — dispel their buffs immediately with a Mage's dekaja skill.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Tournament+Qualifier+walkthrough",
     walkthrough: [
       "Register at the Grand Trad Arena front desk for the qualifier tournament.",
       "Win the first qualifier fight — the opponent is straightforward, weak to ice.",
@@ -20119,6 +20167,7 @@ const quests = [
       "Each party member has a final Companion Trial that tests them in a scenario tied to their personal story. Completing it maxes their bond rank and unlocks their ultimate ability.",
     aiTip:
       "Companion Trials unlock only after reaching Follower Rank 9 with the corresponding party member — invest time in their bond early.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Companion+Trial+walkthrough",
     walkthrough: [
       "Reach Follower Rank 9 with the companion whose trial you want to unlock.",
       "The '!' trial marker appears at the companion's preferred location in the current city.",
@@ -20157,6 +20206,7 @@ const quests = [
       "A small set of tasks on the Gauntlet Runner and in Skanda town before the final dungeon locks out side content. Completing them provides permanent stat buffs for the finale.",
     aiTip:
       "These tasks are only available in the short window after MQ-09 and before entering the Skybound Avatar — do not skip them.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Final+Preparation+Task+walkthrough",
     walkthrough: [
       "After MQ-09 completes, speak to each party member on the Gauntlet Runner with a '!' marker.",
       "Complete the three short activities they request — each takes less than one calendar day.",
@@ -20179,6 +20229,6 @@ const quests = [
       "A secret dungeon only accessible after clearing the true ending. The ultimate challenge of Metaphor: ReFantazio — enemies here exceed final boss difficulty and require maxed-out Archetypes.",
     aiTip:
       "Bring your three strongest Archetype builds and enough revival items for a sustained run. The final floor boss has no elemental weakness.",
-    video: "https://www.youtube.com/watch?v=tOx-mhC-VeY"
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
   }
 ];
