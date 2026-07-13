@@ -279,7 +279,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
             </Pill>
             <DifficultyChip level={quest.difficulty}/>
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
             <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
           </div>
         </div>
@@ -316,7 +316,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
           {showGameLabel && <span className="text-[10px] font-semibold tracking-wider uppercase truncate" style={{ color:col }}>{quest.game}</span>}
           <div className="flex items-center gap-2 shrink-0 ml-auto">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
             {onComplete && (
               <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={completed?"text-emerald-400":"text-muted-foreground/40 hover:text-emerald-400 transition-colors"}>
                 {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
@@ -353,11 +353,12 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
 
 // ─── GameGallery (with arrows) ────────────────────────────────────────────────
 
-function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect:(g:string)=>void }) {
+function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:string; onSelect:(g:string)=>void; completedIds:Set<number> }) {
   const ref = useRef<HTMLDivElement>(null);
   const [canL, setCanL] = useState(false);
   const [canR, setCanR] = useState(true);
   const questCount = useMemo(()=>{ const m:Record<string,number>={};QUESTS.forEach(q=>{m[q.game]=(m[q.game]||0)+1;});return m; },[]);
+  const completedCount = useMemo(()=>{ const m:Record<string,number>={};QUESTS.forEach(q=>{if(completedIds.has(q.id))m[q.game]=(m[q.game]||0)+1;});return m; },[completedIds]);
   const check = useCallback(()=>{ const el=ref.current;if(!el)return;setCanL(el.scrollLeft>8);setCanR(el.scrollLeft+el.clientWidth<el.scrollWidth-8); },[]);
   useEffect(()=>{ const el=ref.current;if(!el)return;check();el.addEventListener("scroll",check,{passive:true});window.addEventListener("resize",check);return()=>{el.removeEventListener("scroll",check);window.removeEventListener("resize",check);}; },[check]);
   const scroll=(dir:"left"|"right")=>{ ref.current?.scrollBy({left:dir==="right"?340:-340,behavior:"smooth"}); };
@@ -371,7 +372,7 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
         {Object.entries(GAMES).map(([name,meta])=>{
           const sel=selectedGame===name;
           return (
-            <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name}
+            <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name} title={name}
               className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
               style={{aspectRatio:"2/3"}}>
               <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover"/>
@@ -380,7 +381,11 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
               <div className="absolute bottom-0 inset-x-0 p-2 text-left">
                 <div className="text-[11px] sm:text-[9px] font-mono font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
-                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">{questCount[name]||0} quests</div>
+                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">
+                  {(completedCount[name]||0)>0
+                    ? <span style={{color:meta.accent}}>{completedCount[name]}/{questCount[name]||0}</span>
+                    : <>{questCount[name]||0} quests</>}
+                </div>
               </div>
             </button>
           );
@@ -672,13 +677,14 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void }) {
+function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
       <Bookmark size={32} className="text-muted-foreground/20"/>
-      <p className="text-muted-foreground text-sm">No saved quests yet.</p>
-      <p className="text-xs text-muted-foreground/60">Click the bookmark icon on any quest card to save it here.</p>
+      <p className="text-muted-foreground text-sm font-medium">No saved quests yet.</p>
+      <p className="text-xs text-muted-foreground/60 max-w-xs">Open any quest and tap <strong>Save</strong> to bookmark it here. Use <strong>Mark done</strong> to track your progress.</p>
+      <button onClick={onGoToLibrary} className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
     </div>
   );
   const groups = useMemo(()=>{
@@ -835,6 +841,30 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
   );
 }
 
+// ─── Quest grid with auto-load sentinel ──────────────────────────────────────
+
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame }: {
+  filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
+  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; toggleComplete: (id:number)=>void; selectedGame: string;
+}) {
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  useEffect(()=>{
+    const el = sentinelRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(entries=>{ if(entries[0].isIntersecting) setVisibleCount(v=>v+36); },{rootMargin:"200px"});
+    obs.observe(el);
+    return ()=>obs.disconnect();
+  },[setVisibleCount]);
+  return (
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"}/>)}
+      </div>
+      {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
+    </>
+  );
+}
+
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
@@ -899,6 +929,8 @@ export default function App() {
     if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
     if(sort==="game")return a.game.localeCompare(b.game);
     if(sort==="title")return a.title.localeCompare(b.title);
+    // default: group by game when viewing all so the list has clear structure
+    if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
   }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search,sort]);
 
@@ -970,7 +1002,11 @@ export default function App() {
             ))}
           </nav>
 
-          <span className="text-xs text-muted-foreground hidden md:block">{QUESTS.length} quests · {Object.keys(GAMES).length} games</span>
+          <span className="text-xs text-muted-foreground hidden md:block">
+            {tab==="browse" && selectedGame!=="All"
+              ? `${filtered.length} quests · ${selectedGame}`
+              : `${QUESTS.length} quests · ${Object.keys(GAMES).length} games`}
+          </span>
         </div>
       </header>
 
@@ -1019,11 +1055,17 @@ export default function App() {
                   <div className="flex items-center gap-3 mb-3">
                     <SectionEyebrow>Browse by Game</SectionEyebrow>
                     {selectedGame!=="All"&&<button onClick={()=>setSelectedGame("All")} className="text-[10px] text-primary hover:underline">↺ Show all</button>}
-                    <span className="hidden md:flex items-center gap-1 ml-auto text-[9px] text-muted-foreground/50">
-                      <ChevronLeft size={9}/> scroll <ChevronRight size={9}/>
-                    </span>
                   </div>
-                  <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame}/>
+                  <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame} completedIds={completedIds}/>
+                  <div className="flex items-center gap-2 mt-3 overflow-x-auto flex-nowrap pb-0.5">
+                    <span className="text-[10px] font-mono font-bold text-muted-foreground/60 uppercase tracking-widest mr-1">Difficulty</span>
+                    {(["All","Low","Medium","High"] as DiffFilter[]).map(d=>(
+                      <button key={d} onClick={()=>setDiffFilter(d)}
+                        className={`px-2.5 py-0.5 rounded-full text-[11px] font-medium border transition-colors ${diffFilter===d?"bg-primary text-primary-foreground border-primary":"border-border text-muted-foreground hover:text-foreground hover:border-white/30"}`}>
+                        {d}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
 
@@ -1033,11 +1075,26 @@ export default function App() {
           <main className="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-6">
             {tab==="browse" && (
               <>
+                {selectedGame==="All" && !search && typeFilter==="All" && diffFilter==="All" && lenFilter==="All" && videoFilter==="All" && (
+                  <div className="rounded-xl border border-border bg-secondary/30 px-5 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
+                    <div className="flex-1">
+                      <p className="text-sm font-semibold text-foreground">{QUESTS.length.toLocaleString()} quests across {Object.keys(GAMES).length} RPGs — tips, videos, and step-by-step guides.</p>
+                      <p className="text-xs text-muted-foreground mt-1">Pick a game above to browse its quests, or search for any quest by name below.</p>
+                    </div>
+                    <Swords size={28} className="text-primary/30 flex-shrink-0 hidden sm:block"/>
+                  </div>
+                )}
                 <div className="flex items-center gap-3 flex-wrap">
                   <div className="relative flex-1 max-w-md">
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
-                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
+                  {selectedGame!=="All" && (
+                    <button onClick={()=>setSelectedGame("All")} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-primary/40 bg-primary/10 text-xs font-medium text-primary hover:bg-primary/20 transition-colors">
+                      {selectedGame} <X size={11}/>
+                    </button>
+                  )}
                   <FiltersPopover activeFilters={activeFilters} onReset={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}}>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
@@ -1048,26 +1105,19 @@ export default function App() {
                     <option value="default">Sort: Default</option>
                     <option value="difficulty">Sort: Difficulty</option>
                     <option value="length">Sort: Length</option>
-                    <option value="game">Sort: Game</option>
+                    <option value="game">Sort: By Game</option>
                     <option value="title">Sort: Title</option>
                   </select>
                   <span className="text-sm text-muted-foreground">{filtered.length} result{filtered.length!==1?"s":""}</span>
                 </div>
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <>
-                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"}/>)}</div>
-                      {visibleCount<filtered.length && (
-                        <button onClick={()=>setVisibleCount(v=>v+BATCH)} className="mx-auto px-4 py-2 rounded-lg border border-border text-xs text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">
-                          Load more ({filtered.length-visibleCount} remaining)
-                        </button>
-                      )}
-                    </>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")}/>}
           </main>
         </>
       )}
@@ -1077,7 +1127,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-2"><Swords size={13} className="text-primary"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>RPG Quest Guide</span></div>
           <div className="flex flex-col sm:items-end gap-1">
-            <a href="mailto:k.barbu12@gmail.com" className="text-xs text-muted-foreground hover:text-primary transition-colors">k.barbu12@gmail.com</a>
+            <a href="https://github.com/kbarbu12/newapp/issues" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary transition-colors">Report an issue ↗</a>
             <p className="text-[10px] text-muted-foreground/50">Fan-made · Not affiliated with any publisher or developer.</p>
           </div>
         </div>
