@@ -1,3 +1,72 @@
+# Update — Metaphor: ReFantazio Full Quest Database (71 New Entries)
+
+**Date:** 2026-07-13
+**Branch:** `claude/mr-quests-walkthroughs-5c6pyx`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Added all 71 missing quests from the uploaded Metaphor: ReFantazio quest
+database docx to `ps5-rpg-sidequest-summarizer/data/quests.js`. Every entry
+has either a real YouTube `watch?v=` video URL (found via search) or a
+step-by-step walkthrough array.
+
+## What was added
+
+### Main Quests — MQ-01 to MQ-11 (11 entries, all with real video URLs)
+- Save the Prince from Death's Curse, Necromancer Takedown, Thwart Zorba's Plan
+- Apprehend the Real Kidnapper, Infiltrate the Charadrius, Obtain Drakodios
+- Ancestral Solution, Eliminate Virga Island's Threat, Prepare for the Final Battle
+- Skybound Avatar Conquest, Save the Country
+
+### More's Tasks — SQ-01 to SQ-07 (7 entries, all with real video URLs)
+Dedicated per-chapter YouTube videos exist for each:
+- Foreword and Prologue, Chapter One: Ordeal, Chapter Two: Solitude
+- Chapter Three: Drifting, Chapter Four: Turmoil, Chapter Five: Resolve
+- Chapter Six: The End
+
+### Favor / NPC Side Quests — SQ-10 to SQ-25 (16 entries, walkthroughs)
+A Friend in Need, Missing Child, Merchant's Request, Delivery Troubles,
+Stolen Goods Recovery, Troubled Soldier, Lost Necklace, Herbal Remedy,
+Guard Duty Assistance, Fisherman's Problem, Old Woman's Request, Broken Cart,
+Refugee Aid, Noble Dispute, Food Supply Crisis, Caravan Escort
+
+### Hunt / Bounty Quests — SQ-26 to SQ-35 (10 entries, walkthroughs)
+Forest Beast, Cave Horror, Bandit Leader, Swamp Creature, Desert Predator,
+Mountain Giant, Undead Commander, Rogue Mage, Arena Champion, Ancient Guardian
+
+### Investigation Quests — SQ-36 to SQ-45 (10 entries, walkthroughs)
+Church Investigation, Political Spy Hunt, Missing Official, Underground Network,
+Smuggling Ring, Hidden Archive, Secret Experiment, Noble Conspiracy,
+Royal Document Recovery, Assassin Plot
+
+### Retrieval / Dungeon Quests — SQ-46 to SQ-55 (10 entries, walkthroughs)
+Retrieve Sacred Artifact, Recover Lost Weapon, Ancient Relic Hunt,
+Dungeon Key Search, Hidden Treasure Map, Forgotten Library,
+Sunken Ruins Expedition, Crystal Core Retrieval, Forbidden Tome,
+Mystic Orb Recovery
+
+### Special / Time-Gated Quests — SQ-56 to SQ-65 (7 entries, mixed)
+Festival Preparation, Tournament Qualifier, Arena Challenge Series (video),
+Companion Trial, Secret Ending Requirement Quest (video), Final Preparation Task,
+Hidden Postgame Challenge (video)
+
+## What was skipped (already existed under different titles)
+SQ-08 Pagan's Dilemma, SQ-09 Help the Hushed Honeybee, SQ-57 Royal Debate Event
+(= The Royal Election Debates), SQ-60 Gauntlet Runner Trial (= The Gauntlet
+Runner Races), SQ-62 Virtue Test (= The King's Trials).
+
+## Video sourcing
+Real `youtube.com/watch?v=` URLs were found for all main quests and More's Tasks
+via targeted YouTube search. For the remaining side quests, no dedicated videos
+exist for the specific quest names, so step-by-step walkthroughs were written
+based on the game's mechanics (Archetypes, calendar system, Press Turn combat,
+Follower bonds, Virtue stats).
+
+## Quest count
+Metaphor: ReFantazio now has **113 quest entries** in the database.
+
+---
+
 # Update — Smarter Quest Assistant, Chat Info Panel & Mobile Chat Layout
 
 **Date:** 2026-07-11
