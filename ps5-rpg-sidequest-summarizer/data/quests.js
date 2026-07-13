@@ -18737,5 +18737,1448 @@ const quests = [
       "Beat the champions to claim the exclusive rewards."
     ],
     video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
+  },
+  // ── Metaphor: ReFantazio — Main Quests (MQ-01 to MQ-11) ──
+  {
+    id: 1057,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Save the Prince from Death's Curse",
+    location: "Grand Trad / Regalith Grand Cathedral",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, first Gauntlet Runner access",
+    summary:
+      "The opening main quest: the king is assassinated and his death-curse passes to the prince. Race against the calendar to find a cure while entering the Royal Election to claim the throne.",
+    aiTip:
+      "Time is limited from day one — prioritize the main dungeon over social activities on your first run. Learn the Archetype system here.",
+    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
+  },
+  {
+    id: 1058,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Necromancer Takedown",
+    location: "Grand Trad Cathedral",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Archetype mastery points",
+    summary:
+      "Pursue and defeat Zorba the Necromancer before he can use the undead to seize power. The dungeon tests your elemental coverage and introduces Synthesis attacks as a necessity.",
+    aiTip:
+      "Zorba summons undead constantly — use Synthesis Skills like Energy Ray and Hammer of Justice to wipe adds quickly before focusing the boss.",
+    video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
+  },
+  {
+    id: 1059,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Thwart Zorba's Plan",
+    location: "Grand Trad",
+    length: "long",
+    difficulty: "High",
+    reward: "Story advancement, new Archetype lines",
+    summary:
+      "Zorba has a backup scheme that threatens the election and the capital. Unravel his plot across multiple investigation scenes before a boss confrontation closes this chapter.",
+    aiTip:
+      "Reach the dungeon as early as the calendar allows — running out of days here forces a retry of the whole month.",
+    video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
+  },
+  {
+    id: 1060,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Apprehend the Real Kidnapper",
+    location: "Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation, Follower bond growth",
+    summary:
+      "A kidnapping in Martira has an unexpected culprit. Investigate informants across the city and track the true suspect before they escape, culminating in a mid-game boss fight.",
+    aiTip:
+      "Talk to every NPC that has a '!' marker — missing one informant locks you out of the true suspect's location.",
+    video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
+  },
+  {
+    id: 1061,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Infiltrate the Charadrius",
+    location: "The Charadrius (Louis's Flagship)",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation about Louis, key Archetype abilities",
+    summary:
+      "Board Louis's formidable flagship the Charadrius to gather intelligence. The dungeon is filled with elite soldiers and ends with an encounter that shifts the entire political landscape.",
+    aiTip:
+      "Stealth sections matter here — triggering alarms adds enemies that drain valuable MP before the boss.",
+    video: "https://www.youtube.com/watch?v=fOzug0yoLCg"
+  },
+  {
+    id: 1062,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Obtain Drakodios",
+    location: "Virga Island / Dragon Temple",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Drakodios relic, powerful late-game Archetypes",
+    summary:
+      "Sail to the remote Virga Island and enter the Dragon Temple to obtain the legendary relic Drakodios. The dungeon is among the longest in the game with multiple boss encounters.",
+    aiTip:
+      "Max your Archetype masteries before entering — the Dragon Temple has a difficulty spike that catches underprepared parties.",
+    video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
+  },
+  {
+    id: 1063,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Ancestral Solution",
+    location: "Virga Island / Dragon Temple",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Key story resolution, ultimate Archetype upgrades",
+    summary:
+      "Delve deeper into the Dragon Temple's secrets to find the ancestral solution that can break the prince's death-curse. A lore-dense quest that reveals the world's true history.",
+    aiTip:
+      "The Homo Sabara boss here has multiple phases — bring wind and fire coverage and keep everyone above half HP entering the final phase.",
+    video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
+  },
+  {
+    id: 1064,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Eliminate Virga Island's Threat",
+    location: "Virga Island",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Island cleared, MAG and rare materials",
+    summary:
+      "A powerful threat blocks progress on Virga Island. Hunt it down across the island's dangerous terrain to clear the path for the main quest.",
+    aiTip:
+      "Save before the engagement — this is an optional but difficult encounter. Stock up on revival items.",
+    video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
+  },
+  {
+    id: 1065,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Prepare for the Final Battle",
+    location: "Grand Trad / Skybound Avatar",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Final dungeon access, party-wide stat boosts",
+    summary:
+      "With the Royal Election decided, make final preparations before ascending to the Skybound Avatar. Complete remaining Follower bonds, stock items, and master your Archetypes.",
+    aiTip:
+      "This is the point of no return for many side quests. Spend all remaining days on Follower bonds and Virtue trials before entering the final dungeon.",
+    video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
+  },
+  {
+    id: 1066,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Skybound Avatar Conquest",
+    location: "Skybound Avatar (Final Dungeon)",
+    length: "long",
+    difficulty: "Very High",
+    reward: "True Ending, platinum trophy route",
+    summary:
+      "The final multi-phase gauntlet. Ascend the Skybound Avatar, face Zorba's return, and confront the final manifestation of the kingdom's fear — the throne's true enemy revealed.",
+    aiTip:
+      "Bring maximum healing stock and your three strongest Archetype setups. The final boss has three distinct phases with no save point between them.",
+    video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
+  },
+  {
+    id: 1067,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Save the Country",
+    location: "Grand Trad Throne Room",
+    length: "medium",
+    difficulty: "High",
+    reward: "True Ending cutscenes, credit roll",
+    summary:
+      "The climax after defeating the final boss. A series of story sequences and decisions determines the fate of the kingdom and the protagonist's future.",
+    aiTip:
+      "Your accumulated Royal Virtue and Follower bond ranks affect dialogue options and ending variants — max them out before this point.",
+    video: "https://www.youtube.com/watch?v=kt2jvZc6BHg"
+  },
+  // ── More's Tasks (SQ-01 to SQ-07) ──
+  {
+    id: 1068,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task: Foreword and Prologue",
+    location: "Grand Trad / Gauntlet Runner",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype system unlocked, bond with More initiated",
+    summary:
+      "More introduces himself and the Archetype codex, setting the foundation for the game's class system. This first task is essentially the tutorial for unlocking new Archetypes through bond progression.",
+    aiTip:
+      "Completing More's Tasks in order is required to unlock advanced Archetype lineages — don't skip early chapters even if they seem brief.",
+    video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
+  },
+  {
+    id: 1069,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task Chapter One: Ordeal",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "More's first task asks you to face an ordeal that tests your resolve and combat preparation. Completing it opens the next tier of Archetype lineages.",
+    aiTip:
+      "Talk to More whenever a '!' appears on the Gauntlet Runner — his tasks are calendar-gated and easy to miss.",
+    video: "https://www.youtube.com/watch?v=burZDgeyC88"
+  },
+  {
+    id: 1070,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task Chapter Two: Solitude",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "More reflects on solitude and what it means to walk a path alone. This chapter deepens his backstory and rewards a new Archetype lineage on completion.",
+    aiTip:
+      "Choose dialogue options that align with empathy for the best bond growth outcome.",
+    video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
+  },
+  {
+    id: 1071,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Three: Drifting",
+    location: "Martira",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "As the party drifts between cities, More opens up about his past as a driver and his place in the journey. A quiet but character-defining chapter.",
+    aiTip:
+      "This chapter unlocks on the road to Martira — trigger it before the next main quest deadline.",
+    video: "https://www.youtube.com/watch?v=TSww6LGRKiE"
+  },
+  {
+    id: 1072,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Four: Turmoil",
+    location: "Martira",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "Political turmoil tests More's loyalty and judgment. This chapter involves a short confrontation that reveals his personal code of ethics.",
+    aiTip:
+      "Have at least Tolerance Rank 3 before this chapter — one dialogue option requires it for the best reward.",
+    video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
+  },
+  {
+    id: 1073,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "More's Task Chapter Five: Resolve",
+    location: "Kriegante",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Advanced Archetype unlock, key bond ability",
+    summary:
+      "More's resolve is tested in Kriegante as the political situation turns dangerous. He must make a critical decision about his role in the party's mission.",
+    aiTip:
+      "This chapter has a combat encounter — bring a balanced party as it can catch you off guard mid-story.",
+    video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
+  },
+  {
+    id: 1074,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "More's Task Chapter Six: The End",
+    location: "Skanda / Gauntlet Runner",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Final Archetype mastery unlock, unique bond ability",
+    summary:
+      "The conclusion of More's story arc. What began as a simple job as driver has become something far greater. This final chapter rewards the strongest Archetype abilities tied to his bond.",
+    aiTip:
+      "Complete all previous More's Tasks before the final dungeon — Chapter Six locks after entering the point of no return.",
+    video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
+  },
+  // ── Favor / NPC Quests (SQ-10 to SQ-25) ──
+  {
+    id: 1075,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "A Friend in Need",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, bond growth, consumables",
+    summary:
+      "A Grand Trad resident is in trouble and needs help that goes beyond coin. A short quest that expands the city's texture and rewards a modest MAG boost.",
+    aiTip:
+      "Talk to everyone around the quest NPC — one of their neighbours holds the key information needed to resolve the situation.",
+    walkthrough: [
+      "Speak to the troubled NPC in Grand Trad with the '!' marker to accept the quest.",
+      "Talk to the two neighbours indicated nearby to gather information about the problem.",
+      "Return to the original NPC and choose the correct dialogue option based on what you learned.",
+      "If a short combat encounter triggers, exploit enemy weaknesses for a fast finish.",
+      "Collect the MAG reward and bond point from the quest completion screen."
+    ]
+  },
+  {
+    id: 1076,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Missing Child",
+    location: "Grand Trad Residential District",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Courage stat growth",
+    summary:
+      "A child has wandered off into a dangerous part of Grand Trad. Track them down before nightfall in this time-sensitive fetch quest that rewards Courage stat growth.",
+    aiTip:
+      "The child hides in the area nearest the city walls — check the outer residential alley first to save time.",
+    walkthrough: [
+      "Accept the quest from the worried parent in the Grand Trad residential district.",
+      "Head to the outer alley near the city walls — the child is hiding behind a stack of crates.",
+      "Speak to the child and select the reassuring dialogue option to coax them out.",
+      "Escort the child back to the parent by following the quest marker.",
+      "Collect the Courage stat point and MAG reward from the parent."
+    ]
+  },
+  {
+    id: 1077,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Merchant's Request",
+    location: "Grand Trad Market",
+    length: "short",
+    difficulty: "Low",
+    reward: "Discounted shop prices, MAG",
+    summary:
+      "A market merchant needs a specific item retrieved to fulfil a trade order. Simple but rewards a permanent shop discount that makes it well worth doing early.",
+    aiTip:
+      "The item the merchant needs is sold by the vendor two stalls over — buy it immediately and return for the discount reward.",
+    walkthrough: [
+      "Talk to the merchant with the '!' marker in Grand Trad's market district.",
+      "Note the specific item they need — it is stocked by a nearby vendor in the same market.",
+      "Purchase the item and bring it back to the merchant.",
+      "Confirm the trade to receive MAG and unlock a permanent discount at that merchant's shop.",
+      "Revisit this merchant throughout the game to benefit from the reduced prices on consumables."
+    ]
+  },
+  {
+    id: 1078,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Delivery Troubles",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Tolerance stat growth",
+    summary:
+      "A courier is blocked from making a delivery by a bureaucratic obstacle. Help cut through the red tape and see the package delivered to earn Tolerance stat growth.",
+    aiTip:
+      "The gatekeeper NPC who is blocking the delivery has a hidden condition — speak to a nearby guard first to learn how to satisfy it.",
+    walkthrough: [
+      "Accept the quest from the frustrated courier outside a gated district in Grand Trad.",
+      "Talk to the nearby guard to learn what document or condition would allow passage.",
+      "Retrieve or fulfill the condition — usually a short fetch from a building nearby.",
+      "Return to the gatekeeper with the required item or information to clear the way.",
+      "Watch the delivery complete and collect your MAG and Tolerance growth reward."
+    ]
+  },
+  {
+    id: 1079,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Stolen Goods Recovery",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, stolen item returned",
+    summary:
+      "Goods have been stolen from a vendor in the market. Track the thief through Grand Trad, retrieve the stolen merchandise, and return it to the owner.",
+    aiTip:
+      "The thief is near the city's lower district — follow the trail of NPC hints rather than wandering; each one points closer.",
+    walkthrough: [
+      "Speak to the victimised vendor with the '!' marker in the Grand Trad market.",
+      "Ask nearby stall owners about unusual activity — each gives a clue narrowing the location.",
+      "Head to the lower district and locate the thief hiding near the exit gate.",
+      "Confront the thief; a brief combat encounter or a successful dialogue check recovers the goods.",
+      "Return the stolen goods to the vendor and collect the MAG reward."
+    ]
+  },
+  {
+    id: 1080,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Troubled Soldier",
+    location: "Fort Endra, Martira",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Courage stat growth, unique consumable",
+    summary:
+      "A soldier stationed at Fort Endra is struggling with something that goes beyond combat fatigue. Hear him out, gather what he needs, and help him find his footing again.",
+    aiTip:
+      "This quest has two parts visited on separate calendar days — return to Fort Endra after advancing the main quest by one day.",
+    walkthrough: [
+      "Find the troubled soldier at Fort Endra's barracks with the '!' quest marker.",
+      "Listen to his concerns and choose the empathetic dialogue response to progress the quest.",
+      "Exit and advance one calendar day, then return to Fort Endra to trigger the follow-up scene.",
+      "Retrieve the specific item he requires from a vendor in Martira's market.",
+      "Return to the soldier to deliver the item and resolve his situation, collecting Courage growth and MAG."
+    ]
+  },
+  {
+    id: 1081,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Lost Necklace",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Wisdom stat growth",
+    summary:
+      "An NPC has lost a treasured necklace somewhere in Grand Trad. Search the city's hidden corners, question witnesses, and return the keepsake for a Wisdom reward.",
+    aiTip:
+      "The necklace is in a non-obvious spot behind a breakable object — check the area around the fountain near the market.",
+    walkthrough: [
+      "Accept the quest from the upset NPC near the Grand Trad residential entrance.",
+      "Question the three witnesses scattered around the central plaza for location clues.",
+      "Head to the fountain area and inspect the small alcove or breakable object behind it.",
+      "Pick up the necklace from the spot and return it to the quest giver.",
+      "Collect the Wisdom growth and MAG reward from the grateful NPC."
+    ]
+  },
+  {
+    id: 1082,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Herbal Remedy",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, healing items, Wisdom growth",
+    summary:
+      "A healer needs rare herbs to prepare medicine for sick residents. Gather the herbs from the outskirts of Grand Trad and return them for a healing item reward.",
+    aiTip:
+      "The herbs spawn on the outer road near the Gauntlet Runner docking area — they respawn on calendar days so check back if you missed them.",
+    walkthrough: [
+      "Speak to the healer at the clinic in Grand Trad with the '!' marker.",
+      "Head to the outer road near the Gauntlet Runner dock and gather the glowing herb nodes.",
+      "Collect all three herb stacks indicated by the minimap icons.",
+      "Return to the healer and hand over the herbs.",
+      "Receive healing items and a Wisdom growth reward from the healer."
+    ]
+  },
+  {
+    id: 1083,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Guard Duty Assistance",
+    location: "Grand Trad City Gate",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Courage growth",
+    summary:
+      "A city guard needs backup during a short patrol after reports of suspicious activity near the gate. Accompany them, handle any encounter, and report back.",
+    aiTip:
+      "The enemy that spawns during patrol is weak to lightning — bring a Mage-type Archetype for a quick sweep.",
+    walkthrough: [
+      "Talk to the guard at the Grand Trad city gate with the '!' marker to start escort duty.",
+      "Follow the guard along the patrol route, keeping pace with their movement.",
+      "When the ambush enemy spawns, exploit its lightning weakness to dispatch it in one round.",
+      "Continue the patrol to its endpoint with no further incidents.",
+      "Report back to the guard's captain to collect MAG and Courage growth."
+    ]
+  },
+  {
+    id: 1084,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Fisherman's Problem",
+    location: "Port Brilehaven, Martira",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, unique fish item",
+    summary:
+      "A fisherman at Port Brilehaven is being driven out of his usual spot by a territorial creature. Clear the nuisance and let him fish in peace.",
+    aiTip:
+      "The creature guarding the fishing spot is an early-rank bounty-style monster — hit it with fire to end the fight quickly.",
+    walkthrough: [
+      "Find the fisherman with the '!' marker at Port Brilehaven's dock.",
+      "Head to the marked fishing spot on the port's outer edge where the creature lurks.",
+      "Engage and defeat the territorial monster — fire attacks are most effective.",
+      "Return to the fisherman and report that the spot is clear.",
+      "Receive MAG and a unique fish item that can be used in cooking or sold for extra coin."
+    ]
+  },
+  {
+    id: 1085,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Old Woman's Request",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Tolerance growth",
+    summary:
+      "An elderly woman asks you to find a specific person in Grand Trad she has lost contact with. A simple but touching quest about reconnection in the middle of political upheaval.",
+    aiTip:
+      "The person she's looking for has moved to a different district — check the lower residential area near the market.",
+    walkthrough: [
+      "Speak to the old woman with the '!' marker near the Grand Trad residential square.",
+      "Note the name of the person she is looking for and head to the lower residential district.",
+      "Find the NPC near the market entrance and relay the old woman's message.",
+      "Return to the old woman to deliver the response and trigger a short cutscene.",
+      "Collect MAG and Tolerance growth as the quest completes."
+    ]
+  },
+  {
+    id: 1086,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Broken Cart",
+    location: "Martira Trade Road",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, crafting materials",
+    summary:
+      "A merchant's cart broke down on the trade road into Martira, blocking goods from reaching the market. Gather repair materials from the roadside and fix the cart.",
+    aiTip:
+      "The repair materials are scattered on the road itself as glowing pickups — no combat required for this quest.",
+    walkthrough: [
+      "Speak to the stranded merchant on the trade road outside Martira with the '!' marker.",
+      "Walk along the road and collect the three glowing material nodes nearby.",
+      "Return to the merchant and hand over the materials to initiate the repair sequence.",
+      "Watch the short animation of the cart being fixed.",
+      "Receive MAG and crafting materials as the merchant thanks you and moves on."
+    ]
+  },
+  {
+    id: 1087,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Refugee Aid",
+    location: "Martira Refugee Camp",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, Tolerance growth, bond affection",
+    summary:
+      "Refugees from the ongoing conflict need aid that the city can't provide alone. Gather supplies, speak to the right official, and ensure the camp gets what it needs.",
+    aiTip:
+      "The official who can authorize aid is in the Martira government building — bring him the petition from the camp leader first.",
+    walkthrough: [
+      "Visit the refugee camp on Martira's outskirts and speak to the camp leader with the '!' marker.",
+      "Accept the petition document and take it to the official in the Martira government building.",
+      "Navigate the bureaucratic conversation — choose the dialogue option that cites the children's welfare for the best result.",
+      "Return to the camp leader with the authorization and trigger the supply delivery cutscene.",
+      "Receive MAG and Tolerance growth plus a bump in Eupha's or Heismay's follower affection."
+    ]
+  },
+  {
+    id: 1088,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Noble Dispute",
+    location: "Martira Noble District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Wisdom growth, information about Louis",
+    summary:
+      "Two noble factions in Martira are on the verge of a violent confrontation. Mediate the dispute using dialogue skill and gather intel on Louis's backing in the process.",
+    aiTip:
+      "The correct mediation path requires Wisdom Rank 3 — if you don't have it, grind a social activity first.",
+    walkthrough: [
+      "Speak to the agitated noble representative near the Martira noble district gate.",
+      "Visit both factions' representatives and hear each side's grievance.",
+      "Return to the neutral meeting point and choose the mediation option that addresses the root financial issue.",
+      "Pass the Wisdom check (requires Rank 3) to broker a temporary peace.",
+      "Collect MAG and Wisdom growth, and note the intel about Louis's financial supporters revealed during the scene."
+    ]
+  },
+  {
+    id: 1089,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Food Supply Crisis",
+    location: "Martira Market",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, cooking materials, Tolerance growth",
+    summary:
+      "A food supply shortage is hitting Martira's lower districts hard. Track down where the supplies are being diverted and return them to the market.",
+    aiTip:
+      "The diversion point is a storage warehouse on the docks — a guard there requires either a bribe (costs MAG) or a Courage check to pass.",
+    walkthrough: [
+      "Speak to the market vendor with the '!' marker about the food shortage.",
+      "Follow the paper trail by visiting the city's supply office and asking about recent shipments.",
+      "Head to the warehouse on the Martira docks and confront the guard blocking entry.",
+      "Either pay the bribe (500 MAG) or pass the Courage Rank 2 check to enter.",
+      "Inside, confirm the diverted supplies and report back to the market vendor to receive MAG and cooking materials."
+    ]
+  },
+  {
+    id: 1090,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Caravan Escort",
+    location: "Martira Trade Road",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, rare trade goods, Courage growth",
+    summary:
+      "A merchant caravan needs protection on a stretch of road where bandits have been active. Escort them safely through two ambush encounters.",
+    aiTip:
+      "The second ambush includes a magic-type enemy that hits hard — position your knight Archetype in front and have your healer ready.",
+    walkthrough: [
+      "Speak to the caravan leader at the Martira gate with the '!' marker to begin the escort.",
+      "Follow the caravan along the trade road; the first bandit ambush triggers after the first bend.",
+      "Defeat the first wave of bandits — they are weak to lightning.",
+      "Continue escorting until the second ambush triggers near the forest clearing.",
+      "Defeat the second wave including the magic-user enemy, then escort the caravan to the destination for your reward."
+    ]
+  },
+  // ── Bounty / Hunt Quests (SQ-26 to SQ-35) ──
+  {
+    id: 1091,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Forest Beast",
+    location: "Forest outside Grand Trad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Bounty coin, rare beast material",
+    summary:
+      "A large predatory beast has been terrorizing travellers in the forest outside Grand Trad. Accept the bounty from the recruitment center and eliminate it.",
+    aiTip:
+      "The Forest Beast is weak to fire — a single Mage with a fire Archetype can stagger it each round.",
+    walkthrough: [
+      "Accept the Forest Beast bounty from the recruitment center in Grand Trad.",
+      "Travel to the forest zone indicated on the world map and locate the creature's territory.",
+      "Engage the beast and exploit its fire weakness to generate Press Turns for your party.",
+      "Use Synthesis attacks once you have full Press Turns to burst it down quickly.",
+      "Return to the recruitment center to claim the bounty reward and rare beast material."
+    ]
+  },
+  {
+    id: 1092,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Cave Horror",
+    location: "Cave system near Grand Trad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty coin, cave mineral drops",
+    summary:
+      "Something horrifying lurks in the cave system east of Grand Trad. Track it to its den and exterminate it before it claims more victims.",
+    aiTip:
+      "Bring a torch or light-type skill — the cave has dark sections that reduce accuracy without illumination.",
+    walkthrough: [
+      "Pick up the Cave Horror bounty at the Grand Trad recruitment center.",
+      "Navigate the cave entrance using the minimap — the Horror is in the deepest chamber.",
+      "Equip a light-type skill on one party member to counter the cave's accuracy penalty.",
+      "The Cave Horror has a high physical defense — use magic attacks rather than physical strikes.",
+      "After defeating it, loot the rare mineral drops and return to the recruitment center for the bounty payout."
+    ]
+  },
+  {
+    id: 1093,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Bandit Leader",
+    location: "Martira outskirts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty coin, stolen goods recovered",
+    summary:
+      "The leader of a bandit gang operating on Martira's outskirts has a bounty on their head. Find their camp and defeat them to break up the gang.",
+    aiTip:
+      "The Bandit Leader surrounds themselves with three minions — use a multi-target spell to clear the adds first, then focus the leader.",
+    walkthrough: [
+      "Accept the Bandit Leader bounty from Martira's recruitment center.",
+      "Head to the camp location on Martira's outskirts — look for smoke on the hillside.",
+      "Enter the camp and trigger the boss fight; prioritize the minions with a Mage's multi-target fire spell.",
+      "Focus single-target attacks on the Bandit Leader once the minions are cleared.",
+      "Collect the stolen goods loot and return to the recruitment center for the full bounty reward."
+    ]
+  },
+  {
+    id: 1094,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Swamp Creature",
+    location: "Martira swamplands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, rare alchemical material",
+    summary:
+      "A massive creature has claimed the Martira swamplands, cutting off a key supply route. Eliminate it to reopen the path.",
+    aiTip:
+      "The Swamp Creature is resistant to physical attacks and water — bring wind or electric Archetypes for best results.",
+    walkthrough: [
+      "Accept the Swamp Creature bounty at the Martira recruitment center.",
+      "Travel to the swamplands zone south of Martira — expect the terrain to slow movement.",
+      "Locate the creature's nest in the central bog area and initiate combat.",
+      "Avoid water and physical skill types — use wind or electric skills to bypass its resistances.",
+      "Collect the rare alchemical material from the body and return for the bounty payout."
+    ]
+  },
+  {
+    id: 1095,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Desert Predator",
+    location: "Tradia Desert",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, desert creature material",
+    summary:
+      "An apex predator is picking off caravans crossing the Tradia Desert. Hunt it down and secure the trade route.",
+    aiTip:
+      "Desert Predators are fast and attack first — equip an Agility-boosting accessory or use a Knight Archetype to absorb the opening hit.",
+    walkthrough: [
+      "Pick up the Desert Predator bounty from Martira's recruitment center before heading into the desert.",
+      "Travel through the Tradia Desert and look for tracks leading to the predator's hunting ground.",
+      "Equip an Agility accessory or place your Knight in the front position to absorb the first strike.",
+      "Use ice skills — desert predators are typically weak to ice in Metaphor.",
+      "Claim the desert creature material and return for the bounty coin reward."
+    ]
+  },
+  {
+    id: 1096,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Mountain Giant",
+    location: "Kriegante mountain pass",
+    length: "long",
+    difficulty: "High",
+    reward: "Bounty coin, giant's bone material, rare equipment",
+    summary:
+      "A Mountain Giant is blocking the Kriegante mountain pass, making travel impossible. Take the bounty and clear the path — but be prepared for a multi-phase fight.",
+    aiTip:
+      "Giants have enormous HP and hit extremely hard — bring a Healer Archetype and stack physical defense buffs before engaging.",
+    walkthrough: [
+      "Accept the Mountain Giant bounty from the Kriegante recruitment center.",
+      "Travel up the mountain pass to the giant's location — be prepared, it patrols a large area.",
+      "Open with Tarukaja (attack buff) and Rakukaja (defense buff) before engaging in damage.",
+      "The giant staggers at 50% HP — use Synthesis attacks during the stagger window to maximize damage.",
+      "Finish with your strongest single-target skills and claim the giant's bone material and rare equipment drop."
+    ]
+  },
+  {
+    id: 1097,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Undead Commander",
+    location: "Kriegante ruins",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, undead core material",
+    summary:
+      "An undead commander is rallying the dead in Kriegante's ancient ruins, threatening the region. Put it down permanently and disperse its undead forces.",
+    aiTip:
+      "Light-element skills are essential here — both the commander and its undead retinue share a light weakness.",
+    walkthrough: [
+      "Accept the Undead Commander bounty at the Kriegante recruitment center.",
+      "Navigate the ruins to the central hall where the commander is raising the dead.",
+      "Open with area-of-effect light skills to hit both the commander and its retinue simultaneously.",
+      "The commander can resummon undead each turn — prioritize killing it before clearing adds.",
+      "Collect the undead core material and return for the bounty coin reward."
+    ]
+  },
+  {
+    id: 1098,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Rogue Mage",
+    location: "Kriegante tower",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, spellbook material",
+    summary:
+      "A rogue mage has taken over a tower in Kriegante and is using it to launch magical attacks on the region. Ascend the tower and bring the mage down.",
+    aiTip:
+      "The Rogue Mage reflects magical attacks periodically — watch for the buff indicator and switch to physical skills when it is active.",
+    walkthrough: [
+      "Take the Rogue Mage bounty from the Kriegante recruitment center.",
+      "Enter the tower and fight through the two floors of construct guardians — they fall easily to physical attacks.",
+      "On the top floor, engage the Rogue Mage and watch for the reflect buff (shown by a golden glow).",
+      "Use physical skills when the reflect is active; switch back to magic once it drops.",
+      "Defeat the mage, loot the spellbook material, and return for the bounty."
+    ]
+  },
+  {
+    id: 1099,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Arena Champion",
+    location: "Grand Trad Arena",
+    length: "medium",
+    difficulty: "Very High",
+    reward: "Bounty coin, champion's emblem, rare equipment",
+    summary:
+      "A rogue fighter has claimed the Grand Trad Arena's champion title through force and intimidation. Challenge them in a regulated bout and take back the title.",
+    aiTip:
+      "The Arena Champion has no elemental weakness — fight with your strongest physical Archetypes and buff up before the match.",
+    walkthrough: [
+      "Pick up the Arena Champion bounty from the Grand Trad recruitment center.",
+      "Register at the arena front desk and wait for the match to be announced.",
+      "In the pre-fight phase, use all your buff skills (Tarukaja, Rakukaja) before the champion acts.",
+      "The champion uses multi-hit physical attacks — keep your entire party above 60% HP at all times.",
+      "Finish with your party's strongest physical Synthesis attack and claim the champion's emblem and rare equipment."
+    ]
+  },
+  {
+    id: 1100,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Hunt: Ancient Guardian",
+    location: "Skanda ancient ruins",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Bounty coin, ancient core material, top-tier gear",
+    summary:
+      "An Ancient Guardian has awoken in Skanda's ruins and is classified as an SSS-rank threat. The highest-tier bounty in the game — only attempt it with maxed Archetypes.",
+    aiTip:
+      "The Ancient Guardian cycles through elemental buffs — bring a party that can exploit multiple elements and switch targets based on the active cycle.",
+    walkthrough: [
+      "Accept the Ancient Guardian bounty at the Skanda recruitment center — requires having cleared all previous bounties.",
+      "Enter the ruins and navigate to the inner sanctum where the guardian stands dormant.",
+      "The guardian cycles through fire, ice, and lightning resistance every two turns — hit the non-resisted element each cycle.",
+      "At 30% HP the guardian enters berserker mode, ignoring its own weaknesses — use buffs and full Synthesis attacks.",
+      "After defeating it, collect the ancient core material and top-tier gear, then claim the final bounty reward."
+    ]
+  },
+  // ── Investigation / Story Side Quests (SQ-36 to SQ-45) ──
+  {
+    id: 1101,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Church Investigation",
+    location: "Grand Trad Cathedral District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Wisdom growth, key lore revelation",
+    summary:
+      "Suspicious activity in Grand Trad's cathedral district warrants an investigation. Interview clergy, search restricted areas, and uncover who is operating in the shadows of the church.",
+    aiTip:
+      "One of the priests you need to interview will only speak to you after a Wisdom Rank 3 dialogue check — raise Wisdom first.",
+    walkthrough: [
+      "Accept the investigation request from the contact with the '!' marker near the cathedral.",
+      "Interview three clergy members in the district — note their inconsistencies.",
+      "Gain access to the restricted archive by passing the Wisdom Rank 3 check with the senior priest.",
+      "Search the archive for the relevant documents and piece together the evidence.",
+      "Return to your contact with the findings to receive MAG, Wisdom growth, and a lore document."
+    ]
+  },
+  {
+    id: 1102,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Political Spy Hunt",
+    location: "Martira Government District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, intel on rival election candidates",
+    summary:
+      "A spy is leaking election campaign intelligence in Martira. Identify them before they can report to their handlers and eliminate the information leak.",
+    aiTip:
+      "The spy rotates between three locations on a schedule — visit each location in the morning, afternoon, and evening to catch them in the act.",
+    walkthrough: [
+      "Accept the quest from the contact in the Martira government district.",
+      "Visit the three indicated locations — government office, market, and tavern — at different times of day.",
+      "At the tavern in the evening, spot the spy making contact with their handler.",
+      "Follow the spy without being detected (stay behind cover objects) to their drop point.",
+      "Confront the spy at the drop point — a brief combat or dialogue check concludes the quest."
+    ]
+  },
+  {
+    id: 1103,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Missing Official",
+    location: "Martira",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Courage growth, city access improvement",
+    summary:
+      "A mid-ranking official who handles merchant permits has gone missing. Find them — the trail leads somewhere unexpected and reveals a minor conspiracy.",
+    aiTip:
+      "The official is being held in the dockside warehouse — you need Courage Rank 2 to bluff past the guard at the gate.",
+    walkthrough: [
+      "Speak to the official's aide with the '!' marker in the Martira government building.",
+      "Ask merchants in the market about the official — one saw them near the docks.",
+      "Head to the dockside warehouse gate and use the Courage Rank 2 dialogue check to bluff entry.",
+      "Inside, locate the official in a locked back room and confront the minor conspirators holding them.",
+      "Escort the official back to the government building and receive MAG, Courage growth, and improved merchant permit access."
+    ]
+  },
+  {
+    id: 1104,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Underground Network",
+    location: "Grand Trad Underground",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, rare crafting materials, Archetype mastery",
+    summary:
+      "Rumours point to an underground network operating beneath Grand Trad dealing in stolen Archetypes. Infiltrate it and shut it down before it grows further.",
+    aiTip:
+      "The underground entrance is accessed through a hidden door in the market's eastern alley — inspect the cracked wall to reveal it.",
+    walkthrough: [
+      "Accept the investigation tip from the informant with the '!' marker in the market alley.",
+      "Inspect the cracked wall in the eastern alley to find and open the hidden entrance.",
+      "Navigate the underground tunnels — fight through two rooms of low-rank enemies.",
+      "Reach the network's storage room and confront the mid-boss guarding the stolen Archetype codices.",
+      "Defeat the mid-boss, recover the codices, and bring them to the Grand Trad authorities for the reward."
+    ]
+  },
+  {
+    id: 1105,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Smuggling Ring",
+    location: "Port Brilehaven, Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, confiscated trade goods, Wisdom growth",
+    summary:
+      "A smuggling operation at Port Brilehaven is funnelling goods to Louis's faction. Expose the ring's ringleader and disrupt the supply chain.",
+    aiTip:
+      "The ringleader is disguised as a dockworker — use the Wisdom dialogue check to identify them from a group of three suspects.",
+    walkthrough: [
+      "Accept the quest from the customs officer with the '!' marker at Port Brilehaven.",
+      "Inspect the three marked cargo areas on the docks for suspicious manifests.",
+      "Return to the customs officer with the manifests — one has forged paperwork.",
+      "Confront the group of dockworkers and use the Wisdom Rank 3 check to identify the ringleader.",
+      "A short combat encounter follows; defeat the ringleader's bodyguards and receive the full reward."
+    ]
+  },
+  {
+    id: 1106,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hidden Archive",
+    location: "Grand Trad Library",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, lore document, Wisdom growth",
+    summary:
+      "A historian believes a hidden archive beneath Grand Trad's library holds records that could change the kingdom's official history. Help access and retrieve the documents.",
+    aiTip:
+      "The hidden archive door requires solving a three-part symbol puzzle — the solution is hinted at in the books on the library's upper floor.",
+    walkthrough: [
+      "Speak to the historian with the '!' marker in Grand Trad's library.",
+      "Read the three relevant books on the upper floor to gather the symbol puzzle hints.",
+      "Descend to the basement and input the correct symbol sequence on the archive door.",
+      "Explore the archive and retrieve the two key documents the historian needs.",
+      "Return to the historian for MAG, a lore document that adds to your quest log, and Wisdom growth."
+    ]
+  },
+  {
+    id: 1107,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Secret Experiment",
+    location: "Martira Research Facility",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, experimental equipment, Wisdom growth",
+    summary:
+      "A whistleblower reveals that illegal experiments are being conducted in a Martira research facility. Investigate, gather evidence, and neutralise the experiment before it escapes.",
+    aiTip:
+      "The experimental creature that escapes at the quest's climax has no elemental weakness — use debuffs to reduce its stats and outlast it.",
+    walkthrough: [
+      "Meet the whistleblower at the Martira marketplace to receive the facility location and access key.",
+      "Enter the research facility after hours and document the experiments in the first two labs.",
+      "The experiment escapes its containment in the third lab — prepare for a boss fight immediately.",
+      "Without an elemental weakness, use Rakukaja (defense buff) and debuffs on the creature to control the fight.",
+      "After defeating it, collect the experimental equipment and bring the evidence to Martira's council for the reward."
+    ]
+  },
+  {
+    id: 1108,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Noble Conspiracy",
+    location: "Kriegante Castle Town",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, political intel, Wisdom growth",
+    summary:
+      "Noble families in Kriegante are conspiring to tip the Royal Election through fraud and intimidation. Expose the conspiracy to protect the election's integrity.",
+    aiTip:
+      "This quest has three investigation stages spread across three calendar days — start it at least four days before the next main quest deadline.",
+    walkthrough: [
+      "Accept the quest from the anonymous tip contact with the '!' marker in Kriegante's town square.",
+      "On day 1, investigate the noble's estate by interviewing servants — gather statements from two of them.",
+      "On day 2, follow the money trail to the Kriegante counting house and access the fraudulent ledger.",
+      "On day 3, confront the noble conspirators at their planned meeting location.",
+      "Defeat the hired guards they bring to the confrontation and hand the evidence to the election commission for the reward."
+    ]
+  },
+  {
+    id: 1109,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Royal Document Recovery",
+    location: "Grand Trad Royal Archive",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, royal seal item, Courage growth",
+    summary:
+      "Critical royal documents have gone missing from the archive during the political chaos. Retrieve them before they fall into the wrong hands.",
+    aiTip:
+      "The thief who stole the documents took them to the market district — a Courage Rank 2 check convinces a fence to give up the buyer's location.",
+    walkthrough: [
+      "Speak to the archive custodian with the '!' marker in the Grand Trad Royal Archive.",
+      "Head to the market and locate the fence who received the stolen documents.",
+      "Pass the Courage Rank 2 dialogue check to get the buyer's identity and location.",
+      "Confront the buyer in the noble district — a short combat encounter follows.",
+      "Recover the documents and return them to the archive for MAG, the royal seal item, and Courage growth."
+    ]
+  },
+  {
+    id: 1110,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Assassin Plot",
+    location: "Martira",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, rare weapon, Courage growth",
+    summary:
+      "An assassination plot targeting an election candidate has been uncovered. Stop the assassins before the target is killed — failure ends the candidate's campaign permanently.",
+    aiTip:
+      "This quest is time-sensitive: once accepted, you have two calendar days to complete it. The assassins are among the toughest enemies in the side quest pool.",
+    walkthrough: [
+      "Accept the urgent tip from the informant at Martira's tavern — the clock starts immediately.",
+      "Head to the candidate's safehouse and confirm the threat — pick up the assassins' trail from a witness.",
+      "Track the assassins to their staging point on the city's outskirts before nightfall on day 1.",
+      "Engage and defeat the two assassin vanguards — they hit hard; open with full buffs and Synthesis attacks.",
+      "Defeat the lead assassin (the toughest fight) and receive the rare weapon drop and Courage growth reward."
+    ]
+  },
+  // ── Retrieval / Dungeon Side Quests (SQ-46 to SQ-55) ──
+  {
+    id: 1111,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Retrieve Sacred Artifact",
+    location: "Grand Trad Cathedral Vault",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, sacred artifact item, bond growth",
+    summary:
+      "A sacred artifact has been moved to an unsecured part of the Grand Trad cathedral. Retrieve it before thieves can claim it.",
+    aiTip:
+      "The vault section of the cathedral has dark corridors that lower accuracy — equip a light skill before entering.",
+    walkthrough: [
+      "Speak to the cathedral keeper with the '!' marker about the missing artifact.",
+      "Enter the lower cathedral vault via the side passage behind the main altar.",
+      "Navigate the dark corridors using a light skill to maintain accuracy.",
+      "Retrieve the sacred artifact from the unmarked chest in the vault's final chamber.",
+      "Return it to the cathedral keeper for MAG and a bond growth reward."
+    ]
+  },
+  {
+    id: 1112,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Recover Lost Weapon",
+    location: "Martira battlefields",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, unique weapon, Courage growth",
+    summary:
+      "A soldier's heirloom weapon was lost on the battlefield outside Martira. Enter the monster-infested field to find it.",
+    aiTip:
+      "The weapon is in a chest guarded by a stronger-than-usual field enemy — preemptive strike from behind to get the initiative advantage.",
+    walkthrough: [
+      "Accept the quest from the veteran soldier with the '!' marker at Fort Endra.",
+      "Travel to the battlefield zone outside Martira marked on the map.",
+      "Navigate the monster-infested field and locate the chest with the glowing marker.",
+      "Strike from behind the guarding enemy to get a preemptive round advantage.",
+      "After defeating the guardian, loot the chest and return the heirloom weapon to the soldier for your reward."
+    ]
+  },
+  {
+    id: 1113,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Ancient Relic Hunt",
+    location: "Skanda ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, ancient relic equipment, Archetype mastery",
+    summary:
+      "A collector in Skanda is seeking ancient relics buried in the region's ruins. Retrieve three specific pieces from different ruin chambers.",
+    aiTip:
+      "Each chamber has a trap mechanic — step on the correct floor tiles to deactivate traps before opening the relic chest.",
+    walkthrough: [
+      "Accept the hunt from the collector with the '!' marker in Skanda's town.",
+      "Travel to the Skanda ruins and enter the first chamber — deactivate the trap tiles before opening the chest.",
+      "Proceed to the second chamber; the trap pattern here mirrors the wall symbols near the entrance.",
+      "In the third chamber, defeat the guardian enemy protecting the most valuable relic.",
+      "Return all three relics to the collector for a large MAG reward and ancient relic equipment."
+    ]
+  },
+  {
+    id: 1114,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Dungeon Key Search",
+    location: "Martira Dungeon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, dungeon loot access, crafting materials",
+    summary:
+      "The key to a sealed treasure vault inside Martira's dungeon has been misplaced. Find the key and unlock the vault for the dungeon's keeper.",
+    aiTip:
+      "The key is held by a mid-boss on floor two — it will not drop unless you trigger the quest first, so accept it before entering the dungeon.",
+    walkthrough: [
+      "Speak to the dungeon keeper with the '!' marker at the Martira dungeon entrance.",
+      "Enter the dungeon and proceed to floor two, fighting through the standard enemy patrol.",
+      "Locate the mid-boss on floor two and defeat it to obtain the dungeon key.",
+      "Use the key on the sealed vault door in floor one's side corridor.",
+      "Loot the vault and return to the keeper with confirmation for MAG and crafting materials."
+    ]
+  },
+  {
+    id: 1115,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hidden Treasure Map",
+    location: "Grand Trad and surrounds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Large MAG payout, rare equipment",
+    summary:
+      "An old treasure map has surfaced in Grand Trad's market. Decode the map's clues to find the buried treasure before another party gets there first.",
+    aiTip:
+      "The three map clues correspond to city landmarks — the fountain, the gate, and the old tree — each pointing to the next location.",
+    walkthrough: [
+      "Purchase or receive the treasure map from an NPC with the '!' marker in the market.",
+      "Visit the fountain landmark and examine it to find the first directional clue.",
+      "Follow the clue to the city gate area and examine the base of the eastern pillar.",
+      "The second clue points to the old tree outside the residential district — dig at its base.",
+      "Collect the buried chest and open it for the rare equipment and large MAG payout."
+    ]
+  },
+  {
+    id: 1116,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Forgotten Library",
+    location: "Abandoned Wing, Grand Trad Library",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, lore books, Wisdom growth",
+    summary:
+      "A librarian reveals that an abandoned wing of the Grand Trad library holds books sealed off for decades. Clear out the monsters that moved in and recover the lost volumes.",
+    aiTip:
+      "The enemies in the abandoned wing are undead — bring light-element skills to sweep them efficiently.",
+    walkthrough: [
+      "Speak to the librarian with the '!' marker about the forbidden abandoned wing.",
+      "Gain access to the wing via a key the librarian provides.",
+      "Clear through the three rooms of undead enemies using light-element skills.",
+      "Collect the four sealed tomes scattered on the reading tables in the final room.",
+      "Return the tomes to the librarian for MAG and Wisdom growth."
+    ]
+  },
+  {
+    id: 1117,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Sunken Ruins Expedition",
+    location: "Coastal ruins near Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, waterlogged treasure, unique accessory",
+    summary:
+      "Partially submerged coastal ruins near Martira hide a cache of pre-kingdom treasures. Wade into the ruins and retrieve them before the tides rise again.",
+    aiTip:
+      "The boss guarding the treasure cache is ice-elemental — bring fire Archetypes for easy damage and exploit the weakness for Press Turns.",
+    walkthrough: [
+      "Accept the expedition request from the adventurer with the '!' marker at Port Brilehaven.",
+      "Travel to the coastal ruins location and navigate the flooded first floor on foot.",
+      "Fight through the aquatic enemies — they are weak to lightning.",
+      "Reach the central chamber where the ice-elemental boss guards the treasure cache.",
+      "Exploit the boss's fire weakness, loot the cache, and return to the adventurer for the unique accessory reward."
+    ]
+  },
+  {
+    id: 1118,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Crystal Core Retrieval",
+    location: "Skanda Crystal Caves",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, crystal core material, rare Archetype equipment",
+    summary:
+      "A craftsman in Skanda needs a crystal core from the depths of the local crystal caves to forge a special weapon. Retrieve the core from the cave's guarded inner chamber.",
+    aiTip:
+      "The Crystal Guardian boss shatters into multiple smaller crystals when damaged — use area-of-effect skills to damage all fragments simultaneously.",
+    walkthrough: [
+      "Accept the commission from the craftsman with the '!' marker in Skanda's market.",
+      "Enter the crystal caves and follow the luminescent trail to the inner chamber.",
+      "The Crystal Guardian splits into four fragments at 50% HP — switch to area-of-effect skills immediately.",
+      "Once all fragments are defeated, the crystal core is accessible in the cave's central plinth.",
+      "Retrieve the core and bring it to the craftsman for the unique Archetype equipment reward."
+    ]
+  },
+  {
+    id: 1119,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Forbidden Tome",
+    location: "Kriegante Castle Library",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, forbidden tome (lore item), Wisdom growth",
+    summary:
+      "A forbidden tome locked away in Kriegante Castle's private library contains dangerous knowledge. Retrieve it before the wrong people read it.",
+    aiTip:
+      "Access to the castle library requires either Louis's enemy status to have been established in the story, or a Wisdom Rank 4 forgery check.",
+    walkthrough: [
+      "Accept the quest from the scholar contact with the '!' marker in Kriegante's town.",
+      "Gain castle library access via the story flag or the Wisdom Rank 4 forgery check.",
+      "Navigate the library's restricted section — the tome is on the top shelf of the third bookcase.",
+      "A castle guard patrols the area; time your movement to avoid triggering combat.",
+      "Retrieve the tome and deliver it to the scholar for MAG and Wisdom growth."
+    ]
+  },
+  {
+    id: 1120,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Mystic Orb Recovery",
+    location: "Skanda Spirit Shrine",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, mystic orb (key item), powerful Archetype boost",
+    summary:
+      "A mystic orb of enormous power has been stolen from Skanda's spirit shrine and taken deep into a spirit-infested ruin. Recover it before it falls into enemy hands.",
+    aiTip:
+      "The spirit enemies here drain MP instead of HP on their special attacks — bring MP recovery items or a Knight tank to absorb the drain.",
+    walkthrough: [
+      "Accept the recovery quest from the shrine keeper with the '!' marker at Skanda's spirit shrine.",
+      "Enter the ruin and encounter the spirit enemies — bring MP recovery items to counter their drain attacks.",
+      "The orb is held by the Ruin Specter boss on the final floor — it reflects magic periodically.",
+      "Use physical attacks during the reflect phase and magic during the open phase.",
+      "Retrieve the mystic orb after defeating the Ruin Specter and return it to the shrine keeper for a powerful Archetype boost reward."
+    ]
+  },
+  // ── Special / Time-Gated Quests (SQ-56 to SQ-65) ──
+  {
+    id: 1121,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Festival Preparation",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, festival-exclusive items, social stat growth",
+    summary:
+      "Grand Trad is holding a festival and volunteers are needed to help set up. A brief but rewarding quest that unlocks festival-exclusive items only available during this calendar window.",
+    aiTip:
+      "The festival quest is available for only two calendar days — accept and complete it immediately when it appears.",
+    walkthrough: [
+      "Spot the '!' marker at the Grand Trad plaza — it appears only during the designated festival calendar window.",
+      "Accept the organizer's request and complete the three preparation tasks: gather supplies, decorate the stall, and recruit a performer.",
+      "Each task is in a different part of the city — use the minimap markers to locate them efficiently.",
+      "Return to the organizer after completing all three tasks to trigger the festival opening cutscene.",
+      "Collect festival-exclusive items and social stat growth from the concluding conversation."
+    ]
+  },
+  {
+    id: 1122,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Tournament Qualifier",
+    location: "Grand Trad Arena",
+    length: "medium",
+    difficulty: "High",
+    reward: "MAG, arena ranking, equipment prize",
+    summary:
+      "Qualify for the Grand Trad Arena's main tournament bracket by winning the qualifier rounds. Three consecutive fights with increasing difficulty.",
+    aiTip:
+      "The third qualifier opponent uses a full buff rotation on turn one — dispel their buffs immediately with a Mage's dekaja skill.",
+    walkthrough: [
+      "Register at the Grand Trad Arena front desk for the qualifier tournament.",
+      "Win the first qualifier fight — the opponent is straightforward, weak to ice.",
+      "Win the second fight — the opponent uses physical skills; keep your HP above 50%.",
+      "In the third fight, dispel the opponent's full buff stack immediately using dekaja, then burst with Synthesis attacks.",
+      "Collect the equipment prize and your arena ranking card at the conclusion."
+    ]
+  },
+  {
+    id: 1123,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Arena Challenge Series",
+    location: "Grand Trad Arena",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, champion title, rare equipment set",
+    summary:
+      "A multi-match challenge gauntlet at the Grand Trad Arena. Survive consecutive fights without recovering HP between rounds to claim the champion title and top-tier equipment.",
+    aiTip:
+      "Stock consumable HP restoratives before entering — you cannot visit the shop between rounds. Bring a healer Archetype as your primary.",
+    video: "https://www.youtube.com/watch?v=WicCVm90Phw"
+  },
+  {
+    id: 1124,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Companion Trial",
+    location: "Various — unlocked via Follower bonds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Unique companion ability, bond max rank",
+    summary:
+      "Each party member has a final Companion Trial that tests them in a scenario tied to their personal story. Completing it maxes their bond rank and unlocks their ultimate ability.",
+    aiTip:
+      "Companion Trials unlock only after reaching Follower Rank 9 with the corresponding party member — invest time in their bond early.",
+    walkthrough: [
+      "Reach Follower Rank 9 with the companion whose trial you want to unlock.",
+      "The '!' trial marker appears at the companion's preferred location in the current city.",
+      "Accept the trial and engage in the story scenario unique to that companion's arc.",
+      "A final combat challenge occurs — use the companion's signature Archetype synergy to win.",
+      "Completion rewards max bond rank, the companion's ultimate ability, and a closing character scene."
+    ]
+  },
+  {
+    id: 1125,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Secret Ending Requirement Quest",
+    location: "Various — calendar-dependent",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Secret ending route unlocked",
+    summary:
+      "A hidden set of conditions that, when fulfilled, unlocks a secret ending path. Requires maxing specific Follower bonds, completing all Virtue Trials, and clearing a hidden dungeon before the final deadline.",
+    aiTip:
+      "Start this checklist from day one: max Gallica and Louis's bonds, complete all five Virtue Trials, and unlock the secret dungeon by reading the hidden memo in the Skanda library.",
+    video: "https://www.youtube.com/watch?v=tOx-mhC-VeY"
+  },
+  {
+    id: 1126,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Final Preparation Task",
+    location: "Gauntlet Runner / Skanda",
+    length: "short",
+    difficulty: "Low",
+    reward: "Party stat buffs, final supplies",
+    summary:
+      "A small set of tasks on the Gauntlet Runner and in Skanda town before the final dungeon locks out side content. Completing them provides permanent stat buffs for the finale.",
+    aiTip:
+      "These tasks are only available in the short window after MQ-09 and before entering the Skybound Avatar — do not skip them.",
+    walkthrough: [
+      "After MQ-09 completes, speak to each party member on the Gauntlet Runner with a '!' marker.",
+      "Complete the three short activities they request — each takes less than one calendar day.",
+      "Visit the Skanda shop keeper with the '!' marker to receive a special pre-final supply package.",
+      "Use the supply package before entering the final dungeon to apply the permanent stat buffs.",
+      "Once all tasks are done, confirm readiness with Gallica to trigger the final dungeon entry."
+    ]
+  },
+  {
+    id: 1127,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Hidden Postgame Challenge",
+    location: "Skanda Secret Dungeon",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Postgame trophy, ultimate equipment, true platinum route",
+    summary:
+      "A secret dungeon only accessible after clearing the true ending. The ultimate challenge of Metaphor: ReFantazio — enemies here exceed final boss difficulty and require maxed-out Archetypes.",
+    aiTip:
+      "Bring your three strongest Archetype builds and enough revival items for a sustained run. The final floor boss has no elemental weakness.",
+    video: "https://www.youtube.com/watch?v=tOx-mhC-VeY"
   }
 ];
