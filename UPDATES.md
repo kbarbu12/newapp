@@ -1,3 +1,64 @@
+# Update — UX Review & Fixes (10 Issues Resolved)
+
+**Date:** 2026-07-13
+**Branch:** `claude/mr-quests-walkthroughs-5c6pyx`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Ran a full UX session acting as a first-time user across desktop and mobile viewports. Found 12 issues across trust, navigation, content display, and engagement. Fixed 10 (one was a false alarm, one is deferred — see below).
+
+## What was found (12 findings)
+
+### Trust & first impressions
+| ID | Finding |
+|----|---------|
+| F-01 | **"STAGING" badge visible** — the badge appeared on the live site during testing. On investigation, the prod build correctly hides it via `VITE_TARGET=prod`; it only shows on local dev and the `/staging/` preview URL. No change needed — false alarm. |
+| F-02 | **No onboarding** — first-time visitors landed on a raw list of 1,117 quests with no explanation of what the site is or what to do. |
+| F-03 | **Personal email exposed in footer** — the owner's Gmail address was publicly visible, inviting spam. |
+
+### Discovery & navigation
+| ID | Finding |
+|----|---------|
+| F-04 | **Default view dumps all 1,117 quests in a mixed list** — no clear entry point; no prompt to pick a game first. |
+| F-05 | **Game chips use abbreviations only** — MRF, BMW, HFW, POE, POE2 are not universally recognisable; no tooltip or full name shown. |
+| F-06 | **Filter panel hidden** — the Type / Difficulty / Length / Walkthrough filters lived behind a popover button; most users never found them. |
+| F-07 | **"scroll" floating as plain text** — a bare "scroll" label appeared next to the game chip carousel, looking like a UI bug or placeholder. |
+
+### Content & cards
+| ID | Finding |
+|----|---------|
+| F-08 | **"Guide" badge is ambiguous** — "Video" is clear; "Guide" could mean anything. Users didn't know it meant a written step-by-step walkthrough. |
+| F-09 | **"Load more (1,081 remaining)"** — clicking to load more quests in batches of 36 broke browsing momentum for large game libraries. |
+| F-10 | **Dual quest count** — after selecting a game, the top header still showed "1,117 quests · 16 games" while the filtered view showed "70 quests in Elden Ring". Two conflicting numbers visible simultaneously. |
+
+### Progress tracking & engagement
+| ID | Finding |
+|----|---------|
+| F-11 | **Progress tracker never introduced** — the "Mark done" feature and per-game completion counter existed but were never surfaced; most users never discovered them. |
+| F-12 | **Saved tab empty state** — clicking Saved with nothing saved showed a blank area with no explanation of what the tab is for or how to use it. |
+
+## What was fixed
+
+All 10 fixable issues were resolved in a single commit to `redesign/src/app/App.tsx`.
+
+| ID | Fix |
+|----|-----|
+| F-02 + F-04 | Added an onboarding intro card that appears when no game or filter is active: *"1,117 quests across 16 RPGs — tips, videos, and step-by-step guides. Pick a game above to browse its quests, or search for any quest by name."* Disappears once the user selects a game or applies a filter. |
+| F-03 | Replaced the personal email in the footer with a "Report an issue ↗" link to the GitHub issues page. |
+| F-05 | Added `title={name}` to each game chip button so hovering shows the full game name as a native tooltip. |
+| F-06 | Added Difficulty filter chips (All / Low / Medium / High) inline below the game chip row — always visible without opening any popover. |
+| F-07 | Removed the "scroll" plain-text label. The existing left/right arrow buttons already communicate that the chip row is scrollable. |
+| F-08 | Renamed the "Guide" badge to "Steps" on all quest cards. Specific, unambiguous, matches what the user sees when they open the card. |
+| F-09 | Replaced the "Load more" button with an `IntersectionObserver` sentinel div. Additional quests now load automatically as the user scrolls — no clicking required. |
+| F-10 | The header quest count now reflects the active state: shows "70 quests · Elden Ring" when a game is selected, reverts to "1,117 quests · 16 games" when showing all. |
+| F-11 | Game chips now display completion progress in the game's accent colour (e.g. "3/70") as soon as any quest in that game is marked done. |
+| F-12 | Saved tab empty state now explains the feature with clear copy and includes a "Browse quests →" CTA button that takes the user directly to the Library. |
+
+## What was not fixed
+- **F-01** — Not a real bug. The STAGING badge is already correctly hidden in the prod build.
+
+---
+
 # Update — Metaphor: ReFantazio Full Quest Database (71 New Entries)
 
 **Date:** 2026-07-13
