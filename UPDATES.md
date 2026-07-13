@@ -65,6 +65,21 @@ Follower bonds, Virtue stats).
 ## Quest count
 Metaphor: ReFantazio now has **113 quest entries** in the database.
 
+## QA test results
+
+Tested via Playwright (headless Chromium) against the redesign dev server after push to staging.
+
+| Check | Result |
+|-------|--------|
+| Library shows MRF chip with correct count | ✅ 111 quests |
+| Video quest modal (e.g. Help the Hushed Honeybee) | ✅ Title, type, difficulty, duration, location, region, summary, tip, reward, YouTube link all render correctly |
+| Walkthrough quest modal (e.g. The Monster of Grand Trad) | ✅ Shows "Video walkthrough not available" for pre-existing entries without guide arrays (expected) |
+| New entries (id ≥ 1059) — video/walkthrough coverage | ✅ 20 with real video, 50 with walkthrough; 1 gap found and fixed (see below) |
+| Audit after fix | ✅ Integrity clean — no duplicate IDs, no missing fields, no duplicate titles |
+| JS errors from app code | ✅ None |
+
+**Bug found and fixed during QA:** "Hidden Postgame Challenge" (id 1127) had only a search-query URL and no walkthrough array, violating the CLAUDE.md rule. A 7-step walkthrough was added and committed.
+
 ---
 
 # Update — Smarter Quest Assistant, Chat Info Panel & Mobile Chat Layout
