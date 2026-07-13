@@ -929,6 +929,8 @@ export default function App() {
     if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
     if(sort==="game")return a.game.localeCompare(b.game);
     if(sort==="title")return a.title.localeCompare(b.title);
+    // default: group by game when viewing all so the list has clear structure
+    if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
   }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search,sort]);
 
@@ -1055,7 +1057,7 @@ export default function App() {
                     {selectedGame!=="All"&&<button onClick={()=>setSelectedGame("All")} className="text-[10px] text-primary hover:underline">↺ Show all</button>}
                   </div>
                   <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame} completedIds={completedIds}/>
-                  <div className="flex items-center gap-2 mt-3 flex-wrap">
+                  <div className="flex items-center gap-2 mt-3 overflow-x-auto flex-nowrap pb-0.5">
                     <span className="text-[10px] font-mono font-bold text-muted-foreground/60 uppercase tracking-widest mr-1">Difficulty</span>
                     {(["All","Low","Medium","High"] as DiffFilter[]).map(d=>(
                       <button key={d} onClick={()=>setDiffFilter(d)}
@@ -1085,8 +1087,14 @@ export default function App() {
                 <div className="flex items-center gap-3 flex-wrap">
                   <div className="relative flex-1 max-w-md">
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
-                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
+                  {selectedGame!=="All" && (
+                    <button onClick={()=>setSelectedGame("All")} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-primary/40 bg-primary/10 text-xs font-medium text-primary hover:bg-primary/20 transition-colors">
+                      {selectedGame} <X size={11}/>
+                    </button>
+                  )}
                   <FiltersPopover activeFilters={activeFilters} onReset={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}}>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
@@ -1097,7 +1105,7 @@ export default function App() {
                     <option value="default">Sort: Default</option>
                     <option value="difficulty">Sort: Difficulty</option>
                     <option value="length">Sort: Length</option>
-                    <option value="game">Sort: Game</option>
+                    <option value="game">Sort: By Game</option>
                     <option value="title">Sort: Title</option>
                   </select>
                   <span className="text-sm text-muted-foreground">{filtered.length} result{filtered.length!==1?"s":""}</span>
