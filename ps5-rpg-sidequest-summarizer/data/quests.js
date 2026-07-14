@@ -18772,7 +18772,7 @@ const quests = [
   },
   // ── Metaphor: ReFantazio — Main Quests (MQ-01 to MQ-11) ──
   {
-    id: 1128,
+    id: 1132,
     type: "main",
     game: "Metaphor: ReFantazio",
     region: "Grand Trad",
@@ -18788,7 +18788,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
   },
   {
-    id: 1129,
+    id: 1133,
     type: "main",
     game: "Metaphor: ReFantazio",
     region: "Grand Trad",
@@ -20273,7 +20273,7 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
   },
   {
-    id: 1128,
+    id: 1134,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20290,7 +20290,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
   },
   {
-    id: 1129,
+    id: 1135,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20315,7 +20315,7 @@ const quests = [
     ]
   },
   {
-    id: 1130,
+    id: 1136,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20340,7 +20340,7 @@ const quests = [
     ]
   },
   {
-    id: 1131,
+    id: 1137,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20366,7 +20366,7 @@ const quests = [
     ]
   },
   {
-    id: 1132,
+    id: 1138,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20391,7 +20391,7 @@ const quests = [
     ]
   },
   {
-    id: 1133,
+    id: 1139,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20417,7 +20417,7 @@ const quests = [
     ]
   },
   {
-    id: 1134,
+    id: 1140,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20443,7 +20443,7 @@ const quests = [
     ]
   },
   {
-    id: 1135,
+    id: 1141,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20469,7 +20469,7 @@ const quests = [
     ]
   },
   {
-    id: 1136,
+    id: 1142,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20495,7 +20495,7 @@ const quests = [
     ]
   },
   {
-    id: 1138,
+    id: 1144,
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
@@ -20521,7 +20521,7 @@ const quests = [
     ]
   },
   {
-    id: 1139,
+    id: 1145,
     type: "side",
     category: "Post-Game",
     game: "Ghost of Yotei",
@@ -20547,7 +20547,7 @@ const quests = [
     ]
   },
   {
-    id: 1140,
+    id: 1146,
     type: "side",
     category: "Post-Game",
     game: "Ghost of Yotei",
@@ -20572,7 +20572,7 @@ const quests = [
     ]
   },
   {
-    id: 1141,
+    id: 1147,
     type: "side",
     category: "Post-Game",
     game: "Ghost of Yotei",
@@ -20597,7 +20597,7 @@ const quests = [
     ]
   },
   {
-    id: 1142,
+    id: 1148,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20614,7 +20614,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
   },
   {
-    id: 1143,
+    id: 1149,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20631,7 +20631,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=tLoWypwSLyE"
   },
   {
-    id: 1144,
+    id: 1150,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20648,7 +20648,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
   },
   {
-    id: 1145,
+    id: 1151,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20665,7 +20665,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
   },
   {
-    id: 1146,
+    id: 1152,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20682,7 +20682,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
   },
   {
-    id: 1147,
+    id: 1153,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20699,7 +20699,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
   },
   {
-    id: 1148,
+    id: 1154,
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
@@ -20716,7 +20716,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
   },
   {
-    id: 1149,
+    id: 1155,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20733,7 +20733,7 @@ const quests = [
     video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
   },
   {
-    id: 1150,
+    id: 1156,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20758,7 +20758,7 @@ const quests = [
     ]
   },
   {
-    id: 1151,
+    id: 1157,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20783,7 +20783,7 @@ const quests = [
     ]
   },
   {
-    id: 1152,
+    id: 1158,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20809,7 +20809,7 @@ const quests = [
     ]
   },
   {
-    id: 1153,
+    id: 1159,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20833,7 +20833,7 @@ const quests = [
     ]
   },
   {
-    id: 1154,
+    id: 1160,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20858,7 +20858,7 @@ const quests = [
     ]
   },
   {
-    id: 1155,
+    id: 1161,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20883,7 +20883,7 @@ const quests = [
     ]
   },
   {
-    id: 1156,
+    id: 1162,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20909,7 +20909,7 @@ const quests = [
     ]
   },
   {
-    id: 1157,
+    id: 1163,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20933,7 +20933,7 @@ const quests = [
     ]
   },
   {
-    id: 1158,
+    id: 1164,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20957,7 +20957,7 @@ const quests = [
     ]
   },
   {
-    id: 1159,
+    id: 1165,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -20982,7 +20982,7 @@ const quests = [
     ]
   },
   {
-    id: 1160,
+    id: 1166,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21007,7 +21007,7 @@ const quests = [
     ]
   },
   {
-    id: 1161,
+    id: 1167,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21032,7 +21032,7 @@ const quests = [
     ]
   },
   {
-    id: 1162,
+    id: 1168,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21058,7 +21058,7 @@ const quests = [
     ]
   },
   {
-    id: 1163,
+    id: 1169,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21082,7 +21082,7 @@ const quests = [
     ]
   },
   {
-    id: 1164,
+    id: 1170,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21107,7 +21107,7 @@ const quests = [
     ]
   },
   {
-    id: 1165,
+    id: 1171,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21132,7 +21132,7 @@ const quests = [
     ]
   },
   {
-    id: 1166,
+    id: 1172,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21158,7 +21158,7 @@ const quests = [
     ]
   },
   {
-    id: 1167,
+    id: 1173,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21183,7 +21183,7 @@ const quests = [
     ]
   },
   {
-    id: 1168,
+    id: 1174,
     type: "side",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
@@ -21208,7 +21208,7 @@ const quests = [
     ]
   },
   {
-    id: 1169,
+    id: 1175,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21232,7 +21232,7 @@ const quests = [
     ]
   },
   {
-    id: 1170,
+    id: 1176,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21256,7 +21256,7 @@ const quests = [
     ]
   },
   {
-    id: 1171,
+    id: 1177,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21280,7 +21280,7 @@ const quests = [
     ]
   },
   {
-    id: 1172,
+    id: 1178,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21305,7 +21305,7 @@ const quests = [
     ]
   },
   {
-    id: 1173,
+    id: 1179,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21330,7 +21330,7 @@ const quests = [
     ]
   },
   {
-    id: 1174,
+    id: 1180,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21355,7 +21355,7 @@ const quests = [
     ]
   },
   {
-    id: 1175,
+    id: 1181,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21379,7 +21379,7 @@ const quests = [
     ]
   },
   {
-    id: 1176,
+    id: 1182,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21404,7 +21404,7 @@ const quests = [
     ]
   },
   {
-    id: 1177,
+    id: 1183,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21429,7 +21429,7 @@ const quests = [
     ]
   },
   {
-    id: 1178,
+    id: 1184,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21454,7 +21454,7 @@ const quests = [
     ]
   },
   {
-    id: 1179,
+    id: 1185,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21479,7 +21479,7 @@ const quests = [
     ]
   },
   {
-    id: 1180,
+    id: 1186,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21504,7 +21504,7 @@ const quests = [
     ]
   },
   {
-    id: 1181,
+    id: 1187,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21529,7 +21529,7 @@ const quests = [
     ]
   },
   {
-    id: 1182,
+    id: 1188,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21554,7 +21554,7 @@ const quests = [
     ]
   },
   {
-    id: 1183,
+    id: 1189,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21579,7 +21579,7 @@ const quests = [
     ]
   },
   {
-    id: 1184,
+    id: 1190,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21604,7 +21604,7 @@ const quests = [
     ]
   },
   {
-    id: 1185,
+    id: 1191,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21629,7 +21629,7 @@ const quests = [
     ]
   },
   {
-    id: 1186,
+    id: 1192,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21655,7 +21655,7 @@ const quests = [
     ]
   },
   {
-    id: 1187,
+    id: 1193,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21681,7 +21681,7 @@ const quests = [
     ]
   },
   {
-    id: 1188,
+    id: 1194,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21706,7 +21706,7 @@ const quests = [
     ]
   },
   {
-    id: 1189,
+    id: 1195,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21732,7 +21732,7 @@ const quests = [
     ]
   },
   {
-    id: 1190,
+    id: 1196,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21757,7 +21757,7 @@ const quests = [
     ]
   },
   {
-    id: 1191,
+    id: 1197,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21782,7 +21782,7 @@ const quests = [
     ]
   },
   {
-    id: 1192,
+    id: 1198,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21808,7 +21808,7 @@ const quests = [
     ]
   },
   {
-    id: 1193,
+    id: 1199,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21833,7 +21833,7 @@ const quests = [
     ]
   },
   {
-    id: 1194,
+    id: 1200,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21858,7 +21858,7 @@ const quests = [
     ]
   },
   {
-    id: 1195,
+    id: 1201,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21883,7 +21883,7 @@ const quests = [
     ]
   },
   {
-    id: 1196,
+    id: 1202,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21908,7 +21908,7 @@ const quests = [
     ]
   },
   {
-    id: 1197,
+    id: 1203,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21933,7 +21933,7 @@ const quests = [
     ]
   },
   {
-    id: 1198,
+    id: 1204,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21959,7 +21959,7 @@ const quests = [
     ]
   },
   {
-    id: 1199,
+    id: 1205,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -21984,7 +21984,7 @@ const quests = [
     ]
   },
   {
-    id: 1200,
+    id: 1206,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22009,7 +22009,7 @@ const quests = [
     ]
   },
   {
-    id: 1201,
+    id: 1207,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22034,7 +22034,7 @@ const quests = [
     ]
   },
   {
-    id: 1202,
+    id: 1208,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22060,7 +22060,7 @@ const quests = [
     ]
   },
   {
-    id: 1203,
+    id: 1209,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22085,7 +22085,7 @@ const quests = [
     ]
   },
   {
-    id: 1204,
+    id: 1210,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22110,7 +22110,7 @@ const quests = [
     ]
   },
   {
-    id: 1205,
+    id: 1211,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22136,7 +22136,7 @@ const quests = [
     ]
   },
   {
-    id: 1206,
+    id: 1212,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22161,7 +22161,7 @@ const quests = [
     ]
   },
   {
-    id: 1207,
+    id: 1213,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22186,7 +22186,7 @@ const quests = [
     ]
   },
   {
-    id: 1208,
+    id: 1214,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22210,7 +22210,7 @@ const quests = [
     ]
   },
   {
-    id: 1209,
+    id: 1215,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22235,7 +22235,7 @@ const quests = [
     ]
   },
   {
-    id: 1210,
+    id: 1216,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22260,7 +22260,7 @@ const quests = [
     ]
   },
   {
-    id: 1211,
+    id: 1217,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22285,7 +22285,7 @@ const quests = [
     ]
   },
   {
-    id: 1212,
+    id: 1218,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22311,7 +22311,7 @@ const quests = [
     ]
   },
   {
-    id: 1213,
+    id: 1219,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22337,7 +22337,7 @@ const quests = [
     ]
   },
   {
-    id: 1214,
+    id: 1220,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22362,7 +22362,7 @@ const quests = [
     ]
   },
   {
-    id: 1215,
+    id: 1221,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22387,7 +22387,7 @@ const quests = [
     ]
   },
   {
-    id: 1216,
+    id: 1222,
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
@@ -22412,7 +22412,7 @@ const quests = [
     ]
   },
   {
-    id: 1217,
+    id: 1223,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22437,7 +22437,7 @@ const quests = [
     ]
   },
   {
-    id: 1218,
+    id: 1224,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22462,7 +22462,7 @@ const quests = [
     ]
   },
   {
-    id: 1219,
+    id: 1225,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22487,7 +22487,7 @@ const quests = [
     ]
   },
   {
-    id: 1220,
+    id: 1226,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22512,7 +22512,7 @@ const quests = [
     ]
   },
   {
-    id: 1221,
+    id: 1227,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22537,7 +22537,7 @@ const quests = [
     ]
   },
   {
-    id: 1222,
+    id: 1228,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22562,7 +22562,7 @@ const quests = [
     ]
   },
   {
-    id: 1223,
+    id: 1229,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22587,7 +22587,7 @@ const quests = [
     ]
   },
   {
-    id: 1224,
+    id: 1230,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22611,7 +22611,7 @@ const quests = [
     ]
   },
   {
-    id: 1225,
+    id: 1231,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22636,7 +22636,7 @@ const quests = [
     ]
   },
   {
-    id: 1226,
+    id: 1232,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22661,7 +22661,7 @@ const quests = [
     ]
   },
   {
-    id: 1227,
+    id: 1233,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22687,7 +22687,7 @@ const quests = [
     ]
   },
   {
-    id: 1228,
+    id: 1234,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22712,7 +22712,7 @@ const quests = [
     ]
   },
   {
-    id: 1229,
+    id: 1235,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22738,7 +22738,7 @@ const quests = [
     ]
   },
   {
-    id: 1230,
+    id: 1236,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22764,7 +22764,7 @@ const quests = [
     ]
   },
   {
-    id: 1231,
+    id: 1237,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22790,7 +22790,7 @@ const quests = [
     ]
   },
   {
-    id: 1232,
+    id: 1238,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22815,7 +22815,7 @@ const quests = [
     ]
   },
   {
-    id: 1233,
+    id: 1239,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22840,7 +22840,7 @@ const quests = [
     ]
   },
   {
-    id: 1234,
+    id: 1240,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22864,7 +22864,7 @@ const quests = [
     ]
   },
   {
-    id: 1235,
+    id: 1241,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22889,7 +22889,7 @@ const quests = [
     ]
   },
   {
-    id: 1236,
+    id: 1242,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22913,7 +22913,7 @@ const quests = [
     ]
   },
   {
-    id: 1237,
+    id: 1243,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22938,7 +22938,7 @@ const quests = [
     ]
   },
   {
-    id: 1238,
+    id: 1244,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22963,7 +22963,7 @@ const quests = [
     ]
   },
   {
-    id: 1239,
+    id: 1245,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -22988,7 +22988,7 @@ const quests = [
     ]
   },
   {
-    id: 1240,
+    id: 1246,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23012,7 +23012,7 @@ const quests = [
     ]
   },
   {
-    id: 1241,
+    id: 1247,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23037,7 +23037,7 @@ const quests = [
     ]
   },
   {
-    id: 1242,
+    id: 1248,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23061,7 +23061,7 @@ const quests = [
     ]
   },
   {
-    id: 1243,
+    id: 1249,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23086,7 +23086,7 @@ const quests = [
     ]
   },
   {
-    id: 1244,
+    id: 1250,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23111,7 +23111,7 @@ const quests = [
     ]
   },
   {
-    id: 1245,
+    id: 1251,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23137,7 +23137,7 @@ const quests = [
     ]
   },
   {
-    id: 1246,
+    id: 1252,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
@@ -23163,7 +23163,7 @@ const quests = [
     ]
   },
   {
-    id: 1247,
+    id: 1253,
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
