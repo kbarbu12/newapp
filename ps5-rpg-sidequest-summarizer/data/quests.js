@@ -20510,7 +20510,6 @@ const quests = [
       "Watch the ending cutscene in full — it determines which of two endings plays based on earlier choices."
     ]
   },
-  ,
   {
     id: 1139,
     type: "side",
@@ -20584,7 +20583,6 @@ const quests = [
       "After all five are cleansed, return to the Nayoro elder for the cutscene and armour reward."
     ]
   },
-  ,
   {
     id: 1142,
     type: "side",
@@ -20704,7 +20702,6 @@ const quests = [
       "The Storm Blade's special attack sends a ranged lightning arc — upgrade it as soon as possible. The three trials can be done in any order; the water trial is easiest if done first to learn the puzzle pattern.",
     video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
   },
-  ,
   {
     id: 1149,
     type: "side",
@@ -20961,7 +20958,6 @@ const quests = [
       "Winning gives the permanent listening range upgrade and Mushin's departing riddle (flavour only)."
     ]
   },
-  ,
   {
     id: 1160,
     type: "side",
@@ -21179,7 +21175,6 @@ const quests = [
       "Receive the Resolve Regen passive upgrade permanently added to Atsu's skill sheet."
     ]
   },
-  ,
   {
     id: 1169,
     type: "side",
@@ -21416,7 +21411,6 @@ const quests = [
       "Collect your reward from Jiro's hidden cache under the barn floorboard regardless of path chosen."
     ]
   },
-  ,
   {
     id: 1179,
     type: "side",
@@ -21708,7 +21702,6 @@ const quests = [
       "Return to the inn to find the family reunited; receive the Liberator's Charm."
     ]
   },
-  ,
   {
     id: 1191,
     type: "side",
@@ -22338,7 +22331,6 @@ const quests = [
       "After Wave 2, a brief cutscene ends the siege; receive the charm and alliance unlock."
     ]
   },
-  ,
   {
     id: 1217,
     type: "side",
