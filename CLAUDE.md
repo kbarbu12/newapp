@@ -21,6 +21,17 @@ of truth; the redesign regenerates from it).
 real video, add a step-by-step `walkthrough: [ … ]` array instead (see existing
 entries for the format).
 
+**When adding a new game**, always enrich every quest beyond what the source document provides:
+- Search for a real YouTube walkthrough video (`youtube.com/watch?v=…`). If found, use `video`.
+- If no real video exists, write a step-by-step `walkthrough: [ … ]` array from game knowledge.
+- Fill in `summary`, `aiTip`, `location`, `difficulty`, `length`, and `reward` for every entry — never leave them blank or use placeholder text.
+- Add the game to `gameImages` (gradient, abbr, cover path) and `subFilterConfig` (category/region filters).
+- Source documents are a starting point only; supplement missing quests, fields, and details using research.
+
+## Agent Usage
+
+**Never delegate large tasks to subagents.** Subagents have output token limits and will fail silently mid-task on anything substantial (bulk data writing, large file edits, multi-file changes). Handle all major work directly. Only spawn agents for small, focused lookups or research that returns a short answer.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**

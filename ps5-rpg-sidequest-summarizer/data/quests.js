@@ -64,6 +64,11 @@ const gameImages = {
     abbr: "GOT",
     cover: "images/ghost-of-tsushima-cover.jpg"
   },
+  "Ghost of Yotei": {
+    gradient: "linear-gradient(135deg, #0a0a1a 0%, #7c1111 50%, #e84040 100%)",
+    abbr: "GOY",
+    cover: "images/ghost-of-yotei-cover.svg"
+  },
   "Horizon Forbidden West": {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
     abbr: "HFW",
@@ -226,6 +231,32 @@ const subFilterConfig = {
         { value: "Toyotama", text: "Toyotama" },
         { value: "Kamiagata", text: "Kamiagata" },
         { value: "Iki Island", text: "Iki Island (DLC)" }
+      ]
+    }
+  ],
+  "Ghost of Yotei": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Atsu's Journey", text: "Atsu's Journey" },
+        { value: "Mythic Tales", text: "Mythic Tales" },
+        { value: "Sensei Tales", text: "Sensei Tales" },
+        { value: "Side Tales", text: "Side Tales" },
+        { value: "Bounties", text: "Bounties" },
+        { value: "Post-Game", text: "Post-Game" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Region",
+      options: [
+        { value: "Yotei Grasslands", text: "Yōtei Grasslands" },
+        { value: "Tokachi Range", text: "Tokachi Range" },
+        { value: "Teshio Ridge", text: "Teshio Ridge" },
+        { value: "Ishikari Plain", text: "Ishikari Plain" },
+        { value: "Nayoro Wilds", text: "Nayoro Wilds" },
+        { value: "Oshima Coast", text: "Oshima Coast" }
       ]
     }
   ],
@@ -20239,5 +20270,2819 @@ const quests = [
       "Clearing the dungeon unlocks the ultimate equipment set and the platinum trophy route."
     ],
     video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
+  },
+  {
+    id: 1128,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Snake",
+    location: "Yōtei Grasslands — Roadside Outpost",
+    length: "short",
+    difficulty: "Low",
+    reward: "First Yōtei Six kill, Ghost Stance seeds",
+    summary:
+      "Atsu tracks down the Snake — the first of the Yōtei Six — a drunk, cowardly bandit lord who terrorises the outer grassland roads. The confrontation ends in a disarming QTE after he throws sand in Atsu's eyes.",
+    aiTip:
+      "The Snake is the easiest of the Six. When he reaches back to grab dirt, dodge sideways immediately — the sand blinds you if you stay still. Block and counter-attack through his drunken stagger.",
+    video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
+  },
+  {
+    id: 1129,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Old Inn",
+    location: "Yōtei Grasslands — Riverside Inn",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Map expansion, first ally contact",
+    summary:
+      "Atsu finds her first safe haven at a crumbling roadside inn and begins building the network of contacts she needs to hunt the rest of the Yōtei Six. An old innkeeper reveals what she knows of the gang's movements.",
+    aiTip:
+      "Talk to every NPC in the inn — optional conversations unlock rumours that mark bounty targets on your map before you'd naturally discover them.",
+    walkthrough: [
+      "Follow the road north from the Snake's outpost into the Yōtei Grasslands proper.",
+      "Locate the Riverside Inn marked on your map — clear the two bandits loitering outside.",
+      "Speak with the innkeeper Hana at the counter to trigger the main cutscene.",
+      "Choose dialogue options to press her for information about the Yōtei Six's current base.",
+      "After the cutscene, speak with all three other NPCs in the common room for optional lore and rumours.",
+      "Rest at the inn to unlock the map expansion and advance to the next main quest."
+    ]
+  },
+  {
+    id: 1130,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Way of Dual Katana",
+    location: "Yōtei Grasslands — Training Ground",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dual Katana weapon system unlocked",
+    summary:
+      "A wandering ronin recognises Atsu's raw skill and offers to teach her the dual-blade style. A series of combat trials culminates in a duel that unlocks the dual katana as Atsu's signature weapon.",
+    aiTip:
+      "The dual katana's fast flurry attacks excel against lightly armoured enemies. Complete the optional bonus trial at the end to unlock the first upgrade slot immediately.",
+    walkthrough: [
+      "Accept the ronin's offer at the training ground marker in the western Grasslands.",
+      "Complete Trial 1: defeat three straw dummies within the time limit using basic slashes.",
+      "Complete Trial 2: survive a sparring bout against the ronin without taking more than two hits.",
+      "Complete Trial 3: chain a five-hit combo — the game prompts the input sequence on screen.",
+      "Finish the final duel against the ronin; block his overhead strike and counter three times to end it.",
+      "Collect the dual katana from the chest and equip it from the weapon wheel."
+    ]
+  },
+  {
+    id: 1131,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Saito",
+    location: "Yōtei Grasslands — Fort Takeda",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Second Yōtei Six kill, Ghost tool upgrade",
+    summary:
+      "Saito, the strategic mind of the Yōtei Six, has fortified himself inside a riverside fort surrounded by elite guards. Atsu must infiltrate the fort, dismantle his defences, and fight him in a one-on-one duel.",
+    aiTip:
+      "Saito counters every direct assault — use the Ghost stance to terrify outer guards before entering so you face fewer enemies inside. In the duel, bait his triple-slash then punish the recovery.",
+    walkthrough: [
+      "Investigate the fort exterior and find the three weak-point entrances marked by owl symbols.",
+      "Eliminate the two rooftop archers silently before breaching — they alert everyone if missed.",
+      "Work through the courtyard using fear kills to build Ghost Stance before the inner gate.",
+      "Eavesdrop on the two guards near the barracks to learn Saito's patrol schedule.",
+      "Confront Saito in the inner courtyard; the duel begins automatically after the cutscene.",
+      "Bait his triple slash combo, dodge the third hit, and counter with a heavy dual-katana strike.",
+      "Finish with a Ghost Stance execution when his posture breaks to end the mission."
+    ]
+  },
+  {
+    id: 1132,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Yōtei Six",
+    location: "Ezo — Multiple Regions",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Open hunt system unlocked, regional map markers",
+    summary:
+      "With two members of the Six dead, Atsu learns the rest have scattered across Ezo. This quest opens the free-roaming hunt system and marks the remaining four targets across the game's regions.",
+    aiTip:
+      "You can tackle the remaining four members in any order. Do the Mythic Tales and Sensei quests in each region first — the gear and skills you earn will make each Six encounter significantly easier.",
+    walkthrough: [
+      "After Saito's defeat, return to the Riverside Inn and speak with Hana for new intelligence.",
+      "A cutscene reveals the remaining four members have fled to Tokachi, Teshio, Ishikari, and Oshima.",
+      "Open the map — four new main quest markers appear, one per region.",
+      "Travel to any region of your choice; the game recommends Tokachi as the natural next step.",
+      "Complete each region's main quest to eliminate the corresponding Six member.",
+      "Return to the Grasslands after all four are dead to trigger the next story cutscene."
+    ]
+  },
+  {
+    id: 1133,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Oni",
+    location: "Tokachi Range — Oni's Stronghold",
+    length: "long",
+    difficulty: "High",
+    reward: "Third Yōtei Six kill, heavy armour upgrade",
+    summary:
+      "The Oni is a hulking enforcer who wears demonic armour and leads raids across Tokachi. He fights with overwhelming power and uses subordinates as shields. Atsu must outmanoeuvre both him and his elite guard.",
+    aiTip:
+      "The Oni's overhead slams are unblockable — watch for the red glow on his gauntlets. Dodge to his left flank and strike twice before repositioning. The Kusarigama's ranged pull breaks his guard stance.",
+    walkthrough: [
+      "Infiltrate the Oni's stronghold via the cliffside route marked on the Tokachi map.",
+      "Eliminate the four courtyard guards quietly — the Oni patrols inside and will join if alerted.",
+      "Use the environment: collapse the hanging cage to distract the two inner guards.",
+      "Trigger the boss fight by entering the main hall; the Oni ambushes you from behind a pillar.",
+      "Dodge his overhead slams left and attack twice from his flank — never attack from the front.",
+      "At half health he calls two elite guards; use Ghost Stance to wipe them quickly.",
+      "Land the final blow during his exhaustion animation to trigger the execution cutscene."
+    ]
+  },
+  {
+    id: 1134,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Kitsune",
+    location: "Nayoro Wilds — Spirit Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fourth Yōtei Six kill, stealth technique upgrade",
+    summary:
+      "The Kitsune uses disguise and poison to operate unseen. Atsu must see through the deception, track the real Kitsune through the Nayoro spirit shrines, and fight them before the poison takes full effect.",
+    aiTip:
+      "Equip herbal medicine before this quest — the Kitsune opens with a poisoned dart. Identify the real Kitsune by the slight limp on their right side during the disguise phase.",
+    walkthrough: [
+      "Follow the rumour chain in Nayoro to the Spirit Shrine district — three NPCs each give a clue.",
+      "At the shrine, you encounter three identical-looking figures; observe movement to spot the limp.",
+      "Pursue the real Kitsune through the forest shrine path — they drop smoke bombs every 30 seconds.",
+      "Use your listening sense (L2 pulse) to track them through smoke.",
+      "Corner the Kitsune at the upper shrine; they attack with a poisoned tantō and quick dodges.",
+      "Stay aggressive — the Kitsune has low health but will flee and reset if given breathing room.",
+      "Collect the spirit token from the body and return it to the Nayoro elder to complete the quest."
+    ]
+  },
+  {
+    id: 1135,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Saito Brothers (Part 1)",
+    location: "Ishikari Plain — Saito Manor",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation, access to Oshima",
+    summary:
+      "The elder Saito brother is revealed to be the true architect of the massacre that destroyed Atsu's village. A confrontation at Saito Manor unravels the conspiracy behind the Yōtei Six — and ends in a shocking betrayal.",
+    aiTip:
+      "Save before entering the manor. The final encounter has no checkpoint — if you die you restart from the manor gate. Stock up on healing items and use every stealth advantage before the confrontation.",
+    walkthrough: [
+      "Investigate the three Saito Manor outposts to gather evidence — each is guarded by six elites.",
+      "Present the evidence to your ally at the Ishikari inn to confirm the elder brother's location.",
+      "Infiltrate the manor at night using the dry moat on the eastern side.",
+      "Eliminate all guards before reaching the elder Saito — a full alert triggers a failed state.",
+      "Witness the cutscene that reveals the conspiracy; do not skip it as it changes available dialogue.",
+      "Survive the ambush by twelve guards after the revelation — Ghost Stance is essential here.",
+      "Escape through the manor's underground passage to trigger Part 2's unlock."
+    ]
+  },
+  {
+    id: 1136,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Saito Brothers (Part 2)",
+    location: "Oshima Coast — Sea Fortress",
+    length: "long",
+    difficulty: "High",
+    reward: "Fifth Yōtei Six kill, legendary weapon upgrade",
+    summary:
+      "Atsu pursues the elder Saito brother to his sea fortress on the Oshima Coast for a final reckoning. A brutal two-phase duel determines whether the conspiracy dies with him.",
+    aiTip:
+      "Phase 1 is a sword duel — standard parry timing. Phase 2 he uses a spear; switch your deflect timing to half a beat later than normal. Break his posture three times to end the fight.",
+    walkthrough: [
+      "Sail to the Oshima sea fortress using the boat at the Nayoro harbour.",
+      "Scale the sea cliffs on the fortress blind side — avoid the searchlight sweep pattern.",
+      "Clear the inner courtyard of eight guards before the brother emerges.",
+      "Phase 1 duel: deflect his katana combos and punish with dual-katana flurries.",
+      "At half health, the Phase 2 cutscene triggers — he switches to a yari spear.",
+      "Adjust deflect timing and use the Kusarigama pull to break his spear guard.",
+      "Execute the finishing blow in the QTE to complete Part 2 and advance the story."
+    ]
+  },
+  {
+    id: 1138,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Final Hunt of the Onryō",
+    location: "Mount Yōtei — Summit Shrine",
+    length: "long",
+    difficulty: "High",
+    reward: "Endgame, Ghost of Yōtei title, Onryō armour set",
+    summary:
+      "The final confrontation with the last of the Yōtei Six at the summit shrine of Mount Yōtei. Atsu embraces her legend as the Ghost — the Onryō — and ends the cycle of vengeance in a multi-stage climactic battle.",
+    aiTip:
+      "The final boss has three phases. Phase 1 is aggressive melee — play defensively. Phase 2 adds explosive traps — clear them with the Tanzutsu before engaging. Phase 3 is a Ghost Stance showdown — fill your meter before triggering it.",
+    walkthrough: [
+      "Ascend Mount Yōtei along the marked path — expect five elite ambushes on the way up.",
+      "Clear the outer shrine guards before approaching the summit; stealth is rewarded here.",
+      "Phase 1: fight defensively, deflect the fast combo strings and punish recovery windows.",
+      "Phase 2 trigger: explosive traps appear — shoot each with the Tanzutsu before resuming the duel.",
+      "Phase 3 trigger: the final Six member unleashes a berserker mode — fill Ghost Stance immediately.",
+      "Activate Ghost Stance to deliver the decisive damage burst and trigger the execution sequence.",
+      "Watch the ending cutscene in full — it determines which of two endings plays based on earlier choices."
+    ]
+  },
+  ,
+  {
+    id: 1139,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "Duel the Unrivaled",
+    location: "Ezo — Multiple Dueling Grounds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Endgame challenger trophy, Unrivaled sword kit",
+    summary:
+      "Post-story dueling challenges against Ezo's greatest swordspeople, unlocked after the finale. Each duel tests mastery of a different weapon and stance, culminating in a final bout against a returning character.",
+    aiTip:
+      "Each duelist counters one weapon type — switch away from whatever they're deflecting most. The final challenger punishes impatience; wait for their tells before committing to an attack.",
+    walkthrough: [
+      "Unlock after completing the main story — a new notice board appears at the Grasslands inn.",
+      "Accept the first challenge; each duelist location is marked on the regional map.",
+      "Duel 1 (Grasslands): katana specialist — use dual-katana flurry combos to break their guard.",
+      "Duel 2 (Tokachi): odachi fighter — dodge the wide sweeps and counter with the yari's thrust.",
+      "Duel 3 (Ishikari): a spear master — use Kusarigama pull to cancel their stance attacks.",
+      "Final duel (Mount Yōtei summit): a returning rival — adapt to all weapon types mid-fight.",
+      "Claim the Unrivaled sword kit from the summit chest after victory."
+    ]
+  },
+  {
+    id: 1140,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "Burning Plains",
+    location: "Ezo — Multiple Outlaw Camps",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "100% region cleanup, rare supply caches",
+    summary:
+      "Post-story cleanup quest clearing the last pockets of outlaw activity still burning across the Ezo plains. Former Yōtei Six lieutenants refuse to disperse and must be rooted out region by region.",
+    aiTip:
+      "These camps respawn lieutenants if you skip the named target — always find and kill the yellow-named officer first before clearing the rank and file.",
+    walkthrough: [
+      "Accept the quest from Kojiro the Bounty Broker after the credits.",
+      "The map marks five remaining outlaw strongholds across three regions.",
+      "Clear each stronghold by killing the named lieutenant — they are marked with a yellow skull icon.",
+      "After each stronghold, loot the supply cache in the commander's tent for rare materials.",
+      "Return to Kojiro after clearing all five for the completion reward.",
+      "Remaining random camps will stop respawning once all five strongholds are cleared."
+    ]
+  },
+  {
+    id: 1141,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "A Haunted Land",
+    location: "Ezo — Spirit Shrines",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Spirit armour set, Ainu elder's blessing",
+    summary:
+      "A mysterious spiritual disturbance lingers across Ezo after the Yōtei Six are defeated. The Ainu elders believe the violence has stirred restless spirits. Atsu must cleanse five shrines to restore balance.",
+    aiTip:
+      "Each shrine has a different spirit encounter — some are combat, some are environmental puzzles. Equip the Onryō armour from the main story finale for a damage bonus against spirit enemies.",
+    walkthrough: [
+      "Speak with the Nayoro Ainu elder after the credits — she senses the spiritual unrest.",
+      "Travel to each of the five marked spirit shrines across the six regions.",
+      "At each shrine, interact with the offering stone to begin the encounter.",
+      "Combat shrines: defeat the spirit guardian within the time limit.",
+      "Puzzle shrines: light the three torches in the correct sequence shown by the shrine's paintings.",
+      "After all five are cleansed, return to the Nayoro elder for the cutscene and armour reward."
+    ]
+  },
+  ,
+  {
+    id: 1142,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Takezo the Unrivalled",
+    location: "Yōtei Grasslands — Six Dueling Trees",
+    length: "long",
+    difficulty: "High",
+    reward: "Takezo's Katana legendary weapon, Unrivaled stance technique",
+    summary:
+      "A wandering musician sings of Takezo, a legendary swordmaster whose five disciples guard dueling trees across Ezo. Defeat all five, then face Takezo himself at the peak of Mount Yōtei to claim his blade.",
+    aiTip:
+      "Each disciple uses a different weapon — switch your own weapon to counter theirs. Takezo himself telegraphs every attack with a breath pause; perfect deflection is rewarded with a massive posture break.",
+    video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
+  },
+  {
+    id: 1143,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Five Teachings",
+    location: "Ezo — Five Sacred Waypoints",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Five secret combat techniques, Sage's Charm",
+    summary:
+      "A blind sage at a mountain pass claims the land itself holds five forgotten teachings. Each trial — at a different region's waypoint — tests a different aspect of Atsu's skills to unlock ancient combat secrets.",
+    aiTip:
+      "The five trials are: stealth kill, perfect deflect, fear kill, horseback kill, and environmental kill. Read each waypoint inscription carefully — it describes exactly what the trial requires before you start.",
+    video: "https://www.youtube.com/watch?v=tLoWypwSLyE"
+  },
+  {
+    id: 1144,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Undying Samurai",
+    location: "Ishikari Plain — Nakagoya Spring",
+    length: "medium",
+    difficulty: "High",
+    reward: "Undying Samurai Armour, Iron Will technique",
+    summary:
+      "A storyteller at Nakagoya Spring tells of a samurai who cannot die. Find four wind chimes hidden across Ishikari to summon his restless spirit and end his suffering — or his siege — in a fearsome boss duel.",
+    aiTip:
+      "The Undying Samurai regenerates health unless you break his spirit seal — hit him three times with the Tanzutsu between each health bar. Stock up on gun powder before starting this quest.",
+    video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
+  },
+  {
+    id: 1145,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Spider Lily General",
+    location: "Tokachi Range — Mysterious Gate",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spider Lily Armour set, Venom Strike technique",
+    summary:
+      "A gate sealed by four locks guards the tomb of a general who dressed her soldiers in spider lilies. Find the four keys scattered through Tokachi's most dangerous areas to open the gate and face the guardian within.",
+    aiTip:
+      "The Spider Lily General inflicts poison on every hit — bring maximum antidote supplies and the medicine pouch upgrade. Her attack windows are short; focus on perfect deflects rather than aggression.",
+    video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
+  },
+  {
+    id: 1146,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Legend of Opusnupuri",
+    location: "Nayoro Wilds — Mount Opusnupuri",
+    length: "long",
+    difficulty: "High",
+    reward: "Opusnupuri Armour, Spirit Step technique",
+    summary:
+      "Ainu legend holds that Mount Opusnupuri's spirit demands a challenger worthy of its memory. Follow the Ainu elder's guidance through sacred rituals and a treacherous ascent to face the mountain's guardian spirit.",
+    aiTip:
+      "The guardian spirit has no physical weak point — you must use the ritual fire arrows crafted during the quest to deal meaningful damage. Don't use them all in the first phase; save two for the final burst.",
+    video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
+  },
+  {
+    id: 1147,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Crimson Kimono",
+    location: "Teshio Ridge — Frozen Peaks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Crimson Kimono Armour, Phantom Step ability",
+    summary:
+      "Travellers on the Teshio Ridge speak of a woman in crimson who vanishes into the blizzards. Track her ghost across three frozen peaks using offerings of incense to reveal her true form and earn her legendary armour.",
+    aiTip:
+      "The Crimson Kimono boss fight takes place in a blizzard that limits visibility. Use your listening sense frequently to track her movement. She is vulnerable for only two seconds after each disappearing vanish.",
+    video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
+  },
+  {
+    id: 1148,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Storm Blade",
+    location: "Oshima Coast — Forgotten Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Storm Blade (Jin Sakai's legendary katana), Storm Strike technique",
+    summary:
+      "A shrine keeper on the Oshima Coast guards the tomb of a legendary warrior from the mainland. Solve the shrine's three trials of water, wind, and steel to unearth a blade that carries the storm within it.",
+    aiTip:
+      "The Storm Blade's special attack sends a ranged lightning arc — upgrade it as soon as possible. The three trials can be done in any order; the water trial is easiest if done first to learn the puzzle pattern.",
+    video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
+  },
+  ,
+  {
+    id: 1149,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Way of the Shamisen",
+    location: "Yōtei Grasslands — River Crossing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Shamisen — songs reveal hidden collectible locations",
+    summary:
+      "A travelling musician at the river crossing teaches Atsu the shamisen. Mastering three melodies unlocks a unique ability: playing the correct song at a landmark causes nearby hidden collectibles to glow.",
+    aiTip:
+      "Learn all three songs before leaving the quest area — the third is only available in this location. The Ainu Heirloom and Fox Den collectibles are easiest to find once this quest is complete.",
+    video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
+  },
+  {
+    id: 1150,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Path of the Odachi",
+    location: "Tokachi Range — Mountain Dojo",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Odachi weapon unlocked, Wide Sweep technique",
+    summary:
+      "A solitary swordsmith in the Tokachi mountains offers to teach Atsu the great odachi blade — a heavy two-handed weapon devastating against groups. Three training trials unlock the weapon and its first technique.",
+    aiTip:
+      "The odachi's Wide Sweep is your best tool against shield-bearing enemies — it breaks guard regardless of block. Complete all three trials without taking a hit to earn a bonus upgrade material.",
+    walkthrough: [
+      "Find the Mountain Dojo marker on the western Tokachi map edge.",
+      "Speak with Swordsmith Daisuke to accept the first trial.",
+      "Trial 1: cut down five training posts with precisely timed heavy strikes.",
+      "Trial 2: defeat two sparring partners using only odachi attacks — no other weapons.",
+      "Trial 3: break three shield-bearers' guard using the Wide Sweep technique Daisuke demonstrates.",
+      "Receive the odachi and the technique scroll after all three trials pass."
+    ]
+  },
+  {
+    id: 1151,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Odachi's Redemption",
+    location: "Tokachi Range — Abandoned Fort",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rising Storm odachi technique",
+    summary:
+      "Daisuke's past catches up with him — a disgraced student blames him for an old failure and threatens the village. Atsu must help Daisuke confront his guilt and defeat his former student to earn the advanced technique.",
+    aiTip:
+      "The former student fights dirty — he opens with a feint into a grab. Dodge backward on the first input and he will always over-commit, leaving a two-hit window.",
+    walkthrough: [
+      "Return to Daisuke's dojo after completing The Path of the Odachi.",
+      "A villager reports trouble at the fort east of the dojo — escort Daisuke there.",
+      "Clear the fort's outer ring of six guards while Daisuke defends the gate.",
+      "A cutscene introduces the disgraced student Koya; Atsu challenges him on Daisuke's behalf.",
+      "Duel Koya: dodge his opening feint, counter twice, then use Rising Storm when the prompt appears.",
+      "After the fight, speak with Daisuke to receive the Rising Storm scroll."
+    ]
+  },
+  {
+    id: 1152,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Master Yoshida's Final Lesson",
+    location: "Tokachi Range — Summit Dojo",
+    length: "medium",
+    difficulty: "High",
+    reward: "Heaven's Fall ultimate odachi technique",
+    summary:
+      "Daisuke's own master, the elderly Yoshida, summons Atsu for one last lesson before he dies. The final duel against Yoshida — fighting at a fraction of his former power — teaches Atsu the Heaven's Fall technique.",
+    aiTip:
+      "Yoshida fights slowly but his Heaven's Fall hit is lethal. Watch for the two-second wind-up — that is your cue to dodge sideways, not back. Mirroring his Heaven's Fall back at him ends the duel fastest.",
+    walkthrough: [
+      "Complete The Odachi's Redemption first — Yoshida's summons only appear afterward.",
+      "Climb to the Summit Dojo in northern Tokachi — it requires clearing a short enemy path.",
+      "Speak with Master Yoshida; accept his final lesson.",
+      "The duel begins immediately — survive three rounds of increasingly aggressive attacks.",
+      "When Yoshida uses Heaven's Fall, dodge sideways and strike during his recovery.",
+      "After three successful counter-hits, the duel ends with a teaching cutscene.",
+      "Receive the Heaven's Fall scroll and say goodbye to Yoshida to complete the arc."
+    ]
+  },
+  {
+    id: 1153,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Winter Farms",
+    location: "Teshio Ridge — Snowbound Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cold-Forged armour upgrade material, Farmer's Resolve charm",
+    summary:
+      "A retired warrior defends his snowbound village farm against outlaws demanding tribute. He offers to teach Atsu in exchange for help repelling the raid — a straightforward combat mission that kicks off the Teshio Sensei arc.",
+    aiTip:
+      "This is an escort-style quest — keep the farmer alive. Position yourself between him and the incoming raiders rather than chasing the flankers. The raiders prioritise him over Atsu.",
+    walkthrough: [
+      "Find the Snowbound Village marker in the southern Teshio Ridge.",
+      "Speak with Farmer-Warrior Genzo to learn the raid is imminent.",
+      "Defend the three farm entry points over two raid waves — raiders come from north and east simultaneously.",
+      "Keep Genzo's health above 50% through both waves to earn the bonus charm reward.",
+      "After the raid, speak with Genzo to receive the cold-forged material and advance the Sensei arc."
+    ]
+  },
+  {
+    id: 1154,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Way of the Kusarigama",
+    location: "Teshio Ridge — Hidden Barn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Kusarigama weapon unlocked, Chain Pull technique",
+    summary:
+      "Genzo reveals his weapon of choice — the kusarigama chain sickle — and offers to teach it to Atsu. A deceptively rural sensei, he hides extraordinary skill behind a weather-beaten farmer's demeanour.",
+    aiTip:
+      "The Chain Pull technique is one of the game's most versatile tools — it yanks shielded enemies off balance and pulls aerial crossbow users to the ground. Learn its timing in this quest and use it constantly.",
+    walkthrough: [
+      "Return to Genzo after completing The Winter Farms.",
+      "Follow him to the hidden barn north of the village.",
+      "Trial 1: use the Chain Pull on five stationary targets without missing.",
+      "Trial 2: pull three shielded enemies off balance and finish them before they recover.",
+      "Trial 3: defeat Genzo in a sparring bout — he telegraphs every attack; read the shoulder dip.",
+      "Receive the kusarigama and Chain Pull scroll after the bout."
+    ]
+  },
+  {
+    id: 1155,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Path of the Kusarigama",
+    location: "Teshio Ridge — Frozen River Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spinning Death technique",
+    summary:
+      "Genzo sends Atsu to a camp on the frozen river where his old training partner holds court — the only person who can teach the advanced kusarigama spinning technique. Getting there requires crossing enemy-held ice.",
+    aiTip:
+      "The Spinning Death hits all enemies in a 360-degree arc — essential for the crowd control situations Teshio constantly presents. Upgrade it to extend the chain length as soon as crafting materials allow.",
+    walkthrough: [
+      "Receive Genzo's letter directing you to the Frozen River Camp.",
+      "Cross the frozen river — three enemy patrols use the ice as cover; the Tanzutsu breaks the ice beneath them.",
+      "Reach Genzo's former partner Kimura at the camp's central fire.",
+      "Complete Kimura's two trials: timing-based chain swings and a combat demonstration.",
+      "Duel two of Kimura's students simultaneously to prove readiness.",
+      "Receive the Spinning Death scroll and return to Genzo to continue the arc."
+    ]
+  },
+  {
+    id: 1156,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Kusarigama's Shame",
+    location: "Teshio Ridge — Ridge Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Soul Reaper ultimate kusarigama technique",
+    summary:
+      "Kimura's past crime — killing an innocent with a wild chain throw — has followed him to Teshio. The victim's son has hired an assassin to end Kimura's life. Atsu must defend Kimura and help him face his guilt.",
+    aiTip:
+      "The hired assassin is the hardest enemy in the Teshio Sensei arc. He counters the Chain Pull — use Spinning Death instead to keep him off balance while Kimura recovers.",
+    walkthrough: [
+      "A cutscene triggers at the Ridge Shrine when you return after The Path of the Kusarigama.",
+      "Defend Kimura from the first four assassin's scouts — stealth approach recommended.",
+      "The main assassin arrives after the scouts fall; he is immune to Chain Pull.",
+      "Use Spinning Death to break his stance and dual-katana flurries to chip his health.",
+      "At one-third health, the assassin calls Kimura out for a final duel — step aside and watch.",
+      "Kimura wins but is wounded; treat him with a herbal kit from your inventory.",
+      "Receive the Soul Reaper scroll from Kimura in gratitude."
+    ]
+  },
+  {
+    id: 1157,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "A Land Reforged",
+    location: "Teshio Ridge — Blacksmith Quarter",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Teshio Steel armour upgrade tier unlocked",
+    summary:
+      "A master blacksmith in Teshio's isolated quarter claims the region's unique cold-forged steel can upgrade Atsu's armour beyond normal limits. Help him reopen his forge after an outlaw occupation to unlock the upgrade tier.",
+    aiTip:
+      "Completing this quest unlocks a permanent armour upgrade tier, not just a one-time item. Prioritise it early in your Teshio visit — the upgrade makes the later Sensei duels significantly more forgiving.",
+    walkthrough: [
+      "Find the blacksmith Tanaka in the locked Blacksmith Quarter — the key is on a guard captain nearby.",
+      "Clear the six outlaws occupying the forge interior.",
+      "Gather three cold-ore chunks from the Teshio mine shaft — marked on map after clearing the forge.",
+      "Return the ore to Tanaka and watch the forge reopen in a short cutscene.",
+      "Commission your first Teshio Steel armour upgrade to complete the quest."
+    ]
+  },
+  {
+    id: 1158,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Secrets of the Heart",
+    location: "Teshio Ridge — Medicine Woman's Hut",
+    length: "short",
+    difficulty: "Low",
+    reward: "Herbal Resolve — restores Resolve on herbal medicine use",
+    summary:
+      "A reclusive medicine woman offers Atsu a unique teaching: herbal preparations that restore Resolve — the combat resource — rather than only health. A short quest of conversation and ingredient gathering unlocks the passive upgrade.",
+    aiTip:
+      "The Herbal Resolve upgrade is one of the most useful passives in the game. It effectively doubles your Ghost Stance uptime if you use herbal medicine regularly during fights.",
+    walkthrough: [
+      "Find the medicine woman Yuki's hut on the eastern Teshio Ridge path.",
+      "Gather the three mountain herbs she requests — all are within 200m of the hut.",
+      "Return the herbs and sit with Yuki for the teaching conversation.",
+      "Complete the optional listening exercise — identify three sounds she plays on a small drum.",
+      "Receive the Herbal Resolve charm and equip it in the charm menu to activate the upgrade."
+    ]
+  },
+  {
+    id: 1159,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Blind Stranger",
+    location: "Teshio Ridge — Crossroads Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Blind Warrior's Sense — listening detection upgraded",
+    summary:
+      "A blind swordsman at the Teshio crossroads challenges Atsu to a duel in complete darkness. The encounter teaches hearing-based combat instincts and permanently upgrades Atsu's listening detection range.",
+    aiTip:
+      "The darkness duel disables the HUD entirely. Listen for his footstep rhythm — two heavy steps means a thrust attack, one light step means a sweep. Deflect timing is pure audio here.",
+    walkthrough: [
+      "Meet the blind swordsman Mushin at the Crossroads Shrine at night — he only appears after dusk.",
+      "Accept his challenge; the screen fades to black for the duel.",
+      "Listen for his movement audio cues: two heavy steps = thrust (deflect), one light step = sweep (dodge).",
+      "Land five successful deflections to trigger his teaching monologue.",
+      "A second, harder duel follows — same rules but faster tempo.",
+      "Winning gives the permanent listening range upgrade and Mushin's departing riddle (flavour only)."
+    ]
+  },
+  ,
+  {
+    id: 1160,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Way of the Yari",
+    location: "Ishikari Plain — Veterans' Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yari spear unlocked, Charging Thrust technique",
+    summary:
+      "An old ashigaru veteran at the Veterans' Post still drills daily with his yari spear. He agrees to teach Atsu the weapon in exchange for help clearing a bandit blockade choking the road to his home village.",
+    aiTip:
+      "The yari's Charging Thrust covers ground fast and breaks heavy armour — use it to open fights against armoured enemies. Complete the blockade without being detected for a bonus supply reward.",
+    walkthrough: [
+      "Find Veteran Ishida at the Veterans' Post in central Ishikari.",
+      "Clear the three-camp bandit blockade on the northern road — stealth earns a bonus.",
+      "Return to Ishida; he teaches Trial 1: yari thrusts against moving targets.",
+      "Trial 2: use the Charging Thrust to break three armoured dummy shields in sequence.",
+      "Trial 3: hold off four attackers using only the yari for 90 seconds.",
+      "Receive the yari and Charging Thrust scroll after completing all three trials."
+    ]
+  },
+  {
+    id: 1161,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Path of the Yari",
+    location: "Ishikari Plain — River Barracks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spinning Sweep yari technique",
+    summary:
+      "Ishida sends Atsu to his old commanding officer at the River Barracks for advanced yari training. The Spinning Sweep technique turns the yari into a crowd-control weapon — vital for Ishikari's large enemy groups.",
+    aiTip:
+      "The Spinning Sweep has a brief startup that enemies can interrupt. Use it only after a Charging Thrust stuns the lead enemy — the stun gives you the gap needed for the full sweep animation.",
+    walkthrough: [
+      "Receive Ishida's referral letter and travel to the River Barracks.",
+      "The barracks is under light occupation — clear it before the commander Roku will talk.",
+      "Complete Roku's Trial 1: land Charging Thrust into Spinning Sweep on each of three targets.",
+      "Trial 2: use Spinning Sweep to simultaneously hit three enemies in one rotation.",
+      "Spar with Roku using only the yari — do not switch weapons.",
+      "Receive the Spinning Sweep scroll from Roku and return to Ishida."
+    ]
+  },
+  {
+    id: 1162,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Yari's Fury",
+    location: "Ishikari Plain — Fury Grounds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Fury Stance — berserker yari mode",
+    summary:
+      "The final yari lesson pushes Atsu to her limits. Roku reveals the legendary Fury Stance — a berserker mode that temporarily doubles attack speed — and tests her in a punishing gauntlet before teaching it.",
+    aiTip:
+      "Fury Stance depletes Resolve while active — don't trigger it until you have a full Resolve bar. The gauntlet's final wave has six enemies; save the stance activation for that wave specifically.",
+    walkthrough: [
+      "Return to Roku after completing The Path of the Yari.",
+      "The Fury Grounds are marked east of the barracks — a natural arena.",
+      "Wave 1: defeat four basic enemies using only yari techniques.",
+      "Wave 2: defeat three shielded enemies — Charging Thrust into Spinning Sweep is optimal.",
+      "Wave 3: defeat five mixed enemies while Roku observes your stance control.",
+      "Wave 4: six elite enemies — activate the demonstrated Fury Stance and clear the wave.",
+      "Receive the permanent Fury Stance unlock and the yari's final upgrade slot."
+    ]
+  },
+  {
+    id: 1163,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Sensei Takahashi's Persimmon Tree",
+    location: "Ishikari Plain — Takahashi's Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Persimmon Charm — reduces cooldowns",
+    summary:
+      "Eccentric Sensei Takahashi refuses to teach until Atsu tends his cherished persimmon tree, which bandits have damaged and deer have stripped. A meditative quest that rewards patience with a useful passive charm.",
+    aiTip:
+      "This is purely a non-combat quest — the only one in the Sensei arc. Don't bring weapons out; Takahashi disapproves and locks you out of the charm if you attack the deer rather than shooing them.",
+    walkthrough: [
+      "Find Sensei Takahashi sulking by his orchard in southern Ishikari.",
+      "Repair the three damaged tree supports using the crafting prompt at each one.",
+      "Shoo away the three deer grazing on the low branches — walk toward them, do not attack.",
+      "Gather two persimmon fruits from the tree and offer them to Takahashi.",
+      "Sit with him for the brief conversation to receive the Persimmon Charm."
+    ]
+  },
+  {
+    id: 1164,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Bomb Maker",
+    location: "Ishikari Plain — Hidden Laboratory",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Scorch Bomb, Smoke Bomb, Sticky Bomb crafting recipes unlocked",
+    summary:
+      "A reclusive alchemist hiding a laboratory in an Ishikari cave has developed three types of explosive ordnance. She will teach Atsu her craft in exchange for gathering rare materials from a heavily guarded supply depot.",
+    aiTip:
+      "The scorch bomb is your most versatile new tool — it creates a fire zone that damages and staggers. Combine it with the oil jar (unlocked via a separate upgrade) for a devastating area-denial combo.",
+    walkthrough: [
+      "Discover the Hidden Laboratory by investigating the smoking chimney vent near the eastern Ishikari cliffs.",
+      "Speak with alchemist Fumiko — she needs sulphur, charcoal, and pine resin from the supply depot.",
+      "The depot has twelve guards; approach from the river side where a blind spot exists.",
+      "Loot the three material crates marked by Fumiko's sketched map.",
+      "Return to Fumiko and watch the crafting demonstration cutscene.",
+      "Receive all three bomb recipes and the crafting bench upgrade."
+    ]
+  },
+  {
+    id: 1165,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Fighting Fire With Fire",
+    location: "Ishikari Plain — Burning Mill",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Oil Jar and Explosive Arrow recipes, Fire Mastery upgrade",
+    summary:
+      "Fumiko's advanced course covers large-scale incendiary weapons. A crisis arrives when outlaws torch the Ishikari mill — Atsu must use her new bomb skills to fight fire with fire and save the structure.",
+    aiTip:
+      "Use smoke bombs to move safely through the burning mill interior. Save scorch bombs for the enemy arsonists at the back — three consecutive hits will end the encounter before they can ignite the grain store.",
+    walkthrough: [
+      "Return to Fumiko after completing The Bomb Maker — she has heard about the mill fire.",
+      "Rush to the Burning Mill; three arsonist groups are actively spreading the fire.",
+      "Extinguish fire patches using the water barrels at each mill entrance before proceeding.",
+      "Use smoke bombs to obscure your movement through heavy smoke sections.",
+      "Reach the three arsonist leaders at the rear and defeat them with scorch bombs and melee.",
+      "Return to Fumiko for the oil jar and explosive arrow recipes to complete the quest."
+    ]
+  },
+  {
+    id: 1166,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Burning of Castle Ishikari",
+    location: "Ishikari Plain — Castle Ishikari",
+    length: "long",
+    difficulty: "High",
+    reward: "Grand Alchemist armour, Master Bomb Maker title, all bomb upgrades",
+    summary:
+      "Fumiko's arc climaxes as a warlord seizes Castle Ishikari and threatens to destroy everything within. Atsu storms the burning fortress using every explosive skill learned — a full-scale siege where Fumiko fights at her side.",
+    aiTip:
+      "Manage your bomb supply carefully — you cannot restock during the castle assault. Prioritise oil jars for the armoured gate guards and save explosive arrows for the castle's three reinforced barriers.",
+    walkthrough: [
+      "Receive Fumiko's urgent message at the Ishikari inn after completing Fighting Fire With Fire.",
+      "Approach Castle Ishikari from the eastern gate — Fumiko meets you there with a supply pack.",
+      "Breach Gate 1 using oil jar plus scorch bomb on the reinforced door.",
+      "Fight through two courtyard waves; Fumiko provides covering fire with crossbow.",
+      "Breach Gate 2 using an explosive arrow on the gate's powder barrel.",
+      "Reach the warlord in the throne room; he fights with a flaming odachi — dodge all flame arcs.",
+      "Defeat the warlord to end the siege and unlock all remaining bomb upgrades in the crafting menu."
+    ]
+  },
+  {
+    id: 1167,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Guns and Consequences",
+    location: "Oshima Coast — Harbour Gunsmith",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tanzutsu matchlock rifle unlocked, Steady Shot technique",
+    summary:
+      "A conflicted ex-pirate gunsmith on the Oshima harbour wants out of his old crew. He will teach Atsu to use the Tanzutsu matchlock rifle if she helps him settle his debts — a quest balancing mercy and violence.",
+    aiTip:
+      "The Tanzutsu is the game's only ranged weapon that penetrates armour and breaks ice underfoot. Its reload time is long — only fire when a target is stationary. The Steady Shot technique halves reload time after a successful headshot.",
+    walkthrough: [
+      "Find Gunsmith Ryo hiding in the Oshima harbour warehouse.",
+      "Agree to help him settle debts with his old crew — three locations marked on the harbour map.",
+      "Location 1: recover stolen goods peacefully by paying with found coin from the harbour crates.",
+      "Location 2: the second creditor will not negotiate — defeat his four guards without killing him.",
+      "Location 3: the crew captain demands a duel — win to settle all remaining debts.",
+      "Return to Ryo; he teaches the Tanzutsu in a brief tutorial and awards the Steady Shot scroll."
+    ]
+  },
+  {
+    id: 1168,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Pride Before Tea",
+    location: "Oshima Coast — Clifftop Tea House",
+    length: "short",
+    difficulty: "Low",
+    reward: "Resolve Regen passive — Resolve slowly regenerates out of combat",
+    summary:
+      "A tea ceremony master at a clifftop house believes focus and patience are the true weapons. Teaching Atsu a formal tea ceremony provides a permanent Resolve regeneration upgrade — invisible strength earned through stillness.",
+    aiTip:
+      "This is the only quest that grants out-of-combat Resolve regeneration. Combined with the Herbal Resolve charm from Teshio, your Resolve management in longer fights becomes almost effortless.",
+    walkthrough: [
+      "Find Tea Master Tomoe at the Clifftop Tea House on the Oshima southern headland.",
+      "Accept the ceremony invitation and sit across from her.",
+      "Follow the on-screen prompts: bow, pour, present, receive — four actions in correct order.",
+      "If you rush or miss an action, the ceremony restarts; there is no penalty.",
+      "Complete the ceremony without error to trigger the teaching conversation.",
+      "Receive the Resolve Regen passive upgrade permanently added to Atsu's skill sheet."
+    ]
+  },
+  ,
+  {
+    id: 1169,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Old Trails",
+    location: "Yōtei Grasslands — Northern Forest Path",
+    length: "short",
+    difficulty: "Low",
+    reward: "Trail Charm, forest path shortcut unlocked",
+    summary:
+      "A retired road warden asks Atsu to clear the old forest trails of outlaws who have made the paths too dangerous to use. Restoring the trails opens a useful shortcut across the Grasslands.",
+    aiTip:
+      "The three bandit camps on this quest are small and lightly guarded — a perfect opportunity to practice stealth kills. Clearing them without alerts earns a bonus Trail Charm with faster horse travel.",
+    walkthrough: [
+      "Speak with Warden Kenji at the northern Grasslands trailhead.",
+      "Clear Camp 1 (4 bandits) on the eastern ridge — approach from the high ground.",
+      "Clear Camp 2 (5 bandits) at the river ford — stealth through the tall grass.",
+      "Clear Camp 3 (6 bandits) at the forest shrine — one archer on the roof requires priority.",
+      "Return to Kenji to receive the Trail Charm and unlock the forest shortcut on your map."
+    ]
+  },
+  {
+    id: 1170,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Building Bridges",
+    location: "Yōtei Grasslands — Riverside Crossing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bridge restored, Carpenter's Charm",
+    summary:
+      "Villagers need help rebuilding a bridge the Yōtei Six destroyed during their initial raid. Gathering materials and defending the workers from a retaliatory strike reconnects two halves of a cut-off community.",
+    aiTip:
+      "The worker defence wave comes from the river — position yourself on the bridge itself to funnel enemies into a narrow chokepoint and use the Spinning Sweep to hit multiple targets.",
+    walkthrough: [
+      "Talk to Village Elder Mio at the western Grasslands riverbank.",
+      "Gather two bundles of timber from the marked lumber piles east of the river.",
+      "Carry materials back — you cannot fight while carrying, so check the road is clear.",
+      "Defend the three carpenters through one attack wave of eight bandits.",
+      "The bridge completes in a short cutscene; receive the Carpenter's Charm from Mio."
+    ]
+  },
+  {
+    id: 1171,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Fleeting Thought",
+    location: "Yōtei Grasslands — Poet's Waypoint",
+    length: "short",
+    difficulty: "Low",
+    reward: "Poet's Charm, Haiku collectible unlocked",
+    summary:
+      "A wandering poet encountered on the road carries a sealed message for a family three villages away but is too fearful to travel alone. Escort them safely through an ambush to deliver a final farewell letter.",
+    aiTip:
+      "This escort quest is peaceful until the mid-point ambush. Stay close to the poet — they panic and freeze if enemies get within five metres, but will not run back to safety on their own.",
+    walkthrough: [
+      "Meet poet Reiko at the crossroads marker in central Grasslands.",
+      "Escort Reiko along the western road — the walk takes about two minutes.",
+      "An ambush of six bandits triggers at the old oak landmark; defeat them before they reach Reiko.",
+      "Continue the escort to the Kobayashi farmhouse at the trail's end.",
+      "Watch the letter delivery cutscene; receive the Poet's Charm from Reiko."
+    ]
+  },
+  {
+    id: 1172,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Worth of a Man",
+    location: "Yōtei Grasslands — Bandit Hideout",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Rescued Hostage's Blade",
+    summary:
+      "A farmer pays Atsu to rescue his son taken hostage by bandits. On infiltrating the hideout, Atsu discovers the son voluntarily joined the bandits to escape debt — a quest about family, choice, and consequence.",
+    aiTip:
+      "You can resolve this quest peacefully by speaking with the son before fighting. Choosing the 'let him decide' dialogue gives the best outcome reward. Attacking immediately locks out the peaceful ending.",
+    walkthrough: [
+      "Accept the job from Farmer Noburu at the Grasslands inn.",
+      "Infiltrate the bandit hideout on the eastern hill from the blind side — avoid the two rooftop guards.",
+      "Find the son Tatsuya in the second building — a cutscene begins.",
+      "Choose 'let him decide' in dialogue to unlock the peaceful resolution.",
+      "Escort Tatsuya out if he agrees to leave, or leave him and return to Noburu alone.",
+      "Report to Noburu; both outcomes give the gold reward, but the peaceful path adds the Rescued Blade."
+    ]
+  },
+  {
+    id: 1173,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Lost in Reflection",
+    location: "Yōtei Grasslands — Mirror Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lake Charm, haiku composition",
+    summary:
+      "A grieving mother has been searching the Grasslands for the lake where her son drowned years ago to leave an offering. Atsu guides her through bandits and over difficult terrain to reach Mirror Lake and its quiet memorial.",
+    aiTip:
+      "This is a quiet story quest with minimal combat. The single bandit encounter can be avoided entirely by taking the mountain goat trail — ask the mother about alternate routes in the first dialogue tree.",
+    walkthrough: [
+      "Meet grieving mother Ume at the southern Grasslands waypoint.",
+      "Ask about the mountain goat trail in dialogue to bypass the bandit ambush.",
+      "Guide Ume along the goat trail — slow pace required, stay within 10 metres.",
+      "Reach Mirror Lake; watch the offering ceremony cutscene.",
+      "Sit at the lakeside with Ume to compose the optional haiku before leaving.",
+      "Receive the Lake Charm when Ume departs."
+    ]
+  },
+  {
+    id: 1174,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Memories of Home",
+    location: "Yōtei Grasslands — Refugee Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Survivor's Charm, ally contact added",
+    summary:
+      "A refugee family from Atsu's home village survived the Yōtei Six massacre but is stranded and pursued by survivors of the gang. Escort them through two outlaw ambushes to a safe farmstead.",
+    aiTip:
+      "The family has three members — if any are killed the quest fails. Use smoke bombs to create cover during the first ambush and herd them behind the cart. The second ambush has a mounted archer; kill the horse first.",
+    walkthrough: [
+      "Find the refugee family at the marked camp near the Grasslands southern border.",
+      "Clear the eight outlaws watching the road before signalling the family to move.",
+      "First ambush: twelve attackers come from both sides — use smoke bombs to regroup the family.",
+      "Second ambush: a mounted archer plus six ground troops — dismount the archer with a Tanzutsu shot.",
+      "Escort the family the final stretch to Hayashi Farmstead.",
+      "Receive the Survivor's Charm and the new ally contact marker on your map."
+    ]
+  },
+  {
+    id: 1175,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Sleight of Hand",
+    location: "Yōtei Grasslands — Market Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Intelligence on Yōtei Six movements, Trickster's Charm",
+    summary:
+      "A street magician who witnessed the Yōtei Six massacre holds key intelligence — but won't share it until Atsu helps him recover his stolen props from a pickpocket gang running the market.",
+    aiTip:
+      "The pickpocket gang fight takes place in a crowded market — area attacks will hit innocent bystanders and trigger a failed state. Use precise single-target attacks only.",
+    walkthrough: [
+      "Speak with Magician Sho at the market town plaza.",
+      "Track the three pickpockets through the crowd — use the listening sense to follow the stolen prop sounds.",
+      "Corner each pickpocket individually in the market's side alleys.",
+      "Return all three props to Sho; he performs a trick as thanks.",
+      "Receive the intelligence note about the Yōtei Six and the Trickster's Charm."
+    ]
+  },
+  {
+    id: 1176,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Drink with a Stranger",
+    location: "Yōtei Grasslands — Riverside Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Informant contact, Sake Charm",
+    summary:
+      "A suspiciously well-informed traveller at the Riverside Inn offers to buy Atsu a drink. Over conversation, the traveller reveals they are an undercover informant with intelligence on outlaw movements — and a dangerous tail.",
+    aiTip:
+      "The four assassins that ambush the informant at the end arrive from the rooftop — clear the roof before the final conversation to avoid being flanked. They are among the fastest enemies in the Grasslands.",
+    walkthrough: [
+      "Speak with the stranger Nori at the inn bar — accept the drink offer.",
+      "Complete three rounds of conversation, choosing to share information openly each time.",
+      "After the third round, Nori signals urgency — check the rooftop before continuing.",
+      "Clear the four assassins waiting on the roof above the inn.",
+      "Return to Nori; they share their intelligence and depart.",
+      "Receive the informant contact (new map markers) and the Sake Charm."
+    ]
+  },
+  {
+    id: 1177,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Ainu Heirloom",
+    location: "Yōtei Grasslands — Ainu Elder's Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ainu Heirloom Charm, Ainu community trust",
+    summary:
+      "An Ainu elder asks Atsu to recover an ancestral relic — a carved wooden bear — stolen by bandits who raided their village. Returning it strengthens the Ainu community's trust and unlocks optional Ainu side content.",
+    aiTip:
+      "The bandit captain guarding the relic uses a buckler shield — the Kusarigama Chain Pull bypasses it instantly. After recovering the relic, do not fast-travel; a second bandit group ambushes the return path.",
+    walkthrough: [
+      "Speak with Ainu Elder Ekashi at the village on the Grasslands north edge.",
+      "Travel to the bandit camp three kilometres east — approach at dusk for reduced guard density.",
+      "Locate the carved bear in the camp's storage tent — marked by the listening sense pulse.",
+      "Defeat the captain and two guards in the tent.",
+      "Return to the village via foot — a six-bandit ambush waits on the main road.",
+      "Present the relic to Ekashi to receive the Ainu Heirloom Charm and unlock Ainu content."
+    ]
+  },
+  {
+    id: 1178,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Normal Life",
+    location: "Yōtei Grasslands — Roadside Farm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reformed Outlaw's Blade, farmstead safe house unlocked",
+    summary:
+      "A former Yōtei Six foot soldier trying to live peacefully as a farmer is hunted by his former gang. Atsu must decide whether to help him fight his past or advise him to flee — both paths have consequences.",
+    aiTip:
+      "Choosing to fight alongside him unlocks the farmstead as a fast-travel safe house. Choosing flight gives the better weapon reward but no safe house. Pick fight if you value map utility over the immediate gear.",
+    walkthrough: [
+      "Find former outlaw Jiro tending his farm on the western Grasslands road.",
+      "He reveals three former comrades are hunting him — investigate the marked locations for intel.",
+      "Return to Jiro with the intelligence; choose fight or flee in dialogue.",
+      "Fight path: defend the farmstead through two attack waves (9 total enemies) alongside Jiro.",
+      "Flee path: escort Jiro to the forest border and watch him disappear into safety.",
+      "Collect your reward from Jiro's hidden cache under the barn floorboard regardless of path chosen."
+    ]
+  },
+  ,
+  {
+    id: 1179,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "A Flower For Your Thoughts",
+    location: "Tokachi Range — Marshland Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Herbalist's Charm, rare bloom crafting material",
+    summary:
+      "A herbalist in the Tokachi marshes needs protection while gathering rare winter blooms from dangerous terrain patrolled by outlaws. A peaceful quest for anyone who takes a stealthy approach.",
+    aiTip:
+      "The herbalist stops to gather at three locations — each one draws a nearby patrol. Eliminate each patrol before the herbalist reaches the gathering point to avoid a stressful escort fight.",
+    walkthrough: [
+      "Meet Herbalist Yuki at the Marshland Village gate.",
+      "Scout ahead of Yuki to each of three gathering points and clear patrols before she arrives.",
+      "Point 1: two patrols, approach from the reed beds.",
+      "Point 2: a rooftop lookout calls reinforcements — prioritise him.",
+      "Point 3: no guards if previous patrols were cleared, otherwise three respawn.",
+      "Escort Yuki safely back to the village and receive the charm and bloom material."
+    ]
+  },
+  {
+    id: 1180,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "A Matter of Honour",
+    location: "Tokachi Range — Samurai Estate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Honour Blade, duel techniques insight",
+    summary:
+      "A samurai demands satisfaction from Atsu for a slight she supposedly committed. The investigation reveals a third party fabricated the insult to provoke both of them. Exposing the scheme avoids a needless duel.",
+    aiTip:
+      "Finding the forged letter before confronting the samurai unlocks a peaceful resolution that awards the better reward. If you miss the letter and duel him, win by using standard deflect-counter timing — he has no tricks.",
+    walkthrough: [
+      "Be challenged by Samurai Goto at the Tokachi estate gate.",
+      "Before accepting or refusing the duel, investigate the three marked locations for evidence.",
+      "Find the forged letter in the steward's study — it proves the insult was fabricated.",
+      "Present the letter to Goto; the fabricator is his own steward.",
+      "Confront the steward — he flees into the estate; pursue and defeat him.",
+      "Return to Goto for the Honour Blade reward and duel techniques insight."
+    ]
+  },
+  {
+    id: 1181,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Easy Coin",
+    location: "Tokachi Range — Trading Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Merchant's Contact",
+    summary:
+      "A merchant's supposedly simple courier job turns into a trap — the package contains blackmail material and the merchant's former allies are waiting at the delivery point. Atsu must fight out of the ambush.",
+    aiTip:
+      "The ambush is ten enemies in a small space — use your first scorch bomb immediately on entry to stagger the clustered group. The merchant turns hostile in the final phase; the Charging Thrust ends his sprint.",
+    walkthrough: [
+      "Accept the courier job from Merchant Ueda at the trading post.",
+      "Deliver the package to the marked waypoint three kilometres south.",
+      "Eight former allies spring the ambush — clear them with explosive tools.",
+      "The merchant arrives and turns hostile; defeat him — non-lethal option available.",
+      "Inspect the package contents to understand the blackmail scheme.",
+      "Report to the trading post elder for a finder's reward and Merchant's Contact."
+    ]
+  },
+  {
+    id: 1182,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Every Man for Himself",
+    location: "Tokachi Range — Ransacked Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Survivor's Pack, Mediation Charm",
+    summary:
+      "Survivors of a bandit raid are turning on each other over the last supplies in a ransacked camp. Atsu must defuse the tension through conversation and, if necessary, combat before the survivors kill each other.",
+    aiTip:
+      "The peaceful resolution requires choosing 'share the supplies' twice in dialogue before the fight triggers. If combat starts, knock out rather than kill the aggressors — the survivors grant a better reward for mercy.",
+    walkthrough: [
+      "Discover the ransacked camp on the Tokachi eastern trail.",
+      "Speak with survivor leader Masa — tensions are at a breaking point.",
+      "Choose 'share the supplies' in both dialogue prompts to attempt peaceful mediation.",
+      "If it fails, non-lethally defeat the two aggressors using pommel strikes (hold heavy attack).",
+      "Distribute the remaining supplies equally between the four survivors.",
+      "Receive the Survivor's Pack and Mediation Charm from grateful survivor Hana."
+    ]
+  },
+  {
+    id: 1183,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Desperate Remedy",
+    location: "Tokachi Range — Outlaw Supply Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Medicine Cache, Healer's Charm",
+    summary:
+      "A healer's village faces a disease outbreak but the medicine needed is locked inside a heavily guarded outlaw supply camp. Atsu raids the camp to secure the supplies before the outbreak claims more lives.",
+    aiTip:
+      "The medicine is in a locked chest requiring the camp captain's key. Kill the captain first and take the key before engaging the rest of the camp — his patrol pattern brings him to the western gate every 90 seconds.",
+    walkthrough: [
+      "Speak with Healer Sora at the Tokachi village — she marks the supply camp on the map.",
+      "Observe the camp exterior; the captain patrols the western gate every 90 seconds.",
+      "Intercept the captain's patrol with a stealth kill to obtain the chest key.",
+      "Use the key on the medicine chest in the camp's central storage building.",
+      "Fight out of the camp or sneak out through the river exit.",
+      "Deliver the medicine to Sora; receive the Medicine Cache and Healer's Charm."
+    ]
+  },
+  {
+    id: 1184,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Marshland Homestead",
+    location: "Tokachi Range — Marsh Farmstead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Stubborn Farmer's Charm, homestead safe house",
+    summary:
+      "A stubborn farming family refuses to abandon their marshland home despite persistent outlaw raids. Atsu helps them fortify the homestead and repels a final large assault to secure their right to stay.",
+    aiTip:
+      "The final assault has twelve attackers coming from three directions simultaneously. Use the fortification points the family built — the barricade on the north road funnels half the attackers into a chokepoint.",
+    walkthrough: [
+      "Meet the family patriarch Gota at the Marsh Farmstead entrance.",
+      "Build three fortifications: barricade (north), watchtower (east), fence (south) — materials nearby.",
+      "Survive Wave 1: six attackers, mostly from the north.",
+      "Survive Wave 2: twelve attackers from all three directions — use the barricade chokepoint.",
+      "After the assault, the family thanks Atsu; the homestead unlocks as a safe house.",
+      "Receive the Stubborn Farmer's Charm from Gota's daughter."
+    ]
+  },
+  {
+    id: 1185,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Protecting the Peace",
+    location: "Tokachi Range — Village Constable Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Constable's Badge Charm, cleared patrol routes",
+    summary:
+      "Village constables overwhelmed by gang activity ask Atsu for temporary help. A three-part mission clears a gang's three outposts and ends with a confrontation against their local lieutenant.",
+    aiTip:
+      "The lieutenant uses a war fan as a weapon — it deflects arrows and Tanzutsu shots. Close in with dual katana and ignore the fan; it only blocks ranged, not melee.",
+    walkthrough: [
+      "Speak with Constable Chief Daichi at the post in northern Tokachi.",
+      "Clear Outpost 1 (6 gang members) on the river island — approach by swimming.",
+      "Clear Outpost 2 (8 gang members) at the lumber yard — a fire alert is possible; have a bucket ready.",
+      "Clear Outpost 3 (5 gang members plus lookout) on the hill — take out the lookout first.",
+      "Confront Lieutenant Bando at the gang's main camp; he uses a war fan — fight in melee only.",
+      "Return to Daichi; receive the Constable's Badge Charm."
+    ]
+  },
+  {
+    id: 1186,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Ainu Kotan",
+    location: "Tokachi Range — Ainu Settlement",
+    length: "long",
+    difficulty: "High",
+    reward: "Ainu Warrior's Charm, Kotan alliance",
+    summary:
+      "An Ainu settlement in the Tokachi foothills faces forced relocation by a lord claiming their land. Atsu investigates the land claim, exposes its fraud, and defends the settlement against the lord's enforcers.",
+    aiTip:
+      "The land claim fraud evidence is in the lord's office — three documents, each in a different guarded room. Read all three before confronting the lord to unlock the full peaceful dialogue option that avoids unnecessary bloodshed.",
+    walkthrough: [
+      "Speak with Ainu community leader Huci at the settlement gates.",
+      "Infiltrate the lord's manor to find the three forged land documents.",
+      "Document 1: administrator's desk in the main hall.",
+      "Document 2: locked box in the treasury — key is on a guard captain.",
+      "Document 3: the lord's personal study on the top floor.",
+      "Confront the lord with all three documents — he orders his enforcers to attack regardless.",
+      "Defeat the twelve enforcers in the settlement defence to complete the quest."
+    ]
+  },
+  {
+    id: 1187,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Dragonfly Armor",
+    location: "Tokachi Range — Dragonfly Forge",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Dragonfly Armour, armour weight reduction upgrade",
+    summary:
+      "A blacksmith legend operating out of a hidden marsh forge claims to have crafted armour light as a dragonfly's wing. Gather the three rare materials she needs and commission Ezo's lightest armour set.",
+    aiTip:
+      "The Dragonfly Armour's weight reduction applies to your entire loadout — it is the best armour for players who rely on dodge-heavy playstyles. Prioritise this quest early in Tokachi if you favour agility over defence.",
+    walkthrough: [
+      "Discover the Dragonfly Forge by following a dragonfly (literal in-game creature) near the Tokachi marsh.",
+      "Speak with Smith Chiyo — she needs reed fibre, swamp iron, and dragonfly wing resin.",
+      "Reed fibre: gather from the marsh reeds north of the forge (no combat).",
+      "Swamp iron: mine from the deposit guarded by four outlaws at the marsh centre.",
+      "Dragonfly wing resin: crafted at Chiyo's bench using two blooms from the Herbalist quest.",
+      "Commission the armour and wait one in-game day — rest at the forge camp to advance time.",
+      "Collect the Dragonfly Armour and weight reduction upgrade from Chiyo."
+    ]
+  },
+  {
+    id: 1188,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Loss We Carry",
+    location: "Tokachi Range — Old Battle Site",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Reconciliation Charm, memory haiku",
+    summary:
+      "Two old warriors meet again at the site of a battle from decades ago, each blaming the other for a costly defeat. Atsu mediates their confrontation and helps them reach a truth that neither has faced alone.",
+    aiTip:
+      "This is a dialogue-driven quest with no combat. Choose the 'hear both sides' prompt every time it appears — cutting one veteran off locks you out of the full memory sequence and the bonus Reconciliation Charm.",
+    walkthrough: [
+      "Find the two veterans arguing at the Old Battle Site memorial stone.",
+      "Speak with Veteran Hayato first; choose 'hear both sides' when prompted.",
+      "Speak with Veteran Mori; again choose 'hear both sides'.",
+      "Return to Hayato with Mori's account; choose 'share what Mori said'.",
+      "A joint memory cutscene plays — let it finish without skipping.",
+      "Speak with both veterans together at the memorial stone to conclude and receive the charm."
+    ]
+  },
+  {
+    id: 1189,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Soul of an Instrument",
+    location: "Tokachi Range — Hidden Valley",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Resonance Charm, shamisen upgrade",
+    summary:
+      "A shamisen craftsman needs a rare paulownia wood that only grows in a valley too dangerous for him to enter alone. The wood's supernatural resonance — and the valley's guardian — make this more than a simple supply run.",
+    aiTip:
+      "The valley guardian is not a combat encounter — it is a music puzzle. Use the shamisen and play the three notes shown by the glowing moths circling the tree. Wrong notes summon hostile spirits; correct notes appease the guardian.",
+    walkthrough: [
+      "Meet Craftsman Keiko at the Tokachi foothills — he marks the Hidden Valley on the map.",
+      "Enter the valley solo — Keiko cannot enter.",
+      "Find the paulownia tree at the valley's centre, surrounded by glowing moths.",
+      "Equip the shamisen and observe the three moths' positions to identify the note sequence.",
+      "Play the correct three-note sequence — the guardian spirit appears peacefully.",
+      "Harvest the paulownia wood from the guardian's offered branch.",
+      "Return to Keiko; receive the Resonance Charm and a shamisen upgrade."
+    ]
+  },
+  {
+    id: 1190,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Those Who Leave",
+    location: "Tokachi Range — Tokachi Road South",
+    length: "medium",
+    difficulty: "High",
+    reward: "Freed Captives, Liberator's Charm",
+    summary:
+      "Young people fleeing rural poverty are being intercepted by slavers on the Tokachi southern road. Atsu dismantles three slaver checkpoints and frees the captives before they disappear across the mountains.",
+    aiTip:
+      "The slaver captain at Checkpoint 3 carries a key that frees all remaining captives simultaneously — kill him first to avoid having to find individual cell keys. He wears red armour and stays at the rear of the camp.",
+    walkthrough: [
+      "Speak with a sobbing family at the Tokachi inn — their child was taken at a checkpoint.",
+      "Checkpoint 1 (4 slavers): free 2 captives from the cart.",
+      "Checkpoint 2 (7 slavers): free 3 captives from the stockade — pick the lock or fight for the key.",
+      "Checkpoint 3 (10 slavers, captain in red): kill the captain first and use his master key.",
+      "Free the final 5 captives and escort them to the safe farmhouse north of the road.",
+      "Return to the inn to find the family reunited; receive the Liberator's Charm."
+    ]
+  },
+  ,
+  {
+    id: 1191,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "A Melody of Thoughts",
+    location: "Nayoro Wilds — Spirit Forest",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Forest Spirit Charm, Ainu lore entries",
+    summary:
+      "An Ainu singer's ancient songs are said to guide travellers through the spirit-haunted Nayoro forest safely. Atsu joins her on a ritual journey, protecting her voice — and learning something of the Ainu world in return.",
+    aiTip:
+      "The spirits in this quest are non-hostile unless Atsu draws a weapon. Keep weapons sheathed throughout the forest walk and the spirits will provide illumination rather than attacking.",
+    walkthrough: [
+      "Find Singer Sipne at the Nayoro forest edge at dawn.",
+      "Follow Sipne into the Spirit Forest — keep weapons sheathed at all times.",
+      "When hostile bandits interrupt the journey, use hand-to-hand throws to incapacitate without drawing steel.",
+      "Sipne sings at three waypoints — stand in the glowing circle to receive the spirits' guidance.",
+      "At the forest centre, a single large spirit guards the path — Sipne's fourth song appeases it.",
+      "Exit the forest with Sipne and receive the Forest Spirit Charm."
+    ]
+  },
+  {
+    id: 1192,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Face of a Master",
+    location: "Nayoro Wilds — Remote Village",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master's Disguise Charm, assassination technique",
+    summary:
+      "A disguised master assassin is hiding among the workers of a Nayoro village, gathering intelligence on Atsu's movements. Expose them through careful observation before they act.",
+    aiTip:
+      "The assassin changes disguise between observation phases. Track them by the slight scar visible on their left wrist — every disguise leaves this detail. Look for it on each suspect before accusing.",
+    walkthrough: [
+      "Receive a tip from an Ainu elder about a suspicious worker in the Nayoro village.",
+      "Observe the five suspects going about their daily routines — look for the wrist scar.",
+      "Two suspects can be eliminated in Phase 1 (scar absent); focus on the remaining three.",
+      "The assassin changes disguise at midday — recheck all remaining suspects at noon.",
+      "Identify the correct suspect and confront them at the village well.",
+      "Defeat the assassin — they fight with twin knives and smoke bombs.",
+      "Receive the Master's Disguise Charm and a new assassination technique from the search of their belongings."
+    ]
+  },
+  {
+    id: 1193,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Face of a Demon",
+    location: "Nayoro Wilds — Eastern Farmlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Exile's Charm, peaceful resolution bonus",
+    summary:
+      "Farmers in the Nayoro eastern lands blame a disfigured exile for livestock deaths and crop destruction. Atsu investigates and discovers the true culprit — a natural predator — and must choose whether to defend the exile.",
+    aiTip:
+      "Finding the animal tracks before confronting the farmers unlocks a full peaceful resolution. If you skip the investigation and go straight to the exile, the quest resolves with combat only and no bonus charm.",
+    walkthrough: [
+      "Hear the farmers' complaint at the Nayoro market.",
+      "Investigate the crime scene: three sets of animal claw marks, not human footprints.",
+      "Track the claw marks to a bear's den north of the farmlands — clear the bear.",
+      "Find the exile Juko hiding nearby — he has been protecting the farmers from the bear all along.",
+      "Bring the farmers and Juko together for a confrontation dialogue.",
+      "Choose 'show them the evidence' to resolve peacefully and earn both rewards."
+    ]
+  },
+  {
+    id: 1194,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Heart of an Ainu",
+    location: "Nayoro Wilds — Trial Grounds",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Ainu Trial Charm, Nayoro alliance",
+    summary:
+      "A young Ainu warrior needs to complete a coming-of-age trial in the deep forest to earn their place in the community. Atsu accompanies them as a witness, offering guidance through three ancient trials.",
+    aiTip:
+      "The trials test the young warrior, not Atsu — let them fight each encounter. Only intervene if they are about to die (health below 20%) or the quest will count Atsu as a cheater and lock the alliance reward.",
+    walkthrough: [
+      "Meet young warrior Piri at the Nayoro Trial Grounds entrance.",
+      "Trial 1 (Hunt): Piri must track and fell a deer — guide them to the animal's tracks.",
+      "Trial 2 (Combat): Piri fights three outlaw scouts alone — only intervene if HP drops below 20%.",
+      "Trial 3 (Endurance): Piri must cross a frozen river — assist only by breaking the ice ahead with the Tanzutsu.",
+      "Witness the completion ceremony at the far bank.",
+      "Receive the Ainu Trial Charm and the Nayoro community alliance marker."
+    ]
+  },
+  {
+    id: 1195,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Load We Bear",
+    location: "Nayoro Wilds — Forest Supply Route",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Packhorse Charm, fast-travel route added",
+    summary:
+      "A supply chain carrying critical medicine through the Nayoro wilds is being systematically robbed by a bandit cell that knows the route schedule. Atsu must protect the final shipment and eliminate the cell's leadership.",
+    aiTip:
+      "The bandit cell leader stays back during each ambush wave — only engaging after his subordinates fall. Save your Ghost Stance for him; he is immune to fear and fights with dual axes that deflect standard attacks.",
+    walkthrough: [
+      "Speak with Supply Master Kano at the Nayoro forest trailhead.",
+      "Escort the two supply carriers through the first forest section.",
+      "Wave 1 ambush (6 bandits): eliminate quickly — carriers stop if they see combat for too long.",
+      "Wave 2 ambush (8 bandits): one flanks the carriers — intercept the flanker first.",
+      "The cell leader appears after Wave 2; use Ghost Stance and yari thrusts to handle his dual-axe defence.",
+      "Escort the carriers to the Nayoro village and receive the Packhorse Charm and fast-travel route."
+    ]
+  },
+  {
+    id: 1196,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "A Fox in Monk's Clothing",
+    location: "Teshio Ridge — Mountain Monastery",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Monk's Stolen Seal, Fox Charm",
+    summary:
+      "A corrupt travelling monk is extorting isolated Teshio ridge villages under the guise of spiritual blessing. Exposing his deception requires gathering testimony from three villages and cornering him at the monastery.",
+    aiTip:
+      "The monk is a skilled swordsman despite his robes — do not underestimate him. He opens with a deceptive prayer stance that transitions into a fast draw; do not parry the prayer animation, wait for the draw.",
+    walkthrough: [
+      "Hear the first complaint at the Teshio Ridge village — an elder paid for a blessing that failed.",
+      "Visit two more villages on the ridge for corroborating testimony.",
+      "Track the monk to the Mountain Monastery using the villagers' descriptions of his route.",
+      "Confront the monk; he refuses to return the money and draws his sword.",
+      "Wait through his prayer animation before deflecting the fast draw that follows.",
+      "Defeat the monk and recover the stolen seal; return it to the first village elder."
+    ]
+  },
+  {
+    id: 1197,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Encounters of the Wild",
+    location: "Teshio Ridge — High Pass",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Hunter's Charm, pelt crafting material",
+    summary:
+      "An escaped exotic animal — a snow leopard brought north by traders — is causing havoc in the Teshio mountain passes, attacking travellers. Track and subdue it without killing it, as a local village considers it sacred.",
+    aiTip:
+      "The snow leopard is immune to all lethal attacks — equip the non-lethal pommel strike and chain it three times to trigger a wrestle QTE. Killing it fails the quest and cannot be undone.",
+    walkthrough: [
+      "Speak with the panicked trader at the Teshio High Pass waypoint.",
+      "Track the snow leopard using paw prints and broken branches — listening sense helps.",
+      "Corner the leopard at the cliff ledge — do not use weapons.",
+      "Use pommel strikes (hold heavy attack) three times; each non-lethal hit stuns briefly.",
+      "Complete the wrestle QTE to subdue the animal safely.",
+      "Return it to the village elder using the provided carrying wrap; receive the Hunter's Charm."
+    ]
+  },
+  {
+    id: 1198,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "No Brother Left Behind",
+    location: "Teshio Ridge — Frozen Northern Slopes",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Brotherhood Charm, supply cache",
+    summary:
+      "A soldier searches the frozen Teshio slopes for a younger brother who never returned from a patrol months ago. The trail leads through a collapsed outpost, a bandit camp, and finally a mountain shrine.",
+    aiTip:
+      "The younger brother is alive but injured at the mountain shrine. Carry him back by choosing 'carry him' in the dialogue — the walking escort sequence is slow but avoids a fight that endangers him further.",
+    walkthrough: [
+      "Meet Soldier Taro at the Teshio Ridge camp — he shows a rough map of the patrol route.",
+      "Investigate the collapsed outpost; find patrol notes that redirect to the bandit camp.",
+      "Infiltrate the bandit camp and find a prisoner log showing the brother escaped east.",
+      "Track the escape route to the mountain shrine using blood marks in the snow.",
+      "Find the injured brother Kenta at the shrine; choose 'carry him' in dialogue.",
+      "Carry Kenta slowly back to the Teshio camp — no combat, but the path is treacherous.",
+      "Reunite the brothers; receive the Brotherhood Charm and supply cache coordinates."
+    ]
+  },
+  {
+    id: 1199,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "A Life to Be",
+    location: "Ishikari Plain — Roadside Dojo",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Apprentice's Charm, ally Kohana added",
+    summary:
+      "A young orphan named Kohana watches Atsu fight from a distance and asks to apprentice under her. Atsu sets three tests of resourcefulness, heart, and courage — not combat — to see if Kohana is ready.",
+    aiTip:
+      "This is a character-driven quest with no combat. Choosing 'teach her' at the end rather than 'send her to safety' adds Kohana as a recurring ally who appears in two later quests with useful information.",
+    walkthrough: [
+      "Notice Kohana watching at the Ishikari roadside dojo — she approaches after a fight.",
+      "Set Test 1 (Resourcefulness): ask her to find food for three villagers — she succeeds.",
+      "Set Test 2 (Heart): ask her to help an injured traveller — observe from a distance.",
+      "Set Test 3 (Courage): she must talk down a threatening drunk at the inn — no weapons.",
+      "Return and evaluate all three results in dialogue.",
+      "Choose 'teach her' to add Kohana as an ally and receive the Apprentice's Charm."
+    ]
+  },
+  {
+    id: 1200,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Artisanal Treasures",
+    location: "Ishikari Plain — Craftsman District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Artisan's Commission Charm, armour decoration unlocked",
+    summary:
+      "A master craftsman's workshop is being extorted by a gang demanding protection money. Defeating the gang and recovering stolen design scrolls allows the craftsman to return to creating the region's finest armour decorations.",
+    aiTip:
+      "The gang leader uses a halberd with extreme reach — stay inside his swing arc during the duel. The stolen scrolls are split between two locations; check both before leaving the gang's warehouse.",
+    walkthrough: [
+      "Speak with Craftsman Daiki at his locked workshop in the Craftsman District.",
+      "Track the extortion gang to their warehouse south of the district.",
+      "Clear the eight gang members inside the warehouse.",
+      "Locate Scroll Cache 1 on the warehouse shelves and Scroll Cache 2 in the locked back room.",
+      "Defeat Gang Leader Kuro — stay inside his halberd arc and attack twice per opening.",
+      "Return both scroll caches to Daiki and receive the Commission Charm and armour decoration."
+    ]
+  },
+  {
+    id: 1201,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Bold Kaji Forge",
+    location: "Ishikari Plain — Kaji Forge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bold Kaji weapon upgrade tier, rare ore",
+    summary:
+      "The famed Bold Kaji forge was shut down after an outlaw siege. Gathering the ore it needs and clearing its remaining occupants allows it to reopen — unlocking a premium weapon upgrade tier unique to Ishikari.",
+    aiTip:
+      "The forge's premium upgrade tier gives weapons a fire damage bonus — pair it with the scorch bomb for a devastating fire build. Complete the Bomb Maker Sensei quest before this one to make the most of that synergy.",
+    walkthrough: [
+      "Find the abandoned Kaji Forge and read the closure notice on the door.",
+      "Clear the eight outlaw squatters inside the forge.",
+      "Gather two veins of Kaji Ore from the mine shaft behind the forge — guarded by four more outlaws.",
+      "Speak with hidden forgemaster Taro hiding in a nearby barn — he returns with the ore.",
+      "Watch the reopening cutscene and commission a weapon upgrade to complete the quest.",
+      "Receive the Bold Kaji upgrade tier and rare ore bonus."
+    ]
+  },
+  {
+    id: 1202,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Broken Horn Garrison",
+    location: "Ishikari Plain — Broken Horn Garrison",
+    length: "long",
+    difficulty: "High",
+    reward: "Garrison Restored, Commander's Seal Charm",
+    summary:
+      "A strategic garrison that once protected Ishikari's northern road has been overrun and used as an outlaw staging base. Retaking it is a full assault against an entrenched force of twenty defenders.",
+    aiTip:
+      "The garrison has two floors — clear the ground floor completely before ascending. The outlaw commander on the upper floor calls for reinforcements if he spots you on the stairs; silence him quickly with a Tanzutsu shot.",
+    walkthrough: [
+      "Receive the retake order from a Ishikari military contact after completing Protecting the Peace.",
+      "Observe the garrison exterior; twenty defenders plus a commander on the upper floor.",
+      "Breach the ground floor via the damaged south wall — six defenders inside.",
+      "Clear all ground-floor defenders before ascending — the staircase has a tripwire.",
+      "Reach the upper floor; use a Tanzutsu shot to silence the commander before he calls reinforcements.",
+      "Clear eight upper-floor defenders and loot the commander's office for the Seal.",
+      "Hold the garrison for 60 seconds while a small relief wave attacks — then the garrison is secured."
+    ]
+  },
+  {
+    id: 1203,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Cursed Ground",
+    location: "Ishikari Plain — Abandoned Fields",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Fields Reclaimed, Harvest Charm",
+    summary:
+      "Villagers refuse to farm land they believe is spiritually cursed after crops repeatedly died there. Atsu's investigation reveals the real cause is buried contraband leaching poison into the soil.",
+    aiTip:
+      "This is an investigation quest — no combat required. Use the listening sense near the three failed crop rows to identify the buried contraband locations. Each spot glows faintly with a green tint.",
+    walkthrough: [
+      "Speak with Village Elder Shiro about the abandoned fields.",
+      "Use the listening sense near each of the three failed crop rows.",
+      "Dig up the contraband package at each glowing location using the interact prompt.",
+      "Inspect the packages — they contain discarded poison used by a disbanded outlaw group.",
+      "Report to the elder with the evidence and identify the responsible party from your quest log.",
+      "Receive the Harvest Charm and watch the fields reclamation cutscene."
+    ]
+  },
+  {
+    id: 1204,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Oni's Breath Inn",
+    location: "Ishikari Plain — Oni's Breath Inn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Inn re-opened (safe house), Innkeeper's Charm",
+    summary:
+      "Rumours of a ghost haunting a once-popular inn have driven away all customers and staff. Atsu investigates the haunting and discovers a very human source — an outlaw gang using the ghost story as cover for their operation.",
+    aiTip:
+      "The ghost effects (floating objects, strange sounds) are triggered by a pressure plate system the outlaws installed. Disable the three plates before confronting the gang to expose the trick during the dialogue.",
+    walkthrough: [
+      "Speak with nervous former Innkeeper Masa outside the closed inn.",
+      "Investigate the inn interior; locate and disable three pressure plates (listening sense reveals them).",
+      "Search the basement — find the outlaw gang's hidden living quarters and operation evidence.",
+      "Confront the gang leader (5 members total) in the main hall.",
+      "Present the pressure plate evidence in dialogue for the humiliating exposure cutscene.",
+      "Help Masa reopen the inn; it becomes a safe house and the Innkeeper's Charm is awarded."
+    ]
+  },
+  {
+    id: 1205,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Shelter from the Storm",
+    location: "Ishikari Plain — Snowbound Lodge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Storm Survival Charm, secret identity revealed",
+    summary:
+      "Travellers stranded by a sudden blizzard take shelter in a remote lodge alongside Atsu. One of them is a Yōtei Six informant in disguise — Atsu must identify them before they slip away under cover of the storm.",
+    aiTip:
+      "The informant is identified by three clues hidden in the lodge: a coded letter, a Yōtei Six sigil on their boot sole, and a second water flask (informants carry two for long missions). Find all three before accusing.",
+    walkthrough: [
+      "Shelter at the Snowbound Lodge when a blizzard closes the road.",
+      "Mingle with the four other travellers; each has a backstory — listen carefully.",
+      "Clue 1: find the coded letter under the informant's bedroll during a search.",
+      "Clue 2: observe the sigil on the boot sole when a traveller removes their boots by the fire.",
+      "Clue 3: count the water flasks on each traveller's pack — the informant has two.",
+      "Confront the identified informant; they draw a weapon and fight — five enemies if they alert allies.",
+      "Receive the Storm Survival Charm and new intelligence after the confrontation."
+    ]
+  },
+  {
+    id: 1206,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Great Jigoku Gambit",
+    location: "Ishikari Plain — Jigoku Gambling Den",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gambler's Fortune Charm, Gold",
+    summary:
+      "A con artist's elaborate scheme to swindle the local gambling den accidentally draws in three real Yōtei Six lieutenants — who believe the con is a rival operation targeting them. Atsu must manage the chaos.",
+    aiTip:
+      "This quest has a comedic tone with three branching confrontations running simultaneously. Handle the den owner first — he has the most guards. The con artist Cho is genuinely funny; let her scenes play out for optional lore.",
+    walkthrough: [
+      "Find con artist Cho frantically trying to escape the gambling den.",
+      "Learn that three Yōtei Six lieutenants have crashed her scheme, each thinking she's a rival.",
+      "Handle Lieutenant 1 (den entrance): defeat his four guards and send him off with false intelligence.",
+      "Handle Lieutenant 2 (upper floor): Cho distracts him while Atsu incapacitates his bodyguard.",
+      "Handle Lieutenant 3 (basement): a direct fight — nine enemies, use the narrow stairwell as a chokepoint.",
+      "Help Cho escape with her winnings; receive the Gambler's Fortune Charm and gold from her share."
+    ]
+  },
+  {
+    id: 1207,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Lost Scouts",
+    location: "Ishikari Plain — Eastern Wilderness",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Scout's Compass Charm, new patrol intel",
+    summary:
+      "Three advance scouts who disappeared in enemy territory must be found. Each is in a different predicament — captured, injured, and hiding — requiring a different rescue approach for each.",
+    aiTip:
+      "Rescue Scout 2 (injured) before Scout 3 (hiding) — Scout 3's hiding spot is only revealed by Scout 2's information. Going out of order causes Scout 3 to move and become much harder to locate.",
+    walkthrough: [
+      "Receive the missing scouts report from the Ishikari military commander.",
+      "Scout 1 (captured): infiltrate the outlaw camp, free her from the cage with the captain's key.",
+      "Scout 2 (injured): follow the blood trail east to a collapsed barn; treat wounds with herbal kit.",
+      "Get Scout 2's information about Scout 3's hiding location before moving on.",
+      "Scout 3 (hiding): use the specific landmark Scout 2 described to find the concealed cave entrance.",
+      "Escort all three scouts to the military post; receive the Scout's Compass Charm."
+    ]
+  },
+  {
+    id: 1208,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Sentinel",
+    location: "Ishikari Plain — Ruined Post",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sentinel's Charm, lore document",
+    summary:
+      "An ancient samurai stands guard alone at a ruined outpost, still waiting for orders from a lord who died thirty years ago. Atsu must decide whether to tell him the truth or find a way to give him permission to rest.",
+    aiTip:
+      "This is a purely narrative quest with no combat. The best reward comes from finding the lord's old seal in the ruined post first — presenting it gives the samurai official permission to stand down, earning the bonus lore document.",
+    walkthrough: [
+      "Find the elderly sentinel Goemon at the crumbling outpost on the Ishikari eastern road.",
+      "Search the ruined post — find the lord's old seal in a collapsed room.",
+      "Speak with Goemon; present the seal.",
+      "Watch the extended cutscene where Goemon stands down after thirty years.",
+      "Receive the Sentinel's Charm and the lore document about Ishikari's history."
+    ]
+  },
+  {
+    id: 1209,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Weight of Coin",
+    location: "Ishikari Plain — Tax Collector's Route",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Villagers' Gold Returned, Balance Charm",
+    summary:
+      "A corrupt tax collector is starving Ishikari villages with impossible demands. Atsu can resolve this peacefully by exposing the collection fraud to the regional authority — or by force, taking the gold back directly.",
+    aiTip:
+      "The peaceful path (collecting evidence and reporting to the authority) gives better charm rewards. The force path is faster and still returns the gold, but locks out the Balance Charm.",
+    walkthrough: [
+      "Speak with starving villagers in three Ishikari settlements about the excessive taxation.",
+      "Peaceful path: collect three falsified tax ledger pages from the collector's camps.",
+      "Present the ledgers to the Ishikari regional magistrate — the collector is arrested.",
+      "The magistrate returns the gold to the villages — receive the Balance Charm.",
+      "Force path alternative: ambush the tax collector's convoy and take the gold directly.",
+      "Distribute the gold manually to three villages for the force path completion."
+    ]
+  },
+  {
+    id: 1210,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "A Brokered Trust",
+    location: "Oshima Coast — Pirate Harbour",
+    length: "medium",
+    difficulty: "High",
+    reward: "Pirate Intel on Yōtei Six, Broker's Charm",
+    summary:
+      "A pirate broker offers Atsu actionable intelligence on the Yōtei Six's sea routes in exchange for completing a dangerous heist — stealing a rival pirate captain's logbook from a guarded ship in the harbour.",
+    aiTip:
+      "Board the ship from the water side after nightfall — the crew rotates to the port side at midnight, leaving the starboard unguarded for a 90-second window. Use it or fight through ten naval guards.",
+    walkthrough: [
+      "Meet Broker Kaida at the Pirate Harbour tavern.",
+      "Scout the target ship at the harbour; note the midnight crew rotation.",
+      "Swim to the starboard side at midnight and climb the anchor chain silently.",
+      "Locate the captain's logbook in the stern cabin — one guard inside.",
+      "Exit via the anchor chain before the crew rotates back.",
+      "Deliver the logbook to Kaida; receive the intelligence and Broker's Charm."
+    ]
+  },
+  {
+    id: 1211,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "A Promise of Treasure",
+    location: "Oshima Coast — Coastal Caves",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure Cache, Sailor's Charm",
+    summary:
+      "A dying sailor passes Atsu a hand-drawn map to a coastal treasure cache his crew buried years ago — on the condition she splits it with his estranged daughter. Finding both the treasure and the daughter makes this more than a simple treasure hunt.",
+    aiTip:
+      "The treasure cave is guarded by a rival pirate gang who found the map first. They are entrenched inside the cave — use the Scorch Bomb at the cave entrance to flush them out rather than fighting in the dark.",
+    walkthrough: [
+      "Receive the map from the dying sailor Kenji at the Oshima dockside.",
+      "Locate his daughter Ami at the fish market — she is wary but agrees to accompany you.",
+      "Follow the map to the coastal cave entrance; pirates guard the entrance.",
+      "Use a Scorch Bomb at the cave entrance to flush eight pirates into the open.",
+      "Clear the cave interior of four more pirates and claim the treasure chest.",
+      "Return to Ami with her half of the treasure; receive the Sailor's Charm from her gratitude."
+    ]
+  },
+  {
+    id: 1212,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The New Lord",
+    location: "Oshima Coast — Coastal Manor",
+    length: "medium",
+    difficulty: "High",
+    reward: "Usurper's Seal, Legitimacy Charm",
+    summary:
+      "A young noble arrives on Oshima claiming authority over the coastal trade routes. The locals know his documents are forged — the real heir died at sea. Atsu must expose the impostor before he consolidates power.",
+    aiTip:
+      "The impostor's four bodyguards are elite fighters with coordinated attack patterns. Separate them by throwing a smoke bomb into the centre of the group before engaging — isolated fights are far more manageable.",
+    walkthrough: [
+      "Speak with dock master Haruto about the suspicious new lord.",
+      "Investigate the manor: find the forged appointment letter in the archives room.",
+      "Research the real heir's fate at the Oshima records office — a ship manifest confirms he drowned.",
+      "Confront the impostor at the coastal manor with the evidence.",
+      "Fight his four elite bodyguards — smoke bomb to separate them.",
+      "Defeat the impostor in a final duel and hand the forged documents to the magistrate.",
+      "Receive the Usurper's Seal and Legitimacy Charm."
+    ]
+  },
+  {
+    id: 1213,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Tooth Breaker",
+    location: "Oshima Coast — Fishing Village",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Village Protected, Iron Fist Charm",
+    summary:
+      "A notorious fistfighter turned enforcer is terrorising the Oshima fishing villages, demanding tribute before every tide. Atsu challenges him to a public duel to end the extortion and restore the fishermen's dignity.",
+    aiTip:
+      "The Tooth Breaker fights with no weapons — pure grapple and punch. He counters all sword attacks when his guard is up; wait for him to overextend on a haymaker and hit him during the recovery.",
+    walkthrough: [
+      "Hear the fishermen's complaint at the Oshima village market.",
+      "Challenge the Tooth Breaker to a public duel at the village square.",
+      "Wait for his haymaker overextension — he swings wide every third attack.",
+      "Strike twice during the recovery window; repeat.",
+      "At half health he grabs — complete the wrestling QTE to break free.",
+      "Finish with three consecutive hits after his final haymaker; he surrenders.",
+      "Receive the Iron Fist Charm from the grateful village headman."
+    ]
+  },
+  {
+    id: 1214,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Weight of Snow",
+    location: "Teshio Ridge — Avalanche Zone",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Avalanche Survivor's Charm, rescue supplies",
+    summary:
+      "A Teshio ridge village is partially buried by a sudden avalanche. Survivors need rescue before outlaw scavengers — who follow disasters looking for easy pickings — arrive to strip what little remains.",
+    aiTip:
+      "There are six buried survivors across three locations. Rescue the two children first — they are in the most structurally unstable section and have the shortest time window before a secondary collapse.",
+    walkthrough: [
+      "Arrive at the Teshio Avalanche Zone after hearing the disaster bell.",
+      "Rescue the two children in the unstable northern section first — time-sensitive.",
+      "Clear the four outlaw scavengers who arrive at the village edge.",
+      "Dig out survivor 3 and 4 from the inn ruins — use the provided shovel interact prompt.",
+      "Find and rescue survivors 5 and 6 in the collapsed barn on the south side.",
+      "Receive the Avalanche Survivor's Charm once all six are safe."
+    ]
+  },
+  {
+    id: 1215,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "A Journey North",
+    location: "Nayoro Wilds — Northern Trailhead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Northern Trade Charm, trade route unlocked",
+    summary:
+      "A merchant caravan heading deeper into Ezo's northern wilds needs protection through the most dangerous stretch of the Nayoro forest. Three bandit ambushes and one river crossing test Atsu's escort skills.",
+    aiTip:
+      "The river crossing is the hardest section — bandits attack from both banks simultaneously. Get the caravan onto the far bank first, then fight from the high ground on the far side rather than splitting your attention mid-river.",
+    walkthrough: [
+      "Meet Merchant Leader Saku at the Northern Trailhead.",
+      "Ambush 1 (4 bandits): intercept before they reach the caravan — 200m ahead on the trail.",
+      "Ambush 2 (7 bandits): come from the tree line; use the cart as cover for the merchants.",
+      "River Crossing: get the caravan to the far bank first, then hold the high ground against 8 attackers.",
+      "Ambush 3 (5 bandits): the final stretch — clear them before Saku's departure point.",
+      "Receive the Northern Trade Charm and the new trade route map marker."
+    ]
+  },
+  {
+    id: 1216,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Youth Under Fire",
+    location: "Ishikari Plain — Burning Mill",
+    length: "medium",
+    difficulty: "High",
+    reward: "Young Soldiers' Charm, Ishikari defence alliance",
+    summary:
+      "A small garrison of inexperienced soldiers is defending a strategically vital burning mill against a sustained outlaw siege. Atsu arrives to find them outmatched and rallies them through two desperate defensive waves.",
+    aiTip:
+      "The soldiers will charge recklessly if left alone. Issue the 'hold position' command by speaking with the garrison sergeant between waves — it keeps them alive and gives Atsu room to flank the attackers.",
+    walkthrough: [
+      "Hear the mill alarm bells from the Ishikari road and investigate.",
+      "Speak with Sergeant Daichi to trigger the first defensive wave.",
+      "Wave 1 (10 outlaws): position yourself at the mill's southern gate chokepoint.",
+      "Between waves: speak with Daichi and choose 'hold position' to prevent suicidal charges.",
+      "Wave 2 (15 outlaws including a mounted attacker): use Tanzutsu to dismount the rider first.",
+      "After Wave 2, a brief cutscene ends the siege; receive the charm and alliance unlock."
+    ]
+  },
+  ,
+  {
+    id: 1217,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Smiling Yoshitomo",
+    location: "Yōtei Grasslands — Outlaw Hamlet",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A deceptively cheerful bandit leader who lures victims with a friendly smile before ambushing with his crew. He is located in a small hamlet north of the Grasslands inn.",
+    aiTip:
+      "His crew of four attacks the moment he is threatened — open with a Ghost Stance kill on Yoshitomo himself to end the fight before it starts.",
+    walkthrough: [
+      "Accept the bounty from the Grasslands inn bounty board or Kojiro the Bounty Broker.",
+      "Travel to the Outlaw Hamlet in northern Grasslands.",
+      "Identify Yoshitomo by his distinctive red sash — he greets you warmly before signalling his crew.",
+      "Activate Ghost Stance immediately and execute him before his crew can react.",
+      "Defeat the remaining four crew members.",
+      "Return to Kojiro to claim the reward."
+    ]
+  },
+  {
+    id: 1218,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Crow Genzo",
+    location: "Yōtei Grasslands — Eastern Treetops",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A thief who scouts targets from treetops using a trained crow as a lookout. His crow alerts him to approach — eliminate the bird first or find the blind spot in its patrol pattern.",
+    aiTip:
+      "The crow patrols a figure-eight pattern — there is a five-second gap on the west side between loops. Use that gap to climb the tree and reach Genzo before the crow returns.",
+    walkthrough: [
+      "Accept the bounty from the Grasslands board.",
+      "Locate Genzo's roost in the eastern Grasslands tall pines.",
+      "Time the crow's figure-eight patrol and move during the five-second western gap.",
+      "Climb the tree and reach Genzo's platform before the crow completes its loop.",
+      "Defeat Genzo — he uses throwing knives and drops from the tree; catch him at the base.",
+      "Return to Kojiro for the reward."
+    ]
+  },
+  {
+    id: 1219,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Black Powder Ippei",
+    location: "Yōtei Grasslands — Abandoned Mill",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A reckless bomb-thrower operating in the outer grassland trails. Ippei throws improvised explosives at anyone who approaches and has booby-trapped the abandoned mill he uses as a base.",
+    aiTip:
+      "Do not sprint toward Ippei — the mill perimeter has three tripwire bombs. Walk slowly through the entrance and use the listening sense to spot the wires. His own bombs can be deflected back with a well-timed dodge-roll.",
+    walkthrough: [
+      "Accept the bounty from the Grasslands board.",
+      "Approach the Abandoned Mill slowly — three tripwires visible with listening sense.",
+      "Disable or dodge around the tripwires before entering.",
+      "Ippei throws bombs in arcs — dodge-roll into them to send them back.",
+      "Close the distance when he reloads and finish with melee.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1220,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Soma the Condemned",
+    location: "Yōtei Grasslands — River Ravine",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former executioner turned outlaw, branded for death by two rival clans who both want her head. Soma fights with a large executioner's blade and has no fear — she charges immediately on sight.",
+    aiTip:
+      "Soma's executioner blade has massive range and cleave — never get caught between her and a wall. Fight in open ground, stay mobile, and use the Kusarigama pull to interrupt her charging attack at mid-range.",
+    walkthrough: [
+      "Accept the bounty and travel to the River Ravine camp.",
+      "Soma charges immediately — maintain distance and stay in open ground.",
+      "Use Kusarigama Chain Pull to interrupt her charge when she winds up.",
+      "Two chain pulls stagger her enough for a three-hit combo.",
+      "At half health she switches to slower, heavier overhead swings — easier to time deflects.",
+      "Defeat her and report to Kojiro."
+    ]
+  },
+  {
+    id: 1221,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Three Terrors",
+    location: "Tokachi Range — Marsh Crossing",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Three brothers who operate as a coordinated combat pack — one grappler, one knife-thrower, one shieldbearer — and must be fought simultaneously. Arguably the hardest bounty in the game.",
+    aiTip:
+      "Focus down the grappler first — if he grabs you while the knife-thrower fires, you lose enormous health instantly. Use Ghost Stance at the start to execute the grappler and even the odds immediately.",
+    walkthrough: [
+      "Accept the bounty — this is rated hard, come prepared with full supplies.",
+      "Find the Three Terrors at the Tokachi Marsh Crossing.",
+      "Activate Ghost Stance immediately and execute the grappler (leftmost brother).",
+      "Target the knife-thrower second — keep dodging his throws while closing distance.",
+      "The shieldbearer is last — use Kusarigama Chain Pull to break his guard.",
+      "Report all three kills to Kojiro for the combined reward."
+    ]
+  },
+  {
+    id: 1222,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Muneji the Bone Crusher",
+    location: "Tokachi Range — Quarry Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A massive brawler who fights with a war club and has survived three previous bounty hunters. He camps at a quarry outside Tokachi with six loyal followers.",
+    aiTip:
+      "Muneji's war club is slow but its area stagger is huge. Stay at medium range and bait the club swing, then sprint in for two hits during the long recovery. The yari's Charging Thrust is ideal for this rhythm.",
+    walkthrough: [
+      "Accept the bounty and travel to the Quarry Camp.",
+      "Clear the six followers first using stealth — Muneji does not notice quiet kills.",
+      "Engage Muneji alone; stay at medium range to bait the club swing.",
+      "Sprint in during the club's recovery window and hit twice.",
+      "Repeat the bait-and-punish cycle five times to end the fight.",
+      "Collect the bounty from Kojiro."
+    ]
+  },
+  {
+    id: 1223,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Bear Man Chikatoshi",
+    location: "Tokachi Range — Deep Mountain Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A hermit hunter who has lived alone in the Tokachi mountains so long he moves like a bear — on all fours for sprinting and with unpredictable direction changes. Travellers report he ambushes from above.",
+    aiTip:
+      "Chikatoshi attacks from high ground — always look up when his marker appears. He drops from trees and cliffs without warning. Equipping the listening sense before approaching reveals his position above you.",
+    walkthrough: [
+      "Accept the bounty and travel to the Deep Mountain Camp area.",
+      "Use listening sense as you approach — Chikatoshi is above, not on the ground.",
+      "He drops from a tree when you step into the clearing; dodge the impact immediately.",
+      "Fight normally once he is on the ground — he is fast but has no special attacks standing.",
+      "He retreats to high ground once at half health; use Tanzutsu to knock him down.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1224,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "One-Eye Moritaka",
+    location: "Tokachi Range — Ridgeline Nest",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A veteran archer who lost his eye and his honour in a battle long ago. Now he picks off merchants from ridgeline nests above the Tokachi trade roads. His remaining eye makes him deadly at range.",
+    aiTip:
+      "Moritaka fires fast and accurately from extreme range — do not approach in the open. Hug the cliff wall below his nest to stay out of his line of sight, then climb to him from behind using the cliff's blind side.",
+    walkthrough: [
+      "Accept the bounty and locate the ridgeline nest on the Tokachi map.",
+      "Approach along the cliff wall directly below — stay out of his sightline.",
+      "Climb the cliff from the blind side (eastern face); he cannot see this approach.",
+      "Reach the nest and engage in melee — he is defenceless at close range.",
+      "Defeat Moritaka and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1225,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Junpei the Snatcher",
+    location: "Tokachi Range — Marsh Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A quick, nimble thief who kidnaps merchants for ransom in the Tokachi marsh towns. He is never seen arriving — only leaving with a hostage. Track him to his holding site and free his current victim.",
+    aiTip:
+      "Junpei runs the moment combat starts — he will not fight until cornered. Chase him through the marsh town and cut off his exit route by positioning at the docks before triggering the encounter.",
+    walkthrough: [
+      "Accept the bounty and find Junpei's holding site at the Marsh Town docks.",
+      "Position yourself at the dock exit before approaching Junpei.",
+      "He bolts immediately — he has a 10-second head start but cannot cross the water.",
+      "Corner him at the dock edge; he finally fights — quick but fragile.",
+      "Free the hostage merchant from the holding cage after Junpei is defeated.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1226,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Blue Yamauba",
+    location: "Tokachi Range — Forest Edge Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A woman outlaw who dresses as the demon-witch Yamauba in blue robes to terrify her victims into compliance. Her theatrical persona hides a genuine swordswoman with a flair for misdirection.",
+    aiTip:
+      "She opens with a scream that briefly stuns Atsu if you face her directly — look away or close your eyes (hold the shield button) for the first two seconds of the encounter to avoid the stun.",
+    walkthrough: [
+      "Accept the bounty and travel to the Forest Edge Camp.",
+      "She opens with a stun scream — hold the shield button for the first two seconds to resist.",
+      "After the scream, she switches to fast sword strikes — standard deflect timing.",
+      "At half health she throws blue smoke powder — use listening sense to track her through it.",
+      "Corner her after the smoke clears and finish the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1227,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Houndmaster Toyotaro",
+    location: "Teshio Ridge — Frozen Kennel",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A bounty hunter turned outlaw who hunts his own targets using a pack of four trained dogs. Neutralise the dogs before engaging Toyotaro — they lock-on and pin Atsu if she fights him first.",
+    aiTip:
+      "Throw food scraps (found near the kennel entrance) to distract the dogs and move them away from Toyotaro. The scorch bomb also routes them without killing them — useful for the humane-completion bonus.",
+    walkthrough: [
+      "Accept the bounty and travel to the Frozen Kennel camp.",
+      "Find the food scraps near the kennel entrance.",
+      "Throw food to draw the four dogs away from Toyotaro.",
+      "Alternatively, use a scorch bomb near the kennel to rout the dogs non-lethally.",
+      "Engage Toyotaro alone — he uses a chain whip with decent range.",
+      "Deflect the chain when it extends and counter during the retraction pause.",
+      "Defeat Toyotaro and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1228,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Inagawa the Gambler",
+    location: "Teshio Ridge — Gambling House",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Inagawa runs a loaded dice operation that strips travellers dry, then his enforcers take what the dice leave behind. He surrounds himself with eight heavies in the Teshio gambling house.",
+    aiTip:
+      "Inagawa himself is weak — his eight bodyguards are the real challenge. Use a scorch bomb at the gambling house entrance during a busy moment to scatter the bodyguards before Inagawa can organise a coordinated defence.",
+    walkthrough: [
+      "Accept the bounty and locate the Teshio Gambling House.",
+      "Throw a scorch bomb through the entrance to scatter the eight bodyguards.",
+      "Engage the disorganised bodyguards in pairs as they recover.",
+      "Inagawa panics once bodyguards fall — he hides under the main table.",
+      "Pull him out with the Kusarigama Chain Pull and finish the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1229,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Snowstorm Katagiri",
+    location: "Teshio Ridge — Northern Blizzard Pass",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Katagiri only strikes during blizzards and uses the whiteout conditions as camouflage for a hit-and-run fighting style. This bounty can only trigger during the Teshio Ridge blizzard weather event.",
+    aiTip:
+      "This bounty can only be completed during the blizzard weather event — rest at a Teshio camp to advance time until the blizzard begins. Use the listening sense constantly; Katagiri's footsteps are the only reliable indicator of position.",
+    walkthrough: [
+      "Accept the bounty — note it can only complete during a Teshio blizzard.",
+      "Rest at a Teshio camp until the blizzard event triggers (check weather icon on map).",
+      "Travel to the Northern Blizzard Pass — visibility drops to 20 metres.",
+      "Use listening sense to track Katagiri's circling movement pattern.",
+      "He attacks from behind — time a back-dodge when his footsteps stop for two seconds.",
+      "Counter-attack aggressively; he retreats if hit three times — chase him with the Charging Thrust.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1230,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Nameless Killer",
+    location: "Teshio Ridge — Remote Post Road",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An assassin with no known identity who uses poisoned needles launched from a blowpipe and misdirection tactics. The bounty notice has no portrait — only a description of the needle pouch they always carry.",
+    aiTip:
+      "The Nameless Killer uses poison needles that do not break block but apply a stacking poison dot. Equip maximum antidotes and herbal medicine before the encounter. The killer flees after three hits — use the Charging Thrust to close down each escape attempt.",
+    walkthrough: [
+      "Accept the bounty — note there is no portrait, only a needle pouch description.",
+      "Travel to the Remote Post Road; the Killer appears once you enter the marked zone.",
+      "They open with a poison needle burst — block to reduce the hit, use antidote immediately.",
+      "Close the distance and land three hits before they flee the first time.",
+      "Use Charging Thrust to close down two escape attempts.",
+      "After three flight-and-return cycles, they tire and fight to the finish.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1231,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Black Night Kubo",
+    location: "Teshio Ridge — Moonless Hollow",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A night-only raider in all-black gear who has never been identified or seen in daylight. This bounty only completes at night and Kubo fights with near-invisible shadowstep movement.",
+    aiTip:
+      "This bounty is night-only — rest until nightfall at the nearest camp. Kubo's shadowstep movement disappears him from sight for two seconds; use listening sense during the invisible phase to pre-dodge his re-emergence attack.",
+    walkthrough: [
+      "Accept the bounty — note night-only requirement.",
+      "Rest until nightfall and travel to Moonless Hollow.",
+      "Kubo appears from shadow — use listening sense to track the invisible phase.",
+      "Pre-dodge left when the listening sense pulse ends (his re-emergence comes from the right).",
+      "Counter-attack immediately after the dodge — he is vulnerable for one second on re-emergence.",
+      "Repeat the listen-dodge-counter cycle eight times to end the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1232,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Bloody Strings Hachibee",
+    location: "Ishikari Plain — Roadside Inn",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former shamisen player whose intimate performances always ended with his clients being robbed and murdered. He uses the shamisen strings as a garrotte weapon in close combat.",
+    aiTip:
+      "Do not let Hachibee get behind you — his garrotte attack from the rear is a one-hit kill on hard difficulty. Keep a wall at your back throughout the fight and use the yari's Spinning Sweep to maintain frontal spacing.",
+    walkthrough: [
+      "Accept the bounty and travel to the Roadside Inn.",
+      "Hachibee is performing for an audience — wait for him to finish or interrupt with a challenge.",
+      "Keep a wall at your back — never let him manoeuvre behind you.",
+      "Use yari Spinning Sweep to maintain distance and create opening windows.",
+      "His garrotte grab has a slow wind-up — dodge immediately when he raises both hands.",
+      "Defeat Hachibee and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1233,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Toshi the Torch",
+    location: "Ishikari Plain — Hay District",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An arsonist who sets buildings ablaze as distractions, then his crew loots the chaos. Three fires around Ishikari's hay district burn simultaneously when you arrive — extinguish them and find Toshi in the confusion.",
+    aiTip:
+      "Extinguishing the fires is optional but earns bonus standing. Toshi is always near the largest fire — look for the figure in the firelight who is not panicking. He uses a fire lance with a short but lethal range.",
+    walkthrough: [
+      "Accept the bounty; three fires in the Hay District burn when you arrive.",
+      "Optional: extinguish all three fires using water barrel interact prompts for bonus standing.",
+      "Locate Toshi near the largest fire — he wears an orange headband.",
+      "His fire lance has short range — stay outside it and use the Kusarigama Chain Pull to drag him into fighting distance.",
+      "Defeat Toshi; his crew scatters without him.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1234,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Eijiro the Ruthless",
+    location: "Ishikari Plain — Village Crossroads",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Eijiro runs a brutal extortion ring across three Ishikari villages, collecting from each in rotation. He travels with six enforcers and considers himself untouchable.",
+    aiTip:
+      "Intercept Eijiro on the road between villages where he has fewer enforcers — catching him mid-transit reduces the escort from six to two. The bounty board description includes his travel schedule.",
+    walkthrough: [
+      "Accept the bounty and read the schedule description on the notice.",
+      "Intercept Eijiro on the road between Village 2 and Village 3 at mid-morning.",
+      "Mid-transit escort is only two enforcers — defeat them quickly.",
+      "Eijiro fights with a large club; standard bait-and-punish timing.",
+      "Defeat him and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1235,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Turtle Man Kamekichi",
+    location: "Ishikari Plain — Stone Quarry",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Kamekichi fights behind a reinforced shell-like body shield so heavy it stops all frontal attacks. He is mechanically impossible to damage from the front — requiring creative positioning to defeat.",
+    aiTip:
+      "The Kusarigama Chain Pull yanks Kamekichi's shield aside for two seconds — use that window to land two hits from the front. Alternatively, bait him to charge and sidestep to his unshielded rear.",
+    walkthrough: [
+      "Accept the bounty and travel to the Stone Quarry.",
+      "Frontal attacks bounce off the shield — do not waste Resolve trying.",
+      "Option A: use Kusarigama Chain Pull to yank the shield sideways and attack during the two-second gap.",
+      "Option B: bait his forward charge and sidestep to attack his exposed rear.",
+      "Both options work; Chain Pull is more reliable in the open quarry environment.",
+      "Claim the reward from Kojiro after defeating him."
+    ]
+  },
+  {
+    id: 1236,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Shiro the Swindler",
+    location: "Ishikari Plain — Document Stall",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Shiro sells forged travel permits and identity papers to desperate refugees at exploitative prices. He operates openly from a document stall — but is rarely where his stall is, sending an apprentice to take the blame.",
+    aiTip:
+      "His apprentice at the stall will send you to the wrong location three times before revealing Shiro's real hiding spot if you press him. Alternatively, use the listening sense near the stall — Shiro's distinct coughing is audible from 50 metres.",
+    walkthrough: [
+      "Accept the bounty and find the document stall in Ishikari market.",
+      "Use listening sense near the stall — follow the coughing sound to the real Shiro.",
+      "Confront Shiro in his hiding spot behind the sake warehouse.",
+      "He surrenders immediately — escort him to the magistrate or take the bounty directly.",
+      "Both resolutions pay the same reward from Kojiro."
+    ]
+  },
+  {
+    id: 1237,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Old Lady Yae",
+    location: "Ishikari Plain — Roadside Inn Kitchen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Do not be fooled by the grandmother persona — Yae runs a sophisticated poison supply ring from her inn kitchen basement, providing toxins to multiple outlaw groups across Ishikari.",
+    aiTip:
+      "Yae fights surprisingly well using a weighted cooking ladle and paralysing poisons she throws at the start. Block the first throw and close immediately — she has no melee ability once in grapple range.",
+    walkthrough: [
+      "Accept the bounty and enter the Roadside Inn as a customer.",
+      "Find the basement entrance behind the kitchen fireplace.",
+      "The poison operation is fully operational; four workers scatter on sight.",
+      "Yae throws a paralysing poison vial immediately — block it before closing.",
+      "Grapple range neutralises her — use pommel strikes to subdue her without killing.",
+      "Hand Yae to the Ishikari authorities or take the direct bounty from Kojiro."
+    ]
+  },
+  {
+    id: 1238,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Inokichi the Hungry",
+    location: "Ishikari Plain — Farm Road",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An enormous bandit who demands food tribute from every farm he passes through — and then demands more. He travels slowly with a huge pack of stolen food and four exhausted followers.",
+    aiTip:
+      "Inokichi is slow but his hunger gives him fury when you damage the food packs on his back. Do not attack the packs — target him directly. The followers are too tired to fight effectively; handle Inokichi first.",
+    walkthrough: [
+      "Accept the bounty and intercept Inokichi on the Farm Road.",
+      "Do not attack the food packs on his back — it triggers a fury mode.",
+      "The four followers are sluggish and low-health — knock them down quickly.",
+      "Fight Inokichi one-on-one: he is slow, powerful, and predictable.",
+      "Bait his two-step advance swing and counter twice each time.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1239,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Iron Chuta",
+    location: "Ishikari Plain — Blacksmith Ruin",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former blacksmith who covers himself in improvised iron plating and fights with iron-clad fists. Every punch stuns briefly — a chain of punches can kill Atsu before she recovers. One of the toughest solo bounties.",
+    aiTip:
+      "The Kusarigama Chain Pull pulls Iron Chuta off balance even with all his armour — it is the only reliable interrupt. Pull him whenever he loads up for a punch chain and counter with dual-katana flurries during the stumble.",
+    walkthrough: [
+      "Accept the bounty and travel to the Blacksmith Ruin.",
+      "Iron Chuta opens with a fast punch chain — immediately use Kusarigama Chain Pull to interrupt.",
+      "Counter with dual-katana flurries during his stumble (two to three hits maximum).",
+      "Repeat the Pull-counter cycle; do not get greedy with hit counts.",
+      "At half health he adds an unblockable haymaker — dodge backward when his shoulder drops.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1240,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Wayward Oni Raiders",
+    location: "Nayoro Wilds — Ainu Village Perimeter",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A roving band of outlaws who paint themselves to look like oni demons and terrorise Ainu settlements with theatrical violence. The paint is intimidation only — they fight as ordinary bandits.",
+    aiTip:
+      "The leader wears the most elaborate oni makeup and holds back during the initial charge. Ignore the seven painted raiders and use Ghost Stance to execute the leader immediately — the rest scatter on his death.",
+    walkthrough: [
+      "Accept the bounty and locate the Wayward Oni Raiders near the Nayoro Ainu village.",
+      "Seven raiders charge first; the leader hangs back.",
+      "Activate Ghost Stance and push through the raiders to execute the leader directly.",
+      "The remaining raiders flee on the leader's death — no need to fight them all.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1241,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Bloody Eye Matsuda",
+    location: "Nayoro Wilds — Forest Outpost",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former military scout who defected after a court martial and now leads precision raids into the Nayoro interior using his professional training. He sets up defensive perimeters before Atsu can reach him.",
+    aiTip:
+      "Matsuda's perimeter has three tripwires and two flare traps — triggering any of them calls four reinforcements. Use listening sense to map the perimeter before entering and disable the flare traps with throwing stones.",
+    walkthrough: [
+      "Accept the bounty and approach the Forest Outpost cautiously.",
+      "Use listening sense to identify all three tripwires and two flare traps.",
+      "Disable the two flare traps with thrown stones before entering.",
+      "Navigate around the tripwires to reach Matsuda's position.",
+      "He fights with precise, military sword technique — deflect-counter timing is standard.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1242,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Whistling Ren",
+    location: "Nayoro Wilds — Forest Road",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Always announces his presence with a distinctive whistle before attacking — victims are so unsettled by the signal that they freeze. Ironically, this makes him easy to prepare for if you know the whistle means incoming.",
+    aiTip:
+      "The whistle is a free heads-up — the moment you hear it, activate your stance of choice before Ren arrives. Ghost Stance on the whistle cue lets you execute him during his approach for a near-instant completion.",
+    walkthrough: [
+      "Accept the bounty and travel to the Forest Road zone.",
+      "Wait in the zone until Ren's distinctive whistle sounds.",
+      "Immediately activate Ghost Stance on the whistle cue before he arrives.",
+      "Execute Ren as he emerges from the trees.",
+      "Claim the reward from Kojiro — possibly the fastest bounty completion in the game."
+    ]
+  },
+  {
+    id: 1243,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Eagle Eye Kondo",
+    location: "Oshima Coast — Coastal Cliffs",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A sharpshooter perched on the Oshima coastal cliffs who has sunk three ships with a single Tanzutsu shot each. He commands the cliff overlooking the harbour and picks off anyone he deems a threat.",
+    aiTip:
+      "Kondo fires once every four seconds with near-perfect accuracy. The only safe approach is the underwater tunnel that exits behind his cliff position — swim from the southern beach and ascend from behind.",
+    walkthrough: [
+      "Accept the bounty and swim from the southern Oshima beach.",
+      "Find the underwater tunnel entrance 15 metres below the cliff base.",
+      "Swim through and ascend the tunnel to exit behind Kondo's position.",
+      "Approach from behind for a stealth execution — the easiest ending.",
+      "If detected, stay close and use melee — his Tanzutsu is useless at zero range.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1244,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Iwa the Beautiful",
+    location: "Oshima Coast — Harbour Tavern",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A con woman who seduces wealthy targets before her crew strips them of valuables — and occasionally their lives. She is always working a mark in the harbour tavern; confronting her in public draws her entire crew.",
+    aiTip:
+      "Pull Iwa away from the tavern by slipping her a note (interact prompt at the tavern door) inviting her to meet 'a wealthy merchant' outside. Her crew stays inside while she investigates — fight her alone in the alley.",
+    walkthrough: [
+      "Accept the bounty and locate Iwa working a mark in the Harbour Tavern.",
+      "Use the interact prompt at the tavern door to slip her a note.",
+      "She excuses herself and follows the note to the alley — crew stays inside.",
+      "Confront Iwa alone; she draws a tanto and fights precisely.",
+      "Her crew emerges after 60 seconds — defeat Iwa quickly.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1245,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Tadaaki the Terrible",
+    location: "Oshima Coast — Pirate Cove",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A pirate captain feared across the Oshima sea lanes for unpredictable brutality. He fights with two short swords and a complete disregard for conventional fighting patterns — every move is improvised.",
+    aiTip:
+      "Tadaaki has no repeating pattern — read each attack individually rather than trying to memorise a combo sequence. Perfect deflects give the biggest windows; focus on deflect quality over attack frequency.",
+    walkthrough: [
+      "Accept the bounty and locate Tadaaki at the Pirate Cove.",
+      "Clear his four pirate guards using stealth before the fight if possible.",
+      "Engage Tadaaki — do not try to memorise a pattern; read each attack individually.",
+      "Focus on perfect deflects to create the largest counter windows.",
+      "At one-third health he throws both swords and fights with kicks — dodge backward.",
+      "Close after the kick combo and finish with a heavy attack.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1246,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Last Brother",
+    location: "Oshima Coast — Clifftop Memorial",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "The sole survivor of a bandit clan destroyed by a previous bounty hunter, now sworn to avenge his fallen brothers by hunting that hunter and anyone associated with them. He has found Kojiro's connection to Atsu.",
+    aiTip:
+      "He fights with grief-fuelled aggression — relentless forward pressure with no defensive pauses. Do not back-pedal; he closes the gap faster than you can create it. Stand ground, deflect, and counter in place.",
+    walkthrough: [
+      "Accept the bounty — he is already coming for you.",
+      "Travel to the Clifftop Memorial where he waits.",
+      "He charges immediately with no opening dialogue.",
+      "Stand ground and deflect; backing up only extends his aggressive phase.",
+      "After three perfect deflects he staggers — land two heavy hits.",
+      "Repeat the deflect-punish cycle four times to end the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1247,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Shinpachi the Armor Thief",
+    location: "Oshima Coast — Dockside Warehouse",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Stolen Armour returned, Bounty Broker standing",
+    summary:
+      "Shinpachi specialises in stealing rare armour from samurai he defeats in surprise ambushes. He is currently wearing a full suit of stolen legendary armour — which explains why this bounty has never been completed.",
+    aiTip:
+      "The stolen armour means Shinpachi has extremely high defence — standard attacks do minimal damage. Use the odachi's Heaven's Fall technique to break through the armour's protection, or use the Tanzutsu to damage the armour's weak points (the joints glow orange with the listening sense).",
+    walkthrough: [
+      "Accept the bounty and travel to the Dockside Warehouse.",
+      "Use listening sense to identify the armour's glowing orange joint weak points.",
+      "Target weak points with Tanzutsu shots — each hit reduces his defence rating.",
+      "After four weak-point hits, the stolen armour is sufficiently damaged for normal attacks to land.",
+      "Finish with the odachi's Heaven's Fall to end the fight decisively.",
+      "Recover the stolen armour and return it to its original owner for a bonus reward.",
+      "Claim the bounty from Kojiro."
+    ]
   }
 ];
