@@ -21,6 +21,34 @@ of truth; the redesign regenerates from it).
 real video, add a step-by-step `walkthrough: [ … ]` array instead (see existing
 entries for the format).
 
+**Before assigning IDs to new quests**, always check the current highest ID in the file first:
+```js
+node -e "const src=require('fs').readFileSync('ps5-rpg-sidequest-summarizer/data/quests.js','utf8'); eval(src); console.log(Math.max(...quests.map(q=>q.id)));"
+```
+Start new quest IDs at `maxId + 1`. Never hardcode a starting ID without verifying.
+
+**When adding a new game**, always enrich every quest beyond what the source document provides:
+- Search for a real YouTube walkthrough video (`youtube.com/watch?v=…`). If found, use `video`.
+- If no real video exists, write a step-by-step `walkthrough: [ … ]` array from game knowledge.
+- Fill in `summary`, `aiTip`, `location`, `difficulty`, `length`, and `reward` for every entry — never leave them blank or use placeholder text.
+- Add the game to `gameImages` (gradient, abbr, cover path) and `subFilterConfig` (category/region filters).
+- Source documents are a starting point only; supplement missing quests, fields, and details using research.
+
+## Pre-notification CI Check
+
+**Never tell the user a push is done until you have confirmed CI passed.**
+
+After every `git push` to any branch:
+1. Wait for the GitHub Actions run to complete — use `mcp__github__actions_list` to find the latest run for that branch, then poll until `status` is `completed`.
+2. If `conclusion` is `failure`, fetch the logs with `mcp__github__get_job_logs` (failed_only: true), diagnose the error, fix it, and push again. Repeat until the run passes.
+3. Only report success to the user once `conclusion` is `success`.
+
+Never say "pushed" or "done" while CI is still running or has failed.
+
+## Agent Usage
+
+**Never delegate large tasks to subagents.** Subagents have output token limits and will fail silently mid-task on anything substantial (bulk data writing, large file edits, multi-file changes). Handle all major work directly. Only spawn agents for small, focused lookups or research that returns a short answer.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
