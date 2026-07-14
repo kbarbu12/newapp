@@ -67,7 +67,7 @@ const gameImages = {
   "Ghost of Yotei": {
     gradient: "linear-gradient(135deg, #0a0a1a 0%, #7c1111 50%, #e84040 100%)",
     abbr: "GOY",
-    cover: "images/ghost-of-yotei-cover.svg"
+    cover: "images/ghost-of-yotei-cover.jpg"
   },
   "Horizon Forbidden West": {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
