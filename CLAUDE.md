@@ -21,6 +21,12 @@ of truth; the redesign regenerates from it).
 real video, add a step-by-step `walkthrough: [ … ]` array instead (see existing
 entries for the format).
 
+**Before assigning IDs to new quests**, always check the current highest ID in the file first:
+```js
+node -e "const src=require('fs').readFileSync('ps5-rpg-sidequest-summarizer/data/quests.js','utf8'); eval(src); console.log(Math.max(...quests.map(q=>q.id)));"
+```
+Start new quest IDs at `maxId + 1`. Never hardcode a starting ID without verifying.
+
 **When adding a new game**, always enrich every quest beyond what the source document provides:
 - Search for a real YouTube walkthrough video (`youtube.com/watch?v=…`). If found, use `video`.
 - If no real video exists, write a step-by-step `walkthrough: [ … ]` array from game knowledge.
