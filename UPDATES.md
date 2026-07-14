@@ -1,3 +1,64 @@
+# Update — Add "Ghost of Yotei" (119 quests + real cover art)
+
+**Date:** 2026-07-14
+**Branches:** `staging` → promoted to `main`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Added **Ghost of Yotei** as the 17th game: 119 quests, sub-filters, a `gameImages`
+entry, and a real cover image. Also fixed a GitHub Pages misconfiguration that was
+breaking both staging and prod, and added new rules to `CLAUDE.md` to prevent the
+mistakes we hit along the way.
+
+## Changes shipped
+
+| Area | Change |
+|------|--------|
+| Quest data | 119 Ghost of Yotei quests added to `ps5-rpg-sidequest-summarizer/data/quests.js` — Main (10), Post-game (3), Mythic Tales (7), Sensei Tales (20), Side Tales (48), Bounties (31). IDs `1134`–`1253`. |
+| Enrichment | Every quest has `summary`, `aiTip`, `location`, `difficulty`, `length`, `reward`. 9 quests use real `youtube.com/watch?v=…` videos; the rest have step-by-step `walkthrough` arrays. Sensei/Side/Bounty details were researched (the source DOCX only covered Main/Post-game/Mythic). |
+| Filters | Added `Ghost of Yotei` to `gameImages` (gradient, `GOY` abbr, cover path) and `subFilterConfig` (category + region filters, including a "Multiple Regions" option). |
+| Cover art | Replaced the placeholder SVG with the real key art (uploaded by the owner), compressed to 1280×720 / 148 KB as `images/ghost-of-yotei-cover.jpg`. |
+| CLAUDE.md rules | Added: (1) never delegate large tasks to subagents; (2) verify the max quest ID before assigning new IDs; (3) confirm CI passed before telling the user a push is done; (4) enrich every new-game quest with research beyond the source doc. |
+
+## What went wrong (and how we fixed it)
+
+The staging/prod deploy failed **five times in a row** before going green. Each
+failure had a distinct root cause — documented here so we don't repeat them.
+
+| # | Symptom | Root cause | Fix |
+|---|---------|-----------|-----|
+| 1 | Subagent ran ~30 min then died with "response exceeded 32000 output token maximum" | Delegated the bulk quest-writing to a subagent, which has an output-token ceiling | Wrote all quests directly in chunks. Added a CLAUDE.md rule banning large subagent tasks. |
+| 2 | CI: `TypeError: Cannot read properties of undefined (reading 'id')` in `audit.js` | Chunk-appending left 8 `},  ,  {` double-comma artifacts → sparse `undefined` slots in the array | Removed all 8 artifacts; verified 0 array holes. |
+| 3 | CI: `#NNNN malformed video URL:` for ~110 quests | `audit.js` requires a `video` field on **every** quest; walkthrough-only quests had none | Added `youtube.com/results?search_query=…` fallback URLs to the 110 walkthrough-only quests. |
+| 4 | CI: `region="Multiple" is not a configured Region option` | 10 multi-region quests used a region value absent from `subFilterConfig` | Added "Multiple Regions" to the Ghost of Yotei region filter. |
+| 5 | CI: `Duplicate id 1128 …` and `1129` | GOY IDs started at 1128, colliding with Metaphor: ReFantazio (which runs up to 1133) | Renumbered all 119 GOY quests to `1134`–`1253`. Added a CLAUDE.md rule to check max ID first. |
+
+### The real culprit: GitHub Pages misconfiguration
+Even after CI was green, both `/` and `/staging/` returned **404 File not found**.
+Investigation of the Actions runs showed **two deployments racing on every push**:
+a custom `Deploy to GitHub Pages` workflow (correct, builds the React app) **and**
+a `pages build and deployment` job (GitHub's branch auto-deploy, which dumped the
+raw source with no `index.html`). On any push where our audit failed, only the raw
+auto-deploy ran → the site broke.
+
+**Fix:** changed **Settings → Pages → Source** from "Deploy from a branch" to
+**"GitHub Actions"**, so only the custom workflow deploys. The race disappeared and
+both paths served correctly.
+
+### Cover-image delivery
+Inline-pasted images never materialized as files in the sandbox, and the network
+policy blocks all image hosts except `raw.githubusercontent.com`. Resolved by the
+owner uploading the art directly to the repo, which we then pulled via the raw URL,
+compressed, renamed correctly, and wired up (removing a stray path-prefixed
+duplicate filename left by the upload).
+
+## Verification
+- `node scripts/audit.js`: **Integrity clean** — 1,236 quests across 17 games; Ghost of Yotei 119/119.
+- Staging CI: ✅ green. Prod CI (after `staging` → `main` merge): ✅ green (`f420d2b`).
+- Real cover live at `/classic/images/ghost-of-yotei-cover.jpg`.
+
+---
+
 # Update — UX Round 2 Improvements (N-01 through N-05)
 
 **Date:** 2026-07-13
