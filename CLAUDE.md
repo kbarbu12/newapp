@@ -28,6 +28,17 @@ entries for the format).
 - Add the game to `gameImages` (gradient, abbr, cover path) and `subFilterConfig` (category/region filters).
 - Source documents are a starting point only; supplement missing quests, fields, and details using research.
 
+## Pre-notification CI Check
+
+**Never tell the user a push is done until you have confirmed CI passed.**
+
+After every `git push` to any branch:
+1. Wait for the GitHub Actions run to complete — use `mcp__github__actions_list` to find the latest run for that branch, then poll until `status` is `completed`.
+2. If `conclusion` is `failure`, fetch the logs with `mcp__github__get_job_logs` (failed_only: true), diagnose the error, fix it, and push again. Repeat until the run passes.
+3. Only report success to the user once `conclusion` is `success`.
+
+Never say "pushed" or "done" while CI is still running or has failed.
+
 ## Agent Usage
 
 **Never delegate large tasks to subagents.** Subagents have output token limits and will fail silently mid-task on anything substantial (bulk data writing, large file edits, multi-file changes). Handle all major work directly. Only spawn agents for small, focused lookups or research that returns a short answer.
