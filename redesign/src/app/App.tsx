@@ -827,13 +827,15 @@ function SettingsSection({ title, children }: { title:string; children:React.Rea
 function SettingsTab({
   hideSpoilers, setHideSpoilers, autoplayVideo, setAutoplayVideo,
   defaultDifficulty, setDefaultDifficulty, onResetProgress,
-  canInstall, onInstall,
+  canInstall, onInstall, theme, setTheme, offlineState, onDownloadOffline,
 }: {
   hideSpoilers:boolean; setHideSpoilers:(v:boolean)=>void;
   autoplayVideo:boolean; setAutoplayVideo:(v:boolean)=>void;
   defaultDifficulty:DiffFilter; setDefaultDifficulty:(v:DiffFilter)=>void;
   onResetProgress:()=>void;
   canInstall:boolean; onInstall:()=>void;
+  theme:"dark"|"light"; setTheme:(v:"dark"|"light")=>void;
+  offlineState:"idle"|"saving"|"saved"; onDownloadOffline:()=>void;
 }) {
   return (
     <div className="flex flex-col gap-6 max-w-lg">
@@ -851,12 +853,29 @@ function SettingsTab({
         </SettingsRow>
       </SettingsSection>
 
+      <SettingsSection title="Appearance">
+        <SettingsRow label="Theme" hint="Switch between the dark and light palette.">
+          <div className="flex rounded-lg border border-border overflow-hidden">
+            {(["dark","light"] as const).map(t=>(
+              <button key={t} onClick={()=>setTheme(t)}
+                className={`px-3 py-1.5 text-xs font-medium capitalize transition-colors ${theme===t?"bg-primary text-primary-foreground":"bg-secondary text-muted-foreground hover:text-foreground"}`}>{t}</button>
+            ))}
+          </div>
+        </SettingsRow>
+      </SettingsSection>
+
       <SettingsSection title="Offline & data">
         {canInstall && (
           <SettingsRow label="Install app" hint="Add RPG Quest Guide to your home screen for quick, full-screen access.">
             <button onClick={onInstall} className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Install</button>
           </SettingsRow>
         )}
+        <SettingsRow label="Download for offline" hint="Save the app and all quest data on this device so it opens without a connection.">
+          <button onClick={onDownloadOffline} disabled={offlineState!=="idle"}
+            className="px-3 py-1.5 rounded-lg bg-secondary border border-border text-xs font-medium text-foreground hover:border-primary/50 transition-colors disabled:opacity-70">
+            {offlineState==="saving" ? "Saving…" : offlineState==="saved" ? "✓ Saved" : "Download"}
+          </button>
+        </SettingsRow>
         <SettingsRow label="Reset all progress" hint="Clears every completed quest and step checklist on this device. This can't be undone.">
           <button onClick={()=>{ if(confirm("Reset all quest and step progress? This can't be undone.")) onResetProgress(); }} className="px-3 py-1.5 rounded-lg border border-destructive/40 text-destructive text-xs font-medium hover:bg-destructive/10 transition-colors">Reset</button>
         </SettingsRow>
@@ -1076,6 +1095,8 @@ export default function App() {
     catch { return false; }
   });
   const [defaultDifficulty,setDefaultDifficulty]= useState<DiffFilter>(()=>(localStorage.getItem("defaultDifficulty") as DiffFilter) ?? "All");
+  // Appearance setting: dark by default; light applies the `light` palette class.
+  const [theme,setTheme]= useState<"dark"|"light">(()=>(localStorage.getItem("theme") as "dark"|"light") ?? "dark");
 
   useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
   useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
@@ -1083,6 +1104,7 @@ export default function App() {
   useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
   useEffect(()=>{ localStorage.setItem("autoplayVideo", JSON.stringify(autoplayVideo)); },[autoplayVideo]);
   useEffect(()=>{ localStorage.setItem("defaultDifficulty", defaultDifficulty); },[defaultDifficulty]);
+  useEffect(()=>{ localStorage.setItem("theme", theme); document.documentElement.classList.toggle("light", theme==="light"); },[theme]);
   useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
 
   // Keep the Library filters in the URL query string so a filtered view is
@@ -1125,6 +1147,27 @@ export default function App() {
     installPrompt.prompt();
     await installPrompt.userChoice;
     setInstallPrompt(null);
+  };
+
+  // "Download for offline": tell the service worker to precache the app shell +
+  // bundled quest data (the URLs this page has already loaded) so the app opens
+  // with no network. Quest data is compiled into the JS bundle, so caching the
+  // loaded same-origin resources + the document covers offline use.
+  const [offlineState, setOfflineState] = useState<"idle"|"saving"|"saved">("idle");
+  const downloadOffline = async () => {
+    const sw = navigator.serviceWorker;
+    if(!sw){ alert("Offline caching isn't available in this browser."); return; }
+    setOfflineState("saving");
+    const reg = await sw.ready;
+    const urls = performance.getEntriesByType("resource")
+      .map(e=>(e as PerformanceResourceTiming).name)
+      .filter(u=>u.startsWith(window.location.origin));
+    urls.push(window.location.href.split("?")[0]);
+    const onMsg = (e:MessageEvent)=>{
+      if(e.data?.type==="CACHE_URLS_DONE"){ setOfflineState("saved"); sw.removeEventListener("message", onMsg); }
+    };
+    sw.addEventListener("message", onMsg);
+    reg.active?.postMessage({ type:"CACHE_URLS", urls:[...new Set(urls)] });
   };
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
@@ -1292,9 +1335,17 @@ export default function App() {
               const done = gameQuests.filter(q=>completedIds.has(q.id)).length;
               const pct = gameQuests.length ? Math.round((done/gameQuests.length)*100) : 0;
               return (
-                <div className="ml-auto flex items-center gap-2.5">
+                <div className="ml-auto flex items-center gap-3">
                   <ProgressRing pct={pct}/>
-                  <span className="text-[10px] text-muted-foreground whitespace-nowrap">{done}/{gameQuests.length} done</span>
+                  <div className="w-32 sm:w-40">
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <span className="text-[11px] text-muted-foreground whitespace-nowrap">{done} of {gameQuests.length} complete</span>
+                      <span className="text-[11px] font-semibold text-emerald-400 shrink-0">{pct}%</span>
+                    </div>
+                    <div className="h-1.5 rounded-full bg-[var(--card-2)] overflow-hidden">
+                      <div className="h-full rounded-full bg-emerald-400" style={{width:`${pct}%`}}/>
+                    </div>
+                  </div>
                 </div>
               );
             })()}
@@ -1392,7 +1443,7 @@ export default function App() {
             {tab==="news"  && <NewsTab/>}
             {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
       )}
