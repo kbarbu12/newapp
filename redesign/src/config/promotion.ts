@@ -10,7 +10,7 @@
 // by the "Staging" badge. To ship a new tab, build it behind a flag elsewhere
 // first; flip it to `true` here only once it's ready to go live in both places.
 
-export type Tab = "home" | "browse" | "news" | "saved" | "progress";
+export type Tab = "home" | "browse" | "news" | "saved" | "progress" | "settings";
 
 export const PROMOTED_TABS: Record<Tab, boolean> = {
   home: false,     // not yet promoted
@@ -18,6 +18,7 @@ export const PROMOTED_TABS: Record<Tab, boolean> = {
   news: false,     // not yet promoted
   saved: true,     // live in prod
   progress: false, // not yet promoted
+  settings: false, // not yet promoted
 };
 
 // Build target — injected by Vite (VITE_TARGET). Defaults to staging so local
@@ -33,5 +34,5 @@ export const IS_STAGING = TARGET === "staging";
 // reviewed there matches what ships.
 export const isTabLive = (t: Tab): boolean => PROMOTED_TABS[t];
 
-const TAB_ORDER: Tab[] = ["home", "browse", "news", "saved", "progress"];
+const TAB_ORDER: Tab[] = ["home", "browse", "news", "saved", "progress", "settings"];
 export const LIVE_TABS: Tab[] = TAB_ORDER.filter(isTabLive);
