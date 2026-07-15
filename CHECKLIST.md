@@ -28,6 +28,8 @@
 - [x] Add "Shadow of the Erdtree (DLC)" option to the Elden Ring region sub-filter
 - [x] Per-game sub-filters for 13 of 15 games (District/Region/Realm/Archstone) + back-filled region tags on older entries
 - [x] Video audit: all 844 walkthrough links verified to capture their own quest (43 generic/shared videos replaced)
+- [x] Smarter Quest Assistant chatbot — replaced the random canned replies with a client-side retrieval engine (`redesign/src/app/chatEngine.ts`) that answers from the real quest dataset: specific-quest breakdowns (summary, tip, reward, walkthrough, video link), live counts, and difficulty/length/game listings
+- [x] Mobile layout: enlarged the bottom tab bar and lifted the chat widget above it so they no longer overlap
 
 ## 🚧 Quest Detail Pages (current focus)
 - [x] **Phase 1 — Core detail page**: clickable cards → `#quest-42` hash URL → detail view, back button support, shareable links
@@ -36,6 +38,12 @@
 - [ ] **Phase 4 — Static quest pages**: generate real static HTML pages per quest for full Google indexing (do once site gains traction)
 
 ## 📋 Backlog
+- [ ] **Upgrade the Quest Assistant to a real conversational LLM (e.g. Claude API)** — the
+      current assistant is client-side keyword retrieval over the quest data (grounded, no
+      cost, no key), so it can't hold open-ended conversation or reason across quests. A true
+      LLM would. Blocker: the API key can't live in a static GitHub Pages bundle (anyone could
+      read it), so this needs a small backend/serverless proxy to hold the key and relay
+      requests, plus per-message API cost. Scope this before building.
 - [ ] **Match real YouTube walkthrough videos to the remaining 14 games** — replace the
       placeholder `results?search_query=` links with direct, quest-matched `watch?v=` links,
       as already done for all 62 God of War Ragnarök quests. ~695 search links remain across

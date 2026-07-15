@@ -1,8 +1,14 @@
 name: Deploy to GitHub Pages
 
+# Two refs drive the published site independently:
+#   • main    -> the live site at "/"        (promoted prod build)
+#   • staging -> the preview at "/staging/"   (full staging build)
+# A push to either branch republishes the whole Pages artifact, but each
+# path is rebuilt from its own branch, so staging can run ahead of prod.
+# To promote reviewed work to prod, merge staging into main.
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "staging"]
   workflow_dispatch:
 
 permissions:
@@ -21,44 +27,58 @@ jobs:
       url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      # Check out both branches side by side so one run can build prod from
+      # main and staging from the staging branch, whichever push triggered it.
+      - name: Checkout main (prod source)
         uses: actions/checkout@v4
-      # Gate the live deploy on the quest-data audit — a data bug (dup IDs,
-      # missing fields, dup titles, malformed/reused videos, quests hidden from
-      # their sub-filter) fails the build before anything ships.
+        with:
+          ref: main
+          path: prod-src
+      - name: Checkout staging (staging source)
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          path: staging-src
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Audit quest data
-        working-directory: ps5-rpg-sidequest-summarizer
+      # Gate the deploy on the quest-data audit for BOTH branches — a data bug
+      # (dup IDs, missing fields, dup titles, malformed/reused videos, quests
+      # hidden from their sub-filter) fails the build before anything ships.
+      - name: Audit quest data (prod)
+        working-directory: prod-src/ps5-rpg-sidequest-summarizer
         run: node scripts/audit.js
-      # Build the redesign into two bundles from one codebase:
-      #   staging/ — every tab visible, for reviewing the whole redesign
-      #   app/     — only tabs promoted in src/config/promotion.ts
-      # Both read the same live quest data (redesign/scripts/gen-data.mjs).
-      - name: Install redesign deps
-        working-directory: redesign
-        run: npm ci
-      - name: Build redesign (staging + promoted prod)
-        working-directory: redesign
+      - name: Audit quest data (staging)
+        working-directory: staging-src/ps5-rpg-sidequest-summarizer
+        run: node scripts/audit.js
+      # Build the promoted prod bundle from main.
+      - name: Build redesign (promoted prod, from main)
+        working-directory: prod-src/redesign
         run: |
-          npm run build:staging
+          npm ci
           npm run build:prod
+      # Build the full staging bundle from the staging branch.
+      - name: Build redesign (full staging, from staging)
+        working-directory: staging-src/redesign
+        run: |
+          npm ci
+          npm run build:staging
       # Assemble the published site:
-      #   /            -> promoted redesign (only approved tabs) — the live site
-      #   /staging/    -> full redesign
-      #   /classic/    -> vanilla site, self-contained (its service worker
-      #                   scopes to /classic/ so it can't cache the redesign)
+      #   /            -> promoted redesign from main — the live site
+      #   /staging/    -> full redesign from the staging branch
+      #   /classic/    -> vanilla site from main, self-contained (its service
+      #                   worker scopes to /classic/ so it can't cache the
+      #                   redesign)
       #   /sw.js       -> kill-switch worker that clears the legacy root-scoped
       #                   registration lingering in returning visitors' browsers
       - name: Assemble site
         run: |
           rm -rf _site && mkdir _site
-          cp -r ps5-rpg-sidequest-summarizer _site/classic
-          cp -r redesign/dist/staging _site/staging
-          cp -r redesign/dist/prod/. _site/
-          cp deploy/root-sw.js _site/sw.js
+          cp -r prod-src/ps5-rpg-sidequest-summarizer _site/classic
+          cp -r staging-src/redesign/dist/staging _site/staging
+          cp -r prod-src/redesign/dist/prod/. _site/
+          cp prod-src/deploy/root-sw.js _site/sw.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

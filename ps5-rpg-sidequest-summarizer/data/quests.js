@@ -14,6 +14,11 @@ const gameImages = {
     abbr: "FF7R",
     cover: "images/ff7-rebirth-cover.jpg"
   },
+  "Final Fantasy VII Remake": {
+    gradient: "linear-gradient(135deg, #05140d 0%, #0f766e 50%, #34d399 100%)",
+    abbr: "FF7RE",
+    cover: "images/ff7-remake-cover.webp"
+  },
   "Cyberpunk 2077: Ultimate Edition": {
     gradient: "linear-gradient(135deg, #1a0a0a 0%, #dc2626 40%, #fcd34d 100%)",
     abbr: "CP77",
@@ -58,6 +63,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #c4a35a 50%, #e8d5a3 100%)",
     abbr: "GOT",
     cover: "images/ghost-of-tsushima-cover.jpg"
+  },
+  "Ghost of Yotei": {
+    gradient: "linear-gradient(135deg, #0a0a1a 0%, #7c1111 50%, #e84040 100%)",
+    abbr: "GOY",
+    cover: "images/ghost-of-yotei-cover.jpg"
   },
   "Horizon Forbidden West": {
     gradient: "linear-gradient(135deg, #2d5a27 0%, #d4763a 50%, #e8a84c 100%)",
@@ -163,6 +173,19 @@ const subFilterConfig = {
       { value: "Nibel", text: "Nibel" }
     ]
   },
+  "Final Fantasy VII Remake": {
+    field: "region",
+    label: "Area",
+    options: [
+      { value: "Sector 7 Slums", text: "Sector 7 Slums" },
+      { value: "Sector 5 Slums", text: "Sector 5 Slums" },
+      { value: "Wall Market", text: "Wall Market" },
+      { value: "Reactors & Upper Plate", text: "Reactors & Upper Plate" },
+      { value: "Sewers & Graveyard", text: "Sewers & Train Graveyard" },
+      { value: "Shinra HQ & Midgar", text: "Shinra HQ & Midgar" },
+      { value: "Intermission", text: "The Intermission (DLC)" }
+    ]
+  },
   "God of War Ragnarök": {
     field: "region",
     label: "Realm",
@@ -208,6 +231,33 @@ const subFilterConfig = {
         { value: "Toyotama", text: "Toyotama" },
         { value: "Kamiagata", text: "Kamiagata" },
         { value: "Iki Island", text: "Iki Island (DLC)" }
+      ]
+    }
+  ],
+  "Ghost of Yotei": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Atsu's Journey", text: "Atsu's Journey" },
+        { value: "Mythic Tales", text: "Mythic Tales" },
+        { value: "Sensei Tales", text: "Sensei Tales" },
+        { value: "Side Tales", text: "Side Tales" },
+        { value: "Bounties", text: "Bounties" },
+        { value: "Post-Game", text: "Post-Game" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Region",
+      options: [
+        { value: "Yotei Grasslands", text: "Yōtei Grasslands" },
+        { value: "Tokachi Range", text: "Tokachi Range" },
+        { value: "Teshio Ridge", text: "Teshio Ridge" },
+        { value: "Ishikari Plain", text: "Ishikari Plain" },
+        { value: "Nayoro Wilds", text: "Nayoro Wilds" },
+        { value: "Oshima Coast", text: "Oshima Coast" },
+        { value: "Multiple", text: "Multiple Regions" }
       ]
     }
   ],
@@ -2060,6 +2110,14 @@ const quests = [
       "Uncover the truth about Shadowheart's hidden memories and her devotion to the goddess Shar. The questline culminates in a heart-wrenching choice at the Gauntlet of Shar that defines her character for the rest of the game.",
     aiTip:
       "Build approval with Shadowheart throughout the game before reaching the Gauntlet. The final choice has no objectively correct answer — consider what kind of ending you want for her.",
+    walkthrough: [
+      "Keep Shadowheart in your party and complete the Gauntlet of Shar to reach the Nightsong.",
+      "At the Nightsong, choose whether Shadowheart obeys Shar and kills her, or spares her.",
+      "In Act 3, travel to the Shadowfold Temple / House of Grief in the Lower City.",
+      "Confront Mother Superior Viconia and the Sharran clergy.",
+      "Support Shadowheart's decision to reject or embrace Shar.",
+      "Resolve her parents' fate to complete her arc and lock in her ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
   },
   {
@@ -2128,6 +2186,14 @@ const quests = [
       "Follow Gale the wizard's questline as he struggles with a magical orb embedded in his chest that threatens to consume him. His story builds to an explosive climax with consequences for the entire city of Baldur's Gate.",
     aiTip:
       "Feed Gale magical items regularly to keep him stable. His questline has one of the most dramatic endings in the game — both the heroic and selfish paths are worth experiencing.",
+    walkthrough: [
+      "Talk to Gale early and let him feed magical items to his Netherese orb when it flares.",
+      "Progress his story to learn about Mystra, Elminster's letter, and the orb's true purpose.",
+      "In Act 3, pursue the Crown of Karsus questline beneath the city.",
+      "Decide whether Gale seeks godhood or renounces the Crown.",
+      "Guide his choice at the Elder Brain confrontation (detonate the orb or not).",
+      "His ending follows the path you steered him toward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
   },
   {
@@ -2145,6 +2211,14 @@ const quests = [
       "Help Wyll the Blade of Frontiers uncover the truth about his infernal pact with the devil Mizora. The quest spans all three acts and forces a confrontation with his father, the Grand Duke of Baldur's Gate.",
     aiTip:
       "Rescuing the Grand Duke early affects Wyll's storyline. Breaking his pact requires sacrifice — consider the cost before choosing.",
+    walkthrough: [
+      "Recruit Wyll and learn of his pact with the devil Mizora.",
+      "In Act 2, when Mizora is captured at Moonrise, decide whether to free her.",
+      "This choice affects Wyll's pact and his father Duke Ravengard.",
+      "In Act 3, rescue Duke Ravengard from the Iron Throne and Bhaal's cult.",
+      "Help Wyll confront Mizora and choose to keep, renegotiate, or break the pact.",
+      "His fate as the Blade of Avernus or a free man depends on these choices."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
   },
   {
@@ -4000,6 +4074,14 @@ const quests = [
       "Solve the stained-glass ritual puzzle in Rosymorn Monastery and disarm an ancient trap to claim one of the game's earliest legendary weapons — a mace that blinds fiends and undead.",
     aiTip:
       "Place the correct weapons on the altar (check the window mural) to open the vault. Bring Misty Step to bypass the destroying-beam trap on the way out.",
+    walkthrough: [
+      "Reach Crèche Y'llek via the Mountain Pass.",
+      "Find the Rosymorn Monastery Trail and climb to the abandoned monastery above.",
+      "Collect the three ceremonial weapons (mace, staff, greatsword) from the monastery.",
+      "Place each weapon on the correct statue to open the inner sanctum.",
+      "Solve the dawnmaster's puzzle by rotating the mirrors to bathe the altar in light.",
+      "Claim the Blood of Lathander legendary mace before the trap triggers."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
   },
   {
@@ -4051,6 +4133,14 @@ const quests = [
       "The githyanki commander Kith'rak Voss, now a traitor to Vlaakith, visits your camp seeking aid to free a prisoner held within the Astral Prism. Hear out a gith's rebellion and decide whether to help.",
     aiTip:
       "Voss appears after you confront Vlaakith during Lae'zel's questline ('The Githyanki Warrior'). Keeping him alive earlier in Act 2 is required for him to return here.",
+    walkthrough: [
+      "Encounter the githyanki knight Voss at Crèche Y'llek or later in the Shadow-Cursed Lands.",
+      "Learn he opposes Vlaakith and seeks the Orpheus prism.",
+      "In Act 3, meet Voss atop the roof near the Elfsong Tavern.",
+      "Help him recover his dragon Ghustil or aid his rebellion against the lich-queen.",
+      "Return the Astral Prism knowledge that frees Orpheus.",
+      "Voss becomes an ally for the finale if you support his cause."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
   },
   {
@@ -10760,6 +10850,38 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
   {
+    id: 1057,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Corel",
+    title: "Gold Cup or Bust",
+    location: "Corel / Gold Saucer",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chocoking's Cape (accessory), Tifa relationship boost",
+    summary:
+      "A Chapter 12 odd job posted by Billy in the Corel region. He asks you to enter and win the Gold Cup chocobo race at the Gold Saucer on his behalf, putting your racing setup and mount to the test.",
+    aiTip:
+      "Upgrade your chocobo's stats and stock stat-boosting items at the racing shop before entering — the Gold Cup field is fast, so prioritize acceleration and top speed and grab every boost gate.",
+    video: "https://www.youtube.com/watch?v=B8oUhHkOKak"
+  },
+  {
+    id: 1058,
+    type: "side",
+    game: "Final Fantasy VII Rebirth",
+    region: "Gongaga",
+    title: "Escape from Endless Writer's Block",
+    location: "Gongaga Region",
+    length: "short",
+    difficulty: "Low",
+    reward: "Party EXP, relationship points (affects Gold Saucer date)",
+    summary:
+      "A Chapter 12 odd job for the author Maeve in the Gongaga region. She has run dry on ideas for her children's book, so she asks you to photograph Red XIII in specific poses and locations to spark her inspiration.",
+    aiTip:
+      "Line up each photo spot and wait for the prompted pose before snapping — the game only accepts the shot when Red XIII strikes the exact expression the objective describes.",
+    video: "https://www.youtube.com/watch?v=pIsaVCnmNNo"
+  },
+  {
     id: 651,
     type: "main",
     game: "God of War Ragnarök",
@@ -13139,6 +13261,14 @@ const quests = [
       "Broker peace between the druids' ritual and the tiefling refugees before Kagha seals the grove.",
     aiTip:
       "Your choices here ripple through both later acts — the tieflings remember how you treat them.",
+    walkthrough: [
+      "Speak with the tieflings and druids inside the Emerald Grove.",
+      "Learn that Kagha's druids want to seal the grove and evict the refugees.",
+      "Defuse tensions by resolving Arabella's fate and exposing Kagha's Shadow Druid ties.",
+      "Deal with the goblin threat that endangers everyone (see Raid the Goblin Camp).",
+      "Prevent the ritual sealing the grove.",
+      "Keep the refugees safe so they can flee toward the mountain pass."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
   },
   {
@@ -13156,6 +13286,14 @@ const quests = [
       "Take down the three goblin leaders — Minthara, Dror Ragzlin, and Priestess Gut — to break the cult of the Absolute.",
     aiTip:
       "You can fight your way in or talk/sneak — sparing Minthara opens a very different path.",
+    walkthrough: [
+      "Travel west from the Blighted Village to the goblin camp at the ruined temple.",
+      "Enter openly, in disguise, or by force; the Shattered Sanctum lies below.",
+      "Track down the three goblin leaders: Priestess Gut, Dror Ragzlin, and Minthara.",
+      "Kill each leader — pick them off separately to avoid being swarmed.",
+      "Optionally drop the chandelier or use the war drums against the horde.",
+      "With all three dead, the Absolute's grip on the region breaks and Halsin is freed."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
   },
   {
@@ -13173,6 +13311,14 @@ const quests = [
       "Clear the gnoll- and goblin-infested Blighted Village and the spider-filled Whispering Depths below.",
     aiTip:
       "The Phase Spider Matriarch is a nasty early fight — use the chasms and fire to your advantage.",
+    walkthrough: [
+      "Explore the Blighted Village and clear its goblin and ogre occupants.",
+      "Search the buildings for loot, the Whispering Depths well, and hidden cellars.",
+      "Descend the well into the Whispering Depths.",
+      "Fight through the phase spiders in the cavern.",
+      "Defeat the Phase Spider Matriarch, using the egg sacs and chasm to your advantage.",
+      "Collect the loot and find the passage onward to the Underdark."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
   },
   {
@@ -13190,6 +13336,14 @@ const quests = [
       "Decide the fate of the trapped deep gnomes and the duergar under the True Soul Nere.",
     aiTip:
       "Siding with the gnomes vs. the duergar changes who helps you at the Adamantine Forge.",
+    walkthrough: [
+      "Reach Grymforge via the Underdark boat.",
+      "Learn that the true soul Nere is trapped behind a collapsed tunnel by poison gas.",
+      "Find explosives (Smokepowder barrels or a runepowder bomb) to clear the rubble.",
+      "Detonate the charge to free Nere and the choking deep gnomes.",
+      "Decide whether to side with Nere or turn on him with the gnomes.",
+      "Kill Nere for his head-bounty, or let him live and continue."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
   },
   {
@@ -13207,6 +13361,14 @@ const quests = [
       "Escort Lae'zel to the githyanki Creche Y'llek to seek a cure — and confront her people's lies.",
     aiTip:
       "A pivotal companion arc; the Creche also holds powerful gear and the Blood of Lathander.",
+    walkthrough: [
+      "Keep Lae'zel in your party and travel to Crèche Y'llek.",
+      "Test the zaith'isk and uncover Vlaakith's lies about the tadpole cure.",
+      "Learn the truth about Orpheus from the Astral Prism.",
+      "Guide Lae'zel to question her devotion to the lich-queen.",
+      "In Act 3, help her confront Vlaakith's agents and choose Orpheus over the queen.",
+      "Her ending as a rebel leader depends on breaking her faith in Vlaakith."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
   },
   {
@@ -13224,6 +13386,14 @@ const quests = [
       "Help the fugitive tiefling Karlach cool her failing infernal engine and hunt the paladins of Tyr.",
     aiTip:
       "Bring her infernal iron to Dammon across the acts to keep her heart from burning out.",
+    walkthrough: [
+      "Recruit Karlach after resolving the Hunt the Devil encounter on the Risen Road.",
+      "Learn her infernal engine is failing and needs Infernal Iron to patch.",
+      "Bring Infernal Iron to Dammon the tiefling smith in each act to upgrade her engine.",
+      "In Act 3, confront Gortash, who once sold her to Zariel.",
+      "Explore options to save her: return to Avernus, become a mind flayer, or others.",
+      "Choose her ending — most paths require leaving for Avernus with a companion."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
   },
   {
@@ -13241,6 +13411,14 @@ const quests = [
       "Cross the deadly Shadow-Cursed Lands to the Harper stronghold sheltered by the cleric Isobel.",
     aiTip:
       "Keep a light source at all times — the shadow curse kills the unprotected quickly.",
+    walkthrough: [
+      "Enter the Shadow-Cursed Lands from the Underdark or Mountain Pass.",
+      "Acquire protection from the curse: a Moonlantern or Isobel's blessing.",
+      "Stay within light sources to avoid the deadly shadows.",
+      "Follow the road, freeing the pixie Dolly Dolly Dolly from a Moonlantern if you wish.",
+      "Cross the bridge to the Last Light Inn, a Harper safe haven.",
+      "Meet Jaheira and Isobel to establish your base for Act 2."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
   },
   {
@@ -13258,6 +13436,14 @@ const quests = [
       "Arabella, sheltering at Last Light Inn, begs you to find her parents Locke and Komira, lost in the Shadow-Cursed Lands. Track them through Reithwin before the curse claims them.",
     aiTip:
       "Search Reithwin Town near the toll house; carry Moonlanterns and light sources to survive the shadows on the way.",
+    walkthrough: [
+      "At the Last Light Inn, meet the grieving tiefling child Arabella.",
+      "Agree to search the Shadow-Cursed Lands for her missing parents.",
+      "Travel toward the Ruined Battlefield and the Thorm mausoleum area.",
+      "Find her parents' fate among the shadow-cursed victims.",
+      "Return to Arabella with the news.",
+      "Comfort her and complete the quest at the inn."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
   },
   {
@@ -13275,6 +13461,14 @@ const quests = [
       "Survive Shar's trials in the Gauntlet and decide the fate of the imprisoned Nightsong.",
     aiTip:
       "This is Shadowheart's defining choice — spare or slay the Nightsong shapes her whole arc.",
+    walkthrough: [
+      "Complete the Gauntlet of Shar's Soft-Step trials to earn the Spear of Night.",
+      "Enter the inner sanctum and meet Balthazar and the imprisoned Nightsong (Dame Aylin).",
+      "Choose to free Aylin rather than kill her for Shar.",
+      "Use the Spear of Night to shatter her prison.",
+      "Defeat Balthazar if he turns hostile.",
+      "Free Aylin, weakening Ketheric Thorm's immortality."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
   },
   {
@@ -13292,6 +13486,14 @@ const quests = [
       "Descend beneath Moonrise into the mind flayer colony to confront the truth of your tadpole.",
     aiTip:
       "A major story reveal — how you handle the Emperor here echoes into the finale.",
+    walkthrough: [
+      "Descend beneath Moonrise Towers into the ancient Thorm temple.",
+      "Work through the Mind Flayer Colony's illithid horrors and thralls.",
+      "Confront Balthazar and secure Ketheric's relic / the Nightsong.",
+      "Find the Astral-Touched tadpole and decide whether to use it.",
+      "Fight through to the colony's heart.",
+      "Emerge to face Ketheric now that his immortality is broken."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
   },
   {
@@ -13309,6 +13511,14 @@ const quests = [
       "Help Astarion confront his vampire master Cazador — and decide whether he claims dark power or freedom.",
     aiTip:
       "Ascending Astarion vs. keeping him free is one of the game's most impactful companion choices.",
+    walkthrough: [
+      "Progress Astarion's story to reveal his master, the vampire lord Cazador.",
+      "In Act 3, investigate Cazador's Palace and read the Rite of Profane Ascension.",
+      "Rescue Astarion's fellow spawn siblings held in the kennels.",
+      "Confront Cazador during the ritual in the ceremony chamber.",
+      "Decide: let Astarion complete the ascension ritual, or stop him and kill Cazador.",
+      "His ending — ascended vampire or free spawn — follows that choice."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
   },
   {
@@ -13326,6 +13536,14 @@ const quests = [
       "Investigate the ritual murders across Baldur's Gate and track the killer to Cazador's orbit.",
     aiTip:
       "Collect Dribbles the Clown's scattered body parts for a key clue in the Murder Tribunal.",
+    walkthrough: [
+      "Investigate the serial murders tied to the Bhaal cult in the Lower City.",
+      "Follow the 'Murder Tribunal' clues and the Dribbles the Clown circus lead.",
+      "Collect Dribbles' scattered body parts across the city for the gruesome side task.",
+      "Trace the killings to the Temple of Bhaal beneath the Undercity.",
+      "Confront Orin and the Bhaalist cult.",
+      "End the murder spree by clearing the temple."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
   },
   {
@@ -13343,6 +13561,14 @@ const quests = [
       "Mount an underwater prison break at the Iron Throne before Gortash floods it.",
     aiTip:
       "A brutal timer — prioritize who you save; you can't get everyone without preparation.",
+    walkthrough: [
+      "Learn that hostages (including Duke Ravengard) are held in the underwater Iron Throne.",
+      "Take the submersible from the Flymm Cargo warehouse down to the prison.",
+      "Race the flooding timer once inside.",
+      "Free as many prisoners as you can, prioritizing key NPCs.",
+      "Fight the guards and Gortash's assassin.",
+      "Escape via the submersible before the prison fully floods."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
   },
   {
@@ -13360,6 +13586,14 @@ const quests = [
       "Sabotage Gortash's Steel Watch army at its foundry to cripple his hold on the city.",
     aiTip:
       "Freeing the Gondians at the Iron Throne first makes disabling the Watch far easier.",
+    walkthrough: [
+      "Ally with the Ironhand gnomes and Wulbren to plan the sabotage.",
+      "Retrieve the runepowder bomb from the gnomes.",
+      "Infiltrate the Steel Watch Foundry in Rivington.",
+      "Free the enslaved Gondian workers before the blast.",
+      "Plant the runepowder at the foundry's core.",
+      "Detonate it to destroy the Steel Watch production and cripple Gortash's army."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
   },
   {
@@ -13377,6 +13611,14 @@ const quests = [
       "Hunt down the Chosen of Bhaal (Orin) and Bane (Gortash) to seize their Netherstones.",
     aiTip:
       "Gather allies and the other Netherstones before the finale — the Elder Brain awaits.",
+    walkthrough: [
+      "Gather the three Netherstones to control the Elder Brain.",
+      "Confront Enver Gortash at his coronation in Wyrm's Rock and take his stone.",
+      "Disable the Steel Watch first to weaken his defenses.",
+      "Track Orin the Red, who hides among your allies in disguise.",
+      "Answer her challenge at the Temple of Bhaal and defeat her in single combat.",
+      "Claim both Netherstones to prepare for the Netherbrain."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Chosen%3A%20Orin%20%26%20Gortash%20walkthrough"
   },
   {
@@ -13394,6 +13636,14 @@ const quests = [
       "Stand with the veteran Harper Jaheira as she rallies her old network and settles a decades-old score against the Absolute's chosen.",
     aiTip:
       "Her arc pays off in Act 3 — keep her in the party for the Harper reinforcements at the finale.",
+    walkthrough: [
+      "Meet Jaheira at the Last Light Inn and earn her trust through Act 2.",
+      "Recruit her after the assault on Moonrise Towers.",
+      "In Act 3, visit her home and family in the Lower City.",
+      "Help defend the Harpers and her loved ones from the cults.",
+      "Reunite her with Minsc after clearing his mind control in the Counting House.",
+      "Complete her arc alongside Minsc for the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
   },
   {
@@ -13411,6 +13661,14 @@ const quests = [
       "Heist the devil Raphael's own domain to steal the Orphic Hammer and free the archdevil's prisoners.",
     aiTip:
       "One of the toughest optional fights — free Hope and grab the Infernal loot before facing Raphael.",
+    walkthrough: [
+      "Obtain the ritual components from Helsik at the Devil's Fee.",
+      "Perform the ritual to teleport into the House of Hope.",
+      "Meet Hope, the imprisoned archivist, and free her to gain an ally.",
+      "Loot the Boudoir and vault for the Orphic Hammer and legendary gear.",
+      "Trigger and win the fight against Raphael and his cambions.",
+      "Escape with the Orphic Hammer needed to free Orpheus."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
   },
   {
@@ -13427,6 +13685,14 @@ const quests = [
       "Infiltrate Godrick the Grafted's fortress, Stormveil Castle, choosing the main gate or the sewer path.",
     aiTip:
       "Recruit Nepheli Loux and use the Rusty Key's side route to skip the deadly courtyard.",
+    walkthrough: [
+      "Defeat Margit the Fell Omen at the bridge to open the main gate.",
+      "Choose your entry: the front gate gauntlet or the sewer path on the cliffside to the right.",
+      "Rest at the Stormveil Cliffside grace and grab the Rusty Key to unlock the side courtyard route.",
+      "Work up through the ramparts, clearing the giant and archers rather than rushing the trapped courtyard.",
+      "Find and summon Nepheli Loux near the throne room before the boss fog gate.",
+      "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the dungeon."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
   },
   {
@@ -13443,6 +13709,13 @@ const quests = [
       "Breach the sorcerers' Academy of Raya Lucaria to reach Rennala, Queen of the Full Moon.",
     aiTip:
       "Grab the Glintstone Key to open the gate — the rooftop route hides valuable loot.",
+    walkthrough: [
+      "Cross into Liurnia and approach the Academy of Raya Lucaria gate.",
+      "Retrieve the Academy Glintstone Key (from the dragon-topped turtle at Church of Vows) and use the sealing to enter.",
+      "Rest at the first grace, then take the rooftop route right to loot the hidden gear and shortcuts.",
+      "Fight down through the debate parlor and library to the Rennala fog gate.",
+      "Defeat Rennala, Queen of the Full Moon, to claim her Great Rune and unlock respeccing."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
   },
   {
@@ -13459,6 +13732,13 @@ const quests = [
       "Complete the Volcano Manor and slay the serpent-god Rykard with the Serpent-Hunter greatspear.",
     aiTip:
       "The Serpent-Hunter weapon by the arena trivializes the fight — use it and stagger him.",
+    walkthrough: [
+      "Reach Volcano Manor in the Altus region and accept Lady Tanith's invitation.",
+      "Work through the manor's contract questline and lava-tunnel gauntlet to reach Rykard's arena.",
+      "Pick up the Serpent-Hunter greatspear lying just before the fog gate.",
+      "Enter the fight and rely on the Serpent-Hunter's ranged sweeps to build stagger.",
+      "Stagger Rykard, Lord of Blasphemy, and finish him for his Great Rune and the Blasphemous Blade."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
   },
   {
@@ -13475,6 +13755,13 @@ const quests = [
       "Best the bloated Godskin Noble in the Temple of Eiglay and other haunts of the Godskin Apostles.",
     aiTip:
       "Its rolling attack is punishing — stay close and punish the recovery.",
+    walkthrough: [
+      "Travel to the Temple of Eiglay within Volcano Manor.",
+      "Clear the path to the Godskin Noble's chamber and rest at the nearby grace.",
+      "Stay close during his rolling body-slam and dodge into it rather than away.",
+      "Punish the recovery after each roll and belly-flop to whittle his health.",
+      "Defeat the Godskin Noble to claim the Godskin gear and continue the region."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
   },
   {
@@ -13491,6 +13778,13 @@ const quests = [
       "Defeat the hidden echo of Godrick, Godefroy the Grafted, in the Golden Lineage evergaol.",
     aiTip:
       "A tougher reprise of Godrick — bleed and stance-breaks work well.",
+    walkthrough: [
+      "Head to the Golden Lineage Evergaol on the Altus Plateau.",
+      "Activate the evergaol to be pulled into Godefroy's arena.",
+      "Treat him as a tougher Godrick reprise — bait the wind and axe combos.",
+      "Apply bleed or repeated stance-breaks to open big punish windows.",
+      "Defeat Godefroy the Grafted for his runes and lineage lore."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
   },
   {
@@ -13507,6 +13801,13 @@ const quests = [
       "Overcome Commander Niall and his spectral knights atop Castle Sol to claim the Haligtree medallion half.",
     aiTip:
       "Kill the two summoned knights first, then focus Niall — a very tough optional fight.",
+    walkthrough: [
+      "Reach Castle Sol in the Mountaintops of the Giants and fight to the summit.",
+      "Rest at the grace before the boss and top up your flasks.",
+      "At the start of the fight, focus down the two summoned spectral knights first.",
+      "With the adds cleared, bait Niall's cannon-arm and greatshield combos and punish gaps.",
+      "Defeat Commander Niall to claim the Haligtree Secret Medallion (Left)."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
   },
   {
@@ -13523,6 +13824,13 @@ const quests = [
       "Enter Fia's dream to battle the Lichdragon Fortissax and complete the Deathbed Companion's arc.",
     aiTip:
       "Lightning resistance helps enormously; finish Fia's quest to earn a unique ending item.",
+    walkthrough: [
+      "Progress Fia's questline at the Roundtable Hold until she offers her embrace request.",
+      "Complete the Deathbed Companion steps to reach Deeproot Depths.",
+      "Rest at Fia's side and enter her dream to start the Fortissax fight.",
+      "Equip lightning-resistant gear and stay under the dragon to avoid its beams.",
+      "Defeat Lichdragon Fortissax to finish Fia's arc and earn the Cursemark of Death."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
   },
   {
@@ -13539,6 +13847,13 @@ const quests = [
       "Track the glowing trail through the Nokron/Siofra depths to the majestic Regal Ancestor Spirit.",
     aiTip:
       "Light the braziers around the arena to reveal the boss and land hits.",
+    walkthrough: [
+      "Descend into the Siofra/Nokron Eternal City depths.",
+      "Follow the glowing ancestral trail of spectral deer to the boss arena.",
+      "Light the braziers ringing the arena to make the Regal Ancestor Spirit visible.",
+      "With the boss lit, focus its head and legs while dodging the antler charges.",
+      "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
   },
   {
@@ -13555,6 +13870,13 @@ const quests = [
       "Aid the bloody-finger hunter Yura against invaders and the maiden Eleonora across the Lands Between.",
     aiTip:
       "Answer his summons at Murkwater Cave and the Second Church of Marika to see his tale through.",
+    walkthrough: [
+      "Answer Yura's first summon sign outside Murkwater Cave in Limgrave.",
+      "Aid him against the invader, then meet him again near the Second Church of Marika.",
+      "Continue answering his summons as his hunt for Eleonora unfolds.",
+      "Support Yura through his final confrontation to see his tale through.",
+      "Complete the arc to inherit the Nagakiba and his anti-invader legacy."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
   },
   {
@@ -13571,6 +13893,13 @@ const quests = [
       "Help the archer Latenna reach the Lands of the Albinaurics and honor her wolf-bound pact.",
     aiTip:
       "Her questline yields a Haligtree medallion half and a strong summon.",
+    walkthrough: [
+      "Find Latenna in the Slumbering Wolf's Shack in western Liurnia.",
+      "Agree to carry her to the Lands of the Albinaurics.",
+      "Travel to the Consecrated Snowfield's Apostate Derelict and interact with her spirit there.",
+      "Complete her pact to honor her wolf-bound vow.",
+      "Receive the Haligtree Secret Medallion (Right) and the Latenna Spirit Ash."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
   },
   {
@@ -13587,6 +13916,13 @@ const quests = [
       "Follow the hapless noble Diallos through grief and the assassin's contracts of Volcano Manor.",
     aiTip:
       "His arc intersects Jarburg and the manor — check in across your playthrough.",
+    walkthrough: [
+      "Meet Diallos at the Roundtable Hold and again at Volcano Manor.",
+      "Follow his assassination-contract steps alongside the manor questline.",
+      "Check in on him at Jarburg as he grieves and searches for purpose.",
+      "See his story through its bittersweet confrontation.",
+      "Complete Diallos's arc for his fate and Hoslow's gear connections."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
   },
   {
@@ -13603,6 +13939,13 @@ const quests = [
       "Aid the sorcerer Gowry and the rot-stricken Millicent, choosing whether to help or hinder her sisters.",
     aiTip:
       "One of the most involved quests — the Haligtree finale rewards a unique talisman.",
+    walkthrough: [
+      "Speak with Gowry in his shack near Sellia, Caelid, and deliver the Unalloyed Gold Needle to be repaired.",
+      "Give the repaired needle to Millicent to halt her scarlet rot.",
+      "Follow Millicent's journey from Caelid to the Erdtree-adjacent regions.",
+      "At the Haligtree, choose whether to aid Millicent against her sisters or hinder her.",
+      "Complete the arc for the unique talisman reward and rot questline conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
   },
   {
@@ -13619,6 +13962,13 @@ const quests = [
       "Return the noblewoman Rya's necklace and follow her into the intrigues of Volcano Manor.",
     aiTip:
       "Her arc opens the Volcano Manor questline and its assassination contracts.",
+    walkthrough: [
+      "Meet Rya at the Scenic Isle in Liurnia and recover her stolen necklace.",
+      "Return the necklace to learn her true nature and role at Volcano Manor.",
+      "Follow her to Volcano Manor and accept Lady Tanith's invitation.",
+      "Take on the manor's assassination contracts she helps arrange.",
+      "Advance her arc into the deeper Volcano Manor intrigues and Zorayas's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
   },
   {
@@ -13635,6 +13985,13 @@ const quests = [
       "Help the exiled lord Kenneth Haight reclaim Fort Haight and restore a fragment of order.",
     aiTip:
       "A short early questline that connects to Nepheli Loux's story.",
+    walkthrough: [
+      "Find Kenneth Haight on the ruins overlooking eastern Limgrave.",
+      "Agree to help him retake Fort Haight to the south.",
+      "Clear the enemies occupying Fort Haight.",
+      "Report back to Kenneth so he can reclaim the fort.",
+      "Complete the short arc to gain an ally and its link to Nepheli Loux's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
   },
   {
@@ -13651,6 +14008,13 @@ const quests = [
       "Answer Miquella's call through Mohg's arena into the Land of Shadow and begin gathering Scadutree Fragments.",
     aiTip:
       "Scadutree Fragments are the DLC's key power scaling — collect them before every major boss.",
+    walkthrough: [
+      "Defeat Mohg, Lord of Blood at Mohgwyn Palace to access his arena.",
+      "Interact with the withered arm in Mohg's arena to be drawn into the Land of Shadow.",
+      "Rest at the first Gravesite Plain grace and get your bearings.",
+      "Begin collecting Scadutree Fragments scattered across the map.",
+      "Spend fragments at any grace to raise your Scadutree Blessing before major bosses."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
   },
   {
@@ -13667,6 +14031,13 @@ const quests = [
       "Face the Divine Beast Dancing Lion atop Belurat, Tower Settlement — the DLC's first great hurdle.",
     aiTip:
       "Its element shifts (wind, frost, lightning) mid-fight; watch the mask to read the next phase.",
+    walkthrough: [
+      "Enter Belurat, Tower Settlement from the Gravesite Plain.",
+      "Fight up through the settlement to the rooftop arena and rest at the grace.",
+      "Watch the Dancing Lion's mask to read its wind, frost, and lightning phases.",
+      "Dodge through the spinning attacks and punish after each elemental burst.",
+      "Defeat the Divine Beast Dancing Lion for its Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
   },
   {
@@ -13683,6 +14054,13 @@ const quests = [
       "Duel Rellana, Twin Moon Knight, guarding the pass beyond Castle Ensis.",
     aiTip:
       "A fast, aggressive duelist — learn her dual-moon combo and punish the recovery.",
+    walkthrough: [
+      "Make your way through Castle Ensis to the pass beyond it.",
+      "Rest at the grace before Rellana's fog gate.",
+      "Learn her dual-moon combo — bait the twin-blade flurry and the moon projectiles.",
+      "Dodge late into her combos and punish the long recovery.",
+      "Defeat Rellana, Twin Moon Knight, to clear the pass and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
   },
   {
@@ -13699,6 +14077,13 @@ const quests = [
       "Storm the Shadow Keep and defeat Messmer the Impaler, the fire-and-serpent scion.",
     aiTip:
       "His second phase adds serpents and impaling spears — fire resistance and patience are key.",
+    walkthrough: [
+      "Reach the Shadow Keep and fight through to Messmer's tower.",
+      "Rest at the grace and equip fire-resistant gear.",
+      "In phase one, punish the gaps in his flame and spear combos.",
+      "In phase two, watch for the serpents and impaling spears and keep your distance when they rise.",
+      "Defeat Messmer the Impaler to open the Shadow Keep and earn his Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
   },
   {
@@ -13715,6 +14100,13 @@ const quests = [
       "Descend the Jagged Peak with Igon to slay the ancient dragon Bayle the Dread.",
     aiTip:
       "Igon's summon and spear buff help enormously — do his questline first.",
+    walkthrough: [
+      "Complete Igon's questline so he will aid you against Bayle.",
+      "Descend the Jagged Peak to Bayle's lair and rest at the grace.",
+      "Summon Igon and apply his dragon-spear buff at the start of the fight.",
+      "Stay under Bayle's body to avoid the fire breath and lightning slams.",
+      "Slay Bayle the Dread for his Remembrance and dragon communion reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
   },
   {
@@ -13731,6 +14123,13 @@ const quests = [
       "Delve into Midra's Manse to confront the tragic Lord of Frenzied Flame.",
     aiTip:
       "Madness resistance and a steady approach keep the Frenzied Flame from overwhelming you.",
+    walkthrough: [
+      "Find the entrance to Midra's Manse in the Abyssal Woods.",
+      "Move quietly through the Manse to avoid drawing the frenzied enemies.",
+      "Rest at the grace and equip madness-resistant gear before the fight.",
+      "Keep pressure on Midra while dodging the Frenzied Flame beams that build madness.",
+      "Defeat Midra, Lord of Frenzied Flame, for his Remembrance and lore."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
   },
   {
@@ -13747,6 +14146,13 @@ const quests = [
       "Follow Count Ymir's questline to the Finger Ruins and the cosmic horror Metyr, Mother of Fingers.",
     aiTip:
       "A ranged-heavy boss — close distance during her beam attacks and punish between casts.",
+    walkthrough: [
+      "Complete Count Ymir's questline at the Church of the Bud/Cathedral of Manus Metyr.",
+      "Follow the trail to the Finger Ruins and the path to Metyr.",
+      "Rest at the grace before her arena.",
+      "Close the distance during her beam and finger-rain casts and punish between them.",
+      "Defeat Metyr, Mother of Fingers, to finish Ymir's arc and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
   },
   {
@@ -13763,6 +14169,13 @@ const quests = [
       "Best Romina, Saint of the Bud, guarding the Church of the Bud on the way to Enir-Ilim.",
     aiTip:
       "Scarlet rot buildup is deadly here — bring cleansing items and rot resistance.",
+    walkthrough: [
+      "Travel toward Enir-Ilim and reach the Church of the Bud.",
+      "Rest at the grace and bring rot-cleansing items and rot-resistant gear.",
+      "Dodge Romina's spear thrusts and butterfly swarms to limit scarlet rot buildup.",
+      "Cure rot immediately if the meter fills, then resume pressure.",
+      "Defeat Romina, Saint of the Bud, to open the path to Enir-Ilim and claim her Remembrance."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
   },
   {
@@ -13779,6 +14192,13 @@ const quests = [
       "At Enir-Ilim, confront Radahn, Consort of Miquella — the climax of Shadow of the Erdtree.",
     aiTip:
       "The hardest fight in the game; max your Scadutree Blessing and bring a strong summon.",
+    walkthrough: [
+      "Reach the summit of Enir-Ilim and rest at the final grace.",
+      "Max out your Scadutree Blessing and bring a strong Spirit Ash summon.",
+      "In phase one, hug Radahn and dodge into his gravity slams and cross-slashes.",
+      "In phase two, weather Miquella's light storm and punish the brief openings after his combos.",
+      "Defeat Promised Consort Radahn to complete Shadow of the Erdtree."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
   },
   {
@@ -13795,6 +14215,13 @@ const quests = [
       "Navigate the shifting loyalties of Leda's band — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
     aiTip:
       "Their allegiances split near the end; your choices decide who invades and who aids you.",
+    walkthrough: [
+      "Meet Leda and her companions across the Land of Shadow's graces.",
+      "Advance each companion's dialogue — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
+      "Make your choices as their loyalties begin to split near Enir-Ilim.",
+      "Survive the invasions triggered by the fractured band.",
+      "Resolve Leda's questline to determine who aids you and who turns hostile."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
   },
   {
@@ -13811,7 +14238,385 @@ const quests = [
       "Follow the melancholic Thiollier to the slumbering St. Trina hidden in the Land of Shadow.",
     aiTip:
       "A quiet, lore-rich side arc that rewards patience and exploration.",
+    walkthrough: [
+      "Find Thiollier among Leda's companions and progress his dialogue.",
+      "Follow his search for St. Trina across the Land of Shadow.",
+      "Explore to the hidden location where St. Trina slumbers.",
+      "Complete Thiollier's steps at St. Trina's resting place.",
+      "Finish the arc for its sleep-themed conclusion and unique reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
+  },
+  {
+    id: 1011,
+    type: "main",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Become Elden Lord (Main Story)",
+    location: "The Lands Between (Limgrave to Farum Azula)",
+    length: "long",
+    difficulty: "High",
+    reward: "Elden Lord ending, Rune of the chosen ending",
+    summary:
+      "The central journey of Elden Ring: rise from a graveyard-bound Tarnished, defeat the demigod Shardbearers, and claim the Elden Throne.",
+    aiTip:
+      "Explore widely and level up before major bosses. The main path is gated by Great Runes, so tackle Godrick and Rennala early to open the route north.",
+    walkthrough: [
+      "Start at the Stranded Graveyard and reach the open world of Limgrave.",
+      "Unlock the Roundtable Hold hub after your first grace-guided steps.",
+      "Defeat the Shardbearers: Godrick, Rennala, Radahn, and Morgott.",
+      "Reach the Mountaintops of the Giants and defeat the Fire Giant.",
+      "Burn the Erdtree, then clear Crumbling Farum Azula and defeat Maliketh.",
+      "Return to the Ashen Capital and beat Godfrey and Morgott's echoes.",
+      "Face the final bosses, Radagon and the Elden Beast.",
+      "Choose your ending at the Elden Throne to become Elden Lord."
+    ],
+    video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
+  },
+  {
+    id: 1012,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Roderika's Questline",
+    location: "Stormhill Shack, Roundtable Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Spirit Ash tuning at Roundtable Hold",
+    summary:
+      "Guide the timid Roderika from Stormhill Shack to Roundtable Hold, where she overcomes her grief and becomes the Spirit Tuner.",
+    aiTip:
+      "Deliver her chrysalids' memento to Blacksmith Hewg, then speak to both repeatedly across visits to unlock Spirit Ash upgrades.",
+    walkthrough: [
+      "Find Roderika at the Stormhill Shack near the start of Limgrave.",
+      "Exhaust her dialogue and encourage her to travel to the Roundtable Hold.",
+      "Deliver her chrysalids' memento to Blacksmith Hewg at the Roundtable.",
+      "Speak with both Roderika and Hewg again to nudge her past her grief.",
+      "Return across later visits until she becomes the Spirit Tuner and unlocks Spirit Ash upgrades."
+    ],
+    video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
+  },
+  {
+    id: 1013,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Thops' Questline",
+    location: "Church of Irith, Raya Lucaria Academy",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thops's Barrier sorcery, Thops's Bell Bearing",
+    summary:
+      "A sorcerer locked out of the Academy asks you to find him a Glintstone Key so he can return to his studies.",
+    aiTip:
+      "Grab a Glintstone Key from the dragon-guarded rise near the Academy, give it to Thops, then return later to find his fate and claim his gear.",
+    walkthrough: [
+      "Meet Thops at the Church of Irith in eastern Liurnia and hear his request for a Glintstone Key.",
+      "Collect a Glintstone Key from the dragon-guarded Gate Town Bridge rise near Raya Lucaria.",
+      "Return and hand the Glintstone Key to Thops so he can enter the Academy.",
+      "Progress the game, then travel to the Raya Lucaria Academy classroom.",
+      "Find Thops's remains there to claim Thops's Barrier sorcery and his Bell Bearing."
+    ],
+    video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
+  },
+  {
+    id: 1014,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Seluvis' Questline",
+    location: "Seluvis's Rise, Liurnia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Seluvis's Potion, Magic Scorpion Charm, puppet Spirit Ashes",
+    summary:
+      "The scheming sorcerer Seluvis entangles you in his puppet plots, tied closely to Ranni's and Nepheli's questlines.",
+    aiTip:
+      "His quest branches sharply — the potion he gives you can be used on Nepheli or given to Gideon. Decide carefully, as choices lock out rewards.",
+    walkthrough: [
+      "Reach Seluvis's Rise in Liurnia (accessible via Ranni's questline through Renna's Rise).",
+      "Accept his task to deliver Seluvis's Potion to Nepheli Loux.",
+      "Choose whether to puppet Nepheli, warn her, or hand the potion to Gideon instead.",
+      "Return to buy puppet Spirit Ashes from his stock at Seluvis's Rise.",
+      "Progress Ranni's questline; siding with Ranni ultimately ends Seluvis's scheme."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+  },
+  {
+    id: 1015,
+    type: "side",
+    game: "Elden Ring",
+    region: "Limgrave",
+    title: "Blaidd's Questline",
+    location: "Mistwood, Siofra River, Forlorn Hound Evergaol",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Royal Greatsword (after his fate), story progression",
+    summary:
+      "Ranni's loyal half-wolf shadow Blaidd aids you across the map, from Mistwood howls to the Radahn Festival, before a tragic end.",
+    aiTip:
+      "Free him from the Forlorn Hound Evergaol early and follow Ranni's quest — Blaidd's arc is bound to hers and can be missed if you rush.",
+    walkthrough: [
+      "Howl at the Mistwood ruins after speaking to Kalé, or free Blaidd from the Forlorn Hound Evergaol.",
+      "Meet him again in the Siofra River and receive his help hints for Ranni's quest.",
+      "Fight alongside him at the Radahn Festival in Redmane Castle.",
+      "Continue Ranni's questline through Nokron and beyond.",
+      "Return to Ranni's Rise near the end to confront the maddened Blaidd and claim his gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+  },
+  {
+    id: 1016,
+    type: "side",
+    game: "Elden Ring",
+    region: "Leyndell & Altus",
+    title: "Bernahl's Questline",
+    location: "Warmaster's Shack, Volcano Manor, Farum Azula",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Devourer's Scepter, Beast Champion armor set",
+    summary:
+      "The Recusant Bernahl teaches Ashes of War before recruiting you into Volcano Manor's assassination schemes and a final duel in Farum Azula.",
+    aiTip:
+      "Buy his Ashes of War at Warmaster's Shack early. His arc concludes as an endgame invasion — don't skip past Farum Azula without triggering it.",
+    walkthrough: [
+      "Meet Bernahl at the Warmaster's Shack in Limgrave and buy Ashes of War.",
+      "Join Volcano Manor and find Bernahl there among the recusants.",
+      "Complete Volcano Manor assassination contracts alongside the questline.",
+      "Travel to Crumbling Farum Azula late in the game.",
+      "Answer his invasion sign and defeat him to claim the Devourer's Scepter."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+  },
+  {
+    id: 1017,
+    type: "side",
+    game: "Elden Ring",
+    region: "Caelid",
+    title: "Gurranq, Beast Clergyman",
+    location: "Bestial Sanctum, Caelid",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Beast-based incantations, Ash of War: Determination, Clawmark Seal",
+    summary:
+      "Feed Deathroot to the ravenous Beast Clergyman Gurranq to unlock powerful beast incantations and rare rewards.",
+    aiTip:
+      "Use the teleporter trap in eastern Limgrave to reach the Bestial Sanctum early. Back off when Gurranq turns hostile after feedings, then continue.",
+    walkthrough: [
+      "Reach the Bestial Sanctum in northern Caelid (fastest via the Limgrave teleporter trap).",
+      "Speak with Gurranq and hand over your first Deathroot.",
+      "When he becomes aggressive, retreat or survive until he calms, then talk again.",
+      "Collect Deathroot from dungeon and boss drops across the Lands Between.",
+      "Deliver all nine Deathroot to exhaust his rewards, including the Beast Eye and Clawmark Seal."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
+  },
+  {
+    id: 1018,
+    type: "side",
+    game: "Elden Ring",
+    region: "Haligtree",
+    title: "Jar Bairn's Questline",
+    location: "Jarburg, Liurnia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companion Jar talisman, Ash of War: Lightning Ram",
+    summary:
+      "A gentle living jar in Jarburg dreams of becoming a great pot, tied to Diallos's and Iron Fist Alexander's arcs.",
+    aiTip:
+      "Visit Jarburg repeatedly and progress Diallos's Volcano Manor thread — Jar Bairn's ending depends on advising him after Diallos falls.",
+    walkthrough: [
+      "Travel to Jarburg in eastern Liurnia and speak with Jar Bairn.",
+      "Talk to Diallos, who has come to protect the village.",
+      "Return after major story progress to find the village attacked and Diallos wounded.",
+      "Advise Jar Bairn about his future when prompted in dialogue.",
+      "Continue visiting to receive the Companion Jar talisman and Lightning Ram."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+  },
+  {
+    id: 1019,
+    type: "side",
+    game: "Elden Ring",
+    region: "Liurnia",
+    title: "Shabriri & the Frenzied Flame",
+    location: "Frenzied Flame Village, Subterranean Shunning-Grounds",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Path to the Lord of Frenzied Flame ending",
+    summary:
+      "The malevolent Shabriri, disguised as Yura, steers you toward embracing the Frenzied Flame and its world-ending ending.",
+    aiTip:
+      "This locks you into the Frenzied Flame ending unless reversed via Miquella's Needle. Warn: it overrides other endings until cured.",
+    walkthrough: [
+      "Progress Yura's questline until Shabriri possesses his body in the Zamor Ruins area.",
+      "Speak with Shabriri, who directs you to the Frenzied Flame Proscription.",
+      "Descend the Subterranean Shunning-Grounds to the Frenzied Flame Proscription door.",
+      "Remove all armor and touch the Three Fingers to accept the Frenzied Flame.",
+      "This sets the Lord of Frenzied Flame ending — reverse it later with Miquella's Needle if desired."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
+  },
+  {
+    id: 1020,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Sir Ansbach's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ansbach's armor set, Nail-Bracelet Talisman, endgame support",
+    summary:
+      "A loyal servant of Mohg who now follows Miquella's trail, Sir Ansbach aids you through Shadow of the Erdtree's finale.",
+    aiTip:
+      "Track Miquella's crosses and speak with Ansbach at each Shadow Keep visit. His fate depends on how St. Trina's and Leda's threads resolve.",
+    walkthrough: [
+      "Meet Sir Ansbach in the Shadow Keep's Storehouse, disguised among the servants.",
+      "Follow Miquella's crosses across the Land of Shadow, reporting back as the story advances.",
+      "Deliver information about Miquella's true plan when he asks.",
+      "Side with him during the Needle Knight Leda companions' confrontation.",
+      "Reach the final boss arena, where Ansbach's summon sign aids you if he survives."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
+  },
+  {
+    id: 1021,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Hornsent & Grandam (DLC)",
+    location: "Belurat, Enir-Ilim, Land of Shadow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unique gestures and lore rewards",
+    summary:
+      "The vengeful Hornsent and the mysterious Grandam share a linked storyline about the shamans and the crucible of the Hornsent people.",
+    aiTip:
+      "Speak to Grandam in Bonny Village between Hornsent's appearances — her cryptic hints and his revenge arc unfold together across the DLC.",
+    walkthrough: [
+      "Meet Hornsent early after entering the Land of Shadow near Belurat.",
+      "Find Grandam seated in Bonny Village and exhaust her dialogue.",
+      "Progress toward Shadow Keep, meeting Hornsent again at key sites.",
+      "Return to Grandam after major bosses for further lore and gestures.",
+      "Follow Hornsent to Enir-Ilim to resolve his vengeance at the tower's summit."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
+  },
+  {
+    id: 1022,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Ymir & Jolán (DLC)",
+    location: "Church of the Bud, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Finger-based sorceries, boss fight against Ymir",
+    summary:
+      "Mother Church sage Ymir and his attendant Jolán guide a magic-focused questline that unravels into a hidden boss encounter.",
+    aiTip:
+      "Buy his sorceries and follow Jolán's leads. Ymir's quest branches into a fight — keep Jolán's thread alive for the full resolution.",
+    walkthrough: [
+      "Meet Ymir at the Church of the Bud in Scadu Altus and purchase sorceries.",
+      "Accept his tasks and speak with his attendant Jolán.",
+      "Follow the map markers to the two Fingers he sends you to investigate.",
+      "Return to trigger the confrontation and defeat Ymir, Mother of Fingers' would-be heir.",
+      "Complete Jolán's follow-up to conclude the questline and claim its rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
+  },
+  {
+    id: 1023,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Igon & the Dragon Priestess (DLC)",
+    location: "Jagged Peak, Land of Shadow",
+    length: "medium",
+    difficulty: "High",
+    reward: "Aid against Bayle, dragon communion rewards",
+    summary:
+      "The dragon-hunter Igon's fury against Bayle the Dread and the Dragon Priestess's rites drive a questline of dragon transformation rewards.",
+    aiTip:
+      "Summon Igon for the Bayle fight — his impassioned battle cries mark the arc's climax. Complete dragon communion at the Priestess's altar afterward.",
+    walkthrough: [
+      "Find the wounded Igon along the path up the Jagged Peak.",
+      "Read his messages and progress toward Bayle's lair.",
+      "Summon Igon at the fog wall before Bayle the Dread and defeat the dragon together.",
+      "Speak with the Dragon Priestess to access dragon communion incantations.",
+      "Offer Dragon Hearts at the altar to claim the DLC's dragon rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
+  },
+  {
+    id: 1024,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Moore's Questline (DLC)",
+    location: "Gravesite Plain, Land of Shadow",
+    length: "short",
+    difficulty: "Low",
+    reward: "Aged One's Exultation talisman",
+    summary:
+      "A soft-spoken merchant met early in the Land of Shadow, Moore's short arc rewards revisiting him as the story unfolds.",
+    aiTip:
+      "Note his changing location and mood after major DLC bosses — speaking to him each time is needed to reach his questline's end.",
+    walkthrough: [
+      "Meet Moore near the Gravesite Plain shortly after entering the Land of Shadow.",
+      "Buy from his stock and exhaust his dialogue.",
+      "Return after progressing the DLC to find him relocated.",
+      "Continue talking across visits as his outlook darkens.",
+      "Resolve his final encounter to obtain the Aged One's Exultation talisman."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
+  },
+  {
+    id: 1025,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Queelign's Questline (DLC)",
+    location: "Fire Knights' sites, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Fire Knight incantations, unique gear",
+    summary:
+      "The zealous Fire Knight Queelign hunts the impure across the Land of Shadow before a final duel decides his fate.",
+    aiTip:
+      "Give him the Fire Knight's Prayerbook to unlock incantations, then meet him where he invades to complete the arc.",
+    walkthrough: [
+      "Encounter Queelign preaching at Belurat or the Church District.",
+      "Locate the Fire Knight's Prayerbook and hand it to him.",
+      "Purchase his fire incantations from his stock.",
+      "Travel onward until he appears as an invader.",
+      "Defeat Queelign in his final duel to complete the questline."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
+  },
+  {
+    id: 1026,
+    type: "side",
+    game: "Elden Ring",
+    region: "Land of Shadow",
+    title: "Freyja's Questline (DLC)",
+    location: "Shadow Keep, Land of Shadow",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Companionship, endgame summon support",
+    summary:
+      "One of Miquella's followers among Leda's companions, Freyja's arc weaves through the group's growing conflict in the Land of Shadow.",
+    aiTip:
+      "Speak with Freyja at each Shadow Keep rest and track how the companions turn on one another — her survival hinges on the choices you make.",
+    walkthrough: [
+      "Meet Freyja among Leda's companions after reaching the Shadow Keep.",
+      "Talk to her at rest sites as the group discusses Miquella's path.",
+      "Follow the companions' storyline through the mounting tension.",
+      "Take sides during the companions' final confrontation.",
+      "If she survives, summon Freyja for support in the DLC's climactic battle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
   },
   {
     id: 829,
@@ -15614,6 +16419,14 @@ const quests = [
       "Track down the Zhentarim's stolen shipment and decide whether to side with the smugglers.",
     aiTip:
       "Leads into The Risen Road; talk your way past the Zhent guards or fight through.",
+    walkthrough: [
+      "Speak with the Zhentarim contact about their lost caravan.",
+      "Search the Risen Road for the ambushed shipment.",
+      "Find the hidden Zhentarim basement beneath the toll house waypoint.",
+      "Use the password or fight your way in.",
+      "Locate the stolen goods within the hideout.",
+      "Return the shipment or claim it for a reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
   },
   {
@@ -15631,6 +16444,14 @@ const quests = [
       "Free the deep gnome Barcus Wroot from the windmill's sails before the goblins finish him off.",
     aiTip:
       "Turn the windmill brake inside first, then interact with the sails to save him.",
+    walkthrough: [
+      "Reach the goblin camp and spot the deep gnome Barcus Wroot tied to a windmill sail.",
+      "Climb to the windmill's mechanism inside.",
+      "Stop the sails (or pass a check) so Barcus isn't flung off.",
+      "Cut Barcus loose safely.",
+      "Fend off any goblins who attack.",
+      "Send Barcus on his way — he reappears later in the Underdark."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
   },
   {
@@ -15648,6 +16469,14 @@ const quests = [
       "Uncover druid Kagha's secret dealings with the Shadow Druids that threaten the tiefling refugees.",
     aiTip:
       "Read the letter in the Grove and confront Kagha to change the Grove's outcome.",
+    walkthrough: [
+      "Notice Kagha's harsh treatment of the tieflings in the Emerald Grove.",
+      "Search the grove for evidence of her secret dealings.",
+      "Read the letter revealing her ties to the Shadow Druids.",
+      "Confront Kagha with the proof in front of the circle.",
+      "Expose or spare her depending on your approach.",
+      "Resolve the grove's leadership crisis."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
   },
   {
@@ -15665,6 +16494,14 @@ const quests = [
       "Help the smith complete a masterwork weapon by recovering the sundered fragments.",
     aiTip:
       "Bring the missing pieces to the forge; ties into the Adamantine Forge questline.",
+    walkthrough: [
+      "Talk to the smith about the unfinished masterwork weapon.",
+      "Learn you need the Sussur Bark from the Underdark's Arcane Tower.",
+      "Travel to the glowing Sussur Tree and harvest the bark (magic is nullified nearby).",
+      "Return the Sussur Bloom/Bark to the forge.",
+      "Complete the weapon at the Grymforge or smithy.",
+      "Claim the finished anti-magic weapon."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
   },
   {
@@ -15682,6 +16519,14 @@ const quests = [
       "Brave the Risen Road and its warring factions — paladins of Tyr, a hidden fiend, and Zhentarim smugglers.",
     aiTip:
       "Watch for the fiend disguised among the survivors; approach the toll bridge carefully.",
+    walkthrough: [
+      "Head east along the Risen Road from the Blighted Village.",
+      "Deal with the paladins of Tyr and the disguised cultists (Hunt the Devil).",
+      "Clear the burning toll house and the gnolls in the area.",
+      "Rescue any survivors trapped inside.",
+      "Explore the Zhentarim hideout hidden nearby.",
+      "Secure the road and its loot before moving on."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
   },
   {
@@ -15699,6 +16544,14 @@ const quests = [
       "Recover a pair of missing boots for a distraught patron at the Last Light Inn.",
     aiTip:
       "A quick fetch quest around the inn and its surrounds.",
+    walkthrough: [
+      "Meet the shoe-obsessed NPC at the Last Light Inn asking after special boots.",
+      "Search the Shadow-Cursed Lands for the missing footwear.",
+      "Check the shadow-cursed corpses and hidden stashes.",
+      "Recover the boots.",
+      "Return them to the owner.",
+      "Collect your reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
   },
   {
@@ -15716,6 +16569,14 @@ const quests = [
       "Rescue the girl Vanra from a hag preying on the mothers of the Lower City.",
     aiTip:
       "Another Auntie Ethel-style hag fight — bring anti-charm options and save first.",
+    walkthrough: [
+      "Meet the distraught mother at the Baldur's Gate market whose daughter Vanra is taken.",
+      "Learn the hag Auntie Ethel is behind the abduction.",
+      "Track Ethel to her lair beneath the city (the riverside/sewer entrance).",
+      "Navigate the illusions and swallow trap inside the hag's lair.",
+      "Defeat Ethel and free Vanra from her clutches (or from being swallowed).",
+      "Return Vanra to her mother."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
   },
   {
@@ -15733,6 +16594,14 @@ const quests = [
       "Delve the overgrown ruins near the crash site and the crypt below to face a hooded skeleton and claim its secrets.",
     aiTip:
       "Persuade or fight the adventurers at the door; the Dank Crypt's sarcophagus reveals Withers.",
+    walkthrough: [
+      "From the Ravaged Beach, head up to the Dank Crypt / overgrown ruins.",
+      "Deal with the adventurers arguing outside over buried treasure.",
+      "Enter the ruins and search for the hidden crypt below.",
+      "Disarm the trapped sarcophagus room.",
+      "Defeat or avoid the awakened skeletons and Withers' guardians.",
+      "Loot the crypt and awaken Withers, who joins your camp."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
   },
   {
@@ -15750,6 +16619,14 @@ const quests = [
       "Investigate the hidden cellar beneath the Blighted Village apothecary and its arcane mirror.",
     aiTip:
       "Ties into The Necromancy of Thay; answer the mirror's riddle to pass unharmed.",
+    walkthrough: [
+      "Find the trapdoor to the Blighted Village apothecary's cellar (or Waukeen's Rest cellar).",
+      "Descend and search for hidden compartments.",
+      "Watch for traps and ambushing enemies.",
+      "Read the notes and letters to uncover the cellar's secret.",
+      "Collect the hidden loot or quest item.",
+      "Report back or continue the related questline."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
   },
   {
@@ -15767,6 +16644,14 @@ const quests = [
       "Sneak into the druids' inner sanctum and lift the Idol of Silvanus at Mol's request.",
     aiTip:
       "Use Stealth/Invisibility; taking the idol has consequences for the grove.",
+    walkthrough: [
+      "Learn from Zevlor or a tiefling that the druids' Idol of Silvanus could distract them.",
+      "Enter the inner sanctum where the druids perform their ritual.",
+      "Sneak or turn invisible to approach the idol undetected.",
+      "Pass a Sleight of Hand check to lift the idol from its pedestal.",
+      "Avoid or survive the summoned guardian if you fail.",
+      "Escape with the idol and deliver it as agreed."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
   },
   {
@@ -15784,6 +16669,14 @@ const quests = [
       "Rouse the catatonic Art Cullagh at Last Light Inn to uncover the key to lifting the shadow curse.",
     aiTip:
       "Play the flute found at the Mason's Guild by his bedside; feeds Halsin's Thaniel questline.",
+    walkthrough: [
+      "Find the wounded Art Cullagh unconscious in the Last Light Inn's infirmary.",
+      "Speak with Halsin, who wants to reach Cullagh's mind.",
+      "Search for what stirs his memory — a song tied to Thaniel.",
+      "Trigger the memory to wake Cullagh briefly.",
+      "Learn about Thaniel and the way to lift the Shadow Curse.",
+      "This opens Halsin's path to heal the land."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
   },
   {
@@ -15801,6 +16694,14 @@ const quests = [
       "Lady Esther at the Mountain Pass asks you to steal a githyanki egg from the Hatchery deep in Crèche Y'llek. Retrieve it, then decide its fate — hand it over, keep it, or let Lae'zel raise it.",
     aiTip:
       "You need boots that resist the caustic pools in the Hatchery. Giving the egg to Lae'zel instead of Esther deepens her approval.",
+    walkthrough: [
+      "At Crèche Y'llek, take on the task (from Voss) to retrieve a githyanki egg.",
+      "Find the incubation chamber deep in the crèche.",
+      "Pass the guards using stealth, disguise, or distraction.",
+      "Sleight of Hand the egg from its nest without raising the alarm.",
+      "Slip back out of the chamber.",
+      "Deliver the egg to complete the covert task."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
   },
   {
@@ -15818,6 +16719,14 @@ const quests = [
       "Speak with the tormented spirit He Who Was on the Ruined Battlefield and avenge him by hunting down the paladins of Tyr who broke their oath and became the Shadow-Cursed dead.",
     aiTip:
       "The oathbreaker paladins are scattered across Act 2 — finish them before you leave the Shadow-Cursed Lands or the spirit's vengeance goes uncompleted.",
+    walkthrough: [
+      "Accept the Selûnite/Harper task to bring justice to a shadow-cursed wrongdoer.",
+      "Investigate the target's crimes in the Shadow-Cursed Lands.",
+      "Track them to their hiding place near Moonrise or the ruined village.",
+      "Confront the guilty party.",
+      "Deliver punishment or show mercy per your judgment.",
+      "Report the outcome to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
   },
   {
@@ -15835,6 +16744,14 @@ const quests = [
       "An execution notice in the Lower City reveals Counsellor Florrick is imprisoned deep within Wyrm's Rock. Break her out before Gortash carries out the sentence.",
     aiTip:
       "Time-sensitive — she must be freed within about five long rests. A cultist disguise or the Wyrm's Rock sewers ease the approach.",
+    walkthrough: [
+      "Learn that Counsellor Florrick is imprisoned at Wyrm's Rock Fortress.",
+      "Gain entry to the fortress (invitation or infiltration).",
+      "Find Florrick held in the prison cells.",
+      "Persuade the guards or fight to reach her cell.",
+      "Free Florrick before her scheduled execution.",
+      "Escort her to safety to earn an ally."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
   },
   {
@@ -15852,6 +16769,14 @@ const quests = [
       "Postmaster Danzo's carrier pigeons have scattered across the city with their letters undelivered. Recover the lost mail in a quirky citywide errand.",
     aiTip:
       "The pigeons perch on rooftops and ledges around the Lower City — Feather Fall, jump, or a fly spell make reaching them painless.",
+    walkthrough: [
+      "Take the task from the Zhentarim/Guild about intercepted correspondence.",
+      "Search the Lower City for the missing letters.",
+      "Check couriers, hidden stashes, and the Counting House.",
+      "Recover all the letters.",
+      "Read them for blackmail material or leads.",
+      "Return them to your employer for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
   },
   {
@@ -15869,6 +16794,14 @@ const quests = [
       "Manip Falcäo hires you to wipe out the gnomes raiding his checkpoint and bring back their leader's head — though the Ironhand gnomes' side of the story may change your mind.",
     aiTip:
       "You can side with Falcäo or the gnomes; the Ironhand gnomes tie into the Steel Watch and Gondian questlines, so weigh the bigger picture before striking.",
+    walkthrough: [
+      "Meet the Ironhand gnomes who want revenge on Gortash for enslaving them.",
+      "Coordinate with Wulbren and the Underduke on a plan.",
+      "Retrieve the runepowder needed for sabotage.",
+      "Decide whether to back Wulbren's aggressive plan or restrain him.",
+      "Help strike at the Steel Watch Foundry.",
+      "Resolve the gnomes' fate based on your guidance."
+    ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
   },
   {
@@ -16046,6 +16979,6213 @@ const quests = [
     aiTip:
       "The Hateful is a repeated, aggressive fight — learn its unblockable tells and use ranged Blades attacks to whittle it down. Closing every Draugr Hole is required for full realm completion.",
     video: "https://www.youtube.com/watch?v=mhUSLQwhsJ4"
+  },
+  {
+    id: 962,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Rescue the Illithid's Captive",
+    location: "Nautiloid / Ravaged Beach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Frees a potential companion (Shadowheart)",
+    summary: "One of the captives aboard the crashing nautiloid is trapped in a mind flayer pod. Reach the console and release her before the ship is destroyed.",
+    aiTip: "You need Intelligence or the right rune — grab the Eldritch Rune nearby if the console resists you.",
+    walkthrough: [
+      "On the nautiloid, fight through the cambions and intellect devourers toward the transponder room.",
+      "Find the pod holding the captive and interact with the nearby console.",
+      "If the console fails, pick up the Eldritch Rune from the dead mind flayer and use it to power the console.",
+      "Free the captive; she can later be recruited on the beach.",
+      "Reach the helm and grab the transponder to trigger the crash.",
+      "Wake on the Ravaged Beach and look for the freed captive among the wreckage."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Illithid's%20Captive%20walkthrough"
+  },
+  {
+    id: 963,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find a Cure",
+    location: "Wilderness (Act 1)",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Progresses the main story; multiple leads",
+    summary: "The tadpole in your brain will turn you into a mind flayer. Chase down every lead — druids, hags, githyanki, and a mysterious deep gnome — for a way to remove it.",
+    aiTip: "This is the umbrella Act 1 goal; pursue several leads at once since some conflict with each other.",
+    walkthrough: [
+      "Speak to survivors on the beach and follow rumors of a healer at the nearby Druid Grove.",
+      "Investigate each cure lead: Healer Nettie, Auntie Ethel, the Githyanki Crèche, and Omeluum.",
+      "Weigh the risks — Ethel and Vlaakith both offer dangerous 'cures'.",
+      "Keep exploring; the true nature of the tadpole is revealed as the act progresses.",
+      "Reach the Mountain Pass or the Underdark to continue the search.",
+      "No safe cure appears in Act 1 — the goal carries into Act 2."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20a%20Cure%20walkthrough"
+  },
+  {
+    id: 964,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Ask the Goblin Priestess for Help",
+    location: "Goblin Camp / Shattered Sanctum",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "A possible (deceptive) tadpole lead",
+    summary: "Priestess Gut in the goblin camp claims she can remove your parasite. Follow her into her private chambers to see if her offer is genuine.",
+    aiTip: "Her 'ritual' is a trap — go in prepared to fight, or knock her out to interrogate her.",
+    walkthrough: [
+      "Enter the Shattered Sanctum beneath the goblin camp, avoiding or passing the goblin guards.",
+      "Find Priestess Gut and accept her offer to look at your tadpole.",
+      "Follow her to her private room; she will try to knock you unconscious.",
+      "Break free (or wake up) and confront her about the deception.",
+      "Defeat or subdue Gut — she is one of the three goblin leaders.",
+      "Loot her key and quarters before leaving."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Ask%20the%20Goblin%20Priestess%20for%20Help%20walkthrough"
+  },
+  {
+    id: 965,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find the Githyanki Crèche",
+    location: "Mountain Pass / Crèche Y'llek",
+    length: "long",
+    difficulty: "High",
+    reward: "A githyanki cure lead; Lae'zel's arc",
+    summary: "Lae'zel insists her people's crèche can cure the tadpole. Travel through the Mountain Pass to Crèche Y'llek and seek out the zaith'isk healing machine.",
+    aiTip: "The zaith'isk is dangerous — a failed roll can hurt you, and the crèche turns hostile easily.",
+    walkthrough: [
+      "Take the Mountain Pass route north out of the starting region.",
+      "Reach Crèche Y'llek and speak with the githyanki, keeping Lae'zel in your party.",
+      "Find the infirmary and sit in the zaith'isk to test the 'cure'.",
+      "Survive the machine; it does not remove the tadpole.",
+      "Investigate the crèche's secrets — the Astral Prism and the truth about Vlaakith.",
+      "Decide whether to leave peacefully or fight your way out with the Blood of Lathander."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Githyanki%20Cr%C3%A8che%20walkthrough"
+  },
+  {
+    id: 966,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Get Help from Auntie Ethel",
+    location: "Riverside Teahouse / Sunlit Wetlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "A hag's bargain for the tadpole",
+    summary: "The kindly 'Auntie Ethel' offers to remove your parasite — for a price. Find her teahouse in the wetlands and hear her terms.",
+    aiTip: "Ethel is a green hag; her cure costs an eye. Refuse and you will have to fight her in the Overgrown Tunnel.",
+    walkthrough: [
+      "Travel to the Sunlit Wetlands and find Auntie Ethel's riverside teahouse.",
+      "Ask her about curing the tadpole; she demands one of your eyes.",
+      "Refuse the bargain to reveal her true hag form.",
+      "Chase her into the Overgrown Tunnel below.",
+      "Fight through her illusions and masked victims to reach Ethel herself.",
+      "Defeat her (optionally sparing Mayrina's fate) to end the threat."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Auntie%20Ethel%20walkthrough"
+  },
+  {
+    id: 967,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Get Help from Healer Nettie",
+    location: "Emerald Grove / Apothecary",
+    length: "short",
+    difficulty: "Low",
+    reward: "Early tadpole information",
+    summary: "Nettie, the druids' apothecary in the Emerald Grove, has treated a tadpole victim before. Speak with her about your infection.",
+    aiTip: "She may offer you poison as a 'mercy' — you can pass Charisma checks to defuse the standoff without violence.",
+    walkthrough: [
+      "Enter the Emerald Grove and find the apothecary at the back.",
+      "Speak to Nettie and mention your tadpole.",
+      "She shows you a paralyzed victim and offers a grim option.",
+      "Pass the dialogue checks to calm her and avoid drinking the poison.",
+      "Learn what she knows about the parasite and Halsin.",
+      "Leave with the lead to find Halsin, the archdruid."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Healer%20Nettie%20walkthrough"
+  },
+  {
+    id: 968,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Free Lae'zel",
+    location: "Risen Road / Tiefling Cage",
+    length: "short",
+    difficulty: "Low",
+    reward: "Recruits Lae'zel as a companion",
+    summary: "A captured githyanki hangs in a cage strung up by tiefling refugees. Decide how to get her down and recruit her.",
+    aiTip: "You can persuade the tieflings, cut the cage rope, or fight — dropping the cage frees her fastest.",
+    walkthrough: [
+      "Head up the cliff path north of the crash site to find the caged githyanki.",
+      "Talk to the two tieflings guarding her.",
+      "Choose to persuade them, attack the cage's rope, or side with the tieflings.",
+      "Free Lae'zel from the cage.",
+      "Agree to help her find a crèche to recruit her to your party.",
+      "She will now offer guidance toward Crèche Y'llek."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Lae'zel%20walkthrough"
+  },
+  {
+    id: 969,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Hunt the Devil",
+    location: "Risen Road / Toll House",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Karlach's introduction; XP and loot",
+    summary: "A group of Paladins of Tyr are hunting a 'devil' on the Risen Road. That devil is Karlach — decide whom to believe.",
+    aiTip: "The paladins are actually Zariel's cultists; siding with Karlach is the good outcome and recruits her.",
+    walkthrough: [
+      "Travel the Risen Road and meet the wounded paladins hunting a devil.",
+      "Continue on to find Karlach cooling off at a stream.",
+      "Hear her side — she is an escaped hellrider, not a monster.",
+      "Return to the paladins and confront the truth about their order.",
+      "Fight the disguised cultists alongside Karlach.",
+      "Recruit Karlach and agree to help fix her infernal engine."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Hunt%20the%20Devil%20walkthrough"
+  },
+  {
+    id: 970,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Rescue the Trapped Man",
+    location: "Blighted Village / Whispering Depths",
+    length: "short",
+    difficulty: "Low",
+    reward: "Loot; a minor NPC",
+    summary: "A frightened man is trapped and calling for help near the Blighted Village. Investigate before rushing in — not everything is as it seems.",
+    aiTip: "Check for traps and ambushes; some 'trapped' NPCs are bait for gnolls or ambushers.",
+    walkthrough: [
+      "Follow the cries for help near the Blighted Village outskirts.",
+      "Approach carefully and inspect the surroundings for an ambush.",
+      "Free the trapped man or dispatch the threat menacing him.",
+      "Question him about how he ended up here.",
+      "Deal with any gnolls or bandits that appear.",
+      "Collect any reward or loot and move on."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Trapped%20Man%20walkthrough"
+  },
+  {
+    id: 971,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find Doni",
+    location: "Emerald Grove / Hidden Cave",
+    length: "short",
+    difficulty: "Low",
+    reward: "Grove refugee side content",
+    summary: "A tiefling woman is worried about a missing child named Doni who ran off into a hidden cave in the grove.",
+    aiTip: "Doni is hiding down a trapdoor — use a gentle, non-threatening dialogue approach with the child.",
+    walkthrough: [
+      "Speak to the anxious refugee in the Emerald Grove about the missing boy.",
+      "Search the grove for a concealed trapdoor.",
+      "Descend into the hidden cave to find Doni.",
+      "Reassure the frightened child with a calm dialogue choice.",
+      "Guide him back toward the surface.",
+      "Report to the refugee that Doni is safe."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Doni%20walkthrough"
+  },
+  {
+    id: 972,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find Your Belongings",
+    location: "Emerald Grove / Zevlor's Camp",
+    length: "short",
+    difficulty: "Low",
+    reward: "Recovers stolen goods",
+    summary: "After the crash, some of your belongings have gone missing among the refugees. Track down the thief in the grove.",
+    aiTip: "A pickpocketing tiefling child is often the culprit — persuade or intimidate rather than kill.",
+    walkthrough: [
+      "Notice missing items and ask around the refugee camp.",
+      "Follow the clues to a young tiefling pickpocket.",
+      "Confront the thief with persuasion or intimidation.",
+      "Recover your stolen belongings.",
+      "Decide whether to report or forgive the child.",
+      "Return to your business in the grove."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Your%20Belongings%20walkthrough"
+  },
+  {
+    id: 973,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Investigate the Beach",
+    location: "Ravaged Beach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Early companions and loot",
+    summary: "The wreckage of the nautiloid is strewn across the beach. Search it for survivors and salvage before heading inland.",
+    aiTip: "Several recruitable companions and useful early gear are found here — sweep the whole shoreline.",
+    walkthrough: [
+      "Wake on the Ravaged Beach after the crash.",
+      "Search the wreckage for survivors trapped in the debris.",
+      "Free or recruit any companions you find (Shadowheart, Us).",
+      "Loot crates and corpses for early equipment.",
+      "Note the path inland toward the Druid Grove.",
+      "Head off the beach once you've searched it thoroughly."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20the%20Beach%20walkthrough"
+  },
+  {
+    id: 974,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Rescue Volo",
+    location: "Goblin Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Recruits Volo; later grants a special 'surgery'",
+    summary: "The bard Volothamp Geddarm has been captured by the goblins and locked in a pen. Free him from the camp.",
+    aiTip: "Volo later offers to 'treat' your tadpole with an ice pick — the outcome grants the Ersatz Eye.",
+    walkthrough: [
+      "Enter the goblin camp and locate Volo's cage near the ruined chapel.",
+      "Distract or defeat the goblin guarding him.",
+      "Pick the lock or persuade the guard to free Volo.",
+      "Send him back to your camp.",
+      "Later, let him attempt his eye 'surgery' if you wish.",
+      "Receive the Ersatz Eye as a reward for surviving it."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20Volo%20walkthrough"
+  },
+  {
+    id: 975,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Return the Locket",
+    location: "Blighted Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Minor reward; roleplay",
+    summary: "A locket found in the Blighted Village belongs to someone who lost it. Return it to its rightful owner.",
+    aiTip: "Read the locket's inscription for a clue to the owner's identity.",
+    walkthrough: [
+      "Find the locket while looting the Blighted Village.",
+      "Inspect it for an inscription or portrait.",
+      "Identify the owner among nearby NPCs or refugees.",
+      "Return the locket to them.",
+      "Choose whether to ask for a reward.",
+      "Complete the small act of kindness."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20the%20Locket%20walkthrough"
+  },
+  {
+    id: 976,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Save Arabella",
+    location: "Emerald Grove / Sacred Pool",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Druid and tiefling relations",
+    summary: "The tiefling child Arabella is caught stealing from the druids and Kagha threatens her life with a serpent. Intervene to save her.",
+    aiTip: "Persuasion or intimidation can talk Kagha down; failing the check means acting fast before the snake strikes.",
+    walkthrough: [
+      "Enter the inner sanctum of the Emerald Grove during the confrontation.",
+      "Find Kagha threatening Arabella with her serpent Teela.",
+      "Step in and pass a Persuasion or Intimidation check.",
+      "If talks fail, be ready to kill the snake before it bites.",
+      "Free Arabella and return her to her parents.",
+      "Note the tension this reveals within the druid circle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20walkthrough"
+  },
+  {
+    id: 977,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Save the Goblin Sazza",
+    location: "Emerald Grove / Goblin Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "A route into the goblin camp",
+    summary: "A captured goblin, Sazza, is imprisoned in the Druid Grove. Freeing her earns safe passage into the goblin camp.",
+    aiTip: "Escorting her out requires avoiding the druids — the back tunnel by the sluice gate is safest.",
+    walkthrough: [
+      "Find Sazza locked in a cell within the Emerald Grove.",
+      "Decide to free her for a way into the goblin camp.",
+      "Guide her out through the side tunnel to avoid the druids.",
+      "Fight or sneak past any druids who spot you.",
+      "See Sazza safely out of the grove.",
+      "She will vouch for you at the goblin camp gate."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Goblin%20Sazza%20walkthrough"
+  },
+  {
+    id: 978,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Avenge Sovereign Glut",
+    location: "Underdark / Myconid Colony",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "A myconid ally; Underdark progression",
+    summary: "The myconid Glut wants revenge on the duergar who slew his sovereign. Help him — but beware his true intentions.",
+    aiTip: "Glut may turn on your other myconid allies; decide whose side you value more.",
+    walkthrough: [
+      "Meet Glut in the Underdark's myconid colony.",
+      "Agree to help him avenge Sovereign Spaw's killers.",
+      "Travel toward the duergar at Grymforge or the beach.",
+      "Fight the duergar responsible.",
+      "Watch Glut — he may ask you to betray the colony.",
+      "Resolve his fate depending on your loyalties."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Sovereign%20Glut%20walkthrough"
+  },
+  {
+    id: 979,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Cure the Poisoned Gnome",
+    location: "Grymforge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Saves an NPC; crafting help",
+    summary: "The deep gnome Thulla is dying from Nere's poisonous gas in Grymforge. Find an antidote before she succumbs.",
+    aiTip: "The cure is on a nearby duergar or crafted from Timmask spores — hurry, she's on a timer.",
+    walkthrough: [
+      "Find Thulla poisoned and collapsed in Grymforge.",
+      "Search nearby duergar bodies for an antidote.",
+      "Alternatively brew a cure from Timmask spores.",
+      "Administer the antidote to Thulla quickly.",
+      "Learn what she knows about Nere and the gnomes.",
+      "Keep her alive as a friendly contact."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Cure%20the%20Poisoned%20Gnome%20walkthrough"
+  },
+  {
+    id: 980,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Defeat the Duergar",
+    location: "Grymforge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Clears Grymforge; loot",
+    summary: "The duergar slavers control Grymforge under the Absolute's banner. Break their hold on the ancient forge.",
+    aiTip: "The duergar boss Nere is trapped behind rubble — how you free (or kill) him shapes this fight.",
+    walkthrough: [
+      "Arrive at Grymforge and assess the duergar slavers.",
+      "Deal with the collapsed tunnel trapping Nere.",
+      "Choose to rescue Nere or let him die and claim his head.",
+      "Fight the hostile duergar throughout the forge.",
+      "Free the enslaved deep gnomes if you can.",
+      "Secure the forge and its adamantine secrets."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Duergar%20walkthrough"
+  },
+  {
+    id: 981,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Deliver Nere's Head",
+    location: "Grymforge / Zhentarim",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold reward from the Zhentarim",
+    summary: "The true soul Nere has a bounty on his head. If he dies, take his severed head to the interested party for a reward.",
+    aiTip: "Both a duergar and the Zhentarim want proof of Nere's death — pick the more profitable buyer.",
+    walkthrough: [
+      "After Nere dies at Grymforge, sever and take his head.",
+      "Decide who to deliver it to for the bounty.",
+      "Travel to the buyer (a duergar or the Zhentarim hideout).",
+      "Present the head as proof of the kill.",
+      "Collect your reward.",
+      "Note any faction consequences of the deal."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deliver%20Nere's%20Head%20walkthrough"
+  },
+  {
+    id: 982,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find the Mushroom Picker",
+    location: "Underdark / Arcane Tower",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Helps a merchant couple",
+    summary: "The deep gnome merchant Derryth Bonecloak's husband Baelen is stranded in a field of explosive bibberbang mushrooms in the Underdark.",
+    aiTip: "The bibberbang detonates in a chain — use Feather Fall or a careful path to reach Baelen safely.",
+    walkthrough: [
+      "Speak to Derryth Bonecloak near the Underdark beach.",
+      "Head to the bibberbang mushroom field to find Baelen.",
+      "Avoid triggering the explosive spores.",
+      "Reach Baelen and retrieve the noblestalk if asked.",
+      "Guide him back out of the field.",
+      "Return to Derryth to resolve their story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Mushroom%20Picker%20walkthrough"
+  },
+  {
+    id: 983,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Find Explosives",
+    location: "Grymforge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Clears a blocked path",
+    summary: "A pile of rubble blocks a key passage in Grymforge. Locate the runepowder or explosives needed to blast it open.",
+    aiTip: "The gnome Wulbren or nearby barrels of Smokepowder can provide the blast — clear the area first.",
+    walkthrough: [
+      "Discover the rubble-blocked passage in Grymforge.",
+      "Search the area for explosives or runepowder.",
+      "Speak with the imprisoned gnomes for help.",
+      "Gather Smokepowder barrels or a runepowder bomb.",
+      "Place and detonate the charge from a safe distance.",
+      "Advance through the cleared passage."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Explosives%20walkthrough"
+  },
+  {
+    id: 984,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Save the Grymforge Gnomes",
+    location: "Grymforge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Frees enslaved gnomes; allies",
+    summary: "The duergar have enslaved deep gnomes to work the forge. Free them from bondage.",
+    aiTip: "Some gnomes are chained near hazards — clear the duergar before triggering the forge's lava.",
+    walkthrough: [
+      "Find the enslaved deep gnomes laboring in Grymforge.",
+      "Overcome the duergar overseers.",
+      "Free the gnomes from their chains and cages.",
+      "Protect them during any ensuing fight.",
+      "Direct them to safety.",
+      "Earn their gratitude and possible aid later."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Grymforge%20Gnomes%20walkthrough"
+  },
+  {
+    id: 985,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Get Past the Rubble",
+    location: "Grymforge / Adamantine Forge",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Opens the path to the forge",
+    summary: "Collapsed rock bars the way deeper into Grymforge. Find a way through to reach the Adamantine Forge.",
+    aiTip: "Explosives are the intended solution — combine this with the runepowder from the gnomes.",
+    walkthrough: [
+      "Reach the impassable rubble in Grymforge.",
+      "Look for barrels of Smokepowder or a runepowder bomb.",
+      "Position the explosives against the rubble.",
+      "Detonate from cover to avoid the blast.",
+      "Cross into the deeper forge chambers.",
+      "Continue toward the Adamantine Forge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Past%20the%20Rubble%20walkthrough"
+  },
+  {
+    id: 986,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 1,
+    title: "Talk to the Sentient Amulet",
+    location: "Underdark / Selûnite Outpost",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore; a quirky companion item",
+    summary: "A strange amulet found in the Underdark speaks aloud. Converse with it to learn its secrets.",
+    aiTip: "Wear the amulet and it will chatter — some lines hint at nearby secrets and loot.",
+    walkthrough: [
+      "Loot the talking amulet in the Underdark ruins.",
+      "Equip it to hear it speak.",
+      "Engage the amulet in conversation.",
+      "Follow any hints it offers about the area.",
+      "Decide whether to keep or discard the chatty item.",
+      "Note the lore it reveals about the region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Talk%20to%20the%20Sentient%20Amulet%20walkthrough"
+  },
+  {
+    id: 987,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Capture Isobel",
+    location: "Last Light Inn",
+    length: "medium",
+    difficulty: "High",
+    reward: "Protects the Shadow-Cursed refuge",
+    summary: "Marcus and his winged horrors attack the Last Light Inn to abduct the cleric Isobel, whose ward keeps the Shadow Curse at bay.",
+    aiTip: "If Isobel is taken or killed, the inn falls to the curse — protect her at all costs.",
+    walkthrough: [
+      "Arrive at the Last Light Inn and meet Isobel.",
+      "When Marcus attacks, rush to defend her.",
+      "Focus fire on Marcus before he can grab Isobel.",
+      "Keep Isobel alive through the aerial assault.",
+      "Drive off or kill the winged attackers.",
+      "Secure the inn as a safe haven."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Capture%20Isobel%20walkthrough"
+  },
+  {
+    id: 988,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Find Ketheric's Relic",
+    location: "Mind Flayer Colony / Moonrise",
+    length: "long",
+    difficulty: "High",
+    reward: "Reveals Ketheric's immortality secret",
+    summary: "Ketheric Thorm cannot be killed while his relic sustains him. Track it down beneath Moonrise Towers.",
+    aiTip: "The relic lies deep in the Mind Flayer Colony past Balthazar — expect a nautiloid and heavy resistance.",
+    walkthrough: [
+      "Descend beneath Moonrise Towers toward the old temple.",
+      "Work through the Mind Flayer Colony and its horrors.",
+      "Confront Balthazar and the Nightsong's prison.",
+      "Locate the source of Ketheric's immortality.",
+      "Destroy or claim the relic to make Ketheric mortal.",
+      "Return to face Ketheric with his protection broken."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ketheric's%20Relic%20walkthrough"
+  },
+  {
+    id: 989,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Follow the Convoy",
+    location: "Shadow-Cursed Lands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Route into Moonrise Towers",
+    summary: "An Absolutist convoy of caged prisoners travels toward Moonrise Towers. Track it to find a way inside.",
+    aiTip: "Following the convoy leads to the Last Light Inn and the road to Moonrise — don't ambush it blindly.",
+    walkthrough: [
+      "Pick up the convoy's trail in the Shadow-Cursed Lands.",
+      "Follow the caged prisoners along the cursed road.",
+      "Avoid the shadows by keeping to lit paths.",
+      "Track the convoy toward Moonrise Towers.",
+      "Decide whether to intervene or observe.",
+      "Use the route to reach Moonrise."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Follow%20the%20Convoy%20walkthrough"
+  },
+  {
+    id: 990,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Resolve the Abduction",
+    location: "Last Light Inn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Saves an abducted child (Mol)",
+    summary: "The tiefling children who fled to the Last Light Inn are in danger — one, Mol, has struck a dangerous bargain.",
+    aiTip: "Mol's deal with Raphael's cambion Korrilla is hard to undo; talk her out of it if you can.",
+    walkthrough: [
+      "Reach the Last Light Inn and check on the tiefling children.",
+      "Discover Mol has made a deal with a devil's agent.",
+      "Confront the cambion pressuring the children.",
+      "Try to break or renegotiate the infernal bargain.",
+      "Protect Mol from the consequences.",
+      "Resolve the children's fate at the inn."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Resolve%20the%20Abduction%20walkthrough"
+  },
+  {
+    id: 991,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Decide Minthara's Fate",
+    location: "Moonrise Towers",
+    length: "medium",
+    difficulty: "High",
+    reward: "Potentially recruits Minthara",
+    summary: "The drow Minthara is imprisoned and tortured in Moonrise Towers. Decide whether to free her, recruit her, or leave her.",
+    aiTip: "Recruiting her cleanly is tricky — freeing her without alerting the whole tower requires stealth or a fight.",
+    walkthrough: [
+      "Find Minthara held in the Moonrise Towers prison.",
+      "Speak with her about the Absolute's control over her.",
+      "Choose to free her, kill her, or leave her.",
+      "If freeing her, help her break the Absolute's hold.",
+      "Fight your way out if the tower turns hostile.",
+      "Recruit Minthara to camp if she survives."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Decide%20Minthara's%20Fate%20walkthrough"
+  },
+  {
+    id: 992,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Find Mol",
+    location: "Last Light Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tiefling refugee follow-up",
+    summary: "Mol, the enterprising tiefling girl, has gone missing from the Last Light Inn. Locate her.",
+    aiTip: "Mol tends to wander into trouble — check the inn's upper floors and hidden corners.",
+    walkthrough: [
+      "Ask the tieflings at the Last Light Inn about Mol.",
+      "Search the inn and its surroundings.",
+      "Find where Mol has hidden herself.",
+      "Learn what trouble she's gotten into.",
+      "Help her out of her predicament.",
+      "Reunite her with the other refugees."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Mol%20walkthrough"
+  },
+  {
+    id: 993,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Find Rolan",
+    location: "Last Light Inn / Moonrise",
+    length: "medium",
+    difficulty: "High",
+    reward: "Saves the wizard Rolan",
+    summary: "The wizard Rolan storms off to rescue his family at Moonrise Towers and gets in over his head. Save him before it's too late.",
+    aiTip: "Rolan is on a timer and badly outmatched — reach him quickly during the Moonrise assault.",
+    walkthrough: [
+      "Hear that Rolan has left the inn to rescue his siblings.",
+      "Track him toward Moonrise Towers.",
+      "Find him cornered by Absolutist forces.",
+      "Fight to save Rolan before he's killed.",
+      "Help reunite him with his family.",
+      "Return him safely to the Last Light Inn."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Rolan%20walkthrough"
+  },
+  {
+    id: 994,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Find Zevlor",
+    location: "Moonrise Towers",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Resolves the tiefling leader's arc",
+    summary: "Zevlor, the tieflings' former protector, is imprisoned within Moonrise Towers under the Absolute's sway.",
+    aiTip: "Zevlor is held near the Mind Flayer Colony — freeing him ties into the abducted refugees' fate.",
+    walkthrough: [
+      "Learn that Zevlor was taken to Moonrise Towers.",
+      "Search the towers' prison levels.",
+      "Find Zevlor held captive or mind-controlled.",
+      "Confront him about abandoning the refugees.",
+      "Free him from the Absolute's influence.",
+      "Decide his role going forward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Zevlor%20walkthrough"
+  },
+  {
+    id: 995,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Investigate Selûnite Resistance",
+    location: "Last Light Inn / Shadowlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Harper and Selûnite allies",
+    summary: "The Harpers and Selûnite faithful fight a hidden war against the Shadow Curse. Uncover their resistance and lend aid.",
+    aiTip: "Jaheira leads the Harpers here — supporting them strengthens your allies for the assault on Moonrise.",
+    walkthrough: [
+      "Speak with Jaheira and the Harpers at the Last Light Inn.",
+      "Learn about the Selûnite resistance to the curse.",
+      "Investigate their efforts against the shadows.",
+      "Complete tasks to earn their trust.",
+      "Rally the resistance for the coming battle.",
+      "Secure their support against Ketheric."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Sel%C3%BBnite%20Resistance%20walkthrough"
+  },
+  {
+    id: 996,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 2,
+    title: "Kill Yurgir",
+    location: "Gauntlet of Shar",
+    length: "long",
+    difficulty: "High",
+    reward: "Astarion's benefit; rare loot",
+    summary: "The orthon Yurgir lurks in the Gauntlet of Shar, bound by a contract from Raphael. Hunt him down.",
+    aiTip: "You can persuade Yurgir to turn on his own merregons, or fight the whole warband — the social route is far easier.",
+    walkthrough: [
+      "Enter the Gauntlet of Shar and find the Ritual of Silence area.",
+      "Track Yurgir through the shadowed halls.",
+      "Optionally pass Insight/Persuasion checks to break his contract.",
+      "Convince him to kill his own merregons and himself, or fight him.",
+      "Defeat Yurgir and his displacer beasts if it comes to battle.",
+      "Loot his rewards for Raphael's contract."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Kill%20Yurgir%20walkthrough"
+  },
+  {
+    id: 997,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Acquire Gauntlets for Helsik",
+    location: "Devil's Fee, Baldur's Gate",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Opens the ritual to the House of Hope",
+    summary: "The merchant Helsik can send you to Raphael's House of Hope — if you provide the ritual components, including infernal gauntlets.",
+    aiTip: "Buy or steal the required diamond, infernal iron, and other reagents from Helsik's own shop.",
+    walkthrough: [
+      "Visit Helsik at the Devil's Fee in the Lower City.",
+      "Ask about reaching the House of Hope.",
+      "Gather the ritual components she requires.",
+      "Acquire the infernal gauntlets and other reagents.",
+      "Return everything to Helsik.",
+      "Perform the ritual to teleport into the House of Hope."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Acquire%20Gauntlets%20for%20Helsik%20walkthrough"
+  },
+  {
+    id: 998,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Aid the Underduke",
+    location: "Lower City / Ironhand Gnomes",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rallies the Ironhand gnomes",
+    summary: "The Ironhand gnomes and their leader need help striking back at Gortash's Steel Watch. Coordinate with the Underduke.",
+    aiTip: "This dovetails with destroying the Steel Watch Foundry — freeing Wulbren's gnomes gives you the runepowder plan.",
+    walkthrough: [
+      "Make contact with the Ironhand gnome resistance.",
+      "Meet the Underduke coordinating their efforts.",
+      "Agree to help sabotage Gortash's Steel Watch.",
+      "Free imprisoned gnomes to bolster their numbers.",
+      "Plan the assault on the Steel Watch Foundry.",
+      "Deliver the blow that cripples the Watch."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Aid%20the%20Underduke%20walkthrough"
+  },
+  {
+    id: 999,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Avenge the Hag Survivors",
+    location: "Lower City / Ethel's Lair",
+    length: "medium",
+    difficulty: "High",
+    reward: "Closes Auntie Ethel's story",
+    summary: "Survivors maimed by Auntie Ethel gather in the city, seeking to end her for good. Track the hag to her final lair.",
+    aiTip: "Ethel hides among illusions and doubles in her Lower City lair — an illusion-piercing approach helps.",
+    walkthrough: [
+      "Meet the victims scarred by Auntie Ethel.",
+      "Follow their leads to Ethel's hidden lair.",
+      "Navigate her illusions and false selves.",
+      "Confront the hag in her true form.",
+      "Defeat Ethel once and for all.",
+      "Free any remaining captives and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Hag%20Survivors%20walkthrough"
+  },
+  {
+    id: 1000,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Avenge the Ironhands",
+    location: "Lower City / Steel Watch Foundry",
+    length: "medium",
+    difficulty: "High",
+    reward: "Justice for the enslaved gnomes",
+    summary: "Gortash enslaved the Ironhand gnomes to build his Steel Watch. Bring their tormentors to justice.",
+    aiTip: "Freeing the Gondian and Ironhand workers first weakens the foundry's defenses for the reckoning.",
+    walkthrough: [
+      "Learn the fate of the enslaved Ironhand gnomes.",
+      "Infiltrate the Steel Watch Foundry.",
+      "Free the surviving gnome workers.",
+      "Confront the overseers responsible.",
+      "Destroy the Steel Watch production.",
+      "Deliver justice for the Ironhands."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Ironhands%20walkthrough"
+  },
+  {
+    id: 1001,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Feed the Mind Flayer",
+    location: "Emperor's Hideout",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Companion consequences; power boost",
+    summary: "Your protector reveals it needs to feed on a thrall to stay strong. Decide whether to provide a victim — and who.",
+    aiTip: "Refusing weakens your guardian's protection; the choice has major companion reactions.",
+    walkthrough: [
+      "Enter the Emperor's hideout and hear its request.",
+      "Learn why it needs to feed on a humanoid.",
+      "Weigh the moral cost against the tactical benefit.",
+      "Choose whether to provide a thrall.",
+      "Deal with your companions' strong reactions.",
+      "Live with the consequences of your decision."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Feed%20the%20Mind%20Flayer%20walkthrough"
+  },
+  {
+    id: 1002,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Enter Wyrm's Rock Fortress",
+    location: "Wyrm's Rock Fortress",
+    length: "medium",
+    difficulty: "High",
+    reward: "Advances the Gortash confrontation",
+    summary: "Gortash's coronation takes place in the heavily guarded Wyrm's Rock Fortress. Get inside to confront him.",
+    aiTip: "You can attend the coronation peacefully or storm the gates — an ambush at the ceremony is possible either way.",
+    walkthrough: [
+      "Approach Wyrm's Rock Fortress in the Lower City.",
+      "Choose to enter via invitation or by force.",
+      "Navigate the fortress's guards and traps.",
+      "Reach Gortash at his coronation.",
+      "Decide to parley or fight the Chosen of Bane.",
+      "Claim his Netherstone if he falls."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Enter%20Wyrm's%20Rock%20Fortress%20walkthrough"
+  },
+  {
+    id: 1003,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Defeat Mystic Carrion",
+    location: "Philgrave's Mansion, Lower City",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rare loot; frees a servant",
+    summary: "The undead necromancer Mystic Carrion rules Philgrave's Mansion. His servant Thrumbo begs for freedom from his master.",
+    aiTip: "Carrion revives unless you destroy his hidden Heart and organs first — search the sarcophagi before the fight.",
+    walkthrough: [
+      "Enter Philgrave's Mansion in the Lower City.",
+      "Meet Mystic Carrion and his abused servant Thrumbo.",
+      "Search the crypts for Carrion's hidden organs and Heart.",
+      "Destroy the phylactery-like remains.",
+      "Confront and defeat Mystic Carrion.",
+      "Free Thrumbo and loot the necromancer's treasures."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20Mystic%20Carrion%20walkthrough"
+  },
+  {
+    id: 1004,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Find Ffion",
+    location: "Lower City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Zhentarim / missing person lead",
+    summary: "A missing person named Ffion is tied to the Zhentarim's troubles in the city. Track down what became of them.",
+    aiTip: "Ffion's trail connects to the smuggled letters and the Guild — follow the paper trail.",
+    walkthrough: [
+      "Pick up the lead about the missing Ffion.",
+      "Question contacts in the Lower City.",
+      "Follow clues toward the Zhentarim or Guild.",
+      "Discover Ffion's fate.",
+      "Recover any related evidence or letters.",
+      "Report your findings."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ffion%20walkthrough"
+  },
+  {
+    id: 1005,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Help the Cursed Monk",
+    location: "Lower City",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Lifts a curse; reward",
+    summary: "A monk suffers under a lingering curse and pleads for aid in breaking it.",
+    aiTip: "Identifying the curse's source is key — investigate the monk's history before attempting a cure.",
+    walkthrough: [
+      "Meet the afflicted monk in the Lower City.",
+      "Learn the nature of the curse plaguing him.",
+      "Investigate its origin.",
+      "Gather what's needed to break the curse.",
+      "Perform or arrange the remedy.",
+      "Free the monk and accept his thanks."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Cursed%20Monk%20walkthrough"
+  },
+  {
+    id: 1006,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Help the Devilish Ox",
+    location: "Elfsong Tavern / Lower City",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Karlach-related; roleplay",
+    summary: "A peculiar ox near the tavern is not what it seems — it's a disguised devil watching over someone dear to Karlach.",
+    aiTip: "Passing perception and dialogue checks reveals the ox's true purpose; handle it gently for Karlach's sake.",
+    walkthrough: [
+      "Notice the odd ox loitering near the Elfsong Tavern.",
+      "Inspect it and pass the checks to see through its disguise.",
+      "Learn it is a devil connected to Karlach.",
+      "Speak with it about its intentions.",
+      "Decide how to handle the revelation.",
+      "Resolve the encounter without endangering Karlach."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Devilish%20Ox%20walkthrough"
+  },
+  {
+    id: 1007,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Retrieve Omeluum",
+    location: "Iron Throne / Underwater Prison",
+    length: "medium",
+    difficulty: "High",
+    reward: "Frees the friendly mind flayer",
+    summary: "Your Underdark ally Omeluum has been captured by the Society of Brilliance and held in the flooded Iron Throne prison.",
+    aiTip: "The Iron Throne is on a strict timer as it floods — prioritize reaching Omeluum's cell quickly.",
+    walkthrough: [
+      "Learn Omeluum is imprisoned in the Iron Throne.",
+      "Take the submersible down to the underwater prison.",
+      "Race against the flooding timer.",
+      "Reach Omeluum's cell and free the mind flayer.",
+      "Escape the collapsing prison in time.",
+      "Reunite with Omeluum on the surface."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Retrieve%20Omeluum%20walkthrough"
+  },
+  {
+    id: 1008,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Return Rakath's Gold",
+    location: "Counting House Vault, Lower City",
+    length: "medium",
+    difficulty: "High",
+    reward: "Large gold reward",
+    summary: "A fortune belonging to Rakath sits in the Counting House vault. Recover it — legitimately or otherwise.",
+    aiTip: "The vault is trapped and guarded; a heist route via the sewers avoids the front-desk scrutiny.",
+    walkthrough: [
+      "Learn about Rakath's gold held in the Counting House.",
+      "Gain access to the vault by key or by force.",
+      "Navigate the vault's traps and guardians.",
+      "Recover the gold from the deposit boxes.",
+      "Decide whether to return it or keep it.",
+      "Collect your reward or the loot itself."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20Rakath's%20Gold%20walkthrough"
+  },
+  {
+    id: 1009,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Stop the Presses",
+    location: "Baldur's Mouth Gazette, Lower City",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Reputation; information",
+    summary: "The Baldur's Mouth newspaper is printing Gortash's propaganda. Reach the printing press and change the story.",
+    aiTip: "Digging up dirt on Gortash lets you run a damaging exposé instead of his approved narrative.",
+    walkthrough: [
+      "Enter the Baldur's Mouth Gazette offices.",
+      "Investigate the propaganda being printed.",
+      "Gather blackmail or evidence against Gortash.",
+      "Confront the editor at the printing press.",
+      "Persuade or force a change to the headline.",
+      "Publish the truth to sway the city."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Presses%20walkthrough"
+  },
+  {
+    id: 1010,
+    type: "side",
+    category: "Side Quest",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Visit Emperor's Hideout",
+    location: "Emperor's Hideout / Astral Prism",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Story revelations; romance option",
+    summary: "Your dream guardian invites you to its private hideout to reveal its true identity and intentions.",
+    aiTip: "The Emperor's reveal is a major turning point — your reaction shapes its trust and a possible romance.",
+    walkthrough: [
+      "Accept the guardian's invitation to its hideout.",
+      "Enter the safe pocket within the Astral Prism.",
+      "Learn the Emperor's true identity and history.",
+      "Question it about its plans for the Netherbrain.",
+      "Choose how to respond to its overtures.",
+      "Decide how far to trust the Emperor going forward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20Emperor's%20Hideout%20walkthrough"
   }
 
+,  {
+    id: 1027,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Bombing Mission",
+    location: "Sector 1 Reactor",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, first Materia and the Guard Scorpion boss",
+    summary:
+      "Join Avalanche's raid on the Mako Reactor 1 in the game's explosive opening, ending in a duel with Shinra's Guard Scorpion.",
+    aiTip:
+      "Attack the Guard Scorpion's tail when it braces to fire its tail laser, and take cover behind rubble during its barrage phase.",
+    walkthrough: [
+      "Follow Barret through the Sector 1 station and into the reactor.",
+      "Set the bomb at the reactor core when prompted.",
+      "Fight the Guard Scorpion — target its weak points with Cloud's Braver ability.",
+      "Take cover behind debris when it charges the tail laser, then punish the recovery.",
+      "Escape the reactor before the timer expires."
+    ],
+    video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
+  },
+  {
+    id: 1028,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Escape from the Reactor",
+    location: "Sector 8",
+    length: "short",
+    difficulty: "Low",
+    reward: "Story progression, Aerith encounter",
+    summary:
+      "Flee the collapsing Sector 8 after the bombing and meet the flower girl Aerith amid the chaos.",
+    aiTip:
+      "There's no combat pressure here — explore Sector 8 for items and enjoy the set-piece before regrouping with Avalanche.",
+    walkthrough: [
+      "Escape the reactor blast and reach the Sector 8 streets.",
+      "Speak with Aerith when you meet her among the swirling Whispers.",
+      "Push through the Shinra troops blocking the plaza.",
+      "Board the train back to the Sector 7 hideout."
+    ],
+    video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
+  },
+  {
+    id: 1029,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Sector 7 Slums",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the slums hub and its side quests",
+    summary:
+      "Return to the Seventh Heaven hideout, meet Tifa, and get your first taste of the Sector 7 slums where side jobs open up.",
+    aiTip:
+      "Talk to everyone in the slums to unlock the odd-job board — this is your first window for missable side quests.",
+    walkthrough: [
+      "Arrive at the Seventh Heaven bar and reunite with Tifa.",
+      "Explore the Sector 7 slums and speak with residents.",
+      "Accept available odd jobs from the notice board.",
+      "Rest at the hideout to advance the story."
+    ],
+    video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
+  },
+  {
+    id: 1030,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Jessie's Home Invasion",
+    location: "Upper Plate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, upgraded weapons materia",
+    summary:
+      "Sneak onto the upper plate with Jessie, Biggs, and Wedge to steal explosives from her family's home for the next reactor job.",
+    aiTip:
+      "Use the motorcycle sequence to build up your limit gauge — you'll want it charged for the ambush at the end.",
+    walkthrough: [
+      "Ride the train and infiltrate the upper plate with Jessie's crew.",
+      "Sneak past the Shinra patrols to Jessie's house.",
+      "Recover the stashed explosives.",
+      "Escape on the highway and survive the Roche motorcycle chase."
+    ],
+    video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
+  },
+  {
+    id: 1031,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Reactor 5 Raid",
+    location: "Railway",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Crab Warden boss materia",
+    summary:
+      "Ride the rails to Mako Reactor 5 for a second bombing run that goes wrong when Shinra springs a trap.",
+    aiTip:
+      "Save your ATB for the Crab Warden's legs — breaking them staggers it and opens a huge damage window.",
+    walkthrough: [
+      "Traverse the railway and enter Reactor 5.",
+      "Plant the bomb at the core with Tifa and Barret.",
+      "Fight the Crab Warden — destroy its legs to topple it.",
+      "Exploit the stagger to burn it down before its cannon volley.",
+      "Survive the ambush that follows the explosion."
+    ],
+    video: "https://www.youtube.com/watch?v=VGR8joU9ems"
+  },
+  {
+    id: 1032,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "The Town That Never Sleeps",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "With the sun-lamps of the slums as backdrop, Cloud is separated from the group and plummets into the Sector 5 church.",
+    aiTip:
+      "This chapter is light on combat and heavy on story — explore for hidden items before the fall.",
+    walkthrough: [
+      "Fight through the reactor aftermath alongside Barret.",
+      "Get separated during the escape and fall through the plate.",
+      "Awaken in the Sector 5 church and meet Aerith again.",
+      "Fend off the first wave of Shinra pursuers."
+    ],
+    video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
+  },
+  {
+    id: 1033,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Reactors & Upper Plate",
+    title: "Defeat Airbuster",
+    location: "Reactor 5",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, Airbuster boss loot and materia choices",
+    summary:
+      "Confront Shinra's Airbuster war machine on the reactor bridge — a fight whose difficulty you can ease beforehand.",
+    aiTip:
+      "Divert the keycards to strip the Airbuster's parts before the fight; lightning materia melts its health bar.",
+    walkthrough: [
+      "Choose which keycard terminals to divert to weaken the Airbuster.",
+      "Enter the bridge fight and stay mobile to avoid its missile spread.",
+      "Hit it with Thunder/Thundara to build stagger fast.",
+      "Destroy it, then survive the cliffhanger with Barret."
+    ],
+    video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
+  },
+  {
+    id: 1034,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Escort the Flower Girl",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, unlocks Sector 5 side quests",
+    summary:
+      "Guide Aerith safely home through the Sector 5 slums, opening up the district's odd jobs and the moogle shop.",
+    aiTip:
+      "Take the detours with Aerith to trigger her side content — several missable jobs unlock only during this stretch.",
+    walkthrough: [
+      "Walk Aerith home through the Sector 5 slums.",
+      "Complete the slum errands that open along the way.",
+      "Reach Aerith's house and rest.",
+      "Agree to help her cross to Sector 7 the next day."
+    ],
+    video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
+  },
+  {
+    id: 1035,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Wall Market",
+    location: "Wall Market",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, the crossdressing set-piece and dress outcome",
+    summary:
+      "Infiltrate Don Corneo's mansion by winning over Wall Market — the outcome depends on the sidequests you complete.",
+    aiTip:
+      "Do the Corneo Colosseum and dressmaker sidequests to earn the best dress and honeybee outcomes; they're fully missable.",
+    walkthrough: [
+      "Arrive in Wall Market and learn Tifa has gone to Corneo's mansion.",
+      "Complete the dress, colosseum, and massage-parlor branches for better outcomes.",
+      "Get dressed up and enter the mansion audition.",
+      "Confront Don Corneo and escape with Tifa and Aerith."
+    ],
+    video: "https://www.youtube.com/watch?v=2gShRpduP38"
+  },
+  {
+    id: 1036,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Collapsed Expressway",
+    location: "Sewers",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Abzu boss materia",
+    summary:
+      "Drop into the sewers beneath Wall Market and fight through Corneo's beasts, including the hulking Abzu.",
+    aiTip:
+      "Abzu is weak to fire; keep Aerith at range casting while Cloud pressures it up close.",
+    walkthrough: [
+      "Descend into the Sector 6 sewers after fleeing Corneo.",
+      "Navigate the flooded tunnels and sluice gates.",
+      "Fight Abzu — exploit its fire weakness and dodge its charge.",
+      "Reach the exit toward the train graveyard."
+    ],
+    video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
+  },
+  {
+    id: 1037,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sewers & Graveyard",
+    title: "The Train Graveyard",
+    location: "Graveyard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Ghost enemy materia",
+    summary:
+      "Pick through the eerie, ghost-haunted Train Graveyard on the way back to Sector 7.",
+    aiTip:
+      "The child-ghost puzzles gate your progress — interact with the kids in order and use fire on the spectral enemies.",
+    walkthrough: [
+      "Enter the Train Graveyard with Tifa and Aerith.",
+      "Solve the ghost-children puzzles to open the path.",
+      "Burn down the Eligor and ghost enemies with fire spells.",
+      "Emerge at the base of the Sector 7 pillar."
+    ],
+    video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
+  },
+  {
+    id: 1038,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "The Sector 7 Plate Collapse",
+    location: "Sector 7",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Reno & Rude boss fight",
+    summary:
+      "Race to stop Shinra from dropping the Sector 7 plate, battling the Turks Reno and Rude atop the pillar.",
+    aiTip:
+      "Reno punishes greed — bait his EM-rod combos, then punish; swap targets when Rude casts to interrupt.",
+    walkthrough: [
+      "Climb the Sector 7 pillar under fire.",
+      "Fight Reno and Rude at the top of the tower.",
+      "Reach the plate-support terminal.",
+      "Survive the collapse and its heartbreaking aftermath."
+    ],
+    video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
+  },
+  {
+    id: 1039,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Rescue Aerith",
+    location: "Sector 7",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, underground lab route",
+    summary:
+      "Descend through the ruined slums and the underground lab in pursuit of the Turks who captured Aerith.",
+    aiTip:
+      "Stock up and upgrade weapons at the collapse aftermath — the Shinra Building assault ahead is long with no shops.",
+    walkthrough: [
+      "Search the ruins of Sector 7 for a way up.",
+      "Travel through the underground test lab.",
+      "Regroup with Barret and Tifa on the plan to save Aerith.",
+      "Reach the base of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/watch?v=cItnWImfcwk"
+  },
+  {
+    id: 1040,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Open the Hub",
+    location: "Sector 5/6",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Multiple side quests unlock, Chocobo & moogle content",
+    summary:
+      "A breather chapter that reopens the slums as a hub, letting you mop up side quests before the Shinra assault.",
+    aiTip:
+      "This is the last chance for many Sector 5/6 side quests — clear the job board before advancing to Shinra HQ.",
+    walkthrough: [
+      "Return to the reopened slums hub.",
+      "Accept and complete the remaining odd jobs.",
+      "Upgrade weapons and restock consumables.",
+      "Meet the group to begin the Shinra Building plan."
+    ],
+    video: "https://www.youtube.com/watch?v=cS07VIv18uA"
+  },
+  {
+    id: 1041,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Climb the Plate",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression",
+    summary:
+      "Scale the towering support structure of Midgar's plate to infiltrate the Shinra Building from below.",
+    aiTip:
+      "Manage stamina during the climb sequences and pick up the hidden manuscripts tucked along the girders.",
+    walkthrough: [
+      "Begin the long climb up the plate supports.",
+      "Cross the collapsing walkways and machinery.",
+      "Fight the security drones guarding the ascent.",
+      "Reach the rear entrance of the Shinra Building."
+    ],
+    video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
+  },
+  {
+    id: 1042,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Infiltrate Shinra HQ",
+    location: "Shinra",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression, Shinra Building exploration and lore",
+    summary:
+      "Break into Shinra headquarters — by stairs or front door — and climb its floors toward the executive suites.",
+    aiTip:
+      "Take the stairs for the achievement and extra fights, or the front assault for a quicker, harder path.",
+    walkthrough: [
+      "Choose the stealth stairwell or the front-door assault.",
+      "Work through the corporate floors and museum exhibits.",
+      "Recover Aerith and confront the science department.",
+      "Reach the executive levels for the confrontation with Hojo."
+    ],
+    video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
+  },
+  {
+    id: 1043,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Hojo's Laboratory",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Jenova Dreamweaver & Rufus boss fights",
+    summary:
+      "Break out of Hojo's specimen labs and battle your way down through Jenova and Rufus Shinra's escape.",
+    aiTip:
+      "Rufus's fight is a duel — dodge his pistol shots and Dark Nation's buffs, and punish between his gunslinger combos.",
+    walkthrough: [
+      "Escape the specimen containment in Hojo's lab.",
+      "Fight Jenova Dreamweaver alongside the party.",
+      "Duel Rufus Shinra and Dark Nation on the helipad.",
+      "Regroup for the escape from the tower."
+    ],
+    video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
+  },
+  {
+    id: 1044,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Shinra HQ & Midgar",
+    title: "Escape from Midgar",
+    location: "Midgar",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Motor Ball and the Arbiter of Fate finale",
+    summary:
+      "Blast down the Midgar Expressway on stolen bikes, defeat Motor Ball, and face the Whispers to leave the city behind.",
+    aiTip:
+      "Charge your limit breaks before the highway boss; the multi-phase finale rewards saving them for the Arbiter of Fate.",
+    walkthrough: [
+      "Flee Shinra HQ on the highway with the party split across vehicles.",
+      "Defeat Motor Ball during the expressway chase.",
+      "Confront Sephiroth at the edge of Midgar.",
+      "Battle the Whispers — the Arbiter of Fate — to close the story."
+    ],
+    video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
+  },
+  {
+    id: 1045,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Chocobo Search (Rat Problem)",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gil and a Chocobo & Moogle summon materia progress",
+    summary:
+      "Help Wymer clear a rat and monster infestation plaguing the Sector 7 slums.",
+    aiTip:
+      "Quick early-game job — bring some AoE to sweep the rat packs efficiently.",
+    walkthrough: [
+      "Take the request from Wymer at the slum entrance.",
+      "Track down the wererat nests around Sector 7.",
+      "Clear each infestation point.",
+      "Return to Wymer for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
+  },
+  {
+    id: 1046,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "Lost Friends",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Low",
+    reward: "Healing items and slum reputation",
+    summary:
+      "Round up a group of missing cats for a worried slum resident.",
+    aiTip:
+      "The cats are scattered across nearby screens — check rooftops and alleys; no combat required beyond stray monsters.",
+    walkthrough: [
+      "Accept the Lost Friends job in Sector 7.",
+      "Search the slum streets for each missing cat.",
+      "Coax the cats back one by one.",
+      "Report back to complete the request."
+    ],
+    video: "https://www.youtube.com/watch?v=YJQZl0q2SSU"
+  },
+  {
+    id: 1047,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 7 Slums",
+    title: "On the Prowl",
+    location: "Sector 7",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Elixir and combat reputation",
+    summary:
+      "Hunt down the aggressive monsters stalking the Sector 7 slum outskirts for the watch.",
+    aiTip:
+      "Equip an Assess materia to spot each target's weakness and finish the hunt faster.",
+    walkthrough: [
+      "Take the hunt request from the slum watch.",
+      "Locate the marked monster dens.",
+      "Defeat the prowling beasts.",
+      "Turn in the bounty for an Elixir."
+    ],
+    video: "https://www.youtube.com/watch?v=cyNzZULI_EQ"
+  },
+  {
+    id: 1048,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Kids on Patrol",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "A weapon and slum-kid reputation",
+    summary:
+      "Play along with the slum children's neighborhood watch by clearing the pests they've marked.",
+    aiTip:
+      "Light, low-stakes job — good for testing new materia loadouts on weak enemies.",
+    walkthrough: [
+      "Accept Kids on Patrol from the children in Sector 5.",
+      "Visit each patrol point they mark.",
+      "Defeat the monsters harassing the area.",
+      "Return to the kids for a weapon reward."
+    ],
+    video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
+  },
+  {
+    id: 1049,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "The Angel of the Slums (Moogle Merchant)",
+    location: "Sector 5",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unlocks the Moogle Emporium shop",
+    summary:
+      "Earn Moogle Medals for the mysterious child running the Moogle Emporium to unlock its exclusive stock.",
+    aiTip:
+      "Save your Moogle Medals for the summon and accessory items — they're some of the best early purchases.",
+    walkthrough: [
+      "Find the Moogle Emporium in the Sector 5 slums.",
+      "Complete tasks to earn Moogle Medals.",
+      "Spend medals to unlock the shop's stock.",
+      "Buy the exclusive materia and items."
+    ],
+    video: "https://www.youtube.com/watch?v=CRGlett0WO8"
+  },
+  {
+    id: 1050,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "Burning Thighs",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Improves the Wall Market dress branch outcome",
+    summary:
+      "Train at the Wall Market gym in a squat-contest minigame that feeds into the crossdressing set-piece.",
+    aiTip:
+      "Nail the button rhythm to beat the champion — winning improves which dress and outcome you unlock later.",
+    walkthrough: [
+      "Enter the gym in Wall Market and challenge the squat contest.",
+      "Match the on-screen button prompts in rhythm.",
+      "Beat the reigning champion Jules.",
+      "Collect the reward that boosts your dress-branch outcome."
+    ],
+    video: "https://www.youtube.com/watch?v=XDwOql565bQ"
+  },
+  {
+    id: 1051,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Wall Market",
+    title: "The Price of Thievery",
+    location: "Wall Market",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wall Market rewards and dress-branch progress",
+    summary:
+      "Recover stolen goods for a Wall Market vendor as part of earning your way into Corneo's audition.",
+    aiTip:
+      "This branch feeds the same outcome tree as the dress and colosseum jobs — complete it before the mansion.",
+    walkthrough: [
+      "Take the vendor's request in Wall Market.",
+      "Track the thieves through the back alleys.",
+      "Defeat them and recover the stolen goods.",
+      "Return the goods for rewards and branch progress."
+    ],
+    video: "https://www.youtube.com/watch?v=ahnJxa4n-3o"
+  },
+  {
+    id: 1052,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Missing Children",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Accessories and Chapter 14 reputation",
+    summary:
+      "Search the reopened Sector 5 slums for children who wandered off toward the collapsed plate.",
+    aiTip:
+      "Available only in the Chapter 14 hub window — grab it before advancing or it's gone.",
+    walkthrough: [
+      "Accept Missing Children in the Chapter 14 slum hub.",
+      "Follow the trail toward the ruined outskirts.",
+      "Fight off the monsters and find each child.",
+      "Escort them home for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FMkKY_34Q3Q"
+  },
+  {
+    id: 1053,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Sector 5 Slums",
+    title: "Secret Medicine",
+    location: "Sector 5",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare healing items and reputation",
+    summary:
+      "Gather ingredients for a slum doctor's remedy during the Chapter 14 hub window.",
+    aiTip:
+      "Note the ingredient locations before you start — a couple require clearing monster nests near the waterway.",
+    walkthrough: [
+      "Take the Secret Medicine request from the slum clinic.",
+      "Collect the required ingredients around Sector 5.",
+      "Clear the monsters guarding the rarer components.",
+      "Deliver everything to the doctor for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=QCiLElY5Vb0"
+  },
+  {
+    id: 1054,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Wutai's Finest",
+    location: "Midgar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, Yuffie and the Fort Condor minigame unlock",
+    summary:
+      "Play as Yuffie Kisaragi infiltrating Midgar to steal Shinra's ultimate materia in the INTERmission DLC.",
+    aiTip:
+      "Master Yuffie's ranged/melee stance swap early — throwing and recalling her shuriken is her whole damage engine.",
+    walkthrough: [
+      "Arrive in Midgar as Yuffie and meet your Avalanche HQ contact.",
+      "Learn Yuffie's shuriken-throw and elemental ninjutsu combat.",
+      "Explore the slums and unlock the Fort Condor board-game minigame.",
+      "Team up with Sonon to begin the infiltration."
+    ],
+    video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
+  },
+  {
+    id: 1055,
+    type: "main",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Covert Ops",
+    location: "Shinra",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending, Nero the Sable boss fight",
+    summary:
+      "Break into the Shinra Building with Sonon, culminating in a desperate duel against Nero the Sable.",
+    aiTip:
+      "Use Synchronized ATB with Sonon to chain abilities; Nero's darkness voids punish sloppy dodges, so stay patient.",
+    walkthrough: [
+      "Infiltrate the Shinra Building's lower levels with Sonon.",
+      "Fight through the security and research floors.",
+      "Confront Nero the Sable in the depths.",
+      "Use synergy attacks to break him and escape with the materia."
+    ],
+    video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
+  },
+  {
+    id: 1056,
+    type: "side",
+    game: "Final Fantasy VII Remake",
+    region: "Intermission",
+    title: "Fort Condor",
+    location: "Various",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Unlocks board-game rewards and materia",
+    summary:
+      "Take on the slums' Fort Condor board-game champions across Midgar for exclusive materia and prizes.",
+    aiTip:
+      "Build a balanced deck of ranged, defense, and vanguard units, and target the enemy's outposts first to snowball.",
+    walkthrough: [
+      "Unlock the Fort Condor minigame during Wutai's Finest.",
+      "Challenge each ranked board-game opponent.",
+      "Adjust your unit loadout between matches.",
+      "Beat the champions to claim the exclusive rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
+  },
+  // ── Metaphor: ReFantazio — Main Quests (MQ-01 to MQ-11) ──
+  {
+    id: 1132,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Save the Prince from Death's Curse",
+    location: "Grand Trad / Regalith Grand Cathedral",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, first Gauntlet Runner access",
+    summary:
+      "The opening main quest: the king is assassinated and his death-curse passes to the prince. Race against the calendar to find a cure while entering the Royal Election to claim the throne.",
+    aiTip:
+      "Time is limited from day one — prioritize the main dungeon over social activities on your first run. Learn the Archetype system here.",
+    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
+  },
+  {
+    id: 1133,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Necromancer Takedown",
+    location: "Grand Trad Cathedral",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, Archetype mastery points",
+    summary:
+      "Pursue and defeat Zorba the Necromancer before he can use the undead to seize power. The dungeon tests your elemental coverage and introduces Synthesis attacks as a necessity.",
+    aiTip:
+      "Zorba summons undead constantly — use Synthesis Skills like Energy Ray and Hammer of Justice to wipe adds quickly before focusing the boss.",
+    video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
+  },
+  {
+    id: 1059,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Thwart Zorba's Plan",
+    location: "Grand Trad",
+    length: "long",
+    difficulty: "High",
+    reward: "Story advancement, new Archetype lines",
+    summary:
+      "Zorba has a backup scheme that threatens the election and the capital. Unravel his plot across multiple investigation scenes before a boss confrontation closes this chapter.",
+    aiTip:
+      "Reach the dungeon as early as the calendar allows — running out of days here forces a retry of the whole month.",
+    video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
+  },
+  {
+    id: 1060,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Apprehend the Real Kidnapper",
+    location: "Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation, Follower bond growth",
+    summary:
+      "A kidnapping in Martira has an unexpected culprit. Investigate informants across the city and track the true suspect before they escape, culminating in a mid-game boss fight.",
+    aiTip:
+      "Talk to every NPC that has a '!' marker — missing one informant locks you out of the true suspect's location.",
+    video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
+  },
+  {
+    id: 1061,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Infiltrate the Charadrius",
+    location: "The Charadrius (Louis's Flagship)",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation about Louis, key Archetype abilities",
+    summary:
+      "Board Louis's formidable flagship the Charadrius to gather intelligence. The dungeon is filled with elite soldiers and ends with an encounter that shifts the entire political landscape.",
+    aiTip:
+      "Stealth sections matter here — triggering alarms adds enemies that drain valuable MP before the boss.",
+    video: "https://www.youtube.com/watch?v=fOzug0yoLCg"
+  },
+  {
+    id: 1062,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Obtain Drakodios",
+    location: "Virga Island / Dragon Temple",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Drakodios relic, powerful late-game Archetypes",
+    summary:
+      "Sail to the remote Virga Island and enter the Dragon Temple to obtain the legendary relic Drakodios. The dungeon is among the longest in the game with multiple boss encounters.",
+    aiTip:
+      "Max your Archetype masteries before entering — the Dragon Temple has a difficulty spike that catches underprepared parties.",
+    video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
+  },
+  {
+    id: 1063,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Ancestral Solution",
+    location: "Virga Island / Dragon Temple",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Key story resolution, ultimate Archetype upgrades",
+    summary:
+      "Delve deeper into the Dragon Temple's secrets to find the ancestral solution that can break the prince's death-curse. A lore-dense quest that reveals the world's true history.",
+    aiTip:
+      "The Homo Sabara boss here has multiple phases — bring wind and fire coverage and keep everyone above half HP entering the final phase.",
+    video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
+  },
+  {
+    id: 1064,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Eliminate Virga Island's Threat",
+    location: "Virga Island",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Island cleared, MAG and rare materials",
+    summary:
+      "A powerful threat blocks progress on Virga Island. Hunt it down across the island's dangerous terrain to clear the path for the main quest.",
+    aiTip:
+      "Save before the engagement — this is an optional but difficult encounter. Stock up on revival items.",
+    video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
+  },
+  {
+    id: 1065,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Prepare for the Final Battle",
+    location: "Grand Trad / Skybound Avatar",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Final dungeon access, party-wide stat boosts",
+    summary:
+      "With the Royal Election decided, make final preparations before ascending to the Skybound Avatar. Complete remaining Follower bonds, stock items, and master your Archetypes.",
+    aiTip:
+      "This is the point of no return for many side quests. Spend all remaining days on Follower bonds and Virtue trials before entering the final dungeon.",
+    video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
+  },
+  {
+    id: 1066,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Skybound Avatar Conquest",
+    location: "Skybound Avatar (Final Dungeon)",
+    length: "long",
+    difficulty: "Very High",
+    reward: "True Ending, platinum trophy route",
+    summary:
+      "The final multi-phase gauntlet. Ascend the Skybound Avatar, face Zorba's return, and confront the final manifestation of the kingdom's fear — the throne's true enemy revealed.",
+    aiTip:
+      "Bring maximum healing stock and your three strongest Archetype setups. The final boss has three distinct phases with no save point between them.",
+    video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
+  },
+  {
+    id: 1067,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Save the Country",
+    location: "Grand Trad Throne Room",
+    length: "medium",
+    difficulty: "High",
+    reward: "True Ending cutscenes, credit roll",
+    summary:
+      "The climax after defeating the final boss. A series of story sequences and decisions determines the fate of the kingdom and the protagonist's future.",
+    aiTip:
+      "Your accumulated Royal Virtue and Follower bond ranks affect dialogue options and ending variants — max them out before this point.",
+    video: "https://www.youtube.com/watch?v=kt2jvZc6BHg"
+  },
+  // ── More's Tasks (SQ-01 to SQ-07) ──
+  {
+    id: 1068,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task: Foreword and Prologue",
+    location: "Grand Trad / Gauntlet Runner",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype system unlocked, bond with More initiated",
+    summary:
+      "More introduces himself and the Archetype codex, setting the foundation for the game's class system. This first task is essentially the tutorial for unlocking new Archetypes through bond progression.",
+    aiTip:
+      "Completing More's Tasks in order is required to unlock advanced Archetype lineages — don't skip early chapters even if they seem brief.",
+    video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
+  },
+  {
+    id: 1069,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task Chapter One: Ordeal",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "More's first task asks you to face an ordeal that tests your resolve and combat preparation. Completing it opens the next tier of Archetype lineages.",
+    aiTip:
+      "Talk to More whenever a '!' appears on the Gauntlet Runner — his tasks are calendar-gated and easy to miss.",
+    video: "https://www.youtube.com/watch?v=burZDgeyC88"
+  },
+  {
+    id: 1070,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task Chapter Two: Solitude",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "More reflects on solitude and what it means to walk a path alone. This chapter deepens his backstory and rewards a new Archetype lineage on completion.",
+    aiTip:
+      "Choose dialogue options that align with empathy for the best bond growth outcome.",
+    video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
+  },
+  {
+    id: 1071,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Three: Drifting",
+    location: "Martira",
+    length: "short",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "As the party drifts between cities, More opens up about his past as a driver and his place in the journey. A quiet but character-defining chapter.",
+    aiTip:
+      "This chapter unlocks on the road to Martira — trigger it before the next main quest deadline.",
+    video: "https://www.youtube.com/watch?v=TSww6LGRKiE"
+  },
+  {
+    id: 1072,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Four: Turmoil",
+    location: "Martira",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Archetype unlock, bond rank increase",
+    summary:
+      "Political turmoil tests More's loyalty and judgment. This chapter involves a short confrontation that reveals his personal code of ethics.",
+    aiTip:
+      "Have at least Tolerance Rank 3 before this chapter — one dialogue option requires it for the best reward.",
+    video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
+  },
+  {
+    id: 1073,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "More's Task Chapter Five: Resolve",
+    location: "Kriegante",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Advanced Archetype unlock, key bond ability",
+    summary:
+      "More's resolve is tested in Kriegante as the political situation turns dangerous. He must make a critical decision about his role in the party's mission.",
+    aiTip:
+      "This chapter has a combat encounter — bring a balanced party as it can catch you off guard mid-story.",
+    video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
+  },
+  {
+    id: 1074,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "More's Task Chapter Six: The End",
+    location: "Skanda / Gauntlet Runner",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Final Archetype mastery unlock, unique bond ability",
+    summary:
+      "The conclusion of More's story arc. What began as a simple job as driver has become something far greater. This final chapter rewards the strongest Archetype abilities tied to his bond.",
+    aiTip:
+      "Complete all previous More's Tasks before the final dungeon — Chapter Six locks after entering the point of no return.",
+    video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
+  },
+  // ── Favor / NPC Quests (SQ-10 to SQ-25) ──
+  {
+    id: 1075,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "A Friend in Need",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, bond growth, consumables",
+    summary:
+      "A Grand Trad resident is in trouble and needs help that goes beyond coin. A short quest that expands the city's texture and rewards a modest MAG boost.",
+    aiTip:
+      "Talk to everyone around the quest NPC — one of their neighbours holds the key information needed to resolve the situation.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+A+Friend+in+Need+walkthrough",
+    walkthrough: [
+      "Speak to the troubled NPC in Grand Trad with the '!' marker to accept the quest.",
+      "Talk to the two neighbours indicated nearby to gather information about the problem.",
+      "Return to the original NPC and choose the correct dialogue option based on what you learned.",
+      "If a short combat encounter triggers, exploit enemy weaknesses for a fast finish.",
+      "Collect the MAG reward and bond point from the quest completion screen."
+    ]
+  },
+  {
+    id: 1076,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Missing Child",
+    location: "Grand Trad Residential District",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Courage stat growth",
+    summary:
+      "A child has wandered off into a dangerous part of Grand Trad. Track them down before nightfall in this time-sensitive fetch quest that rewards Courage stat growth.",
+    aiTip:
+      "The child hides in the area nearest the city walls — check the outer residential alley first to save time.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Child+walkthrough",
+    walkthrough: [
+      "Accept the quest from the worried parent in the Grand Trad residential district.",
+      "Head to the outer alley near the city walls — the child is hiding behind a stack of crates.",
+      "Speak to the child and select the reassuring dialogue option to coax them out.",
+      "Escort the child back to the parent by following the quest marker.",
+      "Collect the Courage stat point and MAG reward from the parent."
+    ]
+  },
+  {
+    id: 1077,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Merchant's Request",
+    location: "Grand Trad Market",
+    length: "short",
+    difficulty: "Low",
+    reward: "Discounted shop prices, MAG",
+    summary:
+      "A market merchant needs a specific item retrieved to fulfil a trade order. Simple but rewards a permanent shop discount that makes it well worth doing early.",
+    aiTip:
+      "The item the merchant needs is sold by the vendor two stalls over — buy it immediately and return for the discount reward.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Merchant%27s+Request+walkthrough",
+    walkthrough: [
+      "Talk to the merchant with the '!' marker in Grand Trad's market district.",
+      "Note the specific item they need — it is stocked by a nearby vendor in the same market.",
+      "Purchase the item and bring it back to the merchant.",
+      "Confirm the trade to receive MAG and unlock a permanent discount at that merchant's shop.",
+      "Revisit this merchant throughout the game to benefit from the reduced prices on consumables."
+    ]
+  },
+  {
+    id: 1078,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Delivery Troubles",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Tolerance stat growth",
+    summary:
+      "A courier is blocked from making a delivery by a bureaucratic obstacle. Help cut through the red tape and see the package delivered to earn Tolerance stat growth.",
+    aiTip:
+      "The gatekeeper NPC who is blocking the delivery has a hidden condition — speak to a nearby guard first to learn how to satisfy it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Delivery+Troubles+walkthrough",
+    walkthrough: [
+      "Accept the quest from the frustrated courier outside a gated district in Grand Trad.",
+      "Talk to the nearby guard to learn what document or condition would allow passage.",
+      "Retrieve or fulfill the condition — usually a short fetch from a building nearby.",
+      "Return to the gatekeeper with the required item or information to clear the way.",
+      "Watch the delivery complete and collect your MAG and Tolerance growth reward."
+    ]
+  },
+  {
+    id: 1079,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Stolen Goods Recovery",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, stolen item returned",
+    summary:
+      "Goods have been stolen from a vendor in the market. Track the thief through Grand Trad, retrieve the stolen merchandise, and return it to the owner.",
+    aiTip:
+      "The thief is near the city's lower district — follow the trail of NPC hints rather than wandering; each one points closer.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Stolen+Goods+Recovery+walkthrough",
+    walkthrough: [
+      "Speak to the victimised vendor with the '!' marker in the Grand Trad market.",
+      "Ask nearby stall owners about unusual activity — each gives a clue narrowing the location.",
+      "Head to the lower district and locate the thief hiding near the exit gate.",
+      "Confront the thief; a brief combat encounter or a successful dialogue check recovers the goods.",
+      "Return the stolen goods to the vendor and collect the MAG reward."
+    ]
+  },
+  {
+    id: 1080,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Troubled Soldier",
+    location: "Fort Endra, Martira",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Courage stat growth, unique consumable",
+    summary:
+      "A soldier stationed at Fort Endra is struggling with something that goes beyond combat fatigue. Hear him out, gather what he needs, and help him find his footing again.",
+    aiTip:
+      "This quest has two parts visited on separate calendar days — return to Fort Endra after advancing the main quest by one day.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Troubled+Soldier+walkthrough",
+    walkthrough: [
+      "Find the troubled soldier at Fort Endra's barracks with the '!' quest marker.",
+      "Listen to his concerns and choose the empathetic dialogue response to progress the quest.",
+      "Exit and advance one calendar day, then return to Fort Endra to trigger the follow-up scene.",
+      "Retrieve the specific item he requires from a vendor in Martira's market.",
+      "Return to the soldier to deliver the item and resolve his situation, collecting Courage growth and MAG."
+    ]
+  },
+  {
+    id: 1081,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Lost Necklace",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Wisdom stat growth",
+    summary:
+      "An NPC has lost a treasured necklace somewhere in Grand Trad. Search the city's hidden corners, question witnesses, and return the keepsake for a Wisdom reward.",
+    aiTip:
+      "The necklace is in a non-obvious spot behind a breakable object — check the area around the fountain near the market.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Lost+Necklace+walkthrough",
+    walkthrough: [
+      "Accept the quest from the upset NPC near the Grand Trad residential entrance.",
+      "Question the three witnesses scattered around the central plaza for location clues.",
+      "Head to the fountain area and inspect the small alcove or breakable object behind it.",
+      "Pick up the necklace from the spot and return it to the quest giver.",
+      "Collect the Wisdom growth and MAG reward from the grateful NPC."
+    ]
+  },
+  {
+    id: 1082,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Herbal Remedy",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, healing items, Wisdom growth",
+    summary:
+      "A healer needs rare herbs to prepare medicine for sick residents. Gather the herbs from the outskirts of Grand Trad and return them for a healing item reward.",
+    aiTip:
+      "The herbs spawn on the outer road near the Gauntlet Runner docking area — they respawn on calendar days so check back if you missed them.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Herbal+Remedy+walkthrough",
+    walkthrough: [
+      "Speak to the healer at the clinic in Grand Trad with the '!' marker.",
+      "Head to the outer road near the Gauntlet Runner dock and gather the glowing herb nodes.",
+      "Collect all three herb stacks indicated by the minimap icons.",
+      "Return to the healer and hand over the herbs.",
+      "Receive healing items and a Wisdom growth reward from the healer."
+    ]
+  },
+  {
+    id: 1083,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Guard Duty Assistance",
+    location: "Grand Trad City Gate",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Courage growth",
+    summary:
+      "A city guard needs backup during a short patrol after reports of suspicious activity near the gate. Accompany them, handle any encounter, and report back.",
+    aiTip:
+      "The enemy that spawns during patrol is weak to lightning — bring a Mage-type Archetype for a quick sweep.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Guard+Duty+Assistance+walkthrough",
+    walkthrough: [
+      "Talk to the guard at the Grand Trad city gate with the '!' marker to start escort duty.",
+      "Follow the guard along the patrol route, keeping pace with their movement.",
+      "When the ambush enemy spawns, exploit its lightning weakness to dispatch it in one round.",
+      "Continue the patrol to its endpoint with no further incidents.",
+      "Report back to the guard's captain to collect MAG and Courage growth."
+    ]
+  },
+  {
+    id: 1084,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Fisherman's Problem",
+    location: "Port Brilehaven, Martira",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, unique fish item",
+    summary:
+      "A fisherman at Port Brilehaven is being driven out of his usual spot by a territorial creature. Clear the nuisance and let him fish in peace.",
+    aiTip:
+      "The creature guarding the fishing spot is an early-rank bounty-style monster — hit it with fire to end the fight quickly.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Fisherman%27s+Problem+walkthrough",
+    walkthrough: [
+      "Find the fisherman with the '!' marker at Port Brilehaven's dock.",
+      "Head to the marked fishing spot on the port's outer edge where the creature lurks.",
+      "Engage and defeat the territorial monster — fire attacks are most effective.",
+      "Return to the fisherman and report that the spot is clear.",
+      "Receive MAG and a unique fish item that can be used in cooking or sold for extra coin."
+    ]
+  },
+  {
+    id: 1085,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Old Woman's Request",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, Tolerance growth",
+    summary:
+      "An elderly woman asks you to find a specific person in Grand Trad she has lost contact with. A simple but touching quest about reconnection in the middle of political upheaval.",
+    aiTip:
+      "The person she's looking for has moved to a different district — check the lower residential area near the market.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Old+Woman%27s+Request+walkthrough",
+    walkthrough: [
+      "Speak to the old woman with the '!' marker near the Grand Trad residential square.",
+      "Note the name of the person she is looking for and head to the lower residential district.",
+      "Find the NPC near the market entrance and relay the old woman's message.",
+      "Return to the old woman to deliver the response and trigger a short cutscene.",
+      "Collect MAG and Tolerance growth as the quest completes."
+    ]
+  },
+  {
+    id: 1086,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Broken Cart",
+    location: "Martira Trade Road",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, crafting materials",
+    summary:
+      "A merchant's cart broke down on the trade road into Martira, blocking goods from reaching the market. Gather repair materials from the roadside and fix the cart.",
+    aiTip:
+      "The repair materials are scattered on the road itself as glowing pickups — no combat required for this quest.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Broken+Cart+walkthrough",
+    walkthrough: [
+      "Speak to the stranded merchant on the trade road outside Martira with the '!' marker.",
+      "Walk along the road and collect the three glowing material nodes nearby.",
+      "Return to the merchant and hand over the materials to initiate the repair sequence.",
+      "Watch the short animation of the cart being fixed.",
+      "Receive MAG and crafting materials as the merchant thanks you and moves on."
+    ]
+  },
+  {
+    id: 1087,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Refugee Aid",
+    location: "Martira Refugee Camp",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, Tolerance growth, bond affection",
+    summary:
+      "Refugees from the ongoing conflict need aid that the city can't provide alone. Gather supplies, speak to the right official, and ensure the camp gets what it needs.",
+    aiTip:
+      "The official who can authorize aid is in the Martira government building — bring him the petition from the camp leader first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Refugee+Aid+walkthrough",
+    walkthrough: [
+      "Visit the refugee camp on Martira's outskirts and speak to the camp leader with the '!' marker.",
+      "Accept the petition document and take it to the official in the Martira government building.",
+      "Navigate the bureaucratic conversation — choose the dialogue option that cites the children's welfare for the best result.",
+      "Return to the camp leader with the authorization and trigger the supply delivery cutscene.",
+      "Receive MAG and Tolerance growth plus a bump in Eupha's or Heismay's follower affection."
+    ]
+  },
+  {
+    id: 1088,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Noble Dispute",
+    location: "Martira Noble District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Wisdom growth, information about Louis",
+    summary:
+      "Two noble factions in Martira are on the verge of a violent confrontation. Mediate the dispute using dialogue skill and gather intel on Louis's backing in the process.",
+    aiTip:
+      "The correct mediation path requires Wisdom Rank 3 — if you don't have it, grind a social activity first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Dispute+walkthrough",
+    walkthrough: [
+      "Speak to the agitated noble representative near the Martira noble district gate.",
+      "Visit both factions' representatives and hear each side's grievance.",
+      "Return to the neutral meeting point and choose the mediation option that addresses the root financial issue.",
+      "Pass the Wisdom check (requires Rank 3) to broker a temporary peace.",
+      "Collect MAG and Wisdom growth, and note the intel about Louis's financial supporters revealed during the scene."
+    ]
+  },
+  {
+    id: 1089,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Food Supply Crisis",
+    location: "Martira Market",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, cooking materials, Tolerance growth",
+    summary:
+      "A food supply shortage is hitting Martira's lower districts hard. Track down where the supplies are being diverted and return them to the market.",
+    aiTip:
+      "The diversion point is a storage warehouse on the docks — a guard there requires either a bribe (costs MAG) or a Courage check to pass.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Food+Supply+Crisis+walkthrough",
+    walkthrough: [
+      "Speak to the market vendor with the '!' marker about the food shortage.",
+      "Follow the paper trail by visiting the city's supply office and asking about recent shipments.",
+      "Head to the warehouse on the Martira docks and confront the guard blocking entry.",
+      "Either pay the bribe (500 MAG) or pass the Courage Rank 2 check to enter.",
+      "Inside, confirm the diverted supplies and report back to the market vendor to receive MAG and cooking materials."
+    ]
+  },
+  {
+    id: 1090,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Caravan Escort",
+    location: "Martira Trade Road",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, rare trade goods, Courage growth",
+    summary:
+      "A merchant caravan needs protection on a stretch of road where bandits have been active. Escort them safely through two ambush encounters.",
+    aiTip:
+      "The second ambush includes a magic-type enemy that hits hard — position your knight Archetype in front and have your healer ready.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Caravan+Escort+walkthrough",
+    walkthrough: [
+      "Speak to the caravan leader at the Martira gate with the '!' marker to begin the escort.",
+      "Follow the caravan along the trade road; the first bandit ambush triggers after the first bend.",
+      "Defeat the first wave of bandits — they are weak to lightning.",
+      "Continue escorting until the second ambush triggers near the forest clearing.",
+      "Defeat the second wave including the magic-user enemy, then escort the caravan to the destination for your reward."
+    ]
+  },
+  // ── Bounty / Hunt Quests (SQ-26 to SQ-35) ──
+  {
+    id: 1091,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Forest Beast",
+    location: "Forest outside Grand Trad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Bounty coin, rare beast material",
+    summary:
+      "A large predatory beast has been terrorizing travellers in the forest outside Grand Trad. Accept the bounty from the recruitment center and eliminate it.",
+    aiTip:
+      "The Forest Beast is weak to fire — a single Mage with a fire Archetype can stagger it each round.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Forest+Beast+walkthrough",
+    walkthrough: [
+      "Accept the Forest Beast bounty from the recruitment center in Grand Trad.",
+      "Travel to the forest zone indicated on the world map and locate the creature's territory.",
+      "Engage the beast and exploit its fire weakness to generate Press Turns for your party.",
+      "Use Synthesis attacks once you have full Press Turns to burst it down quickly.",
+      "Return to the recruitment center to claim the bounty reward and rare beast material."
+    ]
+  },
+  {
+    id: 1092,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Cave Horror",
+    location: "Cave system near Grand Trad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty coin, cave mineral drops",
+    summary:
+      "Something horrifying lurks in the cave system east of Grand Trad. Track it to its den and exterminate it before it claims more victims.",
+    aiTip:
+      "Bring a torch or light-type skill — the cave has dark sections that reduce accuracy without illumination.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Cave+Horror+walkthrough",
+    walkthrough: [
+      "Pick up the Cave Horror bounty at the Grand Trad recruitment center.",
+      "Navigate the cave entrance using the minimap — the Horror is in the deepest chamber.",
+      "Equip a light-type skill on one party member to counter the cave's accuracy penalty.",
+      "The Cave Horror has a high physical defense — use magic attacks rather than physical strikes.",
+      "After defeating it, loot the rare mineral drops and return to the recruitment center for the bounty payout."
+    ]
+  },
+  {
+    id: 1093,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Bandit Leader",
+    location: "Martira outskirts",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bounty coin, stolen goods recovered",
+    summary:
+      "The leader of a bandit gang operating on Martira's outskirts has a bounty on their head. Find their camp and defeat them to break up the gang.",
+    aiTip:
+      "The Bandit Leader surrounds themselves with three minions — use a multi-target spell to clear the adds first, then focus the leader.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Bandit+Leader+walkthrough",
+    walkthrough: [
+      "Accept the Bandit Leader bounty from Martira's recruitment center.",
+      "Head to the camp location on Martira's outskirts — look for smoke on the hillside.",
+      "Enter the camp and trigger the boss fight; prioritize the minions with a Mage's multi-target fire spell.",
+      "Focus single-target attacks on the Bandit Leader once the minions are cleared.",
+      "Collect the stolen goods loot and return to the recruitment center for the full bounty reward."
+    ]
+  },
+  {
+    id: 1094,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Swamp Creature",
+    location: "Martira swamplands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, rare alchemical material",
+    summary:
+      "A massive creature has claimed the Martira swamplands, cutting off a key supply route. Eliminate it to reopen the path.",
+    aiTip:
+      "The Swamp Creature is resistant to physical attacks and water — bring wind or electric Archetypes for best results.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Swamp+Creature+walkthrough",
+    walkthrough: [
+      "Accept the Swamp Creature bounty at the Martira recruitment center.",
+      "Travel to the swamplands zone south of Martira — expect the terrain to slow movement.",
+      "Locate the creature's nest in the central bog area and initiate combat.",
+      "Avoid water and physical skill types — use wind or electric skills to bypass its resistances.",
+      "Collect the rare alchemical material from the body and return for the bounty payout."
+    ]
+  },
+  {
+    id: 1095,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hunt: Desert Predator",
+    location: "Tradia Desert",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, desert creature material",
+    summary:
+      "An apex predator is picking off caravans crossing the Tradia Desert. Hunt it down and secure the trade route.",
+    aiTip:
+      "Desert Predators are fast and attack first — equip an Agility-boosting accessory or use a Knight Archetype to absorb the opening hit.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Desert+Predator+walkthrough",
+    walkthrough: [
+      "Pick up the Desert Predator bounty from Martira's recruitment center before heading into the desert.",
+      "Travel through the Tradia Desert and look for tracks leading to the predator's hunting ground.",
+      "Equip an Agility accessory or place your Knight in the front position to absorb the first strike.",
+      "Use ice skills — desert predators are typically weak to ice in Metaphor.",
+      "Claim the desert creature material and return for the bounty coin reward."
+    ]
+  },
+  {
+    id: 1096,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Mountain Giant",
+    location: "Kriegante mountain pass",
+    length: "long",
+    difficulty: "High",
+    reward: "Bounty coin, giant's bone material, rare equipment",
+    summary:
+      "A Mountain Giant is blocking the Kriegante mountain pass, making travel impossible. Take the bounty and clear the path — but be prepared for a multi-phase fight.",
+    aiTip:
+      "Giants have enormous HP and hit extremely hard — bring a Healer Archetype and stack physical defense buffs before engaging.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Mountain+Giant+walkthrough",
+    walkthrough: [
+      "Accept the Mountain Giant bounty from the Kriegante recruitment center.",
+      "Travel up the mountain pass to the giant's location — be prepared, it patrols a large area.",
+      "Open with Tarukaja (attack buff) and Rakukaja (defense buff) before engaging in damage.",
+      "The giant staggers at 50% HP — use Synthesis attacks during the stagger window to maximize damage.",
+      "Finish with your strongest single-target skills and claim the giant's bone material and rare equipment drop."
+    ]
+  },
+  {
+    id: 1097,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Undead Commander",
+    location: "Kriegante ruins",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, undead core material",
+    summary:
+      "An undead commander is rallying the dead in Kriegante's ancient ruins, threatening the region. Put it down permanently and disperse its undead forces.",
+    aiTip:
+      "Light-element skills are essential here — both the commander and its undead retinue share a light weakness.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Undead+Commander+walkthrough",
+    walkthrough: [
+      "Accept the Undead Commander bounty at the Kriegante recruitment center.",
+      "Navigate the ruins to the central hall where the commander is raising the dead.",
+      "Open with area-of-effect light skills to hit both the commander and its retinue simultaneously.",
+      "The commander can resummon undead each turn — prioritize killing it before clearing adds.",
+      "Collect the undead core material and return for the bounty coin reward."
+    ]
+  },
+  {
+    id: 1098,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Hunt: Rogue Mage",
+    location: "Kriegante tower",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bounty coin, spellbook material",
+    summary:
+      "A rogue mage has taken over a tower in Kriegante and is using it to launch magical attacks on the region. Ascend the tower and bring the mage down.",
+    aiTip:
+      "The Rogue Mage reflects magical attacks periodically — watch for the buff indicator and switch to physical skills when it is active.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Rogue+Mage+walkthrough",
+    walkthrough: [
+      "Take the Rogue Mage bounty from the Kriegante recruitment center.",
+      "Enter the tower and fight through the two floors of construct guardians — they fall easily to physical attacks.",
+      "On the top floor, engage the Rogue Mage and watch for the reflect buff (shown by a golden glow).",
+      "Use physical skills when the reflect is active; switch back to magic once it drops.",
+      "Defeat the mage, loot the spellbook material, and return for the bounty."
+    ]
+  },
+  {
+    id: 1099,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hunt: Arena Champion",
+    location: "Grand Trad Arena",
+    length: "medium",
+    difficulty: "Very High",
+    reward: "Bounty coin, champion's emblem, rare equipment",
+    summary:
+      "A rogue fighter has claimed the Grand Trad Arena's champion title through force and intimidation. Challenge them in a regulated bout and take back the title.",
+    aiTip:
+      "The Arena Champion has no elemental weakness — fight with your strongest physical Archetypes and buff up before the match.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Arena+Champion+walkthrough",
+    walkthrough: [
+      "Pick up the Arena Champion bounty from the Grand Trad recruitment center.",
+      "Register at the arena front desk and wait for the match to be announced.",
+      "In the pre-fight phase, use all your buff skills (Tarukaja, Rakukaja) before the champion acts.",
+      "The champion uses multi-hit physical attacks — keep your entire party above 60% HP at all times.",
+      "Finish with your party's strongest physical Synthesis attack and claim the champion's emblem and rare equipment."
+    ]
+  },
+  {
+    id: 1100,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Hunt: Ancient Guardian",
+    location: "Skanda ancient ruins",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Bounty coin, ancient core material, top-tier gear",
+    summary:
+      "An Ancient Guardian has awoken in Skanda's ruins and is classified as an SSS-rank threat. The highest-tier bounty in the game — only attempt it with maxed Archetypes.",
+    aiTip:
+      "The Ancient Guardian cycles through elemental buffs — bring a party that can exploit multiple elements and switch targets based on the active cycle.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Ancient+Guardian+walkthrough",
+    walkthrough: [
+      "Accept the Ancient Guardian bounty at the Skanda recruitment center — requires having cleared all previous bounties.",
+      "Enter the ruins and navigate to the inner sanctum where the guardian stands dormant.",
+      "The guardian cycles through fire, ice, and lightning resistance every two turns — hit the non-resisted element each cycle.",
+      "At 30% HP the guardian enters berserker mode, ignoring its own weaknesses — use buffs and full Synthesis attacks.",
+      "After defeating it, collect the ancient core material and top-tier gear, then claim the final bounty reward."
+    ]
+  },
+  // ── Investigation / Story Side Quests (SQ-36 to SQ-45) ──
+  {
+    id: 1101,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Church Investigation",
+    location: "Grand Trad Cathedral District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Wisdom growth, key lore revelation",
+    summary:
+      "Suspicious activity in Grand Trad's cathedral district warrants an investigation. Interview clergy, search restricted areas, and uncover who is operating in the shadows of the church.",
+    aiTip:
+      "One of the priests you need to interview will only speak to you after a Wisdom Rank 3 dialogue check — raise Wisdom first.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Church+Investigation+walkthrough",
+    walkthrough: [
+      "Accept the investigation request from the contact with the '!' marker near the cathedral.",
+      "Interview three clergy members in the district — note their inconsistencies.",
+      "Gain access to the restricted archive by passing the Wisdom Rank 3 check with the senior priest.",
+      "Search the archive for the relevant documents and piece together the evidence.",
+      "Return to your contact with the findings to receive MAG, Wisdom growth, and a lore document."
+    ]
+  },
+  {
+    id: 1102,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Political Spy Hunt",
+    location: "Martira Government District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, intel on rival election candidates",
+    summary:
+      "A spy is leaking election campaign intelligence in Martira. Identify them before they can report to their handlers and eliminate the information leak.",
+    aiTip:
+      "The spy rotates between three locations on a schedule — visit each location in the morning, afternoon, and evening to catch them in the act.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Political+Spy+Hunt+walkthrough",
+    walkthrough: [
+      "Accept the quest from the contact in the Martira government district.",
+      "Visit the three indicated locations — government office, market, and tavern — at different times of day.",
+      "At the tavern in the evening, spot the spy making contact with their handler.",
+      "Follow the spy without being detected (stay behind cover objects) to their drop point.",
+      "Confront the spy at the drop point — a brief combat or dialogue check concludes the quest."
+    ]
+  },
+  {
+    id: 1103,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Missing Official",
+    location: "Martira",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, Courage growth, city access improvement",
+    summary:
+      "A mid-ranking official who handles merchant permits has gone missing. Find them — the trail leads somewhere unexpected and reveals a minor conspiracy.",
+    aiTip:
+      "The official is being held in the dockside warehouse — you need Courage Rank 2 to bluff past the guard at the gate.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Official+walkthrough",
+    walkthrough: [
+      "Speak to the official's aide with the '!' marker in the Martira government building.",
+      "Ask merchants in the market about the official — one saw them near the docks.",
+      "Head to the dockside warehouse gate and use the Courage Rank 2 dialogue check to bluff entry.",
+      "Inside, locate the official in a locked back room and confront the minor conspirators holding them.",
+      "Escort the official back to the government building and receive MAG, Courage growth, and improved merchant permit access."
+    ]
+  },
+  {
+    id: 1104,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Underground Network",
+    location: "Grand Trad Underground",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, rare crafting materials, Archetype mastery",
+    summary:
+      "Rumours point to an underground network operating beneath Grand Trad dealing in stolen Archetypes. Infiltrate it and shut it down before it grows further.",
+    aiTip:
+      "The underground entrance is accessed through a hidden door in the market's eastern alley — inspect the cracked wall to reveal it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Underground+Network+walkthrough",
+    walkthrough: [
+      "Accept the investigation tip from the informant with the '!' marker in the market alley.",
+      "Inspect the cracked wall in the eastern alley to find and open the hidden entrance.",
+      "Navigate the underground tunnels — fight through two rooms of low-rank enemies.",
+      "Reach the network's storage room and confront the mid-boss guarding the stolen Archetype codices.",
+      "Defeat the mid-boss, recover the codices, and bring them to the Grand Trad authorities for the reward."
+    ]
+  },
+  {
+    id: 1105,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Smuggling Ring",
+    location: "Port Brilehaven, Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, confiscated trade goods, Wisdom growth",
+    summary:
+      "A smuggling operation at Port Brilehaven is funnelling goods to Louis's faction. Expose the ring's ringleader and disrupt the supply chain.",
+    aiTip:
+      "The ringleader is disguised as a dockworker — use the Wisdom dialogue check to identify them from a group of three suspects.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Smuggling+Ring+walkthrough",
+    walkthrough: [
+      "Accept the quest from the customs officer with the '!' marker at Port Brilehaven.",
+      "Inspect the three marked cargo areas on the docks for suspicious manifests.",
+      "Return to the customs officer with the manifests — one has forged paperwork.",
+      "Confront the group of dockworkers and use the Wisdom Rank 3 check to identify the ringleader.",
+      "A short combat encounter follows; defeat the ringleader's bodyguards and receive the full reward."
+    ]
+  },
+  {
+    id: 1106,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hidden Archive",
+    location: "Grand Trad Library",
+    length: "medium",
+    difficulty: "Low",
+    reward: "MAG, lore document, Wisdom growth",
+    summary:
+      "A historian believes a hidden archive beneath Grand Trad's library holds records that could change the kingdom's official history. Help access and retrieve the documents.",
+    aiTip:
+      "The hidden archive door requires solving a three-part symbol puzzle — the solution is hinted at in the books on the library's upper floor.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Archive+walkthrough",
+    walkthrough: [
+      "Speak to the historian with the '!' marker in Grand Trad's library.",
+      "Read the three relevant books on the upper floor to gather the symbol puzzle hints.",
+      "Descend to the basement and input the correct symbol sequence on the archive door.",
+      "Explore the archive and retrieve the two key documents the historian needs.",
+      "Return to the historian for MAG, a lore document that adds to your quest log, and Wisdom growth."
+    ]
+  },
+  {
+    id: 1107,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Secret Experiment",
+    location: "Martira Research Facility",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, experimental equipment, Wisdom growth",
+    summary:
+      "A whistleblower reveals that illegal experiments are being conducted in a Martira research facility. Investigate, gather evidence, and neutralise the experiment before it escapes.",
+    aiTip:
+      "The experimental creature that escapes at the quest's climax has no elemental weakness — use debuffs to reduce its stats and outlast it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Secret+Experiment+walkthrough",
+    walkthrough: [
+      "Meet the whistleblower at the Martira marketplace to receive the facility location and access key.",
+      "Enter the research facility after hours and document the experiments in the first two labs.",
+      "The experiment escapes its containment in the third lab — prepare for a boss fight immediately.",
+      "Without an elemental weakness, use Rakukaja (defense buff) and debuffs on the creature to control the fight.",
+      "After defeating it, collect the experimental equipment and bring the evidence to Martira's council for the reward."
+    ]
+  },
+  {
+    id: 1108,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Noble Conspiracy",
+    location: "Kriegante Castle Town",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, political intel, Wisdom growth",
+    summary:
+      "Noble families in Kriegante are conspiring to tip the Royal Election through fraud and intimidation. Expose the conspiracy to protect the election's integrity.",
+    aiTip:
+      "This quest has three investigation stages spread across three calendar days — start it at least four days before the next main quest deadline.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Conspiracy+walkthrough",
+    walkthrough: [
+      "Accept the quest from the anonymous tip contact with the '!' marker in Kriegante's town square.",
+      "On day 1, investigate the noble's estate by interviewing servants — gather statements from two of them.",
+      "On day 2, follow the money trail to the Kriegante counting house and access the fraudulent ledger.",
+      "On day 3, confront the noble conspirators at their planned meeting location.",
+      "Defeat the hired guards they bring to the confrontation and hand the evidence to the election commission for the reward."
+    ]
+  },
+  {
+    id: 1109,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Royal Document Recovery",
+    location: "Grand Trad Royal Archive",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, royal seal item, Courage growth",
+    summary:
+      "Critical royal documents have gone missing from the archive during the political chaos. Retrieve them before they fall into the wrong hands.",
+    aiTip:
+      "The thief who stole the documents took them to the market district — a Courage Rank 2 check convinces a fence to give up the buyer's location.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Royal+Document+Recovery+walkthrough",
+    walkthrough: [
+      "Speak to the archive custodian with the '!' marker in the Grand Trad Royal Archive.",
+      "Head to the market and locate the fence who received the stolen documents.",
+      "Pass the Courage Rank 2 dialogue check to get the buyer's identity and location.",
+      "Confront the buyer in the noble district — a short combat encounter follows.",
+      "Recover the documents and return them to the archive for MAG, the royal seal item, and Courage growth."
+    ]
+  },
+  {
+    id: 1110,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Assassin Plot",
+    location: "Martira",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, rare weapon, Courage growth",
+    summary:
+      "An assassination plot targeting an election candidate has been uncovered. Stop the assassins before the target is killed — failure ends the candidate's campaign permanently.",
+    aiTip:
+      "This quest is time-sensitive: once accepted, you have two calendar days to complete it. The assassins are among the toughest enemies in the side quest pool.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Assassin+Plot+walkthrough",
+    walkthrough: [
+      "Accept the urgent tip from the informant at Martira's tavern — the clock starts immediately.",
+      "Head to the candidate's safehouse and confirm the threat — pick up the assassins' trail from a witness.",
+      "Track the assassins to their staging point on the city's outskirts before nightfall on day 1.",
+      "Engage and defeat the two assassin vanguards — they hit hard; open with full buffs and Synthesis attacks.",
+      "Defeat the lead assassin (the toughest fight) and receive the rare weapon drop and Courage growth reward."
+    ]
+  },
+  // ── Retrieval / Dungeon Side Quests (SQ-46 to SQ-55) ──
+  {
+    id: 1111,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Retrieve Sacred Artifact",
+    location: "Grand Trad Cathedral Vault",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, sacred artifact item, bond growth",
+    summary:
+      "A sacred artifact has been moved to an unsecured part of the Grand Trad cathedral. Retrieve it before thieves can claim it.",
+    aiTip:
+      "The vault section of the cathedral has dark corridors that lower accuracy — equip a light skill before entering.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Retrieve+Sacred+Artifact+walkthrough",
+    walkthrough: [
+      "Speak to the cathedral keeper with the '!' marker about the missing artifact.",
+      "Enter the lower cathedral vault via the side passage behind the main altar.",
+      "Navigate the dark corridors using a light skill to maintain accuracy.",
+      "Retrieve the sacred artifact from the unmarked chest in the vault's final chamber.",
+      "Return it to the cathedral keeper for MAG and a bond growth reward."
+    ]
+  },
+  {
+    id: 1112,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Recover Lost Weapon",
+    location: "Martira battlefields",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, unique weapon, Courage growth",
+    summary:
+      "A soldier's heirloom weapon was lost on the battlefield outside Martira. Enter the monster-infested field to find it.",
+    aiTip:
+      "The weapon is in a chest guarded by a stronger-than-usual field enemy — preemptive strike from behind to get the initiative advantage.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Recover+Lost+Weapon+walkthrough",
+    walkthrough: [
+      "Accept the quest from the veteran soldier with the '!' marker at Fort Endra.",
+      "Travel to the battlefield zone outside Martira marked on the map.",
+      "Navigate the monster-infested field and locate the chest with the glowing marker.",
+      "Strike from behind the guarding enemy to get a preemptive round advantage.",
+      "After defeating the guardian, loot the chest and return the heirloom weapon to the soldier for your reward."
+    ]
+  },
+  {
+    id: 1113,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Ancient Relic Hunt",
+    location: "Skanda ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, ancient relic equipment, Archetype mastery",
+    summary:
+      "A collector in Skanda is seeking ancient relics buried in the region's ruins. Retrieve three specific pieces from different ruin chambers.",
+    aiTip:
+      "Each chamber has a trap mechanic — step on the correct floor tiles to deactivate traps before opening the relic chest.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Ancient+Relic+Hunt+walkthrough",
+    walkthrough: [
+      "Accept the hunt from the collector with the '!' marker in Skanda's town.",
+      "Travel to the Skanda ruins and enter the first chamber — deactivate the trap tiles before opening the chest.",
+      "Proceed to the second chamber; the trap pattern here mirrors the wall symbols near the entrance.",
+      "In the third chamber, defeat the guardian enemy protecting the most valuable relic.",
+      "Return all three relics to the collector for a large MAG reward and ancient relic equipment."
+    ]
+  },
+  {
+    id: 1114,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Dungeon Key Search",
+    location: "Martira Dungeon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, dungeon loot access, crafting materials",
+    summary:
+      "The key to a sealed treasure vault inside Martira's dungeon has been misplaced. Find the key and unlock the vault for the dungeon's keeper.",
+    aiTip:
+      "The key is held by a mid-boss on floor two — it will not drop unless you trigger the quest first, so accept it before entering the dungeon.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Dungeon+Key+Search+walkthrough",
+    walkthrough: [
+      "Speak to the dungeon keeper with the '!' marker at the Martira dungeon entrance.",
+      "Enter the dungeon and proceed to floor two, fighting through the standard enemy patrol.",
+      "Locate the mid-boss on floor two and defeat it to obtain the dungeon key.",
+      "Use the key on the sealed vault door in floor one's side corridor.",
+      "Loot the vault and return to the keeper with confirmation for MAG and crafting materials."
+    ]
+  },
+  {
+    id: 1115,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Hidden Treasure Map",
+    location: "Grand Trad and surrounds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Large MAG payout, rare equipment",
+    summary:
+      "An old treasure map has surfaced in Grand Trad's market. Decode the map's clues to find the buried treasure before another party gets there first.",
+    aiTip:
+      "The three map clues correspond to city landmarks — the fountain, the gate, and the old tree — each pointing to the next location.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Treasure+Map+walkthrough",
+    walkthrough: [
+      "Purchase or receive the treasure map from an NPC with the '!' marker in the market.",
+      "Visit the fountain landmark and examine it to find the first directional clue.",
+      "Follow the clue to the city gate area and examine the base of the eastern pillar.",
+      "The second clue points to the old tree outside the residential district — dig at its base.",
+      "Collect the buried chest and open it for the rare equipment and large MAG payout."
+    ]
+  },
+  {
+    id: 1116,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Forgotten Library",
+    location: "Abandoned Wing, Grand Trad Library",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, lore books, Wisdom growth",
+    summary:
+      "A librarian reveals that an abandoned wing of the Grand Trad library holds books sealed off for decades. Clear out the monsters that moved in and recover the lost volumes.",
+    aiTip:
+      "The enemies in the abandoned wing are undead — bring light-element skills to sweep them efficiently.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forgotten+Library+walkthrough",
+    walkthrough: [
+      "Speak to the librarian with the '!' marker about the forbidden abandoned wing.",
+      "Gain access to the wing via a key the librarian provides.",
+      "Clear through the three rooms of undead enemies using light-element skills.",
+      "Collect the four sealed tomes scattered on the reading tables in the final room.",
+      "Return the tomes to the librarian for MAG and Wisdom growth."
+    ]
+  },
+  {
+    id: 1117,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Sunken Ruins Expedition",
+    location: "Coastal ruins near Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, waterlogged treasure, unique accessory",
+    summary:
+      "Partially submerged coastal ruins near Martira hide a cache of pre-kingdom treasures. Wade into the ruins and retrieve them before the tides rise again.",
+    aiTip:
+      "The boss guarding the treasure cache is ice-elemental — bring fire Archetypes for easy damage and exploit the weakness for Press Turns.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Sunken+Ruins+Expedition+walkthrough",
+    walkthrough: [
+      "Accept the expedition request from the adventurer with the '!' marker at Port Brilehaven.",
+      "Travel to the coastal ruins location and navigate the flooded first floor on foot.",
+      "Fight through the aquatic enemies — they are weak to lightning.",
+      "Reach the central chamber where the ice-elemental boss guards the treasure cache.",
+      "Exploit the boss's fire weakness, loot the cache, and return to the adventurer for the unique accessory reward."
+    ]
+  },
+  {
+    id: 1118,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Crystal Core Retrieval",
+    location: "Skanda Crystal Caves",
+    length: "long",
+    difficulty: "High",
+    reward: "MAG, crystal core material, rare Archetype equipment",
+    summary:
+      "A craftsman in Skanda needs a crystal core from the depths of the local crystal caves to forge a special weapon. Retrieve the core from the cave's guarded inner chamber.",
+    aiTip:
+      "The Crystal Guardian boss shatters into multiple smaller crystals when damaged — use area-of-effect skills to damage all fragments simultaneously.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Crystal+Core+Retrieval+walkthrough",
+    walkthrough: [
+      "Accept the commission from the craftsman with the '!' marker in Skanda's market.",
+      "Enter the crystal caves and follow the luminescent trail to the inner chamber.",
+      "The Crystal Guardian splits into four fragments at 50% HP — switch to area-of-effect skills immediately.",
+      "Once all fragments are defeated, the crystal core is accessible in the cave's central plinth.",
+      "Retrieve the core and bring it to the craftsman for the unique Archetype equipment reward."
+    ]
+  },
+  {
+    id: 1119,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Forbidden Tome",
+    location: "Kriegante Castle Library",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "MAG, forbidden tome (lore item), Wisdom growth",
+    summary:
+      "A forbidden tome locked away in Kriegante Castle's private library contains dangerous knowledge. Retrieve it before the wrong people read it.",
+    aiTip:
+      "Access to the castle library requires either Louis's enemy status to have been established in the story, or a Wisdom Rank 4 forgery check.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forbidden+Tome+walkthrough",
+    walkthrough: [
+      "Accept the quest from the scholar contact with the '!' marker in Kriegante's town.",
+      "Gain castle library access via the story flag or the Wisdom Rank 4 forgery check.",
+      "Navigate the library's restricted section — the tome is on the top shelf of the third bookcase.",
+      "A castle guard patrols the area; time your movement to avoid triggering combat.",
+      "Retrieve the tome and deliver it to the scholar for MAG and Wisdom growth."
+    ]
+  },
+  {
+    id: 1120,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Mystic Orb Recovery",
+    location: "Skanda Spirit Shrine",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, mystic orb (key item), powerful Archetype boost",
+    summary:
+      "A mystic orb of enormous power has been stolen from Skanda's spirit shrine and taken deep into a spirit-infested ruin. Recover it before it falls into enemy hands.",
+    aiTip:
+      "The spirit enemies here drain MP instead of HP on their special attacks — bring MP recovery items or a Knight tank to absorb the drain.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Mystic+Orb+Recovery+walkthrough",
+    walkthrough: [
+      "Accept the recovery quest from the shrine keeper with the '!' marker at Skanda's spirit shrine.",
+      "Enter the ruin and encounter the spirit enemies — bring MP recovery items to counter their drain attacks.",
+      "The orb is held by the Ruin Specter boss on the final floor — it reflects magic periodically.",
+      "Use physical attacks during the reflect phase and magic during the open phase.",
+      "Retrieve the mystic orb after defeating the Ruin Specter and return it to the shrine keeper for a powerful Archetype boost reward."
+    ]
+  },
+  // ── Special / Time-Gated Quests (SQ-56 to SQ-65) ──
+  {
+    id: 1121,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Festival Preparation",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "MAG, festival-exclusive items, social stat growth",
+    summary:
+      "Grand Trad is holding a festival and volunteers are needed to help set up. A brief but rewarding quest that unlocks festival-exclusive items only available during this calendar window.",
+    aiTip:
+      "The festival quest is available for only two calendar days — accept and complete it immediately when it appears.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Festival+Preparation+walkthrough",
+    walkthrough: [
+      "Spot the '!' marker at the Grand Trad plaza — it appears only during the designated festival calendar window.",
+      "Accept the organizer's request and complete the three preparation tasks: gather supplies, decorate the stall, and recruit a performer.",
+      "Each task is in a different part of the city — use the minimap markers to locate them efficiently.",
+      "Return to the organizer after completing all three tasks to trigger the festival opening cutscene.",
+      "Collect festival-exclusive items and social stat growth from the concluding conversation."
+    ]
+  },
+  {
+    id: 1122,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Tournament Qualifier",
+    location: "Grand Trad Arena",
+    length: "medium",
+    difficulty: "High",
+    reward: "MAG, arena ranking, equipment prize",
+    summary:
+      "Qualify for the Grand Trad Arena's main tournament bracket by winning the qualifier rounds. Three consecutive fights with increasing difficulty.",
+    aiTip:
+      "The third qualifier opponent uses a full buff rotation on turn one — dispel their buffs immediately with a Mage's dekaja skill.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Tournament+Qualifier+walkthrough",
+    walkthrough: [
+      "Register at the Grand Trad Arena front desk for the qualifier tournament.",
+      "Win the first qualifier fight — the opponent is straightforward, weak to ice.",
+      "Win the second fight — the opponent uses physical skills; keep your HP above 50%.",
+      "In the third fight, dispel the opponent's full buff stack immediately using dekaja, then burst with Synthesis attacks.",
+      "Collect the equipment prize and your arena ranking card at the conclusion."
+    ]
+  },
+  {
+    id: 1123,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Arena Challenge Series",
+    location: "Grand Trad Arena",
+    length: "long",
+    difficulty: "Very High",
+    reward: "MAG, champion title, rare equipment set",
+    summary:
+      "A multi-match challenge gauntlet at the Grand Trad Arena. Survive consecutive fights without recovering HP between rounds to claim the champion title and top-tier equipment.",
+    aiTip:
+      "Stock consumable HP restoratives before entering — you cannot visit the shop between rounds. Bring a healer Archetype as your primary.",
+    video: "https://www.youtube.com/watch?v=WicCVm90Phw"
+  },
+  {
+    id: 1124,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Companion Trial",
+    location: "Various — unlocked via Follower bonds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Unique companion ability, bond max rank",
+    summary:
+      "Each party member has a final Companion Trial that tests them in a scenario tied to their personal story. Completing it maxes their bond rank and unlocks their ultimate ability.",
+    aiTip:
+      "Companion Trials unlock only after reaching Follower Rank 9 with the corresponding party member — invest time in their bond early.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Companion+Trial+walkthrough",
+    walkthrough: [
+      "Reach Follower Rank 9 with the companion whose trial you want to unlock.",
+      "The '!' trial marker appears at the companion's preferred location in the current city.",
+      "Accept the trial and engage in the story scenario unique to that companion's arc.",
+      "A final combat challenge occurs — use the companion's signature Archetype synergy to win.",
+      "Completion rewards max bond rank, the companion's ultimate ability, and a closing character scene."
+    ]
+  },
+  {
+    id: 1125,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Secret Ending Requirement Quest",
+    location: "Various — calendar-dependent",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Secret ending route unlocked",
+    summary:
+      "A hidden set of conditions that, when fulfilled, unlocks a secret ending path. Requires maxing specific Follower bonds, completing all Virtue Trials, and clearing a hidden dungeon before the final deadline.",
+    aiTip:
+      "Start this checklist from day one: max Gallica and Louis's bonds, complete all five Virtue Trials, and unlock the secret dungeon by reading the hidden memo in the Skanda library.",
+    video: "https://www.youtube.com/watch?v=tOx-mhC-VeY"
+  },
+  {
+    id: 1126,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Final Preparation Task",
+    location: "Gauntlet Runner / Skanda",
+    length: "short",
+    difficulty: "Low",
+    reward: "Party stat buffs, final supplies",
+    summary:
+      "A small set of tasks on the Gauntlet Runner and in Skanda town before the final dungeon locks out side content. Completing them provides permanent stat buffs for the finale.",
+    aiTip:
+      "These tasks are only available in the short window after MQ-09 and before entering the Skybound Avatar — do not skip them.",
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Final+Preparation+Task+walkthrough",
+    walkthrough: [
+      "After MQ-09 completes, speak to each party member on the Gauntlet Runner with a '!' marker.",
+      "Complete the three short activities they request — each takes less than one calendar day.",
+      "Visit the Skanda shop keeper with the '!' marker to receive a special pre-final supply package.",
+      "Use the supply package before entering the final dungeon to apply the permanent stat buffs.",
+      "Once all tasks are done, confirm readiness with Gallica to trigger the final dungeon entry."
+    ]
+  },
+  {
+    id: 1127,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Hidden Postgame Challenge",
+    location: "Skanda Secret Dungeon",
+    length: "long",
+    difficulty: "Very High",
+    reward: "Postgame trophy, ultimate equipment, true platinum route",
+    summary:
+      "A secret dungeon only accessible after clearing the true ending. The ultimate challenge of Metaphor: ReFantazio — enemies here exceed final boss difficulty and require maxed-out Archetypes.",
+    aiTip:
+      "Bring your three strongest Archetype builds and enough revival items for a sustained run. The final floor boss has no elemental weakness.",
+    walkthrough: [
+      "Complete the true ending route and reach the postgame save point.",
+      "Look for the hidden dungeon entrance in the Skanda region — it only appears after the credits.",
+      "Stock up on revival items, MP restoratives, and high-tier consumables before entering.",
+      "Each floor introduces enemies that exceed final-boss difficulty; use Press Turn mechanics to chain weaknesses.",
+      "Max out your three primary Archetypes before attempting — underlevelled parties will be wiped on floor 3+.",
+      "The final floor boss has no elemental weakness; use your strongest physical and almighty skills.",
+      "Clearing the dungeon unlocks the ultimate equipment set and the platinum trophy route."
+    ],
+    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
+  },
+  {
+    id: 1134,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Snake",
+    location: "Yōtei Grasslands — Roadside Outpost",
+    length: "short",
+    difficulty: "Low",
+    reward: "First Yōtei Six kill, Ghost Stance seeds",
+    summary:
+      "Atsu tracks down the Snake — the first of the Yōtei Six — a drunk, cowardly bandit lord who terrorises the outer grassland roads. The confrontation ends in a disarming QTE after he throws sand in Atsu's eyes.",
+    aiTip:
+      "The Snake is the easiest of the Six. When he reaches back to grab dirt, dodge sideways immediately — the sand blinds you if you stay still. Block and counter-attack through his drunken stagger.",
+    video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
+  },
+  {
+    id: 1135,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Old Inn",
+    location: "Yōtei Grasslands — Riverside Inn",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Map expansion, first ally contact",
+    summary:
+      "Atsu finds her first safe haven at a crumbling roadside inn and begins building the network of contacts she needs to hunt the rest of the Yōtei Six. An old innkeeper reveals what she knows of the gang's movements.",
+    aiTip:
+      "Talk to every NPC in the inn — optional conversations unlock rumours that mark bounty targets on your map before you'd naturally discover them.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Old+Inn+walkthrough",
+    walkthrough: [
+      "Follow the road north from the Snake's outpost into the Yōtei Grasslands proper.",
+      "Locate the Riverside Inn marked on your map — clear the two bandits loitering outside.",
+      "Speak with the innkeeper Hana at the counter to trigger the main cutscene.",
+      "Choose dialogue options to press her for information about the Yōtei Six's current base.",
+      "After the cutscene, speak with all three other NPCs in the common room for optional lore and rumours.",
+      "Rest at the inn to unlock the map expansion and advance to the next main quest."
+    ]
+  },
+  {
+    id: 1136,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Way of Dual Katana",
+    location: "Yōtei Grasslands — Training Ground",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dual Katana weapon system unlocked",
+    summary:
+      "A wandering ronin recognises Atsu's raw skill and offers to teach her the dual-blade style. A series of combat trials culminates in a duel that unlocks the dual katana as Atsu's signature weapon.",
+    aiTip:
+      "The dual katana's fast flurry attacks excel against lightly armoured enemies. Complete the optional bonus trial at the end to unlock the first upgrade slot immediately.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+Dual+Katana+walkthrough",
+    walkthrough: [
+      "Accept the ronin's offer at the training ground marker in the western Grasslands.",
+      "Complete Trial 1: defeat three straw dummies within the time limit using basic slashes.",
+      "Complete Trial 2: survive a sparring bout against the ronin without taking more than two hits.",
+      "Complete Trial 3: chain a five-hit combo — the game prompts the input sequence on screen.",
+      "Finish the final duel against the ronin; block his overhead strike and counter three times to end it.",
+      "Collect the dual katana from the chest and equip it from the weapon wheel."
+    ]
+  },
+  {
+    id: 1137,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Saito",
+    location: "Yōtei Grasslands — Fort Takeda",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Second Yōtei Six kill, Ghost tool upgrade",
+    summary:
+      "Saito, the strategic mind of the Yōtei Six, has fortified himself inside a riverside fort surrounded by elite guards. Atsu must infiltrate the fort, dismantle his defences, and fight him in a one-on-one duel.",
+    aiTip:
+      "Saito counters every direct assault — use the Ghost stance to terrify outer guards before entering so you face fewer enemies inside. In the duel, bait his triple-slash then punish the recovery.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Saito+walkthrough",
+    walkthrough: [
+      "Investigate the fort exterior and find the three weak-point entrances marked by owl symbols.",
+      "Eliminate the two rooftop archers silently before breaching — they alert everyone if missed.",
+      "Work through the courtyard using fear kills to build Ghost Stance before the inner gate.",
+      "Eavesdrop on the two guards near the barracks to learn Saito's patrol schedule.",
+      "Confront Saito in the inner courtyard; the duel begins automatically after the cutscene.",
+      "Bait his triple slash combo, dodge the third hit, and counter with a heavy dual-katana strike.",
+      "Finish with a Ghost Stance execution when his posture breaks to end the mission."
+    ]
+  },
+  {
+    id: 1138,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Yōtei Six",
+    location: "Ezo — Multiple Regions",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Open hunt system unlocked, regional map markers",
+    summary:
+      "With two members of the Six dead, Atsu learns the rest have scattered across Ezo. This quest opens the free-roaming hunt system and marks the remaining four targets across the game's regions.",
+    aiTip:
+      "You can tackle the remaining four members in any order. Do the Mythic Tales and Sensei quests in each region first — the gear and skills you earn will make each Six encounter significantly easier.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Yōtei+Six+walkthrough",
+    walkthrough: [
+      "After Saito's defeat, return to the Riverside Inn and speak with Hana for new intelligence.",
+      "A cutscene reveals the remaining four members have fled to Tokachi, Teshio, Ishikari, and Oshima.",
+      "Open the map — four new main quest markers appear, one per region.",
+      "Travel to any region of your choice; the game recommends Tokachi as the natural next step.",
+      "Complete each region's main quest to eliminate the corresponding Six member.",
+      "Return to the Grasslands after all four are dead to trigger the next story cutscene."
+    ]
+  },
+  {
+    id: 1139,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Oni",
+    location: "Tokachi Range — Oni's Stronghold",
+    length: "long",
+    difficulty: "High",
+    reward: "Third Yōtei Six kill, heavy armour upgrade",
+    summary:
+      "The Oni is a hulking enforcer who wears demonic armour and leads raids across Tokachi. He fights with overwhelming power and uses subordinates as shields. Atsu must outmanoeuvre both him and his elite guard.",
+    aiTip:
+      "The Oni's overhead slams are unblockable — watch for the red glow on his gauntlets. Dodge to his left flank and strike twice before repositioning. The Kusarigama's ranged pull breaks his guard stance.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Oni+walkthrough",
+    walkthrough: [
+      "Infiltrate the Oni's stronghold via the cliffside route marked on the Tokachi map.",
+      "Eliminate the four courtyard guards quietly — the Oni patrols inside and will join if alerted.",
+      "Use the environment: collapse the hanging cage to distract the two inner guards.",
+      "Trigger the boss fight by entering the main hall; the Oni ambushes you from behind a pillar.",
+      "Dodge his overhead slams left and attack twice from his flank — never attack from the front.",
+      "At half health he calls two elite guards; use Ghost Stance to wipe them quickly.",
+      "Land the final blow during his exhaustion animation to trigger the execution cutscene."
+    ]
+  },
+  {
+    id: 1140,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Kitsune",
+    location: "Nayoro Wilds — Spirit Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fourth Yōtei Six kill, stealth technique upgrade",
+    summary:
+      "The Kitsune uses disguise and poison to operate unseen. Atsu must see through the deception, track the real Kitsune through the Nayoro spirit shrines, and fight them before the poison takes full effect.",
+    aiTip:
+      "Equip herbal medicine before this quest — the Kitsune opens with a poisoned dart. Identify the real Kitsune by the slight limp on their right side during the disguise phase.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Kitsune+walkthrough",
+    walkthrough: [
+      "Follow the rumour chain in Nayoro to the Spirit Shrine district — three NPCs each give a clue.",
+      "At the shrine, you encounter three identical-looking figures; observe movement to spot the limp.",
+      "Pursue the real Kitsune through the forest shrine path — they drop smoke bombs every 30 seconds.",
+      "Use your listening sense (L2 pulse) to track them through smoke.",
+      "Corner the Kitsune at the upper shrine; they attack with a poisoned tantō and quick dodges.",
+      "Stay aggressive — the Kitsune has low health but will flee and reset if given breathing room.",
+      "Collect the spirit token from the body and return it to the Nayoro elder to complete the quest."
+    ]
+  },
+  {
+    id: 1141,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Saito Brothers (Part 1)",
+    location: "Ishikari Plain — Saito Manor",
+    length: "long",
+    difficulty: "High",
+    reward: "Story revelation, access to Oshima",
+    summary:
+      "The elder Saito brother is revealed to be the true architect of the massacre that destroyed Atsu's village. A confrontation at Saito Manor unravels the conspiracy behind the Yōtei Six — and ends in a shocking betrayal.",
+    aiTip:
+      "Save before entering the manor. The final encounter has no checkpoint — if you die you restart from the manor gate. Stock up on healing items and use every stealth advantage before the confrontation.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Saito+Brothers+(Part+1)+walkthrough",
+    walkthrough: [
+      "Investigate the three Saito Manor outposts to gather evidence — each is guarded by six elites.",
+      "Present the evidence to your ally at the Ishikari inn to confirm the elder brother's location.",
+      "Infiltrate the manor at night using the dry moat on the eastern side.",
+      "Eliminate all guards before reaching the elder Saito — a full alert triggers a failed state.",
+      "Witness the cutscene that reveals the conspiracy; do not skip it as it changes available dialogue.",
+      "Survive the ambush by twelve guards after the revelation — Ghost Stance is essential here.",
+      "Escape through the manor's underground passage to trigger Part 2's unlock."
+    ]
+  },
+  {
+    id: 1142,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Saito Brothers (Part 2)",
+    location: "Oshima Coast — Sea Fortress",
+    length: "long",
+    difficulty: "High",
+    reward: "Fifth Yōtei Six kill, legendary weapon upgrade",
+    summary:
+      "Atsu pursues the elder Saito brother to his sea fortress on the Oshima Coast for a final reckoning. A brutal two-phase duel determines whether the conspiracy dies with him.",
+    aiTip:
+      "Phase 1 is a sword duel — standard parry timing. Phase 2 he uses a spear; switch your deflect timing to half a beat later than normal. Break his posture three times to end the fight.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Saito+Brothers+(Part+2)+walkthrough",
+    walkthrough: [
+      "Sail to the Oshima sea fortress using the boat at the Nayoro harbour.",
+      "Scale the sea cliffs on the fortress blind side — avoid the searchlight sweep pattern.",
+      "Clear the inner courtyard of eight guards before the brother emerges.",
+      "Phase 1 duel: deflect his katana combos and punish with dual-katana flurries.",
+      "At half health, the Phase 2 cutscene triggers — he switches to a yari spear.",
+      "Adjust deflect timing and use the Kusarigama pull to break his spear guard.",
+      "Execute the finishing blow in the QTE to complete Part 2 and advance the story."
+    ]
+  },
+  {
+    id: 1144,
+    type: "main",
+    category: "Atsu's Journey",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Final Hunt of the Onryō",
+    location: "Mount Yōtei — Summit Shrine",
+    length: "long",
+    difficulty: "High",
+    reward: "Endgame, Ghost of Yōtei title, Onryō armour set",
+    summary:
+      "The final confrontation with the last of the Yōtei Six at the summit shrine of Mount Yōtei. Atsu embraces her legend as the Ghost — the Onryō — and ends the cycle of vengeance in a multi-stage climactic battle.",
+    aiTip:
+      "The final boss has three phases. Phase 1 is aggressive melee — play defensively. Phase 2 adds explosive traps — clear them with the Tanzutsu before engaging. Phase 3 is a Ghost Stance showdown — fill your meter before triggering it.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Final+Hunt+of+the+Onryō+walkthrough",
+    walkthrough: [
+      "Ascend Mount Yōtei along the marked path — expect five elite ambushes on the way up.",
+      "Clear the outer shrine guards before approaching the summit; stealth is rewarded here.",
+      "Phase 1: fight defensively, deflect the fast combo strings and punish recovery windows.",
+      "Phase 2 trigger: explosive traps appear — shoot each with the Tanzutsu before resuming the duel.",
+      "Phase 3 trigger: the final Six member unleashes a berserker mode — fill Ghost Stance immediately.",
+      "Activate Ghost Stance to deliver the decisive damage burst and trigger the execution sequence.",
+      "Watch the ending cutscene in full — it determines which of two endings plays based on earlier choices."
+    ]
+  },
+  {
+    id: 1145,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "Duel the Unrivaled",
+    location: "Ezo — Multiple Dueling Grounds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Endgame challenger trophy, Unrivaled sword kit",
+    summary:
+      "Post-story dueling challenges against Ezo's greatest swordspeople, unlocked after the finale. Each duel tests mastery of a different weapon and stance, culminating in a final bout against a returning character.",
+    aiTip:
+      "Each duelist counters one weapon type — switch away from whatever they're deflecting most. The final challenger punishes impatience; wait for their tells before committing to an attack.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Duel+the+Unrivaled+walkthrough",
+    walkthrough: [
+      "Unlock after completing the main story — a new notice board appears at the Grasslands inn.",
+      "Accept the first challenge; each duelist location is marked on the regional map.",
+      "Duel 1 (Grasslands): katana specialist — use dual-katana flurry combos to break their guard.",
+      "Duel 2 (Tokachi): odachi fighter — dodge the wide sweeps and counter with the yari's thrust.",
+      "Duel 3 (Ishikari): a spear master — use Kusarigama pull to cancel their stance attacks.",
+      "Final duel (Mount Yōtei summit): a returning rival — adapt to all weapon types mid-fight.",
+      "Claim the Unrivaled sword kit from the summit chest after victory."
+    ]
+  },
+  {
+    id: 1146,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "Burning Plains",
+    location: "Ezo — Multiple Outlaw Camps",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "100% region cleanup, rare supply caches",
+    summary:
+      "Post-story cleanup quest clearing the last pockets of outlaw activity still burning across the Ezo plains. Former Yōtei Six lieutenants refuse to disperse and must be rooted out region by region.",
+    aiTip:
+      "These camps respawn lieutenants if you skip the named target — always find and kill the yellow-named officer first before clearing the rank and file.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Burning+Plains+walkthrough",
+    walkthrough: [
+      "Accept the quest from Kojiro the Bounty Broker after the credits.",
+      "The map marks five remaining outlaw strongholds across three regions.",
+      "Clear each stronghold by killing the named lieutenant — they are marked with a yellow skull icon.",
+      "After each stronghold, loot the supply cache in the commander's tent for rare materials.",
+      "Return to Kojiro after clearing all five for the completion reward.",
+      "Remaining random camps will stop respawning once all five strongholds are cleared."
+    ]
+  },
+  {
+    id: 1147,
+    type: "side",
+    category: "Post-Game",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "A Haunted Land",
+    location: "Ezo — Spirit Shrines",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Spirit armour set, Ainu elder's blessing",
+    summary:
+      "A mysterious spiritual disturbance lingers across Ezo after the Yōtei Six are defeated. The Ainu elders believe the violence has stirred restless spirits. Atsu must cleanse five shrines to restore balance.",
+    aiTip:
+      "Each shrine has a different spirit encounter — some are combat, some are environmental puzzles. Equip the Onryō armour from the main story finale for a damage bonus against spirit enemies.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Haunted+Land+walkthrough",
+    walkthrough: [
+      "Speak with the Nayoro Ainu elder after the credits — she senses the spiritual unrest.",
+      "Travel to each of the five marked spirit shrines across the six regions.",
+      "At each shrine, interact with the offering stone to begin the encounter.",
+      "Combat shrines: defeat the spirit guardian within the time limit.",
+      "Puzzle shrines: light the three torches in the correct sequence shown by the shrine's paintings.",
+      "After all five are cleansed, return to the Nayoro elder for the cutscene and armour reward."
+    ]
+  },
+  {
+    id: 1148,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Takezo the Unrivalled",
+    location: "Yōtei Grasslands — Six Dueling Trees",
+    length: "long",
+    difficulty: "High",
+    reward: "Takezo's Katana legendary weapon, Unrivaled stance technique",
+    summary:
+      "A wandering musician sings of Takezo, a legendary swordmaster whose five disciples guard dueling trees across Ezo. Defeat all five, then face Takezo himself at the peak of Mount Yōtei to claim his blade.",
+    aiTip:
+      "Each disciple uses a different weapon — switch your own weapon to counter theirs. Takezo himself telegraphs every attack with a breath pause; perfect deflection is rewarded with a massive posture break.",
+    video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
+  },
+  {
+    id: 1149,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Multiple",
+    title: "The Five Teachings",
+    location: "Ezo — Five Sacred Waypoints",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Five secret combat techniques, Sage's Charm",
+    summary:
+      "A blind sage at a mountain pass claims the land itself holds five forgotten teachings. Each trial — at a different region's waypoint — tests a different aspect of Atsu's skills to unlock ancient combat secrets.",
+    aiTip:
+      "The five trials are: stealth kill, perfect deflect, fear kill, horseback kill, and environmental kill. Read each waypoint inscription carefully — it describes exactly what the trial requires before you start.",
+    video: "https://www.youtube.com/watch?v=tLoWypwSLyE"
+  },
+  {
+    id: 1150,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Undying Samurai",
+    location: "Ishikari Plain — Nakagoya Spring",
+    length: "medium",
+    difficulty: "High",
+    reward: "Undying Samurai Armour, Iron Will technique",
+    summary:
+      "A storyteller at Nakagoya Spring tells of a samurai who cannot die. Find four wind chimes hidden across Ishikari to summon his restless spirit and end his suffering — or his siege — in a fearsome boss duel.",
+    aiTip:
+      "The Undying Samurai regenerates health unless you break his spirit seal — hit him three times with the Tanzutsu between each health bar. Stock up on gun powder before starting this quest.",
+    video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
+  },
+  {
+    id: 1151,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Spider Lily General",
+    location: "Tokachi Range — Mysterious Gate",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spider Lily Armour set, Venom Strike technique",
+    summary:
+      "A gate sealed by four locks guards the tomb of a general who dressed her soldiers in spider lilies. Find the four keys scattered through Tokachi's most dangerous areas to open the gate and face the guardian within.",
+    aiTip:
+      "The Spider Lily General inflicts poison on every hit — bring maximum antidote supplies and the medicine pouch upgrade. Her attack windows are short; focus on perfect deflects rather than aggression.",
+    video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
+  },
+  {
+    id: 1152,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Legend of Opusnupuri",
+    location: "Nayoro Wilds — Mount Opusnupuri",
+    length: "long",
+    difficulty: "High",
+    reward: "Opusnupuri Armour, Spirit Step technique",
+    summary:
+      "Ainu legend holds that Mount Opusnupuri's spirit demands a challenger worthy of its memory. Follow the Ainu elder's guidance through sacred rituals and a treacherous ascent to face the mountain's guardian spirit.",
+    aiTip:
+      "The guardian spirit has no physical weak point — you must use the ritual fire arrows crafted during the quest to deal meaningful damage. Don't use them all in the first phase; save two for the final burst.",
+    video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
+  },
+  {
+    id: 1153,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Crimson Kimono",
+    location: "Teshio Ridge — Frozen Peaks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Crimson Kimono Armour, Phantom Step ability",
+    summary:
+      "Travellers on the Teshio Ridge speak of a woman in crimson who vanishes into the blizzards. Track her ghost across three frozen peaks using offerings of incense to reveal her true form and earn her legendary armour.",
+    aiTip:
+      "The Crimson Kimono boss fight takes place in a blizzard that limits visibility. Use your listening sense frequently to track her movement. She is vulnerable for only two seconds after each disappearing vanish.",
+    video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
+  },
+  {
+    id: 1154,
+    type: "side",
+    category: "Mythic Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Storm Blade",
+    location: "Oshima Coast — Forgotten Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Storm Blade (Jin Sakai's legendary katana), Storm Strike technique",
+    summary:
+      "A shrine keeper on the Oshima Coast guards the tomb of a legendary warrior from the mainland. Solve the shrine's three trials of water, wind, and steel to unearth a blade that carries the storm within it.",
+    aiTip:
+      "The Storm Blade's special attack sends a ranged lightning arc — upgrade it as soon as possible. The three trials can be done in any order; the water trial is easiest if done first to learn the puzzle pattern.",
+    video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
+  },
+  {
+    id: 1155,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Way of the Shamisen",
+    location: "Yōtei Grasslands — River Crossing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Shamisen — songs reveal hidden collectible locations",
+    summary:
+      "A travelling musician at the river crossing teaches Atsu the shamisen. Mastering three melodies unlocks a unique ability: playing the correct song at a landmark causes nearby hidden collectibles to glow.",
+    aiTip:
+      "Learn all three songs before leaving the quest area — the third is only available in this location. The Ainu Heirloom and Fox Den collectibles are easiest to find once this quest is complete.",
+    video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
+  },
+  {
+    id: 1156,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Path of the Odachi",
+    location: "Tokachi Range — Mountain Dojo",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Odachi weapon unlocked, Wide Sweep technique",
+    summary:
+      "A solitary swordsmith in the Tokachi mountains offers to teach Atsu the great odachi blade — a heavy two-handed weapon devastating against groups. Three training trials unlock the weapon and its first technique.",
+    aiTip:
+      "The odachi's Wide Sweep is your best tool against shield-bearing enemies — it breaks guard regardless of block. Complete all three trials without taking a hit to earn a bonus upgrade material.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Odachi+walkthrough",
+    walkthrough: [
+      "Find the Mountain Dojo marker on the western Tokachi map edge.",
+      "Speak with Swordsmith Daisuke to accept the first trial.",
+      "Trial 1: cut down five training posts with precisely timed heavy strikes.",
+      "Trial 2: defeat two sparring partners using only odachi attacks — no other weapons.",
+      "Trial 3: break three shield-bearers' guard using the Wide Sweep technique Daisuke demonstrates.",
+      "Receive the odachi and the technique scroll after all three trials pass."
+    ]
+  },
+  {
+    id: 1157,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Odachi's Redemption",
+    location: "Tokachi Range — Abandoned Fort",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rising Storm odachi technique",
+    summary:
+      "Daisuke's past catches up with him — a disgraced student blames him for an old failure and threatens the village. Atsu must help Daisuke confront his guilt and defeat his former student to earn the advanced technique.",
+    aiTip:
+      "The former student fights dirty — he opens with a feint into a grab. Dodge backward on the first input and he will always over-commit, leaving a two-hit window.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Odachis+Redemption+walkthrough",
+    walkthrough: [
+      "Return to Daisuke's dojo after completing The Path of the Odachi.",
+      "A villager reports trouble at the fort east of the dojo — escort Daisuke there.",
+      "Clear the fort's outer ring of six guards while Daisuke defends the gate.",
+      "A cutscene introduces the disgraced student Koya; Atsu challenges him on Daisuke's behalf.",
+      "Duel Koya: dodge his opening feint, counter twice, then use Rising Storm when the prompt appears.",
+      "After the fight, speak with Daisuke to receive the Rising Storm scroll."
+    ]
+  },
+  {
+    id: 1158,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Master Yoshida's Final Lesson",
+    location: "Tokachi Range — Summit Dojo",
+    length: "medium",
+    difficulty: "High",
+    reward: "Heaven's Fall ultimate odachi technique",
+    summary:
+      "Daisuke's own master, the elderly Yoshida, summons Atsu for one last lesson before he dies. The final duel against Yoshida — fighting at a fraction of his former power — teaches Atsu the Heaven's Fall technique.",
+    aiTip:
+      "Yoshida fights slowly but his Heaven's Fall hit is lethal. Watch for the two-second wind-up — that is your cue to dodge sideways, not back. Mirroring his Heaven's Fall back at him ends the duel fastest.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Master+Yoshidas+Final+Lesson+walkthrough",
+    walkthrough: [
+      "Complete The Odachi's Redemption first — Yoshida's summons only appear afterward.",
+      "Climb to the Summit Dojo in northern Tokachi — it requires clearing a short enemy path.",
+      "Speak with Master Yoshida; accept his final lesson.",
+      "The duel begins immediately — survive three rounds of increasingly aggressive attacks.",
+      "When Yoshida uses Heaven's Fall, dodge sideways and strike during his recovery.",
+      "After three successful counter-hits, the duel ends with a teaching cutscene.",
+      "Receive the Heaven's Fall scroll and say goodbye to Yoshida to complete the arc."
+    ]
+  },
+  {
+    id: 1159,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Winter Farms",
+    location: "Teshio Ridge — Snowbound Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cold-Forged armour upgrade material, Farmer's Resolve charm",
+    summary:
+      "A retired warrior defends his snowbound village farm against outlaws demanding tribute. He offers to teach Atsu in exchange for help repelling the raid — a straightforward combat mission that kicks off the Teshio Sensei arc.",
+    aiTip:
+      "This is an escort-style quest — keep the farmer alive. Position yourself between him and the incoming raiders rather than chasing the flankers. The raiders prioritise him over Atsu.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Winter+Farms+walkthrough",
+    walkthrough: [
+      "Find the Snowbound Village marker in the southern Teshio Ridge.",
+      "Speak with Farmer-Warrior Genzo to learn the raid is imminent.",
+      "Defend the three farm entry points over two raid waves — raiders come from north and east simultaneously.",
+      "Keep Genzo's health above 50% through both waves to earn the bonus charm reward.",
+      "After the raid, speak with Genzo to receive the cold-forged material and advance the Sensei arc."
+    ]
+  },
+  {
+    id: 1160,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Way of the Kusarigama",
+    location: "Teshio Ridge — Hidden Barn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Kusarigama weapon unlocked, Chain Pull technique",
+    summary:
+      "Genzo reveals his weapon of choice — the kusarigama chain sickle — and offers to teach it to Atsu. A deceptively rural sensei, he hides extraordinary skill behind a weather-beaten farmer's demeanour.",
+    aiTip:
+      "The Chain Pull technique is one of the game's most versatile tools — it yanks shielded enemies off balance and pulls aerial crossbow users to the ground. Learn its timing in this quest and use it constantly.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+the+Kusarigama+walkthrough",
+    walkthrough: [
+      "Return to Genzo after completing The Winter Farms.",
+      "Follow him to the hidden barn north of the village.",
+      "Trial 1: use the Chain Pull on five stationary targets without missing.",
+      "Trial 2: pull three shielded enemies off balance and finish them before they recover.",
+      "Trial 3: defeat Genzo in a sparring bout — he telegraphs every attack; read the shoulder dip.",
+      "Receive the kusarigama and Chain Pull scroll after the bout."
+    ]
+  },
+  {
+    id: 1161,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Path of the Kusarigama",
+    location: "Teshio Ridge — Frozen River Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spinning Death technique",
+    summary:
+      "Genzo sends Atsu to a camp on the frozen river where his old training partner holds court — the only person who can teach the advanced kusarigama spinning technique. Getting there requires crossing enemy-held ice.",
+    aiTip:
+      "The Spinning Death hits all enemies in a 360-degree arc — essential for the crowd control situations Teshio constantly presents. Upgrade it to extend the chain length as soon as crafting materials allow.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Kusarigama+walkthrough",
+    walkthrough: [
+      "Receive Genzo's letter directing you to the Frozen River Camp.",
+      "Cross the frozen river — three enemy patrols use the ice as cover; the Tanzutsu breaks the ice beneath them.",
+      "Reach Genzo's former partner Kimura at the camp's central fire.",
+      "Complete Kimura's two trials: timing-based chain swings and a combat demonstration.",
+      "Duel two of Kimura's students simultaneously to prove readiness.",
+      "Receive the Spinning Death scroll and return to Genzo to continue the arc."
+    ]
+  },
+  {
+    id: 1162,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Kusarigama's Shame",
+    location: "Teshio Ridge — Ridge Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Soul Reaper ultimate kusarigama technique",
+    summary:
+      "Kimura's past crime — killing an innocent with a wild chain throw — has followed him to Teshio. The victim's son has hired an assassin to end Kimura's life. Atsu must defend Kimura and help him face his guilt.",
+    aiTip:
+      "The hired assassin is the hardest enemy in the Teshio Sensei arc. He counters the Chain Pull — use Spinning Death instead to keep him off balance while Kimura recovers.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Kusarigamas+Shame+walkthrough",
+    walkthrough: [
+      "A cutscene triggers at the Ridge Shrine when you return after The Path of the Kusarigama.",
+      "Defend Kimura from the first four assassin's scouts — stealth approach recommended.",
+      "The main assassin arrives after the scouts fall; he is immune to Chain Pull.",
+      "Use Spinning Death to break his stance and dual-katana flurries to chip his health.",
+      "At one-third health, the assassin calls Kimura out for a final duel — step aside and watch.",
+      "Kimura wins but is wounded; treat him with a herbal kit from your inventory.",
+      "Receive the Soul Reaper scroll from Kimura in gratitude."
+    ]
+  },
+  {
+    id: 1163,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "A Land Reforged",
+    location: "Teshio Ridge — Blacksmith Quarter",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Teshio Steel armour upgrade tier unlocked",
+    summary:
+      "A master blacksmith in Teshio's isolated quarter claims the region's unique cold-forged steel can upgrade Atsu's armour beyond normal limits. Help him reopen his forge after an outlaw occupation to unlock the upgrade tier.",
+    aiTip:
+      "Completing this quest unlocks a permanent armour upgrade tier, not just a one-time item. Prioritise it early in your Teshio visit — the upgrade makes the later Sensei duels significantly more forgiving.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Land+Reforged+walkthrough",
+    walkthrough: [
+      "Find the blacksmith Tanaka in the locked Blacksmith Quarter — the key is on a guard captain nearby.",
+      "Clear the six outlaws occupying the forge interior.",
+      "Gather three cold-ore chunks from the Teshio mine shaft — marked on map after clearing the forge.",
+      "Return the ore to Tanaka and watch the forge reopen in a short cutscene.",
+      "Commission your first Teshio Steel armour upgrade to complete the quest."
+    ]
+  },
+  {
+    id: 1164,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Secrets of the Heart",
+    location: "Teshio Ridge — Medicine Woman's Hut",
+    length: "short",
+    difficulty: "Low",
+    reward: "Herbal Resolve — restores Resolve on herbal medicine use",
+    summary:
+      "A reclusive medicine woman offers Atsu a unique teaching: herbal preparations that restore Resolve — the combat resource — rather than only health. A short quest of conversation and ingredient gathering unlocks the passive upgrade.",
+    aiTip:
+      "The Herbal Resolve upgrade is one of the most useful passives in the game. It effectively doubles your Ghost Stance uptime if you use herbal medicine regularly during fights.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Secrets+of+the+Heart+walkthrough",
+    walkthrough: [
+      "Find the medicine woman Yuki's hut on the eastern Teshio Ridge path.",
+      "Gather the three mountain herbs she requests — all are within 200m of the hut.",
+      "Return the herbs and sit with Yuki for the teaching conversation.",
+      "Complete the optional listening exercise — identify three sounds she plays on a small drum.",
+      "Receive the Herbal Resolve charm and equip it in the charm menu to activate the upgrade."
+    ]
+  },
+  {
+    id: 1165,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Blind Stranger",
+    location: "Teshio Ridge — Crossroads Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Blind Warrior's Sense — listening detection upgraded",
+    summary:
+      "A blind swordsman at the Teshio crossroads challenges Atsu to a duel in complete darkness. The encounter teaches hearing-based combat instincts and permanently upgrades Atsu's listening detection range.",
+    aiTip:
+      "The darkness duel disables the HUD entirely. Listen for his footstep rhythm — two heavy steps means a thrust attack, one light step means a sweep. Deflect timing is pure audio here.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Blind+Stranger+walkthrough",
+    walkthrough: [
+      "Meet the blind swordsman Mushin at the Crossroads Shrine at night — he only appears after dusk.",
+      "Accept his challenge; the screen fades to black for the duel.",
+      "Listen for his movement audio cues: two heavy steps = thrust (deflect), one light step = sweep (dodge).",
+      "Land five successful deflections to trigger his teaching monologue.",
+      "A second, harder duel follows — same rules but faster tempo.",
+      "Winning gives the permanent listening range upgrade and Mushin's departing riddle (flavour only)."
+    ]
+  },
+  {
+    id: 1166,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Way of the Yari",
+    location: "Ishikari Plain — Veterans' Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yari spear unlocked, Charging Thrust technique",
+    summary:
+      "An old ashigaru veteran at the Veterans' Post still drills daily with his yari spear. He agrees to teach Atsu the weapon in exchange for help clearing a bandit blockade choking the road to his home village.",
+    aiTip:
+      "The yari's Charging Thrust covers ground fast and breaks heavy armour — use it to open fights against armoured enemies. Complete the blockade without being detected for a bonus supply reward.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+the+Yari+walkthrough",
+    walkthrough: [
+      "Find Veteran Ishida at the Veterans' Post in central Ishikari.",
+      "Clear the three-camp bandit blockade on the northern road — stealth earns a bonus.",
+      "Return to Ishida; he teaches Trial 1: yari thrusts against moving targets.",
+      "Trial 2: use the Charging Thrust to break three armoured dummy shields in sequence.",
+      "Trial 3: hold off four attackers using only the yari for 90 seconds.",
+      "Receive the yari and Charging Thrust scroll after completing all three trials."
+    ]
+  },
+  {
+    id: 1167,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Path of the Yari",
+    location: "Ishikari Plain — River Barracks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Spinning Sweep yari technique",
+    summary:
+      "Ishida sends Atsu to his old commanding officer at the River Barracks for advanced yari training. The Spinning Sweep technique turns the yari into a crowd-control weapon — vital for Ishikari's large enemy groups.",
+    aiTip:
+      "The Spinning Sweep has a brief startup that enemies can interrupt. Use it only after a Charging Thrust stuns the lead enemy — the stun gives you the gap needed for the full sweep animation.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Yari+walkthrough",
+    walkthrough: [
+      "Receive Ishida's referral letter and travel to the River Barracks.",
+      "The barracks is under light occupation — clear it before the commander Roku will talk.",
+      "Complete Roku's Trial 1: land Charging Thrust into Spinning Sweep on each of three targets.",
+      "Trial 2: use Spinning Sweep to simultaneously hit three enemies in one rotation.",
+      "Spar with Roku using only the yari — do not switch weapons.",
+      "Receive the Spinning Sweep scroll from Roku and return to Ishida."
+    ]
+  },
+  {
+    id: 1168,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Yari's Fury",
+    location: "Ishikari Plain — Fury Grounds",
+    length: "medium",
+    difficulty: "High",
+    reward: "Fury Stance — berserker yari mode",
+    summary:
+      "The final yari lesson pushes Atsu to her limits. Roku reveals the legendary Fury Stance — a berserker mode that temporarily doubles attack speed — and tests her in a punishing gauntlet before teaching it.",
+    aiTip:
+      "Fury Stance depletes Resolve while active — don't trigger it until you have a full Resolve bar. The gauntlet's final wave has six enemies; save the stance activation for that wave specifically.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Yaris+Fury+walkthrough",
+    walkthrough: [
+      "Return to Roku after completing The Path of the Yari.",
+      "The Fury Grounds are marked east of the barracks — a natural arena.",
+      "Wave 1: defeat four basic enemies using only yari techniques.",
+      "Wave 2: defeat three shielded enemies — Charging Thrust into Spinning Sweep is optimal.",
+      "Wave 3: defeat five mixed enemies while Roku observes your stance control.",
+      "Wave 4: six elite enemies — activate the demonstrated Fury Stance and clear the wave.",
+      "Receive the permanent Fury Stance unlock and the yari's final upgrade slot."
+    ]
+  },
+  {
+    id: 1169,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Sensei Takahashi's Persimmon Tree",
+    location: "Ishikari Plain — Takahashi's Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Persimmon Charm — reduces cooldowns",
+    summary:
+      "Eccentric Sensei Takahashi refuses to teach until Atsu tends his cherished persimmon tree, which bandits have damaged and deer have stripped. A meditative quest that rewards patience with a useful passive charm.",
+    aiTip:
+      "This is purely a non-combat quest — the only one in the Sensei arc. Don't bring weapons out; Takahashi disapproves and locks you out of the charm if you attack the deer rather than shooing them.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Sensei+Takahashis+Persimmon+Tree+walkthrough",
+    walkthrough: [
+      "Find Sensei Takahashi sulking by his orchard in southern Ishikari.",
+      "Repair the three damaged tree supports using the crafting prompt at each one.",
+      "Shoo away the three deer grazing on the low branches — walk toward them, do not attack.",
+      "Gather two persimmon fruits from the tree and offer them to Takahashi.",
+      "Sit with him for the brief conversation to receive the Persimmon Charm."
+    ]
+  },
+  {
+    id: 1170,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Bomb Maker",
+    location: "Ishikari Plain — Hidden Laboratory",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Scorch Bomb, Smoke Bomb, Sticky Bomb crafting recipes unlocked",
+    summary:
+      "A reclusive alchemist hiding a laboratory in an Ishikari cave has developed three types of explosive ordnance. She will teach Atsu her craft in exchange for gathering rare materials from a heavily guarded supply depot.",
+    aiTip:
+      "The scorch bomb is your most versatile new tool — it creates a fire zone that damages and staggers. Combine it with the oil jar (unlocked via a separate upgrade) for a devastating area-denial combo.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Bomb+Maker+walkthrough",
+    walkthrough: [
+      "Discover the Hidden Laboratory by investigating the smoking chimney vent near the eastern Ishikari cliffs.",
+      "Speak with alchemist Fumiko — she needs sulphur, charcoal, and pine resin from the supply depot.",
+      "The depot has twelve guards; approach from the river side where a blind spot exists.",
+      "Loot the three material crates marked by Fumiko's sketched map.",
+      "Return to Fumiko and watch the crafting demonstration cutscene.",
+      "Receive all three bomb recipes and the crafting bench upgrade."
+    ]
+  },
+  {
+    id: 1171,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Fighting Fire With Fire",
+    location: "Ishikari Plain — Burning Mill",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Oil Jar and Explosive Arrow recipes, Fire Mastery upgrade",
+    summary:
+      "Fumiko's advanced course covers large-scale incendiary weapons. A crisis arrives when outlaws torch the Ishikari mill — Atsu must use her new bomb skills to fight fire with fire and save the structure.",
+    aiTip:
+      "Use smoke bombs to move safely through the burning mill interior. Save scorch bombs for the enemy arsonists at the back — three consecutive hits will end the encounter before they can ignite the grain store.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Fighting+Fire+With+Fire+walkthrough",
+    walkthrough: [
+      "Return to Fumiko after completing The Bomb Maker — she has heard about the mill fire.",
+      "Rush to the Burning Mill; three arsonist groups are actively spreading the fire.",
+      "Extinguish fire patches using the water barrels at each mill entrance before proceeding.",
+      "Use smoke bombs to obscure your movement through heavy smoke sections.",
+      "Reach the three arsonist leaders at the rear and defeat them with scorch bombs and melee.",
+      "Return to Fumiko for the oil jar and explosive arrow recipes to complete the quest."
+    ]
+  },
+  {
+    id: 1172,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Burning of Castle Ishikari",
+    location: "Ishikari Plain — Castle Ishikari",
+    length: "long",
+    difficulty: "High",
+    reward: "Grand Alchemist armour, Master Bomb Maker title, all bomb upgrades",
+    summary:
+      "Fumiko's arc climaxes as a warlord seizes Castle Ishikari and threatens to destroy everything within. Atsu storms the burning fortress using every explosive skill learned — a full-scale siege where Fumiko fights at her side.",
+    aiTip:
+      "Manage your bomb supply carefully — you cannot restock during the castle assault. Prioritise oil jars for the armoured gate guards and save explosive arrows for the castle's three reinforced barriers.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Burning+of+Castle+Ishikari+walkthrough",
+    walkthrough: [
+      "Receive Fumiko's urgent message at the Ishikari inn after completing Fighting Fire With Fire.",
+      "Approach Castle Ishikari from the eastern gate — Fumiko meets you there with a supply pack.",
+      "Breach Gate 1 using oil jar plus scorch bomb on the reinforced door.",
+      "Fight through two courtyard waves; Fumiko provides covering fire with crossbow.",
+      "Breach Gate 2 using an explosive arrow on the gate's powder barrel.",
+      "Reach the warlord in the throne room; he fights with a flaming odachi — dodge all flame arcs.",
+      "Defeat the warlord to end the siege and unlock all remaining bomb upgrades in the crafting menu."
+    ]
+  },
+  {
+    id: 1173,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Guns and Consequences",
+    location: "Oshima Coast — Harbour Gunsmith",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tanzutsu matchlock rifle unlocked, Steady Shot technique",
+    summary:
+      "A conflicted ex-pirate gunsmith on the Oshima harbour wants out of his old crew. He will teach Atsu to use the Tanzutsu matchlock rifle if she helps him settle his debts — a quest balancing mercy and violence.",
+    aiTip:
+      "The Tanzutsu is the game's only ranged weapon that penetrates armour and breaks ice underfoot. Its reload time is long — only fire when a target is stationary. The Steady Shot technique halves reload time after a successful headshot.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Guns+and+Consequences+walkthrough",
+    walkthrough: [
+      "Find Gunsmith Ryo hiding in the Oshima harbour warehouse.",
+      "Agree to help him settle debts with his old crew — three locations marked on the harbour map.",
+      "Location 1: recover stolen goods peacefully by paying with found coin from the harbour crates.",
+      "Location 2: the second creditor will not negotiate — defeat his four guards without killing him.",
+      "Location 3: the crew captain demands a duel — win to settle all remaining debts.",
+      "Return to Ryo; he teaches the Tanzutsu in a brief tutorial and awards the Steady Shot scroll."
+    ]
+  },
+  {
+    id: 1174,
+    type: "side",
+    category: "Sensei Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Pride Before Tea",
+    location: "Oshima Coast — Clifftop Tea House",
+    length: "short",
+    difficulty: "Low",
+    reward: "Resolve Regen passive — Resolve slowly regenerates out of combat",
+    summary:
+      "A tea ceremony master at a clifftop house believes focus and patience are the true weapons. Teaching Atsu a formal tea ceremony provides a permanent Resolve regeneration upgrade — invisible strength earned through stillness.",
+    aiTip:
+      "This is the only quest that grants out-of-combat Resolve regeneration. Combined with the Herbal Resolve charm from Teshio, your Resolve management in longer fights becomes almost effortless.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Pride+Before+Tea+walkthrough",
+    walkthrough: [
+      "Find Tea Master Tomoe at the Clifftop Tea House on the Oshima southern headland.",
+      "Accept the ceremony invitation and sit across from her.",
+      "Follow the on-screen prompts: bow, pour, present, receive — four actions in correct order.",
+      "If you rush or miss an action, the ceremony restarts; there is no penalty.",
+      "Complete the ceremony without error to trigger the teaching conversation.",
+      "Receive the Resolve Regen passive upgrade permanently added to Atsu's skill sheet."
+    ]
+  },
+  {
+    id: 1175,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Old Trails",
+    location: "Yōtei Grasslands — Northern Forest Path",
+    length: "short",
+    difficulty: "Low",
+    reward: "Trail Charm, forest path shortcut unlocked",
+    summary:
+      "A retired road warden asks Atsu to clear the old forest trails of outlaws who have made the paths too dangerous to use. Restoring the trails opens a useful shortcut across the Grasslands.",
+    aiTip:
+      "The three bandit camps on this quest are small and lightly guarded — a perfect opportunity to practice stealth kills. Clearing them without alerts earns a bonus Trail Charm with faster horse travel.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Old+Trails+walkthrough",
+    walkthrough: [
+      "Speak with Warden Kenji at the northern Grasslands trailhead.",
+      "Clear Camp 1 (4 bandits) on the eastern ridge — approach from the high ground.",
+      "Clear Camp 2 (5 bandits) at the river ford — stealth through the tall grass.",
+      "Clear Camp 3 (6 bandits) at the forest shrine — one archer on the roof requires priority.",
+      "Return to Kenji to receive the Trail Charm and unlock the forest shortcut on your map."
+    ]
+  },
+  {
+    id: 1176,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Building Bridges",
+    location: "Yōtei Grasslands — Riverside Crossing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bridge restored, Carpenter's Charm",
+    summary:
+      "Villagers need help rebuilding a bridge the Yōtei Six destroyed during their initial raid. Gathering materials and defending the workers from a retaliatory strike reconnects two halves of a cut-off community.",
+    aiTip:
+      "The worker defence wave comes from the river — position yourself on the bridge itself to funnel enemies into a narrow chokepoint and use the Spinning Sweep to hit multiple targets.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Building+Bridges+walkthrough",
+    walkthrough: [
+      "Talk to Village Elder Mio at the western Grasslands riverbank.",
+      "Gather two bundles of timber from the marked lumber piles east of the river.",
+      "Carry materials back — you cannot fight while carrying, so check the road is clear.",
+      "Defend the three carpenters through one attack wave of eight bandits.",
+      "The bridge completes in a short cutscene; receive the Carpenter's Charm from Mio."
+    ]
+  },
+  {
+    id: 1177,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Fleeting Thought",
+    location: "Yōtei Grasslands — Poet's Waypoint",
+    length: "short",
+    difficulty: "Low",
+    reward: "Poet's Charm, Haiku collectible unlocked",
+    summary:
+      "A wandering poet encountered on the road carries a sealed message for a family three villages away but is too fearful to travel alone. Escort them safely through an ambush to deliver a final farewell letter.",
+    aiTip:
+      "This escort quest is peaceful until the mid-point ambush. Stay close to the poet — they panic and freeze if enemies get within five metres, but will not run back to safety on their own.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Fleeting+Thought+walkthrough",
+    walkthrough: [
+      "Meet poet Reiko at the crossroads marker in central Grasslands.",
+      "Escort Reiko along the western road — the walk takes about two minutes.",
+      "An ambush of six bandits triggers at the old oak landmark; defeat them before they reach Reiko.",
+      "Continue the escort to the Kobayashi farmhouse at the trail's end.",
+      "Watch the letter delivery cutscene; receive the Poet's Charm from Reiko."
+    ]
+  },
+  {
+    id: 1178,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Worth of a Man",
+    location: "Yōtei Grasslands — Bandit Hideout",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Rescued Hostage's Blade",
+    summary:
+      "A farmer pays Atsu to rescue his son taken hostage by bandits. On infiltrating the hideout, Atsu discovers the son voluntarily joined the bandits to escape debt — a quest about family, choice, and consequence.",
+    aiTip:
+      "You can resolve this quest peacefully by speaking with the son before fighting. Choosing the 'let him decide' dialogue gives the best outcome reward. Attacking immediately locks out the peaceful ending.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Worth+of+a+Man+walkthrough",
+    walkthrough: [
+      "Accept the job from Farmer Noburu at the Grasslands inn.",
+      "Infiltrate the bandit hideout on the eastern hill from the blind side — avoid the two rooftop guards.",
+      "Find the son Tatsuya in the second building — a cutscene begins.",
+      "Choose 'let him decide' in dialogue to unlock the peaceful resolution.",
+      "Escort Tatsuya out if he agrees to leave, or leave him and return to Noburu alone.",
+      "Report to Noburu; both outcomes give the gold reward, but the peaceful path adds the Rescued Blade."
+    ]
+  },
+  {
+    id: 1179,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Lost in Reflection",
+    location: "Yōtei Grasslands — Mirror Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lake Charm, haiku composition",
+    summary:
+      "A grieving mother has been searching the Grasslands for the lake where her son drowned years ago to leave an offering. Atsu guides her through bandits and over difficult terrain to reach Mirror Lake and its quiet memorial.",
+    aiTip:
+      "This is a quiet story quest with minimal combat. The single bandit encounter can be avoided entirely by taking the mountain goat trail — ask the mother about alternate routes in the first dialogue tree.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Lost+in+Reflection+walkthrough",
+    walkthrough: [
+      "Meet grieving mother Ume at the southern Grasslands waypoint.",
+      "Ask about the mountain goat trail in dialogue to bypass the bandit ambush.",
+      "Guide Ume along the goat trail — slow pace required, stay within 10 metres.",
+      "Reach Mirror Lake; watch the offering ceremony cutscene.",
+      "Sit at the lakeside with Ume to compose the optional haiku before leaving.",
+      "Receive the Lake Charm when Ume departs."
+    ]
+  },
+  {
+    id: 1180,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Memories of Home",
+    location: "Yōtei Grasslands — Refugee Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Survivor's Charm, ally contact added",
+    summary:
+      "A refugee family from Atsu's home village survived the Yōtei Six massacre but is stranded and pursued by survivors of the gang. Escort them through two outlaw ambushes to a safe farmstead.",
+    aiTip:
+      "The family has three members — if any are killed the quest fails. Use smoke bombs to create cover during the first ambush and herd them behind the cart. The second ambush has a mounted archer; kill the horse first.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Memories+of+Home+walkthrough",
+    walkthrough: [
+      "Find the refugee family at the marked camp near the Grasslands southern border.",
+      "Clear the eight outlaws watching the road before signalling the family to move.",
+      "First ambush: twelve attackers come from both sides — use smoke bombs to regroup the family.",
+      "Second ambush: a mounted archer plus six ground troops — dismount the archer with a Tanzutsu shot.",
+      "Escort the family the final stretch to Hayashi Farmstead.",
+      "Receive the Survivor's Charm and the new ally contact marker on your map."
+    ]
+  },
+  {
+    id: 1181,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Sleight of Hand",
+    location: "Yōtei Grasslands — Market Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Intelligence on Yōtei Six movements, Trickster's Charm",
+    summary:
+      "A street magician who witnessed the Yōtei Six massacre holds key intelligence — but won't share it until Atsu helps him recover his stolen props from a pickpocket gang running the market.",
+    aiTip:
+      "The pickpocket gang fight takes place in a crowded market — area attacks will hit innocent bystanders and trigger a failed state. Use precise single-target attacks only.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Sleight+of+Hand+walkthrough",
+    walkthrough: [
+      "Speak with Magician Sho at the market town plaza.",
+      "Track the three pickpockets through the crowd — use the listening sense to follow the stolen prop sounds.",
+      "Corner each pickpocket individually in the market's side alleys.",
+      "Return all three props to Sho; he performs a trick as thanks.",
+      "Receive the intelligence note about the Yōtei Six and the Trickster's Charm."
+    ]
+  },
+  {
+    id: 1182,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Drink with a Stranger",
+    location: "Yōtei Grasslands — Riverside Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Informant contact, Sake Charm",
+    summary:
+      "A suspiciously well-informed traveller at the Riverside Inn offers to buy Atsu a drink. Over conversation, the traveller reveals they are an undercover informant with intelligence on outlaw movements — and a dangerous tail.",
+    aiTip:
+      "The four assassins that ambush the informant at the end arrive from the rooftop — clear the roof before the final conversation to avoid being flanked. They are among the fastest enemies in the Grasslands.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Drink+with+a+Stranger+walkthrough",
+    walkthrough: [
+      "Speak with the stranger Nori at the inn bar — accept the drink offer.",
+      "Complete three rounds of conversation, choosing to share information openly each time.",
+      "After the third round, Nori signals urgency — check the rooftop before continuing.",
+      "Clear the four assassins waiting on the roof above the inn.",
+      "Return to Nori; they share their intelligence and depart.",
+      "Receive the informant contact (new map markers) and the Sake Charm."
+    ]
+  },
+  {
+    id: 1183,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "The Ainu Heirloom",
+    location: "Yōtei Grasslands — Ainu Elder's Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ainu Heirloom Charm, Ainu community trust",
+    summary:
+      "An Ainu elder asks Atsu to recover an ancestral relic — a carved wooden bear — stolen by bandits who raided their village. Returning it strengthens the Ainu community's trust and unlocks optional Ainu side content.",
+    aiTip:
+      "The bandit captain guarding the relic uses a buckler shield — the Kusarigama Chain Pull bypasses it instantly. After recovering the relic, do not fast-travel; a second bandit group ambushes the return path.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Ainu+Heirloom+walkthrough",
+    walkthrough: [
+      "Speak with Ainu Elder Ekashi at the village on the Grasslands north edge.",
+      "Travel to the bandit camp three kilometres east — approach at dusk for reduced guard density.",
+      "Locate the carved bear in the camp's storage tent — marked by the listening sense pulse.",
+      "Defeat the captain and two guards in the tent.",
+      "Return to the village via foot — a six-bandit ambush waits on the main road.",
+      "Present the relic to Ekashi to receive the Ainu Heirloom Charm and unlock Ainu content."
+    ]
+  },
+  {
+    id: 1184,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "A Normal Life",
+    location: "Yōtei Grasslands — Roadside Farm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reformed Outlaw's Blade, farmstead safe house unlocked",
+    summary:
+      "A former Yōtei Six foot soldier trying to live peacefully as a farmer is hunted by his former gang. Atsu must decide whether to help him fight his past or advise him to flee — both paths have consequences.",
+    aiTip:
+      "Choosing to fight alongside him unlocks the farmstead as a fast-travel safe house. Choosing flight gives the better weapon reward but no safe house. Pick fight if you value map utility over the immediate gear.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Normal+Life+walkthrough",
+    walkthrough: [
+      "Find former outlaw Jiro tending his farm on the western Grasslands road.",
+      "He reveals three former comrades are hunting him — investigate the marked locations for intel.",
+      "Return to Jiro with the intelligence; choose fight or flee in dialogue.",
+      "Fight path: defend the farmstead through two attack waves (9 total enemies) alongside Jiro.",
+      "Flee path: escort Jiro to the forest border and watch him disappear into safety.",
+      "Collect your reward from Jiro's hidden cache under the barn floorboard regardless of path chosen."
+    ]
+  },
+  {
+    id: 1185,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "A Flower For Your Thoughts",
+    location: "Tokachi Range — Marshland Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Herbalist's Charm, rare bloom crafting material",
+    summary:
+      "A herbalist in the Tokachi marshes needs protection while gathering rare winter blooms from dangerous terrain patrolled by outlaws. A peaceful quest for anyone who takes a stealthy approach.",
+    aiTip:
+      "The herbalist stops to gather at three locations — each one draws a nearby patrol. Eliminate each patrol before the herbalist reaches the gathering point to avoid a stressful escort fight.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Flower+For+Your+Thoughts+walkthrough",
+    walkthrough: [
+      "Meet Herbalist Yuki at the Marshland Village gate.",
+      "Scout ahead of Yuki to each of three gathering points and clear patrols before she arrives.",
+      "Point 1: two patrols, approach from the reed beds.",
+      "Point 2: a rooftop lookout calls reinforcements — prioritise him.",
+      "Point 3: no guards if previous patrols were cleared, otherwise three respawn.",
+      "Escort Yuki safely back to the village and receive the charm and bloom material."
+    ]
+  },
+  {
+    id: 1186,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "A Matter of Honour",
+    location: "Tokachi Range — Samurai Estate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Honour Blade, duel techniques insight",
+    summary:
+      "A samurai demands satisfaction from Atsu for a slight she supposedly committed. The investigation reveals a third party fabricated the insult to provoke both of them. Exposing the scheme avoids a needless duel.",
+    aiTip:
+      "Finding the forged letter before confronting the samurai unlocks a peaceful resolution that awards the better reward. If you miss the letter and duel him, win by using standard deflect-counter timing — he has no tricks.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Matter+of+Honour+walkthrough",
+    walkthrough: [
+      "Be challenged by Samurai Goto at the Tokachi estate gate.",
+      "Before accepting or refusing the duel, investigate the three marked locations for evidence.",
+      "Find the forged letter in the steward's study — it proves the insult was fabricated.",
+      "Present the letter to Goto; the fabricator is his own steward.",
+      "Confront the steward — he flees into the estate; pursue and defeat him.",
+      "Return to Goto for the Honour Blade reward and duel techniques insight."
+    ]
+  },
+  {
+    id: 1187,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Easy Coin",
+    location: "Tokachi Range — Trading Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Merchant's Contact",
+    summary:
+      "A merchant's supposedly simple courier job turns into a trap — the package contains blackmail material and the merchant's former allies are waiting at the delivery point. Atsu must fight out of the ambush.",
+    aiTip:
+      "The ambush is ten enemies in a small space — use your first scorch bomb immediately on entry to stagger the clustered group. The merchant turns hostile in the final phase; the Charging Thrust ends his sprint.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Easy+Coin+walkthrough",
+    walkthrough: [
+      "Accept the courier job from Merchant Ueda at the trading post.",
+      "Deliver the package to the marked waypoint three kilometres south.",
+      "Eight former allies spring the ambush — clear them with explosive tools.",
+      "The merchant arrives and turns hostile; defeat him — non-lethal option available.",
+      "Inspect the package contents to understand the blackmail scheme.",
+      "Report to the trading post elder for a finder's reward and Merchant's Contact."
+    ]
+  },
+  {
+    id: 1188,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Every Man for Himself",
+    location: "Tokachi Range — Ransacked Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Survivor's Pack, Mediation Charm",
+    summary:
+      "Survivors of a bandit raid are turning on each other over the last supplies in a ransacked camp. Atsu must defuse the tension through conversation and, if necessary, combat before the survivors kill each other.",
+    aiTip:
+      "The peaceful resolution requires choosing 'share the supplies' twice in dialogue before the fight triggers. If combat starts, knock out rather than kill the aggressors — the survivors grant a better reward for mercy.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Every+Man+for+Himself+walkthrough",
+    walkthrough: [
+      "Discover the ransacked camp on the Tokachi eastern trail.",
+      "Speak with survivor leader Masa — tensions are at a breaking point.",
+      "Choose 'share the supplies' in both dialogue prompts to attempt peaceful mediation.",
+      "If it fails, non-lethally defeat the two aggressors using pommel strikes (hold heavy attack).",
+      "Distribute the remaining supplies equally between the four survivors.",
+      "Receive the Survivor's Pack and Mediation Charm from grateful survivor Hana."
+    ]
+  },
+  {
+    id: 1189,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Desperate Remedy",
+    location: "Tokachi Range — Outlaw Supply Camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Medicine Cache, Healer's Charm",
+    summary:
+      "A healer's village faces a disease outbreak but the medicine needed is locked inside a heavily guarded outlaw supply camp. Atsu raids the camp to secure the supplies before the outbreak claims more lives.",
+    aiTip:
+      "The medicine is in a locked chest requiring the camp captain's key. Kill the captain first and take the key before engaging the rest of the camp — his patrol pattern brings him to the western gate every 90 seconds.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Desperate+Remedy+walkthrough",
+    walkthrough: [
+      "Speak with Healer Sora at the Tokachi village — she marks the supply camp on the map.",
+      "Observe the camp exterior; the captain patrols the western gate every 90 seconds.",
+      "Intercept the captain's patrol with a stealth kill to obtain the chest key.",
+      "Use the key on the medicine chest in the camp's central storage building.",
+      "Fight out of the camp or sneak out through the river exit.",
+      "Deliver the medicine to Sora; receive the Medicine Cache and Healer's Charm."
+    ]
+  },
+  {
+    id: 1190,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Marshland Homestead",
+    location: "Tokachi Range — Marsh Farmstead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Stubborn Farmer's Charm, homestead safe house",
+    summary:
+      "A stubborn farming family refuses to abandon their marshland home despite persistent outlaw raids. Atsu helps them fortify the homestead and repels a final large assault to secure their right to stay.",
+    aiTip:
+      "The final assault has twelve attackers coming from three directions simultaneously. Use the fortification points the family built — the barricade on the north road funnels half the attackers into a chokepoint.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Marshland+Homestead+walkthrough",
+    walkthrough: [
+      "Meet the family patriarch Gota at the Marsh Farmstead entrance.",
+      "Build three fortifications: barricade (north), watchtower (east), fence (south) — materials nearby.",
+      "Survive Wave 1: six attackers, mostly from the north.",
+      "Survive Wave 2: twelve attackers from all three directions — use the barricade chokepoint.",
+      "After the assault, the family thanks Atsu; the homestead unlocks as a safe house.",
+      "Receive the Stubborn Farmer's Charm from Gota's daughter."
+    ]
+  },
+  {
+    id: 1191,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Protecting the Peace",
+    location: "Tokachi Range — Village Constable Post",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Constable's Badge Charm, cleared patrol routes",
+    summary:
+      "Village constables overwhelmed by gang activity ask Atsu for temporary help. A three-part mission clears a gang's three outposts and ends with a confrontation against their local lieutenant.",
+    aiTip:
+      "The lieutenant uses a war fan as a weapon — it deflects arrows and Tanzutsu shots. Close in with dual katana and ignore the fan; it only blocks ranged, not melee.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Protecting+the+Peace+walkthrough",
+    walkthrough: [
+      "Speak with Constable Chief Daichi at the post in northern Tokachi.",
+      "Clear Outpost 1 (6 gang members) on the river island — approach by swimming.",
+      "Clear Outpost 2 (8 gang members) at the lumber yard — a fire alert is possible; have a bucket ready.",
+      "Clear Outpost 3 (5 gang members plus lookout) on the hill — take out the lookout first.",
+      "Confront Lieutenant Bando at the gang's main camp; he uses a war fan — fight in melee only.",
+      "Return to Daichi; receive the Constable's Badge Charm."
+    ]
+  },
+  {
+    id: 1192,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Ainu Kotan",
+    location: "Tokachi Range — Ainu Settlement",
+    length: "long",
+    difficulty: "High",
+    reward: "Ainu Warrior's Charm, Kotan alliance",
+    summary:
+      "An Ainu settlement in the Tokachi foothills faces forced relocation by a lord claiming their land. Atsu investigates the land claim, exposes its fraud, and defends the settlement against the lord's enforcers.",
+    aiTip:
+      "The land claim fraud evidence is in the lord's office — three documents, each in a different guarded room. Read all three before confronting the lord to unlock the full peaceful dialogue option that avoids unnecessary bloodshed.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Ainu+Kotan+walkthrough",
+    walkthrough: [
+      "Speak with Ainu community leader Huci at the settlement gates.",
+      "Infiltrate the lord's manor to find the three forged land documents.",
+      "Document 1: administrator's desk in the main hall.",
+      "Document 2: locked box in the treasury — key is on a guard captain.",
+      "Document 3: the lord's personal study on the top floor.",
+      "Confront the lord with all three documents — he orders his enforcers to attack regardless.",
+      "Defeat the twelve enforcers in the settlement defence to complete the quest."
+    ]
+  },
+  {
+    id: 1193,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Dragonfly Armor",
+    location: "Tokachi Range — Dragonfly Forge",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Dragonfly Armour, armour weight reduction upgrade",
+    summary:
+      "A blacksmith legend operating out of a hidden marsh forge claims to have crafted armour light as a dragonfly's wing. Gather the three rare materials she needs and commission Ezo's lightest armour set.",
+    aiTip:
+      "The Dragonfly Armour's weight reduction applies to your entire loadout — it is the best armour for players who rely on dodge-heavy playstyles. Prioritise this quest early in Tokachi if you favour agility over defence.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Dragonfly+Armor+walkthrough",
+    walkthrough: [
+      "Discover the Dragonfly Forge by following a dragonfly (literal in-game creature) near the Tokachi marsh.",
+      "Speak with Smith Chiyo — she needs reed fibre, swamp iron, and dragonfly wing resin.",
+      "Reed fibre: gather from the marsh reeds north of the forge (no combat).",
+      "Swamp iron: mine from the deposit guarded by four outlaws at the marsh centre.",
+      "Dragonfly wing resin: crafted at Chiyo's bench using two blooms from the Herbalist quest.",
+      "Commission the armour and wait one in-game day — rest at the forge camp to advance time.",
+      "Collect the Dragonfly Armour and weight reduction upgrade from Chiyo."
+    ]
+  },
+  {
+    id: 1194,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Loss We Carry",
+    location: "Tokachi Range — Old Battle Site",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Reconciliation Charm, memory haiku",
+    summary:
+      "Two old warriors meet again at the site of a battle from decades ago, each blaming the other for a costly defeat. Atsu mediates their confrontation and helps them reach a truth that neither has faced alone.",
+    aiTip:
+      "This is a dialogue-driven quest with no combat. Choose the 'hear both sides' prompt every time it appears — cutting one veteran off locks you out of the full memory sequence and the bonus Reconciliation Charm.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Loss+We+Carry+walkthrough",
+    walkthrough: [
+      "Find the two veterans arguing at the Old Battle Site memorial stone.",
+      "Speak with Veteran Hayato first; choose 'hear both sides' when prompted.",
+      "Speak with Veteran Mori; again choose 'hear both sides'.",
+      "Return to Hayato with Mori's account; choose 'share what Mori said'.",
+      "A joint memory cutscene plays — let it finish without skipping.",
+      "Speak with both veterans together at the memorial stone to conclude and receive the charm."
+    ]
+  },
+  {
+    id: 1195,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Soul of an Instrument",
+    location: "Tokachi Range — Hidden Valley",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Resonance Charm, shamisen upgrade",
+    summary:
+      "A shamisen craftsman needs a rare paulownia wood that only grows in a valley too dangerous for him to enter alone. The wood's supernatural resonance — and the valley's guardian — make this more than a simple supply run.",
+    aiTip:
+      "The valley guardian is not a combat encounter — it is a music puzzle. Use the shamisen and play the three notes shown by the glowing moths circling the tree. Wrong notes summon hostile spirits; correct notes appease the guardian.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Soul+of+an+Instrument+walkthrough",
+    walkthrough: [
+      "Meet Craftsman Keiko at the Tokachi foothills — he marks the Hidden Valley on the map.",
+      "Enter the valley solo — Keiko cannot enter.",
+      "Find the paulownia tree at the valley's centre, surrounded by glowing moths.",
+      "Equip the shamisen and observe the three moths' positions to identify the note sequence.",
+      "Play the correct three-note sequence — the guardian spirit appears peacefully.",
+      "Harvest the paulownia wood from the guardian's offered branch.",
+      "Return to Keiko; receive the Resonance Charm and a shamisen upgrade."
+    ]
+  },
+  {
+    id: 1196,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Those Who Leave",
+    location: "Tokachi Range — Tokachi Road South",
+    length: "medium",
+    difficulty: "High",
+    reward: "Freed Captives, Liberator's Charm",
+    summary:
+      "Young people fleeing rural poverty are being intercepted by slavers on the Tokachi southern road. Atsu dismantles three slaver checkpoints and frees the captives before they disappear across the mountains.",
+    aiTip:
+      "The slaver captain at Checkpoint 3 carries a key that frees all remaining captives simultaneously — kill him first to avoid having to find individual cell keys. He wears red armour and stays at the rear of the camp.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Those+Who+Leave+walkthrough",
+    walkthrough: [
+      "Speak with a sobbing family at the Tokachi inn — their child was taken at a checkpoint.",
+      "Checkpoint 1 (4 slavers): free 2 captives from the cart.",
+      "Checkpoint 2 (7 slavers): free 3 captives from the stockade — pick the lock or fight for the key.",
+      "Checkpoint 3 (10 slavers, captain in red): kill the captain first and use his master key.",
+      "Free the final 5 captives and escort them to the safe farmhouse north of the road.",
+      "Return to the inn to find the family reunited; receive the Liberator's Charm."
+    ]
+  },
+  {
+    id: 1197,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "A Melody of Thoughts",
+    location: "Nayoro Wilds — Spirit Forest",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Forest Spirit Charm, Ainu lore entries",
+    summary:
+      "An Ainu singer's ancient songs are said to guide travellers through the spirit-haunted Nayoro forest safely. Atsu joins her on a ritual journey, protecting her voice — and learning something of the Ainu world in return.",
+    aiTip:
+      "The spirits in this quest are non-hostile unless Atsu draws a weapon. Keep weapons sheathed throughout the forest walk and the spirits will provide illumination rather than attacking.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Melody+of+Thoughts+walkthrough",
+    walkthrough: [
+      "Find Singer Sipne at the Nayoro forest edge at dawn.",
+      "Follow Sipne into the Spirit Forest — keep weapons sheathed at all times.",
+      "When hostile bandits interrupt the journey, use hand-to-hand throws to incapacitate without drawing steel.",
+      "Sipne sings at three waypoints — stand in the glowing circle to receive the spirits' guidance.",
+      "At the forest centre, a single large spirit guards the path — Sipne's fourth song appeases it.",
+      "Exit the forest with Sipne and receive the Forest Spirit Charm."
+    ]
+  },
+  {
+    id: 1198,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Face of a Master",
+    location: "Nayoro Wilds — Remote Village",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master's Disguise Charm, assassination technique",
+    summary:
+      "A disguised master assassin is hiding among the workers of a Nayoro village, gathering intelligence on Atsu's movements. Expose them through careful observation before they act.",
+    aiTip:
+      "The assassin changes disguise between observation phases. Track them by the slight scar visible on their left wrist — every disguise leaves this detail. Look for it on each suspect before accusing.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Face+of+a+Master+walkthrough",
+    walkthrough: [
+      "Receive a tip from an Ainu elder about a suspicious worker in the Nayoro village.",
+      "Observe the five suspects going about their daily routines — look for the wrist scar.",
+      "Two suspects can be eliminated in Phase 1 (scar absent); focus on the remaining three.",
+      "The assassin changes disguise at midday — recheck all remaining suspects at noon.",
+      "Identify the correct suspect and confront them at the village well.",
+      "Defeat the assassin — they fight with twin knives and smoke bombs.",
+      "Receive the Master's Disguise Charm and a new assassination technique from the search of their belongings."
+    ]
+  },
+  {
+    id: 1199,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Face of a Demon",
+    location: "Nayoro Wilds — Eastern Farmlands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Exile's Charm, peaceful resolution bonus",
+    summary:
+      "Farmers in the Nayoro eastern lands blame a disfigured exile for livestock deaths and crop destruction. Atsu investigates and discovers the true culprit — a natural predator — and must choose whether to defend the exile.",
+    aiTip:
+      "Finding the animal tracks before confronting the farmers unlocks a full peaceful resolution. If you skip the investigation and go straight to the exile, the quest resolves with combat only and no bonus charm.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Face+of+a+Demon+walkthrough",
+    walkthrough: [
+      "Hear the farmers' complaint at the Nayoro market.",
+      "Investigate the crime scene: three sets of animal claw marks, not human footprints.",
+      "Track the claw marks to a bear's den north of the farmlands — clear the bear.",
+      "Find the exile Juko hiding nearby — he has been protecting the farmers from the bear all along.",
+      "Bring the farmers and Juko together for a confrontation dialogue.",
+      "Choose 'show them the evidence' to resolve peacefully and earn both rewards."
+    ]
+  },
+  {
+    id: 1200,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Heart of an Ainu",
+    location: "Nayoro Wilds — Trial Grounds",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Ainu Trial Charm, Nayoro alliance",
+    summary:
+      "A young Ainu warrior needs to complete a coming-of-age trial in the deep forest to earn their place in the community. Atsu accompanies them as a witness, offering guidance through three ancient trials.",
+    aiTip:
+      "The trials test the young warrior, not Atsu — let them fight each encounter. Only intervene if they are about to die (health below 20%) or the quest will count Atsu as a cheater and lock the alliance reward.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Heart+of+an+Ainu+walkthrough",
+    walkthrough: [
+      "Meet young warrior Piri at the Nayoro Trial Grounds entrance.",
+      "Trial 1 (Hunt): Piri must track and fell a deer — guide them to the animal's tracks.",
+      "Trial 2 (Combat): Piri fights three outlaw scouts alone — only intervene if HP drops below 20%.",
+      "Trial 3 (Endurance): Piri must cross a frozen river — assist only by breaking the ice ahead with the Tanzutsu.",
+      "Witness the completion ceremony at the far bank.",
+      "Receive the Ainu Trial Charm and the Nayoro community alliance marker."
+    ]
+  },
+  {
+    id: 1201,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "The Load We Bear",
+    location: "Nayoro Wilds — Forest Supply Route",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Packhorse Charm, fast-travel route added",
+    summary:
+      "A supply chain carrying critical medicine through the Nayoro wilds is being systematically robbed by a bandit cell that knows the route schedule. Atsu must protect the final shipment and eliminate the cell's leadership.",
+    aiTip:
+      "The bandit cell leader stays back during each ambush wave — only engaging after his subordinates fall. Save your Ghost Stance for him; he is immune to fear and fights with dual axes that deflect standard attacks.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Load+We+Bear+walkthrough",
+    walkthrough: [
+      "Speak with Supply Master Kano at the Nayoro forest trailhead.",
+      "Escort the two supply carriers through the first forest section.",
+      "Wave 1 ambush (6 bandits): eliminate quickly — carriers stop if they see combat for too long.",
+      "Wave 2 ambush (8 bandits): one flanks the carriers — intercept the flanker first.",
+      "The cell leader appears after Wave 2; use Ghost Stance and yari thrusts to handle his dual-axe defence.",
+      "Escort the carriers to the Nayoro village and receive the Packhorse Charm and fast-travel route."
+    ]
+  },
+  {
+    id: 1202,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "A Fox in Monk's Clothing",
+    location: "Teshio Ridge — Mountain Monastery",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Monk's Stolen Seal, Fox Charm",
+    summary:
+      "A corrupt travelling monk is extorting isolated Teshio ridge villages under the guise of spiritual blessing. Exposing his deception requires gathering testimony from three villages and cornering him at the monastery.",
+    aiTip:
+      "The monk is a skilled swordsman despite his robes — do not underestimate him. He opens with a deceptive prayer stance that transitions into a fast draw; do not parry the prayer animation, wait for the draw.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Fox+in+Monks+Clothing+walkthrough",
+    walkthrough: [
+      "Hear the first complaint at the Teshio Ridge village — an elder paid for a blessing that failed.",
+      "Visit two more villages on the ridge for corroborating testimony.",
+      "Track the monk to the Mountain Monastery using the villagers' descriptions of his route.",
+      "Confront the monk; he refuses to return the money and draws his sword.",
+      "Wait through his prayer animation before deflecting the fast draw that follows.",
+      "Defeat the monk and recover the stolen seal; return it to the first village elder."
+    ]
+  },
+  {
+    id: 1203,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Encounters of the Wild",
+    location: "Teshio Ridge — High Pass",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Hunter's Charm, pelt crafting material",
+    summary:
+      "An escaped exotic animal — a snow leopard brought north by traders — is causing havoc in the Teshio mountain passes, attacking travellers. Track and subdue it without killing it, as a local village considers it sacred.",
+    aiTip:
+      "The snow leopard is immune to all lethal attacks — equip the non-lethal pommel strike and chain it three times to trigger a wrestle QTE. Killing it fails the quest and cannot be undone.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Encounters+of+the+Wild+walkthrough",
+    walkthrough: [
+      "Speak with the panicked trader at the Teshio High Pass waypoint.",
+      "Track the snow leopard using paw prints and broken branches — listening sense helps.",
+      "Corner the leopard at the cliff ledge — do not use weapons.",
+      "Use pommel strikes (hold heavy attack) three times; each non-lethal hit stuns briefly.",
+      "Complete the wrestle QTE to subdue the animal safely.",
+      "Return it to the village elder using the provided carrying wrap; receive the Hunter's Charm."
+    ]
+  },
+  {
+    id: 1204,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "No Brother Left Behind",
+    location: "Teshio Ridge — Frozen Northern Slopes",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Brotherhood Charm, supply cache",
+    summary:
+      "A soldier searches the frozen Teshio slopes for a younger brother who never returned from a patrol months ago. The trail leads through a collapsed outpost, a bandit camp, and finally a mountain shrine.",
+    aiTip:
+      "The younger brother is alive but injured at the mountain shrine. Carry him back by choosing 'carry him' in the dialogue — the walking escort sequence is slow but avoids a fight that endangers him further.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+No+Brother+Left+Behind+walkthrough",
+    walkthrough: [
+      "Meet Soldier Taro at the Teshio Ridge camp — he shows a rough map of the patrol route.",
+      "Investigate the collapsed outpost; find patrol notes that redirect to the bandit camp.",
+      "Infiltrate the bandit camp and find a prisoner log showing the brother escaped east.",
+      "Track the escape route to the mountain shrine using blood marks in the snow.",
+      "Find the injured brother Kenta at the shrine; choose 'carry him' in dialogue.",
+      "Carry Kenta slowly back to the Teshio camp — no combat, but the path is treacherous.",
+      "Reunite the brothers; receive the Brotherhood Charm and supply cache coordinates."
+    ]
+  },
+  {
+    id: 1205,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "A Life to Be",
+    location: "Ishikari Plain — Roadside Dojo",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Apprentice's Charm, ally Kohana added",
+    summary:
+      "A young orphan named Kohana watches Atsu fight from a distance and asks to apprentice under her. Atsu sets three tests of resourcefulness, heart, and courage — not combat — to see if Kohana is ready.",
+    aiTip:
+      "This is a character-driven quest with no combat. Choosing 'teach her' at the end rather than 'send her to safety' adds Kohana as a recurring ally who appears in two later quests with useful information.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Life+to+Be+walkthrough",
+    walkthrough: [
+      "Notice Kohana watching at the Ishikari roadside dojo — she approaches after a fight.",
+      "Set Test 1 (Resourcefulness): ask her to find food for three villagers — she succeeds.",
+      "Set Test 2 (Heart): ask her to help an injured traveller — observe from a distance.",
+      "Set Test 3 (Courage): she must talk down a threatening drunk at the inn — no weapons.",
+      "Return and evaluate all three results in dialogue.",
+      "Choose 'teach her' to add Kohana as an ally and receive the Apprentice's Charm."
+    ]
+  },
+  {
+    id: 1206,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Artisanal Treasures",
+    location: "Ishikari Plain — Craftsman District",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Artisan's Commission Charm, armour decoration unlocked",
+    summary:
+      "A master craftsman's workshop is being extorted by a gang demanding protection money. Defeating the gang and recovering stolen design scrolls allows the craftsman to return to creating the region's finest armour decorations.",
+    aiTip:
+      "The gang leader uses a halberd with extreme reach — stay inside his swing arc during the duel. The stolen scrolls are split between two locations; check both before leaving the gang's warehouse.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Artisanal+Treasures+walkthrough",
+    walkthrough: [
+      "Speak with Craftsman Daiki at his locked workshop in the Craftsman District.",
+      "Track the extortion gang to their warehouse south of the district.",
+      "Clear the eight gang members inside the warehouse.",
+      "Locate Scroll Cache 1 on the warehouse shelves and Scroll Cache 2 in the locked back room.",
+      "Defeat Gang Leader Kuro — stay inside his halberd arc and attack twice per opening.",
+      "Return both scroll caches to Daiki and receive the Commission Charm and armour decoration."
+    ]
+  },
+  {
+    id: 1207,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Bold Kaji Forge",
+    location: "Ishikari Plain — Kaji Forge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bold Kaji weapon upgrade tier, rare ore",
+    summary:
+      "The famed Bold Kaji forge was shut down after an outlaw siege. Gathering the ore it needs and clearing its remaining occupants allows it to reopen — unlocking a premium weapon upgrade tier unique to Ishikari.",
+    aiTip:
+      "The forge's premium upgrade tier gives weapons a fire damage bonus — pair it with the scorch bomb for a devastating fire build. Complete the Bomb Maker Sensei quest before this one to make the most of that synergy.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bold+Kaji+Forge+walkthrough",
+    walkthrough: [
+      "Find the abandoned Kaji Forge and read the closure notice on the door.",
+      "Clear the eight outlaw squatters inside the forge.",
+      "Gather two veins of Kaji Ore from the mine shaft behind the forge — guarded by four more outlaws.",
+      "Speak with hidden forgemaster Taro hiding in a nearby barn — he returns with the ore.",
+      "Watch the reopening cutscene and commission a weapon upgrade to complete the quest.",
+      "Receive the Bold Kaji upgrade tier and rare ore bonus."
+    ]
+  },
+  {
+    id: 1208,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Broken Horn Garrison",
+    location: "Ishikari Plain — Broken Horn Garrison",
+    length: "long",
+    difficulty: "High",
+    reward: "Garrison Restored, Commander's Seal Charm",
+    summary:
+      "A strategic garrison that once protected Ishikari's northern road has been overrun and used as an outlaw staging base. Retaking it is a full assault against an entrenched force of twenty defenders.",
+    aiTip:
+      "The garrison has two floors — clear the ground floor completely before ascending. The outlaw commander on the upper floor calls for reinforcements if he spots you on the stairs; silence him quickly with a Tanzutsu shot.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Broken+Horn+Garrison+walkthrough",
+    walkthrough: [
+      "Receive the retake order from a Ishikari military contact after completing Protecting the Peace.",
+      "Observe the garrison exterior; twenty defenders plus a commander on the upper floor.",
+      "Breach the ground floor via the damaged south wall — six defenders inside.",
+      "Clear all ground-floor defenders before ascending — the staircase has a tripwire.",
+      "Reach the upper floor; use a Tanzutsu shot to silence the commander before he calls reinforcements.",
+      "Clear eight upper-floor defenders and loot the commander's office for the Seal.",
+      "Hold the garrison for 60 seconds while a small relief wave attacks — then the garrison is secured."
+    ]
+  },
+  {
+    id: 1209,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Cursed Ground",
+    location: "Ishikari Plain — Abandoned Fields",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Fields Reclaimed, Harvest Charm",
+    summary:
+      "Villagers refuse to farm land they believe is spiritually cursed after crops repeatedly died there. Atsu's investigation reveals the real cause is buried contraband leaching poison into the soil.",
+    aiTip:
+      "This is an investigation quest — no combat required. Use the listening sense near the three failed crop rows to identify the buried contraband locations. Each spot glows faintly with a green tint.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Cursed+Ground+walkthrough",
+    walkthrough: [
+      "Speak with Village Elder Shiro about the abandoned fields.",
+      "Use the listening sense near each of the three failed crop rows.",
+      "Dig up the contraband package at each glowing location using the interact prompt.",
+      "Inspect the packages — they contain discarded poison used by a disbanded outlaw group.",
+      "Report to the elder with the evidence and identify the responsible party from your quest log.",
+      "Receive the Harvest Charm and watch the fields reclamation cutscene."
+    ]
+  },
+  {
+    id: 1210,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Oni's Breath Inn",
+    location: "Ishikari Plain — Oni's Breath Inn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Inn re-opened (safe house), Innkeeper's Charm",
+    summary:
+      "Rumours of a ghost haunting a once-popular inn have driven away all customers and staff. Atsu investigates the haunting and discovers a very human source — an outlaw gang using the ghost story as cover for their operation.",
+    aiTip:
+      "The ghost effects (floating objects, strange sounds) are triggered by a pressure plate system the outlaws installed. Disable the three plates before confronting the gang to expose the trick during the dialogue.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Onis+Breath+Inn+walkthrough",
+    walkthrough: [
+      "Speak with nervous former Innkeeper Masa outside the closed inn.",
+      "Investigate the inn interior; locate and disable three pressure plates (listening sense reveals them).",
+      "Search the basement — find the outlaw gang's hidden living quarters and operation evidence.",
+      "Confront the gang leader (5 members total) in the main hall.",
+      "Present the pressure plate evidence in dialogue for the humiliating exposure cutscene.",
+      "Help Masa reopen the inn; it becomes a safe house and the Innkeeper's Charm is awarded."
+    ]
+  },
+  {
+    id: 1211,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Shelter from the Storm",
+    location: "Ishikari Plain — Snowbound Lodge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Storm Survival Charm, secret identity revealed",
+    summary:
+      "Travellers stranded by a sudden blizzard take shelter in a remote lodge alongside Atsu. One of them is a Yōtei Six informant in disguise — Atsu must identify them before they slip away under cover of the storm.",
+    aiTip:
+      "The informant is identified by three clues hidden in the lodge: a coded letter, a Yōtei Six sigil on their boot sole, and a second water flask (informants carry two for long missions). Find all three before accusing.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shelter+from+the+Storm+walkthrough",
+    walkthrough: [
+      "Shelter at the Snowbound Lodge when a blizzard closes the road.",
+      "Mingle with the four other travellers; each has a backstory — listen carefully.",
+      "Clue 1: find the coded letter under the informant's bedroll during a search.",
+      "Clue 2: observe the sigil on the boot sole when a traveller removes their boots by the fire.",
+      "Clue 3: count the water flasks on each traveller's pack — the informant has two.",
+      "Confront the identified informant; they draw a weapon and fight — five enemies if they alert allies.",
+      "Receive the Storm Survival Charm and new intelligence after the confrontation."
+    ]
+  },
+  {
+    id: 1212,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Great Jigoku Gambit",
+    location: "Ishikari Plain — Jigoku Gambling Den",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gambler's Fortune Charm, Gold",
+    summary:
+      "A con artist's elaborate scheme to swindle the local gambling den accidentally draws in three real Yōtei Six lieutenants — who believe the con is a rival operation targeting them. Atsu must manage the chaos.",
+    aiTip:
+      "This quest has a comedic tone with three branching confrontations running simultaneously. Handle the den owner first — he has the most guards. The con artist Cho is genuinely funny; let her scenes play out for optional lore.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Great+Jigoku+Gambit+walkthrough",
+    walkthrough: [
+      "Find con artist Cho frantically trying to escape the gambling den.",
+      "Learn that three Yōtei Six lieutenants have crashed her scheme, each thinking she's a rival.",
+      "Handle Lieutenant 1 (den entrance): defeat his four guards and send him off with false intelligence.",
+      "Handle Lieutenant 2 (upper floor): Cho distracts him while Atsu incapacitates his bodyguard.",
+      "Handle Lieutenant 3 (basement): a direct fight — nine enemies, use the narrow stairwell as a chokepoint.",
+      "Help Cho escape with her winnings; receive the Gambler's Fortune Charm and gold from her share."
+    ]
+  },
+  {
+    id: 1213,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Lost Scouts",
+    location: "Ishikari Plain — Eastern Wilderness",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Scout's Compass Charm, new patrol intel",
+    summary:
+      "Three advance scouts who disappeared in enemy territory must be found. Each is in a different predicament — captured, injured, and hiding — requiring a different rescue approach for each.",
+    aiTip:
+      "Rescue Scout 2 (injured) before Scout 3 (hiding) — Scout 3's hiding spot is only revealed by Scout 2's information. Going out of order causes Scout 3 to move and become much harder to locate.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Lost+Scouts+walkthrough",
+    walkthrough: [
+      "Receive the missing scouts report from the Ishikari military commander.",
+      "Scout 1 (captured): infiltrate the outlaw camp, free her from the cage with the captain's key.",
+      "Scout 2 (injured): follow the blood trail east to a collapsed barn; treat wounds with herbal kit.",
+      "Get Scout 2's information about Scout 3's hiding location before moving on.",
+      "Scout 3 (hiding): use the specific landmark Scout 2 described to find the concealed cave entrance.",
+      "Escort all three scouts to the military post; receive the Scout's Compass Charm."
+    ]
+  },
+  {
+    id: 1214,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Sentinel",
+    location: "Ishikari Plain — Ruined Post",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sentinel's Charm, lore document",
+    summary:
+      "An ancient samurai stands guard alone at a ruined outpost, still waiting for orders from a lord who died thirty years ago. Atsu must decide whether to tell him the truth or find a way to give him permission to rest.",
+    aiTip:
+      "This is a purely narrative quest with no combat. The best reward comes from finding the lord's old seal in the ruined post first — presenting it gives the samurai official permission to stand down, earning the bonus lore document.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Sentinel+walkthrough",
+    walkthrough: [
+      "Find the elderly sentinel Goemon at the crumbling outpost on the Ishikari eastern road.",
+      "Search the ruined post — find the lord's old seal in a collapsed room.",
+      "Speak with Goemon; present the seal.",
+      "Watch the extended cutscene where Goemon stands down after thirty years.",
+      "Receive the Sentinel's Charm and the lore document about Ishikari's history."
+    ]
+  },
+  {
+    id: 1215,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "The Weight of Coin",
+    location: "Ishikari Plain — Tax Collector's Route",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Villagers' Gold Returned, Balance Charm",
+    summary:
+      "A corrupt tax collector is starving Ishikari villages with impossible demands. Atsu can resolve this peacefully by exposing the collection fraud to the regional authority — or by force, taking the gold back directly.",
+    aiTip:
+      "The peaceful path (collecting evidence and reporting to the authority) gives better charm rewards. The force path is faster and still returns the gold, but locks out the Balance Charm.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Weight+of+Coin+walkthrough",
+    walkthrough: [
+      "Speak with starving villagers in three Ishikari settlements about the excessive taxation.",
+      "Peaceful path: collect three falsified tax ledger pages from the collector's camps.",
+      "Present the ledgers to the Ishikari regional magistrate — the collector is arrested.",
+      "The magistrate returns the gold to the villages — receive the Balance Charm.",
+      "Force path alternative: ambush the tax collector's convoy and take the gold directly.",
+      "Distribute the gold manually to three villages for the force path completion."
+    ]
+  },
+  {
+    id: 1216,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "A Brokered Trust",
+    location: "Oshima Coast — Pirate Harbour",
+    length: "medium",
+    difficulty: "High",
+    reward: "Pirate Intel on Yōtei Six, Broker's Charm",
+    summary:
+      "A pirate broker offers Atsu actionable intelligence on the Yōtei Six's sea routes in exchange for completing a dangerous heist — stealing a rival pirate captain's logbook from a guarded ship in the harbour.",
+    aiTip:
+      "Board the ship from the water side after nightfall — the crew rotates to the port side at midnight, leaving the starboard unguarded for a 90-second window. Use it or fight through ten naval guards.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Brokered+Trust+walkthrough",
+    walkthrough: [
+      "Meet Broker Kaida at the Pirate Harbour tavern.",
+      "Scout the target ship at the harbour; note the midnight crew rotation.",
+      "Swim to the starboard side at midnight and climb the anchor chain silently.",
+      "Locate the captain's logbook in the stern cabin — one guard inside.",
+      "Exit via the anchor chain before the crew rotates back.",
+      "Deliver the logbook to Kaida; receive the intelligence and Broker's Charm."
+    ]
+  },
+  {
+    id: 1217,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "A Promise of Treasure",
+    location: "Oshima Coast — Coastal Caves",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure Cache, Sailor's Charm",
+    summary:
+      "A dying sailor passes Atsu a hand-drawn map to a coastal treasure cache his crew buried years ago — on the condition she splits it with his estranged daughter. Finding both the treasure and the daughter makes this more than a simple treasure hunt.",
+    aiTip:
+      "The treasure cave is guarded by a rival pirate gang who found the map first. They are entrenched inside the cave — use the Scorch Bomb at the cave entrance to flush them out rather than fighting in the dark.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Promise+of+Treasure+walkthrough",
+    walkthrough: [
+      "Receive the map from the dying sailor Kenji at the Oshima dockside.",
+      "Locate his daughter Ami at the fish market — she is wary but agrees to accompany you.",
+      "Follow the map to the coastal cave entrance; pirates guard the entrance.",
+      "Use a Scorch Bomb at the cave entrance to flush eight pirates into the open.",
+      "Clear the cave interior of four more pirates and claim the treasure chest.",
+      "Return to Ami with her half of the treasure; receive the Sailor's Charm from her gratitude."
+    ]
+  },
+  {
+    id: 1218,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The New Lord",
+    location: "Oshima Coast — Coastal Manor",
+    length: "medium",
+    difficulty: "High",
+    reward: "Usurper's Seal, Legitimacy Charm",
+    summary:
+      "A young noble arrives on Oshima claiming authority over the coastal trade routes. The locals know his documents are forged — the real heir died at sea. Atsu must expose the impostor before he consolidates power.",
+    aiTip:
+      "The impostor's four bodyguards are elite fighters with coordinated attack patterns. Separate them by throwing a smoke bomb into the centre of the group before engaging — isolated fights are far more manageable.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+New+Lord+walkthrough",
+    walkthrough: [
+      "Speak with dock master Haruto about the suspicious new lord.",
+      "Investigate the manor: find the forged appointment letter in the archives room.",
+      "Research the real heir's fate at the Oshima records office — a ship manifest confirms he drowned.",
+      "Confront the impostor at the coastal manor with the evidence.",
+      "Fight his four elite bodyguards — smoke bomb to separate them.",
+      "Defeat the impostor in a final duel and hand the forged documents to the magistrate.",
+      "Receive the Usurper's Seal and Legitimacy Charm."
+    ]
+  },
+  {
+    id: 1219,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Tooth Breaker",
+    location: "Oshima Coast — Fishing Village",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Village Protected, Iron Fist Charm",
+    summary:
+      "A notorious fistfighter turned enforcer is terrorising the Oshima fishing villages, demanding tribute before every tide. Atsu challenges him to a public duel to end the extortion and restore the fishermen's dignity.",
+    aiTip:
+      "The Tooth Breaker fights with no weapons — pure grapple and punch. He counters all sword attacks when his guard is up; wait for him to overextend on a haymaker and hit him during the recovery.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Tooth+Breaker+walkthrough",
+    walkthrough: [
+      "Hear the fishermen's complaint at the Oshima village market.",
+      "Challenge the Tooth Breaker to a public duel at the village square.",
+      "Wait for his haymaker overextension — he swings wide every third attack.",
+      "Strike twice during the recovery window; repeat.",
+      "At half health he grabs — complete the wrestling QTE to break free.",
+      "Finish with three consecutive hits after his final haymaker; he surrenders.",
+      "Receive the Iron Fist Charm from the grateful village headman."
+    ]
+  },
+  {
+    id: 1220,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "The Weight of Snow",
+    location: "Teshio Ridge — Avalanche Zone",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Avalanche Survivor's Charm, rescue supplies",
+    summary:
+      "A Teshio ridge village is partially buried by a sudden avalanche. Survivors need rescue before outlaw scavengers — who follow disasters looking for easy pickings — arrive to strip what little remains.",
+    aiTip:
+      "There are six buried survivors across three locations. Rescue the two children first — they are in the most structurally unstable section and have the shortest time window before a secondary collapse.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Weight+of+Snow+walkthrough",
+    walkthrough: [
+      "Arrive at the Teshio Avalanche Zone after hearing the disaster bell.",
+      "Rescue the two children in the unstable northern section first — time-sensitive.",
+      "Clear the four outlaw scavengers who arrive at the village edge.",
+      "Dig out survivor 3 and 4 from the inn ruins — use the provided shovel interact prompt.",
+      "Find and rescue survivors 5 and 6 in the collapsed barn on the south side.",
+      "Receive the Avalanche Survivor's Charm once all six are safe."
+    ]
+  },
+  {
+    id: 1221,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "A Journey North",
+    location: "Nayoro Wilds — Northern Trailhead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Northern Trade Charm, trade route unlocked",
+    summary:
+      "A merchant caravan heading deeper into Ezo's northern wilds needs protection through the most dangerous stretch of the Nayoro forest. Three bandit ambushes and one river crossing test Atsu's escort skills.",
+    aiTip:
+      "The river crossing is the hardest section — bandits attack from both banks simultaneously. Get the caravan onto the far bank first, then fight from the high ground on the far side rather than splitting your attention mid-river.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Journey+North+walkthrough",
+    walkthrough: [
+      "Meet Merchant Leader Saku at the Northern Trailhead.",
+      "Ambush 1 (4 bandits): intercept before they reach the caravan — 200m ahead on the trail.",
+      "Ambush 2 (7 bandits): come from the tree line; use the cart as cover for the merchants.",
+      "River Crossing: get the caravan to the far bank first, then hold the high ground against 8 attackers.",
+      "Ambush 3 (5 bandits): the final stretch — clear them before Saku's departure point.",
+      "Receive the Northern Trade Charm and the new trade route map marker."
+    ]
+  },
+  {
+    id: 1222,
+    type: "side",
+    category: "Side Tales",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Youth Under Fire",
+    location: "Ishikari Plain — Burning Mill",
+    length: "medium",
+    difficulty: "High",
+    reward: "Young Soldiers' Charm, Ishikari defence alliance",
+    summary:
+      "A small garrison of inexperienced soldiers is defending a strategically vital burning mill against a sustained outlaw siege. Atsu arrives to find them outmatched and rallies them through two desperate defensive waves.",
+    aiTip:
+      "The soldiers will charge recklessly if left alone. Issue the 'hold position' command by speaking with the garrison sergeant between waves — it keeps them alive and gives Atsu room to flank the attackers.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Youth+Under+Fire+walkthrough",
+    walkthrough: [
+      "Hear the mill alarm bells from the Ishikari road and investigate.",
+      "Speak with Sergeant Daichi to trigger the first defensive wave.",
+      "Wave 1 (10 outlaws): position yourself at the mill's southern gate chokepoint.",
+      "Between waves: speak with Daichi and choose 'hold position' to prevent suicidal charges.",
+      "Wave 2 (15 outlaws including a mounted attacker): use Tanzutsu to dismount the rider first.",
+      "After Wave 2, a brief cutscene ends the siege; receive the charm and alliance unlock."
+    ]
+  },
+  {
+    id: 1223,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Smiling Yoshitomo",
+    location: "Yōtei Grasslands — Outlaw Hamlet",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A deceptively cheerful bandit leader who lures victims with a friendly smile before ambushing with his crew. He is located in a small hamlet north of the Grasslands inn.",
+    aiTip:
+      "His crew of four attacks the moment he is threatened — open with a Ghost Stance kill on Yoshitomo himself to end the fight before it starts.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Smiling+Yoshitomo+walkthrough",
+    walkthrough: [
+      "Accept the bounty from the Grasslands inn bounty board or Kojiro the Bounty Broker.",
+      "Travel to the Outlaw Hamlet in northern Grasslands.",
+      "Identify Yoshitomo by his distinctive red sash — he greets you warmly before signalling his crew.",
+      "Activate Ghost Stance immediately and execute him before his crew can react.",
+      "Defeat the remaining four crew members.",
+      "Return to Kojiro to claim the reward."
+    ]
+  },
+  {
+    id: 1224,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Crow Genzo",
+    location: "Yōtei Grasslands — Eastern Treetops",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A thief who scouts targets from treetops using a trained crow as a lookout. His crow alerts him to approach — eliminate the bird first or find the blind spot in its patrol pattern.",
+    aiTip:
+      "The crow patrols a figure-eight pattern — there is a five-second gap on the west side between loops. Use that gap to climb the tree and reach Genzo before the crow returns.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Crow+Genzo+walkthrough",
+    walkthrough: [
+      "Accept the bounty from the Grasslands board.",
+      "Locate Genzo's roost in the eastern Grasslands tall pines.",
+      "Time the crow's figure-eight patrol and move during the five-second western gap.",
+      "Climb the tree and reach Genzo's platform before the crow completes its loop.",
+      "Defeat Genzo — he uses throwing knives and drops from the tree; catch him at the base.",
+      "Return to Kojiro for the reward."
+    ]
+  },
+  {
+    id: 1225,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Black Powder Ippei",
+    location: "Yōtei Grasslands — Abandoned Mill",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A reckless bomb-thrower operating in the outer grassland trails. Ippei throws improvised explosives at anyone who approaches and has booby-trapped the abandoned mill he uses as a base.",
+    aiTip:
+      "Do not sprint toward Ippei — the mill perimeter has three tripwire bombs. Walk slowly through the entrance and use the listening sense to spot the wires. His own bombs can be deflected back with a well-timed dodge-roll.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Powder+Ippei+walkthrough",
+    walkthrough: [
+      "Accept the bounty from the Grasslands board.",
+      "Approach the Abandoned Mill slowly — three tripwires visible with listening sense.",
+      "Disable or dodge around the tripwires before entering.",
+      "Ippei throws bombs in arcs — dodge-roll into them to send them back.",
+      "Close the distance when he reloads and finish with melee.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1226,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Yotei Grasslands",
+    title: "Soma the Condemned",
+    location: "Yōtei Grasslands — River Ravine",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former executioner turned outlaw, branded for death by two rival clans who both want her head. Soma fights with a large executioner's blade and has no fear — she charges immediately on sight.",
+    aiTip:
+      "Soma's executioner blade has massive range and cleave — never get caught between her and a wall. Fight in open ground, stay mobile, and use the Kusarigama pull to interrupt her charging attack at mid-range.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Soma+the+Condemned+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the River Ravine camp.",
+      "Soma charges immediately — maintain distance and stay in open ground.",
+      "Use Kusarigama Chain Pull to interrupt her charge when she winds up.",
+      "Two chain pulls stagger her enough for a three-hit combo.",
+      "At half health she switches to slower, heavier overhead swings — easier to time deflects.",
+      "Defeat her and report to Kojiro."
+    ]
+  },
+  {
+    id: 1227,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "The Three Terrors",
+    location: "Tokachi Range — Marsh Crossing",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Three brothers who operate as a coordinated combat pack — one grappler, one knife-thrower, one shieldbearer — and must be fought simultaneously. Arguably the hardest bounty in the game.",
+    aiTip:
+      "Focus down the grappler first — if he grabs you while the knife-thrower fires, you lose enormous health instantly. Use Ghost Stance at the start to execute the grappler and even the odds immediately.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Three+Terrors+walkthrough",
+    walkthrough: [
+      "Accept the bounty — this is rated hard, come prepared with full supplies.",
+      "Find the Three Terrors at the Tokachi Marsh Crossing.",
+      "Activate Ghost Stance immediately and execute the grappler (leftmost brother).",
+      "Target the knife-thrower second — keep dodging his throws while closing distance.",
+      "The shieldbearer is last — use Kusarigama Chain Pull to break his guard.",
+      "Report all three kills to Kojiro for the combined reward."
+    ]
+  },
+  {
+    id: 1228,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Muneji the Bone Crusher",
+    location: "Tokachi Range — Quarry Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A massive brawler who fights with a war club and has survived three previous bounty hunters. He camps at a quarry outside Tokachi with six loyal followers.",
+    aiTip:
+      "Muneji's war club is slow but its area stagger is huge. Stay at medium range and bait the club swing, then sprint in for two hits during the long recovery. The yari's Charging Thrust is ideal for this rhythm.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Muneji+the+Bone+Crusher+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Quarry Camp.",
+      "Clear the six followers first using stealth — Muneji does not notice quiet kills.",
+      "Engage Muneji alone; stay at medium range to bait the club swing.",
+      "Sprint in during the club's recovery window and hit twice.",
+      "Repeat the bait-and-punish cycle five times to end the fight.",
+      "Collect the bounty from Kojiro."
+    ]
+  },
+  {
+    id: 1229,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Bear Man Chikatoshi",
+    location: "Tokachi Range — Deep Mountain Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A hermit hunter who has lived alone in the Tokachi mountains so long he moves like a bear — on all fours for sprinting and with unpredictable direction changes. Travellers report he ambushes from above.",
+    aiTip:
+      "Chikatoshi attacks from high ground — always look up when his marker appears. He drops from trees and cliffs without warning. Equipping the listening sense before approaching reveals his position above you.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bear+Man+Chikatoshi+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Deep Mountain Camp area.",
+      "Use listening sense as you approach — Chikatoshi is above, not on the ground.",
+      "He drops from a tree when you step into the clearing; dodge the impact immediately.",
+      "Fight normally once he is on the ground — he is fast but has no special attacks standing.",
+      "He retreats to high ground once at half health; use Tanzutsu to knock him down.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1230,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "One-Eye Moritaka",
+    location: "Tokachi Range — Ridgeline Nest",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A veteran archer who lost his eye and his honour in a battle long ago. Now he picks off merchants from ridgeline nests above the Tokachi trade roads. His remaining eye makes him deadly at range.",
+    aiTip:
+      "Moritaka fires fast and accurately from extreme range — do not approach in the open. Hug the cliff wall below his nest to stay out of his line of sight, then climb to him from behind using the cliff's blind side.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+One-Eye+Moritaka+walkthrough",
+    walkthrough: [
+      "Accept the bounty and locate the ridgeline nest on the Tokachi map.",
+      "Approach along the cliff wall directly below — stay out of his sightline.",
+      "Climb the cliff from the blind side (eastern face); he cannot see this approach.",
+      "Reach the nest and engage in melee — he is defenceless at close range.",
+      "Defeat Moritaka and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1231,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Junpei the Snatcher",
+    location: "Tokachi Range — Marsh Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A quick, nimble thief who kidnaps merchants for ransom in the Tokachi marsh towns. He is never seen arriving — only leaving with a hostage. Track him to his holding site and free his current victim.",
+    aiTip:
+      "Junpei runs the moment combat starts — he will not fight until cornered. Chase him through the marsh town and cut off his exit route by positioning at the docks before triggering the encounter.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Junpei+the+Snatcher+walkthrough",
+    walkthrough: [
+      "Accept the bounty and find Junpei's holding site at the Marsh Town docks.",
+      "Position yourself at the dock exit before approaching Junpei.",
+      "He bolts immediately — he has a 10-second head start but cannot cross the water.",
+      "Corner him at the dock edge; he finally fights — quick but fragile.",
+      "Free the hostage merchant from the holding cage after Junpei is defeated.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1232,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Tokachi Range",
+    title: "Blue Yamauba",
+    location: "Tokachi Range — Forest Edge Camp",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A woman outlaw who dresses as the demon-witch Yamauba in blue robes to terrify her victims into compliance. Her theatrical persona hides a genuine swordswoman with a flair for misdirection.",
+    aiTip:
+      "She opens with a scream that briefly stuns Atsu if you face her directly — look away or close your eyes (hold the shield button) for the first two seconds of the encounter to avoid the stun.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Blue+Yamauba+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Forest Edge Camp.",
+      "She opens with a stun scream — hold the shield button for the first two seconds to resist.",
+      "After the scream, she switches to fast sword strikes — standard deflect timing.",
+      "At half health she throws blue smoke powder — use listening sense to track her through it.",
+      "Corner her after the smoke clears and finish the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1233,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Houndmaster Toyotaro",
+    location: "Teshio Ridge — Frozen Kennel",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A bounty hunter turned outlaw who hunts his own targets using a pack of four trained dogs. Neutralise the dogs before engaging Toyotaro — they lock-on and pin Atsu if she fights him first.",
+    aiTip:
+      "Throw food scraps (found near the kennel entrance) to distract the dogs and move them away from Toyotaro. The scorch bomb also routes them without killing them — useful for the humane-completion bonus.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Houndmaster+Toyotaro+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Frozen Kennel camp.",
+      "Find the food scraps near the kennel entrance.",
+      "Throw food to draw the four dogs away from Toyotaro.",
+      "Alternatively, use a scorch bomb near the kennel to rout the dogs non-lethally.",
+      "Engage Toyotaro alone — he uses a chain whip with decent range.",
+      "Deflect the chain when it extends and counter during the retraction pause.",
+      "Defeat Toyotaro and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1234,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Inagawa the Gambler",
+    location: "Teshio Ridge — Gambling House",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Inagawa runs a loaded dice operation that strips travellers dry, then his enforcers take what the dice leave behind. He surrounds himself with eight heavies in the Teshio gambling house.",
+    aiTip:
+      "Inagawa himself is weak — his eight bodyguards are the real challenge. Use a scorch bomb at the gambling house entrance during a busy moment to scatter the bodyguards before Inagawa can organise a coordinated defence.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inagawa+the+Gambler+walkthrough",
+    walkthrough: [
+      "Accept the bounty and locate the Teshio Gambling House.",
+      "Throw a scorch bomb through the entrance to scatter the eight bodyguards.",
+      "Engage the disorganised bodyguards in pairs as they recover.",
+      "Inagawa panics once bodyguards fall — he hides under the main table.",
+      "Pull him out with the Kusarigama Chain Pull and finish the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1235,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Snowstorm Katagiri",
+    location: "Teshio Ridge — Northern Blizzard Pass",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Katagiri only strikes during blizzards and uses the whiteout conditions as camouflage for a hit-and-run fighting style. This bounty can only trigger during the Teshio Ridge blizzard weather event.",
+    aiTip:
+      "This bounty can only be completed during the blizzard weather event — rest at a Teshio camp to advance time until the blizzard begins. Use the listening sense constantly; Katagiri's footsteps are the only reliable indicator of position.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Snowstorm+Katagiri+walkthrough",
+    walkthrough: [
+      "Accept the bounty — note it can only complete during a Teshio blizzard.",
+      "Rest at a Teshio camp until the blizzard event triggers (check weather icon on map).",
+      "Travel to the Northern Blizzard Pass — visibility drops to 20 metres.",
+      "Use listening sense to track Katagiri's circling movement pattern.",
+      "He attacks from behind — time a back-dodge when his footsteps stop for two seconds.",
+      "Counter-attack aggressively; he retreats if hit three times — chase him with the Charging Thrust.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1236,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Nameless Killer",
+    location: "Teshio Ridge — Remote Post Road",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An assassin with no known identity who uses poisoned needles launched from a blowpipe and misdirection tactics. The bounty notice has no portrait — only a description of the needle pouch they always carry.",
+    aiTip:
+      "The Nameless Killer uses poison needles that do not break block but apply a stacking poison dot. Equip maximum antidotes and herbal medicine before the encounter. The killer flees after three hits — use the Charging Thrust to close down each escape attempt.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Nameless+Killer+walkthrough",
+    walkthrough: [
+      "Accept the bounty — note there is no portrait, only a needle pouch description.",
+      "Travel to the Remote Post Road; the Killer appears once you enter the marked zone.",
+      "They open with a poison needle burst — block to reduce the hit, use antidote immediately.",
+      "Close the distance and land three hits before they flee the first time.",
+      "Use Charging Thrust to close down two escape attempts.",
+      "After three flight-and-return cycles, they tire and fight to the finish.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1237,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Teshio Ridge",
+    title: "Black Night Kubo",
+    location: "Teshio Ridge — Moonless Hollow",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A night-only raider in all-black gear who has never been identified or seen in daylight. This bounty only completes at night and Kubo fights with near-invisible shadowstep movement.",
+    aiTip:
+      "This bounty is night-only — rest until nightfall at the nearest camp. Kubo's shadowstep movement disappears him from sight for two seconds; use listening sense during the invisible phase to pre-dodge his re-emergence attack.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Night+Kubo+walkthrough",
+    walkthrough: [
+      "Accept the bounty — note night-only requirement.",
+      "Rest until nightfall and travel to Moonless Hollow.",
+      "Kubo appears from shadow — use listening sense to track the invisible phase.",
+      "Pre-dodge left when the listening sense pulse ends (his re-emergence comes from the right).",
+      "Counter-attack immediately after the dodge — he is vulnerable for one second on re-emergence.",
+      "Repeat the listen-dodge-counter cycle eight times to end the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1238,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Bloody Strings Hachibee",
+    location: "Ishikari Plain — Roadside Inn",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former shamisen player whose intimate performances always ended with his clients being robbed and murdered. He uses the shamisen strings as a garrotte weapon in close combat.",
+    aiTip:
+      "Do not let Hachibee get behind you — his garrotte attack from the rear is a one-hit kill on hard difficulty. Keep a wall at your back throughout the fight and use the yari's Spinning Sweep to maintain frontal spacing.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bloody+Strings+Hachibee+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Roadside Inn.",
+      "Hachibee is performing for an audience — wait for him to finish or interrupt with a challenge.",
+      "Keep a wall at your back — never let him manoeuvre behind you.",
+      "Use yari Spinning Sweep to maintain distance and create opening windows.",
+      "His garrotte grab has a slow wind-up — dodge immediately when he raises both hands.",
+      "Defeat Hachibee and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1239,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Toshi the Torch",
+    location: "Ishikari Plain — Hay District",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An arsonist who sets buildings ablaze as distractions, then his crew loots the chaos. Three fires around Ishikari's hay district burn simultaneously when you arrive — extinguish them and find Toshi in the confusion.",
+    aiTip:
+      "Extinguishing the fires is optional but earns bonus standing. Toshi is always near the largest fire — look for the figure in the firelight who is not panicking. He uses a fire lance with a short but lethal range.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Toshi+the+Torch+walkthrough",
+    walkthrough: [
+      "Accept the bounty; three fires in the Hay District burn when you arrive.",
+      "Optional: extinguish all three fires using water barrel interact prompts for bonus standing.",
+      "Locate Toshi near the largest fire — he wears an orange headband.",
+      "His fire lance has short range — stay outside it and use the Kusarigama Chain Pull to drag him into fighting distance.",
+      "Defeat Toshi; his crew scatters without him.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1240,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Eijiro the Ruthless",
+    location: "Ishikari Plain — Village Crossroads",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Eijiro runs a brutal extortion ring across three Ishikari villages, collecting from each in rotation. He travels with six enforcers and considers himself untouchable.",
+    aiTip:
+      "Intercept Eijiro on the road between villages where he has fewer enforcers — catching him mid-transit reduces the escort from six to two. The bounty board description includes his travel schedule.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Eijiro+the+Ruthless+walkthrough",
+    walkthrough: [
+      "Accept the bounty and read the schedule description on the notice.",
+      "Intercept Eijiro on the road between Village 2 and Village 3 at mid-morning.",
+      "Mid-transit escort is only two enforcers — defeat them quickly.",
+      "Eijiro fights with a large club; standard bait-and-punish timing.",
+      "Defeat him and claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1241,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Turtle Man Kamekichi",
+    location: "Ishikari Plain — Stone Quarry",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Kamekichi fights behind a reinforced shell-like body shield so heavy it stops all frontal attacks. He is mechanically impossible to damage from the front — requiring creative positioning to defeat.",
+    aiTip:
+      "The Kusarigama Chain Pull yanks Kamekichi's shield aside for two seconds — use that window to land two hits from the front. Alternatively, bait him to charge and sidestep to his unshielded rear.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Turtle+Man+Kamekichi+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Stone Quarry.",
+      "Frontal attacks bounce off the shield — do not waste Resolve trying.",
+      "Option A: use Kusarigama Chain Pull to yank the shield sideways and attack during the two-second gap.",
+      "Option B: bait his forward charge and sidestep to attack his exposed rear.",
+      "Both options work; Chain Pull is more reliable in the open quarry environment.",
+      "Claim the reward from Kojiro after defeating him."
+    ]
+  },
+  {
+    id: 1242,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Shiro the Swindler",
+    location: "Ishikari Plain — Document Stall",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Shiro sells forged travel permits and identity papers to desperate refugees at exploitative prices. He operates openly from a document stall — but is rarely where his stall is, sending an apprentice to take the blame.",
+    aiTip:
+      "His apprentice at the stall will send you to the wrong location three times before revealing Shiro's real hiding spot if you press him. Alternatively, use the listening sense near the stall — Shiro's distinct coughing is audible from 50 metres.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shiro+the+Swindler+walkthrough",
+    walkthrough: [
+      "Accept the bounty and find the document stall in Ishikari market.",
+      "Use listening sense near the stall — follow the coughing sound to the real Shiro.",
+      "Confront Shiro in his hiding spot behind the sake warehouse.",
+      "He surrenders immediately — escort him to the magistrate or take the bounty directly.",
+      "Both resolutions pay the same reward from Kojiro."
+    ]
+  },
+  {
+    id: 1243,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Old Lady Yae",
+    location: "Ishikari Plain — Roadside Inn Kitchen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Do not be fooled by the grandmother persona — Yae runs a sophisticated poison supply ring from her inn kitchen basement, providing toxins to multiple outlaw groups across Ishikari.",
+    aiTip:
+      "Yae fights surprisingly well using a weighted cooking ladle and paralysing poisons she throws at the start. Block the first throw and close immediately — she has no melee ability once in grapple range.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Old+Lady+Yae+walkthrough",
+    walkthrough: [
+      "Accept the bounty and enter the Roadside Inn as a customer.",
+      "Find the basement entrance behind the kitchen fireplace.",
+      "The poison operation is fully operational; four workers scatter on sight.",
+      "Yae throws a paralysing poison vial immediately — block it before closing.",
+      "Grapple range neutralises her — use pommel strikes to subdue her without killing.",
+      "Hand Yae to the Ishikari authorities or take the direct bounty from Kojiro."
+    ]
+  },
+  {
+    id: 1244,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Inokichi the Hungry",
+    location: "Ishikari Plain — Farm Road",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "An enormous bandit who demands food tribute from every farm he passes through — and then demands more. He travels slowly with a huge pack of stolen food and four exhausted followers.",
+    aiTip:
+      "Inokichi is slow but his hunger gives him fury when you damage the food packs on his back. Do not attack the packs — target him directly. The followers are too tired to fight effectively; handle Inokichi first.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inokichi+the+Hungry+walkthrough",
+    walkthrough: [
+      "Accept the bounty and intercept Inokichi on the Farm Road.",
+      "Do not attack the food packs on his back — it triggers a fury mode.",
+      "The four followers are sluggish and low-health — knock them down quickly.",
+      "Fight Inokichi one-on-one: he is slow, powerful, and predictable.",
+      "Bait his two-step advance swing and counter twice each time.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1245,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Ishikari Plain",
+    title: "Iron Chuta",
+    location: "Ishikari Plain — Blacksmith Ruin",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former blacksmith who covers himself in improvised iron plating and fights with iron-clad fists. Every punch stuns briefly — a chain of punches can kill Atsu before she recovers. One of the toughest solo bounties.",
+    aiTip:
+      "The Kusarigama Chain Pull pulls Iron Chuta off balance even with all his armour — it is the only reliable interrupt. Pull him whenever he loads up for a punch chain and counter with dual-katana flurries during the stumble.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iron+Chuta+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Blacksmith Ruin.",
+      "Iron Chuta opens with a fast punch chain — immediately use Kusarigama Chain Pull to interrupt.",
+      "Counter with dual-katana flurries during his stumble (two to three hits maximum).",
+      "Repeat the Pull-counter cycle; do not get greedy with hit counts.",
+      "At half health he adds an unblockable haymaker — dodge backward when his shoulder drops.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1246,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Wayward Oni Raiders",
+    location: "Nayoro Wilds — Ainu Village Perimeter",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A roving band of outlaws who paint themselves to look like oni demons and terrorise Ainu settlements with theatrical violence. The paint is intimidation only — they fight as ordinary bandits.",
+    aiTip:
+      "The leader wears the most elaborate oni makeup and holds back during the initial charge. Ignore the seven painted raiders and use Ghost Stance to execute the leader immediately — the rest scatter on his death.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Wayward+Oni+Raiders+walkthrough",
+    walkthrough: [
+      "Accept the bounty and locate the Wayward Oni Raiders near the Nayoro Ainu village.",
+      "Seven raiders charge first; the leader hangs back.",
+      "Activate Ghost Stance and push through the raiders to execute the leader directly.",
+      "The remaining raiders flee on the leader's death — no need to fight them all.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1247,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Bloody Eye Matsuda",
+    location: "Nayoro Wilds — Forest Outpost",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A former military scout who defected after a court martial and now leads precision raids into the Nayoro interior using his professional training. He sets up defensive perimeters before Atsu can reach him.",
+    aiTip:
+      "Matsuda's perimeter has three tripwires and two flare traps — triggering any of them calls four reinforcements. Use listening sense to map the perimeter before entering and disable the flare traps with throwing stones.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bloody+Eye+Matsuda+walkthrough",
+    walkthrough: [
+      "Accept the bounty and approach the Forest Outpost cautiously.",
+      "Use listening sense to identify all three tripwires and two flare traps.",
+      "Disable the two flare traps with thrown stones before entering.",
+      "Navigate around the tripwires to reach Matsuda's position.",
+      "He fights with precise, military sword technique — deflect-counter timing is standard.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1248,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Nayoro Wilds",
+    title: "Whistling Ren",
+    location: "Nayoro Wilds — Forest Road",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "Always announces his presence with a distinctive whistle before attacking — victims are so unsettled by the signal that they freeze. Ironically, this makes him easy to prepare for if you know the whistle means incoming.",
+    aiTip:
+      "The whistle is a free heads-up — the moment you hear it, activate your stance of choice before Ren arrives. Ghost Stance on the whistle cue lets you execute him during his approach for a near-instant completion.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Whistling+Ren+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Forest Road zone.",
+      "Wait in the zone until Ren's distinctive whistle sounds.",
+      "Immediately activate Ghost Stance on the whistle cue before he arrives.",
+      "Execute Ren as he emerges from the trees.",
+      "Claim the reward from Kojiro — possibly the fastest bounty completion in the game."
+    ]
+  },
+  {
+    id: 1249,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Eagle Eye Kondo",
+    location: "Oshima Coast — Coastal Cliffs",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A sharpshooter perched on the Oshima coastal cliffs who has sunk three ships with a single Tanzutsu shot each. He commands the cliff overlooking the harbour and picks off anyone he deems a threat.",
+    aiTip:
+      "Kondo fires once every four seconds with near-perfect accuracy. The only safe approach is the underwater tunnel that exits behind his cliff position — swim from the southern beach and ascend from behind.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Eagle+Eye+Kondo+walkthrough",
+    walkthrough: [
+      "Accept the bounty and swim from the southern Oshima beach.",
+      "Find the underwater tunnel entrance 15 metres below the cliff base.",
+      "Swim through and ascend the tunnel to exit behind Kondo's position.",
+      "Approach from behind for a stealth execution — the easiest ending.",
+      "If detected, stay close and use melee — his Tanzutsu is useless at zero range.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1250,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Iwa the Beautiful",
+    location: "Oshima Coast — Harbour Tavern",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A con woman who seduces wealthy targets before her crew strips them of valuables — and occasionally their lives. She is always working a mark in the harbour tavern; confronting her in public draws her entire crew.",
+    aiTip:
+      "Pull Iwa away from the tavern by slipping her a note (interact prompt at the tavern door) inviting her to meet 'a wealthy merchant' outside. Her crew stays inside while she investigates — fight her alone in the alley.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iwa+the+Beautiful+walkthrough",
+    walkthrough: [
+      "Accept the bounty and locate Iwa working a mark in the Harbour Tavern.",
+      "Use the interact prompt at the tavern door to slip her a note.",
+      "She excuses herself and follows the note to the alley — crew stays inside.",
+      "Confront Iwa alone; she draws a tanto and fights precisely.",
+      "Her crew emerges after 60 seconds — defeat Iwa quickly.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1251,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Tadaaki the Terrible",
+    location: "Oshima Coast — Pirate Cove",
+    length: "short",
+    difficulty: "High",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "A pirate captain feared across the Oshima sea lanes for unpredictable brutality. He fights with two short swords and a complete disregard for conventional fighting patterns — every move is improvised.",
+    aiTip:
+      "Tadaaki has no repeating pattern — read each attack individually rather than trying to memorise a combo sequence. Perfect deflects give the biggest windows; focus on deflect quality over attack frequency.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Tadaaki+the+Terrible+walkthrough",
+    walkthrough: [
+      "Accept the bounty and locate Tadaaki at the Pirate Cove.",
+      "Clear his four pirate guards using stealth before the fight if possible.",
+      "Engage Tadaaki — do not try to memorise a pattern; read each attack individually.",
+      "Focus on perfect deflects to create the largest counter windows.",
+      "At one-third health he throws both swords and fights with kicks — dodge backward.",
+      "Close after the kick combo and finish with a heavy attack.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1252,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "The Last Brother",
+    location: "Oshima Coast — Clifftop Memorial",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Bounty Broker standing",
+    summary:
+      "The sole survivor of a bandit clan destroyed by a previous bounty hunter, now sworn to avenge his fallen brothers by hunting that hunter and anyone associated with them. He has found Kojiro's connection to Atsu.",
+    aiTip:
+      "He fights with grief-fuelled aggression — relentless forward pressure with no defensive pauses. Do not back-pedal; he closes the gap faster than you can create it. Stand ground, deflect, and counter in place.",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Last+Brother+walkthrough",
+    walkthrough: [
+      "Accept the bounty — he is already coming for you.",
+      "Travel to the Clifftop Memorial where he waits.",
+      "He charges immediately with no opening dialogue.",
+      "Stand ground and deflect; backing up only extends his aggressive phase.",
+      "After three perfect deflects he staggers — land two heavy hits.",
+      "Repeat the deflect-punish cycle four times to end the fight.",
+      "Claim the reward from Kojiro."
+    ]
+  },
+  {
+    id: 1253,
+    type: "side",
+    category: "Bounties",
+    game: "Ghost of Yotei",
+    region: "Oshima Coast",
+    title: "Shinpachi the Armor Thief",
+    location: "Oshima Coast — Dockside Warehouse",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, Stolen Armour returned, Bounty Broker standing",
+    summary:
+      "Shinpachi specialises in stealing rare armour from samurai he defeats in surprise ambushes. He is currently wearing a full suit of stolen legendary armour — which explains why this bounty has never been completed.",
+    aiTip:
+      "The stolen armour means Shinpachi has extremely high defence — standard attacks do minimal damage. Use the odachi's Heaven's Fall technique to break through the armour's protection, or use the Tanzutsu to damage the armour's weak points (the joints glow orange with the listening sense).",
+    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shinpachi+the+Armor+Thief+walkthrough",
+    walkthrough: [
+      "Accept the bounty and travel to the Dockside Warehouse.",
+      "Use listening sense to identify the armour's glowing orange joint weak points.",
+      "Target weak points with Tanzutsu shots — each hit reduces his defence rating.",
+      "After four weak-point hits, the stolen armour is sufficiently damaged for normal attacks to land.",
+      "Finish with the odachi's Heaven's Fall to end the fight decisively.",
+      "Recover the stolen armour and return it to its original owner for a bonus reward.",
+      "Claim the bounty from Kojiro."
+    ]
+  }
 ];

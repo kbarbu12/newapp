@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
-  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap,
+  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle
@@ -8,6 +8,7 @@ import {
 import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
+import { answerQuestion } from "./chatEngine";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
@@ -40,7 +41,7 @@ type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:Len
 
 const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
 const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
-interface ChatMsg { role:"user"|"assistant"; content:string; }
+interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
 
@@ -189,13 +190,18 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
         {/* Sidebar */}
         <aside className="flex flex-col gap-3 min-w-0">
-          {quest.video && (
+          {quest.video ? (
             <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
               <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
               <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
                 <Youtube size={13}/> Watch on YouTube <span aria-hidden="true">↗</span>
               </a>
               <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
+            </div>
+          ) : (
+            <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
+              <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
+              <p className="text-xs italic text-muted-foreground/70">Video walkthrough not available</p>
             </div>
           )}
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
@@ -242,7 +248,6 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
-  const hasGuide = !!quest.walkthrough?.length;
   // Radix returns focus to its own DialogTrigger on close, but this card
   // isn't one — it's a whole clickable article. Track it ourselves so focus
   // lands back on the card (not <body>) once the modal closes.
@@ -285,7 +290,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
             </Pill>
             <DifficultyChip level={quest.difficulty}/>
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
             <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
           </div>
         </div>
@@ -322,7 +327,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
           {showGameLabel && <span className="text-[10px] font-semibold tracking-wider uppercase truncate" style={{ color:col }}>{quest.game}</span>}
           <div className="flex items-center gap-2 shrink-0 ml-auto">
             {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && hasGuide && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Guide</span>}
+            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
             {onComplete && (
               <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={completed?"text-emerald-400":"text-muted-foreground/40 hover:text-emerald-400 transition-colors"}>
                 {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
@@ -359,11 +364,12 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
 
 // ─── GameGallery (with arrows) ────────────────────────────────────────────────
 
-function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect:(g:string)=>void }) {
+function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:string; onSelect:(g:string)=>void; completedIds:Set<number> }) {
   const ref = useRef<HTMLDivElement>(null);
   const [canL, setCanL] = useState(false);
   const [canR, setCanR] = useState(true);
   const questCount = useMemo(()=>{ const m:Record<string,number>={};QUESTS.forEach(q=>{m[q.game]=(m[q.game]||0)+1;});return m; },[]);
+  const completedCount = useMemo(()=>{ const m:Record<string,number>={};QUESTS.forEach(q=>{if(completedIds.has(q.id))m[q.game]=(m[q.game]||0)+1;});return m; },[completedIds]);
   const check = useCallback(()=>{ const el=ref.current;if(!el)return;setCanL(el.scrollLeft>8);setCanR(el.scrollLeft+el.clientWidth<el.scrollWidth-8); },[]);
   useEffect(()=>{ const el=ref.current;if(!el)return;check();el.addEventListener("scroll",check,{passive:true});window.addEventListener("resize",check);return()=>{el.removeEventListener("scroll",check);window.removeEventListener("resize",check);}; },[check]);
   const scroll=(dir:"left"|"right")=>{ ref.current?.scrollBy({left:dir==="right"?340:-340,behavior:"smooth"}); };
@@ -377,7 +383,7 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
         {Object.entries(GAMES).map(([name,meta])=>{
           const sel=selectedGame===name;
           return (
-            <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name}
+            <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name} title={name}
               className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
               style={{aspectRatio:"2/3"}}>
               <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover"/>
@@ -386,7 +392,11 @@ function GameGallery({ selectedGame, onSelect }: { selectedGame:string; onSelect
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
               <div className="absolute bottom-0 inset-x-0 p-2 text-left">
                 <div className="text-[11px] sm:text-[9px] font-mono font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
-                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">{questCount[name]||0} quests</div>
+                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">
+                  {(completedCount[name]||0)>0
+                    ? <span style={{color:meta.accent}}>{completedCount[name]}/{questCount[name]||0}</span>
+                    : <>{questCount[name]||0} quests</>}
+                </div>
               </div>
             </button>
           );
@@ -678,13 +688,14 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete, completedSteps, onToggleStep, hideSpoilers }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean }) {
+function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
       <Bookmark size={32} className="text-muted-foreground/20"/>
-      <p className="text-muted-foreground text-sm">No saved quests yet.</p>
-      <p className="text-xs text-muted-foreground/60">Click the bookmark icon on any quest card to save it here.</p>
+      <p className="text-muted-foreground text-sm font-medium">No saved quests yet.</p>
+      <p className="text-xs text-muted-foreground/60 max-w-xs">Open any quest and tap <strong>Save</strong> to bookmark it here. Use <strong>Mark done</strong> to track your progress.</p>
+      <button onClick={onGoToLibrary} className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
     </div>
   );
   const groups = useMemo(()=>{
@@ -788,33 +799,71 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
 
 // ─── Chat Widget ──────────────────────────────────────────────────────────────
 
+// Example prompts shown in the "what can I ask?" help panel — clicking one sends it.
+const CHAT_EXAMPLES=[
+  "How do I finish Ranni's questline?",
+  "Show me hard Elden Ring quests",
+  "How many Witcher 3 quests are there?",
+  "Recommend some short Cyberpunk quests",
+];
+
 function ChatWidget() {
   const [open,setOpen]=useState(false);
+  const [showHelp,setShowHelp]=useState(false);
   const [input,setInput]=useState("");
   const [msgs,setMsgs]=useState<ChatMsg[]>([{role:"assistant",content:"Greetings, adventurer. Ask me anything about quests, strategies, or walkthroughs."}]);
   const bottomRef=useRef<HTMLDivElement>(null);
-  useEffect(()=>{if(open)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open]);
-  const REPLIES=["Make sure you talk to every NPC before triggering the next objective — many quests have easy-to-miss setup steps.","For that difficulty level, I'd recommend upgrading your gear first.","That quest has multiple endings — your dialogue choices determine the outcome.","Save before that conversation. The choice locks you into a specific branch.","Check the video walkthrough — the route isn't obvious from the map alone."];
-  const send=()=>{ if(!input.trim())return; setMsgs(p=>[...p,{role:"user",content:input},{role:"assistant",content:REPLIES[Math.floor(Math.random()*REPLIES.length)]}]); setInput(""); };
+  useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
+  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className="fixed bottom-24 sm:bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
             <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>Quest Assistant</span></div>
-            <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            <div className="flex items-center gap-1">
+              <button onClick={()=>setShowHelp(h=>!h)} aria-label="What can I ask?" aria-pressed={showHelp} className={`transition-colors ${showHelp?"text-primary":"text-muted-foreground hover:text-foreground"}`}><Info size={15}/></button>
+              <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
+            </div>
           </div>
-          <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
-            {msgs.map((m,i)=>(
-              <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
-                <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>{m.content}</div>
+          <div className="flex-1 min-h-0 overflow-y-auto p-4 flex flex-col gap-3" style={{scrollbarWidth:"none"}}>
+            {showHelp ? (
+              <div className="text-xs leading-relaxed text-muted-foreground">
+                <p className="text-foreground font-medium mb-2">What I can help with</p>
+                <ul className="flex flex-col gap-1.5 mb-3">
+                  <li>• <span className="text-foreground">Look up a quest</span> — get its summary, tip, reward and walkthrough video</li>
+                  <li>• <span className="text-foreground">Browse by game &amp; difficulty</span> — e.g. hard or short quests in a game</li>
+                  <li>• <span className="text-foreground">Ask for counts</span> — how many quests a game has</li>
+                </ul>
+                <p className="mb-2">Try one:</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {CHAT_EXAMPLES.map(ex=>(
+                    <button key={ex} onClick={()=>send(ex)} className="rounded-full border border-border bg-background px-2.5 py-1 text-[11px] text-foreground hover:border-primary/50 hover:text-primary transition-colors">{ex}</button>
+                  ))}
+                </div>
+                <p className="mt-3 text-[10px]">Answers come from this site's quest library — it's not open-ended chat.</p>
               </div>
-            ))}
-            <div ref={bottomRef}/>
+            ) : (
+              <>
+                {msgs.map((m,i)=>(
+                  <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
+                    <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
+                      {m.content}
+                      {m.quest?.video&&(
+                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                          <Youtube size={13}/> Watch walkthrough
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                <div ref={bottomRef}/>
+              </>
+            )}
           </div>
           <div className="border-t border-border p-3 flex gap-2">
             <input value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&send()} placeholder="Ask about a quest…" className="flex-1 bg-secondary border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
-            <button onClick={send} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
+            <button onClick={()=>send()} aria-label="Send message" className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-lg px-3 py-2 transition-colors"><Send size={14}/></button>
           </div>
         </div>
       )}
@@ -831,8 +880,8 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
   return (
     <nav className="sm:hidden fixed bottom-0 inset-x-0 z-40 border-t border-border bg-background/95 backdrop-blur-md flex items-stretch" style={{ paddingBottom:"env(safe-area-inset-bottom)" }}>
       {tabs.map(t=>(
-        <button key={t.id} onClick={()=>setTab(t.id)} className={`relative flex-1 flex flex-col items-center justify-center gap-0.5 py-2 text-[10px] font-medium transition-colors ${tab===t.id?"text-primary":"text-muted-foreground"}`}>
-          {t.icon}
+        <button key={t.id} onClick={()=>setTab(t.id)} className={`relative flex-1 flex flex-col items-center justify-center gap-1 py-3.5 text-[11px] font-medium transition-colors ${tab===t.id?"text-primary":"text-muted-foreground"}`}>
+          <span className="[&>svg]:w-[18px] [&>svg]:h-[18px]">{t.icon}</span>
           <span>{t.label}</span>
           {t.badge!==undefined&&(
             <span className="absolute top-1 right-[28%] w-3.5 h-3.5 rounded-full bg-primary text-primary-foreground text-[8px] font-bold flex items-center justify-center border-2 border-background">
@@ -842,6 +891,31 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
         </button>
       ))}
     </nav>
+  );
+}
+
+// ─── Quest grid with auto-load sentinel ──────────────────────────────────────
+
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers }: {
+  filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
+  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; toggleComplete: (id:number)=>void; selectedGame: string;
+  completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean;
+}) {
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  useEffect(()=>{
+    const el = sentinelRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(entries=>{ if(entries[0].isIntersecting) setVisibleCount(v=>v+36); },{rootMargin:"200px"});
+    obs.observe(el);
+    return ()=>obs.disconnect();
+  },[setVisibleCount]);
+  return (
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers}/>)}
+      </div>
+      {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
+    </>
   );
 }
 
@@ -894,8 +968,8 @@ export default function App() {
   // at the top, not wherever the previous tab was scrolled to.
   useEffect(()=>{ window.scrollTo(0,0); },[tab]);
 
-  // In prod only promoted tabs are reachable; a shortcut to an un-promoted tab
-  // is a no-op there. In staging every tab is live.
+  // Only promoted tabs are reachable in both prod and staging (staging mirrors
+  // prod); a shortcut to an un-promoted tab is a no-op.
   // Navigate to a tab, optionally pre-applying a filter set. When filters are
   // given every filter is reset first so the Library shows exactly that view.
   const goTo=(t:Tab,f?:QuestFilters)=>{
@@ -925,6 +999,8 @@ export default function App() {
     if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
     if(sort==="game")return a.game.localeCompare(b.game);
     if(sort==="title")return a.title.localeCompare(b.title);
+    // default: group by game when viewing all so the list has clear structure
+    if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
   }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search,sort]);
 
@@ -951,8 +1027,8 @@ export default function App() {
     {id:"progress" as Tab, icon:<Trophy size={13}/>, label:"Progress"},
   ].filter(t=>isTabLive(t.id));
 
-  // Prod build with nothing promoted yet: show a neutral placeholder rather
-  // than a tab the user hasn't approved. (Staging always has live tabs.)
+  // Nothing promoted yet: show a neutral placeholder rather than a tab the
+  // user hasn't approved. (Applies to prod and staging alike.)
   if(TABS.length===0){
     return (
       <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 text-center" style={{fontFamily:"'Inter',sans-serif"}}>
@@ -968,7 +1044,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground pb-16 sm:pb-0" style={{fontFamily:"'Inter',sans-serif"}}>
+    <div className="min-h-screen bg-background text-foreground pb-20 sm:pb-0" style={{fontFamily:"'Inter',sans-serif"}}>
 
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-md">
@@ -997,7 +1073,11 @@ export default function App() {
             ))}
           </nav>
 
-          <span className="text-xs text-muted-foreground hidden md:block">{QUESTS.length} quests · {Object.keys(GAMES).length} games</span>
+          <span className="text-xs text-muted-foreground hidden md:block">
+            {tab==="browse" && selectedGame!=="All"
+              ? `${filtered.length} quests · ${selectedGame}`
+              : `${QUESTS.length} quests · ${Object.keys(GAMES).length} games`}
+          </span>
         </div>
       </header>
 
@@ -1048,11 +1128,17 @@ export default function App() {
                   <div className="flex items-center gap-3 mb-3">
                     <SectionEyebrow>Browse by Game</SectionEyebrow>
                     {selectedGame!=="All"&&<button onClick={()=>setSelectedGame("All")} className="text-[10px] text-primary hover:underline">↺ Show all</button>}
-                    <span className="hidden md:flex items-center gap-1 ml-auto text-[9px] text-muted-foreground/50">
-                      <ChevronLeft size={9}/> scroll <ChevronRight size={9}/>
-                    </span>
                   </div>
-                  <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame}/>
+                  <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame} completedIds={completedIds}/>
+                  <div className="flex items-center gap-2 mt-3 overflow-x-auto flex-nowrap pb-0.5">
+                    <span className="text-[10px] font-mono font-bold text-muted-foreground/60 uppercase tracking-widest mr-1">Difficulty</span>
+                    {(["All","Low","Medium","High"] as DiffFilter[]).map(d=>(
+                      <button key={d} onClick={()=>setDiffFilter(d)}
+                        className={`px-2.5 py-0.5 rounded-full text-[11px] font-medium border transition-colors ${diffFilter===d?"bg-primary text-primary-foreground border-primary":"border-border text-muted-foreground hover:text-foreground hover:border-white/30"}`}>
+                        {d}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
 
@@ -1062,11 +1148,26 @@ export default function App() {
           <main className="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-6">
             {tab==="browse" && (
               <>
+                {selectedGame==="All" && !search && typeFilter==="All" && diffFilter==="All" && lenFilter==="All" && videoFilter==="All" && (
+                  <div className="rounded-xl border border-border bg-secondary/30 px-5 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
+                    <div className="flex-1">
+                      <p className="text-sm font-semibold text-foreground">{QUESTS.length.toLocaleString()} quests across {Object.keys(GAMES).length} RPGs — tips, videos, and step-by-step guides.</p>
+                      <p className="text-xs text-muted-foreground mt-1">Pick a game above to browse its quests, or search for any quest by name below.</p>
+                    </div>
+                    <Swords size={28} className="text-primary/30 flex-shrink-0 hidden sm:block"/>
+                  </div>
+                )}
                 <div className="flex items-center gap-3 flex-wrap">
                   <div className="relative flex-1 max-w-md">
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
-                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
+                  {selectedGame!=="All" && (
+                    <button onClick={()=>setSelectedGame("All")} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-primary/40 bg-primary/10 text-xs font-medium text-primary hover:bg-primary/20 transition-colors">
+                      {selectedGame} <X size={11}/>
+                    </button>
+                  )}
                   <FiltersPopover activeFilters={activeFilters} onReset={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}}>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
@@ -1077,26 +1178,19 @@ export default function App() {
                     <option value="default">Sort: Default</option>
                     <option value="difficulty">Sort: Difficulty</option>
                     <option value="length">Sort: Length</option>
-                    <option value="game">Sort: Game</option>
+                    <option value="game">Sort: By Game</option>
                     <option value="title">Sort: Title</option>
                   </select>
                   <span className="text-sm text-muted-foreground">{filtered.length} result{filtered.length!==1?"s":""}</span>
                 </div>
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <>
-                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers}/>)}</div>
-                      {visibleCount<filtered.length && (
-                        <button onClick={()=>setVisibleCount(v=>v+BATCH)} className="mx-auto px-4 py-2 rounded-lg border border-border text-xs text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">
-                          Load more ({filtered.length-visibleCount} remaining)
-                        </button>
-                      )}
-                    </>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
           </main>
         </>
@@ -1107,7 +1201,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-2"><Swords size={13} className="text-primary"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>RPG Quest Guide</span></div>
           <div className="flex flex-col sm:items-end gap-1">
-            <a href="mailto:k.barbu12@gmail.com" className="text-xs text-muted-foreground hover:text-primary transition-colors">k.barbu12@gmail.com</a>
+            <a href="https://github.com/kbarbu12/newapp/issues" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary transition-colors">Report an issue ↗</a>
             <p className="text-[10px] text-muted-foreground/50">Fan-made · Not affiliated with any publisher or developer.</p>
           </div>
         </div>
