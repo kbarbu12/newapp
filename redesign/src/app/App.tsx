@@ -28,7 +28,7 @@ const NEWS: NewsItem[] = [
   { id:8, type:"update",    date:"Jun 20, 2026", title:"Witcher 3 next-gen patch notes applied",    game:"The Witcher 3: Wild Hunt",       body:"The next-gen update added new dialogue to Ciri's ending quests and changed some map marker positions. All affected guides have been updated.", tag:"Updated" },
 ];
 
-type Tab = "home"|"browse"|"news"|"saved";
+type Tab = "home"|"browse"|"news"|"saved"|"progress";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
 type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
@@ -104,10 +104,11 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
 
 // ─── QuestDetail ──────────────────────────────────────────────────────────────
 
-function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean }) {
+function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedSteps=[], onToggleStep, hideSpoilers=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
+  const [revealed, setRevealed] = useState(!hideSpoilers);
   const buyUrl = `https://store.playstation.com/search/${encodeURIComponent(quest.game)}`;
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
@@ -163,14 +164,24 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
 
           {!quest.video && hasGuide && (
             <div className="mt-5">
-              <h3 className="text-sm font-semibold text-foreground mb-3" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Step-by-Step Walkthrough</h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-semibold text-foreground" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Step-by-Step Walkthrough</h3>
+                <button onClick={()=>setRevealed(r=>!r)} className="text-[10px] text-muted-foreground hover:text-primary transition-colors">
+                  {revealed ? "Hide spoilers" : "Show spoilers"}
+                </button>
+              </div>
               <ol className="flex flex-col gap-2.5 list-none">
-                {quest.walkthrough!.map((s,i)=>(
-                  <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
-                    <span className="shrink-0 w-5 h-5 rounded bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
-                    <span>{s}</span>
-                  </li>
-                ))}
+                {quest.walkthrough!.map((s,i)=>{
+                  const done = completedSteps.includes(i);
+                  return (
+                    <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
+                      <button onClick={()=>onToggleStep?.(i)} aria-label={done?"Mark step incomplete":"Mark step complete"} className={`shrink-0 w-5 h-5 rounded flex items-center justify-center mt-0.5 transition-colors ${done?"bg-emerald-500/15 text-emerald-400":"bg-primary/15 text-primary hover:bg-primary/25"}`}>
+                        {done ? <CheckCircle2 size={12}/> : <span className="text-[10px] font-bold">{i+1}</span>}
+                      </button>
+                      <span className={done?"line-through text-muted-foreground/50":""} style={!revealed?{ filter:"blur(4px)", userSelect:"none" }:undefined}>{s}</span>
+                    </li>
+                  );
+                })}
               </ol>
             </div>
           )}
@@ -227,7 +238,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, variant="row", showGameLabel=true }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, variant="row", showGameLabel=true, completedSteps=[], onToggleStep, hideSpoilers=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -284,7 +295,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
           className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
           onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
         >
-          <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed}/>
+          <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers}/>
         </DialogContent>
       </Dialog>
       </>
@@ -667,7 +678,7 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void }) {
+function SavedTab({ savedIds, onSave, completedIds, onComplete, completedSteps, onToggleStep, hideSpoilers }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
@@ -695,10 +706,52 @@ function SavedTab({ savedIds, onSave, completedIds, onComplete }: { savedIds:Set
               <div className="h-px bg-[var(--hairline)] mt-2"/>
             </div>
             <div className="flex flex-col gap-2">
-              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false}/>)}
+              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers}/>)}
             </div>
           </div>
         ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Progress Tab ─────────────────────────────────────────────────────────────
+
+function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void }) {
+  const rows = useMemo(()=>Object.keys(GAMES).map(game=>{
+    const quests = QUESTS.filter(q=>q.game===game);
+    const done = quests.filter(q=>completedIds.has(q.id)).length;
+    return { game, done, total:quests.length, pct: quests.length ? Math.round((done/quests.length)*100) : 0 };
+  }).sort((a,b)=>b.pct-a.pct),[completedIds]);
+
+  const totalDone = [...completedIds].length;
+
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex items-center justify-between">
+        <span className="text-sm text-muted-foreground">{totalDone} of {QUESTS.length} quests completed</span>
+      </div>
+      <div className="flex flex-col gap-2">
+        {rows.map(r=>{
+          const meta = GAMES[r.game];
+          return (
+            <button key={r.game} onClick={()=>onGoTo("browse",{game:r.game})}
+              className="flex items-center gap-3 bg-card border border-border rounded-lg p-3 text-left hover:border-white/15 transition-colors">
+              <ProgressRing pct={r.pct} size={32}/>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-sm font-semibold text-foreground truncate" style={{fontFamily:"'Cormorant Garamond',serif"}}>{r.game}</span>
+                  <span className="text-[11px] text-emerald-400 font-medium shrink-0">{r.pct}%</span>
+                </div>
+                <div className="h-1.5 rounded-full bg-[var(--card-2)] mt-1.5 overflow-hidden">
+                  <div className="h-full rounded-full bg-emerald-400" style={{width:`${r.pct}%`}}/>
+                </div>
+                <span className="text-[10px] text-muted-foreground mt-1 block">{r.done} of {r.total} complete</span>
+              </div>
+              {meta?.cover && <img src={meta.cover} alt="" className="w-8 h-11 object-cover rounded shrink-0"/>}
+            </button>
+          );
+        })}
       </div>
     </div>
   );
@@ -813,13 +866,29 @@ export default function App() {
     try { return new Set(JSON.parse(localStorage.getItem("completedQuests") ?? "[]")); }
     catch { return new Set(); }
   });
+  const [completedSteps,setCompletedSteps]= useState<Record<number,number[]>>(()=>{
+    try { return JSON.parse(localStorage.getItem("completedSteps") ?? "{}"); }
+    catch { return {}; }
+  });
+  // Reading setting: spoilers are blurred by default until revealed per-quest.
+  const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
+    try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
+    catch { return true; }
+  });
 
   useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
   useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
+  useEffect(()=>{ localStorage.setItem("completedSteps", JSON.stringify(completedSteps)); },[completedSteps]);
+  useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
   useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
   const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
+  const toggleStep=(questId:number,stepIdx:number)=>setCompletedSteps(prev=>{
+    const cur = prev[questId] ?? [];
+    const next = cur.includes(stepIdx) ? cur.filter(i=>i!==stepIdx) : [...cur, stepIdx];
+    return { ...prev, [questId]: next };
+  });
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
@@ -879,6 +948,7 @@ export default function App() {
     {id:"browse"as Tab, icon:<Library size={13}/>,   label:"Library"},
     {id:"news"  as Tab, icon:<Newspaper size={13}/>, label:"News"   },
     {id:"saved" as Tab, icon:<Bookmark size={13}/>,  label:"Saved", badge:savedIds.size||undefined},
+    {id:"progress" as Tab, icon:<Trophy size={13}/>, label:"Progress"},
   ].filter(t=>isTabLive(t.id));
 
   // Prod build with nothing promoted yet: show a neutral placeholder rather
@@ -939,11 +1009,13 @@ export default function App() {
               <h1 className="text-lg font-bold text-foreground" style={{fontFamily:"'Cormorant Garamond',serif"}}>
                 {tab==="browse" ? (selectedGame!=="All" ? <><span style={{color:selectedMeta?.accent}}>{selectedGame}</span> — Quest Library</> : "Quest Library")
                  : tab==="news" ? "Latest Updates"
+                 : tab==="progress" ? "Progress"
                  : "Saved Quests"}
               </h1>
               <p className="text-xs text-muted-foreground mt-0.5">
                 {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
+                 tab==="progress" ? `${completedIds.size} of ${QUESTS.length} completed` :
                  `${savedIds.size} saved`}
               </p>
             </div>
@@ -1013,7 +1085,7 @@ export default function App() {
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
                   : <>
-                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"}/>)}</div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">{filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers}/>)}</div>
                       {visibleCount<filtered.length && (
                         <button onClick={()=>setVisibleCount(v=>v+BATCH)} className="mx-auto px-4 py-2 rounded-lg border border-border text-xs text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">
                           Load more ({filtered.length-visibleCount} remaining)
@@ -1024,7 +1096,8 @@ export default function App() {
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers}/>}
+            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
           </main>
         </>
       )}
