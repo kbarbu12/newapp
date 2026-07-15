@@ -3,10 +3,11 @@ import {
   Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
-  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle
+  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings
 } from "lucide-react";
 import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
+import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
 import { answerQuestion } from "./chatEngine";
 
@@ -29,7 +30,7 @@ const NEWS: NewsItem[] = [
   { id:8, type:"update",    date:"Jun 20, 2026", title:"Witcher 3 next-gen patch notes applied",    game:"The Witcher 3: Wild Hunt",       body:"The next-gen update added new dialogue to Ciri's ending quests and changed some map marker positions. All affected guides have been updated.", tag:"Updated" },
 ];
 
-type Tab = "home"|"browse"|"news"|"saved";
+type Tab = "home"|"browse"|"news"|"saved"|"progress"|"settings";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
 type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
@@ -37,7 +38,7 @@ type LenFilter  = "All"|"short"|"medium"|"long";
 type VideoFilter = "All"|"Video Only"|"No Video";
 type SortOption = "default"|"difficulty"|"length"|"game"|"title";
 // Filters a shortcut can pre-apply when jumping to the Library tab.
-type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter };
+type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter; notStarted?:boolean; missable?:boolean };
 
 const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
 const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
@@ -103,12 +104,44 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
   "new-game":<Sparkles size={11}/>, community:<Trophy size={11}/>,
 };
 
+// ─── YouTube embed (lite: thumbnail facade until played) ──────────────────────
+
+function getYouTubeId(url:string):string|null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/);
+  return m ? m[1] : null;
+}
+
+function YouTubeEmbed({ url, autoplay }: { url:string; autoplay:boolean }) {
+  const id = getYouTubeId(url);
+  const [playing, setPlaying] = useState(autoplay);
+  if (!id) return null;
+  return (
+    <div className="relative aspect-video rounded-lg overflow-hidden bg-black">
+      {playing ? (
+        <iframe
+          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&mute=${autoplay?1:0}`}
+          title="Quest walkthrough video" className="absolute inset-0 w-full h-full" frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen/>
+      ) : (
+        <button onClick={()=>setPlaying(true)} aria-label="Play walkthrough video" className="absolute inset-0 w-full h-full group">
+          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="w-full h-full object-cover"/>
+          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center"><Youtube size={22} className="text-white"/></div>
+          </div>
+        </button>
+      )}
+    </div>
+  );
+}
+
 // ─── QuestDetail ──────────────────────────────────────────────────────────────
 
-function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean }) {
+function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
+  const [revealed, setRevealed] = useState(!hideSpoilers);
   const buyUrl = `https://store.playstation.com/search/${encodeURIComponent(quest.game)}`;
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
@@ -164,14 +197,24 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
 
           {!quest.video && hasGuide && (
             <div className="mt-5">
-              <h3 className="text-sm font-semibold text-foreground mb-3" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Step-by-Step Walkthrough</h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-semibold text-foreground" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Step-by-Step Walkthrough</h3>
+                <button onClick={()=>setRevealed(r=>!r)} className="text-[10px] text-muted-foreground hover:text-primary transition-colors">
+                  {revealed ? "Hide spoilers" : "Show spoilers"}
+                </button>
+              </div>
               <ol className="flex flex-col gap-2.5 list-none">
-                {quest.walkthrough!.map((s,i)=>(
-                  <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
-                    <span className="shrink-0 w-5 h-5 rounded bg-primary/15 text-primary text-[10px] font-bold flex items-center justify-center mt-0.5">{i+1}</span>
-                    <span>{s}</span>
-                  </li>
-                ))}
+                {quest.walkthrough!.map((s,i)=>{
+                  const done = completedSteps.includes(i);
+                  return (
+                    <li key={i} className="flex gap-2.5 text-xs text-muted-foreground leading-relaxed">
+                      <button onClick={()=>onToggleStep?.(i)} aria-label={done?"Mark step incomplete":"Mark step complete"} className={`shrink-0 w-5 h-5 rounded flex items-center justify-center mt-0.5 transition-colors ${done?"bg-emerald-500/15 text-emerald-400":"bg-primary/15 text-primary hover:bg-primary/25"}`}>
+                        {done ? <CheckCircle2 size={12}/> : <span className="text-[10px] font-bold">{i+1}</span>}
+                      </button>
+                      <span className={done?"line-through text-muted-foreground/50":""} style={!revealed?{ filter:"blur(4px)", userSelect:"none" }:undefined}>{s}</span>
+                    </li>
+                  );
+                })}
               </ol>
             </div>
           )}
@@ -182,7 +225,8 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
           {quest.video ? (
             <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
               <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
-              <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline">
+              <YouTubeEmbed url={quest.video} autoplay={autoplayVideo}/>
+              <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline mt-2">
                 <Youtube size={13}/> Watch on YouTube <span aria-hidden="true">↗</span>
               </a>
               <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
@@ -233,7 +277,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed }: {
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, variant="row", showGameLabel=true }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, variant="row", showGameLabel=true, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -289,7 +333,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
           className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
           onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
         >
-          <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed}/>
+          <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
         </DialogContent>
       </Dialog>
       </>
@@ -677,7 +721,7 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void }) {
+function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
@@ -706,7 +750,7 @@ function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary }:
               <div className="h-px bg-[var(--hairline)] mt-2"/>
             </div>
             <div className="flex flex-col gap-2">
-              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false}/>)}
+              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
             </div>
           </div>
         ))}
@@ -715,9 +759,115 @@ function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary }:
   );
 }
 
+// ─── Progress Tab ─────────────────────────────────────────────────────────────
+
+function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void }) {
+  const rows = useMemo(()=>Object.keys(GAMES).map(game=>{
+    const quests = QUESTS.filter(q=>q.game===game);
+    const done = quests.filter(q=>completedIds.has(q.id)).length;
+    return { game, done, total:quests.length, pct: quests.length ? Math.round((done/quests.length)*100) : 0 };
+  }).sort((a,b)=>b.pct-a.pct),[completedIds]);
+
+  const totalDone = [...completedIds].length;
+
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex items-center justify-between">
+        <span className="text-sm text-muted-foreground">{totalDone} of {QUESTS.length} quests completed</span>
+      </div>
+      <div className="flex flex-col gap-2">
+        {rows.map(r=>{
+          const meta = GAMES[r.game];
+          return (
+            <button key={r.game} onClick={()=>onGoTo("browse",{game:r.game})}
+              className="flex items-center gap-3 bg-card border border-border rounded-lg p-3 text-left hover:border-white/15 transition-colors">
+              <ProgressRing pct={r.pct} size={32}/>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-sm font-semibold text-foreground truncate" style={{fontFamily:"'Cormorant Garamond',serif"}}>{r.game}</span>
+                  <span className="text-[11px] text-emerald-400 font-medium shrink-0">{r.pct}%</span>
+                </div>
+                <div className="h-1.5 rounded-full bg-[var(--card-2)] mt-1.5 overflow-hidden">
+                  <div className="h-full rounded-full bg-emerald-400" style={{width:`${r.pct}%`}}/>
+                </div>
+                <span className="text-[10px] text-muted-foreground mt-1 block">{r.done} of {r.total} complete</span>
+              </div>
+              {meta?.cover && <img src={meta.cover} alt="" className="w-8 h-11 object-cover rounded shrink-0"/>}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ─── Settings Tab ─────────────────────────────────────────────────────────────
+
+function SettingsRow({ label, hint, children }: { label:string; hint?:string; children:React.ReactNode }) {
+  return (
+    <div className="flex items-center justify-between gap-4 py-3">
+      <div className="min-w-0">
+        <div className="text-sm text-foreground font-medium">{label}</div>
+        {hint && <div className="text-xs text-muted-foreground mt-0.5">{hint}</div>}
+      </div>
+      <div className="shrink-0">{children}</div>
+    </div>
+  );
+}
+
+function SettingsSection({ title, children }: { title:string; children:React.ReactNode }) {
+  return (
+    <div className="flex flex-col">
+      <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground mb-1">{title}</span>
+      <div className="rounded-lg border border-border bg-card px-4 divide-y divide-[var(--hairline)]">{children}</div>
+    </div>
+  );
+}
+
+function SettingsTab({
+  hideSpoilers, setHideSpoilers, autoplayVideo, setAutoplayVideo,
+  defaultDifficulty, setDefaultDifficulty, onResetProgress,
+  canInstall, onInstall,
+}: {
+  hideSpoilers:boolean; setHideSpoilers:(v:boolean)=>void;
+  autoplayVideo:boolean; setAutoplayVideo:(v:boolean)=>void;
+  defaultDifficulty:DiffFilter; setDefaultDifficulty:(v:DiffFilter)=>void;
+  onResetProgress:()=>void;
+  canInstall:boolean; onInstall:()=>void;
+}) {
+  return (
+    <div className="flex flex-col gap-6 max-w-lg">
+      <SettingsSection title="Reading">
+        <SettingsRow label="Hide spoilers by default" hint="Blur walkthrough steps until you choose to reveal them.">
+          <Switch checked={hideSpoilers} onCheckedChange={setHideSpoilers}/>
+        </SettingsRow>
+        <SettingsRow label="Autoplay walkthrough video" hint="Start playing the embedded video as soon as a quest opens.">
+          <Switch checked={autoplayVideo} onCheckedChange={setAutoplayVideo}/>
+        </SettingsRow>
+        <SettingsRow label="Default difficulty filter" hint="Applied to the Library until you pick a different filter.">
+          <select value={defaultDifficulty} onChange={e=>setDefaultDifficulty(e.target.value as DiffFilter)} className="bg-secondary border border-border rounded-lg px-2.5 py-1.5 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
+            {(["All","Low","Medium","High"] as DiffFilter[]).map(d=><option key={d} value={d}>{d}</option>)}
+          </select>
+        </SettingsRow>
+      </SettingsSection>
+
+      <SettingsSection title="Offline & data">
+        {canInstall && (
+          <SettingsRow label="Install app" hint="Add RPG Quest Guide to your home screen for quick, full-screen access.">
+            <button onClick={onInstall} className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Install</button>
+          </SettingsRow>
+        )}
+        <SettingsRow label="Reset all progress" hint="Clears every completed quest and step checklist on this device. This can't be undone.">
+          <button onClick={()=>{ if(confirm("Reset all quest and step progress? This can't be undone.")) onResetProgress(); }} className="px-3 py-1.5 rounded-lg border border-destructive/40 text-destructive text-xs font-medium hover:bg-destructive/10 transition-colors">Reset</button>
+        </SettingsRow>
+      </SettingsSection>
+    </div>
+  );
+}
+
 // ─── Filters Popover ──────────────────────────────────────────────────────────
 
-function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:number; onReset:()=>void; children:React.ReactNode }) {
+function FiltersPopover({ activeFilters, onReset, resultCount, children }: { activeFilters:number; onReset:()=>void; resultCount:number; children:React.ReactNode }) {
   const [open,setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   useEffect(()=>{
@@ -726,6 +876,11 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
     document.addEventListener("mousedown", onClick);
     return ()=>document.removeEventListener("mousedown", onClick);
   },[open]);
+  const resetBtn = (
+    <button onClick={onReset} className="text-[10px] text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 self-start sm:self-end">
+      ↺ Reset{activeFilters>0&&<span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold ml-1">{activeFilters}</span>}
+    </button>
+  );
   return (
     <div ref={ref} className="relative">
       <button onClick={()=>setOpen(o=>!o)} className="flex items-center gap-1.5 bg-secondary border border-border rounded-lg px-3 py-2.5 text-xs text-foreground hover:border-white/20 transition-colors">
@@ -733,12 +888,28 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
         {activeFilters>0 && <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold">{activeFilters}</span>}
       </button>
       {open && (
-        <div className="absolute z-30 top-full mt-2 left-0 w-[calc(100vw-3rem)] max-w-sm rounded-lg border border-border bg-card p-4 flex flex-col gap-3 shadow-xl">
-          {children}
-          <button onClick={()=>{onReset();}} className="text-[10px] text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 self-end">
-            ↺ Reset{activeFilters>0&&<span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold ml-1">{activeFilters}</span>}
-          </button>
-        </div>
+        <>
+          {/* Mobile: bottom sheet with grabber + sticky apply button */}
+          <div className="sm:hidden fixed inset-0 z-40 bg-black/50" onClick={()=>setOpen(false)}/>
+          <div className="sm:hidden fixed bottom-0 inset-x-0 z-50 rounded-t-2xl border-t border-border bg-card flex flex-col max-h-[80vh]">
+            <div className="flex justify-center pt-2.5 pb-1"><div className="w-9 h-1 rounded-full bg-white/15"/></div>
+            <div className="px-4 pb-3 flex flex-col gap-3 overflow-y-auto">
+              {children}
+              {resetBtn}
+            </div>
+            <div className="p-3 border-t border-border" style={{paddingBottom:"calc(0.75rem + env(safe-area-inset-bottom))"}}>
+              <button onClick={()=>setOpen(false)} className="w-full py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold">
+                Show {resultCount} quest{resultCount!==1?"s":""}
+              </button>
+            </div>
+          </div>
+
+          {/* Desktop: dropdown popover */}
+          <div className="hidden sm:flex absolute z-30 top-full mt-2 left-0 w-[calc(100vw-3rem)] max-w-sm rounded-lg border border-border bg-card p-4 flex-col gap-3 shadow-xl">
+            {children}
+            {resetBtn}
+          </div>
+        </>
       )}
     </div>
   );
@@ -843,9 +1014,10 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
 
 // ─── Quest grid with auto-load sentinel ──────────────────────────────────────
 
-function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame }: {
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
   filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
   savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; toggleComplete: (id:number)=>void; selectedGame: string;
+  completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean; autoplayVideo: boolean;
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
   useEffect(()=>{
@@ -858,7 +1030,7 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"}/>)}
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
       </div>
       {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
     </>
@@ -869,15 +1041,19 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
 
 export default function App() {
   const [tab,         setTab]         = useState<Tab>(LIVE_TABS[0] ?? "home");
-  // Last-used game + filters are restored on load so a returning visitor
-  // lands back where they left off instead of a blank "All" library.
-  const [selectedGame,setSelectedGame]= useState(()=>localStorage.getItem("lastGame") ?? "All");
-  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>(localStorage.getItem("lastType") as TypeFilter) ?? "All");
-  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>(localStorage.getItem("lastDiff") as DiffFilter) ?? "All");
-  const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>(localStorage.getItem("lastLen") as LenFilter) ?? "All");
-  const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>(localStorage.getItem("lastVideo") as VideoFilter) ?? "All");
+  // Filters are shareable via URL query string (survives refresh, can be sent
+  // to someone else); the URL takes precedence over the last-used-locally
+  // fallback so a returning visitor still lands back where they left off.
+  const urlParams = new URLSearchParams(window.location.search);
+  const [selectedGame,setSelectedGame]= useState(()=>urlParams.get("game") ?? localStorage.getItem("lastGame") ?? "All");
+  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>(urlParams.get("type") as TypeFilter) ?? (localStorage.getItem("lastType") as TypeFilter) ?? "All");
+  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>(urlParams.get("diff") as DiffFilter) ?? (localStorage.getItem("lastDiff") as DiffFilter) ?? (localStorage.getItem("defaultDifficulty") as DiffFilter) ?? "All");
+  const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>(urlParams.get("len") as LenFilter) ?? (localStorage.getItem("lastLen") as LenFilter) ?? "All");
+  const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>(urlParams.get("video") as VideoFilter) ?? (localStorage.getItem("lastVideo") as VideoFilter) ?? "All");
+  const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
+  const [missableOnly,   setMissableOnly]   = useState(()=>urlParams.get("missable")==="1");
   const [sort,        setSort]        = useState<SortOption>("default");
-  const [search,      setSearch]      = useState("");
+  const [search,      setSearch]      = useState(()=>urlParams.get("q") ?? "");
   const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
     try { return new Set(JSON.parse(localStorage.getItem("savedQuests") ?? "[]")); }
     catch { return new Set(); }
@@ -886,13 +1062,70 @@ export default function App() {
     try { return new Set(JSON.parse(localStorage.getItem("completedQuests") ?? "[]")); }
     catch { return new Set(); }
   });
+  const [completedSteps,setCompletedSteps]= useState<Record<number,number[]>>(()=>{
+    try { return JSON.parse(localStorage.getItem("completedSteps") ?? "{}"); }
+    catch { return {}; }
+  });
+  // Reading setting: spoilers are blurred by default until revealed per-quest.
+  const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
+    try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
+    catch { return true; }
+  });
+  const [autoplayVideo,setAutoplayVideo]= useState<boolean>(()=>{
+    try { return JSON.parse(localStorage.getItem("autoplayVideo") ?? "false"); }
+    catch { return false; }
+  });
+  const [defaultDifficulty,setDefaultDifficulty]= useState<DiffFilter>(()=>(localStorage.getItem("defaultDifficulty") as DiffFilter) ?? "All");
 
   useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
   useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
+  useEffect(()=>{ localStorage.setItem("completedSteps", JSON.stringify(completedSteps)); },[completedSteps]);
+  useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
+  useEffect(()=>{ localStorage.setItem("autoplayVideo", JSON.stringify(autoplayVideo)); },[autoplayVideo]);
+  useEffect(()=>{ localStorage.setItem("defaultDifficulty", defaultDifficulty); },[defaultDifficulty]);
   useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
+
+  // Keep the Library filters in the URL query string so a filtered view is
+  // shareable and survives a refresh.
+  useEffect(()=>{
+    if(tab!=="browse")return;
+    const params = new URLSearchParams();
+    if(selectedGame!=="All") params.set("game",selectedGame);
+    if(typeFilter!=="All") params.set("type",typeFilter);
+    if(diffFilter!=="All") params.set("diff",diffFilter);
+    if(lenFilter!=="All") params.set("len",lenFilter);
+    if(videoFilter!=="All") params.set("video",videoFilter);
+    if(notStartedOnly) params.set("notStarted","1");
+    if(missableOnly) params.set("missable","1");
+    if(search) params.set("q",search);
+    const qs = params.toString();
+    window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
+  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,search]);
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
   const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
+  const toggleStep=(questId:number,stepIdx:number)=>setCompletedSteps(prev=>{
+    const cur = prev[questId] ?? [];
+    const next = cur.includes(stepIdx) ? cur.filter(i=>i!==stepIdx) : [...cur, stepIdx];
+    return { ...prev, [questId]: next };
+  });
+  const resetAllProgress=()=>{ setCompletedIds(new Set()); setCompletedSteps({}); };
+
+  // Custom PWA install prompt: capture the browser's default prompt so it can
+  // be triggered from a Settings button instead (the default one is easy to
+  // miss/dismiss and can't be re-shown on demand).
+  const [installPrompt, setInstallPrompt] = useState<any>(null);
+  useEffect(()=>{
+    const handler = (e:Event) => { e.preventDefault(); setInstallPrompt(e); };
+    window.addEventListener("beforeinstallprompt", handler);
+    return ()=>window.removeEventListener("beforeinstallprompt", handler);
+  },[]);
+  const promptInstall = async () => {
+    if(!installPrompt) return;
+    installPrompt.prompt();
+    await installPrompt.userChoice;
+    setInstallPrompt(null);
+  };
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
@@ -911,6 +1144,8 @@ export default function App() {
       setDiffFilter(f.diff ?? "All");
       setLenFilter(f.len ?? "All");
       setVideoFilter(f.video ?? "All");
+      setNotStartedOnly(f.notStarted ?? false);
+      setMissableOnly(f.missable ?? false);
       setSearch("");
     }
   };
@@ -922,6 +1157,8 @@ export default function App() {
     if(lenFilter!=="All"&&q.length!==lenFilter)return false;
     if(videoFilter==="Video Only"&&!q.video)return false;
     if(videoFilter==="No Video"&&q.video)return false;
+    if(notStartedOnly&&completedIds.has(q.id))return false;
+    if(missableOnly&&!q.missable)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
   }).sort((a,b)=>{
@@ -932,16 +1169,16 @@ export default function App() {
     // default: group by game when viewing all so the list has clear structure
     if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
-  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search,sort]);
+  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,completedIds,search,sort]);
 
   // Only a bounded batch of quest cards is mounted at once — 949 cards in the
   // DOM simultaneously was the main source of the page's bloat. Reset the
   // batch whenever the result set changes so "Load more" starts fresh.
   const BATCH = 36;
   const [visibleCount, setVisibleCount] = useState(BATCH);
-  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,search]);
+  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,search]);
 
-  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",!!search].filter(Boolean).length;
+  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,!!search].filter(Boolean).length;
 
   const selectedMeta=selectedGame!=="All"?GAMES[selectedGame]:null;
 
@@ -949,11 +1186,31 @@ export default function App() {
     <button key={o} onClick={()=>set(o)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${cur===o?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{o}</button>
   ));
 
+  // Reset every Library filter to its default — shared by the Filters panel,
+  // the empty state, and the removable-chips row's "Clear all".
+  const resetFilters = ()=>{
+    setSelectedGame("All"); setTypeFilter("All"); setDiffFilter("All"); setLenFilter("All");
+    setVideoFilter("All"); setNotStartedOnly(false); setMissableOnly(false); setSearch("");
+  };
+
+  const filterChips = [
+    selectedGame!=="All" && { label:selectedGame, onRemove:()=>setSelectedGame("All") },
+    typeFilter!=="All" && { label:`Type: ${typeFilter}`, onRemove:()=>setTypeFilter("All") },
+    diffFilter!=="All" && { label:`Difficulty: ${diffFilter}`, onRemove:()=>setDiffFilter("All") },
+    lenFilter!=="All" && { label:`Length: ${lenFilter}`, onRemove:()=>setLenFilter("All") },
+    videoFilter!=="All" && { label:videoFilter, onRemove:()=>setVideoFilter("All") },
+    notStartedOnly && { label:"Not started", onRemove:()=>setNotStartedOnly(false) },
+    missableOnly && { label:"Missable", onRemove:()=>setMissableOnly(false) },
+    !!search && { label:`"${search}"`, onRemove:()=>setSearch("") },
+  ].filter(Boolean) as { label:string; onRemove:()=>void }[];
+
   const TABS=[
     {id:"home"  as Tab, icon:<Home size={13}/>,      label:"Home"   },
     {id:"browse"as Tab, icon:<Library size={13}/>,   label:"Library"},
     {id:"news"  as Tab, icon:<Newspaper size={13}/>, label:"News"   },
     {id:"saved" as Tab, icon:<Bookmark size={13}/>,  label:"Saved", badge:savedIds.size||undefined},
+    {id:"progress" as Tab, icon:<Trophy size={13}/>, label:"Progress"},
+    {id:"settings" as Tab, icon:<Settings size={13}/>, label:"Settings"},
   ].filter(t=>isTabLive(t.id));
 
   // Nothing promoted yet: show a neutral placeholder rather than a tab the
@@ -1018,11 +1275,15 @@ export default function App() {
               <h1 className="text-lg font-bold text-foreground" style={{fontFamily:"'Cormorant Garamond',serif"}}>
                 {tab==="browse" ? (selectedGame!=="All" ? <><span style={{color:selectedMeta?.accent}}>{selectedGame}</span> — Quest Library</> : "Quest Library")
                  : tab==="news" ? "Latest Updates"
+                 : tab==="progress" ? "Progress"
+                 : tab==="settings" ? "Settings"
                  : "Saved Quests"}
               </h1>
               <p className="text-xs text-muted-foreground mt-0.5">
                 {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
+                 tab==="progress" ? `${completedIds.size} of ${QUESTS.length} completed` :
+                 tab==="settings" ? "Reading, offline, and data preferences" :
                  `${savedIds.size} saved`}
               </p>
             </div>
@@ -1075,7 +1336,7 @@ export default function App() {
           <main className="max-w-7xl mx-auto px-6 py-8 flex flex-col gap-6">
             {tab==="browse" && (
               <>
-                {selectedGame==="All" && !search && typeFilter==="All" && diffFilter==="All" && lenFilter==="All" && videoFilter==="All" && (
+                {selectedGame==="All" && !search && typeFilter==="All" && diffFilter==="All" && lenFilter==="All" && videoFilter==="All" && !notStartedOnly && !missableOnly && (
                   <div className="rounded-xl border border-border bg-secondary/30 px-5 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
                     <div className="flex-1">
                       <p className="text-sm font-semibold text-foreground">{QUESTS.length.toLocaleString()} quests across {Object.keys(GAMES).length} RPGs — tips, videos, and step-by-step guides.</p>
@@ -1090,16 +1351,18 @@ export default function App() {
                     <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
                     {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
-                  {selectedGame!=="All" && (
-                    <button onClick={()=>setSelectedGame("All")} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-primary/40 bg-primary/10 text-xs font-medium text-primary hover:bg-primary/20 transition-colors">
-                      {selectedGame} <X size={11}/>
-                    </button>
-                  )}
-                  <FiltersPopover activeFilters={activeFilters} onReset={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}}>
+                  <FiltersPopover activeFilters={activeFilters} onReset={resetFilters} resultCount={filtered.length}>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
+                    <div className="flex flex-col gap-1">
+                      <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">More</span>
+                      <div className="flex gap-1.5 flex-wrap">
+                        <button onClick={()=>setNotStartedOnly(v=>!v)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${notStartedOnly?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>Not started</button>
+                        <button onClick={()=>setMissableOnly(v=>!v)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${missableOnly?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>Missable</button>
+                      </div>
+                    </div>
                   </FiltersPopover>
                   <select value={sort} onChange={e=>setSort(e.target.value as SortOption)} aria-label="Sort quests" className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
                     <option value="default">Sort: Default</option>
@@ -1110,14 +1373,26 @@ export default function App() {
                   </select>
                   <span className="text-sm text-muted-foreground">{filtered.length} result{filtered.length!==1?"s":""}</span>
                 </div>
+                {filterChips.length>0 && (
+                  <div className="flex items-center gap-1.5 flex-wrap -mt-2">
+                    {filterChips.map((c,i)=>(
+                      <button key={i} onClick={c.onRemove} className="flex items-center gap-1 px-2.5 py-1 rounded-full border border-primary/40 bg-primary/10 text-[11px] font-medium text-primary hover:bg-primary/20 transition-colors">
+                        {c.label} <X size={10}/>
+                      </button>
+                    ))}
+                    <button onClick={resetFilters} className="text-[11px] text-muted-foreground hover:text-primary transition-colors">Clear all</button>
+                  </div>
+                )}
                 {filtered.length===0
-                  ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match your filters.</p><button onClick={()=>{setSelectedGame("All");setTypeFilter("All");setDiffFilter("All");setLenFilter("All");setVideoFilter("All");setSearch("");}} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame}/>
+                  ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match — reset filters.</p><button onClick={resetFilters} className="text-xs text-primary hover:underline">Reset filters</button></div>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall}/>}
           </main>
         </>
       )}

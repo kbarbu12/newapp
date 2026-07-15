@@ -70,6 +70,10 @@ const QUESTS = quests.map((q) => ({
   ...(Array.isArray(q.walkthrough) && q.walkthrough.length
     ? { walkthrough: q.walkthrough }
     : {}),
+  // No source data yet for which quests are missable — defaults to false/
+  // omitted until real per-quest data is authored (see quest-guide-
+  // improvement-spec-2026-07-15.md).
+  ...(q.missable ? { missable: true, ...(q.missableWindow ? { missableWindow: q.missableWindow } : {}) } : {}),
 }));
 
 const banner =
@@ -83,6 +87,7 @@ const body =
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\";\n" +
   "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
   "  video?: string; reward?: string; walkthrough?: string[];\n" +
+  "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
   "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; }\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
