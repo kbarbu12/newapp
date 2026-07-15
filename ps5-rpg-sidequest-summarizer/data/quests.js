@@ -1830,7 +1830,7 @@ const quests = [
       "Open Natsai Onai's companion questline by helping her and her mother settle into the Dyrwood — and dig into the Ashwinder trouble stirring nearby.",
     aiTip:
       "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Mum's%20the%20Word%20Natty%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pDgBBzhZhEE"
   },
   {
     id: 93,
@@ -2729,7 +2729,7 @@ const quests = [
       "Begin Poppy Sweeting's companion questline by helping her rescue a poached beast egg and return it safely to its mother.",
     aiTip:
       "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Poached%20Egg%20Poppy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qyrF3EJMKZA"
   },
   {
     id: 149,
@@ -8260,7 +8260,7 @@ const quests = [
       "A late arrival to Hogwarts, your fifth-year student survives a dragon attack and discovers a gift for ancient magic.",
     aiTip:
       "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Path%20to%20Hogwarts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4j81ThxRkWQ"
   },
   {
     id: 490,
@@ -8277,7 +8277,7 @@ const quests = [
       "Get sorted, meet Professor Fig and your housemates, and settle into castle life.",
     aiTip:
       "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogwarts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FQLqJ0qIid4"
   },
   {
     id: 491,
@@ -8294,7 +8294,7 @@ const quests = [
       "Professor Fig and your student delve into a locket's memories tied to the goblin rebellion.",
     aiTip:
       "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Locket's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
   },
   {
     id: 492,
@@ -8311,7 +8311,7 @@ const quests = [
       "Enter the first Keeper's trial to learn the truth about ancient magic and the wizard Isidora.",
     aiTip:
       "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Percival%20Rackham's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
   },
   {
     id: 493,
@@ -8328,7 +8328,7 @@ const quests = [
       "Follow the ghost of the student Richard Jackdaw to unlock hidden passages beneath the castle.",
     aiTip:
       "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Jackdaw's%20Rest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
   },
   {
     id: 494,
@@ -8345,7 +8345,7 @@ const quests = [
       "Storm a poacher stronghold with Poppy Sweeting to rescue captured magical beasts.",
     aiTip:
       "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20High%20Keep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZDZGlnwAms"
   },
   {
     id: 495,
@@ -8362,7 +8362,7 @@ const quests = [
       "Team with Natsai Onai to investigate the poachers and dark wizard Victor Rookwood.",
     aiTip:
       "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Girl%20from%20Uagadou%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WWyPUH35RQU"
   },
   {
     id: 496,
@@ -8379,7 +8379,7 @@ const quests = [
       "Solve the second Keeper's trial to gather more of the ancient magic that Ranrok covets.",
     aiTip:
       "Another puzzle dungeon — the new abilities carry into combat and exploration.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Niamh%20Fitzgerald's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QlkMzEO2NgQ"
   },
   {
     id: 497,
@@ -8396,7 +8396,7 @@ const quests = [
       "Brave San Bakar's trial high in the mountains, unlocking new traversal and ancient power.",
     aiTip:
       "Rewards flight/mount access to remote areas — a big exploration upgrade.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20San%20Bakar's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GrjwUFX970M"
   },
   {
     id: 498,
@@ -8413,7 +8413,7 @@ const quests = [
       "Sebastian's pursuit of dark magic reaches a breaking point, forcing a hard choice about the Unforgivable Curses.",
     aiTip:
       "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Relic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Cg_nMdHsuNo"
   },
   {
     id: 499,
@@ -8430,7 +8430,7 @@ const quests = [
       "The climactic battle against the goblin leader Ranrok and the hoard of contained ancient magic.",
     aiTip:
       "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Final%20Repository%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hue4Z_G2ttA"
   },
   {
     id: 500,
@@ -8447,7 +8447,7 @@ const quests = [
       "Help Sebastian search for a cure for his cursed twin sister, Anne.",
     aiTip:
       "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Bloodline%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sH99VVGDdUg"
   },
   {
     id: 501,
@@ -8464,7 +8464,7 @@ const quests = [
       "Sebastian's quest for forbidden power culminates in tragedy and a choice about loyalty.",
     aiTip:
       "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Time%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5T4pefO394w"
   },
   {
     id: 502,
@@ -8481,7 +8481,7 @@ const quests = [
       "Join Natty to rescue a child abducted by poachers and gather intel on Rookwood.",
     aiTip:
       "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lost%20Child%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M2Lh1rCW__I"
   },
   {
     id: 503,
@@ -8498,7 +8498,7 @@ const quests = [
       "The conclusion of Natty's hunt for the poachers and the man who hurt her family.",
     aiTip:
       "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Grief%20and%20Vengeance%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8qowtCnPfDw"
   },
   {
     id: 504,
@@ -8515,7 +8515,7 @@ const quests = [
       "Meet Poppy Sweeting for a planned outing that takes an unexpected turn, deepening your friendship as her questline continues.",
     aiTip:
       "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Surprise%20Meeting%20Poppy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
   },
   {
     id: 505,
@@ -8532,7 +8532,7 @@ const quests = [
       "Enlist the Gobbledegook-reading Ravenclaw Amit Thakkar to translate a captured goblin manuscript and uncover Ranrok's plans. (Amit is the one companion with no personal relationship questline — this is a main-story quest.)",
     aiTip:
       "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20All%20Gobbledegook%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4EVxcKhIWmY"
   },
   {
     id: 506,
@@ -8549,7 +8549,7 @@ const quests = [
       "Investigate the strange magical wells scattered around the Hogwarts region for a curious researcher.",
     aiTip:
       "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Well%2C%20Well%2C%20Well%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
   },
   {
     id: 507,
@@ -8566,7 +8566,7 @@ const quests = [
       "Take over an abandoned Hogsmeade shop and turn it into your personal storefront.",
     aiTip:
       "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Minding%20Your%20Own%20Business%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uJoQQhDUIE4"
   },
   {
     id: 508,
@@ -8583,7 +8583,7 @@ const quests = [
       "Chase the flying Daedalian Keys through the castle to unlock a rewarding chest hoard.",
     aiTip:
       "There are 16 keys — catch each one, then find its matching moving door for the loot.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Daedalian%20Keys%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lwgsiMEle20"
   },
   {
     id: 509,
@@ -8600,7 +8600,7 @@ const quests = [
       "Assist Mr. Ollivander's shop and craft the wand that best suits you.",
     aiTip:
       "Wand cosmetics are purely visual, but the quest is a lovely bit of wizarding flavor.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivanders%20%26%20the%20Perfect%20Wand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fIt-643KYRY"
   },
   {
     id: 510,
@@ -8617,7 +8617,7 @@ const quests = [
       "Track down the missing explorer Rowland Oakes across dangerous ruins and caves.",
     aiTip:
       "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Tale%20of%20Rowland%20Oakes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=olE0hw0uXz0"
   },
   {
     id: 511,
@@ -8634,7 +8634,7 @@ const quests = [
       "Help a lovestruck ghost reconnect with a lost sweetheart in a bittersweet, funny detour.",
     aiTip:
       "Low stakes and charming — a good break between combat-heavy quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Prisoner%20of%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lSZ8-En-TQg"
   },
   {
     id: 512,
@@ -8651,7 +8651,7 @@ const quests = [
       "Solve the environmental Merlin Trials scattered across the Highlands to expand your gear capacity.",
     aiTip:
       "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Merlin%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
   },
   {
     id: 513,
@@ -8668,7 +8668,7 @@ const quests = [
       "Collect the hidden Field Guide Pages using Revelio and the Flying-page chases.",
     aiTip:
       "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Field%20Guide%20Pages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XtS7xAM2MaQ"
   },
   {
     id: 514,
@@ -8685,7 +8685,7 @@ const quests = [
       "Recover the elusive Demiguise Statues at night for Gladwin Moon to upgrade your Alohomora spell.",
     aiTip:
       "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Demiguise%20Statues%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
   },
   {
     id: 515,
@@ -8702,7 +8702,15 @@ const quests = [
       "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
     aiTip:
       "Pure completionist content — pair with Merlin Trials while exploring each region.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ancient%20Magic%20Hotspots%20%26%20Collection%20Chests%20walkthrough"
+video: "https://www.youtube.com/watch?v=HdRArGAruCc",
+    walkthrough: [
+      "Progress the main story past Percival Rackham's Trial — Ancient Magic Hotspots only appear once you can sense Ancient Magic.",
+      "Open the map and look for the swirling Ancient Magic Hotspot icons; there are 20 spread across Hogwarts Valley, the Highlands, Hogsmeade Valley, the Forbidden Forest, the Coast, Feldcroft, Manor Cape, North Ford Bog and Marunweem.",
+      "Fast-travel to a hotspot and interact with the glowing pool to begin the challenge.",
+      "Cast Revelio to reveal the nearby traces of Ancient Magic, then walk into each glowing trace to absorb it before it fades.",
+      "Collect every trace in the area to complete the hotspot and permanently extend your Ancient Magic meter.",
+      "Repeat at all 20 hotspots to max out the meter and finish the Exploration challenge."
+    ]
   },
   {
     id: 516,
@@ -8719,7 +8727,7 @@ const quests = [
       "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
     aiTip:
       "Central to progression — breed beasts for Traits that upgrade your gear's power.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20%26%20Vivarium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
   },
   {
     id: 517,
@@ -11717,7 +11725,7 @@ const quests = [
       "Attend Professor Ronen's Charms lesson and learn the summoning charm Accio.",
     aiTip:
       "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C3BYlUF7S4A"
   },
   {
     id: 701,
@@ -11734,7 +11742,7 @@ const quests = [
       "Learn the levitation spell Levioso in Professor Hecat's DADA lesson.",
     aiTip:
       "Levioso suspends enemies — a key combat opener you'll use constantly.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=isCGCWNLuJo"
   },
   {
     id: 702,
@@ -11751,7 +11759,7 @@ const quests = [
       "Brew your first potions with Professor Sharp and unlock the Potions station.",
     aiTip:
       "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A7EKUPK6-Po"
   },
   {
     id: 703,
@@ -11768,7 +11776,7 @@ const quests = [
       "Master broom flight with Madam Kogawa, unlocking the skies over the Highlands.",
     aiTip:
       "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9MREmSZDN6M"
   },
   {
     id: 704,
@@ -11785,7 +11793,7 @@ const quests = [
       "Sneak into the library's Restricted Section with Sebastian to chase forbidden knowledge.",
     aiTip:
       "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Secrets%20of%20the%20Restricted%20Section%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2ClxjV7kCp8"
   },
   {
     id: 705,
@@ -11802,7 +11810,7 @@ const quests = [
       "Unlock the hidden Map Chamber and the Keepers' guidance beneath the school.",
     aiTip:
       "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Map%20Chamber%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p5CTz7oNuDE"
   },
   {
     id: 706,
@@ -11819,7 +11827,7 @@ const quests = [
       "Help the goblin Lodgok recover a stolen ceremonial helm, deepening the Ranrok conflict.",
     aiTip:
       "An early Highlands quest that opens up exploration and goblin-plot context.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Helm%20of%20Urtkot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ATRG5YtogNQ"
   },
   {
     id: 707,
@@ -11836,7 +11844,7 @@ const quests = [
       "Investigate the Ashwinder gang's arson and extortion around Hogsmeade.",
     aiTip:
       "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Fire%20and%20Vice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0PNpg9xizUo"
   },
   {
     id: 708,
@@ -11853,7 +11861,7 @@ const quests = [
       "Delve with Sebastian into the Sallow family's cursed scriptorium for a cure for Anne.",
     aiTip:
       "Advances the game's darkest arc — the moral choices intensify from here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Study%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3HVWihCCfso"
   },
   {
     id: 709,
@@ -11870,7 +11878,14 @@ const quests = [
       "Investigate a poacher-linked Animagus with the eccentric Poppy connection.",
     aiTip:
       "A memorable side story with a satisfying reveal — moderate combat.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unnatural%20Animagus%20walkthrough"
+video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
+    walkthrough: [
+      "Pick up the quest in Hogsmeade and speak with the quest giver to learn about the suspicious Animagus.",
+      "Follow the objective marker to the poacher-linked location and investigate the area with Revelio.",
+      "Defeat the poachers guarding the site and free any captured beasts with your Nab-Sack.",
+      "Confront the Animagus and see the reveal play out through the ensuing conversation and fight.",
+      "Loot the nearby chests and claim your reward before leaving."
+    ]
   },
   {
     id: 710,
@@ -11887,7 +11902,7 @@ const quests = [
       "Help the reclusive Gladwin Moon in the quest tied to upgrading your Alohomora.",
     aiTip:
       "Pairs with Demiguise Statue collection — do them together at night.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Man%20Behind%20the%20Moons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S0vvmB-he4A"
   },
   {
     id: 711,
@@ -11904,7 +11919,7 @@ const quests = [
       "Rescue a hunted magical beast and learn to use the Nab-Sack from Deek.",
     aiTip:
       "Introduces beast-catching — the foundation for Vivarium upgrades.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Bird%20in%20the%20Hand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SG9_r_upWac"
   },
   {
     id: 712,
@@ -11921,7 +11936,7 @@ const quests = [
       "Follow a riddle to a hidden cache tucked deep within Hogwarts castle.",
     aiTip:
       "A light puzzle quest — Revelio and a keen eye for detail solve it.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cache%20in%20the%20Castle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hKcns2obqjI"
   },
   {
     id: 713,
@@ -11938,7 +11953,7 @@ const quests = [
       "Test a souped-up broom in a high-flying challenge for Albie Weekes.",
     aiTip:
       "A flying-focused quest — great practice before the broom races.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Sky%20is%20the%20Limit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
   },
   {
     id: 714,
@@ -11955,7 +11970,7 @@ const quests = [
       "Enter the student duelling circuit (Crossed Wands) and the Summoner's Court challenges.",
     aiTip:
       "Great for practicing spell combos safely — the rewards feed your build.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Crossed%20Wands%20%26%20Summoner's%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K5B2B59pLOw"
   },
   {
     id: 716,
@@ -11972,7 +11987,7 @@ const quests = [
       "Investigate a Thestral tied to a somber Feldcroft mystery.",
     aiTip:
       "A quieter, eerie side quest — read the environmental clues.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Foal%20of%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
   },
   {
     id: 717,
@@ -11989,7 +12004,14 @@ const quests = [
       "Break up a poacher operation trafficking magical beasts across the Highlands.",
     aiTip:
       "Combat-focused — free the beasts and grab the loot from the camp.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trafficking%20Talents%20walkthrough"
+video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
+    walkthrough: [
+      "Travel to the marked poacher operation in the Hogwarts Highlands.",
+      "Clear out the poachers guarding the camp, using Ancient Magic on the tougher Ashwinders and Loyalists.",
+      "Free the trafficked magical beasts held in the cages using your Nab-Sack.",
+      "Search the camp and open the collection chest for gear.",
+      "Finish clearing the site to complete the quest and secure the poacher intel."
+    ]
   },
   {
     id: 718,
@@ -14907,7 +14929,7 @@ const quests = [
       "Grow and harvest a Mandrake, then use it against enemies as Professor Garlick asks.",
     aiTip:
       "Buy a Mandrake seed from the Magic Neep in Hogsmeade if you don't have one.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20I%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
   },
   {
     id: 846,
@@ -14924,7 +14946,7 @@ const quests = [
       "Prove your mastery of offensive plants by defeating foes with Chomping Cabbages.",
     aiTip:
       "Equip the Chomping Cabbage to your plant slot and throw it into groups.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20II%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U0npnqpDxYU"
   },
   {
     id: 847,
@@ -14941,7 +14963,7 @@ const quests = [
       "Hit enemies with Levioso, then combo them in the air as Hecat instructs.",
     aiTip:
       "Levioso first, then basic-cast while they float to chain the requirement.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20I%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4ZSWj7lf4Is"
   },
   {
     id: 848,
@@ -14958,7 +14980,7 @@ const quests = [
       "Stun enemies with Stupefy after blocking their attacks.",
     aiTip:
       "Protego to block, then immediately Stupefy the staggered enemy.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20II%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L3VgmITSCQc"
   },
   {
     id: 849,
@@ -14975,7 +14997,7 @@ const quests = [
       "Brew and use a required potion in combat for Professor Sharp.",
     aiTip:
       "Brew ahead at a Potion Station and keep one equipped before reporting back.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20I%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
   },
   {
     id: 850,
@@ -14992,7 +15014,7 @@ const quests = [
       "Demonstrate advanced potion use against tougher enemies.",
     aiTip:
       "Thunderbrew clears crowds fast and satisfies the combat requirement.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20II%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
   },
   {
     id: 851,
@@ -15009,7 +15031,7 @@ const quests = [
       "Capture a beast with the Nab-Sack and care for it in the Room of Requirement.",
     aiTip:
       "Complete 'The Elf, the Nab-Sack, and the Loom' first to unlock the Nab-Sack.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Assignment%20%E2%80%94%20Professor%20Howin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
   },
   {
     id: 852,
@@ -15026,7 +15048,7 @@ const quests = [
       "Use taught charms to solve Ronen's practical challenge.",
     aiTip:
       "Accio and Wingardium Leviosa cover most of Ronen's requests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Assignment%20%E2%80%94%20Professor%20Ronen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=erDLjDZ7pck"
   },
   {
     id: 853,
@@ -15043,7 +15065,7 @@ const quests = [
       "Use Transformation on objects and enemies as Professor Weasley directs.",
     aiTip:
       "Unlock Transformation from Weasley's earlier class before attempting.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Transfiguration%20Assignment%20%E2%80%94%20Professor%20Weasley%20walkthrough"
+    video: "https://www.youtube.com/watch?v=59EtR6arBLc"
   },
   {
     id: 854,
@@ -15060,7 +15082,7 @@ const quests = [
       "Complete Professor Onai's divination-themed task around the castle.",
     aiTip:
       "Follow the marked locations; no combat pressure here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Divination%20Assignment%20%E2%80%94%20Professor%20Onai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
   },
   {
     id: 855,
@@ -15077,7 +15099,7 @@ const quests = [
       "Complete Madam Kogawa's first timed broom-flying course.",
     aiTip:
       "Buy a broom from Spintwitches in Hogsmeade first; boost through every ring.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20I%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
   },
   {
     id: 856,
@@ -15094,7 +15116,7 @@ const quests = [
       "Beat Kogawa's tougher second flying course against the clock.",
     aiTip:
       "Chain speed boosts and cut corners tight to beat the timer.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20II%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
   },
   {
     id: 857,
@@ -15111,7 +15133,7 @@ const quests = [
       "Travel to Hogsmeade with Sebastian and help fend off a troll attacking the village.",
     aiTip:
       "Use nearby barrels and Accio to hurl objects at the troll's back.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogsmeade%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wpqlKtoIe3Y"
   },
   {
     id: 858,
@@ -15128,7 +15150,7 @@ const quests = [
       "Meet Professor Weasley after class to discuss your unusual gift for ancient magic.",
     aiTip:
       "Purely narrative — talk through the dialogue to open the next classes.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Weasley%20After%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aC6DM7wGFck"
   },
   {
     id: 859,
@@ -15145,7 +15167,7 @@ const quests = [
       "Shop for school supplies with Sebastian and learn spells at the shady Tomes and Scrolls annex.",
     aiTip:
       "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tomes%20and%20Tribulations%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wj8brNiltAM"
   },
   {
     id: 860,
@@ -15162,7 +15184,7 @@ const quests = [
       "Attend Professor Garlick's Herbology class and learn to wield combat plants.",
     aiTip:
       "Unlocks the Herbology assignments and plant loadouts.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=esv5rh66SHY"
   },
   {
     id: 861,
@@ -15179,7 +15201,7 @@ const quests = [
       "Meet Nora Treadwell and reawaken the ancient Merlin Trials scattered across the Highlands.",
     aiTip:
       "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trials%20of%20Merlin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Irm6HJa2NCo"
   },
   {
     id: 862,
@@ -15196,7 +15218,7 @@ const quests = [
       "Deek the house-elf reveals the Room of Requirement — your personal magical workshop and vivarium hub.",
     aiTip:
       "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2JlRk_8Fb2k"
   },
   {
     id: 863,
@@ -15213,7 +15235,7 @@ const quests = [
       "Attend Professor Howin's Beasts class and learn the basics of magical creature care.",
     aiTip:
       "Leads into unlocking the Nab-Sack and the beast vivariums.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ka26p_TZCg8"
   },
   {
     id: 864,
@@ -15230,7 +15252,7 @@ const quests = [
       "Help caretaker Gladwin Moon recover Demiguise Statues to learn and upgrade Alohomora.",
     aiTip:
       "Demiguise Statues only appear at night — use the wait function to change time.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Caretaker's%20Lunar%20Lament%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VwuAXrU3ImY"
   },
   {
     id: 865,
@@ -15247,7 +15269,7 @@ const quests = [
       "Join Sebastian and Ominis at the Gaunt family estate to seek a cure for Anne's curse.",
     aiTip:
       "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Estate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xjLVii9XWeA"
   },
   {
     id: 866,
@@ -15264,7 +15286,7 @@ const quests = [
       "Attend Astronomy class and learn to read the star tables dotted around the map.",
     aiTip:
       "Unlocks the Astronomy Table pairs that grant collection rewards.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Astronomy%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
   },
   {
     id: 867,
@@ -15281,7 +15303,7 @@ const quests = [
       "After a detour, rejoin Professor Fig and pick the main investigation back up.",
     aiTip:
       "A connective story beat — pursue it to reopen the trial questline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Back%20on%20the%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yT7NIWbJ54g"
   },
   {
     id: 868,
@@ -15298,7 +15320,7 @@ const quests = [
       "Follow the aftermath of the Final Repository as Isidora Morganach's secret is fully revealed.",
     aiTip:
       "Flows straight out of 'The Final Repository' — save loadouts before you commit to the finale.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Revelation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9u2qDvYyQ6U"
   },
   {
     id: 869,
@@ -15315,7 +15337,7 @@ const quests = [
       "Help Poppy Sweeting confront poachers who have tracked her down over her rescued beasts.",
     aiTip:
       "Bring crowd-control spells — the poacher camp comes at you in numbers.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Poacher's%20House%20Call%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8bxu0rvqLGM"
   },
   {
     id: 870,
@@ -15332,7 +15354,7 @@ const quests = [
       "Accompany Poppy to the centaur camp to recover a stolen moonstone and earn the herd's trust.",
     aiTip:
       "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Centaur%20and%20the%20Stone%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9U-sKO9Jrng"
   },
   {
     id: 871,
@@ -15349,7 +15371,7 @@ const quests = [
       "Share a quiet, starlit outing with Poppy that closes her companion questline.",
     aiTip:
       "The capstone of Poppy's arc — do it after her earlier beast quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20in%20the%20Stars%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uTsJ7ztnG1Y"
   },
   {
     id: 872,
@@ -15366,7 +15388,7 @@ const quests = [
       "Help Natsai Onai dig up leverage on the Ashwinder-aligned townsfolk troubling her mother.",
     aiTip:
       "Stealth with Disillusionment to gather evidence without a fight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Basis%20for%20Blackmail%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fSlzrxWGs9E"
   },
   {
     id: 873,
@@ -15383,7 +15405,7 @@ const quests = [
       "Descend into a catacomb with Sebastian as he chases a forbidden cure for his sister.",
     aiTip:
       "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Discovery%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rh2ZIJfvf7w"
   },
   {
     id: 874,
@@ -15400,7 +15422,7 @@ const quests = [
       "Sebastian's pursuit of dark knowledge starts to strain his bond with Ominis and with you.",
     aiTip:
       "Your choices here steer whether Sebastian embraces the Dark Arts.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Distance%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7jxvcaIa7zo"
   },
   {
     id: 875,
@@ -15417,7 +15439,7 @@ const quests = [
       "Reach the wrenching climax of Sebastian's story and decide how far you'll follow him.",
     aiTip:
       "A defining, irreversible choice — read every line before you answer.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Fate%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KLERaAR8otA"
   },
   {
     id: 876,
@@ -15434,7 +15456,7 @@ const quests = [
       "Infiltrate the pure-blood Selwyn family estate to recover what a desperate house-elf's plight demands.",
     aiTip:
       "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sacking%20Selwyn's%20Estate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DGAF0OnVd3A"
   },
   {
     id: 877,
@@ -15451,7 +15473,7 @@ const quests = [
       "Follow a treasure map to the Tomb of Treachery, where an ambush by Ailsa Travers and the Lord of the Manor awaits.",
     aiTip:
       "A tough double ambush — go in over-levelled and keep your dodge ready.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cursed%20Tomb%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZZSiz2_Gk74"
   },
   {
     id: 878,
@@ -15468,7 +15490,7 @@ const quests = [
       "Help Deek rescue a majestic phoenix hidden in a mountain cave from the poachers hunting it.",
     aiTip:
       "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Phoenix%20Rising%20walkthrough"
+    video: "https://www.youtube.com/watch?v=361e5n2gsfQ"
   },
   {
     id: 879,
@@ -15485,7 +15507,7 @@ const quests = [
       "Descend into Manor Glen to face the Lord of the Manor, an Infamous Foe, and his accomplice Ailsa Travers.",
     aiTip:
       "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lord%20of%20the%20Manor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WfZgkpxRcNY"
   },
   {
     id: 880,
@@ -15502,7 +15524,14 @@ const quests = [
       "Help a troubled villager whose obsession echoes the Mirror of Erised's dangerous pull on the heart's desire.",
     aiTip:
       "A shorter narrative quest — follow the marked leads around Cragcroftshire.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20E%20is%20for%20Erised%20walkthrough"
+video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
+    walkthrough: [
+      "Begin the quest and follow the objective marker to investigate the Mirror of Erised lead.",
+      "Use Revelio to uncover clues and Depulso/Accio to solve the environmental puzzles blocking your path.",
+      "Progress through the area, defeating any enemies you encounter along the way.",
+      "Reach and interact with the Mirror of Erised to trigger the quest's key scene.",
+      "Collect your reward and any nearby chests to complete the quest."
+    ]
   },
   {
     id: 881,
@@ -15519,7 +15548,7 @@ const quests = [
       "Prove yourself to the boastful Duncan Hobhouse by clearing out a dangerous nest he's too afraid to face.",
     aiTip:
       "Bring solid AoE — the den throws several foes at you at once.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Venomous%20Valour%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w1pW8uvI5vI"
   },
   {
     id: 882,
@@ -15536,7 +15565,7 @@ const quests = [
       "Aid the vain portrait subject Nellie Oggspire, who wants her likeness admired across the castle's frames.",
     aiTip:
       "A light, exploration-focused quest around the castle corridors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Like%20a%20Moth%20to%20a%20Frame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mGxOHI2So94"
   },
   {
     id: 883,
@@ -15553,7 +15582,7 @@ const quests = [
       "Free a portrait trapped behind the Library Annex and untangle the mischief that got it stuck.",
     aiTip:
       "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Portrait%20in%20a%20Pickle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IH0kKjwD02M"
   },
   {
     id: 884,
@@ -15570,7 +15599,7 @@ const quests = [
       "Trail Clementine Willardsey's enchanted wildflower butterflies to a hidden treasure.",
     aiTip:
       "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Follow%20the%20Butterflies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EN59nPw7-v4"
   },
   {
     id: 885,
@@ -15587,7 +15616,7 @@ const quests = [
       "Settle a curious dispute over a batch of enchanted biscuits for a Hogsmeade local.",
     aiTip:
       "A quick, low-stakes fetch-and-talk quest.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Take%20the%20Biscuit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CVz9l-5ZKZs"
   },
   {
     id: 886,
@@ -15604,7 +15633,7 @@ const quests = [
       "Help the house-elf Deek confront the cruelty of a house-elf's servitude under a pure-blood master.",
     aiTip:
       "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Plight%20of%20the%20House-Elf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqKe7YyvKZM"
   },
   {
     id: 887,
@@ -15621,7 +15650,7 @@ const quests = [
       "Take on Everett Clopton's daredevil broom-flying test through a course of rings.",
     aiTip:
       "Available after Flying Class; boost through every ring without missing one.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flight%20Test%20walkthrough"
+    video: "https://www.youtube.com/watch?v=USPtQaT3p28"
   },
   {
     id: 888,
@@ -15638,7 +15667,7 @@ const quests = [
       "Beat rival flier Imelda Reyes in a high-speed broom race across the Highlands.",
     aiTip:
       "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sweeping%20the%20Competition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZqiBaxoGxEM"
   },
   {
     id: 889,
@@ -15655,7 +15684,7 @@ const quests = [
       "Clear out a nest of Venomous Tentacula and giant spiders threatening a local's livelihood.",
     aiTip:
       "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tangled%20Web%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
   },
   {
     id: 890,
@@ -15672,7 +15701,7 @@ const quests = [
       "Track and defeat the Absconder, a colossal Infamous Foe lurking in a hidden den.",
     aiTip:
       "A boss-tier creature — bring Maxima potions and dodge its charge.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Absconder%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z08mA1dbDU8"
   },
   {
     id: 891,
@@ -15689,7 +15718,7 @@ const quests = [
       "Recover a set of stolen Field Guide pages that have gone missing around the castle.",
     aiTip:
       "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Hunt%20for%20the%20Missing%20Pages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UKa-bbqFBzM"
   },
   {
     id: 892,
@@ -15706,7 +15735,7 @@ const quests = [
       "Help Garreth Weasley sneak into the Honeydukes cellar to retrieve ingredients for his experiments.",
     aiTip:
       "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Dissending%20for%20Sweets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BerVRvSzacE"
   },
   {
     id: 893,
@@ -15723,7 +15752,7 @@ const quests = [
       "Make good on a delivery for a pushy Hogsmeade shopkeeper before their patience runs out.",
     aiTip:
       "A short courier quest — follow the marker and hand over the goods.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Demanding%20Delivery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mf0j6CiaQrI"
   },
   {
     id: 894,
@@ -15740,7 +15769,7 @@ const quests = [
       "Rescue a prized (and very loud) Chinese Chomping Cabbage that poachers have made off with.",
     aiTip:
       "Combat plant reward — handy for the Herbology assignments.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Kidnapped%20Cabbage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lrC_NOfmqWk"
   },
   {
     id: 895,
@@ -15757,7 +15786,7 @@ const quests = [
       "Chase a fragile hope for curing Anne's curse as Sebastian's search leads deeper into dark magic.",
     aiTip:
       "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Hope%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6TACQOMJyrg"
   },
   {
     id: 896,
@@ -15774,7 +15803,7 @@ const quests = [
       "Your loyalty to Sebastian is tested as the cost of his choices comes due for those around him.",
     aiTip:
       "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Friendship%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r1eqqlpF0so"
   },
   {
     id: 897,
@@ -15791,7 +15820,7 @@ const quests = [
       "Help a kind witch rescue a unicorn and its foal from poachers and settle them safely in a sanctuary.",
     aiTip:
       "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unique%20Unicorn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nZSyCjh2D80"
   },
   {
     id: 898,
@@ -15808,7 +15837,7 @@ const quests = [
       "Ravenclaw house quest — help Mr. Ollivander recover a treasured wandmaking heirloom lost to thieves.",
     aiTip:
       "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivander's%20Heirloom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LUMg5EdxgCg"
   },
   {
     id: 899,
@@ -15825,7 +15854,7 @@ const quests = [
       "Slytherin house quest — aid the loyal house-elf Scrope in fulfilling his late master's final wish.",
     aiTip:
       "Slytherin-exclusive; a story-driven quest with a poignant finish.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Scrope's%20Last%20Hope%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M9PUMckftjQ"
   },
   {
     id: 900,
@@ -15842,7 +15871,7 @@ const quests = [
       "Help decorate the Room of Requirement to a fellow student's exacting taste using Conjuration.",
     aiTip:
       "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Interior%20Decorating%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
   },
   {
     id: 901,
@@ -15859,7 +15888,7 @@ const quests = [
       "Gather Bubotuber pus to help a mortified student clear up a nasty magical breakout of spots.",
     aiTip:
       "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Spot%20Removal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1Vzl5BTLths"
   },
   {
     id: 902,
@@ -15876,7 +15905,7 @@ const quests = [
       "Lend a hand to a fellow student caught in a bind and repay a small debt of friendship.",
     aiTip:
       "A short, low-stakes favour quest around the castle.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Friend%20in%20Deed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VE0XET2jBLI"
   },
   {
     id: 903,
@@ -15893,7 +15922,7 @@ const quests = [
       "Track down six lost Gobstones scattered around the castle for the keen collector Zenobia Noke.",
     aiTip:
       "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Gobs%20of%20Gobstones%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9rK2SV7zOmI"
   },
   {
     id: 904,
@@ -15910,7 +15939,7 @@ const quests = [
       "Help Padraic Haggarty catch the sneaky Niffler pilfering coins by following its trail through the night.",
     aiTip:
       "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Thief%20in%20the%20Night%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Nxs7Dl3vFfU"
   },
   {
     id: 905,
@@ -15927,7 +15956,7 @@ const quests = [
       "Answer Claire's plea and clear out the goblin camps menacing travellers across the Highlands.",
     aiTip:
       "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Breaking%20Camp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BwSwv88o6VQ"
   },
   {
     id: 906,
@@ -15944,7 +15973,7 @@ const quests = [
       "Solve the enchanted Owl Bell Tower puzzle to lay a restless matter to rest at Hogwarts.",
     aiTip:
       "Ring the bells in the order the owl statues indicate to complete the puzzle.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20All's%20Well%20That%20Ends%20Bell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nchawQBXB10"
   },
   {
     id: 907,
@@ -15961,7 +15990,7 @@ const quests = [
       "Descend into a goblin mine with the translated manuscript to uncover Ranrok's loyalists at work — a key step in the Stop Ranrok and Rookwood arc.",
     aiTip:
       "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Mine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fE3D0ds2WsU"
   },
   {
     id: 908,
@@ -15978,7 +16007,7 @@ const quests = [
       "Help a troubled resident of Upper Hogsfield lay a painful family matter — and a brother's fate — to rest.",
     aiTip:
       "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Brother's%20Keeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QFhMvz-HwUM"
   },
   {
     id: 909,
@@ -15995,7 +16024,7 @@ const quests = [
       "Defend the village of Brocburrow when a rampaging mountain troll comes crashing through.",
     aiTip:
       "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Troll%20Control%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lY1IgeVz9Y8"
   },
   {
     id: 910,
