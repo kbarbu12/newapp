@@ -827,11 +827,13 @@ function SettingsSection({ title, children }: { title:string; children:React.Rea
 function SettingsTab({
   hideSpoilers, setHideSpoilers, autoplayVideo, setAutoplayVideo,
   defaultDifficulty, setDefaultDifficulty, onResetProgress,
+  canInstall, onInstall,
 }: {
   hideSpoilers:boolean; setHideSpoilers:(v:boolean)=>void;
   autoplayVideo:boolean; setAutoplayVideo:(v:boolean)=>void;
   defaultDifficulty:DiffFilter; setDefaultDifficulty:(v:DiffFilter)=>void;
   onResetProgress:()=>void;
+  canInstall:boolean; onInstall:()=>void;
 }) {
   return (
     <div className="flex flex-col gap-6 max-w-lg">
@@ -850,6 +852,11 @@ function SettingsTab({
       </SettingsSection>
 
       <SettingsSection title="Offline & data">
+        {canInstall && (
+          <SettingsRow label="Install app" hint="Add RPG Quest Guide to your home screen for quick, full-screen access.">
+            <button onClick={onInstall} className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Install</button>
+          </SettingsRow>
+        )}
         <SettingsRow label="Reset all progress" hint="Clears every completed quest and step checklist on this device. This can't be undone.">
           <button onClick={()=>{ if(confirm("Reset all quest and step progress? This can't be undone.")) onResetProgress(); }} className="px-3 py-1.5 rounded-lg border border-destructive/40 text-destructive text-xs font-medium hover:bg-destructive/10 transition-colors">Reset</button>
         </SettingsRow>
@@ -860,7 +867,7 @@ function SettingsTab({
 
 // ─── Filters Popover ──────────────────────────────────────────────────────────
 
-function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:number; onReset:()=>void; children:React.ReactNode }) {
+function FiltersPopover({ activeFilters, onReset, resultCount, children }: { activeFilters:number; onReset:()=>void; resultCount:number; children:React.ReactNode }) {
   const [open,setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   useEffect(()=>{
@@ -869,6 +876,11 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
     document.addEventListener("mousedown", onClick);
     return ()=>document.removeEventListener("mousedown", onClick);
   },[open]);
+  const resetBtn = (
+    <button onClick={onReset} className="text-[10px] text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 self-start sm:self-end">
+      ↺ Reset{activeFilters>0&&<span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold ml-1">{activeFilters}</span>}
+    </button>
+  );
   return (
     <div ref={ref} className="relative">
       <button onClick={()=>setOpen(o=>!o)} className="flex items-center gap-1.5 bg-secondary border border-border rounded-lg px-3 py-2.5 text-xs text-foreground hover:border-white/20 transition-colors">
@@ -876,12 +888,28 @@ function FiltersPopover({ activeFilters, onReset, children }: { activeFilters:nu
         {activeFilters>0 && <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold">{activeFilters}</span>}
       </button>
       {open && (
-        <div className="absolute z-30 top-full mt-2 left-0 w-[calc(100vw-3rem)] max-w-sm rounded-lg border border-border bg-card p-4 flex flex-col gap-3 shadow-xl">
-          {children}
-          <button onClick={()=>{onReset();}} className="text-[10px] text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 self-end">
-            ↺ Reset{activeFilters>0&&<span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold ml-1">{activeFilters}</span>}
-          </button>
-        </div>
+        <>
+          {/* Mobile: bottom sheet with grabber + sticky apply button */}
+          <div className="sm:hidden fixed inset-0 z-40 bg-black/50" onClick={()=>setOpen(false)}/>
+          <div className="sm:hidden fixed bottom-0 inset-x-0 z-50 rounded-t-2xl border-t border-border bg-card flex flex-col max-h-[80vh]">
+            <div className="flex justify-center pt-2.5 pb-1"><div className="w-9 h-1 rounded-full bg-white/15"/></div>
+            <div className="px-4 pb-3 flex flex-col gap-3 overflow-y-auto">
+              {children}
+              {resetBtn}
+            </div>
+            <div className="p-3 border-t border-border" style={{paddingBottom:"calc(0.75rem + env(safe-area-inset-bottom))"}}>
+              <button onClick={()=>setOpen(false)} className="w-full py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold">
+                Show {resultCount} quest{resultCount!==1?"s":""}
+              </button>
+            </div>
+          </div>
+
+          {/* Desktop: dropdown popover */}
+          <div className="hidden sm:flex absolute z-30 top-full mt-2 left-0 w-[calc(100vw-3rem)] max-w-sm rounded-lg border border-border bg-card p-4 flex-col gap-3 shadow-xl">
+            {children}
+            {resetBtn}
+          </div>
+        </>
       )}
     </div>
   );
@@ -1082,6 +1110,22 @@ export default function App() {
     return { ...prev, [questId]: next };
   });
   const resetAllProgress=()=>{ setCompletedIds(new Set()); setCompletedSteps({}); };
+
+  // Custom PWA install prompt: capture the browser's default prompt so it can
+  // be triggered from a Settings button instead (the default one is easy to
+  // miss/dismiss and can't be re-shown on demand).
+  const [installPrompt, setInstallPrompt] = useState<any>(null);
+  useEffect(()=>{
+    const handler = (e:Event) => { e.preventDefault(); setInstallPrompt(e); };
+    window.addEventListener("beforeinstallprompt", handler);
+    return ()=>window.removeEventListener("beforeinstallprompt", handler);
+  },[]);
+  const promptInstall = async () => {
+    if(!installPrompt) return;
+    installPrompt.prompt();
+    await installPrompt.userChoice;
+    setInstallPrompt(null);
+  };
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
@@ -1307,7 +1351,7 @@ export default function App() {
                     <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
                     {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
-                  <FiltersPopover activeFilters={activeFilters} onReset={resetFilters}>
+                  <FiltersPopover activeFilters={activeFilters} onReset={resetFilters} resultCount={filtered.length}>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
@@ -1348,7 +1392,7 @@ export default function App() {
             {tab==="news"  && <NewsTab/>}
             {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall}/>}
           </main>
         </>
       )}
