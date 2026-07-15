@@ -8686,6 +8686,7 @@ const quests = [
       "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
     aiTip:
       "Pure completionist content — pair with Merlin Trials while exploring each region.",
+video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     walkthrough: [
       "Progress the main story past Percival Rackham's Trial — Ancient Magic Hotspots only appear once you can sense Ancient Magic.",
       "Open the map and look for the swirling Ancient Magic Hotspot icons; there are 20 spread across Hogwarts Valley, the Highlands, Hogsmeade Valley, the Forbidden Forest, the Coast, Feldcroft, Manor Cape, North Ford Bog and Marunweem.",
@@ -11859,6 +11860,7 @@ const quests = [
       "Investigate a poacher-linked Animagus with the eccentric Poppy connection.",
     aiTip:
       "A memorable side story with a satisfying reveal — moderate combat.",
+video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
     walkthrough: [
       "Pick up the quest in Hogsmeade and speak with the quest giver to learn about the suspicious Animagus.",
       "Follow the objective marker to the poacher-linked location and investigate the area with Revelio.",
@@ -11984,6 +11986,7 @@ const quests = [
       "Break up a poacher operation trafficking magical beasts across the Highlands.",
     aiTip:
       "Combat-focused — free the beasts and grab the loot from the camp.",
+video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     walkthrough: [
       "Travel to the marked poacher operation in the Hogwarts Highlands.",
       "Clear out the poachers guarding the camp, using Ancient Magic on the tougher Ashwinders and Loyalists.",
@@ -15503,6 +15506,7 @@ const quests = [
       "Help a troubled villager whose obsession echoes the Mirror of Erised's dangerous pull on the heart's desire.",
     aiTip:
       "A shorter narrative quest — follow the marked leads around Cragcroftshire.",
+video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     walkthrough: [
       "Begin the quest and follow the objective marker to investigate the Mirror of Erised lead.",
       "Use Revelio to uncover clues and Depulso/Accio to solve the environmental puzzles blocking your path.",
