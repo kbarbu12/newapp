@@ -123,6 +123,18 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
   "new-game":<Sparkles size={11}/>, community:<Trophy size={11}/>,
 };
 
+// Cover images are hot-linked from the classic site; a request that fails or is
+// aborted during a cold first load leaves the <img> blank until a manual refresh.
+// Retry a failed cover a few times (cache-busted) so it self-heals in place.
+function retryCover(e: React.SyntheticEvent<HTMLImageElement>) {
+  const img = e.currentTarget;
+  const tries = Number(img.dataset.retry ?? 0);
+  if (tries >= 3) return;
+  img.dataset.retry = String(tries + 1);
+  const base = img.src.split("?")[0];
+  window.setTimeout(() => { img.src = `${base}?r=${tries + 1}`; }, 500 * (tries + 1));
+}
+
 // ─── YouTube embed (lite: thumbnail facade until played) ──────────────────────
 
 function getYouTubeId(url:string):string|null {
@@ -161,7 +173,6 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
   const [revealed, setRevealed] = useState(!hideSpoilers);
-  const buyUrl = `https://store.playstation.com/search/${encodeURIComponent(quest.game)}`;
   const status = questStatus(quest, completed);
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
@@ -286,10 +297,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
         <aside className="flex flex-col gap-3 min-w-0">
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
             <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">About the Game</h4>
-            <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>.</p>
-            <a href={buyUrl} target="_blank" rel="noopener noreferrer" className="mt-3 flex items-center justify-center gap-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold px-3 py-2 hover:bg-primary/85 transition-colors">
-              🛒 Buy the game
-            </a>
+            <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>. Buy links and related quests are coming soon.</p>
           </div>
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4 hidden sm:flex flex-col gap-2">
             <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-1">Mark Progress</h4>
@@ -343,7 +351,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
       {/* thumbnail badge */}
       <div className="relative flex items-end justify-center overflow-hidden rounded-md sm:rounded-lg flex-shrink-0 w-[42px] h-[56px] sm:w-[52px] sm:h-[70px]" style={{ backgroundColor:"#1a1a24" }}>
         {meta?.cover
-          ? <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>
+          ? <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-top"/>
           : <span className="pb-1 text-[9px] font-semibold text-muted-foreground">{meta?.abbr}</span>}
       </div>
 
@@ -417,7 +425,7 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
             <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name} title={name}
               className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
               style={{aspectRatio:"2/3"}}>
-              <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover"/>
+              <img src={meta.cover} alt={name} onError={retryCover} className="absolute inset-0 w-full h-full object-cover"/>
               <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.92) 40%,rgba(0,0,0,.15))"}}/>
               {sel&&<div className="absolute inset-0 opacity-25" style={{background:meta.gradient}}/>}
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
@@ -615,7 +623,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
                   style={{aspectRatio:"2/3"}}
                   aria-label={name}
                 >
-                  <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
+                  <img src={meta.cover} alt={name} onError={retryCover} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
                   <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.9) 35%,rgba(0,0,0,.2) 100%)"}}/>
                   <div className="absolute bottom-0 inset-x-0 p-2.5">
                     <div className="text-[9px] font-bold tracking-widest uppercase group-hover:text-white transition-colors" style={{color:meta.accent}}>{meta.abbr}</div>
