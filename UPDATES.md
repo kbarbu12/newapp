@@ -1,3 +1,46 @@
+# Update — Quest-popup video hero, two-font type system & Safari cover fix
+
+**Date:** 2026-07-16
+**Branches:** `staging` → promoted to `main`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+A design pass on the quest popup and site typography (imported from a Claude
+Design handoff), plus two follow-up fixes reported during review.
+
+### 1. Quest popup — video is now the hero
+The walkthrough video was a ~240px embed in the right sidebar. It's now a
+full-width **16:9 hero** at the top of the modal:
+- **Desktop:** header row with a red ▶ chip + `WATCH WALKTHROUGH` label and the
+  "not affiliated" disclaimer (right-padded so it clears the close button), the
+  full-width player, then the `Watch on YouTube ↗` link. The video sidebar card
+  was removed; the sidebar keeps **About the Game** and **Mark Progress**.
+- **Mobile:** full-bleed video hero at the very top with the floating back/save
+  buttons overlaid; the sticky bottom bar is now a single full-width **Mark
+  done** (the redundant "Watch" button was dropped).
+- Quests without a video keep the cover banner and the step-by-step walkthrough.
+
+### 2. Two-font type system — Spectral + Geist
+Consolidated from three families to two: **Spectral** (display / headings /
+quest titles, replacing Cormorant Garamond) and **Geist** (body / UI / chips /
+eyebrows / numerals, replacing the system sans *and* the monospace). No
+Cormorant or monospace remains in the shipped CSS.
+
+### 3. About the Game
+Removed the "🛒 Buy the game" button; the section now reads *"This quest is part
+of [Game]. Buy links and related quests are coming soon."*
+
+### 4. First-load blank game covers (Safari) — fixed
+On first load in Safari the "Browse by Game" cover images rendered blank until a
+manual refresh. Cause: the cards sized their box only with `aspect-ratio: 2/3`
+and placed the `<img>` as an absolutely-positioned child, which Safari renders
+at zero height on first paint. Fix: the aspect ratio now lives on the `<img>`
+itself in normal flow, so it always has a real height on first paint (overlays
+still layer on top). A cache-busted `onError` retry was also added as a
+fallback. Applied to the Library gallery and the home game grid.
+
+---
+
 # Update — Two new games (Jedi: Survivor + Fallen Order) & redesign UX
 
 **Date:** 2026-07-16
