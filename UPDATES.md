@@ -349,79 +349,33 @@ These were not in the original 12 findings. Noted here for the next pass.
 > **"Metaphor: ReFantazio quest data rebuilt (guide-verified)"** entry at the top
 > of this file. Treat the details below as historical/inaccurate.
 
-## What this update does
-Added all 71 missing quests from the uploaded Metaphor: ReFantazio quest
-database docx to `ps5-rpg-sidequest-summarizer/data/quests.js`. Every entry
-has either a real YouTube `watch?v=` video URL (found via search) or a
-step-by-step walkthrough array.
+## What this update did (and where it went wrong)
+This pass intended to add the "missing" Metaphor: ReFantazio quests from an
+uploaded database. In practice it inflated the game to **113 entries** by
+inventing quests that do not exist. The **2026-07-16 rebuild** replaced the whole
+game with the real **76 quests** — see the entry at the top of this file.
 
-## What was added
+**What was genuinely correct (and kept in the rebuild):**
+- The **11 main quests** (Save the Prince from Death's Curse … Save the Country),
+  each with a real `youtube.com/watch?v=` walkthrough video.
+- The **7 More's Tasks** (Foreword and Prologue … Chapter Six: The End), each
+  with a real video.
+- **Pagan's Dilemma** and **Help the Hushed Honeybee**, with real videos.
 
-### Main Quests — MQ-01 to MQ-11 (11 entries, all with real video URLs)
-- Save the Prince from Death's Curse, Necromancer Takedown, Thwart Zorba's Plan
-- Apprehend the Real Kidnapper, Infiltrate the Charadrius, Obtain Drakodios
-- Ancestral Solution, Eliminate Virga Island's Threat, Prepare for the Final Battle
-- Skybound Avatar Conquest, Save the Country
+**What was fabricated (removed on 2026-07-16):**
+- ~53 generic filler quests with invented names that don't exist in the game —
+  e.g. *Missing Child, Merchant's Request, Hunt: Forest Beast, Church
+  Investigation, Retrieve Sacred Artifact, Mystic Orb Recovery, Hidden Postgame
+  Challenge*. These were grouped under made-up categories (Favor, Hunt,
+  Investigation, Retrieval, Special) and given walkthroughs written from generic
+  RPG assumptions rather than the actual game.
 
-### More's Tasks — SQ-01 to SQ-07 (7 entries, all with real video URLs)
-Dedicated per-chapter YouTube videos exist for each:
-- Foreword and Prologue, Chapter One: Ordeal, Chapter Two: Solitude
-- Chapter Three: Drifting, Chapter Four: Turmoil, Chapter Five: Resolve
-- Chapter Six: The End
+**Why it wasn't caught at the time:** the integrity audit only checked structure
+(IDs, required fields, unique titles, valid video field) — it can't tell a real
+quest name from an invented one. The 2026-07-16 pass verified names against a
+guide list, which is what surfaced the fabrications.
 
-### Favor / NPC Side Quests — SQ-10 to SQ-25 (16 entries, walkthroughs)
-A Friend in Need, Missing Child, Merchant's Request, Delivery Troubles,
-Stolen Goods Recovery, Troubled Soldier, Lost Necklace, Herbal Remedy,
-Guard Duty Assistance, Fisherman's Problem, Old Woman's Request, Broken Cart,
-Refugee Aid, Noble Dispute, Food Supply Crisis, Caravan Escort
-
-### Hunt / Bounty Quests — SQ-26 to SQ-35 (10 entries, walkthroughs)
-Forest Beast, Cave Horror, Bandit Leader, Swamp Creature, Desert Predator,
-Mountain Giant, Undead Commander, Rogue Mage, Arena Champion, Ancient Guardian
-
-### Investigation Quests — SQ-36 to SQ-45 (10 entries, walkthroughs)
-Church Investigation, Political Spy Hunt, Missing Official, Underground Network,
-Smuggling Ring, Hidden Archive, Secret Experiment, Noble Conspiracy,
-Royal Document Recovery, Assassin Plot
-
-### Retrieval / Dungeon Quests — SQ-46 to SQ-55 (10 entries, walkthroughs)
-Retrieve Sacred Artifact, Recover Lost Weapon, Ancient Relic Hunt,
-Dungeon Key Search, Hidden Treasure Map, Forgotten Library,
-Sunken Ruins Expedition, Crystal Core Retrieval, Forbidden Tome,
-Mystic Orb Recovery
-
-### Special / Time-Gated Quests — SQ-56 to SQ-65 (7 entries, mixed)
-Festival Preparation, Tournament Qualifier, Arena Challenge Series (video),
-Companion Trial, Secret Ending Requirement Quest (video), Final Preparation Task,
-Hidden Postgame Challenge (video)
-
-## What was skipped (already existed under different titles)
-SQ-08 Pagan's Dilemma, SQ-09 Help the Hushed Honeybee, SQ-57 Royal Debate Event
-(= The Royal Election Debates), SQ-60 Gauntlet Runner Trial (= The Gauntlet
-Runner Races), SQ-62 Virtue Test (= The King's Trials).
-
-## Video sourcing
-Real `youtube.com/watch?v=` URLs were found for all main quests and More's Tasks
-via targeted YouTube search. For the remaining side quests, no dedicated videos
-exist for the specific quest names, so step-by-step walkthroughs were written
-based on the game's mechanics (Archetypes, calendar system, Press Turn combat,
-Follower bonds, Virtue stats).
-
-## Quest count
-Metaphor: ReFantazio now has **113 quest entries** in the database.
-
-## QA test results
-
-Tested via Playwright (headless Chromium) against the redesign dev server after push to staging.
-
-| Check | Result |
-|-------|--------|
-| Library shows MRF chip with correct count | ✅ 111 quests |
-| Video quest modal (e.g. Help the Hushed Honeybee) | ✅ Title, type, difficulty, duration, location, region, summary, tip, reward, YouTube link all render correctly |
-| Walkthrough quest modal (e.g. The Monster of Grand Trad) | ✅ Shows "Video walkthrough not available" for pre-existing entries without guide arrays (expected) |
-| New entries (id ≥ 1059) — video/walkthrough coverage | ✅ 20 with real video, 50 with walkthrough; 1 gap found and fixed (see below) |
-| Audit after fix | ✅ Integrity clean — no duplicate IDs, no missing fields, no duplicate titles |
-| JS errors from app code | ✅ None |
+The real Metaphor total is **76** (the "Help Anyone in Need" trophy needs 75/76).
 
 **Bug found and fixed during QA:** "Hidden Postgame Challenge" (id 1127) had only a search-query URL and no walkthrough array, violating the CLAUDE.md rule. A 7-step walkthrough was added and committed.
 
