@@ -3062,17 +3062,24 @@ const quests = [
     id: 181,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "Sacred Lands",
-    title: "The Distant Lands",
-    location: "No Man's Land / Utaru Territory",
+    region: "The Daunt",
+    title: "Shadow from the Past",
+    location: "Barren Light, The Daunt",
     length: "medium",
     difficulty: "Medium",
-    reward: "Utaru Seed-Caller armour, 3 Skill Points, 5500 XP",
+    reward: "Conover cleared, Skill Point, XP",
     summary:
-      "Travel beyond Tenakth borders to the dying Utaru tribe's homeland, where the Plague is ravaging crops and people. Aloy must navigate Utaru customs and traditions to earn their trust and access vital information.",
+      "At Barren Light, an imprisoned Carja guard named Conover begs Aloy to prove he killed his fellow soldier Laruvik in self-defence, insisting Laruvik was secretly working with the Eclipse.",
     aiTip:
-      "Use Concentration during the ritual portions of this quest — the pacing is slow but skipping dialogue misses critical worldbuilding. The Utaru armor provides useful stealth bonuses.",
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Distant%20Lands%20walkthrough"
+      "Head into the nearby ruin to overhear the Eclipse, clear them out, and recover the cultist's mask as proof. Completing it leads directly into Shadow in the West.",
+    walkthrough: [
+      "Speak with the prisoner Conover at Barren Light to hear his plea.",
+      "Travel to the ruin where Laruvik met the Eclipse.",
+      "Overhear the cultists' plot to breach the Forbidden West, then defeat them.",
+      "Recover Rayad's mask from the dead cultist as evidence.",
+      "Return to Ybril at Barren Light to prove Conover's innocence."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20from%20the%20Past%20walkthrough"
   },
 {
     id: 182,
@@ -3088,6 +3095,13 @@ const quests = [
       "Help a group of elderly Nora refugees who have settled in the ruins of an old Vantage Point and are being harassed by scavengers. A short but touching quest about community and resilience in a collapsed world.",
     aiTip:
       "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
+    walkthrough: [
+      "Travel to Legacy's Landfall and speak with the elderly Nora refugees settled in the old Vantage ruins.",
+      "Learn that scavengers have been harassing the camp and agree to help.",
+      "Set elemental traps around the approach before triggering the confrontation.",
+      "Drive off the scavenger band threatening the refugees.",
+      "Return to the elders to secure their refuge and collect your reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Old%20Varl's%20Refuge%20walkthrough"
   },
 {
@@ -6420,6 +6434,13 @@ const quests = [
       "Aloy sets out west to recover a working copy of GAIA and stop the biosphere's collapse.",
     aiTip:
       "The opening region eases you into new gear and machines — grab the pullcaster and diving mask upgrades early.",
+    walkthrough: [
+      "Begin west of the Sacred Lands, searching the Old World ruins for a working GAIA backup.",
+      "Grab the Pullcaster and diving-mask upgrades as the region introduces them.",
+      "Fight through the machines guarding the ruins, using your Focus to find climb and dive routes.",
+      "Recover the data and face the setback that sends Aloy deeper into the Forbidden West.",
+      "Set out west to continue into the Daunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
   },
 {
@@ -6436,6 +6457,12 @@ const quests = [
       "Aloy enters The Daunt to attend a tense embassy and secure passage deeper into the Forbidden West.",
     aiTip:
       "Chainscrape becomes an early hub — pick up its side quests before pushing on.",
+    walkthrough: [
+      "Cross into the Daunt and make your way to the settlement of Chainscrape.",
+      "Meet the locals and take on the errands the hub offers before pushing on.",
+      "Follow the main objective toward the tense embassy meeting.",
+      "Handle the trouble that erupts and secure passage deeper into Tenakth land."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
   },
 {
@@ -6452,6 +6479,12 @@ const quests = [
       "Aloy helps defend a Tenakth outpost, earning a foothold among the tribe.",
     aiTip:
       "A combat-focused chapter; learn to exploit machine components with the right ammo.",
+    walkthrough: [
+      "Travel to the Tenakth outpost at Barren Light.",
+      "Help defend the outpost from Regalla's attacking rebels.",
+      "Exploit machine and rebel components with matched ammo during the fight.",
+      "Hold the line to earn the Tenakth's trust and open the road west."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
   },
 {
@@ -6468,6 +6501,12 @@ const quests = [
       "Aloy tracks the signal from the Spire, uncovering the scope of the western threat.",
     aiTip:
       "Story-heavy with a major reveal — stock resources before the finale stretch.",
+    walkthrough: [
+      "Follow the signal toward the Spire and the Tenakth Embassy.",
+      "Stock up on resources before the story-heavy stretch.",
+      "Progress through the Embassy events and the major reveal about the western threat.",
+      "Continue the main path once the chapter's confrontation resolves."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
   },
 {
@@ -6476,14 +6515,20 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "Gemini",
-    location: "The Base",
+    location: "Cauldron: Gemini, Clan Lands",
     length: "long",
     difficulty: "High",
-    reward: "GAIA restoration nears",
+    reward: "GEMINI secured, 2 Skill Points, large XP",
     summary:
-      "Aloy pushes toward reuniting GAIA's functions as the Zeniths' plan accelerates.",
+      "At Cauldron: Gemini, Aloy and Beta come under attack from a Behemoth and a Ravager that HEPHAESTUS has summoned to stop them, the last obstacle before the Zeniths' plan can be undone.",
     aiTip:
-      "A major story chapter; upgrade your best weapons before diving in.",
+      "Varl stays to guard Beta, so you fight the machines largely alone, bring heavy-hitting gear. Completing it flows straight into All That Remains.",
+    walkthrough: [
+      "Follow the story to Cauldron: Gemini with Beta.",
+      "Survive the Behemoth and Ravager that HEPHAESTUS summons while Varl protects Beta.",
+      "Clear the cauldron and speak with Beta.",
+      "Watch the reveal that carries directly into All That Remains."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
   },
 {
@@ -6500,6 +6545,12 @@ const quests = [
       "The climactic assault on the Zeniths to secure the future of the biosphere.",
     aiTip:
       "The finale is a gauntlet — bring your strongest coils, potions, and elemental loadout.",
+    walkthrough: [
+      "Prepare your best coils, potions and an elemental loadout before beginning.",
+      "Assault the Zenith stronghold in the game's climactic gauntlet.",
+      "Fight through the escalating waves and mini-bosses toward the final confrontation.",
+      "Defeat the Zeniths to secure the biosphere's future and complete the story."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
   },
 {
@@ -6516,6 +6567,12 @@ const quests = [
       "Petra needs rare parts to build a machine-killing cannon; Aloy hunts them down.",
     aiTip:
       "Unlocks after The Bristlebacks — Petra's gear is worth the trip.",
+    walkthrough: [
+      "Complete The Bristlebacks first to unlock this quest from Petra.",
+      "Accept Petra's request to gather the rare parts for her machine-killing cannon.",
+      "Hunt the specific machines that drop the required components.",
+      "Return the parts to Petra to claim her powerful gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Twilight%20Path%20walkthrough"
   },
 {
@@ -6532,6 +6589,12 @@ const quests = [
       "Aloy helps Stemmur recover an Old World holiday ornament from the ruins of Las Vegas.",
     aiTip:
       "A charming errand with light puzzle-solving — follow the power cables.",
+    walkthrough: [
+      "Talk to Stemmur near Scalding Spear to start the errand.",
+      "Enter the Old World Las Vegas ruins he points you to.",
+      "Follow the power cables and solve the light puzzles to restore the display.",
+      "Recover the holiday ornament and return it to Stemmur."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Nights%20of%20Lights%20walkthrough"
   },
 {
@@ -6548,6 +6611,12 @@ const quests = [
       "Investigate strange machine behavior threatening the peaceful Utaru of Plainsong.",
     aiTip:
       "Scan the affected machines to trace the corruption to its source.",
+    walkthrough: [
+      "Head to Plainsong and hear the Utaru's reports of strange machine behavior.",
+      "Scan the affected machines with your Focus to trace the corruption.",
+      "Follow the trail to the source disturbing the machines.",
+      "Resolve the threat to protect the settlement."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20in%20the%20West%20walkthrough"
   },
 {
@@ -6564,6 +6633,12 @@ const quests = [
       "Hunters have vanished into a fog-shrouded valley stalked by an unseen machine.",
     aiTip:
       "Bring cold/impact ammo — the culprit ambushes from concealment.",
+    walkthrough: [
+      "Investigate the disappearances in the fog-shrouded valley.",
+      "Bring cold and impact ammo for the concealed machine.",
+      "Use your Focus to spot the ambusher before it strikes.",
+      "Hunt down the machine to end the threat to the missing hunters."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
   },
 {
@@ -6580,6 +6655,12 @@ const quests = [
       "Aloy helps gather ingredients for a prized Utaru delicacy amid roaming machines.",
     aiTip:
       "A relaxed gathering quest — a nice palate cleanser between story beats.",
+    walkthrough: [
+      "Speak with the Utaru cook at Plainsong to begin gathering ingredients.",
+      "Travel to the marked spots to collect the required components.",
+      "Clear any roaming machines guarding the gathering sites.",
+      "Deliver the ingredients to complete the prized delicacy."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20So%20Sweet%20walkthrough"
   },
 {
@@ -6596,39 +6677,57 @@ const quests = [
       "Track down a Tenakth rebel cell operating in the borderlands.",
     aiTip:
       "Rebels use heavy weapons — knock them off overwatch positions with the ropecaster.",
+    walkthrough: [
+      "Head to the borderlands near The Grove to track the rebel cell.",
+      "Use the Ropecaster to pull rebels off their overwatch positions.",
+      "Clear the heavy-weapon rebels methodically.",
+      "Eliminate the cell's leader to finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
   },
 {
     id: 395,
-    type: "side",
+    type: "main",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "Seeds of the Past",
-    location: "Plainsong",
+    location: "The Greenhouse, Clan Lands",
     length: "medium",
     difficulty: "Medium",
-    reward: "Utaru heritage, unique reward",
+    reward: "DEMETER recovered for GAIA, Skill Points, XP",
     summary:
-      "Uncover an Utaru mystery tied to their song-fields and the machines that tend them.",
+      "Following GAIA's coordinates, Aloy reaches the Greenhouse, an old Faro biotech facility, to recover the DEMETER sub-function and restore it to GAIA.",
     aiTip:
-      "Lore-rich and emotional — read the datapoints for the full picture.",
+      "A Metal Flower blocks the data core; descend through the tunnels with Alva and watch for a cloaked Dreadwing ambush before you secure DEMETER.",
+    walkthrough: [
+      "Travel to the Greenhouse using GAIA's coordinates.",
+      "Clear the soldiers inside and find the data core blocked by a Metal Flower.",
+      "Descend into the tunnels with Alva and survive the cloaked Dreadwing ambush.",
+      "Secure DEMETER and return to the Base to reintegrate it under GAIA."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
   },
 {
     id: 396,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "The Clan Lands",
-    title: "Cause for Concern",
-    location: "The Base",
+    region: "The Daunt",
+    title: "Broken Locks",
+    location: "Camp Nowhere, The Daunt",
     length: "short",
     difficulty: "Low",
-    reward: "Companion bonding, base upgrade",
+    reward: "Salvaged loot, XP",
     summary:
-      "A quiet moment with Aloy's allies at the Base reveals personal stakes.",
+      "A missable errand: if Aloy recovered Porguf's lockbox during Breaking Even, its contents point her toward unfinished business worth chasing down.",
     aiTip:
-      "A character quest that deepens your companions before the finale.",
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cause%20for%20Concern%20walkthrough"
+      "Only unlocks if you completed the optional 'recover Porguf's Lockbox' objective in the Breaking Even side quest first.",
+    walkthrough: [
+      "Recover Porguf's Lockbox during the Breaking Even side quest to unlock this errand.",
+      "Open the lockbox and follow the lead it reveals.",
+      "Travel to the marked location and deal with what you find.",
+      "Complete the errand for its reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Broken%20Locks%20walkthrough"
   },
 {
     id: 397,
@@ -6644,6 +6743,12 @@ const quests = [
       "Aloy investigates a spreading blight of corrupted machines scarring the land.",
     aiTip:
       "Corrupted machines hit harder — bring purgewater and status resist.",
+    walkthrough: [
+      "Travel to Cinnabar Sands to investigate the spreading blight.",
+      "Bring purgewater and status resistance for the corrupted machines.",
+      "Trace the corruption across the scarred land with your Focus.",
+      "Destroy the source to heal the wound in the land."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Land%20walkthrough"
   },
 {
@@ -6660,6 +6765,12 @@ const quests = [
       "Delve into the West's Cauldrons (GEMINI, IOTA, KAPPA, TAU, CHI) to unlock overrides for more machines.",
     aiTip:
       "Each cauldron ends in a boss machine — clearing all expands your override roster hugely.",
+    walkthrough: [
+      "Locate the West's Cauldrons — GEMINI, IOTA, KAPPA, TAU and CHI.",
+      "Solve each cauldron's traversal and combat sections to reach the core.",
+      "Defeat the boss machine guarding each core to unlock its overrides.",
+      "Clear all of them to massively expand your machine-override roster."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cauldrons%3A%20Machine%20Overrides%20walkthrough"
   },
 {
@@ -6676,6 +6787,12 @@ const quests = [
       "Clear the Tenakth rebel camps fortified across the Forbidden West.",
     aiTip:
       "Stealth-thin the guards first, then take the commander — they drop strong loot.",
+    walkthrough: [
+      "Find the Tenakth rebel camps marked across the Forbidden West.",
+      "Stealth-thin the guards using tall grass and silent takedowns.",
+      "Defeat the camp commander once the guards are cleared.",
+      "Claim the strong loot each cleared camp drops."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Rebel%20Camps%20%26%20Outposts%20walkthrough"
   },
 {
@@ -6692,6 +6809,12 @@ const quests = [
       "Complete timed combat trials at the West's Hunting Grounds for prestige gear.",
     aiTip:
       "Study each trial's objective; specialized ammo and traps beat the clock.",
+    walkthrough: [
+      "Visit the Hunting Grounds and speak with the Grounds Keeper.",
+      "Read each trial's objective before starting the timer.",
+      "Use specialized ammo and traps to hit the requirements fast.",
+      "Earn full marks to unlock prestige gear rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
   },
 {
@@ -6708,6 +6831,12 @@ const quests = [
       "Solve the traversal puzzles inside Old World Relic Ruins to claim their sealed treasures.",
     aiTip:
       "Use the pullcaster and scan for climb points — most are pure platforming puzzles.",
+    walkthrough: [
+      "Enter the Old World Relic Ruins scattered across the map.",
+      "Scan for climb points and use the Pullcaster to open paths.",
+      "Solve the traversal puzzles to reach the sealed chamber.",
+      "Claim the ruin's treasure to complete it."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
   },
 {
@@ -6724,6 +6853,12 @@ const quests = [
       "Scale the towering Tallnecks to reveal each region's map and machine sites.",
     aiTip:
       "Each Tallneck has a unique approach puzzle — look for the machine or structure to reach it.",
+    walkthrough: [
+      "Locate each region's Tallneck on your map.",
+      "Study the unique approach puzzle — a nearby structure or machine to reach it.",
+      "Climb to the Tallneck's head and override it.",
+      "Reveal the region's map and machine sites."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Tallnecks%20walkthrough"
   },
 {
@@ -6740,6 +6875,12 @@ const quests = [
       "Take machine-part salvage contracts from Stitcher hubs for rare upgrade materials.",
     aiTip:
       "Target the exact components requested to fulfill contracts efficiently.",
+    walkthrough: [
+      "Take salvage contracts from the Stitcher hubs.",
+      "Note the exact machine components each contract requests.",
+      "Hunt those machines and tear off the specific parts.",
+      "Turn in the components for rare upgrade materials."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Salvage%20Contracts%20walkthrough"
   },
 {
@@ -6756,6 +6897,12 @@ const quests = [
       "Win machine-mounted races across the West's Gauntlet Run courses.",
     aiTip:
       "Learn the boost pads and shortcuts; a fast mount and clean lines win.",
+    walkthrough: [
+      "Head to a Gauntlet Run course and mount up on a fast machine.",
+      "Learn the boost-pad placements and shortcuts on a first pass.",
+      "Ride clean racing lines to beat the course times.",
+      "Win to claim the Gauntlet rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gauntlet%20Runs%20walkthrough"
   },
 {
@@ -6772,6 +6919,12 @@ const quests = [
       "Battle waves of machines under special modifiers in the Maze's combat Arena.",
     aiTip:
       "Modifiers reward build flexibility — swap loadouts to match each challenge.",
+    walkthrough: [
+      "Travel to the Arena in the Maze at Thornmarsh.",
+      "Check the active modifiers before each challenge.",
+      "Swap your loadout to counter the wave and machine types.",
+      "Clear the waves to earn Arena medals and gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Arena%20walkthrough"
   },
 {
@@ -6788,6 +6941,12 @@ const quests = [
       "Master Aloy's spear at the Melee Pits to unlock powerful resonator-blast combos.",
     aiTip:
       "These combos massively boost melee damage — worth learning for tough fights.",
+    walkthrough: [
+      "Find the Melee Pit masters across the West.",
+      "Complete each pit's spear-combo challenge.",
+      "Practice the resonator-blast combo timing.",
+      "Master all pits to unlock the powerful melee combos."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Melee%20Pits%20walkthrough"
   },
 {
@@ -6804,6 +6963,12 @@ const quests = [
       "Beat the West's best players at the in-world tabletop game Machine Strike.",
     aiTip:
       "A chess-like minigame — control the center and bait aggressive opponents.",
+    walkthrough: [
+      "Learn Machine Strike's rules from an early opponent.",
+      "Control the board's center and bait aggressive plays.",
+      "Defeat the ranked players across the West.",
+      "Beat the best champions to complete the challenge."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
   },
 {
@@ -6820,6 +6985,12 @@ const quests = [
       "Aloy travels to the drowned ruins of Los Angeles and teams with the rebel Seyka against a lingering Zenith threat.",
     aiTip:
       "Kicks off the Burning Shores DLC — it's endgame content, so come well-equipped.",
+    walkthrough: [
+      "Start the Burning Shores DLC from the post-game prompt with strong endgame gear.",
+      "Travel to the drowned Los Angeles ruins and meet the rebel Seyka.",
+      "Team up to investigate the lingering Zenith threat.",
+      "Push through the flooded ruins to advance the DLC story."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20In%20the%20Flood%20walkthrough"
   },
 {
@@ -6836,6 +7007,12 @@ const quests = [
       "Investigate a doomsday cult and the buried secrets of the volcanic Burning Shores.",
     aiTip:
       "The DLC introduces new machines like the Bilegut — bring acid resistance.",
+    walkthrough: [
+      "Pick up the errand in the Burning Shores region.",
+      "Investigate the doomsday cult and its buried secrets.",
+      "Bring acid resistance for new machines like the Bilegut.",
+      "Uncover the volcanic secret to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20Gilded%20Prophecy%20walkthrough"
   },
 {
@@ -11015,30 +11192,42 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "Cradle of Echoes",
-    location: "Cauldron",
+    location: "The Base, Clan Lands",
     length: "long",
     difficulty: "High",
-    reward: "GAIA sub-function, override",
+    reward: "Story progression, override, XP",
     summary:
-      "Descend into a cauldron to recover another of GAIA's scattered sub-functions.",
+      "After GAIA reveals that ELEUTHIA-9 may still be intact, Aloy and Varl set out from the Base to chase the lead into a nearby Old World facility.",
     aiTip:
-      "Cauldrons end in a boss machine — clearing them expands your override roster.",
+      "Story-gated: other quests pause until this is done. Examine the fallen Zenith's body to unlock a key datapoint before you descend.",
+    walkthrough: [
+      "Speak with Varl at the Base's western exit and choose to set out.",
+      "Examine the fallen Zenith's body to unlock the datapoint.",
+      "Descend into the facility and clear its machines.",
+      "Follow the ELEUTHIA lead to continue the main story."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
   },
 {
     id: 666,
-    type: "main",
+    type: "side",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "The Second Verse",
-    location: "The Base",
-    length: "long",
-    difficulty: "High",
-    reward: "GAIA restoration progresses",
+    location: "The Base, Clan Lands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Zo's bond deepened, Skill Point, XP",
     summary:
-      "Aloy pushes to reunite GAIA's functions as the Zeniths' countdown accelerates.",
+      "Zo asks Aloy to recover Control Cores so the Utaru can restore the machines, their 'gods', that tend the failing song-fields around the Base.",
     aiTip:
-      "Upgrade your best weapons before this stretch — the fights escalate sharply.",
+      "Zo's personal quest, hunt the Control Cores from the specified machines and bring them back to reactivate the song-field guardians.",
+    walkthrough: [
+      "Speak with Zo at the Base to learn the song-fields' machines have gone dormant.",
+      "Track down the machines that carry the Control Cores she needs.",
+      "Harvest the Control Cores and return them to Zo.",
+      "Restore the Utaru's machine 'gods' to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Second%20Verse%20walkthrough"
   },
 {
@@ -11047,30 +11236,42 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "All That Remains",
-    location: "Zenith Stronghold",
+    location: "The Base, Clan Lands",
     length: "long",
     difficulty: "High",
-    reward: "Pre-finale, allies rally",
+    reward: "Allies rallied, Skill Points, XP",
     summary:
-      "The team makes its final preparations before the assault on the Zeniths.",
+      "In the aftermath of Cauldron: Gemini, Aloy and her allies regroup at the Base and make their final preparations before striking at the Zeniths.",
     aiTip:
-      "Finish side quests and errands now — the finale is close after this.",
+      "Wrap up outstanding side quests and errands now, the finale (Singularity) begins soon after this chapter.",
+    walkthrough: [
+      "Return to the Base after Gemini and check in with each of your allies.",
+      "Take part in the team's planning for the assault on the Zeniths.",
+      "Finish any remaining side quests and errands while you can.",
+      "Complete the chapter to set up the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
   },
 {
     id: 668,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "The Daunt",
+    region: "The Sea of Sands",
     title: "The Deluge",
-    location: "The Daunt",
+    location: "Scalding Spear, Sea of Sands",
     length: "medium",
     difficulty: "Medium",
-    reward: "Water source restored, settlement saved",
+    reward: "Survivors rescued, Skill Point, XP",
     summary:
-      "Restore a failing Old World water system before the Daunt's settlements run dry.",
+      "A severe storm triggers a mudslide that tears through Scalding Spear. A face-painter's apprentice begs Aloy to help rescue survivors and tend the wounded.",
     aiTip:
-      "An Old World facility puzzle — use the Pullcaster and scan for power routes.",
+      "A rescue-focused quest, search the wreckage quickly and follow the cries for help; combat is light.",
+    walkthrough: [
+      "Speak with the face-painter's apprentice at Scalding Spear after the mudslide.",
+      "Search the storm-ravaged village for trapped survivors.",
+      "Pull people from the wreckage and tend to the wounded.",
+      "See the rescue through to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Deluge%20walkthrough"
   },
 {
@@ -11079,14 +11280,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Sea of Sands",
     title: "Lofty Ambitions",
-    location: "Scalding Spear",
+    location: "Hidden Ember (Las Vegas ruins), Sea of Sands",
     length: "medium",
     difficulty: "Medium",
-    reward: "Desert Clan aid, gear",
+    reward: "Desert Clan aid, gear, XP",
     summary:
-      "Help a Desert Clan inventor test a daring flying contraption over the dunes.",
+      "Back at Hidden Ember in the Las Vegas ruins, the delver Morlund shows Aloy his latest invention, an airborne contraption of elevated spheres inspired by Banuk ritual craft.",
     aiTip:
-      "A charming quest with a memorable set piece — light on combat.",
+      "A charming, low-combat quest built around Morlund's flying-machine test, help gather and rig the parts.",
+    walkthrough: [
+      "Return to Morlund and the delving crew at Hidden Ember in the Las Vegas ruins.",
+      "Hear out his idea for an airborne contraption of elevated spheres.",
+      "Help gather and rig the parts for the test.",
+      "See the flying experiment through to its finish."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Lofty%20Ambitions%20walkthrough"
   },
 {
@@ -11103,6 +11310,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate why the Utaru's machine-tended song-fields are failing.",
     aiTip:
       "Scan the affected machines to trace the fault to its source.",
+    walkthrough: [
+      "Go to Plainsong and investigate the failing song-fields.",
+      "Scan the machines tending the fields to find the fault.",
+      "Trace the problem to its source.",
+      "Fix the cause to restore the fields."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Roots%20that%20Bind%20walkthrough"
   },
 {
@@ -11111,30 +11324,42 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "First to Fly",
-    location: "Memorial Grove",
+    location: "The Bulwark, Clan Lands",
     length: "medium",
     difficulty: "Medium",
-    reward: "Companion arc, gear",
+    reward: "Ferikka's armour recovered, Skill Point, XP",
     summary:
-      "A personal quest for one of Aloy's allies chasing a lifelong dream of flight.",
+      "A Sky Clan soldier, Ferikka, was snatched by a Stormbird and killed on a distant peak. Kettah and Serivva at The Bulwark ask Aloy to recover her armour from the crash site.",
     aiTip:
-      "A character-focused quest that deepens a key companion bond.",
+      "You need a flying mount (unlocked in The Wings of the Ten) to reach the mountaintop north of The Bulwark.",
+    walkthrough: [
+      "Speak with Kettah and Serivva at The Bulwark about Ferikka.",
+      "Unlock a flying mount via The Wings of the Ten if you haven't already.",
+      "Fly to the mountaintop north of The Bulwark where Ferikka crashed.",
+      "Recover her armour and return it to complete the errand."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20First%20to%20Fly%20walkthrough"
   },
 {
     id: 672,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "The Sea of Sands",
+    region: "The Daunt",
     title: "Signals of the Sun",
-    location: "Cinnabar Sands",
+    location: "North of Barren Light, The Daunt",
     length: "medium",
     difficulty: "Medium",
-    reward: "Sun-worship mystery, reward",
+    reward: "Watchtower saved, Skill Point, XP",
     summary:
-      "Follow strange signals tied to the Sun-worshipping remnants of the old Carja.",
+      "North of Barren Light, Aloy finds a wounded soldier dragging a comrade, a machine assault has overrun a nearby Carja watchtower, and they need help driving it back.",
     aiTip:
-      "Lore-rich — the datapoints connect the Forbidden West to Aloy's homeland.",
+      "The Errand starts by interacting with the soldier dragging a body just north of Barren Light; then clear the machines besieging the watchtower.",
+    walkthrough: [
+      "Interact with the soldier dragging a body just north of Barren Light.",
+      "Follow the trail to the Carja watchtower under machine attack.",
+      "Clear the machines besieging the tower.",
+      "Secure the watchtower to complete the errand."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signals%20of%20the%20Sun%20walkthrough"
   },
 {
@@ -11142,16 +11367,22 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "side",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
-    title: "The Bad Blood",
-    location: "Thornmarsh",
+    title: "Supply Drop",
+    location: "Memorial Grove, Clan Lands",
     length: "medium",
-    difficulty: "High",
-    reward: "Tenakth grudge settled, gear",
+    difficulty: "Medium",
+    reward: "Supplies recovered, Skill Point, XP",
     summary:
-      "Mediate a violent grudge between Tenakth clans before it erupts into open war.",
+      "Aloy finds the Tenakth warrior Vetteh fighting off machines: he and Littay were hauling supplies from Salt Bite to Memorial Grove when an attack forced them to abandon the load.",
     aiTip:
-      "Hear both sides out — the resolution hinges on your judgment.",
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Bad%20Blood%20walkthrough"
+      "Follow the trail of dropped supply boxes to find Littay, then help finish off the Burrowers, Spikesnouts and a Clawstrider that ambush you.",
+    walkthrough: [
+      "Help Vetteh fend off the machine attacking him north of the Desert Clan's territory.",
+      "Follow the trail of abandoned supply boxes from the campsite.",
+      "Find Littay and clear the Burrowers and Spikesnouts around the sled.",
+      "Finish off the ambushing Clawstrider to recover the supplies."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Supply%20Drop%20walkthrough"
   },
 {
     id: 674,
@@ -11159,14 +11390,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "Drowned Hopes",
-    location: "No Man's Land",
+    location: "Carja Camp, No Man's Land",
     length: "medium",
     difficulty: "Medium",
-    reward: "Diving reward, salvage",
+    reward: "Relics recovered, salvage, XP",
     summary:
-      "Dive into flooded ruins to recover something precious lost beneath the water.",
+      "Two Carja scholars, Gendas and Rushavid, have come to No Man's Land chasing rumours of a lake full of Old World relics. Aloy helps them recover what lies beneath.",
     aiTip:
-      "Upgrade the diving mask first — deeper sections need the breath extension.",
+      "You can start it at the Carja Camp, but you'll need the Diving Mask (from the Sea of Sands) to reach the sunken relics.",
+    walkthrough: [
+      "Speak with the scholars Gendas and Rushavid at the Carja Camp in No Man's Land.",
+      "Return once you have the Diving Mask from the Sea of Sands.",
+      "Dive the relic lake and recover the sunken Old World finds.",
+      "Bring the relics back to the scholars to complete the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Drowned%20Hopes%20walkthrough"
   },
 {
@@ -11175,14 +11412,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "The Way Home",
-    location: "The Base",
+    location: "Old World shipwreck (requires Sunwing)",
     length: "short",
     difficulty: "Low",
-    reward: "Companion closure, base upgrade",
+    reward: "Gyrocompass recovered, Skill Point, XP",
     summary:
-      "A quiet quest helping an ally find belonging among Aloy's growing found-family.",
+      "Aloy is asked to retrieve a working Gyrocompass from the wreck of an Old World ship, a salvage only reachable from the air on a Sunwing.",
     aiTip:
-      "A gentle character beat — a nice breather between major missions.",
+      "Requires a Sunwing flying mount to reach the wreck; dive in and grab the Gyrocompass from the ship's remains.",
+    walkthrough: [
+      "Accept the request to recover a working Gyrocompass.",
+      "Mount a Sunwing to reach the Old World shipwreck.",
+      "Search the wreck and retrieve the Gyrocompass.",
+      "Return it to finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Way%20Home%20walkthrough"
   },
 {
@@ -24505,5 +24748,353 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the Giga Boss.",
       "Claim the Yggdrasil Crown and Reeve."
     ]
+  },
+  {
+    id: 1372,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "The Embassy",
+    location: "Barren Light, The Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Passage west, 2 Skill Points, ~6000 XP",
+    summary: "After proving herself at Barren Light, Aloy is escorted to the Tenakth Embassy to petition the tribe's marshals for passage west in search of GAIA.",
+    aiTip: "A story- and dialogue-heavy chapter — the marshals test Aloy's motives, so this sets up the Clan Lands. Sell surplus resources at Barren Light before you leave.",
+    walkthrough: [
+      "Complete The Point of the Lance to earn your escort to the Embassy.",
+      "Travel with the Tenakth to the Embassy and meet the three clan marshals.",
+      "Present Aloy's case for passage into the Clan Lands through the dialogue choices.",
+      "Follow the fallout of the meeting to open the road west."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Embassy%20walkthrough"
+  },
+  {
+    id: 1373,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Eye of the Earth",
+    location: "The Greenswell, Clan Lands",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Diving Mask upgrade, GAIA sub-function progress, Skill Points, XP",
+    summary: "Aloy delves into an Old World facility beneath the Clan Lands to recover a critical piece of the GAIA system and learn the truth behind the biosphere's failure.",
+    aiTip: "An Old World dungeon full of Pullcaster and diving puzzles — scan for power routes and submerged passages. A pivotal story reveal follows.",
+    walkthrough: [
+      "Follow the main story into the Old World facility in the Greenswell.",
+      "Use the Pullcaster and Focus to solve the power-routing and traversal puzzles.",
+      "Dive through the flooded chambers to reach the core.",
+      "Recover the GAIA data and absorb the reveal that reshapes the mission."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Eye%20of%20the%20Earth%20walkthrough"
+  },
+  {
+    id: 1374,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "Deep Trouble",
+    location: "Crimson Narrows, The Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Oseram gear, Skill Point, XP, Metal Shards",
+    summary: "Miners are trapped after a collapse in the Crimson Narrows mine in the Daunt. Aloy ventures into the flooded shafts to free them and uncover what triggered the cave-in.",
+    aiTip: "Bring the Pullcaster for blocked passages and watch for corrupted machines lurking in the dark. Scan for structural weak points to open routes.",
+    walkthrough: [
+      "Speak with the Oseram at the Crimson Narrows mine entrance in the Daunt.",
+      "Descend into the collapsed shafts, using the Pullcaster to clear debris.",
+      "Fight through the machines nesting in the flooded tunnels.",
+      "Free the trapped miners and expose the cause of the collapse."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Deep%20Trouble%20walkthrough"
+  },
+  {
+    id: 1375,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "Breaking Even",
+    location: "Camp Nowhere / Spinebreak, The Daunt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Salvaged loot, Skill Point, XP",
+    summary: "Porguf and his stranded crew at Camp Nowhere need help recovering their fortune from the wreck at Spinebreak before rivals beat them to it.",
+    aiTip: "Explore Spinebreak thoroughly and read the datapoints — the payout hinges on how you handle Porguf's shady crew at the end.",
+    walkthrough: [
+      "Talk to Porguf at Camp Nowhere to learn his crew is stranded.",
+      "Travel to the Spinebreak wreck and explore it for the lost cargo.",
+      "Deal with the machines and hazards guarding the salvage.",
+      "Return to Porguf and decide how to settle the score."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Breaking%20Even%20walkthrough"
+  },
+  {
+    id: 1376,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "Need to Know",
+    location: "Barren Light, The Daunt",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ally relationship, Skill Point, XP",
+    summary: "A soldier at Barren Light asks Aloy to quietly recover sensitive information before it falls into the wrong hands, revealing tension within the Tenakth ranks.",
+    aiTip: "A short, stealth-friendly errand — use tall grass and your Focus to track the target without raising the alarm.",
+    walkthrough: [
+      "Accept the request from the soldier at Barren Light.",
+      "Track down the source of the sensitive information using your Focus.",
+      "Retrieve it discreetly, avoiding unnecessary conflict.",
+      "Report back and see how the tension among the Tenakth resolves."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Need%20to%20Know%20walkthrough"
+  },
+  {
+    id: 1377,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "A Hunt to Remember",
+    location: "The Clan Lands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tenakth gear, Skill Point, XP",
+    summary: "A Sky Clan soldier enlists Aloy to hunt down the machines that have been picking off Tenakth patrols, turning a grim duty into a proving hunt.",
+    aiTip: "Study each machine's weak components and bring matched elemental ammo — the hunt escalates to tougher targets.",
+    walkthrough: [
+      "Meet the Sky Clan soldier who reports machines attacking Tenakth patrols.",
+      "Track the offending machines across the Clan Lands with your Focus.",
+      "Take them down using their weak points and elemental weaknesses.",
+      "Return to the soldier to complete the hunt."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20to%20Remember%20walkthrough"
+  },
+{
+    id: 1378,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "A Dash of Courage",
+    location: "Chainscrape tavern (Milduf)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Recipe unlock, Skill Point, XP",
+    summary:
+      "Milduf, a cook in the Chainscrape tavern, is too nervous to gather the ingredients and gear his kitchen needs, so Aloy heads out to collect them for him.",
+    aiTip:
+      "A gentle early-game fetch errand, grab the marked items while clearing nearby machines for parts.",
+    walkthrough: [
+      "Talk to Milduf, the nervous cook in the Chainscrape tavern.",
+      "Travel to the marked spots to gather the ingredients and equipment.",
+      "Clear any machines guarding the gathering sites.",
+      "Deliver everything to Milduf to complete the errand."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Dash%20of%20Courage%20walkthrough"
+  },
+{
+    id: 1379,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Daunt",
+    title: "A Bigger Boom",
+    location: "Chainscrape (Delah)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Oseram explosive gear, Skill Point, XP",
+    summary:
+      "Delah, a tinker in Chainscrape, wants Aloy to harvest specific machine parts so she can build a bigger, more powerful explosive.",
+    aiTip:
+      "Delah is by the road in southwest Chainscrape. Tear off the exact components she asks for from the target machines.",
+    walkthrough: [
+      "Speak with Delah, the tinker in southwest Chainscrape.",
+      "Note the machine components she needs for her explosive.",
+      "Hunt the machines and tear off the exact parts.",
+      "Return the parts to Delah to claim the upgraded gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Bigger%20Boom%20walkthrough"
+  },
+{
+    id: 1380,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "The Enduring",
+    location: "Melee Pits (multiple regions)",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Melee mastery, Skill Point, XP",
+    summary:
+      "Clear the Melee Pit challenges across the West to earn the Clan Marks that let Aloy seek out and challenge The Enduring, a legendary Tenakth warrior.",
+    aiTip:
+      "Beat the Melee Pit Challenges at Chainscrape, Scalding Spear, The Bulwark and Thornmarsh to collect the Clan Marks needed to face The Enduring.",
+    walkthrough: [
+      "Complete the Melee Pit Challenges at Chainscrape, Scalding Spear, The Bulwark and Thornmarsh.",
+      "Collect the Clan Mark awarded by each pit.",
+      "Present the Clan Marks to gain an audience with The Enduring.",
+      "Defeat The Enduring to complete the errand."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Enduring%20walkthrough"
+  },
+{
+    id: 1381,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Sea of Sands",
+    title: "Thirst for the Hunt",
+    location: "Arrowhand (Drakka)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Desert Clan aid, Skill Point, XP",
+    summary:
+      "At the Desert Tenakth village of Arrowhand, chief Drakka's people are wounded and short of water after a Thunderjaw scattered their penned machine herd. He asks Aloy to help harvest the herd for machine hearts to trade.",
+    aiTip:
+      "Level ~17 recommended. Accompany Drakka and take down the penned machines carefully, the situation turns dangerous fast.",
+    walkthrough: [
+      "Travel to Arrowhand and speak with the village leader Drakka.",
+      "Learn the village needs machine hearts to trade for water after a Thunderjaw attack.",
+      "Accompany Drakka and harvest the penned machine herd for their hearts.",
+      "See the risky hunt through to help the village."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Thirst%20for%20the%20Hunt%20walkthrough"
+  },
+  {
+    id: 1382,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Vista Points",
+    location: "Multiple regions, Forbidden West",
+    length: "short",
+    difficulty: "Low",
+    reward: "Old World lore, Trophy progress, XP",
+    summary: "Find the nine holographic Vista Points scattered across the West and align each one to reveal a window into the world as it was before the Old Ones fell.",
+    aiTip: "Stand on the marked spot and rotate until the holographic image lines up with the landscape — the datapoint unlocks once it snaps into place.",
+    walkthrough: [
+      "Travel to a Vista Point marker on your map.",
+      "Move to the projection spot and align the hologram with the terrain.",
+      "Hold position until the Old World image resolves and logs the datapoint.",
+      "Repeat for all nine Vista Points across the regions."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Vista%20Points%20walkthrough"
+  },
+  {
+    id: 1383,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Black Boxes",
+    location: "Multiple regions, Forbidden West",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Faro-era lore, Trophy, XP",
+    summary: "Recover the twelve Faro Automated Solutions black boxes hidden across the Forbidden West to piece together the final days before the Faro Plague.",
+    aiTip: "Most sit inside Old World wreck sites — scan with your Focus to pinpoint the exact debris pile. Collecting all twelve unlocks a trophy.",
+    walkthrough: [
+      "Head to a marked black box location, usually an Old World crash site.",
+      "Scan the area with your Focus to locate the exact box.",
+      "Collect it to unlock its datapoint.",
+      "Gather all twelve to complete the set and its trophy."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Black%20Boxes%20walkthrough"
+  },
+  {
+    id: 1384,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Signal Lenses",
+    location: "Multiple regions, Forbidden West",
+    length: "short",
+    difficulty: "Low",
+    reward: "Resources, Trophy progress, XP",
+    summary: "Track down the six Signal Lenses hidden atop hard-to-reach vantage points across the West for their rewards and collection credit.",
+    aiTip: "They favour high ledges and towers — use the Pullcaster and climb points to reach them, scanning for the glint from below.",
+    walkthrough: [
+      "Travel to a Signal Lens marker on the map.",
+      "Find the climb route up to its elevated perch.",
+      "Grab the lens to log the collectible.",
+      "Collect all six to complete the set."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signal%20Lenses%20walkthrough"
+  },
+  {
+    id: 1385,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Survey Drones",
+    location: "Multiple regions, Forbidden West",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare resources, Trophy, XP",
+    summary: "Hunt the ten elusive Survey Drones that patrol the skies of the Forbidden West before they flee, each dropping valuable rewards.",
+    aiTip: "They bolt the moment they spot you — hit them fast with a long-range shot or catch them with an elemental trap before they escape.",
+    walkthrough: [
+      "Locate a Survey Drone at its marked patrol area.",
+      "Approach from cover so it doesn't flee early.",
+      "Down it quickly with a strong ranged shot before it escapes.",
+      "Collect its drop and repeat for all ten drones."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Survey%20Drones%20walkthrough"
+  },
+  {
+    id: 1386,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Ornaments",
+    location: "Multiple regions, Forbidden West",
+    length: "short",
+    difficulty: "Low",
+    reward: "Base decorations, XP",
+    summary: "Collect the nine decorative Ornaments hidden around the West to personalise Aloy's quarters at the Base.",
+    aiTip: "They're tucked in settlements and ruins — scan interiors with your Focus. Each one you find can be displayed back at the Base.",
+    walkthrough: [
+      "Travel to a marked Ornament location.",
+      "Search the settlement or ruin, scanning with your Focus.",
+      "Pick up the ornament to add it to your collection.",
+      "Return to the Base to display the ornaments you've gathered."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Ornaments%20walkthrough"
+  },
+  {
+    id: 1387,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "War Totems",
+    location: "Multiple regions, Forbidden West",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore, Trophy progress, XP",
+    summary: "Find the three Tenakth War Totems raised across the Forbidden West, each honouring a clan's warriors and its history.",
+    aiTip: "They stand at prominent clan sites — approach and interact to log the totem's story datapoint.",
+    walkthrough: [
+      "Travel to a War Totem marker on your map.",
+      "Approach the totem at its clan site.",
+      "Interact with it to record its history.",
+      "Visit all three to complete the set."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20War%20Totems%20walkthrough"
+  },
+  {
+    id: 1388,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "The Clan Lands",
+    title: "Greenshine Slabs",
+    location: "Multiple regions, Forbidden West",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Greenshine for upgrades, XP",
+    summary: "Seek out the hidden Greenshine Slab caches across the West to gather the rare Greenshine needed for the game's best weapon and armour upgrades.",
+    aiTip: "Greenshine caches are often guarded or tucked in Relic Ruins — scan for the tell-tale green glow. Stockpile it for late-game upgrade tiers.",
+    walkthrough: [
+      "Track down a Greenshine cache at its marked location.",
+      "Clear any machines or puzzles guarding it.",
+      "Harvest the Greenshine Slab.",
+      "Bank the Greenshine toward your highest-tier gear upgrades."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Greenshine%20Slabs%20walkthrough"
   }
 ];
