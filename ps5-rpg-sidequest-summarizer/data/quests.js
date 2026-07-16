@@ -93,6 +93,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0a0510 0%, #b45309 45%, #f59e0b 100%)",
     abbr: "JS",
     cover: "images/jedi-survivor-cover.jpg"
+  },
+  "The Elder Scrolls V: Skyrim": {
+    gradient: "linear-gradient(135deg, #0a1620 0%, #2c5c6e 50%, #a9d6e5 100%)",
+    abbr: "TES5",
+    cover: "images/skyrim.svg"
   }
 };
 
@@ -390,7 +395,24 @@ const subFilterConfig = {
         { value: "All Planets", text: "All Planets" }
       ]
     }
-  ]
+  ],
+  "The Elder Scrolls V: Skyrim": {
+    field: "category",
+    label: "Questline",
+    options: [
+      { value: "Main Quest", text: "Main Quest" },
+      { value: "Main Quest (Optional)", text: "Main Quest (Optional)" },
+      { value: "The Companions", text: "The Companions" },
+      { value: "Thieves Guild", text: "Thieves Guild" },
+      { value: "Dark Brotherhood", text: "Dark Brotherhood" },
+      { value: "College of Winterhold", text: "College of Winterhold" },
+      { value: "Civil War - Imperial Legion", text: "Civil War – Imperial Legion" },
+      { value: "Civil War - Stormcloaks", text: "Civil War – Stormcloaks" },
+      { value: "Daedric Quests", text: "Daedric Quests" },
+      { value: "Bards College & Divine Quests", text: "Bards College & Divine Quests" },
+      { value: "Side & Dungeon Quests", text: "Side & Dungeon Quests" }
+    ]
+  }
 };
 
 const quests = [
@@ -25096,5 +25118,2851 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bank the Greenshine toward your highest-tier gear upgrades."
     ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Greenshine%20Slabs%20walkthrough"
+  },
+  {
+    id: 1389,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Unbound",
+    location: "Helgen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Escape from Helgen, early gear",
+    summary: "Alduin's attack on Helgen serves as the game's tutorial, teaching movement, combat, and stealth as you flee the burning town.",
+    aiTip: "Choose either Ralof or Hadvar to follow — it only affects the tutorial path and your early allegiance flavor, not your long-term choices.",
+    walkthrough: [
+      "Wake up in the cart entering Helgen and witness the execution scene.",
+      "When Alduin attacks, flee toward the keep with either Ralof (Stormcloak) or Hadvar (Imperial).",
+      "Loot gear from the fallen and fight through the keep's soldiers.",
+      "Work down through the dungeon and torture room, then into the caves.",
+      "Cross the underground stream and defeat the frostbite spiders and cave bear (or sneak past).",
+      "Exit into the wilderness and follow your companion toward Riverwood."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Unbound%20walkthrough"
+  },
+  {
+    id: 1390,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Before the Storm",
+    location: "Riverwood / Whiterun",
+    length: "short",
+    difficulty: "Low",
+    reward: "Access to Whiterun, bounty gold",
+    summary: "Warn Whiterun of the dragon threat and earn the Jarl's trust, opening up the city and its services.",
+    aiTip: "Speak to Gerdur or Alvor in Riverwood first for free supplies before heading to Dragonsreach.",
+    walkthrough: [
+      "Follow Ralof or Hadvar from Helgen to Riverwood.",
+      "Speak with Gerdur or Alvor for supplies and rest.",
+      "Travel to Whiterun and pass through the front gate after speaking to the guard.",
+      "Head up to Dragonsreach and report the dragon attack to Jarl Balgruuf.",
+      "Agree to help and speak with the court wizard Farengar.",
+      "Accept the task to retrieve the Dragonstone from Bleak Falls Barrow."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Before%20the%20Storm%20walkthrough"
+  },
+  {
+    id: 1391,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Bleak Falls Barrow",
+    location: "Bleak Falls Barrow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Golden Claw, first word of Unrelenting Force",
+    summary: "Retrieve the Dragonstone for Farengar, delving into a draugr-filled barrow and learning your first Shout word.",
+    aiTip: "Solve the pillar puzzle by matching the animals carved above the door; the combination is on the back of the Golden Claw.",
+    walkthrough: [
+      "Travel to Bleak Falls Barrow above Riverwood.",
+      "Fight through the bandits guarding the entrance and interior.",
+      "Solve the first pillar puzzle using the carvings above the gate (snake, snake, whale).",
+      "Retrieve the Golden Claw and continue past the draugr and spider webs.",
+      "Use the claw on the circular door, matching bear-moth-owl from the claw's palm.",
+      "Read the word wall for Unrelenting Force, take the Dragonstone, and return to Farengar."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bleak%20Falls%20Barrow%20walkthrough"
+  },
+  {
+    id: 1392,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dragon Rising",
+    location: "Whiterun / Western Watchtower",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Thane of Whiterun, Dragonborn revealed",
+    summary: "Slay your first dragon at the Western Watchtower and absorb its soul, revealing your identity as Dragonborn.",
+    aiTip: "Use the tower for cover and let the Whiterun guards tank the dragon while you pepper it with ranged attacks.",
+    walkthrough: [
+      "Report to Jarl Balgruuf after delivering the Dragonstone.",
+      "Head to the Western Watchtower with Irileth and the guards.",
+      "Take cover as the dragon Mirmulnir attacks the tower.",
+      "Attack with ranged and melee while the guards draw its attention.",
+      "Kill the dragon and absorb its soul, revealing you as Dragonborn.",
+      "Return to Dragonsreach; the Greybeards will summon you with a Shout."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragon%20Rising%20walkthrough"
+  },
+  {
+    id: 1393,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Way of the Voice",
+    location: "High Hrothgar",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Whirlwind Sprint Shout, Greybeard training",
+    summary: "Answer the Greybeards' summons and climb 7,000 Steps to High Hrothgar to begin your training in the Voice.",
+    aiTip: "Grab the Notes on the way up the 7,000 Steps for lore and a small XP boost; the climb is safe if you stick to the path.",
+    walkthrough: [
+      "Travel to Ivarstead at the foot of the Throat of the World.",
+      "Climb the 7,000 Steps to High Hrothgar, optionally reading the wayshrine tablets.",
+      "Enter High Hrothgar and meet Arngeir and the Greybeards.",
+      "Demonstrate Unrelenting Force as instructed.",
+      "Learn Whirlwind Sprint and complete the training courtyard trials.",
+      "Accept the task to retrieve the Horn of Jurgen Windcaller."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Way%20of%20the%20Voice%20walkthrough"
+  },
+  {
+    id: 1394,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A Blade in the Dark",
+    location: "Kynesgrove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Confirmation as Dragonborn, Delphine ally",
+    summary: "Travel with Delphine to Kynesgrove to witness Alduin resurrecting a dragon, proving her theory about the dragon menace.",
+    aiTip: "Let Delphine engage first; loot the dragon skeleton area after the fight for the reanimated dragon's soul and bones.",
+    walkthrough: [
+      "Travel to Riverwood and speak with Delphine at the Sleeping Giant Inn after clearing Bleak Falls Barrow.",
+      "Agree to help her investigate the dragon burial site.",
+      "Travel to Kynesgrove and speak with the guard about the dragon mound.",
+      "Watch the dragon Sahloknir reanimate a dead dragon from the burial mound.",
+      "Defeat the dragon and absorb its soul, confirming to Delphine you are Dragonborn.",
+      "Follow Delphine back toward Riverwood to continue the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Blade%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 1395,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Diplomatic Immunity",
+    location: "Thalmor Embassy, Solitude",
+    length: "long",
+    difficulty: "High",
+    reward: "Thalmor dossier, Esbern's location",
+    summary: "Infiltrate a Thalmor party in disguise to uncover what the Aldmeri Dominion knows about the dragons' return.",
+    aiTip: "Stash your gear in the chest before the party — you'll retrieve it inside. Create a distraction, then slip away to the back rooms.",
+    walkthrough: [
+      "Meet Delphine in Riverwood; she reveals the Thalmor are hunting Dragonborn activity.",
+      "Travel to Solitude and obtain an invitation to the Thalmor Embassy party (via Malborn in the Winking Skeever).",
+      "Attend the embassy party and mingle to distract guests, or disguise yourself as a server.",
+      "Sneak away from the party into the restricted wing of the Embassy.",
+      "Search Ambassador Elenwen's office and the interrogation cells for documents on Esbern.",
+      "Escape the Embassy grounds through the tunnel with Malborn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20walkthrough"
+  },
+  {
+    id: 1396,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Alduin's Wall",
+    location: "Sky Haven Temple, Karthspire",
+    length: "long",
+    difficulty: "High",
+    reward: "Alduin's Wall lore, Dragonrend clue",
+    summary: "Escort Delphine and Esbern to Sky Haven Temple to read Alduin's Wall and learn how the ancients fought the World-Eater.",
+    aiTip: "Clear the Forsworn at Karthspire first; the blood seal door requires standing on it as a Blade to open.",
+    walkthrough: [
+      "Travel to Riverwood and locate Esbern hiding in the Ratway beneath Riften (may require Thieves Guild access).",
+      "Escort Esbern safely back to Riverwood, fighting off any assassins along the way.",
+      "Travel with Esbern and Delphine to Sky Haven Temple in the Karth River valley.",
+      "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
+      "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alduin%27s%20Wall%20walkthrough"
+  },
+  {
+    id: 1397,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Throat of the World",
+    location: "Throat of the World",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Meeting Paarthurnax, Dragonrend hint",
+    summary: "Return to the summit to meet Paarthurnax and learn that Dragonrend must be recovered from an Elder Scroll and the past.",
+    aiTip: "Paarthurnax is friendly — hear him out fully before rushing off; his dialogue sets up the Elder Scroll hunt.",
+    walkthrough: [
+      "Travel to High Hrothgar and speak with the Greybeards.",
+      "Meet Paarthurnax atop the Throat of the World and learn of his history.",
+      "Discuss the plan to lure and trap Alduin using the Dragonrend shout.",
+      "Learn that an Elder Scroll is required to learn Dragonrend from the past."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Throat%20of%20the%20World%20walkthrough"
+  },
+  {
+    id: 1398,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Elder Knowledge",
+    location: "Winterhold / Blackreach",
+    length: "long",
+    difficulty: "High",
+    reward: "Elder Scroll, Blackreach access",
+    summary: "Seek the Elder Scroll needed to read the Time-Wound, venturing into the College of Winterhold and deep into Blackreach.",
+    aiTip: "Blackreach is huge and full of Falmer — travel light, use the Attunement Sphere, and mark the elevator exits for fast travel later.",
+    walkthrough: [
+      "Choose a faction (Thieves Guild via Mercer Frey, College of Winterhold via Urag gro-Shub, or Dawnguard) to help locate an Elder Scroll.",
+      "Complete the associated retrieval quest for that faction (e.g., Discerning the Transmundane for the College route).",
+      "Bring the Elder Scroll back to Sky Haven Temple.",
+      "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Elder%20Knowledge%20walkthrough"
+  },
+  {
+    id: 1399,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fallen",
+    location: "Throat of the World",
+    length: "medium",
+    difficulty: "High",
+    reward: "Learn Dragonrend, dragon trap begins",
+    summary: "Read the Elder Scroll at the Time-Wound to witness the ancient heroes and learn Dragonrend, then confront Alduin.",
+    aiTip: "Save before reading the Scroll; you'll fight Alduin immediately after and want full health and stamina.",
+    walkthrough: [
+      "With Dragonrend learned, return to the Greybeards and prepare to lure Alduin.",
+      "Travel to the Throat of the World and use a Horn of Jurgen Windcaller to summon Alduin.",
+      "Use Dragonrend to force Alduin to land and fight him.",
+      "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20walkthrough"
+  },
+  {
+    id: 1400,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Overlord's Legacy / Season Unending",
+    location: "Dragonsreach / High Hrothgar",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Odahviing trap setup, peace council",
+    summary: "Hatch a plan to trap a dragon in Dragonsreach to interrogate it, which may require brokering a Civil War truce first.",
+    aiTip: "If the war is unresolved, Season Unending forces a peace council — you can extort extra holds through careful negotiation.",
+    walkthrough: [
+      "Speak with the Jarl of Whiterun (Balgruuf) about brokering a ceasefire between Empire and Stormcloaks.",
+      "Travel to High Hrothgar and ask the Greybeards to summon both Ulfric Stormcloak and General Tullius.",
+      "Attend the parley and successfully negotiate a temporary truce.",
+      "This quest is optional — completing the Civil War questline instead skips this step."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Overlord%27s%20Legacy%20/%20Season%20Unending%20walkthrough"
+  },
+  {
+    id: 1401,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The World-Eater's Eyrie",
+    location: "Skuldafn",
+    length: "long",
+    difficulty: "High",
+    reward: "Portal to Sovngarde, dragon priest mask",
+    summary: "Ride Odahviing to Skuldafn, fight through Alduin's stronghold, and open the portal to the realm of Sovngarde.",
+    aiTip: "Nahkriin, the dragon priest at the top, drops a unique mask and the staff needed to open the portal — don't leave without them.",
+    walkthrough: [
+      "Have Odahviing fly you to Skuldafn temple atop the mountains.",
+      "Fight through Skuldafn's Draugr and traps to reach the portal chamber.",
+      "Activate the portal to Sovngarde."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20World-Eater%27s%20Eyrie%20walkthrough"
+  },
+  {
+    id: 1402,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sovngarde",
+    location: "Sovngarde",
+    length: "medium",
+    difficulty: "High",
+    reward: "Reunion with heroes, final battle setup",
+    summary: "Enter the Nord afterlife to clear Alduin's soul-snare mist and rally the ancient heroes for the final confrontation.",
+    aiTip: "Use Clear Skies to part the mist in stages; the three heroes at the Hall of Valor will join your final Shout against Alduin.",
+    walkthrough: [
+      "Explore the Sovngarde afterlife realm shrouded in mist.",
+      "Meet the shade of Tsun, guardian of the Whalebone Bridge, and pass his trial of combat or words.",
+      "Cross into Sovngarde proper and meet legendary heroes including Gormlaith, Felldir, and Hakon.",
+      "Learn the final word of the Dragonrend-countering shout needed to strip Alduin's immortality."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sovngarde%20walkthrough"
+  },
+  {
+    id: 1403,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dragonslayer",
+    location: "Sovngarde",
+    length: "medium",
+    difficulty: "High",
+    reward: "Defeat Alduin, main quest complete",
+    summary: "Join the ancient Nord heroes to defeat Alduin once and for all in the climactic battle of the main story.",
+    aiTip: "Keep Dragonrend up to ground Alduin and stack Shouts with the heroes; heal aggressively as his health drops.",
+    walkthrough: [
+      "Locate Alduin within Sovngarde alongside the ancient heroes.",
+      "Use the combined shout to strip away the mist protecting Alduin.",
+      "Engage Alduin in the final battle alongside Gormlaith, Felldir, and Hakon.",
+      "Defeat Alduin, absorb his soul, and complete the main questline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragonslayer%20walkthrough"
+  },
+  {
+    id: 1404,
+    type: "main",
+    category: "Main Quest (Optional)",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fallen (Paarthurnax's request)",
+    location: "Throat of the World",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Blades allegiance choice",
+    summary: "An optional but pivotal choice: the Blades demand you kill Paarthurnax to continue working with them.",
+    aiTip: "Sparing Paarthurnax costs you Blades support but is the lore-friendly and morally cleaner path — decide based on whether you need Blades services.",
+    walkthrough: [
+      "Optional developments involving the Blades and Paarthurnax occur post-main-quest; consult Delphine and Esbern for the associated confrontation choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20%28Paarthurnax%27s%20request%29%20walkthrough"
+  },
+  {
+    id: 1405,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Take Up Arms",
+    location: "Jorrvaskr, Whiterun",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companions membership",
+    summary: "Prove yourself to Kodlak Whitemane and join the Companions, Skyrim's honorable warrior guild.",
+    aiTip: "Do the sparring match with Vilkas without using magic or shouts — melee only, or he'll stop the test.",
+    walkthrough: [
+      "Travel to Jorrvaskr, the Companions' mead hall in Whiterun.",
+      "Speak with Kodlak Whitemane about joining the Companions.",
+      "Accept the sparring test and fight Vilkas in the yard using melee only.",
+      "Deliver Vilkas's sword to Eorlund Gray-Mane at the Skyforge.",
+      "Return the reforged sword to Vilkas or Skjor.",
+      "Accept your first task from Farkas to become a member."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Take%20Up%20Arms%20walkthrough"
+  },
+  {
+    id: 1406,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Proving Honor",
+    location: "Dustman's Cairn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fragment of Wuuthrad, werewolf reveal",
+    summary: "Recover a fragment of Ysgramor's axe Wuuthrad and discover the Companions' Circle harbors a werewolf secret.",
+    aiTip: "When you get locked in the cage, wait for Farkas to transform and clear the Silver Hand — then loot the whole cairn.",
+    walkthrough: [
+      "Speak with Skjor or Farkas to begin the Proving Honor task.",
+      "Travel to Dustman's Cairn with Farkas as your shield-sibling.",
+      "Fight through the draugr and pull the levers to progress.",
+      "When locked in the cage, watch Farkas transform into a werewolf to save you.",
+      "Clear out the ambushing Silver Hand hunters.",
+      "Recover the fragment of Wuuthrad and return to Jorrvaskr."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Proving%20Honor%20walkthrough"
+  },
+  {
+    id: 1407,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silver Hand",
+    location: "Gallows Rock",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Companions progression",
+    summary: "Strike back at the Silver Hand werewolf hunters at their Gallows Rock stronghold.",
+    aiTip: "Bring silver or strong weapons; the Skinner boss hits hard, and you'll find captured Companions clues here.",
+    walkthrough: [
+      "Meet Skjor at night and agree to undergo the blood ritual.",
+      "Drink from the beast blood in the Underforge to become a werewolf.",
+      "Travel to Gallows Rock to strike at the Silver Hand.",
+      "Fight through the werewolf hunters, using strong or silver weapons.",
+      "Defeat the Skinner and search for the captured Companion clues.",
+      "Return to Jorrvaskr and report what happened to Skjor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20walkthrough"
+  },
+  {
+    id: 1408,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Blood's Honor",
+    location: "Ysgramor's Tomb / Whiterun",
+    length: "medium",
+    difficulty: "High",
+    reward: "Kodlak's dying wish begins",
+    summary: "After tragedy strikes Jorrvaskr, retrieve the stolen Wuuthrad fragments and honor Kodlak's memory.",
+    aiTip: "This quest triggers after an attack on Jorrvaskr — sell loot and prepare potions beforehand, as it flows straight into the finale.",
+    walkthrough: [
+      "Return to Jorrvaskr after the Silver Hand's attack on the hall.",
+      "Speak with the grieving Circle members about Kodlak's wishes.",
+      "Set out to recover the stolen fragments of Wuuthrad.",
+      "Travel to the Silver Hand stronghold and fight through the hunters.",
+      "Recover the Wuuthrad fragments from the enemy leaders.",
+      "Return to Whiterun to prepare for the journey to Ysgramor's Tomb."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%27s%20Honor%20walkthrough"
+  },
+  {
+    id: 1409,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Purity of Revenge",
+    location: "Driftshade Refuge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Revenge on the Silver Hand",
+    summary: "Lead the Circle in a vengeful assault on the Silver Hand to recover the last pieces of Wuuthrad.",
+    aiTip: "Take Aela along — she's a strong archer ally, and the refuge is packed with Silver Hand veterans.",
+    walkthrough: [
+      "After Kodlak's death in Blood's Honor, speak with Vilkas about the Silver Hand's attack on Jorrvaskr.",
+      "Travel to the marked Silver Hand location (varies per playthrough).",
+      "Clear the location of Silver Hand members in retaliation.",
+      "Return to Jorrvaskr to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Purity%20of%20Revenge%20walkthrough"
+  },
+  {
+    id: 1410,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Glory of the Dead",
+    location: "Ysgramor's Tomb",
+    length: "medium",
+    difficulty: "High",
+    reward: "Harbinger of the Companions, Wuuthrad",
+    summary: "Enter Ysgramor's Tomb to cure Kodlak's soul and claim your place as Harbinger of the Companions.",
+    aiTip: "Only Wuuthrad's wielder can pass — you may fight your own werewolf spirit, so bring healing. Curing lycanthropy here is optional.",
+    walkthrough: [
+      "Speak with Vilkas after Purity of Revenge to learn of Kodlak's final wish to be freed from his wolf spirit.",
+      "Retrieve Wuuthrad fragments from Silver Hand strongholds if not already collected.",
+      "Travel to Ysgramor's Tomb with the Circle members.",
+      "Fight through ancient Nord ghosts guarding the tomb.",
+      "Use the Fragments of Wuuthrad to open the final door and confront Kodlak's spirit along with the Glenmoril Witches' influence.",
+      "Defeat the hostile spirits and free Kodlak's soul, becoming the new Harbinger."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Glory%20of%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 1411,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A Chance Arrangement",
+    location: "Riften",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thieves Guild introduction",
+    summary: "A chance meeting with Brynjolf in Riften's market pulls you into a scheme that opens the door to the Thieves Guild.",
+    aiTip: "Pickpocketing the ring onto Brand-Shei is easiest in Sneak; plant it, then walk away before anyone notices.",
+    walkthrough: [
+      "Meet Brynjolf in the Riften marketplace during the day.",
+      "Agree to help him and take the ring he offers.",
+      "Wait for Brynjolf to begin his sales pitch to draw the crowd's attention.",
+      "Sneak up to Madesi's stall and pick the lock and strongbox.",
+      "Plant the ring in Brand-Shei's pocket without being caught.",
+      "Return to Brynjolf and follow him to the Ragged Flagon in the Ratway."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Chance%20Arrangement%20walkthrough"
+  },
+  {
+    id: 1412,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Loud and Clear",
+    location: "Riften / Goldenglow Estate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild standing, gold",
+    summary: "Prove your worth to the Guild by hitting Goldenglow Estate and sending Aringoth a message.",
+    aiTip: "Burn exactly three beehives as Mercer asks — burning all of them or none changes the outcome and reward.",
+    walkthrough: [
+      "Meet Brynjolf in the Ragged Flagon and speak with Mercer Frey.",
+      "Accept the job to teach Aringoth a lesson at Goldenglow Estate.",
+      "Travel to Goldenglow Estate south of Riften.",
+      "Sneak in past the guards and mercenaries, or fight through them.",
+      "Burn exactly three of the beehives as instructed.",
+      "Confront Aringoth, take the bill of sale from the safe, and report back to Mercer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Loud%20and%20Clear%20walkthrough"
+  },
+  {
+    id: 1413,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Taking Care of Business",
+    location: "Various holds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Guild reputation, gold",
+    summary: "Take on shakedown and collection jobs to expand the Thieves Guild's influence across the holds.",
+    aiTip: "These radiant jobs stack with the main heists — knock them out while traveling to grow Guild rank faster.",
+    walkthrough: [
+      "Speak to Brynjolf after Loud and Clear to be introduced formally to the Guild.",
+      "Meet Vex outside and follow her to the Ragged Flagon.",
+      "Speak with Mercer Frey to receive your first real assignment.",
+      "Break into the Bee and Barb (or assigned target) to plant/steal evidence as instructed.",
+      "Return to Mercer Frey to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Taking%20Care%20of%20Business%20walkthrough"
+  },
+  {
+    id: 1414,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dampened Spirits",
+    location: "Whiterun / Honningbrew Meadery",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild standing, gold",
+    summary: "Sabotage Honningbrew Meadery to give the Guild's ally Maven Black-Briar a competitive edge.",
+    aiTip: "Poison the vat and deal with the giant Sabjorn in the tunnels; interrogate Sabjorn afterward for the Guild's next lead.",
+    walkthrough: [
+      "Speak with Vex at the Ragged Flagon for a job at the Whiterun meadery.",
+      "Travel to Honningbrew Meadery outside Whiterun.",
+      "Sneak in and sabotage the mead production using the ingredient provided (or complete the alternate approach).",
+      "Deal with the meadery's owner as instructed.",
+      "Return to Vex to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20walkthrough"
+  },
+  {
+    id: 1415,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Silver Lining",
+    location: "Markarth / Cidhna Mine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Guild lead on Karliah",
+    summary: "Chase a lead to Markarth that spirals into a frame-up and a stint in Cidhna Mine.",
+    aiTip: "This quest can entangle with the Forsworn Conspiracy — keep a lockpick or Shout ready to escape Cidhna Mine.",
+    walkthrough: [
+      "Accept the job from Delvin Mallory regarding a shipment problem.",
+      "Travel to Northwind Mine or the relevant location.",
+      "Retrieve the item or resolve the dispute as instructed.",
+      "Report back to Delvin at the Ragged Flagon."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silver%20Lining%20walkthrough"
+  },
+  {
+    id: 1416,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Blindsighted Job / Blindsighted",
+    location: "Riften / Snow Veil Sanctum",
+    length: "long",
+    difficulty: "High",
+    reward: "Major story turn, Nightingale Blade",
+    summary: "Track Karliah to Snow Veil Sanctum with Mercer, where the Guild's darkest secret is exposed.",
+    aiTip: "You'll be ambushed after the boss room — expect a betrayal, so don't waste all your potions on the draugr.",
+    walkthrough: [
+      "Meet Karliah and Brynjolf and set out for Snow Veil Sanctum with Mercer.",
+      "Follow Mercer's lead and unlock the entrance together.",
+      "Sneak through the draugr-filled crypt, using Mercer's lockpicking on the puzzle doors.",
+      "Reach the inner chamber where Mercer springs his betrayal.",
+      "Recover after the ambush and speak with Karliah, who saves you.",
+      "Learn the truth about Mercer and agree to help expose him."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Blindsighted%20Job%20/%20Blindsighted%20walkthrough"
+  },
+  {
+    id: 1417,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Pursuit",
+    location: "Riften / Ratway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Karliah alliance",
+    summary: "Regroup with Karliah and Brynjolf to pursue the truth about Mercer Frey's treachery.",
+    aiTip: "Meet Karliah in the Ragged Flagon cistern — this begins the Nightingale arc, so hold onto any Nightingale-related gear.",
+    walkthrough: [
+      "Speak with Brynjolf after discovering Mercer Frey's betrayal.",
+      "Break into Mercer Frey's house in Riften.",
+      "Search for clues about Mercer's whereabouts and motives.",
+      "Find the hidden passage/journal revealing his connection to the Nightingales."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Pursuit%20walkthrough"
+  },
+  {
+    id: 1418,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Scoundrel's Folly",
+    location: "Riften / Windhelm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Esbern-style lead, gold",
+    summary: "Interrogate a fence and follow the chain of clues Mercer left behind.",
+    aiTip: "Use dialogue or a bribe on Gulum-Ei rather than fighting through the East Empire warehouse if you want the quieter route.",
+    walkthrough: [
+      "Follow Karliah's lead to Snow Veil Sanctum.",
+      "Fight through the ancient Nord ruin guarded by Karliah and Mercer's traps.",
+      "Reach the chamber holding Gallus's shade or related artifact.",
+      "Escape the sanctum with Karliah and Brynjolf."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Scoundrel%27s%20Folly%20walkthrough"
+  },
+  {
+    id: 1419,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Trinity Restored",
+    location: "Nightingale Hall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Nightingale armor, powers",
+    summary: "Undertake the Oath of the Nightingales and gain the blessing of Nocturnal alongside Karliah and Brynjolf.",
+    aiTip: "You choose a Nightingale power (Subterfuge, Strife, or Shadowcloak) at the end — Shadowcloak is best for stealth builds.",
+    walkthrough: [
+      "Travel with Karliah to the Nightingale Hall.",
+      "Undergo the Nightingale initiation ritual before Nocturnal's shrine.",
+      "Choose to become a Nightingale, binding your soul in service to Nocturnal.",
+      "Prepare to pursue Mercer Frey into Irkngthand."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Trinity%20Restored%20walkthrough"
+  },
+  {
+    id: 1420,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hard Answers",
+    location: "Markarth / Calcelmo's Museum",
+    length: "long",
+    difficulty: "High",
+    reward: "Falmer translation, gold",
+    summary: "Steal Calcelmo's research on Falmer script to decode the clues to Mercer's whereabouts.",
+    aiTip: "Copy the Falmer inscription with the rubbing rather than fighting Calcelmo — the Dwarven museum has tough automatons.",
+    walkthrough: [
+      "Enter Irkngthand, the Dwemer ruin where Mercer Frey has fled.",
+      "Navigate the ruin's mechanisms and traps alongside Karliah and Brynjolf.",
+      "Locate the chamber containing the Eyes of the Falmer.",
+      "Confront and defeat Mercer Frey in the final battle.",
+      "Retrieve the Skeleton Key from Mercer's body."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hard%20Answers%20walkthrough"
+  },
+  {
+    id: 1421,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Darkness Returns",
+    location: "Twilight Sepulcher",
+    length: "long",
+    difficulty: "High",
+    reward: "Skeleton Key return, Nightingale finale",
+    summary: "Return the Skeleton Key to the Twilight Sepulcher and pass Nocturnal's trials to restore the Guild's fortune.",
+    aiTip: "The Sepulcher's Pilgrim's Path punishes greed — don't touch the side loot until you understand each trial's lesson.",
+    walkthrough: [
+      "Return the Skeleton Key to the Twilight Sepulcher.",
+      "Navigate the Sepulcher's puzzle chambers.",
+      "Restore the Skeleton Key to its pedestal to cleanse the Guild's reputation with Nocturnal.",
+      "Exit the Sepulcher and return to Riften."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Darkness%20Returns%20walkthrough"
+  },
+  {
+    id: 1422,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "No Stone Unturned",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Prowler's Profit perk",
+    summary: "Hunt down all 24 Unusual Gems scattered across Skyrim for Vex to reassemble the Crown of Barenziah.",
+    aiTip: "Completing this grants the Prowler's Profit perk (far more gems as loot) — pick up every Unusual Gem you find while adventuring.",
+    walkthrough: [
+      "Speak with Delvin Mallory about the Stones of Barenziah collection quest.",
+      "Search the 24 known locations across Skyrim for each unique gem.",
+      "Deliver each stone to Vex or Delvin as found.",
+      "Complete the collection to receive the Crown of Barenziah."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20No%20Stone%20Unturned%20walkthrough"
+  },
+  {
+    id: 1423,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Litany of Larceny",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Thief-related achievements",
+    summary: "Pull off the Guild's legendary special jobs to earn the Litany of Larceny and cement your reputation.",
+    aiTip: "These require specific unique items from named heists — keep a checklist and don't sell any 'special' quest loot early.",
+    walkthrough: [
+      "Speak with Delvin about special heist targets across Skyrim's major holds.",
+      "Travel to each target location: Understone Keep, Proudspire Manor, the Blue Palace, and the Thalmor Embassy.",
+      "Steal the specified unique item from each location undetected.",
+      "Return each item to Delvin for rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Litany%20of%20Larceny%20walkthrough"
+  },
+  {
+    id: 1424,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Numbers Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant fencing job: cook the books at a targeted business to boost Guild coffers.",
+    aiTip: "Alter the ledger while unseen — the target office usually has a back entrance easier than the front.",
+    walkthrough: [
+      "Complete this radiant-style influence job in one of the four cities as assigned by Delvin to build reputation toward Under New Management."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Numbers%20Job%20walkthrough"
+  },
+  {
+    id: 1425,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Bedlam Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant chaos job: cause mayhem in a target city to spread the Guild's reach.",
+    aiTip: "Steal several items scattered around the target city; a high Sneak makes clearing the quota quick.",
+    walkthrough: [
+      "Complete this reputation job in your assigned city, typically involving planting or stealing an item under Delvin's direction."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Bedlam%20Job%20walkthrough"
+  },
+  {
+    id: 1426,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Burglary Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant burglary: break into a marked home and lift a specific valuable.",
+    aiTip: "Case the house at night when occupants sleep; a Muffle enchant keeps your entry silent.",
+    walkthrough: [
+      "Break into a specified home or business in your assigned city and steal the designated item without detection."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Burglary%20Job%20walkthrough"
+  },
+  {
+    id: 1427,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fishing Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant heist to swipe a particular prized item from a target location.",
+    aiTip: "Grab only the marked item to avoid unnecessary bounty; use Shadowcloak or invisibility for guarded targets.",
+    walkthrough: [
+      "Travel to the assigned dock or fishery location and swap/steal the designated cargo item."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fishing%20Job%20walkthrough"
+  },
+  {
+    id: 1428,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Heist Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant fishing job — plant an item to frame a mark on the Guild's behalf.",
+    aiTip: "Reverse-pickpocket the planted item; a high Pickpocket skill guarantees success on tougher marks.",
+    walkthrough: [
+      "Plan and execute a larger burglary in your assigned city as directed by Delvin Mallory."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heist%20Job%20walkthrough"
+  },
+  {
+    id: 1429,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Shill Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant heist job to steal a designated item and return it to the Guild fence.",
+    aiTip: "Fast-travel jobs stack — hold several radiant tasks in the same hold and clear them in one trip.",
+    walkthrough: [
+      "Frame or plant evidence on a target NPC in your assigned city as instructed by Vex or Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Shill%20Job%20walkthrough"
+  },
+  {
+    id: 1430,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Sweep Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant shill job: plant Guild goods to strong-arm a reluctant merchant.",
+    aiTip: "Plant the item on the target merchant, then return to Delvin — keep Sneak up to avoid pickpocket detection.",
+    walkthrough: [
+      "Clear out a series of small burglary targets across your assigned city."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Sweep%20Job%20walkthrough"
+  },
+  {
+    id: 1431,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Summerset Shadows",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "City influence restored",
+    summary: "A radiant sweep job clearing out a location to restore the Guild's dominance in a city.",
+    aiTip: "Completing radiant jobs in each major city (Whiterun, Markarth, Solitude, Windhelm) reopens the Guild's expansion questline.",
+    walkthrough: [
+      "Undertake this influence-building city job as assigned, typically involving a burglary in the Summerset Shadows' territory of your target city."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Summerset%20Shadows%20walkthrough"
+  },
+  {
+    id: 1432,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Reparations",
+    location: "Winterhold coast",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "Deal with a splinter group of thieves undermining the Guild's operations.",
+    aiTip: "Clear the Summerset Shadows' hideout and recover the stolen Guild property to keep expansion on track.",
+    walkthrough: [
+      "Complete the reparations job as assigned by Delvin, generally recovering guild funds or property lost to rivals."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Reparations%20walkthrough"
+  },
+  {
+    id: 1433,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Speaking with Silence",
+    location: "Riften",
+    length: "short",
+    difficulty: "Low",
+    reward: "Guild reputation",
+    summary: "Handle Guild business tied to restoring the Thieves Guild's former glory across Skyrim.",
+    aiTip: "Part of the city-influence chain — complete it alongside the radiant jobs for the same hold to speed up Guild Master rank.",
+    walkthrough: [
+      "Undertake this quiet infiltration job as assigned in your target city, avoiding combat entirely per Guild protocol."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Speaking%20with%20Silence%20walkthrough"
+  },
+  {
+    id: 1434,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Dainty Sload",
+    location: "Solitude docks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "Investigate and rob the ship Dainty Sload as part of expanding Guild influence in Solitude.",
+    aiTip: "Board via the docks at night; the captain's quarters holds the target goods — sneak past the deck crew.",
+    walkthrough: [
+      "Speak with Delvin about a job for a client seeking revenge on a ship's captain.",
+      "Travel to the docks in Solitude to find the Dainty Sload ship.",
+      "Sneak aboard and plant incriminating evidence in the captain's quarters.",
+      "Report back to Delvin once the frame job succeeds."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Dainty%20Sload%20walkthrough"
+  },
+  {
+    id: 1435,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Imitation Amnesty",
+    location: "Markarth",
+    length: "short",
+    difficulty: "Low",
+    reward: "Guild reputation",
+    summary: "Smooth over a botched job to restore the Guild's standing in Markarth.",
+    aiTip: "A quick influence job — pair it with Markarth radiant tasks to reopen the city's fence and special stock.",
+    walkthrough: [
+      "Meet with Delvin about freeing an imprisoned associate.",
+      "Travel to the jail holding the prisoner.",
+      "Use bribery, a key, or sneaking to arrange their release.",
+      "Confirm their release with Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Imitation%20Amnesty%20walkthrough"
+  },
+  {
+    id: 1436,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Toying With The Dead",
+    location: "Windhelm / Hjerim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "A grim job dealing with a necromancer's meddling that threatens Guild business in Windhelm.",
+    aiTip: "Clean up the necromancy evidence and recover the goods; this ties into Windhelm's influence unlock.",
+    walkthrough: [
+      "Accept the job from Delvin involving a necromancer's stolen journals.",
+      "Travel to the specified crypt or ruin.",
+      "Retrieve the journals while contending with undead guardians.",
+      "Deliver the journals to the buyer via Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Toying%20With%20The%20Dead%20walkthrough"
+  },
+  {
+    id: 1437,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Under New Management",
+    location: "Riften / Ragged Flagon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild Master rank, Thieves Guild armor",
+    summary: "Reclaim the Ragged Flagon Cistern and be named Guild Master of a restored Thieves Guild.",
+    aiTip: "Requires the four city-influence jobs done first; completing it unlocks the unique Guild Master armor from Tonilia.",
+    walkthrough: [
+      "Complete five jobs each in Markarth, Solitude, Whiterun, and Windhelm to trigger reputation quests.",
+      "Complete all four city reputation/influence quests.",
+      "Complete Darkness Returns if not already done.",
+      "Speak with Brynjolf about becoming the new Guild Master.",
+      "Take up residence as Guildmaster in the Ragged Flagon."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20New%20Management%20walkthrough"
+  },
+  {
+    id: 1438,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Innocence Lost",
+    location: "Windhelm / Aretino Residence",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Dark Brotherhood contact",
+    summary: "A boy's Black Sacrament summons you to perform a mercy killing that draws the Dark Brotherhood's eye.",
+    aiTip: "Reach the orphanage in Riften and confront Grelod the Kind to trigger the Brotherhood's invitation.",
+    walkthrough: [
+      "Hear about the Aretino boy performing the Black Sacrament in Windhelm.",
+      "Enter the Aretino Residence and speak with Aventus Aretino.",
+      "Accept his contract to kill Grelod the Kind at Honorhall Orphanage in Riften.",
+      "Travel to Riften and enter Honorhall Orphanage.",
+      "Kill Grelod the Kind, freeing the orphans.",
+      "Sleep in a bed to be abducted by the Dark Brotherhood."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Innocence%20Lost%20walkthrough"
+  },
+  {
+    id: 1439,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "With Friends Like These...",
+    location: "Abandoned Shack",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dark Brotherhood membership",
+    summary: "Abducted by Astrid, you must choose one of three captives to kill to join the Dark Brotherhood.",
+    aiTip: "Any of the three can be 'guilty' — or kill Astrid instead to trigger the Brotherhood's destruction questline.",
+    walkthrough: [
+      "Wake in the Abandoned Shack after being abducted by Astrid.",
+      "Speak with Astrid about the three kidnapped captives.",
+      "Examine the Khajiit, the woman, and the old man and question them.",
+      "Kill at least one captive to satisfy Astrid (any of them counts).",
+      "Accept Astrid's offer to join the Dark Brotherhood.",
+      "Travel to the Falkreath Sanctuary and speak the passphrase to enter."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20With%20Friends%20Like%20These...%20walkthrough"
+  },
+  {
+    id: 1440,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sanctuary",
+    location: "Falkreath Sanctuary",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sanctuary access",
+    summary: "Return to the Falkreath Sanctuary and settle in among your new murderous family.",
+    aiTip: "Speak to each Sanctuary member for flavor and side contracts; the passphrase is 'Silence, my brother.'",
+    walkthrough: [
+      "Wake up in the Dark Brotherhood Sanctuary after With Friends Like These.",
+      "Meet Astrid and formally join the Dark Brotherhood family.",
+      "Explore the Sanctuary and speak with fellow assassins.",
+      "Receive your first contract from Astrid."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanctuary%20walkthrough"
+  },
+  {
+    id: 1441,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silence Has Been Broken",
+    location: "Volunruud",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Contract lead",
+    summary: "Meet the mysterious contact Amaund Motierre through an intermediary to line up a high-profile hit.",
+    aiTip: "Fight through the draugr of Volunruud to reach Motierre; take the sealed letter and amulet he offers.",
+    walkthrough: [
+      "Receive an unusual contract from Astrid involving a hooded figure named Amaund Motierre.",
+      "Travel to Volunruud, an ancient Nordic ruin.",
+      "Locate and speak with Motierre, who wants to hire the Brotherhood for the Emperor's assassination.",
+      "Return to Astrid to relay the offer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silence%20Has%20Been%20Broken%20walkthrough"
+  },
+  {
+    id: 1442,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Bound Until Death",
+    location: "Solitude",
+    length: "medium",
+    difficulty: "High",
+    reward: "Emperor plot advances",
+    summary: "Assassinate a bride at her own wedding in Solitude without being caught in the act.",
+    aiTip: "Drop the statue from the balcony onto Vittoria for a clean, deniable kill, then slip into the crowd.",
+    walkthrough: [
+      "Speak with Astrid about performing the Black Sacrament ritual to summon the Night Mother.",
+      "Travel to Whiterun's Hall of the Dead to retrieve a specific corpse component if required.",
+      "Perform the ritual and speak with the summoned Night Mother.",
+      "Return to Astrid with news of the Night Mother's arrival at the Sanctuary."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bound%20Until%20Death%20walkthrough"
+  },
+  {
+    id: 1443,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Whispers in the Dark",
+    location: "Dawnstar Sanctuary",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cicero subplot",
+    summary: "Investigate the tension between Astrid and the unhinged jester Cicero within the Brotherhood.",
+    aiTip: "Choose whether to side with Astrid's suspicions carefully — it colors the later Cicero confrontation.",
+    walkthrough: [
+      "Meet Cicero and the Night Mother's coffin, newly arrived at the Sanctuary.",
+      "Speak with the Night Mother to become her Listener.",
+      "Report the Night Mother's message about a contract to Astrid."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Whispers%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 1444,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Mourning Never Comes",
+    location: "Windhelm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Contract reward",
+    summary: "Carry out a targeted contract for Nazir while the Sanctuary's internal drama simmers.",
+    aiTip: "Complete the assigned kill discreetly; these Nazir contracts are good gold between main Brotherhood beats.",
+    walkthrough: [
+      "Receive the contract detailing three targets: Vittoria Vici, Agnis, and Vasha (or similar radiant NPCs).",
+      "Travel to each target's location and eliminate them using stealth or direct combat.",
+      "Return to the Sanctuary once all targets are dead."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mourning%20Never%20Comes%20walkthrough"
+  },
+  {
+    id: 1445,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Cure for Madness",
+    location: "Dawnstar Sanctuary",
+    length: "long",
+    difficulty: "High",
+    reward: "Turning point",
+    summary: "Pursue Cicero after a violent rift shatters the Falkreath Sanctuary.",
+    aiTip: "You can spare or kill Cicero — sparing him lets him return later as a follower if you keep the Night Mother's favor.",
+    walkthrough: [
+      "Speak with Astrid about Cicero's erratic behavior and hidden agenda.",
+      "Investigate leads pointing to Cicero's plan to move the Night Mother's coffin.",
+      "Confront Cicero at Dawnstar Sanctuary.",
+      "Choose to side with Astrid or protect Cicero — this choice affects the questline's next steps."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Cure%20for%20Madness%20walkthrough"
+  },
+  {
+    id: 1446,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Death Incarnate",
+    location: "Falkreath / Dawnstar",
+    length: "medium",
+    difficulty: "High",
+    reward: "Listener status",
+    summary: "In the aftermath of catastrophe, step up as the Night Mother's Listener to save the Brotherhood.",
+    aiTip: "Regroup with the survivors at the Dawnstar Sanctuary — this begins your rise to lead the Brotherhood.",
+    walkthrough: [
+      "Following the resolution of the Cicero conflict, receive a high-value contract.",
+      "Travel to the marked location to eliminate the target using any method.",
+      "Return to the Sanctuary to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Death%20Incarnate%20walkthrough"
+  },
+  {
+    id: 1447,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Breaching Security",
+    location: "Solitude / Castle Dour",
+    length: "medium",
+    difficulty: "High",
+    reward: "Emperor hit setup",
+    summary: "Breach imperial security to clear the path for the assassination of the Emperor.",
+    aiTip: "Steal the Emperor's schedule and plant the means; a stealth kill on the Commander avoids a hold-wide alarm.",
+    walkthrough: [
+      "Speak with Nazir about the plan to assassinate the Emperor.",
+      "Travel to Castle Dour in Solitude to gather intelligence on Commander Maro's security detail.",
+      "Infiltrate the castle using stealth, disguise, or bribery.",
+      "Steal Maro's security ledger detailing the Emperor's protection plans."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Breaching%20Security%20walkthrough"
+  },
+  {
+    id: 1448,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hail Sithis!",
+    location: "Solitude / Windhelm",
+    length: "long",
+    difficulty: "High",
+    reward: "Emperor assassinated, huge payout",
+    summary: "Assassinate Emperor Titus Mede II aboard his ship and collect the Brotherhood's greatest bounty.",
+    aiTip: "After the kill, decide whether to honor or betray Amaund Motierre's blood price — betraying him yields extra reward.",
+    walkthrough: [
+      "Use the intelligence gathered to infiltrate the Emperor's ship, the Katariah.",
+      "Disguise yourself and make your way through the ship's kitchen and lower decks.",
+      "Poison the meal intended for the Emperor's guards to clear a path.",
+      "Reach the Emperor's chambers and assassinate Titus Mede II.",
+      "Escape the ship and report back to Nazir."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hail%20Sithis%21%20walkthrough"
+  },
+  {
+    id: 1449,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Destroy the Dark Brotherhood!",
+    location: "Dawnstar / Penitus Oculatus",
+    length: "long",
+    difficulty: "High",
+    reward: "Alternate path, Emperor spared",
+    summary: "The counter-questline: betray Astrid and help the Penitus Oculatus wipe out the Dark Brotherhood.",
+    aiTip: "Choosing to kill Astrid at the Abandoned Shack sends you here instead — you lose Brotherhood perks but gain a reward from the Emperor's agents.",
+    walkthrough: [
+      "Choose to betray the Brotherhood by killing Astrid at the Abandoned Shack instead of a captive.",
+      "Travel to Dragon Bridge and find Commander Maro of the Penitus Oculatus.",
+      "Agree to help destroy the Dark Brotherhood from within.",
+      "Travel to the Falkreath Sanctuary as instructed.",
+      "Fight through and eliminate the assassins inside, including the leadership.",
+      "Return to Commander Maro to collect your reward from the Emperor's agents."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destroy%20the%20Dark%20Brotherhood%21%20walkthrough"
+  },
+  {
+    id: 1450,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Narfi",
+    location: "Ivarstead",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant Brotherhood contract to kill Narfi, a grieving beggar near Ivarstead.",
+    aiTip: "Nazir's contracts can be done in any order — a bow shot from stealth avoids witnesses in the open camp.",
+    walkthrough: [
+      "Travel to Ivarstead and eliminate the marked contract target, Narfi, discreetly or openly."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Narfi%20walkthrough"
+  },
+  {
+    id: 1451,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Beitild",
+    location: "Dawnstar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate Beitild in Dawnstar.",
+    aiTip: "Catch her at her house at night; a single sneak attack usually finishes low-level targets like her.",
+    walkthrough: [
+      "Travel to Dawnstar and eliminate the marked contract target, Beitild, in her home or place of work."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Beitild%20walkthrough"
+  },
+  {
+    id: 1452,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Ennodius Papius",
+    location: "Anga's Mill area",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to eliminate Ennodius Papius, a paranoid man hiding out by a mill.",
+    aiTip: "He camps near Anga's Mill — approach from the trees and strike before he flees.",
+    walkthrough: [
+      "Travel to the marked farmstead near Solitude and eliminate Ennodius Papius."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ennodius%20Papius%20walkthrough"
+  },
+  {
+    id: 1453,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Hern",
+    location: "Half-Moon Mill",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Hern, secretly a vampire, at Half-Moon Mill.",
+    aiTip: "Hern and his wife are vampires — bring a decent weapon and expect a tougher fight than a normal target.",
+    walkthrough: [
+      "Travel to the marked hideout to eliminate Hern, a reclusive vampire, along with any thralls guarding him."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Hern%20walkthrough"
+  },
+  {
+    id: 1454,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Lurbuk",
+    location: "Morvunskar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to silence Lurbuk, a spectacularly bad bard.",
+    aiTip: "Lurbuk performs at Morvunskar surrounded by mages — lure him out or use a ranged kill through the crowd.",
+    walkthrough: [
+      "Travel to the marked inn and eliminate the bard Lurbuk during or after his performance."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Lurbuk%20walkthrough"
+  },
+  {
+    id: 1455,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Deekus",
+    location: "Eldergleam Sanctuary area",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Deekus, a scavenging Argonian.",
+    aiTip: "He's alone at his camp near Sarethi Farm — an easy stealth kill with no witnesses.",
+    walkthrough: [
+      "Travel to the marked shipwreck location and eliminate the Argonian looter Deekus."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Deekus%20walkthrough"
+  },
+  {
+    id: 1456,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Ma'randru-jo",
+    location: "Khajiit caravan",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate the Khajiit spellsword Ma'randru-jo with a traveling caravan.",
+    aiTip: "Caravans move between cities — track the caravan's schedule and strike at night when it's camped outside a hold.",
+    walkthrough: [
+      "Travel to the marked farm and eliminate the target Ma'randru-jo."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ma%27randru-jo%20walkthrough"
+  },
+  {
+    id: 1457,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Anoriath",
+    location: "Whiterun market",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Anoriath, a hunter who runs a meat stall in Whiterun.",
+    aiTip: "He wanders Whiterun by day and sleeps at the Drunken Huntsman — a night kill avoids the busy market guards.",
+    walkthrough: [
+      "Travel to Whiterun and eliminate the marked target Anoriath discreetly amid the city guards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Anoriath%20walkthrough"
+  },
+  {
+    id: 1458,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Agnis",
+    location: "Nightgate Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Agnis, an elderly caretaker, at an old fort.",
+    aiTip: "Agnis is harmless and unguarded — a straightforward contract, best done quietly to avoid any nearby travelers.",
+    walkthrough: [
+      "Travel to Fort Greymoor and eliminate the marked target Agnis among the bandit occupants."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Agnis%20walkthrough"
+  },
+  {
+    id: 1459,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Maluril",
+    location: "Mzinchaleft",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Contract gold",
+    summary: "A radiant contract to eliminate the Dunmer mage Maluril deep in a Dwarven ruin.",
+    aiTip: "He's guarded by Dwarven automatons in Mzinchaleft — clear a path carefully or sneak straight to him.",
+    walkthrough: [
+      "Travel into Mzinchaleft ruin and eliminate the marked target Maluril."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Maluril%20walkthrough"
+  },
+  {
+    id: 1460,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Helvard",
+    location: "Dead Man's Drink, Falkreath",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate Helvard, a housecarl in Falkreath.",
+    aiTip: "As a housecarl he's a capable fighter — a poisoned sneak attack evens the odds.",
+    walkthrough: [
+      "Travel to Falkreath and eliminate the marked target Helvard."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Helvard%20walkthrough"
+  },
+  {
+    id: 1461,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Safia",
+    location: "Kilkreath Ruins",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Safia, a bandit leader holed up in a ruin.",
+    aiTip: "She commands bandits at her hideout — thin the guards from stealth before engaging her directly.",
+    walkthrough: [
+      "Board the pirate ship near Solitude's docks and eliminate Captain Safia."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Safia%20walkthrough"
+  },
+  {
+    id: 1462,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "First Lessons",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "College membership",
+    summary: "Gain entry to the College of Winterhold by demonstrating a spell to Faralda on the bridge.",
+    aiTip: "If you lack the required spell, buy it from Faralda right there on the bridge to pass the entrance test.",
+    walkthrough: [
+      "Travel to the College of Winterhold and approach Faralda on the bridge.",
+      "Cast the spell she requests, or buy it from her if you lack it.",
+      "Enter the College and meet Mirabelle Ervine for a tour.",
+      "Attend Tolfdir's first lesson in the courtyard on wards.",
+      "Cast a ward to block Tolfdir's spell as instructed.",
+      "Accept the invitation to join the expedition to Saarthal."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20First%20Lessons%20walkthrough"
+  },
+  {
+    id: 1463,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Under Saarthal",
+    location: "Saarthal",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Saarthal Amulet, story hook",
+    summary: "Join a College expedition into the Nordic ruins of Saarthal and uncover a mysterious buried power.",
+    aiTip: "Equip the Saarthal Amulet when trapped, then cast a spell at the wall to break free — this triggers the Eye of Magnus plot.",
+    walkthrough: [
+      "Travel to the Nordic ruin of Saarthal with Tolfdir and the students.",
+      "Help search the ruins and collect the enchanted rings and amulet for Arniel.",
+      "When trapped behind bars, equip the Saarthal Amulet.",
+      "Cast a spell at the glowing wall to break free.",
+      "Discover the mysterious orb (the Eye of Magnus) with Tolfdir.",
+      "Fight the awakened draugr, read the word wall, and report back to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20Saarthal%20walkthrough"
+  },
+  {
+    id: 1464,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hitting the Books",
+    location: "Fellglow Keep",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Stolen books recovered",
+    summary: "Recover the College's stolen books from the mages of Fellglow Keep to learn more about the Eye.",
+    aiTip: "The Caller wants a trade or a fight — killing her is simplest, and her keep holds useful spell tomes.",
+    walkthrough: [
+      "Speak with Mirabelle Ervine after Under Saarthal about the mysterious artifact found.",
+      "Travel to Understone Keep in Markarth to consult with Calcelmo, an expert on Dwemer artifacts.",
+      "Navigate Calcelmo's private collection with the help of his assistant, Aicantar.",
+      "Retrieve the information/book needed and return to Winterhold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hitting%20the%20Books%20walkthrough"
+  },
+  {
+    id: 1465,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Good Intentions",
+    location: "Mzulft",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Follow Savos Aren's orders to seek out the Synod expedition at the Dwarven ruin of Mzulft.",
+    aiTip: "Bring healing for the Falmer and automatons; align the Oculory crystals with the focusing crystal to progress.",
+    walkthrough: [
+      "Speak with Tolfdir about the strange properties of the recovered artifact (the eye).",
+      "Travel to Silus Vesuius's house in Dawnstar to investigate a related lead.",
+      "Enter Saarthal's inner chamber (Silus's excavation) to learn more about the Staff of Magnus.",
+      "Report findings back to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Good%20Intentions%20walkthrough"
+  },
+  {
+    id: 1466,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Path of Knowledge",
+    location: "Mzulft",
+    length: "medium",
+    difficulty: "High",
+    reward: "Augur's guidance",
+    summary: "Solve the Oculory puzzle at Mzulft and consult the Augur of Dunlain about the Eye of Magnus.",
+    aiTip: "The crystal-beam puzzle needs the focusing crystal placed and rotated — adjust until all beams hit the receptacles.",
+    walkthrough: [
+      "Speak with the College staff about locating the Psijic Order's location for guidance (or the equivalent lead).",
+      "Follow the quest marker to the location indicated.",
+      "Progress the investigation into the artifact's origin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Path%20of%20Knowledge%20walkthrough"
+  },
+  {
+    id: 1467,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Containment",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story turn",
+    summary: "Return to a College thrown into crisis and help contain the fallout from the Eye of Magnus.",
+    aiTip: "Tragedy strikes Savos Aren here — stock up on magicka potions before returning, as Ancano turns hostile.",
+    walkthrough: [
+      "Investigate the Midden beneath the College where a magical disturbance has occurred.",
+      "Fight through hostile Atronachs and constructs summoned by the anomaly.",
+      "Seal or neutralize the containment breach.",
+      "Report back to Tolfdir or Mirabelle."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Containment%20walkthrough"
+  },
+  {
+    id: 1468,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Revealing the Unseen",
+    location: "Mzulft / Labyrinthian",
+    length: "long",
+    difficulty: "High",
+    reward: "Staff of Magnus lead",
+    summary: "Seek the Staff of Magnus, the only thing that can counter Ancano's growing power over the Eye.",
+    aiTip: "This points you to Labyrinthian — prepare for a dragon priest and heavy draugr resistance ahead.",
+    walkthrough: [
+      "Speak with Urag gro-Shub in the Arcanaeum about research materials on the Eye of Magnus.",
+      "Travel to retrieve a specific tome or item from a marked dungeon.",
+      "Return the material to the College library."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Revealing%20the%20Unseen%20walkthrough"
+  },
+  {
+    id: 1469,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Master of the Mind",
+    location: "Labyrinthian",
+    length: "long",
+    difficulty: "High",
+    reward: "Staff of Magnus, mask",
+    summary: "Delve into Labyrinthian to claim the Staff of Magnus from the dragon priest Morokei.",
+    aiTip: "Morokei is fast and drains magicka — use the trapped Magic Anomalies and pillars for cover, and grab his mask Morokei.",
+    walkthrough: [
+      "Speak with Tolfdir about Ancano's increasingly suspicious behavior at the College.",
+      "Investigate leads within the College regarding Ancano's actions.",
+      "Report findings to the Arch-Mage or Mirabelle."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Master%20of%20the%20Mind%20walkthrough"
+  },
+  {
+    id: 1470,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Diplomatic Immunity (College variant - Discerning the Transmundane path)",
+    location: "College path",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story alignment",
+    summary: "A College-side thread overlapping the Discerning the Transmundane path toward forbidden knowledge.",
+    aiTip: "This overlaps with Hermaeus Mora's Daedric quest — completing one advances the other, so coordinate the two.",
+    walkthrough: [
+      "Speak with Urag gro-Shub about locating a Black Book or Elder Scroll lead relevant to the main quest.",
+      "Follow instructions to track down the item's location.",
+      "Retrieve the item and return it to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20%28College%20variant%20-%20Discerning%20the%20Transmundane%20path%29%20walkthrough"
+  },
+  {
+    id: 1471,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Restoring Order",
+    location: "College of Winterhold",
+    length: "long",
+    difficulty: "High",
+    reward: "Archmage title, Archmage's robes",
+    summary: "Confront Ancano and the unleashed Eye of Magnus to restore order and become Arch-Mage.",
+    aiTip: "Use the Staff of Magnus on the Eye's shield, then blast Ancano; claiming the title unlocks the Arch-Mage's Quarters.",
+    walkthrough: [
+      "Learn that Ancano has taken control of the Eye of Magnus and locked down the College.",
+      "Travel into the Arcanaeum's hidden passage to reach the Eye of Magnus chamber.",
+      "Navigate a set of magical trial rooms to reach the inner sanctum.",
+      "Confront and defeat Ancano.",
+      "Stabilize or destroy the Eye of Magnus to save the College.",
+      "Become the new Arch-Mage of the College of Winterhold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoring%20Order%20walkthrough"
+  },
+  {
+    id: 1472,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Shalidor's Insights",
+    location: "Skyrim-wide (Labyrinthian, etc.)",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Magic skill boosts",
+    summary: "Collect Shalidor's writings for Urag to unlock powerful insights that boost your magic skills.",
+    aiTip: "Turning in the collected writings grants permanent bonuses to a magic school — hand them in for the school you use most.",
+    walkthrough: [
+      "Speak with Tolfdir about the ancient wizard Shalidor's scattered knowledge.",
+      "Travel to any of several marked ruins to find Shalidor's Insight tomes.",
+      "Return each recovered tome to Tolfdir for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Shalidor%27s%20Insights%20walkthrough"
+  },
+  {
+    id: 1473,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Alteration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Alteration spell",
+    summary: "Complete the ritual to earn a Master-level Alteration spell from Tolfdir.",
+    aiTip: "Requires Alteration skill 90 — level it with cheap spells like Detect Life before starting the ritual.",
+    walkthrough: [
+      "Speak with the Alteration instructor about advancing your training to unlock the ritual spell quest and complete the associated task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alteration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1474,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Conjuration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Conjuration spell",
+    summary: "Prove your mastery to earn a Master-level Conjuration spell from Phinis Gestor.",
+    aiTip: "Requires Conjuration 90; the ritual sends you to Sanguine's realm-like arena to defeat summoned foes.",
+    walkthrough: [
+      "Speak with the Conjuration instructor and complete the associated retrieval or combat task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Conjuration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1475,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Destruction Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Destruction spell",
+    summary: "Undertake Faralda's trial to gain a Master-level Destruction spell.",
+    aiTip: "Requires Destruction 90 — you must cast an expert spell to prove yourself, then face a summoned challenge.",
+    walkthrough: [
+      "Speak with the Destruction instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destruction%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1476,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Illusion Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Illusion spell",
+    summary: "Complete Drevis Neloren's ritual for a Master-level Illusion spell.",
+    aiTip: "Requires Illusion 90; the trial hides invisible objects around the College — use Detect Life or Aura Whisper to find them.",
+    walkthrough: [
+      "Speak with the Illusion instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Illusion%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1477,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Restoration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Restoration spell",
+    summary: "Pass Colette Marence's trial to learn a Master-level Restoration spell.",
+    aiTip: "Requires Restoration 90 — you fight a powerful summoned enemy, so bring wards and healing.",
+    walkthrough: [
+      "Speak with the Restoration instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1478,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Onmund's Request",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Onmund's amulet, friendship",
+    summary: "Help fellow apprentice Onmund recover his family amulet lost to the trader Enthir.",
+    aiTip: "You can persuade Enthir, do a favor, or pickpocket the amulet back — persuasion is cleanest if your Speech is high.",
+    walkthrough: [
+      "Speak with Onmund about a family amulet stolen by a Thalmor agent.",
+      "Travel to the marked location to recover the amulet.",
+      "Return the amulet to Onmund."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Onmund%27s%20Request%20walkthrough"
+  },
+  {
+    id: 1479,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Brelyna's Practice",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Practice reward, friendship",
+    summary: "Assist apprentice Brelyna Maryon with her experimental spell practice.",
+    aiTip: "Her spells misfire harmlessly — just endure the effects and reassure her to finish the favor.",
+    walkthrough: [
+      "Speak with Brelyna Maryon about testing a new spell on you.",
+      "Agree to the test and experience its (harmless) effect.",
+      "Return for a follow-up conversation."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Brelyna%27s%20Practice%20walkthrough"
+  },
+  {
+    id: 1480,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Only Cure",
+    location: "Reachwater / Namira's cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cure disease / progression",
+    summary: "Aid a plagued individual by seeking a cure tied to the Daedric Prince Peryite.",
+    aiTip: "This overlaps Peryite's quest — you'll need Deathbell and other reagents, so gather them before the ritual.",
+    walkthrough: [
+      "Speak with J'zargo about a rival mage's research.",
+      "Travel to the marked location tied to J'zargo's request.",
+      "Complete the associated retrieval or combat objective.",
+      "Return to J'zargo."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Only%20Cure%20walkthrough"
+  },
+  {
+    id: 1481,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Forgotten Names",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Lore, spell tome",
+    summary: "Investigate forgotten names and lore hidden in the College's history for Urag.",
+    aiTip: "Read the flagged books in the Arcanaeum; the lore here enriches the Eye of Magnus backstory.",
+    walkthrough: [
+      "Explore the Midden Dark beneath the College.",
+      "Locate the ancient Daedric relic and altar hidden within.",
+      "Interact with the relic to trigger its unique dialogue tree and unlock associated lore."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forgotten%20Names%20walkthrough"
+  },
+  {
+    id: 1482,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Joining the Legion",
+    location: "Solitude / Castle Dour",
+    length: "short",
+    difficulty: "Low",
+    reward: "Imperial Legion membership",
+    summary: "Enlist with General Tullius and the Imperial Legion to fight for a unified Skyrim under the Empire.",
+    aiTip: "If you helped Hadvar escape Helgen, Tullius greets you warmly — this locks you out of the Stormcloak questline.",
+    walkthrough: [
+      "Speak with General Tullius or a Legion representative in Solitude, or approach Legate Rikke.",
+      "Confirm your intent to fight for the Empire.",
+      "Receive your Legion uniform and first orders."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Legion%20walkthrough"
+  },
+  {
+    id: 1483,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A False Front",
+    location: "Reach / hold border",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Plant false orders to mislead the Stormcloaks and gain the Legion an advantage.",
+    aiTip: "Sneak the forged documents into the enemy camp; a stealthy approach avoids a pitched battle.",
+    walkthrough: [
+      "Assault the marked Stormcloak-held fort as directed by Legate Rikke, clearing it of enemy soldiers."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20walkthrough"
+  },
+  {
+    id: 1484,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Compelling Tribute",
+    location: "Targeted hold",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Intercept a tribute caravan to choke off Stormcloak funding for the Legion.",
+    aiTip: "Ambush the caravan on the road; take the high ground with a bow to whittle down the escort.",
+    walkthrough: [
+      "Lead the assault to capture a hold's capital in the name of the Empire, per Legate Rikke's briefing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20walkthrough"
+  },
+  {
+    id: 1485,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Sungard",
+    location: "Fort Sungard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Storm Fort Sungard to seize it for the Imperial Legion.",
+    aiTip: "Fight alongside Legion soldiers — focus the enemy officers first, and mop up the fort interior for loot.",
+    walkthrough: [
+      "Storm and capture Fort Sungard from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20walkthrough"
+  },
+  {
+    id: 1486,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Snowhawk",
+    location: "Fort Snowhawk",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Snowhawk and claim it in the name of the Empire.",
+    aiTip: "Let the Legion soldiers draw fire while you flank; clear the towers to stop enemy archers.",
+    walkthrough: [
+      "Storm and capture Fort Snowhawk from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20walkthrough"
+  },
+  {
+    id: 1487,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Dunstad",
+    location: "Fort Dunstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Dunstad to push Imperial control across the Pale.",
+    aiTip: "Push through the courtyard as a group; the commander inside is the objective — take him down to end resistance.",
+    walkthrough: [
+      "Storm and capture Fort Dunstad from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20walkthrough"
+  },
+  {
+    id: 1488,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Greenwall",
+    location: "Fort Greenwall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Take Fort Greenwall for the Legion to tighten the noose on the rebellion.",
+    aiTip: "Watch for Stormcloak reinforcements from the towers — heal often in the tight interior fights.",
+    walkthrough: [
+      "Storm and capture Fort Greenwall from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20walkthrough"
+  },
+  {
+    id: 1489,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Kastav",
+    location: "Fort Kastav",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Seize Fort Kastav to secure Imperial dominance in the region.",
+    aiTip: "A straightforward siege — stick with your squad and clear the walls before pressing inside.",
+    walkthrough: [
+      "Storm and capture Fort Kastav from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20walkthrough"
+  },
+  {
+    id: 1490,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Hraggstad",
+    location: "Fort Hraggstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Hraggstad to strengthen the Legion's hold near Solitude.",
+    aiTip: "Approach from the road with your soldiers; the exterior bandits and Stormcloaks fall quickly to a coordinated push.",
+    walkthrough: [
+      "Storm and capture Fort Hraggstad, a key Stormcloak stronghold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20walkthrough"
+  },
+  {
+    id: 1491,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rescue from Fort Neugrad",
+    location: "Fort Neugrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prisoners freed, war progression",
+    summary: "Infiltrate Fort Neugrad to rescue captured Imperial soldiers.",
+    aiTip: "Free the prisoners to gain extra allies for the fight out — grab the cell keys from the guards.",
+    walkthrough: [
+      "Infiltrate Fort Neugrad to free captured Legion soldiers held by the Stormcloaks."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Neugrad%20walkthrough"
+  },
+  {
+    id: 1492,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Liberation of Skyrim",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "High",
+    reward: "Civil War won for the Empire",
+    summary: "Lead the final campaign to crush the Stormcloak rebellion and secure Skyrim for the Empire.",
+    aiTip: "This chains multiple battles ending at Windhelm's Palace of the Kings — stock up on potions before the assault on Ulfric.",
+    walkthrough: [
+      "Receive final orders from General Tullius to march on Windhelm.",
+      "Assault Windhelm alongside Legion forces.",
+      "Fight through the city's defenders to reach the Palace of the Kings.",
+      "Confront and defeat Ulfric Stormcloak.",
+      "Complete the Civil War questline in favor of the Empire."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Liberation%20of%20Skyrim%20walkthrough"
+  },
+  {
+    id: 1493,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Joining the Stormcloaks",
+    location: "Windhelm / Palace of the Kings",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stormcloak membership",
+    summary: "Pledge yourself to Ulfric Stormcloak's rebellion for a free and independent Skyrim.",
+    aiTip: "If you helped Ralof at Helgen, Ulfric welcomes you — joining locks you out of the Imperial Legion questline.",
+    walkthrough: [
+      "Speak with Ulfric Stormcloak or Galmar Stone-Fist in Windhelm.",
+      "Confirm your intent to fight for Skyrim's independence.",
+      "Receive your Stormcloak uniform and first orders."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Stormcloaks%20walkthrough"
+  },
+  {
+    id: 1494,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A False Front (Stormcloak variant)",
+    location: "Reach / hold border",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "The Stormcloak version: plant false orders to deceive the Imperial Legion.",
+    aiTip: "Same stealth objective as the Imperial variant — slip the forged papers in unseen to avoid a fight.",
+    walkthrough: [
+      "Assault the marked Legion-held fort as directed by Galmar Stone-Fist."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1495,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Compelling Tribute (Stormcloak variant)",
+    location: "Targeted hold",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Raid an Imperial tribute caravan to fund the Stormcloak war effort.",
+    aiTip: "Ambush from cover on the road; prioritize the escort's officer to break their morale.",
+    walkthrough: [
+      "Lead the assault to capture a hold's capital in the name of Ulfric Stormcloak."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1496,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Sungard (Stormcloak variant)",
+    location: "Fort Sungard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Sungard for the Stormcloaks.",
+    aiTip: "Fight beside Ulfric's soldiers — target Imperial officers first and secure the interior.",
+    walkthrough: [
+      "Storm and capture Fort Sungard from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1497,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Snowhawk (Stormcloak variant)",
+    location: "Fort Snowhawk",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Storm Fort Snowhawk to claim it for the rebellion.",
+    aiTip: "Flank while your allies draw fire; clear the towers of Imperial archers.",
+    walkthrough: [
+      "Storm and capture Fort Snowhawk from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1498,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Dunstad (Stormcloak variant)",
+    location: "Fort Dunstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Take Fort Dunstad to expand Stormcloak control in the Pale.",
+    aiTip: "Push the courtyard as a unit and eliminate the fort commander to end the fight.",
+    walkthrough: [
+      "Storm and capture Fort Dunstad from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1499,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Greenwall (Stormcloak variant)",
+    location: "Fort Greenwall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Greenwall in the name of a free Skyrim.",
+    aiTip: "Beware Imperial reinforcements — hold the choke points and heal during the tight interior brawl.",
+    walkthrough: [
+      "Storm and capture Fort Greenwall from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1500,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Kastav (Stormcloak variant)",
+    location: "Fort Kastav",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Seize Fort Kastav for the Stormcloak cause.",
+    aiTip: "Stay with your squad and clear the walls before advancing into the keep.",
+    walkthrough: [
+      "Storm and capture Fort Kastav from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1501,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Hraggstad (Stormcloak variant)",
+    location: "Fort Hraggstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Hraggstad to threaten Imperial-held Solitude.",
+    aiTip: "Coordinate with your soldiers on the outer defenses; the garrison falls fast to a combined push.",
+    walkthrough: [
+      "Storm and capture Fort Hraggstad from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1502,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rescue from Fort Amol",
+    location: "Fort Amol",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prisoners freed, war progression",
+    summary: "Break into Fort Amol to rescue captured Stormcloak soldiers.",
+    aiTip: "Grab the cell keys and free the prisoners for extra swords in the escape.",
+    walkthrough: [
+      "Infiltrate Fort Amol to free captured Stormcloak soldiers held by the Legion."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Amol%20walkthrough"
+  },
+  {
+    id: 1503,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Battle for Solitude",
+    location: "Solitude",
+    length: "long",
+    difficulty: "High",
+    reward: "Civil War won for the Stormcloaks",
+    summary: "Lead the climactic assault on Solitude to topple the Empire's seat of power in Skyrim.",
+    aiTip: "The final push ends at Castle Dour with General Tullius — bring your best gear and plenty of healing.",
+    walkthrough: [
+      "Receive final orders from Ulfric to march on Solitude.",
+      "Assault Solitude alongside Stormcloak forces.",
+      "Fight through the city's defenders to reach Castle Dour.",
+      "Confront and defeat General Tullius.",
+      "Complete the Civil War questline in favor of the Stormcloaks."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Solitude%20walkthrough"
+  },
+  {
+    id: 1504,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Azura: The Black Star",
+    location: "Winterhold / Azura's Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Black Star or Azura's Star",
+    summary: "Aid the Daedric Prince Azura by cleansing her star of a corrupt mage's soul-trap.",
+    aiTip: "Choose to keep Azura's Star (white souls) or the Black Star (black souls) — the Black Star lets you trap human souls, ideal for enchanting.",
+    walkthrough: [
+      "Speak with the priestess at the Shrine of Azura near Winterhold.",
+      "Travel to Winterhold and speak with Aranea Ienith about the Star of Azura.",
+      "Journey to Nightcaller Temple in Dawnstar.",
+      "Choose to side with Aranea (destroying the Necromancer Malyn Varen) or with Malyn Varen (turning the Star Black).",
+      "Retrieve the Black Star / Star of Azura from the temple's depths."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Azura%3A%20The%20Black%20Star%20walkthrough"
+  },
+  {
+    id: 1505,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Boethiah: Boethiah's Calling",
+    location: "Boethiah's Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ebony Mail",
+    summary: "Serve Boethiah by orchestrating a bloody sacrifice and proving yourself in a deadly free-for-all.",
+    aiTip: "You must sacrifice a follower on the altar to begin — bring a hireling you don't mind losing, then win the survival fight for the Ebony Mail.",
+    walkthrough: [
+      "Find and read the Sacred Witness's book at a Boethiah shrine.",
+      "Travel to the Shrine of Boethiah in the mountains.",
+      "Participate in the ritual by killing one of the assembled cultists as directed.",
+      "Descend into the Cave of the Sacellum below the shrine.",
+      "Kill the remaining cultists as instructed by Boethiah to become her new champion, wearing Mephala's Ebony Mail."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Boethiah%3A%20Boethiah%27s%20Calling%20walkthrough"
+  },
+  {
+    id: 1506,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Clavicus Vile: A Daedra's Best Friend",
+    location: "Falkreath / Haemar's Shame",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masque of Clavicus Vile",
+    summary: "Help Clavicus Vile and his talking dog Barbas recover the Rueful Axe and settle their feud.",
+    aiTip: "Keep the Rueful Axe or hand it over for the Masque of Clavicus Vile — the Masque (better all-round) is the usual choice.",
+    walkthrough: [
+      "Encounter Barbas the talking dog on the road.",
+      "Travel with Barbas to the Shrine of Clavicus Vile.",
+      "Agree to retrieve the Rueful Axe from Rimerock Burrow to appease Clavicus Vile.",
+      "Fight through the Burrow's Falmer and traps to find the axe.",
+      "Choose whether to kill Barbas with the axe (fulfilling Vile's wish) or spare him and take the axe anyway."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Clavicus%20Vile%3A%20A%20Daedra%27s%20Best%20Friend%20walkthrough"
+  },
+  {
+    id: 1507,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hermaeus Mora: Discerning the Transmundane",
+    location: "Septimus Signus's Outpost / Blackreach",
+    length: "long",
+    difficulty: "High",
+    reward: "Oghma Infinium",
+    summary: "Follow the mad scholar Septimus Signus to obtain forbidden knowledge from Hermaeus Mora.",
+    aiTip: "The Oghma Infinium grants a huge one-time skill boost — save before reading it and pick the skill tree you want most.",
+    walkthrough: [
+      "Speak with Septimus Signus at his outpost north of Winterhold.",
+      "Retrieve a Blank Lexicon and Filled Black Soul Gem for him.",
+      "Return the item to Septimus and witness the ritual invoking Hermaeus Mora.",
+      "Take possession of the completed Lexicon (which can be used to open an Elder Scroll route to Sovngarde)."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hermaeus%20Mora%3A%20Discerning%20the%20Transmundane%20walkthrough"
+  },
+  {
+    id: 1508,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hircine: Ill Met by Moonlight",
+    location: "Falkreath / Bloated Man's Grotto",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Savior's Hide or Ring of Hircine",
+    summary: "Take part in Hircine's hunt and decide the fate of the werewolf Sinding.",
+    aiTip: "Helping Sinding yields the Ring of Hircine; hunting him yields the Savior's Hide armor — choose based on whether you're a werewolf.",
+    walkthrough: [
+      "Encounter the hunter Sinding, trapped in a cage in the wilderness, or find his journal.",
+      "Free Sinding and learn he's cursed to transform involuntarily into a Werewolf.",
+      "Track Sinding to Hircine's Hunting Grounds.",
+      "Choose to kill Sinding for Hircine's champion Krev the Skinner, or help Sinding escape and kill Krev instead.",
+      "Claim the Savior's Hide or Ring of Hircine depending on your choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hircine%3A%20Ill%20Met%20by%20Moonlight%20walkthrough"
+  },
+  {
+    id: 1509,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Malacath: The Cursed Tribe",
+    location: "Largashbur",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Volendrung",
+    summary: "Restore the honor of the Orc stronghold Largashbur by appeasing the Daedric Prince Malacath.",
+    aiTip: "Gather troll fat and the required items, then defeat the giant Grushnag-style chief to claim the warhammer Volendrung.",
+    walkthrough: [
+      "Travel to the Orc stronghold of Largashbur.",
+      "Learn that a giant has been terrorizing the stronghold and the chief seeks aid.",
+      "Defeat the giant threatening the stronghold.",
+      "Participate in the ritual sacrifice at Malacath's shrine to lift the tribe's curse.",
+      "Receive Volendrung, Malacath's legendary warhammer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Malacath%3A%20The%20Cursed%20Tribe%20walkthrough"
+  },
+  {
+    id: 1510,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Mephala: The Whispering Door",
+    location: "Whiterun / Hall of the Dead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ebony Blade",
+    summary: "Investigate the whispering door in Whiterun to claim Mephala's Ebony Blade.",
+    aiTip: "The Ebony Blade grows stronger as you kill people who trust you (followers, friends) — feed it to unlock its full power.",
+    walkthrough: [
+      "Travel to Dark Brotherhood Sanctuary lore or find the relevant lead about a hidden room in Windhelm.",
+      "Travel to the House of Clan Shatter-Shield in Windhelm.",
+      "Investigate the locked door and solve the puzzle involving a family secret and murder.",
+      "Retrieve Mephala's Ebony Blade from the hidden chamber."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mephala%3A%20The%20Whispering%20Door%20walkthrough"
+  },
+  {
+    id: 1511,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Meridia: The Break of Dawn",
+    location: "Mount Kilkreath",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dawnbreaker",
+    summary: "Answer Meridia's call and cleanse her temple of the necromancer Malkoran to earn Dawnbreaker.",
+    aiTip: "You'll ride a beam of light up the mountain — Dawnbreaker is superb against undead, exploding them on death.",
+    walkthrough: [
+      "Find the Dawnbreaker quest marker or the Shrine of Meridia.",
+      "Travel to the shrine and receive instructions from Meridia to cleanse her temple.",
+      "Enter the Statue of Meridia dungeon and fight through Necromancers and the undead.",
+      "Reach the inner sanctum and destroy the corrupt priest.",
+      "Claim Dawnbreaker, Meridia's radiant sword."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Meridia%3A%20The%20Break%20of%20Dawn%20walkthrough"
+  },
+  {
+    id: 1512,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Molag Bal: The House of Horrors",
+    location: "Markarth / Abandoned House",
+    length: "medium",
+    difficulty: "High",
+    reward: "Mace of Molag Bal",
+    summary: "Fall into Molag Bal's trap in a Markarth house and become his instrument against a rogue priest.",
+    aiTip: "You must beat the trapped priest Logrolf into submission with the mace — brutal, but the Mace of Molag Bal is a top-tier weapon.",
+    walkthrough: [
+      "Investigate the abandoned house in Markarth known as the Hag's Cure or similar haunted building.",
+      "Enter the house and be trapped within a supernatural dimension.",
+      "Solve the ritualistic puzzle and defeat the summoned Daedra.",
+      "Escape the house, choosing whether to keep or destroy the Skull of Corruption."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Molag%20Bal%3A%20The%20House%20of%20Horrors%20walkthrough"
+  },
+  {
+    id: 1513,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Namira: The Taste of Death",
+    location: "Reachwater / Namira's Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ring of Namira",
+    summary: "Join a cannibal cult under Namira and partake in a grim feast beneath Markarth.",
+    aiTip: "Eating the priest Eola's victim grants the Ring of Namira — a dark choice, so skip it if you're roleplaying a hero.",
+    walkthrough: [
+      "Travel to the Reach and find the Hall of the Dead in Markarth being investigated for grave robbing.",
+      "Speak with Verulus, a priest of Arkay investigating the crime.",
+      "Travel to Reachcliff Cave and meet the cannibalistic cultists of Namira.",
+      "Choose to side with Verulus against the cult, or join the cult by eating Verulus.",
+      "Claim the Ring of Namira if you side with the cultists."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Namira%3A%20The%20Taste%20of%20Death%20walkthrough"
+  },
+  {
+    id: 1514,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Nocturnal: Trinity Restored",
+    location: "Twilight Sepulcher",
+    length: "long",
+    difficulty: "High",
+    reward: "Nightingale blessing (shared with Thieves Guild)",
+    summary: "Nocturnal's quest, shared with the Thieves Guild's Nightingale arc, restoring the Skeleton Key.",
+    aiTip: "This is the same content as the Thieves Guild finale — completing it there satisfies Nocturnal's Daedric quest too.",
+    walkthrough: [
+      "See Thieves Guild questline — Trinity Restored serves as Nocturnal's associated Daedric quest, granting the Nightingale ability Nightingale Reflexes and later the Cowl of Sunlight during the tenure as Guildmaster."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
+  },
+  {
+    id: 1515,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Peryite: The Only Cure (Peryite variant - Miscarcand)",
+    location: "Bthardamz",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spellbreaker",
+    summary: "Undertake Peryite's task, purging his afflicted followers to earn the shield Spellbreaker.",
+    aiTip: "You commune with Peryite via a summoning ritual, then clear Bthardamz — Spellbreaker's ward is excellent for mages and melee alike.",
+    walkthrough: [
+      "Travel to Peryite's Shrine in the Pine Forest.",
+      "Learn of a plague affecting a band of Orcs and speak with Orchendor.",
+      "Travel to Bthardamz, a Dwemer ruin overrun by Falmer, where Orchendor has fled.",
+      "Track down and defeat Orchendor.",
+      "Retrieve Spellbreaker, Peryite's Daedric artifact."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Peryite%3A%20The%20Only%20Cure%20%28Peryite%20variant%20-%20Miscarcand%29%20walkthrough"
+  },
+  {
+    id: 1516,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sanguine: A Night to Remember",
+    location: "Whiterun / Sanguine's realm",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Sanguine Rose",
+    summary: "A drunken night out with Sam Guevenne spirals across Skyrim in service of Sanguine's revelry.",
+    aiTip: "Play along with the party quest to reach Morvunskar's portal — the Sanguine Rose summons a Dremora ally.",
+    walkthrough: [
+      "Wake up in the Temple of Dibella in Markarth with no memory of the previous night.",
+      "Piece together clues about the wild night's events from witnesses across Skyrim.",
+      "Travel to each location tied to a clue (a stolen goat, an angry giant, a rune-covered chest, etc.).",
+      "Reach Sanguine's Shrine to confront the Daedric Prince responsible.",
+      "Defeat the illusionary recreation of your own drunken escapades to claim the Sanguine Rose."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanguine%3A%20A%20Night%20to%20Remember%20walkthrough"
+  },
+  {
+    id: 1517,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Vaermina: Waking Nightmare",
+    location: "Dawnstar / Nightcaller Temple",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skull of Corruption",
+    summary: "Investigate Dawnstar's shared nightmares and confront Vaermina's priest at Nightcaller Temple.",
+    aiTip: "Decide whether to drink the Torpor and side with the priest or against him — the Skull of Corruption staff is your reward either way.",
+    walkthrough: [
+      "Travel to Dawnstar and speak with residents suffering from shared nightmares.",
+      "Investigate the Nightcaller Temple, the source of the disturbance.",
+      "Fight through the temple's guardians and traps.",
+      "Confront the priest Erandur (or the corrupted alternative) about the Skull of Corruption.",
+      "Choose to destroy the Skull (siding with Erandur) or unleash it and side with Vaermina's original intent."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Vaermina%3A%20Waking%20Nightmare%20walkthrough"
+  },
+  {
+    id: 1518,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Black Star / Divine quests overlap note",
+    location: "Winterhold / various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore note",
+    summary: "A note that the Black Star overlaps Azura's quest and cross-references the Divine quests grouping.",
+    aiTip: "This is a cross-reference entry — the actual content lives in Azura's quest (skyrim-0116); treat it as a lore pointer.",
+    walkthrough: [
+      "See 'Azura: The Black Star' above; the Daedric quest for Azura and the Black Star artifact share the same questline entry."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Black%20Star%20/%20Divine%20quests%20overlap%20note%20walkthrough"
+  },
+  {
+    id: 1519,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Tending the Flames (Bards College)",
+    location: "Solitude / Bards College",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bards College membership, Flame Cloak lead",
+    summary: "Join the Bards College and reclaim King Olaf's lost verse to revive the Burning of King Olaf festival.",
+    aiTip: "Retrieve King Olaf's Verse from Dead Men's Respite; membership lets you raise any skill via the College's book training.",
+    walkthrough: [
+      "Travel to the Bards College in Solitude.",
+      "Speak with Viarmo about joining and the ongoing feud with a rival student, Giraud Gemane.",
+      "Retrieve a Rare Chanter's Flute from a marked location to fulfill an audition request.",
+      "Complete the audition performance for Viarmo.",
+      "Progress the mystery around Giraud Gemane's sabotage attempts."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Tending%20the%20Flames%20%28Bards%20College%29%20walkthrough"
+  },
+  {
+    id: 1520,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Book of Love (Divine quest — Mara)",
+    location: "Riften / Temple of Mara",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Agent of Mara blessing",
+    summary: "Play matchmaker across Skyrim for the Temple of Mara to earn the Divine's blessing.",
+    aiTip: "Reuniting the three couples grants the Agent of Mara perk (magic resistance) — a great early defensive boon.",
+    walkthrough: [
+      "Speak with Dinya Balu at the Temple of Mara in Riften.",
+      "Agree to help playwright Dhaunayne Aundae research a romance story.",
+      "Travel to speak with three couples across Skyrim about their love stories.",
+      "Return the collected stories to Dinya Balu."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Book%20of%20Love%20%28Divine%20quest%20%E2%80%94%20Mara%29%20walkthrough"
+  },
+  {
+    id: 1521,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Heart of Dibella (Divine quest — Dibella)",
+    location: "Markarth / Temple of Dibella",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Agent of Dibella blessing",
+    summary: "Restore the Temple of Dibella by finding the Sybil and earning Dibella's favor.",
+    aiTip: "Escort or recover the young Sybil; completing it grants the Agent of Dibella combat bonus against the opposite sex.",
+    walkthrough: [
+      "Speak with Senna at the Temple of Dibella in Markarth.",
+      "Learn of corruption within the priesthood involving Priestess Hamal.",
+      "Investigate the temple and confront the guilty party.",
+      "Restore the temple's honor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heart%20of%20Dibella%20%28Divine%20quest%20%E2%80%94%20Dibella%29%20walkthrough"
+  },
+  {
+    id: 1522,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silver Hand (Divine quest — Kynareth, note: shares name with Companions quest)",
+    location: "Whiterun / Kynareth's shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Agent of Kynareth / Nettlebane",
+    summary: "A Kynareth-linked pilgrimage tied to the Eldergleam and the sacred sap of the Gildergreen.",
+    aiTip: "Retrieve Nettlebane from the Hagravens at Orphan Rock, then tap the Eldergleam to restore Whiterun's Gildergreen tree.",
+    walkthrough: [
+      "Speak with the priestess at the Temple of Kynareth in Whiterun about restoring the storm-damaged Gildergreen Tree; retrieve a sapling or branch as instructed to complete the associated ritual."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20%28Divine%20quest%20%E2%80%94%20Kynareth%2C%20note%3A%20shares%20name%20with%20Companions%20quest%29%20walkthrough"
+  },
+  {
+    id: 1523,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Pieces of the Past (Divine quest — Talos)",
+    location: "Dawnstar / Silus's Museum",
+    length: "medium",
+    difficulty: "High",
+    reward: "Mehrunes' Razor",
+    summary: "Recover the shards of Mehrunes' Razor for a museum curator, guided by the whispers of Mehrunes Dagon.",
+    aiTip: "Collect the three dagger pieces, then decide Silus's fate at the shrine — killing him for Dagon completes the reforged Razor.",
+    walkthrough: [
+      "Speak with Erikur or an associated NPC in Solitude about a hidden shrine to Talos.",
+      "Travel to the marked ancient ruin.",
+      "Retrieve the relic/amulet tied to Talos worship.",
+      "Return the item to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Pieces%20of%20the%20Past%20%28Divine%20quest%20%E2%80%94%20Talos%29%20walkthrough"
+  },
+  {
+    id: 1524,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Repairing the Phial (Side Quest)",
+    location: "Windhelm / Forgotten Vale-style ruin",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "White Phial",
+    summary: "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
+    aiTip: "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
+    walkthrough: [
+      "Speak with Nurelion at the Shining Star in Windhelm about repairing his prized Phial.",
+      "Locate ingredients or the completed Phial in a marked dungeon.",
+      "Return the item to Nurelion."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Repairing%20the%20Phial%20%28Side%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1525,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Break of Dawn (see Meridia's Daedric Quest)",
+    location: "Mount Kilkreath",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Cross-reference to Dawnbreaker",
+    summary: "A side-listing that points to Meridia's Daedric quest for the sword Dawnbreaker.",
+    aiTip: "This duplicates Meridia's quest (skyrim-0123) — completing that one covers this entry.",
+    walkthrough: [
+      "Refer to the Daedric Quests section — this entry is the same quest as 'Meridia: The Break of Dawn.'"
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Break%20of%20Dawn%20%28see%20Meridia%27s%20Daedric%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1526,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rise in the East",
+    location: "Dawnstar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, hold safety",
+    summary: "Help the people of Dawnstar deal with the pirates of the Blood Horkers threatening the harbor.",
+    aiTip: "Clear Broken Oar Grotto and defeat the pirate leader Haldyn — his ward must be dropped before he can be killed.",
+    walkthrough: [
+      "Learn about strange activity at Fort Amol from local rumors.",
+      "Investigate the fort, uncovering a Thalmor or Stormcloak/Imperial conflict thread depending on version.",
+      "Report findings to the relevant faction."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20in%20the%20East%20walkthrough"
+  },
+  {
+    id: 1527,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Blood on the Ice",
+    location: "Windhelm",
+    length: "long",
+    difficulty: "High",
+    reward: "Gold, house eligibility",
+    summary: "Solve a chilling string of murders in the streets of Windhelm as an amateur detective.",
+    aiTip: "Investigate the crime scene quickly before the trail goes cold — following the clues to Hjerim exposes the killer.",
+    walkthrough: [
+      "Investigate a string of murders in Windhelm by speaking with the guards and Jorleif.",
+      "Interview suspects and gather clues (blood samples, witness statements).",
+      "Follow the trail to the killer's hideout.",
+      "Confront and defeat the Butcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%20on%20the%20Ice%20walkthrough"
+  },
+  {
+    id: 1528,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Mind of Madness",
+    location: "Solitude / Pelagius's Mind",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wabbajack",
+    summary: "Enter the fractured mind of the mad King Pelagius at Sheogorath's behest to earn the Wabbajack.",
+    aiTip: "Solve the surreal mind puzzles (confidence, anger, paranoia) — the Wabbajack's random effects are chaotic but fun.",
+    walkthrough: [
+      "Encounter Dervenin outside the Blue Palace in Solitude seeking his missing master.",
+      "Travel to Understone Keep to find Sheogorath in disguise as Pelagius the Mad's spirit.",
+      "Enter the Pelagius Wing and dive into the mind of the deceased Emperor.",
+      "Navigate the surreal dreamscape and resolve the three personality conflicts within.",
+      "Escape the mind and receive the Wabbajack."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Mind%20of%20Madness%20walkthrough"
+  },
+  {
+    id: 1529,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Man Who Cried Wolf",
+    location: "Solitude / Wolfskull Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Falk's favor",
+    summary: "Investigate cultists attempting to summon the spirit of the Wolf Queen at Wolfskull Cave.",
+    aiTip: "Interrupt the necromantic ritual before Potema is fully summoned — this sets up the later Wolf Queen quest.",
+    walkthrough: [
+      "Speak with the Jarl of Falkreath about the town's troubles with bandits and a supposed werewolf sighting.",
+      "Investigate the claims made by a local named Vantus Loreius.",
+      "Uncover the truth behind the false werewolf story.",
+      "Report back to the Jarl."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Man%20Who%20Cried%20Wolf%20walkthrough"
+  },
+  {
+    id: 1530,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dampened Spirits (see Thieves Guild)",
+    location: "Whiterun / Honningbrew",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Cross-reference to Thieves Guild",
+    summary: "A side-listing pointing to the Thieves Guild's Dampened Spirits meadery sabotage.",
+    aiTip: "This duplicates the Thieves Guild quest (skyrim-0026) — completing that covers this entry.",
+    walkthrough: [
+      "Refer to the Thieves Guild section — duplicate quest name shared between miscellaneous and guild content."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20%28see%20Thieves%20Guild%29%20walkthrough"
+  },
+  {
+    id: 1531,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Wolf Queen Awakened",
+    location: "Solitude / Potema's Catacombs",
+    length: "long",
+    difficulty: "High",
+    reward: "Gold, Solitude standing",
+    summary: "Confront the fully awakened Wolf Queen Potema and put her restless spirit to rest for good.",
+    aiTip: "Follow Styrr and the priests into Potema's Catacombs; destroy her skull-phylactery form and expect heavy undead.",
+    walkthrough: [
+      "Investigate rumors of ghostly activity tied to Queen Potema in the Solitude catacombs.",
+      "Travel into the Reeking Cave / Potema's Catacombs beneath the city.",
+      "Fight through undead guardians to reach the ritual chamber.",
+      "Prevent (or fail to prevent) Potema's dragon priest servant from completing a resurrection ritual.",
+      "Defeat the final threat and secure Potema's remains."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Wolf%20Queen%20Awakened%20walkthrough"
+  },
+  {
+    id: 1532,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Lost to the Ages",
+    location: "Skyrim-wide / Aetherium Forge",
+    length: "long",
+    difficulty: "High",
+    reward: "Aetherial Crown / Shield / Staff",
+    summary: "Gather the scattered Aetherium Shards and reforge a legendary Dwarven artifact of your choice.",
+    aiTip: "Assemble all four shards, then choose the Aetherial Crown (wear two Standing Stones at once), Shield, or Staff at the forge.",
+    walkthrough: [
+      "Speak with Katria's ghost after finding her journal in a Dwemer ruin.",
+      "Follow a series of clues across multiple Dwemer ruins to piece together her research.",
+      "Retrieve each of the required Aetherium artifact pieces.",
+      "Reach the final Aetherium Forge and choose which artifact to craft."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Lost%20to%20the%20Ages%20walkthrough"
+  },
+  {
+    id: 1533,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Feud of Kvenel the Tongue (Dungeon Quest)",
+    location: "Nordic ruin (Kvenel's tomb)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Eduj and Okin, dungeon loot",
+    summary: "Defeat the ancient ghostly hero Kvenel the Tongue to claim his paired weapons.",
+    aiTip: "Kvenel wields a sword and axe and summons wolf spirits — bring healing and claim both Eduj and Okin from his remains.",
+    walkthrough: [
+      "Investigate the Nordic burial site tied to Kvenel's legend and clear it of undead to claim the associated lore book and loot."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Feud%20of%20Kvenel%20the%20Tongue%20%28Dungeon%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1534,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Forbidden Legend",
+    location: "Reachwater Rock / Gauldur",
+    length: "long",
+    difficulty: "High",
+    reward: "Gauldur Amulet",
+    summary: "Piece together the Gauldur legend and reunite the shattered Gauldur Amulet from three brothers.",
+    aiTip: "Defeat all three Gauldurson brothers across separate dungeons, then combine the amulet fragments at Reachwater Rock for a strong amulet.",
+    walkthrough: [
+      "Find one of Gauldur's descendants' journal fragments (Fjori and Holgeir, or Gauldur's amulet fragments).",
+      "Track down the three fragments of the Gauldur Amulet across several burial sites.",
+      "Assemble the complete Gauldur Amulet.",
+      "Enter Reachwater Rock or Folgunthur to confront Gauldur's restored spirit.",
+      "Defeat Gauldur and claim his amulet and blackblood cultist gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forbidden%20Legend%20walkthrough"
+  },
+  {
+    id: 1535,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Deception (Dungeon Quest — Volskygge)",
+    location: "Volskygge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dragon priest mask (Volsung)",
+    summary: "Fight through the ruins of Volskygge to defeat the dragon priest Volsung.",
+    aiTip: "Solve the wall puzzle to reach the summit; Volsung drops a unique mask that boosts carry weight, prices, and water-breathing.",
+    walkthrough: [
+      "Explore Volskygge to uncover the tale of Captain Wayfinder and the treacherous mapmaker who betrayed his crew; retrieve the associated unique loot from the wrecked ship interior."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Deception%20%28Dungeon%20Quest%20%E2%80%94%20Volskygge%29%20walkthrough"
+  },
+  {
+    id: 1536,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rise Again (Dungeon Quest — Ansilvund)",
+    location: "Ansilvund",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Enchanted weapon, dungeon loot",
+    summary: "Delve into Ansilvund to end the necromancer Fjori-and-Holgeir haunting and its risen guardians.",
+    aiTip: "Solve the poetic pillar puzzles using the nearby books, then defeat the necromancer to end the crypt's undead threat.",
+    walkthrough: [
+      "Investigate Ansilvund, following the tragic tale of Fjori and Holgeir, and put their spirits to rest by defeating the necromancer responsible for their torment."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
   }
 ];
