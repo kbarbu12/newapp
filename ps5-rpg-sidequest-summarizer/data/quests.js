@@ -24671,14 +24671,14 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     location: "Foothill Falls",
     length: "short",
     difficulty: "Medium",
-    reward: "Stim Canister upgrade",
-    summary: "A prospector's tip points Cal to an abandoned shack in the Foothill Falls hiding a locked workshop and its owner's fate.",
+    reward: "Priorite Shard",
+    summary: "A prospector's tip points Cal to an abandoned shack in the Foothill Falls, with a hidden cave tucked beside the water below it.",
     aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
     walkthrough: [
       "Speak to the Prospector at the Nekko Stables in Rambler's Reach to start the rumor.",
       "Travel to the Abandoned Shack in Foothill Falls on Koboh.",
-      "Solve the shack's entry puzzle using Force Pull on the hidden mechanism.",
-      "Explore the interior and claim the Stim Canister reward inside."
+      "Find the cave near the water's edge and wall-run up to the higher ledge.",
+      "Claim the Priorite Shard to complete the rumor."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Abandoned%20Shack%20walkthrough"
   },
@@ -24730,27 +24730,6 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
-    title: "Find the Gyro Module",
-    location: "Rambler's Reach",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Shatter perk; Chamber of Duality access",
-    summary: "Zee needs a rare Gyro Module to repair saloon equipment, sending Cal to recover it and, in turn, unlock the Chamber of Duality.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Take the rumor from Zee in Pyloon's Saloon.",
-      "Track the Gyro Module through the Rambler's Reach machinery.",
-      "Recover the module and return it to Zee.",
-      "Use the resulting access to reach and complete the Chamber of Duality."
-    ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20the%20Gyro%20Module%20walkthrough"
-  },
-  {
-    id: 1348,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
     title: "Help Zygg in the Swamp",
     location: "Viscid Bog",
     length: "short",
@@ -24767,7 +24746,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Help%20Zygg%20in%20the%20Swamp%20walkthrough"
   },
   {
-    id: 1349,
+    id: 1348,
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
@@ -24788,7 +24767,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20the%20Jawa%20Settlement%20walkthrough"
   },
   {
-    id: 1350,
+    id: 1349,
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
@@ -24809,25 +24788,46 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Locate%20the%20Odd%20Pair%20walkthrough"
   },
   {
-    id: 1351,
+    id: 1350,
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
     title: "Find Missing Prospectors",
-    location: "Sodden Grotto",
+    location: "Southern Reach",
     length: "short",
     difficulty: "Medium",
     reward: "Prospector rewards; lore",
-    summary: "A rumor at the saloon reports prospectors who ventured into the Sodden Grotto and never came back.",
+    summary: "A prospector at the Southern Reach reports colleagues who ventured out and never came back.",
     aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
     walkthrough: [
-      "Take the rumor from the saloon board.",
-      "Travel to the Sodden Grotto on Koboh.",
-      "Search the grotto and deal with the creatures that trapped the prospectors.",
+      "Speak to the Koboh Prospector at the Southern Reach, in front of the Rambler's Reach meditation point.",
+      "Follow the trail toward the missing prospectors' last location.",
+      "Deal with the creatures that trapped them.",
       "Recover the prospectors' effects to close out the rumor."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Missing%20Prospectors%20walkthrough"
+  },
+  {
+    id: 1351,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Find Gorge's Secret",
+    location: "Derelict Dam",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Hunter lightsaber cosmetic",
+    summary: "A prospector behind Pyloon's Saloon hints at a secret hidden out past the Derelict Dam's tar pits.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Prospector at the back of Pyloon's Saloon.",
+      "Fast-travel to the Derelict Dam and cross the filled tar pit to the Trontoshell.",
+      "Call the Trontoshell as a mount and ride it up to the branching ledges.",
+      "Force-move the crate to climb up, then open the chest for the Hunter lightsaber cosmetic."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
   },
   {
     id: 1352,
@@ -24835,44 +24835,23 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
     region: "Koboh",
-    title: "Find Gorge's Secret",
-    location: "Rambler's Reach",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Hidden cache; skill reward",
-    summary: "A prospector behind Pyloon's Saloon hints at a secret hidden in the nearby gorge.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Speak to the Prospector at the back of Pyloon's Saloon.",
-      "Descend into the gorge below Rambler's Reach.",
-      "Solve the traversal route to reach the concealed area.",
-      "Claim the hidden cache to complete the rumor."
-    ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
-  },
-  {
-    id: 1353,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
     title: "Investigate the Central Valley Facility",
-    location: "Untamed Downs",
+    location: "Alignment Control Center",
     length: "short",
     difficulty: "Medium",
     reward: "Gear upgrade; lore",
-    summary: "Reports of activity at a High Republic facility in the Untamed Downs draw Cal to investigate.",
+    summary: "Reports of activity at a High Republic facility in the Untamed Downs draw Cal to the Alignment Control Center.",
     aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
     walkthrough: [
       "Pick up the rumor from a prospector at Pyloon's Saloon.",
-      "Travel to the Central Valley facility in the Untamed Downs.",
+      "Travel to the Alignment Control Center in the Untamed Downs.",
       "Fight through its defenses and solve the interior puzzles.",
       "Reach the facility's core to complete the investigation."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Central%20Valley%20Facility%20walkthrough"
   },
   {
-    id: 1354,
+    id: 1353,
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
@@ -24893,7 +24872,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Roller%20Mine%20Factory%20walkthrough"
   },
   {
-    id: 1355,
+    id: 1354,
     type: "side",
     category: "Rumor",
     game: "Star Wars Jedi: Survivor",
@@ -24912,6 +24891,27 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Solve the chamber's puzzle to claim its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Forest%20walkthrough"
+  },
+  {
+    id: 1355,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber on the Mountain",
+    location: "Mountain Ascent",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Patience Perk (Life Regen)",
+    summary: "Toa at Pyloon's Saloon points Cal toward a High Republic chamber high up the Mountain Ascent — accessible only late in the game.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Toa in Pyloon's Saloon and finish the conversation to unlock the rumor (available after Zee is taken on Jedha, once you have Dash and the other chambers done).",
+      "Travel to the Mountain Ascent on Koboh.",
+      "Climb to the concealed chamber entrance.",
+      "Solve the chamber puzzle to earn the Patience Perk."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20on%20the%20Mountain%20walkthrough"
   },
   {
     id: 1356,
@@ -24962,18 +24962,39 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     game: "Star Wars Jedi: Survivor",
     region: "Jedha",
     title: "Explore the Ruins in the Southern Desert",
-    location: "Timarra Desert",
+    location: "Path of Restoration",
     length: "short",
     difficulty: "Medium",
-    reward: "Skill reward; lore",
-    summary: "A companion rumor from Cordova sends Cal to matching ruins in Jedha's southern desert.",
+    reward: "Perk slot; Cordova's trail",
+    summary: "A companion rumor from Cordova sends Cal to the Path of Restoration ruins in Jedha's southern desert.",
     aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
     walkthrough: [
       "Speak to Eno Cordova at the Jedha Archive to unlock the rumor.",
-      "Travel to the ruins in Jedha's southern desert.",
+      "Travel to the Path of Restoration in Jedha's southern desert.",
       "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
-      "Reach the inner chamber to finish the rumor."
+      "Reach the inner chamber to claim the perk slot."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Southern%20Desert%20walkthrough"
+  },
+  {
+    id: 1359,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Explore the Ruins in the Western Desert",
+    location: "Path of Conviction",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Perk slot; Cordova's lightsaber lead",
+    summary: "The third of Cordova's ruins rumors points Cal to the Path of Conviction in Jedha's western desert; solving all three reveals Cordova's lightsaber.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Eno Cordova at the Jedha Archive to unlock the rumor.",
+      "Travel to the Path of Conviction ruins in Jedha's western desert.",
+      "Solve the Orb-and-slider puzzle to align the mechanism.",
+      "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
   }
 ];
