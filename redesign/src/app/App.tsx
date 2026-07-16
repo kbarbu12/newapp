@@ -123,6 +123,18 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
   "new-game":<Sparkles size={11}/>, community:<Trophy size={11}/>,
 };
 
+// Cover images are hot-linked from the classic site; a request that fails or is
+// aborted during a cold first load leaves the <img> blank until a manual refresh.
+// Retry a failed cover a few times (cache-busted) so it self-heals in place.
+function retryCover(e: React.SyntheticEvent<HTMLImageElement>) {
+  const img = e.currentTarget;
+  const tries = Number(img.dataset.retry ?? 0);
+  if (tries >= 3) return;
+  img.dataset.retry = String(tries + 1);
+  const base = img.src.split("?")[0];
+  window.setTimeout(() => { img.src = `${base}?r=${tries + 1}`; }, 500 * (tries + 1));
+}
+
 // ─── YouTube embed (lite: thumbnail facade until played) ──────────────────────
 
 function getYouTubeId(url:string):string|null {
@@ -161,35 +173,69 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
   const [revealed, setRevealed] = useState(!hideSpoilers);
-  const buyUrl = `https://store.playstation.com/search/${encodeURIComponent(quest.game)}`;
   const status = questStatus(quest, completed);
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
-      {/* Banner */}
-      <div className="relative h-40 overflow-hidden rounded-t-lg sm:rounded-t-lg">
-        {meta?.cover && (<>
-          <img src={meta.cover} alt="" aria-hidden className="absolute inset-0 w-full h-full object-cover blur-2xl opacity-40 scale-110"/>
-          <img src={meta.cover} alt={quest.game} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-auto"/>
-        </>)}
-        <div className="absolute inset-0" style={{background:"linear-gradient(to top,var(--card),transparent 70%)"}}/>
+      {quest.video ? (
+        /* ── Video hero ─────────────────────────────────────────────── */
+        <div className="relative">
+          {/* Desktop header row: play chip + label (left), disclaimer (right).
+              pr-10 keeps the disclaimer clear of the absolute close button. */}
+          <div className="hidden sm:flex items-center justify-between gap-4 px-6 pt-5 pr-10 mb-3">
+            <div className="flex items-center gap-2 shrink-0">
+              <span className="w-[22px] h-[22px] rounded-[5px] bg-red-600 inline-flex items-center justify-center text-white"><Youtube size={13}/></span>
+              <span className="text-xs font-bold tracking-[0.16em] uppercase text-text-hi">Watch Walkthrough</span>
+            </div>
+            <span className="text-[11px] text-muted-foreground text-right">Video by its respective creator — not affiliated with RPG Quest Guide.</span>
+          </div>
 
-        {/* Mobile-only floating back/save buttons */}
-        <div className="sm:hidden absolute top-3 left-3 right-3 flex items-center justify-between">
-          <button onClick={onClose} aria-label="Back" className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
-            <ChevronLeft size={16}/>
-          </button>
-          <button onClick={()=>onSave(quest.id)} aria-label={saved?"Remove from saved quests":"Save quest"} className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
-            {saved ? <BookmarkCheck size={15} className="text-primary"/> : <Bookmark size={15}/>}
-          </button>
+          {/* Player: full-bleed on mobile, padded on desktop */}
+          <div className="relative sm:px-6">
+            <YouTubeEmbed url={quest.video} autoplay={autoplayVideo}/>
+            {/* Mobile-only floating back/save buttons overlaid on the video */}
+            <div className="sm:hidden absolute top-3 left-3 right-3 flex items-center justify-between z-10">
+              <button onClick={onClose} aria-label="Back" className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
+                <ChevronLeft size={16}/>
+              </button>
+              <button onClick={()=>onSave(quest.id)} aria-label={saved?"Remove from saved quests":"Save quest"} className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
+                {saved ? <BookmarkCheck size={15} className="text-primary"/> : <Bookmark size={15}/>}
+              </button>
+            </div>
+          </div>
+
+          <div className="px-4 sm:px-6 mt-3">
+            <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="inline-flex items-center gap-1.5 text-xs text-red-400 hover:underline">
+              <Youtube size={14}/> Watch on YouTube <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
-      </div>
+      ) : (
+        /* ── Cover banner (quests without a video) ──────────────────── */
+        <div className="relative h-40 overflow-hidden rounded-t-lg">
+          {meta?.cover && (<>
+            <img src={meta.cover} alt="" aria-hidden className="absolute inset-0 w-full h-full object-cover blur-2xl opacity-40 scale-110"/>
+            <img src={meta.cover} alt={quest.game} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-auto"/>
+          </>)}
+          <div className="absolute inset-0" style={{background:"linear-gradient(to top,var(--card),transparent 70%)"}}/>
+
+          {/* Mobile-only floating back/save buttons */}
+          <div className="sm:hidden absolute top-3 left-3 right-3 flex items-center justify-between">
+            <button onClick={onClose} aria-label="Back" className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
+              <ChevronLeft size={16}/>
+            </button>
+            <button onClick={()=>onSave(quest.id)} aria-label={saved?"Remove from saved quests":"Save quest"} className="w-8 h-8 rounded-full bg-black/50 backdrop-blur text-white flex items-center justify-center">
+              {saved ? <BookmarkCheck size={15} className="text-primary"/> : <Bookmark size={15}/>}
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="grid md:grid-cols-[minmax(0,1fr)_15rem] gap-6 p-4 sm:p-6 pb-24 sm:pb-6">
         {/* Body */}
         <div className="min-w-0">
           <DialogHeader className="space-y-1 text-left">
             <span className="text-[10px] font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
-            <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</DialogTitle>
+            <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</DialogTitle>
           </DialogHeader>
 
           {/* Status / difficulty / video badges */}
@@ -208,7 +254,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             {quest.region && <MetaStat label="Region">{quest.region}</MetaStat>}
           </div>
 
-          <h3 className="text-sm font-semibold text-foreground mt-5 mb-2" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Quest Summary</h3>
+          <h3 className="text-sm font-semibold text-foreground mt-5 mb-2" style={{ fontFamily:"'Spectral',serif" }}>Quest Summary</h3>
           <p className="text-xs text-foreground leading-relaxed">{quest.summary}</p>
 
           {quest.aiTip && (
@@ -225,7 +271,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           {!quest.video && hasGuide && (
             <div className="mt-5">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-sm font-semibold text-foreground" style={{ fontFamily:"'Cormorant Garamond',serif" }}>Step-by-Step Walkthrough</h3>
+                <h3 className="text-sm font-semibold text-foreground" style={{ fontFamily:"'Spectral',serif" }}>Step-by-Step Walkthrough</h3>
                 <button onClick={()=>setRevealed(r=>!r)} className="text-[10px] text-muted-foreground hover:text-primary transition-colors">
                   {revealed ? "Hide spoilers" : "Show spoilers"}
                 </button>
@@ -249,27 +295,9 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
         {/* Sidebar */}
         <aside className="flex flex-col gap-3 min-w-0">
-          {quest.video ? (
-            <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
-              <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
-              <YouTubeEmbed url={quest.video} autoplay={autoplayVideo}/>
-              <a href={quest.video} target="_blank" rel="noopener noreferrer" aria-label="Watch on YouTube (opens in a new tab)" className="flex items-center gap-1.5 text-xs text-red-400 hover:underline mt-2">
-                <Youtube size={13}/> Watch on YouTube <span aria-hidden="true">↗</span>
-              </a>
-              <p className="text-[10px] text-muted-foreground/70 mt-2 leading-relaxed">Video by its respective creator — not affiliated with RPG Quest Guide.</p>
-            </div>
-          ) : (
-            <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
-              <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">Watch Walkthrough</h4>
-              <p className="text-xs italic text-muted-foreground/70">Video walkthrough not available</p>
-            </div>
-          )}
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4">
             <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-2">About the Game</h4>
-            <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>.</p>
-            <a href={buyUrl} target="_blank" rel="noopener noreferrer" className="mt-3 flex items-center justify-center gap-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold px-3 py-2 hover:bg-primary/85 transition-colors">
-              🛒 Buy the game
-            </a>
+            <p className="text-xs text-muted-foreground leading-relaxed">This quest is part of <span className="text-foreground font-semibold">{quest.game}</span>. Buy links and related quests are coming soon.</p>
           </div>
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4 hidden sm:flex flex-col gap-2">
             <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-1">Mark Progress</h4>
@@ -286,18 +314,13 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
       </div>
 
       {/* Mobile sticky action bar */}
-      <div className="sm:hidden fixed bottom-0 inset-x-0 z-10 border-t border-border bg-card/95 backdrop-blur flex items-center gap-2 p-3" style={{ paddingBottom:"calc(0.75rem + env(safe-area-inset-bottom))" }}>
-        {quest.video && (
-          <a href={quest.video} target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-1.5 rounded-lg border border-border text-foreground text-xs font-semibold px-3 py-2.5">
-            <Youtube size={13}/> Watch
-          </a>
-        )}
-        {onComplete && (
+      {onComplete && (
+        <div className="sm:hidden fixed bottom-0 inset-x-0 z-10 border-t border-border bg-card/95 backdrop-blur flex items-center gap-2 p-3" style={{ paddingBottom:"calc(0.75rem + env(safe-area-inset-bottom))" }}>
           <button onClick={()=>onComplete(quest.id)} className="flex-1 flex items-center justify-center gap-1.5 rounded-lg text-xs font-semibold px-3 py-2.5" style={completed ? { background:"#6bbf8a26", color:"#6bbf8a", border:"1px solid #6bbf8a4d" } : { background:"#6bbf8a", color:"#0c1710" }}>
             {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>} {completed?"Marked done":"Mark done"}
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -328,14 +351,14 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
       {/* thumbnail badge */}
       <div className="relative flex items-end justify-center overflow-hidden rounded-md sm:rounded-lg flex-shrink-0 w-[42px] h-[56px] sm:w-[52px] sm:h-[70px]" style={{ backgroundColor:"#1a1a24" }}>
         {meta?.cover
-          ? <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>
+          ? <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-top"/>
           : <span className="pb-1 text-[9px] font-semibold text-muted-foreground">{meta?.abbr}</span>}
       </div>
 
       {/* content column */}
       <div className="flex-1 min-w-0">
         <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
-        <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</div>
+        <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
           <span className="hidden sm:inline-flex"><MetaChip>{quest.type==="main"?"Main":"Side"}</MetaChip></span>
           <DiffChip level={quest.difficulty}/>
@@ -400,15 +423,16 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
           const sel=selectedGame===name;
           return (
             <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name} title={name}
-              className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
-              style={{aspectRatio:"2/3"}}>
-              <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover"/>
+              className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}>
+              {/* Image carries the aspect ratio in normal flow (not absolute) so
+                  Safari sizes it on first paint; overlays layer over it. */}
+              <img src={meta.cover} alt={name} onError={retryCover} className="block w-full object-cover" style={{aspectRatio:"2/3"}}/>
               <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.92) 40%,rgba(0,0,0,.15))"}}/>
               {sel&&<div className="absolute inset-0 opacity-25" style={{background:meta.gradient}}/>}
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
               <div className="absolute bottom-0 inset-x-0 p-2 text-left">
-                <div className="text-[11px] sm:text-[9px] font-mono font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
-                <div className="text-[10px] sm:text-[8px] text-white/50 font-mono">
+                <div className="text-[11px] sm:text-[9px] font-bold tracking-widest uppercase" style={{color:sel?meta.accent:"#9ca3af"}}>{meta.abbr}</div>
+                <div className="text-[10px] sm:text-[8px] text-white/50">
                   {(completedCount[name]||0)>0
                     ? <span style={{color:meta.accent}}>{completedCount[name]}/{questCount[name]||0}</span>
                     : <>{questCount[name]||0} quests</>}
@@ -457,7 +481,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
             <Star size={9}/> Fan-made RPG Quest Database
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] max-w-2xl" style={{fontFamily:"'Cormorant Garamond',serif"}}>
+          <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] max-w-2xl" style={{fontFamily:"'Spectral',serif"}}>
             Every Quest.<br/>
             <span className="text-primary">Every Path.</span><br/>
             One Guide.
@@ -472,7 +496,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
             <button
               onClick={()=>onGoTo("browse")}
               className="flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground rounded-lg font-semibold text-sm hover:bg-primary/85 transition-colors"
-              style={{fontFamily:"'Cormorant Garamond',serif"}}
+              style={{fontFamily:"'Spectral',serif"}}
             >
               <Library size={15}/> Browse Library
             </button>
@@ -493,7 +517,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
               { label:"High Difficulty", value:QUESTS.filter(q=>q.difficulty==="High").length },
             ].map(({label,value})=>(
               <div key={label} className="flex flex-col">
-                <span className="text-2xl font-bold text-primary" style={{fontFamily:"'Cormorant Garamond',serif"}}>{value}</span>
+                <span className="text-2xl font-bold text-primary" style={{fontFamily:"'Spectral',serif"}}>{value}</span>
                 <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">{label}</span>
               </div>
             ))}
@@ -525,7 +549,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
                 <Pill className="text-primary bg-primary/10 border-primary/20"><Star size={9}/> Featured Quest</Pill>
                 <span className="text-[9px] text-muted-foreground" style={{color:GAMES[questOfWeek.game].accent}}>{questOfWeek.game}</span>
               </div>
-              <h2 className="text-2xl font-bold text-foreground" style={{fontFamily:"'Cormorant Garamond',serif"}}>{questOfWeek.title}</h2>
+              <h2 className="text-2xl font-bold text-foreground" style={{fontFamily:"'Spectral',serif"}}>{questOfWeek.title}</h2>
               <p className="text-sm text-muted-foreground leading-relaxed">{questOfWeek.summary}</p>
               {questOfWeek.reward && (
                 <p className="text-xs text-muted-foreground"><span className="text-foreground font-medium">Reward:</span> {questOfWeek.reward}</p>
@@ -572,7 +596,7 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
                         {NEWS_ICON[item.type]} {item.tag}
                       </span>
                     )}
-                    <h3 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors leading-snug" style={{fontFamily:"'Cormorant Garamond',serif"}}>{item.title}</h3>
+                    <h3 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors leading-snug" style={{fontFamily:"'Spectral',serif"}}>{item.title}</h3>
                     <p className="text-[11px] text-muted-foreground leading-relaxed line-clamp-2 flex-1">{item.body}</p>
                     <span className="text-[9px] text-muted-foreground/60 flex items-center gap-1 mt-1"><Calendar size={8}/>{item.date}</span>
                   </div>
@@ -597,14 +621,13 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
                   key={name}
                   onClick={()=>onGoTo("browse",{game:name})}
                   className="group relative rounded-lg overflow-hidden border border-border hover:border-white/25 hover:scale-[1.04] transition-all duration-200 shadow-sm"
-                  style={{aspectRatio:"2/3"}}
                   aria-label={name}
                 >
-                  <img src={meta.cover} alt={name} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
+                  <img src={meta.cover} alt={name} onError={retryCover} className="block w-full object-cover transition-transform duration-300 group-hover:scale-105" style={{aspectRatio:"2/3"}}/>
                   <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.9) 35%,rgba(0,0,0,.2) 100%)"}}/>
                   <div className="absolute bottom-0 inset-x-0 p-2.5">
-                    <div className="text-[9px] font-mono font-bold tracking-widest uppercase group-hover:text-white transition-colors" style={{color:meta.accent}}>{meta.abbr}</div>
-                    <div className="text-[8px] text-white/50 font-mono">{count} quest{count!==1?"s":""}</div>
+                    <div className="text-[9px] font-bold tracking-widest uppercase group-hover:text-white transition-colors" style={{color:meta.accent}}>{meta.abbr}</div>
+                    <div className="text-[8px] text-white/50">{count} quest{count!==1?"s":""}</div>
                   </div>
                   {/* Hover accent glow */}
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200" style={{boxShadow:`inset 0 0 0 1px ${meta.accent}33`}}/>
@@ -665,7 +688,7 @@ function NewsTab() {
               <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-sm text-[10px] font-medium border ${NEWS_STYLE[featured.type]}`}>{NEWS_ICON[featured.type]} {featured.tag}</span>
               <span className="text-[10px] text-muted-foreground flex items-center gap-1"><Calendar size={9}/> {featured.date}</span>
             </div>
-            <h2 className="text-xl font-bold text-foreground leading-snug" style={{fontFamily:"'Cormorant Garamond',serif"}}>{featured.title}</h2>
+            <h2 className="text-xl font-bold text-foreground leading-snug" style={{fontFamily:"'Spectral',serif"}}>{featured.title}</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">{featured.body}</p>
             {featured.game&&<span className="text-xs" style={{color:GAMES[featured.game]?.accent}}>{featured.game}</span>}
           </div>
@@ -691,7 +714,7 @@ function NewsTab() {
                   {gm&&<span className="text-[9px] truncate" style={{color:gm.accent}}>{item.game}</span>}
                   <span className="text-[9px] text-muted-foreground ml-auto flex items-center gap-1 shrink-0"><Calendar size={8}/> {item.date}</span>
                 </div>
-                <h3 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors" style={{fontFamily:"'Cormorant Garamond',serif"}}>{item.title}</h3>
+                <h3 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors" style={{fontFamily:"'Spectral',serif"}}>{item.title}</h3>
                 <p className="text-[11px] text-muted-foreground leading-relaxed line-clamp-2">{item.body}</p>
               </div>
             </div>
@@ -769,7 +792,7 @@ function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoT
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between gap-2">
-                  <span className="text-sm font-semibold text-foreground truncate" style={{fontFamily:"'Cormorant Garamond',serif"}}>{r.game}</span>
+                  <span className="text-sm font-semibold text-foreground truncate" style={{fontFamily:"'Spectral',serif"}}>{r.game}</span>
                   <span className="text-[11px] text-emerald-400 font-semibold shrink-0 tabular-nums">{r.pct}%</span>
                 </div>
                 <div className="h-1.5 rounded-full bg-[var(--card-2)] mt-1.5 overflow-hidden">
@@ -952,7 +975,7 @@ function ChatWidget() {
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
-            <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>Quest Assistant</span></div>
+            <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Spectral',serif"}}>Quest Assistant</span></div>
             <div className="flex items-center gap-1">
               <button onClick={()=>setShowHelp(h=>!h)} aria-label="What can I ask?" aria-pressed={showHelp} className={`transition-colors ${showHelp?"text-primary":"text-muted-foreground hover:text-foreground"}`}><Info size={15}/></button>
               <button onClick={()=>setOpen(false)} aria-label="Close chat" className="text-muted-foreground hover:text-foreground"><X size={16}/></button>
@@ -1262,12 +1285,12 @@ export default function App() {
   // user hasn't approved. (Applies to prod and staging alike.)
   if(TABS.length===0){
     return (
-      <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 text-center" style={{fontFamily:"'Inter',sans-serif"}}>
+      <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 text-center" style={{fontFamily:"'Geist',sans-serif"}}>
         <div className="max-w-sm">
           <div className="w-10 h-10 rounded border border-primary/40 bg-primary/10 flex items-center justify-center mx-auto mb-4">
             <Swords size={18} className="text-primary"/>
           </div>
-          <h1 className="text-lg font-semibold mb-1" style={{fontFamily:"'Cormorant Garamond',serif"}}>RPG Quest Guide</h1>
+          <h1 className="text-lg font-semibold mb-1" style={{fontFamily:"'Spectral',serif"}}>RPG Quest Guide</h1>
           <p className="text-sm text-muted-foreground">The redesign is being rolled out section by section. No sections have gone live here yet.</p>
         </div>
       </div>
@@ -1275,7 +1298,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground pb-20 sm:pb-0" style={{fontFamily:"'Inter',sans-serif"}}>
+    <div className="min-h-screen bg-background text-foreground pb-20 sm:pb-0" style={{fontFamily:"'Geist',sans-serif"}}>
 
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur-md">
@@ -1284,9 +1307,9 @@ export default function App() {
             <div className="w-7 h-7 rounded border border-primary/40 bg-primary/10 flex items-center justify-center">
               <Swords size={14} className="text-primary"/>
             </div>
-            <span className="text-base font-semibold hidden sm:block" style={{fontFamily:"'Cormorant Garamond',serif"}}>RPG Quest Guide</span>
+            <span className="text-base font-semibold hidden sm:block" style={{fontFamily:"'Spectral',serif"}}>RPG Quest Guide</span>
             {IS_STAGING && (
-              <span className="ml-1 px-1.5 py-0.5 rounded text-[9px] font-mono font-bold uppercase tracking-wide bg-amber-500/15 text-amber-400 border border-amber-500/30">Staging</span>
+              <span className="ml-1 px-1.5 py-0.5 rounded text-[9px] font-bold uppercase tracking-wide bg-amber-500/15 text-amber-400 border border-amber-500/30">Staging</span>
             )}
           </button>
 
@@ -1317,7 +1340,7 @@ export default function App() {
         <div className="border-b border-border bg-secondary/20">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center gap-4">
             <div>
-              <h1 className="text-lg font-bold text-foreground" style={{fontFamily:"'Cormorant Garamond',serif"}}>
+              <h1 className="text-lg font-bold text-foreground" style={{fontFamily:"'Spectral',serif"}}>
                 {tab==="browse" ? (selectedGame!=="All" ? <><span style={{color:selectedMeta?.accent}}>{selectedGame}</span> — Quest Library</> : "Quest Library")
                  : tab==="news" ? "Latest Updates"
                  : tab==="progress" ? "Progress"
@@ -1372,7 +1395,7 @@ export default function App() {
                   </div>
                   <GameGallery selectedGame={selectedGame} onSelect={setSelectedGame} completedIds={completedIds}/>
                   <div className="flex items-center gap-2 mt-3 overflow-x-auto flex-nowrap pb-0.5">
-                    <span className="text-[10px] font-mono font-bold text-muted-foreground/60 uppercase tracking-widest mr-1">Difficulty</span>
+                    <span className="text-[10px] font-bold text-muted-foreground/60 uppercase tracking-widest mr-1">Difficulty</span>
                     {(["All","Low","Medium","High"] as DiffFilter[]).map(d=>(
                       <button key={d} onClick={()=>setDiffFilter(d)}
                         className={`px-2.5 py-0.5 rounded-full text-[11px] font-medium border transition-colors ${diffFilter===d?"bg-primary text-primary-foreground border-primary":"border-border text-muted-foreground hover:text-foreground hover:border-white/30"}`}>
@@ -1453,7 +1476,7 @@ export default function App() {
       {/* ── Footer ── */}
       <footer className="border-t border-border mt-8">
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div className="flex items-center gap-2"><Swords size={13} className="text-primary"/><span className="text-sm font-semibold" style={{fontFamily:"'Cormorant Garamond',serif"}}>RPG Quest Guide</span></div>
+          <div className="flex items-center gap-2"><Swords size={13} className="text-primary"/><span className="text-sm font-semibold" style={{fontFamily:"'Spectral',serif"}}>RPG Quest Guide</span></div>
           <div className="flex flex-col sm:items-end gap-1">
             <a href="https://github.com/kbarbu12/newapp/issues" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary transition-colors">Report an issue ↗</a>
             <p className="text-[10px] text-muted-foreground/50">Fan-made · Not affiliated with any publisher or developer.</p>
