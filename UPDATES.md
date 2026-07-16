@@ -343,6 +343,12 @@ These were not in the original 12 findings. Noted here for the next pass.
 **Branch:** `claude/mr-quests-walkthroughs-5c6pyx`
 **Live site:** https://kbarbu12.github.io/newapp/
 
+> ⚠️ **Superseded (2026-07-16).** A guide-audit found this pass had introduced
+> ~53 fabricated filler quests with invented names that don't exist in the game.
+> Metaphor was fully rebuilt to its real 76 quests on 2026-07-16 — see the
+> **"Metaphor: ReFantazio quest data rebuilt (guide-verified)"** entry at the top
+> of this file. Treat the details below as historical/inaccurate.
+
 ## What this update does
 Added all 71 missing quests from the uploaded Metaphor: ReFantazio quest
 database docx to `ps5-rpg-sidequest-summarizer/data/quests.js`. Every entry
