@@ -1,0 +1,75 @@
+{
+  "_comment": "Template for adding a new game. See SCHEMA.md for the full rules. Delete this _comment before sending. Do NOT include quest ids (Claude renumbers). Omit 'video' when there is no unique real YouTube link — Claude fills a search URL. Every quest's 'category' value must match a subFilter.options[].value, and every 'title' must be unique within the game.",
+
+  "game": "Example Game: Full Title",
+
+  "gameImage": {
+    "gradient": "linear-gradient(135deg, #0a1620 0%, #2c5c6e 50%, #a9d6e5 100%)",
+    "abbr": "EG",
+    "cover": "images/example-game.svg"
+  },
+
+  "subFilter": {
+    "field": "category",
+    "label": "Questline",
+    "options": [
+      { "value": "Main Story", "text": "Main Story" },
+      { "value": "Companion", "text": "Companion Quests" },
+      { "value": "Side Quest", "text": "Side Quests" }
+    ]
+  },
+
+  "quests": [
+    {
+      "type": "main",
+      "category": "Main Story",
+      "title": "The Opening Gambit",
+      "location": "Starting Village",
+      "length": "short",
+      "difficulty": "Low",
+      "reward": "Tutorial gear, first ability",
+      "summary": "The opening quest that teaches core movement and combat while setting up the central conflict.",
+      "aiTip": "Explore every room before leaving — the tutorial area hides an easy-to-miss upgrade.",
+      "walkthrough": [
+        "Follow the on-screen prompts out of the starting area.",
+        "Defeat the first group of enemies to learn the combat basics.",
+        "Speak with the mentor NPC to receive your first ability.",
+        "Head to the village to trigger the next quest."
+      ],
+      "video": "https://www.youtube.com/watch?v=REALVIDEOID"
+    },
+    {
+      "type": "side",
+      "category": "Companion",
+      "title": "A Friend in Need",
+      "location": "Riverside Camp",
+      "length": "medium",
+      "difficulty": "Medium",
+      "reward": "Companion loyalty, unique weapon",
+      "summary": "A companion-focused quest that deepens their backstory and unlocks a personal reward.",
+      "aiTip": "Bring this companion along in your party for extra dialogue and a better outcome.",
+      "walkthrough": [
+        "Talk to the companion at camp to start the quest.",
+        "Travel to the marked location and investigate the scene.",
+        "Resolve the confrontation through dialogue or combat.",
+        "Return to camp to claim the loyalty reward."
+      ]
+    },
+    {
+      "type": "side",
+      "category": "Side Quest",
+      "title": "Lost and Found",
+      "location": "Old Market District",
+      "length": "short",
+      "difficulty": "Low",
+      "reward": "Gold, minor loot",
+      "summary": "A short fetch-style side quest that rewards exploration of the market district.",
+      "aiTip": "Check the rooftops — the item you need is often placed somewhere the main path skips.",
+      "walkthrough": [
+        "Accept the request from the merchant.",
+        "Search the district for the missing item.",
+        "Return the item to the merchant for your reward."
+      ]
+    }
+  ]
+}
