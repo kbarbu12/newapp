@@ -17,8 +17,8 @@ export const PROMOTED_TABS: Record<Tab, boolean> = {
   browse: true,    // Library — live in prod
   news: false,     // not yet promoted
   saved: true,     // live in prod
-  progress: false, // not yet promoted
-  settings: false, // not yet promoted
+  progress: true,  // live in prod
+  settings: true,  // live in prod
 };
 
 // Build target — injected by Vite (VITE_TARGET). Defaults to staging so local

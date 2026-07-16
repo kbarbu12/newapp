@@ -79,6 +79,10 @@ jobs:
           cp -r staging-src/redesign/dist/staging _site/staging
           cp -r prod-src/redesign/dist/prod/. _site/
           cp prod-src/deploy/root-sw.js _site/sw.js
+          # Serve the Google Search Console verification file at the site root
+          # too — the property is the /newapp/ prefix, and the classic app now
+          # lives under /classic/, so root is where Google re-checks for it.
+          cp prod-src/ps5-rpg-sidequest-summarizer/google1cb4ea54f74126dd.html _site/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

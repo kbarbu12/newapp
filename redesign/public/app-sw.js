@@ -6,6 +6,31 @@ const CACHE = "quest-guide-shell-v1";
 
 self.addEventListener("install", () => self.skipWaiting());
 
+// Explicit "Download for offline" (Settings): the page sends the list of
+// same-origin URLs it has already loaded (app shell + bundled quest data) and
+// we precache them so the app opens with no network.
+self.addEventListener("message", (event) => {
+  const data = event.data;
+  if (!data || data.type !== "CACHE_URLS" || !Array.isArray(data.urls)) return;
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(CACHE);
+      await Promise.all(
+        data.urls.map(async (url) => {
+          try {
+            const res = await fetch(url, { cache: "reload" });
+            if (res.ok) await cache.put(url, res.clone());
+          } catch {
+            /* skip anything that can't be fetched */
+          }
+        })
+      );
+      const source = event.source;
+      if (source) source.postMessage({ type: "CACHE_URLS_DONE" });
+    })()
+  );
+});
+
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {

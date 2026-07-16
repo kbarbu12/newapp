@@ -83,6 +83,16 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0a1a2e 0%, #1e6091 50%, #38bdf8 100%)",
     abbr: "POE2",
     cover: "images/pillars-of-eternity-2.svg"
+  },
+  "Star Wars Jedi: Fallen Order": {
+    gradient: "linear-gradient(135deg, #05070d 0%, #1e3a8a 50%, #38bdf8 100%)",
+    abbr: "JFO",
+    cover: "images/jedi-fallen-order-cover.jpg"
+  },
+  "Star Wars Jedi: Survivor": {
+    gradient: "linear-gradient(135deg, #0a0510 0%, #b45309 45%, #f59e0b 100%)",
+    abbr: "JS",
+    cover: "images/jedi-survivor-cover.jpg"
   }
 };
 
@@ -327,7 +337,60 @@ const subFilterConfig = {
       { value: "Mementos Requests", text: "Mementos Requests" },
       { value: "Activities", text: "Activities" }
     ]
-  }
+  },
+  "Star Wars Jedi: Fallen Order": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Main Story", text: "Main Story" },
+        { value: "Legendary Beast", text: "Legendary Beasts" },
+        { value: "Tomb & Puzzle", text: "Tombs & Puzzles" },
+        { value: "Collectibles", text: "Collectibles" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Planet",
+      options: [
+        { value: "Bracca", text: "Bracca" },
+        { value: "Bogano", text: "Bogano" },
+        { value: "Zeffo", text: "Zeffo" },
+        { value: "Kashyyyk", text: "Kashyyyk" },
+        { value: "Dathomir", text: "Dathomir" },
+        { value: "Ilum", text: "Ilum" },
+        { value: "Nur", text: "Nur" },
+        { value: "All Planets", text: "All Planets" }
+      ]
+    }
+  ],
+  "Star Wars Jedi: Survivor": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Main Story", text: "Main Story" },
+        { value: "Legendary Enemy", text: "Legendary Enemies" },
+        { value: "Legendary Bounty", text: "Legendary Bounties" },
+        { value: "Jedi Chamber", text: "Jedi Chambers" },
+        { value: "Rumor", text: "Rumors" },
+        { value: "Collectibles", text: "Collectibles" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Planet",
+      options: [
+        { value: "Coruscant", text: "Coruscant" },
+        { value: "Koboh", text: "Koboh" },
+        { value: "Jedha", text: "Jedha" },
+        { value: "Shattered Moon", text: "Shattered Moon" },
+        { value: "Nova Garon", text: "Nova Garon" },
+        { value: "Tanalorr", text: "Tanalorr" },
+        { value: "All Planets", text: "All Planets" }
+      ]
+    }
+  ]
 };
 
 const quests = [
@@ -338,6 +401,8 @@ const quests = [
     game: "Baldur's Gate 3",
     act: 3,
     title: "Rescue the Grand Duke",
+    missable: true,
+    missableWindow: "Act 3",
     location: "Wyrm's Rock / Iron Throne",
     length: "long",
     difficulty: "High",
@@ -484,6 +549,8 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Santo Domingo",
     title: "Sinnerman",
+    missable: true,
+    missableWindow: "Act 2",
     location: "Night City",
     length: "medium",
     difficulty: "Medium",
@@ -548,6 +615,8 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Towerful of Mice",
+    missable: true,
+    missableWindow: "Before Act 3 (Isle of Mists)",
     location: "Fyke Isle, Velen",
     length: "medium",
     difficulty: "Medium",
@@ -564,6 +633,8 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Carnal Sins",
+    missable: true,
+    missableWindow: "Before Act 3 (Isle of Mists)",
     location: "Novigrad",
     length: "medium",
     difficulty: "High",
@@ -935,6 +1006,8 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Now or Never",
+    missable: true,
+    missableWindow: "Before Act 3 (Isle of Mists)",
     location: "Novigrad",
     length: "long",
     difficulty: "Medium",
@@ -1820,7 +1893,7 @@ const quests = [
       "Open Natsai Onai's companion questline by helping her and her mother settle into the Dyrwood — and dig into the Ashwinder trouble stirring nearby.",
     aiTip:
       "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Mum's%20the%20Word%20Natty%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pDgBBzhZhEE"
   },
   {
     id: 93,
@@ -2515,6 +2588,8 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Riders on the Storm",
+    missable: true,
+    missableWindow: "Before Point of No Return",
     location: "Badlands",
     length: "medium",
     difficulty: "High",
@@ -2717,7 +2792,7 @@ const quests = [
       "Begin Poppy Sweeting's companion questline by helping her rescue a poached beast egg and return it safely to its mother.",
     aiTip:
       "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Poached%20Egg%20Poppy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qyrF3EJMKZA"
   },
   {
     id: 149,
@@ -4614,6 +4689,8 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Happy Together",
+    missable: true,
+    missableWindow: "Act 2",
     location: "Watson – Little China",
     length: "short",
     difficulty: "Low",
@@ -4726,6 +4803,8 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "With a Little Help from My Friends",
+    missable: true,
+    missableWindow: "Before Point of No Return",
     location: "Badlands – Aldecaldos Camp",
     length: "short",
     difficulty: "Low",
@@ -8244,7 +8323,7 @@ const quests = [
       "A late arrival to Hogwarts, your fifth-year student survives a dragon attack and discovers a gift for ancient magic.",
     aiTip:
       "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Path%20to%20Hogwarts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4j81ThxRkWQ"
   },
   {
     id: 490,
@@ -8261,7 +8340,7 @@ const quests = [
       "Get sorted, meet Professor Fig and your housemates, and settle into castle life.",
     aiTip:
       "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogwarts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FQLqJ0qIid4"
   },
   {
     id: 491,
@@ -8278,7 +8357,7 @@ const quests = [
       "Professor Fig and your student delve into a locket's memories tied to the goblin rebellion.",
     aiTip:
       "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Locket's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
   },
   {
     id: 492,
@@ -8295,7 +8374,7 @@ const quests = [
       "Enter the first Keeper's trial to learn the truth about ancient magic and the wizard Isidora.",
     aiTip:
       "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Percival%20Rackham's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
   },
   {
     id: 493,
@@ -8312,7 +8391,7 @@ const quests = [
       "Follow the ghost of the student Richard Jackdaw to unlock hidden passages beneath the castle.",
     aiTip:
       "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Jackdaw's%20Rest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
   },
   {
     id: 494,
@@ -8329,7 +8408,7 @@ const quests = [
       "Storm a poacher stronghold with Poppy Sweeting to rescue captured magical beasts.",
     aiTip:
       "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20High%20Keep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZDZGlnwAms"
   },
   {
     id: 495,
@@ -8346,7 +8425,7 @@ const quests = [
       "Team with Natsai Onai to investigate the poachers and dark wizard Victor Rookwood.",
     aiTip:
       "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Girl%20from%20Uagadou%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WWyPUH35RQU"
   },
   {
     id: 496,
@@ -8363,7 +8442,7 @@ const quests = [
       "Solve the second Keeper's trial to gather more of the ancient magic that Ranrok covets.",
     aiTip:
       "Another puzzle dungeon — the new abilities carry into combat and exploration.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Niamh%20Fitzgerald's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QlkMzEO2NgQ"
   },
   {
     id: 497,
@@ -8380,7 +8459,7 @@ const quests = [
       "Brave San Bakar's trial high in the mountains, unlocking new traversal and ancient power.",
     aiTip:
       "Rewards flight/mount access to remote areas — a big exploration upgrade.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20San%20Bakar's%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GrjwUFX970M"
   },
   {
     id: 498,
@@ -8397,7 +8476,7 @@ const quests = [
       "Sebastian's pursuit of dark magic reaches a breaking point, forcing a hard choice about the Unforgivable Curses.",
     aiTip:
       "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Relic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Cg_nMdHsuNo"
   },
   {
     id: 499,
@@ -8414,7 +8493,7 @@ const quests = [
       "The climactic battle against the goblin leader Ranrok and the hoard of contained ancient magic.",
     aiTip:
       "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Final%20Repository%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hue4Z_G2ttA"
   },
   {
     id: 500,
@@ -8431,7 +8510,7 @@ const quests = [
       "Help Sebastian search for a cure for his cursed twin sister, Anne.",
     aiTip:
       "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Bloodline%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sH99VVGDdUg"
   },
   {
     id: 501,
@@ -8448,7 +8527,7 @@ const quests = [
       "Sebastian's quest for forbidden power culminates in tragedy and a choice about loyalty.",
     aiTip:
       "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Time%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5T4pefO394w"
   },
   {
     id: 502,
@@ -8465,7 +8544,7 @@ const quests = [
       "Join Natty to rescue a child abducted by poachers and gather intel on Rookwood.",
     aiTip:
       "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lost%20Child%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M2Lh1rCW__I"
   },
   {
     id: 503,
@@ -8482,7 +8561,7 @@ const quests = [
       "The conclusion of Natty's hunt for the poachers and the man who hurt her family.",
     aiTip:
       "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Grief%20and%20Vengeance%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8qowtCnPfDw"
   },
   {
     id: 504,
@@ -8499,7 +8578,7 @@ const quests = [
       "Meet Poppy Sweeting for a planned outing that takes an unexpected turn, deepening your friendship as her questline continues.",
     aiTip:
       "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Surprise%20Meeting%20Poppy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
   },
   {
     id: 505,
@@ -8516,7 +8595,7 @@ const quests = [
       "Enlist the Gobbledegook-reading Ravenclaw Amit Thakkar to translate a captured goblin manuscript and uncover Ranrok's plans. (Amit is the one companion with no personal relationship questline — this is a main-story quest.)",
     aiTip:
       "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20All%20Gobbledegook%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4EVxcKhIWmY"
   },
   {
     id: 506,
@@ -8533,7 +8612,7 @@ const quests = [
       "Investigate the strange magical wells scattered around the Hogwarts region for a curious researcher.",
     aiTip:
       "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Well%2C%20Well%2C%20Well%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
   },
   {
     id: 507,
@@ -8550,7 +8629,7 @@ const quests = [
       "Take over an abandoned Hogsmeade shop and turn it into your personal storefront.",
     aiTip:
       "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Minding%20Your%20Own%20Business%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uJoQQhDUIE4"
   },
   {
     id: 508,
@@ -8567,7 +8646,7 @@ const quests = [
       "Chase the flying Daedalian Keys through the castle to unlock a rewarding chest hoard.",
     aiTip:
       "There are 16 keys — catch each one, then find its matching moving door for the loot.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Daedalian%20Keys%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lwgsiMEle20"
   },
   {
     id: 509,
@@ -8584,7 +8663,7 @@ const quests = [
       "Assist Mr. Ollivander's shop and craft the wand that best suits you.",
     aiTip:
       "Wand cosmetics are purely visual, but the quest is a lovely bit of wizarding flavor.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivanders%20%26%20the%20Perfect%20Wand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fIt-643KYRY"
   },
   {
     id: 510,
@@ -8601,7 +8680,7 @@ const quests = [
       "Track down the missing explorer Rowland Oakes across dangerous ruins and caves.",
     aiTip:
       "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Tale%20of%20Rowland%20Oakes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=olE0hw0uXz0"
   },
   {
     id: 511,
@@ -8618,7 +8697,7 @@ const quests = [
       "Help a lovestruck ghost reconnect with a lost sweetheart in a bittersweet, funny detour.",
     aiTip:
       "Low stakes and charming — a good break between combat-heavy quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Prisoner%20of%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lSZ8-En-TQg"
   },
   {
     id: 512,
@@ -8635,7 +8714,7 @@ const quests = [
       "Solve the environmental Merlin Trials scattered across the Highlands to expand your gear capacity.",
     aiTip:
       "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Merlin%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
   },
   {
     id: 513,
@@ -8652,7 +8731,7 @@ const quests = [
       "Collect the hidden Field Guide Pages using Revelio and the Flying-page chases.",
     aiTip:
       "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Field%20Guide%20Pages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XtS7xAM2MaQ"
   },
   {
     id: 514,
@@ -8669,7 +8748,7 @@ const quests = [
       "Recover the elusive Demiguise Statues at night for Gladwin Moon to upgrade your Alohomora spell.",
     aiTip:
       "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Demiguise%20Statues%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
   },
   {
     id: 515,
@@ -8686,7 +8765,15 @@ const quests = [
       "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
     aiTip:
       "Pure completionist content — pair with Merlin Trials while exploring each region.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ancient%20Magic%20Hotspots%20%26%20Collection%20Chests%20walkthrough"
+video: "https://www.youtube.com/watch?v=HdRArGAruCc",
+    walkthrough: [
+      "Progress the main story past Percival Rackham's Trial — Ancient Magic Hotspots only appear once you can sense Ancient Magic.",
+      "Open the map and look for the swirling Ancient Magic Hotspot icons; there are 20 spread across Hogwarts Valley, the Highlands, Hogsmeade Valley, the Forbidden Forest, the Coast, Feldcroft, Manor Cape, North Ford Bog and Marunweem.",
+      "Fast-travel to a hotspot and interact with the glowing pool to begin the challenge.",
+      "Cast Revelio to reveal the nearby traces of Ancient Magic, then walk into each glowing trace to absorb it before it fades.",
+      "Collect every trace in the area to complete the hotspot and permanently extend your Ancient Magic meter.",
+      "Repeat at all 20 hotspots to max out the meter and finish the Exploration challenge."
+    ]
   },
   {
     id: 516,
@@ -8703,7 +8790,7 @@ const quests = [
       "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
     aiTip:
       "Central to progression — breed beasts for Traits that upgrade your gear's power.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20%26%20Vivarium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
   },
   {
     id: 517,
@@ -10007,6 +10094,8 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "The Gangs of Novigrad",
+    missable: true,
+    missableWindow: "Before Act 3 (Isle of Mists)",
     location: "Novigrad",
     length: "long",
     difficulty: "High",
@@ -11699,7 +11788,7 @@ const quests = [
       "Attend Professor Ronen's Charms lesson and learn the summoning charm Accio.",
     aiTip:
       "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C3BYlUF7S4A"
   },
   {
     id: 701,
@@ -11716,7 +11805,7 @@ const quests = [
       "Learn the levitation spell Levioso in Professor Hecat's DADA lesson.",
     aiTip:
       "Levioso suspends enemies — a key combat opener you'll use constantly.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=isCGCWNLuJo"
   },
   {
     id: 702,
@@ -11733,7 +11822,7 @@ const quests = [
       "Brew your first potions with Professor Sharp and unlock the Potions station.",
     aiTip:
       "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A7EKUPK6-Po"
   },
   {
     id: 703,
@@ -11750,7 +11839,7 @@ const quests = [
       "Master broom flight with Madam Kogawa, unlocking the skies over the Highlands.",
     aiTip:
       "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9MREmSZDN6M"
   },
   {
     id: 704,
@@ -11767,7 +11856,7 @@ const quests = [
       "Sneak into the library's Restricted Section with Sebastian to chase forbidden knowledge.",
     aiTip:
       "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Secrets%20of%20the%20Restricted%20Section%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2ClxjV7kCp8"
   },
   {
     id: 705,
@@ -11784,7 +11873,7 @@ const quests = [
       "Unlock the hidden Map Chamber and the Keepers' guidance beneath the school.",
     aiTip:
       "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Map%20Chamber%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p5CTz7oNuDE"
   },
   {
     id: 706,
@@ -11801,7 +11890,7 @@ const quests = [
       "Help the goblin Lodgok recover a stolen ceremonial helm, deepening the Ranrok conflict.",
     aiTip:
       "An early Highlands quest that opens up exploration and goblin-plot context.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Helm%20of%20Urtkot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ATRG5YtogNQ"
   },
   {
     id: 707,
@@ -11818,7 +11907,7 @@ const quests = [
       "Investigate the Ashwinder gang's arson and extortion around Hogsmeade.",
     aiTip:
       "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Fire%20and%20Vice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0PNpg9xizUo"
   },
   {
     id: 708,
@@ -11835,7 +11924,7 @@ const quests = [
       "Delve with Sebastian into the Sallow family's cursed scriptorium for a cure for Anne.",
     aiTip:
       "Advances the game's darkest arc — the moral choices intensify from here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Study%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3HVWihCCfso"
   },
   {
     id: 709,
@@ -11852,7 +11941,14 @@ const quests = [
       "Investigate a poacher-linked Animagus with the eccentric Poppy connection.",
     aiTip:
       "A memorable side story with a satisfying reveal — moderate combat.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unnatural%20Animagus%20walkthrough"
+video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
+    walkthrough: [
+      "Pick up the quest in Hogsmeade and speak with the quest giver to learn about the suspicious Animagus.",
+      "Follow the objective marker to the poacher-linked location and investigate the area with Revelio.",
+      "Defeat the poachers guarding the site and free any captured beasts with your Nab-Sack.",
+      "Confront the Animagus and see the reveal play out through the ensuing conversation and fight.",
+      "Loot the nearby chests and claim your reward before leaving."
+    ]
   },
   {
     id: 710,
@@ -11869,7 +11965,7 @@ const quests = [
       "Help the reclusive Gladwin Moon in the quest tied to upgrading your Alohomora.",
     aiTip:
       "Pairs with Demiguise Statue collection — do them together at night.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Man%20Behind%20the%20Moons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S0vvmB-he4A"
   },
   {
     id: 711,
@@ -11886,7 +11982,7 @@ const quests = [
       "Rescue a hunted magical beast and learn to use the Nab-Sack from Deek.",
     aiTip:
       "Introduces beast-catching — the foundation for Vivarium upgrades.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Bird%20in%20the%20Hand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SG9_r_upWac"
   },
   {
     id: 712,
@@ -11903,7 +11999,7 @@ const quests = [
       "Follow a riddle to a hidden cache tucked deep within Hogwarts castle.",
     aiTip:
       "A light puzzle quest — Revelio and a keen eye for detail solve it.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cache%20in%20the%20Castle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hKcns2obqjI"
   },
   {
     id: 713,
@@ -11920,7 +12016,7 @@ const quests = [
       "Test a souped-up broom in a high-flying challenge for Albie Weekes.",
     aiTip:
       "A flying-focused quest — great practice before the broom races.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Sky%20is%20the%20Limit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
   },
   {
     id: 714,
@@ -11937,7 +12033,7 @@ const quests = [
       "Enter the student duelling circuit (Crossed Wands) and the Summoner's Court challenges.",
     aiTip:
       "Great for practicing spell combos safely — the rewards feed your build.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Crossed%20Wands%20%26%20Summoner's%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K5B2B59pLOw"
   },
   {
     id: 716,
@@ -11954,7 +12050,7 @@ const quests = [
       "Investigate a Thestral tied to a somber Feldcroft mystery.",
     aiTip:
       "A quieter, eerie side quest — read the environmental clues.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Foal%20of%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
   },
   {
     id: 717,
@@ -11971,7 +12067,14 @@ const quests = [
       "Break up a poacher operation trafficking magical beasts across the Highlands.",
     aiTip:
       "Combat-focused — free the beasts and grab the loot from the camp.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trafficking%20Talents%20walkthrough"
+video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
+    walkthrough: [
+      "Travel to the marked poacher operation in the Hogwarts Highlands.",
+      "Clear out the poachers guarding the camp, using Ancient Magic on the tougher Ashwinders and Loyalists.",
+      "Free the trafficked magical beasts held in the cages using your Nab-Sack.",
+      "Search the camp and open the collection chest for gear.",
+      "Finish clearing the site to complete the quest and secure the poacher intel."
+    ]
   },
   {
     id: 718,
@@ -14889,7 +14992,7 @@ const quests = [
       "Grow and harvest a Mandrake, then use it against enemies as Professor Garlick asks.",
     aiTip:
       "Buy a Mandrake seed from the Magic Neep in Hogsmeade if you don't have one.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20I%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
   },
   {
     id: 846,
@@ -14906,7 +15009,7 @@ const quests = [
       "Prove your mastery of offensive plants by defeating foes with Chomping Cabbages.",
     aiTip:
       "Equip the Chomping Cabbage to your plant slot and throw it into groups.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Assignment%20II%20%E2%80%94%20Professor%20Garlick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U0npnqpDxYU"
   },
   {
     id: 847,
@@ -14923,7 +15026,7 @@ const quests = [
       "Hit enemies with Levioso, then combo them in the air as Hecat instructs.",
     aiTip:
       "Levioso first, then basic-cast while they float to chain the requirement.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20I%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4ZSWj7lf4Is"
   },
   {
     id: 848,
@@ -14940,7 +15043,7 @@ const quests = [
       "Stun enemies with Stupefy after blocking their attacks.",
     aiTip:
       "Protego to block, then immediately Stupefy the staggered enemy.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Defence%20Against%20the%20Dark%20Arts%20Assignment%20II%20%E2%80%94%20Professor%20Hecat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L3VgmITSCQc"
   },
   {
     id: 849,
@@ -14957,7 +15060,7 @@ const quests = [
       "Brew and use a required potion in combat for Professor Sharp.",
     aiTip:
       "Brew ahead at a Potion Station and keep one equipped before reporting back.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20I%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
   },
   {
     id: 850,
@@ -14974,7 +15077,7 @@ const quests = [
       "Demonstrate advanced potion use against tougher enemies.",
     aiTip:
       "Thunderbrew clears crowds fast and satisfies the combat requirement.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Potions%20Assignment%20II%20%E2%80%94%20Professor%20Sharp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
   },
   {
     id: 851,
@@ -14991,7 +15094,7 @@ const quests = [
       "Capture a beast with the Nab-Sack and care for it in the Room of Requirement.",
     aiTip:
       "Complete 'The Elf, the Nab-Sack, and the Loom' first to unlock the Nab-Sack.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Assignment%20%E2%80%94%20Professor%20Howin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
   },
   {
     id: 852,
@@ -15008,7 +15111,7 @@ const quests = [
       "Use taught charms to solve Ronen's practical challenge.",
     aiTip:
       "Accio and Wingardium Leviosa cover most of Ronen's requests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Charms%20Assignment%20%E2%80%94%20Professor%20Ronen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=erDLjDZ7pck"
   },
   {
     id: 853,
@@ -15025,7 +15128,7 @@ const quests = [
       "Use Transformation on objects and enemies as Professor Weasley directs.",
     aiTip:
       "Unlock Transformation from Weasley's earlier class before attempting.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Transfiguration%20Assignment%20%E2%80%94%20Professor%20Weasley%20walkthrough"
+    video: "https://www.youtube.com/watch?v=59EtR6arBLc"
   },
   {
     id: 854,
@@ -15042,7 +15145,7 @@ const quests = [
       "Complete Professor Onai's divination-themed task around the castle.",
     aiTip:
       "Follow the marked locations; no combat pressure here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Divination%20Assignment%20%E2%80%94%20Professor%20Onai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
   },
   {
     id: 855,
@@ -15059,7 +15162,7 @@ const quests = [
       "Complete Madam Kogawa's first timed broom-flying course.",
     aiTip:
       "Buy a broom from Spintwitches in Hogsmeade first; boost through every ring.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20I%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
   },
   {
     id: 856,
@@ -15076,7 +15179,7 @@ const quests = [
       "Beat Kogawa's tougher second flying course against the clock.",
     aiTip:
       "Chain speed boosts and cut corners tight to beat the timer.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flying%20Assignment%20II%20%E2%80%94%20Madam%20Kogawa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
   },
   {
     id: 857,
@@ -15093,7 +15196,7 @@ const quests = [
       "Travel to Hogsmeade with Sebastian and help fend off a troll attacking the village.",
     aiTip:
       "Use nearby barrels and Accio to hurl objects at the troll's back.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Welcome%20to%20Hogsmeade%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wpqlKtoIe3Y"
   },
   {
     id: 858,
@@ -15110,7 +15213,7 @@ const quests = [
       "Meet Professor Weasley after class to discuss your unusual gift for ancient magic.",
     aiTip:
       "Purely narrative — talk through the dialogue to open the next classes.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Weasley%20After%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aC6DM7wGFck"
   },
   {
     id: 859,
@@ -15127,7 +15230,7 @@ const quests = [
       "Shop for school supplies with Sebastian and learn spells at the shady Tomes and Scrolls annex.",
     aiTip:
       "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tomes%20and%20Tribulations%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wj8brNiltAM"
   },
   {
     id: 860,
@@ -15144,7 +15247,7 @@ const quests = [
       "Attend Professor Garlick's Herbology class and learn to wield combat plants.",
     aiTip:
       "Unlocks the Herbology assignments and plant loadouts.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Herbology%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=esv5rh66SHY"
   },
   {
     id: 861,
@@ -15161,7 +15264,7 @@ const quests = [
       "Meet Nora Treadwell and reawaken the ancient Merlin Trials scattered across the Highlands.",
     aiTip:
       "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Trials%20of%20Merlin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Irm6HJa2NCo"
   },
   {
     id: 862,
@@ -15178,7 +15281,7 @@ const quests = [
       "Deek the house-elf reveals the Room of Requirement — your personal magical workshop and vivarium hub.",
     aiTip:
       "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Room%20of%20Requirement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2JlRk_8Fb2k"
   },
   {
     id: 863,
@@ -15195,7 +15298,7 @@ const quests = [
       "Attend Professor Howin's Beasts class and learn the basics of magical creature care.",
     aiTip:
       "Leads into unlocking the Nab-Sack and the beast vivariums.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Beasts%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ka26p_TZCg8"
   },
   {
     id: 864,
@@ -15212,7 +15315,7 @@ const quests = [
       "Help caretaker Gladwin Moon recover Demiguise Statues to learn and upgrade Alohomora.",
     aiTip:
       "Demiguise Statues only appear at night — use the wait function to change time.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Caretaker's%20Lunar%20Lament%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VwuAXrU3ImY"
   },
   {
     id: 865,
@@ -15229,7 +15332,7 @@ const quests = [
       "Join Sebastian and Ominis at the Gaunt family estate to seek a cure for Anne's curse.",
     aiTip:
       "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Estate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xjLVii9XWeA"
   },
   {
     id: 866,
@@ -15246,7 +15349,7 @@ const quests = [
       "Attend Astronomy class and learn to read the star tables dotted around the map.",
     aiTip:
       "Unlocks the Astronomy Table pairs that grant collection rewards.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Astronomy%20Class%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
   },
   {
     id: 867,
@@ -15263,7 +15366,7 @@ const quests = [
       "After a detour, rejoin Professor Fig and pick the main investigation back up.",
     aiTip:
       "A connective story beat — pursue it to reopen the trial questline.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Back%20on%20the%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yT7NIWbJ54g"
   },
   {
     id: 868,
@@ -15280,7 +15383,7 @@ const quests = [
       "Follow the aftermath of the Final Repository as Isidora Morganach's secret is fully revealed.",
     aiTip:
       "Flows straight out of 'The Final Repository' — save loadouts before you commit to the finale.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Revelation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9u2qDvYyQ6U"
   },
   {
     id: 869,
@@ -15297,7 +15400,7 @@ const quests = [
       "Help Poppy Sweeting confront poachers who have tracked her down over her rescued beasts.",
     aiTip:
       "Bring crowd-control spells — the poacher camp comes at you in numbers.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Poacher's%20House%20Call%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8bxu0rvqLGM"
   },
   {
     id: 870,
@@ -15314,7 +15417,7 @@ const quests = [
       "Accompany Poppy to the centaur camp to recover a stolen moonstone and earn the herd's trust.",
     aiTip:
       "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Centaur%20and%20the%20Stone%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9U-sKO9Jrng"
   },
   {
     id: 871,
@@ -15331,7 +15434,7 @@ const quests = [
       "Share a quiet, starlit outing with Poppy that closes her companion questline.",
     aiTip:
       "The capstone of Poppy's arc — do it after her earlier beast quests.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20It's%20in%20the%20Stars%20(Poppy)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uTsJ7ztnG1Y"
   },
   {
     id: 872,
@@ -15348,7 +15451,7 @@ const quests = [
       "Help Natsai Onai dig up leverage on the Ashwinder-aligned townsfolk troubling her mother.",
     aiTip:
       "Stealth with Disillusionment to gather evidence without a fight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Basis%20for%20Blackmail%20(Natty)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fSlzrxWGs9E"
   },
   {
     id: 873,
@@ -15365,7 +15468,7 @@ const quests = [
       "Descend into a catacomb with Sebastian as he chases a forbidden cure for his sister.",
     aiTip:
       "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Discovery%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rh2ZIJfvf7w"
   },
   {
     id: 874,
@@ -15382,7 +15485,7 @@ const quests = [
       "Sebastian's pursuit of dark knowledge starts to strain his bond with Ominis and with you.",
     aiTip:
       "Your choices here steer whether Sebastian embraces the Dark Arts.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Distance%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7jxvcaIa7zo"
   },
   {
     id: 875,
@@ -15399,7 +15502,7 @@ const quests = [
       "Reach the wrenching climax of Sebastian's story and decide how far you'll follow him.",
     aiTip:
       "A defining, irreversible choice — read every line before you answer.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Fate%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KLERaAR8otA"
   },
   {
     id: 876,
@@ -15416,7 +15519,7 @@ const quests = [
       "Infiltrate the pure-blood Selwyn family estate to recover what a desperate house-elf's plight demands.",
     aiTip:
       "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sacking%20Selwyn's%20Estate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DGAF0OnVd3A"
   },
   {
     id: 877,
@@ -15433,7 +15536,7 @@ const quests = [
       "Follow a treasure map to the Tomb of Treachery, where an ambush by Ailsa Travers and the Lord of the Manor awaits.",
     aiTip:
       "A tough double ambush — go in over-levelled and keep your dodge ready.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Cursed%20Tomb%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZZSiz2_Gk74"
   },
   {
     id: 878,
@@ -15450,7 +15553,7 @@ const quests = [
       "Help Deek rescue a majestic phoenix hidden in a mountain cave from the poachers hunting it.",
     aiTip:
       "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Phoenix%20Rising%20walkthrough"
+    video: "https://www.youtube.com/watch?v=361e5n2gsfQ"
   },
   {
     id: 879,
@@ -15467,7 +15570,7 @@ const quests = [
       "Descend into Manor Glen to face the Lord of the Manor, an Infamous Foe, and his accomplice Ailsa Travers.",
     aiTip:
       "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Lord%20of%20the%20Manor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WfZgkpxRcNY"
   },
   {
     id: 880,
@@ -15484,7 +15587,14 @@ const quests = [
       "Help a troubled villager whose obsession echoes the Mirror of Erised's dangerous pull on the heart's desire.",
     aiTip:
       "A shorter narrative quest — follow the marked leads around Cragcroftshire.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20E%20is%20for%20Erised%20walkthrough"
+video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
+    walkthrough: [
+      "Begin the quest and follow the objective marker to investigate the Mirror of Erised lead.",
+      "Use Revelio to uncover clues and Depulso/Accio to solve the environmental puzzles blocking your path.",
+      "Progress through the area, defeating any enemies you encounter along the way.",
+      "Reach and interact with the Mirror of Erised to trigger the quest's key scene.",
+      "Collect your reward and any nearby chests to complete the quest."
+    ]
   },
   {
     id: 881,
@@ -15501,7 +15611,7 @@ const quests = [
       "Prove yourself to the boastful Duncan Hobhouse by clearing out a dangerous nest he's too afraid to face.",
     aiTip:
       "Bring solid AoE — the den throws several foes at you at once.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Venomous%20Valour%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w1pW8uvI5vI"
   },
   {
     id: 882,
@@ -15518,7 +15628,7 @@ const quests = [
       "Aid the vain portrait subject Nellie Oggspire, who wants her likeness admired across the castle's frames.",
     aiTip:
       "A light, exploration-focused quest around the castle corridors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Like%20a%20Moth%20to%20a%20Frame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mGxOHI2So94"
   },
   {
     id: 883,
@@ -15535,7 +15645,7 @@ const quests = [
       "Free a portrait trapped behind the Library Annex and untangle the mischief that got it stuck.",
     aiTip:
       "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Portrait%20in%20a%20Pickle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IH0kKjwD02M"
   },
   {
     id: 884,
@@ -15552,7 +15662,7 @@ const quests = [
       "Trail Clementine Willardsey's enchanted wildflower butterflies to a hidden treasure.",
     aiTip:
       "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Follow%20the%20Butterflies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EN59nPw7-v4"
   },
   {
     id: 885,
@@ -15569,7 +15679,7 @@ const quests = [
       "Settle a curious dispute over a batch of enchanted biscuits for a Hogsmeade local.",
     aiTip:
       "A quick, low-stakes fetch-and-talk quest.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Take%20the%20Biscuit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CVz9l-5ZKZs"
   },
   {
     id: 886,
@@ -15586,7 +15696,7 @@ const quests = [
       "Help the house-elf Deek confront the cruelty of a house-elf's servitude under a pure-blood master.",
     aiTip:
       "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Plight%20of%20the%20House-Elf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqKe7YyvKZM"
   },
   {
     id: 887,
@@ -15603,7 +15713,7 @@ const quests = [
       "Take on Everett Clopton's daredevil broom-flying test through a course of rings.",
     aiTip:
       "Available after Flying Class; boost through every ring without missing one.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Flight%20Test%20walkthrough"
+    video: "https://www.youtube.com/watch?v=USPtQaT3p28"
   },
   {
     id: 888,
@@ -15620,7 +15730,7 @@ const quests = [
       "Beat rival flier Imelda Reyes in a high-speed broom race across the Highlands.",
     aiTip:
       "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Sweeping%20the%20Competition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZqiBaxoGxEM"
   },
   {
     id: 889,
@@ -15637,7 +15747,7 @@ const quests = [
       "Clear out a nest of Venomous Tentacula and giant spiders threatening a local's livelihood.",
     aiTip:
       "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Tangled%20Web%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
   },
   {
     id: 890,
@@ -15654,7 +15764,7 @@ const quests = [
       "Track and defeat the Absconder, a colossal Infamous Foe lurking in a hidden den.",
     aiTip:
       "A boss-tier creature — bring Maxima potions and dodge its charge.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Absconder%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z08mA1dbDU8"
   },
   {
     id: 891,
@@ -15671,7 +15781,7 @@ const quests = [
       "Recover a set of stolen Field Guide pages that have gone missing around the castle.",
     aiTip:
       "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Hunt%20for%20the%20Missing%20Pages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UKa-bbqFBzM"
   },
   {
     id: 892,
@@ -15688,7 +15798,7 @@ const quests = [
       "Help Garreth Weasley sneak into the Honeydukes cellar to retrieve ingredients for his experiments.",
     aiTip:
       "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Dissending%20for%20Sweets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BerVRvSzacE"
   },
   {
     id: 893,
@@ -15705,7 +15815,7 @@ const quests = [
       "Make good on a delivery for a pushy Hogsmeade shopkeeper before their patience runs out.",
     aiTip:
       "A short courier quest — follow the marker and hand over the goods.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Demanding%20Delivery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mf0j6CiaQrI"
   },
   {
     id: 894,
@@ -15722,7 +15832,7 @@ const quests = [
       "Rescue a prized (and very loud) Chinese Chomping Cabbage that poachers have made off with.",
     aiTip:
       "Combat plant reward — handy for the Herbology assignments.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Kidnapped%20Cabbage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lrC_NOfmqWk"
   },
   {
     id: 895,
@@ -15739,7 +15849,7 @@ const quests = [
       "Chase a fragile hope for curing Anne's curse as Sebastian's search leads deeper into dark magic.",
     aiTip:
       "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Hope%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6TACQOMJyrg"
   },
   {
     id: 896,
@@ -15756,7 +15866,7 @@ const quests = [
       "Your loyalty to Sebastian is tested as the cost of his choices comes due for those around him.",
     aiTip:
       "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20Friendship%20(Sebastian)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r1eqqlpF0so"
   },
   {
     id: 897,
@@ -15773,7 +15883,7 @@ const quests = [
       "Help a kind witch rescue a unicorn and its foal from poachers and settle them safely in a sanctuary.",
     aiTip:
       "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20The%20Unique%20Unicorn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nZSyCjh2D80"
   },
   {
     id: 898,
@@ -15790,7 +15900,7 @@ const quests = [
       "Ravenclaw house quest — help Mr. Ollivander recover a treasured wandmaking heirloom lost to thieves.",
     aiTip:
       "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Ollivander's%20Heirloom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LUMg5EdxgCg"
   },
   {
     id: 899,
@@ -15807,7 +15917,7 @@ const quests = [
       "Slytherin house quest — aid the loyal house-elf Scrope in fulfilling his late master's final wish.",
     aiTip:
       "Slytherin-exclusive; a story-driven quest with a poignant finish.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Scrope's%20Last%20Hope%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M9PUMckftjQ"
   },
   {
     id: 900,
@@ -15824,7 +15934,7 @@ const quests = [
       "Help decorate the Room of Requirement to a fellow student's exacting taste using Conjuration.",
     aiTip:
       "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Interior%20Decorating%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
   },
   {
     id: 901,
@@ -15841,7 +15951,7 @@ const quests = [
       "Gather Bubotuber pus to help a mortified student clear up a nasty magical breakout of spots.",
     aiTip:
       "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Spot%20Removal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1Vzl5BTLths"
   },
   {
     id: 902,
@@ -15858,7 +15968,7 @@ const quests = [
       "Lend a hand to a fellow student caught in a bind and repay a small debt of friendship.",
     aiTip:
       "A short, low-stakes favour quest around the castle.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Friend%20in%20Deed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VE0XET2jBLI"
   },
   {
     id: 903,
@@ -15875,7 +15985,7 @@ const quests = [
       "Track down six lost Gobstones scattered around the castle for the keen collector Zenobia Noke.",
     aiTip:
       "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Gobs%20of%20Gobstones%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9rK2SV7zOmI"
   },
   {
     id: 904,
@@ -15892,7 +16002,7 @@ const quests = [
       "Help Padraic Haggarty catch the sneaky Niffler pilfering coins by following its trail through the night.",
     aiTip:
       "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20A%20Thief%20in%20the%20Night%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Nxs7Dl3vFfU"
   },
   {
     id: 905,
@@ -15909,7 +16019,7 @@ const quests = [
       "Answer Claire's plea and clear out the goblin camps menacing travellers across the Highlands.",
     aiTip:
       "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Breaking%20Camp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BwSwv88o6VQ"
   },
   {
     id: 906,
@@ -15926,7 +16036,7 @@ const quests = [
       "Solve the enchanted Owl Bell Tower puzzle to lay a restless matter to rest at Hogwarts.",
     aiTip:
       "Ring the bells in the order the owl statues indicate to complete the puzzle.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20All's%20Well%20That%20Ends%20Bell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nchawQBXB10"
   },
   {
     id: 907,
@@ -15943,7 +16053,7 @@ const quests = [
       "Descend into a goblin mine with the translated manuscript to uncover Ranrok's loyalists at work — a key step in the Stop Ranrok and Rookwood arc.",
     aiTip:
       "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20In%20the%20Shadow%20of%20the%20Mine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fE3D0ds2WsU"
   },
   {
     id: 908,
@@ -15960,7 +16070,7 @@ const quests = [
       "Help a troubled resident of Upper Hogsfield lay a painful family matter — and a brother's fate — to rest.",
     aiTip:
       "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Brother's%20Keeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QFhMvz-HwUM"
   },
   {
     id: 909,
@@ -15977,7 +16087,7 @@ const quests = [
       "Defend the village of Brocburrow when a rampaging mountain troll comes crashing through.",
     aiTip:
       "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
-    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Troll%20Control%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lY1IgeVz9Y8"
   },
   {
     id: 910,
@@ -16411,6 +16521,8 @@ const quests = [
     game: "Baldur's Gate 3",
     act: 1,
     title: "Find the Missing Shipment",
+    missable: true,
+    missableWindow: "Act 1",
     location: "Risen Road / Waukeen's Rest",
     length: "medium",
     difficulty: "Medium",
@@ -16486,6 +16598,8 @@ const quests = [
     game: "Baldur's Gate 3",
     act: 1,
     title: "Finish the Masterwork Weapon",
+    missable: true,
+    missableWindow: "Act 1",
     location: "Nautiloid Crash / Blighted Village",
     length: "medium",
     difficulty: "Medium",
@@ -17309,6 +17423,8 @@ const quests = [
     game: "Baldur's Gate 3",
     act: 1,
     title: "Save Arabella",
+    missable: true,
+    missableWindow: "Act 1",
     location: "Emerald Grove / Sacred Pool",
     length: "short",
     difficulty: "Medium",
@@ -23187,5 +23303,1950 @@ const quests = [
       "Recover the stolen armour and return it to its original owner for a bonus reward.",
       "Claim the bounty from Kojiro."
     ]
+  },
+  {
+    id: 1254,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Bracca",
+    title: "Escape from Bracca",
+    location: "Shipbreaking Yard",
+    length: "long",
+    difficulty: "High",
+    reward: "Escape aboard the Stinger Mantis; combat basics",
+    summary: "Cal Kestis blows his cover saving a friend on the shipbreaking world of Bracca and flees the Empire with Cere and Greez after the Second Sister marks him.",
+    aiTip: "Pure tutorial-chase — learn wall-running and Force Slow. Don't panic during the train-slicing set piece; follow the prompts and keep moving.",
+    video: "https://www.youtube.com/watch?v=WY1p5aYkvP8"
+  },
+  {
+    id: 1255,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Bogano",
+    title: "Crash-Landing on Bogano",
+    location: "Bogano Sinkhole",
+    length: "medium",
+    difficulty: "Low",
+    reward: "BD-1 companion; Scomp Link access",
+    summary: "Cal explores the quiet world of Bogano, meets the droid BD-1, and searches for a way across the chasm to the mysterious Zeffo Vault.",
+    aiTip: "Meet BD-1 at the Meditation Point, then use the sliding vines and wall-runs to cross the sinkhole. Scan everything — Bogano is a collectibles hub you'll revisit.",
+    video: "https://www.youtube.com/watch?v=mPbFFbGYb6Q"
+  },
+  {
+    id: 1256,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Bogano",
+    title: "The Ancient Vault",
+    location: "Bogano Ancient Vault",
+    length: "short",
+    difficulty: "Low",
+    reward: "Cordova's mission; the three-tomb objective",
+    summary: "Inside the Zeffo-built Vault, a hologram of Jedi Master Eno Cordova reveals a hidden Holocron listing Force-sensitive children — locked behind the tombs of three Zeffo Sages.",
+    aiTip: "Scan the central altar to trigger Cordova's message. This sets your whole journey: Zeffo, Kashyyyk and Dathomir. Grab the nearby chest before leaving.",
+    video: "https://www.youtube.com/watch?v=GBCyJhnzOfI"
+  },
+  {
+    id: 1257,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Journey to Zeffo",
+    location: "Zeffo — Imperial Dig Site",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Traversal upgrades; first Tomb lead",
+    summary: "Following Cordova's trail, Cal lands on the windswept ruins of Zeffo, fighting through Imperial excavations toward the Tomb of Eilram.",
+    aiTip: "Use Slow on the spinning fan blades and Scomp-lock the security doors. Stormtroopers here punish greed — parry and counter rather than mashing.",
+    video: "https://www.youtube.com/watch?v=1Y82XevS5u0"
+  },
+  {
+    id: 1258,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "The Weathered Monument & Venator Wreckage",
+    location: "Zeffo — Venator Wreckage",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "New traversal routes; Venator shortcut",
+    summary: "Cal pushes deeper into Zeffo's storm-lashed highlands and the crashed Venator Star Destroyer, opening new paths on his way back toward the Mantis.",
+    aiTip: "Force Push the wind-powered puzzles and use rusted hull panels as ramps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
+    video: "https://www.youtube.com/watch?v=swz22XR5QF0"
+  },
+  {
+    id: 1259,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Kashyyyk",
+    title: "Kashyyyk: Rescuing the Wookiees",
+    location: "Imperial Refinery",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Force Pull; Wookiee alliance",
+    summary: "Cal aids Saw Gerrera's fighters against the Imperial Refinery on Kashyyyk, freeing captured Wookiees and pushing toward the Origin Tree.",
+    aiTip: "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
+    video: "https://www.youtube.com/watch?v=9NFf6c6ygEA"
+  },
+  {
+    id: 1260,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Return to Zeffo",
+    location: "Zeffo — Tomb of Miktrull approach",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Access to the Tomb of Miktrull",
+    summary: "With new abilities in hand, Cal returns to Zeffo to seek the second Sage's tomb, braving Imperial forces and ancient guardians.",
+    aiTip: "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
+    video: "https://www.youtube.com/watch?v=KSwswrolt40"
+  },
+  {
+    id: 1261,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Kashyyyk",
+    title: "The Ninth Sister",
+    location: "Kashyyyk — Shadowlands",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression; tougher combat",
+    summary: "The Inquisitor known as the Ninth Sister ambushes Cal on Kashyyyk in one of the game's toughest duels.",
+    aiTip: "She has huge unblockable (red) swings — dodge, don't parry those. Punish the recovery after her overhead slam and save stims for the second phase.",
+    video: "https://www.youtube.com/watch?v=0f3-FSqM0vw"
+  },
+  {
+    id: 1262,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Kashyyyk",
+    title: "Kashyyyk: The Origin Tree",
+    location: "Origin Tree — Overgrown Pass",
+    length: "long",
+    difficulty: "High",
+    reward: "The Astrium (Dathomir key)",
+    summary: "Cal climbs the colossal Origin Tree with Tarfful to reach the Shadowlands and claim the Astrium that points the way to Dathomir.",
+    aiTip: "This is a long vertical gauntlet — top up stims before you start. The climbing and zipline traversal is as dangerous as the enemies; watch your footing.",
+    video: "https://www.youtube.com/watch?v=mqhLzW3Ygec"
+  },
+  {
+    id: 1263,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Dathomir",
+    title: "Dathomir: The Nightbrother's Path",
+    location: "Nightbrother Village",
+    length: "long",
+    difficulty: "High",
+    reward: "Merrin encounter; Nightsister lore",
+    summary: "On the haunted world of Dathomir, Cal is stalked by Merrin's undead Nightbrothers as he searches for the Tomb of Kujet.",
+    aiTip: "Undead Nightbrothers resurrect unless you deathblow them — clear rooms decisively. You'll be turned back on the first visit; return after Ilum with new powers.",
+    video: "https://www.youtube.com/watch?v=p1jDXfoq6rs"
+  },
+  {
+    id: 1264,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Ilum",
+    title: "Ilum: A New Lightsaber",
+    location: "Great Crystal Cave",
+    length: "long",
+    difficulty: "Medium",
+    reward: "New lightsaber; Split Saber double-blade",
+    summary: "After his weapon is destroyed, Cal travels to the frozen Jedi world of Ilum, braves the Great Crystal Cave, and forges a brand-new lightsaber.",
+    aiTip: "The crystal cave is one large puzzle — split the giant crystal with your Force powers to progress. Building the saber unlocks the double-bladed stance.",
+    video: "https://www.youtube.com/watch?v=rRGG-NAIcXE"
+  },
+  {
+    id: 1265,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Dathomir",
+    title: "Return to Dathomir: Facing Malicos",
+    location: "Tomb of Kujet — Dathomir",
+    length: "long",
+    difficulty: "High",
+    reward: "Merrin joins the crew",
+    summary: "Cal returns to Dathomir, clears the Tomb of Kujet, and confronts the fallen Jedi Taron Malicos in a brutal duel for the fate of the Nightsisters.",
+    aiTip: "Malicos mixes lightsaber and Force-throw attacks — stay mobile and punish his combo enders. Merrin's help turns the tide; survive the opening rush.",
+    video: "https://www.youtube.com/watch?v=99ZQcyja3KQ"
+  },
+  {
+    id: 1266,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Bogano",
+    title: "Return to Bogano: The Second Sister",
+    location: "Bogano Ancient Vault",
+    length: "medium",
+    difficulty: "High",
+    reward: "The Holocron; Trilla's identity revealed",
+    summary: "Cal finally opens the Bogano Vault and claims the Holocron — only for the Second Sister, Trilla Suduri, to take it in a devastating confrontation.",
+    aiTip: "Trilla is fast and aggressive with unblockable stabs. Bait her lunges, dodge sideways, and counter. Don't get greedy between her combos.",
+    video: "https://www.youtube.com/watch?v=VhcaxfUsqyw"
+  },
+  {
+    id: 1267,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Nur",
+    title: "Nur: The Fortress Inquisitorius",
+    location: "Fortress Inquisitorius",
+    length: "long",
+    difficulty: "High",
+    reward: "Holocron recovered; Trilla duel",
+    summary: "Cal infiltrates the Inquisitors' undersea Fortress on the moon Nur to reclaim the Holocron, fighting through elite guards to a final reckoning with Trilla.",
+    aiTip: "Flood-and-swim traversal and heavy Purge Trooper fights await — upgrade your stims beforehand and save resources for the Trilla rematch at the top.",
+    video: "https://www.youtube.com/watch?v=G6jmOpk1On8"
+  },
+  {
+    id: 1268,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Nur",
+    title: "Nur: Escape from Darth Vader",
+    location: "Fortress Inquisitorius — Hangar",
+    length: "medium",
+    difficulty: "High",
+    reward: "Game completion; the crew's decision",
+    summary: "As the fortress falls, Darth Vader arrives. Cal and Cere must survive the unkillable Sith Lord and escape Nur with the Holocron and their lives.",
+    aiTip: "You cannot beat Vader — this is a survival/escape sequence. Use the environment (Force Push the debris and water valves) and run for the exit; don't stand and fight.",
+    video: "https://www.youtube.com/watch?v=OMf8vZGGDSo"
+  },
+  {
+    id: 1269,
+    type: "side",
+    category: "Legendary Beast",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Bogano",
+    title: "Legendary Beast: Oggdo Boggdo",
+    location: "Bogano — hidden cave",
+    length: "short",
+    difficulty: "High",
+    reward: "Legendary Beasts progress; cosmetic chest",
+    summary: "A giant toad-like predator guarding a hidden cave on Bogano — one of four optional Legendary Beasts and a notorious early-game wall.",
+    aiTip: "One of the hardest fights relative to your level. Its tongue-grab and bite are unblockable — dodge, land two hits, reset. Bring full stims; patience wins.",
+    video: "https://www.youtube.com/watch?v=KrBOOyUHpjo"
+  },
+  {
+    id: 1270,
+    type: "side",
+    category: "Legendary Beast",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Legendary Beast: Rabid Jotaz",
+    location: "Zeffo — Crash Site alcove",
+    length: "short",
+    difficulty: "High",
+    reward: "Legendary Beasts progress; Force Essence nearby",
+    summary: "A savage, oversized Jotaz lurking in a hidden alcove near Zeffo's Crash Site — the second Legendary Beast.",
+    aiTip: "Open with a jump-attack from the ledge above to steal early damage. Its heavy overheads are unblockable; circle-strafe and punish after each swing.",
+    video: "https://www.youtube.com/watch?v=a_vs_HIj_EA"
+  },
+  {
+    id: 1271,
+    type: "side",
+    category: "Legendary Beast",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Kashyyyk",
+    title: "Legendary Beast: Albino Wyyschokk",
+    location: "Kashyyyk — spider cave",
+    length: "short",
+    difficulty: "High",
+    reward: "Legendary Beasts progress; hidden chest",
+    summary: "A massive white spider hiding in a cave along the path to the imprisoned Wookiees on Kashyyyk — the third Legendary Beast.",
+    aiTip: "It webs you in place and lunges — cut the web fast and dodge the leap. Fight near the entrance so you're not cornered by its ranged web spit.",
+    video: "https://www.youtube.com/watch?v=Rln6LHdASQA"
+  },
+  {
+    id: 1272,
+    type: "side",
+    category: "Legendary Beast",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Dathomir",
+    title: "Legendary Beast: Nydak Alpha",
+    location: "Dathomir — Tomb of Kujet entrance",
+    length: "short",
+    difficulty: "High",
+    reward: "Legendary Beasts trophy (all four); rare chest",
+    summary: "An apex Nydak prowling beside the Tomb of Kujet entrance on Dathomir — the fourth and final Legendary Beast.",
+    aiTip: "Return with climbing claws and upgraded health. It hits hard and fast; bait its lunge, dodge through, and punish. Clearing all four unlocks the trophy.",
+    video: "https://www.youtube.com/watch?v=zSNuTPkJ1Dw"
+  },
+  {
+    id: 1273,
+    type: "side",
+    category: "Tomb & Puzzle",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Tomb of Eilram",
+    location: "Zeffo — Tomb of Eilram",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Force Push ability; Force Essence, chests",
+    summary: "The first Zeffo Sage tomb — a series of wind- and sphere-based puzzles that culminate in Cal learning Force Push.",
+    aiTip: "Everything revolves around the giant metal balls and wind vents. Roll a ball into a socket to raise stairs; save the optional Force Essence room for a return with Push.",
+    video: "https://www.youtube.com/watch?v=YSiLe6jGV_o"
+  },
+  {
+    id: 1274,
+    type: "side",
+    category: "Tomb & Puzzle",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Tomb of Miktrull",
+    location: "Zeffo — Tomb of Miktrull",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Force Pull ability; chests, Force Echoes",
+    summary: "The second Sage tomb — a vertical puzzle box of magnetic ropes and rotating walls that grants Cal the Force Pull ability.",
+    aiTip: "Use the giant hanging plates and pull-ropes to build climbing routes. The magnetic-ball wall puzzle is the tricky one — rotate the room, then pull the ball across.",
+    video: "https://www.youtube.com/watch?v=6XHoC3oKHHE"
+  },
+  {
+    id: 1275,
+    type: "side",
+    category: "Tomb & Puzzle",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Dathomir",
+    title: "Tomb of Kujet",
+    location: "Dathomir — Tomb of Kujet",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Story progression; chests, Force Essence",
+    summary: "The final Sage tomb, hidden on Dathomir — a dark, oppressive gauntlet of Nightsister magic and puzzles guarding the last secret of Cal's journey.",
+    aiTip: "Darker and more combat-heavy than the Zeffo tombs. Use your full kit — Push, Pull and Slow together solve the late rooms. Grab the Force Essence before the exit.",
+    video: "https://www.youtube.com/watch?v=CGWyPxeMe6s"
+  },
+  {
+    id: 1276,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Chests & Cosmetics",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Outfits, lightsaber parts, BD-1 & Mantis skins",
+    summary: "107 chests are scattered across every planet, holding cosmetic outfits, ponchos, lightsaber components and paint jobs for Cal, BD-1 and the Stinger Mantis.",
+    aiTip: "Many chests need abilities you unlock later — don't chase 100% on a first pass. Use the holomap's per-zone percentage and return once you have Push, Pull and Overcharge.",
+    video: "https://www.youtube.com/watch?v=Y4jqjCIvkZs"
+  },
+  {
+    id: 1277,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Force Echoes",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Lore entries; XP toward skill points",
+    summary: "Scannable Force Echoes hidden across the planets flesh out the story of the Zeffo, the Empire and Cal's past — 75 are needed for the Echo Location trophy.",
+    aiTip: "BD-1 pings when one is near — pan the camera and scan glowing objects. They also grant XP, so scanning as you explore quietly levels your skill tree.",
+    video: "https://www.youtube.com/watch?v=JWRyi2fK63A"
+  },
+  {
+    id: 1278,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Encrypted Logs",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Cordova's Journey databank; Data Disk trophy",
+    summary: "19 Encrypted Logs — BD-1's data disks left by Eno Cordova — are hidden across the worlds, unlocking the 'Cordova's Journey' databank archive.",
+    aiTip: "Seven are story-unmissable; the other 12 need BD-1 to prompt a scan in specific spots. Grab them on later revisits when more of each planet is reachable.",
+    video: "https://www.youtube.com/watch?v=tO_MdvgScLU"
+  },
+  {
+    id: 1279,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Stim Canisters",
+    location: "Every planet",
+    length: "short",
+    difficulty: "Low",
+    reward: "Extra BD-1 healing charges; Medical Droid trophy",
+    summary: "Ten Stim Canisters hidden across the planets each raise the number of healing stims BD-1 can carry — the single most valuable exploration reward.",
+    aiTip: "Prioritize these above cosmetics — more stims make every boss easier. Collecting all ten earns the Medical Droid trophy and maxes your heals at eight.",
+    video: "https://www.youtube.com/watch?v=6BkyXNX2zJU"
+  },
+  {
+    id: 1280,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Force & Health Essence",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Permanent max Force & Health increases",
+    summary: "Life and Force Essences tucked into secret rooms permanently raise Cal's maximum health and Force meter — every three of a type grants an upgrade.",
+    aiTip: "These sit behind the game's trickier optional puzzles and mini-boss arenas. Chase them after you have the full ability kit so nothing is locked away.",
+    video: "https://www.youtube.com/watch?v=pdMS4e7yO5A"
+  },
+  {
+    id: 1281,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "All Planets",
+    title: "Collectible Hunt: Terrarium Seeds",
+    location: "Every planet",
+    length: "short",
+    difficulty: "Low",
+    reward: "Greez's terrarium (Green Thumb trophy)",
+    summary: "Ten rare Terrarium Seeds are scannable on the planets; bring them back to Greez's terrarium aboard the Mantis to grow the ship's garden.",
+    aiTip: "Purely optional and cosmetic — scan unusual plants when BD-1 flags them. Finding all ten completes the terrarium for the Green Thumb trophy.",
+    video: "https://www.youtube.com/watch?v=HsEOvh9acjQ"
+  },
+  {
+    id: 1282,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Coruscant",
+    title: "Coruscant: The Escape",
+    location: "Coruscant — Undercity",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Reunion with Bode; escape aboard a Mantis",
+    summary: "Five years after Fallen Order, a captured Cal breaks out of a Coruscant skyscraper with new ally Bode Akuna, fleeing Raxus security forces down through the planet-city to a stolen shuttle.",
+    aiTip: "This is an extended tutorial — relearn your traversal and try each stance. When you crash-land, don't rush; the opening cantina and Undercity teach the game's grappling and dash before Koboh opens up.",
+    video: "https://www.youtube.com/watch?v=B2lWAsYZ3po"
+  },
+  {
+    id: 1283,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Find Greez",
+    location: "Koboh — Rambler's Reach",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Reunite with Greez; Pyloon's Saloon hub",
+    summary: "Cal limps onto the frontier world of Koboh to track down his old friend Greez Dritus, who now runs Pyloon's Saloon in the Rambler's Reach Outpost.",
+    aiTip: "Follow the road from the crash site and meet Turgle. Koboh is the game's hub — once you reach Pyloon's Saloon, Greez, Zee and the rumor board unlock, so make this your home base.",
+    video: "https://www.youtube.com/watch?v=NmTYDt0WfwI"
+  },
+  {
+    id: 1284,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Rambler's Reach & Pyloon's Saloon",
+    location: "Koboh — Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Saloon hub; first recruits and rumors",
+    summary: "Settle into Pyloon's Saloon, meet Zee the archivist and Doma the merchant, and pick up the trail of Jedi Master Cere Junda's mission to find the hidden world of Tanalorr.",
+    aiTip: "Talk to everyone before leaving — Zee sells maps and Doma sells upgrades. This is where you'll return to recruit saloon patrons via Rumors, so note the empty tables you can fill later.",
+    video: "https://www.youtube.com/watch?v=UWbe-7RJuOo"
+  },
+  {
+    id: 1285,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Reach the Forest Array",
+    location: "Koboh — Viscid Bog",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Path to the Forest Array; new abilities",
+    summary: "Following Cere's coordinates, Cal pushes through the Viscid Bog and Fogged Expanse toward the towering Forest Array communications tower.",
+    aiTip: "Use the new mounts and traversal here. The bog hides several Legendary enemies — leave the toughest for later and stick to the main path if you're under-leveled.",
+    video: "https://www.youtube.com/watch?v=wxLu-c0vX_A"
+  },
+  {
+    id: 1286,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: The Forest Array — Dagan Gera",
+    location: "Koboh — Forest Array",
+    length: "long",
+    difficulty: "High",
+    reward: "First duel with Dagan Gera; Rayvis introduced",
+    summary: "Atop the Forest Array, Cal awakens the High Republic Jedi Dagan Gera from stasis, only to learn Dagan has fallen and now seeks Tanalorr for himself.",
+    aiTip: "The Dagan duel is a real difficulty spike — learn to parry his flurries rather than dodge. Losing here is scripted the first time, so focus on reading his tells.",
+    video: "https://www.youtube.com/watch?v=kgpDU160w1I"
+  },
+  {
+    id: 1287,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Jedha: The Nightsister & Cere's Base",
+    location: "Jedha — Blustery Mesa",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Meet Cere and Merrin; the Archive hub",
+    summary: "Cal travels to the desert moon of Jedha to reunite with Cere and Merrin at the hidden Archive, where the group plans their next move against Dagan.",
+    aiTip: "Jedha opens the second big explorable region and the Cordova rumor board. Ride the mounts across the dunes and grab the Archive's meditation upgrades before advancing.",
+    video: "https://www.youtube.com/watch?v=B0D8I3dGmDY"
+  },
+  {
+    id: 1288,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Rescue Zee from the Lucrehulk",
+    location: "Koboh — Nekko Pools",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Compass fragment; Zee rescued",
+    summary: "Bedlam Raiders capture Zee, forcing Cal to storm a crashed Lucrehulk battleship to recover both the archivist and a fragment of the compass that points to Tanalorr.",
+    aiTip: "The Lucrehulk is a compact combat gauntlet. Bring your strongest stance and use Merrin's confusion charm on the Raider mobs to thin them before they swarm.",
+    video: "https://www.youtube.com/watch?v=EbsaVb1pVZA"
+  },
+  {
+    id: 1289,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Shattered Moon",
+    title: "Shattered Moon: Research Tanalorr",
+    location: "Shattered Moon — Automated Forge",
+    length: "long",
+    difficulty: "High",
+    reward: "Droid coordinates; the path to Tanalorr",
+    summary: "Cal boards Koboh's shattered moon to raid an automated Gen'Dai forge and recover the astrium data needed to chart a course through the deadly Koboh Abyss.",
+    aiTip: "Zero-gravity platforming and heavy droid enemies dominate here. The Forge is long with few rest points — top up your stims at the saloon before you launch.",
+    video: "https://www.youtube.com/watch?v=QNqymIvcJWc"
+  },
+  {
+    id: 1290,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Confront Dagan at the Observatory",
+    location: "Koboh — Observatory",
+    length: "long",
+    difficulty: "High",
+    reward: "Second Dagan duel; Rayvis's forces",
+    summary: "The trail leads to the High Republic Observatory beneath Koboh, where Cal faces Dagan again amid Rayvis's Bedlam Raider army.",
+    aiTip: "This second Dagan fight is winnable — punish his heavy overheads and keep Merrin nearby. Clear the Raider adds first so you can duel Dagan one-on-one.",
+    video: "https://www.youtube.com/watch?v=yxZKn4gCPEw"
+  },
+  {
+    id: 1291,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Shattered Moon",
+    title: "Shattered Moon: Locate Rayvis",
+    location: "Shattered Moon — Rayvis's Sanctum",
+    length: "long",
+    difficulty: "High",
+    reward: "Duel with Rayvis; Gen'Dai lore",
+    summary: "Cal returns to the Shattered Moon to confront Rayvis, Dagan's towering Gen'Dai enforcer, in his sanctum.",
+    aiTip: "Rayvis regenerates — you must break his composure meter, not just his health. Parry his cannon and hammer combos, then unload during the stagger windows.",
+    video: "https://www.youtube.com/watch?v=72hNbLIlvjo"
+  },
+  {
+    id: 1292,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Jedha: Reach the Pilgrim's Path",
+    location: "Jedha — Pilgrim's Refuge",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Compass lead; Pilgrim's Path opened",
+    summary: "Cordova's research sends Cal across Jedha's Pilgrim's Path, a network of ancient way-shrines leading toward the sanctuary that hides the compass.",
+    aiTip: "The Path is a puzzle-traversal stretch with wind currents and force-echoes. Scan the murals — they foreshadow the compass mechanism you'll use at the sanctuary.",
+    video: "https://www.youtube.com/watch?v=W9whMuUP9jY"
+  },
+  {
+    id: 1293,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Jedha: Reach Pilgrim's Sanctuary",
+    location: "Jedha — Pilgrim's Sanctuary",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Compass secured; Bode's turn foreshadowed",
+    summary: "Deep in the Pilgrim's Sanctuary, Cal recovers the intact compass that can guide a ship safely to Tanalorr.",
+    aiTip: "The sanctuary's final chamber is a light-and-mirror puzzle — use Force Pull on the reflectors in sequence. Save your Force meter for the guardian encounter at the top.",
+    video: "https://www.youtube.com/watch?v=JfIYsdob5Mc"
+  },
+  {
+    id: 1294,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Jedha: Bring the Compass to Cordova",
+    location: "Jedha — The Archive",
+    length: "short",
+    difficulty: "Low",
+    reward: "Compass decoded; Bode's betrayal",
+    summary: "Cal returns the compass to Cordova at the Archive — but Bode reveals his true colors, killing Cere and stealing the compass for the Empire.",
+    aiTip: "This is a story-heavy beat with a scripted loss. There's little to do mechanically; brace for the emotional gut-punch and the tone shift into the final act.",
+    video: "https://www.youtube.com/watch?v=Pyxj1c7B5No"
+  },
+  {
+    id: 1295,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Jedha: The Siege",
+    location: "Jedha — The Archive",
+    length: "long",
+    difficulty: "High",
+    reward: "Defend the Archive; regroup with Merrin",
+    summary: "The Empire, led by Bode, lays siege to the Jedha Archive. Cal fights through waves of stormtroopers to protect Cordova's research and mourn Cere.",
+    aiTip: "A wave-defense gauntlet — use choke points and Merrin's magick to control the crowds. Keep moving between the Archive's tiers rather than getting cornered.",
+    video: "https://www.youtube.com/watch?v=fXzcKzvDizU"
+  },
+  {
+    id: 1296,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Koboh: Into the Abyss (Reach Tanalorr)",
+    location: "Koboh — Koboh Abyss",
+    length: "long",
+    difficulty: "High",
+    reward: "Cross the Abyss; reach Tanalorr",
+    summary: "With a rebuilt compass, Cal and Merrin finally pilot the Mantis through the churning Koboh Abyss to the long-lost world of Tanalorr.",
+    aiTip: "The Abyss run is a set-piece flight sequence — follow the compass markers and don't fight the controls. Once through, Tanalorr's serene vistas signal the endgame.",
+    video: "https://www.youtube.com/watch?v=ZY1Y2GhvKxg"
+  },
+  {
+    id: 1297,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Nova Garon",
+    title: "Nova Garon: Locate the Traitor",
+    location: "Nova Garon — Imperial Base",
+    length: "long",
+    difficulty: "High",
+    reward: "Infiltrate Bode's Imperial base",
+    summary: "Chasing Bode, Cal infiltrates the hidden Imperial base of Nova Garon to cut off the Empire before it can reach Tanalorr.",
+    aiTip: "Nova Garon is a dense stealth-and-combat fortress. Purge Troopers and Security Droids hit hard — use the environment and pick off patrols before triggering alarms.",
+    video: "https://www.youtube.com/watch?v=ms2u1pC_HSs"
+  },
+  {
+    id: 1298,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Nova Garon",
+    title: "Nova Garon: Escape",
+    location: "Nova Garon — Hangar Bay",
+    length: "medium",
+    difficulty: "High",
+    reward: "Escape Nova Garon; final pursuit",
+    summary: "After exposing Bode's plan, Cal fights his way out of Nova Garon's collapsing hangars to give chase to Tanalorr for the final confrontation.",
+    aiTip: "A running-battle escape — prioritize mobility over clearing every enemy. Board the shuttle as soon as the path opens; lingering only spawns more Purge Troopers.",
+    video: "https://www.youtube.com/watch?v=jeZPF6cStLg"
+  },
+  {
+    id: 1299,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Survivor",
+    region: "Tanalorr",
+    title: "Tanalorr: Confront the Traitor",
+    location: "Tanalorr — Highland Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Final duel with Bode Akuna",
+    summary: "On Tanalorr, Cal faces Bode Akuna in a final duel for the fate of the sanctuary world and the refugees who could shelter there.",
+    aiTip: "Bode uses blaster-and-saber hybrid tactics across two phases. Deflect his blaster bolts back at him, then close distance for the saber phase — patience wins the run.",
+    video: "https://www.youtube.com/watch?v=NlgTbpU0BAY"
+  },
+  {
+    id: 1300,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Rancor",
+    location: "Sodden Grotto",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; skill point",
+    summary: "A caged Rancor broken loose in the Sodden Grotto is one of Koboh's earliest and most punishing optional bosses.",
+    aiTip: "Bring the Crossguard stance for the raw damage and use pillars to break line of sight. Slow it with Force Stasis during its ground-pound to open big punish windows.",
+    video: "https://www.youtube.com/watch?v=b4-Sim9Bi70"
+  },
+  {
+    id: 1301,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Beetu Deetu",
+    location: "Southern Reach",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; cosmetic",
+    summary: "A rogue B2 super battle droid, Beetu Deetu, patrols the Southern Reach and hits like a walking artillery piece.",
+    aiTip: "Deflect its blaster volleys back and close the gap during reloads. Its melee slam is heavily telegraphed — dodge through, don't block.",
+    video: "https://www.youtube.com/watch?v=mwS_l-txlc0"
+  },
+  {
+    id: 1302,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Gorocco Matriarch",
+    location: "Derelict Dam",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; perk shard",
+    summary: "The towering Gorocco Matriarch guards the Derelict Dam and combines heavy melee with a devastating charge.",
+    aiTip: "Stay at mid-range and bait the charge, then dash aside and punish the recovery. Blaster stance chips it safely if you struggle up close.",
+    video: "https://www.youtube.com/watch?v=UXwuY9TugVw"
+  },
+  {
+    id: 1303,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "E3-VE3",
+    location: "Untamed Downs",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; skill point",
+    summary: "The rolling security droid E3-VE3 ambushes travelers crossing the Untamed Downs with electric shock attacks.",
+    aiTip: "Its spin-rush is unblockable — dodge, don't parry. Attack only after it uncurls, and keep BD-1's stims ready for the shock combos.",
+    video: "https://www.youtube.com/watch?v=-pdB-2yQkGQ"
+  },
+  {
+    id: 1304,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Spawn of Oggdo",
+    location: "Fort Kah'Lin",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; rare materials",
+    summary: "Hidden beneath Fort Kah'Lin, the Spawn of Oggdo is a smaller, faster relative of Fallen Order's infamous toad-boss — and just as deadly.",
+    aiTip: "Its tongue-grab is a one-shot at low health — parry it on reaction. Fight defensively, punish two hits at a time, and never get greedy.",
+    video: "https://www.youtube.com/watch?v=va0b9hRuoe8"
+  },
+  {
+    id: 1305,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "The Massiff",
+    location: "Yurt Barracks",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; cosmetic",
+    summary: "A hulking beast-master's Massiff prowls the Yurt Barracks, striking with rapid lunges.",
+    aiTip: "Keep your guard up for the lunge chains and counter after the third strike. Dual-wield stance shreds it once you learn the rhythm.",
+    video: "https://www.youtube.com/watch?v=fi4427j3yAY"
+  },
+  {
+    id: 1306,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Mire Terror",
+    location: "Viscid Bog",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; skill point",
+    summary: "The Mire Terror is a massive amphibian ambush predator lurking in the Viscid Bog's murky water.",
+    aiTip: "It surfaces to strike then submerges — punish the emerge animation. Stay on dry ground so its water-lunge is easier to read.",
+    video: "https://www.youtube.com/watch?v=z-jOlMB99dE"
+  },
+  {
+    id: 1307,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Vile Bilemaw",
+    location: "Fogged Expanse",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; perk shard",
+    summary: "The Vile Bilemaw, a burrowing worm-beast, erupts from the ground in the Fogged Expanse.",
+    aiTip: "Watch the dirt tremors to predict its emerge point and roll clear. Hit it hard while it's surfaced, then reposition before it burrows again.",
+    video: "https://www.youtube.com/watch?v=OCeO8YSiZf8"
+  },
+  {
+    id: 1308,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Urgost, Fist of Rayvis",
+    location: "Observatory Understructure",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; unique reward",
+    summary: "Urgost, one of Rayvis's Gen'Dai lieutenants, waits in the Observatory Understructure with regenerating health and brutal reach.",
+    aiTip: "Like Rayvis, break his poise rather than racing his health bar. Parry the hammer combos and unload during the stagger; the fight is a marathon, not a sprint.",
+    video: "https://www.youtube.com/watch?v=uISvP1zwF3k"
+  },
+  {
+    id: 1309,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Coruscant",
+    title: "Frenzied Jotaz",
+    location: "Undercity Meats",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; skill point",
+    summary: "A Frenzied Jotaz rampages through the Undercity Meats district of Coruscant, all raw muscle and grab attacks.",
+    aiTip: "Its overhead grab is unblockable — dodge and punish the whiff. Confusion charm helps if adds join, but the Jotaz alone rewards patient counters.",
+    video: "https://www.youtube.com/watch?v=A2YckZfBgaw"
+  },
+  {
+    id: 1310,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Coruscant",
+    title: "D-L1T",
+    location: "Hangar 2046-C",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; cosmetic",
+    summary: "The elite security droid D-L1T defends Hangar 2046-C on Coruscant with precision blaster fire and shield bashes.",
+    aiTip: "Reflect its rapid blaster bursts to build stagger, then close in. Its shield bash is parryable — hold the line and counter for big damage.",
+    video: "https://www.youtube.com/watch?v=8QVWMOIWoCo"
+  },
+  {
+    id: 1311,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Golden Skriton",
+    location: "Desert Ridge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; rare materials",
+    summary: "The Golden Skriton, a rare armored reptile, basks along Jedha's Desert Ridge and burrows to ambush.",
+    aiTip: "Its burrow-and-lunge mirrors the Bilemaw — read the sand plumes. Target the softer underbelly when it rears up to bite.",
+    video: "https://www.youtube.com/watch?v=8rAuR_lN30E"
+  },
+  {
+    id: 1312,
+    type: "side",
+    category: "Legendary Enemy",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Sutaban Alpha",
+    location: "Crypt of Uhrma",
+    length: "medium",
+    difficulty: "High",
+    reward: "Legendary Enemy loot; perk shard",
+    summary: "The Sutaban Alpha, a venomous winged predator, nests near the Crypt of Uhrma on Jedha.",
+    aiTip: "It darts in and out with poison swipes — keep your distance closed so it can't strafe. Parry the double-swipe and punish between its aerial dashes.",
+    video: "https://www.youtube.com/watch?v=LGBqviOG2S4"
+  },
+  {
+    id: 1313,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Korej Lim",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "A Bedlam Raider enforcer, Korej Lim is one of the first bounties Caij posts near Rambler's Reach.",
+    aiTip: "An easy warm-up bounty — parry his saber-pike combos and counter. Good practice for the harder hunters to come.",
+    video: "https://www.youtube.com/watch?v=nUv0xU9eDC0"
+  },
+  {
+    id: 1314,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Meyen Corr",
+    location: "Boiling Bluff",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Meyen Corr, a blaster-wielding mercenary, holes up at Boiling Bluff.",
+    aiTip: "Deflect his blaster fire back to stagger him, then close in. Watch for the thermal detonators he lobs when cornered.",
+    video: "https://www.youtube.com/watch?v=eFExq0vkQlQ"
+  },
+  {
+    id: 1315,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Kip Ostar",
+    location: "Derelict Dam",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "The slicer-bounty Kip Ostar hides among the machinery at the Derelict Dam.",
+    aiTip: "He summons droid backup — take out the adds first, then focus him. Slow stance helps manage the chaos.",
+    video: "https://www.youtube.com/watch?v=07D5v8FjTT8"
+  },
+  {
+    id: 1316,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Selfin Jook",
+    location: "Observatory Understructure",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Selfin Jook, an agile duelist, ambushes in the Observatory Understructure.",
+    aiTip: "He's fast and dodge-heavy — bait his lunges and punish recovery rather than chasing. Dual-wield keeps pace with him.",
+    video: "https://www.youtube.com/watch?v=4a3QAkkvmwU"
+  },
+  {
+    id: 1317,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Vaslyn Martz",
+    location: "Fogged Expanse",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Vaslyn Martz, a heavy-armored bounty, stalks the Fogged Expanse.",
+    aiTip: "Her armor shrugs off light hits — use Crossguard heavy attacks and Force Slow to crack her guard.",
+    video: "https://www.youtube.com/watch?v=Viw2Wbv4U8I"
+  },
+  {
+    id: 1318,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Raz",
+    location: "Forest Array",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "The beast-tamer Raz fights alongside her creatures near the Forest Array.",
+    aiTip: "Thin her pack before engaging Raz directly. Confusion charm turns her beasts against her for an easy opening.",
+    video: "https://www.youtube.com/watch?v=94pN_vCvX9Q"
+  },
+  {
+    id: 1319,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Coruscant",
+    title: "Gatt Medo",
+    location: "Freight Handling Depot",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Gatt Medo runs a smuggling crew out of Coruscant's Freight Handling Depot.",
+    aiTip: "A ranged specialist — use cover and reflect his shots. Close distance fast so his crew can't triangulate you.",
+    video: "https://www.youtube.com/watch?v=SvKjn_fgcf4"
+  },
+  {
+    id: 1320,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Nova Garon",
+    title: "Kle-0",
+    location: "Hangar Bay",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "The assassin droid KLE-O guards Nova Garon's Hangar Bay.",
+    aiTip: "It fights with dual vibroblades and quick teleport-dashes. Parry the blade flurries and punish after its dash combo ends.",
+    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
+  },
+  {
+    id: 1321,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Nova Garon",
+    title: "Fenn Finau",
+    location: "Hangar Bay",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Fenn Finau, one half of a hunter pair, ambushes in the Nova Garon Hangar Bay.",
+    aiTip: "Often fought near Masi — isolate them if you can. Fenn favors aggressive saber rushes; parry and counter methodically.",
+    video: "https://www.youtube.com/watch?v=F9LTCniVyHA"
+  },
+  {
+    id: 1322,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Nova Garon",
+    title: "Masi Finau",
+    location: "Hangar Bay",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Masi Finau, the second of the Finau hunters, backs up Fenn in the Hangar Bay.",
+    aiTip: "Masi lays down ranged support — close on Masi first to stop the crossfire, then mop up. Mind both aggro bars at once.",
+    video: "https://www.youtube.com/watch?v=7pP_1MH1JA0"
+  },
+  {
+    id: 1323,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Shattered Moon",
+    title: "Mash",
+    location: "Automated Forge",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "The rogue droid Mash powers up amid the Shattered Moon's Automated Forge.",
+    aiTip: "It overcharges its shell for burst damage — back off during the glow, then punish when it cools. Reflect its ranged volleys.",
+    video: "https://www.youtube.com/watch?v=9XfvJMKnjxA"
+  },
+  {
+    id: 1324,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Corde the Half",
+    location: "Halls of Ranvell",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Corde the Half is a twin-bounty fought in Jedha's Halls of Ranvell alongside PR-85T.",
+    aiTip: "The pair coordinate attacks — use pillars to fight them one at a time. Take Corde down before its droid partner overwhelms you.",
+    video: "https://www.youtube.com/watch?v=FRl6U2OlHiw"
+  },
+  {
+    id: 1325,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "PR-85T the Other Half",
+    location: "Halls of Ranvell",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "PR-85T, Corde's droid other half, completes the Halls of Ranvell twin bounty.",
+    aiTip: "It shields Corde and lays down suppressing fire. Reflect its blasts and stagger it so you can split the pair apart.",
+    video: "https://www.youtube.com/watch?v=Ri2U6zcwUb4"
+  },
+  {
+    id: 1326,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Jo the Cannibal",
+    location: "Yurt Barracks",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Jo the Cannibal, a deranged raider, lairs in the Yurt Barracks.",
+    aiTip: "Aggressive and relentless — hold your parry timing and don't panic-dodge. Counter her frenzied combos two hits at a time.",
+    video: "https://www.youtube.com/watch?v=jBgjD7q_Mhc"
+  },
+  {
+    id: 1327,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Yuhong",
+    location: "Path of Restoration",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Yuhong, a saber-for-hire, waits along Jedha's Path of Restoration.",
+    aiTip: "A clean dueling test — no adds, just footwork. Read the tells, parry the mixups, and punish the recovery frames.",
+    video: "https://www.youtube.com/watch?v=XYOePv3dN6A"
+  },
+  {
+    id: 1328,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Kili Oso",
+    location: "Sanctuary Temple",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "Kili Oso guards the approach to Jedha's Sanctuary Temple.",
+    aiTip: "Kili blends blaster and blade — deflect at range, then pressure up close so the ranged phase can't reset.",
+    video: "https://www.youtube.com/watch?v=-LqGtGQo_pQ"
+  },
+  {
+    id: 1329,
+    type: "side",
+    category: "Legendary Bounty",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Caij",
+    location: "Devastated Settlement",
+    length: "short",
+    difficulty: "High",
+    reward: "Bounty pucks / credits; Caij's respect",
+    summary: "The bounty-giver herself, Caij Vanda, becomes the final hunt at the Devastated Settlement once the others are cleared.",
+    aiTip: "Caij is a skilled duelist who fights fair — this is the graduation exam for everything the bounties taught you. Stay patient and read her mixups.",
+    video: "https://www.youtube.com/watch?v=cNYK_2ayH6o"
+  },
+  {
+    id: 1330,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Detachment",
+    location: "Prospector's Folly",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; traversal mastery",
+    summary: "A High Republic meditation trial beneath Prospector's Folly testing pull-and-push traversal under time pressure.",
+    aiTip: "Plan the whole route before you start the timer. Chain grapple points without stopping — hesitation resets the run.",
+    video: "https://www.youtube.com/watch?v=EJTZQ-3JVIc"
+  },
+  {
+    id: 1331,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Fortitude",
+    location: "Corroded Silo",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; puzzle reward",
+    summary: "The Chamber of Fortitude hides in the Corroded Silo and layers combat waves over a shifting arena.",
+    aiTip: "Clear each wave before touching the puzzle nodes. Keep your Force meter for the ability-gated platform between fights.",
+    video: "https://www.youtube.com/watch?v=jOIRsipoolg"
+  },
+  {
+    id: 1332,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Clarity",
+    location: "Untamed Downs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; Essence",
+    summary: "This Untamed Downs chamber is a pure logic puzzle of orbs, rails and reflectors.",
+    aiTip: "Solve it in stages — set one orb, lock it, then move to the next. Use Force Slow on moving platforms to line up throws.",
+    video: "https://www.youtube.com/watch?v=eiAPTdlKWHc"
+  },
+  {
+    id: 1333,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Reason",
+    location: "Basalt Rift",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; perk",
+    summary: "The Chamber of Reason in the Basalt Rift demands precise ball-and-socket physics puzzles.",
+    aiTip: "Roll the sphere along magnetic tracks and use Pull to redirect it mid-air. Patience beats speed — small adjustments only.",
+    video: "https://www.youtube.com/watch?v=0vXOTtyPhUc"
+  },
+  {
+    id: 1334,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Connection",
+    location: "Viscid Bog",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; Essence",
+    summary: "Sunk into the Viscid Bog, the Chamber of Connection links twin puzzle rooms you must solve in tandem.",
+    aiTip: "Changes in one room affect the other — track both states. Use the meditation reset if you desync the mechanisms.",
+    video: "https://www.youtube.com/watch?v=KuFKBfhiJpU"
+  },
+  {
+    id: 1335,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Duality",
+    location: "Pyloon's Saloon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; Zee rescued",
+    summary: "Accessed beneath Pyloon's Saloon, the Chamber of Duality is tied to the Find the Gyro Module rumor and rescuing Zee.",
+    aiTip: "This one gates on the Shatter ability — return once you have it. Solve the mirrored halves symmetrically to open the core.",
+    video: "https://www.youtube.com/watch?v=UTocnO1jr4E"
+  },
+  {
+    id: 1336,
+    type: "side",
+    category: "Jedi Chamber",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Chamber of Ambidexterity",
+    location: "Devastated Settlement",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; Essence",
+    summary: "The Chamber of Ambidexterity under the Devastated Settlement tests both dash and pull in fast sequence.",
+    aiTip: "Alternate abilities on the fly — the trial punishes muscle-memory single-inputs. Learn the loop, then execute it clean.",
+    video: "https://www.youtube.com/watch?v=CHtaWfBIjU4"
+  },
+  {
+    id: 1337,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Chests & Cosmetics",
+    location: "Every planet",
+    length: "long",
+    difficulty: "Low",
+    reward: "Cosmetics for Cal, BD-1, lightsaber, blaster, Mantis",
+    summary: "Hundreds of chests across every planet hold purely cosmetic unlocks — hairstyles, jackets, ponchos, saber parts, BD-1 shells and Mantis paint.",
+    aiTip: "Buy every map from Zee to reveal chest icons, then sweep regions once you have the full traversal kit. Cosmetics only, so chase these at your own pace.",
+    video: "https://www.youtube.com/watch?v=sVEkPNxmAiQ"
+  },
+  {
+    id: 1338,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Stim Canisters",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "BD-1 stim capacity upgrades (up to 10)",
+    summary: "Hidden Stim Canisters raise the number of healing stims BD-1 can carry — each one is a permanent survivability boost.",
+    aiTip: "These are the highest-value collectible in the game. Prioritize them early; more stims makes every boss and Legendary fight dramatically easier.",
+    video: "https://www.youtube.com/watch?v=emihiFBTxF8"
+  },
+  {
+    id: 1339,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Essences",
+    location: "Every planet",
+    length: "long",
+    difficulty: "High",
+    reward: "Health, Force, Skill and Perk upgrades",
+    summary: "Force Essences permanently increase Cal's health and Force meter, unlock bonus skill points, and add perk slots — tucked behind the game's trickier chambers and mini-boss arenas.",
+    aiTip: "Essences hide behind ability-gated puzzles, so return with the full kit. Prioritize Health and Force essences for survivability before the perk-slot ones.",
+    walkthrough: [
+      "Buy each planet's map from Zee so Essence icons appear on the world map.",
+      "Return to gated Essences only after unlocking the full ability kit (dash, Shatter, Pull mastery).",
+      "Prioritize Health and Force Essences — three of each grants a permanent meter upgrade.",
+      "Clear Jedi Chambers, which frequently reward an Essence at their end.",
+      "Mop up Skill and Perk Essences last to round out Cal's build."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20all%20essences%20collectibles%20walkthrough"
+  },
+  {
+    id: 1340,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Priorite Shards",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Currency for Doma's shop upgrades",
+    summary: "Priorite Shards are the game's collectible currency, spent at Doma's shop in Pyloon's Saloon on gear and cosmetic unlocks.",
+    aiTip: "Grab shards opportunistically while exploring — you never need to farm them. They pile up naturally as you clear chests and side content.",
+    video: "https://www.youtube.com/watch?v=BhZEapPrM7E"
+  },
+  {
+    id: 1341,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Databank & Force Echoes",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Lore entries; Tactical Guide XP",
+    summary: "Scannable Force Echoes and Databank entries flesh out the galaxy's lore and reward exploration with small progression bonuses.",
+    aiTip: "Let BD-1 scan everything that pings — echoes are easy XP and deepen the story. Many are missable if you leave a region, so scan as you go.",
+    video: "https://www.youtube.com/watch?v=85af_VIUc0E"
+  },
+  {
+    id: 1342,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Rooftop & Garden Seeds",
+    location: "Every planet",
+    length: "short",
+    difficulty: "Low",
+    reward: "Pili's garden at Pyloon's Saloon",
+    summary: "Rare seeds scattered across the planets can be brought back to Pili's rooftop garden at Pyloon's Saloon, where each blooms into a distinct plant.",
+    aiTip: "Recruit Pili first (Check in With Pili rumor) to unlock the garden. Seeds are purely for completion and the associated trophy — no combat value.",
+    video: "https://www.youtube.com/watch?v=62jgOzK9pXw"
+  },
+  {
+    id: 1343,
+    type: "side",
+    category: "Collectibles",
+    game: "Star Wars Jedi: Survivor",
+    region: "All Planets",
+    title: "Collectible Hunt: Treasures — Datadiscs & Scrolls",
+    location: "Every planet",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Sellable treasures; collection completion",
+    summary: "Datadiscs, ancient scrolls and other Treasure collectibles are found in hard-to-reach corners and count toward full-completion tallies.",
+    aiTip: "These reward thorough traversal — check ledges above and below the main path. Use the region maps to spot the ones you've missed on a cleanup run.",
+    video: "https://www.youtube.com/watch?v=Kf3xtBvSURo"
+  },
+  {
+    id: 1344,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Investigate the Abandoned Shack",
+    location: "Foothill Falls",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Priorite Shard",
+    summary: "A prospector's tip points Cal to an abandoned shack in the Foothill Falls, with a hidden cave tucked beside the water below it.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Prospector at the Nekko Stables in Rambler's Reach to start the rumor.",
+      "Travel to the Abandoned Shack in Foothill Falls on Koboh.",
+      "Find the cave near the water's edge and wall-run up to the higher ledge.",
+      "Claim the Priorite Shard to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Abandoned%20Shack%20walkthrough"
+  },
+  {
+    id: 1345,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Recruit the Mysterious Fisherman",
+    location: "Nekko Pools",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Skoova Stev joins Pyloon's Saloon",
+    summary: "A rumor of a lone fisherman at the Nekko Pools leads Cal to Skoova Stev, who can be recruited back to the saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor at Pyloon's Saloon, then head to the Nekko Pools past Rambler's Reach.",
+      "Zipline across Foothill Falls to the boat on the left.",
+      "Talk to Skoova Stev and accept his offer to join you.",
+      "Return to Pyloon's Saloon to find him by the aquarium on the second floor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20the%20Mysterious%20Fisherman%20walkthrough"
+  },
+  {
+    id: 1346,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Find the Musician and Their Droid",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Jukebox music; saloon ambiance",
+    summary: "Monk at the saloon asks Cal to track down a wandering musician and their droid to bring music back to Pyloon's.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Monk in Pyloon's Saloon to receive the rumor.",
+      "Follow the lead across Koboh to locate the musician's droid.",
+      "Recover the jukebox components as directed.",
+      "Return to the saloon to restore the music."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20the%20Musician%20and%20Their%20Droid%20walkthrough"
+  },
+  {
+    id: 1347,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Help Zygg in the Swamp",
+    location: "Viscid Bog",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Zygg recruited to the saloon",
+    summary: "Monk points Cal toward Zygg, a patron stranded out in the Viscid Bog and in need of rescue.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Monk in Pyloon's Saloon to unlock the rumor.",
+      "Travel into the Viscid Bog on Koboh.",
+      "Fight through the bog's creatures to reach Zygg.",
+      "Escort or clear the way so Zygg can return to the saloon."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Help%20Zygg%20in%20the%20Swamp%20walkthrough"
+  },
+  {
+    id: 1348,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check on the Jawa Settlement",
+    location: "Bygone Settlement",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Jawa recruit for Pyloon's Saloon",
+    summary: "On a later visit to Koboh, a prospector worries about a Jawa settlement gone quiet at the Bygone Settlement.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Prospector outside Pyloon's Saloon on your third visit to Koboh.",
+      "Use the Dash ability to reach the Bygone Settlement's ancient structures.",
+      "Defeat the Bedlam Raiders and battle droids besieging the Jawas.",
+      "Talk to the surviving Jawa afterward to complete the rumor and gain the recruit."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20the%20Jawa%20Settlement%20walkthrough"
+  },
+  {
+    id: 1349,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Locate the Odd Pair",
+    location: "Boiling Bluff",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Holotactics table at the saloon",
+    summary: "Moran mentions an odd pair out at the Boiling Bluff, unlocking the Holotactics mini-game once resolved.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Moran in Pyloon's Saloon after unlocking Nekko riding and completing Leave the Forest Array.",
+      "Ride out to the Boiling Bluff on Koboh.",
+      "Investigate the odd pair and resolve the encounter.",
+      "Return to unlock the Holotactics Table on the saloon's second floor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Locate%20the%20Odd%20Pair%20walkthrough"
+  },
+  {
+    id: 1350,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Find Missing Prospectors",
+    location: "Southern Reach",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prospector rewards; lore",
+    summary: "A prospector at the Southern Reach reports colleagues who ventured out and never came back.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Koboh Prospector at the Southern Reach, in front of the Rambler's Reach meditation point.",
+      "Follow the trail toward the missing prospectors' last location.",
+      "Deal with the creatures that trapped them.",
+      "Recover the prospectors' effects to close out the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Missing%20Prospectors%20walkthrough"
+  },
+  {
+    id: 1351,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Find Gorge's Secret",
+    location: "Derelict Dam",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Hunter lightsaber cosmetic",
+    summary: "A prospector behind Pyloon's Saloon hints at a secret hidden out past the Derelict Dam's tar pits.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Prospector at the back of Pyloon's Saloon.",
+      "Fast-travel to the Derelict Dam and cross the filled tar pit to the Trontoshell.",
+      "Call the Trontoshell as a mount and ride it up to the branching ledges.",
+      "Force-move the crate to climb up, then open the chest for the Hunter lightsaber cosmetic."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
+  },
+  {
+    id: 1352,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Investigate the Central Valley Facility",
+    location: "Alignment Control Center",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gear upgrade; lore",
+    summary: "Reports of activity at a High Republic facility in the Untamed Downs draw Cal to the Alignment Control Center.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor from a prospector at Pyloon's Saloon.",
+      "Travel to the Alignment Control Center in the Untamed Downs.",
+      "Fight through its defenses and solve the interior puzzles.",
+      "Reach the facility's core to complete the investigation."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Central%20Valley%20Facility%20walkthrough"
+  },
+  {
+    id: 1353,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Investigate the Roller Mine Factory",
+    location: "Hunter's Quarry",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gear upgrade; lore",
+    summary: "A prospector across from the saloon tips Cal off to a droid-run roller mine factory at Hunter's Quarry.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to the Prospector on the metal tub across from Pyloon's Saloon.",
+      "Travel to Hunter's Quarry on Koboh.",
+      "Clear the factory's roller mines and droid defenders.",
+      "Reach the control room to finish the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Roller%20Mine%20Factory%20walkthrough"
+  },
+  {
+    id: 1354,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber in the Forest",
+    location: "Basalt Forest",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Skill point; Essence",
+    summary: "A rumor points to an unexplored High Republic chamber tucked into the Basalt Forest.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Take the rumor from the saloon board.",
+      "Travel to the Basalt Forest on Koboh.",
+      "Locate the concealed chamber entrance.",
+      "Solve the chamber's puzzle to claim its reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Forest%20walkthrough"
+  },
+  {
+    id: 1355,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber on the Mountain",
+    location: "Mountain Ascent",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Patience Perk (Life Regen)",
+    summary: "Toa at Pyloon's Saloon points Cal toward a High Republic chamber high up the Mountain Ascent — accessible only late in the game.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Toa in Pyloon's Saloon and finish the conversation to unlock the rumor (available after Zee is taken on Jedha, once you have Dash and the other chambers done).",
+      "Travel to the Mountain Ascent on Koboh.",
+      "Climb to the concealed chamber entrance.",
+      "Solve the chamber puzzle to earn the Patience Perk."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20on%20the%20Mountain%20walkthrough"
+  },
+  {
+    id: 1356,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check in With Pili",
+    location: "Fogged Expanse",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Pili recruited; garden unlocked",
+    summary: "Cal hears that Pili Wintan, a would-be gardener, is in trouble out in the Fogged Expanse.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Unlock the rumor by speaking with Pili during your travels on Koboh.",
+      "Travel to the Fogged Expanse to find her.",
+      "Clear the threats surrounding Pili.",
+      "Send her back to Pyloon's Saloon to open the rooftop garden."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20in%20With%20Pili%20walkthrough"
+  },
+  {
+    id: 1357,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Explore the Ruins in the Northern Desert",
+    location: "Path of Persistence",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Skill reward; lore",
+    summary: "Cordova asks Cal to survey ancient ruins in Jedha's northern desert along the Path of Persistence.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Eno Cordova at the Jedha Archive to receive the rumor.",
+      "Travel to the ruins on the Path of Persistence.",
+      "Push the sliding rock into place, then guide the moving Orb upward.",
+      "Climb the ruins and set the Orb to complete the puzzle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Northern%20Desert%20walkthrough"
+  },
+  {
+    id: 1358,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Explore the Ruins in the Southern Desert",
+    location: "Path of Restoration",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Perk slot; Cordova's trail",
+    summary: "A companion rumor from Cordova sends Cal to the Path of Restoration ruins in Jedha's southern desert.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Eno Cordova at the Jedha Archive to unlock the rumor.",
+      "Travel to the Path of Restoration in Jedha's southern desert.",
+      "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
+      "Reach the inner chamber to claim the perk slot."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Southern%20Desert%20walkthrough"
+  },
+  {
+    id: 1359,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Jedha",
+    title: "Explore the Ruins in the Western Desert",
+    location: "Path of Conviction",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Perk slot; Cordova's lightsaber lead",
+    summary: "The third of Cordova's ruins rumors points Cal to the Path of Conviction in Jedha's western desert; solving all three reveals Cordova's lightsaber.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Speak to Eno Cordova at the Jedha Archive to unlock the rumor.",
+      "Travel to the Path of Conviction ruins in Jedha's western desert.",
+      "Solve the Orb-and-slider puzzle to align the mechanism.",
+      "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
+  },
+  {
+    id: 1360,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Investigate the Raider Watchtower",
+    location: "Boiling Bluff",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Priorite Shards; cleared outpost",
+    summary: "A prospector reports Bedlam Raiders have fortified a watchtower overlooking the Koboh wilds and are harassing travelers.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor from a prospector at Pyloon's Saloon.",
+      "Ride out to the raider watchtower on Koboh.",
+      "Clear the Bedlam Raiders and battle droids garrisoned there.",
+      "Reach the top of the tower and claim the stashed loot to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Raider%20Watchtower%20walkthrough"
+  },
+  {
+    id: 1361,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber in the Swamp",
+    location: "Viscid Bog",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; perk",
+    summary: "A rumor points to a sealed High Republic meditation chamber hidden in the murk of the Viscid Bog.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Take the rumor from the saloon board.",
+      "Travel to the Viscid Bog on Koboh.",
+      "Locate the chamber entrance concealed among the bog ruins.",
+      "Solve the interior Force puzzle to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Swamp%20walkthrough"
+  },
+  {
+    id: 1362,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber in the Valley",
+    location: "Untamed Downs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; perk",
+    summary: "Another High Republic chamber lies buried in the Untamed Downs valley, waiting to be uncovered.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Take the rumor from the saloon board.",
+      "Travel to the Untamed Downs on Koboh.",
+      "Find the concealed chamber entrance in the valley.",
+      "Complete the chamber's puzzle to earn its reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Valley%20walkthrough"
+  },
+  {
+    id: 1363,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Recruit Ashe Javi & DD-EC",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ashe Javi & DD-EC join Pyloon's Saloon",
+    summary: "Word reaches Cal of a wandering performer, Ashe Javi, and their droid DD-EC who could liven up Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the recruitment rumor at Pyloon's Saloon.",
+      "Track Ashe Javi and DD-EC down at their spot on Koboh.",
+      "Finish the conversation to convince them to join.",
+      "Return to Pyloon's Saloon to find the pair settled in."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20Ashe%20Javi%20%26%20DD-EC%20walkthrough"
+  },
+  {
+    id: 1364,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Recruit T-1N8",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "T-1N8 joins Pyloon's Saloon",
+    summary: "A stranded droid, T-1N8, can be recruited to add to the growing community at Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the recruitment rumor at Pyloon's Saloon.",
+      "Locate T-1N8 out in the Koboh wilds.",
+      "Complete the interaction to bring the droid onside.",
+      "Head back to Pyloon's Saloon to see T-1N8 among the patrons."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20T-1N8%20walkthrough"
+  },
+  {
+    id: 1365,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check on Wini & Zygg",
+    location: "Viscid Bog",
+    length: "short",
+    difficulty: "Low",
+    reward: "Follow-up on the swamp pair; saloon banter",
+    summary: "After helping Zygg out of the swamp, a follow-up rumor asks Cal to check back in on Zygg and Wini.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Help Zygg in the Swamp first to unlock this follow-up.",
+      "Take the rumor from the saloon and return toward the Viscid Bog.",
+      "Find Wini and Zygg and see how the pair are faring.",
+      "Finish the conversation to close out the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20Wini%20%26%20Zygg%20walkthrough"
+  },
+  {
+    id: 1366,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Use the Saloon's Jukebox",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Saloon music playlist",
+    summary: "Once the musician's droid is recovered, Cal can spin up tracks on the restored jukebox in Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Find the Musician and Their Droid to restore the jukebox.",
+      "Head to the jukebox on the ground floor of Pyloon's Saloon.",
+      "Interact with it to browse the unlocked tracks.",
+      "Play a song to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Use%20the%20Saloon's%20Jukebox%20walkthrough"
+  },
+  {
+    id: 1367,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check the Aquarium",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Skoova's rotating fish collection",
+    summary: "Skoova Stev stocks the saloon's aquarium with rare fish he catches on his travels — Cal can drop by to see the latest haul.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Recruit the Mysterious Fisherman (Skoova) so he starts stocking the tank.",
+      "Progress the story so Skoova brings back new catches over time.",
+      "Visit the aquarium on the second floor of Pyloon's Saloon.",
+      "Inspect the fish to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20the%20Aquarium%20walkthrough"
+  },
+  {
+    id: 1368,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Play a Holotactics Game",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Holotactics match; bragging rights",
+    summary: "With the Holotactics table unlocked, Cal can challenge patrons to a round of the in-universe strategy game.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Locate the Odd Pair to unlock the Holotactics Table.",
+      "Go to the table on the second floor of Pyloon's Saloon.",
+      "Challenge an opponent and set up your unit board.",
+      "Win a match of Holotactics to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Play%20a%20Holotactics%20Game%20walkthrough"
+  },
+  {
+    id: 1369,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Visit Doma's Shop",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gear, perks and cosmetics for Priorite",
+    summary: "Doma Dendra runs a shop just outside Pyloon's Saloon, trading gear and cosmetics for the Priorite Shards Cal collects.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Reach Rambler's Reach Outpost on Koboh.",
+      "Find Doma's shop stall outside Pyloon's Saloon.",
+      "Browse her stock of perks, upgrades and cosmetics.",
+      "Spend Priorite Shards to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Doma's%20Shop%20walkthrough"
+  },
+  {
+    id: 1370,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Visit Zee's Shop",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Region maps and databank data",
+    summary: "Zee, the saloon's archivist, sells the region maps and databank data that make Koboh and beyond far easier to explore.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Head to Zee inside Pyloon's Saloon.",
+      "Open her shop and review the available maps and data.",
+      "Buy a region map to reveal collectibles and points of interest.",
+      "Complete a purchase to finish the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Zee's%20Shop%20walkthrough"
+  },
+  {
+    id: 1371,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Shattered Moon",
+    title: "Investigate the Factory's Lower Levels",
+    location: "Automated Forge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rare materials; lore",
+    summary: "A rumor hints that the Shattered Moon's automated factory hides more in its flooded, low-gravity lower levels.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor while on the Shattered Moon.",
+      "Descend below the main floor of the Automated Forge.",
+      "Navigate the low-gravity platforming and heavy security droids.",
+      "Reach the lower vault and claim its contents to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Factory's%20Lower%20Levels%20walkthrough"
   }
 ];

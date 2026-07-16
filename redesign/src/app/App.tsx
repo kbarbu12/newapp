@@ -3,7 +3,7 @@ import {
   Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
-  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings
+  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check
 } from "lucide-react";
 import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
@@ -58,6 +58,25 @@ function DifficultyChip({ level }: { level:"Low"|"Medium"|"High" }) {
   const ic = { Low:<Shield size={8}/>, Medium:<Flame size={8}/>, High:<Zap size={8}/> };
   const c = DIFF_COLORS[level];
   return <Pill className="border-transparent" style={{ backgroundColor:c.bg, color:c.text }}>{ic[level]} {level}</Pill>;
+}
+// Status line + border tint for a quest card/detail, keyed on completion / missable.
+function questStatus(quest:Quest, completed:boolean){
+  if(completed) return { label:"✓ COMPLETED", color:"#6bbf8a", border:"#24382c" };
+  if(quest.missable) return { label:`⚠ MISSABLE${quest.missableWindow?` — ${quest.missableWindow.toUpperCase()}`:""}`, color:"#e0a94b", border:"#3a2a18" };
+  return { label:"NOT STARTED", color:"#8b8998", border:"var(--border)" };
+}
+// Neutral metadata chip used on quest cards + detail badges.
+function MetaChip({ children, color, bg }:{ children:React.ReactNode; color?:string; bg?:string }){
+  return <span className="text-[11px] leading-none px-2 py-[3px] rounded-md font-medium whitespace-nowrap" style={{ background:bg??"#1a1a24", color:color??"#a7a5b6" }}>{children}</span>;
+}
+const CARD_DIFF = {
+  High:   { bg:"#2a1615", color:"#e08774", icon:"🔥" },
+  Medium: { bg:"#241f0e", color:"#e0bf6d", icon:"◆" },
+  Low:    { bg:"#12251a", color:"#6bbf8a", icon:"◆" },
+};
+function DiffChip({ level }: { level:"Low"|"Medium"|"High" }) {
+  const d = CARD_DIFF[level];
+  return <MetaChip bg={d.bg} color={d.color}>{d.icon} {level}</MetaChip>;
 }
 function SectionEyebrow({ children, icon }: { children:React.ReactNode; icon?:React.ReactNode }) {
   return (
@@ -143,6 +162,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
   const hasGuide = !!quest.walkthrough?.length;
   const [revealed, setRevealed] = useState(!hideSpoilers);
   const buyUrl = `https://store.playstation.com/search/${encodeURIComponent(quest.game)}`;
+  const status = questStatus(quest, completed);
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
       {/* Banner */}
@@ -171,6 +191,13 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             <span className="text-[10px] font-semibold tracking-wider uppercase" style={{ color:col }}>{quest.game}</span>
             <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</DialogTitle>
           </DialogHeader>
+
+          {/* Status / difficulty / video badges */}
+          <div className="flex items-center gap-1.5 flex-wrap mt-2">
+            <span className="text-[11px] font-bold leading-none px-2 py-[3px] rounded-md" style={{ color:status.color, background:status.color+"1a" }}>{status.label}</span>
+            <DiffChip level={quest.difficulty}/>
+            {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
+          </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
@@ -247,7 +274,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           <div className="rounded-lg border border-border bg-[var(--card-2)] p-4 hidden sm:flex flex-col gap-2">
             <h4 className="text-xs font-semibold uppercase tracking-widest text-foreground mb-1">Mark Progress</h4>
             {onComplete && (
-              <button onClick={()=>onComplete(quest.id)} className={`flex items-center justify-center gap-1.5 rounded-lg text-xs font-semibold px-3 py-2 border transition-colors ${completed?"bg-emerald-500/15 text-emerald-400 border-emerald-500/30":"border-border text-muted-foreground hover:text-foreground hover:border-white/20"}`}>
+              <button onClick={()=>onComplete(quest.id)} className="flex items-center justify-center gap-1.5 rounded-lg text-xs font-semibold px-3 py-2.5 transition-colors" style={completed ? { background:"#6bbf8a26", color:"#6bbf8a", border:"1px solid #6bbf8a4d" } : { background:"#6bbf8a", color:"#0c1710" }}>
                 {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>} {completed?"Marked done":"Mark done"}
               </button>
             )}
@@ -266,7 +293,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           </a>
         )}
         {onComplete && (
-          <button onClick={()=>onComplete(quest.id)} className={`flex-1 flex items-center justify-center gap-1.5 rounded-lg text-xs font-semibold px-3 py-2.5 ${completed?"bg-emerald-500/15 text-emerald-400 border border-emerald-500/30":"bg-primary text-primary-foreground"}`}>
+          <button onClick={()=>onComplete(quest.id)} className="flex-1 flex items-center justify-center gap-1.5 rounded-lg text-xs font-semibold px-3 py-2.5" style={completed ? { background:"#6bbf8a26", color:"#6bbf8a", border:"1px solid #6bbf8a4d" } : { background:"#6bbf8a", color:"#0c1710" }}>
             {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>} {completed?"Marked done":"Mark done"}
           </button>
         )}
@@ -277,7 +304,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, variant="row", showGameLabel=true, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -285,60 +312,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
   // isn't one — it's a whole clickable article. Track it ourselves so focus
   // lands back on the card (not <body>) once the modal closes.
   const triggerRef = useRef<HTMLElement>(null);
-
-  if (variant==="grid") {
-    return (
-      <>
-      <article
-        ref={triggerRef}
-        tabIndex={-1}
-        onClick={()=>{setOpen(true);onOpen?.(quest.id);}}
-        className="group flex flex-col bg-card border border-border rounded-xl overflow-hidden cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
-        onMouseEnter={e=>{const el=e.currentTarget;el.style.borderColor=col+"55";el.style.boxShadow=`0 12px 32px rgba(0,0,0,.5),0 0 0 1px ${col}22,0 4px 20px ${col}15`;}}
-        onMouseLeave={e=>{const el=e.currentTarget;el.style.borderColor="";el.style.boxShadow="";}}
-      >
-        <div className="relative w-full aspect-[16/10] overflow-hidden">
-          {meta?.cover && <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>}
-          <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.85) 10%,transparent 65%)"}}/>
-          <div className="absolute top-2 right-2 flex items-center gap-2">
-            {onComplete && (
-              <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={`w-6 h-6 rounded-full bg-black/50 backdrop-blur flex items-center justify-center ${completed?"text-emerald-400":"text-white/70 hover:text-emerald-400 transition-colors"}`}>
-                {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
-              </button>
-            )}
-            <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} aria-label={saved?"Remove from saved quests":"Save quest"} className="w-6 h-6 rounded-full bg-black/50 backdrop-blur flex items-center justify-center text-white/70 hover:text-primary transition-colors">
-              {saved ? <BookmarkCheck size={13} className="text-primary"/> : <Bookmark size={13}/>}
-            </button>
-          </div>
-          <div className="absolute bottom-0 left-0 right-0 p-3">
-            {showGameLabel && <div className="text-[10px] font-semibold tracking-wider uppercase truncate mb-0.5" style={{ color:col }}>{quest.game}</div>}
-            <p className="text-[19px] font-semibold leading-snug text-white" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</p>
-          </div>
-        </div>
-        <div className="flex-1 min-w-0 p-3 flex flex-col gap-2">
-          <p className="text-[11px] text-foreground leading-relaxed line-clamp-2 flex-1">{quest.summary}</p>
-          <div className="flex items-center gap-1.5 flex-wrap">
-            <Pill className={quest.type==="main"?"bg-primary/10 text-primary border-primary/25":"bg-white/5 text-muted-foreground border-white/10"}>
-              {quest.type==="main"?<Star size={8}/>:<BookOpen size={8}/>}{quest.type==="main"?"Main":"Side"}
-            </Pill>
-            <DifficultyChip level={quest.difficulty}/>
-            {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
-            <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
-          </div>
-        </div>
-      </article>
-      <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent
-          className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
-          onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
-        >
-          <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
-        </DialogContent>
-      </Dialog>
-      </>
-    );
-  }
+  const status = questStatus(quest, completed);
 
   return (
     <>
@@ -346,40 +320,49 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
       ref={triggerRef}
       tabIndex={-1}
       onClick={()=>{setOpen(true);onOpen?.(quest.id);}}
-      className="group flex bg-card border border-border rounded-lg overflow-hidden cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
-      onMouseEnter={e=>{const el=e.currentTarget;el.style.borderColor=col+"55";el.style.boxShadow=`0 12px 32px rgba(0,0,0,.5),0 0 0 1px ${col}22,0 4px 20px ${col}15`;}}
-      onMouseLeave={e=>{const el=e.currentTarget;el.style.borderColor="";el.style.boxShadow="";}}
+      className="group flex items-center gap-3 sm:gap-3.5 bg-card border rounded-xl p-3 sm:p-[15px] cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
+      style={{ borderColor: status.border }}
+      onMouseEnter={e=>{const el=e.currentTarget;el.style.boxShadow=`0 10px 28px rgba(0,0,0,.45),0 0 0 1px ${col}22`;}}
+      onMouseLeave={e=>{const el=e.currentTarget;el.style.boxShadow="";}}
     >
-      <div className="relative flex-shrink-0 overflow-hidden" style={{ width:"5.5rem" }}>
-        {meta?.cover && <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent to-card/60"/>
-        <div className="absolute left-0 top-0 bottom-0 w-0.5" style={{ backgroundColor:col }}/>
+      {/* thumbnail badge */}
+      <div className="relative flex items-end justify-center overflow-hidden rounded-md sm:rounded-lg flex-shrink-0 w-[42px] h-[56px] sm:w-[52px] sm:h-[70px]" style={{ backgroundColor:"#1a1a24" }}>
+        {meta?.cover
+          ? <img src={meta.cover} alt={quest.game} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-top"/>
+          : <span className="pb-1 text-[9px] font-semibold text-muted-foreground">{meta?.abbr}</span>}
       </div>
-      <div className="flex-1 min-w-0 p-4 flex flex-col gap-2">
-        <div className="flex items-center justify-between gap-1">
-          {showGameLabel && <span className="text-[10px] font-semibold tracking-wider uppercase truncate" style={{ color:col }}>{quest.game}</span>}
-          <div className="flex items-center gap-2 shrink-0 ml-auto">
-            {quest.video && <span className="flex items-center gap-0.5 text-[9px] text-red-400/60"><Youtube size={9}/> Video</span>}
-            {!quest.video && <span className="flex items-center gap-0.5 text-[9px] text-primary/70"><BookOpen size={9}/> Steps</span>}
-            {onComplete && (
-              <button onClick={e=>{e.stopPropagation();onComplete(quest.id);}} aria-label={completed?"Mark quest incomplete":"Mark quest complete"} className={completed?"text-emerald-400":"text-muted-foreground/40 hover:text-emerald-400 transition-colors"}>
-                {completed ? <CheckCircle2 size={13}/> : <Circle size={13}/>}
-              </button>
-            )}
-            <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} aria-label={saved?"Remove from saved quests":"Save quest"} className="text-muted-foreground/40 hover:text-primary transition-colors">
-              {saved ? <BookmarkCheck size={13} className="text-primary"/> : <Bookmark size={13}/>}
-            </button>
-          </div>
-        </div>
-        <p className="text-sm font-semibold leading-snug text-foreground group-hover:text-primary transition-colors" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</p>
-        <p className="text-[11px] text-foreground leading-relaxed line-clamp-3 flex-1">{quest.summary}</p>
+
+      {/* content column */}
+      <div className="flex-1 min-w-0">
+        <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
+        <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Cormorant Garamond',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
-          <Pill className={quest.type==="main"?"bg-primary/10 text-primary border-primary/25":"bg-white/5 text-muted-foreground border-white/10"}>
-            {quest.type==="main"?<Star size={8}/>:<BookOpen size={8}/>}{quest.type==="main"?"Main":"Side"}
-          </Pill>
-          <DifficultyChip level={quest.difficulty}/>
-          <span className="flex items-center gap-1 ml-auto"><Clock size={9} className="text-muted-foreground"/><LenDots length={quest.length}/><span className="text-[9px] text-muted-foreground capitalize">{quest.length}</span></span>
+          <span className="hidden sm:inline-flex"><MetaChip>{quest.type==="main"?"Main":"Side"}</MetaChip></span>
+          <DiffChip level={quest.difficulty}/>
+          {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
+          <span className="hidden sm:inline-flex">
+            {!quest.video && quest.walkthrough?.length
+              ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
+              : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
+          </span>
         </div>
+      </div>
+
+      {/* trailing actions */}
+      <div className="flex flex-col items-center gap-2 flex-shrink-0">
+        {onComplete && (
+          <button
+            onClick={e=>{e.stopPropagation();onComplete(quest.id);}}
+            aria-label={completed?"Mark quest incomplete":"Mark quest complete"}
+            className="w-[22px] h-[22px] sm:w-[26px] sm:h-[26px] rounded-full flex items-center justify-center transition-colors"
+            style={completed ? { background:"#6bbf8a", color:"#0c1710" } : { border:"1.5px solid #35353f" }}
+          >
+            {completed && <Check size={13}/>}
+          </button>
+        )}
+        <button onClick={e=>{e.stopPropagation();onSave(quest.id);}} aria-label={saved?"Remove from saved quests":"Save quest"} className="text-muted-foreground/50 hover:text-primary transition-colors">
+          {saved ? <BookmarkCheck size={14} className="text-primary"/> : <Bookmark size={14}/>}
+        </button>
       </div>
     </article>
 
@@ -388,7 +371,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
         className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
         onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
       >
-        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed}/>
+        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
       </DialogContent>
     </Dialog>
     </>
@@ -781,18 +764,19 @@ function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoT
           return (
             <button key={r.game} onClick={()=>onGoTo("browse",{game:r.game})}
               className="flex items-center gap-3 bg-card border border-border rounded-lg p-3 text-left hover:border-white/15 transition-colors">
-              <ProgressRing pct={r.pct} size={32}/>
+              <div className="w-[42px] h-[56px] rounded-md overflow-hidden shrink-0 flex items-end justify-center" style={{backgroundColor:"#1a1a24"}}>
+                {meta?.cover ? <img src={meta.cover} alt="" className="w-full h-full object-cover object-top"/> : <span className="pb-1 text-[9px] font-semibold text-muted-foreground">{meta?.abbr}</span>}
+              </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between gap-2">
                   <span className="text-sm font-semibold text-foreground truncate" style={{fontFamily:"'Cormorant Garamond',serif"}}>{r.game}</span>
-                  <span className="text-[11px] text-emerald-400 font-medium shrink-0">{r.pct}%</span>
+                  <span className="text-[11px] text-emerald-400 font-semibold shrink-0 tabular-nums">{r.pct}%</span>
                 </div>
                 <div className="h-1.5 rounded-full bg-[var(--card-2)] mt-1.5 overflow-hidden">
                   <div className="h-full rounded-full bg-emerald-400" style={{width:`${r.pct}%`}}/>
                 </div>
                 <span className="text-[10px] text-muted-foreground mt-1 block">{r.done} of {r.total} complete</span>
               </div>
-              {meta?.cover && <img src={meta.cover} alt="" className="w-8 h-11 object-cover rounded shrink-0"/>}
             </button>
           );
         })}
@@ -827,13 +811,15 @@ function SettingsSection({ title, children }: { title:string; children:React.Rea
 function SettingsTab({
   hideSpoilers, setHideSpoilers, autoplayVideo, setAutoplayVideo,
   defaultDifficulty, setDefaultDifficulty, onResetProgress,
-  canInstall, onInstall,
+  canInstall, onInstall, theme, setTheme, offlineState, onDownloadOffline,
 }: {
   hideSpoilers:boolean; setHideSpoilers:(v:boolean)=>void;
   autoplayVideo:boolean; setAutoplayVideo:(v:boolean)=>void;
   defaultDifficulty:DiffFilter; setDefaultDifficulty:(v:DiffFilter)=>void;
   onResetProgress:()=>void;
   canInstall:boolean; onInstall:()=>void;
+  theme:"dark"|"light"; setTheme:(v:"dark"|"light")=>void;
+  offlineState:"idle"|"saving"|"saved"; onDownloadOffline:()=>void;
 }) {
   return (
     <div className="flex flex-col gap-6 max-w-lg">
@@ -851,12 +837,29 @@ function SettingsTab({
         </SettingsRow>
       </SettingsSection>
 
+      <SettingsSection title="Appearance">
+        <SettingsRow label="Theme" hint="Switch between the dark and light palette.">
+          <div className="flex rounded-lg border border-border overflow-hidden">
+            {(["dark","light"] as const).map(t=>(
+              <button key={t} onClick={()=>setTheme(t)}
+                className={`px-3 py-1.5 text-xs font-medium capitalize transition-colors ${theme===t?"bg-primary text-primary-foreground":"bg-secondary text-muted-foreground hover:text-foreground"}`}>{t}</button>
+            ))}
+          </div>
+        </SettingsRow>
+      </SettingsSection>
+
       <SettingsSection title="Offline & data">
         {canInstall && (
           <SettingsRow label="Install app" hint="Add RPG Quest Guide to your home screen for quick, full-screen access.">
             <button onClick={onInstall} className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Install</button>
           </SettingsRow>
         )}
+        <SettingsRow label="Download for offline" hint="Save the app and all quest data on this device so it opens without a connection.">
+          <button onClick={onDownloadOffline} disabled={offlineState!=="idle"}
+            className="px-3 py-1.5 rounded-lg bg-secondary border border-border text-xs font-medium text-foreground hover:border-primary/50 transition-colors disabled:opacity-70">
+            {offlineState==="saving" ? "Saving…" : offlineState==="saved" ? "✓ Saved" : "Download"}
+          </button>
+        </SettingsRow>
         <SettingsRow label="Reset all progress" hint="Clears every completed quest and step checklist on this device. This can't be undone.">
           <button onClick={()=>{ if(confirm("Reset all quest and step progress? This can't be undone.")) onResetProgress(); }} className="px-3 py-1.5 rounded-lg border border-destructive/40 text-destructive text-xs font-medium hover:bg-destructive/10 transition-colors">Reset</button>
         </SettingsRow>
@@ -885,7 +888,7 @@ function FiltersPopover({ activeFilters, onReset, resultCount, children }: { act
     <div ref={ref} className="relative">
       <button onClick={()=>setOpen(o=>!o)} className="flex items-center gap-1.5 bg-secondary border border-border rounded-lg px-3 py-2.5 text-xs text-foreground hover:border-white/20 transition-colors">
         Filters
-        {activeFilters>0 && <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[9px] font-bold">{activeFilters}</span>}
+        {activeFilters>0 && <span className="inline-flex items-center justify-center min-w-[17px] h-[17px] px-1 rounded-full bg-primary text-primary-foreground text-[10px] font-bold">{activeFilters}</span>}
       </button>
       {open && (
         <>
@@ -933,8 +936,19 @@ function ChatWidget() {
   const bottomRef=useRef<HTMLDivElement>(null);
   useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
   const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
+  // A quest detail opens as a full-screen sheet on mobile; Radix scroll-locks
+  // the body while any modal is open. Hide the floating button on mobile then
+  // so it doesn't sit over the detail's sticky action bar.
+  const [modalOpen,setModalOpen]=useState(false);
+  useEffect(()=>{
+    const check=()=>setModalOpen(document.body.hasAttribute("data-scroll-locked"));
+    check();
+    const obs=new MutationObserver(check);
+    obs.observe(document.body,{attributes:true,attributeFilter:["data-scroll-locked"]});
+    return ()=>obs.disconnect();
+  },[]);
   return (
-    <div className="fixed bottom-24 sm:bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div className={`fixed right-4 sm:right-6 z-40 flex-col items-end gap-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] sm:bottom-6 ${modalOpen?"hidden sm:flex":"flex"}`}>
       {open&&(
         <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
@@ -1029,8 +1043,8 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   },[setVisibleCount]);
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} variant="grid" showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+      <div className="flex flex-col gap-3">
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
       </div>
       {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
     </>
@@ -1076,6 +1090,8 @@ export default function App() {
     catch { return false; }
   });
   const [defaultDifficulty,setDefaultDifficulty]= useState<DiffFilter>(()=>(localStorage.getItem("defaultDifficulty") as DiffFilter) ?? "All");
+  // Appearance setting: dark by default; light applies the `light` palette class.
+  const [theme,setTheme]= useState<"dark"|"light">(()=>(localStorage.getItem("theme") as "dark"|"light") ?? "dark");
 
   useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
   useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
@@ -1083,6 +1099,7 @@ export default function App() {
   useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
   useEffect(()=>{ localStorage.setItem("autoplayVideo", JSON.stringify(autoplayVideo)); },[autoplayVideo]);
   useEffect(()=>{ localStorage.setItem("defaultDifficulty", defaultDifficulty); },[defaultDifficulty]);
+  useEffect(()=>{ localStorage.setItem("theme", theme); document.documentElement.classList.toggle("light", theme==="light"); },[theme]);
   useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
 
   // Keep the Library filters in the URL query string so a filtered view is
@@ -1125,6 +1142,27 @@ export default function App() {
     installPrompt.prompt();
     await installPrompt.userChoice;
     setInstallPrompt(null);
+  };
+
+  // "Download for offline": tell the service worker to precache the app shell +
+  // bundled quest data (the URLs this page has already loaded) so the app opens
+  // with no network. Quest data is compiled into the JS bundle, so caching the
+  // loaded same-origin resources + the document covers offline use.
+  const [offlineState, setOfflineState] = useState<"idle"|"saving"|"saved">("idle");
+  const downloadOffline = async () => {
+    const sw = navigator.serviceWorker;
+    if(!sw){ alert("Offline caching isn't available in this browser."); return; }
+    setOfflineState("saving");
+    const reg = await sw.ready;
+    const urls = performance.getEntriesByType("resource")
+      .map(e=>(e as PerformanceResourceTiming).name)
+      .filter(u=>u.startsWith(window.location.origin));
+    urls.push(window.location.href.split("?")[0]);
+    const onMsg = (e:MessageEvent)=>{
+      if(e.data?.type==="CACHE_URLS_DONE"){ setOfflineState("saved"); sw.removeEventListener("message", onMsg); }
+    };
+    sw.addEventListener("message", onMsg);
+    reg.active?.postMessage({ type:"CACHE_URLS", urls:[...new Set(urls)] });
   };
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
@@ -1194,15 +1232,22 @@ export default function App() {
   };
 
   const filterChips = [
-    selectedGame!=="All" && { label:selectedGame, onRemove:()=>setSelectedGame("All") },
-    typeFilter!=="All" && { label:`Type: ${typeFilter}`, onRemove:()=>setTypeFilter("All") },
-    diffFilter!=="All" && { label:`Difficulty: ${diffFilter}`, onRemove:()=>setDiffFilter("All") },
-    lenFilter!=="All" && { label:`Length: ${lenFilter}`, onRemove:()=>setLenFilter("All") },
-    videoFilter!=="All" && { label:videoFilter, onRemove:()=>setVideoFilter("All") },
-    notStartedOnly && { label:"Not started", onRemove:()=>setNotStartedOnly(false) },
-    missableOnly && { label:"Missable", onRemove:()=>setMissableOnly(false) },
-    !!search && { label:`"${search}"`, onRemove:()=>setSearch("") },
-  ].filter(Boolean) as { label:string; onRemove:()=>void }[];
+    selectedGame!=="All" && { label:selectedGame, tone:"gold", onRemove:()=>setSelectedGame("All") },
+    typeFilter!=="All" && { label:`Type: ${typeFilter}`, tone:"gold", onRemove:()=>setTypeFilter("All") },
+    diffFilter!=="All" && { label:`Difficulty: ${diffFilter}`, tone:"amber", onRemove:()=>setDiffFilter("All") },
+    lenFilter!=="All" && { label:`Length: ${lenFilter}`, tone:"gold", onRemove:()=>setLenFilter("All") },
+    videoFilter!=="All" && { label:videoFilter, tone:"purple", onRemove:()=>setVideoFilter("All") },
+    notStartedOnly && { label:"Not started", tone:"purple", onRemove:()=>setNotStartedOnly(false) },
+    missableOnly && { label:"Missable", tone:"purple", onRemove:()=>setMissableOnly(false) },
+    !!search && { label:`"${search}"`, tone:"gold", onRemove:()=>setSearch("") },
+  ].filter(Boolean) as { label:string; tone:"gold"|"amber"|"purple"; onRemove:()=>void }[];
+
+  // Removable filter-chip tint by tone: amber = difficulty, purple = boolean.
+  const chipTone: Record<string,React.CSSProperties> = {
+    gold:   { background:"#211a0e", borderColor:"#4a3d18", color:"#e0bf6d" },
+    amber:  { background:"#211d12", borderColor:"#4a3d18", color:"#e0bf6d" },
+    purple: { background:"#1a1526", borderColor:"#372a55", color:"#b79dfb" },
+  };
 
   const TABS=[
     {id:"home"  as Tab, icon:<Home size={13}/>,      label:"Home"   },
@@ -1292,9 +1337,17 @@ export default function App() {
               const done = gameQuests.filter(q=>completedIds.has(q.id)).length;
               const pct = gameQuests.length ? Math.round((done/gameQuests.length)*100) : 0;
               return (
-                <div className="ml-auto flex items-center gap-2.5">
+                <div className="ml-auto flex items-center gap-3">
                   <ProgressRing pct={pct}/>
-                  <span className="text-[10px] text-muted-foreground whitespace-nowrap">{done}/{gameQuests.length} done</span>
+                  <div className="w-32 sm:w-40">
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <span className="text-[11px] text-muted-foreground whitespace-nowrap">{done} of {gameQuests.length} complete</span>
+                      <span className="text-[11px] font-semibold text-emerald-400 shrink-0">{pct}%</span>
+                    </div>
+                    <div className="h-1.5 rounded-full bg-[var(--card-2)] overflow-hidden">
+                      <div className="h-full rounded-full bg-emerald-400" style={{width:`${pct}%`}}/>
+                    </div>
+                  </div>
                 </div>
               );
             })()}
@@ -1348,7 +1401,7 @@ export default function App() {
                 <div className="flex items-center gap-3 flex-wrap">
                   <div className="relative flex-1 max-w-md">
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
-                    <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors"/>
+                    <input value={search} onChange={e=>setSearch(e.target.value)} type="search" name="quest-search" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellCheck={false} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors [&::-webkit-search-cancel-button]:hidden"/>
                     {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
                   <FiltersPopover activeFilters={activeFilters} onReset={resetFilters} resultCount={filtered.length}>
@@ -1374,13 +1427,13 @@ export default function App() {
                   <span className="text-sm text-muted-foreground">{filtered.length} result{filtered.length!==1?"s":""}</span>
                 </div>
                 {filterChips.length>0 && (
-                  <div className="flex items-center gap-1.5 flex-wrap -mt-2">
+                  <div className="flex items-center gap-1.5 flex-nowrap sm:flex-wrap overflow-x-auto -mt-2 pb-1 [scrollbar-width:none]">
                     {filterChips.map((c,i)=>(
-                      <button key={i} onClick={c.onRemove} className="flex items-center gap-1 px-2.5 py-1 rounded-full border border-primary/40 bg-primary/10 text-[11px] font-medium text-primary hover:bg-primary/20 transition-colors">
+                      <button key={i} onClick={c.onRemove} className="flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[11px] font-semibold whitespace-nowrap transition-opacity hover:opacity-80" style={chipTone[c.tone]}>
                         {c.label} <X size={10}/>
                       </button>
                     ))}
-                    <button onClick={resetFilters} className="text-[11px] text-muted-foreground hover:text-primary transition-colors">Clear all</button>
+                    <button onClick={resetFilters} className="text-[11px] text-muted-foreground hover:text-primary transition-colors whitespace-nowrap shrink-0">Clear all</button>
                   </div>
                 )}
                 {filtered.length===0
@@ -1392,7 +1445,7 @@ export default function App() {
             {tab==="news"  && <NewsTab/>}
             {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
       )}

@@ -48,6 +48,44 @@
   --sidebar-ring: #c5933a;
 }
 
+/* Light theme — opt-in via the `light` class on <html> (Settings › Appearance).
+   Keeps the gold accent but darkens it for contrast on light surfaces. */
+:root.light {
+  --background: #f6f4ef;
+  --foreground: #26221c;         /* warm ink — body text, AA on cream */
+  --text-hi: #1a1712;
+  --text-mute: #635c50;          /* tertiary labels — AA on cream */
+  --card: #ffffff;
+  --card-2: #efece4;
+  --card-foreground: #26221c;
+  --popover: #ffffff;
+  --popover-foreground: #26221c;
+  --primary: #8a5f14;            /* darker gold: AA (≈5:1) for links / accents on cream */
+  --primary-foreground: #fffdf7;
+  --gold-ink: #fffdf7;
+  --secondary: #eae6dc;
+  --secondary-foreground: #26221c;
+  --muted: #ece8df;
+  --muted-foreground: #63594c;   /* secondary text — neutral warm grey, AA on cream */
+  --accent: #8a5f14;
+  --accent-foreground: #fffdf7;
+  --destructive: #b8342a;
+  --destructive-foreground: #ffffff;
+  --border: #dcd7ca;
+  --hairline: #e5e1d6;
+  --tip-bg: #fbf3df;
+  --tip-border: #e6d09a;
+  --input: transparent;
+  --input-background: #ffffff;
+  --switch-background: #cfc9ba;
+  --ring: #8a5f14;
+  --sidebar: #efece4;
+  --sidebar-foreground: #26241f;
+  --sidebar-accent: #eae6dc;
+  --sidebar-accent-foreground: #26241f;
+  --sidebar-border: rgba(0, 0, 0, 0.08);
+}
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
