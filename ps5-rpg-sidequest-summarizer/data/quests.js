@@ -394,7 +394,7 @@ const subFilterConfig = {
 };
 
 const quests = [
-  {
+{
     id: 1,
     type: "side",
     category: "Side Quest",
@@ -413,7 +413,7 @@ const quests = [
       "Prioritize mobility spells, prepare healing, and save before major dialogue choices. This quest is best approached after checking companion objectives.",
     video: "https://www.youtube.com/watch?v=pskHqvzf6lE"
   },
-  {
+{
     id: 2,
     type: "main",
     category: "Main Story",
@@ -430,7 +430,7 @@ const quests = [
       "Bring Shadowheart for maximum narrative impact and explore each trial carefully before entering the final area.",
     video: "https://www.youtube.com/watch?v=oRpfzA0JcGw"
   },
-  {
+{
     id: 3,
     type: "side",
     category: "Side Quest",
@@ -447,7 +447,7 @@ const quests = [
       "Protect the Gondians during combat — if too many die, you lose their support. Area-of-effect spells can backfire here.",
     video: "https://www.youtube.com/watch?v=rUeiZ38w6dE"
   },
-  {
+{
     id: 4,
     type: "side",
     game: "Elden Ring",
@@ -463,7 +463,7 @@ const quests = [
       "Track NPC dialogue carefully. This quest is easier if you keep notes because the game rarely gives direct objective markers.",
     video: "https://www.youtube.com/watch?v=0RBa82TpYrM"
   },
-  {
+{
     id: 5,
     type: "side",
     game: "Elden Ring",
@@ -479,7 +479,7 @@ const quests = [
       "Speak to Alexander whenever you meet him and avoid rushing late-game areas before progressing his earlier encounters.",
     video: "https://www.youtube.com/watch?v=OR_nbiYVEe0"
   },
-  {
+{
     id: 6,
     type: "side",
     game: "Elden Ring",
@@ -495,7 +495,7 @@ const quests = [
       "Don't miss Gowry's shack in Caelid early on. The quest has easy-to-miss steps — check back with NPCs after major boss kills.",
     video: "https://www.youtube.com/watch?v=aCy_ZEP4AHs"
   },
-  {
+{
     id: 7,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -511,7 +511,7 @@ const quests = [
       "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
     video: "https://www.youtube.com/watch?v=Wl5PRcqEAWs"
   },
-  {
+{
     id: 8,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -527,7 +527,7 @@ const quests = [
       "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
     video: "https://www.youtube.com/watch?v=jj9_6zvmCE4"
   },
-  {
+{
     id: 9,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -543,7 +543,7 @@ const quests = [
       "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
     video: "https://www.youtube.com/watch?v=knOyK-htZSA"
   },
-  {
+{
     id: 10,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -561,7 +561,7 @@ const quests = [
       "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward.",
     video: "https://www.youtube.com/watch?v=M8kG3zOzoSQ"
   },
-  {
+{
     id: 11,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -577,7 +577,7 @@ const quests = [
       "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal.",
     video: "https://www.youtube.com/watch?v=PzNDAYy10BY"
   },
-  {
+{
     id: 12,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -593,7 +593,7 @@ const quests = [
       "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically.",
     video: "https://www.youtube.com/watch?v=rDjVYk-ByhQ"
   },
-  {
+{
     id: 13,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -609,7 +609,7 @@ const quests = [
       "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
     video: "https://www.youtube.com/watch?v=dVv0wLSYCB4"
   },
-  {
+{
     id: 14,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -627,7 +627,7 @@ const quests = [
       "Use Witcher senses thoroughly and think carefully before trusting supernatural characters.",
     video: "https://www.youtube.com/watch?v=FFI2FSIVBuE"
   },
-  {
+{
     id: 15,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -645,55 +645,7 @@ const quests = [
       "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome.",
     video: "https://www.youtube.com/watch?v=71PzwhZZFZk"
   },
-  {
-    id: 16,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Help the Hushed Honeybee",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Virtue growth, money, early-game routine progress",
-    summary:
-      "An early activity-style quest that teaches time management and social-stat progression, which are core to the broader RPG loop.",
-    aiTip:
-      "Good to complete early because it supports character growth without requiring heavy combat preparation.",
-    video: "https://www.youtube.com/watch?v=zNjNXgEthy4"
-  },
-  {
-    id: 17,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Pagan's Dilemma",
-    location: "Grand Trad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Follower-related progress, social insight",
-    summary:
-      "A side story focused on prejudice, belief, and social pressure. It gives the world more texture beyond the central tournament plot.",
-    aiTip:
-      "Treat dialogue as part of the quest system. Metaphor often rewards attention to social context, not only combat strength.",
-    video: "https://www.youtube.com/watch?v=Qp8q2DB5MFw"
-  },
-  {
-    id: 18,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "The Monster of Grand Trad",
-    location: "Grand Trad Sewers",
-    length: "medium",
-    difficulty: "High",
-    reward: "Rare equipment, Archetype unlock progress",
-    summary:
-      "Track a dangerous creature lurking beneath the capital city. The dungeon is optional but holds some of the best mid-game loot and tests party composition.",
-    aiTip:
-      "Bring a healer Archetype and stock up on MP restoratives. The boss hits hard and exploits elemental weaknesses.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Monster%20of%20Grand%20Trad%20walkthrough"
-  },
-  {
+{
     id: 19,
     type: "side",
     game: "Demon's Souls",
@@ -709,7 +661,7 @@ const quests = [
       "Bring a ranged option and move slowly. The Mind Flayers can paralyze and one-shot you. Free Yuria's key from the guards first.",
     video: "https://www.youtube.com/watch?v=IAMn_0_6IvY"
   },
-  {
+{
     id: 20,
     type: "side",
     game: "Demon's Souls",
@@ -725,7 +677,7 @@ const quests = [
       "Look up the trade list — some of the best rewards come from common items you might otherwise sell.",
     video: "https://www.youtube.com/watch?v=Riigb2TiFFo"
   },
-  {
+{
     id: 21,
     type: "side",
     game: "Demon's Souls",
@@ -741,7 +693,7 @@ const quests = [
       "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly.",
     video: "https://www.youtube.com/watch?v=4QzsNkwfzIg"
   },
-  {
+{
     id: 22,
     type: "side",
     category: "Side Quest",
@@ -758,7 +710,7 @@ const quests = [
       "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far.",
     video: "https://www.youtube.com/watch?v=ftHhNS_PJFw"
   },
-  {
+{
     id: 23,
     type: "side",
     category: "Side Quest",
@@ -775,7 +727,7 @@ const quests = [
       "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum.",
     video: "https://www.youtube.com/watch?v=T8k6izOn6Bs"
   },
-  {
+{
     id: 24,
     type: "side",
     category: "Side Quest",
@@ -792,7 +744,7 @@ const quests = [
       "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves.",
     video: "https://www.youtube.com/watch?v=48cEYhXFMrI"
   },
-  {
+{
     id: 25,
     type: "side",
     game: "Black Myth: Wukong",
@@ -808,7 +760,7 @@ const quests = [
       "The bells are easy to miss — explore every branching path in each region. Defeating Elder Jinchi rewards the Fireproof Mantle, which is useful for fire-heavy chapters ahead.",
     video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
   },
-  {
+{
     id: 26,
     type: "side",
     game: "Black Myth: Wukong",
@@ -824,7 +776,7 @@ const quests = [
       "You need Loong Scales before attempting this. The Red Loong hits extremely hard — learn its attack patterns and dodge toward its hind legs for openings.",
     video: "https://www.youtube.com/watch?v=T4gT29_KTeI"
   },
-  {
+{
     id: 27,
     type: "side",
     game: "Black Myth: Wukong",
@@ -840,7 +792,7 @@ const quests = [
       "The Squire is easy to walk past — check behind buildings in Rockrest Flat. Each fetch item is in a different sub-area of Chapter 2, so explore thoroughly before progressing.",
     video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
   },
-  {
+{
     id: 28,
     type: "side",
     game: "Black Myth: Wukong",
@@ -856,7 +808,7 @@ const quests = [
       "Listen to the boss music. Its weapon slams follow the beat — jump and dodge in rhythm. Head toward boulders for cover during its ranged attacks.",
     video: "https://www.youtube.com/watch?v=aws_pIoWkHA"
   },
-  {
+{
     id: 29,
     type: "side",
     game: "Black Myth: Wukong",
@@ -872,7 +824,7 @@ const quests = [
       "Target the blue crystals on its fists — that's the weak point. When it slams the ground causing shockwaves, jump into the air to avoid damage.",
     video: "https://www.youtube.com/watch?v=cA1w2eTChGs"
   },
-  {
+{
     id: 30,
     type: "side",
     game: "Black Myth: Wukong",
@@ -888,7 +840,7 @@ const quests = [
       "Don't rush through Chapter 3 — the Pagoda Realm is easy to miss. The Chu-Bai Spear is worth the effort and remains viable through endgame.",
     video: "https://www.youtube.com/watch?v=CbFLORHqUXU"
   },
-  {
+{
     id: 31,
     type: "side",
     game: "Black Myth: Wukong",
@@ -904,7 +856,7 @@ const quests = [
       "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
     video: "https://www.youtube.com/watch?v=4c3j5Igj9NQ"
   },
-  {
+{
     id: 32,
     type: "side",
     game: "Black Myth: Wukong",
@@ -920,7 +872,7 @@ const quests = [
       "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential.",
     video: "https://www.youtube.com/watch?v=3Z1T0f9f4Vw"
   },
-  {
+{
     id: 33,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -936,7 +888,7 @@ const quests = [
       "Use Yrden sign during the fight and read the bestiary entry. This quest teaches core mechanics you'll use for 100+ hours.",
     video: "https://www.youtube.com/watch?v=Q4GLjCF0rHg"
   },
-  {
+{
     id: 34,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -952,7 +904,7 @@ const quests = [
       "Pay attention to dialogue — the 'right' answer isn't obvious. This sets the tone for how Witcher 3 handles choices throughout.",
     video: "https://www.youtube.com/watch?v=MFgAIteo-X0"
   },
-  {
+{
     id: 35,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -968,7 +920,7 @@ const quests = [
       "There is no 'good' outcome — every choice has a cost. Save before deciding and consider which consequences you can live with.",
     video: "https://www.youtube.com/watch?v=F72fGFPr1IY"
   },
-  {
+{
     id: 36,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -984,7 +936,7 @@ const quests = [
       "Prepare for a tough fight with multiple enemies. Your choices from The Whispering Hillock determine what you face here.",
     video: "https://www.youtube.com/watch?v=WgRN7SYJb_M"
   },
-  {
+{
     id: 37,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1000,7 +952,7 @@ const quests = [
       "Keep all three cards at the end for Gwent collection progress. The monetary reward for returning them isn't worth it compared to the cards' value.",
     video: "https://www.youtube.com/watch?v=9oUv31iv-E0"
   },
-  {
+{
     id: 38,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1018,7 +970,7 @@ const quests = [
       "This is your last chance to commit to Triss's romance. If you tell her to stay at the docks, the romance locks in — choose carefully.",
     video: "https://www.youtube.com/watch?v=V0uK3Kuzq_g"
   },
-  {
+{
     id: 39,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1034,7 +986,7 @@ const quests = [
       "Explore the entire island before confronting the giant — there's a companion to rescue and environmental clues that enrich the story enormously.",
     video: "https://www.youtube.com/watch?v=TQBe8UKsvDo"
   },
-  {
+{
     id: 40,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1050,7 +1002,7 @@ const quests = [
       "Follow Cerys's lead and trust her plan — it's unconventional but it works. This quest is key if you want Cerys to rule Skellige.",
     video: "https://www.youtube.com/watch?v=uTEAl3zf1Ws"
   },
-  {
+{
     id: 41,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1066,7 +1018,7 @@ const quests = [
       "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost.",
     video: "https://www.youtube.com/watch?v=j9GrBz96UdM"
   },
-  {
+{
     id: 42,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1082,7 +1034,7 @@ const quests = [
       "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
     video: "https://www.youtube.com/watch?v=EHhayw2Na0Y"
   },
-  {
+{
     id: 43,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -1098,7 +1050,7 @@ const quests = [
       "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
     video: "https://www.youtube.com/watch?v=lRL8pJR45bU"
   },
-  {
+{
     id: 44,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -1114,7 +1066,7 @@ const quests = [
       "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
     video: "https://www.youtube.com/watch?v=3VQyzSeVY0U"
   },
-  {
+{
     id: 45,
     type: "side",
     game: "God of War Ragnarök",
@@ -1130,7 +1082,7 @@ const quests = [
       "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade.",
     video: "https://www.youtube.com/watch?v=O1bWR8i5Krg"
   },
-  {
+{
     id: 46,
     type: "side",
     game: "God of War Ragnarök",
@@ -1146,7 +1098,7 @@ const quests = [
       "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
     video: "https://www.youtube.com/watch?v=5HM0a3iCn_8"
   },
-  {
+{
     id: 47,
     type: "side",
     game: "God of War Ragnarök",
@@ -1162,7 +1114,7 @@ const quests = [
       "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability.",
     video: "https://www.youtube.com/watch?v=CxURjVeuuKA"
   },
-  {
+{
     id: 48,
     type: "side",
     category: "Mementos Requests",
@@ -1178,7 +1130,7 @@ const quests = [
       "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game.",
     video: "https://www.youtube.com/watch?v=4ewz8qCh2rg"
   },
-  {
+{
     id: 49,
     type: "side",
     category: "Mementos Requests",
@@ -1194,7 +1146,7 @@ const quests = [
       "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits.",
     video: "https://www.youtube.com/watch?v=uB7YvEUtwxM"
   },
-  {
+{
     id: 50,
     type: "side",
     category: "Mementos Requests",
@@ -1210,7 +1162,7 @@ const quests = [
       "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses.",
     video: "https://www.youtube.com/watch?v=QiqnGBceMnQ"
   },
-  {
+{
     id: 51,
     type: "side",
     category: "Mythic Tales",
@@ -1227,7 +1179,7 @@ const quests = [
       "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints.",
     video: "https://www.youtube.com/watch?v=0CR-bVq-xdA"
   },
-  {
+{
     id: 52,
     type: "side",
     category: "Mythic Tales",
@@ -1244,7 +1196,7 @@ const quests = [
       "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game.",
     video: "https://www.youtube.com/watch?v=6XQ45T4ruDQ"
   },
-  {
+{
     id: 53,
     type: "main",
     category: "Jin's Journey",
@@ -1261,7 +1213,7 @@ const quests = [
       "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard.",
     video: "https://www.youtube.com/watch?v=ismSt2eMGdo"
   },
-  {
+{
     id: 54,
     type: "side",
     game: "Horizon Forbidden West",
@@ -1277,7 +1229,7 @@ const quests = [
       "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
     video: "https://www.youtube.com/watch?v=iC_HQB2WOds"
   },
-  {
+{
     id: 55,
     type: "side",
     game: "Horizon Forbidden West",
@@ -1293,7 +1245,7 @@ const quests = [
       "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
     video: "https://www.youtube.com/watch?v=mTt0HqyaFbQ"
   },
-  {
+{
     id: 56,
     type: "side",
     game: "Horizon Forbidden West",
@@ -1309,7 +1261,7 @@ const quests = [
       "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
     video: "https://www.youtube.com/watch?v=B4zNx29HC84"
   },
-  {
+{
     id: 57,
     type: "main",
     game: "Pillars of Eternity",
@@ -1325,7 +1277,7 @@ const quests = [
       "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding.",
     video: "https://www.youtube.com/watch?v=TR0TQ9U-abg"
   },
-  {
+{
     id: 58,
     type: "side",
     game: "Pillars of Eternity",
@@ -1348,7 +1300,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Trials%20of%20Durance%20walkthrough"
   },
-  {
+{
     id: 59,
     type: "side",
     game: "Pillars of Eternity",
@@ -1371,7 +1323,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Bronze%20Beneath%20the%20Lake%20walkthrough"
   },
-  {
+{
     id: 60,
     type: "side",
     game: "Pillars of Eternity",
@@ -1394,7 +1346,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master%20Below%20walkthrough"
   },
-  {
+{
     id: 61,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -1409,7 +1361,7 @@ const quests = [
       "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
   },
-  {
+{
     id: 62,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -1424,7 +1376,7 @@ const quests = [
       "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
-  {
+{
     id: 63,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -1439,7 +1391,7 @@ const quests = [
       "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
   },
-  {
+{
     id: 64,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -1454,7 +1406,7 @@ const quests = [
       "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
   },
-  {
+{
     id: 65,
     type: "side",
     category: "Side Quest",
@@ -1471,7 +1423,7 @@ const quests = [
       "Search the workshop thoroughly — hidden compartments contain evidence that changes available dialogue options with the toymaker.",
     video: "https://www.youtube.com/watch?v=BTU7jPtqSFs"
   },
-  {
+{
     id: 66,
     type: "side",
     category: "Side Quest",
@@ -1488,7 +1440,7 @@ const quests = [
       "Buy Oskar's freedom rather than fighting — it's cheaper than the healing you'll need. Visit his house in Act 3 for the quest's surprising conclusion.",
     video: "https://www.youtube.com/watch?v=_BpJ_9fwNGk"
   },
-  {
+{
     id: 67,
     type: "side",
     category: "Side Quest",
@@ -1505,7 +1457,7 @@ const quests = [
       "The Cloak of Elvenkind makes the stealth approach much easier. Multiple solutions exist for each target — not all require combat.",
     video: "https://www.youtube.com/watch?v=wHtKGBsib_w"
   },
-  {
+{
     id: 68,
     type: "side",
     category: "Side Quest",
@@ -1522,7 +1474,7 @@ const quests = [
       "The Tongue of Madness and Timmask Spores are both found in the Underdark biome. Omeluum's potion doesn't cure you, but the ring reward is excellent for resisting psychic attacks.",
     video: "https://www.youtube.com/watch?v=OwuMRZFbeTo"
   },
-  {
+{
     id: 69,
     type: "side",
     category: "Side Quest",
@@ -1539,7 +1491,7 @@ const quests = [
       "Free the Tieflings first — they can create a diversion. Wulbren's escape route through the docks avoids the heaviest guard patrols.",
     video: "https://www.youtube.com/watch?v=6UBfg_xxLiQ"
   },
-  {
+{
     id: 70,
     type: "side",
     game: "Elden Ring",
@@ -1555,7 +1507,7 @@ const quests = [
       "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions.",
     video: "https://www.youtube.com/watch?v=adyGTfYzW1o"
   },
-  {
+{
     id: 71,
     type: "side",
     game: "Elden Ring",
@@ -1571,7 +1523,7 @@ const quests = [
       "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses.",
     video: "https://www.youtube.com/watch?v=85I3cqQ1gK0"
   },
-  {
+{
     id: 72,
     type: "side",
     game: "Elden Ring",
@@ -1587,7 +1539,7 @@ const quests = [
       "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion.",
     video: "https://www.youtube.com/watch?v=EY6CiENiNw4"
   },
-  {
+{
     id: 73,
     type: "side",
     game: "Elden Ring",
@@ -1603,7 +1555,7 @@ const quests = [
       "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret.",
     video: "https://www.youtube.com/watch?v=-FeB5PTagZY"
   },
-  {
+{
     id: 74,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -1619,7 +1571,7 @@ const quests = [
       "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
     video: "https://www.youtube.com/watch?v=_WIDD8VTlu4"
   },
-  {
+{
     id: 75,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -1635,7 +1587,7 @@ const quests = [
       "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
     video: "https://www.youtube.com/watch?v=FOAAzPumW44"
   },
-  {
+{
     id: 76,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -1651,7 +1603,7 @@ const quests = [
       "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
     video: "https://www.youtube.com/watch?v=wkTEyy0nRyo"
   },
-  {
+{
     id: 77,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -1667,7 +1619,7 @@ const quests = [
       "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
     video: "https://www.youtube.com/watch?v=PswNcC3SHKw"
   },
-  {
+{
     id: 78,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -1683,7 +1635,7 @@ const quests = [
       "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush.",
     video: "https://www.youtube.com/watch?v=M-9aTafUwgI"
   },
-  {
+{
     id: 79,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -1699,7 +1651,7 @@ const quests = [
       "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available.",
     video: "https://www.youtube.com/watch?v=LI9x_SG0zMg"
   },
-  {
+{
     id: 80,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -1715,7 +1667,7 @@ const quests = [
       "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture.",
     video: "https://www.youtube.com/watch?v=CBZYBz7ku5k"
   },
-  {
+{
     id: 81,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -1731,55 +1683,7 @@ const quests = [
       "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly.",
     video: "https://www.youtube.com/watch?v=r31zTg5KEXU"
   },
-  {
-    id: 82,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "The Tournament of Souls",
-    location: "Grand Trad Arena",
-    length: "long",
-    difficulty: "High",
-    reward: "Archetype unlock, rare equipment, massive follower growth",
-    summary:
-      "Enter a multi-round combat tournament that tests your party composition against increasingly powerful opponents. Each round introduces unique mechanics and enemy archetypes that force you to adapt your strategy.",
-    aiTip:
-      "Switch Archetypes between rounds to exploit enemy weaknesses. The final opponent resists everything — raw damage output and buff stacking are your best options.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Tournament%20of%20Souls%20walkthrough"
-  },
-  {
-    id: 83,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "The Nameless Soldier",
-    location: "Fort Endra",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Virtue growth, unique weapon, lore revelations",
-    summary:
-      "Investigate reports of a ghostly soldier haunting a ruined fortress. The quest blends dungeon exploration with a poignant story about loyalty, sacrifice, and the cost of the kingdom's wars.",
-    aiTip:
-      "Bring characters with high Courage — several dialogue checks require it. The ghost's weakness is Light-type attacks.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Nameless%20Soldier%20walkthrough"
-  },
-  {
-    id: 84,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower: Louis's Request",
-    location: "Varies by story chapter",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Louis Confidant progression, unique Archetype abilities",
-    summary:
-      "Deepen your bond with the enigmatic Louis through a series of conversations and tasks that reveal his complex motivations. His questline is one of the most narratively important in the game and directly affects the ending.",
-    aiTip:
-      "Prioritize Louis's Follower ranks early — his later abilities are among the strongest in the game. Pay close attention to his philosophy; your responses matter.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Louis's%20Request%20walkthrough"
-  },
-  {
+{
     id: 85,
     type: "side",
     game: "Demon's Souls",
@@ -1795,7 +1699,7 @@ const quests = [
       "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP.",
     video: "https://www.youtube.com/watch?v=th0qgF9VTsA"
   },
-  {
+{
     id: 86,
     type: "side",
     game: "Demon's Souls",
@@ -1811,7 +1715,7 @@ const quests = [
       "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players.",
     video: "https://www.youtube.com/watch?v=L-uQipj4SKc"
   },
-  {
+{
     id: 87,
     type: "side",
     game: "Demon's Souls",
@@ -1827,7 +1731,7 @@ const quests = [
       "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome.",
     video: "https://www.youtube.com/watch?v=rvLPhn9oh4k"
   },
-  {
+{
     id: 88,
     type: "side",
     category: "Side Quest",
@@ -1844,7 +1748,7 @@ const quests = [
       "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first.",
     video: "https://www.youtube.com/watch?v=G6qxi3c8_9I"
   },
-  {
+{
     id: 89,
     type: "main",
     category: "Main Story",
@@ -1861,7 +1765,7 @@ const quests = [
       "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices.",
     video: "https://www.youtube.com/watch?v=fuvTMtslfCQ"
   },
-  {
+{
     id: 90,
     type: "side",
     category: "Side Quest",
@@ -1878,7 +1782,7 @@ const quests = [
       "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage.",
     video: "https://www.youtube.com/watch?v=HJWdEOHVZhk"
   },
-  {
+{
     id: 91,
     type: "side",
     category: "Relationship",
@@ -1895,7 +1799,7 @@ const quests = [
       "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
     video: "https://www.youtube.com/watch?v=pDgBBzhZhEE"
   },
-  {
+{
     id: 93,
     type: "side",
     game: "God of War Ragnarök",
@@ -1911,7 +1815,7 @@ const quests = [
       "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
     video: "https://www.youtube.com/watch?v=6PdPpJlonMM"
   },
-  {
+{
     id: 97,
     type: "side",
     category: "Confidants",
@@ -1927,7 +1831,7 @@ const quests = [
       "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains.",
     video: "https://www.youtube.com/watch?v=FdLgyv7Zmaw"
   },
-  {
+{
     id: 98,
     type: "side",
     category: "Mementos Requests",
@@ -1943,7 +1847,7 @@ const quests = [
       "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win.",
     video: "https://www.youtube.com/watch?v=bhECGheHrKc"
   },
-  {
+{
     id: 100,
     type: "side",
     category: "Mythic Tales",
@@ -1960,7 +1864,7 @@ const quests = [
       "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early.",
     video: "https://www.youtube.com/watch?v=0WV7wgGfe-g"
   },
-  {
+{
     id: 101,
     type: "side",
     category: "Mythic Tales",
@@ -1977,7 +1881,7 @@ const quests = [
       "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm.",
     video: "https://www.youtube.com/watch?v=SDRtxDz7Duc"
   },
-  {
+{
     id: 102,
     type: "main",
     category: "Jin's Journey",
@@ -1994,7 +1898,7 @@ const quests = [
       "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin.",
     video: "https://www.youtube.com/watch?v=Uw12nUwnKWM"
   },
-  {
+{
     id: 103,
     type: "side",
     category: "Mythic Tales",
@@ -2011,7 +1915,7 @@ const quests = [
       "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
-  {
+{
     id: 104,
     type: "main",
     game: "Horizon Forbidden West",
@@ -2027,7 +1931,7 @@ const quests = [
       "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
     video: "https://www.youtube.com/watch?v=_j4_NpcVMHw"
   },
-  {
+{
     id: 105,
     type: "main",
     game: "Horizon Forbidden West",
@@ -2043,7 +1947,7 @@ const quests = [
       "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
     video: "https://www.youtube.com/watch?v=jMCtZ4xkIJ4"
   },
-  {
+{
     id: 106,
     type: "side",
     game: "Horizon Forbidden West",
@@ -2059,7 +1963,7 @@ const quests = [
       "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
     video: "https://www.youtube.com/watch?v=w3wURjVgnI0"
   },
-  {
+{
     id: 107,
     type: "main",
     game: "Horizon Forbidden West",
@@ -2075,7 +1979,7 @@ const quests = [
       "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
     video: "https://www.youtube.com/watch?v=UP5p7BpHyjc"
   },
-  {
+{
     id: 108,
     type: "side",
     game: "Pillars of Eternity",
@@ -2098,7 +2002,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Dozen's%20Dispute%20walkthrough"
   },
-  {
+{
     id: 109,
     type: "main",
     game: "Pillars of Eternity",
@@ -2121,7 +2025,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Through%20Death's%20Gate%20walkthrough"
   },
-  {
+{
     id: 110,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -2136,7 +2040,7 @@ const quests = [
       "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
   },
-  {
+{
     id: 111,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -2151,7 +2055,7 @@ const quests = [
       "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Berath's%20Blessings%20walkthrough"
   },
-  {
+{
     id: 112,
     type: "side",
     category: "Companion",
@@ -2168,7 +2072,7 @@ const quests = [
       "Don't let Astarion bite you at camp early on — it has consequences. His questline rewards players who take time to understand his past rather than judge him.",
     video: "https://www.youtube.com/watch?v=rUJ9dRaOyns"
   },
-  {
+{
     id: 113,
     type: "side",
     category: "Companion",
@@ -2193,7 +2097,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
   },
-  {
+{
     id: 114,
     type: "side",
     category: "Side Quest",
@@ -2210,7 +2114,7 @@ const quests = [
       "Examine every victim carefully and follow every lead before confronting suspects. The killer's identity is well-disguised and multiple false trails are laid.",
     video: "https://www.youtube.com/watch?v=Arve0okS648"
   },
-  {
+{
     id: 115,
     type: "side",
     category: "Side Quest",
@@ -2227,7 +2131,7 @@ const quests = [
       "Stop the windmill before freeing Barcus — there's a brake lever nearby. Freeing him correctly sets up later encounters where he repays the favour.",
     video: "https://www.youtube.com/watch?v=dZTXqF9r0uE"
   },
-  {
+{
     id: 116,
     type: "side",
     category: "Side Quest",
@@ -2244,7 +2148,7 @@ const quests = [
       "Always carry Moonlantern or pixie blessing to survive the shadow curse. Escort Halsin carefully during the ritual — he can die, which locks you out of the good ending.",
     video: "https://www.youtube.com/watch?v=Z5eYa3hzlVQ"
   },
-  {
+{
     id: 117,
     type: "side",
     category: "Companion",
@@ -2269,7 +2173,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
   },
-  {
+{
     id: 118,
     type: "side",
     category: "Companion",
@@ -2294,7 +2198,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
   },
-  {
+{
     id: 119,
     type: "side",
     game: "Elden Ring",
@@ -2310,7 +2214,7 @@ const quests = [
       "Don't kill Patches after his ambush — forgive him to unlock his shop. His questline ends at the Volcano Manor with a touching final letter.",
     video: "https://www.youtube.com/watch?v=QmjBZifDJnM"
   },
-  {
+{
     id: 120,
     type: "side",
     game: "Elden Ring",
@@ -2326,7 +2230,7 @@ const quests = [
       "You must give Hyetta Shabriri Grapes at each location she appears. Her final location requires accessing the Frenzied Flame Proscription — an area that locks you into a specific ending if you interact with it.",
     video: "https://www.youtube.com/watch?v=bYySdvILKcM"
   },
-  {
+{
     id: 121,
     type: "side",
     game: "Elden Ring",
@@ -2342,7 +2246,7 @@ const quests = [
       "Don't free the Dung Eater from prison until you've bought everything from Patches and other Roundtable Hold NPCs — freeing him turns him hostile to others.",
     video: "https://www.youtube.com/watch?v=_LvxUP5_eCg"
   },
-  {
+{
     id: 122,
     type: "side",
     game: "Elden Ring",
@@ -2358,7 +2262,7 @@ const quests = [
       "Find the bloodstain beneath Stormveil Castle first to trigger his questline. His quest ties into Ranni's — progress both together for the full picture.",
     video: "https://www.youtube.com/watch?v=SLFciQ383XY"
   },
-  {
+{
     id: 123,
     type: "side",
     game: "Elden Ring",
@@ -2374,7 +2278,7 @@ const quests = [
       "Invading other players three times is required — you don't need to win. This is the fastest route to Mohgwyn Palace, which has one of the best rune farming spots in the game.",
     video: "https://www.youtube.com/watch?v=zGDQ7yiHxns"
   },
-  {
+{
     id: 124,
     type: "side",
     game: "Elden Ring",
@@ -2390,7 +2294,7 @@ const quests = [
       "Buy prawns from Boggart and exhaust his dialogue each time you meet him. Don't let Rya's questline progress too far before speaking to him or you'll miss key interactions.",
     video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
   },
-  {
+{
     id: 125,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2406,7 +2310,7 @@ const quests = [
       "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
     video: "https://www.youtube.com/watch?v=E_Any2rW-RE"
   },
-  {
+{
     id: 126,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2422,7 +2326,7 @@ const quests = [
       "Grab three Rusted Sheet Metals and five Corroded Nails before meeting Kyrie — it skips a return trip. The Noxicaps at the final site are weak to Fire.",
     video: "https://www.youtube.com/watch?v=X3_hppsWl6A"
   },
-  {
+{
     id: 127,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2438,7 +2342,7 @@ const quests = [
       "Practice the piano minigame beforehand; the quest's rendition of Aerith's Theme counts your performance. The cat likes quiet approaches.",
     video: "https://www.youtube.com/watch?v=6OXlfEXagSw"
   },
-  {
+{
     id: 128,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -2454,7 +2358,7 @@ const quests = [
       "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
     video: "https://www.youtube.com/watch?v=csddQ1EAQrg"
   },
-  {
+{
     id: 129,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2470,7 +2374,7 @@ const quests = [
       "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
     video: "https://www.youtube.com/watch?v=08Vbxkzxbio"
   },
-  {
+{
     id: 130,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2486,7 +2390,7 @@ const quests = [
       "Equip Aero materia before setting out: the Sandstorm Drakes guarding the final stretch are weak to Wind. Keep enemies off Salmon during escort fights.",
     video: "https://www.youtube.com/watch?v=33WEPH7F1sA"
   },
-  {
+{
     id: 131,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -2502,7 +2406,7 @@ const quests = [
       "White Mousse shifts elemental weaknesses as it changes color — match your spells to its current hue. Requires completing When Words Won't Do first.",
     video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
   },
-  {
+{
     id: 132,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2518,7 +2422,7 @@ const quests = [
       "Male V only for the romance option. Exhaust all dialogue during band practice sessions — it unlocks additional quest steps and raises the affection meter.",
     video: "https://www.youtube.com/watch?v=TarX-C4vhik"
   },
-  {
+{
     id: 133,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2534,7 +2438,7 @@ const quests = [
       "Female V only for the romance path. During the farm sequence, memorise the four sets of directions given — you must recall them precisely without notes to save Randy.",
     video: "https://www.youtube.com/watch?v=xX6auIAS1uU"
   },
-  {
+{
     id: 134,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2550,7 +2454,7 @@ const quests = [
       "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
     video: "https://www.youtube.com/playlist?list=PLU9RCp3FVNkSAPtWpgXD3NabQLTHTj-36"
   },
-  {
+{
     id: 135,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2566,7 +2470,7 @@ const quests = [
       "Save before this mission and experience both endings — they're dramatically different. The Songbird path unlocks a brand new fourth ending for the base game.",
     video: "https://www.youtube.com/watch?v=FjJaMeQ8wLE"
   },
-  {
+{
     id: 136,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2582,7 +2486,7 @@ const quests = [
       "This quest has no combat — it's purely dialogue and atmosphere. Take your time and engage fully with Lizzy's story for the best experience and the iconic weapon reward.",
     video: "https://www.youtube.com/watch?v=1YNkVrWNP0o"
   },
-  {
+{
     id: 137,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2600,7 +2504,7 @@ const quests = [
       "The storm hits a timer — don't explore, go straight to the objective. Inside the camp, stealth is possible but the storm outside forces combat on the way out.",
     video: "https://www.youtube.com/watch?v=82hrT1j_Fpc"
   },
-  {
+{
     id: 138,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -2616,7 +2520,7 @@ const quests = [
       "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
     video: "https://www.youtube.com/watch?v=Ea6mRQEyT7g"
   },
-  {
+{
     id: 139,
     type: "side",
     game: "Demon's Souls",
@@ -2632,7 +2536,7 @@ const quests = [
       "Rescue Ostrava every time you encounter him or he dies and the quest fails. Never invade him as a Black Phantom early — let the questline resolve naturally for the Mausoleum Key.",
     video: "https://www.youtube.com/watch?v=8-_55ap2Q5s"
   },
-  {
+{
     id: 140,
     type: "side",
     game: "Demon's Souls",
@@ -2648,7 +2552,7 @@ const quests = [
       "His cell key is held by the Mindflayer jailer on the second level. Clear surrounding enemies before grabbing the key — the jailers respawn and their paralysis can be lethal.",
     video: "https://www.youtube.com/watch?v=XyzirgD-YOY"
   },
-  {
+{
     id: 141,
     type: "side",
     game: "Demon's Souls",
@@ -2671,7 +2575,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stockpile%20Thomas%20walkthrough"
   },
-  {
+{
     id: 142,
     type: "main",
     game: "Demon's Souls",
@@ -2687,7 +2591,7 @@ const quests = [
       "The Dragon God is effectively invincible to direct attacks early in the fight. Use the environment — activate the two ballista traps in sequence while avoiding its gaze to stun it for the kill.",
     video: "https://www.youtube.com/watch?v=wFBFbLHL8CQ"
   },
-  {
+{
     id: 143,
     type: "main",
     game: "Demon's Souls",
@@ -2703,7 +2607,7 @@ const quests = [
       "Prepare for a human opponent — they can use any build and will exploit your weaknesses. Keep a Fire Spray or Soul Ray ready as a ranged punish option.",
     video: "https://www.youtube.com/watch?v=GpKMwv2AU1w"
   },
-  {
+{
     id: 144,
     type: "main",
     game: "Demon's Souls",
@@ -2719,7 +2623,7 @@ const quests = [
       "You can kill Garl Vinland first to make Astraea vulnerable, or you can talk to Astraea and she will take her own life. Neither method feels like a victory — that's the point.",
     video: "https://www.youtube.com/watch?v=k2chOJD9DoI"
   },
-  {
+{
     id: 145,
     type: "side",
     game: "Demon's Souls",
@@ -2743,7 +2647,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
   },
-  {
+{
     id: 146,
     type: "main",
     category: "Main Story",
@@ -2760,7 +2664,7 @@ const quests = [
       "Complete this early — beast materials are used to upgrade gear throughout the game. The Vivarium becomes a key resource hub, so setting it up promptly pays off.",
     video: "https://www.youtube.com/watch?v=QJZOywqytyM"
   },
-  {
+{
     id: 147,
     type: "main",
     category: "Main Story",
@@ -2777,7 +2681,7 @@ const quests = [
       "Ancient Magic Throw lets you hurl enemy projectiles and environmental objects back at foes — it fundamentally changes combat. Learn the timing in the trial rooms before using it against tough enemies.",
     video: "https://www.youtube.com/watch?v=0e1tDb6CnXg"
   },
-  {
+{
     id: 148,
     type: "side",
     category: "Relationship",
@@ -2794,7 +2698,7 @@ const quests = [
       "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
     video: "https://www.youtube.com/watch?v=qyrF3EJMKZA"
   },
-  {
+{
     id: 149,
     type: "side",
     category: "Side Quest",
@@ -2811,7 +2715,7 @@ const quests = [
       "Use Accio to retrieve the astrolabe from the nest rather than disturbing the birds directly. Completing this unlocks Gil's boat, which provides a faster travel route along the lakeshore.",
     video: "https://www.youtube.com/watch?v=dQEkASZR7CY"
   },
-  {
+{
     id: 150,
     type: "side",
     category: "Side Quest",
@@ -2828,7 +2732,7 @@ const quests = [
       "Write down the note sequence from the music box before approaching the bells — there's no in-game record of it. The sequence is fixed, not randomised.",
     video: "https://www.youtube.com/watch?v=fftOxQH9tAE"
   },
-  {
+{
     id: 151,
     type: "side",
     category: "Side Quest",
@@ -2845,7 +2749,7 @@ const quests = [
       "Wingardium Leviosa is used constantly for puzzles and combat. Unlock it early and experiment with levitating different objects in the environment — some hide secrets.",
     video: "https://www.youtube.com/watch?v=X_3qK9gvHoY"
   },
-  {
+{
     id: 152,
     type: "side",
     category: "Challenges",
@@ -2862,103 +2766,7 @@ const quests = [
       "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
     video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
   },
-  {
-    id: 153,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower: Hulkenberg's Resolve",
-    location: "Various / Story Chapters",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Hulkenberg Confidant progression, Knight Archetype upgrades",
-    summary:
-      "Deepen your bond with Hulkenberg, the stoic knight who joins your party early. Her questline explores duty, personal sacrifice, and what it means to serve a cause you believe in — one of the most grounded stories in the game.",
-    aiTip:
-      "Choose dialogue options that respect her sense of duty rather than challenging it. Her later Archetype upgrades dramatically improve physical combat for the whole party.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Hulkenberg's%20Resolve%20walkthrough"
-  },
-  {
-    id: 154,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "The Gauntlet Runner Races",
-    location: "Gauntlet Runner / Travel Routes",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Unique accessories, crafting materials, downtime activities",
-    summary:
-      "Compete in races and challenges aboard the Gauntlet Runner between locations. These optional events reward rare accessories and provide a break from dungeon crawling while developing the world's culture.",
-    aiTip:
-      "Upgrade the Gauntlet Runner's speed stats when possible — faster travel reduces time costs and unlocks harder race tiers. The top tier races reward some of the best accessories in the game.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Gauntlet%20Runner%20Races%20walkthrough"
-  },
-  {
-    id: 155,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower: Strohl's Rage",
-    location: "Various / Story Chapters",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Strohl Confidant progression, Warrior Archetype upgrades",
-    summary:
-      "Follow Strohl's journey as he wrestles with his volatile nature and a painful past. His questline explores themes of anger, identity, and self-mastery, leading to powerful Archetype evolutions.",
-    aiTip:
-      "Support Strohl without being dismissive of his anger — he responds best to dialogue that acknowledges his feelings. His Archetype evolutions make him one of the strongest physical attackers.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%3A%20Strohl's%20Rage%20walkthrough"
-  },
-  {
-    id: 156,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Akademeia's Lost Archives",
-    location: "Grand Trad / Akademeia",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Rare spellbooks, lore insight, Archetype points",
-    summary:
-      "Assist scholars at the prestigious Akademeia institute in recovering stolen research documents. The quest provides significant lore about the Archetype system and rewards rare materials for upgrading your party's magical abilities.",
-    aiTip:
-      "Bring a party member with high Wisdom for the dialogue checks in this quest. The spellbook rewards are especially valuable for magic-focused builds.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Akademeia's%20Lost%20Archives%20walkthrough"
-  },
-  {
-    id: 157,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "The Royal Election Debates",
-    location: "Grand Trad Arena / Various",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Popularity growth, new followers, election story progression",
-    summary:
-      "Participate in public debates against rival candidates vying for the throne. Each debate requires choosing the right responses to sway public opinion — a unique mix of social simulation and political strategy.",
-    aiTip:
-      "Research each rival's platform before the debate — their weaknesses are telegraphed in NPC conversations beforehand. High Eloquence makes debate options more persuasive.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Royal%20Election%20Debates%20walkthrough"
-  },
-  {
-    id: 158,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "The Ancient Ruin Expedition",
-    location: "Faraway Ruins",
-    length: "long",
-    difficulty: "High",
-    reward: "Unique Archetype unlock, powerful equipment",
-    summary:
-      "Venture into a dangerous pre-civilization ruin that predates even the Euchronian Kingdom. The dungeon contains enemies resistant to conventional magic and rewards careful party composition and elemental strategy.",
-    aiTip:
-      "The enemies here require specific elemental counters — scout them with a high-Wisdom party member before committing to attacks. The Archetype unlock at the end is worth every challenge.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Ancient%20Ruin%20Expedition%20walkthrough"
-  },
-  {
+{
     id: 159,
     type: "side",
     game: "God of War Ragnarök",
@@ -2974,7 +2782,7 @@ const quests = [
       "Exhaust all dialogue options during the quiet moments — Freya's backstory is delivered through these scenes. Completing her personal quests unlocks combat dialogue upgrades.",
     video: "https://www.youtube.com/watch?v=LkmFAuvkxVQ"
   },
-  {
+{
     id: 160,
     type: "side",
     game: "God of War Ragnarök",
@@ -2990,7 +2798,7 @@ const quests = [
       "Use Atreus's ability to read rune inscriptions throughout the area — they point to hidden compartments. The Muspelheim Seed piece is crucial for unlocking endgame challenge content.",
     video: "https://www.youtube.com/watch?v=w7nx2a8ocmg"
   },
-  {
+{
     id: 162,
     type: "side",
     game: "God of War Ragnarök",
@@ -3013,7 +2821,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/watch?v=U3InCcqtpNs"
   },
-  {
+{
     id: 163,
     type: "side",
     game: "God of War Ragnarök",
@@ -3029,7 +2837,7 @@ const quests = [
       "Complete the six initial trials before attempting Surtr's Crucible. Lunda's Poison armour works exceptionally well here — poison on parry shreds through the challenge health gates.",
     video: "https://www.youtube.com/watch?v=YnnRcfIMHNA"
   },
-  {
+{
     id: 164,
     type: "side",
     game: "God of War Ragnarök",
@@ -3052,7 +2860,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/watch?v=pIbXqpQmuIg"
   },
-  {
+{
     id: 166,
     type: "side",
     category: "Confidants",
@@ -3068,7 +2876,7 @@ const quests = [
       "Rank up Ryuji's Confidant as early as possible — his Baton Pass upgrade lets him transfer turn momentum to other party members, one of the most powerful mechanics in the game.",
     video: "https://www.youtube.com/watch?v=YdyzsLtsYjQ"
   },
-  {
+{
     id: 167,
     type: "side",
     category: "Confidants",
@@ -3084,7 +2892,7 @@ const quests = [
       "Ann's insta-cure status effect ability at higher Confidant ranks is incredibly useful in late-game Palaces where status ailments become frequent. Prioritise it mid-game.",
     video: "https://www.youtube.com/watch?v=SXZonGHQLRg"
   },
-  {
+{
     id: 168,
     type: "side",
     category: "Confidants",
@@ -3100,7 +2908,7 @@ const quests = [
       "Futaba's Navigator upgrades include enemy scanning, HP/SP recovery mid-battle, and follow-up attacks. Max her Confidant as soon as possible — these abilities save resources throughout late-game Palaces.",
     video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
   },
-  {
+{
     id: 170,
     type: "side",
     category: "Mementos Requests",
@@ -3116,7 +2924,7 @@ const quests = [
       "The Shadow is weak to Ice and Nuke. Bring Ann for Freeze technical combos and Ryuji for Nuke technical chains — the combination destroys it quickly.",
     video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
   },
-  {
+{
     id: 173,
     type: "side",
     category: "Mythic Tales",
@@ -3133,7 +2941,7 @@ const quests = [
       "Face the six blades in order of difficulty — the final duel with Kojiro himself is one of the hardest fights in the base game. The Kensei Armor enhances Ghost Stance, making this questline doubly rewarding.",
     video: "https://www.youtube.com/watch?v=LfHsYzm3Zp4"
   },
-  {
+{
     id: 174,
     type: "side",
     category: "Mythic Tales",
@@ -3150,7 +2958,7 @@ const quests = [
       "The shrines are well-hidden — use Guiding Wind frequently. Reading Gosaku's story in full provides buffs at each shrine that make the final farmstead liberations slightly easier.",
     video: "https://www.youtube.com/watch?v=bWe2G16Hsks"
   },
-  {
+{
     id: 175,
     type: "side",
     category: "Tales of Tsushima",
@@ -3167,7 +2975,7 @@ const quests = [
       "Norio Tale 2 of 9.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
-  {
+{
     id: 176,
     type: "main",
     category: "Jin's Journey",
@@ -3184,7 +2992,7 @@ const quests = [
       "Scout the encampment fully before engaging — use the Ghost stance to eliminate key targets early. The general himself fights with two weapons simultaneously; watch for the stance changes.",
     video: "https://www.youtube.com/watch?v=F2duQ_Yt3zk"
   },
-  {
+{
     id: 177,
     type: "side",
     category: "Tales of Tsushima",
@@ -3201,7 +3009,7 @@ const quests = [
       "Kenji Tale 2 of 3.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
-  {
+{
     id: 178,
     type: "side",
     category: "Tales of Tsushima",
@@ -3218,7 +3026,7 @@ const quests = [
       "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
-  {
+{
     id: 179,
     type: "side",
     game: "Horizon Forbidden West",
@@ -3234,7 +3042,7 @@ const quests = [
       "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
     video: "https://www.youtube.com/playlist?list=PLNVZ0VbA46mqXmXe_XscAEyZUCEHJpemQ"
   },
-  {
+{
     id: 180,
     type: "main",
     game: "Horizon Forbidden West",
@@ -3250,7 +3058,7 @@ const quests = [
       "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
     video: "https://www.youtube.com/watch?v=pFEhMNlfCA0"
   },
-  {
+{
     id: 181,
     type: "side",
     game: "Horizon Forbidden West",
@@ -3266,7 +3074,7 @@ const quests = [
       "Use Concentration during the ritual portions of this quest — the pacing is slow but skipping dialogue misses critical worldbuilding. The Utaru armor provides useful stealth bonuses.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Distant%20Lands%20walkthrough"
   },
-  {
+{
     id: 182,
     type: "side",
     game: "Horizon Forbidden West",
@@ -3282,7 +3090,7 @@ const quests = [
       "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Old%20Varl's%20Refuge%20walkthrough"
   },
-  {
+{
     id: 183,
     type: "main",
     game: "Horizon Forbidden West",
@@ -3298,7 +3106,7 @@ const quests = [
       "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
     video: "https://www.youtube.com/watch?v=cA_I3lOQmvA"
   },
-  {
+{
     id: 184,
     type: "side",
     game: "Horizon Forbidden West",
@@ -3314,7 +3122,7 @@ const quests = [
       "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
     video: "https://www.youtube.com/watch?v=7JVGDFq0bw8"
   },
-  {
+{
     id: 185,
     type: "main",
     game: "Horizon Forbidden West",
@@ -3330,7 +3138,7 @@ const quests = [
       "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
     video: "https://www.youtube.com/watch?v=goI8MktOdhM"
   },
-  {
+{
     id: 186,
     type: "side",
     game: "Pillars of Eternity",
@@ -3353,7 +3161,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Lord%20of%20a%20Barren%20Land%20walkthrough"
   },
-  {
+{
     id: 187,
     type: "side",
     game: "Pillars of Eternity",
@@ -3376,7 +3184,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Parable%20of%20Wael%20walkthrough"
   },
-  {
+{
     id: 188,
     type: "side",
     game: "Pillars of Eternity",
@@ -3399,7 +3207,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Brave%20Derrin%20walkthrough"
   },
-  {
+{
     id: 189,
     type: "side",
     game: "Pillars of Eternity",
@@ -3422,7 +3230,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Egg%20walkthrough"
   },
-  {
+{
     id: 190,
     type: "side",
     game: "Pillars of Eternity",
@@ -3445,7 +3253,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
   },
-  {
+{
     id: 191,
     type: "side",
     game: "Pillars of Eternity",
@@ -3468,7 +3276,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Burning%20Bridges%20walkthrough"
   },
-  {
+{
     id: 192,
     type: "main",
     game: "Pillars of Eternity",
@@ -3491,7 +3299,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Never%20Far%20from%20the%20Queen%20walkthrough"
   },
-  {
+{
     id: 193,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3506,7 +3314,7 @@ const quests = [
       "Having a party member with Merchant background makes several dialogue options significantly more persuasive. Complete this before committing fully to any one faction.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
   },
-  {
+{
     id: 194,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3521,7 +3329,7 @@ const quests = [
       "Bring a druid or priest for the spirit interactions — their dialogue options are significantly more effective. Completing the rite opens up Tikawara as a safe harbour and trading post.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
   },
-  {
+{
     id: 195,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3536,7 +3344,7 @@ const quests = [
       "Conserve resources between fights — you cannot rest during the arena sequence. Bring multiple party members with healing abilities and stock heavy on injury prevention items.",
     video: "https://www.youtube.com/watch?v=V3GbGyej3JQ"
   },
-  {
+{
     id: 196,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3551,7 +3359,7 @@ const quests = [
       "This is DLC content — approach it with a well-developed party. The final boss adapts to your spell selection; bring varied damage types and avoid relying on one element.",
     video: "https://www.youtube.com/watch?v=dWWWCSiZXuo"
   },
-  {
+{
     id: 197,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3566,7 +3374,7 @@ const quests = [
       "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
   },
-  {
+{
     id: 198,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3581,7 +3389,7 @@ const quests = [
       "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
   },
-  {
+{
     id: 199,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -3596,7 +3404,7 @@ const quests = [
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
   },
-  {
+{
     id: 200,
     type: "main",
     category: "Main Story",
@@ -3613,7 +3421,7 @@ const quests = [
       "Loot everything and free Shadowheart from her pod before reaching the helm — you can recruit her immediately and she carries a key story item.",
     video: "https://www.youtube.com/watch?v=PAv1X-MfIWQ"
   },
-  {
+{
     id: 201,
     type: "main",
     category: "Main Story",
@@ -3630,7 +3438,7 @@ const quests = [
       "Use the Restoration Pod near the final elevator to fully heal, and free Dame Aylin from her Soul Cage first — Ketheric is nearly invulnerable until you do.",
     video: "https://www.youtube.com/watch?v=0mvmj0OLKII"
   },
-  {
+{
     id: 202,
     type: "side",
     category: "Side Quest",
@@ -3647,7 +3455,7 @@ const quests = [
       "Ethel burns Mayrina's cage during the fight — douse it fast with water. Wearing the Whispering Mask in the lair is tempting but risky; remove it before the fight.",
     video: "https://www.youtube.com/watch?v=5n4PJyVc5ow"
   },
-  {
+{
     id: 203,
     type: "main",
     game: "Elden Ring",
@@ -3663,7 +3471,7 @@ const quests = [
       "Resummon fallen NPC allies constantly — they respawn via summon signs around the arena. Torrent is available, so use hit-and-run tactics during the meteor phase.",
     video: "https://www.youtube.com/watch?v=eM5U791Oof0"
   },
-  {
+{
     id: 204,
     type: "side",
     game: "Elden Ring",
@@ -3679,7 +3487,7 @@ const quests = [
       "The quest has easy-to-miss steps gated behind defeating Radahn and Rennala. Look for the illusory wall in Sellia's cellar — it hides her true body.",
     video: "https://www.youtube.com/watch?v=gjtKLzNi8cs"
   },
-  {
+{
     id: 205,
     type: "side",
     game: "Elden Ring",
@@ -3695,7 +3503,7 @@ const quests = [
       "Talk to the bush near Agheel Lake to start. Give him a Larval Tear only if you want the sad ending — telling him he's beautiful with the Mimic's Veil keeps him alive.",
     video: "https://www.youtube.com/watch?v=YJGX2u-96ho"
   },
-  {
+{
     id: 206,
     type: "main",
     category: "Main Story",
@@ -3712,7 +3520,7 @@ const quests = [
       "Free Halsin before triggering open combat in the Shattered Sanctum — he fights alongside you in bear form and makes the leader fights far easier.",
     video: "https://www.youtube.com/watch?v=FpEtlz0MgPE"
   },
-  {
+{
     id: 207,
     type: "main",
     category: "Main Story",
@@ -3729,7 +3537,7 @@ const quests = [
       "Enter via the Zhentarim hideout elevator or the Selûnite Outpost. Grab the Sussur bloom and visit the Myconid Colony before pushing to Grymforge.",
     video: "https://www.youtube.com/watch?v=hc__xLF6m1A"
   },
-  {
+{
     id: 208,
     type: "main",
     category: "Main Story",
@@ -3746,7 +3554,7 @@ const quests = [
       "Keep your cover as long as possible — open hostility locks you out of valuable dialogue, vendors, and the chance to free the tiefling prisoners quietly.",
     video: "https://www.youtube.com/watch?v=86grzufcTj8"
   },
-  {
+{
     id: 209,
     type: "main",
     category: "Main Story",
@@ -3763,7 +3571,7 @@ const quests = [
       "Bring Shadowheart and save before the final descent. Use Fog Cloud to trivialize the Self-Same trial and note the faith symbols before the Faith-Leap.",
     video: "https://www.youtube.com/watch?v=Z-scYDKEJ7I"
   },
-  {
+{
     id: 210,
     type: "main",
     category: "Main Story",
@@ -3780,7 +3588,7 @@ const quests = [
       "Ally strength is decided by choices made across all three acts — spare, help, and recruit generously. Check the quest journal before the point of no return.",
     video: "https://www.youtube.com/watch?v=cwhYTTp124g"
   },
-  {
+{
     id: 211,
     type: "main",
     category: "Main Story",
@@ -3797,7 +3605,7 @@ const quests = [
       "Long-rest and finish companion quests before the Morphic Pool. In the final fight, use your allies' summons aggressively — they exist to soak the chaos.",
     video: "https://www.youtube.com/watch?v=Cr5Muw-zIYg"
   },
-  {
+{
     id: 212,
     type: "main",
     game: "Elden Ring",
@@ -3813,7 +3621,7 @@ const quests = [
       "Buy Margit's Shackle from Patches to pin him twice, summon Rogier at the fog gate, and learn to dodge late — his swings hang in the air on purpose.",
     video: "https://www.youtube.com/watch?v=02PjeMllulQ"
   },
-  {
+{
     id: 213,
     type: "main",
     game: "Elden Ring",
@@ -3829,7 +3637,7 @@ const quests = [
       "Summon Nepheli Loux just before the fog gate. In phase two, stick to his left leg — the dragon-arm flamethrower leaves his back exposed for long punishes.",
     video: "https://www.youtube.com/watch?v=_wl71myyD-k"
   },
-  {
+{
     id: 214,
     type: "main",
     game: "Elden Ring",
@@ -3845,7 +3653,7 @@ const quests = [
       "In phase one, hit the glowing golden students to drop her barrier. Phase two is very parry- and stagger-friendly — stay aggressive between her casts.",
     video: "https://www.youtube.com/watch?v=4r1wihoPGmU"
   },
-  {
+{
     id: 215,
     type: "main",
     game: "Elden Ring",
@@ -3861,7 +3669,7 @@ const quests = [
       "Melina can be summoned for this fight. Morgott is weak to bleed and vulnerable after his triple-blade slam — that's your biggest punish window.",
     video: "https://www.youtube.com/watch?v=RbMrdVOk2ok"
   },
-  {
+{
     id: 216,
     type: "main",
     game: "Elden Ring",
@@ -3877,7 +3685,7 @@ const quests = [
       "Fight from Torrent and stay glued to his ankles. In phase two, run TOWARD him when he rolls — chasing the roll is how most deaths happen.",
     video: "https://www.youtube.com/watch?v=tzwsy8AqW34"
   },
-  {
+{
     id: 217,
     type: "main",
     game: "Elden Ring",
@@ -3893,7 +3701,7 @@ const quests = [
       "The Blasphemous Claw (from Recusant Bernahl's quest) parries his glowing attacks in phase two. His combos end with long recovery — punish only then.",
     video: "https://www.youtube.com/watch?v=LPyue4RK_jw"
   },
-  {
+{
     id: 218,
     type: "main",
     game: "Elden Ring",
@@ -3909,7 +3717,7 @@ const quests = [
       "Radagon is weak to fire and physical stagger; save your flask charges for the Elden Beast and sprint diagonally from Elden Stars rather than away from it.",
     video: "https://www.youtube.com/watch?v=rvfNBQcSr1Q"
   },
-  {
+{
     id: 219,
     type: "main",
     game: "Black Myth: Wukong",
@@ -3925,7 +3733,7 @@ const quests = [
       "Save your spells and Wandering Wight spirit for phase two when his arms ignite. Dodge through his charge rather than away — it tracks hard.",
     video: "https://www.youtube.com/watch?v=3nrZp3R5dLQ"
   },
-  {
+{
     id: 220,
     type: "main",
     game: "Black Myth: Wukong",
@@ -3941,7 +3749,7 @@ const quests = [
       "Bring the Wind Tamer vessel — popping it during his tornado phase stuns him for a huge free punish. Stay on his flank to dodge the spear combos.",
     video: "https://www.youtube.com/watch?v=vDZEWXWXyig"
   },
-  {
+{
     id: 221,
     type: "main",
     game: "Black Myth: Wukong",
@@ -3957,7 +3765,7 @@ const quests = [
       "Refuse his golden temptation mid-fight — accepting it heals him. Save transformations for the final phase after the Macaque Chief intervenes.",
     video: "https://www.youtube.com/watch?v=8zKGKr7rpfk"
   },
-  {
+{
     id: 222,
     type: "main",
     game: "Black Myth: Wukong",
@@ -3973,7 +3781,7 @@ const quests = [
       "His golden-light eye attacks punish greed — dodge twice, hit once. Poison resistance food and the Pluck of Many transformation carry this fight.",
     video: "https://www.youtube.com/watch?v=-EI1MrUzAqY"
   },
-  {
+{
     id: 223,
     type: "main",
     game: "Black Myth: Wukong",
@@ -3989,7 +3797,7 @@ const quests = [
       "Use the chapter's fire-warding vessel and keep mid-range — Red Boy's spear lunges are safest to punish. The Yaksha King phase is weak to stagger.",
     video: "https://www.youtube.com/watch?v=s4bat9aKTis"
   },
-  {
+{
     id: 224,
     type: "main",
     game: "Black Myth: Wukong",
@@ -4005,7 +3813,7 @@ const quests = [
       "He fights with your own moveset — treat it like a duel: bait his heavy, dodge the fourth light attack, and spend focus points on staggered punishes.",
     video: "https://www.youtube.com/watch?v=S5BuIh6NU5A"
   },
-  {
+{
     id: 225,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4021,7 +3829,7 @@ const quests = [
       "Beat the drum at the three marked spots in order, then drop into the Windrest Hamlet well. The Mad Tiger parries often — delay your combo finishers.",
     video: "https://www.youtube.com/watch?v=H3ZAONSUVyQ"
   },
-  {
+{
     id: 226,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4037,7 +3845,7 @@ const quests = [
       "You must defeat Venom Daoist twice earlier in the chapter to open Purple Cloud Mountain. Fight the Scorpionlord BEFORE Duskveil or he vanishes permanently.",
     video: "https://www.youtube.com/watch?v=KOBHv03ztck"
   },
-  {
+{
     id: 227,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4053,7 +3861,7 @@ const quests = [
       "The Man-in-Stone is hidden past Squall Hideout between two rock guai. Azure Dust also doubles as a wall-breaker for reaching the Loong Scales secret.",
     video: "https://www.youtube.com/watch?v=pYScnK8bA04"
   },
-  {
+{
     id: 228,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4069,7 +3877,7 @@ const quests = [
       "Break the cracked wall near the First Prince of Flowing Sands arena using the Wandering Wight spirit or Azure Dust transformation, then grab the golden chest.",
     video: "https://www.youtube.com/watch?v=lSOI9seMoQ4"
   },
-  {
+{
     id: 229,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4085,7 +3893,7 @@ const quests = [
       "Do the three lesser Loongs as you pass through their chapters — going back later means re-clearing paths. Golden Lining's counterstance rewards aggressive timing.",
     video: "https://www.youtube.com/watch?v=kTFKuaPsILs"
   },
-  {
+{
     id: 230,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4101,7 +3909,7 @@ const quests = [
       "Complete the Five Element Carts quest for the Bishui Cave secret area first — its rewards plus the Fan make Chapter 6's gauntlet dramatically easier.",
     video: "https://www.youtube.com/watch?v=AVGVPesMlks"
   },
-  {
+{
     id: 231,
     type: "side",
     game: "Black Myth: Wukong",
@@ -4117,7 +3925,7 @@ const quests = [
       "Erlang's stance meter must be broken before he takes real damage, and it refreshes at health thresholds. This is widely considered the hardest fight in the game — level fully first.",
     video: "https://www.youtube.com/watch?v=ael32jxy3EU"
   },
-  {
+{
     id: 232,
     type: "side",
     category: "Side Quest",
@@ -4134,7 +3942,7 @@ const quests = [
       "Grym is only vulnerable when superheated by lava and can be crushed by the forge hammer itself — lure him onto the central platform and pull the lever.",
     video: "https://www.youtube.com/watch?v=pCBlyrTQaRc"
   },
-  {
+{
     id: 233,
     type: "side",
     category: "Side Quest",
@@ -4159,7 +3967,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
   },
-  {
+{
     id: 234,
     type: "side",
     category: "Side Quest",
@@ -4176,7 +3984,7 @@ const quests = [
       "Say 'Give me my heart's desire' at the Archives to take the hammer. Destroy the four soul pillars during the Raphael fight to cut off his power.",
     video: "https://www.youtube.com/watch?v=ELhgIdeoeew"
   },
-  {
+{
     id: 235,
     type: "side",
     category: "Side Quest",
@@ -4193,7 +4001,7 @@ const quests = [
       "Reading every chapter requires three successful saves — cast Guidance and save first. Keep the book until Act 3: the Tharchiate Codex in Sorcerous Sundries completes it.",
     video: "https://www.youtube.com/watch?v=wgsHxAaRzuQ"
   },
-  {
+{
     id: 236,
     type: "side",
     category: "Side Quest",
@@ -4218,7 +4026,7 @@ const quests = [
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
   },
-  {
+{
     id: 237,
     type: "side",
     category: "Side Quest",
@@ -4235,7 +4043,7 @@ const quests = [
       "Let the cub smell your hand at the goblin camp and don't rush it at camp — kindness across several rests pays off spectacularly in the final battle.",
     video: "https://www.youtube.com/watch?v=S7wCREHYyoc"
   },
-  {
+{
     id: 238,
     type: "side",
     game: "Elden Ring",
@@ -4251,7 +4059,7 @@ const quests = [
       "Hit the lone pot in the Village of the Albinaurics to reveal Albus. Castle Sol's Commander Niall is brutal — bring spirit ashes that split his knight summons.",
     video: "https://www.youtube.com/watch?v=HEdXuQ186DU"
   },
-  {
+{
     id: 239,
     type: "side",
     game: "Elden Ring",
@@ -4267,7 +4075,7 @@ const quests = [
       "Her Waterfowl Dance is the killer — sprint away from the first flurry, dodge into the rest. Bleed weapons and aggressive spirit ashes shorten both phases.",
     video: "https://www.youtube.com/watch?v=-D5vwtjmkIE"
   },
-  {
+{
     id: 240,
     type: "side",
     game: "Elden Ring",
@@ -4283,7 +4091,7 @@ const quests = [
       "Buy the Purifying Crystal Tear (Yura's quest) — it nullifies Mohg's 'Nihil' ritual entirely. His arena is also the game's best rune-farming spot.",
     video: "https://www.youtube.com/watch?v=r0IgQ9s6AEs"
   },
-  {
+{
     id: 241,
     type: "side",
     game: "Elden Ring",
@@ -4299,7 +4107,7 @@ const quests = [
       "When he vanishes, sprint — the lightning teleport strikes are on a timer. Stay under his chest between the heads; most breath attacks miss there entirely.",
     video: "https://www.youtube.com/watch?v=Tf0DXto9Iig"
   },
-  {
+{
     id: 242,
     type: "side",
     game: "Elden Ring",
@@ -4315,7 +4123,7 @@ const quests = [
       "Watch for the grab — dodge sideways the instant its arms spread. Clearing the Lake of Rot is half the fight: bring Preserving Boluses and run, don't fight.",
     video: "https://www.youtube.com/watch?v=dzrSCDUcFys"
   },
-  {
+{
     id: 243,
     type: "side",
     game: "Elden Ring",
@@ -4331,7 +4139,7 @@ const quests = [
       "Bring two Stonesword Keys. Equip your best gear BEFORE summoning — the mimic copies your current loadout, and it uses HP instead of FP to summon.",
     video: "https://www.youtube.com/watch?v=ZlmtbD_8SiU"
   },
-  {
+{
     id: 244,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -4347,7 +4155,7 @@ const quests = [
       "It's Barret solo — equip him with Fire materia (Dyne's only weakness) and use Maximum Fury to shred the scrap-metal body parts during Phantom Ray.",
     video: "https://www.youtube.com/watch?v=UiUD4jaIFEY"
   },
-  {
+{
     id: 245,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -4363,7 +4171,7 @@ const quests = [
       "Destroy the Wing and Masamune with magic when Whisper Cannon exposes them. Stack healing materia on Cloud and Aerith for the last phase.",
     video: "https://www.youtube.com/watch?v=JMdc6ry7mi0"
   },
-  {
+{
     id: 246,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -4379,7 +4187,7 @@ const quests = [
       "Come at level 70 with Fire builds. Perfect-block his attacks to pressure him into dropping weapons, and stagger him before his five-count Ultimate Illusion lands.",
     video: "https://www.youtube.com/watch?v=hahMCMyXzSI"
   },
-  {
+{
     id: 247,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -4395,7 +4203,7 @@ const quests = [
       "Kill Odin first in round three or Zantetsuken will end the run. Break Bahamut's wings during Particle Charge to interrupt its Gigaflare countdown.",
     video: "https://www.youtube.com/watch?v=qq6Wj7qOh00"
   },
-  {
+{
     id: 248,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4411,7 +4219,7 @@ const quests = [
       "Loot Yorinobu's suite thoroughly (the iguana egg is here!) and don't rush the stealth section — the hotel turns hostile the moment the alarm trips.",
     video: "https://www.youtube.com/watch?v=qbIs8-j1UmY"
   },
-  {
+{
     id: 249,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4427,7 +4235,7 @@ const quests = [
       "Your NetWatch-or-Voodoo-Boys choice in I Walk the Line decides whether you leave peacefully or fight Placide's men on the way out — pick before you commit.",
     video: "https://www.youtube.com/watch?v=e9pzvGVexsg"
   },
-  {
+{
     id: 250,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4443,7 +4251,7 @@ const quests = [
       "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
     video: "https://www.youtube.com/watch?v=onmRkZZRMy0"
   },
-  {
+{
     id: 251,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4459,7 +4267,7 @@ const quests = [
       "You must pick the exact 'friendship' dialogue at Johnny's grave in Chippin' In. Dying in the tower means game over — no respawn. Stock grenades and healing.",
     video: "https://www.youtube.com/watch?v=gKr_dniHkyE"
   },
-  {
+{
     id: 252,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4475,7 +4283,7 @@ const quests = [
       "Choose 'Stone Cold Killer' mode when he asks — Skippy ironically switches to the pacifist setting permanently after 50 kills, and headshot mode is the one you want long-term.",
     video: "https://www.youtube.com/watch?v=H8UbAFX9Xos"
   },
-  {
+{
     id: 253,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4491,7 +4299,7 @@ const quests = [
       "Use blunt weapons or short-circuit quickhacks to keep them alive; read each victim's shard afterward. Several only spawn after certain story progress.",
     video: "https://www.youtube.com/watch?v=nYIw1huUd4Q"
   },
-  {
+{
     id: 254,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4507,7 +4315,7 @@ const quests = [
       "Scanning the malware-laced credchip lets you disarm it and keep Meredith on-side. A peaceful Maelstrom deal preserves a fixer relationship you'll appreciate later.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
   },
-  {
+{
     id: 255,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4523,7 +4331,7 @@ const quests = [
       "Take your time in the braindance editor scrubbing visual, thermal, and audio layers — the same skill returns in several later missions.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
   },
-  {
+{
     id: 256,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4539,7 +4347,7 @@ const quests = [
       "Sell Johnny's iconic gear only if you must — the Malorian Arms 3516 and Samurai jacket are worth holding onto for the story payoff.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
   },
-  {
+{
     id: 257,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4555,7 +4363,7 @@ const quests = [
       "Either doll (Skye or Angel) works — you're really there for the conversation, so pick whoever you're comfortable talking to and stay alert leaving Clouds.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
   },
-  {
+{
     id: 258,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4571,7 +4379,7 @@ const quests = [
       "Bring anti-Scav loadout and armor — the warehouse is a tough gauntlet. Loot the XBD lab thoroughly for eddies and crafting specs.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
   },
-  {
+{
     id: 259,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4587,7 +4395,7 @@ const quests = [
       "Siding with NetWatch or the Voodoo Boys changes who turns hostile immediately; the NetWatch route keeps Alt Cunningham's help intact for the finale.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
   },
-  {
+{
     id: 260,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4603,7 +4411,7 @@ const quests = [
       "Save Takemura by clearing the room fast — his survival unlocks extra dialogue and a hidden option in the endgame.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
   },
-  {
+{
     id: 261,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4619,7 +4427,7 @@ const quests = [
       "Non-lethal takedowns on Oda are possible and canonically 'kinder' — short-circuit and blunt weapons let you spare him.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
   },
-  {
+{
     id: 262,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4635,7 +4443,7 @@ const quests = [
       "Explore freely as Johnny — this flashback deepens the Rogue romance/alliance options in Act 3, so soak in the dialogue.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
   },
-  {
+{
     id: 263,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4651,7 +4459,7 @@ const quests = [
       "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
   },
-  {
+{
     id: 264,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4667,7 +4475,7 @@ const quests = [
       "Requires completing Panam's questline (Queen of the Highway). Widely considered the most hopeful ending.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
   },
-  {
+{
     id: 265,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4683,7 +4491,7 @@ const quests = [
       "Requires Rogue's side jobs. Choosing to let Johnny take over vs. going in yourself changes the epilogue significantly.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
   },
-  {
+{
     id: 266,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4701,7 +4509,7 @@ const quests = [
       "Read the room and stay calm — how you talk Barry through it determines whether he lives, and it colors River's arc.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Happy%20Together%20walkthrough"
   },
-  {
+{
     id: 267,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4717,7 +4525,7 @@ const quests = [
       "Watch the tone shift — this one rewards a light touch and quick exit over a firefight.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
   },
-  {
+{
     id: 268,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4733,7 +4541,7 @@ const quests = [
       "Level up Body and buy Gorilla Arms before the later bouts. Block-and-counter beats trading blows against the champions.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Beat%20on%20the%20Brat%20walkthrough"
   },
-  {
+{
     id: 269,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4749,7 +4557,7 @@ const quests = [
       "Each cab is a self-contained vignette across every district — a relaxing way to see Night City and bank easy eddies.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
   },
-  {
+{
     id: 270,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4765,7 +4573,7 @@ const quests = [
       "Sell the painting to the right buyer for a huge payout; don't accept the first lowball offer at the drop point.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
   },
-  {
+{
     id: 271,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4781,7 +4589,7 @@ const quests = [
       "Bring one of Jackie's belongings to the ofrenda for the fuller, more heartfelt version of the scene.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
   },
-  {
+{
     id: 272,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4797,7 +4605,7 @@ const quests = [
       "This unlocks the Aldecaldos (The Star) ending. Pursue Panam's romance dialogue here if you want that path.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
   },
-  {
+{
     id: 273,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4815,7 +4623,7 @@ const quests = [
       "A pure character moment. Sit through the conversations; it pays off emotionally in the endgame.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
   },
-  {
+{
     id: 274,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4831,7 +4639,7 @@ const quests = [
       "Complete this to progress River's romance (available to female-bodied V). The braindance investigation rewards careful scrubbing.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
   },
-  {
+{
     id: 275,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4847,7 +4655,7 @@ const quests = [
       "Sparing Maiko vs. accepting her deal changes the outcome and Judy's mood. This gates the Judy romance path.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
   },
-  {
+{
     id: 276,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4863,7 +4671,7 @@ const quests = [
       "A short but flavorful detour into Night City's class politics — grab the loot and the shard lore.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
   },
-  {
+{
     id: 277,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4879,7 +4687,7 @@ const quests = [
       "One of the darkest, most divisive quests in the game. It has no combat — it's entirely a choice about how far you'll go.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
   },
-  {
+{
     id: 278,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4895,7 +4703,7 @@ const quests = [
       "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
   },
-  {
+{
     id: 279,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4911,7 +4719,7 @@ const quests = [
       "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
   },
-  {
+{
     id: 280,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4927,7 +4735,7 @@ const quests = [
       "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
   },
-  {
+{
     id: 281,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4943,7 +4751,7 @@ const quests = [
       "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
   },
-  {
+{
     id: 282,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4959,7 +4767,7 @@ const quests = [
       "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
   },
-  {
+{
     id: 283,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4975,7 +4783,7 @@ const quests = [
       "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
   },
-  {
+{
     id: 284,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -4991,7 +4799,7 @@ const quests = [
       "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
   },
-  {
+{
     id: 285,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5007,7 +4815,7 @@ const quests = [
       "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
   },
-  {
+{
     id: 286,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5023,7 +4831,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
   },
-  {
+{
     id: 287,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5039,7 +4847,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
   },
-  {
+{
     id: 288,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5055,7 +4863,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
   },
-  {
+{
     id: 289,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5071,7 +4879,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
   },
-  {
+{
     id: 290,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5087,7 +4895,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
   },
-  {
+{
     id: 291,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5103,7 +4911,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
   },
-  {
+{
     id: 292,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5119,7 +4927,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
   },
-  {
+{
     id: 293,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5135,7 +4943,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
   },
-  {
+{
     id: 294,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5151,7 +4959,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
   },
-  {
+{
     id: 295,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5167,7 +4975,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
   },
-  {
+{
     id: 296,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5183,7 +4991,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
   },
-  {
+{
     id: 297,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5199,7 +5007,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
   },
-  {
+{
     id: 298,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5215,7 +5023,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
   },
-  {
+{
     id: 299,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5231,7 +5039,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
   },
-  {
+{
     id: 300,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5247,7 +5055,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
   },
-  {
+{
     id: 301,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5263,7 +5071,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
   },
-  {
+{
     id: 302,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5279,7 +5087,7 @@ const quests = [
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
   },
-  {
+{
     id: 303,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5295,7 +5103,7 @@ const quests = [
       "This opens the whole expansion. Explore Dogtown afterward — its vendors, drops, and airdrops are some of the best gear sources in the game.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
   },
-  {
+{
     id: 304,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5311,7 +5119,7 @@ const quests = [
       "Stealth is viable but Barghest hit hard — a well-armored, quickhack-ready build makes the extraction smoother.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
   },
-  {
+{
     id: 305,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5327,7 +5135,7 @@ const quests = [
       "The gala rewards a subtle approach and good dialogue reads — going loud spoils the intel you're there for.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
   },
-  {
+{
     id: 306,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5343,7 +5151,7 @@ const quests = [
       "The Chimera fight punishes standing still; use cover, the environment, and status quickhacks to whittle its phases.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
   },
-  {
+{
     id: 307,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5359,7 +5167,7 @@ const quests = [
       "This choice defines the entire Phantom Liberty ending — and one path unlocks a very different fate for V in the base game. Choose deliberately.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
   },
-  {
+{
     id: 308,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5375,7 +5183,7 @@ const quests = [
       "Mr. Hands' Dogtown gigs often reward a diplomatic touch — hear people out before drawing iron.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
   },
-  {
+{
     id: 309,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -5391,7 +5199,7 @@ const quests = [
       "Your earlier Dogtown choices echo here — play it consistent with the ending you're aiming for.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
   },
-  {
+{
     id: 310,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5408,7 +5216,7 @@ const quests = [
       "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
   },
-  {
+{
     id: 311,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5425,7 +5233,7 @@ const quests = [
       "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
   },
-  {
+{
     id: 312,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5442,7 +5250,7 @@ const quests = [
       "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
   },
-  {
+{
     id: 313,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5459,7 +5267,7 @@ const quests = [
       "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
   },
-  {
+{
     id: 314,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5476,7 +5284,7 @@ const quests = [
       "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
   },
-  {
+{
     id: 315,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5493,7 +5301,7 @@ const quests = [
       "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
   },
-  {
+{
     id: 316,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5510,7 +5318,7 @@ const quests = [
       "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
   },
-  {
+{
     id: 317,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5527,7 +5335,7 @@ const quests = [
       "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
   },
-  {
+{
     id: 318,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5544,7 +5352,7 @@ const quests = [
       "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
   },
-  {
+{
     id: 319,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5561,7 +5369,7 @@ const quests = [
       "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
   },
-  {
+{
     id: 320,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5578,7 +5386,7 @@ const quests = [
       "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
   },
-  {
+{
     id: 321,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5595,7 +5403,7 @@ const quests = [
       "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
   },
-  {
+{
     id: 322,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5612,7 +5420,7 @@ const quests = [
       "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
   },
-  {
+{
     id: 323,
     type: "main",
     game: "Final Fantasy VII Rebirth",
@@ -5629,7 +5437,7 @@ const quests = [
       "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
   },
-  {
+{
     id: 324,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5646,7 +5454,7 @@ const quests = [
       "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
   },
-  {
+{
     id: 325,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5663,7 +5471,7 @@ const quests = [
       "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
   },
-  {
+{
     id: 326,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5680,7 +5488,7 @@ const quests = [
       "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
   },
-  {
+{
     id: 327,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5697,7 +5505,7 @@ const quests = [
       "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
   },
-  {
+{
     id: 328,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5714,7 +5522,7 @@ const quests = [
       "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
   },
-  {
+{
     id: 329,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5731,7 +5539,7 @@ const quests = [
       "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
   },
-  {
+{
     id: 330,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5748,7 +5556,7 @@ const quests = [
       "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
   },
-  {
+{
     id: 331,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5765,7 +5573,7 @@ const quests = [
       "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
   },
-  {
+{
     id: 332,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5782,7 +5590,7 @@ const quests = [
       "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
   },
-  {
+{
     id: 333,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5799,7 +5607,7 @@ const quests = [
       "Gather the exact items requested — partial deliveries won't satisfy this client.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
   },
-  {
+{
     id: 334,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5816,7 +5624,7 @@ const quests = [
       "Chocobo traversal and the region's springs make chasing down the strays far easier.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
   },
-  {
+{
     id: 335,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5833,7 +5641,7 @@ const quests = [
       "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
   },
-  {
+{
     id: 336,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5850,7 +5658,7 @@ const quests = [
       "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
   },
-  {
+{
     id: 337,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5867,7 +5675,7 @@ const quests = [
       "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
   },
-  {
+{
     id: 338,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5884,7 +5692,7 @@ const quests = [
       "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
   },
-  {
+{
     id: 339,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5901,7 +5709,7 @@ const quests = [
       "A lore-rich quest about the Lifestream — the reward materia suits a support build.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
   },
-  {
+{
     id: 340,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5918,7 +5726,7 @@ const quests = [
       "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
   },
-  {
+{
     id: 341,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5935,7 +5743,7 @@ const quests = [
       "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
   },
-  {
+{
     id: 342,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5952,7 +5760,7 @@ const quests = [
       "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
   },
-  {
+{
     id: 343,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5969,7 +5777,7 @@ const quests = [
       "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
   },
-  {
+{
     id: 344,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -5986,7 +5794,7 @@ const quests = [
       "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
   },
-  {
+{
     id: 345,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -6003,7 +5811,7 @@ const quests = [
       "A callback quest — earlier Costa del Sol choices color how this one resolves.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
   },
-  {
+{
     id: 346,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -6020,7 +5828,7 @@ const quests = [
       "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
   },
-  {
+{
     id: 347,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -6037,7 +5845,7 @@ const quests = [
       "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
   },
-  {
+{
     id: 348,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -6054,7 +5862,7 @@ const quests = [
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   },
-  {
+{
     id: 349,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6070,7 +5878,7 @@ const quests = [
       "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
   },
-  {
+{
     id: 350,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6086,7 +5894,7 @@ const quests = [
       "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
   },
-  {
+{
     id: 351,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6102,7 +5910,7 @@ const quests = [
       "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
   },
-  {
+{
     id: 352,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6118,7 +5926,7 @@ const quests = [
       "Ties directly into the Baron's main arc — do it before leaving Velen.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
-  {
+{
     id: 353,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6134,7 +5942,7 @@ const quests = [
       "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
   },
-  {
+{
     id: 354,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6150,7 +5958,7 @@ const quests = [
       "Reading the hidden notes reveals Keira's true motives before you meet her.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
   },
-  {
+{
     id: 355,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6166,7 +5974,7 @@ const quests = [
       "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
   },
-  {
+{
     id: 356,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6182,7 +5990,7 @@ const quests = [
       "Equip the lamp and use it on the shimmering barriers to press forward.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
   },
-  {
+{
     id: 357,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6198,7 +6006,7 @@ const quests = [
       "Torch the leshen's totems first, then bring Relict Oil and Igni.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
   },
-  {
+{
     id: 358,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6214,7 +6022,7 @@ const quests = [
       "A short, poignant contract — follow the flowers to piece the story together.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
   },
-  {
+{
     id: 359,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6230,7 +6038,7 @@ const quests = [
       "Ham it up on stage — the performance choices are pure delight and affect the scene.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
   },
-  {
+{
     id: 360,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6246,7 +6054,7 @@ const quests = [
       "Bring good armor; the hideout is a tough multi-wave fight.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
   },
-  {
+{
     id: 361,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6262,7 +6070,7 @@ const quests = [
       "A charming lighthearted quest — enjoy the banter, low combat.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
   },
-  {
+{
     id: 362,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6278,7 +6086,7 @@ const quests = [
       "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
   },
-  {
+{
     id: 363,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6294,7 +6102,7 @@ const quests = [
       "Ties into the Triss romance path — pursue it if you want that ending.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
   },
-  {
+{
     id: 364,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6310,7 +6118,7 @@ const quests = [
       "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
   },
-  {
+{
     id: 365,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6326,7 +6134,7 @@ const quests = [
       "The auction house infiltration rewards patience over brute force.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
   },
-  {
+{
     id: 366,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6342,7 +6150,7 @@ const quests = [
       "The Wild Hunt flashback battle is scripted — focus on survival.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
   },
-  {
+{
     id: 367,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6358,7 +6166,7 @@ const quests = [
       "A story-driven quest with a memorable Ciri-playable segment.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
   },
-  {
+{
     id: 368,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6374,7 +6182,7 @@ const quests = [
       "Piece together the reagents with Witcher Senses to reconstruct the accident.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
   },
-  {
+{
     id: 369,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6390,7 +6198,7 @@ const quests = [
       "Specter Oil and Yrden as always for wraith-type foes.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
   },
-  {
+{
     id: 370,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6406,7 +6214,7 @@ const quests = [
       "Bring Insectoid Oil and dodge the ranged spit before closing in.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
   },
-  {
+{
     id: 371,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6422,7 +6230,7 @@ const quests = [
       "Read the environmental clues; the payoff informs the main story.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
   },
-  {
+{
     id: 372,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6438,7 +6246,7 @@ const quests = [
       "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
   },
-  {
+{
     id: 373,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6454,7 +6262,7 @@ const quests = [
       "Just go with it — the outrageous choices are the whole point and mostly harmless.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
   },
-  {
+{
     id: 374,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6470,7 +6278,7 @@ const quests = [
       "The vault has a fistfight and a puzzle — prep both combat and patience.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
   },
-  {
+{
     id: 375,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6486,7 +6294,7 @@ const quests = [
       "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
   },
-  {
+{
     id: 376,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6502,7 +6310,7 @@ const quests = [
       "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
   },
-  {
+{
     id: 377,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6518,7 +6326,7 @@ const quests = [
       "Vampire Oil and Black Blood are essential against the higher vampires.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
   },
-  {
+{
     id: 378,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6534,7 +6342,7 @@ const quests = [
       "There's a lone survivor — how you handle her is the quest's real weight.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
   },
-  {
+{
     id: 379,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6550,7 +6358,7 @@ const quests = [
       "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
   },
-  {
+{
     id: 380,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6566,7 +6374,7 @@ const quests = [
       "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
   },
-  {
+{
     id: 381,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6582,7 +6390,7 @@ const quests = [
       "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
   },
-  {
+{
     id: 382,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -6598,7 +6406,7 @@ const quests = [
       "Insectoid Oil and dodge the burrow-and-lunge pattern.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
   },
-  {
+{
     id: 383,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6614,7 +6422,7 @@ const quests = [
       "The opening region eases you into new gear and machines — grab the pullcaster and diving mask upgrades early.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
   },
-  {
+{
     id: 384,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6630,7 +6438,7 @@ const quests = [
       "Chainscrape becomes an early hub — pick up its side quests before pushing on.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
   },
-  {
+{
     id: 385,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6646,7 +6454,7 @@ const quests = [
       "A combat-focused chapter; learn to exploit machine components with the right ammo.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
   },
-  {
+{
     id: 386,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6662,7 +6470,7 @@ const quests = [
       "Story-heavy with a major reveal — stock resources before the finale stretch.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
   },
-  {
+{
     id: 387,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6678,7 +6486,7 @@ const quests = [
       "A major story chapter; upgrade your best weapons before diving in.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
   },
-  {
+{
     id: 388,
     type: "main",
     game: "Horizon Forbidden West",
@@ -6694,7 +6502,7 @@ const quests = [
       "The finale is a gauntlet — bring your strongest coils, potions, and elemental loadout.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
   },
-  {
+{
     id: 389,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6710,7 +6518,7 @@ const quests = [
       "Unlocks after The Bristlebacks — Petra's gear is worth the trip.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Twilight%20Path%20walkthrough"
   },
-  {
+{
     id: 390,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6726,7 +6534,7 @@ const quests = [
       "A charming errand with light puzzle-solving — follow the power cables.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Nights%20of%20Lights%20walkthrough"
   },
-  {
+{
     id: 391,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6742,7 +6550,7 @@ const quests = [
       "Scan the affected machines to trace the corruption to its source.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20in%20the%20West%20walkthrough"
   },
-  {
+{
     id: 392,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6758,7 +6566,7 @@ const quests = [
       "Bring cold/impact ammo — the culprit ambushes from concealment.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
   },
-  {
+{
     id: 393,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6774,7 +6582,7 @@ const quests = [
       "A relaxed gathering quest — a nice palate cleanser between story beats.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20So%20Sweet%20walkthrough"
   },
-  {
+{
     id: 394,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6790,7 +6598,7 @@ const quests = [
       "Rebels use heavy weapons — knock them off overwatch positions with the ropecaster.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
   },
-  {
+{
     id: 395,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6806,7 +6614,7 @@ const quests = [
       "Lore-rich and emotional — read the datapoints for the full picture.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
   },
-  {
+{
     id: 396,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6822,7 +6630,7 @@ const quests = [
       "A character quest that deepens your companions before the finale.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cause%20for%20Concern%20walkthrough"
   },
-  {
+{
     id: 397,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6838,7 +6646,7 @@ const quests = [
       "Corrupted machines hit harder — bring purgewater and status resist.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Land%20walkthrough"
   },
-  {
+{
     id: 398,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6854,7 +6662,7 @@ const quests = [
       "Each cauldron ends in a boss machine — clearing all expands your override roster hugely.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cauldrons%3A%20Machine%20Overrides%20walkthrough"
   },
-  {
+{
     id: 399,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6870,7 +6678,7 @@ const quests = [
       "Stealth-thin the guards first, then take the commander — they drop strong loot.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Rebel%20Camps%20%26%20Outposts%20walkthrough"
   },
-  {
+{
     id: 400,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6886,7 +6694,7 @@ const quests = [
       "Study each trial's objective; specialized ammo and traps beat the clock.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
   },
-  {
+{
     id: 401,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6902,7 +6710,7 @@ const quests = [
       "Use the pullcaster and scan for climb points — most are pure platforming puzzles.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
   },
-  {
+{
     id: 402,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6918,7 +6726,7 @@ const quests = [
       "Each Tallneck has a unique approach puzzle — look for the machine or structure to reach it.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Tallnecks%20walkthrough"
   },
-  {
+{
     id: 403,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6934,7 +6742,7 @@ const quests = [
       "Target the exact components requested to fulfill contracts efficiently.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Salvage%20Contracts%20walkthrough"
   },
-  {
+{
     id: 404,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6950,7 +6758,7 @@ const quests = [
       "Learn the boost pads and shortcuts; a fast mount and clean lines win.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gauntlet%20Runs%20walkthrough"
   },
-  {
+{
     id: 405,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6966,7 +6774,7 @@ const quests = [
       "Modifiers reward build flexibility — swap loadouts to match each challenge.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Arena%20walkthrough"
   },
-  {
+{
     id: 406,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6982,7 +6790,7 @@ const quests = [
       "These combos massively boost melee damage — worth learning for tough fights.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Melee%20Pits%20walkthrough"
   },
-  {
+{
     id: 407,
     type: "side",
     game: "Horizon Forbidden West",
@@ -6998,7 +6806,7 @@ const quests = [
       "A chess-like minigame — control the center and bait aggressive opponents.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
   },
-  {
+{
     id: 408,
     type: "main",
     game: "Horizon Forbidden West",
@@ -7014,7 +6822,7 @@ const quests = [
       "Kicks off the Burning Shores DLC — it's endgame content, so come well-equipped.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20In%20the%20Flood%20walkthrough"
   },
-  {
+{
     id: 409,
     type: "side",
     game: "Horizon Forbidden West",
@@ -7030,7 +6838,7 @@ const quests = [
       "The DLC introduces new machines like the Bilegut — bring acid resistance.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20Gilded%20Prophecy%20walkthrough"
   },
-  {
+{
     id: 410,
     type: "main",
     game: "God of War Ragnarök",
@@ -7046,7 +6854,7 @@ const quests = [
       "The opening teaches the new combat and Atreus's role — experiment with the Leviathan and Blades.",
     video: "https://www.youtube.com/watch?v=KENiY0BF9bU"
   },
-  {
+{
     id: 411,
     type: "main",
     game: "God of War Ragnarök",
@@ -7062,7 +6870,7 @@ const quests = [
       "Svartalfheim is huge — grab the boat and revisit for favors once you have new tools.",
     video: "https://www.youtube.com/watch?v=-Ek2YXlKE6s"
   },
-  {
+{
     id: 412,
     type: "main",
     game: "God of War Ragnarök",
@@ -7078,7 +6886,7 @@ const quests = [
       "Learn to parry and use runic attacks; this fight rewards defensive timing.",
     video: "https://www.youtube.com/watch?v=LV4K4jelGJA"
   },
-  {
+{
     id: 413,
     type: "main",
     game: "God of War Ragnarök",
@@ -7094,7 +6902,7 @@ const quests = [
       "A story-focused chapter — enjoy the character work between fights.",
     video: "https://www.youtube.com/watch?v=dnmnwVnFkhI"
   },
-  {
+{
     id: 414,
     type: "main",
     game: "God of War Ragnarök",
@@ -7110,7 +6918,7 @@ const quests = [
       "Vanaheim opens up richly here — mark favors to return to after the story.",
     video: "https://www.youtube.com/watch?v=UY7nTA-5wbk"
   },
-  {
+{
     id: 415,
     type: "main",
     game: "God of War Ragnarök",
@@ -7126,7 +6934,7 @@ const quests = [
       "A revelatory chapter with tense encounters — keep resurrection stones handy.",
     video: "https://www.youtube.com/watch?v=VDR434Xe3TM"
   },
-  {
+{
     id: 416,
     type: "main",
     game: "God of War Ragnarök",
@@ -7142,7 +6950,7 @@ const quests = [
       "The Draupnir Spear is a build-defining weapon — respec runic attacks around it.",
     video: "https://www.youtube.com/watch?v=Pq0Y2xWFJd4"
   },
-  {
+{
     id: 417,
     type: "main",
     game: "God of War Ragnarök",
@@ -7158,7 +6966,7 @@ const quests = [
       "Emotional pivot point — a lighter combat chapter.",
     video: "https://www.youtube.com/watch?v=1a24wErDJ1c"
   },
-  {
+{
     id: 418,
     type: "main",
     game: "God of War Ragnarök",
@@ -7174,7 +6982,7 @@ const quests = [
       "Escalating encounters — upgrade armor at Brok and Sindri before proceeding.",
     video: "https://www.youtube.com/watch?v=wIaaNVKjNQk"
   },
-  {
+{
     id: 419,
     type: "main",
     game: "God of War Ragnarök",
@@ -7190,7 +6998,7 @@ const quests = [
       "Helheim's frost enemies resist ice — favor the Blades of Chaos here.",
     video: "https://www.youtube.com/watch?v=_m5u6Iam1bI"
   },
-  {
+{
     id: 420,
     type: "main",
     game: "God of War Ragnarök",
@@ -7206,7 +7014,7 @@ const quests = [
       "The war chapter is a spectacle gauntlet — bring your strongest setup.",
     video: "https://www.youtube.com/watch?v=52sv4ld-cFQ"
   },
-  {
+{
     id: 421,
     type: "main",
     game: "God of War Ragnarök",
@@ -7222,7 +7030,7 @@ const quests = [
       "Now's the time to mop up favors, Berserkers, and collectibles across all nine realms.",
     video: "https://www.youtube.com/watch?v=QPY1levBDik"
   },
-  {
+{
     id: 422,
     type: "side",
     game: "God of War Ragnarök",
@@ -7238,7 +7046,7 @@ const quests = [
       "A good early favor to learn Svartalfheim traversal and grab Hacksilver.",
     video: "https://www.youtube.com/watch?v=QR8Sd1C5F54"
   },
-  {
+{
     id: 423,
     type: "side",
     game: "God of War Ragnarök",
@@ -7254,7 +7062,7 @@ const quests = [
       "Solve the environmental clue to unseal the vault — good early upgrade loot.",
     video: "https://www.youtube.com/watch?v=_rhlDQ5RbXM"
   },
-  {
+{
     id: 424,
     type: "side",
     game: "God of War Ragnarök",
@@ -7270,7 +7078,7 @@ const quests = [
       "Bring Sonic and Bifröst-boosted attacks; dodge its pounce.",
     video: "https://www.youtube.com/watch?v=MNTp3xeYKdo"
   },
-  {
+{
     id: 425,
     type: "side",
     game: "God of War Ragnarök",
@@ -7286,7 +7094,7 @@ const quests = [
       "Reopening the river unlocks traversal to previously blocked areas — do it early in Vanaheim.",
     video: "https://www.youtube.com/watch?v=A7S9zj3IVP0"
   },
-  {
+{
     id: 426,
     type: "side",
     game: "God of War Ragnarök",
@@ -7302,7 +7110,7 @@ const quests = [
       "A big multi-part favor with tough camps — bring your best runic loadout.",
     video: "https://www.youtube.com/watch?v=sBspC0sL9Kc"
   },
-  {
+{
     id: 427,
     type: "side",
     game: "God of War Ragnarök",
@@ -7318,7 +7126,7 @@ const quests = [
       "The sandstorm slows you — use the sled and follow the wind-cleared paths.",
     video: "https://www.youtube.com/watch?v=V7S3fZEN3GU"
   },
-  {
+{
     id: 428,
     type: "side",
     game: "God of War Ragnarök",
@@ -7334,7 +7142,7 @@ const quests = [
       "Light/Dark elf puzzles gate the way — use Sigil arrows to redirect the light.",
     video: "https://www.youtube.com/watch?v=KUWc7xb1Ujk"
   },
-  {
+{
     id: 429,
     type: "side",
     game: "God of War Ragnarök",
@@ -7350,7 +7158,7 @@ const quests = [
       "Pairs well with The Desert Door — clear both on one Barrens trip.",
     video: "https://www.youtube.com/watch?v=Q4NGboxarCg"
   },
-  {
+{
     id: 430,
     type: "side",
     game: "God of War Ragnarök",
@@ -7366,7 +7174,7 @@ const quests = [
       "The mist drains health — keep moving toward the objective and manage resources.",
     video: "https://www.youtube.com/watch?v=YP-XMN-3mZM"
   },
-  {
+{
     id: 431,
     type: "side",
     game: "God of War Ragnarök",
@@ -7382,7 +7190,7 @@ const quests = [
       "Each flower grants a permanent stat boost via Yggdrasil's Dew — a top-priority collectible favor.",
     video: "https://www.youtube.com/watch?v=yVzY4i0u8Js"
   },
-  {
+{
     id: 432,
     type: "side",
     game: "God of War Ragnarök",
@@ -7398,7 +7206,7 @@ const quests = [
       "A short lore favor with a memorable payoff — read the dialogue.",
     video: "https://www.youtube.com/watch?v=Zz7g-zDynWc"
   },
-  {
+{
     id: 433,
     type: "side",
     game: "God of War Ragnarök",
@@ -7414,7 +7222,7 @@ const quests = [
       "Draugr swarm — area runic attacks clear them fast.",
     video: "https://www.youtube.com/watch?v=mSf016We82c"
   },
-  {
+{
     id: 434,
     type: "side",
     game: "God of War Ragnarök",
@@ -7430,7 +7238,7 @@ const quests = [
       "Rewards solid crafting resources — a good mid-game favor.",
     video: "https://www.youtube.com/watch?v=ndVoVV94wzo"
   },
-  {
+{
     id: 435,
     type: "side",
     game: "God of War Ragnarök",
@@ -7446,7 +7254,7 @@ const quests = [
       "Dreki charge lightning attacks — parry the tail sweep and punish after.",
     video: "https://www.youtube.com/watch?v=zdnXYjLbQVI"
   },
-  {
+{
     id: 436,
     type: "side",
     game: "God of War Ragnarök",
@@ -7462,7 +7270,7 @@ const quests = [
       "Use the spear's environmental detonations to open the way.",
     video: "https://www.youtube.com/watch?v=D35N8Qr4pf8"
   },
-  {
+{
     id: 437,
     type: "side",
     game: "God of War Ragnarök",
@@ -7478,7 +7286,7 @@ const quests = [
       "Sonic arrows stagger it out of the air — then close for the kill.",
     video: "https://www.youtube.com/watch?v=VsAFTz6tecw"
   },
-  {
+{
     id: 438,
     type: "side",
     game: "God of War Ragnarök",
@@ -7494,7 +7302,7 @@ const quests = [
       "One of three linked 'Dead' favors — completing all three tells a full story.",
     video: "https://www.youtube.com/watch?v=_bIcfkEgUzM"
   },
-  {
+{
     id: 439,
     type: "side",
     game: "God of War Ragnarök",
@@ -7510,7 +7318,7 @@ const quests = [
       "Berserkers are optional bosses — upgrade gear first; they hit brutally hard.",
     video: "https://www.youtube.com/watch?v=QzpW4ZyM6oA"
   },
-  {
+{
     id: 440,
     type: "side",
     game: "God of War Ragnarök",
@@ -7526,7 +7334,7 @@ const quests = [
       "The toughest optional fights in the game — save Hrólf for endgame with maxed gear.",
     video: "https://www.youtube.com/watch?v=34SHxlFdYFA"
   },
-  {
+{
     id: 441,
     type: "side",
     game: "God of War Ragnarök",
@@ -7542,7 +7350,7 @@ const quests = [
       "Listen for their green glow and cawing — a satisfying realm-spanning collectible favor.",
     video: "https://www.youtube.com/watch?v=DpAyG-bE3BM"
   },
-  {
+{
     id: 442,
     type: "side",
     game: "God of War Ragnarök",
@@ -7558,7 +7366,7 @@ const quests = [
       "Redirect the elven light beams with Sigil arrows to banish the dark.",
     video: "https://www.youtube.com/watch?v=meYAyQiw-lc"
   },
-  {
+{
     id: 443,
     type: "side",
     game: "God of War Ragnarök",
@@ -7574,7 +7382,7 @@ const quests = [
       "A tougher favor with a strong reward — bring status-resist armor.",
     video: "https://www.youtube.com/watch?v=daM1tF5DL90"
   },
-  {
+{
     id: 444,
     type: "main",
     category: "Palaces",
@@ -7591,7 +7399,7 @@ const quests = [
       "Secure the infiltration route early, then send the calling card only when you're ready for the boss — the deadline clock starts ticking.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
   },
-  {
+{
     id: 445,
     type: "main",
     category: "Palaces",
@@ -7608,7 +7416,7 @@ const quests = [
       "The shifting corridors hide switches; use Third Eye and note the fake vs. real paintings puzzle.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
   },
-  {
+{
     id: 446,
     type: "main",
     category: "Palaces",
@@ -7625,7 +7433,7 @@ const quests = [
       "The vault-door riddles gate progress — grind a little for the piggytron boss's big HP pool.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
   },
-  {
+{
     id: 447,
     type: "main",
     category: "Palaces",
@@ -7642,7 +7450,7 @@ const quests = [
       "The Sphinx boss punishes wrong answers — read Futaba's memories carefully before responding.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
   },
-  {
+{
     id: 448,
     type: "main",
     category: "Palaces",
@@ -7659,7 +7467,7 @@ const quests = [
       "The final robot-boss gauntlet is time-pressured; bring Baton Pass chains and status ailments.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
   },
-  {
+{
     id: 449,
     type: "main",
     category: "Palaces",
@@ -7676,7 +7484,7 @@ const quests = [
       "Rig the house's games via the lockdown puzzles; the twist afterward recontextualizes everything.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
   },
-  {
+{
     id: 450,
     type: "main",
     category: "Palaces",
@@ -7693,7 +7501,7 @@ const quests = [
       "A long, boss-dense palace — stock SP items and Revival Beads before the multi-phase Shido fight.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
   },
-  {
+{
     id: 451,
     type: "main",
     category: "Palaces",
@@ -7710,7 +7518,7 @@ const quests = [
       "Max key confidants beforehand — several unlock crucial combat perks for the final ascent.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
   },
-  {
+{
     id: 452,
     type: "main",
     category: "Palaces",
@@ -7727,7 +7535,7 @@ const quests = [
       "Requires maxing Maruki, Kasumi, and Akechi's arcs to unlock. The two-phase final duel is the game's hardest.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
   },
-  {
+{
     id: 453,
     type: "side",
     category: "Confidants",
@@ -7743,7 +7551,7 @@ const quests = [
       "Buy the Holy Stone early to fast-track her rank-ups — her fortunes speed every other confidant.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
   },
-  {
+{
     id: 454,
     type: "side",
     category: "Confidants",
@@ -7759,7 +7567,7 @@ const quests = [
       "His model-gun discounts and custom mods make ranged combat far stronger — prioritize for gun builds.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
   },
-  {
+{
     id: 455,
     type: "side",
     category: "Confidants",
@@ -7775,7 +7583,7 @@ const quests = [
       "Her clinic stocks the best SP-recovery items in the game — invaluable for long Mementos runs.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
   },
-  {
+{
     id: 456,
     type: "side",
     category: "Confidants",
@@ -7791,7 +7599,7 @@ const quests = [
       "Her rank perks let you craft tools in class and skip nights — a huge time-economy win.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
   },
-  {
+{
     id: 457,
     type: "side",
     category: "Confidants",
@@ -7807,7 +7615,7 @@ const quests = [
       "Her perks reduce enemy alertness — great for stealthy, no-fail infiltration runs.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
   },
-  {
+{
     id: 458,
     type: "side",
     category: "Confidants",
@@ -7823,7 +7631,7 @@ const quests = [
       "His 'Down Shot' and instant-kill perks trivialize weaker Mementos enemies.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
   },
-  {
+{
     id: 459,
     type: "side",
     category: "Confidants",
@@ -7839,7 +7647,7 @@ const quests = [
       "Her Baton Pass unlock is combat-defining — rank her for aggressive weakness chaining.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
   },
-  {
+{
     id: 460,
     type: "side",
     category: "Confidants",
@@ -7855,7 +7663,7 @@ const quests = [
       "His EXP-share perk keeps your reserve party leveled without extra grinding.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
   },
-  {
+{
     id: 461,
     type: "side",
     category: "Confidants",
@@ -7871,7 +7679,7 @@ const quests = [
       "His negotiation perks squeeze more cash and rare Personas out of every Hold Up.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
   },
-  {
+{
     id: 462,
     type: "side",
     category: "Confidants",
@@ -7887,7 +7695,7 @@ const quests = [
       "Fulfilling their fusion list unlocks the best fusion accidents and, in Royal, a key story reward.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
   },
-  {
+{
     id: 463,
     type: "side",
     category: "Confidants",
@@ -7903,7 +7711,7 @@ const quests = [
       "Maxing Faith is required for the Royal third semester and true ending — don't neglect it.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
   },
-  {
+{
     id: 464,
     type: "side",
     category: "Confidants",
@@ -7919,7 +7727,7 @@ const quests = [
       "His confidant is Royal-only and gates the true ending; his SP-recovery perks help every fight.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
   },
-  {
+{
     id: 465,
     type: "side",
     category: "Mementos Requests",
@@ -7935,7 +7743,7 @@ const quests = [
       "Clear requests as they appear — many gate confidant progress or reward rare fusion material.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Requests%20walkthrough"
   },
-  {
+{
     id: 466,
     type: "side",
     category: "Activities",
@@ -7951,7 +7759,7 @@ const quests = [
       "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
   },
-  {
+{
     id: 467,
     type: "main",
     category: "Jin's Journey",
@@ -7968,7 +7776,7 @@ const quests = [
       "Learn parry and Resolve early — the opening sets the samurai-vs-Ghost tension that drives the game.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
   },
-  {
+{
     id: 468,
     type: "main",
     category: "Jin's Journey",
@@ -7985,7 +7793,7 @@ const quests = [
       "This is where 'the Ghost' begins — stealth and terror tactics open up alongside honorable dueling.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
   },
-  {
+{
     id: 469,
     type: "main",
     category: "Jin's Journey",
@@ -8002,7 +7810,7 @@ const quests = [
       "A major set-piece battle — master the standoff mechanic to thin enemy ranks before the walls.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
   },
-  {
+{
     id: 470,
     type: "main",
     category: "Jin's Journey",
@@ -8019,7 +7827,7 @@ const quests = [
       "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
   },
-  {
+{
     id: 471,
     type: "main",
     category: "Jin's Journey",
@@ -8036,7 +7844,7 @@ const quests = [
       "The poison arc tests Jin's honor; upgrades to the blowgun and Ghost tools pay off here.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
   },
-  {
+{
     id: 472,
     type: "main",
     category: "Jin's Journey",
@@ -8053,7 +7861,7 @@ const quests = [
       "An emotional, duel-heavy chapter — sharpen your parry timing for the rival showdown.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
   },
-  {
+{
     id: 473,
     type: "main",
     category: "Jin's Journey",
@@ -8070,7 +7878,7 @@ const quests = [
       "The finale offers a defining choice — both endings are worth seeing; make a manual save first.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
   },
-  {
+{
     id: 474,
     type: "side",
     category: "Mythic Tales",
@@ -8087,7 +7895,7 @@ const quests = [
       "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
   },
-  {
+{
     id: 475,
     type: "side",
     category: "Tales of Tsushima",
@@ -8104,7 +7912,7 @@ const quests = [
       "First of Yuna's four tales; unlocks after the early story on Tsushima.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
-  {
+{
     id: 476,
     type: "side",
     category: "Tales of Tsushima",
@@ -8121,7 +7929,7 @@ const quests = [
       "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
-  {
+{
     id: 477,
     type: "side",
     category: "Tales of Tsushima",
@@ -8138,7 +7946,7 @@ const quests = [
       "First of Masako's revenge tales; expect grim choices.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
-  {
+{
     id: 478,
     type: "side",
     category: "Tales of Tsushima",
@@ -8155,7 +7963,7 @@ const quests = [
       "Kenji Tale 1 of 3 — comic relief with a sting.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
   },
-  {
+{
     id: 479,
     type: "side",
     category: "Tales of Tsushima",
@@ -8172,7 +7980,7 @@ const quests = [
       "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
-  {
+{
     id: 481,
     type: "side",
     category: "Exploration",
@@ -8189,7 +7997,7 @@ const quests = [
       "More charm slots = more build flexibility. Pet the fox afterward — it's the law.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
   },
-  {
+{
     id: 482,
     type: "side",
     category: "Exploration",
@@ -8206,7 +8014,7 @@ const quests = [
       "These are platforming puzzles more than combat — take your time on the ledges.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
   },
-  {
+{
     id: 483,
     type: "side",
     category: "Exploration",
@@ -8223,7 +8031,7 @@ const quests = [
       "More Resolve means more healing and Ghost abilities in combat — a priority pickup.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
   },
-  {
+{
     id: 484,
     type: "side",
     category: "Exploration",
@@ -8240,7 +8048,7 @@ const quests = [
       "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
   },
-  {
+{
     id: 485,
     type: "side",
     category: "Exploration",
@@ -8257,7 +8065,7 @@ const quests = [
       "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
   },
-  {
+{
     id: 486,
     type: "side",
     category: "Exploration",
@@ -8274,7 +8082,7 @@ const quests = [
       "Clearing camps also liberates the map — combine collection runs with liberation.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
   },
-  {
+{
     id: 487,
     type: "main",
     category: "Tales of Iki",
@@ -8291,7 +8099,7 @@ const quests = [
       "Kicks off the Director's Cut Iki expansion — a self-contained region with new mechanics and animal sanctuaries.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
   },
-  {
+{
     id: 488,
     type: "side",
     category: "Tales of Iki",
@@ -8308,7 +8116,7 @@ const quests = [
       "The Iki hallucination sequences are unique boss encounters — steel yourself for them.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
   },
-  {
+{
     id: 489,
     type: "main",
     category: "Main Story",
@@ -8325,7 +8133,7 @@ const quests = [
       "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
     video: "https://www.youtube.com/watch?v=4j81ThxRkWQ"
   },
-  {
+{
     id: 490,
     type: "main",
     category: "Main Story",
@@ -8342,7 +8150,7 @@ const quests = [
       "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
     video: "https://www.youtube.com/watch?v=FQLqJ0qIid4"
   },
-  {
+{
     id: 491,
     type: "main",
     category: "Main Story",
@@ -8359,7 +8167,7 @@ const quests = [
       "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
     video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
   },
-  {
+{
     id: 492,
     type: "main",
     category: "Main Story",
@@ -8376,7 +8184,7 @@ const quests = [
       "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
     video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
   },
-  {
+{
     id: 493,
     type: "main",
     category: "Main Story",
@@ -8393,7 +8201,7 @@ const quests = [
       "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
     video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
   },
-  {
+{
     id: 494,
     type: "main",
     category: "Main Story",
@@ -8410,7 +8218,7 @@ const quests = [
       "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
     video: "https://www.youtube.com/watch?v=uZDZGlnwAms"
   },
-  {
+{
     id: 495,
     type: "main",
     category: "Main Story",
@@ -8427,7 +8235,7 @@ const quests = [
       "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
     video: "https://www.youtube.com/watch?v=WWyPUH35RQU"
   },
-  {
+{
     id: 496,
     type: "main",
     category: "Main Story",
@@ -8444,7 +8252,7 @@ const quests = [
       "Another puzzle dungeon — the new abilities carry into combat and exploration.",
     video: "https://www.youtube.com/watch?v=QlkMzEO2NgQ"
   },
-  {
+{
     id: 497,
     type: "main",
     category: "Main Story",
@@ -8461,7 +8269,7 @@ const quests = [
       "Rewards flight/mount access to remote areas — a big exploration upgrade.",
     video: "https://www.youtube.com/watch?v=GrjwUFX970M"
   },
-  {
+{
     id: 498,
     type: "main",
     category: "Main Story",
@@ -8478,7 +8286,7 @@ const quests = [
       "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
     video: "https://www.youtube.com/watch?v=Cg_nMdHsuNo"
   },
-  {
+{
     id: 499,
     type: "main",
     category: "Main Story",
@@ -8495,7 +8303,7 @@ const quests = [
       "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
     video: "https://www.youtube.com/watch?v=hue4Z_G2ttA"
   },
-  {
+{
     id: 500,
     type: "side",
     category: "Relationship",
@@ -8512,7 +8320,7 @@ const quests = [
       "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
     video: "https://www.youtube.com/watch?v=sH99VVGDdUg"
   },
-  {
+{
     id: 501,
     type: "side",
     category: "Relationship",
@@ -8529,7 +8337,7 @@ const quests = [
       "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
     video: "https://www.youtube.com/watch?v=5T4pefO394w"
   },
-  {
+{
     id: 502,
     type: "side",
     category: "Relationship",
@@ -8546,7 +8354,7 @@ const quests = [
       "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
     video: "https://www.youtube.com/watch?v=M2Lh1rCW__I"
   },
-  {
+{
     id: 503,
     type: "side",
     category: "Relationship",
@@ -8563,7 +8371,7 @@ const quests = [
       "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
     video: "https://www.youtube.com/watch?v=8qowtCnPfDw"
   },
-  {
+{
     id: 504,
     type: "side",
     category: "Relationship",
@@ -8580,7 +8388,7 @@ const quests = [
       "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
     video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
   },
-  {
+{
     id: 505,
     type: "main",
     category: "Main Story",
@@ -8597,7 +8405,7 @@ const quests = [
       "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
     video: "https://www.youtube.com/watch?v=4EVxcKhIWmY"
   },
-  {
+{
     id: 506,
     type: "side",
     category: "Side Quest",
@@ -8614,7 +8422,7 @@ const quests = [
       "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
     video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
   },
-  {
+{
     id: 507,
     type: "side",
     category: "Side Quest",
@@ -8631,7 +8439,7 @@ const quests = [
       "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
     video: "https://www.youtube.com/watch?v=uJoQQhDUIE4"
   },
-  {
+{
     id: 508,
     type: "side",
     category: "Challenges",
@@ -8648,7 +8456,7 @@ const quests = [
       "There are 16 keys — catch each one, then find its matching moving door for the loot.",
     video: "https://www.youtube.com/watch?v=lwgsiMEle20"
   },
-  {
+{
     id: 509,
     type: "side",
     category: "Side Quest",
@@ -8665,7 +8473,7 @@ const quests = [
       "Wand cosmetics are purely visual, but the quest is a lovely bit of wizarding flavor.",
     video: "https://www.youtube.com/watch?v=fIt-643KYRY"
   },
-  {
+{
     id: 510,
     type: "side",
     category: "Side Quest",
@@ -8682,7 +8490,7 @@ const quests = [
       "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
     video: "https://www.youtube.com/watch?v=olE0hw0uXz0"
   },
-  {
+{
     id: 511,
     type: "side",
     category: "Side Quest",
@@ -8699,7 +8507,7 @@ const quests = [
       "Low stakes and charming — a good break between combat-heavy quests.",
     video: "https://www.youtube.com/watch?v=lSZ8-En-TQg"
   },
-  {
+{
     id: 512,
     type: "side",
     category: "Challenges",
@@ -8716,7 +8524,7 @@ const quests = [
       "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
     video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
   },
-  {
+{
     id: 513,
     type: "side",
     category: "Challenges",
@@ -8733,7 +8541,7 @@ const quests = [
       "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
     video: "https://www.youtube.com/watch?v=XtS7xAM2MaQ"
   },
-  {
+{
     id: 514,
     type: "side",
     category: "Challenges",
@@ -8750,7 +8558,7 @@ const quests = [
       "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
     video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
   },
-  {
+{
     id: 515,
     type: "side",
     category: "Challenges",
@@ -8775,7 +8583,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Repeat at all 20 hotspots to max out the meter and finish the Exploration challenge."
     ]
   },
-  {
+{
     id: 516,
     type: "side",
     category: "Challenges",
@@ -8792,7 +8600,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Central to progression — breed beasts for Traits that upgrade your gear's power.",
     video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
   },
-  {
+{
     id: 517,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8808,7 +8616,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The prologue converges all three lifepaths here — after this, Night City opens up.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
   },
-  {
+{
     id: 518,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8824,7 +8632,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Vik gives a friends' discount all game — return to him for the best-value implants.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
   },
-  {
+{
     id: 519,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8840,7 +8648,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dialogue-only — the choices set your rapport with Dex but don't gate much.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
   },
-  {
+{
     id: 520,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8856,7 +8664,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Marks the shift into Act 2 and the open city — start banking gigs and side jobs now.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
   },
-  {
+{
     id: 521,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8872,7 +8680,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Opens the Panam questline — pursue it fully for the best (Star) ending options.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
   },
-  {
+{
     id: 522,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8888,7 +8696,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A combat-heavy nomad job; the Thermal Katana reward is tucked in Nash's stash.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
   },
-  {
+{
     id: 523,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8904,7 +8712,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The Basilisk-adjacent set piece is tough — bring armor and let Panam draw fire.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
   },
-  {
+{
     id: 524,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8920,7 +8728,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Kicks off the Takemura path — his gigs and calls add key endgame options.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
   },
-  {
+{
     id: 525,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8936,7 +8744,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Do the optional recon fully — it unlocks stealthier routes in the follow-up.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
   },
-  {
+{
     id: 526,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8952,7 +8760,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Placide is not to be trusted — stay sharp through the mall and dataterm work.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
   },
-  {
+{
     id: 527,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8968,7 +8776,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "These raise Johnny's rapport, which gates the secret ending — don't skip them.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
   },
-  {
+{
     id: 528,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -8984,7 +8792,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Save Rogue's side jobs first. Smasher is a brutal fight — bring anti-armor and quickhacks.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Totalimmortal%20walkthrough"
   },
-  {
+{
     id: 529,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9000,7 +8808,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Requires Panam's full questline. The Basilisk tank makes the approach a spectacle.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
   },
-  {
+{
     id: 530,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9016,7 +8824,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "This is the crossroads for every ending — make a manual save before the elevator.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
   },
-  {
+{
     id: 531,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9032,7 +8840,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Requires low Johnny rapport; widely seen as the bleakest ending.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
   },
-  {
+{
     id: 532,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9048,7 +8856,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The most hopeful epilogue — needs Panam's romance/quests completed.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
   },
-  {
+{
     id: 533,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9064,7 +8872,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Start of Kerry's chain — pursue it for the Us Cracks caper and a male-V romance.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
   },
-  {
+{
     id: 534,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9080,7 +8888,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Your advice shapes Kerry's arc; siding with his integrity feels most in-character.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
   },
-  {
+{
     id: 535,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9096,7 +8904,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A feel-good detour — the payoff is a fun jam and Kerry rapport.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
   },
-  {
+{
     id: 536,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9112,7 +8920,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Comedic and light — advances Kerry's storyline toward the finale.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
   },
-  {
+{
     id: 537,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9128,7 +8936,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "This is the Kerry romance gate for male V — read the moment.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
   },
-  {
+{
     id: 538,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9144,7 +8952,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The tender close to Kerry's story — pure character payoff, no combat.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
   },
-  {
+{
     id: 539,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9160,7 +8968,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Opens the Judy questline proper; leads toward Pisces and the romance.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
   },
-  {
+{
     id: 540,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9176,7 +8984,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A short but pivotal beat for the Judy romance (female V).",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Both%20Sides%2C%20Now%20walkthrough"
   },
-  {
+{
     id: 541,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9192,7 +9000,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The Judy romance culminates here for female V — a beautiful, quiet quest.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
   },
-  {
+{
     id: 542,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9208,7 +9016,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A short character piece — the choice at the end has a small moral weight.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
   },
-  {
+{
     id: 543,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9224,7 +9032,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Roll with the absurdity — the loot and the story are worth the chaos.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
   },
-  {
+{
     id: 544,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9240,7 +9048,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A cautionary vignette — expect a fight to reclaim your gear.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
   },
-  {
+{
     id: 545,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9256,7 +9064,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A melancholy, low-combat quest — a nice change of pace.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
   },
-  {
+{
     id: 546,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9272,7 +9080,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Short and bittersweet — the choice is about compassion, not combat.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
   },
-  {
+{
     id: 547,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9288,7 +9096,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scan for the quiet route; a loud approach draws heavy corpo security.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
   },
-  {
+{
     id: 548,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9304,7 +9112,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A dark thread connected to the Sinnerman arc's themes.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
   },
-  {
+{
     id: 549,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9320,7 +9128,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the studio thoroughly before confronting him.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
   },
-  {
+{
     id: 550,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9336,7 +9144,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quick, flavorful favor — light combat, good pocket money.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
   },
-  {
+{
     id: 551,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9352,7 +9160,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quiet story beat — read the shards for the full picture.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
   },
-  {
+{
     id: 552,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9368,7 +9176,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ties into the mysterious 'Mr. Blue Eyes' thread — atmospheric and lore-rich.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
   },
-  {
+{
     id: 553,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9384,7 +9192,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A multi-step investigative chain — quickhacks and stealth pay off.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
   },
-  {
+{
     id: 554,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9400,7 +9208,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quiet epilogue that rewards having handled Barry's crisis with care.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
   },
-  {
+{
     id: 555,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9416,7 +9224,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Part of Rogue's arc — advancing it opens her ending path with Johnny.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
   },
-  {
+{
     id: 556,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9432,7 +9240,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A charming Rogue romance beat — enjoy the quiet before the storms.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
   },
-  {
+{
     id: 557,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9448,7 +9256,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advances both the Rogue arc and Johnny's rapport (secret-ending relevant).",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
   },
-  {
+{
     id: 558,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9464,7 +9272,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
   },
-  {
+{
     id: 559,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9480,7 +9288,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
   },
-  {
+{
     id: 560,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9496,7 +9304,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
   },
-  {
+{
     id: 561,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9512,7 +9320,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
   },
-  {
+{
     id: 562,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9528,7 +9336,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
   },
-  {
+{
     id: 563,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9544,7 +9352,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
   },
-  {
+{
     id: 564,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9560,7 +9368,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
   },
-  {
+{
     id: 565,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9576,7 +9384,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
   },
-  {
+{
     id: 566,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9592,7 +9400,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
   },
-  {
+{
     id: 567,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9608,7 +9416,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
   },
-  {
+{
     id: 568,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9624,7 +9432,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
   },
-  {
+{
     id: 569,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9640,7 +9448,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
   },
-  {
+{
     id: 570,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9656,7 +9464,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
   },
-  {
+{
     id: 571,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9672,7 +9480,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
   },
-  {
+{
     id: 572,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9688,7 +9496,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
   },
-  {
+{
     id: 573,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9704,7 +9512,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
   },
-  {
+{
     id: 574,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9720,7 +9528,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
   },
-  {
+{
     id: 575,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9736,7 +9544,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
   },
-  {
+{
     id: 576,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9752,7 +9560,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
   },
-  {
+{
     id: 577,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9768,7 +9576,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
   },
-  {
+{
     id: 578,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9784,7 +9592,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
   },
-  {
+{
     id: 579,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9800,7 +9608,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
   },
-  {
+{
     id: 580,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9816,7 +9624,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
   },
-  {
+{
     id: 581,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9832,7 +9640,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
   },
-  {
+{
     id: 582,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9848,7 +9656,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
   },
-  {
+{
     id: 583,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9864,7 +9672,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dialogue choices here nudge the branching Phantom Liberty ending — play consistent.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
   },
-  {
+{
     id: 584,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9880,7 +9688,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Prep loadouts — this leads into some of the DLC's toughest fights.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
   },
-  {
+{
     id: 585,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9896,7 +9704,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "This is the pivotal choice that steers you toward one of the two endings.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
   },
-  {
+{
     id: 586,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9912,7 +9720,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bring optical camo or netrunner tools — stealth is the intended route.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
   },
-  {
+{
     id: 587,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9928,7 +9736,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Read the situation before shooting — some Dogtown targets are better turned than killed.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
   },
-  {
+{
     id: 588,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
@@ -9944,7 +9752,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
   },
-  {
+{
     id: 589,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -9960,7 +9768,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
   },
-  {
+{
     id: 590,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -9976,7 +9784,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
   },
-  {
+{
     id: 591,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -9992,7 +9800,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
   },
-  {
+{
     id: 592,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10008,7 +9816,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
   },
-  {
+{
     id: 593,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10024,7 +9832,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
   },
-  {
+{
     id: 594,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10040,7 +9848,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
   },
-  {
+{
     id: 595,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10056,7 +9864,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Visit all the leads — the trail winds through the city's most colorful characters.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
   },
-  {
+{
     id: 596,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10072,7 +9880,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
   },
-  {
+{
     id: 597,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10088,7 +9896,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Radovid is dangerous; his questline steers Novigrad's political ending.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
   },
-  {
+{
     id: 598,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10106,7 +9914,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Sets up the Novigrad power struggle — choices here decide who rules the North.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
   },
-  {
+{
     id: 599,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10122,7 +9930,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
   },
-  {
+{
     id: 600,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10138,7 +9946,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
   },
-  {
+{
     id: 601,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10154,7 +9962,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
   },
-  {
+{
     id: 602,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10170,7 +9978,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
   },
-  {
+{
     id: 603,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10186,7 +9994,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recruit as many allies beforehand as you can — it changes who survives the siege.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
   },
-  {
+{
     id: 604,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10202,7 +10010,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
   },
-  {
+{
     id: 605,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10218,7 +10026,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
   },
-  {
+{
     id: 606,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10234,7 +10042,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A surreal, linear chapter — enjoy the alien vistas between fights.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
   },
-  {
+{
     id: 607,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10250,7 +10058,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
   },
-  {
+{
     id: 608,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10266,7 +10074,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
   },
-  {
+{
     id: 609,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10282,7 +10090,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
   },
-  {
+{
     id: 610,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10298,7 +10106,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
   },
-  {
+{
     id: 611,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10314,7 +10122,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
   },
-  {
+{
     id: 612,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10330,7 +10138,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
-  {
+{
     id: 613,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10346,7 +10154,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
   },
-  {
+{
     id: 614,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10362,7 +10170,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
   },
-  {
+{
     id: 615,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10378,7 +10186,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Regis is a fantastic companion here — soak in the lore before the finale.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
   },
-  {
+{
     id: 616,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10394,7 +10202,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
   },
-  {
+{
     id: 617,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -10410,7 +10218,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
   },
-  {
+{
     id: 618,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10426,7 +10234,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A small mercy quest — the outcome depends on trusting the right smuggler.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
   },
-  {
+{
     id: 619,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10442,7 +10250,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
   },
-  {
+{
     id: 620,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10458,7 +10266,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
   },
-  {
+{
     id: 621,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10474,7 +10282,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
   },
-  {
+{
     id: 622,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10490,7 +10298,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
   },
-  {
+{
     id: 623,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10506,7 +10314,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
   },
-  {
+{
     id: 624,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10522,7 +10330,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
   },
-  {
+{
     id: 625,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10538,7 +10346,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
   },
-  {
+{
     id: 626,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10554,7 +10362,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Restore the lighthouse flame and use Yrden against the penitent wraith.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
   },
-  {
+{
     id: 627,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10570,7 +10378,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An early contract that teaches monster tracking with Witcher Senses.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
   },
-  {
+{
     id: 628,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10586,7 +10394,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
   },
-  {
+{
     id: 629,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10602,7 +10410,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the attacks first — the true culprit isn't the obvious one.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
   },
-  {
+{
     id: 630,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10618,7 +10426,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
   },
-  {
+{
     id: 631,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10634,7 +10442,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
   },
-  {
+{
     id: 632,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10650,7 +10458,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
   },
-  {
+{
     id: 633,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10666,7 +10474,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A well-rounded set — a safe default while you gather the specialized schools.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
   },
-  {
+{
     id: 634,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10682,7 +10490,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
   },
-  {
+{
     id: 635,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -10698,7 +10506,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dodge and counter — trading blows with the islanders is a losing game.",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
   },
-  {
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10714,7 +10522,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
   },
-  {
+{
     id: 637,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10730,7 +10538,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
   },
-  {
+{
     id: 638,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10746,7 +10554,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A relaxing collectible chain — the lore deepens the game's ecological themes.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
   },
-  {
+{
     id: 639,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10762,7 +10570,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "These are the best World Intel rewards — do the region's other intel first to unlock them.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
   },
-  {
+{
     id: 640,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10778,7 +10586,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
   },
-  {
+{
     id: 641,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10794,7 +10602,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
   },
-  {
+{
     id: 642,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10810,7 +10618,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
   },
-  {
+{
     id: 643,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10826,7 +10634,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Watch the opponent's tells and punish openings — patience beats button-mashing.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
   },
-  {
+{
     id: 644,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10842,7 +10650,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
   },
-  {
+{
     id: 645,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10858,7 +10666,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
   },
-  {
+{
     id: 646,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10874,7 +10682,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
   },
-  {
+{
     id: 647,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10890,7 +10698,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ward against earth and punish its stagger windows — a strong early summon.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
   },
-  {
+{
     id: 648,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10906,7 +10714,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
   },
-  {
+{
     id: 649,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10922,7 +10730,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "One of the toughest summon fights — max your materia and elemental resists first.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
   },
-  {
+{
     id: 650,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10938,7 +10746,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Odin's trial is a DPS race — build for maximum stagger and damage.",
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
-  {
+{
     id: 1057,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10954,7 +10762,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Upgrade your chocobo's stats and stock stat-boosting items at the racing shop before entering — the Gold Cup field is fast, so prioritize acceleration and top speed and grab every boost gate.",
     video: "https://www.youtube.com/watch?v=B8oUhHkOKak"
   },
-  {
+{
     id: 1058,
     type: "side",
     game: "Final Fantasy VII Rebirth",
@@ -10970,7 +10778,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Line up each photo spot and wait for the prompted pose before snapping — the game only accepts the shot when Red XIII strikes the exact expression the objective describes.",
     video: "https://www.youtube.com/watch?v=pIsaVCnmNNo"
   },
-  {
+{
     id: 651,
     type: "main",
     game: "God of War Ragnarök",
@@ -10986,7 +10794,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Vanaheim rewards revisiting — note favors you can't yet reach and return with new tools.",
     video: "https://www.youtube.com/watch?v=kVTnjcYGMPQ"
   },
-  {
+{
     id: 652,
     type: "main",
     game: "God of War Ragnarök",
@@ -11002,7 +10810,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A father-son turning point — the story leans into Atreus's playable sections here.",
     video: "https://www.youtube.com/watch?v=uSt9ogo2ogA"
   },
-  {
+{
     id: 653,
     type: "main",
     game: "God of War Ragnarök",
@@ -11018,7 +10826,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Muspelheim's heat and foes are brutal — upgrade armor before lingering for its trials.",
     video: "https://www.youtube.com/watch?v=NFI3XZoCYZY"
   },
-  {
+{
     id: 654,
     type: "main",
     game: "God of War Ragnarök",
@@ -11034,7 +10842,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A lore-heavy chapter tying together threads from across the realms.",
     video: "https://www.youtube.com/watch?v=vixWcqUxCTY"
   },
-  {
+{
     id: 655,
     type: "main",
     game: "God of War Ragnarök",
@@ -11050,7 +10858,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Helheim's frost enemies resist ice — favor the Blades of Chaos throughout.",
     video: "https://www.youtube.com/watch?v=-lhBfKYfoSs"
   },
-  {
+{
     id: 656,
     type: "main",
     game: "God of War Ragnarök",
@@ -11066,7 +10874,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Emotional pre-finale beat — make sure outstanding favors are done before the point of no return.",
     video: "https://www.youtube.com/watch?v=HXlc5uQSiik"
   },
-  {
+{
     id: 657,
     type: "side",
     game: "God of War Ragnarök",
@@ -11082,7 +10890,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Part of the linked 'Dead' favors — completing all of them tells a full, moving story.",
     video: "https://www.youtube.com/watch?v=au3g-1DIEd0"
   },
-  {
+{
     id: 658,
     type: "side",
     game: "God of War Ragnarök",
@@ -11098,7 +10906,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow the 'Dead' favor chain in order for the best narrative payoff.",
     video: "https://www.youtube.com/watch?v=khYpku49uQc"
   },
-  {
+{
     id: 659,
     type: "side",
     game: "God of War Ragnarök",
@@ -11114,7 +10922,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The capstone of the 'Dead' favors — a satisfying, somber resolution.",
     video: "https://www.youtube.com/watch?v=9tAXolcuKc8"
   },
-  {
+{
     id: 660,
     type: "side",
     game: "God of War Ragnarök",
@@ -11130,7 +10938,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Berserkers are optional bosses — upgrade gear first; they punish sloppy dodging.",
     video: "https://www.youtube.com/watch?v=oYgN6PXdSIo"
   },
-  {
+{
     id: 661,
     type: "side",
     game: "God of War Ragnarök",
@@ -11146,7 +10954,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Learn each Berserker's tells; parry-heavy play beats trading blows.",
     video: "https://www.youtube.com/watch?v=18niu3eyU98"
   },
-  {
+{
     id: 662,
     type: "side",
     game: "God of War Ragnarök",
@@ -11162,7 +10970,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Use the Draupnir Spear's detonations to open the collapsed passages.",
     video: "https://www.youtube.com/watch?v=H7tC-7Dy334"
   },
-  {
+{
     id: 663,
     type: "side",
     game: "God of War Ragnarök",
@@ -11185,7 +10993,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     ],
     video: "https://www.youtube.com/watch?v=HPe5WhV0LFY"
   },
-  {
+{
     id: 664,
     type: "side",
     game: "God of War Ragnarök",
@@ -11201,7 +11009,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Requires returning with the right tools — a rewarding multi-step favor.",
     video: "https://www.youtube.com/watch?v=oInYLT78d8M"
   },
-  {
+{
     id: 665,
     type: "main",
     game: "Horizon Forbidden West",
@@ -11217,7 +11025,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Cauldrons end in a boss machine — clearing them expands your override roster.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
   },
-  {
+{
     id: 666,
     type: "main",
     game: "Horizon Forbidden West",
@@ -11233,7 +11041,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Upgrade your best weapons before this stretch — the fights escalate sharply.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Second%20Verse%20walkthrough"
   },
-  {
+{
     id: 667,
     type: "main",
     game: "Horizon Forbidden West",
@@ -11249,7 +11057,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Finish side quests and errands now — the finale is close after this.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
   },
-  {
+{
     id: 668,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11265,7 +11073,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An Old World facility puzzle — use the Pullcaster and scan for power routes.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Deluge%20walkthrough"
   },
-  {
+{
     id: 669,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11281,7 +11089,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A charming quest with a memorable set piece — light on combat.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Lofty%20Ambitions%20walkthrough"
   },
-  {
+{
     id: 670,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11297,7 +11105,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Scan the affected machines to trace the fault to its source.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Roots%20that%20Bind%20walkthrough"
   },
-  {
+{
     id: 671,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11313,7 +11121,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A character-focused quest that deepens a key companion bond.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20First%20to%20Fly%20walkthrough"
   },
-  {
+{
     id: 672,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11329,7 +11137,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Lore-rich — the datapoints connect the Forbidden West to Aloy's homeland.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signals%20of%20the%20Sun%20walkthrough"
   },
-  {
+{
     id: 673,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11345,7 +11153,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Hear both sides out — the resolution hinges on your judgment.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Bad%20Blood%20walkthrough"
   },
-  {
+{
     id: 674,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11361,7 +11169,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Upgrade the diving mask first — deeper sections need the breath extension.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Drowned%20Hopes%20walkthrough"
   },
-  {
+{
     id: 675,
     type: "side",
     game: "Horizon Forbidden West",
@@ -11377,7 +11185,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A gentle character beat — a nice breather between major missions.",
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Way%20Home%20walkthrough"
   },
-  {
+{
     id: 676,
     type: "side",
     category: "Confidants",
@@ -11393,7 +11201,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "His confidant perks add powerful assist moves — level him for tougher palaces.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
   },
-  {
+{
     id: 677,
     type: "side",
     category: "Confidants",
@@ -11409,7 +11217,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Her Follow Up and healing perks are excellent — a high-value confidant to max.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
   },
-  {
+{
     id: 678,
     type: "side",
     category: "Confidants",
@@ -11425,7 +11233,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Her rooftop garden yields SP-recovery veggies — great for palace stamina.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
   },
-  {
+{
     id: 679,
     type: "side",
     category: "Confidants",
@@ -11441,7 +11249,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An easy early confidant — his perks smooth out the whole early game.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
   },
-  {
+{
     id: 680,
     type: "side",
     category: "Confidants",
@@ -11457,7 +11265,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progresses automatically with the plot — pays off in the game's climax.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
   },
-  {
+{
     id: 681,
     type: "side",
     category: "Mementos Requests",
@@ -11473,7 +11281,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Send the calling card once you've cleared the target's Mementos floor.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Man%20of%20Plans%20and%20Capital%20walkthrough"
   },
-  {
+{
     id: 682,
     type: "side",
     category: "Mementos Requests",
@@ -11489,7 +11297,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Exploit the shadow's weakness for a quick, clean Hold Up.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20A%20Bounty%20Hunter%20Scorned%20walkthrough"
   },
-  {
+{
     id: 683,
     type: "side",
     category: "Mementos Requests",
@@ -11505,7 +11313,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A morally grey request — the reward and lore make it worth the trip.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Lockdown%20Hero%20walkthrough"
   },
-  {
+{
     id: 684,
     type: "side",
     category: "Mementos Requests",
@@ -11521,7 +11329,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Time it after the relevant confidant hint appears for the fullest story.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Illustrious%20Blackmailer%20walkthrough"
   },
-  {
+{
     id: 685,
     type: "side",
     category: "Activities",
@@ -11537,7 +11345,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Darts raises Baton Pass rank; Jazz Jin recovers SP for two party members — both huge.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
   },
-  {
+{
     id: 686,
     type: "side",
     category: "Activities",
@@ -11553,7 +11361,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A relaxing meta-hub — collect trophies and models as you progress the story.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
   },
-  {
+{
     id: 687,
     type: "side",
     category: "Confidants",
@@ -11569,7 +11377,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "His SP-restoring brews and dishes are invaluable for long palace runs.",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
   },
-  {
+{
     id: 688,
     type: "main",
     category: "Jin's Journey",
@@ -11586,7 +11394,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An early Act 1 tale — rescuing allies expands your support network.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
   },
-  {
+{
     id: 689,
     type: "main",
     category: "Jin's Journey",
@@ -11603,7 +11411,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The hook is a major traversal upgrade — grab it before exploring the peaks.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
   },
-  {
+{
     id: 690,
     type: "main",
     category: "Jin's Journey",
@@ -11620,7 +11428,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Unlocks key Ghost weapons — a turning point in Jin's tactics.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
   },
-  {
+{
     id: 691,
     type: "main",
     category: "Jin's Journey",
@@ -11637,7 +11445,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An emotionally charged duel — sharpen your parry timing beforehand.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
   },
-  {
+{
     id: 692,
     type: "main",
     category: "Jin's Journey",
@@ -11654,7 +11462,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A large-scale assault — use stealth to thin the garrison before going loud.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
   },
-  {
+{
     id: 693,
     type: "main",
     category: "Jin's Journey",
@@ -11671,7 +11479,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The Ghost's terror tactics come into full force — lean into fear-based play.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
   },
-  {
+{
     id: 694,
     type: "main",
     category: "Jin's Journey",
@@ -11688,7 +11496,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
   },
-  {
+{
     id: 695,
     type: "main",
     category: "Jin's Journey",
@@ -11705,7 +11513,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follows the main finale; your defining choice colors this epilogue.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
   },
-  {
+{
     id: 696,
     type: "side",
     category: "Tales of Iki",
@@ -11722,7 +11530,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The Eagle's hallucinations are unique encounters — steel yourself for the trippy set pieces.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
   },
-  {
+{
     id: 697,
     type: "side",
     category: "Tales of Iki",
@@ -11739,7 +11547,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tough finale duel — the Eagle's mind-games make it as much mental as mechanical.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
   },
-  {
+{
     id: 698,
     type: "side",
     category: "Exploration",
@@ -11756,7 +11564,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Relaxing rhythm minigames — a lovely break from the fighting.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
   },
-  {
+{
     id: 699,
     type: "side",
     category: "Tales of Tsushima",
@@ -11773,7 +11581,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Part of the Unbending Archer questline; verify against a guide if replaying.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
-  {
+{
     id: 700,
     type: "main",
     category: "Main Story",
@@ -11790,7 +11598,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
     video: "https://www.youtube.com/watch?v=C3BYlUF7S4A"
   },
-  {
+{
     id: 701,
     type: "main",
     category: "Main Story",
@@ -11807,7 +11615,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Levioso suspends enemies — a key combat opener you'll use constantly.",
     video: "https://www.youtube.com/watch?v=isCGCWNLuJo"
   },
-  {
+{
     id: 702,
     type: "main",
     category: "Main Story",
@@ -11824,7 +11632,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
     video: "https://www.youtube.com/watch?v=A7EKUPK6-Po"
   },
-  {
+{
     id: 703,
     type: "main",
     category: "Main Story",
@@ -11841,7 +11649,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
     video: "https://www.youtube.com/watch?v=9MREmSZDN6M"
   },
-  {
+{
     id: 704,
     type: "main",
     category: "Main Story",
@@ -11858,7 +11666,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
     video: "https://www.youtube.com/watch?v=2ClxjV7kCp8"
   },
-  {
+{
     id: 705,
     type: "main",
     category: "Main Story",
@@ -11875,7 +11683,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
     video: "https://www.youtube.com/watch?v=p5CTz7oNuDE"
   },
-  {
+{
     id: 706,
     type: "main",
     category: "Main Story",
@@ -11892,7 +11700,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An early Highlands quest that opens up exploration and goblin-plot context.",
     video: "https://www.youtube.com/watch?v=ATRG5YtogNQ"
   },
-  {
+{
     id: 707,
     type: "main",
     category: "Main Story",
@@ -11909,7 +11717,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
     video: "https://www.youtube.com/watch?v=0PNpg9xizUo"
   },
-  {
+{
     id: 708,
     type: "main",
     category: "Main Story",
@@ -11926,7 +11734,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advances the game's darkest arc — the moral choices intensify from here.",
     video: "https://www.youtube.com/watch?v=3HVWihCCfso"
   },
-  {
+{
     id: 709,
     type: "side",
     category: "Side Quest",
@@ -11950,7 +11758,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "Loot the nearby chests and claim your reward before leaving."
     ]
   },
-  {
+{
     id: 710,
     type: "side",
     category: "Side Quest",
@@ -11967,7 +11775,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "Pairs with Demiguise Statue collection — do them together at night.",
     video: "https://www.youtube.com/watch?v=S0vvmB-he4A"
   },
-  {
+{
     id: 711,
     type: "side",
     category: "Side Quest",
@@ -11984,7 +11792,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "Introduces beast-catching — the foundation for Vivarium upgrades.",
     video: "https://www.youtube.com/watch?v=SG9_r_upWac"
   },
-  {
+{
     id: 712,
     type: "side",
     category: "Side Quest",
@@ -12001,7 +11809,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "A light puzzle quest — Revelio and a keen eye for detail solve it.",
     video: "https://www.youtube.com/watch?v=hKcns2obqjI"
   },
-  {
+{
     id: 713,
     type: "side",
     category: "Side Quest",
@@ -12018,7 +11826,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "A flying-focused quest — great practice before the broom races.",
     video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
   },
-  {
+{
     id: 714,
     type: "side",
     category: "Challenges",
@@ -12035,7 +11843,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "Great for practicing spell combos safely — the rewards feed your build.",
     video: "https://www.youtube.com/watch?v=K5B2B59pLOw"
   },
-  {
+{
     id: 716,
     type: "side",
     category: "Side Quest",
@@ -12052,7 +11860,7 @@ video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
       "A quieter, eerie side quest — read the environmental clues.",
     video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
   },
-  {
+{
     id: 717,
     type: "side",
     category: "Side Quest",
@@ -12076,455 +11884,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Finish clearing the site to complete the quest and secure the poacher intel."
     ]
   },
-  {
-    id: 718,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Regalith Grand Cathedral",
-    location: "Grand Trad",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Story start, first Archetype awakening",
-    summary:
-      "The assassination of the king sets the race for the throne in motion; the protagonist and Gallica infiltrate the capital's grand cathedral.",
-    aiTip:
-      "The tutorial dungeon — learn the Archetype (class) system and Synthesis attacks here.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Regalith%20Grand%20Cathedral%20walkthrough"
-  },
-  {
-    id: 719,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Belega Corridor",
-    location: "Route to Martira",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Gauntlet Runner travel, party growth",
-    summary:
-      "The party journeys aboard the Gauntlet Runner, clearing the monster-infested Belega Corridor on the road to Martira.",
-    aiTip:
-      "Manage travel-day time carefully — the calendar system rewards planning like Persona.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Belega%20Corridor%20walkthrough"
-  },
-  {
-    id: 720,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Tradia Desert",
-    location: "Martira Region",
-    length: "long",
-    difficulty: "High",
-    reward: "Louis confrontation lead, Archetypes",
-    summary:
-      "Cross the harsh Tradia Desert and its ruins as the election tournament and Louis's shadow loom.",
-    aiTip:
-      "Bring wind/fire coverage and watch for the desert's tough optional bosses.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Tradia%20Desert%20walkthrough"
-  },
-  {
-    id: 721,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Abandoned Tomb",
-    location: "Martira Region",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression, new Archetypes",
-    summary:
-      "Delve into an ancient abandoned tomb tied to the history of the fantasy novel that shapes the world.",
-    aiTip:
-      "A lore-heavy dungeon — the Archetype lineage rewards here are strong upgrades.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Abandoned%20Tomb%20walkthrough"
-  },
-  {
-    id: 722,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Giant Sandworm's Belly",
-    location: "Tradia Desert",
-    length: "long",
-    difficulty: "High",
-    reward: "Escape sequence, party bond",
-    summary:
-      "Swallowed whole, the party must fight their way out of a colossal sandworm from the inside.",
-    aiTip:
-      "A memorable set-piece dungeon — keep healing items topped up for the escape.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Giant%20Sandworm's%20Belly%20walkthrough"
-  },
-  {
-    id: 723,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Giant Sandworm's Nest",
-    location: "Tradia Desert",
-    length: "long",
-    difficulty: "High",
-    reward: "Sandworm threat ended, gear",
-    summary:
-      "Track the sandworms to their nest to end the threat menacing the desert region.",
-    aiTip:
-      "Exploit the brood's shared weakness and use Synthesis skills to clear packs.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Giant%20Sandworm's%20Nest%20walkthrough"
-  },
-  {
-    id: 724,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Kriegante Castle",
-    location: "Kriegante",
-    length: "long",
-    difficulty: "High",
-    reward: "Faction confrontation, story turn",
-    summary:
-      "Storm the fortress of Kriegante as the throne race turns violent and alliances fracture.",
-    aiTip:
-      "A boss-dense castle — swap Archetypes to counter each guardian's element.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Kriegante%20Castle%20walkthrough"
-  },
-  {
-    id: 725,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Dragon Temple",
-    location: "Skanda",
-    length: "long",
-    difficulty: "High",
-    reward: "Royal magic trial, near-finale",
-    summary:
-      "Undertake the sacred Dragon Temple trial to prove worthiness for the throne.",
-    aiTip:
-      "Late-game difficulty spike — max your Archetype masteries before entering.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Dragon%20Temple%20walkthrough"
-  },
-  {
-    id: 726,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Skybound Avatar",
-    location: "Final Region",
-    length: "long",
-    difficulty: "High",
-    reward: "Finale, the true king revealed",
-    summary:
-      "The climactic ascent to confront the source of the kingdom's despair and claim the future.",
-    aiTip:
-      "The finale is a multi-phase gauntlet — bring your strongest Archetype lineages and items.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Skybound%20Avatar%20walkthrough"
-  },
-  {
-    id: 727,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Gallica",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Gallica. Your fairy companion whose fate is bound to the protagonist's journey.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Gallica%20walkthrough"
-  },
-  {
-    id: 728,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Strohl",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Strohl. The noble-hearted swordsman who becomes your first steadfast ally.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Strohl%20walkthrough"
-  },
-  {
-    id: 729,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Hulkenberg",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Hulkenberg. The dutiful knight sworn to protect the prince — and now you.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Hulkenberg%20walkthrough"
-  },
-  {
-    id: 730,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Heismay",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Heismay. The wary eugief elder whose past hides a tragic mystery.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Heismay%20walkthrough"
-  },
-  {
-    id: 731,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Junah",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Junah. The enigmatic singer with a hidden agenda and a powerful voice.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Junah%20walkthrough"
-  },
-  {
-    id: 732,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Eupha",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Eupha. The soft-spoken mystic of a persecuted tribe seeking peace.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Eupha%20walkthrough"
-  },
-  {
-    id: 733,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Basilio",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Basilio. The battle-hardened mercenary with a surprising philosophical streak.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Basilio%20walkthrough"
-  },
-  {
-    id: 734,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: More",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with More. Your loyal Gauntlet Runner driver and tactical support.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20More%20walkthrough"
-  },
-  {
-    id: 735,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Maria",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Maria. A kind healer at the clinic whose bond restores the party's spirit.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Maria%20walkthrough"
-  },
-  {
-    id: 736,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Brigitta",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Brigitta. The ambitious merchant whose network opens up rare goods.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Brigitta%20walkthrough"
-  },
-  {
-    id: 737,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Catherina",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Catherina. The recruitment-center manager who connects you with bounties and allies.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Catherina%20walkthrough"
-  },
-  {
-    id: 738,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Neuras",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Neuras. The eccentric engineer who upgrades the Gauntlet Runner.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Neuras%20walkthrough"
-  },
-  {
-    id: 739,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Alonzo",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Alonzo. The slippery informant whose loyalties are never quite clear.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Alonzo%20walkthrough"
-  },
-  {
-    id: 740,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Follower Bond: Bardon",
-    location: "Grand Trad / travels",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlocks, combat & social perks",
-    summary:
-      "Deepen your bond with Bardon. The gruff military man who respects strength and resolve.",
-    aiTip:
-      "Raise their Bond rank for new Archetype lineages and dialogue — Metaphor's take on Persona's Confidants.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Follower%20Bond%3A%20Bardon%20walkthrough"
-  },
-  {
-    id: 741,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Bounty: The Man-Eater in the Mine",
-    location: "Recruitment Center",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Bounty reward, rare materials",
-    summary:
-      "Hunt the alpha Rockworm Valvo lurking in the Man-Eater's Grotto.",
-    aiTip:
-      "Bounties are posted at recruitment centers — bring elemental coverage for the boss.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20The%20Man-Eater%20in%20the%20Mine%20walkthrough"
-  },
-  {
-    id: 742,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Bounty: The New King of the Imps",
-    location: "Recruitment Center",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Bounty reward, coin",
-    summary:
-      "Clear out the Imp's Den and slay the cunning beast that rules it.",
-    aiTip:
-      "A quick bounty — exploit the imps' weakness for a fast clear.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20The%20New%20King%20of%20the%20Imps%20walkthrough"
-  },
-  {
-    id: 743,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Bounty: Man's Not-So-Best Friend",
-    location: "Recruitment Center",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Bounty reward, gear",
-    summary:
-      "Defeat the monstrous beast prowling the depths of the Tradia Desert.",
-    aiTip:
-      "Accept from the recruitment center; a mid-tier bounty with a solid payout.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bounty%3A%20Man's%20Not-So-Best%20Friend%20walkthrough"
-  },
-  {
-    id: 744,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Requests & Favours",
-    location: "Towns & Recruitment Centers",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, items, follower progress",
-    summary:
-      "Take on the townsfolk's Requests and Favours — fetch tasks, escorts, and small hunts.",
-    aiTip:
-      "Many requests gate Follower bond progress — clear them as they appear.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Requests%20%26%20Favours%20walkthrough"
-  },
-  {
-    id: 745,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "The King's Trials (Virtue Trials)",
-    location: "Various",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Royal Virtue growth, Archetype boosts",
-    summary:
-      "Complete the trials that test the five Royal Virtues (Courage, Wisdom, Tolerance, etc.).",
-    aiTip:
-      "Raising Royal Virtues unlocks better Archetypes and key dialogue options.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20King's%20Trials%20(Virtue%20Trials)%20walkthrough"
-  },
-  {
+{
     id: 746,
     type: "main",
     game: "Demon's Souls",
@@ -12547,7 +11907,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
   },
-  {
+{
     id: 747,
     type: "main",
     game: "Demon's Souls",
@@ -12571,7 +11931,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
   },
-  {
+{
     id: 748,
     type: "main",
     game: "Demon's Souls",
@@ -12595,7 +11955,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
   },
-  {
+{
     id: 749,
     type: "main",
     game: "Demon's Souls",
@@ -12619,7 +11979,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
   },
-  {
+{
     id: 750,
     type: "main",
     game: "Demon's Souls",
@@ -12643,7 +12003,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
   },
-  {
+{
     id: 751,
     type: "main",
     game: "Demon's Souls",
@@ -12667,7 +12027,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
   },
-  {
+{
     id: 752,
     type: "main",
     game: "Demon's Souls",
@@ -12691,7 +12051,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
   },
-  {
+{
     id: 753,
     type: "side",
     game: "Demon's Souls",
@@ -12715,7 +12075,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
   },
-  {
+{
     id: 754,
     type: "side",
     game: "Demon's Souls",
@@ -12739,7 +12099,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
   },
-  {
+{
     id: 755,
     type: "side",
     game: "Demon's Souls",
@@ -12763,7 +12123,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
   },
-  {
+{
     id: 756,
     type: "main",
     game: "Pillars of Eternity",
@@ -12785,7 +12145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Moment's%20Respite%20walkthrough"
   },
-  {
+{
     id: 757,
     type: "main",
     game: "Pillars of Eternity",
@@ -12807,7 +12167,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Gilded%20Vale%20%26%20Raedric's%20Hold%20walkthrough"
   },
-  {
+{
     id: 758,
     type: "main",
     game: "Pillars of Eternity",
@@ -12829,7 +12189,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Building%20a%20Fortress%3A%20Caed%20Nua%20walkthrough"
   },
-  {
+{
     id: 759,
     type: "main",
     game: "Pillars of Eternity",
@@ -12851,7 +12211,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hermit%20of%20Hadret%20House%20walkthrough"
   },
-  {
+{
     id: 760,
     type: "main",
     game: "Pillars of Eternity",
@@ -12873,7 +12233,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Champion%20of%20Berath%20%2F%20Faction%20War%20walkthrough"
   },
-  {
+{
     id: 761,
     type: "main",
     game: "Pillars of Eternity",
@@ -12895,7 +12255,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunt%20for%20Thaos%3A%20Twin%20Elms%20walkthrough"
   },
-  {
+{
     id: 762,
     type: "main",
     game: "Pillars of Eternity",
@@ -12917,7 +12277,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sun%20in%20Shadow%20walkthrough"
   },
-  {
+{
     id: 763,
     type: "side",
     game: "Pillars of Eternity",
@@ -12939,7 +12299,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Fragments%20of%20a%20Scattered%20Faith%20walkthrough"
   },
-  {
+{
     id: 764,
     type: "side",
     game: "Pillars of Eternity",
@@ -12961,7 +12321,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20Two-Sided%20walkthrough"
   },
-  {
+{
     id: 765,
     type: "side",
     game: "Pillars of Eternity",
@@ -12983,7 +12343,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20The%20Long%20Hunt%20walkthrough"
   },
-  {
+{
     id: 766,
     type: "side",
     game: "Pillars of Eternity",
@@ -13005,7 +12365,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Child%20of%20Five%20Suns%20walkthrough"
   },
-  {
+{
     id: 767,
     type: "side",
     game: "Pillars of Eternity",
@@ -13027,7 +12387,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Dream%20and%20Memory%20walkthrough"
   },
-  {
+{
     id: 768,
     type: "side",
     game: "Pillars of Eternity",
@@ -13049,7 +12409,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
   },
-  {
+{
     id: 769,
     type: "side",
     game: "Pillars of Eternity",
@@ -13071,7 +12431,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20He%20Waits%20in%20Fire%20walkthrough"
   },
-  {
+{
     id: 770,
     type: "side",
     game: "Pillars of Eternity",
@@ -13093,7 +12453,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Cragholdt%20Bluffs%20walkthrough"
   },
-  {
+{
     id: 771,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13109,7 +12469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The prologue reunites you with old companions and sets your soul-bond stakes for the game.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
   },
-  {
+{
     id: 772,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13125,7 +12485,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Neketaka is the hub — recruit crew, upgrade the Defiant, and pick up faction and companion quests.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
   },
-  {
+{
     id: 773,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13141,7 +12501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Which faction you help here begins to steer the archipelago's fate.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20walkthrough"
   },
-  {
+{
     id: 774,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13157,7 +12517,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A major turning point — your faction allegiance shapes who stands with you.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
   },
-  {
+{
     id: 775,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13173,7 +12533,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Requires a faction's help to cross — the endgame branches hard on your choices.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
   },
-  {
+{
     id: 776,
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
@@ -13189,7 +12549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The ending weighs the gods, the mortal world, and your faction — save before the final talks.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
   },
-  {
+{
     id: 777,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13205,7 +12565,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "One of four mutually-exclusive faction paths to the finale — pick the vision you believe in.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
   },
-  {
+{
     id: 778,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13221,7 +12581,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Aligning with the VTC alienates rival factions — choose deliberately.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
   },
-  {
+{
     id: 779,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13237,7 +12597,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The most freewheeling faction — great for a swashbuckling captain playthrough.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Pr%C3%ADncipi%20sen%20Patrena%20walkthrough"
   },
-  {
+{
     id: 780,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13253,7 +12613,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A colonizing power path with hard moral trade-offs; your choices color the ending.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
   },
-  {
+{
     id: 781,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13269,7 +12629,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A warm, human arc amid the divine stakes — worth doing before the finale.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
   },
-  {
+{
     id: 782,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13285,7 +12645,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Ship-combat friendly — chase the target across the seas with the Defiant.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
-  {
+{
     id: 783,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13301,7 +12661,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Her loyalty to Rauatai can clash with the Watcher's conscience — your input shapes her ending.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
   },
-  {
+{
     id: 784,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13317,7 +12677,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A charismatic arc exploring the Huana's caste system and divine blood.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
   },
-  {
+{
     id: 785,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13333,7 +12693,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A darkly imaginative DLC — bring cold resistance and a high-level party.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
   },
-  {
+{
     id: 786,
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
@@ -13349,7 +12709,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A combat-focused DLC — ideal for testing a min-maxed party build.",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
   },
-  {
+{
     id: 787,
     type: "side",
     category: "Side Quest",
@@ -13374,7 +12734,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
   },
-  {
+{
     id: 788,
     type: "main",
     category: "Main Story",
@@ -13399,7 +12759,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
   },
-  {
+{
     id: 789,
     type: "side",
     category: "Side Quest",
@@ -13424,7 +12784,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
   },
-  {
+{
     id: 790,
     type: "side",
     category: "Side Quest",
@@ -13449,7 +12809,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
   },
-  {
+{
     id: 791,
     type: "side",
     category: "Companion",
@@ -13474,7 +12834,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
   },
-  {
+{
     id: 792,
     type: "side",
     category: "Companion",
@@ -13499,7 +12859,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
   },
-  {
+{
     id: 793,
     type: "side",
     category: "Side Quest",
@@ -13524,7 +12884,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
   },
-  {
+{
     id: 794,
     type: "side",
     category: "Side Quest",
@@ -13549,7 +12909,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
   },
-  {
+{
     id: 795,
     type: "side",
     category: "Side Quest",
@@ -13574,7 +12934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
   },
-  {
+{
     id: 796,
     type: "side",
     category: "Side Quest",
@@ -13599,7 +12959,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
   },
-  {
+{
     id: 797,
     type: "side",
     category: "Companion",
@@ -13624,7 +12984,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
   },
-  {
+{
     id: 798,
     type: "side",
     category: "Side Quest",
@@ -13649,7 +13009,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
   },
-  {
+{
     id: 799,
     type: "side",
     category: "Side Quest",
@@ -13674,7 +13034,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
   },
-  {
+{
     id: 800,
     type: "side",
     category: "Side Quest",
@@ -13699,7 +13059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
   },
-  {
+{
     id: 801,
     type: "side",
     category: "Side Quest",
@@ -13724,7 +13084,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Chosen%3A%20Orin%20%26%20Gortash%20walkthrough"
   },
-  {
+{
     id: 802,
     type: "side",
     category: "Companion",
@@ -13749,7 +13109,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
   },
-  {
+{
     id: 803,
     type: "side",
     category: "Side Quest",
@@ -13774,7 +13134,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
   },
-  {
+{
     id: 804,
     type: "main",
     game: "Elden Ring",
@@ -13798,7 +13158,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
   },
-  {
+{
     id: 805,
     type: "main",
     game: "Elden Ring",
@@ -13821,7 +13181,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
   },
-  {
+{
     id: 806,
     type: "main",
     game: "Elden Ring",
@@ -13844,7 +13204,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
   },
-  {
+{
     id: 807,
     type: "side",
     game: "Elden Ring",
@@ -13867,7 +13227,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
   },
-  {
+{
     id: 808,
     type: "side",
     game: "Elden Ring",
@@ -13890,7 +13250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
   },
-  {
+{
     id: 809,
     type: "side",
     game: "Elden Ring",
@@ -13913,7 +13273,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
   },
-  {
+{
     id: 810,
     type: "side",
     game: "Elden Ring",
@@ -13936,7 +13296,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
   },
-  {
+{
     id: 811,
     type: "side",
     game: "Elden Ring",
@@ -13959,7 +13319,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
   },
-  {
+{
     id: 812,
     type: "side",
     game: "Elden Ring",
@@ -13982,7 +13342,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
   },
-  {
+{
     id: 813,
     type: "side",
     game: "Elden Ring",
@@ -14005,7 +13365,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
   },
-  {
+{
     id: 814,
     type: "side",
     game: "Elden Ring",
@@ -14028,7 +13388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
   },
-  {
+{
     id: 815,
     type: "side",
     game: "Elden Ring",
@@ -14051,7 +13411,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
   },
-  {
+{
     id: 816,
     type: "side",
     game: "Elden Ring",
@@ -14074,7 +13434,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
   },
-  {
+{
     id: 817,
     type: "side",
     game: "Elden Ring",
@@ -14097,7 +13457,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
   },
-  {
+{
     id: 818,
     type: "main",
     game: "Elden Ring",
@@ -14120,7 +13480,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
   },
-  {
+{
     id: 819,
     type: "main",
     game: "Elden Ring",
@@ -14143,7 +13503,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
   },
-  {
+{
     id: 820,
     type: "main",
     game: "Elden Ring",
@@ -14166,7 +13526,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
   },
-  {
+{
     id: 821,
     type: "main",
     game: "Elden Ring",
@@ -14189,7 +13549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
   },
-  {
+{
     id: 822,
     type: "side",
     game: "Elden Ring",
@@ -14212,7 +13572,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
   },
-  {
+{
     id: 823,
     type: "side",
     game: "Elden Ring",
@@ -14235,7 +13595,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
   },
-  {
+{
     id: 824,
     type: "side",
     game: "Elden Ring",
@@ -14258,7 +13618,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
   },
-  {
+{
     id: 825,
     type: "side",
     game: "Elden Ring",
@@ -14281,7 +13641,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
   },
-  {
+{
     id: 826,
     type: "main",
     game: "Elden Ring",
@@ -14304,7 +13664,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
   },
-  {
+{
     id: 827,
     type: "side",
     game: "Elden Ring",
@@ -14327,7 +13687,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
   },
-  {
+{
     id: 828,
     type: "side",
     game: "Elden Ring",
@@ -14350,7 +13710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
   },
-  {
+{
     id: 1011,
     type: "main",
     game: "Elden Ring",
@@ -14376,7 +13736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
   },
-  {
+{
     id: 1012,
     type: "side",
     game: "Elden Ring",
@@ -14399,7 +13759,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
   },
-  {
+{
     id: 1013,
     type: "side",
     game: "Elden Ring",
@@ -14422,7 +13782,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
   },
-  {
+{
     id: 1014,
     type: "side",
     game: "Elden Ring",
@@ -14445,7 +13805,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
   },
-  {
+{
     id: 1015,
     type: "side",
     game: "Elden Ring",
@@ -14468,7 +13828,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
   },
-  {
+{
     id: 1016,
     type: "side",
     game: "Elden Ring",
@@ -14491,7 +13851,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
   },
-  {
+{
     id: 1017,
     type: "side",
     game: "Elden Ring",
@@ -14514,7 +13874,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
   },
-  {
+{
     id: 1018,
     type: "side",
     game: "Elden Ring",
@@ -14537,7 +13897,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
   },
-  {
+{
     id: 1019,
     type: "side",
     game: "Elden Ring",
@@ -14560,7 +13920,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
   },
-  {
+{
     id: 1020,
     type: "side",
     game: "Elden Ring",
@@ -14583,7 +13943,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
   },
-  {
+{
     id: 1021,
     type: "side",
     game: "Elden Ring",
@@ -14606,7 +13966,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
   },
-  {
+{
     id: 1022,
     type: "side",
     game: "Elden Ring",
@@ -14629,7 +13989,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
   },
-  {
+{
     id: 1023,
     type: "side",
     game: "Elden Ring",
@@ -14652,7 +14012,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
   },
-  {
+{
     id: 1024,
     type: "side",
     game: "Elden Ring",
@@ -14675,7 +14035,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
   },
-  {
+{
     id: 1025,
     type: "side",
     game: "Elden Ring",
@@ -14698,7 +14058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
   },
-  {
+{
     id: 1026,
     type: "side",
     game: "Elden Ring",
@@ -14721,7 +14081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
   },
-  {
+{
     id: 829,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14737,7 +14097,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge its ground-slams and punish the long recovery; absorb its spirit for a useful skill.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Wandering%20Wight%20walkthrough"
   },
-  {
+{
     id: 830,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14753,7 +14113,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "His fire combos are relentless — stay mobile and strike between his lunges.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangzhi%20%26%20the%20Wolf%20Vanguard%20walkthrough"
   },
-  {
+{
     id: 831,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14769,7 +14129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A tougher optional fight — bring focus and the right stance for its quick strikes.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Elder%20Jinchi%20(Lingxuzi)%20walkthrough"
   },
-  {
+{
     id: 832,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14785,7 +14145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch for poison; keep healing gourd charges ready for the drawn-out fight.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20walkthrough"
   },
-  {
+{
     id: 833,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14801,7 +14161,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "One of the game's iconic hard fights — learn his charge and counter with immobilize.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Tiger%20Vanguard%20walkthrough"
   },
-  {
+{
     id: 834,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14817,7 +14177,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Aerial and dashing attacks abound — punish after his dive and keep your distance otherwise.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Kang-Jin%20Loong%20walkthrough"
   },
-  {
+{
     id: 835,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14833,7 +14193,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Its armor shrugs off light hits — use heavy stance combos and dodge the shockwaves.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Stone%20Vanguard%20walkthrough"
   },
-  {
+{
     id: 836,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14849,7 +14209,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Macaque%20Chief%20(Non-Void)%20walkthrough"
   },
-  {
+{
     id: 837,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14865,7 +14225,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sound-based attacks telegraph slowly — dodge in and punish the wind-up.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Captain%20Wise-Voice%20walkthrough"
   },
-  {
+{
     id: 838,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14881,7 +14241,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Yakshas%20of%20the%20Pagoda%20walkthrough"
   },
-  {
+{
     id: 839,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14897,7 +14257,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Poison stacks fast — cleanse often and burst her down during openings.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Violet%20Spider%20(Second%20Sister)%20walkthrough"
   },
-  {
+{
     id: 840,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14913,7 +14273,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Split your attention carefully — immobilize one while you focus the other.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
   },
-  {
+{
     id: 841,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14929,7 +14289,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20walkthrough"
   },
-  {
+{
     id: 842,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14945,7 +14305,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring fire resistance and rotate stances to break each sage's guard.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
   },
-  {
+{
     id: 843,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14961,7 +14321,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A huge stone brute — bait its slams, then unload heavy combos on the openings.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Giant%20Shigandang%20walkthrough"
   },
-  {
+{
     id: 844,
     type: "side",
     game: "Black Myth: Wukong",
@@ -14977,7 +14337,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Late-game difficulty — max your spells, gourd, and transformations before the finale.",
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
   },
-  {
+{
     id: 845,
     type: "side",
     category: "Assignment",
@@ -14994,7 +14354,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Buy a Mandrake seed from the Magic Neep in Hogsmeade if you don't have one.",
     video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
   },
-  {
+{
     id: 846,
     type: "side",
     category: "Assignment",
@@ -15011,7 +14371,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Equip the Chomping Cabbage to your plant slot and throw it into groups.",
     video: "https://www.youtube.com/watch?v=U0npnqpDxYU"
   },
-  {
+{
     id: 847,
     type: "side",
     category: "Assignment",
@@ -15028,7 +14388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Levioso first, then basic-cast while they float to chain the requirement.",
     video: "https://www.youtube.com/watch?v=4ZSWj7lf4Is"
   },
-  {
+{
     id: 848,
     type: "side",
     category: "Assignment",
@@ -15045,7 +14405,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Protego to block, then immediately Stupefy the staggered enemy.",
     video: "https://www.youtube.com/watch?v=L3VgmITSCQc"
   },
-  {
+{
     id: 849,
     type: "side",
     category: "Assignment",
@@ -15062,7 +14422,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Brew ahead at a Potion Station and keep one equipped before reporting back.",
     video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
   },
-  {
+{
     id: 850,
     type: "side",
     category: "Assignment",
@@ -15079,7 +14439,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Thunderbrew clears crowds fast and satisfies the combat requirement.",
     video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
   },
-  {
+{
     id: 851,
     type: "side",
     category: "Assignment",
@@ -15096,7 +14456,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete 'The Elf, the Nab-Sack, and the Loom' first to unlock the Nab-Sack.",
     video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
   },
-  {
+{
     id: 852,
     type: "side",
     category: "Assignment",
@@ -15113,7 +14473,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Accio and Wingardium Leviosa cover most of Ronen's requests.",
     video: "https://www.youtube.com/watch?v=erDLjDZ7pck"
   },
-  {
+{
     id: 853,
     type: "side",
     category: "Assignment",
@@ -15130,7 +14490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock Transformation from Weasley's earlier class before attempting.",
     video: "https://www.youtube.com/watch?v=59EtR6arBLc"
   },
-  {
+{
     id: 854,
     type: "side",
     category: "Assignment",
@@ -15147,7 +14507,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the marked locations; no combat pressure here.",
     video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
   },
-  {
+{
     id: 855,
     type: "side",
     category: "Assignment",
@@ -15164,7 +14524,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Buy a broom from Spintwitches in Hogsmeade first; boost through every ring.",
     video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
   },
-  {
+{
     id: 856,
     type: "side",
     category: "Assignment",
@@ -15181,7 +14541,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Chain speed boosts and cut corners tight to beat the timer.",
     video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
   },
-  {
+{
     id: 857,
     type: "main",
     category: "Main Story",
@@ -15198,7 +14558,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use nearby barrels and Accio to hurl objects at the troll's back.",
     video: "https://www.youtube.com/watch?v=wpqlKtoIe3Y"
   },
-  {
+{
     id: 858,
     type: "main",
     category: "Main Story",
@@ -15215,7 +14575,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Purely narrative — talk through the dialogue to open the next classes.",
     video: "https://www.youtube.com/watch?v=aC6DM7wGFck"
   },
-  {
+{
     id: 859,
     type: "main",
     category: "Main Story",
@@ -15232,7 +14592,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
     video: "https://www.youtube.com/watch?v=wj8brNiltAM"
   },
-  {
+{
     id: 860,
     type: "main",
     category: "Main Story",
@@ -15249,7 +14609,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlocks the Herbology assignments and plant loadouts.",
     video: "https://www.youtube.com/watch?v=esv5rh66SHY"
   },
-  {
+{
     id: 861,
     type: "main",
     category: "Main Story",
@@ -15266,7 +14626,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
     video: "https://www.youtube.com/watch?v=Irm6HJa2NCo"
   },
-  {
+{
     id: 862,
     type: "main",
     category: "Main Story",
@@ -15283,7 +14643,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
     video: "https://www.youtube.com/watch?v=2JlRk_8Fb2k"
   },
-  {
+{
     id: 863,
     type: "main",
     category: "Main Story",
@@ -15300,7 +14660,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Leads into unlocking the Nab-Sack and the beast vivariums.",
     video: "https://www.youtube.com/watch?v=Ka26p_TZCg8"
   },
-  {
+{
     id: 864,
     type: "main",
     category: "Main Story",
@@ -15317,7 +14677,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Demiguise Statues only appear at night — use the wait function to change time.",
     video: "https://www.youtube.com/watch?v=VwuAXrU3ImY"
   },
-  {
+{
     id: 865,
     type: "main",
     category: "Main Story",
@@ -15334,7 +14694,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
     video: "https://www.youtube.com/watch?v=xjLVii9XWeA"
   },
-  {
+{
     id: 866,
     type: "main",
     category: "Main Story",
@@ -15351,7 +14711,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlocks the Astronomy Table pairs that grant collection rewards.",
     video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
   },
-  {
+{
     id: 867,
     type: "main",
     category: "Main Story",
@@ -15368,7 +14728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A connective story beat — pursue it to reopen the trial questline.",
     video: "https://www.youtube.com/watch?v=yT7NIWbJ54g"
   },
-  {
+{
     id: 868,
     type: "main",
     category: "Main Story",
@@ -15385,7 +14745,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Flows straight out of 'The Final Repository' — save loadouts before you commit to the finale.",
     video: "https://www.youtube.com/watch?v=9u2qDvYyQ6U"
   },
-  {
+{
     id: 869,
     type: "side",
     category: "Relationship",
@@ -15402,7 +14762,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring crowd-control spells — the poacher camp comes at you in numbers.",
     video: "https://www.youtube.com/watch?v=8bxu0rvqLGM"
   },
-  {
+{
     id: 870,
     type: "side",
     category: "Relationship",
@@ -15419,7 +14779,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
     video: "https://www.youtube.com/watch?v=9U-sKO9Jrng"
   },
-  {
+{
     id: 871,
     type: "side",
     category: "Relationship",
@@ -15436,7 +14796,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The capstone of Poppy's arc — do it after her earlier beast quests.",
     video: "https://www.youtube.com/watch?v=uTsJ7ztnG1Y"
   },
-  {
+{
     id: 872,
     type: "side",
     category: "Relationship",
@@ -15453,7 +14813,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stealth with Disillusionment to gather evidence without a fight.",
     video: "https://www.youtube.com/watch?v=fSlzrxWGs9E"
   },
-  {
+{
     id: 873,
     type: "side",
     category: "Relationship",
@@ -15470,7 +14830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
     video: "https://www.youtube.com/watch?v=rh2ZIJfvf7w"
   },
-  {
+{
     id: 874,
     type: "side",
     category: "Relationship",
@@ -15487,7 +14847,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Your choices here steer whether Sebastian embraces the Dark Arts.",
     video: "https://www.youtube.com/watch?v=7jxvcaIa7zo"
   },
-  {
+{
     id: 875,
     type: "side",
     category: "Relationship",
@@ -15504,7 +14864,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A defining, irreversible choice — read every line before you answer.",
     video: "https://www.youtube.com/watch?v=KLERaAR8otA"
   },
-  {
+{
     id: 876,
     type: "side",
     category: "Side Quest",
@@ -15521,7 +14881,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
     video: "https://www.youtube.com/watch?v=DGAF0OnVd3A"
   },
-  {
+{
     id: 877,
     type: "side",
     category: "Side Quest",
@@ -15538,7 +14898,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A tough double ambush — go in over-levelled and keep your dodge ready.",
     video: "https://www.youtube.com/watch?v=ZZSiz2_Gk74"
   },
-  {
+{
     id: 878,
     type: "side",
     category: "Side Quest",
@@ -15555,7 +14915,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
     video: "https://www.youtube.com/watch?v=361e5n2gsfQ"
   },
-  {
+{
     id: 879,
     type: "side",
     category: "Side Quest",
@@ -15572,7 +14932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
     video: "https://www.youtube.com/watch?v=WfZgkpxRcNY"
   },
-  {
+{
     id: 880,
     type: "side",
     category: "Side Quest",
@@ -15596,7 +14956,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect your reward and any nearby chests to complete the quest."
     ]
   },
-  {
+{
     id: 881,
     type: "side",
     category: "Side Quest",
@@ -15613,7 +14973,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring solid AoE — the den throws several foes at you at once.",
     video: "https://www.youtube.com/watch?v=w1pW8uvI5vI"
   },
-  {
+{
     id: 882,
     type: "side",
     category: "Side Quest",
@@ -15630,7 +14990,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A light, exploration-focused quest around the castle corridors.",
     video: "https://www.youtube.com/watch?v=mGxOHI2So94"
   },
-  {
+{
     id: 883,
     type: "side",
     category: "Side Quest",
@@ -15647,7 +15007,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
     video: "https://www.youtube.com/watch?v=IH0kKjwD02M"
   },
-  {
+{
     id: 884,
     type: "side",
     category: "Side Quest",
@@ -15664,7 +15024,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
     video: "https://www.youtube.com/watch?v=EN59nPw7-v4"
   },
-  {
+{
     id: 885,
     type: "side",
     category: "Side Quest",
@@ -15681,7 +15041,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A quick, low-stakes fetch-and-talk quest.",
     video: "https://www.youtube.com/watch?v=CVz9l-5ZKZs"
   },
-  {
+{
     id: 886,
     type: "side",
     category: "Side Quest",
@@ -15698,7 +15058,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
     video: "https://www.youtube.com/watch?v=HqKe7YyvKZM"
   },
-  {
+{
     id: 887,
     type: "side",
     category: "Side Quest",
@@ -15715,7 +15075,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Available after Flying Class; boost through every ring without missing one.",
     video: "https://www.youtube.com/watch?v=USPtQaT3p28"
   },
-  {
+{
     id: 888,
     type: "side",
     category: "Side Quest",
@@ -15732,7 +15092,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
     video: "https://www.youtube.com/watch?v=ZqiBaxoGxEM"
   },
-  {
+{
     id: 889,
     type: "side",
     category: "Side Quest",
@@ -15749,7 +15109,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
     video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
   },
-  {
+{
     id: 890,
     type: "side",
     category: "Side Quest",
@@ -15766,7 +15126,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A boss-tier creature — bring Maxima potions and dodge its charge.",
     video: "https://www.youtube.com/watch?v=Z08mA1dbDU8"
   },
-  {
+{
     id: 891,
     type: "side",
     category: "Side Quest",
@@ -15783,7 +15143,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
     video: "https://www.youtube.com/watch?v=UKa-bbqFBzM"
   },
-  {
+{
     id: 892,
     type: "side",
     category: "Side Quest",
@@ -15800,7 +15160,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
     video: "https://www.youtube.com/watch?v=BerVRvSzacE"
   },
-  {
+{
     id: 893,
     type: "side",
     category: "Side Quest",
@@ -15817,7 +15177,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A short courier quest — follow the marker and hand over the goods.",
     video: "https://www.youtube.com/watch?v=Mf0j6CiaQrI"
   },
-  {
+{
     id: 894,
     type: "side",
     category: "Side Quest",
@@ -15834,7 +15194,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Combat plant reward — handy for the Herbology assignments.",
     video: "https://www.youtube.com/watch?v=lrC_NOfmqWk"
   },
-  {
+{
     id: 895,
     type: "side",
     category: "Relationship",
@@ -15851,7 +15211,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
     video: "https://www.youtube.com/watch?v=6TACQOMJyrg"
   },
-  {
+{
     id: 896,
     type: "side",
     category: "Relationship",
@@ -15868,7 +15228,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
     video: "https://www.youtube.com/watch?v=r1eqqlpF0so"
   },
-  {
+{
     id: 897,
     type: "side",
     category: "Side Quest",
@@ -15885,7 +15245,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
     video: "https://www.youtube.com/watch?v=nZSyCjh2D80"
   },
-  {
+{
     id: 898,
     type: "side",
     category: "Side Quest",
@@ -15902,7 +15262,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
     video: "https://www.youtube.com/watch?v=LUMg5EdxgCg"
   },
-  {
+{
     id: 899,
     type: "side",
     category: "Side Quest",
@@ -15919,7 +15279,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Slytherin-exclusive; a story-driven quest with a poignant finish.",
     video: "https://www.youtube.com/watch?v=M9PUMckftjQ"
   },
-  {
+{
     id: 900,
     type: "side",
     category: "Side Quest",
@@ -15936,7 +15296,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
     video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
   },
-  {
+{
     id: 901,
     type: "side",
     category: "Side Quest",
@@ -15953,7 +15313,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
     video: "https://www.youtube.com/watch?v=1Vzl5BTLths"
   },
-  {
+{
     id: 902,
     type: "side",
     category: "Side Quest",
@@ -15970,7 +15330,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A short, low-stakes favour quest around the castle.",
     video: "https://www.youtube.com/watch?v=VE0XET2jBLI"
   },
-  {
+{
     id: 903,
     type: "side",
     category: "Side Quest",
@@ -15987,7 +15347,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
     video: "https://www.youtube.com/watch?v=9rK2SV7zOmI"
   },
-  {
+{
     id: 904,
     type: "side",
     category: "Side Quest",
@@ -16004,7 +15364,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
     video: "https://www.youtube.com/watch?v=Nxs7Dl3vFfU"
   },
-  {
+{
     id: 905,
     type: "side",
     category: "Side Quest",
@@ -16021,7 +15381,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
     video: "https://www.youtube.com/watch?v=BwSwv88o6VQ"
   },
-  {
+{
     id: 906,
     type: "side",
     category: "Side Quest",
@@ -16038,7 +15398,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ring the bells in the order the owl statues indicate to complete the puzzle.",
     video: "https://www.youtube.com/watch?v=nchawQBXB10"
   },
-  {
+{
     id: 907,
     type: "main",
     category: "Main Story",
@@ -16055,7 +15415,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
     video: "https://www.youtube.com/watch?v=fE3D0ds2WsU"
   },
-  {
+{
     id: 908,
     type: "side",
     category: "Side Quest",
@@ -16072,7 +15432,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
     video: "https://www.youtube.com/watch?v=QFhMvz-HwUM"
   },
-  {
+{
     id: 909,
     type: "side",
     category: "Side Quest",
@@ -16089,7 +15449,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
     video: "https://www.youtube.com/watch?v=lY1IgeVz9Y8"
   },
-  {
+{
     id: 910,
     type: "side",
     category: "Tales of Tsushima",
@@ -16106,7 +15466,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Yuna Tale 3 of 4.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
   },
-  {
+{
     id: 911,
     type: "side",
     category: "Tales of Tsushima",
@@ -16123,7 +15483,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Yuna Tale 4 of 4.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
   },
-  {
+{
     id: 912,
     type: "side",
     category: "Tales of Tsushima",
@@ -16140,7 +15500,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ishikawa questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
   },
-  {
+{
     id: 913,
     type: "side",
     category: "Tales of Tsushima",
@@ -16157,7 +15517,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ishikawa questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
   },
-  {
+{
     id: 914,
     type: "side",
     category: "Tales of Tsushima",
@@ -16174,7 +15534,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ishikawa questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
   },
-  {
+{
     id: 915,
     type: "side",
     category: "Tales of Tsushima",
@@ -16191,7 +15551,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ishikawa questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
   },
-  {
+{
     id: 916,
     type: "side",
     category: "Tales of Tsushima",
@@ -16208,7 +15568,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ishikawa questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
   },
-  {
+{
     id: 917,
     type: "side",
     category: "Tales of Tsushima",
@@ -16225,7 +15585,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Final Ishikawa tale — completes the Unbending Archer.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
   },
-  {
+{
     id: 918,
     type: "side",
     category: "Tales of Tsushima",
@@ -16242,7 +15602,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
   },
-  {
+{
     id: 919,
     type: "side",
     category: "Tales of Tsushima",
@@ -16259,7 +15619,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
   },
-  {
+{
     id: 920,
     type: "side",
     category: "Tales of Tsushima",
@@ -16276,7 +15636,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
   },
-  {
+{
     id: 921,
     type: "side",
     category: "Tales of Tsushima",
@@ -16293,7 +15653,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale — a hard choice.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
   },
-  {
+{
     id: 922,
     type: "side",
     category: "Tales of Tsushima",
@@ -16310,7 +15670,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
   },
-  {
+{
     id: 923,
     type: "side",
     category: "Tales of Tsushima",
@@ -16327,7 +15687,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Masako revenge tale.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
   },
-  {
+{
     id: 924,
     type: "side",
     category: "Tales of Tsushima",
@@ -16344,7 +15704,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Completes the Vengeful Warrior.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
   },
-  {
+{
     id: 925,
     type: "side",
     category: "Tales of Tsushima",
@@ -16361,7 +15721,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bonus tale — unlocks after The Husband.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
   },
-  {
+{
     id: 926,
     type: "side",
     category: "Tales of Tsushima",
@@ -16378,7 +15738,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Kenji Tale 3 of 3.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
   },
-  {
+{
     id: 927,
     type: "side",
     category: "Tales of Tsushima",
@@ -16395,7 +15755,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
   },
-  {
+{
     id: 928,
     type: "side",
     category: "Tales of Tsushima",
@@ -16412,7 +15772,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
   },
-  {
+{
     id: 929,
     type: "side",
     category: "Tales of Tsushima",
@@ -16429,7 +15789,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
   },
-  {
+{
     id: 930,
     type: "side",
     category: "Tales of Tsushima",
@@ -16446,7 +15806,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
   },
-  {
+{
     id: 931,
     type: "side",
     category: "Tales of Tsushima",
@@ -16463,7 +15823,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio questline.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
   },
-  {
+{
     id: 932,
     type: "side",
     category: "Tales of Tsushima",
@@ -16480,7 +15840,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio Tale 8 of 9.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
   },
-  {
+{
     id: 933,
     type: "side",
     category: "Tales of Tsushima",
@@ -16497,7 +15857,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Completes the Warrior Monk.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
   },
-  {
+{
     id: 934,
     type: "side",
     category: "Mythic Tales",
@@ -16514,7 +15874,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   },
-  {
+{
     id: 935,
     type: "side",
     category: "Side Quest",
@@ -16541,7 +15901,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
   },
-  {
+{
     id: 936,
     type: "side",
     category: "Side Quest",
@@ -16566,7 +15926,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
   },
-  {
+{
     id: 937,
     type: "side",
     category: "Side Quest",
@@ -16591,7 +15951,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
   },
-  {
+{
     id: 938,
     type: "side",
     category: "Side Quest",
@@ -16618,7 +15978,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
   },
-  {
+{
     id: 939,
     type: "side",
     category: "Side Quest",
@@ -16643,7 +16003,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
   },
-  {
+{
     id: 940,
     type: "side",
     category: "Side Quest",
@@ -16668,7 +16028,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
   },
-  {
+{
     id: 941,
     type: "side",
     category: "Side Quest",
@@ -16693,7 +16053,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
   },
-  {
+{
     id: 942,
     type: "side",
     category: "Side Quest",
@@ -16718,7 +16078,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
   },
-  {
+{
     id: 943,
     type: "side",
     category: "Side Quest",
@@ -16743,7 +16103,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
   },
-  {
+{
     id: 944,
     type: "side",
     category: "Side Quest",
@@ -16768,7 +16128,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
   },
-  {
+{
     id: 945,
     type: "side",
     category: "Side Quest",
@@ -16793,7 +16153,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
   },
-  {
+{
     id: 946,
     type: "side",
     category: "Side Quest",
@@ -16818,7 +16178,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
   },
-  {
+{
     id: 947,
     type: "side",
     category: "Side Quest",
@@ -16843,7 +16203,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
   },
-  {
+{
     id: 948,
     type: "side",
     category: "Side Quest",
@@ -16868,7 +16228,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
   },
-  {
+{
     id: 949,
     type: "side",
     category: "Side Quest",
@@ -16893,7 +16253,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
   },
-  {
+{
     id: 950,
     type: "side",
     category: "Side Quest",
@@ -16918,7 +16278,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
   },
-  {
+{
     id: 951,
     type: "side",
     game: "God of War Ragnarök",
@@ -16934,7 +16294,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hit the red sap-vine growths to drain or flood each basin of sand, then climb the exposed structures. Free all of the Hafgufas to finish the favor and open the path to Song of the Sands' loot.",
     video: "https://www.youtube.com/watch?v=182xIugReiM"
   },
-  {
+{
     id: 952,
     type: "side",
     game: "God of War Ragnarök",
@@ -16950,7 +16310,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The camps unlock as the lake water level drops during the story, so return to Midgard mid/late-game. Save Oluf Nautson's camp for last — he is a tougher fight than the rank-and-file raiders.",
     video: "https://www.youtube.com/watch?v=gjn2zni1ArY"
   },
-  {
+{
     id: 953,
     type: "side",
     game: "God of War Ragnarök",
@@ -16966,7 +16326,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "You can only reach the Crater after the Scent of Survival favor opens it. Use Spartan Rage to break the roots binding each stag; finding all four earns the Pure of Hart trophy.",
     video: "https://www.youtube.com/watch?v=v6dCmR0ALw4"
   },
-  {
+{
     id: 954,
     type: "side",
     game: "God of War Ragnarök",
@@ -16982,7 +16342,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Change the time to night at a Celestial Altar first, or the Wisps will not appear. Aim the Blades of Chaos (L2 + R2) to pin each Wisp, then keep your distance and dodge during the fire-based Flame Phantom fight.",
     video: "https://www.youtube.com/watch?v=0xC1RQX85Qo"
   },
-  {
+{
     id: 955,
     type: "side",
     game: "God of War Ragnarök",
@@ -16998,7 +16358,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Smash the cracked rocks nearby to reach the cave, then follow the marker to the second scroll half. This chain also includes the Toy, Hourglass, Stein and Brooch — do them together while you sweep The Plains.",
     video: "https://www.youtube.com/watch?v=641Y-tmjE0I"
   },
-  {
+{
     id: 956,
     type: "side",
     game: "God of War Ragnarök",
@@ -17014,7 +16374,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat Egil the Oath Guard — a mini-boss — before you can grab the brooch half. Bring healing; he hits hard for an optional encounter.",
     video: "https://www.youtube.com/watch?v=xKukCdtgelM"
   },
-  {
+{
     id: 957,
     type: "side",
     game: "God of War Ragnarök",
@@ -17030,7 +16390,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Come back late or post-game with upgraded gear and a Realm Shift/relic setup. Each of the six challenges rewards Muspelheim ore and cosmetics; the boss-rush trial is the toughest optional fight before the Berserkers and Gná.",
     video: "https://www.youtube.com/watch?v=dqYmv1KA1H0"
   },
-  {
+{
     id: 958,
     type: "side",
     game: "God of War Ragnarök",
@@ -17046,7 +16406,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The ingredients (Eternal Campfire, Nordic Gourd, Prongfruit, Elven Cap, Bantam Melon) are marked once you have the traversal tools. Do it late so every realm is fully accessible and you can grab them in one loop.",
     video: "https://www.youtube.com/watch?v=M-frWdmibHs"
   },
-  {
+{
     id: 959,
     type: "side",
     game: "God of War Ragnarök",
@@ -17062,7 +16422,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Locations are roughly noted in the Goals menu and marked on the map. Each site drops a lore scroll plus Fortified/Tempered Remnants used for top-tier armor upgrades — worth doing before the hardest post-game bosses.",
     video: "https://www.youtube.com/watch?v=qNkb-BU04WM"
   },
-  {
+{
     id: 960,
     type: "side",
     game: "God of War Ragnarök",
@@ -17078,7 +16438,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Each Hel-Tear scales up in difficulty. Bring resurrection stones for the later ones and clear the surrounding enemies before channeling to close the rift, or you will be interrupted.",
     video: "https://www.youtube.com/watch?v=bHT3DbsrwTI"
   },
-  {
+{
     id: 961,
     type: "side",
     game: "God of War Ragnarök",
@@ -17094,7 +16454,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Hateful is a repeated, aggressive fight — learn its unblockable tells and use ranged Blades attacks to whittle it down. Closing every Draugr Hole is required for full realm completion.",
     video: "https://www.youtube.com/watch?v=mhUSLQwhsJ4"
   },
-  {
+{
     id: 962,
     type: "main",
     category: "Main Story",
@@ -17117,7 +16477,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Illithid's%20Captive%20walkthrough"
   },
-  {
+{
     id: 963,
     type: "main",
     category: "Main Story",
@@ -17140,7 +16500,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20a%20Cure%20walkthrough"
   },
-  {
+{
     id: 964,
     type: "main",
     category: "Main Story",
@@ -17163,7 +16523,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Ask%20the%20Goblin%20Priestess%20for%20Help%20walkthrough"
   },
-  {
+{
     id: 965,
     type: "main",
     category: "Main Story",
@@ -17186,7 +16546,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Githyanki%20Cr%C3%A8che%20walkthrough"
   },
-  {
+{
     id: 966,
     type: "main",
     category: "Main Story",
@@ -17209,7 +16569,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Auntie%20Ethel%20walkthrough"
   },
-  {
+{
     id: 967,
     type: "main",
     category: "Main Story",
@@ -17232,7 +16592,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Healer%20Nettie%20walkthrough"
   },
-  {
+{
     id: 968,
     type: "side",
     category: "Side Quest",
@@ -17255,7 +16615,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Lae'zel%20walkthrough"
   },
-  {
+{
     id: 969,
     type: "side",
     category: "Side Quest",
@@ -17278,7 +16638,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Hunt%20the%20Devil%20walkthrough"
   },
-  {
+{
     id: 970,
     type: "side",
     category: "Side Quest",
@@ -17301,7 +16661,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Trapped%20Man%20walkthrough"
   },
-  {
+{
     id: 971,
     type: "side",
     category: "Side Quest",
@@ -17324,7 +16684,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Doni%20walkthrough"
   },
-  {
+{
     id: 972,
     type: "side",
     category: "Side Quest",
@@ -17347,7 +16707,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Your%20Belongings%20walkthrough"
   },
-  {
+{
     id: 973,
     type: "side",
     category: "Side Quest",
@@ -17370,7 +16730,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20the%20Beach%20walkthrough"
   },
-  {
+{
     id: 974,
     type: "side",
     category: "Side Quest",
@@ -17393,7 +16753,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20Volo%20walkthrough"
   },
-  {
+{
     id: 975,
     type: "side",
     category: "Side Quest",
@@ -17416,7 +16776,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20the%20Locket%20walkthrough"
   },
-  {
+{
     id: 976,
     type: "side",
     category: "Side Quest",
@@ -17441,7 +16801,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20walkthrough"
   },
-  {
+{
     id: 977,
     type: "side",
     category: "Side Quest",
@@ -17464,7 +16824,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Goblin%20Sazza%20walkthrough"
   },
-  {
+{
     id: 978,
     type: "side",
     category: "Side Quest",
@@ -17487,7 +16847,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Sovereign%20Glut%20walkthrough"
   },
-  {
+{
     id: 979,
     type: "side",
     category: "Side Quest",
@@ -17510,7 +16870,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Cure%20the%20Poisoned%20Gnome%20walkthrough"
   },
-  {
+{
     id: 980,
     type: "side",
     category: "Side Quest",
@@ -17533,7 +16893,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Duergar%20walkthrough"
   },
-  {
+{
     id: 981,
     type: "side",
     category: "Side Quest",
@@ -17556,7 +16916,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deliver%20Nere's%20Head%20walkthrough"
   },
-  {
+{
     id: 982,
     type: "side",
     category: "Side Quest",
@@ -17579,7 +16939,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Mushroom%20Picker%20walkthrough"
   },
-  {
+{
     id: 983,
     type: "side",
     category: "Side Quest",
@@ -17602,7 +16962,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Explosives%20walkthrough"
   },
-  {
+{
     id: 984,
     type: "side",
     category: "Side Quest",
@@ -17625,7 +16985,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Grymforge%20Gnomes%20walkthrough"
   },
-  {
+{
     id: 985,
     type: "side",
     category: "Side Quest",
@@ -17648,7 +17008,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Past%20the%20Rubble%20walkthrough"
   },
-  {
+{
     id: 986,
     type: "side",
     category: "Side Quest",
@@ -17671,7 +17031,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Talk%20to%20the%20Sentient%20Amulet%20walkthrough"
   },
-  {
+{
     id: 987,
     type: "main",
     category: "Main Story",
@@ -17694,7 +17054,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Capture%20Isobel%20walkthrough"
   },
-  {
+{
     id: 988,
     type: "main",
     category: "Main Story",
@@ -17717,7 +17077,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ketheric's%20Relic%20walkthrough"
   },
-  {
+{
     id: 989,
     type: "main",
     category: "Main Story",
@@ -17740,7 +17100,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Follow%20the%20Convoy%20walkthrough"
   },
-  {
+{
     id: 990,
     type: "side",
     category: "Side Quest",
@@ -17763,7 +17123,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Resolve%20the%20Abduction%20walkthrough"
   },
-  {
+{
     id: 991,
     type: "side",
     category: "Side Quest",
@@ -17786,7 +17146,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Decide%20Minthara's%20Fate%20walkthrough"
   },
-  {
+{
     id: 992,
     type: "side",
     category: "Side Quest",
@@ -17809,7 +17169,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Mol%20walkthrough"
   },
-  {
+{
     id: 993,
     type: "side",
     category: "Side Quest",
@@ -17832,7 +17192,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Rolan%20walkthrough"
   },
-  {
+{
     id: 994,
     type: "side",
     category: "Side Quest",
@@ -17855,7 +17215,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Zevlor%20walkthrough"
   },
-  {
+{
     id: 995,
     type: "side",
     category: "Side Quest",
@@ -17878,7 +17238,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Sel%C3%BBnite%20Resistance%20walkthrough"
   },
-  {
+{
     id: 996,
     type: "side",
     category: "Side Quest",
@@ -17901,7 +17261,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Kill%20Yurgir%20walkthrough"
   },
-  {
+{
     id: 997,
     type: "side",
     category: "Side Quest",
@@ -17924,7 +17284,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Acquire%20Gauntlets%20for%20Helsik%20walkthrough"
   },
-  {
+{
     id: 998,
     type: "side",
     category: "Side Quest",
@@ -17947,7 +17307,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Aid%20the%20Underduke%20walkthrough"
   },
-  {
+{
     id: 999,
     type: "side",
     category: "Side Quest",
@@ -17970,7 +17330,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Hag%20Survivors%20walkthrough"
   },
-  {
+{
     id: 1000,
     type: "side",
     category: "Side Quest",
@@ -17993,7 +17353,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Ironhands%20walkthrough"
   },
-  {
+{
     id: 1001,
     type: "side",
     category: "Side Quest",
@@ -18016,7 +17376,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Feed%20the%20Mind%20Flayer%20walkthrough"
   },
-  {
+{
     id: 1002,
     type: "main",
     category: "Main Story",
@@ -18039,7 +17399,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Enter%20Wyrm's%20Rock%20Fortress%20walkthrough"
   },
-  {
+{
     id: 1003,
     type: "side",
     category: "Side Quest",
@@ -18062,7 +17422,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20Mystic%20Carrion%20walkthrough"
   },
-  {
+{
     id: 1004,
     type: "side",
     category: "Side Quest",
@@ -18085,7 +17445,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ffion%20walkthrough"
   },
-  {
+{
     id: 1005,
     type: "side",
     category: "Side Quest",
@@ -18108,7 +17468,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Cursed%20Monk%20walkthrough"
   },
-  {
+{
     id: 1006,
     type: "side",
     category: "Side Quest",
@@ -18131,7 +17491,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Devilish%20Ox%20walkthrough"
   },
-  {
+{
     id: 1007,
     type: "side",
     category: "Side Quest",
@@ -18154,7 +17514,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Retrieve%20Omeluum%20walkthrough"
   },
-  {
+{
     id: 1008,
     type: "side",
     category: "Side Quest",
@@ -18177,7 +17537,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20Rakath's%20Gold%20walkthrough"
   },
-  {
+{
     id: 1009,
     type: "side",
     category: "Side Quest",
@@ -18200,7 +17560,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Presses%20walkthrough"
   },
-  {
+{
     id: 1010,
     type: "side",
     category: "Side Quest",
@@ -18222,9 +17582,8 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Decide how far to trust the Emperor going forward."
     ],
     video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20Emperor's%20Hideout%20walkthrough"
-  }
-
-,  {
+  },
+{
     id: 1027,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18247,7 +17606,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
   },
-  {
+{
     id: 1028,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18269,7 +17628,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
   },
-  {
+{
     id: 1029,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18291,7 +17650,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
   },
-  {
+{
     id: 1030,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18313,7 +17672,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
   },
-  {
+{
     id: 1031,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18336,7 +17695,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=VGR8joU9ems"
   },
-  {
+{
     id: 1032,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18358,7 +17717,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
   },
-  {
+{
     id: 1033,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18380,7 +17739,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
   },
-  {
+{
     id: 1034,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18402,7 +17761,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
   },
-  {
+{
     id: 1035,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18424,7 +17783,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=2gShRpduP38"
   },
-  {
+{
     id: 1036,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18446,7 +17805,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
   },
-  {
+{
     id: 1037,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18468,7 +17827,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
   },
-  {
+{
     id: 1038,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18490,7 +17849,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
   },
-  {
+{
     id: 1039,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18512,7 +17871,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=cItnWImfcwk"
   },
-  {
+{
     id: 1040,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18534,7 +17893,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=cS07VIv18uA"
   },
-  {
+{
     id: 1041,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18556,7 +17915,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
   },
-  {
+{
     id: 1042,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18578,7 +17937,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
   },
-  {
+{
     id: 1043,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18600,7 +17959,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
   },
-  {
+{
     id: 1044,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18622,7 +17981,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
   },
-  {
+{
     id: 1045,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18644,7 +18003,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
   },
-  {
+{
     id: 1046,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18666,7 +18025,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=YJQZl0q2SSU"
   },
-  {
+{
     id: 1047,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18688,7 +18047,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=cyNzZULI_EQ"
   },
-  {
+{
     id: 1048,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18710,7 +18069,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
   },
-  {
+{
     id: 1049,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18732,7 +18091,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=CRGlett0WO8"
   },
-  {
+{
     id: 1050,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18754,7 +18113,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=XDwOql565bQ"
   },
-  {
+{
     id: 1051,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18776,7 +18135,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=ahnJxa4n-3o"
   },
-  {
+{
     id: 1052,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18798,7 +18157,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=FMkKY_34Q3Q"
   },
-  {
+{
     id: 1053,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18820,7 +18179,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=QCiLElY5Vb0"
   },
-  {
+{
     id: 1054,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18842,7 +18201,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
   },
-  {
+{
     id: 1055,
     type: "main",
     game: "Final Fantasy VII Remake",
@@ -18864,7 +18223,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
   },
-  {
+{
     id: 1056,
     type: "side",
     game: "Final Fantasy VII Remake",
@@ -18886,1509 +18245,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
   },
-  // ── Metaphor: ReFantazio — Main Quests (MQ-01 to MQ-11) ──
-  {
-    id: 1132,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Save the Prince from Death's Curse",
-    location: "Grand Trad / Regalith Grand Cathedral",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression, first Gauntlet Runner access",
-    summary:
-      "The opening main quest: the king is assassinated and his death-curse passes to the prince. Race against the calendar to find a cure while entering the Royal Election to claim the throne.",
-    aiTip:
-      "Time is limited from day one — prioritize the main dungeon over social activities on your first run. Learn the Archetype system here.",
-    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
-  },
-  {
-    id: 1133,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Necromancer Takedown",
-    location: "Grand Trad Cathedral",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression, Archetype mastery points",
-    summary:
-      "Pursue and defeat Zorba the Necromancer before he can use the undead to seize power. The dungeon tests your elemental coverage and introduces Synthesis attacks as a necessity.",
-    aiTip:
-      "Zorba summons undead constantly — use Synthesis Skills like Energy Ray and Hammer of Justice to wipe adds quickly before focusing the boss.",
-    video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
-  },
-  {
-    id: 1059,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Thwart Zorba's Plan",
-    location: "Grand Trad",
-    length: "long",
-    difficulty: "High",
-    reward: "Story advancement, new Archetype lines",
-    summary:
-      "Zorba has a backup scheme that threatens the election and the capital. Unravel his plot across multiple investigation scenes before a boss confrontation closes this chapter.",
-    aiTip:
-      "Reach the dungeon as early as the calendar allows — running out of days here forces a retry of the whole month.",
-    video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
-  },
-  {
-    id: 1060,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Apprehend the Real Kidnapper",
-    location: "Martira",
-    length: "long",
-    difficulty: "High",
-    reward: "Story revelation, Follower bond growth",
-    summary:
-      "A kidnapping in Martira has an unexpected culprit. Investigate informants across the city and track the true suspect before they escape, culminating in a mid-game boss fight.",
-    aiTip:
-      "Talk to every NPC that has a '!' marker — missing one informant locks you out of the true suspect's location.",
-    video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
-  },
-  {
-    id: 1061,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Infiltrate the Charadrius",
-    location: "The Charadrius (Louis's Flagship)",
-    length: "long",
-    difficulty: "High",
-    reward: "Story revelation about Louis, key Archetype abilities",
-    summary:
-      "Board Louis's formidable flagship the Charadrius to gather intelligence. The dungeon is filled with elite soldiers and ends with an encounter that shifts the entire political landscape.",
-    aiTip:
-      "Stealth sections matter here — triggering alarms adds enemies that drain valuable MP before the boss.",
-    video: "https://www.youtube.com/watch?v=fOzug0yoLCg"
-  },
-  {
-    id: 1062,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Obtain Drakodios",
-    location: "Virga Island / Dragon Temple",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Drakodios relic, powerful late-game Archetypes",
-    summary:
-      "Sail to the remote Virga Island and enter the Dragon Temple to obtain the legendary relic Drakodios. The dungeon is among the longest in the game with multiple boss encounters.",
-    aiTip:
-      "Max your Archetype masteries before entering — the Dragon Temple has a difficulty spike that catches underprepared parties.",
-    video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
-  },
-  {
-    id: 1063,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Ancestral Solution",
-    location: "Virga Island / Dragon Temple",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Key story resolution, ultimate Archetype upgrades",
-    summary:
-      "Delve deeper into the Dragon Temple's secrets to find the ancestral solution that can break the prince's death-curse. A lore-dense quest that reveals the world's true history.",
-    aiTip:
-      "The Homo Sabara boss here has multiple phases — bring wind and fire coverage and keep everyone above half HP entering the final phase.",
-    video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
-  },
-  {
-    id: 1064,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Eliminate Virga Island's Threat",
-    location: "Virga Island",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Island cleared, MAG and rare materials",
-    summary:
-      "A powerful threat blocks progress on Virga Island. Hunt it down across the island's dangerous terrain to clear the path for the main quest.",
-    aiTip:
-      "Save before the engagement — this is an optional but difficult encounter. Stock up on revival items.",
-    video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
-  },
-  {
-    id: 1065,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Prepare for the Final Battle",
-    location: "Grand Trad / Skybound Avatar",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Final dungeon access, party-wide stat boosts",
-    summary:
-      "With the Royal Election decided, make final preparations before ascending to the Skybound Avatar. Complete remaining Follower bonds, stock items, and master your Archetypes.",
-    aiTip:
-      "This is the point of no return for many side quests. Spend all remaining days on Follower bonds and Virtue trials before entering the final dungeon.",
-    video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
-  },
-  {
-    id: 1066,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Skybound Avatar Conquest",
-    location: "Skybound Avatar (Final Dungeon)",
-    length: "long",
-    difficulty: "Very High",
-    reward: "True Ending, platinum trophy route",
-    summary:
-      "The final multi-phase gauntlet. Ascend the Skybound Avatar, face Zorba's return, and confront the final manifestation of the kingdom's fear — the throne's true enemy revealed.",
-    aiTip:
-      "Bring maximum healing stock and your three strongest Archetype setups. The final boss has three distinct phases with no save point between them.",
-    video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
-  },
-  {
-    id: 1067,
-    type: "main",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Save the Country",
-    location: "Grand Trad Throne Room",
-    length: "medium",
-    difficulty: "High",
-    reward: "True Ending cutscenes, credit roll",
-    summary:
-      "The climax after defeating the final boss. A series of story sequences and decisions determines the fate of the kingdom and the protagonist's future.",
-    aiTip:
-      "Your accumulated Royal Virtue and Follower bond ranks affect dialogue options and ending variants — max them out before this point.",
-    video: "https://www.youtube.com/watch?v=kt2jvZc6BHg"
-  },
-  // ── More's Tasks (SQ-01 to SQ-07) ──
-  {
-    id: 1068,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "More's Task: Foreword and Prologue",
-    location: "Grand Trad / Gauntlet Runner",
-    length: "short",
-    difficulty: "Low",
-    reward: "Archetype system unlocked, bond with More initiated",
-    summary:
-      "More introduces himself and the Archetype codex, setting the foundation for the game's class system. This first task is essentially the tutorial for unlocking new Archetypes through bond progression.",
-    aiTip:
-      "Completing More's Tasks in order is required to unlock advanced Archetype lineages — don't skip early chapters even if they seem brief.",
-    video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
-  },
-  {
-    id: 1069,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "More's Task Chapter One: Ordeal",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Archetype unlock, bond rank increase",
-    summary:
-      "More's first task asks you to face an ordeal that tests your resolve and combat preparation. Completing it opens the next tier of Archetype lineages.",
-    aiTip:
-      "Talk to More whenever a '!' appears on the Gauntlet Runner — his tasks are calendar-gated and easy to miss.",
-    video: "https://www.youtube.com/watch?v=burZDgeyC88"
-  },
-  {
-    id: 1070,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "More's Task Chapter Two: Solitude",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Archetype unlock, bond rank increase",
-    summary:
-      "More reflects on solitude and what it means to walk a path alone. This chapter deepens his backstory and rewards a new Archetype lineage on completion.",
-    aiTip:
-      "Choose dialogue options that align with empathy for the best bond growth outcome.",
-    video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
-  },
-  {
-    id: 1071,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "More's Task Chapter Three: Drifting",
-    location: "Martira",
-    length: "short",
-    difficulty: "Low",
-    reward: "Archetype unlock, bond rank increase",
-    summary:
-      "As the party drifts between cities, More opens up about his past as a driver and his place in the journey. A quiet but character-defining chapter.",
-    aiTip:
-      "This chapter unlocks on the road to Martira — trigger it before the next main quest deadline.",
-    video: "https://www.youtube.com/watch?v=TSww6LGRKiE"
-  },
-  {
-    id: 1072,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "More's Task Chapter Four: Turmoil",
-    location: "Martira",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Archetype unlock, bond rank increase",
-    summary:
-      "Political turmoil tests More's loyalty and judgment. This chapter involves a short confrontation that reveals his personal code of ethics.",
-    aiTip:
-      "Have at least Tolerance Rank 3 before this chapter — one dialogue option requires it for the best reward.",
-    video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
-  },
-  {
-    id: 1073,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "More's Task Chapter Five: Resolve",
-    location: "Kriegante",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Advanced Archetype unlock, key bond ability",
-    summary:
-      "More's resolve is tested in Kriegante as the political situation turns dangerous. He must make a critical decision about his role in the party's mission.",
-    aiTip:
-      "This chapter has a combat encounter — bring a balanced party as it can catch you off guard mid-story.",
-    video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
-  },
-  {
-    id: 1074,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "More's Task Chapter Six: The End",
-    location: "Skanda / Gauntlet Runner",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Final Archetype mastery unlock, unique bond ability",
-    summary:
-      "The conclusion of More's story arc. What began as a simple job as driver has become something far greater. This final chapter rewards the strongest Archetype abilities tied to his bond.",
-    aiTip:
-      "Complete all previous More's Tasks before the final dungeon — Chapter Six locks after entering the point of no return.",
-    video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
-  },
-  // ── Favor / NPC Quests (SQ-10 to SQ-25) ──
-  {
-    id: 1075,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "A Friend in Need",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, bond growth, consumables",
-    summary:
-      "A Grand Trad resident is in trouble and needs help that goes beyond coin. A short quest that expands the city's texture and rewards a modest MAG boost.",
-    aiTip:
-      "Talk to everyone around the quest NPC — one of their neighbours holds the key information needed to resolve the situation.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+A+Friend+in+Need+walkthrough",
-    walkthrough: [
-      "Speak to the troubled NPC in Grand Trad with the '!' marker to accept the quest.",
-      "Talk to the two neighbours indicated nearby to gather information about the problem.",
-      "Return to the original NPC and choose the correct dialogue option based on what you learned.",
-      "If a short combat encounter triggers, exploit enemy weaknesses for a fast finish.",
-      "Collect the MAG reward and bond point from the quest completion screen."
-    ]
-  },
-  {
-    id: 1076,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Missing Child",
-    location: "Grand Trad Residential District",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, Courage stat growth",
-    summary:
-      "A child has wandered off into a dangerous part of Grand Trad. Track them down before nightfall in this time-sensitive fetch quest that rewards Courage stat growth.",
-    aiTip:
-      "The child hides in the area nearest the city walls — check the outer residential alley first to save time.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Child+walkthrough",
-    walkthrough: [
-      "Accept the quest from the worried parent in the Grand Trad residential district.",
-      "Head to the outer alley near the city walls — the child is hiding behind a stack of crates.",
-      "Speak to the child and select the reassuring dialogue option to coax them out.",
-      "Escort the child back to the parent by following the quest marker.",
-      "Collect the Courage stat point and MAG reward from the parent."
-    ]
-  },
-  {
-    id: 1077,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Merchant's Request",
-    location: "Grand Trad Market",
-    length: "short",
-    difficulty: "Low",
-    reward: "Discounted shop prices, MAG",
-    summary:
-      "A market merchant needs a specific item retrieved to fulfil a trade order. Simple but rewards a permanent shop discount that makes it well worth doing early.",
-    aiTip:
-      "The item the merchant needs is sold by the vendor two stalls over — buy it immediately and return for the discount reward.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Merchant%27s+Request+walkthrough",
-    walkthrough: [
-      "Talk to the merchant with the '!' marker in Grand Trad's market district.",
-      "Note the specific item they need — it is stocked by a nearby vendor in the same market.",
-      "Purchase the item and bring it back to the merchant.",
-      "Confirm the trade to receive MAG and unlock a permanent discount at that merchant's shop.",
-      "Revisit this merchant throughout the game to benefit from the reduced prices on consumables."
-    ]
-  },
-  {
-    id: 1078,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Delivery Troubles",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, Tolerance stat growth",
-    summary:
-      "A courier is blocked from making a delivery by a bureaucratic obstacle. Help cut through the red tape and see the package delivered to earn Tolerance stat growth.",
-    aiTip:
-      "The gatekeeper NPC who is blocking the delivery has a hidden condition — speak to a nearby guard first to learn how to satisfy it.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Delivery+Troubles+walkthrough",
-    walkthrough: [
-      "Accept the quest from the frustrated courier outside a gated district in Grand Trad.",
-      "Talk to the nearby guard to learn what document or condition would allow passage.",
-      "Retrieve or fulfill the condition — usually a short fetch from a building nearby.",
-      "Return to the gatekeeper with the required item or information to clear the way.",
-      "Watch the delivery complete and collect your MAG and Tolerance growth reward."
-    ]
-  },
-  {
-    id: 1079,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Stolen Goods Recovery",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, stolen item returned",
-    summary:
-      "Goods have been stolen from a vendor in the market. Track the thief through Grand Trad, retrieve the stolen merchandise, and return it to the owner.",
-    aiTip:
-      "The thief is near the city's lower district — follow the trail of NPC hints rather than wandering; each one points closer.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Stolen+Goods+Recovery+walkthrough",
-    walkthrough: [
-      "Speak to the victimised vendor with the '!' marker in the Grand Trad market.",
-      "Ask nearby stall owners about unusual activity — each gives a clue narrowing the location.",
-      "Head to the lower district and locate the thief hiding near the exit gate.",
-      "Confront the thief; a brief combat encounter or a successful dialogue check recovers the goods.",
-      "Return the stolen goods to the vendor and collect the MAG reward."
-    ]
-  },
-  {
-    id: 1080,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Troubled Soldier",
-    location: "Fort Endra, Martira",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, Courage stat growth, unique consumable",
-    summary:
-      "A soldier stationed at Fort Endra is struggling with something that goes beyond combat fatigue. Hear him out, gather what he needs, and help him find his footing again.",
-    aiTip:
-      "This quest has two parts visited on separate calendar days — return to Fort Endra after advancing the main quest by one day.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Troubled+Soldier+walkthrough",
-    walkthrough: [
-      "Find the troubled soldier at Fort Endra's barracks with the '!' quest marker.",
-      "Listen to his concerns and choose the empathetic dialogue response to progress the quest.",
-      "Exit and advance one calendar day, then return to Fort Endra to trigger the follow-up scene.",
-      "Retrieve the specific item he requires from a vendor in Martira's market.",
-      "Return to the soldier to deliver the item and resolve his situation, collecting Courage growth and MAG."
-    ]
-  },
-  {
-    id: 1081,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Lost Necklace",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, Wisdom stat growth",
-    summary:
-      "An NPC has lost a treasured necklace somewhere in Grand Trad. Search the city's hidden corners, question witnesses, and return the keepsake for a Wisdom reward.",
-    aiTip:
-      "The necklace is in a non-obvious spot behind a breakable object — check the area around the fountain near the market.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Lost+Necklace+walkthrough",
-    walkthrough: [
-      "Accept the quest from the upset NPC near the Grand Trad residential entrance.",
-      "Question the three witnesses scattered around the central plaza for location clues.",
-      "Head to the fountain area and inspect the small alcove or breakable object behind it.",
-      "Pick up the necklace from the spot and return it to the quest giver.",
-      "Collect the Wisdom growth and MAG reward from the grateful NPC."
-    ]
-  },
-  {
-    id: 1082,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Herbal Remedy",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, healing items, Wisdom growth",
-    summary:
-      "A healer needs rare herbs to prepare medicine for sick residents. Gather the herbs from the outskirts of Grand Trad and return them for a healing item reward.",
-    aiTip:
-      "The herbs spawn on the outer road near the Gauntlet Runner docking area — they respawn on calendar days so check back if you missed them.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Herbal+Remedy+walkthrough",
-    walkthrough: [
-      "Speak to the healer at the clinic in Grand Trad with the '!' marker.",
-      "Head to the outer road near the Gauntlet Runner dock and gather the glowing herb nodes.",
-      "Collect all three herb stacks indicated by the minimap icons.",
-      "Return to the healer and hand over the herbs.",
-      "Receive healing items and a Wisdom growth reward from the healer."
-    ]
-  },
-  {
-    id: 1083,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Guard Duty Assistance",
-    location: "Grand Trad City Gate",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, Courage growth",
-    summary:
-      "A city guard needs backup during a short patrol after reports of suspicious activity near the gate. Accompany them, handle any encounter, and report back.",
-    aiTip:
-      "The enemy that spawns during patrol is weak to lightning — bring a Mage-type Archetype for a quick sweep.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Guard+Duty+Assistance+walkthrough",
-    walkthrough: [
-      "Talk to the guard at the Grand Trad city gate with the '!' marker to start escort duty.",
-      "Follow the guard along the patrol route, keeping pace with their movement.",
-      "When the ambush enemy spawns, exploit its lightning weakness to dispatch it in one round.",
-      "Continue the patrol to its endpoint with no further incidents.",
-      "Report back to the guard's captain to collect MAG and Courage growth."
-    ]
-  },
-  {
-    id: 1084,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Fisherman's Problem",
-    location: "Port Brilehaven, Martira",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, unique fish item",
-    summary:
-      "A fisherman at Port Brilehaven is being driven out of his usual spot by a territorial creature. Clear the nuisance and let him fish in peace.",
-    aiTip:
-      "The creature guarding the fishing spot is an early-rank bounty-style monster — hit it with fire to end the fight quickly.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Fisherman%27s+Problem+walkthrough",
-    walkthrough: [
-      "Find the fisherman with the '!' marker at Port Brilehaven's dock.",
-      "Head to the marked fishing spot on the port's outer edge where the creature lurks.",
-      "Engage and defeat the territorial monster — fire attacks are most effective.",
-      "Return to the fisherman and report that the spot is clear.",
-      "Receive MAG and a unique fish item that can be used in cooking or sold for extra coin."
-    ]
-  },
-  {
-    id: 1085,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Old Woman's Request",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, Tolerance growth",
-    summary:
-      "An elderly woman asks you to find a specific person in Grand Trad she has lost contact with. A simple but touching quest about reconnection in the middle of political upheaval.",
-    aiTip:
-      "The person she's looking for has moved to a different district — check the lower residential area near the market.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Old+Woman%27s+Request+walkthrough",
-    walkthrough: [
-      "Speak to the old woman with the '!' marker near the Grand Trad residential square.",
-      "Note the name of the person she is looking for and head to the lower residential district.",
-      "Find the NPC near the market entrance and relay the old woman's message.",
-      "Return to the old woman to deliver the response and trigger a short cutscene.",
-      "Collect MAG and Tolerance growth as the quest completes."
-    ]
-  },
-  {
-    id: 1086,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Broken Cart",
-    location: "Martira Trade Road",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, crafting materials",
-    summary:
-      "A merchant's cart broke down on the trade road into Martira, blocking goods from reaching the market. Gather repair materials from the roadside and fix the cart.",
-    aiTip:
-      "The repair materials are scattered on the road itself as glowing pickups — no combat required for this quest.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Broken+Cart+walkthrough",
-    walkthrough: [
-      "Speak to the stranded merchant on the trade road outside Martira with the '!' marker.",
-      "Walk along the road and collect the three glowing material nodes nearby.",
-      "Return to the merchant and hand over the materials to initiate the repair sequence.",
-      "Watch the short animation of the cart being fixed.",
-      "Receive MAG and crafting materials as the merchant thanks you and moves on."
-    ]
-  },
-  {
-    id: 1087,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Refugee Aid",
-    location: "Martira Refugee Camp",
-    length: "medium",
-    difficulty: "Low",
-    reward: "MAG, Tolerance growth, bond affection",
-    summary:
-      "Refugees from the ongoing conflict need aid that the city can't provide alone. Gather supplies, speak to the right official, and ensure the camp gets what it needs.",
-    aiTip:
-      "The official who can authorize aid is in the Martira government building — bring him the petition from the camp leader first.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Refugee+Aid+walkthrough",
-    walkthrough: [
-      "Visit the refugee camp on Martira's outskirts and speak to the camp leader with the '!' marker.",
-      "Accept the petition document and take it to the official in the Martira government building.",
-      "Navigate the bureaucratic conversation — choose the dialogue option that cites the children's welfare for the best result.",
-      "Return to the camp leader with the authorization and trigger the supply delivery cutscene.",
-      "Receive MAG and Tolerance growth plus a bump in Eupha's or Heismay's follower affection."
-    ]
-  },
-  {
-    id: 1088,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Noble Dispute",
-    location: "Martira Noble District",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, Wisdom growth, information about Louis",
-    summary:
-      "Two noble factions in Martira are on the verge of a violent confrontation. Mediate the dispute using dialogue skill and gather intel on Louis's backing in the process.",
-    aiTip:
-      "The correct mediation path requires Wisdom Rank 3 — if you don't have it, grind a social activity first.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Dispute+walkthrough",
-    walkthrough: [
-      "Speak to the agitated noble representative near the Martira noble district gate.",
-      "Visit both factions' representatives and hear each side's grievance.",
-      "Return to the neutral meeting point and choose the mediation option that addresses the root financial issue.",
-      "Pass the Wisdom check (requires Rank 3) to broker a temporary peace.",
-      "Collect MAG and Wisdom growth, and note the intel about Louis's financial supporters revealed during the scene."
-    ]
-  },
-  {
-    id: 1089,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Food Supply Crisis",
-    location: "Martira Market",
-    length: "medium",
-    difficulty: "Low",
-    reward: "MAG, cooking materials, Tolerance growth",
-    summary:
-      "A food supply shortage is hitting Martira's lower districts hard. Track down where the supplies are being diverted and return them to the market.",
-    aiTip:
-      "The diversion point is a storage warehouse on the docks — a guard there requires either a bribe (costs MAG) or a Courage check to pass.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Food+Supply+Crisis+walkthrough",
-    walkthrough: [
-      "Speak to the market vendor with the '!' marker about the food shortage.",
-      "Follow the paper trail by visiting the city's supply office and asking about recent shipments.",
-      "Head to the warehouse on the Martira docks and confront the guard blocking entry.",
-      "Either pay the bribe (500 MAG) or pass the Courage Rank 2 check to enter.",
-      "Inside, confirm the diverted supplies and report back to the market vendor to receive MAG and cooking materials."
-    ]
-  },
-  {
-    id: 1090,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Caravan Escort",
-    location: "Martira Trade Road",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, rare trade goods, Courage growth",
-    summary:
-      "A merchant caravan needs protection on a stretch of road where bandits have been active. Escort them safely through two ambush encounters.",
-    aiTip:
-      "The second ambush includes a magic-type enemy that hits hard — position your knight Archetype in front and have your healer ready.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Caravan+Escort+walkthrough",
-    walkthrough: [
-      "Speak to the caravan leader at the Martira gate with the '!' marker to begin the escort.",
-      "Follow the caravan along the trade road; the first bandit ambush triggers after the first bend.",
-      "Defeat the first wave of bandits — they are weak to lightning.",
-      "Continue escorting until the second ambush triggers near the forest clearing.",
-      "Defeat the second wave including the magic-user enemy, then escort the caravan to the destination for your reward."
-    ]
-  },
-  // ── Bounty / Hunt Quests (SQ-26 to SQ-35) ──
-  {
-    id: 1091,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Hunt: Forest Beast",
-    location: "Forest outside Grand Trad",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Bounty coin, rare beast material",
-    summary:
-      "A large predatory beast has been terrorizing travellers in the forest outside Grand Trad. Accept the bounty from the recruitment center and eliminate it.",
-    aiTip:
-      "The Forest Beast is weak to fire — a single Mage with a fire Archetype can stagger it each round.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Forest+Beast+walkthrough",
-    walkthrough: [
-      "Accept the Forest Beast bounty from the recruitment center in Grand Trad.",
-      "Travel to the forest zone indicated on the world map and locate the creature's territory.",
-      "Engage the beast and exploit its fire weakness to generate Press Turns for your party.",
-      "Use Synthesis attacks once you have full Press Turns to burst it down quickly.",
-      "Return to the recruitment center to claim the bounty reward and rare beast material."
-    ]
-  },
-  {
-    id: 1092,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Hunt: Cave Horror",
-    location: "Cave system near Grand Trad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Bounty coin, cave mineral drops",
-    summary:
-      "Something horrifying lurks in the cave system east of Grand Trad. Track it to its den and exterminate it before it claims more victims.",
-    aiTip:
-      "Bring a torch or light-type skill — the cave has dark sections that reduce accuracy without illumination.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Cave+Horror+walkthrough",
-    walkthrough: [
-      "Pick up the Cave Horror bounty at the Grand Trad recruitment center.",
-      "Navigate the cave entrance using the minimap — the Horror is in the deepest chamber.",
-      "Equip a light-type skill on one party member to counter the cave's accuracy penalty.",
-      "The Cave Horror has a high physical defense — use magic attacks rather than physical strikes.",
-      "After defeating it, loot the rare mineral drops and return to the recruitment center for the bounty payout."
-    ]
-  },
-  {
-    id: 1093,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Hunt: Bandit Leader",
-    location: "Martira outskirts",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Bounty coin, stolen goods recovered",
-    summary:
-      "The leader of a bandit gang operating on Martira's outskirts has a bounty on their head. Find their camp and defeat them to break up the gang.",
-    aiTip:
-      "The Bandit Leader surrounds themselves with three minions — use a multi-target spell to clear the adds first, then focus the leader.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Bandit+Leader+walkthrough",
-    walkthrough: [
-      "Accept the Bandit Leader bounty from Martira's recruitment center.",
-      "Head to the camp location on Martira's outskirts — look for smoke on the hillside.",
-      "Enter the camp and trigger the boss fight; prioritize the minions with a Mage's multi-target fire spell.",
-      "Focus single-target attacks on the Bandit Leader once the minions are cleared.",
-      "Collect the stolen goods loot and return to the recruitment center for the full bounty reward."
-    ]
-  },
-  {
-    id: 1094,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Hunt: Swamp Creature",
-    location: "Martira swamplands",
-    length: "medium",
-    difficulty: "High",
-    reward: "Bounty coin, rare alchemical material",
-    summary:
-      "A massive creature has claimed the Martira swamplands, cutting off a key supply route. Eliminate it to reopen the path.",
-    aiTip:
-      "The Swamp Creature is resistant to physical attacks and water — bring wind or electric Archetypes for best results.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Swamp+Creature+walkthrough",
-    walkthrough: [
-      "Accept the Swamp Creature bounty at the Martira recruitment center.",
-      "Travel to the swamplands zone south of Martira — expect the terrain to slow movement.",
-      "Locate the creature's nest in the central bog area and initiate combat.",
-      "Avoid water and physical skill types — use wind or electric skills to bypass its resistances.",
-      "Collect the rare alchemical material from the body and return for the bounty payout."
-    ]
-  },
-  {
-    id: 1095,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Hunt: Desert Predator",
-    location: "Tradia Desert",
-    length: "medium",
-    difficulty: "High",
-    reward: "Bounty coin, desert creature material",
-    summary:
-      "An apex predator is picking off caravans crossing the Tradia Desert. Hunt it down and secure the trade route.",
-    aiTip:
-      "Desert Predators are fast and attack first — equip an Agility-boosting accessory or use a Knight Archetype to absorb the opening hit.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Desert+Predator+walkthrough",
-    walkthrough: [
-      "Pick up the Desert Predator bounty from Martira's recruitment center before heading into the desert.",
-      "Travel through the Tradia Desert and look for tracks leading to the predator's hunting ground.",
-      "Equip an Agility accessory or place your Knight in the front position to absorb the first strike.",
-      "Use ice skills — desert predators are typically weak to ice in Metaphor.",
-      "Claim the desert creature material and return for the bounty coin reward."
-    ]
-  },
-  {
-    id: 1096,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Hunt: Mountain Giant",
-    location: "Kriegante mountain pass",
-    length: "long",
-    difficulty: "High",
-    reward: "Bounty coin, giant's bone material, rare equipment",
-    summary:
-      "A Mountain Giant is blocking the Kriegante mountain pass, making travel impossible. Take the bounty and clear the path — but be prepared for a multi-phase fight.",
-    aiTip:
-      "Giants have enormous HP and hit extremely hard — bring a Healer Archetype and stack physical defense buffs before engaging.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Mountain+Giant+walkthrough",
-    walkthrough: [
-      "Accept the Mountain Giant bounty from the Kriegante recruitment center.",
-      "Travel up the mountain pass to the giant's location — be prepared, it patrols a large area.",
-      "Open with Tarukaja (attack buff) and Rakukaja (defense buff) before engaging in damage.",
-      "The giant staggers at 50% HP — use Synthesis attacks during the stagger window to maximize damage.",
-      "Finish with your strongest single-target skills and claim the giant's bone material and rare equipment drop."
-    ]
-  },
-  {
-    id: 1097,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Hunt: Undead Commander",
-    location: "Kriegante ruins",
-    length: "medium",
-    difficulty: "High",
-    reward: "Bounty coin, undead core material",
-    summary:
-      "An undead commander is rallying the dead in Kriegante's ancient ruins, threatening the region. Put it down permanently and disperse its undead forces.",
-    aiTip:
-      "Light-element skills are essential here — both the commander and its undead retinue share a light weakness.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Undead+Commander+walkthrough",
-    walkthrough: [
-      "Accept the Undead Commander bounty at the Kriegante recruitment center.",
-      "Navigate the ruins to the central hall where the commander is raising the dead.",
-      "Open with area-of-effect light skills to hit both the commander and its retinue simultaneously.",
-      "The commander can resummon undead each turn — prioritize killing it before clearing adds.",
-      "Collect the undead core material and return for the bounty coin reward."
-    ]
-  },
-  {
-    id: 1098,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Hunt: Rogue Mage",
-    location: "Kriegante tower",
-    length: "medium",
-    difficulty: "High",
-    reward: "Bounty coin, spellbook material",
-    summary:
-      "A rogue mage has taken over a tower in Kriegante and is using it to launch magical attacks on the region. Ascend the tower and bring the mage down.",
-    aiTip:
-      "The Rogue Mage reflects magical attacks periodically — watch for the buff indicator and switch to physical skills when it is active.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Rogue+Mage+walkthrough",
-    walkthrough: [
-      "Take the Rogue Mage bounty from the Kriegante recruitment center.",
-      "Enter the tower and fight through the two floors of construct guardians — they fall easily to physical attacks.",
-      "On the top floor, engage the Rogue Mage and watch for the reflect buff (shown by a golden glow).",
-      "Use physical skills when the reflect is active; switch back to magic once it drops.",
-      "Defeat the mage, loot the spellbook material, and return for the bounty."
-    ]
-  },
-  {
-    id: 1099,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Hunt: Arena Champion",
-    location: "Grand Trad Arena",
-    length: "medium",
-    difficulty: "Very High",
-    reward: "Bounty coin, champion's emblem, rare equipment",
-    summary:
-      "A rogue fighter has claimed the Grand Trad Arena's champion title through force and intimidation. Challenge them in a regulated bout and take back the title.",
-    aiTip:
-      "The Arena Champion has no elemental weakness — fight with your strongest physical Archetypes and buff up before the match.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Arena+Champion+walkthrough",
-    walkthrough: [
-      "Pick up the Arena Champion bounty from the Grand Trad recruitment center.",
-      "Register at the arena front desk and wait for the match to be announced.",
-      "In the pre-fight phase, use all your buff skills (Tarukaja, Rakukaja) before the champion acts.",
-      "The champion uses multi-hit physical attacks — keep your entire party above 60% HP at all times.",
-      "Finish with your party's strongest physical Synthesis attack and claim the champion's emblem and rare equipment."
-    ]
-  },
-  {
-    id: 1100,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Hunt: Ancient Guardian",
-    location: "Skanda ancient ruins",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Bounty coin, ancient core material, top-tier gear",
-    summary:
-      "An Ancient Guardian has awoken in Skanda's ruins and is classified as an SSS-rank threat. The highest-tier bounty in the game — only attempt it with maxed Archetypes.",
-    aiTip:
-      "The Ancient Guardian cycles through elemental buffs — bring a party that can exploit multiple elements and switch targets based on the active cycle.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hunt+Ancient+Guardian+walkthrough",
-    walkthrough: [
-      "Accept the Ancient Guardian bounty at the Skanda recruitment center — requires having cleared all previous bounties.",
-      "Enter the ruins and navigate to the inner sanctum where the guardian stands dormant.",
-      "The guardian cycles through fire, ice, and lightning resistance every two turns — hit the non-resisted element each cycle.",
-      "At 30% HP the guardian enters berserker mode, ignoring its own weaknesses — use buffs and full Synthesis attacks.",
-      "After defeating it, collect the ancient core material and top-tier gear, then claim the final bounty reward."
-    ]
-  },
-  // ── Investigation / Story Side Quests (SQ-36 to SQ-45) ──
-  {
-    id: 1101,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Church Investigation",
-    location: "Grand Trad Cathedral District",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, Wisdom growth, key lore revelation",
-    summary:
-      "Suspicious activity in Grand Trad's cathedral district warrants an investigation. Interview clergy, search restricted areas, and uncover who is operating in the shadows of the church.",
-    aiTip:
-      "One of the priests you need to interview will only speak to you after a Wisdom Rank 3 dialogue check — raise Wisdom first.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Church+Investigation+walkthrough",
-    walkthrough: [
-      "Accept the investigation request from the contact with the '!' marker near the cathedral.",
-      "Interview three clergy members in the district — note their inconsistencies.",
-      "Gain access to the restricted archive by passing the Wisdom Rank 3 check with the senior priest.",
-      "Search the archive for the relevant documents and piece together the evidence.",
-      "Return to your contact with the findings to receive MAG, Wisdom growth, and a lore document."
-    ]
-  },
-  {
-    id: 1102,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Political Spy Hunt",
-    location: "Martira Government District",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, intel on rival election candidates",
-    summary:
-      "A spy is leaking election campaign intelligence in Martira. Identify them before they can report to their handlers and eliminate the information leak.",
-    aiTip:
-      "The spy rotates between three locations on a schedule — visit each location in the morning, afternoon, and evening to catch them in the act.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Political+Spy+Hunt+walkthrough",
-    walkthrough: [
-      "Accept the quest from the contact in the Martira government district.",
-      "Visit the three indicated locations — government office, market, and tavern — at different times of day.",
-      "At the tavern in the evening, spot the spy making contact with their handler.",
-      "Follow the spy without being detected (stay behind cover objects) to their drop point.",
-      "Confront the spy at the drop point — a brief combat or dialogue check concludes the quest."
-    ]
-  },
-  {
-    id: 1103,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Missing Official",
-    location: "Martira",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, Courage growth, city access improvement",
-    summary:
-      "A mid-ranking official who handles merchant permits has gone missing. Find them — the trail leads somewhere unexpected and reveals a minor conspiracy.",
-    aiTip:
-      "The official is being held in the dockside warehouse — you need Courage Rank 2 to bluff past the guard at the gate.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Missing+Official+walkthrough",
-    walkthrough: [
-      "Speak to the official's aide with the '!' marker in the Martira government building.",
-      "Ask merchants in the market about the official — one saw them near the docks.",
-      "Head to the dockside warehouse gate and use the Courage Rank 2 dialogue check to bluff entry.",
-      "Inside, locate the official in a locked back room and confront the minor conspirators holding them.",
-      "Escort the official back to the government building and receive MAG, Courage growth, and improved merchant permit access."
-    ]
-  },
-  {
-    id: 1104,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Underground Network",
-    location: "Grand Trad Underground",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, rare crafting materials, Archetype mastery",
-    summary:
-      "Rumours point to an underground network operating beneath Grand Trad dealing in stolen Archetypes. Infiltrate it and shut it down before it grows further.",
-    aiTip:
-      "The underground entrance is accessed through a hidden door in the market's eastern alley — inspect the cracked wall to reveal it.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Underground+Network+walkthrough",
-    walkthrough: [
-      "Accept the investigation tip from the informant with the '!' marker in the market alley.",
-      "Inspect the cracked wall in the eastern alley to find and open the hidden entrance.",
-      "Navigate the underground tunnels — fight through two rooms of low-rank enemies.",
-      "Reach the network's storage room and confront the mid-boss guarding the stolen Archetype codices.",
-      "Defeat the mid-boss, recover the codices, and bring them to the Grand Trad authorities for the reward."
-    ]
-  },
-  {
-    id: 1105,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Smuggling Ring",
-    location: "Port Brilehaven, Martira",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, confiscated trade goods, Wisdom growth",
-    summary:
-      "A smuggling operation at Port Brilehaven is funnelling goods to Louis's faction. Expose the ring's ringleader and disrupt the supply chain.",
-    aiTip:
-      "The ringleader is disguised as a dockworker — use the Wisdom dialogue check to identify them from a group of three suspects.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Smuggling+Ring+walkthrough",
-    walkthrough: [
-      "Accept the quest from the customs officer with the '!' marker at Port Brilehaven.",
-      "Inspect the three marked cargo areas on the docks for suspicious manifests.",
-      "Return to the customs officer with the manifests — one has forged paperwork.",
-      "Confront the group of dockworkers and use the Wisdom Rank 3 check to identify the ringleader.",
-      "A short combat encounter follows; defeat the ringleader's bodyguards and receive the full reward."
-    ]
-  },
-  {
-    id: 1106,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Hidden Archive",
-    location: "Grand Trad Library",
-    length: "medium",
-    difficulty: "Low",
-    reward: "MAG, lore document, Wisdom growth",
-    summary:
-      "A historian believes a hidden archive beneath Grand Trad's library holds records that could change the kingdom's official history. Help access and retrieve the documents.",
-    aiTip:
-      "The hidden archive door requires solving a three-part symbol puzzle — the solution is hinted at in the books on the library's upper floor.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Archive+walkthrough",
-    walkthrough: [
-      "Speak to the historian with the '!' marker in Grand Trad's library.",
-      "Read the three relevant books on the upper floor to gather the symbol puzzle hints.",
-      "Descend to the basement and input the correct symbol sequence on the archive door.",
-      "Explore the archive and retrieve the two key documents the historian needs.",
-      "Return to the historian for MAG, a lore document that adds to your quest log, and Wisdom growth."
-    ]
-  },
-  {
-    id: 1107,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Secret Experiment",
-    location: "Martira Research Facility",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, experimental equipment, Wisdom growth",
-    summary:
-      "A whistleblower reveals that illegal experiments are being conducted in a Martira research facility. Investigate, gather evidence, and neutralise the experiment before it escapes.",
-    aiTip:
-      "The experimental creature that escapes at the quest's climax has no elemental weakness — use debuffs to reduce its stats and outlast it.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Secret+Experiment+walkthrough",
-    walkthrough: [
-      "Meet the whistleblower at the Martira marketplace to receive the facility location and access key.",
-      "Enter the research facility after hours and document the experiments in the first two labs.",
-      "The experiment escapes its containment in the third lab — prepare for a boss fight immediately.",
-      "Without an elemental weakness, use Rakukaja (defense buff) and debuffs on the creature to control the fight.",
-      "After defeating it, collect the experimental equipment and bring the evidence to Martira's council for the reward."
-    ]
-  },
-  {
-    id: 1108,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Noble Conspiracy",
-    location: "Kriegante Castle Town",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, political intel, Wisdom growth",
-    summary:
-      "Noble families in Kriegante are conspiring to tip the Royal Election through fraud and intimidation. Expose the conspiracy to protect the election's integrity.",
-    aiTip:
-      "This quest has three investigation stages spread across three calendar days — start it at least four days before the next main quest deadline.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Noble+Conspiracy+walkthrough",
-    walkthrough: [
-      "Accept the quest from the anonymous tip contact with the '!' marker in Kriegante's town square.",
-      "On day 1, investigate the noble's estate by interviewing servants — gather statements from two of them.",
-      "On day 2, follow the money trail to the Kriegante counting house and access the fraudulent ledger.",
-      "On day 3, confront the noble conspirators at their planned meeting location.",
-      "Defeat the hired guards they bring to the confrontation and hand the evidence to the election commission for the reward."
-    ]
-  },
-  {
-    id: 1109,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Royal Document Recovery",
-    location: "Grand Trad Royal Archive",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, royal seal item, Courage growth",
-    summary:
-      "Critical royal documents have gone missing from the archive during the political chaos. Retrieve them before they fall into the wrong hands.",
-    aiTip:
-      "The thief who stole the documents took them to the market district — a Courage Rank 2 check convinces a fence to give up the buyer's location.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Royal+Document+Recovery+walkthrough",
-    walkthrough: [
-      "Speak to the archive custodian with the '!' marker in the Grand Trad Royal Archive.",
-      "Head to the market and locate the fence who received the stolen documents.",
-      "Pass the Courage Rank 2 dialogue check to get the buyer's identity and location.",
-      "Confront the buyer in the noble district — a short combat encounter follows.",
-      "Recover the documents and return them to the archive for MAG, the royal seal item, and Courage growth."
-    ]
-  },
-  {
-    id: 1110,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Assassin Plot",
-    location: "Martira",
-    length: "long",
-    difficulty: "Very High",
-    reward: "MAG, rare weapon, Courage growth",
-    summary:
-      "An assassination plot targeting an election candidate has been uncovered. Stop the assassins before the target is killed — failure ends the candidate's campaign permanently.",
-    aiTip:
-      "This quest is time-sensitive: once accepted, you have two calendar days to complete it. The assassins are among the toughest enemies in the side quest pool.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Assassin+Plot+walkthrough",
-    walkthrough: [
-      "Accept the urgent tip from the informant at Martira's tavern — the clock starts immediately.",
-      "Head to the candidate's safehouse and confirm the threat — pick up the assassins' trail from a witness.",
-      "Track the assassins to their staging point on the city's outskirts before nightfall on day 1.",
-      "Engage and defeat the two assassin vanguards — they hit hard; open with full buffs and Synthesis attacks.",
-      "Defeat the lead assassin (the toughest fight) and receive the rare weapon drop and Courage growth reward."
-    ]
-  },
-  // ── Retrieval / Dungeon Side Quests (SQ-46 to SQ-55) ──
-  {
-    id: 1111,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Retrieve Sacred Artifact",
-    location: "Grand Trad Cathedral Vault",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, sacred artifact item, bond growth",
-    summary:
-      "A sacred artifact has been moved to an unsecured part of the Grand Trad cathedral. Retrieve it before thieves can claim it.",
-    aiTip:
-      "The vault section of the cathedral has dark corridors that lower accuracy — equip a light skill before entering.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Retrieve+Sacred+Artifact+walkthrough",
-    walkthrough: [
-      "Speak to the cathedral keeper with the '!' marker about the missing artifact.",
-      "Enter the lower cathedral vault via the side passage behind the main altar.",
-      "Navigate the dark corridors using a light skill to maintain accuracy.",
-      "Retrieve the sacred artifact from the unmarked chest in the vault's final chamber.",
-      "Return it to the cathedral keeper for MAG and a bond growth reward."
-    ]
-  },
-  {
-    id: 1112,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Recover Lost Weapon",
-    location: "Martira battlefields",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, unique weapon, Courage growth",
-    summary:
-      "A soldier's heirloom weapon was lost on the battlefield outside Martira. Enter the monster-infested field to find it.",
-    aiTip:
-      "The weapon is in a chest guarded by a stronger-than-usual field enemy — preemptive strike from behind to get the initiative advantage.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Recover+Lost+Weapon+walkthrough",
-    walkthrough: [
-      "Accept the quest from the veteran soldier with the '!' marker at Fort Endra.",
-      "Travel to the battlefield zone outside Martira marked on the map.",
-      "Navigate the monster-infested field and locate the chest with the glowing marker.",
-      "Strike from behind the guarding enemy to get a preemptive round advantage.",
-      "After defeating the guardian, loot the chest and return the heirloom weapon to the soldier for your reward."
-    ]
-  },
-  {
-    id: 1113,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Ancient Relic Hunt",
-    location: "Skanda ruins",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, ancient relic equipment, Archetype mastery",
-    summary:
-      "A collector in Skanda is seeking ancient relics buried in the region's ruins. Retrieve three specific pieces from different ruin chambers.",
-    aiTip:
-      "Each chamber has a trap mechanic — step on the correct floor tiles to deactivate traps before opening the relic chest.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Ancient+Relic+Hunt+walkthrough",
-    walkthrough: [
-      "Accept the hunt from the collector with the '!' marker in Skanda's town.",
-      "Travel to the Skanda ruins and enter the first chamber — deactivate the trap tiles before opening the chest.",
-      "Proceed to the second chamber; the trap pattern here mirrors the wall symbols near the entrance.",
-      "In the third chamber, defeat the guardian enemy protecting the most valuable relic.",
-      "Return all three relics to the collector for a large MAG reward and ancient relic equipment."
-    ]
-  },
-  {
-    id: 1114,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Dungeon Key Search",
-    location: "Martira Dungeon",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, dungeon loot access, crafting materials",
-    summary:
-      "The key to a sealed treasure vault inside Martira's dungeon has been misplaced. Find the key and unlock the vault for the dungeon's keeper.",
-    aiTip:
-      "The key is held by a mid-boss on floor two — it will not drop unless you trigger the quest first, so accept it before entering the dungeon.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Dungeon+Key+Search+walkthrough",
-    walkthrough: [
-      "Speak to the dungeon keeper with the '!' marker at the Martira dungeon entrance.",
-      "Enter the dungeon and proceed to floor two, fighting through the standard enemy patrol.",
-      "Locate the mid-boss on floor two and defeat it to obtain the dungeon key.",
-      "Use the key on the sealed vault door in floor one's side corridor.",
-      "Loot the vault and return to the keeper with confirmation for MAG and crafting materials."
-    ]
-  },
-  {
-    id: 1115,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Hidden Treasure Map",
-    location: "Grand Trad and surrounds",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Large MAG payout, rare equipment",
-    summary:
-      "An old treasure map has surfaced in Grand Trad's market. Decode the map's clues to find the buried treasure before another party gets there first.",
-    aiTip:
-      "The three map clues correspond to city landmarks — the fountain, the gate, and the old tree — each pointing to the next location.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Treasure+Map+walkthrough",
-    walkthrough: [
-      "Purchase or receive the treasure map from an NPC with the '!' marker in the market.",
-      "Visit the fountain landmark and examine it to find the first directional clue.",
-      "Follow the clue to the city gate area and examine the base of the eastern pillar.",
-      "The second clue points to the old tree outside the residential district — dig at its base.",
-      "Collect the buried chest and open it for the rare equipment and large MAG payout."
-    ]
-  },
-  {
-    id: 1116,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Forgotten Library",
-    location: "Abandoned Wing, Grand Trad Library",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, lore books, Wisdom growth",
-    summary:
-      "A librarian reveals that an abandoned wing of the Grand Trad library holds books sealed off for decades. Clear out the monsters that moved in and recover the lost volumes.",
-    aiTip:
-      "The enemies in the abandoned wing are undead — bring light-element skills to sweep them efficiently.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forgotten+Library+walkthrough",
-    walkthrough: [
-      "Speak to the librarian with the '!' marker about the forbidden abandoned wing.",
-      "Gain access to the wing via a key the librarian provides.",
-      "Clear through the three rooms of undead enemies using light-element skills.",
-      "Collect the four sealed tomes scattered on the reading tables in the final room.",
-      "Return the tomes to the librarian for MAG and Wisdom growth."
-    ]
-  },
-  {
-    id: 1117,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Martira",
-    title: "Sunken Ruins Expedition",
-    location: "Coastal ruins near Martira",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, waterlogged treasure, unique accessory",
-    summary:
-      "Partially submerged coastal ruins near Martira hide a cache of pre-kingdom treasures. Wade into the ruins and retrieve them before the tides rise again.",
-    aiTip:
-      "The boss guarding the treasure cache is ice-elemental — bring fire Archetypes for easy damage and exploit the weakness for Press Turns.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Sunken+Ruins+Expedition+walkthrough",
-    walkthrough: [
-      "Accept the expedition request from the adventurer with the '!' marker at Port Brilehaven.",
-      "Travel to the coastal ruins location and navigate the flooded first floor on foot.",
-      "Fight through the aquatic enemies — they are weak to lightning.",
-      "Reach the central chamber where the ice-elemental boss guards the treasure cache.",
-      "Exploit the boss's fire weakness, loot the cache, and return to the adventurer for the unique accessory reward."
-    ]
-  },
-  {
-    id: 1118,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Crystal Core Retrieval",
-    location: "Skanda Crystal Caves",
-    length: "long",
-    difficulty: "High",
-    reward: "MAG, crystal core material, rare Archetype equipment",
-    summary:
-      "A craftsman in Skanda needs a crystal core from the depths of the local crystal caves to forge a special weapon. Retrieve the core from the cave's guarded inner chamber.",
-    aiTip:
-      "The Crystal Guardian boss shatters into multiple smaller crystals when damaged — use area-of-effect skills to damage all fragments simultaneously.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Crystal+Core+Retrieval+walkthrough",
-    walkthrough: [
-      "Accept the commission from the craftsman with the '!' marker in Skanda's market.",
-      "Enter the crystal caves and follow the luminescent trail to the inner chamber.",
-      "The Crystal Guardian splits into four fragments at 50% HP — switch to area-of-effect skills immediately.",
-      "Once all fragments are defeated, the crystal core is accessible in the cave's central plinth.",
-      "Retrieve the core and bring it to the craftsman for the unique Archetype equipment reward."
-    ]
-  },
-  {
-    id: 1119,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Kriegante",
-    title: "Forbidden Tome",
-    location: "Kriegante Castle Library",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "MAG, forbidden tome (lore item), Wisdom growth",
-    summary:
-      "A forbidden tome locked away in Kriegante Castle's private library contains dangerous knowledge. Retrieve it before the wrong people read it.",
-    aiTip:
-      "Access to the castle library requires either Louis's enemy status to have been established in the story, or a Wisdom Rank 4 forgery check.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Forbidden+Tome+walkthrough",
-    walkthrough: [
-      "Accept the quest from the scholar contact with the '!' marker in Kriegante's town.",
-      "Gain castle library access via the story flag or the Wisdom Rank 4 forgery check.",
-      "Navigate the library's restricted section — the tome is on the top shelf of the third bookcase.",
-      "A castle guard patrols the area; time your movement to avoid triggering combat.",
-      "Retrieve the tome and deliver it to the scholar for MAG and Wisdom growth."
-    ]
-  },
-  {
-    id: 1120,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Mystic Orb Recovery",
-    location: "Skanda Spirit Shrine",
-    length: "long",
-    difficulty: "Very High",
-    reward: "MAG, mystic orb (key item), powerful Archetype boost",
-    summary:
-      "A mystic orb of enormous power has been stolen from Skanda's spirit shrine and taken deep into a spirit-infested ruin. Recover it before it falls into enemy hands.",
-    aiTip:
-      "The spirit enemies here drain MP instead of HP on their special attacks — bring MP recovery items or a Knight tank to absorb the drain.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Mystic+Orb+Recovery+walkthrough",
-    walkthrough: [
-      "Accept the recovery quest from the shrine keeper with the '!' marker at Skanda's spirit shrine.",
-      "Enter the ruin and encounter the spirit enemies — bring MP recovery items to counter their drain attacks.",
-      "The orb is held by the Ruin Specter boss on the final floor — it reflects magic periodically.",
-      "Use physical attacks during the reflect phase and magic during the open phase.",
-      "Retrieve the mystic orb after defeating the Ruin Specter and return it to the shrine keeper for a powerful Archetype boost reward."
-    ]
-  },
-  // ── Special / Time-Gated Quests (SQ-56 to SQ-65) ──
-  {
-    id: 1121,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Festival Preparation",
-    location: "Grand Trad",
-    length: "short",
-    difficulty: "Low",
-    reward: "MAG, festival-exclusive items, social stat growth",
-    summary:
-      "Grand Trad is holding a festival and volunteers are needed to help set up. A brief but rewarding quest that unlocks festival-exclusive items only available during this calendar window.",
-    aiTip:
-      "The festival quest is available for only two calendar days — accept and complete it immediately when it appears.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Festival+Preparation+walkthrough",
-    walkthrough: [
-      "Spot the '!' marker at the Grand Trad plaza — it appears only during the designated festival calendar window.",
-      "Accept the organizer's request and complete the three preparation tasks: gather supplies, decorate the stall, and recruit a performer.",
-      "Each task is in a different part of the city — use the minimap markers to locate them efficiently.",
-      "Return to the organizer after completing all three tasks to trigger the festival opening cutscene.",
-      "Collect festival-exclusive items and social stat growth from the concluding conversation."
-    ]
-  },
-  {
-    id: 1122,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Tournament Qualifier",
-    location: "Grand Trad Arena",
-    length: "medium",
-    difficulty: "High",
-    reward: "MAG, arena ranking, equipment prize",
-    summary:
-      "Qualify for the Grand Trad Arena's main tournament bracket by winning the qualifier rounds. Three consecutive fights with increasing difficulty.",
-    aiTip:
-      "The third qualifier opponent uses a full buff rotation on turn one — dispel their buffs immediately with a Mage's dekaja skill.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Tournament+Qualifier+walkthrough",
-    walkthrough: [
-      "Register at the Grand Trad Arena front desk for the qualifier tournament.",
-      "Win the first qualifier fight — the opponent is straightforward, weak to ice.",
-      "Win the second fight — the opponent uses physical skills; keep your HP above 50%.",
-      "In the third fight, dispel the opponent's full buff stack immediately using dekaja, then burst with Synthesis attacks.",
-      "Collect the equipment prize and your arena ranking card at the conclusion."
-    ]
-  },
-  {
-    id: 1123,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Arena Challenge Series",
-    location: "Grand Trad Arena",
-    length: "long",
-    difficulty: "Very High",
-    reward: "MAG, champion title, rare equipment set",
-    summary:
-      "A multi-match challenge gauntlet at the Grand Trad Arena. Survive consecutive fights without recovering HP between rounds to claim the champion title and top-tier equipment.",
-    aiTip:
-      "Stock consumable HP restoratives before entering — you cannot visit the shop between rounds. Bring a healer Archetype as your primary.",
-    video: "https://www.youtube.com/watch?v=WicCVm90Phw"
-  },
-  {
-    id: 1124,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
-    title: "Companion Trial",
-    location: "Various — unlocked via Follower bonds",
-    length: "medium",
-    difficulty: "High",
-    reward: "Unique companion ability, bond max rank",
-    summary:
-      "Each party member has a final Companion Trial that tests them in a scenario tied to their personal story. Completing it maxes their bond rank and unlocks their ultimate ability.",
-    aiTip:
-      "Companion Trials unlock only after reaching Follower Rank 9 with the corresponding party member — invest time in their bond early.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Companion+Trial+walkthrough",
-    walkthrough: [
-      "Reach Follower Rank 9 with the companion whose trial you want to unlock.",
-      "The '!' trial marker appears at the companion's preferred location in the current city.",
-      "Accept the trial and engage in the story scenario unique to that companion's arc.",
-      "A final combat challenge occurs — use the companion's signature Archetype synergy to win.",
-      "Completion rewards max bond rank, the companion's ultimate ability, and a closing character scene."
-    ]
-  },
-  {
-    id: 1125,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Secret Ending Requirement Quest",
-    location: "Various — calendar-dependent",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Secret ending route unlocked",
-    summary:
-      "A hidden set of conditions that, when fulfilled, unlocks a secret ending path. Requires maxing specific Follower bonds, completing all Virtue Trials, and clearing a hidden dungeon before the final deadline.",
-    aiTip:
-      "Start this checklist from day one: max Gallica and Louis's bonds, complete all five Virtue Trials, and unlock the secret dungeon by reading the hidden memo in the Skanda library.",
-    video: "https://www.youtube.com/watch?v=tOx-mhC-VeY"
-  },
-  {
-    id: 1126,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Final Preparation Task",
-    location: "Gauntlet Runner / Skanda",
-    length: "short",
-    difficulty: "Low",
-    reward: "Party stat buffs, final supplies",
-    summary:
-      "A small set of tasks on the Gauntlet Runner and in Skanda town before the final dungeon locks out side content. Completing them provides permanent stat buffs for the finale.",
-    aiTip:
-      "These tasks are only available in the short window after MQ-09 and before entering the Skybound Avatar — do not skip them.",
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Final+Preparation+Task+walkthrough",
-    walkthrough: [
-      "After MQ-09 completes, speak to each party member on the Gauntlet Runner with a '!' marker.",
-      "Complete the three short activities they request — each takes less than one calendar day.",
-      "Visit the Skanda shop keeper with the '!' marker to receive a special pre-final supply package.",
-      "Use the supply package before entering the final dungeon to apply the permanent stat buffs.",
-      "Once all tasks are done, confirm readiness with Gallica to trigger the final dungeon entry."
-    ]
-  },
-  {
-    id: 1127,
-    type: "side",
-    game: "Metaphor: ReFantazio",
-    region: "Skanda",
-    title: "Hidden Postgame Challenge",
-    location: "Skanda Secret Dungeon",
-    length: "long",
-    difficulty: "Very High",
-    reward: "Postgame trophy, ultimate equipment, true platinum route",
-    summary:
-      "A secret dungeon only accessible after clearing the true ending. The ultimate challenge of Metaphor: ReFantazio — enemies here exceed final boss difficulty and require maxed-out Archetypes.",
-    aiTip:
-      "Bring your three strongest Archetype builds and enough revival items for a sustained run. The final floor boss has no elemental weakness.",
-    walkthrough: [
-      "Complete the true ending route and reach the postgame save point.",
-      "Look for the hidden dungeon entrance in the Skanda region — it only appears after the credits.",
-      "Stock up on revival items, MP restoratives, and high-tier consumables before entering.",
-      "Each floor introduces enemies that exceed final-boss difficulty; use Press Turn mechanics to chain weaknesses.",
-      "Max out your three primary Archetypes before attempting — underlevelled parties will be wiped on floor 3+.",
-      "The final floor boss has no elemental weakness; use your strongest physical and almighty skills.",
-      "Clearing the dungeon unlocks the ultimate equipment set and the platinum trophy route."
-    ],
-    video: "https://www.youtube.com/results?search_query=Metaphor+ReFantazio+Hidden+Postgame+Challenge+secret+dungeon"
-  },
-  {
+{
     id: 1134,
     type: "main",
     category: "Atsu's Journey",
@@ -20405,7 +18262,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Snake is the easiest of the Six. When he reaches back to grab dirt, dodge sideways immediately — the sand blinds you if you stay still. Block and counter-attack through his drunken stagger.",
     video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
   },
-  {
+{
     id: 1135,
     type: "main",
     category: "Atsu's Journey",
@@ -20430,7 +18287,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Rest at the inn to unlock the map expansion and advance to the next main quest."
     ]
   },
-  {
+{
     id: 1136,
     type: "main",
     category: "Atsu's Journey",
@@ -20455,7 +18312,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect the dual katana from the chest and equip it from the weapon wheel."
     ]
   },
-  {
+{
     id: 1137,
     type: "main",
     category: "Atsu's Journey",
@@ -20481,7 +18338,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Finish with a Ghost Stance execution when his posture breaks to end the mission."
     ]
   },
-  {
+{
     id: 1138,
     type: "main",
     category: "Atsu's Journey",
@@ -20506,7 +18363,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to the Grasslands after all four are dead to trigger the next story cutscene."
     ]
   },
-  {
+{
     id: 1139,
     type: "main",
     category: "Atsu's Journey",
@@ -20532,7 +18389,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Land the final blow during his exhaustion animation to trigger the execution cutscene."
     ]
   },
-  {
+{
     id: 1140,
     type: "main",
     category: "Atsu's Journey",
@@ -20558,7 +18415,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect the spirit token from the body and return it to the Nayoro elder to complete the quest."
     ]
   },
-  {
+{
     id: 1141,
     type: "main",
     category: "Atsu's Journey",
@@ -20584,7 +18441,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Escape through the manor's underground passage to trigger Part 2's unlock."
     ]
   },
-  {
+{
     id: 1142,
     type: "main",
     category: "Atsu's Journey",
@@ -20610,7 +18467,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Execute the finishing blow in the QTE to complete Part 2 and advance the story."
     ]
   },
-  {
+{
     id: 1144,
     type: "main",
     category: "Atsu's Journey",
@@ -20636,7 +18493,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Watch the ending cutscene in full — it determines which of two endings plays based on earlier choices."
     ]
   },
-  {
+{
     id: 1145,
     type: "side",
     category: "Post-Game",
@@ -20662,7 +18519,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the Unrivaled sword kit from the summit chest after victory."
     ]
   },
-  {
+{
     id: 1146,
     type: "side",
     category: "Post-Game",
@@ -20687,7 +18544,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Remaining random camps will stop respawning once all five strongholds are cleared."
     ]
   },
-  {
+{
     id: 1147,
     type: "side",
     category: "Post-Game",
@@ -20712,7 +18569,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "After all five are cleansed, return to the Nayoro elder for the cutscene and armour reward."
     ]
   },
-  {
+{
     id: 1148,
     type: "side",
     category: "Mythic Tales",
@@ -20729,7 +18586,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Each disciple uses a different weapon — switch your own weapon to counter theirs. Takezo himself telegraphs every attack with a breath pause; perfect deflection is rewarded with a massive posture break.",
     video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
   },
-  {
+{
     id: 1149,
     type: "side",
     category: "Mythic Tales",
@@ -20746,7 +18603,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The five trials are: stealth kill, perfect deflect, fear kill, horseback kill, and environmental kill. Read each waypoint inscription carefully — it describes exactly what the trial requires before you start.",
     video: "https://www.youtube.com/watch?v=tLoWypwSLyE"
   },
-  {
+{
     id: 1150,
     type: "side",
     category: "Mythic Tales",
@@ -20763,7 +18620,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Undying Samurai regenerates health unless you break his spirit seal — hit him three times with the Tanzutsu between each health bar. Stock up on gun powder before starting this quest.",
     video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
   },
-  {
+{
     id: 1151,
     type: "side",
     category: "Mythic Tales",
@@ -20780,7 +18637,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Spider Lily General inflicts poison on every hit — bring maximum antidote supplies and the medicine pouch upgrade. Her attack windows are short; focus on perfect deflects rather than aggression.",
     video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
   },
-  {
+{
     id: 1152,
     type: "side",
     category: "Mythic Tales",
@@ -20797,7 +18654,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The guardian spirit has no physical weak point — you must use the ritual fire arrows crafted during the quest to deal meaningful damage. Don't use them all in the first phase; save two for the final burst.",
     video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
   },
-  {
+{
     id: 1153,
     type: "side",
     category: "Mythic Tales",
@@ -20814,7 +18671,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Crimson Kimono boss fight takes place in a blizzard that limits visibility. Use your listening sense frequently to track her movement. She is vulnerable for only two seconds after each disappearing vanish.",
     video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
   },
-  {
+{
     id: 1154,
     type: "side",
     category: "Mythic Tales",
@@ -20831,7 +18688,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The Storm Blade's special attack sends a ranged lightning arc — upgrade it as soon as possible. The three trials can be done in any order; the water trial is easiest if done first to learn the puzzle pattern.",
     video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
   },
-  {
+{
     id: 1155,
     type: "side",
     category: "Sensei Tales",
@@ -20848,7 +18705,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Learn all three songs before leaving the quest area — the third is only available in this location. The Ainu Heirloom and Fox Den collectibles are easiest to find once this quest is complete.",
     video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
   },
-  {
+{
     id: 1156,
     type: "side",
     category: "Sensei Tales",
@@ -20873,7 +18730,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the odachi and the technique scroll after all three trials pass."
     ]
   },
-  {
+{
     id: 1157,
     type: "side",
     category: "Sensei Tales",
@@ -20898,7 +18755,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "After the fight, speak with Daisuke to receive the Rising Storm scroll."
     ]
   },
-  {
+{
     id: 1158,
     type: "side",
     category: "Sensei Tales",
@@ -20924,7 +18781,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Heaven's Fall scroll and say goodbye to Yoshida to complete the arc."
     ]
   },
-  {
+{
     id: 1159,
     type: "side",
     category: "Sensei Tales",
@@ -20948,7 +18805,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "After the raid, speak with Genzo to receive the cold-forged material and advance the Sensei arc."
     ]
   },
-  {
+{
     id: 1160,
     type: "side",
     category: "Sensei Tales",
@@ -20973,7 +18830,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the kusarigama and Chain Pull scroll after the bout."
     ]
   },
-  {
+{
     id: 1161,
     type: "side",
     category: "Sensei Tales",
@@ -20998,7 +18855,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Spinning Death scroll and return to Genzo to continue the arc."
     ]
   },
-  {
+{
     id: 1162,
     type: "side",
     category: "Sensei Tales",
@@ -21024,7 +18881,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Soul Reaper scroll from Kimura in gratitude."
     ]
   },
-  {
+{
     id: 1163,
     type: "side",
     category: "Sensei Tales",
@@ -21048,7 +18905,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Commission your first Teshio Steel armour upgrade to complete the quest."
     ]
   },
-  {
+{
     id: 1164,
     type: "side",
     category: "Sensei Tales",
@@ -21072,7 +18929,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Herbal Resolve charm and equip it in the charm menu to activate the upgrade."
     ]
   },
-  {
+{
     id: 1165,
     type: "side",
     category: "Sensei Tales",
@@ -21097,7 +18954,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Winning gives the permanent listening range upgrade and Mushin's departing riddle (flavour only)."
     ]
   },
-  {
+{
     id: 1166,
     type: "side",
     category: "Sensei Tales",
@@ -21122,7 +18979,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the yari and Charging Thrust scroll after completing all three trials."
     ]
   },
-  {
+{
     id: 1167,
     type: "side",
     category: "Sensei Tales",
@@ -21147,7 +19004,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Spinning Sweep scroll from Roku and return to Ishida."
     ]
   },
-  {
+{
     id: 1168,
     type: "side",
     category: "Sensei Tales",
@@ -21173,7 +19030,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the permanent Fury Stance unlock and the yari's final upgrade slot."
     ]
   },
-  {
+{
     id: 1169,
     type: "side",
     category: "Sensei Tales",
@@ -21197,7 +19054,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Sit with him for the brief conversation to receive the Persimmon Charm."
     ]
   },
-  {
+{
     id: 1170,
     type: "side",
     category: "Sensei Tales",
@@ -21222,7 +19079,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive all three bomb recipes and the crafting bench upgrade."
     ]
   },
-  {
+{
     id: 1171,
     type: "side",
     category: "Sensei Tales",
@@ -21247,7 +19104,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Fumiko for the oil jar and explosive arrow recipes to complete the quest."
     ]
   },
-  {
+{
     id: 1172,
     type: "side",
     category: "Sensei Tales",
@@ -21273,7 +19130,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the warlord to end the siege and unlock all remaining bomb upgrades in the crafting menu."
     ]
   },
-  {
+{
     id: 1173,
     type: "side",
     category: "Sensei Tales",
@@ -21298,7 +19155,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Ryo; he teaches the Tanzutsu in a brief tutorial and awards the Steady Shot scroll."
     ]
   },
-  {
+{
     id: 1174,
     type: "side",
     category: "Sensei Tales",
@@ -21323,7 +19180,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Resolve Regen passive upgrade permanently added to Atsu's skill sheet."
     ]
   },
-  {
+{
     id: 1175,
     type: "side",
     category: "Side Tales",
@@ -21347,7 +19204,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Kenji to receive the Trail Charm and unlock the forest shortcut on your map."
     ]
   },
-  {
+{
     id: 1176,
     type: "side",
     category: "Side Tales",
@@ -21371,7 +19228,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The bridge completes in a short cutscene; receive the Carpenter's Charm from Mio."
     ]
   },
-  {
+{
     id: 1177,
     type: "side",
     category: "Side Tales",
@@ -21395,7 +19252,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Watch the letter delivery cutscene; receive the Poet's Charm from Reiko."
     ]
   },
-  {
+{
     id: 1178,
     type: "side",
     category: "Side Tales",
@@ -21420,7 +19277,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Report to Noburu; both outcomes give the gold reward, but the peaceful path adds the Rescued Blade."
     ]
   },
-  {
+{
     id: 1179,
     type: "side",
     category: "Side Tales",
@@ -21445,7 +19302,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Lake Charm when Ume departs."
     ]
   },
-  {
+{
     id: 1180,
     type: "side",
     category: "Side Tales",
@@ -21470,7 +19327,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Survivor's Charm and the new ally contact marker on your map."
     ]
   },
-  {
+{
     id: 1181,
     type: "side",
     category: "Side Tales",
@@ -21494,7 +19351,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the intelligence note about the Yōtei Six and the Trickster's Charm."
     ]
   },
-  {
+{
     id: 1182,
     type: "side",
     category: "Side Tales",
@@ -21519,7 +19376,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the informant contact (new map markers) and the Sake Charm."
     ]
   },
-  {
+{
     id: 1183,
     type: "side",
     category: "Side Tales",
@@ -21544,7 +19401,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Present the relic to Ekashi to receive the Ainu Heirloom Charm and unlock Ainu content."
     ]
   },
-  {
+{
     id: 1184,
     type: "side",
     category: "Side Tales",
@@ -21569,7 +19426,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect your reward from Jiro's hidden cache under the barn floorboard regardless of path chosen."
     ]
   },
-  {
+{
     id: 1185,
     type: "side",
     category: "Side Tales",
@@ -21594,7 +19451,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Escort Yuki safely back to the village and receive the charm and bloom material."
     ]
   },
-  {
+{
     id: 1186,
     type: "side",
     category: "Side Tales",
@@ -21619,7 +19476,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Goto for the Honour Blade reward and duel techniques insight."
     ]
   },
-  {
+{
     id: 1187,
     type: "side",
     category: "Side Tales",
@@ -21644,7 +19501,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Report to the trading post elder for a finder's reward and Merchant's Contact."
     ]
   },
-  {
+{
     id: 1188,
     type: "side",
     category: "Side Tales",
@@ -21669,7 +19526,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Survivor's Pack and Mediation Charm from grateful survivor Hana."
     ]
   },
-  {
+{
     id: 1189,
     type: "side",
     category: "Side Tales",
@@ -21694,7 +19551,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Deliver the medicine to Sora; receive the Medicine Cache and Healer's Charm."
     ]
   },
-  {
+{
     id: 1190,
     type: "side",
     category: "Side Tales",
@@ -21719,7 +19576,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Stubborn Farmer's Charm from Gota's daughter."
     ]
   },
-  {
+{
     id: 1191,
     type: "side",
     category: "Side Tales",
@@ -21744,7 +19601,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Daichi; receive the Constable's Badge Charm."
     ]
   },
-  {
+{
     id: 1192,
     type: "side",
     category: "Side Tales",
@@ -21770,7 +19627,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the twelve enforcers in the settlement defence to complete the quest."
     ]
   },
-  {
+{
     id: 1193,
     type: "side",
     category: "Side Tales",
@@ -21796,7 +19653,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect the Dragonfly Armour and weight reduction upgrade from Chiyo."
     ]
   },
-  {
+{
     id: 1194,
     type: "side",
     category: "Side Tales",
@@ -21821,7 +19678,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Speak with both veterans together at the memorial stone to conclude and receive the charm."
     ]
   },
-  {
+{
     id: 1195,
     type: "side",
     category: "Side Tales",
@@ -21847,7 +19704,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Keiko; receive the Resonance Charm and a shamisen upgrade."
     ]
   },
-  {
+{
     id: 1196,
     type: "side",
     category: "Side Tales",
@@ -21872,7 +19729,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to the inn to find the family reunited; receive the Liberator's Charm."
     ]
   },
-  {
+{
     id: 1197,
     type: "side",
     category: "Side Tales",
@@ -21897,7 +19754,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Exit the forest with Sipne and receive the Forest Spirit Charm."
     ]
   },
-  {
+{
     id: 1198,
     type: "side",
     category: "Side Tales",
@@ -21923,7 +19780,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Master's Disguise Charm and a new assassination technique from the search of their belongings."
     ]
   },
-  {
+{
     id: 1199,
     type: "side",
     category: "Side Tales",
@@ -21948,7 +19805,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Choose 'show them the evidence' to resolve peacefully and earn both rewards."
     ]
   },
-  {
+{
     id: 1200,
     type: "side",
     category: "Side Tales",
@@ -21973,7 +19830,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Ainu Trial Charm and the Nayoro community alliance marker."
     ]
   },
-  {
+{
     id: 1201,
     type: "side",
     category: "Side Tales",
@@ -21998,7 +19855,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Escort the carriers to the Nayoro village and receive the Packhorse Charm and fast-travel route."
     ]
   },
-  {
+{
     id: 1202,
     type: "side",
     category: "Side Tales",
@@ -22023,7 +19880,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the monk and recover the stolen seal; return it to the first village elder."
     ]
   },
-  {
+{
     id: 1203,
     type: "side",
     category: "Side Tales",
@@ -22048,7 +19905,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return it to the village elder using the provided carrying wrap; receive the Hunter's Charm."
     ]
   },
-  {
+{
     id: 1204,
     type: "side",
     category: "Side Tales",
@@ -22074,7 +19931,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reunite the brothers; receive the Brotherhood Charm and supply cache coordinates."
     ]
   },
-  {
+{
     id: 1205,
     type: "side",
     category: "Side Tales",
@@ -22099,7 +19956,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Choose 'teach her' to add Kohana as an ally and receive the Apprentice's Charm."
     ]
   },
-  {
+{
     id: 1206,
     type: "side",
     category: "Side Tales",
@@ -22124,7 +19981,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return both scroll caches to Daiki and receive the Commission Charm and armour decoration."
     ]
   },
-  {
+{
     id: 1207,
     type: "side",
     category: "Side Tales",
@@ -22149,7 +20006,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Bold Kaji upgrade tier and rare ore bonus."
     ]
   },
-  {
+{
     id: 1208,
     type: "side",
     category: "Side Tales",
@@ -22175,7 +20032,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hold the garrison for 60 seconds while a small relief wave attacks — then the garrison is secured."
     ]
   },
-  {
+{
     id: 1209,
     type: "side",
     category: "Side Tales",
@@ -22200,7 +20057,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Harvest Charm and watch the fields reclamation cutscene."
     ]
   },
-  {
+{
     id: 1210,
     type: "side",
     category: "Side Tales",
@@ -22225,7 +20082,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Help Masa reopen the inn; it becomes a safe house and the Innkeeper's Charm is awarded."
     ]
   },
-  {
+{
     id: 1211,
     type: "side",
     category: "Side Tales",
@@ -22251,7 +20108,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Storm Survival Charm and new intelligence after the confrontation."
     ]
   },
-  {
+{
     id: 1212,
     type: "side",
     category: "Side Tales",
@@ -22276,7 +20133,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Help Cho escape with her winnings; receive the Gambler's Fortune Charm and gold from her share."
     ]
   },
-  {
+{
     id: 1213,
     type: "side",
     category: "Side Tales",
@@ -22301,7 +20158,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Escort all three scouts to the military post; receive the Scout's Compass Charm."
     ]
   },
-  {
+{
     id: 1214,
     type: "side",
     category: "Side Tales",
@@ -22325,7 +20182,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Sentinel's Charm and the lore document about Ishikari's history."
     ]
   },
-  {
+{
     id: 1215,
     type: "side",
     category: "Side Tales",
@@ -22350,7 +20207,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Distribute the gold manually to three villages for the force path completion."
     ]
   },
-  {
+{
     id: 1216,
     type: "side",
     category: "Side Tales",
@@ -22375,7 +20232,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Deliver the logbook to Kaida; receive the intelligence and Broker's Charm."
     ]
   },
-  {
+{
     id: 1217,
     type: "side",
     category: "Side Tales",
@@ -22400,7 +20257,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Ami with her half of the treasure; receive the Sailor's Charm from her gratitude."
     ]
   },
-  {
+{
     id: 1218,
     type: "side",
     category: "Side Tales",
@@ -22426,7 +20283,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Usurper's Seal and Legitimacy Charm."
     ]
   },
-  {
+{
     id: 1219,
     type: "side",
     category: "Side Tales",
@@ -22452,7 +20309,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Iron Fist Charm from the grateful village headman."
     ]
   },
-  {
+{
     id: 1220,
     type: "side",
     category: "Side Tales",
@@ -22477,7 +20334,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Avalanche Survivor's Charm once all six are safe."
     ]
   },
-  {
+{
     id: 1221,
     type: "side",
     category: "Side Tales",
@@ -22502,7 +20359,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Receive the Northern Trade Charm and the new trade route map marker."
     ]
   },
-  {
+{
     id: 1222,
     type: "side",
     category: "Side Tales",
@@ -22527,7 +20384,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "After Wave 2, a brief cutscene ends the siege; receive the charm and alliance unlock."
     ]
   },
-  {
+{
     id: 1223,
     type: "side",
     category: "Bounties",
@@ -22552,7 +20409,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Kojiro to claim the reward."
     ]
   },
-  {
+{
     id: 1224,
     type: "side",
     category: "Bounties",
@@ -22577,7 +20434,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return to Kojiro for the reward."
     ]
   },
-  {
+{
     id: 1225,
     type: "side",
     category: "Bounties",
@@ -22602,7 +20459,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1226,
     type: "side",
     category: "Bounties",
@@ -22627,7 +20484,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat her and report to Kojiro."
     ]
   },
-  {
+{
     id: 1227,
     type: "side",
     category: "Bounties",
@@ -22652,7 +20509,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Report all three kills to Kojiro for the combined reward."
     ]
   },
-  {
+{
     id: 1228,
     type: "side",
     category: "Bounties",
@@ -22677,7 +20534,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect the bounty from Kojiro."
     ]
   },
-  {
+{
     id: 1229,
     type: "side",
     category: "Bounties",
@@ -22702,7 +20559,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1230,
     type: "side",
     category: "Bounties",
@@ -22726,7 +20583,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat Moritaka and claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1231,
     type: "side",
     category: "Bounties",
@@ -22751,7 +20608,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1232,
     type: "side",
     category: "Bounties",
@@ -22776,7 +20633,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1233,
     type: "side",
     category: "Bounties",
@@ -22802,7 +20659,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat Toyotaro and claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1234,
     type: "side",
     category: "Bounties",
@@ -22827,7 +20684,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1235,
     type: "side",
     category: "Bounties",
@@ -22853,7 +20710,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1236,
     type: "side",
     category: "Bounties",
@@ -22879,7 +20736,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1237,
     type: "side",
     category: "Bounties",
@@ -22905,7 +20762,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1238,
     type: "side",
     category: "Bounties",
@@ -22930,7 +20787,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat Hachibee and claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1239,
     type: "side",
     category: "Bounties",
@@ -22955,7 +20812,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1240,
     type: "side",
     category: "Bounties",
@@ -22979,7 +20836,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat him and claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1241,
     type: "side",
     category: "Bounties",
@@ -23004,7 +20861,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro after defeating him."
     ]
   },
-  {
+{
     id: 1242,
     type: "side",
     category: "Bounties",
@@ -23028,7 +20885,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Both resolutions pay the same reward from Kojiro."
     ]
   },
-  {
+{
     id: 1243,
     type: "side",
     category: "Bounties",
@@ -23053,7 +20910,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hand Yae to the Ishikari authorities or take the direct bounty from Kojiro."
     ]
   },
-  {
+{
     id: 1244,
     type: "side",
     category: "Bounties",
@@ -23078,7 +20935,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1245,
     type: "side",
     category: "Bounties",
@@ -23103,7 +20960,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1246,
     type: "side",
     category: "Bounties",
@@ -23127,7 +20984,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1247,
     type: "side",
     category: "Bounties",
@@ -23152,7 +21009,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1248,
     type: "side",
     category: "Bounties",
@@ -23176,7 +21033,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro — possibly the fastest bounty completion in the game."
     ]
   },
-  {
+{
     id: 1249,
     type: "side",
     category: "Bounties",
@@ -23201,7 +21058,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1250,
     type: "side",
     category: "Bounties",
@@ -23226,7 +21083,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1251,
     type: "side",
     category: "Bounties",
@@ -23252,7 +21109,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1252,
     type: "side",
     category: "Bounties",
@@ -23278,7 +21135,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the reward from Kojiro."
     ]
   },
-  {
+{
     id: 1253,
     type: "side",
     category: "Bounties",
@@ -23304,7 +21161,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Claim the bounty from Kojiro."
     ]
   },
-  {
+{
     id: 1254,
     type: "main",
     category: "Main Story",
@@ -23319,7 +21176,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Pure tutorial-chase — learn wall-running and Force Slow. Don't panic during the train-slicing set piece; follow the prompts and keep moving.",
     video: "https://www.youtube.com/watch?v=WY1p5aYkvP8"
   },
-  {
+{
     id: 1255,
     type: "main",
     category: "Main Story",
@@ -23334,7 +21191,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Meet BD-1 at the Meditation Point, then use the sliding vines and wall-runs to cross the sinkhole. Scan everything — Bogano is a collectibles hub you'll revisit.",
     video: "https://www.youtube.com/watch?v=mPbFFbGYb6Q"
   },
-  {
+{
     id: 1256,
     type: "main",
     category: "Main Story",
@@ -23349,7 +21206,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Scan the central altar to trigger Cordova's message. This sets your whole journey: Zeffo, Kashyyyk and Dathomir. Grab the nearby chest before leaving.",
     video: "https://www.youtube.com/watch?v=GBCyJhnzOfI"
   },
-  {
+{
     id: 1257,
     type: "main",
     category: "Main Story",
@@ -23364,7 +21221,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Use Slow on the spinning fan blades and Scomp-lock the security doors. Stormtroopers here punish greed — parry and counter rather than mashing.",
     video: "https://www.youtube.com/watch?v=1Y82XevS5u0"
   },
-  {
+{
     id: 1258,
     type: "main",
     category: "Main Story",
@@ -23379,7 +21236,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Force Push the wind-powered puzzles and use rusted hull panels as ramps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
     video: "https://www.youtube.com/watch?v=swz22XR5QF0"
   },
-  {
+{
     id: 1259,
     type: "main",
     category: "Main Story",
@@ -23394,7 +21251,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
     video: "https://www.youtube.com/watch?v=9NFf6c6ygEA"
   },
-  {
+{
     id: 1260,
     type: "main",
     category: "Main Story",
@@ -23409,7 +21266,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
     video: "https://www.youtube.com/watch?v=KSwswrolt40"
   },
-  {
+{
     id: 1261,
     type: "main",
     category: "Main Story",
@@ -23424,7 +21281,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "She has huge unblockable (red) swings — dodge, don't parry those. Punish the recovery after her overhead slam and save stims for the second phase.",
     video: "https://www.youtube.com/watch?v=0f3-FSqM0vw"
   },
-  {
+{
     id: 1262,
     type: "main",
     category: "Main Story",
@@ -23439,7 +21296,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "This is a long vertical gauntlet — top up stims before you start. The climbing and zipline traversal is as dangerous as the enemies; watch your footing.",
     video: "https://www.youtube.com/watch?v=mqhLzW3Ygec"
   },
-  {
+{
     id: 1263,
     type: "main",
     category: "Main Story",
@@ -23454,7 +21311,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Undead Nightbrothers resurrect unless you deathblow them — clear rooms decisively. You'll be turned back on the first visit; return after Ilum with new powers.",
     video: "https://www.youtube.com/watch?v=p1jDXfoq6rs"
   },
-  {
+{
     id: 1264,
     type: "main",
     category: "Main Story",
@@ -23469,7 +21326,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The crystal cave is one large puzzle — split the giant crystal with your Force powers to progress. Building the saber unlocks the double-bladed stance.",
     video: "https://www.youtube.com/watch?v=rRGG-NAIcXE"
   },
-  {
+{
     id: 1265,
     type: "main",
     category: "Main Story",
@@ -23484,7 +21341,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Malicos mixes lightsaber and Force-throw attacks — stay mobile and punish his combo enders. Merrin's help turns the tide; survive the opening rush.",
     video: "https://www.youtube.com/watch?v=99ZQcyja3KQ"
   },
-  {
+{
     id: 1266,
     type: "main",
     category: "Main Story",
@@ -23499,7 +21356,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Trilla is fast and aggressive with unblockable stabs. Bait her lunges, dodge sideways, and counter. Don't get greedy between her combos.",
     video: "https://www.youtube.com/watch?v=VhcaxfUsqyw"
   },
-  {
+{
     id: 1267,
     type: "main",
     category: "Main Story",
@@ -23514,7 +21371,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Flood-and-swim traversal and heavy Purge Trooper fights await — upgrade your stims beforehand and save resources for the Trilla rematch at the top.",
     video: "https://www.youtube.com/watch?v=G6jmOpk1On8"
   },
-  {
+{
     id: 1268,
     type: "main",
     category: "Main Story",
@@ -23529,7 +21386,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "You cannot beat Vader — this is a survival/escape sequence. Use the environment (Force Push the debris and water valves) and run for the exit; don't stand and fight.",
     video: "https://www.youtube.com/watch?v=OMf8vZGGDSo"
   },
-  {
+{
     id: 1269,
     type: "side",
     category: "Legendary Beast",
@@ -23544,7 +21401,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "One of the hardest fights relative to your level. Its tongue-grab and bite are unblockable — dodge, land two hits, reset. Bring full stims; patience wins.",
     video: "https://www.youtube.com/watch?v=KrBOOyUHpjo"
   },
-  {
+{
     id: 1270,
     type: "side",
     category: "Legendary Beast",
@@ -23559,7 +21416,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Open with a jump-attack from the ledge above to steal early damage. Its heavy overheads are unblockable; circle-strafe and punish after each swing.",
     video: "https://www.youtube.com/watch?v=a_vs_HIj_EA"
   },
-  {
+{
     id: 1271,
     type: "side",
     category: "Legendary Beast",
@@ -23574,7 +21431,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It webs you in place and lunges — cut the web fast and dodge the leap. Fight near the entrance so you're not cornered by its ranged web spit.",
     video: "https://www.youtube.com/watch?v=Rln6LHdASQA"
   },
-  {
+{
     id: 1272,
     type: "side",
     category: "Legendary Beast",
@@ -23589,7 +21446,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Return with climbing claws and upgraded health. It hits hard and fast; bait its lunge, dodge through, and punish. Clearing all four unlocks the trophy.",
     video: "https://www.youtube.com/watch?v=zSNuTPkJ1Dw"
   },
-  {
+{
     id: 1273,
     type: "side",
     category: "Tomb & Puzzle",
@@ -23604,7 +21461,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Everything revolves around the giant metal balls and wind vents. Roll a ball into a socket to raise stairs; save the optional Force Essence room for a return with Push.",
     video: "https://www.youtube.com/watch?v=YSiLe6jGV_o"
   },
-  {
+{
     id: 1274,
     type: "side",
     category: "Tomb & Puzzle",
@@ -23619,7 +21476,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Use the giant hanging plates and pull-ropes to build climbing routes. The magnetic-ball wall puzzle is the tricky one — rotate the room, then pull the ball across.",
     video: "https://www.youtube.com/watch?v=6XHoC3oKHHE"
   },
-  {
+{
     id: 1275,
     type: "side",
     category: "Tomb & Puzzle",
@@ -23634,7 +21491,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Darker and more combat-heavy than the Zeffo tombs. Use your full kit — Push, Pull and Slow together solve the late rooms. Grab the Force Essence before the exit.",
     video: "https://www.youtube.com/watch?v=CGWyPxeMe6s"
   },
-  {
+{
     id: 1276,
     type: "side",
     category: "Collectibles",
@@ -23649,7 +21506,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Many chests need abilities you unlock later — don't chase 100% on a first pass. Use the holomap's per-zone percentage and return once you have Push, Pull and Overcharge.",
     video: "https://www.youtube.com/watch?v=Y4jqjCIvkZs"
   },
-  {
+{
     id: 1277,
     type: "side",
     category: "Collectibles",
@@ -23664,7 +21521,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "BD-1 pings when one is near — pan the camera and scan glowing objects. They also grant XP, so scanning as you explore quietly levels your skill tree.",
     video: "https://www.youtube.com/watch?v=JWRyi2fK63A"
   },
-  {
+{
     id: 1278,
     type: "side",
     category: "Collectibles",
@@ -23679,7 +21536,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Seven are story-unmissable; the other 12 need BD-1 to prompt a scan in specific spots. Grab them on later revisits when more of each planet is reachable.",
     video: "https://www.youtube.com/watch?v=tO_MdvgScLU"
   },
-  {
+{
     id: 1279,
     type: "side",
     category: "Collectibles",
@@ -23694,7 +21551,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Prioritize these above cosmetics — more stims make every boss easier. Collecting all ten earns the Medical Droid trophy and maxes your heals at eight.",
     video: "https://www.youtube.com/watch?v=6BkyXNX2zJU"
   },
-  {
+{
     id: 1280,
     type: "side",
     category: "Collectibles",
@@ -23709,7 +21566,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "These sit behind the game's trickier optional puzzles and mini-boss arenas. Chase them after you have the full ability kit so nothing is locked away.",
     video: "https://www.youtube.com/watch?v=pdMS4e7yO5A"
   },
-  {
+{
     id: 1281,
     type: "side",
     category: "Collectibles",
@@ -23724,7 +21581,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Purely optional and cosmetic — scan unusual plants when BD-1 flags them. Finding all ten completes the terrarium for the Green Thumb trophy.",
     video: "https://www.youtube.com/watch?v=HsEOvh9acjQ"
   },
-  {
+{
     id: 1282,
     type: "main",
     category: "Main Story",
@@ -23739,7 +21596,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "This is an extended tutorial — relearn your traversal and try each stance. When you crash-land, don't rush; the opening cantina and Undercity teach the game's grappling and dash before Koboh opens up.",
     video: "https://www.youtube.com/watch?v=B2lWAsYZ3po"
   },
-  {
+{
     id: 1283,
     type: "main",
     category: "Main Story",
@@ -23754,7 +21611,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Follow the road from the crash site and meet Turgle. Koboh is the game's hub — once you reach Pyloon's Saloon, Greez, Zee and the rumor board unlock, so make this your home base.",
     video: "https://www.youtube.com/watch?v=NmTYDt0WfwI"
   },
-  {
+{
     id: 1284,
     type: "main",
     category: "Main Story",
@@ -23769,7 +21626,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Talk to everyone before leaving — Zee sells maps and Doma sells upgrades. This is where you'll return to recruit saloon patrons via Rumors, so note the empty tables you can fill later.",
     video: "https://www.youtube.com/watch?v=UWbe-7RJuOo"
   },
-  {
+{
     id: 1285,
     type: "main",
     category: "Main Story",
@@ -23784,7 +21641,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Use the new mounts and traversal here. The bog hides several Legendary enemies — leave the toughest for later and stick to the main path if you're under-leveled.",
     video: "https://www.youtube.com/watch?v=wxLu-c0vX_A"
   },
-  {
+{
     id: 1286,
     type: "main",
     category: "Main Story",
@@ -23799,7 +21656,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The Dagan duel is a real difficulty spike — learn to parry his flurries rather than dodge. Losing here is scripted the first time, so focus on reading his tells.",
     video: "https://www.youtube.com/watch?v=kgpDU160w1I"
   },
-  {
+{
     id: 1287,
     type: "main",
     category: "Main Story",
@@ -23814,7 +21671,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Jedha opens the second big explorable region and the Cordova rumor board. Ride the mounts across the dunes and grab the Archive's meditation upgrades before advancing.",
     video: "https://www.youtube.com/watch?v=B0D8I3dGmDY"
   },
-  {
+{
     id: 1288,
     type: "main",
     category: "Main Story",
@@ -23829,7 +21686,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The Lucrehulk is a compact combat gauntlet. Bring your strongest stance and use Merrin's confusion charm on the Raider mobs to thin them before they swarm.",
     video: "https://www.youtube.com/watch?v=EbsaVb1pVZA"
   },
-  {
+{
     id: 1289,
     type: "main",
     category: "Main Story",
@@ -23844,7 +21701,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Zero-gravity platforming and heavy droid enemies dominate here. The Forge is long with few rest points — top up your stims at the saloon before you launch.",
     video: "https://www.youtube.com/watch?v=QNqymIvcJWc"
   },
-  {
+{
     id: 1290,
     type: "main",
     category: "Main Story",
@@ -23859,7 +21716,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "This second Dagan fight is winnable — punish his heavy overheads and keep Merrin nearby. Clear the Raider adds first so you can duel Dagan one-on-one.",
     video: "https://www.youtube.com/watch?v=yxZKn4gCPEw"
   },
-  {
+{
     id: 1291,
     type: "main",
     category: "Main Story",
@@ -23874,7 +21731,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Rayvis regenerates — you must break his composure meter, not just his health. Parry his cannon and hammer combos, then unload during the stagger windows.",
     video: "https://www.youtube.com/watch?v=72hNbLIlvjo"
   },
-  {
+{
     id: 1292,
     type: "main",
     category: "Main Story",
@@ -23889,7 +21746,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The Path is a puzzle-traversal stretch with wind currents and force-echoes. Scan the murals — they foreshadow the compass mechanism you'll use at the sanctuary.",
     video: "https://www.youtube.com/watch?v=W9whMuUP9jY"
   },
-  {
+{
     id: 1293,
     type: "main",
     category: "Main Story",
@@ -23904,7 +21761,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The sanctuary's final chamber is a light-and-mirror puzzle — use Force Pull on the reflectors in sequence. Save your Force meter for the guardian encounter at the top.",
     video: "https://www.youtube.com/watch?v=JfIYsdob5Mc"
   },
-  {
+{
     id: 1294,
     type: "main",
     category: "Main Story",
@@ -23919,7 +21776,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "This is a story-heavy beat with a scripted loss. There's little to do mechanically; brace for the emotional gut-punch and the tone shift into the final act.",
     video: "https://www.youtube.com/watch?v=Pyxj1c7B5No"
   },
-  {
+{
     id: 1295,
     type: "main",
     category: "Main Story",
@@ -23934,7 +21791,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "A wave-defense gauntlet — use choke points and Merrin's magick to control the crowds. Keep moving between the Archive's tiers rather than getting cornered.",
     video: "https://www.youtube.com/watch?v=fXzcKzvDizU"
   },
-  {
+{
     id: 1296,
     type: "main",
     category: "Main Story",
@@ -23949,7 +21806,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The Abyss run is a set-piece flight sequence — follow the compass markers and don't fight the controls. Once through, Tanalorr's serene vistas signal the endgame.",
     video: "https://www.youtube.com/watch?v=ZY1Y2GhvKxg"
   },
-  {
+{
     id: 1297,
     type: "main",
     category: "Main Story",
@@ -23964,7 +21821,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Nova Garon is a dense stealth-and-combat fortress. Purge Troopers and Security Droids hit hard — use the environment and pick off patrols before triggering alarms.",
     video: "https://www.youtube.com/watch?v=ms2u1pC_HSs"
   },
-  {
+{
     id: 1298,
     type: "main",
     category: "Main Story",
@@ -23979,7 +21836,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "A running-battle escape — prioritize mobility over clearing every enemy. Board the shuttle as soon as the path opens; lingering only spawns more Purge Troopers.",
     video: "https://www.youtube.com/watch?v=jeZPF6cStLg"
   },
-  {
+{
     id: 1299,
     type: "main",
     category: "Main Story",
@@ -23994,7 +21851,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Bode uses blaster-and-saber hybrid tactics across two phases. Deflect his blaster bolts back at him, then close distance for the saber phase — patience wins the run.",
     video: "https://www.youtube.com/watch?v=NlgTbpU0BAY"
   },
-  {
+{
     id: 1300,
     type: "side",
     category: "Legendary Enemy",
@@ -24009,7 +21866,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Bring the Crossguard stance for the raw damage and use pillars to break line of sight. Slow it with Force Stasis during its ground-pound to open big punish windows.",
     video: "https://www.youtube.com/watch?v=b4-Sim9Bi70"
   },
-  {
+{
     id: 1301,
     type: "side",
     category: "Legendary Enemy",
@@ -24024,7 +21881,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Deflect its blaster volleys back and close the gap during reloads. Its melee slam is heavily telegraphed — dodge through, don't block.",
     video: "https://www.youtube.com/watch?v=mwS_l-txlc0"
   },
-  {
+{
     id: 1302,
     type: "side",
     category: "Legendary Enemy",
@@ -24039,7 +21896,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Stay at mid-range and bait the charge, then dash aside and punish the recovery. Blaster stance chips it safely if you struggle up close.",
     video: "https://www.youtube.com/watch?v=UXwuY9TugVw"
   },
-  {
+{
     id: 1303,
     type: "side",
     category: "Legendary Enemy",
@@ -24054,7 +21911,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Its spin-rush is unblockable — dodge, don't parry. Attack only after it uncurls, and keep BD-1's stims ready for the shock combos.",
     video: "https://www.youtube.com/watch?v=-pdB-2yQkGQ"
   },
-  {
+{
     id: 1304,
     type: "side",
     category: "Legendary Enemy",
@@ -24069,7 +21926,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Its tongue-grab is a one-shot at low health — parry it on reaction. Fight defensively, punish two hits at a time, and never get greedy.",
     video: "https://www.youtube.com/watch?v=va0b9hRuoe8"
   },
-  {
+{
     id: 1305,
     type: "side",
     category: "Legendary Enemy",
@@ -24084,7 +21941,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Keep your guard up for the lunge chains and counter after the third strike. Dual-wield stance shreds it once you learn the rhythm.",
     video: "https://www.youtube.com/watch?v=fi4427j3yAY"
   },
-  {
+{
     id: 1306,
     type: "side",
     category: "Legendary Enemy",
@@ -24099,7 +21956,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It surfaces to strike then submerges — punish the emerge animation. Stay on dry ground so its water-lunge is easier to read.",
     video: "https://www.youtube.com/watch?v=z-jOlMB99dE"
   },
-  {
+{
     id: 1307,
     type: "side",
     category: "Legendary Enemy",
@@ -24114,7 +21971,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Watch the dirt tremors to predict its emerge point and roll clear. Hit it hard while it's surfaced, then reposition before it burrows again.",
     video: "https://www.youtube.com/watch?v=OCeO8YSiZf8"
   },
-  {
+{
     id: 1308,
     type: "side",
     category: "Legendary Enemy",
@@ -24129,7 +21986,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Like Rayvis, break his poise rather than racing his health bar. Parry the hammer combos and unload during the stagger; the fight is a marathon, not a sprint.",
     video: "https://www.youtube.com/watch?v=uISvP1zwF3k"
   },
-  {
+{
     id: 1309,
     type: "side",
     category: "Legendary Enemy",
@@ -24144,7 +22001,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Its overhead grab is unblockable — dodge and punish the whiff. Confusion charm helps if adds join, but the Jotaz alone rewards patient counters.",
     video: "https://www.youtube.com/watch?v=A2YckZfBgaw"
   },
-  {
+{
     id: 1310,
     type: "side",
     category: "Legendary Enemy",
@@ -24159,7 +22016,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Reflect its rapid blaster bursts to build stagger, then close in. Its shield bash is parryable — hold the line and counter for big damage.",
     video: "https://www.youtube.com/watch?v=8QVWMOIWoCo"
   },
-  {
+{
     id: 1311,
     type: "side",
     category: "Legendary Enemy",
@@ -24174,7 +22031,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Its burrow-and-lunge mirrors the Bilemaw — read the sand plumes. Target the softer underbelly when it rears up to bite.",
     video: "https://www.youtube.com/watch?v=8rAuR_lN30E"
   },
-  {
+{
     id: 1312,
     type: "side",
     category: "Legendary Enemy",
@@ -24189,7 +22046,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It darts in and out with poison swipes — keep your distance closed so it can't strafe. Parry the double-swipe and punish between its aerial dashes.",
     video: "https://www.youtube.com/watch?v=LGBqviOG2S4"
   },
-  {
+{
     id: 1313,
     type: "side",
     category: "Legendary Bounty",
@@ -24204,7 +22061,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "An easy warm-up bounty — parry his saber-pike combos and counter. Good practice for the harder hunters to come.",
     video: "https://www.youtube.com/watch?v=nUv0xU9eDC0"
   },
-  {
+{
     id: 1314,
     type: "side",
     category: "Legendary Bounty",
@@ -24219,7 +22076,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Deflect his blaster fire back to stagger him, then close in. Watch for the thermal detonators he lobs when cornered.",
     video: "https://www.youtube.com/watch?v=eFExq0vkQlQ"
   },
-  {
+{
     id: 1315,
     type: "side",
     category: "Legendary Bounty",
@@ -24234,7 +22091,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "He summons droid backup — take out the adds first, then focus him. Slow stance helps manage the chaos.",
     video: "https://www.youtube.com/watch?v=07D5v8FjTT8"
   },
-  {
+{
     id: 1316,
     type: "side",
     category: "Legendary Bounty",
@@ -24249,7 +22106,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "He's fast and dodge-heavy — bait his lunges and punish recovery rather than chasing. Dual-wield keeps pace with him.",
     video: "https://www.youtube.com/watch?v=4a3QAkkvmwU"
   },
-  {
+{
     id: 1317,
     type: "side",
     category: "Legendary Bounty",
@@ -24264,7 +22121,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Her armor shrugs off light hits — use Crossguard heavy attacks and Force Slow to crack her guard.",
     video: "https://www.youtube.com/watch?v=Viw2Wbv4U8I"
   },
-  {
+{
     id: 1318,
     type: "side",
     category: "Legendary Bounty",
@@ -24279,7 +22136,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Thin her pack before engaging Raz directly. Confusion charm turns her beasts against her for an easy opening.",
     video: "https://www.youtube.com/watch?v=94pN_vCvX9Q"
   },
-  {
+{
     id: 1319,
     type: "side",
     category: "Legendary Bounty",
@@ -24294,7 +22151,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "A ranged specialist — use cover and reflect his shots. Close distance fast so his crew can't triangulate you.",
     video: "https://www.youtube.com/watch?v=SvKjn_fgcf4"
   },
-  {
+{
     id: 1320,
     type: "side",
     category: "Legendary Bounty",
@@ -24309,7 +22166,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It fights with dual vibroblades and quick teleport-dashes. Parry the blade flurries and punish after its dash combo ends.",
     video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
   },
-  {
+{
     id: 1321,
     type: "side",
     category: "Legendary Bounty",
@@ -24324,7 +22181,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Often fought near Masi — isolate them if you can. Fenn favors aggressive saber rushes; parry and counter methodically.",
     video: "https://www.youtube.com/watch?v=F9LTCniVyHA"
   },
-  {
+{
     id: 1322,
     type: "side",
     category: "Legendary Bounty",
@@ -24339,7 +22196,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Masi lays down ranged support — close on Masi first to stop the crossfire, then mop up. Mind both aggro bars at once.",
     video: "https://www.youtube.com/watch?v=7pP_1MH1JA0"
   },
-  {
+{
     id: 1323,
     type: "side",
     category: "Legendary Bounty",
@@ -24354,7 +22211,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It overcharges its shell for burst damage — back off during the glow, then punish when it cools. Reflect its ranged volleys.",
     video: "https://www.youtube.com/watch?v=9XfvJMKnjxA"
   },
-  {
+{
     id: 1324,
     type: "side",
     category: "Legendary Bounty",
@@ -24369,7 +22226,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "The pair coordinate attacks — use pillars to fight them one at a time. Take Corde down before its droid partner overwhelms you.",
     video: "https://www.youtube.com/watch?v=FRl6U2OlHiw"
   },
-  {
+{
     id: 1325,
     type: "side",
     category: "Legendary Bounty",
@@ -24384,7 +22241,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "It shields Corde and lays down suppressing fire. Reflect its blasts and stagger it so you can split the pair apart.",
     video: "https://www.youtube.com/watch?v=Ri2U6zcwUb4"
   },
-  {
+{
     id: 1326,
     type: "side",
     category: "Legendary Bounty",
@@ -24399,7 +22256,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Aggressive and relentless — hold your parry timing and don't panic-dodge. Counter her frenzied combos two hits at a time.",
     video: "https://www.youtube.com/watch?v=jBgjD7q_Mhc"
   },
-  {
+{
     id: 1327,
     type: "side",
     category: "Legendary Bounty",
@@ -24414,7 +22271,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "A clean dueling test — no adds, just footwork. Read the tells, parry the mixups, and punish the recovery frames.",
     video: "https://www.youtube.com/watch?v=XYOePv3dN6A"
   },
-  {
+{
     id: 1328,
     type: "side",
     category: "Legendary Bounty",
@@ -24429,7 +22286,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Kili blends blaster and blade — deflect at range, then pressure up close so the ranged phase can't reset.",
     video: "https://www.youtube.com/watch?v=-LqGtGQo_pQ"
   },
-  {
+{
     id: 1329,
     type: "side",
     category: "Legendary Bounty",
@@ -24444,7 +22301,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Caij is a skilled duelist who fights fair — this is the graduation exam for everything the bounties taught you. Stay patient and read her mixups.",
     video: "https://www.youtube.com/watch?v=cNYK_2ayH6o"
   },
-  {
+{
     id: 1330,
     type: "side",
     category: "Jedi Chamber",
@@ -24459,7 +22316,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Plan the whole route before you start the timer. Chain grapple points without stopping — hesitation resets the run.",
     video: "https://www.youtube.com/watch?v=EJTZQ-3JVIc"
   },
-  {
+{
     id: 1331,
     type: "side",
     category: "Jedi Chamber",
@@ -24474,7 +22331,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Clear each wave before touching the puzzle nodes. Keep your Force meter for the ability-gated platform between fights.",
     video: "https://www.youtube.com/watch?v=jOIRsipoolg"
   },
-  {
+{
     id: 1332,
     type: "side",
     category: "Jedi Chamber",
@@ -24489,7 +22346,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Solve it in stages — set one orb, lock it, then move to the next. Use Force Slow on moving platforms to line up throws.",
     video: "https://www.youtube.com/watch?v=eiAPTdlKWHc"
   },
-  {
+{
     id: 1333,
     type: "side",
     category: "Jedi Chamber",
@@ -24504,7 +22361,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Roll the sphere along magnetic tracks and use Pull to redirect it mid-air. Patience beats speed — small adjustments only.",
     video: "https://www.youtube.com/watch?v=0vXOTtyPhUc"
   },
-  {
+{
     id: 1334,
     type: "side",
     category: "Jedi Chamber",
@@ -24519,7 +22376,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Changes in one room affect the other — track both states. Use the meditation reset if you desync the mechanisms.",
     video: "https://www.youtube.com/watch?v=KuFKBfhiJpU"
   },
-  {
+{
     id: 1335,
     type: "side",
     category: "Jedi Chamber",
@@ -24534,7 +22391,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "This one gates on the Shatter ability — return once you have it. Solve the mirrored halves symmetrically to open the core.",
     video: "https://www.youtube.com/watch?v=UTocnO1jr4E"
   },
-  {
+{
     id: 1336,
     type: "side",
     category: "Jedi Chamber",
@@ -24549,7 +22406,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Alternate abilities on the fly — the trial punishes muscle-memory single-inputs. Learn the loop, then execute it clean.",
     video: "https://www.youtube.com/watch?v=CHtaWfBIjU4"
   },
-  {
+{
     id: 1337,
     type: "side",
     category: "Collectibles",
@@ -24564,7 +22421,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Buy every map from Zee to reveal chest icons, then sweep regions once you have the full traversal kit. Cosmetics only, so chase these at your own pace.",
     video: "https://www.youtube.com/watch?v=sVEkPNxmAiQ"
   },
-  {
+{
     id: 1338,
     type: "side",
     category: "Collectibles",
@@ -24579,7 +22436,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "These are the highest-value collectible in the game. Prioritize them early; more stims makes every boss and Legendary fight dramatically easier.",
     video: "https://www.youtube.com/watch?v=emihiFBTxF8"
   },
-  {
+{
     id: 1339,
     type: "side",
     category: "Collectibles",
@@ -24601,7 +22458,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20all%20essences%20collectibles%20walkthrough"
   },
-  {
+{
     id: 1340,
     type: "side",
     category: "Collectibles",
@@ -24616,7 +22473,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Grab shards opportunistically while exploring — you never need to farm them. They pile up naturally as you clear chests and side content.",
     video: "https://www.youtube.com/watch?v=BhZEapPrM7E"
   },
-  {
+{
     id: 1341,
     type: "side",
     category: "Collectibles",
@@ -24631,7 +22488,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Let BD-1 scan everything that pings — echoes are easy XP and deepen the story. Many are missable if you leave a region, so scan as you go.",
     video: "https://www.youtube.com/watch?v=85af_VIUc0E"
   },
-  {
+{
     id: 1342,
     type: "side",
     category: "Collectibles",
@@ -24646,7 +22503,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "Recruit Pili first (Check in With Pili rumor) to unlock the garden. Seeds are purely for completion and the associated trophy — no combat value.",
     video: "https://www.youtube.com/watch?v=62jgOzK9pXw"
   },
-  {
+{
     id: 1343,
     type: "side",
     category: "Collectibles",
@@ -24661,7 +22518,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip: "These reward thorough traversal — check ledges above and below the main path. Use the region maps to spot the ones you've missed on a cleanup run.",
     video: "https://www.youtube.com/watch?v=Kf3xtBvSURo"
   },
-  {
+{
     id: 1344,
     type: "side",
     category: "Rumor",
@@ -24682,7 +22539,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Abandoned%20Shack%20walkthrough"
   },
-  {
+{
     id: 1345,
     type: "side",
     category: "Rumor",
@@ -24703,7 +22560,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20the%20Mysterious%20Fisherman%20walkthrough"
   },
-  {
+{
     id: 1346,
     type: "side",
     category: "Rumor",
@@ -24724,7 +22581,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20the%20Musician%20and%20Their%20Droid%20walkthrough"
   },
-  {
+{
     id: 1347,
     type: "side",
     category: "Rumor",
@@ -24745,7 +22602,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Help%20Zygg%20in%20the%20Swamp%20walkthrough"
   },
-  {
+{
     id: 1348,
     type: "side",
     category: "Rumor",
@@ -24766,7 +22623,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20the%20Jawa%20Settlement%20walkthrough"
   },
-  {
+{
     id: 1349,
     type: "side",
     category: "Rumor",
@@ -24787,7 +22644,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Locate%20the%20Odd%20Pair%20walkthrough"
   },
-  {
+{
     id: 1350,
     type: "side",
     category: "Rumor",
@@ -24808,7 +22665,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Missing%20Prospectors%20walkthrough"
   },
-  {
+{
     id: 1351,
     type: "side",
     category: "Rumor",
@@ -24829,7 +22686,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
   },
-  {
+{
     id: 1352,
     type: "side",
     category: "Rumor",
@@ -24850,7 +22707,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Central%20Valley%20Facility%20walkthrough"
   },
-  {
+{
     id: 1353,
     type: "side",
     category: "Rumor",
@@ -24871,7 +22728,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Roller%20Mine%20Factory%20walkthrough"
   },
-  {
+{
     id: 1354,
     type: "side",
     category: "Rumor",
@@ -24892,7 +22749,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Forest%20walkthrough"
   },
-  {
+{
     id: 1355,
     type: "side",
     category: "Rumor",
@@ -24913,7 +22770,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20on%20the%20Mountain%20walkthrough"
   },
-  {
+{
     id: 1356,
     type: "side",
     category: "Rumor",
@@ -24934,7 +22791,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20in%20With%20Pili%20walkthrough"
   },
-  {
+{
     id: 1357,
     type: "side",
     category: "Rumor",
@@ -24955,7 +22812,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Northern%20Desert%20walkthrough"
   },
-  {
+{
     id: 1358,
     type: "side",
     category: "Rumor",
@@ -24976,7 +22833,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Southern%20Desert%20walkthrough"
   },
-  {
+{
     id: 1359,
     type: "side",
     category: "Rumor",
@@ -24997,7 +22854,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
   },
-  {
+{
     id: 1360,
     type: "side",
     category: "Rumor",
@@ -25018,7 +22875,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Raider%20Watchtower%20walkthrough"
   },
-  {
+{
     id: 1361,
     type: "side",
     category: "Rumor",
@@ -25039,7 +22896,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Swamp%20walkthrough"
   },
-  {
+{
     id: 1362,
     type: "side",
     category: "Rumor",
@@ -25060,7 +22917,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Valley%20walkthrough"
   },
-  {
+{
     id: 1363,
     type: "side",
     category: "Rumor",
@@ -25081,7 +22938,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20Ashe%20Javi%20%26%20DD-EC%20walkthrough"
   },
-  {
+{
     id: 1364,
     type: "side",
     category: "Rumor",
@@ -25102,7 +22959,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20T-1N8%20walkthrough"
   },
-  {
+{
     id: 1365,
     type: "side",
     category: "Rumor",
@@ -25123,7 +22980,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20Wini%20%26%20Zygg%20walkthrough"
   },
-  {
+{
     id: 1366,
     type: "side",
     category: "Rumor",
@@ -25144,7 +23001,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Use%20the%20Saloon's%20Jukebox%20walkthrough"
   },
-  {
+{
     id: 1367,
     type: "side",
     category: "Rumor",
@@ -25165,7 +23022,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20the%20Aquarium%20walkthrough"
   },
-  {
+{
     id: 1368,
     type: "side",
     category: "Rumor",
@@ -25186,7 +23043,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Play%20a%20Holotactics%20Game%20walkthrough"
   },
-  {
+{
     id: 1369,
     type: "side",
     category: "Rumor",
@@ -25207,7 +23064,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Doma's%20Shop%20walkthrough"
   },
-  {
+{
     id: 1370,
     type: "side",
     category: "Rumor",
@@ -25228,7 +23085,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Zee's%20Shop%20walkthrough"
   },
-  {
+{
     id: 1371,
     type: "side",
     category: "Rumor",
@@ -25248,5 +23105,1405 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach the lower vault and claim its contents to complete the rumor."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Factory's%20Lower%20Levels%20walkthrough"
+  },
+  {
+    id: 1132,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Save the Prince from Death's Curse",
+    location: "Regalith Grand Cathedral, Grand Trad",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression; Healer Archetype access",
+    summary: "The opening main quest: reach the cursed prince in the Regalith Grand Cathedral and confront the threat on his life.",
+    aiTip: "Learn to guard and hit weaknesses early — the cathedral's enemies punish reckless play before you have healing to spare.",
+    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
+  },
+  {
+    id: 1133,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Necromancer Takedown",
+    location: "Grand Trad",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Track down and defeat the necromancer behind the cathedral's undead to push the main story forward.",
+    aiTip: "Stock light/fire skills — the necromancer's undead minions fold quickly to holy and fire damage.",
+    video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
+  },
+  {
+    id: 1059,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Thwart Zorba's Plan",
+    location: "Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Uncover and stop Zorba's scheme as the journey reaches Martira.",
+    aiTip: "Rebuild your Archetype line-up for the new region's enemies before entering the dungeon.",
+    video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
+  },
+  {
+    id: 1060,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Apprehend the Real Kidnapper",
+    location: "Martira",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression; Heismay",
+    summary: "Clear the framed suspect's name and catch the true Old Castle Town kidnapper.",
+    aiTip: "Follow the investigation dialogue carefully — talking to the right witnesses shortens the hunt.",
+    video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
+  },
+  {
+    id: 1061,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Infiltrate the Charadrius",
+    location: "Charadrius (airship)",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Board and infiltrate the great airship Charadrius to advance toward the next region.",
+    aiTip: "You can reach Louis's room via any one of the officers' keys — grab whichever is convenient.",
+    video: "https://www.youtube.com/watch?v=fOzug0yoLCg"
+  },
+  {
+    id: 1062,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Obtain Drakodios",
+    location: "Kriegante",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression; Drakodios",
+    summary: "Secure the legendary weapon Drakodios during the Kriegante stretch of the story.",
+    aiTip: "Bring a balanced party — the guardians here hit multiple elements, so cover your weaknesses.",
+    video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
+  },
+  {
+    id: 1063,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Ancestral Solution",
+    location: "Skanda",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Pursue the ancestral answer the journey has been building toward.",
+    aiTip: "Upgrade your Elite Archetypes before this arc — the difficulty ramps sharply.",
+    video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
+  },
+  {
+    id: 1064,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Eliminate Virga Island's Threat",
+    location: "Virga Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Confront and remove the threat looming over Virga Island.",
+    aiTip: "Save before the boss and stock revival items — this is a long, multi-phase fight.",
+    video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
+  },
+  {
+    id: 1065,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Prepare for the Final Battle",
+    location: "Skanda",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Make your final preparations before the climactic confrontation.",
+    aiTip: "Wrap up followers and requests now — this is the last comfortable window before the finale.",
+    video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
+  },
+  {
+    id: 1066,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Skybound Avatar Conquest",
+    location: "Skybound Avatar",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Scale and conquer the Skybound Avatar in the penultimate main quest.",
+    aiTip: "Bring your strongest single-target nukes — the Avatar has enormous HP.",
+    video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
+  },
+  {
+    id: 1067,
+    type: "main",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Save the Country",
+    location: "Skanda",
+    length: "long",
+    difficulty: "High",
+    reward: "Ending",
+    summary: "The final main quest: end the threat and save the country.",
+    aiTip: "Buff, guard the opening turns, then commit — the last boss rewards patience over aggression.",
+    video: "https://www.youtube.com/watch?v=kt2jvZc6BHg"
+  },
+  {
+    id: 1068,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task: Foreword and Prologue",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Incense; Imagination +4",
+    summary: "More's first task, accepted automatically at More Rank 2: raise the Healer Archetype to Rank 10.",
+    aiTip: "Any party member can rank the Healer Archetype — rotate it onto whoever fights most.",
+    video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
+  },
+  {
+    id: 1069,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "More's Task Chapter One: Ordeal",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Fruit x5; Imagination +4",
+    summary: "Accepted automatically at More Rank 3: study the Gunner Archetype.",
+    aiTip: "Studying just means unlocking it in the Archetype menu — no need to master it.",
+    video: "https://www.youtube.com/watch?v=burZDgeyC88"
+  },
+  {
+    id: 1070,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Two: Solitude",
+    location: "Martira",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Fruit x8; Imagination +4; More Rank 4",
+    summary: "Accepted automatically at More Rank 4: raise the Merchant Archetype to Rank 15.",
+    aiTip: "Merchant ranks fast from selling and its cheap skills — slot it before grinding.",
+    video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
+  },
+  {
+    id: 1071,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "More's Task Chapter Three: Drifting",
+    location: "Martira",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hero's Leaf of Light x5; Imagination +4; More Rank 5",
+    summary: "Accepted automatically at More Rank 5: study 15 different Archetypes.",
+    aiTip: "Unlock lineages broadly — you only need each Archetype studied, not leveled.",
+    video: "https://www.youtube.com/watch?v=TSww6LGRKiE"
+  },
+  {
+    id: 1072,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "More's Task Chapter Four: Turmoil",
+    location: "Kriegante",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hero's Leaf of Light; Imagination +4",
+    summary: "Unlocked after More Rank 5: raise the General Archetype to Rank 15.",
+    aiTip: "General ranks up through its physical skills — pair it with a Might-heavy character.",
+    video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
+  },
+  {
+    id: 1073,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "More's Task Chapter Five: Resolve",
+    location: "Kriegante",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hero's Jewelled Root x5; Imagination +4",
+    summary: "Unlocked after More Rank 6: study 25 different Archetypes.",
+    aiTip: "By late game you'll have most lineages unlocked — mop up the cheap ones to finish.",
+    video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
+  },
+  {
+    id: 1074,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "More's Task Chapter Six: The End",
+    location: "Skanda",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Hero's Jewelled Root x8; Imagination +4",
+    summary: "Unlocked after More Rank 7: master an Elite Archetype.",
+    aiTip: "Pick an Elite you already use heavily — mastering one you're invested in is fastest.",
+    video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
+  },
+  {
+    id: 17,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Pagan's Dilemma",
+    location: "Outside the Inn, Sunshade Row, Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rusted Accessory; Tolerance +4",
+    summary: "The Mustari man outside the Sunshade Row inn asks you to buy him a Breath of Fresh Air.",
+    aiTip: "Buy the Breath of Fresh Air at St. Fermis Church on Sunlumeo Street for 500 Reeve, then return.",
+    video: "https://www.youtube.com/watch?v=Qp8q2DB5MFw"
+  },
+  {
+    id: 16,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Help the Hushed Honeybee",
+    location: "Sunlumeo Street, Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Magla Pill x3; Wisdom +4",
+    summary: "A young Nidia man on Sunlumeo Street asks you to lend a hand at the Hushed Honeybee Inn.",
+    aiTip: "Head to the Hushed Honeybee Inn on Sunshade Row and follow the prompt to help out.",
+    video: "https://www.youtube.com/watch?v=zNjNXgEthy4"
+  },
+  {
+    id: 18,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "A Friend in Need",
+    location: "Regalith Grand Cathedral, Grand Trad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "5,000 Reeve; Brawler Archetype (Catherina Follower)",
+    summary: "Automatically accepted on entering the Mausoleum — rescue the hostages held inside the Regalith Grand Cathedral.",
+    aiTip: "Clear the cathedral's rooms methodically; freeing the hostages unlocks Catherina and the Brawler Archetype line.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Friend%20in%20Need%20walkthrough",
+    walkthrough: [
+      "Enter the Mausoleum beneath the Regalith Grand Cathedral to auto-accept the quest.",
+      "Work through the cathedral, defeating the guards holding the hostages.",
+      "Reach and free the captives.",
+      "Report back to complete the quest and unlock Catherina (Brawler Archetype)."
+    ]
+  },
+  {
+    id: 82,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Bullish Embargo",
+    location: "Sunlumeo Street, Grand Trad; Belega Corridor",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pious Igniter; Courage +4; 7,500 Reeve; Merchant Archetype (Brigitta Follower)",
+    summary: "The Igniter Merchantess on Sunlumeo Street (Rank 2 Wisdom required) asks you to slay the Guptauros in Belega Corridor.",
+    aiTip: "You need Rank 2 Wisdom to accept — build it if the option is greyed out. The Guptauros is weak to well-timed weakness hits.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bullish%20Embargo%20walkthrough",
+    walkthrough: [
+      "Reach Rank 2 Wisdom, then talk to the Igniter Merchantess on Sunlumeo Street.",
+      "Travel to Belega Corridor.",
+      "Defeat the Guptauros boss.",
+      "Return to claim the Pious Igniter and unlock Brigitta (Merchant Archetype)."
+    ]
+  },
+  {
+    id: 83,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Man's Not-So-Best Friend",
+    location: "Recruitment Center; Tradia Desert",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4; 10,000 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss lurking in the Tradia Desert.",
+    aiTip: "Accept it from the Recruitment Center board, then clear Tradia Desert to the boss arena.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Man's%20Not-So-Best%20Friend%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to the Tradia Desert.",
+      "Fight through to the boss.",
+      "Defeat it and turn the bounty in for the reward."
+    ]
+  },
+  {
+    id: 84,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Promising Returns",
+    location: "Home, Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Curative Coney Roast",
+    summary: "Auto-accepted on 06/23 — Maria waits at home to hear tales of the strange places you've visited.",
+    aiTip: "Return home and speak with Maria after 06/23 to hand it in.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Promising%20Returns%20walkthrough",
+    walkthrough: [
+      "Wait for the quest to auto-accept on 06/23.",
+      "Return to your home base.",
+      "Talk to Maria and share your travels.",
+      "Collect the Curative Coney Roast."
+    ]
+  },
+  {
+    id: 153,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Providing a Spark",
+    location: "Komero",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hero's Incense x5; Gunner Archetype (Neuras Follower)",
+    summary: "Auto-accepted on 06/26 — travel to the village of Komero.",
+    aiTip: "Completing this unlocks Neuras and the Gunner Archetype, plus his Relic Search chain.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Providing%20a%20Spark%20walkthrough",
+    walkthrough: [
+      "Let the quest auto-accept on 06/26.",
+      "Fast-travel to Komero, east of Martira.",
+      "Meet Neuras and resolve the situation there.",
+      "Finish to unlock Neuras (Gunner Archetype)."
+    ]
+  },
+  {
+    id: 154,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "The Old Castle Town Kidnapper",
+    location: "Martira",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4; 100,000 Reeve",
+    summary: "A story bounty that completes automatically as you find Heismay in Old Castle Town.",
+    aiTip: "You can't miss this — it resolves during the main story when Heismay joins.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Old%20Castle%20Town%20Kidnapper%20walkthrough",
+    walkthrough: [
+      "Accept/track the bounty during the Martira story beats.",
+      "Progress the main story to locate Heismay.",
+      "The bounty auto-completes when the kidnapper is caught.",
+      "Collect the sizeable Reeve reward."
+    ]
+  },
+  {
+    id: 155,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "A Dagger, a Ring, and a Rake",
+    location: "Thoroughfare Square, Martira; Abandoned Tomb",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Grius's Memento; Courage +4; 15,000 Reeve",
+    summary: "The Pompous Man in Thoroughfare Square (Rank 2 Imagination, from 6/28) wants Malveno's Ring recovered from the Abandoned Tomb.",
+    aiTip: "The informant at the Thoroughfare Square tavern points you to Cuculus and the ring's location.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Dagger%2C%20a%20Ring%2C%20and%20a%20Rake%20walkthrough",
+    walkthrough: [
+      "Reach Rank 2 Imagination and talk to the Pompous Man in Thoroughfare Square on/after 6/28.",
+      "Ask the tavern informant for details on Malveno's Ring.",
+      "Search the Abandoned Tomb and recover the ring (Cuculus).",
+      "Return it for Grius's Memento and the reward."
+    ]
+  },
+  {
+    id: 156,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Hatching a Plan",
+    location: "Thoroughfare Square, Martira; Komero",
+    length: "short",
+    difficulty: "Low",
+    reward: "Invincible Noodles; 7,500 Reeve",
+    summary: "The Gloomy Youth in Thoroughfare Square (from 6/28) asks for a Practical Pigeon Parcel from Komero.",
+    aiTip: "Buy the parcel in Komero, the village east of Martira, then bring it back.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Hatching%20a%20Plan%20walkthrough",
+    walkthrough: [
+      "Talk to the Gloomy Youth in Thoroughfare Square on/after 6/28.",
+      "Travel to Komero and purchase a Practical Pigeon Parcel.",
+      "Return to Martira.",
+      "Hand the parcel over for the reward."
+    ]
+  },
+  {
+    id: 157,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "The New King of the Imps",
+    location: "Recruit Dispatcher, Martira; Imp's Den",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Courage +4; 16,000 Reeve",
+    summary: "A Recruit Dispatcher request in Martira: slay the Goborn King in the Imp's Den to the east.",
+    aiTip: "The Imp's Den lies east of Martira; clear to the boss chamber for the Goborn King.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20New%20King%20of%20the%20Imps%20walkthrough",
+    walkthrough: [
+      "Accept the request from the Recruit Dispatcher in Martira.",
+      "Travel east to the Imp's Den.",
+      "Defeat the Goborn King.",
+      "Report back for the reward."
+    ]
+  },
+  {
+    id: 158,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Relic Search: Inventor's Bequest",
+    location: "Man-Eater's Grotto",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Incense x10",
+    summary: "Auto-accepted after Providing a Spark — find Neuras's coveted relic in Man-Eater's Grotto.",
+    aiTip: "The relic sits in a chest inside Man-Eater's Grotto; grab it and return to Neuras.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Inventor's%20Bequest%20walkthrough",
+    walkthrough: [
+      "Complete Providing a Spark to auto-accept this relic search.",
+      "Travel to Man-Eater's Grotto.",
+      "Open the chest holding Neuras's relic.",
+      "Return it to Neuras for Hero's Incense."
+    ]
+  },
+  {
+    id: 718,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "A Noble's Legacy",
+    location: "Grand Cathedral, Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tolerance +4",
+    summary: "Starts during Strohl Rank 5 (Rank 3 Imagination) — speak with the fishmonger near the Grand Cathedral, then the Capital Merchant.",
+    aiTip: "You'll need Rank 3 Imagination to progress the dialogue chain.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Noble's%20Legacy%20walkthrough",
+    walkthrough: [
+      "Reach Strohl Rank 5 to start the quest.",
+      "Talk to the fishmonger near the Grand Cathedral in Grand Trad.",
+      "Speak with the Capital Merchant (Rank 3 Imagination required).",
+      "Finish the exchange to complete it."
+    ]
+  },
+  {
+    id: 719,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "A Haunted Heirloom",
+    location: "Sunlumeo Street, Grand Trad; Cathedral Mausoleum",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sandglass Cuirass; Courage +4",
+    summary: "The Resentful Noble on Sunlumeo Street wants a black jewel necklace recovered from the cathedral mausoleum's specters.",
+    aiTip: "The necklace is held by specters in the mausoleum — defeat them to reclaim it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Haunted%20Heirloom%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Resentful Noble on Sunlumeo Street.",
+      "Enter the cathedral mausoleum.",
+      "Defeat the specters holding the black jewel necklace.",
+      "Return it for the Sandglass Cuirass."
+    ]
+  },
+  {
+    id: 720,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Skullduggery",
+    location: "Catacombs Entrance, Grand Trad; Grand Cathedral Mausoleum",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Brigandine; 3,000 Reeve",
+    summary: "The Nervous Soldier at the Catacombs Entrance asks you to gather eight Mortaskulls from the Grand Cathedral mausoleum.",
+    aiTip: "Mortaskulls drop from the undead in the mausoleum — farm encounters until you have eight.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Skullduggery%20walkthrough",
+    walkthrough: [
+      "Talk to the Nervous Soldier at the Catacombs Entrance.",
+      "Enter the Grand Cathedral mausoleum.",
+      "Defeat enemies to collect eight Mortaskulls.",
+      "Return them for the Brigandine and Reeve."
+    ]
+  },
+  {
+    id: 721,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "The Queen of Cuisine: Heart",
+    location: "Grand Trad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Limp Goldfish x1; Brocaded Koi x1",
+    summary: "The Classy Woman asks for a dish cooked with Mellow Milk.",
+    aiTip: "Cook any recipe that uses Mellow Milk, then deliver it to her.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Queen%20of%20Cuisine%3A%20Heart%20walkthrough",
+    walkthrough: [
+      "Accept the request from the Classy Woman.",
+      "Cook a dish containing Mellow Milk.",
+      "Bring the dish back to her.",
+      "Hand it over for the fishing rewards."
+    ]
+  },
+  {
+    id: 722,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Relic Search: Dregs of Destiny",
+    location: "Tomb of Lament",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Fruit x6",
+    summary: "Auto-accepted at Neuras Rank 2 — find Neuras's relic in the Tomb of Lament.",
+    aiTip: "The relic is in a chest within the Tomb of Lament.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Dregs%20of%20Destiny%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 2 to auto-accept the relic search.",
+      "Travel to the Tomb of Lament.",
+      "Open the chest containing the relic.",
+      "Return it to Neuras for Hero's Fruit."
+    ]
+  },
+  {
+    id: 723,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Soldier's Solace",
+    location: "Gracia Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Dragonblood Sap; 30,000 Reeve",
+    summary: "The Exhausted Woman asks you to collect seven Dragonthistle berries from Gracia Forest.",
+    aiTip: "Dragonthistle berries are gathering nodes in Gracia Forest — sweep the area for all seven.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Soldier's%20Solace%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Exhausted Woman.",
+      "Travel to Gracia Forest.",
+      "Gather seven Dragonthistle berries.",
+      "Return them for the Dragonblood Sap and Reeve."
+    ]
+  },
+  {
+    id: 724,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Deeds and Diversions",
+    location: "Nightprowler; Varmareno Coliseum, Arena Wharf",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Chef's Toque x1; 10,000 Reeve",
+    summary: "The Overfamiliar Man in the Nightprowler wants a deed taken as loan collateral retrieved from the nobleman creditor.",
+    aiTip: "The creditor is found at the Varmareno Coliseum in Arena Wharf — negotiate (or fight) to reclaim the deed.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Deeds%20and%20Diversions%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Overfamiliar Man in the Nightprowler.",
+      "Head to the Varmareno Coliseum in Arena Wharf.",
+      "Confront the nobleman creditor and retrieve the deed.",
+      "Return it for the Chef's Toque and Reeve."
+    ]
+  },
+  {
+    id: 725,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Grand Trad",
+    title: "Efflorescent Youth",
+    location: "Sunlumeo Street, Royal Capital",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tolerance +4; 4,000 Reeve",
+    summary: "The Kindly Boy asks you to buy a rare flower from St. Fermis Church on Sunlumeo Street.",
+    aiTip: "Purchase the flower at St. Fermis Church, then bring it back.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Efflorescent%20Youth%20walkthrough",
+    walkthrough: [
+      "Talk to the Kindly Boy to accept the quest.",
+      "Buy the rare flower at St. Fermis Church on Sunlumeo Street.",
+      "Return to the boy.",
+      "Hand over the flower for the reward."
+    ]
+  },
+  {
+    id: 726,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Dental Distress",
+    location: "Inudo",
+    length: "short",
+    difficulty: "Low",
+    reward: "15,000 Reeve",
+    summary: "The Sullen Man asks you to obtain the Toothbrush of Hygiena from Inudo.",
+    aiTip: "Pick up the Toothbrush of Hygiena in Inudo and return it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Dental%20Distress%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Sullen Man.",
+      "Travel to Inudo.",
+      "Obtain the Toothbrush of Hygiena.",
+      "Return it for 15,000 Reeve."
+    ]
+  },
+  {
+    id: 727,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Obtain Sergeant Xanth's Key",
+    location: "Charadrius (airship)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Charadrius access key; story progression",
+    summary: "Auto-accepted in the Charadrius dungeon — take the key Sergeant Xanth holds to reach Louis's room.",
+    aiTip: "Any one of the three officers' keys opens Louis's room; this is Xanth's route.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Sergeant%20Xanth's%20Key%20walkthrough",
+    walkthrough: [
+      "Progress into the Charadrius to auto-accept the objective.",
+      "Locate Sergeant Xanth aboard the airship.",
+      "Defeat him and take his key.",
+      "Use it to access Louis's room."
+    ]
+  },
+  {
+    id: 728,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Obtain Maintenance Chief Ceiba's Key",
+    location: "Charadrius (airship)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Charadrius access key; story progression",
+    summary: "Auto-accepted in the Charadrius dungeon — take the key Maintenance Chief Ceiba holds (either this or Glechom's key is needed).",
+    aiTip: "You only need one officer's key; Ceiba's and Glechom's are interchangeable for progression.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Maintenance%20Chief%20Ceiba's%20Key%20walkthrough",
+    walkthrough: [
+      "Progress into the Charadrius to auto-accept the objective.",
+      "Find Maintenance Chief Ceiba.",
+      "Defeat her and take the key.",
+      "Use it to reach Louis's room."
+    ]
+  },
+  {
+    id: 729,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Obtain Master Sergeant Glechom's Key",
+    location: "Charadrius (airship)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Charadrius access key; story progression",
+    summary: "Auto-accepted in the Charadrius dungeon — take the key Master Sergeant Glechom holds (either this or Ceiba's key is needed).",
+    aiTip: "Only one of the two interchangeable keys is required, so grab whichever is closer.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Master%20Sergeant%20Glechom's%20Key%20walkthrough",
+    walkthrough: [
+      "Progress into the Charadrius to auto-accept the objective.",
+      "Find Master Sergeant Glechom.",
+      "Defeat him and take the key.",
+      "Use it to reach Louis's room."
+    ]
+  },
+  {
+    id: 730,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "The Chalice vs. The Brew",
+    location: "Forsaken Tower",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Miraculous Mead; 7,500 Reeve",
+    summary: "The Brewer asks you to bring the Chalice of Legends from the Forsaken Tower.",
+    aiTip: "The chalice is deep in the Forsaken Tower — clear to it, then deliver it back.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Chalice%20vs.%20The%20Brew%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Brewer.",
+      "Explore the Forsaken Tower.",
+      "Obtain the Chalice of Legends.",
+      "Deliver it to the requester for Miraculous Mead."
+    ]
+  },
+  {
+    id: 731,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Superior Scrimshaw",
+    location: "Forsaken Tower",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4; 25,000 Reeve",
+    summary: "The Craftsman asks you to slay the Orgas in the Forsaken Tower and bring back its horn.",
+    aiTip: "Hit the Orgas with its elemental weakness to break it and speed up the horn drop.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Superior%20Scrimshaw%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Craftsman.",
+      "Enter the Forsaken Tower.",
+      "Slay the Orgas and take its horn.",
+      "Return the horn for the reward."
+    ]
+  },
+  {
+    id: 732,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Grieving Ghost of the Goblet",
+    location: "Tomb of Lament, north of Brilehaven",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4; 35,000 Reeve",
+    summary: "A Recruit Dispatcher request: slay the Fatolich in the Tomb of Lament north of Brilehaven.",
+    aiTip: "The Fatolich waits deep in the Tomb of Lament — bring cleansing items for status effects.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Grieving%20Ghost%20of%20the%20Goblet%20walkthrough",
+    walkthrough: [
+      "Accept the request from the Recruit Dispatcher.",
+      "Travel to the Tomb of Lament north of Brilehaven.",
+      "Defeat the Fatolich.",
+      "Report back for the reward."
+    ]
+  },
+  {
+    id: 733,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Martira",
+    title: "Defeat the Coliseum Monster",
+    location: "Coliseum",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "25,000 Reeve",
+    summary: "The Spirited Receptionist asks you to beat the Manjula in the Coliseum certification battle.",
+    aiTip: "Enter the certification battle and focus the Manjula's weakness for a clean win.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Defeat%20the%20Coliseum%20Monster%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Spirited Receptionist.",
+      "Enter the Coliseum certification battle.",
+      "Defeat the Manjula.",
+      "Claim the 25,000 Reeve reward."
+    ]
+  },
+  {
+    id: 734,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Relic Search: Youth's Folly",
+    location: "Ornwise Path",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Leaf of Light x6",
+    summary: "Auto-accepted at Neuras Rank 3 — find Neuras's relic in Ornwise Path.",
+    aiTip: "The relic is in a chest along Ornwise Path.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Youth's%20Folly%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 3 to auto-accept the relic search.",
+      "Travel to Ornwise Path.",
+      "Open the chest holding the relic.",
+      "Return it to Neuras."
+    ]
+  },
+  {
+    id: 735,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "The Right to Rule",
+    location: "Kriegante",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4",
+    summary: "Auto-accepted at Bardon Rank 6 — talk to Bardon to fight the Sandworm and reach Rank 7 of his bond.",
+    aiTip: "Winning the Sandworm fight advances Bardon's Follower to Rank 7.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Right%20to%20Rule%20walkthrough",
+    walkthrough: [
+      "Reach Bardon Rank 6 to auto-accept the quest.",
+      "Talk to Bardon to begin the Sandworm fight.",
+      "Defeat the Sandworm.",
+      "Complete the fight to advance Bardon to Rank 7."
+    ]
+  },
+  {
+    id: 736,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "The Price of Hope",
+    location: "Lycaon Magic Association",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gleaming Crystal x1; Wisdom +4; 15,000 Reeve",
+    summary: "The Enthusiastic Woman sends you to the Lycaon Magic Association to hear out the Igniter Merchant.",
+    aiTip: "Just travel to the Magic Association and listen to the Igniter Merchant to progress.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Price%20of%20Hope%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Enthusiastic Woman.",
+      "Travel to the Lycaon Magic Association.",
+      "Listen to the Igniter Merchant.",
+      "Return to complete the quest for the Gleaming Crystal."
+    ]
+  },
+  {
+    id: 737,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Peak Curiosity",
+    location: "Spire of Blind Faith",
+    length: "long",
+    difficulty: "High",
+    reward: "Hero's Jewelled Root x3; Courage +4; 90,000 Reeve",
+    summary: "The Dejected Man asks you to defeat the boss at the top of the Spire of Blind Faith.",
+    aiTip: "The Spire is a full climb — stock up before entering and pace your MP for the summit boss.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Peak%20Curiosity%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Dejected Man.",
+      "Climb the Spire of Blind Faith.",
+      "Defeat the boss at the top.",
+      "Return for the Hero's Jewelled Root and Reeve."
+    ]
+  },
+  {
+    id: 738,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "The Greater One-Eyed Scoundrel",
+    location: "Recruitment Center; Scoundrel's Hold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Courage +4; 90,000 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss at the end of Scoundrel's Hold.",
+    aiTip: "Clear Scoundrel's Hold to its final chamber for the bounty target.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Greater%20One-Eyed%20Scoundrel%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to Scoundrel's Hold.",
+      "Fight through to the end boss.",
+      "Defeat it and turn the bounty in."
+    ]
+  },
+  {
+    id: 739,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "A Guiding Gift",
+    location: "Dragon Temple",
+    length: "long",
+    difficulty: "High",
+    reward: "Passionate Wraps; 33,750 Reeve",
+    summary: "The Hoarse Fisher-Crone asks you to defeat the boss at the end of the Dragon Temple.",
+    aiTip: "The Dragon Temple boss hits hard — bring elemental coverage and revival items.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Guiding%20Gift%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Hoarse Fisher-Crone.",
+      "Explore the Dragon Temple.",
+      "Defeat the boss at its end.",
+      "Return for the Passionate Wraps and Reeve."
+    ]
+  },
+  {
+    id: 740,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Save the Mourning Snakes",
+    location: "Orbwise Path",
+    length: "long",
+    difficulty: "High",
+    reward: "Imagination +4; Junah Follower",
+    summary: "Junah asks you to defeat the boss at the end of Orbwise Path, unlocking her as a Follower.",
+    aiTip: "Completing this recruits Junah — a strong addition, so prioritize it when available.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Save%20the%20Mourning%20Snakes%20walkthrough",
+    walkthrough: [
+      "Talk to Junah to accept the quest.",
+      "Travel through Orbwise Path.",
+      "Defeat the boss at its end.",
+      "Finish to unlock Junah as a Follower."
+    ]
+  },
+  {
+    id: 741,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Trial of Malnova",
+    location: "Land of Ceremony",
+    length: "long",
+    difficulty: "High",
+    reward: "Wisdom +4; Eupha Follower",
+    summary: "Eupha asks you to defeat the boss at the end of the Land of Ceremony, unlocking her as a Follower.",
+    aiTip: "This recruits Eupha — her healing and support are worth the detour.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Trial%20of%20Malnova%20walkthrough",
+    walkthrough: [
+      "Talk to Eupha to accept the quest.",
+      "Travel to the Land of Ceremony.",
+      "Defeat the boss at its end.",
+      "Finish to unlock Eupha as a Follower."
+    ]
+  },
+  {
+    id: 742,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Kriegante",
+    title: "Relic Search: Engineer's Destiny",
+    location: "Scoundrel's Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Fruit x8",
+    summary: "Auto-accepted at Neuras Rank 4 — find Neuras's relic in Scoundrel's Hold.",
+    aiTip: "The relic sits in a chest inside Scoundrel's Hold.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Engineer's%20Destiny%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 4 to auto-accept the relic search.",
+      "Travel to Scoundrel's Hold.",
+      "Open the chest holding the relic.",
+      "Return it to Neuras."
+    ]
+  },
+  {
+    id: 743,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Wayward Shepherd",
+    location: "Mt. Vulkano",
+    length: "long",
+    difficulty: "High",
+    reward: "Eloquence +4",
+    summary: "Auto-accepted during Eupha Rank 6 — defeat the boss at the end of Mt. Vulkano.",
+    aiTip: "Advances Eupha's bond; the volcanic enemies favor fire, so pack ice and resistance.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Wayward%20Shepherd%20walkthrough",
+    walkthrough: [
+      "Reach Eupha Rank 6 to auto-accept the quest.",
+      "Climb Mt. Vulkano.",
+      "Defeat the boss at its end.",
+      "Return to advance Eupha's bond."
+    ]
+  },
+  {
+    id: 744,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Relic Search: Bitter Memories",
+    location: "Mt. Vulkano",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Leaf of Light x8",
+    summary: "Auto-accepted at Neuras Rank 5 — find Neuras's relic on Mt. Vulkano.",
+    aiTip: "The relic is in a chest on Mt. Vulkano.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Bitter%20Memories%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 5 to auto-accept the relic search.",
+      "Travel to Mt. Vulkano.",
+      "Open the chest holding the relic.",
+      "Return it to Neuras."
+    ]
+  },
+  {
+    id: 745,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Fiend in the Frozen Forest",
+    location: "Recruitment Center; Everfrost Forest",
+    length: "long",
+    difficulty: "High",
+    reward: "Courage +4; 120,000 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss at the end of Everfrost Forest.",
+    aiTip: "Everfrost enemies lean ice — bring fire skills and cold resistance for the boss.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Fiend%20in%20the%20Frozen%20Forest%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to Everfrost Forest.",
+      "Fight to the end boss.",
+      "Defeat it and turn the bounty in."
+    ]
+  },
+  {
+    id: 1075,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Proof of Power",
+    location: "Tower of Insolence",
+    length: "long",
+    difficulty: "High",
+    reward: "Courage +4; 82,500 Reeve",
+    summary: "The Obsessive Soldier asks you to defeat the boss at the top of the Tower of Insolence.",
+    aiTip: "Save at the tower's checkpoints — the summit boss is a long fight.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Proof%20of%20Power%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Obsessive Soldier.",
+      "Climb the Tower of Insolence.",
+      "Defeat the boss at the top.",
+      "Return for the Reeve reward."
+    ]
+  },
+  {
+    id: 1076,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Warmth in Winter",
+    location: "Malva",
+    length: "short",
+    difficulty: "Low",
+    reward: "Mountaineer Gloves x1; Tolerance +4; 37,500 Reeve",
+    summary: "The Portly Man asks you to buy Altabury Wheat Flour and Durable Spider Silk from Malva.",
+    aiTip: "Both items are sold in Malva — buy them and return.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Warmth%20in%20Winter%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Portly Man.",
+      "Travel to Malva.",
+      "Purchase Altabury Wheat Flour and Durable Spider Silk.",
+      "Return them for the Mountaineer Gloves and Reeve."
+    ]
+  },
+  {
+    id: 1077,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Defeat Milo",
+    location: "Milo's Runner",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sumptuous Magla Feast x1; 60,000 Reeve",
+    summary: "After talking to Loveless and beating him in his runner, accept this to travel to Milo's Runner and defeat him.",
+    aiTip: "Prerequisite: talk to Loveless and defeat him first, which unlocks Milo's challenge.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Defeat%20Milo%20walkthrough",
+    walkthrough: [
+      "Complete the Loveless runner fight, then talk to Loveless to accept the quest.",
+      "Travel to Milo's Runner.",
+      "Defeat Milo.",
+      "Return for the Sumptuous Magla Feast and Reeve."
+    ]
+  },
+  {
+    id: 1078,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "A Rake's Last Wish",
+    location: "Skanda",
+    length: "short",
+    difficulty: "Low",
+    reward: "Alonzo Follower completion",
+    summary: "Accepted during Alonzo's final rank — talk to Daturam to complete the quest.",
+    aiTip: "This wraps up Alonzo's Follower story; just seek out Daturam.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Rake's%20Last%20Wish%20walkthrough",
+    walkthrough: [
+      "Reach Alonzo's final rank to accept the quest.",
+      "Locate Daturam.",
+      "Talk to Daturam to resolve Alonzo's request.",
+      "Complete Alonzo's Follower bond."
+    ]
+  },
+  {
+    id: 1079,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Queen of Cuisine: Soul",
+    location: "Skanda",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lord of the Lake x1; Eloquence +4; 33,750 Reeve",
+    summary: "The Classy Woman returns with a tougher order: cook an Indestructible Honey Cake and give it to her.",
+    aiTip: "Gather the ingredients for Indestructible Honey Cake, cook it, then deliver.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Queen%20of%20Cuisine%3A%20Soul%20walkthrough",
+    walkthrough: [
+      "Accept the request from the Classy Woman.",
+      "Cook an Indestructible Honey Cake.",
+      "Bring it back to her.",
+      "Hand it over for the Lord of the Lake and Reeve."
+    ]
+  },
+  {
+    id: 1080,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Edge of Glory",
+    location: "Mt. Vulkano",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Legendary Greatsword; Wisdom +4; 45,000 Reeve",
+    summary: "The Ornamented Man asks you to find the sword in a chest on Mt. Vulkano.",
+    aiTip: "The sword is in a specific chest on Mt. Vulkano — sweep the area's side paths.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Edge%20of%20Glory%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Ornamented Man.",
+      "Travel to Mt. Vulkano.",
+      "Find the chest containing the sword.",
+      "Return it for the greatsword and Reeve."
+    ]
+  },
+  {
+    id: 1081,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Incarnate in the Woods",
+    location: "Recruitment Center; Abandoned Path",
+    length: "long",
+    difficulty: "High",
+    reward: "Courage +4; 112,500 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss at the end of the Abandoned Path.",
+    aiTip: "Clear the Abandoned Path to its final boss chamber.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Incarnate%20in%20the%20Woods%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to the Abandoned Path.",
+      "Fight to the end boss.",
+      "Defeat it and turn the bounty in."
+    ]
+  },
+  {
+    id: 1082,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Apostles of the Apocalypse",
+    location: "Recruitment Center; Disgraced Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Courage +4; 172,500 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss at the end of the Disgraced Ruins.",
+    aiTip: "One of the toughest bounties — come well-leveled with revival items.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Apostles%20of%20the%20Apocalypse%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to the Disgraced Ruins.",
+      "Fight to the end boss.",
+      "Defeat it and turn the bounty in."
+    ]
+  },
+  {
+    id: 1083,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "The Cockatrice in the Clouds",
+    location: "Recruitment Center; Manor of the Ascendant",
+    length: "long",
+    difficulty: "High",
+    reward: "Courage +4; 157,500 Reeve",
+    summary: "A Recruitment Center bounty: defeat the boss at the end of the Manor of the Ascendant.",
+    aiTip: "The cockatrice inflicts petrify — bring status cures and act fast.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Cockatrice%20in%20the%20Clouds%20walkthrough",
+    walkthrough: [
+      "Accept the bounty at the Recruitment Center.",
+      "Travel to the Manor of the Ascendant.",
+      "Fight to the end boss.",
+      "Defeat it and turn the bounty in."
+    ]
+  },
+  {
+    id: 1084,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Trial of the Dragon: Bygone Legacy",
+    location: "Tower of Insolence",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon Trial progress",
+    summary: "The Enraged Mustari sets a dragon trial: defeat the Dragon at the top of the Tower of Insolence.",
+    aiTip: "One of three dragon trials — all three must be cleared to unlock the final one.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Bygone%20Legacy%20walkthrough",
+    walkthrough: [
+      "Accept the trial from the Enraged Mustari.",
+      "Climb the Tower of Insolence.",
+      "Defeat the Dragon at the top.",
+      "Complete one of the three dragon trials."
+    ]
+  },
+  {
+    id: 1085,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Deliver Hot Spring Water",
+    location: "Hot Spring under Blue Sky Bridge",
+    length: "short",
+    difficulty: "Low",
+    reward: "Almighty Panacea x1; 30,000 Reeve",
+    summary: "The Gentle Merchant asks you to collect water from the hot spring under Blue Sky Bridge at night.",
+    aiTip: "Visit the hot spring at night to collect the water, then deliver it.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Deliver%20Hot%20Spring%20Water%20walkthrough",
+    walkthrough: [
+      "Accept the quest from the Gentle Merchant.",
+      "Go to the hot spring under Blue Sky Bridge at night.",
+      "Collect some of the spring water.",
+      "Deliver it for the Almighty Panacea and Reeve."
+    ]
+  },
+  {
+    id: 1086,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Trial of the Dragon: Heroes' Rest",
+    location: "Spire of Blind Faith",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon Trial progress",
+    summary: "Edeni sets a dragon trial: defeat the Dragon at the top of the Spire of Blind Faith.",
+    aiTip: "Complete all three dragon trials to unlock Essence of Power.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Heroes'%20Rest%20walkthrough",
+    walkthrough: [
+      "Accept the trial from Edeni.",
+      "Climb the Spire of Blind Faith.",
+      "Defeat the Dragon at the top.",
+      "Complete one of the three dragon trials."
+    ]
+  },
+  {
+    id: 1087,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Trial of the Dragon: Mad Mischief",
+    location: "Forsaken Tower",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon Trial progress",
+    summary: "The Gabby Mustari sets a dragon trial: defeat the Dragon at the top of the Forsaken Tower.",
+    aiTip: "The last of the three prerequisite dragon trials before Essence of Power.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Mad%20Mischief%20walkthrough",
+    walkthrough: [
+      "Accept the trial from the Gabby Mustari.",
+      "Climb the Forsaken Tower.",
+      "Defeat the Dragon at the top.",
+      "Complete one of the three dragon trials."
+    ]
+  },
+  {
+    id: 1088,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "A Brother's Mercy",
+    location: "Skanda",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tolerance +4",
+    summary: "Auto-accepted during Basilio Rank 7 — spend time with Basilio for Rank 8 (Rank 5 Eloquence required).",
+    aiTip: "You'll need Rank 5 Eloquence to advance Basilio's bond here.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Brother's%20Mercy%20walkthrough",
+    walkthrough: [
+      "Reach Basilio Rank 7 to auto-accept the quest.",
+      "Ensure you have Rank 5 Eloquence.",
+      "Spend time with Basilio.",
+      "Advance his bond to Rank 8."
+    ]
+  },
+  {
+    id: 1089,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Relic Search: A Dream's Origin",
+    location: "Scoundrel's Hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Leaf of Light x10",
+    summary: "Auto-accepted at Neuras Rank 6 — find Neuras's relic in Scoundrel's Hold.",
+    aiTip: "Another relic chest in Scoundrel's Hold; grab it and return to Neuras.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20A%20Dream's%20Origin%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 6 to auto-accept the relic search.",
+      "Travel to Scoundrel's Hold.",
+      "Open the chest holding the relic.",
+      "Return it to Neuras."
+    ]
+  },
+  {
+    id: 1090,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Petty Thief",
+    location: "Jin's Runner",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Hero's Jewelled Root x5",
+    summary: "Auto-accepted at Neuras Rank 7 — travel to Jin's Runner and defeat him.",
+    aiTip: "This caps Neuras's bond line; beat Jin in his runner to finish.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Petty%20Thief%20walkthrough",
+    walkthrough: [
+      "Reach Neuras Rank 7 to auto-accept the quest.",
+      "Travel to Jin's Runner.",
+      "Defeat Jin.",
+      "Return to complete Neuras's story."
+    ]
+  },
+  {
+    id: 1091,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Trial of the Dragon: Essence of Power",
+    location: "Dragon Temple",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon Trial completion",
+    summary: "Auto-accepted after the three prior dragon trials — defeat the final Dragon at the bottom of the Dragon Temple.",
+    aiTip: "The culminating dragon fight; bring your best gear and elemental coverage.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Essence%20of%20Power%20walkthrough",
+    walkthrough: [
+      "Complete all three earlier dragon trials to auto-accept this one.",
+      "Descend to the bottom of the Dragon Temple.",
+      "Defeat the final Dragon.",
+      "Complete the dragon trial chain."
+    ]
+  },
+  {
+    id: 1092,
+    type: "side",
+    game: "Metaphor: ReFantazio",
+    region: "Skanda",
+    title: "Become Champion of the Coliseum",
+    location: "Arena Ranked League",
+    length: "long",
+    difficulty: "High",
+    reward: "Yggdrasil Crown; 135,000 Reeve",
+    summary: "Auto-accepted after reaching Gold 1 and winning another Gold League battle — defeat the Giga Boss to win it all.",
+    aiTip: "Grind to Gold 1 first; the Giga Boss is the arena's ultimate test, so optimize your build.",
+    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Become%20Champion%20of%20the%20Coliseum%20walkthrough",
+    walkthrough: [
+      "Reach Gold 1 in the Gold League and win another battle to accept the quest.",
+      "Enter the Arena Ranked League final.",
+      "Defeat the Giga Boss.",
+      "Claim the Yggdrasil Crown and Reeve."
+    ]
   }
 ];
