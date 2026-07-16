@@ -24996,5 +24996,257 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
     ],
     video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
+  },
+  {
+    id: 1360,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Investigate the Raider Watchtower",
+    location: "Boiling Bluff",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Priorite Shards; cleared outpost",
+    summary: "A prospector reports Bedlam Raiders have fortified a watchtower overlooking the Koboh wilds and are harassing travelers.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor from a prospector at Pyloon's Saloon.",
+      "Ride out to the raider watchtower on Koboh.",
+      "Clear the Bedlam Raiders and battle droids garrisoned there.",
+      "Reach the top of the tower and claim the stashed loot to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Raider%20Watchtower%20walkthrough"
+  },
+  {
+    id: 1361,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber in the Swamp",
+    location: "Viscid Bog",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; perk",
+    summary: "A rumor points to a sealed High Republic meditation chamber hidden in the murk of the Viscid Bog.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Take the rumor from the saloon board.",
+      "Travel to the Viscid Bog on Koboh.",
+      "Locate the chamber entrance concealed among the bog ruins.",
+      "Solve the interior Force puzzle to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Swamp%20walkthrough"
+  },
+  {
+    id: 1362,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Explore the High Republic Chamber in the Valley",
+    location: "Untamed Downs",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skill point; perk",
+    summary: "Another High Republic chamber lies buried in the Untamed Downs valley, waiting to be uncovered.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Take the rumor from the saloon board.",
+      "Travel to the Untamed Downs on Koboh.",
+      "Find the concealed chamber entrance in the valley.",
+      "Complete the chamber's puzzle to earn its reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Valley%20walkthrough"
+  },
+  {
+    id: 1363,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Recruit Ashe Javi & DD-EC",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ashe Javi & DD-EC join Pyloon's Saloon",
+    summary: "Word reaches Cal of a wandering performer, Ashe Javi, and their droid DD-EC who could liven up Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the recruitment rumor at Pyloon's Saloon.",
+      "Track Ashe Javi and DD-EC down at their spot on Koboh.",
+      "Finish the conversation to convince them to join.",
+      "Return to Pyloon's Saloon to find the pair settled in."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20Ashe%20Javi%20%26%20DD-EC%20walkthrough"
+  },
+  {
+    id: 1364,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Recruit T-1N8",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "T-1N8 joins Pyloon's Saloon",
+    summary: "A stranded droid, T-1N8, can be recruited to add to the growing community at Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the recruitment rumor at Pyloon's Saloon.",
+      "Locate T-1N8 out in the Koboh wilds.",
+      "Complete the interaction to bring the droid onside.",
+      "Head back to Pyloon's Saloon to see T-1N8 among the patrons."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20T-1N8%20walkthrough"
+  },
+  {
+    id: 1365,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check on Wini & Zygg",
+    location: "Viscid Bog",
+    length: "short",
+    difficulty: "Low",
+    reward: "Follow-up on the swamp pair; saloon banter",
+    summary: "After helping Zygg out of the swamp, a follow-up rumor asks Cal to check back in on Zygg and Wini.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Help Zygg in the Swamp first to unlock this follow-up.",
+      "Take the rumor from the saloon and return toward the Viscid Bog.",
+      "Find Wini and Zygg and see how the pair are faring.",
+      "Finish the conversation to close out the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20Wini%20%26%20Zygg%20walkthrough"
+  },
+  {
+    id: 1366,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Use the Saloon's Jukebox",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Saloon music playlist",
+    summary: "Once the musician's droid is recovered, Cal can spin up tracks on the restored jukebox in Pyloon's Saloon.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Find the Musician and Their Droid to restore the jukebox.",
+      "Head to the jukebox on the ground floor of Pyloon's Saloon.",
+      "Interact with it to browse the unlocked tracks.",
+      "Play a song to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Use%20the%20Saloon's%20Jukebox%20walkthrough"
+  },
+  {
+    id: 1367,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Check the Aquarium",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Skoova's rotating fish collection",
+    summary: "Skoova Stev stocks the saloon's aquarium with rare fish he catches on his travels — Cal can drop by to see the latest haul.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Recruit the Mysterious Fisherman (Skoova) so he starts stocking the tank.",
+      "Progress the story so Skoova brings back new catches over time.",
+      "Visit the aquarium on the second floor of Pyloon's Saloon.",
+      "Inspect the fish to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20the%20Aquarium%20walkthrough"
+  },
+  {
+    id: 1368,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Play a Holotactics Game",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Holotactics match; bragging rights",
+    summary: "With the Holotactics table unlocked, Cal can challenge patrons to a round of the in-universe strategy game.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Complete Locate the Odd Pair to unlock the Holotactics Table.",
+      "Go to the table on the second floor of Pyloon's Saloon.",
+      "Challenge an opponent and set up your unit board.",
+      "Win a match of Holotactics to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Play%20a%20Holotactics%20Game%20walkthrough"
+  },
+  {
+    id: 1369,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Visit Doma's Shop",
+    location: "Rambler's Reach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gear, perks and cosmetics for Priorite",
+    summary: "Doma Dendra runs a shop just outside Pyloon's Saloon, trading gear and cosmetics for the Priorite Shards Cal collects.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Reach Rambler's Reach Outpost on Koboh.",
+      "Find Doma's shop stall outside Pyloon's Saloon.",
+      "Browse her stock of perks, upgrades and cosmetics.",
+      "Spend Priorite Shards to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Doma's%20Shop%20walkthrough"
+  },
+  {
+    id: 1370,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Visit Zee's Shop",
+    location: "Pyloon's Saloon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Region maps and databank data",
+    summary: "Zee, the saloon's archivist, sells the region maps and databank data that make Koboh and beyond far easier to explore.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Head to Zee inside Pyloon's Saloon.",
+      "Open her shop and review the available maps and data.",
+      "Buy a region map to reveal collectibles and points of interest.",
+      "Complete a purchase to finish the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Zee's%20Shop%20walkthrough"
+  },
+  {
+    id: 1371,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Shattered Moon",
+    title: "Investigate the Factory's Lower Levels",
+    location: "Automated Forge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rare materials; lore",
+    summary: "A rumor hints that the Shattered Moon's automated factory hides more in its flooded, low-gravity lower levels.",
+    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
+    walkthrough: [
+      "Pick up the rumor while on the Shattered Moon.",
+      "Descend below the main floor of the Automated Forge.",
+      "Navigate the low-gravity platforming and heavy security droids.",
+      "Reach the lower vault and claim its contents to complete the rumor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Factory's%20Lower%20Levels%20walkthrough"
   }
 ];
