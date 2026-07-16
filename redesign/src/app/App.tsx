@@ -423,9 +423,10 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
           const sel=selectedGame===name;
           return (
             <button key={name} onClick={()=>onSelect(selectedGame===name?"All":name)} aria-label={name} title={name}
-              className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}
-              style={{aspectRatio:"2/3"}}>
-              <img src={meta.cover} alt={name} onError={retryCover} className="absolute inset-0 w-full h-full object-cover"/>
+              className={`relative flex-shrink-0 w-36 sm:w-28 rounded-lg overflow-hidden border transition-all duration-200 ${sel?"border-primary scale-105 shadow-xl":"border-border hover:border-white/20 hover:scale-[1.03]"}`}>
+              {/* Image carries the aspect ratio in normal flow (not absolute) so
+                  Safari sizes it on first paint; overlays layer over it. */}
+              <img src={meta.cover} alt={name} onError={retryCover} className="block w-full object-cover" style={{aspectRatio:"2/3"}}/>
               <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.92) 40%,rgba(0,0,0,.15))"}}/>
               {sel&&<div className="absolute inset-0 opacity-25" style={{background:meta.gradient}}/>}
               {sel&&<div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full" style={{backgroundColor:meta.accent}}/>}
@@ -620,10 +621,9 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
                   key={name}
                   onClick={()=>onGoTo("browse",{game:name})}
                   className="group relative rounded-lg overflow-hidden border border-border hover:border-white/25 hover:scale-[1.04] transition-all duration-200 shadow-sm"
-                  style={{aspectRatio:"2/3"}}
                   aria-label={name}
                 >
-                  <img src={meta.cover} alt={name} onError={retryCover} className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
+                  <img src={meta.cover} alt={name} onError={retryCover} className="block w-full object-cover transition-transform duration-300 group-hover:scale-105" style={{aspectRatio:"2/3"}}/>
                   <div className="absolute inset-0" style={{background:"linear-gradient(to top,rgba(0,0,0,.9) 35%,rgba(0,0,0,.2) 100%)"}}/>
                   <div className="absolute bottom-0 inset-x-0 p-2.5">
                     <div className="text-[9px] font-bold tracking-widest uppercase group-hover:text-white transition-colors" style={{color:meta.accent}}>{meta.abbr}</div>
