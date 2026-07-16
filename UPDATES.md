@@ -1,3 +1,34 @@
+# Update — Metaphor: ReFantazio quest data rebuilt (guide-verified)
+
+**Date:** 2026-07-16
+**Branches:** `staging`
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+A guide-audit of **Metaphor: ReFantazio** — the first game double-checked against
+a user-supplied authoritative quest list — revealed the existing 111-entry data
+was roughly half fabricated. Rebuilt the whole game to its real quests.
+
+- **Removed 53 fabricated filler entries** (IDs 1075–1127) — generic invented
+  names that don't exist in the game (*"Missing Child," "Hunt: Forest Beast,"
+  "Mystic Orb Recovery," "Hidden Postgame Challenge"*). A prior session had marked
+  Metaphor ✅ despite this.
+- **Rebuilt to the real 76 quests** — 11 main + 65 side (Requests, Bounties, Relic
+  Searches, More's Tasks, Dragon Trials, Follower unlocks) with verified names,
+  locations, and rewards.
+- **Preserved the 20 real YouTube walkthrough videos** (all main quests, the 7
+  More's Tasks, Pagan's Dilemma, Help the Hushed Honeybee); **authored
+  step-by-step walkthroughs** for the other 56 from the guide's accept/task detail.
+- **Corrected the audit coverage target** (113 → 76, the true full count; the
+  "Help Anyone in Need" trophy needs 75/76).
+- Result: `audit.js` integrity-clean, **Metaphor ✅ 76/76 (100%)**; library now
+  **1,319 quests across 19 games**.
+
+> Note: because Metaphor was marked ✅ yet was ~half fabricated, the same
+> generic-filler pattern is worth spot-checking on other games.
+
+---
+
 # Update — Quest-popup video hero, two-font type system & Safari cover fix
 
 **Date:** 2026-07-16

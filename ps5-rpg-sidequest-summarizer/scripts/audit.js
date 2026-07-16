@@ -40,7 +40,7 @@ const TARGETS = {
   "Persona 5 Royal": 65,
   "Baldur's Gate 3": 100,
   "Ghost of Tsushima": 76,
-  "Metaphor: ReFantazio": 113,
+  "Metaphor: ReFantazio": 76,
   "Black Myth: Wukong": 40,
   "Pillars of Eternity II: Deadfire": 50,
   "Pillars of Eternity": 50,
