@@ -1,3 +1,38 @@
+# Update — The Elder Scrolls V: Skyrim added + reusable quest-data schema
+
+**Date:** 2026-07-16
+**Branches:** `staging`
+**Live site:** https://kbarbu12.github.io/newapp/staging/
+
+## What this update does
+Merged a user-supplied `skyrim_quests.json` (148 base-game quests, DLC excluded)
+into `data/quests.js`, matching the schema used by the other games, and added
+checked-in docs so future game submissions are mechanical.
+
+- **Added The Elder Scrolls V: Skyrim — 148 quests** (IDs 1389–1536): the Main
+  Quest, Companions, Thieves Guild, Dark Brotherhood, College of Winterhold,
+  both Civil War sides, Daedric quests, Bards College & Divine quests, and
+  side/dungeon quests.
+- **Schema-mapped the source JSON** to the repo format: string ids → numeric,
+  `description` → `summary`, dropped `slug`/`dlc`/`completionTips`/
+  `prerequisites`; authored every field the source lacked (`type`, `location`,
+  `length`, `difficulty`, `reward`, `aiTip`) for all 148 entries.
+- **Fixed the video handling to satisfy `audit.js`:** the source's only videos
+  were two generic longplays reused across many unrelated quests, which the
+  audit rejects as reused. Every quest instead gets a **unique** YouTube search
+  URL plus a step-by-step `walkthrough` (authored the 17 that had none) —
+  matching the other games' convention.
+- **Registered the game** in `gameImages` (new `images/skyrim.svg` placeholder
+  cover) and `subFilterConfig` (a **Questline** filter over the 11 categories).
+- **Added `SCHEMA.md` + `sample-game.json`** at the repo root: the exact JSON
+  contract for adding a new game (field rules, allowed values, the unique-video
+  requirement, what Claude fills/drops) and a ready-to-edit template to hand to
+  Claude for future games.
+- Result: `audit.js` integrity-clean, **Skyrim ✅ 148/148 (100%)**; library now
+  **1,484 quests across 20 games**.
+
+---
+
 # Update — Metaphor: ReFantazio quest data rebuilt (guide-verified)
 
 **Date:** 2026-07-16
