@@ -10,6 +10,18 @@ All changes deploy to **staging first, prod only on the user's say-so.** Work
 lands on the `staging` branch (auto-deploys to `/staging/`); promote to the live
 `/` site by merging `staging` → `main`. See `DEPLOY.md` for the full flow.
 
+## Pull requests
+
+**Every change ships as its own pull request, titled after the change.** No
+matter how small (a new game, a data fix, a code tweak), open a dedicated PR
+whose title names what changed — e.g. `Add Assassin's Creed Valhalla (142
+quests)` or `Fix Valhalla difficulty values: Easy -> Low`. One logical change
+per PR; don't batch unrelated changes together.
+
+Fill in `.github/pull_request_template.md` (GitHub loads it automatically) and
+complete its checklist honestly before requesting review. PRs target `staging`
+(see Deployment above).
+
 ## Quest data entries
 
 Quests live in `ps5-rpg-sidequest-summarizer/data/quests.js` (the single source
