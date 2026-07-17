@@ -97,12 +97,12 @@ const gameImages = {
   "The Elder Scrolls V: Skyrim": {
     gradient: "linear-gradient(135deg, #0a1620 0%, #2c5c6e 50%, #a9d6e5 100%)",
     abbr: "TES5",
-    cover: "images/skyrim.svg"
+    cover: "images/skyrim-cover.jpg"
   },
   "The Legend of Zelda: Tears of the Kingdom": {
     gradient: "linear-gradient(135deg, #1a3d2f 0%, #2d6b4f 50%, #90c77d 100%)",
     abbr: "TOTK",
-    cover: "images/zelda-totk.svg"
+    cover: "images/zelda-totk-cover.jpg"
   }
 };
 
