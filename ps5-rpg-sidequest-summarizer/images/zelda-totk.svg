@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" role="img" aria-label="The Legend of Zelda: Tears of the Kingdom">
+  <defs>
+    <linearGradient id="totk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3d2f"/>
+      <stop offset="50%" stop-color="#2d6b4f"/>
+      <stop offset="100%" stop-color="#90c77d"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#totk)"/>
+  <circle cx="150" cy="150" r="70" fill="none" stroke="#f5e9c9" stroke-width="3" opacity="0.85"/>
+  <path d="M150 95 l16 40 l-16 -10 l-16 10 z" fill="#f5e9c9" opacity="0.9"/>
+  <path d="M150 205 l16 -40 l-16 10 l-16 -10 z" fill="#f5e9c9" opacity="0.9"/>
+  <text x="150" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f5e9c9" font-weight="bold">TOTK</text>
+  <text x="150" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#f5e9c9" opacity="0.9">Tears of the Kingdom</text>
+</svg>

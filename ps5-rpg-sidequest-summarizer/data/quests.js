@@ -98,6 +98,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0a1620 0%, #2c5c6e 50%, #a9d6e5 100%)",
     abbr: "TES5",
     cover: "images/skyrim.svg"
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+    gradient: "linear-gradient(135deg, #1a3d2f 0%, #2d6b4f 50%, #90c77d 100%)",
+    abbr: "TOTK",
+    cover: "images/zelda-totk.svg"
   }
 };
 
@@ -411,6 +416,16 @@ const subFilterConfig = {
       { value: "Daedric Quests", text: "Daedric Quests" },
       { value: "Bards College & Divine Quests", text: "Bards College & Divine Quests" },
       { value: "Side & Dungeon Quests", text: "Side & Dungeon Quests" }
+    ]
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+    field: "questType",
+    label: "Quest Type",
+    options: [
+      { value: "Main Quest", text: "Main Quest" },
+      { value: "Side Adventure", text: "Side Adventure" },
+      { value: "Side Quest", text: "Side Quest" },
+      { value: "Shrine Quest", text: "Shrine Quest" }
     ]
   }
 };
@@ -27964,5 +27979,5065 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Investigate Ansilvund, following the tragic tale of Fjori and Holgeir, and put their spirits to rest by defeating the necromancer responsible for their torment."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
+  },
+  {
+    id: 1537,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Find Princess Zelda",
+    location: "Great Sky Island",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Recall, Ultrahand, Fuse & Ascend abilities; story progression",
+    summary: "The opening quest of Tears of the Kingdom. After the Upheaval separates Link from Zelda beneath Hyrule Castle, Link awakens on the Great Sky Island with a mysterious new arm and must relearn how to survive while searching for the missing princess.",
+    aiTip: "Complete the four tutorial shrines on the Great Sky Island in any order to unlock Ultrahand, Fuse, Ascend and Recall before leaving — you keep these abilities for the whole game.",
+    walkthrough: [
+      "Wake in the Room of Awakening and follow Rauru's voice across the Great Sky Island.",
+      "Reach the Ukouh Shrine to learn Ultrahand, then Gutanbac (Ascend) and In-isa (Fuse).",
+      "Cross the frozen Mount and use the Ancient Blade to enter the Temple of Time area.",
+      "Watch the vision of Zelda, then prepare to descend to the surface to begin the search."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Find%20Princess%20Zelda%20walkthrough"
+  },
+  {
+    id: 1538,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Closed Door",
+    location: "Great Sky Island",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Recall ability, access to the Temple of Time",
+    summary: "To open the sealed Temple of Time and receive Recall from the spirit of Rauru, Link must locate and complete the three shrines scattered across the Great Sky Island.",
+    aiTip: "Use the map given by the Steward Construct — the three shrines (Ukouh, Gutanbac, In-isa) each teach an ability you'll need for the final climb to the temple.",
+    walkthrough: [
+      "Speak with the Steward Construct to receive the trio of shrine locations.",
+      "Complete Gutanbac Shrine (Ascend) and In-isa Shrine (Fuse).",
+      "Return the energy to the Temple of Time doors to open the Closed Door.",
+      "Receive Recall from Rauru's spirit and restart your paraglider quest."
+    ],
+    video: "https://www.youtube.com/watch?v=LEFQtZ5c-5o"
+  },
+  {
+    id: 1539,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "To the Kingdom of Hyrule",
+    location: "Temple of Time",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Paraglider, descent to the surface",
+    summary: "Having restored his abilities, Link leaps from the Great Sky Island to the surface of Hyrule, landing near Lookout Landing to reunite with Purah and learn what became of the kingdom during the Upheaval.",
+    aiTip: "Dive off the island's edge and open the paraglider late to reach the surface skydiving pad — aim for the green beam marking Lookout Landing.",
+    walkthrough: [
+      "Leap from the edge of the Great Sky Island using the Ancient Skydive.",
+      "Glide down to the Hyrule surface and land near Lookout Landing.",
+      "Enter Lookout Landing and find Purah at the observation deck.",
+      "Trigger the cutscene that sets up the Regional Phenomena investigation."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Kingdom%20of%20Hyrule%20walkthrough"
+  },
+  {
+    id: 1540,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Crisis at Hyrule Castle",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Purah Pad upgrades, Phantom Ganon fight, Royal Guard gear",
+    summary: "Purah sends Link to investigate the ominous gloom pouring from the risen Hyrule Castle, where reports of Zelda sightings lead to a confrontation with a Phantom Ganon puppet.",
+    aiTip: "Bring plenty of food and gloom-resistant Sundelion dishes — the castle interior drains hearts with gloom, and Phantom Ganon hits hard.",
+    walkthrough: [
+      "Speak with Purah at Lookout Landing to learn about the false Zelda sightings.",
+      "Climb or ascend into the floating Hyrule Castle.",
+      "Follow the sightings through the sanctum and trigger the Phantom Ganon encounter.",
+      "Defeat the puppet and report the truth back to Purah."
+    ],
+    video: "https://www.youtube.com/watch?v=QNcmCooErAU"
+  },
+  {
+    id: 1541,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Regional Phenomena",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Four Sage vows, Secret Stones, story progression",
+    summary: "The hub quest that branches into the four regional dungeons. Purah asks Link to investigate the strange phenomena afflicting the Rito, Goron, Zora and Gerudo, each hiding a temple and a new Sage.",
+    aiTip: "You can tackle the four regions in any order, but Rito Village (Wind Temple) is the most beginner-friendly starting point.",
+    walkthrough: [
+      "Speak with Purah to open the four regional investigations.",
+      "Travel to Rito, Goron, Zora and Gerudo lands to resolve each phenomenon.",
+      "Complete each region's temple and earn the local Sage's vow.",
+      "Return to Lookout Landing after all four to advance the main story."
+    ],
+    video: "https://www.youtube.com/watch?v=lWbbmS3nhBE"
+  },
+  {
+    id: 1542,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Tulin of Rito Village",
+    location: "Rito Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tulin's Sage of Wind vow, Secret Stone, Heart Container",
+    summary: "Rito Village is trapped in an unnatural blizzard. Link joins the young archer Tulin to chase the source into the sky and clear the Wind Temple, freeing the region and earning the Sage of Wind.",
+    aiTip: "Tulin's gust ability extends your paraglider distance — use it constantly in the Wind Temple and to reach the flux construct boss, Colgera.",
+    walkthrough: [
+      "Reach Rito Village and speak with Tulin about the blizzard.",
+      "Ride the updrafts and hebra platforms up to the Wind Temple.",
+      "Activate all five locks inside the temple, then defeat Colgera.",
+      "Accept Tulin's vow as the Sage of Wind."
+    ],
+    video: "https://www.youtube.com/watch?v=uxIi5SMveko"
+  },
+  {
+    id: 1543,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Yunobo of Goron City",
+    location: "Goron City",
+    length: "medium",
+    difficulty: "High",
+    reward: "Yunobo's Sage of Fire vow, Secret Stone, Heart Container",
+    summary: "The Gorons have gone mad eating marbled rock roast. Link must free Yunobo from the marbled influence and clear the Fire Temple deep beneath Death Mountain to earn the Sage of Fire.",
+    aiTip: "Buy the Flamebreaker Armor in Goron City (or cook fireproof elixirs) before descending — the region is full of heat damage and lava.",
+    walkthrough: [
+      "Reach Goron City and follow the marbled rock roast trail up Death Mountain.",
+      "Free Yunobo from the boss-marbled state at the mine.",
+      "Ride the minecart rails and activate all five locks in the Fire Temple.",
+      "Defeat Marbled Gohma and accept Yunobo's vow as the Sage of Fire."
+    ],
+    video: "https://www.youtube.com/watch?v=VUvgbzgycqI"
+  },
+  {
+    id: 1544,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Sidon of the Zora",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sidon's Sage of Water vow, Secret Stone, Heart Container",
+    summary: "Sludge from the sky is poisoning Zora's Domain. Link helps Prince Sidon clear the muck, reach a floating island, and clear the Water Temple to earn the Sage of Water.",
+    aiTip: "Fuse Zora weapons or splash water to clear sludge quickly, and keep Sidon's water-shield bubble active to attack through the muck.",
+    walkthrough: [
+      "Reach Zora's Domain and clear the sludge blocking the town with Sidon.",
+      "Complete the Clues to the Sky and Zora Armor steps to reach the sky island.",
+      "Ride to the Water Temple and turn on all four faucets.",
+      "Defeat Mucktorok and accept Sidon's vow as the Sage of Water."
+    ],
+    video: "https://www.youtube.com/watch?v=xV31lxYitrg"
+  },
+  {
+    id: 1545,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Riju of Gerudo Town",
+    location: "Gerudo Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Riju's Sage of Lightning vow, Secret Stone, Heart Container",
+    summary: "A relentless sand shroud and Gibdo swarms besiege Gerudo Town. Link defends the town alongside Chief Riju, then clears the Lightning Temple to earn the Sage of Lightning.",
+    aiTip: "Use Riju's lightning arrows to shatter Gibdo armor instantly, and bring bomb flowers for the swarm-defense segment before the temple.",
+    walkthrough: [
+      "Reach Gerudo Town and survive the Gibdo assault with Riju.",
+      "Track the sand shroud to the Lightning Temple in the desert.",
+      "Redirect sunlight with mirrors to power the five locks.",
+      "Defeat Queen Gibdo and accept Riju's vow as the Sage of Lightning."
+    ],
+    video: "https://www.youtube.com/watch?v=jbyX9ne9SWI"
+  },
+  {
+    id: 1546,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Impa and the Geoglyphs",
+    location: "New Serenne Stable",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Geoglyph map markers, Dragon's Tears questline",
+    summary: "Link meets Impa aboard her balloon at the Forgotten Temple. She reveals the giant geoglyphs drawn across Hyrule, each hiding a Dragon's Tear memory of the ancient past.",
+    aiTip: "Ascend to high ground or use a tower to spot geoglyphs from above — each teardrop pool plays a memory cutscene when touched.",
+    walkthrough: [
+      "Travel to the Forgotten Temple and meet Impa and her assistant.",
+      "Learn about the geoglyphs and receive the first location.",
+      "Visit geoglyphs to reveal the Dragon's Tears markers on your map.",
+      "This unlocks The Dragon's Tears memory hunt."
+    ],
+    video: "https://www.youtube.com/watch?v=iPyZ5DCB3mE"
+  },
+  {
+    id: 1547,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Dragon's Tears",
+    location: "New Serenne Stable",
+    length: "long",
+    difficulty: "High",
+    reward: "All 12 Dragon's Tear memories, the truth of Zelda's fate",
+    summary: "By visiting every geoglyph and touching its Dragon's Tear, Link watches the scattered memories that reveal what truly happened to Zelda in the distant past — and the secret of the Light Dragon.",
+    aiTip: "Watch the final memory (the one behind the Master Sword) last for the full emotional reveal, but any order technically completes the quest.",
+    walkthrough: [
+      "Use Impa's map to locate each of the geoglyphs across Hyrule.",
+      "Touch the Dragon's Tear pool at each to trigger its memory.",
+      "Collect all twelve tears to complete the imprisoning-war story.",
+      "Return to Impa to close out the questline."
+    ],
+    video: "https://www.youtube.com/watch?v=hDRL1zaCaV0"
+  },
+  {
+    id: 1548,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secret of the Ring Ruins",
+    location: "Kakariko Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient sky knowledge, progression toward the sky islands",
+    summary: "Kakariko Village has been upended by fallen Ring Ruins. Link helps the researcher Tauro decode the ruins' inscriptions to learn about the ancient sky people and the location of the fifth sage.",
+    aiTip: "Speak to Tauro and Lasli, then bring back rubbings and photos of the ruin inscriptions to advance the translation.",
+    walkthrough: [
+      "Arrive in Kakariko Village and speak with Tauro about the ruins.",
+      "Investigate the fallen Ring Ruins around the village.",
+      "Photograph or examine the inscriptions for Tauro to translate.",
+      "Learn the clue that points toward the fifth sage."
+    ],
+    video: "https://www.youtube.com/watch?v=gl4RJAxi3kY"
+  },
+  {
+    id: 1549,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Restoring the Zora Armor",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Zora Armor, ability to swim up waterfalls",
+    summary: "To reach the source of the sludge, Link must restore the Zora Armor for Yona by retrieving an Ancient Arowana from a sludge-choked area of the Domain.",
+    aiTip: "The Zora Armor lets you swim up waterfalls — a huge mobility boost for the rest of the region, so grab it early in the Zora questline.",
+    walkthrough: [
+      "Speak with Yona about repairing the ceremonial Zora Armor.",
+      "Retrieve the Ancient Arowana from the sludge-filled waters.",
+      "Return the fish to Yona to restore the armor.",
+      "Equip the Zora Armor and gain waterfall-swimming."
+    ],
+    video: "https://www.youtube.com/watch?v=h5MrDaKND_8"
+  },
+  {
+    id: 1550,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Clues to the Sky",
+    location: "Toto Lake",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "King's Scale, path to the Water Temple",
+    summary: "Following the sludge trail, Link investigates Toto Lake and the mystery of the 'Land of the Sky Fish,' solving the riddle that points to the floating island above Zora's Domain.",
+    aiTip: "Reassemble the broken Zora tablet at Toto Lake, then look for the fish-shaped island in the sky that the riddle describes.",
+    walkthrough: [
+      "Travel to Toto Lake and speak with Jiahto about the sky riddle.",
+      "Dive to recover and reassemble the broken slate underwater.",
+      "Read the completed 'Land of the Sky Fish' clue.",
+      "Get the King's Scale from Dorephan to reach the sky island."
+    ],
+    video: "https://www.youtube.com/watch?v=Ah2sqnWWMAo"
+  },
+  {
+    id: 1551,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Broken Slate",
+    location: "Toto Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Reassembled slate, riddle clue",
+    summary: "A sub-step of the Zora investigation: Link dives into Toto Lake to recover the scattered pieces of an ancient stone slate and reassemble it to read its message.",
+    aiTip: "Use Ultrahand underwater to grab and stick the slate fragments together — look for them resting on the lakebed near the central island.",
+    walkthrough: [
+      "Dive into Toto Lake and locate the broken slate fragments.",
+      "Use Ultrahand to gather the pieces on the lakebed.",
+      "Reassemble the slate into its full form.",
+      "Read the restored inscription to continue Clues to the Sky."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Broken%20Slate%20walkthrough"
+  },
+  {
+    id: 1552,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sludge-Covered Statue",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cleansed statue, story progression",
+    summary: "Yona asks Link to clean the sludge caked over the Mikau statue in Zora's Domain, restoring a piece of the town's heritage as the region recovers.",
+    aiTip: "Splash water from the surrounding pools or throw splash fruit to wash the sludge off the statue quickly.",
+    walkthrough: [
+      "Speak with Yona about the sludge-covered Mikau statue.",
+      "Gather water sources or splash fruit nearby.",
+      "Wash all the sludge from the statue.",
+      "Report the cleaned statue to complete the task."
+    ],
+    video: "https://www.youtube.com/watch?v=LFiwCFXHm-M"
+  },
+  {
+    id: 1553,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Guidance from Ages Past",
+    location: "Dragonhead Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Mineru's guidance, path to the fifth sage",
+    summary: "Following the sky-island clues, Link travels to the Thunderhead Isles and the ancient construct factory, receiving guidance from the spirit of Mineru toward building her a new body.",
+    aiTip: "The Thunderhead Isles are wreathed in storms — use the lightning-conducting course carefully and remove metal gear to avoid strikes.",
+    walkthrough: [
+      "Reach the Thunderhead Isles above the Faron/Necluda depths.",
+      "Navigate the storm and reach the ancient Construct Factory.",
+      "Follow Mineru's spirit guidance through the factory.",
+      "Learn what is needed to restore the fifth sage."
+    ],
+    video: "https://www.youtube.com/watch?v=NEyYrdQj7LM"
+  },
+  {
+    id: 1554,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Recovering the Hero's Sword",
+    location: "Korok Forest",
+    length: "long",
+    difficulty: "High",
+    reward: "Progress toward the Master Sword, Deku Tree aid",
+    summary: "Link journeys to Korok Forest to consult the Great Deku Tree about the Master Sword's whereabouts, only to find the forest besieged by gloom and Horriblins from the Depths below.",
+    aiTip: "Descend into the Depths beneath the Deku Tree and clear the gloom spawns — you'll need to defeat the Phantom Ganon there to save the tree.",
+    walkthrough: [
+      "Travel through the Lost Woods to reach Korok Forest.",
+      "Speak with the Great Deku Tree about the Master Sword.",
+      "Descend into the Depths beneath the tree to clear the gloom source.",
+      "Return to the Deku Tree for guidance on reclaiming the sword."
+    ],
+    video: "https://www.youtube.com/watch?v=1FiGVnjMGME"
+  },
+  {
+    id: 1555,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Find the Fifth Sage",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Mineru, the Sage of Spirit; the Spirit Temple",
+    summary: "Piecing together the clues from the Ring Ruins and construct factory, Link sets out to find and restore the fifth sage — Mineru — by assembling her construct body and clearing the Spirit Temple.",
+    aiTip: "Gather the three parts of Mineru's construct in the Depths, then power the Spirit Temple's giant construct for the Seized Construct boss fight.",
+    walkthrough: [
+      "Follow the fifth-sage clues to the Spirit Temple in the Depths.",
+      "Collect the three construct-body parts scattered nearby.",
+      "Assemble Mineru's construct and power the temple mech.",
+      "Defeat the Seized Construct and gain Mineru's Sage of Spirit vow."
+    ],
+    video: "https://www.youtube.com/watch?v=Mcjq7kxrnPs"
+  },
+  {
+    id: 1556,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Trail of the Master Sword",
+    location: "Spirit Temple",
+    length: "long",
+    difficulty: "High",
+    reward: "The Master Sword",
+    summary: "Guided by the memories and the Light Dragon, Link finally learns where the Master Sword rests and undertakes the trial to reclaim the legendary blade of evil's bane.",
+    aiTip: "The sword is embedded in the Light Dragon — you need enough stamina wheels to climb it and pull the blade free, so upgrade stamina first.",
+    walkthrough: [
+      "Learn the Master Sword's location from the final Dragon's Tear memory.",
+      "Track the Light Dragon's flight path across Hyrule's skies.",
+      "Skydive onto the dragon and climb to the sword on its head.",
+      "Hold to pull the Master Sword free from the dragon."
+    ],
+    video: "https://www.youtube.com/watch?v=FAYiM3yUlhM"
+  },
+  {
+    id: 1557,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Mystery in the Depths",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Autobuild ability, Master Kohga encounter",
+    summary: "Reports of strange activity below lead Link into the Depths to the Great Abandoned Central Mine, where he unlocks the Autobuild ability and first clashes with Master Kohga of the Yiga Clan.",
+    aiTip: "Autobuild lets you instantly recreate saved vehicles — grab it early, as it trivializes crossing the vast Depths and gloom chasms.",
+    walkthrough: [
+      "Descend through a chasm into the Depths beneath central Hyrule.",
+      "Navigate to the Great Abandoned Central Mine.",
+      "Recover the Autobuild ability from the ancient construct.",
+      "Confront Master Kohga's first battle machine."
+    ],
+    video: "https://www.youtube.com/watch?v=w4SXnv1v_oo"
+  },
+  {
+    id: 1558,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Camera Work in the Depths",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sensor+ upgrade, Depths research progress",
+    summary: "Josha at Lookout Landing asks Link to photograph the statues and phenomena of the Depths to advance her research into the gloom and the ancient Zonai.",
+    aiTip: "Bring Brightbloom seeds to light the Depths for clear photos, and use the Sensor to track down the specific statues Josha requests.",
+    walkthrough: [
+      "Speak with Josha at Lookout Landing about Depths research.",
+      "Descend and photograph the requested statues and gloom sites.",
+      "Return the photos to Josha for analysis.",
+      "Continue documenting the Depths as the research expands."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Camera%20Work%20in%20the%20Depths%20walkthrough"
+  },
+  {
+    id: 1559,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Destroy Ganondorf",
+    location: "Hyrule Castle Peak",
+    length: "long",
+    difficulty: "High",
+    reward: "Game completion, the true ending",
+    summary: "The final confrontation. Link descends beneath Hyrule Castle into the Depths, fights through the Gloom's Origin, and faces the Demon King Ganondorf and his Demon Dragon form to save Zelda and Hyrule.",
+    aiTip: "Stock fairies, sundelions and your strongest fused weapons — the multi-phase fight ends with an aerial battle on the Demon Dragon where the Sages assist you.",
+    walkthrough: [
+      "Descend beneath Hyrule Castle into the final Depths arena.",
+      "Fight through the gloom hands and Phantom Ganon gauntlet.",
+      "Battle Ganondorf through his humanoid and Demon King phases.",
+      "Finish the aerial Demon Dragon fight to complete the game."
+    ],
+    video: "https://www.youtube.com/watch?v=GFG4PXOjeXo"
+  },
+  {
+    id: 1560,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Call from the Depths",
+    location: "Temple of Time Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, ancient insight",
+    summary: "An early investigation that draws Link toward the ruined Temple of Time on the surface, tying the Upheaval's chasms to the vast Depths opening below Hyrule.",
+    aiTip: "Bring Brightbloom seeds before dropping into any chasm — the Depths are pitch black until you light the Lightroots.",
+    walkthrough: [
+      "Investigate the collapsed Temple of Time ruins in Central Hyrule.",
+      "Locate the chasm that has opened nearby.",
+      "Drop into the Depths and activate the first Lightroot.",
+      "Follow the underground path to advance the mystery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Call%20from%20the%20Depths%20walkthrough"
+  },
+  {
+    id: 1561,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Deal With the Statue",
+    location: "Royal Hidden Passage",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Trade heart and stamina containers for rupees",
+    summary: "In the hidden passage beneath Hyrule Castle, a Horned Statue offers to buy back heart containers and stamina vessels, letting Link rebalance health and stamina for rupees.",
+    aiTip: "Sell a heart to the statue to fund stamina early, then buy it back later — it keeps 20 rupees as a fee each time.",
+    walkthrough: [
+      "Reach the Horned Statue in the Royal Hidden Passage under Lookout Landing.",
+      "Speak with the statue to unlock the trading option.",
+      "Sell a heart container or stamina vessel for 100 rupees.",
+      "Buy the vessel back (for 120) whenever you want to switch."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Deal%20With%20the%20Statue%20walkthrough"
+  },
+  {
+    id: 1562,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Letter to Koyin",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Progress in Hateno's dairy storyline",
+    summary: "Link delivers a letter to Koyin at the Hateno cow farm, helping settle a dispute over the village's struggling dairy business.",
+    aiTip: "Koyin works at the pasture on Hateno's east side — deliver the letter, then check back as the dairy plot develops.",
+    walkthrough: [
+      "Receive the letter destined for Koyin.",
+      "Travel to Hateno Village and find Koyin at the dairy farm.",
+      "Hand over the letter and hear her response.",
+      "Report back to complete the delivery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Letter%20to%20Koyin%20walkthrough"
+  },
+  {
+    id: 1563,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection I",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Monster medal, Kilton's shop access",
+    summary: "Kilton's monster-loving research at Tarrey Town begins: Link hunts a specific set of monsters to earn the first Monster Control Crew medal and unlock rewards.",
+    aiTip: "Kilton posts a bounty board — check which monster types are requested and fuse their parts for stronger gear as you hunt.",
+    walkthrough: [
+      "Meet Kilton at Tarrey Town and read the first bounty.",
+      "Track down and defeat the listed monsters.",
+      "Report the kills back to Kilton.",
+      "Claim the first-tier medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20I%20walkthrough"
+  },
+  {
+    id: 1564,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection II",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Second monster medal, rupees",
+    summary: "The second phase of Kilton's monster survey sends Link after tougher species around Hyrule to expand the Monster Control Crew's records.",
+    aiTip: "Blue and black variants count separately — hunt at night when stronger monsters spawn to knock out the harder listings faster.",
+    walkthrough: [
+      "Return to Kilton for the second bounty list.",
+      "Hunt the requested mid-tier monsters.",
+      "Bring proof of the kills to Kilton.",
+      "Receive the second medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20II%20walkthrough"
+  },
+  {
+    id: 1565,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection III",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Third monster medal, rupees",
+    summary: "Kilton's survey escalates to dangerous enemies, pushing Link to seek out rarer monster types across the surface, sky and Depths.",
+    aiTip: "Some listed monsters only appear in the Depths — bring gloom-resistant meals and Brightbloom seeds for those hunts.",
+    walkthrough: [
+      "Collect the third bounty from Kilton.",
+      "Hunt the advanced monsters he requests.",
+      "Return the tally to Kilton.",
+      "Claim the third medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20III%20walkthrough"
+  },
+  {
+    id: 1566,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection IV",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Fourth monster medal, rupees",
+    summary: "Now hunting rare and elite monsters, Link fills out the fourth phase of Kilton's Monster Control Crew ledger.",
+    aiTip: "Save strong fused weapons for elite monsters like Lynels and Frox — they are frequently on the late bounty lists.",
+    walkthrough: [
+      "Read Kilton's fourth bounty list.",
+      "Defeat the rare monster types requested.",
+      "Report the results to Kilton.",
+      "Earn the fourth medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20IV%20walkthrough"
+  },
+  {
+    id: 1567,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection V",
+    location: "Tarrey Town",
+    length: "long",
+    difficulty: "High",
+    reward: "Final monster medal, exclusive reward",
+    summary: "The finale of Kilton's collection has Link hunt the most powerful monsters in Hyrule to complete the Monster Control Crew's full record.",
+    aiTip: "The last list includes the toughest foes — prepare Lynel-tier gear and healing before finishing this phase.",
+    walkthrough: [
+      "Take on Kilton's final bounty list.",
+      "Hunt down the strongest monsters across all layers of Hyrule.",
+      "Turn in the completed tally to Kilton.",
+      "Claim the final medal and completion reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20V%20walkthrough"
+  },
+  {
+    id: 1568,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A New Signature Food",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Recipe, village storyline progress",
+    summary: "Link helps a Hateno cook develop a new signature dish, gathering the right ingredients to win over the village's tastes.",
+    aiTip: "Cook the requested ingredients at a pot before delivering — a well-made dish satisfies the request instantly.",
+    walkthrough: [
+      "Speak with the cook about the new signature dish.",
+      "Gather the ingredients they describe.",
+      "Prepare or hand over the required food.",
+      "Deliver the finished dish to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Signature%20Food%20walkthrough"
+  },
+  {
+    id: 1569,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "An Eerie Voice",
+    location: "Highland Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Mystery resolved, reward item",
+    summary: "Travelers at Highland Stable report a strange voice at night. Link investigates the source of the eerie sound near the stable.",
+    aiTip: "Return to the stable area after dark when the voice is heard, then follow the sound to its source.",
+    walkthrough: [
+      "Talk to the worried travelers at Highland Stable.",
+      "Wait until night and listen for the eerie voice.",
+      "Track the sound to uncover its cause.",
+      "Resolve the disturbance and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Eerie%20Voice%20walkthrough"
+  },
+  {
+    id: 1570,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Akkala!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, Addison sign, rewards",
+    summary: "A regional milestone: by completing the side quests and adventures of the Akkala region, Link restores order and safety to Akkala's people.",
+    aiTip: "Track your regional completion in the Adventure Log — clearing every Akkala side quest triggers the peace reward.",
+    walkthrough: [
+      "Take on the outstanding side quests across Akkala.",
+      "Clear monster camps and help residents rebuild.",
+      "Resolve each community's problem.",
+      "Complete the region to bring peace to Akkala."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Akkala!%20walkthrough"
+  },
+  {
+    id: 1571,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Eldin!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "Link restores stability to the volcanic Eldin region by finishing its side quests and driving out the threats troubling the Gorons and travelers.",
+    aiTip: "Fireproof gear makes clearing Eldin's monster camps far easier — buy Flamebreaker armor in Goron City first.",
+    walkthrough: [
+      "Complete Eldin's open side quests and adventures.",
+      "Clear the monsters harassing the roads and mines.",
+      "Help the region's residents recover.",
+      "Finish the region to bring peace to Eldin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Eldin!%20walkthrough"
+  },
+  {
+    id: 1572,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Faron!",
+    location: "Faron Grasslands",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "In the lush, rainy Faron region, Link completes the local quests and clears threats to bring harmony to its villages and wilds.",
+    aiTip: "Lurelin Village's restoration is a big part of Faron — completing it counts heavily toward regional peace.",
+    walkthrough: [
+      "Work through Faron's side quests and adventures.",
+      "Restore Lurelin and clear coastal monster camps.",
+      "Assist the region's residents.",
+      "Complete the region to bring peace to Faron."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Faron!%20walkthrough"
+  },
+  {
+    id: 1573,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Hebra!",
+    location: "Faron Grasslands",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "The frozen Hebra region calls for aid. Link finishes its quests and clears its snowbound dangers to restore tranquility to Hebra.",
+    aiTip: "Cold-resistance meals or warm doublet are essential — Hebra's blizzards drain hearts without protection.",
+    walkthrough: [
+      "Take on the side quests scattered across Hebra.",
+      "Clear the icy monster camps threatening travelers.",
+      "Help the Rito and stable folk of the region.",
+      "Complete the region to bring peace to Hebra."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hebra!%20walkthrough"
+  },
+  {
+    id: 1574,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Hyrule Field!",
+    location: "Central Hyrule",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Regional peace, rewards",
+    summary: "Central Hyrule Field is beset by monsters and gloom. Link clears its quests and hazards to make the heart of the kingdom safe again.",
+    aiTip: "Lookout Landing's surrounding quests count here — knock them out while you're using the town as a hub.",
+    walkthrough: [
+      "Complete the side quests around Central Hyrule.",
+      "Clear monster camps across Hyrule Field.",
+      "Seal or avoid the gloom spills near the castle.",
+      "Finish the region to bring peace to Hyrule Field."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hyrule%20Field!%20walkthrough"
+  },
+  {
+    id: 1575,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Necluda!",
+    location: "Central Hyrule",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Regional peace, rewards",
+    summary: "Link brings order to the Necluda region — home to Hateno and Kakariko — by completing its quests and settling its communities' troubles.",
+    aiTip: "Hateno Village's mayoral and dye-shop storylines make up much of Necluda's completion — wrap those up together.",
+    walkthrough: [
+      "Work through Necluda's side quests and adventures.",
+      "Resolve Hateno and Kakariko's local disputes.",
+      "Clear the region's monster threats.",
+      "Complete the region to bring peace to Necluda."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Necluda!%20walkthrough"
+  },
+  {
+    id: 1576,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cece's Secret",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno storyline progress, hat fashion",
+    summary: "Amid Hateno's mayoral race, Link uncovers the truth behind Cece's popular hats and her rivalry with Mayor Reede over the village's future.",
+    aiTip: "Follow Cece around the village and photograph or observe her activities to expose the secret behind her hat craze.",
+    walkthrough: [
+      "Speak with Cece about the hat trend in Hateno.",
+      "Trail her to learn where the hats come from.",
+      "Discover the secret behind her campaign.",
+      "Report your findings to advance the election plot."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cece's%20Secret%20walkthrough"
+  },
+  {
+    id: 1577,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Filling Out the Compendium",
+    location: "Hateno Ancient Tech Lab",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Compendium rewards from Robbie",
+    summary: "Robbie at the Hateno Ancient Tech Lab asks Link to complete the Hyrule Compendium by photographing every creature, monster, material and treasure with the Purah Pad camera.",
+    aiTip: "Buy monster and creature photos from Robbie's assistant to fill gaps, and use the camera's sensor to hunt missing entries.",
+    walkthrough: [
+      "Get the camera and Compendium task from Robbie.",
+      "Photograph creatures, monsters, materials and treasures.",
+      "Fill every category of the Compendium.",
+      "Return to Robbie for the completion rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Filling%20Out%20the%20Compendium%20walkthrough"
+  },
+  {
+    id: 1578,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "For Our Princess!",
+    location: "Foothill Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Froggy armor progress, Penn's thanks",
+    summary: "Part of Penn's Lucky Clover Gazette investigations, this stable quest follows another supposed Princess Zelda sighting near Foothill Stable.",
+    aiTip: "Meet Penn at the stable and follow the Zelda impersonator's trail — as with all Penn quests, the 'princess' is never quite what she seems.",
+    walkthrough: [
+      "Meet Penn at Foothill Stable.",
+      "Investigate the reported princess sighting.",
+      "Follow the leads to the truth of the sighting.",
+      "Report to Penn to advance the Gazette storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20For%20Our%20Princess!%20walkthrough"
+  },
+  {
+    id: 1579,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gourmets Gone Missing",
+    location: "Riverside Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare recipe, rupees",
+    summary: "Two food-loving travelers have vanished searching for a legendary dish. Link tracks the missing gourmets from Riverside Stable across Hyrule.",
+    aiTip: "Follow the clues about where the gourmets were headed — they're usually near a cooking pot chasing a rare ingredient.",
+    walkthrough: [
+      "Hear about the missing gourmets at Riverside Stable.",
+      "Follow the trail of clues they left behind.",
+      "Locate the stranded travelers.",
+      "Help them and report back for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gourmets%20Gone%20Missing%20walkthrough"
+  },
+  {
+    id: 1580,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hateno Village Research Lab",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Camera / Purah Pad sensor unlocked",
+    summary: "An introductory tech quest: Link is directed to reconnect with Robbie's Hateno lab to restore the Purah Pad's camera and research features.",
+    aiTip: "This unlocks the camera you'll need for the Compendium and many main quests — do it early.",
+    walkthrough: [
+      "Get the referral from Purah at Lookout Landing.",
+      "Travel to the Hateno Ancient Tech Lab.",
+      "Meet Robbie and restore the lab's functions.",
+      "Gain the camera and sensor features."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hateno%20Village%20Research%20Lab%20walkthrough"
+  },
+  {
+    id: 1581,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hestu's Concerns",
+    location: "Near New Serenne Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hestu's maracas restored, inventory upgrades",
+    summary: "Link finds Hestu troubled near New Serenne Stable — his precious maracas are gone and he can't expand pouches until they're recovered.",
+    aiTip: "Clear the monsters that stole Hestu's maracas, then bring Korok Seeds to him to unlock weapon, bow and shield pouch slots.",
+    walkthrough: [
+      "Find a distressed Hestu near New Serenne Stable.",
+      "Defeat the monsters holding his maracas.",
+      "Return the maracas to Hestu.",
+      "Trade Korok Seeds to expand your inventory."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hestu's%20Concerns%20walkthrough"
+  },
+  {
+    id: 1582,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Honey, Bee Mine",
+    location: "West Necluda",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, courtship storyline",
+    summary: "A lovestruck traveler asks Link to gather courage-boosting courser bee honey to help him confess his feelings in West Necluda.",
+    aiTip: "Shoot beehives from a distance or grab honey and run — then deliver it fresh to complete the request.",
+    walkthrough: [
+      "Meet the nervous suitor in West Necluda.",
+      "Locate courser bee honey in the nearby trees.",
+      "Collect the honey carefully.",
+      "Deliver it so he can make his confession."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Honey%2C%20Bee%20Mine%20walkthrough"
+  },
+  {
+    id: 1583,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Infiltrating the Yiga Clan",
+    location: "Yiga Clan Hideout",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga Clan armor set pieces, schematics",
+    summary: "By donning a Yiga disguise, Link infiltrates the clan's hideout, reads their secret schematics, and uncovers the full Yiga armor set.",
+    aiTip: "Equip a full Yiga set to walk among clan members unnoticed — reading their notice boards reveals hidden schematic locations.",
+    walkthrough: [
+      "Obtain a Yiga disguise from a defeated clan member.",
+      "Enter the Yiga Clan Hideout undetected.",
+      "Read the schematics and notice boards inside.",
+      "Collect the Yiga armor pieces to complete the infiltration."
+    ],
+    video: "https://www.youtube.com/watch?v=gstFS5oytsU"
+  },
+  {
+    id: 1584,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Investigate the Thyphlo Ruins",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Ruins mystery clue, shrine access",
+    summary: "Researcher Wortsworth sends Link into the perpetually dark Thyphlo Ruins in Great Hyrule Forest to study the ancient owl statues and light the way.",
+    aiTip: "Bright­bloom seeds and burning arrows are your only light here — the puzzle revolves around carrying flame to the owl statues.",
+    walkthrough: [
+      "Meet the researcher near the Thyphlo Ruins.",
+      "Enter the pitch-black ruins with a light source.",
+      "Illuminate the path toward the giant owl statue.",
+      "Uncover the ruins' secret to reveal the hidden shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Investigate%20the%20Thyphlo%20Ruins%20walkthrough"
+  },
+  {
+    id: 1585,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legend of the Great Sky Island",
+    location: "Great Sky Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Sky island lore, rewards",
+    summary: "Returning to where his journey began, Link pieces together the legend of the Great Sky Island and the ancient Zonai who once lived there.",
+    aiTip: "Revisit the tutorial island with all your abilities — new areas and lore become reachable once you can fly and climb freely.",
+    walkthrough: [
+      "Return to the Great Sky Island.",
+      "Explore the ruins and shrines you couldn't reach before.",
+      "Piece together the island's Zonai history.",
+      "Complete the legend to claim its rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Great%20Sky%20Island%20walkthrough"
+  },
+  {
+    id: 1586,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lurelin Village Restoration Project",
+    location: "Lurelin Village",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Lurelin rebuilt, rupees, gratitude",
+    summary: "Pirate monsters have ravaged the seaside Lurelin Village. Link helps Bolson's crew and the villagers rebuild homes, the inn and the shops step by step.",
+    aiTip: "Gather wood and clear the remaining monsters first — then fund and fetch materials for each reconstruction stage.",
+    walkthrough: [
+      "Arrive at ruined Lurelin and drive off the monster pirates.",
+      "Speak with Rozel and Bolson about rebuilding.",
+      "Gather wood and materials for each structure.",
+      "Fund and complete each stage to restore the village."
+    ],
+    video: "https://www.youtube.com/watch?v=3lmHVU4GFAs"
+  },
+  {
+    id: 1587,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Master Kohga of the Yiga Clan",
+    location: "Great Abandoned Central Mine",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga schematics, Autobuild lore, treasure",
+    summary: "A four-part chase through the Depths in which Link repeatedly foils Master Kohga's ridiculous battle machines, ending the Yiga Clan's schemes for good.",
+    aiTip: "Each Kohga fight uses a different Zonai contraption — target his exposed platform and use arrows to knock him off balance.",
+    walkthrough: [
+      "Confront Kohga at the Great Abandoned Central Mine.",
+      "Defeat his first battle machine.",
+      "Track him to further mines across the Depths.",
+      "Beat his final machine to end the Yiga threat."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20Kohga%20of%20the%20Yiga%20Clan%20walkthrough"
+  },
+  {
+    id: 1588,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mattison's Independence",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Heartwarming storyline, rupees",
+    summary: "Hudson and Rhondson's daughter Mattison prepares to leave Tarrey Town for Gerudo Town. Link helps the family through the bittersweet farewell.",
+    aiTip: "Follow the family's requests around Tarrey Town — this is a story quest, so simply complete each step to see it through.",
+    walkthrough: [
+      "Speak with Hudson's family in Tarrey Town.",
+      "Help prepare Mattison for her journey.",
+      "See her off toward Gerudo Town.",
+      "Return to the family to close the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mattison's%20Independence%20walkthrough"
+  },
+  {
+    id: 1589,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Messages from an Ancient Era",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient script translated, lore",
+    summary: "Link gathers ancient tablets and inscriptions for the researchers at Lookout Landing, decoding messages left by the Zonai and old Hyrule.",
+    aiTip: "Photograph or collect the ancient tablets the researchers point out, then bring them back for translation.",
+    walkthrough: [
+      "Speak with the Lookout Landing researchers.",
+      "Locate the ancient inscriptions they need.",
+      "Record or retrieve the messages.",
+      "Deliver them for translation to reveal the lore."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Messages%20from%20an%20Ancient%20Era%20walkthrough"
+  },
+  {
+    id: 1590,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Potential Princess Sightings!",
+    location: "Lucky Clover Gazette",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Froggy armor set, Hero's Path-style photos",
+    summary: "Link joins Penn and Traysi's Lucky Clover Gazette to chase a series of Princess Zelda sightings at stables across Hyrule, each a self-contained mystery.",
+    aiTip: "Complete every stable sighting to earn the full Froggy armor set from Penn — each one is a short investigation with a twist.",
+    walkthrough: [
+      "Join the Lucky Clover Gazette and meet Penn.",
+      "Travel to each stable to investigate a Zelda sighting.",
+      "Solve the mystery behind every sighting.",
+      "Finish all sightings to claim the Froggy armor set."
+    ],
+    video: "https://www.youtube.com/watch?v=8jzHEWA5py0"
+  },
+  {
+    id: 1591,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: Hero's Path Mode!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Path Mode map feature",
+    summary: "Robbie upgrades the Purah Pad with Hero's Path Mode, letting Link trace his own recent movements across the map.",
+    aiTip: "A quick lab visit unlocks it — Hero's Path is great for spotting unexplored areas and missed shrines.",
+    walkthrough: [
+      "Visit the Hateno Ancient Tech Lab.",
+      "Speak with Robbie about the map upgrade.",
+      "Complete the short request.",
+      "Activate Hero's Path Mode on the Purah Pad."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Hero's%20Path%20Mode!%20walkthrough"
+  },
+  {
+    id: 1592,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: Sensor +!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sensor+ (track any Compendium entry)",
+    summary: "Robbie enhances the Purah Pad sensor so it can track any registered Compendium creature, material or treasure, not just shrines.",
+    aiTip: "Register an item in the Compendium first, then set Sensor+ to hunt down more of it — invaluable for gathering rare materials.",
+    walkthrough: [
+      "Go to the Hateno Ancient Tech Lab.",
+      "Ask Robbie about upgrading the sensor.",
+      "Complete the requirement (Compendium progress).",
+      "Unlock Sensor+ for targeted tracking."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Sensor%20%2B!%20walkthrough"
+  },
+  {
+    id: 1593,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: The Travel Medallion!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Travel Medallion (custom fast-travel point)",
+    summary: "Robbie grants Link the Travel Medallion, which places a personal fast-travel point anywhere in Hyrule.",
+    aiTip: "Drop the medallion at a mining or farming spot you revisit often — you can later upgrade to three medallions.",
+    walkthrough: [
+      "Visit Robbie at the Hateno Ancient Tech Lab.",
+      "Complete the request to unlock the device.",
+      "Receive the Travel Medallion.",
+      "Place it anywhere to create a fast-travel point."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20The%20Travel%20Medallion!%20walkthrough"
+  },
+  {
+    id: 1594,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Princess Zelda Kidnapped?!",
+    location: "Dueling Peaks Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Penn storyline progress, rupees",
+    summary: "One of Penn's earliest Gazette leads: a rumor that Princess Zelda has been kidnapped near Dueling Peaks Stable turns out stranger than reported.",
+    aiTip: "Talk to Penn at the stable and follow the sighting — expect a comedic twist rather than the real princess.",
+    walkthrough: [
+      "Meet Penn at Dueling Peaks Stable.",
+      "Investigate the kidnapping rumor.",
+      "Follow the trail to the 'princess'.",
+      "Report the truth to Penn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Princess%20Zelda%20Kidnapped%3F!%20walkthrough"
+  },
+  {
+    id: 1595,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Reede's Secret",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno election storyline progress",
+    summary: "As Hateno's mayoral race heats up, Link investigates what Mayor Reede is really up to at night, revealing his side of the village conflict with Cece.",
+    aiTip: "Trail Reede after dark to discover his secret — it balances the picture before you choose a side in the election.",
+    walkthrough: [
+      "Speak with Reede about the election.",
+      "Follow him during the night.",
+      "Discover the secret behind his behavior.",
+      "Report your findings to advance the storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Reede's%20Secret%20walkthrough"
+  },
+  {
+    id: 1596,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ruffian-Infested Village",
+    location: "Lurelin Village",
+    length: "long",
+    difficulty: "High",
+    reward: "Lurelin freed, restoration unlocked",
+    summary: "Before Lurelin can be rebuilt, Link must drive the monster 'pirate' ruffians out of the occupied seaside village.",
+    aiTip: "Clear the Bokoblin and pirate camps around the village and the docked ship — freeing Lurelin opens the Restoration Project.",
+    walkthrough: [
+      "Arrive at ruffian-occupied Lurelin Village.",
+      "Defeat the pirate monsters throughout the town.",
+      "Clear the ship and beach camps.",
+      "Free the villagers to begin restoration."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ruffian-Infested%20Village%20walkthrough"
+  },
+  {
+    id: 1597,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to a Great Fairy",
+    location: "Woodland Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Great Fairy unlocked, armor upgrades",
+    summary: "The Stable Trotters troupe must play their music to coax a Great Fairy from her bud. Link repairs their carriage and reunites the band to perform.",
+    aiTip: "Attach the missing instruments' players and haul the carriage to the fairy fountain — a full band opens the Great Fairy for armor upgrades.",
+    walkthrough: [
+      "Meet the traveling musicians near Woodland Stable.",
+      "Repair and power their performance carriage.",
+      "Escort it to the Great Fairy Fountain.",
+      "Play the serenade to awaken the Great Fairy."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20a%20Great%20Fairy%20walkthrough"
+  },
+  {
+    id: 1598,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Cotera",
+    location: "Dueling Peaks Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Cotera, armor upgrades",
+    summary: "Link helps the Stable Trotters bring their music to Great Fairy Cotera's fountain near Kakariko, awakening her to upgrade armor.",
+    aiTip: "Cotera's fountain is northeast of Kakariko — deliver the musicians here to unlock the first Great Fairy's upgrade service.",
+    walkthrough: [
+      "Find the musicians tied to Cotera's fountain.",
+      "Restore their carriage and instruments.",
+      "Lead them to Cotera's Fountain.",
+      "Perform to awaken Cotera for armor upgrades."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Cotera%20walkthrough"
+  },
+  {
+    id: 1599,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Kaysa",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Kaysa, armor upgrades",
+    summary: "Link reunites the traveling band to serenade Great Fairy Kaysa, freeing her to upgrade armor to higher tiers.",
+    aiTip: "You'll need more band members playing than for Cotera — each awakened Great Fairy raises the armor upgrade cap.",
+    walkthrough: [
+      "Gather the musicians for Kaysa's serenade.",
+      "Fix and power their carriage.",
+      "Escort it to Kaysa's Great Fairy Fountain.",
+      "Play the music to awaken Kaysa."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Kaysa%20walkthrough"
+  },
+  {
+    id: 1600,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Mija",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Mija, armor upgrades",
+    summary: "The final serenade brings the full troupe to Great Fairy Mija, completing the set of four Great Fairies for maximum armor upgrades.",
+    aiTip: "With all four instruments restored, Mija's performance opens the last Great Fairy — enabling top-tier armor enhancement.",
+    walkthrough: [
+      "Reunite the complete band for Mija's fountain.",
+      "Restore the carriage and all instruments.",
+      "Escort the troupe to Mija's Great Fairy Fountain.",
+      "Perform to awaken Mija and unlock full upgrades."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Mija%20walkthrough"
+  },
+  {
+    id: 1601,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Team Cece or Team Reede?",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Election outcome, Hateno storyline finale",
+    summary: "The climax of Hateno's mayoral race asks Link to back either hat-maker Cece or Mayor Reede, deciding the village's direction.",
+    aiTip: "Complete both Cece's Secret and Reede's Secret first so you understand each side before casting your support.",
+    walkthrough: [
+      "Finish the Cece and Reede secret investigations.",
+      "Weigh both candidates' plans for Hateno.",
+      "Choose to support Cece or Reede.",
+      "See the election resolve based on your choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Team%20Cece%20or%20Team%20Reede%3F%20walkthrough"
+  },
+  {
+    id: 1602,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The All-Clucking Cucco",
+    location: "South Akkala Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rupees, quirky reward",
+    summary: "A traveler at South Akkala Stable is obsessed with a legendary giant cucco. Link helps track down the enormous bird.",
+    aiTip: "Follow the cucco enthusiast's clues into the hills — approach the giant cucco calmly to complete the quest.",
+    walkthrough: [
+      "Hear the tale of the giant cucco at South Akkala Stable.",
+      "Follow the clues to the bird's roost.",
+      "Find the All-Clucking Cucco.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20All-Clucking%20Cucco%20walkthrough"
+  },
+  {
+    id: 1603,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Beast and the Princess",
+    location: "New Serenne Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Penn storyline progress, rupees",
+    summary: "Another Lucky Clover Gazette lead: rumors of a princess riding a great beast near New Serenne Stable send Link investigating with Penn.",
+    aiTip: "Track the beast sighting at night — Penn's quests always hide a twist behind the 'princess' rumor.",
+    walkthrough: [
+      "Meet Penn at New Serenne Stable.",
+      "Investigate the beast-and-princess rumor.",
+      "Follow the trail to its source.",
+      "Report the truth to Penn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beast%20and%20the%20Princess%20walkthrough"
+  },
+  {
+    id: 1604,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Beckoning Woman",
+    location: "Outskirt Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Mystery resolved, rupees",
+    summary: "Travelers speak of a mysterious woman beckoning from the roadside near Outskirt Stable. Link investigates the unsettling figure.",
+    aiTip: "Approach the beckoning woman with caution — the encounter may be a disguised threat rather than a lost traveler.",
+    walkthrough: [
+      "Learn of the beckoning woman at Outskirt Stable.",
+      "Travel to where she is seen.",
+      "Approach and confront the mystery.",
+      "Resolve the encounter and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beckoning%20Woman%20walkthrough"
+  },
+  {
+    id: 1605,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blocked Well",
+    location: "Gerudo Canyon Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Well cleared, well-digger's thanks",
+    summary: "The Wells of Hyrule enthusiast Fera worries about a well blocked near Gerudo Canyon Stable. Link clears the obstruction to restore access.",
+    aiTip: "Use bomb flowers or Ultrahand to remove the rubble sealing the well, then drop in to confirm it's clear.",
+    walkthrough: [
+      "Speak with the well enthusiast at Gerudo Canyon Stable.",
+      "Locate the blocked well.",
+      "Clear the debris sealing it.",
+      "Report the reopened well."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Well%20walkthrough"
+  },
+  {
+    id: 1606,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Corridor between Two Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo dragon-lore progress",
+    summary: "Part of the Thyphlo Ruins mystery, Link follows the clue of a corridor flanked by two dragon statues deep in the dark ruins.",
+    aiTip: "Keep a flame or Brightbloom light burning as you navigate — the dragon statues mark the path through the darkness.",
+    walkthrough: [
+      "Return to the dark Thyphlo Ruins with light.",
+      "Locate the two dragon statues.",
+      "Follow the corridor they flank.",
+      "Uncover the passage's secret."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Corridor%20between%20Two%20Dragons%20walkthrough"
+  },
+  {
+    id: 1607,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Flute Player's Plan",
+    location: "Highland Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Musician storyline progress",
+    summary: "The flute-playing member of the traveling musicians shares his plan near Highland Stable, part of reuniting the Great Fairy band.",
+    aiTip: "Follow Pyper's plan to help gather the scattered musicians toward their Great Fairy performance.",
+    walkthrough: [
+      "Meet the flute player near Highland Stable.",
+      "Hear out his plan for the troupe.",
+      "Help carry out the next step.",
+      "Advance the musicians' storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Flute%20Player's%20Plan%20walkthrough"
+  },
+  {
+    id: 1608,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hornist's Dramatic Escape",
+    location: "Tabantha Frontier",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Musician storyline progress",
+    summary: "The horn player of the traveling troupe is stranded in the Tabantha Frontier and needs Link's help to make a dramatic escape back to the band.",
+    aiTip: "Build a vehicle or clear the monsters trapping the hornist so he can rejoin the Great Fairy performance troupe.",
+    walkthrough: [
+      "Find the stranded hornist in Tabantha Frontier.",
+      "Assess what's blocking his escape.",
+      "Clear the danger or build a way out.",
+      "Reunite him with the musicians."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hornist's%20Dramatic%20Escape%20walkthrough"
+  },
+  {
+    id: 1609,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hunt for Bubbul Gems!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Bubbul gem exchange rewards from Koltin",
+    summary: "Kilton's brother Koltin collects Bubbul Gems dropped by Bubbulfrogs in caves. Link hunts them across Hyrule to trade for exclusive monster-themed gear.",
+    aiTip: "Every cave hides a Bubbulfrog — clear them all and spend the gems with Koltin for masks and the Mystic armor set.",
+    walkthrough: [
+      "Meet Koltin and learn about Bubbul Gems.",
+      "Explore caves and defeat their Bubbulfrogs.",
+      "Collect the Bubbul Gems they drop.",
+      "Trade the gems to Koltin for his rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=FWEULyvULmc"
+  },
+  {
+    id: 1610,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Long Dragon",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo dragon-lore progress",
+    summary: "A Thyphlo Ruins legend speaks of a long serpentine dragon. Link investigates the tale as part of unraveling the ruins' owl-and-dragon mystery.",
+    aiTip: "This clue ties into the ruins' constellation of dragon statues — light the area and study each statue's arrangement.",
+    walkthrough: [
+      "Investigate the long dragon legend at Thyphlo Ruins.",
+      "Light the ruins to study the dragon markers.",
+      "Follow the clue the legend describes.",
+      "Uncover the associated secret."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Long%20Dragon%20walkthrough"
+  },
+  {
+    id: 1611,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mayoral Election",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno storyline, election unlocked",
+    summary: "Link is drawn into Hateno Village's mayoral election between Reede and Cece, kicking off the town's central storyline.",
+    aiTip: "This quest opens the Cece/Reede secret investigations — pursue both before the final vote.",
+    walkthrough: [
+      "Arrive in Hateno amid the election buzz.",
+      "Speak with both candidates and villagers.",
+      "Begin investigating each candidate.",
+      "Advance toward the vote."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mayoral%20Election%20walkthrough"
+  },
+  {
+    id: 1612,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Missing Farm Tools",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, farmer's thanks",
+    summary: "A farmer near Wetland Stable has had tools stolen by monsters. Link recovers the missing farm equipment.",
+    aiTip: "The tools are usually at a nearby monster camp — clear it and grab the equipment to return.",
+    walkthrough: [
+      "Hear the farmer's complaint at Wetland Stable.",
+      "Track the tools to a monster camp.",
+      "Defeat the monsters and recover the tools.",
+      "Return them to the farmer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Farm%20Tools%20walkthrough"
+  },
+  {
+    id: 1613,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Owl Protected by Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo Ruins shrine, dragon-lore finale",
+    summary: "The central riddle of the Thyphlo Ruins: a giant owl statue guarded by dragons. Solving it reveals the hidden shrine at the heart of the dark ruins.",
+    aiTip: "Carry flame to the great owl statue at the center — lighting its braziers is the key to revealing the shrine.",
+    walkthrough: [
+      "Reach the giant owl statue deep in Thyphlo Ruins.",
+      "Light the surrounding dragon braziers.",
+      "Solve the owl-and-dragons puzzle.",
+      "Reveal and enter the hidden shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Owl%20Protected%20by%20Dragons%20walkthrough"
+  },
+  {
+    id: 1614,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Search for Koltin",
+    location: "Eldin Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Koltin's shop unlocked",
+    summary: "Before trading Bubbul Gems, Link must first track down the elusive, teleporting merchant Koltin across Hyrule's nights.",
+    aiTip: "Koltin only appears at night and vanishes at dawn — follow his glowing trail to pin down his location.",
+    walkthrough: [
+      "Learn about Koltin from his brother Kilton.",
+      "Search for Koltin's night-time appearances.",
+      "Follow his trail until you catch him.",
+      "Unlock his Bubbul Gem shop."
+    ],
+    video: "https://www.youtube.com/watch?v=nMcMaTicNQY"
+  },
+  {
+    id: 1615,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Six Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon lore complete, rewards",
+    summary: "A Thyphlo Ruins scholar's tale of six dragons guides Link to arrange or identify the dragon statues correctly within the dark ruins.",
+    aiTip: "Study each of the six dragon statues by lighting them — their orientation is the puzzle's solution.",
+    walkthrough: [
+      "Learn the tale of the six dragons at Thyphlo Ruins.",
+      "Illuminate and examine each dragon statue.",
+      "Arrange or identify them as the legend requires.",
+      "Complete the dragon-lore puzzle for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Six%20Dragons%20walkthrough"
+  },
+  {
+    id: 1616,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Yiga Clan Exam",
+    location: "Yiga Blademaster Station",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga Blademaster rank, Suariwak Shrine",
+    summary: "Disguised as a recruit, Link takes the Yiga Clan's blademaster exam, answering their questions and passing trials to earn rank and unlock a shrine.",
+    aiTip: "Wear the full Yiga set and follow the exam's clues carefully — passing every stage reveals the Suariwak Shrine.",
+    walkthrough: [
+      "Enter the Yiga Blademaster Station in disguise.",
+      "Take the clan's written and practical exam.",
+      "Answer correctly and pass each trial.",
+      "Earn blademaster rank and reveal the Suariwak Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=Q99BmyEd2Hk"
+  },
+  {
+    id: 1617,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "White Goats Gone Missing",
+    location: "Tabantha Bridge Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rupees, rancher's thanks",
+    summary: "A rancher at Tabantha Bridge Stable has lost his white goats. Link rounds up the scattered animals and drives off any predators.",
+    aiTip: "Herd the goats gently back toward the pen — running at them scatters the flock further.",
+    walkthrough: [
+      "Speak with the rancher at Tabantha Bridge Stable.",
+      "Search the hills for the missing white goats.",
+      "Deal with any monsters threatening them.",
+      "Herd the goats home."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20White%20Goats%20Gone%20Missing%20walkthrough"
+  },
+  {
+    id: 1618,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Who Goes There?",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lookout Landing storyline progress",
+    summary: "A quiet mystery at Lookout Landing: someone is sneaking about, and Link helps Jerrin identify the unknown visitor.",
+    aiTip: "Talk to the townsfolk and keep watch — the 'intruder' has a simple, reassuring explanation.",
+    walkthrough: [
+      "Hear about the mysterious visitor at Lookout Landing.",
+      "Investigate around the town.",
+      "Identify who has been sneaking about.",
+      "Report the truth to resolve the worry."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Goes%20There%3F%20walkthrough"
+  },
+  {
+    id: 1619,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Zelda's Golden Horse",
+    location: "Snowfield Stable",
+    length: "long",
+    difficulty: "High",
+    reward: "Zelda's golden horse, stable registration",
+    summary: "A stablehand's tale leads Link to find and tame Princess Zelda's rare golden horse, one of the best mounts in the game.",
+    aiTip: "The golden horse roams near Safula Hill — sneak up, mount it, and soothe it repeatedly before it can be registered.",
+    walkthrough: [
+      "Hear about Zelda's golden horse at Snowfield Stable.",
+      "Travel to the horse's roaming ground near Safula Hill.",
+      "Approach stealthily and mount the golden horse.",
+      "Soothe and register it at the stable."
+    ],
+    video: "https://www.youtube.com/watch?v=bSWgba8L728"
+  },
+  {
+    id: 1620,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Pretty Stone and Five Golden Apples",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to Pupunke Shrine",
+    summary: "A Korok in the Lost Woods near Korok Forest wants an offering of a pretty stone and five golden apples in exchange for revealing the Pupunke Shrine.",
+    aiTip: "Golden apples grow around the Great Deku Tree's roots — gather five, add a gemstone as the 'pretty stone', and offer them.",
+    walkthrough: [
+      "Find the Korok requesting an offering near Korok Forest.",
+      "Collect five golden apples from the surrounding trees.",
+      "Offer a gemstone as the pretty stone.",
+      "Reveal and complete the Pupunke Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=JYY4Uu8_aCA"
+  },
+  {
+    id: 1621,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dyeing to Find It",
+    location: "Lanayru Great Spring",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A color-based riddle at the Lanayru Great Spring points Link toward a shrine hidden until the correct colored clue is matched.",
+    aiTip: "Dye your gear or match the described colors at the Kakariko dye shop to satisfy the riddle's condition.",
+    walkthrough: [
+      "Hear the dye-related riddle at Lanayru Great Spring.",
+      "Determine the color the clue demands.",
+      "Match the color to reveal the hidden shrine.",
+      "Complete the shrine for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dyeing%20to%20Find%20It%20walkthrough"
+  },
+  {
+    id: 1622,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Keys Born of Water",
+    location: "West Necluda",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "In West Necluda a water puzzle conceals the shrine's key mechanism, requiring Link to manipulate water and ice to progress.",
+    aiTip: "Use Cryonis-style ice pillars (freeze water with cold) or Ultrahand rafts to reach the water-locked keys.",
+    walkthrough: [
+      "Investigate the water puzzle in West Necluda.",
+      "Manipulate the water or freeze it to form paths.",
+      "Unlock the water-born key mechanism.",
+      "Enter and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Keys%20Born%20of%20Water%20walkthrough"
+  },
+  {
+    id: 1623,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legend of the Soaring Spear",
+    location: "Tobio's Hollow Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A legend at Tobio's Hollow Cave tells of a soaring spear; solving the cave's puzzle reveals the shrine hidden within.",
+    aiTip: "Explore Tobio's Hollow Cave fully and use Ascend to reach upper chambers that hide the shrine entrance.",
+    walkthrough: [
+      "Learn the soaring spear legend and find Tobio's Hollow Cave.",
+      "Explore the cave's interior chambers.",
+      "Solve the puzzle guarding the shrine.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Soaring%20Spear%20walkthrough"
+  },
+  {
+    id: 1624,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Maca's Special Place",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "The Korok Maca asks Link to find his special hidden spot near Korok Forest, revealing a shrine when the location is discovered.",
+    aiTip: "Follow Maca's hints about his favorite place and search the indicated area of the woods.",
+    walkthrough: [
+      "Speak with Maca near Korok Forest.",
+      "Gather his hints about the special place.",
+      "Locate the spot he describes.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Maca's%20Special%20Place%20walkthrough"
+  },
+  {
+    id: 1625,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "None Shall Pass?",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A guardian challenge near Korok Forest bars the way; Link must prove himself or solve the barrier to unveil the shrine beyond.",
+    aiTip: "Approach the challenge as instructed — sometimes it's a test of combat, sometimes of using the right tool to pass.",
+    walkthrough: [
+      "Reach the barrier guarding the shrine near Korok Forest.",
+      "Take on the guardian's challenge.",
+      "Prove yourself or clear the obstacle.",
+      "Enter and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20None%20Shall%20Pass%3F%20walkthrough"
+  },
+  {
+    id: 1626,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ride the Giant Horse",
+    location: "Faron Grasslands",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, access to Ishokin Shrine",
+    summary: "A stablehand's tale in Faron leads Link to tame the enormous Giant Horse and ride it to unlock the Ishokin Shrine.",
+    aiTip: "The Giant Horse has no stamina limit but is hard to control — mount it, soothe it repeatedly, and ride it to trigger the shrine.",
+    walkthrough: [
+      "Learn of the Giant Horse in Faron Grasslands.",
+      "Find and sneak up on the enormous horse.",
+      "Mount and soothe it until tamed.",
+      "Ride it to reveal and complete the Ishokin Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=k1qkcYdFfy8"
+  },
+  {
+    id: 1627,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rock for Sale",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A merchant near Tarrey Town sells a peculiar rock that turns out to be tied to a hidden shrine's activation.",
+    aiTip: "Buy the special rock and bring it where the seller indicates — it's the key to revealing the shrine.",
+    walkthrough: [
+      "Meet the rock seller near Tarrey Town.",
+      "Purchase the special rock.",
+      "Bring it to the indicated spot.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20for%20Sale%20walkthrough"
+  },
+  {
+    id: 1628,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Death Caldera Crystal",
+    location: "Death Caldera",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal sits in the scorching Death Caldera. Link must carry it through the volcanic hazards to its waiting shrine.",
+    aiTip: "Wear Flamebreaker armor and keep the crystal moving — set it down in cool spots and avoid lava while carrying it.",
+    walkthrough: [
+      "Locate the crystal at Death Caldera.",
+      "Grab it with Ultrahand and start the carry.",
+      "Cross the volcanic terrain to the shrine pedestal.",
+      "Drop the crystal in to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Death%20Caldera%20Crystal%20walkthrough"
+  },
+  {
+    id: 1629,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The East Hebra Sky Crystal",
+    location: "East Hebra Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal drifts among the East Hebra sky islands. Link must ferry it across the archipelago to its shrine.",
+    aiTip: "Build a hoverbike or wing with Zonai devices to carry the crystal between floating islands quickly.",
+    walkthrough: [
+      "Reach the crystal in the East Hebra Sky Archipelago.",
+      "Attach it to a flying device with Ultrahand.",
+      "Navigate the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20East%20Hebra%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1630,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gerudo Canyon Crystal",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal rests in Gerudo Canyon and must be carried along the canyon course to its shrine to activate it.",
+    aiTip: "Watch the timed crystal carry — set it on a moving platform or vehicle so it doesn't reset if you're too slow.",
+    walkthrough: [
+      "Find the crystal in Gerudo Canyon.",
+      "Pick it up and follow the carry course.",
+      "Cross the canyon to the shrine pedestal.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=cCWafK9Agz8"
+  },
+  {
+    id: 1631,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gisa Crater Crystal",
+    location: "Gisa Crater",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal lies within Gisa Crater. Link retrieves and carries it to the crater's shrine to unlock it.",
+    aiTip: "Use Ultrahand to move the crystal across the crater's uneven terrain, building short ramps where needed.",
+    walkthrough: [
+      "Locate the crystal in Gisa Crater.",
+      "Grab it and plan the route to the shrine.",
+      "Carry it across the crater.",
+      "Insert it into the shrine to activate it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gisa%20Crater%20Crystal%20walkthrough"
+  },
+  {
+    id: 1632,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The High Spring and the Light Rings",
+    location: "Mount Lanayru",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "On Mount Lanayru, a puzzle of light rings above a high spring must be solved by flying or gliding through them in order.",
+    aiTip: "Paraglide or use a Zonai flying device to pass through each light ring in sequence to trigger the shrine.",
+    walkthrough: [
+      "Ascend to the high spring on Mount Lanayru.",
+      "Study the arrangement of the light rings.",
+      "Glide or fly through the rings in order.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20High%20Spring%20and%20the%20Light%20Rings%20walkthrough"
+  },
+  {
+    id: 1633,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lake Hylia Crystal",
+    location: "Lake Hylia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal sits near Lake Hylia and must be carried a short distance to its shrine to activate it.",
+    aiTip: "This carry is short and gentle — just Ultrahand the crystal straight to the pedestal.",
+    walkthrough: [
+      "Find the crystal at Lake Hylia.",
+      "Pick it up with Ultrahand.",
+      "Carry it to the nearby shrine.",
+      "Drop it in to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Hylia%20Crystal%20walkthrough"
+  },
+  {
+    id: 1634,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lake Intenoch Cave Crystal",
+    location: "Lake Intenoch Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal is hidden in Lake Intenoch Cave and must be brought out and carried to the shrine it powers.",
+    aiTip: "Light the cave with Brightbloom seeds to find the crystal, then navigate it back out to the shrine.",
+    walkthrough: [
+      "Explore Lake Intenoch Cave to find the crystal.",
+      "Free it and carry it with Ultrahand.",
+      "Navigate back to the shrine.",
+      "Place the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Intenoch%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1635,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lanayru Road Crystal",
+    location: "Lanayru Promenade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to O-ogim Shrine",
+    summary: "A blessing crystal along the Lanayru Promenade must be carried down the old road to the O-ogim Shrine to unlock it.",
+    aiTip: "Follow the road route with the crystal in hand — a simple cart built with Ultrahand speeds up the delivery.",
+    walkthrough: [
+      "Find the crystal on the Lanayru Promenade.",
+      "Grab it and follow the road course.",
+      "Deliver it to the O-ogim Shrine.",
+      "Activate the shrine with the crystal."
+    ],
+    video: "https://www.youtube.com/watch?v=2-yEisCi7eg"
+  },
+  {
+    id: 1636,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Necluda Sky Crystal",
+    location: "Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal drifts among the Necluda sky islands and must be flown to its distant shrine across the archipelago.",
+    aiTip: "Assemble a fan-powered glider to carry the crystal between islands; keep spare Zonai batteries handy.",
+    walkthrough: [
+      "Reach the crystal in the Necluda Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=P6-qx4b9QJc"
+  },
+  {
+    id: 1637,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Hebra Mountains Crystal",
+    location: "Hebra Mountains",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the frozen North Hebra Mountains must be hauled through the blizzard to its shrine.",
+    aiTip: "Wear cold-resistant gear and keep the crystal moving; a sled or hover device beats the deep snow.",
+    walkthrough: [
+      "Locate the crystal in the North Hebra Mountains.",
+      "Grab it and brave the blizzard.",
+      "Carry it to the mountain shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=7RYniVwZyc0"
+  },
+  {
+    id: 1638,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Hyrule Sky Crystal",
+    location: "North Hyrule Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, access to Mayam Shrine",
+    summary: "A blessing crystal among the North Hyrule sky islands must be flown to the Mayam Shrine to activate it.",
+    aiTip: "Build a stable flyer and mind your battery — the route to the Mayam Shrine spans several floating platforms.",
+    walkthrough: [
+      "Reach the crystal in the North Hyrule Sky Archipelago.",
+      "Mount it on a flying device.",
+      "Navigate to the Mayam Shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=f61hghl7TtU"
+  },
+  {
+    id: 1639,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Necluda Sky Crystal",
+    location: "North Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the North Necluda sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Chain platforms with a fan-glider and carry the crystal in stages, resting on islands to recharge.",
+    walkthrough: [
+      "Find the crystal in the North Necluda Sky Archipelago.",
+      "Attach it to a flying contraption.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Necluda%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1640,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Northwest Hebra Cave Crystal",
+    location: "Hebra Mountains Northwest Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal is tucked in the Northwest Hebra Cave and must be carried out to its shrine.",
+    aiTip: "Bring Brightbloom seeds to light the cave and watch for ice — a torch or fire keeps the path clear.",
+    walkthrough: [
+      "Explore the Northwest Hebra Cave for the crystal.",
+      "Free it with Ultrahand.",
+      "Carry it out to the shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Northwest%20Hebra%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1641,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Oakle's Navel Cave Crystal",
+    location: "Oakle's Navel Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal rests in Oakle's Navel Cave and must be moved to the shrine it powers.",
+    aiTip: "Navigate the cave's interior and use Ascend where the route loops upward to shortcut the carry.",
+    walkthrough: [
+      "Find the crystal inside Oakle's Navel Cave.",
+      "Grab it and plan your exit route.",
+      "Carry it to the shrine.",
+      "Activate the shrine with the crystal."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Oakle's%20Navel%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1642,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ralis Channel Crystal",
+    location: "Ralis Channel",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal near Ralis Channel must be carried a short way to its shrine to unlock it.",
+    aiTip: "An easy carry — Ultrahand the crystal directly to the pedestal, crossing the water on a quick raft if needed.",
+    walkthrough: [
+      "Locate the crystal at Ralis Channel.",
+      "Pick it up with Ultrahand.",
+      "Carry it to the nearby shrine.",
+      "Drop it in to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ralis%20Channel%20Crystal%20walkthrough"
+  },
+  {
+    id: 1643,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Satori Mountain Crystal",
+    location: "Satori Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, access to Uzasum Shrine",
+    summary: "A blessing crystal on Satori Mountain must be carried up or across the peak to the Uzasum Shrine to activate it.",
+    aiTip: "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
+    walkthrough: [
+      "Find the crystal on Satori Mountain.",
+      "Grab it with Ultrahand.",
+      "Carry it to the Uzasum Shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=RLfw02w2tiA"
+  },
+  {
+    id: 1644,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sky Mine Crystal",
+    location: "Sky Mine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal within the sky-borne mine must be extracted and carried through the facility to its shrine.",
+    aiTip: "Use the mine's rails and Zonai devices to move the crystal across gaps in the floating facility.",
+    walkthrough: [
+      "Reach the crystal in the Sky Mine.",
+      "Free it and mount it on a cart or flyer.",
+      "Navigate the facility to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Sky%20Mine%20Crystal%20walkthrough"
+  },
+  {
+    id: 1645,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sokkala Sky Crystal",
+    location: "Sokkala Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, access to Natak Shrine",
+    summary: "A blessing crystal among the Sokkala sky islands must be flown across the archipelago to the Natak Shrine.",
+    aiTip: "Build a reliable glider and carry the crystal island to island; use the electric orbs there to power devices.",
+    walkthrough: [
+      "Find the crystal in the Sokkala Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate to the Natak Shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=Nu_si43xt7U"
+  },
+  {
+    id: 1646,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Hyrule Sky Crystal",
+    location: "South Hyrule Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the South Hyrule sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Plan a multi-stage flight, resting on islands to rebuild or recharge your flying device between hops.",
+    walkthrough: [
+      "Reach the crystal in the South Hyrule Sky Archipelago.",
+      "Mount it on a flyer with Ultrahand.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Hyrule%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1647,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Lanayru Sky Crystal",
+    location: "South Lanayru Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal among the South Lanayru sky islands must be flown to its distant shrine across the archipelago.",
+    aiTip: "Keep the crystal secured to your device and watch your battery gauge on the longer aerial stretches.",
+    walkthrough: [
+      "Find the crystal in the South Lanayru Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate the sky islands to the shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lanayru%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1648,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Tabantha Sky Crystal",
+    location: "Tabantha Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the Tabantha sky islands must be carried across the windy archipelago to its shrine.",
+    aiTip: "Use the strong Tabantha updrafts and a wing to glide the crystal between islands efficiently.",
+    walkthrough: [
+      "Reach the crystal in the Tabantha Sky Archipelago.",
+      "Mount it on a glider or wing.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tabantha%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1649,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The West Necluda Sky Crystal",
+    location: "West Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal among the West Necluda sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Build a stable flying rig and ferry the crystal in stages, landing to recharge Zonai batteries as needed.",
+    walkthrough: [
+      "Find the crystal in the West Necluda Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate to the shrine across the islands.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20West%20Necluda%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1650,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The White Bird's Guidance",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to Wao-os Shrine",
+    summary: "A Rito legend of a white bird guides Link to the Wao-os Shrine near Rito Village once the bird's path is followed.",
+    aiTip: "Follow the white bird's flight and the elder's guidance to the shrine's hidden location above the village.",
+    walkthrough: [
+      "Hear the white bird's legend at Rito Village.",
+      "Follow the bird's indicated path.",
+      "Reach the revealed Wao-os Shrine.",
+      "Complete the shrine for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=RYIHxmWxM8M"
+  },
+  {
+    id: 1651,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Bottled Cry for Help",
+    location: "Hateno Beach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, gratitude",
+    summary: "Link finds a message in a bottle washed up on Hateno Beach and sets out to answer the stranded writer's plea for help.",
+    aiTip: "Read the bottled note, then follow its directions to the marooned traveler's location.",
+    walkthrough: [
+      "Pick up and read the message in a bottle on Hateno Beach.",
+      "Travel to the location described in the note.",
+      "Help the stranded person in need.",
+      "Return to confirm the rescue for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Bottled%20Cry%20for%20Help%20walkthrough"
+  },
+  {
+    id: 1652,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Crabulous Deal",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A merchant in Zora's Domain wants a supply of razorclaw crabs, prized for their stamina-boosting properties.",
+    aiTip: "Razorclaw crabs scuttle along the rivers and shores around Zora's Domain — grab a few and deliver them fresh.",
+    walkthrough: [
+      "Speak with the crab-seeking merchant in Zora's Domain.",
+      "Search the waterways for razorclaw crabs.",
+      "Collect the number requested.",
+      "Deliver the crabs for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Crabulous%20Deal%20walkthrough"
+  },
+  {
+    id: 1653,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A New Champion's Tunic",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Champion's Tunic (repaired/dyed)",
+    summary: "At Cece's shop in Hateno, Link has the worn Champion's Tunic restored or restyled to honor the hero's legacy.",
+    aiTip: "Bring the tunic and the required materials to the Hateno clothing shop to have it remade.",
+    walkthrough: [
+      "Visit the clothing shop in Hateno Village.",
+      "Present the Champion's Tunic for restoration.",
+      "Provide the materials the tailor requests.",
+      "Receive the renewed Champion's Tunic."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Champion's%20Tunic%20walkthrough"
+  },
+  {
+    id: 1654,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Dueling Peaks Stable",
+    location: "Dueling Peaks Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "The staff at Dueling Peaks Stable want a photograph of a local landmark to decorate their walls.",
+    aiTip: "Use the Purah Pad camera to snap the requested scene, then show the photo to the stable clerk.",
+    walkthrough: [
+      "Ask the Dueling Peaks Stable clerk what picture they want.",
+      "Travel to the landmark and take the photo.",
+      "Return and show the picture to the clerk.",
+      "Claim the decoration reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Dueling%20Peaks%20Stable%20walkthrough"
+  },
+  {
+    id: 1655,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for East Akkala Stable",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "East Akkala Stable's staff request a scenic photograph of an Akkala landmark to hang in the stable.",
+    aiTip: "Photograph the specified Akkala landmark with the camera and present it to the clerk.",
+    walkthrough: [
+      "Learn which view East Akkala Stable wants pictured.",
+      "Travel out and photograph the landmark.",
+      "Bring the picture back to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20East%20Akkala%20Stable%20walkthrough"
+  },
+  {
+    id: 1656,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Foothill Stable",
+    location: "Foothill Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Foothill Stable's staff want a photograph of a nearby Eldin landmark to brighten the stable.",
+    aiTip: "Frame the requested Death Mountain or Eldin view in the camera and show it off.",
+    walkthrough: [
+      "Ask what picture Foothill Stable wants.",
+      "Photograph the requested Eldin landmark.",
+      "Return and show the clerk the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Foothill%20Stable%20walkthrough"
+  },
+  {
+    id: 1657,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Highland Stable",
+    location: "Highland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Highland Stable requests a photograph of a scenic Faron-area landmark for decoration.",
+    aiTip: "Capture the requested southern landmark with the camera and present it to the clerk.",
+    walkthrough: [
+      "Find out which scene Highland Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Bring the picture back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Highland%20Stable%20walkthrough"
+  },
+  {
+    id: 1658,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Lakeside Stable",
+    location: "Lakeside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Lakeside Stable's staff want a photo of a Faron landmark to hang on their wall.",
+    aiTip: "Photograph the requested lakeside or jungle landmark and show it to the clerk.",
+    walkthrough: [
+      "Ask Lakeside Stable which picture they want.",
+      "Photograph the specified landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Lakeside%20Stable%20walkthrough"
+  },
+  {
+    id: 1659,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for New Serenne Stable",
+    location: "New Serenne Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "New Serenne Stable requests a photograph of a nearby landmark to decorate the stable.",
+    aiTip: "Frame the requested view near New Serenne with the camera and present it.",
+    walkthrough: [
+      "Learn what picture New Serenne Stable wants.",
+      "Travel to the landmark and take the photo.",
+      "Show the picture to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20New%20Serenne%20Stable%20walkthrough"
+  },
+  {
+    id: 1660,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Outskirt Stable",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Outskirt Stable's staff want a scenic photograph of a Central Hyrule landmark for the wall.",
+    aiTip: "Photograph the requested landmark west of Hyrule Field and show the clerk.",
+    walkthrough: [
+      "Ask Outskirt Stable which scene they want pictured.",
+      "Photograph the landmark.",
+      "Return and present the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Outskirt%20Stable%20walkthrough"
+  },
+  {
+    id: 1661,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Riverside Stable",
+    location: "Riverside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Riverside Stable requests a photograph of a nearby landmark to decorate the stable.",
+    aiTip: "Capture the requested riverside view with the camera and present it to the clerk.",
+    walkthrough: [
+      "Find out what picture Riverside Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Bring the picture back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Riverside%20Stable%20walkthrough"
+  },
+  {
+    id: 1662,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Snowfield Stable",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Snowfield Stable's staff want a photo of a Hebra-area landmark to brighten the cold stable.",
+    aiTip: "Bundle up, photograph the requested snowy landmark, and show it to the clerk.",
+    walkthrough: [
+      "Ask Snowfield Stable which picture they want.",
+      "Photograph the specified Hebra landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Snowfield%20Stable%20walkthrough"
+  },
+  {
+    id: 1663,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for South Akkala Stable",
+    location: "South Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "South Akkala Stable requests a photograph of an Akkala landmark for decoration.",
+    aiTip: "Photograph the requested Akkala view and present it to the clerk.",
+    walkthrough: [
+      "Learn which scene South Akkala Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Show the picture to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20South%20Akkala%20Stable%20walkthrough"
+  },
+  {
+    id: 1664,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Tabantha Bridge Stable",
+    location: "Tabantha Bridge Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Tabantha Bridge Stable's staff want a photograph of a Tabantha landmark to hang in the stable.",
+    aiTip: "Capture the requested Tabantha view with the camera and show the clerk.",
+    walkthrough: [
+      "Ask what picture Tabantha Bridge Stable wants.",
+      "Photograph the requested landmark.",
+      "Return the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Tabantha%20Bridge%20Stable%20walkthrough"
+  },
+  {
+    id: 1665,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for the Closed Stable I",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable reopening progress, rupees",
+    summary: "The shuttered Gerudo Canyon Stable can reopen if Link provides the pictures its owner needs — this is the first of the requested photos.",
+    aiTip: "Photograph the first requested landmark to help the closed stable get back in business.",
+    walkthrough: [
+      "Speak with the owner of the closed Gerudo Canyon Stable.",
+      "Learn which picture is needed first.",
+      "Photograph the landmark and return.",
+      "Deliver the first picture."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20I%20walkthrough"
+  },
+  {
+    id: 1666,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for the Closed Stable II",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable reopened, rupees",
+    summary: "The second photo request needed to help reopen the closed Gerudo Canyon Stable.",
+    aiTip: "Deliver the second requested picture to finish helping the stable reopen.",
+    walkthrough: [
+      "Return to the closed Gerudo Canyon Stable owner.",
+      "Learn which second picture is needed.",
+      "Photograph the landmark.",
+      "Deliver the picture to reopen the stable."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20II%20walkthrough"
+  },
+  {
+    id: 1667,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Wetland Stable",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Wetland Stable requests a photograph of a Lanayru wetlands landmark to decorate the stable.",
+    aiTip: "Photograph the requested wetlands view and present it to the clerk.",
+    walkthrough: [
+      "Ask Wetland Stable which picture they want.",
+      "Travel to and photograph the landmark.",
+      "Bring the photo back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Wetland%20Stable%20walkthrough"
+  },
+  {
+    id: 1668,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Woodland Stable",
+    location: "Woodland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Woodland Stable's staff want a photograph of an Eldin-edge landmark to hang in the stable.",
+    aiTip: "Capture the requested landmark near the Great Hyrule Forest and show the clerk.",
+    walkthrough: [
+      "Learn what picture Woodland Stable wants.",
+      "Photograph the landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Woodland%20Stable%20walkthrough"
+  },
+  {
+    id: 1669,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Token of Friendship",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora goodwill",
+    summary: "A Zora asks Link to deliver a heartfelt token to a friend, strengthening bonds within the Domain.",
+    aiTip: "Carry the token to the named recipient in or around Zora's Domain.",
+    walkthrough: [
+      "Accept the token from the Zora sender.",
+      "Find the intended friend.",
+      "Deliver the token of friendship.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Token%20of%20Friendship%20walkthrough"
+  },
+  {
+    id: 1670,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Trip through History",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ancient lore, rupees",
+    summary: "A Kakariko researcher guides Link through the village's Ring Ruins history, asking help documenting the ancient relics.",
+    aiTip: "Follow the researcher's tour and photograph or examine the ruins they point out.",
+    walkthrough: [
+      "Meet the historian in Kakariko Village.",
+      "Tour the Ring Ruins with them.",
+      "Record the historical points requested.",
+      "Complete the trip through history."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Trip%20through%20History%20walkthrough"
+  },
+  {
+    id: 1671,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Way to Trade, Washed Away",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, trade restored",
+    summary: "With Lurelin battered, a merchant's means of trade has been lost to the sea. Link helps recover or restore their livelihood.",
+    aiTip: "Retrieve the merchant's washed-away goods or equipment along the Lurelin shore.",
+    walkthrough: [
+      "Speak with the struggling Lurelin merchant.",
+      "Search the shoreline for their lost goods.",
+      "Recover the trade items.",
+      "Return them to restore the merchant's business."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Way%20to%20Trade%2C%20Washed%20Away%20walkthrough"
+  },
+  {
+    id: 1672,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Wife Wafted Away",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reunion",
+    summary: "A worried Zora husband's wife has drifted off during the upheaval; Link tracks her down to reunite the couple.",
+    aiTip: "Follow the clues about where the wife wandered — often up a waterfall or onto a nearby island.",
+    walkthrough: [
+      "Hear the husband's worry in Zora's Domain.",
+      "Follow the trail to the missing wife.",
+      "Ensure she is safe.",
+      "Reunite the couple for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Wife%20Wafted%20Away%20walkthrough"
+  },
+  {
+    id: 1673,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Amber Dealer",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees or gems",
+    summary: "A Goron in Goron City deals in amber and wants Link to supply gemstones dug from the region's ore.",
+    aiTip: "Mine ore deposits around Death Mountain for amber and other gems to trade with the dealer.",
+    walkthrough: [
+      "Meet the amber dealer in Goron City.",
+      "Mine ore deposits for amber.",
+      "Bring the requested gems.",
+      "Trade them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Amber%20Dealer%20walkthrough"
+  },
+  {
+    id: 1674,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "An Uninvited Guest",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stable peace",
+    summary: "Something unwelcome has taken up residence near Wetland Stable, and the staff ask Link to deal with the uninvited guest.",
+    aiTip: "Investigate the disturbance around the stable and remove the pest or monster causing trouble.",
+    walkthrough: [
+      "Hear the staff's complaint at Wetland Stable.",
+      "Investigate the uninvited guest.",
+      "Deal with the intruder.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Uninvited%20Guest%20walkthrough"
+  },
+  {
+    id: 1675,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ancient Blades Below",
+    location: "Spirit Temple",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ancient blade materials",
+    summary: "Near the Spirit Temple in the Depths, a request leads Link to recover ancient blades used as powerful fuse materials.",
+    aiTip: "Ancient blades are found in the Depths — fuse them to arrows or weapons for a one-hit boost against tough foes.",
+    walkthrough: [
+      "Learn of the ancient blades below near the Spirit Temple.",
+      "Descend and search the Depths for them.",
+      "Collect the ancient blades.",
+      "Return to complete the request."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ancient%20Blades%20Below%20walkthrough"
+  },
+  {
+    id: 1676,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cash In on Ripened Flint",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees",
+    summary: "At the Bedrock Bistro, a Goron wants a supply of flint mined from ore, paying well for the 'ripened' stones.",
+    aiTip: "Smash black ore deposits around Eldin for flint and bring it to the bistro.",
+    walkthrough: [
+      "Speak with the Goron at Bedrock Bistro.",
+      "Mine ore deposits for flint.",
+      "Gather the amount requested.",
+      "Cash in the flint for rupees."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cash%20In%20on%20Ripened%20Flint%20walkthrough"
+  },
+  {
+    id: 1677,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cave Mushrooms that Glow",
+    location: "Tabantha Frontier",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, brightcap materials",
+    summary: "A researcher in the Tabantha Frontier wants samples of glowing cave mushrooms (brightcaps) found in nearby caverns.",
+    aiTip: "Brightcaps grow in dark caves — harvest them and deliver them before they're needed for the study.",
+    walkthrough: [
+      "Meet the researcher in the Tabantha Frontier.",
+      "Explore nearby caves for glowing mushrooms.",
+      "Harvest the brightcaps requested.",
+      "Deliver them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cave%20Mushrooms%20that%20Glow%20walkthrough"
+  },
+  {
+    id: 1678,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Codgers' Quarrel",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, restored harmony",
+    summary: "Two stubborn old villagers in Kakariko are feuding, and Link is roped in to help settle their quarrel.",
+    aiTip: "Hear both codgers out and complete the small favors each asks to broker peace between them.",
+    walkthrough: [
+      "Speak with the two quarreling elders in Kakariko.",
+      "Learn what each is upset about.",
+      "Resolve their grievances.",
+      "Reconcile the pair for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Codgers'%20Quarrel%20walkthrough"
+  },
+  {
+    id: 1679,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cold-Endurance Contest!",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, endurance prize",
+    summary: "A contest challenges Link to endure the biting cold of the Gerudo highlands longer than the competition without succumbing.",
+    aiTip: "Stack cold-resistance food and armor, or hold a flame weapon, to outlast the freezing conditions.",
+    walkthrough: [
+      "Enter the cold-endurance contest at Gerudo Canyon.",
+      "Prepare cold-resistance meals and gear.",
+      "Endure the freezing conditions for the set time.",
+      "Win the contest for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cold-Endurance%20Contest!%20walkthrough"
+  },
+  {
+    id: 1680,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Crossing the Cold Pool",
+    location: "Hebra Mountains",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, path opened",
+    summary: "A frigid pool in the Hebra Mountains blocks the way, and Link must find a safe method to cross without freezing.",
+    aiTip: "Freeze stepping stones, build a raft, or use a Zonai device to cross the icy water without touching it.",
+    walkthrough: [
+      "Reach the cold pool in the Hebra Mountains.",
+      "Devise a way across using ice or Zonai devices.",
+      "Cross without succumbing to the cold.",
+      "Complete the crossing for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Crossing%20the%20Cold%20Pool%20walkthrough"
+  },
+  {
+    id: 1681,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dad's Blue Shirt",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, keepsake returned",
+    summary: "A Lurelin child's cherished memento — their father's blue shirt — was lost in the chaos, and Link helps recover it.",
+    aiTip: "Search the storm-wrecked areas of Lurelin for the missing blue shirt.",
+    walkthrough: [
+      "Hear the child's plea in Lurelin Village.",
+      "Search the village and shore for the blue shirt.",
+      "Recover the keepsake.",
+      "Return it to the grateful child."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dad's%20Blue%20Shirt%20walkthrough"
+  },
+  {
+    id: 1682,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dalia's Game",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees",
+    summary: "A Gerudo named Dalia invites Link to play her guessing or hiding game around Gerudo Town.",
+    aiTip: "Follow Dalia's rules and find what she hides or answer her riddle to win.",
+    walkthrough: [
+      "Meet Dalia in Gerudo Town.",
+      "Learn the rules of her game.",
+      "Play and find the hidden objective.",
+      "Win Dalia's game for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dalia's%20Game%20walkthrough"
+  },
+  {
+    id: 1683,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dantz's Prize Cows",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, fresh milk",
+    summary: "Dantz, the Hateno rancher, needs help with his prize cows — herding, protecting, or recovering the strays.",
+    aiTip: "Gently herd Dantz's cows back to the pasture and shoo off any predators.",
+    walkthrough: [
+      "Speak with Dantz at the Hateno pasture.",
+      "Locate his scattered prize cows.",
+      "Herd them safely home.",
+      "Report to Dantz for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dantz's%20Prize%20Cows%20walkthrough"
+  },
+  {
+    id: 1684,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Decorate with Passion",
+    location: "Kara Kara Bazaar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, decor",
+    summary: "A vendor at Kara Kara Bazaar wants help decorating their shop with just the right materials.",
+    aiTip: "Bring the specific decorative items or materials the vendor describes to spruce up the bazaar stall.",
+    walkthrough: [
+      "Talk to the vendor at Kara Kara Bazaar.",
+      "Learn what decorations they want.",
+      "Gather the requested materials.",
+      "Deliver them to complete the decor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Decorate%20with%20Passion%20walkthrough"
+  },
+  {
+    id: 1685,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Disaster in Gerudo Canyon",
+    location: "Gerudo Canyon Pass",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, path cleared",
+    summary: "A rockslide or hazard has caused a disaster at the Gerudo Canyon Pass, and Link steps in to help those affected.",
+    aiTip: "Clear the blockage or rescue the stranded travelers at the canyon pass.",
+    walkthrough: [
+      "Arrive at the disaster in Gerudo Canyon Pass.",
+      "Assess the hazard blocking the way.",
+      "Clear it or rescue those trapped.",
+      "Resolve the disaster for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Disaster%20in%20Gerudo%20Canyon%20walkthrough"
+  },
+  {
+    id: 1686,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Eldin's Colossal Fossil",
+    location: "East Akkala Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "A fossil researcher wants photographs of the colossal skeleton in the Eldin region to document Hyrule's giant beasts.",
+    aiTip: "Photograph the specific bone of the Eldin Great Skeleton the researcher requests, framing it clearly.",
+    walkthrough: [
+      "Meet the fossil researcher at East Akkala Stable.",
+      "Travel to the Eldin Great Skeleton.",
+      "Photograph the requested colossal fossil.",
+      "Return the picture to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Eldin's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1687,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Feathered Fugitives",
+    location: "Riverside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cuccos returned",
+    summary: "Cuccos have escaped near Riverside Stable and Link must round up the feathered fugitives.",
+    aiTip: "Carry or herd the loose cuccos back to their pen without scattering them.",
+    walkthrough: [
+      "Hear about the escaped cuccos at Riverside Stable.",
+      "Track down the feathered fugitives.",
+      "Gather each cucco.",
+      "Return them all to the pen."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Feathered%20Fugitives%20walkthrough"
+  },
+  {
+    id: 1688,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Fell into a Well!",
+    location: "Rebonae Bridge Well",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rescue",
+    summary: "Someone has fallen into the well at Rebonae Bridge, and Link descends to help them out.",
+    aiTip: "Drop into the well and use Ascend or Ultrahand to get yourself and the trapped person back up.",
+    walkthrough: [
+      "Hear the cry from the Rebonae Bridge Well.",
+      "Descend into the well.",
+      "Reach and help the trapped person.",
+      "Get them out safely for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fell%20into%20a%20Well!%20walkthrough"
+  },
+  {
+    id: 1689,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Fish for Fletching",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, arrows",
+    summary: "A Rito fletcher in Rito Village needs fish (or feathers) to craft quality arrow fletching.",
+    aiTip: "Catch the requested fish around Rito Village and deliver them to the fletcher.",
+    walkthrough: [
+      "Speak with the fletcher in Rito Village.",
+      "Catch the fish they need for fletching.",
+      "Deliver the catch.",
+      "Receive arrows or rupees as reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fish%20for%20Fletching%20walkthrough"
+  },
+  {
+    id: 1690,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Follow the Cuccos",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden find",
+    summary: "In Kakariko Village, following the wandering cuccos leads Link to a hidden discovery.",
+    aiTip: "Trail the cuccos patiently — they'll guide you to something worth finding.",
+    walkthrough: [
+      "Notice the cuccos in Kakariko Village.",
+      "Follow them without startling them.",
+      "Reach the place they lead to.",
+      "Claim the hidden discovery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Follow%20the%20Cuccos%20walkthrough"
+  },
+  {
+    id: 1691,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Genli's Home Cooking",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, recipe",
+    summary: "Genli in Rito Village wants ingredients to recreate a comforting home-cooked meal for the cold village.",
+    aiTip: "Gather the specific ingredients Genli lists and bring them back for her dish.",
+    walkthrough: [
+      "Talk to Genli in Rito Village.",
+      "Collect the ingredients she needs.",
+      "Deliver them for her home cooking.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Genli's%20Home%20Cooking%20walkthrough"
+  },
+  {
+    id: 1692,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gerudo's Colossal Fossil",
+    location: "Hebra Great Skeleton",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "The fossil researcher requests a photograph of a colossal skeleton associated with the Gerudo study, found at a Great Skeleton site.",
+    aiTip: "Photograph the requested bone of the Great Skeleton clearly for the researcher's records.",
+    walkthrough: [
+      "Take the fossil request from the researcher.",
+      "Travel to the Great Skeleton site.",
+      "Photograph the colossal fossil requested.",
+      "Return the photo to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gerudo's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1693,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gleeok Guts",
+    location: "Gerudo Canyon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rare materials",
+    summary: "A collector wants Gleeok Guts, the rare drop from the fearsome multi-headed Gleeok dragons.",
+    aiTip: "Defeat a Gleeok (found at various towers and ruins) to harvest its guts, then deliver them.",
+    walkthrough: [
+      "Accept the request for Gleeok Guts.",
+      "Track down and defeat a Gleeok.",
+      "Collect the Gleeok Guts it drops.",
+      "Deliver the guts for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gleeok%20Guts%20walkthrough"
+  },
+  {
+    id: 1694,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gloom-Borne Illness",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cure delivered",
+    summary: "A villager in Kakariko has fallen ill from gloom exposure, and Link seeks the ingredients for a curing remedy.",
+    aiTip: "Gather Sundelions or other gloom-cleansing ingredients and bring them to help the sick villager.",
+    walkthrough: [
+      "Learn of the gloom-borne illness in Kakariko.",
+      "Find the curative ingredients (e.g. Sundelions).",
+      "Prepare or deliver the remedy.",
+      "Cure the villager for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gloom-Borne%20Illness%20walkthrough"
+  },
+  {
+    id: 1695,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Glory of the Zora",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora honor",
+    summary: "A proud Zora asks Link to help restore or celebrate the glory of Zora's Domain after the sludge crisis.",
+    aiTip: "Complete the honorable task the Zora sets — often recovering a relic or cleaning a monument.",
+    walkthrough: [
+      "Speak with the proud Zora in the Domain.",
+      "Take on the task to restore Zora glory.",
+      "Complete the honorable deed.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Glory%20of%20the%20Zora%20walkthrough"
+  },
+  {
+    id: 1696,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Courage",
+    location: "Spring of Courage",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Courage, Link honors the Goddess Statue by fulfilling the offering or trial it requires.",
+    aiTip: "Reach the Spring of Courage in Faron and make the offering the statue asks for.",
+    walkthrough: [
+      "Travel to the Spring of Courage.",
+      "Approach the Goddess Statue.",
+      "Fulfill its offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Courage%20walkthrough"
+  },
+  {
+    id: 1697,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Power",
+    location: "Spring of Power",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Power in Akkala, Link honors the Goddess Statue by completing its requested offering or trial.",
+    aiTip: "Reach the Spring of Power and provide the offering the statue requests.",
+    walkthrough: [
+      "Travel to the Spring of Power.",
+      "Approach the Goddess Statue.",
+      "Complete the offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Power%20walkthrough"
+  },
+  {
+    id: 1698,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Wisdom",
+    location: "Spring of Wisdom",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Wisdom on Mount Lanayru, Link honors the Goddess Statue by fulfilling its offering or trial.",
+    aiTip: "Climb to the Spring of Wisdom and make the required offering to the statue.",
+    walkthrough: [
+      "Travel to the Spring of Wisdom.",
+      "Approach the Goddess Statue.",
+      "Fulfill its offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Wisdom%20walkthrough"
+  },
+  {
+    id: 1699,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Heat-Endurance Contest!",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, endurance prize",
+    summary: "A contest dares Link to withstand the searing desert heat longer than rivals without wilting.",
+    aiTip: "Use heat-resistance meals and cool gear, or stay near shade, to outlast the scorching conditions.",
+    walkthrough: [
+      "Enter the heat-endurance contest at Gerudo Canyon.",
+      "Prepare heat-resistance food and gear.",
+      "Endure the searing heat for the set time.",
+      "Win the contest for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Heat-Endurance%20Contest!%20walkthrough"
+  },
+  {
+    id: 1700,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hebra's Colossal Fossil",
+    location: "Eldin Great Skeleton",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "The fossil researcher requests a photograph of a colossal skeleton for the Hebra study, located at a Great Skeleton site.",
+    aiTip: "Photograph the specific colossal fossil bone the researcher wants, clearly framed.",
+    walkthrough: [
+      "Take the fossil request from the researcher.",
+      "Travel to the Great Skeleton site.",
+      "Photograph the requested colossal fossil.",
+      "Return the picture to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hebra's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1701,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Home on Arrange",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, home decor",
+    summary: "In Tarrey Town, a resident wants help arranging and furnishing their new home just right.",
+    aiTip: "Gather or place the furnishings the resident requests to complete their home.",
+    walkthrough: [
+      "Speak with the Tarrey Town resident.",
+      "Learn how they want the home arranged.",
+      "Provide the needed furnishings.",
+      "Complete the arrangement for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Home%20on%20Arrange%20walkthrough"
+  },
+  {
+    id: 1702,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Homegrown in Hateno",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, produce",
+    summary: "A Hateno farmer seeks help cultivating homegrown crops, from planting to protecting the harvest.",
+    aiTip: "Bring the seeds or produce the farmer needs, or clear pests, to support the Hateno harvest.",
+    walkthrough: [
+      "Talk to the Hateno farmer.",
+      "Learn what the crop effort needs.",
+      "Gather the seeds or clear the threat.",
+      "Complete the harvest task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Homegrown%20in%20Hateno%20walkthrough"
+  },
+  {
+    id: 1703,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Horse-Drawn Dreams",
+    location: "New Serenne Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cart built",
+    summary: "A dreamer at New Serenne Stable wants to build a horse-drawn cart, and Link helps assemble it.",
+    aiTip: "Use Ultrahand to attach a cart to a harnessed horse setup as the dreamer envisions.",
+    walkthrough: [
+      "Meet the dreamer at New Serenne Stable.",
+      "Gather the parts for the horse-drawn cart.",
+      "Assemble the cart with Ultrahand.",
+      "Fulfill the horse-drawn dream."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Horse-Drawn%20Dreams%20walkthrough"
+  },
+  {
+    id: 1704,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Kaneli's Flight Training",
+    location: "Flight Range",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, archery practice",
+    summary: "Elder Kaneli sets up flight and archery training at the Rito Flight Range for Link to master mid-air shots.",
+    aiTip: "Dive from the Flight Range and hit the targets in bullet time to complete the training.",
+    walkthrough: [
+      "Speak with Kaneli at the Flight Range.",
+      "Begin the flight-and-archery training.",
+      "Hit the targets while gliding.",
+      "Complete the training course."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Kaneli's%20Flight%20Training%20walkthrough"
+  },
+  {
+    id: 1705,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legacy of the Rito",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Rito lore",
+    summary: "A Rito elder shares the legacy of their people and asks Link's help preserving or proving it.",
+    aiTip: "Follow the elder's request — often retrieving a relic or performing a traditional feat of the Rito.",
+    walkthrough: [
+      "Meet the Rito elder in Rito Village.",
+      "Learn about the legacy they wish to preserve.",
+      "Complete the task honoring the Rito.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legacy%20of%20the%20Rito%20walkthrough"
+  },
+  {
+    id: 1706,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lost in the Dunes",
+    location: "Kara Kara Bazaar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rescue",
+    summary: "A traveler has become lost in the desert dunes near Kara Kara Bazaar, and Link sets out to find them.",
+    aiTip: "Search the surrounding dunes, especially during clear weather, to locate the lost traveler.",
+    walkthrough: [
+      "Hear about the lost traveler at Kara Kara Bazaar.",
+      "Search the desert dunes.",
+      "Find the stranded person.",
+      "Guide them to safety for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lost%20in%20the%20Dunes%20walkthrough"
+  },
+  {
+    id: 1707,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lurelin Resort Project",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, resort progress",
+    summary: "Following Lurelin's restoration, an entrepreneur dreams of turning the village into a resort, enlisting Link's help.",
+    aiTip: "Provide the materials or complete the tasks needed to advance the resort's development.",
+    walkthrough: [
+      "Speak with the resort planner in Lurelin.",
+      "Learn what the resort needs next.",
+      "Gather materials or complete the task.",
+      "Advance the Lurelin Resort Project."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lurelin%20Resort%20Project%20walkthrough"
+  },
+  {
+    id: 1708,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Manny's Beloved",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, matchmaking",
+    summary: "Manny at the Hateno inn pines for someone special and asks Link to help win his beloved's affection.",
+    aiTip: "Deliver Manny's gift or message to his crush and report their reaction.",
+    walkthrough: [
+      "Talk to Manny at the Hateno inn.",
+      "Take his gift or note to his beloved.",
+      "Deliver it and gauge the response.",
+      "Report back to Manny for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Manny's%20Beloved%20walkthrough"
+  },
+  {
+    id: 1709,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Master the Vehicle Prototype",
+    location: "Hudson Construction Site",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, vehicle schematic",
+    summary: "At a Hudson construction site, Link tests and masters a Zonai vehicle prototype through a driving challenge.",
+    aiTip: "Build the prototype from the schematic and complete the test course to master it.",
+    walkthrough: [
+      "Meet the engineer at the Hudson Construction Site.",
+      "Assemble the vehicle prototype.",
+      "Complete the driving test.",
+      "Master the prototype for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20the%20Vehicle%20Prototype%20walkthrough"
+  },
+  {
+    id: 1710,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Meat for Meat",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A cook at the Bedrock Bistro wants quality meat and offers a fair trade for the right cuts.",
+    aiTip: "Hunt the animals that drop the requested meat and bring it to the bistro.",
+    walkthrough: [
+      "Speak with the cook at Bedrock Bistro.",
+      "Hunt for the requested meat.",
+      "Deliver the cuts.",
+      "Trade meat for meat, and claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Meat%20for%20Meat%20walkthrough"
+  },
+  {
+    id: 1711,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Death Mountain",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, ride access",
+    summary: "An enthusiast building a mine-cart attraction near the Southern Mine wants Link to help lay out the Death Mountain course.",
+    aiTip: "Use Ultrahand and rails to build a working mine-cart track for the ride.",
+    walkthrough: [
+      "Meet the mine-cart enthusiast at the Southern Mine.",
+      "Gather rails and cart parts.",
+      "Build the Death Mountain mine-cart course.",
+      "Test the ride to complete it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Death%20Mountain%20walkthrough"
+  },
+  {
+    id: 1712,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Open for Business!",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, attraction opened",
+    summary: "The finishing touches to open the Mine-Cart Land attraction near the Southern Mine, with Link's building help.",
+    aiTip: "Complete the final track and controls so the mine-cart attraction can open to visitors.",
+    walkthrough: [
+      "Return to the Mine-Cart Land builder.",
+      "Finish the remaining track sections.",
+      "Set up the cart controls.",
+      "Open Mine-Cart Land for business."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Open%20for%20Business!%20walkthrough"
+  },
+  {
+    id: 1713,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Quickshot Course",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, high score",
+    summary: "A shooting-gallery variant of Mine-Cart Land challenges Link to hit targets while riding the cart at speed.",
+    aiTip: "Fuse or ready a bow and shoot the targets in bullet time as the cart races along the track.",
+    walkthrough: [
+      "Take on the Quickshot Course at the Southern Mine.",
+      "Board the mine cart with a bow ready.",
+      "Hit the targets along the course.",
+      "Achieve the score to complete it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Quickshot%20Course%20walkthrough"
+  },
+  {
+    id: 1714,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mired in Muck",
+    location: "Upland Zorana Skyview Tower",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tower access, rupees",
+    summary: "The Upland Zorana Skyview Tower is buried in sludge, and Link must clear the muck to activate it.",
+    aiTip: "Splash water or use Zonai hydrants to wash the sludge off the tower's mechanism.",
+    walkthrough: [
+      "Reach the muck-covered Upland Zorana Skyview Tower.",
+      "Clear the sludge blocking the entrance.",
+      "Access the tower's launch mechanism.",
+      "Activate the tower."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mired%20in%20Muck%20walkthrough"
+  },
+  {
+    id: 1715,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Cave of Chests",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure chests, rare gear",
+    summary: "Following the bandit Misko's clues, Link explores the Cave of Chests near Cephla Lake for hidden treasure.",
+    aiTip: "Read Misko's notes for the chest locations and bring a light source into the cave.",
+    walkthrough: [
+      "Find Misko's clue pointing to the Cave of Chests.",
+      "Explore Cephla Lake Cave with a light.",
+      "Open the hidden treasure chests.",
+      "Claim Misko's stash."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Cave%20of%20Chests%20walkthrough"
+  },
+  {
+    id: 1716,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening I",
+    location: "Goronbi River Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The first leg of Misko's Treasure of Awakening leads Link to the Goronbi River Cave for a piece of a legendary set.",
+    aiTip: "Bring fireproof gear for the Eldin cave and follow Misko's note to the hidden chest.",
+    walkthrough: [
+      "Read Misko's clue for the first awakening treasure.",
+      "Enter the Goronbi River Cave.",
+      "Locate the hidden chest.",
+      "Claim the awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20I%20walkthrough"
+  },
+  {
+    id: 1717,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening II",
+    location: "Ancient Columns Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The second leg of Misko's Treasure of Awakening sends Link to the Ancient Columns Cave for another set piece.",
+    aiTip: "Follow Misko's directions carefully and light the cave to find the concealed chest.",
+    walkthrough: [
+      "Read Misko's second awakening clue.",
+      "Travel to the Ancient Columns Cave.",
+      "Search for the hidden chest.",
+      "Claim the awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20II%20walkthrough"
+  },
+  {
+    id: 1718,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening III",
+    location: "Coliseum Ruins Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The final leg of Misko's Treasure of Awakening leads Link into the dangerous Coliseum Ruins Cave for the last set piece.",
+    aiTip: "The Coliseum Ruins hold a tough boss — clear it, then grab the treasure Misko hid within.",
+    walkthrough: [
+      "Read Misko's third awakening clue.",
+      "Descend into the Coliseum Ruins Cave.",
+      "Defeat the guardians and find the chest.",
+      "Claim the final awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20III%20walkthrough"
+  },
+  {
+    id: 1719,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Heroines Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Heroine's set clue/armor",
+    summary: "A Misko manuscript hints at treasure tied to the Gerudo heroines, starting from clues at Cephla Lake Cave.",
+    aiTip: "Read the Heroines Manuscript, then follow its riddle to the hidden armor location.",
+    walkthrough: [
+      "Recover the Heroines Manuscript from Cephla Lake Cave.",
+      "Decipher its treasure clue.",
+      "Travel to the indicated location.",
+      "Claim the heroine-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Heroines%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1720,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Pirate Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pirate set clue/armor",
+    summary: "Misko's Pirate Manuscript points toward buccaneer treasure, with clues found at Cephla Lake Cave.",
+    aiTip: "Read the Pirate Manuscript and follow it to the coastal or cave stash it describes.",
+    walkthrough: [
+      "Recover the Pirate Manuscript from Cephla Lake Cave.",
+      "Decode the pirate treasure clue.",
+      "Travel to the hidden stash.",
+      "Claim the pirate-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Pirate%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1721,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: The Fierce Deity",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fierce Deity set clue/armor",
+    summary: "The legendary Fierce Deity treasure is hinted at in a Misko manuscript found at Cephla Lake Cave.",
+    aiTip: "Read the Fierce Deity manuscript and follow its clue to the powerful set's hiding place.",
+    walkthrough: [
+      "Recover the Fierce Deity manuscript at Cephla Lake Cave.",
+      "Decipher the clue to the treasure.",
+      "Travel to the hidden location.",
+      "Claim the Fierce Deity reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20The%20Fierce%20Deity%20walkthrough"
+  },
+  {
+    id: 1722,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Twins Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Twins set clue/armor",
+    summary: "Misko's Twins Manuscript points to treasure themed after the twin folk heroes, beginning at Cephla Lake Cave.",
+    aiTip: "Read the Twins Manuscript and follow its riddle to the concealed reward.",
+    walkthrough: [
+      "Recover the Twins Manuscript from Cephla Lake Cave.",
+      "Decode its treasure clue.",
+      "Travel to the indicated spot.",
+      "Claim the twins-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Twins%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1723,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Molli the Fletcher's Quest",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, arrows",
+    summary: "Young Molli in Rito Village dreams of becoming a fletcher and asks Link to help gather materials for making arrows.",
+    aiTip: "Collect the feathers and wood Molli needs to practice her fletching craft.",
+    walkthrough: [
+      "Speak with Molli in Rito Village.",
+      "Gather the arrow-making materials she needs.",
+      "Deliver them to Molli.",
+      "Support her fletcher's dream for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Molli%20the%20Fletcher's%20Quest%20walkthrough"
+  },
+  {
+    id: 1724,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Moon-Gazing Gorons",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stargazing spot",
+    summary: "Some Gorons in Goron City want to gaze at the moon and stars but need Link's help clearing smoke or reaching a vantage point.",
+    aiTip: "Help the Gorons get a clear view — often by clearing haze or building a way up to a lookout.",
+    walkthrough: [
+      "Talk to the moon-gazing Gorons in Goron City.",
+      "Learn what blocks their view.",
+      "Clear the obstruction or build a vantage.",
+      "Give them their moon-gazing view."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Moon-Gazing%20Gorons%20walkthrough"
+  },
+  {
+    id: 1725,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "One-Hit Wonder!",
+    location: "South Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, challenge prize",
+    summary: "A challenger at South Akkala Stable dares Link to defeat a foe or complete a feat in a single hit.",
+    aiTip: "Use an ancient blade fuse or a powerful charged attack to score the one-hit victory.",
+    walkthrough: [
+      "Accept the One-Hit Wonder challenge at South Akkala Stable.",
+      "Prepare a strong one-hit weapon or fuse.",
+      "Defeat the target in a single blow.",
+      "Claim the challenge prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20One-Hit%20Wonder!%20walkthrough"
+  },
+  {
+    id: 1726,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Open the Door",
+    location: "Tabantha Village Ruins",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden room",
+    summary: "A sealed door in the Tabantha Village Ruins hides something, and Link must find the way to open it.",
+    aiTip: "Look for a nearby switch, weight, or Zonai mechanism to unlock the ruined door.",
+    walkthrough: [
+      "Reach the sealed door in the Tabantha Village Ruins.",
+      "Search for the opening mechanism.",
+      "Activate it to open the door.",
+      "Explore what lies beyond."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Open%20the%20Door%20walkthrough"
+  },
+  {
+    id: 1727,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ousting the Giants",
+    location: "Lakeside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, safety restored",
+    summary: "Giant monsters threaten the area around Lakeside Stable, and Link is asked to oust them.",
+    aiTip: "Take down the Hinox or Talus menacing the stable's surroundings.",
+    walkthrough: [
+      "Hear the plea at Lakeside Stable.",
+      "Locate the giant monsters nearby.",
+      "Defeat them to oust the threat.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ousting%20the%20Giants%20walkthrough"
+  },
+  {
+    id: 1728,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Out of the Inn",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, resolution",
+    summary: "A guest problem at the Kakariko inn needs sorting, and Link steps in to help get things back in order.",
+    aiTip: "Talk to the innkeeper and guests to resolve whatever's keeping business from running smoothly.",
+    walkthrough: [
+      "Visit the Kakariko Village inn.",
+      "Learn the problem keeping things stalled.",
+      "Resolve the guest or inn issue.",
+      "Restore order for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Out%20of%20the%20Inn%20walkthrough"
+  },
+  {
+    id: 1729,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Photographing a Chuchu",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, compendium entry",
+    summary: "A researcher in Hateno wants a clear photograph of a Chuchu for study or the compendium.",
+    aiTip: "Find a Chuchu, snap a clean photo with the camera, and bring it back.",
+    walkthrough: [
+      "Speak with the researcher in Hateno Village.",
+      "Locate a Chuchu nearby.",
+      "Photograph it clearly.",
+      "Deliver the picture for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Photographing%20a%20Chuchu%20walkthrough"
+  },
+  {
+    id: 1730,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Piaffe, Packed Away",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, horse gear",
+    summary: "A stablehand's horse gear or belongings (Piaffe) got packed away or lost, and Link helps recover them.",
+    aiTip: "Track down the misplaced horse-related items around the Gerudo Canyon Stable.",
+    walkthrough: [
+      "Speak with the stablehand at Gerudo Canyon Stable.",
+      "Search for the packed-away belongings.",
+      "Recover them.",
+      "Return them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Piaffe%2C%20Packed%20Away%20walkthrough"
+  },
+  {
+    id: 1731,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Pride of the Gerudo",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Gerudo honor",
+    summary: "A proud Gerudo asks Link to uphold the honor and traditions of Gerudo Town through a worthy task.",
+    aiTip: "Complete the honorable task the Gerudo sets to prove your respect for their people.",
+    walkthrough: [
+      "Meet the proud Gerudo in Gerudo Town.",
+      "Take on the task honoring the Gerudo.",
+      "Complete the deed with distinction.",
+      "Earn the Gerudo's respect and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Pride%20of%20the%20Gerudo%20walkthrough"
+  },
+  {
+    id: 1732,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rattled Ralera",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reassurance",
+    summary: "Ralera in Lurelin Village is shaken after the pirate attacks, and Link helps restore her peace of mind.",
+    aiTip: "Complete the reassuring task Ralera asks for as the village recovers.",
+    walkthrough: [
+      "Speak with the rattled Ralera in Lurelin.",
+      "Learn what would ease her worry.",
+      "Complete the task for her.",
+      "Restore her peace of mind."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rattled%20Ralera%20walkthrough"
+  },
+  {
+    id: 1733,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rock Roast or Dust",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A Goron chef at the Bedrock Bistro debates ingredients and wants Link to supply quality rock roast.",
+    aiTip: "Gather the rock roast (Goron delicacy) the chef requests and deliver it fresh.",
+    walkthrough: [
+      "Talk to the chef at Bedrock Bistro.",
+      "Gather the rock roast requested.",
+      "Deliver it to the bistro.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20Roast%20or%20Dust%20walkthrough"
+  },
+  {
+    id: 1734,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secret Treasure under the Great Fish",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A legend in Zora's Domain speaks of treasure hidden beneath the great fish island, and Link dives to find it.",
+    aiTip: "Use the Zora Armor to swim and explore beneath the fish-shaped landmark for the hidden cache.",
+    walkthrough: [
+      "Hear the legend in Zora's Domain.",
+      "Travel to the great fish landmark.",
+      "Search beneath it for the secret treasure.",
+      "Claim the hidden reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secret%20Treasure%20under%20the%20Great%20Fish%20walkthrough"
+  },
+  {
+    id: 1735,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secrets Within",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden discovery",
+    summary: "A resident of Tarrey Town hints at secrets hidden within the town or a nearby structure for Link to uncover.",
+    aiTip: "Investigate the building or area the resident mentions for the concealed secret.",
+    walkthrough: [
+      "Speak with the resident in Tarrey Town.",
+      "Investigate the hinted location.",
+      "Uncover the secret within.",
+      "Report your discovery for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secrets%20Within%20walkthrough"
+  },
+  {
+    id: 1736,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Seeking the Pirate Hideout",
+    location: "Eventide Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "Treasure, rupees",
+    summary: "Clues lead Link to seek out a pirate hideout around Eventide Island in the southern seas.",
+    aiTip: "Explore Eventide and its surrounding waters to find the monster-pirate hideout and its loot.",
+    walkthrough: [
+      "Follow the clues toward Eventide Island.",
+      "Search for the hidden pirate hideout.",
+      "Clear the pirates guarding it.",
+      "Claim the hideout's treasure."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Seeking%20the%20Pirate%20Hideout%20walkthrough"
+  },
+  {
+    id: 1737,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Simmerstone Springs",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hot-spring access",
+    summary: "The hot springs near Goron City need attention, and Link helps restore the healing Simmerstone Springs.",
+    aiTip: "Clear whatever blocks or cools the springs so the healing waters flow again.",
+    walkthrough: [
+      "Learn about the troubled springs in Goron City.",
+      "Investigate Simmerstone Springs.",
+      "Restore the hot spring's flow.",
+      "Complete the task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Simmerstone%20Springs%20walkthrough"
+  },
+  {
+    id: 1738,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Soul of the Gorons",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Goron honor",
+    summary: "A Goron elder asks Link to help preserve the fighting spirit and soul of the Goron people.",
+    aiTip: "Complete the test of strength or tradition the elder sets to honor the Gorons.",
+    walkthrough: [
+      "Meet the Goron elder in Goron City.",
+      "Learn the task honoring the Goron soul.",
+      "Complete the feat of strength.",
+      "Earn the Gorons' respect and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Soul%20of%20the%20Gorons%20walkthrough"
+  },
+  {
+    id: 1739,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Spotting Spot",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, dog's help",
+    summary: "At Lookout Landing, a spotted dog named Spot may lead Link to something useful if befriended.",
+    aiTip: "Feed and befriend the dog — dogs in TOTK lead you to buried treasure when they trust you.",
+    walkthrough: [
+      "Find the dog Spot at Lookout Landing.",
+      "Feed it to earn its trust.",
+      "Follow Spot to its discovery.",
+      "Claim what it leads you to."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Spotting%20Spot%20walkthrough"
+  },
+  {
+    id: 1740,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Strongest in the World",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, title",
+    summary: "A boastful challenger at East Akkala Stable claims to be the strongest and dares Link to prove otherwise.",
+    aiTip: "Meet the challenger's terms — usually a feat of combat or strength — to claim the title.",
+    walkthrough: [
+      "Accept the challenge at East Akkala Stable.",
+      "Learn the terms of the strength contest.",
+      "Complete the feat to win.",
+      "Be crowned the strongest for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Strongest%20in%20the%20World%20walkthrough"
+  },
+  {
+    id: 1741,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Supply-Eyeing Fliers",
+    location: "Tabantha Frontier",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, supplies protected",
+    summary: "Aerial monsters are eyeing supplies in the Tabantha Frontier, and Link must protect the goods from the fliers.",
+    aiTip: "Shoot down the Aerocuda or Keese fliers threatening the supplies before they carry them off.",
+    walkthrough: [
+      "Learn of the supply-eyeing fliers in Tabantha Frontier.",
+      "Spot the aerial monsters.",
+      "Shoot them down before they steal supplies.",
+      "Protect the goods for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Supply-Eyeing%20Fliers%20walkthrough"
+  },
+  {
+    id: 1742,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Teach Me a Lesson I",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, school supplies",
+    summary: "The teacher at Hateno's school needs help with the first of a series of lessons or supplies for the classroom.",
+    aiTip: "Gather the school materials or complete the classroom task the teacher requests.",
+    walkthrough: [
+      "Visit the school in Hateno Village.",
+      "Learn what the first lesson needs.",
+      "Gather the materials or help teach.",
+      "Complete the first lesson task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20I%20walkthrough"
+  },
+  {
+    id: 1743,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Teach Me a Lesson II",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, school supplies",
+    summary: "The continuation of the Hateno school's needs, with Link helping the teacher deliver a second lesson.",
+    aiTip: "Bring the additional supplies or complete the follow-up classroom task the teacher asks for.",
+    walkthrough: [
+      "Return to the Hateno school.",
+      "Learn what the second lesson needs.",
+      "Provide the materials or assistance.",
+      "Complete the second lesson task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20II%20walkthrough"
+  },
+  {
+    id: 1744,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Abandoned Laborer",
+    location: "Death Mountain West Tunnel",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, worker rescued",
+    summary: "A laborer has been left behind in the Death Mountain West Tunnel, and Link goes to help them out.",
+    aiTip: "Bring fireproof protection into the tunnel and guide the abandoned worker to safety.",
+    walkthrough: [
+      "Hear about the abandoned laborer.",
+      "Enter the Death Mountain West Tunnel.",
+      "Find the stranded worker.",
+      "Lead them safely out for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Abandoned%20Laborer%20walkthrough"
+  },
+  {
+    id: 1745,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ancient City Gorondia!",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, lore confirmed",
+    summary: "The follow-up to the Gorondia legend: with proof in hand, Link confirms the existence of the ancient Goron city.",
+    aiTip: "Return the evidence of Gorondia to the Goron researcher to confirm the ancient city's legend.",
+    walkthrough: [
+      "Bring the Gorondia evidence back to Goron City.",
+      "Present it to the researcher.",
+      "Confirm the ancient city's existence.",
+      "Complete the legend for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia!%20walkthrough"
+  },
+  {
+    id: 1746,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ancient City Gorondia?",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, investigation started",
+    summary: "A Goron researcher in Goron City wonders if the fabled ancient city of Gorondia is real and asks Link to investigate.",
+    aiTip: "Descend into the Depths beneath Eldin to search for signs of the ancient Goron city.",
+    walkthrough: [
+      "Speak with the researcher in Goron City.",
+      "Descend into the Depths to investigate Gorondia.",
+      "Find evidence of the ancient city.",
+      "Report your findings back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia%3F%20walkthrough"
+  },
+  {
+    id: 1747,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blocked Cave",
+    location: "Hebra Mountains",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cave opened",
+    summary: "A cave in the Hebra Mountains is blocked, and Link must clear the obstruction to open it up.",
+    aiTip: "Use bomb flowers or Ultrahand to remove the boulders or ice sealing the cave.",
+    walkthrough: [
+      "Reach the blocked cave in the Hebra Mountains.",
+      "Identify what seals the entrance.",
+      "Clear the obstruction.",
+      "Explore the newly opened cave."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Cave%20walkthrough"
+  },
+  {
+    id: 1748,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blue Stone",
+    location: "East Reservoir Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reward item",
+    summary: "A mysterious blue stone at East Reservoir Lake sparks a request for Link to retrieve or investigate it.",
+    aiTip: "Locate the blue stone at the reservoir and bring it to the person who wants it.",
+    walkthrough: [
+      "Learn about the blue stone at East Reservoir Lake.",
+      "Search the lake for the stone.",
+      "Retrieve the blue stone.",
+      "Deliver it for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blue%20Stone%20walkthrough"
+  },
+  {
+    id: 1749,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Captured Tent",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, camp restored",
+    summary: "Monsters have overrun a camp near Snowfield Stable, capturing a traveler's tent that Link must reclaim.",
+    aiTip: "Clear the monster camp holding the tent and return the gear to its owner.",
+    walkthrough: [
+      "Hear about the captured tent at Snowfield Stable.",
+      "Locate the monster-held camp.",
+      "Defeat the monsters and reclaim the tent.",
+      "Return it to the traveler."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Captured%20Tent%20walkthrough"
+  },
+  {
+    id: 1750,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Duchess Who Disappeared",
+    location: "Selmie's Spot",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, mystery solved",
+    summary: "Near Selmie's Spot in the snowy peaks, a 'duchess' has gone missing, and Link investigates her disappearance.",
+    aiTip: "Follow the trail from Selmie's Spot to find where the missing duchess went.",
+    walkthrough: [
+      "Learn of the disappearance at Selmie's Spot.",
+      "Follow the clues into the mountains.",
+      "Find the missing duchess.",
+      "Resolve the mystery for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Duchess%20Who%20Disappeared%20walkthrough"
+  },
+  {
+    id: 1751,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Fort at Ja'Abu Ridge",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, fort secured",
+    summary: "A defensive effort at Ja'Abu Ridge near Zora's Domain needs Link's help to hold or clear the fort.",
+    aiTip: "Help the Zora defend or retake the fort by clearing the monsters threatening the ridge.",
+    walkthrough: [
+      "Reach the fort at Ja'Abu Ridge.",
+      "Assist the Zora defenders.",
+      "Clear the monster threat.",
+      "Secure the fort for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Fort%20at%20Ja'Abu%20Ridge%20walkthrough"
+  },
+  {
+    id: 1752,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gathering Pirates",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, threat cleared",
+    summary: "Monster pirates are gathering near East Akkala Stable, and Link is asked to break up the growing threat.",
+    aiTip: "Strike the pirate camp before it grows — clear the ships and Bokoblins gathering there.",
+    walkthrough: [
+      "Hear about the gathering pirates at East Akkala Stable.",
+      "Locate the pirate camp.",
+      "Defeat the gathering monsters.",
+      "Clear the threat for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gathering%20Pirates%20walkthrough"
+  },
+  {
+    id: 1753,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Great Tumbleweed Purge",
+    location: "Gerudo Canyon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cleanup done",
+    summary: "Tumbleweeds have overrun part of Gerudo Canyon, and Link helps clear them out in a comedic cleanup.",
+    aiTip: "Burn or slash the tumbleweeds cluttering the canyon to complete the purge.",
+    walkthrough: [
+      "Take on the tumbleweed problem in Gerudo Canyon.",
+      "Clear the tumbleweeds cluttering the area.",
+      "Finish the great purge.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Great%20Tumbleweed%20Purge%20walkthrough"
+  },
+  {
+    id: 1754,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Heroines' Secret",
+    location: "Gerudo Shelter",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Gerudo lore",
+    summary: "At the Gerudo Shelter, a scholar shares hints of the ancient heroines' secret, asking Link to help uncover it.",
+    aiTip: "Follow the heroine statues and clues in and around the shelter to reveal the secret.",
+    walkthrough: [
+      "Speak with the scholar at Gerudo Shelter.",
+      "Follow the clues about the heroines.",
+      "Uncover the hidden secret.",
+      "Report the discovery for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Heroines'%20Secret%20walkthrough"
+  },
+  {
+    id: 1755,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hidden Treasure at Lizard Lakes",
+    location: "Goron City",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A treasure map points to riches hidden around the Lizard Lakes in the Eldin region near Goron City.",
+    aiTip: "Use the map clue and fireproof gear to dig out the treasure at the Lizard Lakes.",
+    walkthrough: [
+      "Obtain the Lizard Lakes treasure clue in Goron City.",
+      "Travel to the Lizard Lakes.",
+      "Search the marked spot for treasure.",
+      "Claim the hidden reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hidden%20Treasure%20at%20Lizard%20Lakes%20walkthrough"
+  },
+  {
+    id: 1756,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Horse Guard's Request",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, horse gear",
+    summary: "A horse guard at Outskirt Stable has a request concerning the care or recovery of a special horse.",
+    aiTip: "Complete the guard's request — often taming or retrieving a particular horse.",
+    walkthrough: [
+      "Speak with the horse guard at Outskirt Stable.",
+      "Learn the details of the request.",
+      "Tame or recover the horse in question.",
+      "Fulfill the request for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Horse%20Guard's%20Request%20walkthrough"
+  },
+  {
+    id: 1757,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Iceless Icehouse",
+    location: "Northern Icehouse",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ice restored",
+    summary: "The Northern Icehouse has run out of ice, and Link is asked to help restock or restore its chill.",
+    aiTip: "Gather ice or fix the cooling method so the icehouse can store goods again.",
+    walkthrough: [
+      "Learn of the iceless problem at the Northern Icehouse.",
+      "Find a source of ice or cold.",
+      "Restore the icehouse's supply.",
+      "Complete the task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Iceless%20Icehouse%20walkthrough"
+  },
+  {
+    id: 1758,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Incomplete Stable",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stable progress",
+    summary: "A stable being built near Lookout Landing is unfinished, and Link helps gather what's needed to complete it.",
+    aiTip: "Provide the materials the builders request to finish constructing the stable.",
+    walkthrough: [
+      "Speak with the stable builders near Lookout Landing.",
+      "Learn what the incomplete stable needs.",
+      "Gather and deliver the materials.",
+      "Help complete the stable."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Incomplete%20Stable%20walkthrough"
+  },
+  {
+    id: 1759,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lomei Labyrinth Island Prophecy",
+    location: "Lomei Labyrinth Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Barbarian/rare armor, shrine",
+    summary: "An ancient prophecy tied to the Lomei Labyrinth Island in northeast Akkala challenges Link to conquer the maze on the surface, in the sky, and in the Depths.",
+    aiTip: "Solve all three layers of the labyrinth (surface, sky island, and Depths beneath) to claim the full reward.",
+    walkthrough: [
+      "Reach the Lomei Labyrinth Island and read the prophecy.",
+      "Navigate the surface labyrinth to its center.",
+      "Solve the sky and Depths layers of the maze.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lomei%20Labyrinth%20Island%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1760,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Missing Owner",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, shop reopened",
+    summary: "A shop in Gerudo Town sits idle because its owner has gone missing, and Link sets out to find them.",
+    aiTip: "Follow leads from the townsfolk to locate the missing shop owner.",
+    walkthrough: [
+      "Notice the ownerless shop in Gerudo Town.",
+      "Ask around for the missing owner.",
+      "Track them down.",
+      "Bring them back to reopen the shop."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Owner%20walkthrough"
+  },
+  {
+    id: 1761,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Moonlit Princess",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora tale",
+    summary: "A romantic Zora legend of a moonlit princess draws Link into confirming or reliving the tale in Zora's Domain.",
+    aiTip: "Visit the legend's spot at night, under the moon, to witness or complete the tale.",
+    walkthrough: [
+      "Hear the moonlit princess legend in Zora's Domain.",
+      "Travel to the described spot at night.",
+      "Witness the moonlit scene.",
+      "Complete the tale for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Moonlit%20Princess%20walkthrough"
+  },
+  {
+    id: 1762,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mother Goddess Statue",
+    location: "Forgotten Temple",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Heart/stamina exchange, blessing",
+    summary: "Deep in the Forgotten Temple, the great Mother Goddess Statue offers Link a powerful blessing or vessel exchange.",
+    aiTip: "Reach the giant statue at the temple's end — it can trade hearts and stamina like the Horned Statue, but grander.",
+    walkthrough: [
+      "Journey through the Forgotten Temple.",
+      "Reach the Mother Goddess Statue at its heart.",
+      "Make the offering or exchange.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mother%20Goddess%20Statue%20walkthrough"
+  },
+  {
+    id: 1763,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mysterious Eighth",
+    location: "Gerudo Shelter",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, mystery solved",
+    summary: "At the Gerudo Shelter, talk of a mysterious 'eighth' heroine or member sends Link investigating the puzzle.",
+    aiTip: "Study the seven heroine statues and their lore to uncover the truth about the mysterious eighth.",
+    walkthrough: [
+      "Learn of the mysterious eighth at Gerudo Shelter.",
+      "Investigate the heroine statues and records.",
+      "Uncover the truth of the eighth.",
+      "Report your findings for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mysterious%20Eighth%20walkthrough"
+  },
+  {
+    id: 1764,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Never-Ending Lecture",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, patience rewarded",
+    summary: "A long-winded Zora in Zora's Domain traps listeners in an endless lecture, and Link finds a way to help end it.",
+    aiTip: "Complete the small task that will finally satisfy the lecturer and free the trapped listener.",
+    walkthrough: [
+      "Encounter the never-ending lecture in Zora's Domain.",
+      "Learn what would end it.",
+      "Complete the needed task.",
+      "Resolve the lecture for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Never-Ending%20Lecture%20walkthrough"
+  },
+  {
+    id: 1765,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Lomei Prophecy",
+    location: "North Lomei Labyrinth",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare armor, shrine",
+    summary: "The prophecy of the North Lomei Labyrinth in the Hebra region challenges Link to conquer its surface maze and the Depths beneath.",
+    aiTip: "Solve the freezing surface labyrinth, then descend into the Depths version to complete the prophecy.",
+    walkthrough: [
+      "Reach the North Lomei Labyrinth and read the prophecy.",
+      "Navigate the surface maze to its center.",
+      "Descend and solve the Depths labyrinth.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Lomei%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1766,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Rito Rope Bridge",
+    location: "Lucky Clover Gazette",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, bridge repaired",
+    summary: "A Gazette assignment sends Link to help repair or report on the Rito rope bridge connecting the frozen village.",
+    aiTip: "Gather materials or build a span to restore the rope bridge for the Rito.",
+    walkthrough: [
+      "Take the assignment from the Lucky Clover Gazette.",
+      "Travel to the damaged Rito rope bridge.",
+      "Repair or rebuild the crossing.",
+      "Report the fix for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Rito%20Rope%20Bridge%20walkthrough"
+  },
+  {
+    id: 1767,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Secret Room",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden treasure",
+    summary: "A hidden room in or near Korok Forest holds a secret that Link is asked to find and open.",
+    aiTip: "Search Korok Forest for a concealed entrance — Ascend and Ultrahand often reveal hidden rooms.",
+    walkthrough: [
+      "Learn of the secret room near Korok Forest.",
+      "Search for its concealed entrance.",
+      "Open the secret room.",
+      "Claim the treasure inside."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Secret%20Room%20walkthrough"
+  },
+  {
+    id: 1768,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Shrine Explorer",
+    location: "Shrine of Light",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, shrine insight",
+    summary: "An eager shrine enthusiast wants Link's help exploring or documenting a shrine's secrets.",
+    aiTip: "Guide the explorer or fetch what they need from the shrine to satisfy their curiosity.",
+    walkthrough: [
+      "Meet the shrine explorer.",
+      "Learn what they want to discover.",
+      "Help explore or document the shrine.",
+      "Complete the exploration for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Shrine%20Explorer%20walkthrough"
+  },
+  {
+    id: 1769,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Lomei Prophecy",
+    location: "South Lomei Labyrinth",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare armor, shrine",
+    summary: "The prophecy of the South Lomei Labyrinth in the Gerudo Desert challenges Link to conquer its scorching maze and the Depths beneath.",
+    aiTip: "Brave the desert-heat surface labyrinth, then solve its Depths counterpart to finish the prophecy.",
+    walkthrough: [
+      "Reach the South Lomei Labyrinth and read the prophecy.",
+      "Navigate the surface maze to its center.",
+      "Descend and solve the Depths labyrinth.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lomei%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1770,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Tarrey Town Race Is On!",
+    location: "Hudson Construction Site",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, race prize",
+    summary: "A building or vehicle race centered on Tarrey Town and Hudson's crews challenges Link to compete and win.",
+    aiTip: "Build a fast Zonai vehicle and race the course to claim victory.",
+    walkthrough: [
+      "Enter the race at the Hudson Construction Site.",
+      "Build or ready your racing vehicle.",
+      "Complete the course ahead of rivals.",
+      "Win the race for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tarrey%20Town%20Race%20Is%20On!%20walkthrough"
+  },
+  {
+    id: 1771,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Treasure Hunters",
+    location: "Rauru Hillside",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rupees",
+    summary: "A band of treasure hunters at Rauru Hillside enlists Link to help locate a fabled cache.",
+    aiTip: "Follow the treasure hunters' map and clues to dig out the hidden reward.",
+    walkthrough: [
+      "Meet the treasure hunters at Rauru Hillside.",
+      "Follow their map and clues.",
+      "Locate the hidden treasure.",
+      "Claim your share of the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Treasure%20Hunters%20walkthrough"
+  },
+  {
+    id: 1772,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ultimate Dish?",
+    location: "Rikoka Hills Well",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, recipe",
+    summary: "A cook chasing the ultimate dish, tied to the Rikoka Hills Well, needs Link to gather a rare final ingredient.",
+    aiTip: "Track down the special ingredient the cook needs and deliver it for their masterpiece.",
+    walkthrough: [
+      "Learn of the ultimate dish quest at Rikoka Hills Well.",
+      "Find the rare ingredient required.",
+      "Deliver it to the cook.",
+      "Help complete the ultimate dish."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ultimate%20Dish%3F%20walkthrough"
+  },
+  {
+    id: 1773,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "To the Ruins!",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, expedition",
+    summary: "An expedition from Gerudo Town heads to nearby ruins, and Link is recruited to help explore them.",
+    aiTip: "Escort or assist the expedition into the desert ruins and clear any dangers.",
+    walkthrough: [
+      "Join the expedition in Gerudo Town.",
+      "Travel to the desert ruins.",
+      "Help explore and clear the ruins.",
+      "Complete the expedition for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Ruins!%20walkthrough"
+  },
+  {
+    id: 1774,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Today's Menu",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, meal",
+    summary: "A cook at Lookout Landing plans today's menu and needs Link to fetch the right ingredients.",
+    aiTip: "Gather the specific ingredients on the cook's list and bring them back.",
+    walkthrough: [
+      "Talk to the cook at Lookout Landing.",
+      "Learn today's menu ingredients.",
+      "Gather the required items.",
+      "Deliver them to complete the menu."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Today's%20Menu%20walkthrough"
+  },
+  {
+    id: 1775,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Treasure of the Gerudo Desert",
+    location: "Gerudo Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A desert treasure legend from Gerudo Town leads Link across the dunes in search of buried riches.",
+    aiTip: "Use the treasure clue and watch for landmarks in the desert to pinpoint the buried cache.",
+    walkthrough: [
+      "Obtain the desert treasure clue in Gerudo Town.",
+      "Search the Gerudo Desert for the landmark.",
+      "Dig out the buried treasure.",
+      "Claim the desert's reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Gerudo%20Desert%20walkthrough"
+  },
+  {
+    id: 1776,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Treasure of the Secret Springs",
+    location: "Rito Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A legend of secret springs near Rito Village hints at hidden treasure for Link to uncover.",
+    aiTip: "Explore the hidden springs in the Tabantha/Hebra area to find the concealed reward.",
+    walkthrough: [
+      "Hear the secret springs legend in Rito Village.",
+      "Locate the hidden springs.",
+      "Search them for the treasure.",
+      "Claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Secret%20Springs%20walkthrough"
+  },
+  {
+    id: 1777,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "True Treasure",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, heartfelt reward",
+    summary: "A Zora quest for 'true treasure' turns out to be about more than gold, guiding Link to a meaningful discovery.",
+    aiTip: "Follow the quest's clues in Zora's Domain — the true treasure may be sentimental as much as valuable.",
+    walkthrough: [
+      "Begin the true treasure quest in Zora's Domain.",
+      "Follow the clues to the treasure.",
+      "Discover what the true treasure really is.",
+      "Complete the quest for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20True%20Treasure%20walkthrough"
+  },
+  {
+    id: 1778,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Uma's Garden",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, flowers",
+    summary: "Uma tends a garden in Hateno Village and asks Link to help gather seeds or protect the blooms.",
+    aiTip: "Bring the flower seeds or materials Uma needs to keep her garden thriving.",
+    walkthrough: [
+      "Speak with Uma in Hateno Village.",
+      "Learn what her garden needs.",
+      "Gather the seeds or materials.",
+      "Help Uma's garden flourish."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Uma's%20Garden%20walkthrough"
+  },
+  {
+    id: 1779,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Huge Silhouette",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "The monster-intel board at the Emergency Shelter reports a huge unknown silhouette; Link investigates and defeats the beast.",
+    aiTip: "Follow the sighting to identify and take down the giant monster (often a Hinox or Frox).",
+    walkthrough: [
+      "Read the huge silhouette report at the Emergency Shelter.",
+      "Travel to the sighting location.",
+      "Identify and defeat the huge monster.",
+      "Report the kill for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Huge%20Silhouette%20walkthrough"
+  },
+  {
+    id: 1780,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Sky Giant",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "An unknown giant has been spotted in the skies; the Emergency Shelter asks Link to investigate and bring it down.",
+    aiTip: "Reach the sky sighting and defeat the aerial giant (such as a Flux Construct or Gleeok).",
+    walkthrough: [
+      "Read the sky giant report at the Emergency Shelter.",
+      "Travel to the sky sighting.",
+      "Confront and defeat the sky giant.",
+      "Report the victory for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Sky%20Giant%20walkthrough"
+  },
+  {
+    id: 1781,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Three-Headed Monster",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "Reports of a three-headed monster reach the Emergency Shelter, and Link hunts down the fearsome Gleeok.",
+    aiTip: "Prepare for a Gleeok fight — bring plenty of arrows and headshot each head to bring it down.",
+    walkthrough: [
+      "Read the three-headed monster report at the Emergency Shelter.",
+      "Travel to the sighting.",
+      "Defeat the three-headed Gleeok.",
+      "Report the kill for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Three-Headed%20Monster%20walkthrough"
+  },
+  {
+    id: 1782,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Village Attacked by Pirates",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, village aided",
+    summary: "News reaches Lookout Landing that a village is under pirate attack, sending Link to its defense (leading toward Lurelin's plight).",
+    aiTip: "Follow the report to the besieged coastal village and drive off the monster pirates.",
+    walkthrough: [
+      "Hear of the pirate attack at Lookout Landing.",
+      "Travel to the threatened village.",
+      "Fight off the attacking pirates.",
+      "Secure the village for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Village%20Attacked%20by%20Pirates%20walkthrough"
+  },
+  {
+    id: 1783,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Walton's Treasure Hunt",
+    location: "Korok Forest",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare materials",
+    summary: "Walton the Korok near Korok Forest sets Link on a treasure hunt using his riddling clues.",
+    aiTip: "Solve Walton's riddles and search the forest to find each stage of the treasure hunt.",
+    walkthrough: [
+      "Meet Walton near Korok Forest.",
+      "Solve his treasure-hunt riddles.",
+      "Search the indicated spots.",
+      "Claim the treasure at the end."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Walton's%20Treasure%20Hunt%20walkthrough"
+  },
+  {
+    id: 1784,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Hinox",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty at the Emergency Shelter calls for the defeat of a dangerous Hinox threatening travelers.",
+    aiTip: "Locate the Hinox, shoot its eye to stun it, then strike hard while it's down.",
+    walkthrough: [
+      "Accept the Hinox bounty at the Emergency Shelter.",
+      "Track down the Hinox.",
+      "Defeat the giant.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Hinox%20walkthrough"
+  },
+  {
+    id: 1785,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Molduga",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty posted at the Emergency Shelter targets a Molduga rampaging through the desert sands.",
+    aiTip: "Use bomb flowers to stun the Molduga when it surfaces, then attack while it's beached.",
+    walkthrough: [
+      "Accept the Molduga bounty at the Emergency Shelter.",
+      "Travel to the Molduga's desert basin.",
+      "Lure it up with bombs and defeat it.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Molduga%20walkthrough"
+  },
+  {
+    id: 1786,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Stone Talus",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty at the Emergency Shelter calls for the destruction of a Stone Talus menacing the region.",
+    aiTip: "Climb the Talus and smash its ore weak point, or blast it with bomb-fused arrows.",
+    walkthrough: [
+      "Accept the Stone Talus bounty at the Emergency Shelter.",
+      "Locate the Stone Talus.",
+      "Destroy its ore core.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Stone%20Talus%20walkthrough"
+  },
+  {
+    id: 1787,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Where Are the Wells?",
+    location: "Hyrule",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, wells cataloged",
+    summary: "Fera, the well enthusiast, asks Link to discover the many wells scattered across Hyrule and report on them.",
+    aiTip: "Drop into and catalog the wells you find across Hyrule — each visited well advances Fera's tally.",
+    walkthrough: [
+      "Speak with Fera about the wells of Hyrule.",
+      "Seek out wells across the kingdom.",
+      "Explore each one you find.",
+      "Report the wells to Fera for rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Where%20Are%20the%20Wells%3F%20walkthrough"
+  },
+  {
+    id: 1788,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Whirly Swirly Things",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, propeller parts",
+    summary: "A tinkerer near Korok Forest is fascinated by 'whirly swirly things' (Zonai fans/propellers) and wants Link to bring some.",
+    aiTip: "Gather Zonai fan devices and deliver them to satisfy the tinkerer's curiosity.",
+    walkthrough: [
+      "Meet the tinkerer near Korok Forest.",
+      "Collect the Zonai fan devices they want.",
+      "Deliver the whirly swirly things.",
+      "Complete the request for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Whirly%20Swirly%20Things%20walkthrough"
+  },
+  {
+    id: 1789,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Who Finds the Haven?",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, haven found",
+    summary: "A traveler at Snowfield Stable searches for a safe haven in the snowy wilds, and Link helps locate it.",
+    aiTip: "Explore the Hebra area to find the sheltered haven the traveler seeks.",
+    walkthrough: [
+      "Hear the traveler's search at Snowfield Stable.",
+      "Explore the snowy wilds for a haven.",
+      "Find the safe refuge.",
+      "Guide the traveler there for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Finds%20the%20Haven%3F%20walkthrough"
   }
 ];
