@@ -103,6 +103,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #1a3d2f 0%, #2d6b4f 50%, #90c77d 100%)",
     abbr: "TOTK",
     cover: "images/zelda-totk-cover.jpg"
+  },
+  "Sekiro: Shadows Die Twice": {
+    gradient: "linear-gradient(135deg, #0d0f12 0%, #6b7075 50%, #b3111a 100%)",
+    abbr: "SKR",
+    cover: "images/sekiro-shadow-die-twice.jpg"
   }
 };
 
@@ -426,6 +431,17 @@ const subFilterConfig = {
       { value: "Side Adventure", text: "Side Adventure" },
       { value: "Side Quest", text: "Side Quest" },
       { value: "Shrine Quest", text: "Shrine Quest" }
+    ]
+  },
+  "Sekiro: Shadows Die Twice": {
+    field: "category",
+    label: "Category",
+    options: [
+      { value: "Main Story Bosses", text: "Main Story Bosses" },
+      { value: "Mini-Bosses", text: "Mini-Bosses" },
+      { value: "NPC Questlines", text: "NPC Questlines" },
+      { value: "Prosthetic Tool Acquisition Quests", text: "Prosthetic Tools" },
+      { value: "Endings", text: "Endings" }
     ]
   }
 };
@@ -35466,5 +35482,1468 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Guide the traveler there for your reward."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Finds%20the%20Haven%3F%20walkthrough"
+  },
+{
+    id: 1790,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Gyoubu Masataka Oniwa",
+    location: "Ashina Outskirts – Ashina Castle Gate",
+    length: "short",
+    difficulty: "High",
+    reward: "Memory: Gyoubu Oniwa (Attack Power +1), Mechanical Barrel",
+    summary:
+      "The first true test of Sekiro's combat, Gyoubu charges the arena on horseback with a massive cross-spear. Learning to close distance and punish his sweeps drills the deflection rhythm the rest of the game demands.",
+    aiTip:
+      "Fire a Loaded Shuriken to interrupt his charge, then use the grapple prompt on his back to stay glued to his side and out of the spear's arc.",
+    walkthrough: [
+      "Located at Ashina Outskirts, guarding the castle gate on horseback.",
+      "Bait his mounted charge attacks and dodge to the side rather than blocking directly.",
+      "Close distance quickly after he dismounts his charge to land posture damage.",
+      "Watch for his sweeping spear combo — deflect each hit in the chain to build posture break.",
+      "Once his posture bar fills, execute a Shinobi Deathblow to end the fight."
+    ],
+    video: "https://www.youtube.com/watch?v=z5OxzUDPtoY"
+  },
+{
+    id: 1791,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Lady Butterfly",
+    location: "Hirata Estate – Hirata Audience Chamber",
+    length: "medium",
+    difficulty: "High",
+    reward: "Memory: Lady Butterfly (Attack Power +1), Sakura Droplet",
+    summary:
+      "An optional Hirata Estate boss reached through the Young Lord's Bell Charm memory. Her fast blade strings and illusionary phantoms make her a steep early wall that rewards patient deflection.",
+    aiTip:
+      "Snap Seeds instantly dispel her summoned illusions in phase two — carry a few and pop one the moment the phantom horde spawns.",
+    walkthrough: [
+      "Found at the top of the tower in Hirata Estate (flashback/memory area).",
+      "In phase one, deflect her rapid blade combos and watch for her purple ranged illusion attacks.",
+      "Kill or ignore the summoned illusion clones; focus damage on the real Lady Butterfly.",
+      "In phase two, she rains down needle projectiles — dash sideways to avoid them.",
+      "Continue deflecting her aerial combo strings until her posture breaks, then Deathblow."
+    ],
+    video: "https://www.youtube.com/watch?v=Uf_O9eWwJnU"
+  },
+{
+    id: 1792,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Genichiro Ashina",
+    location: "Ashina Castle – Castle Tower Rooftop",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Genichiro (Attack Power +1), Bloodsmoke Ninjutsu, Dragon's Blood Droplet",
+    summary:
+      "The story-defining wall of the mid-game. Genichiro pressures relentlessly across three life bars, closing with lightning attacks that must be reversed to survive.",
+    aiTip:
+      "Master the Mikiri Counter on his thrust and the Lightning Reversal — jump into the bolt, then attack. Both are effectively taught here and are mandatory for the finale.",
+    walkthrough: [
+      "Fought atop Ashina Castle tower after ringing the temple bell (if pursuing that route) or directly in the main story.",
+      "Phase one: deflect his sword combos and watch for the delayed thrust after a pause.",
+      "Punish his horseback-style spinning slash by side-stepping, then deflecting the follow-up.",
+      "Phase two introduces lightning-charged attacks — use Mikiri Counter on his kick and Umbrella or dodge the lightning, then reflect it back with a well-timed jump+attack if you have Ashina Cross.",
+      "Chip his posture steadily; he regenerates posture quickly, so keep aggression high between deflects."
+    ],
+    video: "https://www.youtube.com/watch?v=4_TfCUZNyH8"
+  },
+{
+    id: 1793,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Folding Screen Monkeys",
+    location: "Senpou Temple – Temple of Bell Illusions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Memory: Screen Monkeys, Puppeteer Ninjutsu",
+    summary:
+      "A stealth puzzle rather than a duel: trickster monkeys (seeing, hearing, and an invisible one) flee through the hall and you must hunt each down using their sensory weaknesses.",
+    aiTip:
+      "Use the fog rooms to break line of sight from the Seeing monkey, walk to silence the Hearing monkey, and ring the bell to reveal the invisible one.",
+    walkthrough: [
+      "Located in the Sunken Valley area, a puzzle-boss involving three monkeys.",
+      "Follow each monkey to find hidden items (mask, eyes) needed to solve the encounter.",
+      "The 'boss' is more investigative than combat — explore branching paths per monkey.",
+      "Combine the found items appropriately to complete the encounter without a traditional fight."
+    ],
+    video: "https://www.youtube.com/watch?v=g3cxOD5K4Xw"
+  },
+{
+    id: 1794,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Guardian Ape",
+    location: "Sunken Valley – Guardian Ape's Watering Hole",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Guardian Ape (Attack Power +1), Slender Finger",
+    summary:
+      "A two-stage beast fight. The first phase is a savage animal you must read like prey — and decapitating it does not end things.",
+    aiTip:
+      "Bait the dung-fling and charge, punish after his big overhead slam, and keep a Loaded Spear ready to yank the centipede from his neck in the second phase.",
+    walkthrough: [
+      "Found in the Sunken Valley Bamboo area; watch for grab attacks that lead to an instant Deathblow if unblocked.",
+      "Dodge sideways rather than blocking his wide swipes to avoid heavy posture damage.",
+      "Bait his poison-spit attack and reposition instead of standing in the gas cloud.",
+      "Land a Deathblow to seemingly end the fight — the Headless Guardian Ape phase then begins immediately."
+    ],
+    video: "https://www.youtube.com/watch?v=IIS-ZtyO1_Q"
+  },
+{
+    id: 1795,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Headless Guardian Ape",
+    location: "Sunken Valley – Guardian Ape's Watering Hole (phase two)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Completes the Guardian Ape encounter (Memory & Lapis Lazuli)",
+    summary:
+      "Immediately after the first deathblow the ape rises headless, wielding its own sword and a terror-inducing scream.",
+    aiTip:
+      "His scream builds Terror fast — keep Pacifying Agent stocked and use the Loaded Spear thrust to punish the scream wind-up.",
+    walkthrough: [
+      "Continuation fight immediately after Guardian Ape's first Deathblow.",
+      "The headless variant relies on grab attacks and poison mist — prioritize dodging over blocking.",
+      "Watch for the double-grab combo; a single dodge is not always enough, so read the full animation.",
+      "Chip posture with terror-status Firecracker prosthetic tool if available to speed the fight up.",
+      "Deliver the final Deathblow once posture and health are depleted."
+    ],
+    video: "https://www.youtube.com/watch?v=EG2zOlCfV-4"
+  },
+{
+    id: 1796,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Great Shinobi – Owl",
+    location: "Ashina Castle – Castle Tower Rooftop (endgame)",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Great Shinobi Owl (Attack Power +1), Aromatic Branch",
+    summary:
+      "Your adoptive father springs a trap atop the castle — a pure shinobi duel of feints, smoke, and firecrackers with no gimmicks to hide behind.",
+    aiTip:
+      "Never heal greedily: he punishes gourd sips with a firecracker-into-slash. Bait his leaping shuriken and punish the landing instead.",
+    walkthrough: [
+      "Fought atop Ashina Castle after the main story choice point involving Kuro and the Iron Code.",
+      "Phase one: deflect his shuriken throws and fast blade strings; watch for grab attempts.",
+      "He uses smoke bombs to reposition — stay alert for a follow-up strike after the smoke clears.",
+      "Phase two adds poison-coated weapons; avoid prolonged exposure to poison clouds.",
+      "Maintain aggressive deflecting to keep his posture climbing faster than it regenerates."
+    ],
+    video: "https://www.youtube.com/watch?v=K2FvUbrrL0k"
+  },
+{
+    id: 1797,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Illusion (Corrupted Monk copy)",
+    location: "Mibu Village – Water Mill approach",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Progression toward the Shelter Stone",
+    summary:
+      "A single-life illusory Corrupted Monk guarding the path deeper into Mibu Village, serving as a lower-stakes rehearsal of her naginata moveset.",
+    aiTip:
+      "Treat it as deflection practice — stay at mid-range, deflect the sweeping naginata chain, and dodge (never block) the poison-mist burst.",
+    walkthrough: [
+      "An illusory duplicate fight preceding the real Corrupted Monk encounter in some routes.",
+      "Mechanically similar to the Corrupted Monk fight — same moveset, serves as practice.",
+      "Deflect her sweeping naginata strikes and watch for the poison-mist AOE attack.",
+      "Defeat the illusion to proceed toward the real encounter."
+    ],
+    video: "https://www.youtube.com/watch?v=0Q3fMmv6oaI"
+  },
+{
+    id: 1798,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Corrupted Monk",
+    location: "Mibu Village – Wedding Cave Door",
+    length: "medium",
+    difficulty: "High",
+    reward: "Shelter Stone, Memory",
+    summary:
+      "The full Mibu Village guardian: a towering naginata wielder with enormous reach and a terror-inducing apparition phase.",
+    aiTip:
+      "Use Divine Confetti or a Fistful of Ash to open windows, and step through her sweeps rather than backing up — her range punishes retreat.",
+    walkthrough: [
+      "Found in the Sunken Valley (or Mibu Village depending on prior choices).",
+      "Deflect her long naginata combos; her reach is deceptively long so don't over-commit dodges.",
+      "Watch for the poison mist explosion attack and back away rather than deflecting it directly.",
+      "In later phases she summons a small tornado-style AOE — create distance when you see the windup.",
+      "Land consistent deflects to break posture and finish with a Deathblow."
+    ],
+    video: "https://www.youtube.com/watch?v=cnwiknYNwz4"
+  },
+{
+    id: 1799,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Demon of Hatred",
+    location: "Ashina Outskirts – Hidden path (endgame)",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Demon of Hatred (Attack Power +1), Lapis Lazuli",
+    summary:
+      "A Souls-style fire demon that punishes Sekiro reflexes — you must unlearn deflection and fight it like a classic FromSoft boss, all dodges and openings.",
+    aiTip:
+      "The Malcontent finger whistle stuns him repeatedly in phase three; equip it, keep distance, and roll (not deflect) through his fire attacks.",
+    walkthrough: [
+      "Optional super-boss found at Ashina Depths, tied to a specific NPC storyline (Old Hag / Hirata Estate).",
+      "Phase one: dodge his massive sweeping arm attacks rather than blocking, they break posture fast.",
+      "Use fire-vulnerable openings; some players use the Mist Raven's Feathers or fire-based prosthetics for extra damage.",
+      "Watch for the ground-slam AOE and roll away immediately when he raises his arm.",
+      "Phase two adds fire-infused attacks — keep distance during his fire-whip combo, then close in during recovery.",
+      "Persistent, aggressive deflecting/dodging cycles are needed; this is one of the toughest optional fights."
+    ],
+    video: "https://www.youtube.com/watch?v=pziT6HSZEcs"
+  },
+{
+    id: 1800,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Emma, the Gentle Blade",
+    location: "Ashina Castle – Castle Tower (Shura ending only)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Progression to the Shura-route finale vs Isshin",
+    summary:
+      "Exclusive to the Shura path, Emma draws her blade to stop you — fast, elegant rapier-style pressure with minimal wind-ups.",
+    aiTip:
+      "She telegraphs a Mikiri-able thrust and a sweep. Keep aggressive deflection up and punish the pause after her three-hit dash string.",
+    walkthrough: [
+      "Encountered as an extra boss exclusive to the Shura ending path.",
+      "Deflect her fast rapier-style thrusts; she has minimal wind-up on many strikes.",
+      "Watch for her poison-needle projectile attacks and dodge laterally.",
+      "Sustained deflection pressure breaks her posture relatively quickly compared to later bosses."
+    ],
+    video: "https://www.youtube.com/watch?v=0KMTKKgh3CM"
+  },
+{
+    id: 1801,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Isshin Ashina",
+    location: "Ashina Castle – Castle Tower (Shura ending only)",
+    length: "long",
+    difficulty: "High",
+    reward: "Shura ending; One Mind combat art (NG+)",
+    summary:
+      "The Shura-route finale: the aged Isshin fights with sword, spear, and firearm across brutal phases as Wolf falls to carnage.",
+    aiTip:
+      "Dodge — don't block — his firearm shots, and keep distance during the spear sweeps; his posture breaks faster than the Sword Saint's if you stay relentless.",
+    walkthrough: [
+      "Fought directly after Emma in the Shura ending path, inside Ashina Castle.",
+      "Phase one uses swordplay similar to Genichiro's but faster; deflect consistently.",
+      "Phase two introduces gun-based ranged attacks — dodge to the side rather than blocking bullets.",
+      "Phase three adds lightning; reflect it using a timed jump attack if equipped with Ashina Cross.",
+      "This is a preview/variant of the final Isshin fight — expect high aggression throughout."
+    ],
+    video: "https://www.youtube.com/watch?v=QKLCBkntiMs"
+  },
+{
+    id: 1802,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Owl (Father)",
+    location: "Hirata Estate – Main Hall (optional memory, endgame)",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Foster Father (Attack Power +1), Aromatic Flower (Purification ending)",
+    summary:
+      "Reached via the second Hirata Estate memory, this harder Owl adds his own healing gourd and a poison-fume phase, and is required for the Purification ending.",
+    aiTip:
+      "Pressure him so he can't sip his gourd — every heal he lands prolongs the fight. Bait the leaping shuriken and Mikiri his thrust.",
+    walkthrough: [
+      "Fought in Fountainhead Palace during the Immortal Severance / Purification / Return storylines.",
+      "Phase one: deflect his blade combos, similar moveset to the earlier Great Shinobi Owl fight but faster.",
+      "Watch for grab attempts that lead into heavy damage if not dodged.",
+      "Phase two adds a poison mist AOE — reposition rather than tanking it.",
+      "Sustain deflect pressure to break posture for the Deathblow."
+    ],
+    video: "https://www.youtube.com/watch?v=mMOyPcJd8YI"
+  },
+{
+    id: 1803,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Divine Dragon",
+    location: "Fountainhead Palace – Sanctuary",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Divine Dragon's Tears (required for all non-Shura endings)",
+    summary:
+      "A spectacle 'boss' more than a duel: sever the illusory Old Dragons, then use lightning reversal from the water pillars to strike the true dragon across the sky.",
+    aiTip:
+      "Grapple the floating tree-spears to draw lightning to yourself, then press attack to hurl the bolt into the dragon's head — repeat until it falls.",
+    walkthrough: [
+      "Located at the peak of Fountainhead Palace, accessible after defeating the Corrupted Monk there.",
+      "This is a scripted, non-lethal 'boss' — traverse the dragon's body along marked platforms.",
+      "Reach the specified point in a limited time to interact with the dragon's blood/tears.",
+      "No traditional combat is required; failure to reach the point in time may require a retry."
+    ],
+    video: "https://www.youtube.com/watch?v=js1f-uS0Kok"
+  },
+{
+    id: 1804,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Genichiro, Way of Tomoe",
+    location: "Ashina Reservoir – Field (final sequence)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Progression into the Isshin, Sword Saint fight",
+    summary:
+      "The opening bout of the final encounter: a desperate Genichiro fights with lightning-charged Tomoe techniques before Isshin is summoned.",
+    aiTip:
+      "Deathblow him quickly with aggressive deflection and Lightning Reversal — conserving heals matters because Isshin follows immediately with no reset.",
+    walkthrough: [
+      "Optional rematch encountered while pursuing the Return ending, tied to specific NPC/flashback content.",
+      "Uses a different moveset themed around Genichiro's grandmother Tomoe's fighting style.",
+      "Deflect the flowing sword combos and watch for grapple-ins.",
+      "Phase changes introduce elemental-style attacks; maintain distance during charge-ups.",
+      "Defeating him yields unique insight/item content tied to the Return ending questline."
+    ],
+    video: "https://www.youtube.com/watch?v=dsHaqYQucAw"
+  },
+{
+    id: 1805,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Isshin, the Sword Saint",
+    location: "Ashina Reservoir – Field (true final boss)",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Saint Isshin, ending selection, Father's Bell Charm (NG+)",
+    summary:
+      "The genre-defining final boss: four phases of sword, spear, firearm, and lightning that demand mastery of every mechanic the game has taught.",
+    aiTip:
+      "Phase two's gunfire is dodged sideways; phase three's lightning must be reversed. Great feats of aggression beat waiting — deflect through combos rather than backing off.",
+    walkthrough: [
+      "The true final boss, fought after the Divine Dragon sequence in non-Shura endings.",
+      "Phase one: rapid sword combos, deflect consistently and watch for delayed thrusts.",
+      "Phase two: adds firearm attacks — dodge to the side, do not block bullets directly.",
+      "Phase three: adds lightning reflect mechanics identical to Genichiro's, requiring a well-timed jump-attack to reflect lightning back at him.",
+      "This is widely considered the hardest fight in the game — expect a long battle of attrition and posture management.",
+      "Defeating him triggers the game's final cutscene and ending selection."
+    ],
+    video: "https://www.youtube.com/watch?v=3jtopDBIHXY"
+  },
+{
+    id: 1806,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Chained Ogre",
+    location: "Ashina Outskirts – Outskirts Wall (Gate Path)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead, Shinobi Medicine Rank",
+    summary:
+      "An early grappler that kicks and lunges for instant-kill grabs. It teaches you to respect red-kanji grab tells and to use fire.",
+    aiTip:
+      "He's weak to fire — the Flame Vent, or oil plus a torch, staggers him. Dodge his grabs to the side, never backward.",
+    walkthrough: [
+      "Found in Ashina Outskirts near the start of the game, chained to a post.",
+      "Avoid his grab attack entirely — it results in a near-unavoidable Deathblow if caught.",
+      "Circle around his slow, heavy swings and strike from the side or behind.",
+      "Use Firecrackers (if unlocked) to stun him and open a safe attack window."
+    ],
+    video: "https://www.youtube.com/watch?v=D9iPgU2WANg"
+  },
+{
+    id: 1807,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "General Naomori Kawarada",
+    location: "Ashina Outskirts – Outskirts Wall Stairway",
+    length: "short",
+    difficulty: "Low",
+    reward: "Prayer Bead",
+    summary:
+      "An early general patrolling the Outskirts; a straightforward katana duel and a good place to drill deflection fundamentals.",
+    aiTip:
+      "Thin out his escort with stealth first, then take the free stealth Deathblow to erase one of his two health bars.",
+    walkthrough: [
+      "Located on a rooftop in Ashina Outskirts.",
+      "A stealth Deathblow from above can remove a full health bar instantly if approached undetected.",
+      "If detected, deflect his spear combos and watch for the thrusting lunge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Naomori%20Kawarada%20walkthrough"
+  },
+{
+    id: 1808,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Leader Shigenori Yamauchi",
+    location: "Ashina Outskirts – Stairway to the Gate",
+    length: "short",
+    difficulty: "Low",
+    reward: "Prayer Bead",
+    summary:
+      "A squad leader guarding a cluster of soldiers on the Outskirts approach; the crowd is the real challenge, not the man.",
+    aiTip:
+      "Use the Shinobi Firecracker or lure him toward a chokepoint to peel him off his troops, then deflect his simple thrust chain.",
+    walkthrough: [
+      "Found guarding a group of soldiers in Ashina Outskirts.",
+      "Isolate him from nearby enemies using a Whistle or by luring him around a corner.",
+      "Deflect his sword strikes and watch for the two-hit thrust combo."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Leader%20Shigenori%20Yamauchi%20walkthrough"
+  },
+{
+    id: 1809,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "General Tenzen Yamauchi",
+    location: "Ashina Castle – Upper Tower approach",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A fortified general with a heavier katana moveset and a delayed overhead that baits early deflects.",
+    aiTip:
+      "Wait out the delayed overhead — deflect on the actual swing, not the wind-up — and keep pressure so his posture never resets.",
+    walkthrough: [
+      "Encountered guarding a fortified position.",
+      "Deflect his standard katana combos, watching for a delayed overhead strike.",
+      "Break his posture through sustained aggressive deflection rather than pure dodging."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Tenzen%20Yamauchi%20walkthrough"
+  },
+{
+    id: 1810,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Shinobi Hunter Enshin of Misen",
+    location: "Hirata Estate – Estate Path",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A shinobi-tool-wielding hunter who mirrors your own kit with firecrackers and shuriken; effectively the game's Mikiri Counter tutorial.",
+    aiTip:
+      "Mikiri Counter his big thrust to shatter his posture fast — that single skill trivializes the whole fight.",
+    walkthrough: [
+      "A mirror-match style enemy that uses shinobi tools similar to the player's own kit.",
+      "Watch for his firecracker and shuriken use; approach cautiously rather than rushing in.",
+      "Deflect his blade combos and punish after his tool-based openings."
+    ],
+    video: "https://www.youtube.com/watch?v=mhjjHfATf5M"
+  },
+{
+    id: 1811,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Juzou the Drunkard",
+    location: "Hirata Estate – Estate Path",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prayer Bead, Unrefined Sake",
+    summary:
+      "A hulking axe-and-poison brute flanked by a mob of soldiers. Crowd control matters as much as the duel itself.",
+    aiTip:
+      "Poison him with Sabimaru or throw oil and fire, and clear his adds first (an allied samurai can help draw aggro) so you can focus his health bars.",
+    walkthrough: [
+      "Found near Ashina Castle, a large axe-wielding enemy.",
+      "Avoid his grab attack, which leads to heavy damage if caught.",
+      "Circle to his side during his slow overhead swings and counter-attack."
+    ],
+    video: "https://www.youtube.com/watch?v=l7f7Ajn9s-8"
+  },
+{
+    id: 1812,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Blazing Bull",
+    location: "Ashina Castle – Ashina Castle Gate",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A flaming bull that barrels around a cramped courtyard, dealing burn damage on contact even through blocks.",
+    aiTip:
+      "Firecrackers stagger it for big openings; stay to its flank as the flaming charge has a wide but predictable arc.",
+    walkthrough: [
+      "A charging bull enemy found in Ashina Castle area.",
+      "Stay out of his direct charge lane; sidestep rather than block head-on.",
+      "Attack from the sides and rear after each charge to whittle down health and posture.",
+      "Use Firecrackers to stun him for a safer, extended attack window."
+    ],
+    video: "https://www.youtube.com/watch?v=ayZB9KklkLc"
+  },
+{
+    id: 1813,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Armored Warrior",
+    location: "Senpou Temple – Broken Bridge (Ashina Castle route)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prayer Bead, Breath of Nature: Shadow",
+    summary:
+      "A heavily armored knight who ignores conventional sword damage — the fight is won on posture and positioning, not health.",
+    aiTip:
+      "You can't kill him with health damage: break posture and use the Deathblow prompt to shove him off the bridge. The Loaded Umbrella turns aside his charge.",
+    walkthrough: [
+      "A heavily armored enemy resistant to standard sword damage.",
+      "Use Shinobi Tools such as Flame Vent or Firecrackers to break through defenses efficiently.",
+      "Deflect his slow, telegraphed swings and capitalize on the long recovery windows."
+    ],
+    video: "https://www.youtube.com/watch?v=1YMT3gn0Tww"
+  },
+{
+    id: 1814,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Long-arm Centipede Sen'un",
+    location: "Sunken Valley – Under-Shrine Valley cave",
+    length: "short",
+    difficulty: "Low",
+    reward: "Prayer Bead",
+    summary:
+      "An agile centipede-possessed monk who unleashes a relentless, near-gapless flurry of strikes.",
+    aiTip:
+      "Simply hold deflect through his entire flurry — his combos have almost no openings and his posture collapses if you never miss a parry.",
+    walkthrough: [
+      "Found within Sunken Valley's cave systems.",
+      "Watch for its extending arm-grab attacks that have deceptively long reach.",
+      "Deflect its strikes at close range once you close the distance safely."
+    ],
+    video: "https://www.youtube.com/watch?v=oV1rF00YBnQ"
+  },
+{
+    id: 1815,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Lone Shadow Longswordsman",
+    location: "Ashina Reservoir – near the Moon-View Tower",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A fast shinobi assassin with dash-in stabs and a punishing kick-into-stomp string.",
+    aiTip:
+      "Jump his red-kanji sweep and dodge the kick, then punish after his combo strings end — he has little recovery mid-combo.",
+    walkthrough: [
+      "An agile shinobi-style enemy encountered in multiple locations throughout the game.",
+      "Deflect his fast combos and watch for a dash-in stab attack.",
+      "Punish after his combo strings end, as he has minimal recovery openings mid-combo."
+    ],
+    video: "https://www.youtube.com/watch?v=zyq7fbI6gcE"
+  },
+{
+    id: 1816,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Snake Eyes Shirafuji",
+    location: "Sunken Valley – Gun Fort",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A rifle-wielding guard who suppresses you at range and punishes gap-closing with a grab.",
+    aiTip:
+      "Close the distance fast to shut down her rifle; her grab is telegraphed by a red kanji — dodge it and punish the long recovery.",
+    walkthrough: [
+      "A gun-wielding mini-boss found in Ashina Depths.",
+      "Close the distance quickly to avoid prolonged ranged gunfire exposure.",
+      "Deflect her melee follow-ups once you're in close range."
+    ],
+    video: "https://www.youtube.com/watch?v=yeJcREsuCy4"
+  },
+{
+    id: 1817,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Seven Ashina Spears – Shikibu Toshikatsu Yamauchi",
+    location: "Ashina Reservoir – near the Old Grave",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "One of the elite Ashina Spears — long reach, sweeping follow-ups, and a thrust begging to be countered.",
+    aiTip:
+      "Mikiri Counter the spear thrust to build posture quickly, and stay close so his long weapon works against him.",
+    walkthrough: [
+      "Found guarding a bridge in Ashina Castle.",
+      "Deflect his spear thrusts and watch for the sweeping horizontal follow-up.",
+      "Maintain mid-range positioning to react to his longer reach weapon."
+    ],
+    video: "https://www.youtube.com/watch?v=DGrLt0MgvYc"
+  },
+{
+    id: 1818,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Seven Ashina Spears – Shume Masaka Nagahiro",
+    location: "Ashina Reservoir (endgame, castle aflame)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A second Ashina Spears elite appearing when the castle burns, sharing the reach-heavy spear moveset.",
+    aiTip:
+      "Same family — Mikiri Counter the thrust and deflect the sweep; a stealth approach lands a free first Deathblow.",
+    walkthrough: [
+      "A spear-wielding mini-boss encountered in the Ashina Castle area.",
+      "Similar moveset family to other Ashina Spears fighters — deflect consistently and watch for grabs."
+    ],
+    video: "https://www.youtube.com/watch?v=nqsUUNnwpg4"
+  },
+{
+    id: 1819,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "O'Rin of the Water",
+    location: "Ashina Depths – Mibu Village Water Mill",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prayer Bead, Breath of Life: Light",
+    summary:
+      "A vengeful spirit with lightning-fast curved-blade combos that rarely pause for breath.",
+    aiTip:
+      "Commit to deflection — retreating gets you killed — and watch for the whirlwind spin, which you can jump or deflect on reaction.",
+    walkthrough: [
+      "Found in Mibu Village near the swamp area.",
+      "Deflect her curved blade combos; she has quick multi-hit strings.",
+      "Watch for her low sweeping attack and time a jump or deflect accordingly."
+    ],
+    video: "https://www.youtube.com/watch?v=CZaSQTdX7a8"
+  },
+{
+    id: 1820,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Six-fingered Lord Kuranosuke",
+    location: "Ashina Outskirts – Outskirts Wall (Stairway)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A general with an erratic katana rhythm that mixes fast and slow strikes to bait mistimed deflects.",
+    aiTip:
+      "Don't pre-empt his swings — react to each one. Dodge (don't block) his grab-into-throw, then punish the whiff.",
+    walkthrough: [
+      "Encountered in the Ashina Depths / Mibu Village storyline area.",
+      "Deflect his erratic sword patterns, which mix fast and slow strikes unpredictably.",
+      "Watch for a grab-into-throw attack and dodge rather than block it."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Six-fingered%20Lord%20Kuranosuke%20walkthrough"
+  },
+{
+    id: 1821,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Tokujiro the Glutton",
+    location: "Ashina Outskirts – Outskirts Wall",
+    length: "short",
+    difficulty: "Low",
+    reward: "Prayer Bead",
+    summary:
+      "A minor brawler-turned-enemy with a simple, readable combo set — a low-pressure warm-up encounter.",
+    aiTip:
+      "Deflect his basic strings and punish the openings; there's no gimmick here, just clean parry timing.",
+    walkthrough: [
+      "A minor NPC-turned-enemy found in Ashina Outskirts.",
+      "Straightforward moveset — deflect his basic combos and punish openings."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tokujiro%20the%20Glutton%20walkthrough"
+  },
+{
+    id: 1822,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Sword Saint's Ripples (mist noble variants)",
+    location: "Fountainhead Palace – Flower Viewing Stage / late-game areas",
+    length: "short",
+    difficulty: "Low",
+    reward: "Prayer Bead",
+    summary:
+      "Elite 'Mist Noble'-type apparitions that teleport and conjure mist; more unsettling than dangerous.",
+    aiTip:
+      "A fully upgraded prosthetic or plain aggression ends these quickly — their posture is weak and their teleports leave clear punish windows.",
+    walkthrough: [
+      "Various 'Mist Noble' and elite enemy encounters scattered through late-game areas.",
+      "Approach cautiously; several of these enemies hit hard and punish careless aggression.",
+      "Deflect steadily rather than trading blows directly."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sword%20Saint's%20Ripples%20(mist%20noble%20variants)%20walkthrough"
+  },
+{
+    id: 1823,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Sculptor's Idol / Kuro's Charm Storyline",
+    location: "Dilapidated Temple",
+    length: "long",
+    difficulty: "Low",
+    reward: "Prosthetic upgrades, lore, story payoff",
+    summary:
+      "The Sculptor's slow-burning arc: each visit after major story beats reveals more of his past as a shinobi hunter and his fear of the Shura within.",
+    aiTip:
+      "Check in with him after every major boss — his dialogue and demeanor only advance when the story does.",
+    walkthrough: [
+      "Speak with the Sculptor at the Dilapidated Temple regularly as the story progresses.",
+      "His dialogue and behavior shift after major story beats, reflecting his internal struggle against becoming a shinobi hunter.",
+      "Continue checking in after key boss defeats to see the storyline through to its conclusion."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sculptor's%20Idol%20%2F%20Kuro's%20Charm%20Storyline%20walkthrough"
+  },
+{
+    id: 1824,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Emma, the Physician — Medicine & Story Support",
+    location: "Dilapidated Temple",
+    length: "long",
+    difficulty: "Low",
+    reward: "Healing Gourd upgrades, Dragon's Blood Droplet, Purification-ending support",
+    summary:
+      "Emma the physician upgrades your healing and anchors the game's quieter story threads about Isshin and the Dragonrot cure.",
+    aiTip:
+      "Return to her whenever Dragonrot spreads or the story advances — she gates key healing upgrades and the Aromatic Flower path.",
+    walkthrough: [
+      "Speak with Emma at the Dilapidated Temple to receive Dragon's Blood Droplet and healing item upgrades.",
+      "Her storyline is tied closely to the main plot and Isshin's history; keep checking in as the story progresses.",
+      "Her involvement becomes critical during the Purification ending path."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Emma%2C%20the%20Physician%20%E2%80%94%20Medicine%20%26%20Story%20Support%20walkthrough"
+  },
+{
+    id: 1825,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Tengu of Ashina — Rat Hunting Questline",
+    location: "Ashina Castle – Ashina Castle Gate idol",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Gokan's Sugar, further dialogue and items",
+    summary:
+      "The Tengu tasks you with culling 'rats' (intruders) skulking around Ashina Castle, a light hunting errand that opens more of his chain.",
+    aiTip:
+      "Kill all the crouching intruders around the castle grounds before reporting back — miss one and the Tengu won't reward you yet.",
+    walkthrough: [
+      "Find Tengu near the Ashina Castle Gate idol early in the game.",
+      "Agree to his rat-hunting request and eliminate a set number of rats found around Ashina Castle.",
+      "Report back to receive Gokan's Sugar and unlock further dialogue/items.",
+      "Continue speaking with him after major story progress for additional content."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tengu%20of%20Ashina%20%E2%80%94%20Rat%20Hunting%20Questline%20walkthrough"
+  },
+{
+    id: 1826,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Anayama the Peddler & Kotaro — Ashina Outskirts Merchant Chain",
+    location: "Ashina Outskirts / Ashina Castle",
+    length: "long",
+    difficulty: "Low",
+    reward: "Flame Vent intel, shop stock, Kotaro branch",
+    summary:
+      "A merchant chain where paying Anayama for information unlocks shop goods and eventually the choice of where to send the boy Kotaro.",
+    aiTip:
+      "Sending Kotaro to Anayama forecloses the Kumano and Doujun branches — decide which outcome you want before handing over the Red & White Pinwheel.",
+    walkthrough: [
+      "Speak with Anayama near the Ashina Outskirts, pay him Sen to learn about the Hirata Estate flashback and the Flame Vent location.",
+      "Find and report 'What the Ashina Samurai Want' by eavesdropping past the Old Grave idol in Ashina Castle.",
+      "After reporting, Anayama asks you to find him an employee — this becomes available only after acquiring the Red and White Pinwheel.",
+      "Recruit Kotaro (found elsewhere) and send him to work for Anayama using the pinwheel item.",
+      "Note: giving Kotaro to Anayama forecloses sending him to Nogami Kumano or Doujun — choose carefully."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Anayama%20the%20Peddler%20%26%20Kotaro%20%E2%80%94%20Ashina%20Outskirts%20Merchant%20Chain%20walkthrough"
+  },
+{
+    id: 1827,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Inosuke Nogami / Nogami Gensai Questline",
+    location: "Ashina Outskirts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Dialogue, story consequences tied to Kotaro/Doujun",
+    summary:
+      "An Outskirts NPC whose fate is bound up in the branching choices you make about Kotaro and the wandering priest Doujun.",
+    aiTip:
+      "Track which NPCs you've committed Kotaro to — this thread's ending depends on those earlier, irreversible decisions.",
+    walkthrough: [
+      "Encounter Inosuke Nogami early in Ashina Outskirts; he asks about a stolen item or family matter.",
+      "Progress his storyline by returning to his location as the game advances.",
+      "His fate is tied to choices you make involving other NPCs (Kotaro, Doujun) later in the game."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Inosuke%20Nogami%20%2F%20Nogami%20Gensai%20Questline%20walkthrough"
+  },
+{
+    id: 1828,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Jinzaemon Kumano — Swordsman Duel Questline",
+    location: "Ashina Outskirts",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Sparring dialogue, Kotaro branch outcome",
+    summary:
+      "An old swordsman seeking a worthy spar; accepting his challenge and/or sending Kotaro to him alters where this thread lands.",
+    aiTip:
+      "Take his non-lethal duel to advance his contentment, but remember giving him Kotaro blocks the Anayama and Doujun options.",
+    walkthrough: [
+      "Find Jinzaemon Kumano at Ashina Outskirts, an old swordsman seeking a worthy opponent.",
+      "Accept his duel challenge (non-lethal spar) to progress his contentment with his skills.",
+      "You can also choose to send Kotaro to him instead of Anayama/Doujun, altering this questline's outcome.",
+      "Continue checking in as the story advances for the concluding dialogue."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Jinzaemon%20Kumano%20%E2%80%94%20Swordsman%20Duel%20Questline%20walkthrough"
+  },
+{
+    id: 1829,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Doujun the Priest — Wandering Priest Questline",
+    location: "Ashina Depths",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Dark story revelation, unique items",
+    summary:
+      "A 'priest' whose search for enlightenment hides sinister methods; requires sending Kotaro to him and leads to a grim confrontation.",
+    aiTip:
+      "This branch consumes Kotaro — commit only if you want Doujun's darker payoff over the Anayama or Kumano outcomes.",
+    walkthrough: [
+      "Meet Doujun in Ashina Depths; he claims to search for the 'true' way of the Buddha through unconventional means.",
+      "His questline requires sending Kotaro to him rather than to Kumano or Anayama.",
+      "Progressing his storyline reveals a darker side to his methods and eventually leads to a confrontation.",
+      "Note: this forecloses the alternate outcomes for Kotaro's other two questline branches."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Doujun%20the%20Priest%20%E2%80%94%20Wandering%20Priest%20Questline%20walkthrough"
+  },
+{
+    id: 1830,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Isshin Ashina — Elderly Lord Storyline",
+    location: "Ashina Castle – Isshin's tower",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Key lore on Ashina and Genichiro's power",
+    summary:
+      "The aging lord Isshin, secluded in his tower, offers the game's richest lore and context for the Ashina rebellion.",
+    aiTip:
+      "Visit his room at each major story checkpoint — his dialogue reveals the stakes behind Genichiro's lightning and the Fountainhead.",
+    walkthrough: [
+      "Speak with the aging Isshin, found secluded in a tower in Ashina Castle early in the game.",
+      "His dialogue provides key lore about Ashina's history and the source of Genichiro's power.",
+      "His storyline resolves naturally as the main plot progresses toward Ashina Castle's climax."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Isshin%20Ashina%20%E2%80%94%20Elderly%20Lord%20Storyline%20walkthrough"
+  },
+{
+    id: 1831,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Old Hag — Demon Bell Questline",
+    location: "Ashina Outskirts – Outskirts Wall",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bell Demon (harder enemies, better drops), can be undone",
+    summary:
+      "The Old Hag offers the Bell Demon, a self-imposed difficulty toggle that boosts enemy strength and loot in exchange for a haunting charm.",
+    aiTip:
+      "Ringing the Demon Bell is fully reversible at the Buddha statue in the temple — try it for better drops and un-ring it if a boss wall gets brutal.",
+    walkthrough: [
+      "Meet the Old Hag near Ashina Outskirts; she offers to ring the Demon Bell, increasing enemy strength and item drops in exchange for a reward.",
+      "Ringing the bell is optional and affects game difficulty — it can be un-rung later at a cost.",
+      "Her involvement also intersects with the Demon of Hatred's unlock conditions via the Old Hag's connection to Hirata Estate memories."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Old%20Hag%20%E2%80%94%20Demon%20Bell%20Questline%20walkthrough"
+  },
+{
+    id: 1832,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Divine Child of Rejuvenation — Return Ending Questline",
+    location: "Dilapidated Temple",
+    length: "long",
+    difficulty: "Low",
+    reward: "Frozen Tears, Return-ending prerequisite",
+    summary:
+      "The Divine Child's extended questline across multiple story checkpoints is the gateway to the game's true Return ending.",
+    aiTip:
+      "Bring her the rice, persimmon, and later items she asks for at each checkpoint — missing a step can lock you out of the Frozen Tears.",
+    walkthrough: [
+      "Meet the Divine Child at the Dilapidated Temple after progressing the main story sufficiently.",
+      "Bring her specific memories/items she requests as the story unfolds.",
+      "Her tasks are essential prerequisites for unlocking the Return ending.",
+      "Continue fulfilling her requests through to the late game for the full questline payoff."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Divine%20Child%20of%20Rejuvenation%20%E2%80%94%20Return%20Ending%20Questline%20walkthrough"
+  },
+{
+    id: 1833,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Master of Senpou Temple — Rice & Immortality Questline",
+    location: "Senpou Temple, Mt. Kongo",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Immortality/centipede lore, key items",
+    summary:
+      "The hidden Master of Senpou Temple ties into the source of the game's immortality mechanics and the centipede infestation.",
+    aiTip:
+      "Explore the temple's upper illusion halls between visits — his thread advances as you uncover more of the monks' experiments.",
+    walkthrough: [
+      "Speak with the Master hidden within Senpou Temple, Mt. Kongo.",
+      "His questline touches on the source of the game's immortality mechanics and centipede lore.",
+      "Progress by returning to him after exploring more of the temple grounds."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Master%20of%20Senpou%20Temple%20%E2%80%94%20Rice%20%26%20Immortality%20Questline%20walkthrough"
+  },
+{
+    id: 1834,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Illusory Hall Monk — Halls of Illusion Sidestory",
+    location: "Senpou Temple – Halls of Illusion",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore, minor items",
+    summary:
+      "A short, self-contained sidestory: a monk dwelling in an optional illusion hall who fills in temple mysteries.",
+    aiTip:
+      "This one's quick — find him in the hidden hall and hear him out; there's no multi-stage tracking required.",
+    walkthrough: [
+      "Find the monk who has taken up residence within the Halls of Illusion, an optional hidden area.",
+      "Speak with him to learn additional lore about the temple's mysteries.",
+      "This is a short, self-contained sidestory rather than a multi-stage quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Illusory%20Hall%20Monk%20%E2%80%94%20Halls%20of%20Illusion%20Sidestory%20walkthrough"
+  },
+{
+    id: 1835,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Battlefield Memorial Mob & Blackhat Badger — Merchant Trade Questline",
+    location: "Ashina Outskirts – Outskirts Wall (Battlefield)",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rare purchasable items via trades",
+    summary:
+      "Trading materials and treasures with Blackhat Badger unlocks otherwise hard-to-find shop stock.",
+    aiTip:
+      "Some trades consume permanently missable materials — check whether an item is one-of-a-kind before handing it over.",
+    walkthrough: [
+      "Trade specific items (such as certain memories or materials) with Blackhat Badger to unlock rare purchasable items.",
+      "Some trades are one-time and tied to permanently missable materials, so plan trades carefully."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Battlefield%20Memorial%20Mob%20%26%20Blackhat%20Badger%20%E2%80%94%20Merchant%20Trade%20Questline%20walkthrough"
+  },
+{
+    id: 1836,
+    type: "side",
+    category: "NPC Questlines",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Fujioka the Info Broker — Information Questline",
+    location: "Ashina Castle",
+    length: "short",
+    difficulty: "Low",
+    reward: "Information and items for Treasure Carp Scales",
+    summary:
+      "An info broker who exchanges Treasure Carp Scales for hints toward hidden content and NPC branches.",
+    aiTip:
+      "Bank your Treasure Carp Scales from the Fountainhead ponds and spend them here for pointers you'd otherwise miss.",
+    walkthrough: [
+      "Speak with Fujioka in Ashina Castle to trade Treasure Carp Scales for valuable information and items.",
+      "His information unlocks hints toward hidden game content and NPC questline branches."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Fujioka%20the%20Info%20Broker%20%E2%80%94%20Information%20Questline%20walkthrough"
+  },
+{
+    id: 1837,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Loaded Axe — Acquisition & Upgrade Path",
+    location: "Dilapidated Temple (Sculptor)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Loaded Axe prosthetic; guard-break utility",
+    summary:
+      "An early Sculptor-crafted tool whose heavy chop shatters shields and poise — one of the first upgrades worth investing in.",
+    aiTip:
+      "Feed the Sculptor Scrap Iron and Magnetite Scrap from exploration to unlock its upgrade tree; it's superb against shield-bearers.",
+    walkthrough: [
+      "Obtained early from the Sculptor at the Dilapidated Temple as a starting prosthetic tool.",
+      "Upgrade materials are found via general exploration and boss drops; check the Sculptor's upgrade menu after collecting Scrap Iron and Magnetite Scrap.",
+      "Effective against shield-wielding enemies due to its guard-break properties."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Axe%20%E2%80%94%20Acquisition%20%26%20Upgrade%20Path%20walkthrough"
+  },
+{
+    id: 1838,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Loaded Umbrella — Acquisition Path",
+    location: "Ashina Castle – guarded chest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Loaded Umbrella prosthetic; projectile defense",
+    summary:
+      "A defensive prosthetic that opens an unbreakable guard, ideal against firearms and thrown projectiles.",
+    aiTip:
+      "Upgrade it toward the Phoenix's Mist Raven / Projected Force branch to turn blocked hits into counterattacks.",
+    walkthrough: [
+      "Found in a chest within Ashina Castle grounds, guarded by nearby patrols.",
+      "Provides strong deflection utility against firearm and thrown-projectile enemies.",
+      "Upgrade using standard Prosthetic materials found via exploration."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Umbrella%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+  },
+{
+    id: 1839,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Loaded Spear — Acquisition Path (Guardian Ape questline)",
+    location: "Sunken Valley (Guardian Ape progression)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Loaded Spear prosthetic; pull/anti-armor utility",
+    summary:
+      "A retractable spear that pulls enemies and strips armor — memorable for yanking the centipede out of the Guardian Ape.",
+    aiTip:
+      "Keep Spiritfall or emblems stocked; the spear's pull is situationally decisive against specific beast and armored enemies.",
+    walkthrough: [
+      "Obtained during the Sunken Valley / Guardian Ape story progression.",
+      "Useful for pulling enemies at range and applying Terror status against beast-type enemies."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Spear%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20questline)%20walkthrough"
+  },
+{
+    id: 1840,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Loaded Shuriken — Acquisition Path",
+    location: "Ashina Outskirts (early)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Loaded Shuriken prosthetic; anti-air/ranged utility",
+    summary:
+      "An early throwing-star tool that punishes flying and fleeing enemies and pairs with the Chasing Slice art.",
+    aiTip:
+      "Upgrade toward Spinning Shuriken for extra posture damage, and use it to knock leaping enemies out of the air for a free Deathblow.",
+    walkthrough: [
+      "Found early in Ashina Outskirts, useful against flying enemies and general ranged harassment.",
+      "Upgrade paths add poison and fire variants as materials are collected."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Shuriken%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+  },
+{
+    id: 1841,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Flame Vent — Acquisition Path (Anayama the Peddler questline)",
+    location: "Hirata Estate (Anayama's intel)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Flame Vent prosthetic; universal Burn openings",
+    summary:
+      "A fire-spewing prosthetic that exploits near-universal Burn vulnerability — one of the strongest all-round boss tools.",
+    aiTip:
+      "Stock Fistful of Ash / emblems and open bosses with a burst of flame; the burn stagger creates safe attack windows on most enemies.",
+    walkthrough: [
+      "Unlocked through Anayama the Peddler's questline in Hirata Estate, tied to information you provide him.",
+      "Extremely effective against most bosses due to universal Burn vulnerability.",
+      "Requires Fistful of Ash consumable material to use, obtainable from merchants and drops."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Flame%20Vent%20%E2%80%94%20Acquisition%20Path%20(Anayama%20the%20Peddler%20questline)%20walkthrough"
+  },
+{
+    id: 1842,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Sabimaru — Acquisition Path (Poison-Perfect Tool)",
+    location: "Ashina Depths (mini-boss guarded)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sabimaru prosthetic; poison application",
+    summary:
+      "A poison-coated blade tool effective against rusted/corroded foes and anything vulnerable to poison build-up.",
+    aiTip:
+      "Sabimaru shreds the red-eyed apparitions and certain human bosses — apply poison, then swap back to your katana while it ticks.",
+    walkthrough: [
+      "Found within Ashina Depths, guarded by a mini-boss encounter.",
+      "Applies poison status effectively and can break certain rusted/corroded blocking enemies."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sabimaru%20%E2%80%94%20Acquisition%20Path%20(Poison-Perfect%20Tool)%20walkthrough"
+  },
+{
+    id: 1843,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Mist Raven / Mist Raven's Feathers — Acquisition Path",
+    location: "Ashina Castle – upper hidden path",
+    length: "short",
+    difficulty: "Low",
+    reward: "Mist Raven's Feathers prosthetic; evasive gap-closer",
+    summary:
+      "A late-game escape tool that teleports you out of danger (and can counter with a burst of flame on the fire-branch upgrade).",
+    aiTip:
+      "It's excellent against the Demon of Hatred's fire attacks — dodge through a hit and reposition instantly with the raven burst.",
+    walkthrough: [
+      "Found later in the game via specific hidden paths in Ashina Castle's upper areas.",
+      "Provides a ranged gap-closing tool useful against certain late-game bosses like the Demon of Hatred."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Mist%20Raven%20%2F%20Mist%20Raven's%20Feathers%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+  },
+{
+    id: 1844,
+    type: "side",
+    category: "Prosthetic Tool Acquisition Quests",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Finger Whistle — Acquisition Path (Guardian Ape related)",
+    location: "Sunken Valley (Guardian Ape-related progression)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Finger Whistle prosthetic; beast control",
+    summary:
+      "A whistle that enrages or lures beasts, turning animal enemies against each other or peeling them from packs.",
+    aiTip:
+      "Use it on the Guardian Ape and other beasts to interrupt patterns; the Malcontent upgrade adds a Terror-stunning variant for the Demon of Hatred.",
+    walkthrough: [
+      "Obtained through progression tied to Sunken Valley and Guardian Ape-related content.",
+      "Used to lure specific enemies (including animals) away from groups or trigger unique interactions."
+    ],
+    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Finger%20Whistle%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20related)%20walkthrough"
+  },
+{
+    id: 1845,
+    type: "main",
+    category: "Endings",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Shura Ending (Bad Ending)",
+    location: "Ashina Castle – Castle Tower Rooftop (Owl's choice)",
+    length: "long",
+    difficulty: "High",
+    reward: "Shura ending; One Mind combat art (NG+)",
+    summary:
+      "The 'bad' ending: siding with Owl and the Iron Code diverts you into two exclusive fights (Emma and Isshin) and forecloses Fountainhead Palace.",
+    aiTip:
+      "Only choose 'Follow the Iron Code' if you specifically want Shura this save — it permanently blocks the other three endings and Fountainhead.",
+    walkthrough: [
+      "Requires defeating every boss in the game up through Genichiro on the tower.",
+      "Acquire the Shelter Stone, Lotus of the Palace, and Mortal Blade items during normal progression.",
+      "When Owl offers the choice on the Ashina Castle rooftop, choose to uphold the Iron Code and side with Owl rather than Kuro.",
+      "This locks you into an alternate late-game path featuring two exclusive boss fights: Emma, the Gentle Blade and Isshin Ashina.",
+      "Defeating both exclusive bosses concludes the game with the Shura ending, unlocking the One Mind combat art for future playthroughs.",
+      "Note: this ending forecloses access to the Fountainhead Palace area and the other three endings in the same save."
+    ],
+    video: "https://www.youtube.com/watch?v=OspYXlJ4OXo"
+  },
+{
+    id: 1846,
+    type: "main",
+    category: "Endings",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Immortal Severance Ending (Neutral Ending)",
+    location: "Ashina Reservoir (finale)",
+    length: "long",
+    difficulty: "High",
+    reward: "Immortal Severance (neutral) ending",
+    summary:
+      "The standard ending: refuse Owl, side with Kuro, reach the Divine Dragon, and hand Kuro only the Divine Dragon's Tears.",
+    aiTip:
+      "Give Kuro nothing but the Tears at the end — adding the Aromatic Flower or Frozen Tears would switch you to a different ending.",
+    walkthrough: [
+      "When given the choice atop Ashina Castle, refuse Owl and side with Kuro, then defeat Great Shinobi Owl.",
+      "Continue through the rest of the story normally without pursuing extra NPC questline requirements.",
+      "Defeat the Corrupted Monk in Fountainhead Palace, then reach and interact with the Divine Dragon to obtain the Divine Dragon's Tears.",
+      "Fight your way back out of Ashina Castle and return to Kuro at the game's starting location.",
+      "Defeat the final boss (Isshin, the Sword Saint), then simply hand Kuro the Divine Dragon's Tears without any additional item.",
+      "This results in Kuro's immortality being severed at the cost of his life — the game's 'standard' ending."
+    ],
+    video: "https://www.youtube.com/watch?v=7oJULhafFCY"
+  },
+{
+    id: 1847,
+    type: "main",
+    category: "Endings",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Purification Ending (Good Ending)",
+    location: "Ashina Reservoir (finale)",
+    length: "long",
+    difficulty: "High",
+    reward: "Purification (good) ending",
+    summary:
+      "Emma's extended eavesdropping questline yields the Aromatic Flower; offer it alongside the Tears for the outcome that spares Ashina's people.",
+    aiTip:
+      "Eavesdrop on Emma and Kuro at multiple checkpoints to unlock the Flower dialogue — it's easy to miss and gates this ending.",
+    walkthrough: [
+      "Follow the same early steps as Immortal Severance: side with Kuro, defeat Great Shinobi Owl, then progress to Fountainhead Palace.",
+      "Requires extensive eavesdropping on NPC conversations throughout the game to unlock hidden dialogue about the Palace Aromatic Flower.",
+      "Locate and obtain the Aromatic Flower item through the extended NPC questline chain (tied heavily to Emma's storyline).",
+      "Defeat the Corrupted Monk and retrieve the Divine Dragon's Tears as in the Immortal Severance path.",
+      "Return to Kuro after defeating the final boss, then offer both the Divine Dragon's Tears and the Aromatic Flower together.",
+      "This combination results in the Purification ending, considered the 'good' outcome for Ashina and its people."
+    ],
+    video: "https://www.youtube.com/watch?v=8Ciy48Em90E"
+  },
+{
+    id: 1848,
+    type: "main",
+    category: "Endings",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Return Ending (True Ending)",
+    location: "Ashina Reservoir (finale)",
+    length: "long",
+    difficulty: "High",
+    reward: "Return (true) ending",
+    summary:
+      "The true ending: complete the Divine Child's questline for the Frozen Tears, then offer them with the Dragon's Tears to send the Dragon's heritage home.",
+    aiTip:
+      "Finish the Divine Child's rice/persimmon chain across the whole game before the finale — the Frozen Tears are the gate to Return.",
+    walkthrough: [
+      "Follow the same early steps as Immortal Severance and Purification: side with Kuro and progress to Fountainhead Palace.",
+      "Requires completing the Divine Child of Rejuvenation's extended questline at the Dilapidated Temple across multiple story checkpoints.",
+      "Obtain the Frozen Tears item, tied to the Divine Child's questline resolution.",
+      "Defeat the Corrupted Monk and retrieve the Divine Dragon's Tears as with the other non-Shura paths.",
+      "Return to Kuro after the final boss and offer both the Divine Dragon's Tears and the Frozen Tears together.",
+      "This unlocks the Return ending, the game's true final conclusion, tying together the Divine Child's and Kuro's fates."
+    ],
+    video: "https://www.youtube.com/watch?v=rLXuKX0pKqU"
+  },
+{
+    id: 1849,
+    type: "main",
+    category: "Main Story Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "True Corrupted Monk",
+    location: "Fountainhead Palace – Vermilion Bridge",
+    length: "long",
+    difficulty: "High",
+    reward: "Memory: Corrupted Monk (Attack Power +1), Fresh Serpent Viscera",
+    summary:
+      "The real, three-phase Corrupted Monk on the mist bridge of Fountainhead Palace — a far tougher relative of the Mibu illusion, adding centipede-summon and terror-apparition phases.",
+    aiTip:
+      "Anti-air Deathblow (from Blackhat Badger) skips a phase if timed on her leap; otherwise deflect the naginata sweeps and use Divine Confetti-free aggression to race her posture.",
+    walkthrough: [
+      "Cross the mist-shrouded Vermilion Bridge in Fountainhead Palace to trigger the fight.",
+      "Phase one mirrors the Mibu Monk — deflect the long naginata combos and step through her sweeps.",
+      "Phase two adds a summoned centipede lunge; dodge laterally and punish the recovery.",
+      "Phase three fills the arena with a terror-inducing apparition and illusory clones — dispel them and keep deflecting.",
+      "Break posture in each phase for three Deathblows to finish her."
+    ],
+    video: "https://www.youtube.com/watch?v=JUBNf9c8rd0"
+  },
+{
+    id: 1850,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Shichimen Warrior",
+    location: "Ashina Castle – Abandoned Dungeon (and other hidden spots)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prayer Bead / Malcontent's Ring path, Ceremonial Tanto",
+    summary:
+      "A sorcerous apparition that floats and hurls terror-inducing purple projectiles and homing orbs; a pure endurance-of-nerve fight where Terror is the real threat.",
+    aiTip:
+      "Divine Confetti makes your hits count and Pacifying Agent holds back Terror. Close in during its casting animation and Deathblow it from behind after each orb barrage.",
+    walkthrough: [
+      "Locate a Shichimen Warrior (e.g. the Abandoned Dungeon beneath Ashina Castle).",
+      "Apply Divine Confetti so your attacks reliably damage the apparition.",
+      "Dodge its purple homing orbs and the terror wave, closing distance as it casts.",
+      "Punish the long recovery after its projectile barrages with quick strikes.",
+      "Keep Terror in check with Pacifying Agent and land the Deathblow once its health is gone."
+    ],
+    video: "https://www.youtube.com/watch?v=Yu-WrZvPZk0"
+  },
+{
+    id: 1851,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Headless",
+    location: "Multiple locations (Ashina Outskirts, Hirata, Sunken Valley, Ashina Depths)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spiritfall (Ako's / Yashariku's / Gachiin's, etc.) items",
+    summary:
+      "Optional terror apparitions fought in a slowing purple mist. Each Headless rewards a powerful Spiritfall consumable but induces heavy Terror and slows your movement.",
+    aiTip:
+      "Bring Divine Confetti (mandatory to damage them), Pacifying Agent, and consider Gachiin's Sugar to sneak behind; strike its back and reset when Terror climbs.",
+    walkthrough: [
+      "Approach a Headless — you'll enter a purple mist that slows your movement.",
+      "Use Divine Confetti so your blade can actually harm it.",
+      "Circle behind it; its grab attacks reach from the front, so attack from the rear.",
+      "Manage Terror build-up with Pacifying Agent to avoid an instant-kill status.",
+      "Deplete its health from behind to claim its Spiritfall reward."
+    ],
+    video: "https://www.youtube.com/watch?v=v88GhnrkhdI"
+  },
+{
+    id: 1852,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Ashina Elite – Jinsuke Saze",
+    location: "Ashina Castle – Upper Tower Dojo (endgame)",
+    length: "short",
+    difficulty: "High",
+    reward: "Prayer Bead, Ashina Cross intel",
+    summary:
+      "A master of the sheathed 'Ashina Cross' iaijutsu whose single, blindingly fast draw-slash can erase your health if you drop your guard.",
+    aiTip:
+      "Stay glued to him so he can't reset into his stance; deflect the lightning-fast draw on reaction and immediately punish — retreating just invites the one-shot slash.",
+    walkthrough: [
+      "Find Jinsuke Saze in the Ashina Castle dojo during the endgame (castle aflame).",
+      "Stay aggressive and close so he can't settle into his sheathed stance.",
+      "Deflect his rapid draw-slash on reaction — its speed is the whole fight.",
+      "Punish immediately after each deflect to keep his posture climbing.",
+      "Break his posture for the Deathblow before he lands a full-power Ashina Cross."
+    ],
+    video: "https://www.youtube.com/watch?v=RAYXV-Ewe5g"
+  },
+{
+    id: 1853,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Ashina Elite – Ujinari Mizuo",
+    location: "Ashina Castle – Upper Tower (endgame)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "An elite Ashina swordsman with fast, flowing katana combos guarding the upper castle in the endgame.",
+    aiTip:
+      "He's weak to fire and vulnerable to the Loaded Umbrella — pop the umbrella to turn aside his rush, then counter into his combo gaps.",
+    walkthrough: [
+      "Reach the upper Ashina Castle tower during the endgame to find Ujinari Mizuo.",
+      "Deflect his fast katana strings and watch for a thrust you can Mikiri.",
+      "Use the Loaded Umbrella or Flame Vent to blunt his aggression.",
+      "Punish the recovery after his longer combo chains.",
+      "Sustain deflection pressure to break posture and Deathblow him."
+    ],
+    video: "https://www.youtube.com/watch?v=Cqqz6xAKlPs"
+  },
+{
+    id: 1854,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Sakura Bull of the Palace",
+    location: "Fountainhead Palace – Flower Viewing Stage",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A pink-flamed cousin of the Blazing Bull that charges the Flower Viewing Stage, dealing contact damage even through blocks.",
+    aiTip:
+      "A stealth Deathblow from the approach removes one bar outright; otherwise stay at its flank, avoid the flaming charge, and strike its rear.",
+    walkthrough: [
+      "Enter the Flower Viewing Stage in Fountainhead Palace to trigger the bull.",
+      "Optionally open with a stealth Deathblow to delete its first health bar.",
+      "Sidestep — don't block — the flaming charge and stay on its flank.",
+      "Attack its hindquarters after each charge to whittle health and posture.",
+      "Firecrackers stun it for a longer, safer attack window before the Deathblow."
+    ],
+    video: "https://www.youtube.com/watch?v=W5_80Fy1Bb0"
+  },
+{
+    id: 1855,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Okami Leader Shizu",
+    location: "Fountainhead Palace – near the Palace Grounds idol",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Prayer Bead",
+    summary:
+      "A lightning-wielding leader of the Okami warriors who zaps you from range, especially while you swim; a short but shocking encounter.",
+    aiTip:
+      "Grapple to the overhanging branch to drop onto her and burst her down in a few hits; if she charges lightning, reverse it back with a timed jump-attack.",
+    walkthrough: [
+      "Approach Shizu near the Fountainhead Palace grounds — beware lightning while swimming.",
+      "Grapple onto the tree branch above her to close distance safely.",
+      "Drop down and rush her with quick strikes before she recovers.",
+      "Reverse any charged lightning with a timed jump attack.",
+      "Finish with a Deathblow once her posture breaks."
+    ],
+    video: "https://www.youtube.com/watch?v=uthYrmaXin8"
+  },
+{
+    id: 1856,
+    type: "side",
+    category: "Mini-Bosses",
+    game: "Sekiro: Shadows Die Twice",
+    title: "Lone Shadow Vilehand",
+    location: "Ashina Castle – Ashina Dojo (endgame)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prayer Bead",
+    summary:
+      "An endgame Lone Shadow shinobi in the Ashina dojo, blending kick combos, a poison-blade phase, and fast dash-in stabs.",
+    aiTip:
+      "Deflect his kick string and Mikiri the thrust; his posture crumbles under constant pressure, so don't give him space to reset.",
+    walkthrough: [
+      "Enter the Ashina Castle dojo in the endgame to face Lone Shadow Vilehand.",
+      "Deflect his rapid blade combos and jump his sweeping kick.",
+      "Mikiri Counter his dash-in thrust to spike his posture.",
+      "Watch for his poison-coated strikes and avoid lingering in any residue.",
+      "Keep relentless deflection pressure to break posture for the Deathblow."
+    ],
+    video: "https://www.youtube.com/watch?v=YH6pOJbyZMI"
   }
 ];

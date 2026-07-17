@@ -1478,7 +1478,6 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-center gap-2"><Swords size={13} className="text-primary"/><span className="text-sm font-semibold" style={{fontFamily:"'Spectral',serif"}}>RPG Quest Guide</span></div>
           <div className="flex flex-col sm:items-end gap-1">
-            <a href="https://github.com/kbarbu12/newapp/issues" target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary transition-colors">Report an issue ↗</a>
             <p className="text-[10px] text-muted-foreground/50">Fan-made · Not affiliated with any publisher or developer.</p>
           </div>
         </div>
