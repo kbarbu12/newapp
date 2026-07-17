@@ -1396,6 +1396,12 @@ const quests = [
       "Investigate a mysterious storm surrounding an ancient Engwithan dig site. The Vailian Trading Company wants the artifacts inside, but the ruin's guardians and rival factions have other plans.",
     aiTip:
       "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior.",
+    walkthrough: [
+      "Take the Vailian Trading Company job and sail to Poko Kohara Island.",
+      "Clear the storm-wracked exterior and enter the Engwithan dig site.",
+      "Solve the ruin's mechanisms and fight or sneak past its guardians.",
+      "Decide the artifacts' fate between the rival factions to resolve the storm."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
   },
 {
@@ -1411,6 +1417,12 @@ const quests = [
       "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
     aiTip:
       "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
+    walkthrough: [
+      "Accept the job to steal Arkemyr's grimoire and reach his manor in Periki's Overlook.",
+      "Slip in via the servants' routes — disguises and Arkemyr's own robes fool the staff.",
+      "Bypass the imps and wards guarding the study rather than brawling through.",
+      "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
 {
@@ -1426,6 +1438,12 @@ const quests = [
       "Track down lost grimoires scattered across the Deadfire Archipelago for the eccentric wizard Berkana. Each grimoire contains unique spell combinations not found elsewhere in the game.",
     aiTip:
       "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members.",
+    walkthrough: [
+      "Take Berkana's commission at her observatory to recover the lost grimoires.",
+      "Sail to each flagged island in the archipelago to search for a grimoire.",
+      "Clear the guardians at each cache and collect the tome.",
+      "Return the grimoires to Berkana for the unique spell-combination rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
   },
 {
@@ -1441,6 +1459,12 @@ const quests = [
       "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
     aiTip:
       "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories.",
+    walkthrough: [
+      "Head into the Gullet, Neketaka's slum, and investigate the escalating gang war.",
+      "Question the factions to expose the shapeshifter pulling the strings.",
+      "Choose which gang or outcome to back through the dialogue branches.",
+      "Resolve the changeling's scheme to decide who controls the district."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
   },
 {
@@ -2075,6 +2099,12 @@ const quests = [
       "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
     aiTip:
       "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
+    walkthrough: [
+      "Sail to Hasongo and dock at the ruined lighthouse where Eothas passed.",
+      "Fight or negotiate through the Naga infesting the fortress.",
+      "Investigate the lighthouse to pick up Eothas's trail.",
+      "Choose whether to make the Naga allies or enemies for the rest of the game."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
   },
 {
@@ -2090,6 +2120,12 @@ const quests = [
       "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
     aiTip:
       "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
+    walkthrough: [
+      "Speak to the priest of Berath to begin the Blessings challenge series.",
+      "Travel to each flagged island and complete its combat, stealth, or diplomacy trial.",
+      "Return the proof of each trial to advance the chain.",
+      "Finish the series to claim the soul-bound weapons that grow with use."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Berath's%20Blessings%20walkthrough"
   },
 {
@@ -3363,6 +3399,12 @@ const quests = [
       "Negotiate trade agreements between rival factions in Neketaka's bustling port district. A diplomacy-heavy quest that rewards high Persuasion and Diplomacy skills with outcomes that open up more lucrative opportunities later.",
     aiTip:
       "Having a party member with Merchant background makes several dialogue options significantly more persuasive. Complete this before committing fully to any one faction.",
+    walkthrough: [
+      "Take up the trade dispute in Neketaka's Queen's Berth district.",
+      "Meet each rival merchant faction and hear their demands.",
+      "Use Persuasion/Diplomacy checks to broker an agreement.",
+      "Settle the alliance to unlock the later, more lucrative opportunities."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
   },
 {
@@ -3378,6 +3420,12 @@ const quests = [
       "Prove yourself worthy to the Tikawaran tribe by completing their traditional rite of passage in the island's dangerous jungle interior. The rite involves both combat challenges and diplomatic negotiations with the local spirits.",
     aiTip:
       "Bring a druid or priest for the spirit interactions — their dialogue options are significantly more effective. Completing the rite opens up Tikawara as a safe harbour and trading post.",
+    walkthrough: [
+      "Sail to Tikawara and ask the tribe to undertake their rite of passage.",
+      "Complete the combat trials in the island's jungle interior.",
+      "Pass the diplomatic tests with the local spirits.",
+      "Finish the rite to earn the tribe's trust and rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
   },
 {
@@ -3423,6 +3471,12 @@ const quests = [
       "Travel with the monk-priestess Xoti as she struggles with the weight of souls she has harvested in her lantern. Her questline explores religious devotion, trauma, and the burden of a divine calling across multiple islands.",
     aiTip:
       "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
+    walkthrough: [
+      "Travel with Xoti and trigger her personal conversations at key islands.",
+      "Advance the main story between her events to unlock later beats.",
+      "Choose whether to steer her toward Gaun or Magran during her crisis.",
+      "Resolve her arc about the souls in her lantern to lock in her ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
   },
 {
@@ -3438,6 +3492,12 @@ const quests = [
       "Reach the legendary lost city of Ukaizo — the final destination of your pursuit of the god Eothas. The city's secrets and your faction allegiance determine which of several dramatically different endings plays out.",
     aiTip:
       "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
+    walkthrough: [
+      "Progress the main story until passage toward Ukaizo opens.",
+      "Break through the Storm of Ukaizo with the required faction support or gambit.",
+      "Explore the lost Engwithan city and its guardians.",
+      "Let your faction allegiance decide which dramatic ending unfolds."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
   },
 {
@@ -3453,6 +3513,12 @@ const quests = [
       "Help Pallegina the godlike soldier navigate her complicated loyalty to the Vailian Trading Company while staying true to her own moral compass. Her questline adds nuance to the game's faction conflicts and her own identity struggle.",
     aiTip:
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
+    walkthrough: [
+      "Trigger Pallegina's events by pursuing the Vailian Republics questline.",
+      "Advance her conversations at the required story milestones.",
+      "Choose whether she obeys or defies the Republic's orders.",
+      "Resolve her arc to determine her fate and standing at the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
   },
 {
@@ -5265,6 +5331,12 @@ const quests = [
       "The game opens with the fateful Nibelheim flashback — Cloud and Sephiroth's mission to the reactor, and the truth Cloud has buried.",
     aiTip:
       "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
+    walkthrough: [
+      "Play the Nibelheim flashback, following Sephiroth up the mountain path to the reactor.",
+      "Fight through the reactor's monsters and reach Jenova's chamber.",
+      "Survive the Materia Guardian boss encounter.",
+      "Witness Sephiroth's breakdown and the burning of Nibelheim to close the prologue."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
   },
 {
@@ -5282,6 +5354,12 @@ const quests = [
       "The party leaves Midgar behind and reaches Kalm, opening the sprawling Grasslands — Rebirth's first open region with chocobos, towers, and Odd Jobs.",
     aiTip:
       "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
+    walkthrough: [
+      "Arrive in Kalm and complete its story beats and shopping.",
+      "Enter the Grasslands and sync the first Remnawave tower for Chadley.",
+      "Catch a chocobo at the ranch to unlock faster traversal.",
+      "Follow the main path toward the Mythril Mine to advance."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
   },
 {
@@ -5299,6 +5377,12 @@ const quests = [
       "The group cuts through the Mythril Mine, tangling with the Turks and a certain mysterious swordsman on the way to the coast.",
     aiTip:
       "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
+    walkthrough: [
+      "Cut through the Mythril Mine, dealing with the Turks along the way.",
+      "Solve the mine's traversal puzzles and clear its monsters.",
+      "Encounter the mysterious swordsman on the road to the coast.",
+      "Exit toward Junon to continue the story."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
   },
 {
@@ -5316,6 +5400,12 @@ const quests = [
       "Arrival in the Junon region: military spectacle, the coastal plains, and a fresh batch of Odd Jobs and minigames.",
     aiTip:
       "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
+    walkthrough: [
+      "Reach the Junon region and take in the military spectacle.",
+      "Complete the coastal-plains objectives and new Odd Jobs.",
+      "Sync the region's tower and progress Chadley's intel.",
+      "Advance the main path toward Junon proper."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
   },
 {
@@ -5333,6 +5423,12 @@ const quests = [
       "The party boards Shinra transport across the sea, with tensions high and Sephiroth's shadow never far behind.",
     aiTip:
       "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
+    walkthrough: [
+      "Board the Shinra transport crossing the sea from Junon.",
+      "Handle the onboard events as tensions rise.",
+      "Clear the mid-voyage combat encounters.",
+      "Arrive at Costa del Sol to continue."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
   },
 {
@@ -5350,6 +5446,12 @@ const quests = [
       "The resort town of Costa del Sol offers a rare beach holiday — swimwear, minigames, and the calm before the storm.",
     aiTip:
       "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
+    walkthrough: [
+      "Arrive at the resort town of Costa del Sol.",
+      "Enjoy the beach events, swimwear, and minigames.",
+      "Complete the region's Odd Jobs and story beats.",
+      "Follow the main path toward the Corel region."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
   },
 {
@@ -5367,6 +5469,12 @@ const quests = [
       "The Corel region opens up: desert prison, dustbowl, and the shadow of Barret and Dyne's shared past.",
     aiTip:
       "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
+    walkthrough: [
+      "Enter the Corel region and its dustbowl and desert prison.",
+      "Progress the story tied to Barret and Dyne's past.",
+      "Sync the tower and pick up the region's intel and jobs.",
+      "Advance toward the Gold Saucer."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
   },
 {
@@ -5384,6 +5492,12 @@ const quests = [
       "The dazzling Gold Saucer amusement park — and the wrenching story of Dyne — collide in one of the game's biggest chapters.",
     aiTip:
       "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
+    walkthrough: [
+      "Reach the dazzling Gold Saucer amusement park.",
+      "Play through the attractions and story events.",
+      "Confront the wrenching story of Dyne in Corel Prison.",
+      "Complete the chapter's major beats to move on."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
   },
 {
@@ -5401,6 +5515,12 @@ const quests = [
       "The lush, mushroom-filled Gongaga jungle hides Zack's hometown, the Turks, and a reactor meltdown's legacy.",
     aiTip:
       "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
+    walkthrough: [
+      "Enter the lush, mushroom-filled Gongaga jungle.",
+      "Explore Zack's hometown and deal with the Turks.",
+      "Uncover the reactor-meltdown legacy in the story beats.",
+      "Sync the region's intel and advance the main path."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
   },
 {
@@ -5418,6 +5538,12 @@ const quests = [
       "Red XIII comes home to Cosmo Canyon, the spiritual heart of the Planet, where the party learns about the Lifestream.",
     aiTip:
       "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
+    walkthrough: [
+      "Travel to Cosmo Canyon, the spiritual heart of the Planet, with Red XIII.",
+      "Progress the story about the Lifestream and Red's heritage.",
+      "Complete the region's objectives and intel.",
+      "Advance toward Nibelheim."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
   },
 {
@@ -5435,6 +5561,12 @@ const quests = [
       "Return to Nibelheim in the present day, where the truth of Cloud's memories and Shinra's experiments come to a head.",
     aiTip:
       "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
+    walkthrough: [
+      "Return to present-day Nibelheim in the Nibel region.",
+      "Investigate the mansion and Shinra's experiments.",
+      "Confront the truth of Cloud's memories in the story beats.",
+      "Push the plot toward its next turn."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
   },
 {
@@ -5452,6 +5584,12 @@ const quests = [
       "The party regroups at the Gold Saucer for the run-up to the finale, unlocking the last wave of Odd Jobs across every region.",
     aiTip:
       "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
+    walkthrough: [
+      "Regroup at the Gold Saucer for the run-up to the finale.",
+      "Unlock the last wave of Odd Jobs across every region.",
+      "Wrap up remaining world intel and side content while you can.",
+      "Advance the main story toward the Temple of the Ancients."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
   },
 {
@@ -5469,6 +5607,12 @@ const quests = [
       "The Temple of the Ancients: shifting geometry, ancient guardians, and a confrontation that changes everything.",
     aiTip:
       "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
+    walkthrough: [
+      "Enter the Temple of the Ancients and its shifting geometry.",
+      "Solve the temple's rotating puzzles and clear its guardians.",
+      "Progress the pivotal story confrontation.",
+      "Complete the chapter to reach the finale's approach."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
   },
 {
@@ -5486,6 +5630,12 @@ const quests = [
       "Rebirth's climactic finale at the Forgotten Capital — the destined encounter fans have waited decades to see reinterpreted.",
     aiTip:
       "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
+    walkthrough: [
+      "Reach the Forgotten Capital for Rebirth's climactic finale.",
+      "Play through the destined, reinterpreted encounter.",
+      "Fight the chapter's major boss battles.",
+      "See the story to its emotional conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
   },
 {
@@ -5503,6 +5653,12 @@ const quests = [
       "A ranch hand has lost a prized Queen's Blood card. Track it down across the Grasslands to add it to your deck.",
     aiTip:
       "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
+    walkthrough: [
+      "Talk to the ranch hand at Bill's Ranch in the Grasslands to start the job.",
+      "Follow the marker to track the lost Queen's Blood card across the fields.",
+      "Deal with any foes guarding it.",
+      "Return the card — it's added to your deck."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
   },
 {
@@ -5520,6 +5676,12 @@ const quests = [
       "Help a rancher wrangle and calm the local chocobos so they'll cooperate with travelers.",
     aiTip:
       "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
+    walkthrough: [
+      "Accept the job from the rancher in Under Junon.",
+      "Approach and calm the skittish chocobos using the prompts.",
+      "Wrangle each one back toward the pen.",
+      "Report to the rancher for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
   },
 {
@@ -5537,6 +5699,12 @@ const quests = [
       "A wistful local asks the party for help chasing a small, hopeful dream against Junon's militarized backdrop.",
     aiTip:
       "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
+    walkthrough: [
+      "Take the request from the wistful local in Coastal Junon.",
+      "Follow the objective to help chase their small dream.",
+      "Complete the tasks against Junon's militarized backdrop.",
+      "Return to the quest-giver to finish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
   },
 {
@@ -5554,6 +5722,12 @@ const quests = [
       "The wetlands' frog population has gone haywire. Investigate the cause and restore the balance.",
     aiTip:
       "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
+    walkthrough: [
+      "Start the job in the Junon Wetlands where the frogs have gone haywire.",
+      "Investigate the cause along the marked path.",
+      "Deal with the source disturbing the population.",
+      "Restore the balance and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
   },
 {
@@ -5571,6 +5745,12 @@ const quests = [
       "Costa del Sol's holiday mood sets up a lighthearted rendezvous quest full of beach-town charm.",
     aiTip:
       "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
+    walkthrough: [
+      "Begin the rendezvous job in Costa del Sol.",
+      "Follow the lighthearted objectives around the resort.",
+      "Complete the beach-town tasks and any battles.",
+      "Meet the quest-giver to wrap it up."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
   },
 {
@@ -5588,6 +5768,12 @@ const quests = [
       "The local muscleheads challenge the party to prove their strength with a squats showdown.",
     aiTip:
       "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
+    walkthrough: [
+      "Accept the muscleheads' challenge in Costa del Sol.",
+      "Take on the squats minigame and match the rhythm prompts.",
+      "Beat the target score to prove your strength.",
+      "Collect the reward for winning."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
   },
 {
@@ -5605,6 +5791,12 @@ const quests = [
       "Reports of black-robed men lead the party into a ransom scheme tied to Sephiroth's followers.",
     aiTip:
       "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
+    walkthrough: [
+      "Take the job investigating black-robed men in the Corel Dustbowl.",
+      "Follow the clues into the ransom scheme tied to Sephiroth's followers.",
+      "Fight through the culprits at the marked site.",
+      "Resolve the ransom and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
   },
 {
@@ -5622,6 +5814,12 @@ const quests = [
       "The desert prison runs a brutal arena. Fight through its circus of combat trials for the crowd — and a payout.",
     aiTip:
       "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
+    walkthrough: [
+      "Enter the desert prison arena in the Dustbowl.",
+      "Fight through the escalating combat trials for the crowd.",
+      "Adapt to each wave's enemies.",
+      "Clear the final bout for the payout."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
   },
 {
@@ -5639,6 +5837,12 @@ const quests = [
       "A villager's beloved bird has vanished into the Gongaga jungle. Follow the clues to bring Mr. Birdie home.",
     aiTip:
       "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
+    walkthrough: [
+      "Talk to the villager in Gongaga whose bird has vanished.",
+      "Follow the clues into the jungle to track Mr. Birdie.",
+      "Navigate the hazards and any foes along the trail.",
+      "Bring Mr. Birdie home to complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
   },
 {
@@ -5656,6 +5860,12 @@ const quests = [
       "A perfectionist craftsman needs rare Gongaga ingredients to complete his flawless creation.",
     aiTip:
       "Gather the exact items requested — partial deliveries won't satisfy this client.",
+    walkthrough: [
+      "Accept the craftsman's request in Gongaga Village.",
+      "Gather the rare jungle ingredients he needs, using your chocobo to sniff them out.",
+      "Return each component to him.",
+      "Complete his flawless creation for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
   },
 {
@@ -5673,6 +5883,12 @@ const quests = [
       "Round up escaped fowl scattered across the treacherous Gongaga jungle paths.",
     aiTip:
       "Chocobo traversal and the region's springs make chasing down the strays far easier.",
+    walkthrough: [
+      "Start the job to round up escaped fowl in the Gongaga jungle.",
+      "Chase down each bird along the treacherous paths.",
+      "Corner and catch them one by one.",
+      "Return them all to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
   },
 {
@@ -5690,6 +5906,12 @@ const quests = [
       "Yuffie is roped into proving herself to an aspiring young 'warrior' in Gongaga, with comedic results.",
     aiTip:
       "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
+    walkthrough: [
+      "Begin Yuffie's job proving herself to the aspiring young 'warrior' in Gongaga.",
+      "Play along with the comedic training tasks.",
+      "Complete each challenge the kid sets.",
+      "Finish the arc for the reward and a laugh."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
   },
 {
@@ -5707,6 +5929,12 @@ const quests = [
       "Cissnei needs rare Magonga Mushrooms to finish a dish. Sniff them out with your chocobo across the jungle.",
     aiTip:
       "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
+    walkthrough: [
+      "Talk to Cissnei at her house in Gongaga to start the job.",
+      "Ride your chocobo to sniff out the rare Magonga Mushrooms in the jungle.",
+      "Collect the required mushrooms.",
+      "Return them to Cissnei to complete the dish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
   },
 {
@@ -5724,6 +5952,12 @@ const quests = [
       "Earn the trust of Cosmo Canyon's people and its wildlife to unlock the region's mountain chocobo.",
     aiTip:
       "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
+    walkthrough: [
+      "Begin the trust job among Cosmo Canyon's people and wildlife.",
+      "Complete the tasks that earn the locals' and animals' trust.",
+      "Follow the objectives along the canyon paths.",
+      "Finish to unlock the region's mountain chocobo."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
   },
 {
@@ -5741,6 +5975,12 @@ const quests = [
       "Help restore the canyon's astronomical markers, tying into Cosmo Canyon's cosmology and the Planet's story.",
     aiTip:
       "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
+    walkthrough: [
+      "Accept the job at the Cosmo Canyon Observatory.",
+      "Help restore the astronomical markers along the marked route.",
+      "Complete the alignment tasks tied to the canyon's cosmology.",
+      "Report back to finish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
   },
 {
@@ -5758,6 +5998,12 @@ const quests = [
       "Investigate a sacred Lifestream-touched site and the strange phenomena disturbing it.",
     aiTip:
       "A lore-rich quest about the Lifestream — the reward materia suits a support build.",
+    walkthrough: [
+      "Start the job investigating a Lifestream-touched site near Cosmo Canyon.",
+      "Follow the objective to the disturbed sacred ground.",
+      "Deal with the strange phenomena and any foes.",
+      "Resolve the disturbance and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
   },
 {
@@ -5775,6 +6021,12 @@ const quests = [
       "An old promise resurfaces in Cosmo Canyon, asking the party to honor a departed friend's wish.",
     aiTip:
       "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
+    walkthrough: [
+      "Begin the 'Promises to Keep' job in Cosmo Canyon village.",
+      "Follow the story of an old promise to a departed friend.",
+      "Complete the tasks honoring their wish.",
+      "Return to the quest-giver to close the arc."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
   },
 {
@@ -5792,6 +6044,12 @@ const quests = [
       "Ancient trials hidden on Mt. Nibel test the party with esoteric puzzles and guardian battles.",
     aiTip:
       "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
+    walkthrough: [
+      "Reach the ancient trials on Mt. Nibel to start the job.",
+      "Solve the esoteric puzzles along the mountain paths.",
+      "Defeat the guardian battles the trials pit against you.",
+      "Complete the trials for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
   },
 {
@@ -5809,6 +6067,12 @@ const quests = [
       "Wartime anxieties ripple through the region; help those caught between Shinra's machine and daily survival.",
     aiTip:
       "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
+    walkthrough: [
+      "Accept the job about wartime anxieties in the Nibel/Junon coast area.",
+      "Help those caught between Shinra's war machine and daily survival.",
+      "Complete each of the marked tasks.",
+      "Report back to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
   },
 {
@@ -5826,6 +6090,12 @@ const quests = [
       "A tougher Chapter 12 job sends the party back to the Grasslands for high-stakes work against upgraded foes.",
     aiTip:
       "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
+    walkthrough: [
+      "Take the tougher Chapter 12 job sending you back to the Grasslands.",
+      "Travel to the marked high-stakes objective.",
+      "Defeat the upgraded foes there.",
+      "Complete the work for its reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
   },
 {
@@ -5843,6 +6113,12 @@ const quests = [
       "A late-game mystery draws the party to Junon's waters to uncover what lurks beneath the surface.",
     aiTip:
       "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
+    walkthrough: [
+      "Begin the late-game mystery in the Junon Wetlands.",
+      "Follow the clues to uncover what lurks beneath the surface.",
+      "Fight the threat revealed in the waters.",
+      "Resolve the mystery and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
   },
 {
@@ -5860,6 +6136,12 @@ const quests = [
       "The resort's earlier lightheartedness sours as an endgame threat reaches Costa del Sol.",
     aiTip:
       "A callback quest — earlier Costa del Sol choices color how this one resolves.",
+    walkthrough: [
+      "Start the 'Trouble in Paradise' job in Costa del Sol.",
+      "Investigate the endgame threat reaching the resort.",
+      "Fight through the escalating danger.",
+      "Restore order and complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
   },
 {
@@ -5877,6 +6159,12 @@ const quests = [
       "Stand watch over the Gongaga woodland against an escalating endgame incursion.",
     aiTip:
       "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
+    walkthrough: [
+      "Accept the woodland vigil job in the Gongaga jungle.",
+      "Stand watch against the escalating endgame incursion.",
+      "Defeat the waves of foes at the marked posts.",
+      "Hold the line to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
   },
 {
@@ -5894,6 +6182,12 @@ const quests = [
       "An endgame Cosmo Canyon job with real consequences, rewarding one of the game's best support materia.",
     aiTip:
       "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
+    walkthrough: [
+      "Begin the endgame Cosmo Canyon job.",
+      "Follow the objective with real consequences to its site.",
+      "Defeat the encounter guarding the reward.",
+      "Claim one of the game's best support materia."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
   },
 {
@@ -5911,6 +6205,12 @@ const quests = [
       "A grim Chapter 12 quest on Mt. Nibel that unlocks Hojo's combat exams and strengthens Barret's resolve.",
     aiTip:
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
+    walkthrough: [
+      "Start the grim Chapter 12 quest on Mt. Nibel.",
+      "Progress the story strengthening Barret's resolve.",
+      "Fight through the marked encounters.",
+      "Unlock Hojo's combat exams on completion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   },
 {
@@ -7611,6 +7911,13 @@ const quests = [
       "The Phantom Thieves' first target: the abusive gym teacher Suguru Kamoshida, whose twisted heart appears as a castle where students are slaves.",
     aiTip:
       "Secure the infiltration route early, then send the calling card only when you're ready for the boss — the deadline clock starts ticking.",
+    walkthrough: [
+      "Open the Metaverse Nav and enter Kamoshida's castle from Shujin Academy after the volleyball-rally arc.",
+      "Free the caged students and follow the safe-room route past the guards to lower the drawbridge.",
+      "Secure each infiltration point up to the treasure hall, then send the calling card once the route is open.",
+      "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
+      "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
   },
 {
@@ -7628,6 +7935,13 @@ const quests = [
       "Expose the celebrated artist Madarame, who plagiarizes his pupils' work — his heart is a museum of counterfeit masterpieces.",
     aiTip:
       "The shifting corridors hide switches; use Third Eye and note the fake vs. real paintings puzzle.",
+    walkthrough: [
+      "After Yusuke's plagiarism plot, enter Madarame's Museum of Vanity in Shibuya.",
+      "Work through the exhibit halls, using the fake Sayuri and hidden passages to slip past the laser grid.",
+      "Reach the infiltration point by the treasure hall and deliver the calling card.",
+      "Steal the treasure — the original Sayuri painting.",
+      "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
   },
 {
@@ -7645,6 +7959,13 @@ const quests = [
       "Take down the mafia extortionist Junya Kaneshiro, whose greed manifests as a floating bank vault.",
     aiTip:
       "The vault-door riddles gate progress — grind a little for the piggytron boss's big HP pool.",
+    walkthrough: [
+      "Raise the 30,000-yen 'debt' bait, then ride the pig vault lift to enter Kaneshiro's Bank of Gluttony.",
+      "Solve the gate and vault mechanisms, sending teammates ahead to hit the switches.",
+      "Reach the vault infiltration point and send the calling card.",
+      "Steal the floating treasure piggy bank before the deadline.",
+      "Defeat Shadow Kaneshiro atop his golden pig-mech."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
   },
 {
@@ -7662,6 +7983,13 @@ const quests = [
       "A rare heist to save a friend: Futaba Sakura's own heart, a pyramid built from guilt over her mother's death.",
     aiTip:
       "The Sphinx boss punishes wrong answers — read Futaba's memories carefully before responding.",
+    walkthrough: [
+      "Enter Futaba's Pyramid of Wrath after she asks the Thieves to steal her own heart.",
+      "Solve the mural and mechanism puzzles to open the inner tomb chambers.",
+      "Reach the treasure chamber; the calling card is delivered from within.",
+      "Fight the Sphinx (cognitive mother) — exploit Wind and weather the beam attacks.",
+      "Take the treasure and watch Futaba awaken her Persona, Necronomicon."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
   },
 {
@@ -7679,6 +8007,13 @@ const quests = [
       "Infiltrate fast-food magnate Kunikazu Okumura's spaceport palace, staffed by robotic exploited workers.",
     aiTip:
       "The final robot-boss gauntlet is time-pressured; bring Baton Pass chains and status ailments.",
+    walkthrough: [
+      "Enter Okumura's Spaceport of Greed and clear the waves of robotic worker Shadows.",
+      "Solve the airlock and shuttle puzzles, splitting the party to hold switches.",
+      "Reach the infiltration point and send the calling card well before the tight deadline.",
+      "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
+      "Grab the treasure quickly — a major real-world twist follows at once."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
   },
 {
@@ -7696,6 +8031,13 @@ const quests = [
       "The prosecutor Sae Niijima's heart is a rigged casino — the heist that frames the game's mid-story twist.",
     aiTip:
       "Rig the house's games via the lockdown puzzles; the twist afterward recontextualizes everything.",
+    walkthrough: [
+      "Enter Sae's Casino of Envy and win coins at the rigged games and battles.",
+      "Solve the House-card and slot puzzles to reach the manager's floor.",
+      "Reach the treasure-vault infiltration point and deliver the calling card.",
+      "Defeat Shadow Sae (Leviathan) across both of her forms.",
+      "Steal the treasure — this is the heist framed by the interrogation."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
   },
 {
@@ -7713,6 +8055,13 @@ const quests = [
       "Confront the corrupt politician Masayoshi Shido aboard a Diet-building cruiser sailing a drowned Tokyo.",
     aiTip:
       "A long, boss-dense palace — stock SP items and Revival Beads before the multi-phase Shido fight.",
+    walkthrough: [
+      "Board Shido's Cruiser of Pride sailing a drowned Tokyo and fight through its decks.",
+      "Use the rat/human transformation rooms and lift puzzles to climb toward the bridge.",
+      "Reach the top-deck infiltration point and send the calling card.",
+      "Defeat Shadow Shido through every beast-form phase, then his true self.",
+      "Take the treasure and face the grim aftermath back in reality."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
   },
 {
@@ -7730,6 +8079,13 @@ const quests = [
       "The public's collective heart forms the sprawling Mementos, whose depths hide the god of control, Yaldabaoth.",
     aiTip:
       "Max key confidants beforehand — several unlock crucial combat perks for the final ascent.",
+    walkthrough: [
+      "After Shido, descend through the newly opened Path of Qliphoth in Mementos.",
+      "Fight downward as the public's apathy warps the depths around you.",
+      "Reach the Holy Grail chamber and clear Yaldabaoth's guardians.",
+      "Battle the Holy Grail, then Yaldabaoth in his angelic-tower form.",
+      "Land the final rebellion shot to end the god of control's game."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
   },
 {
@@ -7747,6 +8103,13 @@ const quests = [
       "The Royal-exclusive finale: counselor Takuto Maruki reshapes reality itself, and the Thieves must reject a gilded false paradise.",
     aiTip:
       "Requires maxing Maruki, Kasumi, and Akechi's arcs to unlock. The two-phase final duel is the game's hardest.",
+    walkthrough: [
+      "Meet the Royal third-semester conditions (max Maruki's Confidant and the key Jan 9 choice).",
+      "Enter Maruki's Laboratory of Sloth beneath Odaiba.",
+      "Solve the 'actualization' tentacle puzzles and climb to the central chamber.",
+      "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
+      "Win the rooftop duel and reject the false paradise to restore reality."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
   },
 {
@@ -7763,6 +8126,12 @@ const quests = [
       "Help the fortune teller Chihaya escape a fraud cult; her readings unlock affinity-boosting fortunes.",
     aiTip:
       "Buy the Holy Stone early to fast-track her rank-ups — her fortunes speed every other confidant.",
+    walkthrough: [
+      "Find Chihaya fortune-telling in Shinjuku after her introduction in June.",
+      "Buy readings and, when prompted, purchase the Holy Stone to advance her cult storyline.",
+      "Meet on free evenings and choose supportive replies to raise the bond.",
+      "Free her from the Assembly of Divine Power and max the rank for fate-readings that boost Confidant EXP."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
   },
 {
@@ -7779,6 +8148,12 @@ const quests = [
       "The airsoft-shop owner Iwai is tangled with the yakuza; clearing his debt unlocks cheaper firearms.",
     aiTip:
       "His model-gun discounts and custom mods make ranged combat far stronger — prioritize for gun builds.",
+    walkthrough: [
+      "Shop at Iwai's Untouchable airsoft store in Yongen-Jaya to open his Confidant.",
+      "Run errands and help him settle his yakuza ties across several rank events.",
+      "Pick answers that reassure him about his adopted son, Kaoru.",
+      "Max the rank to unlock discounted, higher-tier custom firearms."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
   },
 {
@@ -7795,6 +8170,12 @@ const quests = [
       "The back-alley doctor Takemi trials experimental medicine on Joker in exchange for restoring her reputation.",
     aiTip:
       "Her clinic stocks the best SP-recovery items in the game — invaluable for long Mementos runs.",
+    walkthrough: [
+      "Become a patient at Takemi's back-alley clinic in Yongen-Jaya and agree to her medical trials.",
+      "Meet on her days off and help clear her name in the malpractice scandal.",
+      "Choose brave dialogue during the trial-medicine events.",
+      "Max the rank for the strongest healing/SP items in the game."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
   },
 {
@@ -7811,6 +8192,12 @@ const quests = [
       "Your homeroom teacher moonlights as a maid to pay off a debt; helping her frees up Joker's schedule.",
     aiTip:
       "Her rank perks let you craft tools in class and skip nights — a huge time-economy win.",
+    walkthrough: [
+      "Hire Kawakami's maid service (unlocks after learning her secret) to start her Confidant.",
+      "Book her regularly and choose supportive options to lift her out of debt.",
+      "Use her downtime services to craft tools, make coffee, or free evenings.",
+      "Max the rank to gain free-time actions during the day and in Palaces."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
   },
 {
@@ -7827,6 +8214,12 @@ const quests = [
       "The journalist Ohya chases the Thieves' story; help her expose corruption and lower Palace security.",
     aiTip:
       "Her perks reduce enemy alertness — great for stealthy, no-fail infiltration runs.",
+    walkthrough: [
+      "Meet the journalist Ohya at the Crossroads bar in Shinjuku.",
+      "Buy her drinks and feed her leads while she chases the Phantom Thieves story.",
+      "Choose replies that push her investigation into corporate corruption.",
+      "Max the rank to lower Palace security-level gains on the day of a heist."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
   },
 {
@@ -7843,6 +8236,12 @@ const quests = [
       "Coach the arcade prodigy Shinya through his bullying troubles to earn deadly gun perks.",
     aiTip:
       "His 'Down Shot' and instant-kill perks trivialize weaker Mementos enemies.",
+    walkthrough: [
+      "Beat Shinya's shooting game at the Akihabara arcade to open his Confidant.",
+      "Meet him on his days off and help with his bullying and his mother's troubles.",
+      "Give firm, encouraging advice during his rank events.",
+      "Max the rank for powerful gun-skill perks like extra ammo and down-rate boosts."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
   },
 {
@@ -7859,6 +8258,12 @@ const quests = [
       "The shogi champion Hifumi teaches tactics that let the team reposition and flee mid-battle.",
     aiTip:
       "Her Baton Pass unlock is combat-defining — rank her for aggressive weakness chaining.",
+    walkthrough: [
+      "Find Hifumi at the church in Kanda after her shogi introduction.",
+      "Play shogi sessions and choose supportive replies as she resists her mother's schemes.",
+      "Progress her arc about competing honestly.",
+      "Max the rank to gain the ability to reposition and flee mid-battle."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
   },
 {
@@ -7875,6 +8280,12 @@ const quests = [
       "The Phantom Thieves' webmaster Mishima spreads your fame — and grants EXP for benched members.",
     aiTip:
       "His EXP-share perk keeps your reserve party leveled without extra grinding.",
+    walkthrough: [
+      "Grow the Phansite via Mishima to open his Confidant early in the story.",
+      "Take his requests and choose replies steering him away from vanity.",
+      "Complete the Mementos targets he flags.",
+      "Max the rank to grant bonus EXP to benched party members."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
   },
 {
@@ -7891,6 +8302,12 @@ const quests = [
       "Aid the outcast politician Yoshida's street campaign to master persuading Shadows for money and items.",
     aiTip:
       "His negotiation perks squeeze more cash and rare Personas out of every Hold Up.",
+    walkthrough: [
+      "Listen to Yoshida's street speeches in Shibuya station square to open his Confidant.",
+      "Return on his speech days and choose answers that help his campaign.",
+      "Support him against the political smear campaign across rank events.",
+      "Max the rank to master negotiating money and items out of Shadows."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
   },
 {
@@ -7907,6 +8324,12 @@ const quests = [
       "The Velvet Room wardens task Joker with fusing specific Personas to complete their requests.",
     aiTip:
       "Fulfilling their fusion list unlocks the best fusion accidents and, in Royal, a key story reward.",
+    walkthrough: [
+      "The twins Caroline & Justine open their Confidant automatically in the Velvet Room.",
+      "Complete their fusion requests, creating Personas with specific skills/levels.",
+      "Deliver each requested Persona to advance the ranks.",
+      "Finish their arc to unlock the strongest fusion perks and their true story (Royal)."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
   },
 {
@@ -7923,6 +8346,12 @@ const quests = [
       "The talented gymnast Kasumi (Royal-exclusive) fights alongside Joker as her own story unravels.",
     aiTip:
       "Maxing Faith is required for the Royal third semester and true ending — don't neglect it.",
+    walkthrough: [
+      "Kasumi's Faith Confidant advances at fixed story points in Kichijoji (Royal-exclusive).",
+      "Meet her on the scheduled dates and choose empathetic dialogue.",
+      "Follow her gymnastics struggle and the mystery around her sister.",
+      "Progress to unlock her Persona and the path into the third semester."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
   },
 {
@@ -7939,6 +8368,12 @@ const quests = [
       "The kind school counselor Maruki (Royal-exclusive) offers therapy — and hides the game's biggest secret.",
     aiTip:
       "His confidant is Royal-only and gates the true ending; his SP-recovery perks help every fight.",
+    walkthrough: [
+      "Book counseling with Maruki at Shujin (Royal-exclusive) to open the Councillor Confidant.",
+      "Attend every session and answer honestly to deepen the bond.",
+      "Complete his ranks before the November deadline to keep the arc alive.",
+      "Max the rank to gain his powerful buffs — and the key to the third semester."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
   },
 {
@@ -7955,6 +8390,12 @@ const quests = [
       "Take the Phantom Aficionado Website's requests to change the hearts of minor villains lurking in Mementos.",
     aiTip:
       "Clear requests as they appear — many gate confidant progress or reward rare fusion material.",
+    walkthrough: [
+      "Open the Phantom Aficionado Website through Mishima to receive Mementos Requests.",
+      "Accept a request and locate the named target on the matching Mementos floor.",
+      "Defeat the target's Shadow to change its heart.",
+      "Report back for rewards, then repeat as new requests unlock over time."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Requests%20walkthrough"
   },
 {
@@ -7971,6 +8412,12 @@ const quests = [
       "Collect the Royal-exclusive Will Seeds hidden in each Palace and trade Jose's flowers/stamps for buffs.",
     aiTip:
       "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
+    walkthrough: [
+      "Collect the three Will Seeds hidden in each Palace (Royal-exclusive) as you infiltrate.",
+      "Combine each set into an accessory at the Velvet Room or Leblanc.",
+      "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
+      "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
   },
 {
@@ -10734,6 +11181,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Activate MAI's Remnawave communication towers to reveal each region's map and its intel objectives.",
     aiTip:
       "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
+    walkthrough: [
+      "Approach a Remnawave tower in any region and interact to begin.",
+      "Solve the short traversal/climb puzzle to reach the top.",
+      "Activate the tower to reveal the region's map and intel objectives.",
+      "Repeat at each region's towers to fully chart the world."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
   },
 {
@@ -10750,6 +11203,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete Chadley's Fiend Intel hunts and combat assessments to study the planet's monsters.",
     aiTip:
       "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
+    walkthrough: [
+      "Open Chadley's Fiend Intel list for the region.",
+      "Track down each named monster or combat-assessment target.",
+      "Defeat it while meeting any special battle condition.",
+      "Report the data to Chadley to unlock rewards and new intel."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
   },
 {
@@ -10766,6 +11225,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the mysterious Lifesprings welling up across each region for lore and rewards.",
     aiTip:
       "A relaxing collectible chain — the lore deepens the game's ecological themes.",
+    walkthrough: [
+      "Locate a Lifespring welling up in the region.",
+      "Approach and interact to trigger its investigation.",
+      "Complete the short encounter or lore beat.",
+      "Sync the data with Chadley for rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
   },
 {
@@ -10782,6 +11247,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Solve each region's multi-step Protorelic puzzle to earn unique summon materia.",
     aiTip:
       "These are the best World Intel rewards — do the region's other intel first to unlock them.",
+    walkthrough: [
+      "Begin the region's Divine Intel (Protorelic) chain.",
+      "Solve each multi-step objective — combat, minigame, or puzzle.",
+      "Progress through the chain's stages.",
+      "Claim the unique summon materia on completion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
   },
 {
@@ -10798,6 +11269,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Restore Chocobo Stops and complete moogle expeditions to open up each region's traversal.",
     aiTip:
       "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
+    walkthrough: [
+      "Find broken Chocobo Stops and moogle expedition points in the region.",
+      "Restore each Chocobo Stop by clearing the nearby obstacle.",
+      "Complete the moogle expeditions.",
+      "Open up the region's fast-travel and traversal network."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
   },
 {
@@ -10814,6 +11291,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Master the in-world card game Queen's Blood, defeating players from Kalm to the Gold Saucer.",
     aiTip:
       "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
+    walkthrough: [
+      "Learn Queen's Blood from the tutorial in Kalm.",
+      "Challenge NPC players across each region to grow your deck.",
+      "Win matches to earn new and rarer cards.",
+      "Work up to the Gold Saucer's top players to master the game."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
   },
 {
@@ -10830,6 +11313,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play the tower-defense minigame Fort Condor against escalating opponents.",
     aiTip:
       "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
+    walkthrough: [
+      "Find the Fort Condor board in the Junon area.",
+      "Learn the tower-defense rules and set your units.",
+      "Beat each escalating opponent's board.",
+      "Clear the ladder for prizes."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
   },
 {
@@ -10846,6 +11335,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face off in the reaction-based 3D Brawler boxing minigame for prizes and trophies.",
     aiTip:
       "Watch the opponent's tells and punish openings — patience beats button-mashing.",
+    walkthrough: [
+      "Access the 3D Brawler in Costa del Sol or the Gold Saucer.",
+      "Read the opponent's tells to block and counter in the boxing minigame.",
+      "Chain successful reactions into combos.",
+      "Beat each opponent for prizes and trophies."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
   },
 {
@@ -10862,6 +11357,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Program tin soldiers in the auto-battle puzzle minigame Gears & Gambits.",
     aiTip:
       "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
+    walkthrough: [
+      "Start a Gears & Gambits puzzle in the field.",
+      "Program each tin soldier's gambit rules for the auto-battle.",
+      "Adjust the logic until your units clear the encounter.",
+      "Solve every stage for the rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
   },
 {
@@ -10878,6 +11379,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Race chocobos around the Gold Saucer's tracks for gil, GP, and cosmetic rewards.",
     aiTip:
       "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
+    walkthrough: [
+      "Enter Chocobo Racing at the Gold Saucer.",
+      "Learn the track and use boosts and items around each lap.",
+      "Place first across the race classes.",
+      "Earn gil, GP, and cosmetic rewards for winning."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
   },
 {
@@ -10894,6 +11401,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Perform sheet music on pianos across the world in the rhythm minigame.",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
+    walkthrough: [
+      "Sit at a piano found in a town or hub.",
+      "Follow the on-screen notes in the rhythm minigame.",
+      "Play each sheet-music track to a passing score.",
+      "Earn rewards for higher performance ranks."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
   },
 {
@@ -10910,6 +11423,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Best Titan in a combat simulator trial to earn the earth-elemental summon.",
     aiTip:
       "Ward against earth and punish its stagger windows — a strong early summon.",
+    walkthrough: [
+      "Complete the Grasslands intel to unlock Titan's combat-simulator trial.",
+      "Enter the VR fight and learn Titan's earth-quake attack patterns.",
+      "Dodge the arena hazards and punish his openings.",
+      "Defeat Titan to earn the earth-elemental summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
   },
 {
@@ -10926,6 +11445,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat the holy fortress Alexander in Chadley's VR trial for a powerful summon.",
     aiTip:
       "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
+    walkthrough: [
+      "Unlock Alexander's trial through Junon's intel.",
+      "Enter Chadley's VR fight against the holy fortress.",
+      "Weather Alexander's holy barrages and heavy attacks.",
+      "Win to earn the Alexander summon materia."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
   },
 {
@@ -10942,6 +11467,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Overcome the ultimate dragon king Bahamut Arisen in a demanding VR assessment.",
     aiTip:
       "One of the toughest summon fights — max your materia and elemental resists first.",
+    walkthrough: [
+      "Complete Cosmo Canyon's intel to open Bahamut Arisen's assessment.",
+      "Enter the demanding VR trial against the dragon king.",
+      "Survive Mega Flare and its relentless combos.",
+      "Defeat Bahamut Arisen for the ultimate summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
   },
 {
@@ -10958,6 +11489,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face Odin under a strict time limit to claim the instant-death summon.",
     aiTip:
       "Odin's trial is a DPS race — build for maximum stagger and damage.",
+    walkthrough: [
+      "Unlock Odin's trial via Nibel's intel.",
+      "Enter the fight under Odin's strict time limit.",
+      "Deal heavy damage fast to avoid his instant-death Zantetsuken.",
+      "Beat the clock to claim the Odin summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
 {
@@ -11479,6 +12016,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deepen the bond with the eccentric artist Yusuke, unlocking team follow-up attacks.",
     aiTip:
       "His confidant perks add powerful assist moves — level him for tougher palaces.",
+    walkthrough: [
+      "Yusuke's Emperor Confidant opens after he joins the team in Madarame's arc.",
+      "Meet him for art outings and choose replies that support his growth.",
+      "Progress his ranks through the summer and fall.",
+      "Max the rank to unlock his Baton Pass follow-up and Harisen Recovery."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
   },
 {
@@ -11495,6 +12038,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Grow closer to the student council president Makoto for battle and money-making perks.",
     aiTip:
       "Her Follow Up and healing perks are excellent — a high-value confidant to max.",
+    walkthrough: [
+      "Makoto's Priestess Confidant opens after she joins during Kaneshiro's arc.",
+      "Study and meet with her, choosing supportive answers about her sister and future.",
+      "Advance her ranks steadily.",
+      "Max the rank for Follow-Up, Protect, and her money-finding perks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
   },
 {
@@ -11511,6 +12060,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bond with the gentle heiress Haru, whose perks grow SP-restoring plants and boost EXP.",
     aiTip:
       "Her rooftop garden yields SP-recovery veggies — great for palace stamina.",
+    walkthrough: [
+      "Haru's Empress Confidant opens after Okumura's Palace.",
+      "Tend her rooftop garden and meet her on free days.",
+      "Choose replies that help her stand up to her arranged marriage.",
+      "Max the rank for SP-restoring plants and Baton Pass bonuses."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
   },
 {
@@ -11527,6 +12082,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Strengthen your bond with Morgana, unlocking better ambushes and item crafting.",
     aiTip:
       "An easy early confidant — his perks smooth out the whole early game.",
+    walkthrough: [
+      "Morgana's Magician Confidant advances through story rank-ups at Leblanc.",
+      "Choose supportive dialogue during his identity-crisis events.",
+      "Progress the main story to trigger each locked rank.",
+      "Max the rank for better ambushes and item crafting."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
   },
 {
@@ -11543,6 +12104,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The prosecutor Sae's confidant unfolds through the story's interrogation frame.",
     aiTip:
       "Progresses automatically with the plot — pays off in the game's climax.",
+    walkthrough: [
+      "Sae's Judgement Confidant advances automatically through the interrogation framing.",
+      "Progress the story past Sae's Palace to unlock later ranks.",
+      "Make the key confession choices honestly.",
+      "Reach max rank in the endgame for its powerful battle perks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
   },
 {
@@ -11559,6 +12126,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Change the heart of a ruthless loan shark preying on the desperate.",
     aiTip:
       "Send the calling card once you've cleared the target's Mementos floor.",
+    walkthrough: [
+      "Accept the Phansite request targeting the predatory loan shark.",
+      "Descend to the matching Mementos floor and locate the target Shadow.",
+      "Defeat it to change the loan shark's heart.",
+      "Report to Mishima for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Man%20of%20Plans%20and%20Capital%20walkthrough"
   },
 {
@@ -11575,6 +12148,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take down a violent bounty hunter terrorizing Tokyo's underworld.",
     aiTip:
       "Exploit the shadow's weakness for a quick, clean Hold Up.",
+    walkthrough: [
+      "Accept the Phansite request about the violent bounty hunter.",
+      "Travel to the flagged Mementos depth and find the target.",
+      "Beat the Shadow, exploiting its weakness for a quick down.",
+      "Return to claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20A%20Bounty%20Hunter%20Scorned%20walkthrough"
   },
 {
@@ -11591,6 +12170,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with a self-styled vigilante whose 'justice' has curdled into cruelty.",
     aiTip:
       "A morally grey request — the reward and lore make it worth the trip.",
+    walkthrough: [
+      "Take the request concerning the vigilante 'Lockdown Hero'.",
+      "Reach the named Mementos floor and track down the Shadow.",
+      "Defeat it to reform the target.",
+      "Report back to Mishima for items and thanks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Lockdown%20Hero%20walkthrough"
   },
 {
@@ -11607,6 +12192,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Change the heart of a serial blackmailer exploiting Shibuya's students.",
     aiTip:
       "Time it after the relevant confidant hint appears for the fullest story.",
+    walkthrough: [
+      "Accept the request exposing the serial blackmailer.",
+      "Find the target on the indicated Mementos level.",
+      "Change its heart in battle.",
+      "Report the success for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Illustrious%20Blackmailer%20walkthrough"
   },
 {
@@ -11623,6 +12214,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Frequent Kichijoji's jazz club, darts, and billiards to boost stats and unlock combat perks.",
     aiTip:
       "Darts raises Baton Pass rank; Jazz Jin recovers SP for two party members — both huge.",
+    walkthrough: [
+      "Visit Kichijoji and play the Jazz Jin club to grant party-wide skill boosts.",
+      "Throw darts to raise Baton Pass rank with your teammates.",
+      "Shoot billiards to earn temporary battle buffs.",
+      "Rotate these activities on free evenings to steadily improve the team."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
   },
 {
@@ -11639,6 +12236,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Explore the Royal-exclusive Thieves Den to review the Phantom Thieves' exploits and unlock decor.",
     aiTip:
       "A relaxing meta-hub — collect trophies and models as you progress the story.",
+    walkthrough: [
+      "Access the Thieves Den from the title screen or Velvet Room (Royal-exclusive).",
+      "Spend collected coins on decor, music, and art unlocked through play.",
+      "Review event scenes and character models earned across the story.",
+      "Return periodically to spend new coins and complete the collection."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
   },
 {
@@ -11655,6 +12258,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Earn the trust of your gruff guardian Sojiro, unlocking coffee and curry that restore SP.",
     aiTip:
       "His SP-restoring brews and dishes are invaluable for long palace runs.",
+    walkthrough: [
+      "Sojiro's Hierophant Confidant opens early as you live and work at Leblanc.",
+      "Advance the story and choose replies that earn his trust about Futaba.",
+      "Complete his rank events at the café.",
+      "Max the rank to brew coffee and cook curry that restore party SP."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
   },
 {
@@ -12747,6 +13356,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The god Eothas reawakens beneath Caed Nua, drains the Watcher's soul, and marches into the sea — the chase begins.",
     aiTip:
       "The prologue reunites you with old companions and sets your soul-bond stakes for the game.",
+    walkthrough: [
+      "Watch the opening as Eothas awakens beneath Caed Nua and drains the Watcher.",
+      "Recover in Berath's realm and accept the pact to pursue the god.",
+      "Wake at Port Maje and get your bearings after the shipwreck.",
+      "Begin the chase by seeking passage into the wider Deadfire."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
   },
 {
@@ -12763,6 +13378,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wash ashore at Port Maje, then reach the great city of Neketaka to outfit your ship, the Defiant.",
     aiTip:
       "Neketaka is the hub — recruit crew, upgrade the Defiant, and pick up faction and companion quests.",
+    walkthrough: [
+      "Resolve the Port Maje situation and gain use of your ship, the Defiant.",
+      "Sail to Neketaka, the great Huana city, and dock at the harbor.",
+      "Explore the city's districts and meet the competing factions.",
+      "Outfit ship and crew, then follow the leads pointing toward Eothas."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
   },
 {
@@ -12779,6 +13400,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the fortress island of Hasongo to catch Eothas's trail and get drawn into the powers' schemes.",
     aiTip:
       "Which faction you help here begins to steer the archipelago's fate.",
+    walkthrough: [
+      "Sail to the fortress island of Hasongo to pick up Eothas's trail.",
+      "Deal with the Naga and the factions vying over the lighthouse.",
+      "Uncover the clue directing you deeper into the archipelago.",
+      "Report back and choose which power's schemes to entertain."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20walkthrough"
   },
 {
@@ -12795,6 +13422,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Brave the volcanic Ashen Maw to finally confront the titan of Eothas and the god's true plan.",
     aiTip:
       "A major turning point — your faction allegiance shapes who stands with you.",
+    walkthrough: [
+      "Reach Magran's Teeth and descend into the volcanic Ashen Maw.",
+      "Fight through the fire-touched Engwithan complex.",
+      "Confront the titan housing Eothas and learn the god's true plan.",
+      "Escape the eruption and set course for Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
   },
 {
@@ -12811,6 +13444,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure passage past the Storm of Ukaizo to reach the lost Engwithan city and the god's final act.",
     aiTip:
       "Requires a faction's help to cross — the endgame branches hard on your choices.",
+    walkthrough: [
+      "Secure the means to cross the Storm of Ukaizo from your chosen faction.",
+      "Prepare ship and crew for the final voyage.",
+      "Break through the storm to sight the lost Engwithan city.",
+      "Approach Ukaizo for the confrontation with Eothas."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
   },
 {
@@ -12827,6 +13466,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the ancient city of Ukaizo, the Watcher decides how to answer Eothas's world-shaking gambit.",
     aiTip:
       "The ending weighs the gods, the mortal world, and your faction — save before the final talks.",
+    walkthrough: [
+      "Land at Ukaizo and cross the ancient Engwithan wheel-city.",
+      "Clear the final guardians blocking the great machine.",
+      "Confront Eothas and hear out his world-shaking gambit.",
+      "Make the final choice that decides how the Wheel — and the world — will turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
   },
 {
@@ -12843,6 +13488,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Serve Queen Onekaza and the native Huana as they fight to keep the Deadfire from foreign powers.",
     aiTip:
       "One of four mutually-exclusive faction paths to the finale — pick the vision you believe in.",
+    walkthrough: [
+      "Meet Queen Onekaza at the Kahanga Palace to join the Huana.",
+      "Complete the Huana questline advancing their control of the Deadfire.",
+      "Choose Huana-favoring outcomes in the districts and rival factions.",
+      "Finish their arc to earn Huana backing for the endgame."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
   },
 {
@@ -12859,6 +13510,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Advance the Vailian Trading Company's grip on the archipelago's soul-rich adra trade.",
     aiTip:
       "Aligning with the VTC alienates rival factions — choose deliberately.",
+    walkthrough: [
+      "Report to Castol at the Vailian Trading Company to take their side.",
+      "Run the VTC jobs expanding their grip on the adra trade.",
+      "Undercut the rival factions where the story allows.",
+      "Complete their arc to gain VTC support at Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
   },
 {
@@ -12875,6 +13532,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Throw in with the pirate confederation, the Príncipi, and their dream of a free Deadfire.",
     aiTip:
       "The most freewheeling faction — great for a swashbuckling captain playthrough.",
+    walkthrough: [
+      "Seek out the Príncipi pirates and prove your worth to their captains.",
+      "Complete their raids and schemes for a free Deadfire.",
+      "Back Príncipi outcomes against the imperial powers.",
+      "Finish their questline to sail into the finale with pirate support."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Pr%C3%ADncipi%20sen%20Patrena%20walkthrough"
   },
 {
@@ -12891,6 +13554,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the imperial Rauataians impose order — and control — over the islands.",
     aiTip:
       "A colonizing power path with hard moral trade-offs; your choices color the ending.",
+    walkthrough: [
+      "Report to the Rauataian Royal Deadfire Company to align with the empire.",
+      "Carry out their orders imposing control over the islands.",
+      "Choose Rauataian-favoring resolutions in the faction conflicts.",
+      "Complete their arc for imperial backing at Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
   },
 {
@@ -12907,6 +13576,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help Edér find a lost love and reckon with his faith now that Eothas has returned.",
     aiTip:
       "A warm, human arc amid the divine stakes — worth doing before the finale.",
+    walkthrough: [
+      "Trigger Edér's personal quest and sail toward Sayuka.",
+      "Help him search for his lost love and old comrades.",
+      "Guide his dialogue about faith now that Eothas has returned.",
+      "Resolve the arc to settle Edér's beliefs and his fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
   },
 {
@@ -12923,6 +13598,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Aid the cipher orlan pirate Serafen in tracking down Remaro, an old pirate the Príncipi have branded a mutineer and traitor.",
     aiTip:
       "Ship-combat friendly — chase the target across the seas with the Defiant.",
+    walkthrough: [
+      "Advance Serafen's conversations while sailing the Deadfire.",
+      "Take up the hunt for the branded pirate Remaro.",
+      "Track Remaro down and confront him at sea.",
+      "Choose Serafen's resolution to close his personal quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
 {
@@ -12939,6 +13620,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the Rauataian sharpshooter Maia deliver the Royal Deadfire Company's missives across the archipelago — and reckon with the ruthless orders that come with them.",
     aiTip:
       "Her loyalty to Rauatai can clash with the Watcher's conscience — your input shapes her ending.",
+    walkthrough: [
+      "Trigger Maia's quest by carrying Royal Deadfire Company missives.",
+      "Deliver the letters across the archipelago as tasked.",
+      "Weigh the ruthless orders the deliveries reveal.",
+      "Make the final choice that defines Maia's loyalty and ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
   },
 {
@@ -12955,6 +13642,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tekēhu has no standalone personal quest — instead the flamboyant godlike watershaper takes center stage in the Watershaper Guild's investigation of The Shadow Under Neketaka, wrestling with his rare gifts and Huana duty.",
     aiTip:
       "A charismatic arc exploring the Huana's caste system and divine blood.",
+    walkthrough: [
+      "Join the Watershaper Guild's investigation, The Shadow Under Neketaka.",
+      "Descend into the flooded depths beneath the city with Tekēhu.",
+      "Uncover the cause of the disturbance in the waters.",
+      "Resolve the investigation to advance Tekēhu's story and gifts."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
   },
 {
@@ -12971,6 +13664,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Answer a cult's summons to the frozen isle and enter the death-god Rymrgand's domain.",
     aiTip:
       "A darkly imaginative DLC — bring cold resistance and a high-level party.",
+    walkthrough: [
+      "Answer the cult's summons and sail to Harbinger's Watch (DLC).",
+      "Enter the frozen isle and pass into Rymrgand's death-domain.",
+      "Solve the Beyond's trials and confront the death-god's servants.",
+      "Choose how to answer Rymrgand to earn the DLC's rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
   },
 {
@@ -12987,6 +13686,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Compete in the spectral arena of the Faces of War for glory and powerful loot.",
     aiTip:
       "A combat-focused DLC — ideal for testing a min-maxed party build.",
+    walkthrough: [
+      "Enter the Old City arena and register for the Faces of War (DLC).",
+      "Fight through the escalating spectral combat trials.",
+      "Adapt your party to each themed challenge wave.",
+      "Win the final bout for the arena's powerful loot."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
   },
 {
@@ -14375,6 +15080,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the lumbering Wandering Wight, a mound of vengeful earth and bone in Chapter 1.",
     aiTip:
       "Dodge its ground-slams and punish the long recovery; absorb its spirit for a useful skill.",
+    walkthrough: [
+      "Progress Chapter 1 through Black Wind Mountain to the Wight's clearing.",
+      "Bait its slow, telegraphed swings and dodge into the recovery windows.",
+      "Punish with light combos and Focus-charged heavy strikes.",
+      "Use Immobilize when it winds up big attacks to secure the kill."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Wandering%20Wight%20walkthrough"
   },
 {
@@ -14391,6 +15102,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the wolf commander Guangzhi, whose flaming glaive guards the mountain paths.",
     aiTip:
       "His fire combos are relentless — stay mobile and strike between his lunges.",
+    walkthrough: [
+      "Reach Guangzhi guarding the mountain path in Chapter 1.",
+      "Dodge his flaming glaive sweeps and close the gap after each swing.",
+      "Break his poise with staff heavies, then unload combos.",
+      "Watch for the transformation phase and keep dodging through the fire arcs."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangzhi%20%26%20the%20Wolf%20Vanguard%20walkthrough"
   },
 {
@@ -14407,6 +15124,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the serpent-adjacent Elder Jinchi, a hidden Chapter 1 boss tied to the mountain's masters.",
     aiTip:
       "A tougher optional fight — bring focus and the right stance for its quick strikes.",
+    walkthrough: [
+      "Find the hidden Elder Jinchi (Lingxuzi) arena in Chapter 1.",
+      "Stay mobile against his wide area attacks and summoned adds.",
+      "Use Cloud Step to punish from behind during openings.",
+      "Chip him down between his ranged bursts to finish the fight."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Elder%20Jinchi%20(Lingxuzi)%20walkthrough"
   },
 {
@@ -14423,6 +15146,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang haunting Chapter 1's byways.",
     aiTip:
       "Watch for poison; keep healing gourd charges ready for the drawn-out fight.",
+    walkthrough: [
+      "Confront the paired snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang in Chapter 1.",
+      "Focus one target while dodging the other's lunges.",
+      "Exploit their long recovery after the coil attacks.",
+      "Immobilize to isolate and burst each down in turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20walkthrough"
   },
 {
@@ -14439,6 +15168,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clash with the fearsome Tiger Vanguard, a towering blademaster of the sandy ridge.",
     aiTip:
       "One of the game's iconic hard fights — learn his charge and counter with immobilize.",
+    walkthrough: [
+      "Reach the Tiger Vanguard at Yellow Wind Ridge in Chapter 2.",
+      "Roll through his fast blade rushes and stay close to bait shorter swings.",
+      "Punish the end of his combo strings with heavy attacks.",
+      "Use spells like Immobilize on his big overhead to open damage windows."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Tiger%20Vanguard%20walkthrough"
   },
 {
@@ -14455,6 +15190,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the golden dragon Kang-Jin Loong coiling through Chapter 2's ruins.",
     aiTip:
       "Aerial and dashing attacks abound — punish after his dive and keep your distance otherwise.",
+    walkthrough: [
+      "Find the dragon Kang-Jin Loong in the Chapter 2 ruins/waterfall.",
+      "Dodge laterally against his diving and sweeping attacks.",
+      "Hit and reposition as he takes flight between passes.",
+      "Punish each landing to whittle the dragon down."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Kang-Jin%20Loong%20walkthrough"
   },
 {
@@ -14471,6 +15212,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Topple the hulking Stone Vanguard guarding a Chapter 2 path.",
     aiTip:
       "Its armor shrugs off light hits — use heavy stance combos and dodge the shockwaves.",
+    walkthrough: [
+      "Reach the Stone Vanguard blocking a Chapter 2 path.",
+      "Sidestep its heavy, slow ground slams and shockwaves.",
+      "Build Focus and land charged heavies during its long recoveries.",
+      "Immobilize the wind-ups to safely stack damage."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Stone%20Vanguard%20walkthrough"
   },
 {
@@ -14487,6 +15234,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the illusion-weaving Macaque Chief amid the snows of Chapter 3.",
     aiTip:
       "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
+    walkthrough: [
+      "Confront the Macaque Chief in the Chapter 3 snows.",
+      "Watch for his illusion clones and strike the real body.",
+      "Dodge his rapid staff flurries and counter after the last hit.",
+      "Use Focus heavies during his cooldowns to end the illusions."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Macaque%20Chief%20(Non-Void)%20walkthrough"
   },
 {
@@ -14503,6 +15256,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the froglike Captain Wise-Voice in the frozen Chapter 3 wilds.",
     aiTip:
       "Sound-based attacks telegraph slowly — dodge in and punish the wind-up.",
+    walkthrough: [
+      "Reach the froglike Captain Wise-Voice in the frozen Chapter 3 wilds.",
+      "Avoid his tongue-lash and leaping body-slam attacks.",
+      "Punish the landing after each jump with combos.",
+      "Keep healing gourds ready for his poison spit and finish him off."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Captain%20Wise-Voice%20walkthrough"
   },
 {
@@ -14519,6 +15278,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the Yaksha kings woven into Chapter 3's tragic tale of the four sisters.",
     aiTip:
       "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
+    walkthrough: [
+      "Battle the Yaksha kings woven into Chapter 3's tale of the four sisters.",
+      "Learn each Yaksha's attack rhythm and dodge through the elemental bursts.",
+      "Punish between their combo strings with staff heavies.",
+      "Use transformations and spells to break poise and secure the kills."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Yakshas%20of%20the%20Pagoda%20walkthrough"
   },
 {
@@ -14535,6 +15300,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the venomous Violet Spider and her brood in the poisonous Webbed Hollow.",
     aiTip:
       "Poison stacks fast — cleanse often and burst her down during openings.",
+    walkthrough: [
+      "Enter the Webbed Hollow and reach the Violet Spider (Second Sister) in Chapter 4.",
+      "Dodge her venom spits and dashing bites while managing the poison meter.",
+      "Cleanse or heal poison buildup between exchanges.",
+      "Punish her lunge recoveries and finish before the arena floods with spiderlings."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Violet%20Spider%20(Second%20Sister)%20walkthrough"
   },
 {
@@ -14551,6 +15322,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take on the paired insect-demon Duo of Corruption guarding Chapter 4's depths.",
     aiTip:
       "Split your attention carefully — immobilize one while you focus the other.",
+    walkthrough: [
+      "Find the Duo of Corruption guarding the Chapter 4 depths.",
+      "Split your attention — focus one insect-demon while dodging the other.",
+      "Immobilize one to fight them one at a time.",
+      "Burst each down during their shared attack cooldowns."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
   },
 {
@@ -14567,6 +15344,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the mighty Bull King and the swift Cloudtreading Deer amid the volcanic Chapter 5.",
     aiTip:
       "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
+    walkthrough: [
+      "Reach the Bull King and Cloudtreading Deer in the volcanic Chapter 5.",
+      "Dodge the Bull King's charges and the Deer's swift dashes.",
+      "Punish after the charge attacks with Focus-charged heavies.",
+      "Manage the fire hazards and whittle both foes down in phases."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20walkthrough"
   },
 {
@@ -14583,6 +15366,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the elemental sages tied to the Five-Element Carts and the Flaming Mountains' curse.",
     aiTip:
       "Bring fire resistance and rotate stances to break each sage's guard.",
+    walkthrough: [
+      "Confront the elemental Fire Sages tied to the Five-Element Carts.",
+      "Learn each sage's element and dodge the matching hazard.",
+      "Punish between their spell casts with quick combos.",
+      "Break their poise to end the Flaming Mountains' curse encounter."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
   },
 {
@@ -14599,6 +15388,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the colossal Giant Shigandang on the road to Wukong's homeland in Chapter 6.",
     aiTip:
       "A huge stone brute — bait its slams, then unload heavy combos on the openings.",
+    walkthrough: [
+      "Reach the colossal Giant Shigandang on the road to Mount Huaguo in Chapter 6.",
+      "Stay near its feet to bait shorter attacks and dodge the ground slams.",
+      "Punish the recovery after each big swing.",
+      "Use Immobilize on the huge wind-ups to safely deal damage."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Giant%20Shigandang%20walkthrough"
   },
 {
@@ -14615,6 +15410,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Overcome the Supreme Inspector and the last trials guarding the Great Sage's legacy.",
     aiTip:
       "Late-game difficulty — max your spells, gourd, and transformations before the finale.",
+    walkthrough: [
+      "Overcome the Supreme Inspector and the final trials at Mount Huaguo.",
+      "Adapt to each trial's attack patterns, dodging through the combos.",
+      "Use your full spell and transformation kit to break poise.",
+      "Clear the last trial to claim the Great Sage's legacy."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
   },
 {
