@@ -1,3 +1,59 @@
+# Update — Added Sekiro: Shadows Die Twice (67 quests, videos + missing bosses)
+
+**Date:** 2026-07-17
+**Branches:** `staging` → `main` (shipped to prod)
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Added **Sekiro: Shadows Die Twice** as the 22nd game, bringing the catalog to
+**1804 quests**. Sekiro has no traditional side quests, so entries are modelled
+as bosses, mini-bosses, NPC questlines, prosthetic-tool acquisitions, and
+endings — reflected in a per-game **Category** sub-filter.
+
+### Source import + enrichment
+- Imported all **59 entries** from the provided `sekiro_quests.json` and
+  converted them to the site's quest format.
+- Enriched every entry beyond the source doc: authored `location`,
+  `difficulty`, `length`, `reward`, `summary`, and `aiTip` for all of them; kept
+  the source `walkthrough` steps. No blank or placeholder fields.
+- Registered the game in `gameImages` (cover `images/sekiro-shadow-die-twice.jpg`,
+  provided by the user) and added a `subFilterConfig` **Category** filter
+  (Main Story Bosses / Mini-Bosses / NPC Questlines / Prosthetic Tools / Endings).
+- IDs assigned `1790–1856` (verified previous max ID was 1789 first).
+
+### Videos — real walkthroughs added where they exist
+Per the project rule (a `results?search_query=…` URL is **not** a real video),
+searched YouTube and attached **real `watch?v=…` walkthroughs to 39 entries** —
+all 16 main-story bosses, the 4 endings, and every mini-boss with a clear
+dedicated guide. The remaining 28 (NPC questlines, prosthetic acquisitions, and
+a few minor generals) keep their step-by-step `walkthrough` plus a search link,
+matching the rest of the catalog's convention.
+
+### Missing quests found & added (8)
+The source doc was incomplete; added well-known encounters it omitted:
+**True Corrupted Monk** (the real 3-phase Fountainhead fight), **Shichimen
+Warrior**, **Headless**, **Ashina Elite – Jinsuke Saze**, **Ashina Elite –
+Ujinari Mizuo**, **Sakura Bull of the Palace**, **Okami Leader Shizu**, and
+**Lone Shadow Vilehand**.
+
+### QA test (staging)
+Drove the built site in a real headless browser: `quests.js` loads (1804 total,
+67 Sekiro), cover image loads and renders on posters/cards/detail banner, the
+Category sub-filter renders, selecting Sekiro renders quest cards, real-video
+boss detail shows the YouTube link (e.g. Isshin, the Sword Saint →
+`watch?v=3jtopDBIHXY`) with reward + summary, and walkthrough-only quests show
+the numbered step list with the "Video walkthrough not available" notice. No JS
+errors, no 404s on Sekiro assets. `audit.js` clean — no duplicate IDs, no
+missing fields, videos + sub-filter values all valid.
+
+### Source-data notes (titles left as provided)
+- `Seven Ashina Spears – Shume Masaka Nagahiro` — the real boss is **Shume
+  Masaji Oniwa**; video matched to the correct fight.
+- `Six-fingered Lord Kuranosuke` reads like a garble of the general **Kuranosuke
+  Matsumoto**.
+
+---
+
 # Update — Full QA pass + walkthrough backfill for 403 quests (all games now complete)
 
 **Date:** 2026-07-17
