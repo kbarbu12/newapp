@@ -108,6 +108,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0d0f12 0%, #6b7075 50%, #b3111a 100%)",
     abbr: "SKR",
     cover: "images/sekiro-shadow-die-twice.jpg"
+  },
+  "Assassin's Creed Valhalla": {
+    gradient: "linear-gradient(135deg, #0a1420 0%, #1e5a8a 50%, #d4a017 100%)",
+    abbr: "ACV",
+    cover: "images/Assasins-creed-valhalla-cover.jpg"
   }
 };
 
@@ -442,6 +447,34 @@ const subFilterConfig = {
       { value: "NPC Questlines", text: "NPC Questlines" },
       { value: "Prosthetic Tool Acquisition Quests", text: "Prosthetic Tools" },
       { value: "Endings", text: "Endings" }
+    ]
+  },
+  "Assassin's Creed Valhalla": {
+    field: "region",
+    label: "Region",
+    options: [
+      { value: "Norway / Ravensthorpe", text: "Norway / Ravensthorpe" },
+      { value: "Ledecestrescire", text: "Ledecestrescire" },
+      { value: "Grantebridgescire", text: "Grantebridgescire" },
+      { value: "East Anglia", text: "East Anglia" },
+      { value: "Oxenefordscire", text: "Oxenefordscire" },
+      { value: "Lunden", text: "Lunden" },
+      { value: "Sciropescire", text: "Sciropescire" },
+      { value: "Cent", text: "Cent" },
+      { value: "Essexe", text: "Essexe" },
+      { value: "Lincolnscire", text: "Lincolnscire" },
+      { value: "Suthsexe", text: "Suthsexe" },
+      { value: "Vinland", text: "Vinland" },
+      { value: "Jorvik", text: "Jorvik" },
+      { value: "Eurvicscire", text: "Eurvicscire" },
+      { value: "Glowecestrescire", text: "Glowecestrescire" },
+      { value: "Snotinghamscire", text: "Snotinghamscire" },
+      { value: "Wincestre", text: "Wincestre" },
+      { value: "Hordafylke", text: "Hordafylke" },
+      { value: "Hamtunscire", text: "Hamtunscire" },
+      { value: "Asgard", text: "Asgard" },
+      { value: "Jotunheim", text: "Jotunheim" },
+      { value: "England (open world)", text: "England (open world)" }
     ]
   }
 };
@@ -36945,5 +36978,3273 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Keep relentless deflection pressure to break posture for the Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=YH6pOJbyZMI"
+  },
+{
+    id: 1857,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Honor Bound",
+    location: "Fornburg, Norway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, combat XP",
+    summary:
+      "Eivor and Sigurd's homeland arc opens as you defend Fornburg and hunt the men who murdered your parents years ago.",
+    aiTip:
+      "This is the tutorial stretch — experiment with your bow, light/heavy attacks and the parry timing here where enemies are forgiving.",
+    walkthrough: [
+      "Load into Fornburg and follow Sigurd's brother-in-arms through the settlement.",
+      "Fight through the raiders attacking the village, learning light and heavy melee combos.",
+      "Track Kjotve's men to their camp and confront them.",
+      "Complete the confrontation to trigger Eivor's memory of the wolf and the childhood massacre."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Bound%20walkthrough"
+  },
+{
+    id: 1858,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "A Seer's Solace",
+    location: "Valka's Hut, Fornburg",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Valka the seer's blessing, first Animus insight",
+    summary:
+      "Eivor visits Valka the Völva to steady a troubled mind and receive an early vision of fate.",
+    aiTip:
+      "Drink Valka's potion when prompted — this unlocks the dream-vision mechanic you'll revisit for the Asgard/Jotunheim arcs.",
+    walkthrough: [
+      "Travel to Valka's hut on the edge of Fornburg.",
+      "Speak with Valka and accept her offer of counsel.",
+      "Drink the seer's brew to enter the guided vision.",
+      "Follow the dream sequence to its end to return to the waking world."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Seer's%20Solace%20walkthrough"
+  },
+{
+    id: 1859,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Family Matters",
+    location: "Fornburg / Stavanger, Norway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sigurd's return, story progression",
+    summary:
+      "Sigurd returns from years in the East with new companions, Basim and Hytham, reshaping the clan's ambitions.",
+    aiTip:
+      "Pay attention to Basim and Hytham here — the Hidden Ones thread they introduce pays off across the whole campaign.",
+    walkthrough: [
+      "Sail or ride to meet Sigurd's returning ship.",
+      "Greet Sigurd and meet Basim and Hytham, the Hidden Ones.",
+      "Return to the longhouse for the feast and clan discussion.",
+      "Follow the conversation about Kjotve and the clan's future to close the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Family%20Matters%20walkthrough"
+  },
+{
+    id: 1860,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Prodigal Prince",
+    location: "Fornburg longhouse",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance intel, story progression",
+    summary:
+      "Word arrives of King Harald's push to unite Norway; the clan weighs war against Kjotve the Cruel.",
+    aiTip:
+      "Loot the longhouse and nearby chests before leaving — supplies are scarce this early and you'll want the upgrades.",
+    walkthrough: [
+      "Attend the council in the Fornburg longhouse.",
+      "Listen to the debate over King Harald and Kjotve the Cruel.",
+      "Agree to move against Kjotve to avenge the clan.",
+      "Prepare your gear and speak to Sigurd to advance the plan."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Prodigal%20Prince%20walkthrough"
+  },
+{
+    id: 1861,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Rude Awakening",
+    location: "Kjotve's outpost, Norway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Combat XP, intel on Kjotve",
+    summary:
+      "A raid to capture one of Kjotve's lieutenants for information on the warlord's fortress.",
+    aiTip:
+      "Use the environment — braziers and oil jars — to thin grouped enemies before committing to melee.",
+    walkthrough: [
+      "Ride to the Kjotve outpost marked on your map.",
+      "Assault the camp, using stealth on the outer sentries where possible.",
+      "Defeat the lieutenant and interrogate him for Kjotve's location.",
+      "Report the intel back to Sigurd to plan the assault."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rude%20Awakening%20walkthrough"
+  },
+{
+    id: 1862,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "A Cruel Destiny",
+    location: "Kjotve's Fortress, Norway",
+    length: "long",
+    difficulty: "High",
+    reward: "Kjotve defeated, major story beat",
+    summary:
+      "The clan storms Kjotve the Cruel's fortress in a full-scale assault culminating in a duel atop the cliffs.",
+    aiTip:
+      "The final duel is a rhythm fight — bait Kjotve's heavy swing, dodge, and punish; keep rations ready for his second phase.",
+    walkthrough: [
+      "Rally with Sigurd's forces outside Kjotve's fortress.",
+      "Push through the fortress with your warband, breaking the gate defenses.",
+      "Climb to the summit and confront Kjotve the Cruel.",
+      "Win the multi-phase duel against Kjotve.",
+      "Watch the aftermath as the clan's future in Norway is decided."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Cruel%20Destiny%20walkthrough"
+  },
+{
+    id: 1863,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Birthrights",
+    location: "Fornburg",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, clan decision",
+    summary:
+      "In the wake of Kjotve's fall, Eivor and Sigurd clash over how to answer King Harald's demand for submission.",
+    aiTip:
+      "This is a dialogue-heavy beat — your choices here are flavor, not branching, so play Eivor as you want them characterized.",
+    walkthrough: [
+      "Return to Fornburg after the assault.",
+      "Attend the gathering where Harald's terms are discussed.",
+      "Speak with Sigurd about pledging to Harald or seeking a new path.",
+      "Resolve the clan debate to set course for England."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Birthrights%20walkthrough"
+  },
+{
+    id: 1864,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Seas of Fate",
+    location: "King Harald's hall, Norway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Harald's feast, story progression",
+    summary:
+      "Eivor and Sigurd attend King Harald's court, where politics and a fateful decision push the clan toward England.",
+    aiTip:
+      "Explore Harald's hall for chests and a wealth or two before the feast triggers the next cutscene.",
+    walkthrough: [
+      "Travel to King Harald's hall for the royal feast.",
+      "Take part in the court intrigue and the flyting or drinking if offered.",
+      "Witness Sigurd's decision to reject subservience.",
+      "Agree to leave Norway and seek fortune in England."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Seas%20of%20Fate%20walkthrough"
+  },
+{
+    id: 1865,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Swan-Road Home",
+    location: "Fornburg harbor",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Longship prepared, story progression",
+    summary:
+      "The clan prepares the longships and says farewell to Norway before the voyage to England.",
+    aiTip:
+      "Grab every remaining resource in Fornburg now — you won't return here freely for the rest of the campaign.",
+    walkthrough: [
+      "Speak with the clan members preparing to leave.",
+      "Help load the longships at the Fornburg harbor.",
+      "Board the ship with Sigurd and the crew.",
+      "Set sail across the sea toward England."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Swan-Road%20Home%20walkthrough"
+  },
+{
+    id: 1866,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Unwelcome",
+    location: "Coast of England",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Landfall in England, story progression",
+    summary:
+      "The clan makes landfall in England and immediately runs into hostile locals and rival Norse.",
+    aiTip:
+      "Your gear is still low-tier here; favor stealth-clearing camps over head-on fights until you find better weapons.",
+    walkthrough: [
+      "Arrive on the English coast with the clan.",
+      "Defend the landing party from an ambush.",
+      "Scout the immediate area for a settlement site.",
+      "Push inland to secure the ground for Ravensthorpe."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unwelcome%20walkthrough"
+  },
+{
+    id: 1867,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Settling Down",
+    location: "Ravensthorpe",
+    length: "medium",
+    difficulty: "Easy",
+    reward: "Ravensthorpe founded, settlement hub unlocked",
+    summary:
+      "Eivor establishes Ravensthorpe, the clan's new home and the game's upgradeable settlement hub.",
+    aiTip:
+      "Talk to every NPC and open the settlement menu — Ravensthorpe's buildings gate major features, so plan your first upgrades early.",
+    walkthrough: [
+      "Arrive at the future site of Ravensthorpe.",
+      "Speak with Gunnar, Randvi, and the other settlers.",
+      "Establish the settlement and place the first buildings.",
+      "Explore your new hub and its upgrade options."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Settling%20Down%20walkthrough"
+  },
+{
+    id: 1868,
+    type: "main",
+    category: "Battle for the Northern Way",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Alliance Map",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Alliance Map unlocked, region pledges enabled",
+    summary:
+      "Randvi introduces the Alliance Map, the campaign's spine for pledging support to England's territories.",
+    aiTip:
+      "Pledge to regions near your Power level — the suggested range is a real difficulty gate, so don't jump into high-power sagas underleveled.",
+    walkthrough: [
+      "Meet Randvi at the map table in the Ravensthorpe longhouse.",
+      "Learn how the Alliance Map tracks pledges across England.",
+      "Review the suggested Power levels for each territory.",
+      "Pledge to your first region (Ledecestrescire is the recommended start) to begin England's sagas."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Alliance%20Map%20walkthrough"
+  },
+{
+    id: 1869,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Sons of Ragnar",
+    location: "Ledecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Ivarr and Ubba, story progression",
+    summary:
+      "Eivor rides to free the Sons of Ragnar — Ivarr and Ubba — and win their Great Heathen Army to the clan's cause.",
+    aiTip:
+      "Ivarr is a loose cannon; note how the game frames him now, as his volatility drives several later regional arcs.",
+    walkthrough: [
+      "Pledge to Ledecestrescire and ride to meet the Raven Clan's contacts.",
+      "Locate Ivarr Ragnarsson and rescue him from his predicament.",
+      "Fight alongside Ivarr to reach Ubba Ragnarsson.",
+      "Secure the Sons of Ragnar's alliance against King Burgred of Mercia."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Sons%20of%20Ragnar%20walkthrough"
+  },
+{
+    id: 1870,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Bartering",
+    location: "Ledecestrescire",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Supplies, story progression",
+    summary:
+      "Eivor helps the brothers gather what they need before the campaign against Ledecestre can begin.",
+    aiTip:
+      "Use Odin's Sight to tag the objective items quickly rather than searching camps blind.",
+    walkthrough: [
+      "Speak with Ubba and Ivarr about their needs.",
+      "Travel to the marked location to barter or seize the required supplies.",
+      "Deal with any guards or complications on site.",
+      "Return the goods to the brothers to advance the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bartering%20walkthrough"
+  },
+{
+    id: 1871,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Rumors of Ledecestre",
+    location: "Ledecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Intel on Ledecestre's defenses",
+    summary:
+      "Scouting the city of Ledecestre and its Saxon garrison ahead of the assault.",
+    aiTip:
+      "Synchronize the region's high points first — the viewpoints reveal the wealth and mystery icons you'll want after the siege.",
+    walkthrough: [
+      "Meet with the brothers to plan the attack on Ledecestre.",
+      "Scout the city walls and note the garrison strength.",
+      "Gather rumors and intel from the surrounding area.",
+      "Report your findings to set up the assault."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rumors%20of%20Ledecestre%20walkthrough"
+  },
+{
+    id: 1872,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Walls of Templebrough",
+    location: "Templebrough, Ledecestrescire",
+    length: "long",
+    difficulty: "High",
+    reward: "Fort captured, story progression",
+    summary:
+      "A siege on the Roman fort of Templebrough to break the enemy's hold before marching on Ledecestre.",
+    aiTip:
+      "Bring a two-handed weapon or heavy bow for the fort's tougher defenders, and destroy the barred-door supplies to open flanking routes.",
+    walkthrough: [
+      "Assemble with Ivarr and the war party outside Templebrough.",
+      "Breach the fort gates using the battering ram.",
+      "Fight through the Roman ruins, clearing archers on the walls.",
+      "Defeat the fort commander to claim Templebrough."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Walls%20of%20Templebrough%20walkthrough"
+  },
+{
+    id: 1873,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Tilting the Balance",
+    location: "Ledecestre",
+    length: "long",
+    difficulty: "High",
+    reward: "City of Ledecestre taken, story progression",
+    summary:
+      "The full assault on Ledecestre, storming the city to topple its bishop-backed garrison.",
+    aiTip:
+      "Stay near your allied warband during the street fighting — regrouping revives downed morale and makes the wall-clears far safer.",
+    walkthrough: [
+      "Lead the assault on the city of Ledecestre with the Sons of Ragnar.",
+      "Break through the outer defenses and press into the streets.",
+      "Clear the fortified buildings and towers of Saxon soldiers.",
+      "Seize the city and confront its leadership."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Tilting%20the%20Balance%20walkthrough"
+  },
+{
+    id: 1874,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Heavy Is the Head",
+    location: "Ledecestre",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ceolwulf installed, story progression",
+    summary:
+      "With Ledecestre fallen, the victors argue over who should rule Mercia — and Ivarr's ruthlessness shows.",
+    aiTip:
+      "This is a decision beat with a mystery-flavored choice; either option resolves the saga, so pick the tone that fits your Eivor.",
+    walkthrough: [
+      "Return to the captured city after the battle.",
+      "Take part in the debate over Mercia's throne.",
+      "Support the installation of a client king (Ceolwulf).",
+      "Resolve the political fallout to end the main fighting."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Heavy%20Is%20the%20Head%20walkthrough"
+  },
+{
+    id: 1875,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Hunted",
+    location: "Ledecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, alliance secured",
+    summary:
+      "A tense pursuit as loose ends from the Ledecestre campaign are hunted down.",
+    aiTip:
+      "Keep your bow ready for fleeing targets; a Predator or Hunter bow makes the chase segments trivial.",
+    walkthrough: [
+      "Follow the trail of the fleeing enemy.",
+      "Track your quarry across Ledecestrescire using Odin's Sight.",
+      "Corner and confront the target.",
+      "Finish the pursuit to secure the region's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunted%20walkthrough"
+  },
+{
+    id: 1876,
+    type: "main",
+    category: "The Kingmaker's Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Reporting on Ledecestrescire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor returns to Randvi to report the Ledecestrescire alliance and log the region as pledged.",
+    aiTip:
+      "Reporting quests advance Ravensthorpe's story and often free up new settlement upgrades — always follow up on them promptly.",
+    walkthrough: [
+      "Return to Ravensthorpe after completing the region's saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the outcome of the Ledecestrescire campaign.",
+      "Place the alliance bloom on the map and choose your next pledge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Ledecestrescire%20walkthrough"
+  },
+{
+    id: 1877,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Great Scattered Army",
+    location: "Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Soma begun, story progression",
+    summary:
+      "Eivor seeks out the shieldmaiden Soma, whose camp has been infiltrated by a traitor working with the Great Scattered Army.",
+    aiTip:
+      "Note the three suspects introduced here — the traitor's identity is the payoff of this whole saga, so weigh the clues you gather.",
+    walkthrough: [
+      "Pledge to Grantebridgescire and ride to Soma's camp.",
+      "Meet Soma and learn the Great Scattered Army has taken her fort.",
+      "Agree to help root out the traitor in her ranks.",
+      "Begin investigating the leads she provides."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Great%20Scattered%20Army%20walkthrough"
+  },
+{
+    id: 1878,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Orphans of the Fens",
+    location: "Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Intel, story progression",
+    summary:
+      "Eivor pursues one of the traitor leads through the fenlands and enemy outposts.",
+    aiTip:
+      "The fens are full of hidden marsh routes — use your boat and swimming to flank camps the road-bound enemies don't expect.",
+    walkthrough: [
+      "Follow Soma's lead into the fens.",
+      "Clear the enemy outpost holding information.",
+      "Gather the clue pointing toward the traitor.",
+      "Return the intel to Soma's people."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Orphans%20of%20the%20Fens%20walkthrough"
+  },
+{
+    id: 1879,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Glory Regained",
+    location: "Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Intel, story progression",
+    summary:
+      "Chasing another suspect, Eivor helps recover something stolen from Soma's cause.",
+    aiTip:
+      "Interrogate the yellow-marked leader in each camp rather than killing everyone — it fast-tracks the objective.",
+    walkthrough: [
+      "Track the next lead across Grantebridgescire.",
+      "Assault the camp holding the target.",
+      "Interrogate the leader for information.",
+      "Report back with what you learn about the traitor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Glory%20Regained%20walkthrough"
+  },
+{
+    id: 1880,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Razing Earnningstone",
+    location: "Earnningstone, Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Supplies burned, story progression",
+    summary:
+      "A raid to burn the enemy's supply stores at Earnningstone and weaken the Great Scattered Army.",
+    aiTip:
+      "Torch the red supply markers fast — the objective completes on stores destroyed, so you don't need to clear every soldier.",
+    walkthrough: [
+      "Ride to Earnningstone with Soma's warriors.",
+      "Fight into the settlement and locate the supply stores.",
+      "Set fire to the marked supplies.",
+      "Escape or clear the remaining defenders to finish the raid."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Razing%20Earnningstone%20walkthrough"
+  },
+{
+    id: 1881,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Unholy Father",
+    location: "Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Suspect eliminated, story progression",
+    summary:
+      "Eivor confronts a corrupt figure tied to the traitor's network in Soma's ranks.",
+    aiTip:
+      "Loot the confronted target's quarters for a gear piece before moving on.",
+    walkthrough: [
+      "Follow the lead to the corrupt figure's location.",
+      "Infiltrate or assault the site.",
+      "Confront and deal with the target.",
+      "Take the evidence back toward Soma."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unholy%20Father%20walkthrough"
+  },
+{
+    id: 1882,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Storming Ravensburg",
+    location: "Ravensburg, Grantebridgescire",
+    length: "long",
+    difficulty: "High",
+    reward: "Fort retaken, story progression",
+    summary:
+      "A full assault to retake Soma's fortress from the Great Scattered Army occupiers.",
+    aiTip:
+      "Break the barred gate with a ram or find the side entrance up the cliff; clear wall archers first to protect your warband.",
+    walkthrough: [
+      "Gather Soma's forces outside Ravensburg fort.",
+      "Breach the fortress defenses.",
+      "Clear the courtyard and inner keep of enemy soldiers.",
+      "Retake the fort for Soma."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20Ravensburg%20walkthrough"
+  },
+{
+    id: 1883,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Stench of Treachery",
+    location: "Ravensburg, Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Traitor identified, story choice",
+    summary:
+      "With the fort retaken, Eivor gathers the suspects and must name the traitor in Soma's ranks.",
+    aiTip:
+      "Review your collected clues in the quest log before accusing — you can name Galinn, Lif, or Birna, and the game rewards the correct read.",
+    walkthrough: [
+      "Return to the retaken fort with your evidence.",
+      "Review the clues gathered across the saga.",
+      "Confront the assembled suspects.",
+      "Name the traitor and deal with the betrayal."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stench%20of%20Treachery%20walkthrough"
+  },
+{
+    id: 1884,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "An Island of Eels",
+    location: "Grantebridgescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Saga concluded, story progression",
+    summary:
+      "The fallout of the traitor's exposure plays out as Soma secures Grantebridgescire.",
+    aiTip:
+      "Explore the island for a hidden chest and a book of knowledge ability before you leave.",
+    walkthrough: [
+      "Follow the aftermath of the traitor's reveal.",
+      "Pursue any remaining enemy across the eel-filled fens.",
+      "Secure the region alongside Soma.",
+      "Conclude the confrontation to end the saga."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Island%20of%20Eels%20walkthrough"
+  },
+{
+    id: 1885,
+    type: "main",
+    category: "The Song of Soma",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Reporting on Grantebridgescire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports Soma's alliance to Randvi and logs Grantebridgescire as pledged.",
+    aiTip:
+      "Check Ravensthorpe for new dialogue after reporting — allies you win often relocate to the settlement.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Grantebridgescire outcome.",
+      "Place the alliance bloom and pick your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Grantebridgescire%20walkthrough"
+  },
+{
+    id: 1886,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Kingmaker",
+    location: "East Anglia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Oswald begun, story progression",
+    summary:
+      "Eivor and Finnr back the young would-be king Oswald against the tyrant Rued in East Anglia.",
+    aiTip:
+      "Oswald's honor-bound personality shapes this whole saga — his duel with Rued is the climax you're building toward.",
+    walkthrough: [
+      "Pledge to East Anglia and meet Finnr and Oswald.",
+      "Learn of Rued's tyranny over the region.",
+      "Agree to help Oswald claim his birthright.",
+      "Begin the campaign to weaken Rued's grip."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingmaker%20walkthrough"
+  },
+{
+    id: 1887,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "The Measure of a Norseman",
+    location: "East Anglia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Oswald's respect, story progression",
+    summary:
+      "Eivor helps prove Oswald worthy through a series of trials and skirmishes against Rued's men.",
+    aiTip:
+      "Fight defensively to protect Oswald in escort segments — he can be downed, forcing a checkpoint restart.",
+    walkthrough: [
+      "Set out with Oswald to build his reputation.",
+      "Clear Rued's patrols and outposts.",
+      "Support Oswald through his trials.",
+      "Prove the alliance's strength to the locals."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Measure%20of%20a%20Norseman%20walkthrough"
+  },
+{
+    id: 1888,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "A Triumphant Return",
+    location: "East Anglia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, ally recruited",
+    summary:
+      "A show of force to rally East Anglia's people behind Oswald's claim.",
+    aiTip:
+      "Raid the nearby monastery for supplies here to fund Ravensthorpe upgrades.",
+    walkthrough: [
+      "Ride with Oswald to reclaim lost ground.",
+      "Defeat Rued's occupying force.",
+      "Rally the freed locals to Oswald's banner.",
+      "Return in triumph to strengthen the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Triumphant%20Return%20walkthrough"
+  },
+{
+    id: 1889,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Raising Iron",
+    location: "East Anglia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Supplies, story progression",
+    summary:
+      "Eivor gathers arms and support to prepare for the reckoning with Rued.",
+    aiTip:
+      "Stock up on arrows and rations before the wedding-day events, as combat follows quickly after.",
+    walkthrough: [
+      "Speak with Oswald and Finnr about arming for the fight.",
+      "Raid the marked sites for weapons and supplies.",
+      "Deliver the iron and arms to Oswald's camp.",
+      "Prepare for the confrontation with Rued."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Raising%20Iron%20walkthrough"
+  },
+{
+    id: 1890,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "A Fury from the Sea",
+    location: "East Anglia coast",
+    length: "long",
+    difficulty: "High",
+    reward: "Rued's forces broken, story progression",
+    summary:
+      "Rued launches a seaborne assault; Eivor must repel the raid and drive him back.",
+    aiTip:
+      "Use environmental oil pots and your warband on the beach to break the wave of raiders before they reach the settlement.",
+    walkthrough: [
+      "Respond to Rued's surprise attack from the sea.",
+      "Defend the shore against the incoming raiders.",
+      "Push back the assault with Oswald's forces.",
+      "Break Rued's momentum to set up the final reckoning."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Fury%20from%20the%20Sea%20walkthrough"
+  },
+{
+    id: 1891,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Wedding Horns",
+    location: "East Anglia",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rued defeated (duel), alliance secured",
+    summary:
+      "Oswald's wedding becomes the stage for a duel to the death with Rued, deciding East Anglia's fate.",
+    aiTip:
+      "You can fight Rued yourself or let Oswald duel him — protect Oswald if he fights, and expect a tough single-target boss either way.",
+    walkthrough: [
+      "Attend Oswald's wedding celebration.",
+      "React when Rued arrives to challenge for the crown.",
+      "Fight or oversee the duel against Rued.",
+      "Defeat Rued to secure Oswald's rule and the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Wedding%20Horns%20walkthrough"
+  },
+{
+    id: 1892,
+    type: "main",
+    category: "The Tale of Thegn Oswald",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Reporting on East Anglia",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports Oswald's marriage and alliance to Randvi.",
+    aiTip:
+      "Return to Ravensthorpe periodically — married allies and their gifts appear in the settlement after these reports.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the East Anglia outcome.",
+      "Place the alliance bloom and choose your next pledge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20East%20Anglia%20walkthrough"
+  },
+{
+    id: 1893,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Brewing Rebellion",
+    location: "Oxenefordscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Geadric begun, story progression",
+    summary:
+      "Eivor aids the rebel Geadric and his family against a fanatical Frankish paladin occupying Oxenefordscire.",
+    aiTip:
+      "The paladin Fulke is the Order-linked antagonist of this saga — watch for the zealotry theme that ties into Sigurd's fate later.",
+    walkthrough: [
+      "Pledge to Oxenefordscire and meet Geadric.",
+      "Learn of the paladin's oppression of the region.",
+      "Agree to help spark a rebellion.",
+      "Begin striking at the paladin's holdings."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Brewing%20Rebellion%20walkthrough"
+  },
+{
+    id: 1894,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Pilgrimage to St. Albanes",
+    location: "St. Albanes, Oxenefordscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, intel",
+    summary:
+      "Eivor infiltrates a pilgrimage site to gather intelligence on the paladin's movements.",
+    aiTip:
+      "Blend with monk crowds and use social stealth to reach restricted areas without triggering the garrison.",
+    walkthrough: [
+      "Travel to St. Albanes Abbey.",
+      "Blend in among the pilgrims to move unseen.",
+      "Locate and gather the needed intelligence.",
+      "Escape and report back to the rebels."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Pilgrimage%20to%20St.%20Albanes%20walkthrough"
+  },
+{
+    id: 1895,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Blood from a Stone",
+    location: "Oxenefordscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, ally aided",
+    summary:
+      "Eivor helps the rebellion strike a blow that forces the paladin's hand.",
+    aiTip:
+      "Loot the ability book or gear stashed in the objective ruin before you leave the area.",
+    walkthrough: [
+      "Follow the rebels' plan to provoke the paladin.",
+      "Assault the marked stronghold or convoy.",
+      "Secure the objective under pressure.",
+      "Regroup with Geadric's people."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Blood%20from%20a%20Stone%20walkthrough"
+  },
+{
+    id: 1896,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Chipping Away",
+    location: "Oxenefordscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, forces weakened",
+    summary:
+      "A campaign of raids to chip away at the paladin's garrisons across the shire.",
+    aiTip:
+      "Prioritize burning supply stores and freeing captives — each weakens the final siege's defenders.",
+    walkthrough: [
+      "Meet with the rebellion to plan the raids.",
+      "Hit the paladin's outposts one by one.",
+      "Weaken the enemy's hold on the region.",
+      "Report the progress to Geadric."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Chipping%20Away%20walkthrough"
+  },
+{
+    id: 1897,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Fiery Ambush",
+    location: "Oxenefordscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, escape sequence",
+    summary:
+      "An ambush by the paladin's forces turns into a desperate fighting retreat.",
+    aiTip:
+      "Keep moving and use ranged takedowns during the escape; standing still lets the fire and archers overwhelm you.",
+    walkthrough: [
+      "Walk into the paladin's trap with the rebels.",
+      "Fight through the burning ambush.",
+      "Protect your allies as you break out.",
+      "Escape the encirclement to regroup."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Fiery%20Ambush%20walkthrough"
+  },
+{
+    id: 1898,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Ringing Cyne Belle",
+    location: "Cyne Belle Castle, Oxenefordscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Castle taken, story progression",
+    summary:
+      "A siege on Cyne Belle Castle, one of the region's toughest fortifications.",
+    aiTip:
+      "Bring your highest-power gear and stock rations — the castle's defenders and elite guards make this a genuine difficulty spike.",
+    walkthrough: [
+      "Assemble the rebel force outside Cyne Belle Castle.",
+      "Breach the heavy gate with a ram.",
+      "Fight up through the castle's tiers, clearing archers.",
+      "Defeat the garrison commander to take the castle."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ringing%20Cyne%20Belle%20walkthrough"
+  },
+{
+    id: 1899,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "The Saga Stone",
+    location: "Oxenefordscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Paladin arc concluded, story progression",
+    summary:
+      "The confrontation that resolves the paladin's threat and secures the Oxenefordscire alliance.",
+    aiTip:
+      "Expect a tough duel; bait heavy attacks, dodge, and punish, keeping your adrenaline for a special ability finisher.",
+    walkthrough: [
+      "Confront the paladin at the saga's climax.",
+      "Win the final fight of the Oxenefordscire arc.",
+      "Resolve the fate of Geadric's rebellion.",
+      "Secure the region's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Saga%20Stone%20walkthrough"
+  },
+{
+    id: 1900,
+    type: "main",
+    category: "The Paladin's Stone",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Reporting on Oxenefordscire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Oxenefordscire rebellion's outcome to Randvi.",
+    aiTip:
+      "These reports often nudge the overarching Order of the Ancients thread — read the dialogue for hints on hidden targets.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Oxenefordscire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Oxenefordscire%20walkthrough"
+  },
+{
+    id: 1901,
+    type: "main",
+    category: "The City of War",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Walls and Shadows",
+    location: "Lunden",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Erke begun, story progression",
+    summary:
+      "In Roman-ruined Lunden, Eivor allies with the governor Erke Bloodaxe to counter a Saxon power play.",
+    aiTip:
+      "Lunden is a dense urban map — synchronize its viewpoints early to reveal the many chests and treasures among the ruins.",
+    walkthrough: [
+      "Pledge to Lunden and meet Governor Erke.",
+      "Learn of the Saxon threat and internal treachery in the city.",
+      "Agree to help secure Lunden.",
+      "Begin operating in the city's ruins and streets."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Walls%20and%20Shadows%20walkthrough"
+  },
+{
+    id: 1902,
+    type: "main",
+    category: "The City of War",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Firing the Arrow",
+    location: "Lunden",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, target eliminated",
+    summary:
+      "Eivor carries out a strike to disrupt the enemy's control of a Lunden district.",
+    aiTip:
+      "Use rooftops and the ruined arches for aerial assassinations — Lunden rewards vertical stealth.",
+    walkthrough: [
+      "Scout the target district in Lunden.",
+      "Move through the ruins to reach the objective.",
+      "Eliminate the target or seize the position.",
+      "Withdraw and report to Erke."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Firing%20the%20Arrow%20walkthrough"
+  },
+{
+    id: 1903,
+    type: "main",
+    category: "The City of War",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Bleeding The Leech",
+    location: "Lunden",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, conspirator removed",
+    summary:
+      "Eivor roots out a corrupt figure bleeding Lunden dry.",
+    aiTip:
+      "Interrogate before killing where a yellow marker appears — it can reveal the next objective location for free.",
+    walkthrough: [
+      "Investigate the corruption in Lunden.",
+      "Track the 'leech' to their hideout.",
+      "Confront and remove the target.",
+      "Recover any evidence and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bleeding%20The%20Leech%20walkthrough"
+  },
+{
+    id: 1904,
+    type: "main",
+    category: "The City of War",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Smashing the Compass",
+    location: "Lunden",
+    length: "medium",
+    difficulty: "High",
+    reward: "Lunden secured, story progression",
+    summary:
+      "The climactic operation to break the enemy's grip on Lunden for good.",
+    aiTip:
+      "Expect a heavier fight at the finale; clear supporting enemies before engaging the main target to avoid being swarmed.",
+    walkthrough: [
+      "Launch the final operation in Lunden.",
+      "Fight through the enemy stronghold.",
+      "Confront and defeat the ringleader.",
+      "Secure the city and Erke's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Smashing%20the%20Compass%20walkthrough"
+  },
+{
+    id: 1905,
+    type: "main",
+    category: "The City of War",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Reporting on Lunden",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports Lunden's alliance to Randvi.",
+    aiTip:
+      "Lunden's alliance opens trade dialogue back home — check the settlement shop for restocked gear.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Lunden outcome.",
+      "Place the alliance bloom and pick your next pledge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lunden%20walkthrough"
+  },
+{
+    id: 1906,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "War Weary",
+    location: "Sciropescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reunion with Ivarr and Ceolbert, story progression",
+    summary:
+      "Eivor rejoins Ivarr and the young Ceolbert in war-torn Sciropescire, chasing King Ceolwulf's forces.",
+    aiTip:
+      "Ivarr's recklessness escalates through this saga — his fate here is one of the campaign's darker turns, so brace for it.",
+    walkthrough: [
+      "Pledge to Sciropescire and reunite with Ivarr and Ceolbert.",
+      "Learn the political situation with King Ceolwulf.",
+      "Agree to press the campaign in the region.",
+      "Set out with Ivarr on the war path."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20Weary%20walkthrough"
+  },
+{
+    id: 1907,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "The Supply Line",
+    location: "Sciropescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Supplies seized, story progression",
+    summary:
+      "Eivor and Ivarr hit the enemy's supply lines to starve their war effort.",
+    aiTip:
+      "Raid the river convoys with your longship crew — it's faster than clearing the land routes on foot.",
+    walkthrough: [
+      "Locate the enemy supply line with Ivarr.",
+      "Ambush and seize the supplies.",
+      "Deal with the escorting guards.",
+      "Report the successful raid."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Supply%20Line%20walkthrough"
+  },
+{
+    id: 1908,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Ransacking Wenlocan",
+    location: "Wenlocan, Sciropescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Monastery raided, story progression",
+    summary:
+      "A raid on Wenlocan monastery for wealth and to provoke the enemy.",
+    aiTip:
+      "Bring a crew for the raid so allies can help carry supplies from the barred chests you break open.",
+    walkthrough: [
+      "Sail or ride to Wenlocan monastery.",
+      "Raid the monastery for its riches.",
+      "Break into the locked supply rooms.",
+      "Escape with the loot before reinforcements arrive."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ransacking%20Wenlocan%20walkthrough"
+  },
+{
+    id: 1909,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Bloody Path to Peace",
+    location: "Sciropescire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, betrayal revealed",
+    summary:
+      "Ivarr's brutality boils over as the campaign turns toward a violent breaking point.",
+    aiTip:
+      "This is a pivotal, emotionally heavy beat — engage carefully and expect a shift in your alliances afterward.",
+    walkthrough: [
+      "Follow Ivarr deeper into the campaign.",
+      "Witness the escalating brutality against captives.",
+      "Confront the consequences of Ivarr's actions.",
+      "Push toward the confrontation with King Ceolwulf's line."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bloody%20Path%20to%20Peace%20walkthrough"
+  },
+{
+    id: 1910,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "King Killer",
+    location: "Sciropescire",
+    length: "long",
+    difficulty: "High",
+    reward: "Ivarr duel, saga concluded",
+    summary:
+      "The saga climaxes in a fateful duel that decides Ivarr's fate and Sciropescire's alliance.",
+    aiTip:
+      "The final duel is one of the game's hardest one-on-ones — learn the parry windows, keep rations, and use special abilities to break posture.",
+    walkthrough: [
+      "Reach the climactic confrontation of the saga.",
+      "Fight the multi-phase duel against your opponent.",
+      "Endure both stages of the fight.",
+      "Resolve Ivarr's story and secure the region's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20King%20Killer%20walkthrough"
+  },
+{
+    id: 1911,
+    type: "main",
+    category: "The Book of Dragons",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Reporting on Sciropescire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the grim outcome of Sciropescire to Randvi.",
+    aiTip:
+      "Ivarr's absence changes some settlement dialogue — talk to the clan back home for the aftermath.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Sciropescire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Sciropescire%20walkthrough"
+  },
+{
+    id: 1912,
+    type: "main",
+    category: "The Instrument of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "The Abbot's Gambit",
+    location: "Cent",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance thread begun, story progression",
+    summary:
+      "In Cent, Eivor investigates an abbot entangled with the Order of the Ancients' schemes.",
+    aiTip:
+      "This saga leans into the Order mystery — collect any letters or clues, as they can name hidden Order members elsewhere.",
+    walkthrough: [
+      "Pledge to Cent and begin the investigation.",
+      "Meet the local contacts and learn of the abbot's dealings.",
+      "Agree to uncover the conspiracy.",
+      "Follow the first lead into the region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Abbot's%20Gambit%20walkthrough"
+  },
+{
+    id: 1913,
+    type: "main",
+    category: "The Instrument of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Puppets and Prisoners",
+    location: "Cent",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prisoners freed, intel",
+    summary:
+      "Eivor frees prisoners being used as pawns and gathers evidence of the plot.",
+    aiTip:
+      "Free every captive marked — some become informants and reveal the next objective.",
+    walkthrough: [
+      "Track the puppet-master's holdings in Cent.",
+      "Infiltrate the site holding the prisoners.",
+      "Free the captives and gather evidence.",
+      "Escort or report the freed prisoners."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Puppets%20and%20Prisoners%20walkthrough"
+  },
+{
+    id: 1914,
+    type: "main",
+    category: "The Instrument of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "The Man Behind the Man",
+    location: "Cent",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Conspirator identified, story progression",
+    summary:
+      "Eivor peels back the layers of the conspiracy to find who truly pulls the strings in Cent.",
+    aiTip:
+      "Assassinate the mid-tier target quietly to preserve surprise for the real mastermind at the saga's end.",
+    walkthrough: [
+      "Follow the trail up the conspiracy's chain.",
+      "Confront the intermediary figure.",
+      "Extract the identity of the true mastermind.",
+      "Prepare to strike the final target."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Man%20Behind%20the%20Man%20walkthrough"
+  },
+{
+    id: 1915,
+    type: "main",
+    category: "The Instrument of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "A Bloody Welcome",
+    location: "Cent",
+    length: "medium",
+    difficulty: "High",
+    reward: "Saga concluded, story progression",
+    summary:
+      "The confrontation that exposes and ends the Order-linked plot in Cent.",
+    aiTip:
+      "Expect an ambush at the climax — clear the escorts first, then focus the leader while dodging their special strikes.",
+    walkthrough: [
+      "Reach the mastermind behind the Cent conspiracy.",
+      "Fight through the final defenders.",
+      "Confront and defeat the leader.",
+      "Secure Cent's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Bloody%20Welcome%20walkthrough"
+  },
+{
+    id: 1916,
+    type: "main",
+    category: "The Instrument of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Reporting on Cent",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Cent conspiracy's resolution to Randvi.",
+    aiTip:
+      "Cross-reference any Order clues found here with your Order of the Ancients menu for bonus targets.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Cent outcome.",
+      "Place the alliance bloom and choose your next pledge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Cent%20walkthrough"
+  },
+{
+    id: 1917,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "An Uncommon Proposition",
+    location: "Essexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Estrid/Birstan begun, story progression",
+    summary:
+      "In Essexe, Eivor is drawn into a tangled tale of love, faith, and rebellion around Estrid and Birstan.",
+    aiTip:
+      "This saga is more character drama than combat — savor the dialogue, as its emotional turns are among the game's best-written.",
+    walkthrough: [
+      "Pledge to Essexe and meet the local players.",
+      "Learn of the entangled romance and political stakes.",
+      "Agree to help navigate the situation.",
+      "Follow the first thread of the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Uncommon%20Proposition%20walkthrough"
+  },
+{
+    id: 1918,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Old Wounds",
+    location: "Essexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, past revealed",
+    summary:
+      "Eivor uncovers old grievances that complicate the Essexe alliance.",
+    aiTip:
+      "Explore the ruins and homesteads here for wealth while the story ferries you between locations.",
+    walkthrough: [
+      "Investigate the roots of the conflict in Essexe.",
+      "Speak with those carrying old grudges.",
+      "Uncover the buried history.",
+      "Report your findings to move the story forward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Wounds%20walkthrough"
+  },
+{
+    id: 1919,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Childhood Sweetheart",
+    location: "Essexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, romance thread",
+    summary:
+      "Eivor helps reunite or reckon with a pair of childhood lovers caught in the conflict.",
+    aiTip:
+      "Dialogue choices here color the romance but don't hard-branch the saga — play to Eivor's character.",
+    walkthrough: [
+      "Follow the lovers' story in Essexe.",
+      "Help arrange a meeting or resolution.",
+      "Deal with the obstacles standing in the way.",
+      "Advance the entangled relationship."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Childhood%20Sweetheart%20walkthrough"
+  },
+{
+    id: 1920,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Taken",
+    location: "Essexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Captive rescued, story progression",
+    summary:
+      "When a key figure is abducted, Eivor mounts a rescue across Essexe.",
+    aiTip:
+      "Track the captors with Odin's Sight and clear escort camps quietly to avoid endangering the hostage.",
+    walkthrough: [
+      "Learn that a key figure has been taken.",
+      "Track the captors across Essexe.",
+      "Assault the camp holding the captive.",
+      "Free the prisoner and return them safely."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taken%20walkthrough"
+  },
+{
+    id: 1921,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Twists and Turns",
+    location: "Essexe",
+    length: "medium",
+    difficulty: "High",
+    reward: "Saga concluded, story choice",
+    summary:
+      "The Essexe saga reaches its emotional climax with a decisive confrontation.",
+    aiTip:
+      "There's a meaningful choice at the end — consider the characters' arcs before you decide, as it shapes the saga's tone.",
+    walkthrough: [
+      "Reach the climax of the Essexe story.",
+      "Confront the truth behind the conflict.",
+      "Make the decisive choice.",
+      "Resolve the saga and secure the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Twists%20and%20Turns%20walkthrough"
+  },
+{
+    id: 1922,
+    type: "main",
+    category: "A Breviary of Broken Hearts",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Reporting on Essexe",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Essexe alliance to Randvi.",
+    aiTip:
+      "Some Essexe characters can settle at Ravensthorpe — check for new faces after reporting.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Essexe outcome.",
+      "Place the alliance bloom and pick your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Essexe%20walkthrough"
+  },
+{
+    id: 1923,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "A Noble Escort",
+    location: "Lincolnscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Hunwald begun, story progression",
+    summary:
+      "Eivor escorts the timid noble Hunwald and his love Aelfgifu through a Lincolnscire riven by a corrupt bishop.",
+    aiTip:
+      "The Order-tied bishop of Lincoln looms over this saga — gather clues, as they help unmask an Order target.",
+    walkthrough: [
+      "Pledge to Lincolnscire and meet Hunwald and Aelfgifu.",
+      "Learn of the corrupt bishop's grip on the region.",
+      "Agree to escort and protect the couple.",
+      "Set out across Lincolnscire."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Noble%20Escort%20walkthrough"
+  },
+{
+    id: 1924,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Homecoming",
+    location: "Lincolnscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, estate reached",
+    summary:
+      "Eivor helps Hunwald return to his family estate amid danger.",
+    aiTip:
+      "Defend Hunwald in the estate skirmish — he's fragile, so intercept enemies before they reach him.",
+    walkthrough: [
+      "Travel with Hunwald toward his estate.",
+      "Fight off ambushes along the road.",
+      "Reach and secure the family estate.",
+      "Settle Hunwald into his homecoming."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Homecoming%20walkthrough"
+  },
+{
+    id: 1925,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "In the Absence of an Ealdorman",
+    location: "Lincolnscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, power vacuum addressed",
+    summary:
+      "With the ealdorman gone, Eivor helps navigate Lincolnscire's power vacuum.",
+    aiTip:
+      "Investigate thoroughly — the missing ealdorman's fate is a mystery that pays off later in the saga.",
+    walkthrough: [
+      "Investigate the missing ealdorman's disappearance.",
+      "Gather information across Lincolnscire.",
+      "Deal with those exploiting the vacuum.",
+      "Report your findings to Hunwald."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20the%20Absence%20of%20an%20Ealdorman%20walkthrough"
+  },
+{
+    id: 1926,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Salve for a Fresh Wound",
+    location: "Lincolnscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, ally aided",
+    summary:
+      "Eivor secures aid or a remedy needed to keep the alliance on track.",
+    aiTip:
+      "Raid the marked site for both the objective and extra supplies for Ravensthorpe.",
+    walkthrough: [
+      "Learn what aid the alliance needs.",
+      "Travel to the marked location.",
+      "Secure the salve or support under threat.",
+      "Deliver it and advance the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Salve%20for%20a%20Fresh%20Wound%20walkthrough"
+  },
+{
+    id: 1927,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "The Thegn of Lincoln",
+    location: "Lincoln, Lincolnscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, city intrigue",
+    summary:
+      "Eivor enters the city of Lincoln to deal with its scheming thegn and the bishop's influence.",
+    aiTip:
+      "Use social stealth among the city crowds to reach the thegn without alerting the whole garrison.",
+    walkthrough: [
+      "Enter the city of Lincoln.",
+      "Investigate the thegn's dealings with the bishop.",
+      "Confront the intrigue at the heart of the city.",
+      "Advance toward exposing the corruption."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Thegn%20of%20Lincoln%20walkthrough"
+  },
+{
+    id: 1928,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Where the Stone Falls",
+    location: "Lincolnscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, bishop confronted",
+    summary:
+      "The plot against the corrupt bishop comes to a head.",
+    aiTip:
+      "Expect resistance from the bishop's guards — thin them with stealth before the confrontation to keep the fight manageable.",
+    walkthrough: [
+      "Move against the corrupt bishop's power.",
+      "Fight or infiltrate to reach him.",
+      "Confront the bishop over his crimes.",
+      "Set up the saga's resolution."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20the%20Stone%20Falls%20walkthrough"
+  },
+{
+    id: 1929,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "A Sword-Shower in Anecastre",
+    location: "Anecastre, Lincolnscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Saga concluded, battle won",
+    summary:
+      "A climactic battle at Anecastre decides Lincolnscire's fate and Hunwald's rule.",
+    aiTip:
+      "This is a large-scale fight — stay with your warband, revive the momentum, and focus enemy leaders to swing the battle.",
+    walkthrough: [
+      "Rally for the battle at Anecastre.",
+      "Fight through the enemy host.",
+      "Break the opposing force's leadership.",
+      "Win the day and secure Hunwald's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Sword-Shower%20in%20Anecastre%20walkthrough"
+  },
+{
+    id: 1930,
+    type: "main",
+    category: "The Lay of Hunwald",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Reporting on Lincolnscire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports Lincolnscire's alliance to Randvi.",
+    aiTip:
+      "The Lincoln bishop clue can advance your Order hunt — check the Order menu after reporting.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Lincolnscire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lincolnscire%20walkthrough"
+  },
+{
+    id: 1931,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Reaver of the South",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance thread begun, story progression",
+    summary:
+      "Eivor joins a campaign against a brutal reaver terrorizing Suthsexe.",
+    aiTip:
+      "Suthsexe is a higher-power region — make sure your gear is upgraded before pledging here.",
+    walkthrough: [
+      "Pledge to Suthsexe and meet your allies.",
+      "Learn of the reaver's cruelty in the south.",
+      "Agree to bring him down.",
+      "Begin the campaign against his forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reaver%20of%20the%20South%20walkthrough"
+  },
+{
+    id: 1932,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Arrive Unexpected",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, foothold gained",
+    summary:
+      "Eivor makes a surprise landing to gain a foothold in enemy territory.",
+    aiTip:
+      "Use your longship to approach from an unexpected coast, skipping fortified land routes.",
+    walkthrough: [
+      "Plan the surprise approach with your allies.",
+      "Land and strike before the enemy is ready.",
+      "Secure a foothold in the region.",
+      "Prepare for the push toward Portcestre."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Arrive%20Unexpected%20walkthrough"
+  },
+{
+    id: 1933,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Let Them Eat Ashes",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Supplies burned, story progression",
+    summary:
+      "A scorched-earth raid to burn the enemy's supplies and morale.",
+    aiTip:
+      "Torch the marked stores quickly and disengage — you don't need to wipe the garrison.",
+    walkthrough: [
+      "Locate the enemy's supply stores.",
+      "Burn the marked supplies.",
+      "Fight through defenders as needed.",
+      "Withdraw once the stores are ash."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Let%20Them%20Eat%20Ashes%20walkthrough"
+  },
+{
+    id: 1934,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Scorched Earth",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, enemy weakened",
+    summary:
+      "The scorched-earth campaign continues, grinding down the enemy's strength.",
+    aiTip:
+      "Chain raids on multiple outposts here to weaken the coming siege's defenders.",
+    walkthrough: [
+      "Continue the campaign of destruction.",
+      "Hit additional enemy positions.",
+      "Weaken the reaver's remaining forces.",
+      "Set the stage for the siege of Portcestre."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Scorched%20Earth%20walkthrough"
+  },
+{
+    id: 1935,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Severing the Lines",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, reinforcements cut",
+    summary:
+      "Eivor cuts the enemy's reinforcement lines before the main siege.",
+    aiTip:
+      "Ambush the marked convoys and messengers — stopping reinforcements makes Portcestre far easier.",
+    walkthrough: [
+      "Identify the enemy's supply and reinforcement lines.",
+      "Ambush the convoys and couriers.",
+      "Sever the lines feeding Portcestre.",
+      "Report readiness for the siege."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Severing%20the%20Lines%20walkthrough"
+  },
+{
+    id: 1936,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Storming the Walls",
+    location: "Portcestre, Suthsexe",
+    length: "long",
+    difficulty: "High",
+    reward: "Portcestre besieged, story progression",
+    summary:
+      "The full siege of Portcestre, one of the campaign's largest set-piece battles.",
+    aiTip:
+      "Bring rams and fire; clear wall archers first, then push the gate with your warband and keep rations stocked for the elites inside.",
+    walkthrough: [
+      "Assemble the war host outside Portcestre.",
+      "Breach the outer walls with rams and fire.",
+      "Fight through the fortress tiers, clearing archers.",
+      "Reach and defeat the fortress commander."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20the%20Walls%20walkthrough"
+  },
+{
+    id: 1937,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Of All That Has Passed...",
+    location: "Suthsexe",
+    length: "medium",
+    difficulty: "High",
+    reward: "Saga concluded, reaver defeated",
+    summary:
+      "The reaver's story ends and the Suthsexe alliance is secured.",
+    aiTip:
+      "Expect a final confrontation — save adrenaline for a special-ability finisher against the reaver.",
+    walkthrough: [
+      "Confront the reaver at the saga's climax.",
+      "Win the final fight.",
+      "Resolve the fallout of the southern campaign.",
+      "Secure Suthsexe's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20All%20That%20Has%20Passed...%20walkthrough"
+  },
+{
+    id: 1938,
+    type: "main",
+    category: "The Siege of Portcestre",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Reporting on Suthsexe",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Suthsexe campaign to Randvi.",
+    aiTip:
+      "With the south secured, more of England's map opens — plan your remaining high-power pledges.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Suthsexe outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Suthsexe%20walkthrough"
+  },
+{
+    id: 1939,
+    type: "main",
+    category: "Vinland Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "In a Strange Land",
+    location: "Vinland",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Vinland unlocked, story progression",
+    summary:
+      "Eivor sails to Vinland (North America), stripped of gear, to hunt a hidden Order member among the Norse settlers.",
+    aiTip:
+      "You start Vinland with almost no equipment on purpose — rely on hunting, stealth, and picked-up weapons throughout this saga.",
+    walkthrough: [
+      "Trigger the Vinland saga from the Ravensthorpe docks quest.",
+      "Sail to Vinland and arrive with minimal gear.",
+      "Meet the local Norse and Indigenous contacts.",
+      "Begin hunting the hidden Order target."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20a%20Strange%20Land%20walkthrough"
+  },
+{
+    id: 1940,
+    type: "main",
+    category: "Vinland Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "The Hunting Grounds",
+    location: "Vinland",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Intel, story progression",
+    summary:
+      "Eivor learns the land and its people while closing in on the Order's presence.",
+    aiTip:
+      "Hunt local animals for provisions and craft or scavenge gear — there are no shops here.",
+    walkthrough: [
+      "Explore Vinland's hunting grounds.",
+      "Gather intel from the settlers and locals.",
+      "Track signs of the Order's activity.",
+      "Follow the lead toward the target."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Hunting%20Grounds%20walkthrough"
+  },
+{
+    id: 1941,
+    type: "main",
+    category: "Vinland Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Hunter of Beasts",
+    location: "Vinland",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, trust earned",
+    summary:
+      "Eivor proves themselves by hunting a dangerous beast, earning local trust.",
+    aiTip:
+      "Use ranged attacks and dodges against the beast; a good bow makes this hunt much safer.",
+    walkthrough: [
+      "Accept the hunt for the dangerous beast.",
+      "Track the animal across Vinland.",
+      "Bring it down with bow and blade.",
+      "Return to earn the locals' trust."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter%20of%20Beasts%20walkthrough"
+  },
+{
+    id: 1942,
+    type: "main",
+    category: "Vinland Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Hunter's Repast",
+    location: "Vinland",
+    length: "medium",
+    difficulty: "High",
+    reward: "Order member killed, saga concluded",
+    summary:
+      "The Vinland hunt culminates in confronting and eliminating the hidden Order member.",
+    aiTip:
+      "This is the payoff assassination — approach carefully, as you're likely still underequipped for a straight fight.",
+    walkthrough: [
+      "Close in on the hidden Order member.",
+      "Infiltrate their position.",
+      "Assassinate or defeat the target.",
+      "Conclude the Vinland saga and return to England."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter's%20Repast%20walkthrough"
+  },
+{
+    id: 1943,
+    type: "main",
+    category: "Vinland Saga",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Reporting on Vinland",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Order target logged, story progression",
+    summary:
+      "Eivor returns from Vinland and logs the hunt's outcome.",
+    aiTip:
+      "The Vinland kill advances the Order of the Ancients board — check the menu for the branch it unlocks.",
+    walkthrough: [
+      "Return to Ravensthorpe from Vinland.",
+      "Speak with the relevant contacts about the hunt.",
+      "Log the Order target's elimination.",
+      "Resume England's campaign."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Vinland%20walkthrough"
+  },
+{
+    id: 1944,
+    type: "main",
+    category: "The City of Greed",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "The Welcoming Party",
+    location: "Jorvik (York)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order hunt in Jorvik begun, story progression",
+    summary:
+      "Eivor arrives in Jorvik to hunt a cell of the Order of the Ancients hiding in the city.",
+    aiTip:
+      "Jorvik is an Order-focused urban saga — collect the clues each target drops to unmask the next.",
+    walkthrough: [
+      "Pledge to Jorvik and arrive in the city.",
+      "Meet your contacts and learn of the Order cell.",
+      "Agree to hunt the conspirators.",
+      "Follow the first clue into Jorvik's streets."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Welcoming%20Party%20walkthrough"
+  },
+{
+    id: 1945,
+    type: "main",
+    category: "The City of Greed",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Burning the Firebrand",
+    location: "Jorvik",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order member killed, intel",
+    summary:
+      "Eivor tracks and eliminates one of the Jorvik Order members.",
+    aiTip:
+      "Interrogate or search the body for the clue pointing to the next target.",
+    walkthrough: [
+      "Track the first Order member in Jorvik.",
+      "Infiltrate their location.",
+      "Assassinate the target.",
+      "Recover the clue to the next conspirator."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Burning%20the%20Firebrand%20walkthrough"
+  },
+{
+    id: 1946,
+    type: "main",
+    category: "The City of Greed",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Pricking the Needle",
+    location: "Jorvik",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order member killed, intel",
+    summary:
+      "Eivor closes in on another Order member woven into Jorvik's underworld.",
+    aiTip:
+      "Use crowds and rooftops to reach the target quietly, then extract the next clue.",
+    walkthrough: [
+      "Follow the clue to the next Order member.",
+      "Navigate Jorvik's streets to reach them.",
+      "Eliminate the target.",
+      "Recover the clue to the cell's leader."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Pricking%20the%20Needle%20walkthrough"
+  },
+{
+    id: 1947,
+    type: "main",
+    category: "The City of Greed",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Closing the Vault",
+    location: "Jorvik",
+    length: "medium",
+    difficulty: "High",
+    reward: "Order cell broken, saga concluded",
+    summary:
+      "The final strike against the Jorvik Order cell's leader.",
+    aiTip:
+      "Clear the leader's guards first; the confined vault fight punishes getting surrounded.",
+    walkthrough: [
+      "Reach the Order cell's leader.",
+      "Fight through the final defenders.",
+      "Assassinate or defeat the leader.",
+      "Break the Jorvik cell and secure the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Closing%20the%20Vault%20walkthrough"
+  },
+{
+    id: 1948,
+    type: "main",
+    category: "The City of Greed",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Reporting on Jorvik",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, Order progress",
+    summary:
+      "Eivor reports the Jorvik cell's destruction to Randvi.",
+    aiTip:
+      "The Jorvik kills feed the Order board — reconcile them in the Order menu for the next reveal.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Jorvik outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Jorvik%20walkthrough"
+  },
+{
+    id: 1949,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "War in the North",
+    location: "Eurvicscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reunion with Halfdan, story progression",
+    summary:
+      "Eivor reunites with Halfdan Ragnarsson in Eurvicscire, where paranoia and treachery shadow his war.",
+    aiTip:
+      "Halfdan's suspicion of his own men drives a mystery — weigh who is truly loyal as the saga unfolds.",
+    walkthrough: [
+      "Pledge to Eurvicscire and meet Halfdan.",
+      "Learn of the northern war and Halfdan's paranoia.",
+      "Agree to fight alongside him.",
+      "Begin the campaign in the north."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20in%20the%20North%20walkthrough"
+  },
+{
+    id: 1950,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Honor Has Two Edges",
+    location: "Eurvicscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, intrigue deepens",
+    summary:
+      "Eivor navigates the tangled loyalties around Halfdan's camp.",
+    aiTip:
+      "Pay attention to Faravid and the accusations flying — they set up the saga's betrayal reveal.",
+    walkthrough: [
+      "Investigate the tensions in Halfdan's ranks.",
+      "Speak with the key figures around him.",
+      "Weigh the competing claims of loyalty.",
+      "Advance the intrigue."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Has%20Two%20Edges%20walkthrough"
+  },
+{
+    id: 1951,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Road to Hamartia",
+    location: "Eurvicscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, campaign advanced",
+    summary:
+      "Eivor and Halfdan press the campaign toward a reckoning.",
+    aiTip:
+      "Raid and clear the marked strongholds to weaken the enemy before the saga's climax.",
+    walkthrough: [
+      "March with Halfdan against the enemy.",
+      "Clear the fortified positions.",
+      "Support Halfdan's advance.",
+      "Push toward the confrontation."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Road%20to%20Hamartia%20walkthrough"
+  },
+{
+    id: 1952,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "The Son of Jorvik",
+    location: "Eurvicscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, truth uncovered",
+    summary:
+      "A hidden agenda tied to Jorvik surfaces, complicating Halfdan's war.",
+    aiTip:
+      "Follow the clues carefully — the truth here reframes who Halfdan should trust.",
+    walkthrough: [
+      "Investigate the Jorvik connection.",
+      "Uncover the hidden agenda.",
+      "Confront those involved.",
+      "Bring the truth to Halfdan."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Son%20of%20Jorvik%20walkthrough"
+  },
+{
+    id: 1953,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Honor's Hubris",
+    location: "Eurvicscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, betrayal exposed",
+    summary:
+      "The betrayal at the heart of Halfdan's camp is exposed in a tense confrontation.",
+    aiTip:
+      "Expect combat once the traitor is revealed — protect Halfdan and focus the guilty party.",
+    walkthrough: [
+      "Expose the traitor in Halfdan's ranks.",
+      "Confront the betrayal.",
+      "Fight through the fallout.",
+      "Set up the saga's resolution."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor's%20Hubris%20walkthrough"
+  },
+{
+    id: 1954,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Of Blood and Bonds",
+    location: "Eurvicscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Saga concluded, alliance secured",
+    summary:
+      "The Eurvicscire saga climaxes as Halfdan's fate and the region's alliance are decided.",
+    aiTip:
+      "The finale features a hard fight — bait heavy attacks, keep rations, and use abilities to break tough enemies.",
+    walkthrough: [
+      "Reach the climax of Halfdan's saga.",
+      "Fight the decisive battle or duel.",
+      "Resolve Halfdan's story.",
+      "Secure Eurvicscire's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Bonds%20walkthrough"
+  },
+{
+    id: 1955,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Reporting on Eurvicscire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Eurvicscire outcome to Randvi.",
+    aiTip:
+      "Halfdan's arc ties into the wider Ragnarsson brothers' story — note the threads for later sagas.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Eurvicscire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Eurvicscire%20walkthrough"
+  },
+{
+    id: 1956,
+    type: "main",
+    category: "The Sayings of Halfdan",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Lost Glory",
+    location: "Eurvicscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Story epilogue, extra loot",
+    summary:
+      "A concluding beat that ties off loose ends from Halfdan's northern campaign.",
+    aiTip:
+      "Sweep the area for any missed wealth or artifacts while wrapping up the saga's epilogue.",
+    walkthrough: [
+      "Follow up on the aftermath of Halfdan's war.",
+      "Resolve the remaining loose ends.",
+      "Claim any final rewards.",
+      "Close out the Eurvicscire story."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Lost%20Glory%20walkthrough"
+  },
+{
+    id: 1957,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The First Night of Samhain",
+    location: "Glowecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Alliance with Ivarr's rivals begun, story progression",
+    summary:
+      "During the eerie Samhain festival, Eivor is drawn into a murder mystery surrounding a druidic cult in Glowecestrescire.",
+    aiTip:
+      "This saga has a horror-tinged tone and a whodunit structure — gather every clue, as they point to the killer.",
+    walkthrough: [
+      "Pledge to Glowecestrescire and arrive during Samhain.",
+      "Learn of the murders and the Children of Danu cult.",
+      "Agree to investigate the killings.",
+      "Begin gathering clues at the festival."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20First%20Night%20of%20Samhain%20walkthrough"
+  },
+{
+    id: 1958,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "Clues and Riddles",
+    location: "Glowecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Intel, story progression",
+    summary:
+      "Eivor follows a trail of cryptic clues left around the region.",
+    aiTip:
+      "Use Odin's Sight to read the environmental clues, and check bodies and shrines for riddle fragments.",
+    walkthrough: [
+      "Investigate the crime scenes across Glowecestrescire.",
+      "Piece together the cryptic clues and riddles.",
+      "Follow the trail toward the cult.",
+      "Uncover the next lead."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Clues%20and%20Riddles%20walkthrough"
+  },
+{
+    id: 1959,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Stolen King",
+    location: "Glowecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, captive found",
+    summary:
+      "Eivor searches for a missing figure central to the cult's scheme.",
+    aiTip:
+      "Track the captors and clear their hideout quietly to reach the missing king unharmed.",
+    walkthrough: [
+      "Learn that a key figure has been taken by the cult.",
+      "Track the cult to their hideout.",
+      "Infiltrate and locate the captive.",
+      "Free or confront the situation."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stolen%20King%20walkthrough"
+  },
+{
+    id: 1960,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "A Love Betrayed",
+    location: "Glowecestrescire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, betrayal revealed",
+    summary:
+      "A betrayal at the heart of the mystery comes to light.",
+    aiTip:
+      "Weigh the revealed clues before drawing conclusions — the saga rewards careful reading of motives.",
+    walkthrough: [
+      "Follow the trail to the betrayal.",
+      "Confront those involved.",
+      "Uncover the truth behind the murders.",
+      "Advance toward the cult's leader."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Love%20Betrayed%20walkthrough"
+  },
+{
+    id: 1961,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Gutted Lamb",
+    location: "Glowecestrescire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, cult confronted",
+    summary:
+      "Eivor closes in on the cult's inner circle in a grim confrontation.",
+    aiTip:
+      "Expect an ambush by cultists — clear the fanatics before focusing the ringleader.",
+    walkthrough: [
+      "Reach the cult's inner sanctum.",
+      "Fight through the fanatical cultists.",
+      "Confront the cult's key figure.",
+      "Set up the final reckoning."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Gutted%20Lamb%20walkthrough"
+  },
+{
+    id: 1962,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Burning of the Wicker Man",
+    location: "Glowecestrescire",
+    length: "long",
+    difficulty: "High",
+    reward: "Saga concluded, cult destroyed",
+    summary:
+      "The saga climaxes at a blazing wicker-man ritual where the cult's leader is unmasked and stopped.",
+    aiTip:
+      "The finale mixes a set-piece and a boss fight — mind the fire hazards and keep rations for the leader's phases.",
+    walkthrough: [
+      "Arrive at the wicker-man ritual.",
+      "Fight through the ritual grounds.",
+      "Unmask and confront the cult's leader.",
+      "End the cult and secure Glowecestrescire's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Burning%20of%20the%20Wicker%20Man%20walkthrough"
+  },
+{
+    id: 1963,
+    type: "main",
+    category: "A Tale of Wicker-Fire",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "Reporting on Glowecestrescire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the end of the Samhain murders to Randvi.",
+    aiTip:
+      "The Children of Danu thread continues into the world — note any surviving leads for open-world follow-up.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Glowecestrescire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Glowecestrescire%20walkthrough"
+  },
+{
+    id: 1964,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Old Friends",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Reunion with Trygve, story progression",
+    summary:
+      "Eivor reunites with old friend Trygve, caught in a feud between two jarls in Snotinghamscire.",
+    aiTip:
+      "This saga leans on personal loyalty — Trygve's arc turns dark, so weigh your responses to him.",
+    walkthrough: [
+      "Pledge to Snotinghamscire and reunite with Trygve.",
+      "Learn of the feud between the two jarls.",
+      "Agree to help resolve the conflict.",
+      "Begin working the region's politics."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Friends%20walkthrough"
+  },
+{
+    id: 1965,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "On Borrowed Time",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, plot uncovered",
+    summary:
+      "Eivor uncovers a scheme threatening the fragile peace.",
+    aiTip:
+      "Investigate thoroughly before acting — misreading the plot here has consequences for the feud.",
+    walkthrough: [
+      "Investigate the threat to the peace.",
+      "Gather information across Snotinghamscire.",
+      "Uncover the scheme at play.",
+      "Report your findings."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20On%20Borrowed%20Time%20walkthrough"
+  },
+{
+    id: 1966,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Adorning the Adorned",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, favor earned",
+    summary:
+      "Eivor helps secure a gift or gesture to smooth the jarls' rivalry.",
+    aiTip:
+      "Raid the marked site for the objective and grab any wealth while you're there.",
+    walkthrough: [
+      "Learn what's needed to ease the feud.",
+      "Travel to the marked location.",
+      "Secure the item or favor.",
+      "Deliver it to advance the peace."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Adorning%20the%20Adorned%20walkthrough"
+  },
+{
+    id: 1967,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Rowdy Raiders",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, raiders dealt with",
+    summary:
+      "Eivor deals with unruly raiders stoking the conflict.",
+    aiTip:
+      "Clear the raider camp efficiently — freeing captives and burning supplies calms the region.",
+    walkthrough: [
+      "Track the troublemaking raiders.",
+      "Assault their camp.",
+      "Deal with the ringleaders.",
+      "Restore some calm to the region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rowdy%20Raiders%20walkthrough"
+  },
+{
+    id: 1968,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Of Blood and Gods",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, dark turn",
+    summary:
+      "The feud takes a dark, blood-soaked turn as Trygve's path grows grim.",
+    aiTip:
+      "This is a heavy story beat — engage carefully and prepare for the saga's tragic momentum.",
+    walkthrough: [
+      "Follow Trygve deeper into the conflict.",
+      "Witness the escalating violence.",
+      "Confront the consequences.",
+      "Push toward the saga's climax."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Gods%20walkthrough"
+  },
+{
+    id: 1969,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Under the Skin",
+    location: "Snotinghamscire",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, truth revealed",
+    summary:
+      "A grim truth beneath the feud is laid bare.",
+    aiTip:
+      "Expect combat once the truth surfaces — focus the responsible party and protect any allies.",
+    walkthrough: [
+      "Uncover the truth beneath the feud.",
+      "Confront those responsible.",
+      "Fight through the fallout.",
+      "Set up the resolution."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Under%20the%20Skin%20walkthrough"
+  },
+{
+    id: 1970,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Farewells and Legacies",
+    location: "Snotinghamscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Saga concluded, alliance secured",
+    summary:
+      "The saga ends with a farewell and a final reckoning that secures Snotinghamscire.",
+    aiTip:
+      "The finale features a tough fight or duel — keep rations and use special abilities to close it out.",
+    walkthrough: [
+      "Reach the saga's emotional climax.",
+      "Fight the decisive battle or duel.",
+      "Say your farewells and resolve Trygve's story.",
+      "Secure Snotinghamscire's alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Farewells%20and%20Legacies%20walkthrough"
+  },
+{
+    id: 1971,
+    type: "main",
+    category: "The Tale of Two Jarls",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Reporting on Snotinghamscire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, settlement rewards",
+    summary:
+      "Eivor reports the Snotinghamscire outcome to Randvi.",
+    aiTip:
+      "Trygve's fate colors the settlement mood — check for reactive dialogue back home.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Snotinghamscire outcome.",
+      "Place the alliance bloom and choose your next region."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Snotinghamscire%20walkthrough"
+  },
+{
+    id: 1972,
+    type: "main",
+    category: "The City of Faith",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "The Reeve of Wincestre",
+    location: "Wincestre",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order hunt in Wincestre begun, story progression",
+    summary:
+      "Eivor infiltrates Wincestre, seat of King Alfred's power, to hunt Order members among its officials.",
+    aiTip:
+      "Wincestre is a late, high-power Order saga that edges toward the campaign's endgame — come well-equipped.",
+    walkthrough: [
+      "Pledge to Wincestre and enter the city.",
+      "Meet your contacts and learn of the Order's officials.",
+      "Agree to hunt the conspirators.",
+      "Follow the first clue through Wincestre."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Reeve%20of%20Wincestre%20walkthrough"
+  },
+{
+    id: 1973,
+    type: "main",
+    category: "The City of Faith",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Choking the Gallows",
+    location: "Wincestre",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order member killed, intel",
+    summary:
+      "Eivor eliminates an Order member entrenched in Wincestre's power structure.",
+    aiTip:
+      "Search the target for the clue to the next conspirator before leaving.",
+    walkthrough: [
+      "Track the first Order official.",
+      "Infiltrate their location in Wincestre.",
+      "Assassinate the target.",
+      "Recover the clue to the next member."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Choking%20the%20Gallows%20walkthrough"
+  },
+{
+    id: 1974,
+    type: "main",
+    category: "The City of Faith",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Plucking the Quill",
+    location: "Wincestre",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Order member killed, intel",
+    summary:
+      "Eivor hunts another Order member hidden among Wincestre's clerics and scribes.",
+    aiTip:
+      "Use social stealth in the ecclesiastical crowds to reach the target unseen.",
+    walkthrough: [
+      "Follow the clue to the next Order member.",
+      "Navigate Wincestre to reach them.",
+      "Eliminate the target.",
+      "Recover the clue to the cell's leader."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Plucking%20the%20Quill%20walkthrough"
+  },
+{
+    id: 1975,
+    type: "main",
+    category: "The City of Faith",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Impaling the Seax",
+    location: "Wincestre",
+    length: "medium",
+    difficulty: "High",
+    reward: "Order cell broken, saga concluded",
+    summary:
+      "The final strike against the Wincestre Order cell's leader.",
+    aiTip:
+      "Clear the leader's guards first; this late-game target hits hard, so keep rations and abilities ready.",
+    walkthrough: [
+      "Reach the Order cell's leader.",
+      "Fight through the final defenders.",
+      "Assassinate or defeat the leader.",
+      "Break the Wincestre cell and secure the alliance."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Impaling%20the%20Seax%20walkthrough"
+  },
+{
+    id: 1976,
+    type: "main",
+    category: "The City of Faith",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Reporting on Wincestre",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Region alliance confirmed, Order progress",
+    summary:
+      "Eivor reports the Wincestre cell's destruction to Randvi.",
+    aiTip:
+      "Wincestre's fall pushes the main story toward its endgame — expect the campaign's climax next.",
+    walkthrough: [
+      "Return to Ravensthorpe after the saga.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Wincestre outcome.",
+      "Place the alliance bloom and prepare for the endgame."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Wincestre%20walkthrough"
+  },
+{
+    id: 1977,
+    type: "main",
+    category: "In the Hall of the Slain",
+    game: "Assassin's Creed Valhalla",
+    region: "Hordafylke",
+    title: "Where Legends Are Born",
+    location: "Hordafylke, Norway",
+    length: "long",
+    difficulty: "High",
+    reward: "Return to Norway, story progression",
+    summary:
+      "Eivor returns to Norway's Hordafylke for a fateful chapter tied to the clan's deepest secrets.",
+    aiTip:
+      "This late arc raises the campaign's mythic stakes — engage the story closely, as it reframes Eivor's identity.",
+    walkthrough: [
+      "Trigger the return to Norway from Ravensthorpe.",
+      "Arrive in Hordafylke and reconnect with the past.",
+      "Fight through the chapter's challenges.",
+      "Advance the revelations about the clan."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20Legends%20Are%20Born%20walkthrough"
+  },
+{
+    id: 1978,
+    type: "main",
+    category: "In the Hall of the Slain",
+    game: "Assassin's Creed Valhalla",
+    region: "Hordafylke",
+    title: "A Brother's Keeper",
+    location: "Hordafylke, Norway",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, brotherhood tested",
+    summary:
+      "The bond between Eivor and Sigurd is tested in a pivotal Norway chapter.",
+    aiTip:
+      "Expect a demanding sequence — keep your gear upgraded and rations full for the fights that punctuate the drama.",
+    walkthrough: [
+      "Continue the Hordafylke chapter with Sigurd.",
+      "Confront the trials that test the brothers' bond.",
+      "Fight through the key encounters.",
+      "Resolve this stage of the Norway return."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Brother's%20Keeper%20walkthrough"
+  },
+{
+    id: 1979,
+    type: "main",
+    category: "The Prophecies of the King",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "Kingdom's End",
+    location: "Hamtunscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Endgame arc, story climax",
+    summary:
+      "The campaign's climax: Eivor confronts King Alfred's grand design and the fate of the alliance in Hamtunscire.",
+    aiTip:
+      "This is the main story's endgame — expect major battles and revelations, so arrive with your strongest gear.",
+    walkthrough: [
+      "Trigger the endgame arc in Hamtunscire.",
+      "Confront the culmination of Alfred's schemes.",
+      "Fight through the climactic battles.",
+      "Face the decisive confrontation."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingdom's%20End%20walkthrough"
+  },
+{
+    id: 1980,
+    type: "main",
+    category: "The Prophecies of the King",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "Holy Day",
+    location: "Hamtunscire",
+    length: "long",
+    difficulty: "High",
+    reward: "Story climax resolved, campaign conclusion",
+    summary:
+      "The final reckoning that resolves the main story's central conflict.",
+    aiTip:
+      "Save before the final confrontation and be ready for a demanding fight that caps the campaign.",
+    walkthrough: [
+      "Reach the final confrontation of the main story.",
+      "Fight the climactic battle.",
+      "Resolve the conflict with Alfred and the Order.",
+      "Conclude the main campaign's arc."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Holy%20Day%20walkthrough"
+  },
+{
+    id: 1981,
+    type: "main",
+    category: "The Prophecies of the King",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "Reporting on Hamtunscire",
+    location: "Ravensthorpe longhouse",
+    length: "short",
+    difficulty: "Easy",
+    reward: "Campaign arc logged, story epilogue",
+    summary:
+      "Eivor reports the endgame's outcome to Randvi, closing the England alliance campaign.",
+    aiTip:
+      "After this, return to the world to mop up remaining regions, Order targets, and the mythic Asgard/Jotunheim arcs.",
+    walkthrough: [
+      "Return to Ravensthorpe after the endgame.",
+      "Speak with Randvi at the Alliance Map.",
+      "Report the Hamtunscire outcome.",
+      "Reflect on the completed alliance campaign."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Hamtunscire%20walkthrough"
+  },
+{
+    id: 1982,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "View Above All",
+    location: "Asgard",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Asgard unlocked, mythic arc begun",
+    summary:
+      "Under Valka's potion, Eivor experiences Odin's saga in Asgard, beginning the mythic dream campaign.",
+    aiTip:
+      "Reach Valka's hut and brew the Asgard potion to enter — the whole arc plays as Odin (Havi) in a dreamlike Asgard.",
+    walkthrough: [
+      "Build the seer's hut at Ravensthorpe and speak with Valka.",
+      "Brew and drink the potion to enter Asgard as Odin.",
+      "Explore Asgard and meet the Aesir.",
+      "Begin Odin's quest to protect Asgard from prophecy."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20View%20Above%20All%20walkthrough"
+  },
+{
+    id: 1983,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Well-Traveled",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, builders' bargain",
+    summary:
+      "Odin bargains with the giant builder to fortify Asgard's walls, aided by Loki's scheming.",
+    aiTip:
+      "Follow Loki's plan involving the builder's stallion Svadilfari — the deception is central to this quest.",
+    walkthrough: [
+      "Meet the giant builder offering to raise Asgard's wall.",
+      "Negotiate the bargain with Loki's counsel.",
+      "Carry out the plan to cheat the builder of his price.",
+      "Secure the wall and deal with the fallout."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Well-Traveled%20walkthrough"
+  },
+{
+    id: 1984,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Defensive Measures",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, defenses raised",
+    summary:
+      "Odin works to shore up Asgard's defenses against the coming threat.",
+    aiTip:
+      "Complete the marked objectives to reinforce Asgard before the prophecy's danger arrives.",
+    walkthrough: [
+      "Assess Asgard's defensive needs.",
+      "Complete the tasks to strengthen the realm.",
+      "Rally the Aesir to the cause.",
+      "Advance Odin's preparations."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Defensive%20Measures%20walkthrough"
+  },
+{
+    id: 1985,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Extended Family",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, allies gathered",
+    summary:
+      "Odin seeks out and binds allies among the Aesir and beyond.",
+    aiTip:
+      "Meet the key gods introduced here — Thor, Tyr, and others factor into the arc's climax.",
+    walkthrough: [
+      "Travel across Asgard to meet potential allies.",
+      "Win the support of the Aesir.",
+      "Address the tensions among the gods.",
+      "Gather Odin's family to the cause."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Extended%20Family%20walkthrough"
+  },
+{
+    id: 1986,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Forging a Bond",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, alliance forged",
+    summary:
+      "Odin forges a crucial bond to strengthen Asgard's position.",
+    aiTip:
+      "Complete the bonding quest's objectives to lock in the ally's support.",
+    walkthrough: [
+      "Seek out the ally Odin needs.",
+      "Complete the task to earn their bond.",
+      "Cement the alliance.",
+      "Return to Asgard's central hall."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%20walkthrough"
+  },
+{
+    id: 1987,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "A Feline's Footfall",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, myth riddle",
+    summary:
+      "Odin pursues a strange, myth-laden task involving the impossible (a cat's footfall) tied to binding a great threat.",
+    aiTip:
+      "This quest references the Norse myth of Fenrir's binding — follow the fantastical fetch objectives to gather the mythic components.",
+    walkthrough: [
+      "Learn of the mythic components Odin must gather.",
+      "Pursue the impossible-seeming ingredients.",
+      "Collect what's needed for the binding.",
+      "Return to prepare the great binding."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feline's%20Footfall%20walkthrough"
+  },
+{
+    id: 1988,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Taking Root",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, threat grows",
+    summary:
+      "A creeping threat takes root in Asgard, and Odin must respond.",
+    aiTip:
+      "Address the marked disturbances quickly to keep the prophecy's danger from spreading.",
+    walkthrough: [
+      "Investigate the growing threat in Asgard.",
+      "Deal with the disturbances.",
+      "Protect Asgard's stability.",
+      "Advance toward the binding."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taking%20Root%20walkthrough"
+  },
+{
+    id: 1989,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Forging a Bond, Revisited",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, alliance deepened",
+    summary:
+      "Odin returns to deepen or repair a key alliance amid rising tension.",
+    aiTip:
+      "Complete the follow-up objectives to secure the ally's full commitment before the finale.",
+    walkthrough: [
+      "Return to the ally to strengthen the bond.",
+      "Complete the renewed objectives.",
+      "Resolve any lingering tension.",
+      "Prepare for the arc's climax."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%2C%20Revisited%20walkthrough"
+  },
+{
+    id: 1990,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "The Big Finish",
+    location: "Asgard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story progression, threat confronted",
+    summary:
+      "Odin moves to confront the threat head-on in a major set-piece.",
+    aiTip:
+      "Expect a large battle — use Odin's abilities and stay mobile against the mythic foes.",
+    walkthrough: [
+      "Rally the Aesir for the confrontation.",
+      "Fight through the mythic threat.",
+      "Push toward the binding of the great danger.",
+      "Set up the final act."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Big%20Finish%20walkthrough"
+  },
+{
+    id: 1991,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Binding Fate",
+    location: "Asgard",
+    length: "long",
+    difficulty: "High",
+    reward: "Fenrir bound, story climax",
+    summary:
+      "Odin and the Aesir bind the great wolf Fenrir in the arc's climactic ritual.",
+    aiTip:
+      "This is the set-piece binding of Fenrir — follow the ritual steps and endure the fight to complete it.",
+    walkthrough: [
+      "Lead the Aesir to bind the great wolf.",
+      "Complete the binding ritual under pressure.",
+      "Endure Fenrir's resistance.",
+      "Secure the binding and its terrible cost."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Binding%20Fate%20walkthrough"
+  },
+{
+    id: 1992,
+    type: "main",
+    category: "Asgard: The Fate of the High One",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Cheating Fate",
+    location: "Asgard",
+    length: "long",
+    difficulty: "High",
+    reward: "Asgard arc concluded, prophecy revelation",
+    summary:
+      "Odin's desperate bid to cheat prophecy reaches its end, revealing the arc's tragic truth.",
+    aiTip:
+      "The finale ties Odin's saga back to Eivor's — watch the revelations closely, as they underpin the whole game's mythology.",
+    walkthrough: [
+      "Reach the climax of Odin's saga.",
+      "Confront the truth of the prophecy.",
+      "Make Odin's fateful final choices.",
+      "Conclude the Asgard arc and wake as Eivor."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Cheating%20Fate%20walkthrough"
+  },
+{
+    id: 1993,
+    type: "main",
+    category: "Jotunheim: The Saga of the Snows",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "Mistress of the Iron Wood",
+    location: "Jotunheim",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Jotunheim unlocked, mythic arc begun",
+    summary:
+      "In a second vision, Odin ventures into the frozen giant-realm of Jotunheim seeking the witch Angrboda and forbidden knowledge.",
+    aiTip:
+      "Brew the Jotunheim potion at Valka's hut to enter — this arc plays as Odin, using disguise and guile among the giants.",
+    walkthrough: [
+      "Brew and drink the Jotunheim potion at Valka's hut.",
+      "Enter Jotunheim as Odin in disguise.",
+      "Seek out Angrboda in the Iron Wood.",
+      "Begin the quest for hidden knowledge."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Mistress%20of%20the%20Iron%20Wood%20walkthrough"
+  },
+{
+    id: 1994,
+    type: "main",
+    category: "Jotunheim: The Saga of the Snows",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "The Lost Cauldron",
+    location: "Jotunheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, cauldron sought",
+    summary:
+      "Odin searches for a lost cauldron holding power the giants guard.",
+    aiTip:
+      "Use stealth and disguise among the giants — brute force draws overwhelming attention in Jotunheim.",
+    walkthrough: [
+      "Learn of the lost cauldron's location.",
+      "Navigate the giants' territory to reach it.",
+      "Overcome the guardians or obstacles.",
+      "Claim the cauldron's secret."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Lost%20Cauldron%20walkthrough"
+  },
+{
+    id: 1995,
+    type: "main",
+    category: "Jotunheim: The Saga of the Snows",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "A Gift from the Past",
+    location: "Jotunheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, bargain struck",
+    summary:
+      "Odin strikes a bargain that trades on the past to gain what he seeks.",
+    aiTip:
+      "Complete the bargain's objectives carefully — the giants' deals carry hidden costs in this arc.",
+    walkthrough: [
+      "Meet the giant offering a bargain.",
+      "Complete the tasks demanded in exchange.",
+      "Secure the promised gift.",
+      "Advance Odin's search."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Gift%20from%20the%20Past%20walkthrough"
+  },
+{
+    id: 1996,
+    type: "main",
+    category: "Jotunheim: The Saga of the Snows",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "A Feast to Remember",
+    location: "Jotunheim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, feast infiltrated",
+    summary:
+      "Odin infiltrates a giants' feast in disguise to gather what he needs.",
+    aiTip:
+      "Play along with the feast's rituals and avoid blowing your disguise until the objective is secured.",
+    walkthrough: [
+      "Attend the giants' feast in disguise.",
+      "Blend in and pursue the objective.",
+      "Gather the needed knowledge or item.",
+      "Slip away before the ruse collapses."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feast%20to%20Remember%20walkthrough"
+  },
+{
+    id: 1997,
+    type: "main",
+    category: "Jotunheim: The Saga of the Snows",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "The Price of Wisdom",
+    location: "Jotunheim",
+    length: "long",
+    difficulty: "High",
+    reward: "Jotunheim arc concluded, wisdom gained",
+    summary:
+      "Odin pays a steep price for the wisdom he sought, closing the Jotunheim saga.",
+    aiTip:
+      "The finale exacts a mythic cost — see it through and note how it deepens Odin's, and Eivor's, story.",
+    walkthrough: [
+      "Reach the source of the wisdom Odin seeks.",
+      "Pay the demanded price.",
+      "Gain the forbidden knowledge.",
+      "Conclude the Jotunheim arc and return to the waking world."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Price%20of%20Wisdom%20walkthrough"
+  },
+{
+    id: 1998,
+    type: "main",
+    category: "Order of the Ancients",
+    game: "Assassin's Creed Valhalla",
+    region: "England (open world)",
+    title: "Order of the Ancients — Full Hunt Overview",
+    location: "England (open world)",
+    length: "long",
+    difficulty: "High",
+    reward: "Order of the Ancients dismantled, unique rewards",
+    summary:
+      "The parallel campaign to unmask and assassinate the Order of the Ancients — a web of hidden Zealots, cell members, and the Fathers of Understanding — spread across all of England.",
+    aiTip:
+      "Open the Order menu (the medallion board) to track clues; many members are revealed only by clues dropped from others or found via region sagas. Kill all to earn the arc's finale and unique gear.",
+    walkthrough: [
+      "Open the Order of the Ancients menu from the pause screen to view the medallion board.",
+      "Hunt the roving Zealots across England's regions, each dropping a clue toward a hidden cell member.",
+      "Use clues from letters, region sagas, and assassinations to reveal and locate each cell member.",
+      "Assassinate members tier by tier, working up toward the Order's leadership.",
+      "Unmask and eliminate the Fathers of Understanding to complete the hunt and claim its unique rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Order%20of%20the%20Ancients%20%E2%80%94%20Full%20Hunt%20Overview%20walkthrough"
   }
 ];
