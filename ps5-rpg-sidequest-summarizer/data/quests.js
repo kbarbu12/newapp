@@ -1974,6 +1974,12 @@ const quests = [
       "Hunt down the legend of Black Hand Riku, a fearsome raider whose ghost still haunts Iki Island.",
     aiTip:
       "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
+    walkthrough: [
+      "Pick up the Iki Island tale of Black Hand Riku.",
+      "Follow the clues and Senses-style guiding wind to his haunts.",
+      "Clear the Mongol raiders tied to the legend.",
+      "Confront the truth of Riku's ghost and finish the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
 {
@@ -3046,6 +3052,12 @@ const quests = [
       "Continue with Norio as he confronts the illusions of vengeance while liberating the faithful.",
     aiTip:
       "Norio Tale 2 of 9.",
+    walkthrough: [
+      "Continue Norio's tale as he liberates the faithful in Toyotama.",
+      "Fight through the Mongols holding the captives.",
+      "Help Norio confront his illusions of vengeance.",
+      "Complete the mission and advance his story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
 {
@@ -3080,6 +3092,12 @@ const quests = [
       "Help Kenji chase a rival sake seller and a batch of stolen nattou across Toyotama.",
     aiTip:
       "Kenji Tale 2 of 3.",
+    walkthrough: [
+      "Join Kenji chasing the rival sake seller across Toyotama.",
+      "Follow the trail to the stolen batch of nattou.",
+      "Deal with the rival's thugs.",
+      "Recover the goods and share a laugh with Kenji."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
 {
@@ -3097,6 +3115,12 @@ const quests = [
       "Help Yuna deal ruthlessly with the Mongols hunting her, learning how far she'll go to survive.",
     aiTip:
       "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
+    walkthrough: [
+      "Help Yuna deal with the Mongols hunting her in Izuhara.",
+      "Stalk and assassinate the pursuers using stealth.",
+      "See how far Yuna will go to survive.",
+      "Finish the ruthless job and its quiet reckoning."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
 {
@@ -6227,6 +6251,12 @@ const quests = [
       "A poisoned man clings to life; Geralt gathers the herbs for a cure — or lets nature take its course.",
     aiTip:
       "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
+    walkthrough: [
+      "Talk to the ailing man's family in White Orchard to take the quest.",
+      "Follow your Senses to gather the herbs needed for the antidote.",
+      "Return and brew or deliver the cure.",
+      "Decide whether to save him or let nature run its course."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
   },
 {
@@ -6243,6 +6273,12 @@ const quests = [
       "Geralt investigates who torched the local smith's forge in sleepy White Orchard.",
     aiTip:
       "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
+    walkthrough: [
+      "Speak with the White Orchard smith about his torched forge.",
+      "Examine the burnt forge with your Witcher Senses for clues.",
+      "Follow the trail to the arsonist responsible.",
+      "Confront the culprit and resolve the dispute."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
   },
 {
@@ -6259,6 +6295,12 @@ const quests = [
       "A noonwraith haunts an abandoned village well. Geralt must lure and banish the vengeful spirit.",
     aiTip:
       "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
+    walkthrough: [
+      "Read the notice board contract and reach the abandoned village well.",
+      "Investigate the site by day, then meditate to nightfall to summon the noonwraith.",
+      "Apply Specter Oil, use Yrden to trap it, and dodge its swift strikes.",
+      "Banish the noonwraith and claim the contract reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
   },
 {
@@ -6275,6 +6317,12 @@ const quests = [
       "Part of the Bloody Baron saga: help track the missing Anna and uncover the family's dark story.",
     aiTip:
       "Ties directly into the Baron's main arc — do it before leaving Velen.",
+    walkthrough: [
+      "Continue the Baron's search for his daughter Anna's trail.",
+      "Question the villagers and follow the leads with your Senses.",
+      "Track the party through the woods toward Crookback Bog.",
+      "Uncover the family's dark story and report to the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
 {
@@ -6291,6 +6339,12 @@ const quests = [
       "Villagers near a crossroads are being slain by a grave hag lurking among the dead.",
     aiTip:
       "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
+    walkthrough: [
+      "Take the crossroads contract and inspect the fresh graves.",
+      "Follow the Senses trail to the grave hag's lair.",
+      "Apply Necrophage Oil, use Yrden, and stagger it with Aard.",
+      "Kill the grave hag and collect the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
   },
 {
@@ -6307,6 +6361,12 @@ const quests = [
       "Follow the trail of the sorceress Keira Metz through the swamps of Velen.",
     aiTip:
       "Reading the hidden notes reveals Keira's true motives before you meet her.",
+    walkthrough: [
+      "Pick up Keira Metz's trail in the Velen swamps.",
+      "Follow the tracks and monster clues with your Senses.",
+      "Deal with the drowners and hazards along the way.",
+      "Find Keira and agree to help with her problem."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
   },
 {
@@ -6323,6 +6383,12 @@ const quests = [
       "Geralt and Keira delve into an ancient elven ruin sealed for centuries, chased by a monstrous gargoyle.",
     aiTip:
       "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
+    walkthrough: [
+      "Head to the sealed elven ruin with Keira.",
+      "Descend into the dark, lighting the way and clearing monsters.",
+      "Solve the ruin's puzzles to reach the sealed chamber.",
+      "Escape the pursuing gargoyle and recover what Keira seeks."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
   },
 {
@@ -6339,6 +6405,12 @@ const quests = [
       "Use a captured djinn's lamp to breach a mage's sealed sanctum during Keira's quest.",
     aiTip:
       "Equip the lamp and use it on the shimmering barriers to press forward.",
+    walkthrough: [
+      "Obtain the djinn's lamp and bring it to the sealed sanctum for Keira.",
+      "Use the lamp to dispel the illusions blocking the way.",
+      "Explore the mage's hidden chambers.",
+      "Recover the item and finish Keira's task."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
   },
 {
@@ -6355,6 +6427,12 @@ const quests = [
       "A leshen terrorizes a superstitious hamlet that half-worships it.",
     aiTip:
       "Torch the leshen's totems first, then bring Relict Oil and Igni.",
+    walkthrough: [
+      "Take the leshen contract from the superstitious hamlet.",
+      "Track the leshen with your Senses and gather the ritual clues.",
+      "Choose to kill it or perform the villagers' ritual.",
+      "Resolve the contract and collect payment."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
   },
 {
@@ -6371,6 +6449,12 @@ const quests = [
       "A house is said to be haunted; Geralt investigates the tragic ghost of a devoted dog and its master.",
     aiTip:
       "A short, poignant contract — follow the flowers to piece the story together.",
+    walkthrough: [
+      "Investigate the 'haunted' house in Novigrad.",
+      "Use your Senses to piece together the ghost dog's tragedy.",
+      "Follow the spectral clues through the property.",
+      "Lay the loyal hound's spirit to rest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
   },
 {
@@ -6387,6 +6471,12 @@ const quests = [
       "Geralt moonlights as an actor in Irina's theatre to draw out a lead on Dandelion.",
     aiTip:
       "Ham it up on stage — the performance choices are pure delight and affect the scene.",
+    walkthrough: [
+      "Join Irina's theatre troupe to draw out a lead on Dandelion.",
+      "Rehearse and perform your role on stage, following the cues.",
+      "Handle the on-stage 'monster' and improvisation.",
+      "Learn the informant's tip after the show."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
   },
 {
@@ -6403,6 +6493,12 @@ const quests = [
       "Storm the Whoreson Junior's operation to rescue the captured bard Dandelion.",
     aiTip:
       "Bring good armor; the hideout is a tough multi-wave fight.",
+    walkthrough: [
+      "Storm Whoreson Junior's operation to reach the captive bard.",
+      "Fight through the guards using signs and dodges.",
+      "Search the hideout with your Senses for Dandelion.",
+      "Free Dandelion and get him to safety."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
   },
 {
@@ -6419,6 +6515,12 @@ const quests = [
       "Help Dandelion turn a rundown building into the Chameleon cabaret with an eventful 'date'.",
     aiTip:
       "A charming lighthearted quest — enjoy the banter, low combat.",
+    walkthrough: [
+      "Help Dandelion turn the rundown building into the Chameleon.",
+      "Run the errands to stock and staff the cabaret.",
+      "Go on the eventful 'date' the plan requires.",
+      "Open the Chameleon and wrap up the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
   },
 {
@@ -6435,6 +6537,12 @@ const quests = [
       "Investigate the theft of Dijkstra's fortune, uncovering the pogrom against Novigrad's mages.",
     aiTip:
       "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
+    walkthrough: [
+      "Meet Dijkstra about his stolen treasure beneath the bathhouse.",
+      "Investigate the heist tunnels with your Senses.",
+      "Uncover the pogrom against Novigrad's mages tied to the theft.",
+      "Report your findings and decide how to handle Dijkstra."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
   },
 {
@@ -6451,6 +6559,12 @@ const quests = [
       "Help Triss and the hunted mages of Novigrad evade the witch hunters.",
     aiTip:
       "Ties into the Triss romance path — pursue it if you want that ending.",
+    walkthrough: [
+      "Meet Triss and the hunted mages hiding in Novigrad.",
+      "Help them evade the witch hunters through the city.",
+      "Fight or sneak past the patrols as needed.",
+      "Get the mages to a safer refuge."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
   },
 {
@@ -6467,6 +6581,12 @@ const quests = [
       "A string of romantic rendezvous end in death — a katakan vampire is hunting lovers.",
     aiTip:
       "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
+    walkthrough: [
+      "Take the contract on the string of romantic killings.",
+      "Investigate each rendezvous site with your Senses.",
+      "Bait the katakan out, apply Vampire Oil, and use Moon Dust and Yrden.",
+      "Slay the vampire and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
   },
 {
@@ -6483,6 +6603,12 @@ const quests = [
       "Help Triss run a daring operation to smuggle mages out of Novigrad by sea.",
     aiTip:
       "The auction house infiltration rewards patience over brute force.",
+    walkthrough: [
+      "Plan the sea escape for Novigrad's mages with Triss.",
+      "Secure the ship and bribe or fight your way to the docks.",
+      "Protect the refugees during the tense boarding.",
+      "See the operation through and part ways with Triss."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
   },
 {
@@ -6499,6 +6625,12 @@ const quests = [
       "Follow Ciri's trail on Skellige and learn of the villager Skjall who sheltered her.",
     aiTip:
       "The Wild Hunt flashback battle is scripted — focus on survival.",
+    walkthrough: [
+      "Follow Ciri's trail on Skellige to the village of Larvik.",
+      "Use your Senses to reconstruct what happened to Skjall.",
+      "Trace the events that led Ciri away.",
+      "Honor Skjall's memory and continue the search."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
   },
 {
@@ -6515,6 +6647,12 @@ const quests = [
       "Ciri must complete a Skellige rite to be recognized — with the Wild Hunt closing in.",
     aiTip:
       "A story-driven quest with a memorable Ciri-playable segment.",
+    walkthrough: [
+      "Help Ciri prepare for the Skellige rite while the Hunt closes in.",
+      "Fight off the Wild Hunt warriors that ambush you.",
+      "Complete the trial's steps alongside Ciri.",
+      "Escape and press on with the plan."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
   },
 {
@@ -6531,6 +6669,12 @@ const quests = [
       "Investigate a mage's mysterious death at a coastal alchemical lab.",
     aiTip:
       "Piece together the reagents with Witcher Senses to reconstruct the accident.",
+    walkthrough: [
+      "Reach the coastal alchemical lab and inspect the mage's body.",
+      "Follow the Senses clues around the experiment site.",
+      "Piece together the cause of the deadly accident.",
+      "Resolve the mystery and collect any rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
   },
 {
@@ -6547,6 +6691,12 @@ const quests = [
       "A pale spirit haunts a Skellige homestead, and the truth is a family tragedy.",
     aiTip:
       "Specter Oil and Yrden as always for wraith-type foes.",
+    walkthrough: [
+      "Take the White Lady contract at the haunted homestead.",
+      "Investigate the site and uncover the family tragedy behind the spirit.",
+      "Apply Specter Oil, use Yrden, and dodge the wraith's attacks.",
+      "Banish the White Lady and finish the contract."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
   },
 {
@@ -6563,6 +6713,12 @@ const quests = [
       "A bounty on a nest of monstrous arachasae draws Geralt into the mountains.",
     aiTip:
       "Bring Insectoid Oil and dodge the ranged spit before closing in.",
+    walkthrough: [
+      "Accept the bounty on the arachas nest in the Skellige mountains.",
+      "Climb to the lair, applying Insectoid Oil.",
+      "Use bombs and Aard to break their armored shells.",
+      "Clear the nest and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
   },
 {
@@ -6579,6 +6735,12 @@ const quests = [
       "A Skellige mystery ties an amnesiac stranger to the wider Wild Hunt saga.",
     aiTip:
       "Read the environmental clues; the payoff informs the main story.",
+    walkthrough: [
+      "Investigate the amnesiac stranger tied to the Wild Hunt saga.",
+      "Follow the Senses clues around the Skellige mystery.",
+      "Uncover his connection to the larger story.",
+      "Resolve the tale and its consequences."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
   },
 {
@@ -6595,6 +6757,12 @@ const quests = [
       "Bring the cursed 'Uma' to Kaer Morhen and gather the witchers to attempt a brutal curse-breaking.",
     aiTip:
       "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
+    walkthrough: [
+      "Escort the cursed Uma back to Kaer Morhen.",
+      "Gather the witchers and prepare the brutal curse-breaking ritual.",
+      "Endure the Trial of the Grasses ordeal on Uma.",
+      "Break the curse to reveal the truth it hides."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
   },
 {
@@ -6611,6 +6779,12 @@ const quests = [
       "Possessed by the ghost Vlodimir, Geralt crashes a wedding in the wildest quest in the game.",
     aiTip:
       "Just go with it — the outrageous choices are the whole point and mostly harmless.",
+    walkthrough: [
+      "Summon the ghost Vlodimir to possess Geralt for the wedding.",
+      "Carry the festivities as the rowdy spirit demands.",
+      "Complete each escalating wedding-night antic.",
+      "Send Vlodimir off before dawn to end the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
   },
 {
@@ -6627,6 +6801,12 @@ const quests = [
       "Pull off an elaborate auction-house heist for Olgierd's cursed employer, Gaunter O'Dimm.",
     aiTip:
       "The vault has a fistfight and a puzzle — prep both combat and patience.",
+    walkthrough: [
+      "Plan the auction-house heist for Gaunter O'Dimm's employer.",
+      "Gather the disguise and tools, and scout the vault.",
+      "Pull off the break-in, bypassing the guards.",
+      "Escape with the target and complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
   },
 {
@@ -6643,6 +6823,12 @@ const quests = [
       "Enter the haunted painted world of Iris von Everec to reunite her sundered memories.",
     aiTip:
       "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
+    walkthrough: [
+      "Enter the painted world of Iris von Everec.",
+      "Cross the shifting nightmare, calming or fighting its manifestations.",
+      "Reunite Iris's sundered memories to stabilize the world.",
+      "Recover the rose and leave the painting."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
   },
 {
@@ -6659,6 +6845,12 @@ const quests = [
       "A monstrous killer stalks the fairy-tale duchy of Toussaint; Geralt is summoned to hunt it.",
     aiTip:
       "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
+    walkthrough: [
+      "Answer the summons to Toussaint and take the beast contract.",
+      "Examine the killings and track the creature with your Senses.",
+      "Prepare the right oils and bombs for a higher vampire.",
+      "Confront the Beast of Toussaint and survive the fight."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
   },
 {
@@ -6675,6 +6867,12 @@ const quests = [
       "Investigate a grisly killing tied to the elusive vampire threat haunting Beauclair.",
     aiTip:
       "Vampire Oil and Black Blood are essential against the higher vampires.",
+    walkthrough: [
+      "Investigate the grisly Beauclair killing to start the case.",
+      "Follow the Senses clues linking the deaths.",
+      "Trace the pattern back to the vampire threat.",
+      "Report your findings to advance the mystery."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
   },
 {
@@ -6691,6 +6889,12 @@ const quests = [
       "A witcher of the Cat School has slaughtered a village; Geralt uncovers the grim full story.",
     aiTip:
       "There's a lone survivor — how you handle her is the quest's real weight.",
+    walkthrough: [
+      "Take the Cat School witcher's trail after the village massacre.",
+      "Reconstruct the killings with your Senses to learn the full story.",
+      "Track the rogue witcher to his hideout.",
+      "Confront him and decide his fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
   },
 {
@@ -6707,6 +6911,12 @@ const quests = [
       "Help feuding Toussaint vineyards outmaneuver each other in a series of estate errands.",
     aiTip:
       "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
+    walkthrough: [
+      "Meet the feuding Toussaint vineyards to start the Wine Wars.",
+      "Run each estate's errand — sabotage, deliveries, and favors.",
+      "Play the rivals against each other as instructed.",
+      "Complete the tasks for the vineyard rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
   },
 {
@@ -6723,6 +6933,12 @@ const quests = [
       "A fiend terrorizes travelers in the woods near Oxenfurt (Hearts of Stone).",
     aiTip:
       "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
+    walkthrough: [
+      "Take the Oxenfurt-forest contract on the fiend (Hearts of Stone).",
+      "Track the fiend with your Senses and apply Relict Oil.",
+      "Use Devil's Puffball, Yrden, and dodges against its charges.",
+      "Slay the fiend and collect the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
   },
 {
@@ -6739,6 +6955,12 @@ const quests = [
       "Settle into Corvo Bianco vineyard and set its restoration in motion.",
     aiTip:
       "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
+    walkthrough: [
+      "Arrive at Corvo Bianco and meet your new majordomo.",
+      "Tour the vineyard and note the needed repairs.",
+      "Set the first restoration works in motion.",
+      "Settle in to unlock the estate's ongoing upgrades."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
   },
 {
@@ -6755,6 +6977,12 @@ const quests = [
       "Hunt a monstrous kikimore queen threatening Toussaint's countryside.",
     aiTip:
       "Insectoid Oil and dodge the burrow-and-lunge pattern.",
+    walkthrough: [
+      "Accept the contract on the kikimore queen threatening the countryside.",
+      "Track it to its nest, applying Insectoid Oil.",
+      "Use Dancing Star bombs and Quen against its lunges.",
+      "Kill the kikimore queen and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
   },
 {
@@ -8435,6 +8663,12 @@ const quests = [
       "The Mongol invasion of Tsushima begins; Jin Sakai survives Komoda Beach and vows to take the island back.",
     aiTip:
       "Learn parry and Resolve early — the opening sets the samurai-vs-Ghost tension that drives the game.",
+    walkthrough: [
+      "Survive the Mongol landing at Komoda Beach and escape the battlefield.",
+      "Recover under Yuna's care and reclaim your gear.",
+      "Learn the basics of stance combat and vow to retake Tsushima.",
+      "Set out to rescue Lord Shimura from Castle Kaneda."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
   },
 {
@@ -8452,6 +8686,12 @@ const quests = [
       "Jin embraces dishonorable tactics to survive, wrestling with the samurai code as the Ghost is born.",
     aiTip:
       "This is where 'the Ghost' begins — stealth and terror tactics open up alongside honorable dueling.",
+    walkthrough: [
+      "Follow Yuna toward allies while learning the Ghost's stealth tools.",
+      "Assassinate Mongol patrols to clear the path, wrestling with the samurai code.",
+      "Infiltrate the objective using the new dishonorable tactics.",
+      "Complete the mission as the legend of the Ghost begins."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
   },
 {
@@ -8469,6 +8709,12 @@ const quests = [
       "The assault to reclaim Castle Kaneda and confront Khotun Khan's grip on the Izuhara region.",
     aiTip:
       "A major set-piece battle — master the standoff mechanic to thin enemy ranks before the walls.",
+    walkthrough: [
+      "Gather allies for the assault on Castle Kaneda.",
+      "Infiltrate the castle, clearing Mongols by stealth or open combat.",
+      "Reach and duel the enemy leader inside.",
+      "Free Lord Shimura and secure the Izuhara region."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
   },
 {
@@ -8486,6 +8732,12 @@ const quests = [
       "Jin heads to Toyotama to gather allies and a straw-hat army against the Mongols.",
     aiTip:
       "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
+    walkthrough: [
+      "Travel north to Toyotama to raise support.",
+      "Recruit allies and rally the straw-hat fighters.",
+      "Complete the tasks that build your army against the Mongols.",
+      "Prepare the region for the coming offensive."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
   },
 {
@@ -8503,6 +8755,12 @@ const quests = [
       "Jin uncovers a plan to burn the enemy out — and confronts the cost of the Ghost's methods.",
     aiTip:
       "The poison arc tests Jin's honor; upgrades to the blowgun and Ghost tools pay off here.",
+    walkthrough: [
+      "Uncover the plan to burn the Mongols out of a stronghold.",
+      "Gather the materials and set the trap in motion.",
+      "Execute the fiery assault, clearing defenders.",
+      "Confront the moral cost of the Ghost's methods afterward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
   },
 {
@@ -8520,6 +8778,12 @@ const quests = [
       "Old bonds shatter as the Straw Hat Ronin turn, culminating in a wrenching confrontation.",
     aiTip:
       "An emotional, duel-heavy chapter — sharpen your parry timing for the rival showdown.",
+    walkthrough: [
+      "Respond as the Straw Hat Ronin turn against you.",
+      "Fight through the betrayal across Toyotama.",
+      "Track the traitors to their stronghold.",
+      "Face the wrenching confrontation that ends the arc."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
   },
 {
@@ -8537,6 +8801,12 @@ const quests = [
       "The road to the final reckoning: liberate Kamiagata and face an impossible choice about honor and family.",
     aiTip:
       "The finale offers a defining choice — both endings are worth seeing; make a manual save first.",
+    walkthrough: [
+      "March to Kamiagata for the final reckoning.",
+      "Liberate the region's key strongholds from the Mongols.",
+      "Reach Khotun Khan for the climactic battle.",
+      "Face the impossible choice about honor and family with Lord Shimura."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
   },
 {
@@ -8554,6 +8824,12 @@ const quests = [
       "In Act 3, chase a burning legend through Kamiagata for a fearsome fire technique.",
     aiTip:
       "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
+    walkthrough: [
+      "Begin the Undying Flame tale in Act 3's Kamiagata.",
+      "Chase the burning legend through the region's camps.",
+      "Clear the Mongols guarding the technique.",
+      "Learn the fearsome fire technique as your reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
   },
 {
@@ -8571,6 +8847,12 @@ const quests = [
       "Begin the thief Yuna's questline as she and Jin search for her captured blacksmith brother, Taka.",
     aiTip:
       "First of Yuna's four tales; unlocks after the early story on Tsushima.",
+    walkthrough: [
+      "Start Yuna's tale searching for her brother Taka.",
+      "Follow the leads through Izuhara, clearing Mongols.",
+      "Gather information on Taka's captivity.",
+      "Advance toward his rescue."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
 {
@@ -8588,6 +8870,12 @@ const quests = [
       "Aid Sensei Ishikawa as he tracks his traitorous former student, the archer Tomoe.",
     aiTip:
       "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
+    walkthrough: [
+      "Meet Sensei Ishikawa hunting his traitorous student Tomoe.",
+      "Track Tomoe's trail with the guiding wind.",
+      "Clear the Mongols and bandits in the way.",
+      "Follow the lead to continue the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
 {
@@ -8605,6 +8893,12 @@ const quests = [
       "Join Lady Masako hunting the men who slaughtered Clan Adachi — starting with a village headman.",
     aiTip:
       "First of Masako's revenge tales; expect grim choices.",
+    walkthrough: [
+      "Join Lady Masako hunting Clan Adachi's killers.",
+      "Track the village headman with the guiding wind.",
+      "Fight through his guards.",
+      "Confront the headman and press for the next name."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
 {
@@ -8622,6 +8916,12 @@ const quests = [
       "Get roped into the sake trader Kenji's schemes as he insists he serves the common folk.",
     aiTip:
       "Kenji Tale 1 of 3 — comic relief with a sting.",
+    walkthrough: [
+      "Get roped into Kenji's latest scheme in Izuhara.",
+      "Run his errands and clear the Mongols they attract.",
+      "Play along with his 'serving the people' act.",
+      "Finish the job and its comedic payoff."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
   },
 {
@@ -8639,6 +8939,12 @@ const quests = [
       "Meet the naginata-wielding monk Norio as he fights to reclaim Cedar Temple from the Mongols.",
     aiTip:
       "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
+    walkthrough: [
+      "Meet the warrior monk Norio fighting for Cedar Temple.",
+      "Help him retake the temple from the Mongols.",
+      "Clear the grounds by stealth or open combat.",
+      "Secure the temple and begin Norio's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
 {
@@ -8656,6 +8962,12 @@ const quests = [
       "Follow foxes to hidden Inari shrines to earn charm slots and blessings across Tsushima.",
     aiTip:
       "More charm slots = more build flexibility. Pet the fox afterward — it's the law.",
+    walkthrough: [
+      "Spot a fox near a Fox Den and follow it.",
+      "Chase the fox to the hidden Inari Shrine.",
+      "Pray at the shrine to earn a charm slot or blessing.",
+      "Repeat at dens across Tsushima to expand your charms."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
   },
 {
@@ -8673,6 +8985,12 @@ const quests = [
       "Climb the treacherous mountain paths to Tsushima's Shinto shrines for powerful charms.",
     aiTip:
       "These are platforming puzzles more than combat — take your time on the ledges.",
+    walkthrough: [
+      "Locate a Shinto Shrine and find the climbing path.",
+      "Scale the treacherous cliffs and ledges to the top.",
+      "Navigate the platforming hazards carefully.",
+      "Reach the shrine to claim a powerful charm."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
   },
 {
@@ -8690,6 +9008,12 @@ const quests = [
       "Complete the button-sequence bamboo-cutting trials to permanently raise Jin's Resolve.",
     aiTip:
       "More Resolve means more healing and Ghost abilities in combat — a priority pickup.",
+    walkthrough: [
+      "Find a Bamboo Strike site and begin the trial.",
+      "Input the escalating button sequences quickly and accurately.",
+      "Complete each cut to pass the trial.",
+      "Earn a permanent Resolve increase."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
   },
 {
@@ -8707,6 +9031,12 @@ const quests = [
       "Compose haiku for cosmetic headbands and bathe in hot springs to increase maximum health.",
     aiTip:
       "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
+    walkthrough: [
+      "Reach a Haiku spot or Hot Spring in the wild.",
+      "For haiku, compose verses by choosing evocative lines for a headband.",
+      "For hot springs, soak and reflect to raise maximum health.",
+      "Seek out more across the island for their rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
   },
 {
@@ -8724,6 +9054,12 @@ const quests = [
       "Seek out the Pillars of Honor to challenge fearsome swordsmen in one-on-one duels.",
     aiTip:
       "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
+    walkthrough: [
+      "Travel to a Pillar of Honor to find a waiting swordsman.",
+      "Accept the one-on-one duel.",
+      "Read the enemy's stance and time your parries and strikes.",
+      "Win the duel to claim honor and rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
   },
 {
@@ -8741,6 +9077,12 @@ const quests = [
       "Loot Mongol camps and artifacts to gather supplies, lore records, and cosmetic rewards.",
     aiTip:
       "Clearing camps also liberates the map — combine collection runs with liberation.",
+    walkthrough: [
+      "Raid Mongol camps and search for artifacts and records.",
+      "Clear the defenders by stealth or combat.",
+      "Loot supplies, records, and cosmetic items.",
+      "Move on to the next site to keep collecting."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
   },
 {
@@ -8758,6 +9100,12 @@ const quests = [
       "Jin travels to Iki Island to counter a new Mongol threat and confront traumatic memories of his father.",
     aiTip:
       "Kicks off the Director's Cut Iki expansion — a self-contained region with new mechanics and animal sanctuaries.",
+    walkthrough: [
+      "Sail to Iki Island to counter the new Mongol threat.",
+      "Get captured and dosed with the Eagle's hallucinogen, then escape.",
+      "Push through visions of your father while rallying the locals.",
+      "Advance the Iki campaign toward the Eagle."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -8775,6 +9123,12 @@ const quests = [
       "Face the shaman known as the Eagle and the mind-bending poisons she wields against Jin.",
     aiTip:
       "The Iki hallucination sequences are unique boss encounters — steel yourself for them.",
+    walkthrough: [
+      "Track the shaman known as the Eagle across Iki Island.",
+      "Push through her mind-bending poison visions.",
+      "Clear her followers guarding the way.",
+      "Confront the Eagle to break her hold."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -10427,6 +10781,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt and Vesemir follow Yennefer's summons to war-torn White Orchard, hunting a griffin along the way.",
     aiTip:
       "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
+    walkthrough: [
+      "Ride out from Kaer Morhen with Vesemir toward White Orchard, following Yennefer's summons.",
+      "Reach the White Orchard inn and ask the locals about a witcher's contract and Yen's whereabouts.",
+      "Take the griffin lead to fund your stay, tracking it with your Witcher Senses.",
+      "Report back after the hunt to continue toward Vizima."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
   },
 {
@@ -10443,6 +10803,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track and slay the royal griffin terrorizing White Orchard to earn passage and information.",
     aiTip:
       "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
+    walkthrough: [
+      "Buy the griffin contract details and study the beast's nest with your Witcher Senses.",
+      "Craft or buy Grapeshot bombs and apply Hybrid Oil to your silver sword.",
+      "Lure the griffin down, dodge its aerial dives, and stagger it with Aard.",
+      "Slay the royal griffin and collect its head for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
   },
 {
@@ -10459,6 +10825,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt is escorted to Emperor Emhyr, who hires him to find Ciri before the Wild Hunt does.",
     aiTip:
       "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
+    walkthrough: [
+      "Travel with the Nilfgaardian escort to Emperor Emhyr in Vizima.",
+      "Bathe and dress before the audience, then present yourself in the throne room.",
+      "Accept the contract to find Ciri ahead of the Wild Hunt.",
+      "Leave Vizima with the leads pointing toward Velen."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
   },
 {
@@ -10475,6 +10847,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase Ciri's trail to Velen's Bloody Baron, following a Nilfgaardian informant network.",
     aiTip:
       "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
+    walkthrough: [
+      "Head to the Nilfgaardian garrison and question the informant about Ciri.",
+      "Follow the trail to the hanged man's tree and the deserters nearby.",
+      "Clear the bandits and read the letter pointing to the Bloody Baron.",
+      "Ride to Crow's Perch to meet the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
   },
 {
@@ -10491,6 +10869,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help the Bloody Baron find his missing wife and daughter in exchange for news of Ciri.",
     aiTip:
       "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
+    walkthrough: [
+      "Strike a deal with the Bloody Baron at Crow's Perch for news of Ciri.",
+      "Investigate the manor and the botched-childbirth clues with your Senses.",
+      "Fight the succubus-like spirit and follow the trail to the missing family.",
+      "Decide the fate of the Baron's wife and daughter to resolve the story."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
   },
 {
@@ -10507,6 +10891,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the sinister Crones of Crookback Bog and the Ghost in the Whispering Hillock.",
     aiTip:
       "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
+    walkthrough: [
+      "Enter Crookback Bog and bargain with the Crones on the Baron's behalf.",
+      "Investigate the Whispering Hillock and choose to free or destroy the trapped spirit.",
+      "Return to the Crones and deal with the fallout of your choice.",
+      "Learn where Ciri went and report back to the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
   },
 {
@@ -10523,6 +10913,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Search Novigrad's underworld for Dandelion by retracing his romances and debts.",
     aiTip:
       "Visit all the leads — the trail winds through the city's most colorful characters.",
+    walkthrough: [
+      "Reach Novigrad and start retracing Dandelion's steps through his old flames.",
+      "Question Priscilla, then the courtesans and associates he wronged.",
+      "Play the Gwent or persuasion beats to pry loose each lead.",
+      "Follow the clues to Whoreson Junior's operation."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
   },
 {
@@ -10539,6 +10935,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take down the sadistic crime boss Whoreson Junior to rescue Dandelion.",
     aiTip:
       "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
+    walkthrough: [
+      "Team with Dijkstra, Roche, or the gangs to hit Whoreson Junior's hideouts.",
+      "Raid the casino and fight-club fronts, using your Senses to find the trail.",
+      "Storm Junior's mansion and defeat his guards.",
+      "Confront Junior, decide his fate, and rescue Dandelion's lead."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
   },
 {
@@ -10555,6 +10957,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The mad king Radovid offers help finding Dandelion's associates — for a price.",
     aiTip:
       "Radovid is dangerous; his questline steers Novigrad's political ending.",
+    walkthrough: [
+      "Meet the mad King Radovid aboard his ship as arranged.",
+      "Agree to help find Dandelion's associate in exchange for information.",
+      "Track down the target through Novigrad with your Senses.",
+      "Report the result and weigh the cost of dealing with Radovid."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
   },
 {
@@ -10573,6 +10981,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Broker between Dijkstra, Roche, and the city's gangs to plot against Radovid.",
     aiTip:
       "Sets up the Novigrad power struggle — choices here decide who rules the North.",
+    walkthrough: [
+      "Broker meetings between Dijkstra, Roche, Thaler, and the city's power players.",
+      "Complete each faction's task to earn their cooperation.",
+      "Advance the plot to unseat Radovid.",
+      "Rally the conspirators for the plan against the king."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
   },
 {
@@ -10589,6 +11003,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Sail to the storm-lashed isles of Skellige to continue the hunt for Ciri.",
     aiTip:
       "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
+    walkthrough: [
+      "Book passage from Novigrad's docks to Skellige.",
+      "Weather the storm and shipwreck, then reach Kaer Trolde harbor.",
+      "Get your bearings in Clan an Craite's hall.",
+      "Pick up the trail of Ciri and the mage Ermion."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
   },
 {
@@ -10605,6 +11025,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A royal wedding turns to bloodshed as Skellige's succession crisis explodes.",
     aiTip:
       "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
+    walkthrough: [
+      "Attend the royal wedding feast at Kaer Trolde with the clans.",
+      "React as the celebration erupts into bloodshed and a succession crisis.",
+      "Fight through the attackers alongside your allies.",
+      "Deal with the aftermath and the question of Skellige's throne."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
   },
 {
@@ -10621,6 +11047,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The pieces come together on Skellige as Geralt finally closes on Ciri and Uma's curse.",
     aiTip:
       "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
+    walkthrough: [
+      "Follow the leads on Skellige tying Uma to Ciri's trail.",
+      "Investigate the clues with Yennefer and Ermion.",
+      "Piece together where Ciri was last seen.",
+      "Prepare to break Uma's curse and find Ciri."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
   },
 {
@@ -10637,6 +11069,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt braves the cursed Isle of Mists to find Ciri — a pivotal, mood-defining chapter.",
     aiTip:
       "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
+    walkthrough: [
+      "Sail to the cursed Isle of Mists and search for Ciri.",
+      "Cross the fog-bound island, clearing wraiths and hazards.",
+      "Find and revive Ciri at the island's heart.",
+      "Escape the isle and set course for Kaer Morhen."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
   },
 {
@@ -10653,6 +11091,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rally the witchers, sorceresses, and friends to defend Kaer Morhen against the Wild Hunt.",
     aiTip:
       "Recruit as many allies beforehand as you can — it changes who survives the siege.",
+    walkthrough: [
+      "Gather your allies and fortify Kaer Morhen against the coming assault.",
+      "Set traps and assign defenders before the Wild Hunt arrives.",
+      "Fight through the waves of Hunt warriors across the keep.",
+      "Battle Imlerith's forces and survive the siege."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
   },
 {
@@ -10669,6 +11113,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up the pieces after the Wild Hunt's assault and steady Ciri for the road ahead.",
     aiTip:
       "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
+    walkthrough: [
+      "Regroup after the assault and tend to the fallen at Kaer Morhen.",
+      "Comfort and steady Ciri through her grief.",
+      "Take part in the wake with the witchers and sorceresses.",
+      "Ready the party for the march on Bald Mountain."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
   },
 {
@@ -10685,6 +11135,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt and Ciri storm Bald Mountain to end the Crones and unleash Ciri's Elder Blood.",
     aiTip:
       "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
+    walkthrough: [
+      "Travel with Ciri to Bald Mountain to end the Crones.",
+      "Fight up the mountain through the Hunt's General Imlerith's guards.",
+      "Defeat Imlerith in single combat, using Quen and dodges.",
+      "Let Ciri confront the Crones and unleash her Elder Blood."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
   },
 {
@@ -10701,6 +11157,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Travel with Avallac'h across shattered worlds via magic portals to find a way to stop the White Frost.",
     aiTip:
       "A surreal, linear chapter — enjoy the alien vistas between fights.",
+    walkthrough: [
+      "Meet Avallac'h and step through the magic portals with Ciri.",
+      "Cross the shattered worlds, solving each realm's short challenge.",
+      "Learn the plan to lure and stop the White Frost.",
+      "Return to prepare the final confrontation."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
   },
 {
@@ -10717,6 +11179,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The climactic confrontation with the Wild Hunt's king, Eredin Bréacc Glas.",
     aiTip:
       "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
+    walkthrough: [
+      "Rally your allies for the last stand against the Wild Hunt at Undvik.",
+      "Fight through Eredin's warriors across the frozen battlefield.",
+      "Duel Eredin Bréacc Glas — dodge his teleport strikes and punish with Igni.",
+      "Send Ciri to face the White Frost and end the Hunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
   },
 {
@@ -10733,6 +11201,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The quiet epilogue where Geralt's and Ciri's fates are sealed by everything you've done.",
     aiTip:
       "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
+    walkthrough: [
+      "Play out the quiet epilogue as the dust settles.",
+      "Follow the beats determined by your earlier choices about Ciri.",
+      "See the resolutions for Geralt's allies and loves.",
+      "Reach the ending your decisions have shaped."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
   },
 {
@@ -10749,6 +11223,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bound to the immortal Olgierd von Everec by Gaunter O'Dimm, Geralt must grant three impossible wishes.",
     aiTip:
       "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
+    walkthrough: [
+      "Take the prison-break contract that binds you to Olgierd von Everec (Hearts of Stone).",
+      "Escape the Oxenfurt garrison and meet Gaunter O'Dimm.",
+      "Accept the pact to grant Olgierd three impossible wishes.",
+      "Set out on the first of Olgierd's demands."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
   },
 {
@@ -10765,6 +11245,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fulfill Olgierd's first bizarre wish involving a rowdy wedding and a runaway spirit.",
     aiTip:
       "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
+    walkthrough: [
+      "Attend the rowdy wedding to fulfill Olgierd's first wish.",
+      "Get possessed by the merry ghost Vlodimir and play the reveler.",
+      "Chase down the runaway spirit through the festivities.",
+      "Complete the wish and report back to Olgierd."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
   },
 {
@@ -10781,6 +11267,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The reckoning with Gaunter O'Dimm — outwit the devil in a deadly riddle to save your soul.",
     aiTip:
       "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
+    walkthrough: [
+      "Meet Gaunter O'Dimm at the Garin estate for the final reckoning.",
+      "Enter the mirror-world and solve O'Dimm's deadly riddle before time runs out.",
+      "Use the environmental clues to find the hidden answer.",
+      "Outwit the devil to save your soul and free Olgierd — or not."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
   },
 {
@@ -10797,6 +11289,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Duchess Anna Henrietta's knights summon Geralt to fairy-tale Toussaint to hunt a beast slaying knights.",
     aiTip:
       "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
+    walkthrough: [
+      "Answer the Toussaint knights' summons and ride to Beauclair (Blood and Wine).",
+      "Meet Duchess Anna Henrietta and take the contract on the beast.",
+      "Investigate the latest knight-killing with your Senses.",
+      "Follow the trail toward the creature behind the murders."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
 {
@@ -10813,6 +11311,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the grisly knight-killings plaguing Beauclair and the higher vampire behind them.",
     aiTip:
       "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
+    walkthrough: [
+      "Examine each knight-killing site in and around Beauclair.",
+      "Trace the higher vampire's pattern with your Witcher Senses.",
+      "Confront the beast — apply vampire oil and use Moon Dust bombs.",
+      "Survive the fight and uncover Dettlaff's role."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
   },
 {
@@ -10829,6 +11333,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase the vampire Dettlaff through Beauclair as the conspiracy tightens around Syanna.",
     aiTip:
       "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
+    walkthrough: [
+      "Track Dettlaff through Beauclair's streets and sewers.",
+      "Follow the blood trail and interrogate witnesses.",
+      "Fight through the ambushes as the conspiracy tightens.",
+      "Learn the truth about Syanna's part in the scheme."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
   },
 {
@@ -10845,6 +11355,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Delve into vampire history with Regis to find a way to stop Dettlaff's rampage.",
     aiTip:
       "Regis is a fantastic companion here — soak in the lore before the finale.",
+    walkthrough: [
+      "Travel to the ruined castle Tesham Mutna with Regis.",
+      "Delve the vampire history and defenses within.",
+      "Solve the trials to find a way to stop Dettlaff.",
+      "Recover what you need for the confrontation to come."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
   },
 {
@@ -10861,6 +11377,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Enter the storybook Land of a Thousand Fables to find the runaway Syanna.",
     aiTip:
       "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
+    walkthrough: [
+      "Enter the storybook Land of a Thousand Fables to find Syanna.",
+      "Solve the fairy-tale set-pieces and help (or trick) their characters.",
+      "Reach Syanna and learn her side of the tragedy.",
+      "Leave the fable world and prepare for the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
   },
 {
@@ -10877,6 +11399,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The climax of Blood and Wine, where the fate of Dettlaff, Syanna, and the duchess is decided.",
     aiTip:
       "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
+    walkthrough: [
+      "Bring Syanna to the duchess and try to broker peace with Dettlaff.",
+      "Make the pivotal choices that decide who lives and dies.",
+      "Fight Dettlaff in his monstrous higher-vampire form if it comes to blows.",
+      "See Blood and Wine to its bittersweet close."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
   },
 {
@@ -10893,6 +11421,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help a refugee forge papers to escape Velen's war and the Nilfgaardian dragnet.",
     aiTip:
       "A small mercy quest — the outcome depends on trusting the right smuggler.",
+    walkthrough: [
+      "Meet the refugee needing forged papers to flee Velen.",
+      "Gather the required documents or bribe the right official.",
+      "Deliver the forgery and help them slip the Nilfgaardian dragnet.",
+      "See them safely on their way."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
   },
 {
@@ -10909,6 +11443,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a bog 'god' extorting a village and decide the fate of the creature behind it.",
     aiTip:
       "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
+    walkthrough: [
+      "Investigate the bog 'god' extorting the village.",
+      "Use your Senses to find the creature behind the scam.",
+      "Confront the godling or monster responsible.",
+      "Decide its fate and free the village."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
   },
 {
@@ -10925,6 +11465,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An elf begs Geralt to help find her people amid the ruins of a flooded elven bath house.",
     aiTip:
       "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
+    walkthrough: [
+      "Agree to help the elf search for her missing people.",
+      "Explore the flooded elven bath house, clearing hazards.",
+      "Follow the Senses clues to what became of them.",
+      "Resolve the grim discovery with the elf."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
   },
 {
@@ -10941,6 +11487,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the Nilfgaardian soldiers desecrating the dead across Velen's battlefields.",
     aiTip:
       "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
+    walkthrough: [
+      "Take on the Nilfgaardian soldiers desecrating Velen's dead.",
+      "Track them across the battlefields with your Senses.",
+      "Confront and defeat the offenders.",
+      "Let the dead be laid to rest and finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
   },
 {
@@ -10957,6 +11509,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a haunted, abandoned estate and the tragedy that cursed the Reardon family.",
     aiTip:
       "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
+    walkthrough: [
+      "Enter the haunted Reardon estate and investigate.",
+      "Use your Senses to uncover the family's tragedy.",
+      "Deal with the spirit haunting the grounds.",
+      "Resolve the curse and claim any loot."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
   },
 {
@@ -10973,6 +11531,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play Novigrad's finest Gwent players to win rare cards for your collection.",
     aiTip:
       "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
+    walkthrough: [
+      "Seek out Novigrad's top Gwent players for the collection quest.",
+      "Beat each named player in a match to win their rare card.",
+      "Build your deck as you go to keep winning.",
+      "Collect every card the quest requires."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
   },
 {
@@ -10989,6 +11553,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Tour the taverns of Velen and Novigrad beating innkeepers at Gwent.",
     aiTip:
       "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
+    walkthrough: [
+      "Tour the taverns of Velen and Novigrad challenging innkeepers.",
+      "Beat each innkeep at Gwent for coin and cards.",
+      "Improve your deck between matches.",
+      "Clear all the innkeepers to finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
   },
 {
@@ -11005,6 +11575,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover a witch-hunter plot targeting Triss and the fleeing mages of Novigrad.",
     aiTip:
       "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
+    walkthrough: [
+      "Investigate the witch-hunter plot targeting Triss and the mages.",
+      "Follow the leads through Novigrad with your Senses.",
+      "Disrupt the hunters' scheme.",
+      "Protect the mages and report to Triss."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
   },
 {
@@ -11021,6 +11597,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A lighthouse keeper's death has loosed a vicious wraith on a Skellige isle.",
     aiTip:
       "Restore the lighthouse flame and use Yrden against the penitent wraith.",
+    walkthrough: [
+      "Take the Phantom of Eldberg contract on the Skellige isle.",
+      "Relight or investigate the lighthouse to draw out the wraith.",
+      "Apply Specter Oil, use Yrden, and dodge its strikes.",
+      "Banish the phantom and collect the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
   },
 {
@@ -11037,6 +11619,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A woman's brother has vanished on the road; follow the grisly trail to the culprit.",
     aiTip:
       "An early contract that teaches monster tracking with Witcher Senses.",
+    walkthrough: [
+      "Accept the missing-brother contract in White Orchard.",
+      "Follow the grisly trail from the road with your Senses.",
+      "Track the monster or culprit to its lair.",
+      "Deal with the threat and report the outcome."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
   },
 {
@@ -11053,6 +11641,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Villagers near a crossroads are slain by a grave hag feeding on the war dead.",
     aiTip:
       "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
+    walkthrough: [
+      "Take the grave hag contract near the Velen crossroads.",
+      "Inspect the war graves and follow the Senses trail.",
+      "Apply Necrophage Oil, trap it with Yrden, and stagger with Aard.",
+      "Slay the grave hag and claim the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
   },
 {
@@ -11069,6 +11663,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A 'drunk' terrorizing Oxenfurt's outskirts turns out to be something far worse.",
     aiTip:
       "Investigate the attacks first — the true culprit isn't the obvious one.",
+    walkthrough: [
+      "Take the Oxenfurt-drunk contract (Hearts of Stone).",
+      "Investigate the attacks to reveal the true monster.",
+      "Prepare the matching oil and bombs, then confront it.",
+      "Kill the creature and collect payment."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
   },
 {
@@ -11085,6 +11685,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow old maps to recover the fast, light Feline (Cat) School witcher gear.",
     aiTip:
       "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
+    walkthrough: [
+      "Buy or find the Feline (Cat) School gear map.",
+      "Travel to each marked ruin and recover a diagram.",
+      "Clear the guardians protecting each cache.",
+      "Craft the light, fast Cat School gear at a smith."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
   },
 {
@@ -11101,6 +11707,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track down the Griffin School gear diagrams, ideal for a Sign-focused build.",
     aiTip:
       "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
+    walkthrough: [
+      "Obtain the Griffin School gear diagrams' map in Velen.",
+      "Visit each site and defeat its guardians for a diagram.",
+      "Gather all the pieces of the set.",
+      "Craft the Sign-focused Griffin School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
   },
 {
@@ -11117,6 +11729,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Climb Skellige's peaks and dive its wrecks for the heavy, tanky Ursine gear.",
     aiTip:
       "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
+    walkthrough: [
+      "Get the Ursine (Bear) School gear map on Skellige.",
+      "Climb the peaks and dive the wrecks to recover each diagram.",
+      "Clear the monsters guarding the caches.",
+      "Craft the heavy, tanky Bear School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
   },
 {
@@ -11133,6 +11751,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the balanced Wolf School gear scattered around Kaer Morhen and Velen.",
     aiTip:
       "A well-rounded set — a safe default while you gather the specialized schools.",
+    walkthrough: [
+      "Find the Wolf School gear map near Kaer Morhen.",
+      "Recover each diagram scattered around Kaer Morhen and Velen.",
+      "Defeat the guardians at each location.",
+      "Craft the balanced Wolf School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
   },
 {
@@ -11149,6 +11773,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Hunt the Manticore School gear across Toussaint for a potent alchemy-focused set.",
     aiTip:
       "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
+    walkthrough: [
+      "Obtain the Manticore School gear map in Toussaint (Blood and Wine).",
+      "Hunt down each diagram across the duchy.",
+      "Clear the guardians blocking the caches.",
+      "Craft the alchemy-focused Manticore School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
   },
 {
@@ -11165,6 +11795,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Beat Skellige's toughest brawlers in bare-knuckle boxing matches.",
     aiTip:
       "Dodge and counter — trading blows with the islanders is a losing game.",
+    walkthrough: [
+      "Seek out Skellige's brawl organizers to enter the fights.",
+      "Beat each challenger in bare-knuckle boxing, timing dodges and counters.",
+      "Advance through the toughest brawlers.",
+      "Win the final bout to claim the prize."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
   },
 {
@@ -12281,6 +12917,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rescue a captured blacksmith to keep Jin's growing resistance armed.",
     aiTip:
       "An early Act 1 tale — rescuing allies expands your support network.",
+    walkthrough: [
+      "Take the mission to rescue the captured blacksmith.",
+      "Infiltrate the Mongol camp holding him by stealth or force.",
+      "Free the smith and fight your way out.",
+      "Return him safely to keep the resistance armed."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
   },
 {
@@ -12298,6 +12940,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the grappling hook that opens up Tsushima's cliffs and hidden paths.",
     aiTip:
       "The hook is a major traversal upgrade — grab it before exploring the peaks.",
+    walkthrough: [
+      "Pursue the lead on the grappling hook.",
+      "Clear the site holding it, using stealth where possible.",
+      "Recover the Iron Hook to unlock new traversal.",
+      "Use it to reach previously blocked cliffs and paths."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
   },
 {
@@ -12315,6 +12963,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Aid the war effort by securing the means to craft the Ghost's deadly tools.",
     aiTip:
       "Unlocks key Ghost weapons — a turning point in Jin's tactics.",
+    walkthrough: [
+      "Secure the forge and materials for the Ghost's tools.",
+      "Escort or protect the smith as the war effort demands.",
+      "Clear the Mongols threatening the operation.",
+      "Complete the task to expand your arsenal."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
   },
 {
@@ -12332,6 +12986,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront Jin's desperate old friend Ryuzo as the Straw Hats side with the Mongols.",
     aiTip:
       "An emotionally charged duel — sharpen your parry timing beforehand.",
+    walkthrough: [
+      "Confront your old friend Ryuzo as the Straw Hats side with the Mongols.",
+      "Fight through his men across Toyotama.",
+      "Reach Ryuzo for the tense showdown.",
+      "Resolve the duel and its fallout."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
   },
 {
@@ -12349,6 +13009,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Break the Mongol hold on a key Toyotama stronghold to rally the region.",
     aiTip:
       "A large-scale assault — use stealth to thin the garrison before going loud.",
+    walkthrough: [
+      "Plan the assault on the key Toyotama stronghold.",
+      "Infiltrate and clear the Mongol garrison.",
+      "Defeat the region's Mongol jito.",
+      "Rally Toyotama to your cause."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
   },
 {
@@ -12366,6 +13032,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Jin fully embraces the Ghost's fearsome reputation as the war in Toyotama peaks.",
     aiTip:
       "The Ghost's terror tactics come into full force — lean into fear-based play.",
+    walkthrough: [
+      "Lean fully into the Ghost's fearsome reputation.",
+      "Use terror tactics and stealth to break the Mongols' hold.",
+      "Clear the objective as the Toyotama war peaks.",
+      "Set up the push toward Kamiagata."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
   },
 {
@@ -12383,6 +13055,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Root out betrayal and reclaim northern Kamiagata as the final reckoning nears.",
     aiTip:
       "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
+    walkthrough: [
+      "Root out the betrayal threatening northern Kamiagata.",
+      "Investigate and track the traitors.",
+      "Reclaim the region's strongholds.",
+      "Prepare for the final reckoning with Khotun Khan."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
   },
 {
@@ -12400,6 +13078,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The quiet aftermath of Jin's war — the honor-versus-survival theme reaches its close.",
     aiTip:
       "Follows the main finale; your defining choice colors this epilogue.",
+    walkthrough: [
+      "Play through the quiet aftermath of Jin's war.",
+      "Follow the closing beats of the honor-versus-survival theme.",
+      "See the fates of Jin and his allies resolve.",
+      "Reach the story's conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
   },
 {
@@ -12417,6 +13101,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On Iki, Jin hunts for a captured ally while battling hallucinogenic Mongol poisons.",
     aiTip:
       "The Eagle's hallucinations are unique encounters — steel yourself for the trippy set pieces.",
+    walkthrough: [
+      "Begin the Iki search for a captured ally.",
+      "Endure the hallucinogenic Mongol poisons as you press on.",
+      "Clear the camps holding your friend.",
+      "Complete the rescue and advance the Iki tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -12434,6 +13124,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the shaman known as the Eagle in the climax of the Iki Island expansion.",
     aiTip:
       "A tough finale duel — the Eagle's mind-games make it as much mental as mechanical.",
+    walkthrough: [
+      "Reach the climax of the Iki expansion against the Eagle.",
+      "Fight through her stronghold's defenders.",
+      "Duel the Eagle amid her poison illusions.",
+      "End her threat to close the expansion's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -12451,6 +13147,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play Jin's flute to soothe Iki's wildlife and unlock sanctuaries and cosmetics.",
     aiTip:
       "Relaxing rhythm minigames — a lovely break from the fighting.",
+    walkthrough: [
+      "Find an Iki Island Animal Sanctuary.",
+      "Play Jin's flute, matching the on-screen rhythm prompts.",
+      "Complete the tune to soothe the wildlife.",
+      "Unlock the sanctuary's cosmetic rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -12468,6 +13170,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow Ishikawa deeper into his history with Tomoe as old wounds resurface.",
     aiTip:
       "Part of the Unbending Archer questline; verify against a guide if replaying.",
+    walkthrough: [
+      "Continue Ishikawa's tale into his history with Tomoe.",
+      "Track the next lead with the guiding wind.",
+      "Clear the enemies standing in the way.",
+      "Advance the Sensei-and-Student story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
 {
@@ -16545,6 +17253,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Track a brutal Mongol commander known as the Black Wolf alongside Yuna.",
     aiTip:
       "Yuna Tale 3 of 4.",
+    walkthrough: [
+      "Take up the hunt for the Black Wolf with Yuna.",
+      "Track the brutal commander through Izuhara.",
+      "Clear his camps and guards.",
+      "Confront the Black Wolf and advance Yuna's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
   },
 {
@@ -16562,6 +17276,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Close out Yuna's story as her search for Taka reaches its emotional end.",
     aiTip:
       "Yuna Tale 4 of 4.",
+    walkthrough: [
+      "Reach the emotional end of Yuna's search for Taka.",
+      "Follow the final leads and clear the Mongols.",
+      "Confront the truth of Taka's fate.",
+      "Close out Yuna's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
   },
 {
@@ -16579,6 +17299,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Train and hunt with Ishikawa as he teaches Jin the discipline of the bow.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Train with Ishikawa in the way of the bow.",
+      "Follow his hunt, practicing precise archery.",
+      "Clear the targets and enemies he sets.",
+      "Master the lesson to advance his tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
   },
 {
@@ -16596,6 +17322,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Pursue Tomoe as she aids the Mongols' ambitions across Toyotama.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Pursue Tomoe as she aids the Mongols in Toyotama.",
+      "Track her movements with the guiding wind.",
+      "Clear the forces protecting her plans.",
+      "Follow the lead to continue the hunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
   },
 {
@@ -16613,6 +17345,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the darker rumors about Ishikawa as the hunt for Tomoe intensifies.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Confront the darker rumors about Ishikawa's past.",
+      "Investigate the leads on Tomoe.",
+      "Fight through the Mongols and doubters in the way.",
+      "Press on as the hunt for Tomoe intensifies."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
   },
 {
@@ -16630,6 +17368,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Chase Tomoe to Otsuna, where her reign of terror must finally be answered.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Chase Tomoe to Otsuna in Kamiagata.",
+      "Clear the stronghold where she's making her stand.",
+      "Reach Tomoe for the confrontation.",
+      "Answer her reign of terror to advance the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
   },
 {
@@ -16647,6 +17391,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A quieter beat in Ishikawa's story as allies come and go.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Play through this quieter beat in Ishikawa's story.",
+      "Follow the guiding wind to the next meeting.",
+      "Handle the smaller skirmish along the way.",
+      "Reflect with Ishikawa as allies come and go."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
   },
 {
@@ -16664,6 +17414,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring the Sensei and the Student saga to its bittersweet conclusion.",
     aiTip:
       "Final Ishikawa tale — completes the Unbending Archer.",
+    walkthrough: [
+      "Bring the Sensei-and-Student saga to its close.",
+      "Track down the final lead on Tomoe.",
+      "Fight or duel to the story's climax.",
+      "See the bittersweet conclusion through."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
   },
 {
@@ -16681,6 +17437,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Follow a lead to one of the Adachi conspirators — a man hiding behind his marriage.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Follow Masako's lead to the conspirator hiding behind his marriage.",
+      "Track him with the guiding wind and question witnesses.",
+      "Clear his guards.",
+      "Confront the husband and learn the next name."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
   },
 {
@@ -16698,6 +17460,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unmask a traitor who sold out Clan Adachi from within.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Hunt the traitor who sold out Clan Adachi.",
+      "Follow the trail with Masako.",
+      "Fight through the defenders.",
+      "Unmask the traitor and press on."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
   },
 {
@@ -16715,6 +17483,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Track a foolish accomplice in the Adachi massacre.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Track the foolish accomplice in the Adachi massacre.",
+      "Follow the guiding wind to his hideout.",
+      "Clear the enemies in the way.",
+      "Confront him to continue Masako's revenge."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
   },
 {
@@ -16732,6 +17506,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Weigh mercy against vengeance when a killer turns out to be a devoted father.",
     aiTip:
       "Masako revenge tale — a hard choice.",
+    walkthrough: [
+      "Corner the killer who turns out to be a devoted father.",
+      "Investigate and track him down.",
+      "Clear his guards.",
+      "Weigh mercy against vengeance in the confrontation."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
   },
 {
@@ -16749,6 +17529,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hunt a thief tangled up in the betrayal of Masako's family.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Hunt the thief tied to the betrayal of Masako's family.",
+      "Follow the leads with the guiding wind.",
+      "Fight through the obstacles.",
+      "Catch the thief and learn what he knows."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
   },
 {
@@ -16766,6 +17552,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Close in on the conspirator orchestrating the Adachi killings.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Close in on the conspirator behind the Adachi killings.",
+      "Track him to his Toyotama stronghold.",
+      "Clear the defenders.",
+      "Confront the conspirator to near the truth."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
   },
 {
@@ -16783,6 +17575,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach the wrenching heart of Masako's revenge — the sister who betrayed her.",
     aiTip:
       "Completes the Vengeful Warrior.",
+    walkthrough: [
+      "Reach the heart of Masako's revenge in Toyotama.",
+      "Follow the final trail to the sister who betrayed her.",
+      "Fight through to the confrontation.",
+      "Face the wrenching truth and resolve the saga."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
   },
 {
@@ -16800,6 +17598,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A quiet, optional coda to Masako's story about the family she lost.",
     aiTip:
       "Bonus tale — unlocks after The Husband.",
+    walkthrough: [
+      "Begin the optional coda to Masako's story.",
+      "Follow the quiet leads about the family she lost.",
+      "Handle any threats along the way.",
+      "Find a measure of peace to close her tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
   },
 {
@@ -16817,6 +17621,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Back Kenji in a wildly ill-advised 'negotiation' that only he could talk his way into.",
     aiTip:
       "Kenji Tale 3 of 3.",
+    walkthrough: [
+      "Back Kenji in his ill-advised 'negotiation' in Toyotama.",
+      "Follow along as the scheme predictably goes sideways.",
+      "Clear the Mongols the plan attracts.",
+      "Bail Kenji out and finish the comedic tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
   },
 {
@@ -16834,6 +17644,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight beside Norio to free monks and villagers hidden in the fog.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Fight beside Norio to free the monks and villagers in the fog.",
+      "Push through the Mongol lines by stealth or steel.",
+      "Rescue the hidden captives.",
+      "Secure the area and advance Norio's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
   },
 {
@@ -16851,6 +17667,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio wrestles with the violence his cause demands.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Continue Norio's tale as he confronts the violence his cause demands.",
+      "Follow the lead and clear the Mongols in the way.",
+      "Help Norio through his crisis of faith.",
+      "Complete the mission and its dark turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
   },
 {
@@ -16868,6 +17690,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Recover a blood-stained sutra and confront what Norio is becoming.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Recover the blood-stained sutra with Norio.",
+      "Track the leads through Toyotama.",
+      "Clear the enemies guarding it.",
+      "Confront what Norio is becoming and press on."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
   },
 {
@@ -16885,6 +17713,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Trace the root of the suffering plaguing Kamiagata's faithful.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Trace the root of the suffering plaguing Kamiagata's faithful.",
+      "Follow the guiding wind to the source.",
+      "Clear the Mongols responsible.",
+      "Advance Norio's tale toward its end."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
   },
 {
@@ -16902,6 +17736,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Help Norio bring an end to a cycle of vengeance and grief.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Help Norio end the cycle of vengeance and grief.",
+      "Follow the final leads through Kamiagata.",
+      "Fight through to the confrontation.",
+      "Bring this chapter of his story to a close."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
   },
 {
@@ -16919,6 +17759,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Stand with Norio as the guardian the island's people need.",
     aiTip:
       "Norio Tale 8 of 9.",
+    walkthrough: [
+      "Stand with Norio as the guardian the people need.",
+      "Clear the Mongol threat menacing the faithful.",
+      "Protect the villagers through the fight.",
+      "Secure the region and advance the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
   },
 {
@@ -16936,6 +17782,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring Norio's story to its close in a final reckoning of faith and blood.",
     aiTip:
       "Completes the Warrior Monk.",
+    walkthrough: [
+      "Reach the final reckoning of Norio's tale.",
+      "Follow the last lead to the confrontation.",
+      "Fight or duel through the climax of faith and blood.",
+      "See This Threefold World to its close."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
   },
 {
@@ -16953,6 +17805,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Uncover the legend of Jin's father, Kazumasa Sakai, in this Iki Island Mythic Tale.",
     aiTip:
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
+    walkthrough: [
+      "Begin the Iki Island Mythic Tale of Kazumasa Sakai.",
+      "Follow the musician's ballad clues to each site.",
+      "Clear the enemies and hazards guarding the legend.",
+      "Uncover Jin's father's legacy and claim the Mythic reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   },
 {
