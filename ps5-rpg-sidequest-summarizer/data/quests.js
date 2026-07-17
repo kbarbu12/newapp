@@ -4454,6 +4454,12 @@ const quests = [
       "V and Jackie's first real gig: acquire a militarized Flathead bot from the Maelstrom gang. Handle the deal with Militech agent Meredith Stout and the volatile Royce however you like — bullets, credchips, or silver tongue.",
     aiTip:
       "Scanning the malware-laced credchip lets you disarm it and keep Meredith on-side. A peaceful Maelstrom deal preserves a fixer relationship you'll appreciate later.",
+    walkthrough: [
+      "Meet Meredith Stout at the No-Tell Motel and decide whether to take her Militech credchip.",
+      "Drive to the Totentanz and meet Royce and the Maelstrom crew.",
+      "Handle the Flathead deal — pay, use the chip, or start a firefight.",
+      "Leave with the Flathead bot and regroup with Jackie."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
   },
 {
@@ -4470,6 +4476,12 @@ const quests = [
       "V meets Evelyn Parker and Dexter DeShawn to plan the Konpeki Plaza heist, learning the braindance editor by scrubbing through a recorded infiltration.",
     aiTip:
       "Take your time in the braindance editor scrubbing visual, thermal, and audio layers — the same skill returns in several later missions.",
+    walkthrough: [
+      "Meet Evelyn and Dex at their table to plan the heist.",
+      "Take the braindance wreath from T-Bug.",
+      "Scrub through the recorded infiltration in the BD editor across visual, thermal, and audio layers.",
+      "Tag the clues (window, guard route, vault) to finish planning."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
   },
 {
@@ -4486,6 +4498,12 @@ const quests = [
       "Waking up after the heist with a dead man's engram in your head, V hunts for a way to survive while Johnny Silverhand starts talking back.",
     aiTip:
       "Sell Johnny's iconic gear only if you must — the Malorian Arms 3516 and Samurai jacket are worth holding onto for the story payoff.",
+    walkthrough: [
+      "Wake in Megabuilding H10 with Johnny's engram active.",
+      "Deal with the malfunctioning relic and Johnny's appearances.",
+      "Reach out to Vik and Misty for help.",
+      "Track the first lead toward removing the relic."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
   },
 {
@@ -4502,6 +4520,12 @@ const quests = [
       "The trail to Evelyn leads to Clouds, an elite dollhouse in Japantown. Book a doll, follow the leads, and uncover what happened after the heist went wrong.",
     aiTip:
       "Either doll (Skye or Angel) works — you're really there for the conversation, so pick whoever you're comfortable talking to and stay alert leaving Clouds.",
+    walkthrough: [
+      "Go to Clouds in Japantown and book a doll.",
+      "Follow Evelyn's trail through the dolls and staff.",
+      "Confront Woodman about what happened after the heist.",
+      "Get the lead on Evelyn's whereabouts."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
   },
 {
@@ -4518,6 +4542,12 @@ const quests = [
       "V and Judy raid a Scav den to find Evelyn, wading through the worst of Night City's illegal braindance trade in the process.",
     aiTip:
       "Bring anti-Scav loadout and armor — the warehouse is a tough gauntlet. Loot the XBD lab thoroughly for eddies and crafting specs.",
+    walkthrough: [
+      "Meet Judy and gear up to raid the Scav den.",
+      "Fight or sneak through the braindance studio.",
+      "Find Evelyn and recover the stolen relic data.",
+      "Escape as the situation turns grim."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
   },
 {
@@ -4534,6 +4564,12 @@ const quests = [
       "The Voodoo Boys will only help with Johnny if V dives into the deep net for them — but NetWatch has other plans in the drowned GIM mall.",
     aiTip:
       "Siding with NetWatch or the Voodoo Boys changes who turns hostile immediately; the NetWatch route keeps Alt Cunningham's help intact for the finale.",
+    walkthrough: [
+      "Meet the Voodoo Boys and dive into the deep net for them.",
+      "Cross the drowned GIM mall to the access point.",
+      "Jack in and confront the NetWatch agent's offer.",
+      "Choose a side and survive the netrun."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
   },
 {
@@ -4550,6 +4586,12 @@ const quests = [
       "Goro Takemura calls in a favor: storm an Arasaka safehouse to rescue him and interrogate Hanako's captor before the parade.",
     aiTip:
       "Save Takemura by clearing the room fast — his survival unlocks extra dialogue and a hidden option in the endgame.",
+    walkthrough: [
+      "Answer Takemura's call and locate the Arasaka safehouse.",
+      "Breach the building and clear the guards.",
+      "Rescue Takemura and grab Hanako's captor.",
+      "Interrogate the captor before the parade."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
   },
 {
@@ -4566,6 +4608,12 @@ const quests = [
       "The plan to reach Hanako Arasaka runs through her bodyguard Oda and a heavily fortified Arasaka safe house during a citywide lockdown.",
     aiTip:
       "Non-lethal takedowns on Oda are possible and canonically 'kinder' — short-circuit and blunt weapons let you spare him.",
+    walkthrough: [
+      "Plan the approach to Hanako through Oda during the lockdown.",
+      "Infiltrate the fortified Arasaka safe house.",
+      "Defeat or spare Oda in the duel.",
+      "Secure the meeting with Hanako."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
   },
 {
@@ -4582,6 +4630,12 @@ const quests = [
       "Relive Johnny Silverhand's disastrous 2023 raid on Arasaka Tower alongside Rogue, playing as the rockerboy himself.",
     aiTip:
       "Explore freely as Johnny — this flashback deepens the Rogue romance/alliance options in Act 3, so soak in the dialogue.",
+    walkthrough: [
+      "Play the 2013 flashback as Johnny raiding Arasaka Tower with Rogue.",
+      "Fight up through Arasaka security.",
+      "Confront Adam Smasher and the tower's defenses.",
+      "See the raid to its tragic end."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
   },
 {
@@ -4598,6 +4652,12 @@ const quests = [
       "The final calm before the storm. V chooses how to assault Arasaka — with Rogue, Panam's Aldecaldos, alone, or by trusting Johnny with their body.",
     aiTip:
       "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
+    walkthrough: [
+      "Spend the calm evening at Embers with Johnny.",
+      "Talk through the assault options with Rogue, Panam, or going alone.",
+      "Make your peace and choose the path to Arasaka.",
+      "Commit to the final approach."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
   },
 {
@@ -4614,6 +4674,12 @@ const quests = [
       "V rides out of Night City with Panam and the Aldecaldos, chasing a cure beyond the corporate walls.",
     aiTip:
       "Requires completing Panam's questline (Queen of the Highway). Widely considered the most hopeful ending.",
+    walkthrough: [
+      "Ride out of Night City with Panam and the Aldecaldos.",
+      "Survive the escape and the convoy's journey.",
+      "Say goodbye to Johnny at the crossroads.",
+      "Leave the city behind in search of a cure."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
   },
 {
@@ -4630,6 +4696,12 @@ const quests = [
       "V storms Arasaka with Rogue's crew and, win or lose, cements their legend — with a shot at the stars and a deal with Mr. Blue Eyes.",
     aiTip:
       "Requires Rogue's side jobs. Choosing to let Johnny take over vs. going in yourself changes the epilogue significantly.",
+    walkthrough: [
+      "Storm Arasaka with Rogue's crew on the legendary path.",
+      "Fight up the tower and face Adam Smasher.",
+      "Reach Mikoshi and make the final choice.",
+      "Cement V's legend and take Mr. Blue Eyes' offer."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
   },
 {
@@ -4648,6 +4720,12 @@ const quests = [
       "Detective River Ward asks V to talk his sister's coworker's brother down from suicide over a braindance addiction.",
     aiTip:
       "Read the room and stay calm — how you talk Barry through it determines whether he lives, and it colors River's arc.",
+    walkthrough: [
+      "Meet River Ward and hear out the suicide-risk case.",
+      "Drive to the megabuilding and reach the addict on the ledge.",
+      "Talk him down using the braindance-addiction clues.",
+      "Resolve the standoff and part with River."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Happy%20Together%20walkthrough"
   },
 {
@@ -4664,6 +4742,12 @@ const quests = [
       "A quick smash-and-grab that goes sideways, showing off Night City's chaotic gig economy.",
     aiTip:
       "Watch the tone shift — this one rewards a light touch and quick exit over a firefight.",
+    walkthrough: [
+      "Take the smash-and-grab gig in Kabuki.",
+      "Move in on the target as the job goes sideways.",
+      "Adapt — fight, hack, or flee the chaos.",
+      "Escape with the goods and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
   },
 {
@@ -4680,6 +4764,12 @@ const quests = [
       "A city-spanning boxing questline: beat the toughest brawlers in each district bare-knuckle, culminating in a fight with the Twins and Razor Hughes.",
     aiTip:
       "Level up Body and buy Gorilla Arms before the later bouts. Block-and-counter beats trading blows against the champions.",
+    walkthrough: [
+      "Start Beat on the Brat by beating the Kabuki brawler.",
+      "Travel each district and win its bare-knuckle bout.",
+      "Upgrade Body and melee mods between fights.",
+      "Defeat the Twins and finally Razor Hughes for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Beat%20on%20the%20Brat%20walkthrough"
   },
 {
@@ -4696,6 +4786,12 @@ const quests = [
       "Delamain's rogue autonomous cabs have scattered across the city with fractured personalities. Track and reboot each one for the beleaguered AI.",
     aiTip:
       "Each cab is a self-contained vignette across every district — a relaxing way to see Night City and bank easy eddies.",
+    walkthrough: [
+      "Take Delamain's call and accept the runaway-cab job.",
+      "Drive to each scattered cab across the city.",
+      "Subdue or coax each fractured cab personality.",
+      "Reboot them all and confront the core AI at the depot."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
   },
 {
@@ -4712,6 +4808,12 @@ const quests = [
       "A tip leads V to a mysterious dead-drop and a valuable painting — but everyone wants a cut and nothing about the deal is straight.",
     aiTip:
       "Sell the painting to the right buyer for a huge payout; don't accept the first lowball offer at the drop point.",
+    walkthrough: [
+      "Follow the tip to the Badlands dead-drop near the Sunset Motel.",
+      "Recover the valuable painting from the drop.",
+      "Handle the double-crossing parties who want a cut.",
+      "Escape with the score and cash out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
   },
 {
@@ -4728,6 +4830,12 @@ const quests = [
       "Mama Welles invites V to Jackie Welles' Día de los Muertos ofrenda to say goodbye to their fallen partner.",
     aiTip:
       "Bring one of Jackie's belongings to the ofrenda for the fuller, more heartfelt version of the scene.",
+    walkthrough: [
+      "Accept Mama Welles' invitation to Jackie's ofrenda.",
+      "Arrive at the Coyote Cojo and pay your respects.",
+      "Share memories of Jackie and make your choices about his bike and gear.",
+      "Say goodbye to your fallen partner."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
   },
 {
@@ -4744,6 +4852,12 @@ const quests = [
       "Panam and the Aldecaldos pull off a heist for a Militech Basilisk hovertank, cementing V's bond with the nomad family.",
     aiTip:
       "This unlocks the Aldecaldos (The Star) ending. Pursue Panam's romance dialogue here if you want that path.",
+    walkthrough: [
+      "Join Panam and the Aldecaldos to plan the Basilisk heist.",
+      "Infiltrate the Militech site holding the hovertank.",
+      "Steal the Basilisk and escape the pursuit.",
+      "Cement V's bond with the nomad family."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
   },
 {
@@ -4762,6 +4876,12 @@ const quests = [
       "A rare quiet night at the Aldecaldos camp — drinks, stories, and a campfire with Panam and the family.",
     aiTip:
       "A pure character moment. Sit through the conversations; it pays off emotionally in the endgame.",
+    walkthrough: [
+      "Spend the quiet night at the Aldecaldos camp.",
+      "Share drinks and stories around the fire with Panam.",
+      "Follow the relaxed dialogue beats.",
+      "Turn in for the night to close the scene."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
   },
 {
@@ -4778,6 +4898,12 @@ const quests = [
       "V and River Ward chase the last leads on a child abduction case tied to a corrupt politician, then share a moment on a water tower.",
     aiTip:
       "Complete this to progress River's romance (available to female-bodied V). The braindance investigation rewards careful scrubbing.",
+    walkthrough: [
+      "Meet River to chase the last leads on the abduction case.",
+      "Investigate the farm and scan for clues.",
+      "Confront the culprit tied to the corrupt politician.",
+      "Share the water-tower moment with River afterward."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
   },
 {
@@ -4794,6 +4920,12 @@ const quests = [
       "Judy plans to take Clouds back for its workers. V helps negotiate with the Tyger Claws — a deal that can go very wrong.",
     aiTip:
       "Sparing Maiko vs. accepting her deal changes the outcome and Judy's mood. This gates the Judy romance path.",
+    walkthrough: [
+      "Meet Judy to plan taking Clouds back for its workers.",
+      "Negotiate with the Tyger Claws' Maiko.",
+      "Choose how to handle Maiko's counteroffer.",
+      "Live with the fallout of the deal."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
   },
 {
@@ -4810,6 +4942,12 @@ const quests = [
       "A gig-style side job that drops V into a simmering labor dispute in the industrial districts.",
     aiTip:
       "A short but flavorful detour into Night City's class politics — grab the loot and the shard lore.",
+    walkthrough: [
+      "Take the Santo Domingo labor-dispute side job.",
+      "Investigate the simmering conflict on the ground.",
+      "Complete the objective by force, hacking, or talk.",
+      "Resolve the dispute and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
   },
 {
@@ -4826,6 +4964,12 @@ const quests = [
       "The disturbing continuation of the Sinnerman arc: V witnesses a man's chosen crucifixion recorded as a braindance.",
     aiTip:
       "One of the darkest, most divisive quests in the game. It has no combat — it's entirely a choice about how far you'll go.",
+    walkthrough: [
+      "Continue the Sinnerman arc and meet the condemned man.",
+      "Travel to the crucifixion site with the BD crew.",
+      "Witness or take part in the recorded ordeal.",
+      "Resolve the disturbing job and reflect on it."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
   },
 {
@@ -4842,6 +4986,12 @@ const quests = [
       "Fixer Regina Jones sends V to stop a violent john who's been brutalizing joytoys in Kabuki.",
     aiTip:
       "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the violent john brutalizing joytoys in Kabuki — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
   },
 {
@@ -4858,6 +5008,12 @@ const quests = [
       "Help investigative journalist Max Jones dodge a Militech hit squad and get his story out.",
     aiTip:
       "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
+    walkthrough: [
+      "Accept the gig from journalist Max Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — getting his story out past the Militech hit squad — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to journalist Max Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
   },
 {
@@ -4874,6 +5030,12 @@ const quests = [
       "Fixer Padre wants a stolen mnemonic memory device recovered from a gang stash before its owner loses everything.",
     aiTip:
       "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the stolen mnemonic memory device from the gang stash — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
   },
 {
@@ -4890,6 +5052,12 @@ const quests = [
       "Recover a dying artist's final sculpture from thieves so his life's work isn't lost.",
     aiTip:
       "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the dying artist's final sculpture from the thieves — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
   },
 {
@@ -4906,6 +5074,12 @@ const quests = [
       "Wakako Okada tasks V with recovering a shipment of stolen immunosuppressant drugs from a ripperdoc gone bad.",
     aiTip:
       "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the stolen immunosuppressant shipment from the rogue ripperdoc — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
   },
 {
@@ -4922,6 +5096,12 @@ const quests = [
       "Extract a Militech scientist and his experimental combat implant before Militech's cleaners silence him.",
     aiTip:
       "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the Militech scientist and his combat implant — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
   },
 {
@@ -4938,6 +5118,12 @@ const quests = [
       "A former Maelstromer named Brick is wired to explode. V must find and defuse the bomb before Night City loses a city block.",
     aiTip:
       "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — finding and defusing the bomb wired into Brick — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
   },
 {
@@ -4954,6 +5140,12 @@ const quests = [
       "Recover a dead 6th Street gang member's belongings so his brother can lay him to rest.",
     aiTip:
       "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the dead 6th Street member's belongings for his brother — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
   },
 {
@@ -4970,6 +5162,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rocky Ridge in the Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Zion Wylde — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
   },
 {
@@ -4986,6 +5184,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Euralio Alma, a mercenary lost to combat implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to the Jackson Plains in the Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Euralio Alma — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
   },
 {
@@ -5002,6 +5206,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to his barricaded property in the eastern Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Russell Greene — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
   },
 {
@@ -5018,6 +5228,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rancho Coronado in Santo Domingo.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Chase Coley — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
   },
 {
@@ -5034,6 +5250,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Ellis Carter — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
   },
 {
@@ -5050,6 +5272,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Zaria Hughes, staging grotesque ritual scenes. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Zaria Hughes — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
   },
 {
@@ -5066,6 +5294,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Lely Hein — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
   },
 {
@@ -5082,6 +5316,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Matt Liaw — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
   },
 {
@@ -5098,6 +5338,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Lieutenant Mower, ex-Militent overloaded with military ware. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Lieutenant Mower — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
   },
 {
@@ -5114,6 +5360,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Little China in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Alec Johnson — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
   },
 {
@@ -5130,6 +5382,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Norio Akuhara, a masked corporate stalker. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Corpo Plaza in City Center.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Norio Akuhara — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
   },
 {
@@ -5146,6 +5404,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Downtown in City Center.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Cedric Muller — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
   },
 {
@@ -5162,6 +5426,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Diego Ramirez, holed up by the water. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Diego Ramirez — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
   },
 {
@@ -5178,6 +5448,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Ben Debaillon, dispensing violent 'justice'. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Ben Debaillon — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
   },
 {
@@ -5194,6 +5470,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: a rogue enforcer taking the law into his own hands. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage the rogue enforcer — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
   },
 {
@@ -5210,6 +5492,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: a cyberpsycho who turned a cafe into a bloodbath. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage the cafe cyberpsycho — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
   },
 {
@@ -5226,6 +5514,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Arroyo in Santo Domingo.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Tamara Cosby — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
   },
 {
@@ -5242,6 +5536,12 @@ const quests = [
       "A mysterious netrunner, Songbird, pulls V into Dogtown to save the crashing spacecraft of NUSA President Rosalind Myers.",
     aiTip:
       "This opens the whole expansion. Explore Dogtown afterward — its vendors, drops, and airdrops are some of the best gear sources in the game.",
+    walkthrough: [
+      "Answer Songbird's call and enter Dogtown past Barghest's checkpoint.",
+      "Reach the overlook as Space Force One comes down.",
+      "Fight through Barghest to reach the crash site.",
+      "Link with Songbird to begin the rescue of President Myers."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
   },
 {
@@ -5258,6 +5558,12 @@ const quests = [
       "V infiltrates the crashed Space Force One to extract President Myers from Kurt Hansen's Barghest soldiers.",
     aiTip:
       "Stealth is viable but Barghest hit hard — a well-armored, quickhack-ready build makes the extraction smoother.",
+    walkthrough: [
+      "Infiltrate the crashed Space Force One in Dogtown.",
+      "Cross the wreck, clearing or evading Barghest soldiers.",
+      "Locate President Myers in the debris.",
+      "Extract Myers and escape Hansen's forces."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
   },
 {
@@ -5274,6 +5580,12 @@ const quests = [
       "Teaming with FIA agent Solomon Reed, V works a black-tie gala to expose a mole and get closer to Hansen and Songbird's true plan.",
     aiTip:
       "The gala rewards a subtle approach and good dialogue reads — going loud spoils the intel you're there for.",
+    walkthrough: [
+      "Meet Solomon Reed and prep for the black-tie gala.",
+      "Work the party, using dialogue to identify the mole.",
+      "Follow the lead toward Hansen and Songbird's plan.",
+      "Complete the op and slip out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
   },
 {
@@ -5290,6 +5602,12 @@ const quests = [
       "Chasing Songbird's promised cure, V and Reed confront the Chimera — Hansen's monstrous automated tank.",
     aiTip:
       "The Chimera fight punishes standing still; use cover, the environment, and status quickhacks to whittle its phases.",
+    walkthrough: [
+      "Chase Songbird's promised cure with Reed.",
+      "Track the lead to Hansen's automated tank, the Chimera.",
+      "Destroy the Chimera, exploiting its weak points between attacks.",
+      "Press on toward Songbird."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
   },
 {
@@ -5306,6 +5624,12 @@ const quests = [
       "The expansion's climax: V decides whether to hand Songbird to Reed and the NUSA or help her escape to the Moon.",
     aiTip:
       "This choice defines the entire Phantom Liberty ending — and one path unlocks a very different fate for V in the base game. Choose deliberately.",
+    walkthrough: [
+      "Reach the expansion's climax on the moonlit runway.",
+      "Weigh handing Songbird to Reed and the NUSA versus helping her escape.",
+      "Make the pivotal choice.",
+      "Live with the consequences of the ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
   },
 {
@@ -5322,6 +5646,12 @@ const quests = [
       "Fixer Mr. Hands sends V on a Dogtown gig navigating the district's shifting power players.",
     aiTip:
       "Mr. Hands' Dogtown gigs often reward a diplomatic touch — hear people out before drawing iron.",
+    walkthrough: [
+      "Take Mr. Hands' Dogtown gig, Baby Let Me Take You.",
+      "Navigate the district's shifting power players.",
+      "Complete the objective by stealth, hacking, or force.",
+      "Report back to Mr. Hands for the pay."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
   },
 {
@@ -5338,6 +5668,12 @@ const quests = [
       "A pivotal Phantom Liberty side operation that deepens the Reed and Songbird conflict and tests where V's loyalties lie.",
     aiTip:
       "Your earlier Dogtown choices echo here — play it consistent with the ending you're aiming for.",
+    walkthrough: [
+      "Begin the Black Steel in the Hour of Chaos operation.",
+      "Work the leads deepening the Reed-Songbird conflict.",
+      "Complete the mission's key objective.",
+      "Make the choice that tests where V's loyalties lie."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
   },
 {
@@ -9629,6 +9965,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Jackie rescue a kidnapped corpo, Sandra Dorsett, in the job that kicks off V's merc career.",
     aiTip:
       "The prologue converges all three lifepaths here — after this, Night City opens up.",
+    walkthrough: [
+      "Meet Jackie and track the kidnapped Sandra Dorsett to the No-Tell Motel.",
+      "Clear the Scavengers by stealth or force and reach the ripperdoc room.",
+      "Pull Sandra off the operating table and revive her.",
+      "Fight out to the balcony and escape via the AV pickup."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
   },
 {
@@ -9645,6 +9987,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Vik Vector installs V's iconic Kiroshi optics and Militech arm, unlocking the scanner and cyberware.",
     aiTip:
       "Vik gives a friends' discount all game — return to him for the best-value implants.",
+    walkthrough: [
+      "Head to Vik Vector's clinic beneath Misty's shop.",
+      "Sit for the ripperdoc appointment and pay or defer the cost.",
+      "Get the Kiroshi optics and Militech arm installed.",
+      "Test the new scanner cyberware before leaving."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
   },
 {
@@ -9661,6 +10009,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dexter DeShawn sizes V up for a career-making heist during a drive through Night City.",
     aiTip:
       "Dialogue-only — the choices set your rapport with Dex but don't gate much.",
+    walkthrough: [
+      "Meet Dexter DeShawn and get in his car.",
+      "Ride through Night City as Dex sizes you up.",
+      "Answer his questions to pitch yourself for the heist.",
+      "Agree to bring in the Flathead to seal the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
   },
 {
@@ -9677,6 +10031,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Johnny Silverhand relives his 2023 Arasaka raid as V comes to terms with sharing a skull.",
     aiTip:
       "Marks the shift into Act 2 and the open city — start banking gigs and side jobs now.",
+    walkthrough: [
+      "Begin Johnny's 2023 flashback outside Arasaka Tower with Rogue.",
+      "Fight through security as the rockerboy Silverhand.",
+      "Plant the charge and push deeper into the tower.",
+      "Play out the raid's fateful turn to end the memory."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
   },
 {
@@ -9693,6 +10053,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V heads to the Badlands to chase a lead through Panam Palmer and the nomad Aldecaldos.",
     aiTip:
       "Opens the Panam questline — pursue it fully for the best (Star) ending options.",
+    walkthrough: [
+      "Drive to the Badlands to find the Aldecaldos.",
+      "Meet Panam Palmer and agree to help with her problem.",
+      "Follow her lead on the stolen goods and Nash.",
+      "Set up the next move against the raffen."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
   },
 {
@@ -9709,6 +10075,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Panam ambush the raffen Nash to recover stolen goods and settle a score.",
     aiTip:
       "A combat-heavy nomad job; the Thermal Katana reward is tucked in Nash's stash.",
+    walkthrough: [
+      "Scout the raffen ambush site with Panam.",
+      "Set the trap and take positions.",
+      "Ambush Nash's convoy and clear his crew.",
+      "Recover the stolen goods and settle the score."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
   },
 {
@@ -9725,6 +10097,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Panam raid a Militech-occupied town to snatch the scientist Anders Hellman.",
     aiTip:
       "The Basilisk-adjacent set piece is tough — bring armor and let Panam draw fire.",
+    walkthrough: [
+      "Plan the raid on the Militech-held town with Panam.",
+      "Assault the compound holding Anders Hellman.",
+      "Capture Hellman and interrogate him about the relic.",
+      "Escape the Militech response and decide Hellman's fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
   },
 {
@@ -9741,6 +10119,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Goro Takemura and V scheme to reach Hanako Arasaka, starting with fixer Wakako.",
     aiTip:
       "Kicks off the Takemura path — his gigs and calls add key endgame options.",
+    walkthrough: [
+      "Meet Takemura to plan the approach to Hanako.",
+      "Visit fixer Wakako Okada for a lead.",
+      "Follow the trail she points you toward.",
+      "Regroup with Takemura to set the next step."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
   },
 {
@@ -9757,6 +10141,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Takemura scout the Arasaka Industrial Park ahead of a daring infiltration.",
     aiTip:
       "Do the optional recon fully — it unlocks stealthier routes in the follow-up.",
+    walkthrough: [
+      "Meet Takemura outside the Arasaka Industrial Park.",
+      "Scout the facility, tagging cameras and guards with your scanner.",
+      "Find the infiltration route for the heist.",
+      "Report the plan back to Takemura."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
   },
 {
@@ -9773,6 +10163,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "In drowned Pacifica, V seeks the Voodoo Boys netrunners for help with the relic.",
     aiTip:
       "Placide is not to be trusted — stay sharp through the mall and dataterm work.",
+    walkthrough: [
+      "Travel to drowned Pacifica to find the Voodoo Boys.",
+      "Meet Placide and agree to work for the netrunners.",
+      "Handle the task they set as a test.",
+      "Earn their attention to get help with the relic."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
   },
 {
@@ -9789,6 +10185,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recurring quiet interludes where V and Johnny drink, argue, and slowly understand each other.",
     aiTip:
       "These raise Johnny's rapport, which gates the secret ending — don't skip them.",
+    walkthrough: [
+      "Trigger the Tapeworm interlude between major missions.",
+      "Talk through V and Johnny's escalating conflict.",
+      "Choose your replies as they slowly find common ground.",
+      "End the scene to continue the main story."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
   },
 {
@@ -9805,6 +10207,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Rogue path, V storms Arasaka Tower with the Afterlife's queen and faces Adam Smasher.",
     aiTip:
       "Save Rogue's side jobs first. Smasher is a brutal fight — bring anti-armor and quickhacks.",
+    walkthrough: [
+      "On the Rogue path, meet the Afterlife crew for the assault.",
+      "Storm Arasaka Tower alongside Rogue.",
+      "Fight up through Arasaka security.",
+      "Face Adam Smasher in the climactic battle."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Totalimmortal%20walkthrough"
   },
 {
@@ -9821,6 +10229,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Aldecaldos path, Panam's family blasts into Arasaka Tower to get V to Mikoshi.",
     aiTip:
       "Requires Panam's full questline. The Basilisk tank makes the approach a spectacle.",
+    walkthrough: [
+      "On the Aldecaldos path, breach Arasaka Tower with Panam's family.",
+      "Ride the Basilisk through Arasaka's defenses.",
+      "Punch into the tower and push toward Mikoshi.",
+      "Fight through to reach the Mikoshi access."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
   },
 {
@@ -9837,6 +10251,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Inside Mikoshi, V faces the final choice about their body, their soul, and Johnny.",
     aiTip:
       "This is the crossroads for every ending — make a manual save before the elevator.",
+    walkthrough: [
+      "Enter Mikoshi and jack into the soul-prison.",
+      "Talk through the final decision with Johnny and Alt.",
+      "Choose who takes V's body — V, Johnny, or another path.",
+      "Cross the bridge to lock in the ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
   },
 {
@@ -9853,6 +10273,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Trusting Arasaka to fix the relic leads V down the grim corporate 'Devil' ending.",
     aiTip:
       "Requires low Johnny rapport; widely seen as the bleakest ending.",
+    walkthrough: [
+      "Take the Arasaka deal and sign Hanako's terms.",
+      "Undergo the corporate procedure aboard the orbital station.",
+      "Live through the grim 'Devil' aftermath.",
+      "Make the final phone-call choice to end V's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
   },
 {
@@ -9869,6 +10295,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Aldecaldos ending, V rides into the sunset with the nomad family toward a cure.",
     aiTip:
       "The most hopeful epilogue — needs Panam's romance/quests completed.",
+    walkthrough: [
+      "On the Aldecaldos ending, recover after the assault.",
+      "Say your goodbyes at the nomad camp.",
+      "Board the convoy leaving Night City.",
+      "Ride into the sunset toward a possible cure."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
   },
 {
@@ -9885,6 +10317,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rocker Kerry Eurodyne, bored and self-destructive, pulls V into his chaotic world.",
     aiTip:
       "Start of Kerry's chain — pursue it for the Us Cracks caper and a male-V romance.",
+    walkthrough: [
+      "Answer Kerry Eurodyne's call to his Northside villa.",
+      "Get pulled into his self-destructive scheme.",
+      "Handle the chaos at his place.",
+      "Set up the next beat of his questline."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
   },
 {
@@ -9901,6 +10339,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help Kerry decide whether to reunite Samurai as a corporate buyout looms.",
     aiTip:
       "Your advice shapes Kerry's arc; siding with his integrity feels most in-character.",
+    walkthrough: [
+      "Meet Kerry to weigh the Samurai reunion offer.",
+      "Attend the meeting about the corporate buyout.",
+      "Advise Kerry on whether to reunite the band.",
+      "Support his decision and move on."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
   },
 {
@@ -9917,6 +10361,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track down a legendary guitar and help a young musician for Kerry's sake.",
     aiTip:
       "A feel-good detour — the payoff is a fun jam and Kerry rapport.",
+    walkthrough: [
+      "Take Kerry's lead on the legendary guitar.",
+      "Track it down in Rancho Coronado.",
+      "Help the young musician tied to it.",
+      "Recover the guitar for Kerry."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
   },
 {
@@ -9933,6 +10383,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Kerry ropes V into helping the pop group Us Cracks with a very Night City problem.",
     aiTip:
       "Comedic and light — advances Kerry's storyline toward the finale.",
+    walkthrough: [
+      "Answer Kerry's call about the pop group Us Cracks.",
+      "Handle their very Night City problem.",
+      "Complete the wild favor.",
+      "Wrap it up with Kerry."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
   },
 {
@@ -9949,6 +10405,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Join Kerry for a wild night that either cements a romance or a friendship.",
     aiTip:
       "This is the Kerry romance gate for male V — read the moment.",
+    walkthrough: [
+      "Join Kerry for the wild night out.",
+      "Ride along through the escalating antics.",
+      "Make the romance-or-friendship choice.",
+      "See the night to its close."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
   },
 {
@@ -9965,6 +10427,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quiet getaway with Kerry that caps his arc on a hopeful note.",
     aiTip:
       "The tender close to Kerry's story — pure character payoff, no combat.",
+    walkthrough: [
+      "Accept Kerry's getaway invitation.",
+      "Sail out for the quiet trip.",
+      "Share the reflective moment with Kerry.",
+      "Cap his arc on a hopeful note."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
   },
 {
@@ -9981,6 +10449,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Judy recruits V to strike back at the Tyger Claws controlling Clouds.",
     aiTip:
       "Opens the Judy questline proper; leads toward Pisces and the romance.",
+    walkthrough: [
+      "Meet Judy to strike back at the Tyger Claws over Clouds.",
+      "Infiltrate the Clouds server room.",
+      "Deal with Woodman and the guards.",
+      "Complete the hit and check on Judy."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
   },
 {
@@ -9997,6 +10471,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "In the aftermath of Evelyn's tragedy, V and Judy share a raw, honest moment.",
     aiTip:
       "A short but pivotal beat for the Judy romance (female V).",
+    walkthrough: [
+      "Meet Judy in the aftermath of Evelyn's death.",
+      "Talk through the raw, honest conversation.",
+      "Choose supportive replies.",
+      "Deepen the bond with Judy."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Both%20Sides%2C%20Now%20walkthrough"
   },
 {
@@ -10013,6 +10493,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Judy takes V free-diving to a submerged town and her drowned past.",
     aiTip:
       "The Judy romance culminates here for female V — a beautiful, quiet quest.",
+    walkthrough: [
+      "Meet Judy for the free-dive to the submerged town.",
+      "Dive to Laguna Bend and explore her drowned past.",
+      "Share the intimate moment underwater and after.",
+      "Advance (or begin) Judy's romance."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
   },
 {
@@ -10029,6 +10515,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tangled favor exposing how far people (and AIs) will go to feel something real.",
     aiTip:
       "A short character piece — the choice at the end has a small moral weight.",
+    walkthrough: [
+      "Take the tangled favor about feeling something real.",
+      "Investigate the person (or AI) at its center.",
+      "Complete the objective by your chosen method.",
+      "Resolve the unsettling job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
   },
 {
@@ -10045,6 +10537,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A deranged clown gang drags V into one of Night City's weirdest nights.",
     aiTip:
       "Roll with the absurdity — the loot and the story are worth the chaos.",
+    walkthrough: [
+      "Answer the call that drags V into the clown gang's night.",
+      "Follow the bizarre trail through Kabuki.",
+      "Handle the deranged crew.",
+      "Escape one of Night City's weirdest nights."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
   },
 {
@@ -10061,6 +10559,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A 'harmless' braindance hookup turns into a robbery-by-implant nightmare.",
     aiTip:
       "A cautionary vignette — expect a fight to reclaim your gear.",
+    walkthrough: [
+      "Meet the joytoy for the braindance hookup.",
+      "Realize the setup is a robbery-by-implant.",
+      "Fight or hack your way out of the trap.",
+      "Recover and settle the score."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
   },
 {
@@ -10077,6 +10581,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help a dying Badlands old-timer settle his affairs under the desert sky.",
     aiTip:
       "A melancholy, low-combat quest — a nice change of pace.",
+    walkthrough: [
+      "Meet the dying Badlands old-timer.",
+      "Help him settle his final affairs.",
+      "Complete the tasks under the desert sky.",
+      "Give him his peace."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
   },
 {
@@ -10093,6 +10603,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V encounters a decommissioned companion android with an unexpectedly human problem.",
     aiTip:
       "Short and bittersweet — the choice is about compassion, not combat.",
+    walkthrough: [
+      "Encounter the decommissioned companion android.",
+      "Hear out its unexpectedly human problem.",
+      "Help it resolve the issue.",
+      "Decide the android's fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
   },
 {
@@ -10109,6 +10625,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tense corporate job that reminds V how ruthless Night City's suits can be.",
     aiTip:
       "Scan for the quiet route; a loud approach draws heavy corpo security.",
+    walkthrough: [
+      "Take the tense corporate War Pigs job.",
+      "Navigate the ruthless suits' demands.",
+      "Complete the objective without being burned.",
+      "Collect your pay and get out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
   },
 {
@@ -10125,6 +10647,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a pain-worshipping cult and the disturbing draw it holds over its members.",
     aiTip:
       "A dark thread connected to the Sinnerman arc's themes.",
+    walkthrough: [
+      "Investigate the pain-worshipping cult.",
+      "Infiltrate their gathering.",
+      "Uncover the draw it holds over members.",
+      "Resolve the disturbing situation."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
   },
 {
@@ -10141,6 +10669,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover a predator using braindance tech to stalk victims and shut him down.",
     aiTip:
       "Investigate the studio thoroughly before confronting him.",
+    walkthrough: [
+      "Take the case of the braindance-stalking predator.",
+      "Investigate his victims and methods.",
+      "Track him down.",
+      "Shut him down for good."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
   },
 {
@@ -10157,6 +10691,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A loudmouth's tall tales land him in trouble that V has to untangle.",
     aiTip:
       "A quick, flavorful favor — light combat, good pocket money.",
+    walkthrough: [
+      "Meet the loudmouth whose tall tales caused trouble.",
+      "Untangle the mess he's landed in.",
+      "Handle the fallout by force or talk.",
+      "Close out the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
   },
 {
@@ -10173,6 +10713,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A somber Badlands job about loss on the open road.",
     aiTip:
       "A quiet story beat — read the shards for the full picture.",
+    walkthrough: [
+      "Take the somber Badlands job about loss.",
+      "Follow the leads across the open road.",
+      "Complete the objective.",
+      "Give the story its quiet ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
   },
 {
@@ -10189,6 +10735,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase the legend of Rache Bartmoss's cyberdeck and the secrets it hides.",
     aiTip:
       "Ties into the mysterious 'Mr. Blue Eyes' thread — atmospheric and lore-rich.",
+    walkthrough: [
+      "Chase the legend of Rache Bartmoss's cyberdeck.",
+      "Investigate the leads in Santo Domingo.",
+      "Recover the deck and uncover its secrets.",
+      "Deal with what you find inside."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
   },
 {
@@ -10205,6 +10757,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Team with the anti-corpo netrunner Bes Isis to expose a subliminal advertising conspiracy.",
     aiTip:
       "A multi-step investigative chain — quickhacks and stealth pay off.",
+    walkthrough: [
+      "Team with the netrunner Bes Isis.",
+      "Investigate the subliminal-advertising conspiracy.",
+      "Breach the corporate systems behind it.",
+      "Expose the scheme and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
   },
 {
@@ -10221,6 +10779,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A follow-up to Happy Together about the aftermath of a life saved.",
     aiTip:
       "A quiet epilogue that rewards having handled Barry's crisis with care.",
+    walkthrough: [
+      "Follow up on the life saved in Happy Together.",
+      "Meet the parties involved in the aftermath.",
+      "Handle the fallout of the earlier choice.",
+      "Bring the story to a close."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
   },
 {
@@ -10237,6 +10801,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A charged night with Rogue Amendiares that can spark an older-flame romance.",
     aiTip:
       "Part of Rogue's arc — advancing it opens her ending path with Johnny.",
+    walkthrough: [
+      "Meet Rogue for the charged night out.",
+      "Follow the tense, flirtatious beats.",
+      "Make the choice that can spark the old-flame romance.",
+      "See the evening through."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
   },
 {
@@ -10253,6 +10823,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take Rogue to a drive-in for a rare tender night amid all the violence.",
     aiTip:
       "A charming Rogue romance beat — enjoy the quiet before the storms.",
+    walkthrough: [
+      "Take Rogue to the drive-in for the date.",
+      "Watch the film and share the tender moment.",
+      "Choose your replies to deepen the bond.",
+      "End the rare quiet night together."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
   },
 {
@@ -10269,6 +10845,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Old wounds between Johnny and Rogue surface as V mediates a fraught reunion.",
     aiTip:
       "Advances both the Rogue arc and Johnny's rapport (secret-ending relevant).",
+    walkthrough: [
+      "Head to the Afterlife for Johnny and Rogue's reunion.",
+      "Mediate the fraught, wounded conversation.",
+      "Steer the dialogue between the old friends.",
+      "Resolve the reunion for better or worse."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
   },
 {
@@ -10285,6 +10867,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Recover a stolen car and settle a double-cross for Regina Jones.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen car and settling the double-cross — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
   },
 {
@@ -10301,6 +10889,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Extract a hostage from a Maelstrom-linked kidnapping.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the hostage from the Maelstrom kidnapping — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
   },
 {
@@ -10317,6 +10911,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Retrieve stolen tech from a gang stronghold for Regina.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — retrieving the stolen tech from the gang stronghold — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
   },
 {
@@ -10333,6 +10933,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Rescue trafficked victims from a slaver operation.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — rescuing the trafficked victims from the slaver operation — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
   },
 {
@@ -10349,6 +10955,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Save a Militech agent pinned down by Maelstrom.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — saving the Militech agent pinned down by Maelstrom — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
   },
 {
@@ -10365,6 +10977,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Sort out a small-time dealer's very large debt problem.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — sorting out Big Pete's large debt problem — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
   },
 {
@@ -10381,6 +10999,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Recover a client's stolen property and mete out payback.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the client's property and delivering payback — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
   },
 {
@@ -10397,6 +11021,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Investigate a compromised safehouse for Regina.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — investigating the compromised safehouse — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
   },
 {
@@ -10413,6 +11043,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Handle a delicate personal matter for fixer Wakako Okada.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — handling her delicate personal matter — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
   },
 {
@@ -10429,6 +11065,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Clear a Tyger Claws den threatening one of Wakako's clients.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — clearing the Tyger Claws den threatening her client — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
   },
 {
@@ -10445,6 +11087,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Untangle a shady deal gone wrong in Japantown.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — untangling the shady deal gone wrong — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
   },
 {
@@ -10461,6 +11109,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Recover a stolen relic before Padre's client loses everything.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen relic before the client loses everything — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
   },
 {
@@ -10477,6 +11131,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Settle an old debt between former partners for Padre.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — settling the old debt between the former partners — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
   },
 {
@@ -10493,6 +11153,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Rescue a doctor forced to work for a gang.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — rescuing the doctor forced to work for the gang — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
   },
 {
@@ -10509,6 +11175,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Extract a target from a fortified position for El Capitán.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the target from the fortified position — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
   },
 {
@@ -10525,6 +11197,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Handle a job the other fixers wouldn't touch.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — handling the job the other fixers wouldn't touch — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
   },
 {
@@ -10541,6 +11219,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Steal back a prized collection from a Pacifica warlord.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — stealing back the collection from the Pacifica warlord — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
   },
 {
@@ -10557,6 +11241,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Stop a raffen ambush in the Badlands for Dakota.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — stopping the raffen ambush in the Badlands — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
   },
 {
@@ -10573,6 +11263,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Resolve a violent nomad family feud.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — resolving the violent nomad family feud — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
   },
 {
@@ -10589,6 +11285,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Take down a rogue killer threatening Dakota's clients.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — taking down the rogue killer threatening the clients — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
   },
 {
@@ -10605,6 +11307,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Recover a hijacked truck and its driver in the wastes.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the hijacked truck and its driver — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
   },
 {
@@ -10621,6 +11329,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Extract a defecting 6th Street member before payback lands.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the defecting 6th Street member — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
   },
 {
@@ -10637,6 +11351,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Capture or kill a slippery target for fixer Dino Dinovic.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — capturing or killing the slippery Gustavo Orta — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
   },
 {
@@ -10653,6 +11373,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Recover stolen corporate data from an industrial site.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen corporate data from the industrial site — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
   },
 {
@@ -10669,6 +11395,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in City Center: Retrieve compromising evidence from a corpo penthouse.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Sebastian 'Padre' Ibarra and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — retrieving the compromising evidence from the corpo penthouse — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Sebastian 'Padre' Ibarra for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
   },
 {
@@ -10685,6 +11417,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Solomon Reed work a Dogtown lead through the enigmatic netrunner Songbird.",
     aiTip:
       "Dialogue choices here nudge the branching Phantom Liberty ending — play consistent.",
+    walkthrough: [
+      "Meet Solomon Reed to work the Dogtown lead.",
+      "Follow the trail through the netrunner Songbird.",
+      "Complete the objective Reed sets.",
+      "Set up the next step of the plan."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
   },
 {
@@ -10701,6 +11439,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Assemble the crew and gear for the plan to save Songbird as Barghest closes in.",
     aiTip:
       "Prep loadouts — this leads into some of the DLC's toughest fights.",
+    walkthrough: [
+      "Assemble the crew and gear to save Songbird.",
+      "Run the errands to prep the operation.",
+      "Handle Barghest's growing pressure.",
+      "Ready everything for the rescue."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
   },
 {
@@ -10717,6 +11461,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tense operation forces V to weigh loyalty to Reed against sympathy for Songbird.",
     aiTip:
       "This is the pivotal choice that steers you toward one of the two endings.",
+    walkthrough: [
+      "Start the tense Birds with Broken Wings operation.",
+      "Work the objective as loyalties are tested.",
+      "Weigh loyalty to Reed against sympathy for Songbird.",
+      "Make your choice and see it through."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
   },
 {
@@ -10733,6 +11483,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Mr. Hands sends V to surveil and handle a target hiding in Dogtown's overgrowth.",
     aiTip:
       "Bring optical camo or netrunner tools — stealth is the intended route.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — surveilling and handling the target hiding in Dogtown's overgrowth — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
   },
 {
@@ -10749,6 +11505,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Navigate Dogtown's power games to deal with the gang boss Dodger's people.",
     aiTip:
       "Read the situation before shooting — some Dogtown targets are better turned than killed.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — dealing with gang boss Dodger's people in Dogtown's power games — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
   },
 {
@@ -10765,6 +11527,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Infiltrate a Dogtown high-rise to secure a stolen Militech prototype.",
     aiTip:
       "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — infiltrating the high-rise to secure the stolen Militech prototype — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
   },
 {
