@@ -93,6 +93,16 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0a0510 0%, #b45309 45%, #f59e0b 100%)",
     abbr: "JS",
     cover: "images/jedi-survivor-cover.jpg"
+  },
+  "The Elder Scrolls V: Skyrim": {
+    gradient: "linear-gradient(135deg, #0a1620 0%, #2c5c6e 50%, #a9d6e5 100%)",
+    abbr: "TES5",
+    cover: "images/skyrim-cover.jpg"
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+    gradient: "linear-gradient(135deg, #1a3d2f 0%, #2d6b4f 50%, #90c77d 100%)",
+    abbr: "TOTK",
+    cover: "images/zelda-totk-cover.jpg"
   }
 };
 
@@ -390,7 +400,34 @@ const subFilterConfig = {
         { value: "All Planets", text: "All Planets" }
       ]
     }
-  ]
+  ],
+  "The Elder Scrolls V: Skyrim": {
+    field: "category",
+    label: "Questline",
+    options: [
+      { value: "Main Quest", text: "Main Quest" },
+      { value: "Main Quest (Optional)", text: "Main Quest (Optional)" },
+      { value: "The Companions", text: "The Companions" },
+      { value: "Thieves Guild", text: "Thieves Guild" },
+      { value: "Dark Brotherhood", text: "Dark Brotherhood" },
+      { value: "College of Winterhold", text: "College of Winterhold" },
+      { value: "Civil War - Imperial Legion", text: "Civil War – Imperial Legion" },
+      { value: "Civil War - Stormcloaks", text: "Civil War – Stormcloaks" },
+      { value: "Daedric Quests", text: "Daedric Quests" },
+      { value: "Bards College & Divine Quests", text: "Bards College & Divine Quests" },
+      { value: "Side & Dungeon Quests", text: "Side & Dungeon Quests" }
+    ]
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+    field: "questType",
+    label: "Quest Type",
+    options: [
+      { value: "Main Quest", text: "Main Quest" },
+      { value: "Side Adventure", text: "Side Adventure" },
+      { value: "Side Quest", text: "Side Quest" },
+      { value: "Shrine Quest", text: "Shrine Quest" }
+    ]
+  }
 };
 
 const quests = [
@@ -1359,6 +1396,12 @@ const quests = [
       "Investigate a mysterious storm surrounding an ancient Engwithan dig site. The Vailian Trading Company wants the artifacts inside, but the ruin's guardians and rival factions have other plans.",
     aiTip:
       "Your faction choice matters here — completing this for different factions changes later quest availability. Bring a trap specialist for the ruin's interior.",
+    walkthrough: [
+      "Take the Vailian Trading Company job and sail to Poko Kohara Island.",
+      "Clear the storm-wracked exterior and enter the Engwithan dig site.",
+      "Solve the ruin's mechanisms and fight or sneak past its guardians.",
+      "Decide the artifacts' fate between the rival factions to resolve the storm."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
   },
 {
@@ -1374,6 +1417,12 @@ const quests = [
       "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
     aiTip:
       "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
+    walkthrough: [
+      "Accept the job to steal Arkemyr's grimoire and reach his manor in Periki's Overlook.",
+      "Slip in via the servants' routes — disguises and Arkemyr's own robes fool the staff.",
+      "Bypass the imps and wards guarding the study rather than brawling through.",
+      "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
 {
@@ -1389,6 +1438,12 @@ const quests = [
       "Track down lost grimoires scattered across the Deadfire Archipelago for the eccentric wizard Berkana. Each grimoire contains unique spell combinations not found elsewhere in the game.",
     aiTip:
       "The grimoires are spread across multiple islands — check your map markers after accepting the quest. Each one adds powerful spell options for wizard party members.",
+    walkthrough: [
+      "Take Berkana's commission at her observatory to recover the lost grimoires.",
+      "Sail to each flagged island in the archipelago to search for a grimoire.",
+      "Clear the guardians at each cache and collect the tome.",
+      "Return the grimoires to Berkana for the unique spell-combination rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
   },
 {
@@ -1404,6 +1459,12 @@ const quests = [
       "Navigate the political underworld of the Gullet, Neketaka's impoverished district, where a shapeshifter is manipulating gang warfare. Multiple factions want different outcomes, and your investigation determines who controls the district.",
     aiTip:
       "Invest in Perception and Insight before starting — many key clues require skill checks. The shapeshifter's identity isn't obvious; question everyone and cross-reference their stories.",
+    walkthrough: [
+      "Head into the Gullet, Neketaka's slum, and investigate the escalating gang war.",
+      "Question the factions to expose the shapeshifter pulling the strings.",
+      "Choose which gang or outcome to back through the dialogue branches.",
+      "Resolve the changeling's scheme to decide who controls the district."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
   },
 {
@@ -1913,6 +1974,12 @@ const quests = [
       "Hunt down the legend of Black Hand Riku, a fearsome raider whose ghost still haunts Iki Island.",
     aiTip:
       "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
+    walkthrough: [
+      "Pick up the Iki Island tale of Black Hand Riku.",
+      "Follow the clues and Senses-style guiding wind to his haunts.",
+      "Clear the Mongol raiders tied to the legend.",
+      "Confront the truth of Riku's ghost and finish the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
 {
@@ -2038,6 +2105,12 @@ const quests = [
       "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
     aiTip:
       "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
+    walkthrough: [
+      "Sail to Hasongo and dock at the ruined lighthouse where Eothas passed.",
+      "Fight or negotiate through the Naga infesting the fortress.",
+      "Investigate the lighthouse to pick up Eothas's trail.",
+      "Choose whether to make the Naga allies or enemies for the rest of the game."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
   },
 {
@@ -2053,6 +2126,12 @@ const quests = [
       "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
     aiTip:
       "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
+    walkthrough: [
+      "Speak to the priest of Berath to begin the Blessings challenge series.",
+      "Travel to each flagged island and complete its combat, stealth, or diplomacy trial.",
+      "Return the proof of each trial to advance the chain.",
+      "Finish the series to claim the soul-bound weapons that grow with use."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Berath's%20Blessings%20walkthrough"
   },
 {
@@ -2973,6 +3052,12 @@ const quests = [
       "Continue with Norio as he confronts the illusions of vengeance while liberating the faithful.",
     aiTip:
       "Norio Tale 2 of 9.",
+    walkthrough: [
+      "Continue Norio's tale as he liberates the faithful in Toyotama.",
+      "Fight through the Mongols holding the captives.",
+      "Help Norio confront his illusions of vengeance.",
+      "Complete the mission and advance his story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
 {
@@ -3007,6 +3092,12 @@ const quests = [
       "Help Kenji chase a rival sake seller and a batch of stolen nattou across Toyotama.",
     aiTip:
       "Kenji Tale 2 of 3.",
+    walkthrough: [
+      "Join Kenji chasing the rival sake seller across Toyotama.",
+      "Follow the trail to the stolen batch of nattou.",
+      "Deal with the rival's thugs.",
+      "Recover the goods and share a laugh with Kenji."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
 {
@@ -3024,6 +3115,12 @@ const quests = [
       "Help Yuna deal ruthlessly with the Mongols hunting her, learning how far she'll go to survive.",
     aiTip:
       "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
+    walkthrough: [
+      "Help Yuna deal with the Mongols hunting her in Izuhara.",
+      "Stalk and assassinate the pursuers using stealth.",
+      "See how far Yuna will go to survive.",
+      "Finish the ruthless job and its quiet reckoning."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
 {
@@ -3326,6 +3423,12 @@ const quests = [
       "Negotiate trade agreements between rival factions in Neketaka's bustling port district. A diplomacy-heavy quest that rewards high Persuasion and Diplomacy skills with outcomes that open up more lucrative opportunities later.",
     aiTip:
       "Having a party member with Merchant background makes several dialogue options significantly more persuasive. Complete this before committing fully to any one faction.",
+    walkthrough: [
+      "Take up the trade dispute in Neketaka's Queen's Berth district.",
+      "Meet each rival merchant faction and hear their demands.",
+      "Use Persuasion/Diplomacy checks to broker an agreement.",
+      "Settle the alliance to unlock the later, more lucrative opportunities."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
   },
 {
@@ -3341,6 +3444,12 @@ const quests = [
       "Prove yourself worthy to the Tikawaran tribe by completing their traditional rite of passage in the island's dangerous jungle interior. The rite involves both combat challenges and diplomatic negotiations with the local spirits.",
     aiTip:
       "Bring a druid or priest for the spirit interactions — their dialogue options are significantly more effective. Completing the rite opens up Tikawara as a safe harbour and trading post.",
+    walkthrough: [
+      "Sail to Tikawara and ask the tribe to undertake their rite of passage.",
+      "Complete the combat trials in the island's jungle interior.",
+      "Pass the diplomatic tests with the local spirits.",
+      "Finish the rite to earn the tribe's trust and rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
   },
 {
@@ -3386,6 +3495,12 @@ const quests = [
       "Travel with the monk-priestess Xoti as she struggles with the weight of souls she has harvested in her lantern. Her questline explores religious devotion, trauma, and the burden of a divine calling across multiple islands.",
     aiTip:
       "Xoti's alignment shifts based on your choices — support her religious doubts or reinforce her faith depending on which ending you prefer. Her combat abilities scale significantly with Confidant completion.",
+    walkthrough: [
+      "Travel with Xoti and trigger her personal conversations at key islands.",
+      "Advance the main story between her events to unlock later beats.",
+      "Choose whether to steer her toward Gaun or Magran during her crisis.",
+      "Resolve her arc about the souls in her lantern to lock in her ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
   },
 {
@@ -3401,6 +3516,12 @@ const quests = [
       "Reach the legendary lost city of Ukaizo — the final destination of your pursuit of the god Eothas. The city's secrets and your faction allegiance determine which of several dramatically different endings plays out.",
     aiTip:
       "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
+    walkthrough: [
+      "Progress the main story until passage toward Ukaizo opens.",
+      "Break through the Storm of Ukaizo with the required faction support or gambit.",
+      "Explore the lost Engwithan city and its guardians.",
+      "Let your faction allegiance decide which dramatic ending unfolds."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
   },
 {
@@ -3416,6 +3537,12 @@ const quests = [
       "Help Pallegina the godlike soldier navigate her complicated loyalty to the Vailian Trading Company while staying true to her own moral compass. Her questline adds nuance to the game's faction conflicts and her own identity struggle.",
     aiTip:
       "Support Pallegina when her orders conflict with her values — it builds the most meaningful character arc. Her combat abilities improve significantly with each Confidant milestone.",
+    walkthrough: [
+      "Trigger Pallegina's events by pursuing the Vailian Republics questline.",
+      "Advance her conversations at the required story milestones.",
+      "Choose whether she obeys or defies the Republic's orders.",
+      "Resolve her arc to determine her fate and standing at the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
   },
 {
@@ -4327,6 +4454,12 @@ const quests = [
       "V and Jackie's first real gig: acquire a militarized Flathead bot from the Maelstrom gang. Handle the deal with Militech agent Meredith Stout and the volatile Royce however you like — bullets, credchips, or silver tongue.",
     aiTip:
       "Scanning the malware-laced credchip lets you disarm it and keep Meredith on-side. A peaceful Maelstrom deal preserves a fixer relationship you'll appreciate later.",
+    walkthrough: [
+      "Meet Meredith Stout at the No-Tell Motel and decide whether to take her Militech credchip.",
+      "Drive to the Totentanz and meet Royce and the Maelstrom crew.",
+      "Handle the Flathead deal — pay, use the chip, or start a firefight.",
+      "Leave with the Flathead bot and regroup with Jackie."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
   },
 {
@@ -4343,6 +4476,12 @@ const quests = [
       "V meets Evelyn Parker and Dexter DeShawn to plan the Konpeki Plaza heist, learning the braindance editor by scrubbing through a recorded infiltration.",
     aiTip:
       "Take your time in the braindance editor scrubbing visual, thermal, and audio layers — the same skill returns in several later missions.",
+    walkthrough: [
+      "Meet Evelyn and Dex at their table to plan the heist.",
+      "Take the braindance wreath from T-Bug.",
+      "Scrub through the recorded infiltration in the BD editor across visual, thermal, and audio layers.",
+      "Tag the clues (window, guard route, vault) to finish planning."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
   },
 {
@@ -4359,6 +4498,12 @@ const quests = [
       "Waking up after the heist with a dead man's engram in your head, V hunts for a way to survive while Johnny Silverhand starts talking back.",
     aiTip:
       "Sell Johnny's iconic gear only if you must — the Malorian Arms 3516 and Samurai jacket are worth holding onto for the story payoff.",
+    walkthrough: [
+      "Wake in Megabuilding H10 with Johnny's engram active.",
+      "Deal with the malfunctioning relic and Johnny's appearances.",
+      "Reach out to Vik and Misty for help.",
+      "Track the first lead toward removing the relic."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
   },
 {
@@ -4375,6 +4520,12 @@ const quests = [
       "The trail to Evelyn leads to Clouds, an elite dollhouse in Japantown. Book a doll, follow the leads, and uncover what happened after the heist went wrong.",
     aiTip:
       "Either doll (Skye or Angel) works — you're really there for the conversation, so pick whoever you're comfortable talking to and stay alert leaving Clouds.",
+    walkthrough: [
+      "Go to Clouds in Japantown and book a doll.",
+      "Follow Evelyn's trail through the dolls and staff.",
+      "Confront Woodman about what happened after the heist.",
+      "Get the lead on Evelyn's whereabouts."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
   },
 {
@@ -4391,6 +4542,12 @@ const quests = [
       "V and Judy raid a Scav den to find Evelyn, wading through the worst of Night City's illegal braindance trade in the process.",
     aiTip:
       "Bring anti-Scav loadout and armor — the warehouse is a tough gauntlet. Loot the XBD lab thoroughly for eddies and crafting specs.",
+    walkthrough: [
+      "Meet Judy and gear up to raid the Scav den.",
+      "Fight or sneak through the braindance studio.",
+      "Find Evelyn and recover the stolen relic data.",
+      "Escape as the situation turns grim."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
   },
 {
@@ -4407,6 +4564,12 @@ const quests = [
       "The Voodoo Boys will only help with Johnny if V dives into the deep net for them — but NetWatch has other plans in the drowned GIM mall.",
     aiTip:
       "Siding with NetWatch or the Voodoo Boys changes who turns hostile immediately; the NetWatch route keeps Alt Cunningham's help intact for the finale.",
+    walkthrough: [
+      "Meet the Voodoo Boys and dive into the deep net for them.",
+      "Cross the drowned GIM mall to the access point.",
+      "Jack in and confront the NetWatch agent's offer.",
+      "Choose a side and survive the netrun."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
   },
 {
@@ -4423,6 +4586,12 @@ const quests = [
       "Goro Takemura calls in a favor: storm an Arasaka safehouse to rescue him and interrogate Hanako's captor before the parade.",
     aiTip:
       "Save Takemura by clearing the room fast — his survival unlocks extra dialogue and a hidden option in the endgame.",
+    walkthrough: [
+      "Answer Takemura's call and locate the Arasaka safehouse.",
+      "Breach the building and clear the guards.",
+      "Rescue Takemura and grab Hanako's captor.",
+      "Interrogate the captor before the parade."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
   },
 {
@@ -4439,6 +4608,12 @@ const quests = [
       "The plan to reach Hanako Arasaka runs through her bodyguard Oda and a heavily fortified Arasaka safe house during a citywide lockdown.",
     aiTip:
       "Non-lethal takedowns on Oda are possible and canonically 'kinder' — short-circuit and blunt weapons let you spare him.",
+    walkthrough: [
+      "Plan the approach to Hanako through Oda during the lockdown.",
+      "Infiltrate the fortified Arasaka safe house.",
+      "Defeat or spare Oda in the duel.",
+      "Secure the meeting with Hanako."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
   },
 {
@@ -4455,6 +4630,12 @@ const quests = [
       "Relive Johnny Silverhand's disastrous 2023 raid on Arasaka Tower alongside Rogue, playing as the rockerboy himself.",
     aiTip:
       "Explore freely as Johnny — this flashback deepens the Rogue romance/alliance options in Act 3, so soak in the dialogue.",
+    walkthrough: [
+      "Play the 2013 flashback as Johnny raiding Arasaka Tower with Rogue.",
+      "Fight up through Arasaka security.",
+      "Confront Adam Smasher and the tower's defenses.",
+      "See the raid to its tragic end."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
   },
 {
@@ -4471,6 +4652,12 @@ const quests = [
       "The final calm before the storm. V chooses how to assault Arasaka — with Rogue, Panam's Aldecaldos, alone, or by trusting Johnny with their body.",
     aiTip:
       "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
+    walkthrough: [
+      "Spend the calm evening at Embers with Johnny.",
+      "Talk through the assault options with Rogue, Panam, or going alone.",
+      "Make your peace and choose the path to Arasaka.",
+      "Commit to the final approach."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
   },
 {
@@ -4487,6 +4674,12 @@ const quests = [
       "V rides out of Night City with Panam and the Aldecaldos, chasing a cure beyond the corporate walls.",
     aiTip:
       "Requires completing Panam's questline (Queen of the Highway). Widely considered the most hopeful ending.",
+    walkthrough: [
+      "Ride out of Night City with Panam and the Aldecaldos.",
+      "Survive the escape and the convoy's journey.",
+      "Say goodbye to Johnny at the crossroads.",
+      "Leave the city behind in search of a cure."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
   },
 {
@@ -4503,6 +4696,12 @@ const quests = [
       "V storms Arasaka with Rogue's crew and, win or lose, cements their legend — with a shot at the stars and a deal with Mr. Blue Eyes.",
     aiTip:
       "Requires Rogue's side jobs. Choosing to let Johnny take over vs. going in yourself changes the epilogue significantly.",
+    walkthrough: [
+      "Storm Arasaka with Rogue's crew on the legendary path.",
+      "Fight up the tower and face Adam Smasher.",
+      "Reach Mikoshi and make the final choice.",
+      "Cement V's legend and take Mr. Blue Eyes' offer."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
   },
 {
@@ -4521,6 +4720,12 @@ const quests = [
       "Detective River Ward asks V to talk his sister's coworker's brother down from suicide over a braindance addiction.",
     aiTip:
       "Read the room and stay calm — how you talk Barry through it determines whether he lives, and it colors River's arc.",
+    walkthrough: [
+      "Meet River Ward and hear out the suicide-risk case.",
+      "Drive to the megabuilding and reach the addict on the ledge.",
+      "Talk him down using the braindance-addiction clues.",
+      "Resolve the standoff and part with River."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Happy%20Together%20walkthrough"
   },
 {
@@ -4537,6 +4742,12 @@ const quests = [
       "A quick smash-and-grab that goes sideways, showing off Night City's chaotic gig economy.",
     aiTip:
       "Watch the tone shift — this one rewards a light touch and quick exit over a firefight.",
+    walkthrough: [
+      "Take the smash-and-grab gig in Kabuki.",
+      "Move in on the target as the job goes sideways.",
+      "Adapt — fight, hack, or flee the chaos.",
+      "Escape with the goods and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
   },
 {
@@ -4553,6 +4764,12 @@ const quests = [
       "A city-spanning boxing questline: beat the toughest brawlers in each district bare-knuckle, culminating in a fight with the Twins and Razor Hughes.",
     aiTip:
       "Level up Body and buy Gorilla Arms before the later bouts. Block-and-counter beats trading blows against the champions.",
+    walkthrough: [
+      "Start Beat on the Brat by beating the Kabuki brawler.",
+      "Travel each district and win its bare-knuckle bout.",
+      "Upgrade Body and melee mods between fights.",
+      "Defeat the Twins and finally Razor Hughes for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Beat%20on%20the%20Brat%20walkthrough"
   },
 {
@@ -4569,6 +4786,12 @@ const quests = [
       "Delamain's rogue autonomous cabs have scattered across the city with fractured personalities. Track and reboot each one for the beleaguered AI.",
     aiTip:
       "Each cab is a self-contained vignette across every district — a relaxing way to see Night City and bank easy eddies.",
+    walkthrough: [
+      "Take Delamain's call and accept the runaway-cab job.",
+      "Drive to each scattered cab across the city.",
+      "Subdue or coax each fractured cab personality.",
+      "Reboot them all and confront the core AI at the depot."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
   },
 {
@@ -4585,6 +4808,12 @@ const quests = [
       "A tip leads V to a mysterious dead-drop and a valuable painting — but everyone wants a cut and nothing about the deal is straight.",
     aiTip:
       "Sell the painting to the right buyer for a huge payout; don't accept the first lowball offer at the drop point.",
+    walkthrough: [
+      "Follow the tip to the Badlands dead-drop near the Sunset Motel.",
+      "Recover the valuable painting from the drop.",
+      "Handle the double-crossing parties who want a cut.",
+      "Escape with the score and cash out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
   },
 {
@@ -4601,6 +4830,12 @@ const quests = [
       "Mama Welles invites V to Jackie Welles' Día de los Muertos ofrenda to say goodbye to their fallen partner.",
     aiTip:
       "Bring one of Jackie's belongings to the ofrenda for the fuller, more heartfelt version of the scene.",
+    walkthrough: [
+      "Accept Mama Welles' invitation to Jackie's ofrenda.",
+      "Arrive at the Coyote Cojo and pay your respects.",
+      "Share memories of Jackie and make your choices about his bike and gear.",
+      "Say goodbye to your fallen partner."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
   },
 {
@@ -4617,6 +4852,12 @@ const quests = [
       "Panam and the Aldecaldos pull off a heist for a Militech Basilisk hovertank, cementing V's bond with the nomad family.",
     aiTip:
       "This unlocks the Aldecaldos (The Star) ending. Pursue Panam's romance dialogue here if you want that path.",
+    walkthrough: [
+      "Join Panam and the Aldecaldos to plan the Basilisk heist.",
+      "Infiltrate the Militech site holding the hovertank.",
+      "Steal the Basilisk and escape the pursuit.",
+      "Cement V's bond with the nomad family."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
   },
 {
@@ -4635,6 +4876,12 @@ const quests = [
       "A rare quiet night at the Aldecaldos camp — drinks, stories, and a campfire with Panam and the family.",
     aiTip:
       "A pure character moment. Sit through the conversations; it pays off emotionally in the endgame.",
+    walkthrough: [
+      "Spend the quiet night at the Aldecaldos camp.",
+      "Share drinks and stories around the fire with Panam.",
+      "Follow the relaxed dialogue beats.",
+      "Turn in for the night to close the scene."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
   },
 {
@@ -4651,6 +4898,12 @@ const quests = [
       "V and River Ward chase the last leads on a child abduction case tied to a corrupt politician, then share a moment on a water tower.",
     aiTip:
       "Complete this to progress River's romance (available to female-bodied V). The braindance investigation rewards careful scrubbing.",
+    walkthrough: [
+      "Meet River to chase the last leads on the abduction case.",
+      "Investigate the farm and scan for clues.",
+      "Confront the culprit tied to the corrupt politician.",
+      "Share the water-tower moment with River afterward."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
   },
 {
@@ -4667,6 +4920,12 @@ const quests = [
       "Judy plans to take Clouds back for its workers. V helps negotiate with the Tyger Claws — a deal that can go very wrong.",
     aiTip:
       "Sparing Maiko vs. accepting her deal changes the outcome and Judy's mood. This gates the Judy romance path.",
+    walkthrough: [
+      "Meet Judy to plan taking Clouds back for its workers.",
+      "Negotiate with the Tyger Claws' Maiko.",
+      "Choose how to handle Maiko's counteroffer.",
+      "Live with the fallout of the deal."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
   },
 {
@@ -4683,6 +4942,12 @@ const quests = [
       "A gig-style side job that drops V into a simmering labor dispute in the industrial districts.",
     aiTip:
       "A short but flavorful detour into Night City's class politics — grab the loot and the shard lore.",
+    walkthrough: [
+      "Take the Santo Domingo labor-dispute side job.",
+      "Investigate the simmering conflict on the ground.",
+      "Complete the objective by force, hacking, or talk.",
+      "Resolve the dispute and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
   },
 {
@@ -4699,6 +4964,12 @@ const quests = [
       "The disturbing continuation of the Sinnerman arc: V witnesses a man's chosen crucifixion recorded as a braindance.",
     aiTip:
       "One of the darkest, most divisive quests in the game. It has no combat — it's entirely a choice about how far you'll go.",
+    walkthrough: [
+      "Continue the Sinnerman arc and meet the condemned man.",
+      "Travel to the crucifixion site with the BD crew.",
+      "Witness or take part in the recorded ordeal.",
+      "Resolve the disturbing job and reflect on it."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
   },
 {
@@ -4715,6 +4986,12 @@ const quests = [
       "Fixer Regina Jones sends V to stop a violent john who's been brutalizing joytoys in Kabuki.",
     aiTip:
       "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the violent john brutalizing joytoys in Kabuki — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
   },
 {
@@ -4731,6 +5008,12 @@ const quests = [
       "Help investigative journalist Max Jones dodge a Militech hit squad and get his story out.",
     aiTip:
       "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
+    walkthrough: [
+      "Accept the gig from journalist Max Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — getting his story out past the Militech hit squad — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to journalist Max Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
   },
 {
@@ -4747,6 +5030,12 @@ const quests = [
       "Fixer Padre wants a stolen mnemonic memory device recovered from a gang stash before its owner loses everything.",
     aiTip:
       "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the stolen mnemonic memory device from the gang stash — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
   },
 {
@@ -4763,6 +5052,12 @@ const quests = [
       "Recover a dying artist's final sculpture from thieves so his life's work isn't lost.",
     aiTip:
       "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the dying artist's final sculpture from the thieves — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
   },
 {
@@ -4779,6 +5074,12 @@ const quests = [
       "Wakako Okada tasks V with recovering a shipment of stolen immunosuppressant drugs from a ripperdoc gone bad.",
     aiTip:
       "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the stolen immunosuppressant shipment from the rogue ripperdoc — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
   },
 {
@@ -4795,6 +5096,12 @@ const quests = [
       "Extract a Militech scientist and his experimental combat implant before Militech's cleaners silence him.",
     aiTip:
       "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the Militech scientist and his combat implant — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
   },
 {
@@ -4811,6 +5118,12 @@ const quests = [
       "A former Maelstromer named Brick is wired to explode. V must find and defuse the bomb before Night City loses a city block.",
     aiTip:
       "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — finding and defusing the bomb wired into Brick — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
   },
 {
@@ -4827,6 +5140,12 @@ const quests = [
       "Recover a dead 6th Street gang member's belongings so his brother can lay him to rest.",
     aiTip:
       "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
+    walkthrough: [
+      "Accept the gig from the client and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — the dead 6th Street member's belongings for his brother — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to the client for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
   },
 {
@@ -4843,6 +5162,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rocky Ridge in the Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Zion Wylde — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
   },
 {
@@ -4859,6 +5184,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Euralio Alma, a mercenary lost to combat implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to the Jackson Plains in the Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Euralio Alma — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
   },
 {
@@ -4875,6 +5206,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to his barricaded property in the eastern Badlands.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Russell Greene — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
   },
 {
@@ -4891,6 +5228,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rancho Coronado in Santo Domingo.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Chase Coley — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
   },
 {
@@ -4907,6 +5250,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Ellis Carter — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
   },
 {
@@ -4923,6 +5272,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Zaria Hughes, staging grotesque ritual scenes. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Zaria Hughes — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
   },
 {
@@ -4939,6 +5294,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Lely Hein — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
   },
 {
@@ -4955,6 +5316,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Matt Liaw — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
   },
 {
@@ -4971,6 +5338,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Lieutenant Mower, ex-Militent overloaded with military ware. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Lieutenant Mower — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
   },
 {
@@ -4987,6 +5360,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Little China in Watson.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Alec Johnson — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
   },
 {
@@ -5003,6 +5382,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Norio Akuhara, a masked corporate stalker. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Corpo Plaza in City Center.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Norio Akuhara — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
   },
 {
@@ -5019,6 +5404,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Downtown in City Center.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Cedric Muller — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
   },
 {
@@ -5035,6 +5426,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Diego Ramirez, holed up by the water. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Diego Ramirez — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
   },
 {
@@ -5051,6 +5448,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Ben Debaillon, dispensing violent 'justice'. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Ben Debaillon — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
   },
 {
@@ -5067,6 +5470,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: a rogue enforcer taking the law into his own hands. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage the rogue enforcer — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
   },
 {
@@ -5083,6 +5492,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: a cyberpsycho who turned a cafe into a bloodbath. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage the cafe cyberpsycho — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
   },
 {
@@ -5099,6 +5514,12 @@ const quests = [
       "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
     aiTip:
       "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    walkthrough: [
+      "Accept Regina Jones' Cyberpsycho Sighting and drive to Arroyo in Santo Domingo.",
+      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
+      "Engage Tamara Cosby — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
+      "Loot the recovered shard, then contact Regina to report the takedown."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
   },
 {
@@ -5115,6 +5536,12 @@ const quests = [
       "A mysterious netrunner, Songbird, pulls V into Dogtown to save the crashing spacecraft of NUSA President Rosalind Myers.",
     aiTip:
       "This opens the whole expansion. Explore Dogtown afterward — its vendors, drops, and airdrops are some of the best gear sources in the game.",
+    walkthrough: [
+      "Answer Songbird's call and enter Dogtown past Barghest's checkpoint.",
+      "Reach the overlook as Space Force One comes down.",
+      "Fight through Barghest to reach the crash site.",
+      "Link with Songbird to begin the rescue of President Myers."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
   },
 {
@@ -5131,6 +5558,12 @@ const quests = [
       "V infiltrates the crashed Space Force One to extract President Myers from Kurt Hansen's Barghest soldiers.",
     aiTip:
       "Stealth is viable but Barghest hit hard — a well-armored, quickhack-ready build makes the extraction smoother.",
+    walkthrough: [
+      "Infiltrate the crashed Space Force One in Dogtown.",
+      "Cross the wreck, clearing or evading Barghest soldiers.",
+      "Locate President Myers in the debris.",
+      "Extract Myers and escape Hansen's forces."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
   },
 {
@@ -5147,6 +5580,12 @@ const quests = [
       "Teaming with FIA agent Solomon Reed, V works a black-tie gala to expose a mole and get closer to Hansen and Songbird's true plan.",
     aiTip:
       "The gala rewards a subtle approach and good dialogue reads — going loud spoils the intel you're there for.",
+    walkthrough: [
+      "Meet Solomon Reed and prep for the black-tie gala.",
+      "Work the party, using dialogue to identify the mole.",
+      "Follow the lead toward Hansen and Songbird's plan.",
+      "Complete the op and slip out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
   },
 {
@@ -5163,6 +5602,12 @@ const quests = [
       "Chasing Songbird's promised cure, V and Reed confront the Chimera — Hansen's monstrous automated tank.",
     aiTip:
       "The Chimera fight punishes standing still; use cover, the environment, and status quickhacks to whittle its phases.",
+    walkthrough: [
+      "Chase Songbird's promised cure with Reed.",
+      "Track the lead to Hansen's automated tank, the Chimera.",
+      "Destroy the Chimera, exploiting its weak points between attacks.",
+      "Press on toward Songbird."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
   },
 {
@@ -5179,6 +5624,12 @@ const quests = [
       "The expansion's climax: V decides whether to hand Songbird to Reed and the NUSA or help her escape to the Moon.",
     aiTip:
       "This choice defines the entire Phantom Liberty ending — and one path unlocks a very different fate for V in the base game. Choose deliberately.",
+    walkthrough: [
+      "Reach the expansion's climax on the moonlit runway.",
+      "Weigh handing Songbird to Reed and the NUSA versus helping her escape.",
+      "Make the pivotal choice.",
+      "Live with the consequences of the ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
   },
 {
@@ -5195,6 +5646,12 @@ const quests = [
       "Fixer Mr. Hands sends V on a Dogtown gig navigating the district's shifting power players.",
     aiTip:
       "Mr. Hands' Dogtown gigs often reward a diplomatic touch — hear people out before drawing iron.",
+    walkthrough: [
+      "Take Mr. Hands' Dogtown gig, Baby Let Me Take You.",
+      "Navigate the district's shifting power players.",
+      "Complete the objective by stealth, hacking, or force.",
+      "Report back to Mr. Hands for the pay."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
   },
 {
@@ -5211,6 +5668,12 @@ const quests = [
       "A pivotal Phantom Liberty side operation that deepens the Reed and Songbird conflict and tests where V's loyalties lie.",
     aiTip:
       "Your earlier Dogtown choices echo here — play it consistent with the ending you're aiming for.",
+    walkthrough: [
+      "Begin the Black Steel in the Hour of Chaos operation.",
+      "Work the leads deepening the Reed-Songbird conflict.",
+      "Complete the mission's key objective.",
+      "Make the choice that tests where V's loyalties lie."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
   },
 {
@@ -5228,6 +5691,12 @@ const quests = [
       "The game opens with the fateful Nibelheim flashback — Cloud and Sephiroth's mission to the reactor, and the truth Cloud has buried.",
     aiTip:
       "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
+    walkthrough: [
+      "Play the Nibelheim flashback, following Sephiroth up the mountain path to the reactor.",
+      "Fight through the reactor's monsters and reach Jenova's chamber.",
+      "Survive the Materia Guardian boss encounter.",
+      "Witness Sephiroth's breakdown and the burning of Nibelheim to close the prologue."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
   },
 {
@@ -5245,6 +5714,12 @@ const quests = [
       "The party leaves Midgar behind and reaches Kalm, opening the sprawling Grasslands — Rebirth's first open region with chocobos, towers, and Odd Jobs.",
     aiTip:
       "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
+    walkthrough: [
+      "Arrive in Kalm and complete its story beats and shopping.",
+      "Enter the Grasslands and sync the first Remnawave tower for Chadley.",
+      "Catch a chocobo at the ranch to unlock faster traversal.",
+      "Follow the main path toward the Mythril Mine to advance."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
   },
 {
@@ -5262,6 +5737,12 @@ const quests = [
       "The group cuts through the Mythril Mine, tangling with the Turks and a certain mysterious swordsman on the way to the coast.",
     aiTip:
       "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
+    walkthrough: [
+      "Cut through the Mythril Mine, dealing with the Turks along the way.",
+      "Solve the mine's traversal puzzles and clear its monsters.",
+      "Encounter the mysterious swordsman on the road to the coast.",
+      "Exit toward Junon to continue the story."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
   },
 {
@@ -5279,6 +5760,12 @@ const quests = [
       "Arrival in the Junon region: military spectacle, the coastal plains, and a fresh batch of Odd Jobs and minigames.",
     aiTip:
       "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
+    walkthrough: [
+      "Reach the Junon region and take in the military spectacle.",
+      "Complete the coastal-plains objectives and new Odd Jobs.",
+      "Sync the region's tower and progress Chadley's intel.",
+      "Advance the main path toward Junon proper."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
   },
 {
@@ -5296,6 +5783,12 @@ const quests = [
       "The party boards Shinra transport across the sea, with tensions high and Sephiroth's shadow never far behind.",
     aiTip:
       "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
+    walkthrough: [
+      "Board the Shinra transport crossing the sea from Junon.",
+      "Handle the onboard events as tensions rise.",
+      "Clear the mid-voyage combat encounters.",
+      "Arrive at Costa del Sol to continue."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
   },
 {
@@ -5313,6 +5806,12 @@ const quests = [
       "The resort town of Costa del Sol offers a rare beach holiday — swimwear, minigames, and the calm before the storm.",
     aiTip:
       "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
+    walkthrough: [
+      "Arrive at the resort town of Costa del Sol.",
+      "Enjoy the beach events, swimwear, and minigames.",
+      "Complete the region's Odd Jobs and story beats.",
+      "Follow the main path toward the Corel region."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
   },
 {
@@ -5330,6 +5829,12 @@ const quests = [
       "The Corel region opens up: desert prison, dustbowl, and the shadow of Barret and Dyne's shared past.",
     aiTip:
       "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
+    walkthrough: [
+      "Enter the Corel region and its dustbowl and desert prison.",
+      "Progress the story tied to Barret and Dyne's past.",
+      "Sync the tower and pick up the region's intel and jobs.",
+      "Advance toward the Gold Saucer."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
   },
 {
@@ -5347,6 +5852,12 @@ const quests = [
       "The dazzling Gold Saucer amusement park — and the wrenching story of Dyne — collide in one of the game's biggest chapters.",
     aiTip:
       "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
+    walkthrough: [
+      "Reach the dazzling Gold Saucer amusement park.",
+      "Play through the attractions and story events.",
+      "Confront the wrenching story of Dyne in Corel Prison.",
+      "Complete the chapter's major beats to move on."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
   },
 {
@@ -5364,6 +5875,12 @@ const quests = [
       "The lush, mushroom-filled Gongaga jungle hides Zack's hometown, the Turks, and a reactor meltdown's legacy.",
     aiTip:
       "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
+    walkthrough: [
+      "Enter the lush, mushroom-filled Gongaga jungle.",
+      "Explore Zack's hometown and deal with the Turks.",
+      "Uncover the reactor-meltdown legacy in the story beats.",
+      "Sync the region's intel and advance the main path."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
   },
 {
@@ -5381,6 +5898,12 @@ const quests = [
       "Red XIII comes home to Cosmo Canyon, the spiritual heart of the Planet, where the party learns about the Lifestream.",
     aiTip:
       "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
+    walkthrough: [
+      "Travel to Cosmo Canyon, the spiritual heart of the Planet, with Red XIII.",
+      "Progress the story about the Lifestream and Red's heritage.",
+      "Complete the region's objectives and intel.",
+      "Advance toward Nibelheim."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
   },
 {
@@ -5398,6 +5921,12 @@ const quests = [
       "Return to Nibelheim in the present day, where the truth of Cloud's memories and Shinra's experiments come to a head.",
     aiTip:
       "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
+    walkthrough: [
+      "Return to present-day Nibelheim in the Nibel region.",
+      "Investigate the mansion and Shinra's experiments.",
+      "Confront the truth of Cloud's memories in the story beats.",
+      "Push the plot toward its next turn."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
   },
 {
@@ -5415,6 +5944,12 @@ const quests = [
       "The party regroups at the Gold Saucer for the run-up to the finale, unlocking the last wave of Odd Jobs across every region.",
     aiTip:
       "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
+    walkthrough: [
+      "Regroup at the Gold Saucer for the run-up to the finale.",
+      "Unlock the last wave of Odd Jobs across every region.",
+      "Wrap up remaining world intel and side content while you can.",
+      "Advance the main story toward the Temple of the Ancients."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
   },
 {
@@ -5432,6 +5967,12 @@ const quests = [
       "The Temple of the Ancients: shifting geometry, ancient guardians, and a confrontation that changes everything.",
     aiTip:
       "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
+    walkthrough: [
+      "Enter the Temple of the Ancients and its shifting geometry.",
+      "Solve the temple's rotating puzzles and clear its guardians.",
+      "Progress the pivotal story confrontation.",
+      "Complete the chapter to reach the finale's approach."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
   },
 {
@@ -5449,6 +5990,12 @@ const quests = [
       "Rebirth's climactic finale at the Forgotten Capital — the destined encounter fans have waited decades to see reinterpreted.",
     aiTip:
       "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
+    walkthrough: [
+      "Reach the Forgotten Capital for Rebirth's climactic finale.",
+      "Play through the destined, reinterpreted encounter.",
+      "Fight the chapter's major boss battles.",
+      "See the story to its emotional conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
   },
 {
@@ -5466,6 +6013,12 @@ const quests = [
       "A ranch hand has lost a prized Queen's Blood card. Track it down across the Grasslands to add it to your deck.",
     aiTip:
       "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
+    walkthrough: [
+      "Talk to the ranch hand at Bill's Ranch in the Grasslands to start the job.",
+      "Follow the marker to track the lost Queen's Blood card across the fields.",
+      "Deal with any foes guarding it.",
+      "Return the card — it's added to your deck."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
   },
 {
@@ -5483,6 +6036,12 @@ const quests = [
       "Help a rancher wrangle and calm the local chocobos so they'll cooperate with travelers.",
     aiTip:
       "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
+    walkthrough: [
+      "Accept the job from the rancher in Under Junon.",
+      "Approach and calm the skittish chocobos using the prompts.",
+      "Wrangle each one back toward the pen.",
+      "Report to the rancher for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
   },
 {
@@ -5500,6 +6059,12 @@ const quests = [
       "A wistful local asks the party for help chasing a small, hopeful dream against Junon's militarized backdrop.",
     aiTip:
       "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
+    walkthrough: [
+      "Take the request from the wistful local in Coastal Junon.",
+      "Follow the objective to help chase their small dream.",
+      "Complete the tasks against Junon's militarized backdrop.",
+      "Return to the quest-giver to finish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
   },
 {
@@ -5517,6 +6082,12 @@ const quests = [
       "The wetlands' frog population has gone haywire. Investigate the cause and restore the balance.",
     aiTip:
       "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
+    walkthrough: [
+      "Start the job in the Junon Wetlands where the frogs have gone haywire.",
+      "Investigate the cause along the marked path.",
+      "Deal with the source disturbing the population.",
+      "Restore the balance and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
   },
 {
@@ -5534,6 +6105,12 @@ const quests = [
       "Costa del Sol's holiday mood sets up a lighthearted rendezvous quest full of beach-town charm.",
     aiTip:
       "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
+    walkthrough: [
+      "Begin the rendezvous job in Costa del Sol.",
+      "Follow the lighthearted objectives around the resort.",
+      "Complete the beach-town tasks and any battles.",
+      "Meet the quest-giver to wrap it up."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
   },
 {
@@ -5551,6 +6128,12 @@ const quests = [
       "The local muscleheads challenge the party to prove their strength with a squats showdown.",
     aiTip:
       "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
+    walkthrough: [
+      "Accept the muscleheads' challenge in Costa del Sol.",
+      "Take on the squats minigame and match the rhythm prompts.",
+      "Beat the target score to prove your strength.",
+      "Collect the reward for winning."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
   },
 {
@@ -5568,6 +6151,12 @@ const quests = [
       "Reports of black-robed men lead the party into a ransom scheme tied to Sephiroth's followers.",
     aiTip:
       "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
+    walkthrough: [
+      "Take the job investigating black-robed men in the Corel Dustbowl.",
+      "Follow the clues into the ransom scheme tied to Sephiroth's followers.",
+      "Fight through the culprits at the marked site.",
+      "Resolve the ransom and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
   },
 {
@@ -5585,6 +6174,12 @@ const quests = [
       "The desert prison runs a brutal arena. Fight through its circus of combat trials for the crowd — and a payout.",
     aiTip:
       "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
+    walkthrough: [
+      "Enter the desert prison arena in the Dustbowl.",
+      "Fight through the escalating combat trials for the crowd.",
+      "Adapt to each wave's enemies.",
+      "Clear the final bout for the payout."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
   },
 {
@@ -5602,6 +6197,12 @@ const quests = [
       "A villager's beloved bird has vanished into the Gongaga jungle. Follow the clues to bring Mr. Birdie home.",
     aiTip:
       "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
+    walkthrough: [
+      "Talk to the villager in Gongaga whose bird has vanished.",
+      "Follow the clues into the jungle to track Mr. Birdie.",
+      "Navigate the hazards and any foes along the trail.",
+      "Bring Mr. Birdie home to complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
   },
 {
@@ -5619,6 +6220,12 @@ const quests = [
       "A perfectionist craftsman needs rare Gongaga ingredients to complete his flawless creation.",
     aiTip:
       "Gather the exact items requested — partial deliveries won't satisfy this client.",
+    walkthrough: [
+      "Accept the craftsman's request in Gongaga Village.",
+      "Gather the rare jungle ingredients he needs, using your chocobo to sniff them out.",
+      "Return each component to him.",
+      "Complete his flawless creation for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
   },
 {
@@ -5636,6 +6243,12 @@ const quests = [
       "Round up escaped fowl scattered across the treacherous Gongaga jungle paths.",
     aiTip:
       "Chocobo traversal and the region's springs make chasing down the strays far easier.",
+    walkthrough: [
+      "Start the job to round up escaped fowl in the Gongaga jungle.",
+      "Chase down each bird along the treacherous paths.",
+      "Corner and catch them one by one.",
+      "Return them all to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
   },
 {
@@ -5653,6 +6266,12 @@ const quests = [
       "Yuffie is roped into proving herself to an aspiring young 'warrior' in Gongaga, with comedic results.",
     aiTip:
       "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
+    walkthrough: [
+      "Begin Yuffie's job proving herself to the aspiring young 'warrior' in Gongaga.",
+      "Play along with the comedic training tasks.",
+      "Complete each challenge the kid sets.",
+      "Finish the arc for the reward and a laugh."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
   },
 {
@@ -5670,6 +6289,12 @@ const quests = [
       "Cissnei needs rare Magonga Mushrooms to finish a dish. Sniff them out with your chocobo across the jungle.",
     aiTip:
       "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
+    walkthrough: [
+      "Talk to Cissnei at her house in Gongaga to start the job.",
+      "Ride your chocobo to sniff out the rare Magonga Mushrooms in the jungle.",
+      "Collect the required mushrooms.",
+      "Return them to Cissnei to complete the dish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
   },
 {
@@ -5687,6 +6312,12 @@ const quests = [
       "Earn the trust of Cosmo Canyon's people and its wildlife to unlock the region's mountain chocobo.",
     aiTip:
       "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
+    walkthrough: [
+      "Begin the trust job among Cosmo Canyon's people and wildlife.",
+      "Complete the tasks that earn the locals' and animals' trust.",
+      "Follow the objectives along the canyon paths.",
+      "Finish to unlock the region's mountain chocobo."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
   },
 {
@@ -5704,6 +6335,12 @@ const quests = [
       "Help restore the canyon's astronomical markers, tying into Cosmo Canyon's cosmology and the Planet's story.",
     aiTip:
       "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
+    walkthrough: [
+      "Accept the job at the Cosmo Canyon Observatory.",
+      "Help restore the astronomical markers along the marked route.",
+      "Complete the alignment tasks tied to the canyon's cosmology.",
+      "Report back to finish."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
   },
 {
@@ -5721,6 +6358,12 @@ const quests = [
       "Investigate a sacred Lifestream-touched site and the strange phenomena disturbing it.",
     aiTip:
       "A lore-rich quest about the Lifestream — the reward materia suits a support build.",
+    walkthrough: [
+      "Start the job investigating a Lifestream-touched site near Cosmo Canyon.",
+      "Follow the objective to the disturbed sacred ground.",
+      "Deal with the strange phenomena and any foes.",
+      "Resolve the disturbance and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
   },
 {
@@ -5738,6 +6381,12 @@ const quests = [
       "An old promise resurfaces in Cosmo Canyon, asking the party to honor a departed friend's wish.",
     aiTip:
       "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
+    walkthrough: [
+      "Begin the 'Promises to Keep' job in Cosmo Canyon village.",
+      "Follow the story of an old promise to a departed friend.",
+      "Complete the tasks honoring their wish.",
+      "Return to the quest-giver to close the arc."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
   },
 {
@@ -5755,6 +6404,12 @@ const quests = [
       "Ancient trials hidden on Mt. Nibel test the party with esoteric puzzles and guardian battles.",
     aiTip:
       "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
+    walkthrough: [
+      "Reach the ancient trials on Mt. Nibel to start the job.",
+      "Solve the esoteric puzzles along the mountain paths.",
+      "Defeat the guardian battles the trials pit against you.",
+      "Complete the trials for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
   },
 {
@@ -5772,6 +6427,12 @@ const quests = [
       "Wartime anxieties ripple through the region; help those caught between Shinra's machine and daily survival.",
     aiTip:
       "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
+    walkthrough: [
+      "Accept the job about wartime anxieties in the Nibel/Junon coast area.",
+      "Help those caught between Shinra's war machine and daily survival.",
+      "Complete each of the marked tasks.",
+      "Report back to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
   },
 {
@@ -5789,6 +6450,12 @@ const quests = [
       "A tougher Chapter 12 job sends the party back to the Grasslands for high-stakes work against upgraded foes.",
     aiTip:
       "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
+    walkthrough: [
+      "Take the tougher Chapter 12 job sending you back to the Grasslands.",
+      "Travel to the marked high-stakes objective.",
+      "Defeat the upgraded foes there.",
+      "Complete the work for its reward."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
   },
 {
@@ -5806,6 +6473,12 @@ const quests = [
       "A late-game mystery draws the party to Junon's waters to uncover what lurks beneath the surface.",
     aiTip:
       "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
+    walkthrough: [
+      "Begin the late-game mystery in the Junon Wetlands.",
+      "Follow the clues to uncover what lurks beneath the surface.",
+      "Fight the threat revealed in the waters.",
+      "Resolve the mystery and report back."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
   },
 {
@@ -5823,6 +6496,12 @@ const quests = [
       "The resort's earlier lightheartedness sours as an endgame threat reaches Costa del Sol.",
     aiTip:
       "A callback quest — earlier Costa del Sol choices color how this one resolves.",
+    walkthrough: [
+      "Start the 'Trouble in Paradise' job in Costa del Sol.",
+      "Investigate the endgame threat reaching the resort.",
+      "Fight through the escalating danger.",
+      "Restore order and complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
   },
 {
@@ -5840,6 +6519,12 @@ const quests = [
       "Stand watch over the Gongaga woodland against an escalating endgame incursion.",
     aiTip:
       "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
+    walkthrough: [
+      "Accept the woodland vigil job in the Gongaga jungle.",
+      "Stand watch against the escalating endgame incursion.",
+      "Defeat the waves of foes at the marked posts.",
+      "Hold the line to finish the job."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
   },
 {
@@ -5857,6 +6542,12 @@ const quests = [
       "An endgame Cosmo Canyon job with real consequences, rewarding one of the game's best support materia.",
     aiTip:
       "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
+    walkthrough: [
+      "Begin the endgame Cosmo Canyon job.",
+      "Follow the objective with real consequences to its site.",
+      "Defeat the encounter guarding the reward.",
+      "Claim one of the game's best support materia."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
   },
 {
@@ -5874,6 +6565,12 @@ const quests = [
       "A grim Chapter 12 quest on Mt. Nibel that unlocks Hojo's combat exams and strengthens Barret's resolve.",
     aiTip:
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
+    walkthrough: [
+      "Start the grim Chapter 12 quest on Mt. Nibel.",
+      "Progress the story strengthening Barret's resolve.",
+      "Fight through the marked encounters.",
+      "Unlock Hojo's combat exams on completion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   },
 {
@@ -5890,6 +6587,12 @@ const quests = [
       "A poisoned man clings to life; Geralt gathers the herbs for a cure — or lets nature take its course.",
     aiTip:
       "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
+    walkthrough: [
+      "Talk to the ailing man's family in White Orchard to take the quest.",
+      "Follow your Senses to gather the herbs needed for the antidote.",
+      "Return and brew or deliver the cure.",
+      "Decide whether to save him or let nature run its course."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
   },
 {
@@ -5906,6 +6609,12 @@ const quests = [
       "Geralt investigates who torched the local smith's forge in sleepy White Orchard.",
     aiTip:
       "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
+    walkthrough: [
+      "Speak with the White Orchard smith about his torched forge.",
+      "Examine the burnt forge with your Witcher Senses for clues.",
+      "Follow the trail to the arsonist responsible.",
+      "Confront the culprit and resolve the dispute."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
   },
 {
@@ -5922,6 +6631,12 @@ const quests = [
       "A noonwraith haunts an abandoned village well. Geralt must lure and banish the vengeful spirit.",
     aiTip:
       "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
+    walkthrough: [
+      "Read the notice board contract and reach the abandoned village well.",
+      "Investigate the site by day, then meditate to nightfall to summon the noonwraith.",
+      "Apply Specter Oil, use Yrden to trap it, and dodge its swift strikes.",
+      "Banish the noonwraith and claim the contract reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
   },
 {
@@ -5938,6 +6653,12 @@ const quests = [
       "Part of the Bloody Baron saga: help track the missing Anna and uncover the family's dark story.",
     aiTip:
       "Ties directly into the Baron's main arc — do it before leaving Velen.",
+    walkthrough: [
+      "Continue the Baron's search for his daughter Anna's trail.",
+      "Question the villagers and follow the leads with your Senses.",
+      "Track the party through the woods toward Crookback Bog.",
+      "Uncover the family's dark story and report to the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
 {
@@ -5954,6 +6675,12 @@ const quests = [
       "Villagers near a crossroads are being slain by a grave hag lurking among the dead.",
     aiTip:
       "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
+    walkthrough: [
+      "Take the crossroads contract and inspect the fresh graves.",
+      "Follow the Senses trail to the grave hag's lair.",
+      "Apply Necrophage Oil, use Yrden, and stagger it with Aard.",
+      "Kill the grave hag and collect the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
   },
 {
@@ -5970,6 +6697,12 @@ const quests = [
       "Follow the trail of the sorceress Keira Metz through the swamps of Velen.",
     aiTip:
       "Reading the hidden notes reveals Keira's true motives before you meet her.",
+    walkthrough: [
+      "Pick up Keira Metz's trail in the Velen swamps.",
+      "Follow the tracks and monster clues with your Senses.",
+      "Deal with the drowners and hazards along the way.",
+      "Find Keira and agree to help with her problem."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
   },
 {
@@ -5986,6 +6719,12 @@ const quests = [
       "Geralt and Keira delve into an ancient elven ruin sealed for centuries, chased by a monstrous gargoyle.",
     aiTip:
       "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
+    walkthrough: [
+      "Head to the sealed elven ruin with Keira.",
+      "Descend into the dark, lighting the way and clearing monsters.",
+      "Solve the ruin's puzzles to reach the sealed chamber.",
+      "Escape the pursuing gargoyle and recover what Keira seeks."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
   },
 {
@@ -6002,6 +6741,12 @@ const quests = [
       "Use a captured djinn's lamp to breach a mage's sealed sanctum during Keira's quest.",
     aiTip:
       "Equip the lamp and use it on the shimmering barriers to press forward.",
+    walkthrough: [
+      "Obtain the djinn's lamp and bring it to the sealed sanctum for Keira.",
+      "Use the lamp to dispel the illusions blocking the way.",
+      "Explore the mage's hidden chambers.",
+      "Recover the item and finish Keira's task."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
   },
 {
@@ -6018,6 +6763,12 @@ const quests = [
       "A leshen terrorizes a superstitious hamlet that half-worships it.",
     aiTip:
       "Torch the leshen's totems first, then bring Relict Oil and Igni.",
+    walkthrough: [
+      "Take the leshen contract from the superstitious hamlet.",
+      "Track the leshen with your Senses and gather the ritual clues.",
+      "Choose to kill it or perform the villagers' ritual.",
+      "Resolve the contract and collect payment."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
   },
 {
@@ -6034,6 +6785,12 @@ const quests = [
       "A house is said to be haunted; Geralt investigates the tragic ghost of a devoted dog and its master.",
     aiTip:
       "A short, poignant contract — follow the flowers to piece the story together.",
+    walkthrough: [
+      "Investigate the 'haunted' house in Novigrad.",
+      "Use your Senses to piece together the ghost dog's tragedy.",
+      "Follow the spectral clues through the property.",
+      "Lay the loyal hound's spirit to rest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
   },
 {
@@ -6050,6 +6807,12 @@ const quests = [
       "Geralt moonlights as an actor in Irina's theatre to draw out a lead on Dandelion.",
     aiTip:
       "Ham it up on stage — the performance choices are pure delight and affect the scene.",
+    walkthrough: [
+      "Join Irina's theatre troupe to draw out a lead on Dandelion.",
+      "Rehearse and perform your role on stage, following the cues.",
+      "Handle the on-stage 'monster' and improvisation.",
+      "Learn the informant's tip after the show."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
   },
 {
@@ -6066,6 +6829,12 @@ const quests = [
       "Storm the Whoreson Junior's operation to rescue the captured bard Dandelion.",
     aiTip:
       "Bring good armor; the hideout is a tough multi-wave fight.",
+    walkthrough: [
+      "Storm Whoreson Junior's operation to reach the captive bard.",
+      "Fight through the guards using signs and dodges.",
+      "Search the hideout with your Senses for Dandelion.",
+      "Free Dandelion and get him to safety."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
   },
 {
@@ -6082,6 +6851,12 @@ const quests = [
       "Help Dandelion turn a rundown building into the Chameleon cabaret with an eventful 'date'.",
     aiTip:
       "A charming lighthearted quest — enjoy the banter, low combat.",
+    walkthrough: [
+      "Help Dandelion turn the rundown building into the Chameleon.",
+      "Run the errands to stock and staff the cabaret.",
+      "Go on the eventful 'date' the plan requires.",
+      "Open the Chameleon and wrap up the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
   },
 {
@@ -6098,6 +6873,12 @@ const quests = [
       "Investigate the theft of Dijkstra's fortune, uncovering the pogrom against Novigrad's mages.",
     aiTip:
       "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
+    walkthrough: [
+      "Meet Dijkstra about his stolen treasure beneath the bathhouse.",
+      "Investigate the heist tunnels with your Senses.",
+      "Uncover the pogrom against Novigrad's mages tied to the theft.",
+      "Report your findings and decide how to handle Dijkstra."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
   },
 {
@@ -6114,6 +6895,12 @@ const quests = [
       "Help Triss and the hunted mages of Novigrad evade the witch hunters.",
     aiTip:
       "Ties into the Triss romance path — pursue it if you want that ending.",
+    walkthrough: [
+      "Meet Triss and the hunted mages hiding in Novigrad.",
+      "Help them evade the witch hunters through the city.",
+      "Fight or sneak past the patrols as needed.",
+      "Get the mages to a safer refuge."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
   },
 {
@@ -6130,6 +6917,12 @@ const quests = [
       "A string of romantic rendezvous end in death — a katakan vampire is hunting lovers.",
     aiTip:
       "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
+    walkthrough: [
+      "Take the contract on the string of romantic killings.",
+      "Investigate each rendezvous site with your Senses.",
+      "Bait the katakan out, apply Vampire Oil, and use Moon Dust and Yrden.",
+      "Slay the vampire and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
   },
 {
@@ -6146,6 +6939,12 @@ const quests = [
       "Help Triss run a daring operation to smuggle mages out of Novigrad by sea.",
     aiTip:
       "The auction house infiltration rewards patience over brute force.",
+    walkthrough: [
+      "Plan the sea escape for Novigrad's mages with Triss.",
+      "Secure the ship and bribe or fight your way to the docks.",
+      "Protect the refugees during the tense boarding.",
+      "See the operation through and part ways with Triss."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
   },
 {
@@ -6162,6 +6961,12 @@ const quests = [
       "Follow Ciri's trail on Skellige and learn of the villager Skjall who sheltered her.",
     aiTip:
       "The Wild Hunt flashback battle is scripted — focus on survival.",
+    walkthrough: [
+      "Follow Ciri's trail on Skellige to the village of Larvik.",
+      "Use your Senses to reconstruct what happened to Skjall.",
+      "Trace the events that led Ciri away.",
+      "Honor Skjall's memory and continue the search."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
   },
 {
@@ -6178,6 +6983,12 @@ const quests = [
       "Ciri must complete a Skellige rite to be recognized — with the Wild Hunt closing in.",
     aiTip:
       "A story-driven quest with a memorable Ciri-playable segment.",
+    walkthrough: [
+      "Help Ciri prepare for the Skellige rite while the Hunt closes in.",
+      "Fight off the Wild Hunt warriors that ambush you.",
+      "Complete the trial's steps alongside Ciri.",
+      "Escape and press on with the plan."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
   },
 {
@@ -6194,6 +7005,12 @@ const quests = [
       "Investigate a mage's mysterious death at a coastal alchemical lab.",
     aiTip:
       "Piece together the reagents with Witcher Senses to reconstruct the accident.",
+    walkthrough: [
+      "Reach the coastal alchemical lab and inspect the mage's body.",
+      "Follow the Senses clues around the experiment site.",
+      "Piece together the cause of the deadly accident.",
+      "Resolve the mystery and collect any rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
   },
 {
@@ -6210,6 +7027,12 @@ const quests = [
       "A pale spirit haunts a Skellige homestead, and the truth is a family tragedy.",
     aiTip:
       "Specter Oil and Yrden as always for wraith-type foes.",
+    walkthrough: [
+      "Take the White Lady contract at the haunted homestead.",
+      "Investigate the site and uncover the family tragedy behind the spirit.",
+      "Apply Specter Oil, use Yrden, and dodge the wraith's attacks.",
+      "Banish the White Lady and finish the contract."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
   },
 {
@@ -6226,6 +7049,12 @@ const quests = [
       "A bounty on a nest of monstrous arachasae draws Geralt into the mountains.",
     aiTip:
       "Bring Insectoid Oil and dodge the ranged spit before closing in.",
+    walkthrough: [
+      "Accept the bounty on the arachas nest in the Skellige mountains.",
+      "Climb to the lair, applying Insectoid Oil.",
+      "Use bombs and Aard to break their armored shells.",
+      "Clear the nest and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
   },
 {
@@ -6242,6 +7071,12 @@ const quests = [
       "A Skellige mystery ties an amnesiac stranger to the wider Wild Hunt saga.",
     aiTip:
       "Read the environmental clues; the payoff informs the main story.",
+    walkthrough: [
+      "Investigate the amnesiac stranger tied to the Wild Hunt saga.",
+      "Follow the Senses clues around the Skellige mystery.",
+      "Uncover his connection to the larger story.",
+      "Resolve the tale and its consequences."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
   },
 {
@@ -6258,6 +7093,12 @@ const quests = [
       "Bring the cursed 'Uma' to Kaer Morhen and gather the witchers to attempt a brutal curse-breaking.",
     aiTip:
       "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
+    walkthrough: [
+      "Escort the cursed Uma back to Kaer Morhen.",
+      "Gather the witchers and prepare the brutal curse-breaking ritual.",
+      "Endure the Trial of the Grasses ordeal on Uma.",
+      "Break the curse to reveal the truth it hides."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
   },
 {
@@ -6274,6 +7115,12 @@ const quests = [
       "Possessed by the ghost Vlodimir, Geralt crashes a wedding in the wildest quest in the game.",
     aiTip:
       "Just go with it — the outrageous choices are the whole point and mostly harmless.",
+    walkthrough: [
+      "Summon the ghost Vlodimir to possess Geralt for the wedding.",
+      "Carry the festivities as the rowdy spirit demands.",
+      "Complete each escalating wedding-night antic.",
+      "Send Vlodimir off before dawn to end the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
   },
 {
@@ -6290,6 +7137,12 @@ const quests = [
       "Pull off an elaborate auction-house heist for Olgierd's cursed employer, Gaunter O'Dimm.",
     aiTip:
       "The vault has a fistfight and a puzzle — prep both combat and patience.",
+    walkthrough: [
+      "Plan the auction-house heist for Gaunter O'Dimm's employer.",
+      "Gather the disguise and tools, and scout the vault.",
+      "Pull off the break-in, bypassing the guards.",
+      "Escape with the target and complete the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
   },
 {
@@ -6306,6 +7159,12 @@ const quests = [
       "Enter the haunted painted world of Iris von Everec to reunite her sundered memories.",
     aiTip:
       "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
+    walkthrough: [
+      "Enter the painted world of Iris von Everec.",
+      "Cross the shifting nightmare, calming or fighting its manifestations.",
+      "Reunite Iris's sundered memories to stabilize the world.",
+      "Recover the rose and leave the painting."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
   },
 {
@@ -6322,6 +7181,12 @@ const quests = [
       "A monstrous killer stalks the fairy-tale duchy of Toussaint; Geralt is summoned to hunt it.",
     aiTip:
       "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
+    walkthrough: [
+      "Answer the summons to Toussaint and take the beast contract.",
+      "Examine the killings and track the creature with your Senses.",
+      "Prepare the right oils and bombs for a higher vampire.",
+      "Confront the Beast of Toussaint and survive the fight."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
   },
 {
@@ -6338,6 +7203,12 @@ const quests = [
       "Investigate a grisly killing tied to the elusive vampire threat haunting Beauclair.",
     aiTip:
       "Vampire Oil and Black Blood are essential against the higher vampires.",
+    walkthrough: [
+      "Investigate the grisly Beauclair killing to start the case.",
+      "Follow the Senses clues linking the deaths.",
+      "Trace the pattern back to the vampire threat.",
+      "Report your findings to advance the mystery."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
   },
 {
@@ -6354,6 +7225,12 @@ const quests = [
       "A witcher of the Cat School has slaughtered a village; Geralt uncovers the grim full story.",
     aiTip:
       "There's a lone survivor — how you handle her is the quest's real weight.",
+    walkthrough: [
+      "Take the Cat School witcher's trail after the village massacre.",
+      "Reconstruct the killings with your Senses to learn the full story.",
+      "Track the rogue witcher to his hideout.",
+      "Confront him and decide his fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
   },
 {
@@ -6370,6 +7247,12 @@ const quests = [
       "Help feuding Toussaint vineyards outmaneuver each other in a series of estate errands.",
     aiTip:
       "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
+    walkthrough: [
+      "Meet the feuding Toussaint vineyards to start the Wine Wars.",
+      "Run each estate's errand — sabotage, deliveries, and favors.",
+      "Play the rivals against each other as instructed.",
+      "Complete the tasks for the vineyard rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
   },
 {
@@ -6386,6 +7269,12 @@ const quests = [
       "A fiend terrorizes travelers in the woods near Oxenfurt (Hearts of Stone).",
     aiTip:
       "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
+    walkthrough: [
+      "Take the Oxenfurt-forest contract on the fiend (Hearts of Stone).",
+      "Track the fiend with your Senses and apply Relict Oil.",
+      "Use Devil's Puffball, Yrden, and dodges against its charges.",
+      "Slay the fiend and collect the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
   },
 {
@@ -6402,6 +7291,12 @@ const quests = [
       "Settle into Corvo Bianco vineyard and set its restoration in motion.",
     aiTip:
       "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
+    walkthrough: [
+      "Arrive at Corvo Bianco and meet your new majordomo.",
+      "Tour the vineyard and note the needed repairs.",
+      "Set the first restoration works in motion.",
+      "Settle in to unlock the estate's ongoing upgrades."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
   },
 {
@@ -6418,6 +7313,12 @@ const quests = [
       "Hunt a monstrous kikimore queen threatening Toussaint's countryside.",
     aiTip:
       "Insectoid Oil and dodge the burrow-and-lunge pattern.",
+    walkthrough: [
+      "Accept the contract on the kikimore queen threatening the countryside.",
+      "Track it to its nest, applying Insectoid Oil.",
+      "Use Dancing Star bombs and Quen against its lunges.",
+      "Kill the kikimore queen and claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
   },
 {
@@ -7574,6 +8475,13 @@ const quests = [
       "The Phantom Thieves' first target: the abusive gym teacher Suguru Kamoshida, whose twisted heart appears as a castle where students are slaves.",
     aiTip:
       "Secure the infiltration route early, then send the calling card only when you're ready for the boss — the deadline clock starts ticking.",
+    walkthrough: [
+      "Open the Metaverse Nav and enter Kamoshida's castle from Shujin Academy after the volleyball-rally arc.",
+      "Free the caged students and follow the safe-room route past the guards to lower the drawbridge.",
+      "Secure each infiltration point up to the treasure hall, then send the calling card once the route is open.",
+      "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
+      "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
   },
 {
@@ -7591,6 +8499,13 @@ const quests = [
       "Expose the celebrated artist Madarame, who plagiarizes his pupils' work — his heart is a museum of counterfeit masterpieces.",
     aiTip:
       "The shifting corridors hide switches; use Third Eye and note the fake vs. real paintings puzzle.",
+    walkthrough: [
+      "After Yusuke's plagiarism plot, enter Madarame's Museum of Vanity in Shibuya.",
+      "Work through the exhibit halls, using the fake Sayuri and hidden passages to slip past the laser grid.",
+      "Reach the infiltration point by the treasure hall and deliver the calling card.",
+      "Steal the treasure — the original Sayuri painting.",
+      "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
   },
 {
@@ -7608,6 +8523,13 @@ const quests = [
       "Take down the mafia extortionist Junya Kaneshiro, whose greed manifests as a floating bank vault.",
     aiTip:
       "The vault-door riddles gate progress — grind a little for the piggytron boss's big HP pool.",
+    walkthrough: [
+      "Raise the 30,000-yen 'debt' bait, then ride the pig vault lift to enter Kaneshiro's Bank of Gluttony.",
+      "Solve the gate and vault mechanisms, sending teammates ahead to hit the switches.",
+      "Reach the vault infiltration point and send the calling card.",
+      "Steal the floating treasure piggy bank before the deadline.",
+      "Defeat Shadow Kaneshiro atop his golden pig-mech."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
   },
 {
@@ -7625,6 +8547,13 @@ const quests = [
       "A rare heist to save a friend: Futaba Sakura's own heart, a pyramid built from guilt over her mother's death.",
     aiTip:
       "The Sphinx boss punishes wrong answers — read Futaba's memories carefully before responding.",
+    walkthrough: [
+      "Enter Futaba's Pyramid of Wrath after she asks the Thieves to steal her own heart.",
+      "Solve the mural and mechanism puzzles to open the inner tomb chambers.",
+      "Reach the treasure chamber; the calling card is delivered from within.",
+      "Fight the Sphinx (cognitive mother) — exploit Wind and weather the beam attacks.",
+      "Take the treasure and watch Futaba awaken her Persona, Necronomicon."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
   },
 {
@@ -7642,6 +8571,13 @@ const quests = [
       "Infiltrate fast-food magnate Kunikazu Okumura's spaceport palace, staffed by robotic exploited workers.",
     aiTip:
       "The final robot-boss gauntlet is time-pressured; bring Baton Pass chains and status ailments.",
+    walkthrough: [
+      "Enter Okumura's Spaceport of Greed and clear the waves of robotic worker Shadows.",
+      "Solve the airlock and shuttle puzzles, splitting the party to hold switches.",
+      "Reach the infiltration point and send the calling card well before the tight deadline.",
+      "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
+      "Grab the treasure quickly — a major real-world twist follows at once."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
   },
 {
@@ -7659,6 +8595,13 @@ const quests = [
       "The prosecutor Sae Niijima's heart is a rigged casino — the heist that frames the game's mid-story twist.",
     aiTip:
       "Rig the house's games via the lockdown puzzles; the twist afterward recontextualizes everything.",
+    walkthrough: [
+      "Enter Sae's Casino of Envy and win coins at the rigged games and battles.",
+      "Solve the House-card and slot puzzles to reach the manager's floor.",
+      "Reach the treasure-vault infiltration point and deliver the calling card.",
+      "Defeat Shadow Sae (Leviathan) across both of her forms.",
+      "Steal the treasure — this is the heist framed by the interrogation."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
   },
 {
@@ -7676,6 +8619,13 @@ const quests = [
       "Confront the corrupt politician Masayoshi Shido aboard a Diet-building cruiser sailing a drowned Tokyo.",
     aiTip:
       "A long, boss-dense palace — stock SP items and Revival Beads before the multi-phase Shido fight.",
+    walkthrough: [
+      "Board Shido's Cruiser of Pride sailing a drowned Tokyo and fight through its decks.",
+      "Use the rat/human transformation rooms and lift puzzles to climb toward the bridge.",
+      "Reach the top-deck infiltration point and send the calling card.",
+      "Defeat Shadow Shido through every beast-form phase, then his true self.",
+      "Take the treasure and face the grim aftermath back in reality."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
   },
 {
@@ -7693,6 +8643,13 @@ const quests = [
       "The public's collective heart forms the sprawling Mementos, whose depths hide the god of control, Yaldabaoth.",
     aiTip:
       "Max key confidants beforehand — several unlock crucial combat perks for the final ascent.",
+    walkthrough: [
+      "After Shido, descend through the newly opened Path of Qliphoth in Mementos.",
+      "Fight downward as the public's apathy warps the depths around you.",
+      "Reach the Holy Grail chamber and clear Yaldabaoth's guardians.",
+      "Battle the Holy Grail, then Yaldabaoth in his angelic-tower form.",
+      "Land the final rebellion shot to end the god of control's game."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
   },
 {
@@ -7710,6 +8667,13 @@ const quests = [
       "The Royal-exclusive finale: counselor Takuto Maruki reshapes reality itself, and the Thieves must reject a gilded false paradise.",
     aiTip:
       "Requires maxing Maruki, Kasumi, and Akechi's arcs to unlock. The two-phase final duel is the game's hardest.",
+    walkthrough: [
+      "Meet the Royal third-semester conditions (max Maruki's Confidant and the key Jan 9 choice).",
+      "Enter Maruki's Laboratory of Sloth beneath Odaiba.",
+      "Solve the 'actualization' tentacle puzzles and climb to the central chamber.",
+      "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
+      "Win the rooftop duel and reject the false paradise to restore reality."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
   },
 {
@@ -7726,6 +8690,12 @@ const quests = [
       "Help the fortune teller Chihaya escape a fraud cult; her readings unlock affinity-boosting fortunes.",
     aiTip:
       "Buy the Holy Stone early to fast-track her rank-ups — her fortunes speed every other confidant.",
+    walkthrough: [
+      "Find Chihaya fortune-telling in Shinjuku after her introduction in June.",
+      "Buy readings and, when prompted, purchase the Holy Stone to advance her cult storyline.",
+      "Meet on free evenings and choose supportive replies to raise the bond.",
+      "Free her from the Assembly of Divine Power and max the rank for fate-readings that boost Confidant EXP."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
   },
 {
@@ -7742,6 +8712,12 @@ const quests = [
       "The airsoft-shop owner Iwai is tangled with the yakuza; clearing his debt unlocks cheaper firearms.",
     aiTip:
       "His model-gun discounts and custom mods make ranged combat far stronger — prioritize for gun builds.",
+    walkthrough: [
+      "Shop at Iwai's Untouchable airsoft store in Yongen-Jaya to open his Confidant.",
+      "Run errands and help him settle his yakuza ties across several rank events.",
+      "Pick answers that reassure him about his adopted son, Kaoru.",
+      "Max the rank to unlock discounted, higher-tier custom firearms."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
   },
 {
@@ -7758,6 +8734,12 @@ const quests = [
       "The back-alley doctor Takemi trials experimental medicine on Joker in exchange for restoring her reputation.",
     aiTip:
       "Her clinic stocks the best SP-recovery items in the game — invaluable for long Mementos runs.",
+    walkthrough: [
+      "Become a patient at Takemi's back-alley clinic in Yongen-Jaya and agree to her medical trials.",
+      "Meet on her days off and help clear her name in the malpractice scandal.",
+      "Choose brave dialogue during the trial-medicine events.",
+      "Max the rank for the strongest healing/SP items in the game."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
   },
 {
@@ -7774,6 +8756,12 @@ const quests = [
       "Your homeroom teacher moonlights as a maid to pay off a debt; helping her frees up Joker's schedule.",
     aiTip:
       "Her rank perks let you craft tools in class and skip nights — a huge time-economy win.",
+    walkthrough: [
+      "Hire Kawakami's maid service (unlocks after learning her secret) to start her Confidant.",
+      "Book her regularly and choose supportive options to lift her out of debt.",
+      "Use her downtime services to craft tools, make coffee, or free evenings.",
+      "Max the rank to gain free-time actions during the day and in Palaces."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
   },
 {
@@ -7790,6 +8778,12 @@ const quests = [
       "The journalist Ohya chases the Thieves' story; help her expose corruption and lower Palace security.",
     aiTip:
       "Her perks reduce enemy alertness — great for stealthy, no-fail infiltration runs.",
+    walkthrough: [
+      "Meet the journalist Ohya at the Crossroads bar in Shinjuku.",
+      "Buy her drinks and feed her leads while she chases the Phantom Thieves story.",
+      "Choose replies that push her investigation into corporate corruption.",
+      "Max the rank to lower Palace security-level gains on the day of a heist."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
   },
 {
@@ -7806,6 +8800,12 @@ const quests = [
       "Coach the arcade prodigy Shinya through his bullying troubles to earn deadly gun perks.",
     aiTip:
       "His 'Down Shot' and instant-kill perks trivialize weaker Mementos enemies.",
+    walkthrough: [
+      "Beat Shinya's shooting game at the Akihabara arcade to open his Confidant.",
+      "Meet him on his days off and help with his bullying and his mother's troubles.",
+      "Give firm, encouraging advice during his rank events.",
+      "Max the rank for powerful gun-skill perks like extra ammo and down-rate boosts."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
   },
 {
@@ -7822,6 +8822,12 @@ const quests = [
       "The shogi champion Hifumi teaches tactics that let the team reposition and flee mid-battle.",
     aiTip:
       "Her Baton Pass unlock is combat-defining — rank her for aggressive weakness chaining.",
+    walkthrough: [
+      "Find Hifumi at the church in Kanda after her shogi introduction.",
+      "Play shogi sessions and choose supportive replies as she resists her mother's schemes.",
+      "Progress her arc about competing honestly.",
+      "Max the rank to gain the ability to reposition and flee mid-battle."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
   },
 {
@@ -7838,6 +8844,12 @@ const quests = [
       "The Phantom Thieves' webmaster Mishima spreads your fame — and grants EXP for benched members.",
     aiTip:
       "His EXP-share perk keeps your reserve party leveled without extra grinding.",
+    walkthrough: [
+      "Grow the Phansite via Mishima to open his Confidant early in the story.",
+      "Take his requests and choose replies steering him away from vanity.",
+      "Complete the Mementos targets he flags.",
+      "Max the rank to grant bonus EXP to benched party members."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
   },
 {
@@ -7854,6 +8866,12 @@ const quests = [
       "Aid the outcast politician Yoshida's street campaign to master persuading Shadows for money and items.",
     aiTip:
       "His negotiation perks squeeze more cash and rare Personas out of every Hold Up.",
+    walkthrough: [
+      "Listen to Yoshida's street speeches in Shibuya station square to open his Confidant.",
+      "Return on his speech days and choose answers that help his campaign.",
+      "Support him against the political smear campaign across rank events.",
+      "Max the rank to master negotiating money and items out of Shadows."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
   },
 {
@@ -7870,6 +8888,12 @@ const quests = [
       "The Velvet Room wardens task Joker with fusing specific Personas to complete their requests.",
     aiTip:
       "Fulfilling their fusion list unlocks the best fusion accidents and, in Royal, a key story reward.",
+    walkthrough: [
+      "The twins Caroline & Justine open their Confidant automatically in the Velvet Room.",
+      "Complete their fusion requests, creating Personas with specific skills/levels.",
+      "Deliver each requested Persona to advance the ranks.",
+      "Finish their arc to unlock the strongest fusion perks and their true story (Royal)."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
   },
 {
@@ -7886,6 +8910,12 @@ const quests = [
       "The talented gymnast Kasumi (Royal-exclusive) fights alongside Joker as her own story unravels.",
     aiTip:
       "Maxing Faith is required for the Royal third semester and true ending — don't neglect it.",
+    walkthrough: [
+      "Kasumi's Faith Confidant advances at fixed story points in Kichijoji (Royal-exclusive).",
+      "Meet her on the scheduled dates and choose empathetic dialogue.",
+      "Follow her gymnastics struggle and the mystery around her sister.",
+      "Progress to unlock her Persona and the path into the third semester."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
   },
 {
@@ -7902,6 +8932,12 @@ const quests = [
       "The kind school counselor Maruki (Royal-exclusive) offers therapy — and hides the game's biggest secret.",
     aiTip:
       "His confidant is Royal-only and gates the true ending; his SP-recovery perks help every fight.",
+    walkthrough: [
+      "Book counseling with Maruki at Shujin (Royal-exclusive) to open the Councillor Confidant.",
+      "Attend every session and answer honestly to deepen the bond.",
+      "Complete his ranks before the November deadline to keep the arc alive.",
+      "Max the rank to gain his powerful buffs — and the key to the third semester."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
   },
 {
@@ -7918,6 +8954,12 @@ const quests = [
       "Take the Phantom Aficionado Website's requests to change the hearts of minor villains lurking in Mementos.",
     aiTip:
       "Clear requests as they appear — many gate confidant progress or reward rare fusion material.",
+    walkthrough: [
+      "Open the Phantom Aficionado Website through Mishima to receive Mementos Requests.",
+      "Accept a request and locate the named target on the matching Mementos floor.",
+      "Defeat the target's Shadow to change its heart.",
+      "Report back for rewards, then repeat as new requests unlock over time."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Requests%20walkthrough"
   },
 {
@@ -7934,6 +8976,12 @@ const quests = [
       "Collect the Royal-exclusive Will Seeds hidden in each Palace and trade Jose's flowers/stamps for buffs.",
     aiTip:
       "Grab all three Will Seeds per Palace before the boss for a strong crystallized accessory.",
+    walkthrough: [
+      "Collect the three Will Seeds hidden in each Palace (Royal-exclusive) as you infiltrate.",
+      "Combine each set into an accessory at the Velvet Room or Leblanc.",
+      "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
+      "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
   },
 {
@@ -7951,6 +8999,12 @@ const quests = [
       "The Mongol invasion of Tsushima begins; Jin Sakai survives Komoda Beach and vows to take the island back.",
     aiTip:
       "Learn parry and Resolve early — the opening sets the samurai-vs-Ghost tension that drives the game.",
+    walkthrough: [
+      "Survive the Mongol landing at Komoda Beach and escape the battlefield.",
+      "Recover under Yuna's care and reclaim your gear.",
+      "Learn the basics of stance combat and vow to retake Tsushima.",
+      "Set out to rescue Lord Shimura from Castle Kaneda."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
   },
 {
@@ -7968,6 +9022,12 @@ const quests = [
       "Jin embraces dishonorable tactics to survive, wrestling with the samurai code as the Ghost is born.",
     aiTip:
       "This is where 'the Ghost' begins — stealth and terror tactics open up alongside honorable dueling.",
+    walkthrough: [
+      "Follow Yuna toward allies while learning the Ghost's stealth tools.",
+      "Assassinate Mongol patrols to clear the path, wrestling with the samurai code.",
+      "Infiltrate the objective using the new dishonorable tactics.",
+      "Complete the mission as the legend of the Ghost begins."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
   },
 {
@@ -7985,6 +9045,12 @@ const quests = [
       "The assault to reclaim Castle Kaneda and confront Khotun Khan's grip on the Izuhara region.",
     aiTip:
       "A major set-piece battle — master the standoff mechanic to thin enemy ranks before the walls.",
+    walkthrough: [
+      "Gather allies for the assault on Castle Kaneda.",
+      "Infiltrate the castle, clearing Mongols by stealth or open combat.",
+      "Reach and duel the enemy leader inside.",
+      "Free Lord Shimura and secure the Izuhara region."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
   },
 {
@@ -8002,6 +9068,12 @@ const quests = [
       "Jin heads to Toyotama to gather allies and a straw-hat army against the Mongols.",
     aiTip:
       "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
+    walkthrough: [
+      "Travel north to Toyotama to raise support.",
+      "Recruit allies and rally the straw-hat fighters.",
+      "Complete the tasks that build your army against the Mongols.",
+      "Prepare the region for the coming offensive."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
   },
 {
@@ -8019,6 +9091,12 @@ const quests = [
       "Jin uncovers a plan to burn the enemy out — and confronts the cost of the Ghost's methods.",
     aiTip:
       "The poison arc tests Jin's honor; upgrades to the blowgun and Ghost tools pay off here.",
+    walkthrough: [
+      "Uncover the plan to burn the Mongols out of a stronghold.",
+      "Gather the materials and set the trap in motion.",
+      "Execute the fiery assault, clearing defenders.",
+      "Confront the moral cost of the Ghost's methods afterward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
   },
 {
@@ -8036,6 +9114,12 @@ const quests = [
       "Old bonds shatter as the Straw Hat Ronin turn, culminating in a wrenching confrontation.",
     aiTip:
       "An emotional, duel-heavy chapter — sharpen your parry timing for the rival showdown.",
+    walkthrough: [
+      "Respond as the Straw Hat Ronin turn against you.",
+      "Fight through the betrayal across Toyotama.",
+      "Track the traitors to their stronghold.",
+      "Face the wrenching confrontation that ends the arc."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
   },
 {
@@ -8053,6 +9137,12 @@ const quests = [
       "The road to the final reckoning: liberate Kamiagata and face an impossible choice about honor and family.",
     aiTip:
       "The finale offers a defining choice — both endings are worth seeing; make a manual save first.",
+    walkthrough: [
+      "March to Kamiagata for the final reckoning.",
+      "Liberate the region's key strongholds from the Mongols.",
+      "Reach Khotun Khan for the climactic battle.",
+      "Face the impossible choice about honor and family with Lord Shimura."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
   },
 {
@@ -8070,6 +9160,12 @@ const quests = [
       "In Act 3, chase a burning legend through Kamiagata for a fearsome fire technique.",
     aiTip:
       "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
+    walkthrough: [
+      "Begin the Undying Flame tale in Act 3's Kamiagata.",
+      "Chase the burning legend through the region's camps.",
+      "Clear the Mongols guarding the technique.",
+      "Learn the fearsome fire technique as your reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
   },
 {
@@ -8087,6 +9183,12 @@ const quests = [
       "Begin the thief Yuna's questline as she and Jin search for her captured blacksmith brother, Taka.",
     aiTip:
       "First of Yuna's four tales; unlocks after the early story on Tsushima.",
+    walkthrough: [
+      "Start Yuna's tale searching for her brother Taka.",
+      "Follow the leads through Izuhara, clearing Mongols.",
+      "Gather information on Taka's captivity.",
+      "Advance toward his rescue."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
 {
@@ -8104,6 +9206,12 @@ const quests = [
       "Aid Sensei Ishikawa as he tracks his traitorous former student, the archer Tomoe.",
     aiTip:
       "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
+    walkthrough: [
+      "Meet Sensei Ishikawa hunting his traitorous student Tomoe.",
+      "Track Tomoe's trail with the guiding wind.",
+      "Clear the Mongols and bandits in the way.",
+      "Follow the lead to continue the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
 {
@@ -8121,6 +9229,12 @@ const quests = [
       "Join Lady Masako hunting the men who slaughtered Clan Adachi — starting with a village headman.",
     aiTip:
       "First of Masako's revenge tales; expect grim choices.",
+    walkthrough: [
+      "Join Lady Masako hunting Clan Adachi's killers.",
+      "Track the village headman with the guiding wind.",
+      "Fight through his guards.",
+      "Confront the headman and press for the next name."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
 {
@@ -8138,6 +9252,12 @@ const quests = [
       "Get roped into the sake trader Kenji's schemes as he insists he serves the common folk.",
     aiTip:
       "Kenji Tale 1 of 3 — comic relief with a sting.",
+    walkthrough: [
+      "Get roped into Kenji's latest scheme in Izuhara.",
+      "Run his errands and clear the Mongols they attract.",
+      "Play along with his 'serving the people' act.",
+      "Finish the job and its comedic payoff."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
   },
 {
@@ -8155,6 +9275,12 @@ const quests = [
       "Meet the naginata-wielding monk Norio as he fights to reclaim Cedar Temple from the Mongols.",
     aiTip:
       "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
+    walkthrough: [
+      "Meet the warrior monk Norio fighting for Cedar Temple.",
+      "Help him retake the temple from the Mongols.",
+      "Clear the grounds by stealth or open combat.",
+      "Secure the temple and begin Norio's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
 {
@@ -8172,6 +9298,12 @@ const quests = [
       "Follow foxes to hidden Inari shrines to earn charm slots and blessings across Tsushima.",
     aiTip:
       "More charm slots = more build flexibility. Pet the fox afterward — it's the law.",
+    walkthrough: [
+      "Spot a fox near a Fox Den and follow it.",
+      "Chase the fox to the hidden Inari Shrine.",
+      "Pray at the shrine to earn a charm slot or blessing.",
+      "Repeat at dens across Tsushima to expand your charms."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
   },
 {
@@ -8189,6 +9321,12 @@ const quests = [
       "Climb the treacherous mountain paths to Tsushima's Shinto shrines for powerful charms.",
     aiTip:
       "These are platforming puzzles more than combat — take your time on the ledges.",
+    walkthrough: [
+      "Locate a Shinto Shrine and find the climbing path.",
+      "Scale the treacherous cliffs and ledges to the top.",
+      "Navigate the platforming hazards carefully.",
+      "Reach the shrine to claim a powerful charm."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
   },
 {
@@ -8206,6 +9344,12 @@ const quests = [
       "Complete the button-sequence bamboo-cutting trials to permanently raise Jin's Resolve.",
     aiTip:
       "More Resolve means more healing and Ghost abilities in combat — a priority pickup.",
+    walkthrough: [
+      "Find a Bamboo Strike site and begin the trial.",
+      "Input the escalating button sequences quickly and accurately.",
+      "Complete each cut to pass the trial.",
+      "Earn a permanent Resolve increase."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
   },
 {
@@ -8223,6 +9367,12 @@ const quests = [
       "Compose haiku for cosmetic headbands and bathe in hot springs to increase maximum health.",
     aiTip:
       "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
+    walkthrough: [
+      "Reach a Haiku spot or Hot Spring in the wild.",
+      "For haiku, compose verses by choosing evocative lines for a headband.",
+      "For hot springs, soak and reflect to raise maximum health.",
+      "Seek out more across the island for their rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
   },
 {
@@ -8240,6 +9390,12 @@ const quests = [
       "Seek out the Pillars of Honor to challenge fearsome swordsmen in one-on-one duels.",
     aiTip:
       "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
+    walkthrough: [
+      "Travel to a Pillar of Honor to find a waiting swordsman.",
+      "Accept the one-on-one duel.",
+      "Read the enemy's stance and time your parries and strikes.",
+      "Win the duel to claim honor and rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
   },
 {
@@ -8257,6 +9413,12 @@ const quests = [
       "Loot Mongol camps and artifacts to gather supplies, lore records, and cosmetic rewards.",
     aiTip:
       "Clearing camps also liberates the map — combine collection runs with liberation.",
+    walkthrough: [
+      "Raid Mongol camps and search for artifacts and records.",
+      "Clear the defenders by stealth or combat.",
+      "Loot supplies, records, and cosmetic items.",
+      "Move on to the next site to keep collecting."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
   },
 {
@@ -8274,6 +9436,12 @@ const quests = [
       "Jin travels to Iki Island to counter a new Mongol threat and confront traumatic memories of his father.",
     aiTip:
       "Kicks off the Director's Cut Iki expansion — a self-contained region with new mechanics and animal sanctuaries.",
+    walkthrough: [
+      "Sail to Iki Island to counter the new Mongol threat.",
+      "Get captured and dosed with the Eagle's hallucinogen, then escape.",
+      "Push through visions of your father while rallying the locals.",
+      "Advance the Iki campaign toward the Eagle."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -8291,6 +9459,12 @@ const quests = [
       "Face the shaman known as the Eagle and the mind-bending poisons she wields against Jin.",
     aiTip:
       "The Iki hallucination sequences are unique boss encounters — steel yourself for them.",
+    walkthrough: [
+      "Track the shaman known as the Eagle across Iki Island.",
+      "Push through her mind-bending poison visions.",
+      "Clear her followers guarding the way.",
+      "Confront the Eagle to break her hold."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -8791,6 +9965,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Jackie rescue a kidnapped corpo, Sandra Dorsett, in the job that kicks off V's merc career.",
     aiTip:
       "The prologue converges all three lifepaths here — after this, Night City opens up.",
+    walkthrough: [
+      "Meet Jackie and track the kidnapped Sandra Dorsett to the No-Tell Motel.",
+      "Clear the Scavengers by stealth or force and reach the ripperdoc room.",
+      "Pull Sandra off the operating table and revive her.",
+      "Fight out to the balcony and escape via the AV pickup."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
   },
 {
@@ -8807,6 +9987,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Vik Vector installs V's iconic Kiroshi optics and Militech arm, unlocking the scanner and cyberware.",
     aiTip:
       "Vik gives a friends' discount all game — return to him for the best-value implants.",
+    walkthrough: [
+      "Head to Vik Vector's clinic beneath Misty's shop.",
+      "Sit for the ripperdoc appointment and pay or defer the cost.",
+      "Get the Kiroshi optics and Militech arm installed.",
+      "Test the new scanner cyberware before leaving."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
   },
 {
@@ -8823,6 +10009,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dexter DeShawn sizes V up for a career-making heist during a drive through Night City.",
     aiTip:
       "Dialogue-only — the choices set your rapport with Dex but don't gate much.",
+    walkthrough: [
+      "Meet Dexter DeShawn and get in his car.",
+      "Ride through Night City as Dex sizes you up.",
+      "Answer his questions to pitch yourself for the heist.",
+      "Agree to bring in the Flathead to seal the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
   },
 {
@@ -8839,6 +10031,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Johnny Silverhand relives his 2023 Arasaka raid as V comes to terms with sharing a skull.",
     aiTip:
       "Marks the shift into Act 2 and the open city — start banking gigs and side jobs now.",
+    walkthrough: [
+      "Begin Johnny's 2023 flashback outside Arasaka Tower with Rogue.",
+      "Fight through security as the rockerboy Silverhand.",
+      "Plant the charge and push deeper into the tower.",
+      "Play out the raid's fateful turn to end the memory."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
   },
 {
@@ -8855,6 +10053,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V heads to the Badlands to chase a lead through Panam Palmer and the nomad Aldecaldos.",
     aiTip:
       "Opens the Panam questline — pursue it fully for the best (Star) ending options.",
+    walkthrough: [
+      "Drive to the Badlands to find the Aldecaldos.",
+      "Meet Panam Palmer and agree to help with her problem.",
+      "Follow her lead on the stolen goods and Nash.",
+      "Set up the next move against the raffen."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
   },
 {
@@ -8871,6 +10075,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Panam ambush the raffen Nash to recover stolen goods and settle a score.",
     aiTip:
       "A combat-heavy nomad job; the Thermal Katana reward is tucked in Nash's stash.",
+    walkthrough: [
+      "Scout the raffen ambush site with Panam.",
+      "Set the trap and take positions.",
+      "Ambush Nash's convoy and clear his crew.",
+      "Recover the stolen goods and settle the score."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
   },
 {
@@ -8887,6 +10097,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Panam raid a Militech-occupied town to snatch the scientist Anders Hellman.",
     aiTip:
       "The Basilisk-adjacent set piece is tough — bring armor and let Panam draw fire.",
+    walkthrough: [
+      "Plan the raid on the Militech-held town with Panam.",
+      "Assault the compound holding Anders Hellman.",
+      "Capture Hellman and interrogate him about the relic.",
+      "Escape the Militech response and decide Hellman's fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
   },
 {
@@ -8903,6 +10119,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Goro Takemura and V scheme to reach Hanako Arasaka, starting with fixer Wakako.",
     aiTip:
       "Kicks off the Takemura path — his gigs and calls add key endgame options.",
+    walkthrough: [
+      "Meet Takemura to plan the approach to Hanako.",
+      "Visit fixer Wakako Okada for a lead.",
+      "Follow the trail she points you toward.",
+      "Regroup with Takemura to set the next step."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
   },
 {
@@ -8919,6 +10141,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Takemura scout the Arasaka Industrial Park ahead of a daring infiltration.",
     aiTip:
       "Do the optional recon fully — it unlocks stealthier routes in the follow-up.",
+    walkthrough: [
+      "Meet Takemura outside the Arasaka Industrial Park.",
+      "Scout the facility, tagging cameras and guards with your scanner.",
+      "Find the infiltration route for the heist.",
+      "Report the plan back to Takemura."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
   },
 {
@@ -8935,6 +10163,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "In drowned Pacifica, V seeks the Voodoo Boys netrunners for help with the relic.",
     aiTip:
       "Placide is not to be trusted — stay sharp through the mall and dataterm work.",
+    walkthrough: [
+      "Travel to drowned Pacifica to find the Voodoo Boys.",
+      "Meet Placide and agree to work for the netrunners.",
+      "Handle the task they set as a test.",
+      "Earn their attention to get help with the relic."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
   },
 {
@@ -8951,6 +10185,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recurring quiet interludes where V and Johnny drink, argue, and slowly understand each other.",
     aiTip:
       "These raise Johnny's rapport, which gates the secret ending — don't skip them.",
+    walkthrough: [
+      "Trigger the Tapeworm interlude between major missions.",
+      "Talk through V and Johnny's escalating conflict.",
+      "Choose your replies as they slowly find common ground.",
+      "End the scene to continue the main story."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
   },
 {
@@ -8967,6 +10207,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Rogue path, V storms Arasaka Tower with the Afterlife's queen and faces Adam Smasher.",
     aiTip:
       "Save Rogue's side jobs first. Smasher is a brutal fight — bring anti-armor and quickhacks.",
+    walkthrough: [
+      "On the Rogue path, meet the Afterlife crew for the assault.",
+      "Storm Arasaka Tower alongside Rogue.",
+      "Fight up through Arasaka security.",
+      "Face Adam Smasher in the climactic battle."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Totalimmortal%20walkthrough"
   },
 {
@@ -8983,6 +10229,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Aldecaldos path, Panam's family blasts into Arasaka Tower to get V to Mikoshi.",
     aiTip:
       "Requires Panam's full questline. The Basilisk tank makes the approach a spectacle.",
+    walkthrough: [
+      "On the Aldecaldos path, breach Arasaka Tower with Panam's family.",
+      "Ride the Basilisk through Arasaka's defenses.",
+      "Punch into the tower and push toward Mikoshi.",
+      "Fight through to reach the Mikoshi access."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
   },
 {
@@ -8999,6 +10251,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Inside Mikoshi, V faces the final choice about their body, their soul, and Johnny.",
     aiTip:
       "This is the crossroads for every ending — make a manual save before the elevator.",
+    walkthrough: [
+      "Enter Mikoshi and jack into the soul-prison.",
+      "Talk through the final decision with Johnny and Alt.",
+      "Choose who takes V's body — V, Johnny, or another path.",
+      "Cross the bridge to lock in the ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
   },
 {
@@ -9015,6 +10273,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Trusting Arasaka to fix the relic leads V down the grim corporate 'Devil' ending.",
     aiTip:
       "Requires low Johnny rapport; widely seen as the bleakest ending.",
+    walkthrough: [
+      "Take the Arasaka deal and sign Hanako's terms.",
+      "Undergo the corporate procedure aboard the orbital station.",
+      "Live through the grim 'Devil' aftermath.",
+      "Make the final phone-call choice to end V's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
   },
 {
@@ -9031,6 +10295,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On the Aldecaldos ending, V rides into the sunset with the nomad family toward a cure.",
     aiTip:
       "The most hopeful epilogue — needs Panam's romance/quests completed.",
+    walkthrough: [
+      "On the Aldecaldos ending, recover after the assault.",
+      "Say your goodbyes at the nomad camp.",
+      "Board the convoy leaving Night City.",
+      "Ride into the sunset toward a possible cure."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
   },
 {
@@ -9047,6 +10317,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rocker Kerry Eurodyne, bored and self-destructive, pulls V into his chaotic world.",
     aiTip:
       "Start of Kerry's chain — pursue it for the Us Cracks caper and a male-V romance.",
+    walkthrough: [
+      "Answer Kerry Eurodyne's call to his Northside villa.",
+      "Get pulled into his self-destructive scheme.",
+      "Handle the chaos at his place.",
+      "Set up the next beat of his questline."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
   },
 {
@@ -9063,6 +10339,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help Kerry decide whether to reunite Samurai as a corporate buyout looms.",
     aiTip:
       "Your advice shapes Kerry's arc; siding with his integrity feels most in-character.",
+    walkthrough: [
+      "Meet Kerry to weigh the Samurai reunion offer.",
+      "Attend the meeting about the corporate buyout.",
+      "Advise Kerry on whether to reunite the band.",
+      "Support his decision and move on."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
   },
 {
@@ -9079,6 +10361,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track down a legendary guitar and help a young musician for Kerry's sake.",
     aiTip:
       "A feel-good detour — the payoff is a fun jam and Kerry rapport.",
+    walkthrough: [
+      "Take Kerry's lead on the legendary guitar.",
+      "Track it down in Rancho Coronado.",
+      "Help the young musician tied to it.",
+      "Recover the guitar for Kerry."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
   },
 {
@@ -9095,6 +10383,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Kerry ropes V into helping the pop group Us Cracks with a very Night City problem.",
     aiTip:
       "Comedic and light — advances Kerry's storyline toward the finale.",
+    walkthrough: [
+      "Answer Kerry's call about the pop group Us Cracks.",
+      "Handle their very Night City problem.",
+      "Complete the wild favor.",
+      "Wrap it up with Kerry."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
   },
 {
@@ -9111,6 +10405,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Join Kerry for a wild night that either cements a romance or a friendship.",
     aiTip:
       "This is the Kerry romance gate for male V — read the moment.",
+    walkthrough: [
+      "Join Kerry for the wild night out.",
+      "Ride along through the escalating antics.",
+      "Make the romance-or-friendship choice.",
+      "See the night to its close."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
   },
 {
@@ -9127,6 +10427,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A quiet getaway with Kerry that caps his arc on a hopeful note.",
     aiTip:
       "The tender close to Kerry's story — pure character payoff, no combat.",
+    walkthrough: [
+      "Accept Kerry's getaway invitation.",
+      "Sail out for the quiet trip.",
+      "Share the reflective moment with Kerry.",
+      "Cap his arc on a hopeful note."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
   },
 {
@@ -9143,6 +10449,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Judy recruits V to strike back at the Tyger Claws controlling Clouds.",
     aiTip:
       "Opens the Judy questline proper; leads toward Pisces and the romance.",
+    walkthrough: [
+      "Meet Judy to strike back at the Tyger Claws over Clouds.",
+      "Infiltrate the Clouds server room.",
+      "Deal with Woodman and the guards.",
+      "Complete the hit and check on Judy."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
   },
 {
@@ -9159,6 +10471,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "In the aftermath of Evelyn's tragedy, V and Judy share a raw, honest moment.",
     aiTip:
       "A short but pivotal beat for the Judy romance (female V).",
+    walkthrough: [
+      "Meet Judy in the aftermath of Evelyn's death.",
+      "Talk through the raw, honest conversation.",
+      "Choose supportive replies.",
+      "Deepen the bond with Judy."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Both%20Sides%2C%20Now%20walkthrough"
   },
 {
@@ -9175,6 +10493,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Judy takes V free-diving to a submerged town and her drowned past.",
     aiTip:
       "The Judy romance culminates here for female V — a beautiful, quiet quest.",
+    walkthrough: [
+      "Meet Judy for the free-dive to the submerged town.",
+      "Dive to Laguna Bend and explore her drowned past.",
+      "Share the intimate moment underwater and after.",
+      "Advance (or begin) Judy's romance."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
   },
 {
@@ -9191,6 +10515,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tangled favor exposing how far people (and AIs) will go to feel something real.",
     aiTip:
       "A short character piece — the choice at the end has a small moral weight.",
+    walkthrough: [
+      "Take the tangled favor about feeling something real.",
+      "Investigate the person (or AI) at its center.",
+      "Complete the objective by your chosen method.",
+      "Resolve the unsettling job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
   },
 {
@@ -9207,6 +10537,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A deranged clown gang drags V into one of Night City's weirdest nights.",
     aiTip:
       "Roll with the absurdity — the loot and the story are worth the chaos.",
+    walkthrough: [
+      "Answer the call that drags V into the clown gang's night.",
+      "Follow the bizarre trail through Kabuki.",
+      "Handle the deranged crew.",
+      "Escape one of Night City's weirdest nights."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
   },
 {
@@ -9223,6 +10559,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A 'harmless' braindance hookup turns into a robbery-by-implant nightmare.",
     aiTip:
       "A cautionary vignette — expect a fight to reclaim your gear.",
+    walkthrough: [
+      "Meet the joytoy for the braindance hookup.",
+      "Realize the setup is a robbery-by-implant.",
+      "Fight or hack your way out of the trap.",
+      "Recover and settle the score."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
   },
 {
@@ -9239,6 +10581,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help a dying Badlands old-timer settle his affairs under the desert sky.",
     aiTip:
       "A melancholy, low-combat quest — a nice change of pace.",
+    walkthrough: [
+      "Meet the dying Badlands old-timer.",
+      "Help him settle his final affairs.",
+      "Complete the tasks under the desert sky.",
+      "Give him his peace."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
   },
 {
@@ -9255,6 +10603,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V encounters a decommissioned companion android with an unexpectedly human problem.",
     aiTip:
       "Short and bittersweet — the choice is about compassion, not combat.",
+    walkthrough: [
+      "Encounter the decommissioned companion android.",
+      "Hear out its unexpectedly human problem.",
+      "Help it resolve the issue.",
+      "Decide the android's fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
   },
 {
@@ -9271,6 +10625,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tense corporate job that reminds V how ruthless Night City's suits can be.",
     aiTip:
       "Scan for the quiet route; a loud approach draws heavy corpo security.",
+    walkthrough: [
+      "Take the tense corporate War Pigs job.",
+      "Navigate the ruthless suits' demands.",
+      "Complete the objective without being burned.",
+      "Collect your pay and get out."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
   },
 {
@@ -9287,6 +10647,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a pain-worshipping cult and the disturbing draw it holds over its members.",
     aiTip:
       "A dark thread connected to the Sinnerman arc's themes.",
+    walkthrough: [
+      "Investigate the pain-worshipping cult.",
+      "Infiltrate their gathering.",
+      "Uncover the draw it holds over members.",
+      "Resolve the disturbing situation."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
   },
 {
@@ -9303,6 +10669,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover a predator using braindance tech to stalk victims and shut him down.",
     aiTip:
       "Investigate the studio thoroughly before confronting him.",
+    walkthrough: [
+      "Take the case of the braindance-stalking predator.",
+      "Investigate his victims and methods.",
+      "Track him down.",
+      "Shut him down for good."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
   },
 {
@@ -9319,6 +10691,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A loudmouth's tall tales land him in trouble that V has to untangle.",
     aiTip:
       "A quick, flavorful favor — light combat, good pocket money.",
+    walkthrough: [
+      "Meet the loudmouth whose tall tales caused trouble.",
+      "Untangle the mess he's landed in.",
+      "Handle the fallout by force or talk.",
+      "Close out the job."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
   },
 {
@@ -9335,6 +10713,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A somber Badlands job about loss on the open road.",
     aiTip:
       "A quiet story beat — read the shards for the full picture.",
+    walkthrough: [
+      "Take the somber Badlands job about loss.",
+      "Follow the leads across the open road.",
+      "Complete the objective.",
+      "Give the story its quiet ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
   },
 {
@@ -9351,6 +10735,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase the legend of Rache Bartmoss's cyberdeck and the secrets it hides.",
     aiTip:
       "Ties into the mysterious 'Mr. Blue Eyes' thread — atmospheric and lore-rich.",
+    walkthrough: [
+      "Chase the legend of Rache Bartmoss's cyberdeck.",
+      "Investigate the leads in Santo Domingo.",
+      "Recover the deck and uncover its secrets.",
+      "Deal with what you find inside."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
   },
 {
@@ -9367,6 +10757,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Team with the anti-corpo netrunner Bes Isis to expose a subliminal advertising conspiracy.",
     aiTip:
       "A multi-step investigative chain — quickhacks and stealth pay off.",
+    walkthrough: [
+      "Team with the netrunner Bes Isis.",
+      "Investigate the subliminal-advertising conspiracy.",
+      "Breach the corporate systems behind it.",
+      "Expose the scheme and get paid."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
   },
 {
@@ -9383,6 +10779,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A follow-up to Happy Together about the aftermath of a life saved.",
     aiTip:
       "A quiet epilogue that rewards having handled Barry's crisis with care.",
+    walkthrough: [
+      "Follow up on the life saved in Happy Together.",
+      "Meet the parties involved in the aftermath.",
+      "Handle the fallout of the earlier choice.",
+      "Bring the story to a close."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
   },
 {
@@ -9399,6 +10801,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A charged night with Rogue Amendiares that can spark an older-flame romance.",
     aiTip:
       "Part of Rogue's arc — advancing it opens her ending path with Johnny.",
+    walkthrough: [
+      "Meet Rogue for the charged night out.",
+      "Follow the tense, flirtatious beats.",
+      "Make the choice that can spark the old-flame romance.",
+      "See the evening through."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
   },
 {
@@ -9415,6 +10823,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take Rogue to a drive-in for a rare tender night amid all the violence.",
     aiTip:
       "A charming Rogue romance beat — enjoy the quiet before the storms.",
+    walkthrough: [
+      "Take Rogue to the drive-in for the date.",
+      "Watch the film and share the tender moment.",
+      "Choose your replies to deepen the bond.",
+      "End the rare quiet night together."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
   },
 {
@@ -9431,6 +10845,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Old wounds between Johnny and Rogue surface as V mediates a fraught reunion.",
     aiTip:
       "Advances both the Rogue arc and Johnny's rapport (secret-ending relevant).",
+    walkthrough: [
+      "Head to the Afterlife for Johnny and Rogue's reunion.",
+      "Mediate the fraught, wounded conversation.",
+      "Steer the dialogue between the old friends.",
+      "Resolve the reunion for better or worse."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
   },
 {
@@ -9447,6 +10867,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Recover a stolen car and settle a double-cross for Regina Jones.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen car and settling the double-cross — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
   },
 {
@@ -9463,6 +10889,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Extract a hostage from a Maelstrom-linked kidnapping.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the hostage from the Maelstrom kidnapping — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
   },
 {
@@ -9479,6 +10911,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Retrieve stolen tech from a gang stronghold for Regina.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — retrieving the stolen tech from the gang stronghold — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
   },
 {
@@ -9495,6 +10933,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Rescue trafficked victims from a slaver operation.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — rescuing the trafficked victims from the slaver operation — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
   },
 {
@@ -9511,6 +10955,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Save a Militech agent pinned down by Maelstrom.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — saving the Militech agent pinned down by Maelstrom — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
   },
 {
@@ -9527,6 +10977,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Sort out a small-time dealer's very large debt problem.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — sorting out Big Pete's large debt problem — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
   },
 {
@@ -9543,6 +10999,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Recover a client's stolen property and mete out payback.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the client's property and delivering payback — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
   },
 {
@@ -9559,6 +11021,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Watson: Investigate a compromised safehouse for Regina.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Regina Jones and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — investigating the compromised safehouse — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Regina Jones for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
   },
 {
@@ -9575,6 +11043,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Handle a delicate personal matter for fixer Wakako Okada.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — handling her delicate personal matter — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
   },
 {
@@ -9591,6 +11065,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Clear a Tyger Claws den threatening one of Wakako's clients.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — clearing the Tyger Claws den threatening her client — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
   },
 {
@@ -9607,6 +11087,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Westbrook: Untangle a shady deal gone wrong in Japantown.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Wakako Okada and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — untangling the shady deal gone wrong — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Wakako Okada for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
   },
 {
@@ -9623,6 +11109,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Recover a stolen relic before Padre's client loses everything.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen relic before the client loses everything — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
   },
 {
@@ -9639,6 +11131,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Settle an old debt between former partners for Padre.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — settling the old debt between the former partners — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
   },
 {
@@ -9655,6 +11153,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Heywood: Rescue a doctor forced to work for a gang.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Padre and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — rescuing the doctor forced to work for the gang — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Padre for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
   },
 {
@@ -9671,6 +11175,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Extract a target from a fortified position for El Capitán.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the target from the fortified position — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
   },
 {
@@ -9687,6 +11197,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Handle a job the other fixers wouldn't touch.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — handling the job the other fixers wouldn't touch — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
   },
 {
@@ -9703,6 +11219,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Pacifica: Steal back a prized collection from a Pacifica warlord.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from El Capitán and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — stealing back the collection from the Pacifica warlord — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to El Capitán for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
   },
 {
@@ -9719,6 +11241,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Stop a raffen ambush in the Badlands for Dakota.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — stopping the raffen ambush in the Badlands — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
   },
 {
@@ -9735,6 +11263,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Resolve a violent nomad family feud.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — resolving the violent nomad family feud — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
   },
 {
@@ -9751,6 +11285,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Take down a rogue killer threatening Dakota's clients.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — taking down the rogue killer threatening the clients — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
   },
 {
@@ -9767,6 +11307,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Badlands: Recover a hijacked truck and its driver in the wastes.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dakota and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the hijacked truck and its driver — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dakota for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
   },
 {
@@ -9783,6 +11329,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Extract a defecting 6th Street member before payback lands.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — extracting the defecting 6th Street member — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
   },
 {
@@ -9799,6 +11351,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Capture or kill a slippery target for fixer Dino Dinovic.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — capturing or killing the slippery Gustavo Orta — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
   },
 {
@@ -9815,6 +11373,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in Santo Domingo: Recover stolen corporate data from an industrial site.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Dino Dinovic and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — recovering the stolen corporate data from the industrial site — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Dino Dinovic for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
   },
 {
@@ -9831,6 +11395,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A fixer gig in City Center: Retrieve compromising evidence from a corpo penthouse.",
     aiTip:
       "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    walkthrough: [
+      "Accept the gig from Sebastian 'Padre' Ibarra and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — retrieving the compromising evidence from the corpo penthouse — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Sebastian 'Padre' Ibarra for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
   },
 {
@@ -9847,6 +11417,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "V and Solomon Reed work a Dogtown lead through the enigmatic netrunner Songbird.",
     aiTip:
       "Dialogue choices here nudge the branching Phantom Liberty ending — play consistent.",
+    walkthrough: [
+      "Meet Solomon Reed to work the Dogtown lead.",
+      "Follow the trail through the netrunner Songbird.",
+      "Complete the objective Reed sets.",
+      "Set up the next step of the plan."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
   },
 {
@@ -9863,6 +11439,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Assemble the crew and gear for the plan to save Songbird as Barghest closes in.",
     aiTip:
       "Prep loadouts — this leads into some of the DLC's toughest fights.",
+    walkthrough: [
+      "Assemble the crew and gear to save Songbird.",
+      "Run the errands to prep the operation.",
+      "Handle Barghest's growing pressure.",
+      "Ready everything for the rescue."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
   },
 {
@@ -9879,6 +11461,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A tense operation forces V to weigh loyalty to Reed against sympathy for Songbird.",
     aiTip:
       "This is the pivotal choice that steers you toward one of the two endings.",
+    walkthrough: [
+      "Start the tense Birds with Broken Wings operation.",
+      "Work the objective as loyalties are tested.",
+      "Weigh loyalty to Reed against sympathy for Songbird.",
+      "Make your choice and see it through."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
   },
 {
@@ -9895,6 +11483,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Mr. Hands sends V to surveil and handle a target hiding in Dogtown's overgrowth.",
     aiTip:
       "Bring optical camo or netrunner tools — stealth is the intended route.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — surveilling and handling the target hiding in Dogtown's overgrowth — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
   },
 {
@@ -9911,6 +11505,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Navigate Dogtown's power games to deal with the gang boss Dodger's people.",
     aiTip:
       "Read the situation before shooting — some Dogtown targets are better turned than killed.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — dealing with gang boss Dodger's people in Dogtown's power games — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
   },
 {
@@ -9927,6 +11527,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Infiltrate a Dogtown high-rise to secure a stolen Militech prototype.",
     aiTip:
       "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
+    walkthrough: [
+      "Accept the gig from Mr. Hands and travel to the marked location.",
+      "Scan the area with your optics to tag guards, cameras, and access points.",
+      "Complete the objective — infiltrating the high-rise to secure the stolen Militech prototype — by stealth, hacking, or open combat.",
+      "Exfiltrate and report back to Mr. Hands for the eddies."
+    ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
   },
 {
@@ -9943,6 +11549,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt and Vesemir follow Yennefer's summons to war-torn White Orchard, hunting a griffin along the way.",
     aiTip:
       "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
+    walkthrough: [
+      "Ride out from Kaer Morhen with Vesemir toward White Orchard, following Yennefer's summons.",
+      "Reach the White Orchard inn and ask the locals about a witcher's contract and Yen's whereabouts.",
+      "Take the griffin lead to fund your stay, tracking it with your Witcher Senses.",
+      "Report back after the hunt to continue toward Vizima."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
   },
 {
@@ -9959,6 +11571,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track and slay the royal griffin terrorizing White Orchard to earn passage and information.",
     aiTip:
       "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
+    walkthrough: [
+      "Buy the griffin contract details and study the beast's nest with your Witcher Senses.",
+      "Craft or buy Grapeshot bombs and apply Hybrid Oil to your silver sword.",
+      "Lure the griffin down, dodge its aerial dives, and stagger it with Aard.",
+      "Slay the royal griffin and collect its head for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
   },
 {
@@ -9975,6 +11593,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt is escorted to Emperor Emhyr, who hires him to find Ciri before the Wild Hunt does.",
     aiTip:
       "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
+    walkthrough: [
+      "Travel with the Nilfgaardian escort to Emperor Emhyr in Vizima.",
+      "Bathe and dress before the audience, then present yourself in the throne room.",
+      "Accept the contract to find Ciri ahead of the Wild Hunt.",
+      "Leave Vizima with the leads pointing toward Velen."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
   },
 {
@@ -9991,6 +11615,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase Ciri's trail to Velen's Bloody Baron, following a Nilfgaardian informant network.",
     aiTip:
       "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
+    walkthrough: [
+      "Head to the Nilfgaardian garrison and question the informant about Ciri.",
+      "Follow the trail to the hanged man's tree and the deserters nearby.",
+      "Clear the bandits and read the letter pointing to the Bloody Baron.",
+      "Ride to Crow's Perch to meet the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
   },
 {
@@ -10007,6 +11637,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help the Bloody Baron find his missing wife and daughter in exchange for news of Ciri.",
     aiTip:
       "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
+    walkthrough: [
+      "Strike a deal with the Bloody Baron at Crow's Perch for news of Ciri.",
+      "Investigate the manor and the botched-childbirth clues with your Senses.",
+      "Fight the succubus-like spirit and follow the trail to the missing family.",
+      "Decide the fate of the Baron's wife and daughter to resolve the story."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
   },
 {
@@ -10023,6 +11659,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the sinister Crones of Crookback Bog and the Ghost in the Whispering Hillock.",
     aiTip:
       "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
+    walkthrough: [
+      "Enter Crookback Bog and bargain with the Crones on the Baron's behalf.",
+      "Investigate the Whispering Hillock and choose to free or destroy the trapped spirit.",
+      "Return to the Crones and deal with the fallout of your choice.",
+      "Learn where Ciri went and report back to the Baron."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
   },
 {
@@ -10039,6 +11681,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Search Novigrad's underworld for Dandelion by retracing his romances and debts.",
     aiTip:
       "Visit all the leads — the trail winds through the city's most colorful characters.",
+    walkthrough: [
+      "Reach Novigrad and start retracing Dandelion's steps through his old flames.",
+      "Question Priscilla, then the courtesans and associates he wronged.",
+      "Play the Gwent or persuasion beats to pry loose each lead.",
+      "Follow the clues to Whoreson Junior's operation."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
   },
 {
@@ -10055,6 +11703,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take down the sadistic crime boss Whoreson Junior to rescue Dandelion.",
     aiTip:
       "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
+    walkthrough: [
+      "Team with Dijkstra, Roche, or the gangs to hit Whoreson Junior's hideouts.",
+      "Raid the casino and fight-club fronts, using your Senses to find the trail.",
+      "Storm Junior's mansion and defeat his guards.",
+      "Confront Junior, decide his fate, and rescue Dandelion's lead."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
   },
 {
@@ -10071,6 +11725,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The mad king Radovid offers help finding Dandelion's associates — for a price.",
     aiTip:
       "Radovid is dangerous; his questline steers Novigrad's political ending.",
+    walkthrough: [
+      "Meet the mad King Radovid aboard his ship as arranged.",
+      "Agree to help find Dandelion's associate in exchange for information.",
+      "Track down the target through Novigrad with your Senses.",
+      "Report the result and weigh the cost of dealing with Radovid."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
   },
 {
@@ -10089,6 +11749,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Broker between Dijkstra, Roche, and the city's gangs to plot against Radovid.",
     aiTip:
       "Sets up the Novigrad power struggle — choices here decide who rules the North.",
+    walkthrough: [
+      "Broker meetings between Dijkstra, Roche, Thaler, and the city's power players.",
+      "Complete each faction's task to earn their cooperation.",
+      "Advance the plot to unseat Radovid.",
+      "Rally the conspirators for the plan against the king."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
   },
 {
@@ -10105,6 +11771,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Sail to the storm-lashed isles of Skellige to continue the hunt for Ciri.",
     aiTip:
       "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
+    walkthrough: [
+      "Book passage from Novigrad's docks to Skellige.",
+      "Weather the storm and shipwreck, then reach Kaer Trolde harbor.",
+      "Get your bearings in Clan an Craite's hall.",
+      "Pick up the trail of Ciri and the mage Ermion."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
   },
 {
@@ -10121,6 +11793,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A royal wedding turns to bloodshed as Skellige's succession crisis explodes.",
     aiTip:
       "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
+    walkthrough: [
+      "Attend the royal wedding feast at Kaer Trolde with the clans.",
+      "React as the celebration erupts into bloodshed and a succession crisis.",
+      "Fight through the attackers alongside your allies.",
+      "Deal with the aftermath and the question of Skellige's throne."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
   },
 {
@@ -10137,6 +11815,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The pieces come together on Skellige as Geralt finally closes on Ciri and Uma's curse.",
     aiTip:
       "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
+    walkthrough: [
+      "Follow the leads on Skellige tying Uma to Ciri's trail.",
+      "Investigate the clues with Yennefer and Ermion.",
+      "Piece together where Ciri was last seen.",
+      "Prepare to break Uma's curse and find Ciri."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
   },
 {
@@ -10153,6 +11837,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt braves the cursed Isle of Mists to find Ciri — a pivotal, mood-defining chapter.",
     aiTip:
       "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
+    walkthrough: [
+      "Sail to the cursed Isle of Mists and search for Ciri.",
+      "Cross the fog-bound island, clearing wraiths and hazards.",
+      "Find and revive Ciri at the island's heart.",
+      "Escape the isle and set course for Kaer Morhen."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
   },
 {
@@ -10169,6 +11859,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rally the witchers, sorceresses, and friends to defend Kaer Morhen against the Wild Hunt.",
     aiTip:
       "Recruit as many allies beforehand as you can — it changes who survives the siege.",
+    walkthrough: [
+      "Gather your allies and fortify Kaer Morhen against the coming assault.",
+      "Set traps and assign defenders before the Wild Hunt arrives.",
+      "Fight through the waves of Hunt warriors across the keep.",
+      "Battle Imlerith's forces and survive the siege."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
   },
 {
@@ -10185,6 +11881,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up the pieces after the Wild Hunt's assault and steady Ciri for the road ahead.",
     aiTip:
       "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
+    walkthrough: [
+      "Regroup after the assault and tend to the fallen at Kaer Morhen.",
+      "Comfort and steady Ciri through her grief.",
+      "Take part in the wake with the witchers and sorceresses.",
+      "Ready the party for the march on Bald Mountain."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
   },
 {
@@ -10201,6 +11903,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Geralt and Ciri storm Bald Mountain to end the Crones and unleash Ciri's Elder Blood.",
     aiTip:
       "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
+    walkthrough: [
+      "Travel with Ciri to Bald Mountain to end the Crones.",
+      "Fight up the mountain through the Hunt's General Imlerith's guards.",
+      "Defeat Imlerith in single combat, using Quen and dodges.",
+      "Let Ciri confront the Crones and unleash her Elder Blood."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
   },
 {
@@ -10217,6 +11925,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Travel with Avallac'h across shattered worlds via magic portals to find a way to stop the White Frost.",
     aiTip:
       "A surreal, linear chapter — enjoy the alien vistas between fights.",
+    walkthrough: [
+      "Meet Avallac'h and step through the magic portals with Ciri.",
+      "Cross the shattered worlds, solving each realm's short challenge.",
+      "Learn the plan to lure and stop the White Frost.",
+      "Return to prepare the final confrontation."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
   },
 {
@@ -10233,6 +11947,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The climactic confrontation with the Wild Hunt's king, Eredin Bréacc Glas.",
     aiTip:
       "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
+    walkthrough: [
+      "Rally your allies for the last stand against the Wild Hunt at Undvik.",
+      "Fight through Eredin's warriors across the frozen battlefield.",
+      "Duel Eredin Bréacc Glas — dodge his teleport strikes and punish with Igni.",
+      "Send Ciri to face the White Frost and end the Hunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
   },
 {
@@ -10249,6 +11969,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The quiet epilogue where Geralt's and Ciri's fates are sealed by everything you've done.",
     aiTip:
       "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
+    walkthrough: [
+      "Play out the quiet epilogue as the dust settles.",
+      "Follow the beats determined by your earlier choices about Ciri.",
+      "See the resolutions for Geralt's allies and loves.",
+      "Reach the ending your decisions have shaped."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
   },
 {
@@ -10265,6 +11991,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bound to the immortal Olgierd von Everec by Gaunter O'Dimm, Geralt must grant three impossible wishes.",
     aiTip:
       "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
+    walkthrough: [
+      "Take the prison-break contract that binds you to Olgierd von Everec (Hearts of Stone).",
+      "Escape the Oxenfurt garrison and meet Gaunter O'Dimm.",
+      "Accept the pact to grant Olgierd three impossible wishes.",
+      "Set out on the first of Olgierd's demands."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
   },
 {
@@ -10281,6 +12013,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fulfill Olgierd's first bizarre wish involving a rowdy wedding and a runaway spirit.",
     aiTip:
       "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
+    walkthrough: [
+      "Attend the rowdy wedding to fulfill Olgierd's first wish.",
+      "Get possessed by the merry ghost Vlodimir and play the reveler.",
+      "Chase down the runaway spirit through the festivities.",
+      "Complete the wish and report back to Olgierd."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
   },
 {
@@ -10297,6 +12035,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The reckoning with Gaunter O'Dimm — outwit the devil in a deadly riddle to save your soul.",
     aiTip:
       "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
+    walkthrough: [
+      "Meet Gaunter O'Dimm at the Garin estate for the final reckoning.",
+      "Enter the mirror-world and solve O'Dimm's deadly riddle before time runs out.",
+      "Use the environmental clues to find the hidden answer.",
+      "Outwit the devil to save your soul and free Olgierd — or not."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
   },
 {
@@ -10313,6 +12057,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Duchess Anna Henrietta's knights summon Geralt to fairy-tale Toussaint to hunt a beast slaying knights.",
     aiTip:
       "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
+    walkthrough: [
+      "Answer the Toussaint knights' summons and ride to Beauclair (Blood and Wine).",
+      "Meet Duchess Anna Henrietta and take the contract on the beast.",
+      "Investigate the latest knight-killing with your Senses.",
+      "Follow the trail toward the creature behind the murders."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
 {
@@ -10329,6 +12079,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the grisly knight-killings plaguing Beauclair and the higher vampire behind them.",
     aiTip:
       "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
+    walkthrough: [
+      "Examine each knight-killing site in and around Beauclair.",
+      "Trace the higher vampire's pattern with your Witcher Senses.",
+      "Confront the beast — apply vampire oil and use Moon Dust bombs.",
+      "Survive the fight and uncover Dettlaff's role."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
   },
 {
@@ -10345,6 +12101,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chase the vampire Dettlaff through Beauclair as the conspiracy tightens around Syanna.",
     aiTip:
       "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
+    walkthrough: [
+      "Track Dettlaff through Beauclair's streets and sewers.",
+      "Follow the blood trail and interrogate witnesses.",
+      "Fight through the ambushes as the conspiracy tightens.",
+      "Learn the truth about Syanna's part in the scheme."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
   },
 {
@@ -10361,6 +12123,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Delve into vampire history with Regis to find a way to stop Dettlaff's rampage.",
     aiTip:
       "Regis is a fantastic companion here — soak in the lore before the finale.",
+    walkthrough: [
+      "Travel to the ruined castle Tesham Mutna with Regis.",
+      "Delve the vampire history and defenses within.",
+      "Solve the trials to find a way to stop Dettlaff.",
+      "Recover what you need for the confrontation to come."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
   },
 {
@@ -10377,6 +12145,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Enter the storybook Land of a Thousand Fables to find the runaway Syanna.",
     aiTip:
       "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
+    walkthrough: [
+      "Enter the storybook Land of a Thousand Fables to find Syanna.",
+      "Solve the fairy-tale set-pieces and help (or trick) their characters.",
+      "Reach Syanna and learn her side of the tragedy.",
+      "Leave the fable world and prepare for the finale."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
   },
 {
@@ -10393,6 +12167,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The climax of Blood and Wine, where the fate of Dettlaff, Syanna, and the duchess is decided.",
     aiTip:
       "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
+    walkthrough: [
+      "Bring Syanna to the duchess and try to broker peace with Dettlaff.",
+      "Make the pivotal choices that decide who lives and dies.",
+      "Fight Dettlaff in his monstrous higher-vampire form if it comes to blows.",
+      "See Blood and Wine to its bittersweet close."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
   },
 {
@@ -10409,6 +12189,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help a refugee forge papers to escape Velen's war and the Nilfgaardian dragnet.",
     aiTip:
       "A small mercy quest — the outcome depends on trusting the right smuggler.",
+    walkthrough: [
+      "Meet the refugee needing forged papers to flee Velen.",
+      "Gather the required documents or bribe the right official.",
+      "Deliver the forgery and help them slip the Nilfgaardian dragnet.",
+      "See them safely on their way."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
   },
 {
@@ -10425,6 +12211,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a bog 'god' extorting a village and decide the fate of the creature behind it.",
     aiTip:
       "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
+    walkthrough: [
+      "Investigate the bog 'god' extorting the village.",
+      "Use your Senses to find the creature behind the scam.",
+      "Confront the godling or monster responsible.",
+      "Decide its fate and free the village."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
   },
 {
@@ -10441,6 +12233,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "An elf begs Geralt to help find her people amid the ruins of a flooded elven bath house.",
     aiTip:
       "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
+    walkthrough: [
+      "Agree to help the elf search for her missing people.",
+      "Explore the flooded elven bath house, clearing hazards.",
+      "Follow the Senses clues to what became of them.",
+      "Resolve the grim discovery with the elf."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
   },
 {
@@ -10457,6 +12255,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the Nilfgaardian soldiers desecrating the dead across Velen's battlefields.",
     aiTip:
       "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
+    walkthrough: [
+      "Take on the Nilfgaardian soldiers desecrating Velen's dead.",
+      "Track them across the battlefields with your Senses.",
+      "Confront and defeat the offenders.",
+      "Let the dead be laid to rest and finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
   },
 {
@@ -10473,6 +12277,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate a haunted, abandoned estate and the tragedy that cursed the Reardon family.",
     aiTip:
       "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
+    walkthrough: [
+      "Enter the haunted Reardon estate and investigate.",
+      "Use your Senses to uncover the family's tragedy.",
+      "Deal with the spirit haunting the grounds.",
+      "Resolve the curse and claim any loot."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
   },
 {
@@ -10489,6 +12299,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play Novigrad's finest Gwent players to win rare cards for your collection.",
     aiTip:
       "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
+    walkthrough: [
+      "Seek out Novigrad's top Gwent players for the collection quest.",
+      "Beat each named player in a match to win their rare card.",
+      "Build your deck as you go to keep winning.",
+      "Collect every card the quest requires."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
   },
 {
@@ -10505,6 +12321,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Tour the taverns of Velen and Novigrad beating innkeepers at Gwent.",
     aiTip:
       "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
+    walkthrough: [
+      "Tour the taverns of Velen and Novigrad challenging innkeepers.",
+      "Beat each innkeep at Gwent for coin and cards.",
+      "Improve your deck between matches.",
+      "Clear all the innkeepers to finish the quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
   },
 {
@@ -10521,6 +12343,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover a witch-hunter plot targeting Triss and the fleeing mages of Novigrad.",
     aiTip:
       "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
+    walkthrough: [
+      "Investigate the witch-hunter plot targeting Triss and the mages.",
+      "Follow the leads through Novigrad with your Senses.",
+      "Disrupt the hunters' scheme.",
+      "Protect the mages and report to Triss."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
   },
 {
@@ -10537,6 +12365,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A lighthouse keeper's death has loosed a vicious wraith on a Skellige isle.",
     aiTip:
       "Restore the lighthouse flame and use Yrden against the penitent wraith.",
+    walkthrough: [
+      "Take the Phantom of Eldberg contract on the Skellige isle.",
+      "Relight or investigate the lighthouse to draw out the wraith.",
+      "Apply Specter Oil, use Yrden, and dodge its strikes.",
+      "Banish the phantom and collect the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
   },
 {
@@ -10553,6 +12387,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A woman's brother has vanished on the road; follow the grisly trail to the culprit.",
     aiTip:
       "An early contract that teaches monster tracking with Witcher Senses.",
+    walkthrough: [
+      "Accept the missing-brother contract in White Orchard.",
+      "Follow the grisly trail from the road with your Senses.",
+      "Track the monster or culprit to its lair.",
+      "Deal with the threat and report the outcome."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
   },
 {
@@ -10569,6 +12409,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Villagers near a crossroads are slain by a grave hag feeding on the war dead.",
     aiTip:
       "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
+    walkthrough: [
+      "Take the grave hag contract near the Velen crossroads.",
+      "Inspect the war graves and follow the Senses trail.",
+      "Apply Necrophage Oil, trap it with Yrden, and stagger with Aard.",
+      "Slay the grave hag and claim the bounty."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
   },
 {
@@ -10585,6 +12431,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "A 'drunk' terrorizing Oxenfurt's outskirts turns out to be something far worse.",
     aiTip:
       "Investigate the attacks first — the true culprit isn't the obvious one.",
+    walkthrough: [
+      "Take the Oxenfurt-drunk contract (Hearts of Stone).",
+      "Investigate the attacks to reveal the true monster.",
+      "Prepare the matching oil and bombs, then confront it.",
+      "Kill the creature and collect payment."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
   },
 {
@@ -10601,6 +12453,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow old maps to recover the fast, light Feline (Cat) School witcher gear.",
     aiTip:
       "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
+    walkthrough: [
+      "Buy or find the Feline (Cat) School gear map.",
+      "Travel to each marked ruin and recover a diagram.",
+      "Clear the guardians protecting each cache.",
+      "Craft the light, fast Cat School gear at a smith."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
   },
 {
@@ -10617,6 +12475,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track down the Griffin School gear diagrams, ideal for a Sign-focused build.",
     aiTip:
       "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
+    walkthrough: [
+      "Obtain the Griffin School gear diagrams' map in Velen.",
+      "Visit each site and defeat its guardians for a diagram.",
+      "Gather all the pieces of the set.",
+      "Craft the Sign-focused Griffin School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
   },
 {
@@ -10633,6 +12497,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Climb Skellige's peaks and dive its wrecks for the heavy, tanky Ursine gear.",
     aiTip:
       "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
+    walkthrough: [
+      "Get the Ursine (Bear) School gear map on Skellige.",
+      "Climb the peaks and dive the wrecks to recover each diagram.",
+      "Clear the monsters guarding the caches.",
+      "Craft the heavy, tanky Bear School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
   },
 {
@@ -10649,6 +12519,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the balanced Wolf School gear scattered around Kaer Morhen and Velen.",
     aiTip:
       "A well-rounded set — a safe default while you gather the specialized schools.",
+    walkthrough: [
+      "Find the Wolf School gear map near Kaer Morhen.",
+      "Recover each diagram scattered around Kaer Morhen and Velen.",
+      "Defeat the guardians at each location.",
+      "Craft the balanced Wolf School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
   },
 {
@@ -10665,6 +12541,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Hunt the Manticore School gear across Toussaint for a potent alchemy-focused set.",
     aiTip:
       "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
+    walkthrough: [
+      "Obtain the Manticore School gear map in Toussaint (Blood and Wine).",
+      "Hunt down each diagram across the duchy.",
+      "Clear the guardians blocking the caches.",
+      "Craft the alchemy-focused Manticore School gear."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
   },
 {
@@ -10681,6 +12563,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Beat Skellige's toughest brawlers in bare-knuckle boxing matches.",
     aiTip:
       "Dodge and counter — trading blows with the islanders is a losing game.",
+    walkthrough: [
+      "Seek out Skellige's brawl organizers to enter the fights.",
+      "Beat each challenger in bare-knuckle boxing, timing dodges and counters.",
+      "Advance through the toughest brawlers.",
+      "Win the final bout to claim the prize."
+    ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
   },
 {
@@ -10697,6 +12585,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Activate MAI's Remnawave communication towers to reveal each region's map and its intel objectives.",
     aiTip:
       "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
+    walkthrough: [
+      "Approach a Remnawave tower in any region and interact to begin.",
+      "Solve the short traversal/climb puzzle to reach the top.",
+      "Activate the tower to reveal the region's map and intel objectives.",
+      "Repeat at each region's towers to fully chart the world."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
   },
 {
@@ -10713,6 +12607,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete Chadley's Fiend Intel hunts and combat assessments to study the planet's monsters.",
     aiTip:
       "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
+    walkthrough: [
+      "Open Chadley's Fiend Intel list for the region.",
+      "Track down each named monster or combat-assessment target.",
+      "Defeat it while meeting any special battle condition.",
+      "Report the data to Chadley to unlock rewards and new intel."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
   },
 {
@@ -10729,6 +12629,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Investigate the mysterious Lifesprings welling up across each region for lore and rewards.",
     aiTip:
       "A relaxing collectible chain — the lore deepens the game's ecological themes.",
+    walkthrough: [
+      "Locate a Lifespring welling up in the region.",
+      "Approach and interact to trigger its investigation.",
+      "Complete the short encounter or lore beat.",
+      "Sync the data with Chadley for rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
   },
 {
@@ -10745,6 +12651,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Solve each region's multi-step Protorelic puzzle to earn unique summon materia.",
     aiTip:
       "These are the best World Intel rewards — do the region's other intel first to unlock them.",
+    walkthrough: [
+      "Begin the region's Divine Intel (Protorelic) chain.",
+      "Solve each multi-step objective — combat, minigame, or puzzle.",
+      "Progress through the chain's stages.",
+      "Claim the unique summon materia on completion."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
   },
 {
@@ -10761,6 +12673,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Restore Chocobo Stops and complete moogle expeditions to open up each region's traversal.",
     aiTip:
       "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
+    walkthrough: [
+      "Find broken Chocobo Stops and moogle expedition points in the region.",
+      "Restore each Chocobo Stop by clearing the nearby obstacle.",
+      "Complete the moogle expeditions.",
+      "Open up the region's fast-travel and traversal network."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
   },
 {
@@ -10777,6 +12695,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Master the in-world card game Queen's Blood, defeating players from Kalm to the Gold Saucer.",
     aiTip:
       "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
+    walkthrough: [
+      "Learn Queen's Blood from the tutorial in Kalm.",
+      "Challenge NPC players across each region to grow your deck.",
+      "Win matches to earn new and rarer cards.",
+      "Work up to the Gold Saucer's top players to master the game."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
   },
 {
@@ -10793,6 +12717,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play the tower-defense minigame Fort Condor against escalating opponents.",
     aiTip:
       "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
+    walkthrough: [
+      "Find the Fort Condor board in the Junon area.",
+      "Learn the tower-defense rules and set your units.",
+      "Beat each escalating opponent's board.",
+      "Clear the ladder for prizes."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
   },
 {
@@ -10809,6 +12739,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face off in the reaction-based 3D Brawler boxing minigame for prizes and trophies.",
     aiTip:
       "Watch the opponent's tells and punish openings — patience beats button-mashing.",
+    walkthrough: [
+      "Access the 3D Brawler in Costa del Sol or the Gold Saucer.",
+      "Read the opponent's tells to block and counter in the boxing minigame.",
+      "Chain successful reactions into combos.",
+      "Beat each opponent for prizes and trophies."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
   },
 {
@@ -10825,6 +12761,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Program tin soldiers in the auto-battle puzzle minigame Gears & Gambits.",
     aiTip:
       "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
+    walkthrough: [
+      "Start a Gears & Gambits puzzle in the field.",
+      "Program each tin soldier's gambit rules for the auto-battle.",
+      "Adjust the logic until your units clear the encounter.",
+      "Solve every stage for the rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
   },
 {
@@ -10841,6 +12783,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Race chocobos around the Gold Saucer's tracks for gil, GP, and cosmetic rewards.",
     aiTip:
       "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
+    walkthrough: [
+      "Enter Chocobo Racing at the Gold Saucer.",
+      "Learn the track and use boosts and items around each lap.",
+      "Place first across the race classes.",
+      "Earn gil, GP, and cosmetic rewards for winning."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
   },
 {
@@ -10857,6 +12805,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Perform sheet music on pianos across the world in the rhythm minigame.",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
+    walkthrough: [
+      "Sit at a piano found in a town or hub.",
+      "Follow the on-screen notes in the rhythm minigame.",
+      "Play each sheet-music track to a passing score.",
+      "Earn rewards for higher performance ranks."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
   },
 {
@@ -10873,6 +12827,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Best Titan in a combat simulator trial to earn the earth-elemental summon.",
     aiTip:
       "Ward against earth and punish its stagger windows — a strong early summon.",
+    walkthrough: [
+      "Complete the Grasslands intel to unlock Titan's combat-simulator trial.",
+      "Enter the VR fight and learn Titan's earth-quake attack patterns.",
+      "Dodge the arena hazards and punish his openings.",
+      "Defeat Titan to earn the earth-elemental summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
   },
 {
@@ -10889,6 +12849,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat the holy fortress Alexander in Chadley's VR trial for a powerful summon.",
     aiTip:
       "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
+    walkthrough: [
+      "Unlock Alexander's trial through Junon's intel.",
+      "Enter Chadley's VR fight against the holy fortress.",
+      "Weather Alexander's holy barrages and heavy attacks.",
+      "Win to earn the Alexander summon materia."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
   },
 {
@@ -10905,6 +12871,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Overcome the ultimate dragon king Bahamut Arisen in a demanding VR assessment.",
     aiTip:
       "One of the toughest summon fights — max your materia and elemental resists first.",
+    walkthrough: [
+      "Complete Cosmo Canyon's intel to open Bahamut Arisen's assessment.",
+      "Enter the demanding VR trial against the dragon king.",
+      "Survive Mega Flare and its relentless combos.",
+      "Defeat Bahamut Arisen for the ultimate summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
   },
 {
@@ -10921,6 +12893,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face Odin under a strict time limit to claim the instant-death summon.",
     aiTip:
       "Odin's trial is a DPS race — build for maximum stagger and damage.",
+    walkthrough: [
+      "Unlock Odin's trial via Nibel's intel.",
+      "Enter the fight under Odin's strict time limit.",
+      "Deal heavy damage fast to avoid his instant-death Zantetsuken.",
+      "Beat the clock to claim the Odin summon."
+    ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
 {
@@ -11442,6 +13420,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deepen the bond with the eccentric artist Yusuke, unlocking team follow-up attacks.",
     aiTip:
       "His confidant perks add powerful assist moves — level him for tougher palaces.",
+    walkthrough: [
+      "Yusuke's Emperor Confidant opens after he joins the team in Madarame's arc.",
+      "Meet him for art outings and choose replies that support his growth.",
+      "Progress his ranks through the summer and fall.",
+      "Max the rank to unlock his Baton Pass follow-up and Harisen Recovery."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
   },
 {
@@ -11458,6 +13442,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Grow closer to the student council president Makoto for battle and money-making perks.",
     aiTip:
       "Her Follow Up and healing perks are excellent — a high-value confidant to max.",
+    walkthrough: [
+      "Makoto's Priestess Confidant opens after she joins during Kaneshiro's arc.",
+      "Study and meet with her, choosing supportive answers about her sister and future.",
+      "Advance her ranks steadily.",
+      "Max the rank for Follow-Up, Protect, and her money-finding perks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
   },
 {
@@ -11474,6 +13464,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bond with the gentle heiress Haru, whose perks grow SP-restoring plants and boost EXP.",
     aiTip:
       "Her rooftop garden yields SP-recovery veggies — great for palace stamina.",
+    walkthrough: [
+      "Haru's Empress Confidant opens after Okumura's Palace.",
+      "Tend her rooftop garden and meet her on free days.",
+      "Choose replies that help her stand up to her arranged marriage.",
+      "Max the rank for SP-restoring plants and Baton Pass bonuses."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
   },
 {
@@ -11490,6 +13486,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Strengthen your bond with Morgana, unlocking better ambushes and item crafting.",
     aiTip:
       "An easy early confidant — his perks smooth out the whole early game.",
+    walkthrough: [
+      "Morgana's Magician Confidant advances through story rank-ups at Leblanc.",
+      "Choose supportive dialogue during his identity-crisis events.",
+      "Progress the main story to trigger each locked rank.",
+      "Max the rank for better ambushes and item crafting."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
   },
 {
@@ -11506,6 +13508,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The prosecutor Sae's confidant unfolds through the story's interrogation frame.",
     aiTip:
       "Progresses automatically with the plot — pays off in the game's climax.",
+    walkthrough: [
+      "Sae's Judgement Confidant advances automatically through the interrogation framing.",
+      "Progress the story past Sae's Palace to unlock later ranks.",
+      "Make the key confession choices honestly.",
+      "Reach max rank in the endgame for its powerful battle perks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
   },
 {
@@ -11522,6 +13530,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Change the heart of a ruthless loan shark preying on the desperate.",
     aiTip:
       "Send the calling card once you've cleared the target's Mementos floor.",
+    walkthrough: [
+      "Accept the Phansite request targeting the predatory loan shark.",
+      "Descend to the matching Mementos floor and locate the target Shadow.",
+      "Defeat it to change the loan shark's heart.",
+      "Report to Mishima for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Man%20of%20Plans%20and%20Capital%20walkthrough"
   },
 {
@@ -11538,6 +13552,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take down a violent bounty hunter terrorizing Tokyo's underworld.",
     aiTip:
       "Exploit the shadow's weakness for a quick, clean Hold Up.",
+    walkthrough: [
+      "Accept the Phansite request about the violent bounty hunter.",
+      "Travel to the flagged Mementos depth and find the target.",
+      "Beat the Shadow, exploiting its weakness for a quick down.",
+      "Return to claim the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20A%20Bounty%20Hunter%20Scorned%20walkthrough"
   },
 {
@@ -11554,6 +13574,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with a self-styled vigilante whose 'justice' has curdled into cruelty.",
     aiTip:
       "A morally grey request — the reward and lore make it worth the trip.",
+    walkthrough: [
+      "Take the request concerning the vigilante 'Lockdown Hero'.",
+      "Reach the named Mementos floor and track down the Shadow.",
+      "Defeat it to reform the target.",
+      "Report back to Mishima for items and thanks."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Lockdown%20Hero%20walkthrough"
   },
 {
@@ -11570,6 +13596,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Change the heart of a serial blackmailer exploiting Shibuya's students.",
     aiTip:
       "Time it after the relevant confidant hint appears for the fullest story.",
+    walkthrough: [
+      "Accept the request exposing the serial blackmailer.",
+      "Find the target on the indicated Mementos level.",
+      "Change its heart in battle.",
+      "Report the success for the reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Illustrious%20Blackmailer%20walkthrough"
   },
 {
@@ -11586,6 +13618,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Frequent Kichijoji's jazz club, darts, and billiards to boost stats and unlock combat perks.",
     aiTip:
       "Darts raises Baton Pass rank; Jazz Jin recovers SP for two party members — both huge.",
+    walkthrough: [
+      "Visit Kichijoji and play the Jazz Jin club to grant party-wide skill boosts.",
+      "Throw darts to raise Baton Pass rank with your teammates.",
+      "Shoot billiards to earn temporary battle buffs.",
+      "Rotate these activities on free evenings to steadily improve the team."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
   },
 {
@@ -11602,6 +13640,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Explore the Royal-exclusive Thieves Den to review the Phantom Thieves' exploits and unlock decor.",
     aiTip:
       "A relaxing meta-hub — collect trophies and models as you progress the story.",
+    walkthrough: [
+      "Access the Thieves Den from the title screen or Velvet Room (Royal-exclusive).",
+      "Spend collected coins on decor, music, and art unlocked through play.",
+      "Review event scenes and character models earned across the story.",
+      "Return periodically to spend new coins and complete the collection."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
   },
 {
@@ -11618,6 +13662,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Earn the trust of your gruff guardian Sojiro, unlocking coffee and curry that restore SP.",
     aiTip:
       "His SP-restoring brews and dishes are invaluable for long palace runs.",
+    walkthrough: [
+      "Sojiro's Hierophant Confidant opens early as you live and work at Leblanc.",
+      "Advance the story and choose replies that earn his trust about Futaba.",
+      "Complete his rank events at the café.",
+      "Max the rank to brew coffee and cook curry that restore party SP."
+    ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
   },
 {
@@ -11635,6 +13685,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Rescue a captured blacksmith to keep Jin's growing resistance armed.",
     aiTip:
       "An early Act 1 tale — rescuing allies expands your support network.",
+    walkthrough: [
+      "Take the mission to rescue the captured blacksmith.",
+      "Infiltrate the Mongol camp holding him by stealth or force.",
+      "Free the smith and fight your way out.",
+      "Return him safely to keep the resistance armed."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
   },
 {
@@ -11652,6 +13708,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the grappling hook that opens up Tsushima's cliffs and hidden paths.",
     aiTip:
       "The hook is a major traversal upgrade — grab it before exploring the peaks.",
+    walkthrough: [
+      "Pursue the lead on the grappling hook.",
+      "Clear the site holding it, using stealth where possible.",
+      "Recover the Iron Hook to unlock new traversal.",
+      "Use it to reach previously blocked cliffs and paths."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
   },
 {
@@ -11669,6 +13731,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Aid the war effort by securing the means to craft the Ghost's deadly tools.",
     aiTip:
       "Unlocks key Ghost weapons — a turning point in Jin's tactics.",
+    walkthrough: [
+      "Secure the forge and materials for the Ghost's tools.",
+      "Escort or protect the smith as the war effort demands.",
+      "Clear the Mongols threatening the operation.",
+      "Complete the task to expand your arsenal."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
   },
 {
@@ -11686,6 +13754,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront Jin's desperate old friend Ryuzo as the Straw Hats side with the Mongols.",
     aiTip:
       "An emotionally charged duel — sharpen your parry timing beforehand.",
+    walkthrough: [
+      "Confront your old friend Ryuzo as the Straw Hats side with the Mongols.",
+      "Fight through his men across Toyotama.",
+      "Reach Ryuzo for the tense showdown.",
+      "Resolve the duel and its fallout."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
   },
 {
@@ -11703,6 +13777,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Break the Mongol hold on a key Toyotama stronghold to rally the region.",
     aiTip:
       "A large-scale assault — use stealth to thin the garrison before going loud.",
+    walkthrough: [
+      "Plan the assault on the key Toyotama stronghold.",
+      "Infiltrate and clear the Mongol garrison.",
+      "Defeat the region's Mongol jito.",
+      "Rally Toyotama to your cause."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
   },
 {
@@ -11720,6 +13800,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Jin fully embraces the Ghost's fearsome reputation as the war in Toyotama peaks.",
     aiTip:
       "The Ghost's terror tactics come into full force — lean into fear-based play.",
+    walkthrough: [
+      "Lean fully into the Ghost's fearsome reputation.",
+      "Use terror tactics and stealth to break the Mongols' hold.",
+      "Clear the objective as the Toyotama war peaks.",
+      "Set up the push toward Kamiagata."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
   },
 {
@@ -11737,6 +13823,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Root out betrayal and reclaim northern Kamiagata as the final reckoning nears.",
     aiTip:
       "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
+    walkthrough: [
+      "Root out the betrayal threatening northern Kamiagata.",
+      "Investigate and track the traitors.",
+      "Reclaim the region's strongholds.",
+      "Prepare for the final reckoning with Khotun Khan."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
   },
 {
@@ -11754,6 +13846,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "The quiet aftermath of Jin's war — the honor-versus-survival theme reaches its close.",
     aiTip:
       "Follows the main finale; your defining choice colors this epilogue.",
+    walkthrough: [
+      "Play through the quiet aftermath of Jin's war.",
+      "Follow the closing beats of the honor-versus-survival theme.",
+      "See the fates of Jin and his allies resolve.",
+      "Reach the story's conclusion."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
   },
 {
@@ -11771,6 +13869,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "On Iki, Jin hunts for a captured ally while battling hallucinogenic Mongol poisons.",
     aiTip:
       "The Eagle's hallucinations are unique encounters — steel yourself for the trippy set pieces.",
+    walkthrough: [
+      "Begin the Iki search for a captured ally.",
+      "Endure the hallucinogenic Mongol poisons as you press on.",
+      "Clear the camps holding your friend.",
+      "Complete the rescue and advance the Iki tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -11788,6 +13892,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the shaman known as the Eagle in the climax of the Iki Island expansion.",
     aiTip:
       "A tough finale duel — the Eagle's mind-games make it as much mental as mechanical.",
+    walkthrough: [
+      "Reach the climax of the Iki expansion against the Eagle.",
+      "Fight through her stronghold's defenders.",
+      "Duel the Eagle amid her poison illusions.",
+      "End her threat to close the expansion's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -11805,6 +13915,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play Jin's flute to soothe Iki's wildlife and unlock sanctuaries and cosmetics.",
     aiTip:
       "Relaxing rhythm minigames — a lovely break from the fighting.",
+    walkthrough: [
+      "Find an Iki Island Animal Sanctuary.",
+      "Play Jin's flute, matching the on-screen rhythm prompts.",
+      "Complete the tune to soothe the wildlife.",
+      "Unlock the sanctuary's cosmetic rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
   },
 {
@@ -11822,6 +13938,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow Ishikawa deeper into his history with Tomoe as old wounds resurface.",
     aiTip:
       "Part of the Unbending Archer questline; verify against a guide if replaying.",
+    walkthrough: [
+      "Continue Ishikawa's tale into his history with Tomoe.",
+      "Track the next lead with the guiding wind.",
+      "Clear the enemies standing in the way.",
+      "Advance the Sensei-and-Student story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
 {
@@ -12710,6 +14832,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The god Eothas reawakens beneath Caed Nua, drains the Watcher's soul, and marches into the sea — the chase begins.",
     aiTip:
       "The prologue reunites you with old companions and sets your soul-bond stakes for the game.",
+    walkthrough: [
+      "Watch the opening as Eothas awakens beneath Caed Nua and drains the Watcher.",
+      "Recover in Berath's realm and accept the pact to pursue the god.",
+      "Wake at Port Maje and get your bearings after the shipwreck.",
+      "Begin the chase by seeking passage into the wider Deadfire."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
   },
 {
@@ -12726,6 +14854,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wash ashore at Port Maje, then reach the great city of Neketaka to outfit your ship, the Defiant.",
     aiTip:
       "Neketaka is the hub — recruit crew, upgrade the Defiant, and pick up faction and companion quests.",
+    walkthrough: [
+      "Resolve the Port Maje situation and gain use of your ship, the Defiant.",
+      "Sail to Neketaka, the great Huana city, and dock at the harbor.",
+      "Explore the city's districts and meet the competing factions.",
+      "Outfit ship and crew, then follow the leads pointing toward Eothas."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
   },
 {
@@ -12742,6 +14876,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the fortress island of Hasongo to catch Eothas's trail and get drawn into the powers' schemes.",
     aiTip:
       "Which faction you help here begins to steer the archipelago's fate.",
+    walkthrough: [
+      "Sail to the fortress island of Hasongo to pick up Eothas's trail.",
+      "Deal with the Naga and the factions vying over the lighthouse.",
+      "Uncover the clue directing you deeper into the archipelago.",
+      "Report back and choose which power's schemes to entertain."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20walkthrough"
   },
 {
@@ -12758,6 +14898,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Brave the volcanic Ashen Maw to finally confront the titan of Eothas and the god's true plan.",
     aiTip:
       "A major turning point — your faction allegiance shapes who stands with you.",
+    walkthrough: [
+      "Reach Magran's Teeth and descend into the volcanic Ashen Maw.",
+      "Fight through the fire-touched Engwithan complex.",
+      "Confront the titan housing Eothas and learn the god's true plan.",
+      "Escape the eruption and set course for Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
   },
 {
@@ -12774,6 +14920,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure passage past the Storm of Ukaizo to reach the lost Engwithan city and the god's final act.",
     aiTip:
       "Requires a faction's help to cross — the endgame branches hard on your choices.",
+    walkthrough: [
+      "Secure the means to cross the Storm of Ukaizo from your chosen faction.",
+      "Prepare ship and crew for the final voyage.",
+      "Break through the storm to sight the lost Engwithan city.",
+      "Approach Ukaizo for the confrontation with Eothas."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
   },
 {
@@ -12790,6 +14942,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the ancient city of Ukaizo, the Watcher decides how to answer Eothas's world-shaking gambit.",
     aiTip:
       "The ending weighs the gods, the mortal world, and your faction — save before the final talks.",
+    walkthrough: [
+      "Land at Ukaizo and cross the ancient Engwithan wheel-city.",
+      "Clear the final guardians blocking the great machine.",
+      "Confront Eothas and hear out his world-shaking gambit.",
+      "Make the final choice that decides how the Wheel — and the world — will turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
   },
 {
@@ -12806,6 +14964,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Serve Queen Onekaza and the native Huana as they fight to keep the Deadfire from foreign powers.",
     aiTip:
       "One of four mutually-exclusive faction paths to the finale — pick the vision you believe in.",
+    walkthrough: [
+      "Meet Queen Onekaza at the Kahanga Palace to join the Huana.",
+      "Complete the Huana questline advancing their control of the Deadfire.",
+      "Choose Huana-favoring outcomes in the districts and rival factions.",
+      "Finish their arc to earn Huana backing for the endgame."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
   },
 {
@@ -12822,6 +14986,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Advance the Vailian Trading Company's grip on the archipelago's soul-rich adra trade.",
     aiTip:
       "Aligning with the VTC alienates rival factions — choose deliberately.",
+    walkthrough: [
+      "Report to Castol at the Vailian Trading Company to take their side.",
+      "Run the VTC jobs expanding their grip on the adra trade.",
+      "Undercut the rival factions where the story allows.",
+      "Complete their arc to gain VTC support at Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
   },
 {
@@ -12838,6 +15008,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Throw in with the pirate confederation, the Príncipi, and their dream of a free Deadfire.",
     aiTip:
       "The most freewheeling faction — great for a swashbuckling captain playthrough.",
+    walkthrough: [
+      "Seek out the Príncipi pirates and prove your worth to their captains.",
+      "Complete their raids and schemes for a free Deadfire.",
+      "Back Príncipi outcomes against the imperial powers.",
+      "Finish their questline to sail into the finale with pirate support."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Pr%C3%ADncipi%20sen%20Patrena%20walkthrough"
   },
 {
@@ -12854,6 +15030,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the imperial Rauataians impose order — and control — over the islands.",
     aiTip:
       "A colonizing power path with hard moral trade-offs; your choices color the ending.",
+    walkthrough: [
+      "Report to the Rauataian Royal Deadfire Company to align with the empire.",
+      "Carry out their orders imposing control over the islands.",
+      "Choose Rauataian-favoring resolutions in the faction conflicts.",
+      "Complete their arc for imperial backing at Ukaizo."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
   },
 {
@@ -12870,6 +15052,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help Edér find a lost love and reckon with his faith now that Eothas has returned.",
     aiTip:
       "A warm, human arc amid the divine stakes — worth doing before the finale.",
+    walkthrough: [
+      "Trigger Edér's personal quest and sail toward Sayuka.",
+      "Help him search for his lost love and old comrades.",
+      "Guide his dialogue about faith now that Eothas has returned.",
+      "Resolve the arc to settle Edér's beliefs and his fate."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
   },
 {
@@ -12886,6 +15074,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Aid the cipher orlan pirate Serafen in tracking down Remaro, an old pirate the Príncipi have branded a mutineer and traitor.",
     aiTip:
       "Ship-combat friendly — chase the target across the seas with the Defiant.",
+    walkthrough: [
+      "Advance Serafen's conversations while sailing the Deadfire.",
+      "Take up the hunt for the branded pirate Remaro.",
+      "Track Remaro down and confront him at sea.",
+      "Choose Serafen's resolution to close his personal quest."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
   },
 {
@@ -12902,6 +15096,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the Rauataian sharpshooter Maia deliver the Royal Deadfire Company's missives across the archipelago — and reckon with the ruthless orders that come with them.",
     aiTip:
       "Her loyalty to Rauatai can clash with the Watcher's conscience — your input shapes her ending.",
+    walkthrough: [
+      "Trigger Maia's quest by carrying Royal Deadfire Company missives.",
+      "Deliver the letters across the archipelago as tasked.",
+      "Weigh the ruthless orders the deliveries reveal.",
+      "Make the final choice that defines Maia's loyalty and ending."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
   },
 {
@@ -12918,6 +15118,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tekēhu has no standalone personal quest — instead the flamboyant godlike watershaper takes center stage in the Watershaper Guild's investigation of The Shadow Under Neketaka, wrestling with his rare gifts and Huana duty.",
     aiTip:
       "A charismatic arc exploring the Huana's caste system and divine blood.",
+    walkthrough: [
+      "Join the Watershaper Guild's investigation, The Shadow Under Neketaka.",
+      "Descend into the flooded depths beneath the city with Tekēhu.",
+      "Uncover the cause of the disturbance in the waters.",
+      "Resolve the investigation to advance Tekēhu's story and gifts."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
   },
 {
@@ -12934,6 +15140,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Answer a cult's summons to the frozen isle and enter the death-god Rymrgand's domain.",
     aiTip:
       "A darkly imaginative DLC — bring cold resistance and a high-level party.",
+    walkthrough: [
+      "Answer the cult's summons and sail to Harbinger's Watch (DLC).",
+      "Enter the frozen isle and pass into Rymrgand's death-domain.",
+      "Solve the Beyond's trials and confront the death-god's servants.",
+      "Choose how to answer Rymrgand to earn the DLC's rewards."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
   },
 {
@@ -12950,6 +15162,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Compete in the spectral arena of the Faces of War for glory and powerful loot.",
     aiTip:
       "A combat-focused DLC — ideal for testing a min-maxed party build.",
+    walkthrough: [
+      "Enter the Old City arena and register for the Faces of War (DLC).",
+      "Fight through the escalating spectral combat trials.",
+      "Adapt your party to each themed challenge wave.",
+      "Win the final bout for the arena's powerful loot."
+    ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
   },
 {
@@ -14338,6 +16556,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the lumbering Wandering Wight, a mound of vengeful earth and bone in Chapter 1.",
     aiTip:
       "Dodge its ground-slams and punish the long recovery; absorb its spirit for a useful skill.",
+    walkthrough: [
+      "Progress Chapter 1 through Black Wind Mountain to the Wight's clearing.",
+      "Bait its slow, telegraphed swings and dodge into the recovery windows.",
+      "Punish with light combos and Focus-charged heavy strikes.",
+      "Use Immobilize when it winds up big attacks to secure the kill."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Wandering%20Wight%20walkthrough"
   },
 {
@@ -14354,6 +16578,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the wolf commander Guangzhi, whose flaming glaive guards the mountain paths.",
     aiTip:
       "His fire combos are relentless — stay mobile and strike between his lunges.",
+    walkthrough: [
+      "Reach Guangzhi guarding the mountain path in Chapter 1.",
+      "Dodge his flaming glaive sweeps and close the gap after each swing.",
+      "Break his poise with staff heavies, then unload combos.",
+      "Watch for the transformation phase and keep dodging through the fire arcs."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangzhi%20%26%20the%20Wolf%20Vanguard%20walkthrough"
   },
 {
@@ -14370,6 +16600,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the serpent-adjacent Elder Jinchi, a hidden Chapter 1 boss tied to the mountain's masters.",
     aiTip:
       "A tougher optional fight — bring focus and the right stance for its quick strikes.",
+    walkthrough: [
+      "Find the hidden Elder Jinchi (Lingxuzi) arena in Chapter 1.",
+      "Stay mobile against his wide area attacks and summoned adds.",
+      "Use Cloud Step to punish from behind during openings.",
+      "Chip him down between his ranged bursts to finish the fight."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Elder%20Jinchi%20(Lingxuzi)%20walkthrough"
   },
 {
@@ -14386,6 +16622,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang haunting Chapter 1's byways.",
     aiTip:
       "Watch for poison; keep healing gourd charges ready for the drawn-out fight.",
+    walkthrough: [
+      "Confront the paired snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang in Chapter 1.",
+      "Focus one target while dodging the other's lunges.",
+      "Exploit their long recovery after the coil attacks.",
+      "Immobilize to isolate and burst each down in turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20walkthrough"
   },
 {
@@ -14402,6 +16644,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clash with the fearsome Tiger Vanguard, a towering blademaster of the sandy ridge.",
     aiTip:
       "One of the game's iconic hard fights — learn his charge and counter with immobilize.",
+    walkthrough: [
+      "Reach the Tiger Vanguard at Yellow Wind Ridge in Chapter 2.",
+      "Roll through his fast blade rushes and stay close to bait shorter swings.",
+      "Punish the end of his combo strings with heavy attacks.",
+      "Use spells like Immobilize on his big overhead to open damage windows."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Tiger%20Vanguard%20walkthrough"
   },
 {
@@ -14418,6 +16666,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the golden dragon Kang-Jin Loong coiling through Chapter 2's ruins.",
     aiTip:
       "Aerial and dashing attacks abound — punish after his dive and keep your distance otherwise.",
+    walkthrough: [
+      "Find the dragon Kang-Jin Loong in the Chapter 2 ruins/waterfall.",
+      "Dodge laterally against his diving and sweeping attacks.",
+      "Hit and reposition as he takes flight between passes.",
+      "Punish each landing to whittle the dragon down."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Kang-Jin%20Loong%20walkthrough"
   },
 {
@@ -14434,6 +16688,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Topple the hulking Stone Vanguard guarding a Chapter 2 path.",
     aiTip:
       "Its armor shrugs off light hits — use heavy stance combos and dodge the shockwaves.",
+    walkthrough: [
+      "Reach the Stone Vanguard blocking a Chapter 2 path.",
+      "Sidestep its heavy, slow ground slams and shockwaves.",
+      "Build Focus and land charged heavies during its long recoveries.",
+      "Immobilize the wind-ups to safely stack damage."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Stone%20Vanguard%20walkthrough"
   },
 {
@@ -14450,6 +16710,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the illusion-weaving Macaque Chief amid the snows of Chapter 3.",
     aiTip:
       "His clones and teleports demand focus — lock onto the real one and stay aggressive.",
+    walkthrough: [
+      "Confront the Macaque Chief in the Chapter 3 snows.",
+      "Watch for his illusion clones and strike the real body.",
+      "Dodge his rapid staff flurries and counter after the last hit.",
+      "Use Focus heavies during his cooldowns to end the illusions."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Macaque%20Chief%20(Non-Void)%20walkthrough"
   },
 {
@@ -14466,6 +16732,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the froglike Captain Wise-Voice in the frozen Chapter 3 wilds.",
     aiTip:
       "Sound-based attacks telegraph slowly — dodge in and punish the wind-up.",
+    walkthrough: [
+      "Reach the froglike Captain Wise-Voice in the frozen Chapter 3 wilds.",
+      "Avoid his tongue-lash and leaping body-slam attacks.",
+      "Punish the landing after each jump with combos.",
+      "Keep healing gourds ready for his poison spit and finish him off."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Captain%20Wise-Voice%20walkthrough"
   },
 {
@@ -14482,6 +16754,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the Yaksha kings woven into Chapter 3's tragic tale of the four sisters.",
     aiTip:
       "Multiple elemental foes — swap your vessel spells to match each Yaksha's weakness.",
+    walkthrough: [
+      "Battle the Yaksha kings woven into Chapter 3's tale of the four sisters.",
+      "Learn each Yaksha's attack rhythm and dodge through the elemental bursts.",
+      "Punish between their combo strings with staff heavies.",
+      "Use transformations and spells to break poise and secure the kills."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Yakshas%20of%20the%20Pagoda%20walkthrough"
   },
 {
@@ -14498,6 +16776,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the venomous Violet Spider and her brood in the poisonous Webbed Hollow.",
     aiTip:
       "Poison stacks fast — cleanse often and burst her down during openings.",
+    walkthrough: [
+      "Enter the Webbed Hollow and reach the Violet Spider (Second Sister) in Chapter 4.",
+      "Dodge her venom spits and dashing bites while managing the poison meter.",
+      "Cleanse or heal poison buildup between exchanges.",
+      "Punish her lunge recoveries and finish before the arena floods with spiderlings."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Violet%20Spider%20(Second%20Sister)%20walkthrough"
   },
 {
@@ -14514,6 +16798,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take on the paired insect-demon Duo of Corruption guarding Chapter 4's depths.",
     aiTip:
       "Split your attention carefully — immobilize one while you focus the other.",
+    walkthrough: [
+      "Find the Duo of Corruption guarding the Chapter 4 depths.",
+      "Split your attention — focus one insect-demon while dodging the other.",
+      "Immobilize one to fight them one at a time.",
+      "Burst each down during their shared attack cooldowns."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
   },
 {
@@ -14530,6 +16820,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Battle the mighty Bull King and the swift Cloudtreading Deer amid the volcanic Chapter 5.",
     aiTip:
       "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
+    walkthrough: [
+      "Reach the Bull King and Cloudtreading Deer in the volcanic Chapter 5.",
+      "Dodge the Bull King's charges and the Deer's swift dashes.",
+      "Punish after the charge attacks with Focus-charged heavies.",
+      "Manage the fire hazards and whittle both foes down in phases."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20walkthrough"
   },
 {
@@ -14546,6 +16842,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the elemental sages tied to the Five-Element Carts and the Flaming Mountains' curse.",
     aiTip:
       "Bring fire resistance and rotate stances to break each sage's guard.",
+    walkthrough: [
+      "Confront the elemental Fire Sages tied to the Five-Element Carts.",
+      "Learn each sage's element and dodge the matching hazard.",
+      "Punish between their spell casts with quick combos.",
+      "Break their poise to end the Flaming Mountains' curse encounter."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
   },
 {
@@ -14562,6 +16864,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Face the colossal Giant Shigandang on the road to Wukong's homeland in Chapter 6.",
     aiTip:
       "A huge stone brute — bait its slams, then unload heavy combos on the openings.",
+    walkthrough: [
+      "Reach the colossal Giant Shigandang on the road to Mount Huaguo in Chapter 6.",
+      "Stay near its feet to bait shorter attacks and dodge the ground slams.",
+      "Punish the recovery after each big swing.",
+      "Use Immobilize on the huge wind-ups to safely deal damage."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Giant%20Shigandang%20walkthrough"
   },
 {
@@ -14578,6 +16886,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Overcome the Supreme Inspector and the last trials guarding the Great Sage's legacy.",
     aiTip:
       "Late-game difficulty — max your spells, gourd, and transformations before the finale.",
+    walkthrough: [
+      "Overcome the Supreme Inspector and the final trials at Mount Huaguo.",
+      "Adapt to each trial's attack patterns, dodging through the combos.",
+      "Use your full spell and transformation kit to break poise.",
+      "Clear the last trial to claim the Great Sage's legacy."
+    ],
     video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
   },
 {
@@ -15707,6 +18021,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Track a brutal Mongol commander known as the Black Wolf alongside Yuna.",
     aiTip:
       "Yuna Tale 3 of 4.",
+    walkthrough: [
+      "Take up the hunt for the Black Wolf with Yuna.",
+      "Track the brutal commander through Izuhara.",
+      "Clear his camps and guards.",
+      "Confront the Black Wolf and advance Yuna's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
   },
 {
@@ -15724,6 +18044,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Close out Yuna's story as her search for Taka reaches its emotional end.",
     aiTip:
       "Yuna Tale 4 of 4.",
+    walkthrough: [
+      "Reach the emotional end of Yuna's search for Taka.",
+      "Follow the final leads and clear the Mongols.",
+      "Confront the truth of Taka's fate.",
+      "Close out Yuna's story."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
   },
 {
@@ -15741,6 +18067,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Train and hunt with Ishikawa as he teaches Jin the discipline of the bow.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Train with Ishikawa in the way of the bow.",
+      "Follow his hunt, practicing precise archery.",
+      "Clear the targets and enemies he sets.",
+      "Master the lesson to advance his tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
   },
 {
@@ -15758,6 +18090,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Pursue Tomoe as she aids the Mongols' ambitions across Toyotama.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Pursue Tomoe as she aids the Mongols in Toyotama.",
+      "Track her movements with the guiding wind.",
+      "Clear the forces protecting her plans.",
+      "Follow the lead to continue the hunt."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
   },
 {
@@ -15775,6 +18113,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the darker rumors about Ishikawa as the hunt for Tomoe intensifies.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Confront the darker rumors about Ishikawa's past.",
+      "Investigate the leads on Tomoe.",
+      "Fight through the Mongols and doubters in the way.",
+      "Press on as the hunt for Tomoe intensifies."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
   },
 {
@@ -15792,6 +18136,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Chase Tomoe to Otsuna, where her reign of terror must finally be answered.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Chase Tomoe to Otsuna in Kamiagata.",
+      "Clear the stronghold where she's making her stand.",
+      "Reach Tomoe for the confrontation.",
+      "Answer her reign of terror to advance the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
   },
 {
@@ -15809,6 +18159,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A quieter beat in Ishikawa's story as allies come and go.",
     aiTip:
       "Ishikawa questline.",
+    walkthrough: [
+      "Play through this quieter beat in Ishikawa's story.",
+      "Follow the guiding wind to the next meeting.",
+      "Handle the smaller skirmish along the way.",
+      "Reflect with Ishikawa as allies come and go."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
   },
 {
@@ -15826,6 +18182,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring the Sensei and the Student saga to its bittersweet conclusion.",
     aiTip:
       "Final Ishikawa tale — completes the Unbending Archer.",
+    walkthrough: [
+      "Bring the Sensei-and-Student saga to its close.",
+      "Track down the final lead on Tomoe.",
+      "Fight or duel to the story's climax.",
+      "See the bittersweet conclusion through."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
   },
 {
@@ -15843,6 +18205,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Follow a lead to one of the Adachi conspirators — a man hiding behind his marriage.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Follow Masako's lead to the conspirator hiding behind his marriage.",
+      "Track him with the guiding wind and question witnesses.",
+      "Clear his guards.",
+      "Confront the husband and learn the next name."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
   },
 {
@@ -15860,6 +18228,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unmask a traitor who sold out Clan Adachi from within.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Hunt the traitor who sold out Clan Adachi.",
+      "Follow the trail with Masako.",
+      "Fight through the defenders.",
+      "Unmask the traitor and press on."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
   },
 {
@@ -15877,6 +18251,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Track a foolish accomplice in the Adachi massacre.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Track the foolish accomplice in the Adachi massacre.",
+      "Follow the guiding wind to his hideout.",
+      "Clear the enemies in the way.",
+      "Confront him to continue Masako's revenge."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
   },
 {
@@ -15894,6 +18274,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Weigh mercy against vengeance when a killer turns out to be a devoted father.",
     aiTip:
       "Masako revenge tale — a hard choice.",
+    walkthrough: [
+      "Corner the killer who turns out to be a devoted father.",
+      "Investigate and track him down.",
+      "Clear his guards.",
+      "Weigh mercy against vengeance in the confrontation."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
   },
 {
@@ -15911,6 +18297,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hunt a thief tangled up in the betrayal of Masako's family.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Hunt the thief tied to the betrayal of Masako's family.",
+      "Follow the leads with the guiding wind.",
+      "Fight through the obstacles.",
+      "Catch the thief and learn what he knows."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
   },
 {
@@ -15928,6 +18320,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Close in on the conspirator orchestrating the Adachi killings.",
     aiTip:
       "Masako revenge tale.",
+    walkthrough: [
+      "Close in on the conspirator behind the Adachi killings.",
+      "Track him to his Toyotama stronghold.",
+      "Clear the defenders.",
+      "Confront the conspirator to near the truth."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
   },
 {
@@ -15945,6 +18343,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach the wrenching heart of Masako's revenge — the sister who betrayed her.",
     aiTip:
       "Completes the Vengeful Warrior.",
+    walkthrough: [
+      "Reach the heart of Masako's revenge in Toyotama.",
+      "Follow the final trail to the sister who betrayed her.",
+      "Fight through to the confrontation.",
+      "Face the wrenching truth and resolve the saga."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
   },
 {
@@ -15962,6 +18366,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "A quiet, optional coda to Masako's story about the family she lost.",
     aiTip:
       "Bonus tale — unlocks after The Husband.",
+    walkthrough: [
+      "Begin the optional coda to Masako's story.",
+      "Follow the quiet leads about the family she lost.",
+      "Handle any threats along the way.",
+      "Find a measure of peace to close her tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
   },
 {
@@ -15979,6 +18389,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Back Kenji in a wildly ill-advised 'negotiation' that only he could talk his way into.",
     aiTip:
       "Kenji Tale 3 of 3.",
+    walkthrough: [
+      "Back Kenji in his ill-advised 'negotiation' in Toyotama.",
+      "Follow along as the scheme predictably goes sideways.",
+      "Clear the Mongols the plan attracts.",
+      "Bail Kenji out and finish the comedic tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
   },
 {
@@ -15996,6 +18412,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight beside Norio to free monks and villagers hidden in the fog.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Fight beside Norio to free the monks and villagers in the fog.",
+      "Push through the Mongol lines by stealth or steel.",
+      "Rescue the hidden captives.",
+      "Secure the area and advance Norio's tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
   },
 {
@@ -16013,6 +18435,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Norio wrestles with the violence his cause demands.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Continue Norio's tale as he confronts the violence his cause demands.",
+      "Follow the lead and clear the Mongols in the way.",
+      "Help Norio through his crisis of faith.",
+      "Complete the mission and its dark turn."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
   },
 {
@@ -16030,6 +18458,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Recover a blood-stained sutra and confront what Norio is becoming.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Recover the blood-stained sutra with Norio.",
+      "Track the leads through Toyotama.",
+      "Clear the enemies guarding it.",
+      "Confront what Norio is becoming and press on."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
   },
 {
@@ -16047,6 +18481,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Trace the root of the suffering plaguing Kamiagata's faithful.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Trace the root of the suffering plaguing Kamiagata's faithful.",
+      "Follow the guiding wind to the source.",
+      "Clear the Mongols responsible.",
+      "Advance Norio's tale toward its end."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
   },
 {
@@ -16064,6 +18504,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Help Norio bring an end to a cycle of vengeance and grief.",
     aiTip:
       "Norio questline.",
+    walkthrough: [
+      "Help Norio end the cycle of vengeance and grief.",
+      "Follow the final leads through Kamiagata.",
+      "Fight through to the confrontation.",
+      "Bring this chapter of his story to a close."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
   },
 {
@@ -16081,6 +18527,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Stand with Norio as the guardian the island's people need.",
     aiTip:
       "Norio Tale 8 of 9.",
+    walkthrough: [
+      "Stand with Norio as the guardian the people need.",
+      "Clear the Mongol threat menacing the faithful.",
+      "Protect the villagers through the fight.",
+      "Secure the region and advance the tale."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
   },
 {
@@ -16098,6 +18550,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring Norio's story to its close in a final reckoning of faith and blood.",
     aiTip:
       "Completes the Warrior Monk.",
+    walkthrough: [
+      "Reach the final reckoning of Norio's tale.",
+      "Follow the last lead to the confrontation.",
+      "Fight or duel through the climax of faith and blood.",
+      "See This Threefold World to its close."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
   },
 {
@@ -16115,6 +18573,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Uncover the legend of Jin's father, Kazumasa Sakai, in this Iki Island Mythic Tale.",
     aiTip:
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
+    walkthrough: [
+      "Begin the Iki Island Mythic Tale of Kazumasa Sakai.",
+      "Follow the musician's ballad clues to each site.",
+      "Clear the enemies and hazards guarding the legend.",
+      "Uncover Jin's father's legacy and claim the Mythic reward."
+    ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   },
 {
@@ -25096,5 +27560,7911 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bank the Greenshine toward your highest-tier gear upgrades."
     ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Greenshine%20Slabs%20walkthrough"
+  },
+  {
+    id: 1389,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Unbound",
+    location: "Helgen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Escape from Helgen, early gear",
+    summary: "Alduin's attack on Helgen serves as the game's tutorial, teaching movement, combat, and stealth as you flee the burning town.",
+    aiTip: "Choose either Ralof or Hadvar to follow — it only affects the tutorial path and your early allegiance flavor, not your long-term choices.",
+    walkthrough: [
+      "Wake up in the cart entering Helgen and witness the execution scene.",
+      "When Alduin attacks, flee toward the keep with either Ralof (Stormcloak) or Hadvar (Imperial).",
+      "Loot gear from the fallen and fight through the keep's soldiers.",
+      "Work down through the dungeon and torture room, then into the caves.",
+      "Cross the underground stream and defeat the frostbite spiders and cave bear (or sneak past).",
+      "Exit into the wilderness and follow your companion toward Riverwood."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Unbound%20walkthrough"
+  },
+  {
+    id: 1390,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Before the Storm",
+    location: "Riverwood / Whiterun",
+    length: "short",
+    difficulty: "Low",
+    reward: "Access to Whiterun, bounty gold",
+    summary: "Warn Whiterun of the dragon threat and earn the Jarl's trust, opening up the city and its services.",
+    aiTip: "Speak to Gerdur or Alvor in Riverwood first for free supplies before heading to Dragonsreach.",
+    walkthrough: [
+      "Follow Ralof or Hadvar from Helgen to Riverwood.",
+      "Speak with Gerdur or Alvor for supplies and rest.",
+      "Travel to Whiterun and pass through the front gate after speaking to the guard.",
+      "Head up to Dragonsreach and report the dragon attack to Jarl Balgruuf.",
+      "Agree to help and speak with the court wizard Farengar.",
+      "Accept the task to retrieve the Dragonstone from Bleak Falls Barrow."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Before%20the%20Storm%20walkthrough"
+  },
+  {
+    id: 1391,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Bleak Falls Barrow",
+    location: "Bleak Falls Barrow",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Golden Claw, first word of Unrelenting Force",
+    summary: "Retrieve the Dragonstone for Farengar, delving into a draugr-filled barrow and learning your first Shout word.",
+    aiTip: "Solve the pillar puzzle by matching the animals carved above the door; the combination is on the back of the Golden Claw.",
+    walkthrough: [
+      "Travel to Bleak Falls Barrow above Riverwood.",
+      "Fight through the bandits guarding the entrance and interior.",
+      "Solve the first pillar puzzle using the carvings above the gate (snake, snake, whale).",
+      "Retrieve the Golden Claw and continue past the draugr and spider webs.",
+      "Use the claw on the circular door, matching bear-moth-owl from the claw's palm.",
+      "Read the word wall for Unrelenting Force, take the Dragonstone, and return to Farengar."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bleak%20Falls%20Barrow%20walkthrough"
+  },
+  {
+    id: 1392,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dragon Rising",
+    location: "Whiterun / Western Watchtower",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Thane of Whiterun, Dragonborn revealed",
+    summary: "Slay your first dragon at the Western Watchtower and absorb its soul, revealing your identity as Dragonborn.",
+    aiTip: "Use the tower for cover and let the Whiterun guards tank the dragon while you pepper it with ranged attacks.",
+    walkthrough: [
+      "Report to Jarl Balgruuf after delivering the Dragonstone.",
+      "Head to the Western Watchtower with Irileth and the guards.",
+      "Take cover as the dragon Mirmulnir attacks the tower.",
+      "Attack with ranged and melee while the guards draw its attention.",
+      "Kill the dragon and absorb its soul, revealing you as Dragonborn.",
+      "Return to Dragonsreach; the Greybeards will summon you with a Shout."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragon%20Rising%20walkthrough"
+  },
+  {
+    id: 1393,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Way of the Voice",
+    location: "High Hrothgar",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Whirlwind Sprint Shout, Greybeard training",
+    summary: "Answer the Greybeards' summons and climb 7,000 Steps to High Hrothgar to begin your training in the Voice.",
+    aiTip: "Grab the Notes on the way up the 7,000 Steps for lore and a small XP boost; the climb is safe if you stick to the path.",
+    walkthrough: [
+      "Travel to Ivarstead at the foot of the Throat of the World.",
+      "Climb the 7,000 Steps to High Hrothgar, optionally reading the wayshrine tablets.",
+      "Enter High Hrothgar and meet Arngeir and the Greybeards.",
+      "Demonstrate Unrelenting Force as instructed.",
+      "Learn Whirlwind Sprint and complete the training courtyard trials.",
+      "Accept the task to retrieve the Horn of Jurgen Windcaller."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Way%20of%20the%20Voice%20walkthrough"
+  },
+  {
+    id: 1394,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A Blade in the Dark",
+    location: "Kynesgrove",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Confirmation as Dragonborn, Delphine ally",
+    summary: "Travel with Delphine to Kynesgrove to witness Alduin resurrecting a dragon, proving her theory about the dragon menace.",
+    aiTip: "Let Delphine engage first; loot the dragon skeleton area after the fight for the reanimated dragon's soul and bones.",
+    walkthrough: [
+      "Travel to Riverwood and speak with Delphine at the Sleeping Giant Inn after clearing Bleak Falls Barrow.",
+      "Agree to help her investigate the dragon burial site.",
+      "Travel to Kynesgrove and speak with the guard about the dragon mound.",
+      "Watch the dragon Sahloknir reanimate a dead dragon from the burial mound.",
+      "Defeat the dragon and absorb its soul, confirming to Delphine you are Dragonborn.",
+      "Follow Delphine back toward Riverwood to continue the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Blade%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 1395,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Diplomatic Immunity",
+    location: "Thalmor Embassy, Solitude",
+    length: "long",
+    difficulty: "High",
+    reward: "Thalmor dossier, Esbern's location",
+    summary: "Infiltrate a Thalmor party in disguise to uncover what the Aldmeri Dominion knows about the dragons' return.",
+    aiTip: "Stash your gear in the chest before the party — you'll retrieve it inside. Create a distraction, then slip away to the back rooms.",
+    walkthrough: [
+      "Meet Delphine in Riverwood; she reveals the Thalmor are hunting Dragonborn activity.",
+      "Travel to Solitude and obtain an invitation to the Thalmor Embassy party (via Malborn in the Winking Skeever).",
+      "Attend the embassy party and mingle to distract guests, or disguise yourself as a server.",
+      "Sneak away from the party into the restricted wing of the Embassy.",
+      "Search Ambassador Elenwen's office and the interrogation cells for documents on Esbern.",
+      "Escape the Embassy grounds through the tunnel with Malborn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20walkthrough"
+  },
+  {
+    id: 1396,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Alduin's Wall",
+    location: "Sky Haven Temple, Karthspire",
+    length: "long",
+    difficulty: "High",
+    reward: "Alduin's Wall lore, Dragonrend clue",
+    summary: "Escort Delphine and Esbern to Sky Haven Temple to read Alduin's Wall and learn how the ancients fought the World-Eater.",
+    aiTip: "Clear the Forsworn at Karthspire first; the blood seal door requires standing on it as a Blade to open.",
+    walkthrough: [
+      "Travel to Riverwood and locate Esbern hiding in the Ratway beneath Riften (may require Thieves Guild access).",
+      "Escort Esbern safely back to Riverwood, fighting off any assassins along the way.",
+      "Travel with Esbern and Delphine to Sky Haven Temple in the Karth River valley.",
+      "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
+      "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alduin%27s%20Wall%20walkthrough"
+  },
+  {
+    id: 1397,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Throat of the World",
+    location: "Throat of the World",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Meeting Paarthurnax, Dragonrend hint",
+    summary: "Return to the summit to meet Paarthurnax and learn that Dragonrend must be recovered from an Elder Scroll and the past.",
+    aiTip: "Paarthurnax is friendly — hear him out fully before rushing off; his dialogue sets up the Elder Scroll hunt.",
+    walkthrough: [
+      "Travel to High Hrothgar and speak with the Greybeards.",
+      "Meet Paarthurnax atop the Throat of the World and learn of his history.",
+      "Discuss the plan to lure and trap Alduin using the Dragonrend shout.",
+      "Learn that an Elder Scroll is required to learn Dragonrend from the past."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Throat%20of%20the%20World%20walkthrough"
+  },
+  {
+    id: 1398,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Elder Knowledge",
+    location: "Winterhold / Blackreach",
+    length: "long",
+    difficulty: "High",
+    reward: "Elder Scroll, Blackreach access",
+    summary: "Seek the Elder Scroll needed to read the Time-Wound, venturing into the College of Winterhold and deep into Blackreach.",
+    aiTip: "Blackreach is huge and full of Falmer — travel light, use the Attunement Sphere, and mark the elevator exits for fast travel later.",
+    walkthrough: [
+      "Choose a faction (Thieves Guild via Mercer Frey, College of Winterhold via Urag gro-Shub, or Dawnguard) to help locate an Elder Scroll.",
+      "Complete the associated retrieval quest for that faction (e.g., Discerning the Transmundane for the College route).",
+      "Bring the Elder Scroll back to Sky Haven Temple.",
+      "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Elder%20Knowledge%20walkthrough"
+  },
+  {
+    id: 1399,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fallen",
+    location: "Throat of the World",
+    length: "medium",
+    difficulty: "High",
+    reward: "Learn Dragonrend, dragon trap begins",
+    summary: "Read the Elder Scroll at the Time-Wound to witness the ancient heroes and learn Dragonrend, then confront Alduin.",
+    aiTip: "Save before reading the Scroll; you'll fight Alduin immediately after and want full health and stamina.",
+    walkthrough: [
+      "With Dragonrend learned, return to the Greybeards and prepare to lure Alduin.",
+      "Travel to the Throat of the World and use a Horn of Jurgen Windcaller to summon Alduin.",
+      "Use Dragonrend to force Alduin to land and fight him.",
+      "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20walkthrough"
+  },
+  {
+    id: 1400,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Overlord's Legacy / Season Unending",
+    location: "Dragonsreach / High Hrothgar",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Odahviing trap setup, peace council",
+    summary: "Hatch a plan to trap a dragon in Dragonsreach to interrogate it, which may require brokering a Civil War truce first.",
+    aiTip: "If the war is unresolved, Season Unending forces a peace council — you can extort extra holds through careful negotiation.",
+    walkthrough: [
+      "Speak with the Jarl of Whiterun (Balgruuf) about brokering a ceasefire between Empire and Stormcloaks.",
+      "Travel to High Hrothgar and ask the Greybeards to summon both Ulfric Stormcloak and General Tullius.",
+      "Attend the parley and successfully negotiate a temporary truce.",
+      "This quest is optional — completing the Civil War questline instead skips this step."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Overlord%27s%20Legacy%20/%20Season%20Unending%20walkthrough"
+  },
+  {
+    id: 1401,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The World-Eater's Eyrie",
+    location: "Skuldafn",
+    length: "long",
+    difficulty: "High",
+    reward: "Portal to Sovngarde, dragon priest mask",
+    summary: "Ride Odahviing to Skuldafn, fight through Alduin's stronghold, and open the portal to the realm of Sovngarde.",
+    aiTip: "Nahkriin, the dragon priest at the top, drops a unique mask and the staff needed to open the portal — don't leave without them.",
+    walkthrough: [
+      "Have Odahviing fly you to Skuldafn temple atop the mountains.",
+      "Fight through Skuldafn's Draugr and traps to reach the portal chamber.",
+      "Activate the portal to Sovngarde."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20World-Eater%27s%20Eyrie%20walkthrough"
+  },
+  {
+    id: 1402,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sovngarde",
+    location: "Sovngarde",
+    length: "medium",
+    difficulty: "High",
+    reward: "Reunion with heroes, final battle setup",
+    summary: "Enter the Nord afterlife to clear Alduin's soul-snare mist and rally the ancient heroes for the final confrontation.",
+    aiTip: "Use Clear Skies to part the mist in stages; the three heroes at the Hall of Valor will join your final Shout against Alduin.",
+    walkthrough: [
+      "Explore the Sovngarde afterlife realm shrouded in mist.",
+      "Meet the shade of Tsun, guardian of the Whalebone Bridge, and pass his trial of combat or words.",
+      "Cross into Sovngarde proper and meet legendary heroes including Gormlaith, Felldir, and Hakon.",
+      "Learn the final word of the Dragonrend-countering shout needed to strip Alduin's immortality."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sovngarde%20walkthrough"
+  },
+  {
+    id: 1403,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dragonslayer",
+    location: "Sovngarde",
+    length: "medium",
+    difficulty: "High",
+    reward: "Defeat Alduin, main quest complete",
+    summary: "Join the ancient Nord heroes to defeat Alduin once and for all in the climactic battle of the main story.",
+    aiTip: "Keep Dragonrend up to ground Alduin and stack Shouts with the heroes; heal aggressively as his health drops.",
+    walkthrough: [
+      "Locate Alduin within Sovngarde alongside the ancient heroes.",
+      "Use the combined shout to strip away the mist protecting Alduin.",
+      "Engage Alduin in the final battle alongside Gormlaith, Felldir, and Hakon.",
+      "Defeat Alduin, absorb his soul, and complete the main questline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragonslayer%20walkthrough"
+  },
+  {
+    id: 1404,
+    type: "main",
+    category: "Main Quest (Optional)",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fallen (Paarthurnax's request)",
+    location: "Throat of the World",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Blades allegiance choice",
+    summary: "An optional but pivotal choice: the Blades demand you kill Paarthurnax to continue working with them.",
+    aiTip: "Sparing Paarthurnax costs you Blades support but is the lore-friendly and morally cleaner path — decide based on whether you need Blades services.",
+    walkthrough: [
+      "Optional developments involving the Blades and Paarthurnax occur post-main-quest; consult Delphine and Esbern for the associated confrontation choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20%28Paarthurnax%27s%20request%29%20walkthrough"
+  },
+  {
+    id: 1405,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Take Up Arms",
+    location: "Jorrvaskr, Whiterun",
+    length: "short",
+    difficulty: "Low",
+    reward: "Companions membership",
+    summary: "Prove yourself to Kodlak Whitemane and join the Companions, Skyrim's honorable warrior guild.",
+    aiTip: "Do the sparring match with Vilkas without using magic or shouts — melee only, or he'll stop the test.",
+    walkthrough: [
+      "Travel to Jorrvaskr, the Companions' mead hall in Whiterun.",
+      "Speak with Kodlak Whitemane about joining the Companions.",
+      "Accept the sparring test and fight Vilkas in the yard using melee only.",
+      "Deliver Vilkas's sword to Eorlund Gray-Mane at the Skyforge.",
+      "Return the reforged sword to Vilkas or Skjor.",
+      "Accept your first task from Farkas to become a member."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Take%20Up%20Arms%20walkthrough"
+  },
+  {
+    id: 1406,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Proving Honor",
+    location: "Dustman's Cairn",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fragment of Wuuthrad, werewolf reveal",
+    summary: "Recover a fragment of Ysgramor's axe Wuuthrad and discover the Companions' Circle harbors a werewolf secret.",
+    aiTip: "When you get locked in the cage, wait for Farkas to transform and clear the Silver Hand — then loot the whole cairn.",
+    walkthrough: [
+      "Speak with Skjor or Farkas to begin the Proving Honor task.",
+      "Travel to Dustman's Cairn with Farkas as your shield-sibling.",
+      "Fight through the draugr and pull the levers to progress.",
+      "When locked in the cage, watch Farkas transform into a werewolf to save you.",
+      "Clear out the ambushing Silver Hand hunters.",
+      "Recover the fragment of Wuuthrad and return to Jorrvaskr."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Proving%20Honor%20walkthrough"
+  },
+  {
+    id: 1407,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silver Hand",
+    location: "Gallows Rock",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Companions progression",
+    summary: "Strike back at the Silver Hand werewolf hunters at their Gallows Rock stronghold.",
+    aiTip: "Bring silver or strong weapons; the Skinner boss hits hard, and you'll find captured Companions clues here.",
+    walkthrough: [
+      "Meet Skjor at night and agree to undergo the blood ritual.",
+      "Drink from the beast blood in the Underforge to become a werewolf.",
+      "Travel to Gallows Rock to strike at the Silver Hand.",
+      "Fight through the werewolf hunters, using strong or silver weapons.",
+      "Defeat the Skinner and search for the captured Companion clues.",
+      "Return to Jorrvaskr and report what happened to Skjor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20walkthrough"
+  },
+  {
+    id: 1408,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Blood's Honor",
+    location: "Ysgramor's Tomb / Whiterun",
+    length: "medium",
+    difficulty: "High",
+    reward: "Kodlak's dying wish begins",
+    summary: "After tragedy strikes Jorrvaskr, retrieve the stolen Wuuthrad fragments and honor Kodlak's memory.",
+    aiTip: "This quest triggers after an attack on Jorrvaskr — sell loot and prepare potions beforehand, as it flows straight into the finale.",
+    walkthrough: [
+      "Return to Jorrvaskr after the Silver Hand's attack on the hall.",
+      "Speak with the grieving Circle members about Kodlak's wishes.",
+      "Set out to recover the stolen fragments of Wuuthrad.",
+      "Travel to the Silver Hand stronghold and fight through the hunters.",
+      "Recover the Wuuthrad fragments from the enemy leaders.",
+      "Return to Whiterun to prepare for the journey to Ysgramor's Tomb."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%27s%20Honor%20walkthrough"
+  },
+  {
+    id: 1409,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Purity of Revenge",
+    location: "Driftshade Refuge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Revenge on the Silver Hand",
+    summary: "Lead the Circle in a vengeful assault on the Silver Hand to recover the last pieces of Wuuthrad.",
+    aiTip: "Take Aela along — she's a strong archer ally, and the refuge is packed with Silver Hand veterans.",
+    walkthrough: [
+      "After Kodlak's death in Blood's Honor, speak with Vilkas about the Silver Hand's attack on Jorrvaskr.",
+      "Travel to the marked Silver Hand location (varies per playthrough).",
+      "Clear the location of Silver Hand members in retaliation.",
+      "Return to Jorrvaskr to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Purity%20of%20Revenge%20walkthrough"
+  },
+  {
+    id: 1410,
+    type: "side",
+    category: "The Companions",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Glory of the Dead",
+    location: "Ysgramor's Tomb",
+    length: "medium",
+    difficulty: "High",
+    reward: "Harbinger of the Companions, Wuuthrad",
+    summary: "Enter Ysgramor's Tomb to cure Kodlak's soul and claim your place as Harbinger of the Companions.",
+    aiTip: "Only Wuuthrad's wielder can pass — you may fight your own werewolf spirit, so bring healing. Curing lycanthropy here is optional.",
+    walkthrough: [
+      "Speak with Vilkas after Purity of Revenge to learn of Kodlak's final wish to be freed from his wolf spirit.",
+      "Retrieve Wuuthrad fragments from Silver Hand strongholds if not already collected.",
+      "Travel to Ysgramor's Tomb with the Circle members.",
+      "Fight through ancient Nord ghosts guarding the tomb.",
+      "Use the Fragments of Wuuthrad to open the final door and confront Kodlak's spirit along with the Glenmoril Witches' influence.",
+      "Defeat the hostile spirits and free Kodlak's soul, becoming the new Harbinger."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Glory%20of%20the%20Dead%20walkthrough"
+  },
+  {
+    id: 1411,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A Chance Arrangement",
+    location: "Riften",
+    length: "short",
+    difficulty: "Low",
+    reward: "Thieves Guild introduction",
+    summary: "A chance meeting with Brynjolf in Riften's market pulls you into a scheme that opens the door to the Thieves Guild.",
+    aiTip: "Pickpocketing the ring onto Brand-Shei is easiest in Sneak; plant it, then walk away before anyone notices.",
+    walkthrough: [
+      "Meet Brynjolf in the Riften marketplace during the day.",
+      "Agree to help him and take the ring he offers.",
+      "Wait for Brynjolf to begin his sales pitch to draw the crowd's attention.",
+      "Sneak up to Madesi's stall and pick the lock and strongbox.",
+      "Plant the ring in Brand-Shei's pocket without being caught.",
+      "Return to Brynjolf and follow him to the Ragged Flagon in the Ratway."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Chance%20Arrangement%20walkthrough"
+  },
+  {
+    id: 1412,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Loud and Clear",
+    location: "Riften / Goldenglow Estate",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild standing, gold",
+    summary: "Prove your worth to the Guild by hitting Goldenglow Estate and sending Aringoth a message.",
+    aiTip: "Burn exactly three beehives as Mercer asks — burning all of them or none changes the outcome and reward.",
+    walkthrough: [
+      "Meet Brynjolf in the Ragged Flagon and speak with Mercer Frey.",
+      "Accept the job to teach Aringoth a lesson at Goldenglow Estate.",
+      "Travel to Goldenglow Estate south of Riften.",
+      "Sneak in past the guards and mercenaries, or fight through them.",
+      "Burn exactly three of the beehives as instructed.",
+      "Confront Aringoth, take the bill of sale from the safe, and report back to Mercer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Loud%20and%20Clear%20walkthrough"
+  },
+  {
+    id: 1413,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Taking Care of Business",
+    location: "Various holds",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Guild reputation, gold",
+    summary: "Take on shakedown and collection jobs to expand the Thieves Guild's influence across the holds.",
+    aiTip: "These radiant jobs stack with the main heists — knock them out while traveling to grow Guild rank faster.",
+    walkthrough: [
+      "Speak to Brynjolf after Loud and Clear to be introduced formally to the Guild.",
+      "Meet Vex outside and follow her to the Ragged Flagon.",
+      "Speak with Mercer Frey to receive your first real assignment.",
+      "Break into the Bee and Barb (or assigned target) to plant/steal evidence as instructed.",
+      "Return to Mercer Frey to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Taking%20Care%20of%20Business%20walkthrough"
+  },
+  {
+    id: 1414,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dampened Spirits",
+    location: "Whiterun / Honningbrew Meadery",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild standing, gold",
+    summary: "Sabotage Honningbrew Meadery to give the Guild's ally Maven Black-Briar a competitive edge.",
+    aiTip: "Poison the vat and deal with the giant Sabjorn in the tunnels; interrogate Sabjorn afterward for the Guild's next lead.",
+    walkthrough: [
+      "Speak with Vex at the Ragged Flagon for a job at the Whiterun meadery.",
+      "Travel to Honningbrew Meadery outside Whiterun.",
+      "Sneak in and sabotage the mead production using the ingredient provided (or complete the alternate approach).",
+      "Deal with the meadery's owner as instructed.",
+      "Return to Vex to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20walkthrough"
+  },
+  {
+    id: 1415,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Silver Lining",
+    location: "Markarth / Cidhna Mine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Guild lead on Karliah",
+    summary: "Chase a lead to Markarth that spirals into a frame-up and a stint in Cidhna Mine.",
+    aiTip: "This quest can entangle with the Forsworn Conspiracy — keep a lockpick or Shout ready to escape Cidhna Mine.",
+    walkthrough: [
+      "Accept the job from Delvin Mallory regarding a shipment problem.",
+      "Travel to Northwind Mine or the relevant location.",
+      "Retrieve the item or resolve the dispute as instructed.",
+      "Report back to Delvin at the Ragged Flagon."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silver%20Lining%20walkthrough"
+  },
+  {
+    id: 1416,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Blindsighted Job / Blindsighted",
+    location: "Riften / Snow Veil Sanctum",
+    length: "long",
+    difficulty: "High",
+    reward: "Major story turn, Nightingale Blade",
+    summary: "Track Karliah to Snow Veil Sanctum with Mercer, where the Guild's darkest secret is exposed.",
+    aiTip: "You'll be ambushed after the boss room — expect a betrayal, so don't waste all your potions on the draugr.",
+    walkthrough: [
+      "Meet Karliah and Brynjolf and set out for Snow Veil Sanctum with Mercer.",
+      "Follow Mercer's lead and unlock the entrance together.",
+      "Sneak through the draugr-filled crypt, using Mercer's lockpicking on the puzzle doors.",
+      "Reach the inner chamber where Mercer springs his betrayal.",
+      "Recover after the ambush and speak with Karliah, who saves you.",
+      "Learn the truth about Mercer and agree to help expose him."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Blindsighted%20Job%20/%20Blindsighted%20walkthrough"
+  },
+  {
+    id: 1417,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Pursuit",
+    location: "Riften / Ratway",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Karliah alliance",
+    summary: "Regroup with Karliah and Brynjolf to pursue the truth about Mercer Frey's treachery.",
+    aiTip: "Meet Karliah in the Ragged Flagon cistern — this begins the Nightingale arc, so hold onto any Nightingale-related gear.",
+    walkthrough: [
+      "Speak with Brynjolf after discovering Mercer Frey's betrayal.",
+      "Break into Mercer Frey's house in Riften.",
+      "Search for clues about Mercer's whereabouts and motives.",
+      "Find the hidden passage/journal revealing his connection to the Nightingales."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Pursuit%20walkthrough"
+  },
+  {
+    id: 1418,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Scoundrel's Folly",
+    location: "Riften / Windhelm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Esbern-style lead, gold",
+    summary: "Interrogate a fence and follow the chain of clues Mercer left behind.",
+    aiTip: "Use dialogue or a bribe on Gulum-Ei rather than fighting through the East Empire warehouse if you want the quieter route.",
+    walkthrough: [
+      "Follow Karliah's lead to Snow Veil Sanctum.",
+      "Fight through the ancient Nord ruin guarded by Karliah and Mercer's traps.",
+      "Reach the chamber holding Gallus's shade or related artifact.",
+      "Escape the sanctum with Karliah and Brynjolf."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Scoundrel%27s%20Folly%20walkthrough"
+  },
+  {
+    id: 1419,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Trinity Restored",
+    location: "Nightingale Hall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Nightingale armor, powers",
+    summary: "Undertake the Oath of the Nightingales and gain the blessing of Nocturnal alongside Karliah and Brynjolf.",
+    aiTip: "You choose a Nightingale power (Subterfuge, Strife, or Shadowcloak) at the end — Shadowcloak is best for stealth builds.",
+    walkthrough: [
+      "Travel with Karliah to the Nightingale Hall.",
+      "Undergo the Nightingale initiation ritual before Nocturnal's shrine.",
+      "Choose to become a Nightingale, binding your soul in service to Nocturnal.",
+      "Prepare to pursue Mercer Frey into Irkngthand."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Trinity%20Restored%20walkthrough"
+  },
+  {
+    id: 1420,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hard Answers",
+    location: "Markarth / Calcelmo's Museum",
+    length: "long",
+    difficulty: "High",
+    reward: "Falmer translation, gold",
+    summary: "Steal Calcelmo's research on Falmer script to decode the clues to Mercer's whereabouts.",
+    aiTip: "Copy the Falmer inscription with the rubbing rather than fighting Calcelmo — the Dwarven museum has tough automatons.",
+    walkthrough: [
+      "Enter Irkngthand, the Dwemer ruin where Mercer Frey has fled.",
+      "Navigate the ruin's mechanisms and traps alongside Karliah and Brynjolf.",
+      "Locate the chamber containing the Eyes of the Falmer.",
+      "Confront and defeat Mercer Frey in the final battle.",
+      "Retrieve the Skeleton Key from Mercer's body."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hard%20Answers%20walkthrough"
+  },
+  {
+    id: 1421,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Darkness Returns",
+    location: "Twilight Sepulcher",
+    length: "long",
+    difficulty: "High",
+    reward: "Skeleton Key return, Nightingale finale",
+    summary: "Return the Skeleton Key to the Twilight Sepulcher and pass Nocturnal's trials to restore the Guild's fortune.",
+    aiTip: "The Sepulcher's Pilgrim's Path punishes greed — don't touch the side loot until you understand each trial's lesson.",
+    walkthrough: [
+      "Return the Skeleton Key to the Twilight Sepulcher.",
+      "Navigate the Sepulcher's puzzle chambers.",
+      "Restore the Skeleton Key to its pedestal to cleanse the Guild's reputation with Nocturnal.",
+      "Exit the Sepulcher and return to Riften."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Darkness%20Returns%20walkthrough"
+  },
+  {
+    id: 1422,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "No Stone Unturned",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Prowler's Profit perk",
+    summary: "Hunt down all 24 Unusual Gems scattered across Skyrim for Vex to reassemble the Crown of Barenziah.",
+    aiTip: "Completing this grants the Prowler's Profit perk (far more gems as loot) — pick up every Unusual Gem you find while adventuring.",
+    walkthrough: [
+      "Speak with Delvin Mallory about the Stones of Barenziah collection quest.",
+      "Search the 24 known locations across Skyrim for each unique gem.",
+      "Deliver each stone to Vex or Delvin as found.",
+      "Complete the collection to receive the Crown of Barenziah."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20No%20Stone%20Unturned%20walkthrough"
+  },
+  {
+    id: 1423,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Litany of Larceny",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Thief-related achievements",
+    summary: "Pull off the Guild's legendary special jobs to earn the Litany of Larceny and cement your reputation.",
+    aiTip: "These require specific unique items from named heists — keep a checklist and don't sell any 'special' quest loot early.",
+    walkthrough: [
+      "Speak with Delvin about special heist targets across Skyrim's major holds.",
+      "Travel to each target location: Understone Keep, Proudspire Manor, the Blue Palace, and the Thalmor Embassy.",
+      "Steal the specified unique item from each location undetected.",
+      "Return each item to Delvin for rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Litany%20of%20Larceny%20walkthrough"
+  },
+  {
+    id: 1424,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Numbers Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant fencing job: cook the books at a targeted business to boost Guild coffers.",
+    aiTip: "Alter the ledger while unseen — the target office usually has a back entrance easier than the front.",
+    walkthrough: [
+      "Complete this radiant-style influence job in one of the four cities as assigned by Delvin to build reputation toward Under New Management."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Numbers%20Job%20walkthrough"
+  },
+  {
+    id: 1425,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Bedlam Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant chaos job: cause mayhem in a target city to spread the Guild's reach.",
+    aiTip: "Steal several items scattered around the target city; a high Sneak makes clearing the quota quick.",
+    walkthrough: [
+      "Complete this reputation job in your assigned city, typically involving planting or stealing an item under Delvin's direction."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Bedlam%20Job%20walkthrough"
+  },
+  {
+    id: 1426,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Burglary Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant burglary: break into a marked home and lift a specific valuable.",
+    aiTip: "Case the house at night when occupants sleep; a Muffle enchant keeps your entry silent.",
+    walkthrough: [
+      "Break into a specified home or business in your assigned city and steal the designated item without detection."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Burglary%20Job%20walkthrough"
+  },
+  {
+    id: 1427,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Fishing Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant heist to swipe a particular prized item from a target location.",
+    aiTip: "Grab only the marked item to avoid unnecessary bounty; use Shadowcloak or invisibility for guarded targets.",
+    walkthrough: [
+      "Travel to the assigned dock or fishery location and swap/steal the designated cargo item."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fishing%20Job%20walkthrough"
+  },
+  {
+    id: 1428,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Heist Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant fishing job — plant an item to frame a mark on the Guild's behalf.",
+    aiTip: "Reverse-pickpocket the planted item; a high Pickpocket skill guarantees success on tougher marks.",
+    walkthrough: [
+      "Plan and execute a larger burglary in your assigned city as directed by Delvin Mallory."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heist%20Job%20walkthrough"
+  },
+  {
+    id: 1429,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Shill Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant heist job to steal a designated item and return it to the Guild fence.",
+    aiTip: "Fast-travel jobs stack — hold several radiant tasks in the same hold and clear them in one trip.",
+    walkthrough: [
+      "Frame or plant evidence on a target NPC in your assigned city as instructed by Vex or Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Shill%20Job%20walkthrough"
+  },
+  {
+    id: 1430,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Sweep Job",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Gold, Guild reputation",
+    summary: "A radiant shill job: plant Guild goods to strong-arm a reluctant merchant.",
+    aiTip: "Plant the item on the target merchant, then return to Delvin — keep Sneak up to avoid pickpocket detection.",
+    walkthrough: [
+      "Clear out a series of small burglary targets across your assigned city."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Sweep%20Job%20walkthrough"
+  },
+  {
+    id: 1431,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Summerset Shadows",
+    location: "Radiant hold",
+    length: "short",
+    difficulty: "Low",
+    reward: "City influence restored",
+    summary: "A radiant sweep job clearing out a location to restore the Guild's dominance in a city.",
+    aiTip: "Completing radiant jobs in each major city (Whiterun, Markarth, Solitude, Windhelm) reopens the Guild's expansion questline.",
+    walkthrough: [
+      "Undertake this influence-building city job as assigned, typically involving a burglary in the Summerset Shadows' territory of your target city."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Summerset%20Shadows%20walkthrough"
+  },
+  {
+    id: 1432,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Reparations",
+    location: "Winterhold coast",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "Deal with a splinter group of thieves undermining the Guild's operations.",
+    aiTip: "Clear the Summerset Shadows' hideout and recover the stolen Guild property to keep expansion on track.",
+    walkthrough: [
+      "Complete the reparations job as assigned by Delvin, generally recovering guild funds or property lost to rivals."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Reparations%20walkthrough"
+  },
+  {
+    id: 1433,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Speaking with Silence",
+    location: "Riften",
+    length: "short",
+    difficulty: "Low",
+    reward: "Guild reputation",
+    summary: "Handle Guild business tied to restoring the Thieves Guild's former glory across Skyrim.",
+    aiTip: "Part of the city-influence chain — complete it alongside the radiant jobs for the same hold to speed up Guild Master rank.",
+    walkthrough: [
+      "Undertake this quiet infiltration job as assigned in your target city, avoiding combat entirely per Guild protocol."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Speaking%20with%20Silence%20walkthrough"
+  },
+  {
+    id: 1434,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Dainty Sload",
+    location: "Solitude docks",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "Investigate and rob the ship Dainty Sload as part of expanding Guild influence in Solitude.",
+    aiTip: "Board via the docks at night; the captain's quarters holds the target goods — sneak past the deck crew.",
+    walkthrough: [
+      "Speak with Delvin about a job for a client seeking revenge on a ship's captain.",
+      "Travel to the docks in Solitude to find the Dainty Sload ship.",
+      "Sneak aboard and plant incriminating evidence in the captain's quarters.",
+      "Report back to Delvin once the frame job succeeds."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Dainty%20Sload%20walkthrough"
+  },
+  {
+    id: 1435,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Imitation Amnesty",
+    location: "Markarth",
+    length: "short",
+    difficulty: "Low",
+    reward: "Guild reputation",
+    summary: "Smooth over a botched job to restore the Guild's standing in Markarth.",
+    aiTip: "A quick influence job — pair it with Markarth radiant tasks to reopen the city's fence and special stock.",
+    walkthrough: [
+      "Meet with Delvin about freeing an imprisoned associate.",
+      "Travel to the jail holding the prisoner.",
+      "Use bribery, a key, or sneaking to arrange their release.",
+      "Confirm their release with Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Imitation%20Amnesty%20walkthrough"
+  },
+  {
+    id: 1436,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Toying With The Dead",
+    location: "Windhelm / Hjerim",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild reputation, gold",
+    summary: "A grim job dealing with a necromancer's meddling that threatens Guild business in Windhelm.",
+    aiTip: "Clean up the necromancy evidence and recover the goods; this ties into Windhelm's influence unlock.",
+    walkthrough: [
+      "Accept the job from Delvin involving a necromancer's stolen journals.",
+      "Travel to the specified crypt or ruin.",
+      "Retrieve the journals while contending with undead guardians.",
+      "Deliver the journals to the buyer via Delvin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Toying%20With%20The%20Dead%20walkthrough"
+  },
+  {
+    id: 1437,
+    type: "side",
+    category: "Thieves Guild",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Under New Management",
+    location: "Riften / Ragged Flagon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Guild Master rank, Thieves Guild armor",
+    summary: "Reclaim the Ragged Flagon Cistern and be named Guild Master of a restored Thieves Guild.",
+    aiTip: "Requires the four city-influence jobs done first; completing it unlocks the unique Guild Master armor from Tonilia.",
+    walkthrough: [
+      "Complete five jobs each in Markarth, Solitude, Whiterun, and Windhelm to trigger reputation quests.",
+      "Complete all four city reputation/influence quests.",
+      "Complete Darkness Returns if not already done.",
+      "Speak with Brynjolf about becoming the new Guild Master.",
+      "Take up residence as Guildmaster in the Ragged Flagon."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20New%20Management%20walkthrough"
+  },
+  {
+    id: 1438,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Innocence Lost",
+    location: "Windhelm / Aretino Residence",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Dark Brotherhood contact",
+    summary: "A boy's Black Sacrament summons you to perform a mercy killing that draws the Dark Brotherhood's eye.",
+    aiTip: "Reach the orphanage in Riften and confront Grelod the Kind to trigger the Brotherhood's invitation.",
+    walkthrough: [
+      "Hear about the Aretino boy performing the Black Sacrament in Windhelm.",
+      "Enter the Aretino Residence and speak with Aventus Aretino.",
+      "Accept his contract to kill Grelod the Kind at Honorhall Orphanage in Riften.",
+      "Travel to Riften and enter Honorhall Orphanage.",
+      "Kill Grelod the Kind, freeing the orphans.",
+      "Sleep in a bed to be abducted by the Dark Brotherhood."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Innocence%20Lost%20walkthrough"
+  },
+  {
+    id: 1439,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "With Friends Like These...",
+    location: "Abandoned Shack",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Dark Brotherhood membership",
+    summary: "Abducted by Astrid, you must choose one of three captives to kill to join the Dark Brotherhood.",
+    aiTip: "Any of the three can be 'guilty' — or kill Astrid instead to trigger the Brotherhood's destruction questline.",
+    walkthrough: [
+      "Wake in the Abandoned Shack after being abducted by Astrid.",
+      "Speak with Astrid about the three kidnapped captives.",
+      "Examine the Khajiit, the woman, and the old man and question them.",
+      "Kill at least one captive to satisfy Astrid (any of them counts).",
+      "Accept Astrid's offer to join the Dark Brotherhood.",
+      "Travel to the Falkreath Sanctuary and speak the passphrase to enter."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20With%20Friends%20Like%20These...%20walkthrough"
+  },
+  {
+    id: 1440,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sanctuary",
+    location: "Falkreath Sanctuary",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sanctuary access",
+    summary: "Return to the Falkreath Sanctuary and settle in among your new murderous family.",
+    aiTip: "Speak to each Sanctuary member for flavor and side contracts; the passphrase is 'Silence, my brother.'",
+    walkthrough: [
+      "Wake up in the Dark Brotherhood Sanctuary after With Friends Like These.",
+      "Meet Astrid and formally join the Dark Brotherhood family.",
+      "Explore the Sanctuary and speak with fellow assassins.",
+      "Receive your first contract from Astrid."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanctuary%20walkthrough"
+  },
+  {
+    id: 1441,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silence Has Been Broken",
+    location: "Volunruud",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Contract lead",
+    summary: "Meet the mysterious contact Amaund Motierre through an intermediary to line up a high-profile hit.",
+    aiTip: "Fight through the draugr of Volunruud to reach Motierre; take the sealed letter and amulet he offers.",
+    walkthrough: [
+      "Receive an unusual contract from Astrid involving a hooded figure named Amaund Motierre.",
+      "Travel to Volunruud, an ancient Nordic ruin.",
+      "Locate and speak with Motierre, who wants to hire the Brotherhood for the Emperor's assassination.",
+      "Return to Astrid to relay the offer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silence%20Has%20Been%20Broken%20walkthrough"
+  },
+  {
+    id: 1442,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Bound Until Death",
+    location: "Solitude",
+    length: "medium",
+    difficulty: "High",
+    reward: "Emperor plot advances",
+    summary: "Assassinate a bride at her own wedding in Solitude without being caught in the act.",
+    aiTip: "Drop the statue from the balcony onto Vittoria for a clean, deniable kill, then slip into the crowd.",
+    walkthrough: [
+      "Speak with Astrid about performing the Black Sacrament ritual to summon the Night Mother.",
+      "Travel to Whiterun's Hall of the Dead to retrieve a specific corpse component if required.",
+      "Perform the ritual and speak with the summoned Night Mother.",
+      "Return to Astrid with news of the Night Mother's arrival at the Sanctuary."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bound%20Until%20Death%20walkthrough"
+  },
+  {
+    id: 1443,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Whispers in the Dark",
+    location: "Dawnstar Sanctuary",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cicero subplot",
+    summary: "Investigate the tension between Astrid and the unhinged jester Cicero within the Brotherhood.",
+    aiTip: "Choose whether to side with Astrid's suspicions carefully — it colors the later Cicero confrontation.",
+    walkthrough: [
+      "Meet Cicero and the Night Mother's coffin, newly arrived at the Sanctuary.",
+      "Speak with the Night Mother to become her Listener.",
+      "Report the Night Mother's message about a contract to Astrid."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Whispers%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 1444,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Mourning Never Comes",
+    location: "Windhelm",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Contract reward",
+    summary: "Carry out a targeted contract for Nazir while the Sanctuary's internal drama simmers.",
+    aiTip: "Complete the assigned kill discreetly; these Nazir contracts are good gold between main Brotherhood beats.",
+    walkthrough: [
+      "Receive the contract detailing three targets: Vittoria Vici, Agnis, and Vasha (or similar radiant NPCs).",
+      "Travel to each target's location and eliminate them using stealth or direct combat.",
+      "Return to the Sanctuary once all targets are dead."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mourning%20Never%20Comes%20walkthrough"
+  },
+  {
+    id: 1445,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Cure for Madness",
+    location: "Dawnstar Sanctuary",
+    length: "long",
+    difficulty: "High",
+    reward: "Turning point",
+    summary: "Pursue Cicero after a violent rift shatters the Falkreath Sanctuary.",
+    aiTip: "You can spare or kill Cicero — sparing him lets him return later as a follower if you keep the Night Mother's favor.",
+    walkthrough: [
+      "Speak with Astrid about Cicero's erratic behavior and hidden agenda.",
+      "Investigate leads pointing to Cicero's plan to move the Night Mother's coffin.",
+      "Confront Cicero at Dawnstar Sanctuary.",
+      "Choose to side with Astrid or protect Cicero — this choice affects the questline's next steps."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Cure%20for%20Madness%20walkthrough"
+  },
+  {
+    id: 1446,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Death Incarnate",
+    location: "Falkreath / Dawnstar",
+    length: "medium",
+    difficulty: "High",
+    reward: "Listener status",
+    summary: "In the aftermath of catastrophe, step up as the Night Mother's Listener to save the Brotherhood.",
+    aiTip: "Regroup with the survivors at the Dawnstar Sanctuary — this begins your rise to lead the Brotherhood.",
+    walkthrough: [
+      "Following the resolution of the Cicero conflict, receive a high-value contract.",
+      "Travel to the marked location to eliminate the target using any method.",
+      "Return to the Sanctuary to report success."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Death%20Incarnate%20walkthrough"
+  },
+  {
+    id: 1447,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Breaching Security",
+    location: "Solitude / Castle Dour",
+    length: "medium",
+    difficulty: "High",
+    reward: "Emperor hit setup",
+    summary: "Breach imperial security to clear the path for the assassination of the Emperor.",
+    aiTip: "Steal the Emperor's schedule and plant the means; a stealth kill on the Commander avoids a hold-wide alarm.",
+    walkthrough: [
+      "Speak with Nazir about the plan to assassinate the Emperor.",
+      "Travel to Castle Dour in Solitude to gather intelligence on Commander Maro's security detail.",
+      "Infiltrate the castle using stealth, disguise, or bribery.",
+      "Steal Maro's security ledger detailing the Emperor's protection plans."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Breaching%20Security%20walkthrough"
+  },
+  {
+    id: 1448,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hail Sithis!",
+    location: "Solitude / Windhelm",
+    length: "long",
+    difficulty: "High",
+    reward: "Emperor assassinated, huge payout",
+    summary: "Assassinate Emperor Titus Mede II aboard his ship and collect the Brotherhood's greatest bounty.",
+    aiTip: "After the kill, decide whether to honor or betray Amaund Motierre's blood price — betraying him yields extra reward.",
+    walkthrough: [
+      "Use the intelligence gathered to infiltrate the Emperor's ship, the Katariah.",
+      "Disguise yourself and make your way through the ship's kitchen and lower decks.",
+      "Poison the meal intended for the Emperor's guards to clear a path.",
+      "Reach the Emperor's chambers and assassinate Titus Mede II.",
+      "Escape the ship and report back to Nazir."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hail%20Sithis%21%20walkthrough"
+  },
+  {
+    id: 1449,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Destroy the Dark Brotherhood!",
+    location: "Dawnstar / Penitus Oculatus",
+    length: "long",
+    difficulty: "High",
+    reward: "Alternate path, Emperor spared",
+    summary: "The counter-questline: betray Astrid and help the Penitus Oculatus wipe out the Dark Brotherhood.",
+    aiTip: "Choosing to kill Astrid at the Abandoned Shack sends you here instead — you lose Brotherhood perks but gain a reward from the Emperor's agents.",
+    walkthrough: [
+      "Choose to betray the Brotherhood by killing Astrid at the Abandoned Shack instead of a captive.",
+      "Travel to Dragon Bridge and find Commander Maro of the Penitus Oculatus.",
+      "Agree to help destroy the Dark Brotherhood from within.",
+      "Travel to the Falkreath Sanctuary as instructed.",
+      "Fight through and eliminate the assassins inside, including the leadership.",
+      "Return to Commander Maro to collect your reward from the Emperor's agents."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destroy%20the%20Dark%20Brotherhood%21%20walkthrough"
+  },
+  {
+    id: 1450,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Narfi",
+    location: "Ivarstead",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant Brotherhood contract to kill Narfi, a grieving beggar near Ivarstead.",
+    aiTip: "Nazir's contracts can be done in any order — a bow shot from stealth avoids witnesses in the open camp.",
+    walkthrough: [
+      "Travel to Ivarstead and eliminate the marked contract target, Narfi, discreetly or openly."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Narfi%20walkthrough"
+  },
+  {
+    id: 1451,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Beitild",
+    location: "Dawnstar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate Beitild in Dawnstar.",
+    aiTip: "Catch her at her house at night; a single sneak attack usually finishes low-level targets like her.",
+    walkthrough: [
+      "Travel to Dawnstar and eliminate the marked contract target, Beitild, in her home or place of work."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Beitild%20walkthrough"
+  },
+  {
+    id: 1452,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Ennodius Papius",
+    location: "Anga's Mill area",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to eliminate Ennodius Papius, a paranoid man hiding out by a mill.",
+    aiTip: "He camps near Anga's Mill — approach from the trees and strike before he flees.",
+    walkthrough: [
+      "Travel to the marked farmstead near Solitude and eliminate Ennodius Papius."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ennodius%20Papius%20walkthrough"
+  },
+  {
+    id: 1453,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Hern",
+    location: "Half-Moon Mill",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Hern, secretly a vampire, at Half-Moon Mill.",
+    aiTip: "Hern and his wife are vampires — bring a decent weapon and expect a tougher fight than a normal target.",
+    walkthrough: [
+      "Travel to the marked hideout to eliminate Hern, a reclusive vampire, along with any thralls guarding him."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Hern%20walkthrough"
+  },
+  {
+    id: 1454,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Lurbuk",
+    location: "Morvunskar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to silence Lurbuk, a spectacularly bad bard.",
+    aiTip: "Lurbuk performs at Morvunskar surrounded by mages — lure him out or use a ranged kill through the crowd.",
+    walkthrough: [
+      "Travel to the marked inn and eliminate the bard Lurbuk during or after his performance."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Lurbuk%20walkthrough"
+  },
+  {
+    id: 1455,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Deekus",
+    location: "Eldergleam Sanctuary area",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Deekus, a scavenging Argonian.",
+    aiTip: "He's alone at his camp near Sarethi Farm — an easy stealth kill with no witnesses.",
+    walkthrough: [
+      "Travel to the marked shipwreck location and eliminate the Argonian looter Deekus."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Deekus%20walkthrough"
+  },
+  {
+    id: 1456,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Ma'randru-jo",
+    location: "Khajiit caravan",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate the Khajiit spellsword Ma'randru-jo with a traveling caravan.",
+    aiTip: "Caravans move between cities — track the caravan's schedule and strike at night when it's camped outside a hold.",
+    walkthrough: [
+      "Travel to the marked farm and eliminate the target Ma'randru-jo."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ma%27randru-jo%20walkthrough"
+  },
+  {
+    id: 1457,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Anoriath",
+    location: "Whiterun market",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Anoriath, a hunter who runs a meat stall in Whiterun.",
+    aiTip: "He wanders Whiterun by day and sleeps at the Drunken Huntsman — a night kill avoids the busy market guards.",
+    walkthrough: [
+      "Travel to Whiterun and eliminate the marked target Anoriath discreetly amid the city guards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Anoriath%20walkthrough"
+  },
+  {
+    id: 1458,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Agnis",
+    location: "Nightgate Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Agnis, an elderly caretaker, at an old fort.",
+    aiTip: "Agnis is harmless and unguarded — a straightforward contract, best done quietly to avoid any nearby travelers.",
+    walkthrough: [
+      "Travel to Fort Greymoor and eliminate the marked target Agnis among the bandit occupants."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Agnis%20walkthrough"
+  },
+  {
+    id: 1459,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Maluril",
+    location: "Mzinchaleft",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Contract gold",
+    summary: "A radiant contract to eliminate the Dunmer mage Maluril deep in a Dwarven ruin.",
+    aiTip: "He's guarded by Dwarven automatons in Mzinchaleft — clear a path carefully or sneak straight to him.",
+    walkthrough: [
+      "Travel into Mzinchaleft ruin and eliminate the marked target Maluril."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Maluril%20walkthrough"
+  },
+  {
+    id: 1460,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Helvard",
+    location: "Dead Man's Drink, Falkreath",
+    length: "short",
+    difficulty: "Low",
+    reward: "Contract gold",
+    summary: "A radiant contract to assassinate Helvard, a housecarl in Falkreath.",
+    aiTip: "As a housecarl he's a capable fighter — a poisoned sneak attack evens the odds.",
+    walkthrough: [
+      "Travel to Falkreath and eliminate the marked target Helvard."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Helvard%20walkthrough"
+  },
+  {
+    id: 1461,
+    type: "side",
+    category: "Dark Brotherhood",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Kill Safia",
+    location: "Kilkreath Ruins",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Contract gold",
+    summary: "A radiant contract to kill Safia, a bandit leader holed up in a ruin.",
+    aiTip: "She commands bandits at her hideout — thin the guards from stealth before engaging her directly.",
+    walkthrough: [
+      "Board the pirate ship near Solitude's docks and eliminate Captain Safia."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Safia%20walkthrough"
+  },
+  {
+    id: 1462,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "First Lessons",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "College membership",
+    summary: "Gain entry to the College of Winterhold by demonstrating a spell to Faralda on the bridge.",
+    aiTip: "If you lack the required spell, buy it from Faralda right there on the bridge to pass the entrance test.",
+    walkthrough: [
+      "Travel to the College of Winterhold and approach Faralda on the bridge.",
+      "Cast the spell she requests, or buy it from her if you lack it.",
+      "Enter the College and meet Mirabelle Ervine for a tour.",
+      "Attend Tolfdir's first lesson in the courtyard on wards.",
+      "Cast a ward to block Tolfdir's spell as instructed.",
+      "Accept the invitation to join the expedition to Saarthal."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20First%20Lessons%20walkthrough"
+  },
+  {
+    id: 1463,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Under Saarthal",
+    location: "Saarthal",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Saarthal Amulet, story hook",
+    summary: "Join a College expedition into the Nordic ruins of Saarthal and uncover a mysterious buried power.",
+    aiTip: "Equip the Saarthal Amulet when trapped, then cast a spell at the wall to break free — this triggers the Eye of Magnus plot.",
+    walkthrough: [
+      "Travel to the Nordic ruin of Saarthal with Tolfdir and the students.",
+      "Help search the ruins and collect the enchanted rings and amulet for Arniel.",
+      "When trapped behind bars, equip the Saarthal Amulet.",
+      "Cast a spell at the glowing wall to break free.",
+      "Discover the mysterious orb (the Eye of Magnus) with Tolfdir.",
+      "Fight the awakened draugr, read the word wall, and report back to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20Saarthal%20walkthrough"
+  },
+  {
+    id: 1464,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hitting the Books",
+    location: "Fellglow Keep",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Stolen books recovered",
+    summary: "Recover the College's stolen books from the mages of Fellglow Keep to learn more about the Eye.",
+    aiTip: "The Caller wants a trade or a fight — killing her is simplest, and her keep holds useful spell tomes.",
+    walkthrough: [
+      "Speak with Mirabelle Ervine after Under Saarthal about the mysterious artifact found.",
+      "Travel to Understone Keep in Markarth to consult with Calcelmo, an expert on Dwemer artifacts.",
+      "Navigate Calcelmo's private collection with the help of his assistant, Aicantar.",
+      "Retrieve the information/book needed and return to Winterhold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hitting%20the%20Books%20walkthrough"
+  },
+  {
+    id: 1465,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Good Intentions",
+    location: "Mzulft",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Follow Savos Aren's orders to seek out the Synod expedition at the Dwarven ruin of Mzulft.",
+    aiTip: "Bring healing for the Falmer and automatons; align the Oculory crystals with the focusing crystal to progress.",
+    walkthrough: [
+      "Speak with Tolfdir about the strange properties of the recovered artifact (the eye).",
+      "Travel to Silus Vesuius's house in Dawnstar to investigate a related lead.",
+      "Enter Saarthal's inner chamber (Silus's excavation) to learn more about the Staff of Magnus.",
+      "Report findings back to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Good%20Intentions%20walkthrough"
+  },
+  {
+    id: 1466,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Path of Knowledge",
+    location: "Mzulft",
+    length: "medium",
+    difficulty: "High",
+    reward: "Augur's guidance",
+    summary: "Solve the Oculory puzzle at Mzulft and consult the Augur of Dunlain about the Eye of Magnus.",
+    aiTip: "The crystal-beam puzzle needs the focusing crystal placed and rotated — adjust until all beams hit the receptacles.",
+    walkthrough: [
+      "Speak with the College staff about locating the Psijic Order's location for guidance (or the equivalent lead).",
+      "Follow the quest marker to the location indicated.",
+      "Progress the investigation into the artifact's origin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Path%20of%20Knowledge%20walkthrough"
+  },
+  {
+    id: 1467,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Containment",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Story turn",
+    summary: "Return to a College thrown into crisis and help contain the fallout from the Eye of Magnus.",
+    aiTip: "Tragedy strikes Savos Aren here — stock up on magicka potions before returning, as Ancano turns hostile.",
+    walkthrough: [
+      "Investigate the Midden beneath the College where a magical disturbance has occurred.",
+      "Fight through hostile Atronachs and constructs summoned by the anomaly.",
+      "Seal or neutralize the containment breach.",
+      "Report back to Tolfdir or Mirabelle."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Containment%20walkthrough"
+  },
+  {
+    id: 1468,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Revealing the Unseen",
+    location: "Mzulft / Labyrinthian",
+    length: "long",
+    difficulty: "High",
+    reward: "Staff of Magnus lead",
+    summary: "Seek the Staff of Magnus, the only thing that can counter Ancano's growing power over the Eye.",
+    aiTip: "This points you to Labyrinthian — prepare for a dragon priest and heavy draugr resistance ahead.",
+    walkthrough: [
+      "Speak with Urag gro-Shub in the Arcanaeum about research materials on the Eye of Magnus.",
+      "Travel to retrieve a specific tome or item from a marked dungeon.",
+      "Return the material to the College library."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Revealing%20the%20Unseen%20walkthrough"
+  },
+  {
+    id: 1469,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Master of the Mind",
+    location: "Labyrinthian",
+    length: "long",
+    difficulty: "High",
+    reward: "Staff of Magnus, mask",
+    summary: "Delve into Labyrinthian to claim the Staff of Magnus from the dragon priest Morokei.",
+    aiTip: "Morokei is fast and drains magicka — use the trapped Magic Anomalies and pillars for cover, and grab his mask Morokei.",
+    walkthrough: [
+      "Speak with Tolfdir about Ancano's increasingly suspicious behavior at the College.",
+      "Investigate leads within the College regarding Ancano's actions.",
+      "Report findings to the Arch-Mage or Mirabelle."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Master%20of%20the%20Mind%20walkthrough"
+  },
+  {
+    id: 1470,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Diplomatic Immunity (College variant - Discerning the Transmundane path)",
+    location: "College path",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story alignment",
+    summary: "A College-side thread overlapping the Discerning the Transmundane path toward forbidden knowledge.",
+    aiTip: "This overlaps with Hermaeus Mora's Daedric quest — completing one advances the other, so coordinate the two.",
+    walkthrough: [
+      "Speak with Urag gro-Shub about locating a Black Book or Elder Scroll lead relevant to the main quest.",
+      "Follow instructions to track down the item's location.",
+      "Retrieve the item and return it to the College."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20%28College%20variant%20-%20Discerning%20the%20Transmundane%20path%29%20walkthrough"
+  },
+  {
+    id: 1471,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Restoring Order",
+    location: "College of Winterhold",
+    length: "long",
+    difficulty: "High",
+    reward: "Archmage title, Archmage's robes",
+    summary: "Confront Ancano and the unleashed Eye of Magnus to restore order and become Arch-Mage.",
+    aiTip: "Use the Staff of Magnus on the Eye's shield, then blast Ancano; claiming the title unlocks the Arch-Mage's Quarters.",
+    walkthrough: [
+      "Learn that Ancano has taken control of the Eye of Magnus and locked down the College.",
+      "Travel into the Arcanaeum's hidden passage to reach the Eye of Magnus chamber.",
+      "Navigate a set of magical trial rooms to reach the inner sanctum.",
+      "Confront and defeat Ancano.",
+      "Stabilize or destroy the Eye of Magnus to save the College.",
+      "Become the new Arch-Mage of the College of Winterhold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoring%20Order%20walkthrough"
+  },
+  {
+    id: 1472,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Shalidor's Insights",
+    location: "Skyrim-wide (Labyrinthian, etc.)",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Magic skill boosts",
+    summary: "Collect Shalidor's writings for Urag to unlock powerful insights that boost your magic skills.",
+    aiTip: "Turning in the collected writings grants permanent bonuses to a magic school — hand them in for the school you use most.",
+    walkthrough: [
+      "Speak with Tolfdir about the ancient wizard Shalidor's scattered knowledge.",
+      "Travel to any of several marked ruins to find Shalidor's Insight tomes.",
+      "Return each recovered tome to Tolfdir for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Shalidor%27s%20Insights%20walkthrough"
+  },
+  {
+    id: 1473,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Alteration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Alteration spell",
+    summary: "Complete the ritual to earn a Master-level Alteration spell from Tolfdir.",
+    aiTip: "Requires Alteration skill 90 — level it with cheap spells like Detect Life before starting the ritual.",
+    walkthrough: [
+      "Speak with the Alteration instructor about advancing your training to unlock the ritual spell quest and complete the associated task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alteration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1474,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Conjuration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Conjuration spell",
+    summary: "Prove your mastery to earn a Master-level Conjuration spell from Phinis Gestor.",
+    aiTip: "Requires Conjuration 90; the ritual sends you to Sanguine's realm-like arena to defeat summoned foes.",
+    walkthrough: [
+      "Speak with the Conjuration instructor and complete the associated retrieval or combat task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Conjuration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1475,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Destruction Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Destruction spell",
+    summary: "Undertake Faralda's trial to gain a Master-level Destruction spell.",
+    aiTip: "Requires Destruction 90 — you must cast an expert spell to prove yourself, then face a summoned challenge.",
+    walkthrough: [
+      "Speak with the Destruction instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destruction%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1476,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Illusion Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Illusion spell",
+    summary: "Complete Drevis Neloren's ritual for a Master-level Illusion spell.",
+    aiTip: "Requires Illusion 90; the trial hides invisible objects around the College — use Detect Life or Aura Whisper to find them.",
+    walkthrough: [
+      "Speak with the Illusion instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Illusion%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1477,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Restoration Ritual Spell",
+    location: "College of Winterhold",
+    length: "medium",
+    difficulty: "High",
+    reward: "Master Restoration spell",
+    summary: "Pass Colette Marence's trial to learn a Master-level Restoration spell.",
+    aiTip: "Requires Restoration 90 — you fight a powerful summoned enemy, so bring wards and healing.",
+    walkthrough: [
+      "Speak with the Restoration instructor and complete the associated task to unlock the ritual spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoration%20Ritual%20Spell%20walkthrough"
+  },
+  {
+    id: 1478,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Onmund's Request",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Onmund's amulet, friendship",
+    summary: "Help fellow apprentice Onmund recover his family amulet lost to the trader Enthir.",
+    aiTip: "You can persuade Enthir, do a favor, or pickpocket the amulet back — persuasion is cleanest if your Speech is high.",
+    walkthrough: [
+      "Speak with Onmund about a family amulet stolen by a Thalmor agent.",
+      "Travel to the marked location to recover the amulet.",
+      "Return the amulet to Onmund."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Onmund%27s%20Request%20walkthrough"
+  },
+  {
+    id: 1479,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Brelyna's Practice",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Low",
+    reward: "Practice reward, friendship",
+    summary: "Assist apprentice Brelyna Maryon with her experimental spell practice.",
+    aiTip: "Her spells misfire harmlessly — just endure the effects and reassure her to finish the favor.",
+    walkthrough: [
+      "Speak with Brelyna Maryon about testing a new spell on you.",
+      "Agree to the test and experience its (harmless) effect.",
+      "Return for a follow-up conversation."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Brelyna%27s%20Practice%20walkthrough"
+  },
+  {
+    id: 1480,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Only Cure",
+    location: "Reachwater / Namira's cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cure disease / progression",
+    summary: "Aid a plagued individual by seeking a cure tied to the Daedric Prince Peryite.",
+    aiTip: "This overlaps Peryite's quest — you'll need Deathbell and other reagents, so gather them before the ritual.",
+    walkthrough: [
+      "Speak with J'zargo about a rival mage's research.",
+      "Travel to the marked location tied to J'zargo's request.",
+      "Complete the associated retrieval or combat objective.",
+      "Return to J'zargo."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Only%20Cure%20walkthrough"
+  },
+  {
+    id: 1481,
+    type: "side",
+    category: "College of Winterhold",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Forgotten Names",
+    location: "College of Winterhold",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Lore, spell tome",
+    summary: "Investigate forgotten names and lore hidden in the College's history for Urag.",
+    aiTip: "Read the flagged books in the Arcanaeum; the lore here enriches the Eye of Magnus backstory.",
+    walkthrough: [
+      "Explore the Midden Dark beneath the College.",
+      "Locate the ancient Daedric relic and altar hidden within.",
+      "Interact with the relic to trigger its unique dialogue tree and unlock associated lore."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forgotten%20Names%20walkthrough"
+  },
+  {
+    id: 1482,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Joining the Legion",
+    location: "Solitude / Castle Dour",
+    length: "short",
+    difficulty: "Low",
+    reward: "Imperial Legion membership",
+    summary: "Enlist with General Tullius and the Imperial Legion to fight for a unified Skyrim under the Empire.",
+    aiTip: "If you helped Hadvar escape Helgen, Tullius greets you warmly — this locks you out of the Stormcloak questline.",
+    walkthrough: [
+      "Speak with General Tullius or a Legion representative in Solitude, or approach Legate Rikke.",
+      "Confirm your intent to fight for the Empire.",
+      "Receive your Legion uniform and first orders."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Legion%20walkthrough"
+  },
+  {
+    id: 1483,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A False Front",
+    location: "Reach / hold border",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Plant false orders to mislead the Stormcloaks and gain the Legion an advantage.",
+    aiTip: "Sneak the forged documents into the enemy camp; a stealthy approach avoids a pitched battle.",
+    walkthrough: [
+      "Assault the marked Stormcloak-held fort as directed by Legate Rikke, clearing it of enemy soldiers."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20walkthrough"
+  },
+  {
+    id: 1484,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Compelling Tribute",
+    location: "Targeted hold",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Intercept a tribute caravan to choke off Stormcloak funding for the Legion.",
+    aiTip: "Ambush the caravan on the road; take the high ground with a bow to whittle down the escort.",
+    walkthrough: [
+      "Lead the assault to capture a hold's capital in the name of the Empire, per Legate Rikke's briefing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20walkthrough"
+  },
+  {
+    id: 1485,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Sungard",
+    location: "Fort Sungard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Storm Fort Sungard to seize it for the Imperial Legion.",
+    aiTip: "Fight alongside Legion soldiers — focus the enemy officers first, and mop up the fort interior for loot.",
+    walkthrough: [
+      "Storm and capture Fort Sungard from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20walkthrough"
+  },
+  {
+    id: 1486,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Snowhawk",
+    location: "Fort Snowhawk",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Snowhawk and claim it in the name of the Empire.",
+    aiTip: "Let the Legion soldiers draw fire while you flank; clear the towers to stop enemy archers.",
+    walkthrough: [
+      "Storm and capture Fort Snowhawk from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20walkthrough"
+  },
+  {
+    id: 1487,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Dunstad",
+    location: "Fort Dunstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Dunstad to push Imperial control across the Pale.",
+    aiTip: "Push through the courtyard as a group; the commander inside is the objective — take him down to end resistance.",
+    walkthrough: [
+      "Storm and capture Fort Dunstad from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20walkthrough"
+  },
+  {
+    id: 1488,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Greenwall",
+    location: "Fort Greenwall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Take Fort Greenwall for the Legion to tighten the noose on the rebellion.",
+    aiTip: "Watch for Stormcloak reinforcements from the towers — heal often in the tight interior fights.",
+    walkthrough: [
+      "Storm and capture Fort Greenwall from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20walkthrough"
+  },
+  {
+    id: 1489,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Kastav",
+    location: "Fort Kastav",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Seize Fort Kastav to secure Imperial dominance in the region.",
+    aiTip: "A straightforward siege — stick with your squad and clear the walls before pressing inside.",
+    walkthrough: [
+      "Storm and capture Fort Kastav from Stormcloak forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20walkthrough"
+  },
+  {
+    id: 1490,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Hraggstad",
+    location: "Fort Hraggstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Hraggstad to strengthen the Legion's hold near Solitude.",
+    aiTip: "Approach from the road with your soldiers; the exterior bandits and Stormcloaks fall quickly to a coordinated push.",
+    walkthrough: [
+      "Storm and capture Fort Hraggstad, a key Stormcloak stronghold."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20walkthrough"
+  },
+  {
+    id: 1491,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rescue from Fort Neugrad",
+    location: "Fort Neugrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prisoners freed, war progression",
+    summary: "Infiltrate Fort Neugrad to rescue captured Imperial soldiers.",
+    aiTip: "Free the prisoners to gain extra allies for the fight out — grab the cell keys from the guards.",
+    walkthrough: [
+      "Infiltrate Fort Neugrad to free captured Legion soldiers held by the Stormcloaks."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Neugrad%20walkthrough"
+  },
+  {
+    id: 1492,
+    type: "side",
+    category: "Civil War - Imperial Legion",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Liberation of Skyrim",
+    location: "Skyrim-wide",
+    length: "long",
+    difficulty: "High",
+    reward: "Civil War won for the Empire",
+    summary: "Lead the final campaign to crush the Stormcloak rebellion and secure Skyrim for the Empire.",
+    aiTip: "This chains multiple battles ending at Windhelm's Palace of the Kings — stock up on potions before the assault on Ulfric.",
+    walkthrough: [
+      "Receive final orders from General Tullius to march on Windhelm.",
+      "Assault Windhelm alongside Legion forces.",
+      "Fight through the city's defenders to reach the Palace of the Kings.",
+      "Confront and defeat Ulfric Stormcloak.",
+      "Complete the Civil War questline in favor of the Empire."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Liberation%20of%20Skyrim%20walkthrough"
+  },
+  {
+    id: 1493,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Joining the Stormcloaks",
+    location: "Windhelm / Palace of the Kings",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stormcloak membership",
+    summary: "Pledge yourself to Ulfric Stormcloak's rebellion for a free and independent Skyrim.",
+    aiTip: "If you helped Ralof at Helgen, Ulfric welcomes you — joining locks you out of the Imperial Legion questline.",
+    walkthrough: [
+      "Speak with Ulfric Stormcloak or Galmar Stone-Fist in Windhelm.",
+      "Confirm your intent to fight for Skyrim's independence.",
+      "Receive your Stormcloak uniform and first orders."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Stormcloaks%20walkthrough"
+  },
+  {
+    id: 1494,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A False Front (Stormcloak variant)",
+    location: "Reach / hold border",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "The Stormcloak version: plant false orders to deceive the Imperial Legion.",
+    aiTip: "Same stealth objective as the Imperial variant — slip the forged papers in unseen to avoid a fight.",
+    walkthrough: [
+      "Assault the marked Legion-held fort as directed by Galmar Stone-Fist."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1495,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Compelling Tribute (Stormcloak variant)",
+    location: "Targeted hold",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "War progression",
+    summary: "Raid an Imperial tribute caravan to fund the Stormcloak war effort.",
+    aiTip: "Ambush from cover on the road; prioritize the escort's officer to break their morale.",
+    walkthrough: [
+      "Lead the assault to capture a hold's capital in the name of Ulfric Stormcloak."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1496,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Sungard (Stormcloak variant)",
+    location: "Fort Sungard",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Sungard for the Stormcloaks.",
+    aiTip: "Fight beside Ulfric's soldiers — target Imperial officers first and secure the interior.",
+    walkthrough: [
+      "Storm and capture Fort Sungard from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1497,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Snowhawk (Stormcloak variant)",
+    location: "Fort Snowhawk",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Storm Fort Snowhawk to claim it for the rebellion.",
+    aiTip: "Flank while your allies draw fire; clear the towers of Imperial archers.",
+    walkthrough: [
+      "Storm and capture Fort Snowhawk from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1498,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Dunstad (Stormcloak variant)",
+    location: "Fort Dunstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Take Fort Dunstad to expand Stormcloak control in the Pale.",
+    aiTip: "Push the courtyard as a unit and eliminate the fort commander to end the fight.",
+    walkthrough: [
+      "Storm and capture Fort Dunstad from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1499,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Greenwall (Stormcloak variant)",
+    location: "Fort Greenwall",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Capture Fort Greenwall in the name of a free Skyrim.",
+    aiTip: "Beware Imperial reinforcements — hold the choke points and heal during the tight interior brawl.",
+    walkthrough: [
+      "Storm and capture Fort Greenwall from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1500,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Kastav (Stormcloak variant)",
+    location: "Fort Kastav",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Seize Fort Kastav for the Stormcloak cause.",
+    aiTip: "Stay with your squad and clear the walls before advancing into the keep.",
+    walkthrough: [
+      "Storm and capture Fort Kastav from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1501,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Battle for Fort Hraggstad (Stormcloak variant)",
+    location: "Fort Hraggstad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Hold captured",
+    summary: "Assault Fort Hraggstad to threaten Imperial-held Solitude.",
+    aiTip: "Coordinate with your soldiers on the outer defenses; the garrison falls fast to a combined push.",
+    walkthrough: [
+      "Storm and capture Fort Hraggstad from Legion forces."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
+  },
+  {
+    id: 1502,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rescue from Fort Amol",
+    location: "Fort Amol",
+    length: "medium",
+    difficulty: "High",
+    reward: "Prisoners freed, war progression",
+    summary: "Break into Fort Amol to rescue captured Stormcloak soldiers.",
+    aiTip: "Grab the cell keys and free the prisoners for extra swords in the escape.",
+    walkthrough: [
+      "Infiltrate Fort Amol to free captured Stormcloak soldiers held by the Legion."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Amol%20walkthrough"
+  },
+  {
+    id: 1503,
+    type: "side",
+    category: "Civil War - Stormcloaks",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Battle for Solitude",
+    location: "Solitude",
+    length: "long",
+    difficulty: "High",
+    reward: "Civil War won for the Stormcloaks",
+    summary: "Lead the climactic assault on Solitude to topple the Empire's seat of power in Skyrim.",
+    aiTip: "The final push ends at Castle Dour with General Tullius — bring your best gear and plenty of healing.",
+    walkthrough: [
+      "Receive final orders from Ulfric to march on Solitude.",
+      "Assault Solitude alongside Stormcloak forces.",
+      "Fight through the city's defenders to reach Castle Dour.",
+      "Confront and defeat General Tullius.",
+      "Complete the Civil War questline in favor of the Stormcloaks."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Solitude%20walkthrough"
+  },
+  {
+    id: 1504,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Azura: The Black Star",
+    location: "Winterhold / Azura's Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Black Star or Azura's Star",
+    summary: "Aid the Daedric Prince Azura by cleansing her star of a corrupt mage's soul-trap.",
+    aiTip: "Choose to keep Azura's Star (white souls) or the Black Star (black souls) — the Black Star lets you trap human souls, ideal for enchanting.",
+    walkthrough: [
+      "Speak with the priestess at the Shrine of Azura near Winterhold.",
+      "Travel to Winterhold and speak with Aranea Ienith about the Star of Azura.",
+      "Journey to Nightcaller Temple in Dawnstar.",
+      "Choose to side with Aranea (destroying the Necromancer Malyn Varen) or with Malyn Varen (turning the Star Black).",
+      "Retrieve the Black Star / Star of Azura from the temple's depths."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Azura%3A%20The%20Black%20Star%20walkthrough"
+  },
+  {
+    id: 1505,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Boethiah: Boethiah's Calling",
+    location: "Boethiah's Shrine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Ebony Mail",
+    summary: "Serve Boethiah by orchestrating a bloody sacrifice and proving yourself in a deadly free-for-all.",
+    aiTip: "You must sacrifice a follower on the altar to begin — bring a hireling you don't mind losing, then win the survival fight for the Ebony Mail.",
+    walkthrough: [
+      "Find and read the Sacred Witness's book at a Boethiah shrine.",
+      "Travel to the Shrine of Boethiah in the mountains.",
+      "Participate in the ritual by killing one of the assembled cultists as directed.",
+      "Descend into the Cave of the Sacellum below the shrine.",
+      "Kill the remaining cultists as instructed by Boethiah to become her new champion, wearing Mephala's Ebony Mail."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Boethiah%3A%20Boethiah%27s%20Calling%20walkthrough"
+  },
+  {
+    id: 1506,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Clavicus Vile: A Daedra's Best Friend",
+    location: "Falkreath / Haemar's Shame",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Masque of Clavicus Vile",
+    summary: "Help Clavicus Vile and his talking dog Barbas recover the Rueful Axe and settle their feud.",
+    aiTip: "Keep the Rueful Axe or hand it over for the Masque of Clavicus Vile — the Masque (better all-round) is the usual choice.",
+    walkthrough: [
+      "Encounter Barbas the talking dog on the road.",
+      "Travel with Barbas to the Shrine of Clavicus Vile.",
+      "Agree to retrieve the Rueful Axe from Rimerock Burrow to appease Clavicus Vile.",
+      "Fight through the Burrow's Falmer and traps to find the axe.",
+      "Choose whether to kill Barbas with the axe (fulfilling Vile's wish) or spare him and take the axe anyway."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Clavicus%20Vile%3A%20A%20Daedra%27s%20Best%20Friend%20walkthrough"
+  },
+  {
+    id: 1507,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hermaeus Mora: Discerning the Transmundane",
+    location: "Septimus Signus's Outpost / Blackreach",
+    length: "long",
+    difficulty: "High",
+    reward: "Oghma Infinium",
+    summary: "Follow the mad scholar Septimus Signus to obtain forbidden knowledge from Hermaeus Mora.",
+    aiTip: "The Oghma Infinium grants a huge one-time skill boost — save before reading it and pick the skill tree you want most.",
+    walkthrough: [
+      "Speak with Septimus Signus at his outpost north of Winterhold.",
+      "Retrieve a Blank Lexicon and Filled Black Soul Gem for him.",
+      "Return the item to Septimus and witness the ritual invoking Hermaeus Mora.",
+      "Take possession of the completed Lexicon (which can be used to open an Elder Scroll route to Sovngarde)."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hermaeus%20Mora%3A%20Discerning%20the%20Transmundane%20walkthrough"
+  },
+  {
+    id: 1508,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Hircine: Ill Met by Moonlight",
+    location: "Falkreath / Bloated Man's Grotto",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Savior's Hide or Ring of Hircine",
+    summary: "Take part in Hircine's hunt and decide the fate of the werewolf Sinding.",
+    aiTip: "Helping Sinding yields the Ring of Hircine; hunting him yields the Savior's Hide armor — choose based on whether you're a werewolf.",
+    walkthrough: [
+      "Encounter the hunter Sinding, trapped in a cage in the wilderness, or find his journal.",
+      "Free Sinding and learn he's cursed to transform involuntarily into a Werewolf.",
+      "Track Sinding to Hircine's Hunting Grounds.",
+      "Choose to kill Sinding for Hircine's champion Krev the Skinner, or help Sinding escape and kill Krev instead.",
+      "Claim the Savior's Hide or Ring of Hircine depending on your choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hircine%3A%20Ill%20Met%20by%20Moonlight%20walkthrough"
+  },
+  {
+    id: 1509,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Malacath: The Cursed Tribe",
+    location: "Largashbur",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Volendrung",
+    summary: "Restore the honor of the Orc stronghold Largashbur by appeasing the Daedric Prince Malacath.",
+    aiTip: "Gather troll fat and the required items, then defeat the giant Grushnag-style chief to claim the warhammer Volendrung.",
+    walkthrough: [
+      "Travel to the Orc stronghold of Largashbur.",
+      "Learn that a giant has been terrorizing the stronghold and the chief seeks aid.",
+      "Defeat the giant threatening the stronghold.",
+      "Participate in the ritual sacrifice at Malacath's shrine to lift the tribe's curse.",
+      "Receive Volendrung, Malacath's legendary warhammer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Malacath%3A%20The%20Cursed%20Tribe%20walkthrough"
+  },
+  {
+    id: 1510,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Mephala: The Whispering Door",
+    location: "Whiterun / Hall of the Dead",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ebony Blade",
+    summary: "Investigate the whispering door in Whiterun to claim Mephala's Ebony Blade.",
+    aiTip: "The Ebony Blade grows stronger as you kill people who trust you (followers, friends) — feed it to unlock its full power.",
+    walkthrough: [
+      "Travel to Dark Brotherhood Sanctuary lore or find the relevant lead about a hidden room in Windhelm.",
+      "Travel to the House of Clan Shatter-Shield in Windhelm.",
+      "Investigate the locked door and solve the puzzle involving a family secret and murder.",
+      "Retrieve Mephala's Ebony Blade from the hidden chamber."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mephala%3A%20The%20Whispering%20Door%20walkthrough"
+  },
+  {
+    id: 1511,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Meridia: The Break of Dawn",
+    location: "Mount Kilkreath",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dawnbreaker",
+    summary: "Answer Meridia's call and cleanse her temple of the necromancer Malkoran to earn Dawnbreaker.",
+    aiTip: "You'll ride a beam of light up the mountain — Dawnbreaker is superb against undead, exploding them on death.",
+    walkthrough: [
+      "Find the Dawnbreaker quest marker or the Shrine of Meridia.",
+      "Travel to the shrine and receive instructions from Meridia to cleanse her temple.",
+      "Enter the Statue of Meridia dungeon and fight through Necromancers and the undead.",
+      "Reach the inner sanctum and destroy the corrupt priest.",
+      "Claim Dawnbreaker, Meridia's radiant sword."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Meridia%3A%20The%20Break%20of%20Dawn%20walkthrough"
+  },
+  {
+    id: 1512,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Molag Bal: The House of Horrors",
+    location: "Markarth / Abandoned House",
+    length: "medium",
+    difficulty: "High",
+    reward: "Mace of Molag Bal",
+    summary: "Fall into Molag Bal's trap in a Markarth house and become his instrument against a rogue priest.",
+    aiTip: "You must beat the trapped priest Logrolf into submission with the mace — brutal, but the Mace of Molag Bal is a top-tier weapon.",
+    walkthrough: [
+      "Investigate the abandoned house in Markarth known as the Hag's Cure or similar haunted building.",
+      "Enter the house and be trapped within a supernatural dimension.",
+      "Solve the ritualistic puzzle and defeat the summoned Daedra.",
+      "Escape the house, choosing whether to keep or destroy the Skull of Corruption."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Molag%20Bal%3A%20The%20House%20of%20Horrors%20walkthrough"
+  },
+  {
+    id: 1513,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Namira: The Taste of Death",
+    location: "Reachwater / Namira's Shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ring of Namira",
+    summary: "Join a cannibal cult under Namira and partake in a grim feast beneath Markarth.",
+    aiTip: "Eating the priest Eola's victim grants the Ring of Namira — a dark choice, so skip it if you're roleplaying a hero.",
+    walkthrough: [
+      "Travel to the Reach and find the Hall of the Dead in Markarth being investigated for grave robbing.",
+      "Speak with Verulus, a priest of Arkay investigating the crime.",
+      "Travel to Reachcliff Cave and meet the cannibalistic cultists of Namira.",
+      "Choose to side with Verulus against the cult, or join the cult by eating Verulus.",
+      "Claim the Ring of Namira if you side with the cultists."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Namira%3A%20The%20Taste%20of%20Death%20walkthrough"
+  },
+  {
+    id: 1514,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Nocturnal: Trinity Restored",
+    location: "Twilight Sepulcher",
+    length: "long",
+    difficulty: "High",
+    reward: "Nightingale blessing (shared with Thieves Guild)",
+    summary: "Nocturnal's quest, shared with the Thieves Guild's Nightingale arc, restoring the Skeleton Key.",
+    aiTip: "This is the same content as the Thieves Guild finale — completing it there satisfies Nocturnal's Daedric quest too.",
+    walkthrough: [
+      "See Thieves Guild questline — Trinity Restored serves as Nocturnal's associated Daedric quest, granting the Nightingale ability Nightingale Reflexes and later the Cowl of Sunlight during the tenure as Guildmaster."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
+  },
+  {
+    id: 1515,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Peryite: The Only Cure (Peryite variant - Miscarcand)",
+    location: "Bthardamz",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spellbreaker",
+    summary: "Undertake Peryite's task, purging his afflicted followers to earn the shield Spellbreaker.",
+    aiTip: "You commune with Peryite via a summoning ritual, then clear Bthardamz — Spellbreaker's ward is excellent for mages and melee alike.",
+    walkthrough: [
+      "Travel to Peryite's Shrine in the Pine Forest.",
+      "Learn of a plague affecting a band of Orcs and speak with Orchendor.",
+      "Travel to Bthardamz, a Dwemer ruin overrun by Falmer, where Orchendor has fled.",
+      "Track down and defeat Orchendor.",
+      "Retrieve Spellbreaker, Peryite's Daedric artifact."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Peryite%3A%20The%20Only%20Cure%20%28Peryite%20variant%20-%20Miscarcand%29%20walkthrough"
+  },
+  {
+    id: 1516,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Sanguine: A Night to Remember",
+    location: "Whiterun / Sanguine's realm",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Sanguine Rose",
+    summary: "A drunken night out with Sam Guevenne spirals across Skyrim in service of Sanguine's revelry.",
+    aiTip: "Play along with the party quest to reach Morvunskar's portal — the Sanguine Rose summons a Dremora ally.",
+    walkthrough: [
+      "Wake up in the Temple of Dibella in Markarth with no memory of the previous night.",
+      "Piece together clues about the wild night's events from witnesses across Skyrim.",
+      "Travel to each location tied to a clue (a stolen goat, an angry giant, a rune-covered chest, etc.).",
+      "Reach Sanguine's Shrine to confront the Daedric Prince responsible.",
+      "Defeat the illusionary recreation of your own drunken escapades to claim the Sanguine Rose."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanguine%3A%20A%20Night%20to%20Remember%20walkthrough"
+  },
+  {
+    id: 1517,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Vaermina: Waking Nightmare",
+    location: "Dawnstar / Nightcaller Temple",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Skull of Corruption",
+    summary: "Investigate Dawnstar's shared nightmares and confront Vaermina's priest at Nightcaller Temple.",
+    aiTip: "Decide whether to drink the Torpor and side with the priest or against him — the Skull of Corruption staff is your reward either way.",
+    walkthrough: [
+      "Travel to Dawnstar and speak with residents suffering from shared nightmares.",
+      "Investigate the Nightcaller Temple, the source of the disturbance.",
+      "Fight through the temple's guardians and traps.",
+      "Confront the priest Erandur (or the corrupted alternative) about the Skull of Corruption.",
+      "Choose to destroy the Skull (siding with Erandur) or unleash it and side with Vaermina's original intent."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Vaermina%3A%20Waking%20Nightmare%20walkthrough"
+  },
+  {
+    id: 1518,
+    type: "side",
+    category: "Daedric Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Black Star / Divine quests overlap note",
+    location: "Winterhold / various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore note",
+    summary: "A note that the Black Star overlaps Azura's quest and cross-references the Divine quests grouping.",
+    aiTip: "This is a cross-reference entry — the actual content lives in Azura's quest (skyrim-0116); treat it as a lore pointer.",
+    walkthrough: [
+      "See 'Azura: The Black Star' above; the Daedric quest for Azura and the Black Star artifact share the same questline entry."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Black%20Star%20/%20Divine%20quests%20overlap%20note%20walkthrough"
+  },
+  {
+    id: 1519,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Tending the Flames (Bards College)",
+    location: "Solitude / Bards College",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Bards College membership, Flame Cloak lead",
+    summary: "Join the Bards College and reclaim King Olaf's lost verse to revive the Burning of King Olaf festival.",
+    aiTip: "Retrieve King Olaf's Verse from Dead Men's Respite; membership lets you raise any skill via the College's book training.",
+    walkthrough: [
+      "Travel to the Bards College in Solitude.",
+      "Speak with Viarmo about joining and the ongoing feud with a rival student, Giraud Gemane.",
+      "Retrieve a Rare Chanter's Flute from a marked location to fulfill an audition request.",
+      "Complete the audition performance for Viarmo.",
+      "Progress the mystery around Giraud Gemane's sabotage attempts."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Tending%20the%20Flames%20%28Bards%20College%29%20walkthrough"
+  },
+  {
+    id: 1520,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Book of Love (Divine quest — Mara)",
+    location: "Riften / Temple of Mara",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Agent of Mara blessing",
+    summary: "Play matchmaker across Skyrim for the Temple of Mara to earn the Divine's blessing.",
+    aiTip: "Reuniting the three couples grants the Agent of Mara perk (magic resistance) — a great early defensive boon.",
+    walkthrough: [
+      "Speak with Dinya Balu at the Temple of Mara in Riften.",
+      "Agree to help playwright Dhaunayne Aundae research a romance story.",
+      "Travel to speak with three couples across Skyrim about their love stories.",
+      "Return the collected stories to Dinya Balu."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Book%20of%20Love%20%28Divine%20quest%20%E2%80%94%20Mara%29%20walkthrough"
+  },
+  {
+    id: 1521,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Heart of Dibella (Divine quest — Dibella)",
+    location: "Markarth / Temple of Dibella",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Agent of Dibella blessing",
+    summary: "Restore the Temple of Dibella by finding the Sybil and earning Dibella's favor.",
+    aiTip: "Escort or recover the young Sybil; completing it grants the Agent of Dibella combat bonus against the opposite sex.",
+    walkthrough: [
+      "Speak with Senna at the Temple of Dibella in Markarth.",
+      "Learn of corruption within the priesthood involving Priestess Hamal.",
+      "Investigate the temple and confront the guilty party.",
+      "Restore the temple's honor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heart%20of%20Dibella%20%28Divine%20quest%20%E2%80%94%20Dibella%29%20walkthrough"
+  },
+  {
+    id: 1522,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Silver Hand (Divine quest — Kynareth, note: shares name with Companions quest)",
+    location: "Whiterun / Kynareth's shrine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Agent of Kynareth / Nettlebane",
+    summary: "A Kynareth-linked pilgrimage tied to the Eldergleam and the sacred sap of the Gildergreen.",
+    aiTip: "Retrieve Nettlebane from the Hagravens at Orphan Rock, then tap the Eldergleam to restore Whiterun's Gildergreen tree.",
+    walkthrough: [
+      "Speak with the priestess at the Temple of Kynareth in Whiterun about restoring the storm-damaged Gildergreen Tree; retrieve a sapling or branch as instructed to complete the associated ritual."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20%28Divine%20quest%20%E2%80%94%20Kynareth%2C%20note%3A%20shares%20name%20with%20Companions%20quest%29%20walkthrough"
+  },
+  {
+    id: 1523,
+    type: "side",
+    category: "Bards College & Divine Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Pieces of the Past (Divine quest — Talos)",
+    location: "Dawnstar / Silus's Museum",
+    length: "medium",
+    difficulty: "High",
+    reward: "Mehrunes' Razor",
+    summary: "Recover the shards of Mehrunes' Razor for a museum curator, guided by the whispers of Mehrunes Dagon.",
+    aiTip: "Collect the three dagger pieces, then decide Silus's fate at the shrine — killing him for Dagon completes the reforged Razor.",
+    walkthrough: [
+      "Speak with Erikur or an associated NPC in Solitude about a hidden shrine to Talos.",
+      "Travel to the marked ancient ruin.",
+      "Retrieve the relic/amulet tied to Talos worship.",
+      "Return the item to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Pieces%20of%20the%20Past%20%28Divine%20quest%20%E2%80%94%20Talos%29%20walkthrough"
+  },
+  {
+    id: 1524,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Repairing the Phial (Side Quest)",
+    location: "Windhelm / Forgotten Vale-style ruin",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "White Phial",
+    summary: "Repair the legendary White Phial for the alchemist Nurelion in Windhelm.",
+    aiTip: "Retrieve the cracked Phial from Forsaken Cave, then complete the follow-up to fill it — a handy self-refilling potion bottle.",
+    walkthrough: [
+      "Speak with Nurelion at the Shining Star in Windhelm about repairing his prized Phial.",
+      "Locate ingredients or the completed Phial in a marked dungeon.",
+      "Return the item to Nurelion."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Repairing%20the%20Phial%20%28Side%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1525,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Break of Dawn (see Meridia's Daedric Quest)",
+    location: "Mount Kilkreath",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Cross-reference to Dawnbreaker",
+    summary: "A side-listing that points to Meridia's Daedric quest for the sword Dawnbreaker.",
+    aiTip: "This duplicates Meridia's quest (skyrim-0123) — completing that one covers this entry.",
+    walkthrough: [
+      "Refer to the Daedric Quests section — this entry is the same quest as 'Meridia: The Break of Dawn.'"
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Break%20of%20Dawn%20%28see%20Meridia%27s%20Daedric%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1526,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rise in the East",
+    location: "Dawnstar",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, hold safety",
+    summary: "Help the people of Dawnstar deal with the pirates of the Blood Horkers threatening the harbor.",
+    aiTip: "Clear Broken Oar Grotto and defeat the pirate leader Haldyn — his ward must be dropped before he can be killed.",
+    walkthrough: [
+      "Learn about strange activity at Fort Amol from local rumors.",
+      "Investigate the fort, uncovering a Thalmor or Stormcloak/Imperial conflict thread depending on version.",
+      "Report findings to the relevant faction."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20in%20the%20East%20walkthrough"
+  },
+  {
+    id: 1527,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Blood on the Ice",
+    location: "Windhelm",
+    length: "long",
+    difficulty: "High",
+    reward: "Gold, house eligibility",
+    summary: "Solve a chilling string of murders in the streets of Windhelm as an amateur detective.",
+    aiTip: "Investigate the crime scene quickly before the trail goes cold — following the clues to Hjerim exposes the killer.",
+    walkthrough: [
+      "Investigate a string of murders in Windhelm by speaking with the guards and Jorleif.",
+      "Interview suspects and gather clues (blood samples, witness statements).",
+      "Follow the trail to the killer's hideout.",
+      "Confront and defeat the Butcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%20on%20the%20Ice%20walkthrough"
+  },
+  {
+    id: 1528,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Mind of Madness",
+    location: "Solitude / Pelagius's Mind",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Wabbajack",
+    summary: "Enter the fractured mind of the mad King Pelagius at Sheogorath's behest to earn the Wabbajack.",
+    aiTip: "Solve the surreal mind puzzles (confidence, anger, paranoia) — the Wabbajack's random effects are chaotic but fun.",
+    walkthrough: [
+      "Encounter Dervenin outside the Blue Palace in Solitude seeking his missing master.",
+      "Travel to Understone Keep to find Sheogorath in disguise as Pelagius the Mad's spirit.",
+      "Enter the Pelagius Wing and dive into the mind of the deceased Emperor.",
+      "Navigate the surreal dreamscape and resolve the three personality conflicts within.",
+      "Escape the mind and receive the Wabbajack."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Mind%20of%20Madness%20walkthrough"
+  },
+  {
+    id: 1529,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Man Who Cried Wolf",
+    location: "Solitude / Wolfskull Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, Falk's favor",
+    summary: "Investigate cultists attempting to summon the spirit of the Wolf Queen at Wolfskull Cave.",
+    aiTip: "Interrupt the necromantic ritual before Potema is fully summoned — this sets up the later Wolf Queen quest.",
+    walkthrough: [
+      "Speak with the Jarl of Falkreath about the town's troubles with bandits and a supposed werewolf sighting.",
+      "Investigate the claims made by a local named Vantus Loreius.",
+      "Uncover the truth behind the false werewolf story.",
+      "Report back to the Jarl."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Man%20Who%20Cried%20Wolf%20walkthrough"
+  },
+  {
+    id: 1530,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Dampened Spirits (see Thieves Guild)",
+    location: "Whiterun / Honningbrew",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Cross-reference to Thieves Guild",
+    summary: "A side-listing pointing to the Thieves Guild's Dampened Spirits meadery sabotage.",
+    aiTip: "This duplicates the Thieves Guild quest (skyrim-0026) — completing that covers this entry.",
+    walkthrough: [
+      "Refer to the Thieves Guild section — duplicate quest name shared between miscellaneous and guild content."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20%28see%20Thieves%20Guild%29%20walkthrough"
+  },
+  {
+    id: 1531,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Wolf Queen Awakened",
+    location: "Solitude / Potema's Catacombs",
+    length: "long",
+    difficulty: "High",
+    reward: "Gold, Solitude standing",
+    summary: "Confront the fully awakened Wolf Queen Potema and put her restless spirit to rest for good.",
+    aiTip: "Follow Styrr and the priests into Potema's Catacombs; destroy her skull-phylactery form and expect heavy undead.",
+    walkthrough: [
+      "Investigate rumors of ghostly activity tied to Queen Potema in the Solitude catacombs.",
+      "Travel into the Reeking Cave / Potema's Catacombs beneath the city.",
+      "Fight through undead guardians to reach the ritual chamber.",
+      "Prevent (or fail to prevent) Potema's dragon priest servant from completing a resurrection ritual.",
+      "Defeat the final threat and secure Potema's remains."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Wolf%20Queen%20Awakened%20walkthrough"
+  },
+  {
+    id: 1532,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Lost to the Ages",
+    location: "Skyrim-wide / Aetherium Forge",
+    length: "long",
+    difficulty: "High",
+    reward: "Aetherial Crown / Shield / Staff",
+    summary: "Gather the scattered Aetherium Shards and reforge a legendary Dwarven artifact of your choice.",
+    aiTip: "Assemble all four shards, then choose the Aetherial Crown (wear two Standing Stones at once), Shield, or Staff at the forge.",
+    walkthrough: [
+      "Speak with Katria's ghost after finding her journal in a Dwemer ruin.",
+      "Follow a series of clues across multiple Dwemer ruins to piece together her research.",
+      "Retrieve each of the required Aetherium artifact pieces.",
+      "Reach the final Aetherium Forge and choose which artifact to craft."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Lost%20to%20the%20Ages%20walkthrough"
+  },
+  {
+    id: 1533,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Feud of Kvenel the Tongue (Dungeon Quest)",
+    location: "Nordic ruin (Kvenel's tomb)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Eduj and Okin, dungeon loot",
+    summary: "Defeat the ancient ghostly hero Kvenel the Tongue to claim his paired weapons.",
+    aiTip: "Kvenel wields a sword and axe and summons wolf spirits — bring healing and claim both Eduj and Okin from his remains.",
+    walkthrough: [
+      "Investigate the Nordic burial site tied to Kvenel's legend and clear it of undead to claim the associated lore book and loot."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Feud%20of%20Kvenel%20the%20Tongue%20%28Dungeon%20Quest%29%20walkthrough"
+  },
+  {
+    id: 1534,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Forbidden Legend",
+    location: "Reachwater Rock / Gauldur",
+    length: "long",
+    difficulty: "High",
+    reward: "Gauldur Amulet",
+    summary: "Piece together the Gauldur legend and reunite the shattered Gauldur Amulet from three brothers.",
+    aiTip: "Defeat all three Gauldurson brothers across separate dungeons, then combine the amulet fragments at Reachwater Rock for a strong amulet.",
+    walkthrough: [
+      "Find one of Gauldur's descendants' journal fragments (Fjori and Holgeir, or Gauldur's amulet fragments).",
+      "Track down the three fragments of the Gauldur Amulet across several burial sites.",
+      "Assemble the complete Gauldur Amulet.",
+      "Enter Reachwater Rock or Folgunthur to confront Gauldur's restored spirit.",
+      "Defeat Gauldur and claim his amulet and blackblood cultist gear."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forbidden%20Legend%20walkthrough"
+  },
+  {
+    id: 1535,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Deception (Dungeon Quest — Volskygge)",
+    location: "Volskygge",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dragon priest mask (Volsung)",
+    summary: "Fight through the ruins of Volskygge to defeat the dragon priest Volsung.",
+    aiTip: "Solve the wall puzzle to reach the summit; Volsung drops a unique mask that boosts carry weight, prices, and water-breathing.",
+    walkthrough: [
+      "Explore Volskygge to uncover the tale of Captain Wayfinder and the treacherous mapmaker who betrayed his crew; retrieve the associated unique loot from the wrecked ship interior."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Deception%20%28Dungeon%20Quest%20%E2%80%94%20Volskygge%29%20walkthrough"
+  },
+  {
+    id: 1536,
+    type: "side",
+    category: "Side & Dungeon Quests",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Rise Again (Dungeon Quest — Ansilvund)",
+    location: "Ansilvund",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Enchanted weapon, dungeon loot",
+    summary: "Delve into Ansilvund to end the necromancer Fjori-and-Holgeir haunting and its risen guardians.",
+    aiTip: "Solve the poetic pillar puzzles using the nearby books, then defeat the necromancer to end the crypt's undead threat.",
+    walkthrough: [
+      "Investigate Ansilvund, following the tragic tale of Fjori and Holgeir, and put their spirits to rest by defeating the necromancer responsible for their torment."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
+  },
+  {
+    id: 1537,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Find Princess Zelda",
+    location: "Great Sky Island",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Recall, Ultrahand, Fuse & Ascend abilities; story progression",
+    summary: "The opening quest of Tears of the Kingdom. After the Upheaval separates Link from Zelda beneath Hyrule Castle, Link awakens on the Great Sky Island with a mysterious new arm and must relearn how to survive while searching for the missing princess.",
+    aiTip: "Complete the four tutorial shrines on the Great Sky Island in any order to unlock Ultrahand, Fuse, Ascend and Recall before leaving — you keep these abilities for the whole game.",
+    walkthrough: [
+      "Wake in the Room of Awakening and follow Rauru's voice across the Great Sky Island.",
+      "Reach the Ukouh Shrine to learn Ultrahand, then Gutanbac (Ascend) and In-isa (Fuse).",
+      "Cross the frozen Mount and use the Ancient Blade to enter the Temple of Time area.",
+      "Watch the vision of Zelda, then prepare to descend to the surface to begin the search."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Find%20Princess%20Zelda%20walkthrough"
+  },
+  {
+    id: 1538,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Closed Door",
+    location: "Great Sky Island",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Recall ability, access to the Temple of Time",
+    summary: "To open the sealed Temple of Time and receive Recall from the spirit of Rauru, Link must locate and complete the three shrines scattered across the Great Sky Island.",
+    aiTip: "Use the map given by the Steward Construct — the three shrines (Ukouh, Gutanbac, In-isa) each teach an ability you'll need for the final climb to the temple.",
+    walkthrough: [
+      "Speak with the Steward Construct to receive the trio of shrine locations.",
+      "Complete Gutanbac Shrine (Ascend) and In-isa Shrine (Fuse).",
+      "Return the energy to the Temple of Time doors to open the Closed Door.",
+      "Receive Recall from Rauru's spirit and restart your paraglider quest."
+    ],
+    video: "https://www.youtube.com/watch?v=LEFQtZ5c-5o"
+  },
+  {
+    id: 1539,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "To the Kingdom of Hyrule",
+    location: "Temple of Time",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Paraglider, descent to the surface",
+    summary: "Having restored his abilities, Link leaps from the Great Sky Island to the surface of Hyrule, landing near Lookout Landing to reunite with Purah and learn what became of the kingdom during the Upheaval.",
+    aiTip: "Dive off the island's edge and open the paraglider late to reach the surface skydiving pad — aim for the green beam marking Lookout Landing.",
+    walkthrough: [
+      "Leap from the edge of the Great Sky Island using the Ancient Skydive.",
+      "Glide down to the Hyrule surface and land near Lookout Landing.",
+      "Enter Lookout Landing and find Purah at the observation deck.",
+      "Trigger the cutscene that sets up the Regional Phenomena investigation."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Kingdom%20of%20Hyrule%20walkthrough"
+  },
+  {
+    id: 1540,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Crisis at Hyrule Castle",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Purah Pad upgrades, Phantom Ganon fight, Royal Guard gear",
+    summary: "Purah sends Link to investigate the ominous gloom pouring from the risen Hyrule Castle, where reports of Zelda sightings lead to a confrontation with a Phantom Ganon puppet.",
+    aiTip: "Bring plenty of food and gloom-resistant Sundelion dishes — the castle interior drains hearts with gloom, and Phantom Ganon hits hard.",
+    walkthrough: [
+      "Speak with Purah at Lookout Landing to learn about the false Zelda sightings.",
+      "Climb or ascend into the floating Hyrule Castle.",
+      "Follow the sightings through the sanctum and trigger the Phantom Ganon encounter.",
+      "Defeat the puppet and report the truth back to Purah."
+    ],
+    video: "https://www.youtube.com/watch?v=QNcmCooErAU"
+  },
+  {
+    id: 1541,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Regional Phenomena",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Four Sage vows, Secret Stones, story progression",
+    summary: "The hub quest that branches into the four regional dungeons. Purah asks Link to investigate the strange phenomena afflicting the Rito, Goron, Zora and Gerudo, each hiding a temple and a new Sage.",
+    aiTip: "You can tackle the four regions in any order, but Rito Village (Wind Temple) is the most beginner-friendly starting point.",
+    walkthrough: [
+      "Speak with Purah to open the four regional investigations.",
+      "Travel to Rito, Goron, Zora and Gerudo lands to resolve each phenomenon.",
+      "Complete each region's temple and earn the local Sage's vow.",
+      "Return to Lookout Landing after all four to advance the main story."
+    ],
+    video: "https://www.youtube.com/watch?v=lWbbmS3nhBE"
+  },
+  {
+    id: 1542,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Tulin of Rito Village",
+    location: "Rito Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Tulin's Sage of Wind vow, Secret Stone, Heart Container",
+    summary: "Rito Village is trapped in an unnatural blizzard. Link joins the young archer Tulin to chase the source into the sky and clear the Wind Temple, freeing the region and earning the Sage of Wind.",
+    aiTip: "Tulin's gust ability extends your paraglider distance — use it constantly in the Wind Temple and to reach the flux construct boss, Colgera.",
+    walkthrough: [
+      "Reach Rito Village and speak with Tulin about the blizzard.",
+      "Ride the updrafts and hebra platforms up to the Wind Temple.",
+      "Activate all five locks inside the temple, then defeat Colgera.",
+      "Accept Tulin's vow as the Sage of Wind."
+    ],
+    video: "https://www.youtube.com/watch?v=uxIi5SMveko"
+  },
+  {
+    id: 1543,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Yunobo of Goron City",
+    location: "Goron City",
+    length: "medium",
+    difficulty: "High",
+    reward: "Yunobo's Sage of Fire vow, Secret Stone, Heart Container",
+    summary: "The Gorons have gone mad eating marbled rock roast. Link must free Yunobo from the marbled influence and clear the Fire Temple deep beneath Death Mountain to earn the Sage of Fire.",
+    aiTip: "Buy the Flamebreaker Armor in Goron City (or cook fireproof elixirs) before descending — the region is full of heat damage and lava.",
+    walkthrough: [
+      "Reach Goron City and follow the marbled rock roast trail up Death Mountain.",
+      "Free Yunobo from the boss-marbled state at the mine.",
+      "Ride the minecart rails and activate all five locks in the Fire Temple.",
+      "Defeat Marbled Gohma and accept Yunobo's vow as the Sage of Fire."
+    ],
+    video: "https://www.youtube.com/watch?v=VUvgbzgycqI"
+  },
+  {
+    id: 1544,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Sidon of the Zora",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "High",
+    reward: "Sidon's Sage of Water vow, Secret Stone, Heart Container",
+    summary: "Sludge from the sky is poisoning Zora's Domain. Link helps Prince Sidon clear the muck, reach a floating island, and clear the Water Temple to earn the Sage of Water.",
+    aiTip: "Fuse Zora weapons or splash water to clear sludge quickly, and keep Sidon's water-shield bubble active to attack through the muck.",
+    walkthrough: [
+      "Reach Zora's Domain and clear the sludge blocking the town with Sidon.",
+      "Complete the Clues to the Sky and Zora Armor steps to reach the sky island.",
+      "Ride to the Water Temple and turn on all four faucets.",
+      "Defeat Mucktorok and accept Sidon's vow as the Sage of Water."
+    ],
+    video: "https://www.youtube.com/watch?v=xV31lxYitrg"
+  },
+  {
+    id: 1545,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Riju of Gerudo Town",
+    location: "Gerudo Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Riju's Sage of Lightning vow, Secret Stone, Heart Container",
+    summary: "A relentless sand shroud and Gibdo swarms besiege Gerudo Town. Link defends the town alongside Chief Riju, then clears the Lightning Temple to earn the Sage of Lightning.",
+    aiTip: "Use Riju's lightning arrows to shatter Gibdo armor instantly, and bring bomb flowers for the swarm-defense segment before the temple.",
+    walkthrough: [
+      "Reach Gerudo Town and survive the Gibdo assault with Riju.",
+      "Track the sand shroud to the Lightning Temple in the desert.",
+      "Redirect sunlight with mirrors to power the five locks.",
+      "Defeat Queen Gibdo and accept Riju's vow as the Sage of Lightning."
+    ],
+    video: "https://www.youtube.com/watch?v=jbyX9ne9SWI"
+  },
+  {
+    id: 1546,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Impa and the Geoglyphs",
+    location: "New Serenne Stable",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Geoglyph map markers, Dragon's Tears questline",
+    summary: "Link meets Impa aboard her balloon at the Forgotten Temple. She reveals the giant geoglyphs drawn across Hyrule, each hiding a Dragon's Tear memory of the ancient past.",
+    aiTip: "Ascend to high ground or use a tower to spot geoglyphs from above — each teardrop pool plays a memory cutscene when touched.",
+    walkthrough: [
+      "Travel to the Forgotten Temple and meet Impa and her assistant.",
+      "Learn about the geoglyphs and receive the first location.",
+      "Visit geoglyphs to reveal the Dragon's Tears markers on your map.",
+      "This unlocks The Dragon's Tears memory hunt."
+    ],
+    video: "https://www.youtube.com/watch?v=iPyZ5DCB3mE"
+  },
+  {
+    id: 1547,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Dragon's Tears",
+    location: "New Serenne Stable",
+    length: "long",
+    difficulty: "High",
+    reward: "All 12 Dragon's Tear memories, the truth of Zelda's fate",
+    summary: "By visiting every geoglyph and touching its Dragon's Tear, Link watches the scattered memories that reveal what truly happened to Zelda in the distant past — and the secret of the Light Dragon.",
+    aiTip: "Watch the final memory (the one behind the Master Sword) last for the full emotional reveal, but any order technically completes the quest.",
+    walkthrough: [
+      "Use Impa's map to locate each of the geoglyphs across Hyrule.",
+      "Touch the Dragon's Tear pool at each to trigger its memory.",
+      "Collect all twelve tears to complete the imprisoning-war story.",
+      "Return to Impa to close out the questline."
+    ],
+    video: "https://www.youtube.com/watch?v=hDRL1zaCaV0"
+  },
+  {
+    id: 1548,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secret of the Ring Ruins",
+    location: "Kakariko Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient sky knowledge, progression toward the sky islands",
+    summary: "Kakariko Village has been upended by fallen Ring Ruins. Link helps the researcher Tauro decode the ruins' inscriptions to learn about the ancient sky people and the location of the fifth sage.",
+    aiTip: "Speak to Tauro and Lasli, then bring back rubbings and photos of the ruin inscriptions to advance the translation.",
+    walkthrough: [
+      "Arrive in Kakariko Village and speak with Tauro about the ruins.",
+      "Investigate the fallen Ring Ruins around the village.",
+      "Photograph or examine the inscriptions for Tauro to translate.",
+      "Learn the clue that points toward the fifth sage."
+    ],
+    video: "https://www.youtube.com/watch?v=gl4RJAxi3kY"
+  },
+  {
+    id: 1549,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Restoring the Zora Armor",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Zora Armor, ability to swim up waterfalls",
+    summary: "To reach the source of the sludge, Link must restore the Zora Armor for Yona by retrieving an Ancient Arowana from a sludge-choked area of the Domain.",
+    aiTip: "The Zora Armor lets you swim up waterfalls — a huge mobility boost for the rest of the region, so grab it early in the Zora questline.",
+    walkthrough: [
+      "Speak with Yona about repairing the ceremonial Zora Armor.",
+      "Retrieve the Ancient Arowana from the sludge-filled waters.",
+      "Return the fish to Yona to restore the armor.",
+      "Equip the Zora Armor and gain waterfall-swimming."
+    ],
+    video: "https://www.youtube.com/watch?v=h5MrDaKND_8"
+  },
+  {
+    id: 1550,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Clues to the Sky",
+    location: "Toto Lake",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "King's Scale, path to the Water Temple",
+    summary: "Following the sludge trail, Link investigates Toto Lake and the mystery of the 'Land of the Sky Fish,' solving the riddle that points to the floating island above Zora's Domain.",
+    aiTip: "Reassemble the broken Zora tablet at Toto Lake, then look for the fish-shaped island in the sky that the riddle describes.",
+    walkthrough: [
+      "Travel to Toto Lake and speak with Jiahto about the sky riddle.",
+      "Dive to recover and reassemble the broken slate underwater.",
+      "Read the completed 'Land of the Sky Fish' clue.",
+      "Get the King's Scale from Dorephan to reach the sky island."
+    ],
+    video: "https://www.youtube.com/watch?v=Ah2sqnWWMAo"
+  },
+  {
+    id: 1551,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Broken Slate",
+    location: "Toto Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Reassembled slate, riddle clue",
+    summary: "A sub-step of the Zora investigation: Link dives into Toto Lake to recover the scattered pieces of an ancient stone slate and reassemble it to read its message.",
+    aiTip: "Use Ultrahand underwater to grab and stick the slate fragments together — look for them resting on the lakebed near the central island.",
+    walkthrough: [
+      "Dive into Toto Lake and locate the broken slate fragments.",
+      "Use Ultrahand to gather the pieces on the lakebed.",
+      "Reassemble the slate into its full form.",
+      "Read the restored inscription to continue Clues to the Sky."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Broken%20Slate%20walkthrough"
+  },
+  {
+    id: 1552,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sludge-Covered Statue",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cleansed statue, story progression",
+    summary: "Yona asks Link to clean the sludge caked over the Mikau statue in Zora's Domain, restoring a piece of the town's heritage as the region recovers.",
+    aiTip: "Splash water from the surrounding pools or throw splash fruit to wash the sludge off the statue quickly.",
+    walkthrough: [
+      "Speak with Yona about the sludge-covered Mikau statue.",
+      "Gather water sources or splash fruit nearby.",
+      "Wash all the sludge from the statue.",
+      "Report the cleaned statue to complete the task."
+    ],
+    video: "https://www.youtube.com/watch?v=LFiwCFXHm-M"
+  },
+  {
+    id: 1553,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Guidance from Ages Past",
+    location: "Dragonhead Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Mineru's guidance, path to the fifth sage",
+    summary: "Following the sky-island clues, Link travels to the Thunderhead Isles and the ancient construct factory, receiving guidance from the spirit of Mineru toward building her a new body.",
+    aiTip: "The Thunderhead Isles are wreathed in storms — use the lightning-conducting course carefully and remove metal gear to avoid strikes.",
+    walkthrough: [
+      "Reach the Thunderhead Isles above the Faron/Necluda depths.",
+      "Navigate the storm and reach the ancient Construct Factory.",
+      "Follow Mineru's spirit guidance through the factory.",
+      "Learn what is needed to restore the fifth sage."
+    ],
+    video: "https://www.youtube.com/watch?v=NEyYrdQj7LM"
+  },
+  {
+    id: 1554,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Recovering the Hero's Sword",
+    location: "Korok Forest",
+    length: "long",
+    difficulty: "High",
+    reward: "Progress toward the Master Sword, Deku Tree aid",
+    summary: "Link journeys to Korok Forest to consult the Great Deku Tree about the Master Sword's whereabouts, only to find the forest besieged by gloom and Horriblins from the Depths below.",
+    aiTip: "Descend into the Depths beneath the Deku Tree and clear the gloom spawns — you'll need to defeat the Phantom Ganon there to save the tree.",
+    walkthrough: [
+      "Travel through the Lost Woods to reach Korok Forest.",
+      "Speak with the Great Deku Tree about the Master Sword.",
+      "Descend into the Depths beneath the tree to clear the gloom source.",
+      "Return to the Deku Tree for guidance on reclaiming the sword."
+    ],
+    video: "https://www.youtube.com/watch?v=1FiGVnjMGME"
+  },
+  {
+    id: 1555,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Find the Fifth Sage",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Mineru, the Sage of Spirit; the Spirit Temple",
+    summary: "Piecing together the clues from the Ring Ruins and construct factory, Link sets out to find and restore the fifth sage — Mineru — by assembling her construct body and clearing the Spirit Temple.",
+    aiTip: "Gather the three parts of Mineru's construct in the Depths, then power the Spirit Temple's giant construct for the Seized Construct boss fight.",
+    walkthrough: [
+      "Follow the fifth-sage clues to the Spirit Temple in the Depths.",
+      "Collect the three construct-body parts scattered nearby.",
+      "Assemble Mineru's construct and power the temple mech.",
+      "Defeat the Seized Construct and gain Mineru's Sage of Spirit vow."
+    ],
+    video: "https://www.youtube.com/watch?v=Mcjq7kxrnPs"
+  },
+  {
+    id: 1556,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Trail of the Master Sword",
+    location: "Spirit Temple",
+    length: "long",
+    difficulty: "High",
+    reward: "The Master Sword",
+    summary: "Guided by the memories and the Light Dragon, Link finally learns where the Master Sword rests and undertakes the trial to reclaim the legendary blade of evil's bane.",
+    aiTip: "The sword is embedded in the Light Dragon — you need enough stamina wheels to climb it and pull the blade free, so upgrade stamina first.",
+    walkthrough: [
+      "Learn the Master Sword's location from the final Dragon's Tear memory.",
+      "Track the Light Dragon's flight path across Hyrule's skies.",
+      "Skydive onto the dragon and climb to the sword on its head.",
+      "Hold to pull the Master Sword free from the dragon."
+    ],
+    video: "https://www.youtube.com/watch?v=FAYiM3yUlhM"
+  },
+  {
+    id: 1557,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Mystery in the Depths",
+    location: "Lookout Landing",
+    length: "long",
+    difficulty: "High",
+    reward: "Autobuild ability, Master Kohga encounter",
+    summary: "Reports of strange activity below lead Link into the Depths to the Great Abandoned Central Mine, where he unlocks the Autobuild ability and first clashes with Master Kohga of the Yiga Clan.",
+    aiTip: "Autobuild lets you instantly recreate saved vehicles — grab it early, as it trivializes crossing the vast Depths and gloom chasms.",
+    walkthrough: [
+      "Descend through a chasm into the Depths beneath central Hyrule.",
+      "Navigate to the Great Abandoned Central Mine.",
+      "Recover the Autobuild ability from the ancient construct.",
+      "Confront Master Kohga's first battle machine."
+    ],
+    video: "https://www.youtube.com/watch?v=w4SXnv1v_oo"
+  },
+  {
+    id: 1558,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Camera Work in the Depths",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Sensor+ upgrade, Depths research progress",
+    summary: "Josha at Lookout Landing asks Link to photograph the statues and phenomena of the Depths to advance her research into the gloom and the ancient Zonai.",
+    aiTip: "Bring Brightbloom seeds to light the Depths for clear photos, and use the Sensor to track down the specific statues Josha requests.",
+    walkthrough: [
+      "Speak with Josha at Lookout Landing about Depths research.",
+      "Descend and photograph the requested statues and gloom sites.",
+      "Return the photos to Josha for analysis.",
+      "Continue documenting the Depths as the research expands."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Camera%20Work%20in%20the%20Depths%20walkthrough"
+  },
+  {
+    id: 1559,
+    type: "main",
+    questType: "Main Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Destroy Ganondorf",
+    location: "Hyrule Castle Peak",
+    length: "long",
+    difficulty: "High",
+    reward: "Game completion, the true ending",
+    summary: "The final confrontation. Link descends beneath Hyrule Castle into the Depths, fights through the Gloom's Origin, and faces the Demon King Ganondorf and his Demon Dragon form to save Zelda and Hyrule.",
+    aiTip: "Stock fairies, sundelions and your strongest fused weapons — the multi-phase fight ends with an aerial battle on the Demon Dragon where the Sages assist you.",
+    walkthrough: [
+      "Descend beneath Hyrule Castle into the final Depths arena.",
+      "Fight through the gloom hands and Phantom Ganon gauntlet.",
+      "Battle Ganondorf through his humanoid and Demon King phases.",
+      "Finish the aerial Demon Dragon fight to complete the game."
+    ],
+    video: "https://www.youtube.com/watch?v=GFG4PXOjeXo"
+  },
+  {
+    id: 1560,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Call from the Depths",
+    location: "Temple of Time Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression, ancient insight",
+    summary: "An early investigation that draws Link toward the ruined Temple of Time on the surface, tying the Upheaval's chasms to the vast Depths opening below Hyrule.",
+    aiTip: "Bring Brightbloom seeds before dropping into any chasm — the Depths are pitch black until you light the Lightroots.",
+    walkthrough: [
+      "Investigate the collapsed Temple of Time ruins in Central Hyrule.",
+      "Locate the chasm that has opened nearby.",
+      "Drop into the Depths and activate the first Lightroot.",
+      "Follow the underground path to advance the mystery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Call%20from%20the%20Depths%20walkthrough"
+  },
+  {
+    id: 1561,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Deal With the Statue",
+    location: "Royal Hidden Passage",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Trade heart and stamina containers for rupees",
+    summary: "In the hidden passage beneath Hyrule Castle, a Horned Statue offers to buy back heart containers and stamina vessels, letting Link rebalance health and stamina for rupees.",
+    aiTip: "Sell a heart to the statue to fund stamina early, then buy it back later — it keeps 20 rupees as a fee each time.",
+    walkthrough: [
+      "Reach the Horned Statue in the Royal Hidden Passage under Lookout Landing.",
+      "Speak with the statue to unlock the trading option.",
+      "Sell a heart container or stamina vessel for 100 rupees.",
+      "Buy the vessel back (for 120) whenever you want to switch."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Deal%20With%20the%20Statue%20walkthrough"
+  },
+  {
+    id: 1562,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Letter to Koyin",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Progress in Hateno's dairy storyline",
+    summary: "Link delivers a letter to Koyin at the Hateno cow farm, helping settle a dispute over the village's struggling dairy business.",
+    aiTip: "Koyin works at the pasture on Hateno's east side — deliver the letter, then check back as the dairy plot develops.",
+    walkthrough: [
+      "Receive the letter destined for Koyin.",
+      "Travel to Hateno Village and find Koyin at the dairy farm.",
+      "Hand over the letter and hear her response.",
+      "Report back to complete the delivery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Letter%20to%20Koyin%20walkthrough"
+  },
+  {
+    id: 1563,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection I",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Monster medal, Kilton's shop access",
+    summary: "Kilton's monster-loving research at Tarrey Town begins: Link hunts a specific set of monsters to earn the first Monster Control Crew medal and unlock rewards.",
+    aiTip: "Kilton posts a bounty board — check which monster types are requested and fuse their parts for stronger gear as you hunt.",
+    walkthrough: [
+      "Meet Kilton at Tarrey Town and read the first bounty.",
+      "Track down and defeat the listed monsters.",
+      "Report the kills back to Kilton.",
+      "Claim the first-tier medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20I%20walkthrough"
+  },
+  {
+    id: 1564,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection II",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Second monster medal, rupees",
+    summary: "The second phase of Kilton's monster survey sends Link after tougher species around Hyrule to expand the Monster Control Crew's records.",
+    aiTip: "Blue and black variants count separately — hunt at night when stronger monsters spawn to knock out the harder listings faster.",
+    walkthrough: [
+      "Return to Kilton for the second bounty list.",
+      "Hunt the requested mid-tier monsters.",
+      "Bring proof of the kills to Kilton.",
+      "Receive the second medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20II%20walkthrough"
+  },
+  {
+    id: 1565,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection III",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Third monster medal, rupees",
+    summary: "Kilton's survey escalates to dangerous enemies, pushing Link to seek out rarer monster types across the surface, sky and Depths.",
+    aiTip: "Some listed monsters only appear in the Depths — bring gloom-resistant meals and Brightbloom seeds for those hunts.",
+    walkthrough: [
+      "Collect the third bounty from Kilton.",
+      "Hunt the advanced monsters he requests.",
+      "Return the tally to Kilton.",
+      "Claim the third medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20III%20walkthrough"
+  },
+  {
+    id: 1566,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection IV",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "High",
+    reward: "Fourth monster medal, rupees",
+    summary: "Now hunting rare and elite monsters, Link fills out the fourth phase of Kilton's Monster Control Crew ledger.",
+    aiTip: "Save strong fused weapons for elite monsters like Lynels and Frox — they are frequently on the late bounty lists.",
+    walkthrough: [
+      "Read Kilton's fourth bounty list.",
+      "Defeat the rare monster types requested.",
+      "Report the results to Kilton.",
+      "Earn the fourth medal and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20IV%20walkthrough"
+  },
+  {
+    id: 1567,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Monstrous Collection V",
+    location: "Tarrey Town",
+    length: "long",
+    difficulty: "High",
+    reward: "Final monster medal, exclusive reward",
+    summary: "The finale of Kilton's collection has Link hunt the most powerful monsters in Hyrule to complete the Monster Control Crew's full record.",
+    aiTip: "The last list includes the toughest foes — prepare Lynel-tier gear and healing before finishing this phase.",
+    walkthrough: [
+      "Take on Kilton's final bounty list.",
+      "Hunt down the strongest monsters across all layers of Hyrule.",
+      "Turn in the completed tally to Kilton.",
+      "Claim the final medal and completion reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20V%20walkthrough"
+  },
+  {
+    id: 1568,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A New Signature Food",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Recipe, village storyline progress",
+    summary: "Link helps a Hateno cook develop a new signature dish, gathering the right ingredients to win over the village's tastes.",
+    aiTip: "Cook the requested ingredients at a pot before delivering — a well-made dish satisfies the request instantly.",
+    walkthrough: [
+      "Speak with the cook about the new signature dish.",
+      "Gather the ingredients they describe.",
+      "Prepare or hand over the required food.",
+      "Deliver the finished dish to complete the quest."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Signature%20Food%20walkthrough"
+  },
+  {
+    id: 1569,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "An Eerie Voice",
+    location: "Highland Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Mystery resolved, reward item",
+    summary: "Travelers at Highland Stable report a strange voice at night. Link investigates the source of the eerie sound near the stable.",
+    aiTip: "Return to the stable area after dark when the voice is heard, then follow the sound to its source.",
+    walkthrough: [
+      "Talk to the worried travelers at Highland Stable.",
+      "Wait until night and listen for the eerie voice.",
+      "Track the sound to uncover its cause.",
+      "Resolve the disturbance and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Eerie%20Voice%20walkthrough"
+  },
+  {
+    id: 1570,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Akkala!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, Addison sign, rewards",
+    summary: "A regional milestone: by completing the side quests and adventures of the Akkala region, Link restores order and safety to Akkala's people.",
+    aiTip: "Track your regional completion in the Adventure Log — clearing every Akkala side quest triggers the peace reward.",
+    walkthrough: [
+      "Take on the outstanding side quests across Akkala.",
+      "Clear monster camps and help residents rebuild.",
+      "Resolve each community's problem.",
+      "Complete the region to bring peace to Akkala."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Akkala!%20walkthrough"
+  },
+  {
+    id: 1571,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Eldin!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "Link restores stability to the volcanic Eldin region by finishing its side quests and driving out the threats troubling the Gorons and travelers.",
+    aiTip: "Fireproof gear makes clearing Eldin's monster camps far easier — buy Flamebreaker armor in Goron City first.",
+    walkthrough: [
+      "Complete Eldin's open side quests and adventures.",
+      "Clear the monsters harassing the roads and mines.",
+      "Help the region's residents recover.",
+      "Finish the region to bring peace to Eldin."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Eldin!%20walkthrough"
+  },
+  {
+    id: 1572,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Faron!",
+    location: "Faron Grasslands",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "In the lush, rainy Faron region, Link completes the local quests and clears threats to bring harmony to its villages and wilds.",
+    aiTip: "Lurelin Village's restoration is a big part of Faron — completing it counts heavily toward regional peace.",
+    walkthrough: [
+      "Work through Faron's side quests and adventures.",
+      "Restore Lurelin and clear coastal monster camps.",
+      "Assist the region's residents.",
+      "Complete the region to bring peace to Faron."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Faron!%20walkthrough"
+  },
+  {
+    id: 1573,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Hebra!",
+    location: "Faron Grasslands",
+    length: "long",
+    difficulty: "High",
+    reward: "Regional peace, rewards",
+    summary: "The frozen Hebra region calls for aid. Link finishes its quests and clears its snowbound dangers to restore tranquility to Hebra.",
+    aiTip: "Cold-resistance meals or warm doublet are essential — Hebra's blizzards drain hearts without protection.",
+    walkthrough: [
+      "Take on the side quests scattered across Hebra.",
+      "Clear the icy monster camps threatening travelers.",
+      "Help the Rito and stable folk of the region.",
+      "Complete the region to bring peace to Hebra."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hebra!%20walkthrough"
+  },
+  {
+    id: 1574,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Hyrule Field!",
+    location: "Central Hyrule",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Regional peace, rewards",
+    summary: "Central Hyrule Field is beset by monsters and gloom. Link clears its quests and hazards to make the heart of the kingdom safe again.",
+    aiTip: "Lookout Landing's surrounding quests count here — knock them out while you're using the town as a hub.",
+    walkthrough: [
+      "Complete the side quests around Central Hyrule.",
+      "Clear monster camps across Hyrule Field.",
+      "Seal or avoid the gloom spills near the castle.",
+      "Finish the region to bring peace to Hyrule Field."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hyrule%20Field!%20walkthrough"
+  },
+  {
+    id: 1575,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Bring Peace to Necluda!",
+    location: "Central Hyrule",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Regional peace, rewards",
+    summary: "Link brings order to the Necluda region — home to Hateno and Kakariko — by completing its quests and settling its communities' troubles.",
+    aiTip: "Hateno Village's mayoral and dye-shop storylines make up much of Necluda's completion — wrap those up together.",
+    walkthrough: [
+      "Work through Necluda's side quests and adventures.",
+      "Resolve Hateno and Kakariko's local disputes.",
+      "Clear the region's monster threats.",
+      "Complete the region to bring peace to Necluda."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Necluda!%20walkthrough"
+  },
+  {
+    id: 1576,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cece's Secret",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno storyline progress, hat fashion",
+    summary: "Amid Hateno's mayoral race, Link uncovers the truth behind Cece's popular hats and her rivalry with Mayor Reede over the village's future.",
+    aiTip: "Follow Cece around the village and photograph or observe her activities to expose the secret behind her hat craze.",
+    walkthrough: [
+      "Speak with Cece about the hat trend in Hateno.",
+      "Trail her to learn where the hats come from.",
+      "Discover the secret behind her campaign.",
+      "Report your findings to advance the election plot."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cece's%20Secret%20walkthrough"
+  },
+  {
+    id: 1577,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Filling Out the Compendium",
+    location: "Hateno Ancient Tech Lab",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Compendium rewards from Robbie",
+    summary: "Robbie at the Hateno Ancient Tech Lab asks Link to complete the Hyrule Compendium by photographing every creature, monster, material and treasure with the Purah Pad camera.",
+    aiTip: "Buy monster and creature photos from Robbie's assistant to fill gaps, and use the camera's sensor to hunt missing entries.",
+    walkthrough: [
+      "Get the camera and Compendium task from Robbie.",
+      "Photograph creatures, monsters, materials and treasures.",
+      "Fill every category of the Compendium.",
+      "Return to Robbie for the completion rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Filling%20Out%20the%20Compendium%20walkthrough"
+  },
+  {
+    id: 1578,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "For Our Princess!",
+    location: "Foothill Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Froggy armor progress, Penn's thanks",
+    summary: "Part of Penn's Lucky Clover Gazette investigations, this stable quest follows another supposed Princess Zelda sighting near Foothill Stable.",
+    aiTip: "Meet Penn at the stable and follow the Zelda impersonator's trail — as with all Penn quests, the 'princess' is never quite what she seems.",
+    walkthrough: [
+      "Meet Penn at Foothill Stable.",
+      "Investigate the reported princess sighting.",
+      "Follow the leads to the truth of the sighting.",
+      "Report to Penn to advance the Gazette storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20For%20Our%20Princess!%20walkthrough"
+  },
+  {
+    id: 1579,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gourmets Gone Missing",
+    location: "Riverside Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rare recipe, rupees",
+    summary: "Two food-loving travelers have vanished searching for a legendary dish. Link tracks the missing gourmets from Riverside Stable across Hyrule.",
+    aiTip: "Follow the clues about where the gourmets were headed — they're usually near a cooking pot chasing a rare ingredient.",
+    walkthrough: [
+      "Hear about the missing gourmets at Riverside Stable.",
+      "Follow the trail of clues they left behind.",
+      "Locate the stranded travelers.",
+      "Help them and report back for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gourmets%20Gone%20Missing%20walkthrough"
+  },
+  {
+    id: 1580,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hateno Village Research Lab",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Camera / Purah Pad sensor unlocked",
+    summary: "An introductory tech quest: Link is directed to reconnect with Robbie's Hateno lab to restore the Purah Pad's camera and research features.",
+    aiTip: "This unlocks the camera you'll need for the Compendium and many main quests — do it early.",
+    walkthrough: [
+      "Get the referral from Purah at Lookout Landing.",
+      "Travel to the Hateno Ancient Tech Lab.",
+      "Meet Robbie and restore the lab's functions.",
+      "Gain the camera and sensor features."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hateno%20Village%20Research%20Lab%20walkthrough"
+  },
+  {
+    id: 1581,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hestu's Concerns",
+    location: "Near New Serenne Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hestu's maracas restored, inventory upgrades",
+    summary: "Link finds Hestu troubled near New Serenne Stable — his precious maracas are gone and he can't expand pouches until they're recovered.",
+    aiTip: "Clear the monsters that stole Hestu's maracas, then bring Korok Seeds to him to unlock weapon, bow and shield pouch slots.",
+    walkthrough: [
+      "Find a distressed Hestu near New Serenne Stable.",
+      "Defeat the monsters holding his maracas.",
+      "Return the maracas to Hestu.",
+      "Trade Korok Seeds to expand your inventory."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hestu's%20Concerns%20walkthrough"
+  },
+  {
+    id: 1582,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Honey, Bee Mine",
+    location: "West Necluda",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, courtship storyline",
+    summary: "A lovestruck traveler asks Link to gather courage-boosting courser bee honey to help him confess his feelings in West Necluda.",
+    aiTip: "Shoot beehives from a distance or grab honey and run — then deliver it fresh to complete the request.",
+    walkthrough: [
+      "Meet the nervous suitor in West Necluda.",
+      "Locate courser bee honey in the nearby trees.",
+      "Collect the honey carefully.",
+      "Deliver it so he can make his confession."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Honey%2C%20Bee%20Mine%20walkthrough"
+  },
+  {
+    id: 1583,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Infiltrating the Yiga Clan",
+    location: "Yiga Clan Hideout",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga Clan armor set pieces, schematics",
+    summary: "By donning a Yiga disguise, Link infiltrates the clan's hideout, reads their secret schematics, and uncovers the full Yiga armor set.",
+    aiTip: "Equip a full Yiga set to walk among clan members unnoticed — reading their notice boards reveals hidden schematic locations.",
+    walkthrough: [
+      "Obtain a Yiga disguise from a defeated clan member.",
+      "Enter the Yiga Clan Hideout undetected.",
+      "Read the schematics and notice boards inside.",
+      "Collect the Yiga armor pieces to complete the infiltration."
+    ],
+    video: "https://www.youtube.com/watch?v=gstFS5oytsU"
+  },
+  {
+    id: 1584,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Investigate the Thyphlo Ruins",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Ruins mystery clue, shrine access",
+    summary: "Researcher Wortsworth sends Link into the perpetually dark Thyphlo Ruins in Great Hyrule Forest to study the ancient owl statues and light the way.",
+    aiTip: "Bright­bloom seeds and burning arrows are your only light here — the puzzle revolves around carrying flame to the owl statues.",
+    walkthrough: [
+      "Meet the researcher near the Thyphlo Ruins.",
+      "Enter the pitch-black ruins with a light source.",
+      "Illuminate the path toward the giant owl statue.",
+      "Uncover the ruins' secret to reveal the hidden shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Investigate%20the%20Thyphlo%20Ruins%20walkthrough"
+  },
+  {
+    id: 1585,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legend of the Great Sky Island",
+    location: "Great Sky Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Sky island lore, rewards",
+    summary: "Returning to where his journey began, Link pieces together the legend of the Great Sky Island and the ancient Zonai who once lived there.",
+    aiTip: "Revisit the tutorial island with all your abilities — new areas and lore become reachable once you can fly and climb freely.",
+    walkthrough: [
+      "Return to the Great Sky Island.",
+      "Explore the ruins and shrines you couldn't reach before.",
+      "Piece together the island's Zonai history.",
+      "Complete the legend to claim its rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Great%20Sky%20Island%20walkthrough"
+  },
+  {
+    id: 1586,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lurelin Village Restoration Project",
+    location: "Lurelin Village",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Lurelin rebuilt, rupees, gratitude",
+    summary: "Pirate monsters have ravaged the seaside Lurelin Village. Link helps Bolson's crew and the villagers rebuild homes, the inn and the shops step by step.",
+    aiTip: "Gather wood and clear the remaining monsters first — then fund and fetch materials for each reconstruction stage.",
+    walkthrough: [
+      "Arrive at ruined Lurelin and drive off the monster pirates.",
+      "Speak with Rozel and Bolson about rebuilding.",
+      "Gather wood and materials for each structure.",
+      "Fund and complete each stage to restore the village."
+    ],
+    video: "https://www.youtube.com/watch?v=3lmHVU4GFAs"
+  },
+  {
+    id: 1587,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Master Kohga of the Yiga Clan",
+    location: "Great Abandoned Central Mine",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga schematics, Autobuild lore, treasure",
+    summary: "A four-part chase through the Depths in which Link repeatedly foils Master Kohga's ridiculous battle machines, ending the Yiga Clan's schemes for good.",
+    aiTip: "Each Kohga fight uses a different Zonai contraption — target his exposed platform and use arrows to knock him off balance.",
+    walkthrough: [
+      "Confront Kohga at the Great Abandoned Central Mine.",
+      "Defeat his first battle machine.",
+      "Track him to further mines across the Depths.",
+      "Beat his final machine to end the Yiga threat."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20Kohga%20of%20the%20Yiga%20Clan%20walkthrough"
+  },
+  {
+    id: 1588,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mattison's Independence",
+    location: "Tarrey Town",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Heartwarming storyline, rupees",
+    summary: "Hudson and Rhondson's daughter Mattison prepares to leave Tarrey Town for Gerudo Town. Link helps the family through the bittersweet farewell.",
+    aiTip: "Follow the family's requests around Tarrey Town — this is a story quest, so simply complete each step to see it through.",
+    walkthrough: [
+      "Speak with Hudson's family in Tarrey Town.",
+      "Help prepare Mattison for her journey.",
+      "See her off toward Gerudo Town.",
+      "Return to the family to close the story."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mattison's%20Independence%20walkthrough"
+  },
+  {
+    id: 1589,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Messages from an Ancient Era",
+    location: "Lookout Landing",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ancient script translated, lore",
+    summary: "Link gathers ancient tablets and inscriptions for the researchers at Lookout Landing, decoding messages left by the Zonai and old Hyrule.",
+    aiTip: "Photograph or collect the ancient tablets the researchers point out, then bring them back for translation.",
+    walkthrough: [
+      "Speak with the Lookout Landing researchers.",
+      "Locate the ancient inscriptions they need.",
+      "Record or retrieve the messages.",
+      "Deliver them for translation to reveal the lore."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Messages%20from%20an%20Ancient%20Era%20walkthrough"
+  },
+  {
+    id: 1590,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Potential Princess Sightings!",
+    location: "Lucky Clover Gazette",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Froggy armor set, Hero's Path-style photos",
+    summary: "Link joins Penn and Traysi's Lucky Clover Gazette to chase a series of Princess Zelda sightings at stables across Hyrule, each a self-contained mystery.",
+    aiTip: "Complete every stable sighting to earn the full Froggy armor set from Penn — each one is a short investigation with a twist.",
+    walkthrough: [
+      "Join the Lucky Clover Gazette and meet Penn.",
+      "Travel to each stable to investigate a Zelda sighting.",
+      "Solve the mystery behind every sighting.",
+      "Finish all sightings to claim the Froggy armor set."
+    ],
+    video: "https://www.youtube.com/watch?v=8jzHEWA5py0"
+  },
+  {
+    id: 1591,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: Hero's Path Mode!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Hero's Path Mode map feature",
+    summary: "Robbie upgrades the Purah Pad with Hero's Path Mode, letting Link trace his own recent movements across the map.",
+    aiTip: "A quick lab visit unlocks it — Hero's Path is great for spotting unexplored areas and missed shrines.",
+    walkthrough: [
+      "Visit the Hateno Ancient Tech Lab.",
+      "Speak with Robbie about the map upgrade.",
+      "Complete the short request.",
+      "Activate Hero's Path Mode on the Purah Pad."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Hero's%20Path%20Mode!%20walkthrough"
+  },
+  {
+    id: 1592,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: Sensor +!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Sensor+ (track any Compendium entry)",
+    summary: "Robbie enhances the Purah Pad sensor so it can track any registered Compendium creature, material or treasure, not just shrines.",
+    aiTip: "Register an item in the Compendium first, then set Sensor+ to hunt down more of it — invaluable for gathering rare materials.",
+    walkthrough: [
+      "Go to the Hateno Ancient Tech Lab.",
+      "Ask Robbie about upgrading the sensor.",
+      "Complete the requirement (Compendium progress).",
+      "Unlock Sensor+ for targeted tracking."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Sensor%20%2B!%20walkthrough"
+  },
+  {
+    id: 1593,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Presenting: The Travel Medallion!",
+    location: "Hateno Ancient Tech Lab",
+    length: "short",
+    difficulty: "Low",
+    reward: "Travel Medallion (custom fast-travel point)",
+    summary: "Robbie grants Link the Travel Medallion, which places a personal fast-travel point anywhere in Hyrule.",
+    aiTip: "Drop the medallion at a mining or farming spot you revisit often — you can later upgrade to three medallions.",
+    walkthrough: [
+      "Visit Robbie at the Hateno Ancient Tech Lab.",
+      "Complete the request to unlock the device.",
+      "Receive the Travel Medallion.",
+      "Place it anywhere to create a fast-travel point."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20The%20Travel%20Medallion!%20walkthrough"
+  },
+  {
+    id: 1594,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Princess Zelda Kidnapped?!",
+    location: "Dueling Peaks Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Penn storyline progress, rupees",
+    summary: "One of Penn's earliest Gazette leads: a rumor that Princess Zelda has been kidnapped near Dueling Peaks Stable turns out stranger than reported.",
+    aiTip: "Talk to Penn at the stable and follow the sighting — expect a comedic twist rather than the real princess.",
+    walkthrough: [
+      "Meet Penn at Dueling Peaks Stable.",
+      "Investigate the kidnapping rumor.",
+      "Follow the trail to the 'princess'.",
+      "Report the truth to Penn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Princess%20Zelda%20Kidnapped%3F!%20walkthrough"
+  },
+  {
+    id: 1595,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Reede's Secret",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno election storyline progress",
+    summary: "As Hateno's mayoral race heats up, Link investigates what Mayor Reede is really up to at night, revealing his side of the village conflict with Cece.",
+    aiTip: "Trail Reede after dark to discover his secret — it balances the picture before you choose a side in the election.",
+    walkthrough: [
+      "Speak with Reede about the election.",
+      "Follow him during the night.",
+      "Discover the secret behind his behavior.",
+      "Report your findings to advance the storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Reede's%20Secret%20walkthrough"
+  },
+  {
+    id: 1596,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ruffian-Infested Village",
+    location: "Lurelin Village",
+    length: "long",
+    difficulty: "High",
+    reward: "Lurelin freed, restoration unlocked",
+    summary: "Before Lurelin can be rebuilt, Link must drive the monster 'pirate' ruffians out of the occupied seaside village.",
+    aiTip: "Clear the Bokoblin and pirate camps around the village and the docked ship — freeing Lurelin opens the Restoration Project.",
+    walkthrough: [
+      "Arrive at ruffian-occupied Lurelin Village.",
+      "Defeat the pirate monsters throughout the town.",
+      "Clear the ship and beach camps.",
+      "Free the villagers to begin restoration."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ruffian-Infested%20Village%20walkthrough"
+  },
+  {
+    id: 1597,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to a Great Fairy",
+    location: "Woodland Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Great Fairy unlocked, armor upgrades",
+    summary: "The Stable Trotters troupe must play their music to coax a Great Fairy from her bud. Link repairs their carriage and reunites the band to perform.",
+    aiTip: "Attach the missing instruments' players and haul the carriage to the fairy fountain — a full band opens the Great Fairy for armor upgrades.",
+    walkthrough: [
+      "Meet the traveling musicians near Woodland Stable.",
+      "Repair and power their performance carriage.",
+      "Escort it to the Great Fairy Fountain.",
+      "Play the serenade to awaken the Great Fairy."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20a%20Great%20Fairy%20walkthrough"
+  },
+  {
+    id: 1598,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Cotera",
+    location: "Dueling Peaks Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Cotera, armor upgrades",
+    summary: "Link helps the Stable Trotters bring their music to Great Fairy Cotera's fountain near Kakariko, awakening her to upgrade armor.",
+    aiTip: "Cotera's fountain is northeast of Kakariko — deliver the musicians here to unlock the first Great Fairy's upgrade service.",
+    walkthrough: [
+      "Find the musicians tied to Cotera's fountain.",
+      "Restore their carriage and instruments.",
+      "Lead them to Cotera's Fountain.",
+      "Perform to awaken Cotera for armor upgrades."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Cotera%20walkthrough"
+  },
+  {
+    id: 1599,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Kaysa",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Kaysa, armor upgrades",
+    summary: "Link reunites the traveling band to serenade Great Fairy Kaysa, freeing her to upgrade armor to higher tiers.",
+    aiTip: "You'll need more band members playing than for Cotera — each awakened Great Fairy raises the armor upgrade cap.",
+    walkthrough: [
+      "Gather the musicians for Kaysa's serenade.",
+      "Fix and power their carriage.",
+      "Escort it to Kaysa's Great Fairy Fountain.",
+      "Play the music to awaken Kaysa."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Kaysa%20walkthrough"
+  },
+  {
+    id: 1600,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Serenade to Mija",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Great Fairy Mija, armor upgrades",
+    summary: "The final serenade brings the full troupe to Great Fairy Mija, completing the set of four Great Fairies for maximum armor upgrades.",
+    aiTip: "With all four instruments restored, Mija's performance opens the last Great Fairy — enabling top-tier armor enhancement.",
+    walkthrough: [
+      "Reunite the complete band for Mija's fountain.",
+      "Restore the carriage and all instruments.",
+      "Escort the troupe to Mija's Great Fairy Fountain.",
+      "Perform to awaken Mija and unlock full upgrades."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Mija%20walkthrough"
+  },
+  {
+    id: 1601,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Team Cece or Team Reede?",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Election outcome, Hateno storyline finale",
+    summary: "The climax of Hateno's mayoral race asks Link to back either hat-maker Cece or Mayor Reede, deciding the village's direction.",
+    aiTip: "Complete both Cece's Secret and Reede's Secret first so you understand each side before casting your support.",
+    walkthrough: [
+      "Finish the Cece and Reede secret investigations.",
+      "Weigh both candidates' plans for Hateno.",
+      "Choose to support Cece or Reede.",
+      "See the election resolve based on your choice."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Team%20Cece%20or%20Team%20Reede%3F%20walkthrough"
+  },
+  {
+    id: 1602,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The All-Clucking Cucco",
+    location: "South Akkala Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rupees, quirky reward",
+    summary: "A traveler at South Akkala Stable is obsessed with a legendary giant cucco. Link helps track down the enormous bird.",
+    aiTip: "Follow the cucco enthusiast's clues into the hills — approach the giant cucco calmly to complete the quest.",
+    walkthrough: [
+      "Hear the tale of the giant cucco at South Akkala Stable.",
+      "Follow the clues to the bird's roost.",
+      "Find the All-Clucking Cucco.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20All-Clucking%20Cucco%20walkthrough"
+  },
+  {
+    id: 1603,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Beast and the Princess",
+    location: "New Serenne Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Penn storyline progress, rupees",
+    summary: "Another Lucky Clover Gazette lead: rumors of a princess riding a great beast near New Serenne Stable send Link investigating with Penn.",
+    aiTip: "Track the beast sighting at night — Penn's quests always hide a twist behind the 'princess' rumor.",
+    walkthrough: [
+      "Meet Penn at New Serenne Stable.",
+      "Investigate the beast-and-princess rumor.",
+      "Follow the trail to its source.",
+      "Report the truth to Penn."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beast%20and%20the%20Princess%20walkthrough"
+  },
+  {
+    id: 1604,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Beckoning Woman",
+    location: "Outskirt Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Mystery resolved, rupees",
+    summary: "Travelers speak of a mysterious woman beckoning from the roadside near Outskirt Stable. Link investigates the unsettling figure.",
+    aiTip: "Approach the beckoning woman with caution — the encounter may be a disguised threat rather than a lost traveler.",
+    walkthrough: [
+      "Learn of the beckoning woman at Outskirt Stable.",
+      "Travel to where she is seen.",
+      "Approach and confront the mystery.",
+      "Resolve the encounter and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beckoning%20Woman%20walkthrough"
+  },
+  {
+    id: 1605,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blocked Well",
+    location: "Gerudo Canyon Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Well cleared, well-digger's thanks",
+    summary: "The Wells of Hyrule enthusiast Fera worries about a well blocked near Gerudo Canyon Stable. Link clears the obstruction to restore access.",
+    aiTip: "Use bomb flowers or Ultrahand to remove the rubble sealing the well, then drop in to confirm it's clear.",
+    walkthrough: [
+      "Speak with the well enthusiast at Gerudo Canyon Stable.",
+      "Locate the blocked well.",
+      "Clear the debris sealing it.",
+      "Report the reopened well."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Well%20walkthrough"
+  },
+  {
+    id: 1606,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Corridor between Two Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo dragon-lore progress",
+    summary: "Part of the Thyphlo Ruins mystery, Link follows the clue of a corridor flanked by two dragon statues deep in the dark ruins.",
+    aiTip: "Keep a flame or Brightbloom light burning as you navigate — the dragon statues mark the path through the darkness.",
+    walkthrough: [
+      "Return to the dark Thyphlo Ruins with light.",
+      "Locate the two dragon statues.",
+      "Follow the corridor they flank.",
+      "Uncover the passage's secret."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Corridor%20between%20Two%20Dragons%20walkthrough"
+  },
+  {
+    id: 1607,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Flute Player's Plan",
+    location: "Highland Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Musician storyline progress",
+    summary: "The flute-playing member of the traveling musicians shares his plan near Highland Stable, part of reuniting the Great Fairy band.",
+    aiTip: "Follow Pyper's plan to help gather the scattered musicians toward their Great Fairy performance.",
+    walkthrough: [
+      "Meet the flute player near Highland Stable.",
+      "Hear out his plan for the troupe.",
+      "Help carry out the next step.",
+      "Advance the musicians' storyline."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Flute%20Player's%20Plan%20walkthrough"
+  },
+  {
+    id: 1608,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hornist's Dramatic Escape",
+    location: "Tabantha Frontier",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Musician storyline progress",
+    summary: "The horn player of the traveling troupe is stranded in the Tabantha Frontier and needs Link's help to make a dramatic escape back to the band.",
+    aiTip: "Build a vehicle or clear the monsters trapping the hornist so he can rejoin the Great Fairy performance troupe.",
+    walkthrough: [
+      "Find the stranded hornist in Tabantha Frontier.",
+      "Assess what's blocking his escape.",
+      "Clear the danger or build a way out.",
+      "Reunite him with the musicians."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hornist's%20Dramatic%20Escape%20walkthrough"
+  },
+  {
+    id: 1609,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hunt for Bubbul Gems!",
+    location: "Eldin Canyon",
+    length: "long",
+    difficulty: "High",
+    reward: "Bubbul gem exchange rewards from Koltin",
+    summary: "Kilton's brother Koltin collects Bubbul Gems dropped by Bubbulfrogs in caves. Link hunts them across Hyrule to trade for exclusive monster-themed gear.",
+    aiTip: "Every cave hides a Bubbulfrog — clear them all and spend the gems with Koltin for masks and the Mystic armor set.",
+    walkthrough: [
+      "Meet Koltin and learn about Bubbul Gems.",
+      "Explore caves and defeat their Bubbulfrogs.",
+      "Collect the Bubbul Gems they drop.",
+      "Trade the gems to Koltin for his rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=FWEULyvULmc"
+  },
+  {
+    id: 1610,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Long Dragon",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo dragon-lore progress",
+    summary: "A Thyphlo Ruins legend speaks of a long serpentine dragon. Link investigates the tale as part of unraveling the ruins' owl-and-dragon mystery.",
+    aiTip: "This clue ties into the ruins' constellation of dragon statues — light the area and study each statue's arrangement.",
+    walkthrough: [
+      "Investigate the long dragon legend at Thyphlo Ruins.",
+      "Light the ruins to study the dragon markers.",
+      "Follow the clue the legend describes.",
+      "Uncover the associated secret."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Long%20Dragon%20walkthrough"
+  },
+  {
+    id: 1611,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mayoral Election",
+    location: "Hateno Village",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Hateno storyline, election unlocked",
+    summary: "Link is drawn into Hateno Village's mayoral election between Reede and Cece, kicking off the town's central storyline.",
+    aiTip: "This quest opens the Cece/Reede secret investigations — pursue both before the final vote.",
+    walkthrough: [
+      "Arrive in Hateno amid the election buzz.",
+      "Speak with both candidates and villagers.",
+      "Begin investigating each candidate.",
+      "Advance toward the vote."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mayoral%20Election%20walkthrough"
+  },
+  {
+    id: 1612,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Missing Farm Tools",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, farmer's thanks",
+    summary: "A farmer near Wetland Stable has had tools stolen by monsters. Link recovers the missing farm equipment.",
+    aiTip: "The tools are usually at a nearby monster camp — clear it and grab the equipment to return.",
+    walkthrough: [
+      "Hear the farmer's complaint at Wetland Stable.",
+      "Track the tools to a monster camp.",
+      "Defeat the monsters and recover the tools.",
+      "Return them to the farmer."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Farm%20Tools%20walkthrough"
+  },
+  {
+    id: 1613,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Owl Protected by Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Thyphlo Ruins shrine, dragon-lore finale",
+    summary: "The central riddle of the Thyphlo Ruins: a giant owl statue guarded by dragons. Solving it reveals the hidden shrine at the heart of the dark ruins.",
+    aiTip: "Carry flame to the great owl statue at the center — lighting its braziers is the key to revealing the shrine.",
+    walkthrough: [
+      "Reach the giant owl statue deep in Thyphlo Ruins.",
+      "Light the surrounding dragon braziers.",
+      "Solve the owl-and-dragons puzzle.",
+      "Reveal and enter the hidden shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Owl%20Protected%20by%20Dragons%20walkthrough"
+  },
+  {
+    id: 1614,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Search for Koltin",
+    location: "Eldin Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Koltin's shop unlocked",
+    summary: "Before trading Bubbul Gems, Link must first track down the elusive, teleporting merchant Koltin across Hyrule's nights.",
+    aiTip: "Koltin only appears at night and vanishes at dawn — follow his glowing trail to pin down his location.",
+    walkthrough: [
+      "Learn about Koltin from his brother Kilton.",
+      "Search for Koltin's night-time appearances.",
+      "Follow his trail until you catch him.",
+      "Unlock his Bubbul Gem shop."
+    ],
+    video: "https://www.youtube.com/watch?v=nMcMaTicNQY"
+  },
+  {
+    id: 1615,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Six Dragons",
+    location: "Thyphlo Ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Dragon lore complete, rewards",
+    summary: "A Thyphlo Ruins scholar's tale of six dragons guides Link to arrange or identify the dragon statues correctly within the dark ruins.",
+    aiTip: "Study each of the six dragon statues by lighting them — their orientation is the puzzle's solution.",
+    walkthrough: [
+      "Learn the tale of the six dragons at Thyphlo Ruins.",
+      "Illuminate and examine each dragon statue.",
+      "Arrange or identify them as the legend requires.",
+      "Complete the dragon-lore puzzle for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Six%20Dragons%20walkthrough"
+  },
+  {
+    id: 1616,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Yiga Clan Exam",
+    location: "Yiga Blademaster Station",
+    length: "long",
+    difficulty: "High",
+    reward: "Yiga Blademaster rank, Suariwak Shrine",
+    summary: "Disguised as a recruit, Link takes the Yiga Clan's blademaster exam, answering their questions and passing trials to earn rank and unlock a shrine.",
+    aiTip: "Wear the full Yiga set and follow the exam's clues carefully — passing every stage reveals the Suariwak Shrine.",
+    walkthrough: [
+      "Enter the Yiga Blademaster Station in disguise.",
+      "Take the clan's written and practical exam.",
+      "Answer correctly and pass each trial.",
+      "Earn blademaster rank and reveal the Suariwak Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=Q99BmyEd2Hk"
+  },
+  {
+    id: 1617,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "White Goats Gone Missing",
+    location: "Tabantha Bridge Stable",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Rupees, rancher's thanks",
+    summary: "A rancher at Tabantha Bridge Stable has lost his white goats. Link rounds up the scattered animals and drives off any predators.",
+    aiTip: "Herd the goats gently back toward the pen — running at them scatters the flock further.",
+    walkthrough: [
+      "Speak with the rancher at Tabantha Bridge Stable.",
+      "Search the hills for the missing white goats.",
+      "Deal with any monsters threatening them.",
+      "Herd the goats home."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20White%20Goats%20Gone%20Missing%20walkthrough"
+  },
+  {
+    id: 1618,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Who Goes There?",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lookout Landing storyline progress",
+    summary: "A quiet mystery at Lookout Landing: someone is sneaking about, and Link helps Jerrin identify the unknown visitor.",
+    aiTip: "Talk to the townsfolk and keep watch — the 'intruder' has a simple, reassuring explanation.",
+    walkthrough: [
+      "Hear about the mysterious visitor at Lookout Landing.",
+      "Investigate around the town.",
+      "Identify who has been sneaking about.",
+      "Report the truth to resolve the worry."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Goes%20There%3F%20walkthrough"
+  },
+  {
+    id: 1619,
+    type: "side",
+    questType: "Side Adventure",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Zelda's Golden Horse",
+    location: "Snowfield Stable",
+    length: "long",
+    difficulty: "High",
+    reward: "Zelda's golden horse, stable registration",
+    summary: "A stablehand's tale leads Link to find and tame Princess Zelda's rare golden horse, one of the best mounts in the game.",
+    aiTip: "The golden horse roams near Safula Hill — sneak up, mount it, and soothe it repeatedly before it can be registered.",
+    walkthrough: [
+      "Hear about Zelda's golden horse at Snowfield Stable.",
+      "Travel to the horse's roaming ground near Safula Hill.",
+      "Approach stealthily and mount the golden horse.",
+      "Soothe and register it at the stable."
+    ],
+    video: "https://www.youtube.com/watch?v=bSWgba8L728"
+  },
+  {
+    id: 1620,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Pretty Stone and Five Golden Apples",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to Pupunke Shrine",
+    summary: "A Korok in the Lost Woods near Korok Forest wants an offering of a pretty stone and five golden apples in exchange for revealing the Pupunke Shrine.",
+    aiTip: "Golden apples grow around the Great Deku Tree's roots — gather five, add a gemstone as the 'pretty stone', and offer them.",
+    walkthrough: [
+      "Find the Korok requesting an offering near Korok Forest.",
+      "Collect five golden apples from the surrounding trees.",
+      "Offer a gemstone as the pretty stone.",
+      "Reveal and complete the Pupunke Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=JYY4Uu8_aCA"
+  },
+  {
+    id: 1621,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dyeing to Find It",
+    location: "Lanayru Great Spring",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A color-based riddle at the Lanayru Great Spring points Link toward a shrine hidden until the correct colored clue is matched.",
+    aiTip: "Dye your gear or match the described colors at the Kakariko dye shop to satisfy the riddle's condition.",
+    walkthrough: [
+      "Hear the dye-related riddle at Lanayru Great Spring.",
+      "Determine the color the clue demands.",
+      "Match the color to reveal the hidden shrine.",
+      "Complete the shrine for the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dyeing%20to%20Find%20It%20walkthrough"
+  },
+  {
+    id: 1622,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Keys Born of Water",
+    location: "West Necluda",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "In West Necluda a water puzzle conceals the shrine's key mechanism, requiring Link to manipulate water and ice to progress.",
+    aiTip: "Use Cryonis-style ice pillars (freeze water with cold) or Ultrahand rafts to reach the water-locked keys.",
+    walkthrough: [
+      "Investigate the water puzzle in West Necluda.",
+      "Manipulate the water or freeze it to form paths.",
+      "Unlock the water-born key mechanism.",
+      "Enter and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Keys%20Born%20of%20Water%20walkthrough"
+  },
+  {
+    id: 1623,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legend of the Soaring Spear",
+    location: "Tobio's Hollow Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A legend at Tobio's Hollow Cave tells of a soaring spear; solving the cave's puzzle reveals the shrine hidden within.",
+    aiTip: "Explore Tobio's Hollow Cave fully and use Ascend to reach upper chambers that hide the shrine entrance.",
+    walkthrough: [
+      "Learn the soaring spear legend and find Tobio's Hollow Cave.",
+      "Explore the cave's interior chambers.",
+      "Solve the puzzle guarding the shrine.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Soaring%20Spear%20walkthrough"
+  },
+  {
+    id: 1624,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Maca's Special Place",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "The Korok Maca asks Link to find his special hidden spot near Korok Forest, revealing a shrine when the location is discovered.",
+    aiTip: "Follow Maca's hints about his favorite place and search the indicated area of the woods.",
+    walkthrough: [
+      "Speak with Maca near Korok Forest.",
+      "Gather his hints about the special place.",
+      "Locate the spot he describes.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Maca's%20Special%20Place%20walkthrough"
+  },
+  {
+    id: 1625,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "None Shall Pass?",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A guardian challenge near Korok Forest bars the way; Link must prove himself or solve the barrier to unveil the shrine beyond.",
+    aiTip: "Approach the challenge as instructed — sometimes it's a test of combat, sometimes of using the right tool to pass.",
+    walkthrough: [
+      "Reach the barrier guarding the shrine near Korok Forest.",
+      "Take on the guardian's challenge.",
+      "Prove yourself or clear the obstacle.",
+      "Enter and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20None%20Shall%20Pass%3F%20walkthrough"
+  },
+  {
+    id: 1626,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ride the Giant Horse",
+    location: "Faron Grasslands",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Light of Blessing, access to Ishokin Shrine",
+    summary: "A stablehand's tale in Faron leads Link to tame the enormous Giant Horse and ride it to unlock the Ishokin Shrine.",
+    aiTip: "The Giant Horse has no stamina limit but is hard to control — mount it, soothe it repeatedly, and ride it to trigger the shrine.",
+    walkthrough: [
+      "Learn of the Giant Horse in Faron Grasslands.",
+      "Find and sneak up on the enormous horse.",
+      "Mount and soothe it until tamed.",
+      "Ride it to reveal and complete the Ishokin Shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=k1qkcYdFfy8"
+  },
+  {
+    id: 1627,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rock for Sale",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "A merchant near Tarrey Town sells a peculiar rock that turns out to be tied to a hidden shrine's activation.",
+    aiTip: "Buy the special rock and bring it where the seller indicates — it's the key to revealing the shrine.",
+    walkthrough: [
+      "Meet the rock seller near Tarrey Town.",
+      "Purchase the special rock.",
+      "Bring it to the indicated spot.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20for%20Sale%20walkthrough"
+  },
+  {
+    id: 1628,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Death Caldera Crystal",
+    location: "Death Caldera",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal sits in the scorching Death Caldera. Link must carry it through the volcanic hazards to its waiting shrine.",
+    aiTip: "Wear Flamebreaker armor and keep the crystal moving — set it down in cool spots and avoid lava while carrying it.",
+    walkthrough: [
+      "Locate the crystal at Death Caldera.",
+      "Grab it with Ultrahand and start the carry.",
+      "Cross the volcanic terrain to the shrine pedestal.",
+      "Drop the crystal in to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Death%20Caldera%20Crystal%20walkthrough"
+  },
+  {
+    id: 1629,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The East Hebra Sky Crystal",
+    location: "East Hebra Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal drifts among the East Hebra sky islands. Link must ferry it across the archipelago to its shrine.",
+    aiTip: "Build a hoverbike or wing with Zonai devices to carry the crystal between floating islands quickly.",
+    walkthrough: [
+      "Reach the crystal in the East Hebra Sky Archipelago.",
+      "Attach it to a flying device with Ultrahand.",
+      "Navigate the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20East%20Hebra%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1630,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gerudo Canyon Crystal",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal rests in Gerudo Canyon and must be carried along the canyon course to its shrine to activate it.",
+    aiTip: "Watch the timed crystal carry — set it on a moving platform or vehicle so it doesn't reset if you're too slow.",
+    walkthrough: [
+      "Find the crystal in Gerudo Canyon.",
+      "Pick it up and follow the carry course.",
+      "Cross the canyon to the shrine pedestal.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=cCWafK9Agz8"
+  },
+  {
+    id: 1631,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gisa Crater Crystal",
+    location: "Gisa Crater",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal lies within Gisa Crater. Link retrieves and carries it to the crater's shrine to unlock it.",
+    aiTip: "Use Ultrahand to move the crystal across the crater's uneven terrain, building short ramps where needed.",
+    walkthrough: [
+      "Locate the crystal in Gisa Crater.",
+      "Grab it and plan the route to the shrine.",
+      "Carry it across the crater.",
+      "Insert it into the shrine to activate it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gisa%20Crater%20Crystal%20walkthrough"
+  },
+  {
+    id: 1632,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The High Spring and the Light Rings",
+    location: "Mount Lanayru",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, hidden shrine access",
+    summary: "On Mount Lanayru, a puzzle of light rings above a high spring must be solved by flying or gliding through them in order.",
+    aiTip: "Paraglide or use a Zonai flying device to pass through each light ring in sequence to trigger the shrine.",
+    walkthrough: [
+      "Ascend to the high spring on Mount Lanayru.",
+      "Study the arrangement of the light rings.",
+      "Glide or fly through the rings in order.",
+      "Reveal and complete the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20High%20Spring%20and%20the%20Light%20Rings%20walkthrough"
+  },
+  {
+    id: 1633,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lake Hylia Crystal",
+    location: "Lake Hylia",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal sits near Lake Hylia and must be carried a short distance to its shrine to activate it.",
+    aiTip: "This carry is short and gentle — just Ultrahand the crystal straight to the pedestal.",
+    walkthrough: [
+      "Find the crystal at Lake Hylia.",
+      "Pick it up with Ultrahand.",
+      "Carry it to the nearby shrine.",
+      "Drop it in to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Hylia%20Crystal%20walkthrough"
+  },
+  {
+    id: 1634,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lake Intenoch Cave Crystal",
+    location: "Lake Intenoch Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal is hidden in Lake Intenoch Cave and must be brought out and carried to the shrine it powers.",
+    aiTip: "Light the cave with Brightbloom seeds to find the crystal, then navigate it back out to the shrine.",
+    walkthrough: [
+      "Explore Lake Intenoch Cave to find the crystal.",
+      "Free it and carry it with Ultrahand.",
+      "Navigate back to the shrine.",
+      "Place the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Intenoch%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1635,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lanayru Road Crystal",
+    location: "Lanayru Promenade",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to O-ogim Shrine",
+    summary: "A blessing crystal along the Lanayru Promenade must be carried down the old road to the O-ogim Shrine to unlock it.",
+    aiTip: "Follow the road route with the crystal in hand — a simple cart built with Ultrahand speeds up the delivery.",
+    walkthrough: [
+      "Find the crystal on the Lanayru Promenade.",
+      "Grab it and follow the road course.",
+      "Deliver it to the O-ogim Shrine.",
+      "Activate the shrine with the crystal."
+    ],
+    video: "https://www.youtube.com/watch?v=2-yEisCi7eg"
+  },
+  {
+    id: 1636,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Necluda Sky Crystal",
+    location: "Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal drifts among the Necluda sky islands and must be flown to its distant shrine across the archipelago.",
+    aiTip: "Assemble a fan-powered glider to carry the crystal between islands; keep spare Zonai batteries handy.",
+    walkthrough: [
+      "Reach the crystal in the Necluda Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=P6-qx4b9QJc"
+  },
+  {
+    id: 1637,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Hebra Mountains Crystal",
+    location: "Hebra Mountains",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the frozen North Hebra Mountains must be hauled through the blizzard to its shrine.",
+    aiTip: "Wear cold-resistant gear and keep the crystal moving; a sled or hover device beats the deep snow.",
+    walkthrough: [
+      "Locate the crystal in the North Hebra Mountains.",
+      "Grab it and brave the blizzard.",
+      "Carry it to the mountain shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=7RYniVwZyc0"
+  },
+  {
+    id: 1638,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Hyrule Sky Crystal",
+    location: "North Hyrule Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, access to Mayam Shrine",
+    summary: "A blessing crystal among the North Hyrule sky islands must be flown to the Mayam Shrine to activate it.",
+    aiTip: "Build a stable flyer and mind your battery — the route to the Mayam Shrine spans several floating platforms.",
+    walkthrough: [
+      "Reach the crystal in the North Hyrule Sky Archipelago.",
+      "Mount it on a flying device.",
+      "Navigate to the Mayam Shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=f61hghl7TtU"
+  },
+  {
+    id: 1639,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Necluda Sky Crystal",
+    location: "North Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the North Necluda sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Chain platforms with a fan-glider and carry the crystal in stages, resting on islands to recharge.",
+    walkthrough: [
+      "Find the crystal in the North Necluda Sky Archipelago.",
+      "Attach it to a flying contraption.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Necluda%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1640,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Northwest Hebra Cave Crystal",
+    location: "Hebra Mountains Northwest Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal is tucked in the Northwest Hebra Cave and must be carried out to its shrine.",
+    aiTip: "Bring Brightbloom seeds to light the cave and watch for ice — a torch or fire keeps the path clear.",
+    walkthrough: [
+      "Explore the Northwest Hebra Cave for the crystal.",
+      "Free it with Ultrahand.",
+      "Carry it out to the shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Northwest%20Hebra%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1641,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Oakle's Navel Cave Crystal",
+    location: "Oakle's Navel Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal rests in Oakle's Navel Cave and must be moved to the shrine it powers.",
+    aiTip: "Navigate the cave's interior and use Ascend where the route loops upward to shortcut the carry.",
+    walkthrough: [
+      "Find the crystal inside Oakle's Navel Cave.",
+      "Grab it and plan your exit route.",
+      "Carry it to the shrine.",
+      "Activate the shrine with the crystal."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Oakle's%20Navel%20Cave%20Crystal%20walkthrough"
+  },
+  {
+    id: 1642,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ralis Channel Crystal",
+    location: "Ralis Channel",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal near Ralis Channel must be carried a short way to its shrine to unlock it.",
+    aiTip: "An easy carry — Ultrahand the crystal directly to the pedestal, crossing the water on a quick raft if needed.",
+    walkthrough: [
+      "Locate the crystal at Ralis Channel.",
+      "Pick it up with Ultrahand.",
+      "Carry it to the nearby shrine.",
+      "Drop it in to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ralis%20Channel%20Crystal%20walkthrough"
+  },
+  {
+    id: 1643,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Satori Mountain Crystal",
+    location: "Satori Mountain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Light of Blessing, access to Uzasum Shrine",
+    summary: "A blessing crystal on Satori Mountain must be carried up or across the peak to the Uzasum Shrine to activate it.",
+    aiTip: "Watch for the Lord of the Mountain here; carry the crystal steadily to the shrine, building ramps up the slope.",
+    walkthrough: [
+      "Find the crystal on Satori Mountain.",
+      "Grab it with Ultrahand.",
+      "Carry it to the Uzasum Shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=RLfw02w2tiA"
+  },
+  {
+    id: 1644,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sky Mine Crystal",
+    location: "Sky Mine",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal within the sky-borne mine must be extracted and carried through the facility to its shrine.",
+    aiTip: "Use the mine's rails and Zonai devices to move the crystal across gaps in the floating facility.",
+    walkthrough: [
+      "Reach the crystal in the Sky Mine.",
+      "Free it and mount it on a cart or flyer.",
+      "Navigate the facility to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Sky%20Mine%20Crystal%20walkthrough"
+  },
+  {
+    id: 1645,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Sokkala Sky Crystal",
+    location: "Sokkala Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, access to Natak Shrine",
+    summary: "A blessing crystal among the Sokkala sky islands must be flown across the archipelago to the Natak Shrine.",
+    aiTip: "Build a reliable glider and carry the crystal island to island; use the electric orbs there to power devices.",
+    walkthrough: [
+      "Find the crystal in the Sokkala Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate to the Natak Shrine.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/watch?v=Nu_si43xt7U"
+  },
+  {
+    id: 1646,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Hyrule Sky Crystal",
+    location: "South Hyrule Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the South Hyrule sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Plan a multi-stage flight, resting on islands to rebuild or recharge your flying device between hops.",
+    walkthrough: [
+      "Reach the crystal in the South Hyrule Sky Archipelago.",
+      "Mount it on a flyer with Ultrahand.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Hyrule%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1647,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Lanayru Sky Crystal",
+    location: "South Lanayru Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal among the South Lanayru sky islands must be flown to its distant shrine across the archipelago.",
+    aiTip: "Keep the crystal secured to your device and watch your battery gauge on the longer aerial stretches.",
+    walkthrough: [
+      "Find the crystal in the South Lanayru Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate the sky islands to the shrine.",
+      "Insert the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lanayru%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1648,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Tabantha Sky Crystal",
+    location: "Tabantha Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal in the Tabantha sky islands must be carried across the windy archipelago to its shrine.",
+    aiTip: "Use the strong Tabantha updrafts and a wing to glide the crystal between islands efficiently.",
+    walkthrough: [
+      "Reach the crystal in the Tabantha Sky Archipelago.",
+      "Mount it on a glider or wing.",
+      "Cross the sky islands to the shrine.",
+      "Deposit the crystal to activate the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tabantha%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1649,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The West Necluda Sky Crystal",
+    location: "West Necluda Sky Archipelago",
+    length: "medium",
+    difficulty: "High",
+    reward: "Light of Blessing, shrine unlocked",
+    summary: "A blessing crystal among the West Necluda sky islands must be transported across the archipelago to its shrine.",
+    aiTip: "Build a stable flying rig and ferry the crystal in stages, landing to recharge Zonai batteries as needed.",
+    walkthrough: [
+      "Find the crystal in the West Necluda Sky Archipelago.",
+      "Attach it to a flying device.",
+      "Navigate to the shrine across the islands.",
+      "Place the crystal to open the shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20West%20Necluda%20Sky%20Crystal%20walkthrough"
+  },
+  {
+    id: 1650,
+    type: "shrine",
+    questType: "Shrine Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The White Bird's Guidance",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Light of Blessing, access to Wao-os Shrine",
+    summary: "A Rito legend of a white bird guides Link to the Wao-os Shrine near Rito Village once the bird's path is followed.",
+    aiTip: "Follow the white bird's flight and the elder's guidance to the shrine's hidden location above the village.",
+    walkthrough: [
+      "Hear the white bird's legend at Rito Village.",
+      "Follow the bird's indicated path.",
+      "Reach the revealed Wao-os Shrine.",
+      "Complete the shrine for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=RYIHxmWxM8M"
+  },
+  {
+    id: 1651,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Bottled Cry for Help",
+    location: "Hateno Beach",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, gratitude",
+    summary: "Link finds a message in a bottle washed up on Hateno Beach and sets out to answer the stranded writer's plea for help.",
+    aiTip: "Read the bottled note, then follow its directions to the marooned traveler's location.",
+    walkthrough: [
+      "Pick up and read the message in a bottle on Hateno Beach.",
+      "Travel to the location described in the note.",
+      "Help the stranded person in need.",
+      "Return to confirm the rescue for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Bottled%20Cry%20for%20Help%20walkthrough"
+  },
+  {
+    id: 1652,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Crabulous Deal",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A merchant in Zora's Domain wants a supply of razorclaw crabs, prized for their stamina-boosting properties.",
+    aiTip: "Razorclaw crabs scuttle along the rivers and shores around Zora's Domain — grab a few and deliver them fresh.",
+    walkthrough: [
+      "Speak with the crab-seeking merchant in Zora's Domain.",
+      "Search the waterways for razorclaw crabs.",
+      "Collect the number requested.",
+      "Deliver the crabs for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Crabulous%20Deal%20walkthrough"
+  },
+  {
+    id: 1653,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A New Champion's Tunic",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Champion's Tunic (repaired/dyed)",
+    summary: "At Cece's shop in Hateno, Link has the worn Champion's Tunic restored or restyled to honor the hero's legacy.",
+    aiTip: "Bring the tunic and the required materials to the Hateno clothing shop to have it remade.",
+    walkthrough: [
+      "Visit the clothing shop in Hateno Village.",
+      "Present the Champion's Tunic for restoration.",
+      "Provide the materials the tailor requests.",
+      "Receive the renewed Champion's Tunic."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Champion's%20Tunic%20walkthrough"
+  },
+  {
+    id: 1654,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Dueling Peaks Stable",
+    location: "Dueling Peaks Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "The staff at Dueling Peaks Stable want a photograph of a local landmark to decorate their walls.",
+    aiTip: "Use the Purah Pad camera to snap the requested scene, then show the photo to the stable clerk.",
+    walkthrough: [
+      "Ask the Dueling Peaks Stable clerk what picture they want.",
+      "Travel to the landmark and take the photo.",
+      "Return and show the picture to the clerk.",
+      "Claim the decoration reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Dueling%20Peaks%20Stable%20walkthrough"
+  },
+  {
+    id: 1655,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for East Akkala Stable",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "East Akkala Stable's staff request a scenic photograph of an Akkala landmark to hang in the stable.",
+    aiTip: "Photograph the specified Akkala landmark with the camera and present it to the clerk.",
+    walkthrough: [
+      "Learn which view East Akkala Stable wants pictured.",
+      "Travel out and photograph the landmark.",
+      "Bring the picture back to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20East%20Akkala%20Stable%20walkthrough"
+  },
+  {
+    id: 1656,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Foothill Stable",
+    location: "Foothill Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Foothill Stable's staff want a photograph of a nearby Eldin landmark to brighten the stable.",
+    aiTip: "Frame the requested Death Mountain or Eldin view in the camera and show it off.",
+    walkthrough: [
+      "Ask what picture Foothill Stable wants.",
+      "Photograph the requested Eldin landmark.",
+      "Return and show the clerk the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Foothill%20Stable%20walkthrough"
+  },
+  {
+    id: 1657,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Highland Stable",
+    location: "Highland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Highland Stable requests a photograph of a scenic Faron-area landmark for decoration.",
+    aiTip: "Capture the requested southern landmark with the camera and present it to the clerk.",
+    walkthrough: [
+      "Find out which scene Highland Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Bring the picture back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Highland%20Stable%20walkthrough"
+  },
+  {
+    id: 1658,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Lakeside Stable",
+    location: "Lakeside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Lakeside Stable's staff want a photo of a Faron landmark to hang on their wall.",
+    aiTip: "Photograph the requested lakeside or jungle landmark and show it to the clerk.",
+    walkthrough: [
+      "Ask Lakeside Stable which picture they want.",
+      "Photograph the specified landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Lakeside%20Stable%20walkthrough"
+  },
+  {
+    id: 1659,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for New Serenne Stable",
+    location: "New Serenne Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "New Serenne Stable requests a photograph of a nearby landmark to decorate the stable.",
+    aiTip: "Frame the requested view near New Serenne with the camera and present it.",
+    walkthrough: [
+      "Learn what picture New Serenne Stable wants.",
+      "Travel to the landmark and take the photo.",
+      "Show the picture to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20New%20Serenne%20Stable%20walkthrough"
+  },
+  {
+    id: 1660,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Outskirt Stable",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Outskirt Stable's staff want a scenic photograph of a Central Hyrule landmark for the wall.",
+    aiTip: "Photograph the requested landmark west of Hyrule Field and show the clerk.",
+    walkthrough: [
+      "Ask Outskirt Stable which scene they want pictured.",
+      "Photograph the landmark.",
+      "Return and present the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Outskirt%20Stable%20walkthrough"
+  },
+  {
+    id: 1661,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Riverside Stable",
+    location: "Riverside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Riverside Stable requests a photograph of a nearby landmark to decorate the stable.",
+    aiTip: "Capture the requested riverside view with the camera and present it to the clerk.",
+    walkthrough: [
+      "Find out what picture Riverside Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Bring the picture back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Riverside%20Stable%20walkthrough"
+  },
+  {
+    id: 1662,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Snowfield Stable",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Snowfield Stable's staff want a photo of a Hebra-area landmark to brighten the cold stable.",
+    aiTip: "Bundle up, photograph the requested snowy landmark, and show it to the clerk.",
+    walkthrough: [
+      "Ask Snowfield Stable which picture they want.",
+      "Photograph the specified Hebra landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Snowfield%20Stable%20walkthrough"
+  },
+  {
+    id: 1663,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for South Akkala Stable",
+    location: "South Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "South Akkala Stable requests a photograph of an Akkala landmark for decoration.",
+    aiTip: "Photograph the requested Akkala view and present it to the clerk.",
+    walkthrough: [
+      "Learn which scene South Akkala Stable wants.",
+      "Travel to and photograph the landmark.",
+      "Show the picture to the clerk.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20South%20Akkala%20Stable%20walkthrough"
+  },
+  {
+    id: 1664,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Tabantha Bridge Stable",
+    location: "Tabantha Bridge Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Tabantha Bridge Stable's staff want a photograph of a Tabantha landmark to hang in the stable.",
+    aiTip: "Capture the requested Tabantha view with the camera and show the clerk.",
+    walkthrough: [
+      "Ask what picture Tabantha Bridge Stable wants.",
+      "Photograph the requested landmark.",
+      "Return the photo.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Tabantha%20Bridge%20Stable%20walkthrough"
+  },
+  {
+    id: 1665,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for the Closed Stable I",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable reopening progress, rupees",
+    summary: "The shuttered Gerudo Canyon Stable can reopen if Link provides the pictures its owner needs — this is the first of the requested photos.",
+    aiTip: "Photograph the first requested landmark to help the closed stable get back in business.",
+    walkthrough: [
+      "Speak with the owner of the closed Gerudo Canyon Stable.",
+      "Learn which picture is needed first.",
+      "Photograph the landmark and return.",
+      "Deliver the first picture."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20I%20walkthrough"
+  },
+  {
+    id: 1666,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for the Closed Stable II",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable reopened, rupees",
+    summary: "The second photo request needed to help reopen the closed Gerudo Canyon Stable.",
+    aiTip: "Deliver the second requested picture to finish helping the stable reopen.",
+    walkthrough: [
+      "Return to the closed Gerudo Canyon Stable owner.",
+      "Learn which second picture is needed.",
+      "Photograph the landmark.",
+      "Deliver the picture to reopen the stable."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20II%20walkthrough"
+  },
+  {
+    id: 1667,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Wetland Stable",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Wetland Stable requests a photograph of a Lanayru wetlands landmark to decorate the stable.",
+    aiTip: "Photograph the requested wetlands view and present it to the clerk.",
+    walkthrough: [
+      "Ask Wetland Stable which picture they want.",
+      "Travel to and photograph the landmark.",
+      "Bring the photo back.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Wetland%20Stable%20walkthrough"
+  },
+  {
+    id: 1668,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Picture for Woodland Stable",
+    location: "Woodland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Stable decoration, rupees",
+    summary: "Woodland Stable's staff want a photograph of an Eldin-edge landmark to hang in the stable.",
+    aiTip: "Capture the requested landmark near the Great Hyrule Forest and show the clerk.",
+    walkthrough: [
+      "Learn what picture Woodland Stable wants.",
+      "Photograph the landmark.",
+      "Return the photo to the clerk.",
+      "Claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Woodland%20Stable%20walkthrough"
+  },
+  {
+    id: 1669,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Token of Friendship",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora goodwill",
+    summary: "A Zora asks Link to deliver a heartfelt token to a friend, strengthening bonds within the Domain.",
+    aiTip: "Carry the token to the named recipient in or around Zora's Domain.",
+    walkthrough: [
+      "Accept the token from the Zora sender.",
+      "Find the intended friend.",
+      "Deliver the token of friendship.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Token%20of%20Friendship%20walkthrough"
+  },
+  {
+    id: 1670,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Trip through History",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ancient lore, rupees",
+    summary: "A Kakariko researcher guides Link through the village's Ring Ruins history, asking help documenting the ancient relics.",
+    aiTip: "Follow the researcher's tour and photograph or examine the ruins they point out.",
+    walkthrough: [
+      "Meet the historian in Kakariko Village.",
+      "Tour the Ring Ruins with them.",
+      "Record the historical points requested.",
+      "Complete the trip through history."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Trip%20through%20History%20walkthrough"
+  },
+  {
+    id: 1671,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Way to Trade, Washed Away",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, trade restored",
+    summary: "With Lurelin battered, a merchant's means of trade has been lost to the sea. Link helps recover or restore their livelihood.",
+    aiTip: "Retrieve the merchant's washed-away goods or equipment along the Lurelin shore.",
+    walkthrough: [
+      "Speak with the struggling Lurelin merchant.",
+      "Search the shoreline for their lost goods.",
+      "Recover the trade items.",
+      "Return them to restore the merchant's business."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Way%20to%20Trade%2C%20Washed%20Away%20walkthrough"
+  },
+  {
+    id: 1672,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "A Wife Wafted Away",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reunion",
+    summary: "A worried Zora husband's wife has drifted off during the upheaval; Link tracks her down to reunite the couple.",
+    aiTip: "Follow the clues about where the wife wandered — often up a waterfall or onto a nearby island.",
+    walkthrough: [
+      "Hear the husband's worry in Zora's Domain.",
+      "Follow the trail to the missing wife.",
+      "Ensure she is safe.",
+      "Reunite the couple for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Wife%20Wafted%20Away%20walkthrough"
+  },
+  {
+    id: 1673,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Amber Dealer",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees or gems",
+    summary: "A Goron in Goron City deals in amber and wants Link to supply gemstones dug from the region's ore.",
+    aiTip: "Mine ore deposits around Death Mountain for amber and other gems to trade with the dealer.",
+    walkthrough: [
+      "Meet the amber dealer in Goron City.",
+      "Mine ore deposits for amber.",
+      "Bring the requested gems.",
+      "Trade them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Amber%20Dealer%20walkthrough"
+  },
+  {
+    id: 1674,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "An Uninvited Guest",
+    location: "Wetland Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stable peace",
+    summary: "Something unwelcome has taken up residence near Wetland Stable, and the staff ask Link to deal with the uninvited guest.",
+    aiTip: "Investigate the disturbance around the stable and remove the pest or monster causing trouble.",
+    walkthrough: [
+      "Hear the staff's complaint at Wetland Stable.",
+      "Investigate the uninvited guest.",
+      "Deal with the intruder.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Uninvited%20Guest%20walkthrough"
+  },
+  {
+    id: 1675,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ancient Blades Below",
+    location: "Spirit Temple",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ancient blade materials",
+    summary: "Near the Spirit Temple in the Depths, a request leads Link to recover ancient blades used as powerful fuse materials.",
+    aiTip: "Ancient blades are found in the Depths — fuse them to arrows or weapons for a one-hit boost against tough foes.",
+    walkthrough: [
+      "Learn of the ancient blades below near the Spirit Temple.",
+      "Descend and search the Depths for them.",
+      "Collect the ancient blades.",
+      "Return to complete the request."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ancient%20Blades%20Below%20walkthrough"
+  },
+  {
+    id: 1676,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cash In on Ripened Flint",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees",
+    summary: "At the Bedrock Bistro, a Goron wants a supply of flint mined from ore, paying well for the 'ripened' stones.",
+    aiTip: "Smash black ore deposits around Eldin for flint and bring it to the bistro.",
+    walkthrough: [
+      "Speak with the Goron at Bedrock Bistro.",
+      "Mine ore deposits for flint.",
+      "Gather the amount requested.",
+      "Cash in the flint for rupees."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cash%20In%20on%20Ripened%20Flint%20walkthrough"
+  },
+  {
+    id: 1677,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cave Mushrooms that Glow",
+    location: "Tabantha Frontier",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, brightcap materials",
+    summary: "A researcher in the Tabantha Frontier wants samples of glowing cave mushrooms (brightcaps) found in nearby caverns.",
+    aiTip: "Brightcaps grow in dark caves — harvest them and deliver them before they're needed for the study.",
+    walkthrough: [
+      "Meet the researcher in the Tabantha Frontier.",
+      "Explore nearby caves for glowing mushrooms.",
+      "Harvest the brightcaps requested.",
+      "Deliver them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cave%20Mushrooms%20that%20Glow%20walkthrough"
+  },
+  {
+    id: 1678,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Codgers' Quarrel",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, restored harmony",
+    summary: "Two stubborn old villagers in Kakariko are feuding, and Link is roped in to help settle their quarrel.",
+    aiTip: "Hear both codgers out and complete the small favors each asks to broker peace between them.",
+    walkthrough: [
+      "Speak with the two quarreling elders in Kakariko.",
+      "Learn what each is upset about.",
+      "Resolve their grievances.",
+      "Reconcile the pair for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Codgers'%20Quarrel%20walkthrough"
+  },
+  {
+    id: 1679,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Cold-Endurance Contest!",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, endurance prize",
+    summary: "A contest challenges Link to endure the biting cold of the Gerudo highlands longer than the competition without succumbing.",
+    aiTip: "Stack cold-resistance food and armor, or hold a flame weapon, to outlast the freezing conditions.",
+    walkthrough: [
+      "Enter the cold-endurance contest at Gerudo Canyon.",
+      "Prepare cold-resistance meals and gear.",
+      "Endure the freezing conditions for the set time.",
+      "Win the contest for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cold-Endurance%20Contest!%20walkthrough"
+  },
+  {
+    id: 1680,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Crossing the Cold Pool",
+    location: "Hebra Mountains",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, path opened",
+    summary: "A frigid pool in the Hebra Mountains blocks the way, and Link must find a safe method to cross without freezing.",
+    aiTip: "Freeze stepping stones, build a raft, or use a Zonai device to cross the icy water without touching it.",
+    walkthrough: [
+      "Reach the cold pool in the Hebra Mountains.",
+      "Devise a way across using ice or Zonai devices.",
+      "Cross without succumbing to the cold.",
+      "Complete the crossing for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Crossing%20the%20Cold%20Pool%20walkthrough"
+  },
+  {
+    id: 1681,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dad's Blue Shirt",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, keepsake returned",
+    summary: "A Lurelin child's cherished memento — their father's blue shirt — was lost in the chaos, and Link helps recover it.",
+    aiTip: "Search the storm-wrecked areas of Lurelin for the missing blue shirt.",
+    walkthrough: [
+      "Hear the child's plea in Lurelin Village.",
+      "Search the village and shore for the blue shirt.",
+      "Recover the keepsake.",
+      "Return it to the grateful child."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dad's%20Blue%20Shirt%20walkthrough"
+  },
+  {
+    id: 1682,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dalia's Game",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees",
+    summary: "A Gerudo named Dalia invites Link to play her guessing or hiding game around Gerudo Town.",
+    aiTip: "Follow Dalia's rules and find what she hides or answer her riddle to win.",
+    walkthrough: [
+      "Meet Dalia in Gerudo Town.",
+      "Learn the rules of her game.",
+      "Play and find the hidden objective.",
+      "Win Dalia's game for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dalia's%20Game%20walkthrough"
+  },
+  {
+    id: 1683,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Dantz's Prize Cows",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, fresh milk",
+    summary: "Dantz, the Hateno rancher, needs help with his prize cows — herding, protecting, or recovering the strays.",
+    aiTip: "Gently herd Dantz's cows back to the pasture and shoo off any predators.",
+    walkthrough: [
+      "Speak with Dantz at the Hateno pasture.",
+      "Locate his scattered prize cows.",
+      "Herd them safely home.",
+      "Report to Dantz for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dantz's%20Prize%20Cows%20walkthrough"
+  },
+  {
+    id: 1684,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Decorate with Passion",
+    location: "Kara Kara Bazaar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, decor",
+    summary: "A vendor at Kara Kara Bazaar wants help decorating their shop with just the right materials.",
+    aiTip: "Bring the specific decorative items or materials the vendor describes to spruce up the bazaar stall.",
+    walkthrough: [
+      "Talk to the vendor at Kara Kara Bazaar.",
+      "Learn what decorations they want.",
+      "Gather the requested materials.",
+      "Deliver them to complete the decor."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Decorate%20with%20Passion%20walkthrough"
+  },
+  {
+    id: 1685,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Disaster in Gerudo Canyon",
+    location: "Gerudo Canyon Pass",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, path cleared",
+    summary: "A rockslide or hazard has caused a disaster at the Gerudo Canyon Pass, and Link steps in to help those affected.",
+    aiTip: "Clear the blockage or rescue the stranded travelers at the canyon pass.",
+    walkthrough: [
+      "Arrive at the disaster in Gerudo Canyon Pass.",
+      "Assess the hazard blocking the way.",
+      "Clear it or rescue those trapped.",
+      "Resolve the disaster for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Disaster%20in%20Gerudo%20Canyon%20walkthrough"
+  },
+  {
+    id: 1686,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Eldin's Colossal Fossil",
+    location: "East Akkala Stable",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "A fossil researcher wants photographs of the colossal skeleton in the Eldin region to document Hyrule's giant beasts.",
+    aiTip: "Photograph the specific bone of the Eldin Great Skeleton the researcher requests, framing it clearly.",
+    walkthrough: [
+      "Meet the fossil researcher at East Akkala Stable.",
+      "Travel to the Eldin Great Skeleton.",
+      "Photograph the requested colossal fossil.",
+      "Return the picture to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Eldin's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1687,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Feathered Fugitives",
+    location: "Riverside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cuccos returned",
+    summary: "Cuccos have escaped near Riverside Stable and Link must round up the feathered fugitives.",
+    aiTip: "Carry or herd the loose cuccos back to their pen without scattering them.",
+    walkthrough: [
+      "Hear about the escaped cuccos at Riverside Stable.",
+      "Track down the feathered fugitives.",
+      "Gather each cucco.",
+      "Return them all to the pen."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Feathered%20Fugitives%20walkthrough"
+  },
+  {
+    id: 1688,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Fell into a Well!",
+    location: "Rebonae Bridge Well",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rescue",
+    summary: "Someone has fallen into the well at Rebonae Bridge, and Link descends to help them out.",
+    aiTip: "Drop into the well and use Ascend or Ultrahand to get yourself and the trapped person back up.",
+    walkthrough: [
+      "Hear the cry from the Rebonae Bridge Well.",
+      "Descend into the well.",
+      "Reach and help the trapped person.",
+      "Get them out safely for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fell%20into%20a%20Well!%20walkthrough"
+  },
+  {
+    id: 1689,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Fish for Fletching",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, arrows",
+    summary: "A Rito fletcher in Rito Village needs fish (or feathers) to craft quality arrow fletching.",
+    aiTip: "Catch the requested fish around Rito Village and deliver them to the fletcher.",
+    walkthrough: [
+      "Speak with the fletcher in Rito Village.",
+      "Catch the fish they need for fletching.",
+      "Deliver the catch.",
+      "Receive arrows or rupees as reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fish%20for%20Fletching%20walkthrough"
+  },
+  {
+    id: 1690,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Follow the Cuccos",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden find",
+    summary: "In Kakariko Village, following the wandering cuccos leads Link to a hidden discovery.",
+    aiTip: "Trail the cuccos patiently — they'll guide you to something worth finding.",
+    walkthrough: [
+      "Notice the cuccos in Kakariko Village.",
+      "Follow them without startling them.",
+      "Reach the place they lead to.",
+      "Claim the hidden discovery."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Follow%20the%20Cuccos%20walkthrough"
+  },
+  {
+    id: 1691,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Genli's Home Cooking",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, recipe",
+    summary: "Genli in Rito Village wants ingredients to recreate a comforting home-cooked meal for the cold village.",
+    aiTip: "Gather the specific ingredients Genli lists and bring them back for her dish.",
+    walkthrough: [
+      "Talk to Genli in Rito Village.",
+      "Collect the ingredients she needs.",
+      "Deliver them for her home cooking.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Genli's%20Home%20Cooking%20walkthrough"
+  },
+  {
+    id: 1692,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gerudo's Colossal Fossil",
+    location: "Hebra Great Skeleton",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "The fossil researcher requests a photograph of a colossal skeleton associated with the Gerudo study, found at a Great Skeleton site.",
+    aiTip: "Photograph the requested bone of the Great Skeleton clearly for the researcher's records.",
+    walkthrough: [
+      "Take the fossil request from the researcher.",
+      "Travel to the Great Skeleton site.",
+      "Photograph the colossal fossil requested.",
+      "Return the photo to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gerudo's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1693,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gleeok Guts",
+    location: "Gerudo Canyon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rare materials",
+    summary: "A collector wants Gleeok Guts, the rare drop from the fearsome multi-headed Gleeok dragons.",
+    aiTip: "Defeat a Gleeok (found at various towers and ruins) to harvest its guts, then deliver them.",
+    walkthrough: [
+      "Accept the request for Gleeok Guts.",
+      "Track down and defeat a Gleeok.",
+      "Collect the Gleeok Guts it drops.",
+      "Deliver the guts for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gleeok%20Guts%20walkthrough"
+  },
+  {
+    id: 1694,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Gloom-Borne Illness",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cure delivered",
+    summary: "A villager in Kakariko has fallen ill from gloom exposure, and Link seeks the ingredients for a curing remedy.",
+    aiTip: "Gather Sundelions or other gloom-cleansing ingredients and bring them to help the sick villager.",
+    walkthrough: [
+      "Learn of the gloom-borne illness in Kakariko.",
+      "Find the curative ingredients (e.g. Sundelions).",
+      "Prepare or deliver the remedy.",
+      "Cure the villager for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gloom-Borne%20Illness%20walkthrough"
+  },
+  {
+    id: 1695,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Glory of the Zora",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora honor",
+    summary: "A proud Zora asks Link to help restore or celebrate the glory of Zora's Domain after the sludge crisis.",
+    aiTip: "Complete the honorable task the Zora sets — often recovering a relic or cleaning a monument.",
+    walkthrough: [
+      "Speak with the proud Zora in the Domain.",
+      "Take on the task to restore Zora glory.",
+      "Complete the honorable deed.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Glory%20of%20the%20Zora%20walkthrough"
+  },
+  {
+    id: 1696,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Courage",
+    location: "Spring of Courage",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Courage, Link honors the Goddess Statue by fulfilling the offering or trial it requires.",
+    aiTip: "Reach the Spring of Courage in Faron and make the offering the statue asks for.",
+    walkthrough: [
+      "Travel to the Spring of Courage.",
+      "Approach the Goddess Statue.",
+      "Fulfill its offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Courage%20walkthrough"
+  },
+  {
+    id: 1697,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Power",
+    location: "Spring of Power",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Power in Akkala, Link honors the Goddess Statue by completing its requested offering or trial.",
+    aiTip: "Reach the Spring of Power and provide the offering the statue requests.",
+    walkthrough: [
+      "Travel to the Spring of Power.",
+      "Approach the Goddess Statue.",
+      "Complete the offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Power%20walkthrough"
+  },
+  {
+    id: 1698,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Goddess Statue of Wisdom",
+    location: "Spring of Wisdom",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blessing, rupees",
+    summary: "At the Spring of Wisdom on Mount Lanayru, Link honors the Goddess Statue by fulfilling its offering or trial.",
+    aiTip: "Climb to the Spring of Wisdom and make the required offering to the statue.",
+    walkthrough: [
+      "Travel to the Spring of Wisdom.",
+      "Approach the Goddess Statue.",
+      "Fulfill its offering or trial.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Wisdom%20walkthrough"
+  },
+  {
+    id: 1699,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Heat-Endurance Contest!",
+    location: "Gerudo Canyon",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, endurance prize",
+    summary: "A contest dares Link to withstand the searing desert heat longer than rivals without wilting.",
+    aiTip: "Use heat-resistance meals and cool gear, or stay near shade, to outlast the scorching conditions.",
+    walkthrough: [
+      "Enter the heat-endurance contest at Gerudo Canyon.",
+      "Prepare heat-resistance food and gear.",
+      "Endure the searing heat for the set time.",
+      "Win the contest for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Heat-Endurance%20Contest!%20walkthrough"
+  },
+  {
+    id: 1700,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Hebra's Colossal Fossil",
+    location: "Eldin Great Skeleton",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, research contribution",
+    summary: "The fossil researcher requests a photograph of a colossal skeleton for the Hebra study, located at a Great Skeleton site.",
+    aiTip: "Photograph the specific colossal fossil bone the researcher wants, clearly framed.",
+    walkthrough: [
+      "Take the fossil request from the researcher.",
+      "Travel to the Great Skeleton site.",
+      "Photograph the requested colossal fossil.",
+      "Return the picture to the researcher."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hebra's%20Colossal%20Fossil%20walkthrough"
+  },
+  {
+    id: 1701,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Home on Arrange",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, home decor",
+    summary: "In Tarrey Town, a resident wants help arranging and furnishing their new home just right.",
+    aiTip: "Gather or place the furnishings the resident requests to complete their home.",
+    walkthrough: [
+      "Speak with the Tarrey Town resident.",
+      "Learn how they want the home arranged.",
+      "Provide the needed furnishings.",
+      "Complete the arrangement for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Home%20on%20Arrange%20walkthrough"
+  },
+  {
+    id: 1702,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Homegrown in Hateno",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, produce",
+    summary: "A Hateno farmer seeks help cultivating homegrown crops, from planting to protecting the harvest.",
+    aiTip: "Bring the seeds or produce the farmer needs, or clear pests, to support the Hateno harvest.",
+    walkthrough: [
+      "Talk to the Hateno farmer.",
+      "Learn what the crop effort needs.",
+      "Gather the seeds or clear the threat.",
+      "Complete the harvest task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Homegrown%20in%20Hateno%20walkthrough"
+  },
+  {
+    id: 1703,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Horse-Drawn Dreams",
+    location: "New Serenne Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cart built",
+    summary: "A dreamer at New Serenne Stable wants to build a horse-drawn cart, and Link helps assemble it.",
+    aiTip: "Use Ultrahand to attach a cart to a harnessed horse setup as the dreamer envisions.",
+    walkthrough: [
+      "Meet the dreamer at New Serenne Stable.",
+      "Gather the parts for the horse-drawn cart.",
+      "Assemble the cart with Ultrahand.",
+      "Fulfill the horse-drawn dream."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Horse-Drawn%20Dreams%20walkthrough"
+  },
+  {
+    id: 1704,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Kaneli's Flight Training",
+    location: "Flight Range",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, archery practice",
+    summary: "Elder Kaneli sets up flight and archery training at the Rito Flight Range for Link to master mid-air shots.",
+    aiTip: "Dive from the Flight Range and hit the targets in bullet time to complete the training.",
+    walkthrough: [
+      "Speak with Kaneli at the Flight Range.",
+      "Begin the flight-and-archery training.",
+      "Hit the targets while gliding.",
+      "Complete the training course."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Kaneli's%20Flight%20Training%20walkthrough"
+  },
+  {
+    id: 1705,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Legacy of the Rito",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Rito lore",
+    summary: "A Rito elder shares the legacy of their people and asks Link's help preserving or proving it.",
+    aiTip: "Follow the elder's request — often retrieving a relic or performing a traditional feat of the Rito.",
+    walkthrough: [
+      "Meet the Rito elder in Rito Village.",
+      "Learn about the legacy they wish to preserve.",
+      "Complete the task honoring the Rito.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legacy%20of%20the%20Rito%20walkthrough"
+  },
+  {
+    id: 1706,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lost in the Dunes",
+    location: "Kara Kara Bazaar",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, rescue",
+    summary: "A traveler has become lost in the desert dunes near Kara Kara Bazaar, and Link sets out to find them.",
+    aiTip: "Search the surrounding dunes, especially during clear weather, to locate the lost traveler.",
+    walkthrough: [
+      "Hear about the lost traveler at Kara Kara Bazaar.",
+      "Search the desert dunes.",
+      "Find the stranded person.",
+      "Guide them to safety for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lost%20in%20the%20Dunes%20walkthrough"
+  },
+  {
+    id: 1707,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Lurelin Resort Project",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, resort progress",
+    summary: "Following Lurelin's restoration, an entrepreneur dreams of turning the village into a resort, enlisting Link's help.",
+    aiTip: "Provide the materials or complete the tasks needed to advance the resort's development.",
+    walkthrough: [
+      "Speak with the resort planner in Lurelin.",
+      "Learn what the resort needs next.",
+      "Gather materials or complete the task.",
+      "Advance the Lurelin Resort Project."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lurelin%20Resort%20Project%20walkthrough"
+  },
+  {
+    id: 1708,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Manny's Beloved",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, matchmaking",
+    summary: "Manny at the Hateno inn pines for someone special and asks Link to help win his beloved's affection.",
+    aiTip: "Deliver Manny's gift or message to his crush and report their reaction.",
+    walkthrough: [
+      "Talk to Manny at the Hateno inn.",
+      "Take his gift or note to his beloved.",
+      "Deliver it and gauge the response.",
+      "Report back to Manny for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Manny's%20Beloved%20walkthrough"
+  },
+  {
+    id: 1709,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Master the Vehicle Prototype",
+    location: "Hudson Construction Site",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, vehicle schematic",
+    summary: "At a Hudson construction site, Link tests and masters a Zonai vehicle prototype through a driving challenge.",
+    aiTip: "Build the prototype from the schematic and complete the test course to master it.",
+    walkthrough: [
+      "Meet the engineer at the Hudson Construction Site.",
+      "Assemble the vehicle prototype.",
+      "Complete the driving test.",
+      "Master the prototype for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20the%20Vehicle%20Prototype%20walkthrough"
+  },
+  {
+    id: 1710,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Meat for Meat",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A cook at the Bedrock Bistro wants quality meat and offers a fair trade for the right cuts.",
+    aiTip: "Hunt the animals that drop the requested meat and bring it to the bistro.",
+    walkthrough: [
+      "Speak with the cook at Bedrock Bistro.",
+      "Hunt for the requested meat.",
+      "Deliver the cuts.",
+      "Trade meat for meat, and claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Meat%20for%20Meat%20walkthrough"
+  },
+  {
+    id: 1711,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Death Mountain",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, ride access",
+    summary: "An enthusiast building a mine-cart attraction near the Southern Mine wants Link to help lay out the Death Mountain course.",
+    aiTip: "Use Ultrahand and rails to build a working mine-cart track for the ride.",
+    walkthrough: [
+      "Meet the mine-cart enthusiast at the Southern Mine.",
+      "Gather rails and cart parts.",
+      "Build the Death Mountain mine-cart course.",
+      "Test the ride to complete it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Death%20Mountain%20walkthrough"
+  },
+  {
+    id: 1712,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Open for Business!",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, attraction opened",
+    summary: "The finishing touches to open the Mine-Cart Land attraction near the Southern Mine, with Link's building help.",
+    aiTip: "Complete the final track and controls so the mine-cart attraction can open to visitors.",
+    walkthrough: [
+      "Return to the Mine-Cart Land builder.",
+      "Finish the remaining track sections.",
+      "Set up the cart controls.",
+      "Open Mine-Cart Land for business."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Open%20for%20Business!%20walkthrough"
+  },
+  {
+    id: 1713,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mine-Cart Land: Quickshot Course",
+    location: "Southern Mine",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Rupees, high score",
+    summary: "A shooting-gallery variant of Mine-Cart Land challenges Link to hit targets while riding the cart at speed.",
+    aiTip: "Fuse or ready a bow and shoot the targets in bullet time as the cart races along the track.",
+    walkthrough: [
+      "Take on the Quickshot Course at the Southern Mine.",
+      "Board the mine cart with a bow ready.",
+      "Hit the targets along the course.",
+      "Achieve the score to complete it."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Quickshot%20Course%20walkthrough"
+  },
+  {
+    id: 1714,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Mired in Muck",
+    location: "Upland Zorana Skyview Tower",
+    length: "short",
+    difficulty: "Low",
+    reward: "Tower access, rupees",
+    summary: "The Upland Zorana Skyview Tower is buried in sludge, and Link must clear the muck to activate it.",
+    aiTip: "Splash water or use Zonai hydrants to wash the sludge off the tower's mechanism.",
+    walkthrough: [
+      "Reach the muck-covered Upland Zorana Skyview Tower.",
+      "Clear the sludge blocking the entrance.",
+      "Access the tower's launch mechanism.",
+      "Activate the tower."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mired%20in%20Muck%20walkthrough"
+  },
+  {
+    id: 1715,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Cave of Chests",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure chests, rare gear",
+    summary: "Following the bandit Misko's clues, Link explores the Cave of Chests near Cephla Lake for hidden treasure.",
+    aiTip: "Read Misko's notes for the chest locations and bring a light source into the cave.",
+    walkthrough: [
+      "Find Misko's clue pointing to the Cave of Chests.",
+      "Explore Cephla Lake Cave with a light.",
+      "Open the hidden treasure chests.",
+      "Claim Misko's stash."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Cave%20of%20Chests%20walkthrough"
+  },
+  {
+    id: 1716,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening I",
+    location: "Goronbi River Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The first leg of Misko's Treasure of Awakening leads Link to the Goronbi River Cave for a piece of a legendary set.",
+    aiTip: "Bring fireproof gear for the Eldin cave and follow Misko's note to the hidden chest.",
+    walkthrough: [
+      "Read Misko's clue for the first awakening treasure.",
+      "Enter the Goronbi River Cave.",
+      "Locate the hidden chest.",
+      "Claim the awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20I%20walkthrough"
+  },
+  {
+    id: 1717,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening II",
+    location: "Ancient Columns Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The second leg of Misko's Treasure of Awakening sends Link to the Ancient Columns Cave for another set piece.",
+    aiTip: "Follow Misko's directions carefully and light the cave to find the concealed chest.",
+    walkthrough: [
+      "Read Misko's second awakening clue.",
+      "Travel to the Ancient Columns Cave.",
+      "Search for the hidden chest.",
+      "Claim the awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20II%20walkthrough"
+  },
+  {
+    id: 1718,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure of Awakening III",
+    location: "Coliseum Ruins Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Awakening armor piece",
+    summary: "The final leg of Misko's Treasure of Awakening leads Link into the dangerous Coliseum Ruins Cave for the last set piece.",
+    aiTip: "The Coliseum Ruins hold a tough boss — clear it, then grab the treasure Misko hid within.",
+    walkthrough: [
+      "Read Misko's third awakening clue.",
+      "Descend into the Coliseum Ruins Cave.",
+      "Defeat the guardians and find the chest.",
+      "Claim the final awakening armor piece."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20III%20walkthrough"
+  },
+  {
+    id: 1719,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Heroines Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Heroine's set clue/armor",
+    summary: "A Misko manuscript hints at treasure tied to the Gerudo heroines, starting from clues at Cephla Lake Cave.",
+    aiTip: "Read the Heroines Manuscript, then follow its riddle to the hidden armor location.",
+    walkthrough: [
+      "Recover the Heroines Manuscript from Cephla Lake Cave.",
+      "Decipher its treasure clue.",
+      "Travel to the indicated location.",
+      "Claim the heroine-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Heroines%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1720,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Pirate Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Pirate set clue/armor",
+    summary: "Misko's Pirate Manuscript points toward buccaneer treasure, with clues found at Cephla Lake Cave.",
+    aiTip: "Read the Pirate Manuscript and follow it to the coastal or cave stash it describes.",
+    walkthrough: [
+      "Recover the Pirate Manuscript from Cephla Lake Cave.",
+      "Decode the pirate treasure clue.",
+      "Travel to the hidden stash.",
+      "Claim the pirate-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Pirate%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1721,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: The Fierce Deity",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Fierce Deity set clue/armor",
+    summary: "The legendary Fierce Deity treasure is hinted at in a Misko manuscript found at Cephla Lake Cave.",
+    aiTip: "Read the Fierce Deity manuscript and follow its clue to the powerful set's hiding place.",
+    walkthrough: [
+      "Recover the Fierce Deity manuscript at Cephla Lake Cave.",
+      "Decipher the clue to the treasure.",
+      "Travel to the hidden location.",
+      "Claim the Fierce Deity reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20The%20Fierce%20Deity%20walkthrough"
+  },
+  {
+    id: 1722,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Misko's Treasure: Twins Manuscript",
+    location: "Cephla Lake Cave",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Twins set clue/armor",
+    summary: "Misko's Twins Manuscript points to treasure themed after the twin folk heroes, beginning at Cephla Lake Cave.",
+    aiTip: "Read the Twins Manuscript and follow its riddle to the concealed reward.",
+    walkthrough: [
+      "Recover the Twins Manuscript from Cephla Lake Cave.",
+      "Decode its treasure clue.",
+      "Travel to the indicated spot.",
+      "Claim the twins-themed reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Twins%20Manuscript%20walkthrough"
+  },
+  {
+    id: 1723,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Molli the Fletcher's Quest",
+    location: "Rito Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, arrows",
+    summary: "Young Molli in Rito Village dreams of becoming a fletcher and asks Link to help gather materials for making arrows.",
+    aiTip: "Collect the feathers and wood Molli needs to practice her fletching craft.",
+    walkthrough: [
+      "Speak with Molli in Rito Village.",
+      "Gather the arrow-making materials she needs.",
+      "Deliver them to Molli.",
+      "Support her fletcher's dream for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Molli%20the%20Fletcher's%20Quest%20walkthrough"
+  },
+  {
+    id: 1724,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Moon-Gazing Gorons",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stargazing spot",
+    summary: "Some Gorons in Goron City want to gaze at the moon and stars but need Link's help clearing smoke or reaching a vantage point.",
+    aiTip: "Help the Gorons get a clear view — often by clearing haze or building a way up to a lookout.",
+    walkthrough: [
+      "Talk to the moon-gazing Gorons in Goron City.",
+      "Learn what blocks their view.",
+      "Clear the obstruction or build a vantage.",
+      "Give them their moon-gazing view."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Moon-Gazing%20Gorons%20walkthrough"
+  },
+  {
+    id: 1725,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "One-Hit Wonder!",
+    location: "South Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, challenge prize",
+    summary: "A challenger at South Akkala Stable dares Link to defeat a foe or complete a feat in a single hit.",
+    aiTip: "Use an ancient blade fuse or a powerful charged attack to score the one-hit victory.",
+    walkthrough: [
+      "Accept the One-Hit Wonder challenge at South Akkala Stable.",
+      "Prepare a strong one-hit weapon or fuse.",
+      "Defeat the target in a single blow.",
+      "Claim the challenge prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20One-Hit%20Wonder!%20walkthrough"
+  },
+  {
+    id: 1726,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Open the Door",
+    location: "Tabantha Village Ruins",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden room",
+    summary: "A sealed door in the Tabantha Village Ruins hides something, and Link must find the way to open it.",
+    aiTip: "Look for a nearby switch, weight, or Zonai mechanism to unlock the ruined door.",
+    walkthrough: [
+      "Reach the sealed door in the Tabantha Village Ruins.",
+      "Search for the opening mechanism.",
+      "Activate it to open the door.",
+      "Explore what lies beyond."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Open%20the%20Door%20walkthrough"
+  },
+  {
+    id: 1727,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Ousting the Giants",
+    location: "Lakeside Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, safety restored",
+    summary: "Giant monsters threaten the area around Lakeside Stable, and Link is asked to oust them.",
+    aiTip: "Take down the Hinox or Talus menacing the stable's surroundings.",
+    walkthrough: [
+      "Hear the plea at Lakeside Stable.",
+      "Locate the giant monsters nearby.",
+      "Defeat them to oust the threat.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ousting%20the%20Giants%20walkthrough"
+  },
+  {
+    id: 1728,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Out of the Inn",
+    location: "Kakariko Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, resolution",
+    summary: "A guest problem at the Kakariko inn needs sorting, and Link steps in to help get things back in order.",
+    aiTip: "Talk to the innkeeper and guests to resolve whatever's keeping business from running smoothly.",
+    walkthrough: [
+      "Visit the Kakariko Village inn.",
+      "Learn the problem keeping things stalled.",
+      "Resolve the guest or inn issue.",
+      "Restore order for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Out%20of%20the%20Inn%20walkthrough"
+  },
+  {
+    id: 1729,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Photographing a Chuchu",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, compendium entry",
+    summary: "A researcher in Hateno wants a clear photograph of a Chuchu for study or the compendium.",
+    aiTip: "Find a Chuchu, snap a clean photo with the camera, and bring it back.",
+    walkthrough: [
+      "Speak with the researcher in Hateno Village.",
+      "Locate a Chuchu nearby.",
+      "Photograph it clearly.",
+      "Deliver the picture for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Photographing%20a%20Chuchu%20walkthrough"
+  },
+  {
+    id: 1730,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Piaffe, Packed Away",
+    location: "Gerudo Canyon Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, horse gear",
+    summary: "A stablehand's horse gear or belongings (Piaffe) got packed away or lost, and Link helps recover them.",
+    aiTip: "Track down the misplaced horse-related items around the Gerudo Canyon Stable.",
+    walkthrough: [
+      "Speak with the stablehand at Gerudo Canyon Stable.",
+      "Search for the packed-away belongings.",
+      "Recover them.",
+      "Return them for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Piaffe%2C%20Packed%20Away%20walkthrough"
+  },
+  {
+    id: 1731,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Pride of the Gerudo",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Gerudo honor",
+    summary: "A proud Gerudo asks Link to uphold the honor and traditions of Gerudo Town through a worthy task.",
+    aiTip: "Complete the honorable task the Gerudo sets to prove your respect for their people.",
+    walkthrough: [
+      "Meet the proud Gerudo in Gerudo Town.",
+      "Take on the task honoring the Gerudo.",
+      "Complete the deed with distinction.",
+      "Earn the Gerudo's respect and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Pride%20of%20the%20Gerudo%20walkthrough"
+  },
+  {
+    id: 1732,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rattled Ralera",
+    location: "Lurelin Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reassurance",
+    summary: "Ralera in Lurelin Village is shaken after the pirate attacks, and Link helps restore her peace of mind.",
+    aiTip: "Complete the reassuring task Ralera asks for as the village recovers.",
+    walkthrough: [
+      "Speak with the rattled Ralera in Lurelin.",
+      "Learn what would ease her worry.",
+      "Complete the task for her.",
+      "Restore her peace of mind."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rattled%20Ralera%20walkthrough"
+  },
+  {
+    id: 1733,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Rock Roast or Dust",
+    location: "Bedrock Bistro",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ingredients",
+    summary: "A Goron chef at the Bedrock Bistro debates ingredients and wants Link to supply quality rock roast.",
+    aiTip: "Gather the rock roast (Goron delicacy) the chef requests and deliver it fresh.",
+    walkthrough: [
+      "Talk to the chef at Bedrock Bistro.",
+      "Gather the rock roast requested.",
+      "Deliver it to the bistro.",
+      "Receive your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20Roast%20or%20Dust%20walkthrough"
+  },
+  {
+    id: 1734,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secret Treasure under the Great Fish",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A legend in Zora's Domain speaks of treasure hidden beneath the great fish island, and Link dives to find it.",
+    aiTip: "Use the Zora Armor to swim and explore beneath the fish-shaped landmark for the hidden cache.",
+    walkthrough: [
+      "Hear the legend in Zora's Domain.",
+      "Travel to the great fish landmark.",
+      "Search beneath it for the secret treasure.",
+      "Claim the hidden reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secret%20Treasure%20under%20the%20Great%20Fish%20walkthrough"
+  },
+  {
+    id: 1735,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Secrets Within",
+    location: "Tarrey Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden discovery",
+    summary: "A resident of Tarrey Town hints at secrets hidden within the town or a nearby structure for Link to uncover.",
+    aiTip: "Investigate the building or area the resident mentions for the concealed secret.",
+    walkthrough: [
+      "Speak with the resident in Tarrey Town.",
+      "Investigate the hinted location.",
+      "Uncover the secret within.",
+      "Report your discovery for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secrets%20Within%20walkthrough"
+  },
+  {
+    id: 1736,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Seeking the Pirate Hideout",
+    location: "Eventide Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "Treasure, rupees",
+    summary: "Clues lead Link to seek out a pirate hideout around Eventide Island in the southern seas.",
+    aiTip: "Explore Eventide and its surrounding waters to find the monster-pirate hideout and its loot.",
+    walkthrough: [
+      "Follow the clues toward Eventide Island.",
+      "Search for the hidden pirate hideout.",
+      "Clear the pirates guarding it.",
+      "Claim the hideout's treasure."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Seeking%20the%20Pirate%20Hideout%20walkthrough"
+  },
+  {
+    id: 1737,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Simmerstone Springs",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hot-spring access",
+    summary: "The hot springs near Goron City need attention, and Link helps restore the healing Simmerstone Springs.",
+    aiTip: "Clear whatever blocks or cools the springs so the healing waters flow again.",
+    walkthrough: [
+      "Learn about the troubled springs in Goron City.",
+      "Investigate Simmerstone Springs.",
+      "Restore the hot spring's flow.",
+      "Complete the task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Simmerstone%20Springs%20walkthrough"
+  },
+  {
+    id: 1738,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Soul of the Gorons",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Goron honor",
+    summary: "A Goron elder asks Link to help preserve the fighting spirit and soul of the Goron people.",
+    aiTip: "Complete the test of strength or tradition the elder sets to honor the Gorons.",
+    walkthrough: [
+      "Meet the Goron elder in Goron City.",
+      "Learn the task honoring the Goron soul.",
+      "Complete the feat of strength.",
+      "Earn the Gorons' respect and reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Soul%20of%20the%20Gorons%20walkthrough"
+  },
+  {
+    id: 1739,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Spotting Spot",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, dog's help",
+    summary: "At Lookout Landing, a spotted dog named Spot may lead Link to something useful if befriended.",
+    aiTip: "Feed and befriend the dog — dogs in TOTK lead you to buried treasure when they trust you.",
+    walkthrough: [
+      "Find the dog Spot at Lookout Landing.",
+      "Feed it to earn its trust.",
+      "Follow Spot to its discovery.",
+      "Claim what it leads you to."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Spotting%20Spot%20walkthrough"
+  },
+  {
+    id: 1740,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Strongest in the World",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, title",
+    summary: "A boastful challenger at East Akkala Stable claims to be the strongest and dares Link to prove otherwise.",
+    aiTip: "Meet the challenger's terms — usually a feat of combat or strength — to claim the title.",
+    walkthrough: [
+      "Accept the challenge at East Akkala Stable.",
+      "Learn the terms of the strength contest.",
+      "Complete the feat to win.",
+      "Be crowned the strongest for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Strongest%20in%20the%20World%20walkthrough"
+  },
+  {
+    id: 1741,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Supply-Eyeing Fliers",
+    location: "Tabantha Frontier",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, supplies protected",
+    summary: "Aerial monsters are eyeing supplies in the Tabantha Frontier, and Link must protect the goods from the fliers.",
+    aiTip: "Shoot down the Aerocuda or Keese fliers threatening the supplies before they carry them off.",
+    walkthrough: [
+      "Learn of the supply-eyeing fliers in Tabantha Frontier.",
+      "Spot the aerial monsters.",
+      "Shoot them down before they steal supplies.",
+      "Protect the goods for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Supply-Eyeing%20Fliers%20walkthrough"
+  },
+  {
+    id: 1742,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Teach Me a Lesson I",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, school supplies",
+    summary: "The teacher at Hateno's school needs help with the first of a series of lessons or supplies for the classroom.",
+    aiTip: "Gather the school materials or complete the classroom task the teacher requests.",
+    walkthrough: [
+      "Visit the school in Hateno Village.",
+      "Learn what the first lesson needs.",
+      "Gather the materials or help teach.",
+      "Complete the first lesson task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20I%20walkthrough"
+  },
+  {
+    id: 1743,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Teach Me a Lesson II",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, school supplies",
+    summary: "The continuation of the Hateno school's needs, with Link helping the teacher deliver a second lesson.",
+    aiTip: "Bring the additional supplies or complete the follow-up classroom task the teacher asks for.",
+    walkthrough: [
+      "Return to the Hateno school.",
+      "Learn what the second lesson needs.",
+      "Provide the materials or assistance.",
+      "Complete the second lesson task."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20II%20walkthrough"
+  },
+  {
+    id: 1744,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Abandoned Laborer",
+    location: "Death Mountain West Tunnel",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, worker rescued",
+    summary: "A laborer has been left behind in the Death Mountain West Tunnel, and Link goes to help them out.",
+    aiTip: "Bring fireproof protection into the tunnel and guide the abandoned worker to safety.",
+    walkthrough: [
+      "Hear about the abandoned laborer.",
+      "Enter the Death Mountain West Tunnel.",
+      "Find the stranded worker.",
+      "Lead them safely out for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Abandoned%20Laborer%20walkthrough"
+  },
+  {
+    id: 1745,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ancient City Gorondia!",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, lore confirmed",
+    summary: "The follow-up to the Gorondia legend: with proof in hand, Link confirms the existence of the ancient Goron city.",
+    aiTip: "Return the evidence of Gorondia to the Goron researcher to confirm the ancient city's legend.",
+    walkthrough: [
+      "Bring the Gorondia evidence back to Goron City.",
+      "Present it to the researcher.",
+      "Confirm the ancient city's existence.",
+      "Complete the legend for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia!%20walkthrough"
+  },
+  {
+    id: 1746,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ancient City Gorondia?",
+    location: "Goron City",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, investigation started",
+    summary: "A Goron researcher in Goron City wonders if the fabled ancient city of Gorondia is real and asks Link to investigate.",
+    aiTip: "Descend into the Depths beneath Eldin to search for signs of the ancient Goron city.",
+    walkthrough: [
+      "Speak with the researcher in Goron City.",
+      "Descend into the Depths to investigate Gorondia.",
+      "Find evidence of the ancient city.",
+      "Report your findings back."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia%3F%20walkthrough"
+  },
+  {
+    id: 1747,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blocked Cave",
+    location: "Hebra Mountains",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cave opened",
+    summary: "A cave in the Hebra Mountains is blocked, and Link must clear the obstruction to open it up.",
+    aiTip: "Use bomb flowers or Ultrahand to remove the boulders or ice sealing the cave.",
+    walkthrough: [
+      "Reach the blocked cave in the Hebra Mountains.",
+      "Identify what seals the entrance.",
+      "Clear the obstruction.",
+      "Explore the newly opened cave."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Cave%20walkthrough"
+  },
+  {
+    id: 1748,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Blue Stone",
+    location: "East Reservoir Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, reward item",
+    summary: "A mysterious blue stone at East Reservoir Lake sparks a request for Link to retrieve or investigate it.",
+    aiTip: "Locate the blue stone at the reservoir and bring it to the person who wants it.",
+    walkthrough: [
+      "Learn about the blue stone at East Reservoir Lake.",
+      "Search the lake for the stone.",
+      "Retrieve the blue stone.",
+      "Deliver it for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blue%20Stone%20walkthrough"
+  },
+  {
+    id: 1749,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Captured Tent",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, camp restored",
+    summary: "Monsters have overrun a camp near Snowfield Stable, capturing a traveler's tent that Link must reclaim.",
+    aiTip: "Clear the monster camp holding the tent and return the gear to its owner.",
+    walkthrough: [
+      "Hear about the captured tent at Snowfield Stable.",
+      "Locate the monster-held camp.",
+      "Defeat the monsters and reclaim the tent.",
+      "Return it to the traveler."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Captured%20Tent%20walkthrough"
+  },
+  {
+    id: 1750,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Duchess Who Disappeared",
+    location: "Selmie's Spot",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, mystery solved",
+    summary: "Near Selmie's Spot in the snowy peaks, a 'duchess' has gone missing, and Link investigates her disappearance.",
+    aiTip: "Follow the trail from Selmie's Spot to find where the missing duchess went.",
+    walkthrough: [
+      "Learn of the disappearance at Selmie's Spot.",
+      "Follow the clues into the mountains.",
+      "Find the missing duchess.",
+      "Resolve the mystery for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Duchess%20Who%20Disappeared%20walkthrough"
+  },
+  {
+    id: 1751,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Fort at Ja'Abu Ridge",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, fort secured",
+    summary: "A defensive effort at Ja'Abu Ridge near Zora's Domain needs Link's help to hold or clear the fort.",
+    aiTip: "Help the Zora defend or retake the fort by clearing the monsters threatening the ridge.",
+    walkthrough: [
+      "Reach the fort at Ja'Abu Ridge.",
+      "Assist the Zora defenders.",
+      "Clear the monster threat.",
+      "Secure the fort for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Fort%20at%20Ja'Abu%20Ridge%20walkthrough"
+  },
+  {
+    id: 1752,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Gathering Pirates",
+    location: "East Akkala Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, threat cleared",
+    summary: "Monster pirates are gathering near East Akkala Stable, and Link is asked to break up the growing threat.",
+    aiTip: "Strike the pirate camp before it grows — clear the ships and Bokoblins gathering there.",
+    walkthrough: [
+      "Hear about the gathering pirates at East Akkala Stable.",
+      "Locate the pirate camp.",
+      "Defeat the gathering monsters.",
+      "Clear the threat for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gathering%20Pirates%20walkthrough"
+  },
+  {
+    id: 1753,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Great Tumbleweed Purge",
+    location: "Gerudo Canyon",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, cleanup done",
+    summary: "Tumbleweeds have overrun part of Gerudo Canyon, and Link helps clear them out in a comedic cleanup.",
+    aiTip: "Burn or slash the tumbleweeds cluttering the canyon to complete the purge.",
+    walkthrough: [
+      "Take on the tumbleweed problem in Gerudo Canyon.",
+      "Clear the tumbleweeds cluttering the area.",
+      "Finish the great purge.",
+      "Report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Great%20Tumbleweed%20Purge%20walkthrough"
+  },
+  {
+    id: 1754,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Heroines' Secret",
+    location: "Gerudo Shelter",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Gerudo lore",
+    summary: "At the Gerudo Shelter, a scholar shares hints of the ancient heroines' secret, asking Link to help uncover it.",
+    aiTip: "Follow the heroine statues and clues in and around the shelter to reveal the secret.",
+    walkthrough: [
+      "Speak with the scholar at Gerudo Shelter.",
+      "Follow the clues about the heroines.",
+      "Uncover the hidden secret.",
+      "Report the discovery for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Heroines'%20Secret%20walkthrough"
+  },
+  {
+    id: 1755,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Hidden Treasure at Lizard Lakes",
+    location: "Goron City",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A treasure map points to riches hidden around the Lizard Lakes in the Eldin region near Goron City.",
+    aiTip: "Use the map clue and fireproof gear to dig out the treasure at the Lizard Lakes.",
+    walkthrough: [
+      "Obtain the Lizard Lakes treasure clue in Goron City.",
+      "Travel to the Lizard Lakes.",
+      "Search the marked spot for treasure.",
+      "Claim the hidden reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hidden%20Treasure%20at%20Lizard%20Lakes%20walkthrough"
+  },
+  {
+    id: 1756,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Horse Guard's Request",
+    location: "Outskirt Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, horse gear",
+    summary: "A horse guard at Outskirt Stable has a request concerning the care or recovery of a special horse.",
+    aiTip: "Complete the guard's request — often taming or retrieving a particular horse.",
+    walkthrough: [
+      "Speak with the horse guard at Outskirt Stable.",
+      "Learn the details of the request.",
+      "Tame or recover the horse in question.",
+      "Fulfill the request for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Horse%20Guard's%20Request%20walkthrough"
+  },
+  {
+    id: 1757,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Iceless Icehouse",
+    location: "Northern Icehouse",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, ice restored",
+    summary: "The Northern Icehouse has run out of ice, and Link is asked to help restock or restore its chill.",
+    aiTip: "Gather ice or fix the cooling method so the icehouse can store goods again.",
+    walkthrough: [
+      "Learn of the iceless problem at the Northern Icehouse.",
+      "Find a source of ice or cold.",
+      "Restore the icehouse's supply.",
+      "Complete the task for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Iceless%20Icehouse%20walkthrough"
+  },
+  {
+    id: 1758,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Incomplete Stable",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, stable progress",
+    summary: "A stable being built near Lookout Landing is unfinished, and Link helps gather what's needed to complete it.",
+    aiTip: "Provide the materials the builders request to finish constructing the stable.",
+    walkthrough: [
+      "Speak with the stable builders near Lookout Landing.",
+      "Learn what the incomplete stable needs.",
+      "Gather and deliver the materials.",
+      "Help complete the stable."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Incomplete%20Stable%20walkthrough"
+  },
+  {
+    id: 1759,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Lomei Labyrinth Island Prophecy",
+    location: "Lomei Labyrinth Island",
+    length: "long",
+    difficulty: "High",
+    reward: "Barbarian/rare armor, shrine",
+    summary: "An ancient prophecy tied to the Lomei Labyrinth Island in northeast Akkala challenges Link to conquer the maze on the surface, in the sky, and in the Depths.",
+    aiTip: "Solve all three layers of the labyrinth (surface, sky island, and Depths beneath) to claim the full reward.",
+    walkthrough: [
+      "Reach the Lomei Labyrinth Island and read the prophecy.",
+      "Navigate the surface labyrinth to its center.",
+      "Solve the sky and Depths layers of the maze.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lomei%20Labyrinth%20Island%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1760,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Missing Owner",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, shop reopened",
+    summary: "A shop in Gerudo Town sits idle because its owner has gone missing, and Link sets out to find them.",
+    aiTip: "Follow leads from the townsfolk to locate the missing shop owner.",
+    walkthrough: [
+      "Notice the ownerless shop in Gerudo Town.",
+      "Ask around for the missing owner.",
+      "Track them down.",
+      "Bring them back to reopen the shop."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Owner%20walkthrough"
+  },
+  {
+    id: 1761,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Moonlit Princess",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, Zora tale",
+    summary: "A romantic Zora legend of a moonlit princess draws Link into confirming or reliving the tale in Zora's Domain.",
+    aiTip: "Visit the legend's spot at night, under the moon, to witness or complete the tale.",
+    walkthrough: [
+      "Hear the moonlit princess legend in Zora's Domain.",
+      "Travel to the described spot at night.",
+      "Witness the moonlit scene.",
+      "Complete the tale for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Moonlit%20Princess%20walkthrough"
+  },
+  {
+    id: 1762,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mother Goddess Statue",
+    location: "Forgotten Temple",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Heart/stamina exchange, blessing",
+    summary: "Deep in the Forgotten Temple, the great Mother Goddess Statue offers Link a powerful blessing or vessel exchange.",
+    aiTip: "Reach the giant statue at the temple's end — it can trade hearts and stamina like the Horned Statue, but grander.",
+    walkthrough: [
+      "Journey through the Forgotten Temple.",
+      "Reach the Mother Goddess Statue at its heart.",
+      "Make the offering or exchange.",
+      "Receive the goddess's blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mother%20Goddess%20Statue%20walkthrough"
+  },
+  {
+    id: 1763,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Mysterious Eighth",
+    location: "Gerudo Shelter",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, mystery solved",
+    summary: "At the Gerudo Shelter, talk of a mysterious 'eighth' heroine or member sends Link investigating the puzzle.",
+    aiTip: "Study the seven heroine statues and their lore to uncover the truth about the mysterious eighth.",
+    walkthrough: [
+      "Learn of the mysterious eighth at Gerudo Shelter.",
+      "Investigate the heroine statues and records.",
+      "Uncover the truth of the eighth.",
+      "Report your findings for a reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mysterious%20Eighth%20walkthrough"
+  },
+  {
+    id: 1764,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Never-Ending Lecture",
+    location: "Zora's Domain",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, patience rewarded",
+    summary: "A long-winded Zora in Zora's Domain traps listeners in an endless lecture, and Link finds a way to help end it.",
+    aiTip: "Complete the small task that will finally satisfy the lecturer and free the trapped listener.",
+    walkthrough: [
+      "Encounter the never-ending lecture in Zora's Domain.",
+      "Learn what would end it.",
+      "Complete the needed task.",
+      "Resolve the lecture for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Never-Ending%20Lecture%20walkthrough"
+  },
+  {
+    id: 1765,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The North Lomei Prophecy",
+    location: "North Lomei Labyrinth",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare armor, shrine",
+    summary: "The prophecy of the North Lomei Labyrinth in the Hebra region challenges Link to conquer its surface maze and the Depths beneath.",
+    aiTip: "Solve the freezing surface labyrinth, then descend into the Depths version to complete the prophecy.",
+    walkthrough: [
+      "Reach the North Lomei Labyrinth and read the prophecy.",
+      "Navigate the surface maze to its center.",
+      "Descend and solve the Depths labyrinth.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Lomei%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1766,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Rito Rope Bridge",
+    location: "Lucky Clover Gazette",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, bridge repaired",
+    summary: "A Gazette assignment sends Link to help repair or report on the Rito rope bridge connecting the frozen village.",
+    aiTip: "Gather materials or build a span to restore the rope bridge for the Rito.",
+    walkthrough: [
+      "Take the assignment from the Lucky Clover Gazette.",
+      "Travel to the damaged Rito rope bridge.",
+      "Repair or rebuild the crossing.",
+      "Report the fix for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Rito%20Rope%20Bridge%20walkthrough"
+  },
+  {
+    id: 1767,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Secret Room",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, hidden treasure",
+    summary: "A hidden room in or near Korok Forest holds a secret that Link is asked to find and open.",
+    aiTip: "Search Korok Forest for a concealed entrance — Ascend and Ultrahand often reveal hidden rooms.",
+    walkthrough: [
+      "Learn of the secret room near Korok Forest.",
+      "Search for its concealed entrance.",
+      "Open the secret room.",
+      "Claim the treasure inside."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Secret%20Room%20walkthrough"
+  },
+  {
+    id: 1768,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Shrine Explorer",
+    location: "Shrine of Light",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, shrine insight",
+    summary: "An eager shrine enthusiast wants Link's help exploring or documenting a shrine's secrets.",
+    aiTip: "Guide the explorer or fetch what they need from the shrine to satisfy their curiosity.",
+    walkthrough: [
+      "Meet the shrine explorer.",
+      "Learn what they want to discover.",
+      "Help explore or document the shrine.",
+      "Complete the exploration for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Shrine%20Explorer%20walkthrough"
+  },
+  {
+    id: 1769,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The South Lomei Prophecy",
+    location: "South Lomei Labyrinth",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare armor, shrine",
+    summary: "The prophecy of the South Lomei Labyrinth in the Gerudo Desert challenges Link to conquer its scorching maze and the Depths beneath.",
+    aiTip: "Brave the desert-heat surface labyrinth, then solve its Depths counterpart to finish the prophecy.",
+    walkthrough: [
+      "Reach the South Lomei Labyrinth and read the prophecy.",
+      "Navigate the surface maze to its center.",
+      "Descend and solve the Depths labyrinth.",
+      "Claim the prophecy's reward and shrine."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lomei%20Prophecy%20walkthrough"
+  },
+  {
+    id: 1770,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Tarrey Town Race Is On!",
+    location: "Hudson Construction Site",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, race prize",
+    summary: "A building or vehicle race centered on Tarrey Town and Hudson's crews challenges Link to compete and win.",
+    aiTip: "Build a fast Zonai vehicle and race the course to claim victory.",
+    walkthrough: [
+      "Enter the race at the Hudson Construction Site.",
+      "Build or ready your racing vehicle.",
+      "Complete the course ahead of rivals.",
+      "Win the race for the prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tarrey%20Town%20Race%20Is%20On!%20walkthrough"
+  },
+  {
+    id: 1771,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Treasure Hunters",
+    location: "Rauru Hillside",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rupees",
+    summary: "A band of treasure hunters at Rauru Hillside enlists Link to help locate a fabled cache.",
+    aiTip: "Follow the treasure hunters' map and clues to dig out the hidden reward.",
+    walkthrough: [
+      "Meet the treasure hunters at Rauru Hillside.",
+      "Follow their map and clues.",
+      "Locate the hidden treasure.",
+      "Claim your share of the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Treasure%20Hunters%20walkthrough"
+  },
+  {
+    id: 1772,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "The Ultimate Dish?",
+    location: "Rikoka Hills Well",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, recipe",
+    summary: "A cook chasing the ultimate dish, tied to the Rikoka Hills Well, needs Link to gather a rare final ingredient.",
+    aiTip: "Track down the special ingredient the cook needs and deliver it for their masterpiece.",
+    walkthrough: [
+      "Learn of the ultimate dish quest at Rikoka Hills Well.",
+      "Find the rare ingredient required.",
+      "Deliver it to the cook.",
+      "Help complete the ultimate dish."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ultimate%20Dish%3F%20walkthrough"
+  },
+  {
+    id: 1773,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "To the Ruins!",
+    location: "Gerudo Town",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, expedition",
+    summary: "An expedition from Gerudo Town heads to nearby ruins, and Link is recruited to help explore them.",
+    aiTip: "Escort or assist the expedition into the desert ruins and clear any dangers.",
+    walkthrough: [
+      "Join the expedition in Gerudo Town.",
+      "Travel to the desert ruins.",
+      "Help explore and clear the ruins.",
+      "Complete the expedition for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Ruins!%20walkthrough"
+  },
+  {
+    id: 1774,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Today's Menu",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, meal",
+    summary: "A cook at Lookout Landing plans today's menu and needs Link to fetch the right ingredients.",
+    aiTip: "Gather the specific ingredients on the cook's list and bring them back.",
+    walkthrough: [
+      "Talk to the cook at Lookout Landing.",
+      "Learn today's menu ingredients.",
+      "Gather the required items.",
+      "Deliver them to complete the menu."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Today's%20Menu%20walkthrough"
+  },
+  {
+    id: 1775,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Treasure of the Gerudo Desert",
+    location: "Gerudo Town",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A desert treasure legend from Gerudo Town leads Link across the dunes in search of buried riches.",
+    aiTip: "Use the treasure clue and watch for landmarks in the desert to pinpoint the buried cache.",
+    walkthrough: [
+      "Obtain the desert treasure clue in Gerudo Town.",
+      "Search the Gerudo Desert for the landmark.",
+      "Dig out the buried treasure.",
+      "Claim the desert's reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Gerudo%20Desert%20walkthrough"
+  },
+  {
+    id: 1776,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Treasure of the Secret Springs",
+    location: "Rito Village",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare gear",
+    summary: "A legend of secret springs near Rito Village hints at hidden treasure for Link to uncover.",
+    aiTip: "Explore the hidden springs in the Tabantha/Hebra area to find the concealed reward.",
+    walkthrough: [
+      "Hear the secret springs legend in Rito Village.",
+      "Locate the hidden springs.",
+      "Search them for the treasure.",
+      "Claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Secret%20Springs%20walkthrough"
+  },
+  {
+    id: 1777,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "True Treasure",
+    location: "Zora's Domain",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, heartfelt reward",
+    summary: "A Zora quest for 'true treasure' turns out to be about more than gold, guiding Link to a meaningful discovery.",
+    aiTip: "Follow the quest's clues in Zora's Domain — the true treasure may be sentimental as much as valuable.",
+    walkthrough: [
+      "Begin the true treasure quest in Zora's Domain.",
+      "Follow the clues to the treasure.",
+      "Discover what the true treasure really is.",
+      "Complete the quest for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20True%20Treasure%20walkthrough"
+  },
+  {
+    id: 1778,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Uma's Garden",
+    location: "Hateno Village",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, flowers",
+    summary: "Uma tends a garden in Hateno Village and asks Link to help gather seeds or protect the blooms.",
+    aiTip: "Bring the flower seeds or materials Uma needs to keep her garden thriving.",
+    walkthrough: [
+      "Speak with Uma in Hateno Village.",
+      "Learn what her garden needs.",
+      "Gather the seeds or materials.",
+      "Help Uma's garden flourish."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Uma's%20Garden%20walkthrough"
+  },
+  {
+    id: 1779,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Huge Silhouette",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "The monster-intel board at the Emergency Shelter reports a huge unknown silhouette; Link investigates and defeats the beast.",
+    aiTip: "Follow the sighting to identify and take down the giant monster (often a Hinox or Frox).",
+    walkthrough: [
+      "Read the huge silhouette report at the Emergency Shelter.",
+      "Travel to the sighting location.",
+      "Identify and defeat the huge monster.",
+      "Report the kill for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Huge%20Silhouette%20walkthrough"
+  },
+  {
+    id: 1780,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Sky Giant",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "An unknown giant has been spotted in the skies; the Emergency Shelter asks Link to investigate and bring it down.",
+    aiTip: "Reach the sky sighting and defeat the aerial giant (such as a Flux Construct or Gleeok).",
+    walkthrough: [
+      "Read the sky giant report at the Emergency Shelter.",
+      "Travel to the sky sighting.",
+      "Confront and defeat the sky giant.",
+      "Report the victory for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Sky%20Giant%20walkthrough"
+  },
+  {
+    id: 1781,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Unknown Three-Headed Monster",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, monster intel",
+    summary: "Reports of a three-headed monster reach the Emergency Shelter, and Link hunts down the fearsome Gleeok.",
+    aiTip: "Prepare for a Gleeok fight — bring plenty of arrows and headshot each head to bring it down.",
+    walkthrough: [
+      "Read the three-headed monster report at the Emergency Shelter.",
+      "Travel to the sighting.",
+      "Defeat the three-headed Gleeok.",
+      "Report the kill for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Three-Headed%20Monster%20walkthrough"
+  },
+  {
+    id: 1782,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Village Attacked by Pirates",
+    location: "Lookout Landing",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, village aided",
+    summary: "News reaches Lookout Landing that a village is under pirate attack, sending Link to its defense (leading toward Lurelin's plight).",
+    aiTip: "Follow the report to the besieged coastal village and drive off the monster pirates.",
+    walkthrough: [
+      "Hear of the pirate attack at Lookout Landing.",
+      "Travel to the threatened village.",
+      "Fight off the attacking pirates.",
+      "Secure the village for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Village%20Attacked%20by%20Pirates%20walkthrough"
+  },
+  {
+    id: 1783,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Walton's Treasure Hunt",
+    location: "Korok Forest",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Treasure, rare materials",
+    summary: "Walton the Korok near Korok Forest sets Link on a treasure hunt using his riddling clues.",
+    aiTip: "Solve Walton's riddles and search the forest to find each stage of the treasure hunt.",
+    walkthrough: [
+      "Meet Walton near Korok Forest.",
+      "Solve his treasure-hunt riddles.",
+      "Search the indicated spots.",
+      "Claim the treasure at the end."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Walton's%20Treasure%20Hunt%20walkthrough"
+  },
+  {
+    id: 1784,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Hinox",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty at the Emergency Shelter calls for the defeat of a dangerous Hinox threatening travelers.",
+    aiTip: "Locate the Hinox, shoot its eye to stun it, then strike hard while it's down.",
+    walkthrough: [
+      "Accept the Hinox bounty at the Emergency Shelter.",
+      "Track down the Hinox.",
+      "Defeat the giant.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Hinox%20walkthrough"
+  },
+  {
+    id: 1785,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Molduga",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty posted at the Emergency Shelter targets a Molduga rampaging through the desert sands.",
+    aiTip: "Use bomb flowers to stun the Molduga when it surfaces, then attack while it's beached.",
+    walkthrough: [
+      "Accept the Molduga bounty at the Emergency Shelter.",
+      "Travel to the Molduga's desert basin.",
+      "Lure it up with bombs and defeat it.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Molduga%20walkthrough"
+  },
+  {
+    id: 1786,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "WANTED: Stone Talus",
+    location: "Emergency Shelter",
+    length: "medium",
+    difficulty: "High",
+    reward: "Rupees, bounty",
+    summary: "A bounty at the Emergency Shelter calls for the destruction of a Stone Talus menacing the region.",
+    aiTip: "Climb the Talus and smash its ore weak point, or blast it with bomb-fused arrows.",
+    walkthrough: [
+      "Accept the Stone Talus bounty at the Emergency Shelter.",
+      "Locate the Stone Talus.",
+      "Destroy its ore core.",
+      "Claim the bounty reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Stone%20Talus%20walkthrough"
+  },
+  {
+    id: 1787,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Where Are the Wells?",
+    location: "Hyrule",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, wells cataloged",
+    summary: "Fera, the well enthusiast, asks Link to discover the many wells scattered across Hyrule and report on them.",
+    aiTip: "Drop into and catalog the wells you find across Hyrule — each visited well advances Fera's tally.",
+    walkthrough: [
+      "Speak with Fera about the wells of Hyrule.",
+      "Seek out wells across the kingdom.",
+      "Explore each one you find.",
+      "Report the wells to Fera for rewards."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Where%20Are%20the%20Wells%3F%20walkthrough"
+  },
+  {
+    id: 1788,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Whirly Swirly Things",
+    location: "Korok Forest",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, propeller parts",
+    summary: "A tinkerer near Korok Forest is fascinated by 'whirly swirly things' (Zonai fans/propellers) and wants Link to bring some.",
+    aiTip: "Gather Zonai fan devices and deliver them to satisfy the tinkerer's curiosity.",
+    walkthrough: [
+      "Meet the tinkerer near Korok Forest.",
+      "Collect the Zonai fan devices they want.",
+      "Deliver the whirly swirly things.",
+      "Complete the request for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Whirly%20Swirly%20Things%20walkthrough"
+  },
+  {
+    id: 1789,
+    type: "side",
+    questType: "Side Quest",
+    game: "The Legend of Zelda: Tears of the Kingdom",
+    title: "Who Finds the Haven?",
+    location: "Snowfield Stable",
+    length: "short",
+    difficulty: "Low",
+    reward: "Rupees, haven found",
+    summary: "A traveler at Snowfield Stable searches for a safe haven in the snowy wilds, and Link helps locate it.",
+    aiTip: "Explore the Hebra area to find the sheltered haven the traveler seeks.",
+    walkthrough: [
+      "Hear the traveler's search at Snowfield Stable.",
+      "Explore the snowy wilds for a haven.",
+      "Find the safe refuge.",
+      "Guide the traveler there for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Finds%20the%20Haven%3F%20walkthrough"
   }
 ];
