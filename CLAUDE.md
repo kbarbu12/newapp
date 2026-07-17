@@ -10,6 +10,24 @@ All changes deploy to **staging first, prod only on the user's say-so.** Work
 lands on the `staging` branch (auto-deploys to `/staging/`); promote to the live
 `/` site by merging `staging` → `main`. See `DEPLOY.md` for the full flow.
 
+## QA & release
+
+**QA after every staging push.** After pushing to `staging`, QA the change
+before calling it done: run `npm run build:staging` in `redesign/`, serve the
+build, and drive it headlessly (Chromium at `/opt/pw-browsers`) — confirm the
+changed game/quests render, key fields show (walkthrough, reward, aiTip,
+difficulty/length chips, region), and the console has zero page errors. For a
+docs/config-only change with no app surface, note that and skip the render.
+
+**After every prod deploy, record the changes.** Append a dated entry to
+`CHANGELOG.md` (repo root) listing the merged PR title(s) and a one-line summary
+of what shipped.
+
+**After every prod deploy, QA prod.** Run the same QA procedure against
+`npm run build:prod`. Note: the live `github.io` URL is blocked by the
+environment network policy, so QA runs against the local prod build, not the
+live site.
+
 ## Pull requests
 
 **Every change ships as its own pull request, titled after the change.** No
