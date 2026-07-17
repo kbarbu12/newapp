@@ -1,3 +1,61 @@
+# Update — Full QA pass + walkthrough backfill for 403 quests (all games now complete)
+
+**Date:** 2026-07-17
+**Branches:** `staging` → `main` (shipped to prod)
+**Live site:** https://kbarbu12.github.io/newapp/
+
+## What this update does
+Ran a full QA test of the staging site, found that **403 quests across 7 games**
+had no real walkthrough content (only a `youtube.com/results?search_query=…`
+search URL, which the app treats as "No video"), and backfilled a step-by-step
+`walkthrough` for every one of them. After this, **every quest in the catalog
+(1737 across 21 games) has a real video or a walkthrough** — no gaps remain.
+
+### QA test (staging)
+- Built the `staging` branch and drove the live redesign in a real browser:
+  home/library render, per-game counts, difficulty filter, search, quest-detail
+  dialog, and the Saved / Progress / Settings tabs all work; **no JS errors**.
+- Data integrity confirmed: no duplicate IDs, no blank required fields, every
+  game present in `gameImages` — `audit.js` clean.
+- **Finding:** 403 quests had neither a real video nor a `walkthrough` array, so
+  they opened with no actual guide content. All were pre-existing (not from the
+  Skyrim/Zelda additions, which were already clean).
+
+### The fix — step-by-step walkthroughs authored for all 403
+Each entry keeps its existing field structure and gains a 4–5 step `walkthrough`
+authored from game knowledge, matching the other games' convention:
+
+| Game | Quests |
+| --- | --- |
+| Cyberpunk 2077: Ultimate Edition | 128 |
+| The Witcher 3: Wild Hunt | 81 |
+| Ghost of Tsushima | 62 |
+| Final Fantasy VII Rebirth | 54 |
+| Persona 5 Royal | 35 |
+| Pillars of Eternity II: Deadfire | 27 |
+| Black Myth: Wukong | 16 |
+| **Total** | **403** |
+
+- **Cyberpunk 2077:** main story (Act 1 → all endings), companion arcs (Judy,
+  Panam, Kerry, River, Rogue), all **17 Cyberpsycho Sightings** (with Regina's
+  non-lethal-subdue guidance), the full fixer-gig slate across every district,
+  and the Phantom Liberty campaign + Dogtown gigs.
+- **Witcher 3:** main story (Bloody Baron → Kaer Morhen → Hearts of Stone &
+  Blood and Wine), contracts (oils/Signs/bombs tactics), and the witcher-gear
+  scavenger hunts.
+- **Ghost of Tsushima:** Jin's journey (Komoda Beach → Kamiagata → Iki), the
+  companion Tales (Yuna, Ishikawa, Masako, Kenji, Norio), Mythic Tales, and
+  activities (shrines, duels, bamboo strikes).
+- **FF7 Rebirth / P5R / POE2 / Black Myth:** story chapters/Palaces/regions,
+  Odd Jobs & minigames, Confidants & Mementos requests, faction/companion
+  quests, and boss-fight tactics.
+- Result: `audit.js` integrity-clean; **0 walkthrough gaps across all 21 games**.
+
+### Deploy
+Shipped `staging` (deploy ✅), then promoted `staging` → `main` (prod deploy ✅).
+
+---
+
 # Update — The Elder Scrolls V: Skyrim added + reusable quest-data schema
 
 **Date:** 2026-07-16
