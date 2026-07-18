@@ -5,6 +5,9 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-07-17
 
+- **Exempt CHANGELOG/TODO edits from the one-PR-per-change rule** (PR #41) —
+  pure `CHANGELOG.md`/`TODO.md` edits now ride along with the change they
+  describe instead of requiring a dedicated PR.
 - **Add TODO list for deferred owner work** (PR #40) — added `TODO.md` tracking
   the deferred live-site prod QA (rule 3, blocked by the environment network
   policy) and the merged branches awaiting manual deletion.

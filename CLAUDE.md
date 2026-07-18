@@ -36,6 +36,11 @@ whose title names what changed — e.g. `Add Assassin's Creed Valhalla (142
 quests)` or `Fix Valhalla difficulty values: Easy -> Low`. One logical change
 per PR; don't batch unrelated changes together.
 
+**Exception:** pure `CHANGELOG.md` and `TODO.md` edits don't need their own PR —
+fold them into the PR for the change they describe (e.g. the changelog entry for
+a deploy rides along in that deploy's PR). Only spin up a dedicated PR for these
+files when they're the sole substantive change and nothing else is in flight.
+
 Fill in `.github/pull_request_template.md` (GitHub loads it automatically) and
 complete its checklist honestly before requesting review. PRs target `staging`
 (see Deployment above).
