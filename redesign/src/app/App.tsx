@@ -1089,6 +1089,8 @@ export default function App() {
   const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>(urlParams.get("video") as VideoFilter) ?? (localStorage.getItem("lastVideo") as VideoFilter) ?? "All");
   const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
   const [missableOnly,   setMissableOnly]   = useState(()=>urlParams.get("missable")==="1");
+  const [catFilter,   setCatFilter]   = useState<string>(()=>urlParams.get("cat") ?? "All");
+  const [regionFilter,setRegionFilter]= useState<string>(()=>urlParams.get("region") ?? "All");
   const [sort,        setSort]        = useState<SortOption>("default");
   const [search,      setSearch]      = useState(()=>urlParams.get("q") ?? "");
   const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
@@ -1137,10 +1139,12 @@ export default function App() {
     if(videoFilter!=="All") params.set("video",videoFilter);
     if(notStartedOnly) params.set("notStarted","1");
     if(missableOnly) params.set("missable","1");
+    if(catFilter!=="All") params.set("cat",catFilter);
+    if(regionFilter!=="All") params.set("region",regionFilter);
     if(search) params.set("q",search);
     const qs = params.toString();
     window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
-  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,search]);
+  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
 
   const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
   const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
@@ -1220,6 +1224,8 @@ export default function App() {
     if(videoFilter==="No Video"&&q.video)return false;
     if(notStartedOnly&&completedIds.has(q.id))return false;
     if(missableOnly&&!q.missable)return false;
+    if(catFilter!=="All"&&q.category!==catFilter)return false;
+    if(regionFilter!=="All"&&q.region!==regionFilter)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
   }).sort((a,b)=>{
@@ -1230,16 +1236,36 @@ export default function App() {
     // default: group by game when viewing all so the list has clear structure
     if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
-  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,completedIds,search,sort]);
+  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,completedIds,search,sort]);
+
+  // Category/Region sub-filter options come from the selected game's own data
+  // (config lives in the source quest file; here we derive from loaded quests so
+  // any game with multiple categories/regions gets the filters for free).
+  const subOptions = useMemo(()=>{
+    if(selectedGame==="All") return { cats:[] as string[], regions:[] as string[] };
+    const g = QUESTS.filter(q=>q.game===selectedGame);
+    const cats = [...new Set(g.map(q=>q.category).filter(Boolean) as string[])];
+    const regions = [...new Set(g.map(q=>q.region).filter(Boolean) as string[])].sort();
+    return { cats, regions };
+  },[selectedGame]);
 
   // Only a bounded batch of quest cards is mounted at once — 949 cards in the
   // DOM simultaneously was the main source of the page's bloat. Reset the
   // batch whenever the result set changes so "Load more" starts fresh.
   const BATCH = 36;
   const [visibleCount, setVisibleCount] = useState(BATCH);
-  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,search]);
+  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
 
-  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,!!search].filter(Boolean).length;
+  // Category/Region are game-specific; clear them when the game changes so a
+  // stale value from another game never zeroes out the results. Skip the first
+  // run so a shared URL's cat/region survive the initial mount.
+  const gameChangeMounted = useRef(false);
+  useEffect(()=>{
+    if(!gameChangeMounted.current){ gameChangeMounted.current = true; return; }
+    setCatFilter("All"); setRegionFilter("All");
+  },[selectedGame]);
+
+  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
 
   const selectedMeta=selectedGame!=="All"?GAMES[selectedGame]:null;
 
@@ -1251,7 +1277,8 @@ export default function App() {
   // the empty state, and the removable-chips row's "Clear all".
   const resetFilters = ()=>{
     setSelectedGame("All"); setTypeFilter("All"); setDiffFilter("All"); setLenFilter("All");
-    setVideoFilter("All"); setNotStartedOnly(false); setMissableOnly(false); setSearch("");
+    setVideoFilter("All"); setNotStartedOnly(false); setMissableOnly(false);
+    setCatFilter("All"); setRegionFilter("All"); setSearch("");
   };
 
   const filterChips = [
@@ -1262,6 +1289,8 @@ export default function App() {
     videoFilter!=="All" && { label:videoFilter, tone:"purple", onRemove:()=>setVideoFilter("All") },
     notStartedOnly && { label:"Not started", tone:"purple", onRemove:()=>setNotStartedOnly(false) },
     missableOnly && { label:"Missable", tone:"purple", onRemove:()=>setMissableOnly(false) },
+    catFilter!=="All" && { label:`Category: ${catFilter}`, tone:"gold", onRemove:()=>setCatFilter("All") },
+    regionFilter!=="All" && { label:`Region: ${regionFilter}`, tone:"gold", onRemove:()=>setRegionFilter("All") },
     !!search && { label:`"${search}"`, tone:"gold", onRemove:()=>setSearch("") },
   ].filter(Boolean) as { label:string; tone:"gold"|"amber"|"purple"; onRemove:()=>void }[];
 
@@ -1432,6 +1461,12 @@ export default function App() {
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
+                    {subOptions.cats.length>1 && (
+                      <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Category</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.cats],catFilter,setCatFilter)}</div></div>
+                    )}
+                    {subOptions.regions.length>1 && (
+                      <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Region</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.regions],regionFilter,setRegionFilter)}</div></div>
+                    )}
                     <div className="flex flex-col gap-1">
                       <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">More</span>
                       <div className="flex gap-1.5 flex-wrap">

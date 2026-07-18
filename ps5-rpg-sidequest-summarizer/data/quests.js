@@ -113,6 +113,11 @@ const gameImages = {
     gradient: "linear-gradient(135deg, #0a1420 0%, #1e5a8a 50%, #d4a017 100%)",
     abbr: "ACV",
     cover: "images/Assasins-creed-valhalla-cover.jpg"
+  },
+  "Assassin's Creed Odyssey": {
+    gradient: "linear-gradient(135deg, #0a1a2e 0%, #1e6091 50%, #e8b04b 100%)",
+    abbr: "ACOD",
+    cover: "images/assasins-creed-odysey-cover.jpg"
   }
 };
 
@@ -477,6 +482,60 @@ const subFilterConfig = {
       { value: "England (open world)", text: "England (open world)" }
     ]
   }
+,
+  "Assassin's Creed Odyssey": [
+    {
+      field: "category",
+      label: "Category",
+      options: [
+        { value: "Main Story", text: "Main Story" },
+        { value: "Side Quest", text: "Side Quest" },
+        { value: "Lost Tales of Greece", text: "Lost Tales of Greece" },
+        { value: "Cult of Kosmos", text: "Cult of Kosmos" },
+        { value: "Legendary Beasts", text: "Legendary Beasts" },
+        { value: "Mythical Creatures", text: "Mythical Creatures" },
+        { value: "Romances", text: "Romances" },
+        { value: "Tombs", text: "Tombs" },
+        { value: "Ainigmata Ostraka", text: "Ainigmata Ostraka" }
+      ]
+    },
+    {
+      field: "region",
+      label: "Region",
+      options: [
+        { value: "Achaia", text: "Achaia" },
+        { value: "Argolis", text: "Argolis" },
+        { value: "Arid Islands", text: "Arid Islands" },
+        { value: "Arkadia", text: "Arkadia" },
+        { value: "Attika", text: "Attika" },
+        { value: "Boeotia", text: "Boeotia" },
+        { value: "Cyclades Islands", text: "Cyclades Islands" },
+        { value: "Elis", text: "Elis" },
+        { value: "Euboea", text: "Euboea" },
+        { value: "Forest Islands", text: "Forest Islands" },
+        { value: "Greece (open world)", text: "Greece (open world)" },
+        { value: "Kephallonia", text: "Kephallonia" },
+        { value: "Korinthia", text: "Korinthia" },
+        { value: "Kythera Island", text: "Kythera Island" },
+        { value: "Lakonia", text: "Lakonia" },
+        { value: "Lokris", text: "Lokris" },
+        { value: "Megaris", text: "Megaris" },
+        { value: "Messara", text: "Messara" },
+        { value: "Northern Greece", text: "Northern Greece" },
+        { value: "Northern Sporades", text: "Northern Sporades" },
+        { value: "Obsidian Islands", text: "Obsidian Islands" },
+        { value: "Paradise Islands", text: "Paradise Islands" },
+        { value: "Peloponnese", text: "Peloponnese" },
+        { value: "Pephka", text: "Pephka" },
+        { value: "Petrified Islands", text: "Petrified Islands" },
+        { value: "Phokis", text: "Phokis" },
+        { value: "Pirate Islands", text: "Pirate Islands" },
+        { value: "Silver Islands", text: "Silver Islands" },
+        { value: "Southern Sporades", text: "Southern Sporades" },
+        { value: "Various", text: "Various" }
+      ]
+    }
+  ]
 };
 
 const quests = [
@@ -40246,5 +40305,7028 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Unmask and eliminate the Fathers of Understanding to complete the hunt and claim its unique rewards."
     ],
     video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Order%20of%20the%20Ancients%20%E2%80%94%20Full%20Hunt%20Overview%20walkthrough"
+  },
+{
+    id: 1999,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "A Taste of Thermopylae",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Play as the legendary Spartan king in the opening flashback battle of Thermopylae.",
+      "Fight through waves of Persian soldiers using the game's basic combat tutorial prompts.",
+      "Use the Leonidas Spear ability (Spartan Kick) to knock enemies off cliff edges.",
+      "Complete the battle to transition into the present-day storyline as the adult misthios on Kephallonia."
+    ],
+    video: "https://www.youtube.com/watch?v=oLPHnrwxfqg"
+  },
+{
+    id: 2000,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "So It Begins",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Wake up as the misthios (Alexios or Kassandra) on the island of Kephallonia.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Wake up as the misthios (Alexios or Kassandra) on the island of Kephallonia.",
+      "Meet Markos, who introduces the current debt troubles and the local island politics.",
+      "Complete the basic exploration and combat tutorial objectives around the village."
+    ],
+    video: "https://www.youtube.com/watch?v=5NcOKvyvsIw"
+  },
+{
+    id: 2001,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Debt Collector",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Accept Markos's job to collect a debt from a local farmer who owes him money.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Accept Markos's job to collect a debt from a local farmer who owes him money.",
+      "Travel to the farmer's location and choose to intimidate, fight, or negotiate to recover the debt.",
+      "Return to Markos to collect your cut of the payment."
+    ],
+    video: "https://www.youtube.com/watch?v=hDveopQQFbg"
+  },
+{
+    id: 2002,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "An Eye for an Eye",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a dispute involving a local resident who has been wronged by a rival.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a dispute involving a local resident who has been wronged by a rival.",
+      "Track down the target responsible and resolve the conflict through combat or dialogue choices.",
+      "Report back to complete the quest and receive a reward."
+    ],
+    video: "https://www.youtube.com/watch?v=5jS7M14epgY"
+  },
+{
+    id: 2003,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Fancy Guests",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Learn that important guests have arrived on Kephallonia, drawing the misthios into local intrigue.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Learn that important guests have arrived on Kephallonia, drawing the misthios into local intrigue.",
+      "Investigate the guests' business on the island and the tension it creates with locals.",
+      "Complete the associated objectives to progress the introductory storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=C7kUz_uBzzU"
+  },
+{
+    id: 2004,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Penelope's Shroud",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Undertake a quest tied to a local legend referencing Penelope's weaving trick from the Odyssey myth.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Undertake a quest tied to a local legend referencing Penelope's weaving trick from the Odyssey myth.",
+      "Retrieve or investigate the item/location connected to the legend.",
+      "Return to the quest giver to complete the objective and receive a reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ds2BS-_oDTU"
+  },
+{
+    id: 2005,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Big Break",
+    location: "Kephallonia",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Reach the climax of the Kephallonia introduction, where Markos offers the misthios their first major mercenary contract.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Reach the climax of the Kephallonia introduction, where Markos offers the misthios their first major mercenary contract.",
+      "Complete the final tasks needed to prove capability as a mercenary.",
+      "Trigger the transition into Chapter 2, where the story moves toward the wider Peloponnesian War."
+    ],
+    video: "https://www.youtube.com/watch?v=748lBDCsERA"
+  },
+{
+    id: 2006,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Learning the Ropes",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Begin training and taking on contracts to build a reputation as a mercenary.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Begin training and taking on contracts to build a reputation as a mercenary.",
+      "Complete introductory naval combat aboard the Adrestia, the misthios's ship.",
+      "Recruit initial crew members to strengthen the ship for future voyages."
+    ],
+    video: "https://www.youtube.com/watch?v=bMdf7LhB8jA"
+  },
+{
+    id: 2007,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Equal Employment Opportunity Program",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Take on a contract requiring the recruitment of a new crew member with a particular skill set.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Take on a contract requiring the recruitment of a new crew member with a particular skill set.",
+      "Track down the candidate and convince them to join the Adrestia's crew.",
+      "Return to complete the recruitment objective."
+    ],
+    video: "https://www.youtube.com/watch?v=PjofBlfLkuQ"
+  },
+{
+    id: 2008,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Side Quest - A Life's Dedication",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Encounter an NPC whose personal story ties to sacrifice or devotion on the island.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Encounter an NPC whose personal story ties to sacrifice or devotion on the island.",
+      "Complete the associated investigation or fetch objective tied to their request.",
+      "Resolve the quest through dialogue choices affecting the NPC's outcome."
+    ],
+    video: "https://www.youtube.com/watch?v=jx17Uunv3Ms"
+  },
+{
+    id: 2009,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Side Quest - Language of the Ancients",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Discover a lead pointing toward ancient First Civilization ruins or artifacts on the island.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Discover a lead pointing toward ancient First Civilization ruins or artifacts on the island.",
+      "Investigate the location marked by the quest to uncover hidden lore.",
+      "Interact with the ancient tablet or artifact to complete the quest and gain insight into the First Civilization."
+    ],
+    video: "https://www.youtube.com/watch?v=rV8hjBBTRX8"
+  },
+{
+    id: 2010,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Side Quest - Chasing Phantoms",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate reports of a mysterious figure or apparition troubling locals.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate reports of a mysterious figure or apparition troubling locals.",
+      "Track the phantom to its source, which typically reveals a mundane or supernatural-seeming explanation.",
+      "Resolve the situation to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=Nsf2ljjd2jA"
+  },
+{
+    id: 2011,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Side Quest - Origins of a Ritual",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Learn of a local ritual tied to the island's cultural or religious practices.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Learn of a local ritual tied to the island's cultural or religious practices.",
+      "Investigate the ritual's origins by speaking with practitioners or examining ritual sites.",
+      "Complete the quest by participating in or resolving the ritual's central conflict."
+    ],
+    video: "https://www.youtube.com/watch?v=xStBM2JnFsg"
+  },
+{
+    id: 2012,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "A Journey into War",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Set sail from Kephallonia toward Megaris, entering the wider war between Athens and Sparta.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Set sail from Kephallonia toward Megaris, entering the wider war between Athens and Sparta.",
+      "Navigate naval combat encounters en route, fighting off hostile ships.",
+      "Make landfall in Megaris to begin the confrontation with Athenian forces occupying the region."
+    ],
+    video: "https://www.youtube.com/watch?v=UXeO4zbfTps"
+  },
+{
+    id: 2013,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Athenian Leader",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate the Athenian military presence in Megaris and identify their commanding leader.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate the Athenian military presence in Megaris and identify their commanding leader.",
+      "Engage in combat or stealth to weaken the Athenian hold on the region.",
+      "Defeat or drive off the Athenian leader to shift the region's control toward Sparta."
+    ],
+    video: "https://www.youtube.com/watch?v=7v56DJJEnr0"
+  },
+{
+    id: 2014,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Final Push",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Lead the decisive assault to fully rout Athenian forces from Megaris.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Lead the decisive assault to fully rout Athenian forces from Megaris.",
+      "Fight through the remaining resistance at the region's fortified positions.",
+      "Trigger the region's conquest, setting up the confrontation with Nikolaos, the Wolf of Sparta."
+    ],
+    video: "https://www.youtube.com/watch?v=qJmxl2mJZfE"
+  },
+{
+    id: 2015,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Wolf of Sparta",
+    location: "Kephallonia / Megaris",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Meet Nikolaos, the Spartan general known as the Wolf of Sparta, atop the cliffs of Megaris after the region's fall.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Meet Nikolaos, the Spartan general known as the Wolf of Sparta, atop the cliffs of Megaris after the region's fall.",
+      "Choose between confronting him for revenge (killing him, triggering a fight with Stentor) or seeking answers (sparing him).",
+      "This choice significantly affects which of the game's multiple endings become available later.",
+      "Receive Nikolaos's Sword and the Wolf's Helm quest item regardless of the choice made."
+    ],
+    video: "https://www.youtube.com/watch?v=ej_OzfnK9yA"
+  },
+{
+    id: 2016,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Onwards to Phokis",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Set sail from Megaris toward the region of Phokis, following leads about the misthios's family history.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Set sail from Megaris toward the region of Phokis, following leads about the misthios's family history.",
+      "Navigate to the Sanctuary of Delphi, home of the famous Oracle.",
+      "Make initial contact with locals about the region's political and religious tensions."
+    ],
+    video: "https://www.youtube.com/watch?v=ntmj8KJ8Mzs"
+  },
+{
+    id: 2017,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Side Quest - Crewless",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a report of an abandoned or troubled ship needing new crew members.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a report of an abandoned or troubled ship needing new crew members.",
+      "Recruit the stranded sailors to join the Adrestia's roster.",
+      "Complete the quest by returning the recruits safely to the ship."
+    ],
+    video: "https://www.youtube.com/watch?v=xMR-30nLTos"
+  },
+{
+    id: 2018,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Side Quest - Helping a Healer",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Encounter a local healer in need of assistance gathering supplies or treating patients.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Encounter a local healer in need of assistance gathering supplies or treating patients.",
+      "Complete the fetch or escort objective tied to the healer's request.",
+      "Return to the healer to resolve the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=k-6Ev5xtE9c"
+  },
+{
+    id: 2019,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "The Wolf's Fate",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Deal with the narrative consequences of the earlier choice made regarding Nikolaos.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Deal with the narrative consequences of the earlier choice made regarding Nikolaos.",
+      "If Nikolaos was spared, continue building his side storyline; if killed, deal with Stentor's aftermath instead.",
+      "Progress toward the Oracle of Delphi storyline in Phokis."
+    ],
+    video: "https://www.youtube.com/watch?v=cqs4JTXZNF8"
+  },
+{
+    id: 2020,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Snake in the Grass",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate suspicious activity connected to a hidden threat lurking within Phokis.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate suspicious activity connected to a hidden threat lurking within Phokis.",
+      "Track down and confront the individual responsible for the region's troubles.",
+      "Resolve the conflict to continue progressing toward the Oracle."
+    ],
+    video: "https://www.youtube.com/watch?v=J6j0-u0_G5M"
+  },
+{
+    id: 2021,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Consulting a Ghost",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Travel to the Sanctuary of Delphi on Mount Parnassos and meet Barnabas and the historian Herodotus at the Temple of Apollo.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Travel to the Sanctuary of Delphi on Mount Parnassos and meet Barnabas and the historian Herodotus at the Temple of Apollo.",
+      "Speak with the temple priest to gain admittance to see the Pythia, the Oracle of Delphi.",
+      "Ask the Oracle a question — regardless of which is chosen, you'll be hastily escorted out of the temple afterward."
+    ],
+    video: "https://www.youtube.com/watch?v=ln-Qbw8iYZI"
+  },
+{
+    id: 2022,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "The Truth Will Out",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Follow up on the Oracle's cryptic message by investigating further leads around Delphi.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Follow up on the Oracle's cryptic message by investigating further leads around Delphi.",
+      "Piece together clues connecting the Cult of Kosmos to the region's events.",
+      "Progress toward uncovering the identity of the cult's local operatives."
+    ],
+    video: "https://www.youtube.com/watch?v=WboRQOBr5HI"
+  },
+{
+    id: 2023,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "The Serpent's Lair",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Follow the Oracle's revealed clue to the secret meeting place of the Cult of Kosmos.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Follow the Oracle's revealed clue to the secret meeting place of the Cult of Kosmos.",
+      "Infiltrate the hidden cult location, fighting through cultist guards.",
+      "Confront and eliminate the cult members present to deal a blow against their Phokis operations."
+    ],
+    video: "https://www.youtube.com/watch?v=NbPVufjBRmQ"
+  },
+{
+    id: 2024,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Memories Awoken",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Experience a flashback or vision revealing more about the misthios's childhood and family history.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Experience a flashback or vision revealing more about the misthios's childhood and family history.",
+      "Piece together new information about the events that separated the family on Mount Taygetos.",
+      "Set the stage for the journey toward Athens."
+    ],
+    video: "https://www.youtube.com/watch?v=TQhnokdawEI"
+  },
+{
+    id: 2025,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Welcome to Athens",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Arrive in Athens, the political and cultural heart of the Delian League.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Arrive in Athens, the political and cultural heart of the Delian League.",
+      "Get acquainted with the city's key locations, including the Acropolis and Agora.",
+      "Meet key Athenian political figures who will factor into the coming storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=qz5GYgUHTxE"
+  },
+{
+    id: 2026,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "A Venomous Encounter",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a poisoning plot or threat targeting a notable Athenian figure.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a poisoning plot or threat targeting a notable Athenian figure.",
+      "Track down the source of the poison and those responsible.",
+      "Resolve the immediate threat to progress the Athens storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=HKwOdKtF9zo"
+  },
+{
+    id: 2027,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Escape from Athens",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Deal with the fallout of prior events, forcing a hasty escape from the city.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Deal with the fallout of prior events, forcing a hasty escape from the city.",
+      "Navigate through Athens while evading guards or hostile factions.",
+      "Reach the meeting point with Phidias or another ally to regroup (note: if Phidias appears already dead, reload an earlier save, as this indicates a bugged quest state)."
+    ],
+    video: "https://www.youtube.com/watch?v=ohb_rcaeThs"
+  },
+{
+    id: 2028,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Ostracised",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Get caught up in Athens's political practice of ostracism, where citizens vote to exile a public figure.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Get caught up in Athens's political practice of ostracism, where citizens vote to exile a public figure.",
+      "Investigate the political maneuvering behind the ostracism vote.",
+      "Influence the outcome of the vote through the quest's available choices."
+    ],
+    video: "https://www.youtube.com/watch?v=ueSuvk60TTw"
+  },
+{
+    id: 2029,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Perikles's Symposium",
+    location: "Attika",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Receive an invitation to a symposium (elite social gathering) hosted by the Athenian statesman Perikles.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Receive an invitation to a symposium (elite social gathering) hosted by the Athenian statesman Perikles.",
+      "Navigate the symposium's social dynamics, meeting influential guests including philosophers and politicians.",
+      "Complete the symposium's dialogue-driven objectives to strengthen ties with Athens's elite."
+    ],
+    video: "https://www.youtube.com/watch?v=NsjqjICXHIY"
+  },
+{
+    id: 2030,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Island of Misfortune",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Sail to an island plagued by misfortune, tied to the search for a missing person.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Sail to an island plagued by misfortune, tied to the search for a missing person.",
+      "Investigate the island's troubles and gather clues about the missing individual.",
+      "Progress the search by following the trail left behind."
+    ],
+    video: "https://www.youtube.com/watch?v=S7e-b-sfgMo"
+  },
+{
+    id: 2031,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "To Find a Girl",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Continue the search for a missing girl, following leads across the Cyclades.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Continue the search for a missing girl, following leads across the Cyclades.",
+      "Interview witnesses and investigate locations connected to her disappearance.",
+      "Narrow down her likely location to continue the pursuit."
+    ],
+    video: "https://www.youtube.com/watch?v=MQp9Go6Pu14"
+  },
+{
+    id: 2032,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Port of Lawlessness",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Travel to a lawless port town known for piracy and criminal activity.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Travel to a lawless port town known for piracy and criminal activity.",
+      "Investigate leads within the port, dealing with hostile criminal factions as needed.",
+      "Gather further information relevant to the ongoing search."
+    ],
+    video: "https://www.youtube.com/watch?v=r0Jt9vAEoW8"
+  },
+{
+    id: 2033,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "To Help a Girl",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Locate the girl at the center of the search and assess her situation.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Locate the girl at the center of the search and assess her situation.",
+      "Choose how to assist her, with dialogue choices affecting the outcome.",
+      "Complete the immediate objective to continue the storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=RVt7sxruxxQ"
+  },
+{
+    id: 2034,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Follow That Boat",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Pursue a fleeing vessel connected to the ongoing investigation.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Pursue a fleeing vessel connected to the ongoing investigation.",
+      "Engage in naval combat or chase sequences to intercept the boat.",
+      "Board the vessel to continue uncovering the plot."
+    ],
+    video: "https://www.youtube.com/watch?v=rqy_jILVxWU"
+  },
+{
+    id: 2035,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Monger Down",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Track down a war profiteer or 'monger' contributing to the region's suffering.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Track down a war profiteer or 'monger' contributing to the region's suffering.",
+      "Confront the target, using combat or stealth as preferred.",
+      "Eliminate or apprehend the target to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=23fJxz3chJo"
+  },
+{
+    id: 2036,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "First Do No Harm",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a medical or healer-related plot thread tied to the region's troubles.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a medical or healer-related plot thread tied to the region's troubles.",
+      "Gather information from local healers or patients about suspicious activity.",
+      "Progress the investigation toward its next lead."
+    ],
+    video: "https://www.youtube.com/watch?v=s0PMIHvC87Q"
+  },
+{
+    id: 2037,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "The Doctor Will See You Now",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Track down a specific doctor connected to the unfolding plot.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Track down a specific doctor connected to the unfolding plot.",
+      "Confront the doctor about their involvement in recent events.",
+      "Resolve the encounter through dialogue or combat, depending on choices made."
+    ],
+    video: "https://www.youtube.com/watch?v=ieXTrtb7bKU"
+  },
+{
+    id: 2038,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "The Priests of Asklepios",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate the priesthood of Asklepios, the Greek god of medicine, and their role in local events.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate the priesthood of Asklepios, the Greek god of medicine, and their role in local events.",
+      "Explore their temple or sanctuary for clues tied to the ongoing storyline.",
+      "Confront the priests about their connection to the Cult of Kosmos if revealed."
+    ],
+    video: "https://www.youtube.com/watch?v=8WV53H9UOMY"
+  },
+{
+    id: 2039,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Speak No Evil",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a cover-up or conspiracy of silence among local figures.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a cover-up or conspiracy of silence among local figures.",
+      "Pressure witnesses or suspects into revealing what they know.",
+      "Piece together the truth to progress the chapter's storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=91FtWwHEF4g"
+  },
+{
+    id: 2040,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Ashes to Ashes",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Respond to a crisis involving a burning temple, rescuing anyone trapped inside (commonly a baby, per known player reports).",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Respond to a crisis involving a burning temple, rescuing anyone trapped inside (commonly a baby, per known player reports).",
+      "If the quest doesn't progress, ensure you've met the mother again and searched for her husband before confirming the kill on the responsible cultist.",
+      "Complete all sub-objectives in sequence to avoid the quest becoming stuck."
+    ],
+    video: "https://www.youtube.com/watch?v=QcYt7lBEQpI"
+  },
+{
+    id: 2041,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Abandoned by the Gods",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a location or individual left to suffer without divine or communal aid.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a location or individual left to suffer without divine or communal aid.",
+      "Resolve the immediate crisis through the available quest choices.",
+      "Progress the chapter's overarching plot about the region's growing chaos."
+    ],
+    video: "https://www.youtube.com/watch?v=DqaPgroiNDE"
+  },
+{
+    id: 2042,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "And the Streets Run Red",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Respond to escalating violence in the streets tied to the region's unrest.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Respond to escalating violence in the streets tied to the region's unrest.",
+      "Engage hostile factions contributing to the chaos.",
+      "Stabilize the immediate situation to continue toward the chapter's climax."
+    ],
+    video: "https://www.youtube.com/watch?v=cRV8PhBnBU0"
+  },
+{
+    id: 2043,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Athens' Last Hope",
+    location: "Cyclades Islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Reach the climactic confrontation of Chapter 5, tied to Athens's fate amid the ongoing plague and war.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Reach the climactic confrontation of Chapter 5, tied to Athens's fate amid the ongoing plague and war.",
+      "Complete the chapter's final major objective, which involves a significant story choice.",
+      "Progress into Chapter 6 following the chapter's resolution."
+    ],
+    video: "https://www.youtube.com/watch?v=1IF719UzVnA"
+  },
+{
+    id: 2044,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "A Mother's Prayers",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Reconnect with the misthios's mother, Myrrine, continuing the family storyline.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Reconnect with the misthios's mother, Myrrine, continuing the family storyline.",
+      "Learn of her current struggles and the region under her influence.",
+      "Agree to help address the threats facing her and her territory."
+    ],
+    video: "https://www.youtube.com/watch?v=e4lPD0FTuNM"
+  },
+{
+    id: 2045,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Catching Up",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Spend time reconnecting with Myrrine, learning more about family history and her role as a leader.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Spend time reconnecting with Myrrine, learning more about family history and her role as a leader.",
+      "Discuss the current political situation on Paros and Naxos under her rule.",
+      "Agree to assist with the region's growing conflicts."
+    ],
+    video: "https://www.youtube.com/watch?v=b-5fhYhT780"
+  },
+{
+    id: 2046,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Death and Disorder",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate rising death and chaos within Myrrine's territory.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate rising death and chaos within Myrrine's territory.",
+      "Track down those responsible for the disorder, whether bandits, rival factions, or cult agents.",
+      "Restore a measure of order to progress the questline."
+    ],
+    video: "https://www.youtube.com/watch?v=mCKK0BNWTRs"
+  },
+{
+    id: 2047,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Quarry Quandary",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate trouble at a local quarry under dispute between factions.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate trouble at a local quarry under dispute between factions.",
+      "Resolve the labor or ownership conflict at the quarry site.",
+      "Complete the objective to stabilize the region further."
+    ],
+    video: "https://www.youtube.com/watch?v=KyqPV1tBfhs"
+  },
+{
+    id: 2048,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "The Paros Blockade",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Address a naval blockade threatening Paros's trade and security.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Address a naval blockade threatening Paros's trade and security.",
+      "Engage the blockading ships in naval combat to break the siege.",
+      "Secure Paros's waters to protect Myrrine's territory."
+    ],
+    video: "https://www.youtube.com/watch?v=BldWc91A8dE"
+  },
+{
+    id: 2049,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Unified Front",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Work to unify local factions under Myrrine's leadership against a common threat.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Work to unify local factions under Myrrine's leadership against a common threat.",
+      "Complete objectives tied to rallying support across Paros and Naxos.",
+      "Note: this quest can require reducing the 'nation' control bar — if killing one faction's soldiers doesn't progress it due to territorial linkage bugs, target the opposing faction's soldiers instead (e.g. Spartans if Athenians aren't registering)."
+    ],
+    video: "https://www.youtube.com/watch?v=6ZuFonbo2c8"
+  },
+{
+    id: 2050,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Side Quest - A Family's Legacy",
+    location: "Cyclades / Paros",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Explore further into the family's history and legacy within the region.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Explore further into the family's history and legacy within the region.",
+      "Investigate a location or artifact tied to family history.",
+      "Complete the quest to deepen the narrative around the misthios's origins."
+    ],
+    video: "https://www.youtube.com/watch?v=bCX64YVUmUk"
+  },
+{
+    id: 2051,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Home Sweet Home",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Return to Sparta, the misthios's ancestral homeland, for the first time in the story.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Return to Sparta, the misthios's ancestral homeland, for the first time in the story.",
+      "Reconnect with Spartan society and its customs.",
+      "Meet key figures who will factor into the Spartan storyline ahead."
+    ],
+    video: "https://www.youtube.com/watch?v=QXqV17bB1ek"
+  },
+{
+    id: 2052,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Kings of Sparta",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Meet the dual kings of Sparta and learn about the city-state's unique governance structure.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Meet the dual kings of Sparta and learn about the city-state's unique governance structure.",
+      "Navigate the political tensions between the royal houses.",
+      "Progress toward involvement in Spartan political and athletic events."
+    ],
+    video: "https://www.youtube.com/watch?v=RvZ5jMTJaA8"
+  },
+{
+    id: 2053,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Delivering a Champion",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Assist in preparing a champion for the upcoming Pankration (Spartan combat competition).",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Assist in preparing a champion for the upcoming Pankration (Spartan combat competition).",
+      "Complete training or logistical objectives to support the champion's preparation.",
+      "Learn that the original champion, Testikles, is unable to compete, setting up the misthios's own entry."
+    ],
+    video: "https://www.youtube.com/watch?v=rkJ4nWMkMwQ"
+  },
+{
+    id: 2054,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "The Contender",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Find Paios, the pankration organizer near the bleachers northeast of the Temple of Zeus at Olympia, and take Testikles's place in the competition.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Find Paios, the pankration organizer near the bleachers northeast of the Temple of Zeus at Olympia, and take Testikles's place in the competition.",
+      "Fight through a series of one-on-one fistfights against other contenders without using Overpower abilities.",
+      "Win the pankration to progress the storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=VFpgZ7OBnRs"
+  },
+{
+    id: 2055,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "The Long Game",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Continue navigating the aftermath of the pankration victory and its political ripple effects.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Continue navigating the aftermath of the pankration victory and its political ripple effects.",
+      "Investigate a longer-term plot involving Spartan leadership and the Cult of Kosmos's influence.",
+      "Gather intelligence to progress toward the next major confrontation."
+    ],
+    video: "https://www.youtube.com/watch?v=WbFEPk63KWQ"
+  },
+{
+    id: 2056,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Pankration",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Participate further in Spartan athletic and combat traditions tied to the pankration storyline.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Participate further in Spartan athletic and combat traditions tied to the pankration storyline.",
+      "Complete any remaining fight objectives tied to the tournament structure.",
+      "Progress the narrative toward Alkibiades's storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=35OgEgB09r8"
+  },
+{
+    id: 2057,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "To Kill or Not to Kill",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "After Alkibiades is poisoned following the pankration victory, investigate who is responsible.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "After Alkibiades is poisoned following the pankration victory, investigate who is responsible.",
+      "Track down the culprit behind the poisoning.",
+      "Choose whether to kill or spare the responsible party — this choice affects later story outcomes."
+    ],
+    video: "https://www.youtube.com/watch?v=gTSeGezH4OA"
+  },
+{
+    id: 2058,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "White Lies and Blackmail",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a blackmail plot involving Spartan officials or nobility.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a blackmail plot involving Spartan officials or nobility.",
+      "Gather evidence of the blackmail scheme.",
+      "Choose how to resolve the situation, exposing or covering up the blackmail."
+    ],
+    video: "https://www.youtube.com/watch?v=SSAK8arGizI"
+  },
+{
+    id: 2059,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Gluten Free",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a lighter side-plot involving food, poison, or dietary intrigue among Spartan elites (title implies a comedic tone typical of Odyssey's side content).",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a lighter side-plot involving food, poison, or dietary intrigue among Spartan elites (title implies a comedic tone typical of Odyssey's side content).",
+      "Resolve the quest's central conflict through dialogue or investigation.",
+      "Complete the objective to continue Spartan chapter content."
+    ],
+    video: "https://www.youtube.com/watch?v=tzWDa_j_2kE"
+  },
+{
+    id: 2060,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Judge, Jury, Executioner",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Take part in a Spartan judicial matter, acting as arbiter or enforcer of a verdict.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Take part in a Spartan judicial matter, acting as arbiter or enforcer of a verdict.",
+      "Weigh the evidence presented regarding the accused party.",
+      "Choose the outcome of the judgment, which carries narrative consequences."
+    ],
+    video: "https://www.youtube.com/watch?v=vhX55w8EuDg"
+  },
+{
+    id: 2061,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "The Conqueror",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Undertake a major military objective tied to Spartan conquest ambitions, alongside four smaller support quests.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Undertake a major military objective tied to Spartan conquest ambitions, alongside four smaller support quests.",
+      "Complete each of the four support objectives to build toward the main assault.",
+      "Lead or support the conquest effort to its conclusion."
+    ],
+    video: "https://www.youtube.com/watch?v=sjTOLppygug"
+  },
+{
+    id: 2062,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "A Bloody Feast",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Attend a Spartan feast that turns violent or reveals hidden treachery.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Attend a Spartan feast that turns violent or reveals hidden treachery.",
+      "React to the unfolding chaos at the feast, fighting off threats as needed.",
+      "Survive the encounter to progress toward the chapter's climax."
+    ],
+    video: "https://www.youtube.com/watch?v=kZmJV0mVl20"
+  },
+{
+    id: 2063,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "The Battle of Pylos",
+    location: "Lakonia (Sparta)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Take part in the historic Battle of Pylos, a major military engagement between Athens and Sparta.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Take part in the historic Battle of Pylos, a major military engagement between Athens and Sparta.",
+      "Fight through the large-scale battle, using both naval and ground combat as the situation unfolds.",
+      "Secure victory in the battle to conclude Chapter 7 and progress the war's overall trajectory."
+    ],
+    video: "https://www.youtube.com/watch?v=LIsyiOwkFNQ"
+  },
+{
+    id: 2064,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Doing Time",
+    location: "Attika / Athens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Find the misthios imprisoned or otherwise constrained as Chapter 8 opens.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Find the misthios imprisoned or otherwise constrained as Chapter 8 opens.",
+      "Complete objectives to secure release or escape from the confined situation.",
+      "Reconnect with allies following the escape."
+    ],
+    video: "https://www.youtube.com/watch?v=P24WOy7Ov5U"
+  },
+{
+    id: 2065,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "An Actor's Life for Me",
+    location: "Attika / Athens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Get drawn into a theatrical or performance-based cover story, likely involving Athenian theater culture.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Get drawn into a theatrical or performance-based cover story, likely involving Athenian theater culture.",
+      "Complete objectives tied to maintaining the cover or performing a role.",
+      "Use the disguise or performance to advance the plot's next stage."
+    ],
+    video: "https://www.youtube.com/watch?v=syybcI92mOw"
+  },
+{
+    id: 2066,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "A-Musing Tale",
+    location: "Attika / Athens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Investigate a plot thread involving the Greek Muses or artistic/cultural intrigue (a pun on 'amusing').",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Investigate a plot thread involving the Greek Muses or artistic/cultural intrigue (a pun on 'amusing').",
+      "This quest is a key point in the Cult of Kosmos storyline — the Delian League's cultist Rhexenor becomes trackable only after this quest and related Athens side quests (Socrates, Alkibiades, Aristophanes chains) are progressed.",
+      "Complete the quest's central objective to continue unraveling the cult's Athens branch."
+    ],
+    video: "https://www.youtube.com/watch?v=sObObfiI7YY"
+  },
+{
+    id: 2067,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Unearthing the Truth",
+    location: "Attika / Athens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Dig into buried secrets connected to the Cult of Kosmos's activities in Athens.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Dig into buried secrets connected to the Cult of Kosmos's activities in Athens.",
+      "Investigate physical or documentary evidence tied to the cult's Athens branch leadership.",
+      "Uncover the truth needed to move toward exposing the Cult's local Sage."
+    ],
+    video: "https://www.youtube.com/watch?v=tq1OenELqEI"
+  },
+{
+    id: 2068,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "We Will Rise",
+    location: "Attika / Athens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Rally allies and resources for a final push against the forces threatening Athens.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Rally allies and resources for a final push against the forces threatening Athens.",
+      "Complete the mobilization objectives needed to stage the coming confrontation.",
+      "Conclude Chapter 8, setting up the game's Epilogue."
+    ],
+    video: "https://www.youtube.com/watch?v=Q_7_9MS2jsU"
+  },
+{
+    id: 2069,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Where It All Began",
+    location: "Various",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Return to the location tied to the misthios's earliest childhood memory, revisiting the story's origins.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Return to the location tied to the misthios's earliest childhood memory, revisiting the story's origins.",
+      "Reflect on the journey completed since Chapter 1, tying together the game's major narrative threads.",
+      "Complete the reflective sequence to move toward the game's final scenes."
+    ],
+    video: "https://www.youtube.com/watch?v=ldg1GlnjTRQ"
+  },
+{
+    id: 2070,
+    type: "main",
+    category: "Main Story",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Dinner in Sparta - Family Reunion",
+    location: "Various",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
+    summary: "Gather surviving family members for a final reunion dinner, contingent on choices made throughout the story.",
+    aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
+    walkthrough: [
+      "Gather surviving family members for a final reunion dinner, contingent on choices made throughout the story.",
+      "Reflect on the family's journey and the fates of Nikolaos, Myrrine, and siblings depending on prior decisions.",
+      "Complete this scene to conclude the Family-focused narrative branch of the main story.",
+      "Note: this is one of three possible endings — the others involve confronting the Cult of Kosmos's leadership directly or sealing Atlantis, both requiring additional questline completion beyond the main path."
+    ],
+    video: "https://www.youtube.com/watch?v=51m8r6o1rtc"
+  },
+{
+    id: 2071,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Hungry Gods",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=4VhpMfT3kg0"
+  },
+{
+    id: 2072,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Merciful Gods",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=J6R1je8ayq4"
+  },
+{
+    id: 2073,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "A Ship Came Sailing",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=uoYLGBUnfJg"
+  },
+{
+    id: 2074,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Fight with Talos",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Ws3RTC7lUdg"
+  },
+{
+    id: 2075,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "In the Footsteps of Gods",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Hy9tgNei3Ik"
+  },
+{
+    id: 2076,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Lumbering Along",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=fHlQNXpulqw"
+  },
+{
+    id: 2077,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "The Blood Fever",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=T7i-xs-AU1M"
+  },
+{
+    id: 2078,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Mercenary Work",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=JtY7NPVWlrI"
+  },
+{
+    id: 2079,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Shark the Vagrant",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=0e8TbAhhDu8"
+  },
+{
+    id: 2080,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "A Small Odyssey",
+    location: "Kephallonia Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Ic_3ZpHQxgs"
+  },
+{
+    id: 2081,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Megaris",
+    title: "Record Sunshine",
+    location: "Megaris",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Megaris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Megaris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Record%20Sunshine%20walkthrough"
+  },
+{
+    id: 2082,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Megaris",
+    title: "Happy Hour",
+    location: "Megaris",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Megaris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Megaris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Happy%20Hour%20walkthrough"
+  },
+{
+    id: 2083,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Pressed for Time",
+    location: "Phokis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Phokis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Phokis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Pressed%20for%20Time%20walkthrough"
+  },
+{
+    id: 2084,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "A Specific General",
+    location: "Phokis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Phokis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Phokis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20A%20Specific%20General%20walkthrough"
+  },
+{
+    id: 2085,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lokris",
+    title: "Family Values",
+    location: "Lokris",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lokris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lokris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=6gJ26YmtFkw"
+  },
+{
+    id: 2086,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lokris",
+    title: "Confiscated",
+    location: "Lokris",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lokris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lokris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=NKawMdvhdn8"
+  },
+{
+    id: 2087,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Once a Slave...",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=CQN3YtNXD7Y"
+  },
+{
+    id: 2088,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "The Taxman Cometh",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=hRTziN7yZBI"
+  },
+{
+    id: 2089,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Death and Taxes",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=CdW_v78c3HU"
+  },
+{
+    id: 2090,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Sharp Tongue",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=nGgh37QS4tY"
+  },
+{
+    id: 2091,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Blood and Water",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=DBc4FoE1_ro"
+  },
+{
+    id: 2092,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Dagger in the Heart",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=89MJ0G0LImA"
+  },
+{
+    id: 2093,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Wasn't Born the Kingfisher",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=U21ztUIip4I"
+  },
+{
+    id: 2094,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "The Kingfisher and the Robin",
+    location: "Abantis Islands (Euboea and Skyros)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=TAYBGZvBtSc"
+  },
+{
+    id: 2095,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Creating Opportunity",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=b0fZjajxo_I"
+  },
+{
+    id: 2096,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "A Friend in Need...",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=G8HKEEhc5GI"
+  },
+{
+    id: 2097,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Heitor's Gonna Hate",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=gbvjGylJJxs"
+  },
+{
+    id: 2098,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "For the People",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=OwJMP7V8MPY"
+  },
+{
+    id: 2099,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "He Who Stops",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=kzPIiXScSEc"
+  },
+{
+    id: 2100,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "The Liberator",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=qIjaRfRL1yA"
+  },
+{
+    id: 2101,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Citizenship Test",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Part of the Alkibiades/Aristophanes side quest chain leading toward exposing the Delian League cultist branch.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Part of the Alkibiades/Aristophanes side quest chain leading toward exposing the Delian League cultist branch."
+    ],
+    video: "https://www.youtube.com/watch?v=QofH9L2Vrk4"
+  },
+{
+    id: 2102,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Witness Him",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Continuation of the citizenship-test chain; testimony-gathering quest tied to Athens political intrigue.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Continuation of the citizenship-test chain; testimony-gathering quest tied to Athens political intrigue."
+    ],
+    video: "https://www.youtube.com/watch?v=PqNEaB-uC14"
+  },
+{
+    id: 2103,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Free Speech",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Continuation of the Athens political chain, involving public speech and debate mechanics.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Continuation of the Athens political chain, involving public speech and debate mechanics."
+    ],
+    video: "https://www.youtube.com/watch?v=dLe1ECmU0Wg"
+  },
+{
+    id: 2104,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "On a High Horse",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Later step in the Athens chain — known to occasionally bug out and not appear on the map; if missing, ensure 'A Friend in Need' was fully completed first.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Later step in the Athens chain — known to occasionally bug out and not appear on the map; if missing, ensure 'A Friend in Need' was fully completed first."
+    ],
+    video: "https://www.youtube.com/watch?v=kA39FdQiYyk"
+  },
+{
+    id: 2105,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "A Life's Worth",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Final quest in the Athens Socrates/Alkibiades/Aristophanes chain — completing it reveals the Cult of Kosmos's Delian League branch member 'The Master' at a marble quarry south of Athens.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Final quest in the Athens Socrates/Alkibiades/Aristophanes chain — completing it reveals the Cult of Kosmos's Delian League branch member 'The Master' at a marble quarry south of Athens."
+    ],
+    video: "https://www.youtube.com/watch?v=rO4rgXpoufU"
+  },
+{
+    id: 2106,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Korinthia",
+    title: "Handle of Care",
+    location: "Korinthia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Korinthia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Korinthia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Ehbg1n-AyzE"
+  },
+{
+    id: 2107,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "Enough is Enough",
+    location: "Argolis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=XMDZkh3Sjfk"
+  },
+{
+    id: 2108,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "Written in Stone",
+    location: "Argolis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ddlT1qpoyVQ"
+  },
+{
+    id: 2109,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "Death Comes for Us",
+    location: "Argolis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=wh533mTcRwk"
+  },
+{
+    id: 2110,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "The Writing's on the Wall",
+    location: "Naxos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Cyclades Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Cyclades Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ETviPVgvH8I"
+  },
+{
+    id: 2111,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Lost and Found",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=sGBdqTJWcPo"
+  },
+{
+    id: 2112,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Making Friends",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=qyaUhSJjEtw"
+  },
+{
+    id: 2113,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Heart of Stone",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Jx1Af4hBGR4"
+  },
+{
+    id: 2114,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Recruitment Drive",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Y1AM88mGZJ0"
+  },
+{
+    id: 2115,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Red in the Wreckage",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=THJZZWA7TmA"
+  },
+{
+    id: 2116,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "We're Not Thieves",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=F1YyTvzoqRw"
+  },
+{
+    id: 2117,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "We're Treasure Hunters",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ywK1hsrbd3U"
+  },
+{
+    id: 2118,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Birds of a Feather (Rumored Feather Location)",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=MNUagaVQ5yo"
+  },
+{
+    id: 2119,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Sacred Vows (Rumored Bracelet Location)",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=WuZMTWVySV0"
+  },
+{
+    id: 2120,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "She Who Controls the Seas (Rumored Conch Shell Location)",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=TI4DrR6AhGU"
+  },
+{
+    id: 2121,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Throw the Dice (Pan's Flute)",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=UBCPfT_xw1A"
+  },
+{
+    id: 2122,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Priceless Treasure",
+    location: "Pirate Islands (Seriphos, Keos and Lestris)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=1LWfhTLQwZc"
+  },
+{
+    id: 2123,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Obsidian Islands",
+    title: "Sparring with Roxana",
+    location: "Obsidian Islands (Hydrea and Melos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Romance-flagged side quest introducing the Roxana companion storyline.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Romance-flagged side quest introducing the Roxana companion storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=A0fU7EmQUgA"
+  },
+{
+    id: 2124,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Obsidian Islands",
+    title: "Archery Practice",
+    location: "Obsidian Islands (Hydrea and Melos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Obsidian Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Obsidian Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=3v1dhTsxv24"
+  },
+{
+    id: 2125,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Obsidian Islands",
+    title: "Foot Race",
+    location: "Obsidian Islands (Hydrea and Melos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Obsidian Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Obsidian Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=HMg_hv2KZN0"
+  },
+{
+    id: 2126,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Obsidian Islands",
+    title: "Call to Arms & The Great Contender",
+    location: "Obsidian Islands (Hydrea and Melos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Leads into a multi-stage combat gauntlet — defeat waves of contenders culminating in fighting three Brutes atop a mountain to claim the One Hundredth Hand reward.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Leads into a multi-stage combat gauntlet — defeat waves of contenders culminating in fighting three Brutes atop a mountain to claim the One Hundredth Hand reward."
+    ],
+    video: "https://www.youtube.com/watch?v=iMkqjYpfLL0"
+  },
+{
+    id: 2127,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "The Sokratic Method",
+    location: "Silver Islands (Delos and Mykonos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Q-gEKiyipl4"
+  },
+{
+    id: 2128,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "\"M\" for Murder",
+    location: "Silver Islands (Delos and Mykonos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=l6FxTEzhb2I"
+  },
+{
+    id: 2129,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "Goddess of the Hunt",
+    location: "Silver Islands (Delos and Mykonos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=pr3_dn94uBs"
+  },
+{
+    id: 2130,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "The Thaletas Way",
+    location: "Silver Islands (Delos and Mykonos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Romance-flagged side quest introducing the Thaletas companion storyline.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Romance-flagged side quest introducing the Thaletas companion storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=bOOMX76YUbk"
+  },
+{
+    id: 2131,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "Paint the Sand Red",
+    location: "Silver Islands (Delos and Mykonos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=tceuXvNh_W8"
+  },
+{
+    id: 2132,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Southern Sporades",
+    title: "A Business Opportunity",
+    location: "Southern Sporades (Kos and Samos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=OnOPwPFISRo"
+  },
+{
+    id: 2133,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Southern Sporades",
+    title: "Old Friends, Old Problems",
+    location: "Southern Sporades (Kos and Samos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=QLLbPNsfd9k"
+  },
+{
+    id: 2134,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Southern Sporades",
+    title: "Farm in Flames",
+    location: "Southern Sporades (Kos and Samos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Ol1id-K6u0Q"
+  },
+{
+    id: 2135,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Civil Unrest",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ydPgbo8dhvc"
+  },
+{
+    id: 2136,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Say That Again!",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=6n_HKkMPB4U"
+  },
+{
+    id: 2137,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "The Lost Arkalochori Axe",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=JrzQS1odhv4"
+  },
+{
+    id: 2138,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Catch and Release",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=pO4EKiPypUI"
+  },
+{
+    id: 2139,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Flowers for the Dead",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=GNjytkgnEkw"
+  },
+{
+    id: 2140,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Myths and Minotaurs",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=5UXxHwzXo_A"
+  },
+{
+    id: 2141,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Minotaurs and People",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=iUYtoD4huuU"
+  },
+{
+    id: 2142,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "He Waits",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=TxYaf6OrZuI"
+  },
+{
+    id: 2143,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Bare It All",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=4Sklzv1hSLw"
+  },
+{
+    id: 2144,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "It's Complicated",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=fwVpKlJX_hk"
+  },
+{
+    id: 2145,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Gortyn Out of Hand",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=EWGBcEVsF3Q"
+  },
+{
+    id: 2146,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Revenge Served Cold",
+    location: "Messara",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=1t-JDOVmoM8"
+  },
+{
+    id: 2147,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pephka",
+    title: "Minotour de Force",
+    location: "Pephka",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=W9OyccFpLAc"
+  },
+{
+    id: 2148,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pephka",
+    title: "What Lies Below the Surface",
+    location: "Pephka",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=xjUU7S2UmTk"
+  },
+{
+    id: 2149,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pephka",
+    title: "No More Bull",
+    location: "Pephka",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=OwlNDqd3uGA"
+  },
+{
+    id: 2150,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pephka",
+    title: "Bravely Ran Away",
+    location: "Pephka",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=G8NCevYiKak"
+  },
+{
+    id: 2151,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pephka",
+    title: "The Grand Minotaur",
+    location: "Pephka",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=IjpO125CFic"
+  },
+{
+    id: 2152,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "I, Diona",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Romance-flagged side quest introducing the Diona companion storyline.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Romance-flagged side quest introducing the Diona companion storyline."
+    ],
+    video: "https://www.youtube.com/watch?v=CRF_bss9Awc"
+  },
+{
+    id: 2153,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "Purple Pain",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=e0OmvEepWZ4"
+  },
+{
+    id: 2154,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "By the Fates",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=JDGl9UFD7QI"
+  },
+{
+    id: 2155,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "Idiot Hunt",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=0vSbOmtyoXE"
+  },
+{
+    id: 2156,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "Takes Drachmae to Make Drachmae",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=iYzg1t7Y4nE"
+  },
+{
+    id: 2157,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "A God Among Men (Left to Dye / Stairway to Olympos)",
+    location: "Kythera Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=0yGM6Dco_dM"
+  },
+{
+    id: 2158,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Revenge of the Wolf",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Tjvo3ikgeAQ"
+  },
+{
+    id: 2159,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Shroud of the Bear",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=2W5GZdZXsS8"
+  },
+{
+    id: 2160,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Qamra, Medicine Woman",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=aEs1WhidjxQ"
+  },
+{
+    id: 2161,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "The Elixir",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Mq1bAa9zP70"
+  },
+{
+    id: 2162,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Waiting for Galarnos",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=TI8p8TCJVjE"
+  },
+{
+    id: 2163,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Son of a Fisherman",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=wIl57cM-jPE"
+  },
+{
+    id: 2164,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Ambition",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Du7uqmInunk"
+  },
+{
+    id: 2165,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Training Days",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=lytvA6opLu8"
+  },
+{
+    id: 2166,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Brothers in Arms",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=gJP33T3E9s8"
+  },
+{
+    id: 2167,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Not My Mother's Daughter",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=d4XczoFdjfY"
+  },
+{
+    id: 2168,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "A Godless Blight",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=oxcL4nkiias"
+  },
+{
+    id: 2169,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Sacred Favors",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Wonsd8cMx78"
+  },
+{
+    id: 2170,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "A Treasury of Legends",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FVyytDZ0lFQ"
+  },
+{
+    id: 2171,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Achaia",
+    title: "The Dunce Conundrum",
+    location: "Achaia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Achaia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Achaia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=zmILcilsMIM"
+  },
+{
+    id: 2172,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Achaia",
+    title: "Another Kind of Poetry",
+    location: "Achaia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Achaia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Achaia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=TNPZdMPFCp0"
+  },
+{
+    id: 2173,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Tough Love",
+    location: "Volcanic Islands (Thassos and Lemnos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FOWaislskYU"
+  },
+{
+    id: 2174,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Have You Seen My Mikros?",
+    location: "Volcanic Islands (Thassos and Lemnos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=IdvFNvRV0J8"
+  },
+{
+    id: 2175,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Retribution",
+    location: "Volcanic Islands (Thassos and Lemnos)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=J3Uq1v8zA2Y"
+  },
+{
+    id: 2176,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Clothes Make the Daughter",
+    location: "Chios",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ac-KO1W6Ovc"
+  },
+{
+    id: 2177,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Hostage Situation",
+    location: "Chios",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=f-7-c4hYK30"
+  },
+{
+    id: 2178,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Chip on Your Shoulder",
+    location: "Chios",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=BLTOtnYisRw"
+  },
+{
+    id: 2179,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Kallipateira",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A woman disguised as a man to watch her son compete at Olympia is caught and sentenced to death for violating the rule barring married women from the Games. Find proof of her family's Olympic heritage by speaking with her son and investigating northwest of the sanctuary, then return to the priestess at the mountain to either condemn or spare her.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "A woman disguised as a man to watch her son compete at Olympia is caught and sentenced to death for violating the rule barring married women from the Games. Find proof of her family's Olympic heritage by speaking with her son and investigating northwest of the sanctuary, then return to the priestess at the mountain to either condemn or spare her."
+    ],
+    video: "https://www.youtube.com/watch?v=2hxelpbwYrg"
+  },
+{
+    id: 2180,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Throwing the Bet",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=kwB55F7Fc1M"
+  },
+{
+    id: 2181,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "The Drachmae of Romance",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=CfY0JML_UcU"
+  },
+{
+    id: 2182,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Gutter Runner",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=1miZsUT5zQI"
+  },
+{
+    id: 2183,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "The Message, the Stick, and the Artist",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=rIjj_lAWOZ0"
+  },
+{
+    id: 2184,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Art Leading Life",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=uTZ13WBjQXE"
+  },
+{
+    id: 2185,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Journey's End",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
+      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
+      "Return to the quest-giver (or complete the final objective) to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=KLNxgWJzs_8"
+  },
+{
+    id: 2186,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Golden Feather of Ajax",
+    location: "Treasure Hunting for Xenia (Keos Island)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "One of three treasure-hunt quests given by the romance NPC Xenia, tracked via cryptic treasure map clues rather than a marked waypoint.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "One of three treasure-hunt quests given by the romance NPC Xenia, tracked via cryptic treasure map clues rather than a marked waypoint."
+    ],
+    video: "https://www.youtube.com/watch?v=rU8jJf0A5gM"
+  },
+{
+    id: 2187,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Makedonian Bracelet",
+    location: "Treasure Hunting for Xenia (Keos Island)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the buried bracelet.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the buried bracelet."
+    ],
+    video: "https://www.youtube.com/watch?v=rRE56sE9mb4"
+  },
+{
+    id: 2188,
+    type: "side",
+    category: "Side Quest",
+    game: "Assassin's Creed Odyssey",
+    region: "Pirate Islands",
+    title: "Triton's Shell of the Tides",
+    location: "Treasure Hunting for Xenia (Keos Island)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
+    summary: "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the shell.",
+    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
+    walkthrough: [
+      "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the shell."
+    ],
+    video: "https://www.youtube.com/watch?v=8khC-gCEzrY"
+  },
+{
+    id: 2189,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "A Brother's Seduction",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Sixth Lost Tale. Speak with Lykinos at the Altar of the Cyclops in Korinthia (via the 'Prodigal Son's Return' starter quest), carry him to his father's farm, then complete three branching objectives: clear the Ruined Temple of Zeus of bandits, recover Diocles's armor from a merchant, and deliver a graveside offering found at the Sea Captain's Dock.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Sixth Lost Tale. Speak with Lykinos at the Altar of the Cyclops in Korinthia (via the 'Prodigal Son's Return' starter quest), carry him to his father's farm, then complete three branching objectives: clear the Ruined Temple of Zeus of bandits, recover Diocles's armor from a merchant, and deliver a graveside offering found at the Sea Captain's Dock."
+    ],
+    video: "https://www.youtube.com/watch?v=jZIDH2JsgPM"
+  },
+{
+    id: 2190,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "The Show Must Go On",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "First Lost Tale. Quest giver is found in the Elis region, accessible once Episode 5 of the main story is reached.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "First Lost Tale. Quest giver is found in the Elis region, accessible once Episode 5 of the main story is reached."
+    ],
+    video: "https://www.youtube.com/watch?v=Pc8DXHikKx0"
+  },
+{
+    id: 2191,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Divine Intervention",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Second Lost Tale. Quest giver is found in the Korinthia region, accessible after reaching Episode 5 of the main story.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Second Lost Tale. Quest giver is found in the Korinthia region, accessible after reaching Episode 5 of the main story."
+    ],
+    video: "https://www.youtube.com/watch?v=-IAa8Q4nORk"
+  },
+{
+    id: 2192,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "The Image of Faith",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Fourth Lost Tale, involving an unavoidable fight and a choice that affects a village's beliefs.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Fourth Lost Tale, involving an unavoidable fight and a choice that affects a village's beliefs."
+    ],
+    video: "https://www.youtube.com/watch?v=9f_cvvenX-o"
+  },
+{
+    id: 2193,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "A Poet's Legacy",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Speak with Orchimedes in the Boeotia region via the 'Praxilla's Admirer' starter quest, accessible after reaching Episode 5 of the main story.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Speak with Orchimedes in the Boeotia region via the 'Praxilla's Admirer' starter quest, accessible after reaching Episode 5 of the main story."
+    ],
+    video: "https://www.youtube.com/watch?v=YE_5wzEUFks"
+  },
+{
+    id: 2194,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "A Friend Worth Dying For",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Rewards a unique snake-headed kopis sword upon completion.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Rewards a unique snake-headed kopis sword upon completion."
+    ],
+    video: "https://www.youtube.com/watch?v=YyB2LOFQvj0"
+  },
+{
+    id: 2195,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "One Really, Really Bad Day",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "A free 'Lost Tales of Greece' episode. Start it from its dedicated marker and follow the self-contained storyline.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Open the episode from its dedicated quest marker (check the level requirement first).",
+      "Follow the story objectives — these episodes mix dialogue, investigation, and light combat.",
+      "Complete the finale to claim the episode's unique reward."
+    ],
+    video: "https://www.youtube.com/watch?v=qrvQfQtDwpQ"
+  },
+{
+    id: 2196,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Every Story Has An Ending",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "A free 'Lost Tales of Greece' episode. Start it from its dedicated marker and follow the self-contained storyline.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Open the episode from its dedicated quest marker (check the level requirement first).",
+      "Follow the story objectives — these episodes mix dialogue, investigation, and light combat.",
+      "Complete the finale to claim the episode's unique reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FN6LV8_U5yI"
+  },
+{
+    id: 2197,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Old Flames Burn Brighter",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "A free 'Lost Tales of Greece' episode. Start it from its dedicated marker and follow the self-contained storyline.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Open the episode from its dedicated quest marker (check the level requirement first).",
+      "Follow the story objectives — these episodes mix dialogue, investigation, and light combat.",
+      "Complete the finale to claim the episode's unique reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Ss2dyJWUHgk"
+  },
+{
+    id: 2198,
+    type: "side",
+    category: "Lost Tales of Greece",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Socrates' Trial",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "Unique gear or engravings tied to the episode; free post-launch content.",
+    summary: "Accessible after reaching Episode 5 and completing 'A Life's Worth' — speak with Xanthippe in Phokis via the 'A Sokratic Mess' starter quest.",
+    aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
+    walkthrough: [
+      "Accessible after reaching Episode 5 and completing 'A Life's Worth' — speak with Xanthippe in Phokis via the 'A Sokratic Mess' starter quest."
+    ],
+    video: "https://www.youtube.com/watch?v=3mmbdabc8kQ"
+  },
+{
+    id: 2199,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Elpenor",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Eyes of Kosmos. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=VjQqsJFyDQ0"
+  },
+{
+    id: 2200,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Hermippos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Eyes of Kosmos. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=4lpTSdasHf4"
+  },
+{
+    id: 2201,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Master",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Eyes of Kosmos. Revealed via the Attika side quest chain culminating in 'A Life's Worth.' Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=6b6YgN1tk-I"
+  },
+{
+    id: 2202,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Midas",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Eyes of Kosmos. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=wdQOJzPEH2Q"
+  },
+{
+    id: 2203,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Sotera",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Eyes of Kosmos. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=DmqABt5PO3A"
+  },
+{
+    id: 2204,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Nyx the Shadow",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Eyes of Kosmos. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=Z0acnAJbSkk"
+  },
+{
+    id: 2205,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Epiktetos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=TwzStbYgt6Y"
+  },
+{
+    id: 2206,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Centaur of Euboea",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=MURloKnQ0EA"
+  },
+{
+    id: 2207,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Chimera",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=ijJuhxe48FA"
+  },
+{
+    id: 2208,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Machaon",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=Pr2fGQa_atA"
+  },
+{
+    id: 2209,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Silver Griffin",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=mYHoJSL6C0E"
+  },
+{
+    id: 2210,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Polemon",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Silver Vein. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=7_0Z9iqm1I4"
+  },
+{
+    id: 2211,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Brison",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Delian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=Q59TcOgh61o"
+  },
+{
+    id: 2212,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Iobates",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Delian League. Found on Lemnos, hiding in a tent; killing the mercenary Aigle nearby yields the clue to his identity. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=6aZkpzMeVZY"
+  },
+{
+    id: 2213,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Kodros",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Delian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=fznwu2pXiy8"
+  },
+{
+    id: 2214,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Podarkes",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Delian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=0lyjvXfiY_w"
+  },
+{
+    id: 2215,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Rhexenor",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Delian League. One of the last cultists reachable — only spawns very late, after 'A-Musing Tale' and its prerequisite Athens quest chain. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=ZhSrZEQmq8U"
+  },
+{
+    id: 2216,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Kleon",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Delian League. A rival Athenian general to Perikles, killed during the main story's 'A-Musing Tale' quest — unmissable. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=H6gxEFKfJF4"
+  },
+{
+    id: 2217,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Kallias",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=2njLo_OBX0E"
+  },
+{
+    id: 2218,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Monger",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=k8vbBrkgFFU"
+  },
+{
+    id: 2219,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Silanos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=XJU-ecjkRaQ"
+  },
+{
+    id: 2220,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Skylax",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=AZZSsVMYaSU"
+  },
+{
+    id: 2221,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Lagos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Peloponnesian League. Possibly defects rather than being killed outright, depending on how the encounter plays out. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=JRyTbt29_Eo"
+  },
+{
+    id: 2222,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Pausanias",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=U6KTpKR6PGc"
+  },
+{
+    id: 2223,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Asterion",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=MDOM-f542LQ"
+  },
+{
+    id: 2224,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Melanthos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=Ubxh6wPjZGA"
+  },
+{
+    id: 2225,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Mytilenian Shark",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=Ud9lohF3YTk"
+  },
+{
+    id: 2226,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Octopus",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=MpZTIp-o5rI"
+  },
+{
+    id: 2227,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Sokos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=v9Z1HHz6jBU"
+  },
+{
+    id: 2228,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Hydra",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Gods of the Aegean Sea. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=RB8e5tNHTH8"
+  },
+{
+    id: 2229,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Chrysis",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Worshippers of the Bloodline. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=4jvmiCjI_aw"
+  },
+{
+    id: 2230,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Diona",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Worshippers of the Bloodline. Shares a name with the Kythera Island romance NPC — distinct character. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=yQLgyhTiyxc"
+  },
+{
+    id: 2231,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Harpalos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Worshippers of the Bloodline. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=5dFtfFEFwMI"
+  },
+{
+    id: 2232,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Melite",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Worshippers of the Bloodline. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=xWQE0ZgzQJ4"
+  },
+{
+    id: 2233,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Zoisme",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Worshippers of the Bloodline. A reclusive hermit living with a tamed bear in the woodlands near the Bay of Xerxes in Malis. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=_gCmMLoo3Jk"
+  },
+{
+    id: 2234,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Iokaste",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Worshippers of the Bloodline. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=I4V52AER9uU"
+  },
+{
+    id: 2235,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Belos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=dRNMwxb6wns"
+  },
+{
+    id: 2236,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Deianeira",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=xZOusr6Ka5A"
+  },
+{
+    id: 2237,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Okytos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=dYAyu1IcSjQ"
+  },
+{
+    id: 2238,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Pallas",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=c6flTE_4E2Y"
+  },
+{
+    id: 2239,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "\"Swordfish\"",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Adept of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=16G9UhA7tp8"
+  },
+{
+    id: 2240,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "Exekias",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "Sage (branch leader) of the Heroes of the Cult. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=RmjVU7BPMCA"
+  },
+{
+    id: 2241,
+    type: "side",
+    category: "Cult of Kosmos",
+    game: "Assassin's Creed Odyssey",
+    region: "Greece (open world)",
+    title: "The Ghost of Kosmos",
+    location: "Greece (open world)",
+    length: "short",
+    difficulty: "High",
+    reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
+    summary: "The Cult's ultimate leader, revealed only after all 8 Sages have been killed. Confronting and defeating this final target requires all other 42 members to be eliminated first, and ties into one of the game's three possible endings. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
+    walkthrough: [
+      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
+      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
+      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+    ],
+    video: "https://www.youtube.com/watch?v=_quGsbF3HsM"
+  },
+{
+    id: 2242,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Kalydonian Boar",
+    location: "Phokis",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "One of the 'Seven Beasts' legendary animal hunts, referencing the Greek myth of the Calydonian Boar hunt.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Phokis and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=-MVqy9m5Bnk"
+  },
+{
+    id: 2243,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Hind of Keryneia",
+    location: "Euboea",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "Referencing the Ceryneian Hind of the Twelve Labors of Herakles.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Euboea and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=OlrpEeXvJCM"
+  },
+{
+    id: 2244,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "The Nemean Lion",
+    location: "Argolis",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "Referencing the Nemean Lion of the Twelve Labors of Herakles.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Argolis and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=luJHzKVmfhM"
+  },
+{
+    id: 2245,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "The Erymanthian Boar",
+    location: "Elis",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "Referencing the Erymanthian Boar of the Twelve Labors of Herakles.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Elis and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=OEgneROPRS8"
+  },
+{
+    id: 2246,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Arkadia",
+    title: "Constellation of Kallisto",
+    location: "Arkadia",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "A bear-hunt tied to the myth of Kallisto, transformed into the constellation Ursa Major.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Arkadia and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=_0xAWK68w0o"
+  },
+{
+    id: 2247,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "The Kretan Bull",
+    location: "Messara",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "Referencing the Cretan Bull of the Twelve Labors of Herakles.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Messara and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=FZ9ftyVEI7Q"
+  },
+{
+    id: 2248,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Kythera Island",
+    title: "The Krokottas Hyena",
+    location: "Kythera Island",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "A legendary hyena-like beast hunt.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Kythera Island and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=qaXyPXvZG3c"
+  },
+{
+    id: 2249,
+    type: "side",
+    category: "Legendary Beasts",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "The Lykaon Wolf",
+    location: "Lakonia",
+    length: "medium",
+    difficulty: "High",
+    reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
+    summary: "A legendary wolf hunt referencing the myth of Lycaon.",
+    aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
+    walkthrough: [
+      "Travel to the beast's lair in Lakonia and approach on foot (a mount can bolt during the fight).",
+      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
+      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=gzxEA6BLRC4"
+  },
+{
+    id: 2250,
+    type: "side",
+    category: "Mythical Creatures",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Cyclops (Brontes, The Thunderer)",
+    location: "Thera (near Messara)",
+    length: "long",
+    difficulty: "High",
+    reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
+    summary: "First of the four mythical bosses tied to the 'Gateway to Atlantis' storyline, unlocked at the game's narrative midpoint. Target its glowing eye with ranged attacks; the fight intensifies with falling debris halfway through. Defeating it awards the legendary Polyphemos Cyclops Bludgeon and the first Atlantis artifact.",
+    aiTip: "Mythical bosses have multi-phase movesets and telegraphed AoE — learn the tells and keep your dodge charged. Bring second-wind healing, high defense engravings, and level up before attempting; these are among the toughest base-game fights.",
+    walkthrough: [
+      "Progress the 'Gateway to Atlantis' questline until this creature's arena unlocks.",
+      "Study the boss's telegraphed attacks — each mythical creature has signature AoE and charge patterns you must dodge or block.",
+      "Survive each phase, deal steady damage during openings, and defeat it to claim the artifact fragment and Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=tLIe7X-FpIo"
+  },
+{
+    id: 2251,
+    type: "side",
+    category: "Mythical Creatures",
+    game: "Assassin's Creed Odyssey",
+    region: "Messara",
+    title: "Minotaur",
+    location: "Minotaur Hills, Messara",
+    length: "long",
+    difficulty: "High",
+    reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
+    summary: "Reached via the 'Myths and Minotaurs' and 'Minotaurs and People' side quest chain, culminating in the 'He Waits' quest. A level-40 boss found after navigating a catacomb maze via a golden guide-thread; dodge-focused combat is essential, as it is one of the hardest fights in the base game.",
+    aiTip: "Mythical bosses have multi-phase movesets and telegraphed AoE — learn the tells and keep your dodge charged. Bring second-wind healing, high defense engravings, and level up before attempting; these are among the toughest base-game fights.",
+    walkthrough: [
+      "Progress the 'Gateway to Atlantis' questline until this creature's arena unlocks.",
+      "Study the boss's telegraphed attacks — each mythical creature has signature AoE and charge patterns you must dodge or block.",
+      "Survive each phase, deal steady damage during openings, and defeat it to claim the artifact fragment and Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=1HLQ5rnwg9Q"
+  },
+{
+    id: 2252,
+    type: "side",
+    category: "Mythical Creatures",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Sphinx",
+    location: "Petrified Islands (Lemnos/Thassos area)",
+    length: "long",
+    difficulty: "High",
+    reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
+    summary: "Unlike the other three, this encounter is a sequence of riddles rather than a traditional combat boss fight.",
+    aiTip: "Mythical bosses have multi-phase movesets and telegraphed AoE — learn the tells and keep your dodge charged. Bring second-wind healing, high defense engravings, and level up before attempting; these are among the toughest base-game fights.",
+    walkthrough: [
+      "Progress the 'Gateway to Atlantis' questline until this creature's arena unlocks.",
+      "Study the boss's telegraphed attacks — each mythical creature has signature AoE and charge patterns you must dodge or block.",
+      "Survive each phase, deal steady damage during openings, and defeat it to claim the artifact fragment and Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=uVy7ZsRqIRc"
+  },
+{
+    id: 2253,
+    type: "side",
+    category: "Mythical Creatures",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Medusa",
+    location: "Lesbos (Petrified Forest)",
+    length: "long",
+    difficulty: "High",
+    reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
+    summary: "The final and hardest of the four mythical bosses, reached via the 'Romancing the Stone Garden' quest freeing an NPC named Bryce. Medusa summons minions that must be cleared before damaging her directly, and her gaze attack slowly petrifies the player if not avoided.",
+    aiTip: "Mythical bosses have multi-phase movesets and telegraphed AoE — learn the tells and keep your dodge charged. Bring second-wind healing, high defense engravings, and level up before attempting; these are among the toughest base-game fights.",
+    walkthrough: [
+      "Progress the 'Gateway to Atlantis' questline until this creature's arena unlocks.",
+      "Study the boss's telegraphed attacks — each mythical creature has signature AoE and charge patterns you must dodge or block.",
+      "Survive each phase, deal steady damage during openings, and defeat it to claim the artifact fragment and Legendary reward."
+    ],
+    video: "https://www.youtube.com/watch?v=w2MKlK2d7Sk"
+  },
+{
+    id: 2254,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Odessa",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=nHjrdZjX5Wg"
+  },
+{
+    id: 2255,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Auxesia",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=lE0dv1kWbbU"
+  },
+{
+    id: 2256,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Kosta",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=cwgrPncVUCo"
+  },
+{
+    id: 2257,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Lykaon",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=SsaYYZjdqEg"
+  },
+{
+    id: 2258,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Alkibiades",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=JwomnSKgMg4"
+  },
+{
+    id: 2259,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Roxana",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=8MXU8OOJ8-k"
+  },
+{
+    id: 2260,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Daphnae",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=ouQojvVKUzk"
+  },
+{
+    id: 2261,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Kyra",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=AU3GuRTdB3Y"
+  },
+{
+    id: 2262,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Thaletas",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=GVKIk0mLPlQ"
+  },
+{
+    id: 2263,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Xenia",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=pzyph1qB9kI"
+  },
+{
+    id: 2264,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Diona (Romance)",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=Wt27QyspzfM"
+  },
+{
+    id: 2265,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Mikkos",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=1HKKD88aDMg"
+  },
+{
+    id: 2266,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Zopheras",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=jTI5lG7oPtI"
+  },
+{
+    id: 2267,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Aikaterine",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=cTEjoxNPzx0"
+  },
+{
+    id: 2268,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Thyia",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=nocqiOIiiZA"
+  },
+{
+    id: 2269,
+    type: "side",
+    category: "Romances",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Anais",
+    location: "Various",
+    length: "short",
+    difficulty: "Low",
+    reward: "A romance scene/relationship with the companion; some grant a keepsake or dialogue perk.",
+    summary: "Romanceable companion NPC. Romance dialogue options are unlocked through that character's associated side quest(s) or story interactions; outcomes are dialogue-driven rather than combat-driven.",
+    aiTip: "Romances are dialogue-driven — pick the heart-marked options during this character's quests. Odyssey has no exclusivity penalty, so you can pursue every romance in one playthrough.",
+    walkthrough: [
+      "Complete the side quest(s) tied to this character to unlock their romance dialogue.",
+      "Choose the heart-marked flirtation options when they appear in conversation.",
+      "Reach the romance beat to complete the relationship; you are free to romance other companions too."
+    ],
+    video: "https://www.youtube.com/watch?v=TgAjLJpwOE0"
+  },
+{
+    id: 2270,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Achaia",
+    title: "Tomb of Euryplos",
+    location: "Achaia",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Achaia (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=stiohIHnz6k"
+  },
+{
+    id: 2271,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "Agamemnon's Tomb",
+    location: "Argolis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Argolis (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=epKAZI9nxOY"
+  },
+{
+    id: 2272,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Argolis",
+    title: "Pheidon's Tomb",
+    location: "Argolis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Argolis (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=atobLwRQ6nA"
+  },
+{
+    id: 2273,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Arkadia",
+    title: "Tomb of the Daughter of Atlas",
+    location: "Arkadia",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Arkadia (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=QtVBUHzQHiM"
+  },
+{
+    id: 2274,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Arkadia",
+    title: "Waterfall of Styx",
+    location: "Arkadia",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Arkadia (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=hoo91rqWaQk"
+  },
+{
+    id: 2275,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Tomb of Eteokles",
+    location: "Attika",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Attika (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=LcAB42optyk"
+  },
+{
+    id: 2276,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Boeotia",
+    title: "Tomb of Orion",
+    location: "Boeotia",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Boeotia (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=rTP5P1VKXv4"
+  },
+{
+    id: 2277,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Stony Sepulchre",
+    location: "Chios",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Northern Sporades (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=8aqYWuZRMRs"
+  },
+{
+    id: 2278,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Silver Islands",
+    title: "Tomb of Brizo",
+    location: "Delos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Silver Islands (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=c9Kpi-IaLQU"
+  },
+{
+    id: 2279,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Destroyed House of Oinomanos",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Elis (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=ssL9miU5I0I"
+  },
+{
+    id: 2280,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Elis",
+    title: "Tomb of the First Champion",
+    location: "Elis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Elis (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=egSHRt7Ai6g"
+  },
+{
+    id: 2281,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Euboea",
+    title: "Artemision Tomb",
+    location: "Euboea",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Euboea (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=_4gsXAPweZ4"
+  },
+{
+    id: 2282,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Southern Sporades",
+    title: "Tomb of Polybotes",
+    location: "Kos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Southern Sporades (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=2qDLsbyHDn0"
+  },
+{
+    id: 2283,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Lakonia",
+    title: "Tomb of the Forgotten Hero",
+    location: "Lakonia",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Lakonia (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=kayHKlSyLCw"
+  },
+{
+    id: 2284,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Abandoned Tomb",
+    location: "Lemnos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Petrified Islands (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=H1GJfDXj4Bs"
+  },
+{
+    id: 2285,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Sporades",
+    title: "Tomb of Orpheus",
+    location: "Lesbos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Northern Sporades (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=exjVw9H4jMs"
+  },
+{
+    id: 2286,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Megaris",
+    title: "Tomb of Alkathous",
+    location: "Megaris",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Megaris (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=soF6-Aa1jTk"
+  },
+{
+    id: 2287,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Giant Heroes Burial Ground",
+    location: "Naxos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Cyclades Islands (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=o9Af4m8O7hs"
+  },
+{
+    id: 2288,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Cyclades Islands",
+    title: "Alkaios Tomb",
+    location: "Paros",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Cyclades Islands (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=QHSjbCe96YM"
+  },
+{
+    id: 2289,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Phokis",
+    title: "Tomb of the First Pythia",
+    location: "Phokis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Phokis (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=MJaiahurwdA"
+  },
+{
+    id: 2290,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Mycenean Tomb of Ajax",
+    location: "Salamis",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Attika (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=6Al-RWsyJl0"
+  },
+{
+    id: 2291,
+    type: "side",
+    category: "Tombs",
+    game: "Assassin's Creed Odyssey",
+    region: "Petrified Islands",
+    title: "Parmenon Tomb",
+    location: "Thasos",
+    length: "short",
+    difficulty: "Low",
+    reward: "1 Ability Point (from the Ancient Stele) plus loot chests inside.",
+    summary: "One of 22 tomb collectibles in the base game. Completing it (finding the Ancient Stele inside) awards 1 skill point. Pattern: find the entrance, break through a weakened wall in the first room, navigate past snakes and spike traps, and locate the stele — most tombs also contain one or more side chests with high-quality loot.",
+    aiTip: "Every tomb rewards a full Ability Point, making them the fastest way to build your skill tree early. Look for cracked walls (destroy with a melee hit), climbable ledges, and gaps to slide through; bring a torch for the dark sections.",
+    walkthrough: [
+      "Locate the tomb entrance in Petrified Islands (sync the nearest viewpoint to reveal it).",
+      "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
+      "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
+    ],
+    video: "https://www.youtube.com/watch?v=UIRV-1Ji1v8"
+  },
+{
+    id: 2292,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Bottomless Lake",
+    location: "Kephallonia Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Kephallonia Island. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Kephallonia.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=HywwMPxm3Og"
+  },
+{
+    id: 2293,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Ashes to Ashes (Ainigmata Ostraka)",
+    location: "Kephallonia Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Kephallonia Island. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Kephallonia.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=0MNWsOSBR-0"
+  },
+{
+    id: 2294,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Kephallonia",
+    title: "Fatal Attraction",
+    location: "Kephallonia Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Kephallonia Island. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Kephallonia.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=jkyyeiBLzZ8"
+  },
+{
+    id: 2295,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Greece",
+    title: "Pressed for Time (Ainigmata Ostraka)",
+    location: "Northern Greece",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Northern Greece. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Northern Greece.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=Q8RV2UT2syM"
+  },
+{
+    id: 2296,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Greece",
+    title: "A Finger Tip",
+    location: "Northern Greece",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Northern Greece. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Northern Greece.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=AgSYqvWq_6Y"
+  },
+{
+    id: 2297,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Greece",
+    title: "A Specific General (Ainigmata Ostraka)",
+    location: "Northern Greece",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Northern Greece. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Northern Greece.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=tBzcJlR7hxg"
+  },
+{
+    id: 2298,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Greece",
+    title: "Red Scent",
+    location: "Northern Greece",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Northern Greece. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Northern Greece.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=rm2FXjcso8I"
+  },
+{
+    id: 2299,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Northern Greece",
+    title: "Heart and Sole",
+    location: "Northern Greece",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Northern Greece. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Northern Greece.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=YGYl6Or2mGo"
+  },
+{
+    id: 2300,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Hound Docked",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=AkBN_2BuRzo"
+  },
+{
+    id: 2301,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Happy Hour (Ainigmata Ostraka)",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=KbUC_9OB7dc"
+  },
+{
+    id: 2302,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Record Sunshine (Ainigmata Ostraka)",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=uPoxr7NFlz8"
+  },
+{
+    id: 2303,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Backstage Pass",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=Fm8KZ4_K83Q"
+  },
+{
+    id: 2304,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Odor in the Court",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=r1Ifs9wIIyU"
+  },
+{
+    id: 2305,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "War Eagle",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=bydSdUNgPm8"
+  },
+{
+    id: 2306,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Elbow Greece",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=KX-e9BVFe_Q"
+  },
+{
+    id: 2307,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Goat's Gruff",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=iPt1D-UMY5I"
+  },
+{
+    id: 2308,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Killer View",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=qKSngBS_0DM"
+  },
+{
+    id: 2309,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Pigsty",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=QwKaG3o0TAo"
+  },
+{
+    id: 2310,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Fire in the Belly",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=0c9ibO6h7eQ"
+  },
+{
+    id: 2311,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Stadium Love",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=zESxS91wnF0"
+  },
+{
+    id: 2312,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Attika",
+    title: "Bridging the Gap",
+    location: "Attika Peninsula",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Attika Peninsula. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Attika.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=e1d9aixsZYQ"
+  },
+{
+    id: 2313,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "Helios's Greeting",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=QLBlRfMzRhc"
+  },
+{
+    id: 2314,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "Hungry for Misadventure",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=6t_dygODKTA"
+  },
+{
+    id: 2315,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "To the Edge of the World",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=4rxvaDClPSM"
+  },
+{
+    id: 2316,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "Dye Dye Dye",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=GPTg-0BaxVU"
+  },
+{
+    id: 2317,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "A Deal for Freedom",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=sa3VjBW5Kqw"
+  },
+{
+    id: 2318,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Forest Islands",
+    title: "Star-Crossed Lovers",
+    location: "Forest Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Forest Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Forest Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=Zhxr2nTZMdM"
+  },
+{
+    id: 2319,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Blue Eyed Beauty",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=ZZVrKao8VQY"
+  },
+{
+    id: 2320,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Smoke Signal",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=-KRc2Qwmrt0"
+  },
+{
+    id: 2321,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Pride of Place",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=ByH9ILEVNdI"
+  },
+{
+    id: 2322,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Stone Cold",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=1wpum92K9S4"
+  },
+{
+    id: 2323,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Estate Envy",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=taeLU_QqEjw"
+  },
+{
+    id: 2324,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Marbled Moral",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=Yb98Mk1pa1c"
+  },
+{
+    id: 2325,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Needle in a Haystack",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=JKPAO3StTc0"
+  },
+{
+    id: 2326,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Grave Discovery",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=aTAZP42bdCg"
+  },
+{
+    id: 2327,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Procrastinate Now",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=bDB2K0D2E6Y"
+  },
+{
+    id: 2328,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Paradise Islands",
+    title: "Stubborn Mule",
+    location: "Paradise Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Paradise Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Paradise Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=PYUpbfSPqvU"
+  },
+{
+    id: 2329,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Arid Islands",
+    title: "Upon Typhon's Crown",
+    location: "Arid Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=ozvoi420TiQ"
+  },
+{
+    id: 2330,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Arid Islands",
+    title: "Beneath Theseus' Dreams",
+    location: "Arid Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=PgmV1hmkl4w"
+  },
+{
+    id: 2331,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Arid Islands",
+    title: "Made in Abyss",
+    location: "Arid Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=zgqi6heCiZQ"
+  },
+{
+    id: 2332,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Arid Islands",
+    title: "'Til Death Do Us Part",
+    location: "Arid Islands",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=gkeCHbh8j18"
+  },
+{
+    id: 2333,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Turning Tides",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=LdGRa1k31ws"
+  },
+{
+    id: 2334,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "An Arm and a Leg",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=mqsZ3mwQ5uk"
+  },
+{
+    id: 2335,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Two of Clubs",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=0Edum6DhBm4"
+  },
+{
+    id: 2336,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "The Floor is Lava",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=qmgr3WVcD1Q"
+  },
+{
+    id: 2337,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Showboat",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=wm9tY_NOrA0"
+  },
+{
+    id: 2338,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Strange Disease",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=d4qKVVVnjHg"
+  },
+{
+    id: 2339,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Hobby Horsing",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=7l-nSjFf7wQ"
+  },
+{
+    id: 2340,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Farming Coin",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=5-SuoXayXgg"
+  },
+{
+    id: 2341,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Sweet Tooth",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=wNqz_Os1RjQ"
+  },
+{
+    id: 2342,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Foggy Memory",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=oK4BDg_CQV0"
+  },
+{
+    id: 2343,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Procession of Bones",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=VvZUXMVvnHM"
+  },
+{
+    id: 2344,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Tastes like Chicken",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=LAGBxp2STmo"
+  },
+{
+    id: 2345,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Rightful King",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=gKd1efyUEjM"
+  },
+{
+    id: 2346,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Mapping Out",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=keupa87g2Xg"
+  },
+{
+    id: 2347,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Soldier to Shoulder",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=K9LmwKbCuDM"
+  },
+{
+    id: 2348,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Prophecy Prevention",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=w1xcJ2s6AnY"
+  },
+{
+    id: 2349,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Rock and Roll",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=83HoT_nLQOw"
+  },
+{
+    id: 2350,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Peloponnese",
+    title: "Belly Flop",
+    location: "Peloponnese",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Peloponnese. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Peloponnese.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=0P6eQIFvYSw"
+  },
+{
+    id: 2351,
+    type: "side",
+    category: "Ainigmata Ostraka",
+    game: "Assassin's Creed Odyssey",
+    region: "Various",
+    title: "Centaur Field",
+    location: "Region not confirmed in source — name verified, location uncertain",
+    length: "short",
+    difficulty: "Low",
+    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
+    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Region not confirmed in source — name verified, location uncertain. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
+    walkthrough: [
+      "Find and pick up the Ainigmata Ostraka tablet in Various.",
+      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
+      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+    ],
+    video: "https://www.youtube.com/watch?v=0vAlUphELcg"
   }
 ];
