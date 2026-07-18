@@ -60,6 +60,7 @@ const QUESTS = quests.map((q) => ({
   game: q.game,
   title: q.title,
   ...(q.category ? { category: q.category } : {}),
+  ...(q.arc ? { arc: q.arc } : {}),
   length: q.length,
   difficulty: q.difficulty,
   summary: q.summary,
@@ -84,7 +85,7 @@ const banner =
 const body =
   banner +
   "\nexport interface Quest {\n" +
-  "  id: number; type: \"side\" | \"main\"; game: string; title: string; category?: string;\n" +
+  "  id: number; type: \"side\" | \"main\"; game: string; title: string; category?: string; arc?: string;\n" +
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\";\n" +
   "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
   "  video?: string; reward?: string; walkthrough?: string[];\n" +
