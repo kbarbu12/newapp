@@ -5,6 +5,13 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-07-18
 
+- **Add quest-type Category filter to Assassin's Creed Valhalla (England Arc)**
+  (PRs #43, #44) — reclassified all 142 Valhalla entries' `category` from
+  granular story-arc names into five quest-type buckets (Main Story · England
+  Arc · Mythology · Vinland Saga · Order of the Ancients) and preserved each
+  original arc name in a new `arc` field (passed through `gen-data.mjs`). Adds a
+  **Category** sub-filter alongside the existing **Region** filter in the
+  Valhalla `subFilterConfig`.
 - **Add Assassin's Creed Odyssey (353 entries) with Category & Region filters**
   (PR #42) — new game with the complete base-game catalog: 72 main-story quests,
   118 side quests, 10 Lost Tales of Greece, 43 Cult of Kosmos, 8 Legendary
