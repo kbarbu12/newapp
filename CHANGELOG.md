@@ -3,6 +3,21 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-07-18
+
+- **Add Assassin's Creed Odyssey (353 entries) with Category & Region filters**
+  (PR #42) — new game with the complete base-game catalog: 72 main-story quests,
+  118 side quests, 10 Lost Tales of Greece, 43 Cult of Kosmos, 8 Legendary
+  Beasts, 4 Mythical Creatures, 16 Romances, 22 Tombs, 60 Ainigmata Ostraka,
+  each enriched with summary, aiTip, difficulty, length, reward and a
+  step-by-step walkthrough. 349/353 entries carry a real, dedicated
+  `youtube.com/watch?v=` walkthrough video (the 4 without share names with
+  Ainigmata Ostraka riddles and keep authored walkthroughs). Expands the
+  redesign with game-driven **Category** and **Region** sub-filters (new
+  `category` field passed through `gen-data.mjs`; regions normalized to a
+  canonical set), and registers the game in `gameImages` + `subFilterConfig`
+  with cover art.
+
 ## 2026-07-17
 
 - **Exempt CHANGELOG/TODO edits from the one-PR-per-change rule** (PR #41) —
