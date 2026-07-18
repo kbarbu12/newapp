@@ -1,12 +1,21 @@
-# TODO
+# TODO — owner: @kbarbu12
 
-## Open
+Work parked for the repo owner to do (things the agent environment can't).
 
-- [ ] **Analytics / site traffic** _(added 2026-07-14)_ — We have no page-level
-  analytics on the site, so we can't answer "how many visits this week?" A Google
-  Search Console verification file exists (`ps5-rpg-sidequest-summarizer/google1cb4ea54f74126dd.html`),
-  but there's no analytics script embedded in the classic `index.html`. Decide
-  whether to:
-  1. Pull visit data from Google Search Console (if it's set up), and/or
-  2. Add a lightweight, privacy-friendly analytics tag (e.g. Plausible or a simple
-     counter) so we have real visit numbers going forward.
+## Enable live-site prod QA (defers CLAUDE.md rule 3)
+The "QA prod after every deploy" rule currently runs against the **local prod
+build** only, because this environment's network policy blocks the live
+`kbarbu12.github.io` host (the agent proxy returns 403 for it). To make the
+rule verify the *real* deployment:
+- Allowlist `kbarbu12.github.io` in the environment's network policy, then
+- QA can load the live `/newapp/` URL after each prod deploy (routing, DNS,
+  Pages artifact) instead of a local server.
+
+Until then, prod QA = `npm run build:prod` + local headless render.
+
+## Delete merged branches (agent can't; git proxy rejects ref deletion)
+These are merged into `main` and safe to delete via the GitHub UI:
+- `claude/ps5-rpg-sidequest-summarizer-xaidg6` (PR #37 — Valhalla)
+- `claude/add-pr-template` (PR #38 — PR template)
+- `claude/qa-and-changelog-rules` (PR #39 — QA & release rules)
+- `claude/add-todo` (PR #40 — this file, once merged)

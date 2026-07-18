@@ -5,6 +5,9 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-07-17
 
+- **Add TODO list for deferred owner work** (PR #40) — added `TODO.md` tracking
+  the deferred live-site prod QA (rule 3, blocked by the environment network
+  policy) and the merged branches awaiting manual deletion.
 - **Add QA & release rules and this changelog** (PR #39) — CLAUDE.md now requires
   a QA test after every staging push, a changelog entry after every prod deploy,
   and a QA test after every prod deploy. Added `CHANGELOG.md` (this file) and
