@@ -32,9 +32,45 @@ const ATTR_WORDS = new Set(
    " video difficulty difficult length duration summary recap any some its it").split(/\s+/)
 );
 
+// Lightweight singulariser so plural queries match singular text and vice versa
+// ("trials"→"trial", "mice" is left alone — we only strip regular endings).
+// Substring scoring does the rest. Kept deliberately conservative to avoid
+// mangling short words.
+function stem(w: string): string {
+  if (w.length <= 4) return w;
+  if (w.endsWith("ies")) return w.slice(0, -3) + "y";
+  if (w.endsWith("es") && !w.endsWith("ses")) return w.slice(0, -2);
+  if (w.endsWith("s") && !w.endsWith("ss")) return w.slice(0, -1);
+  return w;
+}
+
 function tokenize(s: string): string[] {
   return s.toLowerCase().replace(/[^a-z0-9'\s]/g, " ").split(/\s+/)
-    .filter(w => w.length > 1 && !STOP.has(w));
+    .filter(w => w.length > 1 && !STOP.has(w))
+    .map(stem);
+}
+
+// Query-term synonyms: expansions added (for scoring only) so a natural-language
+// word finds quests authored with the in-game term — "romance" reaches
+// companion/relationship quests, "boss" reaches fights, etc. Additive to the
+// score, so a literal match still outranks a synonym-only one.
+const SYNONYMS: Record<string, string[]> = {
+  romance: ["companion", "lover", "relationship", "affection"],
+  boss: ["fight", "battle", "duel"],
+  horse: ["mount", "steed"],
+  weapon: ["sword", "blade", "spear", "armament"],
+  armor: ["armour", "gear", "outfit"],
+  money: ["gold", "coin", "currency", "crown"],
+  ending: ["finale", "conclusion", "final"],
+  puzzle: ["riddle", "trial"],
+  treasure: ["chest", "loot", "hoard"],
+};
+
+// Expand tokens with any synonyms (stemmed, de-duped) for retrieval scoring.
+function withSynonyms(toks: string[]): string[] {
+  const out = new Set(toks);
+  for (const t of toks) for (const s of SYNONYMS[t] ?? []) out.add(stem(s));
+  return [...out];
 }
 
 // Per-game identifier tokens: the abbreviation plus every word in the game's
@@ -152,8 +188,9 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   const game = games[0];
 
   const greeting = /^(hi|hey|hello|yo|sup|greetings)\b/.test(lc);
+  const terms = withSynonyms(toks);
   const scored = (game ? QUESTS.filter(x => x.game === game) : QUESTS)
-    .map(x => ({ q: x, s: scoreQuest(x, toks) })).sort((a, b) => b.s - a.s);
+    .map(x => ({ q: x, s: scoreQuest(x, terms) })).sort((a, b) => b.s - a.s);
   const top = scored[0];
 
   // ── Conversational follow-up on the last quest ─────────────────────────────
