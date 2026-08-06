@@ -27,8 +27,8 @@ const IMG_BASE = "https://kbarbu12.github.io/newapp/classic/";
 // with no exports. Append an export line, import it as a temp ESM module.
 const src = fs.readFileSync(PROD_DATA, "utf8");
 const tmp = path.join(os.tmpdir(), `quests-${Date.now()}.mjs`);
-fs.writeFileSync(tmp, `${src}\nexport { quests, gameImages };\n`);
-const { quests, gameImages } = await import(pathToFileURL(tmp).href);
+fs.writeFileSync(tmp, `${src}\nexport { quests, gameImages, subFilterConfig };\n`);
+const { quests, gameImages, subFilterConfig } = await import(pathToFileURL(tmp).href);
 fs.unlinkSync(tmp);
 
 // accent = the bright end-stop of each game's gradient.
@@ -73,61 +73,65 @@ const questPoints = (type, difficulty, missable) => {
 };
 
 // ── Chapters (F1 tag + F3 rollup) ───────────────────────────────────────────
-// Chapters group a game's quests into something meaningful to a player. We use
-// the game's OWN data — narrative arc, region, or category — never invented
-// labels, picking whichever real field yields a sensible number of chapters
-// (2–14). The two games that carry none of those fields (Black Myth: Wukong,
-// Zelda: TotK) are the only ones split into evenly sized "Part N" groups so
-// their long lists still get a usable progress breakdown.
+// The live site already authors, per game, the axis its players think in and
+// what that axis is CALLED — `subFilterConfig` gives us the field, the native
+// label ("Chapter", "Realm", "District", "Archstone", "Planet", "Act"…) and the
+// ordered option list with display names. That config is the source of truth for
+// chapters, so Black Myth gets its real six Chapters, BG3 its three Acts, and so
+// on. Only a game with no config at all falls back to numbered groups.
 const CH_MIN = 2, CH_MAX = 14;
-// What each game calls its own quest divisions. Players think in Realms (God of
-// War), Districts (Cyberpunk), Planets (Jedi), Archstones (Demon's Souls) — not
-// a generic "Chapter" — so the UI labels groups with the game's native term.
-// Falls back to a term matching whichever field the grouping came from.
-const TERM_BY_FIELD = { arc: "Arc", region: "Region", category: "Questline", split: "Part" };
-const CHAPTER_TERM = {
-  "God of War Ragnarök": "Realm",
-  "Cyberpunk 2077: Ultimate Edition": "District",
-  "Star Wars Jedi: Fallen Order": "Planet",
-  "Star Wars Jedi: Survivor": "Planet",
-  "Demon's Souls": "Archstone",
+// A few configs label their axis generically; give those the game's real word.
+const TERM_OVERRIDE = {
   "Assassin's Creed Valhalla": "Arc",
-  // No grouping field in the data — numbered groups use the game's own term.
-  "Black Myth: Wukong": "Chapter",
-  "Pillars of Eternity II: Deadfire": "Act",
+  "Assassin's Creed Odyssey": "Questline",
+  "Persona 5 Royal": "Questline",
+  "Sekiro: Shadows Die Twice": "Questline",
+  "Pillars of Eternity II: Deadfire": "Act", // no config — numbered fallback
 };
-const plural = (t) => `${t}s`;
+const GENERIC_LABEL = /^(category|type)$/i;
+const plural = (t) => (/s$/i.test(t) ? t : `${t}s`);
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const byGame = {};
 for (const q of quests) (byGame[q.game] ??= []).push(q);
 const chaptersByGame = {};
 const chapterIdByQuest = {};
 const termByGame = {};
-// Group a game's quests by one of its fields, quests missing the field last.
-const groupByField = (qs, field) => {
-  const keys = [...new Set(qs.map((q) => q[field]).filter(Boolean))];
-  const groups = keys.map((k) => ({ name: k, ids: qs.filter((q) => q[field] === k).map((q) => q.id) }));
-  const rest = qs.filter((q) => !q[field]).map((q) => q.id);
-  if (rest.length) groups.push({ name: "Other Quests", ids: rest });
-  return groups;
+
+// Which configured axis reads as "chapters"? Prefer an explicit progression
+// axis (act/chapter), then a place axis (region/planet/…), then whatever is
+// left — skipping any axis with too few/many options to be a useful breakdown.
+const pickAxis = (cfg) => {
+  const axes = (Array.isArray(cfg) ? cfg : cfg ? [cfg] : []).filter(
+    (a) => a && a.field && (a.options || []).length >= CH_MIN && a.options.length <= CH_MAX
+  );
+  return (
+    axes.find((a) => /^(act|chapter)$/i.test(a.field)) ??
+    axes.find((a) => a.field !== "category") ??
+    axes[0]
+  );
 };
+
 for (const [name, qs] of Object.entries(byGame)) {
-  // Prefer arc (narrative), then region (place), then category (quest kind);
-  // take the first whose distinct-count reads as chapters, not noise.
-  const inRange = (f) => {
-    const n = new Set(qs.map((q) => q[f]).filter(Boolean)).size;
-    return n >= CH_MIN && n <= CH_MAX;
-  };
-  const field = ["arc", "region", "category"].find(inRange);
-  // The game's own word for these divisions (Realm, District, Act, …).
-  const term = CHAPTER_TERM[name] ?? TERM_BY_FIELD[field ?? "split"];
+  const axis = pickAxis(subFilterConfig?.[name]);
+  const term =
+    TERM_OVERRIDE[name] ??
+    (axis && !GENERIC_LABEL.test(axis.label) ? axis.label : "Questline");
   termByGame[name] = term;
+
   let groups;
-  if (field) {
-    groups = groupByField(qs, field);
+  if (axis) {
+    // Follow the configured option order — that's the game's own progression.
+    const val = (q) => (q[axis.field] == null ? null : String(q[axis.field]));
+    const seen = new Set();
+    groups = axis.options.map((o) => {
+      const ids = qs.filter((q) => val(q) === String(o.value)).map((q) => q.id);
+      ids.forEach((id) => seen.add(id));
+      return { name: o.text || String(o.value), ids };
+    });
+    const rest = qs.filter((q) => !seen.has(q.id)).map((q) => q.id);
+    if (rest.length) groups.push({ name: "Other Quests", ids: rest });
   } else {
-    // No usable grouping data — split into evenly sized parts (cap 10), named
-    // with the game's own term (e.g. Black Myth's "Chapter 1").
+    // No configured axis — split into evenly sized numbered groups (cap 10).
     const n = qs.length;
     const parts = Math.min(10, Math.max(n >= 10 ? 2 : 1, Math.round(n / 20)));
     const per = Math.ceil(n / parts);
@@ -135,6 +139,7 @@ for (const [name, qs] of Object.entries(byGame)) {
     for (let i = 0; i < n; i += per)
       groups.push({ name: `${term} ${groups.length + 1}`, ids: qs.slice(i, i + per).map((q) => q.id) });
   }
+
   const sl = slug(name);
   const chapters = groups
     .filter((g) => g.ids.length)
