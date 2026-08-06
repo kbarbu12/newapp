@@ -106,13 +106,21 @@ function chapterOf(quest:Quest){ return quest.chapterId ? GAMES[quest.game]?.cha
 // Each game names its own divisions — Realms, Districts, Planets, Acts… Use the
 // game's term wherever we label a chapter so it reads natively to its players.
 const chapterTerm = (game:string, p=false) => (p ? GAMES[game]?.chapterTermPlural : GAMES[game]?.chapterTerm) ?? (p?"Chapters":"Chapter");
-// Outline act/chapter tag: `⌖ {chapter}`.
-function ActTag({ quest }: { quest:Quest }) {
+// Outline act/chapter tag, named with the game's own term: `⌖ Archstone: Latria`,
+// `⌖ Realm: Vanaheim`. Numbered groups already carry the term ("Chapter 1"), so
+// those render bare rather than "Chapter: Chapter 1".
+function chapterLabel(quest:Quest){
   const ch = chapterOf(quest);
-  if(!ch) return null;
+  if(!ch) return undefined;
+  const term = chapterTerm(quest.game);
+  return ch.name.toLowerCase().startsWith(term.toLowerCase()) ? ch.name : `${term}: ${ch.name}`;
+}
+function ActTag({ quest }: { quest:Quest }) {
+  const label = chapterLabel(quest);
+  if(!label) return null;
   return (
     <span className="inline-flex items-center gap-1 text-[11px] leading-none px-2 py-[3px] rounded-md whitespace-nowrap" style={{ border:"1px solid #262730", color:"#8a8a92" }}>
-      <span aria-hidden>⌖</span> {ch.name}
+      <span aria-hidden>⌖</span> {label}
     </span>
   );
 }
