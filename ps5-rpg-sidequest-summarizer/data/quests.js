@@ -619,6 +619,16 @@ const quests = [
       "A mysterious multi-zone questline involving hidden cities, powerful bosses, and one of the game's most iconic alternate endings.",
     aiTip:
       "Track NPC dialogue carefully. This quest is easier if you keep notes because the game rarely gives direct objective markers.",
+    walkthrough: [
+      "Reach Ranni at Ranni's Rise in northwest Liurnia (clear Caria Manor and beat Royal Knight Loretta to open the way) and accept her service.",
+      "Speak with her four servants around the tower — Blaidd, Iron Fist Alexander, War-Counselor Iji and Preceptor Seluvis — then set off to open Nokron.",
+      "Travel to Caelid and defeat Starscourge Radahn; a falling star smashes open Nokron, Eternal City in southern Limgrave.",
+      "Descend into Nokron, defeat the Mimic Tear and the Great Beast twins, and take the Fingerslayer Blade from the treasure room.",
+      "Return the Fingerslayer Blade to Ranni's body at Ranni's Rise, then use the spinning statue in Renna's Rise to drop into the Ainsel River.",
+      "Work down through Ainsel River and Nokstella, defeat the Baleful Shadow, and cross the Lake of Rot to beat Astel, Naturalborn of the Void.",
+      "Ride to the Moonlight Altar (revealed in southwest Liurnia after Radahn's death) and reach the Cathedral of Manus Celes; rest to meet Ranni's doll and claim the Dark Moon Greatsword.",
+      "At the end of the game, touch Ranni's summon sign before the final boss to seal the Age of the Stars ending.",
+    ],
     video: "https://www.youtube.com/watch?v=0RBa82TpYrM"
   },
 {
@@ -635,6 +645,15 @@ const quests = [
       "A memorable NPC journey following a warrior jar across major regions. It rewards exploration and creates a surprisingly emotional arc.",
     aiTip:
       "Speak to Alexander whenever you meet him and avoid rushing late-game areas before progressing his earlier encounters.",
+    walkthrough: [
+      "Free Alexander from the ground in Stormhill (northern Limgrave) by hitting him from behind, and speak with him.",
+      "Meet him again outside the Radahn festival in Caelid and take part in the war against Starscourge Radahn.",
+      "Find him stuck in a pot in the Gael Tunnel (or Abandoned Coffin site) in Caelid and free him a second time.",
+      "Speak with him at Mt. Gelmir near the Seethewater Terminus as he trains against the magma.",
+      "Meet him at the Warmaster's Shack / Farum Azula path and hear about his final challenge.",
+      "In Crumbling Farum Azula, enter his summon area and defeat Alexander, Iron Fist in the duel.",
+      "Loot his remains for the Shard of Alexander talisman, which boosts your skill (Ash of War) damage.",
+    ],
     video: "https://www.youtube.com/watch?v=OR_nbiYVEe0"
   },
 {
@@ -651,6 +670,15 @@ const quests = [
       "Help a Scarlet Rot-afflicted warrior across the Lands Between. The quest spans nearly the entire map and ends with a pivotal choice at the Haligtree.",
     aiTip:
       "Don't miss Gowry's shack in Caelid early on. The quest has easy-to-miss steps — check back with NPCs after major boss kills.",
+    walkthrough: [
+      "Speak with Gowry in Gowry's Shack (Caelid) and agree to help the ailing Millicent; bring him the Unalloyed Gold Needle from the Sellia crucible / Commander O'Neil fight.",
+      "Return the mended needle to Gowry, then find Millicent resting nearby and give it to her to halt her Scarlet Rot.",
+      "Meet Millicent again at the Church of the Plague, then follow her to the Altus Plateau (Shaded Castle) where she recovers.",
+      "Speak with her at the Erdtree-Gazing Hill and agree to help her at the Haligtree.",
+      "Reach Elphael, Brace of the Haligtree and find Millicent near the drawbridge; choose whether to help her or side with her sisters.",
+      "Enter the summon area and, if helping Millicent, fight off her invading sisters during the Scarlet Rot fight.",
+      "Return to her body afterward for the Rotten Winged Sword Insignia (or Millicent's Prosthesis), which stacks attack on consecutive hits.",
+    ],
     video: "https://www.youtube.com/watch?v=aCy_ZEP4AHs"
   },
 {
@@ -1687,6 +1715,14 @@ const quests = [
       "Join a secret assassination covenant within Volcano Manor and hunt down Tarnished targets across the Lands Between. Each contract reveals more about the Manor's sinister mistress, Tanith, and the God-Devouring Serpent.",
     aiTip:
       "Complete all assassination contracts before killing Rykard — defeating the boss locks you out of remaining contracts and NPC interactions.",
+    walkthrough: [
+      "Enter Volcano Manor (Mt. Gelmir) and speak with Tanith to join, or reach it early through Rya's invitation in Liurnia.",
+      "Take the assassination letters from the table by your room and hunt the first target (Old Knight Istvan) via the red summon sign.",
+      "Report back to Tanith, then complete the second contract (Rileigh the Idle) and the third (Great-Horned Tragoth) the same way.",
+      "Explore the manor's lava tunnels behind the illusory walls to reach the Temple of Eiglay and Prophet's shortcut.",
+      "Collect the questline gear along the way — the Serpentbone Blade, Taker's Cameo talisman and, from Bernahl/Hoslow, the Raging Wolf Set.",
+      "Push through the Temple of Eiglay and defeat the God-Devouring Serpent / Rykard, Lord of Blasphemy to conclude the manor's path.",
+    ],
     video: "https://www.youtube.com/watch?v=adyGTfYzW1o"
   },
 {
@@ -1703,6 +1739,14 @@ const quests = [
       "Follow the Deathbed Companion Fia through a storyline about Those Who Live in Death. Her quest spans from the Roundtable Hold to the hidden Deeproot Depths and unlocks one of the game's secret endings.",
     aiTip:
       "Hug Fia regularly at the Roundtable Hold to progress her dialogue. You must defeat Lichdragon Fortissax to complete her quest — it's one of the game's harder optional bosses.",
+    walkthrough: [
+      "Find Fia, the Deathbed Companion, in the Roundtable Hold and accept her embrace to receive Fia's Baldachin's Blessing.",
+      "Return the Weathervane / hug item questline: speak with her repeatedly and deliver the Twinned Set request from D's brother later.",
+      "Advance the main story until the Deathroot arc opens, then take D's armor set to his brother in the Nameless Eternal City area.",
+      "After Fia is expelled from the Hold, follow her to the Deeproot Depths (reached via the Fractured Marika grace or the coffin from Leyndell).",
+      "Speak with Fia in Deeproot Depths and rest; enter her dream to fight the Lichdragon Fortissax.",
+      "Defeat Fortissax to obtain the Cursemark of Death, then take the Mending Rune of the Death-Prince from Fia's body to unlock that ending.",
+    ],
     video: "https://www.youtube.com/watch?v=85I3cqQ1gK0"
   },
 {
@@ -1719,6 +1763,14 @@ const quests = [
       "Help the warrior Nepheli find her purpose after being disowned by her adoptive father Gideon. Her journey through betrayal and self-discovery culminates in her becoming the rightful ruler of Limgrave.",
     aiTip:
       "Give Nepheli the Stormhawk King ashes from the Chapel of Anticipation. After completing Farum Azula, return to Stormveil's throne room for the satisfying conclusion.",
+    walkthrough: [
+      "Find Nepheli Loux inside Stormveil Castle (before the Godrick fog) and summon her for the boss, or meet her afterward at the Roundtable Hold.",
+      "Speak with her and Gideon at the Roundtable Hold to hear about the Village of the Albinaurics.",
+      "Travel to the Village of the Albinaurics in southwest Liurnia and retrieve the Haligtree Secret Medallion (Left) from the jar Albinauric.",
+      "Complete Kenneth Haight's arc so he offers to make Nepheli lord; report back to both.",
+      "Bring Nepheli to Godrick's throne room / the Stormveil grace as prompted to install her as Lord of Limgrave.",
+      "Claim the reward — the Ancient Dragon Smithing Stone and the Stormhawk King ashes — after her questline resolves.",
+    ],
     video: "https://www.youtube.com/watch?v=EY6CiENiNw4"
   },
 {
@@ -1735,6 +1787,14 @@ const quests = [
       "Aid Brother Corhyn and the enigmatic Goldmask in deciphering the fundamental flaws of the Golden Order. A philosophical questline about faith, divinity, and the nature of the Erdtree's rule.",
     aiTip:
       "Goldmask moves locations as you progress — check the Altus Plateau bridge first. Use the Law of Regression incantation at the Erdtree Sanctuary to reveal a crucial secret.",
+    walkthrough: [
+      "Meet Brother Corhyn at the Roundtable Hold, then find Goldmask on the broken bridge on the eastern Altus Plateau.",
+      "Report Goldmask's location to Corhyn so he sets off to join him.",
+      "Follow the pair as they move toward Leyndell; speak with Corhyn each time for hints on the Golden Order's flaw.",
+      "After Leyndell becomes Ash, find Goldmask again on the aqueduct-facing cliff near the Erdtree, deducing the Elden Ring's fault.",
+      "Locate the final position of Goldmask beyond the Fire Giant / Farum Azula progress and wait for him to complete his revelation.",
+      "Take the Mending Rune of Perfect Order from Goldmask's body to unlock the Age of Order ending.",
+    ],
     video: "https://www.youtube.com/watch?v=-FeB5PTagZY"
   },
 {
@@ -2414,6 +2474,13 @@ const quests = [
       "Encounter the treacherous merchant Patches across multiple locations as he tricks, betrays, and ultimately befriends the Tarnished. A recurring FromSoftware character with a surprisingly heartfelt conclusion.",
     aiTip:
       "Don't kill Patches after his ambush — forgive him to unlock his shop. His questline ends at the Volcano Manor with a touching final letter.",
+    walkthrough: [
+      "Enter Murkwater Cave in Limgrave (a red summon may invade) and confront Patches; when he feigns surrender, spare him to end the fight.",
+      "Open his chest afterward (it's a trap) and buy from his shop; accept his request to visit Mistwood.",
+      "Follow Patches as he relocates — to the Scenic Isle in Liurnia, then Volcano Manor — buying key items and the Dancer's Castanets.",
+      "Complete his fetch tasks (the Dancer's Castanets / Lobster errand) whenever he asks.",
+      "Track him to his final shop location and finish his comedic arc for the full vendor stock.",
+    ],
     video: "https://www.youtube.com/watch?v=QmjBZifDJnM"
   },
 {
@@ -2430,6 +2497,14 @@ const quests = [
       "Follow a blind woman who seeks grape-like eyes across Liurnia and beyond. Her quest leads deep into the lore of the Three Fingers and the Frenzied Flame ending path.",
     aiTip:
       "You must give Hyetta Shabriri Grapes at each location she appears. Her final location requires accessing the Frenzied Flame Proscription — an area that locks you into a specific ending if you interact with it.",
+    walkthrough: [
+      "Find Hyetta on the lakeside cliffs of eastern Liurnia and give her Shabriri Grapes to progress her pilgrimage.",
+      "Meet her again further along the Liurnia shore and at the Purified Ruins, handing over another grape each time.",
+      "Keep the grapes coming as she approaches Leyndell; find her at the Fingerprint Grape locations.",
+      "To finish her path you must first accept the Frenzied Flame: reach the Subterranean Shunning-Grounds and the Cathedral of the Forsaken.",
+      "Strip naked and touch the Three Fingers behind the sealed door in the Frenzied Flame Proscription to take the flame.",
+      "Return to Hyetta, now at the Frenzied Flame throne, to receive the Frenzied Flame Seal and lock in the Lord of Frenzied Flame path.",
+    ],
     video: "https://www.youtube.com/watch?v=bYySdvILKcM"
   },
 {
@@ -2446,6 +2521,14 @@ const quests = [
       "Interact with the cursed and terrifying Dung Eater at the Roundtable Hold, then hunt Seedbed Curse items to fulfill his vile requests. His ending is one of the darkest in the game.",
     aiTip:
       "Don't free the Dung Eater from prison until you've bought everything from Patches and other Roundtable Hold NPCs — freeing him turns him hostile to others.",
+    walkthrough: [
+      "Find the Dung Eater's cell in the Roundtable Hold and speak with him; accept his demand for Seedbed Curses.",
+      "Gather Seedbed Curses from cursed corpses (Leyndell sewers, Fia's questline victims, the Shunning-Grounds) and deliver them to him.",
+      "After enough curses, he leaves the Hold; travel to the Subterranean Shunning-Grounds beneath Leyndell.",
+      "Descend past the giant lobsters and the Mohg (the Omen) fight to reach the Cursemark / prison depths.",
+      "Confront the Dung Eater in his true form and defeat him (or hand over the Seedbed Curses to spare him).",
+      "Give the Mending Rune of the Fell Curse to Enia / use it at the end to unlock the Blessing of Despair ending.",
+    ],
     video: "https://www.youtube.com/watch?v=_LvxUP5_eCg"
   },
 {
@@ -2462,6 +2545,14 @@ const quests = [
       "Help the ailing sorcerer Rogier uncover the truth about the Black Knife Assassins and their role in the Night of Black Knives. His questline intersects with Ranni's and reveals crucial backstory about the Shattering.",
     aiTip:
       "Find the bloodstain beneath Stormveil Castle first to trigger his questline. His quest ties into Ranni's — progress both together for the full picture.",
+    walkthrough: [
+      "Meet Sorcerer Rogier on the Stormveil Castle rampart (near the Liftside Chamber grace) and buy his sorceries.",
+      "Find him again at the Roundtable Hold, bedridden from a Deathblight curse, and hear about the Black Knife assassins.",
+      "Report Godrick's death, then travel to the Deathbed of the Black Knifeprint — the Ordina / Renna's questline hint sends you to investigate.",
+      "Retrieve the Black Knifeprint from the sealed tomb behind Ranni's Rise (the Cliffbottom Catacombs / Carian study hall route) and give it to Rogier.",
+      "Continue his dialogue tying Godwyn's death to the assassins; he directs you toward Ranni.",
+      "After his fate concludes, collect Rogier's Rapier and his Bell Bearing from the Roundtable Hold.",
+    ],
     video: "https://www.youtube.com/watch?v=SLFciQ383XY"
   },
 {
@@ -2478,6 +2569,14 @@ const quests = [
       "Follow the taunting NPC Varre from the very start of the game through his questline that eventually grants access to one of the best early farming locations in Elden Ring.",
     aiTip:
       "Invading other players three times is required — you don't need to win. This is the fastest route to Mohgwyn Palace, which has one of the best rune farming spots in the game.",
+    walkthrough: [
+      "Speak with White Mask Varre at the First Step in Limgrave and follow his taunts about being 'maidenless'.",
+      "Meet him again at the Rose Church in western Liurnia and accept the Festering Bloody Finger to invade other players (or use the tarnished furled finger substitute).",
+      "Complete the invasions he requires, then return for the Lord of Blood's Favor cloth.",
+      "Soak the cloth in a Maiden's blood — take it to the corpse of a dead Finger Maiden (e.g. at the Church of Inhibition) to bloody it.",
+      "Return the bloodied cloth to Varre; he rewards Mohg's early access and the Pureblood Knight's Medal.",
+      "Use the Pureblood Knight's Medal to warp directly to Mohgwyn Palace, and collect Varre's Bouquet from his body if you kill him.",
+    ],
     video: "https://www.youtube.com/watch?v=zGDQ7yiHxns"
   },
 {
@@ -2494,6 +2593,13 @@ const quests = [
       "Meet a lovable prawn-boiling merchant who gets caught up in Rya's questline. A surprisingly touching side story about a simple man living honestly in a brutal world.",
     aiTip:
       "Buy prawns from Boggart and exhaust his dialogue each time you meet him. Don't let Rya's questline progress too far before speaking to him or you'll miss key interactions.",
+    walkthrough: [
+      "Meet Blackguard Big Boggart at the Boilprawn Shack in western Liurnia and buy his boiled prawns and crab (they boost defenses).",
+      "Complete the small talk and, if you're doing Rya's arc, avoid selling out Boggart when Rya asks about her stolen necklace.",
+      "Find Boggart later beneath the Leyndell Capital Rampart, near the site where he sells prawns to the tarnished.",
+      "Keep buying from him and hear his story about Dung Eater and the necklace.",
+      "Conclude his arc at Leyndell; if he survives, collect the Iron Ball weapon and his Bell Bearing.",
+    ],
     video: "https://www.youtube.com/watch?v=hKHeVPzlG4U"
   },
 {
@@ -3733,6 +3839,14 @@ const quests = [
       "Trigger the Radahn Festival at Redmane Castle and face the mightiest demigod on a massive battlefield where you can summon a small army of NPC allies.",
     aiTip:
       "Resummon fallen NPC allies constantly — they respawn via summon signs around the arena. Torrent is available, so use hit-and-run tactics during the meteor phase.",
+    walkthrough: [
+      "Travel to Redmane Castle in southeast Caelid and rest to trigger the Radahn Festival (progress Blaidd/Alexander/Jerren dialogue if needed).",
+      "Enter the arena on the beach below the castle and begin the boss fight against Starscourge Radahn.",
+      "Ride Torrent in the huge arena to close distance quickly and dodge his gravity arrows at range.",
+      "Summon the scattered NPC signs (Blaidd, Alexander, Jerren, Patches and others) to draw aggro and revive them as they fall.",
+      "Survive his phase-two meteor dive, then punish between his combos with Torrent's mobility.",
+      "Defeat Radahn for the Remembrance of the Starscourge and his Great Rune; his death opens Nokron for Ranni's quest.",
+    ],
     video: "https://www.youtube.com/watch?v=eM5U791Oof0"
   },
 {
@@ -3749,6 +3863,14 @@ const quests = [
       "Aid the outlawed sorceress Sellen in her forbidden pursuit of the primeval current. The quest spans hidden bodies, secret puzzle walls, and ends in a choice between Sellen and Witch-Hunter Jerren.",
     aiTip:
       "The quest has easy-to-miss steps gated behind defeating Radahn and Rennala. Look for the illusory wall in Sellia's cellar — it hides her true body.",
+    walkthrough: [
+      "Find Sorceress Sellen in the basement of the Waypoint Ruins (east Limgrave) and buy her sorceries.",
+      "Accept her request to find Master Lusat; travel to the Sellia Hideaway in Caelid and reach Lusat in the crystal cave for Stars of Ruin.",
+      "Report back, then find Azur at the Hermit Village on Mt. Gelmir for Comet Azur and continue Sellen's plan.",
+      "Progress until Sellen is captured; find her primal glintstone body in the Witch's Glintstone Crown room at Raya Lucaria (Redmane... the Ranni's Rise / Seluvis conflict).",
+      "Choose to side with Sellen or Jerren: complete the Church of the Cuckoo / Witchbane Ruins body-swap by defeating her opponents.",
+      "Finish her ascension for the Witch's Glintstone Crown and her legendary sorceries.",
+    ],
     video: "https://www.youtube.com/watch?v=gjtKLzNi8cs"
   },
 {
@@ -3765,6 +3887,14 @@ const quests = [
       "A humble talking bush in Limgrave turns out to be Boc, a demi-human seamster searching for purpose. Follow him across the Lands Between as he seeks to prove his worth.",
     aiTip:
       "Talk to the bush near Agheel Lake to start. Give him a Larval Tear only if you want the sad ending — telling him he's beautiful with the Mimic's Veil keeps him alive.",
+    walkthrough: [
+      "Hear Boc the Seamster crying inside a bush near the Lake-facing Cliffs in Liurnia; hit the talking bush to free him.",
+      "Speak with him and send him to the nearby grace so he sets up as your garment tailor.",
+      "Bring him Gold Sewing Needle and Sewing Needle plus Cloth to unlock reinforced altered armor.",
+      "Meet him again as he moves toward the Altus Plateau, encouraging him through his self-doubt.",
+      "Optionally give him the Larval Tear so he can become beautiful, or reassure him with the 'You're beautiful' gesture.",
+      "Complete his arc for free garment alterations and his heartfelt farewell rewards.",
+    ],
     video: "https://www.youtube.com/watch?v=YJGX2u-96ho"
   },
 {
@@ -3883,6 +4013,14 @@ const quests = [
       "The game's first great wall. Margit guards the bridge to Stormveil and punishes impatience with delayed, feinting swings that break new players' habits.",
     aiTip:
       "Buy Margit's Shackle from Patches to pin him twice, summon Rogier at the fog gate, and learn to dodge late — his swings hang in the air on purpose.",
+    walkthrough: [
+      "Ride the path up Stormhill toward Stormveil Castle until Margit the Fell Omen ambushes you at the fog gate.",
+      "Optionally buy and use the Margit's Shackle item (from Patches in Murkwater Cave) to briefly bind him twice in the fight.",
+      "Stay close and learn his delayed sword swings; roll late into the attacks rather than early.",
+      "Watch for the summoned spectral dagger and hammer in phase two and dodge through them.",
+      "Punish only after his longer combos, healing during his recovery windows.",
+      "Defeat Margit to earn the Talisman Pouch and open the way into Stormveil Castle.",
+    ],
     video: "https://www.youtube.com/watch?v=02PjeMllulQ"
   },
 {
@@ -3899,6 +4037,14 @@ const quests = [
       "The first demigod and Great Rune holder. A two-phase fight against the grafted lord of Stormveil, who swaps his axe for a dragon's head halfway through.",
     aiTip:
       "Summon Nepheli Loux just before the fog gate. In phase two, stick to his left leg — the dragon-arm flamethrower leaves his back exposed for long punishes.",
+    walkthrough: [
+      "Work through Stormveil Castle to the throne-room fog gate (summon Nepheli Loux nearby for help).",
+      "Begin the Godrick the Grafted fight; bait his axe and grafted-limb sweeps and punish the recovery.",
+      "Avoid his wind-spinning axe combo by rolling to his side, and keep Torrent-free footing in the arena.",
+      "In phase two, when he grafts the dragon head onto his arm, dodge the sweeping fire breath by circling behind him.",
+      "Stay close during the fire so you can keep attacking under the flame.",
+      "Defeat Godrick for his Great Rune and the Remembrance of the Grafted; activate the rune at a Divine Tower.",
+    ],
     video: "https://www.youtube.com/watch?v=_wl71myyD-k"
   },
 {
@@ -3915,6 +4061,14 @@ const quests = [
       "A two-act boss: break the singing children's shields to topple Rennala, then face her true moon-sorcery form in a dreamlike second phase.",
     aiTip:
       "In phase one, hit the glowing golden students to drop her barrier. Phase two is very parry- and stagger-friendly — stay aggressive between her casts.",
+    walkthrough: [
+      "Clear the Academy of Raya Lucaria to the Debate Parlor fog and enter to face Rennala, Queen of the Full Moon.",
+      "Phase one: find the glowing golden student among the swarm and attack them to knock Rennala down; repeat three times.",
+      "After the third stagger the real fight begins in the starry arena.",
+      "Phase two: dodge her summoned spirits (the wolves, the giant, the swarm of stars) and close distance between them.",
+      "Punish after her moon-magic casts and stay mobile to avoid the homing stars.",
+      "Defeat Rennala for her Great Rune (respeccing) and the Remembrance of the Full Moon Queen.",
+    ],
     video: "https://www.youtube.com/watch?v=4r1wihoPGmU"
   },
 {
@@ -3931,6 +4085,14 @@ const quests = [
       "Margit's true form defends the Erdtree itself. A relentless, mobile duel against the Omen King with cursed blades, spears, and holy fire.",
     aiTip:
       "Melina can be summoned for this fight. Morgott is weak to bleed and vulnerable after his triple-blade slam — that's your biggest punish window.",
+    walkthrough: [
+      "Fight up through Leyndell, Royal Capital to the Erdtree Sanctuary and the Morgott fog gate.",
+      "Begin the Morgott, the Omen King fight; dodge his cursed-sword projectiles that trail across the arena.",
+      "Stay close and roll through his fast holy-sword combos, punishing after the big overhead slams.",
+      "In phase two watch for the flying hammer/spear conjures and his grab; keep healing topped up.",
+      "Use Margit's Shackle early (it works once) to open a free damage window.",
+      "Defeat Morgott for his Great Rune and the Remembrance, opening the Forbidden Lands to the Mountaintops.",
+    ],
     video: "https://www.youtube.com/watch?v=RbMrdVOk2ok"
   },
 {
@@ -3947,6 +4109,14 @@ const quests = [
       "The last of the giants guards the Forge of the Giants. A colossal endurance fight where the arena itself becomes a hazard once he tears off his own leg.",
     aiTip:
       "Fight from Torrent and stay glued to his ankles. In phase two, run TOWARD him when he rolls — chasing the roll is how most deaths happen.",
+    walkthrough: [
+      "Cross the Forbidden Lands and Grand Lift of Rold, then ride to the Fire Giant arena in the Mountaintops of the Giants.",
+      "Phase one: attack the Giant's shackled foot/ankle and dodge his rolling, boulder throws and stomps on Torrent.",
+      "Break the ankle to topple him and open a big damage window on his head.",
+      "Phase two: he tears off his own shackle — avoid the fire-bowl explosions and the fiery ground pools.",
+      "Stay under his body between fire attacks and keep hitting the hand or catalyst wound.",
+      "Defeat the Fire Giant for the Remembrance and access to the Forge of the Giants.",
+    ],
     video: "https://www.youtube.com/watch?v=tzwsy8AqW34"
   },
 {
@@ -3963,6 +4133,14 @@ const quests = [
       "First the Beast Clergyman, then Destined Death incarnate. Maliketh's second phase is one of the fastest, most acrobatic duels in the game.",
     aiTip:
       "The Blasphemous Claw (from Recusant Bernahl's quest) parries his glowing attacks in phase two. His combos end with long recovery — punish only then.",
+    walkthrough: [
+      "Progress through Crumbling Farum Azula to the fog gate for Beast Clergyman / Maliketh.",
+      "Phase one (Beast Clergyman): stay aggressive and dodge his fast lunges; this phase ends quickly.",
+      "Phase two (Maliketh, the Black Blade): watch for the red Destined Death slashes that cut your max HP — heal them off promptly.",
+      "Use Torrent-free vertical dodging: roll toward him through his leaping combos rather than away.",
+      "Punish after his longest aerial strings and keep close so his ranged blade-waves are easier to read.",
+      "Defeat Maliketh for the Remembrance of the Black Blade — his death sets the Erdtree aflame.",
+    ],
     video: "https://www.youtube.com/watch?v=LPyue4RK_jw"
   },
 {
@@ -3979,6 +4157,14 @@ const quests = [
       "The true final battle: the shattered god Radagon, followed immediately by the Elden Beast, an alien embodiment of Order — two full bosses, one attempt.",
     aiTip:
       "Radagon is weak to fire and physical stagger; save your flask charges for the Elden Beast and sprint diagonally from Elden Stars rather than away from it.",
+    walkthrough: [
+      "After burning the Erdtree, enter the final arena beneath it and rest at the last grace.",
+      "Phase one — Radagon of the Golden Order: dodge his teleport hammer slams and the holy shockwaves, punishing after his combos.",
+      "Close distance so his ranged Radagon's Rings of Light are easier to avoid, and stagger him with heavy hits.",
+      "Phase two — the Elden Beast: it begins far away, so use Torrent-like mobility and ranged options to chase it.",
+      "Roll toward the beast through the Elden Stars homing swarm and cleanse the sword-throw AoE by moving away from the marked spot.",
+      "Defeat the Elden Beast, then choose which ending to enact at Marika's remains (mend the ring, or use a Mending Rune / Frenzied Flame you unlocked).",
+    ],
     video: "https://www.youtube.com/watch?v=rvfNBQcSr1Q"
   },
 {
@@ -4321,6 +4507,14 @@ const quests = [
       "The game's best-hidden region. Find both halves of the Haligtree Secret Medallion — one from Albus disguised as a pot, one from Commander Niall at Castle Sol — and hoist them at the Grand Lift of Rold.",
     aiTip:
       "Hit the lone pot in the Village of the Albinaurics to reveal Albus. Castle Sol's Commander Niall is brutal — bring spirit ashes that split his knight summons.",
+    walkthrough: [
+      "Collect both halves of the Haligtree Secret Medallion — the left from the Village of the Albinaurics (Liurnia) and the right from Commander Niall at Castle Sol (Mountaintops).",
+      "Take the completed medallion to the Grand Lift of Rold and select the secret 'hoisting the secret medallion' option.",
+      "Ride up to the Consecrated Snowfield and cross the blizzard, finding the Ordina, Liturgical Town evergaol.",
+      "Solve the Ordina imp-statue puzzle by lighting all four flames (defeat the invisible assassins guarding them) to open the portal.",
+      "Warp to Miquella's Haligtree and descend through the branches, then fight up through Elphael, Brace of the Haligtree.",
+      "Reach the Prayer Room grace at the base of Elphael to fully unlock the region before Malenia.",
+    ],
     video: "https://www.youtube.com/watch?v=HEdXuQ186DU"
   },
 {
@@ -4337,6 +4531,14 @@ const quests = [
       "The hardest fight in the game. The undefeated swordswoman of the Haligtree heals with every blow she lands and blooms into the Goddess of Rot in phase two.",
     aiTip:
       "Her Waterfowl Dance is the killer — sprint away from the first flurry, dodge into the rest. Bleed weapons and aggressive spirit ashes shorten both phases.",
+    walkthrough: [
+      "Reach the Drawing-Room / Malenia fog gate deep in Elphael, Brace of the Haligtree.",
+      "Phase one — Malenia, Blade of Miquella: keep moving and never trade hits — every strike she lands heals her, even through shields.",
+      "Dodge her Waterfowl Dance by running out during the first flurry, then rolling into the second and third bursts (or gaining distance/verticality).",
+      "Punish after her single thrusts and combos, not during; spirit summons (Mimic Tear) help bait the Waterfowl.",
+      "Phase two — Malenia, Goddess of Rot: avoid the scarlet-rot clouds and her dive-bomb bloom that inflicts heavy rot.",
+      "Keep rot cleared and finish her for the Remembrance of the Rot Goddess and Malenia's Great Rune.",
+    ],
     video: "https://www.youtube.com/watch?v=-D5vwtjmkIE"
   },
 {
@@ -4353,6 +4555,14 @@ const quests = [
       "The Lord of Blood awaits beneath his hidden palace, reachable through Varre's quest or a secret Consecrated Snowfield teleporter. His cursed ritual counts down to a devastating bloodflame nova.",
     aiTip:
       "Buy the Purifying Crystal Tear (Yura's quest) — it nullifies Mohg's 'Nihil' ritual entirely. His arena is also the game's best rune-farming spot.",
+    walkthrough: [
+      "Reach Mohgwyn Palace — either via White Mask Varre's Pureblood Knight's Medal or the teleporter trap in northern Caelid.",
+      "Cross the blood swamp and bird-farm slope to the Cocoon of the Empyrean grace and the Mohg fog gate.",
+      "Equip the Purifying Crystal Tear (from the Dragonkin Soldier under Nokstella) to negate Mohg's Nihil ritual, or heavily out-heal it.",
+      "Phase one — Mohg, Lord of Blood: dodge his trident sweeps and the bloodboon flame trails.",
+      "At the phase transition he casts Nihil three times (three ticks of heavy damage) — survive it, cleansed by the Purifying Tear if equipped.",
+      "Defeat Mohg for the Remembrance of the Blood Lord and Mohg's Great Rune.",
+    ],
     video: "https://www.youtube.com/watch?v=r0IgQ9s6AEs"
   },
 {
@@ -4369,6 +4579,14 @@ const quests = [
       "A secret superboss outside time itself. Lie down in an empty coffin alcove in Farum Azula to be carried to the storm's eye, where the two-headed former Elden Lord waits.",
     aiTip:
       "When he vanishes, sprint — the lightning teleport strikes are on a timer. Stay under his chest between the heads; most breath attacks miss there entirely.",
+    walkthrough: [
+      "In Crumbling Farum Azula, reach the Dragon Temple Altar grace after the Godskin Duo / Beast Clergyman area.",
+      "Stand on the open-air platform near the altar and wait for the lightning to strike, warping you to the hidden storm arena.",
+      "Begin the Dragonlord Placidusax fight; run under his body at the start to avoid the opening breath.",
+      "Dodge his multi-head fire/lightning breath by rolling toward one side and staying beneath his chest.",
+      "When he teleports and reappears, roll the instant he lands to avoid the slam, then punish his legs and head.",
+      "Defeat Placidusax for the Remembrance of the Dragonlord.",
+    ],
     video: "https://www.youtube.com/watch?v=Tf0DXto9Iig"
   },
 {
@@ -4385,6 +4603,14 @@ const quests = [
       "A cosmic horror at the bottom of the Lake of Rot, guarding the way to the Moonlight Altar. Gravity magic, teleports, and a one-shot grab make it a unique endgame test.",
     aiTip:
       "Watch for the grab — dodge sideways the instant its arms spread. Clearing the Lake of Rot is half the fight: bring Preserving Boluses and run, don't fight.",
+    walkthrough: [
+      "As part of Ranni's quest, descend the Ainsel River to the Lake of Rot and cross it using the pillar-activated bridges (rot resistance helps).",
+      "Reach the Grand Cloister grace at the far end of the Lake of Rot.",
+      "Enter the fog to fight Astel, Naturalborn of the Void in the star-filled cavern.",
+      "Avoid its opening teleport-and-gravity-explosion by rolling as it reappears, and stay near its front legs.",
+      "Dodge the falling meteors and the head-beam by circling under its body; punish the legs and face.",
+      "Defeat Astel for the Remembrance of the Naturalborn and to continue Ranni's questline.",
+    ],
     video: "https://www.youtube.com/watch?v=dzrSCDUcFys"
   },
 {
@@ -4401,6 +4627,14 @@ const quests = [
       "Hidden behind an imp-statue door in Nokron after Radahn falls, the Mimic Tear summons a full copy of your character — gear, spells, flasks and all.",
     aiTip:
       "Bring two Stonesword Keys. Equip your best gear BEFORE summoning — the mimic copies your current loadout, and it uses HP instead of FP to summon.",
+    walkthrough: [
+      "Progress Ranni's quest (or reach Nokron independently) by defeating Starscourge Radahn to open the fallen-star crater in southern Limgrave.",
+      "Descend through Nokron, Eternal City to the Night's Sacred Ground.",
+      "Cross the rooftops and drop toward the Mimic Tear boss arena beyond the Ancestral Woods grace.",
+      "Defeat the Mimic Tear boss (it copies your build — unequip your gear before entering to weaken it).",
+      "Open the chest in the room beyond to receive the Mimic Tear Spirit Ashes.",
+      "Upgrade the ashes at Roundtable Hold; the summoned copy of you is one of the strongest cooperators in the game.",
+    ],
     video: "https://www.youtube.com/watch?v=ZlmtbD_8SiU"
   },
 {
@@ -15741,12 +15975,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Recruit Nepheli Loux and use the Rusty Key's side route to skip the deadly courtyard.",
     walkthrough: [
-      "Defeat Margit the Fell Omen at the bridge to open the main gate.",
-      "Choose your entry: the front gate gauntlet or the sewer path on the cliffside to the right.",
-      "Rest at the Stormveil Cliffside grace and grab the Rusty Key to unlock the side courtyard route.",
-      "Work up through the ramparts, clearing the giant and archers rather than rushing the trapped courtyard.",
-      "Find and summon Nepheli Loux near the throne room before the boss fog gate.",
-      "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the dungeon."
+      "Defeat Margit the Fell Omen at the bridge to open the main gate of Stormveil Castle.",
+      "Choose your entry: the front-gate gauntlet, or take the cliffside path on the right to slip in past the ballistae.",
+      "Rest at the Stormveil Cliffside grace and pick up the Rusty Key to unlock the side courtyard shortcut.",
+      "Work up through the ramparts and rooftops, dealing with the gatekeeper giant and the roosting birds rather than rushing the trapped courtyard.",
+      "Find and summon Nepheli Loux near the throne room, and grab the Godslayer's Seal / gaol items along the way.",
+      "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the legacy dungeon.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
   },
@@ -15765,11 +15999,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Grab the Glintstone Key to open the gate — the rooftop route hides valuable loot.",
     walkthrough: [
-      "Cross into Liurnia and approach the Academy of Raya Lucaria gate.",
-      "Retrieve the Academy Glintstone Key (from the dragon-topped turtle at Church of Vows) and use the sealing to enter.",
-      "Rest at the first grace, then take the rooftop route right to loot the hidden gear and shortcuts.",
-      "Fight down through the debate parlor and library to the Rennala fog gate.",
-      "Defeat Rennala, Queen of the Full Moon, to claim her Great Rune and unlock respeccing."
+      "Obtain the two Academy Glintstone Keys (one on the dragon-guarded rooftop of Liurnia, one from the map's south) to pass the Academy seal.",
+      "Enter the Academy of Raya Lucaria and drop through the rooftops toward the Church of the Cuckoo grace.",
+      "Fight through the sorcerer halls, Glintstone crabs and living jars up to the Schoolhouse Classroom.",
+      "Beat the Red Wolf of Radagon in the courtyard to open the path deeper.",
+      "Continue past the Debate Parlor to the Rennala fog gate.",
+      "Defeat Rennala, Queen of the Full Moon to clear the legacy dungeon and gain her Great Rune.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
   },
@@ -15779,7 +16014,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Leyndell & Altus",
     title: "Defeat Rykard, Lord of Blasphemy",
-    location: "Leyndell & Altus",
+    location: "Volcano Manor, Mt. Gelmir",
     length: "long",
     difficulty: "High",
     reward: "Great rune, Blasphemous Blade",
@@ -15788,11 +16023,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "The Serpent-Hunter weapon by the arena trivializes the fight — use it and stagger him.",
     walkthrough: [
-      "Reach Volcano Manor in the Altus region and accept Lady Tanith's invitation.",
-      "Work through the manor's contract questline and lava-tunnel gauntlet to reach Rykard's arena.",
-      "Pick up the Serpent-Hunter greatspear lying just before the fog gate.",
-      "Enter the fight and rely on the Serpent-Hunter's ranged sweeps to build stagger.",
-      "Stagger Rykard, Lord of Blasphemy, and finish him for his Great Rune and the Blasphemous Blade."
+      "Reach Volcano Manor on Mt. Gelmir (via Rya's invitation or by climbing from the Erdtree-Gazing Hill in Altus).",
+      "Either join Tanith and take the assassination requests, or fight straight through the manor's lava tunnels behind the illusory walls.",
+      "Work through the Temple of Eiglay and the drainage tunnels to the Rykard boss room.",
+      "Pick up the Serpent-Hunter great spear resting in the arena before the fight — it is built for this boss.",
+      "Fight the God-Devouring Serpent / Rykard, Lord of Blasphemy using the Serpent-Hunter's ranged wave attack from mid-distance.",
+      "Dodge the giant serpent lunges and the phase-two lava waves, then defeat Rykard for his Great Rune and the Blasphemous Blade remembrance.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
   },
@@ -15811,11 +16047,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Its rolling attack is punishing — stay close and punish the recovery.",
     walkthrough: [
-      "Travel to the Temple of Eiglay within Volcano Manor.",
-      "Clear the path to the Godskin Noble's chamber and rest at the nearby grace.",
-      "Stay close during his rolling body-slam and dodge into it rather than away.",
-      "Punish the recovery after each roll and belly-flop to whittle his health.",
-      "Defeat the Godskin Noble to claim the Godskin gear and continue the region."
+      "Reach the Godskin Noble encounter (the Temple of Eiglay in Volcano Manor, or the relevant snowfield/cave arena).",
+      "Open aggressive: the Noble is weak to bleed and staggers well under sustained pressure.",
+      "Dodge its rolling belly-flop by running perpendicular, and avoid the Black Flame fireballs at range.",
+      "Punish after its stretching-arm combos and the flame-pillar cast.",
+      "Keep it staggered to prevent it inflating into the rolling attack.",
+      "Defeat the Godskin Noble to claim its gear and continue the area's progression.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
   },
@@ -15825,7 +16062,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Leyndell & Altus",
     title: "Defeat Godefroy the Grafted",
-    location: "Leyndell & Altus",
+    location: "Golden Lineage Evergaol, Altus Plateau",
     length: "medium",
     difficulty: "High",
     reward: "Golden Order lore, runes",
@@ -15834,11 +16071,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "A tougher reprise of Godrick — bleed and stance-breaks work well.",
     walkthrough: [
-      "Head to the Golden Lineage Evergaol on the Altus Plateau.",
-      "Activate the evergaol to be pulled into Godefroy's arena.",
-      "Treat him as a tougher Godrick reprise — bait the wind and axe combos.",
-      "Apply bleed or repeated stance-breaks to open big punish windows.",
-      "Defeat Godefroy the Grafted for his runes and lineage lore."
+      "Travel to the Golden Lineage Evergaol on the western Altus Plateau (near the Erdtree-Gazing Hill).",
+      "Interact with the evergaol to be sealed in and summon Godefroy the Grafted.",
+      "Fight him much like Godrick — bait the axe sweeps and grafted-limb combos and punish the recovery.",
+      "Avoid the wind-spinning axe by rolling to his flank and staying close.",
+      "In his second phase dodge the grafted storm attacks and keep the pressure on.",
+      "Defeat Godefroy for his runes and the Golden Order lore reward.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
   },
@@ -15857,11 +16095,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Kill the two summoned knights first, then focus Niall — a very tough optional fight.",
     walkthrough: [
-      "Reach Castle Sol in the Mountaintops of the Giants and fight to the summit.",
-      "Rest at the grace before the boss and top up your flasks.",
-      "At the start of the fight, focus down the two summoned spectral knights first.",
-      "With the adds cleared, bait Niall's cannon-arm and greatshield combos and punish gaps.",
-      "Defeat Commander Niall to claim the Haligtree Secret Medallion (Left)."
+      "Cross the Consecrated Snowfield / Mountaintops and reach Castle Sol in the far northeast.",
+      "Fight up through the castle to the upper courtyard and the Commander Niall fog gate.",
+      "Phase one: Niall summons two spectral knights first — kill them quickly (or use a summon) before he joins.",
+      "Phase two: dodge his frost halberd combos and the wind-charged sweeps; he hits hard, so heal on recovery windows.",
+      "Stay on his flank and punish after the big overhead and shield-bash strings.",
+      "Defeat Commander Niall for the Veteran's set and the Haligtree Secret Medallion (Right) upstairs.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
   },
@@ -15880,11 +16119,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Lightning resistance helps enormously; finish Fia's quest to earn a unique ending item.",
     walkthrough: [
-      "Progress Fia's questline at the Roundtable Hold until she offers her embrace request.",
-      "Complete the Deathbed Companion steps to reach Deeproot Depths.",
-      "Rest at Fia's side and enter her dream to start the Fortissax fight.",
-      "Equip lightning-resistant gear and stay under the dragon to avoid its beams.",
-      "Defeat Lichdragon Fortissax to finish Fia's arc and earn the Cursemark of Death."
+      "Advance Fia's questline until you can rest in her arms in the Deeproot Depths and enter her dream.",
+      "Begin the Lichdragon Fortissax fight inside the Deathbed dream.",
+      "Run beneath the dragon to avoid the opening Death-lightning breath, staying near its front legs.",
+      "Dodge the red Destined-Death lightning strikes in phase two by rolling as they land; keep them cleansed.",
+      "Punish the head and forelegs between breath attacks.",
+      "Defeat Fortissax for the Cursemark of Death and to advance Fia's Mending Rune ending.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
   },
@@ -15903,11 +16143,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Light the braziers around the arena to reveal the boss and land hits.",
     walkthrough: [
-      "Descend into the Siofra/Nokron Eternal City depths.",
-      "Follow the glowing ancestral trail of spectral deer to the boss arena.",
-      "Light the braziers ringing the arena to make the Regal Ancestor Spirit visible.",
-      "With the boss lit, focus its head and legs while dodging the antler charges.",
-      "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards."
+      "Descend to the underground (Nokron/Siofra River or the Nokstella depths) and reach the Regal Ancestor Spirit arena at the Hallowhorn Grounds.",
+      "Light all the braziers at the Hallowhorn Grounds to make the spirit deer boss appear.",
+      "Enter the fight; the great stag is fast, so stay near its legs and dodge through its charging lunges.",
+      "Avoid the ranged spirit-projectile volleys by circling and closing distance.",
+      "Punish after its rearing stomp and the sweeping antler attacks.",
+      "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
   },
@@ -15926,11 +16167,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Answer his summons at Murkwater Cave and the Second Church of Marika to see his tale through.",
     walkthrough: [
-      "Answer Yura's first summon sign outside Murkwater Cave in Limgrave.",
-      "Aid him against the invader, then meet him again near the Second Church of Marika.",
-      "Continue answering his summons as his hunt for Eleonora unfolds.",
-      "Support Yura through his final confrontation to see his tale through.",
-      "Complete the arc to inherit the Nagakiba and his anti-invader legacy."
+      "Meet Yura, Hunter of the Bloody Fingers near the Murkwater Coast / Agheel Lake bridge in Limgrave and hear his warning.",
+      "Answer his red summon signs to help him fight the Bloody Finger invaders (e.g. at the Second Church of Marika).",
+      "Continue meeting him across Limgrave and Liurnia as he hunts Eleonora.",
+      "At the Second Church of Marika, help Yura fight Eleonora, Violet Bloody Finger.",
+      "If Yura falls, claim the Nagakiba katana from his body; otherwise complete the arc for his gratitude.",
+      "Later his spirit (Shabriri) may continue the arc near the Zamor ruins in the Mountaintops.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
   },
@@ -15949,11 +16191,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Her questline yields a Haligtree medallion half and a strong summon.",
     walkthrough: [
-      "Find Latenna in the Slumbering Wolf's Shack in western Liurnia.",
-      "Agree to carry her to the Lands of the Albinaurics.",
-      "Travel to the Consecrated Snowfield's Apostate Derelict and interact with her spirit there.",
-      "Complete her pact to honor her wolf-bound vow.",
-      "Receive the Haligtree Secret Medallion (Right) and the Latenna Spirit Ash."
+      "Find Latenna at the Slumbering Wolf's Shack in southwest Liurnia (reached past the Scarlet Rot lake) with her wolf Lobo.",
+      "Speak with her and view the Haligtree Secret Medallion (Left) held by the jar Albinauric in the Village of the Albinaurics nearby.",
+      "Retrieve the medallion half from the ruined village (defeat the giant crows and reach the pot at the bottom).",
+      "Return to Latenna and accept her as a Spirit Ash companion.",
+      "Complete her request by carrying her spirit to the Apostate Derelict in the Consecrated Snowfield.",
+      "Rest there to hear her final wish and conclude her questline.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
   },
@@ -15972,11 +16215,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "His arc intersects Jarburg and the manor — check in across your playthrough.",
     walkthrough: [
-      "Meet Diallos at the Roundtable Hold and again at Volcano Manor.",
-      "Follow his assassination-contract steps alongside the manor questline.",
-      "Check in on him at Jarburg as he grieves and searches for purpose.",
-      "See his story through its bittersweet confrontation.",
-      "Complete Diallos's arc for his fate and Hoslow's gear connections."
+      "Meet Diallos at the Roundtable Hold and hear about his missing servant Lanya.",
+      "Encounter him again fighting off Nerijus (help him at the Volcano Manor / Church of the Plague as prompted).",
+      "Join Volcano Manor so Diallos also takes contracts there; speak with him between missions.",
+      "After the manor arc, find Diallos at Jarburg in Liurnia, now protecting the living jars.",
+      "Return to Jarburg over several visits (resting to pass time) until the pot-poachers attack.",
+      "Arrive for the final assault to see Diallos's fate and collect Hoslow's gear / his memento.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
   },
@@ -15995,11 +16239,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "One of the most involved quests — the Haligtree finale rewards a unique talisman.",
     walkthrough: [
-      "Speak with Gowry in his shack near Sellia, Caelid, and deliver the Unalloyed Gold Needle to be repaired.",
-      "Give the repaired needle to Millicent to halt her scarlet rot.",
-      "Follow Millicent's journey from Caelid to the Erdtree-adjacent regions.",
-      "At the Haligtree, choose whether to aid Millicent against her sisters or hinder her.",
-      "Complete the arc for the unique talisman reward and rot questline conclusion."
+      "Speak with Gowry in Gowry's Shack, Caelid, and accept the task to restore Millicent.",
+      "Travel to Sellia, Town of Sorcery, light its three braziers to lift the seal, and reach the Church of the Plague.",
+      "Defeat Commander O'Neil in the Swamp of Aeonia to obtain the Unalloyed Gold Needle.",
+      "Bring the needle to Gowry to mend it, then give the mended needle to Millicent to halt her Scarlet Rot.",
+      "Follow Millicent's recovery through the Altus Plateau and toward the Haligtree, learning Gowry's true intentions.",
+      "Complete the arc at Elphael (see Millicent's questline) for the Unalloyed needle rewards and the Rot conclusion.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
   },
@@ -16018,11 +16263,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Her arc opens the Volcano Manor questline and its assassination contracts.",
     walkthrough: [
-      "Meet Rya at the Scenic Isle in Liurnia and recover her stolen necklace.",
-      "Return the necklace to learn her true nature and role at Volcano Manor.",
-      "Follow her to Volcano Manor and accept Lady Tanith's invitation.",
-      "Take on the manor's assassination contracts she helps arrange.",
-      "Advance her arc into the deeper Volcano Manor intrigues and Zorayas's story."
+      "Meet Rya near the Laskyar Ruins / Scenic Isle in Liurnia; she asks you to recover her stolen necklace.",
+      "Buy the necklace back from Blackguard Big Boggart at the Boilprawn Shack (choose whether to tell Rya the truth).",
+      "Return the necklace to Rya; she reveals her serpent nature and invites you to Volcano Manor.",
+      "Use her invitation to warp into Volcano Manor and join Tanith.",
+      "Progress the manor and find Rya again as Zoraya; help resolve her arc during the Rykard / manor questline.",
+      "Complete her storyline for the serpent lore and her related rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
   },
@@ -16041,11 +16287,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "A short early questline that connects to Nepheli Loux's story.",
     walkthrough: [
-      "Find Kenneth Haight on the ruins overlooking eastern Limgrave.",
-      "Agree to help him retake Fort Haight to the south.",
-      "Clear the enemies occupying Fort Haight.",
-      "Report back to Kenneth so he can reclaim the fort.",
-      "Complete the short arc to gain an ally and its link to Nepheli Loux's story."
+      "Meet Kenneth Haight on a ruined arch in eastern Limgrave; he asks you to retake Fort Haight.",
+      "Travel to Fort Haight to the southeast and clear the soldiers and commander occupying it.",
+      "Return to Kenneth and report the fort is cleared so he can take up rule.",
+      "Find Kenneth installed at Fort Haight (or later tied to Nepheli's lordship arc).",
+      "Continue to Nepheli's questline if you want to make her Lord of Limgrave using Kenneth's offer.",
+      "Conclude Kenneth's arc for an ally and the restored settlement.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
   },
@@ -16055,7 +16302,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Enter the Land of Shadow (Scadutree)",
-    location: "Land of Shadow",
+    location: "Gravesite Plain, Land of Shadow",
     length: "medium",
     difficulty: "Medium",
     reward: "DLC start, Scadutree Blessing",
@@ -16064,11 +16311,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Scadutree Fragments are the DLC's key power scaling — collect them before every major boss.",
     walkthrough: [
-      "Defeat Mohg, Lord of Blood at Mohgwyn Palace to access his arena.",
-      "Interact with the withered arm in Mohg's arena to be drawn into the Land of Shadow.",
-      "Rest at the first Gravesite Plain grace and get your bearings.",
-      "Begin collecting Scadutree Fragments scattered across the map.",
-      "Spend fragments at any grace to raise your Scadutree Blessing before major bosses."
+      "Reach and defeat Mohg, Lord of Blood at Mohgwyn Palace — his arena holds the portal to the DLC.",
+      "Interact with the withered arm at the Cocoon of the Empyrean beside Mohg's arena to be transported to the Land of Shadow.",
+      "Arrive in the Gravesite Plain and rest at the first Scadutree grace.",
+      "Explore the plain and start collecting Scadutree Fragments — they are the DLC's main power scaling, so prioritize them.",
+      "Level the Scadutree Blessing at any Scadutree grace to raise your damage and defense in the Land of Shadow.",
+      "Follow the map toward Belurat and the Castle Front to open the DLC's paths.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
   },
@@ -16078,7 +16326,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Divine Beast Dancing Lion",
-    location: "Land of Shadow",
+    location: "Belurat, Tower Settlement",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Belurat cleared",
@@ -16087,11 +16335,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Its element shifts (wind, frost, lightning) mid-fight; watch the mask to read the next phase.",
     walkthrough: [
-      "Enter Belurat, Tower Settlement from the Gravesite Plain.",
-      "Fight up through the settlement to the rooftop arena and rest at the grace.",
-      "Watch the Dancing Lion's mask to read its wind, frost, and lightning phases.",
-      "Dodge through the spinning attacks and punish after each elemental burst.",
-      "Defeat the Divine Beast Dancing Lion for its Remembrance."
+      "From the Gravesite Plain, follow the path up to Belurat, Tower Settlement and rest at its graces.",
+      "Fight through the settlement's Horned Warriors and up the tower interior to the fog gate.",
+      "Begin the Divine Beast Dancing Lion fight; it channels wind, lightning and frost in turn — watch which element it charges.",
+      "Stay under and behind the lion to avoid the spinning charge and the elemental breath sweeps.",
+      "During its storm phase, keep clearing status and punish after the big dash combos.",
+      "Defeat the Divine Beast for its Remembrance, clearing Belurat.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
   },
@@ -16101,7 +16350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Rellana, Twin Moon Knight",
-    location: "Land of Shadow",
+    location: "Castle Ensis",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Castle Ensis cleared",
@@ -16110,11 +16359,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "A fast, aggressive duelist — learn her dual-moon combo and punish the recovery.",
     walkthrough: [
-      "Make your way through Castle Ensis to the pass beyond it.",
-      "Rest at the grace before Rellana's fog gate.",
-      "Learn her dual-moon combo — bait the twin-blade flurry and the moon projectiles.",
-      "Dodge late into her combos and punish the long recovery.",
-      "Defeat Rellana, Twin Moon Knight, to clear the pass and claim her Remembrance."
+      "Cross the Gravesite Plain to Castle Ensis and pass through the fortress to the fog gate.",
+      "Begin the Rellana, Twin Moon Knight fight; stay aggressive early before she empowers her swords.",
+      "Dodge her dual-sword combos by rolling into her, and watch the double-slash opener.",
+      "In phase two she conjures twin moons (blue frost and red fire) — avoid the delayed dual-moon explosion by repositioning.",
+      "Punish after her magic combos and keep close to limit her ranged casts.",
+      "Defeat Rellana for her Remembrance and passage deeper toward the Scadu Altus.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
   },
@@ -16124,7 +16374,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Messmer the Impaler",
-    location: "Land of Shadow",
+    location: "Shadow Keep",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Shadow Keep opened",
@@ -16133,11 +16383,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "His second phase adds serpents and impaling spears — fire resistance and patience are key.",
     walkthrough: [
-      "Reach the Shadow Keep and fight through to Messmer's tower.",
-      "Rest at the grace and equip fire-resistant gear.",
-      "In phase one, punish the gaps in his flame and spear combos.",
-      "In phase two, watch for the serpents and impaling spears and keep your distance when they rise.",
-      "Defeat Messmer the Impaler to open the Shadow Keep and earn his Remembrance."
+      "Progress through the Scadu Altus and Shadow Keep to reach Messmer's Dark Chamber at the top of the keep.",
+      "Enter the fog to fight Messmer the Impaler; bait his snake-and-spear thrusts and punish the recovery.",
+      "Dodge his flame combos by rolling through them toward him, and avoid the impaling spear lunge.",
+      "Phase two: he unleashes the giant serpent and rising flame pillars — keep moving and dodge the snake bites.",
+      "Watch for the aerial spear rain and the big impale finisher; heal on his down-time.",
+      "Defeat Messmer for his Remembrance, opening the deeper Shadow Keep and the path onward.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
   },
@@ -16147,7 +16398,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Bayle the Dread",
-    location: "Land of Shadow",
+    location: "Jagged Peak",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, dragon communion",
@@ -16156,11 +16407,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Igon's summon and spear buff help enormously — do his questline first.",
     walkthrough: [
-      "Complete Igon's questline so he will aid you against Bayle.",
-      "Descend the Jagged Peak to Bayle's lair and rest at the grace.",
-      "Summon Igon and apply his dragon-spear buff at the start of the fight.",
-      "Stay under Bayle's body to avoid the fire breath and lightning slams.",
-      "Slay Bayle the Dread for his Remembrance and dragon communion reward."
+      "Progress Igon's arc and reach the Jagged Peak in the southeast Land of Shadow, climbing past the lesser dragons.",
+      "Rest at the Jagged Peak Summit grace and summon Igon before the fog for his anti-Bayle aid.",
+      "Begin the Bayle the Dread fight; run under the dragon to avoid the opening fire and lightning breath.",
+      "Stay beneath its body and target the legs and head, dodging the fire-explosion stomps.",
+      "In phase two avoid the lightning-charged bites and the sweeping tail; use Igon's ballista windows to punish.",
+      "Defeat Bayle for its Remembrance and the dragon-communion rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
   },
@@ -16170,7 +16422,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Midra, Lord of Frenzied Flame",
-    location: "Land of Shadow",
+    location: "Midra's Manse, Abyssal Woods",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Frenzied Flame lore",
@@ -16179,11 +16431,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Madness resistance and a steady approach keep the Frenzied Flame from overwhelming you.",
     walkthrough: [
-      "Find the entrance to Midra's Manse in the Abyssal Woods.",
-      "Move quietly through the Manse to avoid drawing the frenzied enemies.",
-      "Rest at the grace and equip madness-resistant gear before the fight.",
-      "Keep pressure on Midra while dodging the Frenzied Flame beams that build madness.",
-      "Defeat Midra, Lord of Frenzied Flame, for his Remembrance and lore."
+      "Reach the Abyssal Woods (past the Shadow Keep back gate), avoiding the Winter Lantern 'madness' enemies by sneaking.",
+      "Find Midra's Manse and progress through the burning manor interior.",
+      "Read the item/lore triggers to open Midra's boss room and enter the fog.",
+      "Phase one — Midra, Lord of Frenzied Flame: dodge his slow frenzy-flame slashes and avoid building madness.",
+      "Phase two: he erupts into the Frenzied Flame — evade the flame waves and the spinning greatsword combos, keeping madness cleared.",
+      "Defeat Midra for his Remembrance and the Frenzied Flame lore reward.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
   },
@@ -16193,7 +16446,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Metyr, Mother of Fingers",
-    location: "Land of Shadow",
+    location: "Cathedral of Manus Metyr, Finger Ruins",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Count Ymir's arc",
@@ -16202,11 +16455,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "A ranged-heavy boss — close distance during her beam attacks and punish between casts.",
     walkthrough: [
-      "Complete Count Ymir's questline at the Church of the Bud/Cathedral of Manus Metyr.",
-      "Follow the trail to the Finger Ruins and the path to Metyr.",
-      "Rest at the grace before her arena.",
-      "Close the distance during her beam and finger-rain casts and punish between them.",
-      "Defeat Metyr, Mother of Fingers, to finish Ymir's arc and claim her Remembrance."
+      "Complete Count Ymir's questline at the Church of the Bud / Cathedral of Manus Metyr to unlock the way to the Finger Ruins boss.",
+      "Reach the Cathedral of Manus Metyr in the Finger Ruins and enter the fog after Ymir's arc turns hostile.",
+      "Phase one — Metyr, Mother of Fingers: dodge her long-range gravity beams and the falling-finger meteors.",
+      "Close distance and attack her core/head, rolling through the beam sweeps.",
+      "Phase two: avoid the void-explosion under you and the homing star volleys as she floats.",
+      "Defeat Metyr for her Remembrance and to conclude Ymir's arc.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
   },
@@ -16216,7 +16470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Romina, Saint of the Bud",
-    location: "Land of Shadow",
+    location: "Church of the Bud, Scadu Altus",
     length: "long",
     difficulty: "High",
     reward: "Remembrance, Haligtree path",
@@ -16225,11 +16479,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Scarlet rot buildup is deadly here — bring cleansing items and rot resistance.",
     walkthrough: [
-      "Travel toward Enir-Ilim and reach the Church of the Bud.",
-      "Rest at the grace and bring rot-cleansing items and rot-resistant gear.",
-      "Dodge Romina's spear thrusts and butterfly swarms to limit scarlet rot buildup.",
-      "Cure rot immediately if the meter fills, then resume pressure.",
-      "Defeat Romina, Saint of the Bud, to open the path to Enir-Ilim and claim her Remembrance."
+      "Push through the Scadu Altus to the Church of the Bud, which gates the path up to Enir-Ilim.",
+      "Enter the fog to fight Romina, Saint of the Bud in the rot-filled chapel.",
+      "Keep Scarlet Rot resistance up and clear rot fast — her attacks build it quickly.",
+      "Dodge her butterfly-swarm dashes and the spear combos by rolling into her.",
+      "Phase two: avoid the rot-bloom explosions and the flying charge, punishing after her long strings.",
+      "Defeat Romina for her Remembrance, opening the road to Enir-Ilim and the DLC finale.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
   },
@@ -16239,7 +16494,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Elden Ring",
     region: "Land of Shadow",
     title: "Defeat Promised Consort Radahn",
-    location: "Land of Shadow",
+    location: "Enir-Ilim, Divine Gate",
     length: "long",
     difficulty: "High",
     reward: "DLC finale, Miquella's ending",
@@ -16248,11 +16503,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "The hardest fight in the game; max your Scadutree Blessing and bring a strong summon.",
     walkthrough: [
-      "Reach the summit of Enir-Ilim and rest at the final grace.",
-      "Max out your Scadutree Blessing and bring a strong Spirit Ash summon.",
-      "In phase one, hug Radahn and dodge into his gravity slams and cross-slashes.",
-      "In phase two, weather Miquella's light storm and punish the brief openings after his combos.",
-      "Defeat Promised Consort Radahn to complete Shadow of the Erdtree."
+      "Climb Enir-Ilim to the Divine Gate Front Staircase grace at the top of the Land of Shadow.",
+      "Level your Scadutree Blessing as high as possible first — this is the DLC's hardest fight.",
+      "Phase one — Radahn: dodge his massive dual-sword combos by rolling into him, and avoid the gravity-slam and cross-slash.",
+      "Summon the available NPC signs (Ansbach, Thiollier, Leda if allied) to split his aggro.",
+      "Phase two — Promised Consort Radahn (with Miquella): survive the blinding holy 'Light of Miquella' explosion by hugging him and rolling through the beams.",
+      "Punish only in his brief recovery windows and defeat him to complete Shadow of the Erdtree and Miquella's ending.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
   },
@@ -16271,11 +16527,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Their allegiances split near the end; your choices decide who invades and who aids you.",
     walkthrough: [
-      "Meet Leda and her companions across the Land of Shadow's graces.",
-      "Advance each companion's dialogue — Ansbach, Thiollier, Freyja, Hornsent, and Moore.",
-      "Make your choices as their loyalties begin to split near Enir-Ilim.",
-      "Survive the invasions triggered by the fractured band.",
-      "Resolve Leda's questline to determine who aids you and who turns hostile."
+      "Meet Needle Knight Leda and the band of companions (Ansbach, Thiollier, Hornsent, Freyja, Dane, Igon) early in the DLC and speak with each.",
+      "Follow the group's messages across the Land of Shadow, meeting them again at the Shadow Keep and Scadu Altus.",
+      "As tensions rise, choose your allegiances — your dialogue choices decide who turns hostile.",
+      "Respond to Leda's invasions and the companions' invasions/summons as they hunt each other.",
+      "At the final gathering before Enir-Ilim, fight the multi-NPC ambush led by Leda.",
+      "Resolve the arc by surviving the melee; your choices determine which companions you can summon for the final boss.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
   },
@@ -16294,11 +16551,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "A quiet, lore-rich side arc that rewards patience and exploration.",
     walkthrough: [
-      "Find Thiollier among Leda's companions and progress his dialogue.",
-      "Follow his search for St. Trina across the Land of Shadow.",
-      "Explore to the hidden location where St. Trina slumbers.",
-      "Complete Thiollier's steps at St. Trina's resting place.",
-      "Finish the arc for its sleep-themed conclusion and unique reward."
+      "Find Thiollier searching for St. Trina across the Land of Shadow and speak with him for hints.",
+      "Track St. Trina's sleeping shrine (in the Stone Coffin Fissure), progressing Thiollier's dialogue at each meeting.",
+      "Reach St. Trina and receive her plea; report back to Thiollier.",
+      "Complete his arc, receiving St. Trina's sleep-based reward (the Milk of St. Trina / sleep incantation).",
+      "Keep him alive through the companions' conflict so he can aid you later.",
+      "Optionally summon Thiollier for the final boss as the arc's payoff.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
   },
@@ -16317,14 +16575,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Explore widely and level up before major bosses. The main path is gated by Great Runes, so tackle Godrick and Rennala early to open the route north.",
     walkthrough: [
-      "Start at the Stranded Graveyard and reach the open world of Limgrave.",
-      "Unlock the Roundtable Hold hub after your first grace-guided steps.",
-      "Defeat the Shardbearers: Godrick, Rennala, Radahn, and Morgott.",
-      "Reach the Mountaintops of the Giants and defeat the Fire Giant.",
-      "Burn the Erdtree, then clear Crumbling Farum Azula and defeat Maliketh.",
-      "Return to the Ashen Capital and beat Godfrey and Morgott's echoes.",
-      "Face the final bosses, Radagon and the Elden Beast.",
-      "Choose your ending at the Elden Throne to become Elden Lord."
+      "Leave the Chapel of Anticipation and the Stranded Graveyard, then explore Limgrave and light the first graces.",
+      "Take Stormveil Castle: beat Margit, then Godrick the Grafted for your first Great Rune.",
+      "Cross Liurnia and clear the Academy of Raya Lucaria, defeating Rennala for the second Great Rune.",
+      "Open the Altus Plateau (Grand Lift of Dectus or the Ruin-Strewn Precipice) and take Leyndell, beating Morgott.",
+      "Push to the Mountaintops, defeat the Fire Giant, burn the Erdtree, and clear Crumbling Farum Azula (Maliketh).",
+      "Return to the scorched Leyndell, defeat Sir Gideon and Godfrey/Hoarah Loux, then Radagon and the Elden Beast to become Elden Lord.",
     ],
     video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
   },
@@ -16343,11 +16599,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Deliver her chrysalids' memento to Blacksmith Hewg, then speak to both repeatedly across visits to unlock Spirit Ash upgrades.",
     walkthrough: [
-      "Find Roderika at the Stormhill Shack near the start of Limgrave.",
-      "Exhaust her dialogue and encourage her to travel to the Roundtable Hold.",
-      "Deliver her chrysalids' memento to Blacksmith Hewg at the Roundtable.",
-      "Speak with both Roderika and Hewg again to nudge her past her grief.",
-      "Return across later visits until she becomes the Spirit Tuner and unlocks Spirit Ash upgrades."
+      "Find Roderika at the Stormhill Shack (before Stormveil) and hear about her lost comrades; give her the Chrysalids' Memento if you find it in Stormveil.",
+      "Encourage her to move on and send her to the Roundtable Hold.",
+      "At the Hold, speak with Roderika and with Smithing Master Hewg repeatedly to build her confidence.",
+      "Return over several visits as she takes up spirit-tuning.",
+      "Once she becomes the Spirit Tuner, upgrade your Spirit Ashes through her.",
+      "Complete her dialogue for the full tuning service and her heartfelt resolution.",
     ],
     video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
   },
@@ -16366,11 +16623,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Grab a Glintstone Key from the dragon-guarded rise near the Academy, give it to Thops, then return later to find his fate and claim his gear.",
     walkthrough: [
-      "Meet Thops at the Church of Irith in eastern Liurnia and hear his request for a Glintstone Key.",
-      "Collect a Glintstone Key from the dragon-guarded Gate Town Bridge rise near Raya Lucaria.",
-      "Return and hand the Glintstone Key to Thops so he can enter the Academy.",
-      "Progress the game, then travel to the Raya Lucaria Academy classroom.",
-      "Find Thops's remains there to claim Thops's Barrier sorcery and his Bell Bearing."
+      "Meet Thops at the Church of Irith in eastern Liurnia and buy his sorceries; hear that he can't enter the Academy.",
+      "Explore Raya Lucaria and, after defeating Red Wolf of Radagon, find the Academy Glintstone Key in the Schoolhouse Classroom.",
+      "Bring that second Glintstone Key back to Thops so he can finally enter the Academy.",
+      "Return to the Church of Irith later to find Thops has departed.",
+      "Collect Thops's Barrier sorcery and Thops's Bell Bearing from where he sat.",
+      "Give the Bell Bearing to the Twin Maiden Husks to buy his remaining spells.",
     ],
     video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
   },
@@ -16389,11 +16647,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "His quest branches sharply — the potion he gives you can be used on Nepheli or given to Gideon. Decide carefully, as choices lock out rewards.",
     walkthrough: [
-      "Reach Seluvis's Rise in Liurnia (accessible via Ranni's questline through Renna's Rise).",
-      "Accept his task to deliver Seluvis's Potion to Nepheli Loux.",
-      "Choose whether to puppet Nepheli, warn her, or hand the potion to Gideon instead.",
-      "Return to buy puppet Spirit Ashes from his stock at Seluvis's Rise.",
-      "Progress Ranni's questline; siding with Ranni ultimately ends Seluvis's scheme."
+      "Find Preceptor Seluvis at Seluvis's Rise in Liurnia (accessible via Ranni's questline) and hear his request.",
+      "Accept the Amber Starlight / Seluvis's Potion errand and take the potion toward Nepheli Loux (or Gideon) as he asks.",
+      "Decide whether to actually drug the target or expose Seluvis — this branches the outcome.",
+      "Explore his hidden puppet cellar behind the illusory wall for the Magic Scorpion Charm and puppet Spirit Ashes.",
+      "Continue his and Ranni's overlapping dialogue until his scheme resolves.",
+      "Collect the puppet Spirit Ashes and charm as the questline's rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
   },
@@ -16412,11 +16671,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Free him from the Forlorn Hound Evergaol early and follow Ranni's quest — Blaidd's arc is bound to hers and can be missed if you rush.",
     walkthrough: [
-      "Howl at the Mistwood ruins after speaking to Kalé, or free Blaidd from the Forlorn Hound Evergaol.",
-      "Meet him again in the Siofra River and receive his help hints for Ranni's quest.",
-      "Fight alongside him at the Radahn Festival in Redmane Castle.",
-      "Continue Ranni's questline through Nokron and beyond.",
-      "Return to Ranni's Rise near the end to confront the maddened Blaidd and claim his gear."
+      "Meet Blaidd in the Mistwood (howl at the Mistwood Ruins after Kalé's tip) and speak with him about Radahn.",
+      "Help him at the Forlorn Hound Evergaol nearby, then follow his path through Ranni's questline.",
+      "Meet him at Siofra River and Redmane Castle for the Radahn festival, fighting alongside him.",
+      "Continue Ranni's quest; Blaidd waits at Ranni's Rise as her half-wolf shadow.",
+      "After Ranni's questline turns, find Blaidd trapped/hostile at Ranni's Rise.",
+      "Conclude his tragic arc (defeating him) to obtain the Royal Greatsword.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
   },
@@ -16435,11 +16695,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Buy his Ashes of War at Warmaster's Shack early. His arc concludes as an endgame invasion — don't skip past Farum Azula without triggering it.",
     walkthrough: [
-      "Meet Bernahl at the Warmaster's Shack in Limgrave and buy Ashes of War.",
-      "Join Volcano Manor and find Bernahl there among the recusants.",
-      "Complete Volcano Manor assassination contracts alongside the questline.",
-      "Travel to Crumbling Farum Azula late in the game.",
-      "Answer his invasion sign and defeat him to claim the Devourer's Scepter."
+      "Meet Recusant Bernahl at the Warmaster's Shack in Limgrave and buy his Ashes of War.",
+      "Join Volcano Manor and find Bernahl there; take the assassination invasions he offers.",
+      "Complete his contract invasions and continue his dialogue about the Recusants.",
+      "Progress to Crumbling Farum Azula, where Bernahl reappears as a hostile invader near the Beside the great-Bridge grace.",
+      "Defeat Bernahl in Farum Azula to obtain the Devourer's Scepter and the Beast Champion armor set.",
+      "Finish looting his remains to complete the arc.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
   },
@@ -16458,11 +16719,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Use the teleporter trap in eastern Limgrave to reach the Bestial Sanctum early. Back off when Gurranq turns hostile after feedings, then continue.",
     walkthrough: [
-      "Reach the Bestial Sanctum in northern Caelid (fastest via the Limgrave teleporter trap).",
-      "Speak with Gurranq and hand over your first Deathroot.",
-      "When he becomes aggressive, retreat or survive until he calms, then talk again.",
-      "Collect Deathroot from dungeon and boss drops across the Lands Between.",
-      "Deliver all nine Deathroot to exhaust his rewards, including the Beast Eye and Clawmark Seal."
+      "Reach the Bestial Sanctum in northeast Caelid (via the teleporter behind the Third Church of Marika) and speak with Gurranq, Beast Clergyman.",
+      "Feed him Deathroot to calm him — each Deathroot rewards a beast incantation or item.",
+      "Deliver the first Deathroot (found via D's questline / Deathroot locations) for the Clawmark Seal.",
+      "Return with more Deathroot over time; after some he attacks briefly — survive and keep feeding him.",
+      "Continue delivering all nine Deathroot for the full set of beast incantations and the Ash of War: Determination.",
+      "Complete his rewards, revealing his ties to Maliketh.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
   },
@@ -16481,11 +16743,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Visit Jarburg repeatedly and progress Diallos's Volcano Manor thread — Jar Bairn's ending depends on advising him after Diallos falls.",
     walkthrough: [
-      "Travel to Jarburg in eastern Liurnia and speak with Jar Bairn.",
-      "Talk to Diallos, who has come to protect the village.",
-      "Return after major story progress to find the village attacked and Diallos wounded.",
-      "Advise Jar Bairn about his future when prompted in dialogue.",
-      "Continue visiting to receive the Companion Jar talisman and Lightning Ram."
+      "Finish enough of Diallos's Jarburg arc, then find Jar Bairn, the little living jar, at Jarburg in Liurnia.",
+      "Speak with Jar Bairn across multiple visits (rest to pass time) as he looks up to Diallos.",
+      "After the Jarburg attack in Diallos's arc, console Jar Bairn about what happened.",
+      "Send him to seek Iron Fist Alexander's wisdom about becoming a great warrior jar.",
+      "Return after progressing Alexander's quest to complete Jar Bairn's growth.",
+      "Collect the Companion Jar talisman and the Ash of War: Lightning Ram as his rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
   },
@@ -16504,11 +16767,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "This locks you into the Frenzied Flame ending unless reversed via Miquella's Needle. Warn: it overrides other endings until cured.",
     walkthrough: [
-      "Progress Yura's questline until Shabriri possesses his body in the Zamor Ruins area.",
-      "Speak with Shabriri, who directs you to the Frenzied Flame Proscription.",
-      "Descend the Subterranean Shunning-Grounds to the Frenzied Flame Proscription door.",
-      "Remove all armor and touch the Three Fingers to accept the Frenzied Flame.",
-      "This sets the Lord of Frenzied Flame ending — reverse it later with Miquella's Needle if desired."
+      "Progress toward the Frenzied Flame: reach the Frenzied Flame Village (Callu / Liurnia) and the Subterranean Shunning-Grounds beneath Leyndell.",
+      "Descend past the Mohg (the Omen) fight to the Cathedral of the Forsaken and the sealed door.",
+      "Hear Shabriri's voice urging you to take the Three Fingers.",
+      "Remove all armor and touch the Three Fingers to accept the Frenzied Flame (this locks your ending unless cured later).",
+      "Complete Hyetta's questline in parallel so she becomes your Frenzied Flame maiden.",
+      "At the end, choose the Lord of Frenzied Flame ending (or undo it via Miquella's Needle after Malenia/Placidusax).",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
   },
@@ -16527,11 +16791,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Track Miquella's crosses and speak with Ansbach at each Shadow Keep visit. His fate depends on how St. Trina's and Leda's threads resolve.",
     walkthrough: [
-      "Meet Sir Ansbach in the Shadow Keep's Storehouse, disguised among the servants.",
-      "Follow Miquella's crosses across the Land of Shadow, reporting back as the story advances.",
-      "Deliver information about Miquella's true plan when he asks.",
-      "Side with him during the Needle Knight Leda companions' confrontation.",
-      "Reach the final boss arena, where Ansbach's summon sign aids you if he survives."
+      "Meet Sir Ansbach, Mohg's loyal servant, in the Shadow Keep during the DLC and speak with him.",
+      "Follow his messages and meetings across the Scadu Altus as he investigates Miquella's plans.",
+      "Complete his requests (delivering information / choosing dialogue) as the companions' conflict unfolds.",
+      "Keep him allied by siding with him against Leda's group at key confrontations.",
+      "Survive the final companion ambush before Enir-Ilim with Ansbach on your side.",
+      "Claim Ansbach's armor set and the Nail-Bracelet Talisman, and summon him for the final boss.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
   },
@@ -16550,11 +16815,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Speak to Grandam in Bonny Village between Hornsent's appearances — her cryptic hints and his revenge arc unfold together across the DLC.",
     walkthrough: [
-      "Meet Hornsent early after entering the Land of Shadow near Belurat.",
-      "Find Grandam seated in Bonny Village and exhaust her dialogue.",
-      "Progress toward Shadow Keep, meeting Hornsent again at key sites.",
-      "Return to Grandam after major bosses for further lore and gestures.",
-      "Follow Hornsent to Enir-Ilim to resolve his vengeance at the tower's summit."
+      "Meet the Hornsent and Grandam at the start of the DLC near Belurat and hear their vengeance quest against Messmer.",
+      "Speak with the Hornsent again across the Land of Shadow (Shadow Keep, Scadu Altus) as he pursues the tower.",
+      "Advance the story by defeating Messmer the Impaler, which the Hornsent seeks.",
+      "Return to Grandam at the Belurat gaol for lore and gestures at each stage.",
+      "Follow the Hornsent's darkening path as he joins the companions' conflict.",
+      "Resolve his arc through the final confrontation, collecting his gesture and lore rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
   },
@@ -16573,11 +16839,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Buy his sorceries and follow Jolán's leads. Ymir's quest branches into a fight — keep Jolán's thread alive for the full resolution.",
     walkthrough: [
-      "Meet Ymir at the Church of the Bud in Scadu Altus and purchase sorceries.",
-      "Accept his tasks and speak with his attendant Jolán.",
-      "Follow the map markers to the two Fingers he sends you to investigate.",
-      "Return to trigger the confrontation and defeat Ymir, Mother of Fingers' would-be heir.",
-      "Complete Jolán's follow-up to conclude the questline and claim its rewards."
+      "Meet Count Ymir at the Church of the Bud (Cathedral of Manus Metyr) and buy his finger sorceries; his handmaidens are Jolán and Anna.",
+      "Accept his tasks and follow the clues to the Finger Ruins sites across the Land of Shadow.",
+      "Progress his research into the Mother of Fingers, receiving finger-based spells along the way.",
+      "When Ymir turns hostile, fight him at the cathedral (a two-phase mage boss).",
+      "Defeat Ymir, then continue to Metyr, Mother of Fingers to close the arc.",
+      "Collect the finger sorceries and Jolán's related rewards.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
   },
@@ -16596,11 +16863,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Summon Igon for the Bayle fight — his impassioned battle cries mark the arc's climax. Complete dragon communion at the Priestess's altar afterward.",
     walkthrough: [
-      "Find the wounded Igon along the path up the Jagged Peak.",
-      "Read his messages and progress toward Bayle's lair.",
-      "Summon Igon at the fog wall before Bayle the Dread and defeat the dragon together.",
-      "Speak with the Dragon Priestess to access dragon communion incantations.",
-      "Offer Dragon Hearts at the altar to claim the DLC's dragon rewards."
+      "Meet Igon, the dragon-hunter, wounded on the way up toward the Jagged Peak, and hear his obsession with Bayle.",
+      "Read his summon messages as you climb the Jagged Peak past the dragons.",
+      "Reach the Jagged Peak Summit and summon Igon's sign before the Bayle fog.",
+      "Fight Bayle the Dread with Igon's ballista support drawing aggro and staggering the dragon.",
+      "Defeat Bayle to fulfill Igon's lifelong hunt.",
+      "Collect the dragon-communion rewards and Igon's memento afterward.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
   },
@@ -16619,11 +16887,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Note his changing location and mood after major DLC bosses — speaking to him each time is needed to reach his questline's end.",
     walkthrough: [
-      "Meet Moore near the Gravesite Plain shortly after entering the Land of Shadow.",
-      "Buy from his stock and exhaust his dialogue.",
-      "Return after progressing the DLC to find him relocated.",
-      "Continue talking across visits as his outlook darkens.",
-      "Resolve his final encounter to obtain the Aged One's Exultation talisman."
+      "Meet Moore, the melancholy merchant, in the Gravesite Plain early in the DLC and buy from him.",
+      "Speak with him again as he relocates across the Land of Shadow (Scadu Altus / Shadow Keep areas).",
+      "Progress the DLC main path, checking in with Moore at each new site.",
+      "Follow his growing despair through his dialogue.",
+      "Reach the conclusion of his short arc based on your choices.",
+      "Claim the Aged One's Exultation talisman as his reward.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
   },
@@ -16642,11 +16911,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Give him the Fire Knight's Prayerbook to unlock incantations, then meet him where he invades to complete the arc.",
     walkthrough: [
-      "Encounter Queelign preaching at Belurat or the Church District.",
-      "Locate the Fire Knight's Prayerbook and hand it to him.",
-      "Purchase his fire incantations from his stock.",
-      "Travel onward until he appears as an invader.",
-      "Defeat Queelign in his final duel to complete the questline."
+      "Encounter Queelign, the Fire Knight, as a hostile invader at Fire Knight sites in the Land of Shadow and defeat him each time.",
+      "Speak with him when he appears non-hostile to hear his zealot's creed.",
+      "Progress through the DLC's Fire Knight locations (Scadu Altus, Fire Knight ruins).",
+      "Bring the Rubbing / relevant item he requests to advance his faith.",
+      "Complete his final meeting to end the arc.",
+      "Collect the Fire Knight incantations and unique gear he leaves behind.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
   },
@@ -16665,11 +16935,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "Speak with Freyja at each Shadow Keep rest and track how the companions turn on one another — her survival hinges on the choices you make.",
     walkthrough: [
-      "Meet Freyja among Leda's companions after reaching the Shadow Keep.",
-      "Talk to her at rest sites as the group discusses Miquella's path.",
-      "Follow the companions' storyline through the mounting tension.",
-      "Take sides during the companions' final confrontation.",
-      "If she survives, summon Freyja for support in the DLC's climactic battle."
+      "Meet Freyja, the warrior, among the companions in the Shadow Keep and speak with her about the tower's secrets.",
+      "Follow her messages and meetings across the Scadu Altus as the group's paths diverge.",
+      "Complete her requests and keep her allied through the companions' conflict.",
+      "Side with her at the confrontations so she stays friendly.",
+      "Survive the final companion clash before Enir-Ilim with Freyja alive.",
+      "Summon Freyja for the final boss as her arc's payoff and endgame summon support.",
     ],
     video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
   },
