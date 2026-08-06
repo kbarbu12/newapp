@@ -217,22 +217,32 @@ real video URLs byte-identical), then `node scripts/audit.js` (integrity gate),
 | Elden Ring | 70 | 70 (38 had no walkthrough) | 11 locations pinned (DLC bosses were all just "Land of Shadow"; Rykard, Godefroy) | #47 |
 | Baldur's Gate 3 | 112 | 112 (87 had no walkthrough) | #66 "Free the Artist" location (Zhentarim Hideout, Waukeen's Rest — not Grymforge) | #48 |
 
-**Totals so far:** 212 quests across 3 games; all audits integrity-clean
-locally. Rewards/acts/regions were largely accurate and left unchanged; real
-videos and missable flags preserved throughout. **Caveat:** walkthroughs lean
-on game knowledge (no wiki access), written conservatively — a human spot-check
-of questline steps is advised before treating them as canon.
+**Totals:** 212 quests across 3 games. **All three PRs (#46/#47/#48) are merged
+into `staging`** (staging HEAD `196becb`); audit integrity-clean on the merged
+tree (FF7R 30/30, ER 70/70, BG3 112/112). Rewards/acts/regions were largely
+accurate and left unchanged; real videos and missable flags preserved
+throughout. **Caveat:** walkthroughs lean on game knowledge (no wiki access),
+written conservatively — a human spot-check of questline steps is advised before
+treating them as canon.
 
-**Branches:** `Quest-verification` (FF7R), `Quest-verification-elden-ring`,
+**Branches (merged):** `Quest-verification` (FF7R), `Quest-verification-elden-ring`,
 `Quest-verification-bg3`.
+
+**Full-depth QA (on merged staging HEAD `196becb`):** headless drive of the
+built staging bundle — **17/17 checks passed, zero non-network console errors**.
+Covered app load + counts, all Quest Assistant intents (Tiers 1–4), verified
+walkthroughs rendering across all three games, and quest-detail fields + reward
++ walkthrough. (Live-site QA still runs against the local prod/staging build, not
+the `github.io` URL, which the network policy blocks — see `TODO.md`.)
 
 **CI note (2026-08-06):** GitHub's hosted Actions runners were badly backlogged
 this session — push-triggered and dispatched runs sat queued and several were
 auto-cancelled after ~15 min without ever getting a runner. PR #46's audit ran
-green; #47/#48 pass `node scripts/audit.js` locally (the identical check) and
-were re-dispatched to confirm once runners recover. Git pushes themselves all
-succeeded; the stuck/cancelled states are runner capacity, not code or push
-failures.
+green; the merged data passes `node scripts/audit.js` locally (the identical
+check CI runs). Git pushes and PR merges all succeeded; the pending item is only
+the GitHub Pages **deploy** for `196becb`, queued behind the runner outage — it
+will publish when capacity returns. The stuck states are runner capacity, not
+code, push, or merge failures.
 
 ---
 
