@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
   Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
-  Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
+  Star, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check
 } from "lucide-react";
@@ -399,7 +399,7 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
         <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
           <QuestTypeBadge type={quest.type}/>
-          <span className="hidden sm:inline-flex"><ActTag quest={quest}/></span>
+          <ActTag quest={quest}/>
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           <span className="hidden sm:inline-flex">
@@ -596,7 +596,8 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
               )}
               <div className="flex items-center gap-2 mt-1">
                 <DifficultyChip level={questOfWeek.difficulty}/>
-                <Pill className="bg-white/5 text-muted-foreground border-white/10"><BookOpen size={8}/> Side</Pill>
+                <QuestTypeBadge type={questOfWeek.type}/>
+                <ActTag quest={questOfWeek}/>
                 <LenDots length={questOfWeek.length}/>
                 <span className="text-[9px] text-muted-foreground capitalize">{questOfWeek.length}</span>
                 {questOfWeek.video && (
