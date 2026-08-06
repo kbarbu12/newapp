@@ -79,14 +79,69 @@ const questPoints = (type, difficulty, missable) => {
 // ordered option list with display names. That config is the source of truth for
 // chapters, so Black Myth gets its real six Chapters, BG3 its three Acts, and so
 // on. Only a game with no config at all falls back to numbered groups.
-const CH_MIN = 2, CH_MAX = 14;
+// Upper bound is generous: some games really do have many divisions (Valhalla's
+// 22 territory arcs, Odyssey's 30 Greek regions) and those are real, authored.
+const CH_MIN = 2, CH_MAX = 32;
+
+// Games whose configured axis is missing or only a generic "Category" still
+// have real place data in each quest's `location`. Derive their divisions from
+// it: first pattern that matches wins, in the game's own progression order.
+// (Patterns are ordered — more specific areas before the broader ones.)
+const LOCATION_AXIS = {
+  "Sekiro: Shadows Die Twice": {
+    label: "Area",
+    // Sekiro's locations are literally "Area – Sub-location".
+    groups: [
+      ["Ashina Reservoir", /ashina reservoir/i],
+      ["Ashina Outskirts", /ashina outskirts/i],
+      ["Hirata Estate", /hirata/i],
+      ["Ashina Castle", /ashina castle/i],
+      ["Sunken Valley", /sunken valley/i],
+      ["Senpou Temple", /senpou|mt\. kongo/i],
+      ["Ashina Depths", /ashina depths|mibu village/i],
+      ["Fountainhead Palace", /fountainhead/i],
+      ["Dilapidated Temple", /dilapidated temple/i],
+    ],
+  },
+  "Pillars of Eternity II: Deadfire": {
+    label: "Region",
+    groups: [
+      ["Port Maje", /port maje/i],
+      ["Neketaka", /neketaka|gullet|queen's berth|periki|arkemyr|old city|harbinger's watch/i],
+      ["Poko Kohara", /poko kohara/i],
+      ["Hasongo", /hasongo/i],
+      ["Magran's Teeth", /magran's teeth|berkana/i],
+      ["Tikawara", /tikawara/i],
+      ["Sayuka", /sayuka/i],
+      ["The Black Isles", /black isles/i],
+      ["Ukaizo", /ukaizo|ori o ko/i],
+      ["Caed Nua", /caed nua/i],
+      ["The Deadfire Seas", /deadfire seas|various|islands/i],
+    ],
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+    label: "Region",
+    groups: [
+      ["Great Sky Island", /great sky island|temple of time$|shrine of light/i],
+      ["The Sky", /sky archipelago|sky island|dragonhead island|lomei labyrinth island|sky mine|flight range/i],
+      ["The Depths", /depths|abandoned central mine|southern mine|yiga clan hideout|yiga blademaster|gisa crater|death caldera/i],
+      ["Central Hyrule", /lookout landing|central hyrule|hyrule castle|royal hidden passage|temple of time ruins|emergency shelter|lucky clover|outskirt stable|coliseum ruins|rauru hillside|forgotten temple|satori mountain|tobio's hollow|lake intenoch|oakle's navel|hudson construction|^hyrule$/i],
+      ["Hebra & Tabantha", /rito|hebra|tabantha|snowfield stable|selmie|northern icehouse|new serenne|toto lake|north lomei/i],
+      ["Eldin", /goron|eldin|death mountain|foothill stable|cephla lake/i],
+      ["Lanayru", /zora|lanayru|ralis channel|east reservoir|wetland stable|upland zorana/i],
+      ["Gerudo", /gerudo|kara kara|spirit temple|ancient columns|south lomei/i],
+      ["Necluda", /hateno|necluda|kakariko|dueling peaks|riverside stable|eventide|spring of (power|wisdom)/i],
+      ["Faron", /faron|lurelin|highland stable|spring of courage|lake hylia|lakeside stable/i],
+      ["Great Hyrule Forest", /korok forest|woodland stable|thyphlo/i],
+      ["Akkala", /akkala|tarrey town|sokkala|bedrock bistro|rebonae|rikoka/i],
+    ],
+  },
+};
+
 // A few configs label their axis generically; give those the game's real word.
 const TERM_OVERRIDE = {
   "Assassin's Creed Valhalla": "Arc",
-  "Assassin's Creed Odyssey": "Questline",
   "Persona 5 Royal": "Questline",
-  "Sekiro: Shadows Die Twice": "Questline",
-  "Pillars of Eternity II: Deadfire": "Act", // no config — numbered fallback
 };
 const GENERIC_LABEL = /^(category|type)$/i;
 const plural = (t) => (/s$/i.test(t) ? t : `${t}s`);
@@ -112,14 +167,26 @@ const pickAxis = (cfg) => {
 };
 
 for (const [name, qs] of Object.entries(byGame)) {
-  const axis = pickAxis(subFilterConfig?.[name]);
+  const locAxis = LOCATION_AXIS[name];
+  const axis = locAxis ? null : pickAxis(subFilterConfig?.[name]);
   const term =
+    locAxis?.label ??
     TERM_OVERRIDE[name] ??
     (axis && !GENERIC_LABEL.test(axis.label) ? axis.label : "Questline");
   termByGame[name] = term;
 
   let groups;
-  if (axis) {
+  if (locAxis) {
+    // Derive divisions from each quest's real `location` text.
+    const seen = new Set();
+    groups = locAxis.groups.map(([gname, re]) => {
+      const ids = qs.filter((q) => !seen.has(q.id) && re.test(q.location ?? "")).map((q) => q.id);
+      ids.forEach((id) => seen.add(id));
+      return { name: gname, ids };
+    });
+    const rest = qs.filter((q) => !seen.has(q.id)).map((q) => q.id);
+    if (rest.length) groups.push({ name: "Other Quests", ids: rest });
+  } else if (axis) {
     // Follow the configured option order — that's the game's own progression.
     const val = (q) => (q[axis.field] == null ? null : String(q[axis.field]));
     const seen = new Set();

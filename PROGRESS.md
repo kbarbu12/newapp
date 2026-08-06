@@ -27,6 +27,23 @@ category-grouped games (BG3, Skyrim, Sekiro, P5R, Odyssey) → **Questlines**.
   which follows each game's own chapter order.
 - Quest detail's chapter stat is labeled with the term (e.g. "REALM").
 
+**Every game now has real divisions — no invented "Part N" anywhere.** Chapters
+come from the live data's own `subFilterConfig` (field + native label + ordered
+options), so Black Myth gets its six Chapters, BG3 its three Acts, Demon's Souls
+its Archstones. Games whose config axis was missing or only a generic "Category"
+derive divisions from each quest's real `location` text:
+
+| Game | Divisions |
+|------|-----------|
+| Sekiro | 9 **Areas** (Ashina Outskirts, Hirata Estate, Fountainhead Palace…) |
+| Pillars II: Deadfire | 11 **Regions** (Neketaka, Ukaizo, Magran's Teeth…) |
+| Zelda: TotK | 12 **Regions** (Great Sky Island, The Depths, Hebra & Tabantha…) |
+| AC Valhalla | 22 **Arcs** (Ledecestrescire, East Anglia, Asgard, Vinland…) |
+| AC Odyssey | 30 **Regions** (Kephallonia, Attika, Argolis…) |
+
+The chapter cap was raised to 32 so Valhalla's and Odyssey's real (22/30) axes
+are used rather than rejected as "too many".
+
 
 Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
 Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; Phase 1 pushed to
