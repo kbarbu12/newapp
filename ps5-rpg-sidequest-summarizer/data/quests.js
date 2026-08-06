@@ -20438,11 +20438,14 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Attack the Guard Scorpion's tail when it braces to fire its tail laser, and take cover behind rubble during its barrage phase.",
     walkthrough: [
-      "Follow Barret through the Sector 1 station and into the reactor.",
-      "Set the bomb at the reactor core when prompted.",
-      "Fight the Guard Scorpion — target its weak points with Cloud's Braver ability.",
-      "Take cover behind debris when it charges the tail laser, then punish the recovery.",
-      "Escape the reactor before the timer expires."
+      "Ride in with Avalanche and disembark at Sector 1 Station; follow Barret up the walkway into the reactor complex.",
+      "Fight through the Shinra guards and the first MP squads as you descend toward the core.",
+      "Regroup with Jessie at the bomb site and set the charge on the reactor core when prompted.",
+      "Boss — Guard Scorpion, phase 1: attack the body freely and use Cloud's Braver; keep Barret firing when it's out of melee reach.",
+      "Phase 2: when it climbs the wall and its tail rises to charge the tail laser, stop attacking and duck behind a debris pillar until the beam passes.",
+      "Phase 3: it raises a field barrier — cross to flank it and destroy both damaged legs to force a stagger.",
+      "During the stagger, unload Braver and any Thunder spells to break its health before it re-arms.",
+      "After it falls, sprint back up through the reactor and reach the exit before the escape timer runs out.",
     ],
     video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
   },
@@ -20461,10 +20464,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "There's no combat pressure here — explore Sector 8 for items and enjoy the set-piece before regrouping with Avalanche.",
     walkthrough: [
-      "Escape the reactor blast and reach the Sector 8 streets.",
-      "Speak with Aerith when you meet her among the swirling Whispers.",
-      "Push through the Shinra troops blocking the plaza.",
-      "Board the train back to the Sector 7 hideout."
+      "Climb out of the wreckage into the ruined Sector 8 streets after the blast.",
+      "Push through the panicking crowd and cut down the Shinra soldiers blocking the boulevard.",
+      "Meet Aerith among the swirling Whispers and speak with her when prompted.",
+      "Continue toward the station as more troops and a Sweeper move to cut you off — defeat them and keep moving.",
+      "Reach the elevated rail line and outrun the pursuit across the plaza.",
+      "Leap aboard the departing Sector 7-bound train to rejoin Avalanche.",
     ],
     video: "https://www.youtube.com/watch?v=3TUN5MCYfR4"
   },
@@ -20483,10 +20488,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Talk to everyone in the slums to unlock the odd-job board — this is your first window for missable side quests.",
     walkthrough: [
-      "Arrive at the Seventh Heaven bar and reunite with Tifa.",
-      "Explore the Sector 7 slums and speak with residents.",
-      "Accept available odd jobs from the notice board.",
-      "Rest at the hideout to advance the story."
+      "Arrive at Seventh Heaven; reunite with Tifa and go through the bar reunion.",
+      "Head down to the hidden Avalanche hideout and report on the reactor mission.",
+      "Collect your reward from Barret, then step out into the Sector 7 slums.",
+      "Explore the slums and talk to residents; speak with Wymer to open the odd-job board.",
+      "Optionally clear the available Chapter 3 jobs (Rat Problem, Chocobo Search, etc.) for early rewards — several are one-time.",
+      "Return to Seventh Heaven and speak with Tifa to advance to the next mission.",
     ],
     video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
   },
@@ -20505,10 +20512,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Use the motorcycle sequence to build up your limit gauge — you'll want it charged for the ambush at the end.",
     walkthrough: [
-      "Ride the train and infiltrate the upper plate with Jessie's crew.",
-      "Sneak past the Shinra patrols to Jessie's house.",
-      "Recover the stashed explosives.",
-      "Escape on the highway and survive the Roche motorcycle chase."
+      "Meet Jessie, Biggs, and Wedge and take the train toward the upper plate.",
+      "Slip past the Shinra checkpoints and make your way to Jessie's family home.",
+      "Handle the tense visit with Jessie's parents and recover the stashed Shinra-grade explosives.",
+      "Escape the residential district when the alarm is raised.",
+      "Ride the highway back down and win the motorcycle sequence, weaving between traffic and Shinra riders.",
+      "Boss — Roche: parry his bike strikes, counter after his charges, and whittle him down to end the chase.",
     ],
     video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
   },
@@ -20527,11 +20536,13 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Save your ATB for the Crab Warden's legs — breaking them staggers it and opens a huge damage window.",
     walkthrough: [
-      "Traverse the railway and enter Reactor 5.",
-      "Plant the bomb at the core with Tifa and Barret.",
-      "Fight the Crab Warden — destroy its legs to topple it.",
-      "Exploit the stagger to burn it down before its cannon volley.",
-      "Survive the ambush that follows the explosion."
+      "Take the underground rail toward Mako Reactor 5 with Tifa and Barret.",
+      "Fight through the Shinra security and Sweepers along the maintenance line.",
+      "Reach the reactor and help plant the bomb at the core.",
+      "Boss — Crab Warden: destroy its four legs to topple it; it is vulnerable to Lightning, so lead with Thunder/Thundara.",
+      "When a leg is down, focus fire to build the stagger, then punish hard before it repairs.",
+      "Survive its cannon and drone volleys by keeping cover between bursts.",
+      "After the machine falls, brace for the Shinra ambush that springs the trap.",
     ],
     video: "https://www.youtube.com/watch?v=VGR8joU9ems"
   },
@@ -20539,21 +20550,23 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 1032,
     type: "main",
     game: "Final Fantasy VII Remake",
-    region: "Reactors & Upper Plate",
-    title: "The Town That Never Sleeps",
-    location: "Reactor 5",
+    region: "Sector 5 Slums",
+    title: "Budding Bodyguard",
+    location: "Sector 5 Church",
     length: "medium",
-    difficulty: "Medium",
+    difficulty: "Low",
     reward: "Story progression",
     summary:
-      "With the sun-lamps of the slums as backdrop, Cloud is separated from the group and plummets into the Sector 5 church.",
+      "Cloud crashes through the plate and wakes in Aerith's church in the Sector 5 slums; after reuniting with the flower girl he must fend off Reno and the Shinra grunts who storm the chapel and escape across the rooftops.",
     aiTip:
-      "This chapter is light on combat and heavy on story — explore for hidden items before the fall.",
+      "The rooftop escape with Aerith is light platforming — drop the boards to open paths and don't burn MP on the weak grunts; save it for Reno.",
     walkthrough: [
-      "Fight through the reactor aftermath alongside Barret.",
-      "Get separated during the escape and fall through the plate.",
-      "Awaken in the Sector 5 church and meet Aerith again.",
-      "Fend off the first wave of Shinra pursuers."
+      "Come to inside Aerith's church in the Sector 5 slums after crashing through the plate.",
+      "Reunite with Aerith and follow her lead when Shinra troops burst into the chapel.",
+      "Fend off the first wave of grunts, then boss — Reno: bait his EM-rod combos and punish the recovery; interrupt him when he wall-jumps.",
+      "Escape upward through the church rafters, knocking down boards and dropping platforms to make a path for Aerith.",
+      "Cross the rooftops of the slums while shaking off the pursuing soldiers.",
+      "Reach the far side and agree to see Aerith safely home.",
     ],
     video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
   },
@@ -20572,10 +20585,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Divert the keycards to strip the Airbuster's parts before the fight; lightning materia melts its health bar.",
     walkthrough: [
-      "Choose which keycard terminals to divert to weaken the Airbuster.",
-      "Enter the bridge fight and stay mobile to avoid its missile spread.",
-      "Hit it with Thunder/Thundara to build stagger fast.",
-      "Destroy it, then survive the cliffhanger with Barret."
+      "Regroup on the approach to the Airbuster on the reactor bridge.",
+      "Before the fight, work the keycard terminals — divert cards to strip the Airbuster's ammo and parts and weaken it.",
+      "Enter the bridge arena and stay mobile to avoid its missile spreads and big-bang laser.",
+      "Boss — Airbuster: it is weak to Lightning; hit it with Thunder/Thundara to build stagger quickly.",
+      "Destroy its arm parts to cut its melee options, then focus the core during stagger.",
+      "Finish it before the platform breaks, then survive the cliffhanger drop with Barret.",
     ],
     video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
   },
@@ -20594,10 +20609,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Take the detours with Aerith to trigger her side content — several missable jobs unlock only during this stretch.",
     walkthrough: [
-      "Walk Aerith home through the Sector 5 slums.",
-      "Complete the slum errands that open along the way.",
-      "Reach Aerith's house and rest.",
-      "Agree to help her cross to Sector 7 the next day."
+      "Set out to walk Aerith home through the Sector 5 slums.",
+      "Follow her through the market, clearing the stray monsters that block the road.",
+      "Take the optional detours she suggests to trigger extra slum scenes and errands.",
+      "Reach Aerith's house at the edge of the slums and rest for the night.",
+      "In the morning, agree to escort her back toward Sector 7.",
+      "Optionally accept the Sector 5 odd jobs (Kids on Patrol, the Moogle Emporium tasks) before moving on.",
     ],
     video: "https://www.youtube.com/watch?v=FhTPJWE-Pec"
   },
@@ -20616,10 +20633,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Do the Corneo Colosseum and dressmaker sidequests to earn the best dress and honeybee outcomes; they're fully missable.",
     walkthrough: [
-      "Arrive in Wall Market and learn Tifa has gone to Corneo's mansion.",
-      "Complete the dress, colosseum, and massage-parlor branches for better outcomes.",
-      "Get dressed up and enter the mansion audition.",
-      "Confront Don Corneo and escape with Tifa and Aerith."
+      "Arrive in Wall Market and learn Tifa has already gone to Don Corneo's mansion.",
+      "Speak with the townsfolk and start the audition path; you need Corneo to pick you.",
+      "Work the three branches for the best outcome: the Corneo Colosseum, the dressmaker's request, and the massage-parlor / gym jobs.",
+      "Return to the dressmaker to receive Cloud's dress based on how those jobs went.",
+      "Enter the mansion audition and pass Corneo's inspection.",
+      "Regroup with Tifa and Aerith, confront Don Corneo, and drop through the trapdoor to escape.",
     ],
     video: "https://www.youtube.com/watch?v=2gShRpduP38"
   },
@@ -20638,10 +20657,13 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Abzu is weak to fire; keep Aerith at range casting while Cloud pressures it up close.",
     walkthrough: [
-      "Descend into the Sector 6 sewers after fleeing Corneo.",
-      "Navigate the flooded tunnels and sluice gates.",
-      "Fight Abzu — exploit its fire weakness and dodge its charge.",
-      "Reach the exit toward the train graveyard."
+      "Land in the Sector 6 sewers after the fall from Corneo's mansion.",
+      "Regroup with Tifa and Aerith and open the first sluice gate to drain the passage.",
+      "Work through the flooded tunnels, using the gate valves to raise and lower the water and reach new paths.",
+      "Clear the Ghouls and Sahagin patrols guarding the junctions.",
+      "Boss — Abzu: avoid its charging rush by dodging to the side, then punish its long recovery; keep pressuring to build stagger.",
+      "Watch for its enraged phase and heal through its slam combo, then finish it during a stagger.",
+      "Take the tunnel exit toward the Train Graveyard.",
     ],
     video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
   },
@@ -20661,9 +20683,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "The child-ghost puzzles gate your progress — interact with the kids in order and use fire on the spectral enemies.",
     walkthrough: [
       "Enter the Train Graveyard with Tifa and Aerith.",
-      "Solve the ghost-children puzzles to open the path.",
-      "Burn down the Eligor and ghost enemies with fire spells.",
-      "Emerge at the base of the Sector 7 pillar."
+      "Follow the ghost-children's game — find and interact with each hidden child in the order the path requires to open the way forward.",
+      "Use Fire spells against the ghost enemies and the possessed carriages, which resist physical attacks.",
+      "Navigate the stacked train cars, climbing and dropping between platforms to progress.",
+      "Boss — Eligor: destroy its wheel/ring parts, use Fire to pressure it, and dodge the Aeolian Onslaught projectile fan.",
+      "Break it during stagger, then exit at the base of the Sector 7 pillar.",
     ],
     video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
   },
@@ -20682,10 +20706,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Reno punishes greed — bait his EM-rod combos, then punish; swap targets when Rude casts to interrupt.",
     walkthrough: [
-      "Climb the Sector 7 pillar under fire.",
-      "Fight Reno and Rude at the top of the tower.",
-      "Reach the plate-support terminal.",
-      "Survive the collapse and its heartbreaking aftermath."
+      "Reach the foot of the Sector 7 pillar as Shinra moves to drop the plate.",
+      "Begin the ascent, fighting Shinra troops and turrets up the spiralling stairs and lifts.",
+      "Clear the Sweepers and Cutters guarding each landing as you climb.",
+      "Boss — Reno & Rude: split focus, bait Reno's melee and punish, and interrupt Rude when he casts Aerocombo or barrier.",
+      "Reach the top terminal and confront the Turks over the pillar controls.",
+      "Survive the plate's collapse and the heartbreaking aftermath with Jessie's crew.",
     ],
     video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
   },
@@ -20704,10 +20730,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Stock up and upgrade weapons at the collapse aftermath — the Shinra Building assault ahead is long with no shops.",
     walkthrough: [
-      "Search the ruins of Sector 7 for a way up.",
-      "Travel through the underground test lab.",
-      "Regroup with Barret and Tifa on the plan to save Aerith.",
-      "Reach the base of the Shinra Building."
+      "Search the ruins of the fallen Sector 7 plate for a way toward Aerith's captors.",
+      "Regroup with Barret and Tifa and agree on the plan to reach the Shinra Building.",
+      "Descend into the underground test facility beneath the slums.",
+      "Fight through the lab's mutated specimens and security along the maintenance route.",
+      "Restock and upgrade weapons before you leave — the Shinra assault ahead is long with no shops.",
+      "Emerge at the base of the Shinra Building and prepare to climb.",
     ],
     video: "https://www.youtube.com/watch?v=cItnWImfcwk"
   },
@@ -20726,10 +20754,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "This is the last chance for many Sector 5/6 side quests — clear the job board before advancing to Shinra HQ.",
     walkthrough: [
-      "Return to the reopened slums hub.",
-      "Accept and complete the remaining odd jobs.",
-      "Upgrade weapons and restock consumables.",
-      "Meet the group to begin the Shinra Building plan."
+      "Return to the reopened Sector 5 slums, now serving as a hub.",
+      "Check the notice board and NPCs for the final round of odd jobs.",
+      "Complete the remaining Chapter 14 side quests (Missing Children, Secret Medicine, etc.) — this is the last chance for several.",
+      "Spend Moogle Medals and upgrade weapons and materia, and restock consumables.",
+      "Decide how to approach the Shinra Building with Barret, Tifa, and Aerith's friends.",
+      "Meet the group at Wall Market / the plate supports to begin the infiltration.",
     ],
     video: "https://www.youtube.com/watch?v=cS07VIv18uA"
   },
@@ -20748,10 +20778,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Manage stamina during the climb sequences and pick up the hidden manuscripts tucked along the girders.",
     walkthrough: [
-      "Begin the long climb up the plate supports.",
-      "Cross the collapsing walkways and machinery.",
-      "Fight the security drones guarding the ascent.",
-      "Reach the rear entrance of the Shinra Building."
+      "Begin the long climb up the Sector 7 plate support structure toward the Shinra Building.",
+      "Work across the collapsing walkways, girders, and rotating machinery, timing your movement.",
+      "Grab the hidden manuscripts and items tucked along the girders as you ascend.",
+      "Clear the Shinra security drones and guard robots that block the ascent.",
+      "Cross the final maintenance bridge to the rear of the Shinra Building.",
+      "Reunite with the party and choose how to breach the tower.",
     ],
     video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
   },
@@ -20770,10 +20802,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Take the stairs for the achievement and extra fights, or the front assault for a quicker, harder path.",
     walkthrough: [
-      "Choose the stealth stairwell or the front-door assault.",
-      "Work through the corporate floors and museum exhibits.",
-      "Recover Aerith and confront the science department.",
-      "Reach the executive levels for the confrontation with Hojo."
+      "At the Shinra Building base, choose your approach: the stealthy stairwell or the front-door assault.",
+      "If you take the front, fight through the lobby security; if the stairs, climb the long stairwell (lighter combat, extra dialogue).",
+      "Work up through the corporate and museum floors, using the keycards to unlock lifts.",
+      "Explore the exhibits for lore and items, then reach the science department.",
+      "Recover Aerith from the specimen labs and regroup with the party.",
+      "Ride the elevators toward the executive levels for the confrontation ahead.",
     ],
     video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
   },
@@ -20792,10 +20826,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Rufus's fight is a duel — dodge his pistol shots and Dark Nation's buffs, and punish between his gunslinger combos.",
     walkthrough: [
-      "Escape the specimen containment in Hojo's lab.",
-      "Fight Jenova Dreamweaver alongside the party.",
-      "Duel Rufus Shinra and Dark Nation on the helipad.",
-      "Regroup for the escape from the tower."
+      "Break out of the specimen containment in Hojo's laboratory.",
+      "Fight through the released Jenova specimens as the party splits and regroups.",
+      "Boss — Jenova Dreamweaver: exploit the elemental shifts it telegraphs and focus it down between the party members.",
+      "Reach the helipad and confront Rufus Shinra.",
+      "Boss — Rufus & Dark Nation (Cloud solo): dodge his pistol shots, punish between his gunslinger combos, and take out Dark Nation to stop its buffs.",
+      "After the duel, regroup with the party for the escape from the tower.",
     ],
     video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
   },
@@ -20814,10 +20850,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Charge your limit breaks before the highway boss; the multi-phase finale rewards saving them for the Arbiter of Fate.",
     walkthrough: [
-      "Flee Shinra HQ on the highway with the party split across vehicles.",
-      "Defeat Motor Ball during the expressway chase.",
-      "Confront Sephiroth at the edge of Midgar.",
-      "Battle the Whispers — the Arbiter of Fate — to close the story."
+      "Flee the Shinra Building as the party splits across stolen vehicles.",
+      "Ride the Midgar Expressway, weaving through traffic and cutting down pursuing Shinra riders.",
+      "Boss — Motor Ball: dodge its ramps and beam sweeps on the highway, and hit it with magic during its slow recovery.",
+      "Reach the edge of Midgar and confront Sephiroth in the rift.",
+      "Charge and save your Limit Breaks for the multi-phase finale.",
+      "Final battle — the Whispers / Arbiter of Fate: defeat the Whisper Harbinger and its avatars, then Sephiroth, to close the story and leave Midgar behind.",
     ],
     video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
   },
@@ -20836,10 +20874,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Quick early-game job — bring some AoE to sweep the rat packs efficiently.",
     walkthrough: [
-      "Take the request from Wymer at the slum entrance.",
-      "Track down the wererat nests around Sector 7.",
-      "Clear each infestation point.",
-      "Return to Wymer for your reward."
+      "Take the Rat Problem request from Wymer at the Sector 7 slum entrance.",
+      "Head to the marked drainage areas where the wererats have nested.",
+      "Clear each infestation point, using area attacks to sweep the rat packs.",
+      "Deal with the larger Wrath Hound that appears with them.",
+      "Return to Wymer to report the job done and collect your gil and reward.",
     ],
     video: "https://www.youtube.com/watch?v=n01UEoX-Nj4"
   },
@@ -20858,10 +20897,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "The cats are scattered across nearby screens — check rooftops and alleys; no combat required beyond stray monsters.",
     walkthrough: [
-      "Accept the Lost Friends job in Sector 7.",
-      "Search the slum streets for each missing cat.",
-      "Coax the cats back one by one.",
-      "Report back to complete the request."
+      "Accept the Lost Friends job from the worried resident in Sector 7.",
+      "Search the slum streets and alleys for each missing cat (check rooftops and side lanes).",
+      "Approach each cat gently and coax it back toward its owner.",
+      "Fend off any stray monsters you meet while searching.",
+      "Report back once all the cats are found to complete the request.",
     ],
     video: "https://www.youtube.com/watch?v=YJQZl0q2SSU"
   },
@@ -20880,10 +20920,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Equip an Assess materia to spot each target's weakness and finish the hunt faster.",
     walkthrough: [
-      "Take the hunt request from the slum watch.",
-      "Locate the marked monster dens.",
-      "Defeat the prowling beasts.",
-      "Turn in the bounty for an Elixir."
+      "Take the On the Prowl hunt from the Sector 7 slum watch.",
+      "Equip Assess materia to read each target's weaknesses before engaging.",
+      "Track down the marked monster dens around the outskirts.",
+      "Defeat the prowling beasts, exploiting the weaknesses you scanned.",
+      "Turn the bounty in to the watch for your Elixir and reward.",
     ],
     video: "https://www.youtube.com/watch?v=cyNzZULI_EQ"
   },
@@ -20902,10 +20943,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Light, low-stakes job — good for testing new materia loadouts on weak enemies.",
     walkthrough: [
-      "Accept Kids on Patrol from the children in Sector 5.",
-      "Visit each patrol point they mark.",
-      "Defeat the monsters harassing the area.",
-      "Return to the kids for a weapon reward."
+      "Accept Kids on Patrol from the children in the Sector 5 slums.",
+      "Visit each patrol point they mark on your way through the district.",
+      "Defeat the monsters harassing each spot.",
+      "Use the fights to test new materia loadouts on the weak enemies.",
+      "Return to the kids to hand in the job and claim the weapon reward.",
     ],
     video: "https://www.youtube.com/watch?v=q4h8PZmKws8"
   },
@@ -20924,10 +20966,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Save your Moogle Medals for the summon and accessory items — they're some of the best early purchases.",
     walkthrough: [
-      "Find the Moogle Emporium in the Sector 5 slums.",
-      "Complete tasks to earn Moogle Medals.",
-      "Spend medals to unlock the shop's stock.",
-      "Buy the exclusive materia and items."
+      "Find the Moogle Emporium tucked in the Sector 5 slums and speak with the child running it.",
+      "Complete the small tasks and slum jobs that award Moogle Medals.",
+      "Bring your Moogle Medals back to the Emporium.",
+      "Spend medals to unlock the shop's stock, prioritising the summon and accessory items.",
+      "Buy the exclusive materia and items before leaving the slums.",
     ],
     video: "https://www.youtube.com/watch?v=CRGlett0WO8"
   },
@@ -20947,9 +20990,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Nail the button rhythm to beat the champion — winning improves which dress and outcome you unlock later.",
     walkthrough: [
       "Enter the gym in Wall Market and challenge the squat contest.",
-      "Match the on-screen button prompts in rhythm.",
-      "Beat the reigning champion Jules.",
-      "Collect the reward that boosts your dress-branch outcome."
+      "Match the on-screen button prompts in rhythm without missing to build your count.",
+      "Keep pace through all three rounds against the challenger.",
+      "Beat the reigning champion, Jules, on the final round.",
+      "Collect the reward — a strong result here improves your later Wall Market dress outcome.",
     ],
     video: "https://www.youtube.com/watch?v=XDwOql565bQ"
   },
@@ -20968,10 +21012,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "This branch feeds the same outcome tree as the dress and colosseum jobs — complete it before the mansion.",
     walkthrough: [
-      "Take the vendor's request in Wall Market.",
-      "Track the thieves through the back alleys.",
-      "Defeat them and recover the stolen goods.",
-      "Return the goods for rewards and branch progress."
+      "Take the vendor's stolen-goods request in Wall Market.",
+      "Follow the lead into the back alleys where the thieves are hiding.",
+      "Defeat the thieves and recover the stolen merchandise.",
+      "Return the goods to the vendor.",
+      "Collect your reward and the Wall Market reputation that feeds the audition outcome.",
     ],
     video: "https://www.youtube.com/watch?v=ahnJxa4n-3o"
   },
@@ -20990,10 +21035,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Available only in the Chapter 14 hub window — grab it before advancing or it's gone.",
     walkthrough: [
-      "Accept Missing Children in the Chapter 14 slum hub.",
-      "Follow the trail toward the ruined outskirts.",
-      "Fight off the monsters and find each child.",
-      "Escort them home for your reward."
+      "Accept Missing Children in the reopened Sector 5 hub (Chapter 14) — grab it before advancing or it is lost.",
+      "Follow the trail of the wandered children toward the ruined outskirts.",
+      "Fight off the monsters roaming the collapsed areas.",
+      "Find each child and escort them safely back.",
+      "Report to the guardian to complete the job and claim the accessory reward.",
     ],
     video: "https://www.youtube.com/watch?v=FMkKY_34Q3Q"
   },
@@ -21012,10 +21058,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Note the ingredient locations before you start — a couple require clearing monster nests near the waterway.",
     walkthrough: [
-      "Take the Secret Medicine request from the slum clinic.",
-      "Collect the required ingredients around Sector 5.",
-      "Clear the monsters guarding the rarer components.",
-      "Deliver everything to the doctor for the reward."
+      "Take the Secret Medicine request from the Sector 5 clinic (Chapter 14 hub).",
+      "Note the ingredient locations, then gather each required component around the slums.",
+      "Clear the monster nests near the waterway guarding the rarer ingredients.",
+      "Collect the last components and return to the doctor.",
+      "Deliver everything to complete the remedy and receive the rare healing-item reward.",
     ],
     video: "https://www.youtube.com/watch?v=QCiLElY5Vb0"
   },
@@ -21034,10 +21081,12 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Master Yuffie's ranged/melee stance swap early — throwing and recalling her shuriken is her whole damage engine.",
     walkthrough: [
-      "Arrive in Midgar as Yuffie and meet your Avalanche HQ contact.",
-      "Learn Yuffie's shuriken-throw and elemental ninjutsu combat.",
-      "Explore the slums and unlock the Fort Condor board-game minigame.",
-      "Team up with Sonon to begin the infiltration."
+      "Begin the INTERmission DLC as Yuffie Kisaragi arriving in Midgar; meet your Avalanche HQ contact.",
+      "Learn Yuffie's combat: swap between ranged and melee stances and throw/recall her shuriken as your main damage engine.",
+      "Practise her elemental ninjutsu, which changes based on the materia she holds.",
+      "Explore the Sector 7 slums and unlock the Fort Condor board-game minigame.",
+      "Team up with Sonon and use Synchronized ATB to chain your abilities.",
+      "Begin the infiltration plan against Shinra to steal the ultimate materia.",
     ],
     video: "https://www.youtube.com/watch?v=OD9JBLCOlVM"
   },
@@ -21057,9 +21106,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Use Synchronized ATB with Sonon to chain abilities; Nero's darkness voids punish sloppy dodges, so stay patient.",
     walkthrough: [
       "Infiltrate the Shinra Building's lower levels with Sonon.",
-      "Fight through the security and research floors.",
-      "Confront Nero the Sable in the depths.",
-      "Use synergy attacks to break him and escape with the materia."
+      "Fight through the security checkpoints and research floors, using synergy attacks to break tougher foes.",
+      "Solve the facility's traversal sections to reach the depths.",
+      "Boss — Nero the Sable: stay patient through his darkness voids, which punish sloppy dodges.",
+      "Use Synchronized ATB with Sonon to chain abilities and build his stagger.",
+      "Break Nero and escape with the stolen materia to close the DLC.",
     ],
     video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
   },
@@ -21078,10 +21129,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Build a balanced deck of ranged, defense, and vanguard units, and target the enemy's outposts first to snowball.",
     walkthrough: [
-      "Unlock the Fort Condor minigame during Wutai's Finest.",
-      "Challenge each ranked board-game opponent.",
-      "Adjust your unit loadout between matches.",
-      "Beat the champions to claim the exclusive rewards."
+      "Unlock the Fort Condor board-game minigame during Wutai's Finest.",
+      "Build a balanced deck of ranged, defense, and vanguard units.",
+      "Challenge each ranked opponent across Midgar, targeting the enemy outposts first to snowball board control.",
+      "Adjust your unit loadout and board between matches to counter each rival.",
+      "Beat the ranked champions to claim the exclusive materia and prizes.",
     ],
     video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
   },
