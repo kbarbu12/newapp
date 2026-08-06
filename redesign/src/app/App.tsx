@@ -37,12 +37,19 @@ type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
 // Walkthrough filter — mirrors the live site's All / Video / No video options.
 type VideoFilter = "All"|"Video Only"|"No Video";
-type SortOption = "default"|"difficulty"|"length"|"game"|"title";
+type SortOption = "default"|"difficulty"|"length"|"game"|"title"|"type"|"chapter";
 // Filters a shortcut can pre-apply when jumping to the Library tab.
-type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter; notStarted?:boolean; missable?:boolean };
+type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter; notStarted?:boolean; missable?:boolean; chapter?:string };
 
 const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
 const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
+// F4 — Main → Side → Optional.
+const TYPE_RANK: Record<Quest["type"],number>        = { main:0, side:1, optional:2 };
+// Position of a quest's chapter within its game's chapter list (unknown last).
+const chapterIndex = (q:Quest) => {
+  const i = GAMES[q.game]?.chapters.findIndex(c=>c.id===q.chapterId) ?? -1;
+  return i < 0 ? Number.MAX_SAFE_INTEGER : i;
+};
 interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -96,6 +103,9 @@ function QuestTypeBadge({ type }: { type:Quest["type"] }) {
 }
 // Resolve the chapter a quest belongs to (F3 model) for the F1 act/chapter tag.
 function chapterOf(quest:Quest){ return quest.chapterId ? GAMES[quest.game]?.chapters.find(c=>c.id===quest.chapterId) : undefined; }
+// Each game names its own divisions — Realms, Districts, Planets, Acts… Use the
+// game's term wherever we label a chapter so it reads natively to its players.
+const chapterTerm = (game:string, p=false) => (p ? GAMES[game]?.chapterTermPlural : GAMES[game]?.chapterTerm) ?? (p?"Chapters":"Chapter");
 // Outline act/chapter tag: `⌖ {chapter}`.
 function ActTag({ quest }: { quest:Quest }) {
   const ch = chapterOf(quest);
@@ -286,7 +296,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
             <MetaStat label="Quest Type"><QuestTypeBadge type={quest.type}/></MetaStat>
-            {chapterOf(quest) && <MetaStat label="Chapter">{chapterOf(quest)!.name}</MetaStat>}
+            {chapterOf(quest) && <MetaStat label={chapterTerm(quest.game)}>{chapterOf(quest)!.name}</MetaStat>}
             <MetaStat label="Difficulty"><DifficultyChip level={quest.difficulty}/></MetaStat>
             <MetaStat label="Duration"><span className="capitalize">{quest.length}</span></MetaStat>
             {quest.location && <MetaStat label="Location">{quest.location}</MetaStat>}
@@ -1132,6 +1142,8 @@ export default function App() {
   const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
   const [missableOnly,   setMissableOnly]   = useState(()=>urlParams.get("missable")==="1");
   const [catFilter,   setCatFilter]   = useState<string>(()=>urlParams.get("cat") ?? "All");
+  // Chapter/act filter — options come from the selected game's own chapters.
+  const [chapterFilter,setChapterFilter]= useState<string>(()=>urlParams.get("chapter") ?? "All");
   const [regionFilter,setRegionFilter]= useState<string>(()=>urlParams.get("region") ?? "All");
   const [sort,        setSort]        = useState<SortOption>("default");
   const [search,      setSearch]      = useState(()=>urlParams.get("q") ?? "");
@@ -1174,11 +1186,12 @@ export default function App() {
     if(notStartedOnly) params.set("notStarted","1");
     if(missableOnly) params.set("missable","1");
     if(catFilter!=="All") params.set("cat",catFilter);
+    if(chapterFilter!=="All") params.set("chapter",chapterFilter);
     if(regionFilter!=="All") params.set("region",regionFilter);
     if(search) params.set("q",search);
     const qs = params.toString();
     window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
-  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
+  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
 
   // Custom PWA install prompt: capture the browser's default prompt so it can
   // be triggered from a Settings button instead (the default one is easy to
@@ -1236,6 +1249,7 @@ export default function App() {
       setVideoFilter(f.video ?? "All");
       setNotStartedOnly(f.notStarted ?? false);
       setMissableOnly(f.missable ?? false);
+      setChapterFilter(f.chapter ?? "All");
       setSearch("");
     }
   };
@@ -1250,6 +1264,7 @@ export default function App() {
     if(notStartedOnly&&completedIds.has(q.id))return false;
     if(missableOnly&&!q.missable)return false;
     if(catFilter!=="All"&&q.category!==catFilter)return false;
+    if(chapterFilter!=="All"&&q.chapterId!==chapterFilter)return false;
     if(regionFilter!=="All"&&q.region!==regionFilter)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
@@ -1258,20 +1273,29 @@ export default function App() {
     if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
     if(sort==="game")return a.game.localeCompare(b.game);
     if(sort==="title")return a.title.localeCompare(b.title);
+    if(sort==="type")return TYPE_RANK[a.type]-TYPE_RANK[b.type];
+    // By chapter/act — follow each game's own chapter order, then group name.
+    if(sort==="chapter"){
+      if(a.game!==b.game)return a.game.localeCompare(b.game);
+      return chapterIndex(a)-chapterIndex(b);
+    }
     // default: group by game when viewing all so the list has clear structure
     if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
-  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,completedIds,search,sort]);
+  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,completedIds,search,sort]);
 
   // Category/Region sub-filter options come from the selected game's own data
   // (config lives in the source quest file; here we derive from loaded quests so
   // any game with multiple categories/regions gets the filters for free).
   const subOptions = useMemo(()=>{
-    if(selectedGame==="All") return { cats:[] as string[], regions:[] as string[] };
+    if(selectedGame==="All") return { cats:[] as string[], regions:[] as string[], chapters:[] as {id:string;name:string}[] };
     const g = QUESTS.filter(q=>q.game===selectedGame);
     const cats = [...new Set(g.map(q=>q.category).filter(Boolean) as string[])];
     const regions = [...new Set(g.map(q=>q.region).filter(Boolean) as string[])].sort();
-    return { cats, regions };
+    // Chapters keep the game's own order; only offer ones that have quests here.
+    const used = new Set(g.map(q=>q.chapterId));
+    const chapters = (GAMES[selectedGame]?.chapters ?? []).filter(c=>used.has(c.id)).map(c=>({id:c.id,name:c.name}));
+    return { cats, regions, chapters };
   },[selectedGame]);
 
   // Only a bounded batch of quest cards is mounted at once — 949 cards in the
@@ -1279,7 +1303,7 @@ export default function App() {
   // batch whenever the result set changes so "Load more" starts fresh.
   const BATCH = 36;
   const [visibleCount, setVisibleCount] = useState(BATCH);
-  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
+  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
 
   // Category/Region are game-specific; clear them when the game changes so a
   // stale value from another game never zeroes out the results. Skip the first
@@ -1287,10 +1311,10 @@ export default function App() {
   const gameChangeMounted = useRef(false);
   useEffect(()=>{
     if(!gameChangeMounted.current){ gameChangeMounted.current = true; return; }
-    setCatFilter("All"); setRegionFilter("All");
+    setCatFilter("All"); setChapterFilter("All"); setRegionFilter("All");
   },[selectedGame]);
 
-  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
+  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",chapterFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
 
   const selectedMeta=selectedGame!=="All"?GAMES[selectedGame]:null;
 
@@ -1303,7 +1327,7 @@ export default function App() {
   const resetFilters = ()=>{
     setSelectedGame("All"); setTypeFilter("All"); setDiffFilter("All"); setLenFilter("All");
     setVideoFilter("All"); setNotStartedOnly(false); setMissableOnly(false);
-    setCatFilter("All"); setRegionFilter("All"); setSearch("");
+    setCatFilter("All"); setChapterFilter("All"); setRegionFilter("All"); setSearch("");
   };
 
   const filterChips = [
@@ -1315,6 +1339,7 @@ export default function App() {
     notStartedOnly && { label:"Not started", tone:"purple", onRemove:()=>setNotStartedOnly(false) },
     missableOnly && { label:"Missable", tone:"purple", onRemove:()=>setMissableOnly(false) },
     catFilter!=="All" && { label:`Category: ${catFilter}`, tone:"gold", onRemove:()=>setCatFilter("All") },
+    chapterFilter!=="All" && { label:`${chapterTerm(selectedGame)}: ${subOptions.chapters.find(c=>c.id===chapterFilter)?.name ?? chapterFilter}`, tone:"gold", onRemove:()=>setChapterFilter("All") },
     regionFilter!=="All" && { label:`Region: ${regionFilter}`, tone:"gold", onRemove:()=>setRegionFilter("All") },
     !!search && { label:`"${search}"`, tone:"gold", onRemove:()=>setSearch("") },
   ].filter(Boolean) as { label:string; tone:"gold"|"amber"|"purple"; onRemove:()=>void }[];
@@ -1489,6 +1514,16 @@ export default function App() {
                     {subOptions.cats.length>1 && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Category</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.cats],catFilter,setCatFilter)}</div></div>
                     )}
+                    {subOptions.chapters.length>1 && (
+                      <div className="flex flex-col gap-1">
+                        <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">{chapterTerm(selectedGame,true)}</span>
+                        <div className="flex gap-1.5 flex-wrap">
+                          {[{id:"All",name:"All"},...subOptions.chapters].map(c=>(
+                            <button key={c.id} onClick={()=>setChapterFilter(c.id)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${chapterFilter===c.id?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{c.name}</button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     {subOptions.regions.length>1 && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Region</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.regions],regionFilter,setRegionFilter)}</div></div>
                     )}
@@ -1502,6 +1537,8 @@ export default function App() {
                   </FiltersPopover>
                   <select value={sort} onChange={e=>setSort(e.target.value as SortOption)} aria-label="Sort quests" className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
                     <option value="default">Sort: Default</option>
+                    <option value="type">Sort: Type</option>
+                    <option value="chapter">Sort: By {selectedGame!=="All"?chapterTerm(selectedGame):"Chapter"}</option>
                     <option value="difficulty">Sort: Difficulty</option>
                     <option value="length">Sort: Length</option>
                     <option value="game">Sort: By Game</option>

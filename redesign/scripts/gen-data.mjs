@@ -80,11 +80,29 @@ const questPoints = (type, difficulty, missable) => {
 // Zelda: TotK) are the only ones split into evenly sized "Part N" groups so
 // their long lists still get a usable progress breakdown.
 const CH_MIN = 2, CH_MAX = 14;
+// What each game calls its own quest divisions. Players think in Realms (God of
+// War), Districts (Cyberpunk), Planets (Jedi), Archstones (Demon's Souls) — not
+// a generic "Chapter" — so the UI labels groups with the game's native term.
+// Falls back to a term matching whichever field the grouping came from.
+const TERM_BY_FIELD = { arc: "Arc", region: "Region", category: "Questline", split: "Part" };
+const CHAPTER_TERM = {
+  "God of War Ragnarök": "Realm",
+  "Cyberpunk 2077: Ultimate Edition": "District",
+  "Star Wars Jedi: Fallen Order": "Planet",
+  "Star Wars Jedi: Survivor": "Planet",
+  "Demon's Souls": "Archstone",
+  "Assassin's Creed Valhalla": "Arc",
+  // No grouping field in the data — numbered groups use the game's own term.
+  "Black Myth: Wukong": "Chapter",
+  "Pillars of Eternity II: Deadfire": "Act",
+};
+const plural = (t) => `${t}s`;
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const byGame = {};
 for (const q of quests) (byGame[q.game] ??= []).push(q);
 const chaptersByGame = {};
 const chapterIdByQuest = {};
+const termByGame = {};
 // Group a game's quests by one of its fields, quests missing the field last.
 const groupByField = (qs, field) => {
   const keys = [...new Set(qs.map((q) => q[field]).filter(Boolean))];
@@ -101,17 +119,21 @@ for (const [name, qs] of Object.entries(byGame)) {
     return n >= CH_MIN && n <= CH_MAX;
   };
   const field = ["arc", "region", "category"].find(inRange);
+  // The game's own word for these divisions (Realm, District, Act, …).
+  const term = CHAPTER_TERM[name] ?? TERM_BY_FIELD[field ?? "split"];
+  termByGame[name] = term;
   let groups;
   if (field) {
     groups = groupByField(qs, field);
   } else {
-    // No usable grouping data — split into evenly sized parts (cap 10).
+    // No usable grouping data — split into evenly sized parts (cap 10), named
+    // with the game's own term (e.g. Black Myth's "Chapter 1").
     const n = qs.length;
     const parts = Math.min(10, Math.max(n >= 10 ? 2 : 1, Math.round(n / 20)));
     const per = Math.ceil(n / parts);
     groups = [];
     for (let i = 0; i < n; i += per)
-      groups.push({ name: `Part ${groups.length + 1}`, ids: qs.slice(i, i + per).map((q) => q.id) });
+      groups.push({ name: `${term} ${groups.length + 1}`, ids: qs.slice(i, i + per).map((q) => q.id) });
   }
   const sl = slug(name);
   const chapters = groups
@@ -120,8 +142,13 @@ for (const [name, qs] of Object.entries(byGame)) {
   chaptersByGame[name] = chapters;
   chapters.forEach((c) => c.questIds.forEach((id) => (chapterIdByQuest[id] = c.id)));
 }
-// Attach each game's chapters to its GAMES entry (names match the quest data).
-for (const name of Object.keys(GAMES)) GAMES[name].chapters = chaptersByGame[name] ?? [];
+// Attach each game's chapters + its native division term to its GAMES entry.
+for (const name of Object.keys(GAMES)) {
+  GAMES[name].chapters = chaptersByGame[name] ?? [];
+  const t = termByGame[name] ?? "Chapter";
+  GAMES[name].chapterTerm = t;
+  GAMES[name].chapterTermPlural = plural(t);
+}
 
 // Keep only the fields the design consumes.
 const QUESTS = quests.map((q) => ({
@@ -165,7 +192,12 @@ const body =
   "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
   "export interface Chapter { id: string; name: string; questIds: number[]; }\n\n" +
-  "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; chapters: Chapter[]; }\n\n" +
+  "export interface GameMeta {\n" +
+  "  cover: string; abbr: string; accent: string; gradient: string;\n" +
+  "  chapters: Chapter[];\n" +
+  "  /** What this game calls its quest divisions — \"Realm\", \"District\", \"Act\", … */\n" +
+  "  chapterTerm: string; chapterTermPlural: string;\n" +
+  "}\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
   `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n`;
 

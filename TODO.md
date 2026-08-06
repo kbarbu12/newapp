@@ -2,12 +2,10 @@
 
 Work parked for the repo owner to do (things the agent environment can't).
 
-## ⚠️ Reminder to raise next session — chapter/act naming per game
-@kbarbu12 asked (2026-08-06) to be reminded, next time we work on the redesign,
-to split each game's quests into **chapters / acts / whatever that game calls
-its quest divisions** and name the groups with that game's native term (Acts,
-Chapters, Regions, Realms, Episodes…), refining the current
-`arc → region → category → Part N` derivation. See PROGRESS.md §0.
+## ~~Chapter/act naming per game~~ — DONE 2026-08-06
+Each game now names its divisions with its own term (Realms, Districts, Planets,
+Archstones, Arcs, Questlines, Acts, Chapters, Regions), with a matching Library
+filter and sort. See PROGRESS.md §0 "Phase 1b".
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod

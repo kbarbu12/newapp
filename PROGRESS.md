@@ -8,12 +8,24 @@
 
 ## 0. Redesign — "design-based-on-user-feedback" (2026-08-06)
 
-> **⚠️ REMINDER FOR NEXT SESSION (per @kbarbu12, 2026-08-06):** revisit how each
-> game's quests are split into **chapters / acts** and name each group by the
-> term that game actually uses for its quest divisions (Acts, Chapters, Regions,
-> Realms, Episodes, etc.) — not a generic label. Phase 1 derives groupings from
-> `arc → region → category` with a `Part N` fallback; this pass should refine the
-> per-game naming so it reads natively to players of each game.
+### Phase 1b — native per-game chapter terms + chapter filter (done, 2026-08-06)
+
+Each game now labels its quest divisions with **its own term**, not a generic
+"Chapter": God of War → **Realms**, Cyberpunk → **Districts**, Star Wars Jedi →
+**Planets**, Demon's Souls → **Archstones**, AC Valhalla → **Arcs**, Black Myth →
+**Chapters**, Deadfire → **Acts**, Elden Ring/Witcher/etc. → **Regions**,
+category-grouped games (BG3, Skyrim, Sekiro, P5R, Odyssey) → **Questlines**.
+
+- `GameMeta` carries `chapterTerm` / `chapterTermPlural` (`gen-data.mjs`); the
+  numbered fallback is named with the game's term (e.g. "Chapter 1", "Act 1").
+- **Filters:** a chapter filter is available in the Library filter panel, titled
+  with the game's plural term (REALMS / DISTRICTS / PLANETS…), shown when the
+  selected game has 2+ chapters. Wired into the URL (`?chapter=`), the removable
+  filter chips ("Realm: Vanaheim"), the active-filter count, reset, and the
+  clear-on-game-change behaviour.
+- **Sort:** added `Sort: Type` (F4 Main→Side→Optional) and `Sort: By {term}`
+  which follows each game's own chapter order.
+- Quest detail's chapter stat is labeled with the term (e.g. "REALM").
 
 
 Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
