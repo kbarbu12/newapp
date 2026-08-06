@@ -8,6 +8,14 @@
 
 ## 0. Redesign — "design-based-on-user-feedback" (2026-08-06)
 
+> **⚠️ REMINDER FOR NEXT SESSION (per @kbarbu12, 2026-08-06):** revisit how each
+> game's quests are split into **chapters / acts** and name each group by the
+> term that game actually uses for its quest divisions (Acts, Chapters, Regions,
+> Realms, Episodes, etc.) — not a generic label. Phase 1 derives groupings from
+> `arc → region → category` with a `Part N` fallback; this pass should refine the
+> per-game naming so it reads natively to players of each game.
+
+
 Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
 Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; Phase 1 pushed to
 `staging` on 2026-08-06.
