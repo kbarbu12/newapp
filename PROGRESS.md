@@ -104,7 +104,11 @@ Re-running the workflow went green.
       with 🔥 when active / Achievements earned) on the Home and Progress tabs; a gold `+N pts`
       chip on every quest card. Totals come from userState's totalPoints/currentStreak and the
       achievement map.)*
-- [ ] **Phase 5** — F8 chatbot polish (FAB + deep-link to quest); F11 first-visit PWA welcome.
+- [x] **Phase 5** — F8 chatbot polish + F11 PWA welcome. *(done — the Quest Assistant FAB is a
+      54px gold ✦ bubble; chat answers now render an "Open quest ↗" deep-link that opens the
+      quest's detail dialog, with the spec's user/bot bubble colours. First-visit WelcomeSheet
+      (Add to Home Screen via beforeinstallprompt + Enable reminders via Notification permission,
+      requested only on tap), gated on the persisted welcomeDismissed flag.)*
 
 ---
 

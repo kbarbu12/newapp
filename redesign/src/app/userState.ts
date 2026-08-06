@@ -324,6 +324,7 @@ export function useUserState() {
     games: state.games,
     wishlist: state.wishlist,
     wishlistDates: state.wishlistDates,
+    welcomeDismissed: state.welcomeDismissed,
     points,
     streak,
     toggleSave,

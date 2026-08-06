@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
-  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
+  Search, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check,
@@ -1233,7 +1233,42 @@ const CHAT_EXAMPLES=[
   "Recommend some short Cyberpunk quests",
 ];
 
-function ChatWidget() {
+// F11 — first-visit welcome sheet: Add to Home Screen + Enable reminders.
+function WelcomeSheet({ onDismiss, canInstall, onInstall }:{ onDismiss:()=>void; canInstall:boolean; onInstall:()=>void }){
+  const [remState,setRemState]=useState<"idle"|"on"|"off">("idle");
+  const enableReminders=async()=>{
+    if(!("Notification" in window)){ setRemState("off"); return; }
+    try { const r=await Notification.requestPermission(); setRemState(r==="granted"?"on":"off"); }
+    catch { setRemState("off"); }
+  };
+  return (
+    <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center p-0 sm:p-4">
+      <div className="absolute inset-0 bg-black/60" onClick={onDismiss}/>
+      <div className="relative w-full sm:max-w-sm rounded-t-2xl sm:rounded-2xl border p-5 flex flex-col gap-4" style={{ background:"#15161d", borderColor:"#262730" }}>
+        <div className="flex items-center gap-3">
+          <div className="w-11 h-11 rounded-xl flex items-center justify-center text-xl shrink-0" style={{ background:"#241c0d", color:"#e6b45a" }} aria-hidden>⚔</div>
+          <div>
+            <h2 className="text-lg font-bold text-text-hi" style={{ fontFamily:"'Spectral',serif" }}>Welcome, adventurer</h2>
+            <p className="text-xs text-muted-foreground">Install RPG Quest Guide and never lose your progress.</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          {canInstall && (
+            <button onClick={()=>{ onInstall(); onDismiss(); }} className="w-full py-2.5 rounded-lg text-sm font-semibold" style={{ background:"#c5933a", color:"#171208", fontFamily:"'Spectral',serif" }}>
+              Add to Home Screen
+            </button>
+          )}
+          <button onClick={enableReminders} className="w-full py-2.5 rounded-lg text-sm font-medium border" style={{ borderColor:"#212228", color:remState==="on"?"#6bbf8a":"#cbc9c3" }}>
+            {remState==="on" ? "✓ Reminders enabled" : remState==="off" ? "Reminders unavailable" : "Enable reminders"}
+          </button>
+          <button onClick={onDismiss} className="w-full py-2 text-xs" style={{ color:"#77767c" }}>Not now</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ChatWidget({ onOpenQuest }:{ onOpenQuest:(id:number)=>void }) {
   const [open,setOpen]=useState(false);
   const [showHelp,setShowHelp]=useState(false);
   const [input,setInput]=useState("");
@@ -1284,10 +1319,15 @@ function ChatWidget() {
               <>
                 {msgs.map((m,i)=>(
                   <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
-                    <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
-                      {m.content}
+                    <div className="max-w-[85%] px-3 py-2 text-xs leading-relaxed whitespace-pre-line flex flex-col gap-2" style={m.role==="user" ? { background:"#241c0d", color:"#f3ede1", borderRadius:"11px 11px 3px 11px" } : { background:"#16171d", color:"#cbc9c3", borderRadius:"11px 11px 11px 3px" }}>
+                      <span>{m.content}</span>
+                      {m.quest&&(
+                        <button onClick={()=>{ onOpenQuest(m.quest!.id); setOpen(false); }} className="self-start inline-flex items-center gap-1 font-semibold rounded-md px-2 py-1" style={{ background:"#241c0d", color:"#e6b45a" }}>
+                          Open quest <span aria-hidden>↗</span>
+                        </button>
+                      )}
                       {m.quest?.video&&(
-                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="self-start inline-flex items-center gap-1 font-medium text-red-400 hover:underline">
                           <Youtube size={13}/> Watch walkthrough
                         </a>
                       )}
@@ -1304,8 +1344,8 @@ function ChatWidget() {
           </div>
         </div>
       )}
-      <button onClick={()=>setOpen(!open)} aria-label={open?"Close quest assistant chat":"Open quest assistant chat"} className="w-12 h-12 rounded-full bg-primary hover:bg-primary/80 text-primary-foreground flex items-center justify-center transition-all duration-200 hover:scale-105" style={{boxShadow:"0 0 20px rgba(197,147,58,.35)"}}>
-        {open?<X size={20}/>:<MessageCircle size={20}/>}
+      <button onClick={()=>setOpen(!open)} aria-label={open?"Close quest assistant chat":"Open quest assistant chat"} className="rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105" style={{ width:54, height:54, background:"#c5933a", color:"#171208", boxShadow:"0 8px 24px rgba(197,147,58,.4)" }}>
+        {open?<X size={22}/>:<span className="text-2xl leading-none" aria-hidden>✦</span>}
       </button>
     </div>
   );
@@ -1592,15 +1632,18 @@ export default function App() {
   // existing prop shapes unchanged.
   const {
     savedIds, completedIds, completedAt, completedSteps, achievementsAt,
-    savedGames, games, wishlist, wishlistDates, points, streak,
+    savedGames, games, wishlist, wishlistDates, points, streak, welcomeDismissed,
     toggleSave, toggleComplete, toggleStep, resetProgress,
-    toggleSavedGame, setGameFinished, toggleWishlist, moveWishlist, setWishlistDate,
+    toggleSavedGame, setGameFinished, toggleWishlist, moveWishlist, setWishlistDate, dismissWelcome,
   } = useUserState();
   // F7 — achievement totals for the stats strip.
   const totalAchievements = useMemo(()=>Object.values(ACHIEVEMENTS).reduce((s,l)=>s+l.length,0),[]);
   const achievementsLabel = `${Object.keys(achievementsAt).length}/${totalAchievements}`;
   // A selected game opens a full game page (overview/chapters/achievements/quests).
   const [openGame, setOpenGame] = useState<string|null>(null);
+  // F8 — a chat answer can deep-link to a quest, opening its detail dialog here.
+  const [openQuestId, setOpenQuestId] = useState<number|null>(null);
+  const openQuest = openQuestId!=null ? QUESTS.find(q=>q.id===openQuestId) ?? null : null;
   // Reading setting: spoilers are blurred by default until revealed per-quest.
   const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
     try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
@@ -2045,8 +2088,18 @@ export default function App() {
         </div>
       </footer>
 
-      <ChatWidget/>
+      <ChatWidget onOpenQuest={setOpenQuestId}/>
       {TABS.length>0 && <MobileTabBar tabs={TABS} tab={tab} setTab={setTab}/>}
+
+      {/* F8 — quest deep-link dialog opened from a chat answer */}
+      <Dialog open={!!openQuest} onOpenChange={o=>{ if(!o) setOpenQuestId(null); }}>
+        <DialogContent className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg">
+          {openQuest && <QuestDetail quest={openQuest} onClose={()=>setOpenQuestId(null)} onSave={toggleSave} saved={savedIds.has(openQuest.id)} onComplete={toggleComplete} completed={completedIds.has(openQuest.id)} completedAt={completedAt[openQuest.id]} completedSteps={completedSteps[openQuest.id]} onToggleStep={i=>toggleStep(openQuest.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+        </DialogContent>
+      </Dialog>
+
+      {/* F11 — first-visit PWA / notification welcome sheet */}
+      {!welcomeDismissed && <WelcomeSheet onDismiss={dismissWelcome} canInstall={!!installPrompt} onInstall={promptInstall}/>}
     </div>
   );
 }
