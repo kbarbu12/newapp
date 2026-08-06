@@ -32,9 +32,45 @@ const ATTR_WORDS = new Set(
    " video difficulty difficult length duration summary recap any some its it").split(/\s+/)
 );
 
+// Lightweight singulariser so plural queries match singular text and vice versa
+// ("trials"→"trial", "mice" is left alone — we only strip regular endings).
+// Substring scoring does the rest. Kept deliberately conservative to avoid
+// mangling short words.
+function stem(w: string): string {
+  if (w.length <= 4) return w;
+  if (w.endsWith("ies")) return w.slice(0, -3) + "y";
+  if (w.endsWith("es") && !w.endsWith("ses")) return w.slice(0, -2);
+  if (w.endsWith("s") && !w.endsWith("ss")) return w.slice(0, -1);
+  return w;
+}
+
 function tokenize(s: string): string[] {
   return s.toLowerCase().replace(/[^a-z0-9'\s]/g, " ").split(/\s+/)
-    .filter(w => w.length > 1 && !STOP.has(w));
+    .filter(w => w.length > 1 && !STOP.has(w))
+    .map(stem);
+}
+
+// Query-term synonyms: expansions added (for scoring only) so a natural-language
+// word finds quests authored with the in-game term — "romance" reaches
+// companion/relationship quests, "boss" reaches fights, etc. Additive to the
+// score, so a literal match still outranks a synonym-only one.
+const SYNONYMS: Record<string, string[]> = {
+  romance: ["companion", "lover", "relationship", "affection"],
+  boss: ["fight", "battle", "duel"],
+  horse: ["mount", "steed"],
+  weapon: ["sword", "blade", "spear", "armament"],
+  armor: ["armour", "gear", "outfit"],
+  money: ["gold", "coin", "currency", "crown"],
+  ending: ["finale", "conclusion", "final"],
+  puzzle: ["riddle", "trial"],
+  treasure: ["chest", "loot", "hoard"],
+};
+
+// Expand tokens with any synonyms (stemmed, de-duped) for retrieval scoring.
+function withSynonyms(toks: string[]): string[] {
+  const out = new Set(toks);
+  for (const t of toks) for (const s of SYNONYMS[t] ?? []) out.add(stem(s));
+  return [...out];
 }
 
 // Per-game identifier tokens: the abbreviation plus every word in the game's
@@ -107,6 +143,19 @@ function listLine(q: Quest): string {
   return `• ${q.title} — ${q.game} (${q.difficulty}, ${q.length})`;
 }
 
+// The next quest to play after `q`. Prefers the next entry in the same story
+// arc (arcs are authored in play order); otherwise the next main-story quest in
+// the same game. Returns undefined when there's nothing sensible to point at.
+function nextQuest(q: Quest): Quest | undefined {
+  if (q.arc) {
+    const arc = QUESTS.filter(x => x.game === q.game && x.arc === q.arc).sort((a, b) => a.id - b.id);
+    const i = arc.findIndex(x => x.id === q.id);
+    if (i >= 0 && i < arc.length - 1) return arc[i + 1];
+  }
+  const mains = QUESTS.filter(x => x.game === q.game && x.type === "main").sort((a, b) => a.id - b.id);
+  return mains.find(x => x.id > q.id);
+}
+
 // Difficulty / length distribution for a game — answers "how hard/long is X?".
 function distribution(game: string): string {
   const pool = QUESTS.filter(x => x.game === game);
@@ -152,8 +201,9 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   const game = games[0];
 
   const greeting = /^(hi|hey|hello|yo|sup|greetings)\b/.test(lc);
+  const terms = withSynonyms(toks);
   const scored = (game ? QUESTS.filter(x => x.game === game) : QUESTS)
-    .map(x => ({ q: x, s: scoreQuest(x, toks) })).sort((a, b) => b.s - a.s);
+    .map(x => ({ q: x, s: scoreQuest(x, terms) })).sort((a, b) => b.s - a.s);
   const top = scored[0];
 
   // ── Conversational follow-up on the last quest ─────────────────────────────
@@ -173,6 +223,15 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   // follow-up about the last one.
   const residual = toks.filter(t => !ATTR_WORDS.has(t));
   const residualStrong = residual.length > 0 && Math.max(0, ...QUESTS.map(x => scoreQuest(x, residual))) >= 6;
+
+  // "What's next / after this?" — walk to the next quest in the arc or story.
+  if (ctx.lastQuest && games.length === 0 && !residualStrong &&
+      /\b(next|after (this|that|it)|then what|what now|continue|carry on)\b/.test(lc)) {
+    const nx = nextQuest(ctx.lastQuest);
+    if (nx) return { content: `After ${ctx.lastQuest.title}, next up is:\n\n${detail(nx)}`, quest: nx, context: { lastQuest: nx, lastGame: nx.game } };
+    return { content: `${ctx.lastQuest.title} looks like the end of that line — I don't have a next quest after it.`, quest: ctx.lastQuest, context: ctx };
+  }
+
   if (ctx.lastQuest && games.length === 0 && !globalList && !residualStrong && (continuation || pronoun || bareAttr)) {
     const attr = attributeAnswer(lc, ctx.lastQuest);
     return { content: attr ?? detail(ctx.lastQuest), quest: ctx.lastQuest, context: ctx };
@@ -207,6 +266,23 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
     return { content: `The library has ${QUESTS.length} quests across ${Object.keys(GAMES).length} games. Name a game and I'll give you its count.`, context: ctx };
   }
 
+  // ── Missable intent — "which quests are missable [in <game>]?" ─────────────
+  // (A pronoun follow-up like "is it missable?" is handled above; this is the
+  // library-wide / per-game listing.)
+  if (/\bmissable\b/.test(lc) && (game || /\b(which|what|any|list|show|all|are)\b/.test(lc))) {
+    const flagged = (game ? QUESTS.filter(x => x.game === game) : QUESTS).filter(x => x.missable);
+    if (flagged.length) {
+      const shown = flagged.slice(0, 8).map(x => `• ${x.title} — ${x.game}${x.missableWindow ? ` (do before: ${x.missableWindow})` : ""}`);
+      const more = flagged.length > 8 ? `\n\n…and ${flagged.length - 8} more.` : "";
+      return { content: `Missable quests I track in ${game ?? "the library"} — do these before their window closes:\n\n${shown.join("\n")}${more}`,
+        context: game ? { lastGame: game } : ctx };
+    }
+    return { content: game
+      ? `I don't have missable quests flagged for ${game} yet — I only track a hand-curated set, so treat unflagged quests as unknown and do them early to be safe.`
+      : `I track a curated set of known-missable quests. Name a game and I'll list the ones I have flagged.`,
+      context: game ? { lastGame: game } : ctx };
+  }
+
   // ── Aggregate intent — "how hard/long is <game>?" / "difficulty breakdown". ──
   // Guarded so it doesn't hijack a strong specific-quest match (e.g. "how long
   // is Ranni's questline"), while still catching generic "…the game" phrasing.
@@ -219,6 +295,24 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
     const g = game ?? (genericGame ? ctx.lastGame : undefined);
     if (g) return { content: distribution(g), context: { lastGame: g } };
     return { content: `Which game? I can break down difficulty and length for any of the ${Object.keys(GAMES).length} — just name one.`, context: ctx };
+  }
+
+  // ── Progression intent — "what should I do first / where do I start?" ───────
+  // The main story is the honest through-line (per-quest data has no global play
+  // order), so point there. Needs a game in context; skips if a specific quest
+  // is clearly the target.
+  const startGame = game ?? ctx.lastGame;
+  const wantsStart = /\b(start|begin|do first|getting started|new to|just started|where do i (go|start|begin))\b/.test(lc)
+    || /\bwhat (should i|do i|to) (do|play).*\bfirst\b/.test(lc);
+  // Named a game → progression wins; only defer when there's no game and a
+  // specific quest is clearly the target.
+  if (wantsStart && startGame && !(!game && top && top.s >= 6)) {
+    const mains = QUESTS.filter(x => x.game === startGame && x.type === "main").sort((a, b) => a.id - b.id).slice(0, 5);
+    const spine = mains.length ? mains : QUESTS.filter(x => x.game === startGame).sort((a, b) => a.id - b.id).slice(0, 5);
+    if (spine.length) {
+      return { content: `The main story is your through-line in ${startGame} — follow it and take side quests as you go. Early on:\n\n${spine.map(listLine).join("\n")}\n\nAsk about any one by name, or say "what's next" after a quest to keep going.`,
+        context: { lastQuest: spine[0], lastGame: startGame } };
+    }
   }
 
   const diff = /\b(hard|hardest|difficult|toughest|high)\b/.test(lc) ? "High"
