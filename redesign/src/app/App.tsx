@@ -1325,6 +1325,9 @@ export default function App() {
   const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",chapterFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
 
   const selectedMeta=selectedGame!=="All"?GAMES[selectedGame]:null;
+  // The field this game's chapters came from — its generic sub-filter is a
+  // duplicate of the chapter filter and is hidden below.
+  const chapterSource = selectedMeta?.chapterSource ?? "";
 
   const pills=<T extends string>(opts:T[],cur:T,set:(v:T)=>void)=>opts.map(o=>(
     <button key={o} onClick={()=>set(o)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${cur===o?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{o}</button>
@@ -1519,7 +1522,10 @@ export default function App() {
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
-                    {subOptions.cats.length>1 && (
+                    {/* Category/Region are hidden when the chapter filter above
+                        was derived from that same field — otherwise the panel
+                        shows the same options twice (e.g. GoW Realms vs Region). */}
+                    {subOptions.cats.length>1 && chapterSource!=="category" && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Category</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.cats],catFilter,setCatFilter)}</div></div>
                     )}
                     {subOptions.chapters.length>1 && (
@@ -1532,7 +1538,7 @@ export default function App() {
                         </div>
                       </div>
                     )}
-                    {subOptions.regions.length>1 && (
+                    {subOptions.regions.length>1 && chapterSource!=="region" && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Region</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.regions],regionFilter,setRegionFilter)}</div></div>
                     )}
                     <div className="flex flex-col gap-1">

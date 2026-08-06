@@ -151,6 +151,9 @@ for (const q of quests) (byGame[q.game] ??= []).push(q);
 const chaptersByGame = {};
 const chapterIdByQuest = {};
 const termByGame = {};
+// Which underlying field each game's chapters came from, so the UI can hide the
+// now-redundant generic Category/Region sub-filter that shows the same values.
+const sourceByGame = {};
 
 // Which configured axis reads as "chapters"? Prefer an explicit progression
 // axis (act/chapter), then a place axis (region/planet/…), then whatever is
@@ -174,6 +177,7 @@ for (const [name, qs] of Object.entries(byGame)) {
     TERM_OVERRIDE[name] ??
     (axis && !GENERIC_LABEL.test(axis.label) ? axis.label : "Questline");
   termByGame[name] = term;
+  sourceByGame[name] = locAxis ? "location" : axis ? axis.field : "split";
 
   let groups;
   if (locAxis) {
@@ -220,6 +224,7 @@ for (const name of Object.keys(GAMES)) {
   const t = termByGame[name] ?? "Chapter";
   GAMES[name].chapterTerm = t;
   GAMES[name].chapterTermPlural = plural(t);
+  GAMES[name].chapterSource = sourceByGame[name] ?? "split";
 }
 
 // Keep only the fields the design consumes.
@@ -269,6 +274,8 @@ const body =
   "  chapters: Chapter[];\n" +
   "  /** What this game calls its quest divisions — \"Realm\", \"District\", \"Act\", … */\n" +
   "  chapterTerm: string; chapterTermPlural: string;\n" +
+  "  /** Field the chapters were derived from — the matching sub-filter is redundant. */\n" +
+  "  chapterSource: string;\n" +
   "}\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
   `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n`;
