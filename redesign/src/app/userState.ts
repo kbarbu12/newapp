@@ -21,6 +21,7 @@ export interface UserState {
   saved: number[]; // saved quest ids
   savedGames: string[]; // F9 — saved game names
   wishlist: string[]; // F10 — ordered game names
+  wishlistDates: Record<string, string>; // F10 — optional target-play date per game
   games: Record<string, { startedAt?: string; finishedAt?: string }>; // F6
   achievements: Record<string, string>; // achId -> ISO unlockedAt (F2)
   welcomeDismissed: boolean; // F11
@@ -32,6 +33,7 @@ export const emptyState = (): UserState => ({
   saved: [],
   savedGames: [],
   wishlist: [],
+  wishlistDates: {},
   games: {},
   achievements: {},
   welcomeDismissed: false,
@@ -256,6 +258,44 @@ export function useUserState() {
     []
   );
 
+  const toggleWishlist = useCallback(
+    (name: string) =>
+      setState((s) => {
+        if (s.wishlist.includes(name)) {
+          const dates = { ...s.wishlistDates };
+          delete dates[name];
+          return { ...s, wishlist: s.wishlist.filter((g) => g !== name), wishlistDates: dates };
+        }
+        return { ...s, wishlist: [...s.wishlist, name] };
+      }),
+    []
+  );
+
+  // Move a wishlist entry up (dir -1) or down (dir +1) to reprioritise.
+  const moveWishlist = useCallback(
+    (name: string, dir: -1 | 1) =>
+      setState((s) => {
+        const i = s.wishlist.indexOf(name);
+        const j = i + dir;
+        if (i < 0 || j < 0 || j >= s.wishlist.length) return s;
+        const next = [...s.wishlist];
+        [next[i], next[j]] = [next[j], next[i]];
+        return { ...s, wishlist: next };
+      }),
+    []
+  );
+
+  const setWishlistDate = useCallback(
+    (name: string, date: string) =>
+      setState((s) => {
+        const dates = { ...s.wishlistDates };
+        if (date) dates[name] = date;
+        else delete dates[name];
+        return { ...s, wishlistDates: dates };
+      }),
+    []
+  );
+
   const resetProgress = useCallback(
     () => setState((s) => ({ ...s, completed: {}, steps: {}, games: {}, achievements: {} })),
     []
@@ -282,6 +322,8 @@ export function useUserState() {
     savedGames: state.savedGames,
     achievementsAt: state.achievements,
     games: state.games,
+    wishlist: state.wishlist,
+    wishlistDates: state.wishlistDates,
     points,
     streak,
     toggleSave,
@@ -289,6 +331,9 @@ export function useUserState() {
     toggleStep,
     toggleSavedGame,
     setGameFinished,
+    toggleWishlist,
+    moveWishlist,
+    setWishlistDate,
     resetProgress,
     dismissWelcome,
   };

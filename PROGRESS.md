@@ -92,8 +92,13 @@ Re-running the workflow went green.
 
 - [ ] **Phase 2** — Game page (Overview · Chapters · Achievements · Quests tabs) + F3 chapter
       progress + F2 achievements (achievements catalog synthesized per game).
-- [ ] **Phase 3** — Library 4-tab view (Saved · Playing · Finished · Wishlist) + F5 saved-quest
-      filters + F9 saved games + F10 wishlist.
+- [x] **Phase 3** — Library 4-tab view (Saved · Playing · Finished · Wishlist) + F5 saved-quest
+      filters + F9 saved games + F10 wishlist. *(done — the `Saved` tab is now a sub-tabbed
+      Library: Saved shows saved games (F9) + saved quests with Game/Type/Status multi-select
+      filters and a live match count (F5); Playing lists games with progress; Finished shows the
+      ✓ FINISHED ribbon + play span; Wishlist (F10) is a reorderable Plan-to-Play list with
+      optional target dates. Save-game / Mark-finished / Plan-to-play controls live on the game
+      page header — this also lands F6's finished capture early.)*
 - [ ] **Phase 4** — F6 mark game finished; F7 gamification stats strip (points/streak/etc.).
 - [ ] **Phase 5** — F8 chatbot polish (FAB + deep-link to quest); F11 first-visit PWA welcome.
 

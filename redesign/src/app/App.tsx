@@ -788,40 +788,217 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; completedAt:Record<number,string>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean }) {
-  const saved = QUESTS.filter(q=>savedIds.has(q.id));
-  if (!saved.length) return (
-    <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
-      <Bookmark size={32} className="text-muted-foreground/20"/>
-      <p className="text-muted-foreground text-sm font-medium">No saved quests yet.</p>
-      <p className="text-xs text-muted-foreground/60 max-w-xs">Open any quest and tap <strong>Save</strong> to bookmark it here. Use <strong>Mark done</strong> to track your progress.</p>
-      <button onClick={onGoToLibrary} className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
+// A compact game card used across the Library's Playing/Finished/Saved shelves.
+function LibraryGameCard({ game, onOpen, footer, onToggleSaved, saved }:{ game:string; onOpen:()=>void; footer:React.ReactNode; onToggleSaved?:()=>void; saved?:boolean }){
+  const meta = GAMES[game];
+  return (
+    <div className="relative group">
+      <button onClick={onOpen} className="w-full text-left rounded-xl overflow-hidden border border-border hover:border-white/20 transition-colors">
+        <div className="relative h-28">
+          {meta?.cover && <img src={meta.cover} alt={game} onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-center"/>}
+          <div className="absolute inset-0" style={{ background:"linear-gradient(to top,var(--card) 12%,rgba(0,0,0,.15))" }}/>
+        </div>
+        <div className="p-3">
+          <div className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{game}</div>
+          <div className="mt-1.5">{footer}</div>
+        </div>
+      </button>
+      {onToggleSaved && (
+        <button onClick={onToggleSaved} aria-label={saved?"Remove saved game":"Save game"} className="absolute top-2 right-2 w-7 h-7 rounded-full bg-black/50 backdrop-blur flex items-center justify-center">
+          {saved ? <BookmarkCheck size={14} style={{ color:"#e6b45a" }}/> : <Bookmark size={14} className="text-white"/>}
+        </button>
+      )}
     </div>
   );
-  const groups = useMemo(()=>{
-    const m:Record<string,Quest[]> = {};
-    saved.forEach(q=>{ (m[q.game] ??= []).push(q); });
-    return Object.entries(m).sort(([a],[b])=>a.localeCompare(b));
-  },[saved]);
+}
+
+// F5 multi-select chip group.
+function FilterChips({ label, options, selected, onToggle, colorFor }:{ label:string; options:string[]; selected:Set<string>; onToggle:(v:string)=>void; colorFor?:(v:string)=>{bg:string;fg:string}|undefined }){
+  if(options.length<2) return null;
   return (
-    <div className="flex flex-col gap-3">
-      <div className="flex items-center justify-between">
-        <span className="text-sm text-muted-foreground">{saved.length} saved quest{saved.length!==1?"s":""}</span>
-        <button onClick={()=>saved.forEach(q=>onSave(q.id))} className="text-xs text-muted-foreground hover:text-primary transition-colors">Clear all</button>
+    <div className="flex flex-col gap-1.5">
+      <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">{label}</span>
+      <div className="flex gap-1.5 flex-wrap">
+        {options.map(o=>{
+          const on = selected.has(o);
+          const c = on ? colorFor?.(o) : undefined;
+          return (
+            <button key={o} onClick={()=>onToggle(o)}
+              className={`px-2.5 py-1 rounded-full text-[11px] font-semibold border transition-colors ${on&&!c?"bg-primary/20 text-primary border-primary/40":!on?"bg-[#141520] text-[#9a99a2] border-border hover:text-foreground":""}`}
+              style={c?{ background:c.bg, color:c.fg, borderColor:"transparent" }:undefined}>
+              {o}
+            </button>
+          );
+        })}
       </div>
-      <div className="flex flex-col gap-6">
-        {groups.map(([game,quests])=>(
-          <div key={game} className="flex flex-col gap-3">
-            <div>
-              <SectionEyebrow>{game.toUpperCase()} — {quests.length} saved</SectionEyebrow>
-              <div className="h-px bg-[var(--hairline)] mt-2"/>
-            </div>
-            <div className="flex flex-col gap-2">
-              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
-            </div>
-          </div>
+    </div>
+  );
+}
+
+type LibSub = "saved"|"playing"|"finished"|"wishlist";
+function LibraryView(props:{
+  savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; completedAt:Record<number,string>;
+  onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>;
+  onToggleStep:(q:number,i:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+  savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
+  onOpenGame:(g:string)=>void; wishlist:string[]; wishlistDates:Record<string,string>;
+  onToggleWishlist:(g:string)=>void; onMoveWishlist:(g:string,d:-1|1)=>void; onSetWishlistDate:(g:string,d:string)=>void;
+}){
+  const { savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+    savedGames, onToggleSavedGame, games, onOpenGame, wishlist, wishlistDates, onToggleWishlist, onMoveWishlist, onSetWishlistDate } = props;
+  const [sub,setSub] = useState<LibSub>("saved");
+  const savedQuests = QUESTS.filter(q=>savedIds.has(q.id));
+  const allGames = Object.keys(GAMES);
+  const playing = allGames.filter(g=>!games[g]?.finishedAt && QUESTS.some(q=>q.game===g && completedIds.has(q.id)));
+  const finished = allGames.filter(g=>games[g]?.finishedAt);
+
+  // F5 filters (Saved tab)
+  const [fGames,setFGames]=useState<Set<string>>(new Set());
+  const [fTypes,setFTypes]=useState<Set<string>>(new Set());
+  const [fStatus,setFStatus]=useState<Set<string>>(new Set());
+  const toggleIn=(s:Set<string>,set:(x:Set<string>)=>void,v:string)=>{ const n=new Set(s); n.has(v)?n.delete(v):n.add(v); set(n); };
+  const savedFiltered = savedQuests.filter(q=>{
+    if(fGames.size && !fGames.has(q.game)) return false;
+    if(fTypes.size && !fTypes.has(q.type)) return false;
+    if(fStatus.size){ const st=completedIds.has(q.id)?"Completed":"Not started"; if(!fStatus.has(st)) return false; }
+    return true;
+  });
+  const gameOpts=[...new Set(savedQuests.map(q=>q.game))].sort();
+  const typeOpts=(["main","side","optional"] as const).filter(t=>savedQuests.some(q=>q.type===t));
+  const anyFilter = fGames.size||fTypes.size||fStatus.size;
+
+  const tabs:{id:LibSub;label:string;n:number}[]=[
+    { id:"saved", label:"Saved", n:savedQuests.length+savedGames.length },
+    { id:"playing", label:"Playing", n:playing.length },
+    { id:"finished", label:"Finished", n:finished.length },
+    { id:"wishlist", label:"Wishlist", n:wishlist.length },
+  ];
+  const gameProgFooter=(g:string)=>{ const p=gameProgress(g,completedIds); return (
+    <div>
+      <div className="flex items-center justify-between text-[10px] mb-1"><span className="text-muted-foreground">{p.done}/{p.total}</span><span style={{color:"#6bbf8a"}}>{p.pct}%</span></div>
+      <div className="h-1.5 rounded-full overflow-hidden" style={{background:"#1c1d24"}}><div className="h-full rounded-full" style={{width:`${p.pct}%`,background:"linear-gradient(90deg,#c5933a,#e6b45a)"}}/></div>
+    </div>
+  ); };
+  const playSpan=(g:string)=>{
+    const done=QUESTS.filter(q=>q.game===g&&completedAt[q.id]).map(q=>completedAt[q.id]).sort();
+    const start=games[g]?.startedAt ?? done[0];
+    const fin=games[g]?.finishedAt;
+    return <span className="text-[11px]" style={{color:"#8a8a92"}}>{start?fmtDate(start):"—"} – <span style={{color:"#6bbf8a"}}>{fin?fmtDate(fin):"—"}</span></span>;
+  };
+  const wishlistPool = allGames.filter(g=>!wishlist.includes(g)).sort();
+
+  const emptyState=(icon:React.ReactNode,text:string,hint:string)=>(
+    <div className="flex flex-col items-center justify-center py-20 gap-3 text-center">
+      {icon}<p className="text-muted-foreground text-sm font-medium">{text}</p>
+      <p className="text-xs text-muted-foreground/60 max-w-xs">{hint}</p>
+    </div>
+  );
+
+  return (
+    <div className="flex flex-col gap-5">
+      {/* Sub-tab bar */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] border-b border-border">
+        {tabs.map(t=>(
+          <button key={t.id} onClick={()=>setSub(t.id)} className={`shrink-0 px-3.5 py-2 text-sm font-medium rounded-t-lg border-b-2 -mb-px transition-colors ${sub===t.id?"border-primary text-primary":"border-transparent text-muted-foreground hover:text-foreground"}`} style={sub===t.id?{fontFamily:"'Spectral',serif"}:undefined}>
+            {t.label} <span className="text-muted-foreground">{t.n}</span>
+          </button>
         ))}
       </div>
+
+      {/* ── Saved ── */}
+      {sub==="saved" && (
+        savedQuests.length===0 && savedGames.length===0
+          ? emptyState(<Bookmark size={30} className="text-muted-foreground/20"/>,"Nothing saved yet.","Bookmark a quest, or save a game from its card, to collect them here.")
+          : (
+            <div className="flex flex-col gap-6">
+              {savedGames.length>0 && (
+                <div className="flex flex-col gap-2">
+                  <SectionEyebrow icon={<Bookmark size={13} className="text-primary"/>}>Saved games</SectionEyebrow>
+                  <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+                    {savedGames.map(g=><LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} onToggleSaved={()=>onToggleSavedGame(g)} saved footer={gameProgFooter(g)}/>)}
+                  </div>
+                </div>
+              )}
+              {savedQuests.length>0 && (
+                <div className="flex flex-col gap-3">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <SectionEyebrow icon={<BookmarkCheck size={13} className="text-primary"/>}>Saved quests</SectionEyebrow>
+                    <span className="text-xs text-muted-foreground">{savedFiltered.length} of {savedQuests.length} match</span>
+                  </div>
+                  <div className="flex flex-col gap-3 rounded-xl border border-border bg-card/50 p-3">
+                    <FilterChips label="Game" options={gameOpts} selected={fGames} onToggle={v=>toggleIn(fGames,setFGames,v)}/>
+                    <FilterChips label="Type" options={typeOpts as unknown as string[]} selected={fTypes} onToggle={v=>toggleIn(fTypes,setFTypes,v)} colorFor={v=>{const t=TYPE_BADGE[v as Quest["type"]];return t?{bg:t.fg,fg:"#0c1710"}:undefined;}}/>
+                    <FilterChips label="Status" options={["Not started","Completed"]} selected={fStatus} onToggle={v=>toggleIn(fStatus,setFStatus,v)} colorFor={v=>v==="Completed"?{bg:"#6bbf8a",fg:"#0c1710"}:{bg:"#5b5d68",fg:"#0c1710"}}/>
+                    {anyFilter>0 && <button onClick={()=>{setFGames(new Set());setFTypes(new Set());setFStatus(new Set());}} className="self-start text-[11px] text-muted-foreground hover:text-primary">↺ Clear filters</button>}
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    {savedFiltered.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row" completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+                    {savedFiltered.length===0 && <p className="text-xs text-muted-foreground py-6 text-center">No saved quests match these filters.</p>}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+      )}
+
+      {/* ── Playing ── */}
+      {sub==="playing" && (
+        playing.length===0
+          ? emptyState(<TrendingUp size={30} className="text-muted-foreground/20"/>,"No games in progress.","Complete a quest in any game and it shows up here with your progress.")
+          : <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+              {playing.map(g=><LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} footer={gameProgFooter(g)}/>)}
+            </div>
+      )}
+
+      {/* ── Finished ── */}
+      {sub==="finished" && (
+        finished.length===0
+          ? emptyState(<Trophy size={30} className="text-muted-foreground/20"/>,"No finished games yet.","Open a game page and mark it finished to add it here with your play span.")
+          : <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+              {finished.map(g=>(
+                <LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} footer={<div className="flex items-center gap-1.5"><span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{background:"#6bbf8a",color:"#0c1710"}}>✓ FINISHED</span></div>}/>
+              ))}
+            </div>
+      )}
+      {sub==="finished" && finished.length>0 && (
+        <div className="flex flex-col gap-1.5">
+          {finished.map(g=><div key={g} className="flex items-center justify-between text-xs px-1"><span className="text-foreground truncate">{g}</span>{playSpan(g)}</div>)}
+        </div>
+      )}
+
+      {/* ── Wishlist (F10) ── */}
+      {sub==="wishlist" && (
+        <div className="flex flex-col gap-3">
+          {wishlist.length===0
+            ? emptyState(<Star size={30} className="text-muted-foreground/20"/>,"Your Plan to Play list is empty.","Add a game below and drag it up or down to set your priority.")
+            : <ol className="flex flex-col gap-2 list-none">
+                {wishlist.map((g,i)=>(
+                  <li key={g} className="flex items-center gap-2.5 rounded-xl border border-border bg-card p-2.5">
+                    <div className="flex flex-col shrink-0">
+                      <button onClick={()=>onMoveWishlist(g,-1)} disabled={i===0} aria-label="Move up" className="text-muted-foreground hover:text-primary disabled:opacity-25 leading-none">▲</button>
+                      <button onClick={()=>onMoveWishlist(g,1)} disabled={i===wishlist.length-1} aria-label="Move down" className="text-muted-foreground hover:text-primary disabled:opacity-25 leading-none">▼</button>
+                    </div>
+                    <span className="text-[11px] font-bold w-5 text-center" style={{color:"#e6b45a"}}>{i+1}</span>
+                    <button onClick={()=>onOpenGame(g)} className="flex-1 min-w-0 text-left">
+                      <span className="text-sm font-semibold text-foreground truncate block" style={{fontFamily:"'Spectral',serif"}}>{g}</span>
+                    </button>
+                    <input type="date" value={wishlistDates[g]??""} onChange={e=>onSetWishlistDate(g,e.target.value)} aria-label={`Target date for ${g}`} className="bg-secondary border border-border rounded-lg px-2 py-1 text-[11px] text-foreground outline-none focus:border-primary/50"/>
+                    <button onClick={()=>onToggleWishlist(g)} aria-label={`Remove ${g}`} className="text-muted-foreground hover:text-destructive shrink-0"><X size={15}/></button>
+                  </li>
+                ))}
+              </ol>}
+          <div className="flex items-center gap-2">
+            <select value="" onChange={e=>{ if(e.target.value) onToggleWishlist(e.target.value); }} className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50">
+              <option value="">＋ Add a game to Plan to Play…</option>
+              {wishlistPool.map(g=><option key={g} value={g}>{g}</option>)}
+            </select>
+          </div>
+        </div>
+      )}
+
+      {savedQuests.length===0 && sub==="saved" && savedGames.length===0 && (
+        <button onClick={onGoToLibrary} className="self-center mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
+      )}
     </div>
   );
 }
@@ -1269,14 +1446,20 @@ function GameOverview({ game, completedIds, completedAt, achievementsAt }:{ game
 }
 
 type GameTab = "overview"|"chapters"|"achievements"|"quests";
-function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }:{
+function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+  savedGames, onToggleSavedGame, games, onSetFinished, wishlist, onToggleWishlist }:{
   game:string; onClose:()=>void; savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>;
   completedAt:Record<number,string>; onComplete:(id:number)=>void; achievementsAt:Record<string,string>;
   completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+  savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
+  onSetFinished:(g:string,v:boolean)=>void; wishlist:string[]; onToggleWishlist:(g:string)=>void;
 }){
   const meta = GAMES[game];
   const p = gameProgress(game, completedIds);
   const [gtab, setGtab] = useState<GameTab>("overview");
+  const savedGame = savedGames.includes(game);
+  const finished = !!games[game]?.finishedAt;
+  const wished = wishlist.includes(game);
   const tabs:{id:GameTab;label:React.ReactNode}[] = [
     { id:"overview", label:"Overview" },
     { id:"chapters", label:chapterTerm(game,true) },
@@ -1300,6 +1483,19 @@ function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, 
               <span>{p.total} quests</span><span>·</span>
               <span style={{ color:"#6bbf8a" }}>{p.pct}% complete</span><span>·</span>
               <span style={{ color:"#c5933a" }}>{p.earned}/{p.achs.length} achievements</span>
+            </div>
+            {/* F6 finished ribbon / F9 save / F10 wishlist */}
+            <div className="flex items-center gap-2 mt-3 flex-wrap">
+              {finished && <span className="text-[11px] font-bold px-2 py-1 rounded" style={{ background:"#6bbf8a", color:"#0c1710" }}>✓ FINISHED</span>}
+              <button onClick={()=>onSetFinished(game,!finished)} className="inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors" style={finished?{borderColor:"#6bbf8a4d",color:"#6bbf8a"}:{background:"#6bbf8a",color:"#0c1710",borderColor:"transparent"}}>
+                <Trophy size={12}/> {finished?"Finished":"Mark finished"}
+              </button>
+              <button onClick={()=>onToggleSavedGame(game)} className={`inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors ${savedGame?"text-primary border-primary/40 bg-primary/10":"border-border text-muted-foreground hover:text-foreground"}`}>
+                {savedGame?<BookmarkCheck size={12}/>:<Bookmark size={12}/>} {savedGame?"Saved":"Save game"}
+              </button>
+              <button onClick={()=>onToggleWishlist(game)} className={`inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors ${wished?"text-primary border-primary/40 bg-primary/10":"border-border text-muted-foreground hover:text-foreground"}`}>
+                <Star size={12}/> {wished?"On wishlist":"Plan to play"}
+              </button>
             </div>
           </div>
         </div>
@@ -1352,7 +1548,9 @@ export default function App() {
   // existing prop shapes unchanged.
   const {
     savedIds, completedIds, completedAt, completedSteps, achievementsAt,
+    savedGames, games, wishlist, wishlistDates,
     toggleSave, toggleComplete, toggleStep, resetProgress,
+    toggleSavedGame, setGameFinished, toggleWishlist, moveWishlist, setWishlistDate,
   } = useUserState();
   // A selected game opens a full game page (overview/chapters/achievements/quests).
   const [openGame, setOpenGame] = useState<string|null>(null);
@@ -1621,7 +1819,7 @@ export default function App() {
 
       {/* ── Game page (overlays the tab content) ── */}
       {openGame ? (
-        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onSetFinished={setGameFinished} wishlist={wishlist} onToggleWishlist={toggleWishlist}/>
       ) : (
       <>
       {/* ── Compact banner for non-home tabs ── */}
@@ -1781,7 +1979,7 @@ export default function App() {
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+            {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
             {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
