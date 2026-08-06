@@ -13,6 +13,30 @@ Feature-branch work implementing the Claude Design handoff (12 features, `HANDOF
 Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; everything below is
 merged to `staging` and deployed to https://kbarbu12.github.io/newapp/staging/.
 
+### What shipped 2026-08-06 (this session)
+
+**All 12 handoff features (F1–F12) are implemented and live on staging.** Delivered in five
+phases (details per phase below):
+
+- **F1** quest-type badges + native per-game chapter tags · **F2** synthesized achievements
+  (323 across 24 games) · **F3** per-chapter progress · **F4** sort by type / chapter ·
+  **F5** saved-quest filters · **F6** mark-game-finished · **F7** gamification stats strip +
+  points chips · **F8** chat deep-links to quests · **F9** save games · **F10** wishlist ·
+  **F11** first-visit PWA welcome · **F12** completion timestamps + activity timeline.
+- **New surfaces:** a per-game **Game page** (Overview · Chapters · Achievements · Quests) and a
+  4-tab **Library** (Saved · Playing · Finished · Wishlist).
+- **Chapters overhaul:** every game's quests are grouped by its own authored `subFilterConfig`
+  (or `location`-derived areas), labelled with the game's native term (Realms, Districts,
+  Planets, Archstones, Acts, Chapters…), with a matching filter — no invented "Part N".
+- **Data/state foundation:** 3-value quest `type`, per-quest `points`, and a single `rqg:v2`
+  user-state store (`useUserState`) with legacy migration.
+- **Infra fix:** the Pages deploy workflow was hardened (30-min deploy timeout, longer retry
+  wait) after a GitHub Pages queue incident kept cancelling publishes; builds themselves were
+  always green.
+
+Commits: revert scaffold → Phase 1 (`77897e0`…) → Phase 1b chapters/terms/filter → Phase 2
+`aa28938` → Phase 3 `533fd62` → Phase 4 `7a21260` → Phase 5 `2a24547`.
+
 **Revert safety:** `REVERT.md` documents a git-only revert to the pre-redesign design, pinned
 to commit `21aee03` (also `origin/main`).
 
