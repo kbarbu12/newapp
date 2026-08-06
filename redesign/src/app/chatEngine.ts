@@ -266,6 +266,23 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
     return { content: `The library has ${QUESTS.length} quests across ${Object.keys(GAMES).length} games. Name a game and I'll give you its count.`, context: ctx };
   }
 
+  // ── Missable intent — "which quests are missable [in <game>]?" ─────────────
+  // (A pronoun follow-up like "is it missable?" is handled above; this is the
+  // library-wide / per-game listing.)
+  if (/\bmissable\b/.test(lc) && (game || /\b(which|what|any|list|show|all|are)\b/.test(lc))) {
+    const flagged = (game ? QUESTS.filter(x => x.game === game) : QUESTS).filter(x => x.missable);
+    if (flagged.length) {
+      const shown = flagged.slice(0, 8).map(x => `• ${x.title} — ${x.game}${x.missableWindow ? ` (do before: ${x.missableWindow})` : ""}`);
+      const more = flagged.length > 8 ? `\n\n…and ${flagged.length - 8} more.` : "";
+      return { content: `Missable quests I track in ${game ?? "the library"} — do these before their window closes:\n\n${shown.join("\n")}${more}`,
+        context: game ? { lastGame: game } : ctx };
+    }
+    return { content: game
+      ? `I don't have missable quests flagged for ${game} yet — I only track a hand-curated set, so treat unflagged quests as unknown and do them early to be safe.`
+      : `I track a curated set of known-missable quests. Name a game and I'll list the ones I have flagged.`,
+      context: game ? { lastGame: game } : ctx };
+  }
+
   // ── Aggregate intent — "how hard/long is <game>?" / "difficulty breakdown". ──
   // Guarded so it doesn't hijack a strong specific-quest match (e.g. "how long
   // is Ranni's questline"), while still catching generic "…the game" phrasing.
