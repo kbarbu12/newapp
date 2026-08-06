@@ -201,7 +201,12 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   const game = games[0];
 
   const greeting = /^(hi|hey|hello|yo|sup|greetings)\b/.test(lc);
-  const terms = withSynonyms(toks);
+  // When a game is named the pool is already filtered to it, so its own title
+  // words ("elden", "ring") carry no signal — strip them before scoring, or
+  // they inflate every quest's score and suppress filtered listings like
+  // "short Elden Ring quests".
+  const gameWords = game ? new Set(NAME_WORDS(game)) : undefined;
+  const terms = withSynonyms(gameWords ? toks.filter(t => !gameWords.has(t)) : toks);
   const scored = (game ? QUESTS.filter(x => x.game === game) : QUESTS)
     .map(x => ({ q: x, s: scoreQuest(x, terms) })).sort((a, b) => b.s - a.s);
   const top = scored[0];
@@ -310,7 +315,11 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
     const mains = QUESTS.filter(x => x.game === startGame && x.type === "main").sort((a, b) => a.id - b.id).slice(0, 5);
     const spine = mains.length ? mains : QUESTS.filter(x => x.game === startGame).sort((a, b) => a.id - b.id).slice(0, 5);
     if (spine.length) {
-      return { content: `The main story is your through-line in ${startGame} — follow it and take side quests as you go. Early on:\n\n${spine.map(listLine).join("\n")}\n\nAsk about any one by name, or say "what's next" after a quest to keep going.`,
+      // The data has no reliable global play-order, so present the main-story
+      // quests as the through-line without implying a strict sequence. Story
+      // arcs (where present) are ordered — that's what "what's next" walks.
+      const kind = mains.length ? "Its main-story quests include" : "Some of its quests";
+      return { content: `The main story is your through-line in ${startGame} — follow it and take side quests along the way. ${kind}:\n\n${spine.map(listLine).join("\n")}\n\nAsk about any one by name, or say "what's next" after a quest in a story arc to keep going.`,
         context: { lastQuest: spine[0], lastGame: startGame } };
     }
   }

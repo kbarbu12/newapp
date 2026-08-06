@@ -136,6 +136,65 @@ Re-running the workflow went green.
 
 ---
 
+## 0b. Quest Assistant improvements — Tiers 1–4 (2026-08-06)
+
+Follow-up session hardening the **Quest Assistant** chat widget
+(`redesign/src/app/chatEngine.ts` — a client-side, no-backend keyword/intent
+engine over the quest dataset). Delivered from a deep-dive of the engine's
+real failure modes, in two staging deploys. All merged to `staging` and live at
+`/staging/`.
+
+**Tier 1 — retrieval fixes** *(commit `8bc3048`)*
+- Parse **Medium** difficulty (was High/Low only — a third of the space was
+  silently dropped).
+- **Aggregate** intent: "how hard/long is <game>?" → computed difficulty/length
+  breakdown, guarded against title collisions ("how long is the game" no longer
+  returns a quest named "The Long Game").
+- **Compare** two games ("compare Elden Ring and Sekiro") via unique title-word
+  / abbreviation matching.
+
+**Tier 2 — conversational memory** *(commit `8bc3048`)*
+- A small `ChatContext` (last quest/game) threads through `answerQuestion` and
+  `ChatWidget`, so follow-ups resolve against the current subject: "what's its
+  reward?", "is it missable?", "any tips?", "show me the walkthrough".
+- Residual-token scoring stops a real new query ("reward for Hearts of Stone")
+  being captured as a follow-up.
+
+**Tier 3 — progression + missable** *(commit `6a01503`)*
+- **Progression:** "where do I start in <game>?" surfaces the main-story
+  through-line (honest — the data has no reliable global play-order, so it does
+  not imply a strict sequence); "what's next?" walks the story **arc** in order
+  (arcs are authored in play order).
+- **Missable:** a library-/game-wide "which quests are missable in <game>?"
+  listing intent (answers honestly when nothing is flagged), and the curated
+  `missable` dataset extended **12 → 18** — well-documented Cyberpunk
+  romance/ending-gate quests (Chippin' In, Both Sides Now, Pyramid Song, Pisces,
+  Talkin' 'Bout a Revolution) + a BG3 Act 1 quest, each with its window. The set
+  is deliberately curated, not exhaustive.
+
+**Tier 4 — retrieval quality** *(commit `6a01503`)*
+- Query **stemming** ("trials"→"trial") + a **synonym** map (romance→companion/
+  relationship, boss→fight/battle, weapon→sword/blade, …) expanded for scoring
+  only, so natural-language words reach quests authored with in-game terms.
+
+**QA fix found in real testing** *(post-6a01503)*
+- Headless QA revealed that a named game's own title words ("elden", "ring")
+  inflated every quest's score and suppressed filtered listings
+  ("short Elden Ring quests" returned one quest, not a list). Fixed by stripping
+  the matched game's name-words before scoring; progression wording reworded to
+  drop a misleading "Early on" play-order implication.
+
+**QA:** each deploy built clean (`build:staging`, 2299 quests / 24 games) and
+was driven headlessly (Chromium) through the new intents — stemming, synonyms,
+progression, arc-walk (Honor Bound → A Seer's Solace → Family Matters), missable
+listing — with **zero non-network console errors**. The quest-data audit that
+gates the Pages deploy passed integrity-clean. CI green on both deploys.
+
+**Not done:** no prod promotion (`staging` only); missable data is a curated
+subset, not exhaustive.
+
+---
+
 ## 1. Snapshot
 
 - **Total quests in library:** **943** (was 253 at the start of this work; 844 → 839 after
