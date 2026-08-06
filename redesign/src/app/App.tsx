@@ -398,7 +398,7 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
         <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
         <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
-          <span className="hidden sm:inline-flex"><QuestTypeBadge type={quest.type}/></span>
+          <QuestTypeBadge type={quest.type}/>
           <span className="hidden sm:inline-flex"><ActTag quest={quest}/></span>
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
