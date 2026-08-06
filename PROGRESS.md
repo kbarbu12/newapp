@@ -6,6 +6,44 @@
 
 ---
 
+## 0. Redesign — "design-based-on-user-feedback" (2026-08-06)
+
+Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
+Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; Phase 1 pushed to
+`staging` on 2026-08-06.
+
+**Revert safety:** `REVERT.md` documents a git-only revert to the pre-redesign design, pinned
+to commit `21aee03` (also `origin/main`).
+
+### Phase 1 — data model + F1 + F12 (done, on staging)
+
+- **Data model** (`redesign/scripts/gen-data.mjs`):
+  - Quest `type` widened to `main | side | optional` (optional derived from category).
+  - Per-quest `points` computed (F7 formula: base×difficulty + missable bonus, rounded to 5).
+  - Per-game `chapters` derived from each game's **own** data (arc → region → category,
+    2–14 groups); only Wukong, Zelda: TotK, Pillars II (no grouping field) fall back to
+    even "Part N" splits. Every quest gets a `chapterId`.
+- **Unified user state** (`redesign/src/app/userState.ts`): single `rqg:v2` localStorage blob
+  + `useUserState()` hook with legacy migration; `questPoints`/`totalPoints`/`currentStreak`.
+- **F1 — quest type labels:** `QuestTypeBadge` (gold Main / teal Side / slate Optional) +
+  `⌖ {chapter}` act tag on every quest surface (cards, detail, Quest of the Week); visible on
+  desktop **and** mobile; labeled `Chapter` stat added to the detail popup.
+- **F12 — completion timestamps:** completions record ISO dates; "Completed {date}" shown on
+  cards and detail.
+- **QA:** `npm run build:staging` passes; headless Chromium verified badges/act tags/timestamps
+  render with zero JS page errors.
+
+### Redesign roadmap (remaining phases)
+
+- [ ] **Phase 2** — Game page (Overview · Chapters · Achievements · Quests tabs) + F3 chapter
+      progress + F2 achievements (achievements catalog synthesized per game).
+- [ ] **Phase 3** — Library 4-tab view (Saved · Playing · Finished · Wishlist) + F5 saved-quest
+      filters + F9 saved games + F10 wishlist.
+- [ ] **Phase 4** — F6 mark game finished; F7 gamification stats strip (points/streak/etc.).
+- [ ] **Phase 5** — F8 chatbot polish (FAB + deep-link to quest); F11 first-visit PWA welcome.
+
+---
+
 ## 1. Snapshot
 
 - **Total quests in library:** **943** (was 253 at the start of this work; 844 → 839 after
