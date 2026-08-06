@@ -195,6 +195,47 @@ subset, not exhaustive.
 
 ---
 
+## 0c. Quest data verification & full walkthroughs (2026-08-06)
+
+A per-game verification pass: for each game, verify **every field** (title,
+type, act/region, location, difficulty, length, reward, summary, missable) and
+rewrite/author a **complete step-by-step walkthrough for every quest**. Rules
+agreed with the owner: fix only **high-confidence** errors (flag, don't guess,
+anything uncertain — no live-wiki access in this environment); rewrite **all**
+walkthroughs including existing ones; verify **all** fields. **One game per PR**
+to `staging` for review; not promoted to prod.
+
+Each pass: apply via a targeted patch script (replaces only the `walkthrough`
+arrays + specific field fixes, leaving every other field, the formatting, and
+real video URLs byte-identical), then `node scripts/audit.js` (integrity gate),
+`npm run build:staging`, and a headless render of the game's quests + chat
+(zero non-network console errors).
+
+| Game | Quests | Walkthroughs authored/rewritten | High-confidence field fixes | PR |
+|---|---|---|---|---|
+| Final Fantasy VII Remake | 30 | 30 | #1032 mislabeled "The Town That Never Sleeps" → "Budding Bodyguard" (Sector 5 Church) | #46 |
+| Elden Ring | 70 | 70 (38 had no walkthrough) | 11 locations pinned (DLC bosses were all just "Land of Shadow"; Rykard, Godefroy) | #47 |
+| Baldur's Gate 3 | 112 | 112 (87 had no walkthrough) | #66 "Free the Artist" location (Zhentarim Hideout, Waukeen's Rest — not Grymforge) | #48 |
+
+**Totals so far:** 212 quests across 3 games; all audits integrity-clean
+locally. Rewards/acts/regions were largely accurate and left unchanged; real
+videos and missable flags preserved throughout. **Caveat:** walkthroughs lean
+on game knowledge (no wiki access), written conservatively — a human spot-check
+of questline steps is advised before treating them as canon.
+
+**Branches:** `Quest-verification` (FF7R), `Quest-verification-elden-ring`,
+`Quest-verification-bg3`.
+
+**CI note (2026-08-06):** GitHub's hosted Actions runners were badly backlogged
+this session — push-triggered and dispatched runs sat queued and several were
+auto-cancelled after ~15 min without ever getting a runner. PR #46's audit ran
+green; #47/#48 pass `node scripts/audit.js` locally (the identical check) and
+were re-dispatched to confirm once runners recover. Git pushes themselves all
+succeeded; the stuck/cancelled states are runner capacity, not code or push
+failures.
+
+---
+
 ## 1. Snapshot
 
 - **Total quests in library:** **943** (was 253 at the start of this work; 844 → 839 after
