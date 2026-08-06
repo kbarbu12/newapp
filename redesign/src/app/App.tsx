@@ -3,10 +3,11 @@ import {
   Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
-  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check
+  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check,
+  Lock, Award, ArrowLeft
 } from "lucide-react";
-import { GAMES, QUESTS, type Quest } from "../generated/data";
-import { useUserState } from "./userState";
+import { GAMES, QUESTS, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
+import { useUserState, achievementMet } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
@@ -1134,6 +1135,197 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   );
 }
 
+// ─── Game page (F2 achievements · F3 chapters · overview · quests) ────────────
+
+// Progress numbers for one game, reused by the header, overview and chapters.
+function gameProgress(game:string, completedIds:Set<number>){
+  const quests = QUESTS.filter(q=>q.game===game);
+  const done = quests.filter(q=>completedIds.has(q.id)).length;
+  const pct = quests.length ? Math.round((done/quests.length)*100) : 0;
+  const achs = ACHIEVEMENTS[game] ?? [];
+  const earned = achs.filter(a=>achievementMet(a,game,completedIds)).length;
+  return { quests, done, total:quests.length, pct, achs, earned };
+}
+
+// F3 — per-chapter progress with numbered nodes + an overall rollup header.
+function ChaptersPanel({ game, completedIds }:{ game:string; completedIds:Set<number> }){
+  const meta = GAMES[game];
+  const rows = (meta?.chapters ?? []).map(c=>{
+    const done = c.questIds.filter(id=>completedIds.has(id)).length;
+    const pct = c.questIds.length ? Math.round((done/c.questIds.length)*100) : 0;
+    return { ...c, done, total:c.questIds.length, pct };
+  });
+  const totalDone = rows.reduce((s,r)=>s+r.done,0);
+  const totalQ = rows.reduce((s,r)=>s+r.total,0);
+  const overall = totalQ ? Math.round((totalDone/totalQ)*100) : 0;
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="rounded-xl border border-border bg-card p-4">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground">Overall progress</span>
+          <span className="text-sm font-bold" style={{ color:"#e6b45a" }}>{overall}%</span>
+        </div>
+        <div className="h-2 rounded-full overflow-hidden" style={{ background:"#1c1d24" }}>
+          <div className="h-full rounded-full" style={{ width:`${overall}%`, background:"linear-gradient(90deg,#c5933a,#e6b45a)" }}/>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2">
+        {rows.map((r,i)=>{
+          const state = r.pct>=100 ? "done" : r.done>0 ? "active" : "locked";
+          const node = state==="done" ? { background:"#6bbf8a", color:"#0c1710" }
+            : state==="active" ? { background:"#241c0d", color:"#e6b45a" }
+            : { background:"#16171d", color:"#5b5d68", border:"1px solid #262730" };
+          return (
+            <div key={r.id} className="flex items-center gap-3 rounded-xl border border-border bg-card p-3">
+              <div className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style={node}>
+                {state==="done" ? <Check size={15}/> : i+1}
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <span className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{r.name}</span>
+                  <span className="text-[11px] shrink-0 tabular-nums" style={{ color:r.pct>=100?"#6bbf8a":"#8a8a92" }}>{r.done}/{r.total}</span>
+                </div>
+                <div className="h-1.5 rounded-full overflow-hidden" style={{ background:"#1c1d24" }}>
+                  <div className="h-full rounded-full" style={{ width:`${r.pct}%`, background:"linear-gradient(90deg,#c5933a,#e6b45a)" }}/>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// F2 — achievement rows, locked (dim + lock) vs unlocked (gold ring + Earned date).
+function AchievementsPanel({ game, completedIds, achievementsAt }:{ game:string; completedIds:Set<number>; achievementsAt:Record<string,string> }){
+  const list = ACHIEVEMENTS[game] ?? [];
+  return (
+    <div className="flex flex-col gap-2">
+      {list.map(a=>{
+        const unlocked = achievementMet(a,game,completedIds);
+        return (
+          <div key={a.id} className="flex items-center gap-3 rounded-xl border bg-card p-3" style={{ opacity:unlocked?1:0.5, borderColor:unlocked?"#c5933a":"var(--border)" }}>
+            <div className="shrink-0 w-9 h-9 rounded-full flex items-center justify-center" style={unlocked ? { background:"radial-gradient(circle at 30% 30%,#3a2c0f,#171208)", color:"#e6b45a" } : { background:"#16171d", border:"1px solid #262730", color:"#5b5d68" }}>
+              {unlocked ? <Star size={16} fill="#e6b45a"/> : <Lock size={14}/>}
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{a.name}</div>
+              <div className="text-[11px] text-muted-foreground truncate">{a.desc}</div>
+            </div>
+            <div className="shrink-0 text-[10px] font-semibold text-right">
+              {unlocked
+                ? <span style={{ color:"#c5933a" }}>{achievementsAt[a.id]?`Earned ${fmtDate(achievementsAt[a.id])}`:"Earned"}</span>
+                : <span style={{ color:"#5b5d68" }}>Locked</span>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// Overview — stat tiles + a reverse-chron activity timeline (F12) for this game.
+function GameOverview({ game, completedIds, completedAt, achievementsAt }:{ game:string; completedIds:Set<number>; completedAt:Record<number,string>; achievementsAt:Record<string,string> }){
+  const p = gameProgress(game, completedIds);
+  const tiles = [
+    { label:"Complete", value:`${p.pct}%`, color:"#6bbf8a" },
+    { label:"Quests", value:`${p.done}/${p.total}`, color:"#e6b45a" },
+    { label:"Achievements", value:`${p.earned}/${p.achs.length}`, color:"#c5933a" },
+  ];
+  const feed = p.quests
+    .filter(q=>completedAt[q.id])
+    .map(q=>({ id:q.id, title:q.title, at:completedAt[q.id] }))
+    .sort((a,b)=>b.at.localeCompare(a.at))
+    .slice(0,12);
+  return (
+    <div className="flex flex-col gap-5">
+      <div className="grid grid-cols-3 gap-2">
+        {tiles.map(t=>(
+          <div key={t.label} className="rounded-xl border border-border bg-card p-3 text-center">
+            <div className="text-xl font-bold" style={{ fontFamily:"'Spectral',serif", color:t.color }}>{t.value}</div>
+            <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mt-0.5">{t.label}</div>
+          </div>
+        ))}
+      </div>
+      <div>
+        <SectionEyebrow icon={<Clock size={13} className="text-primary"/>}>Recent activity</SectionEyebrow>
+        {feed.length===0
+          ? <p className="text-xs text-muted-foreground mt-3">No completed quests yet — mark one done to start your timeline.</p>
+          : (
+            <ol className="flex flex-col gap-2.5 mt-3 list-none">
+              {feed.map(f=>(
+                <li key={f.id} className="flex items-center gap-2.5">
+                  <span className="shrink-0" style={{ color:"#c5933a" }} aria-hidden>✓</span>
+                  <span className="text-xs text-foreground flex-1 min-w-0 truncate">{f.title}</span>
+                  <span className="text-[11px] shrink-0" style={{ color:"#8a8a92" }}>{fmtDate(f.at)}</span>
+                </li>
+              ))}
+            </ol>
+          )}
+      </div>
+    </div>
+  );
+}
+
+type GameTab = "overview"|"chapters"|"achievements"|"quests";
+function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }:{
+  game:string; onClose:()=>void; savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>;
+  completedAt:Record<number,string>; onComplete:(id:number)=>void; achievementsAt:Record<string,string>;
+  completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+}){
+  const meta = GAMES[game];
+  const p = gameProgress(game, completedIds);
+  const [gtab, setGtab] = useState<GameTab>("overview");
+  const tabs:{id:GameTab;label:React.ReactNode}[] = [
+    { id:"overview", label:"Overview" },
+    { id:"chapters", label:chapterTerm(game,true) },
+    { id:"achievements", label:<>Achievements <span className="text-muted-foreground">{p.earned}/{p.achs.length}</span></> },
+    { id:"quests", label:<>Quests <span className="text-muted-foreground">{p.total}</span></> },
+  ];
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 flex flex-col gap-5">
+      {/* Cover header */}
+      <div className="relative rounded-2xl overflow-hidden border border-border" style={{ minHeight:150 }}>
+        {meta?.cover && <img src={meta.cover} alt="" onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-center opacity-40"/>}
+        <div className="absolute inset-0" style={{ background:"linear-gradient(to top,var(--card) 10%,rgba(11,12,16,.4))" }}/>
+        <div className="relative p-4 sm:p-5 flex flex-col justify-between h-full gap-4" style={{ minHeight:150 }}>
+          <button onClick={onClose} className="self-start inline-flex items-center gap-1.5 text-xs text-foreground/90 bg-black/40 backdrop-blur rounded-lg px-2.5 py-1.5 hover:bg-black/60 transition-colors">
+            <ArrowLeft size={13}/> Library
+          </button>
+          <div>
+            <div className="text-[11px] font-bold uppercase tracking-widest mb-1" style={{ color:meta?.accent ?? "#c5933a" }}>{meta?.abbr}</div>
+            <h1 className="text-2xl sm:text-3xl font-bold text-text-hi" style={{ fontFamily:"'Spectral',serif" }}>{game}</h1>
+            <div className="flex items-center gap-3 mt-2 text-[11px] text-muted-foreground">
+              <span>{p.total} quests</span><span>·</span>
+              <span style={{ color:"#6bbf8a" }}>{p.pct}% complete</span><span>·</span>
+              <span style={{ color:"#c5933a" }}>{p.earned}/{p.achs.length} achievements</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Tab bar */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] border-b border-border">
+        {tabs.map(t=>(
+          <button key={t.id} onClick={()=>setGtab(t.id)} className={`shrink-0 px-3.5 py-2 text-sm font-medium rounded-t-lg border-b-2 -mb-px transition-colors ${gtab===t.id?"border-primary text-primary":"border-transparent text-muted-foreground hover:text-foreground"}`} style={gtab===t.id?{fontFamily:"'Spectral',serif"}:undefined}>
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {gtab==="overview" && <GameOverview game={game} completedIds={completedIds} completedAt={completedAt} achievementsAt={achievementsAt}/>}
+      {gtab==="chapters" && <ChaptersPanel game={game} completedIds={completedIds}/>}
+      {gtab==="achievements" && <AchievementsPanel game={game} completedIds={completedIds} achievementsAt={achievementsAt}/>}
+      {gtab==="quests" && (
+        <div className="flex flex-col gap-2">
+          {p.quests.map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
@@ -1159,9 +1351,11 @@ export default function App() {
   // persisted store — see userState.ts. Derived Sets keep the child components'
   // existing prop shapes unchanged.
   const {
-    savedIds, completedIds, completedAt, completedSteps,
+    savedIds, completedIds, completedAt, completedSteps, achievementsAt,
     toggleSave, toggleComplete, toggleStep, resetProgress,
   } = useUserState();
+  // A selected game opens a full game page (overview/chapters/achievements/quests).
+  const [openGame, setOpenGame] = useState<string|null>(null);
   // Reading setting: spoilers are blurred by default until revealed per-quest.
   const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
     try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
@@ -1240,7 +1434,7 @@ export default function App() {
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
-  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
+  useEffect(()=>{ window.scrollTo(0,0); setOpenGame(null); },[tab]);
 
   // Only promoted tabs are reachable in both prod and staging (staging mirrors
   // prod); a shortcut to an un-promoted tab is a no-op.
@@ -1425,6 +1619,11 @@ export default function App() {
         </div>
       </header>
 
+      {/* ── Game page (overlays the tab content) ── */}
+      {openGame ? (
+        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+      ) : (
+      <>
       {/* ── Compact banner for non-home tabs ── */}
       {tab!=="home" && (
         <div className="border-b border-border bg-secondary/20">
@@ -1437,6 +1636,11 @@ export default function App() {
                  : tab==="settings" ? "Settings"
                  : "Saved Quests"}
               </h1>
+              {tab==="browse" && selectedGame!=="All" && (
+                <button onClick={()=>setOpenGame(selectedGame)} className="mt-1.5 inline-flex items-center gap-1.5 text-[11px] font-semibold text-primary hover:underline">
+                  <Trophy size={12}/> Open game page — chapters &amp; achievements <ArrowRight size={11}/>
+                </button>
+              )}
               <p className="text-xs text-muted-foreground mt-0.5">
                 {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
@@ -1582,6 +1786,8 @@ export default function App() {
             {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
+      )}
+      </>
       )}
 
       {/* ── Footer ── */}

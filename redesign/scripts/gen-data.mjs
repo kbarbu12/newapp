@@ -227,6 +227,34 @@ for (const name of Object.keys(GAMES)) {
   GAMES[name].chapterSource = sourceByGame[name] ?? "split";
 }
 
+// ── Achievements (F2), synthesized per game ─────────────────────────────────
+// The source data has no achievements, so we generate a small, meaningful set
+// per game from the chapters + quest data we already have. Each achievement
+// carries a machine-checkable `kind` the client evaluates against completed
+// quests (see userState.achievementMet); nothing here is hand-authored trivia.
+const ACHIEVEMENTS = {};
+for (const [name, qs] of Object.entries(byGame)) {
+  const sl = slug(name);
+  const list = [];
+  // First completion — a gentle starter.
+  list.push({ id: `${sl}-first`, name: "First Steps", desc: `Complete your first quest in ${name}.`, kind: "count", n: 1 });
+  // Clear each chapter/act/region…
+  for (const c of chaptersByGame[name] ?? [])
+    list.push({ id: `${sl}-clr-${c.id}`, name: `Clear ${c.name}`, desc: `Complete every quest in ${c.name}.`, kind: "chapter", chapterId: c.id });
+  // Finish all main quests.
+  if (qs.some((q) => questType(q) === "main"))
+    list.push({ id: `${sl}-main`, name: "Story Complete", desc: `Complete every main quest in ${name}.`, kind: "type", qtype: "main" });
+  // Conquer all the hard content.
+  if (qs.some((q) => q.difficulty === "High"))
+    list.push({ id: `${sl}-high`, name: "Trial by Fire", desc: `Complete every High-difficulty quest in ${name}.`, kind: "difficulty", difficulty: "High" });
+  // A volume milestone for bigger games.
+  if (qs.length >= 25)
+    list.push({ id: `${sl}-25`, name: "Seasoned Adventurer", desc: `Complete 25 quests in ${name}.`, kind: "count", n: 25 });
+  // 100%.
+  list.push({ id: `${sl}-100`, name: "Completionist", desc: `Complete all ${qs.length} quests in ${name}.`, kind: "complete" });
+  ACHIEVEMENTS[name] = list;
+}
+
 // Keep only the fields the design consumes.
 const QUESTS = quests.map((q) => ({
   id: q.id,
@@ -269,6 +297,11 @@ const body =
   "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
   "export interface Chapter { id: string; name: string; questIds: number[]; }\n\n" +
+  "export interface Achievement {\n" +
+  "  id: string; name: string; desc: string;\n" +
+  "  kind: \"count\" | \"chapter\" | \"type\" | \"difficulty\" | \"complete\";\n" +
+  "  n?: number; chapterId?: string; qtype?: QuestType; difficulty?: \"Low\" | \"Medium\" | \"High\";\n" +
+  "}\n\n" +
   "export interface GameMeta {\n" +
   "  cover: string; abbr: string; accent: string; gradient: string;\n" +
   "  chapters: Chapter[];\n" +
@@ -278,7 +311,8 @@ const body =
   "  chapterSource: string;\n" +
   "}\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
-  `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n`;
+  `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n\n` +
+  `export const ACHIEVEMENTS: Record<string, Achievement[]> = ${JSON.stringify(ACHIEVEMENTS, null, 2)};\n`;
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, body);

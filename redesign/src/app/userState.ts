@@ -10,7 +10,7 @@
 // visitors keep their progress.
 
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { QUESTS, GAMES, type Quest } from "../generated/data";
+import { QUESTS, GAMES, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
 
 const KEY = "rqg:v2";
 const GAME_FINISH_BONUS = 500;
@@ -50,6 +50,50 @@ export function questPoints(q: Pick<Quest, "type" | "difficulty" | "missable">):
 }
 
 const QUEST_BY_ID = new Map(QUESTS.map((q) => [q.id, q]));
+const QUESTS_BY_GAME = QUESTS.reduce<Record<string, Quest[]>>((m, q) => {
+  (m[q.game] ??= []).push(q);
+  return m;
+}, {});
+
+// ── Achievements (F2) ─────────────────────────────────────────────────────────
+/** Is an achievement's criterion satisfied by the given completed-quest set? */
+export function achievementMet(a: Achievement, game: string, completed: Set<number>): boolean {
+  const gq = QUESTS_BY_GAME[game] ?? [];
+  const allOf = (pred: (q: Quest) => boolean) => {
+    const rel = gq.filter(pred);
+    return rel.length > 0 && rel.every((q) => completed.has(q.id));
+  };
+  switch (a.kind) {
+    case "count":
+      return gq.filter((q) => completed.has(q.id)).length >= (a.n ?? 1);
+    case "chapter":
+      return allOf((q) => q.chapterId === a.chapterId);
+    case "type":
+      return allOf((q) => q.type === a.qtype);
+    case "difficulty":
+      return allOf((q) => q.difficulty === a.difficulty);
+    case "complete":
+      return gq.length > 0 && gq.every((q) => completed.has(q.id));
+    default:
+      return false;
+  }
+}
+
+/** Reconcile the stored unlockedAt map against a completed set (all games). */
+function reconcileAchievements(
+  completed: Set<number>,
+  prev: Record<string, string>,
+  stamp: string
+): Record<string, string> {
+  const next = { ...prev };
+  for (const [game, list] of Object.entries(ACHIEVEMENTS))
+    for (const a of list) {
+      const met = achievementMet(a, game, completed);
+      if (met && !next[a.id]) next[a.id] = stamp;
+      else if (!met && next[a.id]) delete next[a.id];
+    }
+  return next;
+}
 
 /** Total points: completed quests' points + a bonus per finished game. */
 export function totalPoints(s: UserState): number {
@@ -128,6 +172,21 @@ export function useUserState() {
   const [state, setState] = useState<UserState>(loadState);
   useEffect(() => saveState(state), [state]);
 
+  // On first mount, backfill achievement timestamps for quests that were
+  // already completed (e.g. migrated pre-v2 progress) so the panel is accurate
+  // immediately. Uses "now" since the real earn dates weren't recorded.
+  useEffect(() => {
+    setState((s) => {
+      const done = new Set(Object.keys(s.completed).map(Number));
+      const achievements = reconcileAchievements(done, s.achievements, new Date().toISOString());
+      return Object.keys(achievements).length === Object.keys(s.achievements).length &&
+        Object.keys(achievements).every((k) => s.achievements[k])
+        ? s
+        : { ...s, achievements };
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const toggleSave = useCallback(
     (id: number) =>
       setState((s) => ({
@@ -141,9 +200,22 @@ export function useUserState() {
     (id: number) =>
       setState((s) => {
         const completed = { ...s.completed };
+        const now = new Date().toISOString();
         if (completed[id]) delete completed[id];
-        else completed[id] = new Date().toISOString();
-        return { ...s, completed };
+        else completed[id] = now;
+        // Re-check achievements for the affected game only.
+        const game = QUEST_BY_ID.get(id)?.game;
+        let achievements = s.achievements;
+        if (game) {
+          const done = new Set(Object.keys(completed).map(Number));
+          achievements = { ...s.achievements };
+          for (const a of ACHIEVEMENTS[game] ?? []) {
+            const met = achievementMet(a, game, done);
+            if (met && !achievements[a.id]) achievements[a.id] = now;
+            else if (!met && achievements[a.id]) delete achievements[a.id];
+          }
+        }
+        return { ...s, completed, achievements };
       }),
     []
   );
@@ -208,6 +280,8 @@ export function useUserState() {
     completedAt: state.completed,
     completedSteps: state.steps,
     savedGames: state.savedGames,
+    achievementsAt: state.achievements,
+    games: state.games,
     points,
     streak,
     toggleSave,
