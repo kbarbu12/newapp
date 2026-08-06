@@ -9,7 +9,7 @@ import { GAMES, QUESTS, type Quest } from "../generated/data";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
-import { answerQuestion } from "./chatEngine";
+import { answerQuestion, type ChatContext } from "./chatEngine";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
@@ -957,8 +957,12 @@ function ChatWidget() {
   const [input,setInput]=useState("");
   const [msgs,setMsgs]=useState<ChatMsg[]>([{role:"assistant",content:"Greetings, adventurer. Ask me anything about quests, strategies, or walkthroughs."}]);
   const bottomRef=useRef<HTMLDivElement>(null);
+  // Conversational context (last quest/game) so follow-ups like "what's its
+  // reward?" resolve against what was just discussed. Held in a ref — it drives
+  // the next reply, not rendering, so it shouldn't trigger a re-render.
+  const ctxRef=useRef<ChatContext>({});
   useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
-  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
+  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q,ctxRef.current); ctxRef.current=reply.context; setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   // A quest detail opens as a full-screen sheet on mobile; Radix scroll-locks
   // the body while any modal is open. Hide the floating button on mobile then
   // so it doesn't sit over the detail's sticky action bar.
