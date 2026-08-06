@@ -143,6 +143,19 @@ function listLine(q: Quest): string {
   return `• ${q.title} — ${q.game} (${q.difficulty}, ${q.length})`;
 }
 
+// The next quest to play after `q`. Prefers the next entry in the same story
+// arc (arcs are authored in play order); otherwise the next main-story quest in
+// the same game. Returns undefined when there's nothing sensible to point at.
+function nextQuest(q: Quest): Quest | undefined {
+  if (q.arc) {
+    const arc = QUESTS.filter(x => x.game === q.game && x.arc === q.arc).sort((a, b) => a.id - b.id);
+    const i = arc.findIndex(x => x.id === q.id);
+    if (i >= 0 && i < arc.length - 1) return arc[i + 1];
+  }
+  const mains = QUESTS.filter(x => x.game === q.game && x.type === "main").sort((a, b) => a.id - b.id);
+  return mains.find(x => x.id > q.id);
+}
+
 // Difficulty / length distribution for a game — answers "how hard/long is X?".
 function distribution(game: string): string {
   const pool = QUESTS.filter(x => x.game === game);
@@ -210,6 +223,15 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   // follow-up about the last one.
   const residual = toks.filter(t => !ATTR_WORDS.has(t));
   const residualStrong = residual.length > 0 && Math.max(0, ...QUESTS.map(x => scoreQuest(x, residual))) >= 6;
+
+  // "What's next / after this?" — walk to the next quest in the arc or story.
+  if (ctx.lastQuest && games.length === 0 && !residualStrong &&
+      /\b(next|after (this|that|it)|then what|what now|continue|carry on)\b/.test(lc)) {
+    const nx = nextQuest(ctx.lastQuest);
+    if (nx) return { content: `After ${ctx.lastQuest.title}, next up is:\n\n${detail(nx)}`, quest: nx, context: { lastQuest: nx, lastGame: nx.game } };
+    return { content: `${ctx.lastQuest.title} looks like the end of that line — I don't have a next quest after it.`, quest: ctx.lastQuest, context: ctx };
+  }
+
   if (ctx.lastQuest && games.length === 0 && !globalList && !residualStrong && (continuation || pronoun || bareAttr)) {
     const attr = attributeAnswer(lc, ctx.lastQuest);
     return { content: attr ?? detail(ctx.lastQuest), quest: ctx.lastQuest, context: ctx };
@@ -256,6 +278,24 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
     const g = game ?? (genericGame ? ctx.lastGame : undefined);
     if (g) return { content: distribution(g), context: { lastGame: g } };
     return { content: `Which game? I can break down difficulty and length for any of the ${Object.keys(GAMES).length} — just name one.`, context: ctx };
+  }
+
+  // ── Progression intent — "what should I do first / where do I start?" ───────
+  // The main story is the honest through-line (per-quest data has no global play
+  // order), so point there. Needs a game in context; skips if a specific quest
+  // is clearly the target.
+  const startGame = game ?? ctx.lastGame;
+  const wantsStart = /\b(start|begin|do first|getting started|new to|just started|where do i (go|start|begin))\b/.test(lc)
+    || /\bwhat (should i|do i|to) (do|play).*\bfirst\b/.test(lc);
+  // Named a game → progression wins; only defer when there's no game and a
+  // specific quest is clearly the target.
+  if (wantsStart && startGame && !(!game && top && top.s >= 6)) {
+    const mains = QUESTS.filter(x => x.game === startGame && x.type === "main").sort((a, b) => a.id - b.id).slice(0, 5);
+    const spine = mains.length ? mains : QUESTS.filter(x => x.game === startGame).sort((a, b) => a.id - b.id).slice(0, 5);
+    if (spine.length) {
+      return { content: `The main story is your through-line in ${startGame} — follow it and take side quests as you go. Early on:\n\n${spine.map(listLine).join("\n")}\n\nAsk about any one by name, or say "what's next" after a quest to keep going.`,
+        context: { lastQuest: spine[0], lastGame: startGame } };
+    }
   }
 
   const diff = /\b(hard|hardest|difficult|toughest|high)\b/.test(lc) ? "High"
