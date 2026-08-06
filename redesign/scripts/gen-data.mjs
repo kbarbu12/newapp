@@ -44,6 +44,7 @@ for (const [name, gi] of Object.entries(gameImages)) {
     abbr: gi.abbr,
     accent: lastHex(gi.gradient),
     gradient: gi.gradient,
+    chapters: [], // filled in after chapter derivation below
   };
 }
 
@@ -53,16 +54,87 @@ for (const [name, gi] of Object.entries(gameImages)) {
 // and "With Video" stat match prod.
 const hasRealVideo = (v) => !!v && !v.includes("/results");
 
+// ── Quest type (3-value) ───────────────────────────────────────────────────
+// The live data only carries main|side. "Optional" is derived: a side quest
+// whose category names a clearly optional, non-story activity (collectibles,
+// contracts, world events, diversions…). Everything else stays main/side.
+const OPTIONAL_CAT =
+  /optional|activit|collectib|world event|contract|favor|bounty|treasure|point of interest|mystic|diversion|race|championship|hunt|puzzle|shrine/i;
+const questType = (q) =>
+  q.type === "main" ? "main" : q.category && OPTIONAL_CAT.test(q.category) ? "optional" : "side";
+
+// ── Point system (F7) ───────────────────────────────────────────────────────
+const BASE = { main: 100, side: 50, optional: 25 };
+const MULT = { Low: 1, Medium: 1.5, High: 2 };
+const questPoints = (type, difficulty, missable) => {
+  let p = BASE[type] * (MULT[difficulty] ?? 1);
+  if (missable) p += 25; // don't-miss-a-missable bonus
+  return Math.round(p / 5) * 5;
+};
+
+// ── Chapters (F1 tag + F3 rollup) ───────────────────────────────────────────
+// Chapters group a game's quests into something meaningful to a player. We use
+// the game's OWN data — narrative arc, region, or category — never invented
+// labels, picking whichever real field yields a sensible number of chapters
+// (2–14). The two games that carry none of those fields (Black Myth: Wukong,
+// Zelda: TotK) are the only ones split into evenly sized "Part N" groups so
+// their long lists still get a usable progress breakdown.
+const CH_MIN = 2, CH_MAX = 14;
+const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+const byGame = {};
+for (const q of quests) (byGame[q.game] ??= []).push(q);
+const chaptersByGame = {};
+const chapterIdByQuest = {};
+// Group a game's quests by one of its fields, quests missing the field last.
+const groupByField = (qs, field) => {
+  const keys = [...new Set(qs.map((q) => q[field]).filter(Boolean))];
+  const groups = keys.map((k) => ({ name: k, ids: qs.filter((q) => q[field] === k).map((q) => q.id) }));
+  const rest = qs.filter((q) => !q[field]).map((q) => q.id);
+  if (rest.length) groups.push({ name: "Other Quests", ids: rest });
+  return groups;
+};
+for (const [name, qs] of Object.entries(byGame)) {
+  // Prefer arc (narrative), then region (place), then category (quest kind);
+  // take the first whose distinct-count reads as chapters, not noise.
+  const inRange = (f) => {
+    const n = new Set(qs.map((q) => q[f]).filter(Boolean)).size;
+    return n >= CH_MIN && n <= CH_MAX;
+  };
+  const field = ["arc", "region", "category"].find(inRange);
+  let groups;
+  if (field) {
+    groups = groupByField(qs, field);
+  } else {
+    // No usable grouping data — split into evenly sized parts (cap 10).
+    const n = qs.length;
+    const parts = Math.min(10, Math.max(n >= 10 ? 2 : 1, Math.round(n / 20)));
+    const per = Math.ceil(n / parts);
+    groups = [];
+    for (let i = 0; i < n; i += per)
+      groups.push({ name: `Part ${groups.length + 1}`, ids: qs.slice(i, i + per).map((q) => q.id) });
+  }
+  const sl = slug(name);
+  const chapters = groups
+    .filter((g) => g.ids.length)
+    .map((g, i) => ({ id: `${sl}-c${i + 1}`, name: g.name, questIds: g.ids }));
+  chaptersByGame[name] = chapters;
+  chapters.forEach((c) => c.questIds.forEach((id) => (chapterIdByQuest[id] = c.id)));
+}
+// Attach each game's chapters to its GAMES entry (names match the quest data).
+for (const name of Object.keys(GAMES)) GAMES[name].chapters = chaptersByGame[name] ?? [];
+
 // Keep only the fields the design consumes.
 const QUESTS = quests.map((q) => ({
   id: q.id,
-  type: q.type === "main" ? "main" : "side",
+  type: questType(q),
   game: q.game,
   title: q.title,
   ...(q.category ? { category: q.category } : {}),
   ...(q.arc ? { arc: q.arc } : {}),
+  ...(chapterIdByQuest[q.id] ? { chapterId: chapterIdByQuest[q.id] } : {}),
   length: q.length,
   difficulty: q.difficulty,
+  points: questPoints(questType(q), q.difficulty, !!q.missable),
   summary: q.summary,
   ...(q.location ? { location: q.location } : {}),
   ...(q.region ? { region: q.region } : {}),
@@ -84,14 +156,16 @@ const banner =
 
 const body =
   banner +
-  "\nexport interface Quest {\n" +
-  "  id: number; type: \"side\" | \"main\"; game: string; title: string; category?: string; arc?: string;\n" +
-  "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\";\n" +
+  "\nexport type QuestType = \"main\" | \"side\" | \"optional\";\n\n" +
+  "export interface Quest {\n" +
+  "  id: number; type: QuestType; game: string; title: string; category?: string; arc?: string; chapterId?: string;\n" +
+  "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\"; points: number;\n" +
   "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
   "  video?: string; reward?: string; walkthrough?: string[];\n" +
   "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
-  "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; }\n\n" +
+  "export interface Chapter { id: string; name: string; questIds: number[]; }\n\n" +
+  "export interface GameMeta { cover: string; abbr: string; accent: string; gradient: string; chapters: Chapter[]; }\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
   `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n`;
 

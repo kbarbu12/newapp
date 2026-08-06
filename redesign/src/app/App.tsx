@@ -6,6 +6,7 @@ import {
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check
 } from "lucide-react";
 import { GAMES, QUESTS, type Quest } from "../generated/data";
+import { useUserState } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
@@ -78,6 +79,36 @@ function DiffChip({ level }: { level:"Low"|"Medium"|"High" }) {
   const d = CARD_DIFF[level];
   return <MetaChip bg={d.bg} color={d.color}>{d.icon} {level}</MetaChip>;
 }
+// ── F1 · Quest-type badge (Main gold / Side teal / Optional slate outline) ────
+const TYPE_BADGE = {
+  main:     { bg:"#241c0d", fg:"#e6b45a", glyph:"◆", label:"Main",     outline:false },
+  side:     { bg:"#0f2422", fg:"#6cc7c3", glyph:"❖", label:"Side",     outline:false },
+  optional: { bg:"transparent", fg:"#b7b6bf", glyph:"○", label:"Optional", outline:true },
+} as const;
+function QuestTypeBadge({ type }: { type:Quest["type"] }) {
+  const t = TYPE_BADGE[type];
+  return (
+    <span className="inline-flex items-center gap-1 text-[11px] leading-none px-2 py-[3px] rounded-md font-semibold whitespace-nowrap"
+      style={{ background:t.bg, color:t.fg, border:t.outline?"1px solid #2a2b33":"none" }}>
+      <span aria-hidden>{t.glyph}</span> {t.label}
+    </span>
+  );
+}
+// Resolve the chapter a quest belongs to (F3 model) for the F1 act/chapter tag.
+function chapterOf(quest:Quest){ return quest.chapterId ? GAMES[quest.game]?.chapters.find(c=>c.id===quest.chapterId) : undefined; }
+// Outline act/chapter tag: `⌖ {chapter}`.
+function ActTag({ quest }: { quest:Quest }) {
+  const ch = chapterOf(quest);
+  if(!ch) return null;
+  return (
+    <span className="inline-flex items-center gap-1 text-[11px] leading-none px-2 py-[3px] rounded-md whitespace-nowrap" style={{ border:"1px solid #262730", color:"#8a8a92" }}>
+      <span aria-hidden>⌖</span> {ch.name}
+    </span>
+  );
+}
+// F12 — human date for completion/activity timestamps.
+function fmtDate(iso?:string){ return iso ? new Date(iso).toLocaleDateString(undefined,{ month:"short", day:"numeric", year:"numeric" }) : ""; }
+
 function SectionEyebrow({ children, icon }: { children:React.ReactNode; icon?:React.ReactNode }) {
   return (
     <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-muted-foreground">
@@ -168,7 +199,7 @@ function YouTubeEmbed({ url, autoplay }: { url:string; autoplay:boolean }) {
 
 // ─── QuestDetail ──────────────────────────────────────────────────────────────
 
-function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedAt, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedAt?:string; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
@@ -238,16 +269,23 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</DialogTitle>
           </DialogHeader>
 
-          {/* Status / difficulty / video badges */}
+          {/* Status / type / difficulty / video badges */}
           <div className="flex items-center gap-1.5 flex-wrap mt-2">
             <span className="text-[11px] font-bold leading-none px-2 py-[3px] rounded-md" style={{ color:status.color, background:status.color+"1a" }}>{status.label}</span>
+            <QuestTypeBadge type={quest.type}/>
+            <ActTag quest={quest}/>
             <DiffChip level={quest.difficulty}/>
             {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           </div>
+          {completed && completedAt && (
+            <div className="mt-2 text-[11px]" style={{ color:"#8a8a92" }}>
+              <span aria-hidden style={{ color:"#c5933a" }}>✓</span> Completed {fmtDate(completedAt)}
+            </div>
+          )}
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
-            <MetaStat label="Quest Type">{quest.type==="main"?"Main Quest":"Side Quest"}</MetaStat>
+            <MetaStat label="Quest Type"><QuestTypeBadge type={quest.type}/></MetaStat>
             <MetaStat label="Difficulty"><DifficultyChip level={quest.difficulty}/></MetaStat>
             <MetaStat label="Duration"><span className="capitalize">{quest.length}</span></MetaStat>
             {quest.location && <MetaStat label="Location">{quest.location}</MetaStat>}
@@ -327,7 +365,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, completedAt, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; completedAt?:string; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -360,7 +398,8 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
         <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
         <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
-          <span className="hidden sm:inline-flex"><MetaChip>{quest.type==="main"?"Main":"Side"}</MetaChip></span>
+          <span className="hidden sm:inline-flex"><QuestTypeBadge type={quest.type}/></span>
+          <span className="hidden sm:inline-flex"><ActTag quest={quest}/></span>
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           <span className="hidden sm:inline-flex">
@@ -368,6 +407,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
               ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
               : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
           </span>
+          {completed && completedAt && <span className="text-[11px]" style={{ color:"#8a8a92" }}>Completed {fmtDate(completedAt)}</span>}
         </div>
       </div>
 
@@ -394,7 +434,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
         className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
         onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
       >
-        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedAt={completedAt} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
       </DialogContent>
     </Dialog>
     </>
@@ -727,7 +767,7 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean }) {
+function SavedTab({ savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; completedAt:Record<number,string>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean }) {
   const saved = QUESTS.filter(q=>savedIds.has(q.id));
   if (!saved.length) return (
     <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
@@ -756,7 +796,7 @@ function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary, c
               <div className="h-px bg-[var(--hairline)] mt-2"/>
             </div>
             <div className="flex flex-col gap-2">
-              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
             </div>
           </div>
         ))}
@@ -1051,9 +1091,9 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
 
 // ─── Quest grid with auto-load sentinel ──────────────────────────────────────
 
-function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, completedAt, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
   filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
-  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; toggleComplete: (id:number)=>void; selectedGame: string;
+  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; completedAt: Record<number,string>; toggleComplete: (id:number)=>void; selectedGame: string;
   completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean; autoplayVideo: boolean;
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -1067,7 +1107,7 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   return (
     <>
       <div className="flex flex-col gap-3">
-        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
       </div>
       {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
     </>
@@ -1093,18 +1133,13 @@ export default function App() {
   const [regionFilter,setRegionFilter]= useState<string>(()=>urlParams.get("region") ?? "All");
   const [sort,        setSort]        = useState<SortOption>("default");
   const [search,      setSearch]      = useState(()=>urlParams.get("q") ?? "");
-  const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
-    try { return new Set(JSON.parse(localStorage.getItem("savedQuests") ?? "[]")); }
-    catch { return new Set(); }
-  });
-  const [completedIds,setCompletedIds]= useState<Set<number>>(()=>{
-    try { return new Set(JSON.parse(localStorage.getItem("completedQuests") ?? "[]")); }
-    catch { return new Set(); }
-  });
-  const [completedSteps,setCompletedSteps]= useState<Record<number,number[]>>(()=>{
-    try { return JSON.parse(localStorage.getItem("completedSteps") ?? "{}"); }
-    catch { return {}; }
-  });
+  // All progress (saved/completed/steps/games/points/streak) lives in one
+  // persisted store — see userState.ts. Derived Sets keep the child components'
+  // existing prop shapes unchanged.
+  const {
+    savedIds, completedIds, completedAt, completedSteps,
+    toggleSave, toggleComplete, toggleStep, resetProgress,
+  } = useUserState();
   // Reading setting: spoilers are blurred by default until revealed per-quest.
   const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
     try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
@@ -1118,9 +1153,6 @@ export default function App() {
   // Appearance setting: dark by default; light applies the `light` palette class.
   const [theme,setTheme]= useState<"dark"|"light">(()=>(localStorage.getItem("theme") as "dark"|"light") ?? "dark");
 
-  useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
-  useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
-  useEffect(()=>{ localStorage.setItem("completedSteps", JSON.stringify(completedSteps)); },[completedSteps]);
   useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
   useEffect(()=>{ localStorage.setItem("autoplayVideo", JSON.stringify(autoplayVideo)); },[autoplayVideo]);
   useEffect(()=>{ localStorage.setItem("defaultDifficulty", defaultDifficulty); },[defaultDifficulty]);
@@ -1145,15 +1177,6 @@ export default function App() {
     const qs = params.toString();
     window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
   },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
-
-  const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
-  const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
-  const toggleStep=(questId:number,stepIdx:number)=>setCompletedSteps(prev=>{
-    const cur = prev[questId] ?? [];
-    const next = cur.includes(stepIdx) ? cur.filter(i=>i!==stepIdx) : [...cur, stepIdx];
-    return { ...prev, [questId]: next };
-  });
-  const resetAllProgress=()=>{ setCompletedIds(new Set()); setCompletedSteps({}); };
 
   // Custom PWA install prompt: capture the browser's default prompt so it can
   // be triggered from a Settings button instead (the default one is easy to
@@ -1496,14 +1519,14 @@ export default function App() {
                 )}
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match — reset filters.</p><button onClick={resetFilters} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} completedAt={completedAt} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
       )}
