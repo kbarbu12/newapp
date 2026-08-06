@@ -286,6 +286,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
             <MetaStat label="Quest Type"><QuestTypeBadge type={quest.type}/></MetaStat>
+            {chapterOf(quest) && <MetaStat label="Chapter">{chapterOf(quest)!.name}</MetaStat>}
             <MetaStat label="Difficulty"><DifficultyChip level={quest.difficulty}/></MetaStat>
             <MetaStat label="Duration"><span className="capitalize">{quest.length}</span></MetaStat>
             {quest.location && <MetaStat label="Location">{quest.location}</MetaStat>}
