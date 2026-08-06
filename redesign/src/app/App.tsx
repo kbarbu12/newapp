@@ -128,6 +128,42 @@ function ActTag({ quest }: { quest:Quest }) {
 // F12 — human date for completion/activity timestamps.
 function fmtDate(iso?:string){ return iso ? new Date(iso).toLocaleDateString(undefined,{ month:"short", day:"numeric", year:"numeric" }) : ""; }
 
+// F7 — count-up animation for a changing number (the points total on gain).
+function useCountUp(value:number, ms=650){
+  const [display,setDisplay]=useState(value);
+  const prev=useRef(value);
+  useEffect(()=>{
+    const from=prev.current, to=value; prev.current=value;
+    if(from===to){ setDisplay(to); return; }
+    let raf=0; const start=performance.now();
+    const tick=(now:number)=>{ const t=Math.min(1,(now-start)/ms); setDisplay(Math.round(from+(to-from)*(1-Math.pow(1-t,3)))); if(t<1) raf=requestAnimationFrame(tick); };
+    raf=requestAnimationFrame(tick);
+    return ()=>cancelAnimationFrame(raf);
+  },[value,ms]);
+  return display;
+}
+
+// F7 — gamification stats strip: points (count-up) / quests / streak / achievements.
+function StatsStrip({ points, questsDone, streak, achievements }:{ points:number; questsDone:number; streak:number; achievements:string }){
+  const pts = useCountUp(points);
+  const tiles = [
+    { label:"Points",       value:pts.toLocaleString(), color:"#e6b45a" },
+    { label:"Quests done",  value:String(questsDone),   color:"#6bbf8a" },
+    { label:"Day streak",   value:streak>0?`🔥 ${streak}`:"0", color:streak>0?"#e08774":"#5b5d68" },
+    { label:"Achievements", value:achievements,          color:"#c5933a" },
+  ];
+  return (
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+      {tiles.map(t=>(
+        <div key={t.label} className="rounded-xl border border-border bg-card px-4 py-3">
+          <div className="text-2xl font-bold tabular-nums" style={{ fontFamily:"'Spectral',serif", color:t.color }}>{t.value}</div>
+          <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mt-0.5">{t.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function SectionEyebrow({ children, icon }: { children:React.ReactNode; icon?:React.ReactNode }) {
   return (
     <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-muted-foreground">
@@ -427,6 +463,7 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
               ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
               : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
           </span>
+          <span className="inline-flex items-center text-[11px] leading-none px-2 py-[3px] rounded-md font-bold" style={{ background:"#241c0d", color:"#e6b45a" }}>+{quest.points}</span>
           {completed && completedAt && <span className="text-[11px]" style={{ color:"#8a8a92" }}>Completed {fmtDate(completedAt)}</span>}
         </div>
       </div>
@@ -512,7 +549,7 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
 
 // ─── Home Tab ─────────────────────────────────────────────────────────────────
 
-function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void }) {
+function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achievementsLabel }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void; points:number; questsDone:number; streak:number; achievementsLabel:string }) {
   const questOfWeek = QUESTS.find(q=>q.id===11)!; // The Bloody Baron
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
@@ -586,6 +623,12 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
       </section>
 
       <div className="max-w-7xl mx-auto px-6 w-full flex flex-col gap-12 py-10">
+
+        {/* ── Your progress (F7) ── */}
+        <section>
+          <div className="mb-4"><SectionEyebrow icon={<Trophy size={14} className="text-primary"/>}>Your progress</SectionEyebrow></div>
+          <StatsStrip points={points} questsDone={questsDone} streak={streak} achievements={achievementsLabel}/>
+        </section>
 
         {/* ── Quest of the Week ── */}
         <section>
@@ -1005,7 +1048,7 @@ function LibraryView(props:{
 
 // ─── Progress Tab ─────────────────────────────────────────────────────────────
 
-function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void }) {
+function ProgressTab({ completedIds, onGoTo, points, streak, achievementsLabel }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void; points:number; streak:number; achievementsLabel:string }) {
   const rows = useMemo(()=>Object.keys(GAMES).map(game=>{
     const quests = QUESTS.filter(q=>q.game===game);
     const done = quests.filter(q=>completedIds.has(q.id)).length;
@@ -1016,6 +1059,7 @@ function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoT
 
   return (
     <div className="flex flex-col gap-6">
+      <StatsStrip points={points} questsDone={totalDone} streak={streak} achievements={achievementsLabel}/>
       <div className="flex items-center justify-between">
         <span className="text-sm text-muted-foreground">{totalDone} of {QUESTS.length} quests completed</span>
       </div>
@@ -1548,10 +1592,13 @@ export default function App() {
   // existing prop shapes unchanged.
   const {
     savedIds, completedIds, completedAt, completedSteps, achievementsAt,
-    savedGames, games, wishlist, wishlistDates,
+    savedGames, games, wishlist, wishlistDates, points, streak,
     toggleSave, toggleComplete, toggleStep, resetProgress,
     toggleSavedGame, setGameFinished, toggleWishlist, moveWishlist, setWishlistDate,
   } = useUserState();
+  // F7 — achievement totals for the stats strip.
+  const totalAchievements = useMemo(()=>Object.values(ACHIEVEMENTS).reduce((s,l)=>s+l.length,0),[]);
+  const achievementsLabel = `${Object.keys(achievementsAt).length}/${totalAchievements}`;
   // A selected game opens a full game page (overview/chapters/achievements/quests).
   const [openGame, setOpenGame] = useState<string|null>(null);
   // Reading setting: spoilers are blurred by default until revealed per-quest.
@@ -1871,7 +1918,7 @@ export default function App() {
       )}
 
       {/* ── Home tab (full page, no extra padding wrapper) ── */}
-      {tab==="home" && <HomeTab onGoTo={goTo} savedIds={savedIds} onSave={toggleSave}/>}
+      {tab==="home" && <HomeTab onGoTo={goTo} savedIds={savedIds} onSave={toggleSave} points={points} questsDone={completedIds.size} streak={streak} achievementsLabel={achievementsLabel}/>}
 
       {/* ── Other tabs ── */}
       {tab!=="home" && (
@@ -1980,7 +2027,7 @@ export default function App() {
             )}
             {tab==="news"  && <NewsTab/>}
             {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
-            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
+            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo} points={points} streak={streak} achievementsLabel={achievementsLabel}/>}
             {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>

@@ -99,7 +99,11 @@ Re-running the workflow went green.
       ✓ FINISHED ribbon + play span; Wishlist (F10) is a reorderable Plan-to-Play list with
       optional target dates. Save-game / Mark-finished / Plan-to-play controls live on the game
       page header — this also lands F6's finished capture early.)*
-- [ ] **Phase 4** — F6 mark game finished; F7 gamification stats strip (points/streak/etc.).
+- [x] **Phase 4** — F6 mark game finished (landed with Phase 3 on the game-page header) + F7
+      gamification. *(done — StatsStrip (Points with count-up on gain / Quests done / Day streak
+      with 🔥 when active / Achievements earned) on the Home and Progress tabs; a gold `+N pts`
+      chip on every quest card. Totals come from userState's totalPoints/currentStreak and the
+      achievement map.)*
 - [ ] **Phase 5** — F8 chatbot polish (FAB + deep-link to quest); F11 first-visit PWA welcome.
 
 ---
