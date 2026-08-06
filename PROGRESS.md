@@ -1,74 +1,92 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-07-03
-**Branch:** `claude/quest-audit-222ne7`
+**Last updated:** 2026-08-06
+**Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
+**Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
 
 ## 0. Redesign — "design-based-on-user-feedback" (2026-08-06)
 
-### Phase 1b — native per-game chapter terms + chapter filter (done, 2026-08-06)
-
-Each game now labels its quest divisions with **its own term**, not a generic
-"Chapter": God of War → **Realms**, Cyberpunk → **Districts**, Star Wars Jedi →
-**Planets**, Demon's Souls → **Archstones**, AC Valhalla → **Arcs**, Black Myth →
-**Chapters**, Deadfire → **Acts**, Elden Ring/Witcher/etc. → **Regions**,
-category-grouped games (BG3, Skyrim, Sekiro, P5R, Odyssey) → **Questlines**.
-
-- `GameMeta` carries `chapterTerm` / `chapterTermPlural` (`gen-data.mjs`); the
-  numbered fallback is named with the game's term (e.g. "Chapter 1", "Act 1").
-- **Filters:** a chapter filter is available in the Library filter panel, titled
-  with the game's plural term (REALMS / DISTRICTS / PLANETS…), shown when the
-  selected game has 2+ chapters. Wired into the URL (`?chapter=`), the removable
-  filter chips ("Realm: Vanaheim"), the active-filter count, reset, and the
-  clear-on-game-change behaviour.
-- **Sort:** added `Sort: Type` (F4 Main→Side→Optional) and `Sort: By {term}`
-  which follows each game's own chapter order.
-- Quest detail's chapter stat is labeled with the term (e.g. "REALM").
-
-**Every game now has real divisions — no invented "Part N" anywhere.** Chapters
-come from the live data's own `subFilterConfig` (field + native label + ordered
-options), so Black Myth gets its six Chapters, BG3 its three Acts, Demon's Souls
-its Archstones. Games whose config axis was missing or only a generic "Category"
-derive divisions from each quest's real `location` text:
-
-| Game | Divisions |
-|------|-----------|
-| Sekiro | 9 **Areas** (Ashina Outskirts, Hirata Estate, Fountainhead Palace…) |
-| Pillars II: Deadfire | 11 **Regions** (Neketaka, Ukaizo, Magran's Teeth…) |
-| Zelda: TotK | 12 **Regions** (Great Sky Island, The Depths, Hebra & Tabantha…) |
-| AC Valhalla | 22 **Arcs** (Ledecestrescire, East Anglia, Asgard, Vinland…) |
-| AC Odyssey | 30 **Regions** (Kephallonia, Attika, Argolis…) |
-
-The chapter cap was raised to 32 so Valhalla's and Odyssey's real (22/30) axes
-are used rather than rejected as "too many".
-
-
 Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
-Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; Phase 1 pushed to
-`staging` on 2026-08-06.
+Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; everything below is
+merged to `staging` and deployed to https://kbarbu12.github.io/newapp/staging/.
 
 **Revert safety:** `REVERT.md` documents a git-only revert to the pre-redesign design, pinned
 to commit `21aee03` (also `origin/main`).
 
-### Phase 1 — data model + F1 + F12 (done, on staging)
+### Phase 1 — data model, user state, F1, F12 (done, on staging)
 
 - **Data model** (`redesign/scripts/gen-data.mjs`):
   - Quest `type` widened to `main | side | optional` (optional derived from category).
-  - Per-quest `points` computed (F7 formula: base×difficulty + missable bonus, rounded to 5).
-  - Per-game `chapters` derived from each game's **own** data (arc → region → category,
-    2–14 groups); only Wukong, Zelda: TotK, Pillars II (no grouping field) fall back to
-    even "Part N" splits. Every quest gets a `chapterId`.
-- **Unified user state** (`redesign/src/app/userState.ts`): single `rqg:v2` localStorage blob
-  + `useUserState()` hook with legacy migration; `questPoints`/`totalPoints`/`currentStreak`.
-- **F1 — quest type labels:** `QuestTypeBadge` (gold Main / teal Side / slate Optional) +
-  `⌖ {chapter}` act tag on every quest surface (cards, detail, Quest of the Week); visible on
-  desktop **and** mobile; labeled `Chapter` stat added to the detail popup.
-- **F12 — completion timestamps:** completions record ISO dates; "Completed {date}" shown on
-  cards and detail.
-- **QA:** `npm run build:staging` passes; headless Chromium verified badges/act tags/timestamps
-  render with zero JS page errors.
+  - Per-quest `points` computed (F7 formula: base × difficulty + missable bonus, round to 5).
+  - Per-game `chapters` + a `chapterId` on every quest (see Phase 1b for how they're derived).
+- **Unified user state** (`redesign/src/app/userState.ts`): one `rqg:v2` localStorage blob +
+  `useUserState()` hook, migrating the pre-v2 `savedQuests`/`completedQuests`/`completedSteps`
+  keys so existing visitors keep their progress. Exposes `questPoints` / `totalPoints` /
+  `currentStreak` (wired into UI in later phases).
+- **F1 — quest type labels:** `QuestTypeBadge` (gold `◆ Main` / teal `❖ Side` / slate
+  `○ Optional`) on every quest surface — Library cards, Saved, quest detail, and Home's Quest
+  of the Week (which had a hardcoded "Side" pill). Renders on desktop **and** mobile.
+- **F12 — completion timestamps:** completions record an ISO date; "Completed {date}" shows on
+  cards and in the detail.
+
+### Phase 1b — real chapters, native per-game terms, chapter filter (done, on staging)
+
+**Every game has real divisions — no invented "Part N" and no "Other Quests" leftovers.**
+Chapters come from the live data's own `subFilterConfig` (field + native label + ordered
+options), which already encodes the axis each game's players think in and what it's called.
+That fixed Black Myth (it has a real `chapter` field the old heuristic never looked at) and
+upgraded BG3 from generic categories to its actual Acts.
+
+Games whose config axis was missing or only a generic "Category" derive divisions from each
+quest's real `location` text. The chapter cap was raised to 32 so games with genuinely many
+divisions use their real axis instead of being rejected as "too many".
+
+| Game | Divisions |
+|------|-----------|
+| Black Myth: Wukong | 6 **Chapters** (Black Wind Mountain … Mount Huaguo) |
+| Baldur's Gate 3 | 3 **Acts** (Wilderness & Underdark, Shadow-Cursed Lands, Baldur's Gate) |
+| God of War Ragnarök | 8 **Realms** · Cyberpunk 9 **Districts** · Jedi ×2 **Planets** |
+| Demon's Souls | 6 **Archstones** · FF7 Remake 7 **Areas** |
+| Sekiro | 9 **Areas** (location-derived: Ashina Outskirts, Hirata Estate, Fountainhead…) |
+| Pillars II: Deadfire | 11 **Regions** (location-derived: Neketaka, Ukaizo, Magran's Teeth…) |
+| Zelda: TotK | 12 **Regions** (location-derived: Great Sky Island, The Depths, Hebra…) |
+| AC Valhalla | 22 **Arcs** (Ledecestrescire, East Anglia, Asgard, Vinland…) |
+| AC Odyssey | 30 **Regions** · Skyrim & Persona 5 **Questlines** |
+
+- `GameMeta` carries `chapterTerm` / `chapterTermPlural` / `chapterSource`.
+- **Quest card tag** shows the game's own word: `⌖ Archstone: Latria`, `⌖ Realm: Vanaheim`.
+  Groups whose name already starts with the term render bare (`⌖ Chapter 1`), never
+  "Chapter: Chapter 1". Shown on desktop and mobile.
+- **Quest detail** gains a chapter stat labeled with the term (e.g. `REALM`).
+- **Filter:** a chapter filter in the Library panel titled with the plural term (REALMS /
+  DISTRICTS / PLANETS / ARCHSTONES…), wired into the URL (`?chapter=`), removable chips
+  ("Realm: Vanaheim"), the active-filter count, reset, and clear-on-game-change.
+- **Sort:** `Sort: Type` (F4 Main→Side→Optional) and `Sort: By {term}`, following each game's
+  own chapter order.
+- **Duplicate sub-filters removed:** the chapter axis is usually the `region` (16 games) or
+  `category` (Skyrim, Persona 5) field, so the panel was showing the same options twice — e.g.
+  God of War listed both REALMS and REGION. `chapterSource` now records the origin field and
+  the redundant generic filter is hidden. Games with a genuinely different second axis keep
+  both (Ghost of Tsushima: Category + Regions; Jedi: Category + Planets; BG3: Category + Acts).
+
+**QA:** `npm run build:staging` passes; headless Chromium swept **all 24 games** — correct
+per-game filter headers and tags, **0 duplicate filter groups, 0 JS page errors**. (The only
+console noise is the hot-linked github.io cover images, which this environment's network
+policy blocks.)
+
+**Deploy note:** one `staging` run failed at the final `actions/deploy-pages` step with
+"Deployment cancelled" — a transient GitHub Pages flake, not a code fault (audit, `npm ci`,
+both builds and the artifact upload had all passed, and no concurrent run was superseding it).
+Re-running the workflow went green.
+
+### Open item
+
+- Zelda: TotK region assignments are keyword-derived from location names (e.g. "North Lomei
+  Labyrinth" → Hebra, "South Lomei Labyrinth" → Gerudo). Worth a spot-check by someone who
+  knows the map; mis-filed quests are a one-line mapping fix in `LOCATION_AXIS`.
 
 ### Redesign roadmap (remaining phases)
 
