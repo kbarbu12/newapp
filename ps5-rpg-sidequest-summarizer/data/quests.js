@@ -77,12 +77,12 @@ const gameImages = {
   "Pillars of Eternity": {
     gradient: "linear-gradient(135deg, #1a1400 0%, #8b6914 50%, #d4a836 100%)",
     abbr: "POE",
-    cover: "images/pillars-of-eternity.svg"
+    cover: "images/pillars-of-eternity-1.jpg"
   },
   "Pillars of Eternity II: Deadfire": {
     gradient: "linear-gradient(135deg, #0a1a2e 0%, #1e6091 50%, #38bdf8 100%)",
     abbr: "POE2",
-    cover: "images/pillars-of-eternity-2.svg"
+    cover: "images/pillars-of-eternity-2.jpg"
   },
   "Star Wars Jedi: Fallen Order": {
     gradient: "linear-gradient(135deg, #05070d 0%, #1e3a8a 50%, #38bdf8 100%)",
