@@ -48294,5 +48294,47 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
+  },
+  {
+    id: 2571,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "The Duskveil – Purple Cloud Mountain Finale",
+    location: "Chapter 4 – SECRET: Purple Cloud Mountain",
+    length: "long",
+    difficulty: "High",
+    reward: "Weaver's Needle (vessel)",
+    summary: "The final boss of Chapter 4's secret Purple Cloud Mountain — a bone-clad, winged horror fought a short way past Keeper's Shrine: Cloudnest Peak. Its second phase bathes the arena in a blood-red sky. Beating it rewards the powerful Weaver's Needle vessel, a major help against the chapter's main boss.",
+    aiTip: "Save mana in the easier first phase so you have resources for the brutal second. Clear the Scorpionlord and Daoist Mi FIRST — defeating Duskveil ends the secret area and locks them out (though finishing Daoist Mi’s quest first makes the Scorpionlord fight alongside you here).",
+    walkthrough: [
+      "Unlock Purple Cloud Mountain by defeating the Venom Daoist twice (Pool of Shattered Jade, then Temple of Yellow Flowers).",
+      "Complete the Scorpionlord and Daoist Mi encounters first — both become permanently missable once Duskveil dies.",
+      "From Keeper's Shrine: Cloudnest Peak, head a short distance onward to the boss arena.",
+      "Phase 1: conserve mana and spirit, punish its wing sweeps, and dodge the diving lunges.",
+      "Phase 2 (blood-red sky): stay mobile through the raining-blood attacks and burst it down, then claim the Weaver’s Needle vessel."
+    ],
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duskveil%20boss%20guide"
+  },
+  {
+    id: 2572,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 4,
+    title: "Daoist Mi & the Violet Hail Transformation",
+    location: "Chapter 4 – SECRET: Purple Cloud Mountain",
+    length: "medium",
+    difficulty: "High",
+    reward: "Violet Hail Transformation (Worm Guai; poison-immune)",
+    summary: "A missable Purple Cloud Mountain questline: open the secret area via the Venom Daoist questline, gather the Violet Hail, and return it to Daoist Mi to trigger his duel. Winning grants the Violet Hail Transformation — become a poison-immune Worm Guai that infects foes with exploding larvae.",
+    aiTip: "Defeat the yellow-robed enemies around the area to obtain the Violet Hail item, then bring it back to Daoist Mi. Finish this BEFORE fighting Duskveil, or the quest is lost for the playthrough.",
+    walkthrough: [
+      "Unlock Purple Cloud Mountain (defeat the Venom Daoist twice) and speak with Daoist Mi.",
+      "Clear the yellow-robed cultists in the area until the Violet Hail item drops.",
+      "Return the Violet Hail to Daoist Mi to start the boss fight.",
+      "Exploit the openings after his poison casts; keep a cleanse/antidote ready for his venom.",
+      "Defeat him to earn the Violet Hail Transformation spell."
+    ],
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Daoist%20Mi%20Violet%20Hail%20boss%20guide"
   }
 ];
