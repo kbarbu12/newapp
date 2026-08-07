@@ -13223,6 +13223,102 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
   },
 {
+    id: 2354,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Last Wish",
+    location: "Skellige (Larvik / sunken ship)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Djinn's last wish, Yennefer romance path",
+    summary:
+      "Yennefer asks Geralt to help her recapture the djinn that once bound their fates, so she can learn whether their love is real or just the product of his final wish. The hunt leads to a sunken ship off Skellige and a dangerous confrontation with the freed genie.",
+    aiTip:
+      "Bring Elementa Oil and keep Quen up — the djinn hits hard with wind and lightning. Completing this is the gateway to Geralt and Yennefer's romance, so mind your dialogue at the end.",
+    walkthrough: [
+      "Meet Yennefer in Larvik on Skellige and sail out to the marked spot to find the seal fragments.",
+      "Dive to the sunken ship and recover the broken seal pieces, avoiding the sirens and drowners.",
+      "Return to Yennefer so she can perform the ritual that frees the djinn.",
+      "Apply Elementa Oil and cast Quen, then fight the djinn — dodge its wind vortex and lightning strikes.",
+      "Defeat the djinn to break the bond, then choose honestly in the conversation with Yennefer that follows.",
+    ],
+    video: "https://www.youtube.com/watch?v=cE7Bdij1sJ8"
+  },
+{
+    id: 2355,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Reason of State",
+    missable: true,
+    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first",
+    location: "Novigrad / Oxenfurt",
+    length: "long",
+    difficulty: "High",
+    reward: "Redanian political ending, Assassin of Kings trophy",
+    summary:
+      "The conspiracy to assassinate the mad King Radovid comes to a head. Working with Roche, Ves, Thaler and Dijkstra, Geralt helps set the trap — but Dijkstra has his own designs on the throne, forcing a final, bloody choice.",
+    aiTip:
+      "This quest is highly missable: you must side correctly in 'An Eye for an Eye' and 'Blindingly Obvious' (get Philippa from Dijkstra) to unlock it. After Radovid falls, decide whether to stand with Dijkstra or Roche's group — it shapes the Northern Kingdoms' fate.",
+    walkthrough: [
+      "Complete the lead-in quests (An Eye for an Eye, Blindingly Obvious) so the conspirators trust you and Philippa is freed.",
+      "Meet the plotters and take up your position to lure Radovid off his ship.",
+      "Spring the ambush and let Philippa deliver the killing blow to Radovid.",
+      "When Dijkstra turns on Roche's group, choose your side.",
+      "Fight Dijkstra and his men if you side with Roche (or stand aside), then survive the confrontation.",
+      "See the outcome that sets Nilfgaard or Redania on the path to victory.",
+    ],
+    video: "https://www.youtube.com/watch?v=OIstcrq-IIc"
+  },
+{
+    id: 2356,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Jenny o' the Woods",
+    location: "Midcopse, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, XP, nightwraith trophy",
+    summary:
+      "Bolko, the ealdorman of Midcopse, posts a contract on a nightwraith haunting the nearby fields. Geralt uncovers that the wraith is Zula, a young woman murdered and left unburied — 'Jenny o' the Woods' to the frightened villagers.",
+    aiTip:
+      "Investigate by day, then meditate to midnight to summon her. Apply Specter Oil, drop Yrden to make her corporeal, dodge her rapid teleport strikes, and blast the wraiths she spawns with Igni.",
+    walkthrough: [
+      "Read the notice board in Midcopse and speak with ealdorman Bolko to take the contract.",
+      "Use Witcher Senses to investigate the field and uncover Zula's story.",
+      "Return to the haunted field and meditate to midnight to draw out the nightwraith.",
+      "Apply Specter Oil and cast Yrden to trap her so your blows land.",
+      "Dodge her teleport strikes, kill the lesser wraiths with Igni, and cut Jenny down.",
+      "Take the trophy and claim the reward from Bolko.",
+    ],
+    video: "https://www.youtube.com/watch?v=6WJKD3LXP3k"
+  },
+{
+    id: 2357,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Fool's Gold",
+    location: "Lurtch, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, XP, memorable story outcome",
+    summary:
+      "In the ruined village of Lurtch, east of Crow's Perch, Geralt finds bandits roasting a pig while a frantic villager insists it's his beloved Yagoda. The villagers dug up cursed gold from a hidden temple and were all turned into swine.",
+    aiTip:
+      "Follow Yontek and use Witcher Senses to piece together the curse. The gold is cursed — how you handle it (and the pig-villagers) decides the darkly comic outcome, so read the dialogue carefully.",
+    walkthrough: [
+      "Reach the ruined village of Lurtch (east of Crow's Perch, past Lindenvale) and drive off the bandits roasting the pig.",
+      "Talk to Yontek, who insists the pig is his wife Yagoda, and use Witcher Senses to investigate.",
+      "Follow the clues to the hidden temple where the villagers found the cursed gold.",
+      "Deal with the guardians and uncover how the curse turned the villagers into pigs.",
+      "Decide what to do about the cursed gold and the swine, then resolve the quest.",
+    ],
+    video: "https://www.youtube.com/watch?v=4mryuJ3SLjM"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
