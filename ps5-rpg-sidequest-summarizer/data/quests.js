@@ -28625,7 +28625,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "An optional but pivotal choice: the Blades demand you kill Paarthurnax to continue working with them.",
     aiTip: "Sparing Paarthurnax costs you Blades support but is the lore-friendly and morally cleaner path — decide based on whether you need Blades services.",
     walkthrough: [
-      "Optional developments involving the Blades and Paarthurnax occur post-main-quest; consult Delphine and Esbern for the associated confrontation choice."
+      "After defeating Alduin at the Throat of the World, learn from Paarthurnax that the dragon Odahviing can reveal Alduin’s refuge in Sovngarde.",
+      "Get leave to use Dragonsreach as a trap; if the Civil War is active, first broker a truce at the High Hrothgar peace council (Season Unending).",
+      "Lure Odahviing to Whiterun with the Call Dragon Shout from the Dragonsreach porch and spring the trap.",
+      "Bargain with the captured Odahviing — he agrees to fly you to Skuldafn in exchange for his freedom."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20%28Paarthurnax%27s%20request%29%20walkthrough"
   },
@@ -29041,7 +29044,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant fencing job: cook the books at a targeted business to boost Guild coffers.",
     aiTip: "Alter the ledger while unseen — the target office usually has a back entrance easier than the front.",
     walkthrough: [
-      "Complete this radiant-style influence job in one of the four cities as assigned by Delvin to build reputation toward Under New Management."
+      "Take the Numbers Job from Delvin Mallory in the Ragged Flagon.",
+      "Travel to the assigned city and find the target business’s ledger.",
+      "Sneak in (often via a back door or upper window) and alter the ledger to cook the books.",
+      "Slip out unseen and return to Delvin for gold and Guild reputation toward reclaiming that hold."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Numbers%20Job%20walkthrough"
   },
@@ -29058,7 +29064,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant chaos job: cause mayhem in a target city to spread the Guild's reach.",
     aiTip: "Steal several items scattered around the target city; a high Sneak makes clearing the quota quick.",
     walkthrough: [
-      "Complete this reputation job in your assigned city, typically involving planting or stealing an item under Delvin's direction."
+      "Take the Bedlam Job from Delvin Mallory.",
+      "Travel to the assigned city.",
+      "Steal the assigned gold value of goods from anywhere in the hold.",
+      "Return to Delvin with the take for payment and reputation."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Bedlam%20Job%20walkthrough"
   },
@@ -29075,7 +29084,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant burglary: break into a marked home and lift a specific valuable.",
     aiTip: "Case the house at night when occupants sleep; a Muffle enchant keeps your entry silent.",
     walkthrough: [
-      "Break into a specified home or business in your assigned city and steal the designated item without detection."
+      "Take the Burglary Job from Vex in the Ragged Flagon.",
+      "Travel to the target home in the assigned city.",
+      "Break in undetected and steal the specific item the job marks.",
+      "Return it to Vex for gold and Guild reputation."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Burglary%20Job%20walkthrough"
   },
@@ -29092,7 +29104,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant heist to swipe a particular prized item from a target location.",
     aiTip: "Grab only the marked item to avoid unnecessary bounty; use Shadowcloak or invisibility for guarded targets.",
     walkthrough: [
-      "Travel to the assigned dock or fishery location and swap/steal the designated cargo item."
+      "Take the Fishing Job from Vex or Delvin.",
+      "Travel to the assigned city and locate the target’s home or shop.",
+      "Steal the specific valuable from its display case or strongbox without being caught.",
+      "Return to the Ragged Flagon for your reward."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fishing%20Job%20walkthrough"
   },
@@ -29109,7 +29124,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant fishing job — plant an item to frame a mark on the Guild's behalf.",
     aiTip: "Reverse-pickpocket the planted item; a high Pickpocket skill guarantees success on tougher marks.",
     walkthrough: [
-      "Plan and execute a larger burglary in your assigned city as directed by Delvin Mallory."
+      "Take the Heist Job from Vex.",
+      "Travel to the assigned location.",
+      "Steal the high-value item the client wants, avoiding detection.",
+      "Return it to Vex for gold and reputation."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heist%20Job%20walkthrough"
   },
@@ -29126,7 +29144,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant heist job to steal a designated item and return it to the Guild fence.",
     aiTip: "Fast-travel jobs stack — hold several radiant tasks in the same hold and clear them in one trip.",
     walkthrough: [
-      "Frame or plant evidence on a target NPC in your assigned city as instructed by Vex or Delvin."
+      "Take the Shill Job from Vex.",
+      "Travel to the assigned city and find the mark.",
+      "Plant the incriminating item on the mark (on their person or in a container) unseen.",
+      "Report back to Vex for payment."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Shill%20Job%20walkthrough"
   },
@@ -29143,7 +29164,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant shill job: plant Guild goods to strong-arm a reluctant merchant.",
     aiTip: "Plant the item on the target merchant, then return to Delvin — keep Sneak up to avoid pickpocket detection.",
     walkthrough: [
-      "Clear out a series of small burglary targets across your assigned city."
+      "Take the Sweep Job from Delvin.",
+      "Travel to the assigned location.",
+      "Steal the three specific items the job lists.",
+      "Return them to Delvin for gold and reputation."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Sweep%20Job%20walkthrough"
   },
@@ -29160,7 +29184,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant sweep job clearing out a location to restore the Guild's dominance in a city.",
     aiTip: "Completing radiant jobs in each major city (Whiterun, Markarth, Solitude, Windhelm) reopens the Guild's expansion questline.",
     walkthrough: [
-      "Undertake this influence-building city job as assigned, typically involving a burglary in the Summerset Shadows' territory of your target city."
+      "Take Summerset Shadows from Delvin after building enough influence in Windhelm.",
+      "Travel to Uttering Hills Cave to confront the rival Summerset Shadows crew.",
+      "Fight through the cave and defeat their leader, Linwe.",
+      "Loot Linwe’s armor and recover the stolen goods, then report to Delvin."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Summerset%20Shadows%20walkthrough"
   },
@@ -29177,7 +29204,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Deal with a splinter group of thieves undermining the Guild's operations.",
     aiTip: "Clear the Summerset Shadows' hideout and recover the stolen Guild property to keep expansion on track.",
     walkthrough: [
-      "Complete the reparations job as assigned by Delvin, generally recovering guild funds or property lost to rivals."
+      "Take a Reparations job from Delvin/Vex to help restore the Guild’s standing in a hold.",
+      "Travel to the assigned city and complete the recovery task (return stolen goods / settle the debt).",
+      "This rebuilds the Guild’s presence and reopens a fence there.",
+      "Repeat across the holds to progress toward “Under New Management.”"
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Reparations%20walkthrough"
   },
@@ -29194,7 +29224,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Handle Guild business tied to restoring the Thieves Guild's former glory across Skyrim.",
     aiTip: "Part of the city-influence chain — complete it alongside the radiant jobs for the same hold to speed up Guild Master rank.",
     walkthrough: [
-      "Undertake this quiet infiltration job as assigned in your target city, avoiding combat entirely per Guild protocol."
+      "Meet Karliah, who leads you to Snow Veil Sanctum where Mercer Frey has gone.",
+      "Use the Nightingale Bow Karliah gives you and press through the Nordic ruin.",
+      "Solve the dragon-claw door and clear the draugr blocking the way.",
+      "Reach the inner chamber, where Mercer ambushes you — survive to advance the questline."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Speaking%20with%20Silence%20walkthrough"
   },
@@ -29536,7 +29569,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant Brotherhood contract to kill Narfi, a grieving beggar near Ivarstead.",
     aiTip: "Nazir's contracts can be done in any order — a bow shot from stealth avoids witnesses in the open camp.",
     walkthrough: [
-      "Travel to Ivarstead and eliminate the marked contract target, Narfi, discreetly or openly."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Ivarstead (the beggar by the river) to find Narfi.",
+      "Assassinate Narfi — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Narfi%20walkthrough"
   },
@@ -29553,7 +29589,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to assassinate Beitild in Dawnstar.",
     aiTip: "Catch her at her house at night; a single sneak attack usually finishes low-level targets like her.",
     walkthrough: [
-      "Travel to Dawnstar and eliminate the marked contract target, Beitild, in her home or place of work."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Dawnstar (she owns Iron-Breaker Mine) to find Beitild.",
+      "Assassinate Beitild — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Beitild%20walkthrough"
   },
@@ -29570,7 +29609,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to eliminate Ennodius Papius, a paranoid man hiding out by a mill.",
     aiTip: "He camps near Anga's Mill — approach from the trees and strike before he flees.",
     walkthrough: [
-      "Travel to the marked farmstead near Solitude and eliminate Ennodius Papius."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to his camp near Anga’s Mill to find Ennodius Papius.",
+      "Assassinate Ennodius Papius — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ennodius%20Papius%20walkthrough"
   },
@@ -29587,7 +29629,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to kill Hern, secretly a vampire, at Half-Moon Mill.",
     aiTip: "Hern and his wife are vampires — bring a decent weapon and expect a tougher fight than a normal target.",
     walkthrough: [
-      "Travel to the marked hideout to eliminate Hern, a reclusive vampire, along with any thralls guarding him."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Half-Moon Mill (he is a vampire, alongside Hert) to find Hern.",
+      "Assassinate Hern — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Hern%20walkthrough"
   },
@@ -29604,7 +29649,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to silence Lurbuk, a spectacularly bad bard.",
     aiTip: "Lurbuk performs at Morvunskar surrounded by mages — lure him out or use a ranged kill through the crowd.",
     walkthrough: [
-      "Travel to the marked inn and eliminate the bard Lurbuk during or after his performance."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Morthal’s Moorside Inn (the dreadful bard) to find Lurbuk.",
+      "Assassinate Lurbuk — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Lurbuk%20walkthrough"
   },
@@ -29621,7 +29669,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to kill Deekus, a scavenging Argonian.",
     aiTip: "He's alone at his camp near Sarethi Farm — an easy stealth kill with no witnesses.",
     walkthrough: [
-      "Travel to the marked shipwreck location and eliminate the Argonian looter Deekus."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to his remote coastal camp to find Deekus.",
+      "Assassinate Deekus — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Deekus%20walkthrough"
   },
@@ -29638,7 +29689,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to assassinate the Khajiit spellsword Ma'randru-jo with a traveling caravan.",
     aiTip: "Caravans move between cities — track the caravan's schedule and strike at night when it's camped outside a hold.",
     walkthrough: [
-      "Travel to the marked farm and eliminate the target Ma'randru-jo."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to the Khajiit caravan he travels with, outside a city to find Ma’randru-jo.",
+      "Assassinate Ma’randru-jo — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ma%27randru-jo%20walkthrough"
   },
@@ -29655,7 +29709,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to kill Anoriath, a hunter who runs a meat stall in Whiterun.",
     aiTip: "He wanders Whiterun by day and sleeps at the Drunken Huntsman — a night kill avoids the busy market guards.",
     walkthrough: [
-      "Travel to Whiterun and eliminate the marked target Anoriath discreetly amid the city guards."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Whiterun (he runs the market meat stall by day) to find Anoriath.",
+      "Assassinate Anoriath — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Anoriath%20walkthrough"
   },
@@ -29672,7 +29729,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to kill Agnis, an elderly caretaker, at an old fort.",
     aiTip: "Agnis is harmless and unguarded — a straightforward contract, best done quietly to avoid any nearby travelers.",
     walkthrough: [
-      "Travel to Fort Greymoor and eliminate the marked target Agnis among the bandit occupants."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Fort Greymoor (the old caretaker) to find Agnis.",
+      "Assassinate Agnis — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Agnis%20walkthrough"
   },
@@ -29689,7 +29749,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to eliminate the Dunmer mage Maluril deep in a Dwarven ruin.",
     aiTip: "He's guarded by Dwarven automatons in Mzinchaleft — clear a path carefully or sneak straight to him.",
     walkthrough: [
-      "Travel into Mzinchaleft ruin and eliminate the marked target Maluril."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to the Dwemer ruin of Mzulft to find Maluril.",
+      "Assassinate Maluril — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Maluril%20walkthrough"
   },
@@ -29706,7 +29769,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to assassinate Helvard, a housecarl in Falkreath.",
     aiTip: "As a housecarl he's a capable fighter — a poisoned sneak attack evens the odds.",
     walkthrough: [
-      "Travel to Falkreath and eliminate the marked target Helvard."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to Falkreath (the Jarl’s housecarl) to find Helvard.",
+      "Assassinate Helvard — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Helvard%20walkthrough"
   },
@@ -29723,7 +29789,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A radiant contract to kill Safia, a bandit leader holed up in a ruin.",
     aiTip: "She commands bandits at her hideout — thin the guards from stealth before engaging her directly.",
     walkthrough: [
-      "Board the pirate ship near Solitude's docks and eliminate Captain Safia."
+      "Accept the contract from Nazir at the Sanctuary.",
+      "Travel to the ship she captains to find Safia.",
+      "Assassinate Safia — a sneak/hidden kill avoids picking up a bounty.",
+      "Return to Nazir to collect your gold reward (and any bonus objective)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Safia%20walkthrough"
   },
@@ -29961,7 +30030,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Complete the ritual to earn a Master-level Alteration spell from Tolfdir.",
     aiTip: "Requires Alteration skill 90 — level it with cheap spells like Detect Life before starting the ritual.",
     walkthrough: [
-      "Speak with the Alteration instructor about advancing your training to unlock the ritual spell quest and complete the associated task."
+      "At Alteration 90, speak to Tolfdir at the College of Winterhold.",
+      "Accept his ritual task to prove your mastery of Alteration.",
+      "Complete the assigned trial he sets.",
+      "Return to Tolfdir to unlock the master Alteration spells."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alteration%20Ritual%20Spell%20walkthrough"
   },
@@ -29978,7 +30050,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Prove your mastery to earn a Master-level Conjuration spell from Phinis Gestor.",
     aiTip: "Requires Conjuration 90; the ritual sends you to Sanguine's realm-like arena to defeat summoned foes.",
     walkthrough: [
-      "Speak with the Conjuration instructor and complete the associated retrieval or combat task to unlock the ritual spell."
+      "At Conjuration 90, speak to Phinis Gestor at the College.",
+      "He tasks you with casting Summon Unbound Dremora.",
+      "Summon and defeat/bend the Unbound Dremora to claim its Sigil Stone.",
+      "Return to Phinis to unlock the master Conjuration spells (Flame/Frost/Storm Thrall, Dread Zombie, etc.)."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Conjuration%20Ritual%20Spell%20walkthrough"
   },
@@ -29995,7 +30070,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Undertake Faralda's trial to gain a Master-level Destruction spell.",
     aiTip: "Requires Destruction 90 — you must cast an expert spell to prove yourself, then face a summoned challenge.",
     walkthrough: [
-      "Speak with the Destruction instructor and complete the associated task to unlock the ritual spell."
+      "At Destruction 90, speak to Faralda at the College.",
+      "She sends you to recover “Power of the Elements” — travel to Sunderstone Gorge.",
+      "Clear the dungeon and defeat the fire-mage boss to obtain the book.",
+      "Read it and return to Faralda to learn Fire Storm, Blizzard, and Lightning Storm."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destruction%20Ritual%20Spell%20walkthrough"
   },
@@ -30012,7 +30090,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Complete Drevis Neloren's ritual for a Master-level Illusion spell.",
     aiTip: "Requires Illusion 90; the trial hides invisible objects around the College — use Detect Life or Aura Whisper to find them.",
     walkthrough: [
-      "Speak with the Illusion instructor and complete the associated task to unlock the ritual spell."
+      "At Illusion 90, speak to Drevis Neloren at the College.",
+      "He tasks you with recovering the invisible focal points hidden around the College.",
+      "Use detection to find and touch each focus.",
+      "Return to Drevis to unlock the master Illusion spells."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Illusion%20Ritual%20Spell%20walkthrough"
   },
@@ -30029,7 +30110,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Pass Colette Marence's trial to learn a Master-level Restoration spell.",
     aiTip: "Requires Restoration 90 — you fight a powerful summoned enemy, so bring wards and healing.",
     walkthrough: [
-      "Speak with the Restoration instructor and complete the associated task to unlock the ritual spell."
+      "At Restoration 90, speak to Colette Marence at the College.",
+      "Accept her ritual challenge.",
+      "Survive the trial she sets, fending off the summoned attackers.",
+      "Return to Colette to unlock the master Restoration spells."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoration%20Ritual%20Spell%20walkthrough"
   },
@@ -30142,7 +30226,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Plant false orders to mislead the Stormcloaks and gain the Legion an advantage.",
     aiTip: "Sneak the forged documents into the enemy camp; a stealthy approach avoids a pitched battle.",
     walkthrough: [
-      "Assault the marked Stormcloak-held fort as directed by Legate Rikke, clearing it of enemy soldiers."
+      "Meet Legate Rikke for orders on a false front.",
+      "Travel to the enemy camp to obtain the forged/enemy documents.",
+      "Retrieve the papers by stealth or force.",
+      "Deliver them to Rikke to advance the Imperial campaign."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20walkthrough"
   },
@@ -30159,7 +30246,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Intercept a tribute caravan to choke off Stormcloak funding for the Legion.",
     aiTip: "Ambush the caravan on the road; take the high ground with a bow to whittle down the escort.",
     walkthrough: [
-      "Lead the assault to capture a hold's capital in the name of the Empire, per Legate Rikke's briefing."
+      "Take orders from Legate Rikke to seize a Stormcloak tribute.",
+      "Ambush the tribute caravan on the road or raid its strongbox.",
+      "Take the gold and supplies.",
+      "Report the success back to Rikke."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20walkthrough"
   },
@@ -30176,7 +30266,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Storm Fort Sungard to seize it for the Imperial Legion.",
     aiTip: "Fight alongside Legion soldiers — focus the enemy officers first, and mop up the fort interior for loot.",
     walkthrough: [
-      "Storm and capture Fort Sungard from Stormcloak forces."
+      "Report to your Legion commander and rally with the troops outside Fort Sungard.",
+      "Assault Fort Sungard, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Sungard to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20walkthrough"
   },
@@ -30193,7 +30286,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Assault Fort Snowhawk and claim it in the name of the Empire.",
     aiTip: "Let the Legion soldiers draw fire while you flank; clear the towers to stop enemy archers.",
     walkthrough: [
-      "Storm and capture Fort Snowhawk from Stormcloak forces."
+      "Report to your Legion commander and rally with the troops outside Fort Snowhawk.",
+      "Assault Fort Snowhawk, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Snowhawk to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20walkthrough"
   },
@@ -30210,7 +30306,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Capture Fort Dunstad to push Imperial control across the Pale.",
     aiTip: "Push through the courtyard as a group; the commander inside is the objective — take him down to end resistance.",
     walkthrough: [
-      "Storm and capture Fort Dunstad from Stormcloak forces."
+      "Report to your Legion commander and rally with the troops outside Fort Dunstad.",
+      "Assault Fort Dunstad, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Dunstad to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20walkthrough"
   },
@@ -30227,7 +30326,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Take Fort Greenwall for the Legion to tighten the noose on the rebellion.",
     aiTip: "Watch for Stormcloak reinforcements from the towers — heal often in the tight interior fights.",
     walkthrough: [
-      "Storm and capture Fort Greenwall from Stormcloak forces."
+      "Report to your Legion commander and rally with the troops outside Fort Greenwall.",
+      "Assault Fort Greenwall, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Greenwall to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20walkthrough"
   },
@@ -30244,7 +30346,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Seize Fort Kastav to secure Imperial dominance in the region.",
     aiTip: "A straightforward siege — stick with your squad and clear the walls before pressing inside.",
     walkthrough: [
-      "Storm and capture Fort Kastav from Stormcloak forces."
+      "Report to your Legion commander and rally with the troops outside Fort Kastav.",
+      "Assault Fort Kastav, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Kastav to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20walkthrough"
   },
@@ -30261,7 +30366,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Capture Fort Hraggstad to strengthen the Legion's hold near Solitude.",
     aiTip: "Approach from the road with your soldiers; the exterior bandits and Stormcloaks fall quickly to a coordinated push.",
     walkthrough: [
-      "Storm and capture Fort Hraggstad, a key Stormcloak stronghold."
+      "Report to your Legion commander and rally with the troops outside Fort Hraggstad.",
+      "Assault Fort Hraggstad, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Hraggstad to capture it for the Legion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20walkthrough"
   },
@@ -30278,7 +30386,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Infiltrate Fort Neugrad to rescue captured Imperial soldiers.",
     aiTip: "Free the prisoners to gain extra allies for the fight out — grab the cell keys from the guards.",
     walkthrough: [
-      "Infiltrate Fort Neugrad to free captured Legion soldiers held by the Stormcloaks."
+      "Take the rescue assignment from your Imperial commander.",
+      "Infiltrate Fort Neugrad, where captured Legion soldiers are held.",
+      "Sneak or fight in, reach the prisoners, and free them.",
+      "Arm the freed soldiers and secure the fort."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Neugrad%20walkthrough"
   },
@@ -30335,7 +30446,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "The Stormcloak version: plant false orders to deceive the Imperial Legion.",
     aiTip: "Same stealth objective as the Imperial variant — slip the forged papers in unseen to avoid a fight.",
     walkthrough: [
-      "Assault the marked Legion-held fort as directed by Galmar Stone-Fist."
+      "Meet Galmar Stone-Fist for orders on a false front.",
+      "Travel to the enemy camp to obtain the forged/enemy documents.",
+      "Retrieve the papers by stealth or force.",
+      "Deliver them to Galmar to advance the Stormcloak campaign."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30352,7 +30466,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Raid an Imperial tribute caravan to fund the Stormcloak war effort.",
     aiTip: "Ambush from cover on the road; prioritize the escort's officer to break their morale.",
     walkthrough: [
-      "Lead the assault to capture a hold's capital in the name of Ulfric Stormcloak."
+      "Take orders from Galmar Stone-Fist to seize an Imperial tribute.",
+      "Ambush the tribute caravan on the road or raid its strongbox.",
+      "Take the gold and supplies.",
+      "Report back to Galmar."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30369,7 +30486,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Assault Fort Sungard for the Stormcloaks.",
     aiTip: "Fight beside Ulfric's soldiers — target Imperial officers first and secure the interior.",
     walkthrough: [
-      "Storm and capture Fort Sungard from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Sungard.",
+      "Assault Fort Sungard, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Sungard to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30386,7 +30506,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Storm Fort Snowhawk to claim it for the rebellion.",
     aiTip: "Flank while your allies draw fire; clear the towers of Imperial archers.",
     walkthrough: [
-      "Storm and capture Fort Snowhawk from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Snowhawk.",
+      "Assault Fort Snowhawk, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Snowhawk to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30403,7 +30526,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Take Fort Dunstad to expand Stormcloak control in the Pale.",
     aiTip: "Push the courtyard as a unit and eliminate the fort commander to end the fight.",
     walkthrough: [
-      "Storm and capture Fort Dunstad from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Dunstad.",
+      "Assault Fort Dunstad, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Dunstad to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30420,7 +30546,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Capture Fort Greenwall in the name of a free Skyrim.",
     aiTip: "Beware Imperial reinforcements — hold the choke points and heal during the tight interior brawl.",
     walkthrough: [
-      "Storm and capture Fort Greenwall from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Greenwall.",
+      "Assault Fort Greenwall, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Greenwall to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30437,7 +30566,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Seize Fort Kastav for the Stormcloak cause.",
     aiTip: "Stay with your squad and clear the walls before advancing into the keep.",
     walkthrough: [
-      "Storm and capture Fort Kastav from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Kastav.",
+      "Assault Fort Kastav, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Kastav to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30454,7 +30586,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Assault Fort Hraggstad to threaten Imperial-held Solitude.",
     aiTip: "Coordinate with your soldiers on the outer defenses; the garrison falls fast to a combined push.",
     walkthrough: [
-      "Storm and capture Fort Hraggstad from Legion forces."
+      "Report to your Stormcloaks commander and rally with the troops outside Fort Hraggstad.",
+      "Assault Fort Hraggstad, fighting through the defenders in the courtyard.",
+      "Push into the interior and clear the remaining soldiers.",
+      "Hold Fort Hraggstad to capture it for the Stormcloaks."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
   },
@@ -30471,7 +30606,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Break into Fort Amol to rescue captured Stormcloak soldiers.",
     aiTip: "Grab the cell keys and free the prisoners for extra swords in the escape.",
     walkthrough: [
-      "Infiltrate Fort Amol to free captured Stormcloak soldiers held by the Legion."
+      "Take the rescue assignment from Galmar Stone-Fist.",
+      "Infiltrate Fort Amol, where captured Stormcloak soldiers are held.",
+      "Sneak or fight in, reach the prisoners, and free them.",
+      "Arm the freed soldiers and secure the fort."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Amol%20walkthrough"
   },
@@ -30716,7 +30854,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Nocturnal's quest, shared with the Thieves Guild's Nightingale arc, restoring the Skeleton Key.",
     aiTip: "This is the same content as the Thieves Guild finale — completing it there satisfies Nocturnal's Daedric quest too.",
     walkthrough: [
-      "See Thieves Guild questline — Trinity Restored serves as Nocturnal's associated Daedric quest, granting the Nightingale ability Nightingale Reflexes and later the Cowl of Sunlight during the tenure as Guildmaster."
+      "Follow Karliah and Brynjolf to the Nightingale Hall beneath Nightingale Hall’s entrance.",
+      "Take part in the Oath to Nocturnal at the Ebonmere.",
+      "Become a Nightingale and receive your Nightingale armor and one of three powers.",
+      "With the Trinity restored, press on to hunt Mercer Frey."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
   },
@@ -30784,23 +30925,6 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Vaermina%3A%20Waking%20Nightmare%20walkthrough"
   },
   {
-    id: 1518,
-    type: "side",
-    category: "Daedric Quests",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "The Black Star / Divine quests overlap note",
-    location: "Winterhold / various",
-    length: "short",
-    difficulty: "Low",
-    reward: "Lore note",
-    summary: "A note that the Black Star overlaps Azura's quest and cross-references the Divine quests grouping.",
-    aiTip: "This is a cross-reference entry — the actual content lives in Azura's quest (skyrim-0116); treat it as a lore pointer.",
-    walkthrough: [
-      "See 'Azura: The Black Star' above; the Daedric quest for Azura and the Black Star artifact share the same questline entry."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Black%20Star%20/%20Divine%20quests%20overlap%20note%20walkthrough"
-  },
-  {
     id: 1519,
     type: "side",
     category: "Bards College & Divine Quests",
@@ -30866,7 +30990,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     type: "side",
     category: "Bards College & Divine Quests",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Silver Hand (Divine quest — Kynareth, note: shares name with Companions quest)",
+    title: "The Blessings of Nature (Kynareth)",
     location: "Whiterun / Kynareth's shrine",
     length: "medium",
     difficulty: "Medium",
@@ -30874,7 +30998,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "A Kynareth-linked pilgrimage tied to the Eldergleam and the sacred sap of the Gildergreen.",
     aiTip: "Retrieve Nettlebane from the Hagravens at Orphan Rock, then tap the Eldergleam to restore Whiterun's Gildergreen tree.",
     walkthrough: [
-      "Speak with the priestess at the Temple of Kynareth in Whiterun about restoring the storm-damaged Gildergreen Tree; retrieve a sapling or branch as instructed to complete the associated ritual."
+      "Speak with Danica Pure-Spring at the Temple of Kynareth in Whiterun about the storm-killed Gildergreen.",
+      "Agree to help and retrieve Nettlebane from the Hagraven at Orphan Rock.",
+      "Travel to the Eldergleam Sanctuary and use Nettlebane to tap the Eldergleam for a sap or sapling.",
+      "Return to Danica to restore the Gildergreen in Whiterun."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20%28Divine%20quest%20%E2%80%94%20Kynareth%2C%20note%3A%20shares%20name%20with%20Companions%20quest%29%20walkthrough"
   },
@@ -30916,23 +31043,6 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Return the item to Nurelion."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Repairing%20the%20Phial%20%28Side%20Quest%29%20walkthrough"
-  },
-  {
-    id: 1525,
-    type: "side",
-    category: "Side & Dungeon Quests",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "The Break of Dawn (see Meridia's Daedric Quest)",
-    location: "Mount Kilkreath",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Cross-reference to Dawnbreaker",
-    summary: "A side-listing that points to Meridia's Daedric quest for the sword Dawnbreaker.",
-    aiTip: "This duplicates Meridia's quest (skyrim-0123) — completing that one covers this entry.",
-    walkthrough: [
-      "Refer to the Daedric Quests section — this entry is the same quest as 'Meridia: The Break of Dawn.'"
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Break%20of%20Dawn%20%28see%20Meridia%27s%20Daedric%20Quest%29%20walkthrough"
   },
   {
     id: 1526,
@@ -31015,23 +31125,6 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Man%20Who%20Cried%20Wolf%20walkthrough"
   },
   {
-    id: 1530,
-    type: "side",
-    category: "Side & Dungeon Quests",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "Dampened Spirits (see Thieves Guild)",
-    location: "Whiterun / Honningbrew",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Cross-reference to Thieves Guild",
-    summary: "A side-listing pointing to the Thieves Guild's Dampened Spirits meadery sabotage.",
-    aiTip: "This duplicates the Thieves Guild quest (skyrim-0026) — completing that covers this entry.",
-    walkthrough: [
-      "Refer to the Thieves Guild section — duplicate quest name shared between miscellaneous and guild content."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20%28see%20Thieves%20Guild%29%20walkthrough"
-  },
-  {
     id: 1531,
     type: "side",
     category: "Side & Dungeon Quests",
@@ -31085,7 +31178,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Defeat the ancient ghostly hero Kvenel the Tongue to claim his paired weapons.",
     aiTip: "Kvenel wields a sword and axe and summons wolf spirits — bring healing and claim both Eduj and Okin from his remains.",
     walkthrough: [
-      "Investigate the Nordic burial site tied to Kvenel's legend and clear it of undead to claim the associated lore book and loot."
+      "Investigate the Nordic tomb tied to the legend of Kvenel the Tongue.",
+      "Clear the draugr through the barrow to reach Kvenel’s crypt.",
+      "Defeat the ghostly hero Kvenel the Tongue.",
+      "Claim his paired weapons, Eduj and Okin, and any word wall nearby."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Feud%20of%20Kvenel%20the%20Tongue%20%28Dungeon%20Quest%29%20walkthrough"
   },
@@ -31123,7 +31219,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Fight through the ruins of Volskygge to defeat the dragon priest Volsung.",
     aiTip: "Solve the wall puzzle to reach the summit; Volsung drops a unique mask that boosts carry weight, prices, and water-breathing.",
     walkthrough: [
-      "Explore Volskygge to uncover the tale of Captain Wayfinder and the treacherous mapmaker who betrayed his crew; retrieve the associated unique loot from the wrecked ship interior."
+      "Travel to the ruins of Volskygge in Haafingar.",
+      "Fight through the draugr and solve the Volskygge puzzle to reach the summit.",
+      "Defeat the dragon priest Volsung at the peak.",
+      "Claim the mask Volsung and learn the word of power from the nearby wall."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Deception%20%28Dungeon%20Quest%20%E2%80%94%20Volskygge%29%20walkthrough"
   },
@@ -31140,7 +31239,10 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     summary: "Delve into Ansilvund to end the necromancer Fjori-and-Holgeir haunting and its risen guardians.",
     aiTip: "Solve the poetic pillar puzzles using the nearby books, then defeat the necromancer to end the crypt's undead threat.",
     walkthrough: [
-      "Investigate Ansilvund, following the tragic tale of Fjori and Holgeir, and put their spirits to rest by defeating the necromancer responsible for their torment."
+      "Enter Ansilvund and follow the tragic tale of Fjori and Holgeir told through its books.",
+      "Clear the draugr and solve the puzzle guarding the inner chamber.",
+      "Defeat the necromancer Lu’ah Al-Skaven, who has raised the lovers’ spirits.",
+      "Loot the enchanted weapon and dungeon treasure, laying the spirits to rest."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
   },
