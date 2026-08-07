@@ -1,9 +1,64 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-08-06
+**Last updated:** 2026-08-07
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-08-07 — versioning, prod launch, quest verification & deploy fix
+
+Big day: the redesign went live to production, a semantic-versioning + rollback
+system was introduced, three more games were verified, a Progress-tab feature
+was added, and a deploy bug that was blocking the live site was fixed.
+
+### Versioning & rollback (new)
+- Added **`.github/workflows/release.yml`**: every push to `main` auto-tags a
+  semver version and cuts a GitHub Release. Bump level comes from a token in the
+  merge-commit subject — `[major]` / `[minor]` / (default) patch.
+- Rewrote **`REVERT.md`** around tag-based rollback and added a
+  **"Versioning & rollback"** section to `DEPLOY.md`.
+- Baseline **`v1.0.0`** tagged on the pre-redesign prod state.
+
+### Production launch (staging → main)
+- Promoted the full redesign + Quest Assistant + the first three verified games
+  to prod as **`v2.0.0`** (major).
+- Fixed a `release.yml` bug (missing git identity for `git tag -a`) mid-launch.
+
+### Quest verification (one PR per game)
+- **Final Fantasy VII Rebirth** — rewrote all 54 placeholder walkthroughs into
+  complete step-by-step routes (chapters, Odd Jobs, World Intel, minigames,
+  summons); verified fields. (PR #54)
+- **Demon's Souls** — coverage pass: audited the 23 existing entries and added
+  the two missing questlines, **Biorr of the Twin Fangs** and **Old King
+  Doran** (real videos + walkthroughs) → **25/25**. (PR #55)
+- **The Witcher 3: Wild Hunt** — rewrote all 81 placeholder walkthroughs into
+  complete routes (base game + Hearts of Stone + Blood and Wine, contracts,
+  scavenger hunts, Gwent, Fists of Fury); then added the 4 missing notable
+  quests — **The Last Wish, Reason of State, Contract: Jenny o' the Woods,
+  Fool's Gold** — closing coverage to **100/100**. (PRs #58, #59)
+- Progress so far: **6 / 24 games** verified (also FF7 Remake, Elden Ring, BG3
+  from the prior session).
+
+### Progress-tab feature
+- Added a **"How points work"** explainer to the Progress tab (base by quest
+  type, difficulty multiplier, missable/game-completion bonuses, worked
+  example). One responsive component covering **mobile + web**. Promoted to prod
+  as **`v2.1.0`**. (PRs #56, #57)
+
+### Deploy fix (live site was stuck)
+- Diagnosed why the live site stayed on the old build: `pages.yml` ran on both
+  `main` and `staging` under **one shared concurrency group**, so every staging
+  merge cancelled the pending prod deploy while it queued.
+- Fixed by scoping the group per branch (`group: "pages-${{ github.ref }}"`).
+  Promoted to prod as **`v2.1.1`**; the first prod Pages run then completed and
+  **the live site published**. (PRs #60, #61)
+
+### End state
+- Prod tags: **v1.0.0 → v2.0.0 → v2.1.0 → v2.1.1 → v2.1.2**.
+- `staging → main` promotion (PR #62) brought all quest-data work to prod;
+  current prod is **v2.1.2**. Staging and main are in sync.
 
 ---
 
