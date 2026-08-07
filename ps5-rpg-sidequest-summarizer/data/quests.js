@@ -15047,6 +15047,52 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
   },
 {
+    id: 2352,
+    type: "side",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "Biorr of the Twin Fangs",
+    location: "Boletarian Palace (1-1, 1-3, 1-4)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Summonable ally for Penetrator & False King, Brother-In-Arms trophy",
+    summary:
+      "Free the imprisoned veteran knight Biorr of the Twin Fangs in the Boletarian Palace. Once released he can be summoned to fight alongside you against the Penetrator, and he defends the throne room during the False King Allant battle.",
+    aiTip:
+      "Rescue Biorr before beating the Penetrator — his gold summon sign appears just outside that fog gate, and summoning him there earns the Brother-In-Arms trophy. Don't let World 1 fall to Pure Black or his questline can break.",
+    walkthrough: [
+      "In Boletarian Palace, work down to the lower cell block where Biorr is locked away and speak with him through the bars.",
+      "Reach and pull the lever that opens his cell to free him (he thanks you and vows to help retake the palace).",
+      "Progress to the Penetrator fog gate in 1-3 and look for Biorr's golden summon sign just before it.",
+      "Summon Biorr and take on the Penetrator together — this also earns the Brother-In-Arms trophy.",
+      "Later, during the False King Allant fight in 1-4, Biorr holds off the throne-room knights so you can focus on Allant.",
+    ],
+    video: "https://www.youtube.com/watch?v=7Fpx22Le-6k"
+  },
+{
+    id: 2353,
+    type: "side",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "Old King Doran",
+    location: "Boletarian Palace (1-1) — golden fog chamber",
+    length: "medium",
+    difficulty: "High",
+    reward: "Demonbrandt, Ancient King's Set (Doran's armor), Eternal Warrior's Ring",
+    summary:
+      "Seek out Old King Doran, the legendary knight guarding a tower chamber in the Gates of Boletaria behind a golden fog. This optional superboss is one of the toughest early fights in the game and rewards the holy sword Demonbrandt.",
+    aiTip:
+      "Come back heavily leveled (or in NG+) — Doran hits like a truck and blocks relentlessly. Bait his combos, punish from behind with a strong weapon, and keep healing stocked. Reducing him low is enough to end the fight and claim the rewards.",
+    walkthrough: [
+      "Return to the Gates of Boletaria (1-1) once you're strong enough for an optional endgame-tier fight.",
+      "Take the long route up past the Blue-Eyed Knights and the red dragon's bridge to the tower stairs.",
+      "Enter the golden fog gate at the top to challenge Old King Doran.",
+      "Fight defensively — bait his heavy combos, roll through, and punish from behind; keep Second Chance or grasses ready.",
+      "Bring him down (or low enough to yield) to claim Demonbrandt, the Ancient King's armor set, and the Eternal Warrior's Ring.",
+    ],
+    video: "https://www.youtube.com/watch?v=P-eFmZV8BWA"
+  },
+{
     id: 756,
     type: "main",
     game: "Pillars of Eternity",
