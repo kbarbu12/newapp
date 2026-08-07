@@ -6239,10 +6239,11 @@ const quests = [
     aiTip:
       "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
     walkthrough: [
-      "Play the Nibelheim flashback, following Sephiroth up the mountain path to the reactor.",
-      "Fight through the reactor's monsters and reach Jenova's chamber.",
-      "Survive the Materia Guardian boss encounter.",
-      "Witness Sephiroth's breakdown and the burning of Nibelheim to close the prologue."
+      "Begin the Nibelheim flashback as young Cloud, arriving in town with Sephiroth and the Shinra escort.",
+      "Rest at the inn, then follow Sephiroth up the Mt. Nibel path, fighting through the reactor's monsters.",
+      "Inside the reactor, inspect the Jenova pods and the sealed chamber as Sephiroth uncovers the truth about his origin.",
+      "Return to town after Sephiroth locks himself in the Shinra Manor library; witness his breakdown.",
+      "Survive the burning of Nibelheim and the reactor confrontation to close the prologue and hand control to present-day Cloud."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
   },
@@ -6262,10 +6263,11 @@ const quests = [
     aiTip:
       "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
     walkthrough: [
-      "Arrive in Kalm and complete its story beats and shopping.",
-      "Enter the Grasslands and sync the first Remnawave tower for Chadley.",
-      "Catch a chocobo at the ranch to unlock faster traversal.",
-      "Follow the main path toward the Mythril Mine to advance."
+      "Leave the Nibelheim flashback and reach Kalm with the party; complete the town's story beats and shop for materia and gear.",
+      "Head out into the Grasslands, Rebirth's first open region, and follow the objective marker.",
+      "Activate the first Remnawave tower for Chadley to reveal the region map and its World Intel.",
+      "Visit the Chocobo Ranch and catch/tame a chocobo to unlock faster traversal.",
+      "Follow the main path toward the Mythril Mine to advance the story."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
   },
@@ -6285,10 +6287,11 @@ const quests = [
     aiTip:
       "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
     walkthrough: [
-      "Cut through the Mythril Mine, dealing with the Turks along the way.",
-      "Solve the mine's traversal puzzles and clear its monsters.",
-      "Encounter the mysterious swordsman on the road to the coast.",
-      "Exit toward Junon to continue the story."
+      "Enter the Mythril Mine and push through its tunnels and traversal puzzles.",
+      "Deal with the Turks (Rude and Reno) blocking the way as you descend.",
+      "Clear the mine's monsters and any Mako-crystal obstacles to open the path.",
+      "Encounter the mysterious black-caped swordsman on the road beyond the mine.",
+      "Exit toward the Junon coast to continue."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
   },
@@ -6308,9 +6311,10 @@ const quests = [
     aiTip:
       "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
     walkthrough: [
-      "Reach the Junon region and take in the military spectacle.",
-      "Complete the coastal-plains objectives and new Odd Jobs.",
-      "Sync the region's tower and progress Chadley's intel.",
+      "Arrive in the Junon region and take in the Shinra military spectacle.",
+      "Sync the region's Remnawave tower and update Chadley's intel.",
+      "Work through the coastal-plains story objectives and the new batch of Odd Jobs.",
+      "Prepare for the upcoming Junon parade — practice the marching drill when prompted.",
       "Advance the main path toward Junon proper."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
@@ -6331,9 +6335,10 @@ const quests = [
     aiTip:
       "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
     walkthrough: [
-      "Board the Shinra transport crossing the sea from Junon.",
-      "Handle the onboard events as tensions rise.",
-      "Clear the mid-voyage combat encounters.",
+      "Complete the Junon parade set piece, then board the Shinra transport ship bound across the sea.",
+      "Handle the onboard story events as tensions among the party and Shinra rise.",
+      "Clear the mid-voyage combat encounters on deck.",
+      "See the shipboard confrontation through to its climax.",
       "Arrive at Costa del Sol to continue."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
@@ -6354,10 +6359,10 @@ const quests = [
     aiTip:
       "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
     walkthrough: [
-      "Arrive at the resort town of Costa del Sol.",
-      "Enjoy the beach events, swimwear, and minigames.",
-      "Complete the region's Odd Jobs and story beats.",
-      "Follow the main path toward the Corel region."
+      "Disembark at the resort town of Costa del Sol and change into the beach attire.",
+      "Play through the resort's story beats and relationship moments.",
+      "Try the local minigames (they feed trophies and rewards) and clear the region's Odd Jobs.",
+      "Follow the main path out toward the Corel region and its desert."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
   },
@@ -6377,10 +6382,10 @@ const quests = [
     aiTip:
       "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
     walkthrough: [
-      "Enter the Corel region and its dustbowl and desert prison.",
-      "Progress the story tied to Barret and Dyne's past.",
-      "Sync the tower and pick up the region's intel and jobs.",
-      "Advance toward the Gold Saucer."
+      "Enter the Corel region — the dustbowl, canyons, and the desert prison.",
+      "Sync the region tower and pick up its World Intel and Odd Jobs.",
+      "Progress the story tied to Barret and Dyne's shared past.",
+      "Ride the region chocobo across the gaps to reach objectives, then advance toward the Gold Saucer."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
   },
@@ -6400,10 +6405,10 @@ const quests = [
     aiTip:
       "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
     walkthrough: [
-      "Reach the dazzling Gold Saucer amusement park.",
-      "Play through the attractions and story events.",
-      "Confront the wrenching story of Dyne in Corel Prison.",
-      "Complete the chapter's major beats to move on."
+      "Reach the Gold Saucer amusement park and take in the attractions.",
+      "Play through the required arcade/minigame story events (save GP for the games).",
+      "Descend to Corel Prison and confront the wrenching story of Dyne.",
+      "Fight the chapter's major boss beat, then complete the events to move on."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
   },
@@ -6423,10 +6428,11 @@ const quests = [
     aiTip:
       "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
     walkthrough: [
-      "Enter the lush, mushroom-filled Gongaga jungle.",
-      "Explore Zack's hometown and deal with the Turks.",
-      "Uncover the reactor-meltdown legacy in the story beats.",
-      "Sync the region's intel and advance the main path."
+      "Enter the lush, mushroom-filled Gongaga jungle and sync its tower.",
+      "Use the region's springs and chocobo to navigate the dense, layered terrain.",
+      "Explore Zack's hometown of Gongaga and deal with the Turks operating there.",
+      "Uncover the reactor-meltdown legacy through the story beats.",
+      "Advance the main path once the region's key events resolve."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
   },
@@ -6446,10 +6452,10 @@ const quests = [
     aiTip:
       "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
     walkthrough: [
-      "Travel to Cosmo Canyon, the spiritual heart of the Planet, with Red XIII.",
-      "Progress the story about the Lifestream and Red's heritage.",
-      "Complete the region's objectives and intel.",
-      "Advance toward Nibelheim."
+      "Travel to Cosmo Canyon with Red XIII and reach the observatory settlement.",
+      "Progress the story of the Lifestream, the Planet, and Red's heritage.",
+      "Complete the region's tower and intel, and take on the Cosmo Odd Jobs.",
+      "See Red XIII's arc through its emotional peak, then advance toward Nibelheim."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
   },
@@ -6470,9 +6476,9 @@ const quests = [
       "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
     walkthrough: [
       "Return to present-day Nibelheim in the Nibel region.",
-      "Investigate the mansion and Shinra's experiments.",
-      "Confront the truth of Cloud's memories in the story beats.",
-      "Push the plot toward its next turn."
+      "Investigate Shinra Manor and the basement laboratory tied to Hojo's experiments.",
+      "Confront the contradictions in Cloud's memories through the story beats.",
+      "Clear the mansion's encounters and push the plot toward its next turn."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
   },
@@ -6493,9 +6499,9 @@ const quests = [
       "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
     walkthrough: [
       "Regroup at the Gold Saucer for the run-up to the finale.",
-      "Unlock the last wave of Odd Jobs across every region.",
-      "Wrap up remaining world intel and side content while you can.",
-      "Advance the main story toward the Temple of the Ancients."
+      "The last wave of Odd Jobs across every region unlocks now — mop up remaining World Intel and side content, since several close after this chapter.",
+      "Complete the required Gold Saucer story events (including the date sequence set by your relationship choices).",
+      "When ready, advance the main story toward the Temple of the Ancients (a point of no return follows)."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
   },
@@ -6515,9 +6521,10 @@ const quests = [
     aiTip:
       "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
     walkthrough: [
-      "Enter the Temple of the Ancients and its shifting geometry.",
-      "Solve the temple's rotating puzzles and clear its guardians.",
-      "Progress the pivotal story confrontation.",
+      "Enter the Temple of the Ancients and navigate its shifting, rotating geometry.",
+      "Solve the temple's clock-face and scale puzzles to open the deeper chambers.",
+      "Clear the ancient guardians; bring a healing-focused materia setup as encounters escalate.",
+      "Progress the pivotal story confrontation inside the temple.",
       "Complete the chapter to reach the finale's approach."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
@@ -6539,9 +6546,9 @@ const quests = [
       "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
     walkthrough: [
       "Reach the Forgotten Capital for Rebirth's climactic finale.",
-      "Play through the destined, reinterpreted encounter.",
-      "Fight the chapter's major boss battles.",
-      "See the story to its emotional conclusion."
+      "Play through the destined, reinterpreted encounter at the heart of the city.",
+      "Fight the chapter's multi-phase boss battles with your strongest builds and summons.",
+      "See the story through its emotional conclusion and the game's ending sequence."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
   },
@@ -6561,10 +6568,10 @@ const quests = [
     aiTip:
       "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
     walkthrough: [
-      "Talk to the ranch hand at Bill's Ranch in the Grasslands to start the job.",
-      "Follow the marker to track the lost Queen's Blood card across the fields.",
-      "Deal with any foes guarding it.",
-      "Return the card — it's added to your deck."
+      "Accept the job from the ranch hand at the Grasslands Chocobo Ranch.",
+      "Follow the marker to track down the lost Queen's Blood card across the ranch fields.",
+      "Defeat the monsters guarding the spot where the card was dropped.",
+      "Recover the card and return it to the quest-giver; it's added to your Queen's Blood deck."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
   },
@@ -6584,10 +6591,10 @@ const quests = [
     aiTip:
       "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
     walkthrough: [
-      "Accept the job from the rancher in Under Junon.",
-      "Approach and calm the skittish chocobos using the prompts.",
-      "Wrangle each one back toward the pen.",
-      "Report to the rancher for the reward."
+      "Take the job from the rancher in Under Junon whose chocobos have gone skittish.",
+      "Approach each chocobo slowly and use the calm/soothe prompts without startling them.",
+      "Herd the calmed birds back toward the pen one at a time.",
+      "Report to the rancher — completing it smooths chocobo traversal across Junon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
   },
@@ -6608,9 +6615,9 @@ const quests = [
       "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
     walkthrough: [
       "Take the request from the wistful local in Coastal Junon.",
-      "Follow the objective to help chase their small dream.",
-      "Complete the tasks against Junon's militarized backdrop.",
-      "Return to the quest-giver to finish."
+      "Follow the objective to help them chase their small, hopeful dream against Junon's militarized backdrop.",
+      "Complete the marked tasks and any accompanying dialogue choices (they nudge party affinity).",
+      "Return to the quest-giver to finish and claim the accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
   },
@@ -6630,10 +6637,10 @@ const quests = [
     aiTip:
       "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
     walkthrough: [
-      "Start the job in the Junon Wetlands where the frogs have gone haywire.",
-      "Investigate the cause along the marked path.",
-      "Deal with the source disturbing the population.",
-      "Restore the balance and report back."
+      "Start the job in the Junon Wetlands, where the frog population has gone haywire.",
+      "Follow the marked trail to investigate the cause of the disturbance.",
+      "Fight the source enemies — keep a Remedy or Esuna ready to cure Toad status.",
+      "Restore the wetlands' balance and report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
   },
@@ -6653,10 +6660,10 @@ const quests = [
     aiTip:
       "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
     walkthrough: [
-      "Begin the rendezvous job in Costa del Sol.",
-      "Follow the lighthearted objectives around the resort.",
-      "Complete the beach-town tasks and any battles.",
-      "Meet the quest-giver to wrap it up."
+      "Begin the rendezvous job in Costa del Sol during the resort chapter.",
+      "Follow the lighthearted objectives around the beach town.",
+      "Complete the tasks and any battles, picking dialogue that matches who you want to romance.",
+      "Meet the quest-giver to wrap it up and set the relationship flag."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
   },
@@ -6676,10 +6683,10 @@ const quests = [
     aiTip:
       "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
     walkthrough: [
-      "Accept the muscleheads' challenge in Costa del Sol.",
-      "Take on the squats minigame and match the rhythm prompts.",
-      "Beat the target score to prove your strength.",
-      "Collect the reward for winning."
+      "Accept the muscleheads' squats challenge in Costa del Sol.",
+      "Watch the on-screen rhythm pattern for the squats minigame and match the prompts.",
+      "Pace yourself so you don't burn out early, and beat the target score.",
+      "Collect the reward for out-lifting the challengers."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
   },
@@ -6699,10 +6706,10 @@ const quests = [
     aiTip:
       "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
     walkthrough: [
-      "Take the job investigating black-robed men in the Corel Dustbowl.",
-      "Follow the clues into the ransom scheme tied to Sephiroth's followers.",
+      "Take the job investigating reports of black-robed men in the Corel Dustbowl.",
+      "Follow the clues to the ransom scheme tied to Sephiroth's followers, reading the notes you recover for foreshadowing.",
       "Fight through the culprits at the marked site.",
-      "Resolve the ransom and report back."
+      "Resolve the ransom situation and report back for the materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
   },
@@ -6722,10 +6729,10 @@ const quests = [
     aiTip:
       "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
     walkthrough: [
-      "Enter the desert prison arena in the Dustbowl.",
-      "Fight through the escalating combat trials for the crowd.",
-      "Adapt to each wave's enemies.",
-      "Clear the final bout for the payout."
+      "Enter the desert-prison arena in the Corel Dustbowl and sign up for the trials.",
+      "Fight through the escalating waves of combatants for the crowd.",
+      "Exploit each wave's elemental weaknesses and keep healing up.",
+      "Clear the final bout to earn the payout and party-bond reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
   },
@@ -6745,9 +6752,9 @@ const quests = [
     aiTip:
       "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
     walkthrough: [
-      "Talk to the villager in Gongaga whose bird has vanished.",
-      "Follow the clues into the jungle to track Mr. Birdie.",
-      "Navigate the hazards and any foes along the trail.",
+      "Talk to the villager in Gongaga whose beloved bird, Mr. Birdie, has vanished.",
+      "Ride your chocobo and use its scent-tracking to follow the trail through the dense jungle.",
+      "Navigate the terrain hazards and clear any foes along the path.",
       "Bring Mr. Birdie home to complete the job."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
@@ -6768,10 +6775,10 @@ const quests = [
     aiTip:
       "Gather the exact items requested — partial deliveries won't satisfy this client.",
     walkthrough: [
-      "Accept the craftsman's request in Gongaga Village.",
-      "Gather the rare jungle ingredients he needs, using your chocobo to sniff them out.",
-      "Return each component to him.",
-      "Complete his flawless creation for the reward."
+      "Accept the perfectionist craftsman's request in Gongaga Village.",
+      "Use your chocobo to sniff out the exact rare jungle ingredients he lists.",
+      "Gather each requested component (partial deliveries won't satisfy him) and return them.",
+      "Hand over the materials so he can finish his flawless creation and pay you."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
   },
@@ -6791,10 +6798,10 @@ const quests = [
     aiTip:
       "Chocobo traversal and the region's springs make chasing down the strays far easier.",
     walkthrough: [
-      "Start the job to round up escaped fowl in the Gongaga jungle.",
-      "Chase down each bird along the treacherous paths.",
-      "Corner and catch them one by one.",
-      "Return them all to finish the job."
+      "Start the job to round up the escaped fowl scattered across the Gongaga jungle.",
+      "Use chocobo traversal and the region's springs to reach the strays on the treacherous paths.",
+      "Corner and catch each bird one at a time.",
+      "Return them all to the owner to finish the job."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
   },
@@ -6814,10 +6821,10 @@ const quests = [
     aiTip:
       "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
     walkthrough: [
-      "Begin Yuffie's job proving herself to the aspiring young 'warrior' in Gongaga.",
-      "Play along with the comedic training tasks.",
-      "Complete each challenge the kid sets.",
-      "Finish the arc for the reward and a laugh."
+      "Begin Yuffie's job proving herself to an aspiring young 'warrior' in Gongaga.",
+      "Play along with the comedic training tasks the kid sets.",
+      "Complete each challenge in order.",
+      "Finish the arc to strengthen Yuffie's party bond and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
   },
@@ -6838,9 +6845,9 @@ const quests = [
       "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
     walkthrough: [
       "Talk to Cissnei at her house in Gongaga to start the job.",
-      "Ride your chocobo to sniff out the rare Magonga Mushrooms in the jungle.",
-      "Collect the required mushrooms.",
-      "Return them to Cissnei to complete the dish."
+      "Ride your chocobo and hold the tracking input to follow its nose to the rare Magonga Mushrooms in the jungle.",
+      "Collect the three required mushrooms (they're easy to miss in the foliage).",
+      "Return them to Cissnei to complete the dish and earn the cooking recipe."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
   },
@@ -6861,9 +6868,9 @@ const quests = [
       "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
     walkthrough: [
       "Begin the trust job among Cosmo Canyon's people and wildlife.",
-      "Complete the tasks that earn the locals' and animals' trust.",
-      "Follow the objectives along the canyon paths.",
-      "Finish to unlock the region's mountain chocobo."
+      "Complete the tasks that earn the locals' and the animals' trust along the canyon paths.",
+      "Follow the chain of objectives to its final step.",
+      "Finish to unlock the region's mountain chocobo and claim Yuffie's Crescent Sickle weapon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
   },
@@ -6884,9 +6891,9 @@ const quests = [
       "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
     walkthrough: [
       "Accept the job at the Cosmo Canyon Observatory.",
-      "Help restore the astronomical markers along the marked route.",
-      "Complete the alignment tasks tied to the canyon's cosmology.",
-      "Report back to finish."
+      "Follow the marked route to help restore the canyon's astronomical markers.",
+      "Complete the alignment/observation tasks tied to the region's cosmology.",
+      "Report back to finish and pick up the materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
   },
@@ -6908,8 +6915,8 @@ const quests = [
     walkthrough: [
       "Start the job investigating a Lifestream-touched site near Cosmo Canyon.",
       "Follow the objective to the disturbed sacred ground.",
-      "Deal with the strange phenomena and any foes.",
-      "Resolve the disturbance and report back."
+      "Deal with the strange phenomena and any enemies drawn to it.",
+      "Resolve the disturbance and report back for the healing materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
   },
@@ -6930,9 +6937,9 @@ const quests = [
       "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
     walkthrough: [
       "Begin the 'Promises to Keep' job in Cosmo Canyon village.",
-      "Follow the story of an old promise to a departed friend.",
-      "Complete the tasks honoring their wish.",
-      "Return to the quest-giver to close the arc."
+      "Follow the story of an old promise made to a departed friend.",
+      "Complete the tasks required to honor their wish.",
+      "Return to the quest-giver to close the arc and boost party affinity."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
   },
@@ -6952,10 +6959,10 @@ const quests = [
     aiTip:
       "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
     walkthrough: [
-      "Reach the ancient trials on Mt. Nibel to start the job.",
+      "Reach the ancient trials hidden on Mt. Nibel to start the job.",
       "Solve the esoteric puzzles along the mountain paths.",
-      "Defeat the guardian battles the trials pit against you.",
-      "Complete the trials for the reward."
+      "Defeat the guardian battles, bringing elemental variety since the guardians rotate weaknesses across stages.",
+      "Complete all trial stages for the rare materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
   },
@@ -6975,10 +6982,10 @@ const quests = [
     aiTip:
       "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
     walkthrough: [
-      "Accept the job about wartime anxieties in the Nibel/Junon coast area.",
-      "Help those caught between Shinra's war machine and daily survival.",
+      "Accept the job about wartime anxieties along the Nibel/Junon coast.",
+      "Help the people caught between Shinra's war machine and daily survival.",
       "Complete each of the marked tasks.",
-      "Report back to finish the job."
+      "Report back to finish and gain the affinity/accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
   },
@@ -6998,10 +7005,10 @@ const quests = [
     aiTip:
       "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
     walkthrough: [
-      "Take the tougher Chapter 12 job sending you back to the Grasslands.",
+      "Take the tougher Chapter 12 job that sends the party back to the Grasslands.",
       "Travel to the marked high-stakes objective.",
-      "Defeat the upgraded foes there.",
-      "Complete the work for its reward."
+      "Defeat the upgraded endgame foes with your Chapter 12 builds and summons.",
+      "Complete the work for its endgame materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
   },
@@ -7021,10 +7028,10 @@ const quests = [
     aiTip:
       "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
     walkthrough: [
-      "Begin the late-game mystery in the Junon Wetlands.",
+      "Begin the late-game mystery in the Junon Wetlands (needs endgame traversal upgrades).",
       "Follow the clues to uncover what lurks beneath the surface.",
       "Fight the threat revealed in the waters.",
-      "Resolve the mystery and report back."
+      "Resolve the mystery and report back for the rare item."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
   },
@@ -7045,9 +7052,9 @@ const quests = [
       "A callback quest — earlier Costa del Sol choices color how this one resolves.",
     walkthrough: [
       "Start the 'Trouble in Paradise' job in Costa del Sol.",
-      "Investigate the endgame threat reaching the resort.",
+      "Investigate the endgame threat that has reached the resort (earlier choices color how it resolves).",
       "Fight through the escalating danger.",
-      "Restore order and complete the job."
+      "Restore order and complete the job for the accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
   },
@@ -7067,10 +7074,10 @@ const quests = [
     aiTip:
       "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
     walkthrough: [
-      "Accept the woodland vigil job in the Gongaga jungle.",
-      "Stand watch against the escalating endgame incursion.",
-      "Defeat the waves of foes at the marked posts.",
-      "Hold the line to finish the job."
+      "Accept the woodland-vigil job in the Gongaga jungle.",
+      "Stand watch at the marked posts against the escalating endgame incursion.",
+      "Defeat the waves of foes — area-of-effect materia helps clear them fast.",
+      "Hold the line through the final wave to finish and earn the rare crafting mats."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
   },
@@ -7090,10 +7097,10 @@ const quests = [
     aiTip:
       "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
     walkthrough: [
-      "Begin the endgame Cosmo Canyon job.",
-      "Follow the objective with real consequences to its site.",
+      "Begin the endgame Cosmo Canyon job with real story consequences.",
+      "Follow the objective to its site.",
       "Defeat the encounter guarding the reward.",
-      "Claim one of the game's best support materia."
+      "Claim the Magnify Materia — pair it with Heal or Barrier to buff the whole party at once."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
   },
@@ -7114,9 +7121,9 @@ const quests = [
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
     walkthrough: [
       "Start the grim Chapter 12 quest on Mt. Nibel.",
-      "Progress the story strengthening Barret's resolve.",
+      "Progress the story that strengthens Barret's resolve.",
       "Fight through the marked encounters.",
-      "Unlock Hojo's combat exams on completion."
+      "Complete it to unlock Hojo's combat exams and earn the Art of Swordplay Vol. VI manuscript."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   },
@@ -7135,10 +7142,11 @@ const quests = [
     aiTip:
       "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
     walkthrough: [
-      "Talk to the ailing man's family in White Orchard to take the quest.",
-      "Follow your Senses to gather the herbs needed for the antidote.",
-      "Return and brew or deliver the cure.",
-      "Decide whether to save him or let nature run its course."
+      "In White Orchard, speak with the dying man's household and agree to help find a cure.",
+      "Consult Tomira the herbalist about what the wound needs.",
+      "Use Witcher Senses to locate and gather the required herbs, clearing any monsters at the spot.",
+      "Bring the herbs back so the remedy can be prepared.",
+      "Decide the outcome based on what you uncover about the man — then report back to close the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
   },
@@ -7157,10 +7165,11 @@ const quests = [
     aiTip:
       "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
     walkthrough: [
-      "Speak with the White Orchard smith about his torched forge.",
-      "Examine the burnt forge with your Witcher Senses for clues.",
-      "Follow the trail to the arsonist responsible.",
-      "Confront the culprit and resolve the dispute."
+      "Talk to the White Orchard blacksmith about his torched forge.",
+      "Examine the burnt forge with Witcher Senses to pick up the arsonist's trail.",
+      "Follow the tracks away from the village to the culprit.",
+      "Confront the arsonist and choose how to resolve the dispute (fight or talk them down).",
+      "Return to the smith for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
   },
@@ -7179,10 +7188,11 @@ const quests = [
     aiTip:
       "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
     walkthrough: [
-      "Read the notice board contract and reach the abandoned village well.",
-      "Investigate the site by day, then meditate to nightfall to summon the noonwraith.",
-      "Apply Specter Oil, use Yrden to trap it, and dodge its swift strikes.",
-      "Banish the noonwraith and claim the contract reward."
+      "Take the contract from the White Orchard notice board and head to the abandoned village well.",
+      "Investigate the site with Witcher Senses, then meditate to nightfall to draw out the noonwraith.",
+      "Apply Specter Oil and cast Yrden to trap the wraith so it can be hit.",
+      "Dodge its rapid teleport strikes and destroy the illusions it spawns.",
+      "Banish the noonwraith, take its trophy, and claim the contract fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
   },
@@ -7201,10 +7211,11 @@ const quests = [
     aiTip:
       "Ties directly into the Baron's main arc — do it before leaving Velen.",
     walkthrough: [
-      "Continue the Baron's search for his daughter Anna's trail.",
-      "Question the villagers and follow the leads with your Senses.",
-      "Track the party through the woods toward Crookback Bog.",
-      "Uncover the family's dark story and report to the Baron."
+      "In Velen, find the children playing and learn a girl has gone missing near the swamp.",
+      "Follow the trail with Witcher Senses toward Crookback Bog.",
+      "Track the 'princess' to a cave and deal with the monsters inside.",
+      "Uncover the truth of what happened and rescue or recover the child.",
+      "Return to report the outcome."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
@@ -7223,10 +7234,11 @@ const quests = [
     aiTip:
       "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
     walkthrough: [
-      "Take the crossroads contract and inspect the fresh graves.",
-      "Follow the Senses trail to the grave hag's lair.",
-      "Apply Necrophage Oil, use Yrden, and stagger it with Aard.",
-      "Kill the grave hag and collect the bounty."
+      "Accept the contract and question the widow and locals about the grave attacks.",
+      "Follow the trail with Witcher Senses to the haunted cemetery.",
+      "Apply Necrophage Oil and prepare Igni/Quen for the Grave Hag.",
+      "Bait its tongue-grab, dodge, and burn it down; watch for its mud-hurling.",
+      "Kill the Grave Hag, take the trophy, and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
   },
@@ -7245,10 +7257,11 @@ const quests = [
     aiTip:
       "Reading the hidden notes reveals Keira's true motives before you meet her.",
     walkthrough: [
-      "Pick up Keira Metz's trail in the Velen swamps.",
-      "Follow the tracks and monster clues with your Senses.",
-      "Deal with the drowners and hazards along the way.",
-      "Find Keira and agree to help with her problem."
+      "Begin at the Velen village where a woman is accused of witchcraft.",
+      "Use Witcher Senses to follow her tracks into the woods.",
+      "Investigate her hut and the surrounding signs of what she really is.",
+      "Confront the 'witch' and choose whether to spare or fight her.",
+      "Resolve the villagers' fate and finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
   },
@@ -7267,10 +7280,12 @@ const quests = [
     aiTip:
       "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
     walkthrough: [
-      "Head to the sealed elven ruin with Keira.",
-      "Descend into the dark, lighting the way and clearing monsters.",
-      "Solve the ruin's puzzles to reach the sealed chamber.",
-      "Escape the pursuing gargoyle and recover what Keira seeks."
+      "Meet Keira Metz and agree to explore the elven ruins beneath the lake.",
+      "Descend into the ruins, using Igni to light braziers and Aard on weak walls.",
+      "Fight through the drowners and the Gargoyle guardians in the depths.",
+      "Solve the ruin's puzzles to reach the mage Alexander's laboratory.",
+      "Recover what Keira seeks and escape as the ruin's defenders wake.",
+      "Return to Keira to complete the quest and continue her storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
   },
@@ -7289,10 +7304,11 @@ const quests = [
     aiTip:
       "Equip the lamp and use it on the shimmering barriers to press forward.",
     walkthrough: [
-      "Obtain the djinn's lamp and bring it to the sealed sanctum for Keira.",
-      "Use the lamp to dispel the illusions blocking the way.",
-      "Explore the mage's hidden chambers.",
-      "Recover the item and finish Keira's task."
+      "Join Keira Metz and take the enchanted Magic Lamp she gives you.",
+      "Explore the cavern, using the lamp to reveal and dispel hidden specters.",
+      "Follow the visions the lamp uncovers to piece together what happened here.",
+      "Clear the wraiths blocking the way and reach the sealed chamber.",
+      "Uncover the truth of the site and report back to Keira."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
   },
@@ -7311,10 +7327,11 @@ const quests = [
     aiTip:
       "Torch the leshen's totems first, then bring Relict Oil and Igni.",
     walkthrough: [
-      "Take the leshen contract from the superstitious hamlet.",
-      "Track the leshen with your Senses and gather the ritual clues.",
-      "Choose to kill it or perform the villagers' ritual.",
-      "Resolve the contract and collect payment."
+      "Take the contract and question the villagers about the woodland killings.",
+      "Track the victims and territorial markings with Witcher Senses to the leshen's grove.",
+      "Destroy the totems the leshen uses, then apply Relict Oil and ready Igni.",
+      "Fight the leshen — dodge its root attacks and burn the animals it summons.",
+      "Slay it, take the trophy, and claim the fee (or honor a druid's plea, if offered)."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
   },
@@ -7333,10 +7350,11 @@ const quests = [
     aiTip:
       "A short, poignant contract — follow the flowers to piece the story together.",
     walkthrough: [
-      "Investigate the 'haunted' house in Novigrad.",
-      "Use your Senses to piece together the ghost dog's tragedy.",
-      "Follow the spectral clues through the property.",
-      "Lay the loyal hound's spirit to rest."
+      "In Novigrad, investigate the disturbances at the painter's house.",
+      "Use Witcher Senses to follow the ghostly clues through the building.",
+      "Track the source to the garden and the buried remains behind the haunting.",
+      "Lay the spirit to rest by resolving its unfinished business.",
+      "Report back to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
   },
@@ -7355,10 +7373,11 @@ const quests = [
     aiTip:
       "Ham it up on stage — the performance choices are pure delight and affect the scene.",
     walkthrough: [
-      "Join Irina's theatre troupe to draw out a lead on Dandelion.",
-      "Rehearse and perform your role on stage, following the cues.",
-      "Handle the on-stage 'monster' and improvisation.",
-      "Learn the informant's tip after the show."
+      "Meet Priscilla and Irina at the Novigrad theatre to stage the play.",
+      "Gather the props and cast — recruit the doppler Dudu for the role.",
+      "Choose costumes and coach the performance during rehearsal.",
+      "Play your part on stage during the live performance (use the right cues).",
+      "See the play through to acclaim and continue Dandelion's storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
   },
@@ -7377,10 +7396,11 @@ const quests = [
     aiTip:
       "Bring good armor; the hideout is a tough multi-wave fight.",
     walkthrough: [
-      "Storm Whoreson Junior's operation to reach the captive bard.",
-      "Fight through the guards using signs and dodges.",
-      "Search the hideout with your Senses for Dandelion.",
-      "Free Dandelion and get him to safety."
+      "Find Dandelion's associates in Novigrad to learn he's in trouble.",
+      "Follow the leads through the city with Witcher Senses.",
+      "Deal with the pressure on the poet — talk or fight your way past his captors.",
+      "Secure the information or person you were after.",
+      "Report back to advance the search for Dandelion."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
   },
@@ -7399,10 +7419,11 @@ const quests = [
     aiTip:
       "A charming lighthearted quest — enjoy the banter, low combat.",
     walkthrough: [
-      "Help Dandelion turn the rundown building into the Chameleon.",
-      "Run the errands to stock and staff the cabaret.",
-      "Go on the eventful 'date' the plan requires.",
-      "Open the Chameleon and wrap up the quest."
+      "Meet Priscilla to plan the cabaret at the Rosemary and Thyme.",
+      "Run the errands to fit out the tavern for the show.",
+      "Handle the interruptions and toughs who show up.",
+      "Get the venue ready and stage the cabaret.",
+      "Wrap up to progress Dandelion's arc."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
   },
@@ -7421,10 +7442,12 @@ const quests = [
     aiTip:
       "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
     walkthrough: [
-      "Meet Dijkstra about his stolen treasure beneath the bathhouse.",
-      "Investigate the heist tunnels with your Senses.",
-      "Uncover the pogrom against Novigrad's mages tied to the theft.",
-      "Report your findings and decide how to handle Dijkstra."
+      "Meet Sigi Reuven (Dijkstra) and agree to recover his stolen treasure.",
+      "Investigate the bathhouse tunnels flooded by the heist, using Aard and Senses.",
+      "Trace the thieves' route and interrogate Whoreson Junior's leads.",
+      "Fight through the ambush in the underground passages.",
+      "Recover the treasure's fate and uncover the traitor.",
+      "Report to Dijkstra to close the quest and advance the Novigrad plot."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
   },
@@ -7443,10 +7466,11 @@ const quests = [
     aiTip:
       "Ties into the Triss romance path — pursue it if you want that ending.",
     walkthrough: [
-      "Meet Triss and the hunted mages hiding in Novigrad.",
-      "Help them evade the witch hunters through the city.",
-      "Fight or sneak past the patrols as needed.",
-      "Get the mages to a safer refuge."
+      "Look into the witch-hunter propaganda gripping Novigrad.",
+      "Follow the clues with Witcher Senses to the source of the smear campaign.",
+      "Deal with the agents behind it (talk or fight).",
+      "Expose or resolve the plot as you choose.",
+      "Report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
   },
@@ -7465,10 +7489,12 @@ const quests = [
     aiTip:
       "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
     walkthrough: [
-      "Take the contract on the string of romantic killings.",
-      "Investigate each rendezvous site with your Senses.",
-      "Bait the katakan out, apply Vampire Oil, and use Moon Dust and Yrden.",
-      "Slay the vampire and claim the reward."
+      "Take the contract on the Novigrad murders and question witnesses.",
+      "Investigate the crime scenes with Witcher Senses to follow the scent trail.",
+      "Track the killer to its lair beneath the city.",
+      "Apply Cursed Oil and prepare Yrden/Quen for the succubus.",
+      "Fight or parley with the succubus depending on what you learn, then resolve the contract.",
+      "Claim the reward from the quest-giver."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
   },
@@ -7487,10 +7513,11 @@ const quests = [
     aiTip:
       "The auction house infiltration rewards patience over brute force.",
     walkthrough: [
-      "Plan the sea escape for Novigrad's mages with Triss.",
-      "Secure the ship and bribe or fight your way to the docks.",
-      "Protect the refugees during the tense boarding.",
-      "See the operation through and part ways with Triss."
+      "Meet Cleaver and agree to hunt down the dwarves who robbed him.",
+      "Track the culprits across Novigrad with Witcher Senses.",
+      "Follow the trail to their hideout, dealing with lookouts.",
+      "Confront the thieves and recover Cleaver's money.",
+      "Decide their fate and report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
   },
@@ -7509,10 +7536,11 @@ const quests = [
     aiTip:
       "The Wild Hunt flashback battle is scripted — focus on survival.",
     walkthrough: [
-      "Follow Ciri's trail on Skellige to the village of Larvik.",
-      "Use your Senses to reconstruct what happened to Skjall.",
-      "Trace the events that led Ciri away.",
-      "Honor Skjall's memory and continue the search."
+      "Travel to Skellige and meet Yennefer to investigate Ciri's trail.",
+      "Explore the site of the megascope/ritual, using Senses for clues.",
+      "Reconstruct the events with Yennefer's magic, fighting any wraiths raised.",
+      "Uncover what Ciri and the Wild Hunt did here.",
+      "Report the findings to advance the search for Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
   },
@@ -7531,10 +7559,11 @@ const quests = [
     aiTip:
       "A story-driven quest with a memorable Ciri-playable segment.",
     walkthrough: [
-      "Help Ciri prepare for the Skellige rite while the Hunt closes in.",
-      "Fight off the Wild Hunt warriors that ambush you.",
-      "Complete the trial's steps alongside Ciri.",
-      "Escape and press on with the plan."
+      "Meet the witcher trying to complete the Trial of the Grasses and agree to help.",
+      "Gather the alchemical ingredients across Skellige with Witcher Senses.",
+      "Return the components and assist with the dangerous trial.",
+      "Deal with the fallout of the experiment.",
+      "See the outcome through and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
   },
@@ -7553,10 +7582,11 @@ const quests = [
     aiTip:
       "Piece together the reagents with Witcher Senses to reconstruct the accident.",
     walkthrough: [
-      "Reach the coastal alchemical lab and inspect the mage's body.",
-      "Follow the Senses clues around the experiment site.",
-      "Piece together the cause of the deadly accident.",
-      "Resolve the mystery and collect any rewards."
+      "Find the alchemist's lab in Skellige and take on the practicum.",
+      "Collect the reagents required for the advanced formula.",
+      "Brew the concoction correctly using the notes provided.",
+      "Handle the reaction/monster the experiment attracts.",
+      "Deliver the result to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
   },
@@ -7575,10 +7605,11 @@ const quests = [
     aiTip:
       "Specter Oil and Yrden as always for wraith-type foes.",
     walkthrough: [
-      "Take the White Lady contract at the haunted homestead.",
-      "Investigate the site and uncover the family tragedy behind the spirit.",
-      "Apply Specter Oil, use Yrden, and dodge the wraith's attacks.",
-      "Banish the White Lady and finish the contract."
+      "Take the contract and ask the villagers about the White Lady haunting.",
+      "Investigate the manor and grounds with Witcher Senses after dark.",
+      "Apply Specter Oil and use Yrden to make the noonwraith corporeal.",
+      "Dodge its swift strikes, dispel its illusions, and burn it with Igni.",
+      "Banish the wraith, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
   },
@@ -7597,10 +7628,11 @@ const quests = [
     aiTip:
       "Bring Insectoid Oil and dodge the ranged spit before closing in.",
     walkthrough: [
-      "Accept the bounty on the arachas nest in the Skellige mountains.",
-      "Climb to the lair, applying Insectoid Oil.",
-      "Use bombs and Aard to break their armored shells.",
-      "Clear the nest and claim the reward."
+      "Accept the contract and gather reports of the beast attacks across Skellige.",
+      "Track each kill site with Witcher Senses to pinpoint the lair.",
+      "Identify the monster's class and apply the matching oil, readying Quen.",
+      "Fight the beast, dodging its heavy attacks and exploiting its weakness.",
+      "Slay it, take the trophy, and claim the substantial reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
   },
@@ -7619,10 +7651,11 @@ const quests = [
     aiTip:
       "Read the environmental clues; the payoff informs the main story.",
     walkthrough: [
-      "Investigate the amnesiac stranger tied to the Wild Hunt saga.",
-      "Follow the Senses clues around the Skellige mystery.",
-      "Uncover his connection to the larger story.",
-      "Resolve the tale and its consequences."
+      "Begin the Skellige questline investigating the mysterious 'Nameless' figure.",
+      "Follow the trail with Witcher Senses through the isle's ruins.",
+      "Piece together the truth behind the legend, clearing the guardians.",
+      "Confront the being at the heart of the mystery.",
+      "Resolve the encounter and report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
   },
@@ -7641,10 +7674,11 @@ const quests = [
     aiTip:
       "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
     walkthrough: [
-      "Escort the cursed Uma back to Kaer Morhen.",
-      "Gather the witchers and prepare the brutal curse-breaking ritual.",
-      "Endure the Trial of the Grasses ordeal on Uma.",
-      "Break the curse to reveal the truth it hides."
+      "Meet Yennefer to prepare the ritual needed to help Uma.",
+      "Gather the rare ingredients and tools across Velen and Novigrad.",
+      "Bring everything to the lab and assist with the dangerous curse-breaking ritual.",
+      "Protect the process from the forces it unleashes.",
+      "See the ritual to its outcome and advance the main story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
   },
@@ -7663,10 +7697,11 @@ const quests = [
     aiTip:
       "Just go with it — the outrageous choices are the whole point and mostly harmless.",
     walkthrough: [
-      "Summon the ghost Vlodimir to possess Geralt for the wedding.",
-      "Carry the festivities as the rowdy spirit demands.",
-      "Complete each escalating wedding-night antic.",
-      "Send Vlodimir off before dawn to end the quest."
+      "In Velen, meet the sisters/loved ones planning the wake and agree to help.",
+      "Run the errands — food, drink, and guests — using Senses to track them down.",
+      "Handle the uninvited monsters or troublemakers that crash the party.",
+      "Keep the celebration going through its beats.",
+      "Finish the wake and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
   },
@@ -7685,10 +7720,12 @@ const quests = [
     aiTip:
       "The vault has a fistfight and a puzzle — prep both combat and patience.",
     walkthrough: [
-      "Plan the auction-house heist for Gaunter O'Dimm's employer.",
-      "Gather the disguise and tools, and scout the vault.",
-      "Pull off the break-in, bypassing the guards.",
-      "Escape with the target and complete the job."
+      "Meet Yennefer at the ransacked estate and agree to break into the sealed vault.",
+      "Explore the manor, using Aard and Senses to find the hidden mechanism.",
+      "Solve the vault puzzle to open the way (deal with the magical wards).",
+      "Fight the guardian/wraith protecting the treasure.",
+      "Recover the contents and decide what to do with them.",
+      "Report to Yennefer to close the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
   },
@@ -7707,10 +7744,12 @@ const quests = [
     aiTip:
       "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
     walkthrough: [
-      "Enter the painted world of Iris von Everec.",
-      "Cross the shifting nightmare, calming or fighting its manifestations.",
-      "Reunite Iris's sundered memories to stabilize the world.",
-      "Recover the rose and leave the painting."
+      "Travel with the spirit to the drowned house and agree to reconcile the family's ghosts.",
+      "Explore the vision of the home, using Senses to relive each family member's story.",
+      "Complete each spirit's unfinished task around the house.",
+      "Confront the truth of what tore the family apart.",
+      "Choose how to resolve the haunting and see the emotional outcome.",
+      "Return to finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
   },
@@ -7729,10 +7768,12 @@ const quests = [
     aiTip:
       "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
     walkthrough: [
-      "Answer the summons to Toussaint and take the beast contract.",
-      "Examine the killings and track the creature with your Senses.",
-      "Prepare the right oils and bombs for a higher vampire.",
-      "Confront the Beast of Toussaint and survive the fight."
+      "Reach Toussaint and take the investigation into the vineyard killings.",
+      "Examine the victims and territory with Witcher Senses to follow the beast.",
+      "Uncover that the attacks stem from a bruxa/higher vampire's curse.",
+      "Apply Vampire Oil and ready Black Blood and Moon Dust for the fight.",
+      "Defeat the creature, dispelling its invisibility with Yrden.",
+      "Resolve the contract and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
   },
@@ -7751,10 +7792,11 @@ const quests = [
     aiTip:
       "Vampire Oil and Black Blood are essential against the higher vampires.",
     walkthrough: [
-      "Investigate the grisly Beauclair killing to start the case.",
-      "Follow the Senses clues linking the deaths.",
-      "Trace the pattern back to the vampire threat.",
-      "Report your findings to advance the mystery."
+      "Take the contract at the Toussaint arena and speak with the organizer.",
+      "Investigate the beast rampaging in the cage with Witcher Senses.",
+      "Prepare the matching oil and defensive signs.",
+      "Fight the creature in the arena, exploiting its weakness.",
+      "Slay it and collect the prize."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
   },
@@ -7773,10 +7815,11 @@ const quests = [
     aiTip:
       "There's a lone survivor — how you handle her is the quest's real weight.",
     walkthrough: [
-      "Take the Cat School witcher's trail after the village massacre.",
-      "Reconstruct the killings with your Senses to learn the full story.",
-      "Track the rogue witcher to his hideout.",
-      "Confront him and decide his fate."
+      "Begin the Cat School gear treasure hunt in Toussaint.",
+      "Follow the map/clues to the ruined tower with Witcher Senses.",
+      "Clear the guardians and solve the tower's approach.",
+      "Recover the diagrams and uncover the tragic story of the cat witchers.",
+      "Return to craft or claim the gear and finish the hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
   },
@@ -7795,10 +7838,11 @@ const quests = [
     aiTip:
       "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
     walkthrough: [
-      "Meet the feuding Toussaint vineyards to start the Wine Wars.",
-      "Run each estate's errand — sabotage, deliveries, and favors.",
-      "Play the rivals against each other as instructed.",
-      "Complete the tasks for the vineyard rewards."
+      "Start the Wine Wars errand for one of Toussaint's rival vineyards.",
+      "Travel to the marked site and clear the monsters harming the estate.",
+      "Complete the task the vintner needs (sabotage or recovery).",
+      "Report back to boost the vineyard's fortunes.",
+      "Collect the reward and progress the Wine Wars chain."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
   },
@@ -7817,10 +7861,11 @@ const quests = [
     aiTip:
       "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
     walkthrough: [
-      "Take the Oxenfurt-forest contract on the fiend (Hearts of Stone).",
-      "Track the fiend with your Senses and apply Relict Oil.",
-      "Use Devil's Puffball, Yrden, and dodges against its charges.",
-      "Slay the fiend and collect the bounty."
+      "Take the contract and question the Oxenfurt-forest locals about the attacks.",
+      "Track the creature with Witcher Senses to its forest lair.",
+      "Identify its class, apply the matching oil, and ready Quen and Igni.",
+      "Fight the beast, dodging its lunges and exploiting its weakness.",
+      "Kill it, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
   },
@@ -7839,10 +7884,11 @@ const quests = [
     aiTip:
       "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
     walkthrough: [
-      "Arrive at Corvo Bianco and meet your new majordomo.",
-      "Tour the vineyard and note the needed repairs.",
-      "Set the first restoration works in motion.",
-      "Settle in to unlock the estate's ongoing upgrades."
+      "Begin the odd Toussaint quest and speak with the eccentric quest-giver.",
+      "Follow the strange clues with Witcher Senses.",
+      "Complete the unusual tasks it sets in order.",
+      "Resolve the twist at the end.",
+      "Report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
   },
@@ -7861,10 +7907,11 @@ const quests = [
     aiTip:
       "Insectoid Oil and dodge the burrow-and-lunge pattern.",
     walkthrough: [
-      "Accept the contract on the kikimore queen threatening the countryside.",
-      "Track it to its nest, applying Insectoid Oil.",
-      "Use Dancing Star bombs and Quen against its lunges.",
-      "Kill the kikimore queen and claim the reward."
+      "Take the big-game hunt contract in Toussaint.",
+      "Track the large beast across the countryside with Witcher Senses.",
+      "Apply the oil matching its class and prepare Quen.",
+      "Bring the beast down, dodging its charges.",
+      "Claim the trophy and reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
   },
@@ -12101,10 +12148,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
     walkthrough: [
-      "Ride out from Kaer Morhen with Vesemir toward White Orchard, following Yennefer's summons.",
-      "Reach the White Orchard inn and ask the locals about a witcher's contract and Yen's whereabouts.",
-      "Take the griffin lead to fund your stay, tracking it with your Witcher Senses.",
-      "Report back after the hunt to continue toward Vizima."
+      "Start in White Orchard and meet Vesemir at the inn.",
+      "Follow the leads on Yennefer's whereabouts, talking to the locals.",
+      "Handle the tavern brawl/interruptions as they arise.",
+      "Pick up Yennefer's trail toward the garrison.",
+      "Advance to the next objective to continue the hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
   },
@@ -12123,10 +12171,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
     walkthrough: [
-      "Buy the griffin contract details and study the beast's nest with your Witcher Senses.",
-      "Craft or buy Grapeshot bombs and apply Hybrid Oil to your silver sword.",
-      "Lure the griffin down, dodge its aerial dives, and stagger it with Aard.",
-      "Slay the royal griffin and collect its head for the reward."
+      "Agree to help the White Orchard garrison hunt the griffin.",
+      "Gather buckthorn and the bait, and investigate the griffin's kills with Senses.",
+      "Set the trap and lure the griffin, applying Hybrid Oil.",
+      "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
+      "Kill the beast and report back to advance to Vizima."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
   },
@@ -12145,10 +12194,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
     walkthrough: [
-      "Travel with the Nilfgaardian escort to Emperor Emhyr in Vizima.",
-      "Bathe and dress before the audience, then present yourself in the throne room.",
-      "Accept the contract to find Ciri ahead of the Wild Hunt.",
-      "Leave Vizima with the leads pointing toward Velen."
+      "Travel to Vizima for the audience with Emperor Emhyr.",
+      "Follow the palace protocol and speak with the chamberlain.",
+      "Attend the audience and learn Emhyr's task regarding Ciri.",
+      "Accept the commission and gather your leads.",
+      "Set out for Velen to begin the search."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
   },
@@ -12167,10 +12217,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
     walkthrough: [
-      "Head to the Nilfgaardian garrison and question the informant about Ciri.",
-      "Follow the trail to the hanged man's tree and the deserters nearby.",
-      "Clear the bandits and read the letter pointing to the Bloody Baron.",
-      "Ride to Crow's Perch to meet the Baron."
+      "In Velen, seek the Nilfgaardian contact tied to Ciri's trail.",
+      "Follow the leads to the hanged-man's trees and the deserters, using Senses.",
+      "Clear the enemies and recover the information/package.",
+      "Meet the informant to learn where Ciri was seen.",
+      "Report the lead and continue toward the Baron."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
   },
@@ -12189,10 +12240,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
     walkthrough: [
-      "Strike a deal with the Bloody Baron at Crow's Perch for news of Ciri.",
-      "Investigate the manor and the botched-childbirth clues with your Senses.",
-      "Fight the succubus-like spirit and follow the trail to the missing family.",
-      "Decide the fate of the Baron's wife and daughter to resolve the story."
+      "Meet the Bloody Baron at Crow's Perch and agree to find his wife and daughter.",
+      "Investigate the estate and follow the trail with Witcher Senses.",
+      "Track Anna and Tamara's leads across Velen, fighting the monsters en route.",
+      "Uncover the botchling/curse tied to the family and resolve it (raise or bury it).",
+      "Confront the truth of what happened to the Baron's family.",
+      "See the storyline to its branching outcome and gain the next lead on Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
   },
@@ -12211,10 +12264,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
     walkthrough: [
-      "Enter Crookback Bog and bargain with the Crones on the Baron's behalf.",
-      "Investigate the Whispering Hillock and choose to free or destroy the trapped spirit.",
-      "Return to the Crones and deal with the fallout of your choice.",
-      "Learn where Ciri went and report back to the Baron."
+      "Travel to the spirit-haunted wood and seek the Crones' help via the Ladies of the Wood.",
+      "Do the Crones' bidding — investigate the orphans and the whispering hillock.",
+      "Make the pivotal choice about the spirit under the tree.",
+      "Return to the Crones and survive the consequences.",
+      "Learn what they know of Ciri and escape Crookback Bog.",
+      "Advance toward Novigrad or Skellige on Ciri's trail."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
   },
@@ -12233,10 +12288,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Visit all the leads — the trail winds through the city's most colorful characters.",
     walkthrough: [
-      "Reach Novigrad and start retracing Dandelion's steps through his old flames.",
-      "Question Priscilla, then the courtesans and associates he wronged.",
-      "Play the Gwent or persuasion beats to pry loose each lead.",
-      "Follow the clues to Whoreson Junior's operation."
+      "Reach Novigrad and start searching for Dandelion via his known associates.",
+      "Track down Dandelion's three former lovers for leads, using Senses.",
+      "Complete each associate's task to earn their information.",
+      "Piece together where Dandelion has gone.",
+      "Report the lead to continue the Novigrad hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
   },
@@ -12255,10 +12311,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
     walkthrough: [
-      "Team with Dijkstra, Roche, or the gangs to hit Whoreson Junior's hideouts.",
-      "Raid the casino and fight-club fronts, using your Senses to find the trail.",
-      "Storm Junior's mansion and defeat his guards.",
-      "Confront Junior, decide his fate, and rescue Dandelion's lead."
+      "Follow the trail to Whoreson Junior to find Dandelion and Ciri's lead.",
+      "Investigate Junior's casino/arena and hideouts with Senses.",
+      "Fight through his gang to corner him.",
+      "Confront Whoreson Junior and decide his fate.",
+      "Uncover what he knows about Ciri and Dandelion, then report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
   },
@@ -12277,10 +12334,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Radovid is dangerous; his questline steers Novigrad's political ending.",
     walkthrough: [
-      "Meet the mad King Radovid aboard his ship as arranged.",
-      "Agree to help find Dandelion's associate in exchange for information.",
-      "Track down the target through Novigrad with your Senses.",
-      "Report the result and weigh the cost of dealing with Radovid."
+      "Meet Radovid's agent and agree to the king's favor.",
+      "Travel to the marked location and carry out the covert task.",
+      "Deal with the complications that arise.",
+      "Complete the favor and return.",
+      "Advance the Novigrad political thread."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
   },
@@ -12301,10 +12359,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Sets up the Novigrad power struggle — choices here decide who rules the North.",
     walkthrough: [
-      "Broker meetings between Dijkstra, Roche, Thaler, and the city's power players.",
-      "Complete each faction's task to earn their cooperation.",
-      "Advance the plot to unseat Radovid.",
-      "Rally the conspirators for the plan against the king."
+      "Ally with Dijkstra, Roche, and the underworld to move against the witch hunters.",
+      "Carry out the coordinated hits/heists across Novigrad.",
+      "Fight through the enemy strongholds.",
+      "Secure the objective that breaks the hunters' grip.",
+      "Regroup with your allies to set up the next phase.",
+      "Complete the operation to advance the main story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
   },
@@ -12323,10 +12383,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
     walkthrough: [
-      "Book passage from Novigrad's docks to Skellige.",
-      "Weather the storm and shipwreck, then reach Kaer Trolde harbor.",
-      "Get your bearings in Clan an Craite's hall.",
-      "Pick up the trail of Ciri and the mage Ermion."
+      "Meet Yennefer aboard ship and set sail for Skellige.",
+      "Survive the storm and shipwreck as the Wild Hunt attacks.",
+      "Fight ashore through the drowners on the beach.",
+      "Regroup and reach Kaer Trolde to reunite with Yennefer.",
+      "Begin the search for Ciri's trail in Skellige."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
   },
@@ -12345,10 +12406,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
     walkthrough: [
-      "Attend the royal wedding feast at Kaer Trolde with the clans.",
-      "React as the celebration erupts into bloodshed and a succession crisis.",
-      "Fight through the attackers alongside your allies.",
-      "Deal with the aftermath and the question of Skellige's throne."
+      "Attend King Bran's funeral feast at Kaer Trolde with Yennefer.",
+      "Navigate the succession politics among the clans.",
+      "When the Wild Hunt attacks the feast, fight your way through the hall.",
+      "Battle the Hunt's warriors and the hound on the docks.",
+      "Escape with Yennefer and pursue the next lead on Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
   },
@@ -12367,10 +12429,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
     walkthrough: [
-      "Follow the leads on Skellige tying Uma to Ciri's trail.",
-      "Investigate the clues with Yennefer and Ermion.",
-      "Piece together where Ciri was last seen.",
-      "Prepare to break Uma's curse and find Ciri."
+      "Follow Yennefer's plan to the mysterious isle to find Ciri's trail.",
+      "Explore the fog-bound island, using Senses through the ruins.",
+      "Clear the wraiths and guardians blocking the path.",
+      "Uncover the truth of the 'Nameless' presence there.",
+      "Resolve the encounter and gain the next lead."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
   },
@@ -12389,10 +12452,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
     walkthrough: [
-      "Sail to the cursed Isle of Mists and search for Ciri.",
-      "Cross the fog-bound island, clearing wraiths and hazards.",
-      "Find and revive Ciri at the island's heart.",
-      "Escape the isle and set course for Kaer Morhen."
+      "Reach the Isle of Mists to finally find Ciri (this locks out missable Velen/Novigrad quests).",
+      "Search the island with Witcher Senses, clearing the monsters.",
+      "Solve the path through the mists to the chapel.",
+      "Find Ciri and rouse her.",
+      "Escape the island and set course for Kaer Morhen."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
   },
@@ -12411,10 +12475,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Recruit as many allies beforehand as you can — it changes who survives the siege.",
     walkthrough: [
-      "Gather your allies and fortify Kaer Morhen against the coming assault.",
-      "Set traps and assign defenders before the Wild Hunt arrives.",
-      "Fight through the waves of Hunt warriors across the keep.",
-      "Battle Imlerith's forces and survive the siege."
+      "Gather your allies and prepare the defenses of Kaer Morhen.",
+      "Set traps, bombs, and positions with the witchers before the assault.",
+      "Hold the walls as the Wild Hunt attacks in waves.",
+      "Fight Imlerith and the Hunt's commanders at the keep.",
+      "Protect Ciri and the mages through the battle's turning point.",
+      "See the battle to its costly conclusion."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
   },
@@ -12433,10 +12499,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
     walkthrough: [
-      "Regroup after the assault and tend to the fallen at Kaer Morhen.",
-      "Comfort and steady Ciri through her grief.",
-      "Take part in the wake with the witchers and sorceresses.",
-      "Ready the party for the march on Bald Mountain."
+      "In the battle's aftermath, tend to the fallen and the survivors.",
+      "Talk to each ally to take stock of the losses.",
+      "Handle the grim tasks the aftermath demands.",
+      "Plan the counterstroke against the Wild Hunt.",
+      "Advance the story toward Velen's Bald Mountain."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
   },
@@ -12455,10 +12522,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
     walkthrough: [
-      "Travel with Ciri to Bald Mountain to end the Crones.",
-      "Fight up the mountain through the Hunt's General Imlerith's guards.",
-      "Defeat Imlerith in single combat, using Quen and dodges.",
-      "Let Ciri confront the Crones and unleash her Elder Blood."
+      "Travel with Ciri to Bald Mountain to strike at Imlerith.",
+      "Fight up the mountain through the Hunt and the beasts.",
+      "Reach the Crones' sabbath and deal with them.",
+      "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
+      "Defeat Imlerith and secure the next step against Eredin."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
   },
@@ -12477,10 +12545,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A surreal, linear chapter — enjoy the alien vistas between fights.",
     walkthrough: [
-      "Meet Avallac'h and step through the magic portals with Ciri.",
-      "Cross the shattered worlds, solving each realm's short challenge.",
-      "Learn the plan to lure and stop the White Frost.",
-      "Return to prepare the final confrontation."
+      "Follow Avallac'h's plan and step through the portal with Ciri.",
+      "Traverse the shifting worlds (desert, frozen sea, red sky), keeping pace with Ciri.",
+      "Solve the traversal hazards of each world.",
+      "Escape the Wild Hunt pursuing you across the realms.",
+      "Return to your world to prepare for the final confrontation."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
   },
@@ -12499,10 +12568,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
     walkthrough: [
-      "Rally your allies for the last stand against the Wild Hunt at Undvik.",
-      "Fight through Eredin's warriors across the frozen battlefield.",
-      "Duel Eredin Bréacc Glas — dodge his teleport strikes and punish with Igni.",
-      "Send Ciri to face the White Frost and end the Hunt."
+      "Rally the alliance for the final stand against Eredin at Undvik.",
+      "Fight through the Wild Hunt's forces to reach Eredin.",
+      "Battle Eredin — dodge his teleport strikes, use Yrden and Quen, punish openings.",
+      "Defeat Eredin and secure the Sunstone's power.",
+      "Set up the confrontation with the White Frost."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
   },
@@ -12521,10 +12591,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
     walkthrough: [
-      "Play out the quiet epilogue as the dust settles.",
-      "Follow the beats determined by your earlier choices about Ciri.",
-      "See the resolutions for Geralt's allies and loves.",
-      "Reach the ending your decisions have shaped."
+      "Play through the epilogue following the final battle.",
+      "Visit the people and places shaped by your choices.",
+      "See Ciri's fate resolve based on your key decisions.",
+      "Tie off the remaining character threads.",
+      "Conclude Geralt's story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
   },
@@ -12543,10 +12614,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
     walkthrough: [
-      "Take the prison-break contract that binds you to Olgierd von Everec (Hearts of Stone).",
-      "Escape the Oxenfurt garrison and meet Gaunter O'Dimm.",
-      "Accept the pact to grant Olgierd three impossible wishes.",
-      "Set out on the first of Olgierd's demands."
+      "Take the Oxenfurt contract and confront Olgierd's target, Gaunter O'Dimm's mark.",
+      "Fight the Ofieri prince's monster/the toad prince in the sewers, using Quen and dodging its tongue.",
+      "Survive O'Dimm's bargain and accept the pact's terms.",
+      "Begin serving Olgierd's three impossible wishes.",
+      "Advance the Hearts of Stone story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
   },
@@ -12565,10 +12637,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
     walkthrough: [
-      "Attend the rowdy wedding to fulfill Olgierd's first wish.",
-      "Get possessed by the merry ghost Vlodimir and play the reveler.",
-      "Chase down the runaway spirit through the festivities.",
-      "Complete the wish and report back to Olgierd."
+      "Take on Olgierd's wish and travel to the marked estate.",
+      "Investigate the site with Witcher Senses.",
+      "Deal with the supernatural obstacle in your way.",
+      "Complete the wish's task as instructed.",
+      "Report back to Olgierd to continue the pact."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
   },
@@ -12587,10 +12660,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
     walkthrough: [
-      "Meet Gaunter O'Dimm at the Garin estate for the final reckoning.",
-      "Enter the mirror-world and solve O'Dimm's deadly riddle before time runs out.",
-      "Use the environmental clues to find the hidden answer.",
-      "Outwit the devil to save your soul and free Olgierd — or not."
+      "Attend the heist/wedding at the Borsodi/Garin estate as the plan requires.",
+      "Move through the event, handling guests and guards.",
+      "Enter the spirit-world segment and relive Iris's painted memories.",
+      "Fight the manifestations of Olgierd's past (the caretaker/creatures).",
+      "Reach the heart of the estate and make the pivotal choice.",
+      "Resolve the confrontation and advance toward the finale."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
   },
@@ -12609,10 +12684,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
     walkthrough: [
-      "Answer the Toussaint knights' summons and ride to Beauclair (Blood and Wine).",
-      "Meet Duchess Anna Henrietta and take the contract on the beast.",
-      "Investigate the latest knight-killing with your Senses.",
-      "Follow the trail toward the creature behind the murders."
+      "Arrive in Toussaint and meet the knights errant sent to fetch you.",
+      "Investigate the first beast attack site with Witcher Senses.",
+      "Follow the trail to the victim and the clues left behind.",
+      "Report to Duchess Anna Henrietta at Beauclair Palace.",
+      "Accept the investigation into the Beast of Beauclair."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
@@ -12631,10 +12707,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
     walkthrough: [
-      "Examine each knight-killing site in and around Beauclair.",
-      "Trace the higher vampire's pattern with your Witcher Senses.",
-      "Confront the beast — apply vampire oil and use Moon Dust bombs.",
-      "Survive the fight and uncover Dettlaff's role."
+      "Investigate the Beast of Beauclair's killings across Toussaint.",
+      "Examine each crime scene with Witcher Senses to link the murders.",
+      "Track the vampire responsible to its lair.",
+      "Apply Vampire Oil and prepare Black Blood and Moon Dust for the fight.",
+      "Battle the higher vampire, using Yrden to strip its invisibility.",
+      "Uncover the killer's identity and report to the palace."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
   },
@@ -12653,10 +12731,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
     walkthrough: [
-      "Track Dettlaff through Beauclair's streets and sewers.",
-      "Follow the blood trail and interrogate witnesses.",
-      "Fight through the ambushes as the conspiracy tightens.",
-      "Learn the truth about Syanna's part in the scheme."
+      "Follow the lead on Dettlaff through Beauclair with Witcher Senses.",
+      "Investigate Syanna's trail and the vineyard clues.",
+      "Fight through the ambushes as the conspiracy unfolds.",
+      "Reach the confrontation the trail leads to.",
+      "Resolve the encounter and advance the mystery."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
   },
@@ -12675,10 +12754,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Regis is a fantastic companion here — soak in the lore before the finale.",
     walkthrough: [
-      "Travel to the ruined castle Tesham Mutna with Regis.",
-      "Delve the vampire history and defenses within.",
-      "Solve the trials to find a way to stop Dettlaff.",
-      "Recover what you need for the confrontation to come."
+      "Travel to Tesham Mutna to find the way to reach Dettlaff.",
+      "Explore the ancient vampire ruin, using Senses and clearing its guardians.",
+      "Undergo or arrange the ritual needed to summon/parley with Dettlaff.",
+      "Deal with Regis's plan and the fallout.",
+      "Set up the final confrontation with Dettlaff."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
   },
@@ -12697,10 +12777,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
     walkthrough: [
-      "Enter the storybook Land of a Thousand Fables to find Syanna.",
-      "Solve the fairy-tale set-pieces and help (or trick) their characters.",
-      "Reach Syanna and learn her side of the tragedy.",
-      "Leave the fable world and prepare for the finale."
+      "Enter the fairy-tale Land of a Thousand Fables to find Syanna.",
+      "Solve the storybook puzzles and help the fable characters.",
+      "Follow Syanna's trail through the whimsical (and dark) tales.",
+      "Confront what the land reveals about her past.",
+      "Escape the fable land with what you've learned."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
   },
@@ -12719,10 +12800,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
     walkthrough: [
-      "Bring Syanna to the duchess and try to broker peace with Dettlaff.",
-      "Make the pivotal choices that decide who lives and dies.",
-      "Fight Dettlaff in his monstrous higher-vampire form if it comes to blows.",
-      "See Blood and Wine to its bittersweet close."
+      "Reach the finale and confront Dettlaff over Syanna's fate.",
+      "Make the pivotal choice that decides the confrontation.",
+      "Fight Dettlaff — dodge his claw combos and summoned monsters, use Yrden and Vampire Oil.",
+      "Resolve the battle and its consequences for Beauclair.",
+      "See the Blood and Wine story to its ending."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
   },
@@ -12741,10 +12823,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A small mercy quest — the outcome depends on trusting the right smuggler.",
     walkthrough: [
-      "Meet the refugee needing forged papers to flee Velen.",
-      "Gather the required documents or bribe the right official.",
-      "Deliver the forgery and help them slip the Nilfgaardian dragnet.",
-      "See them safely on their way."
+      "Take the job in Velen to obtain forged papers from the local fixer.",
+      "Run the errand or recover the item the forger demands.",
+      "Deal with any guards or complications.",
+      "Return with the payment/goods to get the papers.",
+      "Collect the reward and finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
   },
@@ -12763,10 +12846,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
     walkthrough: [
-      "Investigate the bog 'god' extorting the village.",
-      "Use your Senses to find the creature behind the scam.",
-      "Confront the godling or monster responsible.",
-      "Decide its fate and free the village."
+      "Investigate the Velen villagers' offerings to their 'god' in the woods.",
+      "Follow the trail with Witcher Senses to the creature's grove.",
+      "Discover it's a monster exploiting the village (a godling/sylvan).",
+      "Confront it — fight it or broker a resolution.",
+      "Report back to settle the village's fate."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
   },
@@ -12785,10 +12869,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
     walkthrough: [
-      "Agree to help the elf search for her missing people.",
-      "Explore the flooded elven bath house, clearing hazards.",
-      "Follow the Senses clues to what became of them.",
-      "Resolve the grim discovery with the elf."
+      "Meet the young volunteer near the plague-struck site in Velen.",
+      "Escort or assist him to the marked location, clearing monsters.",
+      "Uncover the grim situation he's walked into.",
+      "Make the choice the situation demands.",
+      "Resolve the quest and report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
   },
@@ -12807,10 +12892,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
     walkthrough: [
-      "Take on the Nilfgaardian soldiers desecrating Velen's dead.",
-      "Track them across the battlefields with your Senses.",
-      "Confront and defeat the offenders.",
-      "Let the dead be laid to rest and finish the quest."
+      "Take the request to deal with the unburied dead around Velen.",
+      "Travel to the battlefield and clear the necrophages feeding there.",
+      "Build and light the funeral pyres as instructed.",
+      "Defend the site while the bodies burn.",
+      "Return to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
   },
@@ -12829,10 +12915,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
     walkthrough: [
-      "Enter the haunted Reardon estate and investigate.",
-      "Use your Senses to uncover the family's tragedy.",
-      "Deal with the spirit haunting the grounds.",
-      "Resolve the curse and claim any loot."
+      "Investigate the haunted Reardon manor in Velen.",
+      "Explore the house with Witcher Senses to follow the ghostly clues.",
+      "Piece together the family's grim end.",
+      "Confront and put down the wraith/monster inside (Specter Oil, Yrden).",
+      "Resolve the haunting and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
   },
@@ -12851,10 +12938,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
     walkthrough: [
-      "Seek out Novigrad's top Gwent players for the collection quest.",
-      "Beat each named player in a match to win their rare card.",
-      "Build your deck as you go to keep winning.",
-      "Collect every card the quest requires."
+      "Find the old-timers in Novigrad who play Gwent and challenge each in turn.",
+      "Win matches to collect the cards they wager.",
+      "Track down each named player across the city.",
+      "Beat the toughest of them to claim their rare card.",
+      "Complete the set to finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
   },
@@ -12873,10 +12961,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
     walkthrough: [
-      "Tour the taverns of Velen and Novigrad challenging innkeepers.",
-      "Beat each innkeep at Gwent for coin and cards.",
-      "Improve your deck between matches.",
-      "Clear all the innkeepers to finish the quest."
+      "Travel Velen's inns and challenge each innkeep to Gwent.",
+      "Win matches to earn the cards they stake.",
+      "Visit every marked tavern on the map.",
+      "Beat them all to collect their cards.",
+      "Finish the quest once each innkeep is defeated."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
   },
@@ -12895,10 +12984,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
     walkthrough: [
-      "Investigate the witch-hunter plot targeting Triss and the mages.",
-      "Follow the leads through Novigrad with your Senses.",
-      "Disrupt the hunters' scheme.",
-      "Protect the mages and report to Triss."
+      "Begin the Novigrad plot uncovering a conspiracy against a target.",
+      "Follow the leads with Witcher Senses through the city.",
+      "Infiltrate the meeting/hideout to learn the plan.",
+      "Fight or outmaneuver the plotters.",
+      "Foil (or allow) the plot and report the outcome."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
   },
@@ -12917,10 +13007,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Restore the lighthouse flame and use Yrden against the penitent wraith.",
     walkthrough: [
-      "Take the Phantom of Eldberg contract on the Skellige isle.",
-      "Relight or investigate the lighthouse to draw out the wraith.",
-      "Apply Specter Oil, use Yrden, and dodge its strikes.",
-      "Banish the phantom and collect the reward."
+      "Take the contract and travel to the Eldberg lighthouse in Skellige.",
+      "Investigate the keeper's fate with Witcher Senses; relight the lighthouse fire.",
+      "Apply Specter Oil and use Yrden to trap the penitent wraith it summons.",
+      "Dodge its strikes and dispel its illusions with Igni.",
+      "Banish the penitent, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
   },
@@ -12939,10 +13030,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "An early contract that teaches monster tracking with Witcher Senses.",
     walkthrough: [
-      "Accept the missing-brother contract in White Orchard.",
-      "Follow the grisly trail from the road with your Senses.",
-      "Track the monster or culprit to its lair.",
-      "Deal with the threat and report the outcome."
+      "Take the White Orchard contract and question the man about his missing brother.",
+      "Follow the trail with Witcher Senses toward the marked search area.",
+      "Clear the necrophages/monsters at the site.",
+      "Find the brother's fate and any survivors.",
+      "Report back to the contract-giver for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
   },
@@ -12961,10 +13053,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
     walkthrough: [
-      "Take the grave hag contract near the Velen crossroads.",
-      "Inspect the war graves and follow the Senses trail.",
-      "Apply Necrophage Oil, trap it with Yrden, and stagger with Aard.",
-      "Slay the grave hag and claim the bounty."
+      "Accept the Velen contract and question the widow and villagers about the grave attacks.",
+      "Track the disturbance with Witcher Senses to the haunted cemetery.",
+      "Apply Necrophage Oil and ready Igni/Quen for the Grave Hag.",
+      "Bait its tongue-grab, dodge, and burn it down.",
+      "Kill the Grave Hag, take the trophy, and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
   },
@@ -12983,10 +13076,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Investigate the attacks first — the true culprit isn't the obvious one.",
     walkthrough: [
-      "Take the Oxenfurt-drunk contract (Hearts of Stone).",
-      "Investigate the attacks to reveal the true monster.",
-      "Prepare the matching oil and bombs, then confront it.",
-      "Kill the creature and collect payment."
+      "Take the Hearts of Stone contract on the Oxenfurt attacks.",
+      "Question the drunk and witnesses, then follow the trail with Witcher Senses.",
+      "Identify the monster's class and apply the matching oil, readying Quen.",
+      "Fight the creature, dodging its attacks and exploiting its weakness.",
+      "Slay it, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
   },
@@ -13005,10 +13099,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
     walkthrough: [
-      "Buy or find the Feline (Cat) School gear map.",
-      "Travel to each marked ruin and recover a diagram.",
-      "Clear the guardians protecting each cache.",
-      "Craft the light, fast Cat School gear at a smith."
+      "Pick up the Cat School Gear diagrams' scavenger-hunt maps (Velen/Novigrad).",
+      "Follow each map with Witcher Senses to its stash, clearing guardians.",
+      "Collect all six diagrams for the set (swords, armor, gauntlets, trousers, boots).",
+      "Loot the required crafting materials for each piece.",
+      "Take the diagrams and mats to a craftsman to forge the Feline set."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
   },
@@ -13027,10 +13122,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
     walkthrough: [
-      "Obtain the Griffin School gear diagrams' map in Velen.",
-      "Visit each site and defeat its guardians for a diagram.",
-      "Gather all the pieces of the set.",
-      "Craft the Sign-focused Griffin School gear."
+      "Pick up the Griffin School Gear scavenger-hunt maps in Velen.",
+      "Follow each clue with Witcher Senses to its hidden chest, defeating guards.",
+      "Collect all the Griffin (Ursine-style) diagrams across the region.",
+      "Gather the crafting materials each piece needs.",
+      "Craft the Griffin set at a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
   },
@@ -13049,10 +13145,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
     walkthrough: [
-      "Get the Ursine (Bear) School gear map on Skellige.",
-      "Climb the peaks and dive the wrecks to recover each diagram.",
-      "Clear the monsters guarding the caches.",
-      "Craft the heavy, tanky Bear School gear."
+      "Pick up the Bear (Ursine) School Gear maps in Skellige.",
+      "Sail and climb to each stash, using Senses and clearing the tough guardians.",
+      "Collect all the Ursine diagrams scattered across the isles.",
+      "Gather the required materials (some need higher-level components).",
+      "Forge the Bear School set with a smith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
   },
@@ -13071,10 +13168,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A well-rounded set — a safe default while you gather the specialized schools.",
     walkthrough: [
-      "Find the Wolf School gear map near Kaer Morhen.",
-      "Recover each diagram scattered around Kaer Morhen and Velen.",
-      "Defeat the guardians at each location.",
-      "Craft the balanced Wolf School gear."
+      "Pick up the Wolf School Gear maps around Kaer Morhen and Velen.",
+      "Follow each clue with Witcher Senses to its cache, clearing monsters.",
+      "Collect all the Wolven diagrams for the set.",
+      "Gather the crafting materials each piece requires.",
+      "Craft the Wolf School set at a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
   },
@@ -13093,10 +13191,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
     walkthrough: [
-      "Obtain the Manticore School gear map in Toussaint (Blood and Wine).",
-      "Hunt down each diagram across the duchy.",
-      "Clear the guardians blocking the caches.",
-      "Craft the alchemy-focused Manticore School gear."
+      "Start the Manticore School Gear hunt in Toussaint (Blood and Wine).",
+      "Follow each map with Witcher Senses to its stash, defeating the guardians.",
+      "Collect all the Manticore diagrams across Toussaint.",
+      "Gather the high-tier crafting materials the set needs.",
+      "Forge the Manticore set at a master craftsman."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
   },
@@ -13115,12 +13214,109 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Dodge and counter — trading blows with the islanders is a losing game.",
     walkthrough: [
-      "Seek out Skellige's brawl organizers to enter the fights.",
-      "Beat each challenger in bare-knuckle boxing, timing dodges and counters.",
-      "Advance through the toughest brawlers.",
-      "Win the final bout to claim the prize."
+      "Take the Fists of Fury challenge in Skellige and find the local brawlers.",
+      "Beat each opponent in bare-knuckle fights (block and counter, watch stamina).",
+      "Work up the ladder to the island's champion.",
+      "Defeat the champion in the final bout.",
+      "Claim the prize money and complete the tournament."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
+  },
+{
+    id: 2354,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Last Wish",
+    location: "Skellige (Larvik / sunken ship)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Djinn's last wish, Yennefer romance path",
+    summary:
+      "Yennefer asks Geralt to help her recapture the djinn that once bound their fates, so she can learn whether their love is real or just the product of his final wish. The hunt leads to a sunken ship off Skellige and a dangerous confrontation with the freed genie.",
+    aiTip:
+      "Bring Elementa Oil and keep Quen up — the djinn hits hard with wind and lightning. Completing this is the gateway to Geralt and Yennefer's romance, so mind your dialogue at the end.",
+    walkthrough: [
+      "Meet Yennefer in Larvik on Skellige and sail out to the marked spot to find the seal fragments.",
+      "Dive to the sunken ship and recover the broken seal pieces, avoiding the sirens and drowners.",
+      "Return to Yennefer so she can perform the ritual that frees the djinn.",
+      "Apply Elementa Oil and cast Quen, then fight the djinn — dodge its wind vortex and lightning strikes.",
+      "Defeat the djinn to break the bond, then choose honestly in the conversation with Yennefer that follows.",
+    ],
+    video: "https://www.youtube.com/watch?v=cE7Bdij1sJ8"
+  },
+{
+    id: 2355,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Reason of State",
+    missable: true,
+    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first",
+    location: "Novigrad / Oxenfurt",
+    length: "long",
+    difficulty: "High",
+    reward: "Redanian political ending, Assassin of Kings trophy",
+    summary:
+      "The conspiracy to assassinate the mad King Radovid comes to a head. Working with Roche, Ves, Thaler and Dijkstra, Geralt helps set the trap — but Dijkstra has his own designs on the throne, forcing a final, bloody choice.",
+    aiTip:
+      "This quest is highly missable: you must side correctly in 'An Eye for an Eye' and 'Blindingly Obvious' (get Philippa from Dijkstra) to unlock it. After Radovid falls, decide whether to stand with Dijkstra or Roche's group — it shapes the Northern Kingdoms' fate.",
+    walkthrough: [
+      "Complete the lead-in quests (An Eye for an Eye, Blindingly Obvious) so the conspirators trust you and Philippa is freed.",
+      "Meet the plotters and take up your position to lure Radovid off his ship.",
+      "Spring the ambush and let Philippa deliver the killing blow to Radovid.",
+      "When Dijkstra turns on Roche's group, choose your side.",
+      "Fight Dijkstra and his men if you side with Roche (or stand aside), then survive the confrontation.",
+      "See the outcome that sets Nilfgaard or Redania on the path to victory.",
+    ],
+    video: "https://www.youtube.com/watch?v=OIstcrq-IIc"
+  },
+{
+    id: 2356,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Jenny o' the Woods",
+    location: "Midcopse, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Gold, XP, nightwraith trophy",
+    summary:
+      "Bolko, the ealdorman of Midcopse, posts a contract on a nightwraith haunting the nearby fields. Geralt uncovers that the wraith is Zula, a young woman murdered and left unburied — 'Jenny o' the Woods' to the frightened villagers.",
+    aiTip:
+      "Investigate by day, then meditate to midnight to summon her. Apply Specter Oil, drop Yrden to make her corporeal, dodge her rapid teleport strikes, and blast the wraiths she spawns with Igni.",
+    walkthrough: [
+      "Read the notice board in Midcopse and speak with ealdorman Bolko to take the contract.",
+      "Use Witcher Senses to investigate the field and uncover Zula's story.",
+      "Return to the haunted field and meditate to midnight to draw out the nightwraith.",
+      "Apply Specter Oil and cast Yrden to trap her so your blows land.",
+      "Dodge her teleport strikes, kill the lesser wraiths with Igni, and cut Jenny down.",
+      "Take the trophy and claim the reward from Bolko.",
+    ],
+    video: "https://www.youtube.com/watch?v=6WJKD3LXP3k"
+  },
+{
+    id: 2357,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Fool's Gold",
+    location: "Lurtch, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Gold, XP, memorable story outcome",
+    summary:
+      "In the ruined village of Lurtch, east of Crow's Perch, Geralt finds bandits roasting a pig while a frantic villager insists it's his beloved Yagoda. The villagers dug up cursed gold from a hidden temple and were all turned into swine.",
+    aiTip:
+      "Follow Yontek and use Witcher Senses to piece together the curse. The gold is cursed — how you handle it (and the pig-villagers) decides the darkly comic outcome, so read the dialogue carefully.",
+    walkthrough: [
+      "Reach the ruined village of Lurtch (east of Crow's Perch, past Lindenvale) and drive off the bandits roasting the pig.",
+      "Talk to Yontek, who insists the pig is his wife Yagoda, and use Witcher Senses to investigate.",
+      "Follow the clues to the hidden temple where the villagers found the cursed gold.",
+      "Deal with the guardians and uncover how the curse turned the villagers into pigs.",
+      "Decide what to do about the cursed gold and the swine, then resolve the quest.",
+    ],
+    video: "https://www.youtube.com/watch?v=4mryuJ3SLjM"
   },
 {
     id: 636,
@@ -13138,9 +13334,9 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
     walkthrough: [
       "Approach a Remnawave tower in any region and interact to begin.",
-      "Solve the short traversal/climb puzzle to reach the top.",
-      "Activate the tower to reveal the region's map and intel objectives.",
-      "Repeat at each region's towers to fully chart the world."
+      "Solve the short climb/traversal puzzle to reach the top of the tower.",
+      "Activate it to reveal the region's map and populate its intel objectives (Lifesprings, Fiend Intel, Divine Intel).",
+      "Repeat at each region's towers to fully chart the world and open fast travel."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
   },
@@ -13159,10 +13355,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
     walkthrough: [
-      "Open Chadley's Fiend Intel list for the region.",
-      "Track down each named monster or combat-assessment target.",
-      "Defeat it while meeting any special battle condition.",
-      "Report the data to Chadley to unlock rewards and new intel."
+      "Open Chadley's Fiend Intel list for the region from the map or comms.",
+      "Track down each named monster or combat-assessment target at its marker.",
+      "Defeat it while meeting the special battle condition (usually exploiting its weakness for the assessment bonus).",
+      "Report the data to Chadley to unlock combat-sim fights and enhancement cores for his shop."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
   },
@@ -13181,10 +13377,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A relaxing collectible chain — the lore deepens the game's ecological themes.",
     walkthrough: [
-      "Locate a Lifespring welling up in the region.",
+      "Locate a Lifespring welling up in the region (revealed by the Remnawave tower).",
       "Approach and interact to trigger its investigation.",
-      "Complete the short encounter or lore beat.",
-      "Sync the data with Chadley for rewards."
+      "Complete the short lore beat or encounter and let MP restore.",
+      "Sync the data with Chadley for planet lore and rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
   },
@@ -13203,10 +13399,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "These are the best World Intel rewards — do the region's other intel first to unlock them.",
     walkthrough: [
-      "Begin the region's Divine Intel (Protorelic) chain.",
-      "Solve each multi-step objective — combat, minigame, or puzzle.",
-      "Progress through the chain's stages.",
-      "Claim the unique summon materia on completion."
+      "Complete the region's other World Intel first to unlock its Divine Intel (Protorelic) chain.",
+      "Begin the chain and work through each multi-step objective — combat gauntlet, minigame, or environmental puzzle.",
+      "Progress through the chain's stages to the finale challenge.",
+      "Claim the unique summon materia — the best World Intel reward in each region."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
   },
@@ -13225,10 +13421,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
     walkthrough: [
-      "Find broken Chocobo Stops and moogle expedition points in the region.",
-      "Restore each Chocobo Stop by clearing the nearby obstacle.",
-      "Complete the moogle expeditions.",
-      "Open up the region's fast-travel and traversal network."
+      "Find broken Chocobo Stops and moogle expedition points marked in the region.",
+      "Restore each Chocobo Stop by clearing the nearby obstacle or objective.",
+      "Complete the moogle expeditions to send out and collect resources.",
+      "Open up the region's fast-travel and chocobo traversal network (mountain, river, etc.)."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
   },
@@ -13247,10 +13443,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
     walkthrough: [
-      "Learn Queen's Blood from the tutorial in Kalm.",
-      "Challenge NPC players across each region to grow your deck.",
-      "Win matches to earn new and rarer cards.",
-      "Work up to the Gold Saucer's top players to master the game."
+      "Learn Queen's Blood from the tutorial player in Kalm and get your starter deck.",
+      "Challenge NPC players across every region to win new and rarer cards.",
+      "Refine your deck around lane control and pawn-then-power plays as cards accumulate.",
+      "Work up the ladder to the Gold Saucer's top players to master the game and claim its rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
   },
@@ -13269,10 +13465,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
     walkthrough: [
-      "Find the Fort Condor board in the Junon area.",
-      "Learn the tower-defense rules and set your units.",
-      "Beat each escalating opponent's board.",
-      "Clear the ladder for prizes."
+      "Find a Fort Condor board in the Junon area and open the tower-defense minigame.",
+      "Set your units, using the counter triangle — vanguard beats ranged, ranged beats defense, defense beats vanguard.",
+      "Push lanes to destroy the enemy's outposts and main base before they take yours.",
+      "Beat each escalating opponent's board to clear the ladder for prizes."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
   },
@@ -13291,10 +13487,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Watch the opponent's tells and punish openings — patience beats button-mashing.",
     walkthrough: [
-      "Access the 3D Brawler in Costa del Sol or the Gold Saucer.",
-      "Read the opponent's tells to block and counter in the boxing minigame.",
-      "Chain successful reactions into combos.",
-      "Beat each opponent for prizes and trophies."
+      "Access the 3D Brawler minigame in Costa del Sol or the Gold Saucer.",
+      "Read the opponent's tells and block or dodge, then punish the opening — patience over button-mashing.",
+      "Chain successful reactions into combos to build damage.",
+      "Beat each opponent up the ladder for prizes and trophies."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
   },
@@ -13313,10 +13509,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
     walkthrough: [
-      "Start a Gears & Gambits puzzle in the field.",
-      "Program each tin soldier's gambit rules for the auto-battle.",
-      "Adjust the logic until your units clear the encounter.",
-      "Solve every stage for the rewards."
+      "Start a Gears & Gambits puzzle at a marked node in the field.",
+      "Program each tin soldier's gambit rules — target weaknesses, heal at HP thresholds, prioritize threats.",
+      "Run the auto-battle and adjust the logic until your units clear the encounter.",
+      "Solve every stage for the combat-sim rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
   },
@@ -13335,10 +13531,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
     walkthrough: [
-      "Enter Chocobo Racing at the Gold Saucer.",
-      "Learn the track and use boosts and items around each lap.",
-      "Place first across the race classes.",
-      "Earn gil, GP, and cosmetic rewards for winning."
+      "Enter Chocobo Racing at the Gold Saucer and pick a race class.",
+      "Learn the track layout, manage stamina, and grab boost gates and items each lap.",
+      "Upgrade your chocobo's gear and stats between races for tougher classes.",
+      "Place first across the classes to earn gil, GP, and cosmetic rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
   },
@@ -13357,10 +13553,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
     walkthrough: [
-      "Sit at a piano found in a town or hub.",
-      "Follow the on-screen notes in the rhythm minigame.",
-      "Play each sheet-music track to a passing score.",
-      "Earn rewards for higher performance ranks."
+      "Sit at a piano found in a town or hub and choose a sheet-music track.",
+      "Follow the on-screen notes in the rhythm minigame — start on Easy to learn the note mapping.",
+      "Play each track to a passing (or higher) performance rank.",
+      "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
   },
@@ -13379,10 +13575,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Ward against earth and punish its stagger windows — a strong early summon.",
     walkthrough: [
-      "Complete the Grasslands intel to unlock Titan's combat-simulator trial.",
-      "Enter the VR fight and learn Titan's earth-quake attack patterns.",
-      "Dodge the arena hazards and punish his openings.",
-      "Defeat Titan to earn the earth-elemental summon."
+      "Complete enough Grasslands World Intel to unlock Titan's combat-simulator trial with Chadley.",
+      "Enter the VR fight and learn Titan's earth-quake and shockwave patterns.",
+      "Ward against Earth damage, dodge the arena hazards, and punish his stagger windows.",
+      "Defeat Titan to earn the earth-elemental summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
   },
@@ -13401,10 +13597,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
     walkthrough: [
-      "Unlock Alexander's trial through Junon's intel.",
-      "Enter Chadley's VR fight against the holy fortress.",
-      "Weather Alexander's holy barrages and heavy attacks.",
-      "Win to earn the Alexander summon materia."
+      "Unlock Alexander's trial through Junon's World Intel, then enter Chadley's VR fight.",
+      "Weather the holy fortress's barrages and heavy artillery attacks.",
+      "Keep MP-recovery up and pressure it into stagger between salvos.",
+      "Win to earn the holy-elemental Alexander summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
   },
@@ -13423,10 +13619,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "One of the toughest summon fights — max your materia and elemental resists first.",
     walkthrough: [
-      "Complete Cosmo Canyon's intel to open Bahamut Arisen's assessment.",
-      "Enter the demanding VR trial against the dragon king.",
-      "Survive Mega Flare and its relentless combos.",
-      "Defeat Bahamut Arisen for the ultimate summon."
+      "Complete Cosmo Canyon's World Intel to open Bahamut Arisen's demanding VR assessment.",
+      "Max your materia and elemental resists before entering — this is one of the toughest summon fights.",
+      "Survive Mega Flare and its relentless combos, staggering it during openings.",
+      "Defeat Bahamut Arisen to claim the ultimate dragon-king summon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
   },
@@ -13445,10 +13641,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Odin's trial is a DPS race — build for maximum stagger and damage.",
     walkthrough: [
-      "Unlock Odin's trial via Nibel's intel.",
-      "Enter the fight under Odin's strict time limit.",
-      "Deal heavy damage fast to avoid his instant-death Zantetsuken.",
-      "Beat the clock to claim the Odin summon."
+      "Unlock Odin's trial via Nibel's World Intel and enter the fight.",
+      "Race the strict time limit — build for maximum stagger and burst damage.",
+      "Deal heavy damage fast to avoid his instant-death Zantetsuken when the counter expires.",
+      "Beat the clock to claim the Odin summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
@@ -15038,6 +15234,52 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade deliberately, since boss souls are limited per playthrough."
     ],
     video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
+  },
+{
+    id: 2352,
+    type: "side",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "Biorr of the Twin Fangs",
+    location: "Boletarian Palace (1-1, 1-3, 1-4)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Summonable ally for Penetrator & False King, Brother-In-Arms trophy",
+    summary:
+      "Free the imprisoned veteran knight Biorr of the Twin Fangs in the Boletarian Palace. Once released he can be summoned to fight alongside you against the Penetrator, and he defends the throne room during the False King Allant battle.",
+    aiTip:
+      "Rescue Biorr before beating the Penetrator — his gold summon sign appears just outside that fog gate, and summoning him there earns the Brother-In-Arms trophy. Don't let World 1 fall to Pure Black or his questline can break.",
+    walkthrough: [
+      "In Boletarian Palace, work down to the lower cell block where Biorr is locked away and speak with him through the bars.",
+      "Reach and pull the lever that opens his cell to free him (he thanks you and vows to help retake the palace).",
+      "Progress to the Penetrator fog gate in 1-3 and look for Biorr's golden summon sign just before it.",
+      "Summon Biorr and take on the Penetrator together — this also earns the Brother-In-Arms trophy.",
+      "Later, during the False King Allant fight in 1-4, Biorr holds off the throne-room knights so you can focus on Allant.",
+    ],
+    video: "https://www.youtube.com/watch?v=7Fpx22Le-6k"
+  },
+{
+    id: 2353,
+    type: "side",
+    game: "Demon's Souls",
+    region: "Boletaria",
+    title: "Old King Doran",
+    location: "Boletarian Palace (1-1) — golden fog chamber",
+    length: "medium",
+    difficulty: "High",
+    reward: "Demonbrandt, Ancient King's Set (Doran's armor), Eternal Warrior's Ring",
+    summary:
+      "Seek out Old King Doran, the legendary knight guarding a tower chamber in the Gates of Boletaria behind a golden fog. This optional superboss is one of the toughest early fights in the game and rewards the holy sword Demonbrandt.",
+    aiTip:
+      "Come back heavily leveled (or in NG+) — Doran hits like a truck and blocks relentlessly. Bait his combos, punish from behind with a strong weapon, and keep healing stocked. Reducing him low is enough to end the fight and claim the rewards.",
+    walkthrough: [
+      "Return to the Gates of Boletaria (1-1) once you're strong enough for an optional endgame-tier fight.",
+      "Take the long route up past the Blue-Eyed Knights and the red dragon's bridge to the tower stairs.",
+      "Enter the golden fog gate at the top to challenge Old King Doran.",
+      "Fight defensively — bait his heavy combos, roll through, and punish from behind; keep Second Chance or grasses ready.",
+      "Bring him down (or low enough to yield) to claim Demonbrandt, the Ancient King's armor set, and the Eternal Warrior's Ring.",
+    ],
+    video: "https://www.youtube.com/watch?v=P-eFmZV8BWA"
   },
 {
     id: 756,
