@@ -88,6 +88,8 @@ jobs:
           NOTES: ${{ steps.notes.outputs.body }}
         run: |
           set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git tag -a "$VERSION" -m "$VERSION"
           git push origin "$VERSION"
           gh release create "$VERSION" --title "$VERSION" --target "$GITHUB_SHA" --notes "$NOTES"
