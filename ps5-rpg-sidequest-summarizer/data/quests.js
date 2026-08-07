@@ -6239,10 +6239,11 @@ const quests = [
     aiTip:
       "Pay attention to the framing; this flashback is the emotional and thematic anchor for everything Rebirth builds toward.",
     walkthrough: [
-      "Play the Nibelheim flashback, following Sephiroth up the mountain path to the reactor.",
-      "Fight through the reactor's monsters and reach Jenova's chamber.",
-      "Survive the Materia Guardian boss encounter.",
-      "Witness Sephiroth's breakdown and the burning of Nibelheim to close the prologue."
+      "Begin the Nibelheim flashback as young Cloud, arriving in town with Sephiroth and the Shinra escort.",
+      "Rest at the inn, then follow Sephiroth up the Mt. Nibel path, fighting through the reactor's monsters.",
+      "Inside the reactor, inspect the Jenova pods and the sealed chamber as Sephiroth uncovers the truth about his origin.",
+      "Return to town after Sephiroth locks himself in the Shinra Manor library; witness his breakdown.",
+      "Survive the burning of Nibelheim and the reactor confrontation to close the prologue and hand control to present-day Cloud."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
   },
@@ -6262,10 +6263,11 @@ const quests = [
     aiTip:
       "Unlock the region's chocobo and scan the World Intel towers early; it makes every later objective faster.",
     walkthrough: [
-      "Arrive in Kalm and complete its story beats and shopping.",
-      "Enter the Grasslands and sync the first Remnawave tower for Chadley.",
-      "Catch a chocobo at the ranch to unlock faster traversal.",
-      "Follow the main path toward the Mythril Mine to advance."
+      "Leave the Nibelheim flashback and reach Kalm with the party; complete the town's story beats and shop for materia and gear.",
+      "Head out into the Grasslands, Rebirth's first open region, and follow the objective marker.",
+      "Activate the first Remnawave tower for Chadley to reveal the region map and its World Intel.",
+      "Visit the Chocobo Ranch and catch/tame a chocobo to unlock faster traversal.",
+      "Follow the main path toward the Mythril Mine to advance the story."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
   },
@@ -6285,10 +6287,11 @@ const quests = [
     aiTip:
       "Stock up before the mine — the boss encounters here reward a balanced party and elemental materia.",
     walkthrough: [
-      "Cut through the Mythril Mine, dealing with the Turks along the way.",
-      "Solve the mine's traversal puzzles and clear its monsters.",
-      "Encounter the mysterious swordsman on the road to the coast.",
-      "Exit toward Junon to continue the story."
+      "Enter the Mythril Mine and push through its tunnels and traversal puzzles.",
+      "Deal with the Turks (Rude and Reno) blocking the way as you descend.",
+      "Clear the mine's monsters and any Mako-crystal obstacles to open the path.",
+      "Encounter the mysterious black-caped swordsman on the road beyond the mine.",
+      "Exit toward the Junon coast to continue."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
   },
@@ -6308,9 +6311,10 @@ const quests = [
     aiTip:
       "The Junon parade minigame is coming — practice your button timing, and don't rush past the region's side content.",
     walkthrough: [
-      "Reach the Junon region and take in the military spectacle.",
-      "Complete the coastal-plains objectives and new Odd Jobs.",
-      "Sync the region's tower and progress Chadley's intel.",
+      "Arrive in the Junon region and take in the Shinra military spectacle.",
+      "Sync the region's Remnawave tower and update Chadley's intel.",
+      "Work through the coastal-plains story objectives and the new batch of Odd Jobs.",
+      "Prepare for the upcoming Junon parade — practice the marching drill when prompted.",
       "Advance the main path toward Junon proper."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
@@ -6331,9 +6335,10 @@ const quests = [
     aiTip:
       "A more linear, story-heavy chapter — enjoy the character moments and the shipboard set pieces.",
     walkthrough: [
-      "Board the Shinra transport crossing the sea from Junon.",
-      "Handle the onboard events as tensions rise.",
-      "Clear the mid-voyage combat encounters.",
+      "Complete the Junon parade set piece, then board the Shinra transport ship bound across the sea.",
+      "Handle the onboard story events as tensions among the party and Shinra rise.",
+      "Clear the mid-voyage combat encounters on deck.",
+      "See the shipboard confrontation through to its climax.",
       "Arrive at Costa del Sol to continue."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
@@ -6354,10 +6359,10 @@ const quests = [
     aiTip:
       "Lean into the minigames here (they feed trophies and rewards). It's the lightest chapter, so soak it up.",
     walkthrough: [
-      "Arrive at the resort town of Costa del Sol.",
-      "Enjoy the beach events, swimwear, and minigames.",
-      "Complete the region's Odd Jobs and story beats.",
-      "Follow the main path toward the Corel region."
+      "Disembark at the resort town of Costa del Sol and change into the beach attire.",
+      "Play through the resort's story beats and relationship moments.",
+      "Try the local minigames (they feed trophies and rewards) and clear the region's Odd Jobs.",
+      "Follow the main path out toward the Corel region and its desert."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
   },
@@ -6377,10 +6382,10 @@ const quests = [
     aiTip:
       "Barret's backstory pays off emotionally here — do the Corel Odd Jobs to strengthen party bonds before the Gold Saucer.",
     walkthrough: [
-      "Enter the Corel region and its dustbowl and desert prison.",
-      "Progress the story tied to Barret and Dyne's past.",
-      "Sync the tower and pick up the region's intel and jobs.",
-      "Advance toward the Gold Saucer."
+      "Enter the Corel region — the dustbowl, canyons, and the desert prison.",
+      "Sync the region tower and pick up its World Intel and Odd Jobs.",
+      "Progress the story tied to Barret and Dyne's shared past.",
+      "Ride the region chocobo across the gaps to reach objectives, then advance toward the Gold Saucer."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
   },
@@ -6400,10 +6405,10 @@ const quests = [
     aiTip:
       "Save eddies/GP for the arcade. The Dyne confrontation is a major story and combat beat; come prepared.",
     walkthrough: [
-      "Reach the dazzling Gold Saucer amusement park.",
-      "Play through the attractions and story events.",
-      "Confront the wrenching story of Dyne in Corel Prison.",
-      "Complete the chapter's major beats to move on."
+      "Reach the Gold Saucer amusement park and take in the attractions.",
+      "Play through the required arcade/minigame story events (save GP for the games).",
+      "Descend to Corel Prison and confront the wrenching story of Dyne.",
+      "Fight the chapter's major boss beat, then complete the events to move on."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
   },
@@ -6423,10 +6428,11 @@ const quests = [
     aiTip:
       "Gongaga's dense terrain makes traversal tricky — use the region's springs and chocobo to reach hidden Odd Jobs.",
     walkthrough: [
-      "Enter the lush, mushroom-filled Gongaga jungle.",
-      "Explore Zack's hometown and deal with the Turks.",
-      "Uncover the reactor-meltdown legacy in the story beats.",
-      "Sync the region's intel and advance the main path."
+      "Enter the lush, mushroom-filled Gongaga jungle and sync its tower.",
+      "Use the region's springs and chocobo to navigate the dense, layered terrain.",
+      "Explore Zack's hometown of Gongaga and deal with the Turks operating there.",
+      "Uncover the reactor-meltdown legacy through the story beats.",
+      "Advance the main path once the region's key events resolve."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
   },
@@ -6446,10 +6452,10 @@ const quests = [
     aiTip:
       "Red XIII's arc peaks here. Bonds of Trust and the other Cosmo Odd Jobs deepen relationships worth investing in.",
     walkthrough: [
-      "Travel to Cosmo Canyon, the spiritual heart of the Planet, with Red XIII.",
-      "Progress the story about the Lifestream and Red's heritage.",
-      "Complete the region's objectives and intel.",
-      "Advance toward Nibelheim."
+      "Travel to Cosmo Canyon with Red XIII and reach the observatory settlement.",
+      "Progress the story of the Lifestream, the Planet, and Red's heritage.",
+      "Complete the region's tower and intel, and take on the Cosmo Odd Jobs.",
+      "See Red XIII's arc through its emotional peak, then advance toward Nibelheim."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
   },
@@ -6470,9 +6476,9 @@ const quests = [
       "The present-day Nibelheim reframes the opening flashback — go slow and read the environmental storytelling.",
     walkthrough: [
       "Return to present-day Nibelheim in the Nibel region.",
-      "Investigate the mansion and Shinra's experiments.",
-      "Confront the truth of Cloud's memories in the story beats.",
-      "Push the plot toward its next turn."
+      "Investigate Shinra Manor and the basement laboratory tied to Hojo's experiments.",
+      "Confront the contradictions in Cloud's memories through the story beats.",
+      "Clear the mansion's encounters and push the plot toward its next turn."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
   },
@@ -6493,9 +6499,9 @@ const quests = [
       "This is the point of no return at chapter's end. Mop up remaining Odd Jobs and World Intel now — several only open in Chapter 12.",
     walkthrough: [
       "Regroup at the Gold Saucer for the run-up to the finale.",
-      "Unlock the last wave of Odd Jobs across every region.",
-      "Wrap up remaining world intel and side content while you can.",
-      "Advance the main story toward the Temple of the Ancients."
+      "The last wave of Odd Jobs across every region unlocks now — mop up remaining World Intel and side content, since several close after this chapter.",
+      "Complete the required Gold Saucer story events (including the date sequence set by your relationship choices).",
+      "When ready, advance the main story toward the Temple of the Ancients (a point of no return follows)."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
   },
@@ -6515,9 +6521,10 @@ const quests = [
     aiTip:
       "A puzzle-and-boss gauntlet. Bring a healer-focused materia setup — the temple's encounters escalate quickly.",
     walkthrough: [
-      "Enter the Temple of the Ancients and its shifting geometry.",
-      "Solve the temple's rotating puzzles and clear its guardians.",
-      "Progress the pivotal story confrontation.",
+      "Enter the Temple of the Ancients and navigate its shifting, rotating geometry.",
+      "Solve the temple's clock-face and scale puzzles to open the deeper chambers.",
+      "Clear the ancient guardians; bring a healing-focused materia setup as encounters escalate.",
+      "Progress the pivotal story confrontation inside the temple.",
       "Complete the chapter to reach the finale's approach."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
@@ -6539,9 +6546,9 @@ const quests = [
       "Come with your strongest builds and summons. This multi-phase finale is the toughest test in the main story.",
     walkthrough: [
       "Reach the Forgotten Capital for Rebirth's climactic finale.",
-      "Play through the destined, reinterpreted encounter.",
-      "Fight the chapter's major boss battles.",
-      "See the story to its emotional conclusion."
+      "Play through the destined, reinterpreted encounter at the heart of the city.",
+      "Fight the chapter's multi-phase boss battles with your strongest builds and summons.",
+      "See the story through its emotional conclusion and the game's ending sequence."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
   },
@@ -6561,10 +6568,10 @@ const quests = [
     aiTip:
       "Great early Queen's Blood card — grab it before the tournaments to strengthen your deck.",
     walkthrough: [
-      "Talk to the ranch hand at Bill's Ranch in the Grasslands to start the job.",
-      "Follow the marker to track the lost Queen's Blood card across the fields.",
-      "Deal with any foes guarding it.",
-      "Return the card — it's added to your deck."
+      "Accept the job from the ranch hand at the Grasslands Chocobo Ranch.",
+      "Follow the marker to track down the lost Queen's Blood card across the ranch fields.",
+      "Defeat the monsters guarding the spot where the card was dropped.",
+      "Recover the card and return it to the quest-giver; it's added to your Queen's Blood deck."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
   },
@@ -6584,10 +6591,10 @@ const quests = [
     aiTip:
       "Completing this smooths chocobo traversal in Junon — do it early to speed up World Intel.",
     walkthrough: [
-      "Accept the job from the rancher in Under Junon.",
-      "Approach and calm the skittish chocobos using the prompts.",
-      "Wrangle each one back toward the pen.",
-      "Report to the rancher for the reward."
+      "Take the job from the rancher in Under Junon whose chocobos have gone skittish.",
+      "Approach each chocobo slowly and use the calm/soothe prompts without startling them.",
+      "Herd the calmed birds back toward the pen one at a time.",
+      "Report to the rancher — completing it smooths chocobo traversal across Junon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
   },
@@ -6608,9 +6615,9 @@ const quests = [
       "A character-driven quest — the choices here nudge party affinity for the Gold Saucer date.",
     walkthrough: [
       "Take the request from the wistful local in Coastal Junon.",
-      "Follow the objective to help chase their small dream.",
-      "Complete the tasks against Junon's militarized backdrop.",
-      "Return to the quest-giver to finish."
+      "Follow the objective to help them chase their small, hopeful dream against Junon's militarized backdrop.",
+      "Complete the marked tasks and any accompanying dialogue choices (they nudge party affinity).",
+      "Return to the quest-giver to finish and claim the accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
   },
@@ -6630,10 +6637,10 @@ const quests = [
     aiTip:
       "Watch for Toad status during the frog encounters — bring a Remedy or Esuna to counter it.",
     walkthrough: [
-      "Start the job in the Junon Wetlands where the frogs have gone haywire.",
-      "Investigate the cause along the marked path.",
-      "Deal with the source disturbing the population.",
-      "Restore the balance and report back."
+      "Start the job in the Junon Wetlands, where the frog population has gone haywire.",
+      "Follow the marked trail to investigate the cause of the disturbance.",
+      "Fight the source enemies — keep a Remedy or Esuna ready to cure Toad status.",
+      "Restore the wetlands' balance and report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
   },
@@ -6653,10 +6660,10 @@ const quests = [
     aiTip:
       "Feeds into the resort chapter's relationship beats — pick the dialogue that matches who you want to romance.",
     walkthrough: [
-      "Begin the rendezvous job in Costa del Sol.",
-      "Follow the lighthearted objectives around the resort.",
-      "Complete the beach-town tasks and any battles.",
-      "Meet the quest-giver to wrap it up."
+      "Begin the rendezvous job in Costa del Sol during the resort chapter.",
+      "Follow the lighthearted objectives around the beach town.",
+      "Complete the tasks and any battles, picking dialogue that matches who you want to romance.",
+      "Meet the quest-giver to wrap it up and set the relationship flag."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
   },
@@ -6676,10 +6683,10 @@ const quests = [
     aiTip:
       "It's a rhythm/timing minigame — watch the pattern and don't burn out early.",
     walkthrough: [
-      "Accept the muscleheads' challenge in Costa del Sol.",
-      "Take on the squats minigame and match the rhythm prompts.",
-      "Beat the target score to prove your strength.",
-      "Collect the reward for winning."
+      "Accept the muscleheads' squats challenge in Costa del Sol.",
+      "Watch the on-screen rhythm pattern for the squats minigame and match the prompts.",
+      "Pace yourself so you don't burn out early, and beat the target score.",
+      "Collect the reward for out-lifting the challengers."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
   },
@@ -6699,10 +6706,10 @@ const quests = [
     aiTip:
       "Ties into the game's central mystery — read the notes you recover for foreshadowing.",
     walkthrough: [
-      "Take the job investigating black-robed men in the Corel Dustbowl.",
-      "Follow the clues into the ransom scheme tied to Sephiroth's followers.",
+      "Take the job investigating reports of black-robed men in the Corel Dustbowl.",
+      "Follow the clues to the ransom scheme tied to Sephiroth's followers, reading the notes you recover for foreshadowing.",
       "Fight through the culprits at the marked site.",
-      "Resolve the ransom and report back."
+      "Resolve the ransom situation and report back for the materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
   },
@@ -6722,10 +6729,10 @@ const quests = [
     aiTip:
       "A combat-heavy Odd Job; bring healing and exploit each opponent's elemental weakness.",
     walkthrough: [
-      "Enter the desert prison arena in the Dustbowl.",
-      "Fight through the escalating combat trials for the crowd.",
-      "Adapt to each wave's enemies.",
-      "Clear the final bout for the payout."
+      "Enter the desert-prison arena in the Corel Dustbowl and sign up for the trials.",
+      "Fight through the escalating waves of combatants for the crowd.",
+      "Exploit each wave's elemental weaknesses and keep healing up.",
+      "Clear the final bout to earn the payout and party-bond reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
   },
@@ -6745,9 +6752,9 @@ const quests = [
     aiTip:
       "Use your chocobo's scent-tracking to follow the trail through the dense foliage.",
     walkthrough: [
-      "Talk to the villager in Gongaga whose bird has vanished.",
-      "Follow the clues into the jungle to track Mr. Birdie.",
-      "Navigate the hazards and any foes along the trail.",
+      "Talk to the villager in Gongaga whose beloved bird, Mr. Birdie, has vanished.",
+      "Ride your chocobo and use its scent-tracking to follow the trail through the dense jungle.",
+      "Navigate the terrain hazards and clear any foes along the path.",
       "Bring Mr. Birdie home to complete the job."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
@@ -6768,10 +6775,10 @@ const quests = [
     aiTip:
       "Gather the exact items requested — partial deliveries won't satisfy this client.",
     walkthrough: [
-      "Accept the craftsman's request in Gongaga Village.",
-      "Gather the rare jungle ingredients he needs, using your chocobo to sniff them out.",
-      "Return each component to him.",
-      "Complete his flawless creation for the reward."
+      "Accept the perfectionist craftsman's request in Gongaga Village.",
+      "Use your chocobo to sniff out the exact rare jungle ingredients he lists.",
+      "Gather each requested component (partial deliveries won't satisfy him) and return them.",
+      "Hand over the materials so he can finish his flawless creation and pay you."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
   },
@@ -6791,10 +6798,10 @@ const quests = [
     aiTip:
       "Chocobo traversal and the region's springs make chasing down the strays far easier.",
     walkthrough: [
-      "Start the job to round up escaped fowl in the Gongaga jungle.",
-      "Chase down each bird along the treacherous paths.",
-      "Corner and catch them one by one.",
-      "Return them all to finish the job."
+      "Start the job to round up the escaped fowl scattered across the Gongaga jungle.",
+      "Use chocobo traversal and the region's springs to reach the strays on the treacherous paths.",
+      "Corner and catch each bird one at a time.",
+      "Return them all to the owner to finish the job."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
   },
@@ -6814,10 +6821,10 @@ const quests = [
     aiTip:
       "A Yuffie-focused quest that strengthens her party bond — great for the affinity system.",
     walkthrough: [
-      "Begin Yuffie's job proving herself to the aspiring young 'warrior' in Gongaga.",
-      "Play along with the comedic training tasks.",
-      "Complete each challenge the kid sets.",
-      "Finish the arc for the reward and a laugh."
+      "Begin Yuffie's job proving herself to an aspiring young 'warrior' in Gongaga.",
+      "Play along with the comedic training tasks the kid sets.",
+      "Complete each challenge in order.",
+      "Finish the arc to strengthen Yuffie's party bond and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
   },
@@ -6838,9 +6845,9 @@ const quests = [
       "Hold Up on the d-pad and follow the chocobo's nose to the three mushrooms — they're easy to miss.",
     walkthrough: [
       "Talk to Cissnei at her house in Gongaga to start the job.",
-      "Ride your chocobo to sniff out the rare Magonga Mushrooms in the jungle.",
-      "Collect the required mushrooms.",
-      "Return them to Cissnei to complete the dish."
+      "Ride your chocobo and hold the tracking input to follow its nose to the rare Magonga Mushrooms in the jungle.",
+      "Collect the three required mushrooms (they're easy to miss in the foliage).",
+      "Return them to Cissnei to complete the dish and earn the cooking recipe."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
   },
@@ -6861,9 +6868,9 @@ const quests = [
       "Rewards Yuffie's Crescent Sickle weapon — a strong pickup, so don't skip this one.",
     walkthrough: [
       "Begin the trust job among Cosmo Canyon's people and wildlife.",
-      "Complete the tasks that earn the locals' and animals' trust.",
-      "Follow the objectives along the canyon paths.",
-      "Finish to unlock the region's mountain chocobo."
+      "Complete the tasks that earn the locals' and the animals' trust along the canyon paths.",
+      "Follow the chain of objectives to its final step.",
+      "Finish to unlock the region's mountain chocobo and claim Yuffie's Crescent Sickle weapon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
   },
@@ -6884,9 +6891,9 @@ const quests = [
       "Read the observatory lore — it enriches Red XIII's chapter and the game's themes.",
     walkthrough: [
       "Accept the job at the Cosmo Canyon Observatory.",
-      "Help restore the astronomical markers along the marked route.",
-      "Complete the alignment tasks tied to the canyon's cosmology.",
-      "Report back to finish."
+      "Follow the marked route to help restore the canyon's astronomical markers.",
+      "Complete the alignment/observation tasks tied to the region's cosmology.",
+      "Report back to finish and pick up the materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
   },
@@ -6908,8 +6915,8 @@ const quests = [
     walkthrough: [
       "Start the job investigating a Lifestream-touched site near Cosmo Canyon.",
       "Follow the objective to the disturbed sacred ground.",
-      "Deal with the strange phenomena and any foes.",
-      "Resolve the disturbance and report back."
+      "Deal with the strange phenomena and any enemies drawn to it.",
+      "Resolve the disturbance and report back for the healing materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
   },
@@ -6930,9 +6937,9 @@ const quests = [
       "An emotional beat that boosts party affinity — worth doing before the chapter's finale.",
     walkthrough: [
       "Begin the 'Promises to Keep' job in Cosmo Canyon village.",
-      "Follow the story of an old promise to a departed friend.",
-      "Complete the tasks honoring their wish.",
-      "Return to the quest-giver to close the arc."
+      "Follow the story of an old promise made to a departed friend.",
+      "Complete the tasks required to honor their wish.",
+      "Return to the quest-giver to close the arc and boost party affinity."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
   },
@@ -6952,10 +6959,10 @@ const quests = [
     aiTip:
       "Bring elemental variety — the guardians rotate weaknesses across the trial's stages.",
     walkthrough: [
-      "Reach the ancient trials on Mt. Nibel to start the job.",
+      "Reach the ancient trials hidden on Mt. Nibel to start the job.",
       "Solve the esoteric puzzles along the mountain paths.",
-      "Defeat the guardian battles the trials pit against you.",
-      "Complete the trials for the reward."
+      "Defeat the guardian battles, bringing elemental variety since the guardians rotate weaknesses across stages.",
+      "Complete all trial stages for the rare materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
   },
@@ -6975,10 +6982,10 @@ const quests = [
     aiTip:
       "A grounded, human-scale quest amid the escalating conflict — good affinity gains.",
     walkthrough: [
-      "Accept the job about wartime anxieties in the Nibel/Junon coast area.",
-      "Help those caught between Shinra's war machine and daily survival.",
+      "Accept the job about wartime anxieties along the Nibel/Junon coast.",
+      "Help the people caught between Shinra's war machine and daily survival.",
       "Complete each of the marked tasks.",
-      "Report back to finish the job."
+      "Report back to finish and gain the affinity/accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
   },
@@ -6998,10 +7005,10 @@ const quests = [
     aiTip:
       "Enemies are stronger in the endgame revisit — bring your Chapter 12 builds and summons.",
     walkthrough: [
-      "Take the tougher Chapter 12 job sending you back to the Grasslands.",
+      "Take the tougher Chapter 12 job that sends the party back to the Grasslands.",
       "Travel to the marked high-stakes objective.",
-      "Defeat the upgraded foes there.",
-      "Complete the work for its reward."
+      "Defeat the upgraded endgame foes with your Chapter 12 builds and summons.",
+      "Complete the work for its endgame materia reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
   },
@@ -7021,10 +7028,10 @@ const quests = [
     aiTip:
       "Requires endgame traversal upgrades — return once you can reach the deeper areas.",
     walkthrough: [
-      "Begin the late-game mystery in the Junon Wetlands.",
+      "Begin the late-game mystery in the Junon Wetlands (needs endgame traversal upgrades).",
       "Follow the clues to uncover what lurks beneath the surface.",
       "Fight the threat revealed in the waters.",
-      "Resolve the mystery and report back."
+      "Resolve the mystery and report back for the rare item."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
   },
@@ -7045,9 +7052,9 @@ const quests = [
       "A callback quest — earlier Costa del Sol choices color how this one resolves.",
     walkthrough: [
       "Start the 'Trouble in Paradise' job in Costa del Sol.",
-      "Investigate the endgame threat reaching the resort.",
+      "Investigate the endgame threat that has reached the resort (earlier choices color how it resolves).",
       "Fight through the escalating danger.",
-      "Restore order and complete the job."
+      "Restore order and complete the job for the accessory reward."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
   },
@@ -7067,10 +7074,10 @@ const quests = [
     aiTip:
       "A defensive combat Odd Job; area-of-effect materia helps against the waves.",
     walkthrough: [
-      "Accept the woodland vigil job in the Gongaga jungle.",
-      "Stand watch against the escalating endgame incursion.",
-      "Defeat the waves of foes at the marked posts.",
-      "Hold the line to finish the job."
+      "Accept the woodland-vigil job in the Gongaga jungle.",
+      "Stand watch at the marked posts against the escalating endgame incursion.",
+      "Defeat the waves of foes — area-of-effect materia helps clear them fast.",
+      "Hold the line through the final wave to finish and earn the rare crafting mats."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
   },
@@ -7090,10 +7097,10 @@ const quests = [
     aiTip:
       "Magnify Materia is a top-tier reward — pair it with Heal/Barrier to buff the whole party at once.",
     walkthrough: [
-      "Begin the endgame Cosmo Canyon job.",
-      "Follow the objective with real consequences to its site.",
+      "Begin the endgame Cosmo Canyon job with real story consequences.",
+      "Follow the objective to its site.",
       "Defeat the encounter guarding the reward.",
-      "Claim one of the game's best support materia."
+      "Claim the Magnify Materia — pair it with Heal or Barrier to buff the whole party at once."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
   },
@@ -7114,9 +7121,9 @@ const quests = [
       "Completing it unlocks Hojo's Exams (advanced combat challenges) and grants a Manuscript for a Barret upgrade.",
     walkthrough: [
       "Start the grim Chapter 12 quest on Mt. Nibel.",
-      "Progress the story strengthening Barret's resolve.",
+      "Progress the story that strengthens Barret's resolve.",
       "Fight through the marked encounters.",
-      "Unlock Hojo's combat exams on completion."
+      "Complete it to unlock Hojo's combat exams and earn the Art of Swordplay Vol. VI manuscript."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
   },
@@ -13138,9 +13145,9 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Do a region's tower first — it uncovers the Lifesprings, Fiend Intel, and Protorelic markers.",
     walkthrough: [
       "Approach a Remnawave tower in any region and interact to begin.",
-      "Solve the short traversal/climb puzzle to reach the top.",
-      "Activate the tower to reveal the region's map and intel objectives.",
-      "Repeat at each region's towers to fully chart the world."
+      "Solve the short climb/traversal puzzle to reach the top of the tower.",
+      "Activate it to reveal the region's map and populate its intel objectives (Lifesprings, Fiend Intel, Divine Intel).",
+      "Repeat at each region's towers to fully chart the world and open fast travel."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
   },
@@ -13159,10 +13166,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Exploit each fiend's weakness for the assessment bonus — it feeds Chadley's shop rewards.",
     walkthrough: [
-      "Open Chadley's Fiend Intel list for the region.",
-      "Track down each named monster or combat-assessment target.",
-      "Defeat it while meeting any special battle condition.",
-      "Report the data to Chadley to unlock rewards and new intel."
+      "Open Chadley's Fiend Intel list for the region from the map or comms.",
+      "Track down each named monster or combat-assessment target at its marker.",
+      "Defeat it while meeting the special battle condition (usually exploiting its weakness for the assessment bonus).",
+      "Report the data to Chadley to unlock combat-sim fights and enhancement cores for his shop."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
   },
@@ -13181,10 +13188,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A relaxing collectible chain — the lore deepens the game's ecological themes.",
     walkthrough: [
-      "Locate a Lifespring welling up in the region.",
+      "Locate a Lifespring welling up in the region (revealed by the Remnawave tower).",
       "Approach and interact to trigger its investigation.",
-      "Complete the short encounter or lore beat.",
-      "Sync the data with Chadley for rewards."
+      "Complete the short lore beat or encounter and let MP restore.",
+      "Sync the data with Chadley for planet lore and rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
   },
@@ -13203,10 +13210,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "These are the best World Intel rewards — do the region's other intel first to unlock them.",
     walkthrough: [
-      "Begin the region's Divine Intel (Protorelic) chain.",
-      "Solve each multi-step objective — combat, minigame, or puzzle.",
-      "Progress through the chain's stages.",
-      "Claim the unique summon materia on completion."
+      "Complete the region's other World Intel first to unlock its Divine Intel (Protorelic) chain.",
+      "Begin the chain and work through each multi-step objective — combat gauntlet, minigame, or environmental puzzle.",
+      "Progress through the chain's stages to the finale challenge.",
+      "Claim the unique summon materia — the best World Intel reward in each region."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
   },
@@ -13225,10 +13232,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Unlocking the region chocobo (mountain, river, etc.) is essential for reaching hidden content.",
     walkthrough: [
-      "Find broken Chocobo Stops and moogle expedition points in the region.",
-      "Restore each Chocobo Stop by clearing the nearby obstacle.",
-      "Complete the moogle expeditions.",
-      "Open up the region's fast-travel and traversal network."
+      "Find broken Chocobo Stops and moogle expedition points marked in the region.",
+      "Restore each Chocobo Stop by clearing the nearby obstacle or objective.",
+      "Complete the moogle expeditions to send out and collect resources.",
+      "Open up the region's fast-travel and chocobo traversal network (mountain, river, etc.)."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
   },
@@ -13247,10 +13254,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Balance offensive and defensive cards; the tournament ladder rewards a well-built deck.",
     walkthrough: [
-      "Learn Queen's Blood from the tutorial in Kalm.",
-      "Challenge NPC players across each region to grow your deck.",
-      "Win matches to earn new and rarer cards.",
-      "Work up to the Gold Saucer's top players to master the game."
+      "Learn Queen's Blood from the tutorial player in Kalm and get your starter deck.",
+      "Challenge NPC players across every region to win new and rarer cards.",
+      "Refine your deck around lane control and pawn-then-power plays as cards accumulate.",
+      "Work up the ladder to the Gold Saucer's top players to master the game and claim its rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
   },
@@ -13269,10 +13276,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Learn each unit's counter — cavalry beats ranged, ranged beats vanguard, and so on.",
     walkthrough: [
-      "Find the Fort Condor board in the Junon area.",
-      "Learn the tower-defense rules and set your units.",
-      "Beat each escalating opponent's board.",
-      "Clear the ladder for prizes."
+      "Find a Fort Condor board in the Junon area and open the tower-defense minigame.",
+      "Set your units, using the counter triangle — vanguard beats ranged, ranged beats defense, defense beats vanguard.",
+      "Push lanes to destroy the enemy's outposts and main base before they take yours.",
+      "Beat each escalating opponent's board to clear the ladder for prizes."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
   },
@@ -13291,10 +13298,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Watch the opponent's tells and punish openings — patience beats button-mashing.",
     walkthrough: [
-      "Access the 3D Brawler in Costa del Sol or the Gold Saucer.",
-      "Read the opponent's tells to block and counter in the boxing minigame.",
-      "Chain successful reactions into combos.",
-      "Beat each opponent for prizes and trophies."
+      "Access the 3D Brawler minigame in Costa del Sol or the Gold Saucer.",
+      "Read the opponent's tells and block or dodge, then punish the opening — patience over button-mashing.",
+      "Chain successful reactions into combos to build damage.",
+      "Beat each opponent up the ladder for prizes and trophies."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
   },
@@ -13313,10 +13320,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Set your gambits to target weaknesses and heal at thresholds — then let them fight.",
     walkthrough: [
-      "Start a Gears & Gambits puzzle in the field.",
-      "Program each tin soldier's gambit rules for the auto-battle.",
-      "Adjust the logic until your units clear the encounter.",
-      "Solve every stage for the rewards."
+      "Start a Gears & Gambits puzzle at a marked node in the field.",
+      "Program each tin soldier's gambit rules — target weaknesses, heal at HP thresholds, prioritize threats.",
+      "Run the auto-battle and adjust the logic until your units clear the encounter.",
+      "Solve every stage for the combat-sim rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
   },
@@ -13335,10 +13342,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Manage stamina and grab boost pads — upgrade your chocobo's gear between races.",
     walkthrough: [
-      "Enter Chocobo Racing at the Gold Saucer.",
-      "Learn the track and use boosts and items around each lap.",
-      "Place first across the race classes.",
-      "Earn gil, GP, and cosmetic rewards for winning."
+      "Enter Chocobo Racing at the Gold Saucer and pick a race class.",
+      "Learn the track layout, manage stamina, and grab boost gates and items each lap.",
+      "Upgrade your chocobo's gear and stats between races for tougher classes.",
+      "Place first across the classes to earn gil, GP, and cosmetic rewards."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
   },
@@ -13357,10 +13364,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Start on Easy to learn the note mapping; nailing songs unlocks new sheets and rewards.",
     walkthrough: [
-      "Sit at a piano found in a town or hub.",
-      "Follow the on-screen notes in the rhythm minigame.",
-      "Play each sheet-music track to a passing score.",
-      "Earn rewards for higher performance ranks."
+      "Sit at a piano found in a town or hub and choose a sheet-music track.",
+      "Follow the on-screen notes in the rhythm minigame — start on Easy to learn the note mapping.",
+      "Play each track to a passing (or higher) performance rank.",
+      "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
   },
@@ -13379,10 +13386,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Ward against earth and punish its stagger windows — a strong early summon.",
     walkthrough: [
-      "Complete the Grasslands intel to unlock Titan's combat-simulator trial.",
-      "Enter the VR fight and learn Titan's earth-quake attack patterns.",
-      "Dodge the arena hazards and punish his openings.",
-      "Defeat Titan to earn the earth-elemental summon."
+      "Complete enough Grasslands World Intel to unlock Titan's combat-simulator trial with Chadley.",
+      "Enter the VR fight and learn Titan's earth-quake and shockwave patterns.",
+      "Ward against Earth damage, dodge the arena hazards, and punish his stagger windows.",
+      "Defeat Titan to earn the earth-elemental summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
   },
@@ -13401,10 +13408,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Holy-elemental Alexander is great against undead — bring MP-recovery for the fight.",
     walkthrough: [
-      "Unlock Alexander's trial through Junon's intel.",
-      "Enter Chadley's VR fight against the holy fortress.",
-      "Weather Alexander's holy barrages and heavy attacks.",
-      "Win to earn the Alexander summon materia."
+      "Unlock Alexander's trial through Junon's World Intel, then enter Chadley's VR fight.",
+      "Weather the holy fortress's barrages and heavy artillery attacks.",
+      "Keep MP-recovery up and pressure it into stagger between salvos.",
+      "Win to earn the holy-elemental Alexander summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
   },
@@ -13423,10 +13430,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "One of the toughest summon fights — max your materia and elemental resists first.",
     walkthrough: [
-      "Complete Cosmo Canyon's intel to open Bahamut Arisen's assessment.",
-      "Enter the demanding VR trial against the dragon king.",
-      "Survive Mega Flare and its relentless combos.",
-      "Defeat Bahamut Arisen for the ultimate summon."
+      "Complete Cosmo Canyon's World Intel to open Bahamut Arisen's demanding VR assessment.",
+      "Max your materia and elemental resists before entering — this is one of the toughest summon fights.",
+      "Survive Mega Flare and its relentless combos, staggering it during openings.",
+      "Defeat Bahamut Arisen to claim the ultimate dragon-king summon."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
   },
@@ -13445,10 +13452,10 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Odin's trial is a DPS race — build for maximum stagger and damage.",
     walkthrough: [
-      "Unlock Odin's trial via Nibel's intel.",
-      "Enter the fight under Odin's strict time limit.",
-      "Deal heavy damage fast to avoid his instant-death Zantetsuken.",
-      "Beat the clock to claim the Odin summon."
+      "Unlock Odin's trial via Nibel's World Intel and enter the fight.",
+      "Race the strict time limit — build for maximum stagger and burst damage.",
+      "Deal heavy damage fast to avoid his instant-death Zantetsuken when the counter expires.",
+      "Beat the clock to claim the Odin summon materia."
     ],
     video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
   },
