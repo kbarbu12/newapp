@@ -48165,5 +48165,71 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
+  },
+{
+    id: 2358,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Daedalian Keys",
+    location: "Hogwarts Castle",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Four House chests (house-themed cosmetic gear), XP",
+    summary: "The Daedalian Keys side quest: Nellie Oggspire asks you to track down the 16 enchanted flying keys scattered across Hogwarts Castle. Each key flutters near a locked House cabinet — catch all 16 to open the four House chests.",
+    aiTip: "A key darts away when you approach and feints direction a few times before you can grab it — corner it against a wall. Keys hover near the cabinets they unlock, so sweep each wing as you explore.",
+    walkthrough: [
+      "Speak with Nellie Oggspire near the Library Annex to begin The Daedalian Keys.",
+      "Spot a floating Daedalian Key hovering near a locked House cabinet somewhere in the castle.",
+      "Chase and catch each key as it flits away (it changes direction a few times before you grab it).",
+      "Use the caught key on its nearby cabinet, matching keys to the four House chests.",
+      "Collect all 16 keys to open the four House chests and complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=26f2gaweUJE"
+  },
+{
+    id: 2359,
+    type: "side",
+    category: "Challenges",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Crossed Wands",
+    location: "Hogwarts Castle (Crossed Wands duelling club)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Duelling XP, gear",
+    summary: "Lucan Brattleby runs a secret duelling club — Crossed Wands. Take on three rounds of increasingly tough duels to prove yourself against the school's best casters.",
+    aiTip: "Match your spell colours to the enemy's shield (yellow Levioso-type, purple, red), keep Protego ready to parry, and weave basic casts into combos between dodges.",
+    walkthrough: [
+      "Find Lucan Brattleby in the Central Hall and sign up for Crossed Wands.",
+      "Round 1: defeat the first duelists using Protego parries and colour-matched spells.",
+      "Round 2: face tougher opponents; break their shields with the matching spell type.",
+      "Round 3 (championship): win the final duel against the top challengers.",
+      "Return to Lucan to complete Crossed Wands and claim your rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=lHqZiehqRi8"
+  },
+{
+    id: 2360,
+    type: "side",
+    category: "Challenges",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Summoner's Court",
+    location: "Hogwarts Castle (Bell Tower Wing — Flying Class Lawn)",
+    length: "medium",
+    difficulty: "Low",
+    reward: "XP, gear",
+    summary: "Summoner's Court is a wizarding lawn game — a reverse shuffleboard where you use the Accio spell to pull balls toward the scoring zones. Beat all five matches to master it.",
+    aiTip: "It's all about Accio timing: nudge your ball toward the high-scoring centre without overshooting the edge, and knock rivals' balls out of the scoring rings.",
+    walkthrough: [
+      "Go to the Summoner's Court by the Flying Class Lawn Floo Flame (Bell Tower Wing) and talk to Leander Prewett for Match 1.",
+      "Use Accio to pull each ball as close to the centre scoring zone as possible.",
+      "Knock opponents' balls out of the high-value rings while protecting your own.",
+      "Win the required rounds to take the match.",
+      "Progress through all five matches to complete Summoner's Court."
+    ],
+    video: "https://www.youtube.com/watch?v=QBCemYA3d_k"
   }
 ];
