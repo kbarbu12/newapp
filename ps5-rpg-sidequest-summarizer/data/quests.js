@@ -2216,10 +2216,11 @@ const quests = [
     aiTip:
       "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
     walkthrough: [
-      "Pick up the Iki Island tale of Black Hand Riku.",
-      "Follow the clues and Senses-style guiding wind to his haunts.",
-      "Clear the Mongol raiders tied to the legend.",
-      "Confront the truth of Riku's ghost and finish the tale."
+      "On Iki Island, find the musician who sings of Black Hand Riku, a raider chief said to command a cursed war-elephant-sized beast.",
+      "Follow the ballad's clues across Iki to each marked site, clearing the raider camps.",
+      "Investigate the trail to Riku's stronghold with the guiding wind and golden birds.",
+      "Fight through Riku's raiders and confront him in the final duel.",
+      "Defeat Black Hand Riku to complete the tale and claim its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
@@ -3370,10 +3371,11 @@ const quests = [
     aiTip:
       "Norio Tale 2 of 9.",
     walkthrough: [
-      "Continue Norio's tale as he liberates the faithful in Toyotama.",
-      "Fight through the Mongols holding the captives.",
-      "Help Norio confront his illusions of vengeance.",
-      "Complete the mission and advance his story."
+      "Meet the quest-giver in Toyotama and begin 'Three Actions, Three Illusions'.",
+      "Follow the guiding wind to each of the three marked deceptions.",
+      "Investigate and see through each illusion in turn.",
+      "Fight the enemies revealed behind the ruse.",
+      "Resolve the tale and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
@@ -3410,10 +3412,11 @@ const quests = [
     aiTip:
       "Kenji Tale 2 of 3.",
     walkthrough: [
-      "Join Kenji chasing the rival sake seller across Toyotama.",
-      "Follow the trail to the stolen batch of nattou.",
-      "Deal with the rival's thugs.",
-      "Recover the goods and share a laugh with Kenji."
+      "Find Kenji the sake seller and agree to help move his nattou/sake.",
+      "Escort or follow Kenji to the marked buyers, dealing with trouble.",
+      "Clear the Mongols or bandits interrupting the trade.",
+      "Complete the comedic negotiation to Kenji's satisfaction.",
+      "Finish the tale and unlock further Kenji dealings."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
@@ -3433,10 +3436,11 @@ const quests = [
     aiTip:
       "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
     walkthrough: [
-      "Help Yuna deal with the Mongols hunting her in Izuhara.",
-      "Stalk and assassinate the pursuers using stealth.",
-      "See how far Yuna will go to survive.",
-      "Finish the ruthless job and its quiet reckoning."
+      "Take up the Silent Death tale with an assassin's target in Izuhara.",
+      "Stalk the marked camp using stealth and the guiding wind.",
+      "Eliminate the sentries silently to reach the target.",
+      "Assassinate or duel the mark as the tale dictates.",
+      "Escape and complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
@@ -9594,10 +9598,11 @@ const quests = [
     aiTip:
       "Learn parry and Resolve early — the opening sets the samurai-vs-Ghost tension that drives the game.",
     walkthrough: [
-      "Survive the Mongol landing at Komoda Beach and escape the battlefield.",
-      "Recover under Yuna's care and reclaim your gear.",
-      "Learn the basics of stance combat and vow to retake Tsushima.",
-      "Set out to rescue Lord Shimura from Castle Kaneda."
+      "Meet Lord Shimura's forces and take up the Warrior's Code objective in Izuhara.",
+      "Ride to the marked Mongol-held position and scout it.",
+      "Assault the enemy camp, fighting in honorable samurai style as Shimura expects.",
+      "Push through to the objective and rescue/secure the target.",
+      "Report back to advance the liberation of Izuhara."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
   },
@@ -9617,10 +9622,11 @@ const quests = [
     aiTip:
       "This is where 'the Ghost' begins — stealth and terror tactics open up alongside honorable dueling.",
     walkthrough: [
-      "Follow Yuna toward allies while learning the Ghost's stealth tools.",
-      "Assassinate Mongol patrols to clear the path, wrestling with the samurai code.",
-      "Infiltrate the objective using the new dishonorable tactics.",
-      "Complete the mission as the legend of the Ghost begins."
+      "Follow Yuna's lead to the poisoned fields and investigate the Mongols' tactics.",
+      "Track the trail with the guiding wind through the burning countryside.",
+      "Clear the Mongol patrols using stealth or open combat.",
+      "Confront the enemy leader behind the atrocity.",
+      "Complete the mission to progress Jin's story."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
   },
@@ -9640,10 +9646,11 @@ const quests = [
     aiTip:
       "A major set-piece battle — master the standoff mechanic to thin enemy ranks before the walls.",
     walkthrough: [
-      "Gather allies for the assault on Castle Kaneda.",
-      "Infiltrate the castle, clearing Mongols by stealth or open combat.",
-      "Reach and duel the enemy leader inside.",
-      "Free Lord Shimura and secure the Izuhara region."
+      "Begin the raid that forces Jin to embrace Ghost tactics for the first time in earnest.",
+      "Infiltrate the Mongol stronghold under cover, using stealth takedowns.",
+      "Sabotage defenses and free captives as you advance.",
+      "Fight through to the commander and defeat him.",
+      "Escape and complete the mission, deepening the Ghost's legend."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
   },
@@ -9663,10 +9670,11 @@ const quests = [
     aiTip:
       "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
     walkthrough: [
-      "Travel north to Toyotama to raise support.",
-      "Recruit allies and rally the straw-hat fighters.",
-      "Complete the tasks that build your army against the Mongols.",
-      "Prepare the region for the coming offensive."
+      "Cross into the Toyotama region and assess the gathering Mongol threat.",
+      "Follow the guiding wind to the marked objective.",
+      "Clear the enemy positions blocking the path.",
+      "Reach and complete the story objective (rescue/scout/assault).",
+      "Advance the Toyotama arc."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
   },
@@ -9686,10 +9694,11 @@ const quests = [
     aiTip:
       "The poison arc tests Jin's honor; upgrades to the blowgun and Ghost tools pay off here.",
     walkthrough: [
-      "Uncover the plan to burn the Mongols out of a stronghold.",
-      "Gather the materials and set the trap in motion.",
-      "Execute the fiery assault, clearing defenders.",
-      "Confront the moral cost of the Ghost's methods afterward."
+      "Respond to the fire-signal crisis in Toyotama.",
+      "Ride to the besieged location and break the Mongol assault.",
+      "Use fire and Ghost weapons to turn the battle.",
+      "Confront the enemy leader responsible.",
+      "Complete the mission to push the story forward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
   },
@@ -9709,10 +9718,11 @@ const quests = [
     aiTip:
       "An emotional, duel-heavy chapter — sharpen your parry timing for the rival showdown.",
     walkthrough: [
-      "Respond as the Straw Hat Ronin turn against you.",
-      "Fight through the betrayal across Toyotama.",
-      "Track the traitors to their stronghold.",
-      "Face the wrenching confrontation that ends the arc."
+      "Follow the trail of Jin's past that resurfaces in Toyotama.",
+      "Investigate the marked sites with the guiding wind.",
+      "Fight through the Mongols guarding the truth.",
+      "Confront the figure from Jin's history at the climax.",
+      "Resolve the encounter to advance Jin's Journey."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
   },
@@ -9732,10 +9742,11 @@ const quests = [
     aiTip:
       "The finale offers a defining choice — both endings are worth seeing; make a manual save first.",
     walkthrough: [
-      "March to Kamiagata for the final reckoning.",
-      "Liberate the region's key strongholds from the Mongols.",
-      "Reach Khotun Khan for the climactic battle.",
-      "Face the impossible choice about honor and family with Lord Shimura."
+      "Reach Kamiagata and take up the pivotal confrontation with Lord Shimura's expectations.",
+      "Push through the Mongol lines toward the objective.",
+      "Fight the major battle the mission stages.",
+      "Face the story's turning-point choice/duel.",
+      "Complete the mission, setting up the finale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
   },
@@ -9755,10 +9766,11 @@ const quests = [
     aiTip:
       "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
     walkthrough: [
-      "Begin the Undying Flame tale in Act 3's Kamiagata.",
-      "Chase the burning legend through the region's camps.",
-      "Clear the Mongols guarding the technique.",
-      "Learn the fearsome fire technique as your reward."
+      "Find the musician whose ballad tells of the Undying Flame and the monk who wields it.",
+      "Follow the clues to each shrine site in Kamiagata, clearing the Mongols there.",
+      "Light or investigate the ritual braziers the tale points you toward.",
+      "Reach the final confrontation the ballad leads to and win the fight.",
+      "Complete the tale to earn its reward (a fire-themed tool/technique)."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
   },
@@ -9778,10 +9790,11 @@ const quests = [
     aiTip:
       "First of Yuna's four tales; unlocks after the early story on Tsushima.",
     walkthrough: [
-      "Start Yuna's tale searching for her brother Taka.",
-      "Follow the leads through Izuhara, clearing Mongols.",
-      "Gather information on Taka's captivity.",
-      "Advance toward his rescue."
+      "Speak with Yuna to begin her personal tale.",
+      "Follow the guiding wind to the site tied to her and Taka's past.",
+      "Fight through the Mongols standing in the way.",
+      "Uncover the truth Yuna is chasing.",
+      "Resolve the tale to deepen her bond with Jin."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
@@ -9801,10 +9814,11 @@ const quests = [
     aiTip:
       "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
     walkthrough: [
-      "Meet Sensei Ishikawa hunting his traitorous student Tomoe.",
+      "Meet Sensei Ishikawa and take up the hunt for his wayward student.",
       "Track Tomoe's trail with the guiding wind.",
-      "Clear the Mongols and bandits in the way.",
-      "Follow the lead to continue the tale."
+      "Clear the Mongols or Straw Hats at the marked site.",
+      "Confront what Ishikawa's teachings have wrought.",
+      "Complete the tale to advance Ishikawa's storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
@@ -9824,10 +9838,11 @@ const quests = [
     aiTip:
       "First of Masako's revenge tales; expect grim choices.",
     walkthrough: [
-      "Join Lady Masako hunting Clan Adachi's killers.",
-      "Track the village headman with the guiding wind.",
-      "Fight through his guards.",
-      "Confront the headman and press for the next name."
+      "Investigate the headman's plight in Izuhara.",
+      "Follow the clues to the Mongols oppressing the village.",
+      "Clear the enemy position holding the headman.",
+      "Rescue him and settle the villagers' fate.",
+      "Complete the tale for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
@@ -9847,10 +9862,11 @@ const quests = [
     aiTip:
       "Kenji Tale 1 of 3 — comic relief with a sting.",
     walkthrough: [
-      "Get roped into Kenji's latest scheme in Izuhara.",
-      "Run his errands and clear the Mongols they attract.",
-      "Play along with his 'serving the people' act.",
-      "Finish the job and its comedic payoff."
+      "Find Kenji again and agree to serve the people's needs.",
+      "Travel to the marked villages and handle each task.",
+      "Deal with the Mongols or bandits interfering.",
+      "Complete the errands to Kenji's plan.",
+      "Finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
   },
@@ -9870,10 +9886,11 @@ const quests = [
     aiTip:
       "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
     walkthrough: [
-      "Meet the warrior monk Norio fighting for Cedar Temple.",
-      "Help him retake the temple from the Mongols.",
-      "Clear the grounds by stealth or open combat.",
-      "Secure the temple and begin Norio's tale."
+      "Meet Norio, the warrior monk, and take up his cause in Toyotama.",
+      "Ride to the marked temple/village under Mongol threat.",
+      "Fight alongside Norio, clearing the enemies.",
+      "Protect the monks and civilians.",
+      "Complete the tale to progress Norio's arc."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
@@ -9893,10 +9910,10 @@ const quests = [
     aiTip:
       "More charm slots = more build flexibility. Pet the fox afterward — it's the law.",
     walkthrough: [
-      "Spot a fox near a Fox Den and follow it.",
-      "Chase the fox to the hidden Inari Shrine.",
-      "Pray at the shrine to earn a charm slot or blessing.",
-      "Repeat at dens across Tsushima to expand your charms."
+      "Follow a fox to its den (foxes appear near the wilderness and lead you).",
+      "Trail the fox to the hidden Inari Shrine.",
+      "Pray at the shrine to earn a Charm slot / charm upgrade.",
+      "Repeat across the region to expand your charm capacity."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
   },
@@ -9916,10 +9933,10 @@ const quests = [
     aiTip:
       "These are platforming puzzles more than combat — take your time on the ledges.",
     walkthrough: [
-      "Locate a Shinto Shrine and find the climbing path.",
-      "Scale the treacherous cliffs and ledges to the top.",
-      "Navigate the platforming hazards carefully.",
-      "Reach the shrine to claim a powerful charm."
+      "Spot a Shinto Shrine's torii gates marked on the horizon.",
+      "Solve the traversal challenge — climbing, grappling, and jumping the mountain path.",
+      "Reach the shrine at the summit and pray.",
+      "Claim the charm reward, then find the next shrine."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
   },
@@ -9939,10 +9956,10 @@ const quests = [
     aiTip:
       "More Resolve means more healing and Ghost abilities in combat — a priority pickup.",
     walkthrough: [
-      "Find a Bamboo Strike site and begin the trial.",
-      "Input the escalating button sequences quickly and accurately.",
-      "Complete each cut to pass the trial.",
-      "Earn a permanent Resolve increase."
+      "Find a Bamboo Strike stand in the wilds.",
+      "Complete the timed button-sequence slashes to pass each round.",
+      "Nail the full combo to finish the challenge.",
+      "Earn increased Resolve, then seek the next stand."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
   },
@@ -9962,10 +9979,10 @@ const quests = [
     aiTip:
       "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
     walkthrough: [
-      "Reach a Haiku spot or Hot Spring in the wild.",
-      "For haiku, compose verses by choosing evocative lines for a headband.",
-      "For hot springs, soak and reflect to raise maximum health.",
-      "Seek out more across the island for their rewards."
+      "Locate a hot spring or haiku spot marked in the region.",
+      "At a hot spring, relax to increase maximum health; at a haiku spot, compose the verse.",
+      "Choose the haiku lines that fit the scene.",
+      "Collect the reward (health up or a headband cosmetic) and move on."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
   },
@@ -9985,10 +10002,10 @@ const quests = [
     aiTip:
       "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
     walkthrough: [
-      "Travel to a Pillar of Honor to find a waiting swordsman.",
-      "Accept the one-on-one duel.",
-      "Read the enemy's stance and time your parries and strikes.",
-      "Win the duel to claim honor and rewards."
+      "Find a Pillar of Honor or a wandering enemy who challenges you to a standoff duel.",
+      "Enter the duel and read the opponent's stance.",
+      "Parry and dodge their strikes, then counter — watch for unblockable attacks.",
+      "Defeat them to earn cosmetic dyes / rewards, then seek the next."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
   },
@@ -10008,10 +10025,10 @@ const quests = [
     aiTip:
       "Clearing camps also liberates the map — combine collection runs with liberation.",
     walkthrough: [
-      "Raid Mongol camps and search for artifacts and records.",
-      "Clear the defenders by stealth or combat.",
-      "Loot supplies, records, and cosmetic items.",
-      "Move on to the next site to keep collecting."
+      "Track down Mongol Artifacts and Records marked on the map.",
+      "Search the enemy camps and buildings to collect them.",
+      "Read the records for lore and progress toward the collection.",
+      "Gather them all across the region to complete the set."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
   },
@@ -10031,10 +10048,11 @@ const quests = [
     aiTip:
       "Kicks off the Director's Cut Iki expansion — a self-contained region with new mechanics and animal sanctuaries.",
     walkthrough: [
-      "Sail to Iki Island to counter the new Mongol threat.",
-      "Get captured and dosed with the Eagle's hallucinogen, then escape.",
-      "Push through visions of your father while rallying the locals.",
-      "Advance the Iki campaign toward the Eagle."
+      "Travel to Iki Island and begin the journey into Jin's buried past.",
+      "Follow the story leads across Iki, clearing raider camps.",
+      "Endure the hallucinogenic trials the Eagle's poison inflicts.",
+      "Confront the memories of Jin's father the island forces on him.",
+      "Complete the chapter to progress the Iki storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
   },
@@ -10054,10 +10072,11 @@ const quests = [
     aiTip:
       "The Iki hallucination sequences are unique boss encounters — steel yourself for them.",
     walkthrough: [
-      "Track the shaman known as the Eagle across Iki Island.",
-      "Push through her mind-bending poison visions.",
-      "Clear her followers guarding the way.",
-      "Confront the Eagle to break her hold."
+      "Pursue the Eagle, the shaman leader behind Iki's raiders.",
+      "Follow the trail through her strongholds, freeing captives.",
+      "Survive another of the Eagle's mind-warping poison trials.",
+      "Reach the confrontation the chapter builds toward.",
+      "Complete it to advance against the Eagle."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
   },
@@ -14433,10 +14452,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "An early Act 1 tale — rescuing allies expands your support network.",
     walkthrough: [
-      "Take the mission to rescue the captured blacksmith.",
-      "Infiltrate the Mongol camp holding him by stealth or force.",
-      "Free the smith and fight your way out.",
-      "Return him safely to keep the resistance armed."
+      "Find the captured blacksmith Yuna is desperate to free.",
+      "Infiltrate the Mongol camp holding him, using stealth.",
+      "Free the blacksmith and protect him from the guards.",
+      "Fight off the pursuit as you escape.",
+      "Return him to safety to advance the story."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
   },
@@ -14456,10 +14476,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The hook is a major traversal upgrade — grab it before exploring the peaks.",
     walkthrough: [
-      "Pursue the lead on the grappling hook.",
-      "Clear the site holding it, using stealth where possible.",
-      "Recover the Iron Hook to unlock new traversal.",
-      "Use it to reach previously blocked cliffs and paths."
+      "Take up the Iron Hook objective with Yuna to reach a fortified position.",
+      "Use the grappling hook to scale the marked cliffs/structures.",
+      "Infiltrate the stronghold from above with stealth takedowns.",
+      "Clear the objective and its defenders.",
+      "Complete the mission to progress."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
   },
@@ -14479,10 +14500,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Unlocks key Ghost weapons — a turning point in Jin's tactics.",
     walkthrough: [
-      "Secure the forge and materials for the Ghost's tools.",
-      "Escort or protect the smith as the war effort demands.",
-      "Clear the Mongols threatening the operation.",
-      "Complete the task to expand your arsenal."
+      "Meet Yuna and her brother at the forge to plan the next strike.",
+      "Gather the materials or reach the site the plan requires.",
+      "Fight through the Mongols at the objective.",
+      "Complete the forge/rescue objective.",
+      "Advance the story with the reforged resolve."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
   },
@@ -14502,10 +14524,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "An emotionally charged duel — sharpen your parry timing beforehand.",
     walkthrough: [
-      "Confront your old friend Ryuzo as the Straw Hats side with the Mongols.",
-      "Fight through his men across Toyotama.",
-      "Reach Ryuzo for the tense showdown.",
-      "Resolve the duel and its fallout."
+      "Confront the tangled loyalties around Ryuzo and the Straw Hats in Toyotama.",
+      "Follow the objective to the marked Straw Hat/Mongol position.",
+      "Fight through the betrayers and Mongols.",
+      "Face Ryuzo or his lieutenants at the climax.",
+      "Resolve the confrontation to advance Jin's Journey."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
   },
@@ -14525,10 +14548,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A large-scale assault — use stealth to thin the garrison before going loud.",
     walkthrough: [
-      "Plan the assault on the key Toyotama stronghold.",
-      "Infiltrate and clear the Mongol garrison.",
-      "Defeat the region's Mongol jito.",
-      "Rally Toyotama to your cause."
+      "Investigate the Jito's fate and the power struggle in Toyotama.",
+      "Ride to the marked stronghold and scout it.",
+      "Assault or infiltrate to reach the Jito.",
+      "Fight the enemy leader at the heart of the keep.",
+      "Complete the mission to push the story on."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
   },
@@ -14548,10 +14572,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The Ghost's terror tactics come into full force — lean into fear-based play.",
     walkthrough: [
-      "Lean fully into the Ghost's fearsome reputation.",
-      "Use terror tactics and stealth to break the Mongols' hold.",
-      "Clear the objective as the Toyotama war peaks.",
-      "Set up the push toward Kamiagata."
+      "Follow the darkest turn of Jin's Ghost path in Toyotama.",
+      "Infiltrate the Mongol position under cover of night.",
+      "Use poison and terror tactics to clear the way.",
+      "Confront the commander responsible.",
+      "Complete the mission, at a cost to Jin's honor."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
   },
@@ -14571,10 +14596,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
     walkthrough: [
-      "Root out the betrayal threatening northern Kamiagata.",
-      "Investigate and track the traitors.",
-      "Reclaim the region's strongholds.",
-      "Prepare for the final reckoning with Khotun Khan."
+      "Reach Kamiagata and uncover the deception at play.",
+      "Track the trail with the guiding wind to the enemy plan.",
+      "Fight or sneak through the Mongol/traitor forces.",
+      "Confront the schemer behind the coward's deception.",
+      "Resolve it to advance toward the finale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
   },
@@ -14594,10 +14620,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Follows the main finale; your defining choice colors this epilogue.",
     walkthrough: [
-      "Play through the quiet aftermath of Jin's war.",
-      "Follow the closing beats of the honor-versus-survival theme.",
-      "See the fates of Jin and his allies resolve.",
-      "Reach the story's conclusion."
+      "Take up the mission that sets Jin on the road to the story's end.",
+      "Ride to the marked Kamiagata objective.",
+      "Clear the enemies holding the position.",
+      "Complete the objective that opens the new horizon.",
+      "Advance to the game's climax."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
   },
@@ -14617,10 +14644,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The Eagle's hallucinations are unique encounters — steel yourself for the trippy set pieces.",
     walkthrough: [
-      "Begin the Iki search for a captured ally.",
-      "Endure the hallucinogenic Mongol poisons as you press on.",
-      "Clear the camps holding your friend.",
-      "Complete the rescue and advance the Iki tale."
+      "Follow the lead on an old friend/ally caught up in Iki's conflict.",
+      "Track them across the island, clearing Mongol raiders.",
+      "Reach the friend and learn their situation.",
+      "Fight through the threat endangering them.",
+      "Resolve the reunion to advance the Iki tales."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
   },
@@ -14640,10 +14668,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A tough finale duel — the Eagle's mind-games make it as much mental as mechanical.",
     walkthrough: [
-      "Reach the climax of the Iki expansion against the Eagle.",
-      "Fight through her stronghold's defenders.",
-      "Duel the Eagle amid her poison illusions.",
-      "End her threat to close the expansion's story."
+      "Begin the somber Iki tale about death and acceptance.",
+      "Follow the guiding wind to each marked site.",
+      "Clear the raiders and uncover the story's grief.",
+      "Face the final confrontation the tale stages.",
+      "Complete it for its reward and closure."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
   },
@@ -14663,10 +14692,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Relaxing rhythm minigames — a lovely break from the fighting.",
     walkthrough: [
-      "Find an Iki Island Animal Sanctuary.",
-      "Play Jin's flute, matching the on-screen rhythm prompts.",
-      "Complete the tune to soothe the wildlife.",
-      "Unlock the sanctuary's cosmetic rewards."
+      "On Iki Island, find an Animal Sanctuary marked in the wilds.",
+      "Approach the resident animals (monkeys, cats, deer, birds) and play the flute.",
+      "Follow the rhythm prompts to play the tune correctly and calm the animals.",
+      "Complete the melody to soothe the sanctuary and earn its charm/cosmetic reward.",
+      "Seek out the remaining sanctuaries across Iki to finish the set."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
   },
@@ -14686,10 +14716,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Part of the Unbending Archer questline; verify against a guide if replaying.",
     walkthrough: [
-      "Continue Ishikawa's tale into his history with Tomoe.",
-      "Track the next lead with the guiding wind.",
-      "Clear the enemies standing in the way.",
-      "Advance the Sensei-and-Student story."
+      "Begin 'The Past Never Passes' with its quest-giver in Izuhara.",
+      "Follow the guiding wind to the site tied to old wounds.",
+      "Clear the Mongols guarding it.",
+      "Confront the past the tale unearths.",
+      "Resolve it and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
@@ -18837,10 +18868,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Yuna Tale 3 of 4.",
     walkthrough: [
-      "Take up the hunt for the Black Wolf with Yuna.",
-      "Track the brutal commander through Izuhara.",
-      "Clear his camps and guards.",
-      "Confront the Black Wolf and advance Yuna's tale."
+      "Take up the hunt for the Black Wolf terrorizing Izuhara.",
+      "Track the beast/bandit's trail with the guiding wind.",
+      "Clear the lair's defenders.",
+      "Confront and defeat the Black Wolf.",
+      "Complete the tale for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
   },
@@ -18860,10 +18892,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Yuna Tale 4 of 4.",
     walkthrough: [
-      "Reach the emotional end of Yuna's search for Taka.",
-      "Follow the final leads and clear the Mongols.",
-      "Confront the truth of Taka's fate.",
-      "Close out Yuna's story."
+      "Begin 'Message in Blood' after finding the grim warning.",
+      "Follow the trail of victims with the guiding wind.",
+      "Fight through the Mongols leaving the messages.",
+      "Confront the one behind the killings.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
   },
@@ -18883,10 +18916,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ishikawa questline.",
     walkthrough: [
-      "Train with Ishikawa in the way of the bow.",
-      "Follow his hunt, practicing precise archery.",
-      "Clear the targets and enemies he sets.",
-      "Master the lesson to advance his tale."
+      "Meet Ishikawa to learn the Way of the Bow.",
+      "Follow him to the practice/hunt grounds.",
+      "Master the archery challenges he sets.",
+      "Apply the bow skills against the Mongols at the objective.",
+      "Complete the tale to sharpen Jin's archery."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
   },
@@ -18906,10 +18940,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ishikawa questline.",
     walkthrough: [
-      "Pursue Tomoe as she aids the Mongols in Toyotama.",
-      "Track her movements with the guiding wind.",
-      "Clear the forces protecting her plans.",
-      "Follow the lead to continue the hunt."
+      "Take up 'Dreams of Conquest' in Toyotama.",
+      "Scout the Mongol ambitions at the marked stronghold.",
+      "Infiltrate or assault to disrupt their plans.",
+      "Defeat the commander driving the conquest.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
   },
@@ -18929,10 +18964,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ishikawa questline.",
     walkthrough: [
-      "Confront the darker rumors about Ishikawa's past.",
-      "Investigate the leads on Tomoe.",
-      "Fight through the Mongols and doubters in the way.",
-      "Press on as the hunt for Tomoe intensifies."
+      "Investigate the 'Demon Sensei' rumor haunting Toyotama.",
+      "Follow the guiding wind to the corrupted dojo/site.",
+      "Fight through the enemies under the demon's sway.",
+      "Confront the Ghost-and-Demon duel at the climax.",
+      "Resolve the tale for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
   },
@@ -18952,10 +18988,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ishikawa questline.",
     walkthrough: [
-      "Chase Tomoe to Otsuna in Kamiagata.",
-      "Clear the stronghold where she's making her stand.",
-      "Reach Tomoe for the confrontation.",
-      "Answer her reign of terror to advance the tale."
+      "Begin 'The Terror of Otsuna' in Kamiagata.",
+      "Track the terror's trail with the guiding wind.",
+      "Clear the Mongols spreading the fear.",
+      "Confront and defeat the source of the terror.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
   },
@@ -18975,10 +19012,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ishikawa questline.",
     walkthrough: [
-      "Play through this quieter beat in Ishikawa's story.",
-      "Follow the guiding wind to the next meeting.",
-      "Handle the smaller skirmish along the way.",
-      "Reflect with Ishikawa as allies come and go."
+      "Meet the travelers of 'Friends in Passing' in Izuhara.",
+      "Escort or aid them to the marked destination.",
+      "Fend off the Mongols or bandits on the road.",
+      "See them safely through.",
+      "Complete the tale for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
   },
@@ -18998,10 +19036,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Final Ishikawa tale — completes the Unbending Archer.",
     walkthrough: [
-      "Bring the Sensei-and-Student saga to its close.",
-      "Track down the final lead on Tomoe.",
-      "Fight or duel to the story's climax.",
-      "See the bittersweet conclusion through."
+      "Begin 'Laid to Rest' in Kamiagata.",
+      "Follow the guiding wind to the unquiet site.",
+      "Clear the enemies desecrating it.",
+      "Confront the tale's final threat.",
+      "Lay the matter to rest and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
   },
@@ -19021,10 +19060,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale.",
     walkthrough: [
-      "Follow Masako's lead to the conspirator hiding behind his marriage.",
-      "Track him with the guiding wind and question witnesses.",
-      "Clear his guards.",
-      "Confront the husband and learn the next name."
+      "Meet Lady Masako and take up the hunt for her family's killers.",
+      "Follow the guiding wind to the husband's trail.",
+      "Investigate the site and clear its Mongols/traitors.",
+      "Confront the truth about the husband.",
+      "Complete the tale to advance Masako's revenge."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
   },
@@ -19044,10 +19084,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale.",
     walkthrough: [
-      "Hunt the traitor who sold out Clan Adachi.",
-      "Follow the trail with Masako.",
-      "Fight through the defenders.",
-      "Unmask the traitor and press on."
+      "Continue Masako's hunt for 'The Traitor'.",
+      "Track the informant's trail with the guiding wind.",
+      "Fight through those shielding the traitor.",
+      "Confront and judge the traitor.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
   },
@@ -19067,10 +19108,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale.",
     walkthrough: [
-      "Track the foolish accomplice in the Adachi massacre.",
-      "Follow the guiding wind to his hideout.",
-      "Clear the enemies in the way.",
-      "Confront him to continue Masako's revenge."
+      "Take up 'The Fool' in Masako's chain.",
+      "Follow the clues to the marked site.",
+      "Clear the enemies there.",
+      "Uncover the fool's role in the massacre.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
   },
@@ -19090,10 +19132,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale — a hard choice.",
     walkthrough: [
-      "Corner the killer who turns out to be a devoted father.",
-      "Investigate and track him down.",
-      "Clear his guards.",
-      "Weigh mercy against vengeance in the confrontation."
+      "Continue Masako's revenge with 'The Family Man'.",
+      "Track the target with the guiding wind.",
+      "Fight through his protectors.",
+      "Confront him and decide his fate.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
   },
@@ -19113,10 +19156,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale.",
     walkthrough: [
-      "Hunt the thief tied to the betrayal of Masako's family.",
-      "Follow the leads with the guiding wind.",
-      "Fight through the obstacles.",
-      "Catch the thief and learn what he knows."
+      "Take up 'The Thief' in Masako's chain.",
+      "Follow the trail to the thief's hideout.",
+      "Clear the defenders.",
+      "Confront the thief for the truth.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
   },
@@ -19136,10 +19180,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Masako revenge tale.",
     walkthrough: [
-      "Close in on the conspirator behind the Adachi killings.",
-      "Track him to his Toyotama stronghold.",
-      "Clear the defenders.",
-      "Confront the conspirator to near the truth."
+      "Continue with 'The Conspirator' in Toyotama.",
+      "Track the conspiracy with the guiding wind.",
+      "Fight through the plotters' guards.",
+      "Confront the conspirator.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
   },
@@ -19159,10 +19204,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Completes the Vengeful Warrior.",
     walkthrough: [
-      "Reach the heart of Masako's revenge in Toyotama.",
-      "Follow the final trail to the sister who betrayed her.",
-      "Fight through to the confrontation.",
-      "Face the wrenching truth and resolve the saga."
+      "Reach the climax of Masako's revenge in 'The Sister Betrayed'.",
+      "Follow the trail to the final betrayer.",
+      "Fight through heavy resistance to reach them.",
+      "Confront the sister and the whole truth of the massacre.",
+      "See Masako's revenge to its end."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
   },
@@ -19182,10 +19228,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Bonus tale — unlocks after The Husband.",
     walkthrough: [
-      "Begin the optional coda to Masako's story.",
-      "Follow the quiet leads about the family she lost.",
-      "Handle any threats along the way.",
-      "Find a measure of peace to close her tale."
+      "Begin 'A Mother's Peace' with Masako in Izuhara.",
+      "Follow the guiding wind to the marked, personal site.",
+      "Clear any threat there.",
+      "Help Masako find a measure of peace.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
   },
@@ -19205,10 +19252,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Kenji Tale 3 of 3.",
     walkthrough: [
-      "Back Kenji in his ill-advised 'negotiation' in Toyotama.",
-      "Follow along as the scheme predictably goes sideways.",
-      "Clear the Mongols the plan attracts.",
-      "Bail Kenji out and finish the comedic tale."
+      "Find Kenji for 'The Delicate Art of Negotiation' in Toyotama.",
+      "Accompany him to the tense deal.",
+      "Handle the Mongols or rivals who crash it.",
+      "Complete the comedic negotiation.",
+      "Finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
   },
@@ -19228,10 +19276,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio questline.",
     walkthrough: [
-      "Fight beside Norio to free the monks and villagers in the fog.",
-      "Push through the Mongol lines by stealth or steel.",
-      "Rescue the hidden captives.",
-      "Secure the area and advance Norio's tale."
+      "Meet Norio for 'Ghosts in the Fog' in Toyotama.",
+      "Follow the guiding wind into the fog-shrouded site.",
+      "Clear the Mongols hidden within.",
+      "Confront what haunts the fog.",
+      "Complete the tale to advance Norio's arc."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
   },
@@ -19251,10 +19300,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio questline.",
     walkthrough: [
-      "Continue Norio's tale as he confronts the violence his cause demands.",
-      "Follow the lead and clear the Mongols in the way.",
-      "Help Norio through his crisis of faith.",
-      "Complete the mission and its dark turn."
+      "Begin 'The Birth of Suffering' with Norio.",
+      "Ride to the marked temple/village under threat.",
+      "Fight through the Mongols with Norio at your side.",
+      "Confront the source of the suffering.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
   },
@@ -19274,10 +19324,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio questline.",
     walkthrough: [
-      "Recover the blood-stained sutra with Norio.",
-      "Track the leads through Toyotama.",
-      "Clear the enemies guarding it.",
-      "Confront what Norio is becoming and press on."
+      "Continue Norio's arc with 'The Blood Sutra'.",
+      "Follow the clues to the desecrated holy site.",
+      "Clear the enemies defiling it.",
+      "Recover or protect the sutra.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
   },
@@ -19297,10 +19348,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio questline.",
     walkthrough: [
-      "Trace the root of the suffering plaguing Kamiagata's faithful.",
-      "Follow the guiding wind to the source.",
-      "Clear the Mongols responsible.",
-      "Advance Norio's tale toward its end."
+      "Take up 'The Cause of Suffering' in Kamiagata.",
+      "Track the trail with the guiding wind.",
+      "Fight through the Mongols behind the atrocity.",
+      "Confront the cause at the climax.",
+      "Complete the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
   },
@@ -19320,10 +19372,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio questline.",
     walkthrough: [
-      "Help Norio end the cycle of vengeance and grief.",
-      "Follow the final leads through Kamiagata.",
-      "Fight through to the confrontation.",
-      "Bring this chapter of his story to a close."
+      "Reach 'The End of Suffering', the culmination of Norio's chain.",
+      "Follow the final trail to the enemy stronghold.",
+      "Fight through heavy resistance with Norio.",
+      "Confront the final foe and end the suffering.",
+      "Complete the tale for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
   },
@@ -19343,10 +19396,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Norio Tale 8 of 9.",
     walkthrough: [
-      "Stand with Norio as the guardian the people need.",
-      "Clear the Mongol threat menacing the faithful.",
-      "Protect the villagers through the fight.",
-      "Secure the region and advance the tale."
+      "Begin 'The Guardian of Tsushima' in Kamiagata.",
+      "Follow the guiding wind to the guardian's site.",
+      "Clear the enemies threatening it.",
+      "Face the tale's climactic battle.",
+      "Complete it to claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
   },
@@ -19366,10 +19420,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Completes the Warrior Monk.",
     walkthrough: [
-      "Reach the final reckoning of Norio's tale.",
-      "Follow the last lead to the confrontation.",
-      "Fight or duel through the climax of faith and blood.",
-      "See This Threefold World to its close."
+      "Take up 'This Threefold World' in Kamiagata.",
+      "Investigate the three linked sites with the guiding wind.",
+      "Clear the Mongols at each.",
+      "Confront the truth binding them together.",
+      "Resolve the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
   },
@@ -19389,10 +19444,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Iki Mythic Tale — follow the musician's song, then win the final duel.",
     walkthrough: [
-      "Begin the Iki Island Mythic Tale of Kazumasa Sakai.",
-      "Follow the musician's ballad clues to each site.",
-      "Clear the enemies and hazards guarding the legend.",
-      "Uncover Jin's father's legacy and claim the Mythic reward."
+      "On Iki, find the musician who sings of Kazumasa Sakai — Jin's father — and his legacy.",
+      "Follow the ballad through the places tied to Kazumasa's past, clearing Mongol resistance.",
+      "Investigate each site with Witcher-like focus (guiding wind + golden birds) to relive the story.",
+      "Reach the tale's climactic duel and win it.",
+      "Complete the tale to claim Kazumasa's armor set."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   },
@@ -36672,9 +36728,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Thin out his escort with stealth first, then take the free stealth Deathblow to erase one of his two health bars.",
     walkthrough: [
-      "Located on a rooftop in Ashina Outskirts.",
-      "A stealth Deathblow from above can remove a full health bar instantly if approached undetected.",
-      "If detected, deflect his spear combos and watch for the thrusting lunge."
+      "Reach the Outskirts Wall stairway and, if you can, stealth from above for a free first Deathblow.",
+      "Bait General Naomori Kawarada's katana combo and deflect every hit to build his posture.",
+      "Mikiri-counter his thrusts (perilous 突) and step around wide swings.",
+      "Keep deflecting aggressively so posture damage doesn't recover.",
+      "Break his posture and land the Deathblow."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Naomori%20Kawarada%20walkthrough"
   },
@@ -36693,9 +36751,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Use the Shinobi Firecracker or lure him toward a chokepoint to peel him off his troops, then deflect his simple thrust chain.",
     walkthrough: [
-      "Found guarding a group of soldiers in Ashina Outskirts.",
-      "Isolate him from nearby enemies using a Whistle or by luring him around a corner.",
-      "Deflect his sword strikes and watch for the two-hit thrust combo."
+      "Thin Shigenori Yamauchi's soldier cluster first — use stealth takedowns and lure stragglers away.",
+      "Once the crowd is reduced, engage the leader one-on-one.",
+      "Deflect his combo and Mikiri his thrusts.",
+      "Pressure his posture between his attacks.",
+      "Break posture and Deathblow him."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Leader%20Shigenori%20Yamauchi%20walkthrough"
   },
@@ -36714,9 +36774,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Wait out the delayed overhead — deflect on the actual swing, not the wind-up — and keep pressure so his posture never resets.",
     walkthrough: [
-      "Encountered guarding a fortified position.",
-      "Deflect his standard katana combos, watching for a delayed overhead strike.",
-      "Break his posture through sustained aggressive deflection rather than pure dodging."
+      "Approach the Upper Tower general Tenzen Yamauchi; open with a Deathblow if you can flank him.",
+      "Watch for his delayed overhead that baits early deflects — wait for the strike, then deflect.",
+      "Deflect the heavier katana combo and Mikiri his thrusts.",
+      "Chip posture steadily without over-committing.",
+      "Break posture and finish with a Deathblow."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Tenzen%20Yamauchi%20walkthrough"
   },
@@ -36735,9 +36797,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Mikiri Counter his big thrust to shatter his posture fast — that single skill trivializes the whole fight.",
     walkthrough: [
-      "A mirror-match style enemy that uses shinobi tools similar to the player's own kit.",
-      "Watch for his firecracker and shuriken use; approach cautiously rather than rushing in.",
-      "Deflect his blade combos and punish after his tool-based openings."
+      "On the Estate Path, engage Shinobi Hunter Enshin of Misen — he mirrors your shinobi kit.",
+      "Deflect his firecrackers/shuriken pressure and stay close.",
+      "Mikiri-counter his signature thrust (this fight is the game's Mikiri tutorial).",
+      "Punish the recovery after his combos to build posture.",
+      "Break his posture and land the Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=mhjjHfATf5M"
   },
@@ -36756,9 +36820,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Poison him with Sabimaru or throw oil and fire, and clear his adds first (an allied samurai can help draw aggro) so you can focus his health bars.",
     walkthrough: [
-      "Found near Ashina Castle, a large axe-wielding enemy.",
-      "Avoid his grab attack, which leads to heavy damage if caught.",
-      "Circle to his side during his slow overhead swings and counter-attack."
+      "On the Hirata Estate path, deal with the soldier mob around Juzou first (stealth-kill stragglers; an allied NPC can help in the memory).",
+      "Avoid his poison-cloud swings and the pool of poison they leave.",
+      "Deflect his slow axe combo and punish the openings.",
+      "Whittle his health across two Deathblow bars, resetting posture pressure each time.",
+      "Land the final Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=l7f7Ajn9s-8"
   },
@@ -36799,9 +36865,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "You can't kill him with health damage: break posture and use the Deathblow prompt to shove him off the bridge. The Loaded Umbrella turns aside his charge.",
     walkthrough: [
-      "A heavily armored enemy resistant to standard sword damage.",
-      "Use Shinobi Tools such as Flame Vent or Firecrackers to break through defenses efficiently.",
-      "Deflect his slow, telegraphed swings and capitalize on the long recovery windows."
+      "At the Senpou broken bridge, note the Armored Warrior ignores health damage — target posture only.",
+      "Deflect his combo relentlessly to fill his posture meter.",
+      "Jump his sweeps and step around his shield bash.",
+      "When his posture breaks, the finisher knocks him off the bridge.",
+      "Repeat the deflect-and-break cycle until he goes over the edge."
     ],
     video: "https://www.youtube.com/watch?v=1YMT3gn0Tww"
   },
@@ -36820,9 +36888,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Simply hold deflect through his entire flurry — his combos have almost no openings and his posture collapses if you never miss a parry.",
     walkthrough: [
-      "Found within Sunken Valley's cave systems.",
-      "Watch for its extending arm-grab attacks that have deceptively long reach.",
-      "Deflect its strikes at close range once you close the distance safely."
+      "In the Under-Shrine cave, brace for Long-arm Centipede Sen'un's near-gapless flurry.",
+      "Hold deflect and tap in rhythm with his rapid strikes — his posture fills fast when deflected.",
+      "Don't try to attack mid-flurry; just keep deflecting.",
+      "When the flurry ends, land a hit or two, then resume deflecting.",
+      "Break his posture and Deathblow him."
     ],
     video: "https://www.youtube.com/watch?v=oV1rF00YBnQ"
   },
@@ -36841,9 +36911,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Jump his red-kanji sweep and dodge the kick, then punish after his combo strings end — he has little recovery mid-combo.",
     walkthrough: [
-      "An agile shinobi-style enemy encountered in multiple locations throughout the game.",
-      "Deflect his fast combos and watch for a dash-in stab attack.",
-      "Punish after his combo strings end, as he has minimal recovery openings mid-combo."
+      "By the Moon-View Tower, engage the Lone Shadow Longswordsman.",
+      "Do NOT block his red-kanji kick — jump over it (and bounce off for a hit).",
+      "Mikiri-counter his dash-in stab.",
+      "Deflect the longsword combo and punish the kick-into-stomp string's end.",
+      "Break posture and Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=zyq7fbI6gcE"
   },
@@ -36862,9 +36934,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Close the distance fast to shut down her rifle; her grab is telegraphed by a red kanji — dodge it and punish the long recovery.",
     walkthrough: [
-      "A gun-wielding mini-boss found in Ashina Depths.",
-      "Close the distance quickly to avoid prolonged ranged gunfire exposure.",
-      "Deflect her melee follow-ups once you're in close range."
+      "Approach Snake Eyes Shirafuji in the Gun Fort, weaving to avoid her rifle fire as you close.",
+      "Mikiri-counter her lunging grab-thrust (perilous), which is her key punish.",
+      "Deflect her melee combo up close where the gun is useless.",
+      "Build posture and take the first Deathblow, then repeat for the second bar.",
+      "Land the final Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=yeJcREsuCy4"
   },
@@ -36883,9 +36957,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Mikiri Counter the spear thrust to build posture quickly, and stay close so his long weapon works against him.",
     walkthrough: [
-      "Found guarding a bridge in Ashina Castle.",
-      "Deflect his spear thrusts and watch for the sweeping horizontal follow-up.",
-      "Maintain mid-range positioning to react to his longer reach weapon."
+      "Near the Old Grave, face Ashina Spear elite Shikibu Toshikatsu Yamauchi.",
+      "Mikiri-counter his thrusts — the core of this fight.",
+      "Jump his sweeping follow-ups and deflect the rest of the combo.",
+      "Pressure posture between his long-reach strikes.",
+      "Break posture and Deathblow him."
     ],
     video: "https://www.youtube.com/watch?v=DGrLt0MgvYc"
   },
@@ -36904,8 +36980,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Same family — Mikiri Counter the thrust and deflect the sweep; a stealth approach lands a free first Deathblow.",
     walkthrough: [
-      "A spear-wielding mini-boss encountered in the Ashina Castle area.",
-      "Similar moveset family to other Ashina Spears fighters — deflect consistently and watch for grabs."
+      "When the castle burns, find the second Ashina Spear elite, Shume Masaka Nagahiro, near the Reservoir.",
+      "Use the same plan: Mikiri his thrusts and jump his sweeps.",
+      "Deflect the reach-heavy spear combo and punish the recovery.",
+      "Keep posture pressure high.",
+      "Break posture and land the Deathblow."
     ],
     video: "https://www.youtube.com/watch?v=nqsUUNnwpg4"
   },
@@ -36924,9 +37003,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Commit to deflection — retreating gets you killed — and watch for the whirlwind spin, which you can jump or deflect on reaction.",
     walkthrough: [
-      "Found in Mibu Village near the swamp area.",
-      "Deflect her curved blade combos; she has quick multi-hit strings.",
-      "Watch for her low sweeping attack and time a jump or deflect accordingly."
+      "At the Mibu Village water mill, engage the spirit O'Rin of the Water.",
+      "Deflect her lightning-fast curved-blade combos without pausing.",
+      "Watch for her perilous grab/sweep and jump or step it accordingly.",
+      "Her posture breaks quickly under sustained deflection — stay glued to her.",
+      "Break posture and Deathblow (a Confetti helps against the apparition)."
     ],
     video: "https://www.youtube.com/watch?v=CZaSQTdX7a8"
   },
@@ -36945,9 +37026,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Don't pre-empt his swings — react to each one. Dodge (don't block) his grab-into-throw, then punish the whiff.",
     walkthrough: [
-      "Encountered in the Ashina Depths / Mibu Village storyline area.",
-      "Deflect his erratic sword patterns, which mix fast and slow strikes unpredictably.",
-      "Watch for a grab-into-throw attack and dodge rather than block it."
+      "On the Outskirts Wall stairway, engage the general with the erratic katana rhythm.",
+      "Don't pre-empt his hits — wait and deflect the fast-then-slow mix on reaction.",
+      "Mikiri his thrusts and step his wide swings.",
+      "Build posture between his baiting strikes.",
+      "Break posture and land the Deathblow."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Six-fingered%20Lord%20Kuranosuke%20walkthrough"
   },
@@ -36966,8 +37049,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Deflect his basic strings and punish the openings; there's no gimmick here, just clean parry timing.",
     walkthrough: [
-      "A minor NPC-turned-enemy found in Ashina Outskirts.",
-      "Straightforward moveset — deflect his basic combos and punish openings."
+      "Engage Tokujiro the Glutton on the Outskirts Wall — a low-pressure warm-up.",
+      "Deflect his simple, readable combo.",
+      "Punish the gaps to build posture.",
+      "Stay aggressive; his posture breaks easily.",
+      "Land the Deathblow."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tokujiro%20the%20Glutton%20walkthrough"
   },
@@ -36986,9 +37072,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "A fully upgraded prosthetic or plain aggression ends these quickly — their posture is weak and their teleports leave clear punish windows.",
     walkthrough: [
-      "Various 'Mist Noble' and elite enemy encounters scattered through late-game areas.",
-      "Approach cautiously; several of these enemies hit hard and punish careless aggression.",
-      "Deflect steadily rather than trading blows directly."
+      "In Fountainhead Palace, face a Mist Noble apparition that teleports and conjures mist.",
+      "Ignore the illusory copies and pressure the real one.",
+      "Deflect its slow strikes and close the distance through the mist.",
+      "Its posture and health are low — a couple of hits stagger it.",
+      "Land the Deathblow to dispel it."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sword%20Saint's%20Ripples%20(mist%20noble%20variants)%20walkthrough"
   },
@@ -37007,9 +37095,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Check in with him after every major boss — his dialogue and demeanor only advance when the story does.",
     walkthrough: [
-      "Speak with the Sculptor at the Dilapidated Temple regularly as the story progresses.",
-      "His dialogue and behavior shift after major story beats, reflecting his internal struggle against becoming a shinobi hunter.",
-      "Continue checking in after key boss defeats to see the storyline through to its conclusion."
+      "Return to the Dilapidated Temple and speak with the Sculptor after each major story beat.",
+      "Bring him Prosthetic Tools you find so he can attach and upgrade them.",
+      "Listen to his unfolding past as a shinobi hunter and his fear of the Shura.",
+      "Complete his arc's conversations across the playthrough.",
+      "His storyline foreshadows the Shura ending — mind your later choices."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sculptor's%20Idol%20%2F%20Kuro's%20Charm%20Storyline%20walkthrough"
   },
@@ -37028,9 +37118,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Return to her whenever Dragonrot spreads or the story advances — she gates key healing upgrades and the Aromatic Flower path.",
     walkthrough: [
-      "Speak with Emma at the Dilapidated Temple to receive Dragon's Blood Droplet and healing item upgrades.",
-      "Her storyline is tied closely to the main plot and Isshin's history; keep checking in as the story progresses.",
-      "Her involvement becomes critical during the Purification ending path."
+      "Talk to Emma at the Dilapidated Temple and after major story beats.",
+      "Have her upgrade your Healing Gourd charges as you bring Gourd Seeds.",
+      "Progress her dialogue about Isshin, the Sculptor, and Dragonrot.",
+      "Cure Dragonrot by giving her a Dragon's Blood Droplet when NPCs fall ill.",
+      "Follow her thread — it feeds directly into the endgame choices."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Emma%2C%20the%20Physician%20%E2%80%94%20Medicine%20%26%20Story%20Support%20walkthrough"
   },
@@ -37094,9 +37186,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Track which NPCs you've committed Kotaro to — this thread's ending depends on those earlier, irreversible decisions.",
     walkthrough: [
-      "Encounter Inosuke Nogami early in Ashina Outskirts; he asks about a stolen item or family matter.",
-      "Progress his storyline by returning to his location as the game advances.",
-      "His fate is tied to choices you make involving other NPCs (Kotaro, Doujun) later in the game."
+      "Eavesdrop on Inosuke Nogami and the wandering priest Doujun in the Outskirts.",
+      "Take up their branching questline around Kotaro and the 'medicine'.",
+      "Deliver the requested items and make the choices it asks of you.",
+      "Follow the thread across your return visits.",
+      "See the questline to its (often grim) conclusion based on your choices."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Inosuke%20Nogami%20%2F%20Nogami%20Gensai%20Questline%20walkthrough"
   },
@@ -37159,9 +37253,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Visit his room at each major story checkpoint — his dialogue reveals the stakes behind Genichiro's lightning and the Fountainhead.",
     walkthrough: [
-      "Speak with the aging Isshin, found secluded in a tower in Ashina Castle early in the game.",
-      "His dialogue provides key lore about Ashina's history and the source of Genichiro's power.",
-      "His storyline resolves naturally as the main plot progresses toward Ashina Castle's climax."
+      "Visit the elderly Isshin Ashina in his tower after story milestones.",
+      "Share sake with him to unlock the game's richest lore dialogue.",
+      "Return after each major beat for new conversations.",
+      "Gather context on the Ashina rebellion and the characters around you.",
+      "Follow his thread to its place in the finale."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Isshin%20Ashina%20%E2%80%94%20Elderly%20Lord%20Storyline%20walkthrough"
   },
@@ -37180,9 +37276,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Ringing the Demon Bell is fully reversible at the Buddha statue in the temple — try it for better drops and un-ring it if a boss wall gets brutal.",
     walkthrough: [
-      "Meet the Old Hag near Ashina Outskirts; she offers to ring the Demon Bell, increasing enemy strength and item drops in exchange for a reward.",
-      "Ringing the bell is optional and affects game difficulty — it can be un-rung later at a cost.",
-      "Her involvement also intersects with the Demon of Hatred's unlock conditions via the Old Hag's connection to Hirata Estate memories."
+      "Find the Old Hag on the Outskirts Wall and take the Bell Demon she offers.",
+      "Pray with it to ring the Demon Bell, raising enemy strength and loot quality.",
+      "Play on with the haunting charm active for better drops.",
+      "Remove it any time by praying to the Bell Demon at a Sculptor's Idol.",
+      "Toggle it on/off to farm or to ease tough stretches."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Old%20Hag%20%E2%80%94%20Demon%20Bell%20Questline%20walkthrough"
   },
@@ -37223,9 +37321,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Explore the temple's upper illusion halls between visits — his thread advances as you uncover more of the monks' experiments.",
     walkthrough: [
-      "Speak with the Master hidden within Senpou Temple, Mt. Kongo.",
-      "His questline touches on the source of the game's immortality mechanics and centipede lore.",
-      "Progress by returning to him after exploring more of the temple grounds."
+      "Explore Senpou Temple on Mt. Kongo and seek its hidden Master.",
+      "Follow the rice/persimmon and immortality thread through the temple.",
+      "Deliver the required offerings to the relevant NPC (e.g., rice to the ailing).",
+      "Uncover the source of the centipede infestation and the immortality vows.",
+      "Complete the questline for its rewards and lore."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Master%20of%20Senpou%20Temple%20%E2%80%94%20Rice%20%26%20Immortality%20Questline%20walkthrough"
   },
@@ -37244,9 +37344,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "This one's quick — find him in the hidden hall and hear him out; there's no multi-stage tracking required.",
     walkthrough: [
-      "Find the monk who has taken up residence within the Halls of Illusion, an optional hidden area.",
-      "Speak with him to learn additional lore about the temple's mysteries.",
-      "This is a short, self-contained sidestory rather than a multi-stage quest."
+      "Enter the optional Halls of Illusion in Senpou Temple.",
+      "Speak with the Illusory Hall Monk dwelling there.",
+      "Follow his short sidestory about the temple's mysteries.",
+      "Complete the illusion-hall objectives.",
+      "Finish the sidestory for its reward."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Illusory%20Hall%20Monk%20%E2%80%94%20Halls%20of%20Illusion%20Sidestory%20walkthrough"
   },
@@ -37265,8 +37367,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Some trades consume permanently missable materials — check whether an item is one-of-a-kind before handing it over.",
     walkthrough: [
-      "Trade specific items (such as certain memories or materials) with Blackhat Badger to unlock rare purchasable items.",
-      "Some trades are one-time and tied to permanently missable materials, so plan trades carefully."
+      "Find Blackhat Badger at the Outskirts battlefield and open his trade.",
+      "Bring him materials and treasures to unlock otherwise rare shop stock.",
+      "Buy the hard-to-find tools and items he offers.",
+      "Return as you gather more trade goods.",
+      "Complete his stock to round out your kit."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Battlefield%20Memorial%20Mob%20%26%20Blackhat%20Badger%20%E2%80%94%20Merchant%20Trade%20Questline%20walkthrough"
   },
@@ -37285,8 +37390,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Bank your Treasure Carp Scales from the Fountainhead ponds and spend them here for pointers you'd otherwise miss.",
     walkthrough: [
-      "Speak with Fujioka in Ashina Castle to trade Treasure Carp Scales for valuable information and items.",
-      "His information unlocks hints toward hidden game content and NPC questline branches."
+      "Locate Fujioka the info broker in Ashina Castle.",
+      "Trade Treasure Carp Scales for his hints toward hidden content.",
+      "Follow the leads he points you to (NPC branches, secrets).",
+      "Keep collecting Carp Scales from waterways to buy more hints.",
+      "Use his intel to complete otherwise obscure questlines."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Fujioka%20the%20Info%20Broker%20%E2%80%94%20Information%20Questline%20walkthrough"
   },
@@ -37305,9 +37413,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Feed the Sculptor Scrap Iron and Magnetite Scrap from exploration to unlock its upgrade tree; it's superb against shield-bearers.",
     walkthrough: [
-      "Obtained early from the Sculptor at the Dilapidated Temple as a starting prosthetic tool.",
-      "Upgrade materials are found via general exploration and boss drops; check the Sculptor's upgrade menu after collecting Scrap Iron and Magnetite Scrap.",
-      "Effective against shield-wielding enemies due to its guard-break properties."
+      "Obtain the Shinobi Axe (Loaded Axe) tool via the Sculptor at the Dilapidated Temple.",
+      "Attach it as a Prosthetic Tool at a Sculptor's Idol.",
+      "Use its heavy chop to shatter shields and crack enemy posture.",
+      "Spend Emblems to fuel it; feed the Sculptor materials to upgrade it.",
+      "Deploy it against shielded foes and posture-heavy mini-bosses."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Axe%20%E2%80%94%20Acquisition%20%26%20Upgrade%20Path%20walkthrough"
   },
@@ -37326,9 +37436,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Upgrade it toward the Phoenix's Mist Raven / Projected Force branch to turn blocked hits into counterattacks.",
     walkthrough: [
-      "Found in a chest within Ashina Castle grounds, guarded by nearby patrols.",
-      "Provides strong deflection utility against firearm and thrown-projectile enemies.",
-      "Upgrade using standard Prosthetic materials found via exploration."
+      "Reach the guarded chest in Ashina Castle that holds the Loaded Umbrella.",
+      "Bring it to the Sculptor and attach the tool.",
+      "Open the umbrella to raise an unbreakable guard against firearms and projectiles.",
+      "Upgrade it (e.g., Projected Force) to counterattack from the block.",
+      "Use it against gunners, Snake Eyes, and projectile-heavy fights."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Umbrella%20%E2%80%94%20Acquisition%20Path%20walkthrough"
   },
@@ -37347,8 +37459,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Keep Spiritfall or emblems stocked; the spear's pull is situationally decisive against specific beast and armored enemies.",
     walkthrough: [
-      "Obtained during the Sunken Valley / Guardian Ape story progression.",
-      "Useful for pulling enemies at range and applying Terror status against beast-type enemies."
+      "Acquire the Loaded Spear and attach it at the Sculptor.",
+      "Use its reach to poke safely and strip armor from foes.",
+      "In the Guardian Ape fight, use the spear to yank the centipede from its neck.",
+      "Upgrade it for more pull power and damage.",
+      "Deploy it to disarm/expose armored and parasite-infested enemies."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Spear%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20questline)%20walkthrough"
   },
@@ -37367,8 +37482,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Upgrade toward Spinning Shuriken for extra posture damage, and use it to knock leaping enemies out of the air for a free Deathblow.",
     walkthrough: [
-      "Found early in Ashina Outskirts, useful against flying enemies and general ranged harassment.",
-      "Upgrade paths add poison and fire variants as materials are collected."
+      "Pick up the Shuriken Wheel early (Dilapidated Temple / Outskirts) and attach the Loaded Shuriken.",
+      "Throw shuriken to punish fleeing and airborne enemies.",
+      "Pair it with the Chasing Slice combat art to close and finish runners.",
+      "Upgrade it (e.g., Spinning/Gyoubu's) for more hits and posture damage.",
+      "Use it to control range and interrupt jumps."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Shuriken%20%E2%80%94%20Acquisition%20Path%20walkthrough"
   },
@@ -37387,9 +37505,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Stock Fistful of Ash / emblems and open bosses with a burst of flame; the burn stagger creates safe attack windows on most enemies.",
     walkthrough: [
-      "Unlocked through Anayama the Peddler's questline in Hirata Estate, tied to information you provide him.",
-      "Extremely effective against most bosses due to universal Burn vulnerability.",
-      "Requires Fistful of Ash consumable material to use, obtainable from merchants and drops."
+      "Complete Anayama the Peddler's intel in Hirata Estate to open the path to the Flame Vent.",
+      "Obtain the tool and attach it at the Sculptor.",
+      "Spray flame to exploit near-universal Burn vulnerability and stagger foes.",
+      "Upgrade it (Okinaga's/Spring-load) for bigger bursts.",
+      "Use it against beasts and the Guardian Ape, which fear fire."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Flame%20Vent%20%E2%80%94%20Acquisition%20Path%20(Anayama%20the%20Peddler%20questline)%20walkthrough"
   },
@@ -37408,8 +37528,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Sabimaru shreds the red-eyed apparitions and certain human bosses — apply poison, then swap back to your katana while it ticks.",
     walkthrough: [
-      "Found within Ashina Depths, guarded by a mini-boss encounter.",
-      "Applies poison status effectively and can break certain rusted/corroded blocking enemies."
+      "Reach the mini-boss-guarded spot in Ashina Depths that holds Sabimaru.",
+      "Defeat/slip past the guardian and claim the tool, then attach it at the Sculptor.",
+      "Use Sabimaru to build Poison on enemies vulnerable to it (e.g., the Okami).",
+      "Upgrade it for faster poison build-up.",
+      "Deploy it against rusted/corroded foes and poison-weak bosses."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sabimaru%20%E2%80%94%20Acquisition%20Path%20(Poison-Perfect%20Tool)%20walkthrough"
   },
@@ -37428,8 +37551,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "It's excellent against the Demon of Hatred's fire attacks — dodge through a hit and reposition instantly with the raven burst.",
     walkthrough: [
-      "Found later in the game via specific hidden paths in Ashina Castle's upper areas.",
-      "Provides a ranged gap-closing tool useful against certain late-game bosses like the Demon of Hatred."
+      "Find the guarded chest on Ashina Castle's upper hidden path holding Mist Raven's Feathers.",
+      "Attach the Mist Raven tool at the Sculptor.",
+      "Trigger it the instant an attack lands to vanish and reposition out of danger.",
+      "Upgrade the fire branch to burst enemies with flame on the escape.",
+      "Save it for unavoidable heavy hits and clutch escapes."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Mist%20Raven%20%2F%20Mist%20Raven's%20Feathers%20%E2%80%94%20Acquisition%20Path%20walkthrough"
   },
@@ -37448,8 +37574,11 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     aiTip:
       "Use it on the Guardian Ape and other beasts to interrupt patterns; the Malcontent upgrade adds a Terror-stunning variant for the Demon of Hatred.",
     walkthrough: [
-      "Obtained through progression tied to Sunken Valley and Guardian Ape-related content.",
-      "Used to lure specific enemies (including animals) away from groups or trigger unique interactions."
+      "Obtain the Finger Whistle near the Guardian Ape progression in Sunken Valley and attach it.",
+      "Use it to enrage or lure beasts and animal enemies.",
+      "Turn packs against each other or peel beasts off their groups.",
+      "Upgrade it (Malcontent path later) for a posture-stunning shriek vs apparitions.",
+      "Deploy it against beast enemies and certain apparition bosses."
     ],
     video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Finger%20Whistle%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20related)%20walkthrough"
   },
