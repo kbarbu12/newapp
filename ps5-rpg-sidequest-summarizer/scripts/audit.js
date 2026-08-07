@@ -33,7 +33,7 @@ const TARGETS = {
   "Cyberpunk 2077: Ultimate Edition": 150,
   "The Witcher 3: Wild Hunt": 100,
   "Final Fantasy VII Rebirth": 80,
-  "God of War Ragnarök": 70,
+  "God of War Ragnarök": 68,
   "Hogwarts Legacy": 130,
   "Elden Ring": 60,
   "Horizon Forbidden West": 70,
