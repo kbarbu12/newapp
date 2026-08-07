@@ -5,6 +5,16 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-08-07
 
+- **Skyrim quest-data compliance fix** (PR #85) — `v2.3.1` patch. Phase 3
+  verification of The Elder Scrolls V: Skyrim closed a compliance gap where 54
+  entries had only a search-URL video and a 1-step stub walkthrough. Expanded 50
+  entries to accurate multi-step walkthroughs (Thieves Guild radiant jobs, Dark
+  Brotherhood contracts, College of Winterhold ritual spells, both Civil War
+  fort campaigns, dungeon quests), renamed a mislabeled entry to "The Blessings
+  of Nature (Kynareth)", and removed 3 redundant cross-reference stub entries
+  whose real versions already exist. Skyrim now 145 quests. Also verified
+  **AC Valhalla** (142) and **Cyberpunk 2077** (148) as complete and accurate —
+  no changes needed — completing Phase 3.
 - **Promote Phase 2 games to production** (PRs #81, #82) — `v2.3.0` minor
   release. Ships the Game-Verification Phase 2 batch:
   - **Horizon Forbidden West** (PR #81) — the base game was already
