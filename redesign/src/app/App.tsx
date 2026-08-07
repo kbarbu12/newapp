@@ -1048,6 +1048,66 @@ function LibraryView(props:{
 
 // ─── Progress Tab ─────────────────────────────────────────────────────────────
 
+// F7 — explains how quest points are graded. Responsive: the two breakdown
+// cards stack on mobile and sit side-by-side on wider (web) screens.
+function PointsGuide() {
+  const typeRows = [
+    { label:"Main quest", val:"100 pts" },
+    { label:"Side quest", val:"50 pts" },
+    { label:"Optional",   val:"25 pts" },
+  ];
+  const diffRows = [
+    { label:"Low",    val:"×1" },
+    { label:"Medium", val:"×1.5" },
+    { label:"High",   val:"×2" },
+  ];
+  return (
+    <div className="rounded-xl border border-border bg-card p-4 sm:p-5 flex flex-col gap-4">
+      <SectionEyebrow icon={<Sparkles size={14} className="text-primary"/>}>How points work</SectionEyebrow>
+      <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
+        Every quest you mark done adds points. A quest's value is its <span className="text-foreground font-medium">base</span> (set by quest type) multiplied by its <span className="text-foreground font-medium">difficulty</span>, rounded to the nearest 5.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="rounded-lg border border-border bg-[var(--card-2)] p-3">
+          <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-2">Base by quest type</div>
+          <div className="flex flex-col gap-1.5">
+            {typeRows.map(r=>(
+              <div key={r.label} className="flex items-center justify-between text-xs">
+                <span className="text-foreground">{r.label}</span>
+                <span className="font-bold tabular-nums" style={{color:"#e6b45a"}}>{r.val}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="rounded-lg border border-border bg-[var(--card-2)] p-3">
+          <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-2">Difficulty multiplier</div>
+          <div className="flex flex-col gap-1.5">
+            {diffRows.map(r=>(
+              <div key={r.label} className="flex items-center justify-between text-xs">
+                <span className="text-foreground">{r.label}</span>
+                <span className="font-bold tabular-nums text-emerald-400">{r.val}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2 text-xs">
+        <div className="flex items-start gap-2">
+          <span className="inline-flex items-center px-2 py-[3px] rounded-md font-bold text-[11px] shrink-0" style={{background:"#241c0d",color:"#e6b45a"}}>+25</span>
+          <span className="text-muted-foreground">Bonus for a <span className="text-foreground font-medium">missable</span> quest — for not letting it slip by.</span>
+        </div>
+        <div className="flex items-start gap-2">
+          <span className="inline-flex items-center px-2 py-[3px] rounded-md font-bold text-[11px] shrink-0" style={{background:"#0f2318",color:"#6bbf8a"}}>+500</span>
+          <span className="text-muted-foreground">Bonus each time you <span className="text-foreground font-medium">finish a whole game</span>.</span>
+        </div>
+      </div>
+      <p className="text-[11px] text-muted-foreground/80 border-t border-[var(--hairline)] pt-3 leading-relaxed">
+        Example: a High-difficulty main quest = 100 × 2 = <span className="text-foreground font-semibold">200 pts</span>. A missable Medium side quest = 50 × 1.5 + 25 = <span className="text-foreground font-semibold">100 pts</span>.
+      </p>
+    </div>
+  );
+}
+
 function ProgressTab({ completedIds, onGoTo, points, streak, achievementsLabel }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void; points:number; streak:number; achievementsLabel:string }) {
   const rows = useMemo(()=>Object.keys(GAMES).map(game=>{
     const quests = QUESTS.filter(q=>q.game===game);
@@ -1063,6 +1123,7 @@ function ProgressTab({ completedIds, onGoTo, points, streak, achievementsLabel }
       <div className="flex items-center justify-between">
         <span className="text-sm text-muted-foreground">{totalDone} of {QUESTS.length} quests completed</span>
       </div>
+      <PointsGuide/>
       <div className="flex flex-col gap-2">
         {rows.map(r=>{
           const meta = GAMES[r.game];
