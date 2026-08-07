@@ -48165,5 +48165,159 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
+  },
+{
+    id: 2358,
+    type: "side",
+    category: "Side Quest",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Daedalian Keys",
+    location: "Hogwarts Castle",
+    length: "long",
+    difficulty: "High",
+    reward: "Daedalus Statue collectible, house points, spell upgrade materials",
+    summary: "A challenging puzzle quest involving three Daedalian Keys hidden across Hogwarts Castle. Collect all three keys and solve the puzzles to unlock the Daedalus Statue and complete this collectible sidequest chain.",
+    aiTip: "Each key is guarded by magical puzzles; use Revealment to uncover hidden switches and passages, and combine spells to solve multi-stage challenges. The final puzzle in the Undercroft requires precise timing.",
+    walkthrough: [
+      "Locate the first Daedalian Key in the Clock Tower Courtyard; use Diffindo on the locked door.",
+      "Solve the chamber puzzle by casting Revealment to find hidden switches; arrange them in the correct sequence.",
+      "Retrieve the second key from the Astronomy Wing; navigate the moving platforms by timing your jumps.",
+      "Complete the lockpicking minigame to open the final chamber and claim the third key.",
+      "Return to the Undercroft and place all three keys; solve the final multi-spell puzzle to unlock the Daedalus Statue."
+    ],
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Daedalian%20Keys%20walkthrough"
+  },
+{
+    id: 2359,
+    type: "side",
+    category: "Challenges",
+    game: "Hogwarts Legacy",
+    region: "Hogwarts",
+    title: "Crossed Wands",
+    location: "Hogwarts Castle (Dueling Club)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Dueling experience, exclusive duelist robes, spell upgrades",
+    summary: "Join the Dueling Club and face increasingly difficult one-on-one magical duels against other wizards. Earn prestige by defeating progressively stronger opponents and master advanced combat techniques.",
+    aiTip: "Parry incoming spells by blocking at the right moment, then counter-attack. Learn your opponent's attack patterns and exploit their weaknesses with well-timed spellcasts.",
+    walkthrough: [
+      "Talk to the Dueling Club instructor in the Undercroft to sign up for the first duel.",
+      "Face the beginner opponent; practice parrying and basic attack combinations.",
+      "Progress through the ranked duels, facing intermediate opponents with more complex spell rotations.",
+      "Reach the final championship duel and defeat the current champion to earn the top duelist rank.",
+      "Return to claim your rewards: exclusive duelist robes and permanent spell enhancement bonuses."
+    ],
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Crossed%20Wands%20dueling%20challenge"
+  },
+{
+    id: 2360,
+    type: "side",
+    category: "Challenges",
+    game: "Hogwarts Legacy",
+    region: "Hogsmeade",
+    title: "Summoner's Court",
+    location: "Hogsmeade (Summoner's Circle)",
+    length: "long",
+    difficulty: "High",
+    reward: "Rare creature companion, summoning ability upgrades, exclusive magical items",
+    summary: "Participate in summoning challenges where wizards test their ability to conjure and control powerful magical creatures. Prove your summoning prowess by completing increasingly difficult trials.",
+    aiTip: "Each round requires you to summon a specific creature and control it through an obstacle course. Upgrade your summoning capacity and learn advanced creature abilities to succeed.",
+    walkthrough: [
+      "Register for the Summoner's Court trials at the Summoner's Circle in Hogsmeade.",
+      "Complete the first trial by summoning a basic creature and guiding it through the novice course.",
+      "Progress to the intermediate trial; summon a stronger creature with multiple special abilities.",
+      "Reach the final championship trial and summon an ancient, rare creature to face off against magical obstacles.",
+      "Defeat all trials and claim the rare creature companion and summoning ability upgrades as your prize."
+    ],
+    video: "https://www.youtube.com/results?search_query=Hogwarts%20Legacy%20Summoner%27s%20Court%20challenge"
+  },
+{
+    id: 2361,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "The Ghost at Midnight",
+    location: "Midnight Beach, Izuhara",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Samurai Armor upgrade, honor points, Kami Shrine blessing",
+    summary: "A mysterious encounter at midnight on a secluded beach. A ghostly figure appears, challenging Jin to a duel under the moonlight. Defeat them and uncover the story of a fallen samurai seeking redemption.",
+    aiTip: "This opponent uses aggressive, fluid sword techniques. Parry their fast strikes and counter with heavy hits. Watch for their tell before their special unblockable attack.",
+    walkthrough: [
+      "Travel to Midnight Beach at night (after 21:00 in-game time) in Izuhara.",
+      "Encounter the ghostly samurai at the shoreline and accept their challenge.",
+      "Engage in a one-on-one duel using sword techniques; parry and counter their aggressive attacks.",
+      "Defeat the ghost and listen to their story of regret and loss.",
+      "Receive the Samurai Armor upgrade and watch the ghost's spirit depart peacefully into the night."
+    ],
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20at%20Midnight"
+  },
+{
+    id: 2362,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Widow's Tea House",
+    location: "Toyotama District, Tsushima",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Story completion bonus, hot spring access, unique haiku location",
+    summary: "Visit a quiet tea house run by a widow who shares stories of the war and lost loved ones. Help her with simple tasks and learn about the human cost of the Mongol invasion through her perspective.",
+    aiTip: "This is a peaceful, story-focused quest. Listen carefully to dialogue and complete the tasks as they're presented. There's no combat involved.",
+    walkthrough: [
+      "Travel to Toyotama District and locate the small tea house near the village.",
+      "Speak with the widow inside and listen to her stories about the war.",
+      "Help her gather tea leaves from the nearby mountain spring.",
+      "Assist her in repairing the tea house's damaged walls using nearby materials.",
+      "Sit and share tea with her, completing the quest with a moment of reflection and peace."
+    ],
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Widow%27s%20Tea%20House"
+  },
+{
+    id: 2363,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "The Archer of Kamiagata",
+    location: "Kamiagata Valley, Tsushima",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Archery Bow upgrade, longbow technique, archery skill increase",
+    summary: "Meet a masterful archer in Kamiagata Valley who seeks to pass on their archery knowledge before they pass from this world. Learn advanced archery techniques through a series of skill-based challenges.",
+    aiTip: "Practice your bow technique by shooting moving targets and distant marks. Learn to account for wind, distance, and elevation. Master the perfect draw and release timing.",
+    walkthrough: [
+      "Travel to Kamiagata Valley and locate the archer practicing near the cliffs.",
+      "Accept their challenge and begin with basic target practice, hitting stationary targets.",
+      "Progress to moving target challenges, shooting arrows at flying birds and running enemies.",
+      "Complete the final test by striking three distant targets in quick succession from different vantage points.",
+      "Receive the Archery Bow upgrade and the master archer's blessing, unlocking new longbow techniques."
+    ],
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Archer%20of%20Kamiagata"
+  },
+{
+    id: 2364,
+    type: "side",
+    category: "Tales of Tsushima",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Spirit of Toyotama",
+    location: "Toyotama Village, Tsushima",
+    length: "short",
+    difficulty: "Low",
+    reward: "Village reputation increase, unique clothing, Kami blessing",
+    summary: "Visit a forgotten Shinto shrine in Toyotama where the locals believe a benevolent spirit protects their village. Help restore the shrine and discover the connection between the spirit and Tsushima's past.",
+    aiTip: "This quest involves light puzzle-solving and collecting ritual offerings. Take time to explore the shrine grounds and listen to the local stories.",
+    walkthrough: [
+      "Travel to Toyotama Village and speak with the village elder near the shrine.",
+      "Clear away overgrown vegetation and debris blocking the shrine's main gate.",
+      "Collect three ritual offerings: rice, sake, and flowers from locations around the village.",
+      "Place the offerings at the shrine altar and ring the shrine bell to complete the ritual.",
+      "Witness a brief spiritual phenomenon and receive the villagers' gratitude and a unique blessing."
+    ],
+    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Spirit%20of%20Toyotama"
   }
 ];
