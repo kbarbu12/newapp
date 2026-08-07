@@ -5,6 +5,21 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-08-07
 
+- **Promote Phase 2 games to production** (PRs #81, #82) — `v2.3.0` minor
+  release. Ships the Game-Verification Phase 2 batch:
+  - **Horizon Forbidden West** (PR #81) — the base game was already
+    comprehensively covered, but the Burning Shores DLC had only two entries
+    and both used fabricated quest names. Replaced them with the DLC's real 9
+    quests (6 main: To the Burning Shores, Heaven and Earth, The Stars in Their
+    Eyes, For His Amusement, His Final Act, Epilogue; 3 side: A Friend in the
+    Dark, The Splinter Within, In His Wake). HFW now 76 quests.
+  - **Metaphor: ReFantazio** (PR #82) — quest coverage verified complete (76,
+    100% of target); fixed the region taxonomy by adding a **Brilehaven** filter
+    option and re-tagging its 6 Port Brilehaven side quests (Dental Distress,
+    Efflorescent Youth, Soldier's Solace, The Chalice vs. The Brew, Superior
+    Scrimshaw, Deeds and Diversions) from their mis-assigned regions.
+  - Also verified **Ghost of Yotei** as complete and accurate (119 quests; every
+    category count matches authoritative sources) — no data changes needed.
 - **Promote Phase 1 games to production** (PRs #76, #77, #78) — `v2.2.0`
   minor release. Ships the Game-Verification Phase 1 batch:
   - **Pillars of Eternity 1 & 2** (PR #76) — added 185 quests from the
