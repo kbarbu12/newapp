@@ -3,6 +3,22 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-07
+
+- **Promote redesign + Quest Assistant + 3 verified games to production**
+  (PR #50) — `v2.0.0` major launch. Ships the full redesign (quest-type badges,
+  chapters/acts, game page, 4-tab Library, gamification, chatbot deep-links,
+  first-visit welcome), the Quest Assistant (Tiers 1–4 intents with
+  stemming/synonym retrieval and missable/progression handling), and verified
+  quest data with full walkthroughs for Final Fantasy VII Remake, Elden Ring,
+  and Baldur's Gate 3.
+- **Add semver tagging + GitHub Releases for prod deploys** (PRs #49, #51, #52)
+  — every push to `main` now auto-tags a semver version and cuts a GitHub
+  Release via `release.yml` (bump level from a `[major]`/`[minor]`/patch token in
+  the merge subject). Rewrites `REVERT.md` around tag-based rollback and adds a
+  Versioning & rollback section to `DEPLOY.md`. This deploy tagged `v2.0.0`
+  (baseline `v1.0.0` on the prior prod state).
+
 ## 2026-07-18
 
 - **Add quest-type Category filter to Assassin's Creed Valhalla (England Arc)**
