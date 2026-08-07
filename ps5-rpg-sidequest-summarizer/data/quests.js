@@ -325,6 +325,7 @@ const subFilterConfig = {
     options: [
       { value: "Grand Trad", text: "Grand Trad" },
       { value: "Martira", text: "Martira" },
+      { value: "Brilehaven", text: "Brilehaven" },
       { value: "Kriegante", text: "Kriegante" },
       { value: "Skanda", text: "Skanda" }
     ]
@@ -8469,50 +8470,6 @@ const quests = [
       "Beat the best champions to complete the challenge."
     ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
-  },
-{
-    id: 408,
-    type: "main",
-    game: "Horizon Forbidden West",
-    region: "Burning Shores",
-    title: "Burning Shores: In the Flood",
-    location: "Los Angeles Ruins",
-    length: "long",
-    difficulty: "High",
-    reward: "DLC start, Seyka ally",
-    summary:
-      "Aloy travels to the drowned ruins of Los Angeles and teams with the rebel Seyka against a lingering Zenith threat.",
-    aiTip:
-      "Kicks off the Burning Shores DLC — it's endgame content, so come well-equipped.",
-    walkthrough: [
-      "Start the Burning Shores DLC from the post-game prompt with strong endgame gear.",
-      "Travel to the drowned Los Angeles ruins and meet the rebel Seyka.",
-      "Team up to investigate the lingering Zenith threat.",
-      "Push through the flooded ruins to advance the DLC story."
-    ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20In%20the%20Flood%20walkthrough"
-  },
-{
-    id: 409,
-    type: "side",
-    game: "Horizon Forbidden West",
-    region: "Burning Shores",
-    title: "Burning Shores: Gilded Prophecy",
-    location: "Los Angeles Ruins",
-    length: "medium",
-    difficulty: "High",
-    reward: "DLC gear, Horus lore",
-    summary:
-      "Investigate a doomsday cult and the buried secrets of the volcanic Burning Shores.",
-    aiTip:
-      "The DLC introduces new machines like the Bilegut — bring acid resistance.",
-    walkthrough: [
-      "Pick up the errand in the Burning Shores region.",
-      "Investigate the doomsday cult and its buried secrets.",
-      "Bring acid resistance for new machines like the Bilegut.",
-      "Uncover the volcanic secret to complete the quest."
-    ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%3A%20Gilded%20Prophecy%20walkthrough"
   },
 {
     id: 410,
@@ -27177,7 +27134,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 723,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Kriegante",
+    region: "Brilehaven",
     title: "Soldier's Solace",
     location: "Gracia Forest",
     length: "short",
@@ -27197,7 +27154,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 724,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Martira",
+    region: "Brilehaven",
     title: "Deeds and Diversions",
     location: "Nightprowler; Varmareno Coliseum, Arena Wharf",
     length: "medium",
@@ -27217,7 +27174,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 725,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Grand Trad",
+    region: "Brilehaven",
     title: "Efflorescent Youth",
     location: "Sunlumeo Street, Royal Capital",
     length: "short",
@@ -27237,7 +27194,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 726,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Kriegante",
+    region: "Brilehaven",
     title: "Dental Distress",
     location: "Inudo",
     length: "short",
@@ -27317,7 +27274,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 730,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Kriegante",
+    region: "Brilehaven",
     title: "The Chalice vs. The Brew",
     location: "Forsaken Tower",
     length: "medium",
@@ -27337,7 +27294,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     id: 731,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Kriegante",
+    region: "Brilehaven",
     title: "Superior Scrimshaw",
     location: "Forsaken Tower",
     length: "medium",
@@ -52877,5 +52834,186 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Complete the quest to claim its high-tier rewards."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Wailing%20Wretch%20walkthrough"
+  },
+  {
+    id: 2573,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "To the Burning Shores",
+    location: "The Burning Shores (Los Angeles archipelago)",
+    length: "long",
+    difficulty: "High",
+    reward: "DLC start; Seyka introduced",
+    summary: "The Burning Shores DLC opener. Chasing rumors of a surviving Zenith, Aloy flies to the volcanic Los Angeles archipelago, is brought down, and joins forces with the Quen rebel Seyka to begin hunting the threat.",
+    aiTip: "Requires beating the base game's finale (Singularity) and strong endgame gear — this is post-game content.",
+    walkthrough: [
+      "Start the DLC from the post-game prompt and fly your Sunwing to the Burning Shores.",
+      "Survive the arrival and explore the volcanic archipelago.",
+      "Meet the Quen rebel Seyka and agree to work together.",
+      "Follow the leads toward the surviving Zenith, Walter Londra."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20To%20the%20Burning%20Shores%20walkthrough"
+  },
+  {
+    id: 2574,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "Heaven and Earth",
+    location: "HeavenCent HQ",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression; new gear",
+    summary: "Aloy and Seyka explore HeavenCent — the headquarters of Londra's Old World company — to uncover its secrets and solve the mysterious disappearances plaguing the Quen of Fleet's End.",
+    aiTip: "Use your Focus to trace the datapoints; the puzzles reward scanning every terminal.",
+    walkthrough: [
+      "Travel with Seyka to the HeavenCent facility.",
+      "Scan terminals and solve the facility’s environmental puzzles with your Focus.",
+      "Fight through the machines guarding the complex.",
+      "Uncover the truth behind the Quen disappearances and report back."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Heaven%20and%20Earth%20walkthrough"
+  },
+  {
+    id: 2575,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "The Stars in Their Eyes",
+    location: "Beneath the Metal Devil ruins",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "Aloy and Seyka descend beneath the ruins of a Horus Titan (Metal Devil). They solve one mystery only to surface many more questions about Londra's true plan.",
+    aiTip: "Bring ranged elemental ammo for the machines lurking under the wreck.",
+    walkthrough: [
+      "Head beneath the fallen Metal Devil with Seyka.",
+      "Navigate the collapsed interior using the Pullcaster and override puzzles.",
+      "Defeat the machines guarding the depths.",
+      "Piece together the clues about Londra’s scheme."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Stars%20in%20Their%20Eyes%20walkthrough"
+  },
+  {
+    id: 2576,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "For His Amusement",
+    location: "The Burning Shores",
+    length: "long",
+    difficulty: "High",
+    reward: "Story progression",
+    summary: "The fourth main quest: pursuing Londra deeper into his domain, Aloy and Seyka confront the lengths he will go to for control, tightening the noose around his plan.",
+    aiTip: "Coordinate with Seyka's combo prompts — paired attacks speed up the tougher fights.",
+    walkthrough: [
+      "Follow Londra’s trail with Seyka.",
+      "Overcome the traps and machines set in your path.",
+      "Confront the escalating threat Londra poses.",
+      "Advance toward the final confrontation."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20For%20His%20Amusement%20walkthrough"
+  },
+  {
+    id: 2577,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "His Final Act",
+    location: "Heaven's Rest / the Horus Titan",
+    length: "long",
+    difficulty: "High",
+    reward: "DLC finale; unique gear",
+    summary: "The DLC's climax. Realizing Londra means to awaken and pilot a Horus, Aloy and Seyka race to stop him as the Titan partially activates — culminating in the largest boss battle in the series against the Metal Devil.",
+    aiTip: "At the Horus' cooling system, clear the machines, then scan for the two heat sinks — have Seyka open the right one while you destroy them. Stock up on healing and your strongest ammo before the Titan fight.",
+    walkthrough: [
+      "Meet Seyka near Heaven's Rest after she escorts Kina back to Fleet's End.",
+      "Reach the Horus as it begins to activate.",
+      "At the cooling system, clear the machines, then scan and destroy the two heat sinks (Seyka opens the right one).",
+      "Defeat the Horus Titan in the series' biggest boss battle.",
+      "Stop Londra and end his plan."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20His%20Final%20Act%20walkthrough"
+  },
+  {
+    id: 2578,
+    type: "main",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "Epilogue",
+    location: "Fleet's End",
+    length: "short",
+    difficulty: "Low",
+    reward: "DLC conclusion; Seyka storyline resolution",
+    summary: "The quiet aftermath of the Burning Shores. Aloy and Seyka reflect on everything they went through, with the scene shaped by your earlier choices.",
+    aiTip: "Your dialogue choices with Seyka across the DLC shape this final scene.",
+    walkthrough: [
+      "Return to Fleet’s End after the Horus battle.",
+      "Speak with Seyka to resolve the storyline.",
+      "Make your final dialogue choice.",
+      "Complete the DLC."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Epilogue%20walkthrough"
+  },
+  {
+    id: 2579,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "A Friend in the Dark",
+    location: "Burning Shores – base camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Side-quest reward, XP",
+    summary: "A Burning Shores side quest available at the main camp. Take on a local’s request that leads you across the dangers of the archipelago.",
+    aiTip: "Pick it up from the quest-giver at the main camp once you’ve settled in.",
+    walkthrough: [
+      "Accept the quest from the NPC at the main camp.",
+      "Travel to the marked location and investigate.",
+      "Clear the machines or hazards blocking the way.",
+      "Resolve the situation and report back for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20A%20Friend%20in%20the%20Dark%20walkthrough"
+  },
+  {
+    id: 2580,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "The Splinter Within",
+    location: "Burning Shores – base camp",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Side-quest reward, XP",
+    summary: "A Burning Shores side quest from the main camp, sending Aloy to deal with a problem festering among the archipelago’s survivors.",
+    aiTip: "Available at the main camp — talk to the quest-giver to begin.",
+    walkthrough: [
+      "Accept the quest at the main camp.",
+      "Follow the objective marker to the trouble spot.",
+      "Overcome the enemies or obstacles you find.",
+      "Resolve the quest and return for your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Splinter%20Within%20walkthrough"
+  },
+  {
+    id: 2581,
+    type: "side",
+    game: "Horizon Forbidden West",
+    region: "Burning Shores",
+    title: "In His Wake",
+    location: "The Burning Shores",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Side-quest reward, XP",
+    summary: "A Burning Shores side quest that has Aloy follow the trail left behind by events in the archipelago, cleaning up the fallout.",
+    aiTip: "Explore the marked area thoroughly — Focus scans reveal the leads you need.",
+    walkthrough: [
+      "Start the quest from its giver in the Burning Shores.",
+      "Track the objective across the region.",
+      "Defeat the machines or hazards in your path.",
+      "Complete the objective and claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20In%20His%20Wake%20walkthrough"
   }
 ];
