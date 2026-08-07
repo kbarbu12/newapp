@@ -16,8 +16,13 @@ permissions:
   pages: write
   id-token: write
 
+# Scope the concurrency group per branch so a staging push and a main push
+# never share a queue. Previously both used one "pages" group, so every
+# staging deploy cancelled a pending prod (main) deploy while it waited for a
+# runner. Per-ref groups keep same-branch pushes serialized (newest wins) while
+# letting main and staging deploy independently.
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
