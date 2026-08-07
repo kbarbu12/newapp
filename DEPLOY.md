@@ -20,6 +20,21 @@ Because GitHub Pages serves a single artifact, any push republishes the whole
 site — but each path is built from its own branch, so `/` never changes until
 `main` changes.
 
+## Versioning & rollback
+
+Every push to `main` (i.e. every prod deploy) is auto-tagged with a semver
+version and gets a GitHub Release, via `.github/workflows/release.yml`. The bump
+level is read from a token in the **merge commit subject**, defaulting to patch:
+
+| Token in merge subject | Bump  | Use for                                |
+| ---------------------- | ----- | -------------------------------------- |
+| `[major]`              | MAJOR | ground-up redesign / breaking overhaul |
+| `[minor]`              | MINOR | new game or feature                    |
+| (none)                 | PATCH | data fix, copy tweak, bug fix          |
+
+So when promoting a feature, put `[minor]` (or `[major]`) in the merge commit
+subject; plain fixes need nothing. To roll a deploy back, see `REVERT.md`.
+
 ## New tabs have a second gate
 
 `redesign/src/config/promotion.ts` still controls which tabs appear in the

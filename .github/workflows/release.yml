@@ -1,0 +1,93 @@
+name: Tag & Release prod
+
+# Every push to main is a prod deploy (a promoted staging -> main merge).
+# This workflow names each one with a semver tag and cuts a GitHub Release so
+# any prod deploy can be found and reverted later. See REVERT.md / DEPLOY.md.
+#
+# Bump level comes from a token in the head commit subject, defaulting to patch:
+#   [major] -> MAJOR   (ground-up redesign / breaking overhaul)
+#   [minor] -> MINOR   (new game or feature)
+#   (none)  -> PATCH   (data fixes, copy tweaks, bug fixes)
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Own group so tagging never blocks — or is blocked by — the Pages deploy.
+concurrency:
+  group: "release"
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # need full history + tags to compute the next version
+
+      - name: Compute next version
+        id: version
+        run: |
+          set -euo pipefail
+          # Latest v* tag by semver order; baseline v1.0.0 when none exist yet.
+          latest="$(git tag -l 'v*' --sort=-v:refname | head -n1)"
+          if [ -z "$latest" ]; then
+            next="v1.0.0"
+            echo "No existing tag; seeding baseline $next"
+          else
+            subject="$(git log -1 --format=%s)"
+            major="${latest#v}"; major="${major%%.*}"
+            rest="${latest#v*.}"; minor="${rest%%.*}"; patch="${latest##*.}"
+            if printf '%s' "$subject" | grep -qiF '[major]'; then
+              major=$((major + 1)); minor=0; patch=0
+            elif printf '%s' "$subject" | grep -qiF '[minor]'; then
+              minor=$((minor + 1)); patch=0
+            else
+              patch=$((patch + 1))
+            fi
+            next="v${major}.${minor}.${patch}"
+            echo "Latest $latest + subject '$subject' -> $next"
+          fi
+          echo "version=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Skip if tag already exists
+        id: guard
+        run: |
+          set -euo pipefail
+          if git rev-parse -q --verify "refs/tags/${{ steps.version.outputs.version }}" >/dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Tag ${{ steps.version.outputs.version }} already exists; skipping."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Extract latest CHANGELOG section
+        if: steps.guard.outputs.exists == 'false'
+        id: notes
+        run: |
+          set -euo pipefail
+          # Grab the first "## " section (newest entry) as the release body.
+          body="$(awk '/^## /{n++} n==1{print} n==2{exit}' CHANGELOG.md || true)"
+          [ -z "$body" ] && body="Prod deploy ${{ steps.version.outputs.version }}."
+          {
+            echo "body<<__EOF__"
+            echo "$body"
+            echo "__EOF__"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and release
+        if: steps.guard.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          NOTES: ${{ steps.notes.outputs.body }}
+        run: |
+          set -euo pipefail
+          git tag -a "$VERSION" -m "$VERSION"
+          git push origin "$VERSION"
+          gh release create "$VERSION" --title "$VERSION" --target "$GITHUB_SHA" --notes "$NOTES"

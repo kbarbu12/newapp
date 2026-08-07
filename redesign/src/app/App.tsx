@@ -1,15 +1,17 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import {
-  Search, MessageCircle, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
-  Star, BookOpen, Send, ChevronLeft, ChevronRight, Newspaper, Library,
+  Search, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
+  Star, Send, ChevronLeft, ChevronRight, Newspaper, Library,
   Bookmark, BookmarkCheck, Trophy, Sparkles, Bell, Rss, ArrowRight,
-  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check
+  TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check,
+  Lock, Award, ArrowLeft
 } from "lucide-react";
-import { GAMES, QUESTS, type Quest } from "../generated/data";
+import { GAMES, QUESTS, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
+import { useUserState, achievementMet } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
-import { answerQuestion } from "./chatEngine";
+import { answerQuestion, type ChatContext } from "./chatEngine";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
@@ -36,12 +38,19 @@ type TypeFilter = "All"|"main"|"side";
 type LenFilter  = "All"|"short"|"medium"|"long";
 // Walkthrough filter — mirrors the live site's All / Video / No video options.
 type VideoFilter = "All"|"Video Only"|"No Video";
-type SortOption = "default"|"difficulty"|"length"|"game"|"title";
+type SortOption = "default"|"difficulty"|"length"|"game"|"title"|"type"|"chapter";
 // Filters a shortcut can pre-apply when jumping to the Library tab.
-type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter; notStarted?:boolean; missable?:boolean };
+type QuestFilters = { game?:string; type?:TypeFilter; diff?:DiffFilter; len?:LenFilter; video?:VideoFilter; notStarted?:boolean; missable?:boolean; chapter?:string };
 
 const DIFF_RANK: Record<Quest["difficulty"],number> = { Low:0, Medium:1, High:2 };
 const LEN_RANK:  Record<Quest["length"],number>      = { short:0, medium:1, long:2 };
+// F4 — Main → Side → Optional.
+const TYPE_RANK: Record<Quest["type"],number>        = { main:0, side:1, optional:2 };
+// Position of a quest's chapter within its game's chapter list (unknown last).
+const chapterIndex = (q:Quest) => {
+  const i = GAMES[q.game]?.chapters.findIndex(c=>c.id===q.chapterId) ?? -1;
+  return i < 0 ? Number.MAX_SAFE_INTEGER : i;
+};
 interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -78,6 +87,83 @@ function DiffChip({ level }: { level:"Low"|"Medium"|"High" }) {
   const d = CARD_DIFF[level];
   return <MetaChip bg={d.bg} color={d.color}>{d.icon} {level}</MetaChip>;
 }
+// ── F1 · Quest-type badge (Main gold / Side teal / Optional slate outline) ────
+const TYPE_BADGE = {
+  main:     { bg:"#241c0d", fg:"#e6b45a", glyph:"◆", label:"Main",     outline:false },
+  side:     { bg:"#0f2422", fg:"#6cc7c3", glyph:"❖", label:"Side",     outline:false },
+  optional: { bg:"transparent", fg:"#b7b6bf", glyph:"○", label:"Optional", outline:true },
+} as const;
+function QuestTypeBadge({ type }: { type:Quest["type"] }) {
+  const t = TYPE_BADGE[type];
+  return (
+    <span className="inline-flex items-center gap-1 text-[11px] leading-none px-2 py-[3px] rounded-md font-semibold whitespace-nowrap"
+      style={{ background:t.bg, color:t.fg, border:t.outline?"1px solid #2a2b33":"none" }}>
+      <span aria-hidden>{t.glyph}</span> {t.label}
+    </span>
+  );
+}
+// Resolve the chapter a quest belongs to (F3 model) for the F1 act/chapter tag.
+function chapterOf(quest:Quest){ return quest.chapterId ? GAMES[quest.game]?.chapters.find(c=>c.id===quest.chapterId) : undefined; }
+// Each game names its own divisions — Realms, Districts, Planets, Acts… Use the
+// game's term wherever we label a chapter so it reads natively to its players.
+const chapterTerm = (game:string, p=false) => (p ? GAMES[game]?.chapterTermPlural : GAMES[game]?.chapterTerm) ?? (p?"Chapters":"Chapter");
+// Outline act/chapter tag, named with the game's own term: `⌖ Archstone: Latria`,
+// `⌖ Realm: Vanaheim`. Numbered groups already carry the term ("Chapter 1"), so
+// those render bare rather than "Chapter: Chapter 1".
+function chapterLabel(quest:Quest){
+  const ch = chapterOf(quest);
+  if(!ch) return undefined;
+  const term = chapterTerm(quest.game);
+  return ch.name.toLowerCase().startsWith(term.toLowerCase()) ? ch.name : `${term}: ${ch.name}`;
+}
+function ActTag({ quest }: { quest:Quest }) {
+  const label = chapterLabel(quest);
+  if(!label) return null;
+  return (
+    <span className="inline-flex items-center gap-1 text-[11px] leading-none px-2 py-[3px] rounded-md whitespace-nowrap" style={{ border:"1px solid #262730", color:"#8a8a92" }}>
+      <span aria-hidden>⌖</span> {label}
+    </span>
+  );
+}
+// F12 — human date for completion/activity timestamps.
+function fmtDate(iso?:string){ return iso ? new Date(iso).toLocaleDateString(undefined,{ month:"short", day:"numeric", year:"numeric" }) : ""; }
+
+// F7 — count-up animation for a changing number (the points total on gain).
+function useCountUp(value:number, ms=650){
+  const [display,setDisplay]=useState(value);
+  const prev=useRef(value);
+  useEffect(()=>{
+    const from=prev.current, to=value; prev.current=value;
+    if(from===to){ setDisplay(to); return; }
+    let raf=0; const start=performance.now();
+    const tick=(now:number)=>{ const t=Math.min(1,(now-start)/ms); setDisplay(Math.round(from+(to-from)*(1-Math.pow(1-t,3)))); if(t<1) raf=requestAnimationFrame(tick); };
+    raf=requestAnimationFrame(tick);
+    return ()=>cancelAnimationFrame(raf);
+  },[value,ms]);
+  return display;
+}
+
+// F7 — gamification stats strip: points (count-up) / quests / streak / achievements.
+function StatsStrip({ points, questsDone, streak, achievements }:{ points:number; questsDone:number; streak:number; achievements:string }){
+  const pts = useCountUp(points);
+  const tiles = [
+    { label:"Points",       value:pts.toLocaleString(), color:"#e6b45a" },
+    { label:"Quests done",  value:String(questsDone),   color:"#6bbf8a" },
+    { label:"Day streak",   value:streak>0?`🔥 ${streak}`:"0", color:streak>0?"#e08774":"#5b5d68" },
+    { label:"Achievements", value:achievements,          color:"#c5933a" },
+  ];
+  return (
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+      {tiles.map(t=>(
+        <div key={t.label} className="rounded-xl border border-border bg-card px-4 py-3">
+          <div className="text-2xl font-bold tabular-nums" style={{ fontFamily:"'Spectral',serif", color:t.color }}>{t.value}</div>
+          <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mt-0.5">{t.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function SectionEyebrow({ children, icon }: { children:React.ReactNode; icon?:React.ReactNode }) {
   return (
     <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-muted-foreground">
@@ -168,7 +254,7 @@ function YouTubeEmbed({ url, autoplay }: { url:string; autoplay:boolean }) {
 
 // ─── QuestDetail ──────────────────────────────────────────────────────────────
 
-function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedAt, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedAt?:string; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const hasGuide = !!quest.walkthrough?.length;
@@ -238,16 +324,24 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             <DialogTitle className="text-xl leading-snug" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</DialogTitle>
           </DialogHeader>
 
-          {/* Status / difficulty / video badges */}
+          {/* Status / type / difficulty / video badges */}
           <div className="flex items-center gap-1.5 flex-wrap mt-2">
             <span className="text-[11px] font-bold leading-none px-2 py-[3px] rounded-md" style={{ color:status.color, background:status.color+"1a" }}>{status.label}</span>
+            <QuestTypeBadge type={quest.type}/>
+            <ActTag quest={quest}/>
             <DiffChip level={quest.difficulty}/>
             {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           </div>
+          {completed && completedAt && (
+            <div className="mt-2 text-[11px]" style={{ color:"#8a8a92" }}>
+              <span aria-hidden style={{ color:"#c5933a" }}>✓</span> Completed {fmtDate(completedAt)}
+            </div>
+          )}
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
-            <MetaStat label="Quest Type">{quest.type==="main"?"Main Quest":"Side Quest"}</MetaStat>
+            <MetaStat label="Quest Type"><QuestTypeBadge type={quest.type}/></MetaStat>
+            {chapterOf(quest) && <MetaStat label={chapterTerm(quest.game)}>{chapterOf(quest)!.name}</MetaStat>}
             <MetaStat label="Difficulty"><DifficultyChip level={quest.difficulty}/></MetaStat>
             <MetaStat label="Duration"><span className="capitalize">{quest.length}</span></MetaStat>
             {quest.location && <MetaStat label="Location">{quest.location}</MetaStat>}
@@ -327,7 +421,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+function QuestCard({ quest, saved, onSave, completed=false, completedAt, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; completedAt?:string; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
@@ -360,7 +454,8 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
         <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
         <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
         <div className="flex items-center gap-1.5 flex-wrap">
-          <span className="hidden sm:inline-flex"><MetaChip>{quest.type==="main"?"Main":"Side"}</MetaChip></span>
+          <QuestTypeBadge type={quest.type}/>
+          <ActTag quest={quest}/>
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           <span className="hidden sm:inline-flex">
@@ -368,6 +463,8 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
               ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
               : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
           </span>
+          <span className="inline-flex items-center text-[11px] leading-none px-2 py-[3px] rounded-md font-bold" style={{ background:"#241c0d", color:"#e6b45a" }}>+{quest.points}</span>
+          {completed && completedAt && <span className="text-[11px]" style={{ color:"#8a8a92" }}>Completed {fmtDate(completedAt)}</span>}
         </div>
       </div>
 
@@ -394,7 +491,7 @@ function QuestCard({ quest, saved, onSave, completed=false, onComplete, onOpen, 
         className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
         onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
       >
-        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedAt={completedAt} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
       </DialogContent>
     </Dialog>
     </>
@@ -452,7 +549,7 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
 
 // ─── Home Tab ─────────────────────────────────────────────────────────────────
 
-function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void }) {
+function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achievementsLabel }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void; points:number; questsDone:number; streak:number; achievementsLabel:string }) {
   const questOfWeek = QUESTS.find(q=>q.id===11)!; // The Bloody Baron
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
@@ -527,6 +624,12 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
 
       <div className="max-w-7xl mx-auto px-6 w-full flex flex-col gap-12 py-10">
 
+        {/* ── Your progress (F7) ── */}
+        <section>
+          <div className="mb-4"><SectionEyebrow icon={<Trophy size={14} className="text-primary"/>}>Your progress</SectionEyebrow></div>
+          <StatsStrip points={points} questsDone={questsDone} streak={streak} achievements={achievementsLabel}/>
+        </section>
+
         {/* ── Quest of the Week ── */}
         <section>
           <div className="flex items-center justify-between mb-4">
@@ -556,7 +659,8 @@ function HomeTab({ onGoTo, savedIds, onSave }: { onGoTo:(tab:Tab,filters?:QuestF
               )}
               <div className="flex items-center gap-2 mt-1">
                 <DifficultyChip level={questOfWeek.difficulty}/>
-                <Pill className="bg-white/5 text-muted-foreground border-white/10"><BookOpen size={8}/> Side</Pill>
+                <QuestTypeBadge type={questOfWeek.type}/>
+                <ActTag quest={questOfWeek}/>
                 <LenDots length={questOfWeek.length}/>
                 <span className="text-[9px] text-muted-foreground capitalize">{questOfWeek.length}</span>
                 {questOfWeek.video && (
@@ -727,47 +831,224 @@ function NewsTab() {
 
 // ─── Saved Tab ────────────────────────────────────────────────────────────────
 
-function SavedTab({ savedIds, onSave, completedIds, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo }: { savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean }) {
-  const saved = QUESTS.filter(q=>savedIds.has(q.id));
-  if (!saved.length) return (
-    <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
-      <Bookmark size={32} className="text-muted-foreground/20"/>
-      <p className="text-muted-foreground text-sm font-medium">No saved quests yet.</p>
-      <p className="text-xs text-muted-foreground/60 max-w-xs">Open any quest and tap <strong>Save</strong> to bookmark it here. Use <strong>Mark done</strong> to track your progress.</p>
-      <button onClick={onGoToLibrary} className="mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
+// A compact game card used across the Library's Playing/Finished/Saved shelves.
+function LibraryGameCard({ game, onOpen, footer, onToggleSaved, saved }:{ game:string; onOpen:()=>void; footer:React.ReactNode; onToggleSaved?:()=>void; saved?:boolean }){
+  const meta = GAMES[game];
+  return (
+    <div className="relative group">
+      <button onClick={onOpen} className="w-full text-left rounded-xl overflow-hidden border border-border hover:border-white/20 transition-colors">
+        <div className="relative h-28">
+          {meta?.cover && <img src={meta.cover} alt={game} onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-center"/>}
+          <div className="absolute inset-0" style={{ background:"linear-gradient(to top,var(--card) 12%,rgba(0,0,0,.15))" }}/>
+        </div>
+        <div className="p-3">
+          <div className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{game}</div>
+          <div className="mt-1.5">{footer}</div>
+        </div>
+      </button>
+      {onToggleSaved && (
+        <button onClick={onToggleSaved} aria-label={saved?"Remove saved game":"Save game"} className="absolute top-2 right-2 w-7 h-7 rounded-full bg-black/50 backdrop-blur flex items-center justify-center">
+          {saved ? <BookmarkCheck size={14} style={{ color:"#e6b45a" }}/> : <Bookmark size={14} className="text-white"/>}
+        </button>
+      )}
     </div>
   );
-  const groups = useMemo(()=>{
-    const m:Record<string,Quest[]> = {};
-    saved.forEach(q=>{ (m[q.game] ??= []).push(q); });
-    return Object.entries(m).sort(([a],[b])=>a.localeCompare(b));
-  },[saved]);
+}
+
+// F5 multi-select chip group.
+function FilterChips({ label, options, selected, onToggle, colorFor }:{ label:string; options:string[]; selected:Set<string>; onToggle:(v:string)=>void; colorFor?:(v:string)=>{bg:string;fg:string}|undefined }){
+  if(options.length<2) return null;
   return (
-    <div className="flex flex-col gap-3">
-      <div className="flex items-center justify-between">
-        <span className="text-sm text-muted-foreground">{saved.length} saved quest{saved.length!==1?"s":""}</span>
-        <button onClick={()=>saved.forEach(q=>onSave(q.id))} className="text-xs text-muted-foreground hover:text-primary transition-colors">Clear all</button>
+    <div className="flex flex-col gap-1.5">
+      <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">{label}</span>
+      <div className="flex gap-1.5 flex-wrap">
+        {options.map(o=>{
+          const on = selected.has(o);
+          const c = on ? colorFor?.(o) : undefined;
+          return (
+            <button key={o} onClick={()=>onToggle(o)}
+              className={`px-2.5 py-1 rounded-full text-[11px] font-semibold border transition-colors ${on&&!c?"bg-primary/20 text-primary border-primary/40":!on?"bg-[#141520] text-[#9a99a2] border-border hover:text-foreground":""}`}
+              style={c?{ background:c.bg, color:c.fg, borderColor:"transparent" }:undefined}>
+              {o}
+            </button>
+          );
+        })}
       </div>
-      <div className="flex flex-col gap-6">
-        {groups.map(([game,quests])=>(
-          <div key={game} className="flex flex-col gap-3">
-            <div>
-              <SectionEyebrow>{game.toUpperCase()} — {quests.length} saved</SectionEyebrow>
-              <div className="h-px bg-[var(--hairline)] mt-2"/>
-            </div>
-            <div className="flex flex-col gap-2">
-              {quests.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} onComplete={onComplete} variant="row" showGameLabel={false} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
-            </div>
-          </div>
+    </div>
+  );
+}
+
+type LibSub = "saved"|"playing"|"finished"|"wishlist";
+function LibraryView(props:{
+  savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; completedAt:Record<number,string>;
+  onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>;
+  onToggleStep:(q:number,i:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+  savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
+  onOpenGame:(g:string)=>void; wishlist:string[]; wishlistDates:Record<string,string>;
+  onToggleWishlist:(g:string)=>void; onMoveWishlist:(g:string,d:-1|1)=>void; onSetWishlistDate:(g:string,d:string)=>void;
+}){
+  const { savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+    savedGames, onToggleSavedGame, games, onOpenGame, wishlist, wishlistDates, onToggleWishlist, onMoveWishlist, onSetWishlistDate } = props;
+  const [sub,setSub] = useState<LibSub>("saved");
+  const savedQuests = QUESTS.filter(q=>savedIds.has(q.id));
+  const allGames = Object.keys(GAMES);
+  const playing = allGames.filter(g=>!games[g]?.finishedAt && QUESTS.some(q=>q.game===g && completedIds.has(q.id)));
+  const finished = allGames.filter(g=>games[g]?.finishedAt);
+
+  // F5 filters (Saved tab)
+  const [fGames,setFGames]=useState<Set<string>>(new Set());
+  const [fTypes,setFTypes]=useState<Set<string>>(new Set());
+  const [fStatus,setFStatus]=useState<Set<string>>(new Set());
+  const toggleIn=(s:Set<string>,set:(x:Set<string>)=>void,v:string)=>{ const n=new Set(s); n.has(v)?n.delete(v):n.add(v); set(n); };
+  const savedFiltered = savedQuests.filter(q=>{
+    if(fGames.size && !fGames.has(q.game)) return false;
+    if(fTypes.size && !fTypes.has(q.type)) return false;
+    if(fStatus.size){ const st=completedIds.has(q.id)?"Completed":"Not started"; if(!fStatus.has(st)) return false; }
+    return true;
+  });
+  const gameOpts=[...new Set(savedQuests.map(q=>q.game))].sort();
+  const typeOpts=(["main","side","optional"] as const).filter(t=>savedQuests.some(q=>q.type===t));
+  const anyFilter = fGames.size||fTypes.size||fStatus.size;
+
+  const tabs:{id:LibSub;label:string;n:number}[]=[
+    { id:"saved", label:"Saved", n:savedQuests.length+savedGames.length },
+    { id:"playing", label:"Playing", n:playing.length },
+    { id:"finished", label:"Finished", n:finished.length },
+    { id:"wishlist", label:"Wishlist", n:wishlist.length },
+  ];
+  const gameProgFooter=(g:string)=>{ const p=gameProgress(g,completedIds); return (
+    <div>
+      <div className="flex items-center justify-between text-[10px] mb-1"><span className="text-muted-foreground">{p.done}/{p.total}</span><span style={{color:"#6bbf8a"}}>{p.pct}%</span></div>
+      <div className="h-1.5 rounded-full overflow-hidden" style={{background:"#1c1d24"}}><div className="h-full rounded-full" style={{width:`${p.pct}%`,background:"linear-gradient(90deg,#c5933a,#e6b45a)"}}/></div>
+    </div>
+  ); };
+  const playSpan=(g:string)=>{
+    const done=QUESTS.filter(q=>q.game===g&&completedAt[q.id]).map(q=>completedAt[q.id]).sort();
+    const start=games[g]?.startedAt ?? done[0];
+    const fin=games[g]?.finishedAt;
+    return <span className="text-[11px]" style={{color:"#8a8a92"}}>{start?fmtDate(start):"—"} – <span style={{color:"#6bbf8a"}}>{fin?fmtDate(fin):"—"}</span></span>;
+  };
+  const wishlistPool = allGames.filter(g=>!wishlist.includes(g)).sort();
+
+  const emptyState=(icon:React.ReactNode,text:string,hint:string)=>(
+    <div className="flex flex-col items-center justify-center py-20 gap-3 text-center">
+      {icon}<p className="text-muted-foreground text-sm font-medium">{text}</p>
+      <p className="text-xs text-muted-foreground/60 max-w-xs">{hint}</p>
+    </div>
+  );
+
+  return (
+    <div className="flex flex-col gap-5">
+      {/* Sub-tab bar */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] border-b border-border">
+        {tabs.map(t=>(
+          <button key={t.id} onClick={()=>setSub(t.id)} className={`shrink-0 px-3.5 py-2 text-sm font-medium rounded-t-lg border-b-2 -mb-px transition-colors ${sub===t.id?"border-primary text-primary":"border-transparent text-muted-foreground hover:text-foreground"}`} style={sub===t.id?{fontFamily:"'Spectral',serif"}:undefined}>
+            {t.label} <span className="text-muted-foreground">{t.n}</span>
+          </button>
         ))}
       </div>
+
+      {/* ── Saved ── */}
+      {sub==="saved" && (
+        savedQuests.length===0 && savedGames.length===0
+          ? emptyState(<Bookmark size={30} className="text-muted-foreground/20"/>,"Nothing saved yet.","Bookmark a quest, or save a game from its card, to collect them here.")
+          : (
+            <div className="flex flex-col gap-6">
+              {savedGames.length>0 && (
+                <div className="flex flex-col gap-2">
+                  <SectionEyebrow icon={<Bookmark size={13} className="text-primary"/>}>Saved games</SectionEyebrow>
+                  <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+                    {savedGames.map(g=><LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} onToggleSaved={()=>onToggleSavedGame(g)} saved footer={gameProgFooter(g)}/>)}
+                  </div>
+                </div>
+              )}
+              {savedQuests.length>0 && (
+                <div className="flex flex-col gap-3">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <SectionEyebrow icon={<BookmarkCheck size={13} className="text-primary"/>}>Saved quests</SectionEyebrow>
+                    <span className="text-xs text-muted-foreground">{savedFiltered.length} of {savedQuests.length} match</span>
+                  </div>
+                  <div className="flex flex-col gap-3 rounded-xl border border-border bg-card/50 p-3">
+                    <FilterChips label="Game" options={gameOpts} selected={fGames} onToggle={v=>toggleIn(fGames,setFGames,v)}/>
+                    <FilterChips label="Type" options={typeOpts as unknown as string[]} selected={fTypes} onToggle={v=>toggleIn(fTypes,setFTypes,v)} colorFor={v=>{const t=TYPE_BADGE[v as Quest["type"]];return t?{bg:t.fg,fg:"#0c1710"}:undefined;}}/>
+                    <FilterChips label="Status" options={["Not started","Completed"]} selected={fStatus} onToggle={v=>toggleIn(fStatus,setFStatus,v)} colorFor={v=>v==="Completed"?{bg:"#6bbf8a",fg:"#0c1710"}:{bg:"#5b5d68",fg:"#0c1710"}}/>
+                    {anyFilter>0 && <button onClick={()=>{setFGames(new Set());setFTypes(new Set());setFStatus(new Set());}} className="self-start text-[11px] text-muted-foreground hover:text-primary">↺ Clear filters</button>}
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    {savedFiltered.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row" completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+                    {savedFiltered.length===0 && <p className="text-xs text-muted-foreground py-6 text-center">No saved quests match these filters.</p>}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+      )}
+
+      {/* ── Playing ── */}
+      {sub==="playing" && (
+        playing.length===0
+          ? emptyState(<TrendingUp size={30} className="text-muted-foreground/20"/>,"No games in progress.","Complete a quest in any game and it shows up here with your progress.")
+          : <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+              {playing.map(g=><LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} footer={gameProgFooter(g)}/>)}
+            </div>
+      )}
+
+      {/* ── Finished ── */}
+      {sub==="finished" && (
+        finished.length===0
+          ? emptyState(<Trophy size={30} className="text-muted-foreground/20"/>,"No finished games yet.","Open a game page and mark it finished to add it here with your play span.")
+          : <div className="grid gap-3" style={{gridTemplateColumns:"repeat(auto-fill,minmax(9rem,1fr))"}}>
+              {finished.map(g=>(
+                <LibraryGameCard key={g} game={g} onOpen={()=>onOpenGame(g)} footer={<div className="flex items-center gap-1.5"><span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{background:"#6bbf8a",color:"#0c1710"}}>✓ FINISHED</span></div>}/>
+              ))}
+            </div>
+      )}
+      {sub==="finished" && finished.length>0 && (
+        <div className="flex flex-col gap-1.5">
+          {finished.map(g=><div key={g} className="flex items-center justify-between text-xs px-1"><span className="text-foreground truncate">{g}</span>{playSpan(g)}</div>)}
+        </div>
+      )}
+
+      {/* ── Wishlist (F10) ── */}
+      {sub==="wishlist" && (
+        <div className="flex flex-col gap-3">
+          {wishlist.length===0
+            ? emptyState(<Star size={30} className="text-muted-foreground/20"/>,"Your Plan to Play list is empty.","Add a game below and drag it up or down to set your priority.")
+            : <ol className="flex flex-col gap-2 list-none">
+                {wishlist.map((g,i)=>(
+                  <li key={g} className="flex items-center gap-2.5 rounded-xl border border-border bg-card p-2.5">
+                    <div className="flex flex-col shrink-0">
+                      <button onClick={()=>onMoveWishlist(g,-1)} disabled={i===0} aria-label="Move up" className="text-muted-foreground hover:text-primary disabled:opacity-25 leading-none">▲</button>
+                      <button onClick={()=>onMoveWishlist(g,1)} disabled={i===wishlist.length-1} aria-label="Move down" className="text-muted-foreground hover:text-primary disabled:opacity-25 leading-none">▼</button>
+                    </div>
+                    <span className="text-[11px] font-bold w-5 text-center" style={{color:"#e6b45a"}}>{i+1}</span>
+                    <button onClick={()=>onOpenGame(g)} className="flex-1 min-w-0 text-left">
+                      <span className="text-sm font-semibold text-foreground truncate block" style={{fontFamily:"'Spectral',serif"}}>{g}</span>
+                    </button>
+                    <input type="date" value={wishlistDates[g]??""} onChange={e=>onSetWishlistDate(g,e.target.value)} aria-label={`Target date for ${g}`} className="bg-secondary border border-border rounded-lg px-2 py-1 text-[11px] text-foreground outline-none focus:border-primary/50"/>
+                    <button onClick={()=>onToggleWishlist(g)} aria-label={`Remove ${g}`} className="text-muted-foreground hover:text-destructive shrink-0"><X size={15}/></button>
+                  </li>
+                ))}
+              </ol>}
+          <div className="flex items-center gap-2">
+            <select value="" onChange={e=>{ if(e.target.value) onToggleWishlist(e.target.value); }} className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50">
+              <option value="">＋ Add a game to Plan to Play…</option>
+              {wishlistPool.map(g=><option key={g} value={g}>{g}</option>)}
+            </select>
+          </div>
+        </div>
+      )}
+
+      {savedQuests.length===0 && sub==="saved" && savedGames.length===0 && (
+        <button onClick={onGoToLibrary} className="self-center mt-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-xs font-semibold hover:bg-primary/85 transition-colors">Browse quests →</button>
+      )}
     </div>
   );
 }
 
 // ─── Progress Tab ─────────────────────────────────────────────────────────────
 
-function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void }) {
+function ProgressTab({ completedIds, onGoTo, points, streak, achievementsLabel }: { completedIds:Set<number>; onGoTo:(tab:Tab,filters?:QuestFilters)=>void; points:number; streak:number; achievementsLabel:string }) {
   const rows = useMemo(()=>Object.keys(GAMES).map(game=>{
     const quests = QUESTS.filter(q=>q.game===game);
     const done = quests.filter(q=>completedIds.has(q.id)).length;
@@ -778,6 +1059,7 @@ function ProgressTab({ completedIds, onGoTo }: { completedIds:Set<number>; onGoT
 
   return (
     <div className="flex flex-col gap-6">
+      <StatsStrip points={points} questsDone={totalDone} streak={streak} achievements={achievementsLabel}/>
       <div className="flex items-center justify-between">
         <span className="text-sm text-muted-foreground">{totalDone} of {QUESTS.length} quests completed</span>
       </div>
@@ -951,14 +1233,53 @@ const CHAT_EXAMPLES=[
   "Recommend some short Cyberpunk quests",
 ];
 
-function ChatWidget() {
+// F11 — first-visit welcome sheet: Add to Home Screen + Enable reminders.
+function WelcomeSheet({ onDismiss, canInstall, onInstall }:{ onDismiss:()=>void; canInstall:boolean; onInstall:()=>void }){
+  const [remState,setRemState]=useState<"idle"|"on"|"off">("idle");
+  const enableReminders=async()=>{
+    if(!("Notification" in window)){ setRemState("off"); return; }
+    try { const r=await Notification.requestPermission(); setRemState(r==="granted"?"on":"off"); }
+    catch { setRemState("off"); }
+  };
+  return (
+    <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center p-0 sm:p-4">
+      <div className="absolute inset-0 bg-black/60" onClick={onDismiss}/>
+      <div className="relative w-full sm:max-w-sm rounded-t-2xl sm:rounded-2xl border p-5 flex flex-col gap-4" style={{ background:"#15161d", borderColor:"#262730" }}>
+        <div className="flex items-center gap-3">
+          <div className="w-11 h-11 rounded-xl flex items-center justify-center text-xl shrink-0" style={{ background:"#241c0d", color:"#e6b45a" }} aria-hidden>⚔</div>
+          <div>
+            <h2 className="text-lg font-bold text-text-hi" style={{ fontFamily:"'Spectral',serif" }}>Welcome, adventurer</h2>
+            <p className="text-xs text-muted-foreground">Install RPG Quest Guide and never lose your progress.</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          {canInstall && (
+            <button onClick={()=>{ onInstall(); onDismiss(); }} className="w-full py-2.5 rounded-lg text-sm font-semibold" style={{ background:"#c5933a", color:"#171208", fontFamily:"'Spectral',serif" }}>
+              Add to Home Screen
+            </button>
+          )}
+          <button onClick={enableReminders} className="w-full py-2.5 rounded-lg text-sm font-medium border" style={{ borderColor:"#212228", color:remState==="on"?"#6bbf8a":"#cbc9c3" }}>
+            {remState==="on" ? "✓ Reminders enabled" : remState==="off" ? "Reminders unavailable" : "Enable reminders"}
+          </button>
+          <button onClick={onDismiss} className="w-full py-2 text-xs" style={{ color:"#77767c" }}>Not now</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ChatWidget({ onOpenQuest }:{ onOpenQuest:(id:number)=>void }) {
   const [open,setOpen]=useState(false);
   const [showHelp,setShowHelp]=useState(false);
   const [input,setInput]=useState("");
   const [msgs,setMsgs]=useState<ChatMsg[]>([{role:"assistant",content:"Greetings, adventurer. Ask me anything about quests, strategies, or walkthroughs."}]);
   const bottomRef=useRef<HTMLDivElement>(null);
+  // Conversational context (last quest/game) so follow-ups like "what's its
+  // reward?" resolve against what was just discussed. Held in a ref — it drives
+  // the next reply, not rendering, so it shouldn't trigger a re-render.
+  const ctxRef=useRef<ChatContext>({});
   useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
-  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q); setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
+  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q,ctxRef.current); ctxRef.current=reply.context; setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   // A quest detail opens as a full-screen sheet on mobile; Radix scroll-locks
   // the body while any modal is open. Hide the floating button on mobile then
   // so it doesn't sit over the detail's sticky action bar.
@@ -1002,10 +1323,15 @@ function ChatWidget() {
               <>
                 {msgs.map((m,i)=>(
                   <div key={i} className={`flex ${m.role==="user"?"justify-end":"justify-start"}`}>
-                    <div className={`max-w-[85%] rounded-lg px-3 py-2 text-xs leading-relaxed whitespace-pre-line ${m.role==="user"?"bg-primary text-primary-foreground":"bg-muted text-foreground border border-border"}`}>
-                      {m.content}
+                    <div className="max-w-[85%] px-3 py-2 text-xs leading-relaxed whitespace-pre-line flex flex-col gap-2" style={m.role==="user" ? { background:"#241c0d", color:"#f3ede1", borderRadius:"11px 11px 3px 11px" } : { background:"#16171d", color:"#cbc9c3", borderRadius:"11px 11px 11px 3px" }}>
+                      <span>{m.content}</span>
+                      {m.quest&&(
+                        <button onClick={()=>{ onOpenQuest(m.quest!.id); setOpen(false); }} className="self-start inline-flex items-center gap-1 font-semibold rounded-md px-2 py-1" style={{ background:"#241c0d", color:"#e6b45a" }}>
+                          Open quest <span aria-hidden>↗</span>
+                        </button>
+                      )}
                       {m.quest?.video&&(
-                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-medium text-primary hover:underline">
+                        <a href={m.quest.video} target="_blank" rel="noreferrer" className="self-start inline-flex items-center gap-1 font-medium text-red-400 hover:underline">
                           <Youtube size={13}/> Watch walkthrough
                         </a>
                       )}
@@ -1022,8 +1348,8 @@ function ChatWidget() {
           </div>
         </div>
       )}
-      <button onClick={()=>setOpen(!open)} aria-label={open?"Close quest assistant chat":"Open quest assistant chat"} className="w-12 h-12 rounded-full bg-primary hover:bg-primary/80 text-primary-foreground flex items-center justify-center transition-all duration-200 hover:scale-105" style={{boxShadow:"0 0 20px rgba(197,147,58,.35)"}}>
-        {open?<X size={20}/>:<MessageCircle size={20}/>}
+      <button onClick={()=>setOpen(!open)} aria-label={open?"Close quest assistant chat":"Open quest assistant chat"} className="rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105" style={{ width:54, height:54, background:"#c5933a", color:"#171208", boxShadow:"0 8px 24px rgba(197,147,58,.4)" }}>
+        {open?<X size={22}/>:<span className="text-2xl leading-none" aria-hidden>✦</span>}
       </button>
     </div>
   );
@@ -1051,9 +1377,9 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
 
 // ─── Quest grid with auto-load sentinel ──────────────────────────────────────
 
-function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, completedAt, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
   filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
-  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; toggleComplete: (id:number)=>void; selectedGame: string;
+  savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; completedAt: Record<number,string>; toggleComplete: (id:number)=>void; selectedGame: string;
   completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean; autoplayVideo: boolean;
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -1067,10 +1393,220 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   return (
     <>
       <div className="flex flex-col gap-3">
-        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
       </div>
       {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
     </>
+  );
+}
+
+// ─── Game page (F2 achievements · F3 chapters · overview · quests) ────────────
+
+// Progress numbers for one game, reused by the header, overview and chapters.
+function gameProgress(game:string, completedIds:Set<number>){
+  const quests = QUESTS.filter(q=>q.game===game);
+  const done = quests.filter(q=>completedIds.has(q.id)).length;
+  const pct = quests.length ? Math.round((done/quests.length)*100) : 0;
+  const achs = ACHIEVEMENTS[game] ?? [];
+  const earned = achs.filter(a=>achievementMet(a,game,completedIds)).length;
+  return { quests, done, total:quests.length, pct, achs, earned };
+}
+
+// F3 — per-chapter progress with numbered nodes + an overall rollup header.
+function ChaptersPanel({ game, completedIds }:{ game:string; completedIds:Set<number> }){
+  const meta = GAMES[game];
+  const rows = (meta?.chapters ?? []).map(c=>{
+    const done = c.questIds.filter(id=>completedIds.has(id)).length;
+    const pct = c.questIds.length ? Math.round((done/c.questIds.length)*100) : 0;
+    return { ...c, done, total:c.questIds.length, pct };
+  });
+  const totalDone = rows.reduce((s,r)=>s+r.done,0);
+  const totalQ = rows.reduce((s,r)=>s+r.total,0);
+  const overall = totalQ ? Math.round((totalDone/totalQ)*100) : 0;
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="rounded-xl border border-border bg-card p-4">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground">Overall progress</span>
+          <span className="text-sm font-bold" style={{ color:"#e6b45a" }}>{overall}%</span>
+        </div>
+        <div className="h-2 rounded-full overflow-hidden" style={{ background:"#1c1d24" }}>
+          <div className="h-full rounded-full" style={{ width:`${overall}%`, background:"linear-gradient(90deg,#c5933a,#e6b45a)" }}/>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2">
+        {rows.map((r,i)=>{
+          const state = r.pct>=100 ? "done" : r.done>0 ? "active" : "locked";
+          const node = state==="done" ? { background:"#6bbf8a", color:"#0c1710" }
+            : state==="active" ? { background:"#241c0d", color:"#e6b45a" }
+            : { background:"#16171d", color:"#5b5d68", border:"1px solid #262730" };
+          return (
+            <div key={r.id} className="flex items-center gap-3 rounded-xl border border-border bg-card p-3">
+              <div className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style={node}>
+                {state==="done" ? <Check size={15}/> : i+1}
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <span className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{r.name}</span>
+                  <span className="text-[11px] shrink-0 tabular-nums" style={{ color:r.pct>=100?"#6bbf8a":"#8a8a92" }}>{r.done}/{r.total}</span>
+                </div>
+                <div className="h-1.5 rounded-full overflow-hidden" style={{ background:"#1c1d24" }}>
+                  <div className="h-full rounded-full" style={{ width:`${r.pct}%`, background:"linear-gradient(90deg,#c5933a,#e6b45a)" }}/>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// F2 — achievement rows, locked (dim + lock) vs unlocked (gold ring + Earned date).
+function AchievementsPanel({ game, completedIds, achievementsAt }:{ game:string; completedIds:Set<number>; achievementsAt:Record<string,string> }){
+  const list = ACHIEVEMENTS[game] ?? [];
+  return (
+    <div className="flex flex-col gap-2">
+      {list.map(a=>{
+        const unlocked = achievementMet(a,game,completedIds);
+        return (
+          <div key={a.id} className="flex items-center gap-3 rounded-xl border bg-card p-3" style={{ opacity:unlocked?1:0.5, borderColor:unlocked?"#c5933a":"var(--border)" }}>
+            <div className="shrink-0 w-9 h-9 rounded-full flex items-center justify-center" style={unlocked ? { background:"radial-gradient(circle at 30% 30%,#3a2c0f,#171208)", color:"#e6b45a" } : { background:"#16171d", border:"1px solid #262730", color:"#5b5d68" }}>
+              {unlocked ? <Star size={16} fill="#e6b45a"/> : <Lock size={14}/>}
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="text-sm font-semibold text-foreground truncate" style={{ fontFamily:"'Spectral',serif" }}>{a.name}</div>
+              <div className="text-[11px] text-muted-foreground truncate">{a.desc}</div>
+            </div>
+            <div className="shrink-0 text-[10px] font-semibold text-right">
+              {unlocked
+                ? <span style={{ color:"#c5933a" }}>{achievementsAt[a.id]?`Earned ${fmtDate(achievementsAt[a.id])}`:"Earned"}</span>
+                : <span style={{ color:"#5b5d68" }}>Locked</span>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// Overview — stat tiles + a reverse-chron activity timeline (F12) for this game.
+function GameOverview({ game, completedIds, completedAt, achievementsAt }:{ game:string; completedIds:Set<number>; completedAt:Record<number,string>; achievementsAt:Record<string,string> }){
+  const p = gameProgress(game, completedIds);
+  const tiles = [
+    { label:"Complete", value:`${p.pct}%`, color:"#6bbf8a" },
+    { label:"Quests", value:`${p.done}/${p.total}`, color:"#e6b45a" },
+    { label:"Achievements", value:`${p.earned}/${p.achs.length}`, color:"#c5933a" },
+  ];
+  const feed = p.quests
+    .filter(q=>completedAt[q.id])
+    .map(q=>({ id:q.id, title:q.title, at:completedAt[q.id] }))
+    .sort((a,b)=>b.at.localeCompare(a.at))
+    .slice(0,12);
+  return (
+    <div className="flex flex-col gap-5">
+      <div className="grid grid-cols-3 gap-2">
+        {tiles.map(t=>(
+          <div key={t.label} className="rounded-xl border border-border bg-card p-3 text-center">
+            <div className="text-xl font-bold" style={{ fontFamily:"'Spectral',serif", color:t.color }}>{t.value}</div>
+            <div className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mt-0.5">{t.label}</div>
+          </div>
+        ))}
+      </div>
+      <div>
+        <SectionEyebrow icon={<Clock size={13} className="text-primary"/>}>Recent activity</SectionEyebrow>
+        {feed.length===0
+          ? <p className="text-xs text-muted-foreground mt-3">No completed quests yet — mark one done to start your timeline.</p>
+          : (
+            <ol className="flex flex-col gap-2.5 mt-3 list-none">
+              {feed.map(f=>(
+                <li key={f.id} className="flex items-center gap-2.5">
+                  <span className="shrink-0" style={{ color:"#c5933a" }} aria-hidden>✓</span>
+                  <span className="text-xs text-foreground flex-1 min-w-0 truncate">{f.title}</span>
+                  <span className="text-[11px] shrink-0" style={{ color:"#8a8a92" }}>{fmtDate(f.at)}</span>
+                </li>
+              ))}
+            </ol>
+          )}
+      </div>
+    </div>
+  );
+}
+
+type GameTab = "overview"|"chapters"|"achievements"|"quests";
+function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+  savedGames, onToggleSavedGame, games, onSetFinished, wishlist, onToggleWishlist }:{
+  game:string; onClose:()=>void; savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>;
+  completedAt:Record<number,string>; onComplete:(id:number)=>void; achievementsAt:Record<string,string>;
+  completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+  savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
+  onSetFinished:(g:string,v:boolean)=>void; wishlist:string[]; onToggleWishlist:(g:string)=>void;
+}){
+  const meta = GAMES[game];
+  const p = gameProgress(game, completedIds);
+  const [gtab, setGtab] = useState<GameTab>("overview");
+  const savedGame = savedGames.includes(game);
+  const finished = !!games[game]?.finishedAt;
+  const wished = wishlist.includes(game);
+  const tabs:{id:GameTab;label:React.ReactNode}[] = [
+    { id:"overview", label:"Overview" },
+    { id:"chapters", label:chapterTerm(game,true) },
+    { id:"achievements", label:<>Achievements <span className="text-muted-foreground">{p.earned}/{p.achs.length}</span></> },
+    { id:"quests", label:<>Quests <span className="text-muted-foreground">{p.total}</span></> },
+  ];
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 flex flex-col gap-5">
+      {/* Cover header */}
+      <div className="relative rounded-2xl overflow-hidden border border-border" style={{ minHeight:150 }}>
+        {meta?.cover && <img src={meta.cover} alt="" onError={retryCover} className="absolute inset-0 w-full h-full object-cover object-center opacity-40"/>}
+        <div className="absolute inset-0" style={{ background:"linear-gradient(to top,var(--card) 10%,rgba(11,12,16,.4))" }}/>
+        <div className="relative p-4 sm:p-5 flex flex-col justify-between h-full gap-4" style={{ minHeight:150 }}>
+          <button onClick={onClose} className="self-start inline-flex items-center gap-1.5 text-xs text-foreground/90 bg-black/40 backdrop-blur rounded-lg px-2.5 py-1.5 hover:bg-black/60 transition-colors">
+            <ArrowLeft size={13}/> Library
+          </button>
+          <div>
+            <div className="text-[11px] font-bold uppercase tracking-widest mb-1" style={{ color:meta?.accent ?? "#c5933a" }}>{meta?.abbr}</div>
+            <h1 className="text-2xl sm:text-3xl font-bold text-text-hi" style={{ fontFamily:"'Spectral',serif" }}>{game}</h1>
+            <div className="flex items-center gap-3 mt-2 text-[11px] text-muted-foreground">
+              <span>{p.total} quests</span><span>·</span>
+              <span style={{ color:"#6bbf8a" }}>{p.pct}% complete</span><span>·</span>
+              <span style={{ color:"#c5933a" }}>{p.earned}/{p.achs.length} achievements</span>
+            </div>
+            {/* F6 finished ribbon / F9 save / F10 wishlist */}
+            <div className="flex items-center gap-2 mt-3 flex-wrap">
+              {finished && <span className="text-[11px] font-bold px-2 py-1 rounded" style={{ background:"#6bbf8a", color:"#0c1710" }}>✓ FINISHED</span>}
+              <button onClick={()=>onSetFinished(game,!finished)} className="inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors" style={finished?{borderColor:"#6bbf8a4d",color:"#6bbf8a"}:{background:"#6bbf8a",color:"#0c1710",borderColor:"transparent"}}>
+                <Trophy size={12}/> {finished?"Finished":"Mark finished"}
+              </button>
+              <button onClick={()=>onToggleSavedGame(game)} className={`inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors ${savedGame?"text-primary border-primary/40 bg-primary/10":"border-border text-muted-foreground hover:text-foreground"}`}>
+                {savedGame?<BookmarkCheck size={12}/>:<Bookmark size={12}/>} {savedGame?"Saved":"Save game"}
+              </button>
+              <button onClick={()=>onToggleWishlist(game)} className={`inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors ${wished?"text-primary border-primary/40 bg-primary/10":"border-border text-muted-foreground hover:text-foreground"}`}>
+                <Star size={12}/> {wished?"On wishlist":"Plan to play"}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Tab bar */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] border-b border-border">
+        {tabs.map(t=>(
+          <button key={t.id} onClick={()=>setGtab(t.id)} className={`shrink-0 px-3.5 py-2 text-sm font-medium rounded-t-lg border-b-2 -mb-px transition-colors ${gtab===t.id?"border-primary text-primary":"border-transparent text-muted-foreground hover:text-foreground"}`} style={gtab===t.id?{fontFamily:"'Spectral',serif"}:undefined}>
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {gtab==="overview" && <GameOverview game={game} completedIds={completedIds} completedAt={completedAt} achievementsAt={achievementsAt}/>}
+      {gtab==="chapters" && <ChaptersPanel game={game} completedIds={completedIds}/>}
+      {gtab==="achievements" && <AchievementsPanel game={game} completedIds={completedIds} achievementsAt={achievementsAt}/>}
+      {gtab==="quests" && (
+        <div className="flex flex-col gap-2">
+          {p.quests.map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -1090,21 +1626,28 @@ export default function App() {
   const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
   const [missableOnly,   setMissableOnly]   = useState(()=>urlParams.get("missable")==="1");
   const [catFilter,   setCatFilter]   = useState<string>(()=>urlParams.get("cat") ?? "All");
+  // Chapter/act filter — options come from the selected game's own chapters.
+  const [chapterFilter,setChapterFilter]= useState<string>(()=>urlParams.get("chapter") ?? "All");
   const [regionFilter,setRegionFilter]= useState<string>(()=>urlParams.get("region") ?? "All");
   const [sort,        setSort]        = useState<SortOption>("default");
   const [search,      setSearch]      = useState(()=>urlParams.get("q") ?? "");
-  const [savedIds,    setSavedIds]    = useState<Set<number>>(()=>{
-    try { return new Set(JSON.parse(localStorage.getItem("savedQuests") ?? "[]")); }
-    catch { return new Set(); }
-  });
-  const [completedIds,setCompletedIds]= useState<Set<number>>(()=>{
-    try { return new Set(JSON.parse(localStorage.getItem("completedQuests") ?? "[]")); }
-    catch { return new Set(); }
-  });
-  const [completedSteps,setCompletedSteps]= useState<Record<number,number[]>>(()=>{
-    try { return JSON.parse(localStorage.getItem("completedSteps") ?? "{}"); }
-    catch { return {}; }
-  });
+  // All progress (saved/completed/steps/games/points/streak) lives in one
+  // persisted store — see userState.ts. Derived Sets keep the child components'
+  // existing prop shapes unchanged.
+  const {
+    savedIds, completedIds, completedAt, completedSteps, achievementsAt,
+    savedGames, games, wishlist, wishlistDates, points, streak, welcomeDismissed,
+    toggleSave, toggleComplete, toggleStep, resetProgress,
+    toggleSavedGame, setGameFinished, toggleWishlist, moveWishlist, setWishlistDate, dismissWelcome,
+  } = useUserState();
+  // F7 — achievement totals for the stats strip.
+  const totalAchievements = useMemo(()=>Object.values(ACHIEVEMENTS).reduce((s,l)=>s+l.length,0),[]);
+  const achievementsLabel = `${Object.keys(achievementsAt).length}/${totalAchievements}`;
+  // A selected game opens a full game page (overview/chapters/achievements/quests).
+  const [openGame, setOpenGame] = useState<string|null>(null);
+  // F8 — a chat answer can deep-link to a quest, opening its detail dialog here.
+  const [openQuestId, setOpenQuestId] = useState<number|null>(null);
+  const openQuest = openQuestId!=null ? QUESTS.find(q=>q.id===openQuestId) ?? null : null;
   // Reading setting: spoilers are blurred by default until revealed per-quest.
   const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
     try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
@@ -1118,9 +1661,6 @@ export default function App() {
   // Appearance setting: dark by default; light applies the `light` palette class.
   const [theme,setTheme]= useState<"dark"|"light">(()=>(localStorage.getItem("theme") as "dark"|"light") ?? "dark");
 
-  useEffect(()=>{ localStorage.setItem("savedQuests", JSON.stringify([...savedIds])); },[savedIds]);
-  useEffect(()=>{ localStorage.setItem("completedQuests", JSON.stringify([...completedIds])); },[completedIds]);
-  useEffect(()=>{ localStorage.setItem("completedSteps", JSON.stringify(completedSteps)); },[completedSteps]);
   useEffect(()=>{ localStorage.setItem("hideSpoilers", JSON.stringify(hideSpoilers)); },[hideSpoilers]);
   useEffect(()=>{ localStorage.setItem("autoplayVideo", JSON.stringify(autoplayVideo)); },[autoplayVideo]);
   useEffect(()=>{ localStorage.setItem("defaultDifficulty", defaultDifficulty); },[defaultDifficulty]);
@@ -1140,20 +1680,12 @@ export default function App() {
     if(notStartedOnly) params.set("notStarted","1");
     if(missableOnly) params.set("missable","1");
     if(catFilter!=="All") params.set("cat",catFilter);
+    if(chapterFilter!=="All") params.set("chapter",chapterFilter);
     if(regionFilter!=="All") params.set("region",regionFilter);
     if(search) params.set("q",search);
     const qs = params.toString();
     window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
-  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
-
-  const toggleSave=(id:number)=>setSavedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
-  const toggleComplete=(id:number)=>setCompletedIds(prev=>{ const n=new Set(prev); n.has(id)?n.delete(id):n.add(id); return n; });
-  const toggleStep=(questId:number,stepIdx:number)=>setCompletedSteps(prev=>{
-    const cur = prev[questId] ?? [];
-    const next = cur.includes(stepIdx) ? cur.filter(i=>i!==stepIdx) : [...cur, stepIdx];
-    return { ...prev, [questId]: next };
-  });
-  const resetAllProgress=()=>{ setCompletedIds(new Set()); setCompletedSteps({}); };
+  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
 
   // Custom PWA install prompt: capture the browser's default prompt so it can
   // be triggered from a Settings button instead (the default one is easy to
@@ -1194,7 +1726,7 @@ export default function App() {
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
-  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
+  useEffect(()=>{ window.scrollTo(0,0); setOpenGame(null); },[tab]);
 
   // Only promoted tabs are reachable in both prod and staging (staging mirrors
   // prod); a shortcut to an un-promoted tab is a no-op.
@@ -1211,6 +1743,7 @@ export default function App() {
       setVideoFilter(f.video ?? "All");
       setNotStartedOnly(f.notStarted ?? false);
       setMissableOnly(f.missable ?? false);
+      setChapterFilter(f.chapter ?? "All");
       setSearch("");
     }
   };
@@ -1225,6 +1758,7 @@ export default function App() {
     if(notStartedOnly&&completedIds.has(q.id))return false;
     if(missableOnly&&!q.missable)return false;
     if(catFilter!=="All"&&q.category!==catFilter)return false;
+    if(chapterFilter!=="All"&&q.chapterId!==chapterFilter)return false;
     if(regionFilter!=="All"&&q.region!==regionFilter)return false;
     if(search){const s=search.toLowerCase();if(!q.title.toLowerCase().includes(s)&&!q.game.toLowerCase().includes(s)&&!q.summary.toLowerCase().includes(s))return false;}
     return true;
@@ -1233,20 +1767,29 @@ export default function App() {
     if(sort==="length")return LEN_RANK[a.length]-LEN_RANK[b.length];
     if(sort==="game")return a.game.localeCompare(b.game);
     if(sort==="title")return a.title.localeCompare(b.title);
+    if(sort==="type")return TYPE_RANK[a.type]-TYPE_RANK[b.type];
+    // By chapter/act — follow each game's own chapter order, then group name.
+    if(sort==="chapter"){
+      if(a.game!==b.game)return a.game.localeCompare(b.game);
+      return chapterIndex(a)-chapterIndex(b);
+    }
     // default: group by game when viewing all so the list has clear structure
     if(selectedGame==="All")return a.game.localeCompare(b.game);
     return 0;
-  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,completedIds,search,sort]);
+  }),[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,completedIds,search,sort]);
 
   // Category/Region sub-filter options come from the selected game's own data
   // (config lives in the source quest file; here we derive from loaded quests so
   // any game with multiple categories/regions gets the filters for free).
   const subOptions = useMemo(()=>{
-    if(selectedGame==="All") return { cats:[] as string[], regions:[] as string[] };
+    if(selectedGame==="All") return { cats:[] as string[], regions:[] as string[], chapters:[] as {id:string;name:string}[] };
     const g = QUESTS.filter(q=>q.game===selectedGame);
     const cats = [...new Set(g.map(q=>q.category).filter(Boolean) as string[])];
     const regions = [...new Set(g.map(q=>q.region).filter(Boolean) as string[])].sort();
-    return { cats, regions };
+    // Chapters keep the game's own order; only offer ones that have quests here.
+    const used = new Set(g.map(q=>q.chapterId));
+    const chapters = (GAMES[selectedGame]?.chapters ?? []).filter(c=>used.has(c.id)).map(c=>({id:c.id,name:c.name}));
+    return { cats, regions, chapters };
   },[selectedGame]);
 
   // Only a bounded batch of quest cards is mounted at once — 949 cards in the
@@ -1254,7 +1797,7 @@ export default function App() {
   // batch whenever the result set changes so "Load more" starts fresh.
   const BATCH = 36;
   const [visibleCount, setVisibleCount] = useState(BATCH);
-  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,regionFilter,search]);
+  useEffect(()=>{ setVisibleCount(BATCH); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
 
   // Category/Region are game-specific; clear them when the game changes so a
   // stale value from another game never zeroes out the results. Skip the first
@@ -1262,12 +1805,15 @@ export default function App() {
   const gameChangeMounted = useRef(false);
   useEffect(()=>{
     if(!gameChangeMounted.current){ gameChangeMounted.current = true; return; }
-    setCatFilter("All"); setRegionFilter("All");
+    setCatFilter("All"); setChapterFilter("All"); setRegionFilter("All");
   },[selectedGame]);
 
-  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
+  const activeFilters=[selectedGame!=="All",typeFilter!=="All",diffFilter!=="All",lenFilter!=="All",videoFilter!=="All",notStartedOnly,missableOnly,catFilter!=="All",chapterFilter!=="All",regionFilter!=="All",!!search].filter(Boolean).length;
 
   const selectedMeta=selectedGame!=="All"?GAMES[selectedGame]:null;
+  // The field this game's chapters came from — its generic sub-filter is a
+  // duplicate of the chapter filter and is hidden below.
+  const chapterSource = selectedMeta?.chapterSource ?? "";
 
   const pills=<T extends string>(opts:T[],cur:T,set:(v:T)=>void)=>opts.map(o=>(
     <button key={o} onClick={()=>set(o)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${cur===o?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{o}</button>
@@ -1278,7 +1824,7 @@ export default function App() {
   const resetFilters = ()=>{
     setSelectedGame("All"); setTypeFilter("All"); setDiffFilter("All"); setLenFilter("All");
     setVideoFilter("All"); setNotStartedOnly(false); setMissableOnly(false);
-    setCatFilter("All"); setRegionFilter("All"); setSearch("");
+    setCatFilter("All"); setChapterFilter("All"); setRegionFilter("All"); setSearch("");
   };
 
   const filterChips = [
@@ -1290,6 +1836,7 @@ export default function App() {
     notStartedOnly && { label:"Not started", tone:"purple", onRemove:()=>setNotStartedOnly(false) },
     missableOnly && { label:"Missable", tone:"purple", onRemove:()=>setMissableOnly(false) },
     catFilter!=="All" && { label:`Category: ${catFilter}`, tone:"gold", onRemove:()=>setCatFilter("All") },
+    chapterFilter!=="All" && { label:`${chapterTerm(selectedGame)}: ${subOptions.chapters.find(c=>c.id===chapterFilter)?.name ?? chapterFilter}`, tone:"gold", onRemove:()=>setChapterFilter("All") },
     regionFilter!=="All" && { label:`Region: ${regionFilter}`, tone:"gold", onRemove:()=>setRegionFilter("All") },
     !!search && { label:`"${search}"`, tone:"gold", onRemove:()=>setSearch("") },
   ].filter(Boolean) as { label:string; tone:"gold"|"amber"|"purple"; onRemove:()=>void }[];
@@ -1364,6 +1911,11 @@ export default function App() {
         </div>
       </header>
 
+      {/* ── Game page (overlays the tab content) ── */}
+      {openGame ? (
+        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onSetFinished={setGameFinished} wishlist={wishlist} onToggleWishlist={toggleWishlist}/>
+      ) : (
+      <>
       {/* ── Compact banner for non-home tabs ── */}
       {tab!=="home" && (
         <div className="border-b border-border bg-secondary/20">
@@ -1376,6 +1928,11 @@ export default function App() {
                  : tab==="settings" ? "Settings"
                  : "Saved Quests"}
               </h1>
+              {tab==="browse" && selectedGame!=="All" && (
+                <button onClick={()=>setOpenGame(selectedGame)} className="mt-1.5 inline-flex items-center gap-1.5 text-[11px] font-semibold text-primary hover:underline">
+                  <Trophy size={12}/> Open game page — chapters &amp; achievements <ArrowRight size={11}/>
+                </button>
+              )}
               <p className="text-xs text-muted-foreground mt-0.5">
                 {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
@@ -1408,7 +1965,7 @@ export default function App() {
       )}
 
       {/* ── Home tab (full page, no extra padding wrapper) ── */}
-      {tab==="home" && <HomeTab onGoTo={goTo} savedIds={savedIds} onSave={toggleSave}/>}
+      {tab==="home" && <HomeTab onGoTo={goTo} savedIds={savedIds} onSave={toggleSave} points={points} questsDone={completedIds.size} streak={streak} achievementsLabel={achievementsLabel}/>}
 
       {/* ── Other tabs ── */}
       {tab!=="home" && (
@@ -1461,10 +2018,23 @@ export default function App() {
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
-                    {subOptions.cats.length>1 && (
+                    {/* Category/Region are hidden when the chapter filter above
+                        was derived from that same field — otherwise the panel
+                        shows the same options twice (e.g. GoW Realms vs Region). */}
+                    {subOptions.cats.length>1 && chapterSource!=="category" && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Category</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.cats],catFilter,setCatFilter)}</div></div>
                     )}
-                    {subOptions.regions.length>1 && (
+                    {subOptions.chapters.length>1 && (
+                      <div className="flex flex-col gap-1">
+                        <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">{chapterTerm(selectedGame,true)}</span>
+                        <div className="flex gap-1.5 flex-wrap">
+                          {[{id:"All",name:"All"},...subOptions.chapters].map(c=>(
+                            <button key={c.id} onClick={()=>setChapterFilter(c.id)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${chapterFilter===c.id?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{c.name}</button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {subOptions.regions.length>1 && chapterSource!=="region" && (
                       <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Region</span><div className="flex gap-1.5 flex-wrap">{pills(["All",...subOptions.regions],regionFilter,setRegionFilter)}</div></div>
                     )}
                     <div className="flex flex-col gap-1">
@@ -1477,6 +2047,8 @@ export default function App() {
                   </FiltersPopover>
                   <select value={sort} onChange={e=>setSort(e.target.value as SortOption)} aria-label="Sort quests" className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
                     <option value="default">Sort: Default</option>
+                    <option value="type">Sort: Type</option>
+                    <option value="chapter">Sort: By {selectedGame!=="All"?chapterTerm(selectedGame):"Chapter"}</option>
                     <option value="difficulty">Sort: Difficulty</option>
                     <option value="length">Sort: Length</option>
                     <option value="game">Sort: By Game</option>
@@ -1496,16 +2068,18 @@ export default function App() {
                 )}
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match — reset filters.</p><button onClick={resetFilters} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} completedAt={completedAt} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <SavedTab savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
-            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetAllProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
+            {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
+            {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo} points={points} streak={streak} achievementsLabel={achievementsLabel}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
+      )}
+      </>
       )}
 
       {/* ── Footer ── */}
@@ -1518,8 +2092,18 @@ export default function App() {
         </div>
       </footer>
 
-      <ChatWidget/>
+      <ChatWidget onOpenQuest={setOpenQuestId}/>
       {TABS.length>0 && <MobileTabBar tabs={TABS} tab={tab} setTab={setTab}/>}
+
+      {/* F8 — quest deep-link dialog opened from a chat answer */}
+      <Dialog open={!!openQuest} onOpenChange={o=>{ if(!o) setOpenQuestId(null); }}>
+        <DialogContent className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg">
+          {openQuest && <QuestDetail quest={openQuest} onClose={()=>setOpenQuestId(null)} onSave={toggleSave} saved={savedIds.has(openQuest.id)} onComplete={toggleComplete} completed={completedIds.has(openQuest.id)} completedAt={completedAt[openQuest.id]} completedSteps={completedSteps[openQuest.id]} onToggleStep={i=>toggleStep(openQuest.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+        </DialogContent>
+      </Dialog>
+
+      {/* F11 — first-visit PWA / notification welcome sheet */}
+      {!welcomeDismissed && <WelcomeSheet onDismiss={dismissWelcome} canInstall={!!installPrompt} onInstall={promptInstall}/>}
     </div>
   );
 }

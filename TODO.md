@@ -2,6 +2,11 @@
 
 Work parked for the repo owner to do (things the agent environment can't).
 
+## ~~Chapter/act naming per game~~ — DONE 2026-08-06
+Each game now names its divisions with its own term (Realms, Districts, Planets,
+Archstones, Arcs, Questlines, Acts, Chapters, Regions), with a matching Library
+filter and sort. See PROGRESS.md §0 "Phase 1b".
+
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
 build** only, because this environment's network policy blocks the live

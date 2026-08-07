@@ -1,8 +1,248 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-07-03
-**Branch:** `claude/quest-audit-222ne7`
+**Last updated:** 2026-08-06
+**Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
+**Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## 0. Redesign — "design-based-on-user-feedback" (2026-08-06)
+
+Feature-branch work implementing the Claude Design handoff (12 features, `HANDOFF-*.md`).
+Branch: `claude/design-based-on-user-feedback-stln63`. Shipped in phases; everything below is
+merged to `staging` and deployed to https://kbarbu12.github.io/newapp/staging/.
+
+### What shipped 2026-08-06 (this session)
+
+**All 12 handoff features (F1–F12) are implemented and live on staging.** Delivered in five
+phases (details per phase below):
+
+- **F1** quest-type badges + native per-game chapter tags · **F2** synthesized achievements
+  (323 across 24 games) · **F3** per-chapter progress · **F4** sort by type / chapter ·
+  **F5** saved-quest filters · **F6** mark-game-finished · **F7** gamification stats strip +
+  points chips · **F8** chat deep-links to quests · **F9** save games · **F10** wishlist ·
+  **F11** first-visit PWA welcome · **F12** completion timestamps + activity timeline.
+- **New surfaces:** a per-game **Game page** (Overview · Chapters · Achievements · Quests) and a
+  4-tab **Library** (Saved · Playing · Finished · Wishlist).
+- **Chapters overhaul:** every game's quests are grouped by its own authored `subFilterConfig`
+  (or `location`-derived areas), labelled with the game's native term (Realms, Districts,
+  Planets, Archstones, Acts, Chapters…), with a matching filter — no invented "Part N".
+- **Data/state foundation:** 3-value quest `type`, per-quest `points`, and a single `rqg:v2`
+  user-state store (`useUserState`) with legacy migration.
+- **Infra fix:** the Pages deploy workflow was hardened (30-min deploy timeout, longer retry
+  wait) after a GitHub Pages queue incident kept cancelling publishes; builds themselves were
+  always green.
+
+Commits: revert scaffold → Phase 1 (`77897e0`…) → Phase 1b chapters/terms/filter → Phase 2
+`aa28938` → Phase 3 `533fd62` → Phase 4 `7a21260` → Phase 5 `2a24547`.
+
+**Revert safety:** `REVERT.md` documents a git-only revert to the pre-redesign design, pinned
+to commit `21aee03` (also `origin/main`).
+
+### Phase 1 — data model, user state, F1, F12 (done, on staging)
+
+- **Data model** (`redesign/scripts/gen-data.mjs`):
+  - Quest `type` widened to `main | side | optional` (optional derived from category).
+  - Per-quest `points` computed (F7 formula: base × difficulty + missable bonus, round to 5).
+  - Per-game `chapters` + a `chapterId` on every quest (see Phase 1b for how they're derived).
+- **Unified user state** (`redesign/src/app/userState.ts`): one `rqg:v2` localStorage blob +
+  `useUserState()` hook, migrating the pre-v2 `savedQuests`/`completedQuests`/`completedSteps`
+  keys so existing visitors keep their progress. Exposes `questPoints` / `totalPoints` /
+  `currentStreak` (wired into UI in later phases).
+- **F1 — quest type labels:** `QuestTypeBadge` (gold `◆ Main` / teal `❖ Side` / slate
+  `○ Optional`) on every quest surface — Library cards, Saved, quest detail, and Home's Quest
+  of the Week (which had a hardcoded "Side" pill). Renders on desktop **and** mobile.
+- **F12 — completion timestamps:** completions record an ISO date; "Completed {date}" shows on
+  cards and in the detail.
+
+### Phase 1b — real chapters, native per-game terms, chapter filter (done, on staging)
+
+**Every game has real divisions — no invented "Part N" and no "Other Quests" leftovers.**
+Chapters come from the live data's own `subFilterConfig` (field + native label + ordered
+options), which already encodes the axis each game's players think in and what it's called.
+That fixed Black Myth (it has a real `chapter` field the old heuristic never looked at) and
+upgraded BG3 from generic categories to its actual Acts.
+
+Games whose config axis was missing or only a generic "Category" derive divisions from each
+quest's real `location` text. The chapter cap was raised to 32 so games with genuinely many
+divisions use their real axis instead of being rejected as "too many".
+
+| Game | Divisions |
+|------|-----------|
+| Black Myth: Wukong | 6 **Chapters** (Black Wind Mountain … Mount Huaguo) |
+| Baldur's Gate 3 | 3 **Acts** (Wilderness & Underdark, Shadow-Cursed Lands, Baldur's Gate) |
+| God of War Ragnarök | 8 **Realms** · Cyberpunk 9 **Districts** · Jedi ×2 **Planets** |
+| Demon's Souls | 6 **Archstones** · FF7 Remake 7 **Areas** |
+| Sekiro | 9 **Areas** (location-derived: Ashina Outskirts, Hirata Estate, Fountainhead…) |
+| Pillars II: Deadfire | 11 **Regions** (location-derived: Neketaka, Ukaizo, Magran's Teeth…) |
+| Zelda: TotK | 12 **Regions** (location-derived: Great Sky Island, The Depths, Hebra…) |
+| AC Valhalla | 22 **Arcs** (Ledecestrescire, East Anglia, Asgard, Vinland…) |
+| AC Odyssey | 30 **Regions** · Skyrim & Persona 5 **Questlines** |
+
+- `GameMeta` carries `chapterTerm` / `chapterTermPlural` / `chapterSource`.
+- **Quest card tag** shows the game's own word: `⌖ Archstone: Latria`, `⌖ Realm: Vanaheim`.
+  Groups whose name already starts with the term render bare (`⌖ Chapter 1`), never
+  "Chapter: Chapter 1". Shown on desktop and mobile.
+- **Quest detail** gains a chapter stat labeled with the term (e.g. `REALM`).
+- **Filter:** a chapter filter in the Library panel titled with the plural term (REALMS /
+  DISTRICTS / PLANETS / ARCHSTONES…), wired into the URL (`?chapter=`), removable chips
+  ("Realm: Vanaheim"), the active-filter count, reset, and clear-on-game-change.
+- **Sort:** `Sort: Type` (F4 Main→Side→Optional) and `Sort: By {term}`, following each game's
+  own chapter order.
+- **Duplicate sub-filters removed:** the chapter axis is usually the `region` (16 games) or
+  `category` (Skyrim, Persona 5) field, so the panel was showing the same options twice — e.g.
+  God of War listed both REALMS and REGION. `chapterSource` now records the origin field and
+  the redundant generic filter is hidden. Games with a genuinely different second axis keep
+  both (Ghost of Tsushima: Category + Regions; Jedi: Category + Planets; BG3: Category + Acts).
+
+**QA:** `npm run build:staging` passes; headless Chromium swept **all 24 games** — correct
+per-game filter headers and tags, **0 duplicate filter groups, 0 JS page errors**. (The only
+console noise is the hot-linked github.io cover images, which this environment's network
+policy blocks.)
+
+**Deploy note:** one `staging` run failed at the final `actions/deploy-pages` step with
+"Deployment cancelled" — a transient GitHub Pages flake, not a code fault (audit, `npm ci`,
+both builds and the artifact upload had all passed, and no concurrent run was superseding it).
+Re-running the workflow went green.
+
+### Open item
+
+- Zelda: TotK region assignments are keyword-derived from location names (e.g. "North Lomei
+  Labyrinth" → Hebra, "South Lomei Labyrinth" → Gerudo). Worth a spot-check by someone who
+  knows the map; mis-filed quests are a one-line mapping fix in `LOCATION_AXIS`.
+
+### Redesign roadmap (remaining phases)
+
+- [ ] **Phase 2** — Game page (Overview · Chapters · Achievements · Quests tabs) + F3 chapter
+      progress + F2 achievements (achievements catalog synthesized per game).
+- [x] **Phase 3** — Library 4-tab view (Saved · Playing · Finished · Wishlist) + F5 saved-quest
+      filters + F9 saved games + F10 wishlist. *(done — the `Saved` tab is now a sub-tabbed
+      Library: Saved shows saved games (F9) + saved quests with Game/Type/Status multi-select
+      filters and a live match count (F5); Playing lists games with progress; Finished shows the
+      ✓ FINISHED ribbon + play span; Wishlist (F10) is a reorderable Plan-to-Play list with
+      optional target dates. Save-game / Mark-finished / Plan-to-play controls live on the game
+      page header — this also lands F6's finished capture early.)*
+- [x] **Phase 4** — F6 mark game finished (landed with Phase 3 on the game-page header) + F7
+      gamification. *(done — StatsStrip (Points with count-up on gain / Quests done / Day streak
+      with 🔥 when active / Achievements earned) on the Home and Progress tabs; a gold `+N pts`
+      chip on every quest card. Totals come from userState's totalPoints/currentStreak and the
+      achievement map.)*
+- [x] **Phase 5** — F8 chatbot polish + F11 PWA welcome. *(done — the Quest Assistant FAB is a
+      54px gold ✦ bubble; chat answers now render an "Open quest ↗" deep-link that opens the
+      quest's detail dialog, with the spec's user/bot bubble colours. First-visit WelcomeSheet
+      (Add to Home Screen via beforeinstallprompt + Enable reminders via Notification permission,
+      requested only on tap), gated on the persisted welcomeDismissed flag.)*
+
+---
+
+## 0b. Quest Assistant improvements — Tiers 1–4 (2026-08-06)
+
+Follow-up session hardening the **Quest Assistant** chat widget
+(`redesign/src/app/chatEngine.ts` — a client-side, no-backend keyword/intent
+engine over the quest dataset). Delivered from a deep-dive of the engine's
+real failure modes, in two staging deploys. All merged to `staging` and live at
+`/staging/`.
+
+**Tier 1 — retrieval fixes** *(commit `8bc3048`)*
+- Parse **Medium** difficulty (was High/Low only — a third of the space was
+  silently dropped).
+- **Aggregate** intent: "how hard/long is <game>?" → computed difficulty/length
+  breakdown, guarded against title collisions ("how long is the game" no longer
+  returns a quest named "The Long Game").
+- **Compare** two games ("compare Elden Ring and Sekiro") via unique title-word
+  / abbreviation matching.
+
+**Tier 2 — conversational memory** *(commit `8bc3048`)*
+- A small `ChatContext` (last quest/game) threads through `answerQuestion` and
+  `ChatWidget`, so follow-ups resolve against the current subject: "what's its
+  reward?", "is it missable?", "any tips?", "show me the walkthrough".
+- Residual-token scoring stops a real new query ("reward for Hearts of Stone")
+  being captured as a follow-up.
+
+**Tier 3 — progression + missable** *(commit `6a01503`)*
+- **Progression:** "where do I start in <game>?" surfaces the main-story
+  through-line (honest — the data has no reliable global play-order, so it does
+  not imply a strict sequence); "what's next?" walks the story **arc** in order
+  (arcs are authored in play order).
+- **Missable:** a library-/game-wide "which quests are missable in <game>?"
+  listing intent (answers honestly when nothing is flagged), and the curated
+  `missable` dataset extended **12 → 18** — well-documented Cyberpunk
+  romance/ending-gate quests (Chippin' In, Both Sides Now, Pyramid Song, Pisces,
+  Talkin' 'Bout a Revolution) + a BG3 Act 1 quest, each with its window. The set
+  is deliberately curated, not exhaustive.
+
+**Tier 4 — retrieval quality** *(commit `6a01503`)*
+- Query **stemming** ("trials"→"trial") + a **synonym** map (romance→companion/
+  relationship, boss→fight/battle, weapon→sword/blade, …) expanded for scoring
+  only, so natural-language words reach quests authored with in-game terms.
+
+**QA fix found in real testing** *(post-6a01503)*
+- Headless QA revealed that a named game's own title words ("elden", "ring")
+  inflated every quest's score and suppressed filtered listings
+  ("short Elden Ring quests" returned one quest, not a list). Fixed by stripping
+  the matched game's name-words before scoring; progression wording reworded to
+  drop a misleading "Early on" play-order implication.
+
+**QA:** each deploy built clean (`build:staging`, 2299 quests / 24 games) and
+was driven headlessly (Chromium) through the new intents — stemming, synonyms,
+progression, arc-walk (Honor Bound → A Seer's Solace → Family Matters), missable
+listing — with **zero non-network console errors**. The quest-data audit that
+gates the Pages deploy passed integrity-clean. CI green on both deploys.
+
+**Not done:** no prod promotion (`staging` only); missable data is a curated
+subset, not exhaustive.
+
+---
+
+## 0c. Quest data verification & full walkthroughs (2026-08-06)
+
+A per-game verification pass: for each game, verify **every field** (title,
+type, act/region, location, difficulty, length, reward, summary, missable) and
+rewrite/author a **complete step-by-step walkthrough for every quest**. Rules
+agreed with the owner: fix only **high-confidence** errors (flag, don't guess,
+anything uncertain — no live-wiki access in this environment); rewrite **all**
+walkthroughs including existing ones; verify **all** fields. **One game per PR**
+to `staging` for review; not promoted to prod.
+
+Each pass: apply via a targeted patch script (replaces only the `walkthrough`
+arrays + specific field fixes, leaving every other field, the formatting, and
+real video URLs byte-identical), then `node scripts/audit.js` (integrity gate),
+`npm run build:staging`, and a headless render of the game's quests + chat
+(zero non-network console errors).
+
+| Game | Quests | Walkthroughs authored/rewritten | High-confidence field fixes | PR |
+|---|---|---|---|---|
+| Final Fantasy VII Remake | 30 | 30 | #1032 mislabeled "The Town That Never Sleeps" → "Budding Bodyguard" (Sector 5 Church) | #46 |
+| Elden Ring | 70 | 70 (38 had no walkthrough) | 11 locations pinned (DLC bosses were all just "Land of Shadow"; Rykard, Godefroy) | #47 |
+| Baldur's Gate 3 | 112 | 112 (87 had no walkthrough) | #66 "Free the Artist" location (Zhentarim Hideout, Waukeen's Rest — not Grymforge) | #48 |
+
+**Totals:** 212 quests across 3 games. **All three PRs (#46/#47/#48) are merged
+into `staging`** (staging HEAD `196becb`); audit integrity-clean on the merged
+tree (FF7R 30/30, ER 70/70, BG3 112/112). Rewards/acts/regions were largely
+accurate and left unchanged; real videos and missable flags preserved
+throughout. **Caveat:** walkthroughs lean on game knowledge (no wiki access),
+written conservatively — a human spot-check of questline steps is advised before
+treating them as canon.
+
+**Branches (merged):** `Quest-verification` (FF7R), `Quest-verification-elden-ring`,
+`Quest-verification-bg3`.
+
+**Full-depth QA (on merged staging HEAD `196becb`):** headless drive of the
+built staging bundle — **17/17 checks passed, zero non-network console errors**.
+Covered app load + counts, all Quest Assistant intents (Tiers 1–4), verified
+walkthroughs rendering across all three games, and quest-detail fields + reward
++ walkthrough. (Live-site QA still runs against the local prod/staging build, not
+the `github.io` URL, which the network policy blocks — see `TODO.md`.)
+
+**CI note (2026-08-06):** GitHub's hosted Actions runners were badly backlogged
+this session — push-triggered and dispatched runs sat queued and several were
+auto-cancelled after ~15 min without ever getting a runner. PR #46's audit ran
+green; the merged data passes `node scripts/audit.js` locally (the identical
+check CI runs). Git pushes and PR merges all succeeded; the pending item is only
+the GitHub Pages **deploy** for `196becb`, queued behind the runner outage — it
+will publish when capacity returns. The stuck states are runner capacity, not
+code, push, or merge failures.
 
 ---
 
