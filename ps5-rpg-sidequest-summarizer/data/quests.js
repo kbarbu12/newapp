@@ -3306,22 +3306,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
   },
 {
-    id: 170,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Requests: The Killer's Profile",
-    location: "Path of Chemdah, Mementos",
-    length: "medium",
-    difficulty: "High",
-    reward: "Empress Confidant rank-up, XP",
-    summary:
-      "Expose and defeat a corrupt politician hiding in Mementos who has been covering up crimes for years. One of the most satisfying Mementos requests, tying directly into the larger theme of justice that drives the Phantom Thieves.",
-    aiTip:
-      "The Shadow is weak to Ice and Nuke. Bring Ann for Freeze technical combos and Ryuji for Nuke technical chains — the combination destroys it quickly.",
-    video: "https://www.youtube.com/watch?v=2B7jq74NS4g"
-  },
-{
     id: 173,
     type: "side",
     category: "Mythic Tales",
@@ -9539,28 +9523,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
   },
 {
-    id: 465,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Requests",
-    location: "Mementos",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Money, items, arcana affinity",
-    summary:
-      "Take the Phantom Aficionado Website's requests to change the hearts of minor villains lurking in Mementos.",
-    aiTip:
-      "Clear requests as they appear — many gate confidant progress or reward rare fusion material.",
-    walkthrough: [
-      "Open the Phantom Aficionado Website through Mishima to receive Mementos Requests.",
-      "Accept a request and locate the named target on the matching Mementos floor.",
-      "Defeat the target's Shadow to change its heart.",
-      "Report back for rewards, then repeat as new requests unlock over time."
-    ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Requests%20walkthrough"
-  },
-{
     id: 466,
     type: "side",
     category: "Activities",
@@ -14281,94 +14243,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach max rank in the endgame for its powerful battle perks."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
-  },
-{
-    id: 681,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Request: The Man of Plans and Capital",
-    location: "Mementos",
-    length: "short",
-    difficulty: "Low",
-    reward: "Money, arcana affinity",
-    summary:
-      "Change the heart of a ruthless loan shark preying on the desperate.",
-    aiTip:
-      "Send the calling card once you've cleared the target's Mementos floor.",
-    walkthrough: [
-      "Accept the Phansite request targeting the predatory loan shark.",
-      "Descend to the matching Mementos floor and locate the target Shadow.",
-      "Defeat it to change the loan shark's heart.",
-      "Report to Mishima for the reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Man%20of%20Plans%20and%20Capital%20walkthrough"
-  },
-{
-    id: 682,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Request: A Bounty Hunter Scorned",
-    location: "Mementos",
-    length: "short",
-    difficulty: "Low",
-    reward: "Rare item, affinity",
-    summary:
-      "Take down a violent bounty hunter terrorizing Tokyo's underworld.",
-    aiTip:
-      "Exploit the shadow's weakness for a quick, clean Hold Up.",
-    walkthrough: [
-      "Accept the Phansite request about the violent bounty hunter.",
-      "Travel to the flagged Mementos depth and find the target.",
-      "Beat the Shadow, exploiting its weakness for a quick down.",
-      "Return to claim the reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20A%20Bounty%20Hunter%20Scorned%20walkthrough"
-  },
-{
-    id: 683,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Request: The Lockdown Hero",
-    location: "Mementos",
-    length: "short",
-    difficulty: "Low",
-    reward: "Money, item reward",
-    summary:
-      "Deal with a self-styled vigilante whose 'justice' has curdled into cruelty.",
-    aiTip:
-      "A morally grey request — the reward and lore make it worth the trip.",
-    walkthrough: [
-      "Take the request concerning the vigilante 'Lockdown Hero'.",
-      "Reach the named Mementos floor and track down the Shadow.",
-      "Defeat it to reform the target.",
-      "Report back to Mishima for items and thanks."
-    ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Lockdown%20Hero%20walkthrough"
-  },
-{
-    id: 684,
-    type: "side",
-    category: "Mementos Requests",
-    game: "Persona 5 Royal",
-    title: "Mementos Request: The Illustrious Blackmailer",
-    location: "Mementos",
-    length: "short",
-    difficulty: "Low",
-    reward: "Rare fusion material, affinity",
-    summary:
-      "Change the heart of a serial blackmailer exploiting Shibuya's students.",
-    aiTip:
-      "Time it after the relevant confidant hint appears for the fullest story.",
-    walkthrough: [
-      "Accept the request exposing the serial blackmailer.",
-      "Find the target on the indicated Mementos level.",
-      "Change its heart in battle.",
-      "Report the success for the reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Mementos%20Request%3A%20The%20Illustrious%20Blackmailer%20walkthrough"
   },
 {
     id: 685,
@@ -48294,5 +48168,593 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
+  },
+  {
+    id: 2543,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Beware the Clingy Ex-Boyfriend",
+    location: "Path of Qimranut, Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Attachment Pearl",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Tutorial request — change heart of clingy ex. The target Shadow lurks on the Path of Qimranut in Mementos. Completing it rewards Attachment Pearl.",
+    aiTip: "Accept the first Mementos request automatically. Complete the dungeon encounter.",
+    walkthrough: [
+      "Unlock condition: 5/7.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Qimranut Floor 1.",
+      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Attachment Pearl)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Beware%20the%20Clingy%20Ex-Boyfriend%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2544,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "The Bark and Bite of a Bully",
+    location: "Path of Aiyatsbus, Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a rare item",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Help a bullying victim seek justice. The target Shadow lurks on the Path of Aiyatsbus in Mementos.",
+    aiTip: "Navigate Aiyatsbus and defeat the bully shadow.",
+    walkthrough: [
+      "Unlock condition: 5/9.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Aiyatsbus Floor 2.",
+      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Bark%20and%20Bite%20of%20a%20Bully%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2545,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "An Elderly's Meaning of Life",
+    location: "Path of Aiyatsbus, Mementos",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Nuisance Belt",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Restore purpose to an elderly person's life. The target Shadow lurks on the Path of Aiyatsbus in Mementos. Completing it rewards Nuisance Belt.",
+    aiTip: "ID target in Kichijoji at night, then infiltrate Mementos.",
+    walkthrough: [
+      "Unlock condition: 6/5.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Aiyatsbus Floor 3.",
+      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Nuisance Belt)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Elderly's%20Meaning%20of%20Life%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2546,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "If Cats Disappeared From the City",
+    location: "Path of Aiyatsbus, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Cat Brooch",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Rescue cats from a cruel shadow. The target Shadow lurks on the Path of Aiyatsbus in Mementos. Completing it rewards Cat Brooch.",
+    aiTip: "ID target in Yongen-Jaya during daytime.",
+    walkthrough: [
+      "Unlock condition: After Madarame Palace.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Aiyatsbus Floor 6.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Cat Brooch)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20If%20Cats%20Disappeared%20From%20the%20City%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2547,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Sadism Is Just a Sign of Love",
+    location: "Path of Aiyatsbus, Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Whip Sword",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop an abusive relationship. The target Shadow lurks on the Path of Aiyatsbus in Mementos. Completing it rewards Whip Sword.",
+    aiTip: "Accept via Mishima's text. Defeat shadow in Mementos.",
+    walkthrough: [
+      "Unlock condition: 6/6.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Aiyatsbus Floor 7.",
+      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Whip Sword)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Sadism%20Is%20Just%20a%20Sign%20of%20Love%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2548,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Part-Time Job, Full-Time Hell",
+    location: "Path of Chemdah, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Chinese Sweets",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Help a worker escape toxic job. The target Shadow lurks on the Path of Chemdah in Mementos. Completing it rewards Chinese Sweets.",
+    aiTip: "Accept via Mishima. Complete dungeon encounter.",
+    walkthrough: [
+      "Unlock condition: Rank 4 Moon.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Chemdah Floor 1.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Chinese Sweets)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Part-Time%20Job%2C%20Full-Time%20Hell%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2549,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Bad Medicine",
+    location: "Path of Chemdah, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Mediarama",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Investigate a doctor's dark side. The target Shadow lurks on the Path of Chemdah in Mementos. Completing it rewards Mediarama.",
+    aiTip: "Unlock via Takemi confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Death (Takemi).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Chemdah Floor 2.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Mediarama)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Bad%20Medicine%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2550,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Ending the Boyfriend's Abuse",
+    location: "Path of Chemdah, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Sleep Stick",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Save someone from abusive relationship. The target Shadow lurks on the Path of Chemdah in Mementos. Completing it rewards Sleep Stick.",
+    aiTip: "Visit Fortune teller Chihaya 3 times, then accept.",
+    walkthrough: [
+      "Unlock condition: Visit Chihaya 3x.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Chemdah Floor 3.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Sleep Stick)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Ending%20the%20Boyfriend's%20Abuse%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2551,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "The Lovesick Cyberstalking Girl",
+    location: "Path of Chemdah, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Sticky Hairball",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop online harassment and obsession. The target Shadow lurks on the Path of Chemdah in Mementos. Completing it rewards Sticky Hairball.",
+    aiTip: "Accept via Mishima's text on July 10th.",
+    walkthrough: [
+      "Unlock condition: 7/10.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Chemdah Floor 8.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Sticky Hairball)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Lovesick%20Cyberstalking%20Girl%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2552,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Calling for Justice for Cats",
+    location: "Path of Kaitul, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Blood Scimitar",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Save animals from cruelty. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Blood Scimitar.",
+    aiTip: "ID during 3rd shift at Triple Seven convenience store.",
+    walkthrough: [
+      "Unlock condition: 3 days after Futaba Palace.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 1.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Blood Scimitar)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Calling%20for%20Justice%20for%20Cats%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2553,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Debunking the Psychic!",
+    location: "Path of Kaitul, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prophet's Hand",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Expose a fake psychic. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Prophet's Hand.",
+    aiTip: "Unlock via Chihaya confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Fortune (Chihaya).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 3.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Prophet's Hand)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Debunking%20the%20Psychic!%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2554,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Shady Deal in the Shadows",
+    location: "Path of Kaitul, Mementos",
+    length: "short",
+    difficulty: "Low",
+    reward: "Weird Wrap",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Help a gun shop owner. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Weird Wrap.",
+    aiTip: "Unlock via Iwai confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Hanged Man (Iwai).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 4.",
+      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Weird Wrap)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shady%20Deal%20in%20the%20Shadows%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2555,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Who's Been Assaulting People?",
+    location: "Path of Kaitul, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Charge",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop a serial assaulter. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Charge.",
+    aiTip: "ID during 3rd shift at Rafflesia flower shop.",
+    walkthrough: [
+      "Unlock condition: 2 days after Futaba Palace.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 5.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Charge)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Been%20Assaulting%20People%3F%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2556,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "We Aren't Just Your Slaves",
+    location: "Path of Kaitul, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Theme Park Escort",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Free workers from exploitation. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Theme Park Escort.",
+    aiTip: "ID during 2nd shift at Crossroads bar.",
+    walkthrough: [
+      "Unlock condition: 1 day after Futaba Palace.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 8.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Theme Park Escort)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20We%20Aren't%20Just%20Your%20Slaves%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2557,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Fighting for Truth in Journalism",
+    location: "Path of Kaitul, Mementos",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Invigorate 3",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Help a journalist expose corruption. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Invigorate 3.",
+    aiTip: "Unlock via Ohya confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Devil (Ohya).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 9.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Invigorate 3)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fighting%20for%20Truth%20in%20Journalism%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2558,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Who's Muscling in Yongen-Jaya?",
+    location: "Path of Kaitul, Mementos",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Shitamachi Reborn",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop yakuza from taking over the neighborhood. The target Shadow lurks on the Path of Kaitul in Mementos. Completing it rewards Shitamachi Reborn.",
+    aiTip: "Accept via Mishima on August 29th.",
+    walkthrough: [
+      "Unlock condition: 8/29.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Kaitul Floor 10.",
+      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Shitamachi Reborn)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Muscling%20in%20Yongen-Jaya%3F%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2559,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Man of Many Faces and Debts",
+    location: "Path of Akzeriyyuth, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Thermopylae",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop a con artist with multiple identities. The target Shadow lurks on the Path of Akzeriyyuth in Mementos. Completing it rewards Thermopylae.",
+    aiTip: "Unlock via Mishima confidant rank 8.",
+    walkthrough: [
+      "Unlock condition: Rank 8 Moon (Mishima).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Akzeriyyuth Floor 3.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Thermopylae)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Man%20of%20Many%20Faces%20and%20Debts%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2560,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Upstaging the Stage Mother",
+    location: "Path of Akzeriyyuth, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bead Chain",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop an abusive stage mother. The target Shadow lurks on the Path of Akzeriyyuth in Mementos. Completing it rewards Bead Chain.",
+    aiTip: "Unlock via Hifumi confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Star (Hifumi).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Akzeriyyuth Floor 6.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Bead Chain)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Upstaging%20the%20Stage%20Mother%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2561,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "The Money-Grubbing Uncle",
+    location: "Path of Adyeshach, Mementos",
+    length: "short",
+    difficulty: "High",
+    reward: "Venture Saber",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop financial abuse in a family. The target Shadow lurks on the Path of Adyeshach in Mementos. Completing it rewards Venture Saber.",
+    aiTip: "Unlock via Sojiro confidant rank 8.",
+    walkthrough: [
+      "Unlock condition: Rank 8 Hierophant (Sojiro).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Adyeshach Floor 0.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Venture Saber)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Money-Grubbing%20Uncle%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2562,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Daughter's Just a Meal Ticket",
+    location: "Path of Adyeshach, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Growth 3",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop a parent using child for profit. The target Shadow lurks on the Path of Adyeshach in Mementos. Completing it rewards Growth 3.",
+    aiTip: "Unlock via Futaba confidant rank 7.",
+    walkthrough: [
+      "Unlock condition: Rank 7 Hermit (Futaba).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Adyeshach Floor 3.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Growth 3)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Daughter's%20Just%20a%20Meal%20Ticket%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2563,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "A Mother's Aggression",
+    location: "Path of Adyeshach, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Soma",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop violent parental abuse. The target Shadow lurks on the Path of Adyeshach in Mementos. Completing it rewards Soma.",
+    aiTip: "Unlock via Shinya confidant rank 8.",
+    walkthrough: [
+      "Unlock condition: Rank 8 Tower (Shinya).",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Adyeshach Floor 11.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Soma)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Mother's%20Aggression%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2564,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Swindling Old Folk is Pretty Low",
+    location: "Path of Adyeshach, Mementos",
+    length: "medium",
+    difficulty: "High",
+    reward: "Haten Robe",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop elder fraud scams. The target Shadow lurks on the Path of Adyeshach in Mementos. Completing it rewards Haten Robe.",
+    aiTip: "Accept via Mishima on November 25th.",
+    walkthrough: [
+      "Unlock condition: 11/25.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Adyeshach Floor 13.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Haten Robe)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Swindling%20Old%20Folk%20is%20Pretty%20Low%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2565,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Lady-Killer's Ballad",
+    location: "Path of Sheriruth, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Agitation Crown",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop a serial womanizer. The target Shadow lurks on the Path of Sheriruth in Mementos. Completing it rewards Agitation Crown.",
+    aiTip: "Accept via Mishima on December 10th.",
+    walkthrough: [
+      "Unlock condition: 12/10.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Sheriruth Floor 8.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Agitation Crown)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Lady-Killer's%20Ballad%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2566,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "The Head Honcho in Showbiz",
+    location: "Path of Sheriruth, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Immortal Vest",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop entertainment industry exploitation. The target Shadow lurks on the Path of Sheriruth in Mementos. Completing it rewards Immortal Vest.",
+    aiTip: "Accept via Mishima after defeating Shido's shadow.",
+    walkthrough: [
+      "Unlock condition: 1 day after Shido Palace.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Sheriruth Floor 14.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Immortal Vest)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Head%20Honcho%20in%20Showbiz%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2567,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "A Small Cry for Help",
+    location: "Path of Da'at, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Spiral Hell Ring",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Help those suffering in darkness. The target Shadow lurks on the Path of Da'at in Mementos. Completing it rewards Spiral Hell Ring.",
+    aiTip: "Accept after entering third semester.",
+    walkthrough: [
+      "Unlock condition: 1/13.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Da'at Floor 3.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Spiral Hell Ring)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Small%20Cry%20for%20Help%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2568,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "O My Young Sister, I Cry for You",
+    location: "Path of Da'at, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Strength Up Ofuda (8x)",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Rescue someone's sister. The target Shadow lurks on the Path of Da'at in Mementos. Completing it rewards Strength Up Ofuda (8x).",
+    aiTip: "Accept on January 14th.",
+    walkthrough: [
+      "Unlock condition: 1/14.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Da'at Floor 7.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Strength Up Ofuda (8x))."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20O%20My%20Young%20Sister%2C%20I%20Cry%20for%20You%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2569,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "An Idol and a Unicorn",
+    location: "Path of Da'at, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "One-Shot Kill",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop idol industry abuse. The target Shadow lurks on the Path of Da'at in Mementos. Completing it rewards One-Shot Kill.",
+    aiTip: "ID by tool shop in Akihabara during daytime.",
+    walkthrough: [
+      "Unlock condition: 2 days after Maruki Palace treasure route.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Da'at Floor 13.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (One-Shot Kill)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Idol%20and%20a%20Unicorn%20Mementos%20Request%20walkthrough"
+  },
+  {
+    id: 2570,
+    type: "side",
+    category: "Mementos Requests",
+    game: "Persona 5 Royal",
+    title: "Fake-Man Show",
+    location: "Path of Da'at, Mementos",
+    length: "long",
+    difficulty: "High",
+    reward: "Eccentric Belt",
+    summary: "A Mementos Request from the Phantom Aficionado Website: Stop fake persona fraud. The target Shadow lurks on the Path of Da'at in Mementos. Completing it rewards Eccentric Belt.",
+    aiTip: "ID in Kichijoji during daytime.",
+    walkthrough: [
+      "Unlock condition: 1 day after Maruki Palace treasure route.",
+      "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
+      "Enter Mementos and descend to Da'at Floor 15.",
+      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Return to the hideout to report completion and claim your reward (Eccentric Belt)."
+    ],
+    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fake-Man%20Show%20Mementos%20Request%20walkthrough"
   }
 ];
