@@ -25,8 +25,14 @@ quest list (as done for Pillars and Persona 5 Royal).
 - ~~**Phase 3 — large**: AC Valhalla, Cyberpunk 2077, Skyrim~~ — **DONE
   2026-08-07**. Skyrim shipped a compliance fix to prod as `v2.3.1` (PR #85);
   AC Valhalla and Cyberpunk 2077 verified complete/accurate with no changes.
-- **Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
-  AC Odyssey (353).
+- ~~**Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
+  AC Odyssey (353)~~ — **DONE 2026-08-07**. Both verified complete and accurate
+  (all entries compliant, no missing fields, authentic content matching sources)
+  — no changes needed.
+
+**🎉 Game-verification roadmap complete — all 24 games verified.** Every game
+now passes the "real video or step-by-step walkthrough" rule with all core
+fields filled; audit integrity is clean across the whole dataset.
 
 ### Known data gap to fix (flagged during Phase 1 verification sweep)
 - ~~**Skyrim**: 54 entries have only a search-URL `video` and no `walkthrough`~~
