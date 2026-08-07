@@ -18,8 +18,10 @@ quest list (as done for Pillars and Persona 5 Royal).
   Black Myth: Wukong, Persona 5 Royal (+ SW Jedi: Survivor, folded in)~~ —
   **DONE 2026-08-07**, shipped to prod as `v2.2.0` (PRs #76, #77, #78; Fallen
   Order + Survivor verified complete with no changes).
-- **Phase 2 — mid-size**: Horizon Forbidden West (69), Metaphor: ReFantazio
-  (76), Ghost of Yotei (119). *(SW Jedi: Survivor already verified in Phase 1.)*
+- ~~**Phase 2 — mid-size**: Horizon Forbidden West, Metaphor: ReFantazio,
+  Ghost of Yotei~~ — **DONE 2026-08-07**, shipped to prod as `v2.3.0` (PRs #81,
+  #82; Ghost of Yotei verified complete with no changes). *(SW Jedi: Survivor
+  was already verified in Phase 1.)*
 - **Phase 3 — large**: AC Valhalla (142), Cyberpunk 2077 (148), Skyrim (148).
 - **Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
   AC Odyssey (353).
