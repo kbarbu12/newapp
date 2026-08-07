@@ -7,6 +7,28 @@ Each game now names its divisions with its own term (Realms, Districts, Planets,
 Archstones, Arcs, Questlines, Acts, Chapters, Regions), with a matching Library
 filter and sort. See PROGRESS.md §0 "Phase 1b".
 
+## Game-verification roadmap (agent-driven; owner promotes to prod)
+
+Each game gets the full treatment: verify fields → enrich thin walkthroughs →
+completeness check → QA → PR into `staging`. Owner says the word to promote to
+prod. Where authoritative wikis are egress-blocked, the owner supplies a JSON
+quest list (as done for Pillars and Persona 5 Royal).
+
+- ~~**Phase 1 — quick wins**: Pillars I, Pillars II, SW Jedi: Fallen Order,
+  Black Myth: Wukong, Persona 5 Royal (+ SW Jedi: Survivor, folded in)~~ —
+  **DONE 2026-08-07**, shipped to prod as `v2.2.0` (PRs #76, #77, #78; Fallen
+  Order + Survivor verified complete with no changes).
+- **Phase 2 — mid-size**: Horizon Forbidden West (69), Metaphor: ReFantazio
+  (76), Ghost of Yotei (119). *(SW Jedi: Survivor already verified in Phase 1.)*
+- **Phase 3 — large**: AC Valhalla (142), Cyberpunk 2077 (148), Skyrim (148).
+- **Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
+  AC Odyssey (353).
+
+### Known data gap to fix (flagged during Phase 1 verification sweep)
+- **Skyrim**: 54 entries have only a search-URL `video` and no `walkthrough`,
+  which violates the "real video **or** step-by-step walkthrough" rule. Add
+  walkthroughs (or real videos) to those entries. Fits naturally into Phase 3.
+
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
 build** only, because this environment's network policy blocks the live

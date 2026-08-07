@@ -5,6 +5,23 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-08-07
 
+- **Promote Phase 1 games to production** (PRs #76, #77, #78) — `v2.2.0`
+  minor release. Ships the Game-Verification Phase 1 batch:
+  - **Pillars of Eternity 1 & 2** (PR #76) — added 185 quests from the
+    supplied canonical lists (POE1 115 total, POE2 127 total), each with an
+    accurate summary, aiTip, step-by-step walkthrough, reward, and video;
+    switched both games' sub-filter to **Quest Type** (Main/Side/Companion/
+    Faction/Task/Bounty, plus Expansion for Deadfire) via a new `category`
+    field on every POE entry.
+  - **Persona 5 Royal** (PR #77) — completed the Mementos Requests to the
+    canonical **32**: removed 6 non-canonical/placeholder entries, kept the 4
+    canonical existing ones, and added 28 more (P5R now 66 quests).
+  - **Black Myth: Wukong** (PR #78) — added the two genuinely-missing Chapter 4
+    Purple Cloud Mountain secret bosses, **the Duskveil** (rewards the Weaver's
+    Needle) and **Daoist Mi** (rewards the Violet Hail Transformation); Wukong
+    now 39 quests.
+  - Also verified **SW Jedi: Fallen Order** and **SW Jedi: Survivor** as already
+    complete and fully compliant — no data changes needed.
 - **Promote redesign + Quest Assistant + 3 verified games to production**
   (PR #50) — `v2.0.0` major launch. Ships the full redesign (quest-type badges,
   chapters/acts, game page, 4-tab Library, gamification, chatbot deep-links,
