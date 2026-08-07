@@ -7142,10 +7142,11 @@ const quests = [
     aiTip:
       "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
     walkthrough: [
-      "Talk to the ailing man's family in White Orchard to take the quest.",
-      "Follow your Senses to gather the herbs needed for the antidote.",
-      "Return and brew or deliver the cure.",
-      "Decide whether to save him or let nature run its course."
+      "In White Orchard, speak with the dying man's household and agree to help find a cure.",
+      "Consult Tomira the herbalist about what the wound needs.",
+      "Use Witcher Senses to locate and gather the required herbs, clearing any monsters at the spot.",
+      "Bring the herbs back so the remedy can be prepared.",
+      "Decide the outcome based on what you uncover about the man — then report back to close the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
   },
@@ -7164,10 +7165,11 @@ const quests = [
     aiTip:
       "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
     walkthrough: [
-      "Speak with the White Orchard smith about his torched forge.",
-      "Examine the burnt forge with your Witcher Senses for clues.",
-      "Follow the trail to the arsonist responsible.",
-      "Confront the culprit and resolve the dispute."
+      "Talk to the White Orchard blacksmith about his torched forge.",
+      "Examine the burnt forge with Witcher Senses to pick up the arsonist's trail.",
+      "Follow the tracks away from the village to the culprit.",
+      "Confront the arsonist and choose how to resolve the dispute (fight or talk them down).",
+      "Return to the smith for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
   },
@@ -7186,10 +7188,11 @@ const quests = [
     aiTip:
       "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
     walkthrough: [
-      "Read the notice board contract and reach the abandoned village well.",
-      "Investigate the site by day, then meditate to nightfall to summon the noonwraith.",
-      "Apply Specter Oil, use Yrden to trap it, and dodge its swift strikes.",
-      "Banish the noonwraith and claim the contract reward."
+      "Take the contract from the White Orchard notice board and head to the abandoned village well.",
+      "Investigate the site with Witcher Senses, then meditate to nightfall to draw out the noonwraith.",
+      "Apply Specter Oil and cast Yrden to trap the wraith so it can be hit.",
+      "Dodge its rapid teleport strikes and destroy the illusions it spawns.",
+      "Banish the noonwraith, take its trophy, and claim the contract fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
   },
@@ -7208,10 +7211,11 @@ const quests = [
     aiTip:
       "Ties directly into the Baron's main arc — do it before leaving Velen.",
     walkthrough: [
-      "Continue the Baron's search for his daughter Anna's trail.",
-      "Question the villagers and follow the leads with your Senses.",
-      "Track the party through the woods toward Crookback Bog.",
-      "Uncover the family's dark story and report to the Baron."
+      "In Velen, find the children playing and learn a girl has gone missing near the swamp.",
+      "Follow the trail with Witcher Senses toward Crookback Bog.",
+      "Track the 'princess' to a cave and deal with the monsters inside.",
+      "Uncover the truth of what happened and rescue or recover the child.",
+      "Return to report the outcome."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
@@ -7230,10 +7234,11 @@ const quests = [
     aiTip:
       "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
     walkthrough: [
-      "Take the crossroads contract and inspect the fresh graves.",
-      "Follow the Senses trail to the grave hag's lair.",
-      "Apply Necrophage Oil, use Yrden, and stagger it with Aard.",
-      "Kill the grave hag and collect the bounty."
+      "Accept the contract and question the widow and locals about the grave attacks.",
+      "Follow the trail with Witcher Senses to the haunted cemetery.",
+      "Apply Necrophage Oil and prepare Igni/Quen for the Grave Hag.",
+      "Bait its tongue-grab, dodge, and burn it down; watch for its mud-hurling.",
+      "Kill the Grave Hag, take the trophy, and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
   },
@@ -7252,10 +7257,11 @@ const quests = [
     aiTip:
       "Reading the hidden notes reveals Keira's true motives before you meet her.",
     walkthrough: [
-      "Pick up Keira Metz's trail in the Velen swamps.",
-      "Follow the tracks and monster clues with your Senses.",
-      "Deal with the drowners and hazards along the way.",
-      "Find Keira and agree to help with her problem."
+      "Begin at the Velen village where a woman is accused of witchcraft.",
+      "Use Witcher Senses to follow her tracks into the woods.",
+      "Investigate her hut and the surrounding signs of what she really is.",
+      "Confront the 'witch' and choose whether to spare or fight her.",
+      "Resolve the villagers' fate and finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
   },
@@ -7274,10 +7280,12 @@ const quests = [
     aiTip:
       "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
     walkthrough: [
-      "Head to the sealed elven ruin with Keira.",
-      "Descend into the dark, lighting the way and clearing monsters.",
-      "Solve the ruin's puzzles to reach the sealed chamber.",
-      "Escape the pursuing gargoyle and recover what Keira seeks."
+      "Meet Keira Metz and agree to explore the elven ruins beneath the lake.",
+      "Descend into the ruins, using Igni to light braziers and Aard on weak walls.",
+      "Fight through the drowners and the Gargoyle guardians in the depths.",
+      "Solve the ruin's puzzles to reach the mage Alexander's laboratory.",
+      "Recover what Keira seeks and escape as the ruin's defenders wake.",
+      "Return to Keira to complete the quest and continue her storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
   },
@@ -7296,10 +7304,11 @@ const quests = [
     aiTip:
       "Equip the lamp and use it on the shimmering barriers to press forward.",
     walkthrough: [
-      "Obtain the djinn's lamp and bring it to the sealed sanctum for Keira.",
-      "Use the lamp to dispel the illusions blocking the way.",
-      "Explore the mage's hidden chambers.",
-      "Recover the item and finish Keira's task."
+      "Join Keira Metz and take the enchanted Magic Lamp she gives you.",
+      "Explore the cavern, using the lamp to reveal and dispel hidden specters.",
+      "Follow the visions the lamp uncovers to piece together what happened here.",
+      "Clear the wraiths blocking the way and reach the sealed chamber.",
+      "Uncover the truth of the site and report back to Keira."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
   },
@@ -7318,10 +7327,11 @@ const quests = [
     aiTip:
       "Torch the leshen's totems first, then bring Relict Oil and Igni.",
     walkthrough: [
-      "Take the leshen contract from the superstitious hamlet.",
-      "Track the leshen with your Senses and gather the ritual clues.",
-      "Choose to kill it or perform the villagers' ritual.",
-      "Resolve the contract and collect payment."
+      "Take the contract and question the villagers about the woodland killings.",
+      "Track the victims and territorial markings with Witcher Senses to the leshen's grove.",
+      "Destroy the totems the leshen uses, then apply Relict Oil and ready Igni.",
+      "Fight the leshen — dodge its root attacks and burn the animals it summons.",
+      "Slay it, take the trophy, and claim the fee (or honor a druid's plea, if offered)."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
   },
@@ -7340,10 +7350,11 @@ const quests = [
     aiTip:
       "A short, poignant contract — follow the flowers to piece the story together.",
     walkthrough: [
-      "Investigate the 'haunted' house in Novigrad.",
-      "Use your Senses to piece together the ghost dog's tragedy.",
-      "Follow the spectral clues through the property.",
-      "Lay the loyal hound's spirit to rest."
+      "In Novigrad, investigate the disturbances at the painter's house.",
+      "Use Witcher Senses to follow the ghostly clues through the building.",
+      "Track the source to the garden and the buried remains behind the haunting.",
+      "Lay the spirit to rest by resolving its unfinished business.",
+      "Report back to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
   },
@@ -7362,10 +7373,11 @@ const quests = [
     aiTip:
       "Ham it up on stage — the performance choices are pure delight and affect the scene.",
     walkthrough: [
-      "Join Irina's theatre troupe to draw out a lead on Dandelion.",
-      "Rehearse and perform your role on stage, following the cues.",
-      "Handle the on-stage 'monster' and improvisation.",
-      "Learn the informant's tip after the show."
+      "Meet Priscilla and Irina at the Novigrad theatre to stage the play.",
+      "Gather the props and cast — recruit the doppler Dudu for the role.",
+      "Choose costumes and coach the performance during rehearsal.",
+      "Play your part on stage during the live performance (use the right cues).",
+      "See the play through to acclaim and continue Dandelion's storyline."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
   },
@@ -7384,10 +7396,11 @@ const quests = [
     aiTip:
       "Bring good armor; the hideout is a tough multi-wave fight.",
     walkthrough: [
-      "Storm Whoreson Junior's operation to reach the captive bard.",
-      "Fight through the guards using signs and dodges.",
-      "Search the hideout with your Senses for Dandelion.",
-      "Free Dandelion and get him to safety."
+      "Find Dandelion's associates in Novigrad to learn he's in trouble.",
+      "Follow the leads through the city with Witcher Senses.",
+      "Deal with the pressure on the poet — talk or fight your way past his captors.",
+      "Secure the information or person you were after.",
+      "Report back to advance the search for Dandelion."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
   },
@@ -7406,10 +7419,11 @@ const quests = [
     aiTip:
       "A charming lighthearted quest — enjoy the banter, low combat.",
     walkthrough: [
-      "Help Dandelion turn the rundown building into the Chameleon.",
-      "Run the errands to stock and staff the cabaret.",
-      "Go on the eventful 'date' the plan requires.",
-      "Open the Chameleon and wrap up the quest."
+      "Meet Priscilla to plan the cabaret at the Rosemary and Thyme.",
+      "Run the errands to fit out the tavern for the show.",
+      "Handle the interruptions and toughs who show up.",
+      "Get the venue ready and stage the cabaret.",
+      "Wrap up to progress Dandelion's arc."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
   },
@@ -7428,10 +7442,12 @@ const quests = [
     aiTip:
       "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
     walkthrough: [
-      "Meet Dijkstra about his stolen treasure beneath the bathhouse.",
-      "Investigate the heist tunnels with your Senses.",
-      "Uncover the pogrom against Novigrad's mages tied to the theft.",
-      "Report your findings and decide how to handle Dijkstra."
+      "Meet Sigi Reuven (Dijkstra) and agree to recover his stolen treasure.",
+      "Investigate the bathhouse tunnels flooded by the heist, using Aard and Senses.",
+      "Trace the thieves' route and interrogate Whoreson Junior's leads.",
+      "Fight through the ambush in the underground passages.",
+      "Recover the treasure's fate and uncover the traitor.",
+      "Report to Dijkstra to close the quest and advance the Novigrad plot."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
   },
@@ -7450,10 +7466,11 @@ const quests = [
     aiTip:
       "Ties into the Triss romance path — pursue it if you want that ending.",
     walkthrough: [
-      "Meet Triss and the hunted mages hiding in Novigrad.",
-      "Help them evade the witch hunters through the city.",
-      "Fight or sneak past the patrols as needed.",
-      "Get the mages to a safer refuge."
+      "Look into the witch-hunter propaganda gripping Novigrad.",
+      "Follow the clues with Witcher Senses to the source of the smear campaign.",
+      "Deal with the agents behind it (talk or fight).",
+      "Expose or resolve the plot as you choose.",
+      "Report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
   },
@@ -7472,10 +7489,12 @@ const quests = [
     aiTip:
       "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
     walkthrough: [
-      "Take the contract on the string of romantic killings.",
-      "Investigate each rendezvous site with your Senses.",
-      "Bait the katakan out, apply Vampire Oil, and use Moon Dust and Yrden.",
-      "Slay the vampire and claim the reward."
+      "Take the contract on the Novigrad murders and question witnesses.",
+      "Investigate the crime scenes with Witcher Senses to follow the scent trail.",
+      "Track the killer to its lair beneath the city.",
+      "Apply Cursed Oil and prepare Yrden/Quen for the succubus.",
+      "Fight or parley with the succubus depending on what you learn, then resolve the contract.",
+      "Claim the reward from the quest-giver."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
   },
@@ -7494,10 +7513,11 @@ const quests = [
     aiTip:
       "The auction house infiltration rewards patience over brute force.",
     walkthrough: [
-      "Plan the sea escape for Novigrad's mages with Triss.",
-      "Secure the ship and bribe or fight your way to the docks.",
-      "Protect the refugees during the tense boarding.",
-      "See the operation through and part ways with Triss."
+      "Meet Cleaver and agree to hunt down the dwarves who robbed him.",
+      "Track the culprits across Novigrad with Witcher Senses.",
+      "Follow the trail to their hideout, dealing with lookouts.",
+      "Confront the thieves and recover Cleaver's money.",
+      "Decide their fate and report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
   },
@@ -7516,10 +7536,11 @@ const quests = [
     aiTip:
       "The Wild Hunt flashback battle is scripted — focus on survival.",
     walkthrough: [
-      "Follow Ciri's trail on Skellige to the village of Larvik.",
-      "Use your Senses to reconstruct what happened to Skjall.",
-      "Trace the events that led Ciri away.",
-      "Honor Skjall's memory and continue the search."
+      "Travel to Skellige and meet Yennefer to investigate Ciri's trail.",
+      "Explore the site of the megascope/ritual, using Senses for clues.",
+      "Reconstruct the events with Yennefer's magic, fighting any wraiths raised.",
+      "Uncover what Ciri and the Wild Hunt did here.",
+      "Report the findings to advance the search for Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
   },
@@ -7538,10 +7559,11 @@ const quests = [
     aiTip:
       "A story-driven quest with a memorable Ciri-playable segment.",
     walkthrough: [
-      "Help Ciri prepare for the Skellige rite while the Hunt closes in.",
-      "Fight off the Wild Hunt warriors that ambush you.",
-      "Complete the trial's steps alongside Ciri.",
-      "Escape and press on with the plan."
+      "Meet the witcher trying to complete the Trial of the Grasses and agree to help.",
+      "Gather the alchemical ingredients across Skellige with Witcher Senses.",
+      "Return the components and assist with the dangerous trial.",
+      "Deal with the fallout of the experiment.",
+      "See the outcome through and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
   },
@@ -7560,10 +7582,11 @@ const quests = [
     aiTip:
       "Piece together the reagents with Witcher Senses to reconstruct the accident.",
     walkthrough: [
-      "Reach the coastal alchemical lab and inspect the mage's body.",
-      "Follow the Senses clues around the experiment site.",
-      "Piece together the cause of the deadly accident.",
-      "Resolve the mystery and collect any rewards."
+      "Find the alchemist's lab in Skellige and take on the practicum.",
+      "Collect the reagents required for the advanced formula.",
+      "Brew the concoction correctly using the notes provided.",
+      "Handle the reaction/monster the experiment attracts.",
+      "Deliver the result to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
   },
@@ -7582,10 +7605,11 @@ const quests = [
     aiTip:
       "Specter Oil and Yrden as always for wraith-type foes.",
     walkthrough: [
-      "Take the White Lady contract at the haunted homestead.",
-      "Investigate the site and uncover the family tragedy behind the spirit.",
-      "Apply Specter Oil, use Yrden, and dodge the wraith's attacks.",
-      "Banish the White Lady and finish the contract."
+      "Take the contract and ask the villagers about the White Lady haunting.",
+      "Investigate the manor and grounds with Witcher Senses after dark.",
+      "Apply Specter Oil and use Yrden to make the noonwraith corporeal.",
+      "Dodge its swift strikes, dispel its illusions, and burn it with Igni.",
+      "Banish the wraith, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
   },
@@ -7604,10 +7628,11 @@ const quests = [
     aiTip:
       "Bring Insectoid Oil and dodge the ranged spit before closing in.",
     walkthrough: [
-      "Accept the bounty on the arachas nest in the Skellige mountains.",
-      "Climb to the lair, applying Insectoid Oil.",
-      "Use bombs and Aard to break their armored shells.",
-      "Clear the nest and claim the reward."
+      "Accept the contract and gather reports of the beast attacks across Skellige.",
+      "Track each kill site with Witcher Senses to pinpoint the lair.",
+      "Identify the monster's class and apply the matching oil, readying Quen.",
+      "Fight the beast, dodging its heavy attacks and exploiting its weakness.",
+      "Slay it, take the trophy, and claim the substantial reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
   },
@@ -7626,10 +7651,11 @@ const quests = [
     aiTip:
       "Read the environmental clues; the payoff informs the main story.",
     walkthrough: [
-      "Investigate the amnesiac stranger tied to the Wild Hunt saga.",
-      "Follow the Senses clues around the Skellige mystery.",
-      "Uncover his connection to the larger story.",
-      "Resolve the tale and its consequences."
+      "Begin the Skellige questline investigating the mysterious 'Nameless' figure.",
+      "Follow the trail with Witcher Senses through the isle's ruins.",
+      "Piece together the truth behind the legend, clearing the guardians.",
+      "Confront the being at the heart of the mystery.",
+      "Resolve the encounter and report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
   },
@@ -7648,10 +7674,11 @@ const quests = [
     aiTip:
       "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
     walkthrough: [
-      "Escort the cursed Uma back to Kaer Morhen.",
-      "Gather the witchers and prepare the brutal curse-breaking ritual.",
-      "Endure the Trial of the Grasses ordeal on Uma.",
-      "Break the curse to reveal the truth it hides."
+      "Meet Yennefer to prepare the ritual needed to help Uma.",
+      "Gather the rare ingredients and tools across Velen and Novigrad.",
+      "Bring everything to the lab and assist with the dangerous curse-breaking ritual.",
+      "Protect the process from the forces it unleashes.",
+      "See the ritual to its outcome and advance the main story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
   },
@@ -7670,10 +7697,11 @@ const quests = [
     aiTip:
       "Just go with it — the outrageous choices are the whole point and mostly harmless.",
     walkthrough: [
-      "Summon the ghost Vlodimir to possess Geralt for the wedding.",
-      "Carry the festivities as the rowdy spirit demands.",
-      "Complete each escalating wedding-night antic.",
-      "Send Vlodimir off before dawn to end the quest."
+      "In Velen, meet the sisters/loved ones planning the wake and agree to help.",
+      "Run the errands — food, drink, and guests — using Senses to track them down.",
+      "Handle the uninvited monsters or troublemakers that crash the party.",
+      "Keep the celebration going through its beats.",
+      "Finish the wake and collect the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
   },
@@ -7692,10 +7720,12 @@ const quests = [
     aiTip:
       "The vault has a fistfight and a puzzle — prep both combat and patience.",
     walkthrough: [
-      "Plan the auction-house heist for Gaunter O'Dimm's employer.",
-      "Gather the disguise and tools, and scout the vault.",
-      "Pull off the break-in, bypassing the guards.",
-      "Escape with the target and complete the job."
+      "Meet Yennefer at the ransacked estate and agree to break into the sealed vault.",
+      "Explore the manor, using Aard and Senses to find the hidden mechanism.",
+      "Solve the vault puzzle to open the way (deal with the magical wards).",
+      "Fight the guardian/wraith protecting the treasure.",
+      "Recover the contents and decide what to do with them.",
+      "Report to Yennefer to close the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
   },
@@ -7714,10 +7744,12 @@ const quests = [
     aiTip:
       "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
     walkthrough: [
-      "Enter the painted world of Iris von Everec.",
-      "Cross the shifting nightmare, calming or fighting its manifestations.",
-      "Reunite Iris's sundered memories to stabilize the world.",
-      "Recover the rose and leave the painting."
+      "Travel with the spirit to the drowned house and agree to reconcile the family's ghosts.",
+      "Explore the vision of the home, using Senses to relive each family member's story.",
+      "Complete each spirit's unfinished task around the house.",
+      "Confront the truth of what tore the family apart.",
+      "Choose how to resolve the haunting and see the emotional outcome.",
+      "Return to finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
   },
@@ -7736,10 +7768,12 @@ const quests = [
     aiTip:
       "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
     walkthrough: [
-      "Answer the summons to Toussaint and take the beast contract.",
-      "Examine the killings and track the creature with your Senses.",
-      "Prepare the right oils and bombs for a higher vampire.",
-      "Confront the Beast of Toussaint and survive the fight."
+      "Reach Toussaint and take the investigation into the vineyard killings.",
+      "Examine the victims and territory with Witcher Senses to follow the beast.",
+      "Uncover that the attacks stem from a bruxa/higher vampire's curse.",
+      "Apply Vampire Oil and ready Black Blood and Moon Dust for the fight.",
+      "Defeat the creature, dispelling its invisibility with Yrden.",
+      "Resolve the contract and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
   },
@@ -7758,10 +7792,11 @@ const quests = [
     aiTip:
       "Vampire Oil and Black Blood are essential against the higher vampires.",
     walkthrough: [
-      "Investigate the grisly Beauclair killing to start the case.",
-      "Follow the Senses clues linking the deaths.",
-      "Trace the pattern back to the vampire threat.",
-      "Report your findings to advance the mystery."
+      "Take the contract at the Toussaint arena and speak with the organizer.",
+      "Investigate the beast rampaging in the cage with Witcher Senses.",
+      "Prepare the matching oil and defensive signs.",
+      "Fight the creature in the arena, exploiting its weakness.",
+      "Slay it and collect the prize."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
   },
@@ -7780,10 +7815,11 @@ const quests = [
     aiTip:
       "There's a lone survivor — how you handle her is the quest's real weight.",
     walkthrough: [
-      "Take the Cat School witcher's trail after the village massacre.",
-      "Reconstruct the killings with your Senses to learn the full story.",
-      "Track the rogue witcher to his hideout.",
-      "Confront him and decide his fate."
+      "Begin the Cat School gear treasure hunt in Toussaint.",
+      "Follow the map/clues to the ruined tower with Witcher Senses.",
+      "Clear the guardians and solve the tower's approach.",
+      "Recover the diagrams and uncover the tragic story of the cat witchers.",
+      "Return to craft or claim the gear and finish the hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
   },
@@ -7802,10 +7838,11 @@ const quests = [
     aiTip:
       "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
     walkthrough: [
-      "Meet the feuding Toussaint vineyards to start the Wine Wars.",
-      "Run each estate's errand — sabotage, deliveries, and favors.",
-      "Play the rivals against each other as instructed.",
-      "Complete the tasks for the vineyard rewards."
+      "Start the Wine Wars errand for one of Toussaint's rival vineyards.",
+      "Travel to the marked site and clear the monsters harming the estate.",
+      "Complete the task the vintner needs (sabotage or recovery).",
+      "Report back to boost the vineyard's fortunes.",
+      "Collect the reward and progress the Wine Wars chain."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
   },
@@ -7824,10 +7861,11 @@ const quests = [
     aiTip:
       "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
     walkthrough: [
-      "Take the Oxenfurt-forest contract on the fiend (Hearts of Stone).",
-      "Track the fiend with your Senses and apply Relict Oil.",
-      "Use Devil's Puffball, Yrden, and dodges against its charges.",
-      "Slay the fiend and collect the bounty."
+      "Take the contract and question the Oxenfurt-forest locals about the attacks.",
+      "Track the creature with Witcher Senses to its forest lair.",
+      "Identify its class, apply the matching oil, and ready Quen and Igni.",
+      "Fight the beast, dodging its lunges and exploiting its weakness.",
+      "Kill it, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
   },
@@ -7846,10 +7884,11 @@ const quests = [
     aiTip:
       "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
     walkthrough: [
-      "Arrive at Corvo Bianco and meet your new majordomo.",
-      "Tour the vineyard and note the needed repairs.",
-      "Set the first restoration works in motion.",
-      "Settle in to unlock the estate's ongoing upgrades."
+      "Begin the odd Toussaint quest and speak with the eccentric quest-giver.",
+      "Follow the strange clues with Witcher Senses.",
+      "Complete the unusual tasks it sets in order.",
+      "Resolve the twist at the end.",
+      "Report back for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
   },
@@ -7868,10 +7907,11 @@ const quests = [
     aiTip:
       "Insectoid Oil and dodge the burrow-and-lunge pattern.",
     walkthrough: [
-      "Accept the contract on the kikimore queen threatening the countryside.",
-      "Track it to its nest, applying Insectoid Oil.",
-      "Use Dancing Star bombs and Quen against its lunges.",
-      "Kill the kikimore queen and claim the reward."
+      "Take the big-game hunt contract in Toussaint.",
+      "Track the large beast across the countryside with Witcher Senses.",
+      "Apply the oil matching its class and prepare Quen.",
+      "Bring the beast down, dodging its charges.",
+      "Claim the trophy and reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
   },
@@ -12108,10 +12148,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
     walkthrough: [
-      "Ride out from Kaer Morhen with Vesemir toward White Orchard, following Yennefer's summons.",
-      "Reach the White Orchard inn and ask the locals about a witcher's contract and Yen's whereabouts.",
-      "Take the griffin lead to fund your stay, tracking it with your Witcher Senses.",
-      "Report back after the hunt to continue toward Vizima."
+      "Start in White Orchard and meet Vesemir at the inn.",
+      "Follow the leads on Yennefer's whereabouts, talking to the locals.",
+      "Handle the tavern brawl/interruptions as they arise.",
+      "Pick up Yennefer's trail toward the garrison.",
+      "Advance to the next objective to continue the hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
   },
@@ -12130,10 +12171,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
     walkthrough: [
-      "Buy the griffin contract details and study the beast's nest with your Witcher Senses.",
-      "Craft or buy Grapeshot bombs and apply Hybrid Oil to your silver sword.",
-      "Lure the griffin down, dodge its aerial dives, and stagger it with Aard.",
-      "Slay the royal griffin and collect its head for the reward."
+      "Agree to help the White Orchard garrison hunt the griffin.",
+      "Gather buckthorn and the bait, and investigate the griffin's kills with Senses.",
+      "Set the trap and lure the griffin, applying Hybrid Oil.",
+      "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
+      "Kill the beast and report back to advance to Vizima."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
   },
@@ -12152,10 +12194,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
     walkthrough: [
-      "Travel with the Nilfgaardian escort to Emperor Emhyr in Vizima.",
-      "Bathe and dress before the audience, then present yourself in the throne room.",
-      "Accept the contract to find Ciri ahead of the Wild Hunt.",
-      "Leave Vizima with the leads pointing toward Velen."
+      "Travel to Vizima for the audience with Emperor Emhyr.",
+      "Follow the palace protocol and speak with the chamberlain.",
+      "Attend the audience and learn Emhyr's task regarding Ciri.",
+      "Accept the commission and gather your leads.",
+      "Set out for Velen to begin the search."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
   },
@@ -12174,10 +12217,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
     walkthrough: [
-      "Head to the Nilfgaardian garrison and question the informant about Ciri.",
-      "Follow the trail to the hanged man's tree and the deserters nearby.",
-      "Clear the bandits and read the letter pointing to the Bloody Baron.",
-      "Ride to Crow's Perch to meet the Baron."
+      "In Velen, seek the Nilfgaardian contact tied to Ciri's trail.",
+      "Follow the leads to the hanged-man's trees and the deserters, using Senses.",
+      "Clear the enemies and recover the information/package.",
+      "Meet the informant to learn where Ciri was seen.",
+      "Report the lead and continue toward the Baron."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
   },
@@ -12196,10 +12240,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
     walkthrough: [
-      "Strike a deal with the Bloody Baron at Crow's Perch for news of Ciri.",
-      "Investigate the manor and the botched-childbirth clues with your Senses.",
-      "Fight the succubus-like spirit and follow the trail to the missing family.",
-      "Decide the fate of the Baron's wife and daughter to resolve the story."
+      "Meet the Bloody Baron at Crow's Perch and agree to find his wife and daughter.",
+      "Investigate the estate and follow the trail with Witcher Senses.",
+      "Track Anna and Tamara's leads across Velen, fighting the monsters en route.",
+      "Uncover the botchling/curse tied to the family and resolve it (raise or bury it).",
+      "Confront the truth of what happened to the Baron's family.",
+      "See the storyline to its branching outcome and gain the next lead on Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
   },
@@ -12218,10 +12264,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
     walkthrough: [
-      "Enter Crookback Bog and bargain with the Crones on the Baron's behalf.",
-      "Investigate the Whispering Hillock and choose to free or destroy the trapped spirit.",
-      "Return to the Crones and deal with the fallout of your choice.",
-      "Learn where Ciri went and report back to the Baron."
+      "Travel to the spirit-haunted wood and seek the Crones' help via the Ladies of the Wood.",
+      "Do the Crones' bidding — investigate the orphans and the whispering hillock.",
+      "Make the pivotal choice about the spirit under the tree.",
+      "Return to the Crones and survive the consequences.",
+      "Learn what they know of Ciri and escape Crookback Bog.",
+      "Advance toward Novigrad or Skellige on Ciri's trail."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
   },
@@ -12240,10 +12288,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Visit all the leads — the trail winds through the city's most colorful characters.",
     walkthrough: [
-      "Reach Novigrad and start retracing Dandelion's steps through his old flames.",
-      "Question Priscilla, then the courtesans and associates he wronged.",
-      "Play the Gwent or persuasion beats to pry loose each lead.",
-      "Follow the clues to Whoreson Junior's operation."
+      "Reach Novigrad and start searching for Dandelion via his known associates.",
+      "Track down Dandelion's three former lovers for leads, using Senses.",
+      "Complete each associate's task to earn their information.",
+      "Piece together where Dandelion has gone.",
+      "Report the lead to continue the Novigrad hunt."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
   },
@@ -12262,10 +12311,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
     walkthrough: [
-      "Team with Dijkstra, Roche, or the gangs to hit Whoreson Junior's hideouts.",
-      "Raid the casino and fight-club fronts, using your Senses to find the trail.",
-      "Storm Junior's mansion and defeat his guards.",
-      "Confront Junior, decide his fate, and rescue Dandelion's lead."
+      "Follow the trail to Whoreson Junior to find Dandelion and Ciri's lead.",
+      "Investigate Junior's casino/arena and hideouts with Senses.",
+      "Fight through his gang to corner him.",
+      "Confront Whoreson Junior and decide his fate.",
+      "Uncover what he knows about Ciri and Dandelion, then report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
   },
@@ -12284,10 +12334,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Radovid is dangerous; his questline steers Novigrad's political ending.",
     walkthrough: [
-      "Meet the mad King Radovid aboard his ship as arranged.",
-      "Agree to help find Dandelion's associate in exchange for information.",
-      "Track down the target through Novigrad with your Senses.",
-      "Report the result and weigh the cost of dealing with Radovid."
+      "Meet Radovid's agent and agree to the king's favor.",
+      "Travel to the marked location and carry out the covert task.",
+      "Deal with the complications that arise.",
+      "Complete the favor and return.",
+      "Advance the Novigrad political thread."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
   },
@@ -12308,10 +12359,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Sets up the Novigrad power struggle — choices here decide who rules the North.",
     walkthrough: [
-      "Broker meetings between Dijkstra, Roche, Thaler, and the city's power players.",
-      "Complete each faction's task to earn their cooperation.",
-      "Advance the plot to unseat Radovid.",
-      "Rally the conspirators for the plan against the king."
+      "Ally with Dijkstra, Roche, and the underworld to move against the witch hunters.",
+      "Carry out the coordinated hits/heists across Novigrad.",
+      "Fight through the enemy strongholds.",
+      "Secure the objective that breaks the hunters' grip.",
+      "Regroup with your allies to set up the next phase.",
+      "Complete the operation to advance the main story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
   },
@@ -12330,10 +12383,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
     walkthrough: [
-      "Book passage from Novigrad's docks to Skellige.",
-      "Weather the storm and shipwreck, then reach Kaer Trolde harbor.",
-      "Get your bearings in Clan an Craite's hall.",
-      "Pick up the trail of Ciri and the mage Ermion."
+      "Meet Yennefer aboard ship and set sail for Skellige.",
+      "Survive the storm and shipwreck as the Wild Hunt attacks.",
+      "Fight ashore through the drowners on the beach.",
+      "Regroup and reach Kaer Trolde to reunite with Yennefer.",
+      "Begin the search for Ciri's trail in Skellige."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
   },
@@ -12352,10 +12406,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
     walkthrough: [
-      "Attend the royal wedding feast at Kaer Trolde with the clans.",
-      "React as the celebration erupts into bloodshed and a succession crisis.",
-      "Fight through the attackers alongside your allies.",
-      "Deal with the aftermath and the question of Skellige's throne."
+      "Attend King Bran's funeral feast at Kaer Trolde with Yennefer.",
+      "Navigate the succession politics among the clans.",
+      "When the Wild Hunt attacks the feast, fight your way through the hall.",
+      "Battle the Hunt's warriors and the hound on the docks.",
+      "Escape with Yennefer and pursue the next lead on Ciri."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
   },
@@ -12374,10 +12429,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
     walkthrough: [
-      "Follow the leads on Skellige tying Uma to Ciri's trail.",
-      "Investigate the clues with Yennefer and Ermion.",
-      "Piece together where Ciri was last seen.",
-      "Prepare to break Uma's curse and find Ciri."
+      "Follow Yennefer's plan to the mysterious isle to find Ciri's trail.",
+      "Explore the fog-bound island, using Senses through the ruins.",
+      "Clear the wraiths and guardians blocking the path.",
+      "Uncover the truth of the 'Nameless' presence there.",
+      "Resolve the encounter and gain the next lead."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
   },
@@ -12396,10 +12452,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
     walkthrough: [
-      "Sail to the cursed Isle of Mists and search for Ciri.",
-      "Cross the fog-bound island, clearing wraiths and hazards.",
-      "Find and revive Ciri at the island's heart.",
-      "Escape the isle and set course for Kaer Morhen."
+      "Reach the Isle of Mists to finally find Ciri (this locks out missable Velen/Novigrad quests).",
+      "Search the island with Witcher Senses, clearing the monsters.",
+      "Solve the path through the mists to the chapel.",
+      "Find Ciri and rouse her.",
+      "Escape the island and set course for Kaer Morhen."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
   },
@@ -12418,10 +12475,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Recruit as many allies beforehand as you can — it changes who survives the siege.",
     walkthrough: [
-      "Gather your allies and fortify Kaer Morhen against the coming assault.",
-      "Set traps and assign defenders before the Wild Hunt arrives.",
-      "Fight through the waves of Hunt warriors across the keep.",
-      "Battle Imlerith's forces and survive the siege."
+      "Gather your allies and prepare the defenses of Kaer Morhen.",
+      "Set traps, bombs, and positions with the witchers before the assault.",
+      "Hold the walls as the Wild Hunt attacks in waves.",
+      "Fight Imlerith and the Hunt's commanders at the keep.",
+      "Protect Ciri and the mages through the battle's turning point.",
+      "See the battle to its costly conclusion."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
   },
@@ -12440,10 +12499,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
     walkthrough: [
-      "Regroup after the assault and tend to the fallen at Kaer Morhen.",
-      "Comfort and steady Ciri through her grief.",
-      "Take part in the wake with the witchers and sorceresses.",
-      "Ready the party for the march on Bald Mountain."
+      "In the battle's aftermath, tend to the fallen and the survivors.",
+      "Talk to each ally to take stock of the losses.",
+      "Handle the grim tasks the aftermath demands.",
+      "Plan the counterstroke against the Wild Hunt.",
+      "Advance the story toward Velen's Bald Mountain."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
   },
@@ -12462,10 +12522,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
     walkthrough: [
-      "Travel with Ciri to Bald Mountain to end the Crones.",
-      "Fight up the mountain through the Hunt's General Imlerith's guards.",
-      "Defeat Imlerith in single combat, using Quen and dodges.",
-      "Let Ciri confront the Crones and unleash her Elder Blood."
+      "Travel with Ciri to Bald Mountain to strike at Imlerith.",
+      "Fight up the mountain through the Hunt and the beasts.",
+      "Reach the Crones' sabbath and deal with them.",
+      "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
+      "Defeat Imlerith and secure the next step against Eredin."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
   },
@@ -12484,10 +12545,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A surreal, linear chapter — enjoy the alien vistas between fights.",
     walkthrough: [
-      "Meet Avallac'h and step through the magic portals with Ciri.",
-      "Cross the shattered worlds, solving each realm's short challenge.",
-      "Learn the plan to lure and stop the White Frost.",
-      "Return to prepare the final confrontation."
+      "Follow Avallac'h's plan and step through the portal with Ciri.",
+      "Traverse the shifting worlds (desert, frozen sea, red sky), keeping pace with Ciri.",
+      "Solve the traversal hazards of each world.",
+      "Escape the Wild Hunt pursuing you across the realms.",
+      "Return to your world to prepare for the final confrontation."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
   },
@@ -12506,10 +12568,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
     walkthrough: [
-      "Rally your allies for the last stand against the Wild Hunt at Undvik.",
-      "Fight through Eredin's warriors across the frozen battlefield.",
-      "Duel Eredin Bréacc Glas — dodge his teleport strikes and punish with Igni.",
-      "Send Ciri to face the White Frost and end the Hunt."
+      "Rally the alliance for the final stand against Eredin at Undvik.",
+      "Fight through the Wild Hunt's forces to reach Eredin.",
+      "Battle Eredin — dodge his teleport strikes, use Yrden and Quen, punish openings.",
+      "Defeat Eredin and secure the Sunstone's power.",
+      "Set up the confrontation with the White Frost."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
   },
@@ -12528,10 +12591,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
     walkthrough: [
-      "Play out the quiet epilogue as the dust settles.",
-      "Follow the beats determined by your earlier choices about Ciri.",
-      "See the resolutions for Geralt's allies and loves.",
-      "Reach the ending your decisions have shaped."
+      "Play through the epilogue following the final battle.",
+      "Visit the people and places shaped by your choices.",
+      "See Ciri's fate resolve based on your key decisions.",
+      "Tie off the remaining character threads.",
+      "Conclude Geralt's story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
   },
@@ -12550,10 +12614,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
     walkthrough: [
-      "Take the prison-break contract that binds you to Olgierd von Everec (Hearts of Stone).",
-      "Escape the Oxenfurt garrison and meet Gaunter O'Dimm.",
-      "Accept the pact to grant Olgierd three impossible wishes.",
-      "Set out on the first of Olgierd's demands."
+      "Take the Oxenfurt contract and confront Olgierd's target, Gaunter O'Dimm's mark.",
+      "Fight the Ofieri prince's monster/the toad prince in the sewers, using Quen and dodging its tongue.",
+      "Survive O'Dimm's bargain and accept the pact's terms.",
+      "Begin serving Olgierd's three impossible wishes.",
+      "Advance the Hearts of Stone story."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
   },
@@ -12572,10 +12637,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
     walkthrough: [
-      "Attend the rowdy wedding to fulfill Olgierd's first wish.",
-      "Get possessed by the merry ghost Vlodimir and play the reveler.",
-      "Chase down the runaway spirit through the festivities.",
-      "Complete the wish and report back to Olgierd."
+      "Take on Olgierd's wish and travel to the marked estate.",
+      "Investigate the site with Witcher Senses.",
+      "Deal with the supernatural obstacle in your way.",
+      "Complete the wish's task as instructed.",
+      "Report back to Olgierd to continue the pact."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
   },
@@ -12594,10 +12660,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
     walkthrough: [
-      "Meet Gaunter O'Dimm at the Garin estate for the final reckoning.",
-      "Enter the mirror-world and solve O'Dimm's deadly riddle before time runs out.",
-      "Use the environmental clues to find the hidden answer.",
-      "Outwit the devil to save your soul and free Olgierd — or not."
+      "Attend the heist/wedding at the Borsodi/Garin estate as the plan requires.",
+      "Move through the event, handling guests and guards.",
+      "Enter the spirit-world segment and relive Iris's painted memories.",
+      "Fight the manifestations of Olgierd's past (the caretaker/creatures).",
+      "Reach the heart of the estate and make the pivotal choice.",
+      "Resolve the confrontation and advance toward the finale."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
   },
@@ -12616,10 +12684,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
     walkthrough: [
-      "Answer the Toussaint knights' summons and ride to Beauclair (Blood and Wine).",
-      "Meet Duchess Anna Henrietta and take the contract on the beast.",
-      "Investigate the latest knight-killing with your Senses.",
-      "Follow the trail toward the creature behind the murders."
+      "Arrive in Toussaint and meet the knights errant sent to fetch you.",
+      "Investigate the first beast attack site with Witcher Senses.",
+      "Follow the trail to the victim and the clues left behind.",
+      "Report to Duchess Anna Henrietta at Beauclair Palace.",
+      "Accept the investigation into the Beast of Beauclair."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
@@ -12638,10 +12707,12 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
     walkthrough: [
-      "Examine each knight-killing site in and around Beauclair.",
-      "Trace the higher vampire's pattern with your Witcher Senses.",
-      "Confront the beast — apply vampire oil and use Moon Dust bombs.",
-      "Survive the fight and uncover Dettlaff's role."
+      "Investigate the Beast of Beauclair's killings across Toussaint.",
+      "Examine each crime scene with Witcher Senses to link the murders.",
+      "Track the vampire responsible to its lair.",
+      "Apply Vampire Oil and prepare Black Blood and Moon Dust for the fight.",
+      "Battle the higher vampire, using Yrden to strip its invisibility.",
+      "Uncover the killer's identity and report to the palace."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
   },
@@ -12660,10 +12731,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
     walkthrough: [
-      "Track Dettlaff through Beauclair's streets and sewers.",
-      "Follow the blood trail and interrogate witnesses.",
-      "Fight through the ambushes as the conspiracy tightens.",
-      "Learn the truth about Syanna's part in the scheme."
+      "Follow the lead on Dettlaff through Beauclair with Witcher Senses.",
+      "Investigate Syanna's trail and the vineyard clues.",
+      "Fight through the ambushes as the conspiracy unfolds.",
+      "Reach the confrontation the trail leads to.",
+      "Resolve the encounter and advance the mystery."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
   },
@@ -12682,10 +12754,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Regis is a fantastic companion here — soak in the lore before the finale.",
     walkthrough: [
-      "Travel to the ruined castle Tesham Mutna with Regis.",
-      "Delve the vampire history and defenses within.",
-      "Solve the trials to find a way to stop Dettlaff.",
-      "Recover what you need for the confrontation to come."
+      "Travel to Tesham Mutna to find the way to reach Dettlaff.",
+      "Explore the ancient vampire ruin, using Senses and clearing its guardians.",
+      "Undergo or arrange the ritual needed to summon/parley with Dettlaff.",
+      "Deal with Regis's plan and the fallout.",
+      "Set up the final confrontation with Dettlaff."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
   },
@@ -12704,10 +12777,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
     walkthrough: [
-      "Enter the storybook Land of a Thousand Fables to find Syanna.",
-      "Solve the fairy-tale set-pieces and help (or trick) their characters.",
-      "Reach Syanna and learn her side of the tragedy.",
-      "Leave the fable world and prepare for the finale."
+      "Enter the fairy-tale Land of a Thousand Fables to find Syanna.",
+      "Solve the storybook puzzles and help the fable characters.",
+      "Follow Syanna's trail through the whimsical (and dark) tales.",
+      "Confront what the land reveals about her past.",
+      "Escape the fable land with what you've learned."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
   },
@@ -12726,10 +12800,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
     walkthrough: [
-      "Bring Syanna to the duchess and try to broker peace with Dettlaff.",
-      "Make the pivotal choices that decide who lives and dies.",
-      "Fight Dettlaff in his monstrous higher-vampire form if it comes to blows.",
-      "See Blood and Wine to its bittersweet close."
+      "Reach the finale and confront Dettlaff over Syanna's fate.",
+      "Make the pivotal choice that decides the confrontation.",
+      "Fight Dettlaff — dodge his claw combos and summoned monsters, use Yrden and Vampire Oil.",
+      "Resolve the battle and its consequences for Beauclair.",
+      "See the Blood and Wine story to its ending."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
   },
@@ -12748,10 +12823,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A small mercy quest — the outcome depends on trusting the right smuggler.",
     walkthrough: [
-      "Meet the refugee needing forged papers to flee Velen.",
-      "Gather the required documents or bribe the right official.",
-      "Deliver the forgery and help them slip the Nilfgaardian dragnet.",
-      "See them safely on their way."
+      "Take the job in Velen to obtain forged papers from the local fixer.",
+      "Run the errand or recover the item the forger demands.",
+      "Deal with any guards or complications.",
+      "Return with the payment/goods to get the papers.",
+      "Collect the reward and finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
   },
@@ -12770,10 +12846,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
     walkthrough: [
-      "Investigate the bog 'god' extorting the village.",
-      "Use your Senses to find the creature behind the scam.",
-      "Confront the godling or monster responsible.",
-      "Decide its fate and free the village."
+      "Investigate the Velen villagers' offerings to their 'god' in the woods.",
+      "Follow the trail with Witcher Senses to the creature's grove.",
+      "Discover it's a monster exploiting the village (a godling/sylvan).",
+      "Confront it — fight it or broker a resolution.",
+      "Report back to settle the village's fate."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
   },
@@ -12792,10 +12869,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
     walkthrough: [
-      "Agree to help the elf search for her missing people.",
-      "Explore the flooded elven bath house, clearing hazards.",
-      "Follow the Senses clues to what became of them.",
-      "Resolve the grim discovery with the elf."
+      "Meet the young volunteer near the plague-struck site in Velen.",
+      "Escort or assist him to the marked location, clearing monsters.",
+      "Uncover the grim situation he's walked into.",
+      "Make the choice the situation demands.",
+      "Resolve the quest and report back."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
   },
@@ -12814,10 +12892,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
     walkthrough: [
-      "Take on the Nilfgaardian soldiers desecrating Velen's dead.",
-      "Track them across the battlefields with your Senses.",
-      "Confront and defeat the offenders.",
-      "Let the dead be laid to rest and finish the quest."
+      "Take the request to deal with the unburied dead around Velen.",
+      "Travel to the battlefield and clear the necrophages feeding there.",
+      "Build and light the funeral pyres as instructed.",
+      "Defend the site while the bodies burn.",
+      "Return to complete the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
   },
@@ -12836,10 +12915,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
     walkthrough: [
-      "Enter the haunted Reardon estate and investigate.",
-      "Use your Senses to uncover the family's tragedy.",
-      "Deal with the spirit haunting the grounds.",
-      "Resolve the curse and claim any loot."
+      "Investigate the haunted Reardon manor in Velen.",
+      "Explore the house with Witcher Senses to follow the ghostly clues.",
+      "Piece together the family's grim end.",
+      "Confront and put down the wraith/monster inside (Specter Oil, Yrden).",
+      "Resolve the haunting and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
   },
@@ -12858,10 +12938,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
     walkthrough: [
-      "Seek out Novigrad's top Gwent players for the collection quest.",
-      "Beat each named player in a match to win their rare card.",
-      "Build your deck as you go to keep winning.",
-      "Collect every card the quest requires."
+      "Find the old-timers in Novigrad who play Gwent and challenge each in turn.",
+      "Win matches to collect the cards they wager.",
+      "Track down each named player across the city.",
+      "Beat the toughest of them to claim their rare card.",
+      "Complete the set to finish the quest."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
   },
@@ -12880,10 +12961,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
     walkthrough: [
-      "Tour the taverns of Velen and Novigrad challenging innkeepers.",
-      "Beat each innkeep at Gwent for coin and cards.",
-      "Improve your deck between matches.",
-      "Clear all the innkeepers to finish the quest."
+      "Travel Velen's inns and challenge each innkeep to Gwent.",
+      "Win matches to earn the cards they stake.",
+      "Visit every marked tavern on the map.",
+      "Beat them all to collect their cards.",
+      "Finish the quest once each innkeep is defeated."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
   },
@@ -12902,10 +12984,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
     walkthrough: [
-      "Investigate the witch-hunter plot targeting Triss and the mages.",
-      "Follow the leads through Novigrad with your Senses.",
-      "Disrupt the hunters' scheme.",
-      "Protect the mages and report to Triss."
+      "Begin the Novigrad plot uncovering a conspiracy against a target.",
+      "Follow the leads with Witcher Senses through the city.",
+      "Infiltrate the meeting/hideout to learn the plan.",
+      "Fight or outmaneuver the plotters.",
+      "Foil (or allow) the plot and report the outcome."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
   },
@@ -12924,10 +13007,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Restore the lighthouse flame and use Yrden against the penitent wraith.",
     walkthrough: [
-      "Take the Phantom of Eldberg contract on the Skellige isle.",
-      "Relight or investigate the lighthouse to draw out the wraith.",
-      "Apply Specter Oil, use Yrden, and dodge its strikes.",
-      "Banish the phantom and collect the reward."
+      "Take the contract and travel to the Eldberg lighthouse in Skellige.",
+      "Investigate the keeper's fate with Witcher Senses; relight the lighthouse fire.",
+      "Apply Specter Oil and use Yrden to trap the penitent wraith it summons.",
+      "Dodge its strikes and dispel its illusions with Igni.",
+      "Banish the penitent, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
   },
@@ -12946,10 +13030,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "An early contract that teaches monster tracking with Witcher Senses.",
     walkthrough: [
-      "Accept the missing-brother contract in White Orchard.",
-      "Follow the grisly trail from the road with your Senses.",
-      "Track the monster or culprit to its lair.",
-      "Deal with the threat and report the outcome."
+      "Take the White Orchard contract and question the man about his missing brother.",
+      "Follow the trail with Witcher Senses toward the marked search area.",
+      "Clear the necrophages/monsters at the site.",
+      "Find the brother's fate and any survivors.",
+      "Report back to the contract-giver for the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
   },
@@ -12968,10 +13053,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
     walkthrough: [
-      "Take the grave hag contract near the Velen crossroads.",
-      "Inspect the war graves and follow the Senses trail.",
-      "Apply Necrophage Oil, trap it with Yrden, and stagger with Aard.",
-      "Slay the grave hag and claim the bounty."
+      "Accept the Velen contract and question the widow and villagers about the grave attacks.",
+      "Track the disturbance with Witcher Senses to the haunted cemetery.",
+      "Apply Necrophage Oil and ready Igni/Quen for the Grave Hag.",
+      "Bait its tongue-grab, dodge, and burn it down.",
+      "Kill the Grave Hag, take the trophy, and claim the reward."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
   },
@@ -12990,10 +13076,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Investigate the attacks first — the true culprit isn't the obvious one.",
     walkthrough: [
-      "Take the Oxenfurt-drunk contract (Hearts of Stone).",
-      "Investigate the attacks to reveal the true monster.",
-      "Prepare the matching oil and bombs, then confront it.",
-      "Kill the creature and collect payment."
+      "Take the Hearts of Stone contract on the Oxenfurt attacks.",
+      "Question the drunk and witnesses, then follow the trail with Witcher Senses.",
+      "Identify the monster's class and apply the matching oil, readying Quen.",
+      "Fight the creature, dodging its attacks and exploiting its weakness.",
+      "Slay it, take the trophy, and claim the fee."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
   },
@@ -13012,10 +13099,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
     walkthrough: [
-      "Buy or find the Feline (Cat) School gear map.",
-      "Travel to each marked ruin and recover a diagram.",
-      "Clear the guardians protecting each cache.",
-      "Craft the light, fast Cat School gear at a smith."
+      "Pick up the Cat School Gear diagrams' scavenger-hunt maps (Velen/Novigrad).",
+      "Follow each map with Witcher Senses to its stash, clearing guardians.",
+      "Collect all six diagrams for the set (swords, armor, gauntlets, trousers, boots).",
+      "Loot the required crafting materials for each piece.",
+      "Take the diagrams and mats to a craftsman to forge the Feline set."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
   },
@@ -13034,10 +13122,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
     walkthrough: [
-      "Obtain the Griffin School gear diagrams' map in Velen.",
-      "Visit each site and defeat its guardians for a diagram.",
-      "Gather all the pieces of the set.",
-      "Craft the Sign-focused Griffin School gear."
+      "Pick up the Griffin School Gear scavenger-hunt maps in Velen.",
+      "Follow each clue with Witcher Senses to its hidden chest, defeating guards.",
+      "Collect all the Griffin (Ursine-style) diagrams across the region.",
+      "Gather the crafting materials each piece needs.",
+      "Craft the Griffin set at a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
   },
@@ -13056,10 +13145,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
     walkthrough: [
-      "Get the Ursine (Bear) School gear map on Skellige.",
-      "Climb the peaks and dive the wrecks to recover each diagram.",
-      "Clear the monsters guarding the caches.",
-      "Craft the heavy, tanky Bear School gear."
+      "Pick up the Bear (Ursine) School Gear maps in Skellige.",
+      "Sail and climb to each stash, using Senses and clearing the tough guardians.",
+      "Collect all the Ursine diagrams scattered across the isles.",
+      "Gather the required materials (some need higher-level components).",
+      "Forge the Bear School set with a smith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
   },
@@ -13078,10 +13168,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "A well-rounded set — a safe default while you gather the specialized schools.",
     walkthrough: [
-      "Find the Wolf School gear map near Kaer Morhen.",
-      "Recover each diagram scattered around Kaer Morhen and Velen.",
-      "Defeat the guardians at each location.",
-      "Craft the balanced Wolf School gear."
+      "Pick up the Wolf School Gear maps around Kaer Morhen and Velen.",
+      "Follow each clue with Witcher Senses to its cache, clearing monsters.",
+      "Collect all the Wolven diagrams for the set.",
+      "Gather the crafting materials each piece requires.",
+      "Craft the Wolf School set at a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
   },
@@ -13100,10 +13191,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
     walkthrough: [
-      "Obtain the Manticore School gear map in Toussaint (Blood and Wine).",
-      "Hunt down each diagram across the duchy.",
-      "Clear the guardians blocking the caches.",
-      "Craft the alchemy-focused Manticore School gear."
+      "Start the Manticore School Gear hunt in Toussaint (Blood and Wine).",
+      "Follow each map with Witcher Senses to its stash, defeating the guardians.",
+      "Collect all the Manticore diagrams across Toussaint.",
+      "Gather the high-tier crafting materials the set needs.",
+      "Forge the Manticore set at a master craftsman."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
   },
@@ -13122,10 +13214,11 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     aiTip:
       "Dodge and counter — trading blows with the islanders is a losing game.",
     walkthrough: [
-      "Seek out Skellige's brawl organizers to enter the fights.",
-      "Beat each challenger in bare-knuckle boxing, timing dodges and counters.",
-      "Advance through the toughest brawlers.",
-      "Win the final bout to claim the prize."
+      "Take the Fists of Fury challenge in Skellige and find the local brawlers.",
+      "Beat each opponent in bare-knuckle fights (block and counter, watch stamina).",
+      "Work up the ladder to the island's champion.",
+      "Defeat the champion in the final bout.",
+      "Claim the prize money and complete the tournament."
     ],
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
   },
