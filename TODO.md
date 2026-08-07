@@ -22,14 +22,15 @@ quest list (as done for Pillars and Persona 5 Royal).
   Ghost of Yotei~~ — **DONE 2026-08-07**, shipped to prod as `v2.3.0` (PRs #81,
   #82; Ghost of Yotei verified complete with no changes). *(SW Jedi: Survivor
   was already verified in Phase 1.)*
-- **Phase 3 — large**: AC Valhalla (142), Cyberpunk 2077 (148), Skyrim (148).
+- ~~**Phase 3 — large**: AC Valhalla, Cyberpunk 2077, Skyrim~~ — **DONE
+  2026-08-07**. Skyrim shipped a compliance fix to prod as `v2.3.1` (PR #85);
+  AC Valhalla and Cyberpunk 2077 verified complete/accurate with no changes.
 - **Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
   AC Odyssey (353).
 
 ### Known data gap to fix (flagged during Phase 1 verification sweep)
-- **Skyrim**: 54 entries have only a search-URL `video` and no `walkthrough`,
-  which violates the "real video **or** step-by-step walkthrough" rule. Add
-  walkthroughs (or real videos) to those entries. Fits naturally into Phase 3.
+- ~~**Skyrim**: 54 entries have only a search-URL `video` and no `walkthrough`~~
+  — **FIXED 2026-08-07** in Phase 3 (PR #85, `v2.3.1`).
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
