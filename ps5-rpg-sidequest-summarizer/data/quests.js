@@ -9037,7 +9037,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GqRWTJZBKHo"
   },
 {
     id: 445,
@@ -9061,7 +9061,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_6WfM7oUXz0"
   },
 {
     id: 446,
@@ -9085,7 +9085,7 @@ const quests = [
       "Steal the floating treasure piggy bank before the deadline.",
       "Defeat Shadow Kaneshiro atop his golden pig-mech."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
+    video: "https://www.youtube.com/watch?v=blqRZvvmAYc"
   },
 {
     id: 447,
@@ -9109,7 +9109,7 @@ const quests = [
       "Fight the Sphinx (cognitive mother) — exploit Wind and weather the beam attacks.",
       "Take the treasure and watch Futaba awaken her Persona, Necronomicon."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EI16mFCrVbQ"
   },
 {
     id: 448,
@@ -9133,7 +9133,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A9EpUluo5a4"
   },
 {
     id: 449,
@@ -9157,7 +9157,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x5LDcdELNwo"
   },
 {
     id: 450,
@@ -9181,7 +9181,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bvoNUeXQrZE"
   },
 {
     id: 451,
@@ -9205,7 +9205,7 @@ const quests = [
       "Battle the Holy Grail, then Yaldabaoth in his angelic-tower form.",
       "Land the final rebellion shot to end the god of control's game."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W9KTzcwyFKw"
   },
 {
     id: 452,
@@ -9229,7 +9229,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=giSV_dZ2IME"
   },
 {
     id: 453,
