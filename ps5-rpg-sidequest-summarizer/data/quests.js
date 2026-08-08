@@ -3045,7 +3045,7 @@ const quests = [
       "Cutting him down in the Nexus rewards the full Gloom Set.",
       "Advanced: his killings serve Mephistopheles — only accept her contracts at Pure Black world tendency if you deliberately want that path."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbjMhvECyEo"
   },
 {
     id: 146,
@@ -14895,7 +14895,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the archstones to travel out to any of the five worlds.",
       "Return to the Nexus between runs to restock, store items with Stockpile Thomas, and level up."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zS7vCA4ZTGc"
   },
 {
     id: 747,
@@ -14919,7 +14919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Penetrator (summon Biorr for help) to open the inner keep.",
       "Take the archstone up to the False King's arena to finish the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eIqjkywCFLs"
   },
 {
     id: 748,
@@ -14943,7 +14943,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Dragon God, move between the stone cover so it can't spot you, and reach the two ballistae.",
       "Fire both ballistae to pin its arms, then hit its exposed head to finish the Dragon God."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dsnhOy7k5Os"
   },
 {
     id: 749,
@@ -14967,7 +14967,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to the Old Monk — note the fight may summon another player to act as the boss.",
       "Defeat the Old Monk (or the invading phantom) to clear the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WZ3-yoIo9b8"
   },
 {
     id: 750,
@@ -14991,7 +14991,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Storm King, charge the Storm Ruler's heavy attack to loose wind blades that shred the flying Manta swarm.",
       "Keep firing wind blades to bring the Storm King down and complete the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lvzi0gJwZgc"
   },
 {
     id: 751,
@@ -15015,7 +15015,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Either defeat Garl or slip past him and approach Astraea directly.",
       "Choose whether to strike down Maiden Astraea to claim her Demon's Soul — an intentionally somber kill."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qLfpFba-LOY"
   },
 {
     id: 752,
@@ -15039,7 +15039,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Walk out to the Old One and approach the Maiden in Black.",
       "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bDQRH59XTKg"
   },
 {
     id: 753,
