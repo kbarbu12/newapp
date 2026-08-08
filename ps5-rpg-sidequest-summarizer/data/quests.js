@@ -28318,7 +28318,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Cross the underground stream and defeat the frostbite spiders and cave bear (or sneak past).",
       "Exit into the wilderness and follow your companion toward Riverwood."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Unbound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nFc_Od3dz8I"
   },
   {
     id: 1390,
@@ -28340,7 +28340,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Agree to help and speak with the court wizard Farengar.",
       "Accept the task to retrieve the Dragonstone from Bleak Falls Barrow."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Before%20the%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HyAhQ7zjo2o"
   },
   {
     id: 1391,
@@ -28362,7 +28362,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Use the claw on the circular door, matching bear-moth-owl from the claw's palm.",
       "Read the word wall for Unrelenting Force, take the Dragonstone, and return to Farengar."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bleak%20Falls%20Barrow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vYusscDVI2M"
   },
   {
     id: 1392,
@@ -28384,7 +28384,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Kill the dragon and absorb its soul, revealing you as Dragonborn.",
       "Return to Dragonsreach; the Greybeards will summon you with a Shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragon%20Rising%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OA36XpSxZ84"
   },
   {
     id: 1393,
@@ -28406,7 +28406,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Learn Whirlwind Sprint and complete the training courtyard trials.",
       "Accept the task to retrieve the Horn of Jurgen Windcaller."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Way%20of%20the%20Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kVt0MCxqHb0"
   },
   {
     id: 1394,
@@ -28428,7 +28428,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the dragon and absorb its soul, confirming to Delphine you are Dragonborn.",
       "Follow Delphine back toward Riverwood to continue the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Blade%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LXf4q6zz3Qo"
   },
   {
     id: 1395,
@@ -28450,7 +28450,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Search Ambassador Elenwen's office and the interrogation cells for documents on Esbern.",
       "Escape the Embassy grounds through the tunnel with Malborn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Nw91o6vBaDU"
   },
   {
     id: 1396,
@@ -28471,7 +28471,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
       "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alduin%27s%20Wall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WSa_zYa9HSY"
   },
   {
     id: 1397,
@@ -28491,7 +28491,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Discuss the plan to lure and trap Alduin using the Dragonrend shout.",
       "Learn that an Elder Scroll is required to learn Dragonrend from the past."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Throat%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k0GZpuZmbdk"
   },
   {
     id: 1398,
@@ -28511,7 +28511,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Bring the Elder Scroll back to Sky Haven Temple.",
       "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Elder%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wfs8IqW8rfk"
   },
   {
     id: 1399,
@@ -28531,7 +28531,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Use Dragonrend to force Alduin to land and fight him.",
       "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NMa1RaOxW78"
   },
   {
     id: 1400,
@@ -28551,7 +28551,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Attend the parley and successfully negotiate a temporary truce.",
       "This quest is optional — completing the Civil War questline instead skips this step."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Overlord%27s%20Legacy%20/%20Season%20Unending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QzXq3Ce7org"
   },
   {
     id: 1401,
@@ -28570,7 +28570,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through Skuldafn's Draugr and traps to reach the portal chamber.",
       "Activate the portal to Sovngarde."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20World-Eater%27s%20Eyrie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DVbJ1-RbKYw"
   },
   {
     id: 1402,
@@ -28590,7 +28590,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Cross into Sovngarde proper and meet legendary heroes including Gormlaith, Felldir, and Hakon.",
       "Learn the final word of the Dragonrend-countering shout needed to strip Alduin's immortality."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sovngarde%20walkthrough"
+    video: "https://www.youtube.com/watch?v=X2qI8KDvXHc"
   },
   {
     id: 1403,
@@ -28610,7 +28610,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Engage Alduin in the final battle alongside Gormlaith, Felldir, and Hakon.",
       "Defeat Alduin, absorb his soul, and complete the main questline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragonslayer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tPaEzYWxe5k"
   },
   {
     id: 1404,
@@ -28630,7 +28630,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Lure Odahviing to Whiterun with the Call Dragon Shout from the Dragonsreach porch and spring the trap.",
       "Bargain with the captured Odahviing — he agrees to fly you to Skuldafn in exchange for his freedom."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20%28Paarthurnax%27s%20request%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Owg2cSs21ds"
   },
   {
     id: 1405,
