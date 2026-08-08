@@ -17286,7 +17286,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish with light combos and Focus-charged heavy strikes.",
       "Use Immobilize when it winds up big attacks to secure the kill."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Wandering%20Wight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YMWq8_44cHA"
   },
 {
     id: 830,
@@ -17308,7 +17308,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break his poise with staff heavies, then unload combos.",
       "Watch for the transformation phase and keep dodging through the fire arcs."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Guangzhi%20%26%20the%20Wolf%20Vanguard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b7Nm9RjgHQU"
   },
 {
     id: 831,
@@ -17330,7 +17330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Cloud Step to punish from behind during openings.",
       "Chip him down between his ranged bursts to finish the fight."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Elder%20Jinchi%20(Lingxuzi)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aD0pScB7v7A"
   },
 {
     id: 832,
@@ -17352,7 +17352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Exploit their long recovery after the coil attacks.",
       "Immobilize to isolate and burst each down in turn."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20boss%20guide"
   },
 {
     id: 833,
@@ -17374,7 +17374,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the end of his combo strings with heavy attacks.",
       "Use spells like Immobilize on his big overhead to open damage windows."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Tiger%20Vanguard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z0MKUFXs0E4"
   },
 {
     id: 834,
@@ -17396,7 +17396,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hit and reposition as he takes flight between passes.",
       "Punish each landing to whittle the dragon down."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Kang-Jin%20Loong%20walkthrough"
+    video: "https://www.youtube.com/watch?v=THRYf6vca8k"
   },
 {
     id: 835,
@@ -17418,7 +17418,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Build Focus and land charged heavies during its long recoveries.",
       "Immobilize the wind-ups to safely stack damage."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Stone%20Vanguard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w6X85I_hSeQ"
   },
 {
     id: 836,
@@ -17440,7 +17440,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dodge his rapid staff flurries and counter after the last hit.",
       "Use Focus heavies during his cooldowns to end the illusions."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Macaque%20Chief%20(Non-Void)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uDEi9zD39lg"
   },
 {
     id: 837,
@@ -17462,7 +17462,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the landing after each jump with combos.",
       "Keep healing gourds ready for his poison spit and finish him off."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Captain%20Wise-Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9sHwiskg02k"
   },
 {
     id: 838,
@@ -17484,7 +17484,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish between their combo strings with staff heavies.",
       "Use transformations and spells to break poise and secure the kills."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Yakshas%20of%20the%20Pagoda%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DfceILZxYJk"
   },
 {
     id: 839,
@@ -17506,7 +17506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cleanse or heal poison buildup between exchanges.",
       "Punish her lunge recoveries and finish before the arena floods with spiderlings."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Violet%20Spider%20(Second%20Sister)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YcPkzNeDsVU"
   },
 {
     id: 840,
@@ -17550,7 +17550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after the charge attacks with Focus-charged heavies.",
       "Manage the fire hazards and whittle both foes down in phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20boss%20guide"
   },
 {
     id: 842,
@@ -17594,7 +17594,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the recovery after each big swing.",
       "Use Immobilize on the huge wind-ups to safely deal damage."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Giant%20Shigandang%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pyJB1THHkhc"
   },
 {
     id: 844,
@@ -17616,7 +17616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use your full spell and transformation kit to break poise.",
       "Clear the last trial to claim the Great Sage's legacy."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Supreme%20Inspector%20%26%20the%20Final%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_N8kDaskS6M"
   },
 {
     id: 845,
@@ -48294,7 +48294,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Phase 1: conserve mana and spirit, punish its wing sweeps, and dodge the diving lunges.",
       "Phase 2 (blood-red sky): stay mobile through the raining-blood attacks and burst it down, then claim the Weaver’s Needle vessel."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duskveil%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=i_eChx21uw4"
   },
   {
     id: 2572,
@@ -48315,7 +48315,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Exploit the openings after his poison casts; keep a cleanse/antidote ready for his venom.",
       "Defeat him to earn the Violet Hail Transformation spell."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Daoist%20Mi%20Violet%20Hail%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=z7xj0yN-icY"
   },
   {
     id: 2543,
