@@ -12108,7 +12108,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up Yennefer's trail toward the garrison.",
       "Advance to the next objective to continue the hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CLMht2gc4aw"
   },
 {
     id: 590,
@@ -12131,7 +12131,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
       "Kill the beast and report back to advance to Vizima."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kx7KT3bn5V8"
   },
 {
     id: 591,
@@ -12154,7 +12154,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Accept the commission and gather your leads.",
       "Set out for Velen to begin the search."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7ozvP4T3Yv4"
   },
 {
     id: 592,
@@ -12177,7 +12177,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Meet the informant to learn where Ciri was seen.",
       "Report the lead and continue toward the Baron."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fbJg3gKAB7c"
   },
 {
     id: 593,
@@ -12201,7 +12201,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the truth of what happened to the Baron's family.",
       "See the storyline to its branching outcome and gain the next lead on Ciri."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IwWFXwah1UI"
   },
 {
     id: 594,
@@ -12225,7 +12225,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Learn what they know of Ciri and escape Crookback Bog.",
       "Advance toward Novigrad or Skellige on Ciri's trail."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
+    video: "https://www.youtube.com/watch?v=X0WeuDxqDWQ"
   },
 {
     id: 595,
@@ -12248,7 +12248,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Piece together where Dandelion has gone.",
       "Report the lead to continue the Novigrad hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JRJU2iYAfA4"
   },
 {
     id: 596,
@@ -12271,7 +12271,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront Whoreson Junior and decide his fate.",
       "Uncover what he knows about Ciri and Dandelion, then report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=elfbiqKrY4Q"
   },
 {
     id: 597,
@@ -12294,7 +12294,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the favor and return.",
       "Advance the Novigrad political thread."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W3xfqhGxbLs"
   },
 {
     id: 598,
@@ -12320,7 +12320,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Regroup with your allies to set up the next phase.",
       "Complete the operation to advance the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TC8WQ6BFGcE"
   },
 {
     id: 599,
@@ -12343,7 +12343,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Regroup and reach Kaer Trolde to reunite with Yennefer.",
       "Begin the search for Ciri's trail in Skellige."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hZD5xLoRcz8"
   },
 {
     id: 600,
@@ -12366,7 +12366,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Battle the Hunt's warriors and the hound on the docks.",
       "Escape with Yennefer and pursue the next lead on Ciri."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3qKYZWTuKDk"
   },
 {
     id: 601,
@@ -12389,7 +12389,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover the truth of the 'Nameless' presence there.",
       "Resolve the encounter and gain the next lead."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wWAZLFM2wqE"
   },
 {
     id: 602,
@@ -12412,7 +12412,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Ciri and rouse her.",
       "Escape the island and set course for Kaer Morhen."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZlyLgg3y1TI"
   },
 {
     id: 603,
@@ -12436,7 +12436,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Protect Ciri and the mages through the battle's turning point.",
       "See the battle to its costly conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_8GKIvmLwY4"
   },
 {
     id: 604,
@@ -12459,7 +12459,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Plan the counterstroke against the Wild Hunt.",
       "Advance the story toward Velen's Bald Mountain."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x6yXoTkfX88"
   },
 {
     id: 605,
@@ -12482,7 +12482,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
       "Defeat Imlerith and secure the next step against Eredin."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6LInm1JFs7A"
   },
 {
     id: 606,
@@ -12505,7 +12505,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Escape the Wild Hunt pursuing you across the realms.",
       "Return to your world to prepare for the final confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EcS6XvrjxaM"
   },
 {
     id: 607,
@@ -12528,7 +12528,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat Eredin and secure the Sunstone's power.",
       "Set up the confrontation with the White Frost."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
+    video: "https://www.youtube.com/watch?v=epuJdDA6rgc"
   },
 {
     id: 608,
@@ -12551,7 +12551,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Tie off the remaining character threads.",
       "Conclude Geralt's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EUj1Tg33dO8"
   },
 {
     id: 609,
@@ -12574,7 +12574,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Begin serving Olgierd's three impossible wishes.",
       "Advance the Hearts of Stone story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0fGeUXStPiQ"
   },
 {
     id: 610,
@@ -12597,7 +12597,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the wish's task as instructed.",
       "Report back to Olgierd to continue the pact."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_RtNHhOZ8ww"
   },
 {
     id: 611,
@@ -12621,7 +12621,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the heart of the estate and make the pivotal choice.",
       "Resolve the confrontation and advance toward the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TTEmgmPJUcI"
   },
 {
     id: 612,
@@ -12644,7 +12644,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Report to Duchess Anna Henrietta at Beauclair Palace.",
       "Accept the investigation into the Beast of Beauclair."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bgtWgyj8I80"
   },
 {
     id: 613,
@@ -12668,7 +12668,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Battle the higher vampire, using Yrden to strip its invisibility.",
       "Uncover the killer's identity and report to the palace."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HopkUyaPwl0"
   },
 {
     id: 614,
@@ -12691,7 +12691,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the confrontation the trail leads to.",
       "Resolve the encounter and advance the mystery."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yHttMKZf8UU"
   },
 {
     id: 615,
@@ -12714,7 +12714,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with Regis's plan and the fallout.",
       "Set up the final confrontation with Dettlaff."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E_Ba8bxyCeY"
   },
 {
     id: 616,
@@ -12737,7 +12737,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront what the land reveals about her past.",
       "Escape the fable land with what you've learned."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ukCp25XQNTA"
   },
 {
     id: 617,
@@ -12760,7 +12760,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Resolve the battle and its consequences for Beauclair.",
       "See the Blood and Wine story to its ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JlsjC9a4ziQ"
   },
 {
     id: 618,
