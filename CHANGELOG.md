@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-08
+
+- **Black Myth: Wukong — real YouTube video links** (PR #90) — `v2.3.2` patch.
+  First game in the "search URL → specific `watch?v=` link" effort. Converted
+  the game's search-URL boss/quest videos to specific YouTube guides (sourced via
+  YouTube-filtered search, then owner-reviewed). Wukong now 35 real `watch?v=`
+  videos + 4 search-URL fallbacks (each with a full step-by-step walkthrough);
+  the fallbacks are paired-boss / ambiguous entries where no single video fits.
+
 ## 2026-08-07
 
 - **Skyrim quest-data compliance fix** (PR #85) — `v2.3.1` patch. Phase 3

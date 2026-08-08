@@ -7,30 +7,17 @@ Each game now names its divisions with its own term (Realms, Districts, Planets,
 Archstones, Arcs, Questlines, Acts, Chapters, Regions), with a matching Library
 filter and sort. See PROGRESS.md §0 "Phase 1b".
 
-## Game-verification roadmap (agent-driven; owner promotes to prod)
+## Game-verification roadmap — COMPLETE (2026-08-07)
+All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details in
+`PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
-Each game gets the full treatment: verify fields → enrich thin walkthroughs →
-completeness check → QA → PR into `staging`. Owner says the word to promote to
-prod. Where authoritative wikis are egress-blocked, the owner supplies a JSON
-quest list (as done for Pillars and Persona 5 Royal).
-
-- ~~**Phase 1 — quick wins**: Pillars I, Pillars II, SW Jedi: Fallen Order,
-  Black Myth: Wukong, Persona 5 Royal (+ SW Jedi: Survivor, folded in)~~ —
-  **DONE 2026-08-07**, shipped to prod as `v2.2.0` (PRs #76, #77, #78; Fallen
-  Order + Survivor verified complete with no changes).
-- ~~**Phase 2 — mid-size**: Horizon Forbidden West, Metaphor: ReFantazio,
-  Ghost of Yotei~~ — **DONE 2026-08-07**, shipped to prod as `v2.3.0` (PRs #81,
-  #82; Ghost of Yotei verified complete with no changes). *(SW Jedi: Survivor
-  was already verified in Phase 1.)*
-- ~~**Phase 3 — large**: AC Valhalla, Cyberpunk 2077, Skyrim~~ — **DONE
-  2026-08-07**. Skyrim shipped a compliance fix to prod as `v2.3.1` (PR #85);
-  AC Valhalla and Cyberpunk 2077 verified complete/accurate with no changes.
-- **Phase 4 — mega (one game per branch)**: Zelda: Tears of the Kingdom (253),
-  AC Odyssey (353).
-
-### Known data gap to fix (flagged during Phase 1 verification sweep)
-- ~~**Skyrim**: 54 entries have only a search-URL `video` and no `walkthrough`~~
-  — **FIXED 2026-08-07** in Phase 3 (PR #85, `v2.3.1`).
+## Upgrade quest videos from search URLs to real `watch?v=` links
+1,572 of 2,518 quest `video` fields are YouTube *search* URLs
+(`results?search_query=…`) rather than specific `watch?v=` deep links. They
+work (they open the right search), but a specific video is better UX. Real IDs
+can be sourced via `WebSearch` filtered to `youtube.com`; can't be verified by
+watching, so this is a best-effort, per-game effort. Largest buckets: Zelda TotK
+(217), Skyrim (145), AC Valhalla (142), Cyberpunk (128), Pillars II (125).
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod

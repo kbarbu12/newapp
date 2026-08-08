@@ -55,10 +55,50 @@ was added, and a deploy bug that was blocking the live site was fixed.
   Promoted to prod as **`v2.1.1`**; the first prod Pages run then completed and
   **the live site published**. (PRs #60, #61)
 
+### Game-verification roadmap — Phases 1–4 (all 24 games)
+Ran every remaining game through the full treatment (verify fields → enrich thin
+walkthroughs → completeness check → QA → one PR per game/group → prod on say-so).
+Held to a strict no-fabrication rule: where content was genuinely missing and the
+authoritative wikis were egress-blocked, the owner supplied a canonical JSON list
+(Pillars, Persona 5 Royal); otherwise gaps were only filled from verified sources.
+
+- **Phase 1 → prod `v2.2.0`** (PRs #76, #77, #78):
+  - **Pillars of Eternity 1 & 2** — added 185 canonical quests (POE1 115, POE2
+    127) from supplied lists; switched both to a **Quest Type** sub-filter.
+  - **Persona 5 Royal** — completed Mementos Requests to the canonical **32**
+    (removed 6 non-canonical padding entries, added 28); now 66.
+  - **Black Myth: Wukong** — added 2 genuinely-missing Chapter 4 secret bosses
+    (Duskveil, Daoist Mi); now 39.
+  - **SW Jedi: Fallen Order** + **Survivor** — verified complete, no changes.
+- **Phase 2 → prod `v2.3.0`** (PRs #81, #82):
+  - **Horizon Forbidden West** — replaced 2 fabricated Burning Shores entries
+    with the DLC's real 9 quests; now 76.
+  - **Metaphor: ReFantazio** — region-taxonomy fix (added Brilehaven filter +
+    re-tagged its 6 side quests); content already complete at 76.
+  - **Ghost of Yotei** — verified complete/accurate (119; category counts match
+    sources), no changes.
+- **Phase 3 → prod `v2.3.1`** (PR #85):
+  - **Skyrim** — closed a compliance gap: expanded 50 stub walkthroughs to
+    accurate multi-step ones, renamed a mislabeled entry, removed 3 redundant
+    cross-reference stubs; now 145.
+  - **AC Valhalla** (142) + **Cyberpunk 2077** (148) — verified complete, no
+    changes.
+- **Phase 4 → no changes** (PR #88 docs):
+  - **Zelda: Tears of the Kingdom** (253) + **AC Odyssey** (353) — verified
+    complete and accurate, no changes needed.
+
+**Result: all 24 games verified.** Every entry passes the "real video **or**
+step-by-step walkthrough" rule with all core fields filled; audit integrity is
+clean across the whole dataset (2,518 quests).
+
 ### End state
-- Prod tags: **v1.0.0 → v2.0.0 → v2.1.0 → v2.1.1 → v2.1.2**.
-- `staging → main` promotion (PR #62) brought all quest-data work to prod;
-  current prod is **v2.1.2**. Staging and main are in sync.
+- Prod tags: **v1.0.0 → v2.0.0 → v2.1.0 → v2.1.1 → v2.1.2 → v2.2.0 → v2.3.0 →
+  v2.3.1** (current prod **v2.3.1**).
+- All game-verification work (Phases 1–4) is merged to `main`; staging and main
+  are in sync.
+- **Known follow-up:** 1,572 of 2,518 quest `video` fields are still YouTube
+  *search* URLs rather than specific `watch?v=` links (functional, but not
+  deep-linked). See TODO.md.
 
 ---
 
