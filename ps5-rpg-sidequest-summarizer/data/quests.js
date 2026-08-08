@@ -15918,7 +15918,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the alarm and clear the remaining goblins.",
       "Report the leaders' deaths to Halsin/the Grove to break the Absolute's hold here.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Qm2n9HSHlYU"
   },
 {
     id: 789,
@@ -19915,7 +19915,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Free the captive before the ship is destroyed.",
       "Continue to the helm to escape — her fate ties into later encounters.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Illithid's%20Captive%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqcuL5k4sA0"
   },
 {
     id: 963,
@@ -19937,7 +19937,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Discover the Emperor and the Astral-Touched tadpoles as the story's real path.",
       "This overarching quest resolves through Acts 2–3 as you decide how to use (or resist) the tadpole.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20a%20Cure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UXcM2t8eVZI"
   },
 {
     id: 964,
@@ -19959,7 +19959,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat Gut (this also completes part of 'Raid the Goblin Camp').",
       "Leave, having learned her 'cure' was a ruse.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Ask%20the%20Goblin%20Priestess%20for%20Help%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eN_zllQ_eVw"
   },
 {
     id: 965,
@@ -19981,7 +19981,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Uncover Vlaakith's lie about curing the tadpole.",
       "Decide whether to fight the crèche or leave, taking the githyanki knowledge onward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Githyanki%20Cr%C3%A8che%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GA5DaFjRPJU"
   },
 {
     id: 966,
@@ -20003,7 +20003,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "If pushed, expose her as a hag — leading into 'Save Mayrina'.",
       "Resolve the encounter, learning she offers no true cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Auntie%20Ethel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k-Z4OyWRBwY"
   },
 {
     id: 967,
@@ -20025,7 +20025,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Convince her you can be trusted (or fight your way out).",
       "Leave with her warning, continuing the search for a cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Healer%20Nettie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ntz2VYzHGH0"
   },
 {
     id: 968,
@@ -20467,7 +20467,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Prevent Isobel from being carried off (or rescue her if she is).",
       "Secure the inn to keep the safe haven intact.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Capture%20Isobel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NfQHWmneglc"
   },
 {
     id: 988,
@@ -20489,7 +20489,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach and destroy/seize Ketheric's source of immortality (tied to freeing the Nightsong).",
       "With the relic dealt with, Ketheric becomes mortal for the Act 2 boss fight.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ketheric's%20Relic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IrpvVHs7xRY"
   },
 {
     id: 989,
@@ -20511,7 +20511,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Free the caged prisoners (including Tieflings) or use the convoy to slip into Moonrise.",
       "Reach Moonrise Towers via the convoy route.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Follow%20the%20Convoy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7v1VdAuvqNE"
   },
 {
     id: 990,
@@ -20797,7 +20797,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach Gortash and choose to parley (agree to ally against Orin) or fight him.",
       "Resolve the encounter to progress the Netherstone hunt.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Enter%20Wyrm's%20Rock%20Fortress%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KkmntlNOBhY"
   },
 {
     id: 1003,
