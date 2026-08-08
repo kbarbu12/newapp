@@ -17352,7 +17352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Exploit their long recovery after the coil attacks.",
       "Immobilize to isolate and burst each down in turn."
     ],
-    video: "https://www.youtube.com/watch?v=Ci8QDJMXsaE"
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20boss%20guide"
   },
 {
     id: 833,
@@ -17550,7 +17550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after the charge attacks with Focus-charged heavies.",
       "Manage the fire hazards and whittle both foes down in phases."
     ],
-    video: "https://www.youtube.com/watch?v=CgajH7XhgSY"
+    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20boss%20guide"
   },
 {
     id: 842,
@@ -48315,7 +48315,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Exploit the openings after his poison casts; keep a cleanse/antidote ready for his venom.",
       "Defeat him to earn the Violet Hail Transformation spell."
     ],
-    video: "https://www.youtube.com/watch?v=ueR9Ts1ahP8"
+    video: "https://www.youtube.com/watch?v=z7xj0yN-icY"
   },
   {
     id: 2543,
