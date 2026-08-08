@@ -6250,7 +6250,7 @@ const quests = [
       "Return to town after Sephiroth locks himself in the Shinra Manor library; witness his breakdown.",
       "Survive the burning of Nibelheim and the reactor confrontation to close the prologue and hand control to present-day Cloud."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lWCq6MEy6CU"
   },
 {
     id: 311,
@@ -6274,7 +6274,7 @@ const quests = [
       "Visit the Chocobo Ranch and catch/tame a chocobo to unlock faster traversal.",
       "Follow the main path toward the Mythril Mine to advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eseSCmmb9Ss"
   },
 {
     id: 312,
@@ -6298,7 +6298,7 @@ const quests = [
       "Encounter the mysterious black-caped swordsman on the road beyond the mine.",
       "Exit toward the Junon coast to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3Qt_YcUiLS0"
   },
 {
     id: 313,
@@ -6322,7 +6322,7 @@ const quests = [
       "Prepare for the upcoming Junon parade — practice the marching drill when prompted.",
       "Advance the main path toward Junon proper."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-3A6ACMbh3k"
   },
 {
     id: 314,
@@ -6346,7 +6346,7 @@ const quests = [
       "See the shipboard confrontation through to its climax.",
       "Arrive at Costa del Sol to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HiaMSkSRa1k"
   },
 {
     id: 315,
@@ -6369,7 +6369,7 @@ const quests = [
       "Try the local minigames (they feed trophies and rewards) and clear the region's Odd Jobs.",
       "Follow the main path out toward the Corel region and its desert."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J-y0CGl3bjk"
   },
 {
     id: 316,
@@ -6392,7 +6392,7 @@ const quests = [
       "Progress the story tied to Barret and Dyne's shared past.",
       "Ride the region chocobo across the gaps to reach objectives, then advance toward the Gold Saucer."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QnJwSG904s4"
   },
 {
     id: 317,
@@ -6415,7 +6415,7 @@ const quests = [
       "Descend to Corel Prison and confront the wrenching story of Dyne.",
       "Fight the chapter's major boss beat, then complete the events to move on."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jI5tFvhy5dg"
   },
 {
     id: 318,
@@ -6439,7 +6439,7 @@ const quests = [
       "Uncover the reactor-meltdown legacy through the story beats.",
       "Advance the main path once the region's key events resolve."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fKZTuy38vXQ"
   },
 {
     id: 319,
@@ -6462,7 +6462,7 @@ const quests = [
       "Complete the region's tower and intel, and take on the Cosmo Odd Jobs.",
       "See Red XIII's arc through its emotional peak, then advance toward Nibelheim."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tMpEErRLwYE"
   },
 {
     id: 320,
@@ -6485,7 +6485,7 @@ const quests = [
       "Confront the contradictions in Cloud's memories through the story beats.",
       "Clear the mansion's encounters and push the plot toward its next turn."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5Gy7HBZoxc0"
   },
 {
     id: 321,
@@ -6508,7 +6508,7 @@ const quests = [
       "Complete the required Gold Saucer story events (including the date sequence set by your relationship choices).",
       "When ready, advance the main story toward the Temple of the Ancients (a point of no return follows)."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0zxhzIW2VbA"
   },
 {
     id: 322,
@@ -6532,7 +6532,7 @@ const quests = [
       "Progress the pivotal story confrontation inside the temple.",
       "Complete the chapter to reach the finale's approach."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Igvmt3VSpxM"
   },
 {
     id: 323,
@@ -6555,7 +6555,7 @@ const quests = [
       "Fight the chapter's multi-phase boss battles with your strongest builds and summons.",
       "See the story through its emotional conclusion and the game's ending sequence."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vhg0ly6ZDXQ"
   },
 {
     id: 324,
