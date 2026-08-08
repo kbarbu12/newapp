@@ -7941,7 +7941,7 @@ const quests = [
       "Recover the data and face the setback that sends Aloy deeper into the Forbidden West.",
       "Set out west to continue into the Daunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZTvw4w8C7ZU"
   },
 {
     id: 384,
@@ -7963,7 +7963,7 @@ const quests = [
       "Follow the main objective toward the tense embassy meeting.",
       "Handle the trouble that erupts and secure passage deeper into Tenakth land."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hPEongJ8d30"
   },
 {
     id: 385,
@@ -7985,7 +7985,7 @@ const quests = [
       "Exploit machine and rebel components with matched ammo during the fight.",
       "Hold the line to earn the Tenakth's trust and open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OExmuaR0td0"
   },
 {
     id: 386,
@@ -8007,7 +8007,7 @@ const quests = [
       "Progress through the Embassy events and the major reveal about the western threat.",
       "Continue the main path once the chapter's confrontation resolves."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8eYFdTYJTY4"
   },
 {
     id: 387,
@@ -8029,7 +8029,7 @@ const quests = [
       "Clear the cauldron and speak with Beta.",
       "Watch the reveal that carries directly into All That Remains."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oRQqJyXDgZU"
   },
 {
     id: 388,
@@ -8051,7 +8051,7 @@ const quests = [
       "Fight through the escalating waves and mini-bosses toward the final confrontation.",
       "Defeat the Zeniths to secure the biosphere's future and complete the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ls1PCcXuyhk"
   },
 {
     id: 389,
@@ -8205,7 +8205,7 @@ const quests = [
       "Descend into the tunnels with Alva and survive the cloaked Dreadwing ambush.",
       "Secure DEMETER and return to the Base to reintegrate it under GAIA."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WZfzJzFj_z8"
   },
 {
     id: 396,
@@ -13885,7 +13885,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Descend into the facility and clear its machines.",
       "Follow the ELEUTHIA lead to continue the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Knz2a4VIYgo"
   },
 {
     id: 666,
@@ -13929,7 +13929,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Finish any remaining side quests and errands while you can.",
       "Complete the chapter to set up the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lIKxSKAjHkU"
   },
 {
     id: 668,
@@ -27968,7 +27968,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Present Aloy's case for passage into the Clan Lands through the dialogue choices.",
       "Follow the fallout of the meeting to open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Embassy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N9jOFQv9PQg"
   },
   {
     id: 1373,
@@ -27988,7 +27988,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Dive through the flooded chambers to reach the core.",
       "Recover the GAIA data and absorb the reveal that reshapes the mission."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Eye%20of%20the%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rQtVPtOidRY"
   },
   {
     id: 1374,
@@ -52955,7 +52955,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Meet the Quen rebel Seyka and agree to work together.",
       "Follow the leads toward the surviving Zenith, Walter Londra."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20To%20the%20Burning%20Shores%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FqId1BZONj0"
   },
   {
     id: 2574,
@@ -52975,7 +52975,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through the machines guarding the complex.",
       "Uncover the truth behind the Quen disappearances and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Heaven%20and%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4qYuDXZjRVg"
   },
   {
     id: 2575,
@@ -52995,7 +52995,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the machines guarding the depths.",
       "Piece together the clues about Londra’s scheme."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Stars%20in%20Their%20Eyes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ph7a6BiZM3g"
   },
   {
     id: 2576,
@@ -53015,7 +53015,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the escalating threat Londra poses.",
       "Advance toward the final confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20For%20His%20Amusement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g3V-WL6KhJU"
   },
   {
     id: 2577,
@@ -53036,7 +53036,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the Horus Titan in the series' biggest boss battle.",
       "Stop Londra and end his plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20His%20Final%20Act%20walkthrough"
+    video: "https://www.youtube.com/watch?v=78Rn67uc-8w"
   },
   {
     id: 2578,
@@ -53056,7 +53056,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Epilogue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCiyxC2Lyc8"
   },
   {
     id: 2579,
