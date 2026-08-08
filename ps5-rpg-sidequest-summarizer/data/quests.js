@@ -42913,7 +42913,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Record%20Sunshine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uPoxr7NFlz8"
   },
 {
     id: 2082,
@@ -42933,7 +42933,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Happy%20Hour%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k2WZBbRkkY4"
   },
 {
     id: 2083,
@@ -42953,7 +42953,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Pressed%20for%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q8RV2UT2syM"
   },
 {
     id: 2084,
@@ -42973,7 +42973,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20A%20Specific%20General%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tBzcJlR7hxg"
   },
 {
     id: 2085,
