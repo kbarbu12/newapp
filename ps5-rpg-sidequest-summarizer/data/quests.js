@@ -36714,7 +36714,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Keep deflecting aggressively so posture damage doesn't recover.",
       "Break his posture and land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Naomori%20Kawarada%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vVfKXAO1Quk"
   },
 {
     id: 1808,
@@ -36760,7 +36760,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Chip posture steadily without over-committing.",
       "Break posture and finish with a Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Tenzen%20Yamauchi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oxTQ3wf_Gow"
   },
 {
     id: 1810,
@@ -37035,7 +37035,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Stay aggressive; his posture breaks easily.",
       "Land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tokujiro%20the%20Glutton%20walkthrough"
+    video: "https://www.youtube.com/watch?v=urFLoKclF7Q"
   },
 {
     id: 1822,
@@ -37399,7 +37399,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Spend Emblems to fuel it; feed the Sculptor materials to upgrade it.",
       "Deploy it against shielded foes and posture-heavy mini-bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Axe%20%E2%80%94%20Acquisition%20%26%20Upgrade%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t89x2s3xGOw"
   },
 {
     id: 1838,
@@ -37422,7 +37422,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it (e.g., Projected Force) to counterattack from the block.",
       "Use it against gunners, Snake Eyes, and projectile-heavy fights."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Umbrella%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sjko1Aa9nSo"
   },
 {
     id: 1839,
@@ -37445,7 +37445,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it for more pull power and damage.",
       "Deploy it to disarm/expose armored and parasite-infested enemies."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Spear%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x_5nVj98YaQ"
   },
 {
     id: 1840,
@@ -37468,7 +37468,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it (e.g., Spinning/Gyoubu's) for more hits and posture damage.",
       "Use it to control range and interrupt jumps."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Shuriken%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vCvVNCLlfsE"
   },
 {
     id: 1841,
@@ -37491,7 +37491,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it (Okinaga's/Spring-load) for bigger bursts.",
       "Use it against beasts and the Guardian Ape, which fear fire."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Flame%20Vent%20%E2%80%94%20Acquisition%20Path%20(Anayama%20the%20Peddler%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PFkYHzO0M80"
   },
 {
     id: 1842,
@@ -37514,7 +37514,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it for faster poison build-up.",
       "Deploy it against rusted/corroded foes and poison-weak bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sabimaru%20%E2%80%94%20Acquisition%20Path%20(Poison-Perfect%20Tool)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgcJcYvXgGU"
   },
 {
     id: 1843,
@@ -37537,7 +37537,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade the fire branch to burst enemies with flame on the escape.",
       "Save it for unavoidable heavy hits and clutch escapes."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Mist%20Raven%20%2F%20Mist%20Raven's%20Feathers%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i2hkHYUwXS0"
   },
 {
     id: 1844,
@@ -37560,7 +37560,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade it (Malcontent path later) for a posture-stunning shriek vs apparitions.",
       "Deploy it against beast enemies and certain apparition bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Finger%20Whistle%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20related)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EVX5MCgLASQ"
   },
 {
     id: 1845,
