@@ -3484,7 +3484,7 @@ const quests = [
       "Recover Rayad's mask from the dead cultist as evidence.",
       "Return to Ybril at Barren Light to prove Conover's innocence."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2AcuxO04LDw"
   },
 {
     id: 182,
@@ -7941,7 +7941,7 @@ const quests = [
       "Recover the data and face the setback that sends Aloy deeper into the Forbidden West.",
       "Set out west to continue into the Daunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
+    video: "https://www.youtube.com/watch?v=99BpPW2tdRc"
   },
 {
     id: 384,
@@ -7963,7 +7963,7 @@ const quests = [
       "Follow the main objective toward the tense embassy meeting.",
       "Handle the trouble that erupts and secure passage deeper into Tenakth land."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hPEongJ8d30"
   },
 {
     id: 385,
@@ -7985,7 +7985,7 @@ const quests = [
       "Exploit machine and rebel components with matched ammo during the fight.",
       "Hold the line to earn the Tenakth's trust and open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OExmuaR0td0"
   },
 {
     id: 386,
@@ -8007,7 +8007,7 @@ const quests = [
       "Progress through the Embassy events and the major reveal about the western threat.",
       "Continue the main path once the chapter's confrontation resolves."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8eYFdTYJTY4"
   },
 {
     id: 387,
@@ -8029,7 +8029,7 @@ const quests = [
       "Clear the cauldron and speak with Beta.",
       "Watch the reveal that carries directly into All That Remains."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oRQqJyXDgZU"
   },
 {
     id: 388,
@@ -8051,7 +8051,7 @@ const quests = [
       "Fight through the escalating waves and mini-bosses toward the final confrontation.",
       "Defeat the Zeniths to secure the biosphere's future and complete the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BF1fjp_Rq4E"
   },
 {
     id: 389,
@@ -8073,7 +8073,7 @@ const quests = [
       "Hunt the specific machines that drop the required components.",
       "Return the parts to Petra to claim her powerful gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Twilight%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cobuurPFn80"
   },
 {
     id: 390,
@@ -8095,7 +8095,7 @@ const quests = [
       "Follow the power cables and solve the light puzzles to restore the display.",
       "Recover the holiday ornament and return it to Stemmur."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Nights%20of%20Lights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cb8f0Z9Zelo"
   },
 {
     id: 391,
@@ -8117,7 +8117,7 @@ const quests = [
       "Follow the trail to the source disturbing the machines.",
       "Resolve the threat to protect the settlement."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20in%20the%20West%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3zX5gifC8kg"
   },
 {
     id: 392,
@@ -8139,7 +8139,7 @@ const quests = [
       "Use your Focus to spot the ambusher before it strikes.",
       "Hunt down the machine to end the threat to the missing hunters."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MsQDWuGysGU"
   },
 {
     id: 393,
@@ -8183,7 +8183,7 @@ const quests = [
       "Clear the heavy-weapon rebels methodically.",
       "Eliminate the cell's leader to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ohsSds9bKcQ"
   },
 {
     id: 395,
@@ -8205,7 +8205,7 @@ const quests = [
       "Descend into the tunnels with Alva and survive the cloaked Dreadwing ambush.",
       "Secure DEMETER and return to the Base to reintegrate it under GAIA."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gnWe-D4N7Q0"
   },
 {
     id: 396,
@@ -8227,7 +8227,7 @@ const quests = [
       "Travel to the marked location and deal with what you find.",
       "Complete the errand for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Broken%20Locks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E7ptoLUEgQo"
   },
 {
     id: 397,
@@ -8249,7 +8249,7 @@ const quests = [
       "Trace the corruption across the scarred land with your Focus.",
       "Destroy the source to heal the wound in the land."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Land%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CIVySCkBLUs"
   },
 {
     id: 398,
@@ -8271,7 +8271,7 @@ const quests = [
       "Defeat the boss machine guarding each core to unlock its overrides.",
       "Clear all of them to massively expand your machine-override roster."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cauldrons%3A%20Machine%20Overrides%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wiPc0t9so5U"
   },
 {
     id: 399,
@@ -8293,7 +8293,7 @@ const quests = [
       "Defeat the camp commander once the guards are cleared.",
       "Claim the strong loot each cleared camp drops."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Rebel%20Camps%20%26%20Outposts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yVnU2h6MUDg"
   },
 {
     id: 400,
@@ -8315,7 +8315,7 @@ const quests = [
       "Use specialized ammo and traps to hit the requirements fast.",
       "Earn full marks to unlock prestige gear rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LwiP1sixcqU"
   },
 {
     id: 401,
@@ -8337,7 +8337,7 @@ const quests = [
       "Solve the traversal puzzles to reach the sealed chamber.",
       "Claim the ruin's treasure to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZhsV-8WQEXA"
   },
 {
     id: 402,
@@ -8359,7 +8359,7 @@ const quests = [
       "Climb to the Tallneck's head and override it.",
       "Reveal the region's map and machine sites."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Tallnecks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0W2-sk9-urY"
   },
 {
     id: 403,
@@ -8381,7 +8381,7 @@ const quests = [
       "Hunt those machines and tear off the specific parts.",
       "Turn in the components for rare upgrade materials."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Salvage%20Contracts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mJhWwGQUgso"
   },
 {
     id: 404,
@@ -8403,7 +8403,7 @@ const quests = [
       "Ride clean racing lines to beat the course times.",
       "Win to claim the Gauntlet rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gauntlet%20Runs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=knZtY0ArEss"
   },
 {
     id: 405,
@@ -8425,7 +8425,7 @@ const quests = [
       "Swap your loadout to counter the wave and machine types.",
       "Clear the waves to earn Arena medals and gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Arena%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cZedsv61JWw"
   },
 {
     id: 406,
@@ -8447,7 +8447,7 @@ const quests = [
       "Practice the resonator-blast combo timing.",
       "Master all pits to unlock the powerful melee combos."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Melee%20Pits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lb6T5u04c6g"
   },
 {
     id: 407,
@@ -8469,7 +8469,7 @@ const quests = [
       "Defeat the ranked players across the West.",
       "Beat the best champions to complete the challenge."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JkWNz7wzt-Q"
   },
 {
     id: 410,
@@ -13885,7 +13885,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Descend into the facility and clear its machines.",
       "Follow the ELEUTHIA lead to continue the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QTaMj0NkhJM"
   },
 {
     id: 666,
@@ -13907,7 +13907,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Harvest the Control Cores and return them to Zo.",
       "Restore the Utaru's machine 'gods' to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Second%20Verse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Atriqvntv-g"
   },
 {
     id: 667,
@@ -13929,7 +13929,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Finish any remaining side quests and errands while you can.",
       "Complete the chapter to set up the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UP3y3yFN3kk"
   },
 {
     id: 668,
@@ -13951,7 +13951,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pull people from the wreckage and tend to the wounded.",
       "See the rescue through to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Deluge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BbEXubWE_gk"
   },
 {
     id: 669,
@@ -13973,7 +13973,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help gather and rig the parts for the test.",
       "See the flying experiment through to its finish."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Lofty%20Ambitions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ba97xaR3N7A"
   },
 {
     id: 670,
@@ -13995,7 +13995,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Trace the problem to its source.",
       "Fix the cause to restore the fields."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Roots%20that%20Bind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nXX125aAXqE"
   },
 {
     id: 671,
@@ -14017,7 +14017,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fly to the mountaintop north of The Bulwark where Ferikka crashed.",
       "Recover her armour and return it to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20First%20to%20Fly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sIzKWiAUNb0"
   },
 {
     id: 672,
@@ -14039,7 +14039,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Clear the machines besieging the tower.",
       "Secure the watchtower to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signals%20of%20the%20Sun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hRNu5UoS8ks"
   },
 {
     id: 673,
@@ -14061,7 +14061,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Littay and clear the Burrowers and Spikesnouts around the sled.",
       "Finish off the ambushing Clawstrider to recover the supplies."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Supply%20Drop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SF05gXDfox4"
   },
 {
     id: 674,
@@ -14083,7 +14083,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dive the relic lake and recover the sunken Old World finds.",
       "Bring the relics back to the scholars to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Drowned%20Hopes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yFz1REemvjs"
   },
 {
     id: 675,
@@ -14105,7 +14105,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Search the wreck and retrieve the Gyrocompass.",
       "Return it to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Way%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5u1WDowzkvM"
   },
 {
     id: 676,
@@ -27968,7 +27968,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Present Aloy's case for passage into the Clan Lands through the dialogue choices.",
       "Follow the fallout of the meeting to open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Embassy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N9jOFQv9PQg"
   },
   {
     id: 1373,
@@ -27988,7 +27988,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Dive through the flooded chambers to reach the core.",
       "Recover the GAIA data and absorb the reveal that reshapes the mission."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Eye%20of%20the%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_eqvYT0WZcY"
   },
   {
     id: 1374,
@@ -28008,7 +28008,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through the machines nesting in the flooded tunnels.",
       "Free the trapped miners and expose the cause of the collapse."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Deep%20Trouble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lSUgBcUxs2U"
   },
   {
     id: 1375,
@@ -28028,7 +28028,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Deal with the machines and hazards guarding the salvage.",
       "Return to Porguf and decide how to settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Breaking%20Even%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GuQ5ItY92YE"
   },
   {
     id: 1376,
@@ -28048,7 +28048,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Retrieve it discreetly, avoiding unnecessary conflict.",
       "Report back and see how the tension among the Tenakth resolves."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Need%20to%20Know%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 1377,
@@ -28068,7 +28068,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Take them down using their weak points and elemental weaknesses.",
       "Return to the soldier to complete the hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1sofkBFWyKw"
   },
 {
     id: 1378,
@@ -28090,7 +28090,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear any machines guarding the gathering sites.",
       "Deliver everything to Milduf to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Dash%20of%20Courage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CqkyZwJLwJY"
   },
 {
     id: 1379,
@@ -28112,7 +28112,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hunt the machines and tear off the exact parts.",
       "Return the parts to Delah to claim the upgraded gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Bigger%20Boom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fwh5Q0YRdpo"
   },
 {
     id: 1380,
@@ -28134,7 +28134,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Present the Clan Marks to gain an audience with The Enduring.",
       "Defeat The Enduring to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Enduring%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dAwoTuiA6NU"
   },
 {
     id: 1381,
@@ -28156,7 +28156,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accompany Drakka and harvest the penned machine herd for their hearts.",
       "See the risky hunt through to help the village."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Thirst%20for%20the%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gxsxUxnQBNU"
   },
   {
     id: 1382,
@@ -28176,7 +28176,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Hold position until the Old World image resolves and logs the datapoint.",
       "Repeat for all nine Vista Points across the regions."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Vista%20Points%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jMz1JZsnC1E"
   },
   {
     id: 1383,
@@ -28196,7 +28196,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Collect it to unlock its datapoint.",
       "Gather all twelve to complete the set and its trophy."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Black%20Boxes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WmB2dfnioqE"
   },
   {
     id: 1384,
@@ -28216,7 +28216,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Grab the lens to log the collectible.",
       "Collect all six to complete the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signal%20Lenses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ehXzacnrXqw"
   },
   {
     id: 1385,
@@ -28236,7 +28236,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Down it quickly with a strong ranged shot before it escapes.",
       "Collect its drop and repeat for all ten drones."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Survey%20Drones%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cx8SjdntTKA"
   },
   {
     id: 1386,
@@ -28256,7 +28256,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Pick up the ornament to add it to your collection.",
       "Return to the Base to display the ornaments you've gathered."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Ornaments%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JONWtNZ6TdQ"
   },
   {
     id: 1387,
@@ -28276,7 +28276,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Interact with it to record its history.",
       "Visit all three to complete the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20War%20Totems%20walkthrough"
+    video: "https://www.youtube.com/watch?v=poCOQtSvxMQ"
   },
   {
     id: 1388,
@@ -28296,7 +28296,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Harvest the Greenshine Slab.",
       "Bank the Greenshine toward your highest-tier gear upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Greenshine%20Slabs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=B1iEuY74BYY"
   },
   {
     id: 1389,
@@ -52955,7 +52955,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Meet the Quen rebel Seyka and agree to work together.",
       "Follow the leads toward the surviving Zenith, Walter Londra."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20To%20the%20Burning%20Shores%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FqId1BZONj0"
   },
   {
     id: 2574,
@@ -52975,7 +52975,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through the machines guarding the complex.",
       "Uncover the truth behind the Quen disappearances and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Heaven%20and%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4qYuDXZjRVg"
   },
   {
     id: 2575,
@@ -52995,7 +52995,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the machines guarding the depths.",
       "Piece together the clues about Londra’s scheme."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Stars%20in%20Their%20Eyes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ph7a6BiZM3g"
   },
   {
     id: 2576,
@@ -53015,7 +53015,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the escalating threat Londra poses.",
       "Advance toward the final confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20For%20His%20Amusement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g3V-WL6KhJU"
   },
   {
     id: 2577,
@@ -53036,7 +53036,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the Horus Titan in the series' biggest boss battle.",
       "Stop Londra and end his plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20His%20Final%20Act%20walkthrough"
+    video: "https://www.youtube.com/watch?v=78Rn67uc-8w"
   },
   {
     id: 2578,
@@ -53056,7 +53056,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Epilogue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCiyxC2Lyc8"
   },
   {
     id: 2579,
@@ -53076,7 +53076,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the machines or hazards blocking the way.",
       "Resolve the situation and report back for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20A%20Friend%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0m64NA3yFO0"
   },
   {
     id: 2580,
@@ -53096,7 +53096,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Overcome the enemies or obstacles you find.",
       "Resolve the quest and return for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Splinter%20Within%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CP7S-zPzp2Y"
   },
   {
     id: 2581,
@@ -53116,6 +53116,6 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the machines or hazards in your path.",
       "Complete the objective and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20In%20His%20Wake%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GhJrP6WhZkI"
   }
 ];
