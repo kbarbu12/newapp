@@ -17352,7 +17352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Exploit their long recovery after the coil attacks.",
       "Immobilize to isolate and burst each down in turn."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=-zKaMixO05g"
   },
 {
     id: 833,
@@ -17528,7 +17528,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Immobilize one to fight them one at a time.",
       "Burst each down during their shared attack cooldowns."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4XBQfYS7x60"
   },
 {
     id: 841,
@@ -17550,7 +17550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after the charge attacks with Focus-charged heavies.",
       "Manage the fire hazards and whittle both foes down in phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=Bs8X_lv38dM"
   },
 {
     id: 842,
@@ -17572,7 +17572,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish between their spell casts with quick combos.",
       "Break their poise to end the Flaming Mountains' curse encounter."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UFVIrvhqYww"
   },
 {
     id: 843,
@@ -18848,7 +18848,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the Ghost-and-Demon duel at the climax.",
       "Resolve the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rLzpS4zMVi4"
   },
 {
     id: 915,
@@ -19184,7 +19184,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the source of the suffering.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PByzS2KE-kA"
   },
 {
     id: 929,
@@ -19232,7 +19232,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the cause at the climax.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MICiJntKdP4"
   },
 {
     id: 931,
@@ -19256,7 +19256,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the final foe and end the suffering.",
       "Complete the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QZtRt1q2eyw"
   },
 {
     id: 932,
@@ -19304,7 +19304,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the truth binding them together.",
       "Resolve the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OCBDT-aQQWI"
   },
 {
     id: 934,
@@ -37058,7 +37058,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Its posture and health are low — a couple of hits stagger it.",
       "Land the Deathblow to dispel it."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sword%20Saint's%20Ripples%20(mist%20noble%20variants)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2FJrIJmZxkM"
   },
 {
     id: 1823,
@@ -37376,7 +37376,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Keep collecting Carp Scales from waterways to buy more hints.",
       "Use his intel to complete otherwise obscure questlines."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Fujioka%20the%20Info%20Broker%20%E2%80%94%20Information%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=amtzHquaYGw"
   },
 {
     id: 1837,
@@ -42913,7 +42913,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Record%20Sunshine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P3ZPOD8bSqc"
   },
 {
     id: 2082,
@@ -42933,7 +42933,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Happy%20Hour%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k2WZBbRkkY4"
   },
 {
     id: 2083,
@@ -42953,7 +42953,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20Pressed%20for%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V069Av-Ua00"
   },
 {
     id: 2084,
@@ -42973,7 +42973,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
       "Return to the quest-giver (or complete the final objective) to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Odyssey%20A%20Specific%20General%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MpehLHsDJdY"
   },
 {
     id: 2085,
