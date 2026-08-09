@@ -2973,7 +2973,7 @@ const quests = [
       "Keep checking in across your playthrough to hear his search for his family unfold.",
       "Continue the conversations to their end to reach the questline's somber conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stockpile%20Thomas%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iniUMnWLHHk"
   },
 {
     id: 142,
@@ -3045,7 +3045,7 @@ const quests = [
       "Cutting him down in the Nexus rewards the full Gloom Set.",
       "Advanced: his killings serve Mephistopheles — only accept her contracts at Pure Black world tendency if you deliberately want that path."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbjMhvECyEo"
   },
 {
     id: 146,
@@ -14895,7 +14895,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the archstones to travel out to any of the five worlds.",
       "Return to the Nexus between runs to restock, store items with Stockpile Thomas, and level up."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zS7vCA4ZTGc"
   },
 {
     id: 747,
@@ -14919,7 +14919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Penetrator (summon Biorr for help) to open the inner keep.",
       "Take the archstone up to the False King's arena to finish the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eIqjkywCFLs"
   },
 {
     id: 748,
@@ -14943,7 +14943,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Dragon God, move between the stone cover so it can't spot you, and reach the two ballistae.",
       "Fire both ballistae to pin its arms, then hit its exposed head to finish the Dragon God."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dsnhOy7k5Os"
   },
 {
     id: 749,
@@ -14967,7 +14967,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to the Old Monk — note the fight may summon another player to act as the boss.",
       "Defeat the Old Monk (or the invading phantom) to clear the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f2V0bh2CgPY"
   },
 {
     id: 750,
@@ -14991,7 +14991,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Storm King, charge the Storm Ruler's heavy attack to loose wind blades that shred the flying Manta swarm.",
       "Keep firing wind blades to bring the Storm King down and complete the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TxnBkY9iIQg"
   },
 {
     id: 751,
@@ -15015,7 +15015,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Either defeat Garl or slip past him and approach Astraea directly.",
       "Choose whether to strike down Maiden Astraea to claim her Demon's Soul — an intentionally somber kill."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qLfpFba-LOY"
   },
 {
     id: 752,
@@ -15039,7 +15039,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Walk out to the Old One and approach the Maiden in Black.",
       "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pruN3Z5nwYE"
   },
 {
     id: 753,
@@ -15063,7 +15063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shift Character Tendency white by co-op and aiding others, or black by invasions and killing NPCs.",
       "Plan runs around tendency, since some NPCs, bosses, and rare items only appear at a specific state."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UlCzneBvAdI"
   },
 {
     id: 754,
@@ -15087,7 +15087,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take Colorless Souls to Blacksmith Ed or Boldwin to apply special upgrades.",
       "Repeat across worlds at Pure White to gather enough Colorless Souls for your build."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PXqQIvlFG0A"
   },
 {
     id: 755,
@@ -15111,7 +15111,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Colorless Demon's Souls with Ed to push weapons down their special upgrade paths.",
       "Upgrade deliberately, since boss souls are limited per playthrough."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wY_0WZaN9u4"
   },
 {
     id: 2352,
@@ -25900,7 +25900,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear Jedi Chambers, which frequently reward an Essence at their end.",
       "Mop up Skill and Perk Essences last to round out Cal's build."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20all%20essences%20collectibles%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4lQHGvKIfUQ"
   },
 {
     id: 1340,
@@ -25981,7 +25981,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find the cave near the water's edge and wall-run up to the higher ledge.",
       "Claim the Priorite Shard to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Abandoned%20Shack%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dnrG6Rf8clg"
   },
 {
     id: 1345,
@@ -26002,7 +26002,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Talk to Skoova Stev and accept his offer to join you.",
       "Return to Pyloon's Saloon to find him by the aquarium on the second floor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20the%20Mysterious%20Fisherman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rvRVD24vdqw"
   },
 {
     id: 1346,
@@ -26023,7 +26023,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Recover the jukebox components as directed.",
       "Return to the saloon to restore the music."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20the%20Musician%20and%20Their%20Droid%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SDgUBQo5_Yw"
   },
 {
     id: 1347,
@@ -26044,7 +26044,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through the bog's creatures to reach Zygg.",
       "Escort or clear the way so Zygg can return to the saloon."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Help%20Zygg%20in%20the%20Swamp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZkTbG6auiyI"
   },
 {
     id: 1348,
@@ -26065,7 +26065,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the Bedlam Raiders and battle droids besieging the Jawas.",
       "Talk to the surviving Jawa afterward to complete the rumor and gain the recruit."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20the%20Jawa%20Settlement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=39-e7Jxeh64"
   },
 {
     id: 1349,
@@ -26086,7 +26086,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Investigate the odd pair and resolve the encounter.",
       "Return to unlock the Holotactics Table on the saloon's second floor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Locate%20the%20Odd%20Pair%20walkthrough"
+    video: "https://www.youtube.com/watch?v=km3qJoKgzmc"
   },
 {
     id: 1350,
@@ -26107,7 +26107,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Deal with the creatures that trapped them.",
       "Recover the prospectors' effects to close out the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Missing%20Prospectors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uqcQ8vDHCRs"
   },
 {
     id: 1351,
@@ -26128,7 +26128,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Call the Trontoshell as a mount and ride it up to the branching ledges.",
       "Force-move the crate to climb up, then open the chest for the Hunter lightsaber cosmetic."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fe8elD3LUKM"
   },
 {
     id: 1352,
@@ -26149,7 +26149,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through its defenses and solve the interior puzzles.",
       "Reach the facility's core to complete the investigation."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Central%20Valley%20Facility%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_Se9W6NnaGw"
   },
 {
     id: 1353,
@@ -26170,7 +26170,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the factory's roller mines and droid defenders.",
       "Reach the control room to finish the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Roller%20Mine%20Factory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nuij1BhUyas"
   },
 {
     id: 1354,
@@ -26191,7 +26191,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Locate the concealed chamber entrance.",
       "Solve the chamber's puzzle to claim its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Forest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Jj8OAduJR78"
   },
 {
     id: 1355,
@@ -26212,7 +26212,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Climb to the concealed chamber entrance.",
       "Solve the chamber puzzle to earn the Patience Perk."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20on%20the%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GTMJ6flp6Qw"
   },
 {
     id: 1356,
@@ -26233,7 +26233,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the threats surrounding Pili.",
       "Send her back to Pyloon's Saloon to open the rooftop garden."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20in%20With%20Pili%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E3d4AIBmWOM"
   },
 {
     id: 1357,
@@ -26254,7 +26254,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Push the sliding rock into place, then guide the moving Orb upward.",
       "Climb the ruins and set the Orb to complete the puzzle."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Northern%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uGpkCJX92XI"
   },
 {
     id: 1358,
@@ -26275,7 +26275,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
       "Reach the inner chamber to claim the perk slot."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Southern%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y_N-0SiW1Fc"
   },
 {
     id: 1359,
@@ -26296,7 +26296,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Solve the Orb-and-slider puzzle to align the mechanism.",
       "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7jRd8EUyW-o"
   },
 {
     id: 1360,
@@ -26317,7 +26317,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the Bedlam Raiders and battle droids garrisoned there.",
       "Reach the top of the tower and claim the stashed loot to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Raider%20Watchtower%20walkthrough"
+    video: "https://www.youtube.com/watch?v=F1RG4nD_3Og"
   },
 {
     id: 1361,
@@ -26338,7 +26338,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Locate the chamber entrance concealed among the bog ruins.",
       "Solve the interior Force puzzle to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Swamp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=49dafR1iaLY"
   },
 {
     id: 1362,
@@ -26359,7 +26359,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find the concealed chamber entrance in the valley.",
       "Complete the chamber's puzzle to earn its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Valley%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qZ8wjnilw8Y"
   },
 {
     id: 1363,
@@ -26380,7 +26380,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Finish the conversation to convince them to join.",
       "Return to Pyloon's Saloon to find the pair settled in."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20Ashe%20Javi%20%26%20DD-EC%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8q3za6xH8qQ"
   },
 {
     id: 1364,
@@ -26401,7 +26401,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Complete the interaction to bring the droid onside.",
       "Head back to Pyloon's Saloon to see T-1N8 among the patrons."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20T-1N8%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0LljDBoVnK0"
   },
 {
     id: 1365,
@@ -26422,7 +26422,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find Wini and Zygg and see how the pair are faring.",
       "Finish the conversation to close out the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20Wini%20%26%20Zygg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yezOASkJnOU"
   },
 {
     id: 1366,
@@ -26443,7 +26443,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Interact with it to browse the unlocked tracks.",
       "Play a song to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Use%20the%20Saloon's%20Jukebox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NZRylg_72II"
   },
 {
     id: 1367,
@@ -26464,7 +26464,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Visit the aquarium on the second floor of Pyloon's Saloon.",
       "Inspect the fish to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20the%20Aquarium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kHuyhMfnFoc"
   },
 {
     id: 1368,
@@ -26485,7 +26485,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Challenge an opponent and set up your unit board.",
       "Win a match of Holotactics to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Play%20a%20Holotactics%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Eo2wIKlHmgg"
   },
 {
     id: 1369,
@@ -26506,7 +26506,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Browse her stock of perks, upgrades and cosmetics.",
       "Spend Priorite Shards to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Doma's%20Shop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2tLlZ5kixVc"
   },
 {
     id: 1370,
@@ -26527,7 +26527,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Buy a region map to reveal collectibles and points of interest.",
       "Complete a purchase to finish the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Zee's%20Shop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QTWghQ5MB5c"
   },
 {
     id: 1371,
@@ -26548,7 +26548,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Navigate the low-gravity platforming and heavy security droids.",
       "Reach the lower vault and claim its contents to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Factory's%20Lower%20Levels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qwpD8j-VeiU"
   },
   {
     id: 1132,
