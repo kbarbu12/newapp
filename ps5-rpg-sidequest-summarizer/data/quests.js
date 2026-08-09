@@ -6250,7 +6250,7 @@ const quests = [
       "Return to town after Sephiroth locks himself in the Shinra Manor library; witness his breakdown.",
       "Survive the burning of Nibelheim and the reactor confrontation to close the prologue and hand control to present-day Cloud."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o83tdtjTIjk"
   },
 {
     id: 311,
@@ -6274,7 +6274,7 @@ const quests = [
       "Visit the Chocobo Ranch and catch/tame a chocobo to unlock faster traversal.",
       "Follow the main path toward the Mythril Mine to advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HpXU8prJnt8"
   },
 {
     id: 312,
@@ -6298,7 +6298,7 @@ const quests = [
       "Encounter the mysterious black-caped swordsman on the road beyond the mine.",
       "Exit toward the Junon coast to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tSv2pPJ8jZ8"
   },
 {
     id: 313,
@@ -6322,7 +6322,7 @@ const quests = [
       "Prepare for the upcoming Junon parade — practice the marching drill when prompted.",
       "Advance the main path toward Junon proper."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KpRPYqeKpRE"
   },
 {
     id: 314,
@@ -6346,7 +6346,7 @@ const quests = [
       "See the shipboard confrontation through to its climax.",
       "Arrive at Costa del Sol to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7B-8VOapO98"
   },
 {
     id: 315,
@@ -6369,7 +6369,7 @@ const quests = [
       "Try the local minigames (they feed trophies and rewards) and clear the region's Odd Jobs.",
       "Follow the main path out toward the Corel region and its desert."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ch2ls9_JWZE"
   },
 {
     id: 316,
@@ -6392,7 +6392,7 @@ const quests = [
       "Progress the story tied to Barret and Dyne's shared past.",
       "Ride the region chocobo across the gaps to reach objectives, then advance toward the Gold Saucer."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Rbah5A2_aHw"
   },
 {
     id: 317,
@@ -6415,7 +6415,7 @@ const quests = [
       "Descend to Corel Prison and confront the wrenching story of Dyne.",
       "Fight the chapter's major boss beat, then complete the events to move on."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKSj7oMpNW4"
   },
 {
     id: 318,
@@ -6439,7 +6439,7 @@ const quests = [
       "Uncover the reactor-meltdown legacy through the story beats.",
       "Advance the main path once the region's key events resolve."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zK7i3-MMgSo"
   },
 {
     id: 319,
@@ -6462,7 +6462,7 @@ const quests = [
       "Complete the region's tower and intel, and take on the Cosmo Odd Jobs.",
       "See Red XIII's arc through its emotional peak, then advance toward Nibelheim."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mXsEyYHOKGM"
   },
 {
     id: 320,
@@ -6485,7 +6485,7 @@ const quests = [
       "Confront the contradictions in Cloud's memories through the story beats.",
       "Clear the mansion's encounters and push the plot toward its next turn."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5Gy7HBZoxc0"
   },
 {
     id: 321,
@@ -6508,7 +6508,7 @@ const quests = [
       "Complete the required Gold Saucer story events (including the date sequence set by your relationship choices).",
       "When ready, advance the main story toward the Temple of the Ancients (a point of no return follows)."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0zxhzIW2VbA"
   },
 {
     id: 322,
@@ -6532,7 +6532,7 @@ const quests = [
       "Progress the pivotal story confrontation inside the temple.",
       "Complete the chapter to reach the finale's approach."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sqDaAon-MlA"
   },
 {
     id: 323,
@@ -6555,7 +6555,7 @@ const quests = [
       "Fight the chapter's multi-phase boss battles with your strongest builds and summons.",
       "See the story through its emotional conclusion and the game's ending sequence."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vhg0ly6ZDXQ"
   },
 {
     id: 324,
@@ -6578,7 +6578,7 @@ const quests = [
       "Defeat the monsters guarding the spot where the card was dropped.",
       "Recover the card and return it to the quest-giver; it's added to your Queen's Blood deck."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w3A_AsTbxTQ"
   },
 {
     id: 325,
@@ -6601,7 +6601,7 @@ const quests = [
       "Herd the calmed birds back toward the pen one at a time.",
       "Report to the rancher — completing it smooths chocobo traversal across Junon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Sr-SDp-PqiE"
   },
 {
     id: 326,
@@ -6624,7 +6624,7 @@ const quests = [
       "Complete the marked tasks and any accompanying dialogue choices (they nudge party affinity).",
       "Return to the quest-giver to finish and claim the accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VWCFt1Y5RqE"
   },
 {
     id: 327,
@@ -6647,7 +6647,7 @@ const quests = [
       "Fight the source enemies — keep a Remedy or Esuna ready to cure Toad status.",
       "Restore the wetlands' balance and report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lVgXjwyfkrE"
   },
 {
     id: 328,
@@ -6670,7 +6670,7 @@ const quests = [
       "Complete the tasks and any battles, picking dialogue that matches who you want to romance.",
       "Meet the quest-giver to wrap it up and set the relationship flag."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZX3g8WjwL8U"
   },
 {
     id: 329,
@@ -6693,7 +6693,7 @@ const quests = [
       "Pace yourself so you don't burn out early, and beat the target score.",
       "Collect the reward for out-lifting the challengers."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hMxE089NFBY"
   },
 {
     id: 330,
@@ -6716,7 +6716,7 @@ const quests = [
       "Fight through the culprits at the marked site.",
       "Resolve the ransom situation and report back for the materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G-Ppt1C0em4"
   },
 {
     id: 331,
@@ -6739,7 +6739,7 @@ const quests = [
       "Exploit each wave's elemental weaknesses and keep healing up.",
       "Clear the final bout to earn the payout and party-bond reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OQ9BoL2Lh24"
   },
 {
     id: 332,
@@ -6762,7 +6762,7 @@ const quests = [
       "Navigate the terrain hazards and clear any foes along the path.",
       "Bring Mr. Birdie home to complete the job."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=diAWFLPYPEk"
   },
 {
     id: 333,
@@ -6785,7 +6785,7 @@ const quests = [
       "Gather each requested component (partial deliveries won't satisfy him) and return them.",
       "Hand over the materials so he can finish his flawless creation and pay you."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DWN4gU9sVwY"
   },
 {
     id: 334,
@@ -6808,7 +6808,7 @@ const quests = [
       "Corner and catch each bird one at a time.",
       "Return them all to the owner to finish the job."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_cIbuPDGDXc"
   },
 {
     id: 335,
@@ -6831,7 +6831,7 @@ const quests = [
       "Complete each challenge in order.",
       "Finish the arc to strengthen Yuffie's party bond and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CuxZgFC9QDg"
   },
 {
     id: 336,
@@ -6854,7 +6854,7 @@ const quests = [
       "Collect the three required mushrooms (they're easy to miss in the foliage).",
       "Return them to Cissnei to complete the dish and earn the cooking recipe."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qkufuK_mBxI"
   },
 {
     id: 337,
@@ -6877,7 +6877,7 @@ const quests = [
       "Follow the chain of objectives to its final step.",
       "Finish to unlock the region's mountain chocobo and claim Yuffie's Crescent Sickle weapon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lIpehRn91lU"
   },
 {
     id: 338,
@@ -6900,7 +6900,7 @@ const quests = [
       "Complete the alignment/observation tasks tied to the region's cosmology.",
       "Report back to finish and pick up the materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sPZkxCPrsDk"
   },
 {
     id: 339,
@@ -6923,7 +6923,7 @@ const quests = [
       "Deal with the strange phenomena and any enemies drawn to it.",
       "Resolve the disturbance and report back for the healing materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D0FQUYgwDWs"
   },
 {
     id: 340,
@@ -6946,7 +6946,7 @@ const quests = [
       "Complete the tasks required to honor their wish.",
       "Return to the quest-giver to close the arc and boost party affinity."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4-RItmYTO80"
   },
 {
     id: 341,
@@ -6969,7 +6969,7 @@ const quests = [
       "Defeat the guardian battles, bringing elemental variety since the guardians rotate weaknesses across stages.",
       "Complete all trial stages for the rare materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4FO21tx-ocs"
   },
 {
     id: 342,
@@ -6992,7 +6992,7 @@ const quests = [
       "Complete each of the marked tasks.",
       "Report back to finish and gain the affinity/accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WearL_y5otk"
   },
 {
     id: 343,
@@ -7015,7 +7015,7 @@ const quests = [
       "Defeat the upgraded endgame foes with your Chapter 12 builds and summons.",
       "Complete the work for its endgame materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OrYvKAtkVaY"
   },
 {
     id: 344,
@@ -7038,7 +7038,7 @@ const quests = [
       "Fight the threat revealed in the waters.",
       "Resolve the mystery and report back for the rare item."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PxifR7eXiYU"
   },
 {
     id: 345,
@@ -7061,7 +7061,7 @@ const quests = [
       "Fight through the escalating danger.",
       "Restore order and complete the job for the accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NklNgDELd1A"
   },
 {
     id: 346,
@@ -7084,7 +7084,7 @@ const quests = [
       "Defeat the waves of foes — area-of-effect materia helps clear them fast.",
       "Hold the line through the final wave to finish and earn the rare crafting mats."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c5eUQYZoqNY"
   },
 {
     id: 347,
@@ -7107,7 +7107,7 @@ const quests = [
       "Defeat the encounter guarding the reward.",
       "Claim the Magnify Materia — pair it with Heal or Barrier to buff the whole party at once."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7T0RqS_VWbA"
   },
 {
     id: 348,
@@ -7130,7 +7130,7 @@ const quests = [
       "Fight through the marked encounters.",
       "Complete it to unlock Hojo's combat exams and earn the Art of Swordplay Vol. VI manuscript."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3RF8wMh5JUA"
   },
 {
     id: 349,
@@ -13292,7 +13292,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Activate it to reveal the region's map and populate its intel objectives (Lifesprings, Fiend Intel, Divine Intel).",
       "Repeat at each region's towers to fully chart the world and open fast travel."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9pokRm57TF8"
   },
 {
     id: 637,
@@ -13314,7 +13314,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat it while meeting the special battle condition (usually exploiting its weakness for the assessment bonus).",
       "Report the data to Chadley to unlock combat-sim fights and enhancement cores for his shop."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
+    video: "https://www.youtube.com/watch?v=69ZXVv4ZIHU"
   },
 {
     id: 638,
@@ -13336,7 +13336,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the short lore beat or encounter and let MP restore.",
       "Sync the data with Chadley for planet lore and rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=quR3pctZZQI"
   },
 {
     id: 639,
@@ -13358,7 +13358,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress through the chain's stages to the finale challenge.",
       "Claim the unique summon materia — the best World Intel reward in each region."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YQWngo47CbM"
   },
 {
     id: 640,
@@ -13380,7 +13380,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the moogle expeditions to send out and collect resources.",
       "Open up the region's fast-travel and chocobo traversal network (mountain, river, etc.)."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3HSEHXOafxs"
   },
 {
     id: 641,
@@ -13402,7 +13402,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Refine your deck around lane control and pawn-then-power plays as cards accumulate.",
       "Work up the ladder to the Gold Saucer's top players to master the game and claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TpeQ3bEc8K4"
   },
 {
     id: 642,
@@ -13424,7 +13424,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Push lanes to destroy the enemy's outposts and main base before they take yours.",
       "Beat each escalating opponent's board to clear the ladder for prizes."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fDayGIbHpoA"
   },
 {
     id: 643,
@@ -13446,7 +13446,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chain successful reactions into combos to build damage.",
       "Beat each opponent up the ladder for prizes and trophies."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G3RnunHw--U"
   },
 {
     id: 644,
@@ -13468,7 +13468,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Run the auto-battle and adjust the logic until your units clear the encounter.",
       "Solve every stage for the combat-sim rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LOxeitd7tzI"
   },
 {
     id: 645,
@@ -13490,7 +13490,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Upgrade your chocobo's gear and stats between races for tougher classes.",
       "Place first across the classes to earn gil, GP, and cosmetic rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fjaZgl10gZ8"
   },
 {
     id: 646,
@@ -13512,7 +13512,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play each track to a passing (or higher) performance rank.",
       "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0QiqT7SJ2k"
   },
 {
     id: 647,
@@ -13534,7 +13534,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ward against Earth damage, dodge the arena hazards, and punish his stagger windows.",
       "Defeat Titan to earn the earth-elemental summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S4cWJxA8DPs"
   },
 {
     id: 648,
@@ -13556,7 +13556,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Keep MP-recovery up and pressure it into stagger between salvos.",
       "Win to earn the holy-elemental Alexander summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
+    video: "https://www.youtube.com/watch?v=elIC-RJjDUU"
   },
 {
     id: 649,
@@ -13578,7 +13578,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Survive Mega Flare and its relentless combos, staggering it during openings.",
       "Defeat Bahamut Arisen to claim the ultimate dragon-king summon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FC6hURFAv7c"
   },
 {
     id: 650,
@@ -13600,7 +13600,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal heavy damage fast to avoid his instant-death Zantetsuken when the counter expires.",
       "Beat the clock to claim the Odin summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LNKymJ-L28g"
   },
 {
     id: 1057,
