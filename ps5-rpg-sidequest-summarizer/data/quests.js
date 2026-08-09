@@ -2221,7 +2221,7 @@ const quests = [
       "Fight through Riku's raiders and confront him in the final duel.",
       "Defeat Black Hand Riku to complete the tale and claim its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1OtMmxIHo9E"
   },
 {
     id: 104,
@@ -3364,7 +3364,7 @@ const quests = [
       "Fight the enemies revealed behind the ruse.",
       "Resolve the tale and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZTdqo0JS7XA"
   },
 {
     id: 176,
@@ -3405,7 +3405,7 @@ const quests = [
       "Complete the comedic negotiation to Kenji's satisfaction.",
       "Finish the tale and unlock further Kenji dealings."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dXULJXYSzCY"
   },
 {
     id: 178,
@@ -3429,7 +3429,7 @@ const quests = [
       "Assassinate or duel the mark as the tale dictates.",
       "Escape and complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9SC4Ztxfhrw"
   },
 {
     id: 179,
@@ -9539,7 +9539,7 @@ const quests = [
       "Push through to the objective and rescue/secure the target.",
       "Report back to advance the liberation of Izuhara."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0VBj_c2SDKo"
   },
 {
     id: 468,
@@ -9563,7 +9563,7 @@ const quests = [
       "Confront the enemy leader behind the atrocity.",
       "Complete the mission to progress Jin's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
+    video: "https://www.youtube.com/watch?v=puZtiL36thU"
   },
 {
     id: 469,
@@ -9587,7 +9587,7 @@ const quests = [
       "Fight through to the commander and defeat him.",
       "Escape and complete the mission, deepening the Ghost's legend."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mHtKzErn8Hg"
   },
 {
     id: 470,
@@ -9611,7 +9611,7 @@ const quests = [
       "Reach and complete the story objective (rescue/scout/assault).",
       "Advance the Toyotama arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sLn66K3Hn1M"
   },
 {
     id: 471,
@@ -9635,7 +9635,7 @@ const quests = [
       "Confront the enemy leader responsible.",
       "Complete the mission to push the story forward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qUANlaK_Ld8"
   },
 {
     id: 472,
@@ -9659,7 +9659,7 @@ const quests = [
       "Confront the figure from Jin's history at the climax.",
       "Resolve the encounter to advance Jin's Journey."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2-Ctx7fDD3I"
   },
 {
     id: 473,
@@ -9683,7 +9683,7 @@ const quests = [
       "Face the story's turning-point choice/duel.",
       "Complete the mission, setting up the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mPsORfsg7go"
   },
 {
     id: 474,
@@ -9707,7 +9707,7 @@ const quests = [
       "Reach the final confrontation the ballad leads to and win the fight.",
       "Complete the tale to earn its reward (a fire-themed tool/technique)."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vU9ubU8KxJs"
   },
 {
     id: 475,
@@ -9731,7 +9731,7 @@ const quests = [
       "Uncover the truth Yuna is chasing.",
       "Resolve the tale to deepen her bond with Jin."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NqcVhysYFhk"
   },
 {
     id: 476,
@@ -9755,7 +9755,7 @@ const quests = [
       "Confront what Ishikawa's teachings have wrought.",
       "Complete the tale to advance Ishikawa's storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbuSI_NoTlQ"
   },
 {
     id: 477,
@@ -9779,7 +9779,7 @@ const quests = [
       "Rescue him and settle the villagers' fate.",
       "Complete the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QVzuN3oU_Zk"
   },
 {
     id: 478,
@@ -9803,7 +9803,7 @@ const quests = [
       "Complete the errands to Kenji's plan.",
       "Finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z5M1M5MoZog"
   },
 {
     id: 479,
@@ -9827,7 +9827,7 @@ const quests = [
       "Protect the monks and civilians.",
       "Complete the tale to progress Norio's arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5zkAbriZPV0"
   },
 {
     id: 481,
@@ -9850,7 +9850,7 @@ const quests = [
       "Pray at the shrine to earn a Charm slot / charm upgrade.",
       "Repeat across the region to expand your charm capacity."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q1sTl6HxIKw"
   },
 {
     id: 482,
@@ -9873,7 +9873,7 @@ const quests = [
       "Reach the shrine at the summit and pray.",
       "Claim the charm reward, then find the next shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lqikqw1Ma7A"
   },
 {
     id: 483,
@@ -9896,7 +9896,7 @@ const quests = [
       "Nail the full combo to finish the challenge.",
       "Earn increased Resolve, then seek the next stand."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BAWj-lgVne8"
   },
 {
     id: 484,
@@ -9919,7 +9919,7 @@ const quests = [
       "Choose the haiku lines that fit the scene.",
       "Collect the reward (health up or a headband cosmetic) and move on."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZPVVeOXRuM8"
   },
 {
     id: 485,
@@ -9942,7 +9942,7 @@ const quests = [
       "Parry and dodge their strikes, then counter — watch for unblockable attacks.",
       "Defeat them to earn cosmetic dyes / rewards, then seek the next."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hIh43scFaPQ"
   },
 {
     id: 486,
@@ -9965,7 +9965,7 @@ const quests = [
       "Read the records for lore and progress toward the collection.",
       "Gather them all across the region to complete the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yJIhO88vmU8"
   },
 {
     id: 487,
