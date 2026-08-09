@@ -16304,7 +16304,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and summon Nepheli Loux near the throne room, and grab the Godslayer's Seal / gaol items along the way.",
       "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the legacy dungeon.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uS9SiEYW6gE"
   },
 {
     id: 805,
@@ -16328,7 +16328,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue past the Debate Parlor to the Rennala fog gate.",
       "Defeat Rennala, Queen of the Full Moon to clear the legacy dungeon and gain her Great Rune.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UkrMIYxxO0Y"
   },
 {
     id: 806,
@@ -16352,7 +16352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the God-Devouring Serpent / Rykard, Lord of Blasphemy using the Serpent-Hunter's ranged wave attack from mid-distance.",
       "Dodge the giant serpent lunges and the phase-two lava waves, then defeat Rykard for his Great Rune and the Blasphemous Blade remembrance.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mbhpYbPmrdE"
   },
 {
     id: 807,
@@ -16376,7 +16376,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep it staggered to prevent it inflating into the rolling attack.",
       "Defeat the Godskin Noble to claim its gear and continue the area's progression.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nv_qVHJXiUM"
   },
 {
     id: 808,
@@ -16400,7 +16400,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In his second phase dodge the grafted storm attacks and keep the pressure on.",
       "Defeat Godefroy for his runes and the Golden Order lore reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gFj9w8oZrOE"
   },
 {
     id: 809,
@@ -16424,7 +16424,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stay on his flank and punish after the big overhead and shield-bash strings.",
       "Defeat Commander Niall for the Veteran's set and the Haligtree Secret Medallion (Right) upstairs.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eJg6k4ppm0Q"
   },
 {
     id: 810,
@@ -16448,7 +16448,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the head and forelegs between breath attacks.",
       "Defeat Fortissax for the Cursemark of Death and to advance Fia's Mending Rune ending.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QjtncNjiRoI"
   },
 {
     id: 811,
@@ -16472,7 +16472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after its rearing stomp and the sweeping antler attacks.",
       "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sYEv4Kbfc64"
   },
 {
     id: 812,
@@ -16496,7 +16496,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If Yura falls, claim the Nagakiba katana from his body; otherwise complete the arc for his gratitude.",
       "Later his spirit (Shabriri) may continue the arc near the Zamor ruins in the Mountaintops.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cEIxql5EWrk"
   },
 {
     id: 813,
@@ -16520,7 +16520,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete her request by carrying her spirit to the Apostate Derelict in the Consecrated Snowfield.",
       "Rest there to hear her final wish and conclude her questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U6Zkzck2in8"
   },
 {
     id: 814,
@@ -16544,7 +16544,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Jarburg over several visits (resting to pass time) until the pot-poachers attack.",
       "Arrive for the final assault to see Diallos's fate and collect Hoslow's gear / his memento.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=COA00lSSigU"
   },
 {
     id: 815,
@@ -16568,7 +16568,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Millicent's recovery through the Altus Plateau and toward the Haligtree, learning Gowry's true intentions.",
       "Complete the arc at Elphael (see Millicent's questline) for the Unalloyed needle rewards and the Rot conclusion.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WE59BpYZLc4"
   },
 {
     id: 816,
@@ -16592,7 +16592,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Progress the manor and find Rya again as Zoraya; help resolve her arc during the Rykard / manor questline.",
       "Complete her storyline for the serpent lore and her related rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=77pqU6ydw00"
   },
 {
     id: 817,
@@ -16616,7 +16616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to Nepheli's questline if you want to make her Lord of Limgrave using Kenneth's offer.",
       "Conclude Kenneth's arc for an ally and the restored settlement.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ySMd6Bmfcx8"
   },
 {
     id: 818,
@@ -16640,7 +16640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Level the Scadutree Blessing at any Scadutree grace to raise your damage and defense in the Land of Shadow.",
       "Follow the map toward Belurat and the Castle Front to open the DLC's paths.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fajgdBYbZpw"
   },
 {
     id: 819,
@@ -16664,7 +16664,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "During its storm phase, keep clearing status and punish after the big dash combos.",
       "Defeat the Divine Beast for its Remembrance, clearing Belurat.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mYgCTcNp3wg"
   },
 {
     id: 820,
@@ -16688,7 +16688,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after her magic combos and keep close to limit her ranged casts.",
       "Defeat Rellana for her Remembrance and passage deeper toward the Scadu Altus.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mk7FZxNjOqQ"
   },
 {
     id: 821,
@@ -16712,7 +16712,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch for the aerial spear rain and the big impale finisher; heal on his down-time.",
       "Defeat Messmer for his Remembrance, opening the deeper Shadow Keep and the path onward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dAPE9JoqTIg"
   },
 {
     id: 822,
@@ -16736,7 +16736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In phase two avoid the lightning-charged bites and the sweeping tail; use Igon's ballista windows to punish.",
       "Defeat Bayle for its Remembrance and the dragon-communion rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q1bac-fcmtE"
   },
 {
     id: 823,
@@ -16760,7 +16760,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: he erupts into the Frenzied Flame — evade the flame waves and the spinning greatsword combos, keeping madness cleared.",
       "Defeat Midra for his Remembrance and the Frenzied Flame lore reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dCWMdREs3eo"
   },
 {
     id: 824,
@@ -16784,7 +16784,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: avoid the void-explosion under you and the homing star volleys as she floats.",
       "Defeat Metyr for her Remembrance and to conclude Ymir's arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ABDYZUHA0cQ"
   },
 {
     id: 825,
@@ -16808,7 +16808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: avoid the rot-bloom explosions and the flying charge, punishing after her long strings.",
       "Defeat Romina for her Remembrance, opening the road to Enir-Ilim and the DLC finale.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uVcRG5zG7Us"
   },
 {
     id: 826,
@@ -16832,7 +16832,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two — Promised Consort Radahn (with Miquella): survive the blinding holy 'Light of Miquella' explosion by hugging him and rolling through the beams.",
       "Punish only in his brief recovery windows and defeat him to complete Shadow of the Erdtree and Miquella's ending.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x6wjT1Motus"
   },
 {
     id: 827,
@@ -16856,7 +16856,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the final gathering before Enir-Ilim, fight the multi-NPC ambush led by Leda.",
       "Resolve the arc by surviving the melee; your choices determine which companions you can summon for the final boss.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e8OBDn2tIqY"
   },
 {
     id: 828,
@@ -16880,7 +16880,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep him alive through the companions' conflict so he can aid you later.",
       "Optionally summon Thiollier for the final boss as the arc's payoff.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
+    video: "https://www.youtube.com/watch?v=I4ehq4kuJ_Q"
   },
 {
     id: 1011,
@@ -16976,7 +16976,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue his and Ranni's overlapping dialogue until his scheme resolves.",
       "Collect the puppet Spirit Ashes and charm as the questline's rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gJlAwPW6rWY"
   },
 {
     id: 1015,
@@ -17000,7 +17000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "After Ranni's questline turns, find Blaidd trapped/hostile at Ranni's Rise.",
       "Conclude his tragic arc (defeating him) to obtain the Royal Greatsword.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DcAa_H5W56w"
   },
 {
     id: 1016,
@@ -17024,7 +17024,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Bernahl in Farum Azula to obtain the Devourer's Scepter and the Beast Champion armor set.",
       "Finish looting his remains to complete the arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MHf3aZ5qe9Y"
   },
 {
     id: 1017,
@@ -17048,7 +17048,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue delivering all nine Deathroot for the full set of beast incantations and the Ash of War: Determination.",
       "Complete his rewards, revealing his ties to Maliketh.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N3o26HZu-XA"
   },
 {
     id: 1018,
@@ -17072,7 +17072,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return after progressing Alexander's quest to complete Jar Bairn's growth.",
       "Collect the Companion Jar talisman and the Ash of War: Lightning Ram as his rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zZvhaW_BKu4"
   },
 {
     id: 1019,
@@ -17096,7 +17096,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete Hyetta's questline in parallel so she becomes your Frenzied Flame maiden.",
       "At the end, choose the Lord of Frenzied Flame ending (or undo it via Miquella's Needle after Malenia/Placidusax).",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qpWbrWM0pcE"
   },
 {
     id: 1020,
@@ -17120,7 +17120,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the final companion ambush before Enir-Ilim with Ansbach on your side.",
       "Claim Ansbach's armor set and the Nail-Bracelet Talisman, and summon him for the final boss.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ra6CT46kYGs"
   },
 {
     id: 1021,
@@ -17144,7 +17144,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the Hornsent's darkening path as he joins the companions' conflict.",
       "Resolve his arc through the final confrontation, collecting his gesture and lore rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GmMfIqC7a9c"
   },
 {
     id: 1022,
@@ -17168,7 +17168,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Ymir, then continue to Metyr, Mother of Fingers to close the arc.",
       "Collect the finger sorceries and Jolán's related rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N6_F3cwDPEE"
   },
 {
     id: 1023,
@@ -17192,7 +17192,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Bayle to fulfill Igon's lifelong hunt.",
       "Collect the dragon-communion rewards and Igon's memento afterward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DPNnawje5iQ"
   },
 {
     id: 1024,
@@ -17216,7 +17216,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the conclusion of his short arc based on your choices.",
       "Claim the Aged One's Exultation talisman as his reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T4tXBJ8eHmk"
   },
 {
     id: 1025,
@@ -17240,7 +17240,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete his final meeting to end the arc.",
       "Collect the Fire Knight incantations and unique gear he leaves behind.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Okz42j9Ul1c"
   },
 {
     id: 1026,
@@ -17264,7 +17264,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the final companion clash before Enir-Ilim with Freyja alive.",
       "Summon Freyja for the final boss as her arc's payoff and endgame summon support.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8xzvf9rlkgg"
   },
 {
     id: 829,
