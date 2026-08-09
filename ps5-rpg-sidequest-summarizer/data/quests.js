@@ -9037,7 +9037,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GqRWTJZBKHo"
   },
 {
     id: 445,
@@ -9061,7 +9061,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_6WfM7oUXz0"
   },
 {
     id: 446,
@@ -9085,7 +9085,7 @@ const quests = [
       "Steal the floating treasure piggy bank before the deadline.",
       "Defeat Shadow Kaneshiro atop his golden pig-mech."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K1FiEsqfzAk"
   },
 {
     id: 447,
@@ -9109,7 +9109,7 @@ const quests = [
       "Fight the Sphinx (cognitive mother) — exploit Wind and weather the beam attacks.",
       "Take the treasure and watch Futaba awaken her Persona, Necronomicon."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e8Q93C-fvHg"
   },
 {
     id: 448,
@@ -9133,7 +9133,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A9EpUluo5a4"
   },
 {
     id: 449,
@@ -9157,7 +9157,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x5LDcdELNwo"
   },
 {
     id: 450,
@@ -9181,7 +9181,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bvoNUeXQrZE"
   },
 {
     id: 451,
@@ -9205,7 +9205,7 @@ const quests = [
       "Battle the Holy Grail, then Yaldabaoth in his angelic-tower form.",
       "Land the final rebellion shot to end the god of control's game."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W9KTzcwyFKw"
   },
 {
     id: 452,
@@ -9229,7 +9229,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=giSV_dZ2IME"
   },
 {
     id: 453,
@@ -9251,7 +9251,7 @@ const quests = [
       "Meet on free evenings and choose supportive replies to raise the bond.",
       "Free her from the Assembly of Divine Power and max the rank for fate-readings that boost Confidant EXP."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EneDGt76xrQ"
   },
 {
     id: 454,
@@ -9273,7 +9273,7 @@ const quests = [
       "Pick answers that reassure him about his adopted son, Kaoru.",
       "Max the rank to unlock discounted, higher-tier custom firearms."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SDi1M2uOfdw"
   },
 {
     id: 455,
@@ -9295,7 +9295,7 @@ const quests = [
       "Choose brave dialogue during the trial-medicine events.",
       "Max the rank for the strongest healing/SP items in the game."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IocWSbRrfxc"
   },
 {
     id: 456,
@@ -9317,7 +9317,7 @@ const quests = [
       "Use her downtime services to craft tools, make coffee, or free evenings.",
       "Max the rank to gain free-time actions during the day and in Palaces."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-inmXu6X8Gw"
   },
 {
     id: 457,
@@ -9339,7 +9339,7 @@ const quests = [
       "Choose replies that push her investigation into corporate corruption.",
       "Max the rank to lower Palace security-level gains on the day of a heist."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=caYGPtb94uw"
   },
 {
     id: 458,
@@ -9361,7 +9361,7 @@ const quests = [
       "Give firm, encouraging advice during his rank events.",
       "Max the rank for powerful gun-skill perks like extra ammo and down-rate boosts."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2xEc2vSgbBE"
   },
 {
     id: 459,
@@ -9383,7 +9383,7 @@ const quests = [
       "Progress her arc about competing honestly.",
       "Max the rank to gain the ability to reposition and flee mid-battle."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y8pBwZanE5Q"
   },
 {
     id: 460,
@@ -9405,7 +9405,7 @@ const quests = [
       "Complete the Mementos targets he flags.",
       "Max the rank to grant bonus EXP to benched party members."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U5TTUAD8j68"
   },
 {
     id: 461,
@@ -9427,7 +9427,7 @@ const quests = [
       "Support him against the political smear campaign across rank events.",
       "Max the rank to master negotiating money and items out of Shadows."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dg87YNmPO_k"
   },
 {
     id: 462,
@@ -9449,7 +9449,7 @@ const quests = [
       "Deliver each requested Persona to advance the ranks.",
       "Finish their arc to unlock the strongest fusion perks and their true story (Royal)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vjROAy45iCw"
   },
 {
     id: 463,
@@ -9471,7 +9471,7 @@ const quests = [
       "Follow her gymnastics struggle and the mystery around her sister.",
       "Progress to unlock her Persona and the path into the third semester."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aWzHoh04pUM"
   },
 {
     id: 464,
@@ -9493,7 +9493,7 @@ const quests = [
       "Complete his ranks before the November deadline to keep the arc alive.",
       "Max the rank to gain his powerful buffs — and the key to the third semester."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6YwrewIWarY"
   },
 {
     id: 466,
@@ -9515,7 +9515,7 @@ const quests = [
       "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
       "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GafS4qA8m-c"
   },
 {
     id: 467,
@@ -14127,7 +14127,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress his ranks through the summer and fall.",
       "Max the rank to unlock his Baton Pass follow-up and Harisen Recovery."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t9NaSPRpHso"
   },
 {
     id: 677,
@@ -14149,7 +14149,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advance her ranks steadily.",
       "Max the rank for Follow-Up, Protect, and her money-finding perks."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M7bIM78xYqc"
   },
 {
     id: 678,
@@ -14171,7 +14171,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose replies that help her stand up to her arranged marriage.",
       "Max the rank for SP-restoring plants and Baton Pass bonuses."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Qcx1GmRfuX0"
   },
 {
     id: 679,
@@ -14193,7 +14193,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress the main story to trigger each locked rank.",
       "Max the rank for better ambushes and item crafting."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LVJkQtQKHqs"
   },
 {
     id: 680,
@@ -14215,7 +14215,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the key confession choices honestly.",
       "Reach max rank in the endgame for its powerful battle perks."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t2CEb9Aq0kg"
   },
 {
     id: 685,
@@ -14237,7 +14237,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Shoot billiards to earn temporary battle buffs.",
       "Rotate these activities on free evenings to steadily improve the team."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dLrdEsxmtq0"
   },
 {
     id: 686,
@@ -14259,7 +14259,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Review event scenes and character models earned across the story.",
       "Return periodically to spend new coins and complete the collection."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
+    video: "https://www.youtube.com/watch?v=At_aRDGMmKA"
   },
 {
     id: 687,
@@ -14281,7 +14281,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete his rank events at the café.",
       "Max the rank to brew coffee and cook curry that restore party SP."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HuhsBQQAV0Q"
   },
 {
     id: 688,
@@ -48336,7 +48336,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Attachment Pearl)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Beware%20the%20Clingy%20Ex-Boyfriend%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r7_N8LooOHU"
   },
   {
     id: 2544,
@@ -48357,7 +48357,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Bark%20and%20Bite%20of%20a%20Bully%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MGDKBBQ868w"
   },
   {
     id: 2545,
@@ -48378,7 +48378,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Nuisance Belt)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Elderly's%20Meaning%20of%20Life%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jd_m6ZOIs3k"
   },
   {
     id: 2546,
@@ -48399,7 +48399,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Cat Brooch)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20If%20Cats%20Disappeared%20From%20the%20City%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=03XUTtU9SYQ"
   },
   {
     id: 2547,
@@ -48420,7 +48420,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Whip Sword)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Sadism%20Is%20Just%20a%20Sign%20of%20Love%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G35vbr0slrA"
   },
   {
     id: 2548,
@@ -48441,7 +48441,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Chinese Sweets)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Part-Time%20Job%2C%20Full-Time%20Hell%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sFzjIxsbAxA"
   },
   {
     id: 2549,
@@ -48462,7 +48462,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Mediarama)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Bad%20Medicine%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6FR8nVngO30"
   },
   {
     id: 2550,
@@ -48483,7 +48483,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Sleep Stick)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Ending%20the%20Boyfriend's%20Abuse%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rXmtJC56gXg"
   },
   {
     id: 2551,
@@ -48504,7 +48504,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Sticky Hairball)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Lovesick%20Cyberstalking%20Girl%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=THO5bpkZC5E"
   },
   {
     id: 2552,
@@ -48525,7 +48525,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Blood Scimitar)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Calling%20for%20Justice%20for%20Cats%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lAyM35YdFcY"
   },
   {
     id: 2553,
@@ -48546,7 +48546,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Prophet's Hand)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Debunking%20the%20Psychic!%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8MSRG0_i7EE"
   },
   {
     id: 2554,
@@ -48567,7 +48567,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Weird Wrap)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shady%20Deal%20in%20the%20Shadows%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FhhBp8Mmq6A"
   },
   {
     id: 2555,
@@ -48588,7 +48588,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Charge)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Been%20Assaulting%20People%3F%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LfZPm0qxGbw"
   },
   {
     id: 2556,
@@ -48609,7 +48609,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Theme Park Escort)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20We%20Aren't%20Just%20Your%20Slaves%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OPzODVW2xrQ"
   },
   {
     id: 2557,
@@ -48630,7 +48630,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Invigorate 3)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fighting%20for%20Truth%20in%20Journalism%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3l0yutBCHkc"
   },
   {
     id: 2558,
@@ -48651,7 +48651,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Shitamachi Reborn)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Muscling%20in%20Yongen-Jaya%3F%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wB1Fp2b4I84"
   },
   {
     id: 2559,
@@ -48672,7 +48672,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Thermopylae)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Man%20of%20Many%20Faces%20and%20Debts%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N-UaKQJZrbM"
   },
   {
     id: 2560,
@@ -48693,7 +48693,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Bead Chain)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Upstaging%20the%20Stage%20Mother%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7-pIngfVqEI"
   },
   {
     id: 2561,
@@ -48714,7 +48714,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Venture Saber)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Money-Grubbing%20Uncle%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XlJYCdjJAxs"
   },
   {
     id: 2562,
@@ -48735,7 +48735,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Growth 3)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Daughter's%20Just%20a%20Meal%20Ticket%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q3Dm_pkeYko"
   },
   {
     id: 2563,
@@ -48756,7 +48756,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Soma)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Mother's%20Aggression%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_fjptqMZRc4"
   },
   {
     id: 2564,
@@ -48777,7 +48777,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Haten Robe)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Swindling%20Old%20Folk%20is%20Pretty%20Low%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZpFJwAHzNZY"
   },
   {
     id: 2565,
@@ -48798,7 +48798,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Agitation Crown)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Lady-Killer's%20Ballad%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jQqHfge363M"
   },
   {
     id: 2566,
@@ -48819,7 +48819,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Immortal Vest)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Head%20Honcho%20in%20Showbiz%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_FYkQA7ZyQ"
   },
   {
     id: 2567,
@@ -48840,7 +48840,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Spiral Hell Ring)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Small%20Cry%20for%20Help%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RiKj9zZjHw8"
   },
   {
     id: 2568,
@@ -48861,7 +48861,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Strength Up Ofuda (8x))."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20O%20My%20Young%20Sister%2C%20I%20Cry%20for%20You%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgU9htVT-EM"
   },
   {
     id: 2569,
@@ -48882,7 +48882,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (One-Shot Kill)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Idol%20and%20a%20Unicorn%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b644NDyHBs4"
   },
   {
     id: 2570,
@@ -48903,7 +48903,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Eccentric Belt)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fake-Man%20Show%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MmHrWEJsFXg"
   },
 {
     id: 2358,
