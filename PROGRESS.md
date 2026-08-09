@@ -1,9 +1,48 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-08-07
-**Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
+**Last updated:** 2026-08-09
+**Branch:** `claude/youtube-games-progress-mft1ss` (video-link upgrade — see §Session 2026-08-09)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-08-09 — video-link upgrade (search URLs → real `watch?v=`)
+
+Continued the "search URL → specific `watch?v=` link" effort (piloted on Black
+Myth: Wukong). Goal: give every quest's *Watch guide* button a deep-linked
+YouTube video instead of a search page. Links are sourced via YouTube-filtered
+`WebSearch` and are **best-effort/unverified** (YouTube is egress-blocked), so
+the owner reviews them from a shared per-game list.
+
+All work is on branch `claude/youtube-games-progress-mft1ss`, **one commit per
+game**, each with `scripts/audit.js` integrity-clean and a passing
+`npm run build:staging`. The audit forbids reusing a video ID across quests, so
+every quest gets a distinct link.
+
+### Games converted this session (0 search URLs remaining)
+- **Sekiro: Shadows Die Twice** — 25 (mini-bosses, NPC questlines, prosthetic
+  tools). 66/67; `[1820] Six-fingered Lord Kuranosuke` left as a search fallback
+  (no real matching boss — flagged for a **data rename**).
+- **Elden Ring** — 38 (base + Shadow of the Erdtree bosses & questlines).
+- **Demon's Souls** — 12 (worlds, Nexus, mechanics, NPCs).
+- **Star Wars Jedi: Survivor** — 29 (Koboh/Jedha rumors, chambers, activities).
+- **Ghost of Tsushima** — 66 (all Jin/companion tales, Iki Island, collectibles).
+- **Final Fantasy VII Rebirth** — 54 (14 chapters, Odd Jobs, World Intel,
+  minigames, summons).
+- **Metaphor: ReFantazio** — 56 (Requests, Relic Searches, Trials, Coliseum).
+- **Persona 5 Royal** — 58 (9 Palaces, 26 Confidants, 28 Mementos Requests).
+- **Finished near-done stragglers:** Black Myth: Wukong (→39/39), Assassin's
+  Creed Odyssey (→353/353), Ghost of Tsushima Norio tales.
+
+### End state
+- **1,304 of 2,518 quests now on real `watch?v=` links; ~1,214 search URLs remain
+  across 10 games** (Yotei, BG3, Witcher 3, Horizon, Pillars I & II, Cyberpunk,
+  Valhalla, Skyrim, Zelda TotK). Next up: **Horizon Forbidden West**.
+- Owner reviewing the assigned links from `video-check-ALL-games.md`; will send
+  `questID -> replacement link` corrections to apply.
+- **Not yet deployed** — this branch has not been promoted to `staging`/`main`,
+  so no `CHANGELOG.md` entry / version bump yet (that happens on prod promotion).
 
 ---
 
