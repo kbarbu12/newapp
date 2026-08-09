@@ -17096,7 +17096,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete Hyetta's questline in parallel so she becomes your Frenzied Flame maiden.",
       "At the end, choose the Lord of Frenzied Flame ending (or undo it via Miquella's Needle after Malenia/Placidusax).",
     ],
-    video: "https://www.youtube.com/watch?v=mGGuJzoqNag"
+    video: "https://www.youtube.com/watch?v=W5TUjQJbPZQ"
   },
 {
     id: 1020,
@@ -17168,7 +17168,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Ymir, then continue to Metyr, Mother of Fingers to close the arc.",
       "Collect the finger sorceries and Jolán's related rewards.",
     ],
-    video: "https://www.youtube.com/watch?v=tpuKLhTVK-Y"
+    video: "https://www.youtube.com/watch?v=N6_F3cwDPEE"
   },
 {
     id: 1023,
@@ -26485,7 +26485,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Challenge an opponent and set up your unit board.",
       "Win a match of Holotactics to complete the rumor."
     ],
-    video: "https://www.youtube.com/watch?v=MMtiwmv_4yA"
+    video: "https://www.youtube.com/watch?v=GCfXyV4beKg"
   },
 {
     id: 1369,
@@ -37239,7 +37239,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Gather context on the Ashina rebellion and the characters around you.",
       "Follow his thread to its place in the finale."
     ],
-    video: "https://www.youtube.com/watch?v=TL0nF3ZrP1U"
+    video: "https://www.youtube.com/watch?v=WRL9I9mzxQA"
   },
 {
     id: 1831,
@@ -37537,7 +37537,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Upgrade the fire branch to burst enemies with flame on the escape.",
       "Save it for unavoidable heavy hits and clutch escapes."
     ],
-    video: "https://www.youtube.com/watch?v=i2hkHYUwXS0"
+    video: "https://www.youtube.com/watch?v=sBO5XlOGiL0"
   },
 {
     id: 1844,
