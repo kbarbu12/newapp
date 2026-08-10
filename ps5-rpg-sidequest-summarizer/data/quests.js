@@ -891,7 +891,7 @@ const quests = [
       "Meet a wandering warrior who challenges you to prove your worth. Completing his request unlocks one of the most powerful strength weapons in the game.",
     aiTip:
       "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly.",
-    video: "https://www.youtube.com/watch?v=4QzsNkwfzIg"
+    video: "https://www.youtube.com/watch?v=7tkKYjp3Dis"
   },
 {
     id: 22,
@@ -15063,7 +15063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shift Character Tendency white by co-op and aiding others, or black by invasions and killing NPCs.",
       "Plan runs around tendency, since some NPCs, bosses, and rare items only appear at a specific state."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EGVS0ddkPMs"
   },
 {
     id: 754,
@@ -15157,7 +15157,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight defensively — bait his heavy combos, roll through, and punish from behind; keep Second Chance or grasses ready.",
       "Bring him down (or low enough to yield) to claim Demonbrandt, the Ancient King's armor set, and the Eternal Warrior's Ring.",
     ],
-    video: "https://www.youtube.com/watch?v=P-eFmZV8BWA"
+    video: "https://www.youtube.com/watch?v=z7g3LmB_y5I"
   },
 {
     id: 756,
@@ -21021,7 +21021,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "During the stagger, unload Braver and any Thunder spells to break its health before it re-arms.",
       "After it falls, sprint back up through the reactor and reach the exit before the escape timer runs out.",
     ],
-    video: "https://www.youtube.com/watch?v=6rMTj-wMT3Q"
+    video: "https://www.youtube.com/watch?v=7k9LyYvXHMA"
   },
 {
     id: 1028,
@@ -21069,7 +21069,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Optionally clear the available Chapter 3 jobs (Rat Problem, Chocobo Search, etc.) for early rewards — several are one-time.",
       "Return to Seventh Heaven and speak with Tifa to advance to the next mission.",
     ],
-    video: "https://www.youtube.com/watch?v=5QlLp40GiWY"
+    video: "https://www.youtube.com/watch?v=onFRADaYWzg"
   },
 {
     id: 1030,
@@ -21093,7 +21093,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Ride the highway back down and win the motorcycle sequence, weaving between traffic and Shinra riders.",
       "Boss — Roche: parry his bike strikes, counter after his charges, and whittle him down to end the chase.",
     ],
-    video: "https://www.youtube.com/watch?v=rGKBdxxNp94"
+    video: "https://www.youtube.com/watch?v=T-AWkvkMb2E"
   },
 {
     id: 1031,
@@ -21118,7 +21118,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Survive its cannon and drone volleys by keeping cover between bursts.",
       "After the machine falls, brace for the Shinra ambush that springs the trap.",
     ],
-    video: "https://www.youtube.com/watch?v=VGR8joU9ems"
+    video: "https://www.youtube.com/watch?v=HIugL6ZK_kA"
   },
 {
     id: 1032,
@@ -21142,7 +21142,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Cross the rooftops of the slums while shaking off the pursuing soldiers.",
       "Reach the far side and agree to see Aerith safely home.",
     ],
-    video: "https://www.youtube.com/watch?v=lTRNdJCBQUE"
+    video: "https://www.youtube.com/watch?v=XFzEnBAzfkk"
   },
 {
     id: 1033,
@@ -21166,7 +21166,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Destroy its arm parts to cut its melee options, then focus the core during stagger.",
       "Finish it before the platform breaks, then survive the cliffhanger drop with Barret.",
     ],
-    video: "https://www.youtube.com/watch?v=yzErRMtkd9g"
+    video: "https://www.youtube.com/watch?v=XYbI_oSSEUg"
   },
 {
     id: 1034,
@@ -21214,7 +21214,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Enter the mansion audition and pass Corneo's inspection.",
       "Regroup with Tifa and Aerith, confront Don Corneo, and drop through the trapdoor to escape.",
     ],
-    video: "https://www.youtube.com/watch?v=2gShRpduP38"
+    video: "https://www.youtube.com/watch?v=XSFSJvXUAto"
   },
 {
     id: 1036,
@@ -21239,7 +21239,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Watch for its enraged phase and heal through its slam combo, then finish it during a stagger.",
       "Take the tunnel exit toward the Train Graveyard.",
     ],
-    video: "https://www.youtube.com/watch?v=KQccocCQ0SU"
+    video: "https://www.youtube.com/watch?v=K1cMBZ4Eebk"
   },
 {
     id: 1037,
@@ -21263,7 +21263,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Boss — Eligor: destroy its wheel/ring parts, use Fire to pressure it, and dodge the Aeolian Onslaught projectile fan.",
       "Break it during stagger, then exit at the base of the Sector 7 pillar.",
     ],
-    video: "https://www.youtube.com/watch?v=06iAqPVrSwA"
+    video: "https://www.youtube.com/watch?v=2Vzg-j_n-tI"
   },
 {
     id: 1038,
@@ -21287,7 +21287,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Reach the top terminal and confront the Turks over the pillar controls.",
       "Survive the plate's collapse and the heartbreaking aftermath with Jessie's crew.",
     ],
-    video: "https://www.youtube.com/watch?v=zWIWtPwHteM"
+    video: "https://www.youtube.com/watch?v=3euy-TAjn60"
   },
 {
     id: 1039,
@@ -21311,7 +21311,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Restock and upgrade weapons before you leave — the Shinra assault ahead is long with no shops.",
       "Emerge at the base of the Shinra Building and prepare to climb.",
     ],
-    video: "https://www.youtube.com/watch?v=cItnWImfcwk"
+    video: "https://www.youtube.com/watch?v=DLzSomnR_9s"
   },
 {
     id: 1040,
@@ -21334,8 +21334,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Spend Moogle Medals and upgrade weapons and materia, and restock consumables.",
       "Decide how to approach the Shinra Building with Barret, Tifa, and Aerith's friends.",
       "Meet the group at Wall Market / the plate supports to begin the infiltration.",
-    ],
-    video: "https://www.youtube.com/watch?v=cS07VIv18uA"
+    ]
   },
 {
     id: 1041,
@@ -21359,7 +21358,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Cross the final maintenance bridge to the rear of the Shinra Building.",
       "Reunite with the party and choose how to breach the tower.",
     ],
-    video: "https://www.youtube.com/watch?v=FMKRvc1r1Hg"
+    video: "https://www.youtube.com/watch?v=y_EbVpm7zow"
   },
 {
     id: 1042,
@@ -21383,7 +21382,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Recover Aerith from the specimen labs and regroup with the party.",
       "Ride the elevators toward the executive levels for the confrontation ahead.",
     ],
-    video: "https://www.youtube.com/watch?v=r-vykmKc-wA"
+    video: "https://www.youtube.com/watch?v=oBjV6je5bHc"
   },
 {
     id: 1043,
@@ -21407,7 +21406,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Boss — Rufus & Dark Nation (Cloud solo): dodge his pistol shots, punish between his gunslinger combos, and take out Dark Nation to stop its buffs.",
       "After the duel, regroup with the party for the escape from the tower.",
     ],
-    video: "https://www.youtube.com/watch?v=sRlQE1YwNP4"
+    video: "https://www.youtube.com/watch?v=WuYqvy4GLv8"
   },
 {
     id: 1044,
@@ -21431,7 +21430,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Charge and save your Limit Breaks for the multi-phase finale.",
       "Final battle — the Whispers / Arbiter of Fate: defeat the Whisper Harbinger and its avatars, then Sephiroth, to close the story and leave Midgar behind.",
     ],
-    video: "https://www.youtube.com/watch?v=yhdDsCVImDo"
+    video: "https://www.youtube.com/watch?v=_Txr8sfue0k"
   },
 {
     id: 1045,
@@ -21686,7 +21685,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Use Synchronized ATB with Sonon to chain abilities and build his stagger.",
       "Break Nero and escape with the stolen materia to close the DLC.",
     ],
-    video: "https://www.youtube.com/watch?v=41Y15qTjWMk"
+    video: "https://www.youtube.com/watch?v=ZWtFhOjFsCE"
   },
 {
     id: 1056,
@@ -21709,7 +21708,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Adjust your unit loadout and board between matches to counter each rival.",
       "Beat the ranked champions to claim the exclusive materia and prizes.",
     ],
-    video: "https://www.youtube.com/watch?v=4-8DnPOCsWc"
+    video: "https://www.youtube.com/watch?v=ZoOxtxbaZx4"
   },
 {
     id: 1134,
@@ -24640,7 +24639,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Escape aboard the Stinger Mantis; combat basics",
     summary: "Cal Kestis blows his cover saving a friend on the shipbreaking world of Bracca and flees the Empire with Cere and Greez after the Second Sister marks him.",
     aiTip: "Pure tutorial-chase — learn wall-running and Force Slow. Don't panic during the train-slicing set piece; follow the prompts and keep moving.",
-    video: "https://www.youtube.com/watch?v=WY1p5aYkvP8"
+    video: "https://www.youtube.com/watch?v=Mp35GomAy18"
   },
 {
     id: 1255,
@@ -24693,14 +24692,29 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     category: "Main Story",
     game: "Star Wars Jedi: Fallen Order",
     region: "Zeffo",
-    title: "The Weathered Monument & Venator Wreckage",
+    title: "The Weathered Monument",
+    location: "Zeffo — The Weathered Monument",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "New traversal routes; Zeffo tomb progress",
+    summary: "Cal pushes deeper into Zeffo's storm-lashed highlands to the Weathered Monument, solving its wind-powered puzzles to open new paths.",
+    aiTip: "Force Push and Force Pull the wind-turbine puzzles to redirect the gusts. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
+    video: "https://www.youtube.com/watch?v=kYUgfNCxfI4"
+  },
+{
+    id: 2583,
+    type: "main",
+    category: "Main Story",
+    game: "Star Wars Jedi: Fallen Order",
+    region: "Zeffo",
+    title: "Venator Wreckage",
     location: "Zeffo — Venator Wreckage",
     length: "medium",
     difficulty: "Medium",
-    reward: "New traversal routes; Venator shortcut",
-    summary: "Cal pushes deeper into Zeffo's storm-lashed highlands and the crashed Venator Star Destroyer, opening new paths on his way back toward the Mantis.",
-    aiTip: "Force Push the wind-powered puzzles and use rusted hull panels as ramps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
-    video: "https://www.youtube.com/watch?v=swz22XR5QF0"
+    reward: "Venator shortcut; new traversal routes",
+    summary: "Cal navigates the crashed Venator Star Destroyer on Zeffo, climbing through its broken hull to open a shortcut back toward the Mantis.",
+    aiTip: "Use rusted hull panels as ramps and Force Push the wreckage to bridge gaps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
+    video: "https://www.youtube.com/watch?v=yKVrbdErT68"
   },
 {
     id: 1259,
@@ -24715,7 +24729,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Force Pull; Wookiee alliance",
     summary: "Cal aids Saw Gerrera's fighters against the Imperial Refinery on Kashyyyk, freeing captured Wookiees and pushing toward the Origin Tree.",
     aiTip: "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
-    video: "https://www.youtube.com/watch?v=9NFf6c6ygEA"
+    video: "https://www.youtube.com/watch?v=NQTvNm1ZB2w"
   },
 {
     id: 1260,
@@ -24730,7 +24744,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Access to the Tomb of Miktrull",
     summary: "With new abilities in hand, Cal returns to Zeffo to seek the second Sage's tomb, braving Imperial forces and ancient guardians.",
     aiTip: "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
-    video: "https://www.youtube.com/watch?v=KSwswrolt40"
+    video: "https://www.youtube.com/watch?v=LlMQHZ2mETc"
   },
 {
     id: 1261,
@@ -24970,7 +24984,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Outfits, lightsaber parts, BD-1 & Mantis skins",
     summary: "107 chests are scattered across every planet, holding cosmetic outfits, ponchos, lightsaber components and paint jobs for Cal, BD-1 and the Stinger Mantis.",
     aiTip: "Many chests need abilities you unlock later — don't chase 100% on a first pass. Use the holomap's per-zone percentage and return once you have Push, Pull and Overcharge.",
-    video: "https://www.youtube.com/watch?v=Y4jqjCIvkZs"
+    video: "https://www.youtube.com/watch?v=5y_3HrQbyb4&list=PLJsfbFha7W1Q6Va7NWJ6FtHE6NRB5Z6D-"
   },
 {
     id: 1277,
@@ -25000,7 +25014,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Cordova's Journey databank; Data Disk trophy",
     summary: "19 Encrypted Logs — BD-1's data disks left by Eno Cordova — are hidden across the worlds, unlocking the 'Cordova's Journey' databank archive.",
     aiTip: "Seven are story-unmissable; the other 12 need BD-1 to prompt a scan in specific spots. Grab them on later revisits when more of each planet is reachable.",
-    video: "https://www.youtube.com/watch?v=tO_MdvgScLU"
+    video: "https://www.youtube.com/watch?v=U62gXdJgYVs"
   },
 {
     id: 1279,

@@ -25,7 +25,7 @@ const mod = new module.constructor();
 mod._compile(src + "\n;module.exports={quests,subFilterConfig};", dataPath);
 const { quests, subFilterConfig } = mod.exports;
 
-const REQUIRED = ["id", "type", "game", "title", "location", "length", "difficulty", "reward", "summary", "aiTip", "video"];
+const REQUIRED = ["id", "type", "game", "title", "location", "length", "difficulty", "reward", "summary", "aiTip"];
 
 // "Estimated full" per-game targets (PROGRESS.md §3 — Known gaps). Adjust as
 // the real lists get enumerated. Games at/above target are considered covered.
@@ -63,6 +63,11 @@ for (const q of quests)
     if (q[f] === undefined || q[f] === null || String(q[f]).trim() === "")
       errors.push(`#${q.id} "${q.title || "?"}" missing required field: ${f}`);
 
+// Each quest needs a walkthrough guide: a video link or a non-empty walkthrough array.
+for (const q of quests)
+  if (String(q.video || "").trim() === "" && !(Array.isArray(q.walkthrough) && q.walkthrough.length))
+    errors.push(`#${q.id} "${q.title || "?"}" has neither a video nor a walkthrough`);
+
 // ── 3. Duplicate titles within a game ────────────────────────────────────────
 const byGame = {};
 for (const q of quests) (byGame[q.game] = byGame[q.game] || []).push(q);
@@ -80,6 +85,7 @@ const watchIds = {};
 const searchTerms = {};
 for (const q of quests) {
   const v = q.video || "";
+  if (v.trim() === "") continue; // walkthrough-only quest — no video to validate
   if (!/^https:\/\//.test(v)) { errors.push(`#${q.id} malformed video URL: ${v}`); continue; }
   if (!/youtube\.com/.test(v)) { warns.push(`#${q.id} non-YouTube video: ${v}`); continue; }
   if (v.includes("watch?v=")) {
