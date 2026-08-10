@@ -37034,7 +37034,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Build posture between his baiting strikes.",
       "Break posture and land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Six-fingered%20Lord%20Kuranosuke%20walkthrough"
+    video: "https://www.youtube.com/watch?v=v3oNwijyBDY"
   },
 {
     id: 1821,
