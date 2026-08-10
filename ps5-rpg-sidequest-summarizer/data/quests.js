@@ -958,7 +958,7 @@ const quests = [
       "Find and ring three hidden bells scattered across the three regions of Chapter 1. Ringing the final bell teleports you to a secret Ancient Guanyin Temple where you face Elder Jinchi, a powerful Yaoguai King.",
     aiTip:
       "The bells are easy to miss — explore every branching path in each region. Defeating Elder Jinchi rewards the Fireproof Mantle, which is useful for fire-heavy chapters ahead.",
-    video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
+    video: "https://www.youtube.com/watch?v=a4PQD-YST2Q"
   },
 {
     id: 26,
@@ -990,7 +990,7 @@ const quests = [
       "Find the Yellow-Robed Squire hidden behind Rockrest Flat. This drunken boar sends you on a multi-part quest to gather a Sobering Stone, Jade Lotus, and Arhat Gold Piece, unlocking the secret Kingdom of Sahali area and the giant beetle boss Fuban.",
     aiTip:
       "The Squire is easy to walk past — check behind buildings in Rockrest Flat. Each fetch item is in a different sub-area of Chapter 2, so explore thoroughly before progressing.",
-    video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
+    video: "https://www.youtube.com/watch?v=jdTLBDbym_c"
   },
 {
     id: 28,
@@ -1054,7 +1054,7 @@ const quests = [
       "After defeating the Pale-Axe Stalwart in the Woods of Ember, speak with him to trigger a psychedelic quest where you battle five sentient, decorated carts — each representing one of the five elements.",
     aiTip:
       "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
-    video: "https://www.youtube.com/watch?v=4c3j5Igj9NQ"
+    video: "https://www.youtube.com/watch?v=miSPYaSSNhA"
   },
 {
     id: 32,
@@ -4360,7 +4360,7 @@ const quests = [
       "The sandstorm-wielding final boss of Yellow Wind Ridge. Wind blades, ground eruptions, and a blinding tornado phase test everything learned so far.",
     aiTip:
       "Bring the Wind Tamer vessel — popping it during his tornado phase stuns him for a huge free punish. Stay on his flank to dodge the spear combos.",
-    video: "https://www.youtube.com/watch?v=vDZEWXWXyig"
+    video: "https://www.youtube.com/watch?v=ENs1fHZ4-NE"
   },
 {
     id: 221,
@@ -4392,7 +4392,7 @@ const quests = [
       "The venomous master of the Webbed Hollow descends. A blinding flurry of golden light beams and poison caps off the spider-infested chapter.",
     aiTip:
       "His golden-light eye attacks punish greed — dodge twice, hit once. Poison resistance food and the Pluck of Many transformation carry this fight.",
-    video: "https://www.youtube.com/watch?v=-EI1MrUzAqY"
+    video: "https://www.youtube.com/watch?v=qgbPwgMLPu8"
   },
 {
     id: 223,
@@ -4424,7 +4424,7 @@ const quests = [
       "The journey ends where it began. Atop Mount Huaguo, the Destined One faces the stone echo of Sun Wukong himself in a mirror-match finale.",
     aiTip:
       "He fights with your own moveset — treat it like a duel: bait his heavy, dodge the fourth light attack, and spend focus points on staggered punishes.",
-    video: "https://www.youtube.com/watch?v=S5BuIh6NU5A"
+    video: "https://www.youtube.com/watch?v=dCfkwwqjlas"
   },
 {
     id: 225,
@@ -4472,7 +4472,7 @@ const quests = [
       "Help the Man-in-Stone buried in a Fright Cliff ravine: defeat the Mother of Stones, return his Stone Essence, then beat him in a duel to earn the rock-solid Azure Dust transformation.",
     aiTip:
       "The Man-in-Stone is hidden past Squall Hideout between two rock guai. Azure Dust also doubles as a wall-breaker for reaching the Loong Scales secret.",
-    video: "https://www.youtube.com/watch?v=pYScnK8bA04"
+    video: "https://www.youtube.com/watch?v=M3ykHAuhzr0"
   },
 {
     id: 228,
@@ -4520,7 +4520,7 @@ const quests = [
       "The legendary fan of Princess Iron Fan, earned through the events of Chapter 5. Its conjured tornado immobilizes groups and its passive boosts stamina recovery for the endgame.",
     aiTip:
       "Complete the Five Element Carts quest for the Bishui Cave secret area first — its rewards plus the Fan make Chapter 6's gauntlet dramatically easier.",
-    video: "https://www.youtube.com/watch?v=AVGVPesMlks"
+    video: "https://www.youtube.com/watch?v=zVKhpM0iJRI"
   },
 {
     id: 231,
@@ -4536,7 +4536,7 @@ const quests = [
       "The ultimate secret: clear the hidden areas of Chapters 1–5 and the Treasure Hunter quest, then enter the Great Pagoda mural to face Erlang Shen and the Four Heavenly Kings — unlocking the game's true ending.",
     aiTip:
       "Erlang's stance meter must be broken before he takes real damage, and it refreshes at health thresholds. This is widely considered the hardest fight in the game — level fully first.",
-    video: "https://www.youtube.com/watch?v=ael32jxy3EU"
+    video: "https://www.youtube.com/watch?v=q1TawzcJUns"
   },
 {
     id: 232,
@@ -17286,7 +17286,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish with light combos and Focus-charged heavy strikes.",
       "Use Immobilize when it winds up big attacks to secure the kill."
     ],
-    video: "https://www.youtube.com/watch?v=YMWq8_44cHA"
+    video: "https://www.youtube.com/watch?v=k-uJuBVERZ0"
   },
 {
     id: 830,
@@ -17352,7 +17352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Exploit their long recovery after the coil attacks.",
       "Immobilize to isolate and burst each down in turn."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=6zNS-SG5vwI"
   },
 {
     id: 833,
@@ -17506,7 +17506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cleanse or heal poison buildup between exchanges.",
       "Punish her lunge recoveries and finish before the arena floods with spiderlings."
     ],
-    video: "https://www.youtube.com/watch?v=YcPkzNeDsVU"
+    video: "https://www.youtube.com/watch?v=MpRFSf2RGgs"
   },
 {
     id: 840,
@@ -17535,22 +17535,44 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 5,
-    title: "Bull King & Cloudtreading Deer",
+    title: "Bull King",
     location: "Flaming Mountains",
     length: "long",
     difficulty: "High",
     reward: "Spirit, Chapter 5 progression",
     summary:
-      "Battle the mighty Bull King and the swift Cloudtreading Deer amid the volcanic Chapter 5.",
+      "Battle the mighty Bull King amid the volcanic reaches of Chapter 5.",
     aiTip:
-      "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
+      "Fire fills the arena — keep moving and exploit the Bull King's slow recovery after his charge.",
     walkthrough: [
-      "Reach the Bull King and Cloudtreading Deer in the volcanic Chapter 5.",
-      "Dodge the Bull King's charges and the Deer's swift dashes.",
+      "Reach the Bull King in the volcanic Chapter 5.",
+      "Dodge the Bull King's charges and ground-slam attacks.",
       "Punish after the charge attacks with Focus-charged heavies.",
-      "Manage the fire hazards and whittle both foes down in phases."
+      "Manage the fire hazards and whittle him down across his phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=bgjQ2yzTA0c"
+  },
+{
+    id: 2582,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "Cloudtreading Deer",
+    location: "Flaming Mountains",
+    length: "medium",
+    difficulty: "High",
+    reward: "Spirit, Chapter 5 progression",
+    summary:
+      "Face the swift Cloudtreading Deer, a nimble beast that darts across the volcanic Chapter 5 battlefield.",
+    aiTip:
+      "The Deer relies on rapid dashes — bait its lunges, then punish the brief pause when it lands.",
+    walkthrough: [
+      "Reach the Cloudtreading Deer in the volcanic Chapter 5.",
+      "Watch for its swift dashes and closing lunges.",
+      "Dodge into the dash and counter during its recovery.",
+      "Keep pressure on between dashes to wear it down."
+    ],
+    video: "https://www.youtube.com/watch?v=kxmJMJSpH64"
   },
 {
     id: 842,
@@ -17572,7 +17594,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish between their spell casts with quick combos.",
       "Break their poise to end the Flaming Mountains' curse encounter."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=O2avKkurGR0"
   },
 {
     id: 843,
@@ -17616,7 +17638,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use your full spell and transformation kit to break poise.",
       "Clear the last trial to claim the Great Sage's legacy."
     ],
-    video: "https://www.youtube.com/watch?v=_N8kDaskS6M"
+    video: "https://www.youtube.com/watch?v=gzOky3Of-ug"
   },
 {
     id: 845,
