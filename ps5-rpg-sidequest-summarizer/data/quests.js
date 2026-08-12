@@ -4730,7 +4730,7 @@ const quests = [
       "Phase two — Malenia, Goddess of Rot: avoid the scarlet-rot clouds and her dive-bomb bloom that inflicts heavy rot.",
       "Keep rot cleared and finish her for the Remembrance of the Rot Goddess and Malenia's Great Rune.",
     ],
-    video: "https://www.youtube.com/watch?v=-D5vwtjmkIE"
+    video: "https://www.youtube.com/watch?v=D_iqjI2p7F4"
   },
 {
     id: 240,
@@ -4778,7 +4778,7 @@ const quests = [
       "When he teleports and reappears, roll the instant he lands to avoid the slam, then punish his legs and head.",
       "Defeat Placidusax for the Remembrance of the Dragonlord.",
     ],
-    video: "https://www.youtube.com/watch?v=Tf0DXto9Iig"
+    video: "https://www.youtube.com/watch?v=wKjP6luWgLw"
   },
 {
     id: 242,
@@ -16904,7 +16904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push to the Mountaintops, defeat the Fire Giant, burn the Erdtree, and clear Crumbling Farum Azula (Maliketh).",
       "Return to the scorched Leyndell, defeat Sir Gideon and Godfrey/Hoarah Loux, then Radagon and the Elden Beast to become Elden Lord.",
     ],
-    video: "https://www.youtube.com/watch?v=K_03kFqWfqs"
+    video: "https://www.youtube.com/watch?v=mSZ7W54GMyY"
   },
 {
     id: 1012,
@@ -16928,7 +16928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Once she becomes the Spirit Tuner, upgrade your Spirit Ashes through her.",
       "Complete her dialogue for the full tuning service and her heartfelt resolution.",
     ],
-    video: "https://www.youtube.com/watch?v=5vZpTq3nW0c"
+    video: "https://www.youtube.com/watch?v=dr03dNAYROM"
   },
 {
     id: 1013,
@@ -16952,7 +16952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect Thops's Barrier sorcery and Thops's Bell Bearing from where he sat.",
       "Give the Bell Bearing to the Twin Maiden Husks to buy his remaining spells.",
     ],
-    video: "https://www.youtube.com/watch?v=3n4T6k8d9oA"
+    video: "https://www.youtube.com/watch?v=ioPmREJJbMo"
   },
 {
     id: 1014,
