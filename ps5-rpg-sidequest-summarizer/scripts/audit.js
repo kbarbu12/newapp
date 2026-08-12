@@ -76,6 +76,11 @@ for (const g of Object.keys(byGame)) {
 }
 
 // ── 4. Video-link health ─────────────────────────────────────────────────────
+// Video IDs intentionally shared across quests (same boss/location covered by one
+// guide), owner-approved. Reuse of these is allowed instead of flagged as an error.
+const SHARED_VIDEOS = new Set([
+  "jDvmQQVqWGs", // SW Jedi: Survivor — Kle-0 / Fenn Finau / Masi Finau (same arena)
+]);
 const watchIds = {};
 const searchTerms = {};
 for (const q of quests) {
@@ -91,7 +96,10 @@ for (const q of quests) {
   }
 }
 for (const [id, ids] of Object.entries(watchIds))
-  if (ids.length > 1) errors.push(`Reused hardcoded video ${id} on quests ${ids.join(", ")}`);
+  if (ids.length > 1) {
+    if (SHARED_VIDEOS.has(id)) warns.push(`Shared video ${id} on quests ${ids.join(", ")} (allowlisted)`);
+    else errors.push(`Reused hardcoded video ${id} on quests ${ids.join(", ")}`);
+  }
 for (const [term, ids] of Object.entries(searchTerms))
   if (ids.length > 1) errors.push(`Reused video search term on quests ${ids.join(", ")}: "${term}"`);
 

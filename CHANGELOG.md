@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-12 (3)
+
+- **Star Wars Jedi: Survivor video-link fixes** (PR #95) — `v2.3.5` patch. Owner
+  spot-check of the Survivor "Watch guide" links replaced 41 entries: incorrect,
+  unavailable, or too-long videos, plus converting the remaining
+  `results?search_query=` search-URL fallbacks (rumor quests, exploration/recruit
+  tasks) to specific `watch?v=` guides — Survivor now has 0 search-URL videos.
+  Includes an owner-approved shared video for #1320/#1321/#1322 (Kle-0, Fenn
+  Finau, Masi Finau — same arena); `audit.js` gained a `SHARED_VIDEOS` allowlist
+  so intentional same-location shares pass the reused-video check.
+
 ## 2026-08-12 (2)
 
 - **God of War Ragnarök video-link fixes** (PR #94) — `v2.3.4` patch. Owner
