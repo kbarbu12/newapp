@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-12 (2)
+
+- **God of War Ragnarök video-link fixes** (PR #94) — `v2.3.4` patch. Owner
+  spot-check of the Ragnarök "Watch guide" links flagged 2 entries whose YouTube
+  video was incorrect: #46 Defend Your Valor and #443 Sigrún's Curse. Replaced
+  both with owner-supplied correct guides. The other 66 Ragnarök entries were
+  confirmed correct.
+
 ## 2026-08-12
 
 - **Elden Ring video-link fixes** (PR #93) — `v2.3.3` patch. Owner spot-check of
