@@ -1296,7 +1296,7 @@ const quests = [
       "Freya seeks to reclaim her Valkyrie title by defeating Gná, one of the toughest bosses in the game. This endgame favour tests your combat mastery in an intense one-on-one battle.",
     aiTip:
       "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
-    video: "https://www.youtube.com/watch?v=5HM0a3iCn_8"
+    video: "https://www.youtube.com/watch?v=sTJHHgPxCFM"
   },
 {
     id: 47,
@@ -9013,7 +9013,7 @@ const quests = [
       "Lift a lingering curse plaguing a Vanaheim grove.",
     aiTip:
       "A tougher favor with a strong reward — bring status-resist armor.",
-    video: "https://www.youtube.com/watch?v=daM1tF5DL90"
+    video: "https://www.youtube.com/watch?v=6nfBOgdAYVc"
   },
 {
     id: 444,
