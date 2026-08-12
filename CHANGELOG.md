@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-12
+
+- **Elden Ring video-link fixes** (PR #93) — `v2.3.3` patch. Owner spot-check of
+  the Elden Ring "Watch guide" links (part of the per-game video-verification
+  effort) flagged 5 entries whose YouTube video was unavailable or incorrect.
+  Replaced the links for #239 Malenia, #241 Dragonlord Placidusax (was a
+  location guide, not a boss fight), #1011 Become Elden Lord, #1012 Roderika's
+  Questline, and #1013 Thops' Questline with owner-supplied correct guides. The
+  other 65 Elden Ring entries were confirmed correct.
+
 ## 2026-08-08
 
 - **Black Myth: Wukong — real YouTube video links** (PR #90) — `v2.3.2` patch.
