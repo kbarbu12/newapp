@@ -1,9 +1,50 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-08-07
+**Last updated:** 2026-08-12
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-08-12 — owner video-link verification (Elden Ring, Ragnarök, SW Jedi: Survivor)
+
+Kicked off the owner-driven "spot-check the auto-matched YouTube links" pass.
+Because YouTube is blocked in the build env, video *content* can't be verified
+here — the flow is: generate a per-game link list → owner watches & flags wrong
+ones → we patch `quests.js`, re-audit, and ship. Three games cleared today, each
+its own PR + prod promotion.
+
+### Repo hygiene (start of session)
+- Found the designated branch carrying an **empty no-op merge** ("Promote Black
+  Myth: Wukong…") whose tree was byte-identical to `staging`; reset the branch to
+  `origin/staging` to drop it. Confirmed prod (`main`) was already in sync with
+  staging (nothing outstanding to promote at the time).
+
+### Video-link fixes shipped (one PR per game)
+- **Elden Ring** — owner flagged 5 of 70 links; replaced #239 Malenia, #241
+  Dragonlord Placidusax (was a location guide), #1011 Become Elden Lord, #1012
+  Roderika, #1013 Thops. (PR #93 → **v2.3.3**)
+- **God of War Ragnarök** — 2 of 68 replaced: #46 Defend Your Valor, #443
+  Sigrún's Curse. (PR #94 → **v2.3.4**)
+- **Star Wars Jedi: Survivor** — 41 of 90 replaced: incorrect/unavailable/
+  too-long videos, **plus converting every remaining `results?search_query=`
+  fallback to a specific `watch?v=` guide** → Survivor now has 0 search-URL
+  videos. #1320/#1321/#1322 (Kle-0, Fenn Finau, Masi Finau) intentionally share
+  one video (same arena, owner-approved). (PR #95 → **v2.3.5**)
+
+### Tooling change
+- **`audit.js`** gained a **`SHARED_VIDEOS` allowlist**: intentional same-location
+  video reuse is permitted (emitted as a warning) instead of failing the
+  reused-video error. First entry: `jDvmQQVqWGs` (Survivor arena trio).
+
+### Process
+- Each game: `audit.js` clean (exit 0) → `build:staging`/`build:prod` → headless
+  Chromium QA (changed IDs present in bundle, 0 old IDs, 0 JS/page errors) → PR
+  to `staging`, wait for green → promote `staging → main`, wait for green.
+- Maintained a rolling "remaining games" checklist doc, regenerated after each
+  game (v4 → v5 → v6). **6 games remain**: Ghost of Tsushima, FF7 Rebirth,
+  Metaphor, Persona 5 Royal, AC Odyssey, Hogwarts Legacy.
 
 ---
 
