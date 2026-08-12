@@ -25038,7 +25038,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Reunion with Bode; escape aboard a Mantis",
     summary: "Five years after Fallen Order, a captured Cal breaks out of a Coruscant skyscraper with new ally Bode Akuna, fleeing Raxus security forces down through the planet-city to a stolen shuttle.",
     aiTip: "This is an extended tutorial — relearn your traversal and try each stance. When you crash-land, don't rush; the opening cantina and Undercity teach the game's grappling and dash before Koboh opens up.",
-    video: "https://www.youtube.com/watch?v=B2lWAsYZ3po"
+    video: "https://www.youtube.com/watch?v=z0NLPUqQKBU"
   },
 {
     id: 1283,
@@ -25233,7 +25233,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Defend the Archive; regroup with Merrin",
     summary: "The Empire, led by Bode, lays siege to the Jedha Archive. Cal fights through waves of stormtroopers to protect Cordova's research and mourn Cere.",
     aiTip: "A wave-defense gauntlet — use choke points and Merrin's magick to control the crowds. Keep moving between the Archive's tiers rather than getting cornered.",
-    video: "https://www.youtube.com/watch?v=fXzcKzvDizU"
+    video: "https://www.youtube.com/watch?v=lVDNlI-L-Hk"
   },
 {
     id: 1296,
@@ -25278,7 +25278,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Escape Nova Garon; final pursuit",
     summary: "After exposing Bode's plan, Cal fights his way out of Nova Garon's collapsing hangars to give chase to Tanalorr for the final confrontation.",
     aiTip: "A running-battle escape — prioritize mobility over clearing every enemy. Board the shuttle as soon as the path opens; lingering only spawns more Purge Troopers.",
-    video: "https://www.youtube.com/watch?v=jeZPF6cStLg"
+    video: "https://www.youtube.com/watch?v=QukSJlclYRs"
   },
 {
     id: 1299,
@@ -25293,7 +25293,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Final duel with Bode Akuna",
     summary: "On Tanalorr, Cal faces Bode Akuna in a final duel for the fate of the sanctuary world and the refugees who could shelter there.",
     aiTip: "Bode uses blaster-and-saber hybrid tactics across two phases. Deflect his blaster bolts back at him, then close distance for the saber phase — patience wins the run.",
-    video: "https://www.youtube.com/watch?v=NlgTbpU0BAY"
+    video: "https://www.youtube.com/watch?v=ZCjTbDbO4Ng"
   },
 {
     id: 1300,
@@ -25338,7 +25338,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Legendary Enemy loot; perk shard",
     summary: "The towering Gorocco Matriarch guards the Derelict Dam and combines heavy melee with a devastating charge.",
     aiTip: "Stay at mid-range and bait the charge, then dash aside and punish the recovery. Blaster stance chips it safely if you struggle up close.",
-    video: "https://www.youtube.com/watch?v=UXwuY9TugVw"
+    video: "https://www.youtube.com/watch?v=L_zQp5vPHc8"
   },
 {
     id: 1303,
@@ -25368,7 +25368,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Legendary Enemy loot; rare materials",
     summary: "Hidden beneath Fort Kah'Lin, the Spawn of Oggdo is a smaller, faster relative of Fallen Order's infamous toad-boss — and just as deadly.",
     aiTip: "Its tongue-grab is a one-shot at low health — parry it on reaction. Fight defensively, punish two hits at a time, and never get greedy.",
-    video: "https://www.youtube.com/watch?v=va0b9hRuoe8"
+    video: "https://www.youtube.com/watch?v=6rxw0cvw7TM"
   },
 {
     id: 1305,
@@ -25548,7 +25548,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Bounty pucks / credits; Caij's respect",
     summary: "Selfin Jook, an agile duelist, ambushes in the Observatory Understructure.",
     aiTip: "He's fast and dodge-heavy — bait his lunges and punish recovery rather than chasing. Dual-wield keeps pace with him.",
-    video: "https://www.youtube.com/watch?v=4a3QAkkvmwU"
+    video: "https://www.youtube.com/watch?v=dnvgVObtmyE"
   },
 {
     id: 1317,
@@ -25563,7 +25563,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Bounty pucks / credits; Caij's respect",
     summary: "Vaslyn Martz, a heavy-armored bounty, stalks the Fogged Expanse.",
     aiTip: "Her armor shrugs off light hits — use Crossguard heavy attacks and Force Slow to crack her guard.",
-    video: "https://www.youtube.com/watch?v=Viw2Wbv4U8I"
+    video: "https://www.youtube.com/watch?v=ncucLnvmYsE"
   },
 {
     id: 1318,
@@ -25623,7 +25623,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Bounty pucks / credits; Caij's respect",
     summary: "Fenn Finau, one half of a hunter pair, ambushes in the Nova Garon Hangar Bay.",
     aiTip: "Often fought near Masi — isolate them if you can. Fenn favors aggressive saber rushes; parry and counter methodically.",
-    video: "https://www.youtube.com/watch?v=F9LTCniVyHA"
+    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
   },
 {
     id: 1322,
@@ -25638,7 +25638,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Bounty pucks / credits; Caij's respect",
     summary: "Masi Finau, the second of the Finau hunters, backs up Fenn in the Hangar Bay.",
     aiTip: "Masi lays down ranged support — close on Masi first to stop the crossfire, then mop up. Mind both aggro bars at once.",
-    video: "https://www.youtube.com/watch?v=7pP_1MH1JA0"
+    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
   },
 {
     id: 1323,
@@ -25653,7 +25653,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Bounty pucks / credits; Caij's respect",
     summary: "The rogue droid Mash powers up amid the Shattered Moon's Automated Forge.",
     aiTip: "It overcharges its shell for burst damage — back off during the glow, then punish when it cools. Reflect its ranged volleys.",
-    video: "https://www.youtube.com/watch?v=9XfvJMKnjxA"
+    video: "https://www.youtube.com/watch?v=kWaNPI_yNLM"
   },
 {
     id: 1324,
@@ -25900,7 +25900,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear Jedi Chambers, which frequently reward an Essence at their end.",
       "Mop up Skill and Perk Essences last to round out Cal's build."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20all%20essences%20collectibles%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4lQHGvKIfUQ"
   },
 {
     id: 1340,
@@ -25960,7 +25960,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
     reward: "Sellable treasures; collection completion",
     summary: "Datadiscs, ancient scrolls and other Treasure collectibles are found in hard-to-reach corners and count toward full-completion tallies.",
     aiTip: "These reward thorough traversal — check ledges above and below the main path. Use the region maps to spot the ones you've missed on a cleanup run.",
-    video: "https://www.youtube.com/watch?v=Kf3xtBvSURo"
+    video: "https://www.youtube.com/watch?v=vWt8Ovu0g9Y"
   },
 {
     id: 1344,
@@ -25981,7 +25981,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find the cave near the water's edge and wall-run up to the higher ledge.",
       "Claim the Priorite Shard to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Abandoned%20Shack%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZiBl7j9rgfY"
   },
 {
     id: 1345,
@@ -26002,7 +26002,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Talk to Skoova Stev and accept his offer to join you.",
       "Return to Pyloon's Saloon to find him by the aquarium on the second floor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20the%20Mysterious%20Fisherman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DV7_irNkQYk"
   },
 {
     id: 1346,
@@ -26023,7 +26023,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Recover the jukebox components as directed.",
       "Return to the saloon to restore the music."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20the%20Musician%20and%20Their%20Droid%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wr5bFtDqXjA"
   },
 {
     id: 1347,
@@ -26044,7 +26044,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through the bog's creatures to reach Zygg.",
       "Escort or clear the way so Zygg can return to the saloon."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Help%20Zygg%20in%20the%20Swamp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6ok4HDK0lMI"
   },
 {
     id: 1348,
@@ -26065,7 +26065,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the Bedlam Raiders and battle droids besieging the Jawas.",
       "Talk to the surviving Jawa afterward to complete the rumor and gain the recruit."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20the%20Jawa%20Settlement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=whhyRyfup48"
   },
 {
     id: 1349,
@@ -26086,7 +26086,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Investigate the odd pair and resolve the encounter.",
       "Return to unlock the Holotactics Table on the saloon's second floor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Locate%20the%20Odd%20Pair%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zGz6OqbXvlA"
   },
 {
     id: 1350,
@@ -26107,7 +26107,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Deal with the creatures that trapped them.",
       "Recover the prospectors' effects to close out the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Missing%20Prospectors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0eikmvhmBv4"
   },
 {
     id: 1351,
@@ -26128,7 +26128,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Call the Trontoshell as a mount and ride it up to the branching ledges.",
       "Force-move the crate to climb up, then open the chest for the Hunter lightsaber cosmetic."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Find%20Gorge's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p41XzFQvvkk"
   },
 {
     id: 1352,
@@ -26149,7 +26149,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Fight through its defenses and solve the interior puzzles.",
       "Reach the facility's core to complete the investigation."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Central%20Valley%20Facility%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G9h0Wenr67A"
   },
 {
     id: 1353,
@@ -26170,7 +26170,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the factory's roller mines and droid defenders.",
       "Reach the control room to finish the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Roller%20Mine%20Factory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PmQZHuRFa7Y"
   },
 {
     id: 1354,
@@ -26191,7 +26191,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Locate the concealed chamber entrance.",
       "Solve the chamber's puzzle to claim its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Forest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ybiBPI7QUws"
   },
 {
     id: 1355,
@@ -26212,7 +26212,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Climb to the concealed chamber entrance.",
       "Solve the chamber puzzle to earn the Patience Perk."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20on%20the%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-DKMmJ8b_0Q"
   },
 {
     id: 1356,
@@ -26233,7 +26233,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the threats surrounding Pili.",
       "Send her back to Pyloon's Saloon to open the rooftop garden."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20in%20With%20Pili%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E3d4AIBmWOM"
   },
 {
     id: 1357,
@@ -26254,7 +26254,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Push the sliding rock into place, then guide the moving Orb upward.",
       "Climb the ruins and set the Orb to complete the puzzle."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Northern%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HEPLr3VZo6I"
   },
 {
     id: 1358,
@@ -26275,7 +26275,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Solve the Orb-and-mechanism puzzle as with the northern ruins.",
       "Reach the inner chamber to claim the perk slot."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Southern%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y_N-0SiW1Fc"
   },
 {
     id: 1359,
@@ -26296,7 +26296,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Solve the Orb-and-slider puzzle to align the mechanism.",
       "Complete it — finishing all three desert ruins leads to Cordova's lightsaber and a map upgrade."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20Ruins%20in%20the%20Western%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oozyaJ47kao"
   },
 {
     id: 1360,
@@ -26317,7 +26317,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Clear the Bedlam Raiders and battle droids garrisoned there.",
       "Reach the top of the tower and claim the stashed loot to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Raider%20Watchtower%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NYNvwABvGko"
   },
 {
     id: 1361,
@@ -26338,7 +26338,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Locate the chamber entrance concealed among the bog ruins.",
       "Solve the interior Force puzzle to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Swamp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-B8BhZwbPJo"
   },
 {
     id: 1362,
@@ -26359,7 +26359,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find the concealed chamber entrance in the valley.",
       "Complete the chamber's puzzle to earn its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Explore%20the%20High%20Republic%20Chamber%20in%20the%20Valley%20walkthrough"
+    video: "https://www.youtube.com/watch?v=y-EIYnhosnY"
   },
 {
     id: 1363,
@@ -26380,7 +26380,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Finish the conversation to convince them to join.",
       "Return to Pyloon's Saloon to find the pair settled in."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20Ashe%20Javi%20%26%20DD-EC%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oXE0z4QBOwQ"
   },
 {
     id: 1364,
@@ -26401,7 +26401,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Complete the interaction to bring the droid onside.",
       "Head back to Pyloon's Saloon to see T-1N8 among the patrons."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Recruit%20T-1N8%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7XCvGMCHOYc"
   },
 {
     id: 1365,
@@ -26422,7 +26422,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Find Wini and Zygg and see how the pair are faring.",
       "Finish the conversation to close out the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20on%20Wini%20%26%20Zygg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=O-cdUBK8e4M"
   },
 {
     id: 1366,
@@ -26443,7 +26443,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Interact with it to browse the unlocked tracks.",
       "Play a song to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Use%20the%20Saloon's%20Jukebox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NZRylg_72II"
   },
 {
     id: 1367,
@@ -26464,7 +26464,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Visit the aquarium on the second floor of Pyloon's Saloon.",
       "Inspect the fish to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Check%20the%20Aquarium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QhZ3xxOSnzQ"
   },
 {
     id: 1368,
@@ -26485,7 +26485,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Challenge an opponent and set up your unit board.",
       "Win a match of Holotactics to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Play%20a%20Holotactics%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-CUkD3ftyMo"
   },
 {
     id: 1369,
@@ -26506,7 +26506,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Browse her stock of perks, upgrades and cosmetics.",
       "Spend Priorite Shards to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Doma's%20Shop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KmArmSTCxU8"
   },
 {
     id: 1370,
@@ -26527,7 +26527,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Buy a region map to reveal collectibles and points of interest.",
       "Complete a purchase to finish the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Visit%20Zee's%20Shop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QTWghQ5MB5c"
   },
 {
     id: 1371,
@@ -26548,7 +26548,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Navigate the low-gravity platforming and heavy security droids.",
       "Reach the lower vault and claim its contents to complete the rumor."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%3A%20Survivor%20Investigate%20the%20Factory's%20Lower%20Levels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4ehiG4zRcFA"
   },
   {
     id: 1132,
