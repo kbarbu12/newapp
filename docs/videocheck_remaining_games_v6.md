@@ -987,3 +987,45 @@ so please spot-check. Reply with the quest ID + a replacement link for any that 
 - [1251] Tadaaki the Terrible — https://www.youtube.com/watch?v=rG9BGwqzRQs
 - [1252] The Last Brother — https://www.youtube.com/watch?v=LJuNGGASRZg
 - [1253] Shinpachi the Armor Thief — https://www.youtube.com/watch?v=tMb3iK-xv4M
+
+## Black Myth: Wukong (39)
+
+- [25] The Three Bells — https://www.youtube.com/watch?v=DJMSnXJ6c8M
+- [26] The Red Loong — https://www.youtube.com/watch?v=T4gT29_KTeI
+- [27] The Drunken Boar – Kingdom of Sahali — https://www.youtube.com/watch?v=Ei3upXnS4lU
+- [28] The Black Loong — https://www.youtube.com/watch?v=aws_pIoWkHA
+- [29] Shigandang – The Stone Giant — https://www.youtube.com/watch?v=cA1w2eTChGs
+- [30] The Prisoner – Pagoda Realm — https://www.youtube.com/watch?v=CbFLORHqUXU
+- [31] The Five Element Carts — https://www.youtube.com/watch?v=4c3j5Igj9NQ
+- [32] Yin Tiger – The Blacksmith's Challenge — https://www.youtube.com/watch?v=3Z1T0f9f4Vw
+- [219] Black Bear Guai – Chapter 1 Finale — https://www.youtube.com/watch?v=3nrZp3R5dLQ
+- [220] Yellow Wind Sage – Chapter 2 Finale — https://www.youtube.com/watch?v=vDZEWXWXyig
+- [221] Yellowbrow – Chapter 3 Finale — https://www.youtube.com/watch?v=8zKGKr7rpfk
+- [222] Hundred-Eyed Daoist Master – Chapter 4 Finale — https://www.youtube.com/watch?v=-EI1MrUzAqY
+- [223] Red Boy & Yaksha King – Chapter 5 Finale — https://www.youtube.com/watch?v=s4bat9aKTis
+- [224] The Great Sage's Broken Shell – Final Boss — https://www.youtube.com/watch?v=S5BuIh6NU5A
+- [225] The Mad Tiger – Old Rattle-Drum — https://www.youtube.com/watch?v=H3ZAONSUVyQ
+- [226] The Scorpionlord – Purple Cloud Mountain — https://www.youtube.com/watch?v=KOBHv03ztck
+- [227] Unlock the Azure Dust Transformation — https://www.youtube.com/watch?v=pYScnK8bA04
+- [228] Obtain the Loong Scales — https://www.youtube.com/watch?v=lSOI9seMoQ4
+- [229] Unlock the Golden Lining Transformation — https://www.youtube.com/watch?v=kTFKuaPsILs
+- [230] The Plantain Fan — https://www.youtube.com/watch?v=AVGVPesMlks
+- [231] Erlang Shen & the True Ending — https://www.youtube.com/watch?v=ael32jxy3EU
+- [829] The Wandering Wight — https://www.youtube.com/watch?v=YMWq8_44cHA
+- [830] Guangzhi & the Wolf Vanguard — https://www.youtube.com/watch?v=b7Nm9RjgHQU
+- [831] Elder Jinchi (Lingxuzi) — https://www.youtube.com/watch?v=aD0pScB7v7A
+- [832] Whiteclad Noble & Baw-Li-Guhh-Lang — https://www.youtube.com/watch?v=s1fPAPvJdLw
+- [833] Tiger Vanguard — https://www.youtube.com/watch?v=Z0MKUFXs0E4
+- [834] Kang-Jin Loong — https://www.youtube.com/watch?v=THRYf6vca8k
+- [835] Stone Vanguard — https://www.youtube.com/watch?v=w6X85I_hSeQ
+- [836] Macaque Chief (Non-Void) — https://www.youtube.com/watch?v=uDEi9zD39lg
+- [837] Captain Wise-Voice — https://www.youtube.com/watch?v=9sHwiskg02k
+- [838] The Yakshas of the Pagoda — https://www.youtube.com/watch?v=DfceILZxYJk
+- [839] Violet Spider (Second Sister) — https://www.youtube.com/watch?v=YcPkzNeDsVU
+- [840] Duo of Corruption — https://www.youtube.com/watch?v=kw9FPKw4ZD0
+- [841] Bull King & Cloudtreading Deer — https://www.youtube.com/watch?v=wjo3Xlrxua4
+- [842] The Fire Sages (Five Elements) — https://www.youtube.com/watch?v=HJkAYaepXz8
+- [843] Giant Shigandang — https://www.youtube.com/watch?v=pyJB1THHkhc
+- [844] Supreme Inspector & the Final Trials — https://www.youtube.com/watch?v=_N8kDaskS6M
+- [2571] The Duskveil – Purple Cloud Mountain Finale — https://www.youtube.com/watch?v=i_eChx21uw4
+- [2572] Daoist Mi & the Violet Hail Transformation — https://www.youtube.com/watch?v=z7xj0yN-icY
