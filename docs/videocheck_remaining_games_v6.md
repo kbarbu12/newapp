@@ -954,7 +954,7 @@ so please spot-check. Reply with the quest ID + a replacement link for any that 
 - [1218] The New Lord — https://www.youtube.com/watch?v=buWmoWwqFkM
 - [1219] The Tooth Breaker — https://www.youtube.com/watch?v=1G3xY1C9M3Y
 - [1220] The Weight of Snow — https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Weight+of+Snow+walkthrough (UNRESOLVED)
-- [1221] A Journey North — https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Journey+North+walkthrough (UNRESOLVED)
+- [1221] A Journey North — https://www.youtube.com/watch?v=aODTFezGQ5o
 - [1222] Youth Under Fire — https://www.youtube.com/watch?v=VHev9Z3OFlI
 - [1223] Smiling Yoshitomo — https://www.youtube.com/watch?v=Ohmij7tVUXg
 - [1224] Crow Genzo — https://www.youtube.com/watch?v=H699N1Sb-Fg
@@ -1329,7 +1329,7 @@ so please spot-check. Reply with the quest ID + a replacement link for any that 
 - [2406] Something Secret — https://www.youtube.com/watch?v=uswTqnTmjYc
 - [2407] Unworn Eorn — https://www.youtube.com/watch?v=Y-6uLs4BwMs
 - [2408] Missing Sentries — https://www.youtube.com/watch?v=uj0kyQ3PALA
-- [2409] The Forgotten — https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Forgotten%20walkthrough (UNRESOLVED)
+- [2409] The Forgotten — https://www.youtube.com/watch?v=NeMB9c4TA_w
 - [2410] Safe Haven — https://www.youtube.com/watch?v=yXCIrmudvys
 - [2411] All Hands on Deck — https://www.youtube.com/watch?v=sF7CP1fOnrw
 - [2412] Clandestine Cargo — https://www.youtube.com/watch?v=c5CXHmyr0QI
