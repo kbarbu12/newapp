@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-24
+
+- **Ghost of Tsushima + Hogwarts Legacy video-link fixes** (PR #97, PR #98) —
+  `v2.3.7` patch. Owner video-checked both games' "Watch guide" links.
+  Ghost of Tsushima: replaced 21 dead/incorrect video links, and split 3
+  quests that each bundled two unrelated collectibles under one video into
+  6 standalone entries with their own dedicated video (Haiku & Hot Springs;
+  Pillars of Honor & Duels; Mongol Artifacts & Records) — now 74 quests, up
+  from 71. Hogwarts Legacy: replaced 2 dead video links and removed 2
+  quests the owner confirmed don't exist in the game (The Unnatural
+  Animagus, E is for Erised) — now 122 quests, down from 124.
+
 ## 2026-08-12 (3)
 
 - **Star Wars Jedi: Survivor video-link fixes** (PR #95) — `v2.3.5` patch. Owner
