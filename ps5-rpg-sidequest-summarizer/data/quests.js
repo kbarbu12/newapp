@@ -3323,7 +3323,7 @@ const quests = [
       "Hunt down six legendary swordsmen — the surviving members of the Straw Hat Ronin gang — across Tsushima. Each duel is a unique challenge that tests a different aspect of your sword mastery.",
     aiTip:
       "Face the six blades in order of difficulty — the final duel with Kojiro himself is one of the hardest fights in the base game. The Kensei Armor enhances Ghost Stance, making this questline doubly rewarding.",
-    video: "https://www.youtube.com/watch?v=LfHsYzm3Zp4"
+    video: "https://www.youtube.com/watch?v=R-lFf5Es8pA"
   },
 {
     id: 174,
@@ -3381,7 +3381,7 @@ const quests = [
       "Confront the Mongol general Dokhoi who committed atrocities against the people of Kamiagata. A large-scale assault requiring stealth infiltration followed by intense open combat as Jin's legend reaches its peak.",
     aiTip:
       "Scout the encampment fully before engaging — use the Ghost stance to eliminate key targets early. The general himself fights with two weapons simultaneously; watch for the stance changes.",
-    video: "https://www.youtube.com/watch?v=F2duQ_Yt3zk"
+    video: "https://www.youtube.com/watch?v=yMUQqITXCU0"
   },
 {
     id: 177,
@@ -9683,7 +9683,7 @@ const quests = [
       "Face the story's turning-point choice/duel.",
       "Complete the mission, setting up the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Lord%20Shimura%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b9xgvsNvxdw"
   },
 {
     id: 474,
@@ -9850,7 +9850,7 @@ const quests = [
       "Pray at the shrine to earn a Charm slot / charm upgrade.",
       "Repeat across the region to expand your charm capacity."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Fox%20Dens%20%26%20Inari%20Shrines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ggMHDZcGWdo"
   },
 {
     id: 482,
@@ -9899,73 +9899,142 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
   },
 {
-    id: 484,
+    id: 2582,
     type: "side",
     category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Haiku & Hot Springs",
+    title: "Haiku",
     location: "Multiple regions",
     length: "short",
     difficulty: "Low",
-    reward: "Headbands (haiku), max health (springs)",
+    reward: "Cosmetic headbands",
     summary:
-      "Compose haiku for cosmetic headbands and bathe in hot springs to increase maximum health.",
+      "Visit haiku spots marked across the island and compose verses for cosmetic headbands.",
     aiTip:
-      "Quiet, reflective activities — hot springs give real HP boosts, so seek them all out.",
+      "Quiet, reflective stops — pick the haiku line that best fits the scene in front of you.",
     walkthrough: [
-      "Locate a hot spring or haiku spot marked in the region.",
-      "At a hot spring, relax to increase maximum health; at a haiku spot, compose the verse.",
-      "Choose the haiku lines that fit the scene.",
-      "Collect the reward (health up or a headband cosmetic) and move on."
+      "Locate a haiku spot marked on the map.",
+      "Sit at the spot and choose the haiku lines that fit the scene.",
+      "Complete the verse to unlock a cosmetic headband.",
+      "Repeat at each haiku spot across the island to collect them all."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Haiku%20%26%20Hot%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SfAjeqrZOmw&list=PLRr5L69yg_kEC8aiQPLf4dsR_WiAWsaS2&index=4"
   },
 {
-    id: 485,
+    id: 2583,
     type: "side",
     category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Pillars of Honor & Duels",
+    title: "Hot Springs",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Max health increase",
+    summary:
+      "Bathe in hot springs found across the island to permanently increase Jin's maximum health.",
+    aiTip:
+      "These give a real, permanent HP boost — seek out every hot spring early for a survivability edge.",
+    walkthrough: [
+      "Locate a hot spring marked on the map.",
+      "Approach and relax in the spring.",
+      "Confirm the prompt to increase maximum health.",
+      "Repeat at each hot spring across the island to collect them all."
+    ],
+    video: "https://www.youtube.com/watch?v=u4FrE33Hzo0&list=PLRr5L69yg_kEC8aiQPLf4dsR_WiAWsaS2&index=6"
+  },
+{
+    id: 2584,
+    type: "side",
+    category: "Exploration",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Pillars of Honor",
     location: "Multiple regions",
     length: "medium",
     difficulty: "High",
     reward: "Sword kits, standoff practice",
     summary:
-      "Seek out the Pillars of Honor to challenge fearsome swordsmen in one-on-one duels.",
+      "Seek out the Pillars of Honor scattered across the island to challenge fearsome swordsmen in one-on-one duels.",
     aiTip:
-      "Pure parry-and-dodge tests — great practice for the standoff and dueling systems.",
+      "Pure parry-and-dodge tests — great practice for the standoff and dueling systems before facing tougher bosses.",
     walkthrough: [
-      "Find a Pillar of Honor or a wandering enemy who challenges you to a standoff duel.",
-      "Enter the duel and read the opponent's stance.",
+      "Find a Pillar of Honor marked on the map.",
+      "Approach the swordsman waiting there to begin the duel.",
       "Parry and dodge their strikes, then counter — watch for unblockable attacks.",
-      "Defeat them to earn cosmetic dyes / rewards, then seek the next."
+      "Defeat them to earn a sword kit, then seek out the next pillar."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Pillars%20of%20Honor%20%26%20Duels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hIh43scFaPQ"
   },
 {
-    id: 486,
+    id: 2585,
     type: "side",
     category: "Exploration",
     game: "Ghost of Tsushima",
     region: "Izuhara",
-    title: "Mongol Artifacts & Records",
+    title: "Duels",
+    location: "Multiple regions",
+    length: "medium",
+    difficulty: "High",
+    reward: "Cosmetic dyes",
+    summary:
+      "Answer wandering swordsmen who challenge Jin to a standoff duel out on the road.",
+    aiTip:
+      "These trigger from roaming NPCs rather than a fixed map marker — approach the challenger to start.",
+    walkthrough: [
+      "Encounter a wandering swordsman who challenges you to a standoff duel.",
+      "Accept the challenge and read the opponent's stance.",
+      "Parry and dodge their strikes, then counter — watch for unblockable attacks.",
+      "Defeat them to earn cosmetic dyes and other rewards."
+    ],
+    video: "https://www.youtube.com/watch?v=2U5c5f9_kb8&list=PLRr5L69yg_kEC8aiQPLf4dsR_WiAWsaS2&index=2"
+  },
+{
+    id: 2586,
+    type: "side",
+    category: "Exploration",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Mongol Artifacts",
     location: "Multiple regions",
     length: "short",
     difficulty: "Low",
-    reward: "Cosmetics, lore, supplies",
+    reward: "Cosmetics, supplies",
     summary:
-      "Loot Mongol camps and artifacts to gather supplies, lore records, and cosmetic rewards.",
+      "Loot Mongol camps and outposts across the island to collect artifacts for cosmetic rewards.",
     aiTip:
-      "Clearing camps also liberates the map — combine collection runs with liberation.",
+      "Clearing camps also liberates the map — combine artifact collection with liberation runs.",
     walkthrough: [
-      "Track down Mongol Artifacts and Records marked on the map.",
-      "Search the enemy camps and buildings to collect them.",
-      "Read the records for lore and progress toward the collection.",
-      "Gather them all across the region to complete the set."
+      "Track down Mongol Artifacts marked on the map, usually inside enemy camps.",
+      "Search the camp or building to find and collect the artifact.",
+      "Repeat across each region to gather every artifact.",
+      "Turn in the full set for cosmetic rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Mongol%20Artifacts%20%26%20Records%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HxEIME14AIE&list=PLRr5L69yg_kEC8aiQPLf4dsR_WiAWsaS2&index=12"
+  },
+{
+    id: 2587,
+    type: "side",
+    category: "Exploration",
+    game: "Ghost of Tsushima",
+    region: "Izuhara",
+    title: "Records",
+    location: "Multiple regions",
+    length: "short",
+    difficulty: "Low",
+    reward: "Lore",
+    summary:
+      "Track down Records scattered across the island to uncover lore about Tsushima's history.",
+    aiTip:
+      "Purely a lore collectible — no combat required, just search the marked locations.",
+    walkthrough: [
+      "Track down a Record marked on the map.",
+      "Search the location to find and collect the record.",
+      "Read the record for lore on Tsushima's history.",
+      "Repeat across each region to complete the collection."
+    ],
+    video: "https://www.youtube.com/watch?v=haYKkc9tEHE"
   },
 {
     id: 487,
@@ -10013,7 +10082,7 @@ const quests = [
       "Reach the confrontation the chapter builds toward.",
       "Complete it to advance against the Eagle."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Eagle's%20Cry%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wASV6CqvePo"
   },
 {
     id: 489,
@@ -14305,7 +14374,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight off the pursuit as you escape.",
       "Return him to safety to advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Broken%20Blacksmith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IZz54WTPN4A"
   },
 {
     id: 689,
@@ -14329,7 +14398,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Clear the objective and its defenders.",
       "Complete the mission to progress."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Iron%20Hook%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aDB361dtNt8"
   },
 {
     id: 690,
@@ -14353,7 +14422,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the forge/rescue objective.",
       "Advance the story with the reforged resolve."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Hammer%20and%20the%20Forge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nhZbC9skxao"
   },
 {
     id: 691,
@@ -14377,7 +14446,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face Ryuzo or his lieutenants at the climax.",
       "Resolve the confrontation to advance Jin's Journey."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Ryuzo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_V66_S_aYvc"
   },
 {
     id: 692,
@@ -14449,7 +14518,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the schemer behind the coward's deception.",
       "Resolve it to advance toward the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Coward's%20Deception%20walkthrough"
+    video: "https://www.youtube.com/watch?v=29jY43VtfcQ"
   },
 {
     id: 695,
@@ -14473,7 +14542,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective that opens the new horizon.",
       "Advance to the game's climax."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20New%20Horizon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w2b1un1f_pQ"
   },
 {
     id: 696,
@@ -18752,7 +18821,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront and defeat the Black Wolf.",
       "Complete the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Black%20Wolf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dqcoGcHaN9Y"
   },
 {
     id: 911,
@@ -18776,7 +18845,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the one behind the killings.",
       "Resolve the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Message%20in%20Blood%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qkhtVMNBbGI"
   },
 {
     id: 912,
@@ -18824,7 +18893,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Defeat the commander driving the conquest.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Dreams%20of%20Conquest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4mezMPRbwNk"
   },
 {
     id: 914,
@@ -18848,7 +18917,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the Ghost-and-Demon duel at the climax.",
       "Resolve the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Ghost%20and%20the%20Demon%20Sensei%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zQ1SpYdjoBI"
   },
 {
     id: 915,
@@ -18872,7 +18941,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront and defeat the source of the terror.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Terror%20of%20Otsuna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ac5BxHPB6Bg"
   },
 {
     id: 916,
@@ -18896,7 +18965,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "See them safely through.",
       "Complete the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Friends%20in%20Passing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PW4HBUd2h88"
   },
 {
     id: 917,
@@ -19040,7 +19109,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the thief for the truth.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Thief%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fDdaUnNhWhQ"
   },
 {
     id: 923,
@@ -19160,7 +19229,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront what haunts the fog.",
       "Complete the tale to advance Norio's arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20in%20the%20Fog%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9LK-MBVA9fY"
   },
 {
     id: 928,
@@ -19232,7 +19301,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the cause at the climax.",
       "Complete the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Cause%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VARrfelY1CM"
   },
 {
     id: 931,
@@ -19256,7 +19325,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Confront the final foe and end the suffering.",
       "Complete the tale for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20End%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0cqbdJcVSz4"
   },
 {
     id: 932,
