@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-24
+
+- **Ghost of Tsushima & Hogwarts Legacy quest-data fixes** (PRs #97, #98) —
+  `v2.3.7` patch. **Ghost of Tsushima**: fixed 21 dead video links and split 3
+  combined entries into their proper separate quests (71 → 74); search-URL
+  fallbacks dropped from 62 to 40. **Hogwarts Legacy**: fixed 2 dead video links
+  and removed 2 nonexistent quests (124 → 122). Total quests 2518 → 2519.
+
 ## 2026-08-12 (3)
 
 - **Star Wars Jedi: Survivor video-link fixes** (PR #95) — `v2.3.5` patch. Owner
