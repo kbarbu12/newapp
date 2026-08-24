@@ -14794,30 +14794,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     video: "https://www.youtube.com/watch?v=3HVWihCCfso"
   },
 {
-    id: 709,
-    type: "side",
-    category: "Side Quest",
-    game: "Hogwarts Legacy",
-    region: "Hogsmeade",
-    title: "The Unnatural Animagus",
-    location: "Hogsmeade",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Animagus mystery, gear",
-    summary:
-      "Investigate a poacher-linked Animagus with the eccentric Poppy connection.",
-    aiTip:
-      "A memorable side story with a satisfying reveal — moderate combat.",
-video: "https://www.youtube.com/watch?v=pwEwccWkYSQ",
-    walkthrough: [
-      "Pick up the quest in Hogsmeade and speak with the quest giver to learn about the suspicious Animagus.",
-      "Follow the objective marker to the poacher-linked location and investigate the area with Revelio.",
-      "Defeat the poachers guarding the site and free any captured beasts with your Nab-Sack.",
-      "Confront the Animagus and see the reveal play out through the ensuing conversation and fight.",
-      "Loot the nearby chests and claim your reward before leaving."
-    ]
-  },
-{
     id: 710,
     type: "side",
     category: "Side Quest",
@@ -18144,7 +18120,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Share a quiet, starlit outing with Poppy that closes her companion questline.",
     aiTip:
       "The capstone of Poppy's arc — do it after her earlier beast quests.",
-    video: "https://www.youtube.com/watch?v=uTsJ7ztnG1Y"
+    video: "https://www.youtube.com/watch?v=H7gWGVAnQSo"
   },
 {
     id: 872,
@@ -18281,30 +18257,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip:
       "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
     video: "https://www.youtube.com/watch?v=WfZgkpxRcNY"
-  },
-{
-    id: 880,
-    type: "side",
-    category: "Side Quest",
-    game: "Hogwarts Legacy",
-    region: "Highlands",
-    title: "E is for Erised",
-    location: "Cragcroftshire",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Gold, gear",
-    summary:
-      "Help a troubled villager whose obsession echoes the Mirror of Erised's dangerous pull on the heart's desire.",
-    aiTip:
-      "A shorter narrative quest — follow the marked leads around Cragcroftshire.",
-video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
-    walkthrough: [
-      "Begin the quest and follow the objective marker to investigate the Mirror of Erised lead.",
-      "Use Revelio to uncover clues and Depulso/Accio to solve the environmental puzzles blocking your path.",
-      "Progress through the area, defeating any enemies you encounter along the way.",
-      "Reach and interact with the Mirror of Erised to trigger the quest's key scene.",
-      "Collect your reward and any nearby chests to complete the quest."
-    ]
   },
 {
     id: 881,
@@ -18525,7 +18477,7 @@ video: "https://www.youtube.com/watch?v=0MryWc56s1Y",
       "Make good on a delivery for a pushy Hogsmeade shopkeeper before their patience runs out.",
     aiTip:
       "A short courier quest — follow the marker and hand over the goods.",
-    video: "https://www.youtube.com/watch?v=Mf0j6CiaQrI"
+    video: "https://www.youtube.com/watch?v=XPEW0ZOAkUY"
   },
 {
     id: 894,
