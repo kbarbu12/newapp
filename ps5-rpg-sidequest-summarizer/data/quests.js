@@ -9037,7 +9037,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=twhSzBpqGM0"
   },
 {
     id: 445,
@@ -9061,7 +9061,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3dZND3b9oD0"
   },
 {
     id: 446,
@@ -9133,7 +9133,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=55WG5IBPZ8I"
   },
 {
     id: 449,
@@ -9157,7 +9157,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6ggLKIc3CAI"
   },
 {
     id: 450,
@@ -9181,7 +9181,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oM_sjX5zh5w"
   },
 {
     id: 451,
@@ -9229,7 +9229,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m_XT78-B4ms"
   },
 {
     id: 453,
@@ -9515,7 +9515,7 @@ const quests = [
       "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
       "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hcJ5a0gfQfM"
   },
 {
     id: 467,
@@ -14262,7 +14262,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress the main story to trigger each locked rank.",
       "Max the rank for better ambushes and item crafting."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AuRMtbh5g3E"
   },
 {
     id: 680,
@@ -14284,7 +14284,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the key confession choices honestly.",
       "Reach max rank in the endgame for its powerful battle perks."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tc11KlVbu_4"
   },
 {
     id: 685,
@@ -26583,7 +26583,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression; Healer Archetype access",
     summary: "The opening main quest: reach the cursed prince in the Regalith Grand Cathedral and confront the threat on his life.",
     aiTip: "Learn to guard and hit weaknesses early — the cathedral's enemies punish reckless play before you have healing to spare.",
-    video: "https://www.youtube.com/watch?v=nMAjonCPoHc"
+    video: "https://www.youtube.com/watch?v=_l-JneTM0iM"
   },
   {
     id: 1133,
@@ -27063,7 +27063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Tolerance +4",
     summary: "Starts during Strohl Rank 5 (Rank 3 Imagination) — speak with the fishmonger near the Grand Cathedral, then the Capital Merchant.",
     aiTip: "You'll need Rank 3 Imagination to progress the dialogue chain.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Noble's%20Legacy%20walkthrough",
+    video: "https://www.youtube.com/watch?v=fFTxeSXYDO8",
     walkthrough: [
       "Reach Strohl Rank 5 to start the quest.",
       "Talk to the fishmonger near the Grand Cathedral in Grand Trad.",
@@ -27423,7 +27423,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gleaming Crystal x1; Wisdom +4; 15,000 Reeve",
     summary: "The Enthusiastic Woman sends you to the Lycaon Magic Association to hear out the Igniter Merchant.",
     aiTip: "Just travel to the Magic Association and listen to the Igniter Merchant to progress.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Price%20of%20Hope%20walkthrough",
+    video: "https://www.youtube.com/watch?v=oWxeeIVg1UM",
     walkthrough: [
       "Accept the quest from the Enthusiastic Woman.",
       "Travel to the Lycaon Magic Association.",
@@ -27443,7 +27443,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Jewelled Root x3; Courage +4; 90,000 Reeve",
     summary: "The Dejected Man asks you to defeat the boss at the top of the Spire of Blind Faith.",
     aiTip: "The Spire is a full climb — stock up before entering and pace your MP for the summit boss.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Peak%20Curiosity%20walkthrough",
+    video: "https://www.youtube.com/watch?v=xzDUyGLWI_k",
     walkthrough: [
       "Accept the quest from the Dejected Man.",
       "Climb the Spire of Blind Faith.",
@@ -27463,7 +27463,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 90,000 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of Scoundrel's Hold.",
     aiTip: "Clear Scoundrel's Hold to its final chamber for the bounty target.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Greater%20One-Eyed%20Scoundrel%20walkthrough",
+    video: "https://www.youtube.com/watch?v=L4JWI9tTRlE",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to Scoundrel's Hold.",
@@ -27583,7 +27583,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Leaf of Light x8",
     summary: "Auto-accepted at Neuras Rank 5 — find Neuras's relic on Mt. Vulkano.",
     aiTip: "The relic is in a chest on Mt. Vulkano.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Bitter%20Memories%20walkthrough",
+    video: "https://www.youtube.com/watch?v=DonkEPVsBu0",
     walkthrough: [
       "Reach Neuras Rank 5 to auto-accept the relic search.",
       "Travel to Mt. Vulkano.",
@@ -27623,7 +27623,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 82,500 Reeve",
     summary: "The Obsessive Soldier asks you to defeat the boss at the top of the Tower of Insolence.",
     aiTip: "Save at the tower's checkpoints — the summit boss is a long fight.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Proof%20of%20Power%20walkthrough",
+    video: "https://www.youtube.com/watch?v=WhAongd1ih4",
     walkthrough: [
       "Accept the quest from the Obsessive Soldier.",
       "Climb the Tower of Insolence.",
@@ -27643,7 +27643,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Mountaineer Gloves x1; Tolerance +4; 37,500 Reeve",
     summary: "The Portly Man asks you to buy Altabury Wheat Flour and Durable Spider Silk from Malva.",
     aiTip: "Both items are sold in Malva — buy them and return.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Warmth%20in%20Winter%20walkthrough",
+    video: "https://www.youtube.com/watch?v=ic9WL8WBwD8",
     walkthrough: [
       "Accept the quest from the Portly Man.",
       "Travel to Malva.",
@@ -27703,7 +27703,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Lord of the Lake x1; Eloquence +4; 33,750 Reeve",
     summary: "The Classy Woman returns with a tougher order: cook an Indestructible Honey Cake and give it to her.",
     aiTip: "Gather the ingredients for Indestructible Honey Cake, cook it, then deliver.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Queen%20of%20Cuisine%3A%20Soul%20walkthrough",
+    video: "https://www.youtube.com/watch?v=Xvi9F6mjNuk",
     walkthrough: [
       "Accept the request from the Classy Woman.",
       "Cook an Indestructible Honey Cake.",
@@ -27723,7 +27723,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Legendary Greatsword; Wisdom +4; 45,000 Reeve",
     summary: "The Ornamented Man asks you to find the sword in a chest on Mt. Vulkano.",
     aiTip: "The sword is in a specific chest on Mt. Vulkano — sweep the area's side paths.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Edge%20of%20Glory%20walkthrough",
+    video: "https://www.youtube.com/watch?v=pferROdj_eA",
     walkthrough: [
       "Accept the quest from the Ornamented Man.",
       "Travel to Mt. Vulkano.",
@@ -27743,7 +27743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 112,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Abandoned Path.",
     aiTip: "Clear the Abandoned Path to its final boss chamber.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Incarnate%20in%20the%20Woods%20walkthrough",
+    video: "https://www.youtube.com/watch?v=JTi9bon1Uk8",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Abandoned Path.",
@@ -27763,7 +27763,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 172,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Disgraced Ruins.",
     aiTip: "One of the toughest bounties — come well-leveled with revival items.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Apostles%20of%20the%20Apocalypse%20walkthrough",
+    video: "https://www.youtube.com/watch?v=h5lleNiuM_A",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Disgraced Ruins.",
@@ -27783,7 +27783,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 157,500 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of the Manor of the Ascendant.",
     aiTip: "The cockatrice inflicts petrify — bring status cures and act fast.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Cockatrice%20in%20the%20Clouds%20walkthrough",
+    video: "https://www.youtube.com/watch?v=o4bzlvZsGmE",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Manor of the Ascendant.",
@@ -27803,7 +27803,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragon Trial progress",
     summary: "The Enraged Mustari sets a dragon trial: defeat the Dragon at the top of the Tower of Insolence.",
     aiTip: "One of three dragon trials — all three must be cleared to unlock the final one.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Bygone%20Legacy%20walkthrough",
+    video: "https://www.youtube.com/watch?v=SVFhpW1jjmw",
     walkthrough: [
       "Accept the trial from the Enraged Mustari.",
       "Climb the Tower of Insolence.",
@@ -27843,7 +27843,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragon Trial progress",
     summary: "Edeni sets a dragon trial: defeat the Dragon at the top of the Spire of Blind Faith.",
     aiTip: "Complete all three dragon trials to unlock Essence of Power.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Heroes'%20Rest%20walkthrough",
+    video: "https://www.youtube.com/watch?v=rbbM0LsiEUM",
     walkthrough: [
       "Accept the trial from Edeni.",
       "Climb the Spire of Blind Faith.",
@@ -27863,7 +27863,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragon Trial progress",
     summary: "The Gabby Mustari sets a dragon trial: defeat the Dragon at the top of the Forsaken Tower.",
     aiTip: "The last of the three prerequisite dragon trials before Essence of Power.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Mad%20Mischief%20walkthrough",
+    video: "https://www.youtube.com/watch?v=vDAPW5MsJJc",
     walkthrough: [
       "Accept the trial from the Gabby Mustari.",
       "Climb the Forsaken Tower.",
@@ -27883,7 +27883,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Tolerance +4",
     summary: "Auto-accepted during Basilio Rank 7 — spend time with Basilio for Rank 8 (Rank 5 Eloquence required).",
     aiTip: "You'll need Rank 5 Eloquence to advance Basilio's bond here.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Brother's%20Mercy%20walkthrough",
+    video: "https://www.youtube.com/watch?v=CrGuqxBGxZE",
     walkthrough: [
       "Reach Basilio Rank 7 to auto-accept the quest.",
       "Ensure you have Rank 5 Eloquence.",
@@ -27903,7 +27903,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Leaf of Light x10",
     summary: "Auto-accepted at Neuras Rank 6 — find Neuras's relic in Scoundrel's Hold.",
     aiTip: "Another relic chest in Scoundrel's Hold; grab it and return to Neuras.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20A%20Dream's%20Origin%20walkthrough",
+    video: "https://www.youtube.com/watch?v=lv3rhziQVr8",
     walkthrough: [
       "Reach Neuras Rank 6 to auto-accept the relic search.",
       "Travel to Scoundrel's Hold.",
@@ -48882,7 +48882,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Strength Up Ofuda (8x))."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20O%20My%20Young%20Sister%2C%20I%20Cry%20for%20You%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgU9htVT-EM"
   },
   {
     id: 2569,
