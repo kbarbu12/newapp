@@ -9037,7 +9037,7 @@ const quests = [
       "Return before the deadline and grab the treasure — Kamoshida's Olympic medal.",
       "Defeat his Shadow Asmodeus, targeting the crown of desire, to change his heart."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kamoshida's%20Palace%20%E2%80%94%20Castle%20of%20Lust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=twhSzBpqGM0"
   },
 {
     id: 445,
@@ -9061,7 +9061,7 @@ const quests = [
       "Steal the treasure — the original Sayuri painting.",
       "Beat Shadow Madarame (Azazel), breaking his protective-canvas phases."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Madarame's%20Palace%20%E2%80%94%20Museum%20of%20Vanity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3dZND3b9oD0"
   },
 {
     id: 446,
@@ -9133,7 +9133,7 @@ const quests = [
       "Defeat the executive-robot summons, then Shadow Okumura's final mech.",
       "Grab the treasure quickly — a major real-world twist follows at once."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Okumura's%20Palace%20%E2%80%94%20Spaceport%20of%20Greed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=55WG5IBPZ8I"
   },
 {
     id: 449,
@@ -9157,7 +9157,7 @@ const quests = [
       "Defeat Shadow Sae (Leviathan) across both of her forms.",
       "Steal the treasure — this is the heist framed by the interrogation."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Niijima's%20Palace%20%E2%80%94%20Casino%20of%20Envy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6ggLKIc3CAI"
   },
 {
     id: 450,
@@ -9181,7 +9181,7 @@ const quests = [
       "Defeat Shadow Shido through every beast-form phase, then his true self.",
       "Take the treasure and face the grim aftermath back in reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shido's%20Palace%20%E2%80%94%20Cruiser%20of%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oM_sjX5zh5w"
   },
 {
     id: 451,
@@ -9229,7 +9229,7 @@ const quests = [
       "Send the calling card, then fight Maruki's phases including Adam Kadmon.",
       "Win the rooftop duel and reject the false paradise to restore reality."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Maruki's%20Palace%20%E2%80%94%20Laboratory%20of%20Sloth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m_XT78-B4ms"
   },
 {
     id: 453,
@@ -9515,7 +9515,7 @@ const quests = [
       "In Mementos, find Jose and trade collected flowers for stat buffs and stamps for shop discounts.",
       "Turn flowers/stamps in before the finale to maximize the permanent bonuses."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Will%20Seeds%20%26%20Jose%20(Royal)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hcJ5a0gfQfM"
   },
 {
     id: 467,
@@ -14262,7 +14262,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress the main story to trigger each locked rank.",
       "Max the rank for better ambushes and item crafting."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Morgana%20(Magician)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AuRMtbh5g3E"
   },
 {
     id: 680,
@@ -14284,7 +14284,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the key confession choices honestly.",
       "Reach max rank in the endgame for its powerful battle perks."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sae%20Niijima%20(Judgement)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tc11KlVbu_4"
   },
 {
     id: 685,
@@ -48882,7 +48882,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Strength Up Ofuda (8x))."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20O%20My%20Young%20Sister%2C%20I%20Cry%20for%20You%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgU9htVT-EM"
   },
   {
     id: 2569,
