@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-08-25
+
+- **Metaphor: ReFantazio + Persona 5 Royal video-link fixes** (PR #101, PR #102)
+  — `v2.3.9` patch. Owner video-checked both games' "Watch guide" links.
+  Metaphor: ReFantazio: replaced 18 dead/incorrect video links (quest count
+  unchanged at 76). Persona 5 Royal: replaced 10 dead/incorrect video links
+  (quest count unchanged at 66). Final Fantasy VII Rebirth was also checked
+  in this pass — every link confirmed correct, no changes needed.
+
 ## 2026-08-24
 
 - **Ghost of Tsushima + Hogwarts Legacy video-link fixes** (PR #97, PR #98) —
