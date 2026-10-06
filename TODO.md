@@ -12,7 +12,7 @@ All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details 
 `PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
 ## Upgrade quest videos from search URLs to real `watch?v=` links
-1,572 of 2,518 quest `video` fields are YouTube *search* URLs
+1,476 of 2,515 quest `video` fields (as of 2026-10-06) are YouTube *search* URLs
 (`results?search_query=…`) rather than specific `watch?v=` deep links. They
 work (they open the right search), but a specific video is better UX. Real IDs
 can be sourced via `WebSearch` filtered to `youtube.com`; can't be verified by
