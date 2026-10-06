@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-06
+
+- **Fix AC Odyssey duplicate Ostraka entries** (PR #104) — `v2.3.11` patch.
+  Removed 4 Side Quest entries (#2081 Record Sunshine, #2082 Happy Hour,
+  #2083 Pressed for Time, #2084 A Specific General) that duplicated existing
+  Ainigmata Ostraka riddles and only had placeholder text and search-URL
+  videos. Corrected those 4 Ostraka entries' regions: Happy Hour and Record
+  Sunshine → Megaris (was Attika); Pressed for Time and A Specific General →
+  Phokis (was Northern Greece). AC Odyssey now 349 quests (was 353), with 0
+  search-URL videos.
+
 ## 2026-08-25
 
 - **Metaphor: ReFantazio + Persona 5 Royal video-link fixes** (PR #101, PR #102)
