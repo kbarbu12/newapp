@@ -1,9 +1,55 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-08-12
+**Last updated:** 2026-10-06
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-10-06 — AC Odyssey link review + duplicate Ostraka fix
+
+### Owner video-link verification: status
+- Since 2026-08-12, Ghost of Tsushima + Hogwarts Legacy (`v2.3.7`), Metaphor:
+  ReFantazio + Persona 5 Royal (`v2.3.9`) and FF7 Rebirth (checked, no changes)
+  were cleared — see CHANGELOG. **AC Odyssey is the last game left.**
+- Published the AC Odyssey link-review page (Claude artifact
+  https://claude.ai/artifact/JKjpPDsWv9cU7eg4rtZQuE): all 349 quests grouped by
+  category, with per-row Flag buttons and a "Copy flagged list" button that
+  produces `#id Title (videoId)` lines to paste back. **Waiting on the owner's
+  flagged list** → then one PR with the replacements.
+
+### Fix AC Odyssey duplicate Ostraka entries (PR #104 → **v2.3.11**)
+- The game's 4 remaining search-URL videos belonged to Side Quest entries
+  #2081 Record Sunshine, #2082 Happy Hour, #2083 Pressed for Time and #2084 A
+  Specific General. Research showed these are Ainigmata Ostraka riddles, not
+  side quests, and duplicates of existing Ostraka entries #2302, #2301, #2295,
+  #2297 (which already had real videos). Removed the 4 duplicates (they only
+  had placeholder side-quest text). AC Odyssey: 353 → 349 quests; Side Quest
+  118 → 114; **0 search-URL videos left**.
+- Also corrected those Ostraka entries' regions (region, location, summary,
+  first walkthrough step): Happy Hour + Record Sunshine Attika → **Megaris**;
+  Pressed for Time + A Specific General Northern Greece → **Phokis**.
+- Audit clean → staging build + headless QA → PR #104 to `staging` (green) →
+  CHANGELOG PR #105 → promoted `staging → main` → `v2.3.11` tagged; prod QA on
+  the local prod build (live `github.io` is blocked here).
+
+### Notes for next time
+- The auto-mode safety classifier blocks blind line-range deletes in
+  `quests.js` (`sed -i 'N,Md'`). Deleting entries needs the owner's explicit
+  OK, then an exact-match edit of the entry blocks.
+- The prod build is based at `/newapp/` (not `/newapp/prod/`) and shows only
+  the Library tab, so local prod QA must serve `dist/prod` at `/newapp/` and
+  must not expect a Library tab button.
+- The app shows a "Welcome, adventurer" modal on first load; headless QA has
+  to click **Not now** first.
+
+### Open follow-ups (found, not fixed)
+- #2040 "Ashes to Ashes" exists as both a Main Story quest and an Ostraka
+  riddle (#2293). Check whether it's a real name clash or another duplicate.
+- About 100 AC Odyssey side quests (#2071–#2185) still use the generic
+  placeholder summary ("A regional side quest in …"), against the CLAUDE.md
+  no-placeholder rule.
 
 ---
 
