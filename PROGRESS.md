@@ -1,9 +1,41 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-06
+**Last updated:** 2026-10-10
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-10-10 — AC Odyssey Chapter 5 region fix
+
+### "Ashes to Ashes" check
+- #2040 (Main Story) and #2293 (Ainigmata Ostraka) are both real and
+  different: the Chapter 5 story quest (Chrysis, Altar of Apollo Maleatas) and
+  a Kephallonia riddle tablet (Marko's Vineyard → Kausos burned temple). Both
+  kept; #2293's data was already correct.
+
+### Fix AC Odyssey Chapter 5 main-quest regions (PR #107 → **v2.3.12**)
+- Checking #2040 showed main quests #2030–#2049 were all filed under
+  "Cyclades Islands", though most of Chapter 5 happens elsewhere. Verified
+  against guides and moved 13 quests to existing regions:
+  - #2031–#2035 (To Find a Girl → Monger Down) → **Korinthia**
+  - #2036–#2040 (First Do No Harm → Ashes to Ashes) → **Argolis**
+  - #2041–#2043 (Abandoned by the Gods → Athens' Last Hope) → **Attika**
+  - #2030 (Keos) and #2044–#2049 (Naxos/Paros) stay in the Cyclades.
+- #2031's "across the Cyclades" text → "in Korinthia". #2040's speculative
+  summary/walkthrough ("commonly a baby, per known player reports") rewritten
+  from guides: altar → forest shrine → save the baby or chase Chrysis.
+- Audit clean → staging build + headless QA (Main Story filter: Korinthia 5,
+  Argolis 5, Attika 14, Cyclades 8; 0 page errors) → PR #107 to `staging` →
+  CHANGELOG PR #108 → promoted `staging → main` → `v2.3.12` tagged; prod QA on
+  the local prod build. Also shipped the 2026-10-06 log (PR #106).
+
+### Still open
+- AC Odyssey link review: waiting on the owner's flagged list.
+- About 100 AC Odyssey side quests (#2071–#2185) with placeholder summaries.
+- Other AC Odyssey main-quest chapter blocks may have the same block-region
+  problem (only Chapter 5 was checked).
 
 ---
 
@@ -45,8 +77,8 @@
   to click **Not now** first.
 
 ### Open follow-ups (found, not fixed)
-- #2040 "Ashes to Ashes" exists as both a Main Story quest and an Ostraka
-  riddle (#2293). Check whether it's a real name clash or another duplicate.
+- ~~#2040 "Ashes to Ashes" exists as both a Main Story quest and an Ostraka
+  riddle (#2293).~~ Resolved 2026-10-10: a real name clash, both kept.
 - About 100 AC Odyssey side quests (#2071–#2185) still use the generic
   placeholder summary ("A regional side quest in …"), against the CLAUDE.md
   no-placeholder rule.

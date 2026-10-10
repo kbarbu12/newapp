@@ -3,6 +3,24 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-10 (2)
+
+- **AC Odyssey main-quest regions, all chapters** (PR #110) — `v2.3.13` patch.
+  20 more main quests moved to their real regions: #2007 Equal Employment
+  Opportunity Program → Phokis; Eppie quests #2008–#2011 → Boeotia; #2012–#2015
+  Megaris campaign → Megaris; #2024 Memories Awoken → Phokis; Olympic Games
+  quests #2054–#2056 → Elis; Lagos quests #2057–#2060 → Arkadia; #2061 The
+  Conqueror → Boeotia; #2063 The Battle of Pylos → Messenia (new Region filter
+  option); #2068 We Will Rise → Northern Greece.
+- **AC Odyssey side-quest placeholder text replaced** (PR #111, PR #112, PR #113,
+  PR #114). 95 of the 101 side quests that shared the generic "A regional side
+  quest in …" text now have real summaries and walkthroughs from guides. Title
+  fixes: Dagger to the Heart, Handle with Care, Death Comes for Us All, Have You
+  Seen My Mikkos?. 7 Lesbos/Chios quests moved from Northern Sporades to
+  Petrified Islands. 6 entries with no guide source left unchanged (#2143,
+  #2149, #2151, #2168, #2170, #2180).
+- Also ships the 2026-10-10 session log in `PROGRESS.md` (PR #109).
+
 ## 2026-10-10
 
 - **Fix AC Odyssey Chapter 5 main-quest regions** (PR #107) — `v2.3.12` patch.
