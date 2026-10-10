@@ -44405,18 +44405,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Revenge of the Wolf",
-    location: "Lesbos",
+    location: "Lesbos (Mytilene)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A worried woman near Mytilene on Lesbos says a giant wolf is stalking the hills and her husband went after it with other hunters.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the woman and search the hills around Mytilene for the missing hunters.",
+      "Explore the shrine and follow the surviving hunter's trail to the cave where he's trapped.",
+      "Rescue him, then hunt down and kill the giant wolf in White Wolf Cave.",
+      "Bring the pelt back to the woman. The reward includes the Wolfslayer's Helmet."
     ],
     video: "https://www.youtube.com/watch?v=Tjvo3ikgeAQ"
   },
@@ -44425,18 +44426,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Shroud of the Bear",
-    location: "Lesbos",
+    location: "Lesbos (Mytilene)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A merchant in Mytilene needs bear skins to craft a commissioned breastplate.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the merchant in Mytilene.",
+      "Hunt bears on Lesbos and collect six bear skins.",
+      "Bring the skins back to the merchant. The reward is the crafted Bear Fur Armor."
     ],
     video: "https://www.youtube.com/watch?v=2W5GZdZXsS8"
   },
@@ -44445,18 +44446,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Qamra, Medicine Woman",
     location: "Lesbos",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Workers at a Lesbos vineyard have fallen ill, and the physician Qamra needs her stolen tools and medicine back.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Qamra at the vineyard.",
+      "Wait for night, then take the remedies from the upstairs table in the leader's residence near the temple in Mytilene.",
+      "Get her instruments from the chest in Vrisa Fort.",
+      "Return everything to Qamra."
     ],
     video: "https://www.youtube.com/watch?v=aEs1WhidjxQ"
   },
@@ -44465,18 +44467,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "The Elixir",
     location: "Lesbos",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "At the ruined Temple of Cybele on Lesbos, a woman asks you to gather rare ingredients for an elixir, but her intentions aren't what they seem.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "At the Temple of Cybele ruins, kill the wolf pack surrounding the woman and talk to her.",
+      "Collect mushrooms from the Mushroom Cave, which has a couple of bears in it.",
+      "Pick hellebore at the top of the marked mountain, which wolves guard, and dive for cone snails on the seabed of Shark Bay.",
+      "Bring the ingredients to Sappho's school, speak with the scholar, then defeat her. Loot her body for the Elixir Knife."
     ],
     video: "https://www.youtube.com/watch?v=Mq1bAa9zP70"
   },
@@ -44491,12 +44494,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A corpse and a bloody trail on the beach lead to a cave where a man named Galarnos is being held.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Find the corpse and the blood trail on the beach, and pick up the letter.",
+      "Follow the trail into the cave and clear the enemies on the way through. Wait to free Galarnos until you can see the exit.",
+      "Free Galarnos and escort him out through the cave's second entrance.",
+      "Talk to him. The reward includes the Archer's Mace."
     ],
     video: "https://www.youtube.com/watch?v=TI8p8TCJVjE"
   },
@@ -44505,18 +44509,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Son of a Fisherman",
-    location: "Lesbos",
+    location: "Lesbos (Eresos)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A fisherman in Eresos on Lesbos thinks his son took the family boat to see a girl. Find him.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the fisherman in Eresos.",
+      "Track down his son and talk to him."
     ],
     video: "https://www.youtube.com/watch?v=wIl57cM-jPE"
   },
@@ -44531,12 +44534,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Lysander in Sparta wants proof of the war against Athens: three Athenian seals taken from polemarchs.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Lysander in Sparta.",
+      "Kill the polemarchs of three Athenian-controlled forts and take their seals.",
+      "Deliver the seals to Lysander. The reward includes an epic belt, and completing it unlocks Only Fools Want War."
     ],
     video: "https://www.youtube.com/watch?v=Du7uqmInunk"
   },
@@ -44551,12 +44554,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In the Krypteia Training Grounds, escort the boy Makarios to the agoge and prove yourself to his would-be trainer, Iatrokles.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Meet Makarios and escort him to the Agoge Camp North.",
+      "Speak with Iatrokles.",
+      "Beat him in a non-lethal sparring match. He then takes Makarios as a student."
     ],
     video: "https://www.youtube.com/watch?v=lytvA6opLu8"
   },
@@ -44571,12 +44574,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Iatrokles asks you to find two recruits who vanished from their overnight camp near the Chasms of Taygetos.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Training Days to unlock the quest.",
+      "Investigate the Agoge Camp North.",
+      "Find and talk to Theoros.",
+      "Speak with Xanthe about her sons."
     ],
     video: "https://www.youtube.com/watch?v=gJP33T3E9s8"
   },
@@ -44591,12 +44595,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Part of Xanthe's questline in Sparta, unlocked after Brothers in Arms.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Brothers in Arms to unlock the quest.",
+      "Run to the entrance of the Dromos, then ride to the bridge south of Sparta.",
+      "Completing it counts toward End of the Day."
     ],
     video: "https://www.youtube.com/watch?v=d4XczoFdjfY"
   },
@@ -44631,12 +44635,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lakonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Part of Xanthe's questline: Zeuxo asks you to carry an important basket to Kalibos, a Spartan general at Limnai Marsh.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lakonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Brothers in Arms, then talk to Zeuxo.",
+      "Deliver the package to Kalibos at Limnai Marsh.",
+      "Kill the Athenians ambushing the Spartan camp.",
+      "Talk to Kalibos again."
     ],
     video: "https://www.youtube.com/watch?v=Wonsd8cMx78"
   },
@@ -44671,12 +44676,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Achaia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In Patrai, the philosopher Demokritos claims three mathematical discoveries, and wants you to collect them from across Greece.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Achaia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Demokritos in Patrai.",
+      "Find Zeno's Paradox near the Lokris shore, and the Golden Ratio papyrus in the city of Argos.",
+      "Dive for the Pythagorean Theorem underwater, inside the triangle formed by Thera, Paros and Anaphi.",
+      "Return all three to Demokritos."
     ],
     video: "https://www.youtube.com/watch?v=zmILcilsMIM"
   },
@@ -44691,12 +44697,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Achaia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to The Dunce Conundrum: Demokritos leads you into trouble.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Achaia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete The Dunce Conundrum to unlock the quest.",
+      "Follow Demokritos.",
+      "Kill the bandits, then talk to Demokritos again."
     ],
     video: "https://www.youtube.com/watch?v=TNPZdMPFCp0"
   },
@@ -44711,12 +44717,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "On Lemnos, Barnabas's search for his old friend Mikkos begins.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Find the quest marker on Lemnos and talk to the marked man.",
+      "Go to Mikkos's house.",
+      "Suggest the gentler approach to Barnabas so that Mikkos survives later in the storyline."
     ],
     video: "https://www.youtube.com/watch?v=FOWaislskYU"
   },
@@ -44726,17 +44732,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Petrified Islands",
-    title: "Have You Seen My Mikros?",
+    title: "Have You Seen My Mikkos?",
     location: "Volcanic Islands (Thassos and Lemnos)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Barnabas's search for Mikkos continues at Silenos's cave, where captured athletes are being held.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to Silenos's cave.",
+      "Kill the guards first, then free the athletes.",
+      "Kill the athlete who attacks you outside the cave."
     ],
     video: "https://www.youtube.com/watch?v=IdvFNvRV0J8"
   },
@@ -44751,12 +44757,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Petrified Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "The end of the Mikkos story on Thasos: get an antidote to Neleus, then take down the Cult general behind it all.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Petrified Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Have You Seen My Mikkos? to unlock the quest.",
+      "Return to the doctor at Aliki Quarry, then take the antidote to Neleus.",
+      "Kill the cult guards and talk to the villager near Mikkos's house.",
+      "Go to the Ancient Stronghold and kill the Cult general. The reward includes an epic dagger."
     ],
     video: "https://www.youtube.com/watch?v=J3Uq1v8zA2Y"
   },
@@ -44771,12 +44778,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A young woman rejected by the Daughters of Artemis wants your help disguising herself as one of them.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the young woman.",
+      "Help her put together a disguise, using the Huntress Village and Artemis Cave."
     ],
     video: "https://www.youtube.com/watch?v=ac-KO1W6Ovc"
   },
@@ -44785,18 +44791,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Hostage Situation",
-    location: "Chios",
+    location: "Chios (Mastic Farm)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Bandits raided a farm in southern Chios and took the farmer's two sons.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to the Mastic Farm in the Forest of Tears on southern Chios.",
+      "Find the two boys locked in cages and free them both."
     ],
     video: "https://www.youtube.com/watch?v=f-7-c4hYK30"
   },
@@ -44805,18 +44810,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
-    region: "Northern Sporades",
+    region: "Petrified Islands",
     title: "Chip on Your Shoulder",
     location: "Chios",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Northern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A lumber merchant in Chios city hires you to kill a leader accused of plundering the islands' resources for himself.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Northern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the lumber merchant in Chios city.",
+      "Find and kill Kodros the Bull, the leader and a cultist."
     ],
     video: "https://www.youtube.com/watch?v=BLTOtnYisRw"
   },
@@ -44869,12 +44873,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Herodotos brings you a family feud at Olympia over stolen valuables, which turns out to be about two young lovers.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Herodotos to start the quest.",
+      "Investigate the treasuries at Olympia.",
+      "Find and talk to the thief.",
+      "Decide whether the families' marriage contract still stands. Either way you have to deal with the lovers, and the reward is the same, including the Conflict Spear."
     ],
     video: "https://www.youtube.com/watch?v=CfY0JML_UcU"
   },
@@ -44889,12 +44894,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "While a con man distracts you in Olympia, his young partner steals your drachmae. Track her down.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Find the pickpocket who robbed you and talk to her.",
+      "Follow her trail toward Endymion Camp to get your drachmae back."
     ],
     video: "https://www.youtube.com/watch?v=1miZsUT5zQI"
   },
@@ -44909,12 +44913,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Phidias has decoded a message, and the first clue is on the Statue of Zeus at Olympia.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Phidias.",
+      "Go to the Temple of Zeus in the southwestern Valley of Olympia in Elis and find the clue on the Statue of Zeus.",
+      "Completing it unlocks Art Leading Life."
     ],
     video: "https://www.youtube.com/watch?v=rIjj_lAWOZ0"
   },
@@ -44929,12 +44933,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Phidias's next clues are hidden on three great statues across the Aegean.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete The Message, the Stick, and the Artist to unlock the quest.",
+      "Find the symbol on the back of the Statue of Aphrodite, the easternmost fast-travel point on Kythera.",
+      "Find the clue on the trident of the Statue of Poseidon, on the island between Samos and Chios.",
+      "Find the symbol on the back of the Statue of Theagenes in the agora of Thasos, then return to Phidias's workshop."
     ],
     video: "https://www.youtube.com/watch?v=uTZ13WBjQXE"
   },
@@ -44949,12 +44954,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Elis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "The end of Phidias's trail: a secret room in the Ancient Stronghold on Lemnos, sealed by a button puzzle.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Elis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Art Leading Life and return to Phidias's workshop.",
+      "Go to the Ancient Stronghold on Lemnos and find the secret room.",
+      "Solve the puzzle by pressing the buttons in the right order.",
+      "Claim the Atlantean Blade."
     ],
     video: "https://www.youtube.com/watch?v=KLNxgWJzs_8"
   },
