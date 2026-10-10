@@ -7,6 +7,53 @@
 
 ---
 
+## Session 2026-10-10 (2) — AC Odyssey regions + side-quest text, unshipped video links
+
+### Main-quest regions, all chapters (PR #110)
+- Checked every remaining AC Odyssey main-quest chapter block against guides.
+  20 more quests moved: #2007 → Phokis; Eppie #2008–#2011 → Boeotia;
+  #2012–#2015 → Megaris; #2024 Memories Awoken → Phokis (Delphi); Olympic
+  Games #2054–#2056 → Elis; Lagos #2057–#2060 → Arkadia; #2061 The Conqueror →
+  Boeotia; #2063 Battle of Pylos → **Messenia** (new Region filter option in
+  `subFilterConfig`); #2068 We Will Rise → Northern Greece (Amphipolis).
+
+### Side-quest placeholder text (PRs #111–#114)
+- 101 side quests (#2071–#2185) shared the same "A regional side quest in …"
+  summary + 3 generic steps. **95 rewritten** from guides in 4 region-grouped
+  PRs (31 / 21 / 19 / 24). Titles fixed to in-game names: Dagger to the
+  Heart, Handle with Care, Death Comes for Us All, Have You Seen My Mikkos?.
+  #2158–#2161, #2163, #2177, #2178 moved Northern Sporades → **Petrified
+  Islands** (Lesbos/Chios).
+- **6 left unchanged, no guide source:** #2143 Bare It All, #2149 No More
+  Bull, #2151 The Grand Minotaur, #2168 A Godless Blight, #2170 A Treasury of
+  Legends, #2180 Throwing the Bet. Some may not be real quest names; owner to
+  check in-game.
+- `aiTip` and `reward` on these entries are still generic regional text.
+- Drafts were applied with a small id-keyed script (replaces `summary`,
+  `walkthrough`, and optionally `title`/`region`/`location` inside one entry),
+  then QA'd per quest (search title → open detail → new summary + region
+  present, no placeholder). Prod QA ran all 95.
+- Shipped to prod as **`v2.3.13`** (CHANGELOG PR #115).
+
+### Unshipped video links found (owner review in progress)
+- Branch `claude/youtube-games-progress-mft1ss` (2026-08-09, never merged)
+  holds specific `watch?v=` candidates for **262** quests that are still search
+  URLs on `staging`: FF7 Rebirth 54, P5R 48, Ghost of Tsushima 40, Metaphor
+  39, Elden Ring 38, Sekiro 27, Demon's Souls 12, Wukong 4. All 262 are unique
+  and unused. The August owner checks (PRs #93, #97, #101, #102) reviewed these
+  candidates but only the *fixes* shipped; the unflagged links never did.
+- Owner chose to **re-review all 262** before shipping. Review page:
+  https://claude.ai/artifact/KWfg5ewMCX7XdgdxSYXybc (flags + "Copy flagged
+  list"). Next: apply unflagged links, one PR per game.
+- The other ~1,214 search URLs (Zelda, Skyrim, Valhalla, Cyberpunk, Pillars
+  I/II, Yotei, BG3, Witcher 3, Horizon) have no candidates yet.
+
+### Process notes
+- Owner asked to keep **one PR open at a time** on the single designated
+  branch and to wait for an explicit "merge it to staging" on each.
+
+---
+
 ## Session 2026-10-10 — AC Odyssey Chapter 5 region fix
 
 ### "Ashes to Ashes" check
@@ -33,9 +80,8 @@
 
 ### Still open
 - AC Odyssey link review: waiting on the owner's flagged list.
-- About 100 AC Odyssey side quests (#2071–#2185) with placeholder summaries.
-- Other AC Odyssey main-quest chapter blocks may have the same block-region
-  problem (only Chapter 5 was checked).
+- ~~About 100 AC Odyssey side quests with placeholder summaries~~ and ~~other
+  chapter blocks' regions~~: done the same day, see "Session 2026-10-10 (2)".
 
 ---
 
