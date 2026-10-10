@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-10
+
+- **Fix AC Odyssey Chapter 5 main-quest regions** (PR #107) — `v2.3.12` patch.
+  13 Chapter 5 main quests were filed under Cyclades Islands. Moved #2031–#2035
+  (To Find a Girl → Monger Down) to **Korinthia**, #2036–#2040 (First Do No
+  Harm → Ashes to Ashes) to **Argolis**, and #2041–#2043 (Abandoned by the Gods
+  → Athens' Last Hope) to **Attika**. Rewrote #2040 Ashes to Ashes' summary and
+  walkthrough (altar → forest shrine → save the baby or chase Chrysis). Also
+  ships the 2026-10-06 session log in `PROGRESS.md` (PR #106).
+
 ## 2026-10-06
 
 - **Fix AC Odyssey duplicate Ostraka entries** (PR #104) — `v2.3.11` patch.
