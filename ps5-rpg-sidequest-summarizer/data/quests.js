@@ -43460,12 +43460,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest on Lestris: Captain Gotarzes faces a mutiny. Protect him and bring him back to Xenia.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Accept Red in the Wreckage to unlock the quest.",
+      "Find Captain Gotarzes on Lestris and defend him from the mutinous crew.",
+      "Escort him back to Xenia."
     ],
     video: "https://www.youtube.com/watch?v=sGBdqTJWcPo"
   },
@@ -43480,12 +43480,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A little girl on Seriphos wants help gathering treasures: shiny stones from a mine and pearls from a lagoon.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the little girl on Seriphos.",
+      "Collect shiny stones from three baskets in the Abandoned Mine.",
+      "Dive into a side cavern of the Polydektes Lagoon for three pearls. Watch out for the shark.",
+      "Return to the girl. How the quest ends is up to you."
     ],
     video: "https://www.youtube.com/watch?v=qyaUhSJjEtw"
   },
@@ -43500,12 +43501,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Kallikleia on Seriphos is lovesick, and a local witch promises a love potion if you bring her the ingredients.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Kallikleia and the witch on Seriphos.",
+      "Get the special mushrooms from the customs warehouse to the south.",
+      "Take the wine from the Pirate Bay bandit camp on the west coast.",
+      "Bring the ingredients to the witch, attend the ceremony, then talk to Kallikleia. Fighting the witch is optional."
     ],
     video: "https://www.youtube.com/watch?v=Jx1Af4hBGR4"
   },
@@ -43520,12 +43522,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest for Island of Misfortune: fly Xenia's war colors and sink Spartan ships around Keos as a warning to her enemies.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Xenia's steward on Keos.",
+      "Equip the Adrestia with Xenia's war colors.",
+      "Destroy two Spartan ships in the waters around Keos."
     ],
     video: "https://www.youtube.com/watch?v=Y1AM88mGZJ0"
   },
@@ -43540,12 +43542,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's miltos shipment has gone missing. Track it to the small island of Lestris.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Island of Misfortune, then pick up the quest on Keos.",
+      "Sail to Lestris, the small island just east of Seriphos.",
+      "Find and take the miltos shipment.",
+      "Return to Xenia. Talk to her before collecting items on Lestris, or the quest may not trigger."
     ],
     video: "https://www.youtube.com/watch?v=THJZZWA7TmA"
   },
@@ -43560,12 +43563,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "On Keos, Obelia's associate wants an ancient map that's kept in a village leader's house.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Obelia's associate on Keos.",
+      "Go to the leader's house in Poiessa village. The easiest approach is from the cliffs to the west, where you can pick off the guards with your bow.",
+      "Take the ancient map.",
+      "Meet Obelia, who sees that the treasure is underwater and gives you a key, starting We're Treasure Hunters."
     ],
     video: "https://www.youtube.com/watch?v=F1YyTvzoqRw"
   },
@@ -43580,12 +43584,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to We're Not Thieves: dive for the sunken artifact the ancient map points to.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete We're Not Thieves to unlock the quest.",
+      "Dive for the sunken artifact at the ship dock near Obelia's stall.",
+      "Hand it over to finish the quest, or refuse and demand payment, which means fighting and killing Obelia."
     ],
     video: "https://www.youtube.com/watch?v=ywK1hsrbd3U"
   },
@@ -43600,12 +43604,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's first treasure hunt: find the Golden Feather of Ajax, hidden in Ajax's tomb in Attika.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Xenia on Keos to receive the treasure map.",
+      "Travel to Attika and talk to the man at the start point, who reveals where the feather is.",
+      "Enter Ajax's tomb and find the Golden Feather.",
+      "Bring it back to Xenia to unlock Sacred Vows."
     ],
     video: "https://www.youtube.com/watch?v=MNUagaVQ5yo"
   },
@@ -43620,12 +43625,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's second treasure hunt: a Makedonian bracelet lost near the Sanctuary of Sounion.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Birds of a Feather, then talk to Xenia on Keos.",
+      "Investigate the clues around the Sanctuary of Sounion.",
+      "Dive to recover the Makedonian bracelet.",
+      "Return it to Xenia to unlock She Who Controls the Seas."
     ],
     video: "https://www.youtube.com/watch?v=WuZMTWVySV0"
   },
@@ -43640,12 +43646,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's third treasure hunt: a conch shell hidden in an underwater cavern in Makedonia. Only one of her maps is right.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Sacred Vows, then talk to Xenia on Keos. Her maps are misleading, and only one is correct.",
+      "Travel to the Underwater Cavern on the Chalkidike peninsula in Makedonia.",
+      "Dive to the marked spot and follow the glowing blue jellyfish through the cavern.",
+      "Open the chest holding the Conch Shell and bring it back to Xenia to unlock Throw the Dice."
     ],
     video: "https://www.youtube.com/watch?v=TI4DrR6AhGU"
   },
@@ -43660,12 +43667,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's fourth treasure hunt: take the stolen maps from the merchant Autolykos, then collect Pan's Flute and Apollo's Lyre.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete She Who Controls the Seas, then talk to Xenia on Keos.",
+      "Find the merchant Autolykos in Argolis. Smash two of the vases around him to get him talking.",
+      "Sneak into his house and take the stolen maps from the chest inside.",
+      "Collect Pan's Flute from the Cave of Pan in Attika and Apollo's Lyre from the Temple of Apollo on Euboea, then return to Xenia."
     ],
     video: "https://www.youtube.com/watch?v=UBCPfT_xw1A"
   },
@@ -43680,12 +43688,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pirate Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Xenia's final treasure hunt: steal a treasure coffer from the high-level Olouros Fortress.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pirate Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Throw the Dice, then talk to Xenia on Keos.",
+      "Infiltrate the Olouros Fortress. You can sneak in without fighting.",
+      "Take the treasure coffer from the house on the fortress's upper east side. You can also free Anaximander, who is caged in a courtyard.",
+      "Return the coffer to Xenia on Keos."
     ],
     video: "https://www.youtube.com/watch?v=1LWfhTLQwZc"
   },
@@ -43718,12 +43727,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Obsidian Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Roxana's second training lesson on Hydrea: prove your aim by killing the wolves near a shipwreck.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Obsidian Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Sparring with Roxana to unlock the quest.",
+      "Kill the 8 wolves near the shipwreck. Shoot from a spot they can't easily reach.",
+      "Return to Roxana. Flirt with her during the training if you want a peaceful ending to her story."
     ],
     video: "https://www.youtube.com/watch?v=3v1dhTsxv24"
   },
@@ -43738,12 +43747,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Obsidian Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Roxana's final training lesson on Hydrea: beat her in a foot race.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Obsidian Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Archery Practice to unlock the quest.",
+      "Race Roxana and win.",
+      "Finishing all three training quests, and romancing her along the way, lets you recruit Roxana instead of fighting her to the death."
     ],
     video: "https://www.youtube.com/watch?v=HMg_hv2KZN0"
   },
@@ -43776,12 +43785,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Sokrates asks you to free a captured rebel on Delos, then decide what to do with him.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Sokrates to start the quest.",
+      "Go to the Hestiatorion in the western part of the Birthplace of Apollo on Delos and free the rebel held there.",
+      "Take him to a safe place, where you can talk to him or kill him.",
+      "Return to Sokrates."
     ],
     video: "https://www.youtube.com/watch?v=Q-gEKiyipl4"
   },
@@ -43796,12 +43806,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "On Mykonos, a beggar points you to the house of Podarkes, the Athenian lord, where you find evidence of a crime that touches Kyra's past.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "After Trouble in Paradise, talk to the beggar on Mykonos.",
+      "Go to the house at the end of the street. The front is boarded up, so swim through the flooded canal and use the secret entrance on the east side.",
+      "Inspect the clues: the bloodstained rug, the woman's skeleton behind it, and Podarkes's papyrus on the table by the stairs.",
+      "Tell Kyra the truth about the Athenian lord. Telling her privately keeps her rebels' trust and her romance option open."
     ],
     video: "https://www.youtube.com/watch?v=l6FxTEzhb2I"
   },
@@ -43816,12 +43827,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Kyra invites you to a hunt on Mykonos, starting at the Altar of Artemis.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Kyra in the rebel cave on Mykonos.",
+      "Meet her at the Altar of Artemis.",
+      "Follow her to the hunting grounds and shoot the goats with your bow."
     ],
     video: "https://www.youtube.com/watch?v=pr3_dn94uBs"
   },
@@ -43854,12 +43865,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Silver Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest for Call to Arms: Thaletas hands you a hit list of three Athenian polemarchs across the Delos islands.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Silver Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete The Thaletas Way, then talk to Thaletas.",
+      "Track down the three Athenian polemarchs on his list across the Delos islands. You can spare Neokles and recruit him as a crew member instead.",
+      "Return to Thaletas on Delos."
     ],
     video: "https://www.youtube.com/watch?v=tceuXvNh_W8"
   },
@@ -43874,12 +43885,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Markos turns up on Kos, locked in a cage at Artemisia Fort, and needs you to get him out.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to Artemisia Fort in the Highlands of Asklepiades on Kos.",
+      "Find Markos in his cage and free him.",
+      "Carry him home to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=OnOPwPFISRo"
   },
@@ -43894,12 +43905,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Markos owes the Cerberus gang on Kos, so he sends you to deliver his wine as a peace offering.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete A Business Opportunity, then talk to Markos.",
+      "Deliver his wine to the Cerberus in Astypalaia. Drinking with them is optional.",
+      "Return to Markos. The reward includes the Wine-Making Boots."
     ],
     video: "https://www.youtube.com/watch?v=QLLbPNsfd9k"
   },
@@ -43914,12 +43925,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Southern Sporades. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Markos expects the Cerberus brothers to come after him, so he asks you to distract them by burning their farm.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Southern Sporades and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Old Friends, Old Problems to unlock the quest.",
+      "Destroy the Cerberus brothers' three grain silos to draw them away from Markos."
     ],
     video: "https://www.youtube.com/watch?v=Ol1id-K6u0Q"
   },
