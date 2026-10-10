@@ -43944,12 +43944,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In Kydonia, merchants are clashing with soldiers over taxes. Defuse three tense standoffs, then deal with Diokles and his men.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the civilian in Kydonia about the tax dispute.",
+      "Calm the three tense spots around the city. You can talk the soldiers down, but attacking them by surprise is easiest.",
+      "Confront Diokles and his men at the marked location to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=ydPgbo8dhvc"
   },
@@ -43964,12 +43964,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A hard-of-hearing, short-tempered blacksmith at the exhausted Dactyl mines in Messara wants five pieces of obsidian.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the blacksmith at the Dactyl mines.",
+      "Collect five pieces of obsidian. If you don't have them yet, his apprentice suggests searching northwest, toward the sunken ruins and the Temple of Britomartis.",
+      "Hand the obsidian to the blacksmith. The reward includes the Avaris sword."
     ],
     video: "https://www.youtube.com/watch?v=6n_HKkMPB4U"
   },
@@ -43984,12 +43984,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest for Blood in the Water: recover the legendary Arkalochori Axe from a cave near Heraklion.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Pick up the quest in Heraklion at Octopus Bay in Messara.",
+      "Go to Arkalochori Cave, east of town.",
+      "Find the axe next to the treasure chest at the far end of the cave. You can avoid combat if you're careful.",
+      "Return to finish the quest, or keep the axe."
     ],
     video: "https://www.youtube.com/watch?v=JrzQS1odhv4"
   },
@@ -44004,12 +44005,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest for Blood in the Water: a woman in Octopus Bay asks you to find her fisherman husband.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the woman at the docks in Octopus Bay.",
+      "Sail to the west coast of Anaphi and find her husband near a shipwreck, fighting off pirates.",
+      "Kill the pirates and talk to him. He'll walk home on his own.",
+      "Return to the woman in Octopus Bay."
     ],
     video: "https://www.youtube.com/watch?v=pO4EKiPypUI"
   },
@@ -44024,12 +44026,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "An old man in eastern Messara asks you to bring him a red flower.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the old man.",
+      "Find the red flower on Mount Ida, near the area's synchronization point. Ikaros can help you spot it.",
+      "Deliver the flower to the old man."
     ],
     video: "https://www.youtube.com/watch?v=GNjytkgnEkw"
   },
@@ -44044,12 +44046,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "At Knossos, a boy named Ardos says his father went into the Labyrinth of Lost Souls to hunt the Minotaur. This starts the path to the Minotaur.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to Knossos Palace in the Minos's Legacy area of Messara.",
+      "Talk to Ardos about his missing father.",
+      "Follow him to the labyrinth entrance. You need a key to go further, which unlocks the next quest."
     ],
     video: "https://www.youtube.com/watch?v=5UXxHwzXo_A"
   },
@@ -44064,12 +44066,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "To open the labyrinth you must complete three support quests across Messara: Blood in the Water, Full Circle and Recollections.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Myths and Minotaurs to unlock the quest.",
+      "Complete Blood in the Water, which involves tracking the mercenary Swordfish, last seen in Octopus Bay.",
+      "Complete Full Circle and Recollections, which involves a nervous man called the Collector in Gortyn.",
+      "With all three done, you can enter the labyrinth."
     ],
     video: "https://www.youtube.com/watch?v=iUYtoD4huuU"
   },
@@ -44084,12 +44087,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Open the labyrinth beneath Knossos and face the Minotaur. Aim to be around level 40 first.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete the three Minotaurs support quests to unlock the quest.",
+      "Open the labyrinth door at Knossos Palace.",
+      "Make your way to the Minotaur at the center of the labyrinth.",
+      "Fight the Minotaur. Use fire arrows, avoid long melee exchanges (he can grab and throw you), and be ready for him to smash half the arena at half health."
     ],
     video: "https://www.youtube.com/watch?v=TxYaf6OrZuI"
   },
@@ -44124,12 +44128,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A note on a dead man in Zeus's Playground leads to a shepherd's hut and a plea to rescue a woman held in Kydonia.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Read the note on the dead man in Zeus's Playground.",
+      "Follow the trail to the shepherd's hut and talk to the contact there.",
+      "Rescue his wife from her home in Kydonia. The reward includes the Dagger of Messara."
     ],
     video: "https://www.youtube.com/watch?v=fwVpKlJX_hk"
   },
@@ -44144,12 +44148,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Ptolemaios hires you to kill a visiting herald and the leader of Messara.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Ptolemaios to take the job.",
+      "Find and kill the visiting herald.",
+      "Find and kill the leader of Messara."
     ],
     video: "https://www.youtube.com/watch?v=EWGBcEVsF3Q"
   },
@@ -44164,12 +44168,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Messara. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A woman outside the Temple of Poliouchos wants revenge on the Followers of Ares.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Messara and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the woman in front of the Temple of Poliouchos.",
+      "Kill ten Followers of Ares. Most are at the Lost Minoan Shrine, and the Gerontospilios cave is northwest of the shrine.",
+      "Return to her to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=1t-JDOVmoM8"
   },
@@ -44184,12 +44188,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Leiandros sells 'Minotours' in Pephka: to face his Minotaur for the Prize of Pephka, you first have to clear his pre-trials.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Meet Leiandros in Pephka.",
+      "Complete the pre-trials in any order. The Trial of Strength lets you fight a giant warrior or pay 1500 drachmae to skip it.",
+      "Collect the trial tokens, which unlocks Cashing In on the Cow."
     ],
     video: "https://www.youtube.com/watch?v=W9OyccFpLAc"
   },
@@ -44204,12 +44208,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Team up with two warrior brothers and go into the cave to kill Leiandros's Minotaur. It isn't what it seems.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Cashing In on the Cow to unlock the quest.",
+      "Talk to the warriors about the Minotaur's location and follow them.",
+      "Explore the cave and fight the 'Minotaur', then interrogate it about the ambush. The rewards include the Minotaur Mace and Minotaur Torso.",
+      "Completing it unlocks No More Bull."
     ],
     video: "https://www.youtube.com/watch?v=xjUU7S2UmTk"
   },
@@ -44244,12 +44249,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Pephka. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A cowardly warrior in Pephka wants to pass himself off as the Minotaur's slayer, and he needs props.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Pephka and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the warrior in Pephka.",
+      "Find the axe in Fort Lato.",
+      "Find the armor in the leader's house.",
+      "Hand both over to the warrior."
     ],
     video: "https://www.youtube.com/watch?v=G8NCevYiKak"
   },
@@ -44302,12 +44308,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A murder mystery on Kythera: a man accused of murder says he overheard the island's leader arguing with the victim.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Start at the Murex dyeing facility on Kythera and talk to the accused man.",
+      "Investigate the Murex warehouse for clues.",
+      "Learn the killer's identity and go to the tower on Kythera.",
+      "Kill the killer. Other soldiers guard him, so pushing him off the cliff is the easiest option."
     ],
     video: "https://www.youtube.com/watch?v=e0OmvEepWZ4"
   },
@@ -44322,12 +44329,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A Cult of Kosmos follow-up to I, Diona on Kythera: pick the right woman to kill.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete I, Diona to unlock the quest.",
+      "When asked to choose whom to kill, pick the woman on the right. Choosing the left one kills the Priestess, loses a clue about the cult, and means fighting the real Diona and her guards.",
+      "Talk to Eritha, who gives you a clue to another cult member."
     ],
     video: "https://www.youtube.com/watch?v=JDGl9UFD7QI"
   },
@@ -44342,12 +44349,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A worried woman on Kythera asks you to find her husband, who went off to hunt lynxes for drachmae.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the woman at Skandeia Harbor.",
+      "Search for her husband, starting from the Hunter's Cave in Skandeia Bay.",
+      "Bring the hunter back to Skandeia Harbor and his wife, then talk to her. The reward includes the Death-Mark Bow."
     ],
     video: "https://www.youtube.com/watch?v=0vSbOmtyoXE"
   },
@@ -44362,12 +44369,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A street vendor on Kythera sells you a treasure tablet for 1000 drachmae, but the treasure isn't what he promised.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Buy the treasure tablet from the street vendor southeast of the Temple of Aphrodite for 1000 drachmae.",
+      "Follow the tablet to the marked spot off Kythera's east coast.",
+      "Find only an empty chest and fight off the bandits waiting there.",
+      "Return to the vendor, who gives himself away as a con artist."
     ],
     video: "https://www.youtube.com/watch?v=iYzg1t7Y4nE"
   },
@@ -44382,12 +44390,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kythera Island. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Empedokles's Kythera storyline: recover a stolen disc, then follow him to the Forgotten Isle, where a Cyclops guards the way to the 'Hall of the Gods'.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kythera Island and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "In Left to Dye, find the thief who stole Empedokles's disc. He roams Kythera's roads, often near the Murex dyeing facility. Kill him and return the disc.",
+      "In Stairway to Olympos, meet Empedokles at the Cave of the Forgotten Isle, south of Phokis.",
+      "Open the gate to 'Olympos' and kill the Cyclops. Dodge his attacks and use poison or fire for damage over time.",
+      "Take the First Civilization artifact. The reward includes the Polyphemos Cyclops Bludgeon."
     ],
     video: "https://www.youtube.com/watch?v=0yGM6Dco_dM"
   },
