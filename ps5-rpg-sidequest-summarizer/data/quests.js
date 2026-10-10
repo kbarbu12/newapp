@@ -42728,12 +42728,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A worried worshipper outside Drogarati Cave on Kephallonia says bandits have taken over the shrine inside. Clear the cave and recover the offerings.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the worshipper sitting outside Drogarati Cave.",
+      "Enter the cave and follow the path to the large chamber with the altar and bronze statue.",
+      "Squeeze through the gap in the wall and take out the bandit group, using assassinations to thin them out quietly.",
+      "Loot the bandits' treasure, then return to the worshipper outside the cave."
     ],
     video: "https://www.youtube.com/watch?v=4VhpMfT3kg0"
   },
@@ -42748,12 +42749,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to Hungry Gods: a desperate woman near Drogarati Cave prays to the gods for help, and you can answer her prayer in secret.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "After clearing the bandits in Hungry Gods, meet the woman praying for the gods' grace near the cave.",
+      "Collect the bandits' treasure from the chest in the cave.",
+      "Go to the woman's home in Sami and investigate the cart and baskets.",
+      "Place the treasure in one of the baskets so it looks like a gift from the gods."
     ],
     video: "https://www.youtube.com/watch?v=J6R1je8ayq4"
   },
@@ -42768,12 +42770,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "On the Pronnoi peninsula, Davos asks you to free his brother Orneos, who is caged in a waterfront camp full of bandits.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Davos, or go straight to the cage and free Orneos.",
+      "Clear the waterfront camp first with assassinations and arrows. Some of the bandits are elites, and Orneos runs as soon as he's freed.",
+      "Free Orneos from his cage.",
+      "Return to Davos to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=uoYLGBUnfJg"
   },
@@ -42788,12 +42791,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Unlocked when you free Phoibe from bandits during Debt Collector: hunt down Talos the Stone-Fist, the mercenary roaming Kephallonia.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Free Phoibe from the bandits during Debt Collector to receive the quest.",
+      "Track down Talos the Stone-Fist. He roams Kephallonia and may find you first, so be ready to retreat.",
+      "Soften him up with arrows from range, then dodge his charging impale and parry his gladius swings.",
+      "Kill Talos to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=Ws3RTC7lUdg"
   },
@@ -42808,12 +42812,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "The priestess at the Temple of Zeus in Sami wants the Spear of Kephalos, now held by Spartan soldiers in Melissani Cave.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the priestess at the Temple of Zeus in Sami.",
+      "Head northwest to Melissani Cave. There's also an alternative entrance close to the temple.",
+      "Dive through the underwater section, assassinate the two Spartan soldiers guarding the treasure chest, and loot it.",
+      "Return to the priestess and pick one of the three dialogue options. Each gives a different reward."
     ],
     video: "https://www.youtube.com/watch?v=Hy9tgNei3Ik"
   },
@@ -42828,12 +42833,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Drucilla in Sami needs her stolen lumber back after bandits ambushed her cart.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Drucilla in Sami.",
+      "Investigate the ambush site and find the three clues: the footprints southwest of the cart, the cart itself, and the body under the tree to the west.",
+      "Follow the trail to the bandit camp, tag the enemies with Ikaros and take them out.",
+      "Loot the stolen lumber from the chest in the camp's tent and return it to Drucilla in Sami."
     ],
     video: "https://www.youtube.com/watch?v=fHlQNXpulqw"
   },
@@ -42848,12 +42854,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "After Debt Collector, Phoibe leads you to Kausos village, where a priest plans to kill and burn villagers suffering from a sickness. You decide their fate.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Finish Debt Collector, then talk to Phoibe to start the quest.",
+      "Go to Kausos village and speak with the priest, who wants to kill and burn the sick villagers to protect Kephallonia.",
+      "Either walk away, or tell him to let them go and fight the priest and his guards.",
+      "If you saved the villagers, talk to them again. This choice affects later events on Kephallonia, so do the quest before you leave the island."
     ],
     video: "https://www.youtube.com/watch?v=T7i-xs-AU1M"
   },
@@ -42868,12 +42875,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A contract from the Sami message board: the armorer Ilos needs two wolf pelts.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Pick up the contract from the message board in Sami.",
+      "Hunt wolves for two pelts. Aggalaki Cave, Wolf Cavern and the Temple of Zeus Chthonios are reliable spots.",
+      "Bring the pelts to Ilos for XP and drachmae."
     ],
     video: "https://www.youtube.com/watch?v=JtY7NPVWlrI"
   },
@@ -42888,12 +42895,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A pair of vegetable sellers want to leave Kephallonia but can't pay for passage. Recover Prokris's Necklace from a sunken temple to fund their trip.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the vegetable sellers who want to leave the island.",
+      "Swim to the underwater temple near the Islet of Zeus.",
+      "Dive to the sunken treasure chest and take Prokris's Necklace. Three sharks patrol the area, and you can either sneak past them or fight them.",
+      "Return the necklace to the sellers to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=0e8TbAhhDu8"
   },
@@ -42908,12 +42916,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Kephallonia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Odessa, a self-proclaimed descendant of Odysseus, is caged at the ruins of Odysseus's palace. Free her and escort her back to her boat.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Kephallonia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Find Odessa locked in a cage at Odysseus's ruined palace on Kephallonia and free her.",
+      "Escort her through the ruined palace, protecting her from enemies along the way.",
+      "Bring her safely to her boat to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=Ic_3ZpHQxgs"
   },
@@ -42928,12 +42936,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lokris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In Lokris, Supideo is caged because of an Oracle prophecy and asks you to get his family sword back from the blacksmith Kosta.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lokris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Supideo in his cage.",
+      "Visit Kosta, who will only give up the sword if you gather 5 Aphrodite flowers around Red Lake Bay. Ikaros helps you spot them.",
+      "Bring the flowers back to Kosta. How you respond to his advances changes the money you get in the next quest.",
+      "Give the sword to Supideo to complete the quest and unlock Confiscated."
     ],
     video: "https://www.youtube.com/watch?v=6gJ26YmtFkw"
   },
@@ -42948,12 +42957,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Lokris. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to Family Values: recover Supideo's confiscated shield from the leader of the Red Lake bandits.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Lokris and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Family Values to unlock the quest.",
+      "Travel to the Red Lake bandit camp.",
+      "Find the bandit leader in the cave and kill him. Stealing the three treasures alone isn't enough.",
+      "Take the shield he drops back to Supideo."
     ],
     video: "https://www.youtube.com/watch?v=NKawMdvhdn8"
   },
@@ -42968,12 +42978,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In Karystos on Euboea, a slave owner asks you to recover a stolen family vase from bandits hiding on Mount Ochi.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the slave owner in Karystos, then to his trusted slave, who tells you where the bandits are.",
+      "Head to the Copper Mine on the north slope of Mount Ochi and fight through the bandits.",
+      "Loot the vase from the chest at the back of the mine.",
+      "Return the vase. Your choice about the slave's freedom doesn't affect completing the quest."
     ],
     video: "https://www.youtube.com/watch?v=CQN3YtNXD7Y"
   },
@@ -42988,12 +42999,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A support quest for Freedom Isn't Free: a Chalkis farmer has been kidnapped and taken to Dystos Fort. Rescue him and clear the cave.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to Chalkis Farm and learn that the farmer was kidnapped.",
+      "Infiltrate Dystos Fort and free the farmer.",
+      "Escort him out through the secret exit.",
+      "Clear Katarraktes Cave to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=hRTziN7yZBI"
   },
@@ -43008,12 +43020,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Agapios in Chalkis wants three tax records from the Chalkis warehouse to expose the city's corrupt tax collection.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Agapios in Chalkis.",
+      "Get the first tax record from a shelf on the west side of the warehouse.",
+      "Take the second from the soldier carrying it, and the third from a table near the docks.",
+      "Bring all three records back to Agapios."
     ],
     video: "https://www.youtube.com/watch?v=CdW_v78c3HU"
   },
@@ -43028,12 +43041,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Agapios asks you to track down 'the Kingfisher', a contact who uses the nickname of his dead brother Neritos. Three support quests lead to the answer.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Death and Taxes, then talk to Agapios in the Dirfi Foothills.",
+      "Complete the three support quests: Blood and Water, Dagger to the Heart, and Wasn't Born the Kingfisher.",
+      "Return to Agapios to complete the quest and unlock The Kingfisher and the Robin."
     ],
     video: "https://www.youtube.com/watch?v=nGgh37QS4tY"
   },
@@ -43048,12 +43061,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A Sharp Tongue support quest: meet your contact at the Eretria ruins and recover Achilles' Dagger from a sunken shipwreck.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Meet your contact at the Eretria ruins.",
+      "Find the sunken ship and kill the sharks circling it.",
+      "Dive to the very bottom of the wreck and loot the chest holding Achilles' Dagger.",
+      "Return to complete the quest. The reward includes the Secretive Gauntlets arm armor."
     ],
     video: "https://www.youtube.com/watch?v=DBc4FoE1_ro"
   },
@@ -43063,17 +43077,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Euboea",
-    title: "Dagger in the Heart",
+    title: "Dagger to the Heart",
     location: "Abantis Islands (Euboea and Skyros)",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A Sharp Tongue support quest set at the theater in Chalkis, where a confrontation turns deadly unless you act fast.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Go to the theater in Chalkis, where the quest begins.",
+      "Deal with the confrontation there. If you attack from range instead of starting the conversation, and act quickly, both people at the theater can survive.",
+      "Completing it counts toward Sharp Tongue."
     ],
     video: "https://www.youtube.com/watch?v=89MJ0G0LImA"
   },
@@ -43088,12 +43102,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A Sharp Tongue support quest: a Chalkis farmer knows the Kingfisher's real name, but bandits are in the way.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Travel to Chalkis Farm in the Dirfi Foothills.",
+      "Deal with the bandits at the farm.",
+      "Talk to the farmer to learn the Kingfisher's real identity."
     ],
     video: "https://www.youtube.com/watch?v=U21ztUIip4I"
   },
@@ -43108,12 +43122,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Euboea. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "The end of Agapios's story: the Kingfisher turns out to be his brother Neritos, alive and hiding on Skyros.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Euboea and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Sharp Tongue to unlock the quest.",
+      "Sail to Smuggler's Dock on Skyros and talk to the magistrate.",
+      "Confront Neritos at the Temple of Achilles. Killing him is optional."
     ],
     video: "https://www.youtube.com/watch?v=TAYBGZvBtSc"
   },
@@ -43128,12 +43142,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "In Athens, Demosthenes asks for your help against the Spartans: bring him three seals taken from Spartan polemarchs.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Demosthenes in Athens.",
+      "Find Spartan polemarchs, who usually hold out in forts, and kill them for their seals.",
+      "Bring the three seals back to Demosthenes."
     ],
     video: "https://www.youtube.com/watch?v=b0fZjajxo_I"
   },
@@ -43148,12 +43162,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Heitor wants his sword back from the polemarch at Fort Phyle in Attika.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Heitor to start the quest.",
+      "At Fort Phyle, use Ikaros to tag enemies and locate the sword, which is in the commander's tent just inside the front gate.",
+      "Take out key guards to reach the tent and grab the sword. Guards may raise the alarm as soon as you take it.",
+      "Return the sword to Heitor, or keep it and lie to him."
     ],
     video: "https://www.youtube.com/watch?v=G8HKEEhc5GI"
   },
@@ -43168,12 +43183,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to A Friend in Need: free a caged mercenary from Rhamnous Military Camp and bring him to Heitor's boat.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete A Friend in Need to unlock the quest.",
+      "Go to Rhamnous Military Camp on Attika's east coast and kill every guard before opening the cage.",
+      "Lead the mercenary out of the front gate and follow the outer wall to the northwest corner, where a sloping path leads down to the shore.",
+      "Deliver him to the boat. Heitor plans to kill him once he's aboard."
     ],
     video: "https://www.youtube.com/watch?v=gbvjGylJJxs"
   },
@@ -43188,12 +43204,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Kleon asks you to weaken the Spartans in Attika: burn their supplies and bring back proof that a polemarch is dead.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete Welcome to Athens, then talk to Kleon.",
+      "Burn the three supply crates at the Acharnai Military Camp.",
+      "Kill the polemarch at the Spartan camp and take proof of the kill.",
+      "Return to Kleon for the reward, which includes the Commander's Helmet."
     ],
     video: "https://www.youtube.com/watch?v=OwJMP7V8MPY"
   },
@@ -43208,12 +43225,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "A follow-up to For the People: free Kleon's messenger from the Spartans and escort him to a ship waiting off the coast of Attika.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete For the People to unlock the quest.",
+      "Find Kleon's captured messenger at the Pentelikos Marble Quarry and free him.",
+      "Escort him to the ship waiting off the Attika coast.",
+      "Completing it rewards the Messenger's Boots and unlocks The Liberator."
     ],
     video: "https://www.youtube.com/watch?v=kzPIiXScSEc"
   },
@@ -43228,12 +43246,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Attika. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "The last of Kleon's errands: free a captured captain from the Pentelikos Marble Quarry.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Attika and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Complete He Who Stops to unlock the quest.",
+      "Free the captain held in the Pentelikos Marble Quarry.",
+      "Carry the prisoner out of the quarry.",
+      "Talk to the captain to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=qIjaRfRL1yA"
   },
@@ -43333,17 +43352,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Korinthia",
-    title: "Handle of Care",
+    title: "Handle with Care",
     location: "Korinthia",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Korinthia. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "Alkibiades asks you to deliver a small package to a man named Bardas at the Korinthian military fort.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Korinthia and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Alkibiades in Korinthia to receive the package.",
+      "Go to Akrokorinth Fort and defeat the enemies who attack you there.",
+      "Get inside the building and hand the package to its recipient.",
+      "Return to Alkibiades. The reward includes Alkibiades's Axe."
     ],
     video: "https://www.youtube.com/watch?v=Ehbg1n-AyzE"
   },
@@ -43358,12 +43378,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "One of the three Priests of Asklepios support quests: a priest wants the snakes driven out of the sanctuary's bathhouse without killing them.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to the priest at the Sanctuary of Asklepios in Argolis.",
+      "Find the water pipe on the edge of the nearby water source. It can be hard to spot.",
+      "Tamper with the pipe to flood the bathhouse and drive the snakes out.",
+      "Return to the priest to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=XMDZkh3Sjfk"
   },
@@ -43378,12 +43399,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "One of the three Priests of Asklepios support quests: persuade the priest Timoxenos to show you a stone that holds the information you need.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Talk to Timoxenos at the Sanctuary of Asklepios in Argolis.",
+      "Persuade him to show you the stone.",
+      "Follow him to the stone and listen to his tales to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=ddlT1qpoyVQ"
   },
@@ -43393,17 +43414,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Assassin's Creed Odyssey",
     region: "Argolis",
-    title: "Death Comes for Us",
+    title: "Death Comes for Us All",
     location: "Argolis",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Argolis. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "If you saved the baby instead of chasing Chrysis in Ashes to Ashes, this optional quest gives you another chance to kill the cultist.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Argolis and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "In Ashes to Ashes, choose to save the baby. Chrysis escapes.",
+      "Complete Find a Woman to pick up her trail.",
+      "Track down Chrysis and kill her to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=wh533mTcRwk"
   },
@@ -43418,12 +43439,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "A regional side quest in Cyclades Islands. Accept it from its local quest-giver and follow the world-state objectives to completion.",
+    summary: "On Naxos, anti-Myrrine graffiti is spreading. Find the artist behind it.",
     aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
     walkthrough: [
-      "Reach Cyclades Islands and locate the quest-giver at the marked location (sync the local viewpoint to reveal it).",
-      "Accept the quest and follow the objective markers — most regional quests involve investigating, escorting, or clearing a nearby camp or point of interest.",
-      "Return to the quest-giver (or complete the final objective) to claim the reward."
+      "Investigate the graffiti, and watch the groups gathering around it for clues.",
+      "Report back to Agellos.",
+      "Follow the leads to the artist's cave in the southeast of Ariadne's Fate, near the bear den at Routsouna Waterfall.",
+      "Find the hidden side passage behind the vines near the cave entrance and talk to the artist. The reward includes the Bow of the Muses."
     ],
     video: "https://www.youtube.com/watch?v=ETviPVgvH8I"
   },
