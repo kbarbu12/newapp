@@ -2359,28 +2359,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
   },
 {
-    id: 111,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity II: Deadfire",
-    title: "Berath's Blessings",
-    location: "Various Islands",
-    length: "long",
-    difficulty: "High",
-    reward: "Unique enchantments, powerful soul-bound weapons",
-    summary:
-      "Complete a series of challenges across the Deadfire for the god of death, Berath. Each challenge tests a different aspect of your party — combat, stealth, diplomacy — and rewards soul-bound weapons that grow stronger with use.",
-    aiTip:
-      "Soul-bound weapons level up through specific kill conditions — read the requirements carefully. Berath's challenges are easier with a diverse party covering all skill checks.",
-    walkthrough: [
-      "Speak to the priest of Berath to begin the Blessings challenge series.",
-      "Travel to each flagged island and complete its combat, stealth, or diplomacy trial.",
-      "Return the proof of each trial to advance the chain.",
-      "Finish the series to claim the soul-bound weapons that grow with use."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Berath's%20Blessings%20walkthrough"
-  },
-{
     id: 112,
     type: "side",
     category: "Companion",
@@ -3488,29 +3466,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20from%20the%20Past%20walkthrough"
   },
 {
-    id: 182,
-    type: "side",
-    game: "Horizon Forbidden West",
-    region: "The Clan Lands",
-    title: "The Old Varl's Refuge",
-    location: "Legacy's Landfall",
-    length: "short",
-    difficulty: "Low",
-    reward: "Oseram Flameworks weapon, 2 Skill Points, 3500 XP",
-    summary:
-      "Help a group of elderly Nora refugees who have settled in the ruins of an old Vantage Point and are being harassed by scavengers. A short but touching quest about community and resilience in a collapsed world.",
-    aiTip:
-      "The scavengers scale to your level — overpower them with elemental traps placed before starting the fight. The Oseram Flameworks bow is excellent for fire builds.",
-    walkthrough: [
-      "Travel to Legacy's Landfall and speak with the elderly Nora refugees settled in the old Vantage ruins.",
-      "Learn that scavengers have been harassing the camp and agree to help.",
-      "Set elemental traps around the approach before triggering the confrontation.",
-      "Drive off the scavenger band threatening the refugees.",
-      "Return to the elders to secure their refuge and collect your reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Old%20Varl's%20Refuge%20walkthrough"
-  },
-{
     id: 183,
     type: "main",
     game: "Horizon Forbidden West",
@@ -3677,30 +3632,6 @@ const quests = [
       "Resolve it, noting the effect on Copperlane faction reputation."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
-  },
-{
-    id: 191,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity",
-    region: "Defiance Bay",
-    title: "Burning Bridges",
-    location: "Ondra's Gift, Defiance Bay",
-    length: "medium",
-    difficulty: "High",
-    reward: "Faction alliance, unique armour, safe passage",
-    summary:
-      "Navigate a gang war brewing in Ondra's Gift between the Doemenel family and a rival faction. Your choice of allegiance shapes the balance of power in Defiance Bay's criminal underworld for the rest of Act 2.",
-    aiTip:
-      "Back up your chosen faction fully before the confrontation — half-measures result in a difficult three-way battle. The Doemenels offer the best equipment reward if you side with them.",
-    walkthrough: [
-      "In Ondra's Gift, learn of the brewing gang war between the Doemenels and a rival.",
-      "Choose which faction to back in the conflict.",
-      "Commit fully to your side — half-measures trigger a difficult three-way battle.",
-      "Win the confrontation for your chosen faction.",
-      "Claim the reward (best gear if you side with the Doemenels) and shift the balance of power."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Burning%20Bridges%20walkthrough"
   },
 {
     id: 192,
@@ -8141,28 +8072,6 @@ const quests = [
       "Hunt down the machine to end the threat to the missing hunters."
     ],
     video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
-  },
-{
-    id: 393,
-    type: "side",
-    game: "Horizon Forbidden West",
-    region: "The Clan Lands",
-    title: "A Hunt So Sweet",
-    location: "Plainsong",
-    length: "short",
-    difficulty: "Low",
-    reward: "Utaru delicacy, coin",
-    summary:
-      "Aloy helps gather ingredients for a prized Utaru delicacy amid roaming machines.",
-    aiTip:
-      "A relaxed gathering quest — a nice palate cleanser between story beats.",
-    walkthrough: [
-      "Speak with the Utaru cook at Plainsong to begin gathering ingredients.",
-      "Travel to the marked spots to collect the required components.",
-      "Clear any roaming machines guarding the gathering sites.",
-      "Deliver the ingredients to complete the prized delicacy."
-    ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20So%20Sweet%20walkthrough"
   },
 {
     id: 394,
@@ -12717,30 +12626,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
   },
 {
-    id: 613,
-    type: "main",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Toussaint",
-    title: "The Beast of Toussaint (B&W)",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
-    difficulty: "High",
-    reward: "Vampire mystery deepens",
-    summary:
-      "Investigate the grisly knight-killings plaguing Beauclair and the higher vampire behind them.",
-    aiTip:
-      "Craft vampire-oil and Black Blood early — the expansion's foes are vampires of every stripe.",
-    walkthrough: [
-      "Investigate the Beast of Beauclair's killings across Toussaint.",
-      "Examine each crime scene with Witcher Senses to link the murders.",
-      "Track the vampire responsible to its lair.",
-      "Apply Vampire Oil and prepare Black Blood and Moon Dust for the fight.",
-      "Battle the higher vampire, using Yrden to strip its invisibility.",
-      "Uncover the killer's identity and report to the palace."
-    ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20(B%26W)%20walkthrough"
-  },
-{
     id: 614,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -15503,29 +15388,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Claim the steel to upgrade your best equipment."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
-  },
-{
-    id: 769,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity",
-    region: "White March",
-    title: "The White March: He Waits in Fire",
-    location: "Stalwart / White March",
-    length: "long",
-    difficulty: "High",
-    reward: "Abydon's forge, moral choice",
-    summary:
-      "Confront the sleeping god-forge and the fate of the smith-god Abydon in Part II.",
-    aiTip:
-      "A dramatic set piece with a weighty theological choice — think it through.",
-    walkthrough: [
-      "Continue the White March into He Waits in Fire and reach the sleeping god-forge.",
-      "Confront the fate of the smith-god Abydon.",
-      "Weigh the weighty theological choice the set piece presents.",
-      "Decide Abydon's fate to complete Part II."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20He%20Waits%20in%20Fire%20walkthrough"
   },
 {
     id: 770,
@@ -23171,31 +23033,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ]
   },
 {
-    id: 1196,
-    type: "side",
-    category: "Side Tales",
-    game: "Ghost of Yotei",
-    region: "Tokachi Range",
-    title: "Those Who Leave",
-    location: "Tokachi Range — Tokachi Road South",
-    length: "medium",
-    difficulty: "High",
-    reward: "Freed Captives, Liberator's Charm",
-    summary:
-      "Young people fleeing rural poverty are being intercepted by slavers on the Tokachi southern road. Atsu dismantles three slaver checkpoints and frees the captives before they disappear across the mountains.",
-    aiTip:
-      "The slaver captain at Checkpoint 3 carries a key that frees all remaining captives simultaneously — kill him first to avoid having to find individual cell keys. He wears red armour and stays at the rear of the camp.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Those+Who+Leave+walkthrough",
-    walkthrough: [
-      "Speak with a sobbing family at the Tokachi inn — their child was taken at a checkpoint.",
-      "Checkpoint 1 (4 slavers): free 2 captives from the cart.",
-      "Checkpoint 2 (7 slavers): free 3 captives from the stockade — pick the lock or fight for the key.",
-      "Checkpoint 3 (10 slavers, captain in red): kill the captain first and use his master key.",
-      "Free the final 5 captives and escort them to the safe farmhouse north of the road.",
-      "Return to the inn to find the family reunited; receive the Liberator's Charm."
-    ]
-  },
-{
     id: 1197,
     type: "side",
     category: "Side Tales",
@@ -23773,56 +23610,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At half health he grabs — complete the wrestling QTE to break free.",
       "Finish with three consecutive hits after his final haymaker; he surrenders.",
       "Receive the Iron Fist Charm from the grateful village headman."
-    ]
-  },
-{
-    id: 1220,
-    type: "side",
-    category: "Side Tales",
-    game: "Ghost of Yotei",
-    region: "Teshio Ridge",
-    title: "The Weight of Snow",
-    location: "Teshio Ridge — Avalanche Zone",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Avalanche Survivor's Charm, rescue supplies",
-    summary:
-      "A Teshio ridge village is partially buried by a sudden avalanche. Survivors need rescue before outlaw scavengers — who follow disasters looking for easy pickings — arrive to strip what little remains.",
-    aiTip:
-      "There are six buried survivors across three locations. Rescue the two children first — they are in the most structurally unstable section and have the shortest time window before a secondary collapse.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Weight+of+Snow+walkthrough",
-    walkthrough: [
-      "Arrive at the Teshio Avalanche Zone after hearing the disaster bell.",
-      "Rescue the two children in the unstable northern section first — time-sensitive.",
-      "Clear the four outlaw scavengers who arrive at the village edge.",
-      "Dig out survivor 3 and 4 from the inn ruins — use the provided shovel interact prompt.",
-      "Find and rescue survivors 5 and 6 in the collapsed barn on the south side.",
-      "Receive the Avalanche Survivor's Charm once all six are safe."
-    ]
-  },
-{
-    id: 1221,
-    type: "side",
-    category: "Side Tales",
-    game: "Ghost of Yotei",
-    region: "Nayoro Wilds",
-    title: "A Journey North",
-    location: "Nayoro Wilds — Northern Trailhead",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Northern Trade Charm, trade route unlocked",
-    summary:
-      "A merchant caravan heading deeper into Ezo's northern wilds needs protection through the most dangerous stretch of the Nayoro forest. Three bandit ambushes and one river crossing test Atsu's escort skills.",
-    aiTip:
-      "The river crossing is the hardest section — bandits attack from both banks simultaneously. Get the caravan onto the far bank first, then fight from the high ground on the far side rather than splitting your attention mid-river.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Journey+North+walkthrough",
-    walkthrough: [
-      "Meet Merchant Leader Saku at the Northern Trailhead.",
-      "Ambush 1 (4 bandits): intercept before they reach the caravan — 200m ahead on the trail.",
-      "Ambush 2 (7 bandits): come from the tree line; use the cart as cover for the merchants.",
-      "River Crossing: get the caravan to the far bank first, then hold the high ground against 8 attackers.",
-      "Ambush 3 (5 bandits): the final stretch — clear them before Saku's departure point.",
-      "Receive the Northern Trade Charm and the new trade route map marker."
     ]
   },
 {
@@ -24448,55 +24235,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate Ghost Stance and push through the raiders to execute the leader directly.",
       "The remaining raiders flee on the leader's death — no need to fight them all.",
       "Claim the reward from Kojiro."
-    ]
-  },
-{
-    id: 1247,
-    type: "side",
-    category: "Bounties",
-    game: "Ghost of Yotei",
-    region: "Nayoro Wilds",
-    title: "Bloody Eye Matsuda",
-    location: "Nayoro Wilds — Forest Outpost",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "A former military scout who defected after a court martial and now leads precision raids into the Nayoro interior using his professional training. He sets up defensive perimeters before Atsu can reach him.",
-    aiTip:
-      "Matsuda's perimeter has three tripwires and two flare traps — triggering any of them calls four reinforcements. Use listening sense to map the perimeter before entering and disable the flare traps with throwing stones.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bloody+Eye+Matsuda+walkthrough",
-    walkthrough: [
-      "Accept the bounty and approach the Forest Outpost cautiously.",
-      "Use listening sense to identify all three tripwires and two flare traps.",
-      "Disable the two flare traps with thrown stones before entering.",
-      "Navigate around the tripwires to reach Matsuda's position.",
-      "He fights with precise, military sword technique — deflect-counter timing is standard.",
-      "Claim the reward from Kojiro."
-    ]
-  },
-{
-    id: 1248,
-    type: "side",
-    category: "Bounties",
-    game: "Ghost of Yotei",
-    region: "Nayoro Wilds",
-    title: "Whistling Ren",
-    location: "Nayoro Wilds — Forest Road",
-    length: "short",
-    difficulty: "Low",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "Always announces his presence with a distinctive whistle before attacking — victims are so unsettled by the signal that they freeze. Ironically, this makes him easy to prepare for if you know the whistle means incoming.",
-    aiTip:
-      "The whistle is a free heads-up — the moment you hear it, activate your stance of choice before Ren arrives. Ghost Stance on the whistle cue lets you execute him during his approach for a near-instant completion.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Whistling+Ren+walkthrough",
-    walkthrough: [
-      "Accept the bounty and travel to the Forest Road zone.",
-      "Wait in the zone until Ren's distinctive whistle sounds.",
-      "Immediately activate Ghost Stance on the whistle cue before he arrives.",
-      "Execute Ren as he emerges from the trees.",
-      "Claim the reward from Kojiro — possibly the fastest bounty completion in the game."
     ]
   },
 {
@@ -29965,7 +29703,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "College of Winterhold",
     game: "The Elder Scrolls V: Skyrim",
-    title: "Master of the Mind",
+    title: "The Staff of Magnus",
     location: "Labyrinthian",
     length: "long",
     difficulty: "High",
@@ -29978,25 +29716,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report findings to the Arch-Mage or Mirabelle."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Master%20of%20the%20Mind%20walkthrough"
-  },
-  {
-    id: 1470,
-    type: "side",
-    category: "College of Winterhold",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "Diplomatic Immunity (College variant - Discerning the Transmundane path)",
-    location: "College path",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Story alignment",
-    summary: "A College-side thread overlapping the Discerning the Transmundane path toward forbidden knowledge.",
-    aiTip: "This overlaps with Hermaeus Mora's Daedric quest — completing one advances the other, so coordinate the two.",
-    walkthrough: [
-      "Speak with Urag gro-Shub about locating a Black Book or Elder Scroll lead relevant to the main quest.",
-      "Follow instructions to track down the item's location.",
-      "Retrieve the item and return it to the College."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20%28College%20variant%20-%20Discerning%20the%20Transmundane%20path%29%20walkthrough"
   },
   {
     id: 1471,
@@ -30376,40 +30095,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20walkthrough"
   },
   {
-    id: 1490,
-    type: "side",
-    category: "Civil War - Imperial Legion",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "The Battle for Fort Hraggstad",
-    location: "Fort Hraggstad",
-    length: "medium",
-    difficulty: "High",
-    reward: "Hold captured",
-    summary: "Capture Fort Hraggstad to strengthen the Legion's hold near Solitude.",
-    aiTip: "Approach from the road with your soldiers; the exterior bandits and Stormcloaks fall quickly to a coordinated push.",
-    walkthrough: [
-      "Report to your Legion commander and rally with the troops outside Fort Hraggstad.",
-      "Assault Fort Hraggstad, fighting through the defenders in the courtyard.",
-      "Push into the interior and clear the remaining soldiers.",
-      "Hold Fort Hraggstad to capture it for the Legion."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20walkthrough"
-  },
-  {
     id: 1491,
     type: "side",
-    category: "Civil War - Imperial Legion",
+    category: "Civil War - Stormcloaks",
     game: "The Elder Scrolls V: Skyrim",
     title: "Rescue from Fort Neugrad",
     location: "Fort Neugrad",
     length: "medium",
     difficulty: "High",
     reward: "Prisoners freed, war progression",
-    summary: "Infiltrate Fort Neugrad to rescue captured Imperial soldiers.",
+    summary: "Infiltrate Fort Neugrad to rescue captured Stormcloak soldiers held in its prison.",
     aiTip: "Free the prisoners to gain extra allies for the fight out — grab the cell keys from the guards.",
     walkthrough: [
-      "Take the rescue assignment from your Imperial commander.",
-      "Infiltrate Fort Neugrad, where captured Legion soldiers are held.",
+      "Take the rescue assignment from Galmar Stone-Fist.",
+      "Meet the Stormcloak scouts near Fort Neugrad, then sneak in (the underwater lake entrance avoids most guards).",
       "Sneak or fight in, reach the prisoners, and free them.",
       "Arm the freed soldiers and secure the fort."
     ],
@@ -30420,8 +30119,8 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Civil War - Imperial Legion",
     game: "The Elder Scrolls V: Skyrim",
-    title: "Liberation of Skyrim",
-    location: "Skyrim-wide",
+    title: "Battle for Windhelm",
+    location: "Windhelm",
     length: "long",
     difficulty: "High",
     reward: "Civil War won for the Empire",
@@ -30434,7 +30133,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Ulfric Stormcloak.",
       "Complete the Civil War questline in favor of the Empire."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Liberation%20of%20Skyrim%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Windhelm%20walkthrough"
   },
   {
     id: 1493,
@@ -30882,27 +30581,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "With the Trinity restored, press on to hunt Mercer Frey."
     ],
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
-  },
-  {
-    id: 1515,
-    type: "side",
-    category: "Daedric Quests",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "Peryite: The Only Cure (Peryite variant - Miscarcand)",
-    location: "Bthardamz",
-    length: "medium",
-    difficulty: "High",
-    reward: "Spellbreaker",
-    summary: "Undertake Peryite's task, purging his afflicted followers to earn the shield Spellbreaker.",
-    aiTip: "You commune with Peryite via a summoning ritual, then clear Bthardamz — Spellbreaker's ward is excellent for mages and melee alike.",
-    walkthrough: [
-      "Travel to Peryite's Shrine in the Pine Forest.",
-      "Learn of a plague affecting a band of Orcs and speak with Orchendor.",
-      "Travel to Bthardamz, a Dwemer ruin overrun by Falmer, where Orchendor has fled.",
-      "Track down and defeat Orchendor.",
-      "Retrieve Spellbreaker, Peryite's Daedric artifact."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Peryite%3A%20The%20Only%20Cure%20%28Peryite%20variant%20-%20Miscarcand%29%20walkthrough"
   },
   {
     id: 1516,
@@ -37012,29 +36690,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break posture and Deathblow (a Confetti helps against the apparition)."
     ],
     video: "https://www.youtube.com/watch?v=CZaSQTdX7a8"
-  },
-{
-    id: 1820,
-    type: "side",
-    category: "Mini-Bosses",
-    game: "Sekiro: Shadows Die Twice",
-    title: "Six-fingered Lord Kuranosuke",
-    location: "Ashina Outskirts – Outskirts Wall (Stairway)",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Prayer Bead",
-    summary:
-      "A general with an erratic katana rhythm that mixes fast and slow strikes to bait mistimed deflects.",
-    aiTip:
-      "Don't pre-empt his swings — react to each one. Dodge (don't block) his grab-into-throw, then punish the whiff.",
-    walkthrough: [
-      "On the Outskirts Wall stairway, engage the general with the erratic katana rhythm.",
-      "Don't pre-empt his hits — wait and deflect the fast-then-slow mix on reaction.",
-      "Mikiri his thrusts and step his wide swings.",
-      "Build posture between his baiting strikes.",
-      "Break posture and land the Deathblow."
-    ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Six-fingered%20Lord%20Kuranosuke%20walkthrough"
   },
 {
     id: 1821,
@@ -48895,28 +48550,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fake-Man%20Show%20Mementos%20Request%20walkthrough"
   },
 {
-    id: 2358,
-    type: "main",
-    category: "Main Quest",
-    game: "Pillars of Eternity",
-    region: "Gilded Vale",
-    title: "The Watcher",
-    location: "Gilded Vale",
-    length: "medium",
-    difficulty: "High",
-    reward: "Story unlock",
-    summary: "A main-story quest of Pillars of Eternity (Gilded Vale): A main story quest progressing the saga of the Watcher and the mystery of Waidwen's Legacy — it advances the central plot and its consequences.",
-    aiTip: "Save before major dialogue and faction decisions — main-quest choices are often irreversible and shape the ending.",
-    walkthrough: [
-      "Pick up the main-quest objective and travel to Gilded Vale.",
-      "Investigate the area, using Watcher soul-reading and skill checks on the clues you find.",
-      "Fight or talk through the obstacles blocking your path.",
-      "Reach the key confrontation and make the story choice it presents.",
-      "Resolve the quest to advance the main plot."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Watcher%20walkthrough"
-  },
-{
     id: 2359,
     type: "main",
     category: "Main Quest",
@@ -48981,28 +48614,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the quest to advance the main plot."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Final%20Confrontation%20walkthrough"
-  },
-{
-    id: 2362,
-    type: "main",
-    category: "Main Quest",
-    game: "Pillars of Eternity",
-    region: "White March",
-    title: "The White March",
-    location: "White March",
-    length: "long",
-    difficulty: "High",
-    reward: "Investigate curse",
-    summary: "A main-story quest of Pillars of Eternity (White March): A main story quest progressing the saga of the Watcher and the mystery of Waidwen's Legacy — it advances the central plot and its consequences.",
-    aiTip: "Save before major dialogue and faction decisions — main-quest choices are often irreversible and shape the ending.",
-    walkthrough: [
-      "Pick up the main-quest objective and travel to White March.",
-      "Investigate the area, using Watcher soul-reading and skill checks on the clues you find.",
-      "Fight or talk through the obstacles blocking your path.",
-      "Reach the key confrontation and make the story choice it presents.",
-      "Resolve the quest to advance the main plot."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%20walkthrough"
   },
 {
     id: 2363,
@@ -50006,27 +49617,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Missing%20Sentries%20walkthrough"
   },
 {
-    id: 2409,
-    type: "side",
-    category: "Task",
-    game: "Pillars of Eternity",
-    region: "Defiance Bay",
-    title: "The Forgotten",
-    location: "First Fires",
-    length: "short",
-    difficulty: "Low",
-    reward: "XP and copper pands",
-    summary: "A short task or errand in First Fires: A small task or errand for an NPC — quick to finish and good for XP.",
-    aiTip: "Read the dialogue for skill-check options (Lore, Mechanics, Athletics) — passing them often resolves tasks faster and better.",
-    walkthrough: [
-      "Accept the task from the NPC in First Fires.",
-      "Follow the objective marker and gather/deliver what is asked.",
-      "Use dialogue skill checks where offered to smooth the outcome.",
-      "Return to the quest-giver for your reward and XP."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Forgotten%20walkthrough"
-  },
-{
     id: 2410,
     type: "side",
     category: "Task",
@@ -50811,72 +50401,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Helping%20Hands%20walkthrough"
   },
 {
-    id: 2446,
-    type: "main",
-    category: "Main Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Hunt for Eothas",
-    location: "Engwithan Digsite",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression",
-    summary: "A main-story quest of Pillars of Eternity II: Deadfire (Engwithan Digsite) — it advances the central plot and its consequences.",
-    aiTip: "Save before major dialogue and faction decisions — main-quest choices are often irreversible and shape the ending.",
-    walkthrough: [
-      "Pick up the main-quest objective and travel to Engwithan Digsite.",
-      "Investigate the area, using Watcher soul-reading and skill checks on the clues you find.",
-      "Fight or talk through the obstacles blocking your path.",
-      "Reach the key confrontation and make the story choice it presents.",
-      "Resolve the quest to advance the main plot."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Hunt%20for%20Eothas%20walkthrough"
-  },
-{
-    id: 2447,
-    type: "main",
-    category: "Main Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Adra Pillars",
-    location: "Various",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression",
-    summary: "A main-story quest of Pillars of Eternity II: Deadfire — it advances the central plot and its consequences.",
-    aiTip: "Save before major dialogue and faction decisions — main-quest choices are often irreversible and shape the ending.",
-    walkthrough: [
-      "Pick up the main-quest objective and travel to the marked area.",
-      "Investigate the area, using Watcher soul-reading and skill checks on the clues you find.",
-      "Fight or talk through the obstacles blocking your path.",
-      "Reach the key confrontation and make the story choice it presents.",
-      "Resolve the quest to advance the main plot."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Adra%20Pillars%20walkthrough"
-  },
-{
-    id: 2448,
-    type: "main",
-    category: "Main Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Shroud of the Machinations",
-    location: "Ashen Maw",
-    length: "long",
-    difficulty: "High",
-    reward: "Story progression",
-    summary: "A main-story quest of Pillars of Eternity II: Deadfire (Ashen Maw) — it advances the central plot and its consequences.",
-    aiTip: "Save before major dialogue and faction decisions — main-quest choices are often irreversible and shape the ending.",
-    walkthrough: [
-      "Pick up the main-quest objective and travel to Ashen Maw.",
-      "Investigate the area, using Watcher soul-reading and skill checks on the clues you find.",
-      "Fight or talk through the obstacles blocking your path.",
-      "Reach the key confrontation and make the story choice it presents.",
-      "Resolve the quest to advance the main plot."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Shroud%20of%20the%20Machinations%20walkthrough"
-  },
-{
     id: 2449,
     type: "side",
     category: "Side Quest",
@@ -50963,28 +50487,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to the quest-giver for your reward."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Bigger%20Fish%20walkthrough"
-  },
-{
-    id: 2453,
-    type: "side",
-    category: "Side Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Final Voyage",
-    location: "Neketaka",
-    length: "long",
-    difficulty: "High",
-    reward: "Copper pands, XP, and unique gear",
-    summary: "A side quest in Neketaka, with branching outcomes shaped by your choices and skills.",
-    aiTip: "Explore fully and talk to everyone — many side quests hide alternate solutions behind conversation, stealth, or skill checks.",
-    walkthrough: [
-      "Accept the side quest and travel to Neketaka.",
-      "Investigate with Watcher senses and skill checks to uncover your options.",
-      "Resolve the situation through combat, stealth, or dialogue as you prefer.",
-      "Make the choice the quest presents (outcomes vary by your decisions).",
-      "Return to the quest-giver for your reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Final%20Voyage%20walkthrough"
   },
 {
     id: 2454,
@@ -51755,116 +51257,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gain faction standing (mind that it may cost you with rival factions)."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Sabotage%20at%20the%20Brass%20Citadel%20walkthrough"
-  },
-{
-    id: 2489,
-    type: "side",
-    category: "Companion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "A Watcher Awakens",
-    location: "Port Maje",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Bond with Edér",
-    summary: "A companion quest in Port Maje: help resolve a party member's personal storyline — A personal quest involving Edér. Keep them in your party to trigger and progress it.",
-    aiTip: "Keep the relevant companion in your active party and talk to them after big story beats to unlock and advance their quest.",
-    walkthrough: [
-      "Keep the companion tied to \"A Watcher Awakens\" in your party until their quest triggers.",
-      "Travel to Port Maje and follow the personal-story leads with them along.",
-      "Work through the encounters and conversations the quest stages.",
-      "Guide the companion through the pivotal choice at its climax.",
-      "Complete it to deepen the bond and claim the companion reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Watcher%20Awakens%20walkthrough"
-  },
-{
-    id: 2490,
-    type: "side",
-    category: "Companion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Higher Purpose",
-    location: "Port Maje",
-    length: "long",
-    difficulty: "High",
-    reward: "Bond with Xoti",
-    summary: "A companion quest in Port Maje: help resolve a party member's personal storyline — A personal quest involving Xoti. Keep them in your party to trigger and progress it.",
-    aiTip: "Keep the relevant companion in your active party and talk to them after big story beats to unlock and advance their quest.",
-    walkthrough: [
-      "Keep the companion tied to \"The Higher Purpose\" in your party until their quest triggers.",
-      "Travel to Port Maje and follow the personal-story leads with them along.",
-      "Work through the encounters and conversations the quest stages.",
-      "Guide the companion through the pivotal choice at its climax.",
-      "Complete it to deepen the bond and claim the companion reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Higher%20Purpose%20walkthrough"
-  },
-{
-    id: 2491,
-    type: "side",
-    category: "Companion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "A Single Alegiance",
-    location: "Dunnage",
-    length: "long",
-    difficulty: "High",
-    reward: "Bond with Serafen",
-    summary: "A companion quest in Dunnage: help resolve a party member's personal storyline — A personal quest involving Serafen. Keep them in your party to trigger and progress it.",
-    aiTip: "Keep the relevant companion in your active party and talk to them after big story beats to unlock and advance their quest.",
-    walkthrough: [
-      "Keep the companion tied to \"A Single Alegiance\" in your party until their quest triggers.",
-      "Travel to Dunnage and follow the personal-story leads with them along.",
-      "Work through the encounters and conversations the quest stages.",
-      "Guide the companion through the pivotal choice at its climax.",
-      "Complete it to deepen the bond and claim the companion reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Single%20Alegiance%20walkthrough"
-  },
-{
-    id: 2492,
-    type: "side",
-    category: "Companion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Gilded Cage",
-    location: "Brass Citadel",
-    length: "long",
-    difficulty: "High",
-    reward: "Bond with Maia Rua",
-    summary: "A companion quest in Brass Citadel: help resolve a party member's personal storyline — A personal quest involving Maia Rua. Keep them in your party to trigger and progress it.",
-    aiTip: "Keep the relevant companion in your active party and talk to them after big story beats to unlock and advance their quest.",
-    walkthrough: [
-      "Keep the companion tied to \"The Gilded Cage\" in your party until their quest triggers.",
-      "Travel to Brass Citadel and follow the personal-story leads with them along.",
-      "Work through the encounters and conversations the quest stages.",
-      "Guide the companion through the pivotal choice at its climax.",
-      "Complete it to deepen the bond and claim the companion reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Gilded%20Cage%20walkthrough"
-  },
-{
-    id: 2493,
-    type: "side",
-    category: "Companion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "Pallegina's Dilemma",
-    location: "Brass Citadel",
-    length: "long",
-    difficulty: "High",
-    reward: "Bond with Pallegina",
-    summary: "A companion quest in Brass Citadel: help resolve a party member's personal storyline — A personal quest involving Pallegina. Keep them in your party to trigger and progress it.",
-    aiTip: "Keep the relevant companion in your active party and talk to them after big story beats to unlock and advance their quest.",
-    walkthrough: [
-      "Keep the companion tied to \"Pallegina's Dilemma\" in your party until their quest triggers.",
-      "Travel to Brass Citadel and follow the personal-story leads with them along.",
-      "Work through the encounters and conversations the quest stages.",
-      "Guide the companion through the pivotal choice at its climax.",
-      "Complete it to deepen the bond and claim the companion reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Pallegina's%20Dilemma%20walkthrough"
   },
 {
     id: 2494,
@@ -52881,50 +52273,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the quest to claim its high-tier rewards."
     ],
     video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Drowned%20Kingdom%20walkthrough"
-  },
-{
-    id: 2541,
-    type: "side",
-    category: "Expansion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "His Revenge",
-    location: "Various",
-    length: "long",
-    difficulty: "High",
-    reward: "Expansion rewards (unique gear, XP)",
-    summary: "An expansion quest: A quest from the Beast of Winter expansion, offering high-level content and rewards.",
-    aiTip: "Expansion content is tuned high — level up and upgrade gear first, and expect tough fights and meaningful choices.",
-    walkthrough: [
-      "Begin the expansion quest and travel to the marked area.",
-      "Explore and solve the area’s puzzles and encounters (tuned for high level).",
-      "Fight through the tougher enemies it pits against you.",
-      "Reach the climactic choice/boss and resolve it.",
-      "Complete the quest to claim its high-tier rewards."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20His%20Revenge%20walkthrough"
-  },
-{
-    id: 2542,
-    type: "side",
-    category: "Expansion Quest",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Wailing Wretch",
-    location: "Various",
-    length: "long",
-    difficulty: "High",
-    reward: "Expansion rewards (unique gear, XP)",
-    summary: "An expansion quest: A quest from the Seeker, Slayer, Survivor expansion, offering high-level content and rewards.",
-    aiTip: "Expansion content is tuned high — level up and upgrade gear first, and expect tough fights and meaningful choices.",
-    walkthrough: [
-      "Begin the expansion quest and travel to the marked area.",
-      "Explore and solve the area’s puzzles and encounters (tuned for high level).",
-      "Fight through the tougher enemies it pits against you.",
-      "Reach the climactic choice/boss and resolve it.",
-      "Complete the quest to claim its high-tier rewards."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Wailing%20Wretch%20walkthrough"
   },
   {
     id: 2573,
