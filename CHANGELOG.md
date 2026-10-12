@@ -3,6 +3,19 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-12
+
+- **Remove 29 fabricated/duplicate quests and fix 3 Skyrim entries** (PR #117) —
+  `v2.3.14` patch. Quest count 2,515 → 2,486. Removed 2 duplicates (#613, #1515)
+  and 27 invented or placeholder entries: Ghost of Yōtei (5), Horizon Forbidden
+  West (2), Sekiro (1), Skyrim (2), Pillars of Eternity (5, incl. two Deadfire
+  quests filed under PoE1) and Deadfire (12, incl. 5 invented companion quests).
+  Fixed #1469 Master of the Mind → The Staff of Magnus, #1491 Rescue from Fort
+  Neugrad → Stormcloaks, #1492 Liberation of Skyrim → Battle for Windhelm.
+  Also adds `docs/video-candidates/` (1,441 proposed YouTube links awaiting
+  review; not used by the app).
+- Also ships the 2026-10-10 (2) session log in `PROGRESS.md` (PR #116).
+
 ## 2026-10-10 (2)
 
 - **AC Odyssey main-quest regions, all chapters** (PR #110) — `v2.3.13` patch.
