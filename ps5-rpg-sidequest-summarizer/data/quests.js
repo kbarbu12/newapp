@@ -30315,26 +30315,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
   },
   {
-    id: 1502,
-    type: "side",
-    category: "Civil War - Stormcloaks",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "Rescue from Fort Amol",
-    location: "Fort Amol",
-    length: "medium",
-    difficulty: "High",
-    reward: "Prisoners freed, war progression",
-    summary: "Break into Fort Amol to rescue captured Stormcloak soldiers.",
-    aiTip: "Grab the cell keys and free the prisoners for extra swords in the escape.",
-    walkthrough: [
-      "Take the rescue assignment from Galmar Stone-Fist.",
-      "Infiltrate Fort Amol, where captured Stormcloak soldiers are held.",
-      "Sneak or fight in, reach the prisoners, and free them.",
-      "Arm the freed soldiers and secure the fort."
-    ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Amol%20walkthrough"
-  },
-  {
     id: 1503,
     type: "side",
     category: "Civil War - Stormcloaks",
@@ -44618,60 +44598,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Claim the Atlantean Blade."
     ],
     video: "https://www.youtube.com/watch?v=KLNxgWJzs_8"
-  },
-{
-    id: 2186,
-    type: "side",
-    category: "Side Quest",
-    game: "Assassin's Creed Odyssey",
-    region: "Pirate Islands",
-    title: "Golden Feather of Ajax",
-    location: "Treasure Hunting for Xenia (Keos Island)",
-    length: "short",
-    difficulty: "Low",
-    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "One of three treasure-hunt quests given by the romance NPC Xenia, tracked via cryptic treasure map clues rather than a marked waypoint.",
-    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
-    walkthrough: [
-      "One of three treasure-hunt quests given by the romance NPC Xenia, tracked via cryptic treasure map clues rather than a marked waypoint."
-    ],
-    video: "https://www.youtube.com/watch?v=rU8jJf0A5gM"
-  },
-{
-    id: 2187,
-    type: "side",
-    category: "Side Quest",
-    game: "Assassin's Creed Odyssey",
-    region: "Pirate Islands",
-    title: "Makedonian Bracelet",
-    location: "Treasure Hunting for Xenia (Keos Island)",
-    length: "short",
-    difficulty: "Low",
-    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the buried bracelet.",
-    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
-    walkthrough: [
-      "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the buried bracelet."
-    ],
-    video: "https://www.youtube.com/watch?v=rRE56sE9mb4"
-  },
-{
-    id: 2188,
-    type: "side",
-    category: "Side Quest",
-    game: "Assassin's Creed Odyssey",
-    region: "Pirate Islands",
-    title: "Triton's Shell of the Tides",
-    location: "Treasure Hunting for Xenia (Keos Island)",
-    length: "short",
-    difficulty: "Low",
-    reward: "XP, drachmae, and occasional gear; some award engravings or crafting materials.",
-    summary: "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the shell.",
-    aiTip: "Sync the nearest viewpoint and use Ikaros to tag objectives before you ride in. Many Odyssey side quests chain into follow-ups, so read dialogue for branch choices that affect later rewards.",
-    walkthrough: [
-      "Treasure-hunt quest for Xenia; requires deciphering a map clue to locate the shell."
-    ],
-    video: "https://www.youtube.com/watch?v=8khC-gCEzrY"
   },
 {
     id: 2189,

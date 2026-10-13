@@ -18,6 +18,6 @@ Format: `{questId: videoId}`, except `vidcands.json` (rows `{id,g,t,c,u,v}`,
 | poe2.json | Pillars of Eternity II: Deadfire | 109 | claude.ai/artifact/AKv1sGot7pLsg3xWPGBHSn |
 | cp.json | Cyberpunk 2077 | 128 | claude.ai/artifact/6tjac9wWQKT53VVg4RaFST |
 | vh.json | AC Valhalla | 142 | claude.ai/artifact/KdyNpABgM1ymigYTq7a9ei |
-| sky.json | Skyrim | 130 | claude.ai/artifact/TmiWpbGzxapKRM62k7GYUw |
+| sky.json | Skyrim | 129 | claude.ai/artifact/TmiWpbGzxapKRM62k7GYUw |
 | totk.json | Zelda: Tears of the Kingdom | 217 | claude.ai/artifact/MStSqBWsCMyM9jLagXoGQg |
 | left.json | Leftovers: Skyrim, Witcher 3, Pillars I & II | 18 | claude.ai/artifact/UDZhgTgMtErLokRpSjajSn |
