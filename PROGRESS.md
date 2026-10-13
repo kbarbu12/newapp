@@ -79,6 +79,21 @@
   #2180 Throwing the Bet; Deadfire #2503 Her Last Request. No placeholder
   quest text remains.
 
+### Walkthrough steps alongside videos
+- Phase 1 (PR #127): steps now render under the video in every game (614
+  quests had hidden steps); card shows the step count; chat lists steps.
+- Phase 2, one PR per game, biggest first: write steps for the 422 video
+  quests with none (Hogwarts 120, God of War 65, Jedi Survivor 61, …), then
+  expand AC Odyssey's 284 three-step lists, then review the no-video steps.
+- **Hogwarts Legacy:** 118 quests got 3–7 guide-sourced steps. The data was
+  badly off: 66 summaries rewritten (e.g. The High Keep is Natty, not Poppy;
+  Take the Biscuit is a Mooncalf rescue), 14 titles set to in-game names
+  (class assignments → "Professor Garlick's Assignment 1" etc., Sacking
+  Selwyn, Absconder Encounter), assignment rewards/tips corrected, 3 Sebastian
+  quests moved to Relationship. **Probably not real, no steps written:**
+  #509 Ollivanders & the Perfect Wand, #868 In the Shadow of Revelation —
+  owner to confirm removal.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.

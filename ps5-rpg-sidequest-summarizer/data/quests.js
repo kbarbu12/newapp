@@ -905,10 +905,15 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Treasure map loot, exploration XP",
-    summary:
-      "Follow a ghostly trail through the Forbidden Forest at night to uncover a hidden treasure. A short atmospheric quest that showcases the game's exploration.",
-    aiTip:
-      "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far.",
+    summary: "Follow a ghostly trail through the Forbidden Forest at night to uncover a hidden treasure. A short atmospheric quest that showcases the game's exploration.",
+    aiTip: "Must be done at night — use the wait mechanic if it's daytime. Follow the butterflies carefully; they disappear if you stray too far.",
+    walkthrough: [
+      "Finish Trials of Merlin and your house's Ollivander/Jackdaw quest so the treasure maps unlock.",
+      "Pick up the Map with Floating Candles (location depends on your house — e.g. Gryffindor: Hogsmeade cemetery headstone; Ravenclaw: Owlery).",
+      "Set the time to night and fast-travel to the Forbidden Forest Floo Flame, southwest of Hogsmeade.",
+      "Cast Lumos — two floating candles appear; follow them through the forest.",
+      "At the small hill with two chairs and a table, open the chest that appears to finish."
+    ],
     video: "https://www.youtube.com/watch?v=ftHhNS_PJFw"
   },
 {
@@ -922,10 +927,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Niffler companion, unique gear",
-    summary:
-      "Help a student recover their pet Niffler from a poacher hideout. The dungeon features puzzle-based combat rooms mixing spell types and environmental mechanics.",
-    aiTip:
-      "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum.",
+    summary: "Agnes Coffey in Bainburgh has lost her pet Niffler, Rococo, inside Henrietta's Hideaway. Solve the dungeon's cube puzzles and catch him with your Nab-Sack.",
+    aiTip: "Master the spell-type matching puzzles before going in. You need Incendio, Glacius, and Levioso at minimum.",
+    walkthrough: [
+      "After The High Keep (level 25), talk to Agnes Coffey in Bainburgh.",
+      "Fly to Henrietta's Hideaway at the southern tip of Manor Cape.",
+      "Cast Revelio to spot the trap floor and cross it with Arresto Momentum.",
+      "Solve the cube rooms: move cubes onto matching symbols with Levioso/Accio, then hit them with Incendio or Glacius to open the doors.",
+      "Find Rococo in the final room (check for a secret passage in the wall) and catch him with the Nab-Sack.",
+      "Return to Agnes for the Niffler Fur-Lined Hat."
+    ],
     video: "https://www.youtube.com/watch?v=T8k6izOn6Bs"
   },
 {
@@ -939,10 +950,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Extra gear inventory slots",
-    summary:
-      "Solve a series of block-pushing puzzles hidden within Hogwarts to unlock additional gear capacity. One of the most useful side quests in the entire game.",
-    aiTip:
-      "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves.",
+    summary: "Solve a series of block-pushing puzzles hidden within Hogwarts to unlock additional gear capacity. One of the most useful side quests in the entire game.",
+    aiTip: "Use Depulso and Accio strategically. The puzzles get progressively harder — the last room requires careful positioning before any block moves.",
+    walkthrough: [
+      "After The Helm of Urtkot, speak with Sophronia Franklin near the Charms Classroom Floo Flame.",
+      "Follow the marker to the hidden hall entrance and open it with Depulso.",
+      "Puzzle 1: Depulso the block, climb it and open the chest.",
+      "Puzzle 2: Accio the right-hand blocks, Depulso the left ones, then Accio again to climb.",
+      "Puzzle 3: shift the moving blocks with Accio/Depulso (hit the gold cube to reset), climb to the last ledge and loot the chest.",
+      "Return to Sophronia to finish and collect Herodiana's outfit."
+    ],
     video: "https://www.youtube.com/watch?v=48cEYhXFMrI"
   },
 {
@@ -2044,10 +2061,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Treasure vault loot, exploration XP, unique gear",
-    summary:
-      "Follow a treasure map leading to a series of clues scattered across the Poidsear Coast. Each clue brings you closer to a hidden vault guarded by dark wizards and ancient enchantments.",
-    aiTip:
-      "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first.",
+    summary: "A treasure map found in Poidsear Castle leads to Henrietta's Hideaway on Manor Cape, where a statue-and-flame puzzle guards the treasure.",
+    aiTip: "Use Revelio frequently — the clues blend into the environment. The final vault requires Alohomora Level 2, so upgrade your lockpicking first.",
+    walkthrough: [
+      "After Tomes and Tribulations, take the treasure map from the table in Poidsear Castle on the Poidsear Coast.",
+      "Travel to Henrietta's Hideaway on Manor Cape and clear the enemies at the entrance.",
+      "Move the cubes onto the matching symbols with Accio, then use Incendio and Glacius to open each door.",
+      "In the statue room, light only the braziers shown on the map's picture.",
+      "Walk through the opening that appears and loot the chest."
+    ],
     video: "https://www.youtube.com/watch?v=G6qxi3c8_9I"
   },
 {
@@ -2061,10 +2083,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Sebastian Sallow companion quests, Dark Arts access",
-    summary:
-      "Sebastian Sallow reveals a secret room beneath Hogwarts and begins teaching you forbidden magic. This questline spans the entire game and forces increasingly difficult moral choices about the Dark Arts.",
-    aiTip:
-      "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices.",
+    summary: "Sebastian Sallow reveals a secret room beneath Hogwarts and begins teaching you forbidden magic. This questline spans the entire game and forces increasingly difficult moral choices about the Dark Arts.",
+    aiTip: "This is the only way to learn the Unforgivable Curses. Progressing Sebastian's story doesn't lock you into being 'evil' — you can learn the spells and still make good choices.",
+    walkthrough: [
+      "After The Room of Requirement, meet Sebastian Sallow and follow him to the Undercroft.",
+      "Talk with him about the room and its history.",
+      "Practise the Confringo spell-tracing (a Z-shaped motion).",
+      "Assign Confringo to your spell set and use it to light the three candelabras around the room.",
+      "Talk to Sebastian once the candelabras are lit to finish and keep Confringo."
+    ],
     video: "https://www.youtube.com/watch?v=fuvTMtslfCQ"
   },
 {
@@ -2078,10 +2105,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Unique underwater gear, rare crafting materials",
-    summary:
-      "Investigate disturbances in the Black Lake involving agitated Grindylows and a mystery beneath the water's surface. Features one of the game's most visually impressive underwater sequences.",
-    aiTip:
-      "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage.",
+    summary: "Slytherin student Nerida Roberts wants a gift from the merpeople but can't swim. Dive into the Black Lake cave and solve its moth door to fetch the artefact.",
+    aiTip: "Equip cold-resistance gear before diving. The Grindylows attack in swarms — use Depulso to create distance and Incendio for area damage.",
+    walkthrough: [
+      "Talk to Nerida Roberts at the Boathouse Floo Flame (level 10).",
+      "Swim west from the Boathouse to the white whirlpool and dive in.",
+      "Inside the cave, burn the cobwebs with Incendio.",
+      "Catch moths with Lumos and guide all three into the door slots.",
+      "Open the chest behind the door for the Mermish artefact.",
+      "Swim back and give it to Nerida to finish."
+    ],
     video: "https://www.youtube.com/watch?v=HJWdEOHVZhk"
   },
 {
@@ -2091,14 +2124,18 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Mum's the Word (Natty)",
-    location: "Lower Hogsfield / Highlands",
+    location: "Divination Classroom, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Natsai Onai relationship progression",
-    summary:
-      "Open Natsai Onai's companion questline by helping her and her mother settle into the Dyrwood — and dig into the Ashwinder trouble stirring nearby.",
-    aiTip:
-      "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
+    summary: "Natty's mother, Professor Onai, bans her from Hogsmeade for chasing the poacher Harlow. Afterwards Natty reveals she is an Animagus.",
+    aiTip: "The first of Natty's relationship quests — complete it to unlock her later arc (A Basis for Blackmail, The Lost Child, Grief and Vengeance).",
+    walkthrough: [
+      "Finish The Lost Child and Fire and Vice, then wait for Natty's owl.",
+      "Use the Divination Classroom Floo Flame and go up the stairs below the classroom.",
+      "Talk to Natty and Professor Onai and watch their argument about Harlow.",
+      "Talk to Natty afterwards — she reveals she can turn into a gazelle; this unlocks A Basis for Blackmail."
+    ],
     video: "https://www.youtube.com/watch?v=pDgBBzhZhEE"
   },
 {
@@ -3037,10 +3074,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Nab-Sack, Room of Requirement Vivarium, beast rescuing",
-    summary:
-      "Befriend Deek the house elf and unlock the ability to rescue magical beasts using a Nab-Sack. This quest opens the Vivarium in the Room of Requirement where you can care for animals and harvest upgrade materials.",
-    aiTip:
-      "Complete this early — beast materials are used to upgrade gear throughout the game. The Vivarium becomes a key resource hub, so setting it up promptly pays off.",
+    summary: "Befriend Deek the house elf and unlock the ability to rescue magical beasts using a Nab-Sack. This quest opens the Vivarium in the Room of Requirement where you can care for animals and harvest upgrade materials.",
+    aiTip: "Complete this early — beast materials are used to upgrade gear throughout the game. The Vivarium becomes a key resource hub, so setting it up promptly pays off.",
+    walkthrough: [
+      "After The Caretaker's Lunar Lament, talk to Deek in the Room of Requirement to get the Nab-Sack.",
+      "Catch a Puffskein in the Vivarium (cast Levioso to make captures easier).",
+      "Catch a Jobberknoll, then wait until night and catch a Mooncalf.",
+      "Feed and brush the beasts to collect fur and feathers.",
+      "Use the materials at the Enchanted Loom to upgrade a piece of gear."
+    ],
     video: "https://www.youtube.com/watch?v=QJZOywqytyM"
   },
 {
@@ -3054,10 +3096,17 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Ancient Magic Throw ability, ancient magic meter increase",
-    summary:
-      "Complete a magical trial hidden within Rookwood Castle to master Ancient Magic Throw. The dungeon tests your understanding of the combat system through carefully designed puzzle-combat rooms.",
-    aiTip:
-      "Ancient Magic Throw lets you hurl enemy projectiles and environmental objects back at foes — it fundamentally changes combat. Learn the timing in the trial rooms before using it against tough enemies.",
+    summary: "Complete a magical trial hidden within Rookwood Castle to master Ancient Magic Throw. The dungeon tests your understanding of the combat system through carefully designed puzzle-combat rooms.",
+    aiTip: "Ancient Magic Throw lets you hurl enemy projectiles and environmental objects back at foes — it fundamentally changes combat. Learn the timing in the trial rooms before using it against tough enemies.",
+    walkthrough: [
+      "Travel to Rookwood Castle, southwest of Hogwarts near Feldcroft (Disillusionment helps you slip past the guards).",
+      "Levitate a crate against the scratched wall and climb in; clear the enemies and loot the courtyard.",
+      "Go up to the ramparts and drop through the scaffolding into the castle.",
+      "Stand on the central platform and quickly hit the three rune switches with Basic Cast, then follow the tunnel to Charles Rookwood's portrait.",
+      "Touch the pool of ancient magic and go through the portal to start the trial.",
+      "Solve the portal puzzles by moving blocks and shooting symbols between the two realms.",
+      "Defeat the guardians that fight across both realms to finish the trial."
+    ],
     video: "https://www.youtube.com/watch?v=0e1tDb6CnXg"
   },
 {
@@ -3071,10 +3120,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Poppy Sweeting relationship progression",
-    summary:
-      "Begin Poppy Sweeting's companion questline by helping her rescue a poached beast egg and return it safely to its mother.",
-    aiTip:
-      "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
+    summary: "Poppy Sweeting wants to return the dragon egg rescued in Fire and Vice to its nest. Sneak past a fire-breathing dragon to put it back.",
+    aiTip: "The opener of Poppy's arc — clears the way for The Poacher's House Call, Surprise Meeting, The Centaur and the Stone, and It's in the Stars.",
+    walkthrough: [
+      "After A Dragon Debrief and Fire and Vice, meet Poppy at the circle in north Hogsmeade during the day.",
+      "Follow the path to the broken bridge and fix it with Reparo, fighting off the wolves on the way.",
+      "When the dragon breathes fire, duck behind the low walls and dash to the next one between blasts (Disillusionment doesn't work — it smells you).",
+      "Repair the second bridge with Reparo and cross to the nest.",
+      "Place the egg in the nest and talk to Poppy to finish; this unlocks The Poacher's House Call."
+    ],
     video: "https://www.youtube.com/watch?v=qyrF3EJMKZA"
   },
 {
@@ -3084,14 +3138,18 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Lost Astrolabe",
-    location: "Black Lake Shore",
+    location: "Dock east of Lower Hogsfield",
     length: "short",
     difficulty: "Low",
     reward: "Gil's boat use, exploration access, XP",
-    summary:
-      "Help a fisherman named Gil recover his stolen astrolabe from nesting diricawl birds near the Black Lake. A brief quest that teaches creature interaction mechanics and opens up boat travel along the lake.",
-    aiTip:
-      "Use Accio to retrieve the astrolabe from the nest rather than disturbing the birds directly. Completing this unlocks Gil's boat, which provides a faster travel route along the lakeshore.",
+    summary: "Grace Pinch-Smedley dropped a family heirloom astrolabe into the Black Lake. Dive at the choppy spots in the water to find it.",
+    aiTip: "Use Accio to retrieve the astrolabe from the nest rather than disturbing the birds directly. Completing this unlocks Gil's boat, which provides a faster travel route along the lakeshore.",
+    walkthrough: [
+      "Talk to Grace Pinch-Smedley on the dock east of Lower Hogsfield.",
+      "Swim out to the search area marked on the mini-map.",
+      "Dive at each patch of choppy white water (five spots) — the astrolabe is in the last one.",
+      "Swim back and give Grace the astrolabe to finish."
+    ],
     video: "https://www.youtube.com/watch?v=dQEkASZR7CY"
   },
 {
@@ -3105,10 +3163,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Music box puzzle treasure, rare equipment",
-    summary:
-      "Follow a set of clues involving a musical puzzle to unlock a secret treasure hidden within Clagmar Castle. The puzzle requires you to play specific musical notes in sequence using bells scattered around the area.",
-    aiTip:
-      "Write down the note sequence from the music box before approaching the bells — there's no in-game record of it. The sequence is fixed, not randomised.",
+    summary: "Follow a set of clues involving a musical puzzle to unlock a secret treasure hidden within Clagmar Castle. The puzzle requires you to play specific musical notes in sequence using bells scattered around the area.",
+    aiTip: "Write down the note sequence from the music box before approaching the bells — there's no in-game record of it. The sequence is fixed, not randomised.",
+    walkthrough: [
+      "After Tomes and Tribulations (and once you can fly), go to Henrietta's Hideaway on Manor Cape.",
+      "Use the east stairway to reach the basement and solve the statue puzzle with Incendio (left cube) and Glacius (right cube).",
+      "Break the magical wall with Arresto Momentum and take the Musical Map from the hidden room.",
+      "Fly to Clagmar Castle in the southeast and fight off the Ashwinders there (level 27+).",
+      "In the west part of the castle, strike the nine bells in the order shown on the map.",
+      "Open the chest that appears to your left."
+    ],
     video: "https://www.youtube.com/watch?v=fftOxQH9tAE"
   },
 {
@@ -3116,16 +3180,21 @@ const quests = [
     type: "side",
     category: "Side Quest",
     game: "Hogwarts Legacy",
-    region: "Hogsmeade",
+    region: "Hogwarts",
     title: "Flying off the Shelves",
-    location: "Hogsmeade",
+    location: "Hogwarts Library",
     length: "short",
     difficulty: "Low",
     reward: "Wingardium Leviosa spell, early game utility",
-    summary:
-      "Help the owner of Tomes and Scrolls recover books that have flown off the shelves using a levitation charm. This short quest teaches Wingardium Leviosa, an essential spell for environmental puzzles throughout the game.",
-    aiTip:
-      "Wingardium Leviosa is used constantly for puzzles and combat. Unlock it early and experiment with levitating different objects in the environment — some hide secrets.",
+    summary: "Gryffindor Cressida Blume needs five library books that have flown off the shelves. Track them down with Revelio and catch them with Accio.",
+    aiTip: "Wingardium Leviosa is used constantly for puzzles and combat. Unlock it early and experiment with levitating different objects in the environment — some hide secrets.",
+    walkthrough: [
+      "After the Charms and Defence Against the Dark Arts classes, talk to Cressida Blume in the Central Hall.",
+      "Go down the short steps into the library.",
+      "Cast Revelio to see the books glowing blue through the shelves and follow their golden trails.",
+      "Catch each of the five books with Accio — check both floors; the diary moves between them.",
+      "Return to Cressida and choose your reward."
+    ],
     video: "https://www.youtube.com/watch?v=X_3qK9gvHoY"
   },
 {
@@ -3139,10 +3208,14 @@ const quests = [
     length: "long",
     difficulty: "Low",
     reward: "Cosmetic gear sets, unique outfit unlocks",
-    summary:
-      "Locate and complete all astronomy table challenges scattered across the Hogwarts grounds and surrounding region. Each challenge requires visiting a specific location at the right time and completing a star-charting mini-game.",
-    aiTip:
-      "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
+    summary: "Locate and complete all astronomy table challenges scattered across the Hogwarts grounds and surrounding region. Each challenge requires visiting a specific location at the right time and completing a star-charting mini-game.",
+    aiTip: "Astronomy tables can only be used at night — use the wait mechanic if it's daytime. Completing all tables in a region unlocks a unique cosmetic set not available elsewhere.",
+    walkthrough: [
+      "Complete the Astronomy Class main quest to unlock the tables.",
+      "Set the time to night (map menu) and travel to a table marked on the map.",
+      "Interact with the table and move, rotate and zoom the constellation outline until it lines up with the faint stars.",
+      "Once it snaps into place, repeat at the remaining tables across Hogwarts and the Highlands."
+    ],
     video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
   },
 {
@@ -10005,10 +10078,16 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Wand, ancient magic revealed",
-    summary:
-      "A late arrival to Hogwarts, your fifth-year student survives a dragon attack and discovers a gift for ancient magic.",
-    aiTip:
-      "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
+    summary: "A late arrival to Hogwarts, your fifth-year student survives a dragon attack and discovers a gift for ancient magic.",
+    aiTip: "The prologue teaches core spells and reveals your connection to ancient magic — the game's central mystery.",
+    walkthrough: [
+      "Ride the carriage with Professor Fig until the dragon attacks.",
+      "Heal after the fall, then follow Fig through the cave, learning Basic Cast to break the enchantment.",
+      "Cross the bridge Fig repairs and explore the ruins, using Revelio to find the mural and statue.",
+      "Go through the portal into Gringotts, wake the goblin and ride the cart to Vault 12.",
+      "Pass the Keepers' trials in the catacombs, learning Lumos and Protego.",
+      "Fight your way out and escape to Hogwarts."
+    ],
     video: "https://www.youtube.com/watch?v=4j81ThxRkWQ"
   },
 {
@@ -10022,10 +10101,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Sorting, common room, first classes",
-    summary:
-      "Get sorted, meet Professor Fig and your housemates, and settle into castle life.",
-    aiTip:
-      "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
+    summary: "Get sorted, meet Professor Fig and your housemates, and settle into castle life.",
+    aiTip: "Your house choice is cosmetic-plus — it changes your common room and a few exclusive quests.",
+    walkthrough: [
+      "Answer the Sorting Hat's questions and choose your house.",
+      "Next morning, talk to your housemates in the common room.",
+      "Meet Professor Weasley, collect the Wizard's Field Guide and use Revelio on the painting for a Field Guide page.",
+      "Follow Weasley to unlock your first Floo Flame, then go to the Central Hall.",
+      "Talk to Professors Weasley and Fig at the fountain to open Charms and Defence Against the Dark Arts classes."
+    ],
     video: "https://www.youtube.com/watch?v=FQLqJ0qIid4"
   },
 {
@@ -10039,10 +10123,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Pensieve vault, story deepens",
-    summary:
-      "Professor Fig and your student delve into a locket's memories tied to the goblin rebellion.",
-    aiTip:
-      "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
+    summary: "Professor Fig and your student delve into a locket's memories tied to the goblin rebellion.",
+    aiTip: "Pay attention to the memories — they set up the Rackham trials and the Keepers' storyline.",
+    walkthrough: [
+      "Read Professor Fig's letter in the Owl Post.",
+      "Follow the Charmed Compass trail (or Floo) to Fig's office.",
+      "Talk to Fig about Hogsmeade, Ranrok and Rookwood — he reveals the map pointing to the Restricted Section.",
+      "Fig sends you to Professor Hecat first, unlocking her Assignment 1."
+    ],
     video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
   },
 {
@@ -10056,10 +10144,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Ancient magic training, map chamber",
-    summary:
-      "Enter the first Keeper's trial to learn the truth about ancient magic and the wizard Isidora.",
-    aiTip:
-      "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
+    summary: "Enter the first Keeper's trial to learn the truth about ancient magic and the wizard Isidora.",
+    aiTip: "These trials are puzzle dungeons — use Revelio liberally and learn the new spells they grant.",
+    walkthrough: [
+      "After The Map Chamber, fly to Percival Rackham's tower in North Ford Bog.",
+      "Sneak through the goblin camp with Disillusionment and Petrificus Totalus; read the note in the tent by the cliff.",
+      "Talk to Percival Rackham's portrait a few floors up, then touch the ancient magic on the ground floor to enter the trial.",
+      "Ride the moving platforms, using Accio on the anchor points to pull yourself across.",
+      "Fight through the enemy rooms and reach the Pensieve to view Rackham's memory."
+    ],
     video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
   },
 {
@@ -10073,10 +10166,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Map upgrade, treasure lead",
-    summary:
-      "Follow the ghost of the student Richard Jackdaw to unlock hidden passages beneath the castle.",
-    aiTip:
-      "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
+    summary: "Follow the ghost of the student Richard Jackdaw to unlock hidden passages beneath the castle.",
+    aiTip: "A stealth-and-puzzle chapter; the map upgrade it grants is worth the detour.",
+    walkthrough: [
+      "After learning Expelliarmus, meet Richard Jackdaw's ghost at night by the large tree at the edge of the Forbidden Forest.",
+      "Follow him until he's too scared, then continue to the cave and whisper the password into the basin.",
+      "In Jackdaw's Tomb, hit the door symbols with Basic Cast and ride the platform you pull with Accio.",
+      "Fight off the spiders on the way.",
+      "Cross the bridge to Jackdaw's body and loot the missing Field Guide pages."
+    ],
     video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
   },
 {
@@ -10090,10 +10188,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Poppy arc, poached beasts freed",
-    summary:
-      "Storm a poacher stronghold with Poppy Sweeting to rescue captured magical beasts.",
-    aiTip:
-      "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
+    summary: "Natty and you infiltrate Falbarton Castle at night, the poachers' and Rookwood's stronghold, to free Highwing the hippogriff.",
+    aiTip: "Combat-heavy — stock up on potions and learn to break poacher shields with the right spells.",
+    walkthrough: [
+      "Meet Natsai Onai at Falbarton Castle, east of Hogsmeade, at night.",
+      "Climb the battlements: scale the right-hand wall and use the wooden scaffolding by the rubble (Depulso the crate down the hole).",
+      "In the gatehouse, Depulso the wheel to raise the portcullis and open the main gate.",
+      "Clear the courtyard and sneak through the keep, taking out guards with Disillusionment and Petrificus Totalus.",
+      "Reach the roof, free Highwing and fly away to finish."
+    ],
     video: "https://www.youtube.com/watch?v=uZDZGlnwAms"
   },
 {
@@ -10107,10 +10210,13 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Natty arc, poacher intel",
-    summary:
-      "Team with Natsai Onai to investigate the poachers and dark wizard Victor Rookwood.",
-    aiTip:
-      "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
+    summary: "Team with Natsai Onai to investigate the poachers and dark wizard Victor Rookwood.",
+    aiTip: "Kicks off Natty's questline — her investigations tie into the main poacher threat.",
+    walkthrough: [
+      "After Secrets of the Restricted Section, follow the Charmed Compass to Lower Hogsfield, south of Hogwarts.",
+      "Talk to Natsai 'Natty' Onai and pick your dialogue choices.",
+      "When the conversation ends, a cry from the lake camp starts Trials of Merlin."
+    ],
     video: "https://www.youtube.com/watch?v=WWyPUH35RQU"
   },
 {
@@ -10124,10 +10230,16 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Second Keeper trial, ancient magic",
-    summary:
-      "Solve the second Keeper's trial to gather more of the ancient magic that Ranrok covets.",
-    aiTip:
-      "Another puzzle dungeon — the new abilities carry into combat and exploration.",
+    summary: "Solve the second Keeper's trial to gather more of the ancient magic that Ranrok covets.",
+    aiTip: "Another puzzle dungeon — the new abilities carry into combat and exploration.",
+    walkthrough: [
+      "Finish The Polyjuice Plot to get the Headmaster's office password.",
+      "Talk to Niamh Fitzgerald's portrait at the Headmaster's desk to enter her trial.",
+      "Sneak through the hand-drawn town under automatic Disillusionment, moving when the enemies look away.",
+      "Grab the Mysterious Cloak and later the Mysterious Wand, using Bombarda on rubble.",
+      "Survive Death's waves of enemies, including trolls (bring potions and plants).",
+      "Take the Mysterious Stone, wake Niamh's body and follow her to the Pensieve."
+    ],
     video: "https://www.youtube.com/watch?v=QlkMzEO2NgQ"
   },
 {
@@ -10141,27 +10253,38 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Third Keeper trial, mount unlock",
-    summary:
-      "Brave San Bakar's trial high in the mountains, unlocking new traversal and ancient power.",
-    aiTip:
-      "Rewards flight/mount access to remote areas — a big exploration upgrade.",
+    summary: "Brave San Bakar's trial high in the mountains, unlocking new traversal and ancient power.",
+    aiTip: "Rewards flight/mount access to remote areas — a big exploration upgrade.",
+    walkthrough: [
+      "After Lodgok's Loyalty (level 24), talk to the Keepers in the Map Chamber.",
+      "Travel to Cragcroftshire, east of Bainburgh, and find Professor Fig at the end of the mountain cleft.",
+      "Burn the vine-covered wall to the northeast with Incendio.",
+      "Defeat the Graphorn 'Lord of the Shore', then choose Kneel to ride it.",
+      "Ride it to the Pensieve chamber and have it stand on the pressure plate.",
+      "View the memory, then return to the Map Chamber and talk to the Keepers."
+    ],
     video: "https://www.youtube.com/watch?v=GrjwUFX970M"
   },
 {
     id: 498,
-    type: "main",
-    category: "Main Story",
+    type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Highlands",
+    region: "Feldcroft",
     title: "In the Shadow of the Relic",
-    location: "Hogwarts / Highlands",
+    location: "Feldcroft Catacombs",
     length: "long",
     difficulty: "High",
     reward: "Sebastian climax, dark choice",
-    summary:
-      "Sebastian's pursuit of dark magic reaches a breaking point, forcing a hard choice about the Unforgivable Curses.",
-    aiTip:
-      "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
+    summary: "Sebastian's search for a cure leads into the Feldcroft catacomb and a confrontation with his uncle, Solomon Sallow — the turning point of his story.",
+    aiTip: "This arc lets you learn all three Unforgivable Curses; your choices shape Sebastian's fate.",
+    walkthrough: [
+      "After In the Shadow of Hope (level 28+), pick up the quest in Feldcroft.",
+      "Enter the catacomb and fight through the Inferi (fire spells work well).",
+      "Build the bone staircase: pull the bone plates with Accio, then levitate them into the middle with Wingardium Leviosa.",
+      "Talk to Sebastian on the ledge, then deplete Solomon Sallow's health in the boss fight.",
+      "Choose whether to learn Avada Kedavra as the quest ends."
+    ],
     video: "https://www.youtube.com/watch?v=Cg_nMdHsuNo"
   },
 {
@@ -10175,10 +10298,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Finale, Ranrok defeated",
-    summary:
-      "The climactic battle against the goblin leader Ranrok and the hoard of contained ancient magic.",
-    aiTip:
-      "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
+    summary: "The climactic battle against the goblin leader Ranrok and the hoard of contained ancient magic.",
+    aiTip: "The multi-phase Ranrok fight is the game's toughest — bring your best gear and Ancient Magic charged.",
+    walkthrough: [
+      "After Wand Mastery, stock up on Wiggenweld Potions and talk to Fig and the Keepers.",
+      "Fight through the goblins, trolls and Pensieve Guardians on the way to the Repository.",
+      "Choose whether to keep the Repository's magic contained or use it (changes only this cutscene).",
+      "Fight Ranrok's dragon form: hit the coloured orbs with the matching spell colour to make him vulnerable.",
+      "Stand well back when he charges his half-arena blast; repeat until all three health segments are gone."
+    ],
     video: "https://www.youtube.com/watch?v=hue4Z_G2ttA"
   },
 {
@@ -10186,16 +10314,19 @@ const quests = [
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of the Bloodline (Sebastian)",
-    location: "Feldcroft",
+    location: "Great Hall, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship, Slytherin lore",
-    summary:
-      "Help Sebastian search for a cure for his cursed twin sister, Anne.",
-    aiTip:
-      "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
+    summary: "A short talk in the castle: after an argument with Ominis, Sebastian opens up about the Dark Arts and his search for a cure for his sister Anne.",
+    aiTip: "The emotional core of Sebastian's arc — his desperation drives the darker choices ahead.",
+    walkthrough: [
+      "After Sebastian's earlier quests, wait for his owl and go to the Great Hall.",
+      "Head up the stairs and wait for Sebastian and Ominis to finish arguing.",
+      "Talk to Sebastian about the Dark Arts — this unlocks In the Shadow of the Study."
+    ],
     video: "https://www.youtube.com/watch?v=sH99VVGDdUg"
   },
 {
@@ -10209,10 +10340,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Unforgivable Curses, arc finale",
-    summary:
-      "Sebastian's quest for forbidden power culminates in tragedy and a choice about loyalty.",
-    aiTip:
-      "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
+    summary: "Sebastian leads you into a Feldcroft catacomb to find a relic that could cure Anne. Learn Imperio, then hurry back to defend Feldcroft from Ranrok's loyalists.",
+    aiTip: "Completing his line unlocks all Unforgivable Curses; decide whether to report him to Professor Weasley.",
+    walkthrough: [
+      "After In the Shadow of Discovery and Fire and Vice (level 17), read Sebastian's letter and meet him in Feldcroft.",
+      "Enter the catacomb, read the note by the altar and show it to Sebastian.",
+      "Clear the barricade by levitating the bone piles to it (Accio the last pile, left of the altar).",
+      "Learn Imperio from Sebastian in the next room.",
+      "Return to Feldcroft, drive off the Ranrok loyalists and talk to Solomon Sallow."
+    ],
     video: "https://www.youtube.com/watch?v=5T4pefO394w"
   },
 {
@@ -10222,14 +10358,20 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Lost Child (Natty)",
-    location: "Hogwarts Highlands",
+    location: "Lower Hogsfield",
     length: "medium",
     difficulty: "Medium",
     reward: "Natty relationship, poacher raid",
-    summary:
-      "Join Natty to rescue a child abducted by poachers and gather intel on Rookwood.",
-    aiTip:
-      "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
+    summary: "Natty's first relationship quest: Mrs. Bickle's son Archie has been taken. Track him to an Ashwinder camp and beat Catrin Haggarty to free him.",
+    aiTip: "A strong companion quest — Natty's investigative arc pays off in the main poacher storyline.",
+    walkthrough: [
+      "After Astronomy Class, answer Natty's owl and meet her by the Lower Hogsfield Floo Flame during the day.",
+      "Talk to Johanna Bickle — her husband was killed and her son Archie is missing.",
+      "Run south with Natty (no broom) and cast Revelio near Archie's hideout to follow his footprints, recasting as they fade.",
+      "Fight the wolves, then clear the Ashwinder camp.",
+      "Enter the charmed tent and defeat Catrin Haggarty.",
+      "Free Archie from the cage downstairs with Alohomora, then talk to Mrs. Bickle."
+    ],
     video: "https://www.youtube.com/watch?v=M2Lh1rCW__I"
   },
 {
@@ -10237,16 +10379,19 @@ const quests = [
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Highlands",
+    region: "Hogwarts",
     title: "Grief and Vengeance (Natty)",
-    location: "Hogwarts Highlands",
+    location: "Great Hall, Hogwarts",
     length: "long",
     difficulty: "High",
     reward: "Natty arc finale, Rookwood blow",
-    summary:
-      "The conclusion of Natty's hunt for the poachers and the man who hurt her family.",
-    aiTip:
-      "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
+    summary: "A short check-in after A Basis for Blackmail: Natty talks about your last adventure and how she's coping.",
+    aiTip: "Combat-heavy finale to her arc — a satisfying capstone with unique dialogue.",
+    walkthrough: [
+      "After A Basis for Blackmail, wait (map menu) until Natty's owl arrives.",
+      "Go to the Great Hall and find Natty by the fireplace.",
+      "Talk to her to finish; wait nearby to trigger the owl for Finding Focus."
+    ],
     video: "https://www.youtube.com/watch?v=8qowtCnPfDw"
   },
 {
@@ -10256,14 +10401,17 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Surprise Meeting (Poppy)",
-    location: "Hogwarts Highlands",
+    location: "Forbidden Forest",
     length: "medium",
     difficulty: "Medium",
     reward: "Poppy relationship progression",
-    summary:
-      "Meet Poppy Sweeting for a planned outing that takes an unexpected turn, deepening your friendship as her questline continues.",
-    aiTip:
-      "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
+    summary: "Poppy has gone deep into the Forbidden Forest to warn the centaurs that poachers are after the Golden Snidgets. Meet her there.",
+    aiTip: "Falls mid-way through Poppy's arc, between The Poacher's House Call and The Centaur and the Stone.",
+    walkthrough: [
+      "Finish The Poacher's House Call.",
+      "Travel to the centre of the Forbidden Forest and find Poppy.",
+      "Talk to her and watch the cutscene with the centaurs — this unlocks The Centaur and the Stone."
+    ],
     video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
   },
 {
@@ -10277,10 +10425,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Ranrok's plans revealed, story progress",
-    summary:
-      "Enlist the Gobbledegook-reading Ravenclaw Amit Thakkar to translate a captured goblin manuscript and uncover Ranrok's plans. (Amit is the one companion with no personal relationship questline — this is a main-story quest.)",
-    aiTip:
-      "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
+    summary: "Enlist the Gobbledegook-reading Ravenclaw Amit Thakkar to translate a captured goblin manuscript and uncover Ranrok's plans. (Amit is the one companion with no personal relationship questline — this is a main-story quest.)",
+    aiTip: "A story quest, not a romance beat; it leads directly into In the Shadow of the Mine.",
+    walkthrough: [
+      "Talk to Amit Thakkar at the top of the Astronomy Tower.",
+      "Travel to Lodgok at the Mine's Eye.",
+      "Enter the mine with Disillusionment and relight the furnaces by casting Confringo on their wood piles.",
+      "Burn the logs by the machinery with Incendio to open the lift.",
+      "Pull the floating platform with Accio, then Accio the hook to cross; defeat the goblins at the eye door.",
+      "Find the drill schematics at the end of the mine and show them to Lodgok on the surface."
+    ],
     video: "https://www.youtube.com/watch?v=4EVxcKhIWmY"
   },
 {
@@ -10288,16 +10442,21 @@ const quests = [
     type: "side",
     category: "Side Quest",
     game: "Hogwarts Legacy",
-    region: "Hogsmeade",
+    region: "Highlands",
     title: "Well, Well, Well",
-    location: "Hogsmeade",
+    location: "Southeast of Aranshire (South Hogwarts Region)",
     length: "short",
     difficulty: "Low",
     reward: "Coin, mystery solved",
-    summary:
-      "Investigate the strange magical wells scattered around the Hogwarts region for a curious researcher.",
-    aiTip:
-      "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
+    summary: "A talking well southeast of Aranshire hands you a treasure map that leads to a single tree in ruins south of Irondale.",
+    aiTip: "Use Revelio to spot the wells; a light puzzle quest with a tidy payout.",
+    walkthrough: [
+      "Find the talking well southeast of Aranshire and let it finish talking.",
+      "Interact with it to receive the treasure map (reload the area if the well won't respond).",
+      "Fly south from Irondale across the canyon to the ruins.",
+      "Cast Levioso on the lone tree to lift it.",
+      "Open the chest under its roots to finish."
+    ],
     video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
   },
 {
@@ -10311,10 +10470,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Your own Hogsmeade shop",
-    summary:
-      "Take over an abandoned Hogsmeade shop and turn it into your personal storefront.",
-    aiTip:
-      "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
+    summary: "Take over an abandoned Hogsmeade shop and turn it into your personal storefront.",
+    aiTip: "Unlocks a shop you can stock and profit from — a nice gold sink and side income.",
+    walkthrough: [
+      "After Fire and Vice (level 25), talk to Penny outside the vacant shop near the South Hogsmeade Floo Flame.",
+      "Buy the shop from Cassandra Mason for 1,500 Galleons.",
+      "Cast Reparo three times to fix up the shop, then open the chest in the back room.",
+      "In the haunted section, explore both the library (left) and the atrium (right) to open the barricaded door.",
+      "Carry lanterns to the pedestals — use Wingardium Leviosa to fetch one across the gap and set it on the hand statue.",
+      "Confront the ghost at the end to finish; check the cellar's dead end for the Elf-Sized Hat chest."
+    ],
     video: "https://www.youtube.com/watch?v=uJoQQhDUIE4"
   },
 {
@@ -10328,10 +10493,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "House-token rewards, cosmetics",
-    summary:
-      "Chase the flying Daedalian Keys through the castle to unlock a rewarding chest hoard.",
-    aiTip:
-      "There are 16 keys — catch each one, then find its matching moving door for the loot.",
+    summary: "Chase the flying Daedalian Keys through the castle to unlock a rewarding chest hoard.",
+    aiTip: "There are 16 keys — catch each one, then find its matching moving door for the loot.",
+    walkthrough: [
+      "Talk to Nellie Oggspire in the Transfiguration Courtyard to start.",
+      "Climb the Astronomy Tower and catch the first flying key near the cabinet in the Astronomy Classroom.",
+      "Hit the key with Basic Cast as it passes over the keyhole to open the cabinet and take the house token.",
+      "Find the other cabinets around the castle (some are behind Alohomora locks) and repeat.",
+      "Place all 16 tokens in the house chest in your common room for your house's Relic uniform."
+    ],
     video: "https://www.youtube.com/watch?v=lwgsiMEle20"
   },
 {
@@ -10358,14 +10528,20 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "The Tale of Rowland Oakes",
-    location: "Feldcroft Region",
+    location: "Transfiguration Courtyard → Korrow Ruins",
     length: "medium",
     difficulty: "Medium",
     reward: "Missing-person mystery, gear",
-    summary:
-      "Track down the missing explorer Rowland Oakes across dangerous ruins and caves.",
-    aiTip:
-      "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
+    summary: "Track down the missing explorer Rowland Oakes across dangerous ruins and caves.",
+    aiTip: "A multi-step exploration quest — bring healing for the guardian and beast encounters.",
+    walkthrough: [
+      "After The Helm of Urtkot (level 10), talk to Adelaide Oakes in the Transfiguration Courtyard.",
+      "Go to her uncle's campsite by the Forbidden Forest and defeat the goblins occupying it.",
+      "Pick up Rowland's journal and map — the route isn't marked, so read the map yourself.",
+      "Follow the river west to the Korrow Ruins and find Rowland locked in a cell.",
+      "Double back to the round metal door, light the boiler with Incendio to open it, and grab his wand from the room on the right.",
+      "Return the wand to Rowland to finish."
+    ],
     video: "https://www.youtube.com/watch?v=olE0hw0uXz0"
   },
 {
@@ -10375,14 +10551,19 @@ const quests = [
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Prisoner of Love",
-    location: "Hogwarts Highlands",
+    location: "Hufflepuff Common Room / Upper Hogsfield / Azkaban",
     length: "short",
     difficulty: "Low",
     reward: "Comic side story, coin",
-    summary:
-      "Help a lovestruck ghost reconnect with a lost sweetheart in a bittersweet, funny detour.",
-    aiTip:
-      "Low stakes and charming — a good break between combat-heavy quests.",
+    summary: "Hufflepuff house quest: the portrait of Eldritch Diggory asks for help with a decades-old mystery, which leads to Helen Thistlewood and a trip into Azkaban.",
+    aiTip: "Low stakes and charming — a good break between combat-heavy quests.",
+    walkthrough: [
+      "After Trials of Merlin and Potions Class, read Lenora Everleigh's owl (Hufflepuff only).",
+      "Talk to Eldritch Diggory's portrait in the Hufflepuff Common Room.",
+      "Meet his great-niece Helen Thistlewood in Upper Hogsfield, northeast of Hogsmeade, and choose \"I'm ready to go\" to travel to Azkaban.",
+      "In the vault, stand on the central platform, use Revelio to see which handles to pull and pull them with Accio.",
+      "Take the letter from the room that opens, leave the vault and talk to Jackdaw's ghost."
+    ],
     video: "https://www.youtube.com/watch?v=lSZ8-En-TQg"
   },
 {
@@ -10396,10 +10577,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Gear inventory upgrades",
-    summary:
-      "Solve the environmental Merlin Trials scattered across the Highlands to expand your gear capacity.",
-    aiTip:
-      "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
+    summary: "Solve the environmental Merlin Trials scattered across the Highlands to expand your gear capacity.",
+    aiTip: "More gear slots = keep more loot. Buy Mallowsweet leaves in Hogsmeade to activate each trial.",
+    walkthrough: [
+      "Complete the Trials of Merlin main quest with Nora Treadwell.",
+      "Stock up on Mallowsweet leaves (grow them in the Room of Requirement or buy seeds at The Magic Neep).",
+      "Find a Merlin Trial stone, place Mallowsweet on it and read the puzzle type (cast Revelio if nothing shows).",
+      "Solve it with the matching spell: light braziers with Incendio, Accio stone orbs onto discs, destroy spheres with Confringo/Bombarda, guide moths with Lumos, or cross the stepping stones.",
+      "Each completed trial raises your gear inventory limit."
+    ],
     video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
   },
 {
@@ -10413,10 +10599,15 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Field guide completion, house points",
-    summary:
-      "Collect the hidden Field Guide Pages using Revelio and the Flying-page chases.",
-    aiTip:
-      "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
+    summary: "Collect the hidden Field Guide Pages using Revelio and the Flying-page chases.",
+    aiTip: "Great for learning castle geography early — many are tucked behind Alohomora-locked doors.",
+    walkthrough: [
+      "Walk around until you hear a faint chime and see a shimmer, then cast Revelio to reveal a page.",
+      "Interact with the revealed page to add it to the Field Guide.",
+      "Catch Flying Pages drifting through the air with Accio.",
+      "Use Lumos to guide the moths back into moth paintings for Mirror pages.",
+      "Track progress in the Collection menu, area by area."
+    ],
     video: "https://www.youtube.com/watch?v=XtS7xAM2MaQ"
   },
 {
@@ -10430,10 +10621,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Alohomora upgrades (higher lock tiers)",
-    summary:
-      "Recover the elusive Demiguise Statues at night for Gladwin Moon to upgrade your Alohomora spell.",
-    aiTip:
-      "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
+    summary: "Recover the elusive Demiguise Statues at night for Gladwin Moon to upgrade your Alohomora spell.",
+    aiTip: "Only appear at night — upgrading Alohomora unlocks Level 2 and 3 locked doors full of loot.",
+    walkthrough: [
+      "Finish The Caretaker's Lunar Lament — it gives you the first three Demiguise statues.",
+      "Set the time to night (statues can only be collected at night).",
+      "Use the map to reach statue locations in Hogwarts, Hogsmeade and the Highlands.",
+      "Collect 9 moons and bring them to Gladwin Moon for Alohomora level 2 (via The Man Behind the Moons).",
+      "Collect 13 more for Alohomora level 3, opening the rest of the locked doors and statues."
+    ],
     video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
   },
 {
@@ -10472,10 +10668,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "medium",
     difficulty: "Low",
     reward: "Crafting, beast breeding, gear upgrades",
-    summary:
-      "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
-    aiTip:
-      "Central to progression — breed beasts for Traits that upgrade your gear's power.",
+    summary: "Build out your Room of Requirement to craft potions/plants and rescue beasts into magical vivariums.",
+    aiTip: "Central to progression — breed beasts for Traits that upgrade your gear's power.",
+    walkthrough: [
+      "Unlock the Room of Requirement through the main quest with Professor Weasley and Deek.",
+      "Use the Conjuring spell to place potting tables and potion stations, and decorate with Evanesco and Altering.",
+      "Grow ingredients (Mallowsweet, Mandrakes, Chinese Chomping Cabbage) and brew potions.",
+      "Rescue beasts with the Nab-Sack and house them in the Vivarium; feed and brush them for materials.",
+      "Use the materials at the Enchanted Loom to upgrade your gear."
+    ],
     video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
   },
 {
@@ -14537,10 +14738,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Accio spell, class progression",
-    summary:
-      "Attend Professor Ronen's Charms lesson and learn the summoning charm Accio.",
-    aiTip:
-      "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
+    summary: "Attend Professor Ronen's Charms lesson and learn the summoning charm Accio.",
+    aiTip: "Class quests teach core spells — Accio is essential for puzzles and combat combos.",
+    walkthrough: [
+      "After Welcome to Hogwarts, follow the golden thread to the Charms Classroom in the Astronomy Tower and start the class.",
+      "Learn Accio from Professor Ronen.",
+      "Pull the balls toward you, releasing as each one enters the green panel for the most points.",
+      "Time your pulls around the moving cubes in round two.",
+      "Talk to Ronen by the blackboard to finish and open his assignment."
+    ],
     video: "https://www.youtube.com/watch?v=C3BYlUF7S4A"
   },
 {
@@ -14554,10 +14760,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Levioso spell, combat basics",
-    summary:
-      "Learn the levitation spell Levioso in Professor Hecat's DADA lesson.",
-    aiTip:
-      "Levioso suspends enemies — a key combat opener you'll use constantly.",
+    summary: "Learn the levitation spell Levioso in Professor Hecat's DADA lesson.",
+    aiTip: "Levioso suspends enemies — a key combat opener you'll use constantly.",
+    walkthrough: [
+      "Follow the golden thread to the DADA classroom in the Astronomy Tower and start the class.",
+      "Trace the Levioso rune before the red line catches you to learn the spell.",
+      "On the dummy: Basic Cast, Levioso, then Basic Cast again (yellow spells break yellow shields).",
+      "Duel Sebastian — Levioso to break his shield, Basic Cast to wear him down, Protego when prompted.",
+      "Talk to Sebastian at the back of the room to finish."
+    ],
     video: "https://www.youtube.com/watch?v=isCGCWNLuJo"
   },
 {
@@ -14571,10 +14782,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Potion brewing, Edurus",
-    summary:
-      "Brew your first potions with Professor Sharp and unlock the Potions station.",
-    aiTip:
-      "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
+    summary: "Brew your first potions with Professor Sharp and unlock the Potions station.",
+    aiTip: "Stock Wiggenweld and Edurus before tough fights — brewing is cheaper than buying.",
+    walkthrough: [
+      "Go to the Potions Classroom in the Library Annex during the day and start the class.",
+      "Follow Professor Sharp's instructions at your potions station to brew a Maxima Potion.",
+      "Talk with your classmates and Sharp after the lesson.",
+      "Finishing unlocks the Potion Station for the Room of Requirement and Professor Sharp's Assignment 1."
+    ],
     video: "https://www.youtube.com/watch?v=A7EKUPK6-Po"
   },
 {
@@ -14588,10 +14803,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Broom unlocked, fast travel",
-    summary:
-      "Master broom flight with Madam Kogawa, unlocking the skies over the Highlands.",
-    aiTip:
-      "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
+    summary: "Master broom flight with Madam Kogawa, unlocking the skies over the Highlands.",
+    aiTip: "The broom transforms exploration — buy upgrades from Spintwitches when you can.",
+    walkthrough: [
+      "After Jackdaw's Rest, fast-travel near the Bell Tower Courtyard and go to the Flying Class lawn.",
+      "Summon your broom and follow Madam Kogawa's instructions to take off.",
+      "Fly through the rings around the school grounds.",
+      "Land and finish the lesson — you must return the school broom, so buy your own in Hogsmeade (Spintwitches) to keep flying."
+    ],
     video: "https://www.youtube.com/watch?v=9MREmSZDN6M"
   },
 {
@@ -14605,10 +14824,16 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "medium",
     difficulty: "Medium",
     reward: "Nighttime infiltration, story clue",
-    summary:
-      "Sneak into the library's Restricted Section with Sebastian to chase forbidden knowledge.",
-    aiTip:
-      "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
+    summary: "Sneak into the library's Restricted Section with Sebastian to chase forbidden knowledge.",
+    aiTip: "A stealth chapter — use Disillusionment and stay out of the librarian's sight.",
+    walkthrough: [
+      "After Professor Hecat's Assignment 1 (level 3), talk to Sebastian Sallow.",
+      "Learn Disillusionment as the game skips to night.",
+      "Sneak past the patrolling prefects in the library while invisible.",
+      "Wait for Sebastian's distraction, grab the Library Key from the desk and open the Restricted Section.",
+      "Sneak past the two ghosts on the floor below (use the suit of armour as a distraction).",
+      "Go through the portal to the hidden antechamber and fight the Pensieve Paladins."
+    ],
     video: "https://www.youtube.com/watch?v=2ClxjV7kCp8"
   },
 {
@@ -14622,10 +14847,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "long",
     difficulty: "Medium",
     reward: "Keepers' map, ancient magic hub",
-    summary:
-      "Unlock the hidden Map Chamber and the Keepers' guidance beneath the school.",
-    aiTip:
-      "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
+    summary: "Unlock the hidden Map Chamber and the Keepers' guidance beneath the school.",
+    aiTip: "Central to the main story — it gates the Keeper trials and ancient magic reveals.",
+    walkthrough: [
+      "After The Room of Requirement (level 10), meet Professor Fig in his office in the Astronomy Wing.",
+      "Follow him down the spiral stairs to the Map Chamber.",
+      "Watch the cutscene and talk to Professor Rackham's portrait.",
+      "Rackham sends you to his first trial in a tower in North Ford Bog — this unlocks Percival Rackham's Trial."
+    ],
     video: "https://www.youtube.com/watch?v=p5CTz7oNuDE"
   },
 {
@@ -14639,10 +14868,16 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "medium",
     difficulty: "Medium",
     reward: "Goblin lore, region unlocked",
-    summary:
-      "Help the goblin Lodgok recover a stolen ceremonial helm, deepening the Ranrok conflict.",
-    aiTip:
-      "An early Highlands quest that opens up exploration and goblin-plot context.",
+    summary: "Help the goblin Lodgok recover a stolen ceremonial helm, deepening the Ranrok conflict.",
+    aiTip: "An early Highlands quest that opens up exploration and goblin-plot context.",
+    walkthrough: [
+      "Talk to Sirona in the Three Broomsticks, then find Lodgok at the Hog's Head Inn.",
+      "Meet Lodgok at the witch's tomb (Collector's Cave).",
+      "Open the moth doors by luring moths with Lumos; on the rising platform, guide a moth to the rotating mechanism and hit it with Depulso.",
+      "Discover the tomb has already been looted and head to the thieves' camp Lodgok points out.",
+      "Defeat the troll and Ashwinders, then take the helm from the chest in one of the tents.",
+      "Return the Helm of Urtkot to Lodgok."
+    ],
     video: "https://www.youtube.com/watch?v=ATRG5YtogNQ"
   },
 {
@@ -14650,33 +14885,43 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "main",
     category: "Main Story",
     game: "Hogwarts Legacy",
-    region: "Hogsmeade",
+    region: "Highlands",
     title: "Fire and Vice",
-    location: "Hogsmeade",
+    location: "North Ford Bog / Horntail Hall",
     length: "medium",
     difficulty: "Medium",
     reward: "Ashwinder plot, region intel",
-    summary:
-      "Investigate the Ashwinder gang's arson and extortion around Hogsmeade.",
-    aiTip:
-      "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
+    summary: "Poppy Sweeting has tracked dragon poachers in North Ford Bog. Investigate their camp, sneak into Horntail Hall and free the chained dragon.",
+    aiTip: "Ties the dark-wizard plot to Hogsmeade — expect Ashwinder combat encounters.",
+    walkthrough: [
+      "After Charles Rookwood's Trial (level 19), meet Poppy in the western North Ford Bog.",
+      "Follow her past the centaurs to the abandoned camp and cast Revelio on the blue clues.",
+      "Sneak into Horntail Hall with Disillusionment and watch the dragons fight.",
+      "Sneak on, take the dragon egg and fight the poachers — an Animagus joins the second wave (throw objects with Ancient Magic).",
+      "Pull the chained dragon's metal tether free with Accio."
+    ],
     video: "https://www.youtube.com/watch?v=0PNpg9xizUo"
   },
 {
     id: 708,
-    type: "main",
-    category: "Main Story",
+    type: "side",
+    category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of the Study (Sebastian)",
-    location: "Feldcroft",
+    location: "Slytherin Scriptorium, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Scriptorium opened, dark-magic lead",
-    summary:
-      "Delve with Sebastian into the Sallow family's cursed scriptorium for a cure for Anne.",
-    aiTip:
-      "Advances the game's darkest arc — the moral choices intensify from here.",
+    summary: "Sebastian needs a Slytherin spellbook from the hidden Scriptorium to help cure Anne. Open the serpent doors together — and decide whether to learn the Cruciatus Curse.",
+    aiTip: "Advances the game's darkest arc — the moral choices intensify from here.",
+    walkthrough: [
+      "After In the Shadow of the Bloodline (level 16), meet Sebastian.",
+      "Open the Slytherin door by lighting all three lamps with Confringo in quick succession.",
+      "Note the symbols on each locked gate and match them at the snake altars to open them.",
+      "Choose whether to learn Crucio when Sebastian offers it.",
+      "Take the Slytherin spellbook from the Scriptorium, give it to Sebastian, then talk to Ominis outside."
+    ],
     video: "https://www.youtube.com/watch?v=3HVWihCCfso"
   },
 {
@@ -14690,27 +14935,37 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Demiguise lore, cosmetic",
-    summary:
-      "Help the reclusive Gladwin Moon in the quest tied to upgrading your Alohomora.",
-    aiTip:
-      "Pairs with Demiguise Statue collection — do them together at night.",
+    summary: "Help the reclusive Gladwin Moon in the quest tied to upgrading your Alohomora.",
+    aiTip: "Pairs with Demiguise Statue collection — do them together at night.",
+    walkthrough: [
+      "Finish The Caretaker's Lunar Lament and read Gladwin Moon's letter.",
+      "Collect Demiguise moons at night from statues in the castle, Hogsmeade and the Highlands (no map icons).",
+      "Bring Gladwin 9 moons for Alohomora level 2.",
+      "Bring 13 more for Alohomora level 3.",
+      "Answer Piers Pemberton's owl, meet him near the Three Broomsticks, then talk to Gladwin to finish."
+    ],
     video: "https://www.youtube.com/watch?v=S0vvmB-he4A"
   },
 {
     id: 711,
     type: "side",
-    category: "Side Quest",
+    category: "Relationship",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "A Bird in the Hand",
-    location: "Hogwarts Highlands",
+    location: "Ruins near Brocburrow / Gilded Perch",
     length: "short",
     difficulty: "Low",
     reward: "Beast rescue, Nab-Sack",
-    summary:
-      "Rescue a hunted magical beast and learn to use the Nab-Sack from Deek.",
-    aiTip:
-      "Introduces beast-catching — the foundation for Vivarium upgrades.",
+    summary: "Poppy's last big adventure: poachers are after the Golden Snidgets. Open the moonstone door near Brocburrow and protect the Snidget Sanctuary.",
+    aiTip: "Introduces beast-catching — the foundation for Vivarium upgrades.",
+    walkthrough: [
+      "After It's in the Stars (level 27), meet Poppy and Dorran at the ruins near Brocburrow.",
+      "Clear the spiders, place the moonstone in the centre and Accio the pillars to match the lit floor symbols.",
+      "Inside, burn vines with Incendio and set cubes on the flame and ice symbols.",
+      "Defeat the poachers to open the Snidget Sanctuary doors.",
+      "Finish the Gilded Perch section and talk to Poppy; Poppy Blooms follows by owl."
+    ],
     video: "https://www.youtube.com/watch?v=SG9_r_upWac"
   },
 {
@@ -14724,10 +14979,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Hidden treasure, house lore",
-    summary:
-      "Follow a riddle to a hidden cache tucked deep within Hogwarts castle.",
-    aiTip:
-      "A light puzzle quest — Revelio and a keen eye for detail solve it.",
+    summary: "Follow a riddle to a hidden cache tucked deep within Hogwarts castle.",
+    aiTip: "A light puzzle quest — Revelio and a keen eye for detail solve it.",
+    walkthrough: [
+      "After Welcome to Hogsmeade (level 4), talk to Arthur Plummly in the Astronomy Wing near the Charms classroom.",
+      "Find the rhinoceros skeleton on the Astronomy Wing main staircase.",
+      "Go to the dragon fountain in the Transfiguration Courtyard and line it up with the map.",
+      "Take the door and climb the stairs to the painting.",
+      "Cast Accio on the painting to swing it open, open the chest and return to Arthur."
+    ],
     video: "https://www.youtube.com/watch?v=hKcns2obqjI"
   },
 {
@@ -14737,14 +14997,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "The Sky is the Limit",
-    location: "Hogsmeade",
+    location: "Spintwitches (Hogsmeade) / South Clagmar Coast",
     length: "short",
     difficulty: "Low",
     reward: "Broom upgrade, race",
-    summary:
-      "Test a souped-up broom in a high-flying challenge for Albie Weekes.",
-    aiTip:
-      "A flying-focused quest — great practice before the broom races.",
+    summary: "Test a souped-up broom in a high-flying challenge for Albie Weekes.",
+    aiTip: "A flying-focused quest — great practice before the broom races.",
+    walkthrough: [
+      "After Flight Test, Sweeping the Competition and In the Shadow of the Mine, buy the broom upgrade from Albie Weekes at Spintwitches (4,000 Galleons).",
+      "Find Imelda Reyes northeast of the South Clagmar Coast, by the water.",
+      "Fly the Coastal Broom Trial — 29 rings in under 2:42 (each missed ring adds 3 seconds); grab the boost orbs.",
+      "Talk to Imelda, then report back to Albie at Spintwitches."
+    ],
     video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
   },
 {
@@ -14758,10 +15022,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Duel prestige, minigame rewards",
-    summary:
-      "Enter the student duelling circuit (Crossed Wands) and the Summoner's Court challenges.",
-    aiTip:
-      "Great for practicing spell combos safely — the rewards feed your build.",
+    summary: "Enter the student duelling circuit (Crossed Wands) and the Summoner's Court challenges.",
+    aiTip: "Great for practicing spell combos safely — the rewards feed your build.",
+    walkthrough: [
+      "Talk to Lucan Brattleby in the Clock Tower Courtyard for Crossed Wands Round 1 — use Levioso on yellow shields.",
+      "After Hecat's Assignment 1, fight Round 2: Levioso for yellow shields, Accio for purple.",
+      "After Tomes and Tribulations, fight Round 3 with a partner — Incendio breaks red shields.",
+      "For Summoner's Court, challenge students at the courts and Accio the ball into their goal with well-timed releases."
+    ],
     video: "https://www.youtube.com/watch?v=K5B2B59pLOw"
   },
 {
@@ -14769,16 +15037,21 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "side",
     category: "Side Quest",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Highlands",
     title: "The Foal of the Dead",
-    location: "Feldcroft Region",
+    location: "North Ford Bog / Room of Requirement",
     length: "short",
     difficulty: "Medium",
     reward: "Thestral lore, beast",
-    summary:
-      "Investigate a Thestral tied to a somber Feldcroft mystery.",
-    aiTip:
-      "A quieter, eerie side quest — read the environmental clues.",
+    summary: "Deek wants to breed Thestrals. Catch a male and female Thestral in North Ford Bog, buy the breeding pen spell and raise the foal in the Vivarium.",
+    aiTip: "A quieter, eerie side quest — read the environmental clues.",
+    walkthrough: [
+      "After Charles Rookwood's Trial (level 20), talk to Deek.",
+      "Catch a male and a female Thestral in North Ford Bog with the Nab-Sack (sneak up with Disillusionment).",
+      "Buy the Breeding Pen spellcraft at Tomes and Scrolls in Hogsmeade (1,000 Galleons).",
+      "Conjure the breeding pen in the Vivarium, add both Thestrals and start breeding (30 real minutes).",
+      "Feed and brush the foal, then report back to Deek."
+    ],
     video: "https://www.youtube.com/watch?v=eXRAvLAlAjs"
   },
 {
@@ -17532,15 +17805,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Herbology Assignment I — Professor Garlick",
+    title: "Professor Garlick's Assignment 1",
     location: "Herbology Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Ancient Magic, spell knowledge",
-    summary:
-      "Grow and harvest a Mandrake, then use it against enemies as Professor Garlick asks.",
-    aiTip:
-      "Buy a Mandrake seed from the Magic Neep in Hogsmeade if you don't have one.",
+    reward: "Wingardium Leviosa, 150 XP",
+    summary: "Professor Garlick wants to see combat plants in action: use a Venomous Tentacula on an enemy and a Mandrake on several enemies at once.",
+    aiTip: "Buy both plants (or their seeds) at Dogweed and Deathcap in north Hogsmeade. Throw the Mandrake into a group so it stuns several enemies at once.",
+    walkthrough: [
+      "Unlocks during the story after Herbology Class (around In the Shadow of the Estate).",
+      "Get a Venomous Tentacula and a Mandrake — Dogweed and Deathcap in Hogsmeade sells both.",
+      "Use the Tentacula on an enemy in any fight.",
+      "Throw the Mandrake so it stuns multiple enemies at the same time.",
+      "Attend Herbology class in the greenhouse during the day and talk to Garlick to learn Wingardium Leviosa."
+    ],
     video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
   },
 {
@@ -17549,15 +17827,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Herbology Assignment II — Professor Garlick",
+    title: "Professor Garlick's Assignment 2",
     location: "Herbology Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Chinese Chomping Cabbage combat",
-    summary:
-      "Prove your mastery of offensive plants by defeating foes with Chomping Cabbages.",
-    aiTip:
-      "Equip the Chomping Cabbage to your plant slot and throw it into groups.",
+    reward: "Flipendo, 150 XP",
+    summary: "Garlick's second test: use all three combat plants in one fight, then grow and harvest a Fluxweed plant yourself.",
+    aiTip: "Fluxweed needs a large pot: buy the large Potting Table spellcraft at Tomes and Scrolls and the seed at The Magic Neep. It takes about 15 real minutes to grow.",
+    walkthrough: [
+      "Finish Assignment 1 (it unlocks around The Map Chamber).",
+      "In one fight, use a Venomous Tentacula, a Mandrake and a Chinese Chomping Cabbage at the same time.",
+      "Buy the large Potting Table spellcraft (Tomes and Scrolls) and a Fluxweed seed (The Magic Neep).",
+      "Grow the Fluxweed in the Room of Requirement and harvest it.",
+      "Talk to Professor Garlick to learn Flipendo."
+    ],
     video: "https://www.youtube.com/watch?v=U0npnqpDxYU"
   },
 {
@@ -17566,15 +17849,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Defence Against the Dark Arts Assignment I — Professor Hecat",
+    title: "Professor Hecat's Assignment 1",
     location: "DADA Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Levioso mastery",
-    summary:
-      "Hit enemies with Levioso, then combo them in the air as Hecat instructs.",
-    aiTip:
-      "Levioso first, then basic-cast while they float to chain the requirement.",
+    reward: "Incendio, 150 XP",
+    summary: "Professor Hecat wants you to practise duelling: win two rounds of Crossed Wands and complete a spell combination practice with Lucan Brattleby.",
+    aiTip: "Open each Crossed Wands duel with Levioso to strip the yellow shields, then chain Basic Casts. Protego at the last moment lets you counter-stun.",
+    walkthrough: [
+      "After The Locket's Secret (level 4), talk to Hecat in the DADA classroom.",
+      "Find Lucan Brattleby at the Clock Tower Courtyard.",
+      "Win Crossed Wands rounds 1 and 2.",
+      "Complete his spell combination practice.",
+      "Return to Hecat to learn Incendio."
+    ],
     video: "https://www.youtube.com/watch?v=4ZSWj7lf4Is"
   },
 {
@@ -17583,15 +17871,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Defence Against the Dark Arts Assignment II — Professor Hecat",
+    title: "Professor Hecat's Assignment 2",
     location: "DADA Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Stupefy counter mastery",
-    summary:
-      "Stun enemies with Stupefy after blocking their attacks.",
-    aiTip:
-      "Protego to block, then immediately Stupefy the staggered enemy.",
+    reward: "Expelliarmus, 150 XP",
+    summary: "Hecat's second assignment: dodge-roll away from 10 enemy attacks and set 5 enemies on fire with Incendio.",
+    aiTip: "Goblin and spider camps work well. You can Incendio the same enemy again once the fire goes out, so one long fight can cover both objectives.",
+    walkthrough: [
+      "After Tomes and Tribulations (level 7), pick up the assignment from Hecat.",
+      "Dodge-roll to evade 10 enemy attacks.",
+      "Hit 5 enemies with Incendio (re-burn the same one once the flames die).",
+      "Return to Hecat in the DADA classroom to learn Expelliarmus."
+    ],
     video: "https://www.youtube.com/watch?v=L3VgmITSCQc"
   },
 {
@@ -17600,15 +17892,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Potions Assignment I — Professor Sharp",
+    title: "Professor Sharp's Assignment 1",
     location: "Potions Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Edurus / potion knowledge",
-    summary:
-      "Brew and use a required potion in combat for Professor Sharp.",
-    aiTip:
-      "Brew ahead at a Potion Station and keep one equipped before reporting back.",
+    reward: "Depulso, 150 XP",
+    summary: "Professor Sharp wants you to use potions together: drink a Focus Potion plus a Maxima or Edurus Potion so their effects overlap.",
+    aiTip: "Buy the potions ready-made at J. Pippin's Potions in Hogsmeade to save time. Drink the second one while the first is still active or it won't count.",
+    walkthrough: [
+      "After Jackdaw's Rest, pick up the assignment from Sharp.",
+      "Buy or brew a Focus Potion and a Maxima or Edurus Potion (J. Pippin's Potions, Hogsmeade).",
+      "Drink one, then immediately drink the other while the first is still active.",
+      "Attend Potions class in the Library Annex during the day and talk to Sharp to learn Depulso."
+    ],
     video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
   },
 {
@@ -17617,15 +17913,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Potions Assignment II — Professor Sharp",
+    title: "Professor Sharp's Assignment 2",
     location: "Potions Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Thunderbrew / Invisibility potion use",
-    summary:
-      "Demonstrate advanced potion use against tougher enemies.",
-    aiTip:
-      "Thunderbrew clears crowds fast and satisfies the combat requirement.",
+    reward: "Diffindo, 150 XP",
+    summary: "Sharp's second assignment: use an Invisibility Potion and use a Thunderbrew Potion against enemies.",
+    aiTip: "Thunderbrew's storm cloud follows you and hits nearby enemies — drink it right before a goblin camp fight.",
+    walkthrough: [
+      "Finish Sharp's Assignment 1 first.",
+      "Buy or brew an Invisibility Potion and a Thunderbrew Potion (J. Pippin's Potions).",
+      "Drink the Invisibility Potion.",
+      "Drink Thunderbrew in a fight and let the storm hit enemies.",
+      "Return to Sharp to learn Diffindo."
+    ],
     video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
   },
 {
@@ -17634,15 +17935,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Beasts Assignment — Professor Howin",
+    title: "Professor Howin's Assignment",
     location: "Beasts Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Nab-Sack & feeding know-how",
-    summary:
-      "Capture a beast with the Nab-Sack and care for it in the Room of Requirement.",
-    aiTip:
-      "Complete 'The Elf, the Nab-Sack, and the Loom' first to unlock the Nab-Sack.",
+    reward: "Bombarda, 150 XP",
+    summary: "Professor Howin asks you to rescue a Diricawl and a Giant Purple Toad with your Nab-Sack, then attend Beasts class.",
+    aiTip: "Levitate a beast with Levioso before using the Nab-Sack to make the capture easy. Toads nest in North Ford Bog, Diricawls in Hogwarts Valley.",
+    walkthrough: [
+      "After Charles Rookwood's Trial, pick up the assignment from Howin.",
+      "Catch a Giant Purple Toad at a nest in North Ford Bog.",
+      "Catch a Diricawl at a nest in Hogwarts Valley (Levioso first makes it easier).",
+      "Attend Beasts class during the day and talk to Howin to learn Bombarda."
+    ],
     video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
   },
 {
@@ -17651,15 +17956,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Charms Assignment — Professor Ronen",
+    title: "Professor Ronen's Assignment",
     location: "Charms Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Accio / Charms knowledge",
-    summary:
-      "Use taught charms to solve Ronen's practical challenge.",
-    aiTip:
-      "Accio and Wingardium Leviosa cover most of Ronen's requests.",
+    reward: "Reparo, 150 XP",
+    summary: "Professor Ronen asks you to catch two Flying Field Guide pages with Accio, then learn Reparo and fix a broken statue.",
+    aiTip: "Reparo is required for Welcome to Hogsmeade, so do this one straight after Weasley After Class.",
+    walkthrough: [
+      "After Weasley After Class, find Ronen in the Transfiguration Courtyard by the broken statue.",
+      "Stand on the semicircle by the water, cast Revelio and Accio the first flying page.",
+      "Catch the second page from the DADA Tower stair landing the same way.",
+      "Return to Ronen and learn Reparo.",
+      "Repair the broken statue to finish."
+    ],
     video: "https://www.youtube.com/watch?v=erDLjDZ7pck"
   },
 {
@@ -17668,15 +17978,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Transfiguration Assignment — Professor Weasley",
+    title: "Professor Weasley's Assignment",
     location: "Transfiguration Courtyard",
     length: "medium",
     difficulty: "Low",
-    reward: "Transformation spell knowledge",
-    summary:
-      "Use Transformation on objects and enemies as Professor Weasley directs.",
-    aiTip:
-      "Unlock Transformation from Weasley's earlier class before attempting.",
+    reward: "Transformation spell, 150 XP",
+    summary: "Professor Weasley asks you to collect two Field Guide pages — one in the Underground Harbour and one from Sophronia Franklin's quiz in the Library — then learn Transformation.",
+    aiTip: "Sophronia gives you the page whether your quiz answers are right or wrong.",
+    walkthrough: [
+      "Pick up the assignment from Professor Weasley (level 20).",
+      "Collect the Field Guide page in the Underground Harbour.",
+      "Find Sophronia Franklin in the Library and answer her quiz for the second page.",
+      "Attend Transfiguration class in the Astronomy Wing and complete the spell minigame to learn Transformation."
+    ],
     video: "https://www.youtube.com/watch?v=59EtR6arBLc"
   },
 {
@@ -17685,15 +17999,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Divination Assignment — Professor Onai",
+    title: "Professor Onai's Assignment",
     location: "Divination Classroom",
     length: "medium",
     difficulty: "Low",
-    reward: "Insight into the future",
-    summary:
-      "Complete Professor Onai's divination-themed task around the castle.",
-    aiTip:
-      "Follow the marked locations; no combat pressure here.",
+    reward: "Descendo, 150 XP",
+    summary: "Professor Onai asks for a Troll Bogey and wants you to levitate an enemy and hit it with Depulso.",
+    aiTip: "Buy a Troll Bogey at J. Pippin's Potions for 100 Galleons instead of hunting a troll.",
+    walkthrough: [
+      "After Percival Rackham's Trial, read Onai's owl.",
+      "Get a Troll Bogey (troll lair on Manor Cape, Troll Control, or J. Pippin's Potions).",
+      "Levitate an enemy with Levioso and hit it with Depulso.",
+      "Attend Divination class during the day and talk to Onai to learn Descendo."
+    ],
     video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
   },
 {
@@ -17702,15 +18020,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Flying Assignment I — Madam Kogawa",
+    title: "Madam Kogawa's Assignment 1",
     location: "Broom flight / Hogwarts grounds",
     length: "medium",
     difficulty: "Low",
-    reward: "Broom control practice",
-    summary:
-      "Complete Madam Kogawa's first timed broom-flying course.",
-    aiTip:
-      "Buy a broom from Spintwitches in Hogsmeade first; boost through every ring.",
+    reward: "Glacius, 150 XP",
+    summary: "Madam Kogawa asks you to pop balloons from your broom: five at Hogsmeade Station and five over the Quidditch pitch.",
+    aiTip: "You can't fly inside Hogsmeade — walk out of town to the south before mounting. One station balloon hides in the trees on the southwest side.",
+    walkthrough: [
+      "Buy a broom at Spintwitches in Hogsmeade (600 Galleons).",
+      "After The Map Chamber, pick up the assignment.",
+      "Fly through the five balloons around Hogsmeade Station.",
+      "Pop the five balloons over the Quidditch pitch.",
+      "Return to Kogawa to learn Glacius."
+    ],
     video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
   },
 {
@@ -17719,15 +18042,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Assignment",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
-    title: "Flying Assignment II — Madam Kogawa",
+    title: "Madam Kogawa's Assignment 2",
     location: "Broom flight / Highlands",
     length: "medium",
     difficulty: "Low",
-    reward: "Advanced broom handling",
-    summary:
-      "Beat Kogawa's tougher second flying course against the clock.",
-    aiTip:
-      "Chain speed boosts and cut corners tight to beat the timer.",
+    reward: "Arresto Momentum, 150 XP",
+    summary: "Kogawa's second balloon run: five balloons near the Spires and five near Keenbridge Tower.",
+    aiTip: "The Spires are in the hills southwest of Hogwarts, Keenbridge Tower to the southeast — do both in one flight.",
+    walkthrough: [
+      "Finish Assignment 1 and wait for the second assignment to unlock.",
+      "Pop the five balloons near the Spires, southwest of Hogwarts.",
+      "Pop the five balloons near Keenbridge Tower, southeast of Hogwarts.",
+      "Return to Kogawa to learn Arresto Momentum."
+    ],
     video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
   },
 {
@@ -17741,10 +18068,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Access to Hogsmeade shops",
-    summary:
-      "Travel to Hogsmeade with Sebastian and help fend off a troll attacking the village.",
-    aiTip:
-      "Use nearby barrels and Accio to hurl objects at the troll's back.",
+    summary: "After learning Reparo, travel to Hogsmeade with Sebastian or Natty, shop for school supplies and fight off the trolls that attack the town.",
+    aiTip: "Use nearby barrels and Accio to hurl objects at the troll's back.",
+    walkthrough: [
+      "Finish Professor Ronen's Assignment (Reparo) and meet your chosen companion (Sebastian or Natty).",
+      "Walk to Hogsmeade and visit Tomes and Scrolls, Ollivanders (craft your wand), J. Pippin's Potions and The Magic Neep — grab the free supplies.",
+      "Return to the town circle; two trolls attack.",
+      "Defeat them using dodges and Ancient Magic on the environment.",
+      "Repair the damage with Reparo, then head to the Three Broomsticks for the cutscene."
+    ],
     video: "https://www.youtube.com/watch?v=wpqlKtoIe3Y"
   },
 {
@@ -17754,14 +18086,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Weasley After Class",
-    location: "Headmaster's Office / Hogwarts",
+    location: "Transfiguration Classroom, Hogwarts",
     length: "short",
     difficulty: "Medium",
     reward: "Story progression",
-    summary:
-      "Meet Professor Weasley after class to discuss your unusual gift for ancient magic.",
-    aiTip:
-      "Purely narrative — talk through the dialogue to open the next classes.",
+    summary: "Professor Weasley sends you to Hogsmeade to pick up your wand from Ollivanders — choose Natty or Sebastian to go with you.",
+    aiTip: "Purely narrative — talk through the dialogue to open the next classes.",
+    walkthrough: [
+      "After Charms and DADA classes, go to the Transfiguration classroom by the Astronomy Wing.",
+      "Stand in the golden circle to start.",
+      "Talk to Professor Weasley about the trip to Hogsmeade.",
+      "Choose Natsai Onai or Sebastian Sallow as your companion.",
+      "Report to Professor Ronen next to learn Reparo before going."
+    ],
     video: "https://www.youtube.com/watch?v=aC6DM7wGFck"
   },
 {
@@ -17771,14 +18108,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Tomes and Tribulations",
-    location: "Hogsmeade / Library Annex",
+    location: "Professor Fig's Classroom, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Spellcraft, first field trip",
-    summary:
-      "Shop for school supplies with Sebastian and learn spells at the shady Tomes and Scrolls annex.",
-    aiTip:
-      "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
+    summary: "Bring Professor Fig the book from the Restricted Section. Pages have been torn out — Fig heads to the Ministry and leaves you to find them.",
+    aiTip: "Your first taste of unforgivable curiosity — you'll gain Levioso here.",
+    walkthrough: [
+      "After Secrets of the Restricted Section, go to Professor Fig's classroom.",
+      "Wait for Professor Sharp to leave.",
+      "Give Fig the book and watch the cutscene — the missing pages start your next leads."
+    ],
     video: "https://www.youtube.com/watch?v=wj8brNiltAM"
   },
 {
@@ -17792,10 +18132,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Mandrake, plant combat",
-    summary:
-      "Attend Professor Garlick's Herbology class and learn to wield combat plants.",
-    aiTip:
-      "Unlocks the Herbology assignments and plant loadouts.",
+    summary: "Attend Professor Garlick's Herbology class and learn to wield combat plants.",
+    aiTip: "Unlocks the Herbology assignments and plant loadouts.",
+    walkthrough: [
+      "After Tomes and Tribulations, go to the Greenhouse for Herbology.",
+      "Pull the screeching Mandrake out of its pot and repot it quickly.",
+      "Talk to Professor Garlick and plant Dittany seeds at the Potting Table.",
+      "Follow Leander Prewett to a Chinese Chomping Cabbage, equip it and throw it at the training dummy.",
+      "Talk to Garlick again to finish and unlock the Potting Table."
+    ],
     video: "https://www.youtube.com/watch?v=esv5rh66SHY"
   },
 {
@@ -17809,10 +18154,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Wand handle, Merlin Trial system",
-    summary:
-      "Meet Nora Treadwell and reawaken the ancient Merlin Trials scattered across the Highlands.",
-    aiTip:
-      "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
+    summary: "Meet Nora Treadwell and reawaken the ancient Merlin Trials scattered across the Highlands.",
+    aiTip: "Craft Mallowsweet at a Potions station to activate any Merlin Trial.",
+    walkthrough: [
+      "Finish The Girl from Uagadou — a scream rings out from the lakeside camp in Lower Hogsfield.",
+      "Defeat the Ashwinder scouts, then break the duellist's shield with Incendio.",
+      "Talk to Nora Treadwell about the vine-covered pillars.",
+      "Take Mallowsweet leaves from her trunk and use them in the centre of the stone swirl.",
+      "Hit the top of each of the four pillars with Incendio until they sink.",
+      "Talk to Nora again to finish (+25 HP)."
+    ],
     video: "https://www.youtube.com/watch?v=Irm6HJa2NCo"
   },
 {
@@ -17826,10 +18177,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Room of Requirement, Conjuration",
-    summary:
-      "Deek the house-elf reveals the Room of Requirement — your personal magical workshop and vivarium hub.",
-    aiTip:
-      "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
+    summary: "Deek the house-elf reveals the Room of Requirement — your personal magical workshop and vivarium hub.",
+    aiTip: "Set up Conjurations and the Potions/Herbology tables early; you'll use them all game.",
+    walkthrough: [
+      "Meet Professor Weasley at the Astronomy Tower and follow the Charmed Compass to the glowing ring.",
+      "Enter the Room of Requirement and learn Evanesco.",
+      "Vanish the stack of chairs blocking the path with Evanesco.",
+      "Meet Deek at the end of the path as the room transforms.",
+      "Use the Desk of Description, then talk to Weasley to learn the Conjuring Spell and conjure a Potting Table and a Potions Station."
+    ],
     video: "https://www.youtube.com/watch?v=2JlRk_8Fb2k"
   },
 {
@@ -17843,10 +18199,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Nab-Sack intro",
-    summary:
-      "Attend Professor Howin's Beasts class and learn the basics of magical creature care.",
-    aiTip:
-      "Leads into unlocking the Nab-Sack and the beast vivariums.",
+    summary: "Attend Professor Howin's Beasts class and learn the basics of magical creature care.",
+    aiTip: "Leads into unlocking the Nab-Sack and the beast vivariums.",
+    walkthrough: [
+      "After Percival Rackham's Trial (level 13), go to the Beasts class outside near the Bell Tower Wing.",
+      "Assign the Beast Petting Brush and Beast Feed, then brush and feed the Puffskein.",
+      "Do the same for the Kneazle inside its pen.",
+      "Talk to Professor Howin, then follow Poppy to the hippogriff Highwing.",
+      "Bow to Highwing (right stick down twice), then brush and feed him to finish."
+    ],
     video: "https://www.youtube.com/watch?v=Ka26p_TZCg8"
   },
 {
@@ -17860,10 +18221,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Demiguise Statues, unlocks Alohomora",
-    summary:
-      "Help caretaker Gladwin Moon recover Demiguise Statues to learn and upgrade Alohomora.",
-    aiTip:
-      "Demiguise Statues only appear at night — use the wait function to change time.",
+    summary: "Help caretaker Gladwin Moon recover Demiguise Statues to learn and upgrade Alohomora.",
+    aiTip: "Demiguise Statues only appear at night — use the wait function to change time.",
+    walkthrough: [
+      "After Percival Rackham's Trial (level 13), talk to Gladwin Moon.",
+      "At night, take the moon from a Demiguise statue.",
+      "Follow Gladwin, learn Alohomora and unlock the Faculty Tower door (Disillusionment helps).",
+      "Fetch the moons from the Prefects' Bathroom and the Hospital Wing.",
+      "Return them to Gladwin to finish — Demiguise statues are now collectible."
+    ],
     video: "https://www.youtube.com/watch?v=VwuAXrU3ImY"
   },
 {
@@ -17877,10 +18243,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian arc, Feldcroft access",
-    summary:
-      "Join Sebastian and Ominis at the Gaunt family estate to seek a cure for Anne's curse.",
-    aiTip:
-      "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
+    summary: "Join Sebastian and Ominis at the Gaunt family estate to seek a cure for Anne's curse.",
+    aiTip: "Watch your dialogue with Ominis — it colours Sebastian's later choices.",
+    walkthrough: [
+      "Meet Sebastian in Feldcroft, south of Hogwarts (level 15).",
+      "Visit the Sallow home and meet his sister Anne and uncle Solomon.",
+      "Go with Sebastian to the place Anne was cursed, fight the goblins and search for clues with Revelio.",
+      "In the cellar, use Lumos, read the diary entries and go through the mirror at the back.",
+      "In the Undercroft, examine the note and show it to Sebastian to finish."
+    ],
     video: "https://www.youtube.com/watch?v=xjLVii9XWeA"
   },
 {
@@ -17894,10 +18265,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Astronomy Tables, star charts",
-    summary:
-      "Attend Astronomy class and learn to read the star tables dotted around the map.",
-    aiTip:
-      "Unlocks the Astronomy Table pairs that grant collection rewards.",
+    summary: "Attend Astronomy class and learn to read the star tables dotted around the map.",
+    aiTip: "Unlocks the Astronomy Table pairs that grant collection rewards.",
+    walkthrough: [
+      "Go to the Astronomy Tower for Professor Shah's class at night.",
+      "Use the star table: move, rotate and zoom the constellation (zoom in a lot to find Lyra) until it snaps into place.",
+      "Finish the lesson and talk to Professor Shah.",
+      "The other Astronomy Tables around the map are now unlocked (night only)."
+    ],
     video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
   },
 {
@@ -17911,10 +18286,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Story progression",
-    summary:
-      "After a detour, rejoin Professor Fig and pick the main investigation back up.",
-    aiTip:
-      "A connective story beat — pursue it to reopen the trial questline.",
+    summary: "After a detour, rejoin Professor Fig and pick the main investigation back up.",
+    aiTip: "A connective story beat — pursue it to reopen the trial questline.",
+    walkthrough: [
+      "After The High Keep (level 18), fast-travel to the Map Chamber (Hogwarts Castle → Secret Rooms).",
+      "Talk to Professor Fig and brief him on Lodgok.",
+      "Watch the cutscene — the next Keeper's trial is at Rookwood Castle, unlocking Charles Rookwood's Trial."
+    ],
     video: "https://www.youtube.com/watch?v=yT7NIWbJ54g"
   },
 {
@@ -17939,16 +18317,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Highlands",
+    region: "Hogwarts",
     title: "The Poacher's House Call (Poppy)",
-    location: "Highlands",
+    location: "Beasts Classroom, Bell Tower Wing",
     length: "medium",
     difficulty: "Medium",
     reward: "Poppy relationship",
-    summary:
-      "Help Poppy Sweeting confront poachers who have tracked her down over her rescued beasts.",
-    aiTip:
-      "Bring crowd-control spells — the poacher camp comes at you in numbers.",
+    summary: "A short check-in after Poached Egg: Poppy sends an owl and meets you near the Beasts Classroom to talk about the poachers.",
+    aiTip: "Bring crowd-control spells — the poacher camp comes at you in numbers.",
+    walkthrough: [
+      "After Poached Egg, wait for Poppy's owl.",
+      "Go to the Beasts Classroom area in the Bell Tower Wing.",
+      "Talk to Poppy — this unlocks Surprise Meeting."
+    ],
     video: "https://www.youtube.com/watch?v=8bxu0rvqLGM"
   },
 {
@@ -17958,14 +18339,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Centaur and the Stone (Poppy)",
-    location: "Highlands / Centaur Camp",
+    location: "Cave near Irondale / Centaur henge",
     length: "medium",
     difficulty: "Medium",
     reward: "Poppy relationship",
-    summary:
-      "Accompany Poppy to the centaur camp to recover a stolen moonstone and earn the herd's trust.",
-    aiTip:
-      "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
+    summary: "Poppy needs a Scholars' Moonstone for the centaurs. Explore the cave near Irondale, solve its moth puzzles and bring the stone to the henge.",
+    aiTip: "Speak respectfully in the centaur dialogue to keep Poppy's approval high.",
+    walkthrough: [
+      "After Surprise Meeting, meet Poppy at the cave southwest of Irondale during the day.",
+      "Accio the pillars to free the moths, guide them to the pedestals with Lumos and open the gates with Depulso.",
+      "Go through the hole in the big room's north wall to the waterfall and dive through the whirlpool in the pool.",
+      "Climb to the Scholars' Moonstone and take it.",
+      "Return to Poppy and bring the moonstone to the centaur henge."
+    ],
     video: "https://www.youtube.com/watch?v=9U-sKO9Jrng"
   },
 {
@@ -17975,14 +18361,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "It's in the Stars (Poppy)",
-    location: "Highlands",
+    location: "Forbidden Forest",
     length: "medium",
     difficulty: "Medium",
     reward: "Poppy relationship, finale",
-    summary:
-      "Share a quiet, starlit outing with Poppy that closes her companion questline.",
-    aiTip:
-      "The capstone of Poppy's arc — do it after her earlier beast quests.",
+    summary: "Poppy meets you in the Forbidden Forest, where she's talking with the centaur Dorran about the poachers' next target.",
+    aiTip: "The capstone of Poppy's arc — do it after her earlier beast quests.",
+    walkthrough: [
+      "After The Centaur and the Stone (level 27), skip time on the map until Poppy's owl arrives.",
+      "Go to the Forbidden Forest marker.",
+      "Join Poppy and Dorran's conversation to finish — this unlocks A Bird in the Hand."
+    ],
     video: "https://www.youtube.com/watch?v=H7gWGVAnQSo"
   },
 {
@@ -17990,16 +18379,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Highlands",
+    region: "Hogsmeade",
     title: "A Basis for Blackmail (Natty)",
-    location: "Highlands / Lower Hogsfield",
+    location: "Hogsmeade / Hog's Head cellar",
     length: "medium",
     difficulty: "Medium",
     reward: "Natty relationship",
-    summary:
-      "Help Natsai Onai dig up leverage on the Ashwinder-aligned townsfolk troubling her mother.",
-    aiTip:
-      "Stealth with Disillusionment to gather evidence without a fight.",
+    summary: "Natty wants evidence against Harlow. Talk to the villagers he's extorting, then rescue Natty from the Ashwinder hideout under the Hog's Head.",
+    aiTip: "Stealth with Disillusionment to gather evidence without a fight.",
+    walkthrough: [
+      "After Mum's the Word, meet Natty outside Hogsmeade.",
+      "Talk to Agabus Philbert, Daisy Rabe and Otto Dibble about Harlow's extortion.",
+      "Return to find Natty missing — pick up her wand at the dock near the Hog's Head and follow the footprints with Revelio.",
+      "In the cellar, Accio the two small barrels to open the entrance, then sneak or fight through the Ashwinder hideout.",
+      "Find Isko Rabe's wand in the hidden chest (Revelio) and return it so he frees Natty.",
+      "Talk to Officer Singer outside to finish."
+    ],
     video: "https://www.youtube.com/watch?v=fSlzrxWGs9E"
   },
 {
@@ -18007,16 +18402,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of Discovery (Sebastian)",
-    location: "Feldcroft / Catacombs",
+    location: "The Undercroft, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship",
-    summary:
-      "Descend into a catacomb with Sebastian as he chases a forbidden cure for his sister.",
-    aiTip:
-      "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
+    summary: "Sebastian found something in a Scriptorium book and calls you to the Undercroft — and Ominis isn't happy about where it's heading.",
+    aiTip: "Cast Lumos and Depulso for the catacomb puzzles and spider swarms.",
+    walkthrough: [
+      "After In the Shadow of the Study, read Sebastian's owl.",
+      "Enter the Undercroft (beneath the DADA Classroom Floo Flame).",
+      "Talk to Sebastian about his discovery.",
+      "Talk to Ominis once Sebastian leaves — this unlocks In the Shadow of Time."
+    ],
     video: "https://www.youtube.com/watch?v=rh2ZIJfvf7w"
   },
 {
@@ -18024,16 +18423,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of Distance (Sebastian)",
-    location: "Feldcroft Region",
+    location: "The Undercroft, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship",
-    summary:
-      "Sebastian's pursuit of dark knowledge starts to strain his bond with Ominis and with you.",
-    aiTip:
-      "Your choices here steer whether Sebastian embraces the Dark Arts.",
+    summary: "After the fight to save Feldcroft, Sebastian calls you back to the Undercroft to talk about what happened.",
+    aiTip: "Your choices here steer whether Sebastian embraces the Dark Arts.",
+    walkthrough: [
+      "Finish In the Shadow of Time.",
+      "Go to the Undercroft (beneath the DADA Classroom Floo Flame).",
+      "Talk to Sebastian — this unlocks In the Shadow of Hope."
+    ],
     video: "https://www.youtube.com/watch?v=7jxvcaIa7zo"
   },
 {
@@ -18041,16 +18443,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of Fate (Sebastian)",
-    location: "Feldcroft / Catacombs",
+    location: "The Undercroft, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship, major choice",
-    summary:
-      "Reach the wrenching climax of Sebastian's story and decide how far you'll follow him.",
-    aiTip:
-      "A defining, irreversible choice — read every line before you answer.",
+    summary: "After Solomon's death, Ominis and you meet in the Undercroft to decide whether to turn Sebastian in.",
+    aiTip: "A defining, irreversible choice — read every line before you answer.",
+    walkthrough: [
+      "After In the Shadow of the Relic, meet Sebastian in the Undercroft.",
+      "Talk to Sebastian about what happened to Solomon.",
+      "Talk to Ominis and decide whether to turn Sebastian in — your choice changes how his story ends."
+    ],
     video: "https://www.youtube.com/watch?v=KLERaAR8otA"
   },
 {
@@ -18059,15 +18464,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
-    title: "Sacking Selwyn's Estate",
-    location: "Feldcroft Region / Selwyn Estate",
+    title: "Sacking Selwyn",
+    location: "Cragcroft → Clagmar Castle",
     length: "medium",
     difficulty: "Medium",
     reward: "Gear, gold",
-    summary:
-      "Infiltrate the pure-blood Selwyn family estate to recover what a desperate house-elf's plight demands.",
-    aiTip:
-      "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
+    summary: "Hyacinth Olivier in Cragcroft wants revenge on the pure-blood Silvanus Selwyn, who is hiding among Ashwinders in Clagmar Castle.",
+    aiTip: "Expect a fight with Ashwinder loyalists inside — bring crowd control.",
+    walkthrough: [
+      "After The Helm of Urtkot (level 35), talk to Hyacinth Olivier by the graves outside Cragcroft.",
+      "Fly south to Clagmar Castle and land near its Floo Flame.",
+      "Fight through the Ashwinders to Silvanus Selwyn (break his shields with thrown objects; Ancient Magic helps).",
+      "Defeat Selwyn and return to Hyacinth."
+    ],
     video: "https://www.youtube.com/watch?v=DGAF0OnVd3A"
   },
 {
@@ -18081,10 +18490,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Rare gear",
-    summary:
-      "Follow a treasure map to the Tomb of Treachery, where an ambush by Ailsa Travers and the Lord of the Manor awaits.",
-    aiTip:
-      "A tough double ambush — go in over-levelled and keep your dodge ready.",
+    summary: "Follow a treasure map to the Tomb of Treachery, where an ambush by Ailsa Travers and the Lord of the Manor awaits.",
+    aiTip: "A tough double ambush — go in over-levelled and keep your dodge ready.",
+    walkthrough: [
+      "After The Helm of Urtkot, get Alohomora level 3.",
+      "Fly to the old manor in Manor Glen and go down to the basement.",
+      "Open the level 3 door, then the level 1 chest in the back corner for the Mysterious Map Fragment.",
+      "Go to the Tomb of Treachery; from the stone-coffin room go left and burn the web with Incendio.",
+      "Solve the butterfly door by guiding the butterflies with Incendio and Lumos.",
+      "Defeat the ambush and open the treasure."
+    ],
     video: "https://www.youtube.com/watch?v=ZZSiz2_Gk74"
   },
 {
@@ -18094,31 +18509,40 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Phoenix Rising",
-    location: "Poidsear Coast / Phoenix Den",
+    location: "Phoenix Mountain Cave, Poidsear Coast",
     length: "medium",
     difficulty: "Medium",
     reward: "The Phoenix beast",
-    summary:
-      "Help Deek rescue a majestic phoenix hidden in a mountain cave from the poachers hunting it.",
-    aiTip:
-      "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
+    summary: "Help Deek rescue a majestic phoenix hidden in a mountain cave from the poachers hunting it.",
+    aiTip: "Clear the poacher camp first, then Nab-Sack the phoenix for your vivarium.",
+    walkthrough: [
+      "Reach Winter and finish Niamh Fitzgerald's Trial and Deek's earlier beast quests (level 20).",
+      "Fly to the Phoenix Mountain Cave on the Poidsear Coast (use the North Poidsear Coast Floo Flame and fly east).",
+      "Fight the poachers inside, burning webs with Incendio/Confringo and breaking rock barriers with Bombarda.",
+      "Climb to the mountain peak where the phoenix reappears.",
+      "Catch it with the Nab-Sack and return to Deek."
+    ],
     video: "https://www.youtube.com/watch?v=361e5n2gsfQ"
   },
 {
     id: 879,
     type: "side",
-    category: "Side Quest",
+    category: "Challenges",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Lord of the Manor",
-    location: "Manor Cape / Manor Glen",
+    location: "Old manor basement, West Manor Cape",
     length: "medium",
     difficulty: "High",
     reward: "Gear, Infamous Foe kill",
-    summary:
-      "Descend into Manor Glen to face the Lord of the Manor, an Infamous Foe, and his accomplice Ailsa Travers.",
-    aiTip:
-      "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
+    summary: "An Infamous Foe: the Lord of the Manor, an Inferius, rises in the old manor's basement after you defeat Ailsa Travers there.",
+    aiTip: "An Infamous Foe fight — pack potions and target the Lord's guard breaks.",
+    walkthrough: [
+      "Complete the Cursed Tomb Treasure side quest to reach the basement under the old manor in West Manor Cape.",
+      "Light the brazier on the hill and step on the pedestal (or Incendio the statue north of the West Manor Cape Floo Flame) to go underground.",
+      "Fight through the Inferi and defeat Ailsa Travers.",
+      "When the Lord of the Manor appears, hit him with fire (Confringo/Incendio) before other spells — he's an Inferius."
+    ],
     video: "https://www.youtube.com/watch?v=WfZgkpxRcNY"
   },
 {
@@ -18132,10 +18556,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Gear, talent practice",
-    summary:
-      "Prove yourself to the boastful Duncan Hobhouse by clearing out a dangerous nest he's too afraid to face.",
-    aiTip:
-      "Bring solid AoE — the den throws several foes at you at once.",
+    summary: "Duncan Hobhouse claims he's braved the Hidden Herbology Corridor. Go in yourself, survive the Devil's Snare and bring back a Giant Venomous Tentacula leaf.",
+    aiTip: "Bring solid AoE — the den throws several foes at you at once.",
+    walkthrough: [
+      "After Professor Hecat's Assignment 1 (level 5), talk to Duncan Hobhouse in the DADA Tower.",
+      "Burn the vines over the Hidden Herbology Corridor entrance with Incendio.",
+      "Keep the Devil's Snare back with Lumos as you go through.",
+      "Find Duncan's 'proof' on the left (and the Sleek Duelling Gloves chest behind debris on the right).",
+      "Take a leaf from the Giant Venomous Tentacula, climb the ladder out and return to Duncan."
+    ],
     video: "https://www.youtube.com/watch?v=w1pW8uvI5vI"
   },
 {
@@ -18149,10 +18578,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Portrait lore, cosmetic",
-    summary:
-      "Aid the vain portrait subject Nellie Oggspire, who wants her likeness admired across the castle's frames.",
-    aiTip:
-      "A light, exploration-focused quest around the castle corridors.",
+    summary: "Lenora Everleigh is puzzled by a dark painting in the Central Hall. Light it up with Lumos and lead its missing moth back into the frame.",
+    aiTip: "A light, exploration-focused quest around the castle corridors.",
+    walkthrough: [
+      "After Defence Against the Dark Arts Class, talk to Lenora Everleigh by the Central Hall fountain.",
+      "Cast Lumos at the dark painting to see a nearby location.",
+      "Go down the stairs at the southwest end to the statue of Gregory the Smarmy and find the moth on the wall.",
+      "Cast Lumos so the moth follows your wand and lead it back to the painting.",
+      "End Lumos so it settles into the frame, then talk to Lenora."
+    ],
     video: "https://www.youtube.com/watch?v=mGxOHI2So94"
   },
 {
@@ -18162,14 +18596,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "Portrait in a Pickle",
-    location: "Library Annex",
+    location: "Library Annex → Marunweem Ruins",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Free a portrait trapped behind the Library Annex and untangle the mischief that got it stuck.",
-    aiTip:
-      "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
+    summary: "The portrait of Ferdinand Octavius Pratt wants his stolen frame back. Track it through Hogsmeade to Ashwinders hiding in the Marunweem Ruins.",
+    aiTip: "Speak to the portrait at the back of the Annex to begin; simple puzzle-solving.",
+    walkthrough: [
+      "Talk to Ferdinand Octavius Pratt's portrait at the Library Floo Flame.",
+      "Find Astoria Crickett in the Three Broomsticks for a lead.",
+      "Go to the Marunweem Ruins in the south and get past the level 26 Ashwinders (Disillusionment helps).",
+      "Take the stairs by the barrels and open the gate with Alohomora level 2.",
+      "Talk to the frame and choose to return it to the Three Broomsticks or the Hog's Head."
+    ],
     video: "https://www.youtube.com/watch?v=IH0kKjwD02M"
   },
 {
@@ -18179,14 +18618,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Follow the Butterflies",
-    location: "Hogsmeade / Highlands",
+    location: "Three Broomsticks → Forbidden Forest",
     length: "medium",
     difficulty: "Low",
     reward: "Collection Chest, gear",
-    summary:
-      "Trail Clementine Willardsey's enchanted wildflower butterflies to a hidden treasure.",
-    aiTip:
-      "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
+    summary: "Trail Clementine Willardsey's enchanted wildflower butterflies to a hidden treasure.",
+    aiTip: "Cast Lumos and keep pace with the butterflies — they lead straight to the cache.",
+    walkthrough: [
+      "After Potions Class, talk to Clementine Willardsey in the Three Broomsticks.",
+      "Fast-travel to the Forbidden Forest Floo Flame (Disillusionment helps avoid the Dugbog).",
+      "Follow the butterflies across the small river.",
+      "Open the chest they lead you to.",
+      "Return to Clementine to finish."
+    ],
     video: "https://www.youtube.com/watch?v=EN59nPw7-v4"
   },
 {
@@ -18196,14 +18640,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Take the Biscuit",
-    location: "Hogsmeade",
+    location: "Hogsmeade → North Ford Bog",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Settle a curious dispute over a batch of enchanted biscuits for a Hogsmeade local.",
-    aiTip:
-      "A quick, low-stakes fetch-and-talk quest.",
+    summary: "The goblin Garnuff's pet Mooncalf, Biscuit, has been taken by poachers. Raid their camp in North Ford Bog and bring Biscuit home.",
+    aiTip: "A quick, low-stakes fetch-and-talk quest.",
+    walkthrough: [
+      "After Astronomy Class (level 20), talk to Garnuff under the bridge west of the West Hogsmeade Floo Flame.",
+      "Travel to the poacher camp northeast of the East North Ford Bog Floo Flame.",
+      "Defeat the poachers.",
+      "Open Biscuit's cage with Alohomora, then catch him with the Nab-Sack as he runs.",
+      "Return to Garnuff in Hogsmeade."
+    ],
     video: "https://www.youtube.com/watch?v=CVz9l-5ZKZs"
   },
 {
@@ -18213,14 +18662,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Plight of the House-Elf",
-    location: "Hogwarts / Room of Requirement",
+    location: "Room of Requirement → Spinners Cavern",
     length: "medium",
     difficulty: "Medium",
     reward: "Deek's story, gear",
-    summary:
-      "Help the house-elf Deek confront the cruelty of a house-elf's servitude under a pure-blood master.",
-    aiTip:
-      "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
+    summary: "Deek asks you to check on his friend Tobbs, a house-elf who went missing near a spider-infested cave in the Forbidden Forest.",
+    aiTip: "Unlocks after Astronomy Class and The High Keep; ties into Deek's beast-rescue arc.",
+    walkthrough: [
+      "After The High Keep (level 20), talk to Deek in the Room of Requirement.",
+      "Go to Spinners Cavern in the Forbidden Forest and burn the webs at the entrance.",
+      "Fight through the spiders and defeat the Acromantula boss (dodge when it stomps).",
+      "Blast the wooden planks aside to find Tobbs and read the note in front of him.",
+      "Return to Deek."
+    ],
     video: "https://www.youtube.com/watch?v=HqKe7YyvKZM"
   },
 {
@@ -18230,14 +18684,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Flight Test",
-    location: "Hogsmeade",
+    location: "Spintwitches (Hogsmeade) → Quidditch pitch",
     length: "medium",
     difficulty: "Low",
     reward: "Broom upgrade",
-    summary:
-      "Take on Everett Clopton's daredevil broom-flying test through a course of rings.",
-    aiTip:
-      "Available after Flying Class; boost through every ring without missing one.",
+    summary: "Albie Weekes at Spintwitches wants to see what you can do on a broom: beat Imelda Reyes's time on the Quidditch pitch course.",
+    aiTip: "Available after Flying Class; boost through every ring without missing one.",
+    walkthrough: [
+      "After Flying Class, buy your first broom from Albie Weekes at Spintwitches in Hogsmeade.",
+      "Go to the Quidditch pitch and talk to Imelda Reyes.",
+      "Fly the course — 22 rings in about 2:20 (missed rings add time; yellow bubbles boost you).",
+      "Talk to Imelda, then report back to Albie."
+    ],
     video: "https://www.youtube.com/watch?v=USPtQaT3p28"
   },
 {
@@ -18247,14 +18705,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Sweeping the Competition",
-    location: "Highlands / Broom Race",
+    location: "Near Irondale",
     length: "medium",
     difficulty: "Medium",
     reward: "Broom upgrade",
-    summary:
-      "Beat rival flier Imelda Reyes in a high-speed broom race across the Highlands.",
-    aiTip:
-      "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
+    summary: "Beat rival flier Imelda Reyes in a high-speed broom race across the Highlands.",
+    aiTip: "Requires Percival Rackham's Trial; chain speed boosts and cut the corners tight.",
+    walkthrough: [
+      "After Percival Rackham's Trial (level 15), buy Albie's 1,000-Galleon broom upgrade at Spintwitches.",
+      "Find Imelda Reyes south of Hogwarts near Irondale.",
+      "Beat her 2:26 time on the 20-ring course, grabbing the yellow boost bubbles.",
+      "Talk to Imelda, then return to Albie in Hogsmeade."
+    ],
     video: "https://www.youtube.com/watch?v=ZqiBaxoGxEM"
   },
 {
@@ -18264,14 +18726,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Tangled Web",
-    location: "Highlands / Spider Lair",
+    location: "Three Broomsticks → Aranshire",
     length: "medium",
     difficulty: "Medium",
     reward: "Gear, gold",
-    summary:
-      "Clear out a nest of Venomous Tentacula and giant spiders threatening a local's livelihood.",
-    aiTip:
-      "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
+    summary: "Crispin Dunne is worried about his friend Mary Portman in Aranshire. Her house has been overrun by spiders — find out what happened and destroy the nest below it.",
+    aiTip: "Fire spells (Incendio/Confringo) shred spiders — keep moving to avoid webbing.",
+    walkthrough: [
+      "After Charles Rookwood's Trial and Absconder Encounter (level 25), talk to Crispin Dunne in the Three Broomsticks.",
+      "Clear the spiders outside Mary Portman's house in Aranshire and open the door with Alohomora.",
+      "Find Mary's body inside (use Revelio) and take the basement key.",
+      "Enter the cellar from the back of the house and climb down to the nest.",
+      "Destroy all 12 egg sacs and kill the giant spider (Incendio works well).",
+      "Return to Crispin."
+    ],
     video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
   },
 {
@@ -18280,15 +18748,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "Absconder",
-    location: "Forbidden Forest / Absconder Den",
+    title: "Absconder Encounter",
+    location: "Aranshire → Absconder's Cave, Forbidden Forest",
     length: "medium",
     difficulty: "High",
     reward: "Rare gear, Infamous Foe kill",
-    summary:
-      "Track and defeat the Absconder, a colossal Infamous Foe lurking in a hidden den.",
-    aiTip:
-      "A boss-tier creature — bring Maxima potions and dodge its charge.",
+    summary: "Edgar Adley's friend Milo went after a giant spider called the Absconder and lost his heirloom pocket watch. Kill the spider and bring the watch back.",
+    aiTip: "A boss-tier creature — bring Maxima potions and dodge its charge.",
+    walkthrough: [
+      "After Tomes and Tribulations, talk to Edgar Adley in Aranshire, east of Hogwarts.",
+      "Go to the Absconder's Cave in the Forbidden Forest and burn the webs at the entrance.",
+      "Defeat the Absconder — fire spells and keeping your distance help (level 30+ recommended).",
+      "Search the cave's western part, burn the web wall and open the chest for the pocket watch.",
+      "Return the watch to Edgar."
+    ],
     video: "https://www.youtube.com/watch?v=Z08mA1dbDU8"
   },
 {
@@ -18298,14 +18771,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "The Hunt for the Missing Pages",
-    location: "Hogwarts Castle",
+    location: "Hogwarts Kitchens → Hogsmeade cemetery",
     length: "medium",
     difficulty: "Low",
     reward: "Field Guide Pages",
-    summary:
-      "Recover a set of stolen Field Guide pages that have gone missing around the castle.",
-    aiTip:
-      "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
+    summary: "Gryffindor house quest: Nearly Headless Nick helps you track down Richard Jackdaw's ghost — but first you must win the Headless Hunt.",
+    aiTip: "Uses Revelio liberally — the pages hide in plain sight along the corridors.",
+    walkthrough: [
+      "After Trials of Merlin, find Nearly Headless Nick near the house-point hourglasses (Gryffindor only).",
+      "Tickle the pear in the kitchen painting, then take the rotten roast beef from the barrel at the back of the kitchen.",
+      "Give it to Nick, who sends you to the Headless Hunt by the Hogsmeade cemetery.",
+      "Find Jackdaw's head five times in the purple area — hit the shaking pumpkins with Basic Cast (Revelio helps).",
+      "Jackdaw reveals the pages are on his body, setting up Jackdaw's Rest."
+    ],
     video: "https://www.youtube.com/watch?v=UKa-bbqFBzM"
   },
 {
@@ -18315,14 +18793,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Dissending for Sweets",
-    location: "Hogsmeade / Honeydukes",
+    location: "One-Eyed Witch passage → Honeydukes",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Help Garreth Weasley sneak into the Honeydukes cellar to retrieve ingredients for his experiments.",
-    aiTip:
-      "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
+    summary: "Help Garreth Weasley sneak into the Honeydukes cellar to retrieve ingredients for his experiments.",
+    aiTip: "Disillusionment gets you past the shopkeeper; grab the crates and slip out.",
+    walkthrough: [
+      "After Potions Class, talk to Garreth Weasley in the Great Hall.",
+      "Open the One-Eyed Witch statue near the Grand Staircase to enter the secret passage.",
+      "Repair the lift with Reparo and ride it down.",
+      "Burn the cobwebs with Incendio and cross the platforms with Levioso, Reparo and Accio.",
+      "Burn the log piles to open the door, climb into Honeydukes and take the Billywig Stings.",
+      "Return to Garreth."
+    ],
     video: "https://www.youtube.com/watch?v=BerVRvSzacE"
   },
 {
@@ -18332,14 +18816,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "A Demanding Delivery",
-    location: "Hogsmeade",
+    location: "J. Pippin's Potions (Hogsmeade) → Keenbridge",
     length: "medium",
     difficulty: "Low",
     reward: "Gold",
-    summary:
-      "Make good on a delivery for a pushy Hogsmeade shopkeeper before their patience runs out.",
-    aiTip:
-      "A short courier quest — follow the marker and hand over the goods.",
+    summary: "Parry Pippin needs three Invisibility Potions delivered to Fatimah Lawang in Keenbridge — and she insists you prove they work.",
+    aiTip: "A short courier quest — follow the marker and hand over the goods.",
+    walkthrough: [
+      "Talk to Parry Pippin at J. Pippin's Potions in Hogsmeade and take the delivery.",
+      "Fly south to Keenbridge (or use the Lower Hogsfield Floo Flame).",
+      "Give Fatimah Lawang the three Invisibility Potions and drink one to prove it works.",
+      "Return to Parry — ask for a higher fee for more Galleons."
+    ],
     video: "https://www.youtube.com/watch?v=XPEW0ZOAkUY"
   },
 {
@@ -18349,14 +18837,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "Kidnapped Cabbage",
-    location: "Highlands",
+    location: "Brocburrow → Feldcroft",
     length: "medium",
     difficulty: "Low",
     reward: "Combat plant, gold",
-    summary:
-      "Rescue a prized (and very loud) Chinese Chomping Cabbage that poachers have made off with.",
-    aiTip:
-      "Combat plant reward — handy for the Herbology assignments.",
+    summary: "Eddie Thistlewood in Brocburrow has lost two crates of Chinese Chomping Cabbages to goblins. Recover them and deliver them to Bernard Ndiaye in Feldcroft.",
+    aiTip: "Combat plant reward — handy for the Herbology assignments.",
+    walkthrough: [
+      "After Tomes and Tribulations (level 10), talk to Eddie Thistlewood in Brocburrow.",
+      "Fly to the forest camp southwest of Keenbridge, defeat the enemies and loot the crate from the chest.",
+      "Go to the goblin camp just outside Feldcroft, defeat the goblins and open the chest by the tent entrance.",
+      "Deliver both crates to Bernard Ndiaye in Feldcroft."
+    ],
     video: "https://www.youtube.com/watch?v=lrC_NOfmqWk"
   },
 {
@@ -18370,10 +18862,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship",
-    summary:
-      "Chase a fragile hope for curing Anne's curse as Sebastian's search leads deeper into dark magic.",
-    aiTip:
-      "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
+    summary: "Sebastian calls you back to Feldcroft, where he and Anne are talking — a brief moment of hope before the relic.",
+    aiTip: "Weigh how far you'll indulge Sebastian — it shapes the arc's grim ending.",
+    walkthrough: [
+      "After In the Shadow of Distance, read Sebastian's owl.",
+      "Meet Sebastian and Anne outside Feldcroft and wait for them to finish talking.",
+      "Talk to Sebastian — this unlocks In the Shadow of the Relic."
+    ],
     video: "https://www.youtube.com/watch?v=6TACQOMJyrg"
   },
 {
@@ -18381,16 +18876,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Relationship",
     game: "Hogwarts Legacy",
-    region: "Feldcroft",
+    region: "Hogwarts",
     title: "In the Shadow of Friendship (Sebastian)",
-    location: "Feldcroft Region",
+    location: "The Undercroft, Hogwarts",
     length: "medium",
     difficulty: "Medium",
     reward: "Sebastian relationship",
-    summary:
-      "Your loyalty to Sebastian is tested as the cost of his choices comes due for those around him.",
-    aiTip:
-      "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
+    summary: "The final Sebastian quest: a few days after In the Shadow of Fate, Ominis calls you back to the Undercroft with news.",
+    aiTip: "A late beat in Sebastian's story — best done after In the Shadow of Fate.",
+    walkthrough: [
+      "Finish In the Shadow of Fate (and The Final Repository) and wait a few days.",
+      "Answer Ominis's owl and go to the Undercroft.",
+      "Talk to Sebastian (or Ominis, depending on your earlier choice) to close the story and earn A Sallow Grave."
+    ],
     video: "https://www.youtube.com/watch?v=r1eqqlpF0so"
   },
 {
@@ -18400,14 +18898,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Highlands",
     title: "The Unique Unicorn",
-    location: "Hogwarts Valley / Unicorn Den",
+    location: "Hogsmeade → Unicorn Den, Forbidden Forest",
     length: "medium",
     difficulty: "Low",
     reward: "The Unicorn beast",
-    summary:
-      "Help a kind witch rescue a unicorn and its foal from poachers and settle them safely in a sanctuary.",
-    aiTip:
-      "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
+    summary: "Betty Bugbrooke in Hogsmeade asks you to rescue Hazel, a unicorn, from the Unicorn Den in the Forbidden Forest.",
+    aiTip: "Approach unicorns slowly and cast Nab-Sack — no combat needed with the animals themselves.",
+    walkthrough: [
+      "After The Elf, the Nab-Sack and the Loom, talk to Betty Bugbrooke in Hogsmeade Square.",
+      "Fly to the Unicorn Den, west of the Upper Hogsfield Floo Flame.",
+      "Check the unicorns' names to find Hazel.",
+      "Sneak up with Disillusionment (Levioso or Arresto Momentum help) and catch her with the Nab-Sack.",
+      "Return to Betty."
+    ],
     video: "https://www.youtube.com/watch?v=nZSyCjh2D80"
   },
 {
@@ -18421,10 +18924,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Gear, Ravenclaw lore",
-    summary:
-      "Ravenclaw house quest — help Mr. Ollivander recover a treasured wandmaking heirloom lost to thieves.",
-    aiTip:
-      "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
+    summary: "Ravenclaw house quest — help Mr. Ollivander recover a treasured wandmaking heirloom lost to thieves.",
+    aiTip: "Ravenclaw-exclusive; expect a short dungeon dive and a puzzle to reclaim the heirloom.",
+    walkthrough: [
+      "After Trials of Merlin (level 5, Ravenclaw only), visit Mr. Ollivander's shop in Hogsmeade.",
+      "Learn that a former assistant, Richard Jackdaw, took a family heirloom wand.",
+      "Go to the Owlery, open the small doors and place the jackdaw statues on their perches.",
+      "Watch Jackdaw's ghost appear — the wand and the missing pages are with his body, unlocking Jackdaw's Rest."
+    ],
     video: "https://www.youtube.com/watch?v=LUMg5EdxgCg"
   },
 {
@@ -18432,16 +18939,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Hogwarts Legacy",
-    region: "Hogsmeade",
+    region: "Hogwarts",
     title: "Scrope's Last Hope",
-    location: "Hogsmeade / Gaunt connections",
+    location: "Clock Tower Courtyard / Black Lake shore",
     length: "medium",
     difficulty: "Medium",
     reward: "Gear, Slytherin lore",
-    summary:
-      "Slytherin house quest — aid the loyal house-elf Scrope in fulfilling his late master's final wish.",
-    aiTip:
-      "Slytherin-exclusive; a story-driven quest with a poignant finish.",
+    summary: "Slytherin house quest: a trail of notes leads you to Scrope, a house-elf of the Black family, who knows where to look for the missing pages.",
+    aiTip: "Slytherin-exclusive; a story-driven quest with a poignant finish.",
+    walkthrough: [
+      "After Trials of Merlin (Slytherin only), read the first note.",
+      "Follow the notes from the Clock Tower Courtyard to the pumpkin patch (a spell reveals the last note).",
+      "Meet Scrope at the water's edge.",
+      "Scrope points you to where the Black family ring is kept, leading to Jackdaw's ghost and his news about the pages."
+    ],
     video: "https://www.youtube.com/watch?v=M9PUMckftjQ"
   },
 {
@@ -18455,10 +18966,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Conjuration recipes",
-    summary:
-      "Help decorate the Room of Requirement to a fellow student's exacting taste using Conjuration.",
-    aiTip:
-      "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
+    summary: "Professor Weasley shows you how to decorate the Room of Requirement — gather Moonstone, conjure decorations and learn the Altering spell.",
+    aiTip: "Unlock Conjurations first from Deek; place the requested items to satisfy the brief.",
+    walkthrough: [
+      "After The Room of Requirement, talk to Professor Weasley.",
+      "Gather Moonstone (vanish items in the room, collect it in the world or buy it).",
+      "Conjure five wall and five floor decorations and place them.",
+      "Learn the Altering spell and use it on the balcony or floor.",
+      "Talk to Deek to change the room's ambience, then return to Weasley."
+    ],
     video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
   },
 {
@@ -18468,14 +18984,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogsmeade",
     title: "Spot Removal",
-    location: "Hogsmeade",
+    location: "Dogweed and Deathcap (Hogsmeade) → Forbidden Forest",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Gather Bubotuber pus to help a mortified student clear up a nasty magical breakout of spots.",
-    aiTip:
-      "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
+    summary: "Hufflepuff Sacharissa Tugwood needs five Bubotubers for her skin. They grow in the Forbidden Forest — two of them inside a troll's cave.",
+    aiTip: "Squeeze Bubotubers in the Herbology greenhouses or buy pus from the Magic Neep.",
+    walkthrough: [
+      "Talk to Sacharissa Tugwood outside Dogweed and Deathcap in north Hogsmeade (level 20 recommended).",
+      "Fly to the marked area in the Forbidden Forest and cast Revelio to see the Bubotubers' blue auras (look low).",
+      "Pick all five — sneak past the Forest Troll in the cave with Disillusionment, or fight it with red spells.",
+      "Return to Sacharissa; ask for a higher price for 500 Galleons."
+    ],
     video: "https://www.youtube.com/watch?v=1Vzl5BTLths"
   },
 {
@@ -18483,16 +19003,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Quest",
     game: "Hogwarts Legacy",
-    region: "Hogwarts",
+    region: "Hogsmeade",
     title: "A Friend in Deed",
-    location: "Hogwarts Castle",
+    location: "Three Broomsticks → Horklump Hollow",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Lend a hand to a fellow student caught in a bind and repay a small debt of friendship.",
-    aiTip:
-      "A short, low-stakes favour quest around the castle.",
+    summary: "Sirona Ryan of the Three Broomsticks lost a box of letters. It leads to Dorothy Sprottle in Upper Hogsfield and a troll-guarded cave.",
+    aiTip: "A short, low-stakes favour quest around the castle.",
+    walkthrough: [
+      "After The Helm of Urtkot (level 15), talk to Sirona Ryan in the Three Broomsticks.",
+      "Visit Dorothy Sprottle in Upper Hogsfield — she wants Horklumps and says the letters were dropped in a nearby cave.",
+      "Go to Horklump Hollow, southwest of Upper Hogsfield, and collect Horklumps on the way.",
+      "Burn the branches, break the wooden wall and fight or sneak past the Mountain Troll.",
+      "Grab the letters and letter box at the end, give Dorothy her Horklumps and return the box to Sirona."
+    ],
     video: "https://www.youtube.com/watch?v=VE0XET2jBLI"
   },
 {
@@ -18506,10 +19031,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Low",
     reward: "Gobstones set, gear",
-    summary:
-      "Track down six lost Gobstones scattered around the castle for the keen collector Zenobia Noke.",
-    aiTip:
-      "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
+    summary: "Track down six lost Gobstones scattered around the castle for the keen collector Zenobia Noke.",
+    aiTip: "Use Revelio near statues and alcoves — the Gobstones glow when highlighted.",
+    walkthrough: [
+      "After Weasley After Class, talk to Zenobia Noke in the DADA Tower.",
+      "Use Accio on the Gobstones in the Transfiguration Courtyard, on the chandelier by the Divination stairs and on a beam near the Divination Classroom.",
+      "Find one near the Ravenclaw Tower entrance.",
+      "Grab the last two in front of and inside the Trophy Room.",
+      "Return all six to Zenobia (or keep them)."
+    ],
     video: "https://www.youtube.com/watch?v=9rK2SV7zOmI"
   },
 {
@@ -18519,14 +19049,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Feldcroft",
     title: "A Thief in the Night",
-    location: "Feldcroft / Irondale",
+    location: "Irondale",
     length: "medium",
     difficulty: "Low",
     reward: "Gold, gear",
-    summary:
-      "Help Padraic Haggarty catch the sneaky Niffler pilfering coins by following its trail through the night.",
-    aiTip:
-      "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
+    summary: "Help Padraic Haggarty catch the sneaky Niffler pilfering coins by following its trail through the night.",
+    aiTip: "Follow the trail of dropped coins with Revelio, then Nab-Sack the Niffler.",
+    walkthrough: [
+      "After The High Keep (level 20), talk to Padraic Haggarty in Irondale.",
+      "Wait until night (map menu) — the quest only progresses after dark.",
+      "Follow the trail of coins west past the goblin camp, using Revelio if you lose it.",
+      "Sneak up on the sleeping Niffler in its den and catch it with the Nab-Sack; the heirloom is above the entrance.",
+      "Return the heirloom to Padraic."
+    ],
     video: "https://www.youtube.com/watch?v=Nxs7Dl3vFfU"
   },
 {
@@ -18540,10 +19075,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Gold, gear",
-    summary:
-      "Answer Claire's plea and clear out the goblin camps menacing travellers across the Highlands.",
-    aiTip:
-      "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
+    summary: "Answer Claire's plea and clear out the goblin camps menacing travellers across the Highlands.",
+    aiTip: "Bring crowd control — the camps throw Ranrok loyalists and Ashwinders at you.",
+    walkthrough: [
+      "After Tomes and Tribulations, talk to Claire Beaumont at her stall in Upper Hogsfield.",
+      "Fly to the first marked goblin camp and clear it.",
+      "Clear the second camp.",
+      "Return to Claire."
+    ],
     video: "https://www.youtube.com/watch?v=BwSwv88o6VQ"
   },
 {
@@ -18553,14 +19092,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Hogwarts Legacy",
     region: "Hogwarts",
     title: "All's Well That Ends Bell",
-    location: "Hogwarts / Bell Tower Courtyard",
+    location: "Music Room, Bell Tower Wing",
     length: "medium",
     difficulty: "Low",
     reward: "Gear, castle lore",
-    summary:
-      "Solve the enchanted Owl Bell Tower puzzle to lay a restless matter to rest at Hogwarts.",
-    aiTip:
-      "Ring the bells in the order the owl statues indicate to complete the puzzle.",
+    summary: "Hufflepuff Evangeline Bardsley needs the Music Room bells put back in place. Find them with Revelio and levitate them home.",
+    aiTip: "Ring the bells in the order the owl statues indicate to complete the puzzle.",
+    walkthrough: [
+      "After In the Shadow of the Mine, talk to Evangeline Bardsley near the DADA Tower during the day.",
+      "Go to the Music Room in the Bell Tower Wing.",
+      "Find the two bells with Revelio — one on the stairs, one on a ledge two flights up.",
+      "Move each bell into place with Wingardium Leviosa.",
+      "Return to Evangeline for the Erumpent Horn conjuration."
+    ],
     video: "https://www.youtube.com/watch?v=nchawQBXB10"
   },
 {
@@ -18568,16 +19112,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Main Story",
     game: "Hogwarts Legacy",
-    region: "Highlands",
+    region: "Hogsmeade",
     title: "In the Shadow of the Mine",
-    location: "Goblin Mine / Feldcroft",
+    location: "The Overlook, north of Hogsmeade",
     length: "medium",
     difficulty: "Medium",
     reward: "Ranrok arc progress, gear",
-    summary:
-      "Descend into a goblin mine with the translated manuscript to uncover Ranrok's loyalists at work — a key step in the Stop Ranrok and Rookwood arc.",
-    aiTip:
-      "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
+    summary: "Sebastian and you search a goblin mine near the Overlook for the next piece of Isidora's triptych.",
+    aiTip: "Follows It's All Gobbledegook; bring light for the dark shafts and expect loyalist ambushes.",
+    walkthrough: [
+      "After Professor Weasley's Assignment (level 22), meet Sebastian at the Overlook north of Hogsmeade at night.",
+      "Fight through the goblin camp, or sneak up the ledges and through the low tunnel into the mine.",
+      "Deal with the spiders and loyalists inside, burning cobwebs with Incendio.",
+      "Hit the three wall symbols to open the door.",
+      "Take the portrait, place it in the triptych and talk to Sebastian."
+    ],
     video: "https://www.youtube.com/watch?v=fE3D0ds2WsU"
   },
 {
@@ -18591,10 +19140,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Gold, gear",
-    summary:
-      "Help a troubled resident of Upper Hogsfield lay a painful family matter — and a brother's fate — to rest.",
-    aiTip:
-      "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
+    summary: "Claire Beaumont's brother Bardolph has gone missing near North Ford Bog. Find out what happened to him.",
+    aiTip: "Unlocks on your first visit to Upper Hogsfield, just northeast of Hogsmeade.",
+    walkthrough: [
+      "After Tomes and Tribulations (level 20 recommended), pick up the quest in Upper Hogsfield.",
+      "Go to the marker near the North Ford Bog Entrance Floo Flame.",
+      "Defeat the Inferi, then Bardolph's own Inferius.",
+      "Search the area for his diary entries and take his tattered jumper.",
+      "Bring it back to his sister Claire Beaumont."
+    ],
     video: "https://www.youtube.com/watch?v=QFhMvz-HwUM"
   },
 {
@@ -18608,10 +19162,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Gold, gear",
-    summary:
-      "Defend the village of Brocburrow when a rampaging mountain troll comes crashing through.",
-    aiTip:
-      "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
+    summary: "Alexandra Rickett in Brocburrow wants the mountain troll threatening the hamlet dealt with.",
+    aiTip: "Reachable once you have a broom; dodge the troll's slams and counter with heavy spells.",
+    walkthrough: [
+      "After Tomes and Tribulations (level 13+), talk to Alexandra Rickett in Brocburrow.",
+      "Climb the hill south of the hamlet to the troll.",
+      "Land combos to fill your Ancient Magic meter, then use it for big damage; throw rocks and explosive barrels too.",
+      "Defeat the troll and return to Alexandra."
+    ],
     video: "https://www.youtube.com/watch?v=lY1IgeVz9Y8"
   },
 {
