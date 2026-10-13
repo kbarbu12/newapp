@@ -1,9 +1,43 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-10
+**Last updated:** 2026-10-13
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-10-11 → 13 — video candidates for every game, quest cleanup, Pillars I text
+
+### Video candidates for all search-URL quests (not shipped — owner review)
+- Every quest whose `video` was a YouTube search URL now has a proposed
+  `watch?v=` link or was found to be bad data. **1,439 candidates across 18
+  games**, saved in `docs/video-candidates/` (one JSON per game + README).
+  New this session: Cyberpunk 128, Valhalla 142, Skyrim 130, Zelda TotK 217,
+  plus 15 leftovers (Skyrim, Witcher 3, Pillars I & II).
+- One combined review page with per-game "Done reviewing", flags and a
+  copyable report: https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — it
+  replaces the per-game pages. Next: owner pastes the report → one PR per
+  finished game.
+- Candidates are WebSearch-sourced and can't be watched or oEmbed-checked
+  from this environment (YouTube is blocked), so owner review is required.
+
+### Quest cleanup (PR #117 → **v2.3.14**)
+- Removed 29 entries (2,515 → 2,486): duplicates #613, #1515; invented or
+  placeholder quests in Ghost of Yōtei (5), Horizon (2), Sekiro (1), Skyrim
+  (2), Pillars I (5) and Deadfire (12). Fixed #1469 → The Staff of Magnus,
+  #1491 → Stormcloaks, #1492 → Battle for Windhelm. CHANGELOG PR #118.
+
+### Pillars of Eternity placeholder text (this PR)
+- 64 PoE1 entries had generic placeholder summaries/steps/rewards. Each was
+  verified by web search (sorcerers.net / GameBanshee snippets — the wikis
+  can't be fetched from here). **62 rewritten** with real summary, aiTip,
+  walkthrough and reward; regions fixed (Elms' Reach quests and At the Mercy
+  of the Tribes → Twin Elms; Siege of Crägholdt → White March; The Grey
+  Sleeper → Longwatch Falls). #2407 renamed Unworn Eorn → **Unwanted**.
+  Removed #2379 (duplicate of #760 The Champion of Berath) and #2361 "The
+  Final Confrontation" (not a quest; the finale is #762 Sun in Shadow).
+- Still to do the same way: Deadfire (35 placeholders), AC Odyssey (6).
 
 ---
 
