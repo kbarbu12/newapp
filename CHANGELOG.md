@@ -3,6 +3,19 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-13
+
+- **Replace placeholder text on 62 Pillars of Eternity quests** (PR #119) —
+  `v2.3.15` patch. Real summary, aiTip, walkthrough and reward for #2359–#2444,
+  verified against guides. Regions fixed (Elms' Reach quests, At the Mercy of
+  the Tribes and True to Form → Twin Elms; Siege of Crägholdt → White March;
+  The Grey Sleeper → Longwatch Falls). #2407 Unworn Eorn → Unwanted. Removed
+  #2379 (duplicate of #760) and #2361 "The Final Confrontation" (not a quest).
+  Quest count 2,486 → 2,484.
+- **Replace placeholder text on 34 Deadfire quests** (PR #120). Same treatment
+  for #2445–#2540; #2445 Helping Hands Main Quest → Side Quest. #2503 Her Last
+  Request left unchanged (no guide details).
+
 ## 2026-10-12
 
 - **Remove 29 fabricated/duplicate quests and fix 3 Skyrim entries** (PR #117) —
