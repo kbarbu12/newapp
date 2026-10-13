@@ -37,7 +37,16 @@
   Sleeper → Longwatch Falls). #2407 renamed Unworn Eorn → **Unwanted**.
   Removed #2379 (duplicate of #760 The Champion of Berath) and #2361 "The
   Final Confrontation" (not a quest; the finale is #762 Sun in Shadow).
-- Still to do the same way: Deadfire (35 placeholders), AC Odyssey (6).
+- Merged to staging as PR #119.
+
+### Deadfire placeholder text
+- 35 Deadfire entries had the same placeholder text. **34 rewritten** from
+  guides (sorcerers.net / Fextralife / guides4gamers snippets), with real
+  summary, aiTip, walkthrough, reward and specific location. #2445 Helping
+  Hands recategorised Main Quest → Side Quest (it's a side quest at Vilario's
+  Rest). #2503 Her Last Request left as is: it's a real task but no guide
+  details could be found.
+- Still to do: AC Odyssey's 6 entries without a guide source.
 
 ---
 
