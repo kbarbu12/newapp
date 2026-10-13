@@ -12,12 +12,10 @@ All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details 
 `PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
 ## Upgrade quest videos from search URLs to real `watch?v=` links
-1,445 of 2,484 quest `video` fields (as of 2026-10-13) are YouTube *search*
-URLs (`results?search_query=…`). **1,439 of them now have a proposed
-`watch?v=` link** in `docs/video-candidates/` (18 games). The other 6 have
-none yet: #108, #1432 and #2461 have no single matching video, and the three
-Skyrim entries renamed in v2.3.14 (#1469, #1491, #1492) can now be searched
-under their correct names. All candidates await the owner's review on
+1,444 of 2,480 quest `video` fields (as of 2026-10-13) are YouTube *search*
+URLs (`results?search_query=…`). **1,441 of them now have a proposed
+`watch?v=` link** in `docs/video-candidates/` (18 games). The other 3 (#108,
+#1432, #2461) have no single matching video. All candidates await the owner's review on
 https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
 owner marks done, swapping out flagged links. See PROGRESS.md "Session
 2026-10-11 → 13".
