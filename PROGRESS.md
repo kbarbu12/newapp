@@ -71,8 +71,15 @@
   prod build: all 105 Odyssey tips/rewards render, the 4 removed entries are
   gone and their originals remain, 0 page errors.
 
-- Still to do: AC Odyssey's 6 entries without a guide source; Deadfire #2503;
-  owner review of the 1,441 video candidates; owner to decide whether
+### Last 7 placeholder quests
+- A fresh search found guides for all of them. Rewritten with real summary,
+  aiTip, walkthrough, reward and location: AC Odyssey #2143 Bare It All,
+  #2149 No More Bull, #2151 The Grand Minotaur → **The Grand Minotour**
+  (in-game spelling), #2168 A Godless Blight, #2170 A Treasury of Legends,
+  #2180 Throwing the Bet; Deadfire #2503 Her Last Request. No placeholder
+  quest text remains.
+
+- Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
 

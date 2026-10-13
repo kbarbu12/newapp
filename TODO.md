@@ -20,12 +20,6 @@ https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
 owner marks done, swapping out flagged links. See PROGRESS.md "Session
 2026-10-11 → 13".
 
-## Replace remaining placeholder quest text
-AC Odyssey has 6 entries with generic placeholder text (no guide source
-found yet) and Deadfire has 1 (#2503 Her Last Request — a real Dunnage task,
-but no guide details found). Pillars I and the other 34 Deadfire entries were
-rewritten 2026-10-13. Verify against guides first — some may not be real quests.
-
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
 build** only, because this environment's network policy blocks the live
