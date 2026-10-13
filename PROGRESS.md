@@ -28,7 +28,7 @@
   (2), Pillars I (5) and Deadfire (12). Fixed #1469 → The Staff of Magnus,
   #1491 → Stormcloaks, #1492 → Battle for Windhelm. CHANGELOG PR #118.
 
-### Pillars of Eternity placeholder text (this PR)
+### Pillars of Eternity placeholder text
 - 64 PoE1 entries had generic placeholder summaries/steps/rewards. Each was
   verified by web search (sorcerers.net / GameBanshee snippets — the wikis
   can't be fetched from here). **62 rewritten** with real summary, aiTip,
@@ -59,8 +59,22 @@
   real video, so walkthrough steps aren't visible for most Odyssey quests.
 - Video candidates added for the three renamed Skyrim quests (#1469, #1491,
   #1492); review page now has 1,442 links.
+- Merged to staging as PR #122.
 
-- Still to do: AC Odyssey's 6 entries without a guide source.
+### Remove 4 duplicate/fake quests (PR #123)
+- AC Odyssey #2186–#2188 (duplicates of Xenia's treasure hunts #2118–#2120)
+  and Skyrim #1502 "Rescue from Fort Amol" (not a real quest). Quest count
+  2,484 → 2,480. #1502's video candidate dropped; review page now 1,441 links.
+
+### Prod deploy → **v2.3.16**
+- PRs #122 + #123 promoted to `main` (CHANGELOG PR #124). Prod QA on the local
+  prod build: all 105 Odyssey tips/rewards render, the 4 removed entries are
+  gone and their originals remain, 0 page errors.
+
+- Still to do: AC Odyssey's 6 entries without a guide source; Deadfire #2503;
+  owner review of the 1,441 video candidates; owner to decide whether
+  walkthrough steps should show alongside a video, and whether to delete the
+  13 old per-game review pages.
 
 ---
 

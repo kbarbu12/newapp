@@ -3,6 +3,12 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-13 (3)
+
+- **Log 2026-10-13 quest removals and v2.3.16 deploy in PROGRESS.md**
+  (PR #125) — `v2.3.17` patch. Docs only: brings the session log up to date
+  (PR #122/#123/#124, prod QA results, open items). No app or data change.
+
 ## 2026-10-13 (2)
 
 - **Replace generic AI tips and rewards on 105 AC Odyssey side quests**
