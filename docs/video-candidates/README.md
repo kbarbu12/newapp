@@ -20,4 +20,4 @@ Format: `{questId: videoId}`, except `vidcands.json` (rows `{id,g,t,c,u,v}`,
 | vh.json | AC Valhalla | 142 | claude.ai/artifact/KdyNpABgM1ymigYTq7a9ei |
 | sky.json | Skyrim | 130 | claude.ai/artifact/TmiWpbGzxapKRM62k7GYUw |
 | totk.json | Zelda: Tears of the Kingdom | 217 | claude.ai/artifact/MStSqBWsCMyM9jLagXoGQg |
-| left.json | Leftovers: Skyrim, Witcher 3, Pillars I & II | 15 | claude.ai/artifact/UDZhgTgMtErLokRpSjajSn |
+| left.json | Leftovers: Skyrim, Witcher 3, Pillars I & II | 18 | claude.ai/artifact/UDZhgTgMtErLokRpSjajSn |

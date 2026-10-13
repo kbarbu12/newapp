@@ -46,6 +46,20 @@
   Hands recategorised Main Quest → Side Quest (it's a side quest at Vilario's
   Rest). #2503 Her Last Request left as is: it's a real task but no guide
   details could be found.
+- Merged to staging as PR #120; shipped with #119 as **v2.3.15**.
+
+### AC Odyssey specific AI tips and rewards
+- 114 AC Odyssey side quests shared one generic aiTip ("Sync the nearest
+  viewpoint…") and one generic reward line. **105 now have a quest-specific
+  tip and reward** (named items where guides list them — e.g. Secretive
+  Gauntlets, Bow of the Muses, Atlantean Blade; otherwise "XP and drachmae",
+  since guides' XP figures scale with level). Left alone: the 6 placeholder
+  entries and #2186–#2188, which duplicate #2118–#2120.
+- Note: the app shows the video instead of the step list when a quest has a
+  real video, so walkthrough steps aren't visible for most Odyssey quests.
+- Video candidates added for the three renamed Skyrim quests (#1469, #1491,
+  #1492); review page now has 1,442 links.
+
 - Still to do: AC Odyssey's 6 entries without a guide source.
 
 ---
