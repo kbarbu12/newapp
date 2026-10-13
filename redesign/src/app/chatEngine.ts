@@ -133,7 +133,7 @@ function detail(q: Quest): string {
   ];
   if (q.aiTip) lines.push("", `Tip: ${q.aiTip}`);
   if (q.reward) lines.push("", `Reward: ${q.reward}`);
-  if (!q.video && q.walkthrough?.length) {
+  if (q.walkthrough?.length) {
     lines.push("", "Walkthrough:", ...q.walkthrough.slice(0, 6).map((s, i) => `${i + 1}. ${s}`));
   }
   return lines.join("\n");
@@ -180,9 +180,10 @@ function attributeAnswer(lc: string, q: Quest): string | null {
   if (/\b(tip|hint|advice|trick|strateg)/.test(lc))
     return q.aiTip ? `Tip for ${q.title}: ${q.aiTip}` : `I don't have a specific tip for ${q.title}.`;
   if (/\b(walkthrough|steps?|guide|how)\b/.test(lc)) {
-    if (q.video) return `${q.title} has a walkthrough video — link below.`;
     if (q.walkthrough?.length)
-      return `${q.title} walkthrough:\n` + q.walkthrough.map((s, i) => `${i + 1}. ${s}`).join("\n");
+      return `${q.title} walkthrough:\n` + q.walkthrough.map((s, i) => `${i + 1}. ${s}`).join("\n") +
+        (q.video ? "\n\nThere's also a walkthrough video — link below." : "");
+    if (q.video) return `${q.title} has a walkthrough video — link below.`;
     return `I don't have step-by-step directions for ${q.title}.`;
   }
   if (/\bvideo\b/.test(lc))
