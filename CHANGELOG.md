@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-13 (2)
+
+- **Replace generic AI tips and rewards on 105 AC Odyssey side quests**
+  (PR #122) — `v2.3.16` patch. Each of #2071–#2185 gets a quest-specific
+  aiTip and a specific reward (named items where guides list them, e.g.
+  Secretive Gauntlets, Bow of the Muses, Atlantean Blade). Also adds unshipped
+  video candidates for three renamed Skyrim quests (docs only).
+- **Remove 4 duplicate/fake quests** (PR #123). AC Odyssey #2186–#2188
+  (duplicates of Xenia's treasure hunts #2118–#2120) and Skyrim #1502 "Rescue
+  from Fort Amol" (not a real quest). Quest count 2,484 → 2,480.
+
 ## 2026-10-13
 
 - **Replace placeholder text on 62 Pillars of Eternity quests** (PR #119) —
