@@ -94,6 +94,13 @@
   #509 Ollivanders & the Perfect Wand, #868 In the Shadow of Revelation —
   owner to confirm removal.
 
+- **God of War Ragnarök:** all 65 video quests got 3–7 guide-sourced steps.
+  Every title checked out as real, but realms/stories were often wrong
+  (e.g. Groa's Secret → Alfheim, Sigrún's Curse → Midgard, The Broken Prison
+  is the real-Tyr prison, Scent of Survival follows Helka to the Crater).
+  "In Service to Asgard" → "In Service of Asgard". Added a **Jötunheim** realm
+  filter option (The Lost Sanctuary, Ironwood).
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.

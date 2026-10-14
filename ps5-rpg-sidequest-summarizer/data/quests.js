@@ -227,6 +227,7 @@ const subFilterConfig = {
     options: [
       { value: "Midgard", text: "Midgard" },
       { value: "Svartalfheim", text: "Svartalfheim" },
+      { value: "Jotunheim", text: "Jötunheim" },
       { value: "Vanaheim", text: "Vanaheim" },
       { value: "Alfheim", text: "Alfheim" },
       { value: "Muspelheim", text: "Muspelheim" },
@@ -1288,16 +1289,21 @@ const quests = [
     id: 45,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Svartalfheim",
+    region: "Midgard",
     title: "The Lost Lindwyrms",
-    location: "Svartalfheim & Vanaheim",
+    location: "Sindri's House → Svartalfheim & Vanaheim rifts",
     length: "long",
     difficulty: "Medium",
     reward: "Gale Flame, Lindwyrm Scales, 4500 XP",
-    summary:
-      "Ratatoskr tasks Kratos with capturing six escaped Lindwyrms scattered across Svartalfheim and Vanaheim. The quest involves tracking down creatures in hidden locations across two realms while enjoying Ratatoskr's sharp-tongued banter.",
-    aiTip:
-      "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade.",
+    summary: "Ratatoskr tasks Kratos with capturing six escaped Lindwyrms scattered across Svartalfheim and Vanaheim. The quest involves tracking down creatures in hidden locations across two realms while enjoying Ratatoskr's sharp-tongued banter.",
+    aiTip: "Wait until you have access to both realms fully before starting. Collecting all Gale Sparks completes the Draupnir Spear upgrade.",
+    walkthrough: [
+      "After The Word of Fate, talk to Ratatoskr at Sindri's House and take the Lindwyrm Trap from the blanket under his tree.",
+      "Get the Draupnir Spear (Forging Destiny) — you need it to reach most of them.",
+      "Catch the four Svartalfheim Lindwyrms: The Forge, Alberich Hollow (after Ormstunga), Alberich Island and The Applecore.",
+      "Catch the two on Vanaheim's Plains: in the Crimson Dread arena corner and near the eastern Celestial Altar.",
+      "Return all six to Ratatoskr (possible only after Creatures of Prophecy)."
+    ],
     video: "https://www.youtube.com/watch?v=O1bWR8i5Krg"
   },
 {
@@ -1306,30 +1312,40 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Muspelheim",
     title: "Defend Your Valor",
-    location: "Muspelheim",
+    location: "The Crucible, Muspelheim",
     length: "medium",
     difficulty: "High",
     reward: "Queen's Armor, Queen's Roar Runic Summon, 4000 XP",
-    summary:
-      "Freya seeks to reclaim her Valkyrie title by defeating Gná, one of the toughest bosses in the game. This endgame favour tests your combat mastery in an intense one-on-one battle.",
-    aiTip:
-      "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
+    summary: "Post-game: the Valkyrie Gná, the game's super boss, waits in a hidden arena in Muspelheim's Crucible.",
+    aiTip: "Gná is arguably the hardest boss in the game. Equip your best armor and fully upgrade the Draupnir Spear before attempting this fight.",
+    walkthrough: [
+      "Finish the story and The Last Remnants of Asgard favor.",
+      "In Muspelheim, swing across the Remnant of Asgard east of the Crucible's central area to her arena.",
+      "Pick up the item in the middle to start the fight.",
+      "Defeat Gná — her dodge and parry windows are tiny; bring a strong shield, Celestial Panacea and big runic attacks.",
+      "When her health is empty, finish her with R3."
+    ],
     video: "https://www.youtube.com/watch?v=sTJHHgPxCFM"
   },
 {
     id: 47,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Vanaheim",
+    region: "Alfheim",
     title: "Freyr's Gift",
     location: "The Forbidden Sands, Alfheim",
     length: "short",
     difficulty: "Low",
     reward: "Invoke the Storm Runic Summon, Whispering Slabs",
-    summary:
-      "A brief but lore-rich favour at a large statue west of The Burrows in Alfheim. Kratos solves a light crystal puzzle to activate Freyr's monument while Mimir narrates the history of elven cooperation.",
-    aiTip:
-      "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability.",
+    summary: "A brief but lore-rich favour at a large statue west of The Burrows in Alfheim. Kratos solves a light crystal puzzle to activate Freyr's monument while Mimir narrates the history of elven cooperation.",
+    aiTip: "This takes only a few minutes and rewards a solid Runic Summon. Grab it early when exploring Alfheim for a useful combat ability.",
+    walkthrough: [
+      "After The Reckoning, go to the large statue west of The Burrows in The Forbidden Sands.",
+      "Cross the light bridge to start the favor.",
+      "Clear the growths with the axe and Freya's Sonic Arrows.",
+      "Move the light crystals between pedestals and hilltop plinths to open the path.",
+      "Take Freyr's Gift in front of the statue, then set a crystal back on a plinth to bring the bridge back."
+    ],
     video: "https://www.youtube.com/watch?v=CxURjVeuuKA"
   },
 {
@@ -2144,14 +2160,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Svartalfheim",
     title: "The Spirit of Rebellion",
-    location: "Vanaheim, The Crater",
+    location: "Nidavellir → Dragon Beach, Svartalfheim",
     length: "long",
     difficulty: "High",
     reward: "Rond of Affliction shield attachment, Chaos Flame",
-    summary:
-      "Help the Vanir resistance fight back against Asgardian occupation in Vanaheim's massive Crater region. This sprawling favour chain opens up one of the game's largest optional areas with day/night cycle mechanics.",
-    aiTip:
-      "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
+    summary: "Durlin, a dwarf rebel, asks Kratos to recover the Hammer of Revolution from Dragon Beach in Svartalfheim.",
+    aiTip: "The Crater is enormous — use the Celestial Altars to switch between day and night, as different paths and enemies appear at different times.",
+    walkthrough: [
+      "After getting the Draupnir Spear (Forging Destiny), talk to Durlin near Nidavellir before the Mystic Gateway.",
+      "Travel to The Watchtower's Mystic Gateway and sail east to Dragon Beach; deal with the Tatzelwurms.",
+      "Climb the chain and use the Draupnir Spear to reach higher ground (a spirit gives you The Lost Treasure).",
+      "Use the rune slate and read the runic word so the giant dwarf statue lifts its hammer.",
+      "Open the chest behind it for the Hammer of Revolution and return it to Durlin in the Nidavellir tavern."
+    ],
     video: "https://www.youtube.com/watch?v=6PdPpJlonMM"
   },
 {
@@ -3224,30 +3245,39 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Freya's Missing Peace",
-    location: "Vanaheim",
+    location: "Cliffside Ruins → Vanir Shrine, Vanaheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Sigrun's Curse shield attachment, Freya companion upgrade",
-    summary:
-      "Help Freya reconnect with her homeland Vanaheim and begin healing from her traumatic past with Odin. A quieter quest focused on character development that deepens Freya's arc beyond her role as a combat companion.",
-    aiTip:
-      "Exhaust all dialogue options during the quiet moments — Freya's backstory is delivered through these scenes. Completing her personal quests unlocks combat dialogue upgrades.",
+    summary: "With Freya as companion, follow the river to Goddess Falls and the Vanir Shrine to recover her old belongings and sword.",
+    aiTip: "Exhaust all dialogue options during the quiet moments — Freya's backstory is delivered through these scenes. Completing her personal quests unlocks combat dialogue upgrades.",
+    walkthrough: [
+      "Unlock it by exploring before the Mystic Gateway at the end of The Reckoning (finishing The Mysterious Orb opens the Cliffside Ruins path). Freya must be your companion.",
+      "Head down the river to the Cliffside Ruins, use the sigils and Blades of Chaos to drop the chain and climb.",
+      "Continue down the river to Goddess Falls, climb it and open the vine-covered wall.",
+      "Inside the Vanir Shrine, defeat the Soul Eater and other enemies and cross the west bridge.",
+      "Defeat the two Revenant Hags and claim Freya's belongings, including her sword Mardoll."
+    ],
     video: "https://www.youtube.com/watch?v=LkmFAuvkxVQ"
   },
 {
     id: 160,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Alfheim",
+    region: "Vanaheim",
     title: "In Plain Sight",
-    location: "Midgard",
+    location: "The Plains, Vanaheim",
     length: "short",
     difficulty: "Low",
     reward: "Muspelheim Seed piece, unique armour enchantment",
-    summary:
-      "Investigate a series of strange occurrences in Midgard that seem connected to hidden Asgardian activity. A short favour chain that rewards exploration and environmental observation.",
-    aiTip:
-      "Use Atreus's ability to read rune inscriptions throughout the area — they point to hidden compartments. The Muspelheim Seed piece is crucial for unlocking endgame challenge content.",
+    summary: "An animal corpse on Vanaheim's Plains leads to the creature that killed it — a Soul Eater. One of the three Hunter's Brand favors.",
+    aiTip: "Use Atreus's ability to read rune inscriptions throughout the area — they point to hidden compartments. The Muspelheim Seed piece is crucial for unlocking endgame challenge content.",
+    walkthrough: [
+      "After Scent of Survival, find the animal corpse on The Plains to start the favor.",
+      "Investigate the trail and the area around the corpse.",
+      "Defeat the Soul Eater (hit its orbs to drop its guard).",
+      "Collect the Hunter's Brand — three of them unlock the Hunter's set."
+    ],
     video: "https://www.youtube.com/watch?v=w7nx2a8ocmg"
   },
 {
@@ -3279,14 +3309,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Muspelheim",
     title: "The Crucible",
-    location: "Muspelheim",
+    location: "The Crucible, Muspelheim",
     length: "long",
     difficulty: "High",
     reward: "Chaos Flames, Muspelheim armour set materials",
-    summary:
-      "Complete a series of escalating combat challenges in the fiery realm of Muspelheim to earn Chaos Flames for upgrading the Blades of Chaos. Six initial trials lead to harder Surtr's Crucible challenges for the best rewards.",
-    aiTip:
-      "Complete the six initial trials before attempting Surtr's Crucible. Lunda's Poison armour works exceptionally well here — poison on parry shreds through the challenge health gates.",
+    summary: "Find both halves of the Muspelheim Seed in Svartalfheim, then take on the six combat trials at the Crucible's three sword hilts.",
+    aiTip: "Complete the six initial trials before attempting Surtr's Crucible. Lunda's Poison armour works exceptionally well here — poison on parry shreds through the challenge health gates.",
+    walkthrough: [
+      "Open the Legendary Chest at Modvitnir's Rig in Svartalfheim for the first Muspelheim Seed half (this starts the favor).",
+      "Get the second half from the Legendary Chest at Alberich Hollow (needs the Draupnir Spear).",
+      "Travel to Muspelheim through a Mystic Gateway.",
+      "At each of the three sword hilts, complete the two marked trials (time limits, no-damage runs, kill counts).",
+      "Finish all six to complete the favor and unlock The Final Challenges."
+    ],
     video: "https://www.youtube.com/watch?v=YnnRcfIMHNA"
   },
 {
@@ -8464,10 +8499,16 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Story start, Atreus's search",
-    summary:
-      "As the great winter rages, Kratos and Atreus are drawn toward a prophecy and an unwelcome visit from Freya and Odin's envoy.",
-    aiTip:
-      "The opening teaches the new combat and Atreus's role — experiment with the Leviathan and Blades.",
+    summary: "Three years into Fimbulwinter, Kratos goes after Atreus in the wilds of Midgard — and Thor and Odin come knocking at the door.",
+    aiTip: "The opening teaches the new combat and Atreus's role — experiment with the Leviathan and Blades.",
+    walkthrough: [
+      "Ride the wolf sled home, knocking Freya off in the quick-time events.",
+      "Follow Faye through the dream, clearing the logs on the ledge.",
+      "Track Atreus to the wolves' den — break the cracked, iced wall with three heavy attacks and slide through.",
+      "Fight the raiders and the bear on the way back.",
+      "Return home for Thor and Odin's visit, follow Sindri and meet him and Brok at the Mystic Gateway.",
+      "Retrieve Mimir and travel to Svartalfheim."
+    ],
     video: "https://www.youtube.com/watch?v=KENiY0BF9bU"
   },
 {
@@ -8480,26 +8521,37 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Tyr freed, realm travel opens",
-    summary:
-      "Kratos and Atreus seek the lost war god Tyr, journeying to the dwarven realm of Svartalfheim.",
-    aiTip:
-      "Svartalfheim is huge — grab the boat and revisit for favors once you have new tools.",
+    summary: "Kratos and Atreus seek the lost war god Tyr, journeying to the dwarven realm of Svartalfheim.",
+    aiTip: "Svartalfheim is huge — grab the boat and revisit for favors once you have new tools.",
+    walkthrough: [
+      "After Surviving Fimbulwinter, start on the shore of Svartalfheim's Aurvangar Wetlands and free the boat.",
+      "Freeze the geyser with the axe for the Nornir Chest, then turn the wheel with the Blades of Chaos to open the waterway.",
+      "Sail to Nidavellir and take the boat to Durlin's office.",
+      "Repair and ride the train to the mines; at the blocked entrance take the cave on the left (Sonic Arrows clear the path).",
+      "Search the mines for Tyr, pursue and free him.",
+      "Escape with Tyr through the Mystic Gateway."
+    ],
     video: "https://www.youtube.com/watch?v=-Ek2YXlKE6s"
   },
 {
     id: 412,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Svartalfheim",
+    region: "Vanaheim",
     title: "The Reckoning",
-    location: "Svartalfheim",
+    location: "Vanaheim (Southern Wilds)",
     length: "medium",
     difficulty: "High",
     reward: "Story progression, boss fight",
-    summary:
-      "A confrontation forces Kratos to face old habits and a formidable foe in the mines.",
-    aiTip:
-      "Learn to parry and use runic attacks; this fight rewards defensive timing.",
+    summary: "Kratos and Freya travel to Vanaheim to find and destroy the source of the curse that binds Freya to Midgard.",
+    aiTip: "Learn to parry and use runic attacks; this fight rewards defensive timing.",
+    walkthrough: [
+      "After The Lost Sanctuary, follow Brok to the Mystic Gateway and travel to Vanaheim.",
+      "Cross the Southern Wilds, shooting the poisonous plants from a distance.",
+      "Defeat the Forest Ancient (earn a Chaos Flame).",
+      "Fight through to the source of Freya's curse, including the Vanadis boss fight, and destroy it.",
+      "Reach Freya's childhood home and speak with Freyr."
+    ],
     video: "https://www.youtube.com/watch?v=LV4K4jelGJA"
   },
 {
@@ -8508,46 +8560,61 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Midgard",
     title: "Old Friends",
-    location: "Midgard",
+    location: "Lake of Nine, Midgard",
     length: "medium",
     difficulty: "Medium",
     reward: "Ally reunion, story beat",
-    summary:
-      "Kratos reconnects with an old ally to push the quest forward.",
-    aiTip:
-      "A story-focused chapter — enjoy the character work between fights.",
+    summary: "Playing as Atreus, travel with Sindri to the Lake of Nine to speak with the World Serpent Jörmungandr, then head on to Alfheim.",
+    aiTip: "A story-focused chapter — enjoy the character work between fights.",
+    walkthrough: [
+      "After The Quest for Tyr, enter the Mystic Gateway as Atreus with Sindri.",
+      "At the Shores of Nine, break barriers with Sonic Arrows (shoot both sides of the debris blockage).",
+      "Let Sindri fix the elevator, ride it up and speak with Jörmungandr.",
+      "Head back to the gateway and speak with Freya.",
+      "Return to Sindri's, then travel to Alfheim."
+    ],
     video: "https://www.youtube.com/watch?v=dnmnwVnFkhI"
   },
 {
     id: 414,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Vanaheim",
+    region: "Alfheim",
     title: "Groa's Secret",
-    location: "Vanaheim",
+    location: "Temple of Light, Alfheim",
     length: "long",
     difficulty: "Medium",
     reward: "Prophecy insight, Vanaheim access",
-    summary:
-      "The party uncovers the giant Groa's hidden knowledge about the war to come.",
-    aiTip:
-      "Vanaheim opens up richly here — mark favors to return to after the story.",
+    summary: "Atreus and Sindri search Alfheim's Temple of Light for the shrine of the giant Groa, hoping it holds answers about the prophecy.",
+    aiTip: "Vanaheim opens up richly here — mark favors to return to after the story.",
+    walkthrough: [
+      "After Old Friends, step out of the Mystic Gateway in Alfheim.",
+      "Light the braziers for the Nornir Chest and solve the light-deflection puzzles.",
+      "Use the twilight crystals at the doors of light and answer the Twilight Stone riddle at the Strond.",
+      "Reach Groa's shrine atop the Temple of Light, then descend the Light Well.",
+      "Return to the Mystic Gateway and go back to Sindri's."
+    ],
     video: "https://www.youtube.com/watch?v=UY7nTA-5wbk"
   },
 {
     id: 415,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Alfheim",
+    region: "Midgard",
     title: "The Word of Fate",
-    location: "Alfheim",
+    location: "Well of Urd, Lake of Nine (Midgard)",
     length: "long",
     difficulty: "High",
     reward: "Norns' prophecy revealed",
-    summary:
-      "Kratos seeks the Norns to learn whether fate can be defied.",
-    aiTip:
-      "A revelatory chapter with tense encounters — keep resurrection stones handy.",
+    summary: "Kratos and Freya follow the wolves on the Norns' scent across Midgard to the Well of Urd to ask whether fate can be changed.",
+    aiTip: "A revelatory chapter with tense encounters — keep resurrection stones handy.",
+    walkthrough: [
+      "After Into the Fire, prepare the sled and go through the Mystic Gateway to Midgard.",
+      "Let the wolves follow the Norns' scent — watch their heads to stay on the trail.",
+      "At King's Grave, fight the raiders (burn frost shields with the Blades of Chaos).",
+      "Defeat the Frost Phantom and reach the Well of Urd.",
+      "Speak with the Norns, then return to Sindri's."
+    ],
     video: "https://www.youtube.com/watch?v=VDR434Xe3TM"
   },
 {
@@ -8560,42 +8627,56 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Draupnir Spear obtained",
-    summary:
-      "Kratos forges a legendary new weapon to change the odds against Odin.",
-    aiTip:
-      "The Draupnir Spear is a build-defining weapon — respec runic attacks around it.",
+    summary: "Kratos forges a legendary new weapon to change the odds against Odin.",
+    aiTip: "The Draupnir Spear is a build-defining weapon — respec runic attacks around it.",
+    walkthrough: [
+      "After The Word of Fate, travel to Svartalfheim's Myrkr Tunnels with Brok.",
+      "Break the stones so Brok can repair the lift mechanism.",
+      "Clear the vines with the Blades, grapple to the right ledge and freeze the geysers to cross and raise the lift.",
+      "Follow Brok into the lake at The Forge and watch the cutscene.",
+      "Take the Draupnir Spear — it shatters the yellow cracks across the realms."
+    ],
     video: "https://www.youtube.com/watch?v=Pq0Y2xWFJd4"
   },
 {
     id: 417,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Helheim",
     title: "Reunion",
-    location: "Midgard",
+    location: "Helheim → Vanaheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Family reunited, story beat",
-    summary:
-      "Separated threads of the family come back together as Ragnarök nears.",
-    aiTip:
-      "Emotional pivot point — a lighter combat chapter.",
+    summary: "Kratos and Atreus reunite to stop Garm, the wolf Atreus freed in Helheim, before it tears the realms apart.",
+    aiTip: "Emotional pivot point — a lighter combat chapter.",
+    walkthrough: [
+      "After Unleashing Hel, meet Ratatoskr at the Mystic Gateway to open the route to Helheim.",
+      "Pursue Garm through Helheim and defeat it.",
+      "Return home to Sindri's.",
+      "Travel to Vanaheim, reach Freyr's Camp and walk with Hildisvini."
+    ],
     video: "https://www.youtube.com/watch?v=1a24wErDJ1c"
   },
 {
     id: 418,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Vanaheim",
     title: "Creatures of Prophecy",
-    location: "Multiple realms",
+    location: "Vanaheim (The Plains)",
     length: "long",
     difficulty: "High",
     reward: "Story climax build-up",
-    summary:
-      "The prophecy's pieces align as the realms edge toward open war.",
-    aiTip:
-      "Escalating encounters — upgrade armor at Brok and Sindri before proceeding.",
+    summary: "Freyr and Byggvir have been captured. Hunt for the wolves Sköll and Hati across Vanaheim to set things right.",
+    aiTip: "Escalating encounters — upgrade armor at Brok and Sindri before proceeding.",
+    walkthrough: [
+      "After Reunion, set out from Freyr's Camp to find Sköll and Hati.",
+      "Watch out for exploding plants; fight the Stalker and the Wisps early on.",
+      "Use the Draupnir Spear to break the pillar for the Leviathan's Roar Legendary Chest.",
+      "Track down the wolves and finish the fights.",
+      "Return to Freyr's Camp — Scent of Survival starts right after."
+    ],
     video: "https://www.youtube.com/watch?v=wIaaNVKjNQk"
   },
 {
@@ -8608,10 +8689,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Helheim confronted, story turn",
-    summary:
-      "A journey into Helheim forces a reckoning with grief and rage.",
-    aiTip:
-      "Helheim's frost enemies resist ice — favor the Blades of Chaos here.",
+    summary: "Atreus and Thrud slip into Helheim to find the last Mask Fragment — and Atreus's actions there unleash something terrible.",
+    aiTip: "Helheim's frost enemies resist ice — favor the Blades of Chaos here.",
+    walkthrough: [
+      "After Forging Destiny, enter Helheim as Atreus with Thrud.",
+      "Push through the linear opening, fighting Hel-Walkers, to the Docks of Vadgelmir.",
+      "Push the crate back to climb up and open the Legendary Chest (Falling Sky).",
+      "Release the heavy box with Sonic Arrows and an arrow to drop down.",
+      "Find the final Mask Fragment, repel the Hel-Walkers and find a way back to Asgard and Odin."
+    ],
     video: "https://www.youtube.com/watch?v=_m5u6Iam1bI"
   },
 {
@@ -8624,10 +8710,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Final battle begins",
-    summary:
-      "Ragnarök erupts as the realms unite against Asgard.",
-    aiTip:
-      "The war chapter is a spectacle gauntlet — bring your strongest setup.",
+    summary: "Ragnarök erupts as the realms unite against Asgard.",
+    aiTip: "The war chapter is a spectacle gauntlet — bring your strongest setup.",
+    walkthrough: [
+      "After The Summoning, get some rest at Tyr's Temple (Lunda's free Fate Breaker armour helps if you're under-levelled).",
+      "Sound the Gjallarhorn to start Ragnarök.",
+      "Fight through Asgard to reach the war machines.",
+      "Find Odin, then find Kratos ('Father') as Atreus.",
+      "Follow Angrboda to the end of the story."
+    ],
     video: "https://www.youtube.com/watch?v=52sv4ld-cFQ"
   },
 {
@@ -8640,10 +8731,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Free roam, cleanup unlocked",
-    summary:
-      "With the story's climax past, the realms open fully for remaining favors and challenges.",
-    aiTip:
-      "Now's the time to mop up favors, Berserkers, and collectibles across all nine realms.",
+    summary: "With the story's climax past, the realms open fully for remaining favors and challenges.",
+    aiTip: "Now's the time to mop up favors, Berserkers, and collectibles across all nine realms.",
+    walkthrough: [
+      "After the credits, return to Sindri's House and talk to Ratatoskr for the Yggdrasil Seeds.",
+      "Use the seeds on the locked Mystic Gateways to reach the new areas.",
+      "Start A Viking Funeral at Raeb's tavern in Svartalfheim for the story epilogue.",
+      "Take on the post-game favors: The Last Remnants of Asgard, Hel to Pay, Born From Fire and Gná."
+    ],
     video: "https://www.youtube.com/watch?v=QPY1levBDik"
   },
 {
@@ -8651,15 +8746,20 @@ const quests = [
     type: "side",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
-    title: "In Service to Asgard",
-    location: "Svartalfheim",
+    title: "In Service of Asgard",
+    location: "Bay of Bounty, Svartalfheim",
     length: "short",
     difficulty: "Low",
     reward: "Aurvangar Wetlands cleared, gear",
-    summary:
-      "Clear the Aesir raiders and machines fouling the Aurvangar Wetlands for the dwarves.",
-    aiTip:
-      "A good early favor to learn Svartalfheim traversal and grab Hacksilver.",
+    summary: "Raeb at the Nidavellir tavern wants the three Asgard-run mining rigs in the Bay of Bounty shut down.",
+    aiTip: "A good early favor to learn Svartalfheim traversal and grab Hacksilver.",
+    walkthrough: [
+      "Talk to Raeb in the Nidavellir tavern.",
+      "Sail to Modvitnir's Rig, hit the switch with your axe to open the gate and use the furnace to shut it down.",
+      "Go to Radsvinn's Rig east of The Watchtower, defeat the enemies and shut down its furnace.",
+      "At Althjof's Rig, blow open the wooden barricade with a red barrel and shut it down.",
+      "The favor completes when all three rigs are down."
+    ],
     video: "https://www.youtube.com/watch?v=QR8Sd1C5F54"
   },
 {
@@ -8668,14 +8768,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Svartalfheim",
     title: "The Lost Treasure",
-    location: "Svartalfheim",
+    location: "Dragon Beach → Alberich Hollow / Alberich Island",
     length: "short",
     difficulty: "Low",
     reward: "Legendary chest, gear",
-    summary:
-      "Follow a dwarven map to a hidden cache of treasure in Svartalfheim.",
-    aiTip:
-      "Solve the environmental clue to unseal the vault — good early upgrade loot.",
+    summary: "Follow a dwarven map to a hidden cache of treasure in Svartalfheim.",
+    aiTip: "Solve the environmental clue to unseal the vault — good early upgrade loot.",
+    walkthrough: [
+      "After getting the Draupnir Spear, take the favor from the Elder Wayfarer spirit on Dragon Beach.",
+      "In Alberich Hollow, clear the ore and debris with fire bombs and defeat Ormstunga; loot the Legendary Chest after the boss.",
+      "Find the spirit's son in the cave left of the giant dwarven statue.",
+      "Sail north to Alberich Island for the last treasure (the Berserker gravestone there starts a Fit for a King fight).",
+      "Return to the father spirit."
+    ],
     video: "https://www.youtube.com/watch?v=_rhlDQ5RbXM"
   },
 {
@@ -8684,14 +8789,18 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Scent of Survival",
-    location: "Vanaheim",
+    location: "Freyr's Camp → The Crater, Vanaheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Vanaheim gear, machine hunt",
-    summary:
-      "Hunt a dangerous predator threatening travelers in the Vanaheim jungle.",
-    aiTip:
-      "Bring Sonic and Bifröst-boosted attacks; dodge its pounce.",
+    summary: "After Creatures of Prophecy, follow the hound Helka from Freyr's Camp to discover Vanaheim's hidden Crater.",
+    aiTip: "Bring Sonic and Bifröst-boosted attacks; dodge its pounce.",
+    walkthrough: [
+      "Right after Creatures of Prophecy, find Helka west of Freyr's Camp.",
+      "Follow her blue pawprints by boat, then on foot (listen for barking if you lose them).",
+      "Kill the Draugr and climb the wall with more tracks.",
+      "At the gusting wind by the cliff, summon the paper boat to reach The Crater."
+    ],
     video: "https://www.youtube.com/watch?v=MNTp3xeYKdo"
   },
 {
@@ -8700,14 +8809,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Return of the River",
-    location: "Vanaheim",
+    location: "The Jungle, Vanaheim",
     length: "short",
     difficulty: "Low",
     reward: "The Jungle opens up, gear",
-    summary:
-      "Restore a dammed river in Vanaheim to reveal new paths and treasures.",
-    aiTip:
-      "Reopening the river unlocks traversal to previously blocked areas — do it early in Vanaheim.",
+    summary: "Restore a dammed river in Vanaheim to reveal new paths and treasures.",
+    aiTip: "Reopening the river unlocks traversal to previously blocked areas — do it early in Vanaheim.",
+    walkthrough: [
+      "After Scent of Survival, approach the dam in The Jungle.",
+      "Fight the Gulons, burn the bramble (or red vines) and ride the lift up.",
+      "Clear the Seidr and Gulons at the top and use the Draupnir Spear to open the path across.",
+      "Burn the next bramble, kill the Nøkken and Seidr, and turn the crank to raise the gates.",
+      "Go back through the gap to see the river flowing — new areas of The Crater open up."
+    ],
     video: "https://www.youtube.com/watch?v=A7S9zj3IVP0"
   },
 {
@@ -8716,14 +8830,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "For Vanaheim!",
-    location: "Vanaheim",
+    location: "The Plains, Vanaheim",
     length: "long",
     difficulty: "High",
     reward: "Freyr's camp, region liberation",
-    summary:
-      "Join Freyr's resistance to drive Odin's forces out of Vanaheim once and for all.",
-    aiTip:
-      "A big multi-part favor with tough camps — bring your best runic loadout.",
+    summary: "Birgir of Freyr's resistance is held in a tower guarded by the dragon Crimson Dread. Fight your way in and free him.",
+    aiTip: "A big multi-part favor with tough camps — bring your best runic loadout.",
+    walkthrough: [
+      "After Scent of Survival, head west and north to the swing-through cave and climb to the Celestial Altar.",
+      "Switch day to night to open the gate, kill the Ogre and go through.",
+      "Defeat the Crimson Dread — dodge rather than block its bites and back-dodge its fire breath.",
+      "Free Birgir and escort him out via the nearby Mystic Gateway.",
+      "Check the Mystical Stag by the tower to start A Stag for All Seasons."
+    ],
     video: "https://www.youtube.com/watch?v=sBspC0sL9Kc"
   },
 {
@@ -8732,14 +8851,18 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Alfheim",
     title: "The Desert Door",
-    location: "Alfheim",
+    location: "The Forbidden Sands, Alfheim",
     length: "medium",
     difficulty: "Medium",
     reward: "The Barrens sealed vault",
-    summary:
-      "Brave the shifting sandstorms of Alfheim's Barrens to reach a sealed door and its reward.",
-    aiTip:
-      "The sandstorm slows you — use the sled and follow the wind-cleared paths.",
+    summary: "Find both halves of a key hidden in Alfheim's Forbidden Sands, open the giant desert door and face the drake Gravel Belly behind it.",
+    aiTip: "The sandstorm slows you — use the sled and follow the wind-cleared paths.",
+    walkthrough: [
+      "Finish Freyr's Gift first.",
+      "Drive around the Forbidden Sands and loot the blue crystal circles for the two key halves (south-west of The Burrows, west of The Hjarta).",
+      "Open the giant door in the north of the Forbidden Sands.",
+      "Defeat Gravel Belly — parry its poison orbs, dodge-roll its stomp, and heal with Spartan Valor (no health crystals here)."
+    ],
     video: "https://www.youtube.com/watch?v=V7S3fZEN3GU"
   },
 {
@@ -8748,14 +8871,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Alfheim",
     title: "The Elven Sanctum",
-    location: "Alfheim",
+    location: "The Forbidden Sands, Alfheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Sealed sanctum loot, lore",
-    summary:
-      "Breach an ancient elven sanctum locked away in Alfheim.",
-    aiTip:
-      "Light/Dark elf puzzles gate the way — use Sigil arrows to redirect the light.",
+    summary: "Breach an ancient elven sanctum locked away in Alfheim.",
+    aiTip: "Light/Dark elf puzzles gate the way — use Sigil arrows to redirect the light.",
+    walkthrough: [
+      "After The Reckoning and Song of the Sands, talk to Beyla and Byggvir in Freyr's Camp.",
+      "Open the gate in the western Barrens and head into the Forbidden Sands.",
+      "Climb to the sanctum in the north-east and explore the library (Lore Marker, Scroll, Treasure Map, Legendary Chest, Consul's Journal).",
+      "Leave the sanctum to trigger the fight with The Maven — like Alva, but more aggressive.",
+      "Defeat her and exit the building to finish."
+    ],
     video: "https://www.youtube.com/watch?v=KUWc7xb1Ujk"
   },
 {
@@ -8768,10 +8896,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "The Forbidden Sands treasure",
-    summary:
-      "Uncover what the Light Elves buried beneath the Forbidden Sands.",
-    aiTip:
-      "Pairs well with The Desert Door — clear both on one Barrens trip.",
+    summary: "Uncover what the Light Elves buried beneath the Forbidden Sands.",
+    aiTip: "Pairs well with The Desert Door — clear both on one Barrens trip.",
+    walkthrough: [
+      "After Groa's Secret, talk to Sindri at his shop in The Canyon (or enter The Barrens).",
+      "Ride the Gulon sled into The Barrens and find the cave down to The Below.",
+      "Follow the linear path, cutting roots with the axe and using the Twilight bounce mechanic; fight the Dark Elves.",
+      "Destroy both sets of bindings holding the Hafgufa.",
+      "Return to the surface, head north-west and cut the last restraint to free it — the Barrens storm clears."
+    ],
     video: "https://www.youtube.com/watch?v=Q4NGboxarCg"
   },
 {
@@ -8780,14 +8913,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Niflheim",
     title: "The Broken Prison",
-    location: "Niflheim",
+    location: "The Raven Tree, Niflheim",
     length: "medium",
     difficulty: "High",
     reward: "Dreamshade flower, Niflheim loot",
-    summary:
-      "Descend into the mists of Niflheim's Broken Prison for a rare flower and dangerous foes.",
-    aiTip:
-      "The mist drains health — keep moving toward the objective and manage resources.",
+    summary: "Post-game: a new bridge in Niflheim leads into an Asgardian prison sinking into the mists — and to a surprise in its lowest cell.",
+    aiTip: "The mist drains health — keep moving toward the objective and manage resources.",
+    walkthrough: [
+      "Finish the story, then cross the newly made bridge at The Raven Tree in Niflheim.",
+      "Descend floor by floor, throwing the Draupnir Spear at anchor points and pulling chains to lower the bars.",
+      "Fight the Einherjar and open the cells; break the seals for the Nornir Chest (the last seal is mid-bottom floor).",
+      "Find the real Tyr in a cell on the lowest floor.",
+      "Loot the Legendary Chest and Relic near the top on the way out."
+    ],
     video: "https://www.youtube.com/watch?v=YP-XMN-3mZM"
   },
 {
@@ -8800,10 +8938,14 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Yggdrasil's Dew (permanent stat boosts)",
-    summary:
-      "Find nine mysterious flowers scattered across every realm to restore Ratatoskr's tree.",
-    aiTip:
-      "Each flower grants a permanent stat boost via Yggdrasil's Dew — a top-priority collectible favor.",
+    summary: "Pick up any of the nine rare flowers to start this Ratatoskr favor, then find one in every realm. Several only open up after the story.",
+    aiTip: "Each flower grants a permanent stat boost via Yggdrasil's Dew — a top-priority collectible favor.",
+    walkthrough: [
+      "Collect your first flower anywhere to start the favor.",
+      "Story-accessible ones: Sparkthorn (Svartalfheim, after Forging Destiny), Dawnbloom (Alfheim), Starblush (Vanaheim), Soulblossom (Helheim, after the Garm fight), Ashpetal (Muspelheim).",
+      "Post-game ones: Mirkweed (Sanctuary Grove, Midgard), Ironbell (Jötunheim), Frostfinger and Dreamshade (Niflheim).",
+      "Return the nine flowers to Ratatoskr for The Florist trophy."
+    ],
     video: "https://www.youtube.com/watch?v=yVzY4i0u8Js"
   },
 {
@@ -8812,14 +8954,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "The Mysterious Orb",
-    location: "Vanaheim",
+    location: "Freyr's Camp → Goddess Falls, Vanaheim",
     length: "short",
     difficulty: "Low",
     reward: "Companion favor, gear",
-    summary:
-      "Investigate a strange glowing orb and the being connected to it.",
-    aiTip:
-      "A short lore favor with a memorable payoff — read the dialogue.",
+    summary: "Investigate a strange glowing orb and the being connected to it.",
+    aiTip: "A short lore favor with a memorable payoff — read the dialogue.",
+    walkthrough: [
+      "After returning to Freyr's Camp, take the favor from Lunda (set the Celestial Altar to day).",
+      "Row down the river through the River Delta to the Cliffside Ruins.",
+      "Defeat the Revenant Hag and Nightmares, burn the bramble, climb the chain and carve the rune to open the river.",
+      "Row on to Goddess Falls, enter The Veiled Passage and land on the beach — the orb is right there.",
+      "Bring it back to Lunda (this unlocks Freya's Missing Peace)."
+    ],
     video: "https://www.youtube.com/watch?v=Zz7g-zDynWc"
   },
 {
@@ -8828,14 +8975,19 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Trail of the Dead",
-    location: "Vanaheim",
+    location: "The Jungle, Vanaheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Draugr threat cleared, gear",
-    summary:
-      "Follow a grisly trail of draugr corpses to their source in Vanaheim.",
-    aiTip:
-      "Draugr swarm — area runic attacks clear them fast.",
+    summary: "After the river is restored, the dragon swoops past and Kratos follows it to its feeding ground in Vanaheim's Jungle.",
+    aiTip: "Draugr swarm — area runic attacks clear them fast.",
+    walkthrough: [
+      "Finish Return of the River — the favor starts when the dragon swoops past the wildlife.",
+      "Fight through the ogres, Nøkken and Wulvers, climbing toward the feeding ground.",
+      "Deal with the two trolls on the way.",
+      "Defeat the dragon at its feeding ground — use its stun windows for Spartan Wrath and runic attacks.",
+      "Loot the Dragon Claws."
+    ],
     video: "https://www.youtube.com/watch?v=mSf016We82c"
   },
 {
@@ -8844,14 +8996,18 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Path of Destruction",
-    location: "Vanaheim",
+    location: "The Jungle, Vanaheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Machine wreckage loot, gear",
-    summary:
-      "Deal with the destruction left in the wake of a rampaging force in Vanaheim.",
-    aiTip:
-      "Rewards solid crafting resources — a good mid-game favor.",
+    summary: "Huge footprints lead through a gap in The Jungle's wall to the drake Slag Horn. Lure it out and put it down.",
+    aiTip: "Rewards solid crafting resources — a good mid-game favor.",
+    walkthrough: [
+      "Finish Return of the River and set the Celestial Altar to day.",
+      "Crawl through the gap in the wall where the large footprints lead.",
+      "Follow the footprints and lure out the drake (raise the walls and freeze the gear with your axe).",
+      "Defeat Slag Horn — it fights like Gravel Belly and Crag Jaw but has more health."
+    ],
     video: "https://www.youtube.com/watch?v=ndVoVV94wzo"
   },
 {
@@ -8860,14 +9016,18 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "In the Dead of Night",
-    location: "Vanaheim",
+    location: "The Plains, Vanaheim",
     length: "medium",
     difficulty: "High",
     reward: "Dreki hide, crafting mats",
-    summary:
-      "Track a fearsome Dreki to its hideout in the Vanaheim plains and take it down.",
-    aiTip:
-      "Dreki charge lightning attacks — parry the tail sweep and punish after.",
+    summary: "With the Crater flooded, a poison-empowered dreki lairs on Vanaheim's Plains — but only shows itself at night.",
+    aiTip: "Dreki charge lightning attacks — parry the tail sweep and punish after.",
+    walkthrough: [
+      "Finish Return of the River.",
+      "Use a Celestial Altar to switch Vanaheim to night.",
+      "Find the dreki's lair on The Plains.",
+      "Defeat the poison-empowered dreki (dodge its poison spit and charge)."
+    ],
     video: "https://www.youtube.com/watch?v=zdnXYjLbQVI"
   },
 {
@@ -8876,14 +9036,18 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Quaking Hollow",
-    location: "Vanaheim",
+    location: "The Sinkholes, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "Sealed cave loot",
-    summary:
-      "Investigate the tremors emanating from a hollow deep in Vanaheim.",
-    aiTip:
-      "Use the spear's environmental detonations to open the way.",
+    summary: "Investigate the tremors emanating from a hollow deep in Vanaheim.",
+    aiTip: "Use the spear's environmental detonations to open the way.",
+    walkthrough: [
+      "After Creatures of Prophecy and Scent of Survival, reach the second area of The Sinkholes — the ground shakes and the favor starts.",
+      "Follow the tremors to their source.",
+      "Fight through to the creature behind them and defeat it.",
+      "Collect the Dragon Claw and the Regenerating Essence enchantment."
+    ],
     video: "https://www.youtube.com/watch?v=D35N8Qr4pf8"
   },
 {
@@ -8892,46 +9056,59 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "The Burning Skies",
-    location: "Vanaheim",
+    location: "The Sinkholes, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "Aerial machine downed, gear",
-    summary:
-      "Bring down a menacing airborne machine darkening Vanaheim's skies.",
-    aiTip:
-      "Sonic arrows stagger it out of the air — then close for the kill.",
+    summary: "A dragon perches on two pillars over The Sinkholes. Bring the pillars down, then track the Ash Tyrant to its lair.",
+    aiTip: "Sonic arrows stagger it out of the air — then close for the kill.",
+    walkthrough: [
+      "Meet the dragon in The Sinkholes and destroy the two pillars it perches on to start the favor.",
+      "Find the way to the dragon's lair.",
+      "Defeat the Ash Tyrant — it flies up and slams down, but can't be pulled out of the air like other dragons.",
+      "Loot the Dragon Claw."
+    ],
     video: "https://www.youtube.com/watch?v=VsAFTz6tecw"
   },
 {
     id: 438,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Vanaheim",
     title: "Conscience for the Dead",
-    location: "Midgard",
+    location: "Cliffside Ruins → The Veiled Passage, Vanaheim",
     length: "short",
     difficulty: "Low",
     reward: "Lúnda's questline, gear",
-    summary:
-      "Help lay a haunted soul to rest as part of the Dead trilogy of favors.",
-    aiTip:
-      "One of three linked 'Dead' favors — completing all three tells a full story.",
+    summary: "The ghost of Gunhild at the Cliffside Ruins wants the Seidr fanatics who killed her dealt with.",
+    aiTip: "One of three linked 'Dead' favors — completing all three tells a full story.",
+    walkthrough: [
+      "After The Reckoning, talk to Gunhild's spirit at the Cliffside Ruins.",
+      "Climb to the platform by the south chain, burn the plants with sigils and the Blades of Chaos and drop the chain.",
+      "Climb up and use the device at the top to open a new river path.",
+      "Row to Goddess Falls, take the left cave into The Veiled Passage, break the gate and climb.",
+      "Slay all the Seidr fanatics, then return to the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=_bIcfkEgUzM"
   },
 {
     id: 439,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Vanaheim",
     title: "Casualty of War: The Stein",
-    location: "Multiple realms",
+    location: "The Jungle → The Plains, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "Berserker Gravestone reward",
-    summary:
-      "Answer a Berserker's challenge and defeat the summoned undead champion.",
-    aiTip:
-      "Berserkers are optional bosses — upgrade gear first; they hit brutally hard.",
+    summary: "A spirit behind The Jungle's dam wants the other half of his mead stein. It lies in a dreki's lair on The Plains.",
+    aiTip: "Berserkers are optional bosses — upgrade gear first; they hit brutally hard.",
+    walkthrough: [
+      "After Scent of Survival, take the lift to the top of the Jungle dam and squeeze through the gap on the right to find the spirit.",
+      "Pick up the first half of the stein.",
+      "Find the second half in the dreki's lair on The Plains — you must kill the dreki (In the Dead of Night).",
+      "Return the stein to the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=QzpW4ZyM6oA"
   },
 {
@@ -8940,62 +9117,80 @@ const quests = [
     game: "God of War Ragnarök",
     region: "Midgard",
     title: "Fit for a King",
-    location: "Multiple realms",
+    location: "Berserker Gravestones across the realms (starts at Lake of Nine, Midgard)",
     length: "long",
     difficulty: "High",
     reward: "King Hrólf boss, best-in-slot gear",
-    summary:
-      "Defeat all the Berserker Souls across the realms to face their king, Hrólf Kraki.",
-    aiTip:
-      "The toughest optional fights in the game — save Hrólf for endgame with maxed gear.",
+    summary: "Use the Hilt of Skofnung to wake the Berserker souls at gravestones across the realms. Beat them all to face their king.",
+    aiTip: "The toughest optional fights in the game — save Hrólf for endgame with maxed gear.",
+    walkthrough: [
+      "After The Word of Fate (which gives the Hilt of Skofnung), use the gravestone in the north of the Lake of Nine.",
+      "Find the other gravestones across Midgard, Svartalfheim, Vanaheim and Alfheim (some only open late in the game).",
+      "Defeat every Berserker soul — several gravestones hold two or more.",
+      "With all the others down, the King of the Berserkers appears — the toughest of them all."
+    ],
     video: "https://www.youtube.com/watch?v=34SHxlFdYFA"
   },
 {
     id: 441,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Niflheim",
     title: "The Eyes of Odin",
-    location: "All realms",
+    location: "All realms → The Raven Tree, Niflheim",
     length: "medium",
     difficulty: "Low",
     reward: "Raven Keeper reward, gear",
-    summary:
-      "Hunt down and destroy Odin's spectral ravens hidden across the nine realms.",
-    aiTip:
-      "Listen for their green glow and cawing — a satisfying realm-spanning collectible favor.",
+    summary: "Hunt down and destroy Odin's spectral ravens hidden across the nine realms.",
+    aiTip: "Listen for their green glow and cawing — a satisfying realm-spanning collectible favor.",
+    walkthrough: [
+      "Destroy your first glowing green Odin's Raven to start the favor (listen for the metallic screech).",
+      "Hunt down all 48 ravens across the realms.",
+      "Open the six Legendary Chests at the Raven Tree in Niflheim as you reach 6, 12, 18, 28, 38 and 48 kills.",
+      "With all chests open, defeat the Raven Keeper that appears (gear level 8+ recommended)."
+    ],
     video: "https://www.youtube.com/watch?v=DpAyG-bE3BM"
   },
 {
     id: 442,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Alfheim",
+    region: "Midgard",
     title: "Guiding Light",
-    location: "Alfheim",
+    location: "Lake of Nine, Midgard",
     length: "short",
     difficulty: "Medium",
     reward: "The Strönd navigated, gear",
-    summary:
-      "Restore light to a darkened elven region to press onward.",
-    aiTip:
-      "Redirect the elven light beams with Sigil arrows to banish the dark.",
+    summary: "The wreckage of Tyr's giant statue lies scattered around the Lake of Nine. Read the runes at all four pieces — and dig up the armour buried at each.",
+    aiTip: "Redirect the elven light beams with Sigil arrows to banish the dark.",
+    walkthrough: [
+      "Read the rune read at any wreckage site to start (possible from The Word of Fate onward).",
+      "Tyr's Right Bracer: the fallen arm in the Shores of Nine near The Oarsmen.",
+      "Tyr's Spear: the giant weapon in the south-east.",
+      "Tyr's Helmet: north of the Raider Stronghold; Tyr's Left Bracer: by the Lake of Nine Mystic Gateway and shop.",
+      "Dig at each site for the Guiding Light armour pieces."
+    ],
     video: "https://www.youtube.com/watch?v=meYAyQiw-lc"
   },
 {
     id: 443,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Vanaheim",
+    region: "Midgard",
     title: "Sigrún's Curse",
-    location: "Vanaheim",
+    location: "The Oarsmen / Derelict Outpost / Lost Treasury, Midgard",
     length: "medium",
     difficulty: "High",
     reward: "Cursed grove cleansed, rare gear",
-    summary:
-      "Lift a lingering curse plaguing a Vanaheim grove.",
-    aiTip:
-      "A tougher favor with a strong reward — bring status-resist armor.",
+    summary: "An old curse on the Valkyrie Sigrún's treasury: find two keys around the Lake of Nine and open the vault of the Lost Treasury.",
+    aiTip: "A tougher favor with a strong reward — bring status-resist armor.",
+    walkthrough: [
+      "Start it by arriving at The Derelict Outpost or The Oarsmen on the Lake of Nine.",
+      "At The Oarsmen, pull the giant chain to reveal the stairs and take the key from in front of the bird statue.",
+      "Work through The Derelict Outpost with the cranes and take the second key from the pedestal at the end.",
+      "Open the vault at The Lost Treasury and defeat the mini-boss.",
+      "Smash the ground for the Lost Pages and read the lore marker to finish."
+    ],
     video: "https://www.youtube.com/watch?v=6nfBOgdAYVc"
   },
 {
@@ -13794,32 +13989,41 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 651,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Vanaheim",
+    region: "Jotunheim",
     title: "The Lost Sanctuary",
-    location: "Vanaheim",
+    location: "Ironwood, Jotunheim",
     length: "medium",
     difficulty: "Medium",
     reward: "Vanaheim exploration, story beat",
-    summary:
-      "Kratos and companions seek a hidden sanctuary in Vanaheim's jungle as the plan against Odin forms.",
-    aiTip:
-      "Vanaheim rewards revisiting — note favors you can't yet reach and return with new tools.",
+    summary: "Atreus follows his leads to Ironwood, a hidden corner of Jötunheim, and meets the young giant Angrboda.",
+    aiTip: "Vanaheim rewards revisiting — note favors you can't yet reach and return with new tools.",
+    walkthrough: [
+      "After Groa's Secret, meet Angrboda in Ironwood.",
+      "Follow her through Ironwood and the marshes, using Sonic Arrows and grapple points to get through.",
+      "Reach Angrboda's home and learn about the giants.",
+      "Return home to Sindri's."
+    ],
     video: "https://www.youtube.com/watch?v=kVTnjcYGMPQ"
   },
 {
     id: 652,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Asgard",
     title: "The Runaway",
-    location: "Midgard",
+    location: "Midgard → Asgard",
     length: "medium",
     difficulty: "Medium",
     reward: "Atreus's arc, trust tested",
-    summary:
-      "Atreus goes his own way, forcing Kratos to confront his son's independence and secrets.",
-    aiTip:
-      "A father-son turning point — the story leans into Atreus's playable sections here.",
+    summary: "After arguing with Kratos, Atreus runs off and slips into Asgard, where Odin welcomes him and puts him to work.",
+    aiTip: "A father-son turning point — the story leans into Atreus's playable sections here.",
+    walkthrough: [
+      "Atreus storms out of Sindri's after Kratos refuses to let him go to Asgard.",
+      "In Midgard, beat the Wight — use normal arrows and blocks, then Sonic/Sigil Arrows on its Wisps.",
+      "At Sanctuary Grove, get Chaurli to stand up, close the window by the fireplace and light the fire.",
+      "In Asgard, follow Odin's raven across the Plains of Ida to Hrimthur's Wall.",
+      "Meet Heimdall, explore Odin's study and work for Odin until he leaves Atreus with Thor."
+    ],
     video: "https://www.youtube.com/watch?v=uSt9ogo2ogA"
   },
 {
@@ -13832,74 +14036,98 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "medium",
     difficulty: "High",
     reward: "Muspelheim opened, story beat",
-    summary:
-      "The party braves the fire realm of Muspelheim in pursuit of the tools of prophecy.",
-    aiTip:
-      "Muspelheim's heat and foes are brutal — upgrade armor before lingering for its trials.",
+    summary: "Playing as Atreus with Thor, travel to Muspelheim to track down a fragment of the mask Odin is obsessed with.",
+    aiTip: "Muspelheim's heat and foes are brutal — upgrade armor before lingering for its trials.",
+    walkthrough: [
+      "After The Runaway, travel to Muspelheim as Atreus with Thor.",
+      "Equip the Mask Fragment — it glows toward the path; Thor clears the debris.",
+      "Fight the Draugr on the Burning Cliffs and climb up with Thor's help.",
+      "Cross the Molten Lowlands and investigate Surtr's Shrine.",
+      "Return to Odin's lodge in Asgard and rest in Atreus's room."
+    ],
     video: "https://www.youtube.com/watch?v=NFI3XZoCYZY"
   },
 {
     id: 654,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Asgard",
     title: "Unlocking the Mask",
-    location: "Multiple realms",
+    location: "Asgard (Gnipahellir Landing)",
     length: "medium",
     difficulty: "High",
     reward: "The mask's power, story turn",
-    summary:
-      "Assemble and unlock the ancient mask Atreus believes can reveal a way to change fate.",
-    aiTip:
-      "A lore-heavy chapter tying together threads from across the realms.",
+    summary: "Back in Asgard, Atreus finds Thor in a tavern brawl and goes after the final piece of Odin's mask.",
+    aiTip: "A lore-heavy chapter tying together threads from across the realms.",
+    walkthrough: [
+      "After Creatures of Prophecy, go through the Mystic Gateway to Midgard, find Huginn in the house and head to Asgard.",
+      "Speak with Odin, then follow Thrud to the tavern to find Thor.",
+      "Survive the brawl with the Einherjar using melee only.",
+      "Follow the Mask Fragment to Gnipahellir Landing; break the left and right locks, then the third chain.",
+      "Follow Heimdall to Odin's study, then use Sindri's gift to return home."
+    ],
     video: "https://www.youtube.com/watch?v=vixWcqUxCTY"
   },
 {
     id: 655,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Helheim",
+    region: "Midgard",
     title: "Hunting for Solace",
-    location: "Helheim",
+    location: "Midgard (Lake of Nine)",
     length: "medium",
     difficulty: "High",
     reward: "Grief confronted, story beat",
-    summary:
-      "A journey through Helheim forces the party to face loss before the war can begin.",
-    aiTip:
-      "Helheim's frost enemies resist ice — favor the Blades of Chaos throughout.",
+    summary: "In the wake of a devastating loss, Kratos and Atreus hunt together and then search Midgard for the grieving Sindri.",
+    aiTip: "Helheim's frost enemies resist ice — favor the Blades of Chaos throughout.",
+    walkthrough: [
+      "Follow Atreus on the hunt to the stag and stop him from firing.",
+      "Head east across the frozen Lake of Nine to Tyr's Temple.",
+      "Take the lift on the temple's left to the bridge (two Hacksilver chests on the way).",
+      "Search for Sindri, then make for King's Grave and the Mystic Gateway.",
+      "Travel on toward Muspelheim's Burning Cliffs to begin The Summoning."
+    ],
     video: "https://www.youtube.com/watch?v=-lhBfKYfoSs"
   },
 {
     id: 656,
     type: "main",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Muspelheim",
     title: "The Summoning",
-    location: "Midgard",
+    location: "Surtr's forge, Muspelheim → Tyr's Temple",
     length: "medium",
     difficulty: "High",
     reward: "Allies gathered, Ragnarök nears",
-    summary:
-      "Kratos rallies the realms' champions for the coming war against Asgard.",
-    aiTip:
-      "Emotional pre-finale beat — make sure outstanding favors are done before the point of no return.",
+    summary: "With the war near, Kratos and Atreus travel to Muspelheim to convince the fire giant Surtr to join the fight against Asgard.",
+    aiTip: "Emotional pre-finale beat — make sure outstanding favors are done before the point of no return.",
+    walkthrough: [
+      "After Hunting for Solace, set out from Sindri's house.",
+      "Beat the Phantom by hitting its runic orb with thrown weapons to stagger it.",
+      "Grab the Legendary Chest in the first room after the Wisps (a Yggdrasil Seed half if you're missing it).",
+      "Reach Surtr's forge, approach the ashen man and follow Surtr to the Spark of the World.",
+      "Return to the Mystic Gateway and travel to Tyr's Temple; speak with Freya and the gathered allies."
+    ],
     video: "https://www.youtube.com/watch?v=HXlc5uQSiik"
   },
 {
     id: 657,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Svartalfheim",
     title: "A Viking Funeral",
-    location: "Midgard",
+    location: "Nidavellir → Sverd Sands, Svartalfheim",
     length: "short",
     difficulty: "Medium",
     reward: "'Dead' favor arc, gear",
-    summary:
-      "Help lay a fallen warrior to rest with the honor a Viking's death demands.",
-    aiTip:
-      "Part of the linked 'Dead' favors — completing all of them tells a full, moving story.",
+    summary: "The story's true epilogue: after Ragnarök, Sindri holds a Viking funeral for his brother Brok.",
+    aiTip: "Part of the linked 'Dead' favors — completing all of them tells a full, moving story.",
+    walkthrough: [
+      "After The Realms at War, talk to Lunda at a shop (or return to Raeb's tavern in Nidavellir).",
+      "In the tavern, interact with Brok after the conversation.",
+      "Travel to Sverd Sands — via the pulley bridge in Aurvangar Wetlands or The Applecore Descent lift.",
+      "Interact with Brok at the funeral to finish (Funeral for a Friend trophy)."
+    ],
     video: "https://www.youtube.com/watch?v=au3g-1DIEd0"
   },
 {
@@ -13908,14 +14136,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Cure for the Dead",
-    location: "Vanaheim",
+    location: "Pilgrim's Landing, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "'Dead' favor arc, gear",
-    summary:
-      "Seek a remedy tied to the grim mystery running through Vanaheim's afflicted.",
-    aiTip:
-      "Follow the 'Dead' favor chain in order for the best narrative payoff.",
+    summary: "The spirit Mari at Pilgrim's Landing asks for three ingredients — Mangold, Mire and Pome — for a cure that came too late.",
+    aiTip: "Follow the 'Dead' favor chain in order for the best narrative payoff.",
+    walkthrough: [
+      "After The Reckoning, talk to Mari's spirit at Pilgrim's Landing.",
+      "Lower the bridges by throwing the axe at the orbs and chains; burn vines and light braziers with Sigil Arrows.",
+      "Grab the first ingredient across the first bridge and fight the enemies beyond.",
+      "Solve the pendulum puzzle to light the braziers and burn the vines; the last ingredient is past the second bridge.",
+      "Return to Mari."
+    ],
     video: "https://www.youtube.com/watch?v=khYpku49uQc"
   },
 {
@@ -13924,46 +14157,59 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "God of War Ragnarök",
     region: "Vanaheim",
     title: "Garden for the Dead",
-    location: "Vanaheim",
+    location: "Noatun's Garden, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "'Dead' favor arc conclusion, gear",
-    summary:
-      "Bring peace to a haunted Vanaheim garden as the 'Dead' favor trilogy concludes.",
-    aiTip:
-      "The capstone of the 'Dead' favors — a satisfying, somber resolution.",
+    summary: "Astrid's spirit in Noatun's Garden wants the three poison totems that wither the garden destroyed.",
+    aiTip: "The capstone of the 'Dead' favors — a satisfying, somber resolution.",
+    walkthrough: [
+      "Dock at Noatun's Garden, east of the River Delta gateway, and defeat the Gulons and Gradungr ambush.",
+      "Talk to Astrid's spirit first (destroying the fire vessels early can bug the favor).",
+      "Destroy each totem's fire vessel with the axe — hit the north one from behind the rocks.",
+      "Climb the building and cut the chain to reach the last one.",
+      "Return to the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=9tAXolcuKc8"
   },
 {
     id: 660,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Vanaheim",
     title: "Casualty of War: The Toy",
-    location: "Multiple realms",
+    location: "The Jungle, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "Berserker Gravestone reward",
-    summary:
-      "Answer a Berserker's summons and defeat the vengeful undead champion.",
-    aiTip:
-      "Berserkers are optional bosses — upgrade gear first; they punish sloppy dodging.",
+    summary: "A spirit in The Jungle lost his child's toy in two halves. Find both and bring them back.",
+    aiTip: "Berserkers are optional bosses — upgrade gear first; they punish sloppy dodging.",
+    walkthrough: [
+      "After Return of the River, find the lost spirit in The Jungle.",
+      "Sail to the beach to find the first half of the toy.",
+      "Head north up the river; the second half lies by the spirit's remains.",
+      "Return the toy to the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=oYgN6PXdSIo"
   },
 {
     id: 661,
     type: "side",
     game: "God of War Ragnarök",
-    region: "Midgard",
+    region: "Vanaheim",
     title: "Casualty of War: The Hourglass",
-    location: "Multiple realms",
+    location: "The Sinkholes, Vanaheim",
     length: "short",
     difficulty: "High",
     reward: "Berserker Gravestone reward",
-    summary:
-      "Face another of the Nine Realms' Berserker souls in single combat.",
-    aiTip:
-      "Learn each Berserker's tells; parry-heavy play beats trading blows.",
+    summary: "A spirit in The Sinkholes wants the two halves of his hourglass back.",
+    aiTip: "Learn each Berserker's tells; parry-heavy play beats trading blows.",
+    walkthrough: [
+      "After Return of the River, find the lost spirit in The Sinkholes.",
+      "Sail through the tunnel; one hourglass half sits next to a brazier on this path.",
+      "The other half is on the path toward the Ash Tyrant's lair (The Burning Skies).",
+      "Return the hourglass to the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=18niu3eyU98"
   },
 {
@@ -13972,14 +14218,17 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
     title: "What Lies Below",
-    location: "Svartalfheim",
+    location: "The Jungle dam, Vanaheim",
     length: "short",
     difficulty: "Medium",
     reward: "Dwarven vault loot",
-    summary:
-      "Investigate the tremors beneath a Svartalfheim mine and claim what's sealed within.",
-    aiTip:
-      "Use the Draupnir Spear's detonations to open the collapsed passages.",
+    summary: "Entering the Jungle dam, Kratos witnesses a dreki — then has to put down two lightning-empowered drekis lurking below.",
+    aiTip: "Use the Draupnir Spear's detonations to open the collapsed passages.",
+    walkthrough: [
+      "After Scent of Survival, enter the dam in The Jungle to start the favor.",
+      "Follow the dreki into the area below the dam.",
+      "Defeat both lightning-empowered drekis — keep moving to avoid their charged attacks."
+    ],
     video: "https://www.youtube.com/watch?v=H7tC-7Dy334"
   },
 {
@@ -14011,14 +14260,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "God of War Ragnarök",
     region: "Svartalfheim",
     title: "The Weight of Chains",
-    location: "Svartalfheim",
+    location: "Lyngbakr Island, Bay of Bounty (Svartalfheim)",
     length: "medium",
     difficulty: "Medium",
     reward: "Lyngbakr freed, Mimir arc",
-    summary:
-      "Free the imprisoned sea beast Lyngbakr, chained by Odin, to ease Mimir's old guilt.",
-    aiTip:
-      "Requires returning with the right tools — a rewarding multi-step favor.",
+    summary: "Free the imprisoned sea beast Lyngbakr, chained by Odin, to ease Mimir's old guilt.",
+    aiTip: "Requires returning with the right tools — a rewarding multi-step favor.",
+    walkthrough: [
+      "Arrive at The Watchtower or Lyngbakr Island in Svartalfheim's Bay of Bounty to start.",
+      "Clear the rubble with fire vessels, destroy the Wretch nests, freeze the gear and defeat the Bergsra Mother for the key.",
+      "Unlock The Watchtower door and strike the drum to make Lyngbakr rise.",
+      "On Lyngbakr Island, break the binding fire vessels and cut each chain with the axe (fire bombs clear the gold).",
+      "Climb the creature's side, break the zipline and slide to the last chain to free it."
+    ],
     video: "https://www.youtube.com/watch?v=oInYLT78d8M"
   },
 {
@@ -20171,10 +20425,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Hardened Svartalfheim Steel, Sand-swept loot, XP",
-    summary:
-      "Deep in Alfheim's Forbidden Sands, giant sand-whales called Hafgufa lie trapped beneath the dunes. Kratos must solve the red-vine sand-flow puzzles to raise and lower the seas of sand and free every Hafgufa so their song can be heard again.",
-    aiTip:
-      "Hit the red sap-vine growths to drain or flood each basin of sand, then climb the exposed structures. Free all of the Hafgufas to finish the favor and open the path to Song of the Sands' loot.",
+    summary: "Deep in Alfheim's Forbidden Sands, giant sand-whales called Hafgufa lie trapped beneath the dunes. Kratos must solve the red-vine sand-flow puzzles to raise and lower the seas of sand and free every Hafgufa so their song can be heard again.",
+    aiTip: "Hit the red sap-vine growths to drain or flood each basin of sand, then climb the exposed structures. Free all of the Hafgufas to finish the favor and open the path to Song of the Sands' loot.",
+    walkthrough: [
+      "After The Reckoning and Secret of the Sands, enter the Forbidden Sands — the favor starts automatically.",
+      "Go to the cave in the centre of the Forbidden Sands and descend into The Burrows.",
+      "Line up the three red orbs and throw the axe through them.",
+      "Break the hive matter and the Hafgufa's bindings, then open the hive cage.",
+      "Fight off the Light Elf ambush on the way back up — the Forbidden Sands' storm clears for good."
+    ],
     video: "https://www.youtube.com/watch?v=182xIugReiM"
   },
 {
@@ -20187,10 +20446,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Besties Trophy, Kol raider loot, XP",
-    summary:
-      "Sindri asks Kratos to clear the Kol Raider hideouts that have sprung up around the Lake of Nine. Work through every camp and finally defeat their leader, Oluf Nautson, to break the raiders' grip on Midgard.",
-    aiTip:
-      "The camps unlock as the lake water level drops during the story, so return to Midgard mid/late-game. Save Oluf Nautson's camp for last — he is a tougher fight than the rank-and-file raiders.",
+    summary: "Sindri asks Kratos to clear the Kol Raider hideouts that have sprung up around the Lake of Nine. Work through every camp and finally defeat their leader, Oluf Nautson, to break the raiders' grip on Midgard.",
+    aiTip: "The camps unlock as the lake water level drops during the story, so return to Midgard mid/late-game. Save Oluf Nautson's camp for last — he is a tougher fight than the rank-and-file raiders.",
+    walkthrough: [
+      "Clear any Kol Raider camp around the Lake of Nine to start the favor.",
+      "Clear the other camps: Raider Keep (through the ice cave), Raider Fort, Raider Hideout and Raider Stronghold — any order.",
+      "Loot the Legendary and Nornir chests at the Raider Hideout and the Treasure Map at Raider Fort.",
+      "Return to the sled and the wolves for the closing cutscene."
+    ],
     video: "https://www.youtube.com/watch?v=gjn2zni1ArY"
   },
 {
@@ -20203,10 +20466,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Pure of Hart Trophy, seasonal loot, XP",
-    summary:
-      "Ratatoskr sends Kratos to find four mystical Stags of the Seasons hidden throughout Vanaheim's Crater. Each stag is tied to a season and must be tracked down and freed.",
-    aiTip:
-      "You can only reach the Crater after the Scent of Survival favor opens it. Use Spartan Rage to break the roots binding each stag; finding all four earns the Pure of Hart trophy.",
+    summary: "Ratatoskr sends Kratos to find four mystical Stags of the Seasons hidden throughout Vanaheim's Crater. Each stag is tied to a season and must be tracked down and freed.",
+    aiTip: "You can only reach the Crater after the Scent of Survival favor opens it. Use Spartan Rage to break the roots binding each stag; finding all four earns the Pure of Hart trophy.",
+    walkthrough: [
+      "After For Vanaheim! (and Scent of Survival), approach any of the four stags or talk to Ratatoskr at Sindri's house.",
+      "Collect the Yggdrasil Leaves feed from Ratatoskr.",
+      "Feed each stag so it walks to its gateway: Winter by The Overgrown Tower gateway (past the red dragon), Summer across the bridge in The Jungle (needs Return of the River).",
+      "Find and feed the Spring and Autumn stags elsewhere in The Crater.",
+      "Return to Ratatoskr once all four are home."
+    ],
     video: "https://www.youtube.com/watch?v=v6dCmR0ALw4"
   },
 {
@@ -20219,10 +20487,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Sigil Plate, Flame Phantom loot, XP",
-    summary:
-      "A night-only favor on Vanaheim's Plains. Capture the three roaming Wisps with the Blades of Chaos, then face the Flame Phantom boss that guards the sealed plate.",
-    aiTip:
-      "Change the time to night at a Celestial Altar first, or the Wisps will not appear. Aim the Blades of Chaos (L2 + R2) to pin each Wisp, then keep your distance and dodge during the fire-based Flame Phantom fight.",
+    summary: "A night-only favor on Vanaheim's Plains. Capture the three roaming Wisps with the Blades of Chaos, then face the Flame Phantom boss that guards the sealed plate.",
+    aiTip: "Change the time to night at a Celestial Altar first, or the Wisps will not appear. Aim the Blades of Chaos (L2 + R2) to pin each Wisp, then keep your distance and dodge during the fire-based Flame Phantom fight.",
+    walkthrough: [
+      "After Scent of Survival, switch The Plains to night at a Celestial Altar.",
+      "Capture one of the three Wisps with the Blades of Chaos to start the favor.",
+      "Capture the other two Wisps.",
+      "Bring them back to the Sigil plate and defeat the Flame Phantom that appears."
+    ],
     video: "https://www.youtube.com/watch?v=0xC1RQX85Qo"
   },
 {
@@ -20235,10 +20507,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Spirit's gratitude, loot, XP",
-    summary:
-      "One of the Casualties of War favor chain. Picking up half of a burnt scroll in a cave on The Plains summons a spirit; find the matching half to make the spirit whole and learn more about the battle between Faye and Thor.",
-    aiTip:
-      "Smash the cracked rocks nearby to reach the cave, then follow the marker to the second scroll half. This chain also includes the Toy, Hourglass, Stein and Brooch — do them together while you sweep The Plains.",
+    summary: "One of the Casualties of War favor chain. Picking up half of a burnt scroll in a cave on The Plains summons a spirit; find the matching half to make the spirit whole and learn more about the battle between Faye and Thor.",
+    aiTip: "Smash the cracked rocks nearby to reach the cave, then follow the marker to the second scroll half. This chain also includes the Toy, Hourglass, Stein and Brooch — do them together while you sweep The Plains.",
+    walkthrough: [
+      "After Scent of Survival, pick up half of a burnt scroll in a cave on The Plains to meet Runa's spirit.",
+      "Look down for the blocked rocks below and throw a Draupnir Spear into each marked point — two more are on the far side.",
+      "Detonate all the spears at once to clear the rocks.",
+      "Take the other half of the scroll from under the trees and return it to Runa."
+    ],
     video: "https://www.youtube.com/watch?v=641Y-tmjE0I"
   },
 {
@@ -20251,10 +20527,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Medium",
     reward: "Spirit's gratitude, loot, XP",
-    summary:
-      "Another Casualties of War favor. A broken brooch on The Plains summons a spirit who wants to be made whole. The second half sits across a gap south of the Eastern Plains Celestial Altar, guarded by Egil the Oath Guard.",
-    aiTip:
-      "Defeat Egil the Oath Guard — a mini-boss — before you can grab the brooch half. Bring healing; he hits hard for an optional encounter.",
+    summary: "Another Casualties of War favor. A broken brooch on The Plains summons a spirit who wants to be made whole. The second half sits across a gap south of the Eastern Plains Celestial Altar, guarded by Egil the Oath Guard.",
+    aiTip: "Defeat Egil the Oath Guard — a mini-boss — before you can grab the brooch half. Bring healing; he hits hard for an optional encounter.",
+    walkthrough: [
+      "After Scent of Survival, pick up the broken brooch on The Plains to meet Holger's spirit.",
+      "Follow the path around to the right.",
+      "Defeat Egil the Oath Guard (hard to stun — use runic attacks, companion attacks and Spartan Wrath).",
+      "Take the brooch half by the remains on the cliff edge and return it to Holger."
+    ],
     video: "https://www.youtube.com/watch?v=xKukCdtgelM"
   },
 {
@@ -20267,10 +20547,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Chaos/Frozen Flames, cosmetic armor, XP",
-    summary:
-      "After completing The Crucible, a second, much harder set of six combat trials unlocks in Muspelheim — a true endgame boss-rush and survival gauntlet that tests every skill Kratos has learned.",
-    aiTip:
-      "Come back late or post-game with upgraded gear and a Realm Shift/relic setup. Each of the six challenges rewards Muspelheim ore and cosmetics; the boss-rush trial is the toughest optional fight before the Berserkers and Gná.",
+    summary: "After completing The Crucible, a second, much harder set of six combat trials unlocks in Muspelheim — a true endgame boss-rush and survival gauntlet that tests every skill Kratos has learned.",
+    aiTip: "Come back late or post-game with upgraded gear and a Realm Shift/relic setup. Each of the six challenges rewards Muspelheim ore and cosmetics; the boss-rush trial is the toughest optional fight before the Berserkers and Gná.",
+    walkthrough: [
+      "Complete The Crucible's first six challenges and open the Nornir Chest with the Chaos Flame.",
+      "Use the new fourth sword hilt: combine two of the F, N and R runes to unlock each new challenge.",
+      "Complete the extra third challenge added at each of the original arenas.",
+      "Clear all six new challenges to finish (Trials by Fire trophy)."
+    ],
     video: "https://www.youtube.com/watch?v=dqYmv1KA1H0"
   },
 {
@@ -20279,14 +20563,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "God of War Ragnarök",
     region: "Midgard",
     title: "Across the Realms",
-    location: "Sindri's House / multiple realms",
+    location: "The Eternal Campfire, Midgard → four realms",
     length: "medium",
     difficulty: "Low",
     reward: "Rare crafting ingredients, XP",
-    summary:
-      "Lunda asks Kratos to gather four rare cooking ingredients scattered across the Nine Realms for a special feast. A light, exploration-focused favor that rewards realm traversal.",
-    aiTip:
-      "The ingredients (Eternal Campfire, Nordic Gourd, Prongfruit, Elven Cap, Bantam Melon) are marked once you have the traversal tools. Do it late so every realm is fully accessible and you can grab them in one loop.",
+    summary: "A recipe book at the Eternal Campfire west of King's Grave asks for four rare ingredients from four realms to cook a Meal of Comfort.",
+    aiTip: "The ingredients (Eternal Campfire, Nordic Gourd, Prongfruit, Elven Cap, Bantam Melon) are marked once you have the traversal tools. Do it late so every realm is fully accessible and you can grab them in one loop.",
+    walkthrough: [
+      "Read the recipe book at The Eternal Campfire, west of King's Grave in Midgard (from The Word of Fate on).",
+      "Nordic Gourd: by the painted heart mural just outside the campfire.",
+      "Prongfruit: near the Myrkr Tunnels in Svartalfheim.",
+      "Bantam Melon: The Sinkholes in Vanaheim (after Scent of Survival).",
+      "Elven Cap: under a broken pillar in Alfheim's Forbidden Sands, then return to the campfire to cook."
+    ],
     video: "https://www.youtube.com/watch?v=M-frWdmibHs"
   },
 {
@@ -20299,10 +20588,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Fortified & Tempered Remnants, lore scrolls, XP",
-    summary:
-      "A post-game favor unlocked after The Realms at War. Ten wreckages of Asgard now litter the realms, each guarded by Einherjar. Track them all down and clear the guardians to loot the fallen kingdom's remains.",
-    aiTip:
-      "Locations are roughly noted in the Goals menu and marked on the map. Each site drops a lore scroll plus Fortified/Tempered Remnants used for top-tier armor upgrades — worth doing before the hardest post-game bosses.",
+    summary: "A post-game favor unlocked after The Realms at War. Ten wreckages of Asgard now litter the realms, each guarded by Einherjar. Track them all down and clear the guardians to loot the fallen kingdom's remains.",
+    aiTip: "Locations are roughly noted in the Goals menu and marked on the map. Each site drops a lore scroll plus Fortified/Tempered Remnants used for top-tier armor upgrades — worth doing before the hardest post-game bosses.",
+    walkthrough: [
+      "After The Realms at War, find a fallen piece of Asgard to start the favor.",
+      "Track down all 10 Remnants of Asgard wreckage sites across the realms.",
+      "Defeat the Einherjar guarding each site.",
+      "Read the lore scroll and loot the red chest (Fortified and Tempered Remnants) at each one."
+    ],
     video: "https://www.youtube.com/watch?v=qNkb-BU04WM"
   },
 {
@@ -20315,10 +20608,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "Medium",
     reward: "Rare enchantments, loot, XP",
-    summary:
-      "Six Hel-Tears have torn open across the realms, spilling out undead. Closing the first one begins the favor; seal all six, defeating the increasingly dangerous Draugr and Wraiths that pour from each.",
-    aiTip:
-      "Each Hel-Tear scales up in difficulty. Bring resurrection stones for the later ones and clear the surrounding enemies before channeling to close the rift, or you will be interrupted.",
+    summary: "Six Hel-Tears have torn open across the realms, spilling out undead. Closing the first one begins the favor; seal all six, defeating the increasingly dangerous Draugr and Wraiths that pour from each.",
+    aiTip: "Each Hel-Tear scales up in difficulty. Bring resurrection stones for the later ones and clear the surrounding enemies before channeling to close the rift, or you will be interrupted.",
+    walkthrough: [
+      "Close the first Hel-Tear during Reunion — this starts the favor.",
+      "Find the other Hel-Tears, one in each major realm.",
+      "At each one, press Square to start the survival challenge and fend off the enemies until it closes.",
+      "Close all six for the Essence of Hel and Frozen Spark."
+    ],
     video: "https://www.youtube.com/watch?v=bHT3DbsrwTI"
   },
 {
@@ -20331,10 +20628,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "The Hateful loot, rare crafting mats, XP",
-    summary:
-      "Six Draugr Holes have opened across the realms, each belching out endless undead. Close all six and defeat the recurring Draugr boss, The Hateful, that guards the source.",
-    aiTip:
-      "The Hateful is a repeated, aggressive fight — learn its unblockable tells and use ranged Blades attacks to whittle it down. Closing every Draugr Hole is required for full realm completion.",
+    summary: "Six Draugr Holes have opened across the realms, each belching out endless undead. Close all six and defeat the recurring Draugr boss, The Hateful, that guards the source.",
+    aiTip: "The Hateful is a repeated, aggressive fight — learn its unblockable tells and use ranged Blades attacks to whittle it down. Closing every Draugr Hole is required for full realm completion.",
+    walkthrough: [
+      "Close your first Draugr Hole to start the favor.",
+      "Find all six Draugr Holes across the realms.",
+      "Defeat the Draugr pouring out, then hit the hole to seal it.",
+      "Each gives a Chaos Spark; all six combine into a Chaos Flame for a weapon upgrade."
+    ],
     video: "https://www.youtube.com/watch?v=mhUSLQwhsJ4"
   },
 {
