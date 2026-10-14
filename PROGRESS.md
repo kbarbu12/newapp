@@ -223,6 +223,15 @@
   Another Kind of Poetry, Destroyed House of Oinomanos, Tomb of the First
   Champion.
 
+- **Phase 3 — AC Odyssey batch 4 (Cyclades/Myrrine arc, Amphipolis, 8
+  Peloponnese Ostraka):** 17 quests got guide-sourced steps. "Side Quest - A
+  Family's Legacy" retitled and moved to side quests; the 8 riddles moved
+  from the generic "Peloponnese" region to their real regions (Korinthia,
+  Argolis ×2, Achaia, Arkadia, Messenia ×2, Lakonia). Left as is (no full
+  guide): The Floor is Lava, Mapping Out, Belly Flop, Hobby Horsing, Farming
+  Coin, Sweet Tooth, Tastes like Chicken, Rightful King, Prophecy Prevention,
+  Rock and Roll.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
