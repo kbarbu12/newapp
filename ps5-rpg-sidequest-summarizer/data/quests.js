@@ -893,16 +893,21 @@ const quests = [
     id: 19,
     type: "side",
     game: "Demon's Souls",
-    region: "Latria",
+    region: "Boletaria",
     title: "Yuria the Witch's Rescue",
-    location: "Tower of Latria (3-1)",
+    location: "Watchtower, Boletarian Palace (1-2)",
     length: "medium",
     difficulty: "High",
     reward: "Access to advanced magic spells, NPC vendor",
-    summary:
-      "Navigate the nightmarish prison of Latria to free a powerful witch. The tower is filled with mind flayer enemies, narrow walkways, and environmental traps.",
-    aiTip:
-      "Bring a ranged option and move slowly. The Mind Flayers can paralyze and one-shot you. Free Yuria's key from the guards first.",
+    summary: "Yuria the Witch is locked at the top of the watchtower in 1-2, above Biorr's cell. Only a man dressed as a Fat Official can get the stairs lowered to her.",
+    aiTip: "Every piece of the Official set comes from the Fat Officials in 1-3 and Stonefang Tunnel; equip all four or the stairs won't come down. Rescue Biorr (key from 1-3) while you're there.",
+    walkthrough: [
+      "Kill the Fat Officials in Boletarian Palace 1-3 for the Iron Ring of Keys and Official's Cap.",
+      "Kill the Fat Officials in Stonefang Tunnel for the Official's Gauntlets, Armor and Footwear.",
+      "Equip all four pieces of the Official set.",
+      "Climb the 1-2 watchtower — the Fat Official at the top lowers a hidden staircase.",
+      "Talk to Yuria; she moves to the Nexus and teaches spells in exchange for boss souls."
+    ],
     video: "https://www.youtube.com/watch?v=IAMn_0_6IvY"
   },
 {
@@ -911,14 +916,19 @@ const quests = [
     game: "Demon's Souls",
     region: "Shrine of Storms",
     title: "Sparkly the Crow's Trades",
-    location: "Shrine of Storms (4-1)",
+    location: "Cliff tops above the Compound Long Bow tower, Shrine of Storms (4-1)",
     length: "short",
     difficulty: "Low",
     reward: "Rare upgrade materials, unique consumables",
-    summary:
-      "An invisible crow on a high nest accepts item trades. Drop specific items and reload the area to receive rare rewards not available anywhere else.",
-    aiTip:
-      "Look up the trade list — some of the best rewards come from common items you might otherwise sell.",
+    summary: "An unseen crow, Sparkly, nests on the cliff tops of the Shrine of Storms. Drop an item by her tree and she may swap it for something rare.",
+    aiTip: "Look up the trade list — some of the best rewards come from common items you might otherwise sell.",
+    walkthrough: [
+      "In 4-1, go through the tower with the lone skeleton archer (Compound Long Bow) and out onto the cliff tops.",
+      "Follow the path to the tree with hawks circling Sparkly's nest.",
+      "Drop a single item by the tree and listen to her reply.",
+      "If she's pleased, leave or reload the area — her gift appears where your item was.",
+      "If she refuses, pick the item back up before leaving (each item type trades once)."
+    ],
     video: "https://www.youtube.com/watch?v=Riigb2TiFFo"
   },
 {
@@ -930,11 +940,16 @@ const quests = [
     location: "Stonefang Tunnel (2-2)",
     length: "short",
     difficulty: "Medium",
-    reward: "Pure Greystone, Dragon Bone Smasher access",
-    summary:
-      "Meet a wandering warrior who challenges you to prove your worth. Completing his request unlocks one of the most powerful strength weapons in the game.",
-    aiTip:
-      "You need Pure White World Tendency in World 2 to access the Dragon Bone Smasher. Plan your deaths and kills accordingly.",
+    reward: "Pure Greystone (Pure White) or Talisman of Beasts (Pure Black)",
+    summary: "A wanderer hunting the Dragon Bone Smasher hides in a blocked tunnel near the Armor Spider. In Pure White World he rewards you for showing him the sword; in Pure Black he attacks as a Black Phantom.",
+    aiTip: "He only appears at an extreme World Tendency. In Pure Black he's a heavy-magic phantom — fighting him near the pit lets you knock him off.",
+    walkthrough: [
+      "Push World 2 to Pure White or Pure Black World Tendency.",
+      "From the Armor Spider Archstone (2-2), go right past the miners to the large pit and climb down the platforms.",
+      "Enter the blocked tunnel with two Crystal Lizards to find Scirvir.",
+      "Pure White: get the Dragon Bone Smasher (2-3) and show it to him for a Pure Greystone.",
+      "Pure Black: defeat Black Phantom Scirvir for the Talisman of Beasts."
+    ],
     video: "https://www.youtube.com/watch?v=4QzsNkwfzIg"
   },
 {
@@ -2183,16 +2198,21 @@ const quests = [
     id: 85,
     type: "side",
     game: "Demon's Souls",
-    region: "Latria",
+    region: "Shrine of Storms",
     title: "Saint Urbain's Rescue",
-    location: "Shrine of Storms (4-2)",
+    location: "Pit near the Adjudicator Archstone, Shrine of Storms (4-2)",
     length: "medium",
     difficulty: "High",
     reward: "Access to miracle spells, Second Chance miracle",
-    summary:
-      "Rescue the holy man Saint Urbain from the depths of the Shrine of Storms. He's trapped in a pit surrounded by deadly shadow lurkers, and freeing him unlocks the game's most powerful defensive miracle.",
-    aiTip:
-      "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP.",
+    summary: "Saint Urbain is trapped at the bottom of a pit in the Ritual Path. Drop in, beat the Black Phantom guarding the door and he'll return to the Nexus to teach miracles.",
+    aiTip: "Bring a light source — the pit is pitch black. Second Chance is arguably the best miracle in the game, reviving you once per casting at half HP.",
+    walkthrough: [
+      "Start from the Adjudicator Archstone in 4-2 (Ritual Path).",
+      "Head to the room with the pit — jump in, or let Patches kick you down.",
+      "Turn around at the bottom to find Saint Urbain.",
+      "Defeat the Black Phantom guarding the door out of the pit.",
+      "Talk to Urbain; he moves to the Nexus and teaches miracles."
+    ],
     video: "https://www.youtube.com/watch?v=th0qgF9VTsA"
   },
 {
@@ -2205,10 +2225,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Foe's Ring, unique souls, Colorless Demon Souls",
-    summary:
-      "A mysterious woman in black appears in the Nexus at Pure Black Character Tendency and tasks you with assassinating every named NPC. A dark questline for players willing to sacrifice their allies for power.",
-    aiTip:
-      "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players.",
+    summary: "Once Yurt is dead and your Character Tendency is Pure Black, the Lady in Black, Mephistopheles, appears in the Nexus and asks you to assassinate six people.",
+    aiTip: "Only attempt this on a character you're willing to lose NPC services on. Complete all NPC quests and purchases before starting. The Foe's Ring boosts damage at low HP — extremely powerful for skilled players.",
+    walkthrough: [
+      "Kill Yurt, the Silent Chief (freed from his cage in 3-2) — Mephistopheles won't appear while he lives.",
+      "Reach Pure Black Character Tendency and find her on the Nexus's second floor via the outer stairs.",
+      "Kill her targets: Saint Urbain and his acolytes, Sage Freke and his apprentice, Patches, Biorr, Ostrava and Yuria.",
+      "Return to her after each kill for rewards (Stones of Ephemeral Eyes, Colorless Demon's Souls, Talisman of Beasts).",
+      "Finish the list for the Foe's Ring."
+    ],
     video: "https://www.youtube.com/watch?v=L-uQipj4SKc"
   },
 {
@@ -2221,10 +2246,15 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Heavy Arrows, vendor access, comedic encounters",
-    summary:
-      "Encounter the treacherous Patches across multiple worlds as he repeatedly tries to trick you into traps. A recurring FromSoftware character who became a staple of the Souls series starting here.",
-    aiTip:
-      "Don't attack Patches — he becomes a useful vendor in the Nexus. Say 'No' when he asks if you're a cleric for the best outcome.",
+    summary: "Encounter the treacherous Patches across multiple worlds as he repeatedly tries to trick you into traps. A recurring FromSoftware character who became a staple of the Souls series starting here.",
+    aiTip: "He'll lure you to the edge in 2-2 and kick you into the pit in 4-2 — the 4-2 pit is where Saint Urbain is, so go along with it. Spare him and he sells Heavy Arrows in the Nexus.",
+    walkthrough: [
+      "Meet Patches in the Tunnel City (2-2); he talks up treasure, then kicks you down.",
+      "Survive the drop and climb back out — don't attack him.",
+      "Meet him again in the Ritual Path (4-2), where he kicks you into the pit with Saint Urbain.",
+      "Rescue Urbain and climb out.",
+      "Patches moves to the Nexus next to the Tower of Latria archstone as a merchant."
+    ],
     video: "https://www.youtube.com/watch?v=rvLPhn9oh4k"
   },
 {
@@ -3210,11 +3240,16 @@ const quests = [
     location: "Boletarian Palace (1-1, 1-2, 1-3)",
     length: "long",
     difficulty: "High",
-    reward: "Mausoleum Key, Rune Sword and Shield",
-    summary:
-      "Rescue the noble Ostrava repeatedly across three stages of Boletarian Palace. His questline ends in tragedy and rewards the key to the Mausoleum, which contains one of the game's most powerful weapon sets.",
-    aiTip:
-      "Rescue Ostrava every time you encounter him or he dies and the quest fails. Never invade him as a Black Phantom early — let the questline resolve naturally for the Mausoleum Key.",
+    reward: "Brass Telescope, Dark Moon Grass, Pure Clearstone, Mausoleum Key",
+    summary: "Ostrava, a young knight searching for his king, keeps getting into trouble across Boletarian Palace. Save him in 1-1, 1-2 and 1-3 — his story ends with the Mausoleum Key and the road to Old King Doran.",
+    aiTip: "Saving him in 1-3 takes him out of the Nexus, which locks out Mephistopheles's Talisman of Beasts. The Mausoleum Key opens the door behind the Red-Eyed Knight in 1-1, where Doran gives the Demonbrandt.",
+    walkthrough: [
+      "1-1: save Ostrava from the soldiers ambushing him for a Brass Telescope.",
+      "1-2: rescue him in the tunnels under the wall near the Tower Knight for 3 Dark Moon Grass.",
+      "1-3: save him from the Red-Eyed Knights for a Pure Clearstone.",
+      "1-4: talk to him — his story ends and he drops the Mausoleum Key.",
+      "Use the key behind the Red-Eyed Knight in 1-1 to reach Old King Doran."
+    ],
     video: "https://www.youtube.com/watch?v=8-_55ap2Q5s"
   },
 {
@@ -3227,10 +3262,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Access to advanced sorcery spells, XP",
-    summary:
-      "Free the imprisoned sorcerer Sage Freke from the Tower of Latria. He becomes a spell vendor in the Nexus offering powerful magic unavailable elsewhere, making him essential for intelligence-build characters.",
-    aiTip:
-      "His cell key is held by the Mindflayer jailer on the second level. Clear surrounding enemies before grabbing the key — the jailers respawn and their paralysis can be lethal.",
+    summary: "Sage Freke, the Visionary, is locked in a cell in the Tower of Latria's prison. Free him and he joins his apprentice in the Nexus to teach advanced sorcery.",
+    aiTip: "His cell key is on the balcony near the Fool's Idol boss area. Mind Flayers patrol the prison and can paralyse you — clear or avoid them before grabbing it. He needs 10 Magic to teach you.",
+    walkthrough: [
+      "Talk to Freke's Apprentice in the Nexus, who asks you to free the sage.",
+      "In the Tower of Latria (3-1), find the cell key on the balcony near the Fool's Idol area.",
+      "Open Freke's cell and talk to him twice — he gives you Geri's Stiletto.",
+      "Return to the Nexus; Freke sits beside his apprentice and trades spells for boss souls."
+    ],
     video: "https://www.youtube.com/watch?v=XyzirgD-YOY"
   },
 {
@@ -3266,10 +3305,15 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Dragon Demon's Soul, Pure Dragonstone access",
-    summary:
-      "Defeat the Dragon God by using ballista traps in the arena rather than direct combat. One of the most creative boss fights in the game, requiring observation and patience rather than combat skill.",
-    aiTip:
-      "The Dragon God is effectively invincible to direct attacks early in the fight. Use the environment — activate the two ballista traps in sequence while avoiding its gaze to stun it for the kill.",
+    summary: "Defeat the Dragon God by using ballista traps in the arena rather than direct combat. One of the most creative boss fights in the game, requiring observation and patience rather than combat skill.",
+    aiTip: "The Dragon God is effectively invincible to direct attacks early in the fight. Use the environment — activate the two ballista traps in sequence while avoiding its gaze to stun it for the kill.",
+    walkthrough: [
+      "From the Flamelurker Archstone (2-3), go through the fog into the Dragon God's arena.",
+      "Hide behind pillars — move only when the Dragon God's eyes turn yellow, never when they're red.",
+      "Break the rubble with a weapon or spell while it looks away.",
+      "Fire the first ballista on the right, then cross to the second at the far side and fire it.",
+      "With the Dragon God pinned, hit its head until it dies."
+    ],
     video: "https://www.youtube.com/watch?v=wFBFbLHL8CQ"
   },
 {
@@ -3281,11 +3325,16 @@ const quests = [
     location: "Tower of Latria (3-3)",
     length: "short",
     difficulty: "High",
-    reward: "Monk's Head Collar, Old Monk's Soul",
-    summary:
-      "Face the Old Monk boss who summons a real player to fight as the final encounter — a groundbreaking mechanic for its time. If no player is available, a Black Phantom NPC takes their place.",
-    aiTip:
-      "Prepare for a human opponent — they can use any build and will exploit your weaknesses. Keep a Fire Spray or Soul Ray ready as a ranged punish option.",
+    reward: "Yellow Demon's Soul",
+    summary: "Face the Old Monk boss who summons a real player to fight as the final encounter — a groundbreaking mechanic for its time. If no player is available, a Black Phantom NPC takes their place.",
+    aiTip: "Prepare for a human opponent — they can use any build and will exploit your weaknesses. Keep a Fire Spray or Soul Ray ready as a ranged punish option.",
+    walkthrough: [
+      "Teleport to the Maneater Archstone (3-3) via the Tower Queen archstone.",
+      "Climb the stairs on the right past the Man Centipedes and a Black Phantom Mind Flayer.",
+      "Enter the small room with the fog gate on the left.",
+      "Fight the Old Monk — a real player (or an NPC Black Phantom if none is available).",
+      "Touch the archstone afterwards."
+    ],
     video: "https://www.youtube.com/watch?v=GpKMwv2AU1w"
   },
 {
@@ -3297,11 +3346,16 @@ const quests = [
     location: "Valley of Defilement (5-3)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Pureblood Demon's Soul, Sword of Searching",
-    summary:
-      "Confront Maiden Astraea, a saint who descended into the Valley of Defilement to care for the suffering. She and her guardian Garl Vinland present one of the most emotionally devastating boss encounters in FromSoftware history.",
-    aiTip:
-      "You can kill Garl Vinland first to make Astraea vulnerable, or you can talk to Astraea and she will take her own life. Neither method feels like a victory — that's the point.",
+    reward: "Pureblood Demon's Soul, Ring of Sincere Prayer",
+    summary: "Confront Maiden Astraea, a saint who descended into the Valley of Defilement to care for the suffering. She and her guardian Garl Vinland present one of the most emotionally devastating boss encounters in FromSoftware history.",
+    aiTip: "You can kill Garl Vinland first to make Astraea vulnerable, or you can talk to Astraea and she will take her own life. Neither method feels like a victory — that's the point.",
+    walkthrough: [
+      "Reach the end of the Valley of Defilement (5-3).",
+      "Fight Garl Vinland, her guardian — bait his hammer swings and punish (or shoot Astraea from range with a strong bow).",
+      "Once Garl falls, Astraea takes her own life.",
+      "Collect the Pureblood Demon's Soul and Ring of Sincere Prayer.",
+      "In Pure White World, return later to fight Black Phantom Garl for the Bramd and Crest of Vinland (for Selen)."
+    ],
     video: "https://www.youtube.com/watch?v=k2chOJD9DoI"
   },
 {
