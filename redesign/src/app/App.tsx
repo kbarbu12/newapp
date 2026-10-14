@@ -362,7 +362,7 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             <p className="text-xs text-muted-foreground mt-4"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
           )}
 
-          {!quest.video && hasGuide && (
+          {hasGuide && (
             <div className="mt-5">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-sm font-semibold text-foreground" style={{ fontFamily:"'Spectral',serif" }}>Step-by-Step Walkthrough</h3>
@@ -459,7 +459,7 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           <span className="hidden sm:inline-flex">
-            {!quest.video && quest.walkthrough?.length
+            {quest.walkthrough?.length
               ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
               : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
           </span>

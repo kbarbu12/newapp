@@ -12,19 +12,21 @@ All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details 
 `PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
 ## Upgrade quest videos from search URLs to real `watch?v=` links
-1,444 of 2,480 quest `video` fields (as of 2026-10-13) are YouTube *search*
-URLs (`results?search_query=…`). **1,441 of them now have a proposed
+1,443 of 2,475 quest `video` fields (as of 2026-10-13) are YouTube *search*
+URLs (`results?search_query=…`). **1,440 of them now have a proposed
 `watch?v=` link** in `docs/video-candidates/` (18 games). The other 3 (#108,
 #1432, #2461) have no single matching video. All candidates await the owner's review on
 https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
 owner marks done, swapping out flagged links. See PROGRESS.md "Session
 2026-10-11 → 13".
 
-## Replace remaining placeholder quest text
-AC Odyssey has 6 entries with generic placeholder text (no guide source
-found yet) and Deadfire has 1 (#2503 Her Last Request — a real Dunnage task,
-but no guide details found). Pillars I and the other 34 Deadfire entries were
-rewritten 2026-10-13. Verify against guides first — some may not be real quests.
+## AC Odyssey entries no guide could confirm (Phase 3 leftovers)
+~96 AC Odyssey entries still have only 1–3 steps because no guide confirmed
+more detail. Made-up details were stripped on 2026-10-14 and the vague ones
+now have plain, safe steps; the rest (riddles, tombs, romances, short side
+quests) are generic but accurate. Full lists are in PROGRESS.md (Phase 3
+batch notes). Owner: verify in-game or with each entry's video if you want
+richer steps.
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod

@@ -1,13 +1,13 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-13
+**Last updated:** 2026-10-14
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
 
-## Session 2026-10-11 → 13 — video candidates for every game, quest cleanup, Pillars I text
+## Session 2026-10-11 → 14 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
 
 ### Video candidates for all search-URL quests (not shipped — owner review)
 - Every quest whose `video` was a YouTube search URL now has a proposed
@@ -71,10 +71,360 @@
   prod build: all 105 Odyssey tips/rewards render, the 4 removed entries are
   gone and their originals remain, 0 page errors.
 
-- Still to do: AC Odyssey's 6 entries without a guide source; Deadfire #2503;
-  owner review of the 1,441 video candidates; owner to decide whether
-  walkthrough steps should show alongside a video, and whether to delete the
-  13 old per-game review pages.
+### Last 7 placeholder quests
+- A fresh search found guides for all of them. Rewritten with real summary,
+  aiTip, walkthrough, reward and location: AC Odyssey #2143 Bare It All,
+  #2149 No More Bull, #2151 The Grand Minotaur → **The Grand Minotour**
+  (in-game spelling), #2168 A Godless Blight, #2170 A Treasury of Legends,
+  #2180 Throwing the Bet; Deadfire #2503 Her Last Request. No placeholder
+  quest text remains.
+
+### Walkthrough steps alongside videos
+- Phase 1 (PR #127): steps now render under the video in every game (614
+  quests had hidden steps); card shows the step count; chat lists steps.
+- Phase 2, one PR per game, biggest first: write steps for the 422 video
+  quests with none (Hogwarts 120, God of War 65, Jedi Survivor 61, …), then
+  expand AC Odyssey's 284 three-step lists, then review the no-video steps.
+- **Hogwarts Legacy:** 118 quests got 3–7 guide-sourced steps. The data was
+  badly off: 66 summaries rewritten (e.g. The High Keep is Natty, not Poppy;
+  Take the Biscuit is a Mooncalf rescue), 14 titles set to in-game names
+  (class assignments → "Professor Garlick's Assignment 1" etc., Sacking
+  Selwyn, Absconder Encounter), assignment rewards/tips corrected, 3 Sebastian
+  quests moved to Relationship. #509 Ollivanders & the Perfect Wand and #868
+  In the Shadow of Revelation matched no guide; removed on owner's OK
+  (2,480 → 2,478).
+
+- **God of War Ragnarök:** all 65 video quests got 3–7 guide-sourced steps.
+  Every title checked out as real, but realms/stories were often wrong
+  (e.g. Groa's Secret → Alfheim, Sigrún's Curse → Midgard, The Broken Prison
+  is the real-Tyr prison, Scent of Survival follows Helka to the Crater).
+  "In Service to Asgard" → "In Service of Asgard". Added a **Jötunheim** realm
+  filter option (The Lost Sanctuary, Ironwood).
+
+- **Star Wars Jedi: Survivor:** all 61 video quests got steps. The 18 main-story
+  entries now use the real mission names (The Heist & The Escape, The Key to
+  Tanalorr, … Kata Akuna, Wrath, A New Path) and fixed story errors — Bode
+  betrays the group but Darth Vader kills Cere in the Siege; the Shattered
+  Moon boss is Drya Thorne. Bounties, Legendary enemies and the 7 Jedi
+  Chambers all verified real; a few locations corrected (Korej Lim →
+  Devastated Settlement, Chamber of Fortitude → Southern Reach).
+
+- **Star Wars Jedi: Fallen Order:** all 28 video quests got steps (story from
+  Bracca to Nur, the 4 Legendary Beasts, the 3 Zeffo/Dathomir tombs,
+  collectibles). Data was mostly right; Ninth Sister fight moved to the
+  Origin Tree, Oggdo Bogdo to the Bogdo Sinkholes.
+
+- **Black Myth: Wukong:** all 21 video quests got steps (secret bosses, the
+  four Loongs, transformations, chapter finales, true ending). Fixed: Five
+  Element Carts is Chapter 5 (not 3); Loong Scales are behind a breakable
+  wall in the First Rat Prince arena; Drunken Boar summary untangled.
+
+- **Final Fantasy VII Rebirth:** all 19 video quests got steps (odd jobs,
+  Protorelics, Colosseum, Queen's Blood, Gilgamesh, Gold Saucer finale).
+  Fixed regions (Can't Stop Won't Stop, Queen's Blood Champion, Gilgamesh →
+  Corel), My White-Haired Angel summary (it's finding Fluffy, not a piano
+  scene), and 5 vague summaries/locations.
+
+- Removed on owner's OK (2,478 → 2,476): FF7 Rebirth #247 Rulers of the
+  Outer Worlds (no such simulator challenge) and Witcher 3 #41 The Phantom of
+  Eldberg (duplicate of #626 Contract: The Phantom of Eldberg).
+
+- **Cyberpunk 2077:** all 20 video quests got steps (Sinnerman, the main
+  romance/companion lines, the Peralez gigs, Phantom Liberty, Skippy, the
+  cyberpsychos, the secret ending). Fixed regions (I Fought the Law →
+  Heywood, Violence → Watson, Buck Ravers → Westbrook) and wrong summaries:
+  Firestarter is the Black Sapphire choice (not the opener), Violence is Lizzy
+  Wizzy and Liam, Buck Ravers is on Jig-Jig Street.
+
+- **Metaphor: ReFantazio:** all 20 video quests got steps (main story
+  deadlines, Virga Island, the Skybound finale, More's archetype tasks,
+  bounty quests). Fixed: Thwart Zorba's Plan is in Grand Trad's cathedral,
+  Infiltrate the Charadrius in Brilehaven; Apprehend the Real Kidnapper,
+  Ancestral Solution and More's final task summaries made specific.
+
+- **The Witcher 3:** the 14 remaining video quests got steps (Bloody Baron,
+  Crookback Bog, Carnal Sins, Skellige jarls, Gwent, Toussaint quests).
+  Rewrote 4 wrong summaries: Carnal Sins starts with the attack on Priscilla;
+  A Dangerous Game is Zed's cards and the Bilzen robbery; Possession is Jarl
+  Udalryk's curse and the missing Cerys; Hattori is an elf, not a dwarf.
+
+- **Horizon Forbidden West:** all 12 video quests got steps. 8 summaries
+  rewritten (The Broken Sky, The Bristlebacks, The Dying Lands, The Sea of
+  Sands, Faro's Tomb and others were describing the wrong quests); Bristlebacks
+  moved to Chainscrape, Forbidden Legacy to The Clan Lands; "Tallneck: The
+  Devil's Thirst" doesn't exist → renamed to Tallneck: Cinnabar Sands; The
+  Daunt Errands now lists Chainscrape's real errands.
+
+- **Demon's Souls:** all 11 video quests got steps. Fixed: Yuria is in the
+  1-2 watchtower (Fat Official set), not Latria; Saint Urbain → Shrine of
+  Storms; Scirvir's summary/reward (Pure Greystone or Talisman of Beasts);
+  Patches tip was Dark Souls; Ostrava, Old Monk, Astraea rewards; Sparkly's
+  nest location; Mephistopheles's real six targets.
+
+- **Ghost of Tsushima:** all 9 video quests got steps. Fixed: Unbreakable
+  Gosaku → Izuhara (six farmstead keys, not shrines); Six Blades of Kojiro is
+  five Straw Hat assassins + Kojiro at Omi Monastery (not Iki); Heavenly
+  Strike is a duel with Yasuhira (no dojo trials); A Reckoning in Blood is the
+  Fort Koyasan raid (no "general Dokhoi"); Tadayori's foe is Kaede; rewards
+  for Ishikawa, Masako, Uchitsune, Yarikawa.
+
+- **Ghost of Yōtei:** all 9 video quests got steps. Most side-quest details
+  were invented: "The Way of the Shamisen" renamed to the real Master of the
+  Shamisen (Heijiro's Garden, Song of Spirit); The Five Teachings is the
+  Mount Yōtei summit duel with Takezo (no blind sage); Takezo's final duel is
+  at the Coastal Dueling Tree; made-up tips/bosses replaced for Undying
+  Samurai, Spider Lily General, Crimson Kimono, Opusnupuri, Storm Blade.
+
+- Removed on owner's OK (2,476 → 2,475): Ghost of Yōtei #1145 Duel the
+  Unrivaled (same final Takezo duel as #1149 The Five Teachings, which
+  completes "Unfinished Business: Duel the Unrivaled"). Its unshipped video
+  candidate dropped; review page now 1,440 links.
+
+- **Persona 5 Royal:** all 8 video quests got steps. Fixed Mementos areas
+  (Takase couple → Chemdah 7, Nejima → Akzeriyyuth 5, Kiritani →
+  Akzeriyyuth 12), title "The Killer Who Cleans Up Trash", made-up tips
+  (Hamaon/Mudoon, Ryuji's "Baton Pass upgrade"), and Confidant rewards now
+  list each one's real abilities and deadlines.
+
+- **Pillars of Eternity I & II:** the last 3 video quests got steps. The Man
+  Who Waits is in the Sanitarium (Uscgrim, a vessel for Thaos), not Heritage
+  Hill; Seeker, Slayer, Survivor is on Kazuwari (the Crucible), not Ukaizo;
+  The Forgotten Sanctum is Llengrath and the missing archmage Maura (no
+  "Watcher of the Black Isles"). **Phase 2 complete** — every video quest now
+  has steps.
+
+- **Phase 3 — AC Odyssey batch 1 (Kephallonia, Megaris, Phokis):** 31
+  quests' 1–3-step generic lists replaced with 4–5 guide-sourced steps
+  (story from So It Begins to The Serpent's Lair, side quests, Kalydonian
+  Boar, 2 tombs, 7 Ainigmata Ostraka with real tablet/solution spots).
+  "Side Quest - Crewless"/"Helping a Healer" retitled and moved to side
+  quests; many summaries rewritten (An Eye for an Eye = the Obsidian Eye,
+  Learning the Ropes = naval fight). #2024 Memories Awoken left as is — no
+  guide found.
+
+- **Phase 3 — AC Odyssey batch 2 (Attika, Boeotia, Euboea):** 30 quests
+  got 4–5 guide-sourced steps (Eppie's stele chain, the Athens/Symposium
+  arc, Rising from the Ashes, The Conqueror, the Chapter 8 Athens quests,
+  the Sophanes/Sokrates chain, Hind of Keryneia, 3 tombs, 5 Ostraka).
+  Eppie's 4 "Side Quest - …" entries retitled and moved to side quests;
+  Hound Docked moved to Megaris (its real region). Left as is (no guide
+  found): Welcome to Athens, Creating Opportunity, the 4 Kingfisher quests,
+  Artemision Tomb, and the Attika Ostraka Goat's Gruff, Killer View, Pigsty,
+  Fire in the Belly, Stadium Love, Bridging the Gap.
+
+- **Phase 3 — AC Odyssey batch 3 (Peloponnese story, beasts, tombs):** 32
+  quests got 4–5 guide-sourced steps (Korinth/Monger arc, Hippokrates in
+  Argolis, Sparta's kings, the Olympics, the Lagos chain, A Bloody Feast,
+  Pylos, Olympia side quests, 4 legendary beasts, 7 tombs). Fixed To Kill or
+  Not to Kill (it's the Sosipatros ambush and the Lagos choice, not
+  Alkibiades's poisoning); "Tomb of Euryplos" → Tomb of Eurypylos. Left as
+  is (no guide found): Speak No Evil, The Long Game, Written in Stone, Death
+  Comes for Us All, Ambition, Training Days, Not My Mother's Daughter,
+  Another Kind of Poetry, Destroyed House of Oinomanos, Tomb of the First
+  Champion.
+
+- **Phase 3 — AC Odyssey batch 4 (Cyclades/Myrrine arc, Amphipolis, 8
+  Peloponnese Ostraka):** 17 quests got guide-sourced steps. "Side Quest - A
+  Family's Legacy" retitled and moved to side quests; the 8 riddles moved
+  from the generic "Peloponnese" region to their real regions (Korinthia,
+  Argolis ×2, Achaia, Arkadia, Messenia ×2, Lakonia). Left as is (no full
+  guide): The Floor is Lava, Mapping Out, Belly Flop, Hobby Horsing, Farming
+  Coin, Sweet Tooth, Tastes like Chicken, Rightful King, Prophecy Prevention,
+  Rock and Roll.
+
+- **Phase 3 — AC Odyssey batch 5 (island side quests):** 15 quests got
+  guide-sourced steps — Roxana's training (Hydrea), Kyra/Thaletas on
+  Mykonos, Markos on Kos, Gotarzes on Lestris, Civil Unrest / Myths and
+  Minotaurs / It's Complicated / Kretan Bull on Crete, Diona and the
+  Krokottas Hyena on Kythera, Chip on Your Shoulder on Chios. Three
+  "Romance-flagged…" placeholder summaries replaced. Left as is (no guide
+  found): Recruitment Drive, We're Treasure Hunters, Foot Race, Call to Arms
+  & The Great Contender, Say That Again!, Flowers for the Dead, Gortyn Out of
+  Hand, Revenge Served Cold, Minotour de Force, Idiot Hunt, Shroud of the
+  Bear, Son of a Fisherman, Tough Love, Have You Seen My Mikkos?, Clothes
+  Make the Daughter, Hostage Situation.
+
+- **Phase 3 — AC Odyssey batch 6 (Cult of Kosmos):** 41 of the 43 cultist
+  entries replaced their identical 3-step template with where each target
+  actually is and how to reach them (e.g. Nyx the Shadow near the Theater of
+  Dionysos, Silver Griffin on Prasonisia, Iobates at Myrina Fort, Polemon at
+  the Teichos of Herakles); story-linked cultists point to their quest (Lagos,
+  Kleon, the Monger, Silanos, Pausanias, Chrysis). Left as is (no guide
+  location found): Kallias, The Ghost of Kosmos.
+
+- **Phase 3 — AC Odyssey batch 7 (finale, Lost Tales, romances):** 14
+  entries. Where It All Began rewritten (it's the Deimos cliff confrontation
+  on Mount Taygetos, with the dialogue for the family ending); 3 Lost Tales
+  (A Poet's Legacy, Every Story Has an Ending, Old Flames Burn Brighter); 10
+  romance entries now name the quest that unlocks each romance and the key
+  choice (Odessa, Auxesia, Kosta, Roxana, Kyra, Thaletas, Xenia, Diona,
+  Zopheras, Anais). Left as is (no guide found): romances Lykaon,
+  Alkibiades, Daphnae, Mikkos, Aikaterine, Thyia; Lost Tales A Brother's
+  Seduction, The Show Must Go On, Divine Intervention, The Image of Faith,
+  A Friend Worth Dying For, One Really Really Bad Day, Socrates' Trial.
+
+- **Phase 3 — AC Odyssey batch 8 (mythical beasts, tombs):** 8 entries.
+  Cyclops moved Messara → Kythera Island (A God Among Men, Isle of Thisvi);
+  Sphinx moved Petrified Islands → Boeotia (Lake Kopais riddles); Minotaur
+  quest names fixed (Of Minotaurs and Men → He Waits); 5 tombs got real
+  locations. **Phase 3 stops here:** the remaining ~96 AC Odyssey entries
+  with ≤3 steps are the ones no guide confirmed (listed in the batch notes
+  above and in TODO.md).
+
+- **Phase 4 — Cyberpunk 2077 (gigs & cyberpsychos):** 45 entries that
+  shared template steps were checked against guides. The gig data was badly
+  off: many gigs had the wrong district, fixer and objective (e.g. Two Wrongs
+  Makes Us Right is a Pacifica van theft for Mr. Hands, not a Watson car job;
+  Big Pete is a Badlands Dakota gig; Hot Merchandise and Family Heirloom are
+  late Rogue gigs in Heywood/Westbrook; Life's Work is a car recovery, not a
+  sculpture). Regions, locations, summaries and steps fixed; "Gig: Over the
+  Edge" retitled (it's the Edgerunners side job at Megabuilding H4); Lt.
+  Mower moved to Kabuki. Left as is (no guide found): God Bless This Mess
+  (possibly not a real gig), No Fixers, Spy in the Jungle, Waiting for
+  Dodger, and the 4 cyberpsychos with no extra detail.
+
+- **Phase 4 — Pillars II: Deadfire (bounties & faction quests):** 40
+  entries. All 28 bounties had the giver's district as the target's
+  location; each now names who posts it (Abocco, Aenia, Barati, Wakoyo,
+  Okauro, Nungata, Udita, Dessiral) and, where guides give it, where the
+  target actually is (e.g. Radulf in the Kua O Rikuhu islands, Lady Epero at
+  her Serpent's Crown estate, Katrenn on the Sacred Stair at night). 12
+  faction quests got real objectives (Blow the Man Down, Honor Among
+  Thieves, Dim Prospects, A Matter of Import, Clearing Out Crookspur, …) and
+  the four point-of-no-return finales are flagged. Left as is (no guide
+  found): Trade Secrets, The Last Sanctuary, From the Wreckage, Symbols of
+  Death, A Shrewd Proposition, Goods and Services, Overgrowth, Of Like
+  Minds, A Glimpse Beyond, Skipping Ahead, A Vote of No Confidence, Sabotage
+  at the Brass Citadel.
+
+- **Phase 4 — Zelda: Tears of the Kingdom:** 17 quests that shared
+  template steps now have real ones — 10 stable photo quests name the actual
+  subject (Daruk statue, Floria Falls on a clear day, Ancient Columns at
+  sunrise, Ring Ruins, the Hebra "giant bird", Tarrey Town's bell, …), the 3
+  WANTED bounties (all from Gralens at Lookout Landing) have their real
+  target spots, the 3 Lomei prophecies describe maze → sky ruin → terminals,
+  and The All-Clucking Cucco its trials. Left as is (no guide found): the
+  other 24 TotK template entries (sky crystals, Goddess Statues, East
+  Akkala/New Serenne/Woodland photos, Glory of the Zora, …).
+
+- **Phase 4 — Persona 5 Royal (Mementos requests):** the 27 requests already
+  had specific unlock dates, floors and rewards; only the "defeat the target
+  Shadow — exploit its weakness" step was generic. 13 now name the target and
+  its weakness where guides agree (e.g. Nakanohara/Obariyon — Electric,
+  Shimizu/Yaksini — Fire & Bless, Asakura/Mara — Nuke, Isshiki — no
+  weakness, resists Physical). The other 14 left as is (guides missing or
+  contradictory).
+
+- **Phase 4 — Skyrim (Dark Brotherhood contracts, Civil War forts):** 23
+  quests. 12 contracts checked against UESP — several had the wrong place
+  (Lurbuk "Morvunskar" → Moorside Inn, Morthal; Agnis "Nightgate Inn" → Fort
+  Greymoor; Safia "bandit in Kilkreath Ruins" → pirate on the Red Wave at
+  Solitude; Deekus → Hela's Folly; Helvard → Jarl's Longhouse; Maluril's step
+  said Mzulft, not Mzinchaleft) and now give the easiest kill. 11 fort
+  battles now name their hold and who gives the order.
+
+- **Phase 4 — Pillars of Eternity (bounties, faction quests):** 11 quests.
+  7 Caed Nua bounties had "Caed Nua" (where Warden Fyrgen posts them) as the
+  location; each now names where the target is (Sly Cyrdel at Magran's Fork,
+  The Dweller in Black Meadow, Nalrend in the Elmshore cave, Warchief Iklak
+  in Valewood, Daroth Grimault in the Copperlane Catacombs, Thorfen in
+  Esternwood, Songsmith Roska at Clîaban Rilag). 4 faction quests (Rogue
+  Knight, Built to Last, Winds of Steel, The Changing of the Guard) got real
+  steps with the faction lock-in flagged. Left as is: 9 bounties with no
+  reliable location (Glasdial's sources disagree) and A Two Story Job.
+
+- **Phase 4 — Ghost of Yōtei (bounties):** the 16 template bounties' steps
+  contain very specific mechanics no guide mentions ("10-second head start",
+  "underwater tunnel 15 m below the cliff") — likely invented. 4 verified and
+  rewritten: Blue Yamauba (Tokachi → Ishikari Plain; drawing → mask merchant
+  → Blackened Homestead, she's Miyo), Inokichi the Hungry (Ishikari →
+  Huranui Mill camp, Tokachi), Bear Man Chikatoshi (Shizunai Woods), Eagle Eye
+  Kondo (pink-tree island off Esan Inlet). The other 12 are real bounties but
+  their steps are unverified (see TODO.md).
+
+- **Phase 4 — AC Valhalla:** the 19 template entries are the real "Reporting
+  on …" arc-end quests and three Order kills; their steps were already
+  accurate, just plain. 4 got real detail: Reporting on East Anglia (settle
+  the Mane and Tail dispute first), Reporting on Lunden (Randvi offers
+  Vinland here), Closing the Vault (Hjorr's hidden room in the archives),
+  Impaling the Seax (Ealhferth, in the church). **Phase 4 complete** —
+  everything unconfirmed is listed in the batch notes above and in TODO.md.
+
+- **Ghost of Yōtei — 12 bounties de-invented (owner's call):** their steps
+  and tips described precise mechanics no guide confirms; replaced with plain
+  steps (poster → clues/Kojiro → scout → defeat → reward), keeping only
+  confirmed facts (Black Powder Ippei needs Muneji the Bone Crusher first;
+  Junpei appears after freeing the prisoner in a north Tokachi cave; Iwa is
+  at Benten Port). TODO item removed.
+
+- **Generic steps — AC Odyssey leftovers:** 16 entries whose text was vague
+  or made up now have plain, safe steps: 4 story quests (Memories Awoken,
+  Welcome to Athens, Speak No Evil, The Long Game), Call to Arms & The Great
+  Contender (dropped the unconfirmed "three Brutes"/"One Hundredth Hand"), 7
+  Lost Tales (dropped unconfirmed episode numbers, NPCs and regions), Kallias,
+  The Ghost of Kosmos (dropped the "42 members" claim), Medusa (dropped the
+  made-up "Romancing the Stone Garden"/Bryce quest) and Centaur Field (text
+  read "in Various"). The other ~80 leftovers already had plain template text
+  (riddles, tombs, romances) or guide-sourced side-quest text from #111–#114,
+  so they were left as is.
+
+- **Generic steps — Cyberpunk leftovers:** 8 entries got plain, safe steps.
+  The 4 gigs (God Bless This Mess, No Fixers, Spy in the Jungle, Waiting for
+  Dodger) dropped their unconfirmed objectives; No Fixers dropped El Capitán
+  (he's Santo Domingo's fixer, not Pacifica's). The 4 cyberpsychos (The
+  Wasteland, Phantom of Night City, Smoke on the Water, Lex Talionis) dropped
+  their unconfirmed names and exact spots and keep the region.
+
+- **Generic steps — Deadfire faction leftovers:** the 12 faction quests no
+  guide confirmed (Trade Secrets, The Last Sanctuary, From the Wreckage,
+  Symbols of Death, A Shrewd Proposition, Goods and Services, Overgrowth, Of
+  Like Minds, A Glimpse Beyond, Skipping Ahead, A Vote of No Confidence,
+  Sabotage at the Brass Citadel) dropped their unconfirmed locations (now the
+  faction's home base: Neketaka, or Dunnage for the Príncipi) and got 4 plain
+  steps naming the faction.
+
+- **Generic steps — TotK leftovers:** the 23 template entries no guide
+  confirmed got plain, safe steps by type: 5 sky crystals (carry the crystal
+  to its shrine), 4 hidden-shrine quests, 2 stable photos (East Akkala, New
+  Serenne: read the frame's hint, photograph, show it), 8 side adventures and
+  4 goddess-statue quests (talk to the giver, follow the Adventure Log).
+  Made-up objectives, tips and rewards (e.g. "trade hearts and stamina",
+  "Hinox or Talus", "Zora honor") were dropped.
+
+- **Generic steps — Pillars I leftovers:** 8 bounties (Glasdial, Foemyna,
+  Galen Dalgard, Devŵen, Captain Muārumi, High Arcanist Ysly, Naroc the
+  Prophet, Sserkal) said to "travel to Caed Nua" to find the target, but Caed
+  Nua is only where Warden Fyrgen posts them. They now point you to the
+  bounty description for the location and use the same 5 steps as the
+  confirmed bounties. A Two Story Job got plain House Doemenel faction steps.
+  P5R's 14 Mementos leftovers needed no change: their only generic step
+  ("exploit its weakness") is already plain and accurate.
+
+### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
+- **Phase 2 done:** every quest with a real video now has steps (0 left).
+  Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
+  Horizon FW 12, Demon's Souls 11, Ghost of Tsushima 9, Ghost of Yōtei 9,
+  Persona 5 Royal 8, Pillars 3 — 146 quests. Wrong summaries, regions,
+  rewards and tips fixed along the way; invented details replaced (e.g.
+  Yōtei's "Way of the Shamisen" → Master of the Shamisen, Horizon's
+  "Tallneck: The Devil's Thirst" → Tallneck: Cinnabar Sands).
+- **Removed on owner's OK** (#135, #143): FF7 Rebirth #247 (fake), Witcher 3
+  #41 (duplicate of #626), Ghost of Yōtei #1145 (duplicate of #1149).
+  Quest count 2,478 → 2,475.
+- **Phase 3 started** (#146–#148): 93 AC Odyssey quests' generic 1–3-step
+  lists replaced with guide-sourced steps (Kephallonia → Pylos story, side
+  quests, beasts, tombs, riddles); 6 "Side Quest - …" entries retitled and
+  moved to side quests. 191 AC Odyssey quests still have ≤3 steps — about 30
+  of them were left on purpose because no guide confirmed their details
+  (listed in the batch notes above).
+- **Found:** many AC Odyssey riddles are filed under wide or wrong regions
+  ("Peloponnese", "Northern Greece"; A Finger Tip is really Phokis). Being
+  fixed batch by batch.
+
+- Still to do: Phase 3 (remaining AC Odyssey batches: Cyclades/Myrrine arc,
+  islands, riddles, Various/open-world), then Phase 4 (review steps on the
+  1,443 no-video quests); owner review of the 1,440 video candidates; owner
+  to decide whether to delete the 13 old per-game review pages (keep for now).
 
 ---
 
