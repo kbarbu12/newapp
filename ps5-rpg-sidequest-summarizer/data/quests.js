@@ -833,10 +833,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, moral consequences",
-    summary:
-      "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
-    aiTip:
-      "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
+    summary: "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
+    aiTip: "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
+    walkthrough: [
+      "Arrive at Crow's Perch and meet Phillip Strenger, the Bloody Baron, while hunting for Ciri.",
+      "Win his trust (or fight his men), then investigate Ciri's trail around the keep with Witcher Senses.",
+      "Track down the botchling or lubberkin in the Baron's quest for his missing wife and daughter.",
+      "Visit the Crones at Crookback Bog with the Baron's clues.",
+      "Your choices decide whether the Baron, Anna and Tamara get any kind of ending."
+    ],
     video: "https://www.youtube.com/watch?v=dVv0wLSYCB4"
   },
 {
@@ -851,10 +856,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "XP, story outcome, Keira Metz progression",
-    summary:
-      "A haunted-island investigation mixing tragedy, curses, and player judgment. The best outcome depends on careful questioning and skepticism.",
-    aiTip:
-      "Use Witcher senses thoroughly and think carefully before trusting supernatural characters.",
+    summary: "A haunted-island investigation mixing tragedy, curses, and player judgment. The best outcome depends on careful questioning and skepticism.",
+    aiTip: "Use Witcher senses thoroughly and think carefully before trusting supernatural characters.",
+    walkthrough: [
+      "Find the abandoned research notes and the Fyke Isle tower lead in Velen.",
+      "Get on to Fyke Isle and its haunted tower.",
+      "Use the Mage's lamp to reveal the ghosts' memories and follow the curse's trail.",
+      "Decide what to do with the spirit of Annabelle and Graham — the best outcome depends on your choices."
+    ],
     video: "https://www.youtube.com/watch?v=FFI2FSIVBuE"
   },
 {
@@ -869,10 +878,15 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "XP, unique story resolution",
-    summary:
-      "A murder mystery in Novigrad where Geralt must identify a serial killer targeting religious figures. The investigation has a false lead that can result in killing the wrong suspect.",
-    aiTip:
-      "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome.",
+    summary: "Priscilla is attacked in Novigrad by a killer who has struck before. Investigate the murders with Dandelion — the obvious suspect may not be the real one.",
+    aiTip: "Examine all crime scenes thoroughly and question the evidence before acting. Rushing leads to an incorrect — and irreversible — outcome.",
+    walkthrough: [
+      "After Cabaret, visit Priscilla at the hospital — her throat was cut and she was forced to drink caustic liquid.",
+      "Follow the surgeon through the sewers to the morgue and examine the dwarf's body.",
+      "Follow the 'Patricia Vegelbud' clue to the estate.",
+      "Question Reverend Nathaniel Pastodi before accusing him.",
+      "Expose the real killer, the coroner Hubert Rejk, and deal with him at the docks (finish before The Isle of Mists)."
+    ],
     video: "https://www.youtube.com/watch?v=71PzwhZZFZk"
   },
 {
@@ -1163,10 +1177,14 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Gold, XP, early Witcher contract experience",
-    summary:
-      "Geralt's first Witcher contract — investigate a haunted well and defeat the Noonwraith lurking there. A perfect introduction to the investigation-then-combat loop that defines the game.",
-    aiTip:
-      "Use Yrden sign during the fight and read the bestiary entry. This quest teaches core mechanics you'll use for 100+ hours.",
+    summary: "Geralt's first Witcher contract — investigate a haunted well and defeat the Noonwraith lurking there. A perfect introduction to the investigation-then-combat loop that defines the game.",
+    aiTip: "Use Yrden sign during the fight and read the bestiary entry. This quest teaches core mechanics you'll use for 100+ hours.",
+    walkthrough: [
+      "Read the Devil by the Well notice on the White Orchard board (or talk to the villagers).",
+      "Go to the abandoned village and the well, and investigate with Witcher Senses.",
+      "Find the woman's bones and the hairpin, and burn them in the well — or fight the Noonwraith first.",
+      "Defeat the Noonwraith during the day (Yrden traps it in physical form) and collect the reward."
+    ],
     video: "https://www.youtube.com/watch?v=Q4GLjCF0rHg"
   },
 {
@@ -1179,10 +1197,14 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "XP, gold, introduction to moral choices",
-    summary:
-      "Help a soldier's brother search a battlefield for his missing sibling. A short quest that introduces the game's moral ambiguity early — things are rarely what they seem.",
-    aiTip:
-      "Pay attention to dialogue — the 'right' answer isn't obvious. This sets the tone for how Witcher 3 handles choices throughout.",
+    summary: "Help a soldier's brother search a battlefield for his missing sibling. A short quest that introduces the game's moral ambiguity early — things are rarely what they seem.",
+    aiTip: "Pay attention to dialogue — the 'right' answer isn't obvious. This sets the tone for how Witcher 3 handles choices throughout.",
+    walkthrough: [
+      "Read the notice on the White Orchard board or talk to Dune Vildenvert in the ransacked village.",
+      "Meet Dune at the battlefield and look for a Temerian shield painted with flowers (Witcher Senses).",
+      "Fight off the ghouls (necrophage oil on your silver sword).",
+      "Follow the dog's trail to find Dune's brother Bastien (finish before Lilac and Gooseberries or it fails)."
+    ],
     video: "https://www.youtube.com/watch?v=MFgAIteo-X0"
   },
 {
@@ -1195,10 +1217,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Major story branch, affects Bloody Baron outcome",
-    summary:
-      "Investigate a mysterious voice trapped beneath an ancient tree. Your choice here directly impacts the Bloody Baron questline and the fate of the orphans of Crookback Bog — one of the game's most agonizing moral dilemmas.",
-    aiTip:
-      "There is no 'good' outcome — every choice has a cost. Save before deciding and consider which consequences you can live with.",
+    summary: "Investigate a mysterious voice trapped beneath an ancient tree. Your choice here directly impacts the Bloody Baron questline and the fate of the orphans of Crookback Bog — one of the game's most agonizing moral dilemmas.",
+    aiTip: "There is no 'good' outcome — every choice has a cost. Save before deciding and consider which consequences you can live with.",
+    walkthrough: [
+      "Find the ancient oak (the Whispering Hillock) near Downwarren during the Bloody Baron line.",
+      "Talk to the trapped spirit — it asks to be freed and blames the Crones.",
+      "Decide: free the spirit (it saves the orphans but dooms Downwarren) or kill it (it saves the village and Anna's fate changes).",
+      "Your choice shapes the Baron's ending."
+    ],
     video: "https://www.youtube.com/watch?v=F72fGFPr1IY"
   },
 {
@@ -1211,10 +1237,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Story resolution, emotional payoff",
-    summary:
-      "Return to the Crones' domain to confront the consequences of your earlier choices. A harrowing quest that brings the Velen storyline to its conclusion with a boss fight and devastating narrative beats.",
-    aiTip:
-      "Prepare for a tough fight with multiple enemies. Your choices from The Whispering Hillock determine what you face here.",
+    summary: "Return to the Crones' domain to confront the consequences of your earlier choices. A harrowing quest that brings the Velen storyline to its conclusion with a boss fight and devastating narrative beats.",
+    aiTip: "Prepare for a tough fight with multiple enemies. Your choices from The Whispering Hillock determine what you face here.",
+    walkthrough: [
+      "Return to Crookback Bog after the Baron's quest has moved on.",
+      "Meet the Crones again and learn what happened to the orphans and Anna.",
+      "See the consequences of the Whispering Hillock choice.",
+      "Witness the end of the Baron's family story."
+    ],
     video: "https://www.youtube.com/watch?v=WgRN7SYJb_M"
   },
 {
@@ -1227,10 +1257,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Rare Gwent cards, gold",
-    summary:
-      "Help Zoltan recover a collection of rare Gwent cards stolen by Novigrad's criminal underworld. A quest that blends intrigue, combat, and the game's beloved card game into one adventure.",
-    aiTip:
-      "Keep all three cards at the end for Gwent collection progress. The monetary reward for returning them isn't worth it compared to the cards' value.",
+    summary: "Zoltan needs three rare Gwent cards that only Zed the merchant has — and the trail leads into a robbery of Caesar Bilzen's house.",
+    aiTip: "Keep all three cards at the end for Gwent collection progress. The monetary reward for returning them isn't worth it compared to the cards' value.",
+    walkthrough: [
+      "After A Poet Under Pressure, return to the Rosemary and Thyme and save Zoltan from the thugs (level 12+).",
+      "Zoltan wants the Fringilla Vigo, Isengrim Faoiltiarna and John Natalis cards — get them from Zed.",
+      "Zed's door is locked: climb the ladders on the building to the east and jump across.",
+      "Follow the job into Caesar Bilzen's house and take the jade statue.",
+      "Finish before The Isle of Mists, or the quest — and the cards — are lost."
+    ],
     video: "https://www.youtube.com/watch?v=9oUv31iv-E0"
   },
 {
@@ -1245,10 +1280,14 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Triss romance path, major story consequence",
-    summary:
-      "Help Triss smuggle persecuted mages out of Novigrad before the witch hunters close in. A tense, emotionally charged quest that determines Geralt's romantic future and the fate of Novigrad's mage population.",
-    aiTip:
-      "This is your last chance to commit to Triss's romance. If you tell her to stay at the docks, the romance locks in — choose carefully.",
+    summary: "Help Triss smuggle persecuted mages out of Novigrad before the witch hunters close in. A tense, emotionally charged quest that determines Geralt's romantic future and the fate of Novigrad's mage population.",
+    aiTip: "This is your last chance to commit to Triss's romance. If you tell her to stay at the docks, the romance locks in — choose carefully.",
+    walkthrough: [
+      "Meet Triss in Novigrad as she prepares to get the mages out.",
+      "Help her with the escape plan and the witch-hunter checkpoints.",
+      "Fight off the witch hunters at the docks.",
+      "Say goodbye to Triss — asking her to stay changes how things end between you."
+    ],
     video: "https://www.youtube.com/watch?v=V0uK3Kuzq_g"
   },
 {
@@ -1261,10 +1300,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "XP, Hjalmar's loyalty, succession influence",
-    summary:
-      "Track Hjalmar an Craite to the island of Undvik where he's hunting an ice giant. A sprawling adventure across a frozen island filled with environmental storytelling, puzzles, and one of the game's most cinematic boss fights.",
-    aiTip:
-      "Explore the entire island before confronting the giant — there's a companion to rescue and environmental clues that enrich the story enormously.",
+    summary: "Track Hjalmar an Craite to the island of Undvik where he's hunting an ice giant. A sprawling adventure across a frozen island filled with environmental storytelling, puzzles, and one of the game's most cinematic boss fights.",
+    aiTip: "Explore the entire island before confronting the giant — there's a companion to rescue and environmental clues that enrich the story enormously.",
+    walkthrough: [
+      "Learn Hjalmar an Craite has gone to Undvik to hunt the ice giant.",
+      "Sail to Undvik and find Hjalmar's men around the island.",
+      "Track down Hjalmar and rescue his crew from the Ice Giant's area.",
+      "Defeat the Ice Giant with Hjalmar."
+    ],
     video: "https://www.youtube.com/watch?v=TQBe8UKsvDo"
   },
 {
@@ -1277,10 +1320,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Cerys's loyalty, succession influence",
-    summary:
-      "Help Cerys an Craite investigate a jarl's baby who seems cursed. A quest that blends detective work with Skellige folklore, culminating in a clever solution that proves Cerys's leadership qualities.",
-    aiTip:
-      "Follow Cerys's lead and trust her plan — it's unconventional but it works. This quest is key if you want Cerys to rule Skellige.",
+    summary: "Jarl Udalryk of Svorlag is haunted by a voice, and Cerys an Craite has gone missing while trying to cure him. Find her and lift the curse.",
+    aiTip: "Follow Cerys's lead and trust her plan — it's unconventional but it works. This quest is key if you want Cerys to rule Skellige.",
+    walkthrough: [
+      "After The King Is Dead, go to Svorlag on Spikeroog and talk to Udalryk.",
+      "Ask around (Hjort, Bergthora) and head to the abandoned jarl's family house.",
+      "Follow Cerys's tracks with Witcher Senses and find her unconscious.",
+      "Decide how to deal with the hym — trusting Cerys (throw the baby into the oven) frees Udalryk and strengthens her claim.",
+      "Finish before The Isle of Mists."
+    ],
     video: "https://www.youtube.com/watch?v=uTEAl3zf1Ws"
   },
 {
@@ -1293,10 +1341,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Tournament rewards, unique armor, romance option",
-    summary:
-      "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
-    aiTip:
-      "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
+    summary: "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
+    aiTip: "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
+    walkthrough: [
+      "After saving Guillaume de Launfal in The Beast of Toussaint, agree to stand in for him at the tourney.",
+      "Train in horsemanship, marksmanship and fencing (take the horse race slowly).",
+      "Enter as Geralt or as 'Ravix of Fourhorn' and win the three events.",
+      "Follow Vivienne into the woods tracking the bird with Witcher Senses; fight the panthers and the wight in the cave.",
+      "Tell Guillaume about the curse for an extra way to save Vivienne."
+    ],
     video: "https://www.youtube.com/watch?v=EHhayw2Na0Y"
   },
 {
@@ -1309,10 +1362,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, unique location exploration",
-    summary:
-      "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
-    aiTip:
-      "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
+    summary: "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
+    aiTip: "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
+    walkthrough: [
+      "Search the palace playroom: take the Golden Key from behind the painting and open the wardrobe.",
+      "Open The Land of a Thousand Fables and say 'expecto ludum' to enter.",
+      "Follow the orange objective marker (the map path is unreliable).",
+      "Get the ribbon from the Little Flint Girl (buy it or win it at Gwent) — it matters for the best ending.",
+      "Find Syanna and leave the fairy-tale land."
+    ],
     video: "https://www.youtube.com/watch?v=lRL8pJR45bU"
   },
 {
@@ -1325,10 +1383,15 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Mastercraft sword upgrades unlocked",
-    summary:
-      "Help a dwarven blacksmith named Hattori reclaim his smithing business from the Novigrad underworld. Completing this unlocks the ability to craft the best Witcher swords in the game.",
-    aiTip:
-      "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
+    summary: "The elven blacksmith Hattori can forge master-tier swords — once Geralt sorts out his trouble with the King of Beggars and a rival's monopoly on supplies.",
+    aiTip: "Don't skip this quest — Hattori becomes your best weapon crafter. Do it as soon as it's available to access top-tier weapons earlier.",
+    walkthrough: [
+      "Ask blacksmiths in Velen or Novigrad about master-tier weapons to be sent to Hattori (level 24 suggested).",
+      "Meet Hattori at the docks after dark and negotiate with Tinboy, the King of Beggars' man (haggle the cut down).",
+      "Escape Cleaver's ambush via the eastern gate and north.",
+      "At Ernst van Hoorn's warehouse, bribe or Axii the guard and mark the three crates for Sukrus.",
+      "Defeat van Hoorn's men and return — Hattori is now a master swordsmith."
+    ],
     video: "https://www.youtube.com/watch?v=3VQyzSeVY0U"
   },
 {
