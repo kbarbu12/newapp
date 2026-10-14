@@ -27931,6 +27931,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression; Healer Archetype access",
     summary: "The opening main quest: reach the cursed prince in the Regalith Grand Cathedral and confront the threat on his life.",
     aiTip: "Learn to guard and hit weaknesses early — the cathedral's enemies punish reckless play before you have healing to spare.",
+    walkthrough: [
+      "Set out with Gallica on the mission to save the cursed prince.",
+      "Reach the Royal Capital, Grand Trad, and settle in.",
+      "Gather leads around the capital and recruit your first allies.",
+      "Follow the trail to the Regalith Grand Cathedral to push the story forward."
+    ],
     video: "https://www.youtube.com/watch?v=_l-JneTM0iM"
   },
   {
@@ -27939,26 +27945,40 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Metaphor: ReFantazio",
     region: "Grand Trad",
     title: "Necromancer Takedown",
-    location: "Grand Trad",
+    location: "Catacombs → Regalith Grand Cathedral, Grand Trad",
     length: "long",
     difficulty: "High",
     reward: "Story progression",
     summary: "Track down and defeat the necromancer behind the cathedral's undead to push the main story forward.",
     aiTip: "Stock light/fire skills — the necromancer's undead minions fold quickly to holy and fire damage.",
+    walkthrough: [
+      "Start on 06/12 — the deadline is 06/21.",
+      "Enter the Catacombs and work deeper toward the Grand Cathedral.",
+      "Free the people trapped in the Prayer Chamber with the Chamber Side Room Key.",
+      "Reach the Scepter Chamber and chase the necromancer Zorba to the roof.",
+      "Defeat him (no weakness, resists most elements; burn his Corpsethralls) — Healer, Warrior and Knight work well."
+    ],
     video: "https://www.youtube.com/watch?v=MhQHGZPfOHo"
   },
   {
     id: 1059,
     type: "main",
     game: "Metaphor: ReFantazio",
-    region: "Martira",
+    region: "Grand Trad",
     title: "Thwart Zorba's Plan",
-    location: "Martira",
+    location: "Regalith Grand Cathedral, Grand Trad",
     length: "long",
     difficulty: "High",
     reward: "Story progression",
-    summary: "Uncover and stop Zorba's scheme as the journey reaches Martira.",
+    summary: "Right after Necromancer Takedown, Zorba's real plan is revealed — stop the Human, Homo Avades, he unleashed in the cathedral.",
     aiTip: "Rebuild your Archetype line-up for the new region's enemies before entering the dungeon.",
+    walkthrough: [
+      "The quest starts automatically after Necromancer Takedown.",
+      "You're moved to the cathedral's lower level — heal and save.",
+      "Fight Homo Avades (level 20, resists all magic; inflicts Forget).",
+      "Expect four actions per turn once its health is low.",
+      "Win for the Avades's Eggshell and the story's next step."
+    ],
     video: "https://www.youtube.com/watch?v=Wrqf0ZH3qJw"
   },
   {
@@ -27967,26 +27987,39 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Metaphor: ReFantazio",
     region: "Martira",
     title: "Apprehend the Real Kidnapper",
-    location: "Martira",
+    location: "Martira Old Castle Town → Kriegante Castle",
     length: "long",
     difficulty: "High",
     reward: "Story progression; Heismay",
-    summary: "Clear the framed suspect's name and catch the true Old Castle Town kidnapper.",
+    summary: "Heismay has been framed for the Old Castle Town kidnappings. Expose the real culprit, Morris, and chase him into Kriegante Castle.",
     aiTip: "Follow the investigation dialogue carefully — talking to the right witnesses shortens the hunt.",
+    walkthrough: [
+      "Investigate the kidnappings in Martira's Old Castle Town; Heismay joins as a party member.",
+      "Discover Morris framed Heismay.",
+      "Chase Morris into the depths of Kriegante Castle (beat the 07/16 deadline).",
+      "Catch him, learn who backs him and defeat what lurks below — Bardon joins as a follower."
+    ],
     video: "https://www.youtube.com/watch?v=IeS3_Ef9ltc"
   },
   {
     id: 1061,
     type: "main",
     game: "Metaphor: ReFantazio",
-    region: "Kriegante",
+    region: "Brilehaven",
     title: "Infiltrate the Charadrius",
-    location: "Charadrius (airship)",
+    location: "Port Brilehaven → Charadrius (airship)",
     length: "long",
     difficulty: "High",
     reward: "Story progression",
     summary: "Board and infiltrate the great airship Charadrius to advance toward the next region.",
     aiTip: "You can reach Louis's room via any one of the officers' keys — grab whichever is convenient.",
+    walkthrough: [
+      "After reaching Port Brilehaven, start the operation (07/23 – 08/12).",
+      "Board the Charadrius and work through its decks.",
+      "Defeat the officers, including Glodell (weak to fire) with his hound Hector (weak to wind).",
+      "Beat Master Sergeant Glechom within three turns.",
+      "Take down the remaining officers to complete the infiltration."
+    ],
     video: "https://www.youtube.com/watch?v=fOzug0yoLCg"
   },
   {
@@ -27995,12 +28028,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Metaphor: ReFantazio",
     region: "Kriegante",
     title: "Obtain Drakodios",
-    location: "Kriegante",
+    location: "Dragon Temple, Virga Island",
     length: "long",
     difficulty: "High",
     reward: "Story progression; Drakodios",
     summary: "Secure the legendary weapon Drakodios during the Kriegante stretch of the story.",
     aiTip: "Bring a balanced party — the guardians here hit multiple elements, so cover your weaknesses.",
+    walkthrough: [
+      "Finish Ancestral Solution first to get into the Dragon Temple (operation 08/19 – 09/05).",
+      "Travel to the Dragon Temple on Virga Island — Eupha joins you in the Canopy Chamber.",
+      "Work through both parts: the temple and Drakongrace Shinjuku.",
+      "Reach the Altar of the Twelve and defeat Drakodios's guardian."
+    ],
     video: "https://www.youtube.com/watch?v=Gh3jebko0Bc"
   },
   {
@@ -28009,12 +28048,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Metaphor: ReFantazio",
     region: "Skanda",
     title: "Ancestral Solution",
-    location: "Skanda",
+    location: "Virga Island / Grand Trad",
     length: "long",
     difficulty: "High",
     reward: "Story progression",
-    summary: "Pursue the ancestral answer the journey has been building toward.",
+    summary: "To enter the Dragon Temple and save its priestess, brew a Potion of Blight — and find its secret ingredient back in the Royal Capital.",
     aiTip: "Upgrade your Elite Archetypes before this arc — the difficulty ramps sharply.",
+    walkthrough: [
+      "The quest starts on 08/19 alongside Obtain Drakodios.",
+      "Ask in the Golden Deer Hearth tavern about the Potion of Blight.",
+      "Return to Grand Trad and buy Parchwater from Comfort Concoctions on Sunshade Row.",
+      "Bring it back to make the potion and open the Dragon Temple."
+    ],
     video: "https://www.youtube.com/watch?v=x4pwmrmYpTc"
   },
   {
@@ -28029,6 +28074,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression",
     summary: "Confront and remove the threat looming over Virga Island.",
     aiTip: "Save before the boss and stock revival items — this is a long, multi-phase fight.",
+    walkthrough: [
+      "After the Dragon Temple, return to Virga Island and pick your party (you're fully healed).",
+      "Enter the village to trigger the fight with Homo Margo.",
+      "Watch its aura — Reversal Prayer changes its weaknesses; hit whatever element it's now weak to.",
+      "Defeat it to free the island."
+    ],
     video: "https://www.youtube.com/watch?v=fkXz2y8VHdE"
   },
   {
@@ -28043,6 +28094,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression",
     summary: "Make your final preparations before the climactic confrontation.",
     aiTip: "Wrap up followers and requests now — this is the last comfortable window before the finale.",
+    walkthrough: [
+      "Get ready before the 09/22 deadline.",
+      "Max out bonds, archetypes and gear.",
+      "Stock up on healing items and MAG.",
+      "Follow the story into the final operations."
+    ],
     video: "https://www.youtube.com/watch?v=kn6weGHUbl4"
   },
   {
@@ -28057,6 +28114,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression",
     summary: "Scale and conquer the Skybound Avatar in the penultimate main quest.",
     aiTip: "Bring your strongest single-target nukes — the Avatar has enormous HP.",
+    walkthrough: [
+      "Start on 09/26 — the Royal Palace has risen into the sky.",
+      "Climb the Skybound Avatar until you're blocked, then detour through the Royal Garden.",
+      "Push on to the top and the showdown.",
+      "Clearing it isn't the point of no return — you return to the ground afterward (Trials of the Dragon unlock here)."
+    ],
     video: "https://www.youtube.com/watch?v=hj3mzTO_zbA"
   },
   {
@@ -28071,6 +28134,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Ending",
     summary: "The final main quest: end the threat and save the country.",
     aiTip: "Buff, guard the opening turns, then commit — the last boss rewards patience over aggression.",
+    walkthrough: [
+      "After Skybound Avatar, wrap up loose ends (final day 10/26).",
+      "Enter the Tyrant's Star — you can't leave once inside (rest and shop at your runner).",
+      "Optional areas weaken the final boss; you can also go straight to it.",
+      "Defeat Louis to save the country."
+    ],
     video: "https://www.youtube.com/watch?v=kt2jvZc6BHg"
   },
   {
@@ -28085,6 +28154,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Incense; Imagination +4",
     summary: "More's first task, accepted automatically at More Rank 2: raise the Healer Archetype to Rank 10.",
     aiTip: "Any party member can rank the Healer Archetype — rotate it onto whoever fights most.",
+    walkthrough: [
+      "Reach More Rank 2.",
+      "Raise the Healer archetype to rank 10 on any character.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=fqtOVv4Atro"
   },
   {
@@ -28099,6 +28173,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Fruit x5; Imagination +4",
     summary: "Accepted automatically at More Rank 3: study the Gunner Archetype.",
     aiTip: "Studying just means unlocking it in the Archetype menu — no need to master it.",
+    walkthrough: [
+      "Reach More Rank 3.",
+      "Unlock (study) the Gunner archetype — it comes through Neuras's bond.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=burZDgeyC88"
   },
   {
@@ -28113,6 +28192,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Fruit x8; Imagination +4; More Rank 4",
     summary: "Accepted automatically at More Rank 4: raise the Merchant Archetype to Rank 15.",
     aiTip: "Merchant ranks fast from selling and its cheap skills — slot it before grinding.",
+    walkthrough: [
+      "Reach More Rank 4.",
+      "Raise the Merchant archetype (from Brigitta's bond) to rank 15 on any character.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=YIvj7wtc5O4"
   },
   {
@@ -28127,6 +28211,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Leaf of Light x5; Imagination +4; More Rank 5",
     summary: "Accepted automatically at More Rank 5: study 15 different Archetypes.",
     aiTip: "Unlock lineages broadly — you only need each Archetype studied, not leveled.",
+    walkthrough: [
+      "Reach More Rank 5.",
+      "Have 15 different archetypes studied across the party.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=TSww6LGRKiE"
   },
   {
@@ -28141,6 +28230,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Leaf of Light; Imagination +4",
     summary: "Unlocked after More Rank 5: raise the General Archetype to Rank 15.",
     aiTip: "General ranks up through its physical skills — pair it with a Might-heavy character.",
+    walkthrough: [
+      "Reach the next More rank.",
+      "Raise the General archetype (Commander line, from Bardon's bond) to rank 15.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=11LpCTXbnVM"
   },
   {
@@ -28155,6 +28249,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Jewelled Root x5; Imagination +4",
     summary: "Unlocked after More Rank 6: study 25 different Archetypes.",
     aiTip: "By late game you'll have most lineages unlocked — mop up the cheap ones to finish.",
+    walkthrough: [
+      "Reach the next More rank.",
+      "Have 25 different archetypes studied across the party.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=nCAPUAauOHk"
   },
   {
@@ -28167,8 +28266,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Hero's Jewelled Root x8; Imagination +4",
-    summary: "Unlocked after More Rank 7: master an Elite Archetype.",
+    summary: "More's last task: raise an Elite archetype to rank 20.",
     aiTip: "Pick an Elite you already use heavily — mastering one you're invested in is fastest.",
+    walkthrough: [
+      "Reach the final More rank.",
+      "Unlock an Elite archetype (usually around rank 7 with its follower).",
+      "Raise it to rank 20 on any character.",
+      "Report back to More."
+    ],
     video: "https://www.youtube.com/watch?v=BQ5_mzODNVA"
   },
   {
@@ -28183,6 +28288,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Rusted Accessory; Tolerance +4",
     summary: "The Mustari man outside the Sunshade Row inn asks you to buy him a Breath of Fresh Air.",
     aiTip: "Buy the Breath of Fresh Air at St. Fermis Church on Sunlumeo Street for 500 Reeve, then return.",
+    walkthrough: [
+      "Accept Pagan's Dilemma from the Mustari man outside the inn on Sunshade Row (from 06/12).",
+      "Go to St. Fermis Church and buy a Breath of Fresh Air.",
+      "Bring it back to him to finish (+Tolerance)."
+    ],
     video: "https://www.youtube.com/watch?v=Qp8q2DB5MFw"
   },
   {
@@ -28197,6 +28307,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Magla Pill x3; Wisdom +4",
     summary: "A young Nidia man on Sunlumeo Street asks you to lend a hand at the Hushed Honeybee Inn.",
     aiTip: "Head to the Hushed Honeybee Inn on Sunshade Row and follow the prompt to help out.",
+    walkthrough: [
+      "Accept the job from the young Nidia man on Sunlumeo Street.",
+      "Visit the Hushed Honeybee on Sunshade Row at night and talk to Fabienne.",
+      "Help in the kitchen (save first — the cooking dialogue is random; 'Let's stick to the recipe' on the Redgrass-Roasted Bidou works).",
+      "Report back to the young Nidia for a Wisdom boost."
+    ],
     video: "https://www.youtube.com/watch?v=zNjNXgEthy4"
   },
   {
