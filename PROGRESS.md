@@ -391,6 +391,15 @@
   Made-up objectives, tips and rewards (e.g. "trade hearts and stamina",
   "Hinox or Talus", "Zora honor") were dropped.
 
+- **Generic steps — Pillars I leftovers:** 8 bounties (Glasdial, Foemyna,
+  Galen Dalgard, Devŵen, Captain Muārumi, High Arcanist Ysly, Naroc the
+  Prophet, Sserkal) said to "travel to Caed Nua" to find the target, but Caed
+  Nua is only where Warden Fyrgen posts them. They now point you to the
+  bounty description for the location and use the same 5 steps as the
+  confirmed bounties. A Two Story Job got plain House Doemenel faction steps.
+  P5R's 14 Mementos leftovers needed no change: their only generic step
+  ("exploit its weakness") is already plain and accurate.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
