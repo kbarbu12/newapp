@@ -375,6 +375,14 @@
   Wasteland, Phantom of Night City, Smoke on the Water, Lex Talionis) dropped
   their unconfirmed names and exact spots and keep the region.
 
+- **Generic steps — Deadfire faction leftovers:** the 12 faction quests no
+  guide confirmed (Trade Secrets, The Last Sanctuary, From the Wreckage,
+  Symbols of Death, A Shrewd Proposition, Goods and Services, Overgrowth, Of
+  Like Minds, A Glimpse Beyond, Skipping Ahead, A Vote of No Confidence,
+  Sabotage at the Brass Citadel) dropped their unconfirmed locations (now the
+  faction's home base: Neketaka, or Dunnage for the Príncipi) and got 4 plain
+  steps naming the faction.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
