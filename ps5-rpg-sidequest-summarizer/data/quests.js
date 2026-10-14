@@ -1670,14 +1670,19 @@ const quests = [
     game: "Pillars of Eternity",
     region: "Defiance Bay",
     title: "The Man Who Waits",
-    location: "Heritage Hill, Defiance Bay",
+    location: "Sanitarium, Brackenbury, Defiance Bay",
     length: "medium",
     difficulty: "Medium",
-    reward: "Heritage Hill access cleared, Act 2 progression",
-    summary:
-      "Heritage Hill has been sealed off due to undead rising from the graves. Investigate the source of the disturbance — an ancient Engwithan machine reanimating corpses — and decide the fate of the souls trapped within.",
-    aiTip:
-      "Bring a priest or paladin for the undead encounters. The final choice affects the district permanently — read the soul descriptions before deciding.",
+    reward: "Act 2 story progression",
+    summary: "The shrouded woman at the Temple of Woedica points you to the Sanitarium, where a patient in the North Ward is said to be waiting for the Watcher. Talk your way through its wardens and doctors to find Uscgrim — a vessel for Thaos.",
+    aiTip: "Ask Caedman Azo politely for the North Ward Key — threatening him ('best cooperate') makes him refuse. Convince Head Warden Ethelmoer that the Leaden Key is infiltrating the Sanitarium to get permission to go downstairs.",
+    walkthrough: [
+      "Finish Never Far from the Queen and talk to the shrouded woman in the Temple of Woedica.",
+      "Go to the Sanitarium in Brackenbury and convince Head Warden Ethelmoer (a soul in a statue) to let you investigate.",
+      "In the Patient Ward, talk to Freyol, who points you to Caedman Azo's laboratory.",
+      "Ask Azo for the North Ward Key.",
+      "Open the North Ward and confront Uscgrim in the last cell."
+    ],
     video: "https://www.youtube.com/watch?v=TR0TQ9U-abg"
   },
 {
@@ -4219,14 +4224,19 @@ const quests = [
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "Seeker, Slayer, Survivor",
-    location: "Ukaizo / Ori o Koīki Island",
+    location: "Kazuwari",
     length: "long",
     difficulty: "High",
-    reward: "Unique weapons and armour, Beast of Winter DLC access",
-    summary:
-      "Travel to a mysterious island arena where warriors from across the Deadfire compete in brutal combat. A gladiatorial questline testing party endurance across multiple consecutive fights with unique rules for each round.",
-    aiTip:
-      "Conserve resources between fights — you cannot rest during the arena sequence. Bring multiple party members with healing abilities and stock heavy on injury prevention items.",
+    reward: "Unique weapons and armour, Faces of the Hunt blessings",
+    summary: "DLC: a severed head arrives on your ship, and its spirit sends you to Kazuwari, home of the Crucible — an arena where contenders fight to become champion of one of the three Faces of the Hunt.",
+    aiTip: "Each Face favours a style: the Seeker (spider) careful planning, the Slayer (stelgaer) slaughter, the Survivor (boar) endurance. Bring strong area damage — the later rounds are big fights.",
+    walkthrough: [
+      "Get the Seeker, Slayer, Survivor DLC event when the severed head arrives aboard your ship.",
+      "Sail to the island of Kazuwari.",
+      "Retrieve an artifact from the wilds and consign it to the Pool of Memories.",
+      "Take the challenge the Faces of the Hunt draw from it in the Crucible.",
+      "Keep climbing the Crucible and return to the Pool for each Face's blessing."
+    ],
     video: "https://www.youtube.com/watch?v=V3GbGyej3JQ"
   },
 {
@@ -4235,14 +4245,19 @@ const quests = [
     type: "side",
     game: "Pillars of Eternity II: Deadfire",
     title: "The Forgotten Sanctum",
-    location: "Black Isles",
+    location: "Black Isles (via Hall of the Unseen)",
     length: "long",
     difficulty: "High",
     reward: "Unique spells, powerful grimoires, DLC story resolution",
-    summary:
-      "Explore the hidden library of the Watcher of the Black Isles, a legendary wizard, and uncover the truth about why the world's arcane knowledge has been sealed away. The DLC's narrative culminates in a choice about the future of magic itself.",
-    aiTip:
-      "This is DLC content — approach it with a well-developed party. The final boss adapts to your spell selection; bring varied damage types and avoid relying on one element.",
+    summary: "DLC: the archmage Llengrath asks the Watcher for help after a fellow archmage, Maura, vanishes into a newly opened dungeon in the Black Isles — and threatens to unleash a catastrophe.",
+    aiTip: "Best done just before the endgame at Ukaizo. Hand in Bekarna's Folly after the DLC for extra context.",
+    walkthrough: [
+      "Finish Magran's Teeth or Mapping the Archipelago: Tikawara to trigger the earthquake.",
+      "Get ready for Ukaizo (blackwood hull and dragonwing sails, or a faction alliance).",
+      "Sail the world map for 12–24 in-game hours until Llengrath comes aboard.",
+      "Sail to the Black Isles with her (the Hall of the Unseen south of Tikawara also leads there).",
+      "Follow the archmages into the Sanctum and stop Maura."
+    ],
     video: "https://www.youtube.com/watch?v=dWWWCSiZXuo"
   },
 {

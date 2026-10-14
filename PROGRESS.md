@@ -186,6 +186,13 @@
   (Hamaon/Mudoon, Ryuji's "Baton Pass upgrade"), and Confidant rewards now
   list each one's real abilities and deadlines.
 
+- **Pillars of Eternity I & II:** the last 3 video quests got steps. The Man
+  Who Waits is in the Sanitarium (Uscgrim, a vessel for Thaos), not Heritage
+  Hill; Seeker, Slayer, Survivor is on Kazuwari (the Crucible), not Ukaizo;
+  The Forgotten Sanctum is Llengrath and the missing archmage Maura (no
+  "Watcher of the Black Isles"). **Phase 2 complete** — every video quest now
+  has steps.
+
 - Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
