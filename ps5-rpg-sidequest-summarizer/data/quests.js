@@ -1566,26 +1566,36 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Perimeter Tripcaster, 2 Skill Points, 4750 XP",
-    summary:
-      "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
-    aiTip:
-      "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
+    summary: "After the Kulrut ceremony, elder Dekka asks Aloy to help track down her grandson Kavvoh who joined Regalla's rebels. The quest explores themes of family loyalty and tribal division.",
+    aiTip: "Complete The Kulrut main quest first to unlock this. Search the rebel camp thoroughly, including the hidden pit under wooden floor panels.",
+    walkthrough: [
+      "After The Kulrut, talk to Dekka at the Memorial Grove (level 19).",
+      "Clear the rebel outpost she leads you to (loot the top of the tallest tower).",
+      "Use Focus to follow the tracks from Nakalla's post to the hatch where he's held.",
+      "Meet Dekka at Fall's Edge, wait at the campfire for Kavvoh, then raid the rebel stronghold — use acid on the Behemoth.",
+      "Return to Dekka at Fall's Edge."
+    ],
     video: "https://www.youtube.com/watch?v=iC_HQB2WOds"
   },
 {
     id: 55,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "The Daunt",
+    region: "The Clan Lands",
     title: "Forbidden Legacy",
     location: "Legacy's Landfall, San Francisco",
     length: "long",
     difficulty: "Medium",
     reward: "Utaru Protector Outfit, 3 Skill Points, 7500 XP",
-    summary:
-      "Alva discovers data about Leviathan, a defunct flood control system in the Great Delta. She and Aloy explore the ruins of Atbay Global Infrastructure in San Francisco to recover critical repair data.",
-    aiTip:
-      "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
+    summary: "Alva has found data about Leviathan, an Old World flood-control system. Help her break into the ruins of the Atbay headquarters in San Francisco to recover it.",
+    aiTip: "This quest has door code puzzles. Pay attention to environmental clues and data logs for the codes rather than brute-forcing combinations.",
+    walkthrough: [
+      "After talking to Beta at the Base during Gemini, meet Alva (or call her at the Legacy's Landfall campfire) — level 30.",
+      "Follow Alva into the ruins and defeat the Slitherfang.",
+      "Scan the ruins and pull out the vent to continue.",
+      "Climb the shaft in the Atbay headquarters to the tower; enter door codes 102023 and 402625.",
+      "Search the office for the Leviathan data."
+    ],
     video: "https://www.youtube.com/watch?v=mTt0HqyaFbQ"
   },
 {
@@ -1598,10 +1608,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Firestorm Warrior Bow, 3 Skill Points, 4125 XP",
-    summary:
-      "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
-    aiTip:
-      "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
+    summary: "A multi-part quest involving a power struggle between Tenakth commanders Yarra and Drakka over control of Scalding Spear. Aloy must navigate tribal politics and make a consequential choice.",
+    aiTip: "This quest has a meaningful choice at the end that affects which characters survive. The Firestorm Warrior Bow reward is one of the strongest early weapons regardless of your decision.",
+    walkthrough: [
+      "After The Wound in the Sand, talk to Jetakka in Scalding Spear (level 15).",
+      "Find Drakka and Yarra arguing over command of the desert clan.",
+      "Pick a side (both outcomes give the same rewards).",
+      "Fight the one you didn't choose.",
+      "Earn the 'Chose a Desert Commander' trophy; Errand: Burden of Command follows."
+    ],
     video: "https://www.youtube.com/watch?v=B4zNx29HC84"
   },
 {
@@ -2438,10 +2453,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Tenakth allies, arena access, 5000 XP",
-    summary:
-      "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
-    aiTip:
-      "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
+    summary: "Attend the sacred Kulrut ceremony where Tenakth warriors prove themselves in ritual combat against machines. The ceremony is disrupted by rebels, forcing Aloy into the arena to fight alongside the clans.",
+    aiTip: "Prepare for a multi-wave machine fight. Tear damage weapons strip armor quickly — use Tearblast arrows to expose weak points before switching to elemental damage.",
+    walkthrough: [
+      "After The Broken Sky, return to the Memorial Grove arena behind Hekarro's throne room — stock up first.",
+      "Climb the yellow ladder to Dekka and use her machine weapon on the attackers.",
+      "Defeat the Slitherfang (lure it near the turret so the Tenakth can help).",
+      "Rescue Chief Hekarro, then use the console and take AETHER.",
+      "Return to the Base and speak to GAIA."
+    ],
     video: "https://www.youtube.com/watch?v=_j4_NpcVMHw"
   },
 {
@@ -2454,10 +2474,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Sunwing Override, flying mount access",
-    summary:
-      "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
-    aiTip:
-      "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
+    summary: "A pivotal quest where Aloy gains the ability to override and ride Sunwing machines, unlocking flight across the entire map. The quest involves infiltrating a Regalla rebel camp and confronting a massive Dreadwing.",
+    aiTip: "This unlocks flight — do it as soon as it's available. The Dreadwing boss is weak to Fire. After completing this, every collectible and side quest becomes dramatically easier to reach.",
+    walkthrough: [
+      "After All That Remains (level 32), talk to Zo outside the Base's west exit.",
+      "Craft the Sunwing Override at the Base's override console.",
+      "Sneak up on a Sunwing at the site above the Base and override it.",
+      "Fly to the nearby Tallneck and land on its head to override it; then take the Horus's power cell.",
+      "Fight Regalla at the Memorial Grove (melee early, bow at her mask, keep distance in phase 3)."
+    ],
     video: "https://www.youtube.com/watch?v=jMCtZ4xkIJ4"
   },
 {
@@ -2465,15 +2490,20 @@ const quests = [
     type: "side",
     game: "Horizon Forbidden West",
     region: "The Daunt",
-    title: "Tallneck: The Devil's Thirst",
-    location: "The Daunt",
+    title: "Tallneck: Cinnabar Sands",
+    location: "Cinnabar Sands, The Daunt",
     length: "short",
     difficulty: "Low",
     reward: "Map reveal, XP, early exploration boost",
-    summary:
-      "Override the first Tallneck to reveal the surrounding map. Each Tallneck is an environmental puzzle requiring Aloy to find a path to its head — this one involves climbing ruins around a flooded area.",
-    aiTip:
-      "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
+    summary: "The first Tallneck in the Forbidden West stalks the Cinnabar Sands. Restore power to the nearby console and climb up to override it, revealing the surrounding map.",
+    aiTip: "Always prioritize Tallnecks when you enter a new region — the map reveal shows all nearby activities, collectibles, and machine sites.",
+    walkthrough: [
+      "Approach the Tallneck at Cinnabar Sands to start (level 10).",
+      "Scan the generator nearby.",
+      "Restore power to the console.",
+      "Use the restored structure to reach the Tallneck and climb to its head.",
+      "Override it to reveal the region on your map."
+    ],
     video: "https://www.youtube.com/watch?v=w3wURjVgnI0"
   },
 {
@@ -2482,14 +2512,19 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Sea of Sands",
     title: "The Sea of Sands",
-    location: "Stillsands, Desert",
+    location: "Las Vegas (Tower of Tears), The Sea of Sands",
     length: "long",
     difficulty: "High",
     reward: "Arena access, Oseram Artificer gear, 6000 XP",
-    summary:
-      "Cross a treacherous desert filled with burrowing machines to reach a buried ruin. The sandstorms limit visibility while Tremortusks and Slitherfangs patrol the dunes — one of the tensest exploration sequences in the game.",
-    aiTip:
-      "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
+    summary: "Head south to the buried ruins of Las Vegas to recover POSEIDON — but first the drowned city has to be drained.",
+    aiTip: "Craft Freeze ammo before entering — desert machines are almost all weak to Frost. Use the rock formations for cover during sandstorms when visibility drops.",
+    walkthrough: [
+      "After The Eye of the Earth, travel south to Las Vegas (level 22).",
+      "Reach the Tower of Tears campfire, climb the ladder and go through the tarp to meet the Oseram delvers.",
+      "Recover a compressed air capsule, gather machine parts and craft a diving mask.",
+      "Activate the pump nodes to drain the city.",
+      "Defeat the Tideripper, recover POSEIDON and bring it to GAIA at the Base."
+    ],
     video: "https://www.youtube.com/watch?v=UP5p7BpHyjc"
   },
 {
@@ -3737,10 +3772,14 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Resources, XP, faction reputation",
-    summary:
-      "Complete a series of errands for the Oseram settlers establishing themselves in The Daunt. These quick tasks introduce Horizon's errand system and teach combat and exploration mechanics in a safe opening environment.",
-    aiTip:
-      "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
+    summary: "Chainscrape's settlers have small jobs for Aloy — errands like Milduf's supply run, Salma's Machine Strike lessons and A Bigger Boom.",
+    aiTip: "Complete errands before moving on — the resources and XP accumulate quickly and the skills unlocked through level-ups make Horizon's early combat significantly easier.",
+    walkthrough: [
+      "Visit Chainscrape after The Point of the Lance.",
+      "Learning Machine Strike: play Salma at the board.",
+      "A Dash of Courage: gather Wild Meat and Bitter Leaf and deliver them to Milduf.",
+      "Pick up A Bigger Boom and The Enduring (after the melee pit) from the townsfolk."
+    ],
     video: "https://www.youtube.com/playlist?list=PLNVZ0VbA46mqXmXe_XscAEyZUCEHJpemQ"
   },
 {
@@ -3749,14 +3788,18 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "The Broken Sky",
-    location: "Sheerside Mountains",
+    location: "Memorial Grove / The Bulwark",
     length: "long",
     difficulty: "High",
     reward: "4 Skill Points, Grimhorn machine override, 6000 XP",
-    summary:
-      "Investigate a Cauldron in the Sheerside Mountains that has been producing corrupted machines. Navigating the facility requires solving power puzzles while fending off aggressive Apex-class machines.",
-    aiTip:
-      "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
+    summary: "Aloy travels to the heart of Tenakth territory in search of AETHER — and must earn Chief Hekarro's trust by helping him set up the Kulrut.",
+    aiTip: "Bring Frost weapons for the Apex Shellwalker guarding the core. Override the Grimhorn after completing the Cauldron — it becomes a powerful battle mount for fighting other machines.",
+    walkthrough: [
+      "After The Eye of the Earth, go to the Memorial Grove (level 17) and talk to Dekka and Chief Hekarro.",
+      "Meet Kotallo at Stone Crest and follow him to The Bulwark — fight or sneak past Regalla's rebels.",
+      "Take the Tremortusk's cannon back to the Bulwark.",
+      "Fire at its weak point until Tekotteh gives in and sends his challengers to the Kulrut."
+    ],
     video: "https://www.youtube.com/watch?v=pFEhMNlfCA0"
   },
 {
@@ -3788,14 +3831,19 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "Faro's Tomb",
-    location: "San Francisco Ruins",
+    location: "Thebes, San Francisco ruins",
     length: "long",
     difficulty: "High",
     reward: "Faro's Spear weapon, 3 Skill Points, 7000 XP",
-    summary:
-      "Explore the sealed tomb of Ted Faro, the man responsible for the extinction of the Old World. The dungeon confronts Aloy with the full horror of HEPHAESTUS's legacy and rewards a powerful endgame spear.",
-    aiTip:
-      "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
+    summary: "Recover Omega Clearance from Thebes, Ted Faro's private bunker under the ruins of San Francisco.",
+    aiTip: "This dungeon involves extensive puzzle sections with light-based locks. Bring the Pullcaster tool — you'll need it constantly. The lore here directly connects to the Horizon Zero Dawn backstory.",
+    walkthrough: [
+      "Reach Legacy's Landfall and head north-east to Thebes, 'The Digsite' (level 26) — use acid on the Thunderjaw.",
+      "Dive underwater and follow the lit path into a burst pipe (time the turbine on the left).",
+      "Let the Quen in at the console by the front door of the main bunker.",
+      "Search for the device and defeat the two Corruptors (fire works well).",
+      "Sprint out as the bridges cave in."
+    ],
     video: "https://www.youtube.com/watch?v=cA_I3lOQmvA"
   },
 {
@@ -3804,14 +3852,19 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Daunt",
     title: "The Bristlebacks",
-    location: "Plainsong, Utaru Territory",
+    location: "Chainscrape, The Daunt",
     length: "medium",
     difficulty: "Medium",
     reward: "Bristleback mount override, 2 Skill Points, 4000 XP",
-    summary:
-      "Investigate a herd of corrupted Bristleback machines terrorising the Utaru farming communities. Clearing the corruption and overriding a Bristleback provides a fast travel mount usable across open terrain.",
-    aiTip:
-      "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
+    summary: "Ulvund's Bristlebacks are dying around Chainscrape. Follow the trail of carcasses to the Split Crag mine and find out who's behind it.",
+    aiTip: "Freeze the Bristlebacks before overriding — their charge attacks make approaching dangerous. The Bristleback mount is faster than running across flat terrain and useful for map traversal.",
+    walkthrough: [
+      "Talk to the contact in the Chainscrape tavern (level 7).",
+      "Head south-west, then west from the campfire to the dead Bristleback by the waterfall.",
+      "Follow the carcasses to the Split Crag mine and clear the machines.",
+      "Find the note in the smoking tunnel and report back.",
+      "After The Embassy, clear the rebel camp north of the Salvage Contractor and return for the reward."
+    ],
     video: "https://www.youtube.com/watch?v=7JVGDFq0bw8"
   },
 {
@@ -3820,14 +3873,19 @@ const quests = [
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "The Dying Lands",
-    location: "Thornmarsh",
+    location: "Plainsong",
     length: "long",
     difficulty: "High",
     reward: "3 Skill Points, Clawstrider override, 6500 XP",
-    summary:
-      "Investigate the mysterious blight killing the swamp ecosystem in Thornmarsh and confront the Apex Clawstrider pack responsible. A multi-stage quest that demonstrates Horizon's approach to environmental storytelling.",
-    aiTip:
-      "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
+    summary: "The blight is killing the Utaru lands. Aloy goes to Plainsong and into the Sacred Cave to reach the old Repair Bay core.",
+    aiTip: "Clawstriders are agile and attack in coordinated packs. Use Ropecaster to pin one down while dealing with the others. Overriding the Apex after the fight gives you the strongest Clawstrider mount.",
+    walkthrough: [
+      "Head to Plainsong, north of Stone's Echo — Zo and Varl meet you at the entrance.",
+      "Meet the Chorus upstairs, then stock up at the workbench.",
+      "Defend the settlement as machines attack and rush to the Sacred Cave.",
+      "Override the door, reach the Repair Bay core and override the network uplink.",
+      "Defeat the Grimhorn to finish."
+    ],
     video: "https://www.youtube.com/watch?v=goI8MktOdhM"
   },
 {

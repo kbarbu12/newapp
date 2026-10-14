@@ -148,6 +148,13 @@
   A Dangerous Game is Zed's cards and the Bilzen robbery; Possession is Jarl
   Udalryk's curse and the missing Cerys; Hattori is an elf, not a dwarf.
 
+- **Horizon Forbidden West:** all 12 video quests got steps. 8 summaries
+  rewritten (The Broken Sky, The Bristlebacks, The Dying Lands, The Sea of
+  Sands, Faro's Tomb and others were describing the wrong quests); Bristlebacks
+  moved to Chainscrape, Forbidden Legacy to The Clan Lands; "Tallneck: The
+  Devil's Thirst" doesn't exist → renamed to Tallneck: Cinnabar Sands; The
+  Daunt Errands now lists Chainscrape's real errands.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
