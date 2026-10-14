@@ -3,6 +3,30 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-14
+
+- **Walkthrough steps everywhere** — `v2.4.0` minor (PRs #126–#168).
+  - **Show walkthrough steps alongside the video** (PR #127): quests with a
+    video now also show their step list.
+  - **Steps for every video quest** (PRs #128–#145, except #130, #135 and
+    #143): Hogwarts Legacy, God of War Ragnarök, Jedi: Survivor and Fallen
+    Order, Wukong, FF7 Rebirth, Cyberpunk, Metaphor, Witcher 3, Horizon,
+    Demon's Souls, Ghost of Tsushima, Ghost of Yōtei, P5R and Pillars, with
+    data fixes along the way.
+  - **AC Odyssey expansion** (PRs #146–#154): ~200 quests' 1–3-step lists
+    expanded from guides (story, side quests, Cult of Kosmos targets, Lost
+    Tales, romances, beasts, tombs, riddles).
+  - **Template steps replaced** (PRs #155–#162): Cyberpunk gigs (wrong
+    districts/fixers fixed), Deadfire and Pillars bounties (real target
+    locations), TotK, P5R Mementos, Skyrim contracts/forts, Yōtei, Valhalla.
+  - **Leftovers made plain and safe** (PRs #163–#168): entries no guide
+    confirmed lost their invented details and got plain steps.
+  - **Last placeholder text replaced** (PR #126): 6 AC Odyssey quests and 1
+    Deadfire quest.
+  - **Removed fake/duplicate quests** (PRs #130, #135, #143): Hogwarts
+    #509 and #868, an FF7 Rebirth quest, a Witcher 3 contract duplicate and
+    a Yōtei duplicate. Quest count 2,480 → 2,475.
+
 ## 2026-10-13 (3)
 
 - **Log 2026-10-13 quest removals and v2.3.16 deploy in PROGRESS.md**
