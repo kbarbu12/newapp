@@ -383,6 +383,14 @@
   faction's home base: Neketaka, or Dunnage for the Príncipi) and got 4 plain
   steps naming the faction.
 
+- **Generic steps — TotK leftovers:** the 23 template entries no guide
+  confirmed got plain, safe steps by type: 5 sky crystals (carry the crystal
+  to its shrine), 4 hidden-shrine quests, 2 stable photos (East Akkala, New
+  Serenne: read the frame's hint, photograph, show it), 8 side adventures and
+  4 goddess-statue quests (talk to the giver, follow the Adventure Log).
+  Made-up objectives, tips and rewards (e.g. "trade hearts and stamina",
+  "Hinox or Talus", "Zora honor") were dropped.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
