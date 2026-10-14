@@ -244,6 +244,14 @@
   Bear, Son of a Fisherman, Tough Love, Have You Seen My Mikkos?, Clothes
   Make the Daughter, Hostage Situation.
 
+- **Phase 3 — AC Odyssey batch 6 (Cult of Kosmos):** 41 of the 43 cultist
+  entries replaced their identical 3-step template with where each target
+  actually is and how to reach them (e.g. Nyx the Shadow near the Theater of
+  Dionysos, Silver Griffin on Prasonisia, Iobates at Myrina Fort, Polemon at
+  the Teichos of Herakles); story-linked cultists point to their quest (Lagos,
+  Kleon, the Monger, Silanos, Pausanias, Chrysis). Left as is (no guide
+  location found): Kallias, The Ghost of Kosmos.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
