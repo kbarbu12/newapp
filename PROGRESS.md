@@ -142,6 +142,12 @@
   Infiltrate the Charadrius in Brilehaven; Apprehend the Real Kidnapper,
   Ancestral Solution and More's final task summaries made specific.
 
+- **The Witcher 3:** the 14 remaining video quests got steps (Bloody Baron,
+  Crookback Bog, Carnal Sins, Skellige jarls, Gwent, Toussaint quests).
+  Rewrote 4 wrong summaries: Carnal Sins starts with the attack on Priscilla;
+  A Dangerous Game is Zed's cards and the Bilzen robbery; Possession is Jarl
+  Udalryk's curse and the missing Cerys; Hattori is an elf, not a dwarf.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
