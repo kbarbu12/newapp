@@ -307,6 +307,14 @@
   other 24 TotK template entries (sky crystals, Goddess Statues, East
   Akkala/New Serenne/Woodland photos, Glory of the Zora, …).
 
+- **Phase 4 — Persona 5 Royal (Mementos requests):** the 27 requests already
+  had specific unlock dates, floors and rewards; only the "defeat the target
+  Shadow — exploit its weakness" step was generic. 13 now name the target and
+  its weakness where guides agree (e.g. Nakanohara/Obariyon — Electric,
+  Shimizu/Yaksini — Fire & Bless, Asakura/Mara — Nuke, Isshiki — no
+  weakness, resists Physical). The other 14 left as is (guides missing or
+  contradictory).
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
