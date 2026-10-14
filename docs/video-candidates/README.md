@@ -13,7 +13,7 @@ Format: `{questId: videoId}`, except `vidcands.json` (rows `{id,g,t,c,u,v}`,
 | hfw.json | Horizon Forbidden West | 62 | claude.ai/artifact/E5i3Ff3nCDkEyEqkkt5smt |
 | w3.json | The Witcher 3 | 79 | claude.ai/artifact/L6D3fHio6ik6UrYWsbdh6W |
 | bg3.json | Baldur's Gate 3 | 87 | claude.ai/artifact/AyLWLniwZMhT41NpaWKExr |
-| goy.json | Ghost of Yōtei | 105 | claude.ai/artifact/8wnE1PYEPKskrxgd5gcWTM |
+| goy.json | Ghost of Yōtei | 104 | claude.ai/artifact/8wnE1PYEPKskrxgd5gcWTM |
 | poe1.json | Pillars of Eternity | 103 | claude.ai/artifact/YJ2QcQMQ4N3c68N3qBSRBo |
 | poe2.json | Pillars of Eternity II: Deadfire | 109 | claude.ai/artifact/AKv1sGot7pLsg3xWPGBHSn |
 | cp.json | Cyberpunk 2077 | 128 | claude.ai/artifact/6tjac9wWQKT53VVg4RaFST |

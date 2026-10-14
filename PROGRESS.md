@@ -175,7 +175,12 @@
   at the Coastal Dueling Tree; made-up tips/bosses replaced for Undying
   Samurai, Spider Lily General, Crimson Kimono, Opusnupuri, Storm Blade.
 
-- Still to do: owner review of the 1,441 video candidates; owner to decide whether
+- Removed on owner's OK (2,476 → 2,475): Ghost of Yōtei #1145 Duel the
+  Unrivaled (same final Takezo duel as #1149 The Five Teachings, which
+  completes "Unfinished Business: Duel the Unrivaled"). Its unshipped video
+  candidate dropped; review page now 1,440 links.
+
+- Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
 
