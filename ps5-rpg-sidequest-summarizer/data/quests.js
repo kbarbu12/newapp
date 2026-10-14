@@ -23101,32 +23101,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     ]
   },
 {
-    id: 1145,
-    type: "side",
-    category: "Post-Game",
-    game: "Ghost of Yotei",
-    region: "Multiple",
-    title: "Duel the Unrivaled",
-    location: "Ezo — Multiple Dueling Grounds",
-    length: "medium",
-    difficulty: "High",
-    reward: "Endgame challenger trophy, Unrivaled sword kit",
-    summary:
-      "Post-story dueling challenges against Ezo's greatest swordspeople, unlocked after the finale. Each duel tests mastery of a different weapon and stance, culminating in a final bout against a returning character.",
-    aiTip:
-      "Each duelist counters one weapon type — switch away from whatever they're deflecting most. The final challenger punishes impatience; wait for their tells before committing to an attack.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Duel+the+Unrivaled+walkthrough",
-    walkthrough: [
-      "Unlock after completing the main story — a new notice board appears at the Grasslands inn.",
-      "Accept the first challenge; each duelist location is marked on the regional map.",
-      "Duel 1 (Grasslands): katana specialist — use dual-katana flurry combos to break their guard.",
-      "Duel 2 (Tokachi): odachi fighter — dodge the wide sweeps and counter with the yari's thrust.",
-      "Duel 3 (Ishikari): a spear master — use Kusarigama pull to cancel their stance attacks.",
-      "Final duel (Mount Yōtei summit): a returning rival — adapt to all weapon types mid-fight.",
-      "Claim the Unrivaled sword kit from the summit chest after victory."
-    ]
-  },
-{
     id: 1146,
     type: "side",
     category: "Post-Game",

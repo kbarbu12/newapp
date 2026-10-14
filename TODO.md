@@ -12,8 +12,8 @@ All 24 games verified across Phases 1–4 (prod `v2.2.0` → `v2.3.1`). Details 
 `PROGRESS.md` (§ "Game-verification roadmap") and `CHANGELOG.md`.
 
 ## Upgrade quest videos from search URLs to real `watch?v=` links
-1,444 of 2,476 quest `video` fields (as of 2026-10-13) are YouTube *search*
-URLs (`results?search_query=…`). **1,441 of them now have a proposed
+1,443 of 2,475 quest `video` fields (as of 2026-10-13) are YouTube *search*
+URLs (`results?search_query=…`). **1,440 of them now have a proposed
 `watch?v=` link** in `docs/video-candidates/` (18 games). The other 3 (#108,
 #1432, #2461) have no single matching video. All candidates await the owner's review on
 https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq — ship one PR per game the
