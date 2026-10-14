@@ -400,7 +400,7 @@
   P5R's 14 Mementos leftovers needed no change: their only generic step
   ("exploit its weakness") is already plain and accurate.
 
-### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
+### 2026-10-14 in short (PRs #133–#148, now on prod in `v2.4.0`)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
   Horizon FW 12, Demon's Souls 11, Ghost of Tsushima 9, Ghost of Yōtei 9,
@@ -421,10 +421,34 @@
   ("Peloponnese", "Northern Greece"; A Finger Tip is really Phokis). Being
   fixed batch by batch.
 
-- Still to do: Phase 3 (remaining AC Odyssey batches: Cyclades/Myrrine arc,
-  islands, riddles, Various/open-world), then Phase 4 (review steps on the
-  1,443 no-video quests); owner review of the 1,440 video candidates; owner
-  to decide whether to delete the 13 old per-game review pages (keep for now).
+### 2026-10-14 (2) — Phases 3–4, leftovers, prod deploy **v2.4.0**
+- **Phase 3 finished** (#150–#154): the remaining AC Odyssey batches
+  (Cyclades/Myrrine arc, islands, Cult of Kosmos, finale/Lost
+  Tales/romances, beasts/tombs). About 96 entries stayed short because no
+  guide confirmed more.
+- **Phase 4 finished** (#155–#162): template steps on no-video quests
+  checked against guides. Often the data itself was wrong: Cyberpunk gigs
+  had the wrong district or fixer, Deadfire/Pillars bounties listed the
+  giver's district as the target's location, Skyrim contract locations were
+  off, Yōtei bounty mechanics looked invented. Fixed where guides agreed.
+- **Leftovers made plain and safe** (owner's choice, #163–#168): entries no
+  guide confirmed lost their invented details and got plain steps — Yōtei
+  12, AC Odyssey 16, Cyberpunk 8, Deadfire 12, TotK 23, Pillars I 9. P5R and
+  Valhalla needed nothing (already plain and accurate). Template rule used:
+  keep only what's safe (quest giver, region, the core task), point to the
+  in-game journal/description for the rest.
+- **Prod deploy → `v2.4.0`** (minor): CHANGELOG PR #169, then `staging` →
+  `main` with `[minor]`. Tag & Release and Pages workflows green. Prod QA on
+  the local prod build (served at `/newapp/`): 45/68 checked entries pass
+  every field, the 23 TotK ones fail only the expected "region" check (no
+  region field), 0 page errors; video quests show steps under the video.
+  Quest count 2,475.
+
+- Still to do: owner review of the 1,440 video candidates
+  (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
+  marked done; owner to decide whether to delete the 13 old per-game review
+  pages (keep for now); optional in-game checks of the plain-step leftovers
+  (TODO.md).
 
 ---
 
