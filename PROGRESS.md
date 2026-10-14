@@ -136,6 +136,12 @@
   Firestarter is the Black Sapphire choice (not the opener), Violence is Lizzy
   Wizzy and Liam, Buck Ravers is on Jig-Jig Street.
 
+- **Metaphor: ReFantazio:** all 20 video quests got steps (main story
+  deadlines, Virga Island, the Skybound finale, More's archetype tasks,
+  bounty quests). Fixed: Thwart Zorba's Plan is in Grand Trad's cathedral,
+  Infiltrate the Charadrius in Brilehaven; Apprehend the Real Kidnapper,
+  Ancestral Solution and More's final task summaries made specific.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
