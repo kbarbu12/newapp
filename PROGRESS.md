@@ -202,6 +202,16 @@
   Learning the Ropes = naval fight). #2024 Memories Awoken left as is — no
   guide found.
 
+- **Phase 3 — AC Odyssey batch 2 (Attika, Boeotia, Euboea):** 30 quests
+  got 4–5 guide-sourced steps (Eppie's stele chain, the Athens/Symposium
+  arc, Rising from the Ashes, The Conqueror, the Chapter 8 Athens quests,
+  the Sophanes/Sokrates chain, Hind of Keryneia, 3 tombs, 5 Ostraka).
+  Eppie's 4 "Side Quest - …" entries retitled and moved to side quests;
+  Hound Docked moved to Megaris (its real region). Left as is (no guide
+  found): Welcome to Athens, Creating Opportunity, the 4 Kingfisher quests,
+  Artemision Tomb, and the Attika Ostraka Goat's Gruff, Killer View, Pigsty,
+  Fire in the Belly, Stadium Love, Bridging the Gap.
+
 - Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
