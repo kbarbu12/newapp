@@ -29,6 +29,13 @@ obscure side quests (Kingfisher chain, Speak No Evil, The Long Game, …),
 Medusa, Kallias and The Ghost of Kosmos. Owner: verify in-game or with a
 video, or decide to leave them as is.
 
+## Ghost of Yōtei bounty steps likely invented
+12 Ghost of Yōtei bounties (#1225, #1231, #1234–#1237, #1239, #1245, #1246,
+#1250–#1252) are real bounties, but their step text has precise mechanics no
+guide confirms (e.g. "10-second head start", "underwater tunnel 15 m below
+the cliff"). Owner: verify in-game, or let the agent replace them with
+generic steps.
+
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
 build** only, because this environment's network policy blocks the live

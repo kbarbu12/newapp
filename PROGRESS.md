@@ -333,6 +333,15 @@
   steps with the faction lock-in flagged. Left as is: 9 bounties with no
   reliable location (Glasdial's sources disagree) and A Two Story Job.
 
+- **Phase 4 — Ghost of Yōtei (bounties):** the 16 template bounties' steps
+  contain very specific mechanics no guide mentions ("10-second head start",
+  "underwater tunnel 15 m below the cliff") — likely invented. 4 verified and
+  rewritten: Blue Yamauba (Tokachi → Ishikari Plain; drawing → mask merchant
+  → Blackened Homestead, she's Miyo), Inokichi the Hungry (Ishikari →
+  Huranui Mill camp, Tokachi), Bear Man Chikatoshi (Shizunai Woods), Eagle Eye
+  Kondo (pink-tree island off Esan Inlet). The other 12 are real bounties but
+  their steps are unverified (see TODO.md).
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
