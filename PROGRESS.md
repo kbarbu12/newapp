@@ -323,6 +323,16 @@
   said Mzulft, not Mzinchaleft) and now give the easiest kill. 11 fort
   battles now name their hold and who gives the order.
 
+- **Phase 4 — Pillars of Eternity (bounties, faction quests):** 11 quests.
+  7 Caed Nua bounties had "Caed Nua" (where Warden Fyrgen posts them) as the
+  location; each now names where the target is (Sly Cyrdel at Magran's Fork,
+  The Dweller in Black Meadow, Nalrend in the Elmshore cave, Warchief Iklak
+  in Valewood, Daroth Grimault in the Copperlane Catacombs, Thorfen in
+  Esternwood, Songsmith Roska at Clîaban Rilag). 4 faction quests (Rogue
+  Knight, Built to Last, Winds of Steel, The Changing of the Guard) got real
+  steps with the faction lock-in flagged. Left as is: 9 bounties with no
+  reliable location (Glasdial's sources disagree) and A Two Story Job.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
