@@ -50159,7 +50159,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 5/7.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Qimranut Floor 1.",
-      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Nakanohara (Obariyon) — weak to Electric.",
       "Return to the hideout to report completion and claim your reward (Attachment Pearl)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Beware%20the%20Clingy%20Ex-Boyfriend%20Mementos%20Request%20walkthrough"
@@ -50180,7 +50180,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 5/9.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Aiyatsbus Floor 2.",
-      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Takanashi (Jack Frost) — Confuse works well.",
       "Return to the hideout to report completion and claim your reward."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Bark%20and%20Bite%20of%20a%20Bully%20Mementos%20Request%20walkthrough"
@@ -50222,7 +50222,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: After Madarame Palace.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Aiyatsbus Floor 6.",
-      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Aino (Nekomata) — weak to Wind.",
       "Return to the hideout to report completion and claim your reward (Cat Brooch)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20If%20Cats%20Disappeared%20From%20the%20City%20Mementos%20Request%20walkthrough"
@@ -50243,7 +50243,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 6/6.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Aiyatsbus Floor 7.",
-      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Shimizu (Yaksini) — weak to Fire and Bless.",
       "Return to the hideout to report completion and claim your reward (Whip Sword)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Sadism%20Is%20Just%20a%20Sign%20of%20Love%20Mementos%20Request%20walkthrough"
@@ -50285,7 +50285,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: Rank 7 Death (Takemi).",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Chemdah Floor 2.",
-      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Oyamada (Thoth) — no elemental weakness; susceptible to Confuse and Sleep.",
       "Return to the hideout to report completion and claim your reward (Mediarama)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Bad%20Medicine%20Mementos%20Request%20walkthrough"
@@ -50348,7 +50348,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 3 days after Futaba Palace.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Kaitul Floor 1.",
-      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat the target Shadow — weak to Fire and Bless.",
       "Return to the hideout to report completion and claim your reward (Blood Scimitar)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Calling%20for%20Justice%20for%20Cats%20Mementos%20Request%20walkthrough"
@@ -50390,7 +50390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: Rank 7 Hanged Man (Iwai).",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Kaitul Floor 4.",
-      "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Tsuda (Belphegor) — no weakness, so bring raw damage.",
       "Return to the hideout to report completion and claim your reward (Weird Wrap)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shady%20Deal%20in%20the%20Shadows%20Mementos%20Request%20walkthrough"
@@ -50432,7 +50432,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 1 day after Futaba Palace.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Kaitul Floor 8.",
-      "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat the target Shadow (Kumbhanda) — weak to Bless.",
       "Return to the hideout to report completion and claim your reward (Theme Park Escort)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20We%20Aren't%20Just%20Your%20Slaves%20Mementos%20Request%20walkthrough"
@@ -50495,7 +50495,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: Rank 8 Moon (Mishima).",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Akzeriyyuth Floor 3.",
-      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat the target Shadow — weak to Electric.",
       "Return to the hideout to report completion and claim your reward (Thermopylae)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Man%20of%20Many%20Faces%20and%20Debts%20Mementos%20Request%20walkthrough"
@@ -50537,7 +50537,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: Rank 8 Hierophant (Sojiro).",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Adyeshach Floor 0.",
-      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Isshiki — no weakness and resists Physical; use magic.",
       "Return to the hideout to report completion and claim your reward (Venture Saber)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Money-Grubbing%20Uncle%20Mementos%20Request%20walkthrough"
@@ -50621,7 +50621,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 12/10.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Sheriruth Floor 8.",
-      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Arihara (Tam Lin) — no weakness.",
       "Return to the hideout to report completion and claim your reward (Agitation Crown)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Lady-Killer's%20Ballad%20Mementos%20Request%20walkthrough"
@@ -50642,7 +50642,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 1 day after Shido Palace.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Sheriruth Floor 14.",
-      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat Shadow Asakura (Mara) — weak to Nuke.",
       "Return to the hideout to report completion and claim your reward (Immortal Vest)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Head%20Honcho%20in%20Showbiz%20Mementos%20Request%20walkthrough"
@@ -50663,7 +50663,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock condition: 1/13.",
       "Read the request from Mishima (Phantom Aficionado Website) and note the target and required name.",
       "Enter Mementos and descend to Da'at Floor 3.",
-      "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
+      "Defeat the target Shadow — weak to Bless.",
       "Return to the hideout to report completion and claim your reward (Spiral Hell Ring)."
     ],
     video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Small%20Cry%20for%20Help%20Mementos%20Request%20walkthrough"
