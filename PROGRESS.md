@@ -297,6 +297,16 @@
   Minds, A Glimpse Beyond, Skipping Ahead, A Vote of No Confidence, Sabotage
   at the Brass Citadel.
 
+- **Phase 4 — Zelda: Tears of the Kingdom:** 17 quests that shared
+  template steps now have real ones — 10 stable photo quests name the actual
+  subject (Daruk statue, Floria Falls on a clear day, Ancient Columns at
+  sunrise, Ring Ruins, the Hebra "giant bird", Tarrey Town's bell, …), the 3
+  WANTED bounties (all from Gralens at Lookout Landing) have their real
+  target spots, the 3 Lomei prophecies describe maze → sky ruin → terminals,
+  and The All-Clucking Cucco its trials. Left as is (no guide found): the
+  other 24 TotK template entries (sky crystals, Goddess Statues, East
+  Akkala/New Serenne/Woodland photos, Glory of the Zora, …).
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
