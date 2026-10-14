@@ -1269,22 +1269,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=uTEAl3zf1Ws"
   },
 {
-    id: 41,
-    type: "side",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
-    title: "The Phantom of Eldberg",
-    location: "Eldberg Lighthouse, Skellige",
-    length: "short",
-    difficulty: "High",
-    reward: "Gold, XP, lighthouse restoration",
-    summary:
-      "Investigate why the Eldberg lighthouse keeps going dark, leading to a tense nighttime battle against a Penitent wraith. The atmosphere and buildup make this one of the most memorable Witcher contracts.",
-    aiTip:
-      "Fight at night when the wraith appears. Use Moon Dust bombs and Yrden to keep it corporeal. The Specter oil gives a significant damage boost.",
-    video: "https://www.youtube.com/watch?v=j9GrBz96UdM"
-  },
-{
     id: 42,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -5076,22 +5060,6 @@ const quests = [
       "Challenge Gilgamesh in the garden — bring fire, Magnify+Barrier/Cure, plenty of ethers; around level 70 is recommended."
     ],
     video: "https://www.youtube.com/watch?v=hahMCMyXzSI"
-  },
-{
-    id: 247,
-    type: "side",
-    game: "Final Fantasy VII Rebirth",
-    region: "Cosmo Canyon",
-    title: "Rulers of the Outer Worlds",
-    location: "Chadley's Combat Simulator",
-    length: "medium",
-    difficulty: "High",
-    reward: "Brutal challenge completion, elite gear",
-    summary:
-      "The combat simulator's most feared gauntlet: five rounds of paired summons — Titan, Bahamut Arisen, Alexander, Odin — capped by Gilgamesh and a virtual Sephiroth.",
-    aiTip:
-      "Kill Odin first in round three or Zantetsuken will end the run. Break Bahamut's wings during Particle Charge to interrupt its Gigaflare countdown.",
-    video: "https://www.youtube.com/watch?v=qq6Wj7qOh00"
   },
 {
     id: 248,
