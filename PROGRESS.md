@@ -252,6 +252,17 @@
   Kleon, the Monger, Silanos, Pausanias, Chrysis). Left as is (no guide
   location found): Kallias, The Ghost of Kosmos.
 
+- **Phase 3 — AC Odyssey batch 7 (finale, Lost Tales, romances):** 14
+  entries. Where It All Began rewritten (it's the Deimos cliff confrontation
+  on Mount Taygetos, with the dialogue for the family ending); 3 Lost Tales
+  (A Poet's Legacy, Every Story Has an Ending, Old Flames Burn Brighter); 10
+  romance entries now name the quest that unlocks each romance and the key
+  choice (Odessa, Auxesia, Kosta, Roxana, Kyra, Thaletas, Xenia, Diona,
+  Zopheras, Anais). Left as is (no guide found): romances Lykaon,
+  Alkibiades, Daphnae, Mikkos, Aikaterine, Thyia; Lost Tales A Brother's
+  Seduction, The Show Must Go On, Divine Intervention, The Image of Faith,
+  A Friend Worth Dying For, One Really Really Bad Day, Socrates' Trial.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
