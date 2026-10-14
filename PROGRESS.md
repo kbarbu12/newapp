@@ -283,6 +283,20 @@
   (possibly not a real gig), No Fixers, Spy in the Jungle, Waiting for
   Dodger, and the 4 cyberpsychos with no extra detail.
 
+- **Phase 4 — Pillars II: Deadfire (bounties & faction quests):** 40
+  entries. All 28 bounties had the giver's district as the target's
+  location; each now names who posts it (Abocco, Aenia, Barati, Wakoyo,
+  Okauro, Nungata, Udita, Dessiral) and, where guides give it, where the
+  target actually is (e.g. Radulf in the Kua O Rikuhu islands, Lady Epero at
+  her Serpent's Crown estate, Katrenn on the Sacred Stair at night). 12
+  faction quests got real objectives (Blow the Man Down, Honor Among
+  Thieves, Dim Prospects, A Matter of Import, Clearing Out Crookspur, …) and
+  the four point-of-no-return finales are flagged. Left as is (no guide
+  found): Trade Secrets, The Last Sanctuary, From the Wreckage, Symbols of
+  Death, A Shrewd Proposition, Goods and Services, Overgrowth, Of Like
+  Minds, A Glimpse Beyond, Skipping Ahead, A Vote of No Confidence, Sabotage
+  at the Brass Citadel.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
