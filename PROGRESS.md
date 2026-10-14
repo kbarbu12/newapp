@@ -90,9 +90,9 @@
   Take the Biscuit is a Mooncalf rescue), 14 titles set to in-game names
   (class assignments → "Professor Garlick's Assignment 1" etc., Sacking
   Selwyn, Absconder Encounter), assignment rewards/tips corrected, 3 Sebastian
-  quests moved to Relationship. **Probably not real, no steps written:**
-  #509 Ollivanders & the Perfect Wand, #868 In the Shadow of Revelation —
-  owner to confirm removal.
+  quests moved to Relationship. #509 Ollivanders & the Perfect Wand and #868
+  In the Shadow of Revelation matched no guide; removed on owner's OK
+  (2,480 → 2,478).
 
 - **God of War Ragnarök:** all 65 video quests got 3–7 guide-sourced steps.
   Every title checked out as real, but realms/stories were often wrong

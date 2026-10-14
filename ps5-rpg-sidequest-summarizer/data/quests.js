@@ -10700,23 +10700,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=lwgsiMEle20"
   },
 {
-    id: 509,
-    type: "side",
-    category: "Side Quest",
-    game: "Hogwarts Legacy",
-    region: "Hogsmeade",
-    title: "Ollivanders & the Perfect Wand",
-    location: "Hogsmeade",
-    length: "short",
-    difficulty: "Low",
-    reward: "Wand handle customization",
-    summary:
-      "Assist Mr. Ollivander's shop and craft the wand that best suits you.",
-    aiTip:
-      "Wand cosmetics are purely visual, but the quest is a lovely bit of wizarding flavor.",
-    video: "https://www.youtube.com/watch?v=fIt-643KYRY"
-  },
-{
     id: 510,
     type: "side",
     category: "Side Quest",
@@ -18548,23 +18531,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch the cutscene — the next Keeper's trial is at Rookwood Castle, unlocking Charles Rookwood's Trial."
     ],
     video: "https://www.youtube.com/watch?v=yT7NIWbJ54g"
-  },
-{
-    id: 868,
-    type: "main",
-    category: "Main Story",
-    game: "Hogwarts Legacy",
-    region: "Highlands",
-    title: "In the Shadow of Revelation",
-    location: "Highlands / Map Chamber",
-    length: "long",
-    difficulty: "Medium",
-    reward: "Isidora's memory, endgame setup",
-    summary:
-      "Follow the aftermath of the Final Repository as Isidora Morganach's secret is fully revealed.",
-    aiTip:
-      "Flows straight out of 'The Final Repository' — save loadouts before you commit to the finale.",
-    video: "https://www.youtube.com/watch?v=9u2qDvYyQ6U"
   },
 {
     id: 869,
