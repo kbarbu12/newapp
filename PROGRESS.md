@@ -342,6 +342,14 @@
   Kondo (pink-tree island off Esan Inlet). The other 12 are real bounties but
   their steps are unverified (see TODO.md).
 
+- **Phase 4 — AC Valhalla:** the 19 template entries are the real "Reporting
+  on …" arc-end quests and three Order kills; their steps were already
+  accurate, just plain. 4 got real detail: Reporting on East Anglia (settle
+  the Mane and Tail dispute first), Reporting on Lunden (Randvi offers
+  Vinland here), Closing the Vault (Hjorr's hidden room in the archives),
+  Impaling the Seax (Ealhferth, in the church). **Phase 4 complete** —
+  everything unconfirmed is listed in the batch notes above and in TODO.md.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
