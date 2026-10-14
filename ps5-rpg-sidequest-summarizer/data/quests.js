@@ -6063,19 +6063,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Gig: Monster Hunt",
-    location: "Kabuki – Watson",
+    location: "Ho-Oh club, Kabuki – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina payout, rescued victim",
-    summary:
-      "Fixer Regina Jones sends V to stop a violent john who's been brutalizing joytoys in Kabuki.",
-    aiTip:
-      "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
+    summary: "Regina Jones's first Tier 1 gig: snatch Jotaro Shobo from inside the Tyger Claws' Ho-Oh club in Kabuki.",
+    aiTip: "Non-lethal is optional here; save the victim and grab the evidence shard for the full Regina payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — the violent john brutalizing joytoys in Kabuki — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Reach Street Cred 1 and take the gig from Regina Jones in Kabuki.",
+      "Go to the Ho-Oh club.",
+      "Fight or sneak through the club's three floors of Tyger Claws.",
+      "Grab Jotaro Shobo.",
+      "Drop him in the trunk of the marked car."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
   },
@@ -6083,21 +6082,20 @@ const quests = [
     id: 279,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Westbrook",
+    region: "Watson",
     title: "Gig: Freedom of the Press",
-    location: "Westbrook – Japantown",
+    location: "WNS News building (west of Pershing St), Northside – Watson",
     length: "short",
     difficulty: "Low",
     reward: "Max Jones payout, journalist saved",
-    summary:
-      "Help investigative journalist Max Jones dodge a Militech hit squad and get his story out.",
-    aiTip:
-      "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
+    summary: "SOS: Merc Needed — journalist Max Jones is trapped in the booby-trapped WNS News building. Get him out alive.",
+    aiTip: "Approach quietly to extract Max unharmed — a loud fight puts him in the crossfire.",
     walkthrough: [
-      "Accept the gig from journalist Max Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — getting his story out past the Militech hit squad — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to journalist Max Jones for the eddies."
+      "Reach Street Cred 8 and go to the WNS News building west of the Pershing St fast travel point.",
+      "Enter by the front (Tech 8) or climb the dumpster to the roof and drop through the broken window.",
+      "Disarm the laser trip mines and destroy the turrets on the way.",
+      "Find Max and lead him down the yellow stairs to the car.",
+      "Drive off and leave him at the nearby drop point."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
   },
@@ -6105,21 +6103,20 @@ const quests = [
     id: 280,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Heywood",
+    region: "Westbrook",
     title: "Gig: Family Heirloom",
-    location: "Heywood – Wellsprings",
+    location: "Parking garage on Crockett St, Charter Hill – Westbrook",
     length: "short",
     difficulty: "Medium",
     reward: "Padre payout, recovered mnemonic device",
-    summary:
-      "Fixer Padre wants a stolen mnemonic memory device recovered from a gang stash before its owner loses everything.",
-    aiTip:
-      "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
+    summary: "A late Rogue gig (Street Cred 35, after Ghost Town): recover a bootleg Samurai recording from a parking garage in Charter Hill.",
+    aiTip: "Stealth in, grab the device from the safe, and leave — the stash is heavily guarded for a small gig.",
     walkthrough: [
-      "Accept the gig from Padre and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — the stolen mnemonic memory device from the gang stash — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Padre for the eddies."
+      "Finish Ghost Town and reach Street Cred 35 — Rogue gives this gig.",
+      "Go to the parking garage on Crockett St in Charter Hill and clear the enemies.",
+      "Take the recording from the locker in the central back room.",
+      "Optionally take Dan's car too, for the bonus.",
+      "Deliver it to Dan upstairs at the Luxury Apartments in western Charter Hill."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
   },
@@ -6129,19 +6126,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Gig: Life's Work",
-    location: "Heywood – The Glen",
+    location: "Auto shop east of Glen South metro, The Glen – Heywood",
     length: "short",
     difficulty: "Low",
     reward: "Padre payout, sculptor's magnum opus",
-    summary:
-      "Recover a dying artist's final sculpture from thieves so his life's work isn't lost.",
-    aiTip:
-      "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
+    summary: "Search and Recover: get a car out of an auto shop in The Glen — install the software it needs and drive it to Jake.",
+    aiTip: "A low-stakes, story-rich gig — read the shards to appreciate why it matters to the client.",
     walkthrough: [
-      "Accept the gig from the client and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — the dying artist's final sculpture from the thieves — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to the client for the eddies."
+      "Go to the auto shop east of the Glen South metro stop.",
+      "Use the monitor and the microwave to distract the guards (drop through the maintenance pit to reach them).",
+      "Install the software in the upstairs room.",
+      "Take the car.",
+      "Drive it to Jake."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
   },
@@ -6149,21 +6145,20 @@ const quests = [
     id: 282,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Westbrook",
+    region: "Santo Domingo",
     title: "Gig: Serious Side Effects",
-    location: "Westbrook – Japantown",
+    location: "Inn south-west of MLK & Brandon, Arroyo – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Wakako payout, stolen meds recovered",
-    summary:
-      "Wakako Okada tasks V with recovering a shipment of stolen immunosuppressant drugs from a ripperdoc gone bad.",
-    aiTip:
-      "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
+    summary: "El Capitán's gig: steal beta acid containers from a drug ring holed up in an Arroyo inn.",
+    aiTip: "The clinic is trapped and guarded — scan for cameras and turrets before moving in.",
     walkthrough: [
-      "Accept the gig from Wakako Okada and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — the stolen immunosuppressant shipment from the rogue ripperdoc — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Wakako Okada for the eddies."
+      "Go to the inn south-west of the MLK & Brandon fast travel point.",
+      "Get in: rent a room, force the left door (Body 8), the shutters (Body 12) or the back door (Tech 12).",
+      "Find Booker Updike in room 103.",
+      "Reach room 203 through room 200 and across the balcony for the beta acid.",
+      "Deposit it at the drop point."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
   },
@@ -6171,21 +6166,20 @@ const quests = [
     id: 283,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Santo Domingo",
+    region: "Watson",
     title: "Gig: Flight of the Cheetah",
-    location: "Santo Domingo – Arroyo",
+    location: "Sunset Motel, Martin St, Northside – Watson",
     length: "medium",
     difficulty: "Medium",
     reward: "Dino Dinovic payout, defector extracted",
-    summary:
-      "Extract a Militech scientist and his experimental combat implant before Militech's cleaners silence him.",
-    aiTip:
-      "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
+    summary: "A Regina gig in Northside: find Hwangbo at the Sunset Motel and get him to his nomad meeting.",
+    aiTip: "Time it right — reinforcements escalate the longer you linger. Extraction beats a shootout.",
     walkthrough: [
-      "Accept the gig from the client and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — extracting the Militech scientist and his combat implant — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to the client for the eddies."
+      "Unlock it by finishing some of Regina's earlier gigs.",
+      "Go to the Sunset Motel on Martin St, west of the fast travel point.",
+      "Enter by the door beside the Nicola vending machine (Body 5) and check the guest list on the terminal.",
+      "Find and talk to Hwangbo.",
+      "Escort him to the nomad meeting and talk to him before leaving."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
   },
@@ -6193,21 +6187,20 @@ const quests = [
     id: 284,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Westbrook",
     title: "Gig: Getting Warmer...",
-    location: "Watson – Northside",
+    location: "South-west of Skyline & Salinas, Japantown – Westbrook",
     length: "short",
     difficulty: "High",
     reward: "Regina payout, defused suicide bomber",
-    summary:
-      "A former Maelstromer named Brick is wired to explode. V must find and defuse the bomb before Night City loses a city block.",
-    aiTip:
-      "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
+    summary: "SOS: Merc Needed — the netrunner BugBear is overheating in her rig. Cool her down and disconnect her before she flatlines.",
+    aiTip: "Search for the shards revealing the disarm code before touching the bomb — guessing ends badly.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — finding and defusing the bomb wired into Brick — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Reach Street Cred 10 and go south-west of the Skyline & Salinas fast travel point.",
+      "Enter through the silver double doors (or the side stairs with Tech 11) and go upstairs.",
+      "Find BugBear behind the second door on the right.",
+      "Take the coolant from the bathroom sink and lower her body temperature.",
+      "Disconnect her using the wall screen by the door."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
   },
@@ -6215,21 +6208,19 @@ const quests = [
     id: 285,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Santo Domingo",
+    region: "Watson",
     title: "Gig: Last Login",
-    location: "Santo Domingo – Rancho Coronado",
+    location: "Alley north of Kabuki Market, Kabuki – Watson",
     length: "short",
     difficulty: "Low",
     reward: "Sebastian 'Padre' payout, closure for a family",
-    summary:
-      "Recover a dead 6th Street gang member's belongings so his brother can lay him to rest.",
-    aiTip:
-      "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
+    summary: "A Thievery gig in Kabuki (Street Cred 4): break into a building north of Kabuki Market for the data.",
+    aiTip: "A quiet, humane gig — clear the drone-guarded lot and grab the personal effects.",
     walkthrough: [
-      "Accept the gig from the client and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — the dead 6th Street member's belongings for his brother — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to the client for the eddies."
+      "Reach Street Cred 4 and go north of the Kabuki Market fast travel point.",
+      "Find the alley where the job is.",
+      "Enter by the first blue door (Body 5), the upstairs door (Tech 7) or the door left of the garage.",
+      "Get the data and leave."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
   },
@@ -6239,19 +6230,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: Second Chances",
-    location: "Badlands – Rocky Ridge",
+    location: "Vasquez Pass – Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rocky Ridge in the Badlands.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Zion Wylde — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Drive to Vasquez Pass in the Badlands.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Zion Wylde non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
   },
@@ -6283,19 +6273,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: House on a Hill",
-    location: "Badlands – East",
+    location: "Greene Homestead, Rocky Ridge – Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to his barricaded property in the eastern Badlands.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Russell Greene — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Drive to the Greene Homestead in Rocky Ridge.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Russell Greene non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
   },
@@ -6305,19 +6294,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Santo Domingo",
     title: "Cyberpsycho Sighting: Discount Doc",
-    location: "Santo Domingo – Rancho Coronado",
+    location: "South-east Rancho Coronado – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Rancho Coronado in Santo Domingo.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Chase Coley — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go to the south-east corner of Rancho Coronado.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Chase Coley non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
   },
@@ -6327,19 +6315,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Where the Bodies Hit the Floor",
-    location: "Watson – Northside",
+    location: "Alley by the Totentanz (near Pershing St), Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Ellis Carter — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go down the alley by the Totentanz, near the Pershing St fast travel point.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Ellis Carter non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
   },
@@ -6349,19 +6336,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Bloody Ritual",
-    location: "Watson – Northside",
+    location: "Near the docks, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Zaria Hughes, staging grotesque ritual scenes. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Zaria Hughes, staging grotesque ritual scenes. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Only available after 8 pm and after the main job Playing for Time.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Zaria Hughes — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Finish Playing for Time, then accept the sighting after 8 pm.",
+      "Go to the docks area of Northside.",
+      "Scan the ritual scene with your Kiroshi optics.",
+      "Subdue Zaria Hughes non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
   },
@@ -6371,19 +6357,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Six Feet Under",
-    location: "Watson – Northside",
+    location: "Train tracks near Ebunike Docks, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Northside in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Lely Hein — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Follow the train tracks near the Ebunike Docks fast travel point.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Lely Hein non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
   },
@@ -6393,19 +6378,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Demons of War",
-    location: "Watson – Kabuki",
+    location: "Unfinished highway bridge north of Charter St, Kabuki – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Matt Liaw — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Climb the unfinished highway bridge north of the Charter St fast travel point.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Matt Liaw non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
   },
@@ -6415,19 +6399,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Lt. Mower",
-    location: "Watson – Kabuki",
+    location: "Courtyard north-east of Bellevue Overwalk, Kabuki – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Lieutenant Mower, ex-Militent overloaded with military ware. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Lieutenant Mower, an ex-military cyberpsycho holed up in a flooded courtyard in Kabuki. Unlocks after The Rescue.",
+    aiTip: "She teleports in close and can electrify the water — circle the edge of the arena and stay dry. She's weak to Shock; System Reset is the best quickhack for a non-lethal takedown.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Kabuki in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Lieutenant Mower — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Finish The Rescue, then accept the sighting from Regina.",
+      "Go north-east of the Bellevue Overwalk fast travel point to the building surrounded by NCPD.",
+      "Slip past the cops into the courtyard.",
+      "Subdue Lt. Mower, staying out of the water.",
+      "Take the shard 'Archived Conversation: Dr. Martin Sypura and Lt. Mower' and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
   },
@@ -6437,19 +6420,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Cyberpsycho Sighting: Ticket to the Major Leagues",
-    location: "Watson – Little China",
+    location: "Storage facility, south-west Little China – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Little China in Watson.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Alec Johnson — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go to the storage facility on the south-west side of Little China.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Alec Johnson non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
   },
@@ -6481,19 +6463,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "City Center",
     title: "Cyberpsycho Sighting: On Deaf Ears",
-    location: "City Center – Downtown",
+    location: "Parking lot (west Downtown, via the elevated bridge), City Center",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Downtown in City Center.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Cedric Muller — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go to the ground floor of the parking lot in west Downtown, reached by the elevated bridge.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Cedric Muller non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
   },
@@ -6547,19 +6528,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Cyberpsycho Sighting: Letter of the Law",
-    location: "Heywood – Wellsprings",
+    location: "Southern beach, west Heywood – Wellsprings",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: a rogue enforcer taking the law into his own hands. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Gaston Phillips, a rogue enforcer taking the law into his own hands near Wellsprings' southern beach.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage the rogue enforcer — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go to the southern beach in west Heywood.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Gaston Phillips non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
   },
@@ -6569,19 +6549,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Cyberpsycho Sighting: Seaside Cafe",
-    location: "Heywood – Wellsprings",
+    location: "Shore, south-west Heywood – Wellsprings",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: a cyberpsycho who turned a cafe into a bloodbath. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Dao Hyunh, who turned a seaside cafe into a bloodbath in south-west Heywood.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Wellsprings in Heywood.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage the cafe cyberpsycho — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Go to the shore in south-west Heywood.",
+      "Scan the cafe with your Kiroshi optics.",
+      "Subdue Dao Hyunh non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
   },
@@ -6591,19 +6570,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Santo Domingo",
     title: "Cyberpsycho Sighting: Under the Bridge",
-    location: "Santo Domingo – Arroyo",
+    location: "Encampment under the highway, Arroyo – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Arroyo in Santo Domingo.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Tamara Cosby — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept Regina Jones's Cyberpsycho Sighting.",
+      "Find the encampment below the highway in Arroyo.",
+      "Scan the scene with your Kiroshi optics.",
+      "Subdue Tamara Cosby non-lethally if you can.",
+      "Loot the shard and send it to Regina."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
   },
@@ -12260,21 +12238,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 558,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Pacifica",
     title: "Gig: Two Wrongs Makes Us Right",
-    location: "Watson – Kabuki",
+    location: "NCART tunnels under West Wind Estate – Pacifica",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Recover a stolen car and settle a double-cross for Regina Jones.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Mr. Hands Thievery gig (Street Cred 32): steal a van out of the unfinished NCART tunnels under West Wind Estate, guarded by the Animals.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — recovering the stolen car and settling the double-cross — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Roam West Wind Estate at Street Cred 32 to trigger Mr. Hands's call.",
+      "Get to the unfinished NCART station.",
+      "Find the van in the tunnels past the Animals.",
+      "Escape in the van.",
+      "Park it in the lot by the Pacifica market."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
   },
@@ -12284,19 +12261,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Gig: Shark in the Water",
-    location: "Watson – Northside",
+    location: "Aoba, O'Malley Place St (east Kabuki) – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Extract a hostage from a Maelstrom-linked kidnapping.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "Gun for Hire: Blake Coyle and his Animals have taken over Roger Wang's shop in east Kabuki. Take him out.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — extracting the hostage from the Maelstrom kidnapping — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Head to east Kabuki near the Beat on the Brat arena — Regina calls with the target.",
+      "Find Blake Coyle in the shop he took from Roger Wang (Aoba, O'Malley Place St).",
+      "Take the stealth route past the Animals.",
+      "Neutralize Blake.",
+      "Leave the area."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
   },
@@ -12306,19 +12282,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Gig: Woman of La Mancha",
-    location: "Watson – Northside",
+    location: "Kabuki Market – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Retrieve stolen tech from a gang stronghold for Regina.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "Gun for Hire: Officer Anna Hamill is investigating a smuggling operation in Kabuki Market. Make her drop the investigation.",
+    aiTip: "Don't tell Eve you're a cop. A Nomad can get info from Imad for free — and only the Nomad option to convince Anna to leave town lets her survive.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — retrieving the stolen tech from the gang stronghold — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Go to Kabuki Market — Regina calls with the target.",
+      "Ask around the bazaar: show Eve Anna's photo (don't claim to be a cop) or pay Imad.",
+      "Go to Anna's apartment (Tech 6 to open the door).",
+      "Talk her down — blame her NCPD superiors or, as a Nomad, convince her to leave town.",
+      "Leave the area."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
   },
@@ -12326,21 +12301,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 561,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Heywood",
     title: "Gig: Hot Merchandise",
-    location: "Watson – Kabuki",
+    location: "Data Inc. store basement, Wellsprings – Heywood",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Rescue trafficked victims from a slaver operation.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A late Rogue gig (Street Cred 35, after Ghost Town): grab Rebeca Price from the basement of the Data Inc. store, held by the Animals.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — rescuing the trafficked victims from the slaver operation — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Finish Ghost Town and reach Street Cred 35 — Rogue gives this gig.",
+      "Get into Data Inc. through a side shutter (Body 5 on the right, free on the left).",
+      "Go to the back and down to the basement.",
+      "Quietly take out the Animal, then deal with Rebeca at her computer.",
+      "Carry her to the waiting car's trunk (or, if she's dead, just leave)."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
   },
@@ -12350,19 +12324,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Watson",
     title: "Gig: Backs Against the Wall",
-    location: "Watson – Northside",
+    location: "Housing block on Columbus St, Kabuki – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Save a Militech agent pinned down by Maelstrom.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "Regina's opening gig: a man has stolen medicine and holed up on the top floor of a Kabuki housing block. Get it back.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — saving the Militech agent pinned down by Maelstrom — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Go to the housing block on Columbus St in south-east Kabuki — Regina calls.",
+      "Climb to the top floor; open the door with Tech 7–10 or use the open window and fire escape.",
+      "Deal with the man who took it.",
+      "Take the medicine from the cabinet.",
+      "Deliver it to the drop point."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
   },
@@ -12370,21 +12343,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 563,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Badlands",
     title: "Gig: Big Pete's Got Big Problems",
-    location: "Watson – Kabuki",
+    location: "Pete's garage near Autowerks (south Badlands)",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Sort out a small-time dealer's very large debt problem.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Dakota Smith gig: Big Pete is holed up in his garage in the south Badlands. Kill him — or spare him for double the eddies.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — sorting out Big Pete's large debt problem — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Approach the garage near the Autowerks fast travel point in the south Badlands.",
+      "Clear the enemies inside Pete's garage.",
+      "Go down to the basement of the large building.",
+      "Find Big Pete and spare him (double reward) or kill him."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
   },
@@ -12392,21 +12363,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 564,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Heywood",
     title: "Gig: Eye for an Eye",
-    location: "Watson – Kabuki",
+    location: "Condo at Scoffield & Sinkyone, The Glen – Heywood",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Recover a client's stolen property and mete out payback.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Padre gig: Kiroshi executive Tucker Albach escaped punishment for a fatal hit-and-run. Find her on the third floor of her condo.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — recovering the client's property and delivering payback — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Take the gig from Padre in The Glen.",
+      "Go to the condo at Scoffield & Sinkyone.",
+      "Enter from the back (Tech 17) or distract the front guard with the generator.",
+      "Reach the third floor and talk to or flatline Tucker Albach.",
+      "Open her office safe if you talked to her, then leave."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
   },
@@ -12414,21 +12384,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 565,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Watson",
+    region: "Santo Domingo",
     title: "Gig: Cuckoo's Nest",
-    location: "Watson – Northside",
+    location: "Psychiatric ward on Sequoia St, Rancho Coronado – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Watson: Investigate a compromised safehouse for Regina.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "An El Capitán gig (Street Cred 21): get Jasmine Dixon out of a psychiatric ward in Rancho Coronado.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Regina Jones and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — investigating the compromised safehouse — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Regina Jones for the eddies."
+      "Reach Street Cred 21 and go to the ward on Sequoia St.",
+      "Find and talk to Jasmine Dixon.",
+      "Take the stairs to the roof and jump down to the lower level, then the ground.",
+      "Cross the road to the car and get her in."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
   },
@@ -12438,19 +12406,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Westbrook",
     title: "Gig: Wakako's Favorite",
-    location: "Westbrook – Japantown",
+    location: "Apartment north-west of Crescent & Broad, Japantown – Westbrook",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Westbrook: Handle a delicate personal matter for fixer Wakako Okada.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "SOS: Merc Needed (Street Cred 10): Wakako's favourite client is in trouble — recover the shard from a mined apartment and bring it back to Chang Hoon Nam.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Wakako Okada and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — handling her delicate personal matter — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Wakako Okada for the eddies."
+      "Go north-west of the Crescent & Broad fast travel point.",
+      "Enter by the alley door (Body 6) or climb the dumpster and AC unit to the balcony.",
+      "Disarm (Tech 6) or shoot the mines on the stairs; read the computer and follow the red lights.",
+      "Get the shard (Body 20 door, or the mined underground route).",
+      "Plug it into Chang Hoon Nam's neural port and talk to him — he becomes a quickhack vendor."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
   },
@@ -12458,21 +12425,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 567,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Westbrook",
+    region: "Watson",
     title: "Gig: Occupational Hazard",
-    location: "Westbrook – Charter Hill",
+    location: "Autoworks warehouse east of Martin St, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Westbrook: Clear a Tyger Claws den threatening one of Wakako's clients.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "SOS: Merc Needed: Hal Cantos is hiding in an Autoworks warehouse in Northside — with a cyberpsycho loose inside.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Wakako Okada and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — clearing the Tyger Claws den threatening her client — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Wakako Okada for the eddies."
+      "Go to the Autoworks warehouse east of the Martin St fast travel point — Regina calls.",
+      "Enter through the front (Tech 5) or climb the dumpster to the roof.",
+      "Deal with the cyberpsycho inside.",
+      "Talk to the Mox woman upstairs.",
+      "Find Hal in the big blue shipping container downstairs, then wait for Regina's call."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
   },
@@ -12480,21 +12446,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 568,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Westbrook",
+    region: "Watson",
     title: "Gig: Dirty Biz",
-    location: "Westbrook – Japantown",
+    location: "Gottfrid and Fredrik's studio, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Westbrook: Untangle a shady deal gone wrong in Japantown.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Regina Thievery gig: recover the raw braindance footage of a murder from Gottfrid and Fredrik's studio.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Wakako Okada and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — untangling the shady deal gone wrong — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Wakako Okada for the eddies."
+      "Take the gig from Regina (Street Cred 1).",
+      "Go to the studio in Northside — front gate on the west, or the back fence (Tech 7).",
+      "Find the XBD recording (killing Gottfrid makes Fredrik hand it over).",
+      "Take it and leave.",
+      "Deposit it at the drop point."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
   },
@@ -12526,19 +12491,17 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Gig: Old Friends",
-    location: "Heywood – The Glen",
+    location: "Dive bar at Congress & Pigeon St, Vista del Rey – Heywood",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Heywood: Settle an old debt between former partners for Padre.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "Gun for Hire (Street Cred 1): take out Karubo Bairei at a Vista del Rey dive bar.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Padre and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — settling the old debt between the former partners — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Padre for the eddies."
+      "Go to the dive bar at the corner of Congress and Pigeon St.",
+      "Sneak in by the back door (Tech 16) or the front.",
+      "Find Karubo Bairei.",
+      "Neutralize him and leave."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
   },
@@ -12546,21 +12509,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 571,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Heywood",
+    region: "Watson",
     title: "Gig: Hippocratic Oath",
-    location: "Heywood – Vista del Rey",
+    location: "Clean Cut clinic, Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Heywood: Rescue a doctor forced to work for a gang.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "SOS: Merc Needed: Maelstrom is holding Dr. Lucy Thackery at the Clean Cut clinic. Get her out.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Padre and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — rescuing the doctor forced to work for the gang — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Padre for the eddies."
+      "Go to the Clean Cut clinic in Northside (Street Cred 1).",
+      "Enter by the front (watch the guard and camera) or the side door (Technical).",
+      "Find Lucy in the far western corner.",
+      "Optionally inject the patient with synthetic blood.",
+      "Persuade her to leave and escort her out."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
   },
@@ -12568,21 +12530,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 572,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Pacifica",
+    region: "Santo Domingo",
     title: "Gig: Race to the Top",
-    location: "Pacifica – Coastview",
+    location: "Factory north-west of Rancho Coronado South, Arroyo – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Pacifica: Extract a target from a fortified position for El Capitán.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Thievery gig (Street Cred 1): break into a guarded factory in Arroyo and get into Matheus Stove's office.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from El Capitán and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — extracting the target from the fortified position — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to El Capitán for the eddies."
+      "Go to the factory north-west of the Rancho Coronado South fast travel point.",
+      "Cut the west fence (Tech 12) or climb the scaffolding and drop in.",
+      "Disable the turret / camera near the main entrance.",
+      "Sneak through the garage, drop underground and climb the ladder.",
+      "Reach Matheus Stove's office and take what you came for."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
   },
@@ -12612,21 +12573,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 574,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Pacifica",
+    region: "Heywood",
     title: "Gig: Sr. Ladrillo's Private Collection",
-    location: "Pacifica – West Wind Estate",
+    location: "Dicky Twister club, Vista del Rey – Heywood",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Pacifica: Steal back a prized collection from a Pacifica warlord.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Padre Thievery gig (Street Cred 13): steal Sr. Ladrillo's data from the office above the stage at the Dicky Twister club.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from El Capitán and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — stealing back the collection from the Pacifica warlord — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to El Capitán for the eddies."
+      "Approach Vista del Rey at Street Cred 13 for Padre's call.",
+      "Get into the Dicky Twister: Tech 18 back door, Body 18 doors, or pay the bouncer $100 (or Tech 10).",
+      "Disable the ground-floor cameras.",
+      "Reach the second-level office above the stage and steal the data.",
+      "Leave the club."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
   },
@@ -12634,21 +12594,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 575,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Badlands",
-    title: "Gig: Over the Edge",
-    location: "Badlands – Rocky Ridge",
+    region: "Santo Domingo",
+    title: "Over the Edge",
+    location: "David's apartment, Megabuilding H4, Arroyo – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Badlands: Stop a raffen ambush in the Badlands for Dakota.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A hidden side job from the Edgerunners update (patch 1.6): pick up a braindance in David Martinez's old apartment to start the story that earns his jacket.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dakota and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — stopping the raffen ambush in the Badlands — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dakota for the eddies."
+      "Go to Megabuilding H4 in Arroyo.",
+      "Find David's old apartment.",
+      "Pick up the braindance to start the cutscene.",
+      "Follow the Over the Edge story to the end for David's Edgerunners jacket."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
   },
@@ -12656,21 +12614,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 576,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Badlands",
+    region: "Santo Domingo",
     title: "Gig: Family Matters",
-    location: "Badlands – Jackson Plains",
+    location: "Juliet's home, Rancho Coronado – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Badlands: Resolve a violent nomad family feud.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "An El Capitán gig (Street Cred 20): find out what happened to Juliet and recover the chip from her home.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dakota and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — resolving the violent nomad family feud — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dakota for the eddies."
+      "Roam Rancho Coronado at Street Cred 20 for El Capitán's call.",
+      "Go to Juliet's home and look for the chip.",
+      "Find out what happened to her.",
+      "Optionally open the safe.",
+      "Deposit the datashard at the drop point."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
   },
@@ -12678,21 +12635,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 577,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Badlands",
+    region: "City Center",
     title: "Gig: An Inconvenient Killer",
-    location: "Badlands – near Sunset Motel",
+    location: "7th Hell club, Downtown – City Center",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Badlands: Take down a rogue killer threatening Dakota's clients.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Dino Dinovic gig: Jack Mausser killed every guard on a Zetatech transport. Find him in the VIP area of 7th Hell.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dakota and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — taking down the rogue killer threatening the clients — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dakota for the eddies."
+      "Take the gig from Dino Dinovic in Downtown.",
+      "Get inside 7th Hell (optionally without combat).",
+      "Find Jack Mausser in the VIP area.",
+      "Neutralize him.",
+      "Leave the club."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
   },
@@ -12702,19 +12658,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Gig: Trevor's Last Ride",
-    location: "Badlands – Rocky Ridge",
+    location: "Wraiths' motel compound, south Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Badlands: Recover a hijacked truck and its driver in the wastes.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Dakota Smith gig: find Trevor's body in the Wraiths' freezers and bring it home in your trunk.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dakota and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — recovering the hijacked truck and its driver — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dakota for the eddies."
+      "Go to the Wraiths' territory in the south Badlands.",
+      "Enter the two-storey motel on the left of the compound.",
+      "Scan the bodies in the freezers (first floor, last room) to find Trevor.",
+      "Carry his body out of the outpost.",
+      "Put it in your trunk."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
   },
@@ -12724,19 +12679,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Santo Domingo",
     title: "Gig: Going-away Party",
-    location: "Santo Domingo – Rancho Coronado",
+    location: "House north-west of Mallagra & Manzanita, Rancho Coronado – Santo Domingo",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Santo Domingo: Extract a defecting 6th Street member before payback lands.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "SOS: Merc Needed (Street Cred 21): El Capitán needs Flavio dos Santos rescued from a house in Rancho Coronado.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dino Dinovic and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — extracting the defecting 6th Street member — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dino Dinovic for the eddies."
+      "Go north-west of the Mallagra & Manzanita fast travel point.",
+      "Take the alley on the left of the house and crawl through the hole underneath.",
+      "Find Flavio dos Santos.",
+      "Get him into the car.",
+      "Hand the car to the nomad waiting outside."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
   },
@@ -12744,21 +12698,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 580,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Santo Domingo",
+    region: "City Center",
     title: "Gig: Bring Me the Head of Gustavo Orta",
-    location: "Santo Domingo – Arroyo",
+    location: "Apartment on Petrel St (floor 32), Corpo Plaza – City Center",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Santo Domingo: Capture or kill a slippery target for fixer Dino Dinovic.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Padre Gun for Hire gig (Street Cred 1): take out Gustavo Orta in his high-rise apartment.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dino Dinovic and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — capturing or killing the slippery Gustavo Orta — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dino Dinovic for the eddies."
+      "Take the gig from Padre and go to Petrel St in Corpo Plaza.",
+      "Take the elevator to floor 32.",
+      "Get in: front door (Body 17), the side door (Tech 9) or the balcony via the garage (Streetkids can talk past the intercom).",
+      "Neutralize Gustavo Orta.",
+      "If he's alive, carry him to the car below; otherwise just leave."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
   },
@@ -12766,21 +12719,19 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 581,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Santo Domingo",
+    region: "Watson",
     title: "Gig: Many Ways to Skin a Cat",
-    location: "Santo Domingo – Arroyo",
+    location: "Revere Courier Services, south-east Northside – Watson",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Santo Domingo: Recover stolen corporate data from an industrial site.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Regina Thievery gig (Street Cred 1): get into the Revere Courier Services facility and take the van.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Dino Dinovic and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — recovering the stolen corporate data from the industrial site — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Dino Dinovic for the eddies."
+      "Go to the south-east corner of Northside (by Little China and Arasaka Waterfront) for Regina's call.",
+      "Get into the Revere Courier Services facility.",
+      "Find the van.",
+      "Steal it and finish the job as Regina asks."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
   },
@@ -12788,21 +12739,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     id: 582,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "City Center",
+    region: "Heywood",
     title: "Gig: The Lord Giveth and Taketh Away",
-    location: "City Center – Downtown",
+    location: "Valentinos' auto shop → garage on Russell St, Wellsprings – Heywood",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in City Center: Retrieve compromising evidence from a corpo penthouse.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    summary: "A Padre gig (Street Cred 13): the Valentinos took the Militech SUV the nomads bought. Steal it back.",
+    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
     walkthrough: [
-      "Accept the gig from Sebastian 'Padre' Ibarra and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — retrieving the compromising evidence from the corpo penthouse — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Sebastian 'Padre' Ibarra for the eddies."
+      "Roam Wellsprings at Street Cred 13 for Padre's call.",
+      "Go to the Valentinos' auto shop and find the SUV.",
+      "Get in and escape with it.",
+      "Deliver it to the nomads' garage on Russell St.",
+      "Park it and leave the area."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
   },
@@ -12922,19 +12872,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Dogtown",
     title: "Phantom Liberty Gig: Prototype in the Scraper",
-    location: "Dogtown",
+    location: "The Scraper, Longshore Stacks – Dogtown",
     length: "short",
     difficulty: "High",
     reward: "Rare Militech prototype, payout",
-    summary:
-      "Infiltrate a Dogtown high-rise to secure a stolen Militech prototype.",
-    aiTip:
-      "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
+    summary: "A Mr. Hands gig (after main quest 6): find the signal-emitting Militech prototype in the scav den inside the Scraper — and decide what to do with the prisoner, Hasan.",
+    aiTip: "Vertical, guarded, and trapped — take the rooftop approach and disable cameras.",
     walkthrough: [
-      "Accept the gig from Mr. Hands and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — infiltrating the high-rise to secure the stolen Militech prototype — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Mr. Hands for the eddies."
+      "Go to the Scraper construction site in the Longshore Stacks.",
+      "Enter the scav den inside.",
+      "Find the prototype emitting the signal.",
+      "Talk to the prisoner, Hasan, and help him leave.",
+      "Deposit the schematics in the drop box."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
   },

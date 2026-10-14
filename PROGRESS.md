@@ -271,6 +271,18 @@
   with ≤3 steps are the ones no guide confirmed (listed in the batch notes
   above and in TODO.md).
 
+- **Phase 4 — Cyberpunk 2077 (gigs & cyberpsychos):** 45 entries that
+  shared template steps were checked against guides. The gig data was badly
+  off: many gigs had the wrong district, fixer and objective (e.g. Two Wrongs
+  Makes Us Right is a Pacifica van theft for Mr. Hands, not a Watson car job;
+  Big Pete is a Badlands Dakota gig; Hot Merchandise and Family Heirloom are
+  late Rogue gigs in Heywood/Westbrook; Life's Work is a car recovery, not a
+  sculpture). Regions, locations, summaries and steps fixed; "Gig: Over the
+  Edge" retitled (it's the Edgerunners side job at Megabuilding H4); Lt.
+  Mower moved to Kabuki. Left as is (no guide found): God Bless This Mess
+  (possibly not a real gig), No Fixers, Spy in the Jungle, Waiting for
+  Dodger, and the 4 cyberpsychos with no extra detail.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
