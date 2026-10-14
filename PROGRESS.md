@@ -114,6 +114,11 @@
   collectibles). Data was mostly right; Ninth Sister fight moved to the
   Origin Tree, Oggdo Bogdo to the Bogdo Sinkholes.
 
+- **Black Myth: Wukong:** all 21 video quests got steps (secret bosses, the
+  four Loongs, transformations, chapter finales, true ending). Fixed: Five
+  Element Carts is Chapter 5 (not 3); Loong Scales are behind a breakable
+  wall in the First Rat Prince arena; Drunken Boar summary untangled.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.

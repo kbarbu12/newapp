@@ -973,10 +973,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Fireproof Mantle, Elder Jinchi boss fight",
-    summary:
-      "Find and ring three hidden bells scattered across the three regions of Chapter 1. Ringing the final bell teleports you to a secret Ancient Guanyin Temple where you face Elder Jinchi, a powerful Yaoguai King.",
-    aiTip:
-      "The bells are easy to miss — explore every branching path in each region. Defeating Elder Jinchi rewards the Fireproof Mantle, which is useful for fire-heavy chapters ahead.",
+    summary: "Find and ring three hidden bells scattered across the three regions of Chapter 1. Ringing the final bell teleports you to a secret Ancient Guanyin Temple where you face Elder Jinchi, a powerful Yaoguai King.",
+    aiTip: "The bells are easy to miss — explore every branching path in each region. Defeating Elder Jinchi rewards the Fireproof Mantle, which is useful for fire-heavy chapters ahead.",
+    walkthrough: [
+      "Bell 1: from the Outside the Forest shrine, take the left path over the wooden bridge to Guangzhi's arena — the bell is behind it.",
+      "Bell 2: from the Snake Trail shrine, drop to the river below and head into the Bamboo Grove behind Guangmou.",
+      "Bell 3: after the Whiteclad Noble, take the left path before the big cave.",
+      "Ringing the last bell teleports you to the Ancient Guanyin Temple — defeat Elder Jinchi for the Fireproof Mantle (great against the Black Bear Guai)."
+    ],
     video: "https://www.youtube.com/watch?v=DJMSnXJ6c8M"
   },
 {
@@ -989,10 +993,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Loong Scales, unique boss drops",
-    summary:
-      "A hidden dragon boss lurks behind a waterfall near the Outside of the Forest Shrine. Once you obtain Loong Scales, the waterfall reveals a secret arena for an intense dragon fight.",
-    aiTip:
-      "You need Loong Scales before attempting this. The Red Loong hits extremely hard — learn its attack patterns and dodge toward its hind legs for openings.",
+    summary: "A hidden dragon boss lurks behind a waterfall near the Outside of the Forest Shrine. Once you obtain Loong Scales, the waterfall reveals a secret arena for an intense dragon fight.",
+    aiTip: "You need Loong Scales before attempting this. The Red Loong hits extremely hard — learn its attack patterns and dodge toward its hind legs for openings.",
+    walkthrough: [
+      "Get the Loong Scales in Chapter 2 first.",
+      "Fast-travel back to Chapter 1's Outside the Forest shrine.",
+      "Take the left path to the waterfall in the corner and interact with it.",
+      "Fight the shock-based flying Red Loong — it's much easier around Chapter 4 level."
+    ],
     video: "https://www.youtube.com/watch?v=T4gT29_KTeI"
   },
 {
@@ -1005,10 +1013,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Access to Kingdom of Sahali, Fuban boss fight",
-    summary:
-      "Find the Yellow-Robed Squire hidden behind Rockrest Flat. This drunken boar sends you on a multi-part quest to gather a Sobering Stone, Jade Lotus, and Arhat Gold Piece, unlocking the secret Kingdom of Sahali area and the giant beetle boss Fuban.",
-    aiTip:
-      "The Squire is easy to walk past — check behind buildings in Rockrest Flat. Each fetch item is in a different sub-area of Chapter 2, so explore thoroughly before progressing.",
+    summary: "A drunken boar near Rockrest Flat sends you after a Sobering Stone and a Jade Lotus. Finish his errands, then beat the Yellow-Robed Squire to open Chapter 2's secret area, the Kingdom of Sahali.",
+    aiTip: "The Squire is easy to walk past — check behind buildings in Rockrest Flat. Each fetch item is in a different sub-area of Chapter 2, so explore thoroughly before progressing.",
+    walkthrough: [
+      "Find the drunken boar near the Rockrest Flat shrine in Fright Cliff (avoid the Stone Vanguard path).",
+      "Bring him a Sobering Stone (sold by the Man-in-Stone after his quest).",
+      "Meet him again at Crouching Tiger Temple and give him a Jade Lotus (shrine shops sell it).",
+      "Return to Rockrest Flat and defeat the Yellow-Robed Squire.",
+      "Enter the Kingdom of Sahali and beat its bosses — one rewards the Wind Tamer."
+    ],
     video: "https://www.youtube.com/watch?v=Ei3upXnS4lU"
   },
 {
@@ -1021,10 +1034,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Loong-related upgrade materials",
-    summary:
-      "Another hidden dragon boss found behind a waterfall near the Rockrest Flat Shrine. The Black Loong attacks rhythmically to its own battle music — learning to dodge to the beat is the key to victory.",
-    aiTip:
-      "Listen to the boss music. Its weapon slams follow the beat — jump and dodge in rhythm. Head toward boulders for cover during its ranged attacks.",
+    summary: "Another hidden dragon boss found behind a waterfall near the Rockrest Flat Shrine. The Black Loong attacks rhythmically to its own battle music — learning to dodge to the beat is the key to victory.",
+    aiTip: "Listen to the boss music. Its weapon slams follow the beat — jump and dodge in rhythm. Head toward boulders for cover during its ranged attacks.",
+    walkthrough: [
+      "Get the Loong Scales and finish the Red Loong first (the Loongs go in order).",
+      "From the Rockrest Flat shrine in Fright Cliff, turn right and go up to the waterfall.",
+      "Interact with the waterfall to enter the arena.",
+      "Fight the Black Loong — it may be harder than the Red one."
+    ],
     video: "https://www.youtube.com/watch?v=aws_pIoWkHA"
   },
 {
@@ -1037,10 +1054,14 @@ const quests = [
     length: "short",
     difficulty: "High",
     reward: "Rare crafting materials, Spirit",
-    summary:
-      "Trigger this secret boss by collecting and dropping six Buddha's Eyeballs onto a large rock near the Rockrest Flat Shrine. The massive stone giant has devastating ground-pound attacks.",
-    aiTip:
-      "Target the blue crystals on its fists — that's the weak point. When it slams the ground causing shockwaves, jump into the air to avoid damage.",
+    summary: "Trigger this secret boss by collecting and dropping six Buddha's Eyeballs onto a large rock near the Rockrest Flat Shrine. The massive stone giant has devastating ground-pound attacks.",
+    aiTip: "Target the blue crystals on its fists — that's the weak point. When it slams the ground causing shockwaves, jump into the air to avoid damage.",
+    walkthrough: [
+      "Pluck the six Buddha's Eyeballs from the chanting statue heads around Fright Cliff.",
+      "Defeat the Stone Vanguard at the Rock Clash Platform first (otherwise they fight each other).",
+      "Rest at a shrine and return to the arena.",
+      "Interact with the giant rock on the left to summon Shigandang and defeat it for the Heart of Stone and Skandha of Feeling."
+    ],
     video: "https://www.youtube.com/watch?v=cA1w2eTChGs"
   },
 {
@@ -1053,10 +1074,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Chu-Bai Spearhead, Chu-Bai Spear crafting material",
-    summary:
-      "Discover a prisoner deep within the Pagoda Realm and help them escape captivity. This sprawling side quest introduces unique areas, multiple new bosses, and one of the strongest weapons in the game — the Chu-Bai Spear.",
-    aiTip:
-      "Don't rush through Chapter 3 — the Pagoda Realm is easy to miss. The Chu-Bai Spear is worth the effort and remains viable through endgame.",
+    summary: "A prisoner in a cell at the start of Chapter 3's Pagoda Realm asks for the spirits of four captains. Bring them back for a spearhead and the Ashen Slumber transformation.",
+    aiTip: "Don't rush through Chapter 3 — the Pagoda Realm is easy to miss. The Chu-Bai Spear is worth the effort and remains viable through endgame.",
+    walkthrough: [
+      "Talk to the prisoner in the second cell before the Lower Pagoda shrine.",
+      "Defeat the hidden Captain Lotus-Vision (drop down across from the Upper Pagoda shrine) — this also opens the purple locks.",
+      "Get Captain Wise-Voice's spirit at the Mani Wheel and Captain Kalpa-Wave's at Longevity Road (story bosses).",
+      "Find Captain Void-Illusion's spirit on the colossus corpse to the right of the Longevity Road shrine.",
+      "Return the four spirits for the Chubai Spearhead; the sword nearby teaches Ashen Slumber."
+    ],
     video: "https://www.youtube.com/watch?v=CbFLORHqUXU"
   },
 {
@@ -1065,14 +1091,18 @@ const quests = [
     game: "Black Myth: Wukong",
     chapter: 3,
     title: "The Five Element Carts",
-    location: "Chapter 3 – Woods of Ember",
+    location: "Chapter 5 – Woods of Ember",
     length: "medium",
     difficulty: "Medium",
     reward: "Elemental crafting materials, unique Spirits",
-    summary:
-      "After defeating the Pale-Axe Stalwart in the Woods of Ember, speak with him to trigger a psychedelic quest where you battle five sentient, decorated carts — each representing one of the five elements.",
-    aiTip:
-      "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
+    summary: "Defeat the Pale-Axe Stalwart in Chapter 5's Woods of Ember, then follow him and smash the five Elemental Carts to open the secret Bishui Cave.",
+    aiTip: "Each cart is weak to its opposing element. Switch your spells and equipment between fights for an easier time. The fire cart is the toughest.",
+    walkthrough: [
+      "Defeat the Pale-Axe Stalwart at Woods of Ember: Ashen Pass I and talk to him.",
+      "Follow him as he moves (Ashen Pass cliff's edge, Furnace Valley: Emerald Hall, Field of Fire: Cooling Slope).",
+      "Destroy the five carts: Brown-Iron, Gray-Bronze, Crimson-Silver, Horse Guai and Rusty-Gold.",
+      "Break the ice and trigger the scene in the cave to reach the Bishui Cave secret area."
+    ],
     video: "https://www.youtube.com/watch?v=4c3j5Igj9NQ"
   },
 {
@@ -1085,10 +1115,14 @@ const quests = [
     length: "short",
     difficulty: "High",
     reward: "Smithing upgrades, unique equipment",
-    summary:
-      "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
-    aiTip:
-      "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential.",
+    summary: "Challenge Yin Tiger, a blacksmith at Zodiac Village, to a sparring match. Despite being an optional fight, it's considered one of the hardest boss encounters in the entire game.",
+    aiTip: "Come prepared with your best gear and healing items. Yin Tiger is extremely aggressive with very small dodge windows — patience and perfect timing are essential.",
+    walkthrough: [
+      "In Chapter 3, reach the North Shore of the Bitter Lake and meet Chen Loong.",
+      "Bring him the pill from Xu Dog (Crouching Tiger Temple – Cellar) for the Ruyi Scroll, which takes you to Zodiac Village.",
+      "Find the blacksmith Yin Tiger and challenge him.",
+      "Learn his patterns and win for his sword (Ebon Flow transformation), then talk again for an extra curio slot."
+    ],
     video: "https://www.youtube.com/watch?v=3Z1T0f9f4Vw"
   },
 {
@@ -4380,10 +4414,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Chapter 1 completion, Craving Eyes relic",
-    summary:
-      "The Black Wind King reveals his true form atop Bodhi Peak. A fiery two-phase duel against the giant black bear that closes out Chapter 1.",
-    aiTip:
-      "Save your spells and Wandering Wight spirit for phase two when his arms ignite. Dodge through his charge rather than away — it tracks hard.",
+    summary: "The Black Wind King reveals his true form atop Bodhi Peak. A fiery two-phase duel against the giant black bear that closes out Chapter 1.",
+    aiTip: "Save your spells and Wandering Wight spirit for phase two when his arms ignite. Dodge through his charge rather than away — it tracks hard.",
+    walkthrough: [
+      "Get the Fireproof Mantle from Elder Jinchi (Three Bells secret) to shrug off his burns.",
+      "Climb to Bodhi Peak and face the Black Wind King.",
+      "Phase 1: dodge his spear combos and punish recoveries.",
+      "Phase 2: he becomes the Black Bear Guai — keep moving through the fire and use Immobilize to open windows."
+    ],
     video: "https://www.youtube.com/watch?v=3nrZp3R5dLQ"
   },
 {
@@ -4396,10 +4434,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Chapter 2 completion, Fiery Eyes relic",
-    summary:
-      "The sandstorm-wielding final boss of Yellow Wind Ridge. Wind blades, ground eruptions, and a blinding tornado phase test everything learned so far.",
-    aiTip:
-      "Bring the Wind Tamer vessel — popping it during his tornado phase stuns him for a huge free punish. Stay on his flank to dodge the spear combos.",
+    summary: "The sandstorm-wielding final boss of Yellow Wind Ridge. Wind blades, ground eruptions, and a blinding tornado phase test everything learned so far.",
+    aiTip: "Bring the Wind Tamer vessel — popping it during his tornado phase stuns him for a huge free punish. Stay on his flank to dodge the spear combos.",
+    walkthrough: [
+      "Clear Chapter 2 to the Windseal Gate.",
+      "Get the Wind Tamer from the Kingdom of Sahali secret area — it shuts down his wind attacks.",
+      "Dodge the wind blades and ground eruptions.",
+      "Survive his tornado phase and finish him."
+    ],
     video: "https://www.youtube.com/watch?v=vDZEWXWXyig"
   },
 {
@@ -4412,10 +4454,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Chapter 3 completion, relic upgrade",
-    summary:
-      "The false Buddha of the snowy realm. A marathon three-part finale that pits you against Yellowbrow's illusions and a desperate ally's sacrifice.",
-    aiTip:
-      "Refuse his golden temptation mid-fight — accepting it heals him. Save transformations for the final phase after the Macaque Chief intervenes.",
+    summary: "The false Buddha of the snowy realm. A marathon three-part finale that pits you against Yellowbrow's illusions and a desperate ally's sacrifice.",
+    aiTip: "Refuse his golden temptation mid-fight — accepting it heals him. Save transformations for the final phase after the Macaque Chief intervenes.",
+    walkthrough: [
+      "Reach the Great Pagoda at the end of Chapter 3.",
+      "Fight through Yellowbrow's illusions over the multi-part finale.",
+      "Keep your focus up and dodge his big swings; use Immobilize in openings.",
+      "Finish all three parts to close the chapter."
+    ],
     video: "https://www.youtube.com/watch?v=8zKGKr7rpfk"
   },
 {
@@ -4428,10 +4474,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Chapter 4 completion, relic",
-    summary:
-      "The venomous master of the Webbed Hollow descends. A blinding flurry of golden light beams and poison caps off the spider-infested chapter.",
-    aiTip:
-      "His golden-light eye attacks punish greed — dodge twice, hit once. Poison resistance food and the Pluck of Many transformation carry this fight.",
+    summary: "The venomous master of the Webbed Hollow descends. A blinding flurry of golden light beams and poison caps off the spider-infested chapter.",
+    aiTip: "His golden-light eye attacks punish greed — dodge twice, hit once. Poison resistance food and the Pluck of Many transformation carry this fight.",
+    walkthrough: [
+      "From the Court of Illumination shrine in the Temple of the Yellow Flowers, enter the large open area.",
+      "Clear Purple Cloud Mountain first — its reward helps in this fight.",
+      "Dodge the golden light beams and poison.",
+      "Break through his phases to end Chapter 4."
+    ],
     video: "https://www.youtube.com/watch?v=-EI1MrUzAqY"
   },
 {
@@ -4444,10 +4494,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Chapter 5 completion, relic",
-    summary:
-      "The son of the Bull King unleashes samadhi fire, then transforms into the towering Yaksha King for a brutal second act among the flames.",
-    aiTip:
-      "Use the chapter's fire-warding vessel and keep mid-range — Red Boy's spear lunges are safest to punish. The Yaksha King phase is weak to stagger.",
+    summary: "The son of the Bull King unleashes samadhi fire, then transforms into the towering Yaksha King for a brutal second act among the flames.",
+    aiTip: "Use the chapter's fire-warding vessel and keep mid-range — Red Boy's spear lunges are safest to punish. The Yaksha King phase is weak to stagger.",
+    walkthrough: [
+      "Reach the Field of Fire / Fallen Furnace at the end of Chapter 5.",
+      "Fight Red Boy — dodge the samadhi fire waves.",
+      "He transforms into the Yaksha King for a second act — keep moving and punish his slow slams.",
+      "Win to finish Chapter 5 (the Plantain Fan vessel comes in the chapter rewards)."
+    ],
     video: "https://www.youtube.com/watch?v=s4bat9aKTis"
   },
 {
@@ -4460,10 +4514,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Game completion, both endings",
-    summary:
-      "The journey ends where it began. Atop Mount Huaguo, the Destined One faces the stone echo of Sun Wukong himself in a mirror-match finale.",
-    aiTip:
-      "He fights with your own moveset — treat it like a duel: bait his heavy, dodge the fourth light attack, and spend focus points on staggered punishes.",
+    summary: "The journey ends where it began. Atop Mount Huaguo, the Destined One faces the stone echo of Sun Wukong himself in a mirror-match finale.",
+    aiTip: "He fights with your own moveset — treat it like a duel: bait his heavy, dodge the fourth light attack, and spend focus points on staggered punishes.",
+    walkthrough: [
+      "Recover Sun Wukong's relics in Chapter 6 (four mandatory bosses) and climb Mount Huaguo.",
+      "Face the Great Sage's Broken Shell — he mirrors your own moves.",
+      "Use transformations, spirits and your strongest spells.",
+      "Defeat him for the ending (beat him again after Mount Mei for the true ending)."
+    ],
     video: "https://www.youtube.com/watch?v=S5BuIh6NU5A"
   },
 {
@@ -4476,10 +4534,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Tiger Spirit (one of the best spirit skills)",
-    summary:
-      "Defeat the Tiger's Acolyte for the Old Rattle-Drum, beat it at three shrines across Yellow Wind Ridge, then descend the well to face the sorrowful Mad Tiger.",
-    aiTip:
-      "Beat the drum at the three marked spots in order, then drop into the Windrest Hamlet well. The Mad Tiger parries often — delay your combo finishers.",
+    summary: "Defeat the Tiger's Acolyte for the Old Rattle-Drum, beat it at three shrines across Yellow Wind Ridge, then descend the well to face the sorrowful Mad Tiger.",
+    aiTip: "Beat the drum at the three marked spots in order, then drop into the Windrest Hamlet well. The Mad Tiger parries often — delay your combo finishers.",
+    walkthrough: [
+      "Defeat the Tiger Vanguard, then the Tiger's Acolyte on the bridge past the Windrest Hamlet shrine for the Old Rattle-Drum.",
+      "Shake the drum at the three spots: near Windseal Gate, in Windrest Hamlet and in Sandgate Village.",
+      "After the last cutscene, jump into the well.",
+      "At the Bottom of the Well, face the Mad Tiger."
+    ],
     video: "https://www.youtube.com/watch?v=H3ZAONSUVyQ"
   },
 {
@@ -4492,10 +4554,14 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Deathstinger weapon material, secret-area completion",
-    summary:
-      "Hidden in Chapter 4's secret area, the courteous Scorpionlord duels you among the peach blossoms. Miss him before facing Duskveil and he's gone forever.",
-    aiTip:
-      "You must defeat Venom Daoist twice earlier in the chapter to open Purple Cloud Mountain. Fight the Scorpionlord BEFORE Duskveil or he vanishes permanently.",
+    summary: "Hidden in Chapter 4's secret area, the courteous Scorpionlord duels you among the peach blossoms. Miss him before facing Duskveil and he's gone forever.",
+    aiTip: "You must defeat Venom Daoist twice earlier in the chapter to open Purple Cloud Mountain. Fight the Scorpionlord BEFORE Duskveil or he vanishes permanently.",
+    walkthrough: [
+      "In Chapter 4's Webbed Hollow, find and fight the Venom Daoist twice and break the cocoon.",
+      "Enter Purple Cloud Mountain (via the mural in the Temple of the Yellow Flowers).",
+      "Find the courteous Scorpionlord among the peach blossoms and duel him.",
+      "Clear the area's other bosses (Daoist Mi, the Duskveil) before Chapter 4's finale."
+    ],
     video: "https://www.youtube.com/watch?v=KOBHv03ztck"
   },
 {
@@ -4508,10 +4574,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Azure Dust transformation (stone form)",
-    summary:
-      "Help the Man-in-Stone buried in a Fright Cliff ravine: defeat the Mother of Stones, return his Stone Essence, then beat him in a duel to earn the rock-solid Azure Dust transformation.",
-    aiTip:
-      "The Man-in-Stone is hidden past Squall Hideout between two rock guai. Azure Dust also doubles as a wall-breaker for reaching the Loong Scales secret.",
+    summary: "Help the Man-in-Stone buried in a Fright Cliff ravine: defeat the Mother of Stones, return his Stone Essence, then beat him in a duel to earn the rock-solid Azure Dust transformation.",
+    aiTip: "The Man-in-Stone is hidden past Squall Hideout between two rock guai. Azure Dust also doubles as a wall-breaker for reaching the Loong Scales secret.",
+    walkthrough: [
+      "Talk to the Man-in-Stone near the Squall Hideout shrine in Fright Cliff.",
+      "Go to the Rockrest Flat shrine, enter the cave and climb to the large room with the blue crystal rock.",
+      "Defeat the Mother of Stones (clear her rock minions) for the Stone Essence.",
+      "Give it to the Man-in-Stone, then beat him when he turns hostile for the Azure Dust transformation."
+    ],
     video: "https://www.youtube.com/watch?v=pYScnK8bA04"
   },
 {
@@ -4520,14 +4590,18 @@ const quests = [
     game: "Black Myth: Wukong",
     chapter: 2,
     title: "Obtain the Loong Scales",
-    location: "Chapter 2 – Village of Despair cave",
+    location: "Chapter 2 – Sandgate Village (First Rat Prince arena)",
     length: "short",
     difficulty: "Medium",
     reward: "Loong Scales key item — unlocks all hidden dragon bosses",
-    summary:
-      "A hidden key item behind a destructible wall in the Sandgate caves. The Loong Scales open the way to the Red, Black, and Cyan Loong secret fights across the game.",
-    aiTip:
-      "Break the cracked wall near the First Prince of Flowing Sands arena using the Wandering Wight spirit or Azure Dust transformation, then grab the golden chest.",
+    summary: "A hidden key item behind a destructible wall in the Sandgate caves. The Loong Scales open the way to the Red, Black, and Cyan Loong secret fights across the game.",
+    aiTip: "Break the cracked wall near the First Prince of Flowing Sands arena using the Wandering Wight spirit or Azure Dust transformation, then grab the golden chest.",
+    walkthrough: [
+      "Fast-travel to the Valley of Despair shrine in Sandgate Village.",
+      "Go to the arena where you fought the First Rat Prince.",
+      "Break the wall with the Wandering Wight spirit's headbutt (or let the Rat Prince ram it).",
+      "Open the chest behind it for the Loong Scales — they're not consumed."
+    ],
     video: "https://www.youtube.com/watch?v=lSOI9seMoQ4"
   },
 {
@@ -4540,10 +4614,15 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Golden Lining dragon transformation",
-    summary:
-      "The dragon-slayer's reward: collect the Loong Scales, defeat the Red, Black, and Cyan Loongs, then bring down the Yellow Loong in Chapter 4 to claim the game's hidden dragon transformation.",
-    aiTip:
-      "Do the three lesser Loongs as you pass through their chapters — going back later means re-clearing paths. Golden Lining's counterstance rewards aggressive timing.",
+    summary: "The dragon-slayer's reward: collect the Loong Scales, defeat the Red, Black, and Cyan Loongs, then bring down the Yellow Loong in Chapter 4 to claim the game's hidden dragon transformation.",
+    aiTip: "Do the three lesser Loongs as you pass through their chapters — going back later means re-clearing paths. Golden Lining's counterstance rewards aggressive timing.",
+    walkthrough: [
+      "Get the Loong Scales (Chapter 2).",
+      "Defeat the Red Loong (Chapter 1 waterfall) and the Black Loong (Chapter 2 waterfall).",
+      "Defeat the Cyan Loong frozen on the edge of Turtle Island in Chapter 3's Bitter Lake.",
+      "With all three down, find the Yellow Loong near the Relief of the Fallen Loong shrine in Webbed Hollow (Chapter 4).",
+      "Defeat it and take its staff for the Golden Lining transformation."
+    ],
     video: "https://www.youtube.com/watch?v=kTFKuaPsILs"
   },
 {
@@ -4552,14 +4631,18 @@ const quests = [
     game: "Black Myth: Wukong",
     chapter: 5,
     title: "The Plantain Fan",
-    location: "Chapter 5 – Bishui Cave / chapter finale",
+    location: "Chapter 5 – chapter finale rewards",
     length: "medium",
     difficulty: "Medium",
     reward: "Plantain Fan vessel (tornado + stamina regen)",
-    summary:
-      "The legendary fan of Princess Iron Fan, earned through the events of Chapter 5. Its conjured tornado immobilizes groups and its passive boosts stamina recovery for the endgame.",
-    aiTip:
-      "Complete the Five Element Carts quest for the Bishui Cave secret area first — its rewards plus the Fan make Chapter 6's gauntlet dramatically easier.",
+    summary: "The legendary fan of Princess Iron Fan, earned through the events of Chapter 5. Its conjured tornado immobilizes groups and its passive boosts stamina recovery for the endgame.",
+    aiTip: "Complete the Five Element Carts quest for the Bishui Cave secret area first — its rewards plus the Fan make Chapter 6's gauntlet dramatically easier.",
+    walkthrough: [
+      "Play through Chapter 5's story.",
+      "Defeat Red Boy and the Yaksha King at the chapter's end.",
+      "Collect the Plantain Fan vessel from the post-chapter rewards.",
+      "Use its tornado from the start of Chapter 6."
+    ],
     video: "https://www.youtube.com/watch?v=AVGVPesMlks"
   },
 {
@@ -4572,10 +4655,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "True ending, Erlang Shen superboss, Sacred Divinity fight",
-    summary:
-      "The ultimate secret: clear the hidden areas of Chapters 1–5 and the Treasure Hunter quest, then enter the Great Pagoda mural to face Erlang Shen and the Four Heavenly Kings — unlocking the game's true ending.",
-    aiTip:
-      "Erlang's stance meter must be broken before he takes real damage, and it refreshes at health thresholds. This is widely considered the hardest fight in the game — level fully first.",
+    summary: "The ultimate secret: clear the hidden areas of Chapters 1–5 and the Treasure Hunter quest, then enter the Great Pagoda mural to face Erlang Shen and the Four Heavenly Kings — unlocking the game's true ending.",
+    aiTip: "Erlang's stance meter must be broken before he takes real damage, and it refreshes at health thresholds. This is widely considered the hardest fight in the game — level fully first.",
+    walkthrough: [
+      "Clear the secret areas of Chapters 1, 2, 4 and 5 and finish the Chapter 3 Treasure Hunter quest (it ends at the Melon Field shrine against the Green-Capped Martialartist).",
+      "Climb the Great Pagoda in Chapter 3 and meet the Treasure Hunter NPC to open Mount Mei.",
+      "Defeat Erlang, the Sacred Divinity, then the Four Heavenly Kings, then the transformed Erlang Shen.",
+      "Beat the Great Sage's Broken Shell again for the true ending."
+    ],
     video: "https://www.youtube.com/watch?v=ael32jxy3EU"
   },
 {
