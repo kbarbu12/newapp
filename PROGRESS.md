@@ -232,6 +232,18 @@
   Coin, Sweet Tooth, Tastes like Chicken, Rightful King, Prophecy Prevention,
   Rock and Roll.
 
+- **Phase 3 — AC Odyssey batch 5 (island side quests):** 15 quests got
+  guide-sourced steps — Roxana's training (Hydrea), Kyra/Thaletas on
+  Mykonos, Markos on Kos, Gotarzes on Lestris, Civil Unrest / Myths and
+  Minotaurs / It's Complicated / Kretan Bull on Crete, Diona and the
+  Krokottas Hyena on Kythera, Chip on Your Shoulder on Chios. Three
+  "Romance-flagged…" placeholder summaries replaced. Left as is (no guide
+  found): Recruitment Drive, We're Treasure Hunters, Foot Race, Call to Arms
+  & The Great Contender, Say That Again!, Flowers for the Dead, Gortyn Out of
+  Hand, Revenge Served Cold, Minotour de Force, Idiot Hunt, Shroud of the
+  Bear, Son of a Fisherman, Tough Love, Have You Seen My Mikkos?, Clothes
+  Make the Daughter, Hostage Situation.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,

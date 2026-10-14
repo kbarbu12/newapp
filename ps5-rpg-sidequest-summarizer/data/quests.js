@@ -45240,9 +45240,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "A support quest on Lestris: Captain Gotarzes faces a mutiny. Protect him and bring him back to Xenia.",
     aiTip: "Gotarzes is outnumbered by his mutinous crew on Lestris — kill the mutineers quickly before they kill him.",
     walkthrough: [
-      "Accept Red in the Wreckage to unlock the quest.",
-      "Find Captain Gotarzes on Lestris and defend him from the mutinous crew.",
-      "Escort him back to Xenia."
+      "Accept Red in the Wreckage on Lestris (recover the six miltos crates) to unlock the quest.",
+      "Find Captain Gotarzes on Lestris.",
+      "Defend him from his mutinous crew.",
+      "Take him aboard and dock at Keos (he won't leave the ship elsewhere).",
+      "Escort him to Xenia."
     ],
     video: "https://www.youtube.com/watch?v=sGBdqTJWcPo"
   },
@@ -45486,10 +45488,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP; first step to recruiting Roxana",
-    summary: "Romance-flagged side quest introducing the Roxana companion storyline.",
-    aiTip: "Flirt with Roxana during her training quests if you want to recruit her instead of fighting her to the death later.",
+    summary: "Roxana, the champion-to-be of the Obsidian Islands, wants to test you before the Great Contender games. Spar with her on Hydrea — it's the first of her three training sessions.",
+    aiTip: "Dodge her attacks, break her shield with Shield Breaker, then follow with Hero Strike. Finish all three trainings (and flirt) if you want to talk her down in the final duel instead of killing her.",
     walkthrough: [
-      "Romance-flagged side quest introducing the Roxana companion storyline."
+      "Find Roxana on Hydrea (before or after meeting Drakios on Melos).",
+      "Accept her sparring challenge.",
+      "Dodge her attacks and break her shield with Shield Breaker.",
+      "Follow up with Hero Strike until she yields.",
+      "Flirt in the dialogue if you want her romance — Archery Practice and Foot Race follow."
     ],
     video: "https://www.youtube.com/watch?v=A0fU7EmQUgA"
   },
@@ -45604,12 +45610,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP; advances Kyra's romance",
-    summary: "Kyra invites you to a hunt on Mykonos, starting at the Altar of Artemis.",
-    aiTip: "Use your bow on the goats — this hunt is part of Kyra's storyline, so stay with her.",
+    summary: "Kyra invites you to hunt with her on Mykonos, starting at the Altar of Artemis. Taking her up on it leads to romance — and locks Thaletas out.",
+    aiTip: "Needs The Fury of Kyra and Sad Hearts and Stolen Silver done first. It blocks Thaletas's Hearts of War, and sleeping with Kyra leads to a duel with Thaletas in A Night to Remember.",
     walkthrough: [
+      "Finish The Fury of Kyra and Sad Hearts and Stolen Silver.",
       "Talk to Kyra in the rebel cave on Mykonos.",
       "Meet her at the Altar of Artemis.",
-      "Follow her to the hunting grounds and shoot the goats with your bow."
+      "Follow her to the hunting grounds and shoot the goats with your bow.",
+      "Choose whether to take the romance further."
     ],
     video: "https://www.youtube.com/watch?v=pr3_dn94uBs"
   },
@@ -45624,10 +45632,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP; starts Thaletas's storyline",
-    summary: "Romance-flagged side quest introducing the Thaletas companion storyline.",
-    aiTip: "Thaletas leads you into Call to Arms on Delos. Keep him alive and on side if you want him as a lieutenant or romance later.",
+    summary: "Thaletas, the Spartan commander on Mykonos, tests you at sea: sink three Athenian ships with blue sails between Delos and Mykonos.",
+    aiTip: "Pick Thaletas's plans throughout the Mykonos quests if you want his romance (it rules out Kyra's).",
     walkthrough: [
-      "Romance-flagged side quest introducing the Thaletas companion storyline."
+      "Talk to Thaletas on Mykonos.",
+      "Sail into the waters between Delos and Mykonos.",
+      "Find the three Athenian ships with blue sails.",
+      "Sink all three.",
+      "Return to Thaletas — Paint the Sand Red follows."
     ],
     video: "https://www.youtube.com/watch?v=bOOMX76YUbk"
   },
@@ -45646,7 +45658,9 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     aiTip: "You can spare the polemarch Neokles and recruit him as a crew lieutenant instead of killing him.",
     walkthrough: [
       "Complete The Thaletas Way, then talk to Thaletas.",
-      "Track down the three Athenian polemarchs on his list across the Delos islands. You can spare Neokles and recruit him as a crew member instead.",
+      "Kill the polemarch in the Leleger military camp (easiest at night).",
+      "Kill the polemarch in the Suenites quarry.",
+      "Deal with Neokles in south-east Delos — kill him or spare and recruit him.",
       "Return to Thaletas on Delos."
     ],
     video: "https://www.youtube.com/watch?v=tceuXvNh_W8"
@@ -45665,9 +45679,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "Markos turns up on Kos, locked in a cage at Artemisia Fort, and needs you to get him out.",
     aiTip: "Artemisia Fort on Kos is guarded — clear the area before freeing Markos, because you have to carry him home.",
     walkthrough: [
-      "Go to Artemisia Fort in the Highlands of Asklepiades on Kos.",
+      "Go to Artemisia Fort in the Highlands of Asklepiades on Kos (level 27).",
+      "Clear or sneak past the guards.",
       "Find Markos in his cage and free him.",
-      "Carry him home to complete the quest."
+      "Carry him out of the fort and home to complete the quest."
     ],
     video: "https://www.youtube.com/watch?v=OnOPwPFISRo"
   },
@@ -45705,8 +45720,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "Markos expects the Cerberus brothers to come after him, so he asks you to distract them by burning their farm.",
     aiTip: "Use fire arrows or a torch on the three grain silos from cover to burn them without alerting the whole farm.",
     walkthrough: [
-      "Complete Old Friends, Old Problems to unlock the quest.",
-      "Destroy the Cerberus brothers' three grain silos to draw them away from Markos."
+      "Complete Old Friends, Old Problems, then talk to Markos.",
+      "Go to the Cerberus brothers' farm.",
+      "Set the three grain silos alight with a fire arrow or torch — back off before they explode.",
+      "Return to Markos — Markos's Fate follows."
     ],
     video: "https://www.youtube.com/watch?v=Ol1id-K6u0Q"
   },
@@ -45724,9 +45741,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "In Kydonia, merchants are clashing with soldiers over taxes. Defuse three tense standoffs, then deal with Diokles and his men.",
     aiTip: "You can talk the soldiers down at each standoff, but a surprise attack is quicker. Save your strength for Diokles and his men.",
     walkthrough: [
-      "Talk to the civilian in Kydonia about the tax dispute.",
-      "Calm the three tense spots around the city. You can talk the soldiers down, but attacking them by surprise is easiest.",
-      "Confront Diokles and his men at the marked location to finish the quest."
+      "Talk to the civilian in Kydonia about the tax dispute (level 50).",
+      "Defuse the trouble at the agora.",
+      "Defuse the eastern market and the docks — talk the soldiers down or surprise-attack them.",
+      "Kill Captain Diokles and his men to finish the quest."
     ],
     video: "https://www.youtube.com/watch?v=ydPgbo8dhvc"
   },
@@ -45826,9 +45844,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "At Knossos, a boy named Ardos says his father went into the Labyrinth of Lost Souls to hunt the Minotaur. This starts the path to the Minotaur.",
     aiTip: "This opens a long chain. You'll need a key to go further, which comes from the next quest, Minotaurs and People.",
     walkthrough: [
-      "Go to Knossos Palace in the Minos's Legacy area of Messara.",
+      "Go to Knossos Palace near Messara's eastern border (level 30).",
       "Talk to Ardos about his missing father.",
-      "Follow him to the labyrinth entrance. You need a key to go further, which unlocks the next quest."
+      "Follow him to the labyrinth entrance — you need a key to go further.",
+      "Do Ardos's three follow-ups: Blood in the Water, Full Circle and Recollections.",
+      "Enter the Labyrinth of Lost Souls and face the Minotaur."
     ],
     video: "https://www.youtube.com/watch?v=5UXxHwzXo_A"
   },
@@ -45910,9 +45930,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "A note on a dead man in Zeus's Playground leads to a shepherd's hut and a plea to rescue a woman held in Kydonia.",
     aiTip: "Read the note on the dead man in Zeus's Playground to start. The wife is held in her own home in Kydonia — clear the guards quietly.",
     walkthrough: [
-      "Read the note on the dead man in Zeus's Playground.",
-      "Follow the trail to the shepherd's hut and talk to the contact there.",
-      "Rescue his wife from her home in Kydonia. The reward includes the Dagger of Messara."
+      "Read the note on the dead man by the stream in Zeus's Playground (level 28).",
+      "Go to the shepherd's hut — climb the rocks to slip in behind the guards, or fight them.",
+      "Talk to the contact in the hut.",
+      "Go to Kydonia and kill the three soldiers outside his wife's home.",
+      "Rescue her — the reward includes the Dagger of Messara."
     ],
     video: "https://www.youtube.com/watch?v=fwVpKlJX_hk"
   },
@@ -46071,10 +46093,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "XP; leads to the Diona cultist questline",
-    summary: "Romance-flagged side quest introducing the Diona companion storyline.",
+    summary: "On Kythera (recommended level 42), help a woman named Diona fend off bandits — the start of her storyline, a possible romance, and a lead on the Cult.",
     aiTip: "Diona's story continues into By the Fates — pay attention to who is who, as the choice there is easy to get wrong.",
     walkthrough: [
-      "Romance-flagged side quest introducing the Diona companion storyline."
+      "Sail to Kythera (level 42 recommended).",
+      "Help Diona against the bandits near the island's centre.",
+      "Talk to her and take on her requests.",
+      "Do her follow-ups: Pick Your Poison, All Bonds Will Break, The Handmaiden Story and In a Rush.",
+      "By the Fates follows at the Altar of Aphrodite."
     ],
     video: "https://www.youtube.com/watch?v=CRF_bss9Awc"
   },
@@ -46113,9 +46139,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "A Cult of Kosmos follow-up to I, Diona on Kythera: pick the right woman to kill.",
     aiTip: "Pick the woman on the right. Choosing the left one kills the Priestess, loses the clue and means fighting the real Diona and her guards.",
     walkthrough: [
-      "Complete I, Diona to unlock the quest.",
-      "When asked to choose whom to kill, pick the woman on the right. Choosing the left one kills the Priestess, loses a clue about the cult, and means fighting the real Diona and her guards.",
-      "Talk to Eritha, who gives you a clue to another cult member."
+      "Complete I, Diona and her follow-ups.",
+      "Go to the Altar of Aphrodite.",
+      "Learn that Diona has a twin sister.",
+      "When asked whom to kill, pick the woman on the right — the wrong choice loses a cult clue and means fighting the real Diona and her guards.",
+      "Talk to Eritha for a clue to another cult member."
     ],
     video: "https://www.youtube.com/watch?v=JDGl9UFD7QI"
   },
@@ -46603,8 +46631,10 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "A lumber merchant in Chios city hires you to kill a leader accused of plundering the islands' resources for himself.",
     aiTip: "Kodros the Bull is a cultist and well guarded — check your Cultist menu and come at a matching level.",
     walkthrough: [
-      "Talk to the lumber merchant in Chios city.",
-      "Find and kill Kodros the Bull, the leader and a cultist."
+      "Talk to the lumber merchant in Chios city (level 50).",
+      "Learn that the leader, Kodros the Bull, is plundering the islands.",
+      "Find Kodros the Bull — he's also a cultist.",
+      "Kill him and return to the merchant."
     ],
     video: "https://www.youtube.com/watch?v=BLTOtnYisRw"
   },
@@ -47916,16 +47946,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
     title: "The Kretan Bull",
-    location: "Messara",
+    location: "Fertile Battleground (central Messara), Crete",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "Referencing the Cretan Bull of the Twelve Labors of Herakles.",
+    summary: "One of Daphnae's legendary hunts: the Kretan Bull charges across the Fertile Battleground in the middle of Messara (recommended level 33–42).",
     aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
     walkthrough: [
-      "Travel to the beast's lair in Messara and approach on foot (a mount can bolt during the fight).",
-      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
-      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+      "Take the hunt from Daphnae (Daughters of Artemis).",
+      "Go to the Fertile Battleground in central Messara on foot.",
+      "Bait its charges and dodge sideways, striking in the recovery windows.",
+      "Kill it and bring its pelt to Daphnae."
     ],
     video: "https://www.youtube.com/watch?v=FZ9ftyVEI7Q"
   },
@@ -47936,16 +47967,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Kythera Island",
     title: "The Krokottas Hyena",
-    location: "Kythera Island",
+    location: "Skandeia Bay (south shore), Kythera",
     length: "medium",
     difficulty: "High",
     reward: "A guaranteed Legendary gear piece and high-tier crafting materials; part of the 'Seven Beasts' hunts.",
-    summary: "A legendary hyena-like beast hunt.",
+    summary: "One of Daphnae's legendary hunts: the level-39 Krokottas Hyena by the southern shore of Kythera's Skandeia Bay.",
     aiTip: "Fight beasts on open ground where you can dodge charges and reposition. Fire and poison engravings, plus a strong bow for the opening volley, shorten these fights dramatically. Come within a level or two of the beast's rating.",
     walkthrough: [
-      "Travel to the beast's lair in Kythera Island and approach on foot (a mount can bolt during the fight).",
-      "Open with a charged predator-bow shot, then bait and dodge its charge/lunge attacks, striking during the recovery windows.",
-      "Whittle its health while managing status effects, then finish it and loot the guaranteed Legendary reward."
+      "Take the hunt from Daphnae.",
+      "Sail to Kythera and go to Skandeia Bay on the south shore.",
+      "Fight the Krokottas Hyena, dodging its lunges.",
+      "Bring its pelt to Daphnae."
     ],
     video: "https://www.youtube.com/watch?v=qaXyPXvZG3c"
   },
