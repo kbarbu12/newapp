@@ -350,6 +350,13 @@
   Impaling the Seax (Ealhferth, in the church). **Phase 4 complete** —
   everything unconfirmed is listed in the batch notes above and in TODO.md.
 
+- **Ghost of Yōtei — 12 bounties de-invented (owner's call):** their steps
+  and tips described precise mechanics no guide confirms; replaced with plain
+  steps (poster → clues/Kojiro → scout → defeat → reward), keeping only
+  confirmed facts (Black Powder Ippei needs Muneji the Bone Crusher first;
+  Junpei appears after freeing the prisoner in a north Tokachi cave; Iwa is
+  at Benten Port). TODO item removed.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
