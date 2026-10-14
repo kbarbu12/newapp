@@ -1478,14 +1478,19 @@ const quests = [
     category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "A Teacher Maid to Suffer",
-    location: "Path of Adyeshach, Mementos",
+    location: "Chemdah Area 7, Mementos",
     length: "medium",
     difficulty: "Medium",
     reward: "Unlocks Temperance Confidant Rank 9 (Kawakami)",
-    summary:
-      "Kawakami's exploitative former employers must have their hearts changed in Mementos. This request unlocks after reaching Rank 8 with the Temperance Confidant and is required to continue her storyline.",
-    aiTip:
-      "Prioritize this request quickly after unlocking it. Maxing Kawakami lets you do activities after infiltrating Palaces, one of the best abilities in the game.",
+    summary: "Kawakami is being blackmailed by the Takase couple, the parents of a former student, who extort money from her. Change their hearts in Mementos so she can move on.",
+    aiTip: "Target Ms. Takase first — she heals. Use Fire on her, then Psy on Mr. Takase. Maxing Kawakami lets you do activities after infiltrating Palaces.",
+    walkthrough: [
+      "Reach Temperance Rank 8 with Kawakami.",
+      "Answer her call to the guidance office at school to receive the request.",
+      "Go to Mementos, Chemdah Area 7.",
+      "Defeat Ms. Takase first (Fire), then Mr. Takase (Psy).",
+      "Return to Kawakami to continue her Confidant."
+    ],
     video: "https://www.youtube.com/watch?v=4ewz8qCh2rg"
   },
 {
@@ -1494,14 +1499,19 @@ const quests = [
     category: "Mementos Requests",
     game: "Persona 5 Royal",
     title: "Winners Don't Use Cheats",
-    location: "Path of Chemdah, Mementos",
+    location: "Akzeriyyuth Area 5, Mementos",
     length: "medium",
     difficulty: "Medium",
-    reward: "Unlocks Tower Confidant (Shinya Oda)",
-    summary:
-      "Mishima reports a kid terrorizing an arcade with impossible win streaks. The target Shadow Nejima evades all attacks on the first encounter, forcing you to return with help from Shinya Oda.",
-    aiTip:
-      "You cannot defeat this target on your first visit. Progress Shinya's Confidant to learn Down Shot, then return to Mementos to land your hits.",
+    reward: "Null Phys skill card; starts Tower Confidant (Shinya)",
+    summary: "An arcade cheater, Nejima, is ruining games for kids in Akihabara. His Shadow can't be hit at first — you'll need Shinya Oda's help to learn Down Shot before you can change his heart.",
+    aiTip: "The first fight ends automatically after three turns. Once you have Down Shot, open with it and finish with an All-Out Attack. Recommended level 35+.",
+    walkthrough: [
+      "From 9/14, take the request and meet Shinya to start the Tower Confidant.",
+      "Fight Nejima in Akzeriyyuth Area 5 — it ends after three turns.",
+      "Talk to Shinya at the Akihabara Game Center, then have Futaba hack the game's site at LeBlanc.",
+      "Return to Shinya to learn Down Shot.",
+      "Fight Nejima again: Down Shot, then an All-Out Attack."
+    ],
     video: "https://www.youtube.com/watch?v=uB7YvEUtwxM"
   },
 {
@@ -1513,11 +1523,15 @@ const quests = [
     location: "Path of Aiyatsbus, Mementos",
     length: "short",
     difficulty: "Low",
-    reward: "Protein, Moon Confidant progression",
-    summary:
-      "After dealing with a school bully in a prior request, Mishima discovers a master bully coercing others into tormenting students. Eavesdrop at the school gate to identify the target before heading to Mementos.",
-    aiTip:
-      "Shadow Sakoda is weak to Bless skills. Equip a Persona with Bless affinity and use ailment-inflicting skills to gain Technical damage bonuses.",
+    reward: "Evil Snow Crystal; Moon Confidant progress",
+    summary: "After The Bark and Bite of a Bully, Mishima finds there's a master bully pulling the strings. Eavesdrop at the school gate to learn it's Sakoda, then take down his Shadow in Mementos.",
+    aiTip: "Shadow Sakoda (a Black Frost) is weak to Bless. Recommended level 21+.",
+    walkthrough: [
+      "Complete The Bark and Bite of a Bully and reach Moon Rank 3 with Mishima.",
+      "Listen to Takanashi and Sakoda near the school gate to learn the master bully's name.",
+      "Go to Mementos, Aiyatsbus Area 5.",
+      "Defeat Shadow Sakoda with Bless attacks."
+    ],
     video: "https://www.youtube.com/watch?v=QiqnGBceMnQ"
   },
 {
@@ -2387,14 +2401,19 @@ const quests = [
     category: "Confidants",
     game: "Persona 5 Royal",
     title: "Akechi's Confidant (Justice)",
-    location: "Kichijoji",
+    location: "Kichijoji / Mementos",
     length: "long",
     difficulty: "Low",
     reward: "Third semester content, story revelations, powerful abilities",
-    summary:
-      "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
-    aiTip:
-      "Reach Rank 8 by November 17th alongside Maruki. Akechi respects honesty — choose blunt, confrontational dialogue options for the best affinity gains.",
+    summary: "Spend time with the detective prince Goro Akechi, your rival and intellectual equal. His Royal Confidant adds crucial scenes to the third semester and recontextualizes his entire character arc.",
+    aiTip: "Reach Rank 8 by 11/17 — ranks 9 and 10 then come automatically. Rank 3 needs level 3 Knowledge and Charm, Rank 7 needs level 4 Knowledge. Rank 8 is a fight with Akechi in Mementos.",
+    walkthrough: [
+      "Akechi's Justice Confidant starts through the story.",
+      "Hang out with him when he's available (Kichijoji in Royal).",
+      "Raise Knowledge and Charm to 3 for Rank 3, and Knowledge to 4 for Rank 7.",
+      "Rank 8: fight Akechi in Mementos.",
+      "Reach Rank 8 by 11/17 so ranks 9–10 unlock in the third semester."
+    ],
     video: "https://www.youtube.com/watch?v=FdLgyv7Zmaw"
   },
 {
@@ -2402,15 +2421,19 @@ const quests = [
     type: "side",
     category: "Mementos Requests",
     game: "Persona 5 Royal",
-    title: "Mementos Mission: The Killer Who Cleans Up",
-    location: "Path of Da'at, Mementos",
+    title: "Mementos Mission: The Killer Who Cleans Up Trash",
+    location: "Akzeriyyuth Area 12, Mementos",
     length: "medium",
     difficulty: "High",
-    reward: "Massive XP, unlocks Empress Confidant progression",
-    summary:
-      "Target a dangerous serial killer hiding deep in Mementos who has been eliminating witnesses. One of the more challenging Mementos requests featuring a Shadow with powerful instant-kill abilities.",
-    aiTip:
-      "Equip accessories that null or resist Curse and Bless — the Shadow spams Hamaon and Mudoon. Technical damage from status effects is the fastest way to win.",
+    reward: "High Counter skill card",
+    summary: "A late-game request: Yohei Kiritani has been 'cleaning up trash' by killing people. His Shadow, a Rakshasa, waits deep in Mementos.",
+    aiTip: "He has no elemental weaknesses — just hit hard. Use Tarunda against his physical attacks and cure Confusion fast after Mind Slice. Recommended level 50+.",
+    walkthrough: [
+      "Accept the request once it appears in the Phan-Site.",
+      "Go to Mementos, Akzeriyyuth Area 12.",
+      "Prepare Tarunda and confusion cures.",
+      "Defeat Shadow Kiritani (Rakshasa) with raw damage."
+    ],
     video: "https://www.youtube.com/watch?v=bhECGheHrKc"
   },
 {
@@ -3681,14 +3704,19 @@ const quests = [
     category: "Confidants",
     game: "Persona 5 Royal",
     title: "Ryuji's Confidant (Chariot)",
-    location: "Shibuya / Track Field",
+    location: "Shujin Academy / Shibuya",
     length: "long",
     difficulty: "Low",
-    reward: "Ryuji abilities, Charge skill, baton pass upgrades",
-    summary:
-      "Rebuild Ryuji's relationship with his old track team after an injury derailed his athletic career. His Confidant explores themes of friendship, regret, and moving forward — and his ultimate ability Captain Kidd's upgrade is invaluable.",
-    aiTip:
-      "Rank up Ryuji's Confidant as early as possible — his Baton Pass upgrade lets him transfer turn momentum to other party members, one of the most powerful mechanics in the game.",
+    reward: "Insta-Kill, Endure, Protect, Harisen Recovery; Ryuji's Second Awakening at Rank 10",
+    summary: "Rebuild Ryuji's relationship with his old track team after an injury derailed his athletic career. His Confidant explores themes of friendship, regret, and moving forward — and his ultimate ability Captain Kidd's upgrade is invaluable.",
+    aiTip: "Rank 7 is date-locked — Ryuji calls on specific evenings, so answer when he does. Insta-Kill (Rank 7), Endure (Rank 8) and Protect (Rank 9) are the standout abilities.",
+    walkthrough: [
+      "The Chariot Confidant starts with the story on 4/12.",
+      "Hang out with Ryuji when he's free; bring a Chariot Persona for bonus points.",
+      "Follow his story with the old track team and the injury Kamoshida caused.",
+      "Answer his evening call for the date-locked Rank 7.",
+      "Reach Rank 10 for his Second Awakening."
+    ],
     video: "https://www.youtube.com/watch?v=YdyzsLtsYjQ"
   },
 {
@@ -3700,11 +3728,16 @@ const quests = [
     location: "Shibuya / Various",
     length: "long",
     difficulty: "Low",
-    reward: "Ann abilities, Charm attribute growth, healing upgrades",
-    summary:
-      "Support Ann Takamaki as she pursues modelling and grapples with how she's perceived by others. Her Confidant explores self-worth and authenticity, and her support skills become some of the most useful healing abilities in the game.",
-    aiTip:
-      "Ann's insta-cure status effect ability at higher Confidant ranks is incredibly useful in late-game Palaces where status ailments become frequent. Prioritise it mid-game.",
+    reward: "Girl Talk, Follow Up, Harisen Recovery; Hecate at Rank 10",
+    summary: "Support Ann Takamaki as she pursues modelling and grapples with how she's perceived by others. Her Confidant explores self-worth and authenticity, and her support skills become some of the most useful healing abilities in the game.",
+    aiTip: "Rank 2 needs the Kindness stat at 'Considerate'. Harisen Recovery (Rank 6) cures party ailments — useful in late Palaces. Carry a Lovers Persona for bonus points.",
+    walkthrough: [
+      "The Lovers Confidant starts with the story on 4/15.",
+      "Raise Kindness to 'Considerate' for Rank 2.",
+      "Hang out with Ann as she works on modelling.",
+      "Rank 6 unlocks Harisen Recovery.",
+      "Reach Rank 10 for her Second Awakening, Hecate."
+    ],
     video: "https://www.youtube.com/watch?v=SXZonGHQLRg"
   },
 {
@@ -3716,11 +3749,16 @@ const quests = [
     location: "Yongen-Jaya / Akihabara",
     length: "long",
     difficulty: "Low",
-    reward: "Futaba navigator abilities, Oracle upgrades",
-    summary:
-      "Help Futaba overcome her social anxiety and reconnect with the outside world through a series of increasingly adventurous outings. Her Confidant unlocks powerful Navigator abilities that give the whole party battle advantages.",
-    aiTip:
-      "Futaba's Navigator upgrades include enemy scanning, HP/SP recovery mid-battle, and follow-up attacks. Max her Confidant as soon as possible — these abilities save resources throughout late-game Palaces.",
+    reward: "Moral Support, Mementos Scan, Position Hack, Emergency Shift, Final Guard",
+    summary: "Help Futaba overcome her social anxiety and reconnect with the outside world through a series of increasingly adventurous outings. Her Confidant unlocks powerful Navigator abilities that give the whole party battle advantages.",
+    aiTip: "Finish Sojiro's 'Money-grubbing Uncle' request before ranking her further. Futaba is available Wed/Thu/Sat/Sun daytimes and stays in when it rains. Emergency Shift (Rank 9) and Final Guard (Rank 10) are the best abilities.",
+    walkthrough: [
+      "The Hermit Confidant starts after Futaba's Palace.",
+      "Visit her on Wed, Thu, Sat or Sun daytimes (not in the rain) and help her work through her list of promises.",
+      "Complete Sojiro's 'Money-grubbing Uncle' request when it comes up.",
+      "Rank 9 unlocks Emergency Shift (romance option here).",
+      "Reach Rank 10 for Final Guard."
+    ],
     video: "https://www.youtube.com/watch?v=k1nuRJWfJFY"
   },
 {
