@@ -315,6 +315,14 @@
   weakness, resists Physical). The other 14 left as is (guides missing or
   contradictory).
 
+- **Phase 4 — Skyrim (Dark Brotherhood contracts, Civil War forts):** 23
+  quests. 12 contracts checked against UESP — several had the wrong place
+  (Lurbuk "Morvunskar" → Moorside Inn, Morthal; Agnis "Nightgate Inn" → Fort
+  Greymoor; Safia "bandit in Kilkreath Ruins" → pirate on the Red Wave at
+  Solitude; Deekus → Hela's Folly; Helvard → Jarl's Longhouse; Maluril's step
+  said Mzulft, not Mzinchaleft) and now give the easiest kill. 11 fort
+  battles now name their hold and who gives the order.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
