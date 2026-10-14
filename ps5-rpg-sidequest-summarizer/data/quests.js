@@ -24989,22 +24989,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Black Powder Ippei",
-    location: "Yōtei Grasslands — Abandoned Mill",
+    location: "Yōtei Grasslands (Yotei Shadow Inn bounty board)",
     length: "short",
     difficulty: "Medium",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A reckless bomb-thrower operating in the outer grassland trails. Ippei throws improvised explosives at anyone who approaches and has booby-trapped the abandoned mill he uses as a base.",
-    aiTip:
-      "Do not sprint toward Ippei — the mill perimeter has three tripwire bombs. Walk slowly through the entrance and use the listening sense to spot the wires. His own bombs can be deflected back with a well-timed dodge-roll.",
+    summary: "A Yōtei Grasslands bounty: track down the outlaw Black Powder Ippei and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Powder+Ippei+walkthrough",
     walkthrough: [
-      "Accept the bounty from the Grasslands board.",
-      "Approach the Abandoned Mill slowly — three tripwires visible with listening sense.",
-      "Disable or dodge around the tripwires before entering.",
-      "Ippei throws bombs in arcs — dodge-roll into them to send them back.",
-      "Close the distance when he reloads and finish with melee.",
-      "Claim the reward from Kojiro."
+      "Complete the Muneji the Bone Crusher bounty first, then take the Black Powder Ippei poster from the Yōtei Grasslands bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Black Powder Ippei.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25135,22 +25132,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Junpei the Snatcher",
-    location: "Tokachi Range — Marsh Town",
+    location: "Tokachi Range (cave in the north)",
     length: "short",
     difficulty: "Low",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A quick, nimble thief who kidnaps merchants for ransom in the Tokachi marsh towns. He is never seen arriving — only leaving with a hostage. Track him to his holding site and free his current victim.",
-    aiTip:
-      "Junpei runs the moment combat starts — he will not fight until cornered. Chase him through the marsh town and cut off his exit route by positioning at the docks before triggering the encounter.",
+    summary: "A Tokachi Range bounty: track down the outlaw Junpei the Snatcher and bring them to justice. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Junpei+the+Snatcher+walkthrough",
     walkthrough: [
-      "Accept the bounty and find Junpei's holding site at the Marsh Town docks.",
-      "Position yourself at the dock exit before approaching Junpei.",
-      "He bolts immediately — he has a 10-second head start but cannot cross the water.",
-      "Corner him at the dock edge; he finally fights — quick but fragile.",
-      "Free the hostage merchant from the holding cage after Junpei is defeated.",
-      "Claim the reward from Kojiro."
+      "Take the Junpei the Snatcher poster from the Tokachi Range bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
+      "Scout the area and deal with any guards.",
+      "Defeat Junpei the Snatcher.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25208,22 +25202,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Inagawa the Gambler",
-    location: "Teshio Ridge — Gambling House",
+    location: "Teshio Ridge",
     length: "short",
     difficulty: "Low",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "Inagawa runs a loaded dice operation that strips travellers dry, then his enforcers take what the dice leave behind. He surrounds himself with eight heavies in the Teshio gambling house.",
-    aiTip:
-      "Inagawa himself is weak — his eight bodyguards are the real challenge. Use a scorch bomb at the gambling house entrance during a busy moment to scatter the bodyguards before Inagawa can organise a coordinated defence.",
+    summary: "A Teshio Ridge bounty: track down the outlaw Inagawa the Gambler and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inagawa+the+Gambler+walkthrough",
     walkthrough: [
-      "Accept the bounty and locate the Teshio Gambling House.",
-      "Throw a scorch bomb through the entrance to scatter the eight bodyguards.",
-      "Engage the disorganised bodyguards in pairs as they recover.",
-      "Inagawa panics once bodyguards fall — he hides under the main table.",
-      "Pull him out with the Kusarigama Chain Pull and finish the fight.",
-      "Claim the reward from Kojiro."
+      "Take the Inagawa the Gambler poster from the Teshio Ridge bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Inagawa the Gambler.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25233,23 +25224,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Snowstorm Katagiri",
-    location: "Teshio Ridge — Northern Blizzard Pass",
+    location: "Teshio Ridge",
     length: "short",
     difficulty: "High",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "Katagiri only strikes during blizzards and uses the whiteout conditions as camouflage for a hit-and-run fighting style. This bounty can only trigger during the Teshio Ridge blizzard weather event.",
-    aiTip:
-      "This bounty can only be completed during the blizzard weather event — rest at a Teshio camp to advance time until the blizzard begins. Use the listening sense constantly; Katagiri's footsteps are the only reliable indicator of position.",
+    summary: "A Teshio Ridge bounty: track down the outlaw Snowstorm Katagiri and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Snowstorm+Katagiri+walkthrough",
     walkthrough: [
-      "Accept the bounty — note it can only complete during a Teshio blizzard.",
-      "Rest at a Teshio camp until the blizzard event triggers (check weather icon on map).",
-      "Travel to the Northern Blizzard Pass — visibility drops to 20 metres.",
-      "Use listening sense to track Katagiri's circling movement pattern.",
-      "He attacks from behind — time a back-dodge when his footsteps stop for two seconds.",
-      "Counter-attack aggressively; he retreats if hit three times — chase him with the Charging Thrust.",
-      "Claim the reward from Kojiro."
+      "Take the Snowstorm Katagiri poster from the Teshio Ridge bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Snowstorm Katagiri.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25259,23 +25246,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Nameless Killer",
-    location: "Teshio Ridge — Remote Post Road",
+    location: "Teshio Ridge",
     length: "short",
     difficulty: "High",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "An assassin with no known identity who uses poisoned needles launched from a blowpipe and misdirection tactics. The bounty notice has no portrait — only a description of the needle pouch they always carry.",
-    aiTip:
-      "The Nameless Killer uses poison needles that do not break block but apply a stacking poison dot. Equip maximum antidotes and herbal medicine before the encounter. The killer flees after three hits — use the Charging Thrust to close down each escape attempt.",
+    summary: "A Teshio Ridge bounty: track down the outlaw Nameless Killer and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Nameless+Killer+walkthrough",
     walkthrough: [
-      "Accept the bounty — note there is no portrait, only a needle pouch description.",
-      "Travel to the Remote Post Road; the Killer appears once you enter the marked zone.",
-      "They open with a poison needle burst — block to reduce the hit, use antidote immediately.",
-      "Close the distance and land three hits before they flee the first time.",
-      "Use Charging Thrust to close down two escape attempts.",
-      "After three flight-and-return cycles, they tire and fight to the finish.",
-      "Claim the reward from Kojiro."
+      "Take the Nameless Killer poster from the Teshio Ridge bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Nameless Killer.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25285,23 +25268,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Black Night Kubo",
-    location: "Teshio Ridge — Moonless Hollow",
+    location: "Teshio Ridge",
     length: "short",
     difficulty: "High",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A night-only raider in all-black gear who has never been identified or seen in daylight. This bounty only completes at night and Kubo fights with near-invisible shadowstep movement.",
-    aiTip:
-      "This bounty is night-only — rest until nightfall at the nearest camp. Kubo's shadowstep movement disappears him from sight for two seconds; use listening sense during the invisible phase to pre-dodge his re-emergence attack.",
+    summary: "A Teshio Ridge bounty: track down the outlaw Black Night Kubo and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Night+Kubo+walkthrough",
     walkthrough: [
-      "Accept the bounty — note night-only requirement.",
-      "Rest until nightfall and travel to Moonless Hollow.",
-      "Kubo appears from shadow — use listening sense to track the invisible phase.",
-      "Pre-dodge left when the listening sense pulse ends (his re-emergence comes from the right).",
-      "Counter-attack immediately after the dodge — he is vulnerable for one second on re-emergence.",
-      "Repeat the listen-dodge-counter cycle eight times to end the fight.",
-      "Claim the reward from Kojiro."
+      "Take the Black Night Kubo poster from the Teshio Ridge bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Black Night Kubo.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25336,22 +25315,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Ishikari Plain",
     title: "Toshi the Torch",
-    location: "Ishikari Plain — Hay District",
+    location: "Ishikari Plain",
     length: "short",
     difficulty: "Medium",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "An arsonist who sets buildings ablaze as distractions, then his crew loots the chaos. Three fires around Ishikari's hay district burn simultaneously when you arrive — extinguish them and find Toshi in the confusion.",
-    aiTip:
-      "Extinguishing the fires is optional but earns bonus standing. Toshi is always near the largest fire — look for the figure in the firelight who is not panicking. He uses a fire lance with a short but lethal range.",
+    summary: "A Ishikari Plain bounty: track down the outlaw Toshi the Torch and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Toshi+the+Torch+walkthrough",
     walkthrough: [
-      "Accept the bounty; three fires in the Hay District burn when you arrive.",
-      "Optional: extinguish all three fires using water barrel interact prompts for bonus standing.",
-      "Locate Toshi near the largest fire — he wears an orange headband.",
-      "His fire lance has short range — stay outside it and use the Kusarigama Chain Pull to drag him into fighting distance.",
-      "Defeat Toshi; his crew scatters without him.",
-      "Claim the reward from Kojiro."
+      "Take the Toshi the Torch poster from the Ishikari Plain bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Toshi the Torch.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25481,22 +25457,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Ishikari Plain",
     title: "Iron Chuta",
-    location: "Ishikari Plain — Blacksmith Ruin",
+    location: "Ishikari Plain",
     length: "short",
     difficulty: "High",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A former blacksmith who covers himself in improvised iron plating and fights with iron-clad fists. Every punch stuns briefly — a chain of punches can kill Atsu before she recovers. One of the toughest solo bounties.",
-    aiTip:
-      "The Kusarigama Chain Pull pulls Iron Chuta off balance even with all his armour — it is the only reliable interrupt. Pull him whenever he loads up for a punch chain and counter with dual-katana flurries during the stumble.",
+    summary: "A Ishikari Plain bounty: track down the outlaw Iron Chuta and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iron+Chuta+walkthrough",
     walkthrough: [
-      "Accept the bounty and travel to the Blacksmith Ruin.",
-      "Iron Chuta opens with a fast punch chain — immediately use Kusarigama Chain Pull to interrupt.",
-      "Counter with dual-katana flurries during his stumble (two to three hits maximum).",
-      "Repeat the Pull-counter cycle; do not get greedy with hit counts.",
-      "At half health he adds an unblockable haymaker — dodge backward when his shoulder drops.",
-      "Claim the reward from Kojiro."
+      "Take the Iron Chuta poster from the Ishikari Plain bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Iron Chuta.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25506,21 +25479,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "Wayward Oni Raiders",
-    location: "Nayoro Wilds — Ainu Village Perimeter",
+    location: "Nayoro Wilds",
     length: "short",
     difficulty: "Medium",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A roving band of outlaws who paint themselves to look like oni demons and terrorise Ainu settlements with theatrical violence. The paint is intimidation only — they fight as ordinary bandits.",
-    aiTip:
-      "The leader wears the most elaborate oni makeup and holds back during the initial charge. Ignore the seven painted raiders and use Ghost Stance to execute the leader immediately — the rest scatter on his death.",
+    summary: "A Nayoro Wilds bounty: track down the Wayward Oni Raiders, an outlaw band, and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Wayward+Oni+Raiders+walkthrough",
     walkthrough: [
-      "Accept the bounty and locate the Wayward Oni Raiders near the Nayoro Ainu village.",
-      "Seven raiders charge first; the leader hangs back.",
-      "Activate Ghost Stance and push through the raiders to execute the leader directly.",
-      "The remaining raiders flee on the leader's death — no need to fight them all.",
-      "Claim the reward from Kojiro."
+      "Take the Wayward Oni Raiders poster from the Nayoro Wilds bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat the Wayward Oni Raiders.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25552,22 +25523,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Oshima Coast",
     title: "Iwa the Beautiful",
-    location: "Oshima Coast — Harbour Tavern",
+    location: "Benten Port, Oshima Coast",
     length: "short",
     difficulty: "Medium",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A con woman who seduces wealthy targets before her crew strips them of valuables — and occasionally their lives. She is always working a mark in the harbour tavern; confronting her in public draws her entire crew.",
-    aiTip:
-      "Pull Iwa away from the tavern by slipping her a note (interact prompt at the tavern door) inviting her to meet 'a wealthy merchant' outside. Her crew stays inside while she investigates — fight her alone in the alley.",
+    summary: "A Oshima Coast bounty: track down the outlaw Iwa the Beautiful and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iwa+the+Beautiful+walkthrough",
     walkthrough: [
-      "Accept the bounty and locate Iwa working a mark in the Harbour Tavern.",
-      "Use the interact prompt at the tavern door to slip her a note.",
-      "She excuses herself and follows the note to the alley — crew stays inside.",
-      "Confront Iwa alone; she draws a tanto and fights precisely.",
-      "Her crew emerges after 60 seconds — defeat Iwa quickly.",
-      "Claim the reward from Kojiro."
+      "Take the Iwa the Beautiful poster from the Oshima Coast bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Iwa the Beautiful.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25577,23 +25545,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Oshima Coast",
     title: "Tadaaki the Terrible",
-    location: "Oshima Coast — Pirate Cove",
+    location: "Oshima Coast",
     length: "short",
     difficulty: "High",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "A pirate captain feared across the Oshima sea lanes for unpredictable brutality. He fights with two short swords and a complete disregard for conventional fighting patterns — every move is improvised.",
-    aiTip:
-      "Tadaaki has no repeating pattern — read each attack individually rather than trying to memorise a combo sequence. Perfect deflects give the biggest windows; focus on deflect quality over attack frequency.",
+    summary: "A Oshima Coast bounty: track down the outlaw Tadaaki the Terrible and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Tadaaki+the+Terrible+walkthrough",
     walkthrough: [
-      "Accept the bounty and locate Tadaaki at the Pirate Cove.",
-      "Clear his four pirate guards using stealth before the fight if possible.",
-      "Engage Tadaaki — do not try to memorise a pattern; read each attack individually.",
-      "Focus on perfect deflects to create the largest counter windows.",
-      "At one-third health he throws both swords and fights with kicks — dodge backward.",
-      "Close after the kick combo and finish with a heavy attack.",
-      "Claim the reward from Kojiro."
+      "Take the Tadaaki the Terrible poster from the Oshima Coast bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat Tadaaki the Terrible.",
+      "Claim the bounty reward."
     ]
   },
 {
@@ -25603,23 +25567,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Oshima Coast",
     title: "The Last Brother",
-    location: "Oshima Coast — Clifftop Memorial",
+    location: "Oshima Coast",
     length: "short",
     difficulty: "Medium",
     reward: "Gold, Bounty Broker standing",
-    summary:
-      "The sole survivor of a bandit clan destroyed by a previous bounty hunter, now sworn to avenge his fallen brothers by hunting that hunter and anyone associated with them. He has found Kojiro's connection to Atsu.",
-    aiTip:
-      "He fights with grief-fuelled aggression — relentless forward pressure with no defensive pauses. Do not back-pedal; he closes the gap faster than you can create it. Stand ground, deflect, and counter in place.",
+    summary: "A Oshima Coast bounty: track down the outlaw The Last Brother and bring them to justice.",
+    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Last+Brother+walkthrough",
     walkthrough: [
-      "Accept the bounty — he is already coming for you.",
-      "Travel to the Clifftop Memorial where he waits.",
-      "He charges immediately with no opening dialogue.",
-      "Stand ground and deflect; backing up only extends his aggressive phase.",
-      "After three perfect deflects he staggers — land two heavy hits.",
-      "Repeat the deflect-punish cycle four times to end the fight.",
-      "Claim the reward from Kojiro."
+      "Take the The Last Brother poster from the Oshima Coast bounty board.",
+      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
+      "Scout the area and deal with any guards.",
+      "Defeat The Last Brother.",
+      "Claim the bounty reward."
     ]
   },
 {
