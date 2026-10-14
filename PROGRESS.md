@@ -125,6 +125,10 @@
   Corel), My White-Haired Angel summary (it's finding Fluffy, not a piano
   scene), and 5 vague summaries/locations.
 
+- Removed on owner's OK (2,478 → 2,476): FF7 Rebirth #247 Rulers of the
+  Outer Worlds (no such simulator challenge) and Witcher 3 #41 The Phantom of
+  Eldberg (duplicate of #626 Contract: The Phantom of Eldberg).
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
