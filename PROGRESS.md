@@ -478,6 +478,19 @@
   riddles Upon Typhon's Crown, Beneath Theseus' Dreams, Made in Abyss,
   'Til Death Do Us Part — owner to check.
 
+- **Deadfire bounty tips (quest-specific aiTips, batch 1):** all 28
+  bounties shared one generic tip. Guides (Fextralife, guides4gamers,
+  sorcerers.net) show 12 of them are **ship bounties** (Biakara, Veen,
+  Desiwa, Diccila, Oheiro, Rafiq, Assila, Radulf, Burunga, Chornu, Kuaro,
+  Rodul): their steps said "pull the escorts apart with crowd control", now
+  they name the ship and where it sails, and say to win the sea battle or
+  board. Fixed two wrong target spots (Radulf sails the Goldbell around the
+  south-west Kua o Rikuhu islands; Burunga is in the Ofecchia Channel, far
+  north-east, not next to Radulf). Every bounty now names its chain (e.g.
+  Okauro: Dhwrgas → Onadere → Ikorno → Urnox), and tips name the enemy mix
+  and level where guides give them. Tāhae, Beina, Imp Dessiral keep a
+  generic tip (no guide detail). The 20 faction quests still share one tip.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
