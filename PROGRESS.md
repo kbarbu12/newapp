@@ -1,13 +1,13 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-13
+**Last updated:** 2026-10-14
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
 
-## Session 2026-10-11 → 13 — video candidates for every game, quest cleanup, Pillars I text
+## Session 2026-10-11 → 14 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
 
 ### Video candidates for all search-URL quests (not shipped — owner review)
 - Every quest whose `video` was a YouTube search URL now has a proposed
@@ -223,9 +223,31 @@
   Another Kind of Poetry, Destroyed House of Oinomanos, Tomb of the First
   Champion.
 
-- Still to do: owner review of the 1,440 video candidates; owner to decide whether
-  walkthrough steps should show alongside a video, and whether to delete the
-  13 old per-game review pages.
+### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
+- **Phase 2 done:** every quest with a real video now has steps (0 left).
+  Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
+  Horizon FW 12, Demon's Souls 11, Ghost of Tsushima 9, Ghost of Yōtei 9,
+  Persona 5 Royal 8, Pillars 3 — 146 quests. Wrong summaries, regions,
+  rewards and tips fixed along the way; invented details replaced (e.g.
+  Yōtei's "Way of the Shamisen" → Master of the Shamisen, Horizon's
+  "Tallneck: The Devil's Thirst" → Tallneck: Cinnabar Sands).
+- **Removed on owner's OK** (#135, #143): FF7 Rebirth #247 (fake), Witcher 3
+  #41 (duplicate of #626), Ghost of Yōtei #1145 (duplicate of #1149).
+  Quest count 2,478 → 2,475.
+- **Phase 3 started** (#146–#148): 93 AC Odyssey quests' generic 1–3-step
+  lists replaced with guide-sourced steps (Kephallonia → Pylos story, side
+  quests, beasts, tombs, riddles); 6 "Side Quest - …" entries retitled and
+  moved to side quests. 191 AC Odyssey quests still have ≤3 steps — about 30
+  of them were left on purpose because no guide confirmed their details
+  (listed in the batch notes above).
+- **Found:** many AC Odyssey riddles are filed under wide or wrong regions
+  ("Peloponnese", "Northern Greece"; A Finger Tip is really Phokis). Being
+  fixed batch by batch.
+
+- Still to do: Phase 3 (remaining AC Odyssey batches: Cyclades/Myrrine arc,
+  islands, riddles, Various/open-world), then Phase 4 (review steps on the
+  1,443 no-video quests); owner review of the 1,440 video candidates; owner
+  to decide whether to delete the 13 old per-game review pages (keep for now).
 
 ---
 
