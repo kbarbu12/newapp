@@ -263,6 +263,14 @@
   Seduction, The Show Must Go On, Divine Intervention, The Image of Faith,
   A Friend Worth Dying For, One Really Really Bad Day, Socrates' Trial.
 
+- **Phase 3 — AC Odyssey batch 8 (mythical beasts, tombs):** 8 entries.
+  Cyclops moved Messara → Kythera Island (A God Among Men, Isle of Thisvi);
+  Sphinx moved Petrified Islands → Boeotia (Lake Kopais riddles); Minotaur
+  quest names fixed (Of Minotaurs and Men → He Waits); 5 tombs got real
+  locations. **Phase 3 stops here:** the remaining ~96 AC Odyssey entries
+  with ≤3 steps are the ones no guide confirmed (listed in the batch notes
+  above and in TODO.md).
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
