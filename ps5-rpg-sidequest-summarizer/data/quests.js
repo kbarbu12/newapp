@@ -703,14 +703,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Livestock's Bane",
-    location: "Grasslands",
+    location: "Oliver's Farm, Grasslands",
     length: "short",
     difficulty: "Low",
     reward: "Party EXP, relationship points, regional progress",
-    summary:
-      "An early side quest that introduces open-zone investigation. The player tracks a monster threat and learns how Rebirth uses regional activities.",
-    aiTip:
-      "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
+    summary: "Oliver's livestock are being killed. Track the culprit with your chocobo's nose to the beach east of his farm and put down the White Terror.",
+    aiTip: "Use this quest to understand tracking mechanics and improve party synergy before harder Grasslands content.",
+    walkthrough: [
+      "After Break in the Saddle (Chapter 2), take the job from the Kalm noticeboard.",
+      "Talk to Oliver at his farm.",
+      "Red XIII can't catch the scent — summon your chocobo and follow the trail, sniffing again when it ends.",
+      "Follow it to the beach east of the farm and defeat the White Terror.",
+      "Return to Oliver for the Owl Bracer."
+    ],
     video: "https://www.youtube.com/watch?v=Wl5PRcqEAWs"
   },
 {
@@ -723,26 +728,34 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Unique items, exploration progress",
-    summary:
-      "A light-hearted but involved quest chain focused on rebuilding and supporting a local inn. It blends exploration, mini-objectives, and character humor.",
-    aiTip:
-      "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
+    summary: "A light-hearted but involved quest chain focused on rebuilding and supporting a local inn. It blends exploration, mini-objectives, and character humor.",
+    aiTip: "Complete nearby map objectives first, because several quest steps become faster once fast travel and regional intel are unlocked.",
+    walkthrough: [
+      "Talk to Johnny at his inn in Costa del Sol (Chapter 7).",
+      "Collect the eight refurbishment materials — two near the first zipline, six on top of the NC zipline towers in the Corel region.",
+      "Deliver them and track down more Johnnys at the Factory Ruins (left of the NC-4 zipline).",
+      "Keep helping through the later stages — the quest finishes in Chapter 9 (recommended level 31)."
+    ],
     video: "https://www.youtube.com/watch?v=jj9_6zvmCE4"
   },
 {
     id: 9,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    region: "Grasslands",
+    region: "Corel",
     title: "Can't Stop Won't Stop",
-    location: "Gold Saucer",
+    location: "Costa del Sol noticeboard / Gold Saucer",
     length: "medium",
     difficulty: "Low",
     reward: "Gold Saucer GP, unique materia, date scene progress",
-    summary:
-      "A sprawling mini-game marathon at the Gold Saucer theme park. Completing activities builds relationship points that influence a key story date scene.",
-    aiTip:
-      "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
+    summary: "The final side quest: the Ultimate Party Animal challenges you to beat his high scores across the Gold Saucer's minigames.",
+    aiTip: "Focus on your preferred date partner's favorite activities. The chocobo racing and 3D Brawler give the best GP returns.",
+    walkthrough: [
+      "Reach Chapter 12 (after Hightail) with every other side quest and Gold Saucer minigame done; take it from the Costa del Sol noticeboard.",
+      "Party with the Shinra Middle Manager.",
+      "Beat the UPA's scores at the Musclehead Colosseum, Chocobo Races, G-Bike, Queen's Blood and Galactic Saviors.",
+      "Throw down with the Shinra Middle Manager for the Gambler Materia and Mecha Chocobo attire."
+    ],
     video: "https://www.youtube.com/watch?v=knOyK-htZSA"
   },
 {
@@ -1932,10 +1945,14 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Protorelic summon materia, powerful summons",
-    summary:
-      "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
-    aiTip:
-      "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
+    summary: "Each open-world region contains a multi-step quest to recover ancient Protorelic artifacts. These involve exploration puzzles, combat trials, and boss fights that reward unique summon materia for your party.",
+    aiTip: "Complete each region's Intel objectives first — they reveal Protorelic quest locations. The summon materia rewards are some of the strongest abilities in the game.",
+    walkthrough: [
+      "Unlock a region's towers — the first Phenomenon Intel usually appears on the map from there.",
+      "Complete each region's four Protorelic quests; each region has its own mechanic or minigame (Junon uses a Fort Condor-style board game).",
+      "Chadley tells you when story-gated quests become available.",
+      "Finish all six regions' Protorelics to unlock the final chain — and Gilgamesh Island in the Meridian Ocean."
+    ],
     video: "https://www.youtube.com/watch?v=_WIDD8VTlu4"
   },
 {
@@ -1944,14 +1961,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Flowers from the Hill",
-    location: "Kalm Region",
+    location: "Bill's Ranch → Wildflower Plateau, Grasslands",
     length: "short",
     difficulty: "Low",
     reward: "Relationship points, crafting materials",
-    summary:
-      "A gentle early quest where Cloud helps a young girl gather rare flowers on the outskirts of Kalm. It establishes the exploration mechanics and rewards careful attention to the environment.",
-    aiTip:
-      "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
+    summary: "Chloe at Bill's Ranch wants flowers for a flower crown. Ride to the Wildflower Plateau and pick the right three colours.",
+    aiTip: "The rarest flower is on a cliff edge that requires jumping — look for yellow climbing handholds nearby.",
+    walkthrough: [
+      "After Break in the Saddle, talk to Chloe at Bill's Ranch.",
+      "Ride to the Wildflower Plateau in the north of the Grasslands.",
+      "Defeat the Mandragoras and talk to Aerith.",
+      "Pick the red, yellow and white flowers to match the picture.",
+      "Bring them back to Chloe."
+    ],
     video: "https://www.youtube.com/watch?v=FOAAzPumW44"
   },
 {
@@ -1960,14 +1982,18 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Corel",
     title: "The Musclehead Colosseum",
-    location: "Gold Saucer / Corel Region",
+    location: "Battle Square, Gold Saucer",
     length: "medium",
     difficulty: "High",
     reward: "Unique materia, rare equipment, GP",
-    summary:
-      "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
-    aiTip:
-      "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
+    summary: "Enter a series of increasingly brutal arena battles at the Gold Saucer's combat colosseum. The final rounds pit you against superboss-level opponents that test your build and strategy.",
+    aiTip: "Elemental materia combinations are key for later rounds. The final champion has no elemental weakness — focus on limit breaks and synergy attacks.",
+    walkthrough: [
+      "Unlock the Gold Saucer (Chapter 8) and talk to Dio at Battle Square.",
+      "Start with the Easy two-person and six-person bouts — each bout has two rounds you must win.",
+      "More challenges unlock with story progress; the toughest feature level-40 enemies.",
+      "Come back post-game for the advanced bouts and their trophies."
+    ],
     video: "https://www.youtube.com/watch?v=wkTEyy0nRyo"
   },
 {
@@ -1976,14 +2002,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Where the Wind Blows",
-    location: "Junon Region",
+    location: "Inn at Kalm → Windmill Settlement, Grasslands",
     length: "medium",
     difficulty: "Medium",
     reward: "Chocobo gear upgrades, exploration access",
-    summary:
-      "Help a chocobo rancher investigate why the local chocobos have been acting strangely. The investigation reveals environmental threats and unlocks new chocobo traversal abilities for the region.",
-    aiTip:
-      "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
+    summary: "Broden at the Kalm inn needs a part for a windmill. Find Mildred at the Windmill Settlement and craft her a new Windmill Gear.",
+    aiTip: "Unlocking the chocobo's new ability early opens shortcuts throughout Junon. Complete this before other Junon side content for easier navigation.",
+    walkthrough: [
+      "Finish Flowers from the Hill, Livestock's Bane and A Rare Card Lost (suggested level 22).",
+      "Talk to Broden on the couch by the stairs in the Inn at Kalm.",
+      "Find Mildred at the Windmill Settlement.",
+      "Craft the Windmill Gear with the Item Transmuter (Craftsmanship level 4: Quetzalcoatl Talon, Iron Ore, Lea Titanium, Beast Bone).",
+      "Return to Broden for the Whistlewind Scarf and Cleansing Materia."
+    ],
     video: "https://www.youtube.com/watch?v=PswNcC3SHKw"
   },
 {
@@ -2775,10 +2806,14 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Relationship points with Tifa, unique music",
-    summary:
-      "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
-    aiTip:
-      "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
+    summary: "Find sheet music scattered across the world and practice piano pieces to perform for Tifa. A gentle side activity that deepens the bond between Cloud and Tifa through shared memories of Nibelheim.",
+    aiTip: "The piano mini-game uses button prompts matching the melody — take your time and don't rush. Each piece you learn adds to the relationship score that affects the Gold Saucer date.",
+    walkthrough: [
+      "Collect the sheet music: Crow's Nest, Costa del Sol (Chapter 6), North Corel, Gongaga, Cosmo Canyon and Tifa's room in Nibelheim.",
+      "Play each piece at the piano next to it — a rhythm minigame on the analog sticks.",
+      "Get A-rank or better on the first six pieces.",
+      "Talk to Dorian, the piano rep, for rewards and the Piano Virtuoso trophy."
+    ],
     video: "https://www.youtube.com/watch?v=E_Any2rW-RE"
   },
 {
@@ -2787,14 +2822,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Grasslands",
     title: "Lifeline in Peril",
-    location: "Grasslands / Kalm",
+    location: "Kalm → Maintenance Warehouse, Grasslands",
     length: "short",
     difficulty: "Low",
     reward: "Party EXP, Kalm community standing",
-    summary:
-      "Kalm's mako pipeline is failing and the mercenary hired to fix it needs backup. Gather repair materials across the Grasslands and escort Kyrie between damaged pipeline sections.",
-    aiTip:
-      "Grab three Rusted Sheet Metals and five Corroded Nails before meeting Kyrie — it skips a return trip. The Noxicaps at the final site are weak to Fire.",
+    summary: "Kalm's mako pipeline is failing and the mercenary hired to fix it needs backup. Gather repair materials across the Grasslands and escort Kyrie between damaged pipeline sections.",
+    aiTip: "Grab three Rusted Sheet Metals and five Corroded Nails before meeting Kyrie — it skips a return trip. The Noxicaps at the final site are weak to Fire.",
+    walkthrough: [
+      "After Break in the Saddle, take the job from Mayor Fritz on the Kalm noticeboard.",
+      "Go to the Maintenance Warehouse south of Kalm and meet the mercenary, Kyrie.",
+      "Collect the Rusted Sheet Metal and Corroded Nails from trash piles (grab all of them).",
+      "Follow Kyrie along the pipeline, fighting off the wolves and the Noxicap.",
+      "Return to Fritz for 3,000 Gil."
+    ],
     video: "https://www.youtube.com/watch?v=X3_hppsWl6A"
   },
 {
@@ -2807,10 +2847,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Relationship points with Aerith, piano scene",
-    summary:
-      "Help a Nibelheim resident find Fluffy the missing cat, ending in one of the game's loveliest moments — Aerith performing her theme on the piano.",
-    aiTip:
-      "Practice the piano minigame beforehand; the quest's rendition of Aerith's Theme counts your performance. The cat likes quiet approaches.",
+    summary: "Nibelheim's head chef has lost her cat — Fluffy, Tifa's old cat. Find her on Mt. Nibel and bring her home safely.",
+    aiTip: "Practice the piano minigame beforehand; the quest's rendition of Aerith's Theme counts your performance. The cat likes quiet approaches.",
+    walkthrough: [
+      "After Smoke Sent Up (Chapter 11), talk to the head chef in Nibelheim.",
+      "Head up Mt. Nibel to the Southern Ascent and find Fluffy.",
+      "Protect Fluffy from the fiends, follow her and defeat the next group.",
+      "Lead the cats back to the village, staying close.",
+      "Follow Fluffy into the building and play the piano with the villagers."
+    ],
     video: "https://www.youtube.com/watch?v=6OXlfEXagSw"
   },
 {
@@ -2819,30 +2864,38 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Junon",
     title: "Junon Parade Training",
-    location: "Junon",
+    location: "Larboard Junon",
     length: "medium",
     difficulty: "Medium",
     reward: "Junon Region Intel, materia, access to parade events",
-    summary:
-      "Cloud must infiltrate the Shinra military parade in Junon by mastering parade drill movements. A memorable set piece blending rhythm-based mini-games with stealth as Cloud marches alongside actual Shinra soldiers.",
-    aiTip:
-      "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
+    summary: "Cloud must infiltrate the Shinra military parade in Junon by mastering parade drill movements. A memorable set piece blending rhythm-based mini-games with stealth as Cloud marches alongside actual Shinra soldiers.",
+    aiTip: "Practice the marching rhythm in the training area before the actual parade. A perfect score unlocks bonus loot — watch the drill instructor closely for the correct sequence.",
+    walkthrough: [
+      "In Chapter 4's No I in Team, practise the parade rifle drill — press the buttons as they appear.",
+      "Get promoted to captain and recruit the Seventh Infantry units around Junon (five of ten is enough).",
+      "Pick a strong formation (Riot Troopers and Grenadiers with Flametroopers in the middle).",
+      "Perform in the parade for Rufus to win Stealing the Show."
+    ],
     video: "https://www.youtube.com/watch?v=csddQ1EAQrg"
   },
 {
     id: 129,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    region: "Grasslands",
+    region: "Corel",
     title: "Queen's Blood Champion",
     location: "Various / Gold Saucer",
     length: "long",
     difficulty: "High",
     reward: "Rare Queen's Blood cards, Champion title",
-    summary:
-      "Challenge and defeat every Queen's Blood card player across the world to become the undisputed champion. The card game deepens in complexity as you collect more powerful cards and face tougher opponents.",
-    aiTip:
-      "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
+    summary: "Challenge and defeat every Queen's Blood card player across the world to become the undisputed champion. The card game deepens in complexity as you collect more powerful cards and face tougher opponents.",
+    aiTip: "Build a deck around lane control early on. The toughest opponents use high-power single cards — counter with multi-lane spread strategies to deny their scoring zones.",
+    walkthrough: [
+      "Challenge Queen's Blood players in every town as you travel.",
+      "Beat the story opponents chapter by chapter for their exclusive cards.",
+      "Clear the Gold Saucer Queen's Blood challenges in Chapters 8 and 12, ending with Nightmare Survival.",
+      "Build your deck around strong row control and card-power boosts for the final matches."
+    ],
     video: "https://www.youtube.com/watch?v=08Vbxkzxbio"
   },
 {
@@ -2851,14 +2904,18 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Junon",
     title: "When Words Won't Do",
-    location: "Junon Region / Crow's Nest",
+    location: "Under Junon → Crow's Nest",
     length: "medium",
     difficulty: "Medium",
     reward: "Party EXP, Barret relationship, unlocks The Hardest Sell",
-    summary:
-      "Escort Rhonda's dog Salmon across the Junon region to deliver money to her son in Crow's Nest — a surprisingly heartfelt Barret-centric quest with real fights along the way.",
-    aiTip:
-      "Equip Aero materia before setting out: the Sandstorm Drakes guarding the final stretch are weak to Wind. Keep enemies off Salmon during escort fights.",
+    summary: "Escort Rhonda's dog Salmon across the Junon region to deliver money to her son in Crow's Nest — a surprisingly heartfelt Barret-centric quest with real fights along the way.",
+    aiTip: "Equip Aero materia before setting out: the Sandstorm Drakes guarding the final stretch are weak to Wind. Keep enemies off Salmon during escort fights.",
+    walkthrough: [
+      "After Friends Together Again (Chapter 4), take Rhonda's job from the Under Junon noticeboard.",
+      "Find Salmon the dog at the town entrance by the Angler's Stowage fast-travel point.",
+      "Follow Salmon, fighting off enemies — watch for petrifying birds and the Sandstorm Drakes (weak to wind).",
+      "Reach Crow's Nest, talk to Dillan, then report back to Rhonda."
+    ],
     video: "https://www.youtube.com/watch?v=33WEPH7F1sA"
   },
 {
@@ -2867,14 +2924,19 @@ const quests = [
     game: "Final Fantasy VII Rebirth",
     region: "Junon",
     title: "The Hardest Sell",
-    location: "Junon Region / Abandoned Lighthouse",
+    location: "Crow's Nest → lighthouse, Junon Region",
     length: "medium",
     difficulty: "Medium",
     reward: "Party EXP, White Mousse boss fight",
-    summary:
-      "Kyrie's advertising scheme at the abandoned lighthouse south of Crow's Nest attracts the wrong crowd. Clear waves of monsters and face the gelatinous White Mousse boss.",
-    aiTip:
-      "White Mousse shifts elemental weaknesses as it changes color — match your spells to its current hue. Requires completing When Words Won't Do first.",
+    summary: "A merc scheme at the lighthouse south of Crow's Nest goes wrong — help Kyrie deal with the Merc of Junon and the fiends that follow.",
+    aiTip: "White Mousse shifts elemental weaknesses as it changes color — match your spells to its current hue. Requires completing When Words Won't Do first.",
+    walkthrough: [
+      "After When Words Won't Do, take the job from the Crow's Nest board.",
+      "Ride south to the lighthouse (you need the mountain chocobo).",
+      "Go upstairs, confront the Merc of Junon and talk to Kyrie.",
+      "Go back down and defeat the fiends, including the Ignilisks.",
+      "Collect the Merc chocobo gear from Toby."
+    ],
     video: "https://www.youtube.com/watch?v=Fxnbkdc7fiA"
   },
 {
@@ -4965,10 +5027,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Chapter 8 climax, Barret's defining story moment",
-    summary:
-      "Barret finally confronts his oldest friend and greatest regret beneath the Gold Saucer. A one-on-one duel that doubles as the emotional core of the Corel arc.",
-    aiTip:
-      "It's Barret solo — equip him with Fire materia (Dyne's only weakness) and use Maximum Fury to shred the scrap-metal body parts during Phantom Ray.",
+    summary: "Barret finally confronts his oldest friend and greatest regret beneath the Gold Saucer. A one-on-one duel that doubles as the emotional core of the Corel arc.",
+    aiTip: "It's Barret solo — equip him with Fire materia (Dyne's only weakness) and use Maximum Fury to shred the scrap-metal body parts during Phantom Ray.",
+    walkthrough: [
+      "In Chapter 8, follow the vulture to the scrapyard below the Gold Saucer.",
+      "Rest at the bench and stock potions — Barret fights alone.",
+      "Avoid the paralysing electric cone at all costs; interrupt his firebombs to build stagger.",
+      "Watch for the glowing ground mines after a third of his health is gone and hide from Repentance behind junk piles (they break)."
+    ],
     video: "https://www.youtube.com/watch?v=UiUD4jaIFEY"
   },
 {
@@ -4981,26 +5047,34 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Game finale",
-    summary:
-      "The multi-phase finale that rotates through the entire party — and Zack — before Cloud and Aerith face Sephiroth's final form at the edge of creation.",
-    aiTip:
-      "Destroy the Wing and Masamune with magic when Whisper Cannon exposes them. Stack healing materia on Cloud and Aerith for the last phase.",
+    summary: "The multi-phase finale that rotates through the entire party — and Zack — before Cloud and Aerith face Sephiroth's final form at the edge of creation.",
+    aiTip: "Destroy the Wing and Masamune with magic when Whisper Cannon exposes them. Stack healing materia on Cloud and Aerith for the last phase.",
+    walkthrough: [
+      "Equip all six party members — the fight rotates through everyone.",
+      "Give them Healing, Revival, Prayer and ice/wind elemental armour.",
+      "Save limit breaks for the two-character phases; there's a checkpoint after each party change.",
+      "For the final Cloud and Aerith section, use Healing Materia, synergy abilities and Giga Potions; hit Jenova with magic while she's immune to melee."
+    ],
     video: "https://www.youtube.com/watch?v=JMdc6ry7mi0"
   },
 {
     id: 246,
     type: "side",
     game: "Final Fantasy VII Rebirth",
-    region: "Nibel",
+    region: "Corel",
     title: "Gilgamesh – The Ultimate Summon",
-    location: "Gilgamesh Island / Meridian Ocean",
+    location: "Gilgamesh Island, Meridian Ocean",
     length: "long",
     difficulty: "High",
     reward: "Gilgamesh summon materia, superboss trophy",
-    summary:
-      "Complete every region's Protorelic questline to unlock Gilgamesh Island and challenge the legendary sword collector himself — the game's ultimate superboss.",
-    aiTip:
-      "Come at level 70 with Fire builds. Perfect-block his attacks to pressure him into dropping weapons, and stagger him before his five-count Ultimate Illusion lands.",
+    summary: "Complete every region's Protorelic questline to unlock Gilgamesh Island and challenge the legendary sword collector himself — the game's ultimate superboss.",
+    aiTip: "Come at level 70 with Fire builds. Perfect-block his attacks to pressure him into dropping weapons, and stagger him before his five-count Ultimate Illusion lands.",
+    walkthrough: [
+      "Finish every region's Protorelic chain to unlock Gilgamesh Island.",
+      "Take the Tiny Bronco from Costa del Sol to the torii gate in the ocean's north-east.",
+      "Beat the three shrine fights: Titan & Bahamut Arisen, Kujata & Phoenix, Odin & Alexander.",
+      "Challenge Gilgamesh in the garden — bring fire, Magnify+Barrier/Cure, plenty of ethers; around level 70 is recommended."
+    ],
     video: "https://www.youtube.com/watch?v=hahMCMyXzSI"
   },
 {
@@ -14033,10 +14107,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "medium",
     difficulty: "Medium",
     reward: "Chocoking's Cape (accessory), Tifa relationship boost",
-    summary:
-      "A Chapter 12 odd job posted by Billy in the Corel region. He asks you to enter and win the Gold Cup chocobo race at the Gold Saucer on his behalf, putting your racing setup and mount to the test.",
-    aiTip:
-      "Upgrade your chocobo's stats and stock stat-boosting items at the racing shop before entering — the Gold Cup field is fast, so prioritize acceleration and top speed and grab every boost gate.",
+    summary: "A Chapter 12 odd job posted by Billy in the Corel region. He asks you to enter and win the Gold Cup chocobo race at the Gold Saucer on his behalf, putting your racing setup and mount to the test.",
+    aiTip: "Upgrade your chocobo's stats and stock stat-boosting items at the racing shop before entering — the Gold Cup field is fast, so prioritize acceleration and top speed and grab every boost gate.",
+    walkthrough: [
+      "After Esoteric Secrets of the Elders, take Billy's job from the Costa del Sol noticeboard (Chapter 12).",
+      "Meet Billy at Chocobo Square in the Gold Saucer.",
+      "Win the three special chocobo races (use the ramp shortcut in race 1; watch the sharp turns in race 3).",
+      "Collect the Chocoking's Cape."
+    ],
     video: "https://www.youtube.com/watch?v=B8oUhHkOKak"
   },
 {
@@ -14049,10 +14127,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     length: "short",
     difficulty: "Low",
     reward: "Party EXP, relationship points (affects Gold Saucer date)",
-    summary:
-      "A Chapter 12 odd job for the author Maeve in the Gongaga region. She has run dry on ideas for her children's book, so she asks you to photograph Red XIII in specific poses and locations to spark her inspiration.",
-    aiTip:
-      "Line up each photo spot and wait for the prompted pose before snapping — the game only accepts the shot when Red XIII strikes the exact expression the objective describes.",
+    summary: "Children's author Maeve needs inspiration: take three dramatic photos of Red XIII around Gongaga.",
+    aiTip: "Line up each photo spot and wait for the prompted pose before snapping — the game only accepts the shot when Red XIII strikes the exact expression the objective describes.",
+    walkthrough: [
+      "Take the job from the Gongaga noticeboard or the woman by the Chocoboutique (Chapter 12).",
+      "'Resolve': at Rugged Shoals in the north, snap Red XIII as he raises his fist.",
+      "'Suffering': at the Gongaga Reactor car park, frame the gate and greenery and wait for him to look like he's crying.",
+      "'Odyssey': at the Gongaga Airstrip, photograph him pointing out from the control tower.",
+      "Return to Maeve."
+    ],
     video: "https://www.youtube.com/watch?v=pIsaVCnmNNo"
   },
 {
