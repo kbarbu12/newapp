@@ -25089,22 +25089,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Bear Man Chikatoshi",
-    location: "Tokachi Range — Deep Mountain Camp",
+    location: "Shizunai Woods (south-east Tokachi Range)",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "A hermit hunter who has lived alone in the Tokachi mountains so long he moves like a bear — on all fours for sprinting and with unpredictable direction changes. Travellers report he ambushes from above.",
-    aiTip:
-      "Chikatoshi attacks from high ground — always look up when his marker appears. He drops from trees and cliffs without warning. Equipping the listening sense before approaching reveals his position above you.",
+    reward: "750 Coins, Sword Kit: A Beast's Feast",
+    summary: "A Huranui's Rest Inn bounty: a man who lives like a bear in Shizunai Woods. Follow the blood trail — his bear strikes first.",
+    aiTip: "If you miss the sword kit on his body, Taro the scavenger will turn up at your camp and sell it to you.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bear+Man+Chikatoshi+walkthrough",
     walkthrough: [
-      "Accept the bounty and travel to the Deep Mountain Camp area.",
-      "Use listening sense as you approach — Chikatoshi is above, not on the ground.",
-      "He drops from a tree when you step into the clearing; dodge the impact immediately.",
-      "Fight normally once he is on the ground — he is fast but has no special attacks standing.",
-      "He retreats to high ground once at half health; use Tanzutsu to knock him down.",
-      "Claim the reward from Kojiro."
+      "Take the bounty from the Huranui's Rest Inn bounty board.",
+      "Go to Shizunai Woods in the south-east of the Tokachi Range.",
+      "Follow the blood trail to the corpse against a tree and examine it.",
+      "Kill the bear that attacks.",
+      "Kill Chikatoshi when he comes running, and loot the sword kit."
     ]
   },
 {
@@ -25161,24 +25158,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Tokachi Range",
+    region: "Ishikari Plain",
     title: "Blue Yamauba",
-    location: "Tokachi Range — Forest Edge Camp",
+    location: "Ishikari Market board → Blackened Homestead, Urara Forest",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "A woman outlaw who dresses as the demon-witch Yamauba in blue robes to terrify her victims into compliance. Her theatrical persona hides a genuine swordswoman with a flair for misdirection.",
-    aiTip:
-      "She opens with a scream that briefly stuns Atsu if you face her directly — look away or close your eyes (hold the shield button) for the first two seconds of the encounter to avoid the stun.",
+    reward: "1500 Coins, Blue Yamauba Mask",
+    summary: "An Ishikari Market bounty: track the Blue Yamauba through a drawing and a mask merchant to her burned homestead — she's Miyo.",
+    aiTip: "She opens with a scream that briefly stuns Atsu if you face her directly — look away or close your eyes (hold the shield button) for the first two seconds of the encounter to avoid the stun.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Blue+Yamauba+walkthrough",
     walkthrough: [
-      "Accept the bounty and travel to the Forest Edge Camp.",
-      "She opens with a stun scream — hold the shield button for the first two seconds to resist.",
-      "After the scream, she switches to fast sword strikes — standard deflect timing.",
-      "At half health she throws blue smoke powder — use listening sense to track her through it.",
-      "Corner her after the smoke clears and finish the fight.",
-      "Claim the reward from Kojiro."
+      "Take the poster from the Ishikari Market bounty board and talk to Kojiro.",
+      "At the crossroads in Ishikari Fork, kill the 3 enemies around the settler and take the Blue Yamauba Drawing.",
+      "Show the drawing to the mask merchant outside Oni's Breath Inn in Urara Forest.",
+      "At the Blackened Homestead, examine the steaming rocks, the straw mat and the pile of masks.",
+      "Defeat Miyo — the Blue Yamauba — and her guards."
     ]
   },
 {
@@ -25463,24 +25457,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Ishikari Plain",
+    region: "Tokachi Range",
     title: "Inokichi the Hungry",
-    location: "Ishikari Plain — Farm Road",
+    location: "Huranui Mill camp (north Tokachi Range)",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "An enormous bandit who demands food tribute from every farm he passes through — and then demands more. He travels slowly with a huge pack of stolen food and four exhausted followers.",
-    aiTip:
-      "Inokichi is slow but his hunger gives him fury when you damage the food packs on his back. Do not attack the packs — target him directly. The followers are too tired to fight effectively; handle Inokichi first.",
+    reward: "1500 Coins, Inokichi the Hungry's Mask",
+    summary: "Inokichi the Hungry leads the enemy camp at Huranui Mill in the north of the Tokachi Range.",
+    aiTip: "Inokichi is slow but his hunger gives him fury when you damage the food packs on his back. Do not attack the packs — target him directly. The followers are too tired to fight effectively; handle Inokichi first.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inokichi+the+Hungry+walkthrough",
     walkthrough: [
-      "Accept the bounty and intercept Inokichi on the Farm Road.",
-      "Do not attack the food packs on his back — it triggers a fury mode.",
-      "The four followers are sluggish and low-health — knock them down quickly.",
-      "Fight Inokichi one-on-one: he is slow, powerful, and predictable.",
-      "Bait his two-step advance swing and counter twice each time.",
-      "Claim the reward from Kojiro."
+      "Take the bounty.",
+      "Go to the Huranui Mill enemy camp in the north of the Tokachi Range.",
+      "Find the grappling point on the northern cliff above the camp.",
+      "Drop into the area behind the locked wooden gate.",
+      "Kill Inokichi, the camp leader (clearing the camp completes the bounty)."
     ]
   },
 {
@@ -25539,22 +25530,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Oshima Coast",
     title: "Eagle Eye Kondo",
-    location: "Oshima Coast — Coastal Cliffs",
+    location: "Matsumae bounty board → Esan Inlet (south-east Oshima Coast)",
     length: "short",
     difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
-    summary:
-      "A sharpshooter perched on the Oshima coastal cliffs who has sunk three ships with a single Tanzutsu shot each. He commands the cliff overlooking the harbour and picks off anyone he deems a threat.",
-    aiTip:
-      "Kondo fires once every four seconds with near-perfect accuracy. The only safe approach is the underwater tunnel that exits behind his cliff position — swim from the southern beach and ascend from behind.",
+    reward: "750 Coins",
+    summary: "A Matsumae bounty: Kondo the sharpshooter holds a small island with a pink tree off Esan Inlet, guarded by shield men and lookout birds.",
+    aiTip: "Kondo fires once every four seconds with near-perfect accuracy. The only safe approach is the underwater tunnel that exits behind his cliff position — swim from the southern beach and ascend from behind.",
     video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Eagle+Eye+Kondo+walkthrough",
     walkthrough: [
-      "Accept the bounty and swim from the southern Oshima beach.",
-      "Find the underwater tunnel entrance 15 metres below the cliff base.",
-      "Swim through and ascend the tunnel to exit behind Kondo's position.",
-      "Approach from behind for a stealth execution — the easiest ending.",
-      "If detected, stay close and use melee — his Tanzutsu is useless at zero range.",
-      "Claim the reward from Kojiro."
+      "Take the bounty from the Matsumae bounty board.",
+      "Travel to Esan Inlet in the south-east of the Oshima Coast.",
+      "Grapple down from the tree stump to the shore and follow it to the end.",
+      "Shoot down the lookout birds, or swim straight to the island with the pink tree.",
+      "Kill Kondo and his four shielded guards."
     ]
   },
 {
