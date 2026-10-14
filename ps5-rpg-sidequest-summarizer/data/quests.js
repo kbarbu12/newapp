@@ -25203,6 +25203,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Escape aboard the Stinger Mantis; combat basics",
     summary: "Cal Kestis blows his cover saving a friend on the shipbreaking world of Bracca and flees the Empire with Cere and Greez after the Second Sister marks him.",
     aiTip: "Pure tutorial-chase — learn wall-running and Force Slow. Don't panic during the train-slicing set piece; follow the prompts and keep moving.",
+    walkthrough: [
+      "Follow Prauf through the shipbreaking yard to learn climbing and the swinging rope.",
+      "When Prauf falls, use the Force to save him — this alerts the Inquisitors.",
+      "On the train, learn blocking, deflecting blaster bolts and Force Slow.",
+      "Survive the unwinnable fight with the Second Sister by blocking until Cere and the Mantis arrive."
+    ],
     video: "https://www.youtube.com/watch?v=WY1p5aYkvP8"
   },
 {
@@ -25218,6 +25224,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "BD-1 companion; Scomp Link access",
     summary: "Cal explores the quiet world of Bogano, meets the droid BD-1, and searches for a way across the chasm to the mysterious Zeffo Vault.",
     aiTip: "Meet BD-1 at the Meditation Point, then use the sliding vines and wall-runs to cross the sinkhole. Scan everything — Bogano is a collectibles hub you'll revisit.",
+    walkthrough: [
+      "Land on Bogano with Cere and Greez.",
+      "Meet the droid BD-1 and learn Wall Run in the Subterranean Refuge.",
+      "Explore the sinkholes and find a way across the chasm.",
+      "Reach the Vault to continue."
+    ],
     video: "https://www.youtube.com/watch?v=mPbFFbGYb6Q"
   },
 {
@@ -25233,6 +25245,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Cordova's mission; the three-tomb objective",
     summary: "Inside the Zeffo-built Vault, a hologram of Jedi Master Eno Cordova reveals a hidden Holocron listing Force-sensitive children — locked behind the tombs of three Zeffo Sages.",
     aiTip: "Scan the central altar to trigger Cordova's message. This sets your whole journey: Zeffo, Kashyyyk and Dathomir. Grab the nearby chest before leaving.",
+    walkthrough: [
+      "Enter the Zeffo Vault on Bogano.",
+      "Watch BD-1's recording of Eno Cordova.",
+      "Learn the Holocron is sealed and the Zeffo tombs hold the key.",
+      "Return to the Mantis and set course for Zeffo."
+    ],
     video: "https://www.youtube.com/watch?v=GBCyJhnzOfI"
   },
 {
@@ -25248,6 +25266,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Traversal upgrades; first Tomb lead",
     summary: "Following Cordova's trail, Cal lands on the windswept ruins of Zeffo, fighting through Imperial excavations toward the Tomb of Eilram.",
     aiTip: "Use Slow on the spinning fan blades and Scomp-lock the security doors. Stormtroopers here punish greed — parry and counter rather than mashing.",
+    walkthrough: [
+      "Land on Zeffo and fight through the Imperial dig site.",
+      "Use Force Slow to calm the flying debris at the Tomb of Eilram entrance.",
+      "Reactivate the wind device to swing the chandelier and jump across.",
+      "Learn Force Push and use it on the giant balls to open the way out."
+    ],
     video: "https://www.youtube.com/watch?v=1Y82XevS5u0"
   },
 {
@@ -25263,6 +25287,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "New traversal routes; Venator shortcut",
     summary: "Cal pushes deeper into Zeffo's storm-lashed highlands and the crashed Venator Star Destroyer, opening new paths on his way back toward the Mantis.",
     aiTip: "Force Push the wind-powered puzzles and use rusted hull panels as ramps. Overcharge (unlocked later) reopens shortcuts here — flag this area for a return trip.",
+    walkthrough: [
+      "Push on through Zeffo's highlands toward the crashed Venator.",
+      "Use Force Push and Wall Run to open new paths.",
+      "Clear the Imperial forces around the wreckage.",
+      "Find the way forward to the next part of Cordova's trail."
+    ],
     video: "https://www.youtube.com/watch?v=swz22XR5QF0"
   },
 {
@@ -25278,6 +25308,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Force Pull; Wookiee alliance",
     summary: "Cal aids Saw Gerrera's fighters against the Imperial Refinery on Kashyyyk, freeing captured Wookiees and pushing toward the Origin Tree.",
     aiTip: "The AT-ST section lets you turn the tables — hijack one if you can. Clear flametroopers first when saving Wookiees; they melt your health bar.",
+    walkthrough: [
+      "Land on Kashyyyk and join Saw Gerrera's fighters.",
+      "Fight through the Imperial base toward the Imperial Refinery.",
+      "Free the captured Wookiees.",
+      "Help Saw's crew push the Empire back, then return to the Mantis."
+    ],
     video: "https://www.youtube.com/watch?v=9NFf6c6ygEA"
   },
 {
@@ -25293,6 +25329,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Access to the Tomb of Miktrull",
     summary: "With new abilities in hand, Cal returns to Zeffo to seek the second Sage's tomb, braving Imperial forces and ancient guardians.",
     aiTip: "New powers open previously blocked chests across Zeffo. Sweep the Ice Caves and Crash Site on this trip; you now have what you need for most secrets.",
+    walkthrough: [
+      "Return to Zeffo with your new abilities.",
+      "Fight through the Imperial forces to the Tomb of Miktrull.",
+      "Solve the tomb's rope and rotating-wall puzzles.",
+      "Gain Force Pull and use it to escape."
+    ],
     video: "https://www.youtube.com/watch?v=KSwswrolt40"
   },
 {
@@ -25302,12 +25344,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Fallen Order",
     region: "Kashyyyk",
     title: "The Ninth Sister",
-    location: "Kashyyyk — Shadowlands",
+    location: "Kashyyyk — Origin Tree",
     length: "medium",
     difficulty: "High",
     reward: "Story progression; tougher combat",
     summary: "The Inquisitor known as the Ninth Sister ambushes Cal on Kashyyyk in one of the game's toughest duels.",
     aiTip: "She has huge unblockable (red) swings — dodge, don't parry those. Punish the recovery after her overhead slam and save stims for the second phase.",
+    walkthrough: [
+      "Climb toward the Origin Tree on Kashyyyk's second visit — the Ninth Sister hunts you on the way.",
+      "Fight her atop the tree: parry and counter, and dodge her unblockable charge at the last moment.",
+      "Block her Force Push when her free hand comes back.",
+      "At half health she switches to a double-bladed saber — keep parrying to finish her."
+    ],
     video: "https://www.youtube.com/watch?v=0f3-FSqM0vw"
   },
 {
@@ -25323,6 +25371,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "The Astrium (Dathomir key)",
     summary: "Cal climbs the colossal Origin Tree with Tarfful to reach the Shadowlands and claim the Astrium that points the way to Dathomir.",
     aiTip: "This is a long vertical gauntlet — top up stims before you start. The climbing and zipline traversal is as dangerous as the enemies; watch your footing.",
+    walkthrough: [
+      "Return to Kashyyyk and beat the Haxion Brood bounty hunters at the bottom of the lift (dodge behind crates from their flash grenades).",
+      "Cross the pipe bridge toward the tree tunnel.",
+      "Climb the Origin Tree with Tarfful's guidance — a Shyyyo bird helps you against the Ninth Sister.",
+      "Reach the top and claim the Astrium."
+    ],
     video: "https://www.youtube.com/watch?v=mqhLzW3Ygec"
   },
 {
@@ -25338,6 +25392,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Merrin encounter; Nightsister lore",
     summary: "On the haunted world of Dathomir, Cal is stalked by Merrin's undead Nightbrothers as he searches for the Tomb of Kujet.",
     aiTip: "Undead Nightbrothers resurrect unless you deathblow them — clear rooms decisively. You'll be turned back on the first visit; return after Ilum with new powers.",
+    walkthrough: [
+      "Land on Dathomir and explore the Nightbrother village and ruins.",
+      "Fight through Merrin's undead Nightbrothers.",
+      "Meet Taron Malicos, who tempts Cal with the dark side.",
+      "Push toward the Tomb of Kujet until Cal's lightsaber is broken — he must leave for Ilum to rebuild it."
+    ],
     video: "https://www.youtube.com/watch?v=p1jDXfoq6rs"
   },
 {
@@ -25353,6 +25413,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "New lightsaber; Split Saber double-blade",
     summary: "After his weapon is destroyed, Cal travels to the frozen Jedi world of Ilum, braves the Great Crystal Cave, and forges a brand-new lightsaber.",
     aiTip: "The crystal cave is one large puzzle — split the giant crystal with your Force powers to progress. Building the saber unlocks the double-bladed stance.",
+    walkthrough: [
+      "Plant the Dathomir seeds in the Mantis terrarium, then fly to Ilum.",
+      "Take the left route from the landing area to the Jedi Temple.",
+      "Solve the ice and crystal puzzles in the temple.",
+      "Find a kyber crystal and rebuild Cal's lightsaber."
+    ],
     video: "https://www.youtube.com/watch?v=rRGG-NAIcXE"
   },
 {
@@ -25368,6 +25434,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Merrin joins the crew",
     summary: "Cal returns to Dathomir, clears the Tomb of Kujet, and confronts the fallen Jedi Taron Malicos in a brutal duel for the fate of the Nightsisters.",
     aiTip: "Malicos mixes lightsaber and Force-throw attacks — stay mobile and punish his combo enders. Merrin's help turns the tide; survive the opening rush.",
+    walkthrough: [
+      "Return to Dathomir and face the vision of Jaro Tapal again.",
+      "Enter the Tomb of Kujet and beat the Nightbrothers in the first room.",
+      "Fight Malicos — break his guard first and deflect his saber throws.",
+      "At half health Merrin joins you; finish Malicos together.",
+      "Take the Astrium from the tomb with Merrin's help."
+    ],
     video: "https://www.youtube.com/watch?v=99ZQcyja3KQ"
   },
 {
@@ -25383,6 +25456,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "The Holocron; Trilla's identity revealed",
     summary: "Cal finally opens the Bogano Vault and claims the Holocron — only for the Second Sister, Trilla Suduri, to take it in a devastating confrontation.",
     aiTip: "Trilla is fast and aggressive with unblockable stabs. Bait her lunges, dodge sideways, and counter. Don't get greedy between her combos.",
+    walkthrough: [
+      "Return to Bogano with the Astrium.",
+      "Open the Vault and reach the Holocron.",
+      "The Second Sister, Trilla Suduri, ambushes Cal and takes the Holocron.",
+      "Regroup on the Mantis and plan the raid on Nur."
+    ],
     video: "https://www.youtube.com/watch?v=VhcaxfUsqyw"
   },
 {
@@ -25398,6 +25477,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Holocron recovered; Trilla duel",
     summary: "Cal infiltrates the Inquisitors' undersea Fortress on the moon Nur to reclaim the Holocron, fighting through elite guards to a final reckoning with Trilla.",
     aiTip: "Flood-and-swim traversal and heavy Purge Trooper fights await — upgrade your stims beforehand and save resources for the Trilla rematch at the top.",
+    walkthrough: [
+      "Infiltrate the Fortress Inquisitorius under Nur's ocean.",
+      "Fight through the Purge Troopers and Inquisitors.",
+      "Reach the Interrogation Chamber and face the Second Sister for the last time — parry, and dodge her unblockable red attacks.",
+      "Defeat her and recover the Holocron."
+    ],
     video: "https://www.youtube.com/watch?v=G6jmOpk1On8"
   },
 {
@@ -25413,6 +25498,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Game completion; the crew's decision",
     summary: "As the fortress falls, Darth Vader arrives. Cal and Cere must survive the unkillable Sith Lord and escape Nur with the Holocron and their lives.",
     aiTip: "You cannot beat Vader — this is a survival/escape sequence. Use the environment (Force Push the debris and water valves) and run for the exit; don't stand and fight.",
+    walkthrough: [
+      "Darth Vader arrives and executes the Second Sister.",
+      "Don't fight him — run from Vader through the fortress.",
+      "Survive until Cere arrives to hold him off.",
+      "Escape Nur on the Mantis with the Holocron."
+    ],
     video: "https://www.youtube.com/watch?v=OMf8vZGGDSo"
   },
 {
@@ -25422,12 +25513,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Star Wars Jedi: Fallen Order",
     region: "Bogano",
     title: "Legendary Beast: Oggdo Boggdo",
-    location: "Bogano — hidden cave",
+    location: "Bogano — Bogdo Sinkholes",
     length: "short",
     difficulty: "High",
     reward: "Legendary Beasts progress; cosmetic chest",
     summary: "A giant toad-like predator guarding a hidden cave on Bogano — one of four optional Legendary Beasts and a notorious early-game wall.",
     aiTip: "One of the hardest fights relative to your level. Its tongue-grab and bite are unblockable — dodge, land two hits, reset. Bring full stims; patience wins.",
+    walkthrough: [
+      "Return to Bogano with Force Pull and enter the Bogdo Sinkholes.",
+      "Find Oggdo Bogdo's cave.",
+      "Dodge its tongue grab and leaps — it's one of the hardest optional fights.",
+      "Defeat it to count toward the Legendary Beasts trophy."
+    ],
     video: "https://www.youtube.com/watch?v=KrBOOyUHpjo"
   },
 {
@@ -25443,6 +25540,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Legendary Beasts progress; Force Essence nearby",
     summary: "A savage, oversized Jotaz lurking in a hidden alcove near Zeffo's Crash Site — the second Legendary Beast.",
     aiTip: "Open with a jump-attack from the ledge above to steal early damage. Its heavy overheads are unblockable; circle-strafe and punish after each swing.",
+    walkthrough: [
+      "Go to Zeffo's Broken Wing / Crash Site area.",
+      "Find the quarantined alcove surrounded by wreckage.",
+      "Fight the Rabid Jotaz — dodge its charges and counter.",
+      "Defeat it to count toward the Legendary Beasts trophy."
+    ],
     video: "https://www.youtube.com/watch?v=a_vs_HIj_EA"
   },
 {
@@ -25458,6 +25561,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Legendary Beasts progress; hidden chest",
     summary: "A massive white spider hiding in a cave along the path to the imprisoned Wookiees on Kashyyyk — the third Legendary Beast.",
     aiTip: "It webs you in place and lunges — cut the web fast and dodge the leap. Fight near the entrance so you're not cornered by its ranged web spit.",
+    walkthrough: [
+      "On Kashyyyk, head west of the Imperial base toward the Imperial Refinery.",
+      "Follow the path up into the wooded area to the spider cave.",
+      "Fight the Albino Wyyyschokk — avoid its pounces and poison.",
+      "Defeat it to count toward the Legendary Beasts trophy."
+    ],
     video: "https://www.youtube.com/watch?v=Rln6LHdASQA"
   },
 {
@@ -25473,6 +25582,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Legendary Beasts trophy (all four); rare chest",
     summary: "An apex Nydak prowling beside the Tomb of Kujet entrance on Dathomir — the fourth and final Legendary Beast.",
     aiTip: "Return with climbing claws and upgraded health. It hits hard and fast; bait its lunge, dodge through, and punish. Clearing all four unlocks the trophy.",
+    walkthrough: [
+      "Go to Dathomir's Nightmare Ruins / Strangled Cliffs.",
+      "Find the Nydak Alpha.",
+      "Dodge its heavy charges and punish its recoveries.",
+      "Defeat it to finish the Legendary Beasts set."
+    ],
     video: "https://www.youtube.com/watch?v=zSNuTPkJ1Dw"
   },
 {
@@ -25488,6 +25603,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Force Push ability; Force Essence, chests",
     summary: "The first Zeffo Sage tomb — a series of wind- and sphere-based puzzles that culminate in Cal learning Force Push.",
     aiTip: "Everything revolves around the giant metal balls and wind vents. Roll a ball into a socket to raise stairs; save the optional Force Essence room for a return with Push.",
+    walkthrough: [
+      "Calm the flying debris at the entrance with Force Slow.",
+      "Reactivate the wind device to swing the chandelier close enough to jump.",
+      "Fight the Tomb Guardian, then learn Force Push.",
+      "Push the three giant balls into their slots to open the door to the elevator."
+    ],
     video: "https://www.youtube.com/watch?v=YSiLe6jGV_o"
   },
 {
@@ -25503,6 +25624,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Force Pull ability; chests, Force Echoes",
     summary: "The second Sage tomb — a vertical puzzle box of magnetic ropes and rotating walls that grants Cal the Force Pull ability.",
     aiTip: "Use the giant hanging plates and pull-ropes to build climbing routes. The magnetic-ball wall puzzle is the tricky one — rotate the room, then pull the ball across.",
+    walkthrough: [
+      "Return to Zeffo and reach the Tomb of Miktrull.",
+      "Use the magnetic ropes and rotating walls to climb the tomb.",
+      "Solve the sphere puzzles to open each level.",
+      "Learn Force Pull at the end."
+    ],
     video: "https://www.youtube.com/watch?v=6XHoC3oKHHE"
   },
 {
@@ -25518,6 +25645,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Story progression; chests, Force Essence",
     summary: "The final Sage tomb, hidden on Dathomir — a dark, oppressive gauntlet of Nightsister magic and puzzles guarding the last secret of Cal's journey.",
     aiTip: "Darker and more combat-heavy than the Zeffo tombs. Use your full kit — Push, Pull and Slow together solve the late rooms. Grab the Force Essence before the exit.",
+    walkthrough: [
+      "Reach the Tomb of Kujet on Dathomir.",
+      "Fight the Nightbrothers in the first room.",
+      "Work through the dark puzzles toward Malicos.",
+      "Defeat Malicos with Merrin and claim the Astrium."
+    ],
     video: "https://www.youtube.com/watch?v=CGWyPxeMe6s"
   },
 {
@@ -25533,6 +25666,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Outfits, lightsaber parts, BD-1 & Mantis skins",
     summary: "107 chests are scattered across every planet, holding cosmetic outfits, ponchos, lightsaber components and paint jobs for Cal, BD-1 and the Stinger Mantis.",
     aiTip: "Many chests need abilities you unlock later — don't chase 100% on a first pass. Use the holomap's per-zone percentage and return once you have Push, Pull and Overcharge.",
+    walkthrough: [
+      "Explore every planet and open chests (BD-1 scans reveal hidden ones).",
+      "Use the holomap to see which areas still have chests.",
+      "Come back with new abilities for locked-off chests.",
+      "Equip ponchos, lightsaber parts, BD-1 skins and Mantis paints at a workbench."
+    ],
     video: "https://www.youtube.com/watch?v=Y4jqjCIvkZs"
   },
 {
@@ -25548,6 +25687,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Lore entries; XP toward skill points",
     summary: "Scannable Force Echoes hidden across the planets flesh out the story of the Zeffo, the Empire and Cal's past — 75 are needed for the Echo Location trophy.",
     aiTip: "BD-1 pings when one is near — pan the camera and scan glowing objects. They also grant XP, so scanning as you explore quietly levels your skill tree.",
+    walkthrough: [
+      "Look for glowing Force Echoes on every planet.",
+      "Interact to hear their memories and fill the Databank.",
+      "Use the holomap to track remaining echoes.",
+      "Return with new abilities to reach missed ones."
+    ],
     video: "https://www.youtube.com/watch?v=JWRyi2fK63A"
   },
 {
@@ -25563,6 +25708,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Cordova's Journey databank; Data Disk trophy",
     summary: "19 Encrypted Logs — BD-1's data disks left by Eno Cordova — are hidden across the worlds, unlocking the 'Cordova's Journey' databank archive.",
     aiTip: "Seven are story-unmissable; the other 12 need BD-1 to prompt a scan in specific spots. Grab them on later revisits when more of each planet is reachable.",
+    walkthrough: [
+      "Find BD-1's Encrypted Logs hidden across the worlds.",
+      "Collect them to unlock Cordova's recordings.",
+      "Use the holomap to track the remaining logs.",
+      "Gather all 19 for the completion reward."
+    ],
     video: "https://www.youtube.com/watch?v=tO_MdvgScLU"
   },
 {
@@ -25578,6 +25729,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Extra BD-1 healing charges; Medical Droid trophy",
     summary: "Ten Stim Canisters hidden across the planets each raise the number of healing stims BD-1 can carry — the single most valuable exploration reward.",
     aiTip: "Prioritize these above cosmetics — more stims make every boss easier. Collecting all ten earns the Medical Droid trophy and maxes your heals at eight.",
+    walkthrough: [
+      "Find the ten Stim Canisters hidden across the planets.",
+      "Each adds one healing stim to BD-1.",
+      "Check secret rooms and puzzle ends.",
+      "Return with new abilities for hard-to-reach ones."
+    ],
     video: "https://www.youtube.com/watch?v=6BkyXNX2zJU"
   },
 {
@@ -25593,6 +25750,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Permanent max Force & Health increases",
     summary: "Life and Force Essences tucked into secret rooms permanently raise Cal's maximum health and Force meter — every three of a type grants an upgrade.",
     aiTip: "These sit behind the game's trickier optional puzzles and mini-boss arenas. Chase them after you have the full ability kit so nothing is locked away.",
+    walkthrough: [
+      "Look for Life and Force Essences in secret rooms.",
+      "Life Essence raises max health; Force Essence raises your Force meter.",
+      "Use the holomap to spot remaining essences.",
+      "Return with new abilities to reach locked rooms."
+    ],
     video: "https://www.youtube.com/watch?v=pdMS4e7yO5A"
   },
 {
@@ -25608,6 +25771,12 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Greez's terrarium (Green Thumb trophy)",
     summary: "Ten rare Terrarium Seeds are scannable on the planets; bring them back to Greez's terrarium aboard the Mantis to grow the ship's garden.",
     aiTip: "Purely optional and cosmetic — scan unusual plants when BD-1 flags them. Finding all ten completes the terrarium for the Green Thumb trophy.",
+    walkthrough: [
+      "Scan rare seeds on the planets with BD-1.",
+      "Pick up the seed pods.",
+      "Plant them in Greez's terrarium aboard the Mantis.",
+      "Collect all ten to complete the terrarium."
+    ],
     video: "https://www.youtube.com/watch?v=HsEOvh9acjQ"
   },
 {

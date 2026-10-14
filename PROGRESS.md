@@ -109,6 +109,11 @@
   Chambers all verified real; a few locations corrected (Korej Lim →
   Devastated Settlement, Chamber of Fortitude → Southern Reach).
 
+- **Star Wars Jedi: Fallen Order:** all 28 video quests got steps (story from
+  Bracca to Nur, the 4 Legendary Beasts, the 3 Zeffo/Dathomir tombs,
+  collectibles). Data was mostly right; Ninth Sister fight moved to the
+  Origin Tree, Oggdo Bogdo to the Bogdo Sinkholes.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
