@@ -770,10 +770,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Money, narrative outcome, moral choices",
-    summary:
-      "A disturbing and philosophical questline built around guilt, punishment, media exploitation, and player discomfort rather than traditional combat.",
-    aiTip:
-      "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward.",
+    summary: "A disturbing and philosophical questline built around guilt, punishment, media exploitation, and player discomfort rather than traditional combat.",
+    aiTip: "Play this when you have time to follow the dialogue. The impact comes from the story, not the reward.",
+    walkthrough: [
+      "Finish Life During Wartime — Wakako's text starts the job.",
+      "Meet Bill Jablonsky in the parking lot and get in his truck.",
+      "Wait for the NCPD transport to pass and follow it, then follow Jablonsky on foot.",
+      "Jablonsky is shot — talk to the prisoner, Joshua Stephenson.",
+      "Decide: carry out the hit (about €$5,000, story ends) or spare him to start There Is a Light That Never Goes Out."
+    ],
     video: "https://www.youtube.com/watch?v=M8kG3zOzoSQ"
   },
 {
@@ -786,10 +791,15 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Political mystery resolution",
-    summary:
-      "A conspiracy-focused side quest where investigation matters more than combat. It explores surveillance, manipulation, and power in Night City.",
-    aiTip:
-      "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal.",
+    summary: "A conspiracy-focused side quest where investigation matters more than combat. It explores surveillance, manipulation, and power in Night City.",
+    aiTip: "Scan everything in the apartment and listen to the environmental clues before deciding how much truth to reveal.",
+    walkthrough: [
+      "A couple of in-game days after I Fought the Law, answer the Peraleses' call.",
+      "Search their apartment and follow the trail to the hidden surveillance room (force it with high Body or use code 6709 from the security room computer).",
+      "Follow the wires to the roof and scan west to find the transmission source.",
+      "Chase the surveillance van and pull the data from it.",
+      "Meet Elizabeth at the ramen restaurant and decide whether to tell Jefferson the truth."
+    ],
     video: "https://www.youtube.com/watch?v=PzNDAYy10BY"
   },
 {
@@ -802,10 +812,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "River Ward romance option, unique weapon",
-    summary:
-      "A dark detective questline where you use braindance technology to track a serial kidnapper. One of the most tense and emotionally heavy side jobs in the game.",
-    aiTip:
-      "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically.",
+    summary: "A dark detective questline where you use braindance technology to track a serial kidnapper. One of the most tense and emotionally heavy side jobs in the game.",
+    aiTip: "Pay close attention during braindance sequences — missing clues means missing the correct location, which changes the outcome drastically.",
+    walkthrough: [
+      "After I Fought the Law, River Ward contacts you; meet him in the evening.",
+      "Gather information on the comatose Harris from the clinic.",
+      "At Randy's home, review the braindances and check the computer under his bed.",
+      "Go to Edgewood Farm — disable the turrets through the hidden room's computer and drop into the barn from the roof.",
+      "Shut off the braindance machines, free the victims and Randy, then decide whether to let River kill Harris."
+    ],
     video: "https://www.youtube.com/watch?v=rDjVYk-ByhQ"
   },
 {
@@ -2011,10 +2026,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Judy romance, Diving Suit, emotional payoff",
-    summary:
-      "Follow Judy Alvarez through her quest to take down the Clouds dollhouse and reclaim her past. The final quest, Pyramid Song, features an underwater dive through a submerged town — one of the most beautiful and intimate moments in the game.",
-    aiTip:
-      "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush.",
+    summary: "Follow Judy Alvarez through her quest to take down the Clouds dollhouse and reclaim her past. The final quest, Pyramid Song, features an underwater dive through a submerged town — one of the most beautiful and intimate moments in the game.",
+    aiTip: "Play as female V for the romance option. Take your time during the diving sequence — the environmental storytelling is exceptional and easily missed if you rush.",
+    walkthrough: [
+      "Both Sides, Now: after Double Life, answer Judy's call.",
+      "Ex-Factor: reply to 'EV's Send Off' and wait for Judy's call.",
+      "Talkin' 'Bout a Revolution: help Judy plan the takeover of Clouds.",
+      "Pisces: meet at megabuilding H8 and settle Clouds' fate (don't accept Maiko's reward if you want the last job).",
+      "Pyramid Song: dive with Judy at Laguna Bend near the Lake Farm fast-travel point."
+    ],
     video: "https://www.youtube.com/watch?v=M-9aTafUwgI"
   },
 {
@@ -2029,26 +2049,36 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Johnny's Porsche 911 II, Malorian Arms pistol",
-    summary:
-      "Help Johnny Silverhand settle old scores with the remnants of his band and confront his past at the oil fields where his body was dumped. A pivotal quest that determines your relationship with Johnny and unlocks the secret ending.",
-    aiTip:
-      "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available.",
+    summary: "Help Johnny Silverhand settle old scores with the remnants of his band and confront his past at the oil fields where his body was dumped. A pivotal quest that determines your relationship with Johnny and unlocks the secret ending.",
+    aiTip: "Choose dialogue options that show empathy toward Johnny — your relationship score here directly affects whether the secret ending becomes available.",
+    walkthrough: [
+      "After Tapeworm (Act 3), follow Johnny's lead and Misty's pills.",
+      "Meet Rogue and get on Grayson's trail.",
+      "Find Grayson and recover Johnny's old Porsche.",
+      "Drive to the oil fields and Johnny's grave.",
+      "Choose Johnny's dialogue carefully — it decides Blistering Love and the secret ending."
+    ],
     video: "https://www.youtube.com/watch?v=LI9x_SG0zMg"
   },
 {
     id: 80,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "City Center",
+    region: "Heywood",
     title: "The Peralez Conspiracy (I Fought the Law)",
-    location: "Night City / Charter Hill",
+    location: "The Glen, Heywood",
     length: "long",
     difficulty: "Medium",
     reward: "Eddies, political intrigue resolution",
-    summary:
-      "Investigate a seemingly routine case for a mayoral candidate that spirals into a terrifying conspiracy about mind control, surveillance, and hidden powers manipulating Night City from the shadows.",
-    aiTip:
-      "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture.",
+    summary: "Investigate a seemingly routine case for a mayoral candidate that spirals into a terrifying conspiracy about mind control, surveillance, and hidden powers manipulating Night City from the shadows.",
+    aiTip: "Scan every piece of evidence at each crime scene. The conspiracy goes deeper than the game explicitly tells you — read all shards and emails for the full picture.",
+    walkthrough: [
+      "After Life During Wartime (Street Cred 13), answer Elizabeth Peralez's call.",
+      "Watch the braindance of Mayor Rhyne's death and scan for clues.",
+      "Talk to Jefferson, then work with Detective River Ward.",
+      "Follow the leads through Christine Markov and the Tyger Claws.",
+      "Finish the Red Queen's Race and confront Detective Han."
+    ],
     video: "https://www.youtube.com/watch?v=CBZYBz7ku5k"
   },
 {
@@ -2061,10 +2091,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "Relic skill tree access, Dogtown exploration",
-    summary:
-      "The opening mission of the Phantom Liberty expansion plunges V into Dogtown's dangerous politics. Work with NUSA agent Solomon Reed to infiltrate a fortified stadium and rescue the President of the New United States.",
-    aiTip:
-      "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly.",
+    summary: "The turning point of Phantom Liberty: at the Black Sapphire, V must choose between helping Songbird escape with the Neural Matrix or siding with Solomon Reed and the NUSA.",
+    aiTip: "Explore Dogtown thoroughly after this mission — the expansion's best side content opens up. The Relic skill tree transforms V's combat abilities significantly.",
+    walkthrough: [
+      "Reach Firestarter after the gala and the Neural Matrix arc.",
+      "Learn what Songbird really plans — escape with the Neural Matrix.",
+      "Choose your side: 'One more sec…' sides with Reed, otherwise you go with Songbird.",
+      "The choice decides the rest of the expansion (Songbird's path leads to The Killing Moon)."
+    ],
     video: "https://www.youtube.com/watch?v=r31zTg5KEXU"
   },
 {
@@ -2933,10 +2967,15 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Kerry romance, Davoud guitar, emotional payoff",
-    summary:
-      "Help legendary rocker Kerry Eurodyne reignite his passion for music and deal with corporate sabotage of his comeback tour. A feel-good questline with an optional romance and some of the best music in the game.",
-    aiTip:
-      "Male V only for the romance option. Exhaust all dialogue during band practice sessions — it unlocks additional quest steps and raises the affection meter.",
+    summary: "Help legendary rocker Kerry Eurodyne reignite his passion for music and deal with corporate sabotage of his comeback tour. A feel-good questline with an optional romance and some of the best music in the game.",
+    aiTip: "Male V only for the romance option. Exhaust all dialogue during band practice sessions — it unlocks additional quest steps and raises the affection meter.",
+    walkthrough: [
+      "After Blistering Love (Act 3), Kerry calls for Holdin' On.",
+      "Play through Second Conflict and A Like Supreme.",
+      "Help with Rebel! Rebel! and I Don't Wanna Hear It.",
+      "Answer his call for Off the Leash 12 hours later.",
+      "Finish with Boat Drinks 24 hours after that (romance only for male V)."
+    ],
     video: "https://www.youtube.com/watch?v=TarX-C4vhik"
   },
 {
@@ -2949,10 +2988,14 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "River romance, unique revolver, NCPD ally",
-    summary:
-      "Help detective River Ward track down his missing nephew Randy through a harrowing chain of events involving a serial killer, illegal braindances, and a derelict farm. One of the most emotionally impactful side quests in the game.",
-    aiTip:
-      "Female V only for the romance path. During the farm sequence, memorise the four sets of directions given — you must recall them precisely without notes to save Randy.",
+    summary: "Help detective River Ward track down his missing nephew Randy through a harrowing chain of events involving a serial killer, illegal braindances, and a derelict farm. One of the most emotionally impactful side quests in the game.",
+    aiTip: "Female V only for the romance path. During the farm sequence, memorise the four sets of directions given — you must recall them precisely without notes to save Randy.",
+    walkthrough: [
+      "Finish I Fought the Law to meet River.",
+      "Help him in The Hunt — track his nephew Randy to Edgewood Farm.",
+      "Wait for River's call for Following the River.",
+      "Spend the day with River and his family (romance option for female V)."
+    ],
     video: "https://www.youtube.com/watch?v=xX6auIAS1uU"
   },
 {
@@ -2965,10 +3008,14 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Panam romance, Aldecaldo family allies, secret ending",
-    summary:
-      "Build a relationship with nomad Panam Palmer as she rallies her clan against Militech and plans a massive heist. Her storyline is one of the most satisfying in the game and unlocks the secret Nomad ending.",
-    aiTip:
-      "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
+    summary: "Build a relationship with nomad Panam Palmer as she rallies her clan against Militech and plans a massive heist. Her storyline is one of the most satisfying in the game and unlocks the secret Nomad ending.",
+    aiTip: "Male V only for romance. Always side with Panam in disagreements. Completing her questline fully is required to access the Nomad ending, considered by many to be the best conclusion.",
+    walkthrough: [
+      "Riders on the Storm: rescue Saul from the Raffen Shiv outpost.",
+      "With a Little Help from My Friends: help Panam take down Nash.",
+      "Queen of the Highway: fly the Basilisk with Panam.",
+      "Finish her later jobs to unlock the Aldecaldo ending path."
+    ],
     video: "https://www.youtube.com/playlist?list=PLU9RCp3FVNkSAPtWpgXD3NabQLTHTj-36"
   },
 {
@@ -2981,26 +3028,35 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "New Relic ending, Songbird resolution",
-    summary:
-      "The climactic mission of Phantom Liberty forces an impossible choice between saving Songbird or handing her over to the NUSA. The most morally complex decision in the expansion with two wildly different conclusions.",
-    aiTip:
-      "Save before this mission and experience both endings — they're dramatically different. The Songbird path unlocks a brand new fourth ending for the base game.",
+    summary: "On Reed's path after Firestarter, V and Songbird head into the Cynosure bunker — where Songbird begs V to end it. Sparing her is the way to the cure ending.",
+    aiTip: "Save before this mission and experience both endings — they're dramatically different. The Songbird path unlocks a brand new fourth ending for the base game.",
+    walkthrough: [
+      "Side with Reed in Firestarter ('One more sec…').",
+      "Enter the Cynosure bunker with Songbird.",
+      "Get through the facility while the Cerberus hunts you.",
+      "When Songbird begs you to kill her, answer 'That's not a solution!' and spare her for the cure ending — killing her gives the King of Cups ending instead."
+    ],
     video: "https://www.youtube.com/watch?v=FjJaMeQ8wLE"
   },
 {
     id: 136,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Westbrook",
+    region: "Watson",
     title: "Violence",
-    location: "Night City / Clouds",
+    location: "No-Tell Motel, Watson / Riot club, Little China",
     length: "medium",
     difficulty: "Low",
     reward: "Stairway to Heaven iconic weapon, XP",
-    summary:
-      "Help a mysterious braindance artist named Lizzy Wizzy who is struggling with grief and identity after having her entire body chrome-plated. A quiet, atmospheric quest that highlights the human cost of body modification.",
-    aiTip:
-      "This quest has no combat — it's purely dialogue and atmosphere. Take your time and engage fully with Lizzy's story for the best experience and the iconic weapon reward.",
+    summary: "Lizzy Wizzy thinks her lover Liam is cheating. Spy on him at the Riot club and find out he's planning something much worse.",
+    aiTip: "This quest has no combat — it's purely dialogue and atmosphere. Take your time and engage fully with Lizzy's story for the best experience and the iconic weapon reward.",
+    walkthrough: [
+      "After Search and Destroy, meet Lizzy Wizzy in Room 210 of the No-Tell Motel in Watson.",
+      "Go to the Riot club in Little China after 6 PM and ask the bartender about Liam.",
+      "Get into the VIP area (staff door and elevator, or through the garage).",
+      "Listen in at the security terminal and steal the footage.",
+      "Tell Lizzy the truth to continue — later, dump Liam's body down the motel trash chute."
+    ],
     video: "https://www.youtube.com/watch?v=1YNkVrWNP0o"
   },
 {
@@ -3015,26 +3071,36 @@ const quests = [
     length: "medium",
     difficulty: "High",
     reward: "Panam questline progression, Saul rescued",
-    summary:
-      "Race against a deadly Raffen Shiv sandstorm to rescue Panam's clan leader Saul from a nomad gang's camp. A time-pressured mission that tests both driving skills and combat ability under harsh weather conditions.",
-    aiTip:
-      "The storm hits a timer — don't explore, go straight to the objective. Inside the camp, stealth is possible but the storm outside forces combat on the way out.",
+    summary: "Race against a deadly Raffen Shiv sandstorm to rescue Panam's clan leader Saul from a nomad gang's camp. A time-pressured mission that tests both driving skills and combat ability under harsh weather conditions.",
+    aiTip: "The storm hits a timer — don't explore, go straight to the objective. Inside the camp, stealth is possible but the storm outside forces combat on the way out.",
+    walkthrough: [
+      "After Life During Wartime and 12 hours, take Panam's call and meet her at the Aldecaldo camp.",
+      "Meet Mitch for the recon video, then ride with Panam to the Raffen outpost (going alone fails the job).",
+      "Sneak in via the green dumpster on the left while Panam covers you.",
+      "Take over the cameras in the control room and free Saul.",
+      "Escape through the maintenance tunnel, drive the van and restore the farm's power."
+    ],
     video: "https://www.youtube.com/watch?v=82hrT1j_Fpc"
   },
 {
     id: 138,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Badlands",
+    region: "Westbrook",
     title: "The Ballad of Buck Ravers",
-    location: "Pacifica",
+    location: "Jig-Jig Street, Japantown",
     length: "short",
     difficulty: "Low",
     reward: "Unique weapon, local lore, XP",
-    summary:
-      "Track down a legendary street musician in Pacifica whose music has taken on almost mythical status in Night City. A short but beautifully written quest about art, legacy, and how stories grow in the telling.",
-    aiTip:
-      "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
+    summary: "Johnny recognises a street musician on Jig-Jig Street and goes hunting for old Samurai concert tapes.",
+    aiTip: "Explore Pacifica fully before triggering this — the area has some of the best environmental storytelling in the game. The quest reward is minor but the writing is exceptional.",
+    walkthrough: [
+      "After Playing for Time, approach the street musician south of the Cherry Blossom Market fast-travel point.",
+      "Listen to Johnny, then go to the place he thinks is Rainbow Cadenza — it's now a noodle restaurant.",
+      "Ask the cook about the tapes; he points you to a vendor outside.",
+      "Persuade the vendor and buy the Samurai Concert Recordings.",
+      "Return to Johnny."
+    ],
     video: "https://www.youtube.com/watch?v=Ea6mRQEyT7g"
   },
 {
@@ -5071,10 +5137,15 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "The Relic, the story's inciting event",
-    summary:
-      "V and Jackie infiltrate Konpeki Plaza to steal Arasaka's experimental biochip. The night that changes everything — and gives V an unwanted passenger named Johnny Silverhand.",
-    aiTip:
-      "Loot Yorinobu's suite thoroughly (the iguana egg is here!) and don't rush the stealth section — the hotel turns hostile the moment the alarm trips.",
+    summary: "V and Jackie infiltrate Konpeki Plaza to steal Arasaka's experimental biochip. The night that changes everything — and gives V an unwanted passenger named Johnny Silverhand.",
+    aiTip: "Loot Yorinobu's suite thoroughly (the iguana egg is here!) and don't rush the stealth section — the hotel turns hostile the moment the alarm trips.",
+    walkthrough: [
+      "Meet Jackie and T-Bug and infiltrate Konpeki Plaza with Dexter's plan.",
+      "Sneak through the hotel to Yorinobu Arasaka's suite.",
+      "Grab the Relic biochip — then witness Saburo Arasaka's murder.",
+      "Escape the hotel as Arasaka locks down the tower.",
+      "Get out with Delamain — and slot the chip to save it."
+    ],
     video: "https://www.youtube.com/watch?v=qbIs8-j1UmY"
   },
 {
@@ -5087,10 +5158,14 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Contact with Alt Cunningham, Johnny's backstory",
-    summary:
-      "Descend beneath the Pacifica chapel into the Voodoo Boys' netrunner den and dive past the Blackwall to meet the legendary Alt Cunningham.",
-    aiTip:
-      "Your NetWatch-or-Voodoo-Boys choice in I Walk the Line decides whether you leave peacefully or fight Placide's men on the way out — pick before you commit.",
+    summary: "Descend beneath the Pacifica chapel into the Voodoo Boys' netrunner den and dive past the Blackwall to meet the legendary Alt Cunningham.",
+    aiTip: "Your NetWatch-or-Voodoo-Boys choice in I Walk the Line decides whether you leave peacefully or fight Placide's men on the way out — pick before you commit.",
+    walkthrough: [
+      "After I Walk the Line, accept Brigitte's offer (or call her).",
+      "Follow her to the chapel and get into the ice bath.",
+      "Dive past the Blackwall to find Alt Cunningham — and relive Never Fade Away as Johnny.",
+      "If you stayed loyal to Placide, leave peacefully; if you dealt with Netwatch, the Voodoo Boys die."
+    ],
     video: "https://www.youtube.com/watch?v=e9pzvGVexsg"
   },
 {
@@ -5103,10 +5178,14 @@ const quests = [
     length: "short",
     difficulty: "Medium",
     reward: "Access to every ending path",
-    summary:
-      "Dinner with Hanako Arasaka, then the rooftop with Misty: the single conversation that decides which of the game's endings you'll experience.",
-    aiTip:
-      "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
+    summary: "Dinner with Hanako Arasaka, then the rooftop with Misty: the single conversation that decides which of the game's endings you'll experience.",
+    aiTip: "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
+    walkthrough: [
+      "Finish Nocturne Op55N1's dinner with Hanako Arasaka at Embers.",
+      "Go to the rooftop with Misty and Johnny.",
+      "Choose your path: Arasaka (Hanako), Aldecaldos (Panam), Johnny's solo raid, or Rogue/Johnny.",
+      "This is the point of no return — save first."
+    ],
     video: "https://www.youtube.com/watch?v=onmRkZZRMy0"
   },
 {
@@ -5119,10 +5198,14 @@ const quests = [
     length: "long",
     difficulty: "High",
     reward: "The hidden ending — V and Johnny storm Arasaka alone",
-    summary:
-      "The game's true secret: earn Johnny's respect in Chippin' In, then stay silent on the rooftop for five minutes and he'll propose a two-man suicide run on Arasaka Tower. No allies, no second chances.",
-    aiTip:
-      "You must pick the exact 'friendship' dialogue at Johnny's grave in Chippin' In. Dying in the tower means game over — no respawn. Stock grenades and healing.",
+    summary: "The game's true secret: earn Johnny's respect in Chippin' In, then stay silent on the rooftop for five minutes and he'll propose a two-man suicide run on Arasaka Tower. No allies, no second chances.",
+    aiTip: "You must pick the exact 'friendship' dialogue at Johnny's grave in Chippin' In. Dying in the tower means game over — no respawn. Stock grenades and healing.",
+    walkthrough: [
+      "Get Johnny's relationship high enough during Chippin' In (pick the right dialogue at the oil fields and grave).",
+      "Finish Blistering Love so the bond holds.",
+      "On the rooftop in Nocturne Op55N1, wait about five minutes without choosing.",
+      "Johnny proposes a solo assault on Arasaka Tower — no checkpoints, no retries; prepare fully."
+    ],
     video: "https://www.youtube.com/watch?v=gKr_dniHkyE"
   },
 {
@@ -5135,10 +5218,14 @@ const quests = [
     length: "short",
     difficulty: "Low",
     reward: "Skippy, the self-aware iconic smart pistol",
-    summary:
-      "In a Heywood alley lies Skippy — a chirpy, singing, morally opinionated smart pistol. Use him for 50 kills and he demands to be returned to his original owner.",
-    aiTip:
-      "Choose 'Stone Cold Killer' mode when he asks — Skippy ironically switches to the pacifist setting permanently after 50 kills, and headshot mode is the one you want long-term.",
+    summary: "In a Heywood alley lies Skippy — a chirpy, singing, morally opinionated smart pistol. Use him for 50 kills and he demands to be returned to his original owner.",
+    aiTip: "Choose 'Stone Cold Killer' mode when he asks — Skippy ironically switches to the pacifist setting permanently after 50 kills, and headshot mode is the one you want long-term.",
+    walkthrough: [
+      "Reach Act 2, then fast-travel to College Street in Vista del Rey, Heywood.",
+      "Climb the boxes and rubbish into the blocked-off alley.",
+      "Loot Skippy from the dead body at the marker — he starts talking right away.",
+      "Pick Stone-Cold Killer (headshots) or Puppy-Loving Pacifist (legs); he flips after about 50 kills."
+    ],
     video: "https://www.youtube.com/watch?v=H8UbAFX9Xos"
   },
 {
@@ -5151,10 +5238,14 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Regina's reward stream, I Am The Law achievement",
-    summary:
-      "Regina Jones tasks V with taking down all 17 cyberpsychos scattered across Night City — non-lethally if you can manage it. Each one is a mini boss fight with its own tragic story.",
-    aiTip:
-      "Use blunt weapons or short-circuit quickhacks to keep them alive; read each victim's shard afterward. Several only spawn after certain story progress.",
+    summary: "Regina Jones tasks V with taking down all 17 cyberpsychos scattered across Night City — non-lethally if you can manage it. Each one is a mini boss fight with its own tragic story.",
+    aiTip: "Use blunt weapons or short-circuit quickhacks to keep them alive; read each victim's shard afterward. Several only spawn after certain story progress.",
+    walkthrough: [
+      "Get Regina Jones' Psycho Killer job.",
+      "Find the 17 cyberpsycho sightings marked as yellow gigs around Night City.",
+      "Take each one down — non-lethally if you can (blunt weapons, non-lethal mods).",
+      "Text Regina after each one, then meet her on the 13th floor of her building when all 17 are done."
+    ],
     video: "https://www.youtube.com/watch?v=nYIw1huUd4Q"
   },
 {

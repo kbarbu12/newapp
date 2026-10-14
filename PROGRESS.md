@@ -129,6 +129,13 @@
   Outer Worlds (no such simulator challenge) and Witcher 3 #41 The Phantom of
   Eldberg (duplicate of #626 Contract: The Phantom of Eldberg).
 
+- **Cyberpunk 2077:** all 20 video quests got steps (Sinnerman, the main
+  romance/companion lines, the Peralez gigs, Phantom Liberty, Skippy, the
+  cyberpsychos, the secret ending). Fixed regions (I Fought the Law →
+  Heywood, Violence → Watson, Buck Ravers → Westbrook) and wrong summaries:
+  Firestarter is the Black Sapphire choice (not the opener), Violence is Lizzy
+  Wizzy and Liam, Buck Ravers is on Jig-Jig Street.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
