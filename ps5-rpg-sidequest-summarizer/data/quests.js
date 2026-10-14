@@ -1527,14 +1527,19 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Spirit of Yarikawa's Vengeance",
-    location: "Ruins of Old Yarikawa, Toyotama",
+    location: "Ruins of Old Yarikawa → Garden of the Gods, Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Dance of Wrath combat technique, Omukade's Revenge Sword Kit",
-    summary:
-      "This Mythic Tale sends Jin to the ruins of Old Yarikawa to confront a vengeful spirit. After finding pillars of white smoke and collecting offerings, a tense duel awaits in the Garden of the Gods.",
-    aiTip:
-      "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints.",
+    reward: "Dance of Wrath technique, Sword Kit, moderate Legend increase",
+    summary: "This Mythic Tale sends Jin to the ruins of Old Yarikawa to confront a vengeful spirit. After finding pillars of white smoke and collecting offerings, a tense duel awaits in the Garden of the Gods.",
+    aiTip: "The spirit duel is one of the hardest in the game. Master the timing of perfect parries and watch for unblockable attacks signaled by red glints.",
+    walkthrough: [
+      "After A New Horizon, find the musician Yamato in the Ruins of Old Yarikawa (west of Rebel's Last Stand).",
+      "Follow the pillars of white smoke — past a survivor camp, then near a bridge — and collect each shrine offering.",
+      "Follow the river west to a Mongol camp, investigate it and talk to the prisoner.",
+      "Follow the sounds of combat, search for the spirit and find a way into the house.",
+      "Travel to the Garden of the Gods, take the last offering and win the duel against the spirit."
+    ],
     video: "https://www.youtube.com/watch?v=0CR-bVq-xdA"
   },
 {
@@ -1547,11 +1552,16 @@ const quests = [
     location: "Hiyoshi Springs, Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Uchitsune's Longbow, Heavy & Explosive Arrows",
-    summary:
-      "A musician's tale leads Jin on a treasure hunt across painted landmarks to find the legendary Longbow of Uchitsune. Picking up the cursed weapon triggers a hallucination and a duel with a Tengu Demon.",
-    aiTip:
-      "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game.",
+    reward: "Longbow, Explosive Arrow, moderate Legend increase",
+    summary: "A musician's tale leads Jin on a treasure hunt across painted landmarks to find the legendary Longbow of Uchitsune. Picking up the cursed weapon triggers a hallucination and a duel with a Tengu Demon.",
+    aiTip: "Follow the painting clues carefully. The Longbow has superior range and armor penetration, making it one of the best ranged weapons in the game.",
+    walkthrough: [
+      "Hear the musician on the stage in Hiyoshi Springs, Izuhara.",
+      "Head east and follow the blue flowers up a hill; squeeze through the crack into Uchitsune's tomb and read the banner.",
+      "Travel north along the coast past Isonade Coast and swim to the island of blue flowers for the next banner.",
+      "Climb the hidden mountain to the grotto and take the Longbow from its pedestal.",
+      "Defeat the Tengu Demon that appears."
+    ],
     video: "https://www.youtube.com/watch?v=6XQ45T4ruDQ"
   },
 {
@@ -1564,11 +1574,16 @@ const quests = [
     location: "Hiyoshi Springs, Izuhara",
     length: "long",
     difficulty: "Medium",
-    reward: "Half Bow, Kunai Ghost Weapon, Major Legend Increase",
-    summary:
-      "A nine-mission questline spanning all three regions of Tsushima following archery master Ishikawa as he tracks his former student Tomoe. The story is a poignant tale of betrayal, duty, and redemption.",
-    aiTip:
-      "Start this questline early as it spans the entire game. The Kunai reward is extremely useful for staggering enemies and breaking their guard.",
+    reward: "Charm of Precision, Shattered Mask of Tomoe, Half Bow dye, The Unbending Archer trophy",
+    summary: "A nine-mission questline spanning all three regions of Tsushima following archery master Ishikawa as he tracks his former student Tomoe. The story is a poignant tale of betrayal, duty, and redemption.",
+    aiTip: "The tales unlock one at a time as you move through Izuhara, Toyotama and Kamiagata, so pick up the next one whenever it appears. Ishikawa's own archery challenges are a good time to practise headshots.",
+    walkthrough: [
+      "Meet Sensei Ishikawa in Izuhara and help him against the Mongols; he asks you to help hunt Tomoe.",
+      "Follow his tales across Izuhara as you track Tomoe's Mongol archers.",
+      "Continue the hunt in Toyotama, uncovering how Tomoe came to betray him.",
+      "In Kamiagata, start Laid to Rest on Kazumasa's Isle.",
+      "Stop Tomoe's surprise attack on Umugi Cove and settle the matter of Ishikawa's former student."
+    ],
     video: "https://www.youtube.com/watch?v=ismSt2eMGdo"
   },
 {
@@ -2405,14 +2420,19 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Legend of Tadayori",
-    location: "Azamo Bay, Izuhara",
+    location: "Rustling Bend → Tadayori's Rest, Azamo Bay, Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Tadayori's Armor set (best archery armor)",
-    summary:
-      "Track down the legendary armor of the archer Tadayori by following clues across Izuhara. The quest culminates in a duel against a ronin guarding the armor's resting place — a test of your ranged combat skills.",
-    aiTip:
-      "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early.",
+    reward: "Tadayori's Armor, moderate Legend increase",
+    summary: "Follow the violet flowers to Tadayori's resting place and claim the legendary archer's armor — if you can beat Kaede and the Mongols who got there first.",
+    aiTip: "Tadayori's Armor dramatically improves concentration mode for the bow. This is the best armor for ranged playstyles — grab it early.",
+    walkthrough: [
+      "After the Masako, Ryuzo and Ishikawa tales have started, find Yamato at a small camp near Rustling Bend in southern Izuhara.",
+      "Follow the violet flowers north to the Violet Crown in northern Azamo and take the map from the container.",
+      "Travel to Tadayori's Rest.",
+      "Defeat Kaede and the Mongols there.",
+      "Take the armor from behind the statue at Azamo Bay, then speak to Yamato."
+    ],
     video: "https://www.youtube.com/watch?v=0WV7wgGfe-g"
   },
 {
@@ -2422,14 +2442,19 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Izuhara",
     title: "The Heavenly Strike",
-    location: "Toyotama",
+    location: "Shigenori's Rest, Izuhara",
     length: "short",
     difficulty: "Medium",
     reward: "Heavenly Strike combat technique",
-    summary:
-      "A Mythic Tale that teaches Jin a devastating unblockable attack. Follow a musician's directions to a hidden dojo where you must prove your swordsmanship through a series of increasingly difficult combat trials.",
-    aiTip:
-      "Heavenly Strike is one of the best combat abilities in the game — it breaks through any guard. Master the timing in the trials; they teach you the exact rhythm.",
+    summary: "A musician sings of a samurai whose strike could cut through lightning. Follow Yasuhira's trail through a Mongol camp and a watchtower to a duel at Shigenori's Rest to learn the Heavenly Strike.",
+    aiTip: "Develop Jin a bit before taking on Yasuhira — the duel is tough early on. Heavenly Strike breaks any guard, so make it part of your rotation afterwards.",
+    walkthrough: [
+      "Talk to the musician at the crossroads south of River Falls Bridge, near Komatsu Forge.",
+      "Follow Yasuhira's tracks to a Mongol camp and clear it.",
+      "At the watchtower, read the scroll and look at the painting of a dueling ring; rescue the hostage.",
+      "Ride south-west across the fallen tree to Shigenori's Rest, clear the Mongols and climb the stairs.",
+      "Defeat Yasuhira in the duel and bury the man he killed."
+    ],
     video: "https://www.youtube.com/watch?v=SDRtxDz7Duc"
   },
 {
@@ -2442,11 +2467,16 @@ const quests = [
     location: "Izuhara / Toyotama",
     length: "long",
     difficulty: "Medium",
-    reward: "Major Legend Increase, unique dye, emotional story",
-    summary:
-      "A nine-part questline following the elderly warrior Lady Masako as she hunts down those responsible for the massacre of her entire family. A revenge story that explores grief, obsession, and whether vengeance can ever bring peace.",
-    aiTip:
-      "Start early as this spans most of the game. The final quest has a major choice — there's no purely 'good' option, so choose what feels right for your version of Jin.",
+    reward: "Adachi Half Mask, Minor Stealth Charm, Vengeful Warrior trophy",
+    summary: "A nine-part questline following the elderly warrior Lady Masako as she hunts down those responsible for the massacre of her entire family. A revenge story that explores grief, obsession, and whether vengeance can ever bring peace.",
+    aiTip: "The tales unlock across Izuhara, Toyotama and Kamiagata — the last one needs Act 2 finished. Bring full Resolve: Masako's hunts end in big samurai battles.",
+    walkthrough: [
+      "Meet Lady Masako in Izuhara after her family is massacred and agree to help her hunt the people responsible.",
+      "Follow her leads across Izuhara, questioning and killing the conspirators.",
+      "Continue into Toyotama (The Family Man in Kubara, The Conspirator in Otsuna).",
+      "After Act 2, start The Sister Betrayed in Kamiagata.",
+      "Fight through two waves of samurai, then use Focused Hearing to find Masako confronting her sister, Lady Hana."
+    ],
     video: "https://www.youtube.com/watch?v=Uw12nUwnKWM"
   },
 {
@@ -3700,14 +3730,19 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Six Blades of Kojiro",
-    location: "Iki Island / Toyotama",
+    location: "Umugi Cove → Omi Monastery, Toyotama",
     length: "long",
     difficulty: "High",
-    reward: "Kensei Armour set, Ghost Stance upgrade",
-    summary:
-      "Hunt down six legendary swordsmen — the surviving members of the Straw Hat Ronin gang — across Tsushima. Each duel is a unique challenge that tests a different aspect of your sword mastery.",
-    aiTip:
-      "Face the six blades in order of difficulty — the final duel with Kojiro himself is one of the hardest fights in the base game. The Kensei Armor enhances Ghost Stance, making this questline doubly rewarding.",
+    reward: "Kensei Armor, Kensei Headband, Charm of Unseen Respite",
+    summary: "The musician Yamato tells of five Straw Hat assassins hired by Kojiro. Beat all five in their duels across Toyotama, then face Kojiro himself at Omi Monastery for the Kensei Armor.",
+    aiTip: "You can take the five duels in any order. Against Kojiro your tools are disabled, so it's pure swordplay. Kensei Armor greatly increases Resolve gained from kills — grab it before Act 3.",
+    walkthrough: [
+      "After A New Horizon, talk to Yamato in Umugi Cove — the five Straw Hat assassins appear on your map.",
+      "Duel Kanetomo (Under Autumn Leaves, Kubara) and Tomotsugu (Crashing Waves, north of Urashima).",
+      "Duel Yasumasa (Drowning Marsh), Hirotsune (Among Spider Lilies) and Kiyochika (Under Falling Water, Otsuna).",
+      "Return to the musician to learn where Kojiro is.",
+      "Defeat Kojiro at Omi Monastery — swordplay only — and take the Kensei Armor."
+    ],
     video: "https://www.youtube.com/watch?v=R-lFf5Es8pA"
   },
 {
@@ -3715,16 +3750,21 @@ const quests = [
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Tsushima",
-    region: "Toyotama",
+    region: "Izuhara",
     title: "The Unbreakable Gosaku",
-    location: "Toyotama Region",
+    location: "Akashima Village → Old Togo Rice Fields, Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Gosaku's Armour upgrade materials, Samurai lore",
-    summary:
-      "Follow the legend of Gosaku the farmer-warrior and uncover hidden shrines that reveal his story. The tale of a common man who stood against overwhelming odds mirrors Jin's own struggle and adds weight to the Gosaku Armor questline.",
-    aiTip:
-      "The shrines are well-hidden — use Guiding Wind frequently. Reading Gosaku's story in full provides buffs at each shrine that make the final farmstead liberations slightly easier.",
+    reward: "Gosaku's Armor",
+    summary: "Gosaku's armor is sealed in a vault locked by six keys, each held at a Mongol-occupied farmstead. Free the farms, open the vault and climb to the armor of the warrior who never fell.",
+    aiTip: "Each farmstead has two to four hostages — go in quietly or they may die. Gosaku's Armor boosts health, stagger damage and healing.",
+    walkthrough: [
+      "In Act 2, sit with the musician Yamato south of Akashima Village.",
+      "Liberate the six farmsteads (including Aoi, Kuta, Ohama, Yagata, Iijima and Koshimizu) and take each key.",
+      "Go to the vault and drive off the Mongols trying to break in.",
+      "Unlock the stone door with the six keys.",
+      "Climb the rock hill east of the Old Togo Rice Fields with the grapple and open the box for Gosaku's Armor."
+    ],
     video: "https://www.youtube.com/watch?v=bWe2G16Hsks"
   },
 {
@@ -3758,14 +3798,19 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "A Reckoning in Blood",
-    location: "Kamiagata",
+    location: "Fort Koyasan, Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Sakai Clan Armor upgrade, massive Legend increase",
-    summary:
-      "Confront the Mongol general Dokhoi who committed atrocities against the people of Kamiagata. A large-scale assault requiring stealth infiltration followed by intense open combat as Jin's legend reaches its peak.",
-    aiTip:
-      "Scout the encampment fully before engaging — use the Ghost stance to eliminate key targets early. The general himself fights with two weapons simultaneously; watch for the stance changes.",
+    reward: "Major Legend increase",
+    summary: "Act 2 story mission: Jin and Yuna strike at Fort Koyasan, the stronghold of Ryuzo's Straw Hats, and must fight their way out of the inner courtyard.",
+    aiTip: "Expect around 20 Straw Hats and Mongols in the final fight — use Stone Stance on the swordsmen and blow up the explosive barrels.",
+    walkthrough: [
+      "After The Ghost of Yarikawa, A Message in Fire and Ghosts from the Past, speak with Lord Shimura.",
+      "Find Yuna and leave the war camp together.",
+      "Travel to Fort Koyasan and infiltrate it, reaching the upper gate.",
+      "Recover your gear and defeat the Straw Hats.",
+      "Escape the inner courtyard, then follow Yuna and defeat the remaining enemies."
+    ],
     video: "https://www.youtube.com/watch?v=yMUQqITXCU0"
   },
 {
