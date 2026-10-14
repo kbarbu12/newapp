@@ -40335,14 +40335,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Region alliance confirmed, settlement rewards",
-    summary:
-      "Eivor reports Oswald's marriage and alliance to Randvi.",
-    aiTip:
-      "Return to Ravensthorpe periodically — married allies and their gifts appear in the settlement after these reports.",
+    summary: "Eivor reports Oswald's marriage and alliance to Randvi.",
+    aiTip: "Return to Ravensthorpe periodically — married allies and their gifts appear in the settlement after these reports.",
     walkthrough: [
-      "Return to Ravensthorpe after the saga.",
-      "Speak with Randvi at the Alliance Map.",
-      "Report the East Anglia outcome.",
+      "Finish Wedding Horns in East Anglia.",
+      "Settle the Mane and Tail dispute between Rowan and Holger first.",
+      "Return to Ravensthorpe and speak with Randvi at the Alliance Map.",
+      "Report Oswald's marriage and the East Anglia alliance.",
       "Place the alliance bloom and choose your next pledge."
     ],
     video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20East%20Anglia%20walkthrough"
@@ -40647,15 +40646,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Region alliance confirmed, settlement rewards",
-    summary:
-      "Eivor reports Lunden's alliance to Randvi.",
-    aiTip:
-      "Lunden's alliance opens trade dialogue back home — check the settlement shop for restocked gear.",
+    summary: "Eivor reports Lunden's alliance to Randvi.",
+    aiTip: "Lunden's alliance opens trade dialogue back home — check the settlement shop for restocked gear.",
     walkthrough: [
-      "Return to Ravensthorpe after the saga.",
-      "Speak with Randvi at the Alliance Map.",
-      "Report the Lunden outcome.",
-      "Place the alliance bloom and pick your next pledge."
+      "Finish Smashing the Compass in Lunden.",
+      "Return to Ravensthorpe and speak with Randvi.",
+      "Report the Lunden alliance at the Alliance Map.",
+      "Place the alliance bloom — Randvi can also arrange passage to Vinland (power 160) from the map."
     ],
     video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lunden%20walkthrough"
   },
@@ -41655,15 +41652,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Order cell broken, saga concluded",
-    summary:
-      "The final strike against the Jorvik Order cell's leader.",
-    aiTip:
-      "Clear the leader's guards first; the confined vault fight punishes getting surrounded.",
+    summary: "Unmask the Order of the Ancients' 'Vault' in Jorvik — after Burning the Firebrand and Pricking the Needle — and end the Jorvik cell.",
+    aiTip: "Clear the leader's guards first; the confined vault fight punishes getting surrounded.",
     walkthrough: [
-      "Reach the Order cell's leader.",
-      "Fight through the final defenders.",
-      "Assassinate or defeat the leader.",
-      "Break the Jorvik cell and secure the alliance."
+      "Finish Burning the Firebrand and Pricking the Needle.",
+      "Weigh the suspects: Ricsige, Faravid, Audun and Hjorr.",
+      "Search Hjorr's desk in the archives and break the barricade behind it.",
+      "Inspect the wine at the end of the hidden room.",
+      "Assassinate the Vault, then learn what Hjorr needed the silver for."
     ],
     video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Closing%20the%20Vault%20walkthrough"
   },
@@ -42327,15 +42323,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Order cell broken, saga concluded",
-    summary:
-      "The final strike against the Wincestre Order cell's leader.",
-    aiTip:
-      "Clear the leader's guards first; this late-game target hits hard, so keep rations and abilities ready.",
+    summary: "The Seax is Ealhferth — stop him from killing King Aelfred in Wincestre's main church.",
+    aiTip: "Clear the leader's guards first; this late-game target hits hard, so keep rations and abilities ready.",
     walkthrough: [
-      "Reach the Order cell's leader.",
-      "Fight through the final defenders.",
-      "Assassinate or defeat the leader.",
-      "Break the Wincestre cell and secure the alliance."
+      "Finish Plucking the Quill.",
+      "Report to Goodwin at the alehouse near the market in north Wincestre.",
+      "Attend the bishop's funeral to see if he was really the Seax.",
+      "Head into the main church as the Seax (Ealhferth) moves on King Aelfred.",
+      "Assassinate Ealhferth to break the Wincestre cell."
     ],
     video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Impaling%20the%20Seax%20walkthrough"
   },
