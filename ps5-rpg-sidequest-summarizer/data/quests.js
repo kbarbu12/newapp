@@ -6251,19 +6251,17 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: The Wasteland",
-    location: "Badlands – Jackson Plains",
+    location: "Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Euralio Alma, a mercenary lost to combat implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos, reported in Badlands. Regina Jones wants them stopped, and alive if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to the Jackson Plains in the Badlands.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Euralio Alma — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept the Cyberpsycho Sighting from Regina Jones.",
+      "Travel to the marked area in Badlands and scan the scene for clues.",
+      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
+      "Loot the shard nearby, then call Regina to report back."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
   },
@@ -6441,19 +6439,17 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "City Center",
     title: "Cyberpsycho Sighting: Phantom of Night City",
-    location: "City Center – Corpo Plaza",
+    location: "City Center",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Norio Akuhara, a masked corporate stalker. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos, reported in City Center. Regina Jones wants them stopped, and alive if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Corpo Plaza in City Center.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Norio Akuhara — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept the Cyberpsycho Sighting from Regina Jones.",
+      "Travel to the marked area in City Center and scan the scene for clues.",
+      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
+      "Loot the shard nearby, then call Regina to report back."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
   },
@@ -6484,19 +6480,17 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Pacifica",
     title: "Cyberpsycho Sighting: Smoke on the Water",
-    location: "Pacifica – Coastview",
+    location: "Pacifica",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Diego Ramirez, holed up by the water. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos, reported in Pacifica. Regina Jones wants them stopped, and alive if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Diego Ramirez — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept the Cyberpsycho Sighting from Regina Jones.",
+      "Travel to the marked area in Pacifica and scan the scene for clues.",
+      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
+      "Loot the shard nearby, then call Regina to report back."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
   },
@@ -6506,19 +6500,17 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Pacifica",
     title: "Cyberpsycho Sighting: Lex Talionis",
-    location: "Pacifica – Coastview",
+    location: "Pacifica",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary:
-      "One of Night City's 17 cyberpsychos: Ben Debaillon, dispensing violent 'justice'. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip:
-      "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos, reported in Pacifica. Regina Jones wants them stopped, and alive if you can manage it.",
+    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
     walkthrough: [
-      "Accept Regina Jones' Cyberpsycho Sighting and drive to Coastview in Pacifica.",
-      "Scan the crime scene with your Kiroshi optics to piece together what happened.",
-      "Engage Ben Debaillon — use non-lethal weapons or cyberware to subdue rather than kill if you can.",
-      "Loot the recovered shard, then contact Regina to report the takedown."
+      "Accept the Cyberpsycho Sighting from Regina Jones.",
+      "Travel to the marked area in Pacifica and scan the scene for clues.",
+      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
+      "Loot the shard nearby, then call Regina to report back."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
   },
@@ -12469,19 +12461,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Gig: God Bless This Mess",
-    location: "Heywood – Wellsprings",
+    location: "Heywood",
     length: "short",
     difficulty: "Medium",
-    reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Heywood: Recover a stolen relic before Padre's client loses everything.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    reward: "Fixer payout and street cred",
+    summary: "A fixer gig in Heywood. Read the gig details in your journal for the exact objective.",
+    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
     walkthrough: [
-      "Accept the gig from Padre and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — recovering the stolen relic before the client loses everything — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Padre for the eddies."
+      "Accept God Bless This Mess from the fixer when it appears on your map or phone.",
+      "Read the gig details to see the exact objective.",
+      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
+      "Complete the objective by stealth, hacking or combat.",
+      "Report back to the fixer for the payout."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
   },
@@ -12553,19 +12544,18 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Pacifica",
     title: "Gig: No Fixers",
-    location: "Pacifica – Coastview",
+    location: "Pacifica",
     length: "short",
     difficulty: "Medium",
-    reward: "Fixer payout, street cred, gear",
-    summary:
-      "A fixer gig in Pacifica: Handle a job the other fixers wouldn't touch.",
-    aiTip:
-      "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    reward: "Fixer payout and street cred",
+    summary: "A fixer gig in Pacifica. Read the gig details in your journal for the exact objective.",
+    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
     walkthrough: [
-      "Accept the gig from El Capitán and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — handling the job the other fixers wouldn't touch — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to El Capitán for the eddies."
+      "Accept No Fixers from the fixer when it appears on your map or phone.",
+      "Read the gig details to see the exact objective.",
+      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
+      "Complete the objective by stealth, hacking or combat.",
+      "Report back to the fixer for the payout."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
   },
@@ -12831,16 +12821,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     location: "Dogtown",
     length: "short",
     difficulty: "Medium",
-    reward: "Mr. Hands payout, Dogtown rep",
-    summary:
-      "Mr. Hands sends V to surveil and handle a target hiding in Dogtown's overgrowth.",
-    aiTip:
-      "Bring optical camo or netrunner tools — stealth is the intended route.",
+    reward: "Mr. Hands payout and street cred",
+    summary: "A fixer gig in Dogtown. Read the gig details in your journal for the exact objective.",
+    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
     walkthrough: [
-      "Accept the gig from Mr. Hands and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — surveilling and handling the target hiding in Dogtown's overgrowth — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Mr. Hands for the eddies."
+      "Accept Spy in the Jungle from Mr. Hands when it appears on your map or phone.",
+      "Read the gig details to see the exact objective.",
+      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
+      "Complete the objective by stealth, hacking or combat.",
+      "Report back to Mr. Hands for the payout."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
   },
@@ -12853,16 +12842,15 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     location: "Dogtown",
     length: "short",
     difficulty: "Medium",
-    reward: "Mr. Hands payout, gear",
-    summary:
-      "Navigate Dogtown's power games to deal with the gang boss Dodger's people.",
-    aiTip:
-      "Read the situation before shooting — some Dogtown targets are better turned than killed.",
+    reward: "Mr. Hands payout and street cred",
+    summary: "A fixer gig in Dogtown. Read the gig details in your journal for the exact objective.",
+    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
     walkthrough: [
-      "Accept the gig from Mr. Hands and travel to the marked location.",
-      "Scan the area with your optics to tag guards, cameras, and access points.",
-      "Complete the objective — dealing with gang boss Dodger's people in Dogtown's power games — by stealth, hacking, or open combat.",
-      "Exfiltrate and report back to Mr. Hands for the eddies."
+      "Accept Waiting for Dodger from Mr. Hands when it appears on your map or phone.",
+      "Read the gig details to see the exact objective.",
+      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
+      "Complete the objective by stealth, hacking or combat.",
+      "Report back to Mr. Hands for the payout."
     ],
     video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
   },

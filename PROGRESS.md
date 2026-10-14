@@ -368,6 +368,13 @@
   (riddles, tombs, romances) or guide-sourced side-quest text from #111–#114,
   so they were left as is.
 
+- **Generic steps — Cyberpunk leftovers:** 8 entries got plain, safe steps.
+  The 4 gigs (God Bless This Mess, No Fixers, Spy in the Jungle, Waiting for
+  Dodger) dropped their unconfirmed objectives; No Fixers dropped El Capitán
+  (he's Santo Domingo's fixer, not Pacifica's). The 4 cyberpsychos (The
+  Wasteland, Phantom of Night City, Smoke on the Water, Lex Talionis) dropped
+  their unconfirmed names and exact spots and keep the region.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
