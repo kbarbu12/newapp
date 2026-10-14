@@ -461,6 +461,23 @@
   under both Northern Sporades and Petrified Islands, Keos under both Pirate
   and Cyclades Islands. Worth one owner decision on the island grouping.
 
+- **AC Odyssey riddles (batch 1 of the leftovers):** the riddle regions
+  were often plain wrong (Helios's Greeting is in Makedonia, Stone Cold in
+  Korinth, Estate Envy/Marbled Morale on Mykonos — all were filed under
+  "Forest Islands"/"Paradise Islands"). 18 riddles fixed from guides: 10
+  with tablet + answer spot, steps and (where stated) the engraving (A
+  Finger Tip, Helios's Greeting, Dye Dye Dye, A Deal for Freedom, Blue Eyed
+  Beauty, Smoke Signal, Stone Cold, Estate Envy, Marbled Morale — retitled
+  from "Marbled Moral" — and Stubborn Mule); 6 with the tablet spot only
+  (Goat's Gruff, Killer View, Star-Crossed Lovers, To the Edge of the World,
+  Procrastinate Now, Needle in a Haystack); 2 with the region only (Grave
+  Discovery → Silver Islands, Pride of Place → Pirate Islands). No guide
+  found: Red Scent, Heart and Sole, Pigsty, Fire in the Belly, Stadium Love,
+  Bridging the Gap, Hungry for Misadventure and the 10 Peloponnese riddles.
+  **Possibly not real** (no guide mentions them at all): the 4 Arid Islands
+  riddles Upon Typhon's Crown, Beneath Theseus' Dreams, Made in Abyss,
+  'Til Death Do Us Part — owner to check.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
