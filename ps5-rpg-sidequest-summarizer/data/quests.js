@@ -43403,12 +43403,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Experience a flashback or vision revealing more about the misthios's childhood and family history.",
+    summary: "A main-story quest in Phokis that reveals more of the misthios's family history.",
     aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
     walkthrough: [
-      "Experience a flashback or vision revealing more about the misthios's childhood and family history.",
-      "Piece together new information about the events that separated the family on Mount Taygetos.",
-      "Set the stage for the journey toward Athens."
+      "Pick up Memories Awoken from the quest log once the previous main quest is done.",
+      "Travel to the quest marker in Phokis (Delphi).",
+      "Follow the objective markers through the conversations and any fights along the way.",
+      "Finish the last objective to complete the quest and unlock the next one."
     ],
     video: "https://www.youtube.com/watch?v=TQhnokdawEI"
   },
@@ -43423,12 +43424,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Arrive in Athens, the political and cultural heart of the Delian League.",
+    summary: "A main-story quest: your arrival in Athens.",
     aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
     walkthrough: [
-      "Arrive in Athens, the political and cultural heart of the Delian League.",
-      "Get acquainted with the city's key locations, including the Acropolis and Agora.",
-      "Meet key Athenian political figures who will factor into the coming storyline."
+      "Pick up Welcome to Athens from the quest log once the previous main quest is done.",
+      "Travel to the quest marker in Attika.",
+      "Follow the objective markers through the conversations and any fights along the way.",
+      "Finish the last objective to complete the quest and unlock the next one."
     ],
     video: "https://www.youtube.com/watch?v=qz5GYgUHTxE"
   },
@@ -43727,12 +43729,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Investigate a cover-up or conspiracy of silence among local figures.",
+    summary: "A main-story quest in Argolis. Follow the markers to see it through.",
     aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
     walkthrough: [
-      "Investigate a cover-up or conspiracy of silence among local figures.",
-      "Pressure witnesses or suspects into revealing what they know.",
-      "Piece together the truth to progress the chapter's storyline."
+      "Pick up Speak No Evil from the quest log once the previous main quest is done.",
+      "Travel to the quest marker in Argolis.",
+      "Follow the objective markers through the conversations and any fights along the way.",
+      "Finish the last objective to complete the quest and unlock the next one."
     ],
     video: "https://www.youtube.com/watch?v=91FtWwHEF4g"
   },
@@ -44066,12 +44069,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Story progression, XP, and drachmae; advances the misthios' family saga.",
-    summary: "Continue navigating the aftermath of the pankration victory and its political ripple effects.",
+    summary: "A main-story quest at the Sanctuary of Olympia in Elis, part of the Olympic Games chapter.",
     aiTip: "Keep your gear level within one or two of the recommended quest level, and loot every conflict for engravings. Main-story quests gate progression, so tackle them between regional side content to stay leveled.",
     walkthrough: [
-      "Continue navigating the aftermath of the pankration victory and its political ripple effects.",
-      "Investigate a longer-term plot involving Spartan leadership and the Cult of Kosmos's influence.",
-      "Gather intelligence to progress toward the next major confrontation."
+      "Pick up The Long Game from the quest log once the previous main quest is done.",
+      "Travel to the quest marker in Elis (Sanctuary of Olympia).",
+      "Follow the objective markers through the conversations and any fights along the way.",
+      "Finish the last objective to complete the quest and unlock the next one."
     ],
     video: "https://www.youtube.com/watch?v=WbFEPk63KWQ"
   },
@@ -45472,11 +45476,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Obsidian Islands (Hydrea and Melos)",
     length: "short",
     difficulty: "Low",
-    reward: "XP, drachmae and the One Hundredth Hand reward",
-    summary: "Leads into a multi-stage combat gauntlet — defeat waves of contenders culminating in fighting three Brutes atop a mountain to claim the One Hundredth Hand reward.",
-    aiTip: "This is a long gauntlet ending with three Brutes on a mountaintop — come overleveled and bring plenty of health-restoring abilities.",
+    reward: "XP and drachmae",
+    summary: "A side-quest pair on the Obsidian Islands that ends in a run of fights against challengers.",
+    aiTip: "Expect several fights in a row. Come at or above the recommended level and keep your health abilities ready.",
     walkthrough: [
-      "Leads into a multi-stage combat gauntlet — defeat waves of contenders culminating in fighting three Brutes atop a mountain to claim the One Hundredth Hand reward."
+      "Talk to the quest giver to start Call to Arms.",
+      "Travel to each marked spot and defeat the challengers waiting there.",
+      "Complete Call to Arms to unlock The Great Contender.",
+      "Win the final fight in The Great Contender to finish the chain."
     ],
     video: "https://www.youtube.com/watch?v=iMkqjYpfLL0"
   },
@@ -46720,10 +46727,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Sixth Lost Tale. Speak with Lykinos at the Altar of the Cyclops in Korinthia (via the 'Prodigal Son's Return' starter quest), carry him to his father's farm, then complete three branching objectives: clear the Ruined Temple of Zeus of bandits, recover Diocles's armor from a merchant, and deliver a graveside offering found at the Sea Captain's Dock.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Sixth Lost Tale. Speak with Lykinos at the Altar of the Cyclops in Korinthia (via the 'Prodigal Son's Return' starter quest), carry him to his father's farm, then complete three branching objectives: clear the Ruined Temple of Zeus of bandits, recover Diocles's armor from a merchant, and deliver a graveside offering found at the Sea Captain's Dock."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=jZIDH2JsgPM"
   },
@@ -46738,10 +46748,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "First Lost Tale. Quest giver is found in the Elis region, accessible once Episode 5 of the main story is reached.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "First Lost Tale. Quest giver is found in the Elis region, accessible once Episode 5 of the main story is reached."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=Pc8DXHikKx0"
   },
@@ -46756,10 +46769,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Second Lost Tale. Quest giver is found in the Korinthia region, accessible after reaching Episode 5 of the main story.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Second Lost Tale. Quest giver is found in the Korinthia region, accessible after reaching Episode 5 of the main story."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=-IAa8Q4nORk"
   },
@@ -46774,10 +46790,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Fourth Lost Tale, involving an unavoidable fight and a choice that affects a village's beliefs.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Fourth Lost Tale, involving an unavoidable fight and a choice that affects a village's beliefs."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=9f_cvvenX-o"
   },
@@ -46813,10 +46832,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Rewards a unique snake-headed kopis sword upon completion.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Rewards a unique snake-headed kopis sword upon completion."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=YyB2LOFQvj0"
   },
@@ -46831,12 +46853,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "A free 'Lost Tales of Greece' episode. Start it from its dedicated marker and follow the self-contained storyline.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Open the episode from its dedicated quest marker (check the level requirement first).",
-      "Follow the story objectives — these episodes mix dialogue, investigation, and light combat.",
-      "Complete the finale to claim the episode's unique reward."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=qrvQfQtDwpQ"
   },
@@ -46894,10 +46917,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Unique gear or engravings tied to the episode; free post-launch content.",
-    summary: "Accessible after reaching Episode 5 and completing 'A Life's Worth' — speak with Xanthippe in Phokis via the 'A Sokratic Mess' starter quest.",
+    summary: "A free Lost Tales of Greece episode: a short, self-contained story with its own quest giver.",
     aiTip: "Lost Tales episodes are free and self-contained; they unlock at set levels, so if the marker is greyed out you likely need a higher level or story progress. Several reward exclusive gear worth grabbing early.",
     walkthrough: [
-      "Accessible after reaching Episode 5 and completing 'A Life's Worth' — speak with Xanthippe in Phokis via the 'A Sokratic Mess' starter quest."
+      "Check the episode's level and story requirements. The marker stays unavailable until you meet them.",
+      "Travel to the quest marker and talk to the quest giver.",
+      "Follow the story objectives. These episodes mix dialogue, investigation and light combat.",
+      "Finish the last objective to complete the episode and collect its reward."
     ],
     video: "https://www.youtube.com/watch?v=3mmbdabc8kQ"
   },
@@ -47290,12 +47316,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "Adept of the Peloponnesian League. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    summary: "A member of the Cult of Kosmos. Follow their clue in the Cult menu to reveal and kill them.",
     aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
     walkthrough: [
-      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
-      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
-      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+      "Open the Cult of Kosmos menu and read this member's clue.",
+      "Follow the clue: complete the quest it names or kill the cultists it points to until the location is revealed.",
+      "Travel there and use Ikaros to scout the guards and mark the target.",
+      "Kill the cultist and loot the body for their Legendary gear piece."
     ],
     video: "https://www.youtube.com/watch?v=2njLo_OBX0E"
   },
@@ -47793,12 +47820,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "High",
     reward: "Cultist clue, a piece of Legendary Cultist gear, and progress toward disbanding the Cult (engraving unlocks at set thresholds).",
-    summary: "The Cult's ultimate leader, revealed only after all 8 Sages have been killed. Confronting and defeating this final target requires all other 42 members to be eliminated first, and ties into one of the game's three possible endings. Track and assassinate this Cult of Kosmos member to reveal the next branch of the Cult tree.",
+    summary: "The leader of the Cult of Kosmos, revealed once all the Sages are dead.",
     aiTip: "Open the Cult menu (Cultist tree) to see clues on this member's identity or location — many require completing specific quests or looting Cultist chests first. Bring assassin engravings and a high-damage predator bow; several higher-tier members are heavily guarded or are bosses.",
     walkthrough: [
-      "Open the Cult of Kosmos menu and read the clue for this member — some are revealed by story progress, others by looting Cultist chests or killing lower-tier members first.",
-      "Travel to their location once revealed. Use Ikaros to scout guards and mark the target.",
-      "Assassinate the Cultist (or defeat them in open combat if they are a named boss), then loot their body for the Legendary gear piece and the clue to the next member."
+      "Kill all the Sages to reveal the Ghost of Kosmos in the Cult menu.",
+      "Follow the clue to the Ghost's location.",
+      "Confront the Ghost of Kosmos.",
+      "Make your choice in the confrontation to finish the Cult storyline."
     ],
     video: "https://www.youtube.com/watch?v=_quGsbF3HsM"
   },
@@ -48045,16 +48073,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Northern Sporades",
     title: "Medusa",
-    location: "Lesbos (Petrified Forest)",
+    location: "Lesbos",
     length: "long",
     difficulty: "High",
     reward: "A unique Legendary set piece and an artifact fragment tied to the Gateway to Atlantis storyline.",
-    summary: "The final and hardest of the four mythical bosses, reached via the 'Romancing the Stone Garden' quest freeing an NPC named Bryce. Medusa summons minions that must be cleared before damaging her directly, and her gaze attack slowly petrifies the player if not avoided.",
+    summary: "One of the four mythical creatures, fought on Lesbos. Beating her gives an artifact needed for the Atlantis storyline.",
     aiTip: "Mythical bosses have multi-phase movesets and telegraphed AoE — learn the tells and keep your dodge charged. Bring second-wind healing, high defense engravings, and level up before attempting; these are among the toughest base-game fights.",
     walkthrough: [
-      "Progress the 'Gateway to Atlantis' questline until this creature's arena unlocks.",
-      "Study the boss's telegraphed attacks — each mythical creature has signature AoE and charge patterns you must dodge or block.",
-      "Survive each phase, deal steady damage during openings, and defeat it to claim the artifact fragment and Legendary reward."
+      "Follow the quest that leads to Medusa's lair on Lesbos.",
+      "Check the recommended level first. This is one of the hardest fights in the game.",
+      "Learn her attack patterns and dodge her ranged attacks.",
+      "Defeat Medusa and collect the artifact and reward."
     ],
     video: "https://www.youtube.com/watch?v=w2MKlK2d7Sk"
   },
@@ -50054,16 +50083,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Assassin's Creed Odyssey",
     region: "Various",
     title: "Centaur Field",
-    location: "Region not confirmed in source — name verified, location uncertain",
+    location: "Region not confirmed",
     length: "short",
     difficulty: "Low",
     reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Region not confirmed in source — name verified, location uncertain. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
+    summary: "One of the 60 Ainigmata Ostraka riddle collectibles in the base game. Each tablet holds a riddle that points to a hidden spot in the same region; solving it awards a permanent Engraving upgrade.",
     aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
     walkthrough: [
-      "Find and pick up the Ainigmata Ostraka tablet in Various.",
-      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
-      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
+      "Find and pick up the Centaur Field tablet.",
+      "Read the riddle from the Ainigmata Ostraka menu. It describes a landmark in the same region as the tablet.",
+      "Travel to the described spot and search it to solve the riddle and unlock the Engraving."
     ],
     video: "https://www.youtube.com/watch?v=0vAlUphELcg"
   },

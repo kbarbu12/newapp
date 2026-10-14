@@ -21,13 +21,12 @@ owner marks done, swapping out flagged links. See PROGRESS.md "Session
 2026-10-11 → 13".
 
 ## AC Odyssey entries no guide could confirm (Phase 3 leftovers)
-~96 AC Odyssey entries still have only 1–3 generic steps because no guide
-found during Phase 3 (2026-10-14) confirmed their details — writing steps
-would mean guessing. Full lists are in PROGRESS.md (Phase 3 batch notes):
-obscure side quests (Kingfisher chain, Speak No Evil, The Long Game, …),
-6 romances, 7 Lost Tales, ~30 island/Peloponnese Ainigmata Ostraka, 3 tombs,
-Medusa, Kallias and The Ghost of Kosmos. Owner: verify in-game or with a
-video, or decide to leave them as is.
+~96 AC Odyssey entries still have only 1–3 steps because no guide confirmed
+more detail. Made-up details were stripped on 2026-10-14 and the vague ones
+now have plain, safe steps; the rest (riddles, tombs, romances, short side
+quests) are generic but accurate. Full lists are in PROGRESS.md (Phase 3
+batch notes). Owner: verify in-game or with each entry's video if you want
+richer steps.
 
 ## Enable live-site prod QA (defers CLAUDE.md rule 3)
 The "QA prod after every deploy" rule currently runs against the **local prod
