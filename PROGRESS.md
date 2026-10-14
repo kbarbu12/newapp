@@ -357,6 +357,17 @@
   Junpei appears after freeing the prisoner in a north Tokachi cave; Iwa is
   at Benten Port). TODO item removed.
 
+- **Generic steps — AC Odyssey leftovers:** 16 entries whose text was vague
+  or made up now have plain, safe steps: 4 story quests (Memories Awoken,
+  Welcome to Athens, Speak No Evil, The Long Game), Call to Arms & The Great
+  Contender (dropped the unconfirmed "three Brutes"/"One Hundredth Hand"), 7
+  Lost Tales (dropped unconfirmed episode numbers, NPCs and regions), Kallias,
+  The Ghost of Kosmos (dropped the "42 members" claim), Medusa (dropped the
+  made-up "Romancing the Stone Garden"/Bryce quest) and Centaur Field (text
+  read "in Various"). The other ~80 leftovers already had plain template text
+  (riddles, tombs, romances) or guide-sourced side-quest text from #111–#114,
+  so they were left as is.
+
 ### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
