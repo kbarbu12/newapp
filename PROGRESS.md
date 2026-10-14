@@ -444,6 +444,23 @@
   region field), 0 page errors; video quests show steps under the video.
   Quest count 2,475.
 
+- **AC Odyssey regions (Various / open world → real region):** 49 entries
+  whose location was already guide-sourced but whose region was "Various" or
+  "Greece (open world)" now use the region the app already uses for that
+  place: 36 Cult of Kosmos members, 10 romances, 3 Lost Tales, and Where It
+  All Began. Islands follow the app's existing majority: Lemnos/Lesbos →
+  Petrified Islands, Keos → Pirate Islands (12 vs 1), Paros → Cyclades
+  Islands, Mykonos → Silver Islands, Samos → Southern Sporades, Melos →
+  Obsidian Islands. Left as is (no confirmed place, or no matching region):
+  ship-borne cultists (Asterion, The Octopus, The Hydra), Kallias, the Ghost,
+  Iokaste (Chios is split 2–2 between Northern Sporades and Petrified
+  Islands), The Chimera (Andros) and Zoisme (Malis) — no such region option;
+  4 romances and 7 Lost Tales with no confirmed location; Dinner in Sparta;
+  Centaur Field.
+- **Found:** the app's island regions overlap — Lesbos and Chios appear
+  under both Northern Sporades and Petrified Islands, Keos under both Pirate
+  and Cyclades Islands. Worth one owner decision on the island grouping.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
