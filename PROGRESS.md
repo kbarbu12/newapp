@@ -161,6 +161,13 @@
   Patches tip was Dark Souls; Ostrava, Old Monk, Astraea rewards; Sparkly's
   nest location; Mephistopheles's real six targets.
 
+- **Ghost of Tsushima:** all 9 video quests got steps. Fixed: Unbreakable
+  Gosaku → Izuhara (six farmstead keys, not shrines); Six Blades of Kojiro is
+  five Straw Hat assassins + Kojiro at Omi Monastery (not Iki); Heavenly
+  Strike is a duel with Yasuhira (no dojo trials); A Reckoning in Blood is the
+  Fort Koyasan raid (no "general Dokhoi"); Tadayori's foe is Kaede; rewards
+  for Ishikawa, Masako, Uchitsune, Yarikawa.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
