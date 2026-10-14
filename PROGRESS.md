@@ -101,6 +101,14 @@
   "In Service to Asgard" → "In Service of Asgard". Added a **Jötunheim** realm
   filter option (The Lost Sanctuary, Ironwood).
 
+- **Star Wars Jedi: Survivor:** all 61 video quests got steps. The 18 main-story
+  entries now use the real mission names (The Heist & The Escape, The Key to
+  Tanalorr, … Kata Akuna, Wrath, A New Path) and fixed story errors — Bode
+  betrays the group but Darth Vader kills Cere in the Siege; the Shattered
+  Moon boss is Drya Thorne. Bounties, Legendary enemies and the 7 Jedi
+  Chambers all verified real; a few locations corrected (Korej Lim →
+  Devastated Settlement, Chamber of Fortitude → Southern Reach).
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
