@@ -180,6 +180,12 @@
   completes "Unfinished Business: Duel the Unrivaled"). Its unshipped video
   candidate dropped; review page now 1,440 links.
 
+- **Persona 5 Royal:** all 8 video quests got steps. Fixed Mementos areas
+  (Takase couple → Chemdah 7, Nejima → Akzeriyyuth 5, Kiritani →
+  Akzeriyyuth 12), title "The Killer Who Cleans Up Trash", made-up tips
+  (Hamaon/Mudoon, Ryuji's "Baton Pass upgrade"), and Confidant rewards now
+  list each one's real abilities and deadlines.
+
 - Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
