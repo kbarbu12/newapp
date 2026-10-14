@@ -168,6 +168,13 @@
   Fort Koyasan raid (no "general Dokhoi"); Tadayori's foe is Kaede; rewards
   for Ishikawa, Masako, Uchitsune, Yarikawa.
 
+- **Ghost of Yōtei:** all 9 video quests got steps. Most side-quest details
+  were invented: "The Way of the Shamisen" renamed to the real Master of the
+  Shamisen (Heijiro's Garden, Song of Spirit); The Five Teachings is the
+  Mount Yōtei summit duel with Takezo (no blind sage); Takezo's final duel is
+  at the Coastal Dueling Tree; made-up tips/bosses replaced for Undying
+  Samurai, Spider Lily General, Crimson Kimono, Opusnupuri, Storm Blade.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.

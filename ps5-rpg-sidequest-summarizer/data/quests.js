@@ -22858,10 +22858,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "First Yōtei Six kill, Ghost Stance seeds",
-    summary:
-      "Atsu tracks down the Snake — the first of the Yōtei Six — a drunk, cowardly bandit lord who terrorises the outer grassland roads. The confrontation ends in a disarming QTE after he throws sand in Atsu's eyes.",
-    aiTip:
-      "The Snake is the easiest of the Six. When he reaches back to grab dirt, dodge sideways immediately — the sand blinds you if you stay still. Block and counter-attack through his drunken stagger.",
+    summary: "Atsu's hunt begins with the Snake, the first of the Yōtei Six. Fight through his outlaws to his house and beat him in a three-phase duel — when he goes for sand and a pistol, the wolf steps in.",
+    aiTip: "This is a teaching duel: block just before strikes to parry, dodge any attack with a red glint, and use heavy attacks to break his guard.",
+    walkthrough: [
+      "Ride to the Snake's hideout at the end of the prologue.",
+      "Clear the outlaws guarding the approach.",
+      "Enter the house and defeat the Snake's allies.",
+      "Duel the Snake through three phases — parry, dodge red-glint attacks, heavy attacks to break guard.",
+      "When he throws sand and draws a pistol, the wolf saves Atsu; finish him to cross off the first name."
+    ],
     video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
   },
 {
@@ -23178,14 +23183,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Takezo the Unrivalled",
-    location: "Yōtei Grasslands — Six Dueling Trees",
+    location: "Dueling Trees across Ezo → Coastal Dueling Tree, Yōtei Grasslands",
     length: "long",
     difficulty: "High",
-    reward: "Takezo's Katana legendary weapon, Unrivaled stance technique",
-    summary:
-      "A wandering musician sings of Takezo, a legendary swordmaster whose five disciples guard dueling trees across Ezo. Defeat all five, then face Takezo himself at the peak of Mount Yōtei to claim his blade.",
-    aiTip:
-      "Each disciple uses a different weapon — switch your own weapon to counter theirs. Takezo himself telegraphs every attack with a breath pause; perfect deflection is rewarded with a massive posture break.",
+    reward: "5 Takezo charms, Takezo's Twin Slash (dual katana spirit attack)",
+    summary: "Five of Takezo's disciples wait at Dueling Trees across Ezo. Beat all five, then face Takezo himself at the Coastal Dueling Tree to learn his twin-blade technique.",
+    aiTip: "Each disciple drops one of Takezo's charms — keep all five, you'll need to wear them for The Five Teachings. The Takezo duel has two rounds; the second starts at about a third of his health.",
+    walkthrough: [
+      "Beat any disciple at a Dueling Tree (or meet Ugetsu at the Coastal Dueling Tree) to start the tale.",
+      "Defeat the five disciples — near the Shikotsu River, north-west Tokachi Range, west Yōtei Grasslands by the White Dye House, west of Yubari Lake, and east of Boar's Eye Cave.",
+      "Go to the Coastal Dueling Tree in the south of the Yōtei Grasslands and wait for Takezo at the campfire.",
+      "Follow him down the cliff and duel him; a second round starts at about a third of his health.",
+      "Finish with the new dual katana spirit attack."
+    ],
     video: "https://www.youtube.com/watch?v=AQ-Eti68xhs"
   },
 {
@@ -23193,16 +23203,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Mythic Tales",
     game: "Ghost of Yotei",
-    region: "Multiple",
+    region: "Yotei Grasslands",
     title: "The Five Teachings",
-    location: "Ezo — Five Sacred Waypoints",
+    location: "Summit of Mount Yōtei",
     length: "long",
     difficulty: "Medium",
-    reward: "Five secret combat techniques, Sage's Charm",
-    summary:
-      "A blind sage at a mountain pass claims the land itself holds five forgotten teachings. Each trial — at a different region's waypoint — tests a different aspect of Atsu's skills to unlock ancient combat secrets.",
-    aiTip:
-      "The five trials are: stealth kill, perfect deflect, fear kill, horseback kill, and environmental kill. Read each waypoint inscription carefully — it describes exactly what the trial requires before you start.",
+    reward: "Unrivaled's straw hat, Golden Night and Golden Dawn sword kits, The Unrivaled trophy",
+    summary: "The sequel to Takezo the Unrivalled: wear his five charms, climb to the summit of Mount Yōtei and take on the Unrivalled in a final duel.",
+    aiTip: "Equip all five Takezo charms before the climb — you need enough charm slots unlocked to wear them. Winning also completes Unfinished Business: Duel the Unrivaled.",
+    walkthrough: [
+      "Finish Takezo the Unrivalled and keep all five of his charms.",
+      "Unlock enough charm slots and equip all five.",
+      "Climb to the summit of Mount Yōtei.",
+      "Wait at the summit campfire for Takezo.",
+      "Defeat him in the duel for the Unrivaled trophy."
+    ],
     video: "https://www.youtube.com/watch?v=tLoWypwSLyE"
   },
 {
@@ -23212,14 +23227,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Ishikari Plain",
     title: "The Undying Samurai",
-    location: "Ishikari Plain — Nakagoya Spring",
+    location: "Storyteller's Rest (north of Nakagoya Spring), Ishikari Plain",
     length: "medium",
     difficulty: "High",
-    reward: "Undying Samurai Armour, Iron Will technique",
-    summary:
-      "A storyteller at Nakagoya Spring tells of a samurai who cannot die. Find four wind chimes hidden across Ishikari to summon his restless spirit and end his suffering — or his siege — in a fearsome boss duel.",
-    aiTip:
-      "The Undying Samurai regenerates health unless you break his spirit seal — hit him three times with the Tanzutsu between each health bar. Stock up on gun powder before starting this quest.",
+    reward: "Armor of the Undying",
+    summary: "Ugetsu the storyteller tells of a samurai who cannot die. Find four wind chimes across Ishikari Plain, hang them in his cave and defeat the Undying Samurai.",
+    aiTip: "The chimes hang from trees with a light-blue cloth. Swipe up on the touchpad to hold up a chime and follow where the wind is strongest. One is on the Stone Jaw Coast cliffs — bring the grappling hook.",
+    walkthrough: [
+      "After reaching Ishikari Plain in The Oni, talk to Ugetsu at Storyteller's Rest, north of Nakagoya Spring near Masked Man's Quarry.",
+      "Take the first chime from the tree ahead (kill the bear beneath it).",
+      "Grapple up the Stone Jaw Coast cliffs for the second chime.",
+      "Find the last two chimes south of the Rumoi River and on top of a rock north of Nakagoya Spring.",
+      "Go down to the marked cave, place the chimes and defeat the Undying Samurai."
+    ],
     video: "https://www.youtube.com/watch?v=qEiLfOKxysI"
   },
 {
@@ -23229,14 +23249,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "The Spider Lily General",
-    location: "Tokachi Range — Mysterious Gate",
+    location: "Mysterious Gate → Abandoned Tominaga Estate, Tokachi Range",
     length: "medium",
     difficulty: "High",
-    reward: "Spider Lily Armour set, Venom Strike technique",
-    summary:
-      "A gate sealed by four locks guards the tomb of a general who dressed her soldiers in spider lilies. Find the four keys scattered through Tokachi's most dangerous areas to open the gate and face the guardian within.",
-    aiTip:
-      "The Spider Lily General inflicts poison on every hit — bring maximum antidote supplies and the medicine pouch upgrade. Her attack windows are short; focus on perfect deflects rather than aggression.",
+    reward: "Spider Lily Armor",
+    summary: "Through the Mysterious Gate in the south of the Tokachi Range lies a haunted plateau and the abandoned Tominaga estate. Find the four keys to its locked gate and duel the Spider Lily General.",
+    aiTip: "The four keys are the Pagoda, Maze, Gravestone and Cave keys. The bamboo maze is the trickiest — follow the lanterns and the guiding wind.",
+    walkthrough: [
+      "Go through the Mysterious Gate south of Shizunai Woods and follow the lantern-lit path onto the haunted plateau.",
+      "Find the four keys around the Abandoned Tominaga Estate: Pagoda (wooden box behind the pagoda), Maze, Gravestone and Cave.",
+      "Open the four locks on the gate.",
+      "Explore the abandoned estate.",
+      "Defeat the Spider Lily General and collect her armor."
+    ],
     video: "https://www.youtube.com/watch?v=OGiWDrMTG3w"
   },
 {
@@ -23246,14 +23271,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "The Legend of Opusnupuri",
-    location: "Nayoro Wilds — Mount Opusnupuri",
+    location: "Husko Kotan → Niptay Mountain, Nayoro Wilds",
     length: "long",
     difficulty: "High",
-    reward: "Opusnupuri Armour, Spirit Step technique",
-    summary:
-      "Ainu legend holds that Mount Opusnupuri's spirit demands a challenger worthy of its memory. Follow the Ainu elder's guidance through sacred rituals and a treacherous ascent to face the mountain's guardian spirit.",
-    aiTip:
-      "The guardian spirit has no physical weak point — you must use the ritual fire arrows crafted during the quest to deal meaningful damage. Don't use them all in the first phase; save two for the final burst.",
+    reward: "Charm of True Aim",
+    summary: "An Ainu storyteller at Husko Kotan tells of Okikurmi's arrow. Climb Niptay Mountain, survive a bear attack, recover the arrow and slay the bad kamuy.",
+    aiTip: "Needs Side Tale: The Load We Bear finished first. When the bear knocks you into the water, follow the sound of gunfire to pick up the trail.",
+    walkthrough: [
+      "Finish The Load We Bear, then listen to the Ainu storyteller under the yellow tree at Husko Kotan.",
+      "Find the trail up the mountain (grapple and climb past the abandoned camp).",
+      "Share a meal with the Ainu man, then follow him to the barred gate and continue alone.",
+      "Investigate the campsite — a bear attack throws you into the water; follow the gunfire.",
+      "Find Okikurmi's arrow and kill the bad kamuy."
+    ],
     video: "https://www.youtube.com/watch?v=PK76hT3UiIQ"
   },
 {
@@ -23263,14 +23293,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Crimson Kimono",
-    location: "Teshio Ridge — Frozen Peaks",
+    location: "Mother Daughter Tree, Teshio Ridge",
     length: "medium",
     difficulty: "Medium",
-    reward: "Crimson Kimono Armour, Phantom Step ability",
-    summary:
-      "Travellers on the Teshio Ridge speak of a woman in crimson who vanishes into the blizzards. Track her ghost across three frozen peaks using offerings of incense to reveal her true form and earn her legendary armour.",
-    aiTip:
-      "The Crimson Kimono boss fight takes place in a blizzard that limits visibility. Use your listening sense frequently to track her movement. She is vulnerable for only two seconds after each disappearing vanish.",
+    reward: "Crimson Kimono armor",
+    summary: "Ugetsu tells of a woman in a crimson kimono. Follow red yuki mushi and snow sculptures across Teshio Ridge's mountains to her home — a quiet, exploration-heavy tale.",
+    aiTip: "Light on combat, heavy on navigation — the yuki mushi drift toward the next clue. The armor is a stealth set: Kunai chain assassinations, lower detection and longer kusarigama assassination range.",
+    walkthrough: [
+      "After reaching Teshio Ridge in The Kitsune, find Ugetsu at the Mother Daughter Tree.",
+      "Examine the snow sculpture and follow the red yuki mushi to an abandoned campsite.",
+      "Travel to the eastern Hakodake Mountains, find the orange Mother Daughter Tree and follow the yuki mushi.",
+      "Repeat at the mountain north of the Teshio River.",
+      "Explore the home, examine the final snow sculpture and follow the yuki mushi to the end."
+    ],
     video: "https://www.youtube.com/watch?v=eXVWa7Bs1No"
   },
 {
@@ -23283,11 +23318,16 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Oshima Coast — Forgotten Shrine",
     length: "medium",
     difficulty: "High",
-    reward: "Storm Blade (Jin Sakai's legendary katana), Storm Strike technique",
-    summary:
-      "A shrine keeper on the Oshima Coast guards the tomb of a legendary warrior from the mainland. Solve the shrine's three trials of water, wind, and steel to unearth a blade that carries the storm within it.",
-    aiTip:
-      "The Storm Blade's special attack sends a ranged lightning arc — upgrade it as soon as possible. The three trials can be done in any order; the water trial is easiest if done first to learn the puzzle pattern.",
+    reward: "Storm Blade, Dance of Wrath technique, From One Ghost to Another trophy",
+    summary: "Ugetsu waits at the Forgotten Shrine with a tale of a blade from Tsushima. A fox leads Atsu to the Storm Blade — Jin Sakai's sword — and a thief called the Nine Tails tries to take it.",
+    aiTip: "Unlocks on first entering Oshima Coast during The Saito Brothers. Cut the bamboo to reveal the fox shrine, and bow at it to summon the fox.",
+    walkthrough: [
+      "Talk to Ugetsu at the Forgotten Shrine in south-west Oshima Coast.",
+      "Climb the stairs, turn right at the first gate, cut through two bamboo thickets and bow at the fox shrine.",
+      "Follow the gray fox to the Glade of Remembrance and open the chest under the red tree.",
+      "Enter the cavern and claim the Storm Blade.",
+      "Chase the Nine Tails, climb out of the river and defeat the Nine Tail Sword Thief."
+    ],
     video: "https://www.youtube.com/watch?v=vMvLZuZ2FKc"
   },
 {
@@ -23296,15 +23336,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Sensei Tales",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
-    title: "The Way of the Shamisen",
-    location: "Yōtei Grasslands — River Crossing",
+    title: "Master of the Shamisen",
+    location: "Master Heijiro's Garden, Yōtei Grasslands",
     length: "short",
     difficulty: "Low",
-    reward: "Shamisen — songs reveal hidden collectible locations",
-    summary:
-      "A travelling musician at the river crossing teaches Atsu the shamisen. Mastering three melodies unlocks a unique ability: playing the correct song at a landmark causes nearby hidden collectibles to glow.",
-    aiTip:
-      "Learn all three songs before leaving the quest area — the third is only available in this location. The Ainu Heirloom and Fox Den collectibles are easiest to find once this quest is complete.",
+    reward: "Song of Spirit (points to Bamboo Strikes)",
+    summary: "At Master Heijiro's Garden, Atsu revisits memories of her mother's shamisen lessons and learns the Song of Spirit, which leads to Bamboo Strike locations.",
+    aiTip: "Hold the touchpad near the yellow tree to slip into the past, and swap back and forth to find each memory (whirling leaves and a blue silhouette). Other songs come from elsewhere — e.g. Song of Well-Being from the Ishikari cliff practice spot.",
+    walkthrough: [
+      "After the prologue, go to Master Heijiro's Garden and hold the touchpad by the yellow tree to enter the past.",
+      "Talk to your mother on the cliff edge, then cut down the bamboo she asks for.",
+      "Swap between past and present to find the memories (whirling leaves, blue silhouette).",
+      "Follow Master Heijiro up the steps to the two seats on the cliff.",
+      "Play the shamisen minigame to learn the Song of Spirit."
+    ],
     video: "https://www.youtube.com/watch?v=j7vbgg8qtaE"
   },
 {
