@@ -193,6 +193,15 @@
   "Watcher of the Black Isles"). **Phase 2 complete** — every video quest now
   has steps.
 
+- **Phase 3 — AC Odyssey batch 1 (Kephallonia, Megaris, Phokis):** 31
+  quests' 1–3-step generic lists replaced with 4–5 guide-sourced steps
+  (story from So It Begins to The Serpent's Lair, side quests, Kalydonian
+  Boar, 2 tombs, 7 Ainigmata Ostraka with real tablet/solution spots).
+  "Side Quest - Crewless"/"Helping a Healer" retitled and moved to side
+  quests; many summaries rewritten (An Eye for an Eye = the Obsidian Eye,
+  Learning the Ropes = naval fight). #2024 Memories Awoken left as is — no
+  guide found.
+
 - Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
