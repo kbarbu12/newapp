@@ -119,6 +119,12 @@
   Element Carts is Chapter 5 (not 3); Loong Scales are behind a breakable
   wall in the First Rat Prince arena; Drunken Boar summary untangled.
 
+- **Final Fantasy VII Rebirth:** all 19 video quests got steps (odd jobs,
+  Protorelics, Colosseum, Queen's Blood, Gilgamesh, Gold Saucer finale).
+  Fixed regions (Can't Stop Won't Stop, Queen's Blood Champion, Gilgamesh →
+  Corel), My White-Haired Angel summary (it's finding Fluffy, not a piano
+  scene), and 5 vague summaries/locations.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
