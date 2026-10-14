@@ -212,6 +212,17 @@
   Artemision Tomb, and the Attika Ostraka Goat's Gruff, Killer View, Pigsty,
   Fire in the Belly, Stadium Love, Bridging the Gap.
 
+- **Phase 3 — AC Odyssey batch 3 (Peloponnese story, beasts, tombs):** 32
+  quests got 4–5 guide-sourced steps (Korinth/Monger arc, Hippokrates in
+  Argolis, Sparta's kings, the Olympics, the Lagos chain, A Bloody Feast,
+  Pylos, Olympia side quests, 4 legendary beasts, 7 tombs). Fixed To Kill or
+  Not to Kill (it's the Sosipatros ambush and the Lagos choice, not
+  Alkibiades's poisoning); "Tomb of Euryplos" → Tomb of Eurypylos. Left as
+  is (no guide found): Speak No Evil, The Long Game, Written in Stone, Death
+  Comes for Us All, Ambition, Training Days, Not My Mother's Daughter,
+  Another Kind of Poetry, Destroyed House of Oinomanos, Tomb of the First
+  Champion.
+
 - Still to do: owner review of the 1,440 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
