@@ -155,6 +155,12 @@
   Devil's Thirst" doesn't exist → renamed to Tallneck: Cinnabar Sands; The
   Daunt Errands now lists Chainscrape's real errands.
 
+- **Demon's Souls:** all 11 video quests got steps. Fixed: Yuria is in the
+  1-2 watchtower (Fat Official set), not Latria; Saint Urbain → Shrine of
+  Storms; Scirvir's summary/reward (Pure Greystone or Talisman of Beasts);
+  Patches tip was Dark Souls; Ostrava, Old Monk, Astraea rewards; Sparkly's
+  nest location; Mephistopheles's real six targets.
+
 - Still to do: owner review of the 1,441 video candidates; owner to decide whether
   walkthrough steps should show alongside a video, and whether to delete the
   13 old per-game review pages.
