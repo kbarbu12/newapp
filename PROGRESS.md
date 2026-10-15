@@ -542,6 +542,19 @@
   (tombs, riddles, cult, romances, Lost Tales, beasts) stay as they are:
   they're accurate for every entry.
 
+- **Ghost of Tsushima: 15 Ishikawa/Masako/Norio tales rewritten:** their
+  aiTip was just a label ("Ishikawa questline.", "Masako revenge tale.",
+  "Norio questline.") and their steps were filler ("Follow the guiding wind…
+  Confront the source…"), missed by the template check because each step
+  list was unique. Rewritten from guides (PowerPyx, Fextralife, Gamer Guides,
+  GameFAQs, gamepressure, guides4gamers) with tale numbers, what actually
+  happens (Tomoe as "Matsu", Sadao already dead at the lighthouse, the duel
+  with Masako, the stolen Buddha statue) and rewards where guides agree.
+  Regions fixed: Friends in Passing → Kamiagata; The Terror of Otsuna, The
+  Fool, The Thief, The Cause of Suffering, The End of Suffering → Toyotama.
+  Dreams of Conquest and The Thief only have their setup (no guide gave the
+  ending).
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
