@@ -1,13 +1,13 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-14
+**Last updated:** 2026-10-15
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
 
-## Session 2026-10-11 → 14 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
+## Session 2026-10-11 → 15 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
 
 ### Video candidates for all search-URL quests (not shipped — owner review)
 - Every quest whose `video` was a YouTube search URL now has a proposed
@@ -609,11 +609,28 @@
   Island of Misfortune (Keos) → Pirate Islands. The now-empty "Northern
   Sporades" option was removed.
 
+### 2026-10-15 in short — quest data cleanup, prod deploy **v2.4.1**
+- PRs #170–#184 (bullets above), all merged and on prod. Changelog PR #184,
+  then `staging` → `main` → `v2.4.1` tagged; Tag & Release and Pages
+  workflows green. Prod QA on the local prod build (served at `/newapp/`):
+  all 212 entries changed since v2.4.0 render every field, the 12 removed
+  quests are gone, 0 page errors.
+- Method that worked: research per quest with WebSearch, change only what a
+  guide states, flag the rest. It kept turning up wrong data, not just weak
+  tips (Deadfire ship bounties written as land fights, riddle regions,
+  Jedi rumor rewards, invented Ghost of Tsushima details).
+- New this round: a phrase scan for filler steps ("guiding wind to the…",
+  "Resolve the tale") found the Ghost of Tsushima tales the template check
+  missed. `scratchpad/apply-add.cjs` (insert new entries after a given id) was
+  added next to the patch/remove scripts.
+- Quest count 2,475 → 2,467 (12 removed, 4 added).
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
   pages (keep for now); optional in-game checks of the plain-step leftovers
-  (TODO.md).
+  (TODO.md). Remaining shared tips are accurate category tips (AC Odyssey
+  tombs/riddles/cult/romances, Cyberpunk cyberpsychos) — left on purpose.
 
 ---
 
