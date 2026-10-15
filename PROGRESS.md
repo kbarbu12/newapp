@@ -599,6 +599,16 @@
   link plus a walkthrough. Sources: Game8, VULKK, Sportskeeda, TechRaptor,
   GameSkinny, Upcomer.
 
+- **AC Odyssey island regions made consistent** (owner: "do everything"):
+  guides (gamepressure, PSU, AC wiki) give the in-game groups as Petrified
+  Islands = Lesbos + Chios, Hephaistos Islands = Lemnos + Thasos, Pirate
+  Islands = Seriphos + Keos + Lestris. Moved the 5 Lesbos/Chios entries out
+  of "Northern Sporades" → Petrified Islands; the 6 Lemnos/Thasos entries →
+  new **Hephaistos Islands** option (3 had the wrong label "Volcanic Islands
+  (Thassos and Lemnos)" — the Volcanic Islands are Thera, Anaphi, Nisyros);
+  Island of Misfortune (Keos) → Pirate Islands. The now-empty "Northern
+  Sporades" option was removed.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
