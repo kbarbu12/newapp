@@ -502,6 +502,19 @@
   Brass Citadel; Dirty Laundry gained Quarno and Töla. The Last Sanctuary and Of Like Minds keep the shared tip
   (no guide found).
 
+- **Cyberpunk gig tips (batch 3):** 17 of the 22 gigs that shared "Scout
+  the site first…" now have their own tip from guides (PowerPyx, Fextralife,
+  Gamer Guides, Ludo): skill-check doors (e.g. Cuckoo's Nest Body 15, Sr.
+  Ladrillo Body/Tech 18), optional objectives (Old Friends no alarm, An
+  Inconvenient Killer no combat in the club, Family Matters safe), and
+  non-lethal options (Shark in the Water, Backs Against the Wall). Big Pete
+  no longer promises "double the eddies" for sparing him — guides disagree
+  (Fextralife: double; Ludo: Pete offers €$5,000). Left on the shared tip:
+  Hot Merchandise, Bring Me the Head of Gustavo Orta, Many Ways to Skin a
+  Cat, The Lord Giveth and Taketh Away (no guide detail), and Over the Edge.
+  The 15 cyberpsycho sightings keep their shared tip: it's accurate for all
+  of them (non-lethal takedown, read the shard).
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
