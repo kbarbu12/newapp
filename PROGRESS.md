@@ -400,7 +400,7 @@
   P5R's 14 Mementos leftovers needed no change: their only generic step
   ("exploit its weakness") is already plain and accurate.
 
-### 2026-10-14 in short (PRs #133–#148, all merged to `staging`, not yet on prod)
+### 2026-10-14 in short (PRs #133–#148, now on prod in `v2.4.0`)
 - **Phase 2 done:** every quest with a real video now has steps (0 left).
   Today: Wukong 21, FF7 Rebirth 19, Cyberpunk 20, Metaphor 20, Witcher 3 14,
   Horizon FW 12, Demon's Souls 11, Ghost of Tsushima 9, Ghost of Yōtei 9,
@@ -421,10 +421,199 @@
   ("Peloponnese", "Northern Greece"; A Finger Tip is really Phokis). Being
   fixed batch by batch.
 
-- Still to do: Phase 3 (remaining AC Odyssey batches: Cyclades/Myrrine arc,
-  islands, riddles, Various/open-world), then Phase 4 (review steps on the
-  1,443 no-video quests); owner review of the 1,440 video candidates; owner
-  to decide whether to delete the 13 old per-game review pages (keep for now).
+### 2026-10-14 (2) — Phases 3–4, leftovers, prod deploy **v2.4.0**
+- **Phase 3 finished** (#150–#154): the remaining AC Odyssey batches
+  (Cyclades/Myrrine arc, islands, Cult of Kosmos, finale/Lost
+  Tales/romances, beasts/tombs). About 96 entries stayed short because no
+  guide confirmed more.
+- **Phase 4 finished** (#155–#162): template steps on no-video quests
+  checked against guides. Often the data itself was wrong: Cyberpunk gigs
+  had the wrong district or fixer, Deadfire/Pillars bounties listed the
+  giver's district as the target's location, Skyrim contract locations were
+  off, Yōtei bounty mechanics looked invented. Fixed where guides agreed.
+- **Leftovers made plain and safe** (owner's choice, #163–#168): entries no
+  guide confirmed lost their invented details and got plain steps — Yōtei
+  12, AC Odyssey 16, Cyberpunk 8, Deadfire 12, TotK 23, Pillars I 9. P5R and
+  Valhalla needed nothing (already plain and accurate). Template rule used:
+  keep only what's safe (quest giver, region, the core task), point to the
+  in-game journal/description for the rest.
+- **Prod deploy → `v2.4.0`** (minor): CHANGELOG PR #169, then `staging` →
+  `main` with `[minor]`. Tag & Release and Pages workflows green. Prod QA on
+  the local prod build (served at `/newapp/`): 45/68 checked entries pass
+  every field, the 23 TotK ones fail only the expected "region" check (no
+  region field), 0 page errors; video quests show steps under the video.
+  Quest count 2,475.
+
+- **AC Odyssey regions (Various / open world → real region):** 49 entries
+  whose location was already guide-sourced but whose region was "Various" or
+  "Greece (open world)" now use the region the app already uses for that
+  place: 36 Cult of Kosmos members, 10 romances, 3 Lost Tales, and Where It
+  All Began. Islands follow the app's existing majority: Lemnos/Lesbos →
+  Petrified Islands, Keos → Pirate Islands (12 vs 1), Paros → Cyclades
+  Islands, Mykonos → Silver Islands, Samos → Southern Sporades, Melos →
+  Obsidian Islands. Left as is (no confirmed place, or no matching region):
+  ship-borne cultists (Asterion, The Octopus, The Hydra), Kallias, the Ghost,
+  Iokaste (Chios is split 2–2 between Northern Sporades and Petrified
+  Islands), The Chimera (Andros) and Zoisme (Malis) — no such region option;
+  4 romances and 7 Lost Tales with no confirmed location; Dinner in Sparta;
+  Centaur Field.
+- **Found:** the app's island regions overlap — Lesbos and Chios appear
+  under both Northern Sporades and Petrified Islands, Keos under both Pirate
+  and Cyclades Islands. Worth one owner decision on the island grouping.
+
+- **AC Odyssey riddles (batch 1 of the leftovers):** the riddle regions
+  were often plain wrong (Helios's Greeting is in Makedonia, Stone Cold in
+  Korinth, Estate Envy/Marbled Morale on Mykonos — all were filed under
+  "Forest Islands"/"Paradise Islands"). 18 riddles fixed from guides: 10
+  with tablet + answer spot, steps and (where stated) the engraving (A
+  Finger Tip, Helios's Greeting, Dye Dye Dye, A Deal for Freedom, Blue Eyed
+  Beauty, Smoke Signal, Stone Cold, Estate Envy, Marbled Morale — retitled
+  from "Marbled Moral" — and Stubborn Mule); 6 with the tablet spot only
+  (Goat's Gruff, Killer View, Star-Crossed Lovers, To the Edge of the World,
+  Procrastinate Now, Needle in a Haystack); 2 with the region only (Grave
+  Discovery → Silver Islands, Pride of Place → Pirate Islands). No guide
+  found: Red Scent, Heart and Sole, Pigsty, Fire in the Belly, Stadium Love,
+  Bridging the Gap, Hungry for Misadventure and the 10 Peloponnese riddles.
+  **Possibly not real** (no guide mentions them at all): the 4 Arid Islands
+  riddles Upon Typhon's Crown, Beneath Theseus' Dreams, Made in Abyss,
+  'Til Death Do Us Part — owner to check.
+
+- **Deadfire bounty tips (quest-specific aiTips, batch 1):** all 28
+  bounties shared one generic tip. Guides (Fextralife, guides4gamers,
+  sorcerers.net) show 12 of them are **ship bounties** (Biakara, Veen,
+  Desiwa, Diccila, Oheiro, Rafiq, Assila, Radulf, Burunga, Chornu, Kuaro,
+  Rodul): their steps said "pull the escorts apart with crowd control", now
+  they name the ship and where it sails, and say to win the sea battle or
+  board. Fixed two wrong target spots (Radulf sails the Goldbell around the
+  south-west Kua o Rikuhu islands; Burunga is in the Ofecchia Channel, far
+  north-east, not next to Radulf). Every bounty now names its chain (e.g.
+  Okauro: Dhwrgas → Onadere → Ikorno → Urnox), and tips name the enemy mix
+  and level where guides give them. Tāhae, Beina, Imp Dessiral keep a
+  generic tip (no guide detail). The 20 faction quests still share one tip.
+
+- **Deadfire faction quest tips (batch 2):** 18 of the 20 faction quests
+  now have their own tip; 10 of the #166 "plain steps" leftovers also got
+  real content now that guides were found (sorcerers.net, Fextralife,
+  guides4gamers): From the Wreckage (starts on the world map), Trade Secrets (Aruihi, the Gullet black market, Delver's
+  Row), Symbols of Death (Lucia Rivan, Yseyr's tomb), A Shrewd Proposition
+  (Crookspur slavers), Goods and Services (Mad Morena), Overgrowth
+  (Cignath Mór, the Galawain/Kraken choice), A Glimpse Beyond (Spire of the Soul-Seers, Flaune Elette), Skipping
+  Ahead, A Vote of No Confidence (the Castol trial) and Sabotage at the
+  Brass Citadel; Dirty Laundry gained Quarno and Töla. The Last Sanctuary and Of Like Minds keep the shared tip
+  (no guide found).
+
+- **Cyberpunk gig tips (batch 3):** 17 of the 22 gigs that shared "Scout
+  the site first…" now have their own tip from guides (PowerPyx, Fextralife,
+  Gamer Guides, Ludo): skill-check doors (e.g. Cuckoo's Nest Body 15, Sr.
+  Ladrillo Body/Tech 18), optional objectives (Old Friends no alarm, An
+  Inconvenient Killer no combat in the club, Family Matters safe), and
+  non-lethal options (Shark in the Water, Backs Against the Wall). Big Pete
+  no longer promises "double the eddies" for sparing him — guides disagree
+  (Fextralife: double; Ludo: Pete offers €$5,000). Left on the shared tip:
+  Hot Merchandise, Bring Me the Head of Gustavo Orta, Many Ways to Skin a
+  Cat, The Lord Giveth and Taketh Away (no guide detail), and Over the Edge.
+  The 15 cyberpsycho sightings keep their shared tip: it's accurate for all
+  of them (non-lethal takedown, read the shard).
+
+- **Jedi: Survivor rumors (batch 4) — data check, not just tips:** 28
+  rumors shared one tip. Checking them against rumor lists (Game8, GameRiv,
+  Novice Gamer Guides, Media Referee, VULKK) found wrong data: Investigate
+  the Abandoned Shack rewards a Health Stim (not a Priorite Shard) and needs
+  the Forest Array abilities; Help Zygg in the Swamp recruits **Wini**;
+  Investigate the Roller Mine Factory gives a Force Essence and opens after
+  Find the Gyro Module; chamber rumors come from Toa, not a "saloon board".
+  8 entries fixed/tipped. **Possibly not real** (in no rumor list): Recruit
+  Ashe Javi & DD-EC (guides say Use the Saloon's Jukebox recruits them),
+  Recruit T-1N8, Check on Wini & Zygg, Check the Aquarium, Play a
+  Holotactics Game, Investigate the Factory's Lower Levels, Explore the High
+  Republic Chamber in the Swamp — owner to check. **Missing** real rumors:
+  Defeat the Gorocco Matriarch, Find Kip Ostar, Speak to Caij About Bounty
+  Hunting, Visit the Saloon's Garden. Other rumors keep the shared tip.
+
+- **AC Odyssey main-story choice tips (batch 5):** 10 of the 53 story
+  quests that shared one levelling tip now warn about the choices that
+  matter (guides: SegmentNext, Gamepressure, TheGamer, Gamer Guides): spare
+  Kostas's thugs → they return; spare Nikolaos (family ending); Elpenor's
+  dialogue in The Wolf's Fate; Xenia's 15,000 drachmae; tell Myrrine you'll
+  save Deimos (Catching Up); the Lagos chain (rescue family + quiet Monger
+  kill → talk him down → evidence for A Bloody Feast); and the full
+  requirement list on Dinner in Sparta. The other 43 keep the levelling
+  tip — no guide flags a choice in them, and the AC Odyssey category tips
+  (tombs, riddles, cult, romances, Lost Tales, beasts) stay as they are:
+  they're accurate for every entry.
+
+- **Ghost of Tsushima: 15 Ishikawa/Masako/Norio tales rewritten:** their
+  aiTip was just a label ("Ishikawa questline.", "Masako revenge tale.",
+  "Norio questline.") and their steps were filler ("Follow the guiding wind…
+  Confront the source…"), missed by the template check because each step
+  list was unique. Rewritten from guides (PowerPyx, Fextralife, Gamer Guides,
+  GameFAQs, gamepressure, guides4gamers) with tale numbers, what actually
+  happens (Tomoe as "Matsu", Sadao already dead at the lighthouse, the duel
+  with Masako, the stolen Buddha statue) and rewards where guides agree.
+  Regions fixed: Friends in Passing → Kamiagata; The Terror of Otsuna, The
+  Fool, The Thief, The Cause of Suffering, The End of Suffering → Toyotama.
+  Dreams of Conquest and The Thief only have their setup (no guide gave the
+  ending).
+
+- **Ghost of Tsushima: 24 more entries rewritten (batch 2):** the rest of
+  the filler tales found by a phrase scan ("guiding wind to the…", "Resolve
+  the tale", label-only tips like "Norio Tale 2 of 9."). Yuna's 4 tales
+  (Mamushi Brothers, the Black Wolf, the Altan duel; 3 moved Izuhara →
+  Toyotama), Kenji 2–3, Ishikawa 2, 3 and 9 (Laid to Rest → Toyotama, Umugi
+  Cove), Masako 2, 6, 9 and the bonus tale, Norio 1, 2, 8, 9, the Iki
+  Mythic Tales (Black Hand Riku is a pirate in monkey-spirit armour → Sarugami
+  Armor, not a "war-elephant-sized beast"; Kazumasa Sakai gives horse
+  armour), The Undying Flame (Way of the Flame), and A Gathering Storm (an
+  **Act 3** Port Izumi scouting mission from Jogaku Temple → Kamiagata, not
+  Act 2 Toyotama). Also corrected two tale numbers from #178 (Ghosts in the
+  Fog is Norio 3, The Birth of Suffering is Norio 4; The Blood Sutra is 5).
+  Tales with no guide detail got plain steps. **Possibly not real:** #694
+  "The Coward's Deception" — no such mission (the closest is Act 2's The
+  Coward of Yarikawa, in Toyotama); owner to check.
+
+- **Removed 12 entries on the owner's OK** (flagged in the batches above as
+  in no guide or list): Jedi: Survivor #1361, #1363, #1364, #1365, #1367,
+  #1368, #1371; AC Odyssey riddles #2329–#2332 (Upon Typhon's Crown,
+  Beneath Theseus' Dreams, Made in Abyss, 'Til Death Do Us Part); Ghost of
+  Tsushima #694 The Coward's Deception. Quest count 2,475 → 2,463.
+  `docs/video-candidates/aco.json` keeps its rows for #2329–#2332 (it's the
+  record of already-shipped links). The now-empty "Arid Islands" region
+  filter option was removed.
+
+- **Pillars of Eternity I bounty tips:** 14 of the 15 Caed Nua bounties
+  got their own tip (level and enemy type, notable drops, which of Warden
+  Fyrgen's four batches it's in) from the Pillars wiki, GameFAQs, Sorcerer's
+  Place and GameBanshee. 7 of the 8 #168 "see the bounty description"
+  bounties now have their real target spot: Glasdial (Lle a Rhemen ruins,
+  Stormwall Gorge), Foemyna (Woodend Plains), Devŵen (Northweald cave),
+  Captain Muārumi (Sea Cave, Anslög's Compass), High Arcanist Ysly (Heritage
+  Hill tower), Naroc (Cilant Lîs), Sserkal (Pearlwood Bluff). Galen Dalgard
+  keeps the shared tip and "see the bounty description" (no guide detail).
+
+- **Added 4 missing Jedi: Survivor rumors** (owner's OK, IDs #2588–#2591):
+  Speak to Caij About Bounty Hunting (Caij's bounty system, Bounty Pucks,
+  her own final bounty at the Stone Spires), Find Kip Ostar (Dredger Gorge,
+  Derelict Dam; blaster and shield), Defeat the Gorocco Matriarch (Derelict
+  Dam; golden chest with a Stim Canister) and Visit the Saloon's Garden
+  (rooftop garden; Pili expands it). No real video yet, so each has a search
+  link plus a walkthrough. Sources: Game8, VULKK, Sportskeeda, TechRaptor,
+  GameSkinny, Upcomer.
+
+- **AC Odyssey island regions made consistent** (owner: "do everything"):
+  guides (gamepressure, PSU, AC wiki) give the in-game groups as Petrified
+  Islands = Lesbos + Chios, Hephaistos Islands = Lemnos + Thasos, Pirate
+  Islands = Seriphos + Keos + Lestris. Moved the 5 Lesbos/Chios entries out
+  of "Northern Sporades" → Petrified Islands; the 6 Lemnos/Thasos entries →
+  new **Hephaistos Islands** option (3 had the wrong label "Volcanic Islands
+  (Thassos and Lemnos)" — the Volcanic Islands are Thera, Anaphi, Nisyros);
+  Island of Misfortune (Keos) → Pirate Islands. The now-empty "Northern
+  Sporades" option was removed.
+
+- Still to do: owner review of the 1,440 video candidates
+  (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
+  marked done; owner to decide whether to delete the 13 old per-game review
+  pages (keep for now); optional in-game checks of the plain-step leftovers
+  (TODO.md).
 
 ---
 
