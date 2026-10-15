@@ -3,6 +3,13 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-15 (4)
+
+- **Fail the quest audit on filler step text and label-only tips** (PR #190)
+  — `v2.4.4` patch. Tooling only: `scripts/audit.js` now errors on template
+  step phrases and label-only aiTips, so CI and the deploy gate block them.
+  No app or data change.
+
 ## 2026-10-15 (3)
 
 - **Fix the last 17 AC Odyssey riddles and restore 2 removed by mistake**
