@@ -510,7 +510,6 @@ const subFilterConfig = {
       options: [
         { value: "Achaia", text: "Achaia" },
         { value: "Argolis", text: "Argolis" },
-        { value: "Arid Islands", text: "Arid Islands" },
         { value: "Arkadia", text: "Arkadia" },
         { value: "Attika", text: "Attika" },
         { value: "Boeotia", text: "Boeotia" },
@@ -15230,30 +15229,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
   },
 {
-    id: 694,
-    type: "main",
-    category: "Jin's Journey",
-    game: "Ghost of Tsushima",
-    region: "Kamiagata",
-    title: "The Coward's Deception",
-    location: "Kamiagata",
-    length: "medium",
-    difficulty: "High",
-    reward: "Kamiagata liberated, finale approach",
-    summary:
-      "Root out betrayal and reclaim northern Kamiagata as the final reckoning nears.",
-    aiTip:
-      "Act 3 escalates the stakes — bring your fully upgraded Ghost loadout.",
-    walkthrough: [
-      "Reach Kamiagata and uncover the deception at play.",
-      "Track the trail with the guiding wind to the enemy plan.",
-      "Fight or sneak through the Mongol/traitor forces.",
-      "Confront the schemer behind the coward's deception.",
-      "Resolve it to advance toward the finale."
-    ],
-    video: "https://www.youtube.com/watch?v=29jY43VtfcQ"
-  },
-{
     id: 695,
     type: "main",
     category: "Jin's Journey",
@@ -27758,27 +27733,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=NYNvwABvGko"
   },
 {
-    id: 1361,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Explore the High Republic Chamber in the Swamp",
-    location: "Viscid Bog",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Skill point; perk",
-    summary: "A rumor points to a sealed High Republic meditation chamber hidden in the murk of the Viscid Bog.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Take the rumor from the saloon board.",
-      "Travel to the Viscid Bog on Koboh.",
-      "Locate the chamber entrance concealed among the bog ruins.",
-      "Solve the interior Force puzzle to claim the reward."
-    ],
-    video: "https://www.youtube.com/watch?v=-B8BhZwbPJo"
-  },
-{
     id: 1362,
     type: "side",
     category: "Rumor",
@@ -27800,69 +27754,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=y-EIYnhosnY"
   },
 {
-    id: 1363,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Recruit Ashe Javi & DD-EC",
-    location: "Rambler's Reach",
-    length: "short",
-    difficulty: "Low",
-    reward: "Ashe Javi & DD-EC join Pyloon's Saloon",
-    summary: "Word reaches Cal of a wandering performer, Ashe Javi, and their droid DD-EC who could liven up Pyloon's Saloon.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Pick up the recruitment rumor at Pyloon's Saloon.",
-      "Track Ashe Javi and DD-EC down at their spot on Koboh.",
-      "Finish the conversation to convince them to join.",
-      "Return to Pyloon's Saloon to find the pair settled in."
-    ],
-    video: "https://www.youtube.com/watch?v=oXE0z4QBOwQ"
-  },
-{
-    id: 1364,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Recruit T-1N8",
-    location: "Rambler's Reach",
-    length: "short",
-    difficulty: "Low",
-    reward: "T-1N8 joins Pyloon's Saloon",
-    summary: "A stranded droid, T-1N8, can be recruited to add to the growing community at Pyloon's Saloon.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Pick up the recruitment rumor at Pyloon's Saloon.",
-      "Locate T-1N8 out in the Koboh wilds.",
-      "Complete the interaction to bring the droid onside.",
-      "Head back to Pyloon's Saloon to see T-1N8 among the patrons."
-    ],
-    video: "https://www.youtube.com/watch?v=7XCvGMCHOYc"
-  },
-{
-    id: 1365,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Check on Wini & Zygg",
-    location: "Viscid Bog",
-    length: "short",
-    difficulty: "Low",
-    reward: "Follow-up on the swamp pair; saloon banter",
-    summary: "After helping Zygg out of the swamp, a follow-up rumor asks Cal to check back in on Zygg and Wini.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Complete Help Zygg in the Swamp first to unlock this follow-up.",
-      "Take the rumor from the saloon and return toward the Viscid Bog.",
-      "Find Wini and Zygg and see how the pair are faring.",
-      "Finish the conversation to close out the rumor."
-    ],
-    video: "https://www.youtube.com/watch?v=O-cdUBK8e4M"
-  },
-{
     id: 1366,
     type: "side",
     category: "Rumor",
@@ -27882,48 +27773,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Play a song to complete the rumor."
     ],
     video: "https://www.youtube.com/watch?v=NZRylg_72II"
-  },
-{
-    id: 1367,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Check the Aquarium",
-    location: "Pyloon's Saloon",
-    length: "short",
-    difficulty: "Low",
-    reward: "Skoova's rotating fish collection",
-    summary: "Skoova Stev stocks the saloon's aquarium with rare fish he catches on his travels — Cal can drop by to see the latest haul.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Recruit the Mysterious Fisherman (Skoova) so he starts stocking the tank.",
-      "Progress the story so Skoova brings back new catches over time.",
-      "Visit the aquarium on the second floor of Pyloon's Saloon.",
-      "Inspect the fish to complete the rumor."
-    ],
-    video: "https://www.youtube.com/watch?v=QhZ3xxOSnzQ"
-  },
-{
-    id: 1368,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Koboh",
-    title: "Play a Holotactics Game",
-    location: "Pyloon's Saloon",
-    length: "short",
-    difficulty: "Low",
-    reward: "Holotactics match; bragging rights",
-    summary: "With the Holotactics table unlocked, Cal can challenge patrons to a round of the in-universe strategy game.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Complete Locate the Odd Pair to unlock the Holotactics Table.",
-      "Go to the table on the second floor of Pyloon's Saloon.",
-      "Challenge an opponent and set up your unit board.",
-      "Win a match of Holotactics to complete the rumor."
-    ],
-    video: "https://www.youtube.com/watch?v=-CUkD3ftyMo"
   },
 {
     id: 1369,
@@ -27966,27 +27815,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete a purchase to finish the rumor."
     ],
     video: "https://www.youtube.com/watch?v=QTWghQ5MB5c"
-  },
-{
-    id: 1371,
-    type: "side",
-    category: "Rumor",
-    game: "Star Wars Jedi: Survivor",
-    region: "Shattered Moon",
-    title: "Investigate the Factory's Lower Levels",
-    location: "Automated Forge",
-    length: "medium",
-    difficulty: "High",
-    reward: "Rare materials; lore",
-    summary: "A rumor hints that the Shattered Moon's automated factory hides more in its flooded, low-gravity lower levels.",
-    aiTip: "Rumors unlock by talking to saloon patrons and NPCs — finish the conversation to log them, then follow the map marker. Most reward saloon recruits, upgrades or lore.",
-    walkthrough: [
-      "Pick up the rumor while on the Shattered Moon.",
-      "Descend below the main floor of the Automated Forge.",
-      "Navigate the low-gravity platforming and heavy security droids.",
-      "Reach the lower vault and claim its contents to complete the rumor."
-    ],
-    video: "https://www.youtube.com/watch?v=4ehiG4zRcFA"
   },
   {
     id: 1132,
@@ -49523,86 +49351,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the donkey on the beach and search the hay pile beside the trough."
     ],
     video: "https://www.youtube.com/watch?v=PYUpbfSPqvU"
-  },
-{
-    id: 2329,
-    type: "side",
-    category: "Ainigmata Ostraka",
-    game: "Assassin's Creed Odyssey",
-    region: "Arid Islands",
-    title: "Upon Typhon's Crown",
-    location: "Arid Islands",
-    length: "short",
-    difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
-    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
-    walkthrough: [
-      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
-      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
-      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
-    ],
-    video: "https://www.youtube.com/watch?v=ozvoi420TiQ"
-  },
-{
-    id: 2330,
-    type: "side",
-    category: "Ainigmata Ostraka",
-    game: "Assassin's Creed Odyssey",
-    region: "Arid Islands",
-    title: "Beneath Theseus' Dreams",
-    location: "Arid Islands",
-    length: "short",
-    difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
-    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
-    walkthrough: [
-      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
-      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
-      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
-    ],
-    video: "https://www.youtube.com/watch?v=PgmV1hmkl4w"
-  },
-{
-    id: 2331,
-    type: "side",
-    category: "Ainigmata Ostraka",
-    game: "Assassin's Creed Odyssey",
-    region: "Arid Islands",
-    title: "Made in Abyss",
-    location: "Arid Islands",
-    length: "short",
-    difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
-    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
-    walkthrough: [
-      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
-      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
-      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
-    ],
-    video: "https://www.youtube.com/watch?v=zgqi6heCiZQ"
-  },
-{
-    id: 2332,
-    type: "side",
-    category: "Ainigmata Ostraka",
-    game: "Assassin's Creed Odyssey",
-    region: "Arid Islands",
-    title: "'Til Death Do Us Part",
-    location: "Arid Islands",
-    length: "short",
-    difficulty: "Low",
-    reward: "A permanent Engraving upgrade (one of five tiers for its engraving type).",
-    summary: "One of 60 Ainigmata Ostraka riddle collectibles in the base game, found in Arid Islands. Each is a cryptic stone-tablet riddle pointing to a hidden treasure elsewhere in the same region; solving it awards a permanent Engraving upgrade (5 tiers per Engraving type, order solved doesn't matter).",
-    aiTip: "Read the riddle in your inventory — it describes a nearby landmark. Use photo mode or Ikaros to match the described view, then dig/search the exact spot. Solving it unlocks a permanent engraving you can apply at a blacksmith.",
-    walkthrough: [
-      "Find and pick up the Ainigmata Ostraka tablet in Arid Islands.",
-      "Read the riddle from the Ainigmata Ostraka menu — it describes a landmark within the same region.",
-      "Travel to the described spot and search the marked location to solve the riddle and unlock the Engraving."
-    ],
-    video: "https://www.youtube.com/watch?v=gkeCHbh8j18"
   },
 {
     id: 2333,

@@ -571,6 +571,15 @@
   "The Coward's Deception" — no such mission (the closest is Act 2's The
   Coward of Yarikawa, in Toyotama); owner to check.
 
+- **Removed 12 entries on the owner's OK** (flagged in the batches above as
+  in no guide or list): Jedi: Survivor #1361, #1363, #1364, #1365, #1367,
+  #1368, #1371; AC Odyssey riddles #2329–#2332 (Upon Typhon's Crown,
+  Beneath Theseus' Dreams, Made in Abyss, 'Til Death Do Us Part); Ghost of
+  Tsushima #694 The Coward's Deception. Quest count 2,475 → 2,463.
+  `docs/video-candidates/aco.json` keeps its rows for #2329–#2332 (it's the
+  record of already-shipped links). The now-empty "Arid Islands" region
+  filter option was removed.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
