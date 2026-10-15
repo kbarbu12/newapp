@@ -530,6 +530,18 @@
   Defeat the Gorocco Matriarch, Find Kip Ostar, Speak to Caij About Bounty
   Hunting, Visit the Saloon's Garden. Other rumors keep the shared tip.
 
+- **AC Odyssey main-story choice tips (batch 5):** 10 of the 53 story
+  quests that shared one levelling tip now warn about the choices that
+  matter (guides: SegmentNext, Gamepressure, TheGamer, Gamer Guides): spare
+  Kostas's thugs → they return; spare Nikolaos (family ending); Elpenor's
+  dialogue in The Wolf's Fate; Xenia's 15,000 drachmae; tell Myrrine you'll
+  save Deimos (Catching Up); the Lagos chain (rescue family + quiet Monger
+  kill → talk him down → evidence for A Bloody Feast); and the full
+  requirement list on Dinner in Sparta. The other 43 keep the levelling
+  tip — no guide flags a choice in them, and the AC Odyssey category tips
+  (tombs, riddles, cult, romances, Lost Tales, beasts) stay as they are:
+  they're accurate for every entry.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
