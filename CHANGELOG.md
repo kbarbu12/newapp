@@ -3,6 +3,12 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-15 (2)
+
+- **Log 2026-10-15 quest data cleanup and v2.4.1 deploy in PROGRESS.md**
+  (PR #185) — `v2.4.2` patch. Docs only: brings the session log up to date.
+  No app or data change.
+
 ## 2026-10-15
 
 - **Quest data cleanup across six games** — `v2.4.1` patch (PRs #170–#183).
