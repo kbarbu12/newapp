@@ -8,8 +8,9 @@
  *
  *   ERRORS  — data bugs that must be fixed. Exit code 1 so CI / a pre-commit
  *             hook fails: duplicate IDs, missing required fields, duplicate
- *             titles within a game, malformed / reused videos, and sub-filter
- *             values that don't match any configured option (typos).
+ *             titles within a game, malformed / reused videos, sub-filter
+ *             values that don't match any configured option (typos), and
+ *             placeholder/filler text in steps or label-only aiTips.
  *
  *   COVERAGE — per-game listed-vs-target counts (informational, never fails).
  *             Targets are the "estimated full" numbers from PROGRESS.md §3;
@@ -119,7 +120,31 @@ for (const [game, raw] of Object.entries(subFilterConfig)) {
   }
 }
 
-// ── 6. Coverage report (informational) ───────────────────────────────────────
+// ── 6. Placeholder / filler text ─────────────────────────────────────────────
+// Phrases from template text that slipped in before (Ghost of Tsushima tales,
+// Deadfire faction quests, AC Odyssey riddles), and aiTips that are only a
+// label ("Norio Tale 2 of 9.", "Ishikawa questline."). Kept deliberately
+// narrow so real steps never trip it.
+const FILLER_STEP = [
+  /guiding wind to the/i,
+  /\bResolve the tale\b/i,
+  /Complete the tale for its reward/i,
+  /as the job demands/i,
+  /complication or moral choice it throws up/i,
+  /Witcher-like/i,
+  /Find and pick up the Ainigmata Ostraka tablet in/i,
+];
+const LABEL_TIP = /^[A-Z][\w'’]+ (Tale \d+ of \d+|questline|revenge tale)\b[^.]{0,25}\.?$/;
+for (const q of quests) {
+  for (const step of q.walkthrough || []) {
+    const hit = FILLER_STEP.find((re) => re.test(step));
+    if (hit) { errors.push(`#${q.id} "${q.title}" has filler step text (${hit}): "${step}"`); break; }
+  }
+  if (LABEL_TIP.test(String(q.aiTip || "").trim()))
+    errors.push(`#${q.id} "${q.title}" aiTip is only a label: "${q.aiTip}"`);
+}
+
+// ── 7. Coverage report (informational) ───────────────────────────────────────
 const coverage = Object.keys(byGame)
   .map((g) => ({ game: g, count: byGame[g].length, target: TARGETS[g] || byGame[g].length }))
   .sort((a, b) => b.count - a.count);
@@ -146,4 +171,4 @@ if (errors.length) {
   console.log("");
   process.exit(1);
 }
-console.log("\n✅ Integrity clean: no duplicate IDs, no missing fields, no duplicate titles, videos + sub-filter values all valid.\n");
+console.log("\n✅ Integrity clean: no duplicate IDs, no missing fields, no duplicate titles, videos + sub-filter values all valid, no filler text.\n");
