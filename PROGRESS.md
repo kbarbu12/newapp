@@ -491,6 +491,17 @@
   and level where guides give them. Tāhae, Beina, Imp Dessiral keep a
   generic tip (no guide detail). The 20 faction quests still share one tip.
 
+- **Deadfire faction quest tips (batch 2):** 18 of the 20 faction quests
+  now have their own tip; 10 of the #166 "plain steps" leftovers also got
+  real content now that guides were found (sorcerers.net, Fextralife,
+  guides4gamers): From the Wreckage (starts on the world map), Trade Secrets (Aruihi, the Gullet black market, Delver's
+  Row), Symbols of Death (Lucia Rivan, Yseyr's tomb), A Shrewd Proposition
+  (Crookspur slavers), Goods and Services (Mad Morena), Overgrowth
+  (Cignath Mór, the Galawain/Kraken choice), A Glimpse Beyond (Spire of the Soul-Seers, Flaune Elette), Skipping
+  Ahead, A Vote of No Confidence (the Castol trial) and Sabotage at the
+  Brass Citadel; Dirty Laundry gained Quarno and Töla. The Last Sanctuary and Of Like Minds keep the shared tip
+  (no guide found).
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
