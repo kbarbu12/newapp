@@ -3,6 +3,31 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-15
+
+- **Quest data cleanup across six games** — `v2.4.1` patch (PRs #170–#183).
+  - **AC Odyssey** (#171, #172, #177, #183): 49 cultists, romances and Lost
+    Tales got real regions; 18 riddles got correct regions and, for 10, the
+    tablet and answer spots; 10 story quests warn about the choices that
+    matter (Nikolaos, the Lagos chain, the family ending); island regions now
+    match the game (Lesbos/Chios → Petrified Islands, Lemnos/Thasos → new
+    Hephaistos Islands, Keos → Pirate Islands).
+  - **Deadfire** (#173, #174): 28 bounties and 18 faction quests got their
+    own tips; 12 bounties are ship fights and now say so; 10 faction quests
+    got real steps.
+  - **Cyberpunk** (#175): 17 gigs got their own tips; Big Pete's reward
+    claim fixed.
+  - **Jedi: Survivor** (#176, #182): 8 rumors fixed (rewards, givers);
+    4 missing rumors added (#2588–#2591).
+  - **Ghost of Tsushima** (#178, #179): 39 companion and mythic tales
+    rewritten from guides (filler steps replaced); A Gathering Storm is Act 3.
+  - **Pillars of Eternity** (#181): 14 bounties got their own tips and 7 got
+    real target locations.
+  - **Removed 12 unconfirmed quests** (#180): 7 Jedi: Survivor rumors, 4 AC
+    Odyssey riddles, Ghost of Tsushima's "The Coward's Deception".
+  - Quest count 2,475 → 2,467.
+- Session log update (PR #170), docs only.
+
 ## 2026-10-14
 
 - **Walkthrough steps everywhere** — `v2.4.0` minor (PRs #126–#168).
