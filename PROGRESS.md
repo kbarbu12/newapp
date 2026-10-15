@@ -648,6 +648,14 @@
   riddles remain (58 total). The now-empty "Forest Islands" and "Peloponnese"
   region options were removed. Quest count 2,467 → 2,469.
 
+- **Audit now fails on filler text (2026-10-15):** `scripts/audit.js` §6
+  errors on template step phrases that slipped in before ("guiding wind to
+  the…", "Resolve the tale", "as the job demands", "Find and pick up the
+  Ainigmata Ostraka tablet in…", etc.) and on label-only aiTips ("Norio Tale
+  2 of 9.", "Ishikawa questline."). Kept narrow: current data passes; a
+  planted-filler test produced 3 errors and exit 1. CI's audit job runs it on
+  every PR and the deploy is gated on it.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
