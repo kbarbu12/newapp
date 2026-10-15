@@ -515,6 +515,21 @@
   The 15 cyberpsycho sightings keep their shared tip: it's accurate for all
   of them (non-lethal takedown, read the shard).
 
+- **Jedi: Survivor rumors (batch 4) — data check, not just tips:** 28
+  rumors shared one tip. Checking them against rumor lists (Game8, GameRiv,
+  Novice Gamer Guides, Media Referee, VULKK) found wrong data: Investigate
+  the Abandoned Shack rewards a Health Stim (not a Priorite Shard) and needs
+  the Forest Array abilities; Help Zygg in the Swamp recruits **Wini**;
+  Investigate the Roller Mine Factory gives a Force Essence and opens after
+  Find the Gyro Module; chamber rumors come from Toa, not a "saloon board".
+  8 entries fixed/tipped. **Possibly not real** (in no rumor list): Recruit
+  Ashe Javi & DD-EC (guides say Use the Saloon's Jukebox recruits them),
+  Recruit T-1N8, Check on Wini & Zygg, Check the Aquarium, Play a
+  Holotactics Game, Investigate the Factory's Lower Levels, Explore the High
+  Republic Chamber in the Swamp — owner to check. **Missing** real rumors:
+  Defeat the Gorocco Matriarch, Find Kip Ostar, Speak to Caij About Bounty
+  Hunting, Visit the Saloon's Garden. Other rumors keep the shared tip.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
