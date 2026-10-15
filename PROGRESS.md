@@ -631,6 +631,23 @@
   Islands now that #183 settled Chios. A scan of every game's region filter
   found no other empty options.
 
+- **Last 17 AC Odyssey riddles fixed + 2 restored (2026-10-15):** a second
+  research pass (camzillasmom region pages, Neoseeker, guides4gamers,
+  gamepressure, GosuNoob, TheGamer) placed every remaining template riddle.
+  The "Attika" four are Boeotia riddles (Pigsty, Fire in the Belly, Stadium
+  Love, Bridging the Gap); the 10 "Peloponnese" ones are Arkadia (3),
+  Lakonia (2), Messenia, Elis, Korinthia, Achaia and Argolis; Red Scent →
+  Lokris; Hungry for Misadventure → Hephaistos Islands (Lemnos); Heart and
+  Sole → new **Malis** region (cultist Zoisme moved there too). 14 now have
+  tablet + answer spots and steps, 4 the tablet spot. **Correction to #180:**
+  "Beneath Theseus' Dreams" (Skyros → Euboea) and "'Til Death Do Us Part"
+  (Octopus Bay → Messara) are real — the first pass missed them because the
+  data filed them under the wrong region ("Arid Islands"). Both restored with
+  their original IDs (#2330, #2332) and real content. "Upon Typhon's Crown"
+  and "Made in Abyss" still appear in no guide and stay removed. No template
+  riddles remain (58 total). The now-empty "Forest Islands" and "Peloponnese"
+  region options were removed. Quest count 2,467 → 2,469.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
