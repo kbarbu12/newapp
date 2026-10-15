@@ -590,6 +590,15 @@
   Hill tower), Naroc (Cilant Lîs), Sserkal (Pearlwood Bluff). Galen Dalgard
   keeps the shared tip and "see the bounty description" (no guide detail).
 
+- **Added 4 missing Jedi: Survivor rumors** (owner's OK, IDs #2588–#2591):
+  Speak to Caij About Bounty Hunting (Caij's bounty system, Bounty Pucks,
+  her own final bounty at the Stone Spires), Find Kip Ostar (Dredger Gorge,
+  Derelict Dam; blaster and shield), Defeat the Gorocco Matriarch (Derelict
+  Dam; golden chest with a Stim Canister) and Visit the Saloon's Garden
+  (rooftop garden; Pili expands it). No real video yet, so each has a search
+  link plus a walkthrough. Sources: Game8, VULKK, Sportskeeda, TechRaptor,
+  GameSkinny, Upcomer.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review

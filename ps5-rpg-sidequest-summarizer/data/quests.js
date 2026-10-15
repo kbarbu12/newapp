@@ -27817,6 +27817,90 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=QTWghQ5MB5c"
   },
   {
+    id: 2588,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Speak to Caij About Bounty Hunting",
+    location: "Pyloon's Saloon",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Bounty Pucks to trade with Caij for abilities, blaster perks and parts",
+    summary: "Caij Vanda at Pyloon's Saloon starts Cal on bounty hunting: track down bounty hunters across the galaxy for Bounty Pucks.",
+    aiTip: "Hunt the bounties planet by planet and only go back to Caij to cash in. Once the other 16 are done, Caij's own bounty starts at the Stone Spires, with a surprise.",
+    walkthrough: [
+      "Talk to Caij Vanda at her table in Pyloon's Saloon.",
+      "Track down the bounty hunters she points you to, or the ones you meet in the field.",
+      "Return to Caij to trade Bounty Pucks for abilities, blaster perks and parts.",
+      "After the other bounties, go to the Stone Spires in the Devastated Settlement for the final one."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Caij%20bounty%20hunting%20walkthrough"
+  },
+  {
+    id: 2589,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Find Kip Ostar",
+    location: "Dredger Gorge, Derelict Dam",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Bounty Puck",
+    summary: "A bounty rumor from Caij: the bounty hunter Kip Ostar is waiting in the Dredger Gorge at the Derelict Dam on Koboh.",
+    aiTip: "Kip carries a blaster and a heavy shield that blocks both lightsaber and blaster hits, so get around the shield before you attack.",
+    walkthrough: [
+      "Get the rumor from Caij at Pyloon's Saloon.",
+      "Fast-travel to the Derelict Dam meditation point.",
+      "Go to the Dredger Gorge and find Kip Ostar.",
+      "Defeat Kip and return to Caij with the Bounty Puck."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Kip%20Ostar%20bounty"
+  },
+  {
+    id: 2590,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Defeat the Gorocco Matriarch",
+    location: "Derelict Dam",
+    length: "short",
+    difficulty: "High",
+    reward: "Golden chest with a Stim Canister",
+    summary: "A legendary creature, the Gorocco Matriarch, roams the Derelict Dam on Koboh.",
+    aiTip: "If she's too tough, leave and come back later for a rematch. Beating her opens a golden chest with a Stim Canister.",
+    walkthrough: [
+      "Pick up the rumor and head to the Derelict Dam on Koboh.",
+      "Find the Gorocco Matriarch.",
+      "Defeat her.",
+      "Open the golden chest for the Stim Canister."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Gorocco%20Matriarch"
+  },
+  {
+    id: 2591,
+    type: "side",
+    category: "Rumor",
+    game: "Star Wars Jedi: Survivor",
+    region: "Koboh",
+    title: "Visit the Saloon's Garden",
+    location: "Pyloon's Saloon (rooftop)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Access to the rooftop garden",
+    summary: "Pyloon's Saloon has a rooftop garden, reached from the second floor. It starts with one plot.",
+    aiTip: "Recruit a gardener (Pili, found on Jedha near the Pilgrim's Safehouse) to unlock more garden plots.",
+    walkthrough: [
+      "Go up to the second floor of Pyloon's Saloon.",
+      "Climb out to the rooftop garden.",
+      "Plant a seed in the first plot.",
+      "Recruit Pili to expand the garden."
+    ],
+    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20saloon%20rooftop%20garden"
+  },
+  {
     id: 1132,
     type: "main",
     game: "Metaphor: ReFantazio",
