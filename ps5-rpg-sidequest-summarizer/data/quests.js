@@ -2514,20 +2514,17 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Iki Island",
     title: "The Legend of Black Hand Riku",
-    location: "Iki Island",
+    location: "Fune's Refuge, Iki Island",
     length: "long",
     difficulty: "High",
-    reward: "Kensei armor dye, Mythic reward",
-    summary:
-      "Hunt down the legend of Black Hand Riku, a fearsome raider whose ghost still haunts Iki Island.",
-    aiTip:
-      "An Iki Mythic Tale — follow the musician's song to the trail, then master the duel at the end.",
+    reward: "Sarugami Armor",
+    summary: "Iki Island Mythic Tale: hunt Black Hand Riku, a pirate whose armour is said to be possessed by a monkey spirit.",
+    aiTip: "It starts at Fune's Refuge, which opens early in the Iki Island story. The Sarugami Armor reward is one of the best sets in the expansion.",
     walkthrough: [
-      "On Iki Island, find the musician who sings of Black Hand Riku, a raider chief said to command a cursed war-elephant-sized beast.",
-      "Follow the ballad's clues across Iki to each marked site, clearing the raider camps.",
-      "Investigate the trail to Riku's stronghold with the guiding wind and golden birds.",
-      "Fight through Riku's raiders and confront him in the final duel.",
-      "Defeat Black Hand Riku to complete the tale and claim its reward."
+      "Reach Fune's Refuge on Iki Island and listen to the tale of Black Hand Riku.",
+      "Follow the tale's clues across Iki.",
+      "Fight through Riku's raiders.",
+      "Defeat Black Hand Riku to claim the Sarugami Armor."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
   },
@@ -3821,16 +3818,13 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Norio tale progress",
-    summary:
-      "Continue with Norio as he confronts the illusions of vengeance while liberating the faithful.",
-    aiTip:
-      "Norio Tale 2 of 9.",
+    summary: "Norio Tale 2 of 9: Norio learns where the Mongols took the senior healer from his temple.",
+    aiTip: "Once you free Hochi, keep him alive: protecting him is part of the objective.",
     walkthrough: [
-      "Meet the quest-giver in Toyotama and begin 'Three Actions, Three Illusions'.",
-      "Follow the guiding wind to each of the three marked deceptions.",
-      "Investigate and see through each illusion in turn.",
-      "Fight the enemies revealed behind the ruse.",
-      "Resolve the tale and claim the reward."
+      "Meet Norio.",
+      "Ride with him to the Mongol camp.",
+      "Free the healer, Hochi.",
+      "Protect Hochi to finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
   },
@@ -3867,16 +3861,13 @@ const quests = [
     length: "medium",
     difficulty: "Low",
     reward: "Kenji tale progress",
-    summary:
-      "Help Kenji chase a rival sake seller and a batch of stolen nattou across Toyotama.",
-    aiTip:
-      "Kenji Tale 2 of 3.",
+    summary: "Kenji Tale 2 of 3: another of the sake seller Kenji's schemes.",
+    aiTip: "Finishing it unlocks The Delicate Art of Negotiation.",
     walkthrough: [
-      "Find Kenji the sake seller and agree to help move his nattou/sake.",
-      "Escort or follow Kenji to the marked buyers, dealing with trouble.",
-      "Clear the Mongols or bandits interrupting the trade.",
-      "Complete the comedic negotiation to Kenji's satisfaction.",
-      "Finish the tale and unlock further Kenji dealings."
+      "Find Kenji in Toyotama.",
+      "Follow the quest objectives.",
+      "Deal with the trouble on the way.",
+      "Finish the tale with Kenji."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
   },
@@ -3885,22 +3876,19 @@ const quests = [
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "Silent Death",
-    location: "Izuhara",
+    location: "North-east of Ichi's Inn → the Mamushi Brothers' farm, Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Yuna tale progress",
-    summary:
-      "Help Yuna deal ruthlessly with the Mongols hunting her, learning how far she'll go to survive.",
-    aiTip:
-      "Yuna Tale 2 of 4 — stealth and assassination fit her style.",
+    reward: "Minor Legend increase, stealth charm, 2 Silk",
+    summary: "Yuna Tale 2 of 4: kill the three Mamushi Brothers quietly at their farm.",
+    aiTip: "Use Focused Hearing to track the patrols, and take the brothers one at a time: Taizo first, then Manzo and Kichizo.",
     walkthrough: [
-      "Take up the Silent Death tale with an assassin's target in Izuhara.",
-      "Stalk the marked camp using stealth and the guiding wind.",
-      "Eliminate the sentries silently to reach the target.",
-      "Assassinate or duel the mark as the tale dictates.",
-      "Escape and complete the tale."
+      "Find Yuna under a tree north-east of Ichi's Inn.",
+      "Follow her to the Mamushi Brothers' farm.",
+      "Kill Taizo, then Manzo and Kichizo, without being seen.",
+      "Meet Yuna at the front gate to finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
   },
@@ -10235,22 +10223,19 @@ const quests = [
     type: "main",
     category: "Jin's Journey",
     game: "Ghost of Tsushima",
-    region: "Toyotama",
+    region: "Kamiagata",
     title: "A Gathering Storm",
-    location: "Toyotama",
+    location: "Jogaku Temple → Port Izumi, Kamiagata",
     length: "medium",
     difficulty: "Medium",
-    reward: "Act 2 begins, allies rally",
-    summary:
-      "Jin heads to Toyotama to gather allies and a straw-hat army against the Mongols.",
-    aiTip:
-      "Toyotama opens a huge new region — pick up its Tales and Mythic Tales as you rally support.",
+    reward: "Major Legend increase",
+    summary: "Act 3 main tale: the Khan's army is massing at his stronghold in Port Izumi. Scout it with Yuna.",
+    aiTip: "Stay hidden: the lighthouse scouting has to be done without raising the alarm.",
     walkthrough: [
-      "Cross into the Toyotama region and assess the gathering Mongol threat.",
-      "Follow the guiding wind to the marked objective.",
-      "Clear the enemy positions blocking the path.",
-      "Reach and complete the story objective (rescue/scout/assault).",
-      "Advance the Toyotama arc."
+      "Finish Wolves at the Gates, then meet Yuna at Jogaku Temple.",
+      "Sneak into the Port Izumi lighthouse without raising the alarm.",
+      "Investigate the barrels on the ground floor.",
+      "Climb to the top with Yuna and survey Port Izumi."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
   },
@@ -10336,17 +10321,14 @@ const quests = [
     location: "Kamiagata",
     length: "medium",
     difficulty: "High",
-    reward: "Fire-based legendary reward",
-    summary:
-      "In Act 3, chase a burning legend through Kamiagata for a fearsome fire technique.",
-    aiTip:
-      "A late-game Mythic Tale — its reward pairs well with a fully upgraded Ghost loadout.",
+    reward: "The Way of the Flame technique",
+    summary: "Mythic Tale: a musician tells of an undying fire on a mountaintop and a fighting technique called the Way of the Flame.",
+    aiTip: "The reward, the Way of the Flame, sets your sword on fire. Expect a climb up Mt. Jogaku.",
     walkthrough: [
-      "Find the musician whose ballad tells of the Undying Flame and the monk who wields it.",
-      "Follow the clues to each shrine site in Kamiagata, clearing the Mongols there.",
-      "Light or investigate the ritual braziers the tale points you toward.",
-      "Reach the final confrontation the ballad leads to and win the fight.",
-      "Complete the tale to earn its reward (a fire-themed tool/technique)."
+      "Hear the tale of the Undying Flame in Kamiagata.",
+      "Climb Mt. Jogaku, following the path to the campfire and the bridge.",
+      "Follow the tale to its final challenge.",
+      "Complete it to learn the Way of the Flame."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
   },
@@ -10361,16 +10343,13 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Yuna's trust, charm",
-    summary:
-      "Begin the thief Yuna's questline as she and Jin search for her captured blacksmith brother, Taka.",
-    aiTip:
-      "First of Yuna's four tales; unlocks after the early story on Tsushima.",
+    summary: "Yuna Tale 1 of 4: begin the thief Yuna's tale as she and Jin search for her captured blacksmith brother, Taka.",
+    aiTip: "This opens Yuna's four-tale questline.",
     walkthrough: [
-      "Speak with Yuna to begin her personal tale.",
-      "Follow the guiding wind to the site tied to her and Taka's past.",
-      "Fight through the Mongols standing in the way.",
-      "Uncover the truth Yuna is chasing.",
-      "Resolve the tale to deepen her bond with Jin."
+      "Talk to Yuna to begin her tale.",
+      "Follow the quest objectives.",
+      "Deal with the enemies on the way.",
+      "Finish the tale with Yuna."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
   },
@@ -10385,16 +10364,13 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Ishikawa tale progress",
-    summary:
-      "Aid Sensei Ishikawa as he tracks his traitorous former student, the archer Tomoe.",
-    aiTip:
-      "Ishikawa Tale 2 — a bow-focused tale; keep your Longbow handy.",
+    summary: "Ishikawa Tale 2 of 9: help Sensei Ishikawa hunt his traitorous former student, the archer Tomoe.",
+    aiTip: "Finishing it unlocks The Past Never Passes.",
     walkthrough: [
-      "Meet Sensei Ishikawa and take up the hunt for his wayward student.",
-      "Track Tomoe's trail with the guiding wind.",
-      "Clear the Mongols or Straw Hats at the marked site.",
-      "Confront what Ishikawa's teachings have wrought.",
-      "Complete the tale to advance Ishikawa's storyline."
+      "Meet Sensei Ishikawa.",
+      "Follow the quest objectives to track Tomoe.",
+      "Deal with the enemies on the way.",
+      "Finish the tale with Ishikawa."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
   },
@@ -10409,16 +10385,13 @@ const quests = [
     length: "medium",
     difficulty: "Medium",
     reward: "Masako tale progress",
-    summary:
-      "Join Lady Masako hunting the men who slaughtered Clan Adachi — starting with a village headman.",
-    aiTip:
-      "First of Masako's revenge tales; expect grim choices.",
+    summary: "Masako Tale 2 of 9: the hunt for the men who killed Clan Adachi begins with a village headman.",
+    aiTip: "This opens Masako's revenge questline.",
     walkthrough: [
-      "Investigate the headman's plight in Izuhara.",
-      "Follow the clues to the Mongols oppressing the village.",
-      "Clear the enemy position holding the headman.",
-      "Rescue him and settle the villagers' fate.",
-      "Complete the tale for its reward."
+      "Meet Lady Masako.",
+      "Follow the quest objectives to the headman.",
+      "Deal with the enemies on the way.",
+      "Finish the tale with Masako."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
   },
@@ -10453,20 +10426,17 @@ const quests = [
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Last Warrior Monk",
-    location: "Jogaku / Toyotama",
+    location: "Akashima Village, Toyotama",
     length: "medium",
     difficulty: "Medium",
     reward: "Norio tale progress",
-    summary:
-      "Meet the naginata-wielding monk Norio as he fights to reclaim Cedar Temple from the Mongols.",
-    aiTip:
-      "Norio Tale 1 of 9; the Warrior Monk questline begins here.",
+    summary: "Norio Tale 1 of 9: an ally of the warrior monk Norio is defending Akashima Village. Join the fight.",
+    aiTip: "Kill the enemy marked with a skull first: if he kills the monk, you fail the objective.",
     walkthrough: [
-      "Meet Norio, the warrior monk, and take up his cause in Toyotama.",
-      "Ride to the marked temple/village under Mongol threat.",
-      "Fight alongside Norio, clearing the enemies.",
-      "Protect the monks and civilians.",
-      "Complete the tale to progress Norio's arc."
+      "Ride to Akashima Village.",
+      "Fight off the Mongols, killing the skull-marked enemy first.",
+      "Keep the monk alive.",
+      "Talk to the monks to finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
   },
@@ -15389,17 +15359,14 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ishikawa tale progress",
-    summary:
-      "Follow Ishikawa deeper into his history with Tomoe as old wounds resurface.",
-    aiTip:
-      "Part of the Unbending Archer questline; verify against a guide if replaying.",
+    reward: "Minor Legend increase, ranged charm, 2 Silk",
+    summary: "Ishikawa Tale 3 of 9: Ishikawa's past with Tomoe resurfaces.",
+    aiTip: "Unlocks after The Sensei and the Student.",
     walkthrough: [
-      "Begin 'The Past Never Passes' with its quest-giver in Izuhara.",
-      "Follow the guiding wind to the site tied to old wounds.",
-      "Clear the Mongols guarding it.",
-      "Confront the past the tale unearths.",
-      "Resolve it and claim the reward."
+      "Finish The Sensei and the Student, then meet Ishikawa.",
+      "Follow the quest objectives.",
+      "Deal with the enemies on the way.",
+      "Finish the tale with Ishikawa."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
   },
@@ -19836,22 +19803,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "The Black Wolf",
-    location: "Izuhara",
+    location: "Otsuna Coast, Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Yuna tale progress",
-    summary:
-      "Track a brutal Mongol commander known as the Black Wolf alongside Yuna.",
-    aiTip:
-      "Yuna Tale 3 of 4.",
+    reward: "Minor Legend increase, stealth charm, 2 Silk",
+    summary: "Yuna Tale 3 of 4: the warlord Altan is terrorising Otsuna. Draw him out by killing his local ally, the Black Wolf.",
+    aiTip: "The camp has swordsmen, spearmen, archers and a brute. Climb the tent at its edge for a chain assassination, or use the explosive barrels.",
     walkthrough: [
-      "Take up the hunt for the Black Wolf terrorizing Izuhara.",
-      "Track the beast/bandit's trail with the guiding wind.",
-      "Clear the lair's defenders.",
-      "Confront and defeat the Black Wolf.",
-      "Complete the tale for its reward."
+      "Talk to Yuna near the Otsuna Coast, east of Yoshinaka Bay.",
+      "Follow her west and kill the Mongol by the campfire.",
+      "Clear the Mongol camp and talk to Yuna at its entrance.",
+      "Take the rowboat to the ship and clear it."
     ],
     video: "https://www.youtube.com/watch?v=dqcoGcHaN9Y"
   },
@@ -19860,22 +19824,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "Message in Blood",
-    location: "Izuhara",
+    location: "Ichi's Inn → Altan's camp, Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Yuna questline finale",
-    summary:
-      "Close out Yuna's story as her search for Taka reaches its emotional end.",
-    aiTip:
-      "Yuna Tale 4 of 4.",
+    reward: "Minor Legend increase, ranged charm, 2 Silk",
+    summary: "Yuna Tale 4 of 4: the final confrontation with Altan.",
+    aiTip: "Against Altan's shield, use the Water stance, then parry his sword swing to build Resolve.",
     walkthrough: [
-      "Begin 'Message in Blood' after finding the grim warning.",
-      "Follow the trail of victims with the guiding wind.",
-      "Fight through the Mongols leaving the messages.",
-      "Confront the one behind the killings.",
-      "Resolve the tale."
+      "Meet Yuna upstairs at Ichi's Inn.",
+      "Ride north-east to Altan's camp.",
+      "Clear the camp, then duel Altan.",
+      "Kill his guards and talk to Ichi."
     ],
     video: "https://www.youtube.com/watch?v=qkhtVMNBbGI"
   },
@@ -19989,22 +19950,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Kamiagata",
+    region: "Toyotama",
     title: "Laid to Rest",
-    location: "Kamiagata",
+    location: "Umugi Cove, Toyotama",
     length: "long",
     difficulty: "High",
-    reward: "Unbending Archer trophy",
-    summary:
-      "Bring the Sensei and the Student saga to its bittersweet conclusion.",
-    aiTip:
-      "Final Ishikawa tale — completes the Unbending Archer.",
+    reward: "Minor Legend increase, ranged charm, half bow dye",
+    summary: "Ishikawa Tale 9 of 9: Tomoe's Mongol archers plan to attack Umugi Cove, and Jin and Ishikawa need her help to stop them.",
+    aiTip: "The last fight is for the town, but the tale isn't over until you stop Tomoe from leaving the island.",
     walkthrough: [
-      "Begin 'Laid to Rest' in Kamiagata.",
-      "Follow the guiding wind to the unquiet site.",
-      "Clear the enemies desecrating it.",
-      "Confront the tale's final threat.",
-      "Lay the matter to rest and claim the reward."
+      "Finish Friends in Passing, then meet Ishikawa.",
+      "Work with Tomoe to stop the attack.",
+      "Defeat the force threatening Umugi Cove.",
+      "Stop Tomoe from leaving the island."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
   },
@@ -20076,22 +20034,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "The Family Man",
-    location: "Izuhara",
+    location: "Toyotama",
     length: "medium",
     difficulty: "Medium",
     reward: "Masako tale progress",
-    summary:
-      "Weigh mercy against vengeance when a killer turns out to be a devoted father.",
-    aiTip:
-      "Masako revenge tale — a hard choice.",
+    summary: "Masako Tale 6 of 9: the hunt for the conspirators continues in Toyotama.",
+    aiTip: "The beach fight is in the open, so stealth is very hard there. Go in ready for a straight fight.",
     walkthrough: [
-      "Continue Masako's revenge with 'The Family Man'.",
-      "Track the target with the guiding wind.",
-      "Fight through his protectors.",
-      "Confront him and decide his fate.",
-      "Resolve the tale."
+      "Finish The Fool, then meet Masako.",
+      "Fight the Mongols on the beach.",
+      "Investigate the house and follow the footprints.",
+      "Finish the tale with Masako."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
   },
@@ -20147,17 +20102,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Toyotama",
     length: "long",
     difficulty: "High",
-    reward: "Vengeful Warrior trophy",
-    summary:
-      "Reach the wrenching heart of Masako's revenge — the sister who betrayed her.",
-    aiTip:
-      "Completes the Vengeful Warrior.",
+    reward: "Minor Legend increase, Adachi half mask, stealth charm",
+    summary: "Masako Tale 9 of 9: Masako has tracked her sister to Clan Kikuchi's old fort.",
+    aiTip: "Needs The Conspirator and Wolves at the Gates. Finishing it completes Masako's tale and the Vengeful Warrior trophy.",
     walkthrough: [
-      "Reach the climax of Masako's revenge in 'The Sister Betrayed'.",
-      "Follow the trail to the final betrayer.",
-      "Fight through heavy resistance to reach them.",
-      "Confront the sister and the whole truth of the massacre.",
-      "See Masako's revenge to its end."
+      "Finish The Conspirator and Wolves at the Gates.",
+      "Follow Masako to Clan Kikuchi's old fort.",
+      "Follow her to the Kikuchi estate.",
+      "Watch the final cutscene."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
   },
@@ -20172,16 +20124,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Masako bonus tale",
-    summary:
-      "A quiet, optional coda to Masako's story about the family she lost.",
-    aiTip:
-      "Bonus tale — unlocks after The Husband.",
+    summary: "A bonus Masako tale, outside the numbered nine.",
+    aiTip: "An optional tale for Masako; it doesn't count toward the nine.",
     walkthrough: [
-      "Begin 'A Mother's Peace' with Masako in Izuhara.",
-      "Follow the guiding wind to the marked, personal site.",
-      "Clear any threat there.",
-      "Help Masako find a measure of peace.",
-      "Complete the tale."
+      "Meet Masako to begin the tale.",
+      "Follow the quest objectives.",
+      "Deal with any enemies on the way.",
+      "Finish the tale with Masako."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
   },
@@ -20192,20 +20141,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Delicate Art of Negotiation",
-    location: "Toyotama",
+    location: "Umugi Cove, Toyotama",
     length: "medium",
     difficulty: "Low",
-    reward: "Kenji questline finale",
-    summary:
-      "Back Kenji in a wildly ill-advised 'negotiation' that only he could talk his way into.",
-    aiTip:
-      "Kenji Tale 3 of 3.",
+    reward: "Minor Legend increase, melee charm, 6 Leather",
+    summary: "Kenji Tale 3 of 3: Kenji owes Gon the butcher money and wants Jin along for the meeting.",
+    aiTip: "Stay close to Kenji when the ambush hits: the attackers are trying to kill him. Take the swordsmen first, then the archers.",
     walkthrough: [
-      "Find Kenji for 'The Delicate Art of Negotiation' in Toyotama.",
-      "Accompany him to the tense deal.",
-      "Handle the Mongols or rivals who crash it.",
-      "Complete the comedic negotiation.",
-      "Finish the tale."
+      "Meet Kenji at Umugi Cove.",
+      "Go with him to meet Gon the butcher.",
+      "Fight off the ambush of 10 to 12 bandits.",
+      "Find Kenji in the swamp to finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
   },
@@ -20220,8 +20166,8 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Minor Legend increase, a defence charm, Noble Fighter's Headband",
-    summary: "Norio Tale 4 of 9: help Norio defend a village from an imminent Mongol ambush.",
-    aiTip: "Survey the village's defences with Norio before the attack. It needs Three Actions, Three Illusions done first.",
+    summary: "Norio Tale 3 of 9: the monks of Cedar Temple are safe, but a Mongol counterattack is coming.",
+    aiTip: "It needs Three Actions, Three Illusions done first.",
     walkthrough: [
       "Finish Three Actions, Three Illusions, then meet Norio.",
       "Survey the village's defences.",
@@ -20241,7 +20187,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Norio tale progress",
-    summary: "Norio Tale 5 of 9: fight off the Mongols at Kushi Temple. They've stolen the temple's priceless Buddha statue, and Abbot Komei is missing.",
+    summary: "Norio Tale 4 of 9: fight off the Mongols at Kushi Temple. They've stolen the temple's priceless Buddha statue, and Abbot Komei is missing.",
     aiTip: "Short tale, but it unlocks both The Blood Sutra and The Cause of Suffering.",
     walkthrough: [
       "Meet Norio at Kushi Temple.",
@@ -20262,7 +20208,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Norio tale progress",
-    summary: "A Norio tale: track down Abbot Komei, who fled when the Mongols raided Kushi Temple.",
+    summary: "Norio Tale 5 of 9: the abbot of Kushi Temple was preaching resistance to the Mongols. Find him before the temple falls.",
     aiTip: "Follow the blood trail from the burnt farm, and when it runs out, dive into the water below to reach the cave.",
     walkthrough: [
       "Follow Norio to Koshimizu Farm and examine the corpses by the burnt building.",
@@ -20324,17 +20270,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Kamiagata",
     length: "long",
     difficulty: "High",
-    reward: "Norio tale progress",
-    summary:
-      "Stand with Norio as the guardian the island's people need.",
-    aiTip:
-      "Norio Tale 8 of 9.",
+    reward: "Minor Legend increase, 2 Silk, Charm of Resistance",
+    summary: "Norio Tale 8 of 9: Norio leads a group to retake Cedar Temple.",
+    aiTip: "It needs The End of Suffering and Wolves at the Gates. Guides suggest the Stone stance for the fight inside the temple.",
     walkthrough: [
-      "Begin 'The Guardian of Tsushima' in Kamiagata.",
-      "Follow the guiding wind to the guardian's site.",
-      "Clear the enemies threatening it.",
-      "Face the tale's climactic battle.",
-      "Complete it to claim the reward."
+      "Finish The End of Suffering and Wolves at the Gates.",
+      "Join Norio's attack on Cedar Temple.",
+      "Defeat the Mongols inside.",
+      "Enter the main hall with Norio."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
   },
@@ -20349,16 +20292,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "long",
     difficulty: "High",
     reward: "Warrior Monk trophy",
-    summary:
-      "Bring Norio's story to its close in a final reckoning of faith and blood.",
-    aiTip:
-      "Completes the Warrior Monk.",
+    summary: "Norio Tale 9 of 9: the end of Norio's story.",
+    aiTip: "Finishing it completes Norio's tale and the Warrior Monk trophy.",
     walkthrough: [
-      "Take up 'This Threefold World' in Kamiagata.",
-      "Investigate the three linked sites with the guiding wind.",
-      "Clear the Mongols at each.",
-      "Confront the truth binding them together.",
-      "Resolve the tale."
+      "Finish The Guardian of Tsushima.",
+      "Meet Norio.",
+      "Follow the quest objectives.",
+      "Finish the tale with Norio."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
   },
@@ -20372,17 +20312,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Iki Island",
     length: "long",
     difficulty: "High",
-    reward: "Sakai armor dye, Mythic reward",
-    summary:
-      "Uncover the legend of Jin's father, Kazumasa Sakai, in this Iki Island Mythic Tale.",
-    aiTip:
-      "Iki Mythic Tale — follow the musician's song, then win the final duel.",
+    reward: "Sakai Clan horse armour",
+    summary: "Iki Island Mythic Tale about Jin's father, Kazumasa Sakai, and his horse armour.",
+    aiTip: "Take off the Sakai Clan Armor before you start: Jin can't be wearing it when the tale begins. It's worth doing early, since it gives your horse its armour.",
     walkthrough: [
-      "On Iki, find the musician who sings of Kazumasa Sakai — Jin's father — and his legacy.",
-      "Follow the ballad through the places tied to Kazumasa's past, clearing Mongol resistance.",
-      "Investigate each site with Witcher-like focus (guiding wind + golden birds) to relive the story.",
-      "Reach the tale's climactic duel and win it.",
-      "Complete the tale to claim Kazumasa's armor set."
+      "Change out of the Sakai Clan Armor.",
+      "Find the start of the tale on Iki Island.",
+      "Follow the tale through the places tied to Kazumasa's past.",
+      "Finish it to unlock the Sakai Clan horse armour."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
   },

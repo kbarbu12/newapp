@@ -555,6 +555,22 @@
   Dreams of Conquest and The Thief only have their setup (no guide gave the
   ending).
 
+- **Ghost of Tsushima: 24 more entries rewritten (batch 2):** the rest of
+  the filler tales found by a phrase scan ("guiding wind to the…", "Resolve
+  the tale", label-only tips like "Norio Tale 2 of 9."). Yuna's 4 tales
+  (Mamushi Brothers, the Black Wolf, the Altan duel; 3 moved Izuhara →
+  Toyotama), Kenji 2–3, Ishikawa 2, 3 and 9 (Laid to Rest → Toyotama, Umugi
+  Cove), Masako 2, 6, 9 and the bonus tale, Norio 1, 2, 8, 9, the Iki
+  Mythic Tales (Black Hand Riku is a pirate in monkey-spirit armour → Sarugami
+  Armor, not a "war-elephant-sized beast"; Kazumasa Sakai gives horse
+  armour), The Undying Flame (Way of the Flame), and A Gathering Storm (an
+  **Act 3** Port Izumi scouting mission from Jogaku Temple → Kamiagata, not
+  Act 2 Toyotama). Also corrected two tale numbers from #178 (Ghosts in the
+  Fog is Norio 3, The Birth of Suffering is Norio 4; The Blood Sutra is 5).
+  Tales with no guide detail got plain steps. **Possibly not real:** #694
+  "The Coward's Deception" — no such mission (the closest is Act 2's The
+  Coward of Yarikawa, in Toyotama); owner to check.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
