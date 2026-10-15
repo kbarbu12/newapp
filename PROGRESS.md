@@ -580,6 +580,16 @@
   record of already-shipped links). The now-empty "Arid Islands" region
   filter option was removed.
 
+- **Pillars of Eternity I bounty tips:** 14 of the 15 Caed Nua bounties
+  got their own tip (level and enemy type, notable drops, which of Warden
+  Fyrgen's four batches it's in) from the Pillars wiki, GameFAQs, Sorcerer's
+  Place and GameBanshee. 7 of the 8 #168 "see the bounty description"
+  bounties now have their real target spot: Glasdial (Lle a Rhemen ruins,
+  Stormwall Gorge), Foemyna (Woodend Plains), Devŵen (Northweald cave),
+  Captain Muārumi (Sea Cave, Anslög's Compass), High Arcanist Ysly (Heritage
+  Hill tower), Naroc (Cilant Lîs), Sserkal (Pearlwood Bluff). Galen Dalgard
+  keeps the shared tip and "see the bounty description" (no guide detail).
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
