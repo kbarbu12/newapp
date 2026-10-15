@@ -19889,17 +19889,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ishikawa tale progress",
-    summary:
-      "Train and hunt with Ishikawa as he teaches Jin the discipline of the bow.",
-    aiTip:
-      "Ishikawa questline.",
+    reward: "Minor Legend increase, fire arrows, a ranged charm",
+    summary: "Ishikawa Tale 4 of 9: Ishikawa believes the Mongols want Hiyoshi Springs because of his former student Tomoe, who seems to be training their archers. Help him fight off the attack.",
+    aiTip: "This tale is where Jin gets fire arrows, so it's worth doing early.",
     walkthrough: [
-      "Meet Ishikawa to learn the Way of the Bow.",
-      "Follow him to the practice/hunt grounds.",
-      "Master the archery challenges he sets.",
-      "Apply the bow skills against the Mongols at the objective.",
-      "Complete the tale to sharpen Jin's archery."
+      "Finish The Past Never Passes, then meet Ishikawa.",
+      "Ride with him toward Hiyoshi Springs.",
+      "Survey the low ground to pick up fire arrows.",
+      "Help Ishikawa fight off the Mongol attack."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
   },
@@ -19910,20 +19907,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "Dreams of Conquest",
-    location: "Toyotama",
+    location: "Akashima, Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ishikawa tale progress",
-    summary:
-      "Pursue Tomoe as she aids the Mongols' ambitions across Toyotama.",
-    aiTip:
-      "Ishikawa questline.",
+    reward: "Minor Legend increase, a ranged charm, Silk",
+    summary: "Ishikawa Tale 5 of 9 (Act 2): Ishikawa has heard rumours of a Japanese archer helping the Mongols in Akashima, and suspects Tomoe.",
+    aiTip: "It unlocks once you've finished The Way of the Bow and reached Act 2 in Toyotama.",
     walkthrough: [
-      "Take up 'Dreams of Conquest' in Toyotama.",
-      "Scout the Mongol ambitions at the marked stronghold.",
-      "Infiltrate or assault to disrupt their plans.",
-      "Defeat the commander driving the conquest.",
-      "Complete the tale."
+      "Finish The Way of the Bow and reach Act 2.",
+      "Meet Ishikawa in Toyotama.",
+      "Follow the rumours of the archer to Akashima.",
+      "Follow the quest objectives with Ishikawa to the end of the tale."
     ],
     video: "https://www.youtube.com/watch?v=4mezMPRbwNk"
   },
@@ -19937,17 +19931,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Ishikawa tale progress",
-    summary:
-      "Confront the darker rumors about Ishikawa as the hunt for Tomoe intensifies.",
-    aiTip:
-      "Ishikawa questline.",
+    reward: "Minor Legend increase, Charm of Swift Return, 2 Silk",
+    summary: "Ishikawa Tale 6 of 9: a peasant says 'the Ghost and the Demon Sensei' are ambushing caravans. Tomoe's allies are framing Jin and Ishikawa.",
+    aiTip: "Look closely at each ambush site: the clues show who's really behind the attacks. Clear the archers before you free the captive.",
     walkthrough: [
-      "Investigate the 'Demon Sensei' rumor haunting Toyotama.",
-      "Follow the guiding wind to the corrupted dojo/site.",
-      "Fight through the enemies under the demon's sway.",
-      "Confront the Ghost-and-Demon duel at the climax.",
-      "Resolve the tale for its reward."
+      "Finish Dreams of Conquest, then meet Ishikawa.",
+      "Follow him to the ambush sites and examine the clues.",
+      "Free the captive woman.",
+      "Deal with the archers to finish the tale."
     ],
     video: "https://www.youtube.com/watch?v=zQ1SpYdjoBI"
   },
@@ -19956,22 +19947,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Kamiagata",
+    region: "Toyotama",
     title: "The Terror of Otsuna",
-    location: "Kamiagata",
+    location: "Okada Farmstead, Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Ishikawa tale progress",
-    summary:
-      "Chase Tomoe to Otsuna, where her reign of terror must finally be answered.",
-    aiTip:
-      "Ishikawa questline.",
+    reward: "Minor Legend increase, a ranged charm, 2 Silk",
+    summary: "Ishikawa Tale 7 of 9: Ran points the way to a Mongol camp where Tomoe has been seen.",
+    aiTip: "You can't catch Tomoe in this one: when she flees, the chase is scripted to end with her escape.",
     walkthrough: [
-      "Begin 'The Terror of Otsuna' in Kamiagata.",
-      "Track the terror's trail with the guiding wind.",
-      "Clear the Mongols spreading the fear.",
-      "Confront and defeat the source of the terror.",
-      "Complete the tale."
+      "Finish The Ghost and the Demon Sensei and go to the Okada Farmstead.",
+      "Follow Ran's directions to the Mongol camp and clear it.",
+      "Search the sand for tracks.",
+      "Chase Tomoe when she appears. She escapes."
     ],
     video: "https://www.youtube.com/watch?v=Ac5BxHPB6Bg"
   },
@@ -19980,22 +19968,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Kamiagata",
     title: "Friends in Passing",
-    location: "Izuhara",
+    location: "Jogaku Temple, Kamiagata",
     length: "short",
     difficulty: "Medium",
-    reward: "Ishikawa tale progress",
-    summary:
-      "A quieter beat in Ishikawa's story as allies come and go.",
-    aiTip:
-      "Ishikawa questline.",
+    reward: "Minor Legend increase, Charm of Fortune II, Hidden Serpent bow dye",
+    summary: "Ishikawa Tale 8 of 9: Jin escorts a traveller named Matsu, who turns out to be Tomoe. She explains that the Mongols turned on her.",
+    aiTip: "It needs you to have reached Kamiagata. Pay attention to the conversation: it sets up the last Ishikawa tale.",
     walkthrough: [
-      "Meet the travelers of 'Friends in Passing' in Izuhara.",
-      "Escort or aid them to the marked destination.",
-      "Fend off the Mongols or bandits on the road.",
-      "See them safely through.",
-      "Complete the tale for its reward."
+      "Reach Kamiagata and go to Jogaku Temple.",
+      "Escort Matsu along the road.",
+      "Call her by her real name, Tomoe, when the moment comes.",
+      "Hear her out to finish the tale."
     ],
     video: "https://www.youtube.com/watch?v=PW4HBUd2h88"
   },
@@ -20034,16 +20019,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Masako tale progress",
-    summary:
-      "Follow a lead to one of the Adachi conspirators — a man hiding behind his marriage.",
-    aiTip:
-      "Masako revenge tale.",
+    summary: "Masako Tale 3 of 9: Masako has captured Hina, the wife of Headman Sadao, one of the men behind her family's murder. While Jin plays his flute for Masako, an assassin comes for Hina.",
+    aiTip: "When Hina screams, run back and follow the assassin's tracks toward the horse stables. The blood-stained supply map on the assassin's body is the lead you need.",
     walkthrough: [
-      "Meet Lady Masako and take up the hunt for her family's killers.",
-      "Follow the guiding wind to the husband's trail.",
-      "Investigate the site and clear its Mongols/traitors.",
-      "Confront the truth about the husband.",
-      "Complete the tale to advance Masako's revenge."
+      "Meet Masako and Sadao's wife, Hina.",
+      "Play the flute for Masako at the resting spot.",
+      "When Hina screams, run back and follow the tracks to the assassin and his men.",
+      "Kill them and take the Supply Map Stained in Blood from the assassin's body."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
   },
@@ -20057,17 +20039,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Izuhara",
     length: "medium",
     difficulty: "Medium",
-    reward: "Masako tale progress",
-    summary:
-      "Unmask a traitor who sold out Clan Adachi from within.",
-    aiTip:
-      "Masako revenge tale.",
+    reward: "Warrior's Bounty armour dye",
+    summary: "Masako Tale 4 of 9: a monk at the survivor camp in Ariake points to where Headman Sadao is hiding, the Ariake lighthouse.",
+    aiTip: "Clear the guards at the lighthouse before you climb. Don't expect a fight with Sadao: he's already dead when you reach him.",
     walkthrough: [
-      "Continue Masako's hunt for 'The Traitor'.",
-      "Track the informant's trail with the guiding wind.",
-      "Fight through those shielding the traitor.",
-      "Confront and judge the traitor.",
-      "Resolve the tale."
+      "Talk to the monk at the survivor camp in Ariake.",
+      "Go to the Ariake lighthouse and clear its guards.",
+      "Climb the lighthouse. Sadao is already dead.",
+      "Talk to Masako about the conspirators still in Toyotama."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
   },
@@ -20076,22 +20055,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "The Fool",
-    location: "Izuhara",
+    location: "Umugi Cove, Toyotama",
     length: "medium",
     difficulty: "Medium",
     reward: "Masako tale progress",
-    summary:
-      "Track a foolish accomplice in the Adachi massacre.",
-    aiTip:
-      "Masako revenge tale.",
+    summary: "Masako Tale 5 of 9: Masako has gone to Umugi, a hideout for smugglers and thieves, to find the other conspirators.",
+    aiTip: "It only unlocks once you've reached Toyotama (A New Horizon) and done the first part of A Message in Fire, which takes you to Umugi Cove.",
     walkthrough: [
-      "Take up 'The Fool' in Masako's chain.",
-      "Follow the clues to the marked site.",
-      "Clear the enemies there.",
-      "Uncover the fool's role in the massacre.",
-      "Complete the tale."
+      "Reach Toyotama and finish the first part of A Message in Fire.",
+      "Go to Umugi Cove and meet Masako.",
+      "Follow the quest objectives to track down the conspirator.",
+      "Finish the tale with Masako."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
   },
@@ -20124,22 +20100,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Izuhara",
+    region: "Toyotama",
     title: "The Thief",
-    location: "Izuhara",
+    location: "Toyotama",
     length: "medium",
     difficulty: "Medium",
     reward: "Masako tale progress",
-    summary:
-      "Hunt a thief tangled up in the betrayal of Masako's family.",
-    aiTip:
-      "Masako revenge tale.",
+    summary: "Masako Tale 7 of 9: Masako's hunt for her family's killers continues in Toyotama.",
+    aiTip: "Finishing this one, plus Wolves at the Gates, unlocks The Conspirator.",
     walkthrough: [
-      "Take up 'The Thief' in Masako's chain.",
-      "Follow the trail to the thief's hideout.",
-      "Clear the defenders.",
-      "Confront the thief for the truth.",
-      "Complete the tale."
+      "Finish The Family Man, then meet Masako in Toyotama.",
+      "Follow the quest objectives to track down the conspirator.",
+      "Deal with the enemies on the way.",
+      "Finish the tale with Masako."
     ],
     video: "https://www.youtube.com/watch?v=fDdaUnNhWhQ"
   },
@@ -20150,20 +20123,17 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Tsushima",
     region: "Toyotama",
     title: "The Conspirator",
-    location: "Toyotama",
+    location: "Kushi Graveyard, Toyotama",
     length: "medium",
     difficulty: "High",
     reward: "Masako tale progress",
-    summary:
-      "Close in on the conspirator orchestrating the Adachi killings.",
-    aiTip:
-      "Masako revenge tale.",
+    summary: "Masako Tale 8 of 9: the person who organised the attack on Clan Adachi is still out there. At Kushi Graveyard, Jin ends up facing Masako herself in a duel.",
+    aiTip: "Be ready to duel Masako. It plays like a standard duel. More Mongols charge in afterwards, so keep your health up.",
     walkthrough: [
-      "Continue with 'The Conspirator' in Toyotama.",
-      "Track the conspiracy with the guiding wind.",
-      "Fight through the plotters' guards.",
-      "Confront the conspirator.",
-      "Resolve the tale."
+      "Finish The Thief and Wolves at the Gates, then go to Kushi Graveyard.",
+      "Clear the Mongols inside the temple.",
+      "Defeat Masako in a duel, then the Mongols who charge in.",
+      "Find Junshin hiding under an overhanging rock past the Fox Den."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
   },
@@ -20249,17 +20219,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     location: "Toyotama",
     length: "medium",
     difficulty: "Medium",
-    reward: "Norio tale progress",
-    summary:
-      "Fight beside Norio to free monks and villagers hidden in the fog.",
-    aiTip:
-      "Norio questline.",
+    reward: "Minor Legend increase, a defence charm, Noble Fighter's Headband",
+    summary: "Norio Tale 4 of 9: help Norio defend a village from an imminent Mongol ambush.",
+    aiTip: "Survey the village's defences with Norio before the attack. It needs Three Actions, Three Illusions done first.",
     walkthrough: [
-      "Meet Norio for 'Ghosts in the Fog' in Toyotama.",
-      "Follow the guiding wind into the fog-shrouded site.",
-      "Clear the Mongols hidden within.",
-      "Confront what haunts the fog.",
-      "Complete the tale to advance Norio's arc."
+      "Finish Three Actions, Three Illusions, then meet Norio.",
+      "Survey the village's defences.",
+      "Fend off the Mongol attack.",
+      "Talk to Norio to finish the tale."
     ],
     video: "https://www.youtube.com/watch?v=9LK-MBVA9fY"
   },
@@ -20274,16 +20241,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "Medium",
     reward: "Norio tale progress",
-    summary:
-      "Norio wrestles with the violence his cause demands.",
-    aiTip:
-      "Norio questline.",
+    summary: "Norio Tale 5 of 9: fight off the Mongols at Kushi Temple. They've stolen the temple's priceless Buddha statue, and Abbot Komei is missing.",
+    aiTip: "Short tale, but it unlocks both The Blood Sutra and The Cause of Suffering.",
     walkthrough: [
-      "Begin 'The Birth of Suffering' with Norio.",
-      "Ride to the marked temple/village under threat.",
-      "Fight through the Mongols with Norio at your side.",
-      "Confront the source of the suffering.",
-      "Complete the tale."
+      "Meet Norio at Kushi Temple.",
+      "Fight off the Mongols with him.",
+      "Learn that the Buddha statue was stolen and Abbot Komei has escaped.",
+      "Talk to Norio to finish the tale."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
   },
@@ -20298,16 +20262,13 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "medium",
     difficulty: "High",
     reward: "Norio tale progress",
-    summary:
-      "Recover a blood-stained sutra and confront what Norio is becoming.",
-    aiTip:
-      "Norio questline.",
+    summary: "A Norio tale: track down Abbot Komei, who fled when the Mongols raided Kushi Temple.",
+    aiTip: "Follow the blood trail from the burnt farm, and when it runs out, dive into the water below to reach the cave.",
     walkthrough: [
-      "Continue Norio's arc with 'The Blood Sutra'.",
-      "Follow the clues to the desecrated holy site.",
-      "Clear the enemies defiling it.",
-      "Recover or protect the sutra.",
-      "Resolve the tale."
+      "Follow Norio to Koshimizu Farm and examine the corpses by the burnt building.",
+      "Follow the blood trail and defeat the Mongol groups.",
+      "Dive into the water below and enter the cave.",
+      "Find the Abbot."
     ],
     video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
   },
@@ -20316,22 +20277,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Kamiagata",
+    region: "Toyotama",
     title: "The Cause of Suffering",
-    location: "Kamiagata",
+    location: "Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Norio tale progress",
-    summary:
-      "Trace the root of the suffering plaguing Kamiagata's faithful.",
-    aiTip:
-      "Norio questline.",
+    reward: "Minor Legend increase, 2 Silk, a charm",
+    summary: "Norio Tale 6 of 9: the monks are losing heart, so Jin and Norio vow to recover the stolen Buddha statue.",
+    aiTip: "Talk to the dying monk by the road: he tells you which way the Mongols went. The camp is guarded, with an archer on the watchtower, so take it quietly if you can.",
     walkthrough: [
-      "Take up 'The Cause of Suffering' in Kamiagata.",
-      "Track the trail with the guiding wind.",
-      "Fight through the Mongols behind the atrocity.",
-      "Confront the cause at the climax.",
-      "Complete the tale."
+      "Leave the temple with Norio and talk to the dying monk on the road.",
+      "Head east to the Mongol camp and kill them all.",
+      "Go down to the cove with the wooden spikes and three rowboats.",
+      "Recover the Buddha statue from the cart."
     ],
     video: "https://www.youtube.com/watch?v=VARrfelY1CM"
   },
@@ -20340,22 +20298,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Tales of Tsushima",
     game: "Ghost of Tsushima",
-    region: "Kamiagata",
+    region: "Toyotama",
     title: "The End of Suffering",
-    location: "Kamiagata",
+    location: "Toyotama",
     length: "medium",
     difficulty: "High",
-    reward: "Norio tale progress",
-    summary:
-      "Help Norio bring an end to a cycle of vengeance and grief.",
-    aiTip:
-      "Norio questline.",
+    reward: "Minor Legend increase, a defence charm, Clear Summer Headband",
+    summary: "Norio Tale 7 of 9: another Mongol attack. Protect the monks outside the temple while Norio defends the temple itself.",
+    aiTip: "Stay with the monks outside: Norio holds the temple on his own.",
     walkthrough: [
-      "Reach 'The End of Suffering', the culmination of Norio's chain.",
-      "Follow the final trail to the enemy stronghold.",
-      "Fight through heavy resistance with Norio.",
-      "Confront the final foe and end the suffering.",
-      "Complete the tale for its reward."
+      "Meet Norio at the temple.",
+      "Protect the monks outside while Norio defends the temple.",
+      "Fight off the Mongol attack.",
+      "Talk to Norio to finish the tale."
     ],
     video: "https://www.youtube.com/watch?v=0cqbdJcVSz4"
   },
