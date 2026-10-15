@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-15 (3)
+
+- **Fix the last 17 AC Odyssey riddles and restore 2 removed by mistake**
+  (PR #188) — `v2.4.3` patch. Every riddle now has a real region and
+  content (no template riddles left); new Malis region; "Beneath Theseus'
+  Dreams" and "'Til Death Do Us Part" restored (#180 removed them in error).
+  Quest count 2,467 → 2,469.
+- **Remove empty Paradise Islands filter and move To the Edge of the World
+  to Petrified Islands** (PR #187). Empty "Forest Islands" and "Peloponnese"
+  filter options also removed (#188).
+
 ## 2026-10-15 (2)
 
 - **Log 2026-10-15 quest data cleanup and v2.4.1 deploy in PROGRESS.md**
