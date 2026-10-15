@@ -625,6 +625,12 @@
   added next to the patch/remove scripts.
 - Quest count 2,475 → 2,467 (12 removed, 4 added).
 
+- **Region filter cleanup (2026-10-15):** removed the AC Odyssey "Paradise
+  Islands" option, left empty when #172 moved its riddles to their real
+  regions; To the Edge of the World (Anavatos Ruins, Chios) → Petrified
+  Islands now that #183 settled Chios. A scan of every game's region filter
+  found no other empty options.
+
 - Still to do: owner review of the 1,440 video candidates
   (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq), then one PR per game
   marked done; owner to decide whether to delete the 13 old per-game review
