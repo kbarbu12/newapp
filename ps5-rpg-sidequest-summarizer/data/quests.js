@@ -41516,7 +41516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     arc: "The Sayings of Halfdan",
     game: "Assassin's Creed Valhalla",
     region: "Eurvicscire",
-    title: "The Son of Jorvik",
+    title: "This Son of Jorvik",
     location: "Eurvicscire",
     length: "medium",
     difficulty: "Medium",
@@ -41531,7 +41531,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront those involved.",
       "Bring the truth to Halfdan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Son%20of%20Jorvik%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20This%20Son%20of%20Jorvik%20walkthrough"
   },
 {
     id: 1953,
