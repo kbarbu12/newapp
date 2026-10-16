@@ -1,11 +1,15 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-15
+**Last updated:** 2026-10-16
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
+
+## 2026-10-16 — data fixes from the video title check
+- #1952 renamed to the in-game title **This Son of Jorvik** (was "The Son
+  of Jorvik"); search-URL video updated to match.
 
 ## Session 2026-10-11 → 15 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
 
