@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-16
+
+- **Fix Valhalla quest title: The Son of Jorvik -> This Son of Jorvik**
+  (PR #192) — `v2.4.5` patch. #1952 now uses the in-game title.
+- **Remove duplicate Witcher 3 quest: The Merry Widow (Contract) (#353)**
+  (PR #193). Kept #628 "Contract: The Merry Widow". Quest count
+  2,469 → 2,468.
+
 ## 2026-10-15 (4)
 
 - **Fail the quest audit on filler step text and label-only tips** (PR #190)

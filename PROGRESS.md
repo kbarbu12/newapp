@@ -1,11 +1,19 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-15
+**Last updated:** 2026-10-16
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
+
+## 2026-10-16 — data fixes from the video title check
+- #1952 renamed to the in-game title **This Son of Jorvik** (was "The Son
+  of Jorvik"); search-URL video updated to match.
+- Removed #353 "The Merry Widow (Contract)", a duplicate of #628 **Contract:
+  The Merry Widow** (same Witcher 3 grave hag contract; #628 keeps the
+  in-game name). Its entry in `docs/video-candidates/w3.json` removed too.
+  2,469 → 2,468 quests.
 
 ## Session 2026-10-11 → 15 — video candidates for every game, quest cleanup, Pillars I text, walkthrough steps
 
