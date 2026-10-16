@@ -7713,29 +7713,6 @@ const quests = [
     video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
   },
 {
-    id: 353,
-    type: "side",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Velen",
-    title: "The Merry Widow (Contract)",
-    location: "Velen",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Coin, grave hag trophy",
-    summary:
-      "Villagers near a crossroads are being slain by a grave hag lurking among the dead.",
-    aiTip:
-      "Grave hags resist most signs — use Golden Oriole and hit hard when it lunges.",
-    walkthrough: [
-      "Accept the contract and question the widow and locals about the grave attacks.",
-      "Follow the trail with Witcher Senses to the haunted cemetery.",
-      "Apply Necrophage Oil and prepare Igni/Quen for the Grave Hag.",
-      "Bait its tongue-grab, dodge, and burn it down; watch for its mud-hurling.",
-      "Kill the Grave Hag, take the trophy, and collect the reward."
-    ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Merry%20Widow%20(Contract)%20walkthrough"
-  },
-{
     id: 354,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
