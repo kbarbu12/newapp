@@ -3345,7 +3345,7 @@ const quests = [
       "Keep checking in across your playthrough to hear his search for his family unfold.",
       "Continue the conversations to their end to reach the questline's somber conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stockpile%20Thomas%20walkthrough"
+    video: "https://www.youtube.com/watch?v=friwazuk5NQ"
   },
 {
     id: 142,
@@ -15716,7 +15716,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Penetrator (summon Biorr for help) to open the inner keep.",
       "Take the archstone up to the False King's arena to finish the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Boletaria%20Palace%20(World%201)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wKI6GPHpkHQ"
   },
 {
     id: 748,
@@ -15740,7 +15740,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Dragon God, move between the stone cover so it can't spot you, and reach the two ballistae.",
       "Fire both ballistae to pin its arms, then hit its exposed head to finish the Dragon God."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Stonefang%20Tunnel%20(World%202)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FnflGI_vpAc"
   },
 {
     id: 749,
@@ -15836,7 +15836,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Walk out to the Old One and approach the Maiden in Black.",
       "Choose your ending: let her lull the Old One back to sleep, or kill her to seize its power."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20False%20King%20%26%20Old%20One%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gdVbr2cDbNM"
   },
 {
     id: 753,
