@@ -22500,20 +22500,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "The Snake",
-    location: "Yōtei Grasslands — Roadside Outpost",
+    location: "Yōtei Grasslands — the Snake's house (Prologue)",
     length: "short",
     difficulty: "Low",
-    reward: "First Yōtei Six kill, Ghost Stance seeds",
-    summary: "Atsu's hunt begins with the Snake, the first of the Yōtei Six. Fight through his outlaws to his house and beat him in a three-phase duel — when he goes for sand and a pistol, the wolf steps in.",
-    aiTip: "This is a teaching duel: block just before strikes to parry, dodge any attack with a red glint, and use heavy attacks to break his guard.",
+    reward: "First name crossed off; menus and world map unlocked",
+    summary: "The Prologue. Sixteen years after the Yōtei Six murdered her family, Atsu comes home to Ezo to hunt down the first name on her sash: the Snake. Fight down the town's main street into his house and duel him.",
+    aiTip: "It's a teaching duel: perfect-parry his blue-glint attacks, break his guard with heavy attacks, and keep going when the fight cuts to a flashback.",
     walkthrough: [
-      "Ride to the Snake's hideout at the end of the prologue.",
-      "Clear the outlaws guarding the approach.",
-      "Enter the house and defeat the Snake's allies.",
-      "Duel the Snake through three phases — parry, dodge red-glint attacks, heavy attacks to break guard.",
-      "When he throws sand and draws a pistol, the wolf saves Atsu; finish him to cross off the first name."
+      "Trace the kanji on your sash with the touchpad to begin.",
+      "Fight down the town's main street, starting with the drunken outlaws throwing stones at a horse.",
+      "Clear the outlaws in and around the Snake's house.",
+      "Duel the Snake: parry his blue glints and break his guard with heavy attacks; at about 70% health the fight cuts to a flashback.",
+      "When he throws sand and draws a pistol, the wolf saves Atsu — finish him, then ride through the Yōtei Grasslands to Atsu's childhood home."
     ],
-    video: "https://www.youtube.com/watch?v=g1DcufkkCTU"
+    video: "https://www.youtube.com/watch?v=TjrxlLdDRvA"
   },
 {
     id: 1135,
@@ -22522,22 +22522,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "The Old Inn",
-    location: "Yōtei Grasslands — Riverside Inn",
+    location: "Yōtei's Shadow Inn, north-west of Atsu's home",
     length: "medium",
     difficulty: "Low",
-    reward: "Map expansion, first ally contact",
+    reward: "Merchants unlocked, Onryō's Howl",
     summary:
-      "Atsu finds her first safe haven at a crumbling roadside inn and begins building the network of contacts she needs to hunt the rest of the Yōtei Six. An old innkeeper reveals what she knows of the gang's movements.",
+      "Atsu goes looking for leads on the Yōtei Six at Yōtei's Shadow Inn, only to find it overrun by Saito's outlaws. Take the inn back by force.",
     aiTip:
-      "Talk to every NPC in the inn — optional conversations unlock rumours that mark bounty targets on your map before you'd naturally discover them.",
+      "The fight comes in waves — keep moving and use Onryō's Howl once it unlocks partway through. The inn's merchants open up when it's clear.",
     video: "https://www.youtube.com/watch?v=IvRLW1FrBZE",
     walkthrough: [
-      "Follow the road north from the Snake's outpost into the Yōtei Grasslands proper.",
-      "Locate the Riverside Inn marked on your map — clear the two bandits loitering outside.",
-      "Speak with the innkeeper Hana at the counter to trigger the main cutscene.",
-      "Choose dialogue options to press her for information about the Yōtei Six's current base.",
-      "After the cutscene, speak with all three other NPCs in the common room for optional lore and rumours.",
-      "Rest at the inn to unlock the map expansion and advance to the next main quest."
+      "The tale starts automatically after the Prologue — ride to Yōtei's Shadow Inn, north-west of Atsu's home.",
+      "Read the Saito Outlaws' note at the gate, then walk up to the main building.",
+      "After the cutscene the outlaws throw Atsu outside — fight them off.",
+      "Keep fighting across the inn grounds until the Saito Outlaws are cleared.",
+      "With the inn retaken, its merchants open for business and the hunt for leads begins."
     ]
   },
 {
@@ -22547,22 +22546,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "The Way of Dual Katana",
-    location: "Yōtei Grasslands — Training Ground",
+    location: "Mount Yōtei, west of Yōtei's Shadow Inn",
     length: "medium",
     difficulty: "Medium",
-    reward: "Dual Katana weapon system unlocked",
+    reward: "Dual Katana",
     summary:
-      "A wandering ronin recognises Atsu's raw skill and offers to teach her the dual-blade style. A series of combat trials culminates in a duel that unlocks the dual katana as Atsu's signature weapon.",
+      "A rumour says an old dual-katana master is hiding on Mount Yōtei. Climb past the outlaws and pitfall traps to find Hanbei and learn the dual-blade style.",
     aiTip:
-      "The dual katana's fast flurry attacks excel against lightly armoured enemies. Complete the optional bonus trial at the end to unlock the first upgrade slot immediately.",
+      "Dual katanas excel against spear users. In the final fight, swap to the single katana for the group of four, then back to dual katanas for the ronin.",
     video: "https://www.youtube.com/watch?v=eIobrENZ8d0",
     walkthrough: [
-      "Accept the ronin's offer at the training ground marker in the western Grasslands.",
-      "Complete Trial 1: defeat three straw dummies within the time limit using basic slashes.",
-      "Complete Trial 2: survive a sparring bout against the ronin without taking more than two hits.",
-      "Complete Trial 3: chain a five-hit combo — the game prompts the input sequence on screen.",
-      "Finish the final duel against the ronin; block his overhead strike and counter three times to end it.",
-      "Collect the dual katana from the chest and equip it from the weapon wheel."
+      "Head west from Yōtei's Shadow Inn to the foot of Mount Yōtei and take out the outlaws camped among the red flowers.",
+      "Climb the path — watch for leaf-covered pitfall traps; if you fall in, jump and grapple out.",
+      "Find the old master, Hanbei, and follow him back to his home.",
+      "Fight off the enemies that arrive in waves: single katana for the group of four, dual katanas for the ronin.",
+      "Defeat the ronin to finish the tale with the Dual Katana unlocked."
     ]
   },
 {
@@ -22572,23 +22570,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Saito",
-    location: "Yōtei Grasslands — Fort Takeda",
+    location: "Clan Saito Training Fortress, Tomamu Marshlands",
     length: "long",
-    difficulty: "Medium",
-    reward: "Second Yōtei Six kill, Ghost tool upgrade",
+    difficulty: "High",
+    reward: "Onryō Armor II",
     summary:
-      "Saito, the strategic mind of the Yōtei Six, has fortified himself inside a riverside fort surrounded by elite guards. Atsu must infiltrate the fort, dismantle his defences, and fight him in a one-on-one duel.",
+      "Atsu tracks Lord Saito, the 'Shogun of the North' who leads the Yōtei Six, to his training fortress in the Tomamu Marshlands. Bluff past the gate, infiltrate the fortress and face him in the keep — but he escapes when nearly beaten.",
     aiTip:
-      "Saito counters every direct assault — use the Ghost stance to terrify outer guards before entering so you face fewer enemies inside. In the duel, bait his triple-slash then punish the recovery.",
+      "Use the Dual Katana against Saito's spear and parry his blue-glint strikes. In phase two burning arrows rain down — keep moving.",
     video: "https://www.youtube.com/watch?v=s5pufmydDmI",
     walkthrough: [
-      "Investigate the fort exterior and find the three weak-point entrances marked by owl symbols.",
-      "Eliminate the two rooftop archers silently before breaching — they alert everyone if missed.",
-      "Work through the courtyard using fear kills to build Ghost Stance before the inner gate.",
-      "Eavesdrop on the two guards near the barracks to learn Saito's patrol schedule.",
-      "Confront Saito in the inner courtyard; the duel begins automatically after the cutscene.",
-      "Bait his triple slash combo, dodge the third hit, and counter with a heavy dual-katana strike.",
-      "Finish with a Ghost Stance execution when his posture breaks to end the mission."
+      "Ride to the Tomamu Marshlands and find the Clan Saito Training Fortress on its south-east edge.",
+      "Give the password to the Saito Outlaw at the main gate to start Shogun of the North.",
+      "Win the standoff when the outlaws recognise Atsu, then infiltrate the fortress and search it for Saito.",
+      "Face Lord Saito in the keep: dual katanas against his spear, parry blue glints, and keep moving when burning arrows fall.",
+      "He escapes when nearly beaten — the rest of the Yōtei Six come first."
     ]
   },
 {
@@ -22596,24 +22592,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
-    region: "Multiple",
+    region: "Yotei Grasslands",
     title: "The Yōtei Six",
-    location: "Ezo — Multiple Regions",
-    length: "long",
+    location: "River crossing south-west of Yōtei's Shadow Inn",
+    length: "short",
     difficulty: "Medium",
-    reward: "Open hunt system unlocked, regional map markers",
+    reward: "Choice of next target: The Oni, The Kitsune or The Saito Brothers",
     summary:
-      "With two members of the Six dead, Atsu learns the rest have scattered across Ezo. This quest opens the free-roaming hunt system and marks the remaining four targets across the game's regions.",
+      "Atsu needs a lead on the rest of the Six. A ronin bounty hunter comes for her at a river crossing; beat him and he reveals where the others are hiding, letting you choose your next target.",
     aiTip:
-      "You can tackle the remaining four members in any order. Do the Mythic Tales and Sensei quests in each region first — the gear and skills you earn will make each Six encounter significantly easier.",
+      "This duel teaches yellow glints — disarming attacks you interrupt by holding and releasing Heavy Attack. Each target also leads to a new weapon: the Oni to the yari, the Kitsune to the kusarigama, the Saito brothers to the odachi.",
     video: "https://www.youtube.com/watch?v=e4VuNO44oqk",
     walkthrough: [
-      "After Saito's defeat, return to the Riverside Inn and speak with Hana for new intelligence.",
-      "A cutscene reveals the remaining four members have fled to Tokachi, Teshio, Ishikari, and Oshima.",
-      "Open the map — four new main quest markers appear, one per region.",
-      "Travel to any region of your choice; the game recommends Tokachi as the natural next step.",
-      "Complete each region's main quest to eliminate the corresponding Six member.",
-      "Return to the Grasslands after all four are dead to trigger the next story cutscene."
+      "The tale starts automatically after Saito; the lead has no map marker.",
+      "Ride to the river crossing south-west of Yōtei's Shadow Inn, on the west side of the Sarubetsu River.",
+      "A ronin on horseback tries to claim the bounty on Atsu — duel him, interrupting yellow-glint attacks with a held heavy attack.",
+      "Beaten, he reveals where the remaining Yōtei Six are.",
+      "Choose a target — the Oni, the Kitsune or the Saito brothers — to get its map marker and start that tale."
     ]
   },
 {
@@ -22621,25 +22616,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
-    region: "Multiple",
+    region: "Ishikari Plain",
     title: "The Oni",
-    location: "Tokachi Range — Oni's Stronghold",
+    location: "Ishikari Plain — the Oni's castle",
     length: "long",
     difficulty: "High",
-    reward: "Third Yōtei Six kill, heavy armour upgrade",
+    reward: "The Oni crossed off; Jubei joins the hunt",
     summary:
-      "The Oni is a hulking enforcer who wears demonic armour and leads raids across Tokachi. He fights with overwhelming power and uses subordinates as shields. Atsu must outmanoeuvre both him and his elite guard.",
+      "The Oni — Lord Hyozo, an odachi-wielding giant — rules the Ishikari Plain. Over six missions Atsu chases the bounty Mad Goro, finds her twin brother Jubei, survives the Oni's attack on the Matsumae camp and finally storms his castle.",
     aiTip:
-      "The Oni's overhead slams are unblockable — watch for the red glow on his gauntlets. Dodge to his left flank and strike twice before repositioning. The Kusarigama's ranged pull breaks his guard stance.",
+      "The Oni fight has two phases. Dual katanas and dodging work well; interrupt his yellow-glint disarm with a heavy attack, and bring blinding powder.",
     video: "https://www.youtube.com/watch?v=j0Gw3yxDei8",
     walkthrough: [
-      "Infiltrate the Oni's stronghold via the cliffside route marked on the Tokachi map.",
-      "Eliminate the four courtyard guards quietly — the Oni patrols inside and will join if alerted.",
-      "Use the environment: collapse the hanging cage to distract the two inner guards.",
-      "Trigger the boss fight by entering the main hall; the Oni ambushes you from behind a pillar.",
-      "Dodge his overhead slams left and attack twice from his flank — never attack from the front.",
-      "At half health he calls two elite guards; use Ghost Stance to wipe them quickly.",
-      "Land the final blow during his exhaustion animation to trigger the execution cutscene."
+      "The Road to Ishikari Plain and A Mad Pursuit: track down the bounty Mad Goro and beat him.",
+      "Belly of the Beast: meet Jubei at Ishikari Market, then break into the Oni's stronghold to free him.",
+      "A Fiery Consequence: sneak into the Matsumae camp to free Mad Goro; on the bridge the Oni's artillery blasts Atsu and Jubei off.",
+      "Twin Wolves, Twin Hearts: follow the Golden Ginkgo Leaf to Commander Wada's camp, where Jubei joins you to find the missing Goro.",
+      "The Tale of the Oni: enter the castle through the coastal mine Goro told you about, split up with Jubei, and face the Oni in the final hall."
     ]
   },
 {
@@ -22647,25 +22640,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
-    region: "Multiple",
+    region: "Teshio Ridge",
     title: "The Kitsune",
-    location: "Nayoro Wilds — Spirit Shrine",
+    location: "Teshio Ridge",
     length: "medium",
     difficulty: "Medium",
-    reward: "Fourth Yōtei Six kill, stealth technique upgrade",
+    reward: "The Kitsune crossed off",
     summary:
-      "The Kitsune uses disguise and poison to operate unseen. Atsu must see through the deception, track the real Kitsune through the Nayoro spirit shrines, and fight them before the poison takes full effect.",
+      "The Kitsune is Dojun, Saito's spymaster and the most elusive of the Six, hidden in snowy Teshio Ridge. Follow his poison trail across the region, cross blades with the masked Oyuki, and corner him at last.",
     aiTip:
-      "Equip herbal medicine before this quest — the Kitsune opens with a poisoned dart. Identify the real Kitsune by the slight limp on their right side during the disguise phase.",
+      "Dojun always opens with an unblockable attack — dodge it. Against Oyuki, many attacks can be parried; once she's hurt, the poison's hallucinations change her combos.",
     video: "https://www.youtube.com/watch?v=voeOB9dPGzo",
     walkthrough: [
-      "Follow the rumour chain in Nayoro to the Spirit Shrine district — three NPCs each give a clue.",
-      "At the shrine, you encounter three identical-looking figures; observe movement to spot the limp.",
-      "Pursue the real Kitsune through the forest shrine path — they drop smoke bombs every 30 seconds.",
-      "Use your listening sense (L2 pulse) to track them through smoke.",
-      "Corner the Kitsune at the upper shrine; they attack with a poisoned tantō and quick dodges.",
-      "Stay aggressive — the Kitsune has low health but will flee and reset if given breathing room.",
-      "Collect the spirit token from the body and return it to the Nayoro elder to complete the quest."
+      "Spirits of Teshio Ridge: pick up the Kitsune's trail in Teshio Ridge.",
+      "Follow the poison trail to the Kitsune's Wolfsbane Garden.",
+      "The Tale of the Kitsune: track Oyuki to eastern Teshio Ridge and fight her twice — sparing her earns The Woman Behind the Mask.",
+      "The Kitsune's Fate: meet Oyuki at the Red Crane Inn, follow the blood upstairs, then open the frozen-waterfall gate by turning the lamps to match the fox statues.",
+      "Sneak past the Nine Tails shinobi and defeat Dojun, the Kitsune."
     ]
   },
 {
@@ -22674,24 +22665,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
     region: "Multiple",
-    title: "The Saito Brothers (Part 1)",
-    location: "Ishikari Plain — Saito Manor",
+    title: "The Saito Brothers",
+    location: "Master Yoshida's dojo → Tamura Estate → Matsumae Castle",
     length: "long",
     difficulty: "High",
-    reward: "Story revelation, access to Oshima",
+    reward: "The Dragon crossed off; the Spider captured",
     summary:
-      "The elder Saito brother is revealed to be the true architect of the massacre that destroyed Atsu's village. A confrontation at Saito Manor unravels the conspiracy behind the Yōtei Six — and ends in a shocking betrayal.",
+      "The Spider and the Dragon are Lord Saito's brothers. From Master Yoshida's dojo near Horosaru Falls, Atsu and Jubei capture the Spider at the Tamura Estate, then stage his execution at Matsumae Castle to draw out the Dragon.",
     aiTip:
-      "Save before entering the manor. The final encounter has no checkpoint — if you die you restart from the manor gate. Stock up on healing items and use every stealth advantage before the confrontation.",
+      "In the Dragon fight, watch his raised right hand — it signals his brother to fire from out of view. Keep your back to the arena's centre so you have room to dodge.",
     video: "https://www.youtube.com/watch?v=m6V4cmMlLAk",
     walkthrough: [
-      "Investigate the three Saito Manor outposts to gather evidence — each is guarded by six elites.",
-      "Present the evidence to your ally at the Ishikari inn to confirm the elder brother's location.",
-      "Infiltrate the manor at night using the dry moat on the eastern side.",
-      "Eliminate all guards before reaching the elder Saito — a full alert triggers a failed state.",
-      "Witness the cutscene that reveals the conspiracy; do not skip it as it changes available dialogue.",
-      "Survive the ambush by twelve guards after the revelation — Ghost Stance is essential here.",
-      "Escape through the manor's underground passage to trigger Part 2's unlock."
+      "Ghosts of the Past: the tale starts at Master Yoshida's dojo near Horosaru Falls.",
+      "To Catch a Spider: meet Jubei and Oyuki at Jubei's house, follow Oyuki to the Tamura Estate and capture the Spider (Ghost Stance unlocks here).",
+      "A Wolf's Pack: a short family mission after the capture.",
+      "The Reckoning: at Matsumae Castle, Jubei and Commander Wada stage the Spider's execution to lure out the Dragon.",
+      "When Saito's forces attack, duel the Dragon — katana, naginata and pistol — and dodge the Spider's shots when the Dragon raises his right hand."
     ]
   },
 {
@@ -22699,25 +22688,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Atsu's Journey",
     game: "Ghost of Yotei",
-    region: "Multiple",
-    title: "The Saito Brothers (Part 2)",
-    location: "Oshima Coast — Sea Fortress",
-    length: "long",
+    region: "Yotei Grasslands",
+    title: "Call of the Hunt",
+    location: "Saito family burial site, Ohara Plains (Yōtei Grasslands)",
+    length: "medium",
     difficulty: "High",
-    reward: "Fifth Yōtei Six kill, legendary weapon upgrade",
+    reward: "The Spider crossed off",
     summary:
-      "Atsu pursues the elder Saito brother to his sea fortress on the Oshima Coast for a final reckoning. A brutal two-phase duel determines whether the conspiracy dies with him.",
+      "Hanbei on Mount Yōtei sends Atsu after the Spider, who is hiding at the Saito family burial ground. Chase him down to a waterfall shrine and settle it in a duel.",
     aiTip:
-      "Phase 1 is a sword duel — standard parry timing. Phase 2 he uses a spear; switch your deflect timing to half a beat later than normal. Break his posture three times to end the fight.",
-    video: "https://www.youtube.com/watch?v=svr-RNK_NhQ",
+      "The Spider leans on his pistol, and the shots hit hard on higher difficulties — stay mobile and close the gap. Katana against his katana works well.",
+    video: "https://www.youtube.com/watch?v=chu1hHGR6rk",
     walkthrough: [
-      "Sail to the Oshima sea fortress using the boat at the Nayoro harbour.",
-      "Scale the sea cliffs on the fortress blind side — avoid the searchlight sweep pattern.",
-      "Clear the inner courtyard of eight guards before the brother emerges.",
-      "Phase 1 duel: deflect his katana combos and punish with dual-katana flurries.",
-      "At half health, the Phase 2 cutscene triggers — he switches to a yari spear.",
-      "Adjust deflect timing and use the Kusarigama pull to break his spear guard.",
-      "Execute the finishing blow in the QTE to complete Part 2 and advance the story."
+      "Speak with Hanbei on Mount Yōtei, who sends you after the Spider.",
+      "Fast travel to Yōtei's Shadow Inn and head north to the burial site in the Ohara Plains.",
+      "After the cutscene, chase the Spider down the gravel slope toward the waterfall while he shoots at you.",
+      "Take a running jump across the long gap to reach the shrine.",
+      "Duel and defeat the Spider to cross off another name."
     ]
   },
 {
@@ -22727,23 +22714,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Multiple",
     title: "The Final Hunt of the Onryō",
-    location: "Mount Yōtei — Summit Shrine",
+    location: "Koga Fortress, Lord Saito's mountain stronghold",
     length: "long",
     difficulty: "High",
-    reward: "Endgame, Ghost of Yōtei title, Onryō armour set",
+    reward: "Lord Saito crossed off; the story's ending",
     summary:
-      "The final confrontation with the last of the Yōtei Six at the summit shrine of Mount Yōtei. Atsu embraces her legend as the Ghost — the Onryō — and ends the cycle of vengeance in a multi-stage climactic battle.",
+      "The last name on the sash. Infiltrate Koga Fortress, Lord Saito's mountain stronghold, to rescue Jubei and Oyuki, then face Saito himself in a two-phase final duel.",
     aiTip:
-      "The final boss has three phases. Phase 1 is aggressive melee — play defensively. Phase 2 adds explosive traps — clear them with the Tanzutsu before engaging. Phase 3 is a Ghost Stance showdown — fill your meter before triggering it.",
+      "This is a point of no return — finish side content and upgrade first. Saito switches between naginata, odachi, kusarigama and shield; answer each with its counter (katana against the odachi, dual katanas against the naginata).",
     video: "https://www.youtube.com/watch?v=pV3STpvS9OA",
     walkthrough: [
-      "Ascend Mount Yōtei along the marked path — expect five elite ambushes on the way up.",
-      "Clear the outer shrine guards before approaching the summit; stealth is rewarded here.",
-      "Phase 1: fight defensively, deflect the fast combo strings and punish recovery windows.",
-      "Phase 2 trigger: explosive traps appear — shoot each with the Tanzutsu before resuming the duel.",
-      "Phase 3 trigger: the final Six member unleashes a berserker mode — fill Ghost Stance immediately.",
-      "Activate Ghost Stance to deliver the decisive damage burst and trigger the execution sequence.",
-      "Watch the ending cutscene in full — it determines which of two endings plays based on earlier choices."
+      "The tale opens after the Spider falls — prepare, because there's no turning back once it starts.",
+      "Climb the slope to Koga Fortress and scout the camp with the Spyglass.",
+      "Thin out Saito's Black Guards quietly from outside, then slide down into the fortress.",
+      "Fight through the fortress to rescue Jubei and Oyuki.",
+      "Defeat Lord Saito across two phases, countering each weapon he switches to, to end the Onryō's hunt."
     ]
   },
 {
