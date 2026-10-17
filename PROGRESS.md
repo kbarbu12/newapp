@@ -9,7 +9,7 @@
 
 ## Session 2026-10-17 — videos for nearly every quest, data clean-up, Ghost of Yōtei main story
 
-Six prod releases today (**v2.4.6 → v2.4.11**), every change as its own PR to
+Seven prod releases today (**v2.4.6 → v2.4.12**), every change as its own PR to
 `staging`, QA'd on a local staging build (headless Chromium, 0 page errors)
 and again on the prod build after each promote; CI green throughout.
 
@@ -66,11 +66,15 @@ real `watch?v=` video (≈1,020 this morning), 2 playlists, 4 search links.
   Each now follows the real tale; #1142 is Call of the Hunt (was a made-up
   "The Saito Brothers (Part 2)"). Disputed details between guides left out.
 
+### 7. Ghost of Yōtei side content rewritten (v2.4.12, PRs #258–#263)
+- All 103 side titles are real, but 91 entries had invented content (fake
+  sensei "Ishida", "Fumiko", "Daisuke", "Genzo"; a "Riverside Inn"; generic
+  "track down the outlaw" bounties). Each was rewritten from walkthroughs
+  (PowerPyx, Deltia's, Push Square, GameTrek), one PR per region; disputed
+  details left out. 9 entries moved to their real region, 2 re-filed as
+  bounties. Mythic Tales and 5 others were already accurate.
+
 ### Next
-- **Ghost of Yōtei side content pass.** All 103 side titles are real (they
-  match PowerPyx's per-region lists), but many locations/details look
-  invented (e.g. "Riverside Inn", "Mirror Lake", "Poet's Waypoint") and a
-  few tales sit in the wrong region. Needs a quest-by-quest check.
 - **Missing main quests:** Skyrim The Horn of Jurgen Windcaller, A Cornered
   Rat, Paarthurnax; Deadfire He Waits in Fire.
 - **4 search links left:** Metaphor #158, #726, Deadfire #779, BG3 #997 —
