@@ -8019,7 +8019,7 @@ const quests = [
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
-    title: "The Last Trial",
+    title: "The Final Trial",
     location: "Skellige",
     length: "short",
     difficulty: "Medium",
@@ -8035,7 +8035,7 @@ const quests = [
       "Deal with the fallout of the experiment.",
       "See the outcome through and collect the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Final%20Trial%20walkthrough"
   },
 {
     id: 368,
@@ -13290,7 +13290,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
-    title: "Evil's Soul",
+    title: "Evil's Soft First Touches",
     location: "Oxenfurt (Hearts of Stone)",
     length: "medium",
     difficulty: "High",
@@ -13306,7 +13306,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Begin serving Olgierd's three impossible wishes.",
       "Advance the Hearts of Stone story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soft%20First%20Touches%20walkthrough"
   },
 {
     id: 610,
@@ -13336,7 +13336,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
-    title: "Bald Mountain (HoS): A Midnight Clear",
+    title: "A Midnight Clear",
     location: "Garin Estate (Hearts of Stone)",
     length: "medium",
     difficulty: "High",
@@ -13353,7 +13353,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the heart of the estate and make the pivotal choice.",
       "Resolve the confrontation and advance toward the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Midnight%20Clear%20walkthrough"
   },
 {
     id: 612,
@@ -13843,7 +13843,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
-    title: "Scavenger Hunt: Manticore School Gear",
+    title: "Scavenger Hunt: Grandmaster Manticore Gear",
     location: "Toussaint (Blood and Wine)",
     length: "medium",
     difficulty: "High",
@@ -13859,7 +13859,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the high-tier crafting materials the set needs.",
       "Forge the Manticore set at a master craftsman."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Grandmaster%20Manticore%20Gear%20walkthrough"
   },
 {
     id: 635,
