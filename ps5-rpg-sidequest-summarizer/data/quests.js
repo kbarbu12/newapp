@@ -6810,7 +6810,7 @@ const quests = [
       "Prepare for the upcoming Junon parade — practice the marching drill when prompted.",
       "Advance the main path toward Junon proper."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%204%3A%20Dawn%20of%20a%20New%20Era%20walkthrough"
+    video: "https://www.youtube.com/watch?v=74sUhtHq488"
   },
 {
     id: 314,
