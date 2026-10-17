@@ -1184,7 +1184,7 @@ const quests = [
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
-    title: "Devil by the Well",
+    title: "Contract: Devil by the Well",
     location: "Abandoned Village, White Orchard",
     length: "short",
     difficulty: "Low",
@@ -1369,12 +1369,12 @@ const quests = [
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
-    title: "Beyond Hill and Dale",
+    title: "Beyond Hill and Dale...",
     location: "Land of a Thousand Fables, Toussaint",
     length: "long",
     difficulty: "Medium",
-    reward: "Story progression, unique location exploration",
-    summary: "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
+    reward: "Syanna found, story progression",
+    summary: "Enter the Land of a Thousand Fables, a magical storybook world, to find the runaway Syanna. Fairy tales have gone horribly wrong here: fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf and the Three Little Pigs.",
     aiTip: "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
     walkthrough: [
       "Search the palace playroom: take the Golden Key from behind the painting and open the wardrobe.",
@@ -7667,29 +7667,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=ueylh5enSj0"
   },
 {
-    id: 351,
-    type: "side",
-    game: "The Witcher 3: Wild Hunt",
-    region: "White Orchard",
-    title: "Contract: Devil by the Well",
-    location: "White Orchard",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Silver, noonwraith trophy",
-    summary:
-      "A noonwraith haunts an abandoned village well. Geralt must lure and banish the vengeful spirit.",
-    aiTip:
-      "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
-    walkthrough: [
-      "Take the contract from the White Orchard notice board and head to the abandoned village well.",
-      "Investigate the site with Witcher Senses, then meditate to nightfall to draw out the noonwraith.",
-      "Apply Specter Oil and cast Yrden to trap the wraith so it can be hit.",
-      "Dodge its rapid teleport strikes and destroy the illusions it spawns.",
-      "Banish the noonwraith, take its trophy, and claim the contract fee."
-    ],
-    video: "https://www.youtube.com/watch?v=IG98e99GV3M"
-  },
-{
     id: 352,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -13401,29 +13378,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Set up the final confrontation with Dettlaff."
     ],
     video: "https://www.youtube.com/watch?v=k6M-NTUIoUQ"
-  },
-{
-    id: 616,
-    type: "main",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Toussaint",
-    title: "Beyond Hill and Dale... (B&W)",
-    location: "Land of a Thousand Fables",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Syanna found, fairy-tale realm",
-    summary:
-      "Enter the storybook Land of a Thousand Fables to find the runaway Syanna.",
-    aiTip:
-      "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
-    walkthrough: [
-      "Enter the fairy-tale Land of a Thousand Fables to find Syanna.",
-      "Solve the storybook puzzles and help the fable characters.",
-      "Follow Syanna's trail through the whimsical (and dark) tales.",
-      "Confront what the land reveals about her past.",
-      "Escape the fable land with what you've learned."
-    ],
-    video: "https://www.youtube.com/watch?v=NdnxWNCAIWw"
   },
 {
     id: 617,
