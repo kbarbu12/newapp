@@ -8560,7 +8560,7 @@ const quests = [
       "Follow the power cables and solve the light puzzles to restore the display.",
       "Recover the holiday ornament and return it to Stemmur."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Nights%20of%20Lights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PCs_BE4Rsfg"
   },
 {
     id: 391,
@@ -8670,7 +8670,7 @@ const quests = [
       "Travel to the marked location and deal with what you find.",
       "Complete the errand for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Broken%20Locks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kc3nMAPWmoc"
   },
 {
     id: 397,
@@ -14730,7 +14730,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pull people from the wreckage and tend to the wounded.",
       "See the rescue through to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Deluge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Bk3BnOX1gWA"
   },
 {
     id: 669,
@@ -29425,7 +29425,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the machines and hazards guarding the salvage.",
       "Return to Porguf and decide how to settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Breaking%20Even%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GuQ5ItY92YE"
   },
   {
     id: 1376,
@@ -54145,7 +54145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet the Quen rebel Seyka and agree to work together.",
       "Follow the leads toward the surviving Zenith, Walter Londra."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20To%20the%20Burning%20Shores%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FqId1BZONj0"
   },
   {
     id: 2574,
