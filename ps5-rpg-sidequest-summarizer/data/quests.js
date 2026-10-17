@@ -9688,7 +9688,7 @@ const quests = [
       "Steal the floating treasure piggy bank before the deadline.",
       "Defeat Shadow Kaneshiro atop his golden pig-mech."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kaneshiro's%20Palace%20%E2%80%94%20Bank%20of%20Gluttony%20walkthrough"
+    video: "https://www.youtube.com/watch?v=INQwBKu27t4"
   },
 {
     id: 447,
