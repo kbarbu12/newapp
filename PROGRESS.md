@@ -1,56 +1,86 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-16
+**Last updated:** 2026-10-17
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
 
-## 2026-10-17 — last search links and duplicate check, round 1 (v2.4.10)
-- 15 of the last 19 search links now have videos (PRs #241–#249); 4 stay
-  as searches (Metaphor #158, #726, Deadfire #779, BG3 #997) because the
-  audit requires a video link and no good single video exists.
-- Duplicate check (PRs #250–#253) merged or removed 7 duplicates and fixed
-  mislabelled Skyrim/Deadfire main quests. 2,458 quests.
-- Still to do: rebuild the Ghost of Yōtei main story (largely invented);
-  add missing main quests (Skyrim The Horn of Jurgen Windcaller, A Cornered
-  Rat, Paarthurnax; Deadfire He Waits in Fire).
+## Session 2026-10-17 — videos for nearly every quest, data clean-up, Ghost of Yōtei main story
 
-## 2026-10-17 — Witcher 3 and Wukong fixes (v2.4.9)
-- W3 #601 "Nameless" merged with duplicate #371 (PR #238). Wukong boss
-  entries fixed: #832 Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840
-  Venom Daoist, #841 Keeper of the Flaming Mountains; #842 removed as a
-  duplicate of #31 (PR #239). 2,465 quests; 19 search links remain.
+Seven prod releases today (**v2.4.6 → v2.4.12**), every change as its own PR to
+`staging`, QA'd on a local staging build (headless Chromium, 0 page errors)
+and again on the prod build after each promote; CI green throughout.
 
-## 2026-10-17 — data fixes and the last hand-picked videos
-- Fixed the problems the title check found (PRs #220–#223) and removed
-  duplicates BG3 #986 and Deadfire #773.
-- 57 more quests got hand-picked videos (PRs #221, #224–#236); 23 search
-  links remain: activity entries (HFW #400, #401, #1387), two-boss entries
-  (Wukong #832, #841, BG3 #801), partial/foreign videos only (Sekiro #1824,
-  #1833, Metaphor #158, #1078, Deadfire #779), #726 (shares #725's video),
-  vague titles (Sekiro #1823, #1830) and no video found for the rest.
+**Where things stand:** 2,458 quests (2,468 this morning), 2,452 with a
+real `watch?v=` video (≈1,020 this morning), 2 playlists, 4 search links.
 
-## 2026-10-17 — verified videos applied to the app
-- 1,364 quests across 17 games now use real `watch?v=` videos (PRs
-  #202–#218); 2,384 real videos in total. 61 weak candidates were first
-  swapped for checked alternatives (#201).
-- Still search links: 72 unverified candidates plus #754, #997, #1183
-  (poor fit) and #726 (shares #725's video). Black Myth: Wukong has none
-  verified yet.
+### 1. Video title check (v2.4.6, PRs #195–#199)
+- Searched YouTube for every one of the 1,440 candidate videos' quest
+  titles; 1,308 matched. Results, alternatives and notes saved in
+  `docs/video-candidates/title-check.json` (README has "Title check" and
+  "Swapped" sections).
+- 10 titles renamed to their in-game names (Witcher 3 #367 #609 #611 #634,
+  HFW #394, BG3 #978 #1010, Skyrim #1489 #1523 #1533).
 
-## 2026-10-17 — video title check finished, title fixes
-- Title check of all 1,440 video candidates done and saved to
-  `docs/video-candidates/title-check.json` (1,308 match).
-- 10 quest titles renamed to their in-game names (W3 #367 #609 #611 #634,
-  HFW #394, BG3 #978 #1010, Skyrim #1489 #1523 #1533); search-URL videos
-  updated to match.
-- Still open from the check: HFW #397 (likely "The Wound in the Sand",
-  content needs a check), BG3 #798 (mixes two quests), Skyrim #1498/#1499
-  ("Stormcloak variant" of Imperial-side battles), Skyrim #1535/#1536 (no
-  quest by those names found), likely duplicates BG3 #986/#1005 and
-  #999/#941, Deadfire #773/#110.
+### 2. Real videos applied to the app (v2.4.7, PRs #201–#218)
+- 61 weak candidates swapped for checked alternatives first (#201), then
+  1,364 quests in 17 games switched from a search link to a real embedded
+  video. Walkthrough steps stay alongside every video.
+
+### 3. Data fixes and hand-picked videos (v2.4.8, PRs #220–#236)
+- Skyrim #1535/#1536 → Volskygge / Ansilvund; Stormcloak fort battles
+  #1498–#1500 note they need Season Unending. HFW #397 rewritten as The
+  Wound in the Sand. BG3 #798 → Impress the Murder Tribunal, #1005
+  rewritten. Duplicates BG3 #986 and Deadfire #773 removed.
+- 57 more quests in 13 games got hand-picked videos.
+
+### 4. Witcher 3 and Wukong (v2.4.9, PRs #238–#239)
+- W3 #601 Nameless merged with its duplicate #371.
+- Wukong: #832 Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840 Venom
+  Daoist (replaced the made-up "Duo of Corruption"), #841 Keeper of the
+  Flaming Mountains & Yin-Yang Fish; #842 removed (duplicate of #31, which
+  moved to Chapter 5).
+
+### 5. Last search links and duplicate check (v2.4.10, PRs #241–#253)
+- 15 of the last 19 search links got real videos, and the entries behind
+  them were fixed: Skyrim #1432 Reparations (Thieves Guild expulsion), HFW
+  #1387 War Totems (God of War Easter egg), BG3 #801 split into Get Gortash's
+  Netherstone + new #2593 Get Orin's Netherstone, BG3 #997 Acquire the
+  Gauntlets for Helsik, Metaphor #726/#1078, W3 #379 Consorting. Made-up
+  entries Pillars I #108 and Sekiro #1833 removed; Sekiro #1823 renamed
+  The Sculptor's Storyline.
+- Pairwise duplicate scan of every game: W3 #616 → #43 and #351 → #33
+  merged; Skyrim #1399 Alduin's Bane, #1400 Season Unending, #1404 The
+  Fallen renamed to match their content, #1398 steps fixed, duplicate #1514
+  removed; Deadfire #62 and #786 removed, #775 → The Coming Storm;
+  Cyberpunk #263 merged into #250 Nocturne Op55N1.
+- Tooling: field-level patch script (only touched fields change) and a
+  reusable QA script that checks changed quests render and removed titles
+  are gone.
+
+### 6. Ghost of Yōtei main story rebuilt (v2.4.11, PR #255)
+- The ten Atsu's Journey entries had the right Main Tale names but invented
+  content (made-up inn and innkeeper, Saito killed second at a fake fort).
+  Each now follows the real tale; #1142 is Call of the Hunt (was a made-up
+  "The Saito Brothers (Part 2)"). Disputed details between guides left out.
+
+### 7. Ghost of Yōtei side content rewritten (v2.4.12, PRs #258–#263)
+- All 103 side titles are real, but 91 entries had invented content (fake
+  sensei "Ishida", "Fumiko", "Daisuke", "Genzo"; a "Riverside Inn"; generic
+  "track down the outlaw" bounties). Each was rewritten from walkthroughs
+  (PowerPyx, Deltia's, Push Square, GameTrek), one PR per region; disputed
+  details left out. 9 entries moved to their real region, 2 re-filed as
+  bounties. Mythic Tales and 5 others were already accurate.
+
+### Next
+- **Missing main quests:** Skyrim The Horn of Jurgen Windcaller, A Cornered
+  Rat, Paarthurnax; Deadfire He Waits in Fire.
+- **4 search links left:** Metaphor #158, #726, Deadfire #779, BG3 #997 —
+  the audit requires a video link and no good single video was found.
+- Grouped entries ("Ranni's Questline", "Companion: …", "Collectible
+  Hunt: …") look intentional and were left as they are.
 
 ## 2026-10-16 — data fixes from the video title check
 - #1952 renamed to the in-game title **This Son of Jorvik** (was "The Son
