@@ -1704,7 +1704,7 @@ const quests = [
       "Pursue his questions about Magran and the Saint's War to unlock deeper revelations.",
       "Reach his final confrontation dialogue to resolve his fate and the truth about the gods."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Trials%20of%20Durance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RwMuntpRpFA"
   },
 {
     id: 59,
@@ -1728,7 +1728,7 @@ const quests = [
       "Defeat the guardian spirits and constructs in the depths.",
       "Claim the ruin's secrets and loot about the civilization that made the gods."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Bronze%20Beneath%20the%20Lake%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_DQD_565S8"
   },
 {
     id: 60,
@@ -1752,7 +1752,7 @@ const quests = [
       "At the bottom, face the Adra Dragon — or talk it down with high Resolve and Lore.",
       "Resolve the dragon to complete the mega-dungeon and claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master%20Below%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TqnL5gvPKI8"
   },
 {
     id: 61,
@@ -2655,7 +2655,7 @@ const quests = [
       "Decide how far the animancy should go; your choice affects the later hearing.",
       "Resolve the confrontation to close out the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Through%20Death's%20Gate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VXYbOdAIF6M"
   },
 {
     id: 110,
@@ -4037,7 +4037,7 @@ const quests = [
       "Choose an outcome that improves your Stronghold's ties with local settlers.",
       "Report back to close the quest and secure the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Lord%20of%20a%20Barren%20Land%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r4hBAQBt4T8"
   },
 {
     id: 187,
@@ -4061,7 +4061,7 @@ const quests = [
       "Use Lore and Insight checks to reach the hidden 'best' outcome.",
       "Choose truth or comfortable deception, then return the text (or don't)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Parable%20of%20Wael%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T2SN4MTp-g4"
   },
 {
     id: 188,
@@ -4085,7 +4085,7 @@ const quests = [
       "Speak with the boy for the quest's touching dialogue.",
       "Return to collect the minor reward and close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Brave%20Derrin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MiZQ62aiG-8"
   },
 {
     id: 189,
@@ -4109,7 +4109,7 @@ const quests = [
       "Otherwise clear the hard camp encounter, and loot Elmshore's rare crafting ingredients.",
       "Return the egg to the merchant for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Egg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lGmZbAsgvao"
   },
 {
     id: 190,
@@ -4133,7 +4133,7 @@ const quests = [
       "Make the moral choice about the son's redemption.",
       "Resolve it, noting the effect on Copperlane faction reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xt4dFhIHaj8"
   },
 {
     id: 192,
@@ -4157,7 +4157,7 @@ const quests = [
       "Uncover the noble's fate — this quest gates access to Twin Elms and Act 3.",
       "Resolve it to open the path into the game's final act."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Never%20Far%20from%20the%20Queen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S3Kkz0dUsz4"
   },
 {
     id: 193,
@@ -15977,7 +15977,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the tutorial prompts to learn the soul-reading mechanic.",
       "Make your way onward toward Gilded Vale to begin the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Moment's%20Respite%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y_5tNpEnZks"
   },
 {
     id: 757,
@@ -16000,7 +16000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Decide whether to side with, spare, or depose Raedric at his hold.",
       "Carry out your chosen path through Raedric's Hold, each giving different rewards and allies."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Gilded%20Vale%20%26%20Raedric's%20Hold%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YZ0mG9w5keU"
   },
 {
     id: 758,
@@ -16023,7 +16023,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Begin exploring the Endless Paths dungeon beneath it.",
       "Invest in Caed Nua's upgrades for income, allies, and side content."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Building%20a%20Fortress%3A%20Caed%20Nua%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SqR13AEFsxY"
   },
 {
     id: 759,
@@ -16046,7 +16046,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the leads into the city's factions.",
       "Make the choices that open Act 2's intrigue and shape Defiance Bay's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hermit%20of%20Hadret%20House%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rMe4iQDLR1U"
   },
 {
     id: 760,
@@ -16069,7 +16069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick one faction for the Act 2 climax.",
       "Fight through the faction war, gaining your allies and turning the rest hostile."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Champion%20of%20Berath%20%2F%20Faction%20War%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w6zrZl7ROr4"
   },
 {
     id: 761,
@@ -16092,7 +16092,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Read the lore closely — it reveals the gods' true nature.",
       "Track the Leaden Key to its source to press on toward Thaos."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunt%20for%20Thaos%3A%20Twin%20Elms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ynaV1XS8Rbk"
   },
 {
     id: 762,
@@ -16115,7 +16115,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Thaos in the final confrontation.",
       "Make the ending choice about the fate of countless souls — there is no simple right answer."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sun%20in%20Shadow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l69AHGU0gM0"
   },
 {
     id: 763,
@@ -16138,7 +16138,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the religious threads the quest raises.",
       "Reach the resolution of Edér's faith to complete his companion arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Fragments%20of%20a%20Scattered%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EYF371XxIjM"
   },
 {
     id: 764,
@@ -16161,7 +16161,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pursue the mystery before the finale, since it ties into the main conspiracy.",
       "Resolve which side of Aloth prevails to close his arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20Two-Sided%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vi6kIgRzKIE"
   },
 {
     id: 765,
@@ -16184,7 +16184,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track the target through the various regions as you travel.",
       "Reach the reincarnation to conclude her long hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20The%20Long%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tF1xhiGgJvw"
   },
 {
     id: 766,
@@ -16207,7 +16207,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Advise her at the key decision points.",
       "Your guidance sets her standing with the order and her ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Child%20of%20Five%20Suns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6e-NoG5lsV8"
   },
 {
     id: 767,
@@ -16230,7 +16230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the terrible mercy she performs on the hollowborn.",
       "Take your time to reach the arc's thematically rich conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Dream%20and%20Memory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5vxEoLOVn0I"
   },
 {
     id: 768,
@@ -16253,7 +16253,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the forge and recover the secret of Durgan steel.",
       "Claim the steel to upgrade your best equipment."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GYWvYYYgAso"
   },
 {
     id: 770,
@@ -16276,7 +16276,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the mercenaries to the lich Concelhaut's tower.",
       "Defeat Concelhaut to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Cragholdt%20Bluffs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j36Pe7OD4QE"
   },
 {
     id: 771,
@@ -50508,7 +50508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to Maerwald — a spirit seizes him and forces combat; defeat him and the Flame Blight.",
       "Return to the surface to claim Caed Nua; the story continues with Never Far from the Queen."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Old%20Watcher%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9Q6MDZ3RSvE"
   },
 {
     id: 2360,
@@ -50530,7 +50530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Aldhelm at the top to learn of the soul machine and the masked man who killed his team.",
       "Report back; Icantha in Copperlane can read the Engwithan runes and help stop the machine."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Undying%20Heritage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kXemUbaUYII"
   },
 {
     id: 2363,
@@ -50552,7 +50552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the shipment.",
       "Return to Tuatanu for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Smith's%20Shipment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYA2MXKiutY"
   },
 {
     id: 2364,
@@ -50574,7 +50574,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drain the flooded bath chamber with the valve to the north and take the key for the second door.",
       "Collect the priests' bones on the lowest level and bring them back to Wirtan."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Buried%20Secrets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=onBx-HuU5mk"
   },
 {
     id: 2365,
@@ -50596,7 +50596,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dismiss them (Aggressive, Cruel or Diplomatic) or pay them (Benevolent) for Prestige.",
       "Speak to Marshal Forwyn to prepare for The Battle of Yenwood Field."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Return%20to%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-44w8wF4m4o"
   },
 {
     id: 2366,
@@ -50618,7 +50618,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When Chancellor Warrin arrives, hear the Erl's demand for taxes.",
       "Agree (Diplomatic, Rational or Stoic) to end the quest, or refuse and lose Defiance Bay reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Battle%20of%20Yenwood%20Field%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MRmiJENvUnU"
   },
 {
     id: 2367,
@@ -50640,7 +50640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return all three pieces to Tcharek on Level 12.",
       "Receive the dagger Drawn in Spring; Krivi now trades scrolls, gems and light armor."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master's%20Tools%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WRrb5t2tzvA"
   },
 {
     id: 2368,
@@ -50662,7 +50662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Moedred and learn where Rowyna's soul is held.",
       "Bring the Soulward Amulet to Dalton and choose to free Rowyna or keep the amulet."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Voice%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x4HXt3fpejc"
   },
 {
     id: 2369,
@@ -50684,7 +50684,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expose and fight Nyrid, who reveals himself as you strike the final blow.",
       "Return to Kaenra to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20His%20Old%20Self%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SDSlSbVg_TU"
   },
 {
     id: 2370,
@@ -50706,7 +50706,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Cail the Silent and take the Burning Stone (and his Drake Talon).",
       "Return the stone to Fyrga for the flail Unforgiven and a large reputation boost."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Cinders%20of%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w7_LhVDBg2s"
   },
 {
     id: 2371,
@@ -50728,7 +50728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill her, or resolve it peacefully through dialogue.",
       "Tell Niah; the ruin reopens as The Wailing Banshee tavern."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Wailing%20Banshee%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qqJxKaVe5z4"
   },
 {
     id: 2372,
@@ -50750,7 +50750,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the occupant — persuade, intimidate or fight.",
       "Report back to Maea for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Supply%20and%20Demand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ro8e9PPmiGg"
   },
 {
     id: 2373,
@@ -50772,7 +50772,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Verzano; Pallegina arrives to say the Republics no longer protect him.",
       "Choose how to resolve Verzano's fate, then recruit Pallegina."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20At%20All%20Costs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WG_RMg6oKTg"
   },
 {
     id: 2374,
@@ -50794,7 +50794,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the Theorems of Pandgram — or warn High Archivist Grimda instead (200cp).",
       "Deliver the book to Nedyn for 500cp; press her diplomatically for the Ring of Eternal Funding."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Theorems%20of%20Pandgram%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7jlmz2NmCAo"
   },
 {
     id: 2375,
@@ -50816,7 +50816,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the medallion to Thristwn.",
       "Collect your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Far%20from%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XQ5lUAnXO3s"
   },
 {
     id: 2376,
@@ -50838,7 +50838,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Gaderman at his home — three outcomes are possible.",
       "Report back for 3,000cp, or refuse payment (Benevolent) for more reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Final%20Act%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IoscMa0r55I"
   },
 {
     id: 2377,
@@ -50860,7 +50860,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Or kill him and take his head.",
       "Return to Rumbald for 600cp, the Piglet pet and Lead Spitter."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Farmer's%20Plight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zrmyihM_8xE"
   },
 {
     id: 2378,
@@ -50882,7 +50882,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend into the Dyrford Ruins and face the Skaen cultists led by Wymund.",
       "Resolve Aelys's fate, loot Wymund's key for Aattuuk, and report to Lord Harond."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Blood%20Legacy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XZa4GIH4cig"
   },
 {
     id: 2380,
@@ -50904,7 +50904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the Fangs — negotiate, sacrifice Esmar, or fight.",
       "Return to Cwineth for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20At%20the%20Mercy%20of%20the%20Tribes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zFJ1RGIXL60"
   },
 {
     id: 2381,
@@ -50926,7 +50926,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report to Anamfath Bethwyl at the back of the Passage of the Six.",
       "Side with Ridai or Arthwyn when she summons them both."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hunter%2C%20Brother%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wwv1U8BdE9c"
   },
 {
     id: 2382,
@@ -50948,7 +50948,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Simoc and pass his skill checks.",
       "He drinks the poison and gives you Thy Clef — or the deception fails and you fight."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sacrificial%20Bloodlines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GPu5Rka3gNg"
   },
 {
     id: 2383,
@@ -50970,7 +50970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear Glasvahl out: his people want to enter the White Void so their souls can die.",
       "Choose one of three responses; attacking turns all of Noonfrost hostile."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Into%20the%20White%20Void%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J-xUxBuZtps"
   },
 {
     id: 2384,
@@ -50992,7 +50992,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to Blood Sands and defeat Archdruid Rehstin.",
       "Return to Berath's shrine to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Servant%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1tWeARPjBjY"
   },
 {
     id: 2385,
@@ -51014,7 +51014,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Spare it or fight it.",
       "Loot the bone piles for Godansthunyr, Willbreaker and Pensiavi mes Rei."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Above%20the%20Clouds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BmEFMOWNeBc"
   },
 {
     id: 2386,
@@ -51036,7 +51036,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the other side — for Sul, that means Oernos and Einden.",
       "Report to Galawain's shrine in Teir Evron."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Old%20Queen%20and%20the%20New%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FwpRz9mkbMI"
   },
 {
     id: 2387,
@@ -51058,7 +51058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Alwah from her cell.",
       "Report back to Larha."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Prison%20of%20Ice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SYlfhZHKJJ8"
   },
 {
     id: 2388,
@@ -51080,7 +51080,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Osric's Family Breastplate by deal, theft or force.",
       "Return it to Osric — this opens Bronze Beneath the Lake (and commits you to The Dozens)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Rogue%20Knight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ajAo8u2BfM"
   },
 {
     id: 2389,
@@ -51101,7 +51101,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete his task.",
       "Return to Clyver — Winds of Steel unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Built%20to%20Last%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xv1wDPejJkY"
   },
 {
     id: 2390,
@@ -51122,7 +51122,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the mission he sets.",
       "Report back — you can now call on the Knights during A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Winds%20of%20Steel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ST0txgrFp3g"
   },
 {
     id: 2391,
@@ -51143,7 +51143,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. You can often talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Two%20Story%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iw9baLto1JE"
   },
 {
     id: 2392,
@@ -51164,7 +51164,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak to Gedmar Doemenel and accept his job (this locks out the other factions).",
       "Complete it and report back — you can call on Doemenel allies during A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Changing%20of%20the%20Guard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HMH5nAGx6Jw"
   },
 {
     id: 2393,
@@ -51186,7 +51186,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow up on the leads he raises.",
       "See his search through to complete Time and Tide."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Time%20and%20Tide%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WRfMC4lWPYU"
   },
 {
     id: 2394,
@@ -51208,7 +51208,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Tamrwn about the Autumn Stelgaer form.",
       "Follow through on what Hiravias learns to complete True to Form."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20True%20to%20Form%20walkthrough"
+    video: "https://www.youtube.com/watch?v=olkzLus1wVw"
   },
 {
     id: 2395,
@@ -51230,7 +51230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront them.",
       "Decide their fate to complete The One That Got Away."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20One%20That%20Got%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RzNk0E17kvk"
   },
 {
     id: 2396,
@@ -51252,7 +51252,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore it in the trance state to uncover the Tacan's secrets.",
       "Finish Zahua's vision to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Secrets%20of%20the%20Tacan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_fsuplyQTe8"
   },
 {
     id: 2397,
@@ -51274,7 +51274,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Salt Well in the Halls of Presence.",
       "Let her use it or convince her to keep the memory."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Burden%20of%20Memory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xDmnoLWou58"
   },
 {
     id: 2398,
@@ -51296,7 +51296,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Nonton at Ingroed's House in Gilded Vale.",
       "Confront him with a Benevolent or Cruel response."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Vengeance%20from%20the%20Grave%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0zokpxq9lw"
   },
 {
     id: 2399,
@@ -51318,7 +51318,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to Tenfrith; he heads home.",
       "Return to the inn for reputation and the Savory Pie recipe."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Late%20for%20Dinner%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LLvuweKlcTY"
   },
 {
     id: 2400,
@@ -51340,7 +51340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Persuade him with Resolve 14, or bully him with Might/Resolve.",
       "Report back to Sweynur at the Black Hound Inn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Against%20the%20Grain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RHgIpllQlpA"
   },
 {
     id: 2401,
@@ -51362,7 +51362,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let them keep the goods, take them back, or fight.",
       "Report to Peregund."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Ferry%20Flotsam%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hMkK2mM3tyc"
   },
 {
     id: 2402,
@@ -51384,7 +51384,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear Lord Gathbin's ancestral claim before Erl Bodemer.",
       "The Erl rules Gathbin must compensate you; he refuses, setting up A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Call%20to%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CuKJhhE_y0E"
   },
 {
     id: 2403,
@@ -51406,7 +51406,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Zolla and take Zolla's Tarc.",
       "Return it to Thulgar for Rundl's Finery."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Desperate%20Measures%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HDdmJGhyWuE"
   },
 {
     id: 2404,
@@ -51428,7 +51428,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring all four pieces to Dunstan in Crucible Keep, First Fires.",
       "Receive the Blade of the Endless Paths."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Blade%20of%20the%20Endless%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DKkN8w6MpEc"
   },
 {
     id: 2405,
@@ -51450,7 +51450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Place the seals in the matching sockets on the door.",
       "Open the door and loot the room."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Seals%20of%20the%20Endless%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pN16dL2Jzgg"
   },
 {
     id: 2406,
@@ -51472,7 +51472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Trade it to Gordy for the stash's location.",
       "Sneak beside the theater to spot and loot the hiding place."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Something%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbNS6v1KK3Y"
   },
 {
     id: 2407,
@@ -51494,7 +51494,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him, turn him in, imprison him, or let him go.",
       "Tell Aldmar for 200–250cp."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Unworn%20Eorn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xPQ1OthkU8Q"
   },
 {
     id: 2408,
@@ -51516,7 +51516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Leyra, now a cean gwla, and her Enthralled Justiciars.",
       "Report back to Wyla."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Missing%20Sentries%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9FefNnZihuY"
   },
 {
     id: 2410,
@@ -51538,7 +51538,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter the Valtas Mausoleum.",
       "Find Saeda and learn how she survived."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Safe%20Haven%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gAYkdOjYIgI"
   },
 {
     id: 2411,
@@ -51560,7 +51560,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the chest.",
       "Return it to Marceno."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20All%20Hands%20on%20Deck%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BiU6L4VoVz0"
   },
 {
     id: 2412,
@@ -51582,7 +51582,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the scepter to Nans at the Sanitarium in Brackenbury.",
       "Sell it or have her restore it — before the Hadret House hearings close the Sanitarium."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Clandestine%20Cargo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CaPWwRq6fpg"
   },
 {
     id: 2413,
@@ -51604,7 +51604,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Bricanta.",
       "Collect 600cp and Doemenel reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hard%20Feelings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bsZ9qlG55Eo"
   },
 {
     id: 2414,
@@ -51626,7 +51626,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side with Medreth or Nyfre, or find a middle path.",
       "Return to the side you chose for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Cat%20and%20Mouse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nqaOTXw5IIA"
   },
 {
     id: 2415,
@@ -51648,7 +51648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it to the High Monk at the Celestial Sapling in Hearthsong.",
       "If you admit opening it, calm the monks with Intellect 18 or Perception 16."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Sealed%20Missive%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CP6eUb3-EAc"
   },
 {
     id: 2416,
@@ -51670,7 +51670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Settle the dispute with Lore 10 or Twin Elms reputation, or side with Rinatto.",
       "Collect the refund and the Tiny Beetle pet from Alarhi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hard%20Bargain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fADPtmy_VMo"
   },
 {
     id: 2417,
@@ -51692,7 +51692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the birds to Delem.",
       "Let him eat them or talk him out of it (Perception, Intellect or Resolve)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Songs%20of%20the%20Wild%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HFOfMTapPV4"
   },
 {
     id: 2418,
@@ -51714,7 +51714,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Sly Cyrdel and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Sly%20Cyrdel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0ZvLXA6DhsI"
   },
 {
     id: 2419,
@@ -51736,7 +51736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat The Dweller and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20The%20Dweller%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ITGKqp-FXmg"
   },
 {
     id: 2420,
@@ -51758,7 +51758,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Nalrend the Wise and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Nalrend%20the%20Wise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uM98CuqE-G4"
   },
 {
     id: 2421,
@@ -51780,7 +51780,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Warchief Iklak and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Warchief%20Iklak%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3uY_SxnjC5I"
   },
 {
     id: 2422,
@@ -51802,7 +51802,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Daroth Grimault and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Daroth%20Grimault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCCIBo5KSJI"
   },
 {
     id: 2423,
@@ -51824,7 +51824,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Thorfen and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Thorfen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KLWCR2nRnmM"
   },
 {
     id: 2424,
@@ -51846,7 +51846,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Glasdial and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Glasdial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IKjn7pxoUlU"
   },
 {
     id: 2425,
@@ -51868,7 +51868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Songsmith Roska and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Songsmith%20Roska%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C0NVEqFK9d4"
   },
 {
     id: 2426,
@@ -51890,7 +51890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Foemyna and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Foemyna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GSkxTVRyAYA"
   },
 {
     id: 2427,
@@ -51912,7 +51912,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Galen Dalgard and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Galen%20Dalgard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qAXM38-9JeI"
   },
 {
     id: 2428,
@@ -51934,7 +51934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Devŵen and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Dev%C5%B5en%20walkthrough"
+    video: "https://www.youtube.com/watch?v=abce4DqVTqE"
   },
 {
     id: 2429,
@@ -51956,7 +51956,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Captain Muārumi and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Captain%20Mu%C4%81rumi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q94kIzS8q7w"
   },
 {
     id: 2430,
@@ -51978,7 +51978,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat High Arcanist Ysly and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20High%20Arcanist%20Ysly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N6Rq2CM8HD0"
   },
 {
     id: 2431,
@@ -52000,7 +52000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Naroc the Prophet and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Naroc%20the%20Prophet%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9CzwhLrkj_Y"
   },
 {
     id: 2432,
@@ -52022,7 +52022,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Sserkal and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Sserkal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eeZEx_7Ia94"
   },
 {
     id: 2433,
@@ -52044,7 +52044,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Read the Unsigned Letter for the siege's background.",
       "Enter Concelhaut's keep through the cave and finish the siege."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Siege%20of%20Cr%C3%A4gholdt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S-nGTitquio"
   },
 {
     id: 2434,
@@ -52066,7 +52066,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take a bottle of Fennlan Liquor.",
       "Bring it back to Feylan."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Lovely%20Drop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TrWf6GgEfkc"
   },
 {
     id: 2435,
@@ -52088,7 +52088,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the large chest for the White Crest Armor and Okrun's Medallion.",
       "Give the medallion to Okrun or keep it."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Regrets%20Worth%20Trading%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kze_Fl6-K1w"
   },
 {
     id: 2436,
@@ -52110,7 +52110,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Ailef and kill or imprison him.",
       "Collect 1,000cp from Defala in the Russetwood."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Overstaying%20His%20Welcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Jk_V3skIjvw"
   },
 {
     id: 2437,
@@ -52132,7 +52132,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Inspect it and find Svef instead of artifacts.",
       "Return it to Feara for 500cp, or call her out."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Good%20Haul%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKFqaWvrOcM"
   },
 {
     id: 2438,
@@ -52154,7 +52154,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the Hunter's Totem in a hidden chest.",
       "Return to Thyrsc for the Cloak of the Frozen Hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunter's%20Favor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xQFwWrA2sN8"
   },
 {
     id: 2439,
@@ -52176,7 +52176,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the hidden cave behind the waterfall.",
       "Resolve Ygadr's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20His%20Better%20Half%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3pvMVpWV9R0"
   },
 {
     id: 2440,
@@ -52198,7 +52198,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rest at the Esternwood graveyard.",
       "Touch the adra statue in your stronghold to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Grey%20Sleeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o44jERc18sU"
   },
 {
     id: 2441,
@@ -52220,7 +52220,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Masca.",
       "Let her perform the ritual or talk her out of it; receive The Unlabored Blade."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Iron%20and%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VKNSXu3JHwM"
   },
 {
     id: 2442,
@@ -52242,7 +52242,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover what is affecting the miners.",
       "Report back to Imsey."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Whispers%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xpEzrV3uKzE"
   },
 {
     id: 2443,
@@ -52264,7 +52264,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the Lower and Upper West Tower.",
       "Restore the cannons and report to Wengra."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Ready%20the%20Cannons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NuwY6smITUE"
   },
 {
     id: 2444,
@@ -52286,7 +52286,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Llengrath and her two dragons.",
       "Bargain (Concelhaut's skull, Honest/Stoic) or fight."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Phylactery's%20Promise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VAGmtPl2zFA"
   },
 {
     id: 2445,
