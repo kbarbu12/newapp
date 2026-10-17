@@ -27766,7 +27766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Caij to trade Bounty Pucks for abilities, blaster perks and parts.",
       "After the other bounties, go to the Stone Spires in the Devastated Settlement for the final one."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Caij%20bounty%20hunting%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2v5Hc29pTUI"
   },
   {
     id: 2589,
@@ -27787,7 +27787,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Dredger Gorge and find Kip Ostar.",
       "Defeat Kip and return to Caij with the Bounty Puck."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Kip%20Ostar%20bounty"
+    video: "https://www.youtube.com/watch?v=TJmPs-jPb0o"
   },
   {
     id: 2590,
@@ -27808,7 +27808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat her.",
       "Open the golden chest for the Stim Canister."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20Gorocco%20Matriarch"
+    video: "https://www.youtube.com/watch?v=jK5ErL03QoM"
   },
   {
     id: 2591,
@@ -27829,7 +27829,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant a seed in the first plot.",
       "Recruit Pili to expand the garden."
     ],
-    video: "https://www.youtube.com/results?search_query=Star%20Wars%20Jedi%20Survivor%20saloon%20rooftop%20garden"
+    video: "https://www.youtube.com/watch?v=fbw0z-IKpTY"
   },
   {
     id: 1132,
