@@ -3,6 +3,24 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17
+
+- **Add video title-check results for all 1,440 video candidates** (PR #195)
+  — `v2.4.6` patch. Docs only: `docs/video-candidates/title-check.json`
+  records whether each candidate video came up in a YouTube search for its
+  quest title (1,308 / 1,440 match), with alternatives and data notes.
+- **Fix 4 Witcher 3 quest titles to their in-game names** (PR #196) — #367
+  The Final Trial, #609 Evil's Soft First Touches, #611 A Midnight Clear,
+  #634 Scavenger Hunt: Grandmaster Manticore Gear.
+- **Fix Horizon Forbidden West #394 title: Blood Choke -> The Blood Choke**
+  (PR #197).
+- **Fix 2 Baldur's Gate 3 quest titles to their in-game names** (PR #198) —
+  #978 Avenge Glut's Circle, #1010 Visit the Emperor's Old Hideout.
+- **Fix 3 Skyrim quest titles to their in-game names** (PR #199) — #1489
+  Rescue from Fort Kastav (text rewritten to the prisoner rescue), #1523
+  Mehrunes Dagon: Pieces of the Past (moved to Daedric Quests), #1533
+  Silenced Tongues.
+
 ## 2026-10-16
 
 - **Fix Valhalla quest title: The Son of Jorvik -> This Son of Jorvik**
