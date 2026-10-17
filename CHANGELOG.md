@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (7)
+
+- **Rewrite Ghost of Yotei side content from walkthroughs** (PRs #258–#263,
+  one per region) — `v2.4.12` patch. 91 of the 103 side entries (side
+  tales, sensei tales, bounties, post-game) had invented NPCs, places and
+  steps; each now follows the real tale or bounty (start, objectives,
+  reward, tip). Real sensei restored (Takahashi, Ina, Yoshida, Enomoto); 9
+  entries moved to their correct region and A Brokered Trust / The Tooth
+  Breaker re-filed as bounties. The 7 Mythic Tales and 5 other entries were
+  already accurate.
+
 ## 2026-10-17 (6)
 
 - **Rebuild Ghost of Yotei main story from the real Main Tales** (PR #255)
