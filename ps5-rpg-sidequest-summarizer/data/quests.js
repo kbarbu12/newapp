@@ -1143,7 +1143,7 @@ const quests = [
     id: 31,
     type: "side",
     game: "Black Myth: Wukong",
-    chapter: 3,
+    chapter: 5,
     title: "The Five Element Carts",
     location: "Chapter 5 – Woods of Ember",
     length: "medium",
@@ -18089,22 +18089,42 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 1,
-    title: "Whiteclad Noble & Baw-Li-Guhh-Lang",
-    location: "Black Wind Mountain",
-    length: "medium",
+    title: "Whiteclad Noble",
+    location: "Black Wind Mountain – Marsh of White Mist",
+    length: "short",
     difficulty: "Medium",
-    reward: "Spirit, side loot",
-    summary:
-      "Defeat the snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang haunting Chapter 1's byways.",
-    aiTip:
-      "Watch for poison; keep healing gourd charges ready for the drawn-out fight.",
+    reward: "Jade Fang, third bell for the Ancient Guanyin Temple",
+    summary: "The white serpent Whiteclad Noble bars the way through the misty marsh below Black Wind Mountain. Defeating him also opens the path to the last of the Three Bells.",
+    aiTip: "He fights in two phases, turning into a serpent for the second. Save Immobilize for the phase change and dodge sideways through his lunges.",
     walkthrough: [
-      "Confront the paired snake spirits Whiteclad Noble and Baw-Li-Guhh-Lang in Chapter 1.",
-      "Focus one target while dodging the other's lunges.",
-      "Exploit their long recovery after the coil attacks.",
-      "Immobilize to isolate and burst each down in turn."
+      "In Chapter 1, pass through Snake Trails, defeat Guangmou and climb to the Marsh of White Mist shrine.",
+      "Walk down the wooden pathway to the bottom of the marsh to start the fight.",
+      "Phase one: dodge his sword flurries and punish the recovery after each combo.",
+      "Phase two: he turns into a giant white serpent — stay mobile and Immobilize him to land heavy hits.",
+      "Collect the Jade Fang and ring the nearby bell, the last of the Three Bells."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Whiteclad%20Noble%20%26%20Baw-Li-Guhh-Lang%20boss%20guide"
+    video: "https://www.youtube.com/watch?v=GQeN1sj74Bg"
+  },
+{
+    id: 2592,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 1,
+    title: "Baw-Li-Guhh-Lang",
+    location: "Black Wind Mountain – Bamboo Grove (Snake Trail shrine)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Baw-Li-Guhh-Lang Spirit, Tadpole",
+    summary: "An optional giant frog Yaoguai Chief lurking in the Bamboo Grove marsh. Beat it for its Spirit and Tadpole crafting materials.",
+    aiTip: "Stay at its left or right side — its back-leg kick punishes you behind it and its tongue only reaches forward. Immobilize plus light combos work best.",
+    walkthrough: [
+      "In Chapter 1, unlock the Snake Trail shrine in the Bamboo Grove.",
+      "Drop down from the shrine into the marsh to start the fight.",
+      "Open with Immobilize, then stay at its sides and chain light attacks.",
+      "Dodge sideways through its belly lunges and strike after each leaping splash.",
+      "Defeat it to take the Baw-Li-Guhh-Lang Spirit and Tadpole."
+    ],
+    video: "https://www.youtube.com/watch?v=N5752mpjnsk"
   },
 {
     id: 833,
@@ -18265,66 +18285,42 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 4,
-    title: "Duo of Corruption",
-    location: "Webbed Hollow",
-    length: "long",
-    difficulty: "High",
-    reward: "Spirit, upgrade",
-    summary:
-      "Take on the paired insect-demon Duo of Corruption guarding Chapter 4's depths.",
-    aiTip:
-      "Split your attention carefully — immobilize one while you focus the other.",
+    title: "Venom Daoist",
+    location: "Webbed Hollow – Pool of Shattered Jade",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Venomous Armguard (break his arms), unlocks Purple Cloud Mountain",
+    summary: "An optional many-armed Daoist hides in a cocoon off the Pool of Shattered Jade. Beat him here and again at the Temple of the Yellow Flowers to unlock the secret Purple Cloud Mountain.",
+    aiTip: "Break off his arms during the fight to earn the Venomous Armguard. The arena is dark — keep the camera locked so you can read his eight-armed swings.",
     walkthrough: [
-      "Find the Duo of Corruption guarding the Chapter 4 depths.",
-      "Split your attention — focus one insect-demon while dodging the other.",
-      "Immobilize one to fight them one at a time.",
-      "Burst each down during their shared attack cooldowns."
+      "From the Pool of Shattered Jade shrine in the Webbed Hollow, go into the back room on the right.",
+      "Strike the large cocoon a few times to start the fight.",
+      "Dodge his multi-armed sword swings and break off his arms to earn the Venomous Armguard.",
+      "Later, fight him again at the Temple of the Yellow Flowers — he must be beaten twice in a row there.",
+      "Defeating him there opens the way to the secret Purple Cloud Mountain."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Duo%20of%20Corruption%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D3ZYICIbM1U"
   },
 {
     id: 841,
     type: "side",
     game: "Black Myth: Wukong",
     chapter: 5,
-    title: "Bull King & Cloudtreading Deer",
-    location: "Flaming Mountains",
-    length: "long",
-    difficulty: "High",
-    reward: "Spirit, Chapter 5 progression",
-    summary:
-      "Battle the mighty Bull King and the swift Cloudtreading Deer amid the volcanic Chapter 5.",
-    aiTip:
-      "Fire fills the arena — keep moving and exploit the Bull King's slow recovery.",
-    walkthrough: [
-      "Reach the Bull King and Cloudtreading Deer in the volcanic Chapter 5.",
-      "Dodge the Bull King's charges and the Deer's swift dashes.",
-      "Punish after the charge attacks with Focus-charged heavies.",
-      "Manage the fire hazards and whittle both foes down in phases."
-    ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20Bull%20King%20%26%20Cloudtreading%20Deer%20boss%20guide"
-  },
-{
-    id: 842,
-    type: "side",
-    game: "Black Myth: Wukong",
-    chapter: 5,
-    title: "The Fire Sages (Five Elements)",
-    location: "Flaming Mountains",
+    title: "Keeper of the Flaming Mountains & Yin-Yang Fish",
+    location: "Flaming Mountains – Furnace Valley (Emerald Hall shrine)",
     length: "medium",
     difficulty: "High",
-    reward: "Elemental spirits, upgrades",
-    summary:
-      "Defeat the elemental sages tied to the Five-Element Carts and the Flaming Mountains' curse.",
-    aiTip:
-      "Bring fire resistance and rotate stances to break each sage's guard.",
+    reward: "Celestial Ribbon, Fine Gold Thread, Yin-Yang Daoist Robe",
+    summary: "The Keeper of the Flaming Mountains guards Furnace Valley and, near the end of the fight, summons the Yin-Yang Fish — a two-in-one battle.",
+    aiTip: "Go in with a full gourd for the fish phase. Its egg attack can freeze you — dodge or absorb it, then hit hard while it howls.",
     walkthrough: [
-      "Confront the elemental Fire Sages tied to the Five-Element Carts.",
-      "Learn each sage's element and dodge the matching hazard.",
-      "Punish between their spell casts with quick combos.",
-      "Break their poise to end the Flaming Mountains' curse encounter."
+      "From the Emerald Hall shrine in Furnace Valley, follow the path to the Keeper of the Flaming Mountains.",
+      "Fight the Keeper, dodging his fire and staff strikes.",
+      "Near the end he summons the Yin-Yang Fish — the fight continues against it.",
+      "Avoid or absorb the freezing egg attack and punish the fish while it howls.",
+      "Defeat both to claim the Celestial Ribbon, Fine Gold Thread and the Yin-Yang Daoist Robe."
     ],
-    video: "https://www.youtube.com/watch?v=miSPYaSSNhA"
+    video: "https://www.youtube.com/watch?v=AnsTyPcEQzU"
   },
 {
     id: 843,
