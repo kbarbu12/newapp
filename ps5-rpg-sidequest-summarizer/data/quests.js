@@ -29759,7 +29759,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the underground stream and defeat the frostbite spiders and cave bear (or sneak past).",
       "Exit into the wilderness and follow your companion toward Riverwood."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Unbound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nFc_Od3dz8I"
   },
   {
     id: 1390,
@@ -29781,7 +29781,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help and speak with the court wizard Farengar.",
       "Accept the task to retrieve the Dragonstone from Bleak Falls Barrow."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Before%20the%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HyAhQ7zjo2o"
   },
   {
     id: 1391,
@@ -29803,7 +29803,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the claw on the circular door, matching bear-moth-owl from the claw's palm.",
       "Read the word wall for Unrelenting Force, take the Dragonstone, and return to Farengar."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bleak%20Falls%20Barrow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V5S48gX6Q8E"
   },
   {
     id: 1392,
@@ -29825,7 +29825,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the dragon and absorb its soul, revealing you as Dragonborn.",
       "Return to Dragonsreach; the Greybeards will summon you with a Shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragon%20Rising%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6Uynj29IM6s"
   },
   {
     id: 1393,
@@ -29847,7 +29847,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn Whirlwind Sprint and complete the training courtyard trials.",
       "Accept the task to retrieve the Horn of Jurgen Windcaller."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Way%20of%20the%20Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kVt0MCxqHb0"
   },
   {
     id: 1394,
@@ -29891,7 +29891,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search Ambassador Elenwen's office and the interrogation cells for documents on Esbern.",
       "Escape the Embassy grounds through the tunnel with Malborn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=taun_2-DvtQ"
   },
   {
     id: 1396,
@@ -29912,7 +29912,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
       "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alduin%27s%20Wall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WSa_zYa9HSY"
   },
   {
     id: 1397,
@@ -29932,7 +29932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discuss the plan to lure and trap Alduin using the Dragonrend shout.",
       "Learn that an Elder Scroll is required to learn Dragonrend from the past."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Throat%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9P9TtHmVxrQ"
   },
   {
     id: 1398,
@@ -29952,7 +29952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the Elder Scroll back to Sky Haven Temple.",
       "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Elder%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ywYjduRXcas"
   },
   {
     id: 1399,
@@ -29972,7 +29972,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Dragonrend to force Alduin to land and fight him.",
       "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VexjTQ6F0oI"
   },
   {
     id: 1400,
@@ -29992,7 +29992,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Attend the parley and successfully negotiate a temporary truce.",
       "This quest is optional — completing the Civil War questline instead skips this step."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Overlord%27s%20Legacy%20/%20Season%20Unending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QzXq3Ce7org"
   },
   {
     id: 1401,
@@ -30011,7 +30011,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through Skuldafn's Draugr and traps to reach the portal chamber.",
       "Activate the portal to Sovngarde."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20World-Eater%27s%20Eyrie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IbMGEHDOEBM"
   },
   {
     id: 1402,
@@ -30031,7 +30031,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross into Sovngarde proper and meet legendary heroes including Gormlaith, Felldir, and Hakon.",
       "Learn the final word of the Dragonrend-countering shout needed to strip Alduin's immortality."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sovngarde%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZcVr2w81lC0"
   },
   {
     id: 1403,
@@ -30051,7 +30051,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage Alduin in the final battle alongside Gormlaith, Felldir, and Hakon.",
       "Defeat Alduin, absorb his soul, and complete the main questline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragonslayer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SWwD4QU-WlI"
   },
   {
     id: 1404,
@@ -30093,7 +30093,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the reforged sword to Vilkas or Skjor.",
       "Accept your first task from Farkas to become a member."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Take%20Up%20Arms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=O6oVWftGI68"
   },
   {
     id: 1406,
@@ -30115,7 +30115,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear out the ambushing Silver Hand hunters.",
       "Recover the fragment of Wuuthrad and return to Jorrvaskr."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Proving%20Honor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wE-ukilERAo"
   },
   {
     id: 1407,
@@ -30137,7 +30137,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Skinner and search for the captured Companion clues.",
       "Return to Jorrvaskr and report what happened to Skjor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XnVwiT02ptI"
   },
   {
     id: 1408,
@@ -30159,7 +30159,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the Wuuthrad fragments from the enemy leaders.",
       "Return to Whiterun to prepare for the journey to Ysgramor's Tomb."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%27s%20Honor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-INtg8p4_lQ"
   },
   {
     id: 1409,
@@ -30179,7 +30179,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the location of Silver Hand members in retaliation.",
       "Return to Jorrvaskr to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Purity%20of%20Revenge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dzIFV7iWsjA"
   },
   {
     id: 1410,
@@ -30201,7 +30201,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the Fragments of Wuuthrad to open the final door and confront Kodlak's spirit along with the Glenmoril Witches' influence.",
       "Defeat the hostile spirits and free Kodlak's soul, becoming the new Harbinger."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Glory%20of%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T3DcWk5q2jI"
   },
   {
     id: 1411,
@@ -30223,7 +30223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant the ring in Brand-Shei's pocket without being caught.",
       "Return to Brynjolf and follow him to the Ragged Flagon in the Ratway."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Chance%20Arrangement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KDZsAvXqU1M"
   },
   {
     id: 1412,
@@ -30245,7 +30245,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Burn exactly three of the beehives as instructed.",
       "Confront Aringoth, take the bill of sale from the safe, and report back to Mercer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Loud%20and%20Clear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FcPHUD2QkWw"
   },
   {
     id: 1413,
@@ -30266,7 +30266,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break into the Bee and Barb (or assigned target) to plant/steal evidence as instructed.",
       "Return to Mercer Frey to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Taking%20Care%20of%20Business%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iFfXuRIW6Y4"
   },
   {
     id: 1414,
@@ -30287,7 +30287,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the meadery's owner as instructed.",
       "Return to Vex to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dujz-9iAe6Q"
   },
   {
     id: 1415,
@@ -30307,7 +30307,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the item or resolve the dispute as instructed.",
       "Report back to Delvin at the Ragged Flagon."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silver%20Lining%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cmPOfq1Hfsk"
   },
   {
     id: 1416,
@@ -30329,7 +30329,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover after the ambush and speak with Karliah, who saves you.",
       "Learn the truth about Mercer and agree to help expose him."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Blindsighted%20Job%20/%20Blindsighted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VrY9G1gFGtE"
   },
   {
     id: 1417,
@@ -30349,7 +30349,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search for clues about Mercer's whereabouts and motives.",
       "Find the hidden passage/journal revealing his connection to the Nightingales."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Pursuit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VK_A1MWtUkA"
   },
   {
     id: 1418,
@@ -30369,7 +30369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the chamber holding Gallus's shade or related artifact.",
       "Escape the sanctum with Karliah and Brynjolf."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Scoundrel%27s%20Folly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ylRdb_ueILk"
   },
   {
     id: 1419,
@@ -30389,7 +30389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to become a Nightingale, binding your soul in service to Nocturnal.",
       "Prepare to pursue Mercer Frey into Irkngthand."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Trinity%20Restored%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Pb5Kw_lLstc"
   },
   {
     id: 1420,
@@ -30410,7 +30410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Mercer Frey in the final battle.",
       "Retrieve the Skeleton Key from Mercer's body."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hard%20Answers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eBzG02ZkL6c"
   },
   {
     id: 1421,
@@ -30430,7 +30430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the Skeleton Key to its pedestal to cleanse the Guild's reputation with Nocturnal.",
       "Exit the Sepulcher and return to Riften."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Darkness%20Returns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a4hfE1Ic7AU"
   },
   {
     id: 1422,
@@ -30450,7 +30450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver each stone to Vex or Delvin as found.",
       "Complete the collection to receive the Crown of Barenziah."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20No%20Stone%20Unturned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0145mhboP2Y"
   },
   {
     id: 1423,
@@ -30470,7 +30470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the specified unique item from each location undetected.",
       "Return each item to Delvin for rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Litany%20of%20Larceny%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QD2G5r8OhzI"
   },
   {
     id: 1424,
@@ -30490,7 +30490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak in (often via a back door or upper window) and alter the ledger to cook the books.",
       "Slip out unseen and return to Delvin for gold and Guild reputation toward reclaiming that hold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Numbers%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3aD54s47SWI"
   },
   {
     id: 1425,
@@ -30510,7 +30510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the assigned gold value of goods from anywhere in the hold.",
       "Return to Delvin with the take for payment and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Bedlam%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bxLDxRDw5j8"
   },
   {
     id: 1426,
@@ -30530,7 +30530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break in undetected and steal the specific item the job marks.",
       "Return it to Vex for gold and Guild reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Burglary%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P_26kwhQqb4"
   },
   {
     id: 1427,
@@ -30550,7 +30550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the specific valuable from its display case or strongbox without being caught.",
       "Return to the Ragged Flagon for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fishing%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f4a5pTCao88"
   },
   {
     id: 1428,
@@ -30570,7 +30570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the high-value item the client wants, avoiding detection.",
       "Return it to Vex for gold and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heist%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_E52fOt1zF0"
   },
   {
     id: 1429,
@@ -30590,7 +30590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant the incriminating item on the mark (on their person or in a container) unseen.",
       "Report back to Vex for payment."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Shill%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jv8fMlr2T_4"
   },
   {
     id: 1430,
@@ -30610,7 +30610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the three specific items the job lists.",
       "Return them to Delvin for gold and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Sweep%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UHYrbpTnTaA"
   },
   {
     id: 1431,
@@ -30630,7 +30630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the cave and defeat their leader, Linwe.",
       "Loot Linwe’s armor and recover the stolen goods, then report to Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Summerset%20Shadows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pnure2vgm9A"
   },
   {
     id: 1432,
@@ -30670,7 +30670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the dragon-claw door and clear the draugr blocking the way.",
       "Reach the inner chamber, where Mercer ambushes you — survive to advance the questline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Speaking%20with%20Silence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S2tDwhkxVyQ"
   },
   {
     id: 1434,
@@ -30690,7 +30690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak aboard and plant incriminating evidence in the captain's quarters.",
       "Report back to Delvin once the frame job succeeds."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Dainty%20Sload%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nQ5eEJ0sguc"
   },
   {
     id: 1435,
@@ -30710,7 +30710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use bribery, a key, or sneaking to arrange their release.",
       "Confirm their release with Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Imitation%20Amnesty%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W1kK7m43OA0"
   },
   {
     id: 1436,
@@ -30730,7 +30730,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the journals while contending with undead guardians.",
       "Deliver the journals to the buyer via Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Toying%20With%20The%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=265C7AnYhd0"
   },
   {
     id: 1437,
@@ -30751,7 +30751,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Brynjolf about becoming the new Guild Master.",
       "Take up residence as Guildmaster in the Ragged Flagon."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20New%20Management%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qQv6kiqJm4A"
   },
   {
     id: 1438,
@@ -30773,7 +30773,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Grelod the Kind, freeing the orphans.",
       "Sleep in a bed to be abducted by the Dark Brotherhood."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Innocence%20Lost%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SiNxQaNeMjc"
   },
   {
     id: 1439,
@@ -30795,7 +30795,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Accept Astrid's offer to join the Dark Brotherhood.",
       "Travel to the Falkreath Sanctuary and speak the passphrase to enter."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20With%20Friends%20Like%20These...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ELGO9cFD6sE"
   },
   {
     id: 1440,
@@ -30815,7 +30815,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the Sanctuary and speak with fellow assassins.",
       "Receive your first contract from Astrid."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanctuary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6oAz-g01rUM"
   },
   {
     id: 1441,
@@ -30835,7 +30835,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate and speak with Motierre, who wants to hire the Brotherhood for the Emperor's assassination.",
       "Return to Astrid to relay the offer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silence%20Has%20Been%20Broken%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aqLELDqFWOY"
   },
   {
     id: 1442,
@@ -30855,7 +30855,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Perform the ritual and speak with the summoned Night Mother.",
       "Return to Astrid with news of the Night Mother's arrival at the Sanctuary."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bound%20Until%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YITzTpBjtBg"
   },
   {
     id: 1443,
@@ -30874,7 +30874,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with the Night Mother to become her Listener.",
       "Report the Night Mother's message about a contract to Astrid."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Whispers%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DBnushLwpw4"
   },
   {
     id: 1444,
@@ -30893,7 +30893,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to each target's location and eliminate them using stealth or direct combat.",
       "Return to the Sanctuary once all targets are dead."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mourning%20Never%20Comes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ht0NkKXSJxM"
   },
   {
     id: 1445,
@@ -30913,7 +30913,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Cicero at Dawnstar Sanctuary.",
       "Choose to side with Astrid or protect Cicero — this choice affects the questline's next steps."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Cure%20for%20Madness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qwsvpCaDhGE"
   },
   {
     id: 1446,
@@ -30932,7 +30932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the marked location to eliminate the target using any method.",
       "Return to the Sanctuary to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Death%20Incarnate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SnbbMhdyTRI"
   },
   {
     id: 1447,
@@ -30952,7 +30952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Infiltrate the castle using stealth, disguise, or bribery.",
       "Steal Maro's security ledger detailing the Emperor's protection plans."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Breaching%20Security%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZ0cXmSHu3M"
   },
   {
     id: 1448,
@@ -30995,7 +30995,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through and eliminate the assassins inside, including the leadership.",
       "Return to Commander Maro to collect your reward from the Emperor's agents."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destroy%20the%20Dark%20Brotherhood%21%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jBnT7j1jCuo"
   },
   {
     id: 1450,
@@ -31016,7 +31016,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him (accepting this ends the separate quest tied to him).",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Narfi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zzq9Huo2jSs"
   },
   {
     id: 1451,
@@ -31058,7 +31058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ennodius%20Papius%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fbY3whafJdw"
   },
   {
     id: 1453,
@@ -31079,7 +31079,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hert is optional (no reward), but kill her if she sees you to avoid a bounty.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Hern%20walkthrough"
+    video: "https://www.youtube.com/watch?v=do_QQsAJ-Gg"
   },
   {
     id: 1454,
@@ -31100,7 +31100,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Silence the bard for good.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Lurbuk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LZ8_BsNByj4"
   },
   {
     id: 1455,
@@ -31121,7 +31121,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Deekus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aKVriXVWFUw"
   },
   {
     id: 1456,
@@ -31142,7 +31142,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the wizard Ma'randru-jo, ideally away from the other Khajiit.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ma%27randru-jo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GmLT940lsGQ"
   },
   {
     id: 1457,
@@ -31163,7 +31163,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him without witnesses (his brother Elrindir will like you less either way).",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Anoriath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DyfBcXFEW5o"
   },
   {
     id: 1458,
@@ -31184,7 +31184,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Agnis, the old caretaker, inside.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Agnis%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44hkgYc7cpY"
   },
   {
     id: 1459,
@@ -31205,7 +31205,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and kill Maluril.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Maluril%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCw5FQCBgKw"
   },
   {
     id: 1460,
@@ -31226,7 +31226,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him while he sleeps — stealth is easiest.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Helvard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UaxMGSSxZRU"
   },
   {
     id: 1461,
@@ -31247,7 +31247,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and kill Safia on the middle deck.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Safia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YOwZpm58Txg"
   },
   {
     id: 1462,
@@ -31269,7 +31269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cast a ward to block Tolfdir's spell as instructed.",
       "Accept the invitation to join the expedition to Saarthal."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20First%20Lessons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NB-y5XT5Wm8"
   },
   {
     id: 1463,
@@ -31291,7 +31291,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the mysterious orb (the Eye of Magnus) with Tolfdir.",
       "Fight the awakened draugr, read the word wall, and report back to the College."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20Saarthal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0JcuDEot3t8"
   },
   {
     id: 1464,
@@ -31311,7 +31311,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate Calcelmo's private collection with the help of his assistant, Aicantar.",
       "Retrieve the information/book needed and return to Winterhold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hitting%20the%20Books%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gC-yPRRx558"
   },
   {
     id: 1465,
@@ -31331,7 +31331,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Saarthal's inner chamber (Silus's excavation) to learn more about the Staff of Magnus.",
       "Report findings back to the College."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Good%20Intentions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s7cVespsYa0"
   },
   {
     id: 1466,
@@ -31350,7 +31350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest marker to the location indicated.",
       "Progress the investigation into the artifact's origin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Path%20of%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IK1uDy6esdM"
   },
   {
     id: 1467,
@@ -31370,7 +31370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seal or neutralize the containment breach.",
       "Report back to Tolfdir or Mirabelle."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Containment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R-uQ2OMrw5Y"
   },
   {
     id: 1468,
@@ -31389,7 +31389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to retrieve a specific tome or item from a marked dungeon.",
       "Return the material to the College library."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Revealing%20the%20Unseen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vlcCU65Nhhs"
   },
   {
     id: 1469,
@@ -31408,7 +31408,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate leads within the College regarding Ancano's actions.",
       "Report findings to the Arch-Mage or Mirabelle."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Master%20of%20the%20Mind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jqB6yIsM1fs"
   },
   {
     id: 1471,
@@ -31430,7 +31430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stabilize or destroy the Eye of Magnus to save the College.",
       "Become the new Arch-Mage of the College of Winterhold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoring%20Order%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6FrlT96Pl0M"
   },
   {
     id: 1472,
@@ -31469,7 +31469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the assigned trial he sets.",
       "Return to Tolfdir to unlock the master Alteration spells."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alteration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i5S8yninkIk"
   },
   {
     id: 1474,
@@ -31489,7 +31489,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Summon and defeat/bend the Unbound Dremora to claim its Sigil Stone.",
       "Return to Phinis to unlock the master Conjuration spells (Flame/Frost/Storm Thrall, Dread Zombie, etc.)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Conjuration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z5fJ-g651jw"
   },
   {
     id: 1475,
@@ -31509,7 +31509,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the dungeon and defeat the fire-mage boss to obtain the book.",
       "Read it and return to Faralda to learn Fire Storm, Blizzard, and Lightning Storm."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destruction%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2zeI5c39NEk"
   },
   {
     id: 1476,
@@ -31549,7 +31549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the trial she sets, fending off the summoned attackers.",
       "Return to Colette to unlock the master Restoration spells."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lM3oSr3EPp4"
   },
   {
     id: 1478,
@@ -31568,7 +31568,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the marked location to recover the amulet.",
       "Return the amulet to Onmund."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Onmund%27s%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bK2hRGMhgw8"
   },
   {
     id: 1479,
@@ -31587,7 +31587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to the test and experience its (harmless) effect.",
       "Return for a follow-up conversation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Brelyna%27s%20Practice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9Lwh2iuy6kI"
   },
   {
     id: 1480,
@@ -31607,7 +31607,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the associated retrieval or combat objective.",
       "Return to J'zargo."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Only%20Cure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JMUWZRGE0MM"
   },
   {
     id: 1481,
@@ -31626,7 +31626,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the ancient Daedric relic and altar hidden within.",
       "Interact with the relic to trigger its unique dialogue tree and unlock associated lore."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forgotten%20Names%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rPTIbykHfRg"
   },
   {
     id: 1482,
@@ -31645,7 +31645,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm your intent to fight for the Empire.",
       "Receive your Legion uniform and first orders."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Legion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_DEvNefUPB0"
   },
   {
     id: 1483,
@@ -31665,7 +31665,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the papers by stealth or force.",
       "Deliver them to Rikke to advance the Imperial campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MuHWBEiwGyQ"
   },
   {
     id: 1484,
@@ -31685,7 +31685,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the gold and supplies.",
       "Report the success back to Rikke."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZsGAnDWYY00"
   },
   {
     id: 1485,
@@ -31706,7 +31706,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Sungard falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S1AH7gv6Nuc"
   },
   {
     id: 1486,
@@ -31727,7 +31727,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Snowhawk falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LuhMivx5guA"
   },
   {
     id: 1487,
@@ -31748,7 +31748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Dunstad falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q6-xNWOzTjU"
   },
   {
     id: 1488,
@@ -31769,7 +31769,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Greenwall falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kYZlHmQk4AY"
   },
   {
     id: 1489,
@@ -31790,7 +31790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captured Imperial soldiers, then clear the remaining Stormcloak defenders with them.",
       "Fort Kastav falls to the Legion; report back to your Legate for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Kastav%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6IyQtdkALOE"
   },
   {
     id: 1491,
@@ -31810,7 +31810,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak or fight in, reach the prisoners, and free them.",
       "Arm the freed soldiers and secure the fort."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Neugrad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yHCQ-FdBJP0"
   },
   {
     id: 1492,
@@ -31831,7 +31831,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Ulfric Stormcloak.",
       "Complete the Civil War questline in favor of the Empire."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Windhelm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fwJxqNAtTws"
   },
   {
     id: 1493,
@@ -31850,7 +31850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm your intent to fight for Skyrim's independence.",
       "Receive your Stormcloak uniform and first orders."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Stormcloaks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c3qrbK9V5Es"
   },
   {
     id: 1494,
@@ -31870,7 +31870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the papers by stealth or force.",
       "Deliver them to Galmar to advance the Stormcloak campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Px20mtwimYQ"
   },
   {
     id: 1495,
@@ -31890,7 +31890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the gold and supplies.",
       "Report back to Galmar."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-d8iboEbchU"
   },
   {
     id: 1496,
@@ -31911,7 +31911,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Sungard falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JRgt3es0pU0"
   },
   {
     id: 1497,
@@ -31932,7 +31932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Snowhawk falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yMrAbZ7YKmY"
   },
   {
     id: 1498,
@@ -31953,7 +31953,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Dunstad falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rQD6rGSVyHQ"
   },
   {
     id: 1499,
@@ -31974,7 +31974,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Greenwall falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cgrHqicttkE"
   },
   {
     id: 1500,
@@ -31995,7 +31995,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Kastav falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NitMaTdRM0Q"
   },
   {
     id: 1501,
@@ -32016,7 +32016,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Hraggstad falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=438FRg849pM"
   },
   {
     id: 1503,
@@ -32037,7 +32037,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat General Tullius.",
       "Complete the Civil War questline in favor of the Stormcloaks."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Solitude%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GU5ihooJkD0"
   },
   {
     id: 1504,
@@ -32058,7 +32058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to side with Aranea (destroying the Necromancer Malyn Varen) or with Malyn Varen (turning the Star Black).",
       "Retrieve the Black Star / Star of Azura from the temple's depths."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Azura%3A%20The%20Black%20Star%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z_bbo_84hKQ"
   },
   {
     id: 1505,
@@ -32079,7 +32079,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend into the Cave of the Sacellum below the shrine.",
       "Kill the remaining cultists as instructed by Boethiah to become her new champion, wearing Mephala's Ebony Mail."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Boethiah%3A%20Boethiah%27s%20Calling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cI5E1imqQqI"
   },
   {
     id: 1506,
@@ -32100,7 +32100,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the Burrow's Falmer and traps to find the axe.",
       "Choose whether to kill Barbas with the axe (fulfilling Vile's wish) or spare him and take the axe anyway."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Clavicus%20Vile%3A%20A%20Daedra%27s%20Best%20Friend%20walkthrough"
+    video: "https://www.youtube.com/watch?v=doqnxy5ZkMg"
   },
   {
     id: 1507,
@@ -32120,7 +32120,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the item to Septimus and witness the ritual invoking Hermaeus Mora.",
       "Take possession of the completed Lexicon (which can be used to open an Elder Scroll route to Sovngarde)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hermaeus%20Mora%3A%20Discerning%20the%20Transmundane%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_BtpF6QWRU"
   },
   {
     id: 1508,
@@ -32141,7 +32141,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to kill Sinding for Hircine's champion Krev the Skinner, or help Sinding escape and kill Krev instead.",
       "Claim the Savior's Hide or Ring of Hircine depending on your choice."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hircine%3A%20Ill%20Met%20by%20Moonlight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2TxPwqmIh0c"
   },
   {
     id: 1509,
@@ -32162,7 +32162,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Participate in the ritual sacrifice at Malacath's shrine to lift the tribe's curse.",
       "Receive Volendrung, Malacath's legendary warhammer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Malacath%3A%20The%20Cursed%20Tribe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BzcB6UXQp5o"
   },
   {
     id: 1510,
@@ -32203,7 +32203,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the inner sanctum and destroy the corrupt priest.",
       "Claim Dawnbreaker, Meridia's radiant sword."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Meridia%3A%20The%20Break%20of%20Dawn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=miCXSN4hdyM"
   },
   {
     id: 1512,
@@ -32223,7 +32223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the ritualistic puzzle and defeat the summoned Daedra.",
       "Escape the house, choosing whether to keep or destroy the Skull of Corruption."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Molag%20Bal%3A%20The%20House%20of%20Horrors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K6eZjpdWOrg"
   },
   {
     id: 1513,
@@ -32244,7 +32244,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to side with Verulus against the cult, or join the cult by eating Verulus.",
       "Claim the Ring of Namira if you side with the cultists."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Namira%3A%20The%20Taste%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L0s6-5NIS8Q"
   },
   {
     id: 1514,
@@ -32264,7 +32264,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Become a Nightingale and receive your Nightingale armor and one of three powers.",
       "With the Trinity restored, press on to hunt Mercer Frey."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xlRDQ0Nl0FI"
   },
   {
     id: 1516,
@@ -32285,7 +32285,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach Sanguine's Shrine to confront the Daedric Prince responsible.",
       "Defeat the illusionary recreation of your own drunken escapades to claim the Sanguine Rose."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanguine%3A%20A%20Night%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BCNF1Y_QDdk"
   },
   {
     id: 1517,
@@ -32306,7 +32306,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the priest Erandur (or the corrupted alternative) about the Skull of Corruption.",
       "Choose to destroy the Skull (siding with Erandur) or unleash it and side with Vaermina's original intent."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Vaermina%3A%20Waking%20Nightmare%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iM7n10Fb1yU"
   },
   {
     id: 1519,
@@ -32367,7 +32367,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the temple and confront the guilty party.",
       "Restore the temple's honor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heart%20of%20Dibella%20%28Divine%20quest%20%E2%80%94%20Dibella%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cW53-7BX7YI"
   },
   {
     id: 1522,
@@ -32387,7 +32387,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the Eldergleam Sanctuary and use Nettlebane to tap the Eldergleam for a sap or sapling.",
       "Return to Danica to restore the Gildergreen in Whiterun."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20%28Divine%20quest%20%E2%80%94%20Kynareth%2C%20note%3A%20shares%20name%20with%20Companions%20quest%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tIkzmPTAkSw"
   },
   {
     id: 1523,
@@ -32407,7 +32407,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the relic/amulet tied to Talos worship.",
       "Return the item to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mehrunes%20Dagon%3A%20Pieces%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sJ796ZsB8wo"
   },
   {
     id: 1524,
@@ -32445,7 +32445,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the fort, uncovering a Thalmor or Stormcloak/Imperial conflict thread depending on version.",
       "Report findings to the relevant faction."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20in%20the%20East%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cfHApDb0yqc"
   },
   {
     id: 1527,
@@ -32465,7 +32465,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to the killer's hideout.",
       "Confront and defeat the Butcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%20on%20the%20Ice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L0iVW_uWomY"
   },
   {
     id: 1528,
@@ -32486,7 +32486,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate the surreal dreamscape and resolve the three personality conflicts within.",
       "Escape the mind and receive the Wabbajack."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Mind%20of%20Madness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bkYjoSM7qRc"
   },
   {
     id: 1529,
@@ -32506,7 +32506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth behind the false werewolf story.",
       "Report back to the Jarl."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Man%20Who%20Cried%20Wolf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=io0hY8TC8-U"
   },
   {
     id: 1531,
@@ -32527,7 +32527,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prevent (or fail to prevent) Potema's dragon priest servant from completing a resurrection ritual.",
       "Defeat the final threat and secure Potema's remains."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Wolf%20Queen%20Awakened%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R9_O-uriyLQ"
   },
   {
     id: 1532,
@@ -32547,7 +32547,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve each of the required Aetherium artifact pieces.",
       "Reach the final Aetherium Forge and choose which artifact to craft."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Lost%20to%20the%20Ages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7iAgJIutbLI"
   },
   {
     id: 1533,
@@ -32567,7 +32567,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the ghostly hero Kvenel the Tongue.",
       "Claim his paired weapons, Eduj and Okin, and any word wall nearby."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silenced%20Tongues%20(Dungeon%20Quest)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZqkPmXhK4a0"
   },
   {
     id: 1534,
@@ -32588,7 +32588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Reachwater Rock or Folgunthur to confront Gauldur's restored spirit.",
       "Defeat Gauldur and claim his amulet and blackblood cultist gear."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forbidden%20Legend%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5pPVP79lT6s"
   },
   {
     id: 1535,
@@ -32608,7 +32608,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the dragon priest Volsung at the peak.",
       "Claim the mask Volsung and learn the word of power from the nearby wall."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Deception%20%28Dungeon%20Quest%20%E2%80%94%20Volskygge%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OVLAkC-6fMw"
   },
   {
     id: 1536,
@@ -32628,7 +32628,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the necromancer Lu’ah Al-Skaven, who has raised the lovers’ spirits.",
       "Loot the enchanted weapon and dungeon treasure, laying the spirits to rest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JA45cSlpa6Y"
   },
   {
     id: 1537,
