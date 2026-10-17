@@ -23439,21 +23439,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Old Trails",
-    location: "Yōtei Grasslands — Northern Forest Path",
+    location: "Stables south-east of Shikotsu Woods, Yōtei Grasslands",
     length: "short",
     difficulty: "Low",
-    reward: "Trail Charm, forest path shortcut unlocked",
+    reward: "Choice of a new horse, Night in Shadows saddle colour, Naming a Friend trophy",
     summary:
-      "A retired road warden asks Atsu to clear the old forest trails of outlaws who have made the paths too dangerous to use. Restoring the trails opens a useful shortcut across the Grasslands.",
+      "A settler at the stables south-east of Shikotsu Woods is struggling with his horses. Help the Stablemaster, track down a runaway, and pick the horse that will carry Atsu for the rest of the game.",
     aiTip:
-      "The three bandit camps on this quest are small and lightly guarded — a perfect opportunity to practice stealth kills. Clearing them without alerts earns a bonus Trail Charm with faster horse travel.",
+      "The horse you pick at the end stays yours for good, so choose the look you like. When tracking, follow the prints in the mud to the right, not the left.",
     video: "https://www.youtube.com/watch?v=KggDxmtas9U",
     walkthrough: [
-      "Speak with Warden Kenji at the northern Grasslands trailhead.",
-      "Clear Camp 1 (4 bandits) on the eastern ridge — approach from the high ground.",
-      "Clear Camp 2 (5 bandits) at the river ford — stealth through the tall grass.",
-      "Clear Camp 3 (6 bandits) at the forest shrine — one archer on the roof requires priority.",
-      "Return to Kenji to receive the Trail Charm and unlock the forest shortcut on your map."
+      "Go to the stables south-east of Shikotsu Woods and talk to the settler shooing away a horse.",
+      "Defeat the enemies at the stables, then talk to the Stablemaster again.",
+      "Follow him on horseback until you're thrown off.",
+      "Track the horse prints in the mud (go right, not left) and talk to Kengo, then climb the hill and whistle.",
+      "Return to the Stablemaster and choose one of three horses."
     ]
   },
 {
@@ -23463,21 +23463,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Building Bridges",
-    location: "Yōtei Grasslands — Riverside Crossing",
+    location: "Bridge north of the Windy Meadow, Sarubetsu River",
     length: "short",
     difficulty: "Low",
-    reward: "Bridge restored, Carpenter's Charm",
+    reward: "450 Mon",
     summary:
-      "Villagers need help rebuilding a bridge the Yōtei Six destroyed during their initial raid. Gathering materials and defending the workers from a retaliatory strike reconnects two halves of a cut-off community.",
+      "The Matsumae Samurai are building a bridge over the Sarubetsu River, north of the Windy Meadow, and someone keeps sabotaging it. Their commander hires Atsu to catch the saboteur.",
     aiTip:
-      "The worker defence wave comes from the river — position yourself on the bridge itself to funnel enemies into a narrow chokepoint and use the Spinning Sweep to hit multiple targets.",
+      "The dialogue choice with Sanjuro at the end doesn't change the outcome. Afterwards the Matsumae Commander will answer questions about the Yōtei Six.",
     video: "https://www.youtube.com/watch?v=qRTD-UB8foU",
     walkthrough: [
-      "Talk to Village Elder Mio at the western Grasslands riverbank.",
-      "Gather two bundles of timber from the marked lumber piles east of the river.",
-      "Carry materials back — you cannot fight while carrying, so check the road is clear.",
-      "Defend the three carpenters through one attack wave of eight bandits.",
-      "The bridge completes in a short cutscene; receive the Carpenter's Charm from Mio."
+      "Go to the bridge north of the Windy Meadow and talk to the Matsumae Commander, who hires you.",
+      "Survey the area with your Spyglass.",
+      "Follow the suspicious merchant to a campsite.",
+      "Defeat the ronin there, then talk to Sanjuro.",
+      "Report back to the Matsumae Commander for your pay."
     ]
   },
 {
@@ -23487,21 +23487,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "A Fleeting Thought",
-    location: "Yōtei Grasslands — Poet's Waypoint",
+    location: "East of Jade Grove, Yōtei Grasslands",
     length: "short",
     difficulty: "Low",
-    reward: "Poet's Charm, Haiku collectible unlocked",
+    reward: "None",
     summary:
-      "A wandering poet encountered on the road carries a sealed message for a family three villages away but is too fearful to travel alone. Escort them safely through an ambush to deliver a final farewell letter.",
+      "A short encounter east of Jade Grove: a Matsumae scout is being overwhelmed by Saito's soldiers on a small hill. Clear them and talk to the scout.",
     aiTip:
-      "This escort quest is peaceful until the mid-point ambush. Stay close to the poet — they panic and freeze if enemies get within five metres, but will not run back to safety on their own.",
+      "Take out the archers first. You can creep through the bushes and assassinate a few before the open fight starts.",
     video: "https://www.youtube.com/watch?v=mhErZTagF74",
     walkthrough: [
-      "Meet poet Reiko at the crossroads marker in central Grasslands.",
-      "Escort Reiko along the western road — the walk takes about two minutes.",
-      "An ambush of six bandits triggers at the old oak landmark; defeat them before they reach Reiko.",
-      "Continue the escort to the Kobayashi farmhouse at the trail's end.",
-      "Watch the letter delivery cutscene; receive the Poet's Charm from Reiko."
+      "After the Prologue, ride east of Jade Grove — the tale starts on its own when you enter the area.",
+      "Spot the Matsumae scout under attack on a small hill.",
+      "Defeat Saito's soldiers — swordsmen, spearmen and archers, archers first.",
+      "Talk to the Matsumae scout to finish."
     ]
   },
 {
@@ -23511,22 +23510,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "The Worth of a Man",
-    location: "Yōtei Grasslands — Bandit Hideout",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Gold, Rescued Hostage's Blade",
+    location: "Riverfront Hideout, west of Yōtei's Shadow Inn (western fork of the Sarubetsu River)",
+    length: "short",
+    difficulty: "Low",
+    reward: "None",
     summary:
-      "A farmer pays Atsu to rescue his son taken hostage by bandits. On infiltrating the hideout, Atsu discovers the son voluntarily joined the bandits to escape debt — a quest about family, choice, and consequence.",
+      "One of the game's darker side stories: a fed-up ronin is torturing a captured Matsumae soldier at a hideout on the Sarubetsu River. Pay him off or cut him down, then free the prisoner.",
     aiTip:
-      "You can resolve this quest peacefully by speaking with the son before fighting. Choosing the 'let him decide' dialogue gives the best outcome reward. Attacking immediately locks out the peaceful ending.",
+      "You can pay the ronin to leave, but fighting is simpler. The hideout is easy to miss — it's directly west of Yōtei's Shadow Inn.",
     video: "https://www.youtube.com/watch?v=DbWqfZt31o8",
     walkthrough: [
-      "Accept the job from Farmer Noburu at the Grasslands inn.",
-      "Infiltrate the bandit hideout on the eastern hill from the blind side — avoid the two rooftop guards.",
-      "Find the son Tatsuya in the second building — a cutscene begins.",
-      "Choose 'let him decide' in dialogue to unlock the peaceful resolution.",
-      "Escort Tatsuya out if he agrees to leave, or leave him and return to Noburu alone.",
-      "Report to Noburu; both outcomes give the gold reward, but the peaceful path adds the Rescued Blade."
+      "Find the Riverfront Hideout directly west of Yōtei's Shadow Inn, on the western fork of the Sarubetsu River.",
+      "Talk to the ronin and ask about the prisoner.",
+      "Pay him off or fight — defeat the ronin and his men.",
+      "Free the bound Matsumae soldier."
     ]
   },
 {
@@ -23536,22 +23533,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Lost in Reflection",
-    location: "Yōtei Grasslands — Mirror Lake",
+    location: "Gessho's camp, south-east of Yōtei's Shadow Inn",
     length: "short",
     difficulty: "Low",
-    reward: "Lake Charm, haiku composition",
+    reward: "Altar of Reflection (skill point), 200 Mon",
     summary:
-      "A grieving mother has been searching the Grasslands for the lake where her son drowned years ago to leave an offering. Atsu guides her through bandits and over difficult terrain to reach Mirror Lake and its quiet memorial.",
+      "Isaburo the cartographer hires Atsu to find his friend Gessho, a monk camped south-east of Yōtei's Shadow Inn. Gessho leads her to an Altar of Reflection.",
     aiTip:
-      "This is a quiet story quest with minimal combat. The single bandit encounter can be avoided entirely by taking the mountain goat trail — ask the mother about alternate routes in the first dialogue tree.",
+      "Use the Spyglass to spot the column of smoke over Gessho's camp. Isaburo can also show up at your campfire to start the tale.",
     video: "https://www.youtube.com/watch?v=j1lOf-GIHCs",
     walkthrough: [
-      "Meet grieving mother Ume at the southern Grasslands waypoint.",
-      "Ask about the mountain goat trail in dialogue to bypass the bandit ambush.",
-      "Guide Ume along the goat trail — slow pace required, stay within 10 metres.",
-      "Reach Mirror Lake; watch the offering ceremony cutscene.",
-      "Sit at the lakeside with Ume to compose the optional haiku before leaving.",
-      "Receive the Lake Charm when Ume departs."
+      "Talk to Isaburo the cartographer (he may also visit you while camping).",
+      "Use your Spyglass to find the smoke from Gessho's camp south-east of Yōtei's Shadow Inn, and talk to him.",
+      "Follow Gessho until small trees block the path, then cut through them.",
+      "Interact with the Altar of Reflection.",
+      "Defeat the Saito Outlaws who attack afterwards."
     ]
   },
 {
@@ -23561,22 +23557,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Memories of Home",
-    location: "Yōtei Grasslands — Refugee Camp",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Survivor's Charm, ally contact added",
+    location: "Atsu's home, Yōtei Grasslands",
+    length: "short",
+    difficulty: "Low",
+    reward: "None (two sumi-e paintings, pinwheels)",
     summary:
-      "A refugee family from Atsu's home village survived the Yōtei Six massacre but is stranded and pursued by survivors of the gang. Escort them through two outlaw ambushes to a safe farmstead.",
+      "A quiet tale at Atsu's childhood home. Slip into memories of Jubei, her father Kengo and her mother Yone, then find what's left of them in the present.",
     aiTip:
-      "The family has three members — if any are killed the quest fails. Use smoke bombs to create cover during the first ambush and herd them behind the cart. The second ambush has a mounted archer; kill the horse first.",
+      "It triggers at random while exploring. Jubei's lost headband is on the roof — optional, but worth grabbing.",
     video: "https://www.youtube.com/watch?v=OfL9LAyMfcM",
     walkthrough: [
-      "Find the refugee family at the marked camp near the Grasslands southern border.",
-      "Clear the eight outlaws watching the road before signalling the family to move.",
-      "First ambush: twelve attackers come from both sides — use smoke bombs to regroup the family.",
-      "Second ambush: a mounted archer plus six ground troops — dismount the archer with a Tanzutsu shot.",
-      "Escort the family the final stretch to Hayashi Farmstead.",
-      "Receive the Survivor's Charm and the new ally contact marker on your map."
+      "When the tale triggers, go home and hold the touchpad to enter the past; talk to Jubei about his missing headband.",
+      "Return to the past and paint two sumi-e with your father, Kengo.",
+      "Back in the present, look at the old sumi-e paintings on the floor inside the house.",
+      "Go to the past again and play zeni hajiki with your mother, Yone.",
+      "Return to the present and find the pinwheels in the corner of the house."
     ]
   },
 {
@@ -23586,21 +23581,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Sleight of Hand",
-    location: "Yōtei Grasslands — Market Town",
+    location: "Southern dock of Lake Kuttara",
     length: "short",
-    difficulty: "Low",
-    reward: "Intelligence on Yōtei Six movements, Trickster's Charm",
+    difficulty: "Medium",
+    reward: "Zeni Hajiki minigame",
     summary:
-      "A street magician who witnessed the Yōtei Six massacre holds key intelligence — but won't share it until Atsu helps him recover his stolen props from a pickpocket gang running the market.",
+      "A mysterious ronin offers Atsu a coin to meet him at Lake Kuttara's southern dock. He wants help taking his sake house back from Lord Saito's men.",
     aiTip:
-      "The pickpocket gang fight takes place in a crowded market — area attacks will hit innocent bystanders and trigger a failed state. Use precise single-target attacks only.",
+      "Clear each room completely — reinforcements rush in. A sharpshooter waits at the top of the hill at the end.",
     video: "https://www.youtube.com/watch?v=BgU61iiWEcY",
     walkthrough: [
-      "Speak with Magician Sho at the market town plaza.",
-      "Track the three pickpockets through the crowd — use the listening sense to follow the stolen prop sounds.",
-      "Corner each pickpocket individually in the market's side alleys.",
-      "Return all three props to Sho; he performs a trick as thanks.",
-      "Receive the intelligence note about the Yōtei Six and the Trickster's Charm."
+      "Meet the ronin on the southern dock of Lake Kuttara.",
+      "Take out the guards outside the sake house with him.",
+      "Clear the ground floor, including the reinforcements.",
+      "Climb to the second floor and leave through the window with the ronin.",
+      "Chase uphill and defeat the sharpshooter blocking the road."
     ]
   },
 {
@@ -23610,22 +23605,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "A Drink with a Stranger",
-    location: "Yōtei Grasslands — Riverside Inn",
+    location: "Cliffside camp on the Southern Coast, south of Lake Kuttara and Tranquil Falls",
     length: "short",
     difficulty: "Low",
-    reward: "Informant contact, Sake Charm",
+    reward: "Repunkur Canteen (Ainu item)",
     summary:
-      "A suspiciously well-informed traveller at the Riverside Inn offers to buy Atsu a drink. Over conversation, the traveller reveals they are an undercover informant with intelligence on outlaw movements — and a dangerous tail.",
+      "An elderly Ainu merchant on the southern cliffs says Saito's men threw his askur — Ainu sake — over the edge. Climb down and fetch it.",
     aiTip:
-      "The four assassins that ambush the informant at the end arrive from the rooftop — clear the roof before the final conversation to avoid being flanked. They are among the fastest enemies in the Grasslands.",
+      "On the way back, look for the Pillar of the Fallen nearby — it holds the Unyielding Tempest sword kit. There's Copper Ore on a side ledge too.",
     video: "https://www.youtube.com/watch?v=FMnFesRDkC4",
     walkthrough: [
-      "Speak with the stranger Nori at the inn bar — accept the drink offer.",
-      "Complete three rounds of conversation, choosing to share information openly each time.",
-      "After the third round, Nori signals urgency — check the rooftop before continuing.",
-      "Clear the four assassins waiting on the roof above the inn.",
-      "Return to Nori; they share their intelligence and depart.",
-      "Receive the informant contact (new map markers) and the Sake Charm."
+      "Find the Ainu merchant in white robes at a campfire on the cliffs south of Lake Kuttara and Tranquil Falls.",
+      "Agree to climb down for his askur.",
+      "Lower yourself over the first ledge and pick up the fallen torch.",
+      "Jump to the tree branch, cross to the grassy ledge and walk the narrow beam.",
+      "Grapple to the tree stump holding the askur and bring it back to him."
     ]
   },
 {
@@ -23635,22 +23629,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "The Ainu Heirloom",
-    location: "Yōtei Grasslands — Ainu Elder's Village",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Ainu Heirloom Charm, Ainu community trust",
+    location: "Nupur River camp, south of the Saito Recruitment Camp → Nayoro Wilds",
+    length: "short",
+    difficulty: "Low",
+    reward: "3 flowers",
     summary:
-      "An Ainu elder asks Atsu to recover an ancestral relic — a carved wooden bear — stolen by bandits who raided their village. Returning it strengthens the Ainu community's trust and unlocks optional Ainu side content.",
+      "An Ainu carving hidden under leaves by the Nupur River sends Atsu north to Nayoro Wilds to find its owner.",
     aiTip:
-      "The bandit captain guarding the relic uses a buckler shield — the Kusarigama Chain Pull bypasses it instantly. After recovering the relic, do not fast-travel; a second bandit group ambushes the return path.",
+      "There's no quest marker. Go to Husko Kotan, leave to the north-east and follow the river.",
     video: "https://www.youtube.com/watch?v=lqtLvddUGJg",
     walkthrough: [
-      "Speak with Ainu Elder Ekashi at the village on the Grasslands north edge.",
-      "Travel to the bandit camp three kilometres east — approach at dusk for reduced guard density.",
-      "Locate the carved bear in the camp's storage tent — marked by the listening sense pulse.",
-      "Defeat the captain and two guards in the tent.",
-      "Return to the village via foot — a six-bandit ambush waits on the main road.",
-      "Present the relic to Ekashi to receive the Ainu Heirloom Charm and unlock Ainu content."
+      "Head south from the Saito Recruitment Camp to the Nupur River.",
+      "At a small camp by a big tree, search the pile of leaves to find the Ainu carving.",
+      "Travel to Husko Kotan in Nayoro Wilds and leave it to the north-east.",
+      "Follow the river to a young boy who recognises the item.",
+      "He takes you to his older brother, who hid it — he thanks you with flowers."
     ]
   },
 {
@@ -23660,22 +23653,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "A Normal Life",
-    location: "Yōtei Grasslands — Roadside Farm",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Reformed Outlaw's Blade, farmstead safe house unlocked",
+    location: "Where the Shikotsu and Sarubetsu rivers meet, south of Yōtei's Shadow Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bow's Grip Mask",
     summary:
-      "A former Yōtei Six foot soldier trying to live peacefully as a farmer is hunted by his former gang. Atsu must decide whether to help him fight his past or advise him to flee — both paths have consequences.",
+      "A fisherman at the fork of the Shikotsu and Sarubetsu rivers is being pushed by Saito's men to give up his home and work for them. When he refuses, they shoot him.",
     aiTip:
-      "Choosing to fight alongside him unlocks the farmstead as a fast-travel safe house. Choosing flight gives the better weapon reward but no safe house. Pick fight if you value map utility over the immediate gear.",
+      "An easy early fight — the outlaws' attacks are slow and easy to parry or dodge.",
     video: "https://www.youtube.com/watch?v=CLZT6i8CpMU",
     walkthrough: [
-      "Find former outlaw Jiro tending his farm on the western Grasslands road.",
-      "He reveals three former comrades are hunting him — investigate the marked locations for intel.",
-      "Return to Jiro with the intelligence; choose fight or flee in dialogue.",
-      "Fight path: defend the farmstead through two attack waves (9 total enemies) alongside Jiro.",
-      "Flee path: escort Jiro to the forest border and watch him disappear into safety.",
-      "Collect your reward from Jiro's hidden cache under the barn floorboard regardless of path chosen."
+      "Find the fisherman where the Shikotsu and Sarubetsu rivers meet, south of Yōtei's Shadow Inn.",
+      "Talk to him about the pressure from Saito's men.",
+      "Saito outlaws arrive; he refuses them and is shot.",
+      "Defeat the outlaws.",
+      "Return to the fisherman's body to finish the tale."
     ]
   },
 {
@@ -23910,24 +23902,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
-    region: "Tokachi Range",
+    region: "Yotei Grasslands",
     title: "The Loss We Carry",
-    location: "Tokachi Range — Old Battle Site",
+    location: "Toku's camp → Mari's grave by the Monument Tree",
     length: "medium",
     difficulty: "Low",
-    reward: "Reconciliation Charm, memory haiku",
+    reward: "Weapon kit",
     summary:
-      "Two old warriors meet again at the site of a battle from decades ago, each blaming the other for a costly defeat. Atsu mediates their confrontation and helps them reach a truth that neither has faced alone.",
+      "Toku asks Atsu to place his Charm of Blessing on Mari's grave — but someone else has the charm, and the story of how Mari died isn't what he told you.",
     aiTip:
-      "This is a dialogue-driven quest with no combat. Choose the 'hear both sides' prompt every time it appears — cutting one veteran off locks you out of the full memory sequence and the bonus Reconciliation Charm.",
+      "Have 400 Mon ready to buy the charm back from Taro.",
     video: "https://www.youtube.com/watch?v=x1qUYucOy9U",
     walkthrough: [
-      "Find the two veterans arguing at the Old Battle Site memorial stone.",
-      "Speak with Veteran Hayato first; choose 'hear both sides' when prompted.",
-      "Speak with Veteran Mori; again choose 'hear both sides'.",
-      "Return to Hayato with Mori's account; choose 'share what Mori said'.",
-      "A joint memory cutscene plays — let it finish without skipping.",
-      "Speak with both veterans together at the memorial stone to conclude and receive the charm."
+      "Talk to Toku at his camp.",
+      "Buy Toku's Charm of Blessing from Taro for 400 Mon.",
+      "Place the charm at Mari's grave near the Monument Tree and defeat the enemies there.",
+      "Ask the villager how Mari died.",
+      "Return to Toku at the Prospector's Camp and confront him."
     ]
   },
 {
@@ -24568,22 +24559,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Smiling Yoshitomo",
-    location: "Yōtei Grasslands — Outlaw Hamlet",
+    location: "Weary Traveler's Camp, below a waterfall north of Tranquil Falls",
     length: "short",
     difficulty: "Low",
-    reward: "Gold, Bounty Broker standing",
+    reward: "Smiling Kabuto-Mushi sword kit, 750 Mon",
     summary:
-      "A deceptively cheerful bandit leader who lures victims with a friendly smile before ambushing with his crew. He is located in a small hamlet north of the Grasslands inn.",
+      "A Yōtei Grasslands bounty from the board at Yōtei's Shadow Inn. Smiling Yoshitomo waits at a campfire in disguise as a harmless white-robed settler.",
     aiTip:
-      "His crew of four attacks the moment he is threatened — open with a Ghost Stance kill on Yoshitomo himself to end the fight before it starts.",
+      "Interact with the campfire to draw him out — the friendly settler who walks up is Yoshitomo.",
     video: "https://www.youtube.com/watch?v=lGHg6iQnUm4",
     walkthrough: [
-      "Accept the bounty from the Grasslands inn bounty board or Kojiro the Bounty Broker.",
-      "Travel to the Outlaw Hamlet in northern Grasslands.",
-      "Identify Yoshitomo by his distinctive red sash — he greets you warmly before signalling his crew.",
-      "Activate Ghost Stance immediately and execute him before his crew can react.",
-      "Defeat the remaining four crew members.",
-      "Return to Kojiro to claim the reward."
+      "Take the bounty from the board at Yōtei's Shadow Inn.",
+      "Ride north from Tranquil Falls to the Weary Traveler's Camp, just below a waterfall.",
+      "Interact with the campfire; a white-robed settler appears.",
+      "He reveals himself as Yoshitomo and attacks — defeat him and loot his body.",
+      "Report back at the bounty board."
     ]
   },
 {
@@ -24593,22 +24583,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Crow Genzo",
-    location: "Yōtei Grasslands — Eastern Treetops",
+    location: "Blue-Flowered Cemetery, Jade Grove",
     length: "short",
     difficulty: "Low",
-    reward: "Gold, Bounty Broker standing",
+    reward: "Metsubushi quickfire weapon, Crow Genzo's Sandogasa hat, 750 Mon",
     summary:
-      "A thief who scouts targets from treetops using a trained crow as a lookout. His crow alerts him to approach — eliminate the bird first or find the blind spot in its patrol pattern.",
+      "A Yōtei Grasslands bounty: Crow Genzo hides at the far end of the Blue-Flowered Cemetery in Jade Grove, in front of an Altar of Reflection.",
     aiTip:
-      "The crow patrols a figure-eight pattern — there is a five-second gap on the west side between loops. Use that gap to climb the tree and reach Genzo before the crow returns.",
+      "He doesn't move much but hits hard. The cemetery is just north of the 'Jade Grove' map label.",
     video: "https://www.youtube.com/watch?v=YAfiEy4rWaY",
     walkthrough: [
-      "Accept the bounty from the Grasslands board.",
-      "Locate Genzo's roost in the eastern Grasslands tall pines.",
-      "Time the crow's figure-eight patrol and move during the five-second western gap.",
-      "Climb the tree and reach Genzo's platform before the crow completes its loop.",
-      "Defeat Genzo — he uses throwing knives and drops from the tree; catch him at the base.",
-      "Return to Kojiro for the reward."
+      "Take the bounty from the board at Yōtei's Shadow Inn.",
+      "Ride to Jade Grove and go north of its map label to the Blue-Flowered Cemetery.",
+      "Climb to the top of the cemetery, in front of the Altar of Reflection.",
+      "Defeat Crow Genzo.",
+      "Report back at the bounty board."
     ]
   },
 {
@@ -24618,19 +24607,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Black Powder Ippei",
-    location: "Yōtei Grasslands (Yotei Shadow Inn bounty board)",
+    location: "Hill south of the Hilltop Watchtower, south of the Windy Meadow",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Yōtei Grasslands bounty: track down the outlaw Black Powder Ippei and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    reward: "Black Powder Ippei's mask, 750 Mon",
+    summary: "A Yōtei Grasslands bounty unlocked by Muneji the Bone Crusher. Black Powder Ippei sits on a hill south of the Windy Meadow, lobbing flaming shots from a cannon.",
+    aiTip: "Follow the fire projectiles to find him. If the bounty vanishes from your map, conquer the Saito Compound and defeat Muneji first.",
     video: "https://www.youtube.com/watch?v=u2yDUsn5cVc",
     walkthrough: [
-      "Complete the Muneji the Bone Crusher bounty first, then take the Black Powder Ippei poster from the Yōtei Grasslands bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
+      "Finish Muneji the Bone Crusher, then take this poster from the board at Yōtei's Shadow Inn.",
+      "Ride south of the Windy Meadow toward the Hilltop Watchtower.",
+      "Follow the fire projectiles to the cannon on the hill.",
       "Defeat Black Powder Ippei.",
-      "Claim the bounty reward."
+      "Report back at the bounty board."
     ]
   },
 {
@@ -24640,22 +24629,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Yotei Grasslands",
     title: "Soma the Condemned",
-    location: "Yōtei Grasslands — River Ravine",
+    location: "Cave behind a locked gate at Lake Jozan, north-west Yōtei Grasslands",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
+    reward: "Bounty Master armour and headband, 1,500 Mon",
     summary:
-      "A former executioner turned outlaw, branded for death by two rival clans who both want her head. Soma fights with a large executioner's blade and has no fear — she charges immediately on sight.",
+      "The last Yōtei Grasslands bounty. Soma was a musician whose cursed flute let him play anything — at the cost of lives. He hides in a cave at Lake Jozan behind a gate only music will open.",
     aiTip:
-      "Soma's executioner blade has massive range and cleave — never get caught between her and a wall. Fight in open ground, stay mobile, and use the Kusarigama pull to interrupt her charging attack at mid-range.",
+      "Play the Song of Soma on the shamisen to open the gate. After the duel, grant his last wish and play for him before taking the armour.",
     video: "https://www.youtube.com/watch?v=2WfknLkv3tM",
     walkthrough: [
-      "Accept the bounty and travel to the River Ravine camp.",
-      "Soma charges immediately — maintain distance and stay in open ground.",
-      "Use Kusarigama Chain Pull to interrupt her charge when she winds up.",
-      "Two chain pulls stagger her enough for a three-hit combo.",
-      "At half health she switches to slower, heavier overhead swings — easier to time deflects.",
-      "Defeat her and report to Kojiro."
+      "Clear the region's other bounties; Kojiro at Yōtei's Shadow Inn then hands you this one.",
+      "Ride to Lake Jozan in the north-west and follow the flute music to a locked cave gate.",
+      "Play the Song of Soma on Atsu's shamisen to open it.",
+      "Follow the cave path and defeat Soma in a duel.",
+      "Play the shamisen for him as he asks, then claim the Bounty Master armour."
     ]
   },
 {
@@ -24663,24 +24651,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Tokachi Range",
+    region: "Yotei Grasslands",
     title: "The Three Terrors",
-    location: "Tokachi Range — Marsh Crossing",
+    location: "Cave by the Twisted Tree, past Serpent's Pass (north-east Yōtei Grasslands)",
     length: "short",
     difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
+    reward: "1,500 Mon",
     summary:
-      "Three brothers who operate as a coordinated combat pack — one grappler, one knife-thrower, one shieldbearer — and must be fought simultaneously. Arguably the hardest bounty in the game.",
+      "A Yōtei Grasslands bounty: three outlaws spread through a cave near the Twisted Tree and the camp beyond it.",
     aiTip:
-      "Focus down the grappler first — if he grabs you while the knife-thrower fires, you lose enormous health instantly. Use Ghost Stance at the start to execute the grappler and even the odds immediately.",
+      "Squeeze through the narrow gap at the Twisted Tree's north end — not the smaller cave at the front.",
     video: "https://www.youtube.com/watch?v=PhCwvFm_Q20",
     walkthrough: [
-      "Accept the bounty — this is rated hard, come prepared with full supplies.",
-      "Find the Three Terrors at the Tokachi Marsh Crossing.",
-      "Activate Ghost Stance immediately and execute the grappler (leftmost brother).",
-      "Target the knife-thrower second — keep dodging his throws while closing distance.",
-      "The shieldbearer is last — use Kusarigama Chain Pull to break his guard.",
-      "Report all three kills to Kojiro for the combined reward."
+      "Take the bounty from the board at Yōtei's Shadow Inn.",
+      "Ride past Serpent's Pass to the Twisted Tree in the north-east.",
+      "Squeeze through the narrow gap at its north end into the cave and defeat the first Terror at the entrance.",
+      "Defeat the second at the far end of the cave.",
+      "Exit into the enemy camp and defeat the third."
     ]
   },
 {
@@ -24688,24 +24675,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Tokachi Range",
+    region: "Yotei Grasslands",
     title: "Muneji the Bone Crusher",
-    location: "Tokachi Range — Quarry Camp",
+    location: "Saito Compound, near Shirahige Falls (south-east Yōtei Grasslands)",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
+    reward: "Crushing Hebi sword kit, 2,000 Mon",
     summary:
-      "A massive brawler who fights with a war club and has survived three previous bounty hunters. He camps at a quarry outside Tokachi with six loyal followers.",
+      "A Yōtei Grasslands bounty: Muneji the Bone Crusher holds the Saito Compound in the south-east. Clear the whole camp to take him down.",
     aiTip:
-      "Muneji's war club is slow but its area stagger is huge. Stay at medium range and bait the club swing, then sprint in for two hits during the long recovery. The yari's Charging Thrust is ideal for this rhythm.",
+      "Climb the building on the east side and slip through the gap in the fence. Do this before Black Powder Ippei — that bounty can bug out otherwise.",
     video: "https://www.youtube.com/watch?v=1hsua3pWfsM",
     walkthrough: [
-      "Accept the bounty and travel to the Quarry Camp.",
-      "Clear the six followers first using stealth — Muneji does not notice quiet kills.",
-      "Engage Muneji alone; stay at medium range to bait the club swing.",
-      "Sprint in during the club's recovery window and hit twice.",
-      "Repeat the bait-and-punish cycle five times to end the fight.",
-      "Collect the bounty from Kojiro."
+      "Take the bounty from the board at Yōtei's Shadow Inn.",
+      "Ride to the Saito Compound near Shirahige Falls.",
+      "Enter through the gap in the fence on the east side.",
+      "Defeat Muneji in the middle of the camp.",
+      "Clear the rest of the compound to finish the bounty."
     ]
   },
 {
