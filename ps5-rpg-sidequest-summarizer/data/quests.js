@@ -3432,7 +3432,7 @@ const quests = [
       "Cutting him down in the Nexus rewards the full Gloom Set.",
       "Advanced: his killings serve Mephistopheles — only accept her contracts at Pure Black world tendency if you deliberately want that path."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbjMhvECyEo"
   },
 {
     id: 146,
@@ -15692,7 +15692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the archstones to travel out to any of the five worlds.",
       "Return to the Nexus between runs to restock, store items with Stockpile Thomas, and level up."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zS7vCA4ZTGc"
   },
 {
     id: 747,
@@ -15764,7 +15764,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to the Old Monk — note the fight may summon another player to act as the boss.",
       "Defeat the Old Monk (or the invading phantom) to clear the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f2V0bh2CgPY"
   },
 {
     id: 750,
@@ -15788,7 +15788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Storm King, charge the Storm Ruler's heavy attack to loose wind blades that shred the flying Manta swarm.",
       "Keep firing wind blades to bring the Storm King down and complete the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TxnBkY9iIQg"
   },
 {
     id: 751,
@@ -15812,7 +15812,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Either defeat Garl or slip past him and approach Astraea directly.",
       "Choose whether to strike down Maiden Astraea to claim her Demon's Soul — an intentionally somber kill."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qLfpFba-LOY"
   },
 {
     id: 752,
@@ -15860,7 +15860,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shift Character Tendency white by co-op and aiding others, or black by invasions and killing NPCs.",
       "Plan runs around tendency, since some NPCs, bosses, and rare items only appear at a specific state."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UlCzneBvAdI"
   },
 {
     id: 754,
@@ -15908,7 +15908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Colorless Demon's Souls with Ed to push weapons down their special upgrade paths.",
       "Upgrade deliberately, since boss souls are limited per playthrough."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wY_0WZaN9u4"
   },
 {
     id: 2352,
