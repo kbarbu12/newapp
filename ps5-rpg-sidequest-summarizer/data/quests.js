@@ -22964,22 +22964,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "The Path of the Odachi",
-    location: "Tokachi Range — Mountain Dojo",
-    length: "medium",
+    location: "Master Yoshida's Dojo, then Marshland Homestead, Huranui Mill and Boar's Eye Cave (Tokachi Range)",
+    length: "long",
     difficulty: "Medium",
-    reward: "Odachi weapon unlocked, Wide Sweep technique",
+    reward: "Odachi training continues",
     summary:
-      "A solitary swordsmith in the Tokachi mountains offers to teach Atsu the great odachi blade — a heavy two-handed weapon devastating against groups. Three training trials unlock the weapon and its first technique.",
+      "Starts once Atsu earns the odachi during The Saito Brothers. Master Yoshida sets three tasks around the Tokachi Range — free the Marshland Homestead, take Huranui Mill and catch Junpei the Snatcher — before he'll keep teaching.",
     aiTip:
-      "The odachi's Wide Sweep is your best tool against shield-bearing enemies — it breaks guard regardless of block. Complete all three trials without taking a hit to earn a bonus upgrade material.",
+      "The three tasks can be done in any order, and each one also completes its own side tale or bounty.",
     video: "https://www.youtube.com/watch?v=yZDAnTO2LUM",
     walkthrough: [
-      "Find the Mountain Dojo marker on the western Tokachi map edge.",
-      "Speak with Swordsmith Daisuke to accept the first trial.",
-      "Trial 1: cut down five training posts with precisely timed heavy strikes.",
-      "Trial 2: defeat two sparring partners using only odachi attacks — no other weapons.",
-      "Trial 3: break three shield-bearers' guard using the Wide Sweep technique Daisuke demonstrates.",
-      "Receive the odachi and the technique scroll after all three trials pass."
+      "Follow Master Yoshida to his dojo.",
+      "Take the Marshland Homestead and free its prisoner.",
+      "Take Huranui Mill and defeat Inokichi the Hungry and his men.",
+      "Complete the Junpei the Snatcher bounty at Boar's Eye Cave.",
+      "Return to Master Yoshida at his dojo."
     ]
   },
 {
@@ -22989,22 +22988,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "The Odachi's Redemption",
-    location: "Tokachi Range — Abandoned Fort",
+    location: "Master Yoshida's Dojo, Tokachi Range",
     length: "medium",
     difficulty: "Medium",
-    reward: "Rising Storm odachi technique",
+    reward: "Odachi spirit attack, Way of the Odachi trophy",
     summary:
-      "Daisuke's past catches up with him — a disgraced student blames him for an old failure and threatens the village. Atsu must help Daisuke confront his guilt and defeat his former student to earn the advanced technique.",
+      "Master Yoshida's next lesson: read the odachi technique scrolls, practise the spirit technique on him, then put it to use against Saito's soldiers.",
     aiTip:
-      "The former student fights dirty — he opens with a feint into a grab. Dodge backward on the first input and he will always over-commit, leaving a two-hit window.",
+      "The spirit technique is triangle + circle — try it on Yoshida himself when he tells you to.",
     video: "https://www.youtube.com/watch?v=tH7bFwTc0-c",
     walkthrough: [
-      "Return to Daisuke's dojo after completing The Path of the Odachi.",
-      "A villager reports trouble at the fort east of the dojo — escort Daisuke there.",
-      "Clear the fort's outer ring of six guards while Daisuke defends the gate.",
-      "A cutscene introduces the disgraced student Koya; Atsu challenges him on Daisuke's behalf.",
-      "Duel Koya: dodge his opening feint, counter twice, then use Rising Storm when the prompt appears.",
-      "After the fight, speak with Daisuke to receive the Rising Storm scroll."
+      "Talk to Master Yoshida at his dojo gate and follow him.",
+      "Read the odachi technique scrolls.",
+      "Follow him again and practise the spirit technique on him (triangle + circle).",
+      "Light the campfire, then use your Spyglass on the horses and the enemies.",
+      "Defeat Saito's soldiers."
     ]
   },
 {
@@ -23014,23 +23012,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Master Yoshida's Final Lesson",
-    location: "Tokachi Range — Summit Dojo",
+    location: "Master Yoshida's Dojo, Tokachi Range",
     length: "medium",
-    difficulty: "High",
-    reward: "Heaven's Fall ultimate odachi technique",
+    difficulty: "Low",
+    reward: "Weapon kit",
     summary:
-      "Daisuke's own master, the elderly Yoshida, summons Atsu for one last lesson before he dies. The final duel against Yoshida — fighting at a fraction of his former power — teaches Atsu the Heaven's Fall technique.",
+      "Starts after The Odachi's Redemption. Learn every odachi technique, then return to Master Yoshida for a last, quiet lesson.",
     aiTip:
-      "Yoshida fights slowly but his Heaven's Fall hit is lethal. Watch for the two-second wind-up — that is your cue to dodge sideways, not back. Mirroring his Heaven's Fall back at him ends the duel fastest.",
+      "You'll be about five odachi skills short at the start — find five Altars of Reflection for the points.",
     video: "https://www.youtube.com/watch?v=MpoU-vHNHkk",
     walkthrough: [
-      "Complete The Odachi's Redemption first — Yoshida's summons only appear afterward.",
-      "Climb to the Summit Dojo in northern Tokachi — it requires clearing a short enemy path.",
-      "Speak with Master Yoshida; accept his final lesson.",
-      "The duel begins immediately — survive three rounds of increasingly aggressive attacks.",
-      "When Yoshida uses Heaven's Fall, dodge sideways and strike during his recovery.",
-      "After three successful counter-hits, the duel ends with a teaching cutscene.",
-      "Receive the Heaven's Fall scroll and say goodbye to Yoshida to complete the arc."
+      "Find Altars of Reflection and learn every remaining odachi skill.",
+      "Return to Master Yoshida's Dojo and talk to him.",
+      "Answer his questions about your training and choose \"I am ready\".",
+      "Meditate with him; press circle to stop when you like."
     ]
   },
 {
@@ -23685,22 +23680,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "A Flower For Your Thoughts",
-    location: "Tokachi Range — Marshland Village",
+    location: "Amber Respite Shrine (north-west of Ohara Plains, west of Huranui's Rest Inn)",
     length: "short",
     difficulty: "Low",
-    reward: "Herbalist's Charm, rare bloom crafting material",
+    reward: "Charm of Masakado (Onryō's Will fully restores health)",
     summary:
-      "A herbalist in the Tokachi marshes needs protection while gathering rare winter blooms from dangerous terrain patrolled by outlaws. A peaceful quest for anyone who takes a stealthy approach.",
+      "A note pinned to a dead tree at Amber Respite Shrine asks for three blue hydrangeas. Climb the shrine, then collect them by the waterfalls below.",
     aiTip:
-      "The herbalist stops to gather at three locations — each one draws a nearby patrol. Eliminate each patrol before the herbalist reaches the gathering point to avoid a stressful escort fight.",
+      "Slide down the rocky slope left of the summit to reach the lake — all three hydrangeas are around it.",
     video: "https://www.youtube.com/watch?v=J36Kfmc2pRs",
     walkthrough: [
-      "Meet Herbalist Yuki at the Marshland Village gate.",
-      "Scout ahead of Yuki to each of three gathering points and clear patrols before she arrives.",
-      "Point 1: two patrols, approach from the reed beds.",
-      "Point 2: a rooftop lookout calls reinforcements — prioritise him.",
-      "Point 3: no guards if previous patrols were cleared, otherwise three respawn.",
-      "Escort Yuki safely back to the village and receive the charm and bloom material."
+      "Read the note on the dead tree at the foot of Amber Respite Shrine.",
+      "Climb to the top and pray at the altar.",
+      "Slide down the slope to the left of the summit to the lake with waterfalls.",
+      "Pick the three blue hydrangeas: in the alcove by the right waterfall, by the other waterfall, and far left by the cliff edge.",
+      "Return to the basket at the bottom of the shrine."
     ]
   },
 {
@@ -23710,22 +23704,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "A Matter of Honour",
-    location: "Tokachi Range — Samurai Estate",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Honour Blade, duel techniques insight",
+    location: "Smoky Flower Grove, Tokachi Range",
+    length: "short",
+    difficulty: "Low",
+    reward: "Wings of Devotion katana kit",
     summary:
-      "A samurai demands satisfaction from Atsu for a slight she supposedly committed. The investigation reveals a third party fabricated the insult to provoke both of them. Exposing the scheme avoids a needless duel.",
+      "A comic late-game tale. At the Smoky Flower Grove a ronin challenges Atsu to a duel to the death over the hand of Kaori — and keeps embarrassing himself with fireworks and smoke bombs.",
     aiTip:
-      "Finding the forged letter before confronting the samurai unlocks a peaceful resolution that awards the better reward. If you miss the letter and duel him, win by using standard deflect-counter timing — he has no tricks.",
+      "Only available once The Final Hunt of the Onryō has started. It's mostly a conversation and finishes quickly.",
     video: "https://www.youtube.com/watch?v=nbsizpzTerw",
     walkthrough: [
-      "Be challenged by Samurai Goto at the Tokachi estate gate.",
-      "Before accepting or refusing the duel, investigate the three marked locations for evidence.",
-      "Find the forged letter in the steward's study — it proves the insult was fabricated.",
-      "Present the letter to Goto; the fabricator is his own steward.",
-      "Confront the steward — he flees into the estate; pursue and defeat him.",
-      "Return to Goto for the Honour Blade reward and duel techniques insight."
+      "After starting The Final Hunt of the Onryō, go to the Smoky Flower Grove.",
+      "Examine the purple flower and the candles around it.",
+      "Talk to the ronin who appears and challenges you over Kaori.",
+      "See the scene through to collect the katana kit."
     ]
   },
 {
@@ -23735,22 +23727,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Easy Coin",
-    location: "Tokachi Range — Trading Post",
+    location: "Daikon Farmer's Home, near Huranui Mill",
     length: "medium",
     difficulty: "Medium",
-    reward: "Gold, Merchant's Contact",
+    reward: "650 Mon (450 if Huranui Mill isn't liberated first)",
     summary:
-      "A merchant's supposedly simple courier job turns into a trap — the package contains blackmail material and the merchant's former allies are waiting at the delivery point. Atsu must fight out of the ambush.",
+      "Heisaku the daikon farmer needs his bamboo cleared and an escort — and someone is waiting for him on the road.",
     aiTip:
-      "The ambush is ten enemies in a small space — use your first scorch bomb immediately on entry to stagger the clustered group. The merchant turns hostile in the final phase; the Charging Thrust ends his sprint.",
+      "Liberate Huranui Mill first and start it from the settler there for 200 extra Mon.",
     video: "https://www.youtube.com/watch?v=HYdS2KDsD4c",
     walkthrough: [
-      "Accept the courier job from Merchant Ueda at the trading post.",
-      "Deliver the package to the marked waypoint three kilometres south.",
-      "Eight former allies spring the ambush — clear them with explosive tools.",
-      "The merchant arrives and turns hostile; defeat him — non-lethal option available.",
-      "Inspect the package contents to understand the blackmail scheme.",
-      "Report to the trading post elder for a finder's reward and Merchant's Contact."
+      "Talk to the settler at Huranui Mill after liberating it (or to Heisaku at Daikon Farmer's Home).",
+      "Follow Heisaku and cut down all the thin bamboo on his farm.",
+      "Follow him as he heads out.",
+      "Defeat the attackers while keeping Heisaku safe.",
+      "Talk to him once it's over."
     ]
   },
 {
@@ -23760,22 +23751,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Every Man for Himself",
-    location: "Tokachi Range — Ransacked Camp",
-    length: "medium",
+    location: "Ishiusu Basin, Tokachi Range",
+    length: "short",
     difficulty: "Medium",
-    reward: "Survivor's Pack, Mediation Charm",
+    reward: "450 Mon",
     summary:
-      "Survivors of a bandit raid are turning on each other over the last supplies in a ransacked camp. Atsu must defuse the tension through conversation and, if necessary, combat before the survivors kill each other.",
+      "In Ishiusu Basin a man hides behind a rock after being shot. A rifleman holds the hill above, hidden by smoke.",
     aiTip:
-      "The peaceful resolution requires choosing 'share the supplies' twice in dialogue before the fight triggers. If combat starts, knock out rather than kill the aggressors — the survivors grant a better reward for mercy.",
+      "Run straight for the rifleman and ignore the rest — once he's dead, the others flee.",
     video: "https://www.youtube.com/watch?v=BuUnj8fTOsU",
     walkthrough: [
-      "Discover the ransacked camp on the Tokachi eastern trail.",
-      "Speak with survivor leader Masa — tensions are at a breaking point.",
-      "Choose 'share the supplies' in both dialogue prompts to attempt peaceful mediation.",
-      "If it fails, non-lethally defeat the two aggressors using pommel strikes (hold heavy attack).",
-      "Distribute the remaining supplies equally between the four survivors.",
-      "Receive the Survivor's Pack and Mediation Charm from grateful survivor Hana."
+      "Enter Ishiusu Basin and talk to the wounded man hiding by a rock.",
+      "Charge up the smoky hill to the rifleman.",
+      "Kill him; the other enemies run.",
+      "Examine the gunman's corpse."
     ]
   },
 {
@@ -23785,22 +23774,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Desperate Remedy",
-    location: "Tokachi Range — Outlaw Supply Camp",
-    length: "medium",
+    location: "Moiwa Grotto (east of Huranui's Rest Inn)",
+    length: "short",
     difficulty: "Medium",
-    reward: "Medicine Cache, Healer's Charm",
+    reward: "750 Mon; unlocks the Iron Chuta bounty",
     summary:
-      "A healer's village faces a disease outbreak but the medicine needed is locked inside a heavily guarded outlaw supply camp. Atsu raids the camp to secure the supplies before the outbreak claims more lives.",
+      "A Matsumae soldier sheltering in Moiwa Grotto has a companion with festering wounds. Fetch medicine from Huranui's Rest Inn — Saito's outlaws and a bounty hunter named Chuta make it harder.",
     aiTip:
-      "The medicine is in a locked chest requiring the camp captain's key. Kill the captain first and take the key before engaging the rest of the camp — his patrol pattern brings him to the western gate every 90 seconds.",
+      "Buy the herbs from the white-robed man at Huranui's Rest Inn.",
     video: "https://www.youtube.com/watch?v=gqI3UHLeg6o",
     walkthrough: [
-      "Speak with Healer Sora at the Tokachi village — she marks the supply camp on the map.",
-      "Observe the camp exterior; the captain patrols the western gate every 90 seconds.",
-      "Intercept the captain's patrol with a stealth kill to obtain the chest key.",
-      "Use the key on the medicine chest in the camp's central storage building.",
-      "Fight out of the camp or sneak out through the river exit.",
-      "Deliver the medicine to Sora; receive the Medicine Cache and Healer's Charm."
+      "Talk to the Matsumae soldier in the cave at Moiwa Grotto.",
+      "Go to Huranui's Rest Inn and buy herbs from the white-robed man.",
+      "Return to Moiwa Grotto.",
+      "Defeat Chuta.",
+      "Speak with the soldier again."
     ]
   },
 {
@@ -23810,22 +23798,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Marshland Homestead",
-    location: "Tokachi Range — Marsh Farmstead",
+    location: "Marshland Homestead, eastern Tokachi Range",
     length: "medium",
     difficulty: "Medium",
-    reward: "Stubborn Farmer's Charm, homestead safe house",
+    reward: "450 Mon, Minor Melee Charm, Altar of Reflection",
     summary:
-      "A stubborn farming family refuses to abandon their marshland home despite persistent outlaw raids. Atsu helps them fortify the homestead and repels a final large assault to secure their right to stay.",
+      "Saito's men hold a gambler prisoner at the Marshland Homestead. Free her and help clear the camp — it's also one of Master Yoshida's tasks in The Path of the Odachi.",
     aiTip:
-      "The final assault has twelve attackers coming from three directions simultaneously. Use the fortification points the family built — the barricade on the north road funnels half the attackers into a chokepoint.",
+      "Shoot the watchtower archers first. Freeing her alerts the camp, so open combat is unavoidable.",
     video: "https://www.youtube.com/watch?v=JY5d11rfg4o",
     walkthrough: [
-      "Meet the family patriarch Gota at the Marsh Farmstead entrance.",
-      "Build three fortifications: barricade (north), watchtower (east), fence (south) — materials nearby.",
-      "Survive Wave 1: six attackers, mostly from the north.",
-      "Survive Wave 2: twelve attackers from all three directions — use the barricade chokepoint.",
-      "After the assault, the family thanks Atsu; the homestead unlocks as a safe house.",
-      "Receive the Stubborn Farmer's Charm from Gota's daughter."
+      "Talk to the innkeeper at Huranui's Rest Inn, or simply ride up to the camp.",
+      "Take out the watchtower archers with your bow.",
+      "Free the gambler held in the middle of the camp.",
+      "Help her clear the remaining guards and talk to her.",
+      "Return to the innkeeper."
     ]
   },
 {
@@ -23835,22 +23822,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Protecting the Peace",
-    location: "Tokachi Range — Village Constable Post",
-    length: "medium",
+    location: "Settler's Camp, south-west of Huranui's Rest Inn",
+    length: "short",
     difficulty: "Medium",
-    reward: "Constable's Badge Charm, cleared patrol routes",
+    reward: "450 Mon",
     summary:
-      "Village constables overwhelmed by gang activity ask Atsu for temporary help. A three-part mission clears a gang's three outposts and ends with a confrontation against their local lieutenant.",
+      "Bandits keep stealing from a settlers' camp south-west of Huranui's Rest Inn. Atsu agrees to guard it — and the ronin already there turns on them.",
     aiTip:
-      "The lieutenant uses a war fan as a weapon — it deflects arrows and Tanzutsu shots. Close in with dual katana and ignore the fan; it only blocks ranged, not melee.",
+      "Expect the betrayal: kill the ronin first, then hold off the Saito Outlaws who follow.",
     video: "https://www.youtube.com/watch?v=6_BDuNBkgMY",
     walkthrough: [
-      "Speak with Constable Chief Daichi at the post in northern Tokachi.",
-      "Clear Outpost 1 (6 gang members) on the river island — approach by swimming.",
-      "Clear Outpost 2 (8 gang members) at the lumber yard — a fire alert is possible; have a bucket ready.",
-      "Clear Outpost 3 (5 gang members plus lookout) on the hill — take out the lookout first.",
-      "Confront Lieutenant Bando at the gang's main camp; he uses a war fan — fight in melee only.",
-      "Return to Daichi; receive the Constable's Badge Charm."
+      "Talk to the settler at the Settler's Camp south-west of Huranui's Rest Inn.",
+      "Accept the job.",
+      "When the ronin betrays the settlers, kill him.",
+      "Defeat the Saito Outlaws who attack the camp."
     ]
   },
 {
@@ -23886,23 +23871,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "The Dragonfly Armor",
-    location: "Tokachi Range — Dragonfly Forge",
+    location: "Cairn Forks (Ohara Plains) → Huranui's Rest Inn",
     length: "medium",
     difficulty: "Low",
-    reward: "Dragonfly Armour, armour weight reduction upgrade",
+    reward: "Dragonfly Armor",
     summary:
-      "A blacksmith legend operating out of a hidden marsh forge claims to have crafted armour light as a dragonfly's wing. Gather the three rare materials she needs and commission Ezo's lightest armour set.",
+      "At Cairn Forks a ronin is trying to cash in on Daijiro's bounty. Help the gambler out, beat him at zeni hajiki, then rescue him from Saito's men to earn the Dragonfly Armor.",
     aiTip:
-      "The Dragonfly Armour's weight reduction applies to your entire loadout — it is the best armour for players who rely on dodge-heavy playstyles. Prioritise this quest early in Tokachi if you favour agility over defence.",
+      "Losing at zeni hajiki costs nothing — just play again.",
     video: "https://www.youtube.com/watch?v=sJGYF7ho0lM",
     walkthrough: [
-      "Discover the Dragonfly Forge by following a dragonfly (literal in-game creature) near the Tokachi marsh.",
-      "Speak with Smith Chiyo — she needs reed fibre, swamp iron, and dragonfly wing resin.",
-      "Reed fibre: gather from the marsh reeds north of the forge (no combat).",
-      "Swamp iron: mine from the deposit guarded by four outlaws at the marsh centre.",
-      "Dragonfly wing resin: crafted at Chiyo's bench using two blooms from the Herbalist quest.",
-      "Commission the armour and wait one in-game day — rest at the forge camp to advance time.",
-      "Collect the Dragonfly Armour and weight reduction upgrade from Chiyo."
+      "At Cairn Forks in the Ohara Plains, help Daijiro against the bounty-hunting ronin.",
+      "Meet him at Huranui's Rest Inn and beat him at zeni hajiki.",
+      "Defeat the bounty hunters outside to learn where he's been taken.",
+      "Light a fire to regroup, then wait on the cliff for Daijiro's signal and attack Saito's forces.",
+      "Meet him back at the inn for the armour."
     ]
   },
 {
@@ -23937,23 +23920,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "The Soul of an Instrument",
-    location: "Tokachi Range — Hidden Valley",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Resonance Charm, shamisen upgrade",
+    location: "Ainu musician's camp, Yubari Lake",
+    length: "short",
+    difficulty: "Low",
+    reward: "3 Iron Sand, Ninkari (Ainu item)",
     summary:
-      "A shamisen craftsman needs a rare paulownia wood that only grows in a valley too dangerous for him to enter alone. The wood's supernatural resonance — and the valley's guardian — make this more than a simple supply run.",
+      "An Ainu musician at Yubari Lake needs a smooth stone from a mountain pool to finish his instrument. In return he'll play for Atsu.",
     aiTip:
-      "The valley guardian is not a combat encounter — it is a music puzzle. Use the shamisen and play the three notes shown by the glowing moths circling the tree. Wrong notes summon hostile spirits; correct notes appease the guardian.",
+      "The path looks like a dead end — look up and climb. Finishing this unlocks A Melody of Thoughts in Nayoro Wilds.",
     video: "https://www.youtube.com/watch?v=HquspNjPPxk",
     walkthrough: [
-      "Meet Craftsman Keiko at the Tokachi foothills — he marks the Hidden Valley on the map.",
-      "Enter the valley solo — Keiko cannot enter.",
-      "Find the paulownia tree at the valley's centre, surrounded by glowing moths.",
-      "Equip the shamisen and observe the three moths' positions to identify the note sequence.",
-      "Play the correct three-note sequence — the guardian spirit appears peacefully.",
-      "Harvest the paulownia wood from the guardian's offered branch.",
-      "Return to Keiko; receive the Resonance Charm and a shamisen upgrade."
+      "Talk to the Ainu musician at his camp by Yubari Lake.",
+      "Go to the marked mountain pool (climb where it looks like a dead end).",
+      "Defeat the enemies around the pool.",
+      "Pick up the smooth stone at the back of the pool.",
+      "Bring it back to the musician."
     ]
   },
 {
@@ -24737,21 +24718,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "One-Eye Moritaka",
-    location: "Tokachi Range — Ridgeline Nest",
+    location: "Saito Encampment near Yubari Lake (bounty board at Huranui's Rest Inn)",
     length: "short",
     difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
+    reward: "750 Mon",
     summary:
-      "A veteran archer who lost his eye and his honour in a battle long ago. Now he picks off merchants from ridgeline nests above the Tokachi trade roads. His remaining eye makes him deadly at range.",
+      "A Tokachi Range bounty: One-Eye Moritaka is the heavily armoured enemy in the middle of the Saito Encampment near Yubari Lake.",
     aiTip:
-      "Moritaka fires fast and accurately from extreme range — do not approach in the open. Hug the cliff wall below his nest to stay out of his line of sight, then climb to him from behind using the cliff's blind side.",
+      "The camp shows red on the map but doesn't count as a Yōtei Six camp.",
     video: "https://www.youtube.com/watch?v=CLN66yVEtfc",
     walkthrough: [
-      "Accept the bounty and locate the ridgeline nest on the Tokachi map.",
-      "Approach along the cliff wall directly below — stay out of his sightline.",
-      "Climb the cliff from the blind side (eastern face); he cannot see this approach.",
-      "Reach the nest and engage in melee — he is defenceless at close range.",
-      "Defeat Moritaka and claim the reward from Kojiro."
+      "Take the bounty from the board at Huranui's Rest Inn.",
+      "Ride to the Saito Encampment near Yubari Lake.",
+      "Find the heavily armoured enemy in the middle of the camp.",
+      "Defeat One-Eye Moritaka.",
+      "Report back for the reward."
     ]
   },
 {
@@ -24761,19 +24742,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Tokachi Range",
     title: "Junpei the Snatcher",
-    location: "Tokachi Range (cave in the north)",
+    location: "Boar's Eye Cave, north-east Tokachi Range",
     length: "short",
     difficulty: "Low",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Tokachi Range bounty: track down the outlaw Junpei the Snatcher and bring them to justice. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    reward: "750 Mon",
+    summary: "A Tokachi Range bounty that's a trap: a man at Boar's Eye Cave leads Atsu through it and then attacks. Clear the camp above, free a prisoner below, and Junpei shows himself.",
+    aiTip: "The cave entrance is just above the 's' of 'Boar's Eye Cave' on the map. It's also one of Master Yoshida's tasks in The Path of the Odachi.",
     video: "https://www.youtube.com/watch?v=3TG2O270MFM",
     walkthrough: [
-      "Take the Junpei the Snatcher poster from the Tokachi Range bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
-      "Scout the area and deal with any guards.",
-      "Defeat Junpei the Snatcher.",
-      "Claim the bounty reward."
+      "Approach Boar's Eye Cave in the north-east; the bounty starts automatically.",
+      "Follow the man at the entrance through the cave and survive his ambush.",
+      "Clear the enemy camp on the hill.",
+      "Drop through the cave in the north corner and free the prisoner.",
+      "Climb back up to the camp and defeat Junpei."
     ]
   },
 {
@@ -25037,24 +25018,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Ishikari Plain",
+    region: "Tokachi Range",
     title: "Old Lady Yae",
-    location: "Ishikari Plain — Roadside Inn Kitchen",
+    location: "Arata's Pond (bounty board at Huranui's Rest Inn)",
     length: "short",
-    difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
+    difficulty: "Low",
+    reward: "750 Mon, Yae's Cruel Brew sword kit",
     summary:
-      "Do not be fooled by the grandmother persona — Yae runs a sophisticated poison supply ring from her inn kitchen basement, providing toxins to multiple outlaw groups across Ishikari.",
+      "A Tokachi Range bounty that only appears at night: rest by Arata's Pond and follow a horse to a harmless-looking old woman on a straw mat.",
     aiTip:
-      "Yae fights surprisingly well using a weighted cooking ladle and paralysing poisons she throws at the start. Block the first throw and close immediately — she has no melee ability once in grapple range.",
+      "Sleep at the pond's campfire until nightfall — she won't appear in daylight.",
     video: "https://www.youtube.com/watch?v=YHz0hj8Uu8c",
     walkthrough: [
-      "Accept the bounty and enter the Roadside Inn as a customer.",
-      "Find the basement entrance behind the kitchen fireplace.",
-      "The poison operation is fully operational; four workers scatter on sight.",
-      "Yae throws a paralysing poison vial immediately — block it before closing.",
-      "Grapple range neutralises her — use pommel strikes to subdue her without killing.",
-      "Hand Yae to the Ishikari authorities or take the direct bounty from Kojiro."
+      "Take the bounty from the board at Huranui's Rest Inn.",
+      "Go to Arata's Pond and rest at the campfire until night.",
+      "Follow the horse that appears north of the pond.",
+      "Talk to the woman on the straw mat — she reveals she's Yae.",
+      "Defeat her and report back."
     ]
   },
 {
@@ -25084,21 +25064,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Bounties",
     game: "Ghost of Yotei",
-    region: "Ishikari Plain",
+    region: "Tokachi Range",
     title: "Iron Chuta",
-    location: "Ishikari Plain",
+    location: "Moiwa Grotto → yellow-tree woods north of the Niikappu River",
     length: "short",
-    difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Ishikari Plain bounty: track down the outlaw Iron Chuta and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    difficulty: "Medium",
+    reward: "1,500 Mon, Chuta's headwrap",
+    summary: "A Tokachi Range bounty unlocked by Desperate Remedy. A wounded ronin at Moiwa Grotto points Atsu to woods north of the Niikappu River, where a corpse marks Iron Chuta's lair.",
+    aiTip: "The corpse sits by a wooden spike, slightly north-east of a Pillar of the Fallen. Interact with it to summon Chuta.",
     video: "https://www.youtube.com/watch?v=-ox2m_sBrmM",
     walkthrough: [
-      "Take the Iron Chuta poster from the Ishikari Plain bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
-      "Defeat Iron Chuta.",
-      "Claim the bounty reward."
+      "Finish Desperate Remedy, then take the poster from the Huranui's Rest Inn board.",
+      "Go to Moiwa Grotto east of the inn, kill the dogs and talk to the wounded ronin.",
+      "Ride to the yellow-tree woods north of the Niikappu River.",
+      "Find the corpse beside a wooden spike, north-east of a Pillar of the Fallen, and interact with it.",
+      "Win the one-on-one duel with Iron Chuta."
     ]
   },
 {
