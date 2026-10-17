@@ -2610,30 +2610,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=UP5p7BpHyjc"
   },
 {
-    id: 108,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity",
-    region: "Defiance Bay",
-    title: "The Dozen's Dispute",
-    location: "Defiance Bay",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Faction reputation, gold, Act 2 allies",
-    summary:
-      "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
-    aiTip:
-      "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content.",
-    walkthrough: [
-      "In Defiance Bay, meet the three factions: the Dozens, the Crucible Knights, and the Doemenels.",
-      "Take a starter quest from each to gauge their rewards and tone.",
-      "Commit to one faction, knowing it locks out the others' questlines.",
-      "Complete your faction's tasks — Crucible Knights for gear, Dozens for story content.",
-      "Build your faction's standing ahead of the Act 2 faction war."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Dozen's%20Dispute%20walkthrough"
-  },
-{
     id: 109,
     category: "Main Quest",
     type: "main",
