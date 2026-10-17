@@ -7,6 +7,16 @@
 
 ---
 
+## 2026-10-17 — last search links and duplicate check, round 1 (v2.4.10)
+- 15 of the last 19 search links now have videos (PRs #241–#249); 4 stay
+  as searches (Metaphor #158, #726, Deadfire #779, BG3 #997) because the
+  audit requires a video link and no good single video exists.
+- Duplicate check (PRs #250–#253) merged or removed 7 duplicates and fixed
+  mislabelled Skyrim/Deadfire main quests. 2,458 quests.
+- Still to do: rebuild the Ghost of Yōtei main story (largely invented);
+  add missing main quests (Skyrim The Horn of Jurgen Windcaller, A Cornered
+  Rat, Paarthurnax; Deadfire He Waits in Fire).
+
 ## 2026-10-17 — Witcher 3 and Wukong fixes (v2.4.9)
 - W3 #601 "Nameless" merged with duplicate #371 (PR #238). Wukong boss
   entries fixed: #832 Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840

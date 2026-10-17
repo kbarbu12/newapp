@@ -1184,7 +1184,7 @@ const quests = [
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
-    title: "Devil by the Well",
+    title: "Contract: Devil by the Well",
     location: "Abandoned Village, White Orchard",
     length: "short",
     difficulty: "Low",
@@ -1369,12 +1369,12 @@ const quests = [
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
-    title: "Beyond Hill and Dale",
+    title: "Beyond Hill and Dale...",
     location: "Land of a Thousand Fables, Toussaint",
     length: "long",
     difficulty: "Medium",
-    reward: "Story progression, unique location exploration",
-    summary: "Enter a magical storybook world where fairy tales have gone horribly wrong. Fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf, and the Three Little Pigs in one of the game's most creative environments.",
+    reward: "Syanna found, story progression",
+    summary: "Enter the Land of a Thousand Fables, a magical storybook world, to find the runaway Syanna. Fairy tales have gone horribly wrong here: fight twisted versions of classic characters like Rapunzel, the Big Bad Wolf and the Three Little Pigs.",
     aiTip: "Explore every corner of the fable world — it's dense with hidden loot and darkly funny encounters. The Wicked Witch fight requires dodging her cauldron attacks.",
     walkthrough: [
       "Search the palace playroom: take the Golden Key from behind the painting and open the wardrobe.",
@@ -1775,28 +1775,6 @@ const quests = [
       "Decide the artifacts' fate between the rival factions to resolve the storm."
     ],
     video: "https://www.youtube.com/watch?v=Onqo49V1w6M"
-  },
-{
-    id: 62,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity II: Deadfire",
-    title: "A Sorcerer and a Gentleman",
-    location: "Arkemyr's Manor, Periki's Overlook",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Arkemyr's grimoire, rare scrolls, companion quest progression",
-    summary:
-      "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
-    aiTip:
-      "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
-    walkthrough: [
-      "Accept the job to steal Arkemyr's grimoire and reach his manor in Periki's Overlook.",
-      "Slip in via the servants' routes — disguises and Arkemyr's own robes fool the staff.",
-      "Bypass the imps and wards guarding the study rather than brawling through.",
-      "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
-    ],
-    video: "https://www.youtube.com/watch?v=9WKJmR1SZBQ"
   },
 {
     id: 63,
@@ -2608,30 +2586,6 @@ const quests = [
       "Defeat the Tideripper, recover POSEIDON and bring it to GAIA at the Base."
     ],
     video: "https://www.youtube.com/watch?v=UP5p7BpHyjc"
-  },
-{
-    id: 108,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity",
-    region: "Defiance Bay",
-    title: "The Dozen's Dispute",
-    location: "Defiance Bay",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Faction reputation, gold, Act 2 allies",
-    summary:
-      "Navigate the political rivalry between Defiance Bay's major factions — the Dozens, the Crucible Knights, and the Doemenels. Each faction offers unique quests and rewards, but aligning with one locks you out of the others.",
-    aiTip:
-      "Choose your faction carefully — it affects available quests and companions' reactions. The Crucible Knights offer the best equipment rewards, the Dozens the most story content.",
-    walkthrough: [
-      "In Defiance Bay, meet the three factions: the Dozens, the Crucible Knights, and the Doemenels.",
-      "Take a starter quest from each to gauge their rewards and tone.",
-      "Commit to one faction, knowing it locks out the others' questlines.",
-      "Complete your faction's tasks — Crucible Knights for gear, Dozens for story content.",
-      "Build your faction's standing ahead of the Act 2 faction war."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Dozen's%20Dispute%20walkthrough"
   },
 {
     id: 109,
@@ -5431,12 +5385,12 @@ const quests = [
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "City Center",
-    title: "Nocturne Op55N1 – Point of No Return",
+    title: "Nocturne Op55N1",
     location: "Embers / Misty's rooftop",
     length: "short",
     difficulty: "Medium",
     reward: "Access to every ending path",
-    summary: "Dinner with Hanako Arasaka, then the rooftop with Misty: the single conversation that decides which of the game's endings you'll experience.",
+    summary: "Dinner with Hanako Arasaka at Embers, then the rooftop with Misty and Johnny: choose how to storm Arasaka Tower — with Hanako, Panam's Aldecaldos, Rogue and Johnny, or alone. This one conversation decides your ending.",
     aiTip: "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
     walkthrough: [
       "Finish Nocturne Op55N1's dinner with Hanako Arasaka at Embers.",
@@ -5703,28 +5657,6 @@ const quests = [
       "See the raid to its tragic end."
     ],
     video: "https://www.youtube.com/watch?v=nH7D3KoNQcM"
-  },
-{
-    id: 263,
-    type: "main",
-    game: "Cyberpunk 2077: Ultimate Edition",
-    region: "City Center",
-    title: "Nocturne Op55N1",
-    location: "City Center – Embers",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Point of no return, ending path selection",
-    summary:
-      "The final calm before the storm. V chooses how to assault Arasaka — with Rogue, Panam's Aldecaldos, alone, or by trusting Johnny with their body.",
-    aiTip:
-      "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
-    walkthrough: [
-      "Spend the calm evening at Embers with Johnny.",
-      "Talk through the assault options with Rogue, Panam, or going alone.",
-      "Make your peace and choose the path to Arasaka.",
-      "Commit to the final approach."
-    ],
-    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 264,
@@ -7667,29 +7599,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=ueylh5enSj0"
   },
 {
-    id: 351,
-    type: "side",
-    game: "The Witcher 3: Wild Hunt",
-    region: "White Orchard",
-    title: "Contract: Devil by the Well",
-    location: "White Orchard",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Silver, noonwraith trophy",
-    summary:
-      "A noonwraith haunts an abandoned village well. Geralt must lure and banish the vengeful spirit.",
-    aiTip:
-      "Craft Specter Oil and use Yrden to make the noonwraith corporeal before striking.",
-    walkthrough: [
-      "Take the contract from the White Orchard notice board and head to the abandoned village well.",
-      "Investigate the site with Witcher Senses, then meditate to nightfall to draw out the noonwraith.",
-      "Apply Specter Oil and cast Yrden to trap the wraith so it can be hit.",
-      "Dodge its rapid teleport strikes and destroy the illusions it spawns.",
-      "Banish the noonwraith, take its trophy, and claim the contract fee."
-    ],
-    video: "https://www.youtube.com/watch?v=IG98e99GV3M"
-  },
-{
     id: 352,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -8281,17 +8190,17 @@ const quests = [
     difficulty: "Low",
     reward: "Vineyard reward, coin",
     summary:
-      "Help feuding Toussaint vineyards outmaneuver each other in a series of estate errands.",
+      "If you finish The Deus in the Machina before Vermentino and Coronata, the two vineyards' troubles merge into one quest: help rival heirs Liam and Matilda clear their estates of monsters and sabotage.",
     aiTip:
-      "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
+      "Save before talking to the vineyard owners — finishing both estates' tasks under Consorting is what lets Liam and Matilda take Belgaard together.",
     walkthrough: [
-      "Start the Wine Wars errand for one of Toussaint's rival vineyards.",
-      "Travel to the marked site and clear the monsters harming the estate.",
-      "Complete the task the vintner needs (sabotage or recovery).",
-      "Report back to boost the vineyard's fortunes.",
-      "Collect the reward and progress the Wine Wars chain."
+      "Turn in Wine Wars: The Deus in the Machina while Vermentino and Coronata are still open — they merge into Consorting.",
+      "Meet Liam of Vermentino and Matilda of Coronata, heirs of the feuding vineyards.",
+      "Clear the monsters plaguing both estates' vineyards.",
+      "Follow the sabotage trail to its source and destroy what is poisoning the vines.",
+      "Report back to both families, then continue to Wine Wars: Belgaard."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EqLq7n0xcQU"
   },
 {
     id: 380,
@@ -8738,7 +8647,7 @@ const quests = [
       "Use specialized ammo and traps to hit the requirements fast.",
       "Earn full marks to unlock prestige gear rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kDHh3j503-k"
   },
 {
     id: 401,
@@ -8760,7 +8669,7 @@ const quests = [
       "Solve the traversal puzzles to reach the sealed chamber.",
       "Claim the ruin's treasure to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qW1AvKrGFxY"
   },
 {
     id: 402,
@@ -13403,29 +13312,6 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     video: "https://www.youtube.com/watch?v=k6M-NTUIoUQ"
   },
 {
-    id: 616,
-    type: "main",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Toussaint",
-    title: "Beyond Hill and Dale... (B&W)",
-    location: "Land of a Thousand Fables",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Syanna found, fairy-tale realm",
-    summary:
-      "Enter the storybook Land of a Thousand Fables to find the runaway Syanna.",
-    aiTip:
-      "A whimsical, colorful detour — a delightful contrast to the vampire horror.",
-    walkthrough: [
-      "Enter the fairy-tale Land of a Thousand Fables to find Syanna.",
-      "Solve the storybook puzzles and help the fable characters.",
-      "Follow Syanna's trail through the whimsical (and dark) tales.",
-      "Confront what the land reveals about her past.",
-      "Escape the fable land with what you've learned."
-    ],
-    video: "https://www.youtube.com/watch?v=NdnxWNCAIWw"
-  },
-{
     id: 617,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
@@ -15862,7 +15748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take Colorless Souls to Blacksmith Ed or Boldwin to apply special upgrades.",
       "Repeat across worlds at Pure White to gather enough Colorless Souls for your build."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i2gqPj6VLgw"
   },
 {
     id: 755,
@@ -16331,22 +16217,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "The Coming Storm / A Glimpse Beyond",
-    location: "Ukaizo approach",
+    title: "The Coming Storm",
+    location: "Ondra's Mortar → Ukaizo",
     length: "long",
     difficulty: "High",
     reward: "Ukaizo unlocked, endgame",
     summary:
-      "Secure passage past the Storm of Ukaizo to reach the lost Engwithan city and the god's final act.",
+      "With Eothas headed for Ukaizo, find a way through the storms of Ondra's Mortar — by shutting down the Engwithan machine at Ondra's Spire or taking Rauatai's submarine — to reach the lost city.",
     aiTip:
       "Requires a faction's help to cross — the endgame branches hard on your choices.",
     walkthrough: [
-      "Secure the means to cross the Storm of Ukaizo from your chosen faction.",
-      "Prepare ship and crew for the final voyage.",
-      "Break through the storm to sight the lost Engwithan city.",
-      "Approach Ukaizo for the confrontation with Eothas."
+      "After He Waits in Fire, decide which faction (if any) will help you reach Ukaizo.",
+      "Sail to Ondra's Mortar, the storm wall around Ukaizo.",
+      "Shut down the Engwithan machine at Ondra's Spire to calm the storms — or take Rauatai's submarine if you sided with them.",
+      "Sail through to Ukaizo Harbor to finish the quest and begin The City Lost to Time."
     ],
-    video: "https://www.youtube.com/watch?v=EVYXdnpgoLU"
+    video: "https://www.youtube.com/watch?v=2mXZlfxe2Cs"
   },
 {
     id: 776,
@@ -16577,29 +16463,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose how to answer Rymrgand to earn the DLC's rewards."
     ],
     video: "https://www.youtube.com/watch?v=Y4wFxdNn-BQ"
-  },
-{
-    id: 786,
-    category: "Expansion Quest",
-    type: "side",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "Seeker, Slayer, Survivor (DLC)",
-    location: "Old City arena",
-    length: "long",
-    difficulty: "High",
-    reward: "Combat trials, prestige gear",
-    summary:
-      "Compete in the spectral arena of the Faces of War for glory and powerful loot.",
-    aiTip:
-      "A combat-focused DLC — ideal for testing a min-maxed party build.",
-    walkthrough: [
-      "Enter the Old City arena and register for the Faces of War (DLC).",
-      "Fight through the escalating spectral combat trials.",
-      "Adapt your party to each themed challenge wave.",
-      "Win the final bout for the arena's powerful loot."
-    ],
-    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 787,
@@ -16939,27 +16802,51 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   },
 {
     id: 801,
-    type: "side",
-    category: "Side Quest",
+    type: "main",
+    category: "Main Story",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Defeat the Chosen: Orin & Gortash",
-    location: "Baldur's Gate",
+    title: "Get Gortash's Netherstone",
+    location: "Wyrm's Rock Fortress, Baldur's Gate",
     length: "long",
     difficulty: "High",
-    reward: "Netherstones claimed",
+    reward: "Netherstone of Bane",
     summary:
-      "Hunt down the Chosen of Bhaal (Orin) and Bane (Gortash) to seize their Netherstones.",
+      "Enver Gortash, Chosen of Bane, is crowned Archduke at Wyrm's Rock and offers you an alliance against Orin. Cripple his Steel Watch, then confront him in his fortress and take his Netherstone.",
     aiTip:
-      "Gather allies and the other Netherstones before the finale — the Elder Brain awaits.",
+      "Destroy the Steel Watch Foundry before the fight — with the Steel Watchers still active, Gortash's battle is far harder.",
     walkthrough: [
-      "In Act 3, obtain both Netherstones by defeating the two remaining Chosen: Orin the Red (Bhaal) and Enver Gortash (Bane).",
-      "For Gortash: attend his coronation at Wyrm's Rock (or ambush him), disable his Steel Watch first, then kill him.",
-      "For Orin: follow the murder trail to the temple of Bhaal beneath the city.",
-      "Survive Orin's shapeshifting ambush (she may have kidnapped a companion) and defeat her.",
-      "Take both Netherstones to complete your set for the Elder Brain.",
+      "Attend Gortash's coronation at Wyrm's Rock and hear out his bargain against Orin.",
+      "Disable the Steel Watch first by destroying the Steel Watch Foundry.",
+      "Enter Wyrm's Rock Fortress and make your way to Gortash's throne room.",
+      "Defeat Gortash and his guards.",
+      "Take the Netherstone of Bane from his body.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Chosen%3A%20Orin%20%26%20Gortash%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dGIWmtm18fw"
+  },
+{
+    id: 2593,
+    type: "main",
+    category: "Main Story",
+    game: "Baldur's Gate 3",
+    act: 3,
+    title: "Get Orin's Netherstone",
+    location: "Temple of Bhaal, beneath the Lower City",
+    length: "long",
+    difficulty: "High",
+    reward: "Netherstone of Bhaal",
+    summary:
+      "Orin the Red, Chosen of Bhaal, kidnaps one of your companions and demands you kill Gortash. Track her to the Temple of Bhaal beneath the city, rescue her victim and take her Netherstone.",
+    aiTip:
+      "Rescue Orin's Victim runs alongside this quest. Orin can disguise herself as your party members, so watch who you trust on the way in.",
+    walkthrough: [
+      "After Orin kidnaps a companion, follow the Bhaalist murder trail through the Lower City.",
+      "Find the way down to the Temple of Bhaal beneath the city.",
+      "Open the temple doors and press on to Orin's chamber.",
+      "Defeat Orin to free her victim (Rescue Orin's Victim).",
+      "Take the Netherstone of Bhaal from her body."
+    ],
+    video: "https://www.youtube.com/watch?v=5mpCwCx5ciA"
   },
 {
     id: 802,
@@ -21590,21 +21477,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Acquire Gauntlets for Helsik",
+    title: "Acquire the Gauntlets for Helsik",
     location: "Devil's Fee, Baldur's Gate",
     length: "short",
     difficulty: "Medium",
-    reward: "Opens the ritual to the House of Hope",
-    summary: "The merchant Helsik can send you to Raphael's House of Hope — if you provide the ritual components, including infernal gauntlets.",
-    aiTip: "Buy or steal the required diamond, infernal iron, and other reagents from Helsik's own shop.",
+    reward: "Helsik's portal fee waived",
+    summary: "Helsik can open a portal to Raphael's House of Hope. Instead of paying her fee, you can agree to steal the Gauntlets of Hill Giant Strength from the House of Hope for her.",
+    aiTip: "The gauntlets sit on a pedestal in the House of Hope's Archive. You can hand them over, keep them, or pay Helsik in gold instead.",
     walkthrough: [
-      "In Act 3, visit Helsik at the Devil's Fee in the Lower City.",
-      "Learn she can open a portal to the House of Hope for the right ritual components.",
-      "Acquire the Infernal Gauntlets and the other reagents (diamond, incense, etc.).",
-      "Deliver the components to Helsik.",
-      "Have her perform the ritual to open the portal to Avernus.",
+      "In Act 3, meet Helsik at the Devil's Fee in the Lower City.",
+      "Ask about reaching the House of Hope and agree to fetch the Gauntlets of Hill Giant Strength instead of paying her fee.",
+      "Perform the ritual to open the portal to the House of Hope.",
+      "Take the gauntlets from their pedestal in the House of Hope's Archive.",
+      "Return to Helsik and give her the gauntlets — or keep them and settle up another way.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Acquire%20Gauntlets%20for%20Helsik%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Acquire%20the%20Gauntlets%20for%20Helsik%20walkthrough"
   },
 {
     id: 998,
@@ -28564,18 +28451,18 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Metaphor: ReFantazio",
     region: "Brilehaven",
     title: "Dental Distress",
-    location: "Inudo",
+    location: "Seabreeze Street, Port Brilehaven → Inundo",
     length: "short",
     difficulty: "Low",
     reward: "15,000 Reeve",
-    summary: "The Sullen Man asks you to obtain the Toothbrush of Hygiena from Inudo.",
-    aiTip: "Pick up the Toothbrush of Hygiena in Inudo and return it.",
+    summary: "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
+    aiTip: "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
     video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Dental%20Distress%20walkthrough",
     walkthrough: [
-      "Accept the quest from the Sullen Man.",
-      "Travel to Inudo.",
-      "Obtain the Toothbrush of Hygiena.",
-      "Return it for 15,000 Reeve."
+      "Accept the quest from the Sullen Man on Seabreeze Street in Port Brilehaven.",
+      "Travel to Inundo on the Gauntlet Runner (a day passes).",
+      "Buy the Toothbrush of Hygienia from the Key Items tab of the village shop.",
+      "Return to the Sullen Man before August 9 for 15,000 Reeve."
     ]
   },
   {
@@ -29022,20 +28909,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     id: 1078,
     type: "side",
     game: "Metaphor: ReFantazio",
-    region: "Skanda",
+    region: "Brilehaven",
     title: "A Rake's Last Wish",
-    location: "Skanda",
+    location: "Angler's Inn Square, Port Brilehaven (night)",
     length: "short",
     difficulty: "Low",
     reward: "Alonzo Follower completion",
-    summary: "Accepted during Alonzo's final rank — talk to Daturam to complete the quest.",
-    aiTip: "This wraps up Alonzo's Follower story; just seek out Daturam.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Rake's%20Last%20Wish%20walkthrough",
+    summary: "Accepted during Alonzo's final rank — find Daturam in Port Brilehaven after dark and see Alonzo's story through.",
+    aiTip: "There's no item reward — the quest just closes Alonzo's Follower story with two cutscenes.",
+    video: "https://www.youtube.com/watch?v=-BkCTceqDtk",
     walkthrough: [
-      "Reach Alonzo's final rank to accept the quest.",
-      "Locate Daturam.",
-      "Talk to Daturam to resolve Alonzo's request.",
-      "Complete Alonzo's Follower bond."
+      "The quest starts automatically during Alonzo's Rank 8 bond event.",
+      "After dark, go to Angler's Inn Square in Port Brilehaven.",
+      "Find Daturam near Alonzo's usual bench and talk to him.",
+      "Choose \"Let's go.\" to travel to Alonzo's village for a cutscene.",
+      "Return to Alonzo's favorite tavern for the final scene that closes his bond."
     ]
   },
   {
@@ -29632,19 +29520,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "War Totems",
-    location: "Multiple regions, Forbidden West",
+    location: "Hidden sites across the Forbidden West (not marked on the map)",
     length: "short",
     difficulty: "Low",
-    reward: "Lore, Trophy progress, XP",
-    summary: "Find the three Tenakth War Totems raised across the Forbidden West, each honouring a clan's warriors and its history.",
-    aiTip: "They stand at prominent clan sites — approach and interact to log the totem's story datapoint.",
+    reward: "God of War face paint",
+    summary: "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
+    aiTip: "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
     walkthrough: [
-      "Travel to a War Totem marker on your map.",
-      "Approach the totem at its clan site.",
-      "Interact with it to record its history.",
-      "Visit all three to complete the set."
+      "Note that War Totems never appear on the map — use the video or a guide to reach each site.",
+      "Totem of War (Kratos): find it inside a hut, a nod to Kratos's cabin.",
+      "Totem of Youth (Atreus): look by a bridge on the Isle of Spires.",
+      "Totems of Brotherhood (Brok and Sindri): search an opening in the sand by the shore.",
+      "After the third totem, equip the God of War face paint at any Painter merchant."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20War%20Totems%20walkthrough"
+    video: "https://www.youtube.com/watch?v=poCOQtSvxMQ"
   },
   {
     id: 1388,
@@ -29874,10 +29763,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "Seek the Elder Scroll needed to read the Time-Wound, venturing into the College of Winterhold and deep into Blackreach.",
     aiTip: "Blackreach is huge and full of Falmer — travel light, use the Attunement Sphere, and mark the elevator exits for fast travel later.",
     walkthrough: [
-      "Choose a faction (Thieves Guild via Mercer Frey, College of Winterhold via Urag gro-Shub, or Dawnguard) to help locate an Elder Scroll.",
-      "Complete the associated retrieval quest for that faction (e.g., Discerning the Transmundane for the College route).",
-      "Bring the Elder Scroll back to Sky Haven Temple.",
-      "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
+      "Ask Urag gro-Shub in the College of Winterhold's Arcanaeum about Elder Scrolls; he points you to Septimus Signus.",
+      "Find Septimus Signus at his outpost in the ice north of Winterhold.",
+      "Take his Attunement Sphere to Alftand and use it to open the way down to Blackreach.",
+      "Cross Blackreach to the Tower of Mzark and work its lens controls to release the Elder Scroll (Dragon).",
+      "Leave Blackreach with the scroll and head for the Time-Wound on the Throat of the World."
     ],
     video: "https://www.youtube.com/watch?v=ywYjduRXcas"
   },
@@ -29886,32 +29776,32 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     category: "Main Quest",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Fallen",
+    title: "Alduin's Bane",
     location: "Throat of the World",
     length: "medium",
     difficulty: "High",
-    reward: "Learn Dragonrend, dragon trap begins",
-    summary: "Read the Elder Scroll at the Time-Wound to witness the ancient heroes and learn Dragonrend, then confront Alduin.",
+    reward: "Dragonrend Shout",
+    summary: "Read the Elder Scroll at the Time-Wound atop the Throat of the World to witness the ancient Nords' battle and learn Dragonrend, then fight Alduin when he arrives.",
     aiTip: "Save before reading the Scroll; you'll fight Alduin immediately after and want full health and stamina.",
     walkthrough: [
-      "With Dragonrend learned, return to the Greybeards and prepare to lure Alduin.",
-      "Travel to the Throat of the World and use a Horn of Jurgen Windcaller to summon Alduin.",
-      "Use Dragonrend to force Alduin to land and fight him.",
-      "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
+      "Travel to the Time-Wound on the Throat of the World with the Elder Scroll.",
+      "Read the scroll to witness the ancient Nords' battle with Alduin.",
+      "Learn the three words of Dragonrend from the vision and Paarthurnax.",
+      "When Alduin appears, use Dragonrend to force him to land, then fight him until he flees."
     ],
-    video: "https://www.youtube.com/watch?v=VexjTQ6F0oI"
+    video: "https://www.youtube.com/watch?v=CffpTK830UE"
   },
   {
     id: 1400,
     type: "main",
     category: "Main Quest",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Overlord's Legacy / Season Unending",
-    location: "Dragonsreach / High Hrothgar",
+    title: "Season Unending",
+    location: "High Hrothgar",
     length: "long",
     difficulty: "Medium",
-    reward: "Odahviing trap setup, peace council",
-    summary: "Hatch a plan to trap a dragon in Dragonsreach to interrogate it, which may require brokering a Civil War truce first.",
+    reward: "Civil War truce, holds traded at the council",
+    summary: "Jarl Balgruuf won't let you trap a dragon in Dragonsreach while the civil war rages. Bring Ulfric, Tullius and their advisers to a peace council at High Hrothgar and negotiate a truce.",
     aiTip: "If the war is unresolved, Season Unending forces a peace council — you can extort extra holds through careful negotiation.",
     walkthrough: [
       "Speak with the Jarl of Whiterun (Balgruuf) about brokering a ceasefire between Empire and Stormcloaks.",
@@ -29983,15 +29873,15 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1404,
     type: "main",
-    category: "Main Quest (Optional)",
+    category: "Main Quest",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Fallen (Paarthurnax's request)",
-    location: "Throat of the World",
+    title: "The Fallen",
+    location: "Dragonsreach, Whiterun",
     length: "short",
     difficulty: "Medium",
-    reward: "Blades allegiance choice",
-    summary: "An optional but pivotal choice: the Blades demand you kill Paarthurnax to continue working with them.",
-    aiTip: "Sparing Paarthurnax costs you Blades support but is the lore-friendly and morally cleaner path — decide based on whether you need Blades services.",
+    reward: "Odahviing's help, route to Skuldafn",
+    summary: "Alduin has fled, and only a dragon can tell you where. Lure Odahviing into the great trap at Dragonsreach and make him reveal Alduin's refuge.",
+    aiTip: "Shout Call Dragon from the end of the Dragonsreach porch; if Odahviing keeps circling, hit him with Dragonrend and run inside so he follows you under the trap.",
     walkthrough: [
       "After defeating Alduin at the Throat of the World, learn from Paarthurnax that the dragon Odahviing can reveal Alduin’s refuge in Sovngarde.",
       "Get leave to use Dragonsreach as a trap; if the Civil War is active, first broker a truce at the High Hrothgar peace council (Season Unending).",
@@ -30565,19 +30455,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Thieves Guild",
     game: "The Elder Scrolls V: Skyrim",
     title: "Reparations",
-    location: "Winterhold coast",
+    location: "The Ragged Flagon, Riften",
     length: "medium",
     difficulty: "Medium",
-    reward: "Guild reputation, gold",
-    summary: "Deal with a splinter group of thieves undermining the Guild's operations.",
-    aiTip: "Clear the Summerset Shadows' hideout and recover the stolen Guild property to keep expansion on track.",
+    reward: "Thieves Guild membership restored",
+    summary: "Break the Thieves Guild's rules — attack or kill a member, get caught stealing from them, or kill someone during a guild job — and you're expelled. Pay Vex 1,000 gold in the Ragged Flagon to be let back in.",
+    aiTip: "If you were expelled for assault, wait about 48 hours outside the Ragged Flagon so the hostile members calm down before you look for Vex.",
     walkthrough: [
-      "Take a Reparations job from Delvin/Vex to help restore the Guild’s standing in a hold.",
-      "Travel to the assigned city and complete the recovery task (return stolen goods / settle the debt).",
-      "This rebuilds the Guild’s presence and reopens a fence there.",
-      "Repeat across the holds to progress toward “Under New Management.”"
+      "The quest starts automatically when you break a Guild rule (assaulting a member, stealing from them, or killing during a job).",
+      "If guild members are hostile, leave the Ragged Flagon and wait about 48 hours.",
+      "Go to the Ragged Flagon in the Riften Ratway and speak with Vex.",
+      "Pay the 1,000 gold she demands as reparations.",
+      "Your membership is restored and guild jobs open up again."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Reparations%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sh9HTyHBApY"
   },
   {
     id: 1433,
@@ -32172,26 +32063,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Claim the Ring of Namira if you side with the cultists."
     ],
     video: "https://www.youtube.com/watch?v=L0s6-5NIS8Q"
-  },
-  {
-    id: 1514,
-    type: "side",
-    category: "Daedric Quests",
-    game: "The Elder Scrolls V: Skyrim",
-    title: "Nocturnal: Trinity Restored",
-    location: "Twilight Sepulcher",
-    length: "long",
-    difficulty: "High",
-    reward: "Nightingale blessing (shared with Thieves Guild)",
-    summary: "Nocturnal's quest, shared with the Thieves Guild's Nightingale arc, restoring the Skeleton Key.",
-    aiTip: "This is the same content as the Thieves Guild finale — completing it there satisfies Nocturnal's Daedric quest too.",
-    walkthrough: [
-      "Follow Karliah and Brynjolf to the Nightingale Hall beneath Nightingale Hall’s entrance.",
-      "Take part in the Oath to Nocturnal at the Ebonmere.",
-      "Become a Nightingale and receive your Nightingale armor and one of three powers.",
-      "With the Trinity restored, press on to hunt Mercer Frey."
-    ],
-    video: "https://www.youtube.com/watch?v=xlRDQ0Nl0FI"
   },
   {
     id: 1516,
@@ -38359,7 +38230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "NPC Questlines",
     game: "Sekiro: Shadows Die Twice",
-    title: "Sculptor's Idol / Kuro's Charm Storyline",
+    title: "The Sculptor's Storyline",
     location: "Dilapidated Temple",
     length: "long",
     difficulty: "Low",
@@ -38371,11 +38242,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     walkthrough: [
       "Return to the Dilapidated Temple and speak with the Sculptor after each major story beat.",
       "Bring him Prosthetic Tools you find so he can attach and upgrade them.",
-      "Listen to his unfolding past as a shinobi hunter and his fear of the Shura.",
-      "Complete his arc's conversations across the playthrough.",
+      "Share sake with him — each kind unlocks more of his past as a shinobi.",
+      "Listen for his fear of the Shura within as his arc unfolds.",
       "His storyline foreshadows the Shura ending — mind your later choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sculptor's%20Idol%20%2F%20Kuro's%20Charm%20Storyline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8li0bLogoU0"
   },
 {
     id: 1824,
@@ -38398,7 +38269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cure Dragonrot by giving her a Dragon's Blood Droplet when NPCs fall ill.",
       "Follow her thread — it feeds directly into the endgame choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Emma%2C%20the%20Physician%20%E2%80%94%20Medicine%20%26%20Story%20Support%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cCHNtFcRqiE"
   },
 {
     id: 1825,
@@ -38533,7 +38404,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather context on the Ashina rebellion and the characters around you.",
       "Follow his thread to its place in the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Isshin%20Ashina%20%E2%80%94%20Elderly%20Lord%20Storyline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gQRGx7V0wFE"
   },
 {
     id: 1831,
@@ -38579,29 +38450,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue fulfilling her requests through to the late game for the full questline payoff."
     ],
     video: "https://www.youtube.com/watch?v=qVajv7Ahdo4"
-  },
-{
-    id: 1833,
-    type: "side",
-    category: "NPC Questlines",
-    game: "Sekiro: Shadows Die Twice",
-    title: "Master of Senpou Temple — Rice & Immortality Questline",
-    location: "Senpou Temple, Mt. Kongo",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Immortality/centipede lore, key items",
-    summary:
-      "The hidden Master of Senpou Temple ties into the source of the game's immortality mechanics and the centipede infestation.",
-    aiTip:
-      "Explore the temple's upper illusion halls between visits — his thread advances as you uncover more of the monks' experiments.",
-    walkthrough: [
-      "Explore Senpou Temple on Mt. Kongo and seek its hidden Master.",
-      "Follow the rice/persimmon and immortality thread through the temple.",
-      "Deliver the required offerings to the relevant NPC (e.g., rice to the ailing).",
-      "Uncover the source of the centipede infestation and the immortality vows.",
-      "Complete the questline for its rewards and lore."
-    ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Master%20of%20Senpou%20Temple%20%E2%80%94%20Rice%20%26%20Immortality%20Questline%20walkthrough"
   },
 {
     id: 1834,
@@ -52499,7 +52347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the Wahaki leaders, by deception or open attack.",
       "Return to Kua for payment."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Tip%20of%20the%20Spear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3fSR2-o1F6U"
   },
 {
     id: 2462,
@@ -54217,7 +54065,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Epilogue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pfF6qH7dBzg"
   },
   {
     id: 2579,
