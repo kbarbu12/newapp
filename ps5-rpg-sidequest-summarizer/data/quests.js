@@ -29825,7 +29825,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the dragon and absorb its soul, confirming to Delphine you are Dragonborn.",
       "Follow Delphine back toward Riverwood to continue the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Blade%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LXf4q6zz3Qo"
   },
   {
     id: 1395,
@@ -30027,7 +30027,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Lure Odahviing to Whiterun with the Call Dragon Shout from the Dragonsreach porch and spring the trap.",
       "Bargain with the captured Odahviing — he agrees to fly you to Skuldafn in exchange for his freedom."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20%28Paarthurnax%27s%20request%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mXFeJVv0zio"
   },
   {
     id: 1405,
@@ -30929,7 +30929,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Emperor's chambers and assassinate Titus Mede II.",
       "Escape the ship and report back to Nazir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hail%20Sithis%21%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G4GgDGfoPuQ"
   },
   {
     id: 1449,
@@ -30993,7 +30993,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill her without witnesses.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Beitild%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Krc69wUeSCk"
   },
   {
     id: 1452,
@@ -31405,7 +31405,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to any of several marked ruins to find Shalidor's Insight tomes.",
       "Return each recovered tome to Tolfdir for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Shalidor%27s%20Insights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Pu4-05M5aGc"
   },
   {
     id: 1473,
@@ -31485,7 +31485,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use detection to find and touch each focus.",
       "Return to Drevis to unlock the master Illusion spells."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Illusion%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nRAr4Wde3YM"
   },
   {
     id: 1477,
@@ -32138,7 +32138,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the locked door and solve the puzzle involving a family secret and murder.",
       "Retrieve Mephala's Ebony Blade from the hidden chamber."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mephala%3A%20The%20Whispering%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yXKLlfdf5_o"
   },
   {
     id: 1511,
@@ -32283,7 +32283,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the audition performance for Viarmo.",
       "Progress the mystery around Giraud Gemane's sabotage attempts."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Tending%20the%20Flames%20%28Bards%20College%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tb_Fp1FGXNM"
   },
   {
     id: 1520,
@@ -32303,7 +32303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to speak with three couples across Skyrim about their love stories.",
       "Return the collected stories to Dinya Balu."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Book%20of%20Love%20%28Divine%20quest%20%E2%80%94%20Mara%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PUufsKrW5TU"
   },
   {
     id: 1521,
@@ -32382,7 +32382,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate ingredients or the completed Phial in a marked dungeon.",
       "Return the item to Nurelion."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Repairing%20the%20Phial%20%28Side%20Quest%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eGxBTdVhLXk"
   },
   {
     id: 1526,
