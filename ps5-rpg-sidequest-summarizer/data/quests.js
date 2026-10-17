@@ -23844,7 +23844,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An Ainu elder asks Atsu to recover an ancestral relic — a carved wooden bear — stolen by bandits who raided their village. Returning it strengthens the Ainu community's trust and unlocks optional Ainu side content.",
     aiTip:
       "The bandit captain guarding the relic uses a buckler shield — the Kusarigama Chain Pull bypasses it instantly. After recovering the relic, do not fast-travel; a second bandit group ambushes the return path.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Ainu+Heirloom+walkthrough",
+    video: "https://www.youtube.com/watch?v=lqtLvddUGJg",
     walkthrough: [
       "Speak with Ainu Elder Ekashi at the village on the Grasslands north edge.",
       "Travel to the bandit camp three kilometres east — approach at dusk for reduced guard density.",
