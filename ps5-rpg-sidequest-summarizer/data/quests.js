@@ -38104,7 +38104,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep deflecting aggressively so posture damage doesn't recover.",
       "Break his posture and land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Naomori%20Kawarada%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gcbxg-3K_qE"
   },
 {
     id: 1808,
@@ -38127,7 +38127,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pressure his posture between his attacks.",
       "Break posture and Deathblow him."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Leader%20Shigenori%20Yamauchi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NVpjO4P7asw"
   },
 {
     id: 1809,
@@ -38150,7 +38150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Chip posture steadily without over-committing.",
       "Break posture and finish with a Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Tenzen%20Yamauchi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oxTQ3wf_Gow"
   },
 {
     id: 1810,
@@ -38402,7 +38402,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stay aggressive; his posture breaks easily.",
       "Land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tokujiro%20the%20Glutton%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M0CoZzlisMQ"
   },
 {
     id: 1822,
@@ -38425,7 +38425,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Its posture and health are low — a couple of hits stagger it.",
       "Land the Deathblow to dispel it."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sword%20Saint's%20Ripples%20(mist%20noble%20variants)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2FJrIJmZxkM"
   },
 {
     id: 1823,
@@ -38493,7 +38493,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report back to receive Gokan's Sugar and unlock further dialogue/items.",
       "Continue speaking with him after major story progress for additional content."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tengu%20of%20Ashina%20%E2%80%94%20Rat%20Hunting%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yhnAcwsv6l4"
   },
 {
     id: 1826,
@@ -38516,7 +38516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Kotaro (found elsewhere) and send him to work for Anayama using the pinwheel item.",
       "Note: giving Kotaro to Anayama forecloses sending him to Nogami Kumano or Doujun — choose carefully."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Anayama%20the%20Peddler%20%26%20Kotaro%20%E2%80%94%20Ashina%20Outskirts%20Merchant%20Chain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GWDzKXkn3hI"
   },
 {
     id: 1827,
@@ -38539,7 +38539,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the thread across your return visits.",
       "See the questline to its (often grim) conclusion based on your choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Inosuke%20Nogami%20%2F%20Nogami%20Gensai%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zYYsOYL6C8o"
   },
 {
     id: 1828,
@@ -38561,7 +38561,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "You can also choose to send Kotaro to him instead of Anayama/Doujun, altering this questline's outcome.",
       "Continue checking in as the story advances for the concluding dialogue."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Jinzaemon%20Kumano%20%E2%80%94%20Swordsman%20Duel%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lpG6fRF9j4M"
   },
 {
     id: 1829,
@@ -38583,7 +38583,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Progressing his storyline reveals a darker side to his methods and eventually leads to a confrontation.",
       "Note: this forecloses the alternate outcomes for Kotaro's other two questline branches."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Doujun%20the%20Priest%20%E2%80%94%20Wandering%20Priest%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hiEio-6UMTU"
   },
 {
     id: 1830,
@@ -38629,7 +38629,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Remove it any time by praying to the Bell Demon at a Sculptor's Idol.",
       "Toggle it on/off to farm or to ease tough stretches."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Old%20Hag%20%E2%80%94%20Demon%20Bell%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RLordFOgrqY"
   },
 {
     id: 1832,
@@ -38651,7 +38651,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Her tasks are essential prerequisites for unlocking the Return ending.",
       "Continue fulfilling her requests through to the late game for the full questline payoff."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Divine%20Child%20of%20Rejuvenation%20%E2%80%94%20Return%20Ending%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVajv7Ahdo4"
   },
 {
     id: 1833,
@@ -38697,7 +38697,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the illusion-hall objectives.",
       "Finish the sidestory for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Illusory%20Hall%20Monk%20%E2%80%94%20Halls%20of%20Illusion%20Sidestory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=htdwS4ryGZM"
   },
 {
     id: 1835,
@@ -38720,7 +38720,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return as you gather more trade goods.",
       "Complete his stock to round out your kit."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Battlefield%20Memorial%20Mob%20%26%20Blackhat%20Badger%20%E2%80%94%20Merchant%20Trade%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bfvRNcJ6Nro"
   },
 {
     id: 1836,
@@ -38743,7 +38743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep collecting Carp Scales from waterways to buy more hints.",
       "Use his intel to complete otherwise obscure questlines."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Fujioka%20the%20Info%20Broker%20%E2%80%94%20Information%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=amtzHquaYGw"
   },
 {
     id: 1837,
@@ -38766,7 +38766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Spend Emblems to fuel it; feed the Sculptor materials to upgrade it.",
       "Deploy it against shielded foes and posture-heavy mini-bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Axe%20%E2%80%94%20Acquisition%20%26%20Upgrade%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t89x2s3xGOw"
   },
 {
     id: 1838,
@@ -38789,7 +38789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (e.g., Projected Force) to counterattack from the block.",
       "Use it against gunners, Snake Eyes, and projectile-heavy fights."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Umbrella%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sjko1Aa9nSo"
   },
 {
     id: 1839,
@@ -38812,7 +38812,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it for more pull power and damage.",
       "Deploy it to disarm/expose armored and parasite-infested enemies."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Spear%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GOK8VsIgjCM"
   },
 {
     id: 1840,
@@ -38835,7 +38835,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (e.g., Spinning/Gyoubu's) for more hits and posture damage.",
       "Use it to control range and interrupt jumps."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Shuriken%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vCvVNCLlfsE"
   },
 {
     id: 1841,
@@ -38858,7 +38858,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (Okinaga's/Spring-load) for bigger bursts.",
       "Use it against beasts and the Guardian Ape, which fear fire."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Flame%20Vent%20%E2%80%94%20Acquisition%20Path%20(Anayama%20the%20Peddler%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PFkYHzO0M80"
   },
 {
     id: 1842,
@@ -38881,7 +38881,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it for faster poison build-up.",
       "Deploy it against rusted/corroded foes and poison-weak bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sabimaru%20%E2%80%94%20Acquisition%20Path%20(Poison-Perfect%20Tool)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgcJcYvXgGU"
   },
 {
     id: 1843,
@@ -38904,7 +38904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade the fire branch to burst enemies with flame on the escape.",
       "Save it for unavoidable heavy hits and clutch escapes."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Mist%20Raven%20%2F%20Mist%20Raven's%20Feathers%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i2hkHYUwXS0"
   },
 {
     id: 1844,
@@ -38927,7 +38927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (Malcontent path later) for a posture-stunning shriek vs apparitions.",
       "Deploy it against beast enemies and certain apparition bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Finger%20Whistle%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20related)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EVX5MCgLASQ"
   },
 {
     id: 1845,
