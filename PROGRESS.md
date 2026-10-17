@@ -7,6 +7,12 @@
 
 ---
 
+## 2026-10-17 — Witcher 3 and Wukong fixes (v2.4.9)
+- W3 #601 "Nameless" merged with duplicate #371 (PR #238). Wukong boss
+  entries fixed: #832 Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840
+  Venom Daoist, #841 Keeper of the Flaming Mountains; #842 removed as a
+  duplicate of #31 (PR #239). 2,465 quests; 19 search links remain.
+
 ## 2026-10-17 — data fixes and the last hand-picked videos
 - Fixed the problems the title check found (PRs #220–#223) and removed
   duplicates BG3 #986 and Deadfire #773.
@@ -15,8 +21,6 @@
   (Wukong #832, #841, BG3 #801), partial/foreign videos only (Sekiro #1824,
   #1833, Metaphor #158, #1078, Deadfire #779), #726 (shares #725's video),
   vague titles (Sekiro #1823, #1830) and no video found for the rest.
-- Still to check: W3 #601 "Nameless" duplicates #371 "The Nameless";
-  Wukong #840 "Duo of Corruption" looks invented; #832/#841 pair bosses oddly.
 
 ## 2026-10-17 — verified videos applied to the app
 - 1,364 quests across 17 games now use real `watch?v=` videos (PRs
