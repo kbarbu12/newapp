@@ -8281,17 +8281,17 @@ const quests = [
     difficulty: "Low",
     reward: "Vineyard reward, coin",
     summary:
-      "Help feuding Toussaint vineyards outmaneuver each other in a series of estate errands.",
+      "If you finish The Deus in the Machina before Vermentino and Coronata, the two vineyards' troubles merge into one quest: help rival heirs Liam and Matilda clear their estates of monsters and sabotage.",
     aiTip:
-      "Completing the Wine Wars chain unlocks discounts and a tidy sum.",
+      "Save before talking to the vineyard owners — finishing both estates' tasks under Consorting is what lets Liam and Matilda take Belgaard together.",
     walkthrough: [
-      "Start the Wine Wars errand for one of Toussaint's rival vineyards.",
-      "Travel to the marked site and clear the monsters harming the estate.",
-      "Complete the task the vintner needs (sabotage or recovery).",
-      "Report back to boost the vineyard's fortunes.",
-      "Collect the reward and progress the Wine Wars chain."
+      "Turn in Wine Wars: The Deus in the Machina while Vermentino and Coronata are still open — they merge into Consorting.",
+      "Meet Liam of Vermentino and Matilda of Coronata, heirs of the feuding vineyards.",
+      "Clear the monsters plaguing both estates' vineyards.",
+      "Follow the sabotage trail to its source and destroy what is poisoning the vines.",
+      "Report back to both families, then continue to Wine Wars: Belgaard."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Wine%20Wars%3A%20Consorting%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EqLq7n0xcQU"
   },
 {
     id: 380,
