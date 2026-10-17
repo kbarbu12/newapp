@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (4)
+
+- **Merge Witcher 3 duplicate Nameless quests into #601** (PR #238) —
+  `v2.4.9` patch. #601 "Nameless" is now the Hindarsfjall main quest with
+  a 5-step walkthrough and video; duplicate #371 "The Nameless" removed.
+- **Fix Black Myth: Wukong boss entries and remove a duplicate** (PR #239).
+  #832 is now Whiteclad Noble, new #2592 Baw-Li-Guhh-Lang, #840 the Venom
+  Daoist (replacing the made-up "Duo of Corruption"), #841 Keeper of the
+  Flaming Mountains & Yin-Yang Fish; #842 removed as a duplicate of #31
+  The Five Element Carts (now filed under Chapter 5). Quest count
+  2,466 → 2,465; 19 quests left on a YouTube search link.
+
 ## 2026-10-17 (3)
 
 - **Data fixes from the video check** (PRs #220–#223) — `v2.4.8` patch.
