@@ -5526,7 +5526,7 @@ const quests = [
       "Handle the Flathead deal — pay, use the chip, or start a firefight.",
       "Leave with the Flathead bot and regroup with Jackie."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2RsUAOpAshA"
   },
 {
     id: 255,
@@ -5548,7 +5548,7 @@ const quests = [
       "Scrub through the recorded infiltration in the BD editor across visual, thermal, and audio layers.",
       "Tag the clues (window, guard route, vault) to finish planning."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ouX-aZME6W8"
   },
 {
     id: 256,
@@ -5570,7 +5570,7 @@ const quests = [
       "Reach out to Vik and Misty for help.",
       "Track the first lead toward removing the relic."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=58lnnHRStUA"
   },
 {
     id: 257,
@@ -5592,7 +5592,7 @@ const quests = [
       "Confront Woodman about what happened after the heist.",
       "Get the lead on Evelyn's whereabouts."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Nvo2GdojOQo"
   },
 {
     id: 258,
@@ -5614,7 +5614,7 @@ const quests = [
       "Find Evelyn and recover the stolen relic data.",
       "Escape as the situation turns grim."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4KUoPVVT7jE"
   },
 {
     id: 259,
@@ -5636,7 +5636,7 @@ const quests = [
       "Jack in and confront the NetWatch agent's offer.",
       "Choose a side and survive the netrun."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FrznfpFxYK0"
   },
 {
     id: 260,
@@ -5658,7 +5658,7 @@ const quests = [
       "Rescue Takemura and grab Hanako's captor.",
       "Interrogate the captor before the parade."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=h6ZqBUnUpf8"
   },
 {
     id: 261,
@@ -5680,7 +5680,7 @@ const quests = [
       "Defeat or spare Oda in the duel.",
       "Secure the meeting with Hanako."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ABpKChDqOzA"
   },
 {
     id: 262,
@@ -5702,7 +5702,7 @@ const quests = [
       "Confront Adam Smasher and the tower's defenses.",
       "See the raid to its tragic end."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nH7D3KoNQcM"
   },
 {
     id: 263,
@@ -5724,7 +5724,7 @@ const quests = [
       "Make your peace and choose the path to Arasaka.",
       "Commit to the final approach."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 264,
@@ -5746,7 +5746,7 @@ const quests = [
       "Say goodbye to Johnny at the crossroads.",
       "Leave the city behind in search of a cure."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVmqLU5MSKE"
   },
 {
     id: 265,
@@ -5768,7 +5768,7 @@ const quests = [
       "Reach Mikoshi and make the final choice.",
       "Cement V's legend and take Mr. Blue Eyes' offer."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k9AzTRFN-HQ"
   },
 {
     id: 266,
@@ -5814,7 +5814,7 @@ const quests = [
       "Adapt — fight, hack, or flee the chaos.",
       "Escape with the goods and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PSYuEQ0VJ4w"
   },
 {
     id: 268,
@@ -5858,7 +5858,7 @@ const quests = [
       "Subdue or coax each fractured cab personality.",
       "Reboot them all and confront the core AI at the depot."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l16-tzNDsho"
   },
 {
     id: 270,
@@ -5880,7 +5880,7 @@ const quests = [
       "Handle the double-crossing parties who want a cut.",
       "Escape with the score and cash out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZsTPTBog5OI"
   },
 {
     id: 271,
@@ -5902,7 +5902,7 @@ const quests = [
       "Share memories of Jackie and make your choices about his bike and gear.",
       "Say goodbye to your fallen partner."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aTqXhdXAyaU"
   },
 {
     id: 272,
@@ -5924,7 +5924,7 @@ const quests = [
       "Steal the Basilisk and escape the pursuit.",
       "Cement V's bond with the nomad family."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vnZGLOpZw3Y"
   },
 {
     id: 273,
@@ -5948,7 +5948,7 @@ const quests = [
       "Follow the relaxed dialogue beats.",
       "Turn in for the night to close the scene."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s4kOm7UMy-A"
   },
 {
     id: 274,
@@ -5970,7 +5970,7 @@ const quests = [
       "Confront the culprit tied to the corrupt politician.",
       "Share the water-tower moment with River afterward."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1X82PXbG2uc"
   },
 {
     id: 275,
@@ -5994,7 +5994,7 @@ const quests = [
       "Choose how to handle Maiko's counteroffer.",
       "Live with the fallout of the deal."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-UCSeww04v4"
   },
 {
     id: 276,
@@ -6018,7 +6018,7 @@ const quests = [
       "Complete the objective by force, hacking, or talk.",
       "Resolve the dispute and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HGhIOvc9s5w"
   },
 {
     id: 277,
@@ -6040,7 +6040,7 @@ const quests = [
       "Witness or take part in the recorded ordeal.",
       "Resolve the disturbing job and reflect on it."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_zCj4JQIwNc"
   },
 {
     id: 278,
@@ -6061,7 +6061,7 @@ const quests = [
       "Grab Jotaro Shobo.",
       "Drop him in the trunk of the marked car."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=H2lU2Rk8srs"
   },
 {
     id: 279,
@@ -6082,7 +6082,7 @@ const quests = [
       "Find Max and lead him down the yellow stairs to the car.",
       "Drive off and leave him at the nearby drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gIppgmLnpsk"
   },
 {
     id: 280,
@@ -6103,7 +6103,7 @@ const quests = [
       "Optionally take Dan's car too, for the bonus.",
       "Deliver it to Dan upstairs at the Luxury Apartments in western Charter Hill."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3NiREqC-k4w"
   },
 {
     id: 281,
@@ -6124,7 +6124,7 @@ const quests = [
       "Take the car.",
       "Drive it to Jake."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Tpb97TO7e_Q"
   },
 {
     id: 282,
@@ -6145,7 +6145,7 @@ const quests = [
       "Reach room 203 through room 200 and across the balcony for the beta acid.",
       "Deposit it at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Jt-6hYySVJ4"
   },
 {
     id: 283,
@@ -6166,7 +6166,7 @@ const quests = [
       "Find and talk to Hwangbo.",
       "Escort him to the nomad meeting and talk to him before leaving."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ThmoTXjbfIs"
   },
 {
     id: 284,
@@ -6187,7 +6187,7 @@ const quests = [
       "Take the coolant from the bathroom sink and lower her body temperature.",
       "Disconnect her using the wall screen by the door."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4FiIEy62v6E"
   },
 {
     id: 285,
@@ -6207,7 +6207,7 @@ const quests = [
       "Enter by the first blue door (Body 5), the upstairs door (Tech 7) or the door left of the garage.",
       "Get the data and leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVT2aRLnGBs"
   },
 {
     id: 286,
@@ -6228,7 +6228,7 @@ const quests = [
       "Subdue Zion Wylde non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IZmRjPBx3yk"
   },
 {
     id: 287,
@@ -6248,7 +6248,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
+    video: "https://www.youtube.com/watch?v=34OvcZxR0mI"
   },
 {
     id: 288,
@@ -6269,7 +6269,7 @@ const quests = [
       "Subdue Russell Greene non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tqEsXY-zJK8"
   },
 {
     id: 289,
@@ -6290,7 +6290,7 @@ const quests = [
       "Subdue Chase Coley non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PLJXjhqRQds"
   },
 {
     id: 290,
@@ -6311,7 +6311,7 @@ const quests = [
       "Subdue Ellis Carter non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CWYPo0mc3aA"
   },
 {
     id: 291,
@@ -6332,7 +6332,7 @@ const quests = [
       "Subdue Zaria Hughes non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jIeZW4TM0RA"
   },
 {
     id: 292,
@@ -6374,7 +6374,7 @@ const quests = [
       "Subdue Matt Liaw non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dPAWfoydZMk"
   },
 {
     id: 294,
@@ -6395,7 +6395,7 @@ const quests = [
       "Subdue Lt. Mower, staying out of the water.",
       "Take the shard 'Archived Conversation: Dr. Martin Sypura and Lt. Mower' and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LLleOA68Ths"
   },
 {
     id: 295,
@@ -6416,7 +6416,7 @@ const quests = [
       "Subdue Alec Johnson non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p8VlMpRFhb4"
   },
 {
     id: 296,
@@ -6436,7 +6436,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRI-j_pWRQI"
   },
 {
     id: 297,
@@ -6457,7 +6457,7 @@ const quests = [
       "Subdue Cedric Muller non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DJIA38PHRJI"
   },
 {
     id: 298,
@@ -6477,7 +6477,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_1iBsy9Yhvg"
   },
 {
     id: 299,
@@ -6497,7 +6497,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
+    video: "https://www.youtube.com/watch?v=H9cm9TANZ38"
   },
 {
     id: 300,
@@ -6518,7 +6518,7 @@ const quests = [
       "Subdue Gaston Phillips non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oz8CD89TfFo"
   },
 {
     id: 301,
@@ -6560,7 +6560,7 @@ const quests = [
       "Subdue Tamara Cosby non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g2bXLkXxvw0"
   },
 {
     id: 303,
@@ -6582,7 +6582,7 @@ const quests = [
       "Fight through Barghest to reach the crash site.",
       "Link with Songbird to begin the rescue of President Myers."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SdY4rRjVnjI"
   },
 {
     id: 304,
@@ -6604,7 +6604,7 @@ const quests = [
       "Locate President Myers in the debris.",
       "Extract Myers and escape Hansen's forces."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5X26Bue6dBg"
   },
 {
     id: 305,
@@ -6626,7 +6626,7 @@ const quests = [
       "Follow the lead toward Hansen and Songbird's plan.",
       "Complete the op and slip out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j1lGlD6yya4"
   },
 {
     id: 306,
@@ -6648,7 +6648,7 @@ const quests = [
       "Destroy the Chimera, exploiting its weak points between attacks.",
       "Press on toward Songbird."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S4g3CyOLRYg"
   },
 {
     id: 307,
@@ -6670,7 +6670,7 @@ const quests = [
       "Make the pivotal choice.",
       "Live with the consequences of the ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CchPsoJDRuk"
   },
 {
     id: 308,
@@ -6692,7 +6692,7 @@ const quests = [
       "Complete the objective by stealth, hacking, or force.",
       "Report back to Mr. Hands for the pay."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WY6tVc_R8EA"
   },
 {
     id: 309,
@@ -6714,7 +6714,7 @@ const quests = [
       "Complete the mission's key objective.",
       "Make the choice that tests where V's loyalties lie."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ouWD4_RTRvY"
   },
 {
     id: 310,
@@ -11284,7 +11284,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pull Sandra off the operating table and revive her.",
       "Fight out to the balcony and escape via the AV pickup."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tWTnk4dbhM0"
   },
 {
     id: 518,
@@ -11306,7 +11306,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get the Kiroshi optics and Militech arm installed.",
       "Test the new scanner cyberware before leaving."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m1NWiDFZH3I"
   },
 {
     id: 519,
@@ -11328,7 +11328,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Answer his questions to pitch yourself for the heist.",
       "Agree to bring in the Flathead to seal the job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=prvqIBE2I68"
   },
 {
     id: 520,
@@ -11350,7 +11350,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Plant the charge and push deeper into the tower.",
       "Play out the raid's fateful turn to end the memory."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=88xVbymegNk"
   },
 {
     id: 521,
@@ -11372,7 +11372,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow her lead on the stolen goods and Nash.",
       "Set up the next move against the raffen."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FLP4JCkfuFQ"
   },
 {
     id: 522,
@@ -11394,7 +11394,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ambush Nash's convoy and clear his crew.",
       "Recover the stolen goods and settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6--Dpa6vkYw"
   },
 {
     id: 523,
@@ -11416,7 +11416,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Capture Hellman and interrogate him about the relic.",
       "Escape the Militech response and decide Hellman's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eYAOd5vxLH8"
   },
 {
     id: 524,
@@ -11438,7 +11438,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow the trail she points you toward.",
       "Regroup with Takemura to set the next step."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EnlRoxVfpSc"
   },
 {
     id: 525,
@@ -11460,7 +11460,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find the infiltration route for the heist.",
       "Report the plan back to Takemura."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
+    video: "https://www.youtube.com/watch?v=78semLBmPS4"
   },
 {
     id: 526,
@@ -11482,7 +11482,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the task they set as a test.",
       "Earn their attention to get help with the relic."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8A2f16nE4lM"
   },
 {
     id: 527,
@@ -11504,7 +11504,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose your replies as they slowly find common ground.",
       "End the scene to continue the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t8JxLx6Td9A"
   },
 {
     id: 528,
@@ -11548,7 +11548,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Punch into the tower and push toward Mikoshi.",
       "Fight through to reach the Mikoshi access."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4ujRSKJFgVs"
   },
 {
     id: 530,
@@ -11570,7 +11570,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose who takes V's body — V, Johnny, or another path.",
       "Cross the bridge to lock in the ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zn4cw_7e1TI"
   },
 {
     id: 531,
@@ -11592,7 +11592,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Live through the grim 'Devil' aftermath.",
       "Make the final phone-call choice to end V's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oA7QKVQixrs"
   },
 {
     id: 532,
@@ -11614,7 +11614,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Board the convoy leaving Night City.",
       "Ride into the sunset toward a possible cure."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_QXsGhKLwd8"
   },
 {
     id: 533,
@@ -11636,7 +11636,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the chaos at his place.",
       "Set up the next beat of his questline."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NfnaTT2zT2c"
   },
 {
     id: 534,
@@ -11658,7 +11658,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advise Kerry on whether to reunite the band.",
       "Support his decision and move on."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ShnBI-DTMWA"
   },
 {
     id: 535,
@@ -11680,7 +11680,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help the young musician tied to it.",
       "Recover the guitar for Kerry."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NkY439GtemM"
   },
 {
     id: 536,
@@ -11702,7 +11702,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the wild favor.",
       "Wrap it up with Kerry."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fj5KbVQBllo"
   },
 {
     id: 537,
@@ -11724,7 +11724,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the romance-or-friendship choice.",
       "See the night to its close."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qJvqDQuwZos"
   },
 {
     id: 538,
@@ -11746,7 +11746,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Share the reflective moment with Kerry.",
       "Cap his arc on a hopeful note."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tZFTnEkptuw"
   },
 {
     id: 539,
@@ -11768,7 +11768,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with Woodman and the guards.",
       "Complete the hit and check on Judy."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hHg1RTJ3tvc"
   },
 {
     id: 540,
@@ -11816,7 +11816,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Share the intimate moment underwater and after.",
       "Advance (or begin) Judy's romance."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PPnYhx9vOnI"
   },
 {
     id: 542,
@@ -11838,7 +11838,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by your chosen method.",
       "Resolve the unsettling job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8H4Xi70Nt1E"
   },
 {
     id: 543,
@@ -11860,7 +11860,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the deranged crew.",
       "Escape one of Night City's weirdest nights."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-AdFlVcPI_4"
   },
 {
     id: 544,
@@ -11882,7 +11882,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight or hack your way out of the trap.",
       "Recover and settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UHfdmud_NwE"
   },
 {
     id: 545,
@@ -11904,7 +11904,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the tasks under the desert sky.",
       "Give him his peace."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E_qpaMONZDc"
   },
 {
     id: 546,
@@ -11926,7 +11926,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help it resolve the issue.",
       "Decide the android's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eqQqdVW8Vtk"
   },
 {
     id: 547,
@@ -11948,7 +11948,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective without being burned.",
       "Collect your pay and get out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pElrRl9prT4"
   },
 {
     id: 548,
@@ -11970,7 +11970,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover the draw it holds over members.",
       "Resolve the disturbing situation."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2TFu07HudnU"
   },
 {
     id: 549,
@@ -11992,7 +11992,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track him down.",
       "Shut him down for good."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JDvQMmcpqLQ"
   },
 {
     id: 550,
@@ -12014,7 +12014,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the fallout by force or talk.",
       "Close out the job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tbFVYwxiG-k"
   },
 {
     id: 551,
@@ -12036,7 +12036,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective.",
       "Give the story its quiet ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=17Z5Bbk1k3Y"
   },
 {
     id: 552,
@@ -12058,7 +12058,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the deck and uncover its secrets.",
       "Deal with what you find inside."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gBSNykrpGQc"
   },
 {
     id: 553,
@@ -12080,7 +12080,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Breach the corporate systems behind it.",
       "Expose the scheme and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s653nkEXfVQ"
   },
 {
     id: 554,
@@ -12102,7 +12102,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the fallout of the earlier choice.",
       "Bring the story to a close."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uS4x5-uHoyw"
   },
 {
     id: 555,
@@ -12124,7 +12124,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the choice that can spark the old-flame romance.",
       "See the evening through."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aR-rjLuF2QE"
   },
 {
     id: 556,
@@ -12146,7 +12146,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose your replies to deepen the bond.",
       "End the rare quiet night together."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yfk0liWvz3c"
   },
 {
     id: 557,
@@ -12168,7 +12168,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Steer the dialogue between the old friends.",
       "Resolve the reunion for better or worse."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pkrazQvBK3w"
   },
 {
     id: 558,
@@ -12189,7 +12189,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Escape in the van.",
       "Park it in the lot by the Pacifica market."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6HXVh6Ch7Qs"
   },
 {
     id: 559,
@@ -12210,7 +12210,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize Blake.",
       "Leave the area."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0JrODkFxe94"
   },
 {
     id: 560,
@@ -12252,7 +12252,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Quietly take out the Animal, then deal with Rebeca at her computer.",
       "Carry her to the waiting car's trunk (or, if she's dead, just leave)."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uWqWiY8AOz0"
   },
 {
     id: 562,
@@ -12273,7 +12273,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take the medicine from the cabinet.",
       "Deliver it to the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0E3zlK-Od4k"
   },
 {
     id: 563,
@@ -12293,7 +12293,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Go down to the basement of the large building.",
       "Find Big Pete and decide: kill him, let him go, or accept his offer."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6oryy_moJ8A"
   },
 {
     id: 564,
@@ -12314,7 +12314,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the third floor and talk to or flatline Tucker Albach.",
       "Open her office safe if you talked to her, then leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jOySTreFg6k"
   },
 {
     id: 565,
@@ -12334,7 +12334,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take the stairs to the roof and jump down to the lower level, then the ground.",
       "Cross the road to the car and get her in."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AZLXugqA-74"
   },
 {
     id: 566,
@@ -12355,7 +12355,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get the shard (Body 20 door, or the mined underground route).",
       "Plug it into Chang Hoon Nam's neural port and talk to him — he becomes a quickhack vendor."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KQlDTrnNhug"
   },
 {
     id: 567,
@@ -12376,7 +12376,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Talk to the Mox woman upstairs.",
       "Find Hal in the big blue shipping container downstairs, then wait for Regina's call."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=80aNLEEoUBE"
   },
 {
     id: 568,
@@ -12397,7 +12397,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take it and leave.",
       "Deposit it at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ea5d7Q1JrTc"
   },
 {
     id: 569,
@@ -12418,7 +12418,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to the fixer for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sAlrujgxvr4"
   },
 {
     id: 570,
@@ -12438,7 +12438,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Karubo Bairei.",
       "Neutralize him and leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=F3Lck0ennrc"
   },
 {
     id: 571,
@@ -12459,7 +12459,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Optionally inject the patient with synthetic blood.",
       "Persuade her to leave and escort her out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hZmfki8_lQU"
   },
 {
     id: 572,
@@ -12480,7 +12480,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Sneak through the garage, drop underground and climb the ladder.",
       "Reach Matheus Stove's office and take what you came for."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T5qWXImre64"
   },
 {
     id: 573,
@@ -12501,7 +12501,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to the fixer for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-mtkXXJ_GJs"
   },
 {
     id: 574,
@@ -12522,7 +12522,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the second-level office above the stage and steal the data.",
       "Leave the club."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bqg5c92B_Pc"
   },
 {
     id: 575,
@@ -12542,7 +12542,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up the braindance to start the cutscene.",
       "Follow the Over the Edge story to the end for David's Edgerunners jacket."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xzKbYnZTvPY"
   },
 {
     id: 576,
@@ -12563,7 +12563,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Optionally open the safe.",
       "Deposit the datashard at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ifq15zJzLQg"
   },
 {
     id: 577,
@@ -12584,7 +12584,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize him.",
       "Leave the club."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vBD5DbzUdXo"
   },
 {
     id: 578,
@@ -12605,7 +12605,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Carry his body out of the outpost.",
       "Put it in your trunk."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JdIchMcT5_s"
   },
 {
     id: 579,
@@ -12626,7 +12626,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get him into the car.",
       "Hand the car to the nomad waiting outside."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
+    video: "https://www.youtube.com/watch?v=df4-8ZSHYvk"
   },
 {
     id: 580,
@@ -12647,7 +12647,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize Gustavo Orta.",
       "If he's alive, carry him to the car below; otherwise just leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BCzIr_3qPK8"
   },
 {
     id: 581,
@@ -12667,7 +12667,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find the van.",
       "Steal it and finish the job as Regina asks."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eej4TIqhEZA"
   },
 {
     id: 582,
@@ -12688,7 +12688,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deliver it to the nomads' garage on Russell St.",
       "Park it and leave the area."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u8uu1NFihXQ"
   },
 {
     id: 583,
@@ -12710,7 +12710,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective Reed sets.",
       "Set up the next step of the plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x0u307nzunU"
   },
 {
     id: 584,
@@ -12732,7 +12732,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle Barghest's growing pressure.",
       "Ready everything for the rescue."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LAnlRG9c80U"
   },
 {
     id: 585,
@@ -12754,7 +12754,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Weigh loyalty to Reed against sympathy for Songbird.",
       "Make your choice and see it through."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zpyCj3fnAA0"
   },
 {
     id: 586,
@@ -12796,7 +12796,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to Mr. Hands for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VRrJGMacNb8"
   },
 {
     id: 588,
@@ -12817,7 +12817,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Talk to the prisoner, Hasan, and help him leave.",
       "Deposit the schematics in the drop box."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7V_b9g7nMBM"
   },
 {
     id: 589,
