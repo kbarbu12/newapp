@@ -8107,29 +8107,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=sMReQTykjII"
   },
 {
-    id: 371,
-    type: "side",
-    game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
-    title: "The Nameless",
-    location: "Skellige",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Wild Hunt lore, Craite alliance",
-    summary:
-      "A Skellige mystery ties an amnesiac stranger to the wider Wild Hunt saga.",
-    aiTip:
-      "Read the environmental clues; the payoff informs the main story.",
-    walkthrough: [
-      "Begin the Skellige questline investigating the mysterious 'Nameless' figure.",
-      "Follow the trail with Witcher Senses through the isle's ruins.",
-      "Piece together the truth behind the legend, clearing the guardians.",
-      "Confront the being at the heart of the mystery.",
-      "Resolve the encounter and report back."
-    ],
-    video: "https://www.youtube.com/watch?v=ASDXJimZdOU"
-  },
-{
     id: 372,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
@@ -13109,22 +13086,20 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Nameless",
-    location: "Skellige",
+    location: "Freya's Garden, Hindarsfjall",
     length: "medium",
-    difficulty: "High",
-    reward: "Ciri reunion, Wild Hunt closes in",
-    summary:
-      "The pieces come together on Skellige as Geralt finally closes on Ciri and Uma's curse.",
-    aiTip:
-      "Leads into Ugly Baby and the Kaer Morhen preparations — a major story turn.",
+    difficulty: "Medium",
+    reward: "XP, Ciri's trail on Skellige",
+    summary: "Following Ciri's trail with Yennefer, Geralt searches the overgrown Freya's Garden on Hindarsfjall for Craven, the last man who saw her.",
+    aiTip: "The cursed werewolf Morkvarg haunts the garden and keeps coming back — finish In Wolf's Clothing while you're here to deal with him for good.",
     walkthrough: [
-      "Follow Yennefer's plan to the mysterious isle to find Ciri's trail.",
-      "Explore the fog-bound island, using Senses through the ruins.",
-      "Clear the wraiths and guardians blocking the path.",
-      "Uncover the truth of the 'Nameless' presence there.",
-      "Resolve the encounter and gain the next lead."
+      "After Missing Persons, reach the locked gate of Freya's Garden on Hindarsfjall.",
+      "Climb the stairs beside the gate to the garden walls and find the tree where Craven left a blood offering.",
+      "Use your Witcher Senses to follow Craven's footprints around the garden to a locked door.",
+      "On the garden's east side, work the two levers to set the three sluice gates and open the way through.",
+      "Follow the trail to Craven and learn where Ciri went next."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Nameless%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ASDXJimZdOU"
   },
 {
     id: 602,
