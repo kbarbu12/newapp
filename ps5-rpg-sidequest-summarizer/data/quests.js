@@ -16328,29 +16328,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=lS538jbrzMY"
   },
 {
-    id: 773,
-    category: "Main Quest",
-    type: "main",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "Hasongo",
-    location: "Hasongo",
-    length: "medium",
-    difficulty: "High",
-    reward: "Eothas's trail, faction stakes",
-    summary:
-      "Reach the fortress island of Hasongo to catch Eothas's trail and get drawn into the powers' schemes.",
-    aiTip:
-      "Which faction you help here begins to steer the archipelago's fate.",
-    walkthrough: [
-      "Sail to the fortress island of Hasongo to pick up Eothas's trail.",
-      "Deal with the Naga and the factions vying over the lighthouse.",
-      "Uncover the clue directing you deeper into the archipelago.",
-      "Report back and choose which power's schemes to entertain."
-    ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20walkthrough"
-  },
-{
     id: 774,
     category: "Main Quest",
     type: "main",
