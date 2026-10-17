@@ -1777,28 +1777,6 @@ const quests = [
     video: "https://www.youtube.com/watch?v=Onqo49V1w6M"
   },
 {
-    id: 62,
-    category: "Side Quest",
-    type: "side",
-    game: "Pillars of Eternity II: Deadfire",
-    title: "A Sorcerer and a Gentleman",
-    location: "Arkemyr's Manor, Periki's Overlook",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Arkemyr's grimoire, rare scrolls, companion quest progression",
-    summary:
-      "Break into the manor of the archmage Arkemyr to steal his grimoire. A heist-style quest where stealth and disguises work better than combat — you can even wear Arkemyr's own robes to fool his servants.",
-    aiTip:
-      "Find Arkemyr's robes on the second floor and equip them immediately. The imps and constructs won't attack you while disguised, making the whole heist trivial.",
-    walkthrough: [
-      "Accept the job to steal Arkemyr's grimoire and reach his manor in Periki's Overlook.",
-      "Slip in via the servants' routes — disguises and Arkemyr's own robes fool the staff.",
-      "Bypass the imps and wards guarding the study rather than brawling through.",
-      "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
-    ],
-    video: "https://www.youtube.com/watch?v=9WKJmR1SZBQ"
-  },
-{
     id: 63,
     category: "Task",
     type: "side",
@@ -16331,22 +16309,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "The Coming Storm / A Glimpse Beyond",
-    location: "Ukaizo approach",
+    title: "The Coming Storm",
+    location: "Ondra's Mortar → Ukaizo",
     length: "long",
     difficulty: "High",
     reward: "Ukaizo unlocked, endgame",
     summary:
-      "Secure passage past the Storm of Ukaizo to reach the lost Engwithan city and the god's final act.",
+      "With Eothas headed for Ukaizo, find a way through the storms of Ondra's Mortar — by shutting down the Engwithan machine at Ondra's Spire or taking Rauatai's submarine — to reach the lost city.",
     aiTip:
       "Requires a faction's help to cross — the endgame branches hard on your choices.",
     walkthrough: [
-      "Secure the means to cross the Storm of Ukaizo from your chosen faction.",
-      "Prepare ship and crew for the final voyage.",
-      "Break through the storm to sight the lost Engwithan city.",
-      "Approach Ukaizo for the confrontation with Eothas."
+      "After He Waits in Fire, decide which faction (if any) will help you reach Ukaizo.",
+      "Sail to Ondra's Mortar, the storm wall around Ukaizo.",
+      "Shut down the Engwithan machine at Ondra's Spire to calm the storms — or take Rauatai's submarine if you sided with them.",
+      "Sail through to Ukaizo Harbor to finish the quest and begin The City Lost to Time."
     ],
-    video: "https://www.youtube.com/watch?v=EVYXdnpgoLU"
+    video: "https://www.youtube.com/watch?v=2mXZlfxe2Cs"
   },
 {
     id: 776,
@@ -16577,29 +16555,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose how to answer Rymrgand to earn the DLC's rewards."
     ],
     video: "https://www.youtube.com/watch?v=Y4wFxdNn-BQ"
-  },
-{
-    id: 786,
-    category: "Expansion Quest",
-    type: "side",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "Seeker, Slayer, Survivor (DLC)",
-    location: "Old City arena",
-    length: "long",
-    difficulty: "High",
-    reward: "Combat trials, prestige gear",
-    summary:
-      "Compete in the spectral arena of the Faces of War for glory and powerful loot.",
-    aiTip:
-      "A combat-focused DLC — ideal for testing a min-maxed party build.",
-    walkthrough: [
-      "Enter the Old City arena and register for the Faces of War (DLC).",
-      "Fight through the escalating spectral combat trials.",
-      "Adapt your party to each themed challenge wave.",
-      "Win the final bout for the arena's powerful loot."
-    ],
-    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 787,
