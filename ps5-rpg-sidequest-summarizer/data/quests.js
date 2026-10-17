@@ -10190,7 +10190,7 @@ const quests = [
       "Fight through to the commander and defeat him.",
       "Escape and complete the mission, deepening the Ghost's legend."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shadow%20of%20the%20Samurai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gYiTxgD1Q_s"
   },
 {
     id: 470,
@@ -10304,7 +10304,7 @@ const quests = [
       "Follow the tale to its final challenge.",
       "Complete it to learn the Way of the Flame."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Undying%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4DHDrZKzAzI"
   },
 {
     id: 475,
@@ -10391,7 +10391,7 @@ const quests = [
       "Complete the errands to Kenji's plan.",
       "Finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Servant%20of%20the%20People%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g_JJCP5BJ58"
   },
 {
     id: 479,
@@ -19956,7 +19956,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Climb the lighthouse. Sadao is already dead.",
       "Talk to Masako about the conspirators still in Toyotama."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Traitor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q9UKSNkvLGY"
   },
 {
     id: 920,
@@ -20103,7 +20103,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight off the ambush of 10 to 12 bandits.",
       "Find Kenji in the swamp to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Delicate%20Art%20of%20Negotiation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eqq0syhi_ag"
   },
 {
     id: 927,
