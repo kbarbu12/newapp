@@ -21,3 +21,41 @@ Format: `{questId: videoId}`, except `vidcands.json` (rows `{id,g,t,c,u,v}`,
 | sky.json | Skyrim | 129 | claude.ai/artifact/TmiWpbGzxapKRM62k7GYUw |
 | totk.json | Zelda: Tears of the Kingdom | 217 | claude.ai/artifact/MStSqBWsCMyM9jLagXoGQg |
 | left.json | Leftovers: Skyrim, Witcher 3, Pillars I & II | 18 | claude.ai/artifact/UDZhgTgMtErLokRpSjajSn |
+
+## Title check (2026-10-17)
+
+`title-check.json` records a check of every candidate above (1,440 links).
+For each quest, YouTube was searched for the quest title. A row is `match`
+if the candidate video came up in the results (a second title wording was
+tried before giving up), otherwise `notfound`.
+
+- `notfound` only means the video did not come up in a title search. It may
+  still be the right video; treat it as "needs a look", not "wrong".
+- `foundAs` is the YouTube title the video was found under.
+- `note` holds alternative videos (`alt <videoId> (<title>)`) and data
+  problems spotted along the way (wrong in-game titles, likely duplicates).
+- #353 is included but was already removed from `quests.js` as a duplicate
+  of #628.
+
+**1,308 of 1,440 match (91%).**
+
+| Game | Match | Not found (quest IDs) |
+|---|---|---|
+| Assassin's Creed Valhalla | 134 / 142 | 1876, 1894, 1903, 1904, 1948, 1963, 1971, 1990 |
+| Baldur's Gate 3 | 78 / 87 | 794, 801, 947, 965, 986, 988, 991, 993, 1003 |
+| Black Myth: Wukong | 0 / 4 | 832, 840, 841, 842 |
+| Cyberpunk 2077 | 120 / 128 | 266, 268, 292, 301, 528, 540, 560, 586 |
+| Demon's Souls | 8 / 12 | 141, 747, 748, 752 |
+| Elden Ring | 25 / 38 | 804, 805, 810, 811, 813, 819, 823, 824, 825, 1015, 1021, 1025, 1026 |
+| Final Fantasy VII Rebirth | 48 / 54 | 313, 639, 643, 644, 647, 648 |
+| Ghost of Tsushima | 35 / 40 | 469, 474, 478, 919, 926 |
+| Ghost of Yōtei | 103 / 104 | 1232 |
+| Horizon Forbidden West | 52 / 62 | 390, 396, 397, 400, 401, 668, 1375, 1387, 2573, 2578 |
+| Metaphor: ReFantazio | 20 / 39 | 18, 82, 83, 156, 158, 719, 720, 725, 726, 728, 730, 731, 732, 733, 740, 742, 745, 1078, 1092 |
+| Persona 5 Royal | 43 / 48 | 446, 447, 676, 686, 2561 |
+| Pillars of Eternity | 102 / 106 | 757, 2394, 2397, 2443 |
+| Pillars of Eternity II: Deadfire | 104 / 112 | 773, 777, 779, 784, 2463, 2481, 2510, 2540 |
+| Sekiro | 19 / 27 | 1821, 1823, 1824, 1825, 1828, 1829, 1830, 1833 |
+| Skyrim | 130 / 140 | 1394, 1404, 1448, 1451, 1472, 1476, 1510, 1519, 1520, 1524 |
+| Zelda: Tears of the Kingdom | 214 / 217 | 1695, 1741, 1742 |
+| The Witcher 3 | 73 / 80 | 369, 379, 601, 609, 621, 625, 634 |
