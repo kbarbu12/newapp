@@ -39231,7 +39231,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track Kjotve's men to their camp and confront them.",
       "Complete the confrontation to trigger Eivor's memory of the wolf and the childhood massacre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Bound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4TK3mUh3OfQ"
   },
 {
     id: 1858,
@@ -39255,7 +39255,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink the seer's brew to enter the guided vision.",
       "Follow the dream sequence to its end to return to the waking world."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Seer's%20Solace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iBx1fg9GgM4"
   },
 {
     id: 1859,
@@ -39279,7 +39279,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to the longhouse for the feast and clan discussion.",
       "Follow the conversation about Kjotve and the clan's future to close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tT9OH_Qjuik"
   },
 {
     id: 1860,
@@ -39303,7 +39303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to move against Kjotve to avenge the clan.",
       "Prepare your gear and speak to Sigurd to advance the plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Prodigal%20Prince%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fibmrbey00w"
   },
 {
     id: 1861,
@@ -39327,7 +39327,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the lieutenant and interrogate him for Kjotve's location.",
       "Report the intel back to Sigurd to plan the assault."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rude%20Awakening%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VuNWR8tKj4o"
   },
 {
     id: 1862,
@@ -39352,7 +39352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Win the multi-phase duel against Kjotve.",
       "Watch the aftermath as the clan's future in Norway is decided."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Cruel%20Destiny%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kk8Wdp9rQpY"
   },
 {
     id: 1863,
@@ -39376,7 +39376,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Sigurd about pledging to Harald or seeking a new path.",
       "Resolve the clan debate to set course for England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Birthrights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZY-Jfq7Jym4"
   },
 {
     id: 1864,
@@ -39400,7 +39400,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Witness Sigurd's decision to reject subservience.",
       "Agree to leave Norway and seek fortune in England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Seas%20of%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Cs9PINWeRZo"
   },
 {
     id: 1865,
@@ -39424,7 +39424,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Board the ship with Sigurd and the crew.",
       "Set sail across the sea toward England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Swan-Road%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FevAvbgd_Ng"
   },
 {
     id: 1866,
@@ -39448,7 +39448,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Scout the immediate area for a settlement site.",
       "Push inland to secure the ground for Ravensthorpe."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unwelcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aM-4TqZcH18"
   },
 {
     id: 1867,
@@ -39472,7 +39472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Establish the settlement and place the first buildings.",
       "Explore your new hub and its upgrade options."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Settling%20Down%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GFzvooOh4Ik"
   },
 {
     id: 1868,
@@ -39496,7 +39496,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Review the suggested Power levels for each territory.",
       "Pledge to your first region (Ledecestrescire is the recommended start) to begin England's sagas."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Alliance%20Map%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TLPy_MbGL6U"
   },
 {
     id: 1869,
@@ -39520,7 +39520,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight alongside Ivarr to reach Ubba Ragnarsson.",
       "Secure the Sons of Ragnar's alliance against King Burgred of Mercia."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Sons%20of%20Ragnar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sUZu83SxNlg"
   },
 {
     id: 1870,
@@ -39544,7 +39544,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any guards or complications on site.",
       "Return the goods to the brothers to advance the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bartering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6Dg_GlNho-A"
   },
 {
     id: 1871,
@@ -39568,7 +39568,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather rumors and intel from the surrounding area.",
       "Report your findings to set up the assault."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rumors%20of%20Ledecestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=legs8AbbQLw"
   },
 {
     id: 1872,
@@ -39592,7 +39592,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the Roman ruins, clearing archers on the walls.",
       "Defeat the fort commander to claim Templebrough."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Walls%20of%20Templebrough%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gCOWTUsSUyo"
   },
 {
     id: 1873,
@@ -39616,7 +39616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the fortified buildings and towers of Saxon soldiers.",
       "Seize the city and confront its leadership."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Tilting%20the%20Balance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cFWHPWIgNSI"
   },
 {
     id: 1874,
@@ -39640,7 +39640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support the installation of a client king (Ceolwulf).",
       "Resolve the political fallout to end the main fighting."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Heavy%20Is%20the%20Head%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4TEic8uFwoA"
   },
 {
     id: 1875,
@@ -39664,7 +39664,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Corner and confront the target.",
       "Finish the pursuit to secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eNqmMlXUIOo"
   },
 {
     id: 1876,
@@ -39712,7 +39712,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help root out the traitor in her ranks.",
       "Begin investigating the leads she provides."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Great%20Scattered%20Army%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DUqJEfeq9YI"
   },
 {
     id: 1878,
@@ -39736,7 +39736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the clue pointing toward the traitor.",
       "Return the intel to Soma's people."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Orphans%20of%20the%20Fens%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4LhWvQcYCoY"
   },
 {
     id: 1879,
@@ -39760,7 +39760,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interrogate the leader for information.",
       "Report back with what you learn about the traitor."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Glory%20Regained%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbzxSk4qwRo"
   },
 {
     id: 1880,
@@ -39784,7 +39784,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Set fire to the marked supplies.",
       "Escape or clear the remaining defenders to finish the raid."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Razing%20Earnningstone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GYpKxw22QR4"
   },
 {
     id: 1881,
@@ -39808,7 +39808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and deal with the target.",
       "Take the evidence back toward Soma."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unholy%20Father%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ffRKBRHUw8c"
   },
 {
     id: 1882,
@@ -39832,7 +39832,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the courtyard and inner keep of enemy soldiers.",
       "Retake the fort for Soma."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20Ravensburg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BEqtDP4sRjc"
   },
 {
     id: 1883,
@@ -39856,7 +39856,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the assembled suspects.",
       "Name the traitor and deal with the betrayal."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stench%20of%20Treachery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JTXHr7bmWBQ"
   },
 {
     id: 1884,
@@ -39880,7 +39880,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the region alongside Soma.",
       "Conclude the confrontation to end the saga."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Island%20of%20Eels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pKiejLrjGUs"
   },
 {
     id: 1885,
@@ -39904,7 +39904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Grantebridgescire outcome.",
       "Place the alliance bloom and pick your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Grantebridgescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3zfzJ9FkBt8"
   },
 {
     id: 1886,
@@ -39928,7 +39928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help Oswald claim his birthright.",
       "Begin the campaign to weaken Rued's grip."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingmaker%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iuO2FPBg-jo"
   },
 {
     id: 1887,
@@ -39952,7 +39952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support Oswald through his trials.",
       "Prove the alliance's strength to the locals."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Measure%20of%20a%20Norseman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MPyhIJgRxp0"
   },
 {
     id: 1888,
@@ -39976,7 +39976,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rally the freed locals to Oswald's banner.",
       "Return in triumph to strengthen the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Triumphant%20Return%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYsdWAG3xIg"
   },
 {
     id: 1889,
@@ -40000,7 +40000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the iron and arms to Oswald's camp.",
       "Prepare for the confrontation with Rued."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Raising%20Iron%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OiUL5RBe_SA"
   },
 {
     id: 1890,
@@ -40024,7 +40024,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push back the assault with Oswald's forces.",
       "Break Rued's momentum to set up the final reckoning."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Fury%20from%20the%20Sea%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OtWUkc9OIYc"
   },
 {
     id: 1891,
@@ -40048,7 +40048,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight or oversee the duel against Rued.",
       "Defeat Rued to secure Oswald's rule and the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Wedding%20Horns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CjCjOf5M7z4"
   },
 {
     id: 1892,
@@ -40071,7 +40071,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report Oswald's marriage and the East Anglia alliance.",
       "Place the alliance bloom and choose your next pledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20East%20Anglia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Im4kAa8E_OA"
   },
 {
     id: 1893,
@@ -40095,7 +40095,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help spark a rebellion.",
       "Begin striking at the paladin's holdings."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Brewing%20Rebellion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eizUj-FVFkg"
   },
 {
     id: 1894,
@@ -40143,7 +40143,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the objective under pressure.",
       "Regroup with Geadric's people."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Blood%20from%20a%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_8CXZwk66yQ"
   },
 {
     id: 1896,
@@ -40167,7 +40167,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weaken the enemy's hold on the region.",
       "Report the progress to Geadric."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Chipping%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C1MUOC1v_IQ"
   },
 {
     id: 1897,
@@ -40191,7 +40191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Protect your allies as you break out.",
       "Escape the encirclement to regroup."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Fiery%20Ambush%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_80qnYHyZtE"
   },
 {
     id: 1898,
@@ -40215,7 +40215,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight up through the castle's tiers, clearing archers.",
       "Defeat the garrison commander to take the castle."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ringing%20Cyne%20Belle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ugiITeORmc0"
   },
 {
     id: 1899,
@@ -40239,7 +40239,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the fate of Geadric's rebellion.",
       "Secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Saga%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kViZE6BDGjc"
   },
 {
     id: 1900,
@@ -40263,7 +40263,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Oxenefordscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Oxenefordscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ru9vjGjSBw"
   },
 {
     id: 1901,
@@ -40287,7 +40287,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help secure Lunden.",
       "Begin operating in the city's ruins and streets."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Walls%20and%20Shadows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9llf5RzaJa0"
   },
 {
     id: 1902,
@@ -40311,7 +40311,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target or seize the position.",
       "Withdraw and report to Erke."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Firing%20the%20Arrow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XfeVKZ6KGoI"
   },
 {
     id: 1903,
@@ -40381,7 +40381,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Lunden alliance at the Alliance Map.",
       "Place the alliance bloom — Randvi can also arrange passage to Vinland (power 160) from the map."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lunden%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4kqa_CpWwos"
   },
 {
     id: 1906,
@@ -40405,7 +40405,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to press the campaign in the region.",
       "Set out with Ivarr on the war path."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20Weary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYqS3m0S47M"
   },
 {
     id: 1907,
@@ -40429,7 +40429,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the escorting guards.",
       "Report the successful raid."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Supply%20Line%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qz7L4n_YmH0"
   },
 {
     id: 1908,
@@ -40453,7 +40453,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break into the locked supply rooms.",
       "Escape with the loot before reinforcements arrive."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ransacking%20Wenlocan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EBLtnFWrKwA"
   },
 {
     id: 1909,
@@ -40477,7 +40477,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the consequences of Ivarr's actions.",
       "Push toward the confrontation with King Ceolwulf's line."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bloody%20Path%20to%20Peace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lh9UokO9KAg"
   },
 {
     id: 1910,
@@ -40501,7 +40501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure both stages of the fight.",
       "Resolve Ivarr's story and secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20King%20Killer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=45Ai4Sm8pxg"
   },
 {
     id: 1911,
@@ -40525,7 +40525,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Sciropescire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Sciropescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qOrxYofBqbE"
   },
 {
     id: 1912,
@@ -40549,7 +40549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to uncover the conspiracy.",
       "Follow the first lead into the region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Abbot's%20Gambit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dgxa_P1RIag"
   },
 {
     id: 1913,
@@ -40573,7 +40573,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captives and gather evidence.",
       "Escort or report the freed prisoners."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Puppets%20and%20Prisoners%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2apS4bhwHqk"
   },
 {
     id: 1914,
@@ -40597,7 +40597,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Extract the identity of the true mastermind.",
       "Prepare to strike the final target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Man%20Behind%20the%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-q7Nx6O7-EY"
   },
 {
     id: 1915,
@@ -40621,7 +40621,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat the leader.",
       "Secure Cent's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Bloody%20Welcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ObAx8KQoOzg"
   },
 {
     id: 1916,
@@ -40645,7 +40645,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Cent outcome.",
       "Place the alliance bloom and choose your next pledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Cent%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SaCVHQ8g-eg"
   },
 {
     id: 1917,
@@ -40669,7 +40669,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help navigate the situation.",
       "Follow the first thread of the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Uncommon%20Proposition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pWBjSsQYL5E"
   },
 {
     id: 1918,
@@ -40693,7 +40693,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the buried history.",
       "Report your findings to move the story forward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Wounds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44gnkmNDK3Y"
   },
 {
     id: 1919,
@@ -40717,7 +40717,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the obstacles standing in the way.",
       "Advance the entangled relationship."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Childhood%20Sweetheart%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K3bSr7eY-1w"
   },
 {
     id: 1920,
@@ -40741,7 +40741,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assault the camp holding the captive.",
       "Free the prisoner and return them safely."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taken%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eaYlDqizrKQ"
   },
 {
     id: 1921,
@@ -40765,7 +40765,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make the decisive choice.",
       "Resolve the saga and secure the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Twists%20and%20Turns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=An3tCgfHpes"
   },
 {
     id: 1922,
@@ -40789,7 +40789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Essexe outcome.",
       "Place the alliance bloom and pick your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Essexe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K1T42SOI6Ko"
   },
 {
     id: 1923,
@@ -40813,7 +40813,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to escort and protect the couple.",
       "Set out across Lincolnscire."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Noble%20Escort%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IRlUtw-rrw8"
   },
 {
     id: 1924,
@@ -40837,7 +40837,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and secure the family estate.",
       "Settle Hunwald into his homecoming."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Homecoming%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r3Nzb3l6MRA"
   },
 {
     id: 1925,
@@ -40861,7 +40861,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with those exploiting the vacuum.",
       "Report your findings to Hunwald."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20the%20Absence%20of%20an%20Ealdorman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lBDOPD9eCOA"
   },
 {
     id: 1926,
@@ -40885,7 +40885,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the salve or support under threat.",
       "Deliver it and advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Salve%20for%20a%20Fresh%20Wound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pY11T-2CLwY"
   },
 {
     id: 1927,
@@ -40909,7 +40909,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the intrigue at the heart of the city.",
       "Advance toward exposing the corruption."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Thegn%20of%20Lincoln%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hF93E4TWUSc"
   },
 {
     id: 1928,
@@ -40933,7 +40933,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the bishop over his crimes.",
       "Set up the saga's resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20the%20Stone%20Falls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-XX2SZQd1WI"
   },
 {
     id: 1929,
@@ -40957,7 +40957,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break the opposing force's leadership.",
       "Win the day and secure Hunwald's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Sword-Shower%20in%20Anecastre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U1laock7l_Q"
   },
 {
     id: 1930,
@@ -40981,7 +40981,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Lincolnscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lincolnscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BxuA9croeUc"
   },
 {
     id: 1931,
@@ -41005,7 +41005,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to bring him down.",
       "Begin the campaign against his forces."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reaver%20of%20the%20South%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mgKmtVuCo6s"
   },
 {
     id: 1932,
@@ -41029,7 +41029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure a foothold in the region.",
       "Prepare for the push toward Portcestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Arrive%20Unexpected%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iUBxZttxHnA"
   },
 {
     id: 1933,
@@ -41053,7 +41053,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through defenders as needed.",
       "Withdraw once the stores are ash."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Let%20Them%20Eat%20Ashes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W8QO94m8CWg"
   },
 {
     id: 1934,
@@ -41077,7 +41077,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weaken the reaver's remaining forces.",
       "Set the stage for the siege of Portcestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Scorched%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6VcjEVbLb3A"
   },
 {
     id: 1935,
@@ -41101,7 +41101,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sever the lines feeding Portcestre.",
       "Report readiness for the siege."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Severing%20the%20Lines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ddNWURSKu9s"
   },
 {
     id: 1936,
@@ -41125,7 +41125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fortress tiers, clearing archers.",
       "Reach and defeat the fortress commander."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20the%20Walls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=baodHG7R36w"
   },
 {
     id: 1937,
@@ -41149,7 +41149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the fallout of the southern campaign.",
       "Secure Suthsexe's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20All%20That%20Has%20Passed...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dzkWeX5rfoM"
   },
 {
     id: 1938,
@@ -41173,7 +41173,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Suthsexe outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Suthsexe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mzDd4kLdgRA"
   },
 {
     id: 1939,
@@ -41197,7 +41197,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet the local Norse and Indigenous contacts.",
       "Begin hunting the hidden Order target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20a%20Strange%20Land%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5wSyLctyjH8"
   },
 {
     id: 1940,
@@ -41221,7 +41221,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track signs of the Order's activity.",
       "Follow the lead toward the target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Hunting%20Grounds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4JqclYbFh9Y"
   },
 {
     id: 1941,
@@ -41245,7 +41245,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring it down with bow and blade.",
       "Return to earn the locals' trust."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter%20of%20Beasts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yFC8DhLRkwc"
   },
 {
     id: 1942,
@@ -41269,7 +41269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate or defeat the target.",
       "Conclude the Vinland saga and return to England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter's%20Repast%20walkthrough"
+    video: "https://www.youtube.com/watch?v=89_S2Akth30"
   },
 {
     id: 1943,
@@ -41293,7 +41293,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Log the Order target's elimination.",
       "Resume England's campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Vinland%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yFgoklz_1BA"
   },
 {
     id: 1944,
@@ -41317,7 +41317,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to hunt the conspirators.",
       "Follow the first clue into Jorvik's streets."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Welcoming%20Party%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0KIhrwRkr2Y"
   },
 {
     id: 1945,
@@ -41341,7 +41341,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate the target.",
       "Recover the clue to the next conspirator."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Burning%20the%20Firebrand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mbv4js0UAtE"
   },
 {
     id: 1946,
@@ -41365,7 +41365,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target.",
       "Recover the clue to the cell's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Pricking%20the%20Needle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d0zEtT8PtLY"
   },
 {
     id: 1947,
@@ -41388,7 +41388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Inspect the wine at the end of the hidden room.",
       "Assassinate the Vault, then learn what Hjorr needed the silver for."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Closing%20the%20Vault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Fymurf7Qwp4"
   },
 {
     id: 1948,
@@ -41436,7 +41436,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to fight alongside him.",
       "Begin the campaign in the north."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20in%20the%20North%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9AlJ2wLlVsI"
   },
 {
     id: 1950,
@@ -41460,7 +41460,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weigh the competing claims of loyalty.",
       "Advance the intrigue."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Has%20Two%20Edges%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fvjqh-3mtzI"
   },
 {
     id: 1951,
@@ -41484,7 +41484,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support Halfdan's advance.",
       "Push toward the confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Road%20to%20Hamartia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V9vDmvWlHs0"
   },
 {
     id: 1952,
@@ -41508,7 +41508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront those involved.",
       "Bring the truth to Halfdan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20This%20Son%20of%20Jorvik%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_Nhd6dtx0MA"
   },
 {
     id: 1953,
@@ -41532,7 +41532,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fallout.",
       "Set up the saga's resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor's%20Hubris%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FwNN79Ngvcc"
   },
 {
     id: 1954,
@@ -41556,7 +41556,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve Halfdan's story.",
       "Secure Eurvicscire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Bonds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vbPI2erjPUk"
   },
 {
     id: 1955,
@@ -41580,7 +41580,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Eurvicscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Eurvicscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9yRnjKCgqvk"
   },
 {
     id: 1956,
@@ -41604,7 +41604,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Claim any final rewards.",
       "Close out the Eurvicscire story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Lost%20Glory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rnt2cfhLyLk"
   },
 {
     id: 1957,
@@ -41628,7 +41628,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to investigate the killings.",
       "Begin gathering clues at the festival."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20First%20Night%20of%20Samhain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yU5hWSMOoGo"
   },
 {
     id: 1958,
@@ -41652,7 +41652,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail toward the cult.",
       "Uncover the next lead."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Clues%20and%20Riddles%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QnckIgOvDhw"
   },
 {
     id: 1959,
@@ -41676,7 +41676,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Infiltrate and locate the captive.",
       "Free or confront the situation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stolen%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ACSVcrydVT0"
   },
 {
     id: 1960,
@@ -41700,7 +41700,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth behind the murders.",
       "Advance toward the cult's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Love%20Betrayed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6LCYMpY3MrE"
   },
 {
     id: 1961,
@@ -41724,7 +41724,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the cult's key figure.",
       "Set up the final reckoning."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Gutted%20Lamb%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RHAhKgO7YSs"
   },
 {
     id: 1962,
@@ -41748,7 +41748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unmask and confront the cult's leader.",
       "End the cult and secure Glowecestrescire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Burning%20of%20the%20Wicker%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xcF6FMqnqu0"
   },
 {
     id: 1963,
@@ -41796,7 +41796,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help resolve the conflict.",
       "Begin working the region's politics."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uK3EpJgrpWY"
   },
 {
     id: 1965,
@@ -41820,7 +41820,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the scheme at play.",
       "Report your findings."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20On%20Borrowed%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FBY61RLW4JE"
   },
 {
     id: 1966,
@@ -41844,7 +41844,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the item or favor.",
       "Deliver it to advance the peace."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Adorning%20the%20Adorned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fjeEX8z4kro"
   },
 {
     id: 1967,
@@ -41868,7 +41868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the ringleaders.",
       "Restore some calm to the region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rowdy%20Raiders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_PPziC9Xf0g"
   },
 {
     id: 1968,
@@ -41892,7 +41892,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the consequences.",
       "Push toward the saga's climax."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Gods%20walkthrough"
+    video: "https://www.youtube.com/watch?v=72xFqDfCI7s"
   },
 {
     id: 1969,
@@ -41916,7 +41916,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fallout.",
       "Set up the resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Under%20the%20Skin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TZRvKToX6Mo"
   },
 {
     id: 1970,
@@ -41940,7 +41940,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Say your farewells and resolve Trygve's story.",
       "Secure Snotinghamscire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Farewells%20and%20Legacies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BnfaNkDMlg8"
   },
 {
     id: 1971,
@@ -41988,7 +41988,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to hunt the conspirators.",
       "Follow the first clue through Wincestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Reeve%20of%20Wincestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VNcDopW93_s"
   },
 {
     id: 1973,
@@ -42012,7 +42012,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate the target.",
       "Recover the clue to the next member."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Choking%20the%20Gallows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_qxsUDY7WsI"
   },
 {
     id: 1974,
@@ -42036,7 +42036,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target.",
       "Recover the clue to the cell's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Plucking%20the%20Quill%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PiAcIlpwgxA"
   },
 {
     id: 1975,
@@ -42059,7 +42059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Head into the main church as the Seax (Ealhferth) moves on King Aelfred.",
       "Assassinate Ealhferth to break the Wincestre cell."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Impaling%20the%20Seax%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HRBfy_mjPHY"
   },
 {
     id: 1976,
@@ -42083,7 +42083,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Wincestre outcome.",
       "Place the alliance bloom and prepare for the endgame."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Wincestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7K9wa-JUvOo"
   },
 {
     id: 1977,
@@ -42107,7 +42107,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the chapter's challenges.",
       "Advance the revelations about the clan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20Legends%20Are%20Born%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dYU1kDtJfsI"
   },
 {
     id: 1978,
@@ -42131,7 +42131,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the key encounters.",
       "Resolve this stage of the Norway return."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Brother's%20Keeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OfPAJ4TKAKA"
   },
 {
     id: 1979,
@@ -42155,7 +42155,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the climactic battles.",
       "Face the decisive confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingdom's%20End%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3LodAOW6ySQ"
   },
 {
     id: 1980,
@@ -42179,7 +42179,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the conflict with Alfred and the Order.",
       "Conclude the main campaign's arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Holy%20Day%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d52YjT0Ved0"
   },
 {
     id: 1981,
@@ -42203,7 +42203,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Hamtunscire outcome.",
       "Reflect on the completed alliance campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Hamtunscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CQi8WT0nbpI"
   },
 {
     id: 1982,
@@ -42227,7 +42227,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore Asgard and meet the Aesir.",
       "Begin Odin's quest to protect Asgard from prophecy."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20View%20Above%20All%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-CF-kS1Uucc"
   },
 {
     id: 1983,
@@ -42251,7 +42251,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out the plan to cheat the builder of his price.",
       "Secure the wall and deal with the fallout."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Well-Traveled%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kej04x2w0eY"
   },
 {
     id: 1984,
@@ -42275,7 +42275,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rally the Aesir to the cause.",
       "Advance Odin's preparations."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Defensive%20Measures%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nwQDiKMQAys"
   },
 {
     id: 1985,
@@ -42299,7 +42299,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Address the tensions among the gods.",
       "Gather Odin's family to the cause."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Extended%20Family%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8zKv3q8kz9U"
   },
 {
     id: 1986,
@@ -42323,7 +42323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cement the alliance.",
       "Return to Asgard's central hall."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4-h37JgpWKw"
   },
 {
     id: 1987,
@@ -42347,7 +42347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect what's needed for the binding.",
       "Return to prepare the great binding."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feline's%20Footfall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kn0wPIw9pEo"
   },
 {
     id: 1988,
@@ -42371,7 +42371,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Protect Asgard's stability.",
       "Advance toward the binding."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taking%20Root%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vz3-2z6kaXM"
   },
 {
     id: 1989,
@@ -42395,7 +42395,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve any lingering tension.",
       "Prepare for the arc's climax."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%2C%20Revisited%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kMpsGNmQ7IM"
   },
 {
     id: 1990,
@@ -42443,7 +42443,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure Fenrir's resistance.",
       "Secure the binding and its terrible cost."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Binding%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=geZ7NfmsMOs"
   },
 {
     id: 1992,
@@ -42467,7 +42467,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make Odin's fateful final choices.",
       "Conclude the Asgard arc and wake as Eivor."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Cheating%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=n-k07RYWYOo"
   },
 {
     id: 1993,
@@ -42491,7 +42491,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seek out Angrboda in the Iron Wood.",
       "Begin the quest for hidden knowledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Mistress%20of%20the%20Iron%20Wood%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HXERelIspHk"
   },
 {
     id: 1994,
@@ -42515,7 +42515,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Overcome the guardians or obstacles.",
       "Claim the cauldron's secret."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Lost%20Cauldron%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UNnN_2VYUPc"
   },
 {
     id: 1995,
@@ -42539,7 +42539,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the promised gift.",
       "Advance Odin's search."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Gift%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P7DngPMLmpI"
   },
 {
     id: 1996,
@@ -42563,7 +42563,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the needed knowledge or item.",
       "Slip away before the ruse collapses."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feast%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2W5Kxj-Jt8I"
   },
 {
     id: 1997,
@@ -42587,7 +42587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gain the forbidden knowledge.",
       "Conclude the Jotunheim arc and return to the waking world."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Price%20of%20Wisdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CT5qppg8FGA"
   },
 {
     id: 1998,
@@ -42612,7 +42612,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate members tier by tier, working up toward the Order's leadership.",
       "Unmask and eliminate the Fathers of Understanding to complete the hunt and claim its unique rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Order%20of%20the%20Ancients%20%E2%80%94%20Full%20Hunt%20Overview%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p9u23QMrasM"
   },
 {
     id: 1999,
