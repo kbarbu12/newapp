@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (2)
+
+- **Apply verified YouTube videos to 17 games** (PRs #202–#218) — `v2.4.7`
+  patch. 1,364 quests switch from a YouTube search link to a real embedded
+  video: Valhalla 134, BG3 84, Cyberpunk 120, Demon's Souls 7, Elden Ring
+  38, FF7 Rebirth 53, Ghost of Tsushima 35, Ghost of Yōtei 103, Horizon
+  FW 52, Metaphor 36, P5R 47, Pillars I 106, Deadfire 110, Sekiro 23,
+  Skyrim 130, TotK 214, Witcher 3 72. Only candidates that passed the
+  title check or were swapped to a checked alternative (#201) were applied;
+  76 unverified or doubtful ones stay as search links. Walkthrough steps
+  are kept alongside every video.
+
 ## 2026-10-17
 
 - **Add video title-check results for all 1,440 video candidates** (PR #195)

@@ -7,6 +7,14 @@
 
 ---
 
+## 2026-10-17 — verified videos applied to the app
+- 1,364 quests across 17 games now use real `watch?v=` videos (PRs
+  #202–#218); 2,384 real videos in total. 61 weak candidates were first
+  swapped for checked alternatives (#201).
+- Still search links: 72 unverified candidates plus #754, #997, #1183
+  (poor fit) and #726 (shares #725's video). Black Myth: Wukong has none
+  verified yet.
+
 ## 2026-10-17 — video title check finished, title fixes
 - Title check of all 1,440 video candidates done and saved to
   `docs/video-candidates/title-check.json` (1,308 match).
