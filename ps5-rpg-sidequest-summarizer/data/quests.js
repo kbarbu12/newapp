@@ -22761,24 +22761,22 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Post-Game",
     game: "Ghost of Yotei",
-    region: "Multiple",
+    region: "Teshio Ridge",
     title: "A Haunted Land",
-    location: "Ezo — Spirit Shrines",
+    location: "Master Enomoto's tales, Teshio Ridge (golden bird leads to Owl Mountain)",
     length: "long",
     difficulty: "Medium",
-    reward: "Spirit armour set, Ainu elder's blessing",
+    reward: "Completes Master Enomoto's tales",
     summary:
-      "A mysterious spiritual disturbance lingers across Ezo after the Yōtei Six are defeated. The Ainu elders believe the violence has stirred restless spirits. Atsu must cleanse five shrines to restore balance.",
+      "Unfinished Business that appears after the story only if Master Enomoto's Teshio Ridge tales are still open. A golden bird leads Atsu back to Owl Mountain.",
     aiTip:
-      "Each shrine has a different spirit encounter — some are combat, some are environmental puzzles. Equip the Onryō armour from the main story finale for a damage bonus against spirit enemies.",
+      "Expect it to take hours if you skipped Teshio Ridge's sensei tales — A Land Reforged alone means clearing seven Nine Tails camps.",
     video: "https://www.youtube.com/watch?v=JoBaZn7sULo",
     walkthrough: [
-      "Speak with the Nayoro Ainu elder after the credits — she senses the spiritual unrest.",
-      "Travel to each of the five marked spirit shrines across the six regions.",
-      "At each shrine, interact with the offering stone to begin the encounter.",
-      "Combat shrines: defeat the spirit guardian within the time limit.",
-      "Puzzle shrines: light the three torches in the correct sequence shown by the shrine's paintings.",
-      "After all five are cleansed, return to the Nayoro elder for the cutscene and armour reward."
+      "Finish the main story with Enomoto's tales unfinished; follow the golden bird to Owl Mountain.",
+      "Complete The Winter Farms and The Way of the Kusarigama.",
+      "Complete The Path of the Kusarigama and The Kusarigama's Shame.",
+      "Finish A Land Reforged to close it out."
     ]
   },
 {
@@ -23040,21 +23038,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Winter Farms",
-    location: "Teshio Ridge — Snowbound Village",
-    length: "short",
-    difficulty: "Low",
-    reward: "Cold-Forged armour upgrade material, Farmer's Resolve charm",
+    location: "Contested farm north-west of the Hakodake Mountains, then four Hana's Farms across Teshio Ridge",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Kunai, Charm of Hidden Blades, Charm of Burning Blade, Kunai Defender trophy",
     summary:
-      "A retired warrior defends his snowbound village farm against outlaws demanding tribute. He offers to teach Atsu in exchange for help repelling the raid — a straightforward combat mission that kicks off the Teshio Sensei arc.",
+      "Nine Tails shinobi have seized the farms of Teshio Ridge. Inspect the bodies at a contested farm, beat the shinobi with a new ally to earn the kunai, then free the other four farms.",
     aiTip:
-      "This is an escort-style quest — keep the farmer alive. Position yourself between him and the incoming raiders rather than chasing the flankers. The raiders prioritise him over Atsu.",
+      "The four remaining farms show red on the map as 'Hana's Farm' — one is at Shipwreck Shoal in the north. Just defeat everyone at each.",
     video: "https://www.youtube.com/watch?v=3bqmJrcO9NE",
     walkthrough: [
-      "Find the Snowbound Village marker in the southern Teshio Ridge.",
-      "Speak with Farmer-Warrior Genzo to learn the raid is imminent.",
-      "Defend the three farm entry points over two raid waves — raiders come from north and east simultaneously.",
-      "Keep Genzo's health above 50% through both waves to earn the bonus charm reward.",
-      "After the raid, speak with Genzo to receive the cold-forged material and advance the Sensei arc."
+      "Go to the contested farm north-west of the Hakodake Mountains and inspect the bodies.",
+      "Defeat the Nine Tails shinobi alongside your new ally; the cutscene gives you the kunai.",
+      "Liberate the second farm at Shipwreck Shoal in the north.",
+      "Liberate the remaining Hana's Farms marked red on the map.",
+      "With all five free, claim the charms and the Kunai Defender trophy."
     ]
   },
 {
@@ -23064,22 +23062,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Way of the Kusarigama",
-    location: "Teshio Ridge — Hidden Barn",
+    location: "Master Enomoto's dojo, Owl Mountain (north Teshio Ridge)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Kusarigama weapon unlocked, Chain Pull technique",
+    reward: "Kusarigama",
     summary:
-      "Genzo reveals his weapon of choice — the kusarigama chain sickle — and offers to teach it to Atsu. A deceptively rural sensei, he hides extraordinary skill behind a weather-beaten farmer's demeanour.",
+      "Across a bridge on Owl Mountain lives Master Enomoto, a kusarigama master. Fight beside him, take up the chain-sickle and learn its precision.",
     aiTip:
-      "The Chain Pull technique is one of the game's most versatile tools — it yanks shielded enemies off balance and pulls aerial crossbow users to the ground. Learn its timing in this quest and use it constantly.",
+      "Use light attacks to cut the thin bamboo — the step is about precision, not power.",
     video: "https://www.youtube.com/watch?v=7cEjCuS33Fk",
     walkthrough: [
-      "Return to Genzo after completing The Winter Farms.",
-      "Follow him to the hidden barn north of the village.",
-      "Trial 1: use the Chain Pull on five stationary targets without missing.",
-      "Trial 2: pull three shielded enemies off balance and finish them before they recover.",
-      "Trial 3: defeat Genzo in a sparring bout — he telegraphs every attack; read the shoulder dip.",
-      "Receive the kusarigama and Chain Pull scroll after the bout."
+      "Reach Teshio Ridge in The Kitsune, then cross the bridge on Owl Mountain to meet Master Enomoto.",
+      "After his stealth takedown, clear the rest of the area.",
+      "Take the kusarigama from the wooden owl statue.",
+      "Cut thin bamboo with light attacks.",
+      "Finish Enomoto's training trials."
     ]
   },
 {
@@ -23089,22 +23086,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Path of the Kusarigama",
-    location: "Teshio Ridge — Frozen River Camp",
-    length: "medium",
+    location: "Snow Drift Springs Shrine and other sites, Teshio Ridge",
+    length: "long",
     difficulty: "Medium",
-    reward: "Spinning Death technique",
+    reward: "Charm of Shattering Strike",
     summary:
-      "Genzo sends Atsu to a camp on the frozen river where his old training partner holds court — the only person who can teach the advanced kusarigama spinning technique. Getting there requires crossing enemy-held ice.",
+      "Enomoto sets three tasks around Teshio Ridge. Along the way you learn Claw and Talon — and he confronts his grandson, who has joined the Nine Tails.",
     aiTip:
-      "The Spinning Death hits all enemies in a 360-degree arc — essential for the crowd control situations Teshio constantly presents. Upgrade it to extend the chain length as soon as crafting materials allow.",
+      "At Snow Drift Springs, light the lantern matching where each fox in the lake is looking.",
     video: "https://www.youtube.com/watch?v=Dl7FlyTCel4",
     walkthrough: [
-      "Receive Genzo's letter directing you to the Frozen River Camp.",
-      "Cross the frozen river — three enemy patrols use the ice as cover; the Tanzutsu breaks the ice beneath them.",
-      "Reach Genzo's former partner Kimura at the camp's central fire.",
-      "Complete Kimura's two trials: timing-based chain swings and a combat demonstration.",
-      "Duel two of Kimura's students simultaneously to prove readiness.",
-      "Receive the Spinning Death scroll and return to Genzo to continue the arc."
+      "At Snow Drift Springs Shrine in the west, kill the enemies and light the three lanterns to match the foxes.",
+      "Crawl into the camp, clear it, free the prisoners and light the last lantern to reach the ladder.",
+      "Open the puzzle box at the shrine and pray.",
+      "Return to the dojo to learn Claw and Talon.",
+      "Follow Enomoto as he confronts his grandson."
     ]
   },
 {
@@ -23114,23 +23110,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Kusarigama's Shame",
-    location: "Teshio Ridge — Ridge Shrine",
-    length: "medium",
-    difficulty: "High",
-    reward: "Soul Reaper ultimate kusarigama technique",
+    location: "Master Enomoto's dojo, Owl Mountain",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Kusarigama spirit attack, Way of the Kusarigama trophy",
     summary:
-      "Kimura's past crime — killing an innocent with a wild chain throw — has followed him to Teshio. The victim's son has hired an assassin to end Kimura's life. Atsu must defend Kimura and help him face his guilt.",
+      "Enomoto's grandson runs a Nine Tails den. Train with Enomoto, face the Nine Tails with him, then master every kusarigama skill to finish the lesson.",
     aiTip:
-      "The hired assassin is the hardest enemy in the Teshio Sensei arc. He counters the Chain Pull — use Spinning Death instead to keep him off balance while Kimura recovers.",
+      "Claw and Talon is triangle + circle. You'll need every kusarigama skill from Altars of Reflection to finish.",
     video: "https://www.youtube.com/watch?v=ESKAKh1TLkI",
     walkthrough: [
-      "A cutscene triggers at the Ridge Shrine when you return after The Path of the Kusarigama.",
-      "Defend Kimura from the first four assassin's scouts — stealth approach recommended.",
-      "The main assassin arrives after the scouts fall; he is immune to Chain Pull.",
-      "Use Spinning Death to break his stance and dual-katana flurries to chip his health.",
-      "At one-third health, the assassin calls Kimura out for a final duel — step aside and watch.",
-      "Kimura wins but is wounded; treat him with a herbal kit from your inventory.",
-      "Receive the Soul Reaper scroll from Kimura in gratitude."
+      "Talk to Enomoto at his dojo and read the three technique scrolls outside.",
+      "Spar with him using Claw and Talon (triangle + circle).",
+      "Follow him to the campsite below the cliff, light the fire, and fight the Nine Tails.",
+      "Unlock every kusarigama skill at Altars of Reflection.",
+      "Return to the dojo and strike the stone statue."
     ]
   },
 {
@@ -23140,21 +23134,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "A Land Reforged",
-    location: "Teshio Ridge — Blacksmith Quarter",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Teshio Steel armour upgrade tier unlocked",
+    location: "Seven Nine Tails camps across Teshio Ridge → Red Crane Inn",
+    length: "long",
+    difficulty: "Medium",
+    reward: "\"A Path of Flowers\" red shamisen colour; completes A Haunted Land",
     summary:
-      "A master blacksmith in Teshio's isolated quarter claims the region's unique cold-forged steel can upgrade Atsu's armour beyond normal limits. Help him reopen his forge after an outlaw occupation to unlock the upgrade tier.",
+      "Enomoto's last tale: drive the Nine Tails out of Teshio Ridge by clearing all seven of their camps, then celebrate at the Red Crane Inn.",
     aiTip:
-      "Completing this quest unlocks a permanent armour upgrade tier, not just a one-time item. Prioritise it early in your Teshio visit — the upgrade makes the later Sensei duels significantly more forgiving.",
+      "Camps you've already cleared count, so this can be short. Each camp has a puzzle at the entrance.",
     video: "https://www.youtube.com/watch?v=K-n1HNxUZOE",
     walkthrough: [
-      "Find the blacksmith Tanaka in the locked Blacksmith Quarter — the key is on a guard captain nearby.",
-      "Clear the six outlaws occupying the forge interior.",
-      "Gather three cold-ore chunks from the Teshio mine shaft — marked on map after clearing the forge.",
-      "Return the ore to Tanaka and watch the forge reopen in a short cutscene.",
-      "Commission your first Teshio Steel armour upgrade to complete the quest."
+      "The tale starts automatically after The Kusarigama's Shame.",
+      "Find the Nine Tails camps across Teshio Ridge.",
+      "Solve each entrance puzzle and clear every enemy inside.",
+      "Liberate all seven camps.",
+      "Talk to Enomoto at the Red Crane Inn and meet the people who come to thank you."
     ]
   },
 {
@@ -23164,21 +23158,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Secrets of the Heart",
-    location: "Teshio Ridge — Medicine Woman's Hut",
+    location: "Arrow above the 'O' of Teshio River → Ran's Workshop",
     length: "short",
-    difficulty: "Low",
-    reward: "Herbal Resolve — restores Resolve on herbal medicine use",
+    difficulty: "Medium",
+    reward: "Charm of Raining Arrows",
     summary:
-      "A reclusive medicine woman offers Atsu a unique teaching: herbal preparations that restore Resolve — the combat resource — rather than only health. A short quest of conversation and ingredient gathering unlocks the passive upgrade.",
+      "An arrow with a note on the Teshio River leads to Ran's Workshop, where her apprentice Taizo is trapped by the Nine Tails. Get him out and ride him back to Ran.",
     aiTip:
-      "The Herbal Resolve upgrade is one of the most useful passives in the game. It effectively doubles your Ghost Stance uptime if you use herbal medicine regularly during fights.",
+      "Charm of Raining Arrows auto-aims and rapid-fires — great for horseback archery. You don't need to kill every rider during the escape.",
     video: "https://www.youtube.com/watch?v=y0cbV3ykr2o",
     walkthrough: [
-      "Find the medicine woman Yuki's hut on the eastern Teshio Ridge path.",
-      "Gather the three mountain herbs she requests — all are within 200m of the hut.",
-      "Return the herbs and sit with Yuki for the teaching conversation.",
-      "Complete the optional listening exercise — identify three sounds she plays on a small drum.",
-      "Receive the Herbal Resolve charm and equip it in the charm menu to activate the upgrade."
+      "Pick up the arrow with a note north of the Teshio River (above the 'O' on the map).",
+      "Go to Ran's Workshop and clear the Nine Tails around it.",
+      "Climb in through the upper window to find Taizo.",
+      "Ride with him from the stables back to Ran, fighting off attackers.",
+      "Watch Taizo and Ran reunite."
     ]
   },
 {
@@ -23188,22 +23182,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "The Blind Stranger",
-    location: "Teshio Ridge — Crossroads Shrine",
+    location: "Nakajima Sake House, Teshio Ridge",
     length: "medium",
-    difficulty: "High",
-    reward: "Blind Warrior's Sense — listening detection upgraded",
+    difficulty: "Low",
+    reward: "Metsubushi (blinding powder)",
     summary:
-      "A blind swordsman at the Teshio crossroads challenges Atsu to a duel in complete darkness. The encounter teaches hearing-based combat instincts and permanently upgrades Atsu's listening detection range.",
+      "A blind man at the Nakajima Sake House asks Atsu to guide him. The walk is quiet — until a ronin attacks.",
     aiTip:
-      "The darkness duel disables the HUD entirely. Listen for his footstep rhythm — two heavy steps means a thrust attack, one light step means a sweep. Deflect timing is pure audio here.",
+      "The dialogue choice before the fight doesn't change anything. Metsubushi suits a stealth build.",
     video: "https://www.youtube.com/watch?v=EGDuy7675M8",
     walkthrough: [
-      "Meet the blind swordsman Mushin at the Crossroads Shrine at night — he only appears after dusk.",
-      "Accept his challenge; the screen fades to black for the duel.",
-      "Listen for his movement audio cues: two heavy steps = thrust (deflect), one light step = sweep (dodge).",
-      "Land five successful deflections to trigger his teaching monologue.",
-      "A second, harder duel follows — same rules but faster tempo.",
-      "Winning gives the permanent listening range upgrade and Mushin's departing riddle (flavour only)."
+      "Talk to the blind man inside the Nakajima Sake House and accept.",
+      "Follow him outside until a deer interrupts you.",
+      "Find the rocks he asks for and lead him to them.",
+      "Keep following him until a ronin attacks.",
+      "Defeat the ronin."
     ]
   },
 {
@@ -24089,22 +24082,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "A Fox in Monk's Clothing",
-    location: "Teshio Ridge — Mountain Monastery",
+    location: "Monk's campfire near Bifuka Sake House",
     length: "medium",
     difficulty: "Medium",
-    reward: "Monk's Stolen Seal, Fox Charm",
+    reward: "750 Mon, 4 Shinobi Steel",
     summary:
-      "A corrupt travelling monk is extorting isolated Teshio ridge villages under the guise of spiritual blessing. Exposing his deception requires gathering testimony from three villages and cornering him at the monastery.",
+      "A monk camped near the Bifuka Sake House needs an escort. The Nine Tails keep ambushing you, and the trail leads to an impostor's house.",
     aiTip:
-      "The monk is a skilled swordsman despite his robes — do not underestimate him. He opens with a deceptive prayer stance that transitions into a fast draw; do not parry the prayer animation, wait for the draw.",
+      "In the forest ambush you can skip the fights and just ride for the destination.",
     video: "https://www.youtube.com/watch?v=LyqRD7sabvc",
     walkthrough: [
-      "Hear the first complaint at the Teshio Ridge village — an elder paid for a blessing that failed.",
-      "Visit two more villages on the ridge for corroborating testimony.",
-      "Track the monk to the Mountain Monastery using the villagers' descriptions of his route.",
-      "Confront the monk; he refuses to return the money and draws his sword.",
-      "Wait through his prayer animation before deflecting the fast draw that follows.",
-      "Defeat the monk and recover the stolen seal; return it to the first village elder."
+      "Talk to the monk by the campfire on the hill near Bifuka Sake House.",
+      "Ride after him and defeat the Nine Tails who attack.",
+      "Examine the two clues inside the house.",
+      "Leave by the back door and follow the footprints around the house.",
+      "Follow the monk into the forest and defeat the Nine Tails waiting there."
     ]
   },
 {
@@ -24114,22 +24106,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Encounters of the Wild",
-    location: "Teshio Ridge — High Pass",
+    location: "Nine Tails outpost near Shipwreck Shoal → Sarufutsu Lighthouse → Sanctuary Grove",
     length: "short",
-    difficulty: "Medium",
-    reward: "Hunter's Charm, pelt crafting material",
+    difficulty: "Low",
+    reward: "Altar of Reflection",
     summary:
-      "An escaped exotic animal — a snow leopard brought north by traders — is causing havoc in the Teshio mountain passes, attacking travellers. Track and subdue it without killing it, as a local village considers it sacred.",
+      "A scroll inside a locked Nine Tails outpost near Shipwreck Shoal sets off a trail of fox-statue puzzles to Sarufutsu Lighthouse and the Sanctuary Grove.",
     aiTip:
-      "The snow leopard is immune to all lethal attacks — equip the non-lethal pommel strike and chain it three times to trigger a wrestle QTE. Killing it fails the quest and cannot be undone.",
+      "Statues facing each other make bridges; statues facing away open doors.",
     video: "https://www.youtube.com/watch?v=J-LjMyYZmMA",
     walkthrough: [
-      "Speak with the panicked trader at the Teshio High Pass waypoint.",
-      "Track the snow leopard using paw prints and broken branches — listening sense helps.",
-      "Corner the leopard at the cliff ledge — do not use weapons.",
-      "Use pommel strikes (hold heavy attack) three times; each non-lethal hit stuns briefly.",
-      "Complete the wrestle QTE to subdue the animal safely.",
-      "Return it to the village elder using the provided carrying wrap; receive the Hunter's Charm."
+      "Ride north-east from Hana's Farm to the outpost near Shipwreck Shoal.",
+      "Turn two fox statues to face each other for the rope bridge, and another pair away from each other to open the door.",
+      "Read the scroll inside the hideout.",
+      "At Sarufutsu Lighthouse, arrange the statues on the door pedestals.",
+      "Explore the Sanctuary Grove and reflect at the altar."
     ]
   },
 {
@@ -24139,23 +24130,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "No Brother Left Behind",
-    location: "Teshio Ridge — Frozen Northern Slopes",
+    location: "Two Brothers' Campsite, Sakuru Woods",
     length: "medium",
     difficulty: "Medium",
-    reward: "Brotherhood Charm, supply cache",
+    reward: "Charm of Fortitude, Two as One trophy (win the standoff)",
     summary:
-      "A soldier searches the frozen Teshio slopes for a younger brother who never returned from a patrol months ago. The trail leads through a collapsed outpost, a bandit camp, and finally a mountain shrine.",
+      "A settler at the Two Brothers' Campsite in Sakuru Woods asks Atsu to help find his brother. The search runs through Nine Tails ambushes to an abandoned village.",
     aiTip:
-      "The younger brother is alive but injured at the mountain shrine. Carry him back by choosing 'carry him' in the dialogue — the walking escort sequence is slow but avoids a fight that endangers him further.",
+      "Win the standoff in the village to earn the Two as One trophy.",
     video: "https://www.youtube.com/watch?v=PMStfr9-rjw",
     walkthrough: [
-      "Meet Soldier Taro at the Teshio Ridge camp — he shows a rough map of the patrol route.",
-      "Investigate the collapsed outpost; find patrol notes that redirect to the bandit camp.",
-      "Infiltrate the bandit camp and find a prisoner log showing the brother escaped east.",
-      "Track the escape route to the mountain shrine using blood marks in the snow.",
-      "Find the injured brother Kenta at the shrine; choose 'carry him' in dialogue.",
-      "Carry Kenta slowly back to the Teshio camp — no combat, but the path is treacherous.",
-      "Reunite the brothers; receive the Brotherhood Charm and supply cache coordinates."
+      "Talk to the settler at the Two Brothers' Campsite in Sakuru Woods.",
+      "Fight off the Nine Tails ambushes on the way.",
+      "Examine the body you find.",
+      "Win the standoff in the abandoned village.",
+      "Finish the fight to complete the search."
     ]
   },
 {
@@ -24805,23 +24794,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Houndmaster Toyotaro",
-    location: "Teshio Ridge — Frozen Kennel",
+    location: "Snowy field with cages, between Red Crane Inn and the Contested Farm",
     length: "short",
-    difficulty: "Medium",
-    reward: "Gold, Bounty Broker standing",
+    difficulty: "Low",
+    reward: "750 Mon, Toyotaro's Fang",
     summary:
-      "A bounty hunter turned outlaw who hunts his own targets using a pack of four trained dogs. Neutralise the dogs before engaging Toyotaro — they lock-on and pin Atsu if she fights him first.",
+      "A Red Crane Inn bounty: Houndmaster Toyotaro walks among dog cages in the snowy field north-west of the inn.",
     aiTip:
-      "Throw food scraps (found near the kennel entrance) to distract the dogs and move them away from Toyotaro. The scorch bomb also routes them without killing them — useful for the humane-completion bonus.",
+      "He's the only human among the dogs — you can find him even without taking the bounty.",
     video: "https://www.youtube.com/watch?v=r6_dcJtwcAQ",
     walkthrough: [
-      "Accept the bounty and travel to the Frozen Kennel camp.",
-      "Find the food scraps near the kennel entrance.",
-      "Throw food to draw the four dogs away from Toyotaro.",
-      "Alternatively, use a scorch bomb near the kennel to rout the dogs non-lethally.",
-      "Engage Toyotaro alone — he uses a chain whip with decent range.",
-      "Deflect the chain when it extends and counter during the retraction pause.",
-      "Defeat Toyotaro and claim the reward from Kojiro."
+      "Take the bounty from the Red Crane Inn board.",
+      "Head north-west across the snowy field toward the Contested Farm.",
+      "Find the area with cages, dogs and one man — that's Toyotaro.",
+      "Deal with the dogs and defeat him.",
+      "Report back for the reward."
     ]
   },
 {
@@ -24831,19 +24818,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Inagawa the Gambler",
-    location: "Teshio Ridge",
+    location: "Bifuka Sake House, between Red Crane Inn and Sentinel Forest",
     length: "short",
-    difficulty: "Low",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Teshio Ridge bounty: track down the outlaw Inagawa the Gambler and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    difficulty: "Medium",
+    reward: "1,500 Mon, Gambler's Spear weapon kit",
+    summary: "Kojiro's special Teshio bounty. Inagawa runs the zeni hajiki table at the Bifuka Sake House — with weighted coins.",
+    aiTip: "Lose the first match on purpose, learn about the cheat from the settler outside, then swap his coin pouch in the attic.",
     video: "https://www.youtube.com/watch?v=Mkn1nLr7DY8",
     walkthrough: [
-      "Take the Inagawa the Gambler poster from the Teshio Ridge bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
-      "Defeat Inagawa the Gambler.",
-      "Claim the bounty reward."
+      "Finish Houndmaster Toyotaro and Snowstorm Katagiri, then get this bounty from Kojiro at the Red Crane Inn.",
+      "Play Inagawa at zeni hajiki in the back right corner of the Bifuka Sake House — you'll lose.",
+      "Talk to the settler outside who explains the weighted coins.",
+      "Climb onto the roof, enter the attic and swap the coin pouch.",
+      "Win the rematch, then kill Inagawa when his men ambush you outside."
     ]
   },
 {
@@ -24853,19 +24840,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Snowstorm Katagiri",
-    location: "Teshio Ridge",
+    location: "Road near the Kitsune Altar, Sarobetsu Forest",
     length: "short",
-    difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Teshio Ridge bounty: track down the outlaw Snowstorm Katagiri and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    difficulty: "Medium",
+    reward: "1,500 Mon",
+    summary: "A Red Crane Inn bounty: Snowstorm Katagiri waits on a road in Sarobetsu Forest, beside dead horses.",
+    aiTip: "He flees uphill partway through, so the fight has two parts.",
     video: "https://www.youtube.com/watch?v=5heKYinRq8U",
     walkthrough: [
-      "Take the Snowstorm Katagiri poster from the Teshio Ridge bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
-      "Defeat Snowstorm Katagiri.",
-      "Claim the bounty reward."
+      "Take the bounty from the Red Crane Inn board.",
+      "Follow the Guiding Wind to Sarobetsu Forest and the Kitsune Altar.",
+      "Look along the road for the dead horses — Katagiri is there.",
+      "Defeat him on the road, then chase him uphill and finish him.",
+      "Report back for the reward."
     ]
   },
 {
@@ -24875,19 +24862,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Nameless Killer",
-    location: "Teshio Ridge",
-    length: "short",
+    location: "Snow's Blight Hideout, through Snow's Blight Shrine (west Teshio Ridge)",
+    length: "medium",
     difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Teshio Ridge bounty: track down the outlaw Nameless Killer and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    reward: "2,000 Mon, Nameless Death sword kit",
+    summary: "A Red Crane Inn bounty: the Nameless Killer leads the hidden Yōtei Six camp at Snow's Blight Hideout, reached through a shrine in western Teshio Ridge.",
+    aiTip: "Clearing the camp completes the bounty — he's its leader.",
     video: "https://www.youtube.com/watch?v=C1NtDjMEq_E",
     walkthrough: [
-      "Take the Nameless Killer poster from the Teshio Ridge bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
-      "Defeat Nameless Killer.",
-      "Claim the bounty reward."
+      "Take the bounty from the Red Crane Inn board.",
+      "Go to Snow's Blight Shrine in the west, clear the enemies and free the hostage.",
+      "Solve the shrine puzzle to open the hidden path to the coast.",
+      "Clear Snow's Blight Hideout.",
+      "Defeat the Nameless Killer, its leader."
     ]
   },
 {
@@ -24897,19 +24884,19 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Teshio Ridge",
     title: "Black Night Kubo",
-    location: "Teshio Ridge",
+    location: "Black Knight Dueling Ring, Sentinel Forest",
     length: "short",
-    difficulty: "High",
-    reward: "Gold, Bounty Broker standing",
-    summary: "A Teshio Ridge bounty: track down the outlaw Black Night Kubo and bring them to justice.",
-    aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
+    difficulty: "Medium",
+    reward: "750 Mon, Black Night Kubo's mask",
+    summary: "A Red Crane Inn bounty: Kubo only answers a challenge at the dueling ring in Sentinel Forest from someone dressed in black.",
+    aiTip: "Wear black armour — the Nine-Tail Armor in 'Eyes in Smoke' works — before striking the woodblocks.",
     video: "https://www.youtube.com/watch?v=R2V07AVXs9c",
     walkthrough: [
-      "Take the Black Night Kubo poster from the Teshio Ridge bounty board.",
-      "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
-      "Scout the area and deal with any guards.",
-      "Defeat Black Night Kubo.",
-      "Claim the bounty reward."
+      "Take the bounty from the Red Crane Inn board.",
+      "Cut through the bamboo to the Black Knight Dueling Ring in Sentinel Forest.",
+      "Put on black armour.",
+      "Strike the clapping woodblocks beside the straw mat.",
+      "Duel and defeat Kubo."
     ]
   },
 {
