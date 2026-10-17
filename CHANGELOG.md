@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (6)
+
+- **Rebuild Ghost of Yotei main story from the real Main Tales** (PR #255)
+  — `v2.4.11` patch. The ten Atsu's Journey entries had invented content;
+  each now follows the real tale (the Snake, the Old Inn, Hanbei and the
+  dual katana, Lord Saito's training fortress, the ronin's lead, the Oni,
+  the Kitsune, the Saito brothers, Call of the Hunt, the Final Hunt of the
+  Onryō). #1142 is now Call of the Hunt, replacing the made-up "The Saito
+  Brothers (Part 2)".
+
 ## 2026-10-17 (5)
 
 - **Resolve the last YouTube search links** (PRs #241–#249) — `v2.4.10`
