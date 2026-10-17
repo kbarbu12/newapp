@@ -35766,7 +35766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Glory%20of%20the%20Zora%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FmdHONtz6x0"
   },
   {
     id: 1696,
@@ -36686,7 +36686,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shoot them down before they steal supplies.",
       "Protect the goods for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Supply-Eyeing%20Fliers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FONsTFWsoTM"
   },
   {
     id: 1742,
@@ -36706,7 +36706,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the materials or help teach.",
       "Complete the first lesson task."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8OOgTz_lKIs"
   },
   {
     id: 1743,
