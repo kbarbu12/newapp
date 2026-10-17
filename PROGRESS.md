@@ -7,6 +7,18 @@
 
 ---
 
+## 2026-10-17 — video title check finished, title fixes
+- Title check of all 1,440 video candidates done and saved to
+  `docs/video-candidates/title-check.json` (1,308 match).
+- 10 quest titles renamed to their in-game names (W3 #367 #609 #611 #634,
+  HFW #394, BG3 #978 #1010, Skyrim #1489 #1523 #1533); search-URL videos
+  updated to match.
+- Still open from the check: HFW #397 (likely "The Wound in the Sand",
+  content needs a check), BG3 #798 (mixes two quests), Skyrim #1498/#1499
+  ("Stormcloak variant" of Imperial-side battles), Skyrim #1535/#1536 (no
+  quest by those names found), likely duplicates BG3 #986/#1005 and
+  #999/#941, Deadfire #773/#110.
+
 ## 2026-10-16 — data fixes from the video title check
 - #1952 renamed to the in-game title **This Son of Jorvik** (was "The Son
   of Jorvik"); search-URL video updated to match.

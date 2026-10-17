@@ -8019,7 +8019,7 @@ const quests = [
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
-    title: "The Last Trial",
+    title: "The Final Trial",
     location: "Skellige",
     length: "short",
     difficulty: "Medium",
@@ -8035,7 +8035,7 @@ const quests = [
       "Deal with the fallout of the experiment.",
       "See the outcome through and collect the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Last%20Trial%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Final%20Trial%20walkthrough"
   },
 {
     id: 368,
@@ -8611,7 +8611,7 @@ const quests = [
     type: "side",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
-    title: "Blood Choke",
+    title: "The Blood Choke",
     location: "The Grove",
     length: "medium",
     difficulty: "Medium",
@@ -8626,7 +8626,7 @@ const quests = [
       "Clear the heavy-weapon rebels methodically.",
       "Eliminate the cell's leader to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Blood%20Choke%20walkthrough"
   },
 {
     id: 395,
@@ -13290,7 +13290,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
-    title: "Evil's Soul",
+    title: "Evil's Soft First Touches",
     location: "Oxenfurt (Hearts of Stone)",
     length: "medium",
     difficulty: "High",
@@ -13306,7 +13306,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Begin serving Olgierd's three impossible wishes.",
       "Advance the Hearts of Stone story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soul%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soft%20First%20Touches%20walkthrough"
   },
 {
     id: 610,
@@ -13336,7 +13336,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
-    title: "Bald Mountain (HoS): A Midnight Clear",
+    title: "A Midnight Clear",
     location: "Garin Estate (Hearts of Stone)",
     length: "medium",
     difficulty: "High",
@@ -13353,7 +13353,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the heart of the estate and make the pivotal choice.",
       "Resolve the confrontation and advance toward the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20(HoS)%3A%20A%20Midnight%20Clear%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Midnight%20Clear%20walkthrough"
   },
 {
     id: 612,
@@ -13843,7 +13843,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
-    title: "Scavenger Hunt: Manticore School Gear",
+    title: "Scavenger Hunt: Grandmaster Manticore Gear",
     location: "Toussaint (Blood and Wine)",
     length: "medium",
     difficulty: "High",
@@ -13859,7 +13859,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the high-tier crafting materials the set needs.",
       "Forge the Manticore set at a master craftsman."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Manticore%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Grandmaster%20Manticore%20Gear%20walkthrough"
   },
 {
     id: 635,
@@ -21245,7 +21245,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 1,
-    title: "Avenge Sovereign Glut",
+    title: "Avenge Glut's Circle",
     location: "Underdark / Myconid Colony",
     length: "medium",
     difficulty: "Medium",
@@ -21259,7 +21259,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the duergar targets.",
       "Decide whether to stop Glut's coup or let it happen, resolving the colony's fate.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Sovereign%20Glut%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Glut's%20Circle%20walkthrough"
   },
 {
     id: 979,
@@ -21949,7 +21949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Side Quest",
     game: "Baldur's Gate 3",
     act: 3,
-    title: "Visit Emperor's Hideout",
+    title: "Visit the Emperor's Old Hideout",
     location: "Emperor's Hideout / Astral Prism",
     length: "short",
     difficulty: "Medium",
@@ -21963,7 +21963,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear its intentions regarding Orpheus and the Netherbrain.",
       "Decide how far to trust it, shaping the endgame Orpheus choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20Emperor's%20Hideout%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20the%20Emperor's%20Old%20Hideout%20walkthrough"
   },
 {
     id: 1027,
@@ -31776,21 +31776,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Civil War - Imperial Legion",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Battle for Fort Kastav",
+    title: "Rescue from Fort Kastav",
     location: "Fort Kastav, Winterhold",
     length: "medium",
     difficulty: "High",
     reward: "Hold captured",
-    summary: "Seize Fort Kastav to secure Imperial dominance in the region.",
-    aiTip: "A straightforward siege — stick with your squad and clear the walls before pressing inside.",
+    summary: "Free the Imperial soldiers held prisoner at Fort Kastav and take the fort for the Legion.",
+    aiTip: "Free the prisoners early — once released they fight alongside you and make clearing the fort much easier.",
     walkthrough: [
-      "Take the order from General Tullius or your Legate during the Civil War questline to take Winterhold.",
-      "Meet the troops at the Imperial camp outside Fort Kastav.",
-      "Storm the courtyard and kill the defenders.",
-      "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
-      "Fort Kastav falls to the Legion; report back for the next order."
+      "Take the order from your Legate during the Civil War questline to rescue the Legion soldiers held at Fort Kastav.",
+      "Meet the Imperial squad outside Fort Kastav in Winterhold.",
+      "Fight your way into the fort and down to the prison cells.",
+      "Free the captured Imperial soldiers, then clear the remaining Stormcloak defenders with them.",
+      "Fort Kastav falls to the Legion; report back to your Legate for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Kastav%20walkthrough"
   },
   {
     id: 1491,
@@ -32392,9 +32392,9 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   {
     id: 1523,
     type: "side",
-    category: "Bards College & Divine Quests",
+    category: "Daedric Quests",
     game: "The Elder Scrolls V: Skyrim",
-    title: "Pieces of the Past (Divine quest — Talos)",
+    title: "Mehrunes Dagon: Pieces of the Past",
     location: "Dawnstar / Silus's Museum",
     length: "medium",
     difficulty: "High",
@@ -32407,7 +32407,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the relic/amulet tied to Talos worship.",
       "Return the item to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Pieces%20of%20the%20Past%20%28Divine%20quest%20%E2%80%94%20Talos%29%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mehrunes%20Dagon%3A%20Pieces%20of%20the%20Past%20walkthrough"
   },
   {
     id: 1524,
@@ -32554,7 +32554,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side & Dungeon Quests",
     game: "The Elder Scrolls V: Skyrim",
-    title: "The Feud of Kvenel the Tongue (Dungeon Quest)",
+    title: "Silenced Tongues (Dungeon Quest)",
     location: "Nordic ruin (Kvenel's tomb)",
     length: "medium",
     difficulty: "Medium",
@@ -32567,7 +32567,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the ghostly hero Kvenel the Tongue.",
       "Claim his paired weapons, Eduj and Okin, and any word wall nearby."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Feud%20of%20Kvenel%20the%20Tongue%20%28Dungeon%20Quest%29%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silenced%20Tongues%20(Dungeon%20Quest)%20walkthrough"
   },
   {
     id: 1534,
