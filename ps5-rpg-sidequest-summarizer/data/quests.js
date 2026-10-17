@@ -23858,25 +23858,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "Side Tales",
     game: "Ghost of Yotei",
-    region: "Tokachi Range",
+    region: "Nayoro Wilds",
     title: "The Ainu Kotan",
-    location: "Tokachi Range — Ainu Settlement",
+    location: "Konupas (southern Tokachi Range) → Husko Kotan, Nayoro Wilds",
     length: "long",
     difficulty: "High",
-    reward: "Ainu Warrior's Charm, Kotan alliance",
+    reward: "Robes of Sitturaynu upgrades",
     summary:
-      "An Ainu settlement in the Tokachi foothills faces forced relocation by a lord claiming their land. Atsu investigates the land claim, exposes its fraud, and defends the settlement against the lord's enforcers.",
+      "Konupas, an Ainu saddle seller roaming the Tokachi Range, points Atsu to Husko Kotan, the Ainu village in Nayoro Wilds, where Kaeka the Weaver can upgrade her robes with Ainu items.",
     aiTip:
-      "The land claim fraud evidence is in the lord's office — three documents, each in a different guarded room. Read all three before confronting the lord to unlock the full peaceful dialogue option that avoids unnecessary bloodshed.",
+      "Ainu items glow blue — there are 30 across Ezo. Cross to Nayoro Wilds via the Central Ferry on the Great Lake.",
     video: "https://www.youtube.com/watch?v=ErB6APBVbtY",
     walkthrough: [
-      "Speak with Ainu community leader Huci at the settlement gates.",
-      "Infiltrate the lord's manor to find the three forged land documents.",
-      "Document 1: administrator's desk in the main hall.",
-      "Document 2: locked box in the treasury — key is on a guard captain.",
-      "Document 3: the lord's personal study on the top floor.",
-      "Confront the lord with all three documents — he orders his enforcers to attack regardless.",
-      "Defeat the twelve enforcers in the settlement defence to complete the quest."
+      "Find Konupas in the south of the Tokachi Range and calm her horse.",
+      "She tells you about Husko Kotan.",
+      "Take the Central Ferry across the Great Lake with Huci's help.",
+      "In Husko Kotan, talk to Kaeka the Weaver.",
+      "Bring her Ainu items to upgrade your Robes of Sitturaynu."
     ]
   },
 {
@@ -23963,22 +23961,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "A Melody of Thoughts",
-    location: "Nayoro Wilds — Spirit Forest",
-    length: "medium",
+    location: "East of Cukpet Hills → Nayoro falls",
+    length: "short",
     difficulty: "Low",
-    reward: "Forest Spirit Charm, Ainu lore entries",
+    reward: "Song of the Ainu (shamisen song)",
     summary:
-      "An Ainu singer's ancient songs are said to guide travellers through the spirit-haunted Nayoro forest safely. Atsu joins her on a ritual journey, protecting her voice — and learning something of the Ainu world in return.",
+      "The follow-up to The Soul of an Instrument: the Ainu musician, now waiting east of Cukpet Hills, teaches Atsu his song.",
     aiTip:
-      "The spirits in this quest are non-hostile unless Atsu draws a weapon. Keep weapons sheathed throughout the forest walk and the spirits will provide illumination rather than attacking.",
+      "Finish The Soul of an Instrument in the Tokachi Range first.",
     video: "https://www.youtube.com/watch?v=f6s26qH6f1w",
     walkthrough: [
-      "Find Singer Sipne at the Nayoro forest edge at dawn.",
-      "Follow Sipne into the Spirit Forest — keep weapons sheathed at all times.",
-      "When hostile bandits interrupt the journey, use hand-to-hand throws to incapacitate without drawing steel.",
-      "Sipne sings at three waypoints — stand in the glowing circle to receive the spirits' guidance.",
-      "At the forest centre, a single large spirit guards the path — Sipne's fourth song appeases it.",
-      "Exit the forest with Sipne and receive the Forest Spirit Charm."
+      "Complete The Soul of an Instrument.",
+      "Find the Ainu musician east of Cukpet Hills in Nayoro Wilds.",
+      "Learn his song.",
+      "Go to the Nayoro falls and collect the Ainu item."
     ]
   },
 {
@@ -23988,23 +23984,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "The Face of a Master",
-    location: "Nayoro Wilds — Remote Village",
-    length: "medium",
-    difficulty: "High",
-    reward: "Master's Disguise Charm, assassination technique",
+    location: "Ikidomari Grove, Nayoro Wilds",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Charm of Unhealthy Resolve",
     summary:
-      "A disguised master assassin is hiding among the workers of a Nayoro village, gathering intelligence on Atsu's movements. Expose them through careful observation before they act.",
+      "Ronin are threatening people at Ikidomari Grove. Drive them off, then help a healer uncover what's hidden in the camp and the cave behind it.",
     aiTip:
-      "The assassin changes disguise between observation phases. Track them by the slight scar visible on their left wrist — every disguise leaves this detail. Look for it on each suspect before accusing.",
+      "Shoot the watchtower guard first; grapple the locked gate to get in.",
     video: "https://www.youtube.com/watch?v=xCHIT5SHr1I",
     walkthrough: [
-      "Receive a tip from an Ainu elder about a suspicious worker in the Nayoro village.",
-      "Observe the five suspects going about their daily routines — look for the wrist scar.",
-      "Two suspects can be eliminated in Phase 1 (scar absent); focus on the remaining three.",
-      "The assassin changes disguise at midday — recheck all remaining suspects at noon.",
-      "Identify the correct suspect and confront them at the village well.",
-      "Defeat the assassin — they fight with twin knives and smoke bombs.",
-      "Receive the Master's Disguise Charm and a new assassination technique from the search of their belongings."
+      "Near Ikidomari Grove, win the standoff against the ronin and free their captive.",
+      "Kill the remaining ronin and break through the gate.",
+      "Examine the speared body and the box in the tent.",
+      "Detonate the black powder when the healer asks, then follow her into the cave and read the wall.",
+      "Help her up, read the scroll on the shelf and take the charm from the box."
     ]
   },
 {
@@ -24014,22 +24008,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "The Face of a Demon",
-    location: "Nayoro Wilds — Eastern Farmlands",
-    length: "medium",
+    location: "Meiro Caves, north-east of Kankan Creek",
+    length: "short",
     difficulty: "Medium",
-    reward: "Exile's Charm, peaceful resolution bonus",
+    reward: "Charm of Risk and Reward",
     summary:
-      "Farmers in the Nayoro eastern lands blame a disfigured exile for livestock deaths and crop destruction. Atsu investigates and discovers the true culprit — a natural predator — and must choose whether to defend the exile.",
+      "The sequel to The Face of a Master: shoot the lock off the Meiro Caves and hunt down the deranged ronin inside.",
     aiTip:
-      "Finding the animal tracks before confronting the farmers unlocks a full peaceful resolution. If you skip the investigation and go straight to the exile, the quest resolves with combat only and no bonus charm.",
+      "The charm heals you but carries an equally risky drawback — read it before equipping.",
     video: "https://www.youtube.com/watch?v=1bxRz94Zd8c",
     walkthrough: [
-      "Hear the farmers' complaint at the Nayoro market.",
-      "Investigate the crime scene: three sets of animal claw marks, not human footprints.",
-      "Track the claw marks to a bear's den north of the farmlands — clear the bear.",
-      "Find the exile Juko hiding nearby — he has been protecting the farmers from the bear all along.",
-      "Bring the farmers and Juko together for a confrontation dialogue.",
-      "Choose 'show them the evidence' to resolve peacefully and earn both rewards."
+      "Finish The Face of a Master.",
+      "Shoot the door lock to the Meiro Caves, north-east of Kankan Creek.",
+      "Follow the path inside and kill the group of deranged ronin.",
+      "Examine the scroll on the bench and the skeleton in front of it."
     ]
   },
 {
@@ -24039,22 +24031,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "The Heart of an Ainu",
-    location: "Nayoro Wilds — Trial Grounds",
-    length: "long",
+    location: "Husko Kotan and the hills around Nayoro Falls",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Ainu Trial Charm, Nayoro alliance",
+    reward: "Robes of Sitturaynu",
     summary:
-      "A young Ainu warrior needs to complete a coming-of-age trial in the deep forest to earn their place in the community. Atsu accompanies them as a witness, offering guidance through three ancient trials.",
+      "Huci of Husko Kotan asks Atsu to help her friend Kaeka, who has been robbed. Search Kaeka's home and follow the thieves' trail through the ravines and forests of Nayoro Wilds.",
     aiTip:
-      "The trials test the young warrior, not Atsu — let them fight each encounter. Only intervene if they are about to die (health below 20%) or the quest will count Atsu as a cheater and lock the alliance reward.",
+      "Reach Nayoro Wilds by the Central Ferry in the north of the Tokachi Range. Follow the strips of bark to stay on the trail.",
     video: "https://www.youtube.com/watch?v=d7T8NTAQD_o",
     walkthrough: [
-      "Meet young warrior Piri at the Nayoro Trial Grounds entrance.",
-      "Trial 1 (Hunt): Piri must track and fell a deer — guide them to the animal's tracks.",
-      "Trial 2 (Combat): Piri fights three outlaw scouts alone — only intervene if HP drops below 20%.",
-      "Trial 3 (Endurance): Piri must cross a frozen river — assist only by breaking the ice ahead with the Tanzutsu.",
-      "Witness the completion ceremony at the far bank.",
-      "Receive the Ainu Trial Charm and the Nayoro community alliance marker."
+      "Cross to Nayoro Wilds by the Central Ferry and meet Huci near Nayoro Falls.",
+      "Go with her to Kaeka, who tells you about the robbery.",
+      "Speak with Kaeka's husband and examine the house.",
+      "Follow the trail of bark strips through the ravines.",
+      "Catch up with Huci to finish."
     ]
   },
 {
@@ -24064,22 +24055,21 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Ghost of Yotei",
     region: "Nayoro Wilds",
     title: "The Load We Bear",
-    location: "Nayoro Wilds — Forest Supply Route",
+    location: "Hills west of Husko Kotan",
     length: "medium",
-    difficulty: "Medium",
-    reward: "Packhorse Charm, fast-travel route added",
+    difficulty: "Low",
+    reward: "Thoughts on the Ocean hat, Sitturaynu trophy",
     summary:
-      "A supply chain carrying critical medicine through the Nayoro wilds is being systematically robbed by a bandit cell that knows the route schedule. Atsu must protect the final shipment and eliminate the cell's leadership.",
+      "After The Heart of an Ainu, Huci goes missing in the hills west of Husko Kotan. Find her and help free a bear cub trapped beside its dead mother.",
     aiTip:
-      "The bandit cell leader stays back during each ambush wave — only engaging after his subordinates fall. Save your Ghost Stance for him; he is immune to fear and fights with dual axes that deflect standard attacks.",
+      "Red-and-white cloths mark the climbing route. Play the shamisen at the cave mouth to coax the cub out.",
     video: "https://www.youtube.com/watch?v=ZvMURcWMJSw",
     walkthrough: [
-      "Speak with Supply Master Kano at the Nayoro forest trailhead.",
-      "Escort the two supply carriers through the first forest section.",
-      "Wave 1 ambush (6 bandits): eliminate quickly — carriers stop if they see combat for too long.",
-      "Wave 2 ambush (8 bandits): one flanks the carriers — intercept the flanker first.",
-      "The cell leader appears after Wave 2; use Ghost Stance and yari thrusts to handle his dual-axe defence.",
-      "Escort the carriers to the Nayoro village and receive the Packhorse Charm and fast-travel route."
+      "Talk to Huci's son in Husko Kotan.",
+      "Climb the cliffs west of the village, following the red-and-white cloths, to Huci.",
+      "Remove the rocks trapping the cub beside its mother.",
+      "Play your shamisen near the cave entrance to lure it out.",
+      "Lead the cub back to the village and share meals with Huci's son and Huci."
     ]
   },
 {
