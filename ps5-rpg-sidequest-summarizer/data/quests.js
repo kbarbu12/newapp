@@ -39644,7 +39644,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the outcome of the Ledecestrescire campaign.",
       "Place the alliance bloom on the map and choose your next pledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Ledecestrescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ND4mAzRLqq8"
   },
 {
     id: 1877,
@@ -40075,7 +40075,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate and gather the needed intelligence.",
       "Escape and report back to the rebels."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Pilgrimage%20to%20St.%20Albanes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1xW9PySM89c"
   },
 {
     id: 1895,
@@ -40291,7 +40291,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and remove the target.",
       "Recover any evidence and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bleeding%20The%20Leech%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oV0hwiH74QY"
   },
 {
     id: 1904,
@@ -40315,7 +40315,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat the ringleader.",
       "Secure the city and Erke's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Smashing%20the%20Compass%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZR3mBdGKv2E"
   },
 {
     id: 1905,
@@ -41368,7 +41368,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Jorvik outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Jorvik%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YnXB6kM8HfA"
   },
 {
     id: 1949,
@@ -41728,7 +41728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Glowecestrescire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Glowecestrescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-McIi8KKCdI"
   },
 {
     id: 1964,
@@ -41920,7 +41920,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Snotinghamscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Snotinghamscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=69o8_Tcg_4Q"
   },
 {
     id: 1972,
@@ -42375,7 +42375,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push toward the binding of the great danger.",
       "Set up the final act."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Big%20Finish%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hQhVUgJY-GY"
   },
 {
     id: 1991,
