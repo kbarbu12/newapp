@@ -15862,7 +15862,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take Colorless Souls to Blacksmith Ed or Boldwin to apply special upgrades.",
       "Repeat across worlds at Pure White to gather enough Colorless Souls for your build."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Primeval%20Demons%20%26%20Colorless%20Souls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i2gqPj6VLgw"
   },
 {
     id: 755,
