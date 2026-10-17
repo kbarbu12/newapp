@@ -18346,7 +18346,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish between their spell casts with quick combos.",
       "Break their poise to end the Flaming Mountains' curse encounter."
     ],
-    video: "https://www.youtube.com/results?search_query=Black%20Myth%20Wukong%20The%20Fire%20Sages%20(Five%20Elements)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=miSPYaSSNhA"
   },
 {
     id: 843,
