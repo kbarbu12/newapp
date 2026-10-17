@@ -5792,7 +5792,7 @@ const quests = [
       "Talk him down using the braindance-addiction clues.",
       "Resolve the standoff and part with River."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Happy%20Together%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AI392eSR7sU"
   },
 {
     id: 267,
@@ -5836,7 +5836,7 @@ const quests = [
       "Upgrade Body and melee mods between fights.",
       "Defeat the Twins and finally Razor Hughes for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Beat%20on%20the%20Brat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MWmU-q37rZc"
   },
 {
     id: 269,
@@ -6353,7 +6353,7 @@ const quests = [
       "Subdue Lely Hein non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Six%20Feet%20Under%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1zl4vbLlpoE"
   },
 {
     id: 293,
@@ -6539,7 +6539,7 @@ const quests = [
       "Subdue Dao Hyunh non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Seaside%20Cafe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lB_CdGJ_n8w"
   },
 {
     id: 302,
@@ -11529,7 +11529,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight up through Arasaka security.",
       "Face Adam Smasher in the climactic battle."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Totalimmortal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z-i0P5VOqvg"
   },
 {
     id: 529,
@@ -11795,7 +11795,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose supportive replies.",
       "Deepen the bond with Judy."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Both%20Sides%2C%20Now%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_jG0Q9fCLgg"
   },
 {
     id: 541,
@@ -12234,7 +12234,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Talk her down — blame her NCPD superiors or, as a Nomad, convince her to leave town.",
       "Leave the area."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Woman%20of%20La%20Mancha%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XImO6TkyZjE"
   },
 {
     id: 561,
@@ -12778,7 +12778,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to Mr. Hands for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Spy%20in%20the%20Jungle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uwu4V_mI7aY"
   },
 {
     id: 587,
