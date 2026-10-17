@@ -52501,7 +52501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the Wahaki leaders, by deception or open attack.",
       "Return to Kua for payment."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Tip%20of%20the%20Spear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3fSR2-o1F6U"
   },
 {
     id: 2462,
