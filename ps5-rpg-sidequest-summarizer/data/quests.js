@@ -8738,7 +8738,7 @@ const quests = [
       "Use specialized ammo and traps to hit the requirements fast.",
       "Earn full marks to unlock prestige gear rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Hunting%20Grounds%20Trials%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kDHh3j503-k"
   },
 {
     id: 401,
@@ -8760,7 +8760,7 @@ const quests = [
       "Solve the traversal puzzles to reach the sealed chamber.",
       "Claim the ruin's treasure to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Relic%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qW1AvKrGFxY"
   },
 {
     id: 402,
@@ -29632,19 +29632,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
     title: "War Totems",
-    location: "Multiple regions, Forbidden West",
+    location: "Hidden sites across the Forbidden West (not marked on the map)",
     length: "short",
     difficulty: "Low",
-    reward: "Lore, Trophy progress, XP",
-    summary: "Find the three Tenakth War Totems raised across the Forbidden West, each honouring a clan's warriors and its history.",
-    aiTip: "They stand at prominent clan sites — approach and interact to log the totem's story datapoint.",
+    reward: "God of War face paint",
+    summary: "A God of War Easter egg: three War Totems are hidden around the Forbidden West — the Totem of War, the Totem of Youth and the Totems of Brotherhood. Find all three to unlock Kratos-style face paint for Aloy.",
+    aiTip: "War Totems are the only collectible not marked on your map, so follow a guide; your Focus picks up clues once you're close. None of them are missable.",
     walkthrough: [
-      "Travel to a War Totem marker on your map.",
-      "Approach the totem at its clan site.",
-      "Interact with it to record its history.",
-      "Visit all three to complete the set."
+      "Note that War Totems never appear on the map — use the video or a guide to reach each site.",
+      "Totem of War (Kratos): find it inside a hut, a nod to Kratos's cabin.",
+      "Totem of Youth (Atreus): look by a bridge on the Isle of Spires.",
+      "Totems of Brotherhood (Brok and Sindri): search an opening in the sand by the shore.",
+      "After the third totem, equip the God of War face paint at any Painter merchant."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20War%20Totems%20walkthrough"
+    video: "https://www.youtube.com/watch?v=poCOQtSvxMQ"
   },
   {
     id: 1388,
@@ -54217,7 +54218,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make your final dialogue choice.",
       "Complete the DLC."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Epilogue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pfF6qH7dBzg"
   },
   {
     id: 2579,
