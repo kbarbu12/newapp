@@ -1704,7 +1704,7 @@ const quests = [
       "Pursue his questions about Magran and the Saint's War to unlock deeper revelations.",
       "Reach his final confrontation dialogue to resolve his fate and the truth about the gods."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Trials%20of%20Durance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RwMuntpRpFA"
   },
 {
     id: 59,
@@ -1728,7 +1728,7 @@ const quests = [
       "Defeat the guardian spirits and constructs in the depths.",
       "Claim the ruin's secrets and loot about the civilization that made the gods."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Bronze%20Beneath%20the%20Lake%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_DQD_565S8"
   },
 {
     id: 60,
@@ -1752,7 +1752,7 @@ const quests = [
       "At the bottom, face the Adra Dragon — or talk it down with high Resolve and Lore.",
       "Resolve the dragon to complete the mega-dungeon and claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master%20Below%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TqnL5gvPKI8"
   },
 {
     id: 61,
@@ -1774,7 +1774,7 @@ const quests = [
       "Solve the ruin's mechanisms and fight or sneak past its guardians.",
       "Decide the artifacts' fate between the rival factions to resolve the storm."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Onqo49V1w6M"
   },
 {
     id: 62,
@@ -1796,7 +1796,7 @@ const quests = [
       "Bypass the imps and wards guarding the study rather than brawling through.",
       "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9WKJmR1SZBQ"
   },
 {
     id: 63,
@@ -1818,7 +1818,7 @@ const quests = [
       "Clear the guardians at each cache and collect the tome.",
       "Return the grimoires to Berkana for the unique spell-combination rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NtloCoeCf_k"
   },
 {
     id: 64,
@@ -1840,7 +1840,7 @@ const quests = [
       "Choose which gang or outcome to back through the dialogue branches.",
       "Resolve the changeling's scheme to decide who controls the district."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PojLQpNOpAg"
   },
 {
     id: 65,
@@ -2523,7 +2523,7 @@ const quests = [
       "Fight through Riku's raiders.",
       "Defeat Black Hand Riku to claim the Sarugami Armor."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1OtMmxIHo9E"
   },
 {
     id: 104,
@@ -2655,7 +2655,7 @@ const quests = [
       "Decide how far the animancy should go; your choice affects the later hearing.",
       "Resolve the confrontation to close out the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Through%20Death's%20Gate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VXYbOdAIF6M"
   },
 {
     id: 110,
@@ -2677,7 +2677,7 @@ const quests = [
       "Investigate the lighthouse to pick up Eothas's trail.",
       "Choose whether to make the Naga allies or enemies for the rest of the game."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6-8vGDKYu84"
   },
 {
     id: 112,
@@ -2727,7 +2727,7 @@ const quests = [
       "In Act 3, reunite her with her parents (the House of Grief) and decide their fate.",
       "Complete her arc, which determines whether she remains a Dark Justiciar or turns to Selûne.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7K7rSuZGJ78"
   },
 {
     id: 114,
@@ -2825,7 +2825,7 @@ const quests = [
       "Support (or oppose) his choice through the endgame.",
       "Resolve his arc at the final battle, where his orb can be used against the Netherbrain.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6SFzGBlOqjI"
   },
 {
     id: 118,
@@ -2850,7 +2850,7 @@ const quests = [
       "Decide whether Wyll keeps his powers, breaks the pact, or becomes the Blade of Avernus.",
       "Complete his arc based on that choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D0yx2aevJNA"
   },
 {
     id: 119,
@@ -3432,7 +3432,7 @@ const quests = [
       "Cutting him down in the Nexus rewards the full Gloom Set.",
       "Advanced: his killings serve Mephistopheles — only accept her contracts at Pure Black world tendency if you deliberately want that path."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Yurt%20the%20Silent%20Chief%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbjMhvECyEo"
   },
 {
     id: 146,
@@ -3823,7 +3823,7 @@ const quests = [
       "Free the healer, Hochi.",
       "Protect Hochi to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZTdqo0JS7XA"
   },
 {
     id: 176,
@@ -3866,7 +3866,7 @@ const quests = [
       "Deal with the trouble on the way.",
       "Finish the tale with Kenji."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dXULJXYSzCY"
   },
 {
     id: 178,
@@ -3887,7 +3887,7 @@ const quests = [
       "Kill Taizo, then Manzo and Kichizo, without being seen.",
       "Meet Yuna at the front gate to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9SC4Ztxfhrw"
   },
 {
     id: 179,
@@ -3950,7 +3950,7 @@ const quests = [
       "Recover Rayad's mask from the dead cultist as evidence.",
       "Return to Ybril at Barren Light to prove Conover's innocence."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2AcuxO04LDw"
   },
 {
     id: 183,
@@ -4037,7 +4037,7 @@ const quests = [
       "Choose an outcome that improves your Stronghold's ties with local settlers.",
       "Report back to close the quest and secure the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Lord%20of%20a%20Barren%20Land%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r4hBAQBt4T8"
   },
 {
     id: 187,
@@ -4061,7 +4061,7 @@ const quests = [
       "Use Lore and Insight checks to reach the hidden 'best' outcome.",
       "Choose truth or comfortable deception, then return the text (or don't)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Parable%20of%20Wael%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T2SN4MTp-g4"
   },
 {
     id: 188,
@@ -4085,7 +4085,7 @@ const quests = [
       "Speak with the boy for the quest's touching dialogue.",
       "Return to collect the minor reward and close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Brave%20Derrin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MiZQ62aiG-8"
   },
 {
     id: 189,
@@ -4109,7 +4109,7 @@ const quests = [
       "Otherwise clear the hard camp encounter, and loot Elmshore's rare crafting ingredients.",
       "Return the egg to the merchant for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Egg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lGmZbAsgvao"
   },
 {
     id: 190,
@@ -4133,7 +4133,7 @@ const quests = [
       "Make the moral choice about the son's redemption.",
       "Resolve it, noting the effect on Copperlane faction reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Mother's%20Plea%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xt4dFhIHaj8"
   },
 {
     id: 192,
@@ -4157,7 +4157,7 @@ const quests = [
       "Uncover the noble's fate — this quest gates access to Twin Elms and Act 3.",
       "Resolve it to open the path into the game's final act."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Never%20Far%20from%20the%20Queen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S3Kkz0dUsz4"
   },
 {
     id: 193,
@@ -4179,7 +4179,7 @@ const quests = [
       "Use Persuasion/Diplomacy checks to broker an agreement.",
       "Settle the alliance to unlock the later, more lucrative opportunities."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hyS3iKkNO2w"
   },
 {
     id: 194,
@@ -4201,7 +4201,7 @@ const quests = [
       "Pass the diplomatic tests with the local spirits.",
       "Finish the rite to earn the tribe's trust and rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TzEdM9FgJzU"
   },
 {
     id: 195,
@@ -4265,7 +4265,7 @@ const quests = [
       "Choose whether to steer her toward Gaun or Magran during her crisis.",
       "Resolve her arc about the souls in her lantern to lock in her ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Zq1NwtGVXbA"
   },
 {
     id: 198,
@@ -4287,7 +4287,7 @@ const quests = [
       "Explore the lost Engwithan city and its guardians.",
       "Let your faction allegiance decide which dramatic ending unfolds."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fsfq9S9o9_8"
   },
 {
     id: 199,
@@ -4309,7 +4309,7 @@ const quests = [
       "Choose whether she obeys or defies the Republic's orders.",
       "Resolve her arc to determine her fate and standing at the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dTAlSkHXV_8"
   },
 {
     id: 200,
@@ -5082,7 +5082,7 @@ const quests = [
       "Enter the inner sanctum and carefully disarm the trap protecting the mace.",
       "Take the Blood of Lathander mace, then survive the collapsing sanctum by ringing the bell / escaping quickly.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4Nli5CxcFBo"
   },
 {
     id: 234,
@@ -5155,7 +5155,7 @@ const quests = [
       "Use this to inform the Orpheus choice at the endgame.",
       "Keep Voss as an ally for the final battle if you support the gith rebellion.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2cNh8rpB0_A"
   },
 {
     id: 237,
@@ -5526,7 +5526,7 @@ const quests = [
       "Handle the Flathead deal — pay, use the chip, or start a firefight.",
       "Leave with the Flathead bot and regroup with Jackie."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Pickup%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2RsUAOpAshA"
   },
 {
     id: 255,
@@ -5548,7 +5548,7 @@ const quests = [
       "Scrub through the recorded infiltration in the BD editor across visual, thermal, and audio layers.",
       "Tag the clues (window, guard route, vault) to finish planning."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Information%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ouX-aZME6W8"
   },
 {
     id: 256,
@@ -5570,7 +5570,7 @@ const quests = [
       "Reach out to Vik and Misty for help.",
       "Track the first lead toward removing the relic."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Playing%20for%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=58lnnHRStUA"
   },
 {
     id: 257,
@@ -5592,7 +5592,7 @@ const quests = [
       "Confront Woodman about what happened after the heist.",
       "Get the lead on Evelyn's whereabouts."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Automatic%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Nvo2GdojOQo"
   },
 {
     id: 258,
@@ -5614,7 +5614,7 @@ const quests = [
       "Find Evelyn and recover the stolen relic data.",
       "Escape as the situation turns grim."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Disasterpiece%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4KUoPVVT7jE"
   },
 {
     id: 259,
@@ -5636,7 +5636,7 @@ const quests = [
       "Jack in and confront the NetWatch agent's offer.",
       "Choose a side and survive the netrun."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I%20Walk%20the%20Line%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FrznfpFxYK0"
   },
 {
     id: 260,
@@ -5658,7 +5658,7 @@ const quests = [
       "Rescue Takemura and grab Hanako's captor.",
       "Interrogate the captor before the parade."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Search%20and%20Destroy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=h6ZqBUnUpf8"
   },
 {
     id: 261,
@@ -5680,7 +5680,7 @@ const quests = [
       "Defeat or spare Oda in the duel.",
       "Secure the meeting with Hanako."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Play%20It%20Safe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ABpKChDqOzA"
   },
 {
     id: 262,
@@ -5702,7 +5702,7 @@ const quests = [
       "Confront Adam Smasher and the tower's defenses.",
       "See the raid to its tragic end."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Never%20Fade%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nH7D3KoNQcM"
   },
 {
     id: 263,
@@ -5724,7 +5724,7 @@ const quests = [
       "Make your peace and choose the path to Arasaka.",
       "Commit to the final approach."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Nocturne%20Op55N1%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 264,
@@ -5746,7 +5746,7 @@ const quests = [
       "Say goodbye to Johnny at the crossroads.",
       "Leave the city behind in search of a cure."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Star%20%E2%80%93%20Aldecaldos%20Ending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVmqLU5MSKE"
   },
 {
     id: 265,
@@ -5768,7 +5768,7 @@ const quests = [
       "Reach Mikoshi and make the final choice.",
       "Cement V's legend and take Mr. Blue Eyes' offer."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Sun%20%E2%80%93%20Legendary%20Ending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k9AzTRFN-HQ"
   },
 {
     id: 266,
@@ -5814,7 +5814,7 @@ const quests = [
       "Adapt — fight, hack, or flee the chaos.",
       "Escape with the goods and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Big%20in%20Japan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PSYuEQ0VJ4w"
   },
 {
     id: 268,
@@ -5858,7 +5858,7 @@ const quests = [
       "Subdue or coax each fractured cab personality.",
       "Reboot them all and confront the core AI at the depot."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Epistrophy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l16-tzNDsho"
   },
 {
     id: 270,
@@ -5880,7 +5880,7 @@ const quests = [
       "Handle the double-crossing parties who want a cut.",
       "Escape with the score and cash out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Space%20Oddity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZsTPTBog5OI"
   },
 {
     id: 271,
@@ -5902,7 +5902,7 @@ const quests = [
       "Share memories of Jackie and make your choices about his bike and gear.",
       "Say goodbye to your fallen partner."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Heroes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aTqXhdXAyaU"
   },
 {
     id: 272,
@@ -5924,7 +5924,7 @@ const quests = [
       "Steal the Basilisk and escape the pursuit.",
       "Cement V's bond with the nomad family."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Queen%20of%20the%20Highway%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vnZGLOpZw3Y"
   },
 {
     id: 273,
@@ -5948,7 +5948,7 @@ const quests = [
       "Follow the relaxed dialogue beats.",
       "Turn in for the night to close the scene."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20With%20a%20Little%20Help%20from%20My%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s4kOm7UMy-A"
   },
 {
     id: 274,
@@ -5970,7 +5970,7 @@ const quests = [
       "Confront the culprit tied to the corrupt politician.",
       "Share the water-tower moment with River afterward."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Following%20the%20River%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1X82PXbG2uc"
   },
 {
     id: 275,
@@ -5994,7 +5994,7 @@ const quests = [
       "Choose how to handle Maiko's counteroffer.",
       "Live with the fallout of the deal."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pisces%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-UCSeww04v4"
   },
 {
     id: 276,
@@ -6018,7 +6018,7 @@ const quests = [
       "Complete the objective by force, hacking, or talk.",
       "Resolve the dispute and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Talkin'%20'Bout%20a%20Revolution%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HGhIOvc9s5w"
   },
 {
     id: 277,
@@ -6040,7 +6040,7 @@ const quests = [
       "Witness or take part in the recorded ordeal.",
       "Resolve the disturbing job and reflect on it."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20They%20Won't%20Go%20When%20I%20Go%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_zCj4JQIwNc"
   },
 {
     id: 278,
@@ -6061,7 +6061,7 @@ const quests = [
       "Grab Jotaro Shobo.",
       "Drop him in the trunk of the marked car."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Monster%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=H2lU2Rk8srs"
   },
 {
     id: 279,
@@ -6082,7 +6082,7 @@ const quests = [
       "Find Max and lead him down the yellow stairs to the car.",
       "Drive off and leave him at the nearby drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Freedom%20of%20the%20Press%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gIppgmLnpsk"
   },
 {
     id: 280,
@@ -6103,7 +6103,7 @@ const quests = [
       "Optionally take Dan's car too, for the bonus.",
       "Deliver it to Dan upstairs at the Luxury Apartments in western Charter Hill."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Heirloom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3NiREqC-k4w"
   },
 {
     id: 281,
@@ -6124,7 +6124,7 @@ const quests = [
       "Take the car.",
       "Drive it to Jake."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Life's%20Work%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Tpb97TO7e_Q"
   },
 {
     id: 282,
@@ -6145,7 +6145,7 @@ const quests = [
       "Reach room 203 through room 200 and across the balcony for the beta acid.",
       "Deposit it at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Serious%20Side%20Effects%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Jt-6hYySVJ4"
   },
 {
     id: 283,
@@ -6166,7 +6166,7 @@ const quests = [
       "Find and talk to Hwangbo.",
       "Escort him to the nomad meeting and talk to him before leaving."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Flight%20of%20the%20Cheetah%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ThmoTXjbfIs"
   },
 {
     id: 284,
@@ -6187,7 +6187,7 @@ const quests = [
       "Take the coolant from the bathroom sink and lower her body temperature.",
       "Disconnect her using the wall screen by the door."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Getting%20Warmer...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4FiIEy62v6E"
   },
 {
     id: 285,
@@ -6207,7 +6207,7 @@ const quests = [
       "Enter by the first blue door (Body 5), the upstairs door (Tech 7) or the door left of the garage.",
       "Get the data and leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Last%20Login%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVT2aRLnGBs"
   },
 {
     id: 286,
@@ -6228,7 +6228,7 @@ const quests = [
       "Subdue Zion Wylde non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Second%20Chances%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IZmRjPBx3yk"
   },
 {
     id: 287,
@@ -6248,7 +6248,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20The%20Wasteland%20walkthrough"
+    video: "https://www.youtube.com/watch?v=34OvcZxR0mI"
   },
 {
     id: 288,
@@ -6269,7 +6269,7 @@ const quests = [
       "Subdue Russell Greene non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20House%20on%20a%20Hill%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tqEsXY-zJK8"
   },
 {
     id: 289,
@@ -6290,7 +6290,7 @@ const quests = [
       "Subdue Chase Coley non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Discount%20Doc%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PLJXjhqRQds"
   },
 {
     id: 290,
@@ -6311,7 +6311,7 @@ const quests = [
       "Subdue Ellis Carter non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Where%20the%20Bodies%20Hit%20the%20Floor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CWYPo0mc3aA"
   },
 {
     id: 291,
@@ -6332,7 +6332,7 @@ const quests = [
       "Subdue Zaria Hughes non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Bloody%20Ritual%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jIeZW4TM0RA"
   },
 {
     id: 292,
@@ -6374,7 +6374,7 @@ const quests = [
       "Subdue Matt Liaw non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Demons%20of%20War%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dPAWfoydZMk"
   },
 {
     id: 294,
@@ -6395,7 +6395,7 @@ const quests = [
       "Subdue Lt. Mower, staying out of the water.",
       "Take the shard 'Archived Conversation: Dr. Martin Sypura and Lt. Mower' and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lt.%20Mower%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LLleOA68Ths"
   },
 {
     id: 295,
@@ -6416,7 +6416,7 @@ const quests = [
       "Subdue Alec Johnson non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Ticket%20to%20the%20Major%20Leagues%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p8VlMpRFhb4"
   },
 {
     id: 296,
@@ -6436,7 +6436,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Phantom%20of%20Night%20City%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRI-j_pWRQI"
   },
 {
     id: 297,
@@ -6457,7 +6457,7 @@ const quests = [
       "Subdue Cedric Muller non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20On%20Deaf%20Ears%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DJIA38PHRJI"
   },
 {
     id: 298,
@@ -6477,7 +6477,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Smoke%20on%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_1iBsy9Yhvg"
   },
 {
     id: 299,
@@ -6497,7 +6497,7 @@ const quests = [
       "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
       "Loot the shard nearby, then call Regina to report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Lex%20Talionis%20walkthrough"
+    video: "https://www.youtube.com/watch?v=H9cm9TANZ38"
   },
 {
     id: 300,
@@ -6518,7 +6518,7 @@ const quests = [
       "Subdue Gaston Phillips non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Letter%20of%20the%20Law%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oz8CD89TfFo"
   },
 {
     id: 301,
@@ -6560,7 +6560,7 @@ const quests = [
       "Subdue Tamara Cosby non-lethally if you can.",
       "Loot the shard and send it to Regina."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Cyberpsycho%20Sighting%3A%20Under%20the%20Bridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g2bXLkXxvw0"
   },
 {
     id: 303,
@@ -6582,7 +6582,7 @@ const quests = [
       "Fight through Barghest to reach the crash site.",
       "Link with Songbird to begin the rescue of President Myers."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Dog%20Eat%20Dog%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SdY4rRjVnjI"
   },
 {
     id: 304,
@@ -6604,7 +6604,7 @@ const quests = [
       "Locate President Myers in the debris.",
       "Extract Myers and escape Hansen's forces."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Hole%20in%20the%20Sky%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5X26Bue6dBg"
   },
 {
     id: 305,
@@ -6626,7 +6626,7 @@ const quests = [
       "Follow the lead toward Hansen and Songbird's plan.",
       "Complete the op and slip out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Spider%20and%20the%20Fly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j1lGlD6yya4"
   },
 {
     id: 306,
@@ -6648,7 +6648,7 @@ const quests = [
       "Destroy the Chimera, exploiting its weak points between attacks.",
       "Press on toward Songbird."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Lucretia%20My%20Reflection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S4g3CyOLRYg"
   },
 {
     id: 307,
@@ -6670,7 +6670,7 @@ const quests = [
       "Make the pivotal choice.",
       "Live with the consequences of the ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20The%20Killing%20Moon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CchPsoJDRuk"
   },
 {
     id: 308,
@@ -6692,7 +6692,7 @@ const quests = [
       "Complete the objective by stealth, hacking, or force.",
       "Report back to Mr. Hands for the pay."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Baby%20Let%20Me%20Take%20You%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WY6tVc_R8EA"
   },
 {
     id: 309,
@@ -6714,7 +6714,7 @@ const quests = [
       "Complete the mission's key objective.",
       "Make the choice that tests where V's loyalties lie."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%3A%20Black%20Steel%20in%20the%20Hour%20of%20Chaos%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ouWD4_RTRvY"
   },
 {
     id: 310,
@@ -6738,7 +6738,7 @@ const quests = [
       "Return to town after Sephiroth locks himself in the Shinra Manor library; witness his breakdown.",
       "Survive the burning of Nibelheim and the reactor confrontation to close the prologue and hand control to present-day Cloud."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%201%3A%20Fall%20of%20a%20Hero%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o83tdtjTIjk"
   },
 {
     id: 311,
@@ -6762,7 +6762,7 @@ const quests = [
       "Visit the Chocobo Ranch and catch/tame a chocobo to unlock faster traversal.",
       "Follow the main path toward the Mythril Mine to advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%202%3A%20A%20New%20Journey%20Begins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HpXU8prJnt8"
   },
 {
     id: 312,
@@ -6786,7 +6786,7 @@ const quests = [
       "Encounter the mysterious black-caped swordsman on the road beyond the mine.",
       "Exit toward the Junon coast to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%203%3A%20Deeper%20into%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tSv2pPJ8jZ8"
   },
 {
     id: 313,
@@ -6834,7 +6834,7 @@ const quests = [
       "See the shipboard confrontation through to its climax.",
       "Arrive at Costa del Sol to continue."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%205%3A%20Blood%20in%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7B-8VOapO98"
   },
 {
     id: 315,
@@ -6857,7 +6857,7 @@ const quests = [
       "Try the local minigames (they feed trophies and rewards) and clear the region's Odd Jobs.",
       "Follow the main path out toward the Corel region and its desert."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%206%3A%20Fool's%20Paradise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ch2ls9_JWZE"
   },
 {
     id: 316,
@@ -6880,7 +6880,7 @@ const quests = [
       "Progress the story tied to Barret and Dyne's shared past.",
       "Ride the region chocobo across the gaps to reach objectives, then advance toward the Gold Saucer."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%207%3A%20Those%20Left%20Behind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Rbah5A2_aHw"
   },
 {
     id: 317,
@@ -6903,7 +6903,7 @@ const quests = [
       "Descend to Corel Prison and confront the wrenching story of Dyne.",
       "Fight the chapter's major boss beat, then complete the events to move on."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%208%3A%20All%20That%20Glitters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKSj7oMpNW4"
   },
 {
     id: 318,
@@ -6927,7 +6927,7 @@ const quests = [
       "Uncover the reactor-meltdown legacy through the story beats.",
       "Advance the main path once the region's key events resolve."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%209%3A%20The%20Planet%20Stirs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zK7i3-MMgSo"
   },
 {
     id: 319,
@@ -6950,7 +6950,7 @@ const quests = [
       "Complete the region's tower and intel, and take on the Cosmo Odd Jobs.",
       "See Red XIII's arc through its emotional peak, then advance toward Nibelheim."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2010%3A%20Watcher%20of%20the%20Vale%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mXsEyYHOKGM"
   },
 {
     id: 320,
@@ -6973,7 +6973,7 @@ const quests = [
       "Confront the contradictions in Cloud's memories through the story beats.",
       "Clear the mansion's encounters and push the plot toward its next turn."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2011%3A%20The%20Long%20Shadow%20of%20Shinra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5Gy7HBZoxc0"
   },
 {
     id: 321,
@@ -6996,7 +6996,7 @@ const quests = [
       "Complete the required Gold Saucer story events (including the date sequence set by your relationship choices).",
       "When ready, advance the main story toward the Temple of the Ancients (a point of no return follows)."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2012%3A%20A%20Golden%20Key%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0zxhzIW2VbA"
   },
 {
     id: 322,
@@ -7020,7 +7020,7 @@ const quests = [
       "Progress the pivotal story confrontation inside the temple.",
       "Complete the chapter to reach the finale's approach."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2013%3A%20Where%20Angels%20Fear%20to%20Tread%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sqDaAon-MlA"
   },
 {
     id: 323,
@@ -7043,7 +7043,7 @@ const quests = [
       "Fight the chapter's multi-phase boss battles with your strongest builds and summons.",
       "See the story through its emotional conclusion and the game's ending sequence."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chapter%2014%3A%20End%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vhg0ly6ZDXQ"
   },
 {
     id: 324,
@@ -7066,7 +7066,7 @@ const quests = [
       "Defeat the monsters guarding the spot where the card was dropped.",
       "Recover the card and return it to the quest-giver; it's added to your Queen's Blood deck."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20A%20Rare%20Card%20Lost%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w3A_AsTbxTQ"
   },
 {
     id: 325,
@@ -7089,7 +7089,7 @@ const quests = [
       "Herd the calmed birds back toward the pen one at a time.",
       "Report to the rancher — completing it smooths chocobo traversal across Junon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Stuck%20in%20a%20Rut%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Sr-SDp-PqiE"
   },
 {
     id: 326,
@@ -7112,7 +7112,7 @@ const quests = [
       "Complete the marked tasks and any accompanying dialogue choices (they nudge party affinity).",
       "Return to the quest-giver to finish and claim the accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Dreaming%20of%20Blue%20Skies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VWCFt1Y5RqE"
   },
 {
     id: 327,
@@ -7135,7 +7135,7 @@ const quests = [
       "Fight the source enemies — keep a Remedy or Esuna ready to cure Toad status.",
       "Restore the wetlands' balance and report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Calling%20All%20Frogs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lVgXjwyfkrE"
   },
 {
     id: 328,
@@ -7158,7 +7158,7 @@ const quests = [
       "Complete the tasks and any battles, picking dialogue that matches who you want to romance.",
       "Meet the quest-giver to wrap it up and set the relationship flag."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Rendezvous%20in%20Costa%20del%20Sol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZX3g8WjwL8U"
   },
 {
     id: 329,
@@ -7181,7 +7181,7 @@ const quests = [
       "Pace yourself so you don't burn out early, and beat the target score.",
       "Collect the reward for out-lifting the challengers."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bodybuilders%20in%20a%20Bind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hMxE089NFBY"
   },
 {
     id: 330,
@@ -7204,7 +7204,7 @@ const quests = [
       "Fight through the culprits at the marked site.",
       "Resolve the ransom situation and report back for the materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Of%20Robed%20Men%20and%20Ransoms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G-Ppt1C0em4"
   },
 {
     id: 331,
@@ -7227,7 +7227,7 @@ const quests = [
       "Exploit each wave's elemental weaknesses and keep healing up.",
       "Clear the final bout to earn the payout and party-bond reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Sand%20and%20Circuses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OQ9BoL2Lh24"
   },
 {
     id: 332,
@@ -7250,7 +7250,7 @@ const quests = [
       "Navigate the terrain hazards and clear any foes along the path.",
       "Bring Mr. Birdie home to complete the job."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Missing%3A%20Mr.%20Birdie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=diAWFLPYPEk"
   },
 {
     id: 333,
@@ -7273,7 +7273,7 @@ const quests = [
       "Gather each requested component (partial deliveries won't satisfy him) and return them.",
       "Hand over the materials so he can finish his flawless creation and pay you."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Pursuit%20of%20Perfection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DWN4gU9sVwY"
   },
 {
     id: 334,
@@ -7296,7 +7296,7 @@ const quests = [
       "Corner and catch each bird one at a time.",
       "Return them all to the owner to finish the job."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20O%20Chicken%2C%20Where%20Art%20Thou%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_cIbuPDGDXc"
   },
 {
     id: 335,
@@ -7319,7 +7319,7 @@ const quests = [
       "Complete each challenge in order.",
       "Finish the arc to strengthen Yuffie's party bond and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Teach%20Me%2C%20Great%20Warrior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CuxZgFC9QDg"
   },
 {
     id: 336,
@@ -7342,7 +7342,7 @@ const quests = [
       "Collect the three required mushrooms (they're easy to miss in the foliage).",
       "Return them to Cissnei to complete the dish and earn the cooking recipe."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20The%20Spice%20of%20Life%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qkufuK_mBxI"
   },
 {
     id: 337,
@@ -7365,7 +7365,7 @@ const quests = [
       "Follow the chain of objectives to its final step.",
       "Finish to unlock the region's mountain chocobo and claim Yuffie's Crescent Sickle weapon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Bonds%20of%20Trust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lIpehRn91lU"
   },
 {
     id: 338,
@@ -7388,7 +7388,7 @@ const quests = [
       "Complete the alignment/observation tasks tied to the region's cosmology.",
       "Report back to finish and pick up the materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Absence%20of%20a%20Sign%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sPZkxCPrsDk"
   },
 {
     id: 339,
@@ -7411,7 +7411,7 @@ const quests = [
       "Deal with the strange phenomena and any enemies drawn to it.",
       "Resolve the disturbance and report back for the healing materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20From%20Whence%20Life%20Flows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D0FQUYgwDWs"
   },
 {
     id: 340,
@@ -7434,7 +7434,7 @@ const quests = [
       "Complete the tasks required to honor their wish.",
       "Return to the quest-giver to close the arc and boost party affinity."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Promises%20to%20Keep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4-RItmYTO80"
   },
 {
     id: 341,
@@ -7457,7 +7457,7 @@ const quests = [
       "Defeat the guardian battles, bringing elemental variety since the guardians rotate weaknesses across stages.",
       "Complete all trial stages for the rare materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Esoteric%20Secrets%20of%20the%20Elders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4FO21tx-ocs"
   },
 {
     id: 342,
@@ -7480,7 +7480,7 @@ const quests = [
       "Complete each of the marked tasks.",
       "Report back to finish and gain the affinity/accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Tides%20of%20War%20and%20Worry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WearL_y5otk"
   },
 {
     id: 343,
@@ -7503,7 +7503,7 @@ const quests = [
       "Defeat the upgraded endgame foes with your Chapter 12 builds and summons.",
       "Complete the work for its endgame materia reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Hustle%20and%20Grind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OrYvKAtkVaY"
   },
 {
     id: 344,
@@ -7526,7 +7526,7 @@ const quests = [
       "Fight the threat revealed in the waters.",
       "Resolve the mystery and report back for the rare item."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Beneath%20Still%20Waters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PxifR7eXiYU"
   },
 {
     id: 345,
@@ -7549,7 +7549,7 @@ const quests = [
       "Fight through the escalating danger.",
       "Restore order and complete the job for the accessory reward."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Trouble%20in%20Paradise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NklNgDELd1A"
   },
 {
     id: 346,
@@ -7572,7 +7572,7 @@ const quests = [
       "Defeat the waves of foes — area-of-effect materia helps clear them fast.",
       "Hold the line through the final wave to finish and earn the rare crafting mats."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Woodland%20Vigil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c5eUQYZoqNY"
   },
 {
     id: 347,
@@ -7595,7 +7595,7 @@ const quests = [
       "Defeat the encounter guarding the reward.",
       "Claim the Magnify Materia — pair it with Heal or Barrier to buff the whole party at once."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Victim%20of%20Circumstance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7T0RqS_VWbA"
   },
 {
     id: 348,
@@ -7618,7 +7618,7 @@ const quests = [
       "Fight through the marked encounters.",
       "Complete it to unlock Hojo's combat exams and earn the Art of Swordplay Vol. VI manuscript."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Lament%20of%20the%20Damned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3RF8wMh5JUA"
   },
 {
     id: 349,
@@ -7641,7 +7641,7 @@ const quests = [
       "Bring the herbs back so the remedy can be prepared.",
       "Decide the outcome based on what you uncover about the man — then report back to close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20On%20Death's%20Bed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KpJKjAl4Ybo"
   },
 {
     id: 350,
@@ -7664,7 +7664,7 @@ const quests = [
       "Confront the arsonist and choose how to resolve the dispute (fight or talk them down).",
       "Return to the smith for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Twisted%20Firestarter%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ueylh5enSj0"
   },
 {
     id: 351,
@@ -7687,7 +7687,7 @@ const quests = [
       "Dodge its rapid teleport strikes and destroy the illusions it spawns.",
       "Banish the noonwraith, take its trophy, and claim the contract fee."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Devil%20by%20the%20Well%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IG98e99GV3M"
   },
 {
     id: 352,
@@ -7710,7 +7710,7 @@ const quests = [
       "Uncover the truth of what happened and rescue or recover the child.",
       "Return to report the outcome."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Princess%20in%20Distress%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eiEGU-prtmM"
   },
 {
     id: 354,
@@ -7733,7 +7733,7 @@ const quests = [
       "Confront the 'witch' and choose whether to spare or fight her.",
       "Resolve the villagers' fate and finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Hunting%20a%20Witch%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kV_3-CnQj80"
   },
 {
     id: 355,
@@ -7757,7 +7757,7 @@ const quests = [
       "Recover what Keira seeks and escape as the ruin's defenders wake.",
       "Return to Keira to complete the quest and continue her storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Wandering%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f_Wb1H68i8k"
   },
 {
     id: 356,
@@ -7780,7 +7780,7 @@ const quests = [
       "Clear the wraiths blocking the way and reach the sealed chamber.",
       "Uncover the truth of the site and report back to Keira."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Magic%20Lamp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cGm5ZqiwVaM"
   },
 {
     id: 357,
@@ -7803,7 +7803,7 @@ const quests = [
       "Fight the leshen — dodge its root attacks and burn the animals it summons.",
       "Slay it, take the trophy, and claim the fee (or honor a druid's plea, if offered)."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Woodland%20Beast%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hu1DF5FwK4I"
   },
 {
     id: 358,
@@ -7826,7 +7826,7 @@ const quests = [
       "Lay the spirit to rest by resolving its unfinished business.",
       "Report back to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Novigrad%20Dreaming%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6QCNwwXAsE8"
   },
 {
     id: 359,
@@ -7849,7 +7849,7 @@ const quests = [
       "Play your part on stage during the live performance (use the right cues).",
       "See the play through to acclaim and continue Dandelion's storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Play's%20the%20Thing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dO5qY-18uRM"
   },
 {
     id: 360,
@@ -7872,7 +7872,7 @@ const quests = [
       "Secure the information or person you were after.",
       "Report back to advance the search for Dandelion."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Poet%20Under%20Pressure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4cldzU0djB4"
   },
 {
     id: 361,
@@ -7895,7 +7895,7 @@ const quests = [
       "Get the venue ready and stage the cabaret.",
       "Wrap up to progress Dandelion's arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Cabaret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-qxFYLApUMI"
   },
 {
     id: 362,
@@ -7919,7 +7919,7 @@ const quests = [
       "Recover the treasure's fate and uncover the traitor.",
       "Report to Dijkstra to close the quest and advance the Novigrad plot."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Count%20Reuven's%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ocpnQrHmJ2Y"
   },
 {
     id: 363,
@@ -7942,7 +7942,7 @@ const quests = [
       "Expose or resolve the plot as you choose.",
       "Report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Redania's%20Most%20Wanted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zO27yTOk2PU"
   },
 {
     id: 364,
@@ -7966,7 +7966,7 @@ const quests = [
       "Fight or parley with the succubus depending on what you learn, then resolve the contract.",
       "Claim the reward from the quest-giver."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Deadly%20Delights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4rWFCE2iAxI"
   },
 {
     id: 365,
@@ -7989,7 +7989,7 @@ const quests = [
       "Confront the thieves and recover Cleaver's money.",
       "Decide their fate and report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Honor%20Among%20Thieves%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sGKUDvgfeb4"
   },
 {
     id: 366,
@@ -8012,7 +8012,7 @@ const quests = [
       "Uncover what Ciri and the Wild Hunt did here.",
       "Report the findings to advance the search for Ciri."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Echoes%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ADmzfOU9IkY"
   },
 {
     id: 367,
@@ -8035,7 +8035,7 @@ const quests = [
       "Deal with the fallout of the experiment.",
       "See the outcome through and collect the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Final%20Trial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=B5-R5CrBZRQ"
   },
 {
     id: 368,
@@ -8058,7 +8058,7 @@ const quests = [
       "Handle the reaction/monster the experiment attracts.",
       "Deliver the result to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Practicum%20in%20Advanced%20Alchemy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WMH9JgWzKhc"
   },
 {
     id: 369,
@@ -8104,7 +8104,7 @@ const quests = [
       "Fight the beast, dodging its heavy attacks and exploiting its weakness.",
       "Slay it, take the trophy, and claim the substantial reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Skellige's%20Most%20Wanted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sMReQTykjII"
   },
 {
     id: 371,
@@ -8127,7 +8127,7 @@ const quests = [
       "Confront the being at the heart of the mystery.",
       "Resolve the encounter and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nameless%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ASDXJimZdOU"
   },
 {
     id: 372,
@@ -8150,7 +8150,7 @@ const quests = [
       "Protect the process from the forces it unleashes.",
       "See the ritual to its outcome and advance the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Ugly%20Baby%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dmXn4LkPoCA"
   },
 {
     id: 373,
@@ -8173,7 +8173,7 @@ const quests = [
       "Keep the celebration going through its beats.",
       "Finish the wake and collect the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Dead%20Man's%20Party%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ykCSvQ9ZSh0"
   },
 {
     id: 374,
@@ -8197,7 +8197,7 @@ const quests = [
       "Recover the contents and decide what to do with them.",
       "Report to Yennefer to close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Open%20Sesame!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7J9IJHFDEnI"
   },
 {
     id: 375,
@@ -8221,7 +8221,7 @@ const quests = [
       "Choose how to resolve the haunting and see the emotional outcome.",
       "Return to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scenes%20From%20a%20Marriage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k43ZRYxUftw"
   },
 {
     id: 376,
@@ -8245,7 +8245,7 @@ const quests = [
       "Defeat the creature, dispelling its invisibility with Yrden.",
       "Resolve the contract and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20Toussaint%20walkthrough"
+    video: "https://www.youtube.com/watch?v=84DPLlp7Kds"
   },
 {
     id: 377,
@@ -8268,7 +8268,7 @@ const quests = [
       "Fight the creature in the arena, exploiting its weakness.",
       "Slay it and collect the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20La%20Cage%20au%20Fou%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lBzNaXax18E"
   },
 {
     id: 378,
@@ -8291,7 +8291,7 @@ const quests = [
       "Recover the diagrams and uncover the tragic story of the cat witchers.",
       "Return to craft or claim the gear and finish the hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Where%20the%20Cat%20and%20Wolf%20Play%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kky_t6C68kI"
   },
 {
     id: 379,
@@ -8337,7 +8337,7 @@ const quests = [
       "Fight the beast, dodging its lunges and exploiting its weakness.",
       "Kill it, take the trophy, and claim the fee."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Creature%20from%20the%20Oxenfurt%20Forest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C0qznYEqSnQ"
   },
 {
     id: 381,
@@ -8360,7 +8360,7 @@ const quests = [
       "Resolve the twist at the end.",
       "Report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Turn%20and%20Face%20the%20Strange%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kF4tIqf6MLU"
   },
 {
     id: 382,
@@ -8383,7 +8383,7 @@ const quests = [
       "Bring the beast down, dodging its charges.",
       "Claim the trophy and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Big%20Game%20Hunter%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MySJfM12CTA"
   },
 {
     id: 383,
@@ -8406,7 +8406,7 @@ const quests = [
       "Recover the data and face the setback that sends Aloy deeper into the Forbidden West.",
       "Set out west to continue into the Daunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Reach%20for%20the%20Stars%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZTvw4w8C7ZU"
   },
 {
     id: 384,
@@ -8428,7 +8428,7 @@ const quests = [
       "Follow the main objective toward the tense embassy meeting.",
       "Handle the trouble that erupts and secure passage deeper into Tenakth land."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20To%20the%20Brink%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hPEongJ8d30"
   },
 {
     id: 385,
@@ -8450,7 +8450,7 @@ const quests = [
       "Exploit machine and rebel components with matched ammo during the fight.",
       "Hold the line to earn the Tenakth's trust and open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Point%20of%20the%20Lance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OExmuaR0td0"
   },
 {
     id: 386,
@@ -8472,7 +8472,7 @@ const quests = [
       "Progress through the Embassy events and the major reveal about the western threat.",
       "Continue the main path once the chapter's confrontation resolves."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Death's%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8eYFdTYJTY4"
   },
 {
     id: 387,
@@ -8494,7 +8494,7 @@ const quests = [
       "Clear the cauldron and speak with Beta.",
       "Watch the reveal that carries directly into All That Remains."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gemini%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oRQqJyXDgZU"
   },
 {
     id: 388,
@@ -8516,7 +8516,7 @@ const quests = [
       "Fight through the escalating waves and mini-bosses toward the final confrontation.",
       "Defeat the Zeniths to secure the biosphere's future and complete the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Singularity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BF1fjp_Rq4E"
   },
 {
     id: 389,
@@ -8538,7 +8538,7 @@ const quests = [
       "Hunt the specific machines that drop the required components.",
       "Return the parts to Petra to claim her powerful gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Twilight%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cobuurPFn80"
   },
 {
     id: 390,
@@ -8582,7 +8582,7 @@ const quests = [
       "Follow the trail to the source disturbing the machines.",
       "Resolve the threat to protect the settlement."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Shadow%20in%20the%20West%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3zX5gifC8kg"
   },
 {
     id: 392,
@@ -8604,7 +8604,7 @@ const quests = [
       "Use your Focus to spot the ambusher before it strikes.",
       "Hunt down the machine to end the threat to the missing hunters."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20In%20the%20Fog%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MsQDWuGysGU"
   },
 {
     id: 394,
@@ -8626,7 +8626,7 @@ const quests = [
       "Clear the heavy-weapon rebels methodically.",
       "Eliminate the cell's leader to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Blood%20Choke%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FpH9NiaPinw"
   },
 {
     id: 395,
@@ -8648,7 +8648,7 @@ const quests = [
       "Descend into the tunnels with Alva and survive the cloaked Dreadwing ambush.",
       "Secure DEMETER and return to the Base to reintegrate it under GAIA."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Seeds%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OraiBQ0J_1w"
   },
 {
     id: 396,
@@ -8714,7 +8714,7 @@ const quests = [
       "Defeat the boss machine guarding each core to unlock its overrides.",
       "Clear all of them to massively expand your machine-override roster."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cauldrons%3A%20Machine%20Overrides%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P-2VZYRZ6OU"
   },
 {
     id: 399,
@@ -8736,7 +8736,7 @@ const quests = [
       "Defeat the camp commander once the guards are cleared.",
       "Claim the strong loot each cleared camp drops."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Rebel%20Camps%20%26%20Outposts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iOoayFhE-us"
   },
 {
     id: 400,
@@ -8802,7 +8802,7 @@ const quests = [
       "Climb to the Tallneck's head and override it.",
       "Reveal the region's map and machine sites."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Tallnecks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T_o2XUjK02w"
   },
 {
     id: 403,
@@ -8824,7 +8824,7 @@ const quests = [
       "Hunt those machines and tear off the specific parts.",
       "Turn in the components for rare upgrade materials."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Salvage%20Contracts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xkU4gUOg7Nc"
   },
 {
     id: 404,
@@ -8846,7 +8846,7 @@ const quests = [
       "Ride clean racing lines to beat the course times.",
       "Win to claim the Gauntlet rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Gauntlet%20Runs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=knZtY0ArEss"
   },
 {
     id: 405,
@@ -8868,7 +8868,7 @@ const quests = [
       "Swap your loadout to counter the wave and machine types.",
       "Clear the waves to earn Arena medals and gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Arena%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uT-AI2cz33k"
   },
 {
     id: 406,
@@ -8890,7 +8890,7 @@ const quests = [
       "Practice the resonator-blast combo timing.",
       "Master all pits to unlock the powerful melee combos."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Melee%20Pits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=v594SskeTVo"
   },
 {
     id: 407,
@@ -8912,7 +8912,7 @@ const quests = [
       "Defeat the ranked players across the West.",
       "Beat the best champions to complete the challenge."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Machine%20Strike%20Champions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=24h07R4Jyj4"
   },
 {
     id: 410,
@@ -9712,7 +9712,7 @@ const quests = [
       "Fight the Sphinx (cognitive mother) — exploit Wind and weather the beam attacks.",
       "Take the treasure and watch Futaba awaken her Persona, Necronomicon."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Futaba's%20Palace%20%E2%80%94%20Pyramid%20of%20Wrath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qMwMBJ2bZ84"
   },
 {
     id: 448,
@@ -9808,7 +9808,7 @@ const quests = [
       "Battle the Holy Grail, then Yaldabaoth in his angelic-tower form.",
       "Land the final rebellion shot to end the god of control's game."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Depths%20of%20Mementos%20%E2%80%94%20Prison%20of%20Regression%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W9KTzcwyFKw"
   },
 {
     id: 452,
@@ -9854,7 +9854,7 @@ const quests = [
       "Meet on free evenings and choose supportive replies to raise the bond.",
       "Free her from the Assembly of Divine Power and max the rank for fate-readings that boost Confidant EXP."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Chihaya%20Mifune%20(Fortune)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EneDGt76xrQ"
   },
 {
     id: 454,
@@ -9876,7 +9876,7 @@ const quests = [
       "Pick answers that reassure him about his adopted son, Kaoru.",
       "Max the rank to unlock discounted, higher-tier custom firearms."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Munehisa%20Iwai%20(Hanged%20Man)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SDi1M2uOfdw"
   },
 {
     id: 455,
@@ -9898,7 +9898,7 @@ const quests = [
       "Choose brave dialogue during the trial-medicine events.",
       "Max the rank for the strongest healing/SP items in the game."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Tae%20Takemi%20(Death)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IocWSbRrfxc"
   },
 {
     id: 456,
@@ -9920,7 +9920,7 @@ const quests = [
       "Use her downtime services to craft tools, make coffee, or free evenings.",
       "Max the rank to gain free-time actions during the day and in Palaces."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sadayo%20Kawakami%20(Temperance)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-inmXu6X8Gw"
   },
 {
     id: 457,
@@ -9942,7 +9942,7 @@ const quests = [
       "Choose replies that push her investigation into corporate corruption.",
       "Max the rank to lower Palace security-level gains on the day of a heist."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Ichiko%20Ohya%20(Devil)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=caYGPtb94uw"
   },
 {
     id: 458,
@@ -9964,7 +9964,7 @@ const quests = [
       "Give firm, encouraging advice during his rank events.",
       "Max the rank for powerful gun-skill perks like extra ammo and down-rate boosts."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Shinya%20Oda%20(Tower)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2xEc2vSgbBE"
   },
 {
     id: 459,
@@ -9986,7 +9986,7 @@ const quests = [
       "Progress her arc about competing honestly.",
       "Max the rank to gain the ability to reposition and flee mid-battle."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Hifumi%20Togo%20(Star)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y8pBwZanE5Q"
   },
 {
     id: 460,
@@ -10008,7 +10008,7 @@ const quests = [
       "Complete the Mementos targets he flags.",
       "Max the rank to grant bonus EXP to benched party members."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yuuki%20Mishima%20(Moon)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U5TTUAD8j68"
   },
 {
     id: 461,
@@ -10030,7 +10030,7 @@ const quests = [
       "Support him against the political smear campaign across rank events.",
       "Max the rank to master negotiating money and items out of Shadows."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Toranosuke%20Yoshida%20(Sun)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dg87YNmPO_k"
   },
 {
     id: 462,
@@ -10052,7 +10052,7 @@ const quests = [
       "Deliver each requested Persona to advance the ranks.",
       "Finish their arc to unlock the strongest fusion perks and their true story (Royal)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Caroline%20%26%20Justine%20(Strength)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vjROAy45iCw"
   },
 {
     id: 463,
@@ -10074,7 +10074,7 @@ const quests = [
       "Follow her gymnastics struggle and the mystery around her sister.",
       "Progress to unlock her Persona and the path into the third semester."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Kasumi%20Yoshizawa%20(Faith)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aWzHoh04pUM"
   },
 {
     id: 464,
@@ -10096,7 +10096,7 @@ const quests = [
       "Complete his ranks before the November deadline to keep the arc alive.",
       "Max the rank to gain his powerful buffs — and the key to the third semester."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Takuto%20Maruki%20(Councillor)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6YwrewIWarY"
   },
 {
     id: 466,
@@ -10142,7 +10142,7 @@ const quests = [
       "Push through to the objective and rescue/secure the target.",
       "Report back to advance the liberation of Izuhara."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0VBj_c2SDKo"
   },
 {
     id: 468,
@@ -10166,7 +10166,7 @@ const quests = [
       "Confront the enemy leader behind the atrocity.",
       "Complete the mission to progress Jin's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
+    video: "https://www.youtube.com/watch?v=puZtiL36thU"
   },
 {
     id: 469,
@@ -10211,7 +10211,7 @@ const quests = [
       "Investigate the barrels on the ground floor.",
       "Climb to the top with Yuna and survey Port Izumi."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sLn66K3Hn1M"
   },
 {
     id: 471,
@@ -10235,7 +10235,7 @@ const quests = [
       "Confront the enemy leader responsible.",
       "Complete the mission to push the story forward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qUANlaK_Ld8"
   },
 {
     id: 472,
@@ -10259,7 +10259,7 @@ const quests = [
       "Confront the figure from Jin's history at the climax.",
       "Resolve the encounter to advance Jin's Journey."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2-Ctx7fDD3I"
   },
 {
     id: 473,
@@ -10325,7 +10325,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Yuna."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NqcVhysYFhk"
   },
 {
     id: 476,
@@ -10346,7 +10346,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Ishikawa."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbuSI_NoTlQ"
   },
 {
     id: 477,
@@ -10367,7 +10367,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QVzuN3oU_Zk"
   },
 {
     id: 478,
@@ -10412,7 +10412,7 @@ const quests = [
       "Keep the monk alive.",
       "Talk to the monks to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5zkAbriZPV0"
   },
 {
     id: 481,
@@ -10458,7 +10458,7 @@ const quests = [
       "Reach the shrine at the summit and pray.",
       "Claim the charm reward, then find the next shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lqikqw1Ma7A"
   },
 {
     id: 483,
@@ -10481,7 +10481,7 @@ const quests = [
       "Nail the full combo to finish the challenge.",
       "Earn increased Resolve, then seek the next stand."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BAWj-lgVne8"
   },
 {
     id: 2582,
@@ -10643,7 +10643,7 @@ const quests = [
       "Confront the memories of Jin's father the island forces on him.",
       "Complete the chapter to progress the Iki storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tg9taL0vI8E"
   },
 {
     id: 488,
@@ -11284,7 +11284,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pull Sandra off the operating table and revive her.",
       "Fight out to the balcony and escape via the AV pickup."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Rescue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tWTnk4dbhM0"
   },
 {
     id: 518,
@@ -11306,7 +11306,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get the Kiroshi optics and Militech arm installed.",
       "Test the new scanner cyberware before leaving."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ripperdoc%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m1NWiDFZH3I"
   },
 {
     id: 519,
@@ -11328,7 +11328,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Answer his questions to pitch yourself for the heist.",
       "Agree to bring in the Flathead to seal the job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20The%20Ride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=prvqIBE2I68"
   },
 {
     id: 520,
@@ -11350,7 +11350,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Plant the charge and push deeper into the tower.",
       "Play out the raid's fateful turn to end the memory."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Love%20Like%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=88xVbymegNk"
   },
 {
     id: 521,
@@ -11372,7 +11372,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow her lead on the stolen goods and Nash.",
       "Set up the next move against the raffen."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ghost%20Town%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FLP4JCkfuFQ"
   },
 {
     id: 522,
@@ -11394,7 +11394,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ambush Nash's convoy and clear his crew.",
       "Recover the stolen goods and settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Lightning%20Breaks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6--Dpa6vkYw"
   },
 {
     id: 523,
@@ -11416,7 +11416,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Capture Hellman and interrogate him about the relic.",
       "Escape the Militech response and decide Hellman's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Life%20During%20Wartime%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eYAOd5vxLH8"
   },
 {
     id: 524,
@@ -11438,7 +11438,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Follow the trail she points you toward.",
       "Regroup with Takemura to set the next step."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Down%20on%20the%20Street%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EnlRoxVfpSc"
   },
 {
     id: 525,
@@ -11460,7 +11460,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find the infiltration route for the heist.",
       "Report the plan back to Takemura."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gimme%20Danger%20walkthrough"
+    video: "https://www.youtube.com/watch?v=78semLBmPS4"
   },
 {
     id: 526,
@@ -11482,7 +11482,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the task they set as a test.",
       "Earn their attention to get help with the relic."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20M'ap%20Tann%20Pelen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8A2f16nE4lM"
   },
 {
     id: 527,
@@ -11504,7 +11504,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose your replies as they slowly find common ground.",
       "End the scene to continue the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Tapeworm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t8JxLx6Td9A"
   },
 {
     id: 528,
@@ -11548,7 +11548,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Punch into the tower and push toward Mikoshi.",
       "Fight through to reach the Mikoshi access."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Belly%20of%20the%20Beast%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4ujRSKJFgVs"
   },
 {
     id: 530,
@@ -11570,7 +11570,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose who takes V's body — V, Johnny, or another path.",
       "Cross the bridge to lock in the ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20For%20Whom%20the%20Bell%20Tolls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zn4cw_7e1TI"
   },
 {
     id: 531,
@@ -11592,7 +11592,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Live through the grim 'Devil' aftermath.",
       "Make the final phone-call choice to end V's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20New%20Dawn%20Fades%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oA7QKVQixrs"
   },
 {
     id: 532,
@@ -11614,7 +11614,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Board the convoy leaving Night City.",
       "Ride into the sunset toward a possible cure."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Path%20of%20Glory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_QXsGhKLwd8"
   },
 {
     id: 533,
@@ -11636,7 +11636,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the chaos at his place.",
       "Set up the next beat of his questline."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Holdin'%20On%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NfnaTT2zT2c"
   },
 {
     id: 534,
@@ -11658,7 +11658,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advise Kerry on whether to reunite the band.",
       "Support his decision and move on."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Second%20Conflict%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ShnBI-DTMWA"
   },
 {
     id: 535,
@@ -11680,7 +11680,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help the young musician tied to it.",
       "Recover the guitar for Kerry."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Like%20Supreme%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NkY439GtemM"
   },
 {
     id: 536,
@@ -11702,7 +11702,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the wild favor.",
       "Wrap it up with Kerry."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Rebel!%20Rebel!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fj5KbVQBllo"
   },
 {
     id: 537,
@@ -11724,7 +11724,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the romance-or-friendship choice.",
       "See the night to its close."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Off%20the%20Leash%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qJvqDQuwZos"
   },
 {
     id: 538,
@@ -11746,7 +11746,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Share the reflective moment with Kerry.",
       "Cap his arc on a hopeful note."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Boat%20Drinks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tZFTnEkptuw"
   },
 {
     id: 539,
@@ -11768,7 +11768,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with Woodman and the guards.",
       "Complete the hit and check on Judy."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Ex-Factor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hHg1RTJ3tvc"
   },
 {
     id: 540,
@@ -11816,7 +11816,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Share the intimate moment underwater and after.",
       "Advance (or begin) Judy's romance."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Pyramid%20Song%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PPnYhx9vOnI"
   },
 {
     id: 542,
@@ -11838,7 +11838,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by your chosen method.",
       "Resolve the unsettling job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Human%20Nature%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8H4Xi70Nt1E"
   },
 {
     id: 543,
@@ -11860,7 +11860,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the deranged crew.",
       "Escape one of Night City's weirdest nights."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Send%20in%20the%20Clowns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-AdFlVcPI_4"
   },
 {
     id: 544,
@@ -11882,7 +11882,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight or hack your way out of the trap.",
       "Recover and settle the score."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Sweet%20Dreams%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UHfdmud_NwE"
   },
 {
     id: 545,
@@ -11904,7 +11904,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the tasks under the desert sky.",
       "Give him his peace."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Fortunate%20Son%20walkthrough"
+    video: "https://www.youtube.com/watch?v=E_qpaMONZDc"
   },
 {
     id: 546,
@@ -11926,7 +11926,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help it resolve the issue.",
       "Decide the android's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Coin%20Operated%20Boy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eqQqdVW8Vtk"
   },
 {
     id: 547,
@@ -11948,7 +11948,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective without being burned.",
       "Collect your pay and get out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20War%20Pigs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pElrRl9prT4"
   },
 {
     id: 548,
@@ -11970,7 +11970,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Uncover the draw it holds over members.",
       "Resolve the disturbing situation."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Only%20Pain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2TFu07HudnU"
   },
 {
     id: 549,
@@ -11992,7 +11992,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Track him down.",
       "Shut him down for good."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Every%20Breath%20You%20Take%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JDvQMmcpqLQ"
   },
 {
     id: 550,
@@ -12014,7 +12014,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the fallout by force or talk.",
       "Close out the job."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Small%20Man%2C%20Big%20Mouth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tbFVYwxiG-k"
   },
 {
     id: 551,
@@ -12036,7 +12036,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective.",
       "Give the story its quiet ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20I'll%20Fly%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=17Z5Bbk1k3Y"
   },
 {
     id: 552,
@@ -12058,7 +12058,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Recover the deck and uncover its secrets.",
       "Deal with what you find inside."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Kold%20Mirage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gBSNykrpGQc"
   },
 {
     id: 553,
@@ -12080,7 +12080,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Breach the corporate systems behind it.",
       "Expose the scheme and get paid."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Killing%20in%20the%20Name%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s653nkEXfVQ"
   },
 {
     id: 554,
@@ -12102,7 +12102,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle the fallout of the earlier choice.",
       "Bring the story to a close."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Raymond%20Chandler%20Evening%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uS4x5-uHoyw"
   },
 {
     id: 555,
@@ -12124,7 +12124,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the choice that can spark the old-flame romance.",
       "See the evening through."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Dancing%20on%20a%20Minefield%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aR-rjLuF2QE"
   },
 {
     id: 556,
@@ -12146,7 +12146,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose your replies to deepen the bond.",
       "End the rare quiet night together."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Blistering%20Love%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yfk0liWvz3c"
   },
 {
     id: 557,
@@ -12168,7 +12168,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Steer the dialogue between the old friends.",
       "Resolve the reunion for better or worse."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20A%20Cool%20Metal%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pkrazQvBK3w"
   },
 {
     id: 558,
@@ -12189,7 +12189,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Escape in the van.",
       "Park it in the lot by the Pacifica market."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Two%20Wrongs%20Makes%20Us%20Right%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6HXVh6Ch7Qs"
   },
 {
     id: 559,
@@ -12210,7 +12210,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize Blake.",
       "Leave the area."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Shark%20in%20the%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0JrODkFxe94"
   },
 {
     id: 560,
@@ -12252,7 +12252,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Quietly take out the Animal, then deal with Rebeca at her computer.",
       "Carry her to the waiting car's trunk (or, if she's dead, just leave)."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hot%20Merchandise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uWqWiY8AOz0"
   },
 {
     id: 562,
@@ -12273,7 +12273,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take the medicine from the cabinet.",
       "Deliver it to the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Backs%20Against%20the%20Wall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0E3zlK-Od4k"
   },
 {
     id: 563,
@@ -12293,7 +12293,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Go down to the basement of the large building.",
       "Find Big Pete and decide: kill him, let him go, or accept his offer."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Big%20Pete's%20Got%20Big%20Problems%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6oryy_moJ8A"
   },
 {
     id: 564,
@@ -12314,7 +12314,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the third floor and talk to or flatline Tucker Albach.",
       "Open her office safe if you talked to her, then leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Eye%20for%20an%20Eye%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jOySTreFg6k"
   },
 {
     id: 565,
@@ -12334,7 +12334,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take the stairs to the roof and jump down to the lower level, then the ground.",
       "Cross the road to the car and get her in."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Cuckoo's%20Nest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AZLXugqA-74"
   },
 {
     id: 566,
@@ -12355,7 +12355,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get the shard (Body 20 door, or the mined underground route).",
       "Plug it into Chang Hoon Nam's neural port and talk to him — he becomes a quickhack vendor."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Wakako's%20Favorite%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KQlDTrnNhug"
   },
 {
     id: 567,
@@ -12376,7 +12376,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Talk to the Mox woman upstairs.",
       "Find Hal in the big blue shipping container downstairs, then wait for Regina's call."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Occupational%20Hazard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=80aNLEEoUBE"
   },
 {
     id: 568,
@@ -12397,7 +12397,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Take it and leave.",
       "Deposit it at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Dirty%20Biz%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ea5d7Q1JrTc"
   },
 {
     id: 569,
@@ -12418,7 +12418,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to the fixer for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20God%20Bless%20This%20Mess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sAlrujgxvr4"
   },
 {
     id: 570,
@@ -12438,7 +12438,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Karubo Bairei.",
       "Neutralize him and leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Old%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=F3Lck0ennrc"
   },
 {
     id: 571,
@@ -12459,7 +12459,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Optionally inject the patient with synthetic blood.",
       "Persuade her to leave and escort her out."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Hippocratic%20Oath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hZmfki8_lQU"
   },
 {
     id: 572,
@@ -12480,7 +12480,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Sneak through the garage, drop underground and climb the ladder.",
       "Reach Matheus Stove's office and take what you came for."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Race%20to%20the%20Top%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T5qWXImre64"
   },
 {
     id: 573,
@@ -12501,7 +12501,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to the fixer for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20No%20Fixers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-mtkXXJ_GJs"
   },
 {
     id: 574,
@@ -12522,7 +12522,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the second-level office above the stage and steal the data.",
       "Leave the club."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Sr.%20Ladrillo's%20Private%20Collection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bqg5c92B_Pc"
   },
 {
     id: 575,
@@ -12542,7 +12542,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up the braindance to start the cutscene.",
       "Follow the Over the Edge story to the end for David's Edgerunners jacket."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Over%20the%20Edge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xzKbYnZTvPY"
   },
 {
     id: 576,
@@ -12563,7 +12563,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Optionally open the safe.",
       "Deposit the datashard at the drop point."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ifq15zJzLQg"
   },
 {
     id: 577,
@@ -12584,7 +12584,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize him.",
       "Leave the club."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20An%20Inconvenient%20Killer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vBD5DbzUdXo"
   },
 {
     id: 578,
@@ -12605,7 +12605,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Carry his body out of the outpost.",
       "Put it in your trunk."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Trevor's%20Last%20Ride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JdIchMcT5_s"
   },
 {
     id: 579,
@@ -12626,7 +12626,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Get him into the car.",
       "Hand the car to the nomad waiting outside."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Going-away%20Party%20walkthrough"
+    video: "https://www.youtube.com/watch?v=df4-8ZSHYvk"
   },
 {
     id: 580,
@@ -12647,7 +12647,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Neutralize Gustavo Orta.",
       "If he's alive, carry him to the car below; otherwise just leave."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Bring%20Me%20the%20Head%20of%20Gustavo%20Orta%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BCzIr_3qPK8"
   },
 {
     id: 581,
@@ -12667,7 +12667,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find the van.",
       "Steal it and finish the job as Regina asks."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20Many%20Ways%20to%20Skin%20a%20Cat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eej4TIqhEZA"
   },
 {
     id: 582,
@@ -12688,7 +12688,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deliver it to the nomads' garage on Russell St.",
       "Park it and leave the area."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Gig%3A%20The%20Lord%20Giveth%20and%20Taketh%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u8uu1NFihXQ"
   },
 {
     id: 583,
@@ -12710,7 +12710,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective Reed sets.",
       "Set up the next step of the plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20You%20Know%20My%20Name%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x0u307nzunU"
   },
 {
     id: 584,
@@ -12732,7 +12732,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Handle Barghest's growing pressure.",
       "Ready everything for the rescue."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Get%20It%20Together%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LAnlRG9c80U"
   },
 {
     id: 585,
@@ -12754,7 +12754,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Weigh loyalty to Reed against sympathy for Songbird.",
       "Make your choice and see it through."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20%E2%80%93%20Birds%20with%20Broken%20Wings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zpyCj3fnAA0"
   },
 {
     id: 586,
@@ -12796,7 +12796,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the objective by stealth, hacking or combat.",
       "Report back to Mr. Hands for the payout."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Waiting%20for%20Dodger%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VRrJGMacNb8"
   },
 {
     id: 588,
@@ -12817,7 +12817,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Talk to the prisoner, Hasan, and help him leave.",
       "Deposit the schematics in the drop box."
     ],
-    video: "https://www.youtube.com/results?search_query=Cyberpunk%202077%20Phantom%20Liberty%20Gig%3A%20Prototype%20in%20the%20Scraper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7V_b9g7nMBM"
   },
 {
     id: 589,
@@ -12840,7 +12840,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Pick up Yennefer's trail toward the garrison.",
       "Advance to the next objective to continue the hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Lilac%20and%20Gooseberries%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EHu5ubLkSrg"
   },
 {
     id: 590,
@@ -12863,7 +12863,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
       "Kill the beast and report back to advance to Vizima."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Beast%20of%20White%20Orchard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sSual5rK6GI"
   },
 {
     id: 591,
@@ -12886,7 +12886,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Accept the commission and gather your leads.",
       "Set out for Velen to begin the search."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Imperial%20Audience%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_DYV6xDDo5E"
   },
 {
     id: 592,
@@ -12909,7 +12909,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Meet the informant to learn where Ciri was seen.",
       "Report the lead and continue toward the Baron."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Nilfgaardian%20Connection%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JnhCBQyTbms"
   },
 {
     id: 593,
@@ -12933,7 +12933,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the truth of what happened to the Baron's family.",
       "See the storyline to its branching outcome and gain the next lead on Ciri."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6OYlqX-bP38"
   },
 {
     id: 594,
@@ -12957,7 +12957,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Learn what they know of Ciri and escape Crookback Bog.",
       "Advance toward Novigrad or Skellige on Ciri's trail."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Ladies%20of%20the%20Wood%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c7SaJZIbbFk"
   },
 {
     id: 595,
@@ -12980,7 +12980,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Piece together where Dandelion has gone.",
       "Report the lead to continue the Novigrad hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Broken%20Flowers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S9-RvqtAcmE"
   },
 {
     id: 596,
@@ -13003,7 +13003,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront Whoreson Junior and decide his fate.",
       "Uncover what he knows about Ciri and Dandelion, then report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Get%20Junior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=elfbiqKrY4Q"
   },
 {
     id: 597,
@@ -13026,7 +13026,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the favor and return.",
       "Advance the Novigrad political thread."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Favor%20for%20Radovid%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W3xfqhGxbLs"
   },
 {
     id: 598,
@@ -13052,7 +13052,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Regroup with your allies to set up the next phase.",
       "Complete the operation to advance the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Gangs%20of%20Novigrad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OB97gasJWSk"
   },
 {
     id: 599,
@@ -13075,7 +13075,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Regroup and reach Kaer Trolde to reunite with Yennefer.",
       "Begin the search for Ciri's trail in Skellige."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Destination%3A%20Skellige%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BG9tChk1z2Y"
   },
 {
     id: 600,
@@ -13098,7 +13098,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Battle the Hunt's warriors and the hound on the docks.",
       "Escape with Yennefer and pursue the next lead on Ciri."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20King%20is%20Dead%20%E2%80%94%20Long%20Live%20the%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t7vE6XjCAnE"
   },
 {
     id: 601,
@@ -13144,7 +13144,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Ciri and rouse her.",
       "Escape the island and set course for Kaer Morhen."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Isle%20of%20Mists%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JttpAKQC-UI"
   },
 {
     id: 603,
@@ -13168,7 +13168,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Protect Ciri and the mages through the battle's turning point.",
       "See the battle to its costly conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Battle%20of%20Kaer%20Morhen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_8GKIvmLwY4"
   },
 {
     id: 604,
@@ -13191,7 +13191,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Plan the counterstroke against the Wild Hunt.",
       "Advance the story toward Velen's Bald Mountain."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20on%20the%20Battlefield%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x6yXoTkfX88"
   },
 {
     id: 605,
@@ -13214,7 +13214,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
       "Defeat Imlerith and secure the next step against Eredin."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Bald%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i_c0ajXUwE0"
   },
 {
     id: 606,
@@ -13237,7 +13237,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Escape the Wild Hunt pursuing you across the realms.",
       "Return to your world to prepare for the final confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Through%20Time%20and%20Space%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dgf8L1d_AyQ"
   },
 {
     id: 607,
@@ -13260,7 +13260,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat Eredin and secure the Sunstone's power.",
       "Set up the confrontation with the White Frost."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tedd%20Deireadh%2C%20the%20Final%20Age%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zC_0ldgttto"
   },
 {
     id: 608,
@@ -13283,7 +13283,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Tie off the remaining character threads.",
       "Conclude Geralt's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Something%20Ends%2C%20Something%20Begins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EUj1Tg33dO8"
   },
 {
     id: 609,
@@ -13329,7 +13329,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the wish's task as instructed.",
       "Report back to Olgierd to continue the pact."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Whatsoever%20a%20Man%20Soweth...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_RtNHhOZ8ww"
   },
 {
     id: 611,
@@ -13353,7 +13353,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the heart of the estate and make the pivotal choice.",
       "Resolve the confrontation and advance toward the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Midnight%20Clear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TTEmgmPJUcI"
   },
 {
     id: 612,
@@ -13376,7 +13376,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Report to Duchess Anna Henrietta at Beauclair Palace.",
       "Accept the investigation into the Beast of Beauclair."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Envoys%2C%20Wineboys%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UDswuA6sYuc"
   },
 {
     id: 614,
@@ -13399,7 +13399,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Reach the confrontation the trail leads to.",
       "Resolve the encounter and advance the mystery."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Blood%20Run%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yHttMKZf8UU"
   },
 {
     id: 615,
@@ -13422,7 +13422,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with Regis's plan and the fallout.",
       "Set up the final confrontation with Dettlaff."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Tesham%20Mutna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k6M-NTUIoUQ"
   },
 {
     id: 616,
@@ -13445,7 +13445,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront what the land reveals about her past.",
       "Escape the fable land with what you've learned."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Beyond%20Hill%20and%20Dale...%20(B%26W)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NdnxWNCAIWw"
   },
 {
     id: 617,
@@ -13468,7 +13468,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Resolve the battle and its consequences for Beauclair.",
       "See the Blood and Wine story to its ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Pomp%20and%20Strange%20Circumstance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JlsjC9a4ziQ"
   },
 {
     id: 618,
@@ -13491,7 +13491,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Return with the payment/goods to get the papers.",
       "Collect the reward and finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Fake%20Papers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yx2VlkUYAvk"
   },
 {
     id: 619,
@@ -13514,7 +13514,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront it — fight it or broker a resolution.",
       "Report back to settle the village's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Greedy%20God%20walkthrough"
+    video: "https://www.youtube.com/watch?v=98LFNd6Sl4I"
   },
 {
     id: 620,
@@ -13537,7 +13537,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Make the choice the situation demands.",
       "Resolve the quest and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Volunteer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2D9AD-2_c8A"
   },
 {
     id: 621,
@@ -13583,7 +13583,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront and put down the wraith/monster inside (Specter Oil, Yrden).",
       "Resolve the haunting and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20The%20Fall%20of%20the%20House%20of%20Reardon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=n02RlOoI6X8"
   },
 {
     id: 623,
@@ -13606,7 +13606,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Beat the toughest of them to claim their rare card.",
       "Complete the set to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Old%20Pals%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hHubdnDzwOo"
   },
 {
     id: 624,
@@ -13629,7 +13629,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Beat them all to collect their cards.",
       "Finish the quest once each innkeep is defeated."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Gwent%3A%20Playing%20Innkeeps%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BuBHQRo4XCg"
   },
 {
     id: 625,
@@ -13675,7 +13675,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dodge its strikes and dispel its illusions with Igni.",
       "Banish the penitent, take the trophy, and claim the fee."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Phantom%20of%20Eldberg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vFU3uJazcVU"
   },
 {
     id: 627,
@@ -13698,7 +13698,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find the brother's fate and any survivors.",
       "Report back to the contract-giver for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20Missing%20Brother%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JpsLmcTnKLw"
   },
 {
     id: 628,
@@ -13721,7 +13721,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Bait its tongue-grab, dodge, and burn it down.",
       "Kill the Grave Hag, take the trophy, and claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Merry%20Widow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gifrgo8GM-M"
   },
 {
     id: 629,
@@ -13744,7 +13744,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight the creature, dodging its attacks and exploiting its weakness.",
       "Slay it, take the trophy, and claim the fee."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20Oxenfurt%20Drunk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6ayCa5PPkmM"
   },
 {
     id: 630,
@@ -13767,7 +13767,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Loot the required crafting materials for each piece.",
       "Take the diagrams and mats to a craftsman to forge the Feline set."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Cat%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a1nlEzNIs9A"
   },
 {
     id: 631,
@@ -13790,7 +13790,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the crafting materials each piece needs.",
       "Craft the Griffin set at a blacksmith and armorer."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Griffin%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dXFYFSZK_nE"
   },
 {
     id: 632,
@@ -13813,7 +13813,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the required materials (some need higher-level components).",
       "Forge the Bear School set with a smith and armorer."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Bear%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ETR_BCc-jck"
   },
 {
     id: 633,
@@ -13836,7 +13836,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the crafting materials each piece requires.",
       "Craft the Wolf School set at a blacksmith and armorer."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Wolf%20School%20Gear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CP70nZSEYIg"
   },
 {
     id: 634,
@@ -13882,7 +13882,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat the champion in the final bout.",
       "Claim the prize money and complete the tournament."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Fists%20of%20Fury%3A%20Skellige%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ugogRW-mnJg"
   },
 {
     id: 2354,
@@ -14000,7 +14000,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Activate it to reveal the region's map and populate its intel objectives (Lifesprings, Fiend Intel, Divine Intel).",
       "Repeat at each region's towers to fully chart the world and open fast travel."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Remnawave%20Towers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9pokRm57TF8"
   },
 {
     id: 637,
@@ -14022,7 +14022,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defeat it while meeting the special battle condition (usually exploiting its weakness for the assessment bonus).",
       "Report the data to Chadley to unlock combat-sim fights and enhancement cores for his shop."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Fiend%20Intel%20%26%20Combat%20Assessments%20walkthrough"
+    video: "https://www.youtube.com/watch?v=69ZXVv4ZIHU"
   },
 {
     id: 638,
@@ -14044,7 +14044,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the short lore beat or encounter and let MP restore.",
       "Sync the data with Chadley for planet lore and rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Lifesprings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=quR3pctZZQI"
   },
 {
     id: 639,
@@ -14066,7 +14066,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress through the chain's stages to the finale challenge.",
       "Claim the unique summon materia — the best World Intel reward in each region."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Divine%20Intel%20(Protorelics)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xYNJixRy2ws"
   },
 {
     id: 640,
@@ -14088,7 +14088,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the moogle expeditions to send out and collect resources.",
       "Open up the region's fast-travel and chocobo traversal network (mountain, river, etc.)."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20World%20Intel%3A%20Expeditions%20%26%20Chocobo%20Stops%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3HSEHXOafxs"
   },
 {
     id: 641,
@@ -14110,7 +14110,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Refine your deck around lane control and pawn-then-power plays as cards accumulate.",
       "Work up the ladder to the Gold Saucer's top players to master the game and claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Queen's%20Blood%3A%20The%20Card%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TpeQ3bEc8K4"
   },
 {
     id: 642,
@@ -14132,7 +14132,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Push lanes to destroy the enemy's outposts and main base before they take yours.",
       "Beat each escalating opponent's board to clear the ladder for prizes."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Fort%20Condor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fDayGIbHpoA"
   },
 {
     id: 643,
@@ -14154,7 +14154,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Chain successful reactions into combos to build damage.",
       "Beat each opponent up the ladder for prizes and trophies."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%203D%20Brawler%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ySyAQ-yWYhU"
   },
 {
     id: 644,
@@ -14176,7 +14176,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Run the auto-battle and adjust the logic until your units clear the encounter.",
       "Solve every stage for the combat-sim rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Gears%20%26%20Gambits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u5yJa-uqRPk"
   },
 {
     id: 645,
@@ -14198,7 +14198,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Upgrade your chocobo's gear and stats between races for tougher classes.",
       "Place first across the classes to earn gil, GP, and cosmetic rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Chocobo%20Racing%20(Gold%20Saucer)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fjaZgl10gZ8"
   },
 {
     id: 646,
@@ -14220,7 +14220,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Play each track to a passing (or higher) performance rank.",
       "Earn new sheets and rewards, which also feed relationship scores for Tifa's recitals."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Piano%20Performances%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0QiqT7SJ2k"
   },
 {
     id: 647,
@@ -14242,7 +14242,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Ward against Earth damage, dodge the arena hazards, and punish his stagger windows.",
       "Defeat Titan to earn the earth-elemental summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Titan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xVOF6f7npjs"
   },
 {
     id: 648,
@@ -14264,7 +14264,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Keep MP-recovery up and pressure it into stagger between salvos.",
       "Win to earn the holy-elemental Alexander summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Alexander%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9oe8Hq7LT7U"
   },
 {
     id: 649,
@@ -14286,7 +14286,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Survive Mega Flare and its relentless combos, staggering it during openings.",
       "Defeat Bahamut Arisen to claim the ultimate dragon-king summon."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Bahamut%20Arisen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FC6hURFAv7c"
   },
 {
     id: 650,
@@ -14308,7 +14308,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal heavy damage fast to avoid his instant-death Zantetsuken when the counter expires.",
       "Beat the clock to claim the Odin summon materia."
     ],
-    video: "https://www.youtube.com/results?search_query=FF7%20Rebirth%20Summon%3A%20Odin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LNKymJ-L28g"
   },
 {
     id: 1057,
@@ -14661,7 +14661,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Descend into the facility and clear its machines.",
       "Follow the ELEUTHIA lead to continue the main story."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Cradle%20of%20Echoes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QTaMj0NkhJM"
   },
 {
     id: 666,
@@ -14683,7 +14683,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Harvest the Control Cores and return them to Zo.",
       "Restore the Utaru's machine 'gods' to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Second%20Verse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lS3FLSqbqd4"
   },
 {
     id: 667,
@@ -14705,7 +14705,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Finish any remaining side quests and errands while you can.",
       "Complete the chapter to set up the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20All%20That%20Remains%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g1u1ypFeUe0"
   },
 {
     id: 668,
@@ -14749,7 +14749,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Help gather and rig the parts for the test.",
       "See the flying experiment through to its finish."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Lofty%20Ambitions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Yn968PgW_TM"
   },
 {
     id: 670,
@@ -14771,7 +14771,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Trace the problem to its source.",
       "Fix the cause to restore the fields."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Roots%20that%20Bind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nXX125aAXqE"
   },
 {
     id: 671,
@@ -14793,7 +14793,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fly to the mountaintop north of The Bulwark where Ferikka crashed.",
       "Recover her armour and return it to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20First%20to%20Fly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YQQH69IecSQ"
   },
 {
     id: 672,
@@ -14815,7 +14815,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Clear the machines besieging the tower.",
       "Secure the watchtower to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signals%20of%20the%20Sun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iiNiTqyBj2Q"
   },
 {
     id: 673,
@@ -14837,7 +14837,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Find Littay and clear the Burrowers and Spikesnouts around the sled.",
       "Finish off the ambushing Clawstrider to recover the supplies."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Supply%20Drop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3rkXDEf65I4"
   },
 {
     id: 674,
@@ -14859,7 +14859,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Dive the relic lake and recover the sunken Old World finds.",
       "Bring the relics back to the scholars to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Drowned%20Hopes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HVf3dhHRSPA"
   },
 {
     id: 675,
@@ -14881,7 +14881,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Search the wreck and retrieve the Gyrocompass.",
       "Return it to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Way%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s0k1adef5sM"
   },
 {
     id: 676,
@@ -14903,7 +14903,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Progress his ranks through the summer and fall.",
       "Max the rank to unlock his Baton Pass follow-up and Harisen Recovery."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Yusuke%20Kitagawa%20(Emperor)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p2gLYjd7sdM"
   },
 {
     id: 677,
@@ -14925,7 +14925,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Advance her ranks steadily.",
       "Max the rank for Follow-Up, Protect, and her money-finding perks."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Makoto%20Niijima%20(Priestess)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M7bIM78xYqc"
   },
 {
     id: 678,
@@ -14947,7 +14947,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Choose replies that help her stand up to her arranged marriage.",
       "Max the rank for SP-restoring plants and Baton Pass bonuses."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Haru%20Okumura%20(Empress)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Qcx1GmRfuX0"
   },
 {
     id: 679,
@@ -15013,7 +15013,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Shoot billiards to earn temporary battle buffs.",
       "Rotate these activities on free evenings to steadily improve the team."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Kichijoji%20Activities%3A%20Jazz%20Jin%2C%20Darts%20%26%20Billiards%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dLrdEsxmtq0"
   },
 {
     id: 686,
@@ -15035,7 +15035,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Review event scenes and character models earned across the story.",
       "Return periodically to spend new coins and complete the collection."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Thieves%20Den%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2gNja_bzxgM"
   },
 {
     id: 687,
@@ -15057,7 +15057,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete his rank events at the café.",
       "Max the rank to brew coffee and cook curry that restore party SP."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Confidant%3A%20Sojiro%20Sakura%20(Hierophant)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HuhsBQQAV0Q"
   },
 {
     id: 688,
@@ -15177,7 +15177,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight the enemy leader at the heart of the keep.",
       "Complete the mission to push the story on."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G4Icq0Bq6GQ"
   },
 {
     id: 693,
@@ -15201,7 +15201,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the commander responsible.",
       "Complete the mission, at a cost to Jin's honor."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RiFWOioB0f4"
   },
 {
     id: 695,
@@ -15249,7 +15249,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight through the threat endangering them.",
       "Resolve the reunion to advance the Iki tales."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yT3SZqp3R-4"
   },
 {
     id: 697,
@@ -15273,7 +15273,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face the final confrontation the tale stages.",
       "Complete it for its reward and closure."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iEhu732ljlM"
   },
 {
     id: 698,
@@ -15297,7 +15297,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the melody to soothe the sanctuary and earn its charm/cosmetic reward.",
       "Seek out the remaining sanctuaries across Iki to finish the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iB7_a1Slq1g"
   },
 {
     id: 699,
@@ -15318,7 +15318,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the enemies on the way.",
       "Finish the tale with Ishikawa."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XJrbhD62GSQ"
   },
 {
     id: 700,
@@ -15692,7 +15692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the archstones to travel out to any of the five worlds.",
       "Return to the Nexus between runs to restock, store items with Stockpile Thomas, and level up."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20The%20Nexus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zS7vCA4ZTGc"
   },
 {
     id: 747,
@@ -15764,7 +15764,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to the Old Monk — note the fight may summon another player to act as the boss.",
       "Defeat the Old Monk (or the invading phantom) to clear the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Tower%20of%20Latria%20(World%203)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f2V0bh2CgPY"
   },
 {
     id: 750,
@@ -15788,7 +15788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the Storm King, charge the Storm Ruler's heavy attack to loose wind blades that shred the flying Manta swarm.",
       "Keep firing wind blades to bring the Storm King down and complete the world."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Shrine%20of%20Storms%20(World%204)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TxnBkY9iIQg"
   },
 {
     id: 751,
@@ -15812,7 +15812,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Either defeat Garl or slip past him and approach Astraea directly.",
       "Choose whether to strike down Maiden Astraea to claim her Demon's Soul — an intentionally somber kill."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Valley%20of%20Defilement%20(World%205)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qLfpFba-LOY"
   },
 {
     id: 752,
@@ -15860,7 +15860,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shift Character Tendency white by co-op and aiding others, or black by invasions and killing NPCs.",
       "Plan runs around tendency, since some NPCs, bosses, and rare items only appear at a specific state."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20World%20%26%20Character%20Tendency%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UlCzneBvAdI"
   },
 {
     id: 754,
@@ -15908,7 +15908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Colorless Demon's Souls with Ed to push weapons down their special upgrade paths.",
       "Upgrade deliberately, since boss souls are limited per playthrough."
     ],
-    video: "https://www.youtube.com/results?search_query=Demon's%20Souls%20Blacksmith%20Ed%20%26%20Weapon%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wY_0WZaN9u4"
   },
 {
     id: 2352,
@@ -15977,7 +15977,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the tutorial prompts to learn the soul-reading mechanic.",
       "Make your way onward toward Gilded Vale to begin the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Moment's%20Respite%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y_5tNpEnZks"
   },
 {
     id: 757,
@@ -16000,7 +16000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Decide whether to side with, spare, or depose Raedric at his hold.",
       "Carry out your chosen path through Raedric's Hold, each giving different rewards and allies."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Gilded%20Vale%20%26%20Raedric's%20Hold%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YZ0mG9w5keU"
   },
 {
     id: 758,
@@ -16023,7 +16023,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Begin exploring the Endless Paths dungeon beneath it.",
       "Invest in Caed Nua's upgrades for income, allies, and side content."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Building%20a%20Fortress%3A%20Caed%20Nua%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SqR13AEFsxY"
   },
 {
     id: 759,
@@ -16046,7 +16046,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the leads into the city's factions.",
       "Make the choices that open Act 2's intrigue and shape Defiance Bay's fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hermit%20of%20Hadret%20House%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rMe4iQDLR1U"
   },
 {
     id: 760,
@@ -16069,7 +16069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick one faction for the Act 2 climax.",
       "Fight through the faction war, gaining your allies and turning the rest hostile."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Champion%20of%20Berath%20%2F%20Faction%20War%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w6zrZl7ROr4"
   },
 {
     id: 761,
@@ -16092,7 +16092,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Read the lore closely — it reveals the gods' true nature.",
       "Track the Leaden Key to its source to press on toward Thaos."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunt%20for%20Thaos%3A%20Twin%20Elms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ynaV1XS8Rbk"
   },
 {
     id: 762,
@@ -16115,7 +16115,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Thaos in the final confrontation.",
       "Make the ending choice about the fate of countless souls — there is no simple right answer."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sun%20in%20Shadow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l69AHGU0gM0"
   },
 {
     id: 763,
@@ -16138,7 +16138,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the religious threads the quest raises.",
       "Reach the resolution of Edér's faith to complete his companion arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20Fragments%20of%20a%20Scattered%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EYF371XxIjM"
   },
 {
     id: 764,
@@ -16161,7 +16161,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pursue the mystery before the finale, since it ties into the main conspiracy.",
       "Resolve which side of Aloth prevails to close his arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Aloth%20%E2%80%94%20Two-Sided%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vi6kIgRzKIE"
   },
 {
     id: 765,
@@ -16184,7 +16184,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track the target through the various regions as you travel.",
       "Reach the reincarnation to conclude her long hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Sagani%20%E2%80%94%20The%20Long%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tF1xhiGgJvw"
   },
 {
     id: 766,
@@ -16207,7 +16207,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Advise her at the key decision points.",
       "Your guidance sets her standing with the order and her ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Child%20of%20Five%20Suns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6e-NoG5lsV8"
   },
 {
     id: 767,
@@ -16230,7 +16230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the terrible mercy she performs on the hollowborn.",
       "Take your time to reach the arc's thematically rich conclusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Companion%3A%20Grieving%20Mother%20%E2%80%94%20Dream%20and%20Memory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5vxEoLOVn0I"
   },
 {
     id: 768,
@@ -16253,7 +16253,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the forge and recover the secret of Durgan steel.",
       "Claim the steel to upgrade your best equipment."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Durgan's%20Battery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GYWvYYYgAso"
   },
 {
     id: 770,
@@ -16276,7 +16276,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the mercenaries to the lich Concelhaut's tower.",
       "Defeat Concelhaut to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20White%20March%3A%20Cragholdt%20Bluffs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j36Pe7OD4QE"
   },
 {
     id: 771,
@@ -16299,7 +16299,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wake at Port Maje and get your bearings after the shipwreck.",
       "Begin the chase by seeking passage into the wider Deadfire."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VinfklRpK40"
   },
 {
     id: 772,
@@ -16322,7 +16322,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the city's districts and meet the competing factions.",
       "Outfit ship and crew, then follow the leads pointing toward Eothas."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lS538jbrzMY"
   },
 {
     id: 773,
@@ -16368,7 +16368,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the titan housing Eothas and learn the god's true plan.",
       "Escape the eruption and set course for Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hNcISd-z8ao"
   },
 {
     id: 775,
@@ -16391,7 +16391,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break through the storm to sight the lost Engwithan city.",
       "Approach Ukaizo for the confrontation with Eothas."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EVYXdnpgoLU"
   },
 {
     id: 776,
@@ -16414,7 +16414,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Eothas and hear out his world-shaking gambit.",
       "Make the final choice that decides how the Wheel — and the world — will turn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fB0T-uJBrzM"
   },
 {
     id: 777,
@@ -16437,7 +16437,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose Huana-favoring outcomes in the districts and rival factions.",
       "Finish their arc to earn Huana backing for the endgame."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
+    video: "https://www.youtube.com/watch?v=doFYaxoMiI0"
   },
 {
     id: 778,
@@ -16460,7 +16460,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Undercut the rival factions where the story allows.",
       "Complete their arc to gain VTC support at Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U5NXIMfQo_I"
   },
 {
     id: 779,
@@ -16506,7 +16506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose Rauataian-favoring resolutions in the faction conflicts.",
       "Complete their arc for imperial backing at Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JqYDfffcn5I"
   },
 {
     id: 781,
@@ -16529,7 +16529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Guide his dialogue about faith now that Eothas has returned.",
       "Resolve the arc to settle Edér's beliefs and his fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EtoYSUyHbOQ"
   },
 {
     id: 782,
@@ -16552,7 +16552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track Remaro down and confront him at sea.",
       "Choose Serafen's resolution to close his personal quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AURfqIxzrLI"
   },
 {
     id: 783,
@@ -16575,7 +16575,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weigh the ruthless orders the deliveries reveal.",
       "Make the final choice that defines Maia's loyalty and ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j1-w-G4MCaA"
   },
 {
     id: 784,
@@ -16598,7 +16598,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the cause of the disturbance in the waters.",
       "Resolve the investigation to advance Tekēhu's story and gifts."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bDHpkxwYYPM"
   },
 {
     id: 785,
@@ -16621,7 +16621,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the Beyond's trials and confront the death-god's servants.",
       "Choose how to answer Rymrgand to earn the DLC's rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y4wFxdNn-BQ"
   },
 {
     id: 786,
@@ -16644,7 +16644,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Adapt your party to each themed challenge wave.",
       "Win the final bout for the arena's powerful loot."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 787,
@@ -16668,7 +16668,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expose Kagha or persuade the druids to stand down so the ritual stops.",
       "Broker peace between druids and tieflings to save the refugees.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JG6qOEjEpTE"
   },
 {
     id: 788,
@@ -16692,7 +16692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the alarm and clear the remaining goblins.",
       "Report the leaders' deaths to Halsin/the Grove to break the Absolute's hold here.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8cteXtnMKWw"
   },
 {
     id: 789,
@@ -16716,7 +16716,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Phase Spider Matriarch (drop the webbed egg sacs / use the chasm) and grab the Dark Amethyst.",
       "Loot the depths and return, having cleared the village and its underdepth.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BegzEuQnSFI"
   },
 {
     id: 790,
@@ -16740,7 +16740,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side against Nere (with Thrinn) or with him, and win the ensuing fight.",
       "Resolve the deep gnomes' fate and, if Nere dies, take his head for the bounty.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eB5J5WnvjjI"
   },
 {
     id: 791,
@@ -16764,7 +16764,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the truth about the githyanki 'cure' with Lae'zel.",
       "Decide whether Lae'zel stays loyal to Vlaakith or joins Orpheus's cause — shaping her Act 3 arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yAp-V5Kdczo"
   },
 {
     id: 792,
@@ -16789,7 +16789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In Act 3, confront Gortash's role in her condition.",
       "Resolve her fate — return to Avernus, become a mind flayer, or another ending — at the game's close.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fEREol4pceI"
   },
 {
     id: 793,
@@ -16813,7 +16813,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross Isobel's protective ward at the inn to reach safety.",
       "Meet Jaheira and the Harpers to open Act 2's hub.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=771rP4MvN7Y"
   },
 {
     id: 794,
@@ -16837,7 +16837,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Save them (rush before the curse kills them) or discover their fate.",
       "Return the news to Arabella at the inn to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z9qyFf568M8"
   },
 {
     id: 795,
@@ -16861,7 +16861,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Decide the Nightsong's fate — free Dame Aylin (recommended, weakens the curse and gains an ally) or kill her for Shar.",
       "Leave the Shadowfell with the consequence set.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LMV6Yn34-K0"
   },
 {
     id: 796,
@@ -16885,7 +16885,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet the Emperor and learn about the Astral-Touched tadpole (choose whether to use it).",
       "Defeat the Apostle of Myrkul to end the colony threat and claim the Netherstone.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p7V4wdQjto8"
   },
 {
     id: 797,
@@ -16910,7 +16910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let Astarion complete the Ascension (becoming a vampire ascendant) or stop it so he stays a spawn but free.",
       "Free (or sacrifice) the 7,000 trapped spawn based on that choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dMASYRHgZdQ"
   },
 {
     id: 798,
@@ -16934,7 +16934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the invitation into the sewers to the temple of Bhaal.",
       "Confront the killer and resolve the tribunal (tied to Orin and the Dark Urge).",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yeJBTAoxBjc"
   },
 {
     id: 799,
@@ -16958,7 +16958,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight or avoid the guards and the kraken-summoning warden.",
       "Escape with as many prisoners as you can before Gortash floods the prison.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dfhWc69I-04"
   },
 {
     id: 800,
@@ -16982,7 +16982,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Steel Watch Titan guarding the core.",
       "Overload/detonate the foundry to destroy Gortash's Steel Watch and weaken him for the finale.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=utObAiaEmLU"
   },
 {
     id: 801,
@@ -17030,7 +17030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Jaheira as a companion and help her rally the Harpers.",
       "Stand with her against the Chosen for the endgame.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dFrhi339Jyo"
   },
 {
     id: 803,
@@ -17054,7 +17054,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Helldusk gear from the archives and boudoir.",
       "Take the Orphic Hammer to summon Raphael and, with Hope, defeat him in his final devil form.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8Ds_5jT1ALc"
   },
 {
     id: 804,
@@ -17078,7 +17078,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and summon Nepheli Loux near the throne room, and grab the Godslayer's Seal / gaol items along the way.",
       "Enter the fog and defeat Godrick the Grafted to claim his Great Rune and clear the legacy dungeon.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Explore%20Stormveil%20Castle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DNqBZK0TWi8"
   },
 {
     id: 805,
@@ -17102,7 +17102,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue past the Debate Parlor to the Rennala fog gate.",
       "Defeat Rennala, Queen of the Full Moon to clear the legacy dungeon and gain her Great Rune.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Raya%20Lucaria%20Academy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Wo96M46GQBU"
   },
 {
     id: 806,
@@ -17126,7 +17126,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the God-Devouring Serpent / Rykard, Lord of Blasphemy using the Serpent-Hunter's ranged wave attack from mid-distance.",
       "Dodge the giant serpent lunges and the phase-two lava waves, then defeat Rykard for his Great Rune and the Blasphemous Blade remembrance.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rykard%2C%20Lord%20of%20Blasphemy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mbhpYbPmrdE"
   },
 {
     id: 807,
@@ -17150,7 +17150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep it staggered to prevent it inflating into the rolling attack.",
       "Defeat the Godskin Noble to claim its gear and continue the area's progression.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20the%20Godskin%20Noble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nv_qVHJXiUM"
   },
 {
     id: 808,
@@ -17174,7 +17174,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In his second phase dodge the grafted storm attacks and keep the pressure on.",
       "Defeat Godefroy for his runes and the Golden Order lore reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Godefroy%20the%20Grafted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gFj9w8oZrOE"
   },
 {
     id: 809,
@@ -17198,7 +17198,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stay on his flank and punish after the big overhead and shield-bash strings.",
       "Defeat Commander Niall for the Veteran's set and the Haligtree Secret Medallion (Right) upstairs.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Commander%20Niall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eJg6k4ppm0Q"
   },
 {
     id: 810,
@@ -17222,7 +17222,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish the head and forelegs between breath attacks.",
       "Defeat Fortissax for the Cursemark of Death and to advance Fia's Mending Rune ending.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Lichdragon%20Fortissax%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J2YLWvtV5F4"
   },
 {
     id: 811,
@@ -17246,7 +17246,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after its rearing stomp and the sweeping antler attacks.",
       "Defeat the Regal Ancestor Spirit for its Remembrance and ancestral rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Regal%20Ancestor%20Spirit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CkNrpsR1684"
   },
 {
     id: 812,
@@ -17270,7 +17270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If Yura falls, claim the Nagakiba katana from his body; otherwise complete the arc for his gratitude.",
       "Later his spirit (Shabriri) may continue the arc near the Zamor ruins in the Mountaintops.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Yura%2C%20Hunter%20of%20the%20Bloody%20Fingers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cEIxql5EWrk"
   },
 {
     id: 813,
@@ -17294,7 +17294,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete her request by carrying her spirit to the Apostate Derelict in the Consecrated Snowfield.",
       "Rest there to hear her final wish and conclude her questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Latenna%20the%20Albinauric%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rS6Tf1Q49uM"
   },
 {
     id: 814,
@@ -17318,7 +17318,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Jarburg over several visits (resting to pass time) until the pot-poachers attack.",
       "Arrive for the final assault to see Diallos's fate and collect Hoslow's gear / his memento.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Diallos%20%26%20the%20Volcano%20Manor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=COA00lSSigU"
   },
 {
     id: 815,
@@ -17342,7 +17342,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Millicent's recovery through the Altus Plateau and toward the Haligtree, learning Gowry's true intentions.",
       "Complete the arc at Elphael (see Millicent's questline) for the Unalloyed needle rewards and the Rot conclusion.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gowry%20%26%20Millicent%20(Scarlet%20Rot)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WE59BpYZLc4"
   },
 {
     id: 816,
@@ -17366,7 +17366,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Progress the manor and find Rya again as Zoraya; help resolve her arc during the Rykard / manor questline.",
       "Complete her storyline for the serpent lore and her related rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Rya%20%26%20Volcano%20Manor%20Invitation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=77pqU6ydw00"
   },
 {
     id: 817,
@@ -17390,7 +17390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue to Nepheli's questline if you want to make her Lord of Limgrave using Kenneth's offer.",
       "Conclude Kenneth's arc for an ally and the restored settlement.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Kenneth%20Haight%20%26%20Fort%20Haight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ySMd6Bmfcx8"
   },
 {
     id: 818,
@@ -17414,7 +17414,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Level the Scadutree Blessing at any Scadutree grace to raise your damage and defense in the Land of Shadow.",
       "Follow the map toward Belurat and the Castle Front to open the DLC's paths.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Enter%20the%20Land%20of%20Shadow%20(Scadutree)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fajgdBYbZpw"
   },
 {
     id: 819,
@@ -17438,7 +17438,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "During its storm phase, keep clearing status and punish after the big dash combos.",
       "Defeat the Divine Beast for its Remembrance, clearing Belurat.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Divine%20Beast%20Dancing%20Lion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-4G3F1Z8gsA"
   },
 {
     id: 820,
@@ -17462,7 +17462,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Punish after her magic combos and keep close to limit her ranged casts.",
       "Defeat Rellana for her Remembrance and passage deeper toward the Scadu Altus.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Rellana%2C%20Twin%20Moon%20Knight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mk7FZxNjOqQ"
   },
 {
     id: 821,
@@ -17486,7 +17486,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Watch for the aerial spear rain and the big impale finisher; heal on his down-time.",
       "Defeat Messmer for his Remembrance, opening the deeper Shadow Keep and the path onward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Messmer%20the%20Impaler%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dAPE9JoqTIg"
   },
 {
     id: 822,
@@ -17510,7 +17510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In phase two avoid the lightning-charged bites and the sweeping tail; use Igon's ballista windows to punish.",
       "Defeat Bayle for its Remembrance and the dragon-communion rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Bayle%20the%20Dread%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q1bac-fcmtE"
   },
 {
     id: 823,
@@ -17534,7 +17534,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: he erupts into the Frenzied Flame — evade the flame waves and the spinning greatsword combos, keeping madness cleared.",
       "Defeat Midra for his Remembrance and the Frenzied Flame lore reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Midra%2C%20Lord%20of%20Frenzied%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DtmoJTeN0PE"
   },
 {
     id: 824,
@@ -17558,7 +17558,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: avoid the void-explosion under you and the homing star volleys as she floats.",
       "Defeat Metyr for her Remembrance and to conclude Ymir's arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Metyr%2C%20Mother%20of%20Fingers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MHTWvCQWIVg"
   },
 {
     id: 825,
@@ -17582,7 +17582,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two: avoid the rot-bloom explosions and the flying charge, punishing after her long strings.",
       "Defeat Romina for her Remembrance, opening the road to Enir-Ilim and the DLC finale.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Romina%2C%20Saint%20of%20the%20Bud%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iOHYBMA27yY"
   },
 {
     id: 826,
@@ -17606,7 +17606,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Phase two — Promised Consort Radahn (with Miquella): survive the blinding holy 'Light of Miquella' explosion by hugging him and rolling through the beams.",
       "Punish only in his brief recovery windows and defeat him to complete Shadow of the Erdtree and Miquella's ending.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Defeat%20Promised%20Consort%20Radahn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x6wjT1Motus"
   },
 {
     id: 827,
@@ -17630,7 +17630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "At the final gathering before Enir-Ilim, fight the multi-NPC ambush led by Leda.",
       "Resolve the arc by surviving the melee; your choices determine which companions you can summon for the final boss.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Needle%20Knight%20Leda%20%26%20the%20Companions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e8OBDn2tIqY"
   },
 {
     id: 828,
@@ -17654,7 +17654,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep him alive through the companions' conflict so he can aid you later.",
       "Optionally summon Thiollier for the final boss as the arc's payoff.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20St.%20Trina%20%26%20Thiollier%20walkthrough"
+    video: "https://www.youtube.com/watch?v=I4ehq4kuJ_Q"
   },
 {
     id: 1011,
@@ -17750,7 +17750,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue his and Ranni's overlapping dialogue until his scheme resolves.",
       "Collect the puppet Spirit Ashes and charm as the questline's rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Seluvis%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gJlAwPW6rWY"
   },
 {
     id: 1015,
@@ -17774,7 +17774,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "After Ranni's questline turns, find Blaidd trapped/hostile at Ranni's Rise.",
       "Conclude his tragic arc (defeating him) to obtain the Royal Greatsword.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Blaidd%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QWexOhCnpPo"
   },
 {
     id: 1016,
@@ -17798,7 +17798,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Bernahl in Farum Azula to obtain the Devourer's Scepter and the Beast Champion armor set.",
       "Finish looting his remains to complete the arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Bernahl%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MHf3aZ5qe9Y"
   },
 {
     id: 1017,
@@ -17822,7 +17822,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue delivering all nine Deathroot for the full set of beast incantations and the Ash of War: Determination.",
       "Complete his rewards, revealing his ties to Maliketh.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Gurranq%20Deathroot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N3o26HZu-XA"
   },
 {
     id: 1018,
@@ -17846,7 +17846,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return after progressing Alexander's quest to complete Jar Bairn's growth.",
       "Collect the Companion Jar talisman and the Ash of War: Lightning Ram as his rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Jar%20Bairn%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zZvhaW_BKu4"
   },
 {
     id: 1019,
@@ -17870,7 +17870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete Hyetta's questline in parallel so she becomes your Frenzied Flame maiden.",
       "At the end, choose the Lord of Frenzied Flame ending (or undo it via Miquella's Needle after Malenia/Placidusax).",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Shabriri%20Frenzied%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qpWbrWM0pcE"
   },
 {
     id: 1020,
@@ -17894,7 +17894,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the final companion ambush before Enir-Ilim with Ansbach on your side.",
       "Claim Ansbach's armor set and the Nail-Bracelet Talisman, and summon him for the final boss.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Sir%20Ansbach%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ra6CT46kYGs"
   },
 {
     id: 1021,
@@ -17918,7 +17918,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the Hornsent's darkening path as he joins the companions' conflict.",
       "Resolve his arc through the final confrontation, collecting his gesture and lore rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Hornsent%20Grandam%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SiWOvMdkA9g"
   },
 {
     id: 1022,
@@ -17942,7 +17942,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Ymir, then continue to Metyr, Mother of Fingers to close the arc.",
       "Collect the finger sorceries and Jolán's related rewards.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Ymir%20Jolan%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N6_F3cwDPEE"
   },
 {
     id: 1023,
@@ -17966,7 +17966,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Bayle to fulfill Igon's lifelong hunt.",
       "Collect the dragon-communion rewards and Igon's memento afterward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Igon%20Bayle%20Dragon%20Priestess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DPNnawje5iQ"
   },
 {
     id: 1024,
@@ -17990,7 +17990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the conclusion of his short arc based on your choices.",
       "Claim the Aged One's Exultation talisman as his reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Moore%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T4tXBJ8eHmk"
   },
 {
     id: 1025,
@@ -18014,7 +18014,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete his final meeting to end the arc.",
       "Collect the Fire Knight incantations and unique gear he leaves behind.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Queelign%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2PdIriUuEOc"
   },
 {
     id: 1026,
@@ -18038,7 +18038,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the final companion clash before Enir-Ilim with Freyja alive.",
       "Summon Freyja for the final boss as her arc's payoff and endgame summon support.",
     ],
-    video: "https://www.youtube.com/results?search_query=Elden%20Ring%20Freyja%20questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R4oT5m0XWrk"
   },
 {
     id: 829,
@@ -19809,7 +19809,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survey the low ground to pick up fire arrows.",
       "Help Ishikawa fight off the Mongol attack."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L2ux09ElorU"
   },
 {
     id: 913,
@@ -19914,7 +19914,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the force threatening Umugi Cove.",
       "Stop Tomoe from leaving the island."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kFYDB-MhaJc"
   },
 {
     id: 918,
@@ -19935,7 +19935,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When Hina screams, run back and follow the tracks to the assassin and his men.",
       "Kill them and take the Supply Map Stained in Blood from the assassin's body."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sa4dkHAYAa0"
   },
 {
     id: 919,
@@ -19977,7 +19977,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest objectives to track down the conspirator.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vxV1AFXqynk"
   },
 {
     id: 921,
@@ -19998,7 +19998,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the house and follow the footprints.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BknG3e7U8Ug"
   },
 {
     id: 922,
@@ -20040,7 +20040,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Masako in a duel, then the Mongols who charge in.",
       "Find Junshin hiding under an overhanging rock past the Fox Den."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m0XBuOLfgfA"
   },
 {
     id: 924,
@@ -20061,7 +20061,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow her to the Kikuchi estate.",
       "Watch the final cutscene."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KCeMXrrgRRA"
   },
 {
     id: 925,
@@ -20082,7 +20082,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any enemies on the way.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9NeHej6bHB4"
   },
 {
     id: 926,
@@ -20145,7 +20145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn that the Buddha statue was stolen and Abbot Komei has escaped.",
       "Talk to Norio to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PByzS2KE-kA"
   },
 {
     id: 929,
@@ -20166,7 +20166,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dive into the water below and enter the cave.",
       "Find the Abbot."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uQXinAtf7Jg"
   },
 {
     id: 930,
@@ -20229,7 +20229,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Mongols inside.",
       "Enter the main hall with Norio."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mZJme_yyYbE"
   },
 {
     id: 933,
@@ -20250,7 +20250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest objectives.",
       "Finish the tale with Norio."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OCBDT-aQQWI"
   },
 {
     id: 934,
@@ -20271,7 +20271,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the tale through the places tied to Kazumasa's past.",
       "Finish it to unlock the Sakai Clan horse armour."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lf1a9j7djrk"
   },
 {
     id: 935,
@@ -20297,7 +20297,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover or negotiate over the stolen shipment.",
       "Decide whether to side with the smugglers (unlocks their merchant) or against them.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e5GznF_Kvl4"
   },
 {
     id: 936,
@@ -20323,7 +20323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Barcus and speak with him.",
       "He departs to safety and will reappear later (Grymforge / Act 3) to repay you.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cEJayfIZwpk"
   },
 {
     id: 937,
@@ -20347,7 +20347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Kagha with the evidence.",
       "Resolve her fate — expose her, redeem her, or fight — to protect the grove.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44N4GA1CDMc"
   },
 {
     id: 938,
@@ -20373,7 +20373,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reforge the masterwork weapon (do it before leaving Act 1 — it becomes unavailable later).",
       "Claim the finished weapon as your reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e5J_Pbm9UTY"
   },
 {
     id: 939,
@@ -20397,7 +20397,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the toll house and its surroundings.",
       "Continue on toward Waukeen's Rest and the Mountain Pass.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dw8_1OMydtE"
   },
 {
     id: 940,
@@ -20420,7 +20420,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the boots and return them to the owner.",
       "Collect the modest reward to close this quick errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rayvgyaE4_w"
   },
 {
     id: 941,
@@ -20444,7 +20444,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rescue Vanra from the hag and defeat/bargain with Ethel.",
       "Free the captured mothers and return Vanra safely.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gwUHcKjvHj4"
   },
 {
     id: 942,
@@ -20468,7 +20468,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the Hooded Skeleton (Withers) guardian encounter.",
       "Claim the crypt's rewards and recruit Withers to your camp.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AdSITlzshH4"
   },
 {
     id: 943,
@@ -20492,7 +20492,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any guardian mephits/traps.",
       "Take the finds to continue the Necromancy of Thay questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1wdMFu2y_u8"
   },
 {
     id: 944,
@@ -20516,7 +20516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the idol and slip out without raising the alarm.",
       "Deliver it to Mol for the reward (or keep it), noting the consequences for the tieflings.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K7hOpza8DEQ"
   },
 {
     id: 945,
@@ -20540,7 +20540,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wake Art Cullagh, who reveals the way to lift the Shadow Curse (Halsin's ritual clue).",
       "Report the information to Halsin to advance 'Lift the Shadow Curse'.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KalD3GCFGPg"
   },
 {
     id: 946,
@@ -20564,7 +20564,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escape the crèche with the egg.",
       "Decide its fate — give it to Esther, keep it, or let Lae'zel raise it — for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dyu-P0QLLyM"
   },
 {
     id: 947,
@@ -20588,7 +20588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat each of them to fulfil the vengeance.",
       "Return to He Who Was to complete the quest and gain his reward/blessing.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dPirpyqvwuM"
   },
 {
     id: 948,
@@ -20612,7 +20612,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free her — fight the guards or use stealth/disguise before the execution.",
       "Get her to safety to complete the rescue and gain an ally.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XpYBtcGLTpg"
   },
 {
     id: 949,
@@ -20636,7 +20636,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return them to Danzo at the post office.",
       "Collect the reward for the completed delivery errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bqxt0zAOmr4"
   },
 {
     id: 950,
@@ -20660,7 +20660,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the confrontation accordingly (fight one side).",
       "Report the outcome to conclude the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eJRUO8NiMiY"
   },
 {
     id: 951,
@@ -20905,7 +20905,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captive before the ship is destroyed.",
       "Continue to the helm to escape — her fate ties into later encounters.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Illithid's%20Captive%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqcuL5k4sA0"
   },
 {
     id: 963,
@@ -20927,7 +20927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the Emperor and the Astral-Touched tadpoles as the story's real path.",
       "This overarching quest resolves through Acts 2–3 as you decide how to use (or resist) the tadpole.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20a%20Cure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cYMUerP1m1c"
   },
 {
     id: 964,
@@ -20949,7 +20949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Gut (this also completes part of 'Raid the Goblin Camp').",
       "Leave, having learned her 'cure' was a ruse.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Ask%20the%20Goblin%20Priestess%20for%20Help%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m7B40yV9l5I"
   },
 {
     id: 965,
@@ -20971,7 +20971,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover Vlaakith's lie about curing the tadpole.",
       "Decide whether to fight the crèche or leave, taking the githyanki knowledge onward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Githyanki%20Cr%C3%A8che%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PId7AIsz26I"
   },
 {
     id: 966,
@@ -20993,7 +20993,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If pushed, expose her as a hag — leading into 'Save Mayrina'.",
       "Resolve the encounter, learning she offers no true cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Auntie%20Ethel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k-Z4OyWRBwY"
   },
 {
     id: 967,
@@ -21015,7 +21015,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince her you can be trusted (or fight your way out).",
       "Leave with her warning, continuing the search for a cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Healer%20Nettie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D9SAei5r89k"
   },
 {
     id: 968,
@@ -21037,7 +21037,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Lae'zel to your party.",
       "Head onward, beginning her githyanki storyline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Lae'zel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z7_CSQl5QZk"
   },
 {
     id: 969,
@@ -21059,7 +21059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side with Karlach against Anders and the false paladins in the ensuing fight.",
       "Resolve the confrontation to recruit Karlach.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Hunt%20the%20Devil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-Q8amNXN6p0"
   },
 {
     id: 970,
@@ -21081,7 +21081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the spider ambush.",
       "Resolve the encounter and continue exploring the depths.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Trapped%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yDvVW4GLo-I"
   },
 {
     id: 971,
@@ -21103,7 +21103,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Coax the frightened boy back with persuasion / kindness.",
       "Return Doni to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Doni%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jlg62zK0oAM"
   },
 {
     id: 972,
@@ -21125,7 +21125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover your stolen belongings.",
       "Resolve the thief's fate to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Your%20Belongings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mXAtAXKVDYE"
   },
 {
     id: 973,
@@ -21147,7 +21147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the useful gear and clues.",
       "Head inland toward the Emerald Grove.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20the%20Beach%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_deequakIu4"
   },
 {
     id: 974,
@@ -21169,7 +21169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Later, let Volo 'operate' on your parasite for the Ersatz Eye reward.",
       "Complete the rescue to gain Volo's recurring help.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20Volo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=27Sj0aGvw3k"
   },
 {
     id: 975,
@@ -21191,7 +21191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose whether to keep or give it.",
       "Complete the small deed for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20the%20Locket%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1HeHBg9aqTU"
   },
 {
     id: 976,
@@ -21215,7 +21215,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return her to her parents.",
       "This also opens the investigation into Kagha's Shadow Druid dealings.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20walkthrough"
+    video: "https://www.youtube.com/watch?v=85kDozUM0FE"
   },
 {
     id: 977,
@@ -21237,7 +21237,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "She offers you safe passage into the Goblin Camp as thanks.",
       "Use her goodwill when approaching the Shattered Sanctum.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Goblin%20Sazza%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CD3TdS-RNxs"
   },
 {
     id: 978,
@@ -21259,7 +21259,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the duergar targets.",
       "Decide whether to stop Glut's coup or let it happen, resolving the colony's fate.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Glut's%20Circle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xu5MVZyQxYo"
   },
 {
     id: 979,
@@ -21281,7 +21281,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Administer it to Thulla before she dies.",
       "Save her to gain her thanks and information.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Cure%20the%20Poisoned%20Gnome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TxCVjorrKZs"
   },
 {
     id: 980,
@@ -21303,7 +21303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the enslaved deep gnomes.",
       "Secure Grymforge to open the way to the Adamantine Forge and the exit.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Duergar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1F7VKs1VlFI"
   },
 {
     id: 981,
@@ -21325,7 +21325,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hand it over for the bounty reward.",
       "Conclude the errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deliver%20Nere's%20Head%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jDtr6ZZd0Es"
   },
 {
     id: 982,
@@ -21347,7 +21347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the noblestalk he was after.",
       "Return Baelen (and optionally the noblestalk) to Derryth for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Mushroom%20Picker%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FrMCF8vAlGA"
   },
 {
     id: 983,
@@ -21369,7 +21369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Detonate it from a safe distance to clear the path.",
       "Proceed deeper into Grymforge.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Explosives%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8knCbOrjGCo"
   },
 {
     id: 984,
@@ -21391,7 +21391,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Release the gnomes from the work lines and the boat.",
       "Get them to safety to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Grymforge%20Gnomes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gASgmyoi1fw"
   },
 {
     id: 985,
@@ -21413,7 +21413,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push through to the Adamantine Forge chamber.",
       "Continue the forge questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Past%20the%20Rubble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CJaJvEnmdR0"
   },
 {
     id: 986,
@@ -21457,7 +21457,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prevent Isobel from being carried off (or rescue her if she is).",
       "Secure the inn to keep the safe haven intact.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Capture%20Isobel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qHUN2X4MwPM"
   },
 {
     id: 988,
@@ -21479,7 +21479,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and destroy/seize Ketheric's source of immortality (tied to freeing the Nightsong).",
       "With the relic dealt with, Ketheric becomes mortal for the Act 2 boss fight.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ketheric's%20Relic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ms9yUXeI8lo"
   },
 {
     id: 989,
@@ -21501,7 +21501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the caged prisoners (including Tieflings) or use the convoy to slip into Moonrise.",
       "Reach Moonrise Towers via the convoy route.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Follow%20the%20Convoy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7v1VdAuvqNE"
   },
 {
     id: 990,
@@ -21523,7 +21523,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Intervene to protect Mol and the others.",
       "Resolve the situation to keep the children safe.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Resolve%20the%20Abduction%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J2kQKNPtIBs"
   },
 {
     id: 991,
@@ -21545,7 +21545,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cure her of the Absolute's control in Act 3 to recruit her.",
       "Resolve her storyline based on your choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Decide%20Minthara's%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fd00nktpb3g"
   },
 {
     id: 992,
@@ -21567,7 +21567,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate Mol and ensure her safety.",
       "Return her to the inn to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Mol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=visqPvKOzl8"
   },
 {
     id: 993,
@@ -21589,7 +21589,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Save his family members where possible.",
       "Get them to safety to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Rolan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5ja-QrKY5RY"
   },
 {
     id: 994,
@@ -21611,7 +21611,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free him from the cell and the mind-control threat.",
       "Get him out to conclude the rescue.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Zevlor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ed20ALcjD30"
   },
 {
     id: 995,
@@ -21633,7 +21633,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the resistance's plans and lend your help.",
       "Advance the effort to weaken the curse and support Act 2's factions.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Sel%C3%BBnite%20Resistance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=I-VTKJDFDAU"
   },
 {
     id: 996,
@@ -21655,7 +21655,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Yurgir the orthon.",
       "Claim his loot and the contract reward, and gain leverage over Raphael.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Kill%20Yurgir%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8RuTakSDWu4"
   },
 {
     id: 997,
@@ -21699,7 +21699,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help strike at the Steel Watch Foundry.",
       "Resolve the alliance, deciding Wulbren vs Barcus tensions along the way.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Aid%20the%20Underduke%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hWoGl05lMtg"
   },
 {
     id: 999,
@@ -21721,7 +21721,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Ethel in her true form.",
       "Free any captives and report back to the survivors to end the hag for good.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Hag%20Survivors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_QOh5HNl-uc"
   },
 {
     id: 1000,
@@ -21743,7 +21743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Steel Watch Titan and free the workers.",
       "Avenge the Ironhands by destroying the foundry.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Ironhands%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d88sQ2iWDoc"
   },
 {
     id: 1001,
@@ -21765,7 +21765,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose who — a captured enemy, or refuse entirely (affecting the Emperor's power).",
       "Resolve the moral choice, shaping your relationship with the Emperor.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Feed%20the%20Mind%20Flayer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g6cp-gEb15k"
   },
 {
     id: 1002,
@@ -21787,7 +21787,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach Gortash and choose to parley (agree to ally against Orin) or fight him.",
       "Resolve the encounter to progress the Netherstone hunt.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Enter%20Wyrm's%20Rock%20Fortress%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EPVgAsQDeeI"
   },
 {
     id: 1003,
@@ -21809,7 +21809,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Mystic Carrion and defeat him.",
       "Decide Thrumbo's fate to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20Mystic%20Carrion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kxB_4K0yEdg"
   },
 {
     id: 1004,
@@ -21831,7 +21831,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the situation with the Zhentarim.",
       "Report back to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ffion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=igwa6_akJuM"
   },
 {
     id: 1005,
@@ -21853,7 +21853,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the monk from the curse.",
       "Receive the monk's thanks and reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Cursed%20Monk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TGyQD0x08d4"
   },
 {
     id: 1006,
@@ -21875,7 +21875,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the encounter (tied to Karlach's and Wyll's arcs).",
       "Continue those companions' storylines accordingly.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Devilish%20Ox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rJXWfy-YjOU"
   },
 {
     id: 1007,
@@ -21897,7 +21897,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Omeluum among the prisoners before the flood timer expires.",
       "Escape with him to complete the rescue.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Retrieve%20Omeluum%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yWcWEMaAEto"
   },
 {
     id: 1008,
@@ -21919,7 +21919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rakath's gold from the vault — legitimately or by heist.",
       "Deliver or keep the gold to resolve the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20Rakath's%20Gold%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BbGxbRQZnLo"
   },
 {
     id: 1009,
@@ -21941,7 +21941,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate Estel/Ettvard for the true story and change the headline.",
       "Alter or stop the presses to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Presses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YV68bECnwL4"
   },
 {
     id: 1010,
@@ -21963,7 +21963,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear its intentions regarding Orpheus and the Netherbrain.",
       "Decide how far to trust it, shaping the endgame Orpheus choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20the%20Emperor's%20Old%20Hideout%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DGsRYFZEGe0"
   },
 {
     id: 1027,
@@ -22716,7 +22716,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Atsu finds her first safe haven at a crumbling roadside inn and begins building the network of contacts she needs to hunt the rest of the Yōtei Six. An old innkeeper reveals what she knows of the gang's movements.",
     aiTip:
       "Talk to every NPC in the inn — optional conversations unlock rumours that mark bounty targets on your map before you'd naturally discover them.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Old+Inn+walkthrough",
+    video: "https://www.youtube.com/watch?v=IvRLW1FrBZE",
     walkthrough: [
       "Follow the road north from the Snake's outpost into the Yōtei Grasslands proper.",
       "Locate the Riverside Inn marked on your map — clear the two bandits loitering outside.",
@@ -22741,7 +22741,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A wandering ronin recognises Atsu's raw skill and offers to teach her the dual-blade style. A series of combat trials culminates in a duel that unlocks the dual katana as Atsu's signature weapon.",
     aiTip:
       "The dual katana's fast flurry attacks excel against lightly armoured enemies. Complete the optional bonus trial at the end to unlock the first upgrade slot immediately.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+Dual+Katana+walkthrough",
+    video: "https://www.youtube.com/watch?v=eIobrENZ8d0",
     walkthrough: [
       "Accept the ronin's offer at the training ground marker in the western Grasslands.",
       "Complete Trial 1: defeat three straw dummies within the time limit using basic slashes.",
@@ -22766,7 +22766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Saito, the strategic mind of the Yōtei Six, has fortified himself inside a riverside fort surrounded by elite guards. Atsu must infiltrate the fort, dismantle his defences, and fight him in a one-on-one duel.",
     aiTip:
       "Saito counters every direct assault — use the Ghost stance to terrify outer guards before entering so you face fewer enemies inside. In the duel, bait his triple-slash then punish the recovery.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Saito+walkthrough",
+    video: "https://www.youtube.com/watch?v=s5pufmydDmI",
     walkthrough: [
       "Investigate the fort exterior and find the three weak-point entrances marked by owl symbols.",
       "Eliminate the two rooftop archers silently before breaching — they alert everyone if missed.",
@@ -22792,7 +22792,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "With two members of the Six dead, Atsu learns the rest have scattered across Ezo. This quest opens the free-roaming hunt system and marks the remaining four targets across the game's regions.",
     aiTip:
       "You can tackle the remaining four members in any order. Do the Mythic Tales and Sensei quests in each region first — the gear and skills you earn will make each Six encounter significantly easier.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Yōtei+Six+walkthrough",
+    video: "https://www.youtube.com/watch?v=e4VuNO44oqk",
     walkthrough: [
       "After Saito's defeat, return to the Riverside Inn and speak with Hana for new intelligence.",
       "A cutscene reveals the remaining four members have fled to Tokachi, Teshio, Ishikari, and Oshima.",
@@ -22817,7 +22817,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The Oni is a hulking enforcer who wears demonic armour and leads raids across Tokachi. He fights with overwhelming power and uses subordinates as shields. Atsu must outmanoeuvre both him and his elite guard.",
     aiTip:
       "The Oni's overhead slams are unblockable — watch for the red glow on his gauntlets. Dodge to his left flank and strike twice before repositioning. The Kusarigama's ranged pull breaks his guard stance.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Oni+walkthrough",
+    video: "https://www.youtube.com/watch?v=j0Gw3yxDei8",
     walkthrough: [
       "Infiltrate the Oni's stronghold via the cliffside route marked on the Tokachi map.",
       "Eliminate the four courtyard guards quietly — the Oni patrols inside and will join if alerted.",
@@ -22843,7 +22843,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The Kitsune uses disguise and poison to operate unseen. Atsu must see through the deception, track the real Kitsune through the Nayoro spirit shrines, and fight them before the poison takes full effect.",
     aiTip:
       "Equip herbal medicine before this quest — the Kitsune opens with a poisoned dart. Identify the real Kitsune by the slight limp on their right side during the disguise phase.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Kitsune+walkthrough",
+    video: "https://www.youtube.com/watch?v=voeOB9dPGzo",
     walkthrough: [
       "Follow the rumour chain in Nayoro to the Spirit Shrine district — three NPCs each give a clue.",
       "At the shrine, you encounter three identical-looking figures; observe movement to spot the limp.",
@@ -22869,7 +22869,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The elder Saito brother is revealed to be the true architect of the massacre that destroyed Atsu's village. A confrontation at Saito Manor unravels the conspiracy behind the Yōtei Six — and ends in a shocking betrayal.",
     aiTip:
       "Save before entering the manor. The final encounter has no checkpoint — if you die you restart from the manor gate. Stock up on healing items and use every stealth advantage before the confrontation.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Saito+Brothers+(Part+1)+walkthrough",
+    video: "https://www.youtube.com/watch?v=m6V4cmMlLAk",
     walkthrough: [
       "Investigate the three Saito Manor outposts to gather evidence — each is guarded by six elites.",
       "Present the evidence to your ally at the Ishikari inn to confirm the elder brother's location.",
@@ -22895,7 +22895,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Atsu pursues the elder Saito brother to his sea fortress on the Oshima Coast for a final reckoning. A brutal two-phase duel determines whether the conspiracy dies with him.",
     aiTip:
       "Phase 1 is a sword duel — standard parry timing. Phase 2 he uses a spear; switch your deflect timing to half a beat later than normal. Break his posture three times to end the fight.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Saito+Brothers+(Part+2)+walkthrough",
+    video: "https://www.youtube.com/watch?v=svr-RNK_NhQ",
     walkthrough: [
       "Sail to the Oshima sea fortress using the boat at the Nayoro harbour.",
       "Scale the sea cliffs on the fortress blind side — avoid the searchlight sweep pattern.",
@@ -22921,7 +22921,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The final confrontation with the last of the Yōtei Six at the summit shrine of Mount Yōtei. Atsu embraces her legend as the Ghost — the Onryō — and ends the cycle of vengeance in a multi-stage climactic battle.",
     aiTip:
       "The final boss has three phases. Phase 1 is aggressive melee — play defensively. Phase 2 adds explosive traps — clear them with the Tanzutsu before engaging. Phase 3 is a Ghost Stance showdown — fill your meter before triggering it.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Final+Hunt+of+the+Onryō+walkthrough",
+    video: "https://www.youtube.com/watch?v=pV3STpvS9OA",
     walkthrough: [
       "Ascend Mount Yōtei along the marked path — expect five elite ambushes on the way up.",
       "Clear the outer shrine guards before approaching the summit; stealth is rewarded here.",
@@ -22947,7 +22947,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Post-story cleanup quest clearing the last pockets of outlaw activity still burning across the Ezo plains. Former Yōtei Six lieutenants refuse to disperse and must be rooted out region by region.",
     aiTip:
       "These camps respawn lieutenants if you skip the named target — always find and kill the yellow-named officer first before clearing the rank and file.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Burning+Plains+walkthrough",
+    video: "https://www.youtube.com/watch?v=Hvz9qWJMrNk",
     walkthrough: [
       "Accept the quest from Kojiro the Bounty Broker after the credits.",
       "The map marks five remaining outlaw strongholds across three regions.",
@@ -22972,7 +22972,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A mysterious spiritual disturbance lingers across Ezo after the Yōtei Six are defeated. The Ainu elders believe the violence has stirred restless spirits. Atsu must cleanse five shrines to restore balance.",
     aiTip:
       "Each shrine has a different spirit encounter — some are combat, some are environmental puzzles. Equip the Onryō armour from the main story finale for a damage bonus against spirit enemies.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Haunted+Land+walkthrough",
+    video: "https://www.youtube.com/watch?v=JoBaZn7sULo",
     walkthrough: [
       "Speak with the Nayoro Ainu elder after the credits — she senses the spiritual unrest.",
       "Travel to each of the five marked spirit shrines across the six regions.",
@@ -23173,7 +23173,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A solitary swordsmith in the Tokachi mountains offers to teach Atsu the great odachi blade — a heavy two-handed weapon devastating against groups. Three training trials unlock the weapon and its first technique.",
     aiTip:
       "The odachi's Wide Sweep is your best tool against shield-bearing enemies — it breaks guard regardless of block. Complete all three trials without taking a hit to earn a bonus upgrade material.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Odachi+walkthrough",
+    video: "https://www.youtube.com/watch?v=yZDAnTO2LUM",
     walkthrough: [
       "Find the Mountain Dojo marker on the western Tokachi map edge.",
       "Speak with Swordsmith Daisuke to accept the first trial.",
@@ -23198,7 +23198,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Daisuke's past catches up with him — a disgraced student blames him for an old failure and threatens the village. Atsu must help Daisuke confront his guilt and defeat his former student to earn the advanced technique.",
     aiTip:
       "The former student fights dirty — he opens with a feint into a grab. Dodge backward on the first input and he will always over-commit, leaving a two-hit window.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Odachis+Redemption+walkthrough",
+    video: "https://www.youtube.com/watch?v=tH7bFwTc0-c",
     walkthrough: [
       "Return to Daisuke's dojo after completing The Path of the Odachi.",
       "A villager reports trouble at the fort east of the dojo — escort Daisuke there.",
@@ -23223,7 +23223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Daisuke's own master, the elderly Yoshida, summons Atsu for one last lesson before he dies. The final duel against Yoshida — fighting at a fraction of his former power — teaches Atsu the Heaven's Fall technique.",
     aiTip:
       "Yoshida fights slowly but his Heaven's Fall hit is lethal. Watch for the two-second wind-up — that is your cue to dodge sideways, not back. Mirroring his Heaven's Fall back at him ends the duel fastest.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Master+Yoshidas+Final+Lesson+walkthrough",
+    video: "https://www.youtube.com/watch?v=MpoU-vHNHkk",
     walkthrough: [
       "Complete The Odachi's Redemption first — Yoshida's summons only appear afterward.",
       "Climb to the Summit Dojo in northern Tokachi — it requires clearing a short enemy path.",
@@ -23249,7 +23249,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A retired warrior defends his snowbound village farm against outlaws demanding tribute. He offers to teach Atsu in exchange for help repelling the raid — a straightforward combat mission that kicks off the Teshio Sensei arc.",
     aiTip:
       "This is an escort-style quest — keep the farmer alive. Position yourself between him and the incoming raiders rather than chasing the flankers. The raiders prioritise him over Atsu.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Winter+Farms+walkthrough",
+    video: "https://www.youtube.com/watch?v=3bqmJrcO9NE",
     walkthrough: [
       "Find the Snowbound Village marker in the southern Teshio Ridge.",
       "Speak with Farmer-Warrior Genzo to learn the raid is imminent.",
@@ -23273,7 +23273,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Genzo reveals his weapon of choice — the kusarigama chain sickle — and offers to teach it to Atsu. A deceptively rural sensei, he hides extraordinary skill behind a weather-beaten farmer's demeanour.",
     aiTip:
       "The Chain Pull technique is one of the game's most versatile tools — it yanks shielded enemies off balance and pulls aerial crossbow users to the ground. Learn its timing in this quest and use it constantly.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+the+Kusarigama+walkthrough",
+    video: "https://www.youtube.com/watch?v=7cEjCuS33Fk",
     walkthrough: [
       "Return to Genzo after completing The Winter Farms.",
       "Follow him to the hidden barn north of the village.",
@@ -23298,7 +23298,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Genzo sends Atsu to a camp on the frozen river where his old training partner holds court — the only person who can teach the advanced kusarigama spinning technique. Getting there requires crossing enemy-held ice.",
     aiTip:
       "The Spinning Death hits all enemies in a 360-degree arc — essential for the crowd control situations Teshio constantly presents. Upgrade it to extend the chain length as soon as crafting materials allow.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Kusarigama+walkthrough",
+    video: "https://www.youtube.com/watch?v=Dl7FlyTCel4",
     walkthrough: [
       "Receive Genzo's letter directing you to the Frozen River Camp.",
       "Cross the frozen river — three enemy patrols use the ice as cover; the Tanzutsu breaks the ice beneath them.",
@@ -23323,7 +23323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kimura's past crime — killing an innocent with a wild chain throw — has followed him to Teshio. The victim's son has hired an assassin to end Kimura's life. Atsu must defend Kimura and help him face his guilt.",
     aiTip:
       "The hired assassin is the hardest enemy in the Teshio Sensei arc. He counters the Chain Pull — use Spinning Death instead to keep him off balance while Kimura recovers.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Kusarigamas+Shame+walkthrough",
+    video: "https://www.youtube.com/watch?v=ESKAKh1TLkI",
     walkthrough: [
       "A cutscene triggers at the Ridge Shrine when you return after The Path of the Kusarigama.",
       "Defend Kimura from the first four assassin's scouts — stealth approach recommended.",
@@ -23349,7 +23349,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A master blacksmith in Teshio's isolated quarter claims the region's unique cold-forged steel can upgrade Atsu's armour beyond normal limits. Help him reopen his forge after an outlaw occupation to unlock the upgrade tier.",
     aiTip:
       "Completing this quest unlocks a permanent armour upgrade tier, not just a one-time item. Prioritise it early in your Teshio visit — the upgrade makes the later Sensei duels significantly more forgiving.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Land+Reforged+walkthrough",
+    video: "https://www.youtube.com/watch?v=K-n1HNxUZOE",
     walkthrough: [
       "Find the blacksmith Tanaka in the locked Blacksmith Quarter — the key is on a guard captain nearby.",
       "Clear the six outlaws occupying the forge interior.",
@@ -23373,7 +23373,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A reclusive medicine woman offers Atsu a unique teaching: herbal preparations that restore Resolve — the combat resource — rather than only health. A short quest of conversation and ingredient gathering unlocks the passive upgrade.",
     aiTip:
       "The Herbal Resolve upgrade is one of the most useful passives in the game. It effectively doubles your Ghost Stance uptime if you use herbal medicine regularly during fights.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Secrets+of+the+Heart+walkthrough",
+    video: "https://www.youtube.com/watch?v=y0cbV3ykr2o",
     walkthrough: [
       "Find the medicine woman Yuki's hut on the eastern Teshio Ridge path.",
       "Gather the three mountain herbs she requests — all are within 200m of the hut.",
@@ -23397,7 +23397,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A blind swordsman at the Teshio crossroads challenges Atsu to a duel in complete darkness. The encounter teaches hearing-based combat instincts and permanently upgrades Atsu's listening detection range.",
     aiTip:
       "The darkness duel disables the HUD entirely. Listen for his footstep rhythm — two heavy steps means a thrust attack, one light step means a sweep. Deflect timing is pure audio here.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Blind+Stranger+walkthrough",
+    video: "https://www.youtube.com/watch?v=EGDuy7675M8",
     walkthrough: [
       "Meet the blind swordsman Mushin at the Crossroads Shrine at night — he only appears after dusk.",
       "Accept his challenge; the screen fades to black for the duel.",
@@ -23422,7 +23422,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An old ashigaru veteran at the Veterans' Post still drills daily with his yari spear. He agrees to teach Atsu the weapon in exchange for help clearing a bandit blockade choking the road to his home village.",
     aiTip:
       "The yari's Charging Thrust covers ground fast and breaks heavy armour — use it to open fights against armoured enemies. Complete the blockade without being detected for a bonus supply reward.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Way+of+the+Yari+walkthrough",
+    video: "https://www.youtube.com/watch?v=YhaLHXKg0Ps",
     walkthrough: [
       "Find Veteran Ishida at the Veterans' Post in central Ishikari.",
       "Clear the three-camp bandit blockade on the northern road — stealth earns a bonus.",
@@ -23447,7 +23447,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Ishida sends Atsu to his old commanding officer at the River Barracks for advanced yari training. The Spinning Sweep technique turns the yari into a crowd-control weapon — vital for Ishikari's large enemy groups.",
     aiTip:
       "The Spinning Sweep has a brief startup that enemies can interrupt. Use it only after a Charging Thrust stuns the lead enemy — the stun gives you the gap needed for the full sweep animation.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Path+of+the+Yari+walkthrough",
+    video: "https://www.youtube.com/watch?v=Zed16nHjh-U",
     walkthrough: [
       "Receive Ishida's referral letter and travel to the River Barracks.",
       "The barracks is under light occupation — clear it before the commander Roku will talk.",
@@ -23472,7 +23472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The final yari lesson pushes Atsu to her limits. Roku reveals the legendary Fury Stance — a berserker mode that temporarily doubles attack speed — and tests her in a punishing gauntlet before teaching it.",
     aiTip:
       "Fury Stance depletes Resolve while active — don't trigger it until you have a full Resolve bar. The gauntlet's final wave has six enemies; save the stance activation for that wave specifically.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Yaris+Fury+walkthrough",
+    video: "https://www.youtube.com/watch?v=lkBMAPxDMys",
     walkthrough: [
       "Return to Roku after completing The Path of the Yari.",
       "The Fury Grounds are marked east of the barracks — a natural arena.",
@@ -23498,7 +23498,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eccentric Sensei Takahashi refuses to teach until Atsu tends his cherished persimmon tree, which bandits have damaged and deer have stripped. A meditative quest that rewards patience with a useful passive charm.",
     aiTip:
       "This is purely a non-combat quest — the only one in the Sensei arc. Don't bring weapons out; Takahashi disapproves and locks you out of the charm if you attack the deer rather than shooing them.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Sensei+Takahashis+Persimmon+Tree+walkthrough",
+    video: "https://www.youtube.com/watch?v=TiHdH04X43s",
     walkthrough: [
       "Find Sensei Takahashi sulking by his orchard in southern Ishikari.",
       "Repair the three damaged tree supports using the crafting prompt at each one.",
@@ -23522,7 +23522,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A reclusive alchemist hiding a laboratory in an Ishikari cave has developed three types of explosive ordnance. She will teach Atsu her craft in exchange for gathering rare materials from a heavily guarded supply depot.",
     aiTip:
       "The scorch bomb is your most versatile new tool — it creates a fire zone that damages and staggers. Combine it with the oil jar (unlocked via a separate upgrade) for a devastating area-denial combo.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Bomb+Maker+walkthrough",
+    video: "https://www.youtube.com/watch?v=g7kq3Zsu0a8",
     walkthrough: [
       "Discover the Hidden Laboratory by investigating the smoking chimney vent near the eastern Ishikari cliffs.",
       "Speak with alchemist Fumiko — she needs sulphur, charcoal, and pine resin from the supply depot.",
@@ -23547,7 +23547,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fumiko's advanced course covers large-scale incendiary weapons. A crisis arrives when outlaws torch the Ishikari mill — Atsu must use her new bomb skills to fight fire with fire and save the structure.",
     aiTip:
       "Use smoke bombs to move safely through the burning mill interior. Save scorch bombs for the enemy arsonists at the back — three consecutive hits will end the encounter before they can ignite the grain store.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Fighting+Fire+With+Fire+walkthrough",
+    video: "https://www.youtube.com/watch?v=yTbtJEmGNuM",
     walkthrough: [
       "Return to Fumiko after completing The Bomb Maker — she has heard about the mill fire.",
       "Rush to the Burning Mill; three arsonist groups are actively spreading the fire.",
@@ -23572,7 +23572,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fumiko's arc climaxes as a warlord seizes Castle Ishikari and threatens to destroy everything within. Atsu storms the burning fortress using every explosive skill learned — a full-scale siege where Fumiko fights at her side.",
     aiTip:
       "Manage your bomb supply carefully — you cannot restock during the castle assault. Prioritise oil jars for the armoured gate guards and save explosive arrows for the castle's three reinforced barriers.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Burning+of+Castle+Ishikari+walkthrough",
+    video: "https://www.youtube.com/watch?v=Go7_22cv36A",
     walkthrough: [
       "Receive Fumiko's urgent message at the Ishikari inn after completing Fighting Fire With Fire.",
       "Approach Castle Ishikari from the eastern gate — Fumiko meets you there with a supply pack.",
@@ -23598,7 +23598,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A conflicted ex-pirate gunsmith on the Oshima harbour wants out of his old crew. He will teach Atsu to use the Tanzutsu matchlock rifle if she helps him settle his debts — a quest balancing mercy and violence.",
     aiTip:
       "The Tanzutsu is the game's only ranged weapon that penetrates armour and breaks ice underfoot. Its reload time is long — only fire when a target is stationary. The Steady Shot technique halves reload time after a successful headshot.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Guns+and+Consequences+walkthrough",
+    video: "https://www.youtube.com/watch?v=_1zRRXoyf98",
     walkthrough: [
       "Find Gunsmith Ryo hiding in the Oshima harbour warehouse.",
       "Agree to help him settle debts with his old crew — three locations marked on the harbour map.",
@@ -23623,7 +23623,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A tea ceremony master at a clifftop house believes focus and patience are the true weapons. Teaching Atsu a formal tea ceremony provides a permanent Resolve regeneration upgrade — invisible strength earned through stillness.",
     aiTip:
       "This is the only quest that grants out-of-combat Resolve regeneration. Combined with the Herbal Resolve charm from Teshio, your Resolve management in longer fights becomes almost effortless.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Pride+Before+Tea+walkthrough",
+    video: "https://www.youtube.com/watch?v=yvMsy38V0l4",
     walkthrough: [
       "Find Tea Master Tomoe at the Clifftop Tea House on the Oshima southern headland.",
       "Accept the ceremony invitation and sit across from her.",
@@ -23648,7 +23648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A retired road warden asks Atsu to clear the old forest trails of outlaws who have made the paths too dangerous to use. Restoring the trails opens a useful shortcut across the Grasslands.",
     aiTip:
       "The three bandit camps on this quest are small and lightly guarded — a perfect opportunity to practice stealth kills. Clearing them without alerts earns a bonus Trail Charm with faster horse travel.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Old+Trails+walkthrough",
+    video: "https://www.youtube.com/watch?v=KggDxmtas9U",
     walkthrough: [
       "Speak with Warden Kenji at the northern Grasslands trailhead.",
       "Clear Camp 1 (4 bandits) on the eastern ridge — approach from the high ground.",
@@ -23672,7 +23672,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Villagers need help rebuilding a bridge the Yōtei Six destroyed during their initial raid. Gathering materials and defending the workers from a retaliatory strike reconnects two halves of a cut-off community.",
     aiTip:
       "The worker defence wave comes from the river — position yourself on the bridge itself to funnel enemies into a narrow chokepoint and use the Spinning Sweep to hit multiple targets.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Building+Bridges+walkthrough",
+    video: "https://www.youtube.com/watch?v=qRTD-UB8foU",
     walkthrough: [
       "Talk to Village Elder Mio at the western Grasslands riverbank.",
       "Gather two bundles of timber from the marked lumber piles east of the river.",
@@ -23696,7 +23696,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A wandering poet encountered on the road carries a sealed message for a family three villages away but is too fearful to travel alone. Escort them safely through an ambush to deliver a final farewell letter.",
     aiTip:
       "This escort quest is peaceful until the mid-point ambush. Stay close to the poet — they panic and freeze if enemies get within five metres, but will not run back to safety on their own.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Fleeting+Thought+walkthrough",
+    video: "https://www.youtube.com/watch?v=mhErZTagF74",
     walkthrough: [
       "Meet poet Reiko at the crossroads marker in central Grasslands.",
       "Escort Reiko along the western road — the walk takes about two minutes.",
@@ -23720,7 +23720,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A farmer pays Atsu to rescue his son taken hostage by bandits. On infiltrating the hideout, Atsu discovers the son voluntarily joined the bandits to escape debt — a quest about family, choice, and consequence.",
     aiTip:
       "You can resolve this quest peacefully by speaking with the son before fighting. Choosing the 'let him decide' dialogue gives the best outcome reward. Attacking immediately locks out the peaceful ending.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Worth+of+a+Man+walkthrough",
+    video: "https://www.youtube.com/watch?v=DbWqfZt31o8",
     walkthrough: [
       "Accept the job from Farmer Noburu at the Grasslands inn.",
       "Infiltrate the bandit hideout on the eastern hill from the blind side — avoid the two rooftop guards.",
@@ -23745,7 +23745,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A grieving mother has been searching the Grasslands for the lake where her son drowned years ago to leave an offering. Atsu guides her through bandits and over difficult terrain to reach Mirror Lake and its quiet memorial.",
     aiTip:
       "This is a quiet story quest with minimal combat. The single bandit encounter can be avoided entirely by taking the mountain goat trail — ask the mother about alternate routes in the first dialogue tree.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Lost+in+Reflection+walkthrough",
+    video: "https://www.youtube.com/watch?v=j1lOf-GIHCs",
     walkthrough: [
       "Meet grieving mother Ume at the southern Grasslands waypoint.",
       "Ask about the mountain goat trail in dialogue to bypass the bandit ambush.",
@@ -23770,7 +23770,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A refugee family from Atsu's home village survived the Yōtei Six massacre but is stranded and pursued by survivors of the gang. Escort them through two outlaw ambushes to a safe farmstead.",
     aiTip:
       "The family has three members — if any are killed the quest fails. Use smoke bombs to create cover during the first ambush and herd them behind the cart. The second ambush has a mounted archer; kill the horse first.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Memories+of+Home+walkthrough",
+    video: "https://www.youtube.com/watch?v=OfL9LAyMfcM",
     walkthrough: [
       "Find the refugee family at the marked camp near the Grasslands southern border.",
       "Clear the eight outlaws watching the road before signalling the family to move.",
@@ -23795,7 +23795,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A street magician who witnessed the Yōtei Six massacre holds key intelligence — but won't share it until Atsu helps him recover his stolen props from a pickpocket gang running the market.",
     aiTip:
       "The pickpocket gang fight takes place in a crowded market — area attacks will hit innocent bystanders and trigger a failed state. Use precise single-target attacks only.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Sleight+of+Hand+walkthrough",
+    video: "https://www.youtube.com/watch?v=BgU61iiWEcY",
     walkthrough: [
       "Speak with Magician Sho at the market town plaza.",
       "Track the three pickpockets through the crowd — use the listening sense to follow the stolen prop sounds.",
@@ -23819,7 +23819,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A suspiciously well-informed traveller at the Riverside Inn offers to buy Atsu a drink. Over conversation, the traveller reveals they are an undercover informant with intelligence on outlaw movements — and a dangerous tail.",
     aiTip:
       "The four assassins that ambush the informant at the end arrive from the rooftop — clear the roof before the final conversation to avoid being flanked. They are among the fastest enemies in the Grasslands.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Drink+with+a+Stranger+walkthrough",
+    video: "https://www.youtube.com/watch?v=FMnFesRDkC4",
     walkthrough: [
       "Speak with the stranger Nori at the inn bar — accept the drink offer.",
       "Complete three rounds of conversation, choosing to share information openly each time.",
@@ -23869,7 +23869,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A former Yōtei Six foot soldier trying to live peacefully as a farmer is hunted by his former gang. Atsu must decide whether to help him fight his past or advise him to flee — both paths have consequences.",
     aiTip:
       "Choosing to fight alongside him unlocks the farmstead as a fast-travel safe house. Choosing flight gives the better weapon reward but no safe house. Pick fight if you value map utility over the immediate gear.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Normal+Life+walkthrough",
+    video: "https://www.youtube.com/watch?v=CLZT6i8CpMU",
     walkthrough: [
       "Find former outlaw Jiro tending his farm on the western Grasslands road.",
       "He reveals three former comrades are hunting him — investigate the marked locations for intel.",
@@ -23894,7 +23894,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A herbalist in the Tokachi marshes needs protection while gathering rare winter blooms from dangerous terrain patrolled by outlaws. A peaceful quest for anyone who takes a stealthy approach.",
     aiTip:
       "The herbalist stops to gather at three locations — each one draws a nearby patrol. Eliminate each patrol before the herbalist reaches the gathering point to avoid a stressful escort fight.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Flower+For+Your+Thoughts+walkthrough",
+    video: "https://www.youtube.com/watch?v=J36Kfmc2pRs",
     walkthrough: [
       "Meet Herbalist Yuki at the Marshland Village gate.",
       "Scout ahead of Yuki to each of three gathering points and clear patrols before she arrives.",
@@ -23919,7 +23919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A samurai demands satisfaction from Atsu for a slight she supposedly committed. The investigation reveals a third party fabricated the insult to provoke both of them. Exposing the scheme avoids a needless duel.",
     aiTip:
       "Finding the forged letter before confronting the samurai unlocks a peaceful resolution that awards the better reward. If you miss the letter and duel him, win by using standard deflect-counter timing — he has no tricks.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Matter+of+Honour+walkthrough",
+    video: "https://www.youtube.com/watch?v=nbsizpzTerw",
     walkthrough: [
       "Be challenged by Samurai Goto at the Tokachi estate gate.",
       "Before accepting or refusing the duel, investigate the three marked locations for evidence.",
@@ -23944,7 +23944,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A merchant's supposedly simple courier job turns into a trap — the package contains blackmail material and the merchant's former allies are waiting at the delivery point. Atsu must fight out of the ambush.",
     aiTip:
       "The ambush is ten enemies in a small space — use your first scorch bomb immediately on entry to stagger the clustered group. The merchant turns hostile in the final phase; the Charging Thrust ends his sprint.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Easy+Coin+walkthrough",
+    video: "https://www.youtube.com/watch?v=HYdS2KDsD4c",
     walkthrough: [
       "Accept the courier job from Merchant Ueda at the trading post.",
       "Deliver the package to the marked waypoint three kilometres south.",
@@ -23969,7 +23969,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survivors of a bandit raid are turning on each other over the last supplies in a ransacked camp. Atsu must defuse the tension through conversation and, if necessary, combat before the survivors kill each other.",
     aiTip:
       "The peaceful resolution requires choosing 'share the supplies' twice in dialogue before the fight triggers. If combat starts, knock out rather than kill the aggressors — the survivors grant a better reward for mercy.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Every+Man+for+Himself+walkthrough",
+    video: "https://www.youtube.com/watch?v=BuUnj8fTOsU",
     walkthrough: [
       "Discover the ransacked camp on the Tokachi eastern trail.",
       "Speak with survivor leader Masa — tensions are at a breaking point.",
@@ -23994,7 +23994,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A healer's village faces a disease outbreak but the medicine needed is locked inside a heavily guarded outlaw supply camp. Atsu raids the camp to secure the supplies before the outbreak claims more lives.",
     aiTip:
       "The medicine is in a locked chest requiring the camp captain's key. Kill the captain first and take the key before engaging the rest of the camp — his patrol pattern brings him to the western gate every 90 seconds.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Desperate+Remedy+walkthrough",
+    video: "https://www.youtube.com/watch?v=gqI3UHLeg6o",
     walkthrough: [
       "Speak with Healer Sora at the Tokachi village — she marks the supply camp on the map.",
       "Observe the camp exterior; the captain patrols the western gate every 90 seconds.",
@@ -24019,7 +24019,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A stubborn farming family refuses to abandon their marshland home despite persistent outlaw raids. Atsu helps them fortify the homestead and repels a final large assault to secure their right to stay.",
     aiTip:
       "The final assault has twelve attackers coming from three directions simultaneously. Use the fortification points the family built — the barricade on the north road funnels half the attackers into a chokepoint.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Marshland+Homestead+walkthrough",
+    video: "https://www.youtube.com/watch?v=JY5d11rfg4o",
     walkthrough: [
       "Meet the family patriarch Gota at the Marsh Farmstead entrance.",
       "Build three fortifications: barricade (north), watchtower (east), fence (south) — materials nearby.",
@@ -24044,7 +24044,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Village constables overwhelmed by gang activity ask Atsu for temporary help. A three-part mission clears a gang's three outposts and ends with a confrontation against their local lieutenant.",
     aiTip:
       "The lieutenant uses a war fan as a weapon — it deflects arrows and Tanzutsu shots. Close in with dual katana and ignore the fan; it only blocks ranged, not melee.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Protecting+the+Peace+walkthrough",
+    video: "https://www.youtube.com/watch?v=6_BDuNBkgMY",
     walkthrough: [
       "Speak with Constable Chief Daichi at the post in northern Tokachi.",
       "Clear Outpost 1 (6 gang members) on the river island — approach by swimming.",
@@ -24069,7 +24069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An Ainu settlement in the Tokachi foothills faces forced relocation by a lord claiming their land. Atsu investigates the land claim, exposes its fraud, and defends the settlement against the lord's enforcers.",
     aiTip:
       "The land claim fraud evidence is in the lord's office — three documents, each in a different guarded room. Read all three before confronting the lord to unlock the full peaceful dialogue option that avoids unnecessary bloodshed.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Ainu+Kotan+walkthrough",
+    video: "https://www.youtube.com/watch?v=ErB6APBVbtY",
     walkthrough: [
       "Speak with Ainu community leader Huci at the settlement gates.",
       "Infiltrate the lord's manor to find the three forged land documents.",
@@ -24095,7 +24095,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A blacksmith legend operating out of a hidden marsh forge claims to have crafted armour light as a dragonfly's wing. Gather the three rare materials she needs and commission Ezo's lightest armour set.",
     aiTip:
       "The Dragonfly Armour's weight reduction applies to your entire loadout — it is the best armour for players who rely on dodge-heavy playstyles. Prioritise this quest early in Tokachi if you favour agility over defence.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Dragonfly+Armor+walkthrough",
+    video: "https://www.youtube.com/watch?v=sJGYF7ho0lM",
     walkthrough: [
       "Discover the Dragonfly Forge by following a dragonfly (literal in-game creature) near the Tokachi marsh.",
       "Speak with Smith Chiyo — she needs reed fibre, swamp iron, and dragonfly wing resin.",
@@ -24121,7 +24121,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Two old warriors meet again at the site of a battle from decades ago, each blaming the other for a costly defeat. Atsu mediates their confrontation and helps them reach a truth that neither has faced alone.",
     aiTip:
       "This is a dialogue-driven quest with no combat. Choose the 'hear both sides' prompt every time it appears — cutting one veteran off locks you out of the full memory sequence and the bonus Reconciliation Charm.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Loss+We+Carry+walkthrough",
+    video: "https://www.youtube.com/watch?v=x1qUYucOy9U",
     walkthrough: [
       "Find the two veterans arguing at the Old Battle Site memorial stone.",
       "Speak with Veteran Hayato first; choose 'hear both sides' when prompted.",
@@ -24146,7 +24146,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A shamisen craftsman needs a rare paulownia wood that only grows in a valley too dangerous for him to enter alone. The wood's supernatural resonance — and the valley's guardian — make this more than a simple supply run.",
     aiTip:
       "The valley guardian is not a combat encounter — it is a music puzzle. Use the shamisen and play the three notes shown by the glowing moths circling the tree. Wrong notes summon hostile spirits; correct notes appease the guardian.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Soul+of+an+Instrument+walkthrough",
+    video: "https://www.youtube.com/watch?v=HquspNjPPxk",
     walkthrough: [
       "Meet Craftsman Keiko at the Tokachi foothills — he marks the Hidden Valley on the map.",
       "Enter the valley solo — Keiko cannot enter.",
@@ -24172,7 +24172,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An Ainu singer's ancient songs are said to guide travellers through the spirit-haunted Nayoro forest safely. Atsu joins her on a ritual journey, protecting her voice — and learning something of the Ainu world in return.",
     aiTip:
       "The spirits in this quest are non-hostile unless Atsu draws a weapon. Keep weapons sheathed throughout the forest walk and the spirits will provide illumination rather than attacking.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Melody+of+Thoughts+walkthrough",
+    video: "https://www.youtube.com/watch?v=f6s26qH6f1w",
     walkthrough: [
       "Find Singer Sipne at the Nayoro forest edge at dawn.",
       "Follow Sipne into the Spirit Forest — keep weapons sheathed at all times.",
@@ -24197,7 +24197,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A disguised master assassin is hiding among the workers of a Nayoro village, gathering intelligence on Atsu's movements. Expose them through careful observation before they act.",
     aiTip:
       "The assassin changes disguise between observation phases. Track them by the slight scar visible on their left wrist — every disguise leaves this detail. Look for it on each suspect before accusing.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Face+of+a+Master+walkthrough",
+    video: "https://www.youtube.com/watch?v=xCHIT5SHr1I",
     walkthrough: [
       "Receive a tip from an Ainu elder about a suspicious worker in the Nayoro village.",
       "Observe the five suspects going about their daily routines — look for the wrist scar.",
@@ -24223,7 +24223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Farmers in the Nayoro eastern lands blame a disfigured exile for livestock deaths and crop destruction. Atsu investigates and discovers the true culprit — a natural predator — and must choose whether to defend the exile.",
     aiTip:
       "Finding the animal tracks before confronting the farmers unlocks a full peaceful resolution. If you skip the investigation and go straight to the exile, the quest resolves with combat only and no bonus charm.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Face+of+a+Demon+walkthrough",
+    video: "https://www.youtube.com/watch?v=1bxRz94Zd8c",
     walkthrough: [
       "Hear the farmers' complaint at the Nayoro market.",
       "Investigate the crime scene: three sets of animal claw marks, not human footprints.",
@@ -24248,7 +24248,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A young Ainu warrior needs to complete a coming-of-age trial in the deep forest to earn their place in the community. Atsu accompanies them as a witness, offering guidance through three ancient trials.",
     aiTip:
       "The trials test the young warrior, not Atsu — let them fight each encounter. Only intervene if they are about to die (health below 20%) or the quest will count Atsu as a cheater and lock the alliance reward.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Heart+of+an+Ainu+walkthrough",
+    video: "https://www.youtube.com/watch?v=d7T8NTAQD_o",
     walkthrough: [
       "Meet young warrior Piri at the Nayoro Trial Grounds entrance.",
       "Trial 1 (Hunt): Piri must track and fell a deer — guide them to the animal's tracks.",
@@ -24273,7 +24273,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A supply chain carrying critical medicine through the Nayoro wilds is being systematically robbed by a bandit cell that knows the route schedule. Atsu must protect the final shipment and eliminate the cell's leadership.",
     aiTip:
       "The bandit cell leader stays back during each ambush wave — only engaging after his subordinates fall. Save your Ghost Stance for him; he is immune to fear and fights with dual axes that deflect standard attacks.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Load+We+Bear+walkthrough",
+    video: "https://www.youtube.com/watch?v=ZvMURcWMJSw",
     walkthrough: [
       "Speak with Supply Master Kano at the Nayoro forest trailhead.",
       "Escort the two supply carriers through the first forest section.",
@@ -24298,7 +24298,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A corrupt travelling monk is extorting isolated Teshio ridge villages under the guise of spiritual blessing. Exposing his deception requires gathering testimony from three villages and cornering him at the monastery.",
     aiTip:
       "The monk is a skilled swordsman despite his robes — do not underestimate him. He opens with a deceptive prayer stance that transitions into a fast draw; do not parry the prayer animation, wait for the draw.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Fox+in+Monks+Clothing+walkthrough",
+    video: "https://www.youtube.com/watch?v=LyqRD7sabvc",
     walkthrough: [
       "Hear the first complaint at the Teshio Ridge village — an elder paid for a blessing that failed.",
       "Visit two more villages on the ridge for corroborating testimony.",
@@ -24323,7 +24323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An escaped exotic animal — a snow leopard brought north by traders — is causing havoc in the Teshio mountain passes, attacking travellers. Track and subdue it without killing it, as a local village considers it sacred.",
     aiTip:
       "The snow leopard is immune to all lethal attacks — equip the non-lethal pommel strike and chain it three times to trigger a wrestle QTE. Killing it fails the quest and cannot be undone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Encounters+of+the+Wild+walkthrough",
+    video: "https://www.youtube.com/watch?v=J-LjMyYZmMA",
     walkthrough: [
       "Speak with the panicked trader at the Teshio High Pass waypoint.",
       "Track the snow leopard using paw prints and broken branches — listening sense helps.",
@@ -24348,7 +24348,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A soldier searches the frozen Teshio slopes for a younger brother who never returned from a patrol months ago. The trail leads through a collapsed outpost, a bandit camp, and finally a mountain shrine.",
     aiTip:
       "The younger brother is alive but injured at the mountain shrine. Carry him back by choosing 'carry him' in the dialogue — the walking escort sequence is slow but avoids a fight that endangers him further.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+No+Brother+Left+Behind+walkthrough",
+    video: "https://www.youtube.com/watch?v=PMStfr9-rjw",
     walkthrough: [
       "Meet Soldier Taro at the Teshio Ridge camp — he shows a rough map of the patrol route.",
       "Investigate the collapsed outpost; find patrol notes that redirect to the bandit camp.",
@@ -24374,7 +24374,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A young orphan named Kohana watches Atsu fight from a distance and asks to apprentice under her. Atsu sets three tests of resourcefulness, heart, and courage — not combat — to see if Kohana is ready.",
     aiTip:
       "This is a character-driven quest with no combat. Choosing 'teach her' at the end rather than 'send her to safety' adds Kohana as a recurring ally who appears in two later quests with useful information.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Life+to+Be+walkthrough",
+    video: "https://www.youtube.com/watch?v=2fvm11eT06I",
     walkthrough: [
       "Notice Kohana watching at the Ishikari roadside dojo — she approaches after a fight.",
       "Set Test 1 (Resourcefulness): ask her to find food for three villagers — she succeeds.",
@@ -24399,7 +24399,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A master craftsman's workshop is being extorted by a gang demanding protection money. Defeating the gang and recovering stolen design scrolls allows the craftsman to return to creating the region's finest armour decorations.",
     aiTip:
       "The gang leader uses a halberd with extreme reach — stay inside his swing arc during the duel. The stolen scrolls are split between two locations; check both before leaving the gang's warehouse.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Artisanal+Treasures+walkthrough",
+    video: "https://www.youtube.com/watch?v=-ZsdHyJhBrk",
     walkthrough: [
       "Speak with Craftsman Daiki at his locked workshop in the Craftsman District.",
       "Track the extortion gang to their warehouse south of the district.",
@@ -24424,7 +24424,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "The famed Bold Kaji forge was shut down after an outlaw siege. Gathering the ore it needs and clearing its remaining occupants allows it to reopen — unlocking a premium weapon upgrade tier unique to Ishikari.",
     aiTip:
       "The forge's premium upgrade tier gives weapons a fire damage bonus — pair it with the scorch bomb for a devastating fire build. Complete the Bomb Maker Sensei quest before this one to make the most of that synergy.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bold+Kaji+Forge+walkthrough",
+    video: "https://www.youtube.com/watch?v=BKejAFJBDd8",
     walkthrough: [
       "Find the abandoned Kaji Forge and read the closure notice on the door.",
       "Clear the eight outlaw squatters inside the forge.",
@@ -24449,7 +24449,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A strategic garrison that once protected Ishikari's northern road has been overrun and used as an outlaw staging base. Retaking it is a full assault against an entrenched force of twenty defenders.",
     aiTip:
       "The garrison has two floors — clear the ground floor completely before ascending. The outlaw commander on the upper floor calls for reinforcements if he spots you on the stairs; silence him quickly with a Tanzutsu shot.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Broken+Horn+Garrison+walkthrough",
+    video: "https://www.youtube.com/watch?v=c3JdKI_sMN4",
     walkthrough: [
       "Receive the retake order from a Ishikari military contact after completing Protecting the Peace.",
       "Observe the garrison exterior; twenty defenders plus a commander on the upper floor.",
@@ -24475,7 +24475,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Villagers refuse to farm land they believe is spiritually cursed after crops repeatedly died there. Atsu's investigation reveals the real cause is buried contraband leaching poison into the soil.",
     aiTip:
       "This is an investigation quest — no combat required. Use the listening sense near the three failed crop rows to identify the buried contraband locations. Each spot glows faintly with a green tint.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Cursed+Ground+walkthrough",
+    video: "https://www.youtube.com/watch?v=hyJGj5Yw3ck",
     walkthrough: [
       "Speak with Village Elder Shiro about the abandoned fields.",
       "Use the listening sense near each of the three failed crop rows.",
@@ -24500,7 +24500,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rumours of a ghost haunting a once-popular inn have driven away all customers and staff. Atsu investigates the haunting and discovers a very human source — an outlaw gang using the ghost story as cover for their operation.",
     aiTip:
       "The ghost effects (floating objects, strange sounds) are triggered by a pressure plate system the outlaws installed. Disable the three plates before confronting the gang to expose the trick during the dialogue.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Onis+Breath+Inn+walkthrough",
+    video: "https://www.youtube.com/watch?v=aBBMBuqJ5LY",
     walkthrough: [
       "Speak with nervous former Innkeeper Masa outside the closed inn.",
       "Investigate the inn interior; locate and disable three pressure plates (listening sense reveals them).",
@@ -24525,7 +24525,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travellers stranded by a sudden blizzard take shelter in a remote lodge alongside Atsu. One of them is a Yōtei Six informant in disguise — Atsu must identify them before they slip away under cover of the storm.",
     aiTip:
       "The informant is identified by three clues hidden in the lodge: a coded letter, a Yōtei Six sigil on their boot sole, and a second water flask (informants carry two for long missions). Find all three before accusing.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shelter+from+the+Storm+walkthrough",
+    video: "https://www.youtube.com/watch?v=XbnAhUfPqTU",
     walkthrough: [
       "Shelter at the Snowbound Lodge when a blizzard closes the road.",
       "Mingle with the four other travellers; each has a backstory — listen carefully.",
@@ -24551,7 +24551,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A con artist's elaborate scheme to swindle the local gambling den accidentally draws in three real Yōtei Six lieutenants — who believe the con is a rival operation targeting them. Atsu must manage the chaos.",
     aiTip:
       "This quest has a comedic tone with three branching confrontations running simultaneously. Handle the den owner first — he has the most guards. The con artist Cho is genuinely funny; let her scenes play out for optional lore.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Great+Jigoku+Gambit+walkthrough",
+    video: "https://www.youtube.com/watch?v=Xki9klPCHwA",
     walkthrough: [
       "Find con artist Cho frantically trying to escape the gambling den.",
       "Learn that three Yōtei Six lieutenants have crashed her scheme, each thinking she's a rival.",
@@ -24576,7 +24576,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Three advance scouts who disappeared in enemy territory must be found. Each is in a different predicament — captured, injured, and hiding — requiring a different rescue approach for each.",
     aiTip:
       "Rescue Scout 2 (injured) before Scout 3 (hiding) — Scout 3's hiding spot is only revealed by Scout 2's information. Going out of order causes Scout 3 to move and become much harder to locate.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Lost+Scouts+walkthrough",
+    video: "https://www.youtube.com/watch?v=6UKlHBA_Cd4",
     walkthrough: [
       "Receive the missing scouts report from the Ishikari military commander.",
       "Scout 1 (captured): infiltrate the outlaw camp, free her from the cage with the captain's key.",
@@ -24601,7 +24601,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "An ancient samurai stands guard alone at a ruined outpost, still waiting for orders from a lord who died thirty years ago. Atsu must decide whether to tell him the truth or find a way to give him permission to rest.",
     aiTip:
       "This is a purely narrative quest with no combat. The best reward comes from finding the lord's old seal in the ruined post first — presenting it gives the samurai official permission to stand down, earning the bonus lore document.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Sentinel+walkthrough",
+    video: "https://www.youtube.com/watch?v=J710JiBtnB8",
     walkthrough: [
       "Find the elderly sentinel Goemon at the crumbling outpost on the Ishikari eastern road.",
       "Search the ruined post — find the lord's old seal in a collapsed room.",
@@ -24625,7 +24625,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A corrupt tax collector is starving Ishikari villages with impossible demands. Atsu can resolve this peacefully by exposing the collection fraud to the regional authority — or by force, taking the gold back directly.",
     aiTip:
       "The peaceful path (collecting evidence and reporting to the authority) gives better charm rewards. The force path is faster and still returns the gold, but locks out the Balance Charm.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Weight+of+Coin+walkthrough",
+    video: "https://www.youtube.com/watch?v=3-MTdenNf3o",
     walkthrough: [
       "Speak with starving villagers in three Ishikari settlements about the excessive taxation.",
       "Peaceful path: collect three falsified tax ledger pages from the collector's camps.",
@@ -24650,7 +24650,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A pirate broker offers Atsu actionable intelligence on the Yōtei Six's sea routes in exchange for completing a dangerous heist — stealing a rival pirate captain's logbook from a guarded ship in the harbour.",
     aiTip:
       "Board the ship from the water side after nightfall — the crew rotates to the port side at midnight, leaving the starboard unguarded for a 90-second window. Use it or fight through ten naval guards.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Brokered+Trust+walkthrough",
+    video: "https://www.youtube.com/watch?v=pXJnzY6t6ZY",
     walkthrough: [
       "Meet Broker Kaida at the Pirate Harbour tavern.",
       "Scout the target ship at the harbour; note the midnight crew rotation.",
@@ -24675,7 +24675,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A dying sailor passes Atsu a hand-drawn map to a coastal treasure cache his crew buried years ago — on the condition she splits it with his estranged daughter. Finding both the treasure and the daughter makes this more than a simple treasure hunt.",
     aiTip:
       "The treasure cave is guarded by a rival pirate gang who found the map first. They are entrenched inside the cave — use the Scorch Bomb at the cave entrance to flush them out rather than fighting in the dark.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+A+Promise+of+Treasure+walkthrough",
+    video: "https://www.youtube.com/watch?v=7d0BhgJa_p8",
     walkthrough: [
       "Receive the map from the dying sailor Kenji at the Oshima dockside.",
       "Locate his daughter Ami at the fish market — she is wary but agrees to accompany you.",
@@ -24700,7 +24700,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A young noble arrives on Oshima claiming authority over the coastal trade routes. The locals know his documents are forged — the real heir died at sea. Atsu must expose the impostor before he consolidates power.",
     aiTip:
       "The impostor's four bodyguards are elite fighters with coordinated attack patterns. Separate them by throwing a smoke bomb into the centre of the group before engaging — isolated fights are far more manageable.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+New+Lord+walkthrough",
+    video: "https://www.youtube.com/watch?v=buWmoWwqFkM",
     walkthrough: [
       "Speak with dock master Haruto about the suspicious new lord.",
       "Investigate the manor: find the forged appointment letter in the archives room.",
@@ -24726,7 +24726,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A notorious fistfighter turned enforcer is terrorising the Oshima fishing villages, demanding tribute before every tide. Atsu challenges him to a public duel to end the extortion and restore the fishermen's dignity.",
     aiTip:
       "The Tooth Breaker fights with no weapons — pure grapple and punch. He counters all sword attacks when his guard is up; wait for him to overextend on a haymaker and hit him during the recovery.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Tooth+Breaker+walkthrough",
+    video: "https://www.youtube.com/watch?v=1G3xY1C9M3Y",
     walkthrough: [
       "Hear the fishermen's complaint at the Oshima village market.",
       "Challenge the Tooth Breaker to a public duel at the village square.",
@@ -24752,7 +24752,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A small garrison of inexperienced soldiers is defending a strategically vital burning mill against a sustained outlaw siege. Atsu arrives to find them outmatched and rallies them through two desperate defensive waves.",
     aiTip:
       "The soldiers will charge recklessly if left alone. Issue the 'hold position' command by speaking with the garrison sergeant between waves — it keeps them alive and gives Atsu room to flank the attackers.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Youth+Under+Fire+walkthrough",
+    video: "https://www.youtube.com/watch?v=_fgqmVK379M",
     walkthrough: [
       "Hear the mill alarm bells from the Ishikari road and investigate.",
       "Speak with Sergeant Daichi to trigger the first defensive wave.",
@@ -24777,7 +24777,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A deceptively cheerful bandit leader who lures victims with a friendly smile before ambushing with his crew. He is located in a small hamlet north of the Grasslands inn.",
     aiTip:
       "His crew of four attacks the moment he is threatened — open with a Ghost Stance kill on Yoshitomo himself to end the fight before it starts.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Smiling+Yoshitomo+walkthrough",
+    video: "https://www.youtube.com/watch?v=lGHg6iQnUm4",
     walkthrough: [
       "Accept the bounty from the Grasslands inn bounty board or Kojiro the Bounty Broker.",
       "Travel to the Outlaw Hamlet in northern Grasslands.",
@@ -24802,7 +24802,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A thief who scouts targets from treetops using a trained crow as a lookout. His crow alerts him to approach — eliminate the bird first or find the blind spot in its patrol pattern.",
     aiTip:
       "The crow patrols a figure-eight pattern — there is a five-second gap on the west side between loops. Use that gap to climb the tree and reach Genzo before the crow returns.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Crow+Genzo+walkthrough",
+    video: "https://www.youtube.com/watch?v=YAfiEy4rWaY",
     walkthrough: [
       "Accept the bounty from the Grasslands board.",
       "Locate Genzo's roost in the eastern Grasslands tall pines.",
@@ -24825,7 +24825,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Yōtei Grasslands bounty: track down the outlaw Black Powder Ippei and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Powder+Ippei+walkthrough",
+    video: "https://www.youtube.com/watch?v=u2yDUsn5cVc",
     walkthrough: [
       "Complete the Muneji the Bone Crusher bounty first, then take the Black Powder Ippei poster from the Yōtei Grasslands bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -24849,7 +24849,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A former executioner turned outlaw, branded for death by two rival clans who both want her head. Soma fights with a large executioner's blade and has no fear — she charges immediately on sight.",
     aiTip:
       "Soma's executioner blade has massive range and cleave — never get caught between her and a wall. Fight in open ground, stay mobile, and use the Kusarigama pull to interrupt her charging attack at mid-range.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Soma+the+Condemned+walkthrough",
+    video: "https://www.youtube.com/watch?v=2WfknLkv3tM",
     walkthrough: [
       "Accept the bounty and travel to the River Ravine camp.",
       "Soma charges immediately — maintain distance and stay in open ground.",
@@ -24874,7 +24874,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Three brothers who operate as a coordinated combat pack — one grappler, one knife-thrower, one shieldbearer — and must be fought simultaneously. Arguably the hardest bounty in the game.",
     aiTip:
       "Focus down the grappler first — if he grabs you while the knife-thrower fires, you lose enormous health instantly. Use Ghost Stance at the start to execute the grappler and even the odds immediately.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Three+Terrors+walkthrough",
+    video: "https://www.youtube.com/watch?v=PhCwvFm_Q20",
     walkthrough: [
       "Accept the bounty — this is rated hard, come prepared with full supplies.",
       "Find the Three Terrors at the Tokachi Marsh Crossing.",
@@ -24899,7 +24899,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A massive brawler who fights with a war club and has survived three previous bounty hunters. He camps at a quarry outside Tokachi with six loyal followers.",
     aiTip:
       "Muneji's war club is slow but its area stagger is huge. Stay at medium range and bait the club swing, then sprint in for two hits during the long recovery. The yari's Charging Thrust is ideal for this rhythm.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Muneji+the+Bone+Crusher+walkthrough",
+    video: "https://www.youtube.com/watch?v=1hsua3pWfsM",
     walkthrough: [
       "Accept the bounty and travel to the Quarry Camp.",
       "Clear the six followers first using stealth — Muneji does not notice quiet kills.",
@@ -24922,7 +24922,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "750 Coins, Sword Kit: A Beast's Feast",
     summary: "A Huranui's Rest Inn bounty: a man who lives like a bear in Shizunai Woods. Follow the blood trail — his bear strikes first.",
     aiTip: "If you miss the sword kit on his body, Taro the scavenger will turn up at your camp and sell it to you.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bear+Man+Chikatoshi+walkthrough",
+    video: "https://www.youtube.com/watch?v=FFr8aexqcII",
     walkthrough: [
       "Take the bounty from the Huranui's Rest Inn bounty board.",
       "Go to Shizunai Woods in the south-east of the Tokachi Range.",
@@ -24946,7 +24946,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A veteran archer who lost his eye and his honour in a battle long ago. Now he picks off merchants from ridgeline nests above the Tokachi trade roads. His remaining eye makes him deadly at range.",
     aiTip:
       "Moritaka fires fast and accurately from extreme range — do not approach in the open. Hug the cliff wall below his nest to stay out of his line of sight, then climb to him from behind using the cliff's blind side.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+One-Eye+Moritaka+walkthrough",
+    video: "https://www.youtube.com/watch?v=CLN66yVEtfc",
     walkthrough: [
       "Accept the bounty and locate the ridgeline nest on the Tokachi map.",
       "Approach along the cliff wall directly below — stay out of his sightline.",
@@ -24968,7 +24968,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Tokachi Range bounty: track down the outlaw Junpei the Snatcher and bring them to justice. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Junpei+the+Snatcher+walkthrough",
+    video: "https://www.youtube.com/watch?v=3TG2O270MFM",
     walkthrough: [
       "Take the Junpei the Snatcher poster from the Tokachi Range bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area. He appears after you free the prisoner held in a cave in the north of the Tokachi Range.",
@@ -24990,7 +24990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "1500 Coins, Blue Yamauba Mask",
     summary: "An Ishikari Market bounty: track the Blue Yamauba through a drawing and a mask merchant to her burned homestead — she's Miyo.",
     aiTip: "She opens with a scream that briefly stuns Atsu if you face her directly — look away or close your eyes (hold the shield button) for the first two seconds of the encounter to avoid the stun.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Blue+Yamauba+walkthrough",
+    video: "https://www.youtube.com/watch?v=tj8Hn3JXc9U",
     walkthrough: [
       "Take the poster from the Ishikari Market bounty board and talk to Kojiro.",
       "At the crossroads in Ishikari Fork, kill the 3 enemies around the settler and take the Blue Yamauba Drawing.",
@@ -25014,7 +25014,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A bounty hunter turned outlaw who hunts his own targets using a pack of four trained dogs. Neutralise the dogs before engaging Toyotaro — they lock-on and pin Atsu if she fights him first.",
     aiTip:
       "Throw food scraps (found near the kennel entrance) to distract the dogs and move them away from Toyotaro. The scorch bomb also routes them without killing them — useful for the humane-completion bonus.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Houndmaster+Toyotaro+walkthrough",
+    video: "https://www.youtube.com/watch?v=r6_dcJtwcAQ",
     walkthrough: [
       "Accept the bounty and travel to the Frozen Kennel camp.",
       "Find the food scraps near the kennel entrance.",
@@ -25038,7 +25038,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Teshio Ridge bounty: track down the outlaw Inagawa the Gambler and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inagawa+the+Gambler+walkthrough",
+    video: "https://www.youtube.com/watch?v=Mkn1nLr7DY8",
     walkthrough: [
       "Take the Inagawa the Gambler poster from the Teshio Ridge bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25060,7 +25060,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Teshio Ridge bounty: track down the outlaw Snowstorm Katagiri and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Snowstorm+Katagiri+walkthrough",
+    video: "https://www.youtube.com/watch?v=5heKYinRq8U",
     walkthrough: [
       "Take the Snowstorm Katagiri poster from the Teshio Ridge bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25082,7 +25082,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Teshio Ridge bounty: track down the outlaw Nameless Killer and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Nameless+Killer+walkthrough",
+    video: "https://www.youtube.com/watch?v=C1NtDjMEq_E",
     walkthrough: [
       "Take the Nameless Killer poster from the Teshio Ridge bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25104,7 +25104,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Teshio Ridge bounty: track down the outlaw Black Night Kubo and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Black+Night+Kubo+walkthrough",
+    video: "https://www.youtube.com/watch?v=R2V07AVXs9c",
     walkthrough: [
       "Take the Black Night Kubo poster from the Teshio Ridge bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25128,7 +25128,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "A former shamisen player whose intimate performances always ended with his clients being robbed and murdered. He uses the shamisen strings as a garrotte weapon in close combat.",
     aiTip:
       "Do not let Hachibee get behind you — his garrotte attack from the rear is a one-hit kill on hard difficulty. Keep a wall at your back throughout the fight and use the yari's Spinning Sweep to maintain frontal spacing.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Bloody+Strings+Hachibee+walkthrough",
+    video: "https://www.youtube.com/watch?v=NfcU28ZXFHc",
     walkthrough: [
       "Accept the bounty and travel to the Roadside Inn.",
       "Hachibee is performing for an audience — wait for him to finish or interrupt with a challenge.",
@@ -25151,7 +25151,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Ishikari Plain bounty: track down the outlaw Toshi the Torch and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Toshi+the+Torch+walkthrough",
+    video: "https://www.youtube.com/watch?v=Fj29A6S61i4",
     walkthrough: [
       "Take the Toshi the Torch poster from the Ishikari Plain bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25175,7 +25175,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eijiro runs a brutal extortion ring across three Ishikari villages, collecting from each in rotation. He travels with six enforcers and considers himself untouchable.",
     aiTip:
       "Intercept Eijiro on the road between villages where he has fewer enforcers — catching him mid-transit reduces the escort from six to two. The bounty board description includes his travel schedule.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Eijiro+the+Ruthless+walkthrough",
+    video: "https://www.youtube.com/watch?v=ZQD6tUh3JrU",
     walkthrough: [
       "Accept the bounty and read the schedule description on the notice.",
       "Intercept Eijiro on the road between Village 2 and Village 3 at mid-morning.",
@@ -25199,7 +25199,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kamekichi fights behind a reinforced shell-like body shield so heavy it stops all frontal attacks. He is mechanically impossible to damage from the front — requiring creative positioning to defeat.",
     aiTip:
       "The Kusarigama Chain Pull yanks Kamekichi's shield aside for two seconds — use that window to land two hits from the front. Alternatively, bait him to charge and sidestep to his unshielded rear.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Turtle+Man+Kamekichi+walkthrough",
+    video: "https://www.youtube.com/watch?v=3HeRVQ0k8yU",
     walkthrough: [
       "Accept the bounty and travel to the Stone Quarry.",
       "Frontal attacks bounce off the shield — do not waste Resolve trying.",
@@ -25224,7 +25224,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shiro sells forged travel permits and identity papers to desperate refugees at exploitative prices. He operates openly from a document stall — but is rarely where his stall is, sending an apprentice to take the blame.",
     aiTip:
       "His apprentice at the stall will send you to the wrong location three times before revealing Shiro's real hiding spot if you press him. Alternatively, use the listening sense near the stall — Shiro's distinct coughing is audible from 50 metres.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shiro+the+Swindler+walkthrough",
+    video: "https://www.youtube.com/watch?v=-vA1Cl7ZIMM",
     walkthrough: [
       "Accept the bounty and find the document stall in Ishikari market.",
       "Use listening sense near the stall — follow the coughing sound to the real Shiro.",
@@ -25248,7 +25248,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Do not be fooled by the grandmother persona — Yae runs a sophisticated poison supply ring from her inn kitchen basement, providing toxins to multiple outlaw groups across Ishikari.",
     aiTip:
       "Yae fights surprisingly well using a weighted cooking ladle and paralysing poisons she throws at the start. Block the first throw and close immediately — she has no melee ability once in grapple range.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Old+Lady+Yae+walkthrough",
+    video: "https://www.youtube.com/watch?v=YHz0hj8Uu8c",
     walkthrough: [
       "Accept the bounty and enter the Roadside Inn as a customer.",
       "Find the basement entrance behind the kitchen fireplace.",
@@ -25271,7 +25271,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "1500 Coins, Inokichi the Hungry's Mask",
     summary: "Inokichi the Hungry leads the enemy camp at Huranui Mill in the north of the Tokachi Range.",
     aiTip: "Inokichi is slow but his hunger gives him fury when you damage the food packs on his back. Do not attack the packs — target him directly. The followers are too tired to fight effectively; handle Inokichi first.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Inokichi+the+Hungry+walkthrough",
+    video: "https://www.youtube.com/watch?v=LGXvOe5U_gs",
     walkthrough: [
       "Take the bounty.",
       "Go to the Huranui Mill enemy camp in the north of the Tokachi Range.",
@@ -25293,7 +25293,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Ishikari Plain bounty: track down the outlaw Iron Chuta and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iron+Chuta+walkthrough",
+    video: "https://www.youtube.com/watch?v=-ox2m_sBrmM",
     walkthrough: [
       "Take the Iron Chuta poster from the Ishikari Plain bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25315,7 +25315,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Nayoro Wilds bounty: track down the Wayward Oni Raiders, an outlaw band, and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Wayward+Oni+Raiders+walkthrough",
+    video: "https://www.youtube.com/watch?v=FiWCwWMg4_M",
     walkthrough: [
       "Take the Wayward Oni Raiders poster from the Nayoro Wilds bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25337,7 +25337,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "750 Coins",
     summary: "A Matsumae bounty: Kondo the sharpshooter holds a small island with a pink tree off Esan Inlet, guarded by shield men and lookout birds.",
     aiTip: "Kondo fires once every four seconds with near-perfect accuracy. The only safe approach is the underwater tunnel that exits behind his cliff position — swim from the southern beach and ascend from behind.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Eagle+Eye+Kondo+walkthrough",
+    video: "https://www.youtube.com/watch?v=5Lo9XFlQ1pc",
     walkthrough: [
       "Take the bounty from the Matsumae bounty board.",
       "Travel to Esan Inlet in the south-east of the Oshima Coast.",
@@ -25359,7 +25359,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Oshima Coast bounty: track down the outlaw Iwa the Beautiful and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Iwa+the+Beautiful+walkthrough",
+    video: "https://www.youtube.com/watch?v=w6i_LqliDc0",
     walkthrough: [
       "Take the Iwa the Beautiful poster from the Oshima Coast bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25381,7 +25381,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Oshima Coast bounty: track down the outlaw Tadaaki the Terrible and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Tadaaki+the+Terrible+walkthrough",
+    video: "https://www.youtube.com/watch?v=Fxg_1JEiYAw",
     walkthrough: [
       "Take the Tadaaki the Terrible poster from the Oshima Coast bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25403,7 +25403,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Gold, Bounty Broker standing",
     summary: "A Oshima Coast bounty: track down the outlaw The Last Brother and bring them to justice.",
     aiTip: "Read the bounty poster for clues to where the target hides, and talk to Kojiro the Bounty Broker for more. Scout the area before you engage — outlaws rarely fight alone.",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+The+Last+Brother+walkthrough",
+    video: "https://www.youtube.com/watch?v=LJuNGGASRZg",
     walkthrough: [
       "Take the The Last Brother poster from the Oshima Coast bounty board.",
       "Follow the poster's clues (Kojiro the Bounty Broker can tell you more) to the marked area.",
@@ -25427,7 +25427,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Shinpachi specialises in stealing rare armour from samurai he defeats in surprise ambushes. He is currently wearing a full suit of stolen legendary armour — which explains why this bounty has never been completed.",
     aiTip:
       "The stolen armour means Shinpachi has extremely high defence — standard attacks do minimal damage. Use the odachi's Heaven's Fall technique to break through the armour's protection, or use the Tanzutsu to damage the armour's weak points (the joints glow orange with the listening sense).",
-    video: "https://www.youtube.com/results?search_query=Ghost+of+Yotei+Shinpachi+the+Armor+Thief+walkthrough",
+    video: "https://www.youtube.com/watch?v=Xn-fnsj-Loo",
     walkthrough: [
       "Accept the bounty and travel to the Dockside Warehouse.",
       "Use listening sense to identify the armour's glowing orange joint weak points.",
@@ -28283,7 +28283,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "5,000 Reeve; Brawler Archetype (Catherina Follower)",
     summary: "Automatically accepted on entering the Mausoleum — rescue the hostages held inside the Regalith Grand Cathedral.",
     aiTip: "Clear the cathedral's rooms methodically; freeing the hostages unlocks Catherina and the Brawler Archetype line.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Friend%20in%20Need%20walkthrough",
+    video: "https://www.youtube.com/watch?v=rRkdU2ymY1k",
     walkthrough: [
       "Enter the Mausoleum beneath the Regalith Grand Cathedral to auto-accept the quest.",
       "Work through the cathedral, defeating the guards holding the hostages.",
@@ -28303,7 +28303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Pious Igniter; Courage +4; 7,500 Reeve; Merchant Archetype (Brigitta Follower)",
     summary: "The Igniter Merchantess on Sunlumeo Street (Rank 2 Wisdom required) asks you to slay the Guptauros in Belega Corridor.",
     aiTip: "You need Rank 2 Wisdom to accept — build it if the option is greyed out. The Guptauros is weak to well-timed weakness hits.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Bullish%20Embargo%20walkthrough",
+    video: "https://www.youtube.com/watch?v=YxbtXUNKw3I",
     walkthrough: [
       "Reach Rank 2 Wisdom, then talk to the Igniter Merchantess on Sunlumeo Street.",
       "Travel to Belega Corridor.",
@@ -28323,7 +28323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 10,000 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss lurking in the Tradia Desert.",
     aiTip: "Accept it from the Recruitment Center board, then clear Tradia Desert to the boss arena.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Man's%20Not-So-Best%20Friend%20walkthrough",
+    video: "https://www.youtube.com/watch?v=4J6zgj7pvxg",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to the Tradia Desert.",
@@ -28343,7 +28343,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Curative Coney Roast",
     summary: "Auto-accepted on 06/23 — Maria waits at home to hear tales of the strange places you've visited.",
     aiTip: "Return home and speak with Maria after 06/23 to hand it in.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Promising%20Returns%20walkthrough",
+    video: "https://www.youtube.com/watch?v=zwPzswVResg",
     walkthrough: [
       "Wait for the quest to auto-accept on 06/23.",
       "Return to your home base.",
@@ -28363,7 +28363,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Incense x5; Gunner Archetype (Neuras Follower)",
     summary: "Auto-accepted on 06/26 — travel to the village of Komero.",
     aiTip: "Completing this unlocks Neuras and the Gunner Archetype, plus his Relic Search chain.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Providing%20a%20Spark%20walkthrough",
+    video: "https://www.youtube.com/watch?v=z5mcgRaUCm4",
     walkthrough: [
       "Let the quest auto-accept on 06/26.",
       "Fast-travel to Komero, east of Martira.",
@@ -28383,7 +28383,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 100,000 Reeve",
     summary: "A story bounty that completes automatically as you find Heismay in Old Castle Town.",
     aiTip: "You can't miss this — it resolves during the main story when Heismay joins.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Old%20Castle%20Town%20Kidnapper%20walkthrough",
+    video: "https://www.youtube.com/watch?v=7fu3LNTZ4dI",
     walkthrough: [
       "Accept/track the bounty during the Martira story beats.",
       "Progress the main story to locate Heismay.",
@@ -28403,7 +28403,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Grius's Memento; Courage +4; 15,000 Reeve",
     summary: "The Pompous Man in Thoroughfare Square (Rank 2 Imagination, from 6/28) wants Malveno's Ring recovered from the Abandoned Tomb.",
     aiTip: "The informant at the Thoroughfare Square tavern points you to Cuculus and the ring's location.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Dagger%2C%20a%20Ring%2C%20and%20a%20Rake%20walkthrough",
+    video: "https://www.youtube.com/watch?v=n9Tbc05E2Ks",
     walkthrough: [
       "Reach Rank 2 Imagination and talk to the Pompous Man in Thoroughfare Square on/after 6/28.",
       "Ask the tavern informant for details on Malveno's Ring.",
@@ -28423,7 +28423,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Invincible Noodles; 7,500 Reeve",
     summary: "The Gloomy Youth in Thoroughfare Square (from 6/28) asks for a Practical Pigeon Parcel from Komero.",
     aiTip: "Buy the parcel in Komero, the village east of Martira, then bring it back.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Hatching%20a%20Plan%20walkthrough",
+    video: "https://www.youtube.com/watch?v=H4EJKTKoM5A",
     walkthrough: [
       "Talk to the Gloomy Youth in Thoroughfare Square on/after 6/28.",
       "Travel to Komero and purchase a Practical Pigeon Parcel.",
@@ -28443,7 +28443,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 16,000 Reeve",
     summary: "A Recruit Dispatcher request in Martira: slay the Goborn King in the Imp's Den to the east.",
     aiTip: "The Imp's Den lies east of Martira; clear to the boss chamber for the Goborn King.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20New%20King%20of%20the%20Imps%20walkthrough",
+    video: "https://www.youtube.com/watch?v=4it2M4gP9AI",
     walkthrough: [
       "Accept the request from the Recruit Dispatcher in Martira.",
       "Travel east to the Imp's Den.",
@@ -28503,7 +28503,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Sandglass Cuirass; Courage +4",
     summary: "The Resentful Noble on Sunlumeo Street wants a black jewel necklace recovered from the cathedral mausoleum's specters.",
     aiTip: "The necklace is held by specters in the mausoleum — defeat them to reclaim it.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Haunted%20Heirloom%20walkthrough",
+    video: "https://www.youtube.com/watch?v=gpGp7qONcH4",
     walkthrough: [
       "Accept the quest from the Resentful Noble on Sunlumeo Street.",
       "Enter the cathedral mausoleum.",
@@ -28523,7 +28523,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Brigandine; 3,000 Reeve",
     summary: "The Nervous Soldier at the Catacombs Entrance asks you to gather eight Mortaskulls from the Grand Cathedral mausoleum.",
     aiTip: "Mortaskulls drop from the undead in the mausoleum — farm encounters until you have eight.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Skullduggery%20walkthrough",
+    video: "https://www.youtube.com/watch?v=pdGY4knXjDU",
     walkthrough: [
       "Talk to the Nervous Soldier at the Catacombs Entrance.",
       "Enter the Grand Cathedral mausoleum.",
@@ -28543,7 +28543,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Limp Goldfish x1; Brocaded Koi x1",
     summary: "The Classy Woman asks for a dish cooked with Mellow Milk.",
     aiTip: "Cook any recipe that uses Mellow Milk, then deliver it to her.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Queen%20of%20Cuisine%3A%20Heart%20walkthrough",
+    video: "https://www.youtube.com/watch?v=1xcGfFGV6zE",
     walkthrough: [
       "Accept the request from the Classy Woman.",
       "Cook a dish containing Mellow Milk.",
@@ -28563,7 +28563,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Fruit x6",
     summary: "Auto-accepted at Neuras Rank 2 — find Neuras's relic in the Tomb of Lament.",
     aiTip: "The relic is in a chest within the Tomb of Lament.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Dregs%20of%20Destiny%20walkthrough",
+    video: "https://www.youtube.com/watch?v=Trh6WPjjOm4",
     walkthrough: [
       "Reach Neuras Rank 2 to auto-accept the relic search.",
       "Travel to the Tomb of Lament.",
@@ -28583,7 +28583,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragonblood Sap; 30,000 Reeve",
     summary: "The Exhausted Woman asks you to collect seven Dragonthistle berries from Gracia Forest.",
     aiTip: "Dragonthistle berries are gathering nodes in Gracia Forest — sweep the area for all seven.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Soldier's%20Solace%20walkthrough",
+    video: "https://www.youtube.com/watch?v=oTW1cironFk",
     walkthrough: [
       "Accept the quest from the Exhausted Woman.",
       "Travel to Gracia Forest.",
@@ -28603,7 +28603,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Chef's Toque x1; 10,000 Reeve",
     summary: "The Overfamiliar Man in the Nightprowler wants a deed taken as loan collateral retrieved from the nobleman creditor.",
     aiTip: "The creditor is found at the Varmareno Coliseum in Arena Wharf — negotiate (or fight) to reclaim the deed.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Deeds%20and%20Diversions%20walkthrough",
+    video: "https://www.youtube.com/watch?v=WGdvWs9z24I",
     walkthrough: [
       "Accept the quest from the Overfamiliar Man in the Nightprowler.",
       "Head to the Varmareno Coliseum in Arena Wharf.",
@@ -28623,7 +28623,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Tolerance +4; 4,000 Reeve",
     summary: "The Kindly Boy asks you to buy a rare flower from St. Fermis Church on Sunlumeo Street.",
     aiTip: "Purchase the flower at St. Fermis Church, then bring it back.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Efflorescent%20Youth%20walkthrough",
+    video: "https://www.youtube.com/watch?v=X1deZpHKJ9I",
     walkthrough: [
       "Talk to the Kindly Boy to accept the quest.",
       "Buy the rare flower at St. Fermis Church on Sunlumeo Street.",
@@ -28663,7 +28663,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Charadrius access key; story progression",
     summary: "Auto-accepted in the Charadrius dungeon — take the key Sergeant Xanth holds to reach Louis's room.",
     aiTip: "Any one of the three officers' keys opens Louis's room; this is Xanth's route.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Sergeant%20Xanth's%20Key%20walkthrough",
+    video: "https://www.youtube.com/watch?v=Fgl_UTJT714",
     walkthrough: [
       "Progress into the Charadrius to auto-accept the objective.",
       "Locate Sergeant Xanth aboard the airship.",
@@ -28683,7 +28683,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Charadrius access key; story progression",
     summary: "Auto-accepted in the Charadrius dungeon — take the key Maintenance Chief Ceiba holds (either this or Glechom's key is needed).",
     aiTip: "You only need one officer's key; Ceiba's and Glechom's are interchangeable for progression.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Maintenance%20Chief%20Ceiba's%20Key%20walkthrough",
+    video: "https://www.youtube.com/watch?v=sNJXKIKuItU",
     walkthrough: [
       "Progress into the Charadrius to auto-accept the objective.",
       "Find Maintenance Chief Ceiba.",
@@ -28703,7 +28703,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Charadrius access key; story progression",
     summary: "Auto-accepted in the Charadrius dungeon — take the key Master Sergeant Glechom holds (either this or Ceiba's key is needed).",
     aiTip: "Only one of the two interchangeable keys is required, so grab whichever is closer.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Obtain%20Master%20Sergeant%20Glechom's%20Key%20walkthrough",
+    video: "https://www.youtube.com/watch?v=ulzIKRtB-w8",
     walkthrough: [
       "Progress into the Charadrius to auto-accept the objective.",
       "Find Master Sergeant Glechom.",
@@ -28723,7 +28723,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Miraculous Mead; 7,500 Reeve",
     summary: "The Brewer asks you to bring the Chalice of Legends from the Forsaken Tower.",
     aiTip: "The chalice is deep in the Forsaken Tower — clear to it, then deliver it back.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Chalice%20vs.%20The%20Brew%20walkthrough",
+    video: "https://www.youtube.com/watch?v=00xvrsA6_O8",
     walkthrough: [
       "Accept the quest from the Brewer.",
       "Explore the Forsaken Tower.",
@@ -28743,7 +28743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 25,000 Reeve",
     summary: "The Craftsman asks you to slay the Orgas in the Forsaken Tower and bring back its horn.",
     aiTip: "Hit the Orgas with its elemental weakness to break it and speed up the horn drop.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Superior%20Scrimshaw%20walkthrough",
+    video: "https://www.youtube.com/watch?v=G-yBMf9RBks",
     walkthrough: [
       "Accept the quest from the Craftsman.",
       "Enter the Forsaken Tower.",
@@ -28763,7 +28763,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 35,000 Reeve",
     summary: "A Recruit Dispatcher request: slay the Fatolich in the Tomb of Lament north of Brilehaven.",
     aiTip: "The Fatolich waits deep in the Tomb of Lament — bring cleansing items for status effects.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Grieving%20Ghost%20of%20the%20Goblet%20walkthrough",
+    video: "https://www.youtube.com/watch?v=y13jov8wE_I",
     walkthrough: [
       "Accept the request from the Recruit Dispatcher.",
       "Travel to the Tomb of Lament north of Brilehaven.",
@@ -28783,7 +28783,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "25,000 Reeve",
     summary: "The Spirited Receptionist asks you to beat the Manjula in the Coliseum certification battle.",
     aiTip: "Enter the certification battle and focus the Manjula's weakness for a clean win.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Defeat%20the%20Coliseum%20Monster%20walkthrough",
+    video: "https://www.youtube.com/watch?v=h_kanb5ptlg",
     walkthrough: [
       "Accept the quest from the Spirited Receptionist.",
       "Enter the Coliseum certification battle.",
@@ -28803,7 +28803,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Leaf of Light x6",
     summary: "Auto-accepted at Neuras Rank 3 — find Neuras's relic in Ornwise Path.",
     aiTip: "The relic is in a chest along Ornwise Path.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Youth's%20Folly%20walkthrough",
+    video: "https://www.youtube.com/watch?v=PDGhIPSLG7M",
     walkthrough: [
       "Reach Neuras Rank 3 to auto-accept the relic search.",
       "Travel to Ornwise Path.",
@@ -28823,7 +28823,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4",
     summary: "Auto-accepted at Bardon Rank 6 — talk to Bardon to fight the Sandworm and reach Rank 7 of his bond.",
     aiTip: "Winning the Sandworm fight advances Bardon's Follower to Rank 7.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Right%20to%20Rule%20walkthrough",
+    video: "https://www.youtube.com/watch?v=8nhlQ2Bb3Mg",
     walkthrough: [
       "Reach Bardon Rank 6 to auto-accept the quest.",
       "Talk to Bardon to begin the Sandworm fight.",
@@ -28903,7 +28903,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Passionate Wraps; 33,750 Reeve",
     summary: "The Hoarse Fisher-Crone asks you to defeat the boss at the end of the Dragon Temple.",
     aiTip: "The Dragon Temple boss hits hard — bring elemental coverage and revival items.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20A%20Guiding%20Gift%20walkthrough",
+    video: "https://www.youtube.com/watch?v=Bnvy-h603m4",
     walkthrough: [
       "Accept the quest from the Hoarse Fisher-Crone.",
       "Explore the Dragon Temple.",
@@ -28923,7 +28923,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Imagination +4; Junah Follower",
     summary: "Junah asks you to defeat the boss at the end of Orbwise Path, unlocking her as a Follower.",
     aiTip: "Completing this recruits Junah — a strong addition, so prioritize it when available.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Save%20the%20Mourning%20Snakes%20walkthrough",
+    video: "https://www.youtube.com/watch?v=WZE4ro4o8k4",
     walkthrough: [
       "Talk to Junah to accept the quest.",
       "Travel through Orbwise Path.",
@@ -28943,7 +28943,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Wisdom +4; Eupha Follower",
     summary: "Eupha asks you to defeat the boss at the end of the Land of Ceremony, unlocking her as a Follower.",
     aiTip: "This recruits Eupha — her healing and support are worth the detour.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Trial%20of%20Malnova%20walkthrough",
+    video: "https://www.youtube.com/watch?v=7Bg5PzWc2cE",
     walkthrough: [
       "Talk to Eupha to accept the quest.",
       "Travel to the Land of Ceremony.",
@@ -28963,7 +28963,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Fruit x8",
     summary: "Auto-accepted at Neuras Rank 4 — find Neuras's relic in Scoundrel's Hold.",
     aiTip: "The relic sits in a chest inside Scoundrel's Hold.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Engineer's%20Destiny%20walkthrough",
+    video: "https://www.youtube.com/watch?v=jD7yv4A2i44",
     walkthrough: [
       "Reach Neuras Rank 4 to auto-accept the relic search.",
       "Travel to Scoundrel's Hold.",
@@ -28983,7 +28983,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Eloquence +4",
     summary: "Auto-accepted during Eupha Rank 6 — defeat the boss at the end of Mt. Vulkano.",
     aiTip: "Advances Eupha's bond; the volcanic enemies favor fire, so pack ice and resistance.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Wayward%20Shepherd%20walkthrough",
+    video: "https://www.youtube.com/watch?v=yr1w03WPIfA",
     walkthrough: [
       "Reach Eupha Rank 6 to auto-accept the quest.",
       "Climb Mt. Vulkano.",
@@ -29023,7 +29023,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Courage +4; 120,000 Reeve",
     summary: "A Recruitment Center bounty: defeat the boss at the end of Everfrost Forest.",
     aiTip: "Everfrost enemies lean ice — bring fire skills and cold resistance for the boss.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20The%20Fiend%20in%20the%20Frozen%20Forest%20walkthrough",
+    video: "https://www.youtube.com/watch?v=5NBi1LaB2jg",
     walkthrough: [
       "Accept the bounty at the Recruitment Center.",
       "Travel to Everfrost Forest.",
@@ -29083,7 +29083,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Sumptuous Magla Feast x1; 60,000 Reeve",
     summary: "After talking to Loveless and beating him in his runner, accept this to travel to Milo's Runner and defeat him.",
     aiTip: "Prerequisite: talk to Loveless and defeat him first, which unlocks Milo's challenge.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Defeat%20Milo%20walkthrough",
+    video: "https://www.youtube.com/watch?v=4i9HOJ_vasY",
     walkthrough: [
       "Complete the Loveless runner fight, then talk to Loveless to accept the quest.",
       "Travel to Milo's Runner.",
@@ -29243,7 +29243,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Almighty Panacea x1; 30,000 Reeve",
     summary: "The Gentle Merchant asks you to collect water from the hot spring under Blue Sky Bridge at night.",
     aiTip: "Visit the hot spring at night to collect the water, then deliver it.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Deliver%20Hot%20Spring%20Water%20walkthrough",
+    video: "https://www.youtube.com/watch?v=X7qx6nVJIFQ",
     walkthrough: [
       "Accept the quest from the Gentle Merchant.",
       "Go to the hot spring under Blue Sky Bridge at night.",
@@ -29343,7 +29343,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Hero's Jewelled Root x5",
     summary: "Auto-accepted at Neuras Rank 7 — travel to Jin's Runner and defeat him.",
     aiTip: "This caps Neuras's bond line; beat Jin in his runner to finish.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Petty%20Thief%20walkthrough",
+    video: "https://www.youtube.com/watch?v=P5oOC_kLxXU",
     walkthrough: [
       "Reach Neuras Rank 7 to auto-accept the quest.",
       "Travel to Jin's Runner.",
@@ -29363,7 +29363,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Dragon Trial completion",
     summary: "Auto-accepted after the three prior dragon trials — defeat the final Dragon at the bottom of the Dragon Temple.",
     aiTip: "The culminating dragon fight; bring your best gear and elemental coverage.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Trial%20of%20the%20Dragon%3A%20Essence%20of%20Power%20walkthrough",
+    video: "https://www.youtube.com/watch?v=8Gp2sbS90Nc",
     walkthrough: [
       "Complete all three earlier dragon trials to auto-accept this one.",
       "Descend to the bottom of the Dragon Temple.",
@@ -29383,7 +29383,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Yggdrasil Crown; 135,000 Reeve",
     summary: "Auto-accepted after reaching Gold 1 and winning another Gold League battle — defeat the Giga Boss to win it all.",
     aiTip: "Grind to Gold 1 first; the Giga Boss is the arena's ultimate test, so optimize your build.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Become%20Champion%20of%20the%20Coliseum%20walkthrough",
+    video: "https://www.youtube.com/watch?v=5MxwgdxyEB0",
     walkthrough: [
       "Reach Gold 1 in the Gold League and win another battle to accept the quest.",
       "Enter the Arena Ranked League final.",
@@ -29409,7 +29409,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Present Aloy's case for passage into the Clan Lands through the dialogue choices.",
       "Follow the fallout of the meeting to open the road west."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Embassy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N9jOFQv9PQg"
   },
   {
     id: 1373,
@@ -29429,7 +29429,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dive through the flooded chambers to reach the core.",
       "Recover the GAIA data and absorb the reveal that reshapes the mission."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Eye%20of%20the%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rQtVPtOidRY"
   },
   {
     id: 1374,
@@ -29449,7 +29449,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the machines nesting in the flooded tunnels.",
       "Free the trapped miners and expose the cause of the collapse."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Deep%20Trouble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lSUgBcUxs2U"
   },
   {
     id: 1375,
@@ -29489,7 +29489,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve it discreetly, avoiding unnecessary conflict.",
       "Report back and see how the tension among the Tenakth resolves."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Need%20to%20Know%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eaAUYWHQQ9Y"
   },
   {
     id: 1377,
@@ -29509,7 +29509,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take them down using their weak points and elemental weaknesses.",
       "Return to the soldier to complete the hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Hunt%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1sofkBFWyKw"
   },
 {
     id: 1378,
@@ -29531,7 +29531,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear any machines guarding the gathering sites.",
       "Deliver everything to Milduf to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Dash%20of%20Courage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f8Z69ZZgDC0"
   },
 {
     id: 1379,
@@ -29553,7 +29553,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hunt the machines and tear off the exact parts.",
       "Return the parts to Delah to claim the upgraded gear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20A%20Bigger%20Boom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uihDJgx-v1Q"
   },
 {
     id: 1380,
@@ -29575,7 +29575,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Present the Clan Marks to gain an audience with The Enduring.",
       "Defeat The Enduring to complete the errand."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Enduring%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_lSn0mmMzHA"
   },
 {
     id: 1381,
@@ -29597,7 +29597,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Accompany Drakka and harvest the penned machine herd for their hearts.",
       "See the risky hunt through to help the village."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Thirst%20for%20the%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gxsxUxnQBNU"
   },
   {
     id: 1382,
@@ -29617,7 +29617,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hold position until the Old World image resolves and logs the datapoint.",
       "Repeat for all nine Vista Points across the regions."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Vista%20Points%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jMz1JZsnC1E"
   },
   {
     id: 1383,
@@ -29637,7 +29637,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect it to unlock its datapoint.",
       "Gather all twelve to complete the set and its trophy."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Black%20Boxes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hujWMmi7pmc"
   },
   {
     id: 1384,
@@ -29657,7 +29657,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Grab the lens to log the collectible.",
       "Collect all six to complete the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Signal%20Lenses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c6xb4It4ONM"
   },
   {
     id: 1385,
@@ -29677,7 +29677,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Down it quickly with a strong ranged shot before it escapes.",
       "Collect its drop and repeat for all ten drones."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Survey%20Drones%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OhYnRHAAv3I"
   },
   {
     id: 1386,
@@ -29697,7 +29697,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick up the ornament to add it to your collection.",
       "Return to the Base to display the ornaments you've gathered."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Ornaments%20walkthrough"
+    video: "https://www.youtube.com/watch?v=epurmqwogpo"
   },
   {
     id: 1387,
@@ -29737,7 +29737,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Harvest the Greenshine Slab.",
       "Bank the Greenshine toward your highest-tier gear upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Greenshine%20Slabs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QqzO8pz6Kpw"
   },
   {
     id: 1389,
@@ -29759,7 +29759,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the underground stream and defeat the frostbite spiders and cave bear (or sneak past).",
       "Exit into the wilderness and follow your companion toward Riverwood."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Unbound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nFc_Od3dz8I"
   },
   {
     id: 1390,
@@ -29781,7 +29781,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help and speak with the court wizard Farengar.",
       "Accept the task to retrieve the Dragonstone from Bleak Falls Barrow."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Before%20the%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HyAhQ7zjo2o"
   },
   {
     id: 1391,
@@ -29803,7 +29803,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the claw on the circular door, matching bear-moth-owl from the claw's palm.",
       "Read the word wall for Unrelenting Force, take the Dragonstone, and return to Farengar."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bleak%20Falls%20Barrow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V5S48gX6Q8E"
   },
   {
     id: 1392,
@@ -29825,7 +29825,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the dragon and absorb its soul, revealing you as Dragonborn.",
       "Return to Dragonsreach; the Greybeards will summon you with a Shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragon%20Rising%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6Uynj29IM6s"
   },
   {
     id: 1393,
@@ -29847,7 +29847,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn Whirlwind Sprint and complete the training courtyard trials.",
       "Accept the task to retrieve the Horn of Jurgen Windcaller."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Way%20of%20the%20Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kVt0MCxqHb0"
   },
   {
     id: 1394,
@@ -29891,7 +29891,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search Ambassador Elenwen's office and the interrogation cells for documents on Esbern.",
       "Escape the Embassy grounds through the tunnel with Malborn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Diplomatic%20Immunity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=taun_2-DvtQ"
   },
   {
     id: 1396,
@@ -29912,7 +29912,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
       "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alduin%27s%20Wall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WSa_zYa9HSY"
   },
   {
     id: 1397,
@@ -29932,7 +29932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discuss the plan to lure and trap Alduin using the Dragonrend shout.",
       "Learn that an Elder Scroll is required to learn Dragonrend from the past."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Throat%20of%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9P9TtHmVxrQ"
   },
   {
     id: 1398,
@@ -29952,7 +29952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the Elder Scroll back to Sky Haven Temple.",
       "Read the Elder Scroll atop the Throat of the World with the Greybeards to witness Alduin's escape from Sovngarde in the past and learn Dragonrend."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Elder%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ywYjduRXcas"
   },
   {
     id: 1399,
@@ -29972,7 +29972,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use Dragonrend to force Alduin to land and fight him.",
       "Interrogate the captured dragon Odahviing about Alduin's whereabouts (Skuldafn)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fallen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VexjTQ6F0oI"
   },
   {
     id: 1400,
@@ -29992,7 +29992,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Attend the parley and successfully negotiate a temporary truce.",
       "This quest is optional — completing the Civil War questline instead skips this step."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Overlord%27s%20Legacy%20/%20Season%20Unending%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QzXq3Ce7org"
   },
   {
     id: 1401,
@@ -30011,7 +30011,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through Skuldafn's Draugr and traps to reach the portal chamber.",
       "Activate the portal to Sovngarde."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20World-Eater%27s%20Eyrie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IbMGEHDOEBM"
   },
   {
     id: 1402,
@@ -30031,7 +30031,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross into Sovngarde proper and meet legendary heroes including Gormlaith, Felldir, and Hakon.",
       "Learn the final word of the Dragonrend-countering shout needed to strip Alduin's immortality."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sovngarde%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZcVr2w81lC0"
   },
   {
     id: 1403,
@@ -30051,7 +30051,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage Alduin in the final battle alongside Gormlaith, Felldir, and Hakon.",
       "Defeat Alduin, absorb his soul, and complete the main questline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dragonslayer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SWwD4QU-WlI"
   },
   {
     id: 1404,
@@ -30093,7 +30093,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the reforged sword to Vilkas or Skjor.",
       "Accept your first task from Farkas to become a member."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Take%20Up%20Arms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=O6oVWftGI68"
   },
   {
     id: 1406,
@@ -30115,7 +30115,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear out the ambushing Silver Hand hunters.",
       "Recover the fragment of Wuuthrad and return to Jorrvaskr."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Proving%20Honor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wE-ukilERAo"
   },
   {
     id: 1407,
@@ -30137,7 +30137,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Skinner and search for the captured Companion clues.",
       "Return to Jorrvaskr and report what happened to Skjor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XnVwiT02ptI"
   },
   {
     id: 1408,
@@ -30159,7 +30159,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the Wuuthrad fragments from the enemy leaders.",
       "Return to Whiterun to prepare for the journey to Ysgramor's Tomb."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%27s%20Honor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-INtg8p4_lQ"
   },
   {
     id: 1409,
@@ -30179,7 +30179,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the location of Silver Hand members in retaliation.",
       "Return to Jorrvaskr to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Purity%20of%20Revenge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dzIFV7iWsjA"
   },
   {
     id: 1410,
@@ -30201,7 +30201,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use the Fragments of Wuuthrad to open the final door and confront Kodlak's spirit along with the Glenmoril Witches' influence.",
       "Defeat the hostile spirits and free Kodlak's soul, becoming the new Harbinger."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Glory%20of%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T3DcWk5q2jI"
   },
   {
     id: 1411,
@@ -30223,7 +30223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant the ring in Brand-Shei's pocket without being caught.",
       "Return to Brynjolf and follow him to the Ragged Flagon in the Ratway."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20Chance%20Arrangement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KDZsAvXqU1M"
   },
   {
     id: 1412,
@@ -30245,7 +30245,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Burn exactly three of the beehives as instructed.",
       "Confront Aringoth, take the bill of sale from the safe, and report back to Mercer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Loud%20and%20Clear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FcPHUD2QkWw"
   },
   {
     id: 1413,
@@ -30266,7 +30266,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break into the Bee and Barb (or assigned target) to plant/steal evidence as instructed.",
       "Return to Mercer Frey to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Taking%20Care%20of%20Business%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iFfXuRIW6Y4"
   },
   {
     id: 1414,
@@ -30287,7 +30287,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the meadery's owner as instructed.",
       "Return to Vex to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Dampened%20Spirits%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dujz-9iAe6Q"
   },
   {
     id: 1415,
@@ -30307,7 +30307,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the item or resolve the dispute as instructed.",
       "Report back to Delvin at the Ragged Flagon."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silver%20Lining%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cmPOfq1Hfsk"
   },
   {
     id: 1416,
@@ -30329,7 +30329,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover after the ambush and speak with Karliah, who saves you.",
       "Learn the truth about Mercer and agree to help expose him."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Blindsighted%20Job%20/%20Blindsighted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VrY9G1gFGtE"
   },
   {
     id: 1417,
@@ -30349,7 +30349,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search for clues about Mercer's whereabouts and motives.",
       "Find the hidden passage/journal revealing his connection to the Nightingales."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Pursuit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VK_A1MWtUkA"
   },
   {
     id: 1418,
@@ -30369,7 +30369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the chamber holding Gallus's shade or related artifact.",
       "Escape the sanctum with Karliah and Brynjolf."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Scoundrel%27s%20Folly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ylRdb_ueILk"
   },
   {
     id: 1419,
@@ -30389,7 +30389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to become a Nightingale, binding your soul in service to Nocturnal.",
       "Prepare to pursue Mercer Frey into Irkngthand."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Trinity%20Restored%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Pb5Kw_lLstc"
   },
   {
     id: 1420,
@@ -30410,7 +30410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Mercer Frey in the final battle.",
       "Retrieve the Skeleton Key from Mercer's body."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hard%20Answers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eBzG02ZkL6c"
   },
   {
     id: 1421,
@@ -30430,7 +30430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the Skeleton Key to its pedestal to cleanse the Guild's reputation with Nocturnal.",
       "Exit the Sepulcher and return to Riften."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Darkness%20Returns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a4hfE1Ic7AU"
   },
   {
     id: 1422,
@@ -30450,7 +30450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver each stone to Vex or Delvin as found.",
       "Complete the collection to receive the Crown of Barenziah."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20No%20Stone%20Unturned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0145mhboP2Y"
   },
   {
     id: 1423,
@@ -30470,7 +30470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the specified unique item from each location undetected.",
       "Return each item to Delvin for rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Litany%20of%20Larceny%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QD2G5r8OhzI"
   },
   {
     id: 1424,
@@ -30490,7 +30490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak in (often via a back door or upper window) and alter the ledger to cook the books.",
       "Slip out unseen and return to Delvin for gold and Guild reputation toward reclaiming that hold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Numbers%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3aD54s47SWI"
   },
   {
     id: 1425,
@@ -30510,7 +30510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the assigned gold value of goods from anywhere in the hold.",
       "Return to Delvin with the take for payment and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Bedlam%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bxLDxRDw5j8"
   },
   {
     id: 1426,
@@ -30530,7 +30530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break in undetected and steal the specific item the job marks.",
       "Return it to Vex for gold and Guild reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Burglary%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P_26kwhQqb4"
   },
   {
     id: 1427,
@@ -30550,7 +30550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the specific valuable from its display case or strongbox without being caught.",
       "Return to the Ragged Flagon for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Fishing%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=f4a5pTCao88"
   },
   {
     id: 1428,
@@ -30570,7 +30570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the high-value item the client wants, avoiding detection.",
       "Return it to Vex for gold and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heist%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_E52fOt1zF0"
   },
   {
     id: 1429,
@@ -30590,7 +30590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Plant the incriminating item on the mark (on their person or in a container) unseen.",
       "Report back to Vex for payment."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Shill%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jv8fMlr2T_4"
   },
   {
     id: 1430,
@@ -30610,7 +30610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Steal the three specific items the job lists.",
       "Return them to Delvin for gold and reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Sweep%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UHYrbpTnTaA"
   },
   {
     id: 1431,
@@ -30630,7 +30630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the cave and defeat their leader, Linwe.",
       "Loot Linwe’s armor and recover the stolen goods, then report to Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Summerset%20Shadows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pnure2vgm9A"
   },
   {
     id: 1432,
@@ -30670,7 +30670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the dragon-claw door and clear the draugr blocking the way.",
       "Reach the inner chamber, where Mercer ambushes you — survive to advance the questline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Speaking%20with%20Silence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S2tDwhkxVyQ"
   },
   {
     id: 1434,
@@ -30690,7 +30690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak aboard and plant incriminating evidence in the captain's quarters.",
       "Report back to Delvin once the frame job succeeds."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Dainty%20Sload%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nQ5eEJ0sguc"
   },
   {
     id: 1435,
@@ -30710,7 +30710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Use bribery, a key, or sneaking to arrange their release.",
       "Confirm their release with Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Imitation%20Amnesty%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W1kK7m43OA0"
   },
   {
     id: 1436,
@@ -30730,7 +30730,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the journals while contending with undead guardians.",
       "Deliver the journals to the buyer via Delvin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Toying%20With%20The%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=265C7AnYhd0"
   },
   {
     id: 1437,
@@ -30751,7 +30751,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Brynjolf about becoming the new Guild Master.",
       "Take up residence as Guildmaster in the Ragged Flagon."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20New%20Management%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qQv6kiqJm4A"
   },
   {
     id: 1438,
@@ -30773,7 +30773,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Grelod the Kind, freeing the orphans.",
       "Sleep in a bed to be abducted by the Dark Brotherhood."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Innocence%20Lost%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SiNxQaNeMjc"
   },
   {
     id: 1439,
@@ -30795,7 +30795,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Accept Astrid's offer to join the Dark Brotherhood.",
       "Travel to the Falkreath Sanctuary and speak the passphrase to enter."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20With%20Friends%20Like%20These...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ELGO9cFD6sE"
   },
   {
     id: 1440,
@@ -30815,7 +30815,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the Sanctuary and speak with fellow assassins.",
       "Receive your first contract from Astrid."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanctuary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6oAz-g01rUM"
   },
   {
     id: 1441,
@@ -30835,7 +30835,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate and speak with Motierre, who wants to hire the Brotherhood for the Emperor's assassination.",
       "Return to Astrid to relay the offer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silence%20Has%20Been%20Broken%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aqLELDqFWOY"
   },
   {
     id: 1442,
@@ -30855,7 +30855,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Perform the ritual and speak with the summoned Night Mother.",
       "Return to Astrid with news of the Night Mother's arrival at the Sanctuary."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Bound%20Until%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YITzTpBjtBg"
   },
   {
     id: 1443,
@@ -30874,7 +30874,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with the Night Mother to become her Listener.",
       "Report the Night Mother's message about a contract to Astrid."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Whispers%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DBnushLwpw4"
   },
   {
     id: 1444,
@@ -30893,7 +30893,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to each target's location and eliminate them using stealth or direct combat.",
       "Return to the Sanctuary once all targets are dead."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mourning%20Never%20Comes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ht0NkKXSJxM"
   },
   {
     id: 1445,
@@ -30913,7 +30913,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Cicero at Dawnstar Sanctuary.",
       "Choose to side with Astrid or protect Cicero — this choice affects the questline's next steps."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Cure%20for%20Madness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qwsvpCaDhGE"
   },
   {
     id: 1446,
@@ -30932,7 +30932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the marked location to eliminate the target using any method.",
       "Return to the Sanctuary to report success."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Death%20Incarnate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SnbbMhdyTRI"
   },
   {
     id: 1447,
@@ -30952,7 +30952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Infiltrate the castle using stealth, disguise, or bribery.",
       "Steal Maro's security ledger detailing the Emperor's protection plans."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Breaching%20Security%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZ0cXmSHu3M"
   },
   {
     id: 1448,
@@ -30995,7 +30995,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through and eliminate the assassins inside, including the leadership.",
       "Return to Commander Maro to collect your reward from the Emperor's agents."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destroy%20the%20Dark%20Brotherhood%21%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jBnT7j1jCuo"
   },
   {
     id: 1450,
@@ -31016,7 +31016,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him (accepting this ends the separate quest tied to him).",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Narfi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zzq9Huo2jSs"
   },
   {
     id: 1451,
@@ -31058,7 +31058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ennodius%20Papius%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fbY3whafJdw"
   },
   {
     id: 1453,
@@ -31079,7 +31079,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hert is optional (no reward), but kill her if she sees you to avoid a bounty.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Hern%20walkthrough"
+    video: "https://www.youtube.com/watch?v=do_QQsAJ-Gg"
   },
   {
     id: 1454,
@@ -31100,7 +31100,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Silence the bard for good.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Lurbuk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LZ8_BsNByj4"
   },
   {
     id: 1455,
@@ -31121,7 +31121,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Deekus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aKVriXVWFUw"
   },
   {
     id: 1456,
@@ -31142,7 +31142,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the wizard Ma'randru-jo, ideally away from the other Khajiit.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Ma%27randru-jo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GmLT940lsGQ"
   },
   {
     id: 1457,
@@ -31163,7 +31163,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him without witnesses (his brother Elrindir will like you less either way).",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Anoriath%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DyfBcXFEW5o"
   },
   {
     id: 1458,
@@ -31184,7 +31184,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Agnis, the old caretaker, inside.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Agnis%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44hkgYc7cpY"
   },
   {
     id: 1459,
@@ -31205,7 +31205,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and kill Maluril.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Maluril%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCw5FQCBgKw"
   },
   {
     id: 1460,
@@ -31226,7 +31226,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him while he sleeps — stealth is easiest.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Helvard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UaxMGSSxZRU"
   },
   {
     id: 1461,
@@ -31247,7 +31247,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and kill Safia on the middle deck.",
       "Return to Nazir for your gold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Kill%20Safia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YOwZpm58Txg"
   },
   {
     id: 1462,
@@ -31269,7 +31269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cast a ward to block Tolfdir's spell as instructed.",
       "Accept the invitation to join the expedition to Saarthal."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20First%20Lessons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NB-y5XT5Wm8"
   },
   {
     id: 1463,
@@ -31291,7 +31291,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the mysterious orb (the Eye of Magnus) with Tolfdir.",
       "Fight the awakened draugr, read the word wall, and report back to the College."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Under%20Saarthal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0JcuDEot3t8"
   },
   {
     id: 1464,
@@ -31311,7 +31311,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate Calcelmo's private collection with the help of his assistant, Aicantar.",
       "Retrieve the information/book needed and return to Winterhold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hitting%20the%20Books%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gC-yPRRx558"
   },
   {
     id: 1465,
@@ -31331,7 +31331,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Saarthal's inner chamber (Silus's excavation) to learn more about the Staff of Magnus.",
       "Report findings back to the College."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Good%20Intentions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s7cVespsYa0"
   },
   {
     id: 1466,
@@ -31350,7 +31350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest marker to the location indicated.",
       "Progress the investigation into the artifact's origin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Path%20of%20Knowledge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IK1uDy6esdM"
   },
   {
     id: 1467,
@@ -31370,7 +31370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seal or neutralize the containment breach.",
       "Report back to Tolfdir or Mirabelle."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Containment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R-uQ2OMrw5Y"
   },
   {
     id: 1468,
@@ -31389,7 +31389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to retrieve a specific tome or item from a marked dungeon.",
       "Return the material to the College library."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Revealing%20the%20Unseen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vlcCU65Nhhs"
   },
   {
     id: 1469,
@@ -31408,7 +31408,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate leads within the College regarding Ancano's actions.",
       "Report findings to the Arch-Mage or Mirabelle."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Master%20of%20the%20Mind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jqB6yIsM1fs"
   },
   {
     id: 1471,
@@ -31430,7 +31430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stabilize or destroy the Eye of Magnus to save the College.",
       "Become the new Arch-Mage of the College of Winterhold."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoring%20Order%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6FrlT96Pl0M"
   },
   {
     id: 1472,
@@ -31469,7 +31469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the assigned trial he sets.",
       "Return to Tolfdir to unlock the master Alteration spells."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Alteration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i5S8yninkIk"
   },
   {
     id: 1474,
@@ -31489,7 +31489,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Summon and defeat/bend the Unbound Dremora to claim its Sigil Stone.",
       "Return to Phinis to unlock the master Conjuration spells (Flame/Frost/Storm Thrall, Dread Zombie, etc.)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Conjuration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z5fJ-g651jw"
   },
   {
     id: 1475,
@@ -31509,7 +31509,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the dungeon and defeat the fire-mage boss to obtain the book.",
       "Read it and return to Faralda to learn Fire Storm, Blizzard, and Lightning Storm."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Destruction%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2zeI5c39NEk"
   },
   {
     id: 1476,
@@ -31549,7 +31549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the trial she sets, fending off the summoned attackers.",
       "Return to Colette to unlock the master Restoration spells."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Restoration%20Ritual%20Spell%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lM3oSr3EPp4"
   },
   {
     id: 1478,
@@ -31568,7 +31568,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the marked location to recover the amulet.",
       "Return the amulet to Onmund."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Onmund%27s%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bK2hRGMhgw8"
   },
   {
     id: 1479,
@@ -31587,7 +31587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to the test and experience its (harmless) effect.",
       "Return for a follow-up conversation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Brelyna%27s%20Practice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9Lwh2iuy6kI"
   },
   {
     id: 1480,
@@ -31607,7 +31607,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the associated retrieval or combat objective.",
       "Return to J'zargo."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Only%20Cure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JMUWZRGE0MM"
   },
   {
     id: 1481,
@@ -31626,7 +31626,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the ancient Daedric relic and altar hidden within.",
       "Interact with the relic to trigger its unique dialogue tree and unlock associated lore."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forgotten%20Names%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rPTIbykHfRg"
   },
   {
     id: 1482,
@@ -31645,7 +31645,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm your intent to fight for the Empire.",
       "Receive your Legion uniform and first orders."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Legion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_DEvNefUPB0"
   },
   {
     id: 1483,
@@ -31665,7 +31665,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the papers by stealth or force.",
       "Deliver them to Rikke to advance the Imperial campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MuHWBEiwGyQ"
   },
   {
     id: 1484,
@@ -31685,7 +31685,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the gold and supplies.",
       "Report the success back to Rikke."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZsGAnDWYY00"
   },
   {
     id: 1485,
@@ -31706,7 +31706,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Sungard falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S1AH7gv6Nuc"
   },
   {
     id: 1486,
@@ -31727,7 +31727,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Snowhawk falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LuhMivx5guA"
   },
   {
     id: 1487,
@@ -31748,7 +31748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Dunstad falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Q6-xNWOzTjU"
   },
   {
     id: 1488,
@@ -31769,7 +31769,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Greenwall falls to the Legion; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kYZlHmQk4AY"
   },
   {
     id: 1489,
@@ -31790,7 +31790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captured Imperial soldiers, then clear the remaining Stormcloak defenders with them.",
       "Fort Kastav falls to the Legion; report back to your Legate for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Kastav%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6IyQtdkALOE"
   },
   {
     id: 1491,
@@ -31810,7 +31810,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sneak or fight in, reach the prisoners, and free them.",
       "Arm the freed soldiers and secure the fort."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rescue%20from%20Fort%20Neugrad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yHCQ-FdBJP0"
   },
   {
     id: 1492,
@@ -31831,7 +31831,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Ulfric Stormcloak.",
       "Complete the Civil War questline in favor of the Empire."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Windhelm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fwJxqNAtTws"
   },
   {
     id: 1493,
@@ -31850,7 +31850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm your intent to fight for Skyrim's independence.",
       "Receive your Stormcloak uniform and first orders."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Joining%20the%20Stormcloaks%20walkthrough"
+    video: "https://www.youtube.com/watch?v=c3qrbK9V5Es"
   },
   {
     id: 1494,
@@ -31870,7 +31870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the papers by stealth or force.",
       "Deliver them to Galmar to advance the Stormcloak campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20A%20False%20Front%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Px20mtwimYQ"
   },
   {
     id: 1495,
@@ -31890,7 +31890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the gold and supplies.",
       "Report back to Galmar."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Compelling%20Tribute%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-d8iboEbchU"
   },
   {
     id: 1496,
@@ -31911,7 +31911,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Sungard falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Sungard%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JRgt3es0pU0"
   },
   {
     id: 1497,
@@ -31932,7 +31932,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Snowhawk falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Snowhawk%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yMrAbZ7YKmY"
   },
   {
     id: 1498,
@@ -31953,7 +31953,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Dunstad falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Dunstad%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rQD6rGSVyHQ"
   },
   {
     id: 1499,
@@ -31974,7 +31974,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Greenwall falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Greenwall%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cgrHqicttkE"
   },
   {
     id: 1500,
@@ -31995,7 +31995,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Kastav falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Kastav%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NitMaTdRM0Q"
   },
   {
     id: 1501,
@@ -32016,7 +32016,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight into the keep and clear the remaining soldiers until the enemy's reinforcements run out.",
       "Fort Hraggstad falls to the Stormcloaks; report back for the next order."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Battle%20for%20Fort%20Hraggstad%20%28Stormcloak%20variant%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=438FRg849pM"
   },
   {
     id: 1503,
@@ -32037,7 +32037,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat General Tullius.",
       "Complete the Civil War questline in favor of the Stormcloaks."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Battle%20for%20Solitude%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GU5ihooJkD0"
   },
   {
     id: 1504,
@@ -32058,7 +32058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to side with Aranea (destroying the Necromancer Malyn Varen) or with Malyn Varen (turning the Star Black).",
       "Retrieve the Black Star / Star of Azura from the temple's depths."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Azura%3A%20The%20Black%20Star%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z_bbo_84hKQ"
   },
   {
     id: 1505,
@@ -32079,7 +32079,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend into the Cave of the Sacellum below the shrine.",
       "Kill the remaining cultists as instructed by Boethiah to become her new champion, wearing Mephala's Ebony Mail."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Boethiah%3A%20Boethiah%27s%20Calling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cI5E1imqQqI"
   },
   {
     id: 1506,
@@ -32100,7 +32100,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the Burrow's Falmer and traps to find the axe.",
       "Choose whether to kill Barbas with the axe (fulfilling Vile's wish) or spare him and take the axe anyway."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Clavicus%20Vile%3A%20A%20Daedra%27s%20Best%20Friend%20walkthrough"
+    video: "https://www.youtube.com/watch?v=doqnxy5ZkMg"
   },
   {
     id: 1507,
@@ -32120,7 +32120,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the item to Septimus and witness the ritual invoking Hermaeus Mora.",
       "Take possession of the completed Lexicon (which can be used to open an Elder Scroll route to Sovngarde)."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hermaeus%20Mora%3A%20Discerning%20the%20Transmundane%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_BtpF6QWRU"
   },
   {
     id: 1508,
@@ -32141,7 +32141,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to kill Sinding for Hircine's champion Krev the Skinner, or help Sinding escape and kill Krev instead.",
       "Claim the Savior's Hide or Ring of Hircine depending on your choice."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Hircine%3A%20Ill%20Met%20by%20Moonlight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2TxPwqmIh0c"
   },
   {
     id: 1509,
@@ -32162,7 +32162,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Participate in the ritual sacrifice at Malacath's shrine to lift the tribe's curse.",
       "Receive Volendrung, Malacath's legendary warhammer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Malacath%3A%20The%20Cursed%20Tribe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BzcB6UXQp5o"
   },
   {
     id: 1510,
@@ -32203,7 +32203,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the inner sanctum and destroy the corrupt priest.",
       "Claim Dawnbreaker, Meridia's radiant sword."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Meridia%3A%20The%20Break%20of%20Dawn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=miCXSN4hdyM"
   },
   {
     id: 1512,
@@ -32223,7 +32223,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the ritualistic puzzle and defeat the summoned Daedra.",
       "Escape the house, choosing whether to keep or destroy the Skull of Corruption."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Molag%20Bal%3A%20The%20House%20of%20Horrors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K6eZjpdWOrg"
   },
   {
     id: 1513,
@@ -32244,7 +32244,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to side with Verulus against the cult, or join the cult by eating Verulus.",
       "Claim the Ring of Namira if you side with the cultists."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Namira%3A%20The%20Taste%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L0s6-5NIS8Q"
   },
   {
     id: 1514,
@@ -32264,7 +32264,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Become a Nightingale and receive your Nightingale armor and one of three powers.",
       "With the Trinity restored, press on to hunt Mercer Frey."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Nocturnal%3A%20Trinity%20Restored%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xlRDQ0Nl0FI"
   },
   {
     id: 1516,
@@ -32285,7 +32285,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach Sanguine's Shrine to confront the Daedric Prince responsible.",
       "Defeat the illusionary recreation of your own drunken escapades to claim the Sanguine Rose."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Sanguine%3A%20A%20Night%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BCNF1Y_QDdk"
   },
   {
     id: 1517,
@@ -32306,7 +32306,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the priest Erandur (or the corrupted alternative) about the Skull of Corruption.",
       "Choose to destroy the Skull (siding with Erandur) or unleash it and side with Vaermina's original intent."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Vaermina%3A%20Waking%20Nightmare%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iM7n10Fb1yU"
   },
   {
     id: 1519,
@@ -32367,7 +32367,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the temple and confront the guilty party.",
       "Restore the temple's honor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Heart%20of%20Dibella%20%28Divine%20quest%20%E2%80%94%20Dibella%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cW53-7BX7YI"
   },
   {
     id: 1522,
@@ -32387,7 +32387,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the Eldergleam Sanctuary and use Nettlebane to tap the Eldergleam for a sap or sapling.",
       "Return to Danica to restore the Gildergreen in Whiterun."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Silver%20Hand%20%28Divine%20quest%20%E2%80%94%20Kynareth%2C%20note%3A%20shares%20name%20with%20Companions%20quest%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tIkzmPTAkSw"
   },
   {
     id: 1523,
@@ -32407,7 +32407,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the relic/amulet tied to Talos worship.",
       "Return the item to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Mehrunes%20Dagon%3A%20Pieces%20of%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sJ796ZsB8wo"
   },
   {
     id: 1524,
@@ -32445,7 +32445,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the fort, uncovering a Thalmor or Stormcloak/Imperial conflict thread depending on version.",
       "Report findings to the relevant faction."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20in%20the%20East%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cfHApDb0yqc"
   },
   {
     id: 1527,
@@ -32465,7 +32465,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to the killer's hideout.",
       "Confront and defeat the Butcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Blood%20on%20the%20Ice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L0iVW_uWomY"
   },
   {
     id: 1528,
@@ -32486,7 +32486,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate the surreal dreamscape and resolve the three personality conflicts within.",
       "Escape the mind and receive the Wabbajack."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Mind%20of%20Madness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bkYjoSM7qRc"
   },
   {
     id: 1529,
@@ -32506,7 +32506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth behind the false werewolf story.",
       "Report back to the Jarl."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Man%20Who%20Cried%20Wolf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=io0hY8TC8-U"
   },
   {
     id: 1531,
@@ -32527,7 +32527,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prevent (or fail to prevent) Potema's dragon priest servant from completing a resurrection ritual.",
       "Defeat the final threat and secure Potema's remains."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20The%20Wolf%20Queen%20Awakened%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R9_O-uriyLQ"
   },
   {
     id: 1532,
@@ -32547,7 +32547,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve each of the required Aetherium artifact pieces.",
       "Reach the final Aetherium Forge and choose which artifact to craft."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Lost%20to%20the%20Ages%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7iAgJIutbLI"
   },
   {
     id: 1533,
@@ -32567,7 +32567,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the ghostly hero Kvenel the Tongue.",
       "Claim his paired weapons, Eduj and Okin, and any word wall nearby."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Silenced%20Tongues%20(Dungeon%20Quest)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZqkPmXhK4a0"
   },
   {
     id: 1534,
@@ -32588,7 +32588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Reachwater Rock or Folgunthur to confront Gauldur's restored spirit.",
       "Defeat Gauldur and claim his amulet and blackblood cultist gear."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Forbidden%20Legend%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5pPVP79lT6s"
   },
   {
     id: 1535,
@@ -32608,7 +32608,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the dragon priest Volsung at the peak.",
       "Claim the mask Volsung and learn the word of power from the nearby wall."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Deception%20%28Dungeon%20Quest%20%E2%80%94%20Volskygge%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OVLAkC-6fMw"
   },
   {
     id: 1536,
@@ -32628,7 +32628,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the necromancer Lu’ah Al-Skaven, who has raised the lovers’ spirits.",
       "Loot the enchanted weapon and dungeon treasure, laying the spirits to rest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Rise%20Again%20%28Dungeon%20Quest%20%E2%80%94%20Ansilvund%29%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JA45cSlpa6Y"
   },
   {
     id: 1537,
@@ -32648,7 +32648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the frozen Mount and use the Ancient Blade to enter the Temple of Time area.",
       "Watch the vision of Zelda, then prepare to descend to the surface to begin the search."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Find%20Princess%20Zelda%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wKpxpgfWXJw"
   },
   {
     id: 1538,
@@ -32688,7 +32688,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Lookout Landing and find Purah at the observation deck.",
       "Trigger the cutscene that sets up the Regional Phenomena investigation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Kingdom%20of%20Hyrule%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fecx35IUKDM"
   },
   {
     id: 1540,
@@ -32928,7 +32928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reassemble the slate into its full form.",
       "Read the restored inscription to continue Clues to the Sky."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Broken%20Slate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rib9hRqnRGQ"
   },
   {
     id: 1552,
@@ -33068,7 +33068,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the photos to Josha for analysis.",
       "Continue documenting the Depths as the research expands."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Camera%20Work%20in%20the%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zsUxC5BIppg"
   },
   {
     id: 1559,
@@ -33108,7 +33108,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drop into the Depths and activate the first Lightroot.",
       "Follow the underground path to advance the mystery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Call%20from%20the%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NMoX9Zns7_U"
   },
   {
     id: 1561,
@@ -33128,7 +33128,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sell a heart container or stamina vessel for 100 rupees.",
       "Buy the vessel back (for 120) whenever you want to switch."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Deal%20With%20the%20Statue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8Wbw3LYkDgY"
   },
   {
     id: 1562,
@@ -33148,7 +33148,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hand over the letter and hear her response.",
       "Report back to complete the delivery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Letter%20to%20Koyin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKREGHzXRHI"
   },
   {
     id: 1563,
@@ -33168,7 +33168,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the kills back to Kilton.",
       "Claim the first-tier medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p8j4IeFcdOI"
   },
   {
     id: 1564,
@@ -33188,7 +33188,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring proof of the kills to Kilton.",
       "Receive the second medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ylsO7MSFBms"
   },
   {
     id: 1565,
@@ -33208,7 +33208,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the tally to Kilton.",
       "Claim the third medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20III%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tuR8fyRbIek"
   },
   {
     id: 1566,
@@ -33228,7 +33228,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the results to Kilton.",
       "Earn the fourth medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20IV%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LJQ3xEi8Wdg"
   },
   {
     id: 1567,
@@ -33248,7 +33248,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Turn in the completed tally to Kilton.",
       "Claim the final medal and completion reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20V%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_hnVUc8zLII"
   },
   {
     id: 1568,
@@ -33268,7 +33268,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prepare or hand over the required food.",
       "Deliver the finished dish to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Signature%20Food%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RhYn-Aq-tRo"
   },
   {
     id: 1569,
@@ -33288,7 +33288,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track the sound to uncover its cause.",
       "Resolve the disturbance and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Eerie%20Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CjV93aZRBE8"
   },
   {
     id: 1570,
@@ -33308,7 +33308,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve each community's problem.",
       "Complete the region to bring peace to Akkala."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Akkala!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qA91Ak6mmpw"
   },
   {
     id: 1571,
@@ -33328,7 +33328,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the region's residents recover.",
       "Finish the region to bring peace to Eldin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Eldin!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XV8tq-jfAnw"
   },
   {
     id: 1572,
@@ -33348,7 +33348,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assist the region's residents.",
       "Complete the region to bring peace to Faron."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Faron!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_KQX35g2CB8"
   },
   {
     id: 1573,
@@ -33368,7 +33368,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the Rito and stable folk of the region.",
       "Complete the region to bring peace to Hebra."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hebra!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k_B2WiTx6gA"
   },
   {
     id: 1574,
@@ -33388,7 +33388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seal or avoid the gloom spills near the castle.",
       "Finish the region to bring peace to Hyrule Field."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hyrule%20Field!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sDGrPNKhWdo"
   },
   {
     id: 1575,
@@ -33408,7 +33408,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the region's monster threats.",
       "Complete the region to bring peace to Necluda."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Necluda!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DYHszfZ94Rs"
   },
   {
     id: 1576,
@@ -33428,7 +33428,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the secret behind her campaign.",
       "Report your findings to advance the election plot."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cece's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Gq8mvNrcB0A"
   },
   {
     id: 1577,
@@ -33448,7 +33448,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fill every category of the Compendium.",
       "Return to Robbie for the completion rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Filling%20Out%20the%20Compendium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8-a4iswgPYE"
   },
   {
     id: 1578,
@@ -33468,7 +33468,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the leads to the truth of the sighting.",
       "Report to Penn to advance the Gazette storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20For%20Our%20Princess!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J-Zva0Z0lz0"
   },
   {
     id: 1579,
@@ -33488,7 +33488,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the stranded travelers.",
       "Help them and report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gourmets%20Gone%20Missing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gl45RXwMt_Y"
   },
   {
     id: 1580,
@@ -33508,7 +33508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Robbie and restore the lab's functions.",
       "Gain the camera and sensor features."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hateno%20Village%20Research%20Lab%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r4mwNo2mYBg"
   },
   {
     id: 1581,
@@ -33528,7 +33528,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the maracas to Hestu.",
       "Trade Korok Seeds to expand your inventory."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hestu's%20Concerns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HIFR7UfI738"
   },
   {
     id: 1582,
@@ -33548,7 +33548,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the honey carefully.",
       "Deliver it so he can make his confession."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Honey%2C%20Bee%20Mine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uRWeSWF8dvc"
   },
   {
     id: 1583,
@@ -33588,7 +33588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Illuminate the path toward the giant owl statue.",
       "Uncover the ruins' secret to reveal the hidden shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Investigate%20the%20Thyphlo%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gFbB6zhyFWo"
   },
   {
     id: 1585,
@@ -33608,7 +33608,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Piece together the island's Zonai history.",
       "Complete the legend to claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Great%20Sky%20Island%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vTnpjJtvi6E"
   },
   {
     id: 1586,
@@ -33648,7 +33648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track him to further mines across the Depths.",
       "Beat his final machine to end the Yiga threat."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20Kohga%20of%20the%20Yiga%20Clan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3n0wZPKz0d4"
   },
   {
     id: 1588,
@@ -33668,7 +33668,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "See her off toward Gerudo Town.",
       "Return to the family to close the story."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mattison's%20Independence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u2WzzhtBkPs"
   },
   {
     id: 1589,
@@ -33688,7 +33688,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Record or retrieve the messages.",
       "Deliver them for translation to reveal the lore."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Messages%20from%20an%20Ancient%20Era%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9EGP_bSZ0YQ"
   },
   {
     id: 1590,
@@ -33728,7 +33728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the short request.",
       "Activate Hero's Path Mode on the Purah Pad."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Hero's%20Path%20Mode!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pr8dwgvSYbw"
   },
   {
     id: 1592,
@@ -33748,7 +33748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the requirement (Compendium progress).",
       "Unlock Sensor+ for targeted tracking."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Sensor%20%2B!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=75HidCozuY8"
   },
   {
     id: 1593,
@@ -33768,7 +33768,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Receive the Travel Medallion.",
       "Place it anywhere to create a fast-travel point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20The%20Travel%20Medallion!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zehn4Cko3ZU"
   },
   {
     id: 1594,
@@ -33788,7 +33788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to the 'princess'.",
       "Report the truth to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Princess%20Zelda%20Kidnapped%3F!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l4NPh4zp_tI"
   },
   {
     id: 1595,
@@ -33808,7 +33808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the secret behind his behavior.",
       "Report your findings to advance the storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Reede's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Um8lFYdGRpI"
   },
   {
     id: 1596,
@@ -33828,7 +33828,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the ship and beach camps.",
       "Free the villagers to begin restoration."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ruffian-Infested%20Village%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zZymQOz6pmY"
   },
   {
     id: 1597,
@@ -33848,7 +33848,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort it to the Great Fairy Fountain.",
       "Play the serenade to awaken the Great Fairy."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20a%20Great%20Fairy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=huq6yVreCxA"
   },
   {
     id: 1598,
@@ -33868,7 +33868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Lead them to Cotera's Fountain.",
       "Perform to awaken Cotera for armor upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Cotera%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JyNAErN2bso"
   },
   {
     id: 1599,
@@ -33888,7 +33888,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort it to Kaysa's Great Fairy Fountain.",
       "Play the music to awaken Kaysa."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Kaysa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OcePfPkER_Q"
   },
   {
     id: 1600,
@@ -33908,7 +33908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort the troupe to Mija's Great Fairy Fountain.",
       "Perform to awaken Mija and unlock full upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Mija%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nZs4v7_ljkY"
   },
   {
     id: 1601,
@@ -33928,7 +33928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to support Cece or Reede.",
       "See the election resolve based on your choice."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Team%20Cece%20or%20Team%20Reede%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LJPz4_7ZL0o"
   },
   {
     id: 1602,
@@ -33949,7 +33949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the 'Cucco', which turns out not to be a chicken.",
       "Report back to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20All-Clucking%20Cucco%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dd4m6TuTjVM"
   },
   {
     id: 1603,
@@ -33969,7 +33969,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to its source.",
       "Report the truth to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beast%20and%20the%20Princess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SWJ7kKxJwu8"
   },
   {
     id: 1604,
@@ -33989,7 +33989,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Approach and confront the mystery.",
       "Resolve the encounter and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beckoning%20Woman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IdQTqhXMNN8"
   },
   {
     id: 1605,
@@ -34009,7 +34009,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the debris sealing it.",
       "Report the reopened well."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Well%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IvJ3V23QrMc"
   },
   {
     id: 1606,
@@ -34029,7 +34029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the corridor they flank.",
       "Uncover the passage's secret."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Corridor%20between%20Two%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-8Gt3rRYgUM"
   },
   {
     id: 1607,
@@ -34049,7 +34049,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help carry out the next step.",
       "Advance the musicians' storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Flute%20Player's%20Plan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nBtyK9DZdeE"
   },
   {
     id: 1608,
@@ -34069,7 +34069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the danger or build a way out.",
       "Reunite him with the musicians."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hornist's%20Dramatic%20Escape%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AzIeOJI93vA"
   },
   {
     id: 1609,
@@ -34109,7 +34109,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the clue the legend describes.",
       "Uncover the associated secret."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Long%20Dragon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YnvRzMDksao"
   },
   {
     id: 1611,
@@ -34129,7 +34129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Begin investigating each candidate.",
       "Advance toward the vote."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mayoral%20Election%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k_ul4cFKBGE"
   },
   {
     id: 1612,
@@ -34149,7 +34149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the monsters and recover the tools.",
       "Return them to the farmer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Farm%20Tools%20walkthrough"
+    video: "https://www.youtube.com/watch?v=F_HIkDXylhc"
   },
   {
     id: 1613,
@@ -34169,7 +34169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the owl-and-dragons puzzle.",
       "Reveal and enter the hidden shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Owl%20Protected%20by%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u5P2rVuBx8c"
   },
   {
     id: 1614,
@@ -34209,7 +34209,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Arrange or identify them as the legend requires.",
       "Complete the dragon-lore puzzle for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Six%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ucj5EeCfnpU"
   },
   {
     id: 1616,
@@ -34249,7 +34249,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any monsters threatening them.",
       "Herd the goats home."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20White%20Goats%20Gone%20Missing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=roSdgF0S8Uk"
   },
   {
     id: 1618,
@@ -34269,7 +34269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Identify who has been sneaking about.",
       "Report the truth to resolve the worry."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Goes%20There%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qkx9q7QjlVE"
   },
   {
     id: 1619,
@@ -34329,7 +34329,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Match the color to reveal the hidden shrine.",
       "Complete the shrine for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dyeing%20to%20Find%20It%20walkthrough"
+    video: "https://www.youtube.com/watch?v=leSeec0FZRw"
   },
   {
     id: 1622,
@@ -34349,7 +34349,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock the water-born key mechanism.",
       "Enter and complete the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Keys%20Born%20of%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sKZC8Erl1xQ"
   },
   {
     id: 1623,
@@ -34369,7 +34369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Soaring%20Spear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z8ji8Xc-Iy4"
   },
   {
     id: 1624,
@@ -34389,7 +34389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Maca's%20Special%20Place%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eNNNhjwKmWQ"
   },
   {
     id: 1625,
@@ -34409,7 +34409,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prove yourself or clear the obstacle.",
       "Enter and complete the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20None%20Shall%20Pass%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k8QL_TRNNyY"
   },
   {
     id: 1626,
@@ -34449,7 +34449,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20for%20Sale%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IhwTYC4rQ1c"
   },
   {
     id: 1628,
@@ -34469,7 +34469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the volcanic terrain to the shrine pedestal.",
       "Drop the crystal in to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Death%20Caldera%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AXLiwWxS534"
   },
   {
     id: 1629,
@@ -34489,7 +34489,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20East%20Hebra%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7PRKe3qIMgE"
   },
   {
     id: 1630,
@@ -34529,7 +34529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it across the crater.",
       "Insert it into the shrine to activate it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gisa%20Crater%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y3pr6U6_uOM"
   },
   {
     id: 1632,
@@ -34549,7 +34549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20High%20Spring%20and%20the%20Light%20Rings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TgBYw_AvNsE"
   },
   {
     id: 1633,
@@ -34569,7 +34569,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the nearby shrine.",
       "Drop it in to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Hylia%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0lEtWnrCVoc"
   },
   {
     id: 1634,
@@ -34589,7 +34589,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate back to the shrine.",
       "Place the crystal to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Intenoch%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ycBEQt1HsA"
   },
   {
     id: 1635,
@@ -34689,7 +34689,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Necluda%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HlWScegxqAM"
   },
   {
     id: 1640,
@@ -34709,7 +34709,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it out to the shrine.",
       "Place the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Northwest%20Hebra%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DDITGmOWfSU"
   },
   {
     id: 1641,
@@ -34729,7 +34729,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the shrine.",
       "Activate the shrine with the crystal."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Oakle's%20Navel%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o6qkbH12uS8"
   },
   {
     id: 1642,
@@ -34749,7 +34749,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the nearby shrine.",
       "Drop it in to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ralis%20Channel%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j4YHViWMN8g"
   },
   {
     id: 1643,
@@ -34789,7 +34789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Sky%20Mine%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mpPqFTw3ii8"
   },
   {
     id: 1645,
@@ -34829,7 +34829,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Hyrule%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZFPia_GPIdA"
   },
   {
     id: 1647,
@@ -34849,7 +34849,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate the sky islands to the shrine.",
       "Insert the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lanayru%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JCAaaKlpcGM"
   },
   {
     id: 1648,
@@ -34869,7 +34869,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tabantha%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BlpP6QtK2jE"
   },
   {
     id: 1649,
@@ -34889,7 +34889,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate to the shrine across the islands.",
       "Place the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20West%20Necluda%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1XQO66KEuV4"
   },
   {
     id: 1650,
@@ -34929,7 +34929,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the stranded person in need.",
       "Return to confirm the rescue for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Bottled%20Cry%20for%20Help%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wdRoDvRTQx4"
   },
   {
     id: 1652,
@@ -34949,7 +34949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the number requested.",
       "Deliver the crabs for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Crabulous%20Deal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sQVvYHqwqhc"
   },
   {
     id: 1653,
@@ -34969,7 +34969,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the materials the tailor requests.",
       "Receive the renewed Champion's Tunic."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Champion's%20Tunic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TzVXbTGdqR8"
   },
   {
     id: 1654,
@@ -34989,7 +34989,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return and show the picture to the clerk.",
       "Claim the decoration reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Dueling%20Peaks%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XteMwYM07NM"
   },
   {
     id: 1655,
@@ -35009,7 +35009,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take its photo with the Camera.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20East%20Akkala%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HDiN2bNE-Wc"
   },
   {
     id: 1656,
@@ -35029,7 +35029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the Daruk statue.",
       "Show the photo to Ozunda for a Pony Point and a Fireproof Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Foothill%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OfKYkzBA7NY"
   },
   {
     id: 1657,
@@ -35049,7 +35049,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Highland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lLJ0mpeyEYk"
   },
   {
     id: 1658,
@@ -35069,7 +35069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wait (or rest) for a clear day.",
       "Photograph the falls and show Anly for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Lakeside%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jie1DAP_Jg4"
   },
   {
     id: 1659,
@@ -35089,7 +35089,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take its photo with the Camera.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20New%20Serenne%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DgGFwWPIew4"
   },
   {
     id: 1660,
@@ -35109,7 +35109,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it in full.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Outskirt%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ze0Xvq9RuEc"
   },
   {
     id: 1661,
@@ -35129,7 +35129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the statue with all of it in frame.",
       "Show Ember for a Pony Point and Energizing Crab Stir-Fry."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Riverside%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-aMELUqtrPI"
   },
   {
     id: 1662,
@@ -35149,7 +35149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "On a clear day, aim north-west until the camera flags the 'bird'.",
       "Take the photo and show Varke for a Pony Point and Spicy Meat Stew."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Snowfield%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SfMfic5UHoU"
   },
   {
     id: 1663,
@@ -35169,7 +35169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the bell in the middle of town.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20South%20Akkala%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V-XAoR8XPLI"
   },
   {
     id: 1664,
@@ -35190,7 +35190,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the sunrise to the east — 'Ancient Columns at sunrise' appears.",
       "Show Dabi for a Pony Point and a Hasty Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Tabantha%20Bridge%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HWNKR75vu6w"
   },
   {
     id: 1665,
@@ -35210,7 +35210,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the landmark and return.",
       "Deliver the first picture."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ulb2gg1Eq4w"
   },
   {
     id: 1666,
@@ -35230,7 +35230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the giant sword of the Eighth Heroine on the Gerudo Summit.",
       "Photograph it and show Piaffe to help reopen the stable."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=guNsb0A46B8"
   },
   {
     id: 1667,
@@ -35250,7 +35250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the whole ring.",
       "Show Lawdon for a Pony Point and an Electro Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Wetland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRAgGHUqZP8"
   },
   {
     id: 1668,
@@ -35270,7 +35270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the photo to the clerk.",
       "Claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Woodland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iMO6gscFkeg"
   },
   {
     id: 1669,
@@ -35290,7 +35290,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Token%20of%20Friendship%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DpZWh4Hj32g"
   },
   {
     id: 1670,
@@ -35310,7 +35310,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Record the historical points requested.",
       "Complete the trip through history."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Trip%20through%20History%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZWHAvagVmw"
   },
   {
     id: 1671,
@@ -35330,7 +35330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the trade items.",
       "Return them to restore the merchant's business."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Way%20to%20Trade%2C%20Washed%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pmOmbriJtuk"
   },
   {
     id: 1672,
@@ -35350,7 +35350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Ensure she is safe.",
       "Reunite the couple for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Wife%20Wafted%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eS-o6K-iJs4"
   },
   {
     id: 1673,
@@ -35370,7 +35370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the requested gems.",
       "Trade them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Amber%20Dealer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GojefzZWPOI"
   },
   {
     id: 1674,
@@ -35390,7 +35390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Uninvited%20Guest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z7LnuArclZI"
   },
   {
     id: 1675,
@@ -35410,7 +35410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the ancient blades.",
       "Return to complete the request."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ancient%20Blades%20Below%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dX0kYP7Vnlc"
   },
   {
     id: 1676,
@@ -35430,7 +35430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the amount requested.",
       "Cash in the flint for rupees."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cash%20In%20on%20Ripened%20Flint%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a4hyCs_RYYY"
   },
   {
     id: 1677,
@@ -35450,7 +35450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Harvest the brightcaps requested.",
       "Deliver them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cave%20Mushrooms%20that%20Glow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xepVwk_BW-U"
   },
   {
     id: 1678,
@@ -35470,7 +35470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve their grievances.",
       "Reconcile the pair for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Codgers'%20Quarrel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OZgY1e4dURs"
   },
   {
     id: 1679,
@@ -35490,7 +35490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure the freezing conditions for the set time.",
       "Win the contest for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cold-Endurance%20Contest!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HJtNVBnY12Y"
   },
   {
     id: 1680,
@@ -35510,7 +35510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross without succumbing to the cold.",
       "Complete the crossing for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Crossing%20the%20Cold%20Pool%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-IjGyrUgxZs"
   },
   {
     id: 1681,
@@ -35530,7 +35530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the keepsake.",
       "Return it to the grateful child."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dad's%20Blue%20Shirt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BGJvkipboeE"
   },
   {
     id: 1682,
@@ -35550,7 +35550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Play and find the hidden objective.",
       "Win Dalia's game for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dalia's%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BJcvJ1jm6Wk"
   },
   {
     id: 1683,
@@ -35570,7 +35570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Herd them safely home.",
       "Report to Dantz for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dantz's%20Prize%20Cows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YXQ-bgLylto"
   },
   {
     id: 1684,
@@ -35590,7 +35590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the requested materials.",
       "Deliver them to complete the decor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Decorate%20with%20Passion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QZHolyCiz94"
   },
   {
     id: 1685,
@@ -35610,7 +35610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear it or rescue those trapped.",
       "Resolve the disaster for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Disaster%20in%20Gerudo%20Canyon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aZnCJ126_s8"
   },
   {
     id: 1686,
@@ -35630,7 +35630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the requested colossal fossil.",
       "Return the picture to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Eldin's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jx0PaC68FwQ"
   },
   {
     id: 1687,
@@ -35650,7 +35650,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather each cucco.",
       "Return them all to the pen."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Feathered%20Fugitives%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wXCZxCrXn3k"
   },
   {
     id: 1688,
@@ -35670,7 +35670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and help the trapped person.",
       "Get them out safely for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fell%20into%20a%20Well!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=h1RfXHBO-XE"
   },
   {
     id: 1689,
@@ -35690,7 +35690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the catch.",
       "Receive arrows or rupees as reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fish%20for%20Fletching%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JSc7xxB72DE"
   },
   {
     id: 1690,
@@ -35710,7 +35710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the place they lead to.",
       "Claim the hidden discovery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Follow%20the%20Cuccos%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s21KY8CWOsQ"
   },
   {
     id: 1691,
@@ -35730,7 +35730,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Genli's%20Home%20Cooking%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YaAjnmkmBhU"
   },
   {
     id: 1692,
@@ -35750,7 +35750,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the colossal fossil requested.",
       "Return the photo to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gerudo's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8FlPSwh-JpM"
   },
   {
     id: 1693,
@@ -35770,7 +35770,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the Gleeok Guts it drops.",
       "Deliver the guts for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gleeok%20Guts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sCCKlWcHd0Q"
   },
   {
     id: 1694,
@@ -35790,7 +35790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prepare or deliver the remedy.",
       "Cure the villager for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gloom-Borne%20Illness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TFtQoUUrGag"
   },
   {
     id: 1695,
@@ -35830,7 +35830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Courage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DFitBPbasmg"
   },
   {
     id: 1697,
@@ -35850,7 +35850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Power%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-ewtrCDpiEY"
   },
   {
     id: 1698,
@@ -35870,7 +35870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Wisdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qH2dPzzQH88"
   },
   {
     id: 1699,
@@ -35890,7 +35890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure the searing heat for the set time.",
       "Win the contest for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Heat-Endurance%20Contest!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DZu1Tn-r7Mw"
   },
   {
     id: 1700,
@@ -35910,7 +35910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the requested colossal fossil.",
       "Return the picture to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hebra's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Pb9PMHbol64"
   },
   {
     id: 1701,
@@ -35930,7 +35930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the needed furnishings.",
       "Complete the arrangement for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Home%20on%20Arrange%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QEJbo1x_bNg"
   },
   {
     id: 1702,
@@ -35950,7 +35950,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the seeds or clear the threat.",
       "Complete the harvest task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Homegrown%20in%20Hateno%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqTSY7BLPE8"
   },
   {
     id: 1703,
@@ -35970,7 +35970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assemble the cart with Ultrahand.",
       "Fulfill the horse-drawn dream."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Horse-Drawn%20Dreams%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Wk2IAkkFq4k"
   },
   {
     id: 1704,
@@ -35990,7 +35990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hit the targets while gliding.",
       "Complete the training course."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Kaneli's%20Flight%20Training%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IqhwZSmv2xM"
   },
   {
     id: 1705,
@@ -36010,7 +36010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legacy%20of%20the%20Rito%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-lS8A09dvMo"
   },
   {
     id: 1706,
@@ -36030,7 +36030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the stranded person.",
       "Guide them to safety for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lost%20in%20the%20Dunes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RJ8Nb0yGtMk"
   },
   {
     id: 1707,
@@ -36050,7 +36050,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather materials or complete the task.",
       "Advance the Lurelin Resort Project."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lurelin%20Resort%20Project%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xhDHx7ZRRhI"
   },
   {
     id: 1708,
@@ -36070,7 +36070,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it and gauge the response.",
       "Report back to Manny for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Manny's%20Beloved%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TV27OR03l7o"
   },
   {
     id: 1709,
@@ -36090,7 +36090,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the driving test.",
       "Master the prototype for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20the%20Vehicle%20Prototype%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fu7A5UgtbnM"
   },
   {
     id: 1710,
@@ -36110,7 +36110,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the cuts.",
       "Trade meat for meat, and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Meat%20for%20Meat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DIMwqeKJDh0"
   },
   {
     id: 1711,
@@ -36130,7 +36130,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Build the Death Mountain mine-cart course.",
       "Test the ride to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Death%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RxGnWZKYNXQ"
   },
   {
     id: 1712,
@@ -36150,7 +36150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Set up the cart controls.",
       "Open Mine-Cart Land for business."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Open%20for%20Business!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a0QVHb_3TYI"
   },
   {
     id: 1713,
@@ -36170,7 +36170,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hit the targets along the course.",
       "Achieve the score to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Quickshot%20Course%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DelgnESu7MY"
   },
   {
     id: 1714,
@@ -36190,7 +36190,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Access the tower's launch mechanism.",
       "Activate the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mired%20in%20Muck%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0aWzDOg0Nes"
   },
   {
     id: 1715,
@@ -36210,7 +36210,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the hidden treasure chests.",
       "Claim Misko's stash."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Cave%20of%20Chests%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MHH180dy97E"
   },
   {
     id: 1716,
@@ -36230,7 +36230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the hidden chest.",
       "Claim the awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=62morfEJENY"
   },
   {
     id: 1717,
@@ -36250,7 +36250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search for the hidden chest.",
       "Claim the awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u_CJHSppATo"
   },
   {
     id: 1718,
@@ -36270,7 +36270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the guardians and find the chest.",
       "Claim the final awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20III%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ADpqPW0vTus"
   },
   {
     id: 1719,
@@ -36290,7 +36290,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the indicated location.",
       "Claim the heroine-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Heroines%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t4y78uLIqdw"
   },
   {
     id: 1720,
@@ -36310,7 +36310,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the hidden stash.",
       "Claim the pirate-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Pirate%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JfxugIRQOD4"
   },
   {
     id: 1721,
@@ -36330,7 +36330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the hidden location.",
       "Claim the Fierce Deity reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20The%20Fierce%20Deity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_z8wBw_Qbzc"
   },
   {
     id: 1722,
@@ -36350,7 +36350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the indicated spot.",
       "Claim the twins-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Twins%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vh8qU-nvQjM"
   },
   {
     id: 1723,
@@ -36370,7 +36370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver them to Molli.",
       "Support her fletcher's dream for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Molli%20the%20Fletcher's%20Quest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4u8Y6KRn9QE"
   },
   {
     id: 1724,
@@ -36390,7 +36390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the obstruction or build a vantage.",
       "Give them their moon-gazing view."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Moon-Gazing%20Gorons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XQjKoffJz1U"
   },
   {
     id: 1725,
@@ -36410,7 +36410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target in a single blow.",
       "Claim the challenge prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20One-Hit%20Wonder!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pOsIct1gDJI"
   },
   {
     id: 1726,
@@ -36430,7 +36430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate it to open the door.",
       "Explore what lies beyond."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Open%20the%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jaEkNP_xLxY"
   },
   {
     id: 1727,
@@ -36450,7 +36450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ousting%20the%20Giants%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b0ci3oJ9ojA"
   },
   {
     id: 1728,
@@ -36470,7 +36470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the guest or inn issue.",
       "Restore order for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Out%20of%20the%20Inn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uQrhseuB85M"
   },
   {
     id: 1729,
@@ -36490,7 +36490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it clearly.",
       "Deliver the picture for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Photographing%20a%20Chuchu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R9eCxiOjcGc"
   },
   {
     id: 1730,
@@ -36510,7 +36510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover them.",
       "Return them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Piaffe%2C%20Packed%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mq1mkotIOic"
   },
   {
     id: 1731,
@@ -36530,7 +36530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the deed with distinction.",
       "Earn the Gerudo's respect and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Pride%20of%20the%20Gerudo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4dN1YlD1NoA"
   },
   {
     id: 1732,
@@ -36550,7 +36550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task for her.",
       "Restore her peace of mind."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rattled%20Ralera%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qTmZ2f_uKzI"
   },
   {
     id: 1733,
@@ -36570,7 +36570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20Roast%20or%20Dust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0rp5eE7y4QM"
   },
   {
     id: 1734,
@@ -36590,7 +36590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search beneath it for the secret treasure.",
       "Claim the hidden reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secret%20Treasure%20under%20the%20Great%20Fish%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R67ZiVS-ssc"
   },
   {
     id: 1735,
@@ -36610,7 +36610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the secret within.",
       "Report your discovery for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secrets%20Within%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y-YpzPCvwU0"
   },
   {
     id: 1736,
@@ -36630,7 +36630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the pirates guarding it.",
       "Claim the hideout's treasure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Seeking%20the%20Pirate%20Hideout%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cuZUgeHXSus"
   },
   {
     id: 1737,
@@ -36650,7 +36650,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the hot spring's flow.",
       "Complete the task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Simmerstone%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ekl8675nvlY"
   },
   {
     id: 1738,
@@ -36670,7 +36670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the feat of strength.",
       "Earn the Gorons' respect and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Soul%20of%20the%20Gorons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_ACmvzyCgm0"
   },
   {
     id: 1739,
@@ -36690,7 +36690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Spot to its discovery.",
       "Claim what it leads you to."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Spotting%20Spot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0He8ctWQcqc"
   },
   {
     id: 1740,
@@ -36710,7 +36710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the feat to win.",
       "Be crowned the strongest for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Strongest%20in%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cq24VMXNfE4"
   },
   {
     id: 1741,
@@ -36770,7 +36770,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the materials or assistance.",
       "Complete the second lesson task."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nhqKjGifWB8"
   },
   {
     id: 1744,
@@ -36790,7 +36790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the stranded worker.",
       "Lead them safely out for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Abandoned%20Laborer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8RmYER7mdpg"
   },
   {
     id: 1745,
@@ -36810,7 +36810,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm the ancient city's existence.",
       "Complete the legend for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TZrMoVe-qmc"
   },
   {
     id: 1746,
@@ -36830,7 +36830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find evidence of the ancient city.",
       "Report your findings back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-MpwB76MdcE"
   },
   {
     id: 1747,
@@ -36850,7 +36850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the obstruction.",
       "Explore the newly opened cave."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Cave%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z3miMKNTtlI"
   },
   {
     id: 1748,
@@ -36870,7 +36870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the blue stone.",
       "Deliver it for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blue%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_HQyWf0OwXo"
   },
   {
     id: 1749,
@@ -36890,7 +36890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the monsters and reclaim the tent.",
       "Return it to the traveler."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Captured%20Tent%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wGP-HduxWJY"
   },
   {
     id: 1750,
@@ -36910,7 +36910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the missing duchess.",
       "Resolve the mystery for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Duchess%20Who%20Disappeared%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oddcaJ-LKCo"
   },
   {
     id: 1751,
@@ -36930,7 +36930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the monster threat.",
       "Secure the fort for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Fort%20at%20Ja'Abu%20Ridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JRRaAhynJMc"
   },
   {
     id: 1752,
@@ -36950,7 +36950,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the gathering monsters.",
       "Clear the threat for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gathering%20Pirates%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T92KIh_t3s8"
   },
   {
     id: 1753,
@@ -36970,7 +36970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Great%20Tumbleweed%20Purge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sSv-zTj9rp8"
   },
   {
     id: 1754,
@@ -36990,7 +36990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the hidden secret.",
       "Report the discovery for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Heroines'%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kcVI0uolK4M"
   },
   {
     id: 1755,
@@ -37010,7 +37010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search the marked spot for treasure.",
       "Claim the hidden reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hidden%20Treasure%20at%20Lizard%20Lakes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9NLKZ7sRw6M"
   },
   {
     id: 1756,
@@ -37030,7 +37030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tame or recover the horse in question.",
       "Fulfill the request for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Horse%20Guard's%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UNGVSzOTodo"
   },
   {
     id: 1757,
@@ -37050,7 +37050,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the icehouse's supply.",
       "Complete the task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Iceless%20Icehouse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T501gV3qcuM"
   },
   {
     id: 1758,
@@ -37070,7 +37070,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather and deliver the materials.",
       "Help complete the stable."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Incomplete%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o2ZbhUghVhg"
   },
   {
     id: 1759,
@@ -37091,7 +37091,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lomei%20Labyrinth%20Island%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u5CKjuv0E4w"
   },
   {
     id: 1760,
@@ -37111,7 +37111,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track them down.",
       "Bring them back to reopen the shop."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Owner%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RekdcQfSRCU"
   },
   {
     id: 1761,
@@ -37131,7 +37131,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Witness the moonlit scene.",
       "Complete the tale for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Moonlit%20Princess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wzqqRF1sDmA"
   },
   {
     id: 1762,
@@ -37151,7 +37151,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mother%20Goddess%20Statue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=izoM4WPB13I"
   },
   {
     id: 1763,
@@ -37171,7 +37171,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth of the eighth.",
       "Report your findings for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mysterious%20Eighth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-G6aje_Mon8"
   },
   {
     id: 1764,
@@ -37191,7 +37191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the needed task.",
       "Resolve the lecture for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Never-Ending%20Lecture%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Gvc-9-eizic"
   },
   {
     id: 1765,
@@ -37212,7 +37212,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Lomei%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UXsuM1nm_q0"
   },
   {
     id: 1766,
@@ -37232,7 +37232,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Repair or rebuild the crossing.",
       "Report the fix for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Rito%20Rope%20Bridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1ZoAbtIZC40"
   },
   {
     id: 1767,
@@ -37252,7 +37252,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the secret room.",
       "Claim the treasure inside."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Secret%20Room%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PHvUEosIAGw"
   },
   {
     id: 1768,
@@ -37272,7 +37272,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help explore or document the shrine.",
       "Complete the exploration for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Shrine%20Explorer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8D_WogxYbh0"
   },
   {
     id: 1769,
@@ -37293,7 +37293,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lomei%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZnAnlXLkeHw"
   },
   {
     id: 1770,
@@ -37313,7 +37313,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the course ahead of rivals.",
       "Win the race for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tarrey%20Town%20Race%20Is%20On!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=madr_uaB05E"
   },
   {
     id: 1771,
@@ -37333,7 +37333,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the hidden treasure.",
       "Claim your share of the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Treasure%20Hunters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KsKV30q80L8"
   },
   {
     id: 1772,
@@ -37353,7 +37353,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it to the cook.",
       "Help complete the ultimate dish."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ultimate%20Dish%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZY-qzoQUTEA"
   },
   {
     id: 1773,
@@ -37373,7 +37373,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help explore and clear the ruins.",
       "Complete the expedition for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Ruins!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wH-j2tvyAV0"
   },
   {
     id: 1774,
@@ -37393,7 +37393,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the required items.",
       "Deliver them to complete the menu."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Today's%20Menu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PJYSq4digj0"
   },
   {
     id: 1775,
@@ -37413,7 +37413,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dig out the buried treasure.",
       "Claim the desert's reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Gerudo%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8PKSEX29k6Q"
   },
   {
     id: 1776,
@@ -37433,7 +37433,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search them for the treasure.",
       "Claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Secret%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Yf8t30SqRjM"
   },
   {
     id: 1777,
@@ -37453,7 +37453,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover what the true treasure really is.",
       "Complete the quest for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20True%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z1Tl_HB9B-w"
   },
   {
     id: 1778,
@@ -37473,7 +37473,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the seeds or materials.",
       "Help Uma's garden flourish."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Uma's%20Garden%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G0ikUt9sY6k"
   },
   {
     id: 1779,
@@ -37493,7 +37493,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Identify and defeat the huge monster.",
       "Report the kill for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Huge%20Silhouette%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aBuz5-bYys0"
   },
   {
     id: 1780,
@@ -37513,7 +37513,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat the sky giant.",
       "Report the victory for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Sky%20Giant%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Js6u-XyBTjc"
   },
   {
     id: 1781,
@@ -37533,7 +37533,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the three-headed Gleeok.",
       "Report the kill for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Three-Headed%20Monster%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fR9t8rMISAE"
   },
   {
     id: 1782,
@@ -37553,7 +37553,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight off the attacking pirates.",
       "Secure the village for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Village%20Attacked%20by%20Pirates%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d8CwVQtFrP8"
   },
   {
     id: 1783,
@@ -37573,7 +37573,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search the indicated spots.",
       "Claim the treasure at the end."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Walton's%20Treasure%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0-eniOsdYc"
   },
   {
     id: 1784,
@@ -37593,7 +37593,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Hinox (shoot its eye).",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Hinox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gZRVrHnbgw0"
   },
   {
     id: 1785,
@@ -37613,7 +37613,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Lure the Molduga up with bombs and attack it while it's stunned.",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Molduga%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VnBMRIin7r8"
   },
   {
     id: 1786,
@@ -37634,7 +37634,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Climb it and break its ore core.",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Stone%20Talus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o4pomxFUCtM"
   },
   {
     id: 1787,
@@ -37654,7 +37654,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore each one you find.",
       "Report the wells to Fera for rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Where%20Are%20the%20Wells%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=alIOt0tQZx8"
   },
   {
     id: 1788,
@@ -37674,7 +37674,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the whirly swirly things.",
       "Complete the request for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Whirly%20Swirly%20Things%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1QjyS04jInI"
   },
   {
     id: 1789,
@@ -37694,7 +37694,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the safe refuge.",
       "Guide the traveler there for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Finds%20the%20Haven%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ap5sDZR43j8"
   },
 {
     id: 1790,
@@ -38104,7 +38104,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep deflecting aggressively so posture damage doesn't recover.",
       "Break his posture and land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Naomori%20Kawarada%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gcbxg-3K_qE"
   },
 {
     id: 1808,
@@ -38127,7 +38127,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pressure his posture between his attacks.",
       "Break posture and Deathblow him."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Leader%20Shigenori%20Yamauchi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NVpjO4P7asw"
   },
 {
     id: 1809,
@@ -38150,7 +38150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Chip posture steadily without over-committing.",
       "Break posture and finish with a Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20General%20Tenzen%20Yamauchi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oxTQ3wf_Gow"
   },
 {
     id: 1810,
@@ -38402,7 +38402,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Stay aggressive; his posture breaks easily.",
       "Land the Deathblow."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tokujiro%20the%20Glutton%20walkthrough"
+    video: "https://www.youtube.com/watch?v=M0CoZzlisMQ"
   },
 {
     id: 1822,
@@ -38425,7 +38425,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Its posture and health are low — a couple of hits stagger it.",
       "Land the Deathblow to dispel it."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sword%20Saint's%20Ripples%20(mist%20noble%20variants)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2FJrIJmZxkM"
   },
 {
     id: 1823,
@@ -38493,7 +38493,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report back to receive Gokan's Sugar and unlock further dialogue/items.",
       "Continue speaking with him after major story progress for additional content."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Tengu%20of%20Ashina%20%E2%80%94%20Rat%20Hunting%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yhnAcwsv6l4"
   },
 {
     id: 1826,
@@ -38516,7 +38516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Kotaro (found elsewhere) and send him to work for Anayama using the pinwheel item.",
       "Note: giving Kotaro to Anayama forecloses sending him to Nogami Kumano or Doujun — choose carefully."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Anayama%20the%20Peddler%20%26%20Kotaro%20%E2%80%94%20Ashina%20Outskirts%20Merchant%20Chain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GWDzKXkn3hI"
   },
 {
     id: 1827,
@@ -38539,7 +38539,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the thread across your return visits.",
       "See the questline to its (often grim) conclusion based on your choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Inosuke%20Nogami%20%2F%20Nogami%20Gensai%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zYYsOYL6C8o"
   },
 {
     id: 1828,
@@ -38561,7 +38561,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "You can also choose to send Kotaro to him instead of Anayama/Doujun, altering this questline's outcome.",
       "Continue checking in as the story advances for the concluding dialogue."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Jinzaemon%20Kumano%20%E2%80%94%20Swordsman%20Duel%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lpG6fRF9j4M"
   },
 {
     id: 1829,
@@ -38583,7 +38583,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Progressing his storyline reveals a darker side to his methods and eventually leads to a confrontation.",
       "Note: this forecloses the alternate outcomes for Kotaro's other two questline branches."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Doujun%20the%20Priest%20%E2%80%94%20Wandering%20Priest%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hiEio-6UMTU"
   },
 {
     id: 1830,
@@ -38629,7 +38629,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Remove it any time by praying to the Bell Demon at a Sculptor's Idol.",
       "Toggle it on/off to farm or to ease tough stretches."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Old%20Hag%20%E2%80%94%20Demon%20Bell%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RLordFOgrqY"
   },
 {
     id: 1832,
@@ -38651,7 +38651,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Her tasks are essential prerequisites for unlocking the Return ending.",
       "Continue fulfilling her requests through to the late game for the full questline payoff."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Divine%20Child%20of%20Rejuvenation%20%E2%80%94%20Return%20Ending%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qVajv7Ahdo4"
   },
 {
     id: 1833,
@@ -38697,7 +38697,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the illusion-hall objectives.",
       "Finish the sidestory for its reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Illusory%20Hall%20Monk%20%E2%80%94%20Halls%20of%20Illusion%20Sidestory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=htdwS4ryGZM"
   },
 {
     id: 1835,
@@ -38720,7 +38720,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return as you gather more trade goods.",
       "Complete his stock to round out your kit."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Battlefield%20Memorial%20Mob%20%26%20Blackhat%20Badger%20%E2%80%94%20Merchant%20Trade%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bfvRNcJ6Nro"
   },
 {
     id: 1836,
@@ -38743,7 +38743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Keep collecting Carp Scales from waterways to buy more hints.",
       "Use his intel to complete otherwise obscure questlines."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Fujioka%20the%20Info%20Broker%20%E2%80%94%20Information%20Questline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=amtzHquaYGw"
   },
 {
     id: 1837,
@@ -38766,7 +38766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Spend Emblems to fuel it; feed the Sculptor materials to upgrade it.",
       "Deploy it against shielded foes and posture-heavy mini-bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Axe%20%E2%80%94%20Acquisition%20%26%20Upgrade%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t89x2s3xGOw"
   },
 {
     id: 1838,
@@ -38789,7 +38789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (e.g., Projected Force) to counterattack from the block.",
       "Use it against gunners, Snake Eyes, and projectile-heavy fights."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Umbrella%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sjko1Aa9nSo"
   },
 {
     id: 1839,
@@ -38812,7 +38812,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it for more pull power and damage.",
       "Deploy it to disarm/expose armored and parasite-infested enemies."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Spear%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GOK8VsIgjCM"
   },
 {
     id: 1840,
@@ -38835,7 +38835,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (e.g., Spinning/Gyoubu's) for more hits and posture damage.",
       "Use it to control range and interrupt jumps."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Loaded%20Shuriken%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vCvVNCLlfsE"
   },
 {
     id: 1841,
@@ -38858,7 +38858,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (Okinaga's/Spring-load) for bigger bursts.",
       "Use it against beasts and the Guardian Ape, which fear fire."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Flame%20Vent%20%E2%80%94%20Acquisition%20Path%20(Anayama%20the%20Peddler%20questline)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PFkYHzO0M80"
   },
 {
     id: 1842,
@@ -38881,7 +38881,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it for faster poison build-up.",
       "Deploy it against rusted/corroded foes and poison-weak bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sabimaru%20%E2%80%94%20Acquisition%20Path%20(Poison-Perfect%20Tool)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AgcJcYvXgGU"
   },
 {
     id: 1843,
@@ -38904,7 +38904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade the fire branch to burst enemies with flame on the escape.",
       "Save it for unavoidable heavy hits and clutch escapes."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Mist%20Raven%20%2F%20Mist%20Raven's%20Feathers%20%E2%80%94%20Acquisition%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=i2hkHYUwXS0"
   },
 {
     id: 1844,
@@ -38927,7 +38927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Upgrade it (Malcontent path later) for a posture-stunning shriek vs apparitions.",
       "Deploy it against beast enemies and certain apparition bosses."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Finger%20Whistle%20%E2%80%94%20Acquisition%20Path%20(Guardian%20Ape%20related)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EVX5MCgLASQ"
   },
 {
     id: 1845,
@@ -39231,7 +39231,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track Kjotve's men to their camp and confront them.",
       "Complete the confrontation to trigger Eivor's memory of the wolf and the childhood massacre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Bound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4TK3mUh3OfQ"
   },
 {
     id: 1858,
@@ -39255,7 +39255,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink the seer's brew to enter the guided vision.",
       "Follow the dream sequence to its end to return to the waking world."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Seer's%20Solace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iBx1fg9GgM4"
   },
 {
     id: 1859,
@@ -39279,7 +39279,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to the longhouse for the feast and clan discussion.",
       "Follow the conversation about Kjotve and the clan's future to close the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Family%20Matters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tT9OH_Qjuik"
   },
 {
     id: 1860,
@@ -39303,7 +39303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to move against Kjotve to avenge the clan.",
       "Prepare your gear and speak to Sigurd to advance the plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Prodigal%20Prince%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fibmrbey00w"
   },
 {
     id: 1861,
@@ -39327,7 +39327,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the lieutenant and interrogate him for Kjotve's location.",
       "Report the intel back to Sigurd to plan the assault."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rude%20Awakening%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VuNWR8tKj4o"
   },
 {
     id: 1862,
@@ -39352,7 +39352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Win the multi-phase duel against Kjotve.",
       "Watch the aftermath as the clan's future in Norway is decided."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Cruel%20Destiny%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kk8Wdp9rQpY"
   },
 {
     id: 1863,
@@ -39376,7 +39376,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Sigurd about pledging to Harald or seeking a new path.",
       "Resolve the clan debate to set course for England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Birthrights%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZY-Jfq7Jym4"
   },
 {
     id: 1864,
@@ -39400,7 +39400,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Witness Sigurd's decision to reject subservience.",
       "Agree to leave Norway and seek fortune in England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Seas%20of%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Cs9PINWeRZo"
   },
 {
     id: 1865,
@@ -39424,7 +39424,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Board the ship with Sigurd and the crew.",
       "Set sail across the sea toward England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Swan-Road%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FevAvbgd_Ng"
   },
 {
     id: 1866,
@@ -39448,7 +39448,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Scout the immediate area for a settlement site.",
       "Push inland to secure the ground for Ravensthorpe."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unwelcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aM-4TqZcH18"
   },
 {
     id: 1867,
@@ -39472,7 +39472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Establish the settlement and place the first buildings.",
       "Explore your new hub and its upgrade options."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Settling%20Down%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GFzvooOh4Ik"
   },
 {
     id: 1868,
@@ -39496,7 +39496,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Review the suggested Power levels for each territory.",
       "Pledge to your first region (Ledecestrescire is the recommended start) to begin England's sagas."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Alliance%20Map%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TLPy_MbGL6U"
   },
 {
     id: 1869,
@@ -39520,7 +39520,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight alongside Ivarr to reach Ubba Ragnarsson.",
       "Secure the Sons of Ragnar's alliance against King Burgred of Mercia."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Sons%20of%20Ragnar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sUZu83SxNlg"
   },
 {
     id: 1870,
@@ -39544,7 +39544,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any guards or complications on site.",
       "Return the goods to the brothers to advance the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bartering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6Dg_GlNho-A"
   },
 {
     id: 1871,
@@ -39568,7 +39568,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather rumors and intel from the surrounding area.",
       "Report your findings to set up the assault."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rumors%20of%20Ledecestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=legs8AbbQLw"
   },
 {
     id: 1872,
@@ -39592,7 +39592,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the Roman ruins, clearing archers on the walls.",
       "Defeat the fort commander to claim Templebrough."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Walls%20of%20Templebrough%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gCOWTUsSUyo"
   },
 {
     id: 1873,
@@ -39616,7 +39616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the fortified buildings and towers of Saxon soldiers.",
       "Seize the city and confront its leadership."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Tilting%20the%20Balance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cFWHPWIgNSI"
   },
 {
     id: 1874,
@@ -39640,7 +39640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support the installation of a client king (Ceolwulf).",
       "Resolve the political fallout to end the main fighting."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Heavy%20Is%20the%20Head%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4TEic8uFwoA"
   },
 {
     id: 1875,
@@ -39664,7 +39664,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Corner and confront the target.",
       "Finish the pursuit to secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunted%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eNqmMlXUIOo"
   },
 {
     id: 1876,
@@ -39712,7 +39712,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help root out the traitor in her ranks.",
       "Begin investigating the leads she provides."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Great%20Scattered%20Army%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DUqJEfeq9YI"
   },
 {
     id: 1878,
@@ -39736,7 +39736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the clue pointing toward the traitor.",
       "Return the intel to Soma's people."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Orphans%20of%20the%20Fens%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4LhWvQcYCoY"
   },
 {
     id: 1879,
@@ -39760,7 +39760,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interrogate the leader for information.",
       "Report back with what you learn about the traitor."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Glory%20Regained%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbzxSk4qwRo"
   },
 {
     id: 1880,
@@ -39784,7 +39784,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Set fire to the marked supplies.",
       "Escape or clear the remaining defenders to finish the raid."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Razing%20Earnningstone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GYpKxw22QR4"
   },
 {
     id: 1881,
@@ -39808,7 +39808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and deal with the target.",
       "Take the evidence back toward Soma."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Unholy%20Father%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ffRKBRHUw8c"
   },
 {
     id: 1882,
@@ -39832,7 +39832,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the courtyard and inner keep of enemy soldiers.",
       "Retake the fort for Soma."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20Ravensburg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BEqtDP4sRjc"
   },
 {
     id: 1883,
@@ -39856,7 +39856,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the assembled suspects.",
       "Name the traitor and deal with the betrayal."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stench%20of%20Treachery%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JTXHr7bmWBQ"
   },
 {
     id: 1884,
@@ -39880,7 +39880,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the region alongside Soma.",
       "Conclude the confrontation to end the saga."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Island%20of%20Eels%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pKiejLrjGUs"
   },
 {
     id: 1885,
@@ -39904,7 +39904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Grantebridgescire outcome.",
       "Place the alliance bloom and pick your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Grantebridgescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3zfzJ9FkBt8"
   },
 {
     id: 1886,
@@ -39928,7 +39928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help Oswald claim his birthright.",
       "Begin the campaign to weaken Rued's grip."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingmaker%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iuO2FPBg-jo"
   },
 {
     id: 1887,
@@ -39952,7 +39952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support Oswald through his trials.",
       "Prove the alliance's strength to the locals."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Measure%20of%20a%20Norseman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MPyhIJgRxp0"
   },
 {
     id: 1888,
@@ -39976,7 +39976,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rally the freed locals to Oswald's banner.",
       "Return in triumph to strengthen the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Triumphant%20Return%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYsdWAG3xIg"
   },
 {
     id: 1889,
@@ -40000,7 +40000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the iron and arms to Oswald's camp.",
       "Prepare for the confrontation with Rued."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Raising%20Iron%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OiUL5RBe_SA"
   },
 {
     id: 1890,
@@ -40024,7 +40024,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push back the assault with Oswald's forces.",
       "Break Rued's momentum to set up the final reckoning."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Fury%20from%20the%20Sea%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OtWUkc9OIYc"
   },
 {
     id: 1891,
@@ -40048,7 +40048,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight or oversee the duel against Rued.",
       "Defeat Rued to secure Oswald's rule and the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Wedding%20Horns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CjCjOf5M7z4"
   },
 {
     id: 1892,
@@ -40071,7 +40071,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report Oswald's marriage and the East Anglia alliance.",
       "Place the alliance bloom and choose your next pledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20East%20Anglia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Im4kAa8E_OA"
   },
 {
     id: 1893,
@@ -40095,7 +40095,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help spark a rebellion.",
       "Begin striking at the paladin's holdings."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Brewing%20Rebellion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eizUj-FVFkg"
   },
 {
     id: 1894,
@@ -40143,7 +40143,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the objective under pressure.",
       "Regroup with Geadric's people."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Blood%20from%20a%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_8CXZwk66yQ"
   },
 {
     id: 1896,
@@ -40167,7 +40167,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weaken the enemy's hold on the region.",
       "Report the progress to Geadric."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Chipping%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C1MUOC1v_IQ"
   },
 {
     id: 1897,
@@ -40191,7 +40191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Protect your allies as you break out.",
       "Escape the encirclement to regroup."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Fiery%20Ambush%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_80qnYHyZtE"
   },
 {
     id: 1898,
@@ -40215,7 +40215,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight up through the castle's tiers, clearing archers.",
       "Defeat the garrison commander to take the castle."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ringing%20Cyne%20Belle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ugiITeORmc0"
   },
 {
     id: 1899,
@@ -40239,7 +40239,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the fate of Geadric's rebellion.",
       "Secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Saga%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kViZE6BDGjc"
   },
 {
     id: 1900,
@@ -40263,7 +40263,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Oxenefordscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Oxenefordscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ru9vjGjSBw"
   },
 {
     id: 1901,
@@ -40287,7 +40287,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help secure Lunden.",
       "Begin operating in the city's ruins and streets."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Walls%20and%20Shadows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9llf5RzaJa0"
   },
 {
     id: 1902,
@@ -40311,7 +40311,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target or seize the position.",
       "Withdraw and report to Erke."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Firing%20the%20Arrow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XfeVKZ6KGoI"
   },
 {
     id: 1903,
@@ -40381,7 +40381,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Lunden alliance at the Alliance Map.",
       "Place the alliance bloom — Randvi can also arrange passage to Vinland (power 160) from the map."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lunden%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4kqa_CpWwos"
   },
 {
     id: 1906,
@@ -40405,7 +40405,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to press the campaign in the region.",
       "Set out with Ivarr on the war path."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20Weary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYqS3m0S47M"
   },
 {
     id: 1907,
@@ -40429,7 +40429,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the escorting guards.",
       "Report the successful raid."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Supply%20Line%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qz7L4n_YmH0"
   },
 {
     id: 1908,
@@ -40453,7 +40453,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break into the locked supply rooms.",
       "Escape with the loot before reinforcements arrive."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Ransacking%20Wenlocan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EBLtnFWrKwA"
   },
 {
     id: 1909,
@@ -40477,7 +40477,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the consequences of Ivarr's actions.",
       "Push toward the confrontation with King Ceolwulf's line."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Bloody%20Path%20to%20Peace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lh9UokO9KAg"
   },
 {
     id: 1910,
@@ -40501,7 +40501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure both stages of the fight.",
       "Resolve Ivarr's story and secure the region's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20King%20Killer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=45Ai4Sm8pxg"
   },
 {
     id: 1911,
@@ -40525,7 +40525,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Sciropescire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Sciropescire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qOrxYofBqbE"
   },
 {
     id: 1912,
@@ -40549,7 +40549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to uncover the conspiracy.",
       "Follow the first lead into the region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Abbot's%20Gambit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dgxa_P1RIag"
   },
 {
     id: 1913,
@@ -40573,7 +40573,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captives and gather evidence.",
       "Escort or report the freed prisoners."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Puppets%20and%20Prisoners%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2apS4bhwHqk"
   },
 {
     id: 1914,
@@ -40597,7 +40597,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Extract the identity of the true mastermind.",
       "Prepare to strike the final target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Man%20Behind%20the%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-q7Nx6O7-EY"
   },
 {
     id: 1915,
@@ -40621,7 +40621,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat the leader.",
       "Secure Cent's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Bloody%20Welcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ObAx8KQoOzg"
   },
 {
     id: 1916,
@@ -40645,7 +40645,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Cent outcome.",
       "Place the alliance bloom and choose your next pledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Cent%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SaCVHQ8g-eg"
   },
 {
     id: 1917,
@@ -40669,7 +40669,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help navigate the situation.",
       "Follow the first thread of the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20An%20Uncommon%20Proposition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pWBjSsQYL5E"
   },
 {
     id: 1918,
@@ -40693,7 +40693,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the buried history.",
       "Report your findings to move the story forward."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Wounds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44gnkmNDK3Y"
   },
 {
     id: 1919,
@@ -40717,7 +40717,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the obstacles standing in the way.",
       "Advance the entangled relationship."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Childhood%20Sweetheart%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K3bSr7eY-1w"
   },
 {
     id: 1920,
@@ -40741,7 +40741,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assault the camp holding the captive.",
       "Free the prisoner and return them safely."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taken%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eaYlDqizrKQ"
   },
 {
     id: 1921,
@@ -40765,7 +40765,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make the decisive choice.",
       "Resolve the saga and secure the alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Twists%20and%20Turns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=An3tCgfHpes"
   },
 {
     id: 1922,
@@ -40789,7 +40789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Essexe outcome.",
       "Place the alliance bloom and pick your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Essexe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K1T42SOI6Ko"
   },
 {
     id: 1923,
@@ -40813,7 +40813,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to escort and protect the couple.",
       "Set out across Lincolnscire."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Noble%20Escort%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IRlUtw-rrw8"
   },
 {
     id: 1924,
@@ -40837,7 +40837,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and secure the family estate.",
       "Settle Hunwald into his homecoming."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Homecoming%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r3Nzb3l6MRA"
   },
 {
     id: 1925,
@@ -40861,7 +40861,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with those exploiting the vacuum.",
       "Report your findings to Hunwald."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20the%20Absence%20of%20an%20Ealdorman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lBDOPD9eCOA"
   },
 {
     id: 1926,
@@ -40885,7 +40885,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the salve or support under threat.",
       "Deliver it and advance the story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Salve%20for%20a%20Fresh%20Wound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pY11T-2CLwY"
   },
 {
     id: 1927,
@@ -40909,7 +40909,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the intrigue at the heart of the city.",
       "Advance toward exposing the corruption."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Thegn%20of%20Lincoln%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hF93E4TWUSc"
   },
 {
     id: 1928,
@@ -40933,7 +40933,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the bishop over his crimes.",
       "Set up the saga's resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20the%20Stone%20Falls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-XX2SZQd1WI"
   },
 {
     id: 1929,
@@ -40957,7 +40957,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break the opposing force's leadership.",
       "Win the day and secure Hunwald's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Sword-Shower%20in%20Anecastre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U1laock7l_Q"
   },
 {
     id: 1930,
@@ -40981,7 +40981,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Lincolnscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Lincolnscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BxuA9croeUc"
   },
 {
     id: 1931,
@@ -41005,7 +41005,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to bring him down.",
       "Begin the campaign against his forces."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reaver%20of%20the%20South%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mgKmtVuCo6s"
   },
 {
     id: 1932,
@@ -41029,7 +41029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure a foothold in the region.",
       "Prepare for the push toward Portcestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Arrive%20Unexpected%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iUBxZttxHnA"
   },
 {
     id: 1933,
@@ -41053,7 +41053,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through defenders as needed.",
       "Withdraw once the stores are ash."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Let%20Them%20Eat%20Ashes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=W8QO94m8CWg"
   },
 {
     id: 1934,
@@ -41077,7 +41077,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weaken the reaver's remaining forces.",
       "Set the stage for the siege of Portcestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Scorched%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6VcjEVbLb3A"
   },
 {
     id: 1935,
@@ -41101,7 +41101,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sever the lines feeding Portcestre.",
       "Report readiness for the siege."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Severing%20the%20Lines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ddNWURSKu9s"
   },
 {
     id: 1936,
@@ -41125,7 +41125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fortress tiers, clearing archers.",
       "Reach and defeat the fortress commander."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Storming%20the%20Walls%20walkthrough"
+    video: "https://www.youtube.com/watch?v=baodHG7R36w"
   },
 {
     id: 1937,
@@ -41149,7 +41149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the fallout of the southern campaign.",
       "Secure Suthsexe's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20All%20That%20Has%20Passed...%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dzkWeX5rfoM"
   },
 {
     id: 1938,
@@ -41173,7 +41173,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Suthsexe outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Suthsexe%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mzDd4kLdgRA"
   },
 {
     id: 1939,
@@ -41197,7 +41197,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet the local Norse and Indigenous contacts.",
       "Begin hunting the hidden Order target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20In%20a%20Strange%20Land%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5wSyLctyjH8"
   },
 {
     id: 1940,
@@ -41221,7 +41221,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track signs of the Order's activity.",
       "Follow the lead toward the target."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Hunting%20Grounds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4JqclYbFh9Y"
   },
 {
     id: 1941,
@@ -41245,7 +41245,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring it down with bow and blade.",
       "Return to earn the locals' trust."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter%20of%20Beasts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yFC8DhLRkwc"
   },
 {
     id: 1942,
@@ -41269,7 +41269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate or defeat the target.",
       "Conclude the Vinland saga and return to England."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Hunter's%20Repast%20walkthrough"
+    video: "https://www.youtube.com/watch?v=89_S2Akth30"
   },
 {
     id: 1943,
@@ -41293,7 +41293,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Log the Order target's elimination.",
       "Resume England's campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Vinland%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yFgoklz_1BA"
   },
 {
     id: 1944,
@@ -41317,7 +41317,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to hunt the conspirators.",
       "Follow the first clue into Jorvik's streets."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Welcoming%20Party%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0KIhrwRkr2Y"
   },
 {
     id: 1945,
@@ -41341,7 +41341,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate the target.",
       "Recover the clue to the next conspirator."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Burning%20the%20Firebrand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Mbv4js0UAtE"
   },
 {
     id: 1946,
@@ -41365,7 +41365,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target.",
       "Recover the clue to the cell's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Pricking%20the%20Needle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d0zEtT8PtLY"
   },
 {
     id: 1947,
@@ -41388,7 +41388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Inspect the wine at the end of the hidden room.",
       "Assassinate the Vault, then learn what Hjorr needed the silver for."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Closing%20the%20Vault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Fymurf7Qwp4"
   },
 {
     id: 1948,
@@ -41436,7 +41436,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to fight alongside him.",
       "Begin the campaign in the north."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20War%20in%20the%20North%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9AlJ2wLlVsI"
   },
 {
     id: 1950,
@@ -41460,7 +41460,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weigh the competing claims of loyalty.",
       "Advance the intrigue."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor%20Has%20Two%20Edges%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fvjqh-3mtzI"
   },
 {
     id: 1951,
@@ -41484,7 +41484,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Support Halfdan's advance.",
       "Push toward the confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Road%20to%20Hamartia%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V9vDmvWlHs0"
   },
 {
     id: 1952,
@@ -41508,7 +41508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront those involved.",
       "Bring the truth to Halfdan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20This%20Son%20of%20Jorvik%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_Nhd6dtx0MA"
   },
 {
     id: 1953,
@@ -41532,7 +41532,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fallout.",
       "Set up the saga's resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Honor's%20Hubris%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FwNN79Ngvcc"
   },
 {
     id: 1954,
@@ -41556,7 +41556,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve Halfdan's story.",
       "Secure Eurvicscire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Bonds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vbPI2erjPUk"
   },
 {
     id: 1955,
@@ -41580,7 +41580,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Eurvicscire outcome.",
       "Place the alliance bloom and choose your next region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Eurvicscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9yRnjKCgqvk"
   },
 {
     id: 1956,
@@ -41604,7 +41604,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Claim any final rewards.",
       "Close out the Eurvicscire story."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Lost%20Glory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rnt2cfhLyLk"
   },
 {
     id: 1957,
@@ -41628,7 +41628,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to investigate the killings.",
       "Begin gathering clues at the festival."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20First%20Night%20of%20Samhain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yU5hWSMOoGo"
   },
 {
     id: 1958,
@@ -41652,7 +41652,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail toward the cult.",
       "Uncover the next lead."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Clues%20and%20Riddles%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QnckIgOvDhw"
   },
 {
     id: 1959,
@@ -41676,7 +41676,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Infiltrate and locate the captive.",
       "Free or confront the situation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Stolen%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ACSVcrydVT0"
   },
 {
     id: 1960,
@@ -41700,7 +41700,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth behind the murders.",
       "Advance toward the cult's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Love%20Betrayed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6LCYMpY3MrE"
   },
 {
     id: 1961,
@@ -41724,7 +41724,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the cult's key figure.",
       "Set up the final reckoning."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Gutted%20Lamb%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RHAhKgO7YSs"
   },
 {
     id: 1962,
@@ -41748,7 +41748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unmask and confront the cult's leader.",
       "End the cult and secure Glowecestrescire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Burning%20of%20the%20Wicker%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xcF6FMqnqu0"
   },
 {
     id: 1963,
@@ -41796,7 +41796,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to help resolve the conflict.",
       "Begin working the region's politics."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Old%20Friends%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uK3EpJgrpWY"
   },
 {
     id: 1965,
@@ -41820,7 +41820,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the scheme at play.",
       "Report your findings."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20On%20Borrowed%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FBY61RLW4JE"
   },
 {
     id: 1966,
@@ -41844,7 +41844,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the item or favor.",
       "Deliver it to advance the peace."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Adorning%20the%20Adorned%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fjeEX8z4kro"
   },
 {
     id: 1967,
@@ -41868,7 +41868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the ringleaders.",
       "Restore some calm to the region."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Rowdy%20Raiders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_PPziC9Xf0g"
   },
 {
     id: 1968,
@@ -41892,7 +41892,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the consequences.",
       "Push toward the saga's climax."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Of%20Blood%20and%20Gods%20walkthrough"
+    video: "https://www.youtube.com/watch?v=72xFqDfCI7s"
   },
 {
     id: 1969,
@@ -41916,7 +41916,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the fallout.",
       "Set up the resolution."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Under%20the%20Skin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TZRvKToX6Mo"
   },
 {
     id: 1970,
@@ -41940,7 +41940,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Say your farewells and resolve Trygve's story.",
       "Secure Snotinghamscire's alliance."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Farewells%20and%20Legacies%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BnfaNkDMlg8"
   },
 {
     id: 1971,
@@ -41988,7 +41988,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Agree to hunt the conspirators.",
       "Follow the first clue through Wincestre."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Reeve%20of%20Wincestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VNcDopW93_s"
   },
 {
     id: 1973,
@@ -42012,7 +42012,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate the target.",
       "Recover the clue to the next member."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Choking%20the%20Gallows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_qxsUDY7WsI"
   },
 {
     id: 1974,
@@ -42036,7 +42036,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Eliminate the target.",
       "Recover the clue to the cell's leader."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Plucking%20the%20Quill%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PiAcIlpwgxA"
   },
 {
     id: 1975,
@@ -42059,7 +42059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Head into the main church as the Seax (Ealhferth) moves on King Aelfred.",
       "Assassinate Ealhferth to break the Wincestre cell."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Impaling%20the%20Seax%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HRBfy_mjPHY"
   },
 {
     id: 1976,
@@ -42083,7 +42083,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Wincestre outcome.",
       "Place the alliance bloom and prepare for the endgame."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Wincestre%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7K9wa-JUvOo"
   },
 {
     id: 1977,
@@ -42107,7 +42107,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the chapter's challenges.",
       "Advance the revelations about the clan."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Where%20Legends%20Are%20Born%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dYU1kDtJfsI"
   },
 {
     id: 1978,
@@ -42131,7 +42131,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the key encounters.",
       "Resolve this stage of the Norway return."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Brother's%20Keeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OfPAJ4TKAKA"
   },
 {
     id: 1979,
@@ -42155,7 +42155,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the climactic battles.",
       "Face the decisive confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Kingdom's%20End%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3LodAOW6ySQ"
   },
 {
     id: 1980,
@@ -42179,7 +42179,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the conflict with Alfred and the Order.",
       "Conclude the main campaign's arc."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Holy%20Day%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d52YjT0Ved0"
   },
 {
     id: 1981,
@@ -42203,7 +42203,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the Hamtunscire outcome.",
       "Reflect on the completed alliance campaign."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Reporting%20on%20Hamtunscire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CQi8WT0nbpI"
   },
 {
     id: 1982,
@@ -42227,7 +42227,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore Asgard and meet the Aesir.",
       "Begin Odin's quest to protect Asgard from prophecy."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20View%20Above%20All%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-CF-kS1Uucc"
   },
 {
     id: 1983,
@@ -42251,7 +42251,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out the plan to cheat the builder of his price.",
       "Secure the wall and deal with the fallout."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Well-Traveled%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kej04x2w0eY"
   },
 {
     id: 1984,
@@ -42275,7 +42275,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rally the Aesir to the cause.",
       "Advance Odin's preparations."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Defensive%20Measures%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nwQDiKMQAys"
   },
 {
     id: 1985,
@@ -42299,7 +42299,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Address the tensions among the gods.",
       "Gather Odin's family to the cause."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Extended%20Family%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8zKv3q8kz9U"
   },
 {
     id: 1986,
@@ -42323,7 +42323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cement the alliance.",
       "Return to Asgard's central hall."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4-h37JgpWKw"
   },
 {
     id: 1987,
@@ -42347,7 +42347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect what's needed for the binding.",
       "Return to prepare the great binding."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feline's%20Footfall%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kn0wPIw9pEo"
   },
 {
     id: 1988,
@@ -42371,7 +42371,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Protect Asgard's stability.",
       "Advance toward the binding."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Taking%20Root%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vz3-2z6kaXM"
   },
 {
     id: 1989,
@@ -42395,7 +42395,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve any lingering tension.",
       "Prepare for the arc's climax."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Forging%20a%20Bond%2C%20Revisited%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kMpsGNmQ7IM"
   },
 {
     id: 1990,
@@ -42443,7 +42443,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure Fenrir's resistance.",
       "Secure the binding and its terrible cost."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Binding%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=geZ7NfmsMOs"
   },
 {
     id: 1992,
@@ -42467,7 +42467,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make Odin's fateful final choices.",
       "Conclude the Asgard arc and wake as Eivor."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Cheating%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=n-k07RYWYOo"
   },
 {
     id: 1993,
@@ -42491,7 +42491,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seek out Angrboda in the Iron Wood.",
       "Begin the quest for hidden knowledge."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Mistress%20of%20the%20Iron%20Wood%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HXERelIspHk"
   },
 {
     id: 1994,
@@ -42515,7 +42515,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Overcome the guardians or obstacles.",
       "Claim the cauldron's secret."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Lost%20Cauldron%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UNnN_2VYUPc"
   },
 {
     id: 1995,
@@ -42539,7 +42539,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Secure the promised gift.",
       "Advance Odin's search."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Gift%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=P7DngPMLmpI"
   },
 {
     id: 1996,
@@ -42563,7 +42563,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the needed knowledge or item.",
       "Slip away before the ruse collapses."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20A%20Feast%20to%20Remember%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2W5Kxj-Jt8I"
   },
 {
     id: 1997,
@@ -42587,7 +42587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gain the forbidden knowledge.",
       "Conclude the Jotunheim arc and return to the waking world."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20The%20Price%20of%20Wisdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CT5qppg8FGA"
   },
 {
     id: 1998,
@@ -42612,7 +42612,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assassinate members tier by tier, working up toward the Order's leadership.",
       "Unmask and eliminate the Fathers of Understanding to complete the hunt and claim its unique rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Assassin's%20Creed%20Valhalla%20Order%20of%20the%20Ancients%20%E2%80%94%20Full%20Hunt%20Overview%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p9u23QMrasM"
   },
 {
     id: 1999,
@@ -49919,7 +49919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Nakanohara (Obariyon) — weak to Electric.",
       "Return to the hideout to report completion and claim your reward (Attachment Pearl)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Beware%20the%20Clingy%20Ex-Boyfriend%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r7_N8LooOHU"
   },
   {
     id: 2544,
@@ -49940,7 +49940,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Takanashi (Jack Frost) — Confuse works well.",
       "Return to the hideout to report completion and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Bark%20and%20Bite%20of%20a%20Bully%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MGDKBBQ868w"
   },
   {
     id: 2545,
@@ -49961,7 +49961,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Low difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Nuisance Belt)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Elderly's%20Meaning%20of%20Life%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jd_m6ZOIs3k"
   },
   {
     id: 2546,
@@ -49982,7 +49982,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Aino (Nekomata) — weak to Wind.",
       "Return to the hideout to report completion and claim your reward (Cat Brooch)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20If%20Cats%20Disappeared%20From%20the%20City%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=03XUTtU9SYQ"
   },
   {
     id: 2547,
@@ -50003,7 +50003,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Shimizu (Yaksini) — weak to Fire and Bless.",
       "Return to the hideout to report completion and claim your reward (Whip Sword)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Sadism%20Is%20Just%20a%20Sign%20of%20Love%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G35vbr0slrA"
   },
   {
     id: 2548,
@@ -50024,7 +50024,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Chinese Sweets)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Part-Time%20Job%2C%20Full-Time%20Hell%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sFzjIxsbAxA"
   },
   {
     id: 2549,
@@ -50045,7 +50045,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Oyamada (Thoth) — no elemental weakness; susceptible to Confuse and Sleep.",
       "Return to the hideout to report completion and claim your reward (Mediarama)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Bad%20Medicine%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6FR8nVngO30"
   },
   {
     id: 2550,
@@ -50066,7 +50066,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Sleep Stick)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Ending%20the%20Boyfriend's%20Abuse%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rXmtJC56gXg"
   },
   {
     id: 2551,
@@ -50087,7 +50087,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Sticky Hairball)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Lovesick%20Cyberstalking%20Girl%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=THO5bpkZC5E"
   },
   {
     id: 2552,
@@ -50108,7 +50108,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow — weak to Fire and Bless.",
       "Return to the hideout to report completion and claim your reward (Blood Scimitar)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Calling%20for%20Justice%20for%20Cats%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lAyM35YdFcY"
   },
   {
     id: 2553,
@@ -50129,7 +50129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Prophet's Hand)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Debunking%20the%20Psychic!%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8MSRG0_i7EE"
   },
   {
     id: 2554,
@@ -50150,7 +50150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Tsuda (Belphegor) — no weakness, so bring raw damage.",
       "Return to the hideout to report completion and claim your reward (Weird Wrap)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Shady%20Deal%20in%20the%20Shadows%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FhhBp8Mmq6A"
   },
   {
     id: 2555,
@@ -50171,7 +50171,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Charge)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Been%20Assaulting%20People%3F%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LfZPm0qxGbw"
   },
   {
     id: 2556,
@@ -50192,7 +50192,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow (Kumbhanda) — weak to Bless.",
       "Return to the hideout to report completion and claim your reward (Theme Park Escort)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20We%20Aren't%20Just%20Your%20Slaves%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OPzODVW2xrQ"
   },
   {
     id: 2557,
@@ -50213,7 +50213,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Invigorate 3)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fighting%20for%20Truth%20in%20Journalism%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3l0yutBCHkc"
   },
   {
     id: 2558,
@@ -50234,7 +50234,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (Medium difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Shitamachi Reborn)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Who's%20Muscling%20in%20Yongen-Jaya%3F%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wB1Fp2b4I84"
   },
   {
     id: 2559,
@@ -50255,7 +50255,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow — weak to Electric.",
       "Return to the hideout to report completion and claim your reward (Thermopylae)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Man%20of%20Many%20Faces%20and%20Debts%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N-UaKQJZrbM"
   },
   {
     id: 2560,
@@ -50276,7 +50276,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Bead Chain)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Upstaging%20the%20Stage%20Mother%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7-pIngfVqEI"
   },
   {
     id: 2561,
@@ -50297,7 +50297,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Isshiki — no weakness and resists Physical; use magic.",
       "Return to the hideout to report completion and claim your reward (Venture Saber)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Money-Grubbing%20Uncle%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=361xodDNHyM"
   },
   {
     id: 2562,
@@ -50318,7 +50318,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Growth 3)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Daughter's%20Just%20a%20Meal%20Ticket%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q3Dm_pkeYko"
   },
   {
     id: 2563,
@@ -50339,7 +50339,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Soma)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Mother's%20Aggression%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_fjptqMZRc4"
   },
   {
     id: 2564,
@@ -50360,7 +50360,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Haten Robe)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Swindling%20Old%20Folk%20is%20Pretty%20Low%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZpFJwAHzNZY"
   },
   {
     id: 2565,
@@ -50381,7 +50381,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Arihara (Tam Lin) — no weakness.",
       "Return to the hideout to report completion and claim your reward (Agitation Crown)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Lady-Killer's%20Ballad%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jQqHfge363M"
   },
   {
     id: 2566,
@@ -50402,7 +50402,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Shadow Asakura (Mara) — weak to Nuke.",
       "Return to the hideout to report completion and claim your reward (Immortal Vest)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20The%20Head%20Honcho%20in%20Showbiz%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z_FYkQA7ZyQ"
   },
   {
     id: 2567,
@@ -50423,7 +50423,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow — weak to Bless.",
       "Return to the hideout to report completion and claim your reward (Spiral Hell Ring)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20A%20Small%20Cry%20for%20Help%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RiKj9zZjHw8"
   },
   {
     id: 2568,
@@ -50465,7 +50465,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (One-Shot Kill)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20An%20Idol%20and%20a%20Unicorn%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b644NDyHBs4"
   },
   {
     id: 2570,
@@ -50486,7 +50486,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target Shadow mini-boss (High difficulty) — exploit its elemental weakness for a swift win.",
       "Return to the hideout to report completion and claim your reward (Eccentric Belt)."
     ],
-    video: "https://www.youtube.com/results?search_query=Persona%205%20Royal%20Fake-Man%20Show%20Mementos%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MmHrWEJsFXg"
   },
 {
     id: 2359,
@@ -50508,7 +50508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to Maerwald — a spirit seizes him and forces combat; defeat him and the Flame Blight.",
       "Return to the surface to claim Caed Nua; the story continues with Never Far from the Queen."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Old%20Watcher%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9Q6MDZ3RSvE"
   },
 {
     id: 2360,
@@ -50530,7 +50530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Aldhelm at the top to learn of the soul machine and the masked man who killed his team.",
       "Report back; Icantha in Copperlane can read the Engwithan runes and help stop the machine."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Undying%20Heritage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kXemUbaUYII"
   },
 {
     id: 2363,
@@ -50552,7 +50552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the shipment.",
       "Return to Tuatanu for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Smith's%20Shipment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BYA2MXKiutY"
   },
 {
     id: 2364,
@@ -50574,7 +50574,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drain the flooded bath chamber with the valve to the north and take the key for the second door.",
       "Collect the priests' bones on the lowest level and bring them back to Wirtan."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Buried%20Secrets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=onBx-HuU5mk"
   },
 {
     id: 2365,
@@ -50596,7 +50596,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dismiss them (Aggressive, Cruel or Diplomatic) or pay them (Benevolent) for Prestige.",
       "Speak to Marshal Forwyn to prepare for The Battle of Yenwood Field."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Return%20to%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-44w8wF4m4o"
   },
 {
     id: 2366,
@@ -50618,7 +50618,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When Chancellor Warrin arrives, hear the Erl's demand for taxes.",
       "Agree (Diplomatic, Rational or Stoic) to end the quest, or refuse and lose Defiance Bay reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Battle%20of%20Yenwood%20Field%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MRmiJENvUnU"
   },
 {
     id: 2367,
@@ -50640,7 +50640,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return all three pieces to Tcharek on Level 12.",
       "Receive the dagger Drawn in Spring; Krivi now trades scrolls, gems and light armor."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Master's%20Tools%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WRrb5t2tzvA"
   },
 {
     id: 2368,
@@ -50662,7 +50662,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Moedred and learn where Rowyna's soul is held.",
       "Bring the Soulward Amulet to Dalton and choose to free Rowyna or keep the amulet."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Voice%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=x4HXt3fpejc"
   },
 {
     id: 2369,
@@ -50684,7 +50684,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expose and fight Nyrid, who reveals himself as you strike the final blow.",
       "Return to Kaenra to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20His%20Old%20Self%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SDSlSbVg_TU"
   },
 {
     id: 2370,
@@ -50706,7 +50706,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Cail the Silent and take the Burning Stone (and his Drake Talon).",
       "Return the stone to Fyrga for the flail Unforgiven and a large reputation boost."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Cinders%20of%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=w7_LhVDBg2s"
   },
 {
     id: 2371,
@@ -50728,7 +50728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill her, or resolve it peacefully through dialogue.",
       "Tell Niah; the ruin reopens as The Wailing Banshee tavern."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Wailing%20Banshee%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qqJxKaVe5z4"
   },
 {
     id: 2372,
@@ -50750,7 +50750,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the occupant — persuade, intimidate or fight.",
       "Report back to Maea for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Supply%20and%20Demand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ro8e9PPmiGg"
   },
 {
     id: 2373,
@@ -50772,7 +50772,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Verzano; Pallegina arrives to say the Republics no longer protect him.",
       "Choose how to resolve Verzano's fate, then recruit Pallegina."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20At%20All%20Costs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WG_RMg6oKTg"
   },
 {
     id: 2374,
@@ -50794,7 +50794,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the Theorems of Pandgram — or warn High Archivist Grimda instead (200cp).",
       "Deliver the book to Nedyn for 500cp; press her diplomatically for the Ring of Eternal Funding."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Theorems%20of%20Pandgram%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7jlmz2NmCAo"
   },
 {
     id: 2375,
@@ -50816,7 +50816,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the medallion to Thristwn.",
       "Collect your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Far%20from%20Home%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XQ5lUAnXO3s"
   },
 {
     id: 2376,
@@ -50838,7 +50838,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Gaderman at his home — three outcomes are possible.",
       "Report back for 3,000cp, or refuse payment (Benevolent) for more reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Final%20Act%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IoscMa0r55I"
   },
 {
     id: 2377,
@@ -50860,7 +50860,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Or kill him and take his head.",
       "Return to Rumbald for 600cp, the Piglet pet and Lead Spitter."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Farmer's%20Plight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zrmyihM_8xE"
   },
 {
     id: 2378,
@@ -50882,7 +50882,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend into the Dyrford Ruins and face the Skaen cultists led by Wymund.",
       "Resolve Aelys's fate, loot Wymund's key for Aattuuk, and report to Lord Harond."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Blood%20Legacy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XZa4GIH4cig"
   },
 {
     id: 2380,
@@ -50904,7 +50904,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the Fangs — negotiate, sacrifice Esmar, or fight.",
       "Return to Cwineth for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20At%20the%20Mercy%20of%20the%20Tribes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zFJ1RGIXL60"
   },
 {
     id: 2381,
@@ -50926,7 +50926,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report to Anamfath Bethwyl at the back of the Passage of the Six.",
       "Side with Ridai or Arthwyn when she summons them both."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hunter%2C%20Brother%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wwv1U8BdE9c"
   },
 {
     id: 2382,
@@ -50948,7 +50948,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Simoc and pass his skill checks.",
       "He drinks the poison and gives you Thy Clef — or the deception fails and you fight."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Sacrificial%20Bloodlines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GPu5Rka3gNg"
   },
 {
     id: 2383,
@@ -50970,7 +50970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear Glasvahl out: his people want to enter the White Void so their souls can die.",
       "Choose one of three responses; attacking turns all of Noonfrost hostile."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Into%20the%20White%20Void%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J-xUxBuZtps"
   },
 {
     id: 2384,
@@ -50992,7 +50992,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to Blood Sands and defeat Archdruid Rehstin.",
       "Return to Berath's shrine to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Servant%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1tWeARPjBjY"
   },
 {
     id: 2385,
@@ -51014,7 +51014,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Spare it or fight it.",
       "Loot the bone piles for Godansthunyr, Willbreaker and Pensiavi mes Rei."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Nest%20Above%20the%20Clouds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BmEFMOWNeBc"
   },
 {
     id: 2386,
@@ -51036,7 +51036,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the other side — for Sul, that means Oernos and Einden.",
       "Report to Galawain's shrine in Teir Evron."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Old%20Queen%20and%20the%20New%20King%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FwpRz9mkbMI"
   },
 {
     id: 2387,
@@ -51058,7 +51058,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Alwah from her cell.",
       "Report back to Larha."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Prison%20of%20Ice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SYlfhZHKJJ8"
   },
 {
     id: 2388,
@@ -51080,7 +51080,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Osric's Family Breastplate by deal, theft or force.",
       "Return it to Osric — this opens Bronze Beneath the Lake (and commits you to The Dozens)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Rogue%20Knight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ajAo8u2BfM"
   },
 {
     id: 2389,
@@ -51101,7 +51101,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete his task.",
       "Return to Clyver — Winds of Steel unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Built%20to%20Last%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xv1wDPejJkY"
   },
 {
     id: 2390,
@@ -51122,7 +51122,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the mission he sets.",
       "Report back — you can now call on the Knights during A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Winds%20of%20Steel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ST0txgrFp3g"
   },
 {
     id: 2391,
@@ -51143,7 +51143,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. You can often talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Two%20Story%20Job%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iw9baLto1JE"
   },
 {
     id: 2392,
@@ -51164,7 +51164,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak to Gedmar Doemenel and accept his job (this locks out the other factions).",
       "Complete it and report back — you can call on Doemenel allies during A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Changing%20of%20the%20Guard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HMH5nAGx6Jw"
   },
 {
     id: 2393,
@@ -51186,7 +51186,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow up on the leads he raises.",
       "See his search through to complete Time and Tide."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Time%20and%20Tide%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WRfMC4lWPYU"
   },
 {
     id: 2394,
@@ -51208,7 +51208,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Tamrwn about the Autumn Stelgaer form.",
       "Follow through on what Hiravias learns to complete True to Form."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20True%20to%20Form%20walkthrough"
+    video: "https://www.youtube.com/watch?v=olkzLus1wVw"
   },
 {
     id: 2395,
@@ -51230,7 +51230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront them.",
       "Decide their fate to complete The One That Got Away."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20One%20That%20Got%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RzNk0E17kvk"
   },
 {
     id: 2396,
@@ -51252,7 +51252,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore it in the trance state to uncover the Tacan's secrets.",
       "Finish Zahua's vision to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Secrets%20of%20the%20Tacan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_fsuplyQTe8"
   },
 {
     id: 2397,
@@ -51274,7 +51274,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Salt Well in the Halls of Presence.",
       "Let her use it or convince her to keep the memory."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Burden%20of%20Memory%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xDmnoLWou58"
   },
 {
     id: 2398,
@@ -51296,7 +51296,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Nonton at Ingroed's House in Gilded Vale.",
       "Confront him with a Benevolent or Cruel response."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Vengeance%20from%20the%20Grave%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0zokpxq9lw"
   },
 {
     id: 2399,
@@ -51318,7 +51318,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to Tenfrith; he heads home.",
       "Return to the inn for reputation and the Savory Pie recipe."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Late%20for%20Dinner%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LLvuweKlcTY"
   },
 {
     id: 2400,
@@ -51340,7 +51340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Persuade him with Resolve 14, or bully him with Might/Resolve.",
       "Report back to Sweynur at the Black Hound Inn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Against%20the%20Grain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RHgIpllQlpA"
   },
 {
     id: 2401,
@@ -51362,7 +51362,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let them keep the goods, take them back, or fight.",
       "Report to Peregund."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Ferry%20Flotsam%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hMkK2mM3tyc"
   },
 {
     id: 2402,
@@ -51384,7 +51384,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear Lord Gathbin's ancestral claim before Erl Bodemer.",
       "The Erl rules Gathbin must compensate you; he refuses, setting up A Return to Court."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Call%20to%20Court%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CuKJhhE_y0E"
   },
 {
     id: 2403,
@@ -51406,7 +51406,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill Zolla and take Zolla's Tarc.",
       "Return it to Thulgar for Rundl's Finery."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Desperate%20Measures%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HDdmJGhyWuE"
   },
 {
     id: 2404,
@@ -51428,7 +51428,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring all four pieces to Dunstan in Crucible Keep, First Fires.",
       "Receive the Blade of the Endless Paths."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Blade%20of%20the%20Endless%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DKkN8w6MpEc"
   },
 {
     id: 2405,
@@ -51450,7 +51450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Place the seals in the matching sockets on the door.",
       "Open the door and loot the room."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Seals%20of%20the%20Endless%20Paths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pN16dL2Jzgg"
   },
 {
     id: 2406,
@@ -51472,7 +51472,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Trade it to Gordy for the stash's location.",
       "Sneak beside the theater to spot and loot the hiding place."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Something%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbNS6v1KK3Y"
   },
 {
     id: 2407,
@@ -51494,7 +51494,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill him, turn him in, imprison him, or let him go.",
       "Tell Aldmar for 200–250cp."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Unworn%20Eorn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xPQ1OthkU8Q"
   },
 {
     id: 2408,
@@ -51516,7 +51516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Leyra, now a cean gwla, and her Enthralled Justiciars.",
       "Report back to Wyla."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Missing%20Sentries%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9FefNnZihuY"
   },
 {
     id: 2410,
@@ -51538,7 +51538,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter the Valtas Mausoleum.",
       "Find Saeda and learn how she survived."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Safe%20Haven%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gAYkdOjYIgI"
   },
 {
     id: 2411,
@@ -51560,7 +51560,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the chest.",
       "Return it to Marceno."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20All%20Hands%20on%20Deck%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BiU6L4VoVz0"
   },
 {
     id: 2412,
@@ -51582,7 +51582,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the scepter to Nans at the Sanitarium in Brackenbury.",
       "Sell it or have her restore it — before the Hadret House hearings close the Sanitarium."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Clandestine%20Cargo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CaPWwRq6fpg"
   },
 {
     id: 2413,
@@ -51604,7 +51604,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Bricanta.",
       "Collect 600cp and Doemenel reputation."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hard%20Feelings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bsZ9qlG55Eo"
   },
 {
     id: 2414,
@@ -51626,7 +51626,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side with Medreth or Nyfre, or find a middle path.",
       "Return to the side you chose for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Cat%20and%20Mouse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nqaOTXw5IIA"
   },
 {
     id: 2415,
@@ -51648,7 +51648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it to the High Monk at the Celestial Sapling in Hearthsong.",
       "If you admit opening it, calm the monks with Intellect 18 or Perception 16."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Sealed%20Missive%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CP6eUb3-EAc"
   },
 {
     id: 2416,
@@ -51670,7 +51670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Settle the dispute with Lore 10 or Twin Elms reputation, or side with Rinatto.",
       "Collect the refund and the Tiny Beetle pet from Alarhi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Hard%20Bargain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fADPtmy_VMo"
   },
 {
     id: 2417,
@@ -51692,7 +51692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the birds to Delem.",
       "Let him eat them or talk him out of it (Perception, Intellect or Resolve)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Songs%20of%20the%20Wild%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HFOfMTapPV4"
   },
 {
     id: 2418,
@@ -51714,7 +51714,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Sly Cyrdel and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Sly%20Cyrdel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0ZvLXA6DhsI"
   },
 {
     id: 2419,
@@ -51736,7 +51736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat The Dweller and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20The%20Dweller%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ITGKqp-FXmg"
   },
 {
     id: 2420,
@@ -51758,7 +51758,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Nalrend the Wise and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Nalrend%20the%20Wise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uM98CuqE-G4"
   },
 {
     id: 2421,
@@ -51780,7 +51780,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Warchief Iklak and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Warchief%20Iklak%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3uY_SxnjC5I"
   },
 {
     id: 2422,
@@ -51802,7 +51802,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Daroth Grimault and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Daroth%20Grimault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wCCIBo5KSJI"
   },
 {
     id: 2423,
@@ -51824,7 +51824,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Thorfen and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Thorfen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KLWCR2nRnmM"
   },
 {
     id: 2424,
@@ -51846,7 +51846,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Glasdial and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Glasdial%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IKjn7pxoUlU"
   },
 {
     id: 2425,
@@ -51868,7 +51868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Songsmith Roska and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Songsmith%20Roska%20walkthrough"
+    video: "https://www.youtube.com/watch?v=C0NVEqFK9d4"
   },
 {
     id: 2426,
@@ -51890,7 +51890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Foemyna and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Foemyna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GSkxTVRyAYA"
   },
 {
     id: 2427,
@@ -51912,7 +51912,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Galen Dalgard and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Galen%20Dalgard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qAXM38-9JeI"
   },
 {
     id: 2428,
@@ -51934,7 +51934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Devŵen and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Dev%C5%B5en%20walkthrough"
+    video: "https://www.youtube.com/watch?v=abce4DqVTqE"
   },
 {
     id: 2429,
@@ -51956,7 +51956,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Captain Muārumi and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Captain%20Mu%C4%81rumi%20walkthrough"
+    video: "https://www.youtube.com/watch?v=q94kIzS8q7w"
   },
 {
     id: 2430,
@@ -51978,7 +51978,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat High Arcanist Ysly and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20High%20Arcanist%20Ysly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=N6Rq2CM8HD0"
   },
 {
     id: 2431,
@@ -52000,7 +52000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Naroc the Prophet and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Naroc%20the%20Prophet%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9CzwhLrkj_Y"
   },
 {
     id: 2432,
@@ -52022,7 +52022,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Sserkal and take the head as proof.",
       "Hand it to Warden Fyrgen for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Bounty%3A%20Sserkal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eeZEx_7Ia94"
   },
 {
     id: 2433,
@@ -52044,7 +52044,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Read the Unsigned Letter for the siege's background.",
       "Enter Concelhaut's keep through the cave and finish the siege."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Siege%20of%20Cr%C3%A4gholdt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S-nGTitquio"
   },
 {
     id: 2434,
@@ -52066,7 +52066,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take a bottle of Fennlan Liquor.",
       "Bring it back to Feylan."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Lovely%20Drop%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TrWf6GgEfkc"
   },
 {
     id: 2435,
@@ -52088,7 +52088,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the large chest for the White Crest Armor and Okrun's Medallion.",
       "Give the medallion to Okrun or keep it."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Regrets%20Worth%20Trading%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Kze_Fl6-K1w"
   },
 {
     id: 2436,
@@ -52110,7 +52110,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Ailef and kill or imprison him.",
       "Collect 1,000cp from Defala in the Russetwood."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Overstaying%20His%20Welcome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Jk_V3skIjvw"
   },
 {
     id: 2437,
@@ -52132,7 +52132,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Inspect it and find Svef instead of artifacts.",
       "Return it to Feara for 500cp, or call her out."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20A%20Good%20Haul%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKFqaWvrOcM"
   },
 {
     id: 2438,
@@ -52154,7 +52154,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the Hunter's Totem in a hidden chest.",
       "Return to Thyrsc for the Cloak of the Frozen Hunt."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Hunter's%20Favor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xQFwWrA2sN8"
   },
 {
     id: 2439,
@@ -52176,7 +52176,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the hidden cave behind the waterfall.",
       "Resolve Ygadr's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20His%20Better%20Half%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3pvMVpWV9R0"
   },
 {
     id: 2440,
@@ -52198,7 +52198,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rest at the Esternwood graveyard.",
       "Touch the adra statue in your stronghold to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Grey%20Sleeper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o44jERc18sU"
   },
 {
     id: 2441,
@@ -52220,7 +52220,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to Masca.",
       "Let her perform the ritual or talk her out of it; receive The Unlabored Blade."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Iron%20and%20Flame%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VKNSXu3JHwM"
   },
 {
     id: 2442,
@@ -52242,7 +52242,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover what is affecting the miners.",
       "Report back to Imsey."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Whispers%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xpEzrV3uKzE"
   },
 {
     id: 2443,
@@ -52264,7 +52264,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the Lower and Upper West Tower.",
       "Restore the cannons and report to Wengra."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20Ready%20the%20Cannons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NuwY6smITUE"
   },
 {
     id: 2444,
@@ -52286,7 +52286,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Llengrath and her two dragons.",
       "Bargain (Concelhaut's skull, Honest/Stoic) or fight."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20The%20Phylactery's%20Promise%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VAGmtPl2zFA"
   },
 {
     id: 2445,
@@ -52308,7 +52308,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the sea cave for the remaining lost crew.",
       "Gather everyone you found to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Helping%20Hands%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mOgXBLyYJPI"
   },
 {
     id: 2449,
@@ -52330,7 +52330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interrupt Inquisitor Lodwyn's ceremony — talk, fight, or let her execute Oswald.",
       "Recover what Oswald owes and return to Kahn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Lost%20Dues%20in%20Good%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6mnuot5mUzc"
   },
 {
     id: 2450,
@@ -52352,7 +52352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Broker peace, or help one house destroy the other.",
       "Report to the house you sided with."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Family%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VHeuTKWTzbg"
   },
 {
     id: 2451,
@@ -52374,7 +52374,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Persa.",
       "Report back to Ezzali."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Sinking%20Feeling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aBqeO_3mqVE"
   },
 {
     id: 2452,
@@ -52396,7 +52396,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make sure they leave the Wild Mare.",
       "Return to Martino."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Bigger%20Fish%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o-8EpxMlj8w"
   },
 {
     id: 2454,
@@ -52418,7 +52418,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the lock with a Translucent Crystal or Mechanics and take the Harapo Epic.",
       "Give the tablet to Tumara or Netehe."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Archmage's%20Vault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XvFQckKharE"
   },
 {
     id: 2455,
@@ -52440,7 +52440,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Observe the four constellations, then activate the orrery for Bekarna's note.",
       "Return Bekarna's research to Arkemyr."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bekarna's%20Folly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HYkIeApKsYo"
   },
 {
     id: 2456,
@@ -52462,7 +52462,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Get the final ode kept with Yseyr's sword (ask Kasu, pickpocket or fight).",
       "Return the complete eulogy to Kasu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Eulogy%20for%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hrMLTMZLpyM"
   },
 {
     id: 2457,
@@ -52484,7 +52484,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Arrange a new supply from the Children of the Dawnstars, the Príncipi, or the Huana.",
       "Report back to Enoi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Food%20for%20Thought%20walkthrough"
+    video: "https://www.youtube.com/watch?v=of3oAFWNu7o"
   },
 {
     id: 2458,
@@ -52506,7 +52506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Or find the medicine in an abandoned merchant stall.",
       "Bring the medicine to Pitli."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Harsh%20Medicine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HUeNu2niWqM"
   },
 {
     id: 2459,
@@ -52528,7 +52528,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to Hohina Ravine and confront the Broodmother.",
       "Kill her or resolve it peacefully, then report to Himuihi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Broodmother's%20Fury%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k-2Ct9VHrBY"
   },
 {
     id: 2460,
@@ -52550,7 +52550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the druid circle and talk or fight.",
       "Loot Saint Omaku's Mercy and report back to Okaya."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Hunting%20Season%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QJWJXJHVwSg"
   },
 {
     id: 2461,
@@ -52594,7 +52594,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and kill the slavers' leader.",
       "Return to Ruāsare on Ori o Koīki."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Cruel%20Cargo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9-hXKqVDKwk"
   },
 {
     id: 2463,
@@ -52616,7 +52616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pass the Gates of Death to find Nemnok and Kaali.",
       "Intimidate, fight, or strike a deal with Nemnok, then return Kaali to Tatok."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Nemnok%20the%20Devourer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2POcpv1DOU8"
   },
 {
     id: 2464,
@@ -52638,7 +52638,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Climb the crypt stairs.",
       "Deal with Menzzago, the source of the illusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Paradise%20of%20the%20Mind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NubFA--7VmY"
   },
 {
     id: 2465,
@@ -52659,7 +52659,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Delver's Row: from the Narrows, turn right, walk on to the merchant stall, and go through the curtain behind it.",
       "Decide what to tell the prince about the black market, then report back to him."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Trade%20Secrets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VCddpAZazkg"
   },
 {
     id: 2466,
@@ -52680,7 +52680,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. Faction quests often let you talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Last%20Sanctuary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GJ4Gvt_K92k"
   },
 {
     id: 2467,
@@ -52701,7 +52701,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to your Huana contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20From%20the%20Wreckage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T_xF056CDQs"
   },
 {
     id: 2468,
@@ -52723,7 +52723,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out her final request against the traders.",
       "Your alliance with the Huana is sealed for the journey to Ukaizo (completes The Coming Storm)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Taking%20Out%20the%20Traders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t97FcLVUxNo"
   },
 {
     id: 2469,
@@ -52745,7 +52745,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hunt down Captain Benweth.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Blow%20the%20Man%20Down%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a5wBNTALnE8"
   },
 {
     id: 2470,
@@ -52766,7 +52766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the tomb of Yseyr the Berathian and get past its guardians.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Symbols%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8JOb_squ91I"
   },
 {
     id: 2471,
@@ -52787,7 +52787,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the problem quietly. How you resolve it affects later Crookspur quests.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Shrewd%20Proposition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=au8yGh6s0-g"
   },
 {
     id: 2472,
@@ -52808,7 +52808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Furrante with evidence of his slave trading (or kill him).",
       "The council sentences him to death if he's exposed."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Honor%20Among%20Thieves%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sdiaZeLTMn8"
   },
 {
     id: 2473,
@@ -52829,7 +52829,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the Floating Hangman.",
       "Your alliance with the Príncipi is sealed for the journey to Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Dance%20with%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Na3aShoT2Yw"
   },
 {
     id: 2474,
@@ -52850,7 +52850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to Mad Morena."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Goods%20and%20Services%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bepBmuB3948"
   },
 {
     id: 2475,
@@ -52871,7 +52871,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Brass Citadel.",
       "Meet the RDC leadership to open their questline."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Brass%20Empire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kaz9o5sOnZg"
   },
 {
     id: 2476,
@@ -52893,7 +52893,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Disable or destroy it (destroying it earns more RDC reputation).",
       "Return to Atsura — A Matter of Import unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Dim%20Prospects%20walkthrough"
+    video: "https://www.youtube.com/watch?v=djTgIp95bxs"
   },
 {
     id: 2477,
@@ -52915,7 +52915,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Smuggle her to Sayuka.",
       "Report to Fleet Master Okaya — Overgrowth unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Matter%20of%20Import%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kTyzRP0SRF4"
   },
 {
     id: 2478,
@@ -52937,7 +52937,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the machine. The adra pylons can flood the structure to shut it down.",
       "Return to Okaya, then speak to Head Engineer Hetu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Overgrowth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=X1P0BnaDCSM"
   },
 {
     id: 2479,
@@ -52958,7 +52958,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the slaver leader Master Kua.",
       "Return to Atsura for a major RDC reputation gain."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Clearing%20Out%20Crookspur%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nhZP1Xpbd6g"
   },
 {
     id: 2480,
@@ -52980,7 +52980,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out the assassination at Kahanga Palace.",
       "Your alliance with the RDC is sealed for Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Final%20Maneuver%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-prNVpXait8"
   },
 {
     id: 2481,
@@ -53000,7 +53000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Vailian Trading Company headquarters in Queen's Berth.",
       "Speak to Lueva Alvari on the main floor to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20For%20the%20Republics!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Om9FkaFaFJw"
   },
 {
     id: 2482,
@@ -53021,7 +53021,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find what's left of the expedition.",
       "Report back to the VTC."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Terms%20of%20Trade%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BIUcVQngeIY"
   },
 {
     id: 2483,
@@ -53042,7 +53042,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate Quarno and Töla to uncover the details of their smuggling arrangement.",
       "Report back to Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Dirty%20Laundry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1XgopLp-bTQ"
   },
 {
     id: 2484,
@@ -53063,7 +53063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. Faction quests often let you talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Of%20Like%20Minds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_nB-RTfJTZI"
   },
 {
     id: 2485,
@@ -53084,7 +53084,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Flaune Elette on the Spire's rooftop.",
       "Follow the quest journal to the end and report back to Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Glimpse%20Beyond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0iAMr-HmaCA"
   },
 {
     id: 2486,
@@ -53105,7 +53105,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to Director Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Skipping%20Ahead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s8IQDAHS0zM"
   },
 {
     id: 2487,
@@ -53126,7 +53126,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Back either Lueva Alvari or Director Castol.",
       "Talk to the winner to receive the next VTC job."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Vote%20of%20No%20Confidence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3oPYcrwwqHE"
   },
 {
     id: 2488,
@@ -53147,7 +53147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Royal Deadfire Company's Powderhouse and blow it up.",
       "Report back to the VTC."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Sabotage%20at%20the%20Brass%20Citadel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0yo5DOwF4DU"
   },
 {
     id: 2494,
@@ -53169,7 +53169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Buy cannon shot.",
       "Buy repair supplies to complete the task."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Basic%20Provisions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1eAtSneAdVU"
   },
 {
     id: 2495,
@@ -53191,7 +53191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach at least five crew.",
       "Keep hiring to eight for a fully functional ship."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Skeleton%20Crew%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3uoGoPDVAEs"
   },
 {
     id: 2496,
@@ -53213,7 +53213,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rinco's purse.",
       "Return it to Rinco."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Burning%20Bridges%20walkthrough"
+    video: "https://www.youtube.com/watch?v=epRG5kuUS_Y"
   },
 {
     id: 2497,
@@ -53235,7 +53235,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Persuade, scare or fight him out.",
       "Return to Thorel for your room key."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Better%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BH9CDJaceBw"
   },
 {
     id: 2498,
@@ -53257,7 +53257,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince him to take charge and stop the looting (or fight him).",
       "Report back to Savia."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Restoring%20Order%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S9CBRWG5DZ0"
   },
 {
     id: 2499,
@@ -53279,7 +53279,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet him outside, or on your ship if you killed Savia.",
       "Add him to your crew."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Drunk%20Sailor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ns4eDtCAb8o"
   },
 {
     id: 2500,
@@ -53301,7 +53301,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track down the gang that robbed Radora and deal with the alley thugs.",
       "Return to Zamar or side with the Príncipi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Shipwright's%20Plight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4lL2wbDleNw"
   },
 {
     id: 2501,
@@ -53323,7 +53323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tamper with the contract or replace it with the Forged Contract.",
       "Return to Tawenu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Coming%20to%20Terms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xdHYVACo_ys"
   },
 {
     id: 2502,
@@ -53345,7 +53345,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report to Nera.",
       "Speak to Erzalli Bardatto for your reward and the next quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Salt%20in%20the%20Wound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vtTrmf_-0hM"
   },
 {
     id: 2503,
@@ -53367,7 +53367,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cremate the body (openly with +2 Huana rep, or from stealth) — or bury it outside the walls for Huana rep.",
       "If cremated, collect the hidden treasure near the temple's leftmost pillars."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Her%20Last%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xwCNtw5mOmk"
   },
 {
     id: 2504,
@@ -53389,7 +53389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak to Arkemyr in his study.",
       "Accept Bekarna's Folly."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Cordial%20Invitation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tXpXs-Q1AhQ"
   },
 {
     id: 2505,
@@ -53411,7 +53411,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rokowa's Fingers.",
       "Return, ransom or keep the gloves."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Velvet%20Glove%2C%20Brass%20Fist%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zAjp7XLPgGQ"
   },
 {
     id: 2506,
@@ -53433,7 +53433,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Talfor's crew on the way back to Queen's Berth.",
       "Return the satchel or expose Degnos."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Sealed%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u0IuJJmCQvI"
   },
 {
     id: 2507,
@@ -53455,7 +53455,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go down to the Old City to find Botaro.",
       "Find another way out through the smugglers."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20All%20Aboard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbX15Ls1vNA"
   },
 {
     id: 2508,
@@ -53477,7 +53477,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Get her directions to the hidden entrance.",
       "Enter Delver's Row."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Delver's%20Row%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QQMOXhuWX-s"
   },
 {
     id: 2509,
@@ -53499,7 +53499,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the ingredients to Pietro.",
       "Help him pass Ngati's Black Tear."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Iron%20Gut%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3qizytypxVA"
   },
 {
     id: 2510,
@@ -53521,7 +53521,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince both to join the show.",
       "Return to Calandra for your cut."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Tidy%20Performance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dqQiyDmky9E"
   },
 {
     id: 2511,
@@ -53543,7 +53543,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the fruit in a crate on the southwest beach and inspect the Stained Kaora Reeds.",
       "Decide whether Tamau or Rongi takes the blame."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Plucked%20Fruit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tR8QPyVBsmI"
   },
 {
     id: 2512,
@@ -53565,7 +53565,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Meryel the Mad.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Meryel%20the%20Mad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IESGYUtKusU"
   },
 {
     id: 2513,
@@ -53587,7 +53587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Pūrākau.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20P%C5%ABr%C4%81kau%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8M4eLh842-Y"
   },
 {
     id: 2514,
@@ -53609,7 +53609,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Nomu the Marauder.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Nomu%20the%20Marauder%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZN1FJXYm04E"
   },
 {
     id: 2515,
@@ -53631,7 +53631,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Tāhae.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20T%C4%81hae%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EROGF4AQnLM"
   },
 {
     id: 2516,
@@ -53652,7 +53652,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Biakara on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Biakara%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t93TRagMbu8"
   },
 {
     id: 2517,
@@ -53673,7 +53673,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Veen on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Veen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VyEl8DyERac"
   },
 {
     id: 2518,
@@ -53694,7 +53694,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Desiwa the Shark on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Desiwa%20the%20Shark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NRGudeJAgdk"
   },
 {
     id: 2519,
@@ -53715,7 +53715,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Diccila on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Diccila%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WZL0q6E5yxU"
   },
 {
     id: 2520,
@@ -53736,7 +53736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Oheiro on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Oheiro%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TBsQRZDhMFY"
   },
 {
     id: 2521,
@@ -53757,7 +53757,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Rafiq the Red Beard on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Rafiq%20the%20Red%20Beard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6BdBwgfctWU"
   },
 {
     id: 2522,
@@ -53778,7 +53778,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Assila Wave-Skipper on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Assila%20Wave-Skipper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KXAu1ohmdyw"
   },
 {
     id: 2523,
@@ -53799,7 +53799,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Radulf on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Radulf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=McUdxMNM1_g"
   },
 {
     id: 2524,
@@ -53820,7 +53820,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Burunga on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Burunga%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2_AnlTtTKnQ"
   },
 {
     id: 2525,
@@ -53842,7 +53842,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Dhwrgas the Ascetic.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Dhwrgas%20the%20Ascetic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DvQUrcb28JY"
   },
 {
     id: 2526,
@@ -53864,7 +53864,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Onadere the Siren.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Onadere%20the%20Siren%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LHwbllRipcY"
   },
 {
     id: 2527,
@@ -53886,7 +53886,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Ikorno.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Ikorno%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V03fY6dhF80"
   },
 {
     id: 2528,
@@ -53908,7 +53908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Urnox the Rathun.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Urnox%20the%20Rathun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vyzXhqmJBf4"
   },
 {
     id: 2529,
@@ -53930,7 +53930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Beina Nungata.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Beina%20Nungata%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xTeKFNJeYRg"
   },
 {
     id: 2530,
@@ -53952,7 +53952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Flamewalker Vessali.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Flamewalker%20Vessali%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2BAM_HPDKus"
   },
 {
     id: 2531,
@@ -53974,7 +53974,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus The Steel Preacher.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20The%20Steel%20Preacher%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7anONdGM3tI"
   },
 {
     id: 2532,
@@ -53996,7 +53996,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Uamoru the Pretender.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Uamoru%20the%20Pretender%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_KcEn0g8Doo"
   },
 {
     id: 2533,
@@ -54017,7 +54017,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Chornu on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Chornu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hB_EettwGpw"
   },
 {
     id: 2534,
@@ -54038,7 +54038,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Kuaro on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Kuaro%20walkthrough"
+    video: "https://www.youtube.com/watch?v=01l7ZyZhvh0"
   },
 {
     id: 2535,
@@ -54059,7 +54059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Rock-Stomper Rodul on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Rock-Stomper%20Rodul%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9lDSt6xiiDc"
   },
 {
     id: 2536,
@@ -54081,7 +54081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Lord Admiral Imp Dessiral.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Lord%20Admiral%20Imp%20Dessiral%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zvD11O-Pq3Y"
   },
 {
     id: 2537,
@@ -54103,7 +54103,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Lady Epero.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Lady%20Epero%20walkthrough"
+    video: "https://www.youtube.com/watch?v=edG1ylrQQFc"
   },
 {
     id: 2538,
@@ -54125,7 +54125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Katrenn.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Katrenn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ulU_6fR_naw"
   },
 {
     id: 2539,
@@ -54147,7 +54147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Torkar.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Torkar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ftn6FpTeEZ8"
   },
 {
     id: 2540,
@@ -54169,7 +54169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the Wandering Souls — fragments of King Wingauro.",
       "Meet Wingauro in the Sunken Crown and recruit him or put him to rest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Drowned%20Kingdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=64pGVJmOKZE"
   },
   {
     id: 2573,
@@ -54209,7 +54209,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight through the machines guarding the complex.",
       "Uncover the truth behind the Quen disappearances and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20Heaven%20and%20Earth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4qYuDXZjRVg"
   },
   {
     id: 2575,
@@ -54229,7 +54229,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the machines guarding the depths.",
       "Piece together the clues about Londra’s scheme."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Stars%20in%20Their%20Eyes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ph7a6BiZM3g"
   },
   {
     id: 2576,
@@ -54249,7 +54249,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the escalating threat Londra poses.",
       "Advance toward the final confrontation."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20For%20His%20Amusement%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g3V-WL6KhJU"
   },
   {
     id: 2577,
@@ -54270,7 +54270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Horus Titan in the series' biggest boss battle.",
       "Stop Londra and end his plan."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20His%20Final%20Act%20walkthrough"
+    video: "https://www.youtube.com/watch?v=78Rn67uc-8w"
   },
   {
     id: 2578,
@@ -54310,7 +54310,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the machines or hazards blocking the way.",
       "Resolve the situation and report back for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20A%20Friend%20in%20the%20Dark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0m64NA3yFO0"
   },
   {
     id: 2580,
@@ -54330,7 +54330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Overcome the enemies or obstacles you find.",
       "Resolve the quest and return for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20The%20Splinter%20Within%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CP7S-zPzp2Y"
   },
   {
     id: 2581,
@@ -54350,6 +54350,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the machines or hazards in your path.",
       "Complete the objective and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Burning%20Shores%20In%20His%20Wake%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Bgr-kg-_MtA"
   }
 ];

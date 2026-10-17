@@ -59,3 +59,15 @@ tried before giving up), otherwise `notfound`.
 | Skyrim | 130 / 140 | 1394, 1404, 1448, 1451, 1472, 1476, 1510, 1519, 1520, 1524 |
 | Zelda: Tears of the Kingdom | 214 / 217 | 1695, 1741, 1742 |
 | The Witcher 3 | 73 / 80 | 369, 379, 601, 609, 621, 625, 634 |
+
+### Swapped after the title check (2026-10-17)
+
+61 `notfound` candidates were replaced in their game files with the
+alternative video found during the check (the `alt` in `title-check.json`).
+`title-check.json` still shows the original candidate, as checked.
+
+Not swapped, because the alternative wasn't a clear fit: #801 (no single
+video covers both bosses), #773 (same video as #110, likely duplicate quest),
+#779 (German-language video), #1824 and #1833 (videos cover only part of the
+questline), #158 and #1078 ("Part 1" videos). The other 64 `notfound` rows
+had no alternative and keep their original candidate.
