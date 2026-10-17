@@ -8676,23 +8676,26 @@ const quests = [
     id: 397,
     type: "side",
     game: "Horizon Forbidden West",
-    region: "The Sea of Sands",
-    title: "The Wound in the Land",
-    location: "Cinnabar Sands",
+    region: "The Clan Lands",
+    title: "The Wound in the Sand",
+    location: "Scalding Spear",
     length: "medium",
-    difficulty: "High",
-    reward: "Corruption source neutralized",
+    difficulty: "Medium",
+    reward: "XP, 2 skill points",
     summary:
-      "Aloy investigates a spreading blight of corrupted machines scarring the land.",
+      "Scalding Spear's precious water well — the Wound — is running dry. Help Jetakka and Yarra trace the leak to a broken pump out in the wilds and get the water flowing again.",
     aiTip:
-      "Corrupted machines hit harder — bring purgewater and status resist.",
+      "The valve section on the pump is timed — line up your Pullcaster and lever route before turning it. Finishing the quest starts The Gate of the Vanquished.",
     walkthrough: [
-      "Travel to Cinnabar Sands to investigate the spreading blight.",
-      "Bring purgewater and status resistance for the corrupted machines.",
-      "Trace the corruption across the scarred land with your Focus.",
-      "Destroy the source to heal the wound in the land."
+      "After Thirst for the Hunt, meet Jetakka in Scalding Spear by the fighting pit.",
+      "Follow Jetakka and then Yarra to the Wound, Scalding Spear's well.",
+      "Scan the Wound with your Focus and follow the underground pipes out into the wilds.",
+      "Defeat the machines past the wall and examine the Tenakth corpse near the large pole.",
+      "Follow the leak to the damaged pump and scan it.",
+      "Use the Pullcaster to lower the beams, enter the vent and work the valve and lever to repair the pump (the valve is timed).",
+      "Return to the Wound and speak with the guard, then meet Jetakka in Yarra's Quarters at the top of Scalding Spear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Land%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Sand%20walkthrough"
   },
 {
     id: 398,
