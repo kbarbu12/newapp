@@ -3,6 +3,17 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (3)
+
+- **Data fixes from the video check** (PRs #220–#223) — `v2.4.8` patch.
+  Skyrim #1535/#1536 renamed to Volskygge / Ansilvund and Stormcloak fort
+  battles #1498–#1500 now note they need Season Unending to hand over the
+  hold; HFW #397 rewritten as The Wound in the Sand; BG3 #798 is now
+  Impress the Murder Tribunal and #1005 Help the Cursed Monk is rewritten;
+  duplicates BG3 #986 and Deadfire #773 removed. Quest count 2,468 → 2,466.
+- **57 more hand-picked YouTube videos across 13 games** (PRs #221,
+  #224–#236). Only 23 quests are left on a YouTube search link.
+
 ## 2026-10-17 (2)
 
 - **Apply verified YouTube videos to 17 games** (PRs #202–#218) — `v2.4.7`
