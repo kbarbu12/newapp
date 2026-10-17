@@ -30565,19 +30565,20 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Thieves Guild",
     game: "The Elder Scrolls V: Skyrim",
     title: "Reparations",
-    location: "Winterhold coast",
+    location: "The Ragged Flagon, Riften",
     length: "medium",
     difficulty: "Medium",
-    reward: "Guild reputation, gold",
-    summary: "Deal with a splinter group of thieves undermining the Guild's operations.",
-    aiTip: "Clear the Summerset Shadows' hideout and recover the stolen Guild property to keep expansion on track.",
+    reward: "Thieves Guild membership restored",
+    summary: "Break the Thieves Guild's rules — attack or kill a member, get caught stealing from them, or kill someone during a guild job — and you're expelled. Pay Vex 1,000 gold in the Ragged Flagon to be let back in.",
+    aiTip: "If you were expelled for assault, wait about 48 hours outside the Ragged Flagon so the hostile members calm down before you look for Vex.",
     walkthrough: [
-      "Take a Reparations job from Delvin/Vex to help restore the Guild’s standing in a hold.",
-      "Travel to the assigned city and complete the recovery task (return stolen goods / settle the debt).",
-      "This rebuilds the Guild’s presence and reopens a fence there.",
-      "Repeat across the holds to progress toward “Under New Management.”"
+      "The quest starts automatically when you break a Guild rule (assaulting a member, stealing from them, or killing during a job).",
+      "If guild members are hostile, leave the Ragged Flagon and wait about 48 hours.",
+      "Go to the Ragged Flagon in the Riften Ratway and speak with Vex.",
+      "Pay the 1,000 gold she demands as reparations.",
+      "Your membership is restored and guild jobs open up again."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Elder%20Scrolls%20V%20Skyrim%20Reparations%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sh9HTyHBApY"
   },
   {
     id: 1433,
