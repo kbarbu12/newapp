@@ -8695,7 +8695,7 @@ const quests = [
       "Use the Pullcaster to lower the beams, enter the vent and work the valve and lever to repair the pump (the valve is timed).",
       "Return to the Wound and speak with the guard, then meet Jetakka in Yarra's Quarters at the top of Scalding Spear."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Wound%20in%20the%20Sand%20walkthrough"
+    video: "https://www.youtube.com/watch?v=y2fk_OWTs04"
   },
 {
     id: 398,
