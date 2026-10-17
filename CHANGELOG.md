@@ -3,6 +3,23 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-17 (5)
+
+- **Resolve the last YouTube search links** (PRs #241–#249) — `v2.4.10`
+  patch. 15 of the 19 remaining search links get real videos, and the
+  entries behind them are fixed: Skyrim Reparations is now the Thieves Guild
+  expulsion quest, Horizon War Totems the God of War Easter egg, BG3 #801
+  split into Get Gortash's Netherstone and new #2593 Get Orin's Netherstone,
+  BG3 #997 renamed Acquire the Gauntlets for Helsik, Metaphor #726/#1078
+  corrected, Witcher 3 Wine Wars: Consorting rewritten. Made-up entries
+  Pillars of Eternity #108 The Dozen's Dispute and Sekiro #1833 removed.
+- **Duplicate and mislabelled quests** (PRs #250–#253). Witcher 3 #616 and
+  #351 merged into #43 and #33; Skyrim #1399 Alduin's Bane, #1400 Season
+  Unending and #1404 The Fallen renamed to match their content, #1398 steps
+  fixed, duplicate #1514 removed; Deadfire duplicates #62 and #786 removed
+  and #775 renamed The Coming Storm; Cyberpunk #263 merged into #250
+  Nocturne Op55N1. Quest count 2,465 → 2,458; 4 search links remain.
+
 ## 2026-10-17 (4)
 
 - **Merge Witcher 3 duplicate Nameless quests into #601** (PR #238) —
