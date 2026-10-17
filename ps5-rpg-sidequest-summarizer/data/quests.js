@@ -2727,7 +2727,7 @@ const quests = [
       "In Act 3, reunite her with her parents (the House of Grief) and decide their fate.",
       "Complete her arc, which determines whether she remains a Dark Justiciar or turns to Selûne.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Shadowheart%20%E2%80%94%20Daughter%20of%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7K7rSuZGJ78"
   },
 {
     id: 114,
@@ -2825,7 +2825,7 @@ const quests = [
       "Support (or oppose) his choice through the endgame.",
       "Resolve his arc at the final battle, where his orb can be used against the Netherbrain.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Gale%20%E2%80%94%20The%20Wizard%20of%20Waterdeep%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6SFzGBlOqjI"
   },
 {
     id: 118,
@@ -2850,7 +2850,7 @@ const quests = [
       "Decide whether Wyll keeps his powers, breaks the pact, or becomes the Blade of Avernus.",
       "Complete his arc based on that choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wyll%20%E2%80%94%20The%20Blade%20of%20Frontiers%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D0yx2aevJNA"
   },
 {
     id: 119,
@@ -5082,7 +5082,7 @@ const quests = [
       "Enter the inner sanctum and carefully disarm the trap protecting the mace.",
       "Take the Blood of Lathander mace, then survive the collapsing sanctum by ringing the bell / escaping quickly.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Blood%20of%20Lathander%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4Nli5CxcFBo"
   },
 {
     id: 234,
@@ -5155,7 +5155,7 @@ const quests = [
       "Use this to inform the Orpheus choice at the endgame.",
       "Keep Voss as an ally for the final battle if you support the gith rebellion.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20Kith'rak%20Voss%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2cNh8rpB0_A"
   },
 {
     id: 237,
@@ -16668,7 +16668,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Expose Kagha or persuade the druids to stand down so the ritual stops.",
       "Broker peace between druids and tieflings to save the refugees.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Refugees%20(Druid%20Grove)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JG6qOEjEpTE"
   },
 {
     id: 788,
@@ -16692,7 +16692,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survive the alarm and clear the remaining goblins.",
       "Report the leaders' deaths to Halsin/the Grove to break the Absolute's hold here.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Raid%20the%20Goblin%20Camp%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8cteXtnMKWw"
   },
 {
     id: 789,
@@ -16716,7 +16716,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Phase Spider Matriarch (drop the webbed egg sacs / use the chasm) and grab the Dark Amethyst.",
       "Loot the depths and return, having cleared the village and its underdepth.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Blighted%20Village%20%26%20Whispering%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BegzEuQnSFI"
   },
 {
     id: 790,
@@ -16740,7 +16740,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side against Nere (with Thrinn) or with him, and win the ensuing fight.",
       "Resolve the deep gnomes' fate and, if Nere dies, take his head for the bounty.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Nere%20(Grymforge%20Duergar)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eB5J5WnvjjI"
   },
 {
     id: 791,
@@ -16764,7 +16764,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the truth about the githyanki 'cure' with Lae'zel.",
       "Decide whether Lae'zel stays loyal to Vlaakith or joins Orpheus's cause — shaping her Act 3 arc.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Lae'zel%20%E2%80%94%20The%20Githyanki%20Warrior%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yAp-V5Kdczo"
   },
 {
     id: 792,
@@ -16789,7 +16789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "In Act 3, confront Gortash's role in her condition.",
       "Resolve her fate — return to Avernus, become a mind flayer, or another ending — at the game's close.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Karlach%20%E2%80%94%20The%20Hellion's%20Heart%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fEREol4pceI"
   },
 {
     id: 793,
@@ -16813,7 +16813,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross Isobel's protective ward at the inn to reach safety.",
       "Meet Jaheira and the Harpers to open Act 2's hub.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Reach%20the%20Last%20Light%20Inn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=771rP4MvN7Y"
   },
 {
     id: 794,
@@ -16837,7 +16837,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Save them (rush before the curse kills them) or discover their fate.",
       "Return the news to Arabella at the inn to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Arabella's%20Parents%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z9qyFf568M8"
   },
 {
     id: 795,
@@ -16861,7 +16861,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Decide the Nightsong's fate — free Dame Aylin (recommended, weakens the curse and gains an ally) or kill her for Shar.",
       "Leave the Shadowfell with the consequence set.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20the%20Nightsong%20(Gauntlet%20of%20Shar)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LMV6Yn34-K0"
   },
 {
     id: 796,
@@ -16885,7 +16885,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet the Emperor and learn about the Astral-Touched tadpole (choose whether to use it).",
       "Defeat the Apostle of Myrkul to end the colony threat and claim the Netherstone.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Mind%20Flayer%20Colony%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p7V4wdQjto8"
   },
 {
     id: 797,
@@ -16910,7 +16910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Let Astarion complete the Ascension (becoming a vampire ascendant) or stop it so he stays a spawn but free.",
       "Free (or sacrifice) the 7,000 trapped spawn based on that choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Companion%3A%20Astarion's%20Ascension%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dMASYRHgZdQ"
   },
 {
     id: 798,
@@ -16934,7 +16934,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the invitation into the sewers to the temple of Bhaal.",
       "Confront the killer and resolve the tribunal (tied to Orin and the Dark Urge).",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Murder%20Tribunal%20(Dribbles%20the%20Clown)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yeJBTAoxBjc"
   },
 {
     id: 799,
@@ -16958,7 +16958,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight or avoid the guards and the kraken-summoning warden.",
       "Escape with as many prisoners as you can before Gortash floods the prison.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Iron%20Throne%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dfhWc69I-04"
   },
 {
     id: 800,
@@ -16982,7 +16982,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Steel Watch Titan guarding the core.",
       "Overload/detonate the foundry to destroy Gortash's Steel Watch and weaken him for the finale.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Destroy%20the%20Steel%20Watch%20Foundry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=utObAiaEmLU"
   },
 {
     id: 801,
@@ -17030,7 +17030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Jaheira as a companion and help her rally the Harpers.",
       "Stand with her against the Chosen for the endgame.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Jaheira%20The%20High%20Harper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dFrhi339Jyo"
   },
 {
     id: 803,
@@ -17054,7 +17054,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Helldusk gear from the archives and boudoir.",
       "Take the Orphic Hammer to summon Raphael and, with Hope, defeat him in his final devil form.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Confront%20Raphael%20(House%20of%20Hope)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8Ds_5jT1ALc"
   },
 {
     id: 804,
@@ -20297,7 +20297,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover or negotiate over the stolen shipment.",
       "Decide whether to side with the smugglers (unlocks their merchant) or against them.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Shipment%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e5GznF_Kvl4"
   },
 {
     id: 936,
@@ -20323,7 +20323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Barcus and speak with him.",
       "He departs to safety and will reappear later (Grymforge / Act 3) to repay you.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Gnome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cEJayfIZwpk"
   },
 {
     id: 937,
@@ -20347,7 +20347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Kagha with the evidence.",
       "Resolve her fate — expose her, redeem her, or fight — to protect the grove.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Kagha%20walkthrough"
+    video: "https://www.youtube.com/watch?v=44N4GA1CDMc"
   },
 {
     id: 938,
@@ -20373,7 +20373,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reforge the masterwork weapon (do it before leaving Act 1 — it becomes unavailable later).",
       "Claim the finished weapon as your reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Finish%20the%20Masterwork%20Weapon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=e5J_Pbm9UTY"
   },
 {
     id: 939,
@@ -20397,7 +20397,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the toll house and its surroundings.",
       "Continue on toward Waukeen's Rest and the Mountain Pass.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20The%20Risen%20Road%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dw8_1OMydtE"
   },
 {
     id: 940,
@@ -20420,7 +20420,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the boots and return them to the owner.",
       "Collect the modest reward to close this quick errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Boots%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rayvgyaE4_w"
   },
 {
     id: 941,
@@ -20444,7 +20444,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Rescue Vanra from the hag and defeat/bargain with Ethel.",
       "Free the captured mothers and return Vanra safely.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Vanra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gwUHcKjvHj4"
   },
 {
     id: 942,
@@ -20468,7 +20468,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the Hooded Skeleton (Withers) guardian encounter.",
       "Claim the crypt's rewards and recruit Withers to your camp.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Explore%20the%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AdSITlzshH4"
   },
 {
     id: 943,
@@ -20492,7 +20492,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any guardian mephits/traps.",
       "Take the finds to continue the Necromancy of Thay questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Search%20the%20Cellar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1wdMFu2y_u8"
   },
 {
     id: 944,
@@ -20516,7 +20516,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the idol and slip out without raising the alarm.",
       "Deliver it to Mol for the reward (or keep it), noting the consequences for the tieflings.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20the%20Sacred%20Idol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=K7hOpza8DEQ"
   },
 {
     id: 945,
@@ -20540,7 +20540,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wake Art Cullagh, who reveals the way to lift the Shadow Curse (Halsin's ritual clue).",
       "Report the information to Halsin to advance 'Lift the Shadow Curse'.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Wake%20Up%20Art%20Cullagh%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KalD3GCFGPg"
   },
 {
     id: 946,
@@ -20564,7 +20564,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escape the crèche with the egg.",
       "Decide its fate — give it to Esther, keep it, or let Lae'zel raise it — for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Steal%20a%20Githyanki%20Egg%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dyu-P0QLLyM"
   },
 {
     id: 947,
@@ -20588,7 +20588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat each of them to fulfil the vengeance.",
       "Return to He Who Was to complete the quest and gain his reward/blessing.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Punish%20the%20Wicked%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dPirpyqvwuM"
   },
 {
     id: 948,
@@ -20612,7 +20612,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free her — fight the guards or use stealth/disguise before the execution.",
       "Get her to safety to complete the rescue and gain an ally.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Counsellor%20Florrick%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XpYBtcGLTpg"
   },
 {
     id: 949,
@@ -20636,7 +20636,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return them to Danzo at the post office.",
       "Collect the reward for the completed delivery errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Missing%20Letters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bqxt0zAOmr4"
   },
 {
     id: 950,
@@ -20660,7 +20660,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the confrontation accordingly (fight one side).",
       "Report the outcome to conclude the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deal%20with%20the%20Gnomes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eJRUO8NiMiY"
   },
 {
     id: 951,
@@ -20905,7 +20905,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the captive before the ship is destroyed.",
       "Continue to the helm to escape — her fate ties into later encounters.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Illithid's%20Captive%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqcuL5k4sA0"
   },
 {
     id: 963,
@@ -20927,7 +20927,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the Emperor and the Astral-Touched tadpoles as the story's real path.",
       "This overarching quest resolves through Acts 2–3 as you decide how to use (or resist) the tadpole.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20a%20Cure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cYMUerP1m1c"
   },
 {
     id: 964,
@@ -20949,7 +20949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Gut (this also completes part of 'Raid the Goblin Camp').",
       "Leave, having learned her 'cure' was a ruse.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Ask%20the%20Goblin%20Priestess%20for%20Help%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m7B40yV9l5I"
   },
 {
     id: 965,
@@ -20971,7 +20971,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover Vlaakith's lie about curing the tadpole.",
       "Decide whether to fight the crèche or leave, taking the githyanki knowledge onward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Githyanki%20Cr%C3%A8che%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PId7AIsz26I"
   },
 {
     id: 966,
@@ -20993,7 +20993,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If pushed, expose her as a hag — leading into 'Save Mayrina'.",
       "Resolve the encounter, learning she offers no true cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Auntie%20Ethel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k-Z4OyWRBwY"
   },
 {
     id: 967,
@@ -21015,7 +21015,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince her you can be trusted (or fight your way out).",
       "Leave with her warning, continuing the search for a cure.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Help%20from%20Healer%20Nettie%20walkthrough"
+    video: "https://www.youtube.com/watch?v=D9SAei5r89k"
   },
 {
     id: 968,
@@ -21037,7 +21037,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recruit Lae'zel to your party.",
       "Head onward, beginning her githyanki storyline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Free%20Lae'zel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z7_CSQl5QZk"
   },
 {
     id: 969,
@@ -21059,7 +21059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Side with Karlach against Anders and the false paladins in the ensuing fight.",
       "Resolve the confrontation to recruit Karlach.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Hunt%20the%20Devil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-Q8amNXN6p0"
   },
 {
     id: 970,
@@ -21081,7 +21081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the spider ambush.",
       "Resolve the encounter and continue exploring the depths.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20the%20Trapped%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yDvVW4GLo-I"
   },
 {
     id: 971,
@@ -21103,7 +21103,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Coax the frightened boy back with persuasion / kindness.",
       "Return Doni to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Doni%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jlg62zK0oAM"
   },
 {
     id: 972,
@@ -21125,7 +21125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover your stolen belongings.",
       "Resolve the thief's fate to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Your%20Belongings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mXAtAXKVDYE"
   },
 {
     id: 973,
@@ -21147,7 +21147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the useful gear and clues.",
       "Head inland toward the Emerald Grove.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20the%20Beach%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_deequakIu4"
   },
 {
     id: 974,
@@ -21169,7 +21169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Later, let Volo 'operate' on your parasite for the Ersatz Eye reward.",
       "Complete the rescue to gain Volo's recurring help.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Rescue%20Volo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=27Sj0aGvw3k"
   },
 {
     id: 975,
@@ -21191,7 +21191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose whether to keep or give it.",
       "Complete the small deed for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20the%20Locket%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1HeHBg9aqTU"
   },
 {
     id: 976,
@@ -21215,7 +21215,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return her to her parents.",
       "This also opens the investigation into Kagha's Shadow Druid dealings.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20Arabella%20walkthrough"
+    video: "https://www.youtube.com/watch?v=85kDozUM0FE"
   },
 {
     id: 977,
@@ -21237,7 +21237,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "She offers you safe passage into the Goblin Camp as thanks.",
       "Use her goodwill when approaching the Shattered Sanctum.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Goblin%20Sazza%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CD3TdS-RNxs"
   },
 {
     id: 978,
@@ -21259,7 +21259,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the duergar targets.",
       "Decide whether to stop Glut's coup or let it happen, resolving the colony's fate.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20Glut's%20Circle%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Xu5MVZyQxYo"
   },
 {
     id: 979,
@@ -21281,7 +21281,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Administer it to Thulla before she dies.",
       "Save her to gain her thanks and information.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Cure%20the%20Poisoned%20Gnome%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TxCVjorrKZs"
   },
 {
     id: 980,
@@ -21303,7 +21303,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the enslaved deep gnomes.",
       "Secure Grymforge to open the way to the Adamantine Forge and the exit.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20the%20Duergar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1F7VKs1VlFI"
   },
 {
     id: 981,
@@ -21325,7 +21325,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hand it over for the bounty reward.",
       "Conclude the errand.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Deliver%20Nere's%20Head%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jDtr6ZZd0Es"
   },
 {
     id: 982,
@@ -21347,7 +21347,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the noblestalk he was after.",
       "Return Baelen (and optionally the noblestalk) to Derryth for the reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20the%20Mushroom%20Picker%20walkthrough"
+    video: "https://www.youtube.com/watch?v=FrMCF8vAlGA"
   },
 {
     id: 983,
@@ -21369,7 +21369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Detonate it from a safe distance to clear the path.",
       "Proceed deeper into Grymforge.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Explosives%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8knCbOrjGCo"
   },
 {
     id: 984,
@@ -21391,7 +21391,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Release the gnomes from the work lines and the boat.",
       "Get them to safety to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Save%20the%20Grymforge%20Gnomes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gASgmyoi1fw"
   },
 {
     id: 985,
@@ -21413,7 +21413,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Push through to the Adamantine Forge chamber.",
       "Continue the forge questline.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Get%20Past%20the%20Rubble%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CJaJvEnmdR0"
   },
 {
     id: 986,
@@ -21457,7 +21457,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prevent Isobel from being carried off (or rescue her if she is).",
       "Secure the inn to keep the safe haven intact.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Capture%20Isobel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qHUN2X4MwPM"
   },
 {
     id: 988,
@@ -21479,7 +21479,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and destroy/seize Ketheric's source of immortality (tied to freeing the Nightsong).",
       "With the relic dealt with, Ketheric becomes mortal for the Act 2 boss fight.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ketheric's%20Relic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ms9yUXeI8lo"
   },
 {
     id: 989,
@@ -21501,7 +21501,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the caged prisoners (including Tieflings) or use the convoy to slip into Moonrise.",
       "Reach Moonrise Towers via the convoy route.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Follow%20the%20Convoy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7v1VdAuvqNE"
   },
 {
     id: 990,
@@ -21523,7 +21523,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Intervene to protect Mol and the others.",
       "Resolve the situation to keep the children safe.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Resolve%20the%20Abduction%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J2kQKNPtIBs"
   },
 {
     id: 991,
@@ -21545,7 +21545,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cure her of the Absolute's control in Act 3 to recruit her.",
       "Resolve her storyline based on your choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Decide%20Minthara's%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fd00nktpb3g"
   },
 {
     id: 992,
@@ -21567,7 +21567,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate Mol and ensure her safety.",
       "Return her to the inn to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Mol%20walkthrough"
+    video: "https://www.youtube.com/watch?v=visqPvKOzl8"
   },
 {
     id: 993,
@@ -21589,7 +21589,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Save his family members where possible.",
       "Get them to safety to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Rolan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5ja-QrKY5RY"
   },
 {
     id: 994,
@@ -21611,7 +21611,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free him from the cell and the mind-control threat.",
       "Get him out to conclude the rescue.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Zevlor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ed20ALcjD30"
   },
 {
     id: 995,
@@ -21633,7 +21633,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the resistance's plans and lend your help.",
       "Advance the effort to weaken the curse and support Act 2's factions.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Investigate%20Sel%C3%BBnite%20Resistance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=I-VTKJDFDAU"
   },
 {
     id: 996,
@@ -21655,7 +21655,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Yurgir the orthon.",
       "Claim his loot and the contract reward, and gain leverage over Raphael.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Kill%20Yurgir%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8RuTakSDWu4"
   },
 {
     id: 997,
@@ -21699,7 +21699,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help strike at the Steel Watch Foundry.",
       "Resolve the alliance, deciding Wulbren vs Barcus tensions along the way.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Aid%20the%20Underduke%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hWoGl05lMtg"
   },
 {
     id: 999,
@@ -21721,7 +21721,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat Ethel in her true form.",
       "Free any captives and report back to the survivors to end the hag for good.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Hag%20Survivors%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_QOh5HNl-uc"
   },
 {
     id: 1000,
@@ -21743,7 +21743,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Steel Watch Titan and free the workers.",
       "Avenge the Ironhands by destroying the foundry.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Avenge%20the%20Ironhands%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d88sQ2iWDoc"
   },
 {
     id: 1001,
@@ -21765,7 +21765,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose who — a captured enemy, or refuse entirely (affecting the Emperor's power).",
       "Resolve the moral choice, shaping your relationship with the Emperor.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Feed%20the%20Mind%20Flayer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=g6cp-gEb15k"
   },
 {
     id: 1002,
@@ -21787,7 +21787,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach Gortash and choose to parley (agree to ally against Orin) or fight him.",
       "Resolve the encounter to progress the Netherstone hunt.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Enter%20Wyrm's%20Rock%20Fortress%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EPVgAsQDeeI"
   },
 {
     id: 1003,
@@ -21809,7 +21809,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Mystic Carrion and defeat him.",
       "Decide Thrumbo's fate to close the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Defeat%20Mystic%20Carrion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kxB_4K0yEdg"
   },
 {
     id: 1004,
@@ -21831,7 +21831,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the situation with the Zhentarim.",
       "Report back to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Find%20Ffion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=igwa6_akJuM"
   },
 {
     id: 1005,
@@ -21853,7 +21853,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free the monk from the curse.",
       "Receive the monk's thanks and reward.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Cursed%20Monk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TGyQD0x08d4"
   },
 {
     id: 1006,
@@ -21875,7 +21875,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the encounter (tied to Karlach's and Wyll's arcs).",
       "Continue those companions' storylines accordingly.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Help%20the%20Devilish%20Ox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rJXWfy-YjOU"
   },
 {
     id: 1007,
@@ -21897,7 +21897,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Omeluum among the prisoners before the flood timer expires.",
       "Escape with him to complete the rescue.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Retrieve%20Omeluum%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yWcWEMaAEto"
   },
 {
     id: 1008,
@@ -21919,7 +21919,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rakath's gold from the vault — legitimately or by heist.",
       "Deliver or keep the gold to resolve the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Return%20Rakath's%20Gold%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BbGxbRQZnLo"
   },
 {
     id: 1009,
@@ -21941,7 +21941,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate Estel/Ettvard for the true story and change the headline.",
       "Alter or stop the presses to complete the quest.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Stop%20the%20Presses%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YV68bECnwL4"
   },
 {
     id: 1010,
@@ -21963,7 +21963,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hear its intentions regarding Orpheus and the Netherbrain.",
       "Decide how far to trust it, shaping the endgame Orpheus choice.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Visit%20the%20Emperor's%20Old%20Hideout%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DGsRYFZEGe0"
   },
 {
     id: 1027,
