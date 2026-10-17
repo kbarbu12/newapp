@@ -1774,7 +1774,7 @@ const quests = [
       "Solve the ruin's mechanisms and fight or sneak past its guardians.",
       "Decide the artifacts' fate between the rival factions to resolve the storm."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Storms%20of%20Poko%20Kohara%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Onqo49V1w6M"
   },
 {
     id: 62,
@@ -1796,7 +1796,7 @@ const quests = [
       "Bypass the imps and wards guarding the study rather than brawling through.",
       "Grab the grimoire and escape, choosing whether to deal with Arkemyr directly."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9WKJmR1SZBQ"
   },
 {
     id: 63,
@@ -1818,7 +1818,7 @@ const quests = [
       "Clear the guardians at each cache and collect the tome.",
       "Return the grimoires to Berkana for the unique spell-combination rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Lost%20Grimoires%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NtloCoeCf_k"
   },
 {
     id: 64,
@@ -1840,7 +1840,7 @@ const quests = [
       "Choose which gang or outcome to back through the dialogue branches.",
       "Resolve the changeling's scheme to decide who controls the district."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Changeling's%20Dance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PojLQpNOpAg"
   },
 {
     id: 65,
@@ -2677,7 +2677,7 @@ const quests = [
       "Investigate the lighthouse to pick up Eothas's trail.",
       "Choose whether to make the Naga allies or enemies for the rest of the game."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Hasongo%20Investigation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6-8vGDKYu84"
   },
 {
     id: 112,
@@ -4179,7 +4179,7 @@ const quests = [
       "Use Persuasion/Diplomacy checks to broker an agreement.",
       "Settle the alliance to unlock the later, more lucrative opportunities."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Fruitful%20Alliance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hyS3iKkNO2w"
   },
 {
     id: 194,
@@ -4201,7 +4201,7 @@ const quests = [
       "Pass the diplomatic tests with the local spirits.",
       "Finish the rite to earn the tribe's trust and rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Rite%20of%20Passage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TzEdM9FgJzU"
   },
 {
     id: 195,
@@ -4265,7 +4265,7 @@ const quests = [
       "Choose whether to steer her toward Gaun or Magran during her crisis.",
       "Resolve her arc about the souls in her lantern to lock in her ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Xoti%20%E2%80%94%20The%20Lantern%20of%20Gaun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Zq1NwtGVXbA"
   },
 {
     id: 198,
@@ -4287,7 +4287,7 @@ const quests = [
       "Explore the lost Engwithan city and its guardians.",
       "Let your faction allegiance decide which dramatic ending unfolds."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20City%20Lost%20to%20Time%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fsfq9S9o9_8"
   },
 {
     id: 199,
@@ -4309,7 +4309,7 @@ const quests = [
       "Choose whether she obeys or defies the Republic's orders.",
       "Resolve her arc to determine her fate and standing at the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Pallegina%20%E2%80%94%20The%20Man%20of%20Chimes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dTAlSkHXV_8"
   },
 {
     id: 200,
@@ -16299,7 +16299,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wake at Port Maje and get your bearings after the shipwreck.",
       "Begin the chase by seeking passage into the wider Deadfire."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Cornett's%20Call%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VinfklRpK40"
   },
 {
     id: 772,
@@ -16322,7 +16322,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the city's districts and meet the competing factions.",
       "Outfit ship and crew, then follow the leads pointing toward Eothas."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Port%20Maje%20%26%20the%20Gullet%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lS538jbrzMY"
   },
 {
     id: 773,
@@ -16368,7 +16368,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront the titan housing Eothas and learn the god's true plan.",
       "Escape the eruption and set course for Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Ashen%20Maw%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hNcISd-z8ao"
   },
 {
     id: 775,
@@ -16391,7 +16391,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Break through the storm to sight the lost Engwithan city.",
       "Approach Ukaizo for the confrontation with Eothas."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Coming%20Storm%20%2F%20A%20Glimpse%20Beyond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EVYXdnpgoLU"
   },
 {
     id: 776,
@@ -16414,7 +16414,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Eothas and hear out his world-shaking gambit.",
       "Make the final choice that decides how the Wheel — and the world — will turn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Fall%20of%20Ukaizo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fB0T-uJBrzM"
   },
 {
     id: 777,
@@ -16437,7 +16437,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose Huana-favoring outcomes in the districts and rival factions.",
       "Finish their arc to earn Huana backing for the endgame."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20The%20Huana%20walkthrough"
+    video: "https://www.youtube.com/watch?v=doFYaxoMiI0"
   },
 {
     id: 778,
@@ -16460,7 +16460,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Undercut the rival factions where the story allows.",
       "Complete their arc to gain VTC support at Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Vailian%20Trading%20Company%20walkthrough"
+    video: "https://www.youtube.com/watch?v=U5NXIMfQo_I"
   },
 {
     id: 779,
@@ -16506,7 +16506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose Rauataian-favoring resolutions in the faction conflicts.",
       "Complete their arc for imperial backing at Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Rauataian%20Royal%20Deadfire%20Company%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JqYDfffcn5I"
   },
 {
     id: 781,
@@ -16529,7 +16529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Guide his dialogue about faith now that Eothas has returned.",
       "Resolve the arc to settle Edér's beliefs and his fate."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Ed%C3%A9r%20%E2%80%94%20The%20Lighted%20Path%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EtoYSUyHbOQ"
   },
 {
     id: 782,
@@ -16552,7 +16552,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track Remaro down and confront him at sea.",
       "Choose Serafen's resolution to close his personal quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Serafen%20%E2%80%94%20A%20Sorcerer%20and%20a%20Gentleman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AURfqIxzrLI"
   },
 {
     id: 783,
@@ -16575,7 +16575,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Weigh the ruthless orders the deliveries reveal.",
       "Make the final choice that defines Maia's loyalty and ending."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Maia%20Rua%20%E2%80%94%20The%20Courier's%20Calling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j1-w-G4MCaA"
   },
 {
     id: 784,
@@ -16598,7 +16598,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the cause of the disturbance in the waters.",
       "Resolve the investigation to advance Tekēhu's story and gifts."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Companion%3A%20Tek%C4%93hu%20%E2%80%94%20The%20Shadow%20Under%20Neketaka%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bDHpkxwYYPM"
   },
 {
     id: 785,
@@ -16621,7 +16621,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the Beyond's trials and confront the death-god's servants.",
       "Choose how to answer Rymrgand to earn the DLC's rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20The%20Beast%20of%20Winter%20(DLC)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y4wFxdNn-BQ"
   },
 {
     id: 786,
@@ -16644,7 +16644,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Adapt your party to each themed challenge wave.",
       "Win the final bout for the arena's powerful loot."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Seeker%2C%20Slayer%2C%20Survivor%20(DLC)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hF6kAzp7tRM"
   },
 {
     id: 787,
@@ -52308,7 +52308,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore the sea cave for the remaining lost crew.",
       "Gather everyone you found to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Helping%20Hands%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mOgXBLyYJPI"
   },
 {
     id: 2449,
@@ -52330,7 +52330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Interrupt Inquisitor Lodwyn's ceremony — talk, fight, or let her execute Oswald.",
       "Recover what Oswald owes and return to Kahn."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Lost%20Dues%20in%20Good%20Faith%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6mnuot5mUzc"
   },
 {
     id: 2450,
@@ -52352,7 +52352,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Broker peace, or help one house destroy the other.",
       "Report to the house you sided with."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Family%20Pride%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VHeuTKWTzbg"
   },
 {
     id: 2451,
@@ -52374,7 +52374,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Persa.",
       "Report back to Ezzali."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Sinking%20Feeling%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aBqeO_3mqVE"
   },
 {
     id: 2452,
@@ -52396,7 +52396,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Make sure they leave the Wild Mare.",
       "Return to Martino."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Bigger%20Fish%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o-8EpxMlj8w"
   },
 {
     id: 2454,
@@ -52418,7 +52418,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the lock with a Translucent Crystal or Mechanics and take the Harapo Epic.",
       "Give the tablet to Tumara or Netehe."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Archmage's%20Vault%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XvFQckKharE"
   },
 {
     id: 2455,
@@ -52440,7 +52440,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Observe the four constellations, then activate the orrery for Bekarna's note.",
       "Return Bekarna's research to Arkemyr."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bekarna's%20Folly%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HYkIeApKsYo"
   },
 {
     id: 2456,
@@ -52462,7 +52462,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Get the final ode kept with Yseyr's sword (ask Kasu, pickpocket or fight).",
       "Return the complete eulogy to Kasu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Eulogy%20for%20the%20Dead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hrMLTMZLpyM"
   },
 {
     id: 2457,
@@ -52484,7 +52484,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Arrange a new supply from the Children of the Dawnstars, the Príncipi, or the Huana.",
       "Report back to Enoi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Food%20for%20Thought%20walkthrough"
+    video: "https://www.youtube.com/watch?v=of3oAFWNu7o"
   },
 {
     id: 2458,
@@ -52506,7 +52506,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Or find the medicine in an abandoned merchant stall.",
       "Bring the medicine to Pitli."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Harsh%20Medicine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HUeNu2niWqM"
   },
 {
     id: 2459,
@@ -52528,7 +52528,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to Hohina Ravine and confront the Broodmother.",
       "Kill her or resolve it peacefully, then report to Himuihi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Broodmother's%20Fury%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k-2Ct9VHrBY"
   },
 {
     id: 2460,
@@ -52550,7 +52550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the druid circle and talk or fight.",
       "Loot Saint Omaku's Mercy and report back to Okaya."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Hunting%20Season%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QJWJXJHVwSg"
   },
 {
     id: 2461,
@@ -52594,7 +52594,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and kill the slavers' leader.",
       "Return to Ruāsare on Ori o Koīki."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Cruel%20Cargo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9-hXKqVDKwk"
   },
 {
     id: 2463,
@@ -52616,7 +52616,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pass the Gates of Death to find Nemnok and Kaali.",
       "Intimidate, fight, or strike a deal with Nemnok, then return Kaali to Tatok."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Nemnok%20the%20Devourer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2POcpv1DOU8"
   },
 {
     id: 2464,
@@ -52638,7 +52638,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Climb the crypt stairs.",
       "Deal with Menzzago, the source of the illusion."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Paradise%20of%20the%20Mind%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NubFA--7VmY"
   },
 {
     id: 2465,
@@ -52659,7 +52659,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find Delver's Row: from the Narrows, turn right, walk on to the merchant stall, and go through the curtain behind it.",
       "Decide what to tell the prince about the black market, then report back to him."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Trade%20Secrets%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VCddpAZazkg"
   },
 {
     id: 2466,
@@ -52680,7 +52680,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. Faction quests often let you talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Last%20Sanctuary%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GJ4Gvt_K92k"
   },
 {
     id: 2467,
@@ -52701,7 +52701,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to your Huana contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20From%20the%20Wreckage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T_xF056CDQs"
   },
 {
     id: 2468,
@@ -52723,7 +52723,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out her final request against the traders.",
       "Your alliance with the Huana is sealed for the journey to Ukaizo (completes The Coming Storm)."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Taking%20Out%20the%20Traders%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t97FcLVUxNo"
   },
 {
     id: 2469,
@@ -52745,7 +52745,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hunt down Captain Benweth.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Blow%20the%20Man%20Down%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a5wBNTALnE8"
   },
 {
     id: 2470,
@@ -52766,7 +52766,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the tomb of Yseyr the Berathian and get past its guardians.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Symbols%20of%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8JOb_squ91I"
   },
 {
     id: 2471,
@@ -52787,7 +52787,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the problem quietly. How you resolve it affects later Crookspur quests.",
       "Report back to Furrante."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Shrewd%20Proposition%20walkthrough"
+    video: "https://www.youtube.com/watch?v=au8yGh6s0-g"
   },
 {
     id: 2472,
@@ -52808,7 +52808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront Furrante with evidence of his slave trading (or kill him).",
       "The council sentences him to death if he's exposed."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Honor%20Among%20Thieves%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sdiaZeLTMn8"
   },
 {
     id: 2473,
@@ -52829,7 +52829,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the Floating Hangman.",
       "Your alliance with the Príncipi is sealed for the journey to Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Dance%20with%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Na3aShoT2Yw"
   },
 {
     id: 2474,
@@ -52850,7 +52850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to Mad Morena."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Goods%20and%20Services%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bepBmuB3948"
   },
 {
     id: 2475,
@@ -52871,7 +52871,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Brass Citadel.",
       "Meet the RDC leadership to open their questline."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Brass%20Empire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kaz9o5sOnZg"
   },
 {
     id: 2476,
@@ -52893,7 +52893,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Disable or destroy it (destroying it earns more RDC reputation).",
       "Return to Atsura — A Matter of Import unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Dim%20Prospects%20walkthrough"
+    video: "https://www.youtube.com/watch?v=djTgIp95bxs"
   },
 {
     id: 2477,
@@ -52915,7 +52915,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Smuggle her to Sayuka.",
       "Report to Fleet Master Okaya — Overgrowth unlocks."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Matter%20of%20Import%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kTyzRP0SRF4"
   },
 {
     id: 2478,
@@ -52937,7 +52937,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the machine. The adra pylons can flood the structure to shut it down.",
       "Return to Okaya, then speak to Head Engineer Hetu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Overgrowth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=X1P0BnaDCSM"
   },
 {
     id: 2479,
@@ -52958,7 +52958,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the slaver leader Master Kua.",
       "Return to Atsura for a major RDC reputation gain."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Clearing%20Out%20Crookspur%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nhZP1Xpbd6g"
   },
 {
     id: 2480,
@@ -52980,7 +52980,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry out the assassination at Kahanga Palace.",
       "Your alliance with the RDC is sealed for Ukaizo."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Final%20Maneuver%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-prNVpXait8"
   },
 {
     id: 2481,
@@ -53000,7 +53000,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Vailian Trading Company headquarters in Queen's Berth.",
       "Speak to Lueva Alvari on the main floor to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20For%20the%20Republics!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Om9FkaFaFJw"
   },
 {
     id: 2482,
@@ -53021,7 +53021,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find what's left of the expedition.",
       "Report back to the VTC."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Terms%20of%20Trade%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BIUcVQngeIY"
   },
 {
     id: 2483,
@@ -53042,7 +53042,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate Quarno and Töla to uncover the details of their smuggling arrangement.",
       "Report back to Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Dirty%20Laundry%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1XgopLp-bTQ"
   },
 {
     id: 2484,
@@ -53063,7 +53063,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective. Faction quests often let you talk, sneak or fight your way through.",
       "Report back to your contact to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Of%20Like%20Minds%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_nB-RTfJTZI"
   },
 {
     id: 2485,
@@ -53084,7 +53084,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak with Flaune Elette on the Spire's rooftop.",
       "Follow the quest journal to the end and report back to Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Glimpse%20Beyond%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0iAMr-HmaCA"
   },
 {
     id: 2486,
@@ -53105,7 +53105,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the objective.",
       "Report back to Director Castol."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Skipping%20Ahead%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s8IQDAHS0zM"
   },
 {
     id: 2487,
@@ -53126,7 +53126,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Back either Lueva Alvari or Director Castol.",
       "Talk to the winner to receive the next VTC job."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Vote%20of%20No%20Confidence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3oPYcrwwqHE"
   },
 {
     id: 2488,
@@ -53147,7 +53147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the Royal Deadfire Company's Powderhouse and blow it up.",
       "Report back to the VTC."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Sabotage%20at%20the%20Brass%20Citadel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0yo5DOwF4DU"
   },
 {
     id: 2494,
@@ -53169,7 +53169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Buy cannon shot.",
       "Buy repair supplies to complete the task."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Basic%20Provisions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1eAtSneAdVU"
   },
 {
     id: 2495,
@@ -53191,7 +53191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach at least five crew.",
       "Keep hiring to eight for a fully functional ship."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Skeleton%20Crew%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3uoGoPDVAEs"
   },
 {
     id: 2496,
@@ -53213,7 +53213,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rinco's purse.",
       "Return it to Rinco."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Burning%20Bridges%20walkthrough"
+    video: "https://www.youtube.com/watch?v=epRG5kuUS_Y"
   },
 {
     id: 2497,
@@ -53235,7 +53235,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Persuade, scare or fight him out.",
       "Return to Thorel for your room key."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Better%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BH9CDJaceBw"
   },
 {
     id: 2498,
@@ -53257,7 +53257,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince him to take charge and stop the looting (or fight him).",
       "Report back to Savia."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Restoring%20Order%20walkthrough"
+    video: "https://www.youtube.com/watch?v=S9CBRWG5DZ0"
   },
 {
     id: 2499,
@@ -53279,7 +53279,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet him outside, or on your ship if you killed Savia.",
       "Add him to your crew."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Drunk%20Sailor%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ns4eDtCAb8o"
   },
 {
     id: 2500,
@@ -53301,7 +53301,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track down the gang that robbed Radora and deal with the alley thugs.",
       "Return to Zamar or side with the Príncipi."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Shipwright's%20Plight%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4lL2wbDleNw"
   },
 {
     id: 2501,
@@ -53323,7 +53323,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tamper with the contract or replace it with the Forged Contract.",
       "Return to Tawenu."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Coming%20to%20Terms%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xdHYVACo_ys"
   },
 {
     id: 2502,
@@ -53345,7 +53345,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report to Nera.",
       "Speak to Erzalli Bardatto for your reward and the next quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Salt%20in%20the%20Wound%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vtTrmf_-0hM"
   },
 {
     id: 2503,
@@ -53367,7 +53367,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cremate the body (openly with +2 Huana rep, or from stealth) — or bury it outside the walls for Huana rep.",
       "If cremated, collect the hidden treasure near the temple's leftmost pillars."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Her%20Last%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xwCNtw5mOmk"
   },
 {
     id: 2504,
@@ -53389,7 +53389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Speak to Arkemyr in his study.",
       "Accept Bekarna's Folly."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Cordial%20Invitation%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tXpXs-Q1AhQ"
   },
 {
     id: 2505,
@@ -53411,7 +53411,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover Rokowa's Fingers.",
       "Return, ransom or keep the gloves."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Velvet%20Glove%2C%20Brass%20Fist%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zAjp7XLPgGQ"
   },
 {
     id: 2506,
@@ -53433,7 +53433,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with Talfor's crew on the way back to Queen's Berth.",
       "Return the satchel or expose Degnos."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Sealed%20Fate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u0IuJJmCQvI"
   },
 {
     id: 2507,
@@ -53455,7 +53455,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go down to the Old City to find Botaro.",
       "Find another way out through the smugglers."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20All%20Aboard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PbX15Ls1vNA"
   },
 {
     id: 2508,
@@ -53477,7 +53477,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Get her directions to the hidden entrance.",
       "Enter Delver's Row."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Delver's%20Row%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QQMOXhuWX-s"
   },
 {
     id: 2509,
@@ -53499,7 +53499,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the ingredients to Pietro.",
       "Help him pass Ngati's Black Tear."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Iron%20Gut%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3qizytypxVA"
   },
 {
     id: 2510,
@@ -53521,7 +53521,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Convince both to join the show.",
       "Return to Calandra for your cut."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20A%20Tidy%20Performance%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dqQiyDmky9E"
   },
 {
     id: 2511,
@@ -53543,7 +53543,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the fruit in a crate on the southwest beach and inspect the Stained Kaora Reeds.",
       "Decide whether Tamau or Rongi takes the blame."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Plucked%20Fruit%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tR8QPyVBsmI"
   },
 {
     id: 2512,
@@ -53565,7 +53565,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Meryel the Mad.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Meryel%20the%20Mad%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IESGYUtKusU"
   },
 {
     id: 2513,
@@ -53587,7 +53587,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Pūrākau.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20P%C5%ABr%C4%81kau%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8M4eLh842-Y"
   },
 {
     id: 2514,
@@ -53609,7 +53609,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Nomu the Marauder.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Nomu%20the%20Marauder%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZN1FJXYm04E"
   },
 {
     id: 2515,
@@ -53631,7 +53631,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Tāhae.",
       "Return to Abocco with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20T%C4%81hae%20walkthrough"
+    video: "https://www.youtube.com/watch?v=EROGF4AQnLM"
   },
 {
     id: 2516,
@@ -53652,7 +53652,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Biakara on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Biakara%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t93TRagMbu8"
   },
 {
     id: 2517,
@@ -53673,7 +53673,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Veen on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Veen%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VyEl8DyERac"
   },
 {
     id: 2518,
@@ -53694,7 +53694,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Desiwa the Shark on deck.",
       "Return to Aenia for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Desiwa%20the%20Shark%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NRGudeJAgdk"
   },
 {
     id: 2519,
@@ -53715,7 +53715,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Diccila on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Diccila%20walkthrough"
+    video: "https://www.youtube.com/watch?v=WZL0q6E5yxU"
   },
 {
     id: 2520,
@@ -53736,7 +53736,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Oheiro on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Oheiro%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TBsQRZDhMFY"
   },
 {
     id: 2521,
@@ -53757,7 +53757,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Rafiq the Red Beard on deck.",
       "Return to Barati for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Rafiq%20the%20Red%20Beard%20walkthrough"
+    video: "https://www.youtube.com/watch?v=6BdBwgfctWU"
   },
 {
     id: 2522,
@@ -53778,7 +53778,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Assila Wave-Skipper on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Assila%20Wave-Skipper%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KXAu1ohmdyw"
   },
 {
     id: 2523,
@@ -53799,7 +53799,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Radulf on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Radulf%20walkthrough"
+    video: "https://www.youtube.com/watch?v=McUdxMNM1_g"
   },
 {
     id: 2524,
@@ -53820,7 +53820,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Burunga on deck.",
       "Return to Fleet Master Wakoyo for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Burunga%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2_AnlTtTKnQ"
   },
 {
     id: 2525,
@@ -53842,7 +53842,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Dhwrgas the Ascetic.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Dhwrgas%20the%20Ascetic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DvQUrcb28JY"
   },
 {
     id: 2526,
@@ -53864,7 +53864,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Onadere the Siren.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Onadere%20the%20Siren%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LHwbllRipcY"
   },
 {
     id: 2527,
@@ -53886,7 +53886,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Ikorno.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Ikorno%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V03fY6dhF80"
   },
 {
     id: 2528,
@@ -53908,7 +53908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Urnox the Rathun.",
       "Return to Okauro with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Urnox%20the%20Rathun%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vyzXhqmJBf4"
   },
 {
     id: 2529,
@@ -53930,7 +53930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Beina Nungata.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Beina%20Nungata%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xTeKFNJeYRg"
   },
 {
     id: 2530,
@@ -53952,7 +53952,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Flamewalker Vessali.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Flamewalker%20Vessali%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2BAM_HPDKus"
   },
 {
     id: 2531,
@@ -53974,7 +53974,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus The Steel Preacher.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20The%20Steel%20Preacher%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7anONdGM3tI"
   },
 {
     id: 2532,
@@ -53996,7 +53996,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Uamoru the Pretender.",
       "Return to Nungata with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Uamoru%20the%20Pretender%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_KcEn0g8Doo"
   },
 {
     id: 2533,
@@ -54017,7 +54017,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Chornu on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Chornu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=hB_EettwGpw"
   },
 {
     id: 2534,
@@ -54038,7 +54038,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Kuaro on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Kuaro%20walkthrough"
+    video: "https://www.youtube.com/watch?v=01l7ZyZhvh0"
   },
 {
     id: 2535,
@@ -54059,7 +54059,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Engage it at sea. Win the ship battle or board it and defeat Rock-Stomper Rodul on deck.",
       "Return to Udita for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Rock-Stomper%20Rodul%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9lDSt6xiiDc"
   },
 {
     id: 2536,
@@ -54081,7 +54081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Lord Admiral Imp Dessiral.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Lord%20Admiral%20Imp%20Dessiral%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zvD11O-Pq3Y"
   },
 {
     id: 2537,
@@ -54103,7 +54103,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Lady Epero.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Lady%20Epero%20walkthrough"
+    video: "https://www.youtube.com/watch?v=edG1ylrQQFc"
   },
 {
     id: 2538,
@@ -54125,7 +54125,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Katrenn.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Katrenn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ulU_6fR_naw"
   },
 {
     id: 2539,
@@ -54147,7 +54147,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open on the escorts with crowd control, then focus Torkar.",
       "Return to Dessiral with proof for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20Bounty%20-%20Torkar%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ftn6FpTeEZ8"
   },
 {
     id: 2540,
@@ -54169,7 +54169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the Wandering Souls — fragments of King Wingauro.",
       "Meet Wingauro in the Sunken Crown and recruit him or put him to rest."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%20II%20The%20Drowned%20Kingdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=64pGVJmOKZE"
   },
   {
     id: 2573,
