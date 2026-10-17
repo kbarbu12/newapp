@@ -2523,7 +2523,7 @@ const quests = [
       "Fight through Riku's raiders.",
       "Defeat Black Hand Riku to claim the Sarugami Armor."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legend%20of%20Black%20Hand%20Riku%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1OtMmxIHo9E"
   },
 {
     id: 104,
@@ -3823,7 +3823,7 @@ const quests = [
       "Free the healer, Hochi.",
       "Protect Hochi to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Three%20Actions%2C%20Three%20Illusions%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZTdqo0JS7XA"
   },
 {
     id: 176,
@@ -3866,7 +3866,7 @@ const quests = [
       "Deal with the trouble on the way.",
       "Finish the tale with Kenji."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Nattou%20and%20the%20Sake%20Seller%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dXULJXYSzCY"
   },
 {
     id: 178,
@@ -3887,7 +3887,7 @@ const quests = [
       "Kill Taizo, then Manzo and Kichizo, without being seen.",
       "Meet Yuna at the front gate to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Silent%20Death%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9SC4Ztxfhrw"
   },
 {
     id: 179,
@@ -10142,7 +10142,7 @@ const quests = [
       "Push through to the objective and rescue/secure the target.",
       "Report back to advance the liberation of Izuhara."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Warrior's%20Code%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0VBj_c2SDKo"
   },
 {
     id: 468,
@@ -10166,7 +10166,7 @@ const quests = [
       "Confront the enemy leader behind the atrocity.",
       "Complete the mission to progress Jin's story."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Blood%20on%20the%20Grass%20walkthrough"
+    video: "https://www.youtube.com/watch?v=puZtiL36thU"
   },
 {
     id: 469,
@@ -10211,7 +10211,7 @@ const quests = [
       "Investigate the barrels on the ground floor.",
       "Climb to the top with Yuna and survey Port Izumi."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Gathering%20Storm%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sLn66K3Hn1M"
   },
 {
     id: 471,
@@ -10235,7 +10235,7 @@ const quests = [
       "Confront the enemy leader responsible.",
       "Complete the mission to push the story forward."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Message%20in%20Fire%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qUANlaK_Ld8"
   },
 {
     id: 472,
@@ -10259,7 +10259,7 @@ const quests = [
       "Confront the figure from Jin's history at the climax.",
       "Resolve the encounter to advance Jin's Journey."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Ghosts%20from%20the%20Past%20walkthrough"
+    video: "https://www.youtube.com/watch?v=2-Ctx7fDD3I"
   },
 {
     id: 473,
@@ -10325,7 +10325,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Yuna."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Tale%20of%20Yuna%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NqcVhysYFhk"
   },
 {
     id: 476,
@@ -10346,7 +10346,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Ishikawa."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sensei%20and%20the%20Student%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GbuSI_NoTlQ"
   },
 {
     id: 477,
@@ -10367,7 +10367,7 @@ const quests = [
       "Deal with the enemies on the way.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Headman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QVzuN3oU_Zk"
   },
 {
     id: 478,
@@ -10412,7 +10412,7 @@ const quests = [
       "Keep the monk alive.",
       "Talk to the monks to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Last%20Warrior%20Monk%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5zkAbriZPV0"
   },
 {
     id: 481,
@@ -10458,7 +10458,7 @@ const quests = [
       "Reach the shrine at the summit and pray.",
       "Claim the charm reward, then find the next shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Shinto%20Shrines%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lqikqw1Ma7A"
   },
 {
     id: 483,
@@ -10481,7 +10481,7 @@ const quests = [
       "Nail the full combo to finish the challenge.",
       "Earn increased Resolve, then seek the next stand."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Bamboo%20Strikes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BAWj-lgVne8"
   },
 {
     id: 2582,
@@ -10643,7 +10643,7 @@ const quests = [
       "Confront the memories of Jin's father the island forces on him.",
       "Complete the chapter to progress the Iki storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Journey%20into%20the%20Past%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tg9taL0vI8E"
   },
 {
     id: 488,
@@ -15177,7 +15177,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight the enemy leader at the heart of the keep.",
       "Complete the mission to push the story on."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Heart%20of%20the%20Jito%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G4Icq0Bq6GQ"
   },
 {
     id: 693,
@@ -15201,7 +15201,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Confront the commander responsible.",
       "Complete the mission, at a cost to Jin's honor."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20From%20the%20Darkness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RiFWOioB0f4"
   },
 {
     id: 695,
@@ -15249,7 +15249,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight through the threat endangering them.",
       "Resolve the reunion to advance the Iki tales."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Lost%20Friend%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=yT3SZqp3R-4"
   },
 {
     id: 697,
@@ -15273,7 +15273,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Face the final confrontation the tale stages.",
       "Complete it for its reward and closure."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blessing%20of%20Death%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iEhu732ljlM"
   },
 {
     id: 698,
@@ -15297,7 +15297,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Complete the melody to soothe the sanctuary and earn its charm/cosmetic reward.",
       "Seek out the remaining sanctuaries across Iki to finish the set."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Animal%20Sanctuaries%20(Iki%20Island)%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iB7_a1Slq1g"
   },
 {
     id: 699,
@@ -15318,7 +15318,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Deal with the enemies on the way.",
       "Finish the tale with Ishikawa."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Past%20Never%20Passes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XJrbhD62GSQ"
   },
 {
     id: 700,
@@ -19809,7 +19809,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Survey the low ground to pick up fire arrows.",
       "Help Ishikawa fight off the Mongol attack."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Way%20of%20the%20Bow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=L2ux09ElorU"
   },
 {
     id: 913,
@@ -19914,7 +19914,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the force threatening Umugi Cove.",
       "Stop Tomoe from leaving the island."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20Laid%20to%20Rest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kFYDB-MhaJc"
   },
 {
     id: 918,
@@ -19935,7 +19935,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When Hina screams, run back and follow the tracks to the assassin and his men.",
       "Kill them and take the Supply Map Stained in Blood from the assassin's body."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Husband%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sa4dkHAYAa0"
   },
 {
     id: 919,
@@ -19977,7 +19977,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest objectives to track down the conspirator.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Fool%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vxV1AFXqynk"
   },
 {
     id: 921,
@@ -19998,7 +19998,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Investigate the house and follow the footprints.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Family%20Man%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BknG3e7U8Ug"
   },
 {
     id: 922,
@@ -20040,7 +20040,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat Masako in a duel, then the Mongols who charge in.",
       "Find Junshin hiding under an overhanging rock past the Fox Den."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Conspirator%20walkthrough"
+    video: "https://www.youtube.com/watch?v=m0XBuOLfgfA"
   },
 {
     id: 924,
@@ -20061,7 +20061,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow her to the Kikuchi estate.",
       "Watch the final cutscene."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Sister%20Betrayed%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KCeMXrrgRRA"
   },
 {
     id: 925,
@@ -20082,7 +20082,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any enemies on the way.",
       "Finish the tale with Masako."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20A%20Mother's%20Peace%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9NeHej6bHB4"
   },
 {
     id: 926,
@@ -20145,7 +20145,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn that the Buddha statue was stolen and Abbot Komei has escaped.",
       "Talk to Norio to finish the tale."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Birth%20of%20Suffering%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PByzS2KE-kA"
   },
 {
     id: 929,
@@ -20166,7 +20166,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dive into the water below and enter the cave.",
       "Find the Abbot."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Blood%20Sutra%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uQXinAtf7Jg"
   },
 {
     id: 930,
@@ -20229,7 +20229,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Mongols inside.",
       "Enter the main hall with Norio."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Guardian%20of%20Tsushima%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mZJme_yyYbE"
   },
 {
     id: 933,
@@ -20250,7 +20250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the quest objectives.",
       "Finish the tale with Norio."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20This%20Threefold%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OCBDT-aQQWI"
   },
 {
     id: 934,
@@ -20271,7 +20271,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the tale through the places tied to Kazumasa's past.",
       "Finish it to unlock the Sakai Clan horse armour."
     ],
-    video: "https://www.youtube.com/results?search_query=Ghost%20of%20Tsushima%20The%20Legacy%20of%20Kazumasa%20Sakai%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lf1a9j7djrk"
   },
 {
     id: 935,
