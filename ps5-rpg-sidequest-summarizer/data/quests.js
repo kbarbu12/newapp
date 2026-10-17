@@ -32648,7 +32648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the frozen Mount and use the Ancient Blade to enter the Temple of Time area.",
       "Watch the vision of Zelda, then prepare to descend to the surface to begin the search."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Find%20Princess%20Zelda%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wKpxpgfWXJw"
   },
   {
     id: 1538,
@@ -32688,7 +32688,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Enter Lookout Landing and find Purah at the observation deck.",
       "Trigger the cutscene that sets up the Regional Phenomena investigation."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Kingdom%20of%20Hyrule%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fecx35IUKDM"
   },
   {
     id: 1540,
@@ -32928,7 +32928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reassemble the slate into its full form.",
       "Read the restored inscription to continue Clues to the Sky."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Broken%20Slate%20walkthrough"
+    video: "https://www.youtube.com/watch?v=rib9hRqnRGQ"
   },
   {
     id: 1552,
@@ -33068,7 +33068,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the photos to Josha for analysis.",
       "Continue documenting the Depths as the research expands."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Camera%20Work%20in%20the%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zsUxC5BIppg"
   },
   {
     id: 1559,
@@ -33108,7 +33108,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drop into the Depths and activate the first Lightroot.",
       "Follow the underground path to advance the mystery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Call%20from%20the%20Depths%20walkthrough"
+    video: "https://www.youtube.com/watch?v=NMoX9Zns7_U"
   },
   {
     id: 1561,
@@ -33128,7 +33128,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sell a heart container or stamina vessel for 100 rupees.",
       "Buy the vessel back (for 120) whenever you want to switch."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Deal%20With%20the%20Statue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8Wbw3LYkDgY"
   },
   {
     id: 1562,
@@ -33148,7 +33148,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hand over the letter and hear her response.",
       "Report back to complete the delivery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Letter%20to%20Koyin%20walkthrough"
+    video: "https://www.youtube.com/watch?v=bKREGHzXRHI"
   },
   {
     id: 1563,
@@ -33168,7 +33168,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the kills back to Kilton.",
       "Claim the first-tier medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=p8j4IeFcdOI"
   },
   {
     id: 1564,
@@ -33188,7 +33188,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring proof of the kills to Kilton.",
       "Receive the second medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ylsO7MSFBms"
   },
   {
     id: 1565,
@@ -33208,7 +33208,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the tally to Kilton.",
       "Claim the third medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20III%20walkthrough"
+    video: "https://www.youtube.com/watch?v=tuR8fyRbIek"
   },
   {
     id: 1566,
@@ -33228,7 +33228,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Report the results to Kilton.",
       "Earn the fourth medal and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20IV%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LJQ3xEi8Wdg"
   },
   {
     id: 1567,
@@ -33248,7 +33248,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Turn in the completed tally to Kilton.",
       "Claim the final medal and completion reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Monstrous%20Collection%20V%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_hnVUc8zLII"
   },
   {
     id: 1568,
@@ -33268,7 +33268,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prepare or hand over the required food.",
       "Deliver the finished dish to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Signature%20Food%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RhYn-Aq-tRo"
   },
   {
     id: 1569,
@@ -33288,7 +33288,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track the sound to uncover its cause.",
       "Resolve the disturbance and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Eerie%20Voice%20walkthrough"
+    video: "https://www.youtube.com/watch?v=CjV93aZRBE8"
   },
   {
     id: 1570,
@@ -33308,7 +33308,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve each community's problem.",
       "Complete the region to bring peace to Akkala."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Akkala!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qA91Ak6mmpw"
   },
   {
     id: 1571,
@@ -33328,7 +33328,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the region's residents recover.",
       "Finish the region to bring peace to Eldin."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Eldin!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XV8tq-jfAnw"
   },
   {
     id: 1572,
@@ -33348,7 +33348,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assist the region's residents.",
       "Complete the region to bring peace to Faron."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Faron!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_KQX35g2CB8"
   },
   {
     id: 1573,
@@ -33368,7 +33368,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the Rito and stable folk of the region.",
       "Complete the region to bring peace to Hebra."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hebra!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k_B2WiTx6gA"
   },
   {
     id: 1574,
@@ -33388,7 +33388,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Seal or avoid the gloom spills near the castle.",
       "Finish the region to bring peace to Hyrule Field."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Hyrule%20Field!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sDGrPNKhWdo"
   },
   {
     id: 1575,
@@ -33408,7 +33408,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the region's monster threats.",
       "Complete the region to bring peace to Necluda."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Bring%20Peace%20to%20Necluda!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DYHszfZ94Rs"
   },
   {
     id: 1576,
@@ -33428,7 +33428,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the secret behind her campaign.",
       "Report your findings to advance the election plot."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cece's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Gq8mvNrcB0A"
   },
   {
     id: 1577,
@@ -33448,7 +33448,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fill every category of the Compendium.",
       "Return to Robbie for the completion rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Filling%20Out%20the%20Compendium%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8-a4iswgPYE"
   },
   {
     id: 1578,
@@ -33468,7 +33468,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the leads to the truth of the sighting.",
       "Report to Penn to advance the Gazette storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20For%20Our%20Princess!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=J-Zva0Z0lz0"
   },
   {
     id: 1579,
@@ -33488,7 +33488,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the stranded travelers.",
       "Help them and report back for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gourmets%20Gone%20Missing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gl45RXwMt_Y"
   },
   {
     id: 1580,
@@ -33508,7 +33508,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Meet Robbie and restore the lab's functions.",
       "Gain the camera and sensor features."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hateno%20Village%20Research%20Lab%20walkthrough"
+    video: "https://www.youtube.com/watch?v=r4mwNo2mYBg"
   },
   {
     id: 1581,
@@ -33528,7 +33528,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the maracas to Hestu.",
       "Trade Korok Seeds to expand your inventory."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hestu's%20Concerns%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HIFR7UfI738"
   },
   {
     id: 1582,
@@ -33548,7 +33548,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the honey carefully.",
       "Deliver it so he can make his confession."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Honey%2C%20Bee%20Mine%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uRWeSWF8dvc"
   },
   {
     id: 1583,
@@ -33588,7 +33588,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Illuminate the path toward the giant owl statue.",
       "Uncover the ruins' secret to reveal the hidden shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Investigate%20the%20Thyphlo%20Ruins%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gFbB6zhyFWo"
   },
   {
     id: 1585,
@@ -33608,7 +33608,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Piece together the island's Zonai history.",
       "Complete the legend to claim its rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Great%20Sky%20Island%20walkthrough"
+    video: "https://www.youtube.com/watch?v=vTnpjJtvi6E"
   },
   {
     id: 1586,
@@ -33648,7 +33648,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track him to further mines across the Depths.",
       "Beat his final machine to end the Yiga threat."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20Kohga%20of%20the%20Yiga%20Clan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=3n0wZPKz0d4"
   },
   {
     id: 1588,
@@ -33668,7 +33668,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "See her off toward Gerudo Town.",
       "Return to the family to close the story."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mattison's%20Independence%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u2WzzhtBkPs"
   },
   {
     id: 1589,
@@ -33688,7 +33688,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Record or retrieve the messages.",
       "Deliver them for translation to reveal the lore."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Messages%20from%20an%20Ancient%20Era%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9EGP_bSZ0YQ"
   },
   {
     id: 1590,
@@ -33728,7 +33728,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the short request.",
       "Activate Hero's Path Mode on the Purah Pad."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Hero's%20Path%20Mode!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pr8dwgvSYbw"
   },
   {
     id: 1592,
@@ -33748,7 +33748,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the requirement (Compendium progress).",
       "Unlock Sensor+ for targeted tracking."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20Sensor%20%2B!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=75HidCozuY8"
   },
   {
     id: 1593,
@@ -33768,7 +33768,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Receive the Travel Medallion.",
       "Place it anywhere to create a fast-travel point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Presenting%3A%20The%20Travel%20Medallion!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zehn4Cko3ZU"
   },
   {
     id: 1594,
@@ -33788,7 +33788,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to the 'princess'.",
       "Report the truth to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Princess%20Zelda%20Kidnapped%3F!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=l4NPh4zp_tI"
   },
   {
     id: 1595,
@@ -33808,7 +33808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover the secret behind his behavior.",
       "Report your findings to advance the storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Reede's%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Um8lFYdGRpI"
   },
   {
     id: 1596,
@@ -33828,7 +33828,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the ship and beach camps.",
       "Free the villagers to begin restoration."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ruffian-Infested%20Village%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zZymQOz6pmY"
   },
   {
     id: 1597,
@@ -33848,7 +33848,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort it to the Great Fairy Fountain.",
       "Play the serenade to awaken the Great Fairy."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20a%20Great%20Fairy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=huq6yVreCxA"
   },
   {
     id: 1598,
@@ -33868,7 +33868,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Lead them to Cotera's Fountain.",
       "Perform to awaken Cotera for armor upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Cotera%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JyNAErN2bso"
   },
   {
     id: 1599,
@@ -33888,7 +33888,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort it to Kaysa's Great Fairy Fountain.",
       "Play the music to awaken Kaysa."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Kaysa%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OcePfPkER_Q"
   },
   {
     id: 1600,
@@ -33908,7 +33908,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort the troupe to Mija's Great Fairy Fountain.",
       "Perform to awaken Mija and unlock full upgrades."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Serenade%20to%20Mija%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nZs4v7_ljkY"
   },
   {
     id: 1601,
@@ -33928,7 +33928,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose to support Cece or Reede.",
       "See the election resolve based on your choice."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Team%20Cece%20or%20Team%20Reede%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=LJPz4_7ZL0o"
   },
   {
     id: 1602,
@@ -33949,7 +33949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight the 'Cucco', which turns out not to be a chicken.",
       "Report back to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20All-Clucking%20Cucco%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Dd4m6TuTjVM"
   },
   {
     id: 1603,
@@ -33969,7 +33969,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the trail to its source.",
       "Report the truth to Penn."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beast%20and%20the%20Princess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SWJ7kKxJwu8"
   },
   {
     id: 1604,
@@ -33989,7 +33989,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Approach and confront the mystery.",
       "Resolve the encounter and report back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Beckoning%20Woman%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IdQTqhXMNN8"
   },
   {
     id: 1605,
@@ -34009,7 +34009,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the debris sealing it.",
       "Report the reopened well."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Well%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IvJ3V23QrMc"
   },
   {
     id: 1606,
@@ -34029,7 +34029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the corridor they flank.",
       "Uncover the passage's secret."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Corridor%20between%20Two%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-8Gt3rRYgUM"
   },
   {
     id: 1607,
@@ -34049,7 +34049,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help carry out the next step.",
       "Advance the musicians' storyline."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Flute%20Player's%20Plan%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nBtyK9DZdeE"
   },
   {
     id: 1608,
@@ -34069,7 +34069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the danger or build a way out.",
       "Reunite him with the musicians."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hornist's%20Dramatic%20Escape%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AzIeOJI93vA"
   },
   {
     id: 1609,
@@ -34109,7 +34109,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the clue the legend describes.",
       "Uncover the associated secret."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Long%20Dragon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YnvRzMDksao"
   },
   {
     id: 1611,
@@ -34129,7 +34129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Begin investigating each candidate.",
       "Advance toward the vote."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mayoral%20Election%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k_ul4cFKBGE"
   },
   {
     id: 1612,
@@ -34149,7 +34149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the monsters and recover the tools.",
       "Return them to the farmer."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Farm%20Tools%20walkthrough"
+    video: "https://www.youtube.com/watch?v=F_HIkDXylhc"
   },
   {
     id: 1613,
@@ -34169,7 +34169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the owl-and-dragons puzzle.",
       "Reveal and enter the hidden shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Owl%20Protected%20by%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u5P2rVuBx8c"
   },
   {
     id: 1614,
@@ -34209,7 +34209,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Arrange or identify them as the legend requires.",
       "Complete the dragon-lore puzzle for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Six%20Dragons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ucj5EeCfnpU"
   },
   {
     id: 1616,
@@ -34249,7 +34249,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with any monsters threatening them.",
       "Herd the goats home."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20White%20Goats%20Gone%20Missing%20walkthrough"
+    video: "https://www.youtube.com/watch?v=roSdgF0S8Uk"
   },
   {
     id: 1618,
@@ -34269,7 +34269,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Identify who has been sneaking about.",
       "Report the truth to resolve the worry."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Goes%20There%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qkx9q7QjlVE"
   },
   {
     id: 1619,
@@ -34329,7 +34329,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Match the color to reveal the hidden shrine.",
       "Complete the shrine for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dyeing%20to%20Find%20It%20walkthrough"
+    video: "https://www.youtube.com/watch?v=leSeec0FZRw"
   },
   {
     id: 1622,
@@ -34349,7 +34349,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unlock the water-born key mechanism.",
       "Enter and complete the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Keys%20Born%20of%20Water%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sKZC8Erl1xQ"
   },
   {
     id: 1623,
@@ -34369,7 +34369,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legend%20of%20the%20Soaring%20Spear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z8ji8Xc-Iy4"
   },
   {
     id: 1624,
@@ -34389,7 +34389,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Maca's%20Special%20Place%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eNNNhjwKmWQ"
   },
   {
     id: 1625,
@@ -34409,7 +34409,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prove yourself or clear the obstacle.",
       "Enter and complete the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20None%20Shall%20Pass%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=k8QL_TRNNyY"
   },
   {
     id: 1626,
@@ -34449,7 +34449,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20for%20Sale%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IhwTYC4rQ1c"
   },
   {
     id: 1628,
@@ -34469,7 +34469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross the volcanic terrain to the shrine pedestal.",
       "Drop the crystal in to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Death%20Caldera%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=AXLiwWxS534"
   },
   {
     id: 1629,
@@ -34489,7 +34489,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20East%20Hebra%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7PRKe3qIMgE"
   },
   {
     id: 1630,
@@ -34529,7 +34529,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it across the crater.",
       "Insert it into the shrine to activate it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gisa%20Crater%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y3pr6U6_uOM"
   },
   {
     id: 1632,
@@ -34549,7 +34549,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Solve the challenge to reveal the hidden shrine.",
       "Enter and complete the shrine for a Light of Blessing."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20High%20Spring%20and%20the%20Light%20Rings%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TgBYw_AvNsE"
   },
   {
     id: 1633,
@@ -34569,7 +34569,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the nearby shrine.",
       "Drop it in to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Hylia%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0lEtWnrCVoc"
   },
   {
     id: 1634,
@@ -34589,7 +34589,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate back to the shrine.",
       "Place the crystal to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lake%20Intenoch%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8ycBEQt1HsA"
   },
   {
     id: 1635,
@@ -34689,7 +34689,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Necluda%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HlWScegxqAM"
   },
   {
     id: 1640,
@@ -34709,7 +34709,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it out to the shrine.",
       "Place the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Northwest%20Hebra%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DDITGmOWfSU"
   },
   {
     id: 1641,
@@ -34729,7 +34729,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the shrine.",
       "Activate the shrine with the crystal."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Oakle's%20Navel%20Cave%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o6qkbH12uS8"
   },
   {
     id: 1642,
@@ -34749,7 +34749,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry it to the nearby shrine.",
       "Drop it in to activate the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ralis%20Channel%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=j4YHViWMN8g"
   },
   {
     id: 1643,
@@ -34789,7 +34789,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Sky%20Mine%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mpPqFTw3ii8"
   },
   {
     id: 1645,
@@ -34829,7 +34829,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Hyrule%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZFPia_GPIdA"
   },
   {
     id: 1647,
@@ -34849,7 +34849,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate the sky islands to the shrine.",
       "Insert the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lanayru%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JCAaaKlpcGM"
   },
   {
     id: 1648,
@@ -34869,7 +34869,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Carry or transport the crystal to the shrine.",
       "Place the crystal on its pedestal to open the shrine, then complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tabantha%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BlpP6QtK2jE"
   },
   {
     id: 1649,
@@ -34889,7 +34889,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Navigate to the shrine across the islands.",
       "Place the crystal to open the shrine."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20West%20Necluda%20Sky%20Crystal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1XQO66KEuV4"
   },
   {
     id: 1650,
@@ -34929,7 +34929,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help the stranded person in need.",
       "Return to confirm the rescue for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Bottled%20Cry%20for%20Help%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wdRoDvRTQx4"
   },
   {
     id: 1652,
@@ -34949,7 +34949,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the number requested.",
       "Deliver the crabs for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Crabulous%20Deal%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sQVvYHqwqhc"
   },
   {
     id: 1653,
@@ -34969,7 +34969,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the materials the tailor requests.",
       "Receive the renewed Champion's Tunic."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20New%20Champion's%20Tunic%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TzVXbTGdqR8"
   },
   {
     id: 1654,
@@ -34989,7 +34989,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return and show the picture to the clerk.",
       "Claim the decoration reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Dueling%20Peaks%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XteMwYM07NM"
   },
   {
     id: 1655,
@@ -35009,7 +35009,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take its photo with the Camera.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20East%20Akkala%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HDiN2bNE-Wc"
   },
   {
     id: 1656,
@@ -35029,7 +35029,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the Daruk statue.",
       "Show the photo to Ozunda for a Pony Point and a Fireproof Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Foothill%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OfKYkzBA7NY"
   },
   {
     id: 1657,
@@ -35049,7 +35049,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Highland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lLJ0mpeyEYk"
   },
   {
     id: 1658,
@@ -35069,7 +35069,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Wait (or rest) for a clear day.",
       "Photograph the falls and show Anly for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Lakeside%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jie1DAP_Jg4"
   },
   {
     id: 1659,
@@ -35089,7 +35089,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take its photo with the Camera.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20New%20Serenne%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DgGFwWPIew4"
   },
   {
     id: 1660,
@@ -35109,7 +35109,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it in full.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Outskirt%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ze0Xvq9RuEc"
   },
   {
     id: 1661,
@@ -35129,7 +35129,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the statue with all of it in frame.",
       "Show Ember for a Pony Point and Energizing Crab Stir-Fry."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Riverside%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-aMELUqtrPI"
   },
   {
     id: 1662,
@@ -35149,7 +35149,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "On a clear day, aim north-west until the camera flags the 'bird'.",
       "Take the photo and show Varke for a Pony Point and Spicy Meat Stew."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Snowfield%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=SfMfic5UHoU"
   },
   {
     id: 1663,
@@ -35169,7 +35169,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the bell in the middle of town.",
       "Show the photo at the stable for a Pony Point."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20South%20Akkala%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=V-XAoR8XPLI"
   },
   {
     id: 1664,
@@ -35190,7 +35190,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the sunrise to the east — 'Ancient Columns at sunrise' appears.",
       "Show Dabi for a Pony Point and a Hasty Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Tabantha%20Bridge%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HWNKR75vu6w"
   },
   {
     id: 1665,
@@ -35210,7 +35210,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the landmark and return.",
       "Deliver the first picture."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ulb2gg1Eq4w"
   },
   {
     id: 1666,
@@ -35230,7 +35230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the giant sword of the Eighth Heroine on the Gerudo Summit.",
       "Photograph it and show Piaffe to help reopen the stable."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20the%20Closed%20Stable%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=guNsb0A46B8"
   },
   {
     id: 1667,
@@ -35250,7 +35250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the whole ring.",
       "Show Lawdon for a Pony Point and an Electro Elixir."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Wetland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=lRAgGHUqZP8"
   },
   {
     id: 1668,
@@ -35270,7 +35270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return the photo to the clerk.",
       "Claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Picture%20for%20Woodland%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=iMO6gscFkeg"
   },
   {
     id: 1669,
@@ -35290,7 +35290,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Token%20of%20Friendship%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DpZWh4Hj32g"
   },
   {
     id: 1670,
@@ -35310,7 +35310,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Record the historical points requested.",
       "Complete the trip through history."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Trip%20through%20History%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uZWHAvagVmw"
   },
   {
     id: 1671,
@@ -35330,7 +35330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the trade items.",
       "Return them to restore the merchant's business."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Way%20to%20Trade%2C%20Washed%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pmOmbriJtuk"
   },
   {
     id: 1672,
@@ -35350,7 +35350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Ensure she is safe.",
       "Reunite the couple for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20A%20Wife%20Wafted%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=eS-o6K-iJs4"
   },
   {
     id: 1673,
@@ -35370,7 +35370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bring the requested gems.",
       "Trade them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Amber%20Dealer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=GojefzZWPOI"
   },
   {
     id: 1674,
@@ -35390,7 +35390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20An%20Uninvited%20Guest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Z7LnuArclZI"
   },
   {
     id: 1675,
@@ -35410,7 +35410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the ancient blades.",
       "Return to complete the request."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ancient%20Blades%20Below%20walkthrough"
+    video: "https://www.youtube.com/watch?v=dX0kYP7Vnlc"
   },
   {
     id: 1676,
@@ -35430,7 +35430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the amount requested.",
       "Cash in the flint for rupees."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cash%20In%20on%20Ripened%20Flint%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a4hyCs_RYYY"
   },
   {
     id: 1677,
@@ -35450,7 +35450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Harvest the brightcaps requested.",
       "Deliver them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cave%20Mushrooms%20that%20Glow%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xepVwk_BW-U"
   },
   {
     id: 1678,
@@ -35470,7 +35470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve their grievances.",
       "Reconcile the pair for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Codgers'%20Quarrel%20walkthrough"
+    video: "https://www.youtube.com/watch?v=OZgY1e4dURs"
   },
   {
     id: 1679,
@@ -35490,7 +35490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure the freezing conditions for the set time.",
       "Win the contest for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Cold-Endurance%20Contest!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HJtNVBnY12Y"
   },
   {
     id: 1680,
@@ -35510,7 +35510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cross without succumbing to the cold.",
       "Complete the crossing for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Crossing%20the%20Cold%20Pool%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-IjGyrUgxZs"
   },
   {
     id: 1681,
@@ -35530,7 +35530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover the keepsake.",
       "Return it to the grateful child."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dad's%20Blue%20Shirt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BGJvkipboeE"
   },
   {
     id: 1682,
@@ -35550,7 +35550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Play and find the hidden objective.",
       "Win Dalia's game for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dalia's%20Game%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BJcvJ1jm6Wk"
   },
   {
     id: 1683,
@@ -35570,7 +35570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Herd them safely home.",
       "Report to Dantz for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Dantz's%20Prize%20Cows%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YXQ-bgLylto"
   },
   {
     id: 1684,
@@ -35590,7 +35590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the requested materials.",
       "Deliver them to complete the decor."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Decorate%20with%20Passion%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QZHolyCiz94"
   },
   {
     id: 1685,
@@ -35610,7 +35610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear it or rescue those trapped.",
       "Resolve the disaster for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Disaster%20in%20Gerudo%20Canyon%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aZnCJ126_s8"
   },
   {
     id: 1686,
@@ -35630,7 +35630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the requested colossal fossil.",
       "Return the picture to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Eldin's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jx0PaC68FwQ"
   },
   {
     id: 1687,
@@ -35650,7 +35650,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather each cucco.",
       "Return them all to the pen."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Feathered%20Fugitives%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wXCZxCrXn3k"
   },
   {
     id: 1688,
@@ -35670,7 +35670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach and help the trapped person.",
       "Get them out safely for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fell%20into%20a%20Well!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=h1RfXHBO-XE"
   },
   {
     id: 1689,
@@ -35690,7 +35690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the catch.",
       "Receive arrows or rupees as reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Fish%20for%20Fletching%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JSc7xxB72DE"
   },
   {
     id: 1690,
@@ -35710,7 +35710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Reach the place they lead to.",
       "Claim the hidden discovery."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Follow%20the%20Cuccos%20walkthrough"
+    video: "https://www.youtube.com/watch?v=s21KY8CWOsQ"
   },
   {
     id: 1691,
@@ -35730,7 +35730,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Genli's%20Home%20Cooking%20walkthrough"
+    video: "https://www.youtube.com/watch?v=YaAjnmkmBhU"
   },
   {
     id: 1692,
@@ -35750,7 +35750,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the colossal fossil requested.",
       "Return the photo to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gerudo's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8FlPSwh-JpM"
   },
   {
     id: 1693,
@@ -35770,7 +35770,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the Gleeok Guts it drops.",
       "Deliver the guts for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gleeok%20Guts%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sCCKlWcHd0Q"
   },
   {
     id: 1694,
@@ -35790,7 +35790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Prepare or deliver the remedy.",
       "Cure the villager for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Gloom-Borne%20Illness%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TFtQoUUrGag"
   },
   {
     id: 1695,
@@ -35830,7 +35830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Courage%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DFitBPbasmg"
   },
   {
     id: 1697,
@@ -35850,7 +35850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Power%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-ewtrCDpiEY"
   },
   {
     id: 1698,
@@ -35870,7 +35870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Goddess%20Statue%20of%20Wisdom%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qH2dPzzQH88"
   },
   {
     id: 1699,
@@ -35890,7 +35890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Endure the searing heat for the set time.",
       "Win the contest for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Heat-Endurance%20Contest!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DZu1Tn-r7Mw"
   },
   {
     id: 1700,
@@ -35910,7 +35910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph the requested colossal fossil.",
       "Return the picture to the researcher."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Hebra's%20Colossal%20Fossil%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Pb9PMHbol64"
   },
   {
     id: 1701,
@@ -35930,7 +35930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the needed furnishings.",
       "Complete the arrangement for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Home%20on%20Arrange%20walkthrough"
+    video: "https://www.youtube.com/watch?v=QEJbo1x_bNg"
   },
   {
     id: 1702,
@@ -35950,7 +35950,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the seeds or clear the threat.",
       "Complete the harvest task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Homegrown%20in%20Hateno%20walkthrough"
+    video: "https://www.youtube.com/watch?v=HqTSY7BLPE8"
   },
   {
     id: 1703,
@@ -35970,7 +35970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Assemble the cart with Ultrahand.",
       "Fulfill the horse-drawn dream."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Horse-Drawn%20Dreams%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Wk2IAkkFq4k"
   },
   {
     id: 1704,
@@ -35990,7 +35990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hit the targets while gliding.",
       "Complete the training course."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Kaneli's%20Flight%20Training%20walkthrough"
+    video: "https://www.youtube.com/watch?v=IqhwZSmv2xM"
   },
   {
     id: 1705,
@@ -36010,7 +36010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Legacy%20of%20the%20Rito%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-lS8A09dvMo"
   },
   {
     id: 1706,
@@ -36030,7 +36030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the stranded person.",
       "Guide them to safety for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lost%20in%20the%20Dunes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RJ8Nb0yGtMk"
   },
   {
     id: 1707,
@@ -36050,7 +36050,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather materials or complete the task.",
       "Advance the Lurelin Resort Project."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Lurelin%20Resort%20Project%20walkthrough"
+    video: "https://www.youtube.com/watch?v=xhDHx7ZRRhI"
   },
   {
     id: 1708,
@@ -36070,7 +36070,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it and gauge the response.",
       "Report back to Manny for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Manny's%20Beloved%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TV27OR03l7o"
   },
   {
     id: 1709,
@@ -36090,7 +36090,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the driving test.",
       "Master the prototype for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Master%20the%20Vehicle%20Prototype%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fu7A5UgtbnM"
   },
   {
     id: 1710,
@@ -36110,7 +36110,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the cuts.",
       "Trade meat for meat, and claim your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Meat%20for%20Meat%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DIMwqeKJDh0"
   },
   {
     id: 1711,
@@ -36130,7 +36130,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Build the Death Mountain mine-cart course.",
       "Test the ride to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Death%20Mountain%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RxGnWZKYNXQ"
   },
   {
     id: 1712,
@@ -36150,7 +36150,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Set up the cart controls.",
       "Open Mine-Cart Land for business."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Open%20for%20Business!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=a0QVHb_3TYI"
   },
   {
     id: 1713,
@@ -36170,7 +36170,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Hit the targets along the course.",
       "Achieve the score to complete it."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mine-Cart%20Land%3A%20Quickshot%20Course%20walkthrough"
+    video: "https://www.youtube.com/watch?v=DelgnESu7MY"
   },
   {
     id: 1714,
@@ -36190,7 +36190,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Access the tower's launch mechanism.",
       "Activate the tower."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Mired%20in%20Muck%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0aWzDOg0Nes"
   },
   {
     id: 1715,
@@ -36210,7 +36210,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the hidden treasure chests.",
       "Claim Misko's stash."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Cave%20of%20Chests%20walkthrough"
+    video: "https://www.youtube.com/watch?v=MHH180dy97E"
   },
   {
     id: 1716,
@@ -36230,7 +36230,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the hidden chest.",
       "Claim the awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20I%20walkthrough"
+    video: "https://www.youtube.com/watch?v=62morfEJENY"
   },
   {
     id: 1717,
@@ -36250,7 +36250,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search for the hidden chest.",
       "Claim the awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u_CJHSppATo"
   },
   {
     id: 1718,
@@ -36270,7 +36270,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the guardians and find the chest.",
       "Claim the final awakening armor piece."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%20of%20Awakening%20III%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ADpqPW0vTus"
   },
   {
     id: 1719,
@@ -36290,7 +36290,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the indicated location.",
       "Claim the heroine-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Heroines%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=t4y78uLIqdw"
   },
   {
     id: 1720,
@@ -36310,7 +36310,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the hidden stash.",
       "Claim the pirate-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Pirate%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JfxugIRQOD4"
   },
   {
     id: 1721,
@@ -36330,7 +36330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the hidden location.",
       "Claim the Fierce Deity reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20The%20Fierce%20Deity%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_z8wBw_Qbzc"
   },
   {
     id: 1722,
@@ -36350,7 +36350,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Travel to the indicated spot.",
       "Claim the twins-themed reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Misko's%20Treasure%3A%20Twins%20Manuscript%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Vh8qU-nvQjM"
   },
   {
     id: 1723,
@@ -36370,7 +36370,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver them to Molli.",
       "Support her fletcher's dream for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Molli%20the%20Fletcher's%20Quest%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4u8Y6KRn9QE"
   },
   {
     id: 1724,
@@ -36390,7 +36390,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the obstruction or build a vantage.",
       "Give them their moon-gazing view."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Moon-Gazing%20Gorons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=XQjKoffJz1U"
   },
   {
     id: 1725,
@@ -36410,7 +36410,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the target in a single blow.",
       "Claim the challenge prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20One-Hit%20Wonder!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=pOsIct1gDJI"
   },
   {
     id: 1726,
@@ -36430,7 +36430,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate it to open the door.",
       "Explore what lies beyond."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Open%20the%20Door%20walkthrough"
+    video: "https://www.youtube.com/watch?v=jaEkNP_xLxY"
   },
   {
     id: 1727,
@@ -36450,7 +36450,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Ousting%20the%20Giants%20walkthrough"
+    video: "https://www.youtube.com/watch?v=b0ci3oJ9ojA"
   },
   {
     id: 1728,
@@ -36470,7 +36470,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Resolve the guest or inn issue.",
       "Restore order for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Out%20of%20the%20Inn%20walkthrough"
+    video: "https://www.youtube.com/watch?v=uQrhseuB85M"
   },
   {
     id: 1729,
@@ -36490,7 +36490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Photograph it clearly.",
       "Deliver the picture for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Photographing%20a%20Chuchu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R9eCxiOjcGc"
   },
   {
     id: 1730,
@@ -36510,7 +36510,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Recover them.",
       "Return them for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Piaffe%2C%20Packed%20Away%20walkthrough"
+    video: "https://www.youtube.com/watch?v=mq1mkotIOic"
   },
   {
     id: 1731,
@@ -36530,7 +36530,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the deed with distinction.",
       "Earn the Gerudo's respect and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Pride%20of%20the%20Gerudo%20walkthrough"
+    video: "https://www.youtube.com/watch?v=4dN1YlD1NoA"
   },
   {
     id: 1732,
@@ -36550,7 +36550,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task for her.",
       "Restore her peace of mind."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rattled%20Ralera%20walkthrough"
+    video: "https://www.youtube.com/watch?v=qTmZ2f_uKzI"
   },
   {
     id: 1733,
@@ -36570,7 +36570,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Rock%20Roast%20or%20Dust%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0rp5eE7y4QM"
   },
   {
     id: 1734,
@@ -36590,7 +36590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search beneath it for the secret treasure.",
       "Claim the hidden reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secret%20Treasure%20under%20the%20Great%20Fish%20walkthrough"
+    video: "https://www.youtube.com/watch?v=R67ZiVS-ssc"
   },
   {
     id: 1735,
@@ -36610,7 +36610,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the secret within.",
       "Report your discovery for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Secrets%20Within%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Y-YpzPCvwU0"
   },
   {
     id: 1736,
@@ -36630,7 +36630,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the pirates guarding it.",
       "Claim the hideout's treasure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Seeking%20the%20Pirate%20Hideout%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cuZUgeHXSus"
   },
   {
     id: 1737,
@@ -36650,7 +36650,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the hot spring's flow.",
       "Complete the task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Simmerstone%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Ekl8675nvlY"
   },
   {
     id: 1738,
@@ -36670,7 +36670,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the feat of strength.",
       "Earn the Gorons' respect and reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Soul%20of%20the%20Gorons%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_ACmvzyCgm0"
   },
   {
     id: 1739,
@@ -36690,7 +36690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow Spot to its discovery.",
       "Claim what it leads you to."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Spotting%20Spot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=0He8ctWQcqc"
   },
   {
     id: 1740,
@@ -36710,7 +36710,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the feat to win.",
       "Be crowned the strongest for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Strongest%20in%20the%20World%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cq24VMXNfE4"
   },
   {
     id: 1741,
@@ -36770,7 +36770,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Provide the materials or assistance.",
       "Complete the second lesson task."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Teach%20Me%20a%20Lesson%20II%20walkthrough"
+    video: "https://www.youtube.com/watch?v=nhqKjGifWB8"
   },
   {
     id: 1744,
@@ -36790,7 +36790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the stranded worker.",
       "Lead them safely out for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Abandoned%20Laborer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8RmYER7mdpg"
   },
   {
     id: 1745,
@@ -36810,7 +36810,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confirm the ancient city's existence.",
       "Complete the legend for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=TZrMoVe-qmc"
   },
   {
     id: 1746,
@@ -36830,7 +36830,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find evidence of the ancient city.",
       "Report your findings back."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ancient%20City%20Gorondia%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-MpwB76MdcE"
   },
   {
     id: 1747,
@@ -36850,7 +36850,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the obstruction.",
       "Explore the newly opened cave."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blocked%20Cave%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z3miMKNTtlI"
   },
   {
     id: 1748,
@@ -36870,7 +36870,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Retrieve the blue stone.",
       "Deliver it for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Blue%20Stone%20walkthrough"
+    video: "https://www.youtube.com/watch?v=_HQyWf0OwXo"
   },
   {
     id: 1749,
@@ -36890,7 +36890,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the monsters and reclaim the tent.",
       "Return it to the traveler."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Captured%20Tent%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wGP-HduxWJY"
   },
   {
     id: 1750,
@@ -36910,7 +36910,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the missing duchess.",
       "Resolve the mystery for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Duchess%20Who%20Disappeared%20walkthrough"
+    video: "https://www.youtube.com/watch?v=oddcaJ-LKCo"
   },
   {
     id: 1751,
@@ -36930,7 +36930,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Clear the monster threat.",
       "Secure the fort for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Fort%20at%20Ja'Abu%20Ridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=JRRaAhynJMc"
   },
   {
     id: 1752,
@@ -36950,7 +36950,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the gathering monsters.",
       "Clear the threat for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Gathering%20Pirates%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T92KIh_t3s8"
   },
   {
     id: 1753,
@@ -36970,7 +36970,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the task.",
       "Return to the quest giver to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Great%20Tumbleweed%20Purge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=sSv-zTj9rp8"
   },
   {
     id: 1754,
@@ -36990,7 +36990,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the hidden secret.",
       "Report the discovery for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Heroines'%20Secret%20walkthrough"
+    video: "https://www.youtube.com/watch?v=kcVI0uolK4M"
   },
   {
     id: 1755,
@@ -37010,7 +37010,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search the marked spot for treasure.",
       "Claim the hidden reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Hidden%20Treasure%20at%20Lizard%20Lakes%20walkthrough"
+    video: "https://www.youtube.com/watch?v=9NLKZ7sRw6M"
   },
   {
     id: 1756,
@@ -37030,7 +37030,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Tame or recover the horse in question.",
       "Fulfill the request for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Horse%20Guard's%20Request%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UNGVSzOTodo"
   },
   {
     id: 1757,
@@ -37050,7 +37050,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Restore the icehouse's supply.",
       "Complete the task for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Iceless%20Icehouse%20walkthrough"
+    video: "https://www.youtube.com/watch?v=T501gV3qcuM"
   },
   {
     id: 1758,
@@ -37070,7 +37070,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather and deliver the materials.",
       "Help complete the stable."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Incomplete%20Stable%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o2ZbhUghVhg"
   },
   {
     id: 1759,
@@ -37091,7 +37091,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Lomei%20Labyrinth%20Island%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=u5CKjuv0E4w"
   },
   {
     id: 1760,
@@ -37111,7 +37111,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Track them down.",
       "Bring them back to reopen the shop."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Missing%20Owner%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RekdcQfSRCU"
   },
   {
     id: 1761,
@@ -37131,7 +37131,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Witness the moonlit scene.",
       "Complete the tale for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Moonlit%20Princess%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wzqqRF1sDmA"
   },
   {
     id: 1762,
@@ -37151,7 +37151,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Check the Adventure Log and complete what it asks.",
       "Return to the statue to finish the side adventure."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mother%20Goddess%20Statue%20walkthrough"
+    video: "https://www.youtube.com/watch?v=izoM4WPB13I"
   },
   {
     id: 1763,
@@ -37171,7 +37171,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Uncover the truth of the eighth.",
       "Report your findings for a reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Mysterious%20Eighth%20walkthrough"
+    video: "https://www.youtube.com/watch?v=-G6aje_Mon8"
   },
   {
     id: 1764,
@@ -37191,7 +37191,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the needed task.",
       "Resolve the lecture for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Never-Ending%20Lecture%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Gvc-9-eizic"
   },
   {
     id: 1765,
@@ -37212,7 +37212,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20North%20Lomei%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=UXsuM1nm_q0"
   },
   {
     id: 1766,
@@ -37232,7 +37232,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Repair or rebuild the crossing.",
       "Report the fix for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Rito%20Rope%20Bridge%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1ZoAbtIZC40"
   },
   {
     id: 1767,
@@ -37252,7 +37252,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Open the secret room.",
       "Claim the treasure inside."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Secret%20Room%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PHvUEosIAGw"
   },
   {
     id: 1768,
@@ -37272,7 +37272,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help explore or document the shrine.",
       "Complete the exploration for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Shrine%20Explorer%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8D_WogxYbh0"
   },
   {
     id: 1769,
@@ -37293,7 +37293,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Activate the four terminals in the sky labyrinth.",
       "Finish the Depths stage to claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20South%20Lomei%20Prophecy%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZnAnlXLkeHw"
   },
   {
     id: 1770,
@@ -37313,7 +37313,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Complete the course ahead of rivals.",
       "Win the race for the prize."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Tarrey%20Town%20Race%20Is%20On!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=madr_uaB05E"
   },
   {
     id: 1771,
@@ -37333,7 +37333,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Locate the hidden treasure.",
       "Claim your share of the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Treasure%20Hunters%20walkthrough"
+    video: "https://www.youtube.com/watch?v=KsKV30q80L8"
   },
   {
     id: 1772,
@@ -37353,7 +37353,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver it to the cook.",
       "Help complete the ultimate dish."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20The%20Ultimate%20Dish%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ZY-qzoQUTEA"
   },
   {
     id: 1773,
@@ -37373,7 +37373,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Help explore and clear the ruins.",
       "Complete the expedition for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20To%20the%20Ruins!%20walkthrough"
+    video: "https://www.youtube.com/watch?v=wH-j2tvyAV0"
   },
   {
     id: 1774,
@@ -37393,7 +37393,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the required items.",
       "Deliver them to complete the menu."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Today's%20Menu%20walkthrough"
+    video: "https://www.youtube.com/watch?v=PJYSq4digj0"
   },
   {
     id: 1775,
@@ -37413,7 +37413,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Dig out the buried treasure.",
       "Claim the desert's reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Gerudo%20Desert%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8PKSEX29k6Q"
   },
   {
     id: 1776,
@@ -37433,7 +37433,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search them for the treasure.",
       "Claim the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Treasure%20of%20the%20Secret%20Springs%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Yf8t30SqRjM"
   },
   {
     id: 1777,
@@ -37453,7 +37453,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Discover what the true treasure really is.",
       "Complete the quest for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20True%20Treasure%20walkthrough"
+    video: "https://www.youtube.com/watch?v=z1Tl_HB9B-w"
   },
   {
     id: 1778,
@@ -37473,7 +37473,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather the seeds or materials.",
       "Help Uma's garden flourish."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Uma's%20Garden%20walkthrough"
+    video: "https://www.youtube.com/watch?v=G0ikUt9sY6k"
   },
   {
     id: 1779,
@@ -37493,7 +37493,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Identify and defeat the huge monster.",
       "Report the kill for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Huge%20Silhouette%20walkthrough"
+    video: "https://www.youtube.com/watch?v=aBuz5-bYys0"
   },
   {
     id: 1780,
@@ -37513,7 +37513,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Confront and defeat the sky giant.",
       "Report the victory for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Sky%20Giant%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Js6u-XyBTjc"
   },
   {
     id: 1781,
@@ -37533,7 +37533,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the three-headed Gleeok.",
       "Report the kill for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Unknown%20Three-Headed%20Monster%20walkthrough"
+    video: "https://www.youtube.com/watch?v=fR9t8rMISAE"
   },
   {
     id: 1782,
@@ -37553,7 +37553,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Fight off the attacking pirates.",
       "Secure the village for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Village%20Attacked%20by%20Pirates%20walkthrough"
+    video: "https://www.youtube.com/watch?v=d8CwVQtFrP8"
   },
   {
     id: 1783,
@@ -37573,7 +37573,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Search the indicated spots.",
       "Claim the treasure at the end."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Walton's%20Treasure%20Hunt%20walkthrough"
+    video: "https://www.youtube.com/watch?v=A0-eniOsdYc"
   },
   {
     id: 1784,
@@ -37593,7 +37593,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the Hinox (shoot its eye).",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Hinox%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gZRVrHnbgw0"
   },
   {
     id: 1785,
@@ -37613,7 +37613,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Lure the Molduga up with bombs and attack it while it's stunned.",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Molduga%20walkthrough"
+    video: "https://www.youtube.com/watch?v=VnBMRIin7r8"
   },
   {
     id: 1786,
@@ -37634,7 +37634,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Climb it and break its ore core.",
       "Return to Gralens for the reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20WANTED%3A%20Stone%20Talus%20walkthrough"
+    video: "https://www.youtube.com/watch?v=o4pomxFUCtM"
   },
   {
     id: 1787,
@@ -37654,7 +37654,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Explore each one you find.",
       "Report the wells to Fera for rewards."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Where%20Are%20the%20Wells%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=alIOt0tQZx8"
   },
   {
     id: 1788,
@@ -37674,7 +37674,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deliver the whirly swirly things.",
       "Complete the request for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Whirly%20Swirly%20Things%20walkthrough"
+    video: "https://www.youtube.com/watch?v=1QjyS04jInI"
   },
   {
     id: 1789,
@@ -37694,7 +37694,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the safe refuge.",
       "Guide the traveler there for your reward."
     ],
-    video: "https://www.youtube.com/results?search_query=The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom%20Who%20Finds%20the%20Haven%3F%20walkthrough"
+    video: "https://www.youtube.com/watch?v=ap5sDZR43j8"
   },
 {
     id: 1790,
