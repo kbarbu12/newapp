@@ -8081,7 +8081,7 @@ const quests = [
       "Dodge its swift strikes, dispel its illusions, and burn it with Igni.",
       "Banish the wraith, take the trophy, and claim the fee."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Contract%3A%20The%20White%20Lady%20walkthrough"
+    video: "https://www.youtube.com/watch?v=Gxy56GWAbpU"
   },
 {
     id: 370,
@@ -13306,7 +13306,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Begin serving Olgierd's three impossible wishes.",
       "Advance the Hearts of Stone story."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Evil's%20Soft%20First%20Touches%20walkthrough"
+    video: "https://www.youtube.com/watch?v=7OkR8EmjRnw"
   },
 {
     id: 610,
@@ -13560,7 +13560,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Defend the site while the bodies burn.",
       "Return to complete the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Funeral%20Pyres%20walkthrough"
+    video: "https://www.youtube.com/watch?v=BI3KTQscdSg"
   },
 {
     id: 622,
@@ -13652,7 +13652,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fight or outmaneuver the plotters.",
       "Foil (or allow) the plot and report the outcome."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20A%20Deadly%20Plot%20walkthrough"
+    video: "https://www.youtube.com/watch?v=5Y5lUv384Xk"
   },
 {
     id: 626,
@@ -13859,7 +13859,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Gather the high-tier crafting materials the set needs.",
       "Forge the Manticore set at a master craftsman."
     ],
-    video: "https://www.youtube.com/results?search_query=Witcher%203%20Scavenger%20Hunt%3A%20Grandmaster%20Manticore%20Gear%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cnti-X6O794"
   },
 {
     id: 635,
