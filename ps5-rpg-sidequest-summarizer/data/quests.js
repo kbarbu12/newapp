@@ -8611,7 +8611,7 @@ const quests = [
     type: "side",
     game: "Horizon Forbidden West",
     region: "The Clan Lands",
-    title: "Blood Choke",
+    title: "The Blood Choke",
     location: "The Grove",
     length: "medium",
     difficulty: "Medium",
@@ -8626,7 +8626,7 @@ const quests = [
       "Clear the heavy-weapon rebels methodically.",
       "Eliminate the cell's leader to finish the quest."
     ],
-    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20Blood%20Choke%20walkthrough"
+    video: "https://www.youtube.com/results?search_query=Horizon%20Forbidden%20West%20The%20Blood%20Choke%20walkthrough"
   },
 {
     id: 395,
