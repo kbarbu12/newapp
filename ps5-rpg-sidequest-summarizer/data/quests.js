@@ -38359,7 +38359,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "side",
     category: "NPC Questlines",
     game: "Sekiro: Shadows Die Twice",
-    title: "Sculptor's Idol / Kuro's Charm Storyline",
+    title: "The Sculptor's Storyline",
     location: "Dilapidated Temple",
     length: "long",
     difficulty: "Low",
@@ -38371,11 +38371,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     walkthrough: [
       "Return to the Dilapidated Temple and speak with the Sculptor after each major story beat.",
       "Bring him Prosthetic Tools you find so he can attach and upgrade them.",
-      "Listen to his unfolding past as a shinobi hunter and his fear of the Shura.",
-      "Complete his arc's conversations across the playthrough.",
+      "Share sake with him — each kind unlocks more of his past as a shinobi.",
+      "Listen for his fear of the Shura within as his arc unfolds.",
       "His storyline foreshadows the Shura ending — mind your later choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Sculptor's%20Idol%20%2F%20Kuro's%20Charm%20Storyline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=8li0bLogoU0"
   },
 {
     id: 1824,
@@ -38398,7 +38398,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Cure Dragonrot by giving her a Dragon's Blood Droplet when NPCs fall ill.",
       "Follow her thread — it feeds directly into the endgame choices."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Emma%2C%20the%20Physician%20%E2%80%94%20Medicine%20%26%20Story%20Support%20walkthrough"
+    video: "https://www.youtube.com/watch?v=cCHNtFcRqiE"
   },
 {
     id: 1825,
@@ -38533,7 +38533,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Gather context on the Ashina rebellion and the characters around you.",
       "Follow his thread to its place in the finale."
     ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Isshin%20Ashina%20%E2%80%94%20Elderly%20Lord%20Storyline%20walkthrough"
+    video: "https://www.youtube.com/watch?v=gQRGx7V0wFE"
   },
 {
     id: 1831,
@@ -38579,29 +38579,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Continue fulfilling her requests through to the late game for the full questline payoff."
     ],
     video: "https://www.youtube.com/watch?v=qVajv7Ahdo4"
-  },
-{
-    id: 1833,
-    type: "side",
-    category: "NPC Questlines",
-    game: "Sekiro: Shadows Die Twice",
-    title: "Master of Senpou Temple — Rice & Immortality Questline",
-    location: "Senpou Temple, Mt. Kongo",
-    length: "medium",
-    difficulty: "Low",
-    reward: "Immortality/centipede lore, key items",
-    summary:
-      "The hidden Master of Senpou Temple ties into the source of the game's immortality mechanics and the centipede infestation.",
-    aiTip:
-      "Explore the temple's upper illusion halls between visits — his thread advances as you uncover more of the monks' experiments.",
-    walkthrough: [
-      "Explore Senpou Temple on Mt. Kongo and seek its hidden Master.",
-      "Follow the rice/persimmon and immortality thread through the temple.",
-      "Deliver the required offerings to the relevant NPC (e.g., rice to the ailing).",
-      "Uncover the source of the centipede infestation and the immortality vows.",
-      "Complete the questline for its rewards and lore."
-    ],
-    video: "https://www.youtube.com/results?search_query=Sekiro%3A%20Shadows%20Die%20Twice%20Master%20of%20Senpou%20Temple%20%E2%80%94%20Rice%20%26%20Immortality%20Questline%20walkthrough"
   },
 {
     id: 1834,
