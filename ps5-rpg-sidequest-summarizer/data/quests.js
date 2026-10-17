@@ -5431,12 +5431,12 @@ const quests = [
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "City Center",
-    title: "Nocturne Op55N1 – Point of No Return",
+    title: "Nocturne Op55N1",
     location: "Embers / Misty's rooftop",
     length: "short",
     difficulty: "Medium",
     reward: "Access to every ending path",
-    summary: "Dinner with Hanako Arasaka, then the rooftop with Misty: the single conversation that decides which of the game's endings you'll experience.",
+    summary: "Dinner with Hanako Arasaka at Embers, then the rooftop with Misty and Johnny: choose how to storm Arasaka Tower — with Hanako, Panam's Aldecaldos, Rogue and Johnny, or alone. This one conversation decides your ending.",
     aiTip: "Finish Panam's and Rogue's questlines BEFORE this mission or their ending paths won't appear. The game warns you — this really is the point of no return.",
     walkthrough: [
       "Finish Nocturne Op55N1's dinner with Hanako Arasaka at Embers.",
@@ -5703,28 +5703,6 @@ const quests = [
       "See the raid to its tragic end."
     ],
     video: "https://www.youtube.com/watch?v=nH7D3KoNQcM"
-  },
-{
-    id: 263,
-    type: "main",
-    game: "Cyberpunk 2077: Ultimate Edition",
-    region: "City Center",
-    title: "Nocturne Op55N1",
-    location: "City Center – Embers",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Point of no return, ending path selection",
-    summary:
-      "The final calm before the storm. V chooses how to assault Arasaka — with Rogue, Panam's Aldecaldos, alone, or by trusting Johnny with their body.",
-    aiTip:
-      "This is the point of no return. Finish outstanding side jobs first — completing certain ones (Panam's, Rogue's, the Sinnerman arc) unlocks extra endings including the secret one.",
-    walkthrough: [
-      "Spend the calm evening at Embers with Johnny.",
-      "Talk through the assault options with Rogue, Panam, or going alone.",
-      "Make your peace and choose the path to Arasaka.",
-      "Commit to the final approach."
-    ],
-    video: "https://www.youtube.com/watch?v=KbMcCcCqVnE"
   },
 {
     id: 264,
