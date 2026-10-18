@@ -29554,6 +29554,29 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=kVt0MCxqHb0"
   },
   {
+    id: 2594,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "The Horn of Jurgen Windcaller",
+    location: "Ustengrav → Sleeping Giant Inn, Riverwood",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Word for Unrelenting Force, formal recognition as Dragonborn",
+    summary:
+      "The Greybeards' final test: retrieve the Horn of Jurgen Windcaller from Ustengrav. The horn is gone — a note asks the Dragonborn to rent the attic room at the Sleeping Giant Inn, where Delphine is waiting.",
+    aiTip:
+      "Use Whirlwind Sprint to get through the three-stone gate in Ustengrav before the gates close. There is no attic room — ask Delphine anyway.",
+    walkthrough: [
+      "After The Way of the Voice, Arngeir sends you to Ustengrav for the horn.",
+      "Fight through Ustengrav and sprint past the three-stone gates with Whirlwind Sprint.",
+      "Find the horn's pedestal empty, with a note asking you to rent the attic room at the Sleeping Giant Inn.",
+      "Ask Delphine for the attic room; she reveals she took the horn and shows you her hidden room.",
+      "Return the horn to Arngeir at High Hrothgar and learn a new Word of Power from Wulfgar."
+    ],
+    video: "https://www.youtube.com/watch?v=GdpM4LMqDXs"
+  },
+  {
     id: 1394,
     type: "main",
     category: "Main Quest",
@@ -29598,6 +29621,29 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=taun_2-DvtQ"
   },
   {
+    id: 2595,
+    type: "main",
+    category: "Main Quest",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "A Cornered Rat",
+    location: "Riften → Ratway Warrens",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Esbern found, leads to Alduin's Wall",
+    summary:
+      "The Thalmor are hunting Esbern, the last Blades archivist, who is hiding in the Ratway beneath Riften. Find him before they do and bring him to Delphine.",
+    aiTip:
+      "Brynjolf, Dirge or Vekel in the Ragged Flagon can be persuaded or bribed for Esbern's location. Ask Esbern where he was on the 30th of Frostfall so he opens the door.",
+    walkthrough: [
+      "After Diplomatic Immunity, talk to Delphine in Riverwood.",
+      "In Riften, ask Brynjolf (or Keerava at the Bee and Barb) about Esbern.",
+      "Go down into the Ratway and the Ragged Flagon; persuade or bribe Vekel, Dirge or Brynjolf for directions.",
+      "Find Esbern's locked door in the Ratway Warrens and ask where he was on the 30th of Frostfall.",
+      "Fight off the Thalmor and escort Esbern to Delphine at the Sleeping Giant Inn."
+    ],
+    video: "https://www.youtube.com/watch?v=0SKzTcoiWLI"
+  },
+  {
     id: 1396,
     type: "main",
     category: "Main Quest",
@@ -29610,11 +29656,11 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     summary: "Escort Delphine and Esbern to Sky Haven Temple to read Alduin's Wall and learn how the ancients fought the World-Eater.",
     aiTip: "Clear the Forsworn at Karthspire first; the blood seal door requires standing on it as a Blade to open.",
     walkthrough: [
-      "Travel to Riverwood and locate Esbern hiding in the Ratway beneath Riften (may require Thieves Guild access).",
-      "Escort Esbern safely back to Riverwood, fighting off any assassins along the way.",
-      "Travel with Esbern and Delphine to Sky Haven Temple in the Karth River valley.",
-      "Examine Alduin's Wall inside the temple to learn about the Elder Scroll and Dragonrend.",
-      "Learn that an Elder Scroll is needed to learn the Dragonrend shout."
+      "Meet Delphine and Esbern at the Sleeping Giant Inn after A Cornered Rat.",
+      "Travel with them to Karthspire in the Karth River valley and clear the Forsworn camp.",
+      "Solve the Dragon-glyph floor puzzle and pass the blood seal into Sky Haven Temple.",
+      "Examine Alduin's Wall with Esbern to learn how the ancient Nords defeated Alduin.",
+      "Learn that the Dragonrend Shout is the key — and that only the Greybeards' master can say more."
     ],
     video: "https://www.youtube.com/watch?v=WSa_zYa9HSY"
   },
@@ -29777,6 +29823,29 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Bargain with the captured Odahviing — he agrees to fly you to Skuldafn in exchange for his freedom."
     ],
     video: "https://www.youtube.com/watch?v=mXFeJVv0zio"
+  },
+  {
+    id: 2596,
+    type: "main",
+    category: "Main Quest (Optional)",
+    game: "The Elder Scrolls V: Skyrim",
+    title: "Paarthurnax",
+    location: "Sky Haven Temple → Throat of the World",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Blades' trust; costs the Greybeards' goodwill",
+    summary:
+      "The Blades learn that Paarthurnax was Alduin's lieutenant in the Dragon War and refuse to help you further until he is dead. Kill him for the Blades, or refuse and leave the quest unfinished.",
+    aiTip:
+      "Killing Paarthurnax makes the Greybeards stop speaking to you and loses his post-Alduin scene. Refusing simply leaves the quest open — the main story can still be finished.",
+    walkthrough: [
+      "Talk to Delphine or Esbern after the main story reveals Paarthurnax's past.",
+      "Hear their demand: Paarthurnax must die before the Blades will help you again.",
+      "Decide — to kill him, climb to the Throat of the World.",
+      "Fight Paarthurnax at the summit (Dragonrend keeps him grounded).",
+      "Report back to the Blades, or refuse and leave the quest open."
+    ],
+    video: "https://www.youtube.com/watch?v=fEvyBvoq6Rk"
   },
   {
     id: 1405,
