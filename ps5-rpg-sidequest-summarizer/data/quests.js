@@ -16330,7 +16330,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Back Príncipi outcomes against the imperial powers.",
       "Finish their questline to sail into the finale with pirate support."
     ],
-    video: "https://www.youtube.com/results?search_query=Pillars%20of%20Eternity%202%20Deadfire%20Faction%3A%20Pr%C3%ADncipi%20sen%20Patrena%20walkthrough"
+    video: "https://www.youtube.com/watch?v=zfkgMTEIvSQ"
   },
 {
     id: 780,
@@ -21497,7 +21497,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the gauntlets from their pedestal in the House of Hope's Archive.",
       "Return to Helsik and give her the gauntlets — or keep them and settle up another way.",
     ],
-    video: "https://www.youtube.com/results?search_query=Baldur's%20Gate%203%20Acquire%20the%20Gauntlets%20for%20Helsik%20walkthrough"
+    video: "https://www.youtube.com/watch?v=RUUl5ilXe_k"
   },
 {
     id: 998,
@@ -28169,14 +28169,14 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     length: "short",
     difficulty: "Low",
     reward: "Hero's Incense x10",
-    summary: "Auto-accepted after Providing a Spark — find Neuras's coveted relic in Man-Eater's Grotto.",
-    aiTip: "The relic sits in a chest inside Man-Eater's Grotto; grab it and return to Neuras.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Relic%20Search%3A%20Inventor's%20Bequest%20walkthrough",
+    summary: "Accepted automatically after Providing a Spark — the first of Neuras's lost relics. His notebook in the engine room points to the Screwed-Up Mineral, hidden in Man-Eater's Grotto.",
+    aiTip: "You can only enter Man-Eater's Grotto through The Man-Eater in the Mine bounty. Give Neuras the relic at night.",
+    video: "https://www.youtube.com/watch?v=LHesX1zSlu4",
     walkthrough: [
-      "Complete Providing a Spark to auto-accept this relic search.",
-      "Travel to Man-Eater's Grotto.",
-      "Open the chest holding Neuras's relic.",
-      "Return it to Neuras for Hero's Incense."
+      "Complete Providing a Spark to auto-accept this relic search; read Neuras's notebook on the engine-room pillar.",
+      "Take The Man-Eater in the Mine bounty to open Man-Eater's Grotto.",
+      "On the east side of 1F, crawl through the gap to a special chest holding the Screwed-Up Mineral.",
+      "Change the time to night and give the relic to Neuras for Hero's Incense x10 (his bond reaches rank 2)."
     ]
   },
   {
@@ -28351,7 +28351,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "15,000 Reeve",
     summary: "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
     aiTip: "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
-    video: "https://www.youtube.com/results?search_query=Metaphor%20ReFantazio%20Dental%20Distress%20walkthrough",
+    video: "https://www.youtube.com/watch?v=X1deZpHKJ9I",
     walkthrough: [
       "Accept the quest from the Sullen Man on Seabreeze Street in Port Brilehaven.",
       "Travel to Inundo on the Gauntlet Runner (a day passes).",
