@@ -2616,22 +2616,23 @@ const quests = [
     category: "Main Quest",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
-    title: "Hasongo Investigation",
-    location: "Hasongo Island",
+    title: "A Distant Light",
+    location: "Lighthouse of Hasongo",
     length: "medium",
     difficulty: "Medium",
-    reward: "Main story progression, Naga allies or enemies, XP",
+    reward: "Part of the Watcher's soul restored; leads to He Waits in Fire",
     summary:
-      "Investigate a destroyed lighthouse on Hasongo where the god Eothas passed through. The island is overrun with Naga, and your diplomatic choices determine whether they become allies or foes for the rest of the game.",
+      "Eothas passed through Hasongo and left it in ruins. Fight through the island to its lighthouse, restore the luminous adra pillar and speak with Eothas again.",
     aiTip:
-      "If you have high Diplomacy, you can broker peace with the Naga — this gives you access to their trading post with unique items unavailable otherwise.",
+      "Suugan, leader of the nāga in the lighthouse, will likely attack first — be ready for a fight when you enter.",
     walkthrough: [
-      "Sail to Hasongo and dock at the ruined lighthouse where Eothas passed.",
-      "Fight or negotiate through the Naga infesting the fortress.",
-      "Investigate the lighthouse to pick up Eothas's trail.",
-      "Choose whether to make the Naga allies or enemies for the rest of the game."
+      "After The Veins of Eora, sail to Hasongo.",
+      "Make your way through the devastated island to the lighthouse.",
+      "Deal with Suugan and the nāga inside.",
+      "Restore the luminous adra pillar and speak with Eothas through it.",
+      "Eothas returns part of your soul and reveals he is heading for the Ashen Maw."
     ],
-    video: "https://www.youtube.com/watch?v=6-8vGDKYu84"
+    video: "https://www.youtube.com/watch?v=otdcncGQL38"
   },
 {
     id: 112,
@@ -4223,8 +4224,8 @@ const quests = [
   },
 {
     id: 198,
-    category: "Side Quest",
-    type: "side",
+    category: "Main Quest",
+    type: "main",
     game: "Pillars of Eternity II: Deadfire",
     title: "The City Lost to Time",
     location: "Ukaizo",
@@ -4232,14 +4233,15 @@ const quests = [
     difficulty: "High",
     reward: "Endgame resolution, faction ending, ultimate loot",
     summary:
-      "Reach the legendary lost city of Ukaizo — the final destination of your pursuit of the god Eothas. The city's secrets and your faction allegiance determine which of several dramatically different endings plays out.",
+      "The final main quest. Reach Ukaizo, the lost Engwithan city, disable the storm machine at Ondra's Spire, defeat the Guardian of Ukaizo and confront Eothas at Moi Gweath. The epilogue reflects your choices across the whole game.",
     aiTip:
-      "Commit to one faction before reaching Ukaizo — the ending rewards vary wildly between factions. The Principi ending is considered the most emotionally satisfying; the VTC ending gives the best mechanical rewards.",
+      "Free Scyorielaphas earlier and he'll fight off a guardian here. If you turn off the storms at Ondra's Spire, a rival faction's party may confront you at the Grand Promenade.",
     walkthrough: [
-      "Progress the main story until passage toward Ukaizo opens.",
-      "Break through the Storm of Ukaizo with the required faction support or gambit.",
-      "Explore the lost Engwithan city and its guardians.",
-      "Let your faction allegiance decide which dramatic ending unfolds."
+      "Reach Ukaizo after The Coming Storm.",
+      "At Ondra's Spire, use the panel to shut down the machine feeding the storms.",
+      "Cross the city, fighting the rival faction's party at the Grand Promenade if it appears.",
+      "Defeat the Guardian of Ukaizo.",
+      "Confront Eothas at Moi Gweath — your choices there end the game."
     ],
     video: "https://www.youtube.com/watch?v=fsfq9S9o9_8"
   },
@@ -16144,26 +16146,27 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   },
 {
     id: 771,
-    category: "Side Quest",
+    category: "Main Quest",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "The Cornett's Call",
-    location: "Caed Nua ruins",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Watcher revived, Eothas awakens",
+    title: "Stranded",
+    location: "Caed Nua → Port Maje, Maje Island",
+    length: "medium",
+    difficulty: "Low",
+    reward: "The Defiant repaired; Aloth can join",
     summary:
-      "The god Eothas reawakens beneath Caed Nua, drains the Watcher's soul, and marches into the sea — the chase begins.",
+      "Eothas rises beneath Caed Nua, tears out part of the Watcher's soul and walks into the sea. After a deal with Berath and a shipwreck, the Watcher's ship lies broken at Maje Island — get Governor Clario's help to repair it.",
     aiTip:
-      "The prologue reunites you with old companions and sets your soul-bond stakes for the game.",
+      "Do Helping Hands in Vilario's Rest first to crew your ship. At the digsite, pull the wurms and panthers through a chokepoint a couple at a time.",
     walkthrough: [
-      "Watch the opening as Eothas awakens beneath Caed Nua and drains the Watcher.",
-      "Recover in Berath's realm and accept the pact to pursue the god.",
-      "Wake at Port Maje and get your bearings after the shipwreck.",
-      "Begin the chase by seeking passage into the wider Deadfire."
+      "After the prologue at Caed Nua and Berath's realm, wash ashore near Vilario's Rest.",
+      "Go to Port Maje Harbor and witness Governor Clario's dispute with Stormspeaker Iawha.",
+      "Visit Clario at his estate; he asks you to check on the animancers at the Engwithan Digsite.",
+      "Clear the digsite and free the caged animancers — Aloth is among them.",
+      "Return to Clario to get the Defiant repaired."
     ],
-    video: "https://www.youtube.com/watch?v=VinfklRpK40"
+    video: "https://www.youtube.com/watch?v=ZxTndcfbrO4"
   },
 {
     id: 772,
@@ -16171,22 +16174,47 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Port Maje & the Gullet",
-    location: "Port Maje / Neketaka",
+    title: "To Hunt a God",
+    location: "Engwithan Digsite, Maje Island",
+    length: "short",
+    difficulty: "Low",
+    reward: "First contact with Eothas through an adra pillar",
+    summary:
+      "Starts when you land at Vilario's Rest. Explore Maje Island and the Engwithan ruins at the digsite, where touching a pillar of adra lets the Watcher reach out to Eothas.",
+    aiTip:
+      "Runs alongside Stranded — the same digsite trip advances both.",
+    walkthrough: [
+      "The quest appears automatically when you arrive at Vilario's Rest.",
+      "Explore Maje Island.",
+      "Reach the Engwithan Digsite.",
+      "Search the Engwithan ruins and find Oderisi's remains before the adra pillar.",
+      "Touch the pillar to connect with Eothas."
+    ],
+    video: "https://www.youtube.com/watch?v=0PwrH9uebQI"
+  },
+{
+    id: 2597,
+    category: "Main Quest",
+    type: "main",
+    game: "Pillars of Eternity II: Deadfire",
+    region: "Deadfire",
+    title: "The Veins of Eora",
+    location: "Neketaka (Vailian Trading Company → Serpent's Crown)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Deadfire opened, ship & crew",
+    reward: "Audience with Queen Onekaza; leads to A Distant Light",
     summary:
-      "Wash ashore at Port Maje, then reach the great city of Neketaka to outfit your ship, the Defiant.",
+      "To learn what Eothas wants, the Watcher needs more luminous adra. Sail to Neketaka, where the factions know where the great adra sites are, and end in an audience with Queen Onekaza at Serpent's Crown.",
     aiTip:
-      "Neketaka is the hub — recruit crew, upgrade the Defiant, and pick up faction and companion quests.",
+      "Neketaka is where every faction's questline begins — pick up their quests while you're here.",
     walkthrough: [
-      "Resolve the Port Maje situation and gain use of your ship, the Defiant.",
-      "Sail to Neketaka, the great Huana city, and dock at the harbor.",
-      "Explore the city's districts and meet the competing factions.",
-      "Outfit ship and crew, then follow the leads pointing toward Eothas."
+      "After To Hunt a God, set sail from Port Maje for Neketaka.",
+      "Visit the Vailian Trading Company's headquarters near the harbour — they know the prominent adra sites.",
+      "Follow the leads on luminous adra around Neketaka.",
+      "Go to Serpent's Crown and speak to Queen Onekaza in her palace.",
+      "Her information sends you to Hasongo, starting A Distant Light."
     ],
-    video: "https://www.youtube.com/watch?v=lS538jbrzMY"
+    video: "https://www.youtube.com/watch?v=4V2D7_OiDG8"
   },
 {
     id: 774,
@@ -16194,22 +16222,23 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     type: "main",
     game: "Pillars of Eternity II: Deadfire",
     region: "Deadfire",
-    title: "Ashen Maw",
-    location: "Magran's Teeth",
+    title: "He Waits in Fire",
+    location: "Ashen Maw, Magran's Teeth",
     length: "long",
     difficulty: "High",
-    reward: "Confront Eothas, faction climax",
+    reward: "Face-to-face with Eothas; leads to The Coming Storm",
     summary:
-      "Brave the volcanic Ashen Maw to finally confront the titan of Eothas and the god's true plan.",
+      "Eothas waits for the Watcher inside the Ashen Maw, the largest volcano of Magran's Teeth. Fight through the Sentinel Wall and the Jagged Keep, reach the adra spire and finally speak with the god.",
     aiTip:
-      "A major turning point — your faction allegiance shapes who stands with you.",
+      "Aim for party level 12–13 and bring fire resistance and frost attacks. Rathun longboats try to board you on the way — keep your distance if you want to out-gun them.",
     walkthrough: [
-      "Reach Magran's Teeth and descend into the volcanic Ashen Maw.",
-      "Fight through the fire-touched Engwithan complex.",
-      "Confront the titan housing Eothas and learn the god's true plan.",
-      "Escape the eruption and set course for Ukaizo."
+      "Sail to the Ashen Maw in Magran's Teeth.",
+      "Cross the bridge and the Sentinel Wall, where a dying Rathun vanguard lies.",
+      "Find a way through the Jagged Keep and acquire the Torc of Bithákten.",
+      "Ignite Magran's shrine to reach the adra spire in the depths.",
+      "Speak to Eothas and learn his plan."
     ],
-    video: "https://www.youtube.com/watch?v=hNcISd-z8ao"
+    video: "https://www.youtube.com/watch?v=7LDEiqzd1GA"
   },
 {
     id: 775,
@@ -16233,29 +16262,6 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sail through to Ukaizo Harbor to finish the quest and begin The City Lost to Time."
     ],
     video: "https://www.youtube.com/watch?v=2mXZlfxe2Cs"
-  },
-{
-    id: 776,
-    category: "Main Quest",
-    type: "main",
-    game: "Pillars of Eternity II: Deadfire",
-    region: "Deadfire",
-    title: "The Fall of Ukaizo",
-    location: "Ukaizo",
-    length: "long",
-    difficulty: "High",
-    reward: "Finale, the wheel's fate",
-    summary:
-      "At the ancient city of Ukaizo, the Watcher decides how to answer Eothas's world-shaking gambit.",
-    aiTip:
-      "The ending weighs the gods, the mortal world, and your faction — save before the final talks.",
-    walkthrough: [
-      "Land at Ukaizo and cross the ancient Engwithan wheel-city.",
-      "Clear the final guardians blocking the great machine.",
-      "Confront Eothas and hear out his world-shaking gambit.",
-      "Make the final choice that decides how the Wheel — and the world — will turn."
-    ],
-    video: "https://www.youtube.com/watch?v=fB0T-uJBrzM"
   },
 {
     id: 777,
