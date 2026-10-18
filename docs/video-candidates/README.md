@@ -32,6 +32,7 @@ swapped in and noted as `swapped to <videoId>`.
 
 | Game | Match | Swapped | Left as is (quest IDs) |
 |---|---|---|---|
+| Assassin's Creed Odyssey | 294 / 344 | 48 | 1999 (title may not be a real quest), 2141 (title likely wrong; #2140 is Myths and Minotaurs) |
 | Hogwarts Legacy | 94 / 120 | 24 | 717 (title doesn't look like a real quest), 516 (overlaps #862 The Room of Requirement) |
 
 ## Title check (2026-10-17)
