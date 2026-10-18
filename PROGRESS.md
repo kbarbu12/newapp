@@ -7,14 +7,15 @@
 
 ---
 
-## 2026-10-18 — missing main quests (v2.4.13)
+## 2026-10-18 — missing main quests and last search links (v2.4.13–v2.4.14)
 - Skyrim: added The Horn of Jurgen Windcaller, A Cornered Rat and Paarthurnax
   (PR #265); Alduin's Wall steps fixed.
 - Deadfire: main story rebuilt to the real seven quests (PR #266) — the old
   entries had made-up names and the finale was filed as a side quest; added
   The Veins of Eora, removed duplicate #776. 2,461 quests.
-- Still open: 4 YouTube search links (Metaphor #158, #726, Deadfire #779,
-  BG3 #997).
+- Last 4 search links replaced with real videos (PR #268, v2.4.14) —
+  Metaphor #158 (steps corrected) and #726 (shares #725's video, allowlisted),
+  Deadfire #779, BG3 #997. Every quest now has a real video.
 
 ## Session 2026-10-17 — videos for nearly every quest, data clean-up, Ghost of Yōtei main story
 
@@ -84,8 +85,6 @@ real `watch?v=` video (≈1,020 this morning), 2 playlists, 4 search links.
   bounties. Mythic Tales and 5 others were already accurate.
 
 ### Next
-- **4 search links left:** Metaphor #158, #726, Deadfire #779, BG3 #997 —
-  the audit requires a video link and no good single video was found.
 - Grouped entries ("Ranni's Questline", "Companion: …", "Collectible
   Hunt: …") look intentional and were left as they are.
 
