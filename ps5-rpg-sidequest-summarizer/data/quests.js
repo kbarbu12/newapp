@@ -969,7 +969,7 @@ const quests = [
       "Cast Lumos — two floating candles appear; follow them through the forest.",
       "At the small hill with two chairs and a table, open the chest that appears to finish."
     ],
-    video: "https://www.youtube.com/watch?v=ftHhNS_PJFw"
+    video: "https://www.youtube.com/watch?v=M47n1hvjs8w"
   },
 {
     id: 23,
@@ -3542,7 +3542,7 @@ const quests = [
       "Interact with the table and move, rotate and zoom the constellation outline until it lines up with the faint stars.",
       "Once it snaps into place, repeat at the remaining tables across Hogwarts and the Highlands."
     ],
-    video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
+    video: "https://www.youtube.com/watch?v=m0o9xNotivI"
   },
 {
     id: 159,
@@ -10624,7 +10624,7 @@ const quests = [
       "Talk to Fig about Hogsmeade, Ranrok and Rookwood — he reveals the map pointing to the Restricted Section.",
       "Fig sends you to Professor Hecat first, unlocking her Assignment 1."
     ],
-    video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
+    video: "https://www.youtube.com/watch?v=4mSQlNutMQU"
   },
 {
     id: 492,
@@ -10646,7 +10646,7 @@ const quests = [
       "Ride the moving platforms, using Accio on the anchor points to pull yourself across.",
       "Fight through the enemy rooms and reach the Pensieve to view Rackham's memory."
     ],
-    video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
+    video: "https://www.youtube.com/watch?v=zflpFsVHw2c"
   },
 {
     id: 493,
@@ -10668,7 +10668,7 @@ const quests = [
       "Fight off the spiders on the way.",
       "Cross the bridge to Jackdaw's body and loot the missing Field Guide pages."
     ],
-    video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
+    video: "https://www.youtube.com/watch?v=Jp-2xp5KkWU"
   },
 {
     id: 494,
@@ -10905,7 +10905,7 @@ const quests = [
       "Travel to the centre of the Forbidden Forest and find Poppy.",
       "Talk to her and watch the cutscene with the centaurs — this unlocks The Centaur and the Stone."
     ],
-    video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
+    video: "https://www.youtube.com/watch?v=AyGIrbo9X6A"
   },
 {
     id: 505,
@@ -10950,7 +10950,7 @@ const quests = [
       "Cast Levioso on the lone tree to lift it.",
       "Open the chest under its roots to finish."
     ],
-    video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
+    video: "https://www.youtube.com/watch?v=gqvEr74F3rI"
   },
 {
     id: 507,
@@ -10995,7 +10995,7 @@ const quests = [
       "Find the other cabinets around the castle (some are behind Alohomora locks) and repeat.",
       "Place all 16 tokens in the house chest in your common room for your house's Relic uniform."
     ],
-    video: "https://www.youtube.com/watch?v=lwgsiMEle20"
+    video: "https://www.youtube.com/watch?v=iWBBVNKCsh0"
   },
 {
     id: 510,
@@ -11062,7 +11062,7 @@ const quests = [
       "Solve it with the matching spell: light braziers with Incendio, Accio stone orbs onto discs, destroy spheres with Confringo/Bombarda, guide moths with Lumos, or cross the stepping stones.",
       "Each completed trial raises your gear inventory limit."
     ],
-    video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
+    video: "https://www.youtube.com/watch?v=aqaeqr36u-0"
   },
 {
     id: 513,
@@ -11106,7 +11106,7 @@ const quests = [
       "Collect 9 moons and bring them to Gladwin Moon for Alohomora level 2 (via The Man Behind the Moons).",
       "Collect 13 more for Alohomora level 3, opening the rest of the locked doors and statues."
     ],
-    video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
+    video: "https://www.youtube.com/watch?v=G6uID7NeSkk"
   },
 {
     id: 515,
@@ -11123,7 +11123,7 @@ const quests = [
       "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
     aiTip:
       "Pure completionist content — pair with Merlin Trials while exploring each region.",
-video: "https://www.youtube.com/watch?v=HdRArGAruCc",
+    video: "https://www.youtube.com/watch?v=E4aL4uh77xw",
     walkthrough: [
       "Progress the main story past Percival Rackham's Trial — Ancient Magic Hotspots only appear once you can sense Ancient Magic.",
       "Open the map and look for the swirling Ancient Magic Hotspot icons; there are 20 spread across Hogwarts Valley, the Highlands, Hogsmeade Valley, the Forbidden Forest, the Coast, Feldcroft, Manor Cape, North Ford Bog and Marunweem.",
@@ -15468,7 +15468,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fly the Coastal Broom Trial — 29 rings in under 2:42 (each missed ring adds 3 seconds); grab the boost orbs.",
       "Talk to Imelda, then report back to Albie at Spintwitches."
     ],
-    video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
+    video: "https://www.youtube.com/watch?v=syxHVf_Ts0k"
   },
 {
     id: 714,
@@ -15497,7 +15497,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "The Foal of the Dead",
+    title: "Foal of the Dead",
     location: "North Ford Bog / Room of Requirement",
     length: "short",
     difficulty: "Medium",
@@ -18254,7 +18254,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Throw the Mandrake so it stuns multiple enemies at the same time.",
       "Attend Herbology class in the greenhouse during the day and talk to Garlick to learn Wingardium Leviosa."
     ],
-    video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
+    video: "https://www.youtube.com/watch?v=zvISlAa7jaY"
   },
 {
     id: 846,
@@ -18340,7 +18340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink one, then immediately drink the other while the first is still active.",
       "Attend Potions class in the Library Annex during the day and talk to Sharp to learn Depulso."
     ],
-    video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
+    video: "https://www.youtube.com/watch?v=dvzLjSeUZBs"
   },
 {
     id: 850,
@@ -18362,7 +18362,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink Thunderbrew in a fight and let the storm hit enemies.",
       "Return to Sharp to learn Diffindo."
     ],
-    video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
+    video: "https://www.youtube.com/watch?v=tb95F0Z-kZo"
   },
 {
     id: 851,
@@ -18383,7 +18383,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Catch a Diricawl at a nest in Hogwarts Valley (Levioso first makes it easier).",
       "Attend Beasts class during the day and talk to Howin to learn Bombarda."
     ],
-    video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
+    video: "https://www.youtube.com/watch?v=kc9NS7fOLio"
   },
 {
     id: 852,
@@ -18447,7 +18447,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Levitate an enemy with Levioso and hit it with Depulso.",
       "Attend Divination class during the day and talk to Onai to learn Descendo."
     ],
-    video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
+    video: "https://www.youtube.com/watch?v=pDA6EgwDUdw"
   },
 {
     id: 855,
@@ -18469,7 +18469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pop the five balloons over the Quidditch pitch.",
       "Return to Kogawa to learn Glacius."
     ],
-    video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
+    video: "https://www.youtube.com/watch?v=jKK-dOi1NzM"
   },
 {
     id: 856,
@@ -18490,7 +18490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pop the five balloons near Keenbridge Tower, southeast of Hogwarts.",
       "Return to Kogawa to learn Arresto Momentum."
     ],
-    video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
+    video: "https://www.youtube.com/watch?v=nT3nIB1ilkY"
   },
 {
     id: 857,
@@ -18708,7 +18708,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Finish the lesson and talk to Professor Shah.",
       "The other Astronomy Tables around the map are now unlocked (night only)."
     ],
-    video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
+    video: "https://www.youtube.com/watch?v=BLZX3YIY5Jw"
   },
 {
     id: 867,
@@ -18790,7 +18790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Forbidden Forest marker.",
       "Join Poppy and Dorran's conversation to finish — this unlocks A Bird in the Hand."
     ],
-    video: "https://www.youtube.com/watch?v=H7gWGVAnQSo"
+    video: "https://www.youtube.com/watch?v=utMUZv9URic"
   },
 {
     id: 872,
@@ -19158,7 +19158,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Destroy all 12 egg sacs and kill the giant spider (Incendio works well).",
       "Return to Crispin."
     ],
-    video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
+    video: "https://www.youtube.com/watch?v=4BTp9_CV1Y8"
   },
 {
     id: 890,
@@ -19246,7 +19246,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Give Fatimah Lawang the three Invisibility Potions and drink one to prove it works.",
       "Return to Parry — ask for a higher fee for more Galleons."
     ],
-    video: "https://www.youtube.com/watch?v=XPEW0ZOAkUY"
+    video: "https://www.youtube.com/watch?v=XIznu7MI_tc"
   },
 {
     id: 894,
@@ -19393,7 +19393,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn the Altering spell and use it on the balcony or floor.",
       "Talk to Deek to change the room's ambience, then return to Weasley."
     ],
-    video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
+    video: "https://www.youtube.com/watch?v=FhFSGh3E6v8"
   },
 {
     id: 901,
@@ -42437,7 +42437,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the Obsidian Eye.",
       "Leave the way you came and return it to Markos."
     ],
-    video: "https://www.youtube.com/watch?v=5jS7M14epgY"
+    video: "https://www.youtube.com/watch?v=4IozMGRim9k"
   },
 {
     id: 2003,
@@ -42459,7 +42459,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill all the bandits — Elpenor appears and reveals he hired them.",
       "Loot the house (one treasure in a small box on the ground floor)."
     ],
-    video: "https://www.youtube.com/watch?v=C7kUz_uBzzU"
+    video: "https://www.youtube.com/watch?v=1s7VEQ_0iZc"
   },
 {
     id: 2004,
@@ -42699,7 +42699,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Win the battle — Megaris now sides with Sparta.",
       "Watch the cutscene with Stentor; The Wolf of Sparta unlocks."
     ],
-    video: "https://www.youtube.com/watch?v=qJmxl2mJZfE"
+    video: "https://www.youtube.com/watch?v=0PK50cTNeQA"
   },
 {
     id: 2015,
@@ -42895,7 +42895,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Listen in on the Cult's gathering.",
       "Return to Herodotos."
     ],
-    video: "https://www.youtube.com/watch?v=NbPVufjBRmQ"
+    video: "https://www.youtube.com/watch?v=z9VF-p6KgYs"
   },
 {
     id: 2024,
@@ -42959,7 +42959,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn where the snakes came from.",
       "Kill the snake dealer, the Poisoner (drops an epic dagger)."
     ],
-    video: "https://www.youtube.com/watch?v=HKwOdKtF9zo"
+    video: "https://www.youtube.com/watch?v=zNrs-ImILCM"
   },
 {
     id: 2027,
@@ -42980,7 +42980,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escort him aboard and sail to Seriphos.",
       "Talk to Theras, Phidias's friend, for the scroll from Phidias's informer (a lead on the cultist Brison)."
     ],
-    video: "https://www.youtube.com/watch?v=ohb_rcaeThs"
+    video: "https://www.youtube.com/watch?v=QSwm8eFs9Jw"
   },
 {
     id: 2028,
@@ -43024,7 +43024,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to Aspasia.",
       "Return to the ground floor and speak to Phoibe to leave."
     ],
-    video: "https://www.youtube.com/watch?v=NsjqjICXHIY"
+    video: "https://www.youtube.com/watch?v=WfhTucasG6c"
   },
 {
     id: 2030,
@@ -43178,7 +43178,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Talk to him about Myrrine.",
       "The Doctor Will See You Now and The Priests of Asklepios unlock."
     ],
-    video: "https://www.youtube.com/watch?v=s0PMIHvC87Q"
+    video: "https://www.youtube.com/watch?v=4VcO92Gj6gY"
   },
 {
     id: 2037,
@@ -43262,7 +43262,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the sound of the crying infant east into the forest to a shrine guarded by cultists, and clear the guards.",
       "Inside, Chrysis sets the shrine on fire with the baby. Choose to save the baby (Chrysis escapes and can be killed later in \"Death Comes for Us All\") or chase Chrysis to her cave and kill her now."
     ],
-    video: "https://www.youtube.com/watch?v=QcYt7lBEQpI"
+    video: "https://www.youtube.com/watch?v=pKx6MU9GNoQ"
   },
 {
     id: 2041,
@@ -43305,7 +43305,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Defeat the cult guards.",
       "Stay with Phoibe as she succumbs to her wounds."
     ],
-    video: "https://www.youtube.com/watch?v=cRV8PhBnBU0"
+    video: "https://www.youtube.com/watch?v=1nd3lizSP3A"
   },
 {
     id: 2043,
@@ -43327,7 +43327,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Escape Athens with Aspasia and the others, past Kleon's soldiers.",
       "Reach the Adrestia at Piraeus and learn where your mother is."
     ],
-    video: "https://www.youtube.com/watch?v=1IF719UzVnA"
+    video: "https://www.youtube.com/watch?v=OQX6BVTvwQw"
   },
 {
     id: 2044,
@@ -43432,7 +43432,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sink all three.",
       "Return to Myrrine."
     ],
-    video: "https://www.youtube.com/watch?v=BldWc91A8dE"
+    video: "https://www.youtube.com/watch?v=9MFhRAnxpHc"
   },
 {
     id: 2049,
@@ -43475,7 +43475,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the giant stone door to Atlantis.",
       "Between Two Worlds and The Gates of Atlantis begin."
     ],
-    video: "https://www.youtube.com/watch?v=bCX64YVUmUk"
+    video: "https://www.youtube.com/watch?v=cXu99870VIk"
   },
 {
     id: 2051,
@@ -43539,7 +43539,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sail toward the Bay of Hades to Testikles's island near the Shipwreck of Nestor.",
       "Find Testikles — after his death, you'll take his place at Olympia."
     ],
-    video: "https://www.youtube.com/watch?v=rkJ4nWMkMwQ"
+    video: "https://www.youtube.com/watch?v=6KoiRjwc7dc"
   },
 {
     id: 2054,
@@ -43690,7 +43690,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If his family is safe and the Monger was killed quietly, persuade him to leave the Cult and join Brasidas.",
       "Otherwise, kill him (you lose physical evidence for A Bloody Feast)."
     ],
-    video: "https://www.youtube.com/watch?v=vhX55w8EuDg"
+    video: "https://www.youtube.com/watch?v=T9fE29xG3G0"
   },
 {
     id: 2061,
@@ -43926,7 +43926,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Squeeze through the gap in the wall and take out the bandit group, using assassinations to thin them out quietly.",
       "Loot the bandits' treasure, then return to the worshipper outside the cave."
     ],
-    video: "https://www.youtube.com/watch?v=4VhpMfT3kg0"
+    video: "https://www.youtube.com/watch?v=3yYK1oeXvPc"
   },
 {
     id: 2072,
@@ -43968,7 +43968,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Free Orneos from his cage.",
       "Return to Davos to complete the quest."
     ],
-    video: "https://www.youtube.com/watch?v=uoYLGBUnfJg"
+    video: "https://www.youtube.com/watch?v=paMAX48Ro0o"
   },
 {
     id: 2074,
@@ -44220,7 +44220,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the second from the soldier carrying it, and the third from a table near the docks.",
       "Bring all three records back to Agapios."
     ],
-    video: "https://www.youtube.com/watch?v=CdW_v78c3HU"
+    video: "https://www.youtube.com/watch?v=xty1ucBQAqI"
   },
 {
     id: 2090,
@@ -44281,7 +44281,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Deal with the confrontation there. If you attack from range instead of starting the conversation, and act quickly, both people at the theater can survive.",
       "Completing it counts toward Sharp Tongue."
     ],
-    video: "https://www.youtube.com/watch?v=89MJ0G0LImA"
+    video: "https://www.youtube.com/watch?v=_26zaAxd55k"
   },
 {
     id: 2093,
@@ -44321,7 +44321,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Sail to Smuggler's Dock on Skyros and talk to the magistrate.",
       "Confront Neritos at the Temple of Achilles. Killing him is optional."
     ],
-    video: "https://www.youtube.com/watch?v=TAYBGZvBtSc"
+    video: "https://www.youtube.com/watch?v=6xBW0Meeus0"
   },
 {
     id: 2095,
@@ -44615,7 +44615,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Persuade him to show you the stone.",
       "Follow him to the stone and listen to his tales to complete the quest."
     ],
-    video: "https://www.youtube.com/watch?v=ddlT1qpoyVQ"
+    video: "https://www.youtube.com/watch?v=F_vRsnVnP_I"
   },
 {
     id: 2109,
@@ -44720,7 +44720,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Take the wine from the Pirate Bay bandit camp on the west coast.",
       "Bring the ingredients to the witch, attend the ceremony, then talk to Kallikleia. Fighting the witch is optional."
     ],
-    video: "https://www.youtube.com/watch?v=Jx1Af4hBGR4"
+    video: "https://www.youtube.com/watch?v=TuZ4LuX-7GY"
   },
 {
     id: 2114,
@@ -44761,7 +44761,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and take the miltos shipment.",
       "Return to Xenia. Talk to her before collecting items on Lestris, or the quest may not trigger."
     ],
-    video: "https://www.youtube.com/watch?v=THJZZWA7TmA"
+    video: "https://www.youtube.com/watch?v=tgMkzOBq34M"
   },
 {
     id: 2116,
@@ -45515,7 +45515,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When he demands 3,000 drachmae, refuse to pay.",
       "Defeat his two brutes to finish the quest."
     ],
-    video: "https://www.youtube.com/watch?v=IjpO125CFic"
+    video: "https://www.youtube.com/watch?v=UXecAIWi83Y"
   },
 {
     id: 2152,
@@ -45537,7 +45537,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Do her follow-ups: Pick Your Poison, All Bonds Will Break, The Handmaiden Story and In a Rush.",
       "By the Fates follows at the Altar of Aphrodite."
     ],
-    video: "https://www.youtube.com/watch?v=CRF_bss9Awc"
+    video: "https://www.youtube.com/watch?v=J_s37d32XAY"
   },
 {
     id: 2153,
@@ -46451,7 +46451,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the real Elpenor in the cave behind the Snake Temple.",
       "Kill him — his Cult of Kosmos Ceremonial Outfit lets you into The Serpent's Lair."
     ],
-    video: "https://www.youtube.com/watch?v=VjQqsJFyDQ0"
+    video: "https://www.youtube.com/watch?v=n6oIYHMRe7E"
   },
 {
     id: 2200,
@@ -46535,7 +46535,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If she isn't there, check the docks at the Port of Nisaia by the large boat.",
       "Kill her and loot her clue."
     ],
-    video: "https://www.youtube.com/watch?v=DmqABt5PO3A"
+    video: "https://www.youtube.com/watch?v=25WqbmGgO2M"
   },
 {
     id: 2204,
@@ -46808,7 +46808,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Win the battle at Amphipolis with Brasidas.",
       "Chase Kleon to the beach and kill him."
     ],
-    video: "https://www.youtube.com/watch?v=H6gxEFKfJF4"
+    video: "https://www.youtube.com/watch?v=z6SZo_-75yU"
   },
 {
     id: 2217,
@@ -46955,7 +46955,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find and sink his ship.",
       "Loot the clue from the wreck."
     ],
-    video: "https://www.youtube.com/watch?v=MDOM-f542LQ"
+    video: "https://www.youtube.com/watch?v=MgDxWzZqD74"
   },
 {
     id: 2224,
@@ -47081,7 +47081,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "If she escaped, finish her in Death Comes for Us All.",
       "Loot her clue."
     ],
-    video: "https://www.youtube.com/watch?v=4jvmiCjI_aw"
+    video: "https://www.youtube.com/watch?v=JAGXZVMXBGI"
   },
 {
     id: 2230,
@@ -47102,7 +47102,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Kill the woman on the right — that's Diona.",
       "Talk to Eritha for the next clue."
     ],
-    video: "https://www.youtube.com/watch?v=yQLgyhTiyxc"
+    video: "https://www.youtube.com/watch?v=4yZhJTP8sLA"
   },
 {
     id: 2231,
@@ -47547,7 +47547,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Follow the golden thread through the Labyrinth.",
       "Defeat the Minotaur (He Waits) and reunite with Ardos."
     ],
-    video: "https://www.youtube.com/watch?v=1HLQ5rnwg9Q"
+    video: "https://www.youtube.com/watch?v=Wgz7imyM8WI"
   },
 {
     id: 2252,
@@ -47590,7 +47590,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn her attack patterns and dodge her ranged attacks.",
       "Defeat Medusa and collect the artifact and reward."
     ],
-    video: "https://www.youtube.com/watch?v=w2MKlK2d7Sk"
+    video: "https://www.youtube.com/watch?v=s9VoBYFLBQo"
   },
 {
     id: 2254,
@@ -47611,7 +47611,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Later, pick up A Family Ordeal at a farm east of Megara in Megaris.",
       "Keep choosing the romance options to finish her romance."
     ],
-    video: "https://www.youtube.com/watch?v=nHjrdZjX5Wg"
+    video: "https://www.youtube.com/watch?v=3jO9Dv9YJok"
   },
 {
     id: 2255,
@@ -47653,7 +47653,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Collect the five flowers he asks for.",
       "Return to him and pick the romantic options."
     ],
-    video: "https://www.youtube.com/watch?v=cwgrPncVUCo"
+    video: "https://www.youtube.com/watch?v=If1dboI_Z1M"
   },
 {
     id: 2257,
@@ -47714,7 +47714,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pick the flirt options during the training.",
       "In the final duel at the games, talk her down instead of killing her."
     ],
-    video: "https://www.youtube.com/watch?v=8MXU8OOJ8-k"
+    video: "https://www.youtube.com/watch?v=yzpWigVL1xk"
   },
 {
     id: 2260,
@@ -47755,7 +47755,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Do her quests, including Goddess of the Hunt at the Altar of Artemis.",
       "Choose the romance options — this leads to a duel with Thaletas in A Night to Remember."
     ],
-    video: "https://www.youtube.com/watch?v=AU3GuRTdB3Y"
+    video: "https://www.youtube.com/watch?v=9-kYCt4EJKs"
   },
 {
     id: 2262,
@@ -47797,7 +47797,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Return to her after the last one.",
       "Choose the romance options."
     ],
-    video: "https://www.youtube.com/watch?v=pzyph1qB9kI"
+    video: "https://www.youtube.com/watch?v=CKuPqUJK-bg"
   },
 {
     id: 2264,
@@ -47818,7 +47818,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "When she asks you to meet at her villa, pick 'I can't wait'.",
       "Pick 'Yes, let's' to complete the romance."
     ],
-    video: "https://www.youtube.com/watch?v=Wt27QyspzfM"
+    video: "https://www.youtube.com/watch?v=DNAu5Km3j6g"
   },
 {
     id: 2265,
@@ -47838,7 +47838,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose the heart-marked flirtation options when they appear in conversation.",
       "Reach the romance beat to complete the relationship; you are free to romance other companions too."
     ],
-    video: "https://www.youtube.com/watch?v=1HKKD88aDMg"
+    video: "https://www.youtube.com/watch?v=g_dz9u7skwM"
   },
 {
     id: 2266,
@@ -47879,7 +47879,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose the heart-marked flirtation options when they appear in conversation.",
       "Reach the romance beat to complete the relationship; you are free to romance other companions too."
     ],
-    video: "https://www.youtube.com/watch?v=cTEjoxNPzx0"
+    video: "https://www.youtube.com/watch?v=bLbRFQkGCVY"
   },
 {
     id: 2268,
@@ -47899,7 +47899,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Choose the heart-marked flirtation options when they appear in conversation.",
       "Reach the romance beat to complete the relationship; you are free to romance other companions too."
     ],
-    video: "https://www.youtube.com/watch?v=nocqiOIiiZA"
+    video: "https://www.youtube.com/watch?v=l40bwdstjUE"
   },
 {
     id: 2269,
@@ -48170,7 +48170,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Descend inside, breaking cracked walls and clearing snake/spike hazards as you navigate the chambers.",
       "Interact with the Ancient Stele to claim an Ability Point, and loot any side chests before leaving."
     ],
-    video: "https://www.youtube.com/watch?v=_4gsXAPweZ4"
+    video: "https://www.youtube.com/watch?v=Fsi-KWKTVoM"
   },
 {
     id: 2282,
@@ -48820,7 +48820,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the place it describes. Ikaros can help you spot it.",
       "Interact with the spot to solve the riddle."
     ],
-    video: "https://www.youtube.com/watch?v=e1d9aixsZYQ"
+    video: "https://www.youtube.com/watch?v=yy-bkyXBgdw"
   },
 {
     id: 2313,
@@ -48883,7 +48883,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the place it describes. Ikaros can help you spot it.",
       "Interact with the spot to solve the riddle."
     ],
-    video: "https://www.youtube.com/watch?v=4rxvaDClPSM"
+    video: "https://www.youtube.com/watch?v=qnTYXTZM60g"
   },
 {
     id: 2316,
@@ -48946,7 +48946,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the place it describes. Ikaros can help you spot it.",
       "Interact with the spot to solve the riddle."
     ],
-    video: "https://www.youtube.com/watch?v=Zhxr2nTZMdM"
+    video: "https://www.youtube.com/watch?v=sDbU_RE8l10"
   },
 {
     id: 2319,
@@ -49183,7 +49183,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     category: "Ainigmata Ostraka",
     game: "Assassin's Creed Odyssey",
     region: "Messara",
-    title: "'Til Death Do Us Part",
+    title: "Till Death Do Us Part",
     location: "Temple of Poseidon, Octopus Bay → tall tree to the south, Messara",
     length: "short",
     difficulty: "Low",
@@ -49196,7 +49196,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the tall tree with two skeletons beneath it.",
       "Interact with the engraving there."
     ],
-    video: "https://www.youtube.com/watch?v=gkeCHbh8j18"
+    video: "https://www.youtube.com/watch?v=ORQXb-5GlyM"
   },
 {
     id: 2333,
@@ -49469,7 +49469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Find the sword buried in the rock at the highest point.",
       "Interact with it to solve the riddle."
     ],
-    video: "https://www.youtube.com/watch?v=gKd1efyUEjM"
+    video: "https://www.youtube.com/watch?v=PZpeJcXv4l8"
   },
 {
     id: 2346,

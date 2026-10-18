@@ -22,6 +22,19 @@ Format: `{questId: videoId}`, except `vidcands.json` (rows `{id,g,t,c,u,v}`,
 | totk.json | Zelda: Tears of the Kingdom | 217 | claude.ai/artifact/MStSqBWsCMyM9jLagXoGQg |
 | left.json | Leftovers: Skyrim, Witcher 3, Pillars I & II | 18 | claude.ai/artifact/UDZhgTgMtErLokRpSjajSn |
 
+## Title check, round 2 — videos already in the app (2026-10-18)
+
+The first check only covered the 1,440 candidates. Round 2 checks the 1,160
+videos that were in `quests.js` before then, game by game, the same way (a
+YouTube search for the quest title; rows are appended to `title-check.json`
+with `"file": "quests.js"`). Clear replacements found along the way are
+swapped in and noted as `swapped to <videoId>`.
+
+| Game | Match | Swapped | Left as is (quest IDs) |
+|---|---|---|---|
+| Assassin's Creed Odyssey | 294 / 344 | 48 | 1999 (title may not be a real quest), 2141 (title likely wrong; #2140 is Myths and Minotaurs) |
+| Hogwarts Legacy | 94 / 120 | 24 | 717 (title doesn't look like a real quest), 516 (overlaps #862 The Room of Requirement) |
+
 ## Title check (2026-10-17)
 
 `title-check.json` records a check of every candidate above (1,440 links).
