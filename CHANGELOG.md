@@ -3,6 +3,14 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-18 (2)
+
+- **Replace the last 4 YouTube search links with real videos** (PR #268) —
+  `v2.4.14` patch. Metaphor #158 (with corrected relic steps) and #726,
+  Deadfire #779, BG3 #997 now embed real videos; #726 shares #725's video,
+  which covers both quests and is allowlisted in the audit. Every quest now
+  has a real video: 2,461 quests, 2,459 videos, 2 playlists, 0 search links.
+
 ## 2026-10-18
 
 - **Add 3 missing Skyrim main quests** (PR #265) — `v2.4.13` patch. The
