@@ -13,7 +13,7 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
   line now follows the real seven quests: Stranded, To Hunt a God, The Veins
   of Eora (new #2597), A Distant Light, He Waits in Fire, The Coming Storm and
   The City Lost to Time (moved from Side Quest to Main Quest). Made-up titles
-  replaced; duplicate #776 removed. Quest count 2,458 → 2,462.
+  replaced; duplicate #776 removed. Quest count 2,458 → 2,461.
 
 ## 2026-10-17 (7)
 

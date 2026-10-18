@@ -12,7 +12,7 @@
   (PR #265); Alduin's Wall steps fixed.
 - Deadfire: main story rebuilt to the real seven quests (PR #266) — the old
   entries had made-up names and the finale was filed as a side quest; added
-  The Veins of Eora, removed duplicate #776. 2,462 quests.
+  The Veins of Eora, removed duplicate #776. 2,461 quests.
 - Still open: 4 YouTube search links (Metaphor #158, #726, Deadfire #779,
   BG3 #997).
 
