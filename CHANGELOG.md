@@ -3,6 +3,16 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-18 (3)
+
+- **Check AC Odyssey videos and swap 48 weak ones** (PR #270) — `v2.4.15`
+  patch. Round 2 of the video title check (videos already in the app): 294
+  of 344 matched their quest title; 48 swapped for videos that name the
+  quest; #2332 renamed to Till Death Do Us Part. #1999 and #2141 flagged.
+- **Check Hogwarts Legacy videos and swap 24 weak ones** (PR #271). 94 of
+  120 matched; 24 swapped; #716 renamed to Foal of the Dead. #717 and #516
+  flagged.
+
 ## 2026-10-18 (2)
 
 - **Replace the last 4 YouTube search links with real videos** (PR #268) —
