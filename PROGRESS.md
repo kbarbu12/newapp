@@ -7,6 +7,30 @@
 
 ---
 
+## 2026-10-18 (2) — older-video title check started, review list refreshed (v2.4.15)
+- Round 2 of the video title check: the ~1,160 videos that were in the app
+  before the first check, one game per PR. YouTube search per quest title;
+  clear alternatives swapped in, odd entries flagged rather than guessed.
+  Results in `docs/video-candidates/title-check.json` (`"file":"quests.js"`)
+  and the README's "Title check, round 2" table.
+  - AC Odyssey (PR #270): 294 / 344 matched, 48 swapped, #2332 renamed Till
+    Death Do Us Part. Flagged: #1999, #2141 (titles look wrong).
+  - Hogwarts Legacy (PR #271): 94 / 120 matched, 24 swapped, #716 renamed
+    Foal of the Dead. Flagged: #717 Trafficking Talents (not a real quest),
+    #516 (overlaps #862 The Room of Requirement).
+  - Both promoted to prod as v2.4.15 (CHANGELOG PR #272); prod build QA'd
+    (72 swapped videos render, 0 page errors).
+- Owner review page (https://claude.ai/artifact/J76YaqKJqtKN2krU1zpAhq)
+  refreshed to match the app: 1,427 rows (14 removed quests dropped), 145
+  tagged "updated" (130 new videos, 15 renames); old flags on rows whose
+  video changed are cleared. Also exported as a Markdown list.
+- Owner review status: no flag report has come back for the combined list
+  yet, so all 18 games on it are still unreviewed by the owner (August
+  owner checks covered Elden Ring, Ragnarök, Jedi: Survivor, Ghost of
+  Tsushima, Hogwarts, Metaphor and P5R as they were then).
+- Next: round 2 continues with Star Wars Jedi: Survivor (87), then God of
+  War Ragnarök (68), Metaphor (56), Sekiro (46), Elden Ring (45) and the rest.
+
 ## 2026-10-18 — missing main quests and last search links (v2.4.13–v2.4.14)
 - Skyrim: added The Horn of Jurgen Windcaller, A Cornered Rat and Paarthurnax
   (PR #265); Alduin's Wall steps fixed.
