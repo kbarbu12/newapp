@@ -3,6 +3,18 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-18
+
+- **Add 3 missing Skyrim main quests** (PR #265) — `v2.4.13` patch. The
+  Horn of Jurgen Windcaller (#2594), A Cornered Rat (#2595) and the
+  optional Paarthurnax (#2596), in story order with steps and videos;
+  Alduin's Wall #1396 steps fixed.
+- **Rebuild Deadfire main quests to match the game** (PR #266). The main
+  line now follows the real seven quests: Stranded, To Hunt a God, The Veins
+  of Eora (new #2597), A Distant Light, He Waits in Fire, The Coming Storm and
+  The City Lost to Time (moved from Side Quest to Main Quest). Made-up titles
+  replaced; duplicate #776 removed. Quest count 2,458 → 2,462.
+
 ## 2026-10-17 (7)
 
 - **Rewrite Ghost of Yotei side content from walkthroughs** (PRs #258–#263,

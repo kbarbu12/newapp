@@ -1,11 +1,20 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-17
+**Last updated:** 2026-10-18
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
+
+## 2026-10-18 — missing main quests (v2.4.13)
+- Skyrim: added The Horn of Jurgen Windcaller, A Cornered Rat and Paarthurnax
+  (PR #265); Alduin's Wall steps fixed.
+- Deadfire: main story rebuilt to the real seven quests (PR #266) — the old
+  entries had made-up names and the finale was filed as a side quest; added
+  The Veins of Eora, removed duplicate #776. 2,462 quests.
+- Still open: 4 YouTube search links (Metaphor #158, #726, Deadfire #779,
+  BG3 #997).
 
 ## Session 2026-10-17 — videos for nearly every quest, data clean-up, Ghost of Yōtei main story
 
@@ -75,8 +84,6 @@ real `watch?v=` video (≈1,020 this morning), 2 playlists, 4 search links.
   bounties. Mythic Tales and 5 others were already accurate.
 
 ### Next
-- **Missing main quests:** Skyrim The Horn of Jurgen Windcaller, A Cornered
-  Rat, Paarthurnax; Deadfire He Waits in Fire.
 - **4 search links left:** Metaphor #158, #726, Deadfire #779, BG3 #997 —
   the audit requires a video link and no good single video was found.
 - Grouped entries ("Ranni's Questline", "Companion: …", "Collectible
