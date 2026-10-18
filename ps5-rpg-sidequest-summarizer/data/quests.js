@@ -969,7 +969,7 @@ const quests = [
       "Cast Lumos — two floating candles appear; follow them through the forest.",
       "At the small hill with two chairs and a table, open the chest that appears to finish."
     ],
-    video: "https://www.youtube.com/watch?v=ftHhNS_PJFw"
+    video: "https://www.youtube.com/watch?v=M47n1hvjs8w"
   },
 {
     id: 23,
@@ -3542,7 +3542,7 @@ const quests = [
       "Interact with the table and move, rotate and zoom the constellation outline until it lines up with the faint stars.",
       "Once it snaps into place, repeat at the remaining tables across Hogwarts and the Highlands."
     ],
-    video: "https://www.youtube.com/watch?v=pK3OUx9tNNE"
+    video: "https://www.youtube.com/watch?v=m0o9xNotivI"
   },
 {
     id: 159,
@@ -10624,7 +10624,7 @@ const quests = [
       "Talk to Fig about Hogsmeade, Ranrok and Rookwood — he reveals the map pointing to the Restricted Section.",
       "Fig sends you to Professor Hecat first, unlocking her Assignment 1."
     ],
-    video: "https://www.youtube.com/watch?v=IcXEeapcbOA"
+    video: "https://www.youtube.com/watch?v=4mSQlNutMQU"
   },
 {
     id: 492,
@@ -10646,7 +10646,7 @@ const quests = [
       "Ride the moving platforms, using Accio on the anchor points to pull yourself across.",
       "Fight through the enemy rooms and reach the Pensieve to view Rackham's memory."
     ],
-    video: "https://www.youtube.com/watch?v=jcyG0p2GwHQ"
+    video: "https://www.youtube.com/watch?v=zflpFsVHw2c"
   },
 {
     id: 493,
@@ -10668,7 +10668,7 @@ const quests = [
       "Fight off the spiders on the way.",
       "Cross the bridge to Jackdaw's body and loot the missing Field Guide pages."
     ],
-    video: "https://www.youtube.com/watch?v=Xud8fPNrN-c"
+    video: "https://www.youtube.com/watch?v=Jp-2xp5KkWU"
   },
 {
     id: 494,
@@ -10905,7 +10905,7 @@ const quests = [
       "Travel to the centre of the Forbidden Forest and find Poppy.",
       "Talk to her and watch the cutscene with the centaurs — this unlocks The Centaur and the Stone."
     ],
-    video: "https://www.youtube.com/watch?v=-wJ53aZYGCk"
+    video: "https://www.youtube.com/watch?v=AyGIrbo9X6A"
   },
 {
     id: 505,
@@ -10950,7 +10950,7 @@ const quests = [
       "Cast Levioso on the lone tree to lift it.",
       "Open the chest under its roots to finish."
     ],
-    video: "https://www.youtube.com/watch?v=EOCSuU3tizg"
+    video: "https://www.youtube.com/watch?v=gqvEr74F3rI"
   },
 {
     id: 507,
@@ -10995,7 +10995,7 @@ const quests = [
       "Find the other cabinets around the castle (some are behind Alohomora locks) and repeat.",
       "Place all 16 tokens in the house chest in your common room for your house's Relic uniform."
     ],
-    video: "https://www.youtube.com/watch?v=lwgsiMEle20"
+    video: "https://www.youtube.com/watch?v=iWBBVNKCsh0"
   },
 {
     id: 510,
@@ -11062,7 +11062,7 @@ const quests = [
       "Solve it with the matching spell: light braziers with Incendio, Accio stone orbs onto discs, destroy spheres with Confringo/Bombarda, guide moths with Lumos, or cross the stepping stones.",
       "Each completed trial raises your gear inventory limit."
     ],
-    video: "https://www.youtube.com/watch?v=umJ6S_oQGdw"
+    video: "https://www.youtube.com/watch?v=aqaeqr36u-0"
   },
 {
     id: 513,
@@ -11106,7 +11106,7 @@ const quests = [
       "Collect 9 moons and bring them to Gladwin Moon for Alohomora level 2 (via The Man Behind the Moons).",
       "Collect 13 more for Alohomora level 3, opening the rest of the locked doors and statues."
     ],
-    video: "https://www.youtube.com/watch?v=kwL6GP0y2ZY"
+    video: "https://www.youtube.com/watch?v=G6uID7NeSkk"
   },
 {
     id: 515,
@@ -11123,7 +11123,7 @@ const quests = [
       "Sweep the open world for Collection Chests, balloons, and Ancient Magic Hotspots.",
     aiTip:
       "Pure completionist content — pair with Merlin Trials while exploring each region.",
-video: "https://www.youtube.com/watch?v=HdRArGAruCc",
+    video: "https://www.youtube.com/watch?v=E4aL4uh77xw",
     walkthrough: [
       "Progress the main story past Percival Rackham's Trial — Ancient Magic Hotspots only appear once you can sense Ancient Magic.",
       "Open the map and look for the swirling Ancient Magic Hotspot icons; there are 20 spread across Hogwarts Valley, the Highlands, Hogsmeade Valley, the Forbidden Forest, the Coast, Feldcroft, Manor Cape, North Ford Bog and Marunweem.",
@@ -15468,7 +15468,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
       "Fly the Coastal Broom Trial — 29 rings in under 2:42 (each missed ring adds 3 seconds); grab the boost orbs.",
       "Talk to Imelda, then report back to Albie at Spintwitches."
     ],
-    video: "https://www.youtube.com/watch?v=EbPMXlGrKTc"
+    video: "https://www.youtube.com/watch?v=syxHVf_Ts0k"
   },
 {
     id: 714,
@@ -15497,7 +15497,7 @@ video: "https://www.youtube.com/watch?v=HdRArGAruCc",
     category: "Side Quest",
     game: "Hogwarts Legacy",
     region: "Highlands",
-    title: "The Foal of the Dead",
+    title: "Foal of the Dead",
     location: "North Ford Bog / Room of Requirement",
     length: "short",
     difficulty: "Medium",
@@ -18254,7 +18254,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Throw the Mandrake so it stuns multiple enemies at the same time.",
       "Attend Herbology class in the greenhouse during the day and talk to Garlick to learn Wingardium Leviosa."
     ],
-    video: "https://www.youtube.com/watch?v=1PADqZwyVmY"
+    video: "https://www.youtube.com/watch?v=zvISlAa7jaY"
   },
 {
     id: 846,
@@ -18340,7 +18340,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink one, then immediately drink the other while the first is still active.",
       "Attend Potions class in the Library Annex during the day and talk to Sharp to learn Depulso."
     ],
-    video: "https://www.youtube.com/watch?v=nX3M41Znnwo"
+    video: "https://www.youtube.com/watch?v=dvzLjSeUZBs"
   },
 {
     id: 850,
@@ -18362,7 +18362,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Drink Thunderbrew in a fight and let the storm hit enemies.",
       "Return to Sharp to learn Diffindo."
     ],
-    video: "https://www.youtube.com/watch?v=7e2jqaar8oY"
+    video: "https://www.youtube.com/watch?v=tb95F0Z-kZo"
   },
 {
     id: 851,
@@ -18383,7 +18383,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Catch a Diricawl at a nest in Hogwarts Valley (Levioso first makes it easier).",
       "Attend Beasts class during the day and talk to Howin to learn Bombarda."
     ],
-    video: "https://www.youtube.com/watch?v=ibvtNpXacJo"
+    video: "https://www.youtube.com/watch?v=kc9NS7fOLio"
   },
 {
     id: 852,
@@ -18447,7 +18447,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Levitate an enemy with Levioso and hit it with Depulso.",
       "Attend Divination class during the day and talk to Onai to learn Descendo."
     ],
-    video: "https://www.youtube.com/watch?v=3QoHNgfyW0A"
+    video: "https://www.youtube.com/watch?v=pDA6EgwDUdw"
   },
 {
     id: 855,
@@ -18469,7 +18469,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pop the five balloons over the Quidditch pitch.",
       "Return to Kogawa to learn Glacius."
     ],
-    video: "https://www.youtube.com/watch?v=8X4f5PEsTqs"
+    video: "https://www.youtube.com/watch?v=jKK-dOi1NzM"
   },
 {
     id: 856,
@@ -18490,7 +18490,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Pop the five balloons near Keenbridge Tower, southeast of Hogwarts.",
       "Return to Kogawa to learn Arresto Momentum."
     ],
-    video: "https://www.youtube.com/watch?v=lRt40fZkdTw"
+    video: "https://www.youtube.com/watch?v=nT3nIB1ilkY"
   },
 {
     id: 857,
@@ -18708,7 +18708,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Finish the lesson and talk to Professor Shah.",
       "The other Astronomy Tables around the map are now unlocked (night only)."
     ],
-    video: "https://www.youtube.com/watch?v=jNNr6eHycNI"
+    video: "https://www.youtube.com/watch?v=BLZX3YIY5Jw"
   },
 {
     id: 867,
@@ -18790,7 +18790,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Go to the Forbidden Forest marker.",
       "Join Poppy and Dorran's conversation to finish — this unlocks A Bird in the Hand."
     ],
-    video: "https://www.youtube.com/watch?v=H7gWGVAnQSo"
+    video: "https://www.youtube.com/watch?v=utMUZv9URic"
   },
 {
     id: 872,
@@ -19158,7 +19158,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Destroy all 12 egg sacs and kill the giant spider (Incendio works well).",
       "Return to Crispin."
     ],
-    video: "https://www.youtube.com/watch?v=f_Hkl8IdgoE"
+    video: "https://www.youtube.com/watch?v=4BTp9_CV1Y8"
   },
 {
     id: 890,
@@ -19246,7 +19246,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Give Fatimah Lawang the three Invisibility Potions and drink one to prove it works.",
       "Return to Parry — ask for a higher fee for more Galleons."
     ],
-    video: "https://www.youtube.com/watch?v=XPEW0ZOAkUY"
+    video: "https://www.youtube.com/watch?v=XIznu7MI_tc"
   },
 {
     id: 894,
@@ -19393,7 +19393,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Learn the Altering spell and use it on the balcony or floor.",
       "Talk to Deek to change the room's ambience, then return to Weasley."
     ],
-    video: "https://www.youtube.com/watch?v=tO6w7bgfGX8"
+    video: "https://www.youtube.com/watch?v=FhFSGh3E6v8"
   },
 {
     id: 901,
