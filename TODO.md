@@ -64,7 +64,8 @@ D4 and D2 from the 2026-10-20 QA report were done in PRs #307–#328 (to `stagin
 corrected FF7 Rebirth target; tips/summaries: AC Odyssey, Cyberpunk, Jedi:
 Survivor, TotK, Pillars, Deadfire). With all of them merged, no tip, summary or
 walkthrough is duplicated in the data. Still open:
-- **Decision:** whether to add Valhalla's World Events.
+- ~~**Decision:** whether to add Valhalla's World Events.~~ Added: 129 World
+  Events across all regions (IDs 2624–2752), under a new "World Events" category.
 - Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
   could be confirmed, so nothing was guessed.
 - The Witcher 3's target (100) undercounts a game with several hundred quests.
