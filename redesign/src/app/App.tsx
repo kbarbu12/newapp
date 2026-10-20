@@ -1196,7 +1196,7 @@ function SettingsTab({
         <SettingsRow label="Autoplay walkthrough video" hint="Start playing the embedded video as soon as a quest opens.">
           <Switch checked={autoplayVideo} onCheckedChange={setAutoplayVideo}/>
         </SettingsRow>
-        <SettingsRow label="Default difficulty filter" hint="Applied to the Library until you pick a different filter.">
+        <SettingsRow label="Default difficulty filter" hint="Applied each time you open the Library; you can still pick a different filter.">
           <select value={defaultDifficulty} onChange={e=>setDefaultDifficulty(e.target.value as DiffFilter)} className="bg-secondary border border-border rounded-lg px-2.5 py-1.5 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
             {(["All","Low","Medium","High"] as DiffFilter[]).map(d=><option key={d} value={d}>{d}</option>)}
           </select>
@@ -1690,7 +1690,10 @@ export default function App() {
     (vals.find(v=>v!=null && allowed.includes(v)) ?? "All") as T;
   const [selectedGame,setSelectedGame]= useState(()=>firstValid<string>(["All",...Object.keys(GAMES)], urlParams.get("game"), localStorage.getItem("lastGame")));
   const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>firstValid<TypeFilter>(["All","main","side"], urlParams.get("type"), localStorage.getItem("lastType")));
-  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>firstValid<DiffFilter>(["All","Low","Medium","High"], urlParams.get("diff"), localStorage.getItem("lastDiff"), localStorage.getItem("defaultDifficulty")));
+  // A chosen default difficulty (Settings) applies on every visit; a link's own
+  // difficulty still wins, and with no default the last-used filter is kept.
+  const storedDefaultDiff = localStorage.getItem("defaultDifficulty");
+  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>firstValid<DiffFilter>(["All","Low","Medium","High"], urlParams.get("diff"), storedDefaultDiff==="All"?null:storedDefaultDiff, localStorage.getItem("lastDiff")));
   const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>firstValid<LenFilter>(["All","short","medium","long"], urlParams.get("len"), localStorage.getItem("lastLen")));
   const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>firstValid<VideoFilter>(["All","Video Only","No Video"], urlParams.get("video"), localStorage.getItem("lastVideo")));
   const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
@@ -2145,7 +2148,7 @@ export default function App() {
             {tab==="news"  && <NewsTab/>}
             {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo} points={points} streak={streak} achievementsLabel={achievementsLabel}/>}
-            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={setDefaultDifficulty} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
+            {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={d=>{ setDefaultDifficulty(d); setDiffFilter(d); }} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
         </>
       )}
