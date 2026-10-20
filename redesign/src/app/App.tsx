@@ -1444,19 +1444,23 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean; autoplayVideo: boolean;
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
+  // The sentinel unmounts whenever every result fits in one batch (e.g. a
+  // narrow search) and remounts as a new element when the list widens again,
+  // so re-attach the observer each time it reappears.
+  const hasMore = visibleCount<filtered.length;
   useEffect(()=>{
     const el = sentinelRef.current;
     if (!el) return;
     const obs = new IntersectionObserver(entries=>{ if(entries[0].isIntersecting) setVisibleCount(v=>v+36); },{rootMargin:"200px"});
     obs.observe(el);
     return ()=>obs.disconnect();
-  },[setVisibleCount]);
+  },[setVisibleCount,hasMore]);
   return (
     <>
       <div className="flex flex-col gap-3">
         {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
       </div>
-      {visibleCount<filtered.length && <div ref={sentinelRef} className="h-8"/>}
+      {hasMore && <div ref={sentinelRef} className="h-8"/>}
     </>
   );
 }
