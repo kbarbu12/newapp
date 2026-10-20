@@ -558,10 +558,10 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
 // ─── Home Tab ─────────────────────────────────────────────────────────────────
 
 function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achievementsLabel }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void; points:number; questsDone:number; streak:number; achievementsLabel:string }) {
-  useQuestDetails(); // re-render once the featured quest's reward has loaded
   const questOfWeek = QUESTS.find(q=>q.id===11)!; // The Bloody Baron
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
+  useQuestDetails(); // re-render once the featured quest's reward has loaded
 
   return (
     <div className="flex flex-col">
