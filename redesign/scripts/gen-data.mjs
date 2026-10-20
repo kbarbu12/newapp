@@ -266,6 +266,25 @@ for (const [name, qs] of Object.entries(byGame)) {
 }
 
 // Keep only the fields the design consumes.
+// ── Quest details (loaded lazily) ───────────────────────────────────────────
+// Walkthrough steps, tips and rewards are about half the data but are only
+// read when a quest is opened or the chat answers, so they ship as a separate
+// JSON the app fetches after first render (see src/app/questDetails.ts).
+// Cards only need the step count, which stays in QUESTS as `steps`.
+const hasSteps = (q) => Array.isArray(q.walkthrough) && q.walkthrough.length > 0;
+const DETAILS = {};
+for (const q of quests) {
+  const d = {
+    ...(q.aiTip ? { aiTip: q.aiTip } : {}),
+    ...(q.reward ? { reward: q.reward } : {}),
+    ...(hasSteps(q) ? { walkthrough: q.walkthrough } : {}),
+  };
+  if (Object.keys(d).length) DETAILS[q.id] = d;
+}
+const DETAILS_OUT = path.resolve(__dirname, "../src/generated/quest-details.json");
+fs.mkdirSync(path.dirname(DETAILS_OUT), { recursive: true });
+fs.writeFileSync(DETAILS_OUT, JSON.stringify(DETAILS));
+
 const QUESTS = quests.map((q) => ({
   id: q.id,
   type: questType(q),
@@ -280,12 +299,8 @@ const QUESTS = quests.map((q) => ({
   summary: q.summary,
   ...(q.location ? { location: q.location } : {}),
   ...(q.region ? { region: q.region } : {}),
-  ...(q.aiTip ? { aiTip: q.aiTip } : {}),
   ...(hasRealVideo(q.video) ? { video: q.video } : {}),
-  ...(q.reward ? { reward: q.reward } : {}),
-  ...(Array.isArray(q.walkthrough) && q.walkthrough.length
-    ? { walkthrough: q.walkthrough }
-    : {}),
+  ...(hasSteps(q) ? { steps: q.walkthrough.length } : {}),
   // No source data yet for which quests are missable — defaults to false/
   // omitted until real per-quest data is authored (see quest-guide-
   // improvement-spec-2026-07-15.md).
@@ -366,8 +381,10 @@ const body =
   "export interface Quest {\n" +
   "  id: number; type: QuestType; game: string; title: string; category?: string; arc?: string; chapterId?: string;\n" +
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\"; points: number;\n" +
-  "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
-  "  video?: string; reward?: string; walkthrough?: string[];\n" +
+  "  summary: string; location?: string; region?: string;\n" +
+  "  video?: string; steps?: number;\n" +
+  "  /** Lazily loaded (quest-details.json) — undefined until questDetails has loaded. */\n" +
+  "  reward?: string; aiTip?: string; walkthrough?: string[];\n" +
   "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
   "export interface Chapter { id: string; name: string; questIds: number[]; }\n\n" +

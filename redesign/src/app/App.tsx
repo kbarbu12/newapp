@@ -12,6 +12,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/u
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
 import { answerQuestion, type ChatContext } from "./chatEngine";
+import { loadQuestDetails, useQuestDetails } from "./questDetails";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
@@ -257,6 +258,8 @@ function YouTubeEmbed({ url, autoplay }: { url:string; autoplay:boolean }) {
 function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, completedAt, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; onClose:()=>void; onSave:(id:number)=>void; saved:boolean; onComplete?:(id:number)=>void; completed:boolean; completedAt?:string; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
+  // Steps/tip/reward arrive with the lazily loaded quest details.
+  const detailsStatus = useQuestDetails();
   const hasGuide = !!quest.walkthrough?.length;
   const [revealed, setRevealed] = useState(!hideSpoilers);
   const status = questStatus(quest, completed);
@@ -369,6 +372,11 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
             <p className="text-xs text-muted-foreground mt-4"><span className="text-foreground font-semibold">Reward: </span>{quest.reward}</p>
           )}
 
+          {detailsStatus!=="ready" && !!quest.steps && (
+            <p className="mt-5 text-xs text-muted-foreground" role="status">
+              {detailsStatus==="failed" ? "Couldn't load the walkthrough steps — check your connection and reopen this quest." : "Loading walkthrough…"}
+            </p>
+          )}
           {hasGuide && (
             <div className="mt-5">
               <div className="flex items-center justify-between mb-3">
@@ -471,8 +479,8 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
           <DiffChip level={quest.difficulty}/>
           {quest.video ? <MetaChip>▶ Video</MetaChip> : <MetaChip color="#6f6d7d">No video</MetaChip>}
           <span className="hidden sm:inline-flex">
-            {quest.walkthrough?.length
-              ? <MetaChip>☰ {quest.walkthrough.length} steps</MetaChip>
+            {quest.steps
+              ? <MetaChip>☰ {quest.steps} steps</MetaChip>
               : <MetaChip>⏱ {quest.length[0].toUpperCase()+quest.length.slice(1)}</MetaChip>}
           </span>
           <span className="inline-flex items-center text-[11px] leading-none px-2 py-[3px] rounded-md font-bold" style={{ background:"#241c0d", color:"#e6b45a" }}>+{quest.points}</span>
@@ -557,6 +565,7 @@ function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achieve
   const questOfWeek = QUESTS.find(q=>q.title==="The Bloody Baron" && q.game==="The Witcher 3: Wild Hunt") ?? QUESTS[0];
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
+  useQuestDetails(); // re-render once the featured quest's reward has loaded
 
   return (
     <div className="flex flex-col">
@@ -1348,7 +1357,8 @@ function ChatWidget({ onOpenQuest }:{ onOpenQuest:(id:number)=>void }) {
   // the next reply, not rendering, so it shouldn't trigger a re-render.
   const ctxRef=useRef<ChatContext>({});
   useEffect(()=>{if(open&&!showHelp)bottomRef.current?.scrollIntoView({behavior:"smooth"});},[msgs,open,showHelp]);
-  const send=(text?:string)=>{ const q=(text??input).trim(); if(!q)return; const reply=answerQuestion(q,ctxRef.current); ctxRef.current=reply.context; setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
+  // Answers draw on tips/rewards/steps, so make sure the quest details are in.
+  const send=async(text?:string)=>{ const q=(text??input).trim(); if(!q)return; await loadQuestDetails().catch(()=>{}); const reply=answerQuestion(q,ctxRef.current); ctxRef.current=reply.context; setMsgs(p=>[...p,{role:"user",content:q},{role:"assistant",content:reply.content,quest:reply.quest}]); setInput(""); setShowHelp(false); };
   // A quest detail opens as a full-screen sheet on mobile; Radix scroll-locks
   // the body while any modal is open. Hide the floating button on mobile then
   // so it doesn't sit over the detail's sticky action bar.
@@ -1812,11 +1822,18 @@ export default function App() {
   // bundled quest data (the URLs this page has already loaded) so the app opens
   // with no network. Quest data is compiled into the JS bundle, so caching the
   // loaded same-origin resources + the document covers offline use.
+  // Fetch the lazily split quest details once the first screen is up, so they
+  // are usually in before anyone opens a quest or asks the chat.
+  useEffect(()=>{
+    const idle = (window as any).requestIdleCallback ?? ((cb:()=>void)=>setTimeout(cb,200));
+    idle(()=>{ loadQuestDetails().catch(()=>{}); });
+  },[]);
   const [offlineState, setOfflineState] = useState<"idle"|"saving"|"saved">("idle");
   const downloadOffline = async () => {
     const sw = navigator.serviceWorker;
     if(!sw){ alert("Offline caching isn't available in this browser."); return; }
     setOfflineState("saving");
+    await loadQuestDetails().catch(()=>{}); // so the details JSON is among the URLs cached below
     const reg = await sw.ready;
     const urls = performance.getEntriesByType("resource")
       .map(e=>(e as PerformanceResourceTiming).name)
