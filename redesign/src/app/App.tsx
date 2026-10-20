@@ -6,7 +6,7 @@ import {
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check,
   Lock, Award, ArrowLeft
 } from "lucide-react";
-import { GAMES, QUESTS, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
+import { GAMES, QUESTS, ACHIEVEMENTS, NEWS, type Quest, type Achievement } from "../generated/data";
 import { useUserState, achievementMet } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
@@ -16,21 +16,8 @@ import { answerQuestion, type ChatContext } from "./chatEngine";
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // GAMES / QUESTS come from the live quest dataset (see scripts/gen-data.mjs).
 
-interface NewsItem {
-  id:number; type:"new-quest"|"update"|"featured"|"new-game"|"community";
-  date:string; title:string; body:string; game?:string; tag?:string;
-}
-
-const NEWS: NewsItem[] = [
-  { id:1, type:"new-quest", date:"Jul 5, 2026",  title:"12 new Elden Ring quests added",            game:"Elden Ring",                    body:"We've documented 12 additional questlines from the Shadow of the Erdtree DLC — including Thiollier's full arc and the Hornsent's revenge questline.", tag:"New Content" },
-  { id:2, type:"featured",  date:"Jul 4, 2026",  title:"Quest of the Week: The Bloody Baron",       game:"The Witcher 3: Wild Hunt",       body:"This week we're spotlighting one of the most acclaimed quests in RPG history. Every branch, every consequence — how your early Whispering Hillock choice changes everything.", tag:"Featured" },
-  { id:3, type:"new-game",  date:"Jul 2, 2026",  title:"Dragon's Dogma 2 now in the database",      body:"We've added Dragon's Dogma 2 with 28 documented quests — including the full Sphinx riddle chain and every Pawn-related story mission.", tag:"New Game" },
-  { id:4, type:"update",    date:"Jun 30, 2026", title:"BG3 Patch 8 quest changes documented",      game:"Baldur's Gate 3",               body:"Larian's Patch 8 changed outcomes for several companion questlines. We've updated Karlach's ending and Minthara's recruitment steps.", tag:"Updated" },
-  { id:5, type:"community", date:"Jun 28, 2026", title:"Community tip: Elden Ring Fia skip step",   game:"Elden Ring",                    body:"Reader Starscourge_G pointed out a dialogue step we were missing in Fia's questline. The correction has been applied — thanks for keeping us sharp.", tag:"Community" },
-  { id:6, type:"new-quest", date:"Jun 25, 2026", title:"8 Cyberpunk Phantom Liberty quests added",  game:"Cyberpunk 2077: Ultimate Edition", body:"The Dogtown questlines are now fully documented, including Reed's loyalty missions and every branch of the Songbird ending path.", tag:"New Content" },
-  { id:7, type:"featured",  date:"Jun 22, 2026", title:"Quest of the Week: Ranni's Questline",      game:"Elden Ring",                    body:"The Age of Stars ending remains the most-searched quest on this site. We've rewritten the guide with cleaner step-by-step milestones.", tag:"Featured" },
-  { id:8, type:"update",    date:"Jun 20, 2026", title:"Witcher 3 next-gen patch notes applied",    game:"The Witcher 3: Wild Hunt",       body:"The next-gen update added new dialogue to Ciri's ending quests and changed some map marker positions. All affected guides have been updated.", tag:"Updated" },
-];
+// NEWS is generated from CHANGELOG.md at build time (see scripts/gen-data.mjs),
+// newest first, so the News tab always reflects what actually shipped.
 
 type Tab = "home"|"browse"|"news"|"saved"|"progress"|"settings";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
@@ -777,8 +764,11 @@ function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achieve
 // ─── News Tab ─────────────────────────────────────────────────────────────────
 
 function NewsTab() {
-  const featured = NEWS.find(n=>n.type==="featured");
-  const rest     = NEWS.filter(n=>n.type!=="featured");
+  // The newest update leads as the featured card; the filter narrows the rest.
+  const [filter,setFilter] = useState("All");
+  const tags = ["All", ...new Set(NEWS.map(n=>n.tag))];
+  const featured = NEWS[0];
+  const rest     = NEWS.slice(1).filter(n=>filter==="All"||n.tag===filter);
   return (
     <div className="flex flex-col gap-8">
       {featured && (
@@ -800,8 +790,8 @@ function NewsTab() {
       )}
       <div className="flex items-center gap-2 flex-wrap">
         <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Filter:</span>
-        {["All","New Content","Updated","New Game","Featured","Community"].map(f=>(
-          <button key={f} className="px-2.5 py-1 rounded text-xs border border-border text-muted-foreground hover:text-foreground hover:border-white/20 transition-colors">{f}</button>
+        {tags.map(f=>(
+          <button key={f} onClick={()=>setFilter(f)} aria-pressed={filter===f} className={`px-2.5 py-1 rounded text-xs border transition-colors ${filter===f?"bg-primary/15 text-primary border-primary/30":"border-border text-muted-foreground hover:text-foreground hover:border-white/20"}`}>{f}</button>
         ))}
       </div>
       <div className="flex flex-col gap-3">
