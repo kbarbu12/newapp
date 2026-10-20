@@ -15276,6 +15276,174 @@ const quests = [
     video: "https://www.youtube.com/watch?v=RiFWOioB0f4"
   },
 {
+    id: 2616,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Walls of Yarikawa",
+    location: "Yarikawa Stronghold, Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Entry to Yarikawa; leads to The Coward of Yarikawa",
+    summary:
+      "Yuna and Taka need a way into Yarikawa, the stronghold that once rebelled against the Sakai clan and now sits behind Mongol lines. Jin scouts a hidden route and leads the siblings inside.",
+    aiTip:
+      "This one is stealth-first: don't alert the Mongol patrols on the way to the hidden entrance.",
+    walkthrough: [
+      "After A New Horizon, meet Yuna near the Yarikawa Stronghold.",
+      "Follow Yuna and Taka toward Yarikawa and work out how to reach the stronghold.",
+      "Lead the siblings along the river to the hidden entrance without alerting the patrols.",
+      "Inside, follow a guard to the steward, then reach the main gate.",
+      "Find Taka at the swordsmith's shop to end the tale."
+    ],
+    video: "https://www.youtube.com/watch?v=XuiPrCjTUBA"
+  },
+{
+    id: 2617,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Coward of Yarikawa",
+    location: "Old Yarikawa, Toyotama",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Yarikawa's archers return; leads to The Ghost of Yarikawa",
+    summary:
+      "With Yarikawa facing a Mongol siege, its best archers have gone missing. Jin, Yuna and Taka track them through Old Yarikawa and free them from a Mongol caravan.",
+    aiTip:
+      "The bear hits hard and knocks you down. Dodge its red attacks and strike between dodges.",
+    walkthrough: [
+      "After The Walls of Yarikawa, meet Yuna in the ruins of Old Yarikawa.",
+      "Examine the dead Mongols and follow the tracks to a small house, saving Taka from a bear on the way.",
+      "Search the house for clues about the archers, then talk to Yuna.",
+      "At the Mongol camp, check the barrel wagon and follow the tracks to the prisoner caravan.",
+      "Take position on the rooftops, trigger the ambush at the right moment, defeat the Mongols and speak with Daikoku."
+    ],
+    video: "https://www.youtube.com/watch?v=29jY43VtfcQ"
+  },
+{
+    id: 2618,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Ghost of Yarikawa",
+    location: "Yarikawa Stronghold, Toyotama",
+    length: "medium",
+    difficulty: "High",
+    reward: "Yarikawa freed; General Temuge defeated",
+    summary:
+      "The Mongols lay siege to Yarikawa. Jin defends the gates, wrecks the siege weapons and faces General Temuge, one of the Khan's strongest generals, in a duel.",
+    aiTip:
+      "Temuge is one of the easier one-on-one duels. Stay patient, parry, and punish his openings.",
+    walkthrough: [
+      "After The Coward of Yarikawa, talk to Taka to begin.",
+      "Meet Yuna and help defend the gates.",
+      "Disable the Mongol siege weapons.",
+      "Duel General Temuge.",
+      "Drive the remaining Mongols out of the stronghold."
+    ],
+    video: "https://www.youtube.com/watch?v=ezgb38xhPDY"
+  },
+{
+    id: 2619,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Toyotama",
+    title: "The Fate of Tsushima",
+    location: "Lord Shimura's camp → Castle Shimura",
+    length: "long",
+    difficulty: "High",
+    reward: "Act 2 finale; leads to From the Darkness",
+    summary:
+      "Lord Shimura gathers his allies at a staging camp to retake Castle Shimura. Jin joins the assault on the castle walls, which ends Act 2.",
+    aiTip:
+      "Expect a long battle. Restock arrows and resolve at the camp before you talk to Shimura at the watchtower.",
+    walkthrough: [
+      "After A Reckoning in Blood, return to Lord Shimura's camp and speak with Yuna.",
+      "Speak with Lord Oga and ride with him to meet your uncle.",
+      "Speak with Lord Shimura at the watchtower.",
+      "Join the assault on Castle Shimura, including the hwacha section.",
+      "See the battle through to set up From the Darkness."
+    ],
+    video: "https://www.youtube.com/watch?v=kGJ8Zyy7hB8"
+  },
+{
+    id: 2620,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "Honor and Ash",
+    location: "Castle Shimura → Kin Sanctuary",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Act 3 opens; Jin escapes Castle Shimura",
+    summary:
+      "Imprisoned at Castle Shimura, Jin gets help from Kenji, who talks the guard away and tells him Yuna is waiting at Kin Sanctuary. Jin escapes and rides north to find her.",
+    aiTip:
+      "The escape and the approach to the Sacred Tree are both stealth sections. Stay unseen and the tale goes smoothly.",
+    walkthrough: [
+      "Kenji gets the guard to leave and opens the door to your cell.",
+      "Climb out the window and up the ladder to the next roof, then cross the slackline.",
+      "Reach your horse in the stables.",
+      "Push forward to reunite with Yuna.",
+      "Reach the Sacred Tree without being seen, then investigate."
+    ],
+    video: "https://www.youtube.com/watch?v=WBNSCEgcYo8"
+  },
+{
+    id: 2621,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "Wolves at the Gates",
+    location: "Jogaku Temple → Fort Kaminodake, Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Fort Kaminodake retaken; road to your allies opened",
+    summary:
+      "To reach his allies in the frozen north, Jin works with Yuna's hunter contacts to retake Fort Kaminodake from the Mongols and break through the Toyotama Gate.",
+    aiTip:
+      "To get into the fort, climb onto the broken roof and grapple up to the cliff. Save your resolve for the final Mongol wave.",
+    walkthrough: [
+      "After Honor and Ash, talk to Yuna at Jogaku Temple.",
+      "Find Takeshi's camp in Sago Prefecture and speak with him.",
+      "Meet Takeshi's hunters at the lumber camp near Fort Kaminodake.",
+      "Climb the cliff into the fort and fight through it and the Toyotama Gate.",
+      "Reach your allies and defeat the final Mongol wave."
+    ],
+    video: "https://www.youtube.com/watch?v=ZQCohBYeLSE"
+  },
+{
+    id: 2622,
+    type: "main",
+    category: "Jin's Journey",
+    game: "Ghost of Tsushima",
+    region: "Kamiagata",
+    title: "Eternal Blue Sky",
+    location: "Jogaku Temple → Port Izumi, Kamiagata",
+    length: "long",
+    difficulty: "High",
+    reward: "Khotun Khan defeated; final act of the base story",
+    summary:
+      "The last push against the Mongol invasion. Jin and his allies storm Port Izumi, ambush the Khan's reinforcements and corner Khotun Khan for a final duel.",
+    aiTip:
+      "The Khan calls in soldiers whenever he's weakened. Use kunai to stun them and sticky bombs on the Khan, then go back to hitting him until the finishing prompt appears.",
+    walkthrough: [
+      "After Heart of the Jito, speak with Yuna at Jogaku Temple.",
+      "Take position at the fishing village and push into Port Izumi, keeping to the route. Archers there kill quickly.",
+      "Ambush and defeat the Khan's reinforcements, then find a vantage point.",
+      "Confront Khotun Khan at the manor house and win the multi-phase duel.",
+      "Follow Yuna on horseback to finish the tale."
+    ],
+    video: "https://www.youtube.com/watch?v=NnRQO7Wn69s"
+  },
+{
     id: 695,
     type: "main",
     category: "Jin's Journey",
