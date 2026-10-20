@@ -1683,11 +1683,16 @@ export default function App() {
   // to someone else); the URL takes precedence over the last-used-locally
   // fallback so a returning visitor still lands back where they left off.
   const urlParams = new URLSearchParams(window.location.search);
-  const [selectedGame,setSelectedGame]= useState(()=>urlParams.get("game") ?? localStorage.getItem("lastGame") ?? "All");
-  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>(urlParams.get("type") as TypeFilter) ?? (localStorage.getItem("lastType") as TypeFilter) ?? "All");
-  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>(urlParams.get("diff") as DiffFilter) ?? (localStorage.getItem("lastDiff") as DiffFilter) ?? (localStorage.getItem("defaultDifficulty") as DiffFilter) ?? "All");
-  const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>(urlParams.get("len") as LenFilter) ?? (localStorage.getItem("lastLen") as LenFilter) ?? "All");
-  const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>(urlParams.get("video") as VideoFilter) ?? (localStorage.getItem("lastVideo") as VideoFilter) ?? "All");
+  // URL and stored values are untrusted (hand-edited links, renamed games), and
+  // they're persisted below — so keep only the first one that's a real option,
+  // or a single bad link would empty the Library on every later visit.
+  const firstValid = <T extends string>(allowed:readonly string[], ...vals:(string|null)[]) =>
+    (vals.find(v=>v!=null && allowed.includes(v)) ?? "All") as T;
+  const [selectedGame,setSelectedGame]= useState(()=>firstValid<string>(["All",...Object.keys(GAMES)], urlParams.get("game"), localStorage.getItem("lastGame")));
+  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>firstValid<TypeFilter>(["All","main","side"], urlParams.get("type"), localStorage.getItem("lastType")));
+  const [diffFilter,  setDiffFilter]  = useState<DiffFilter>(()=>firstValid<DiffFilter>(["All","Low","Medium","High"], urlParams.get("diff"), localStorage.getItem("lastDiff"), localStorage.getItem("defaultDifficulty")));
+  const [lenFilter,   setLenFilter]   = useState<LenFilter>(()=>firstValid<LenFilter>(["All","short","medium","long"], urlParams.get("len"), localStorage.getItem("lastLen")));
+  const [videoFilter, setVideoFilter] = useState<VideoFilter>(()=>firstValid<VideoFilter>(["All","Video Only","No Video"], urlParams.get("video"), localStorage.getItem("lastVideo")));
   const [notStartedOnly, setNotStartedOnly] = useState(()=>urlParams.get("notStarted")==="1");
   const [missableOnly,   setMissableOnly]   = useState(()=>urlParams.get("missable")==="1");
   const [catFilter,   setCatFilter]   = useState<string>(()=>urlParams.get("cat") ?? "All");
