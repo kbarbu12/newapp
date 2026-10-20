@@ -3,6 +3,37 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-20
+
+- **QA pass: app fixes, quest-data fixes and a faster first load** — `v2.5.0`
+  minor. A full QA of the redesign and quest data
+  (`docs/qa-session-2026-10-20.md`, PR #274) and the fixes from it:
+  - **Library:** infinite scroll no longer stops after a search is cleared
+    (#275); bad shared links no longer empty the Library (#276); the Default
+    difficulty setting works (#278); Optional added to the Type filter (#285);
+    progress stays in sync across open tabs (#277).
+  - **Quest window and navigation:** cards open with the keyboard (#279) and
+    the window stays open when its card leaves the list (#281), full-screen on
+    phones (#291); the tab and game page live in the URL so Back/Forward and
+    reload work (#287); no repeated place tiles (#288).
+  - **Video, chat, polish:** playlist-only videos play (#282); chat recognises
+    God of War and keeps difficulty/length filters (#283) and fits 320px
+    phones (#284); accessible labels on Settings (#280), "1 quest" (#289),
+    phone search row (#290), wishlist hint (#292), local-day streaks (#293),
+    Escape closes Filters (#294).
+  - **Points:** a game can be marked finished only with at least 50% of its
+    quests done (#286).
+  - **Build and assets:** real app icons (#295); covers ship with each build
+    (#296); bundle split into chunks (#297) and walkthroughs/tips/rewards
+    loaded lazily, cutting first-load JS from 672 kB to 349 kB gzipped (#304);
+    13 unused dependencies removed (#298) and Vite 6.4.4 (#303), `npm audit`
+    0 vulnerabilities.
+  - **Not yet live:** Home and News fixes, and News now built from this
+    changelog (#299, #302).
+  - **Quest data:** 31 TotK shrine quests now type `side`, so they show under
+    the Side filter on the classic site (#300); Valhalla's Order of the
+    Ancients hunt is a side quest (#301).
+
 ## 2026-10-18 (3)
 
 - **Check AC Odyssey videos and swap 48 weak ones** (PR #270) — `v2.4.15`
