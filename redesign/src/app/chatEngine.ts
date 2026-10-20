@@ -127,7 +127,7 @@ function scoreQuest(q: Quest, toks: string[]): number {
 function detail(q: Quest): string {
   const lines = [
     `${q.title} — ${q.game}`,
-    `${q.type === "main" ? "Main" : "Side"} quest · ${q.difficulty} difficulty · ${q.length} length`,
+    `${{ main: "Main", side: "Side", optional: "Optional" }[q.type]} quest · ${q.difficulty} difficulty · ${q.length} length`,
     "",
     q.summary,
   ];
