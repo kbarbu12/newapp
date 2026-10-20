@@ -2069,7 +2069,7 @@ export default function App() {
                   </div>
                 )}
                 <div className="flex items-center gap-3 flex-wrap">
-                  <div className="relative flex-1 max-w-md">
+                  <div className="relative flex-1 basis-full sm:basis-0 max-w-md">
                     <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"/>
                     <input value={search} onChange={e=>setSearch(e.target.value)} type="search" name="quest-search" autoComplete="off" autoCorrect="off" autoCapitalize="off" spellCheck={false} placeholder="Search quests, games, descriptions…" className="w-full bg-secondary border border-border rounded-lg pl-9 pr-9 py-2.5 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-primary/50 transition-colors [&::-webkit-search-cancel-button]:hidden"/>
                     {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
