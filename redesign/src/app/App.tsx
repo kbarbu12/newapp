@@ -272,6 +272,13 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
   const hasGuide = !!quest.walkthrough?.length;
   const [revealed, setRevealed] = useState(!hideSpoilers);
   const status = questStatus(quest, completed);
+  // Chapter, location and region often hold the same place ("Kephallonia" ×3);
+  // show each value once, keeping the game's own chapter term first.
+  const chapter = chapterOf(quest);
+  const same = (a?:string, b?:string) => !!a && !!b && a.trim().toLowerCase()===b.trim().toLowerCase();
+  const showLocation = !!quest.location && !same(quest.location, chapter?.name);
+  const showRegion = !!quest.region && !same(quest.region, quest.location) && !(chapter &&
+    (same(chapterTerm(quest.game), "Region") || chapter.name.toLowerCase().includes(quest.region.trim().toLowerCase())));
   return (
     <div className="overflow-y-auto overflow-x-hidden relative">
       {quest.video ? (
@@ -353,11 +360,11 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
           {/* Stats */}
           <div className="grid grid-cols-2 gap-2 mt-4">
             <MetaStat label="Quest Type"><QuestTypeBadge type={quest.type}/></MetaStat>
-            {chapterOf(quest) && <MetaStat label={chapterTerm(quest.game)}>{chapterOf(quest)!.name}</MetaStat>}
+            {chapter && <MetaStat label={chapterTerm(quest.game)}>{chapter.name}</MetaStat>}
             <MetaStat label="Difficulty"><DifficultyChip level={quest.difficulty}/></MetaStat>
             <MetaStat label="Duration"><span className="capitalize">{quest.length}</span></MetaStat>
-            {quest.location && <MetaStat label="Location">{quest.location}</MetaStat>}
-            {quest.region && <MetaStat label="Region">{quest.region}</MetaStat>}
+            {showLocation && <MetaStat label="Location">{quest.location}</MetaStat>}
+            {showRegion && <MetaStat label="Region">{quest.region}</MetaStat>}
           </div>
 
           <h3 className="text-sm font-semibold text-foreground mt-5 mb-2" style={{ fontFamily:"'Spectral',serif" }}>Quest Summary</h3>
