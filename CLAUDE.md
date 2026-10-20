@@ -4,13 +4,6 @@ Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-s
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
-## Open reminder
-
-**At the start of a session, remind the user about the pending quest data
-work** in `TODO.md` → "NEXT SESSION: quest data" (D4 coverage gaps, D2
-templated tips), then ask whether to start on it. Delete this section once
-that work is done.
-
 ## Deployment
 
 All changes deploy to **staging first, prod only on the user's say-so.** Work

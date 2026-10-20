@@ -58,16 +58,14 @@ These are merged into `main` and safe to delete via the GitHub UI:
   Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
   fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
 
-## NEXT SESSION: quest data (remind the owner first)
-App fixes shipped in `v2.5.0`/`v2.6.0`; the Valhalla re-type (#301) and TotK
-shrine fix (#300) are done. Still to do, both blocked on 2026-10-20 because the
-session couldn't reach guide sites (powerpyx, game8, fandom, gamerguides,
-youtube) even after the owner opened network access — a fresh session should
-pick the new setting up. Check access first (`curl -sI https://www.powerpyx.com`).
-- **D4 — fill coverage gaps:** Hogwarts Legacy (10 missing), FF7 Rebirth (7),
-  Witcher 3 (6), Cyberpunk 2077 (3), Ghost of Tsushima (3), Black Myth:
-  Wukong (1). Details in `docs/qa-session-2026-10-20.md`.
-- **D2 — rewrite templated tips/summaries**, mostly AC Odyssey.
-- **Open decision:** whether to add Valhalla's World Events.
-
-Remove the reminder in `CLAUDE.md` once this section is done.
+## ~~Quest data: coverage gaps + templated tips~~ — DONE 2026-10-20
+D4 and D2 from the 2026-10-20 QA report were done in PRs #307–#328 (to `staging`)
+(coverage: Hogwarts, Witcher 3, Cyberpunk, Ghost of Tsushima, Wukong, plus a
+corrected FF7 Rebirth target; tips/summaries: AC Odyssey, Cyberpunk, Jedi:
+Survivor, TotK, Pillars, Deadfire). With all of them merged, no tip, summary or
+walkthrough is duplicated in the data. Still open:
+- **Decision:** whether to add Valhalla's World Events.
+- Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
+  could be confirmed, so nothing was guessed.
+- The Witcher 3's target (100) undercounts a game with several hundred quests.
+  Raise it in `scripts/audit.js` if you want the remaining gap tracked.
