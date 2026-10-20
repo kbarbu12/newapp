@@ -1355,7 +1355,7 @@ function ChatWidget({ onOpenQuest }:{ onOpenQuest:(id:number)=>void }) {
   return (
     <div className={`fixed right-4 sm:right-6 z-40 flex-col items-end gap-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] sm:bottom-6 ${modalOpen?"hidden sm:flex":"flex"}`}>
       {open&&(
-        <div className="w-80 rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
+        <div className="w-[min(20rem,calc(100vw-2rem))] rounded-xl border border-border bg-card flex flex-col overflow-hidden" style={{maxHeight:440,boxShadow:"0 0 0 1px rgba(197,147,58,.15),0 24px 48px rgba(0,0,0,.75)"}}>
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-secondary">
             <div className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-primary animate-pulse"/><span className="text-sm font-semibold" style={{fontFamily:"'Spectral',serif"}}>Quest Assistant</span></div>
             <div className="flex items-center gap-1">
