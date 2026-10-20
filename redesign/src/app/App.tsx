@@ -1255,8 +1255,10 @@ function FiltersPopover({ activeFilters, onReset, resultCount, children }: { act
   useEffect(()=>{
     if(!open) return;
     const onClick = (e:MouseEvent) => { if(ref.current && !ref.current.contains(e.target as Node)) setOpen(false); };
+    const onKey = (e:KeyboardEvent) => { if(e.key==="Escape") setOpen(false); };
     document.addEventListener("mousedown", onClick);
-    return ()=>document.removeEventListener("mousedown", onClick);
+    document.addEventListener("keydown", onKey);
+    return ()=>{ document.removeEventListener("mousedown", onClick); document.removeEventListener("keydown", onKey); };
   },[open]);
   const resetBtn = (
     <button onClick={onReset} className="text-[10px] text-muted-foreground hover:text-primary transition-colors flex items-center gap-1 self-start sm:self-end">
