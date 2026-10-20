@@ -5,6 +5,11 @@ short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
 ## 2026-10-20
 
+- **Turn on the Home and News tabs** — `v2.6.0` minor (#310). The site now
+  opens on Home (featured quest, stats, shortcuts) and News lists the latest
+  updates from this changelog. Old shared Library links (`?game=`, `?q=`,
+  filters) still open the Library with their filters.
+
 - **QA pass: app fixes, quest-data fixes and a faster first load** — `v2.5.0`
   minor. A full QA of the redesign and quest data
   (`docs/qa-session-2026-10-20.md`, PR #274) and the fixes from it:
