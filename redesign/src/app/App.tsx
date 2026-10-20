@@ -227,22 +227,31 @@ function getYouTubeId(url:string):string|null {
   const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/);
   return m ? m[1] : null;
 }
+// Playlist-only links (youtube.com/playlist?list=…) have no single video id;
+// they embed as a "videoseries" and have no thumbnail to show.
+function getYouTubeList(url:string):string|null {
+  const m = url.match(/youtube\.com\/playlist\?(?:.*&)?list=([\w-]+)/);
+  return m ? m[1] : null;
+}
 
 function YouTubeEmbed({ url, autoplay }: { url:string; autoplay:boolean }) {
   const id = getYouTubeId(url);
+  const list = id ? null : getYouTubeList(url);
   const [playing, setPlaying] = useState(autoplay);
-  if (!id) return null;
+  if (!id && !list) return null;
+  // Base embed URL, ready for more query params to be appended.
+  const src = id ? `https://www.youtube-nocookie.com/embed/${id}?` : `https://www.youtube-nocookie.com/embed/videoseries?list=${list}&`;
   return (
     <div className="relative aspect-video rounded-lg overflow-hidden bg-black">
       {playing ? (
         <iframe
-          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&mute=${autoplay?1:0}`}
+          src={`${src}autoplay=1&mute=${autoplay?1:0}`}
           title="Quest walkthrough video" className="absolute inset-0 w-full h-full" frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen/>
       ) : (
         <button onClick={()=>setPlaying(true)} aria-label="Play walkthrough video" className="absolute inset-0 w-full h-full group">
-          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="w-full h-full object-cover"/>
+          {id && <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="w-full h-full object-cover"/>}
           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors flex items-center justify-center">
             <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center"><Youtube size={22} className="text-white"/></div>
           </div>
