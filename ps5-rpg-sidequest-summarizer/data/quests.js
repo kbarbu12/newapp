@@ -455,7 +455,8 @@ const subFilterConfig = {
         { value: "England Arc", text: "England Arc" },
         { value: "Mythology", text: "Mythology" },
         { value: "Vinland Saga", text: "Vinland Saga" },
-        { value: "Order of the Ancients", text: "Order of the Ancients" }
+        { value: "Order of the Ancients", text: "Order of the Ancients" },
+        { value: "World Events", text: "World Events" }
       ]
     },
     {
@@ -42949,6 +42950,3120 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Unmask and eliminate the Fathers of Understanding to complete the hunt and claim its unique rewards."
     ],
     video: "https://www.youtube.com/watch?v=p9u23QMrasM"
+  },
+{
+    id: 2624,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Silver-Tongued Traitor",
+    location: "Stavanger, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and the contents of Sulke's chest (Bloody Key)",
+    summary:
+      "In Stavanger, the trader Sulke sells Eivor items from the family's past, then bolts. Chase him down and decide what to do with him.",
+    aiTip:
+      "Chase him on horseback, since Sulke is slow but runs you past bodyguards who join the fight. His Bloody Key opens a chest back where you first met him.",
+    walkthrough: [
+      "Talk to the trader Sulke in Stavanger.",
+      "When he flees, chase him (a horse makes it easy).",
+      "Defeat the bodyguards he runs past and catch him.",
+      "Choose whether to kill or spare Sulke and take the Bloody Key.",
+      "Return to where you found him and open the chest with the key."
+    ],
+    video: "https://www.youtube.com/watch?v=O2RIw4a_0co"
+  },
+{
+    id: 2625,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Raider Recruit",
+    location: "Stavanger Docks, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Rolf the Raider wants Eivor to test his new raiding crew at the Stavanger docks and pick out its commander.",
+    aiTip:
+      "These are fist fights. Dodge, then counter with your own punches, and both rounds are easy.",
+    walkthrough: [
+      "Talk to Rolf the Raider in Stavanger.",
+      "Follow him to the docks.",
+      "Win the first fist fight against two opponents.",
+      "Win the one-on-one fight that follows.",
+      "Talk to Rolf to finish."
+    ],
+    video: "https://www.youtube.com/watch?v=yOsXrdpoONQ"
+  },
+{
+    id: 2626,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Hunt for Honor",
+    location: "Western Rygjafylke",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A young man named Erlend wants to prove himself by fighting a wild beast. Eivor has to lure one back to him.",
+    aiTip:
+      "Weaken the beast but don't kill it. Erlend has to land the deciding blow himself, so keep him alive while he fights.",
+    walkthrough: [
+      "Talk to Erlend in western Rygjafylke.",
+      "Find a wolf (or a bear) nearby and lure it back to him.",
+      "Let Erlend fight it, weakening it without killing it yourself.",
+      "Once Erlend deals the decisive blow, talk to him."
+    ],
+    video: "https://www.youtube.com/watch?v=27tneV2Cylw"
+  },
+{
+    id: 2627,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Plight of the Warlock",
+    location: "Riverbank south-east of Gryttirsand, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A hunter accuses a warlock of killing her sister. Hear both sides and decide who to believe.",
+    aiTip:
+      "Talk to both of them before you act. Once they start fighting, you can side with either, or let the fight play out.",
+    walkthrough: [
+      "Talk to the Hunter south-east of Gryttirsand.",
+      "Talk to the Warlock.",
+      "When they fight, choose to kill one of them or let the fight play out.",
+      "Wrap up the event once the dispute is settled."
+    ],
+    video: "https://www.youtube.com/watch?v=r7Tgye79b9A"
+  },
+{
+    id: 2628,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "The Dreamwalking Warrior",
+    location: "North-east of Valka's hut, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Eyvind, a guard, is sleepwalking toward a cliff. Eivor can't wake or stop him, only follow him safely down.",
+    aiTip:
+      "Don't try to wake or attack him, since that doesn't work. Follow him to the cliff and ride the rope zipline down after him.",
+    walkthrough: [
+      "Find Eyvind north-east of Valka's hut and interact with him.",
+      "Follow him as he walks toward the cliff (you can't stop him).",
+      "Ride the rope zipline down after him.",
+      "Talk to him when he wakes at the bottom."
+    ],
+    video: "https://www.youtube.com/watch?v=bU8x9kkvBA0"
+  },
+{
+    id: 2629,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Comb of Champions",
+    location: "Pool south-east of Adrift Refuge, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; time with Bil (optional)",
+    summary:
+      "Bil has lost her Elk-Antler Comb in the freezing pool she's sitting beside. Dive in and bring it back.",
+    aiTip:
+      "The comb is at the bottom of the pool right next to Bil. Dive straight down. At the end you can accept or turn down her advances.",
+    walkthrough: [
+      "Talk to Bil on the shore of the pool south-east of Adrift Refuge.",
+      "Dive into the pool.",
+      "Pick up the Elk-Antler Comb from the bottom.",
+      "Return it to Bil and choose whether to spend time with her."
+    ],
+    video: "https://www.youtube.com/watch?v=ytwEC8BYFSw"
+  },
+{
+    id: 2630,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "A Desperate Bounty",
+    location: "Road north-west of Haervik Shipyard, Rygjafylke",
+    length: "short",
+    difficulty: "Medium",
+    reward: "1,200 XP and silver",
+    summary:
+      "Hrorek begs for help rescuing his jarl from bandits, but it's a trap that leads Eivor straight into an ambush.",
+    aiTip:
+      "Expect an ambush: archers fire from behind the rocks as soon as you arrive, so be ready to fight the moment you stop.",
+    walkthrough: [
+      "Meet Hrorek on the road north-west of Haervik Shipyard.",
+      "Follow him on horseback.",
+      "Fight off the bandits who ambush you, including a Cutthroat.",
+      "Talk to Hrorek again to finish."
+    ],
+    video: "https://www.youtube.com/watch?v=anYK2C7GYfg"
+  },
+{
+    id: 2631,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "Old Man on the Edge",
+    location: "Cliff north of Fannaraki Summit, Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "1,200 XP",
+    summary:
+      "Old Harek wants his belongings thrown off a high cliff, and the story ends on a sad note.",
+    aiTip:
+      "Carry each crate from beside his horse and cart to the edge and throw it. There are several, so make sure none are left.",
+    walkthrough: [
+      "Find Harek on the cliff edge north of Fannaraki Summit.",
+      "Pick up the crates near his horse and cart.",
+      "Throw each one off the cliff.",
+      "Talk to him again once they're all gone."
+    ],
+    video: "https://www.youtube.com/watch?v=UXRjQE6HoE0"
+  },
+{
+    id: 2632,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Norway / Ravensthorpe",
+    title: "A New England",
+    location: "Small island in north-west Rygjafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "1,200 XP",
+    summary:
+      "Hysing the World-Wise believes his little island is England and gives Eivor a guided tour of its 'sights'. In the end you choose whether to play along or tell him the truth.",
+    aiTip:
+      "Call your longship to reach the island. The final choice is whether to lie or wake him from his dream, and either one completes the event.",
+    walkthrough: [
+      "Sail to Hysing's small island in north-west Rygjafylke.",
+      "Talk to Hysing the World-Wise and take his tour of 'England'.",
+      "Follow him back to his huts when he decides the 'king' has been kidnapped.",
+      "Choose to play along with his story or tell him the truth."
+    ],
+    video: "https://www.youtube.com/watch?v=V54K78fay-M"
+  },
+{
+    id: 2633,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hordafylke",
+    title: "Battle Born",
+    location: "South-east Hordafylke, near the Rygjafylke border",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a small treasure chest",
+    summary:
+      "Three children playing at raiding ask Eivor to join their game and 'raid' a mock village.",
+    aiTip:
+      "The last dummy to take down is on top of the tallest wooden platform. Smash the pots and boxes too, then loot the chest.",
+    walkthrough: [
+      "Talk to Kaija, one of the three children, in south-east Hordafylke.",
+      "Follow them to the mock village.",
+      "Take down every dummy (the last one is on the tallest platform).",
+      "Smash the pots and boxes and loot the small chest.",
+      "Talk to the child again to finish."
+    ],
+    video: "https://www.youtube.com/watch?v=6C2hTNuIWZk"
+  },
+{
+    id: 2634,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hordafylke",
+    title: "The Rekindling",
+    location: "Western Alrekstad, Hordafylke",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a chest key",
+    summary:
+      "A raid-loving couple wants their own house raided, trashed and burned down to rekindle their marriage.",
+    aiTip:
+      "Smash everything inside first, then throw a torch onto the straw in the middle of the room.",
+    walkthrough: [
+      "Talk to the woman in western Alrekstad.",
+      "Enter the house with her.",
+      "Smash everything inside.",
+      "Throw a torch onto the straw in the middle of the room.",
+      "Take the key you're given and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=t7Jch5Coepg"
+  },
+{
+    id: 2635,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "A Skald's Lament",
+    location: "South-east of Alcestre Monastery",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A Dane has eaten something that gives him delusions of grandeur. He charges off toward a bandit camp, and Eivor has to keep him alive.",
+    aiTip:
+      "Kill the bandits quickly once he's in their camp, before they cut him down. He collapses from exhaustion afterwards, so carry him back.",
+    walkthrough: [
+      "Find the Dane couple at the small camp south-east of Alcestre Monastery and talk to the man.",
+      "Follow him when he runs off toward the bandit camp.",
+      "Kill the bandits before they hurt him.",
+      "When he collapses, carry him back to the woman at the tent.",
+      "Talk to her to finish."
+    ],
+    video: "https://www.youtube.com/watch?v=Jv0fQJuE5wI"
+  },
+{
+    id: 2636,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Of Fist-Dances and Sweaty Oaths",
+    location: "South of Wenloch Abbey",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and 350 silver from three fist fights",
+    summary:
+      "A secret fight club behind a guarded door. Talk or find your way in, then win three bare-knuckle bouts.",
+    aiTip:
+      "With less than Charisma 3, get the password instead. It's on a note on a wooden platform up a tree behind the building, reached by climbing the next tree over.",
+    walkthrough: [
+      "Talk to the man in front of the building south of Wenloch Abbey.",
+      "Get in with Charisma 3, or find the password note on the tree platform behind the building.",
+      "Win the three fist fights inside (50, 100, then 200 silver).",
+      "Collect your winnings."
+    ],
+    video: "https://www.youtube.com/watch?v=XNtZurnRE9c"
+  },
+{
+    id: 2637,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Sisters of the Axe",
+    location: "Church north-east of Ledecestre",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A group of fighting nuns wants their stolen crosier back from a nearby soldiers' camp.",
+    aiTip:
+      "The church key is on top of a slope by the graveyard. Use Odin's Sight to spot it. The sisters fight bare-handed alongside you at the camp.",
+    walkthrough: [
+      "Find the key on the slope near the graveyard and unlock the church.",
+      "Talk to the sisters inside and follow them to the soldiers' camp.",
+      "Clear the soldiers (stealth or open fight) and loot the crosier from a body.",
+      "Follow the women to the river and kill the wolves that attack.",
+      "Meet them at the fire across the river and talk to the Abbess."
+    ],
+    video: "https://www.youtube.com/watch?v=IDe1fou8jJw"
+  },
+{
+    id: 2638,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Old Guard",
+    location: "Small island near Repton",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Skari, an old warrior cast out by his clan for being too old, sits playing his harp. He gives Eivor the key to his house in Repton and asks for his belongings.",
+    aiTip:
+      "Look for the house by the shore with a huge tree beside it, since you can see the tree from the water. Carry the crate back and sit down beside him.",
+    walkthrough: [
+      "Sit on the bench next to Skari to start the event.",
+      "Take the key to his house in Repton.",
+      "Find the house by the shore with the large tree beside it and unlock it.",
+      "Carry the crate from the house back to Skari.",
+      "Set it down beside him and sit down to finish."
+    ],
+    video: "https://www.youtube.com/watch?v=F8MBsSw4lNQ"
+  },
+{
+    id: 2639,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Twit Saga, Part I",
+    location: "West of Ledecestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Two brothers want to practise raiding a house but forgot both the torch and the key. Burn it down for them and find their key inside.",
+    aiTip:
+      "The back entrance is blocked by wooden objects that only burn away once the house is on fire, so light the thatched roof first.",
+    walkthrough: [
+      "Find the arguing brothers west of Ledecestre.",
+      "Throw a torch onto the house's thatched roof.",
+      "Go round the back and clear the burning blockage to get in.",
+      "Search the table, kegs and bags for the key.",
+      "Leave and talk to the brothers again."
+    ],
+    video: "https://www.youtube.com/watch?v=aOnX9-Rk3ow"
+  },
+{
+    id: 2640,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Ledecestrescire Sauce",
+    location: "North-east of Sudwella Monastery",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A cook needs one last ingredient for his famous sauce: an eel. It's a nod to Worcestershire sauce.",
+    aiTip:
+      "No fishing rod? Shoot an eel in the water from the bank and collect it.",
+    walkthrough: [
+      "Talk to the man by his cooking pot north-east of Sudwella Monastery.",
+      "Catch an eel nearby (fish for it, or shoot one from the bank).",
+      "Add the eel to his pot."
+    ],
+    video: "https://www.youtube.com/watch?v=e4rLWJ7_Bd0"
+  },
+{
+    id: 2641,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Last Leaf of Fall",
+    location: "South-west of Alcestre Monastery",
+    length: "short",
+    difficulty: "Low",
+    reward: "1,200 XP and the Old Leaf",
+    summary:
+      "Mae is staring at the last leaf on a tree. Her father promised to return before it fell, and he's been gone six weeks.",
+    aiTip:
+      "Whatever you say to her, the answer is to bring the leaf down. Shoot it off the tree with your bow, then pick it up.",
+    walkthrough: [
+      "Talk to Mae near the tree south-west of Alcestre Monastery.",
+      "Knock the last leaf off the tree (shoot it with your bow).",
+      "Pick up the fallen leaf.",
+      "Talk to Mae again."
+    ],
+    video: "https://www.youtube.com/watch?v=u5Lzpgz5vHk"
+  },
+{
+    id: 2642,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The Stink-Brew",
+    location: "Beneath the bathhouse, north-west Ledecestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "An old woman living beneath Ledecestre's bathhouse wants viper eggs for a brew, and the result clears the bathhouse above in spectacular fashion.",
+    aiTip:
+      "She wants 9 eggs in batches (2, then 3, then 4). Vipers are plentiful along the river banks nearby and respawn, so hunt them there.",
+    walkthrough: [
+      "Enter the passage beneath the city by the river and find the woman behind the bars.",
+      "Kill vipers nearby and collect 2 eggs for her.",
+      "Bring 3 more, then 4 more.",
+      "Watch the result in the bathhouse above."
+    ],
+    video: "https://www.youtube.com/watch?v=UJvSG3k5ZvU"
+  },
+{
+    id: 2643,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "The White Lady of Tamworth",
+    location: "Tower south of Tonnastadir",
+    length: "short",
+    difficulty: "Low",
+    reward: "1,200 XP",
+    summary:
+      "A woman cries for help from a guarded tower, but the 'rescue' turns out to be roleplay, and she asks Eivor to stand guard instead.",
+    aiTip:
+      "The guard escapes instead of dying, so you don't need to kill him. Interact with the spot in front of the stairs to start guard duty.",
+    walkthrough: [
+      "Approach the tower south of Tonnastadir and fight the man guarding it.",
+      "Talk to the woman inside.",
+      "Interact with the spot in front of the stairs to begin guard duty.",
+      "Defeat the second man who approaches the tower."
+    ],
+    video: "https://www.youtube.com/watch?v=iHyD4lltZLY"
+  },
+{
+    id: 2644,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Ledecestrescire",
+    title: "Skal to Your Wealth",
+    location: "Hill south-west of Repton",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a Wealth chest (Huntsman Vambraces)",
+    summary:
+      "An alchemist promises that his elixir will make Eivor rich, if you bring him lichen and bear testicles.",
+    aiTip:
+      "Sync Repton first for fast travel. The lichen is in the well beside the alchemist, and the bear is near a shallow cave on the hill to the west.",
+    walkthrough: [
+      "Talk to the alchemist south-west of Repton.",
+      "Take the lichen from the well by his home.",
+      "Kill the bear near the shallow cave to the west and collect the testicles.",
+      "Drink the elixir and wake in the underwater cave beneath Besuncen Tor.",
+      "Open the Wealth chest there, then return to the alchemist."
+    ],
+    video: "https://www.youtube.com/watch?v=aBO9qN2NCrs"
+  },
+{
+    id: 2645,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Doom Book of Cats",
+    location: "Farm north of Grantebridge, near the Abandoned Slipway",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and the farmer's house key",
+    summary:
+      "A farmer's land is overrun with rats. The fix is his neighbour's cat, but she'll only hand over her key if Eivor wins a flyting.",
+    aiTip:
+      "You need the flyting win (or enough Charisma) to get the neighbour's key. Opening her house lets the cat out, and it deals with the rats on its own.",
+    walkthrough: [
+      "Talk to the farmer on the farm north of Grantebridge.",
+      "Talk to his neighbour and beat her in the flyting challenge.",
+      "Take her house key and open the house.",
+      "Let the cat out to clear the rats.",
+      "Return to the farmer for his house key."
+    ],
+    video: "https://www.youtube.com/watch?v=Y-cjPMkRveA"
+  },
+{
+    id: 2646,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Wound-Wands of Friends",
+    location: "West of the Isle of Ely Monastery, across from Wycham",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A Norse warrior sits on a log with an axe in his head and asks Eivor what's wrong with him.",
+    aiTip:
+      "Neither dialogue choice, truth or lie, changes the outcome. Pulling the axe out ends the event, and the man along with it.",
+    walkthrough: [
+      "Find the man with the axe in his head west of the Isle of Ely Monastery.",
+      "Talk to him and answer truthfully or lie.",
+      "Pull the axe out to end the event."
+    ],
+    video: "https://www.youtube.com/watch?v=5nOiC8830M4"
+  },
+{
+    id: 2647,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Path to the Wind-Blue",
+    location: "Swamp east of Middeltun, toward Soham Hideout",
+    length: "short",
+    difficulty: "Medium",
+    reward: "1,200 XP",
+    summary:
+      "A blind Norse soldier seeks Wind-Blue, a paradise above Valhalla, and asks Eivor to light the braziers that guide his way through the swamp.",
+    aiTip:
+      "The last brazier is on the riverbank across from Soham Hideout. Clear the bandits in the hideout to finish.",
+    walkthrough: [
+      "Talk to the blind Norse soldier east of Middeltun.",
+      "Light the first brazier, then follow him and light the next ones.",
+      "Light the last brazier on the riverbank opposite Soham Hideout.",
+      "Cross the river and kill all the bandits in Soham Hideout."
+    ],
+    video: "https://www.youtube.com/watch?v=rJ-T7Fmf4rY"
+  },
+{
+    id: 2648,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Degolas the Beautiful",
+    location: "Near the Roman ruins south of Medeshamstede Abbey",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A household lives in a house packed with crates of rotting dung. Clear the stink out, then deal with the father, Degolas, on his platform.",
+    aiTip:
+      "Carry all four crates outside first, then shoot an arrow at the platform Degolas is standing on.",
+    walkthrough: [
+      "Enter the house south of Medeshamstede Abbey.",
+      "Carry the four crates of rotting material outside.",
+      "Follow the girl.",
+      "Shoot an arrow at the platform Degolas is standing on."
+    ],
+    video: "https://www.youtube.com/watch?v=NhrEAVszAno"
+  },
+{
+    id: 2649,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Devout Troll",
+    location: "Priest's house north of Wycham, by the river",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A smug convert claims nothing can make him angry. Prove him wrong to get the key he's sitting on.",
+    aiTip:
+      "Do all three things: burn his thatched roof, smash the crates and pots, and kill his cow. He stands up only once he's had enough, leaving the key on his stool.",
+    walkthrough: [
+      "Talk to the monk at his house north of Wycham.",
+      "Burn his thatched roof with a torch.",
+      "Smash the crates and pots inside and out, and kill his cow.",
+      "Take the key from his stool when he gets up.",
+      "Open the outhouse behind the house and fight him."
+    ],
+    video: "https://www.youtube.com/watch?v=AItJm0NXasg"
+  },
+{
+    id: 2650,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "Winchell the Robesfree",
+    location: "South of Elisdon Altar, near Besuncen Tor",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Winchell says he founded the nearby nudist camp and wants revenge on its members. Help him by stealing their clothes.",
+    aiTip:
+      "Read the letter near Winchell first for the backstory. Then steal the crate of clothes from the camp and set it down next to him.",
+    walkthrough: [
+      "Talk to Winchell south of Elisdon Altar.",
+      "Go to the nearby camp.",
+      "Steal the crate of clothes.",
+      "Deliver it next to Winchell."
+    ],
+    video: "https://www.youtube.com/watch?v=7X3OWHTq1fk"
+  },
+{
+    id: 2651,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Lord of Norsexe",
+    location: "Small island south of Duroliponte, west of Grantebridge",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A Norse man on a makeshift throne calls himself king and wants his brother's arm ring back from the shipwreck below, but his story doesn't add up.",
+    aiTip:
+      "It's dark underwater. Use Odin's Sight to find the body by the broken ship. The top dialogue choice ends it peacefully, and the other means a fight.",
+    walkthrough: [
+      "Talk to the 'king' on the island south of Duroliponte.",
+      "Dive near the shipwreck and use Odin's Sight to find the body.",
+      "Loot the arm ring.",
+      "Return to him and choose your response (read the letter on the crate for the truth)."
+    ],
+    video: "https://www.youtube.com/watch?v=24rpoyN9h58"
+  },
+{
+    id: 2652,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Cult of Saint Guthlac",
+    location: "Riverbank south-west of Earnningstone",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man needs help carrying a crate of apples to his friend's house down the road.",
+    aiTip:
+      "One of the shortest world events. Carry the crate behind him and set it down outside the house.",
+    walkthrough: [
+      "Talk to the man south-west of Earnningstone.",
+      "Pick up the crate.",
+      "Follow him south-west down the road to his friend's house.",
+      "Set the crate down outside the house."
+    ],
+    video: "https://www.youtube.com/watch?v=24tSXq9LacE"
+  },
+{
+    id: 2653,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Infinite Noise of Men",
+    location: "Barley fields by the silo, south of Ravensburg",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Sebbi grows barley and Alduini sells it, and their feud has split two families. The children know it started when the silo was built.",
+    aiTip:
+      "Talking won't settle it. Burn the silo instead, but keep your distance, because the explosion can kill you. Then talk to the children.",
+    walkthrough: [
+      "Talk to Sebbi and Alduini in the barley fields south of Ravensburg.",
+      "Talk to the children about how the feud began.",
+      "Set fire to the silo from a safe distance.",
+      "Talk to the children to end the event."
+    ],
+    video: "https://www.youtube.com/watch?v=bJSBDTYJnuc"
+  },
+{
+    id: 2654,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Grantebridgescire",
+    title: "The Walloper",
+    location: "Cottages by a well north of Walden, Grantebridgescire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and the loot in his cabin",
+    summary:
+      "Children at a well brag about their grandfather's legendary wallop. The old man is happy to prove it in a bare-knuckle fight.",
+    aiTip:
+      "One hit from his wallop ends the fight, and you have to start again. Parry just before he swings to stun him, then pile on the punches.",
+    walkthrough: [
+      "Talk to the children by the well between the two cottages.",
+      "Accept the challenge when the Walloper comes over.",
+      "Fight him bare-handed, parrying his wallop rather than taking it.",
+      "Beat him to get the key to his cabin.",
+      "Loot the cabin to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=0ML2GGDEr_E"
+  },
+{
+    id: 2655,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Green Children of Anglia",
+    location: "East of Elmenham, northern East Anglia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a gift from the green children",
+    summary:
+      "A trail of small green footprints leads from an offering altar into the woods, where two strange green-skinned children are waiting. Eivor sits with them and decides how to treat them.",
+    aiTip:
+      "This event follows on from Cedd's Stone offering altar next to it, so clear the altar first. Odin's Sight makes the faint green footprints much easier to follow.",
+    walkthrough: [
+      "Head east of Elmenham to the offering altar and complete Cedd's Stone.",
+      "Use Odin's Sight to pick up the trail of green footprints.",
+      "Follow the footprints into the woods to the two green children.",
+      "Sit with the children and talk to them.",
+      "Give them what they ask for to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=SNSCRgj1AwM"
+  },
+{
+    id: 2656,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Edmund's Arrows",
+    location: "Northwic longhouse, East Anglia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and silver if you sell the arrows",
+    summary:
+      "The throne of the martyred King Edmund in Northwic is still bristling with arrows, and a woman nearby is very interested in them. Pull the arrows and decide whether to sell them.",
+    aiTip:
+      "If Eivor can't pull the arrows, your quiver is full. Fire off a few hunter arrows at anything and try again.",
+    walkthrough: [
+      "Enter the longhouse in Northwic and find Edmund's throne.",
+      "Interact with the throne to pull out the embedded arrows (empty some of your quiver first if it's full).",
+      "Talk to the woman who asks about the arrows.",
+      "Agree to sell them to her to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=1iEZhm8x_NY"
+  },
+{
+    id: 2657,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Freyja's Friend",
+    location: "Northwic, East Anglia",
+    length: "short",
+    difficulty: "Low",
+    reward: "A cat companion that rides on your longship",
+    summary:
+      "A white cat in Northwic leads Eivor on a chase through the town. Catch it and it joins the crew on your longship.",
+    aiTip:
+      "Don't sprint straight at the cat, which just makes it bolt again. Follow its path over the rooftops and corner it where it stops.",
+    walkthrough: [
+      "Find the white cat in Northwic and interact with it.",
+      "Chase the cat as it runs off through the streets and over rooftops.",
+      "Corner the cat when it stops and pick it up.",
+      "The cat now appears as a companion on your longship."
+    ],
+    video: "https://www.youtube.com/watch?v=DgAUYqVz2dg"
+  },
+{
+    id: 2658,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Life-Blood",
+    location: "Hut south-west of Dunwich, East Anglia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Rada prays beside a bloodstain outside her hut, waiting for a seer who never arrived. Follow the blood trail to the injured woman and choose where to carry her.",
+    aiTip:
+      "Both choices complete the event. Carrying the seer on to the bloodstone lets her finish her ritual, and taking her back to the hut is the gentler ending.",
+    walkthrough: [
+      "Talk to Rada at the hut south-west of Dunwich.",
+      "Follow the blood trail west to the collapsed seer by a large rock.",
+      "Revive the seer and pick her up.",
+      "Carry her either to the next bloodstone or back to Rada's hut to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=uKt-u53OsC4"
+  },
+{
+    id: 2659,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "A Blood Hymn for Edmund",
+    location: "Edmund's Hope, east of Beodoricsworth, East Anglia",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "In the ruined church at Edmund's Hope, a nun named Aelfwyn is praying at the altar. When Eivor speaks to her, she attacks in a frenzy of grief for King Edmund.",
+    aiTip:
+      "Aelfwyn hits hard but is easy to read, so parry two or three of her swings to fill her stun bar, then finish her with a stun attack. Talk to her before she dies to complete it.",
+    walkthrough: [
+      "Travel to Edmund's Hope and enter the ruined church.",
+      "Speak to the nun Aelfwyn at the altar, and she attacks.",
+      "Parry her attacks until she is stunned, then land a stun attack.",
+      "Talk to her as she lies dying to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Gqs00KKAXy0"
+  },
+{
+    id: 2660,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "The Wayward",
+    location: "Northern shore of Northwic, east of the docks, East Anglia",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A girl named Asta stands on a dock shouting for her horse, which has wandered across the river and won't come back. Fetch it for her.",
+    aiTip:
+      "The river is shallow here, so you can wade straight over and ride the horse back. There's no need to find a bridge.",
+    walkthrough: [
+      "Talk to Asta on the northern shore of Northwic, east of the docks.",
+      "Cross the shallow river to the horse near the far pier.",
+      "Mount the horse and ride it back to Asta to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=dqSClFN8Lgw"
+  },
+{
+    id: 2661,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "East Anglia",
+    title: "Hide and Hunt",
+    location: "Village in East Anglia (talk to Sigg)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Sigg and the village children invite Eivor to a game of hide and seek. One child seeks while Eivor finds somewhere to hide.",
+    aiTip:
+      "Hide well away from the seeker's line of sight. Rooftops and tall bushes both work, and getting high is the easiest way to stay unseen.",
+    walkthrough: [
+      "Talk to Sigg and the children and agree to play Hide and Hunt.",
+      "When the seeker starts counting, hide somewhere in the village (a rooftop or thick bushes).",
+      "Stay out of sight until the seeker gives up.",
+      "Return to the children to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Zb2MScSOlpc"
+  },
+{
+    id: 2662,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "A Dog's Rescue",
+    location: "Burning house between Linforda and Buckingham, Oxenefordscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "Dandelion Puff, a pet fox that moves into Ravensthorpe",
+    summary:
+      "A distraught woman outside a burning house begs Eivor to save her dog. Break your way through the back of the building to find the trapped pet, which turns out to be a fox called Dandelion Puff.",
+    aiTip:
+      "The front of the house is fully ablaze, so go around the back. Every blocked route has a breakable wall or a pot to smash nearby, so look for those rather than running through the fire.",
+    walkthrough: [
+      "Talk to the woman outside the burning house.",
+      "Go around the back and smash the breakable wall to get inside.",
+      "Smash the pot blocking the barricade, then move the barricade aside.",
+      "Break through the last wall to reach the fox.",
+      "Lead the fox back to the woman and speak to her to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=gKp9Yw9CO98"
+  },
+{
+    id: 2663,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Fishing Lesson",
+    location: "Pond in Oxenefordscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A girl by a pond insists her brother Walter has been turned into a fish. Grab a fishing line and humour her until the real boy gives himself away.",
+    aiTip:
+      "You need your fishing line for this. Catch two or three fish and Walter pops out of the bushes, then leave the catch on the barrel to wrap it up.",
+    walkthrough: [
+      "Talk to the girl by the pond about her 'fish' brother.",
+      "Fish in the pond and reel in a few fish.",
+      "Watch Walter come out of hiding in the nearby bushes.",
+      "Put the fish you caught on the barrel to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=78Ja1_gIRbM"
+  },
+{
+    id: 2664,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Nostalgia",
+    location: "Farm south-east of Oxeneforda, Oxenefordscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, and optionally his late wife's ring",
+    summary:
+      "A blind old farmer mistakes Eivor for his daughter and asks for help with chores. Play along, listen to his memories, and decide whether to take the ring he offers.",
+    aiTip:
+      "There's no fight here, just move the three crates he asks about and sit on the bench opposite him. Letting him keep the ring is the kinder ending.",
+    walkthrough: [
+      "Talk to the blind farmer, who thinks Eivor is his daughter.",
+      "Move the three crates near him.",
+      "Sit on the bench opposite him and listen to his story.",
+      "Choose whether to take his wife's ring or let him keep it to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=cp6Dj_Mqfb4"
+  },
+{
+    id: 2665,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "Permission to Weep",
+    location: "East of Evesham Abbey, north-eastern Oxenefordscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The Norse warrior Sten stands by the funeral pyre of his raiding crew, unable to mourn because a warrior shouldn't weep. Give him permission to grieve.",
+    aiTip:
+      "You need Charisma level 3 to give him the right words. Fighting him ends in a non-lethal holmgang that doesn't solve anything, so skip it.",
+    walkthrough: [
+      "Find Sten beside the funeral pyre east of Evesham Abbey.",
+      "Talk to him about his fallen crew.",
+      "Pick the Charisma option (level 3) to give him permission to weep.",
+      "The event completes once he finally grieves."
+    ],
+    video: "https://www.youtube.com/watch?v=Bqi89JkI9SY"
+  },
+{
+    id: 2666,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "The Anchoress",
+    location: "Barred church near Evesham Abbey, Oxenefordscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "An anchoress has sealed herself inside a church to live in holy isolation. Find a way in and talk her into returning to the world.",
+    aiTip:
+      "The front door is barred from inside, so go around the back. Shoot the lock through the open window behind the chapel to get in. The persuasion option needs Charisma level 2.",
+    walkthrough: [
+      "Go to the barred church and walk around the building.",
+      "Shoot the lock on the door through the open window at the back.",
+      "Head inside and down to the anchoress.",
+      "Use the Charisma option to persuade her to leave.",
+      "The event completes once she steps outside."
+    ],
+    video: "https://www.youtube.com/watch?v=DTH393xkEyo"
+  },
+{
+    id: 2667,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Oxenefordscire",
+    title: "The Last Raid",
+    location: "Alvar's camp, Oxenefordscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The aging Norseman Alvar wants one last raid before he dies. Help him ready his longship, then blow the horn and see what comes.",
+    aiTip:
+      "The 'raid' is really a wolf pack charging the camp, so keep your health topped up before you blow the horn. Fight near Alvar so he doesn't get swarmed.",
+    walkthrough: [
+      "Talk to Alvar at his camp.",
+      "Interact with the three workstations around the camp to prepare his ship.",
+      "Blow your horn to start the raid.",
+      "Kill the wolf pack that attacks.",
+      "Speak to Alvar again to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=w5x8Dy3tomo"
+  },
+{
+    id: 2668,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Falling Stars",
+    location: "Londinium Amphitheatre, Lunden",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a performance by the reunited gleemen",
+    summary:
+      "Fans at the Londinium Amphitheatre are heartbroken that the gleemen have broken up. Track down the three members, Ysane, Cynewulf and Kitt, and get the band back together.",
+    aiTip:
+      "Bring at least 50 silver, since Kitt wants paying before he'll return. Cynewulf is caged in Crepelgate Fort, so expect a fight there.",
+    walkthrough: [
+      "Talk to the upset fans by the stage at the Londinium Amphitheatre.",
+      "Find Ysane near the city walls and convince her to return.",
+      "Free Cynewulf from his cage in Crepelgate Fort.",
+      "Find Kitt playing the lyre near St Paul's Cathedral and pay him 50 silver.",
+      "Return to the amphitheatre to watch the reunion performance."
+    ],
+    video: "https://www.youtube.com/watch?v=dokFAYcabEw"
+  },
+{
+    id: 2669,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "The Demon Odor at the Tithe",
+    location: "Building on the Thames docks, Lunden",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man is trapped inside a storehouse on the docks, walled in by shelves and jars that give off a foul stench. Clear a path so he can get out.",
+    aiTip:
+      "Smashing the jars is faster than carrying them and has no penalty, but Eivor will retch at the smell. Move the right-hand shelf first to free up the last one.",
+    walkthrough: [
+      "Talk to the trapped man in the building on the Thames docks.",
+      "Clear the jars blocking the movable shelves (carry or smash them).",
+      "Push one shelf to the right to make room.",
+      "Move the last shelf to open an exit.",
+      "Speak to the man again to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=CMUsgAhRUpg"
+  },
+{
+    id: 2670,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "Last Flight of the Gyldan Sparrow",
+    location: "Pier south of the Temple of Mithras, Lunden",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A woman on the pier mourns a sunken ship. Dive to the wreck, read what's left aboard, and recover the silver necklace she's looking for from the belly of a fish.",
+    aiTip:
+      "You need a fishing line for this, which comes from building the Fishing Hut in Ravensthorpe. Build it before you visit.",
+    walkthrough: [
+      "Speak to the woman by the pier south of the Temple of Mithras.",
+      "Dive down to the wreck and loot both chests, one of which holds a message.",
+      "Return to the woman, who asks for a silver necklace.",
+      "Fish off the pier until you catch the fish carrying the necklace.",
+      "Give her the necklace to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=opaxthQaGME"
+  },
+{
+    id: 2671,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lunden",
+    title: "War of the Collectors",
+    location: "South of the Londinium Amphitheatre, Lunden",
+    length: "short",
+    difficulty: "Low",
+    reward: "Legionnaire Statue for the Ravensthorpe museum",
+    summary:
+      "Rival collector Maximilian owns a Roman Legionnaire Statue that Octavian badly wants for his museum. Talk, buy or steal your way to the statue.",
+    aiTip:
+      "Build the Museum in Ravensthorpe and accept A Rivalry for the Ages from Octavian first. Win the persuasion check with enough Charisma to skip paying 130 silver.",
+    walkthrough: [
+      "Build the Museum in Ravensthorpe and accept A Rivalry for the Ages from Octavian.",
+      "Find Maximilian south of the Londinium Amphitheatre.",
+      "Persuade him with high Charisma, pay 130 silver, or distract him and steal the statue.",
+      "Take the Legionnaire Statue back to Octavian to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=vLiZey0t_4A"
+  },
+{
+    id: 2672,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Lamb Chops",
+    location: "East of the northernmost viewpoint, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A farmer is beside himself because one of his sheep swallowed the family brooch he meant to give away. Help the brooch come out the natural way.",
+    aiTip:
+      "Killing the sheep works, but it isn't needed. Drop the hay bale in the pen and the brooch turns up in the droppings. Search every pile.",
+    walkthrough: [
+      "Talk to the upset farmer by the sheep pen.",
+      "Pick up the small hay bale outside the pen.",
+      "Carry it in and drop it for the sheep.",
+      "Search the piles of droppings in the pen until you find the brooch.",
+      "Return the brooch to the farmer to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=jkpjfGcKG70"
+  },
+{
+    id: 2673,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Paola's Dream",
+    location: "West of Bomere Lake, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Jason stands proudly in front of the impressive stone house he built with his wife Paola. Listen to the story of how they made her dream real.",
+    aiTip:
+      "This one is just a conversation, so sit back and listen. Before leaving, climb to the upper floor of the house for a treasure chest.",
+    walkthrough: [
+      "Talk to Jason in front of the stone building west of Bomere Lake.",
+      "Listen to his story about building it with Paola.",
+      "The event completes when the conversation ends.",
+      "Optionally climb to the top of the building to loot the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=3jAKSGFYklk"
+  },
+{
+    id: 2674,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "King of the Hill",
+    location: "South-west of Dhustone Quarry, Sciropescire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A man in a tiny hilltop fort calls himself king of the hill and demands that Eivor fight him for the title. Beat him, then beat him again when he goes back on his word.",
+    aiTip:
+      "He swears he'll stop challenging people after losing, but he's lying, so stay ready for more rounds. Parry and punish, since he isn't very strong.",
+    walkthrough: [
+      "Talk to the man at the top of the hill in his miniature fort.",
+      "Accept his challenge and defeat him.",
+      "When he breaks his promise and challenges you again, beat him again.",
+      "Keep winning until he finally concedes the hill and the event completes."
+    ],
+    video: "https://www.youtube.com/watch?v=b_tWTuhwHEU"
+  },
+{
+    id: 2675,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Miracle",
+    location: "Titterstone Clee Hill, south of Dudmaston Lake, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A lame man and a blind man both hope a blessed spring atop Titterstone Clee Hill will heal them. Help each of them reach it.",
+    aiTip:
+      "There's no combat. Carry the lame man up first, then go back down the mountain path for the blind man.",
+    walkthrough: [
+      "Find the lame man at the foot of Titterstone Clee Hill.",
+      "Carry him up the path to the blessed spring.",
+      "Head back down the mountain path to find the blind man.",
+      "Bring him up to the spring to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=WNzsEqPVNsA"
+  },
+{
+    id: 2676,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "The Puppeteer (Sciropescire)",
+    location: "Cliffs near Wenlocan Abbey, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a little silver",
+    summary:
+      "A dead man lies in front of an iron door in a cliffside, and a voice from beyond asks Eivor for silver. Find out who is really speaking.",
+    aiTip:
+      "Paying or refusing doesn't matter much. The voice belongs to a living man, so head west to the house by the Roman columns and follow the hidden passage to him.",
+    walkthrough: [
+      "Find the iron door in the cliff with the dead man in front of it.",
+      "Listen to the voice and choose whether to pay the silver.",
+      "Head a short way west to the house beside the Roman columns.",
+      "Take the hidden passage through the tunnels to the man behind the voice.",
+      "Kill him to complete the event and loot the area."
+    ],
+    video: "https://www.youtube.com/watch?v=eijBKINJ1ss"
+  },
+{
+    id: 2677,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Otta, Son of Slugga",
+    location: "Hamlet near Wenlocan Abbey, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Otta's child challenges Eivor to an archery contest: hit five targets around the house within 30 seconds.",
+    aiTip:
+      "Don't step past the wooden barricade you start behind. Find the dummies on the roof, by the house and in the open doorway before you start the timer.",
+    walkthrough: [
+      "Talk to Otta's child to start the archery challenge.",
+      "Stay behind the starting barricade.",
+      "Shoot all five targets (on the roof, around the house and inside a doorway) within 30 seconds.",
+      "Otta congratulates you and the event completes."
+    ],
+    video: "https://www.youtube.com/watch?v=7Arml1zTwqk"
+  },
+{
+    id: 2678,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Sciropescire",
+    title: "Bewitched",
+    location: "Hilltop building near Wesberie, Sciropescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A boy is locked inside a lone hilltop house he says belongs to a witch. Break in, find the key and free him, only to learn the 'witch' was his mother.",
+    aiTip:
+      "The front door is barred, so aim through a window to shoot the lock. The key is in a side room behind a movable shelf.",
+    walkthrough: [
+      "Go to the lone building on the hill near Wesberie and talk to the boy.",
+      "Shoot the lock on the barred front door through a window.",
+      "Move the shelf inside to reach the key.",
+      "Use the key to open the back room.",
+      "Free the boy to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=A6fV27hCtWw"
+  },
+{
+    id: 2679,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Red in Tooth and Claw",
+    location: "Farmhouse near Cent's north-western border, east of Lunden",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man who believes he's cursed has locked himself in his farmhouse to escape the wild boars roaming outside. Clear the boars, find the key and see what became of him.",
+    aiTip:
+      "Kill the boars first so they don't gang up on you while you search. Odin's Sight highlights the key on a corpse in the yard.",
+    walkthrough: [
+      "Approach the locked farmhouse surrounded by wild boars.",
+      "Kill the boars around the property.",
+      "Use Odin's Sight to find the key on a body near the well or at the back.",
+      "Unlock the door, read the note and examine the body inside to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=lhkGE5dSa0M"
+  },
+{
+    id: 2680,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "The Pardoner's Tale",
+    location: "Large oak tree in Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and 40 silver",
+    summary:
+      "An old man in black points Eivor toward a great oak, where three men lie dead around a cooking pot. Work out how the would-be treasure-splitters killed each other.",
+    aiTip:
+      "No fighting is needed, just examine the three corpses and the pot by the tree. Grab the 40 silver they were going to split afterwards.",
+    walkthrough: [
+      "Talk to the old man in black.",
+      "Go to the large oak tree behind him.",
+      "Examine each of the three corpses.",
+      "Examine the food pot beside the tree to complete the event.",
+      "Loot the 40 silver nearby."
+    ],
+    video: "https://www.youtube.com/watch?v=62uJXi2ExfI"
+  },
+{
+    id: 2681,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Madness of the Stones",
+    location: "Stone circle near Saint Hadrian's Priory, Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man by a stone circle is convinced the stones won't stay the same number. He keeps asking Eivor to count them for him.",
+    aiTip:
+      "Stand back from the circle so every stone is in view before answering. He asks three times, so just keep giving him a count until he's satisfied.",
+    walkthrough: [
+      "Talk to the man beside the stone circle near Saint Hadrian's Priory.",
+      "Count the stones and give him your answer.",
+      "Repeat when he asks you to count again (three times in total).",
+      "The event completes after the third count."
+    ],
+    video: "https://www.youtube.com/watch?v=znlB5Qps1w8"
+  },
+{
+    id: 2682,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Pig of Prophecy",
+    location: "Dorobernia Theatre, Cantwareburh, Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Inside the Dorobernia Theatre, a pig called Matilda the Seer is said to speak prophecies, but only to those who've had enough to drink. Get drunk and listen to her.",
+    aiTip:
+      "Drink from the ale barrel, then talk to the pig while still drunk. Do it at least twice, and don't wander off between drinks, which can stop the second prophecy appearing.",
+    walkthrough: [
+      "Enter the Dorobernia Theatre in Cantwareburh.",
+      "Drink from the ale barrel.",
+      "Talk to the pig while intoxicated to hear a prophecy.",
+      "Drink again and talk to the pig a second time to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Ar7tkxhvazk"
+  },
+{
+    id: 2683,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "The Lighthouse Twins",
+    location: "Dover Pharos, Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Frode's twin brother Arne has climbed to the top of the old Dover Pharos lighthouse and can't get back down. Climb up and guide him safely to the ground.",
+    aiTip:
+      "Kill the snakes on the way up so they can't bite Arne on the way down. Shoot the ladder down to give him a path.",
+    walkthrough: [
+      "Talk to Frode at the Dover Pharos.",
+      "Climb the lighthouse, killing the snakes along the way.",
+      "Reach Arne at the top.",
+      "Shoot down the ladder to create a path for him.",
+      "Guide Arne back down to his brother to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=c8n3jozosmY"
+  },
+{
+    id: 2684,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "The Sky Thief",
+    location: "Tree house in Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A girl in a tree house has lost her ring to a thieving bird. Get it back, then settle an argument with her stepmother over who it belongs to.",
+    aiTip:
+      "Shoot the nest in the neighbouring tree from the end of the log, then drop down to find the ring underneath. Tell the stepmother to let the girl keep it.",
+    walkthrough: [
+      "Talk to the girl in the tree house about her lost ring.",
+      "Walk to the end of the log and shoot the nest in the other tree.",
+      "Drop to the ground and pick up the ring beneath the nest.",
+      "When the stepmother appears, tell her to give the ring to the girl.",
+      "Talk to the girl again to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=6fm3n6i7_A4"
+  },
+{
+    id: 2685,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Cent",
+    title: "Winifred",
+    location: "Woodland in Cent",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A little girl needs honey for her friend Winifred. Fetch some honeycomb, sit down with her and wait to meet the friend.",
+    aiTip:
+      "Grab the honeycomb from the nearby beehive and put it on the slab to the left of the tree door. Then sit and wait, and don't attack the bear that shows up.",
+    walkthrough: [
+      "Talk to the girl who needs honey for Winifred.",
+      "Collect honeycomb from the nearby beehive.",
+      "Place the honey on the rock slab by the tree.",
+      "Sit down with the girl and wait.",
+      "The event completes when Winifred, a bear, arrives."
+    ],
+    video: "https://www.youtube.com/watch?v=U00a_9O1vFo"
+  },
+{
+    id: 2686,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Take Me a Husband",
+    location: "South of Port Walton, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A lonely woman asks Eivor to fetch her a husband, specifically the red-haired man who lives in a house ringed with red flowers. He isn't keen, so bring him anyway.",
+    aiTip:
+      "Beat him in the fist fight, then tie him up and carry him downhill to her. Don't use weapons, since this is a brawl.",
+    walkthrough: [
+      "Talk to the woman south of Port Walton.",
+      "Find the man by the well at the house surrounded by red flowers.",
+      "Win the fist fight against him.",
+      "Tie him up and carry him back downhill to the woman to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=I1lloeijjUE"
+  },
+{
+    id: 2687,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "The Banshee",
+    location: "Ruins between Maeldun and Wulfaswic, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and loot from his body",
+    summary:
+      "A grieving man in a red tent hears a wailing banshee in the ruins above. Investigate the ruins and uncover what's really going on.",
+    aiTip:
+      "Shoot the wooden bar blocking the window above his tent to get into the ruins. When the man attacks, defeat him and search his body.",
+    walkthrough: [
+      "Talk to the grieving man by his red tent.",
+      "Shoot through the wooden bar blocking the window in the ruins above.",
+      "Investigate inside.",
+      "Defeat the man when he turns on you.",
+      "Search his body to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Dp0dcbnYtsI"
+  },
+{
+    id: 2688,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Mother",
+    location: "House south of Halstead outpost, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, and a necklace for the right answer",
+    summary:
+      "A voice from inside a locked house won't open the door until Eivor brings some pretty flowers. Deal with the wolves outside and win the recluse's trust.",
+    aiTip:
+      "Kill the wolf pack before doing anything else. Pick the flowers from the roof, and choose 'You should move closer to people' for the necklace.",
+    walkthrough: [
+      "Go to the locked house south of Halstead outpost.",
+      "Kill the pack of wolves outside.",
+      "Climb onto the roof and pick the flowers.",
+      "Bring the flowers to unlock the house and go inside.",
+      "Pick 'You should move closer to people' to receive a necklace and complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=EZT0BRgzUSo"
+  },
+{
+    id: 2689,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "The Prodigy",
+    location: "Ruins north-west of Colcestre, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A pair of musicians argue at the foot of a statue in the ruins, and their quarrel ends with Eivor in a fist fight against the Bishop of the Ruins.",
+    aiTip:
+      "It's a fist fight, so dodge his wild swings and counter. The whole event is a 'Smack My Bishop' joke on the band The Prodigy.",
+    walkthrough: [
+      "Talk to the men arguing at the base of the statue.",
+      "Talk to the bishop standing opposite them.",
+      "Defeat the Bishop of the Ruins in a fist fight to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Hsvt0HlUZlc"
+  },
+{
+    id: 2690,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "Devil's Hole",
+    location: "Beorn Cavern near Colcestre, Essexe",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A mob of monks has cornered a beastmaster and his bear inside Beorn Cavern, convinced the man is in league with the devil. Hear him out and decide his fate.",
+    aiTip:
+      "If you kill him, you'll have to fight the bear too. Sparing him means turning on the monks outside, so be ready for a fight either way.",
+    walkthrough: [
+      "Talk to the monk outside Beorn Cavern.",
+      "Enter the cave and talk to the beastmaster inside.",
+      "Choose to kill him (and his bear) or spare him.",
+      "If you spare him, deal with the monks outside, then report back to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=aivr4Qzs39A"
+  },
+{
+    id: 2691,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "The Boar with the Golden Nose",
+    location: "South of Brentwood Outpost, Essexe",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and the buried treasure",
+    summary:
+      "A boarmaster swears his hog, Lady Trotters, can sniff out buried treasure. Follow her from dig site to dig site and protect her when bandits move in.",
+    aiTip:
+      "Bandits ambush you at the third dig site, so keep your health up as you follow the pig. Clear them all before examining the final spot.",
+    walkthrough: [
+      "Talk to the boarmaster south of Brentwood Outpost.",
+      "Follow Lady Trotters and dig wherever she sniffs the ground.",
+      "Kill the bandits who ambush you at the third dig site.",
+      "Examine the final dig site to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=HJA5CBOY9Qw"
+  },
+{
+    id: 2692,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "The Gleewoman",
+    location: "South-west of Wulfaswic, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a poem about Eivor",
+    summary:
+      "Aswig the gleewoman wants to write a song about a real hero. Rescue her and she trails after Eivor, composing verses until you pay her to finish.",
+    aiTip:
+      "Paying her a small amount just gets a thank-you, and she stays. Hand over the full 165 silver to end the event.",
+    walkthrough: [
+      "Find the gleewoman Aswig south-west of Wulfaswic.",
+      "Rescue her and let her follow you as she writes.",
+      "Talk to her when she asks for payment.",
+      "Pay her 165 silver to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=wxOpvEcB8Ls"
+  },
+{
+    id: 2693,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Essexe",
+    title: "The Riddler",
+    location: "North-east of Sancta Maria Abbey, Essexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man beside a house challenges Eivor to answer three riddles. Get them all right to complete the event.",
+    aiTip:
+      "The answers are Lock & Key, Bagpipes, and A Storm, in that order.",
+    walkthrough: [
+      "Talk to the man beside the house north-east of Sancta Maria Abbey.",
+      "Answer the first riddle: Lock & Key.",
+      "Answer the second riddle: Bagpipes.",
+      "Answer the third riddle: A Storm to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=E62HGiwrzKM"
+  },
+{
+    id: 2694,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "King of Shitsby",
+    location: "Ruined chapel at Curlow, Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A crumbling chapel in Curlow holds an abandoned throne that seems to be waiting for a ruler. Take a seat and hear how the 'king' got his title.",
+    aiTip:
+      "There's nothing to fight or solve. Walk in and sit on the throne to complete it.",
+    walkthrough: [
+      "Travel to the ruined chapel at Curlow.",
+      "Find the throne inside.",
+      "Sit on the throne to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=PuWxyXo0L4Q"
+  },
+{
+    id: 2695,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Little Victories",
+    location: "Skegi's Beard, eastern coast of Lincolnscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Skegi and Stikla watch from a clifftop as bandits overrun the village below. Decide whether Stikla fights alongside you, then clear the camp and the beach.",
+    aiTip:
+      "Letting Stikla come along gives you an extra sword in a fairly big fight. Clear the camp first, then the beach, so you aren't caught between the two groups.",
+    walkthrough: [
+      "Talk to Skegi and Stikla on the cliff overlooking Skegi's Beard.",
+      "Choose whether Stikla joins you or you go alone.",
+      "Kill the bandits in the camp.",
+      "Clear the remaining bandits on the beach to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Hef6gPIfq_s"
+  },
+{
+    id: 2696,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "Stray Naps",
+    location: "Large tree south of Grimsby, Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man is snoring so deeply under a tree that nothing will wake him. Carry him home to his wife in Grimsby.",
+    aiTip:
+      "He won't wake whatever you do, so just pick him up. Walk him into Grimsby and set him down inside a house before talking to the woman.",
+    walkthrough: [
+      "Find the man asleep under the large tree south of Grimsby.",
+      "Pick him up and carry him to Grimsby.",
+      "Put him down on the floor inside one of the houses.",
+      "Talk to the woman there to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Inu6dVdyy4w"
+  },
+{
+    id: 2697,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "The False Ealdormancy",
+    location: "Road north of Lincoln, central Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man waiting by the road says a rider will soon pass with a prisoner. Ambush the horseman and free his captive.",
+    aiTip:
+      "Wait by the road until the rider appears, then knock him off his horse with a bow shot or a charge. Kill him quickly before he rides off with the prisoner.",
+    walkthrough: [
+      "Wait by the road north of Lincoln.",
+      "When the horseman passes carrying another man, attack him.",
+      "Kill the rider to free his captive.",
+      "Talk to the freed man to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=7AuURpGlNHM"
+  },
+{
+    id: 2698,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "The Farewell Meow",
+    location: "House west of Grimsby, Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "An old woman wants to give her beloved cat Sphinxy a proper burial. Gather the cat's favourite things from the house and lay them at the grave.",
+    aiTip:
+      "One of the items is in a room hidden behind a movable rack, so move it to get to the second room.",
+    walkthrough: [
+      "Talk to the woman standing by the grave west of Grimsby.",
+      "Collect the items in the first room of the house.",
+      "Move the rack to reach the second room and collect the rest.",
+      "Place the items at the grave.",
+      "Talk to the woman to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=j0Y983QG4Bg"
+  },
+{
+    id: 2699,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "The Ignominious Bandit",
+    location: "Tree in Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man kneels by a tree, apparently in need of help. It's a trap, and his bandit friends are waiting to jump Eivor.",
+    aiTip:
+      "Expect the ambush as soon as you speak to him, so go in with your health topped up and your back to the tree.",
+    walkthrough: [
+      "Talk to the man kneeling by the tree.",
+      "Fight off the bandits who ambush you.",
+      "The event completes once all the bandits are dead."
+    ],
+    video: "https://www.youtube.com/watch?v=fBcLNSG39fk"
+  },
+{
+    id: 2700,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Lincolnscire",
+    title: "The Twit Saga, Part II",
+    location: "Lincolnscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The bumbling brothers from Ledecestrescire are back, and once again in over their heads, this time captured by bandits. Rescue them and give them some advice.",
+    aiTip:
+      "If you can't pick up the second brother, save and reload to reset the event.",
+    walkthrough: [
+      "Find the brothers in trouble with bandits in Lincolnscire.",
+      "Kill the bandits.",
+      "Carry the injured brother to safety if needed.",
+      "Talk to the freed brother again, and Eivor's advice completes the event."
+    ],
+    video: "https://www.youtube.com/watch?v=n59xTBl1YzU"
+  },
+{
+    id: 2701,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "A Prayer for Vengeance",
+    location: "Burial mound near the Monk's Lair, north-western Suthsexe",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP, a chest key and a Suthsexe treasure hoard map",
+    summary:
+      "A crazed monk's rambling echoes out of an old sealed tomb. Find a way inside, loot it, and deal with the Mad Monk when he ambushes you on the way out.",
+    aiTip:
+      "The Mad Monk swings a two-handed hammer, and his slow attacks are easy to dodge, but get clear of the red-glowing rune attack. The key you find opens a chest at the nearby Monk's Lair.",
+    walkthrough: [
+      "Go to the north-eastern side of the tomb and shoot the crate through the hole in the stone.",
+      "Return to the south-western side and push the barricade inward.",
+      "Enter the tomb and loot it, including the chest key.",
+      "Defeat the Mad Monk when he ambushes you on the way out.",
+      "Use the key on the chest at the Monk's Lair to the west."
+    ],
+    video: "https://www.youtube.com/watch?v=6WU6_HU4SAk"
+  },
+{
+    id: 2702,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Aflanc the Terrible",
+    location: "Banks of the Emberr River, Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A father rants over a woman he's tied up on the riverbank, convinced she has wronged his family. Free her and find out what lies at the bottom of the river.",
+    aiTip:
+      "Cut the woman loose first, then dive straight down off the bank. The object you need is on the riverbed nearby.",
+    walkthrough: [
+      "Find the ranting father and the tied-up woman on the Emberr River bank.",
+      "Free the woman.",
+      "Dive into the river and search the riverbed for the artifact.",
+      "Bring it back to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=9Eck6P3G2T0"
+  },
+{
+    id: 2703,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Alisa in Wunderlandscire",
+    location: "Cave south of Foris Turre, south-west of Guildford, Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A girl chased a rabbit down into a cave and now she can't get out. Head underground and bring her home in this nod to Alice in Wonderland.",
+    aiTip:
+      "It's a short cave run with no real danger. Pick the girl up and carry her straight back out the way you came.",
+    walkthrough: [
+      "Find the cave entrance south of Foris Turre.",
+      "Head inside and find the girl.",
+      "Pick her up and carry her out of the cave to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=Kol2i27lYPc"
+  },
+{
+    id: 2704,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Eivor the Sheepdog",
+    location: "Farm in Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A farmer is shouting for Fenton, his runaway sheep. Track Fenton down, save him from wolves and whistle him home.",
+    aiTip:
+      "Kill the wolves before trying to move the sheep. Then use your whistle to lure Fenton along behind you back to the farmer.",
+    walkthrough: [
+      "Talk to the farmer shouting for Fenton.",
+      "Find Fenton the sheep nearby.",
+      "Kill the wolves threatening him.",
+      "Use your whistle to lead Fenton back to the farmer to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=ZWqeM5k9FOE"
+  },
+{
+    id: 2705,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "King of the Hay People",
+    location: "Field south-east of Fearnhamme, Suthsexe",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "In a ring of burning straw men, a 'king' sits on a throne of hay. He turns out to be a very real Goliath.",
+    aiTip:
+      "Goliaths hit hard but slowly, so dodge his swings and punish the openings. Fight him away from the burning hay men.",
+    walkthrough: [
+      "Find the circle of burning hay men south-east of Fearnhamme.",
+      "Approach the hay throne.",
+      "Kill the Goliath sitting on it to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=WdQzLL2cqmo"
+  },
+{
+    id: 2706,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Rock of Fertility",
+    location: "Hilltop in Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A woman longing for a child asks Eivor to escort her to a fertility rock at the top of a hill. The real source of the hill's 'magic' turns out to be rather more human.",
+    aiTip:
+      "Wolves attack on the way up, so stay close and protect her. Talk to the man living at the top to wrap it up.",
+    walkthrough: [
+      "Speak to the woman and agree to escort her.",
+      "Follow her up the hill, fighting off the wolves that attack.",
+      "Reach the rock at the top.",
+      "Meet the man who lives there to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=S18zo9q-76o"
+  },
+{
+    id: 2707,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Tiny Black Market",
+    location: "Tree houses in Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "Items and a Suthsexe treasure hoard map",
+    summary:
+      "A child runs a secret shop from a network of tree houses, but you need the password to trade. Buy out her whole stock.",
+    aiTip:
+      "The password is 'Apple'. Bring 105 silver to buy everything, since the hoard map is part of the stock.",
+    walkthrough: [
+      "Climb up into the tree houses and talk to the child.",
+      "Give the password 'Apple'.",
+      "Buy every item she sells (105 silver in total).",
+      "The event completes once her stock is gone, and the hoard map is yours."
+    ],
+    video: "https://www.youtube.com/watch?v=jNV96eO1IKw"
+  },
+{
+    id: 2708,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Suthsexe",
+    title: "Will o' the Wisp",
+    location: "Misty woods south-east of Fearnhamme, Suthsexe",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Eerie voices drift through the mist, and a trail of bonfires seems to lead toward a spirit. Follow it to find out who's really behind the voice.",
+    aiTip:
+      "Pulse Odin's Sight at each bonfire to spot the next one. If the event bugs out, save next to a bonfire and reload.",
+    walkthrough: [
+      "Head into the mist and listen for the voices.",
+      "Use Odin's Sight to find the next bonfire.",
+      "Keep following the trail of bonfires to the large one at the end.",
+      "Find the man behind the 'spirit' to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=JgkOQVgqDw8"
+  },
+{
+    id: 2709,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "A Dead Man's Tale",
+    location: "Pit west of Nyhofn, Vinland",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A missing hunter from Nyhofn lies dead in a pit, with a note asking that his body be brought home. Carry him back to the mourning woman at the village entrance.",
+    aiTip:
+      "Your dialogue choice at the end doesn't change anything. Carry the body on foot, since it's a short walk back to Nyhofn.",
+    walkthrough: [
+      "Find the body in the pit west of Nyhofn.",
+      "Read the note asking for the body to be returned.",
+      "Carry the body back to Nyhofn.",
+      "Deliver it to the mourning woman at the village entrance to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=zAv0krXXAZg"
+  },
+{
+    id: 2710,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Flight of Fancy",
+    location: "Cliff near Nyhofn, Vinland",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A Norse woman's pet turkey, Arne, has flapped down off the cliff. Go down and coax him back up to her.",
+    aiTip:
+      "Arne may peck at you on the way, so don't fight back or you'll fail. Just keep leading him uphill.",
+    walkthrough: [
+      "Talk to the woman on the cliff about her turkey.",
+      "Climb down and find Arne.",
+      "Lead him back up the cliff without attacking him.",
+      "Return Arne to the woman to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=stmrWja4bEI"
+  },
+{
+    id: 2711,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Ursine Takeover",
+    location: "Bear camp at Vithrloekr, Vinland",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and a key to a chest of crafting materials",
+    summary:
+      "Bears have overrun the camp at Vithrloekr, and a man is trapped in the middle of them. Clear out the bears and save him.",
+    aiTip:
+      "Pull the bears one at a time if you can, since several at once hit very hard. The man gives you a key to a chest of crafting materials.",
+    walkthrough: [
+      "Head to the bear camp at Vithrloekr.",
+      "Kill the bears threatening the trapped man.",
+      "Talk to the man and take the key he gives you.",
+      "Open the chest with the key to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=DKenSS9mP70"
+  },
+{
+    id: 2712,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Vinland",
+    title: "Breaking Teeth, Not Hearts",
+    location: "Nyhofn, Vinland",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Once the other Vinland events are done, a group of toothbreakers sets out to hunt a dangerous wild cat. Join the hunt and bring the beast down.",
+    aiTip:
+      "This only appears after you finish Vinland's other three world events. The big cat is fast, so dodge its pounce and hit it during the recovery.",
+    walkthrough: [
+      "Complete A Dead Man's Tale, Flight of Fancy and Ursine Takeover first.",
+      "Find the toothbreakers in Nyhofn and join their hunt.",
+      "Track the wild cat with the group.",
+      "Kill the cat when it attacks to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=bz_GvuInuW4"
+  },
+{
+    id: 2713,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Silver Wind Elder",
+    location: "North-west of the Eboracum Sewers, Jorvik",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A baker in Jorvik is hunting whoever keeps stealing his pies. Follow him on the trail and help him find the culprit, who turns out to be a hungry child.",
+    aiTip:
+      "When the baker stops and loses the trail, switch on Odin's Sight. The child hiding nearby lights up straight away.",
+    walkthrough: [
+      "Talk to the baker north-west of the Eboracum Sewers.",
+      "Follow him as he tracks the pie thief.",
+      "When he stops, use Odin's Sight to spot the hidden child.",
+      "Speak to the baker again to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=rFfSlY8ITso"
+  },
+{
+    id: 2714,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Deviled Water",
+    location: "By the river at Coppergate Market, central Jorvik",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Two priests on the riverbank urge a nervous man in a boat to jump into the water to be cleansed of his demons, but he won't take the plunge. Give him the push he needs.",
+    aiTip:
+      "You don't need to talk anyone into anything. Just jump onto the boat yourself and the man ends up in the river.",
+    walkthrough: [
+      "Find the small crowd on the riverbank by Coppergate Market.",
+      "Listen to the priests urging the man in the boat to jump.",
+      "Jump onto the boat to tip him into the water.",
+      "The event completes once he's in the river."
+    ],
+    video: "https://www.youtube.com/watch?v=d7ax8RBjsOs"
+  },
+{
+    id: 2715,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Bridges of Oppression",
+    location: "Beneath the northern bridge between east and west Jorvik",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A blinded man stranded on scaffolding under a Jorvik bridge wants to get back up to the bridge. Carry him there safely.",
+    aiTip:
+      "With the man on your back you can't climb freely, so take the boat across to the far shore and use the stairs up to the bridge.",
+    walkthrough: [
+      "Talk to the blind man on the scaffolding beneath the northern bridge.",
+      "Pick him up and carry him down to the water.",
+      "Use the boat to cross to the opposite shore.",
+      "Climb the stairs up to the bridge, and Eivor sets him down to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=0ORS3cQpnSs"
+  },
+{
+    id: 2716,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jorvik",
+    title: "Warmth of Winter",
+    location: "North-east of the Jorvik Theatre, western Jorvik",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A little girl is selling Yule goats in Jorvik. Buy one, then follow her to learn why she's so eager for the silver.",
+    aiTip:
+      "The event costs 100 silver, so have it on you before you talk to her. Interact with the grave at the end to hear Eivor's thoughts.",
+    walkthrough: [
+      "Talk to the girl selling Yule goats north-east of the Jorvik Theatre.",
+      "Buy a goat from her for 100 silver.",
+      "Follow her as she runs off to the south-west.",
+      "Speak to her again at the grave to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=QIkyCgiz4g8"
+  },
+{
+    id: 2717,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Art-Scop",
+    location: "Donecaestre, Eurvicscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Berk the bard in Donecaestre will sing a song for a little silver. Pay up and enjoy the performance.",
+    aiTip:
+      "Paying him completes the event, and you can pickpocket your silver back from Berk once he's finished.",
+    walkthrough: [
+      "Find Berk the bard in Donecaestre.",
+      "Talk to him and pay the silver he asks for.",
+      "Listen to his song to complete the event.",
+      "Optionally steal your coins back from him afterwards."
+    ],
+    video: "https://www.youtube.com/watch?v=CfDGelRL73k"
+  },
+{
+    id: 2718,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Crushed Dreams",
+    location: "Coast near Scarborough, with the wife in Picheringa, Eurvicscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, or the ring if you keep it",
+    summary:
+      "A fisherman lies crushed under a rock, still clutching a love letter and a ring meant for his wife. Decide whether to deliver them to her in Picheringa.",
+    aiTip:
+      "Either choice completes it. Taking the ring to Vera in the Picheringa market square is the kind ending, while keeping it nets you the ring.",
+    walkthrough: [
+      "Find the crushed fisherman near Scarborough.",
+      "Take the love letter and the ring from his body.",
+      "Travel to Picheringa and find Vera in the market square.",
+      "Give her the ring, or keep it, to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=MgpV_D1W-5U"
+  },
+{
+    id: 2719,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Dellingr Rabbit",
+    location: "North of Picheringa, north-eastern Eurvicscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, plus a gold ring and coins if you follow the rabbit",
+    summary:
+      "A Norseman called Thickskull is having a furious argument with a rabbit he thinks is a god in disguise. Talk to him, then settle it with your fists.",
+    aiTip:
+      "After the fist fight, follow the rabbit and it leads you to its cave, which holds a gold ring and some coins.",
+    walkthrough: [
+      "Find Thickskull arguing with the rabbit north of Picheringa.",
+      "Talk to him, which starts a fist fight.",
+      "Beat him to complete the event.",
+      "Optionally follow the rabbit to its cave for a gold ring and coins."
+    ],
+    video: "https://www.youtube.com/watch?v=PrOGElyWknY"
+  },
+{
+    id: 2720,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Historia de Cordibus Pathetic",
+    location: "Taedden's Shelf, central Eurvicscire, south of Jorvik",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Bertha is hopelessly in love with Aldwyn the ale-maker but doesn't know how he feels. Help her find out, and maybe get them together.",
+    aiTip:
+      "Don't pick 'Speak of his beauty and charm', which ends the event with Bertha rejected. Choose to look for clues and search all three around Aldwyn's house for a better ending.",
+    walkthrough: [
+      "Talk to Bertha at Taedden's Shelf.",
+      "Choose to look for clues instead of praising Aldwyn's charm.",
+      "Investigate the three clues around Aldwyn's house.",
+      "Report back to Bertha and pick the ending to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=o2iZEPCcxrY"
+  },
+{
+    id: 2721,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "Sunken Hope",
+    location: "Olikana Tower, west of Jorvik, Eurvicscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and the loot from the sunken ruins",
+    summary:
+      "Sisters Rilda and Runa wait in the flooded ruins of Olikana Tower for their father, who dived down looking for treasure and never came back up. Dive in and find out what happened to him.",
+    aiTip:
+      "The ruins are a fair dive, so watch your breath meter. Loot the father's body and the treasure down there before you surface to tell the girls.",
+    walkthrough: [
+      "Talk to the girls in the flooded Olikana Tower.",
+      "Dive into the submerged ruins.",
+      "Find the father's body and loot it along with the treasure.",
+      "Return to the daughters to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=q4M_uLmzC0k"
+  },
+{
+    id: 2722,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Eurvicscire",
+    title: "The Village: Jurthgard",
+    location: "Abandoned village east of Jorvik, Eurvicscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Jurthgard has been emptied by a plague called the Withering. Chase down the last frightened survivor and help her decide what to do about her dying family.",
+    aiTip:
+      "Both choices complete the event. Grab the key from the table beside her if you want to look in on the sick, and you can leave them a ration.",
+    walkthrough: [
+      "Enter Jurthgard and chase the woman who flees from you.",
+      "Follow her to the house on the south-east side of the village.",
+      "Talk to her about the Withering and her family.",
+      "Persuade her to leave or to stay with her family to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=bDN3MJbDAuY"
+  },
+{
+    id: 2723,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Goddess of Birth",
+    location: "Glowecestrescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A heavily pregnant woman is determined to give birth at the sacred ruins on the hill. Help her get there.",
+    aiTip:
+      "Don't carry her on foot. Call your horse and ride her up to the ruins, which is much quicker.",
+    walkthrough: [
+      "Talk to the pregnant woman.",
+      "Call your horse and get her mounted.",
+      "Ride her up to the ruins on the hill to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=L-RvDLGA__A"
+  },
+{
+    id: 2724,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "Lady of the Lake",
+    location: "House by a lake in Glowecestrescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A strange woman sings by the lake. Once her song ends she invites Eivor inside, where things quickly take a poisonous turn.",
+    aiTip:
+      "When the poison gas fills the house, move the rack covering the window and climb out through it. Don't try to go back out the door.",
+    walkthrough: [
+      "Listen to the singing woman by the lake until she stops.",
+      "Talk to her, and the door to her house opens.",
+      "Go inside, where poison gas starts to fill the room.",
+      "Move the rack blocking the window and escape outside to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=X1cqkviRgGc"
+  },
+{
+    id: 2725,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "Dearly Bee-Loved",
+    location: "Bee farm at Glowecestre, Glowecestrescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Gill sits on a ruined wall clutching a love letter he's too shy to deliver. Choose who at the bee farm should receive it.",
+    aiTip:
+      "Give the letter to Serle for the happy ending. Warin politely turns Gill down, and Mille turns out to be Gill's sister.",
+    walkthrough: [
+      "Talk to Gill on the ruined wall and take his letter.",
+      "Go to the nearby bee farm.",
+      "Deliver the letter to Serle.",
+      "Watch Gill and Serle meet and talk to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=HDKpom_U3Is"
+  },
+{
+    id: 2726,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Body",
+    location: "Forest in south-eastern Glowecestrescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A group of children stand around a dead Dane, and one boy has run off with the dead man's axe. Get the axe back so the warrior can rest properly.",
+    aiTip:
+      "The boy is by a large rock just north-west. With Charisma level 4 you can talk him round, or race him back to the others.",
+    walkthrough: [
+      "Talk to the children standing over the dead Dane.",
+      "Head north-west to the large rock in the forest and find the boy with the axe.",
+      "Persuade, threaten or race him to get the axe.",
+      "Return the axe to the body to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=XXP606BQaNw"
+  },
+{
+    id: 2727,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Glowecestrescire",
+    title: "The Horn of Ragnar",
+    location: "House west of Oxeneforda, south-eastern Glowecestrescire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Bron is trying to get into a locked house that he says holds the legendary Horn of Ragnar. Break in for him, and decide who's telling the truth when the owner turns up.",
+    aiTip:
+      "Bron is the real thief. Siding with the house owner and taking Bron down is the honest ending.",
+    walkthrough: [
+      "Talk to Bron outside the locked house.",
+      "Force the door open and move the rack inside.",
+      "Take the medallion from the shelf in the other room.",
+      "When the owner arrives, choose whether to defend Bron or help the owner.",
+      "Defeat whoever you side against to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=il5MCyOWd40"
+  },
+{
+    id: 2728,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "A Cordial Invitation",
+    location: "Bridge near Sherwood, Snotinghamscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Ryce is the sole survivor of an ambush by a bridge. Hear his story, then deal with the Pict warriors who come back to finish the job.",
+    aiTip:
+      "Three Picts attack shortly after you start talking, so keep your weapons ready. Do this one before The Good Men of Sherwood, which is nearby.",
+    walkthrough: [
+      "Talk to Ryce by the bridge.",
+      "Fight off the three Pict warriors who attack.",
+      "Talk to Ryce again to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=v8nnSKVIAxU"
+  },
+{
+    id: 2729,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "An Althing for the Half-Grown",
+    location: "Hemthorpe, Snotinghamscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The children of Hemthorpe are holding their own althing, voting on matters by sitting in chairs. Join in and cast your votes.",
+    aiTip:
+      "Which chair you pick doesn't matter. Sit down each time a question comes up, and it ends after the third vote.",
+    walkthrough: [
+      "Find the children's althing in Hemthorpe.",
+      "When the first question is asked, sit on one of the chairs to vote.",
+      "Vote again for the second question.",
+      "Vote on the third question to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=GJRn5voq4NM"
+  },
+{
+    id: 2730,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "An Efficient Cremation",
+    location: "House in Snotinghamscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A weeping Norseman is struggling to cremate his parents' bodies. Help him get the pyre burning, and hear a darker confession.",
+    aiTip:
+      "Only one of the two oil jars near his house works. Throw it onto the burning cart. After his confession you can choose to assassinate him.",
+    walkthrough: [
+      "Talk to the weeping man by the cart of bodies.",
+      "Find the jars of oil near his house.",
+      "Throw the right jar onto the burning cart.",
+      "Talk to him again and hear his confession.",
+      "Decide whether to kill him to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=3nFacRYFdho"
+  },
+{
+    id: 2731,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "Stoneman",
+    location: "Along the Derwent River, central Snotinghamscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A little Norse girl is trying to build a stone man by the river. Help her balance three stones into a proper cairn.",
+    aiTip:
+      "This works like any cairn puzzle. Place the biggest stone flat first and go slowly. Holding the stone over the stack before releasing makes it easier to balance.",
+    walkthrough: [
+      "Talk to the girl by the Derwent River.",
+      "Pick up stones from the pile nearby.",
+      "Stack three stones carefully into a stable cairn.",
+      "The event completes once the stone man stands."
+    ],
+    video: "https://www.youtube.com/watch?v=_87q_zxApgs"
+  },
+{
+    id: 2732,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "The Good Men of Sherwood",
+    location: "West of Sherwood Hideout, Snotinghamscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A band of merry archers in Sherwood challenge Eivor to a shooting contest: targets, jars and, finally, a chicken on a pole.",
+    aiTip:
+      "Use a Predator bow if you have one. Its arrows drop far less than a Hunter bow's, which makes the chicken on the pole much easier to hit.",
+    walkthrough: [
+      "Talk to the archers west of Sherwood Hideout.",
+      "Hit the targets they set for you.",
+      "Shoot the jars.",
+      "Hit the chicken on the pole to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=vkQqyb84lxY"
+  },
+{
+    id: 2733,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Snotinghamscire",
+    title: "The Myth in the Mountains",
+    location: "Mountains in the far west of Snotinghamscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "High in the western mountains, a scarecrow figure stands by a tree. Set it alight and a Pict warrior emerges to fight.",
+    aiTip:
+      "Bring a torch for the scarecrow and be ready to fight as soon as it burns. Clear any wolves on the climb so they don't join in.",
+    walkthrough: [
+      "Climb to the tree at the top of the mountain in western Snotinghamscire.",
+      "Throw a torch at the scarecrow to set it on fire.",
+      "Defeat the Pict warrior who appears to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=P5q5GVzbEaE"
+  },
+{
+    id: 2734,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Aelfred's Jewel",
+    location: "House in Wincestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, plus a reward if you hand the jewel over",
+    summary:
+      "A precious jewel linked to King Aelfred is hidden in a house in Wincestre. Retrieve it, then decide whether to keep it or give it to the man waiting outside.",
+    aiTip:
+      "Giving the jewel to the man outside earns a reward, and keeping it is also an option. If he doesn't appear, run away from the house with the jewel to end the event.",
+    walkthrough: [
+      "Find the house in Wincestre holding Aelfred's jewel.",
+      "Get inside and take the jewel.",
+      "Talk to the man waiting outside.",
+      "Give him the jewel for a reward, or keep it, to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=dUv-a2kt6io"
+  },
+{
+    id: 2735,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Asser",
+    location: "Church in Wincestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The scholar Asser is trying to read a scripture, but the light in the church is all wrong. Climb up and redirect the sunlight so he can see.",
+    aiTip:
+      "Climb the scaffolding beside the chapel to reach the window blocks. Push one block to cover the bright window and move another to open a different one.",
+    walkthrough: [
+      "Talk to Asser standing in front of the scripture in the church.",
+      "Climb the scaffolding next to the chapel.",
+      "Move the blocks to cover one window and uncover another.",
+      "Talk to Asser once the light falls on his scripture to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=SbyP-xNT5M8"
+  },
+{
+    id: 2736,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Mildberg the Miracle Legs",
+    location: "Streets of Wincestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Mildberg, a speedy girl, is looking for someone to race her through the streets of Wincestre. Take her up on the challenge.",
+    aiTip:
+      "Winning doesn't matter, as the event ends when the race is over either way. Just enjoy the chase.",
+    walkthrough: [
+      "Talk to Mildberg, who's looking for a race partner.",
+      "Chase her along the race route.",
+      "The event completes when the race ends, whether you win or lose."
+    ],
+    video: "https://www.youtube.com/watch?v=_hVDLx5wKVk"
+  },
+{
+    id: 2737,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Wincestre",
+    title: "Romeo and Aethelflaed",
+    location: "Wincestre",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A lovestruck boy wants to give Aethelflaed a flower that only grows high on a tree. Get it for him with a well-timed jump.",
+    aiTip:
+      "Slide down the line and jump off at the right moment to land on the branch where the flowers grow. If you miss, climb back up and try again.",
+    walkthrough: [
+      "Talk to the boy who wants a flower for Aethelflaed.",
+      "Climb up and slide down the zip line.",
+      "Jump onto the tree branch with the flowers at the right moment.",
+      "Pick a flower and give it to the boy to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=s5BvH2t9KjM"
+  },
+{
+    id: 2738,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "Saint Faith",
+    location: "Hamtunscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A priest asks Eivor for help, but the nun nearby has violent ideas of her own. Defend yourself when she attacks.",
+    aiTip:
+      "The nun fights hard, so dodge and parry rather than trading blows. The event ends when she's dead.",
+    walkthrough: [
+      "Talk to the priest.",
+      "Defend yourself when the nun attacks.",
+      "Kill the nun to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=eq9HJWZhTAM"
+  },
+{
+    id: 2739,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "Splitting Hares",
+    location: "Gerhild's field, Fearnhamme, Hamtunscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Rabbits are wrecking Gerhild's crops in Fearnhamme. Hunt down every last one of them.",
+    aiTip:
+      "Get up high and pulse Odin's Sight to spot the rabbits, then pick them off with your bow. If the last rabbit never appears, reload your save.",
+    walkthrough: [
+      "Talk to Gerhild about the rabbits in her field.",
+      "Climb somewhere high and use Odin's Sight to spot them.",
+      "Shoot every rabbit in the field.",
+      "Return to Gerhild to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=8guwBU9RBdg"
+  },
+{
+    id: 2740,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "The Arrow in the Tree",
+    location: "Hamtunscire",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Kenrick needs an arrow back from a high branch, but a lynx is guarding the tree. Kill the cat and fetch the arrow.",
+    aiTip:
+      "The lynx is quick but fragile. Bait its pounce, dodge, and counter. Then climb up for the arrow.",
+    walkthrough: [
+      "Talk to Kenrick about the arrow stuck in the tree.",
+      "Kill the lynx guarding the tree.",
+      "Climb up and retrieve the arrow.",
+      "Return it to Kenrick to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=0KJqTHORKaA"
+  },
+{
+    id: 2741,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "The Devil Has All the Best Tunes",
+    location: "Hamtunscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "A group of warriors is holding a drinking contest while a bard plays. Join in, and be ready when the bard turns out to be more than he seems.",
+    aiTip:
+      "Win the drinking game, then prepare to fight right away. The bard attacks, and killing him ends the event.",
+    walkthrough: [
+      "Join the warriors' drinking contest.",
+      "Drink your way through the contest.",
+      "Fight the bard when he attacks.",
+      "Kill him to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=9FH1bcTm1M4"
+  },
+{
+    id: 2742,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Hamtunscire",
+    title: "We Are All Monsters",
+    location: "Overturned cart, Hamtunscire",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "An overturned cart and a note hint at a bear-baiting tournament gone wrong. Find the escaped bear before it kills the man trapped on a nearby cliff.",
+    aiTip:
+      "Read the note first to start the event. The bear hits very hard, so dodge its charges and keep your distance between attacks.",
+    walkthrough: [
+      "Read the note by the overturned cart.",
+      "Follow the trail to the man stranded on a nearby cliff.",
+      "Kill the bear threatening him.",
+      "Talk to the man to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=OYdczwCxd1U"
+  },
+{
+    id: 2743,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Valhalla Bound",
+    location: "Northern end of Indre Holm, Asgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A man on Indre Holm is eager to talk about earning his place in Valhalla. Hear him out.",
+    aiTip:
+      "It's purely a conversation, so just talk to him and it's done. Grab it while you're nearby.",
+    walkthrough: [
+      "Travel to the northern end of Indre Holm.",
+      "Talk to the man there.",
+      "The event completes when the conversation ends."
+    ],
+    video: "https://www.youtube.com/watch?v=dOFlSB-0H1o"
+  },
+{
+    id: 2744,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Noble Harts",
+    location: "Forest in Asgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Ymir's Tear stone chest",
+    summary:
+      "A stag appears in the Asgard woods and seems to want Eivor to follow. Trail it, and the other stags that join it, to a hidden chest.",
+    aiTip:
+      "Ignore any enemies and keep up with the stags. If they don't appear, leave the area and come back.",
+    walkthrough: [
+      "Find the stag in the Asgard forest.",
+      "Follow it through the woods, ignoring any enemies.",
+      "Keep following as more stags join the herd.",
+      "Open the chest they lead you to, which holds a Ymir's Tear stone, to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=qWatcqeV3WQ"
+  },
+{
+    id: 2745,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Food of the Gods",
+    location: "North-western end of Asgard's eastern island",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The cook Andhrimnir needs help hunting Saehrimnir, the immortal boar that feeds the gods every night. Join the hunt.",
+    aiTip:
+      "Follow Andhrimnir to the boar rather than searching yourself, then focus it down. It'll be back tomorrow anyway.",
+    walkthrough: [
+      "Talk to Andhrimnir the hunter.",
+      "Follow him to the boar Saehrimnir.",
+      "Kill the boar to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=HrQbkgXrrB8"
+  },
+{
+    id: 2746,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Hel's Well",
+    location: "North-east of Litamiotvitr, Asgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Motull, a warrior who died with his weapon in hand, weeps by a well because he can't reach his wife in Helheim. Decide how to answer him.",
+    aiTip:
+      "Pick 'Helheim has nothing for you' to end it peacefully. The other choice leads to a fight. He may only appear after you finish Asgard's main story arc.",
+    walkthrough: [
+      "Find Motull by the well north-east of Litamiotvitr.",
+      "Talk to him about his wife in Helheim.",
+      "Choose 'Helheim has nothing for you' to end it peacefully, or fight him.",
+      "The event completes once he's dealt with."
+    ],
+    video: "https://www.youtube.com/watch?v=hXQcukouGTk"
+  },
+{
+    id: 2747,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Milk of Humankind",
+    location: "Ruins south of Trolltonn, eastern island of Asgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Audumbla, the primordial cow, is trapped in the ruins behind wooden walls and boulders. Clear a path and lead her out.",
+    aiTip:
+      "Smash the wooden barricades and shove the big stones aside as you go. Let Audumbla walk ahead, and she'll lead you to where she wants to go.",
+    walkthrough: [
+      "Find Audumbla trapped in the ruins south of Trolltonn.",
+      "Smash the wooden barricades blocking her in.",
+      "Move the large stones out of the way.",
+      "Follow her to safety to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=dMZDWMe6Ne0"
+  },
+{
+    id: 2748,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Asgard",
+    title: "Njord's Lament",
+    location: "Northern island of Asgard",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "The sea god Njord is stranded drunk on an island and wants to go home. Find a boat and ferry him back to shore.",
+    aiTip:
+      "The event ends the moment you both step off the boat. Following Njord afterwards to hear him out is optional.",
+    walkthrough: [
+      "Take a boat to the northern island and find Njord.",
+      "Get him into the boat.",
+      "Row him back to the mainland.",
+      "Step off the boat with him to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=XtIMUJw8pvg"
+  },
+{
+    id: 2749,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "Aegir's Daughters",
+    location: "Aegir's Hall, Jotunheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Drink with the jotun daughters of Aegir until Havi passes out. Next morning, piece together the clues of his wild drunken night.",
+    aiTip:
+      "Exhaust every dialogue option and drink after each story, or the event can stall. The next day, inspect all three clues: the boar, the cart on the roof and the boat in the mead vat.",
+    walkthrough: [
+      "Join Aegir's daughters at Aegir's Hall and drink with them.",
+      "Exhaust all their stories, drinking after each, until Havi passes out.",
+      "The next morning, inspect the boar.",
+      "Inspect the cart on the roof.",
+      "Inspect the broken boat in the mead vat to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=zlUeAsmeves"
+  },
+{
+    id: 2750,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "Pit of Slaughter",
+    location: "Fighting pit in eastern Utgard, Jotunheim",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and Dugr's clues",
+    summary:
+      "Dugr the Bold needs a partner for the Utgard fighting pit, and he's ready to shapeshift into any beast you choose. Team up and face the shapeshifters.",
+    aiTip:
+      "Your choice of animal for Dugr doesn't matter, because his transformation fails spectacularly either way. Plan to do the fighting yourself.",
+    walkthrough: [
+      "Go to the fighting pit in eastern Utgard and talk to Dugr the Bold.",
+      "Choose which animal he should turn into.",
+      "Fight the shapeshifting opponents in the pit.",
+      "Win the fight to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=6ML7b2jtEiE"
+  },
+{
+    id: 2751,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "The Giants of Fimbulwinter",
+    location: "Altar in southern Utgard, Jotunheim",
+    length: "short",
+    difficulty: "High",
+    reward: "XP",
+    summary:
+      "Twin jotnar, Kala and Vindr, are conjuring an endless blizzard from an altar in Utgard. Stop them.",
+    aiTip:
+      "This unlocks after A Feast to Remember. Fighting two jotnar at once is tough, so keep moving to stay out of the middle and focus on one twin at a time.",
+    walkthrough: [
+      "Progress Jotunheim's story through A Feast to Remember.",
+      "Travel to the altar in southern Utgard.",
+      "Fight the twin jotnar Kala and Vindr.",
+      "Defeat both to end the blizzard and complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=cnm8Nu2En-Q"
+  },
+{
+    id: 2752,
+    type: "side",
+    category: "World Events",
+    arc: "World Events",
+    game: "Assassin's Creed Valhalla",
+    region: "Jotunheim",
+    title: "The Puppeteer (Jotunheim)",
+    location: "Hut beside a pond north of Aegir's Hall, Jotunheim",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A jotun is locked in a cage near a hunter's hut, and only the hunter has the key. Break in, take it from him and set the prisoner free.",
+    aiTip:
+      "Break the bracket on the hut door to get in. The hunter hands over the key whatever you say once you've beaten him.",
+    walkthrough: [
+      "Find the caged jotun by the pond north of Aegir's Hall.",
+      "Break the bracket on the hunter's hut door.",
+      "Enter the hut and defeat the hunter.",
+      "Take the key and free the caged jotun to complete the event."
+    ],
+    video: "https://www.youtube.com/watch?v=uOm73-5QtTg"
   },
 {
     id: 1999,
