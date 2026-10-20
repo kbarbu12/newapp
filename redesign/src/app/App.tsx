@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import { useState, useMemo, useRef, useEffect, useCallback, createContext, useContext } from "react";
 import {
   Search, X, Youtube, Clock, Swords, Shield, Flame, Zap, Info,
   Star, Send, ChevronLeft, ChevronRight, Newspaper, Library,
@@ -421,20 +421,25 @@ function QuestDetail({ quest, onClose, onSave, saved, onComplete, completed, com
 
 // ─── QuestCard ────────────────────────────────────────────────────────────────
 
-function QuestCard({ quest, saved, onSave, completed=false, completedAt, onComplete, onOpen, completedSteps=[], onToggleStep, hideSpoilers=false, autoplayVideo=false }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; completedAt?:string; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean; completedSteps?:number[]; onToggleStep?:(stepIdx:number)=>void; hideSpoilers?:boolean; autoplayVideo?:boolean }) {
+// Opens a quest's detail dialog, which lives once at the App level rather than
+// inside each card — so it stays open even when its card leaves the list (e.g.
+// marking it done under "Not started", or unsaving it on the Saved tab). The
+// trigger element is where focus returns when the dialog closes.
+const OpenQuestContext = createContext<(id:number, trigger?:HTMLElement|null)=>void>(()=>{});
+
+function QuestCard({ quest, saved, onSave, completed=false, completedAt, onComplete, onOpen }: { quest:Quest; saved:boolean; onSave:(id:number)=>void; completed?:boolean; completedAt?:string; onComplete?:(id:number)=>void; onOpen?:(id:number)=>void; variant?:"grid"|"row"; showGameLabel?:boolean }) {
   const meta = GAMES[quest.game];
   const col  = meta?.accent ?? "#c5933a";
-  const [open, setOpen] = useState(false);
+  const openQuest = useContext(OpenQuestContext);
   // Radix returns focus to its own DialogTrigger on close, but this card
-  // isn't one — it's a whole clickable article. Track the title button
-  // ourselves so focus lands back on it (not <body>) once the modal closes.
+  // isn't one — it's a whole clickable article. Hand the title button to the
+  // dialog so focus lands back on it (not <body>) once the modal closes.
   const triggerRef = useRef<HTMLButtonElement>(null);
   const status = questStatus(quest, completed);
 
   return (
-    <>
     <article
-      onClick={()=>{setOpen(true);onOpen?.(quest.id);}}
+      onClick={()=>{openQuest(quest.id, triggerRef.current);onOpen?.(quest.id);}}
       className="group flex items-center gap-3 sm:gap-3.5 bg-card border rounded-xl p-3 sm:p-[15px] cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
       style={{ borderColor: status.border }}
       onMouseEnter={e=>{const el=e.currentTarget;el.style.boxShadow=`0 10px 28px rgba(0,0,0,.45),0 0 0 1px ${col}22`;}}
@@ -485,16 +490,6 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
         </button>
       </div>
     </article>
-
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent
-        className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
-        onCloseAutoFocus={e=>{ e.preventDefault(); triggerRef.current?.focus(); }}
-      >
-        <QuestDetail quest={quest} onClose={()=>setOpen(false)} onSave={onSave} saved={saved} onComplete={onComplete} completed={completed} completedAt={completedAt} completedSteps={completedSteps} onToggleStep={onToggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
-      </DialogContent>
-    </Dialog>
-    </>
   );
 }
 
@@ -881,13 +876,12 @@ function FilterChips({ label, options, selected, onToggle, colorFor }:{ label:st
 type LibSub = "saved"|"playing"|"finished"|"wishlist";
 function LibraryView(props:{
   savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>; completedAt:Record<number,string>;
-  onComplete:(id:number)=>void; onGoToLibrary:()=>void; completedSteps:Record<number,number[]>;
-  onToggleStep:(q:number,i:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
+  onComplete:(id:number)=>void; onGoToLibrary:()=>void;
   savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
   onOpenGame:(g:string)=>void; wishlist:string[]; wishlistDates:Record<string,string>;
   onToggleWishlist:(g:string)=>void; onMoveWishlist:(g:string,d:-1|1)=>void; onSetWishlistDate:(g:string,d:string)=>void;
 }){
-  const { savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+  const { savedIds, onSave, completedIds, completedAt, onComplete, onGoToLibrary,
     savedGames, onToggleSavedGame, games, onOpenGame, wishlist, wishlistDates, onToggleWishlist, onMoveWishlist, onSetWishlistDate } = props;
   const [sub,setSub] = useState<LibSub>("saved");
   const savedQuests = QUESTS.filter(q=>savedIds.has(q.id));
@@ -975,7 +969,7 @@ function LibraryView(props:{
                     {anyFilter>0 && <button onClick={()=>{setFGames(new Set());setFTypes(new Set());setFStatus(new Set());}} className="self-start text-[11px] text-muted-foreground hover:text-primary">↺ Clear filters</button>}
                   </div>
                   <div className="flex flex-col gap-2">
-                    {savedFiltered.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row" completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+                    {savedFiltered.map(q=><QuestCard key={q.id} quest={q} saved onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} variant="row"/>)}
                     {savedFiltered.length===0 && <p className="text-xs text-muted-foreground py-6 text-center">No saved quests match these filters.</p>}
                   </div>
                 </div>
@@ -1438,10 +1432,9 @@ function MobileTabBar({ tabs, tab, setTab }: { tabs:{id:Tab;icon:React.ReactNode
 
 // ─── Quest grid with auto-load sentinel ──────────────────────────────────────
 
-function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, completedAt, toggleComplete, selectedGame, completedSteps, toggleStep, hideSpoilers, autoplayVideo }: {
+function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSave, completedIds, completedAt, toggleComplete, selectedGame }: {
   filtered: Quest[]; visibleCount: number; setVisibleCount: React.Dispatch<React.SetStateAction<number>>;
   savedIds: Set<number>; toggleSave: (id:number)=>void; completedIds: Set<number>; completedAt: Record<number,string>; toggleComplete: (id:number)=>void; selectedGame: string;
-  completedSteps: Record<number,number[]>; toggleStep: (questId:number,stepIdx:number)=>void; hideSpoilers: boolean; autoplayVideo: boolean;
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
   // The sentinel unmounts whenever every result fits in one batch (e.g. a
@@ -1458,7 +1451,7 @@ function QuestGrid({ filtered, visibleCount, setVisibleCount, savedIds, toggleSa
   return (
     <>
       <div className="flex flex-col gap-3">
-        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={toggleComplete} showGameLabel={selectedGame==="All"} completedSteps={completedSteps[q.id]} onToggleStep={i=>toggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+        {filtered.slice(0,visibleCount).map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={toggleSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={toggleComplete} showGameLabel={selectedGame==="All"}/>)}
       </div>
       {hasMore && <div ref={sentinelRef} className="h-8"/>}
     </>
@@ -1599,11 +1592,10 @@ function GameOverview({ game, completedIds, completedAt, achievementsAt }:{ game
 }
 
 type GameTab = "overview"|"chapters"|"achievements"|"quests";
-function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt, completedSteps, onToggleStep, hideSpoilers, autoplayVideo,
+function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, onComplete, achievementsAt,
   savedGames, onToggleSavedGame, games, onSetFinished, wishlist, onToggleWishlist }:{
   game:string; onClose:()=>void; savedIds:Set<number>; onSave:(id:number)=>void; completedIds:Set<number>;
   completedAt:Record<number,string>; onComplete:(id:number)=>void; achievementsAt:Record<string,string>;
-  completedSteps:Record<number,number[]>; onToggleStep:(questId:number,stepIdx:number)=>void; hideSpoilers:boolean; autoplayVideo:boolean;
   savedGames:string[]; onToggleSavedGame:(g:string)=>void; games:Record<string,{startedAt?:string;finishedAt?:string}>;
   onSetFinished:(g:string,v:boolean)=>void; wishlist:string[]; onToggleWishlist:(g:string)=>void;
 }){
@@ -1668,7 +1660,7 @@ function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, 
       {gtab==="achievements" && <AchievementsPanel game={game} completedIds={completedIds} achievementsAt={achievementsAt}/>}
       {gtab==="quests" && (
         <div className="flex flex-col gap-2">
-          {p.quests.map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete} completedSteps={completedSteps[q.id]} onToggleStep={i=>onToggleStep(q.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>)}
+          {p.quests.map(q=><QuestCard key={q.id} quest={q} saved={savedIds.has(q.id)} onSave={onSave} completed={completedIds.has(q.id)} completedAt={completedAt[q.id]} onComplete={onComplete}/>)}
         </div>
       )}
     </div>
@@ -1721,6 +1713,8 @@ export default function App() {
   // F8 — a chat answer can deep-link to a quest, opening its detail dialog here.
   const [openQuestId, setOpenQuestId] = useState<number|null>(null);
   const openQuest = openQuestId!=null ? QUESTS.find(q=>q.id===openQuestId) ?? null : null;
+  const questTriggerRef = useRef<HTMLElement|null>(null);
+  const openQuestDialog = useCallback((id:number, trigger?:HTMLElement|null)=>{ questTriggerRef.current = trigger ?? null; setOpenQuestId(id); },[]);
   // Reading setting: spoilers are blurred by default until revealed per-quest.
   const [hideSpoilers,setHideSpoilers]= useState<boolean>(()=>{
     try { return JSON.parse(localStorage.getItem("hideSpoilers") ?? "true"); }
@@ -1947,6 +1941,7 @@ export default function App() {
   }
 
   return (
+    <OpenQuestContext.Provider value={openQuestDialog}>
     <div className="min-h-screen bg-background text-foreground pb-20 sm:pb-0" style={{fontFamily:"'Geist',sans-serif"}}>
 
       {/* ── Header ── */}
@@ -1986,7 +1981,7 @@ export default function App() {
 
       {/* ── Game page (overlays the tab content) ── */}
       {openGame ? (
-        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onSetFinished={setGameFinished} wishlist={wishlist} onToggleWishlist={toggleWishlist}/>
+        <GamePage game={openGame} onClose={()=>setOpenGame(null)} savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} achievementsAt={achievementsAt} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onSetFinished={setGameFinished} wishlist={wishlist} onToggleWishlist={toggleWishlist}/>
       ) : (
       <>
       {/* ── Compact banner for non-home tabs ── */}
@@ -2141,12 +2136,12 @@ export default function App() {
                 )}
                 {filtered.length===0
                   ? <div className="flex flex-col items-center justify-center py-24 gap-4 text-center"><Swords size={32} className="text-muted-foreground/25"/><p className="text-muted-foreground text-sm">No quests match — reset filters.</p><button onClick={resetFilters} className="text-xs text-primary hover:underline">Reset filters</button></div>
-                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} completedAt={completedAt} toggleComplete={toggleComplete} selectedGame={selectedGame} completedSteps={completedSteps} toggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>
+                  : <QuestGrid filtered={filtered} visibleCount={visibleCount} setVisibleCount={setVisibleCount} savedIds={savedIds} toggleSave={toggleSave} completedIds={completedIds} completedAt={completedAt} toggleComplete={toggleComplete} selectedGame={selectedGame}/>
                 }
               </>
             )}
             {tab==="news"  && <NewsTab/>}
-            {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} completedSteps={completedSteps} onToggleStep={toggleStep} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
+            {tab==="saved" && <LibraryView savedIds={savedIds} onSave={toggleSave} completedIds={completedIds} completedAt={completedAt} onComplete={toggleComplete} onGoToLibrary={()=>setTab("browse")} savedGames={savedGames} onToggleSavedGame={toggleSavedGame} games={games} onOpenGame={setOpenGame} wishlist={wishlist} wishlistDates={wishlistDates} onToggleWishlist={toggleWishlist} onMoveWishlist={moveWishlist} onSetWishlistDate={setWishlistDate}/>}
             {tab==="progress" && <ProgressTab completedIds={completedIds} onGoTo={goTo} points={points} streak={streak} achievementsLabel={achievementsLabel}/>}
             {tab==="settings" && <SettingsTab hideSpoilers={hideSpoilers} setHideSpoilers={setHideSpoilers} autoplayVideo={autoplayVideo} setAutoplayVideo={setAutoplayVideo} defaultDifficulty={defaultDifficulty} setDefaultDifficulty={d=>{ setDefaultDifficulty(d); setDiffFilter(d); }} onResetProgress={resetProgress} canInstall={!!installPrompt} onInstall={promptInstall} theme={theme} setTheme={setTheme} offlineState={offlineState} onDownloadOffline={downloadOffline}/>}
           </main>
@@ -2165,18 +2160,20 @@ export default function App() {
         </div>
       </footer>
 
-      <ChatWidget onOpenQuest={setOpenQuestId}/>
+      <ChatWidget onOpenQuest={openQuestDialog}/>
       {TABS.length>0 && <MobileTabBar tabs={TABS} tab={tab} setTab={setTab}/>}
 
-      {/* F8 — quest deep-link dialog opened from a chat answer */}
+      {/* The one quest-detail dialog — opened from any quest card or a chat answer */}
       <Dialog open={!!openQuest} onOpenChange={o=>{ if(!o) setOpenQuestId(null); }}>
-        <DialogContent className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg">
-          {openQuest && <QuestDetail quest={openQuest} onClose={()=>setOpenQuestId(null)} onSave={toggleSave} saved={savedIds.has(openQuest.id)} onComplete={toggleComplete} completed={completedIds.has(openQuest.id)} completedAt={completedAt[openQuest.id]} completedSteps={completedSteps[openQuest.id]} onToggleStep={i=>toggleStep(openQuest.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
+        <DialogContent className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
+          onCloseAutoFocus={e=>{ const t=questTriggerRef.current; if(t?.isConnected){ e.preventDefault(); t.focus(); } }}>
+          {openQuest && <QuestDetail key={openQuest.id} quest={openQuest} onClose={()=>setOpenQuestId(null)} onSave={toggleSave} saved={savedIds.has(openQuest.id)} onComplete={toggleComplete} completed={completedIds.has(openQuest.id)} completedAt={completedAt[openQuest.id]} completedSteps={completedSteps[openQuest.id]} onToggleStep={i=>toggleStep(openQuest.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
         </DialogContent>
       </Dialog>
 
       {/* F11 — first-visit PWA / notification welcome sheet */}
       {!welcomeDismissed && <WelcomeSheet onDismiss={dismissWelcome} canInstall={!!installPrompt} onInstall={promptInstall}/>}
     </div>
+    </OpenQuestContext.Provider>
   );
 }
