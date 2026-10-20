@@ -51,6 +51,9 @@ const chapterIndex = (q:Quest) => {
   const i = GAMES[q.game]?.chapters.findIndex(c=>c.id===q.chapterId) ?? -1;
   return i < 0 ? Number.MAX_SAFE_INTEGER : i;
 };
+// Tab / game page named in the URL, if valid (unknown values fall back).
+const tabFromUrl = ():Tab => { const t = new URLSearchParams(window.location.search).get("tab") as Tab; return LIVE_TABS.includes(t) ? t : (LIVE_TABS[0] ?? "home"); };
+const gamePageFromUrl = ():string|null => { const g = new URLSearchParams(window.location.search).get("page"); return g && GAMES[g] ? g : null; };
 interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
 // ─── Shared helpers ───────────────────────────────────────────────────────────
@@ -1683,7 +1686,9 @@ function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, 
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
-  const [tab,         setTab]         = useState<Tab>(LIVE_TABS[0] ?? "home");
+  // The tab and any open game page live in the URL (?tab=…&page=…) so a reload
+  // stays put and Back/Forward step between them; see the URL sync below.
+  const [tab,         setTabState]    = useState<Tab>(tabFromUrl);
   // Filters are shareable via URL query string (survives refresh, can be sent
   // to someone else); the URL takes precedence over the last-used-locally
   // fallback so a returning visitor still lands back where they left off.
@@ -1722,7 +1727,18 @@ export default function App() {
   const totalAchievements = useMemo(()=>Object.values(ACHIEVEMENTS).reduce((s,l)=>s+l.length,0),[]);
   const achievementsLabel = `${Object.keys(achievementsAt).length}/${totalAchievements}`;
   // A selected game opens a full game page (overview/chapters/achievements/quests).
-  const [openGame, setOpenGame] = useState<string|null>(null);
+  const [openGame, setOpenGameState] = useState<string|null>(gamePageFromUrl);
+  // User navigation (vs. a filter tweak or Back/Forward) — the next URL sync
+  // pushes a history entry instead of replacing the current one.
+  const navPending = useRef(false);
+  const setOpenGame = (g:string|null)=>{ if(g!==openGame) navPending.current = true; setOpenGameState(g); };
+  // Picking a tab — including the one you're on — also closes an open game page.
+  const setTab = (t:Tab)=>{ if(t!==tab||openGame) navPending.current = true; setTabState(t); setOpenGameState(null); };
+  useEffect(()=>{
+    const onPop = ()=>{ setTabState(tabFromUrl()); setOpenGameState(gamePageFromUrl()); };
+    window.addEventListener("popstate", onPop);
+    return ()=>window.removeEventListener("popstate", onPop);
+  },[]);
   // F8 — a chat answer can deep-link to a quest, opening its detail dialog here.
   const [openQuestId, setOpenQuestId] = useState<number|null>(null);
   const openQuest = openQuestId!=null ? QUESTS.find(q=>q.id===openQuestId) ?? null : null;
@@ -1747,25 +1763,32 @@ export default function App() {
   useEffect(()=>{ localStorage.setItem("theme", theme); document.documentElement.classList.toggle("light", theme==="light"); },[theme]);
   useEffect(()=>{ localStorage.setItem("lastGame",selectedGame); localStorage.setItem("lastType",typeFilter); localStorage.setItem("lastDiff",diffFilter); localStorage.setItem("lastLen",lenFilter); localStorage.setItem("lastVideo",videoFilter); },[selectedGame,typeFilter,diffFilter,lenFilter,videoFilter]);
 
-  // Keep the Library filters in the URL query string so a filtered view is
-  // shareable and survives a refresh.
+  // Keep the tab, game page and (on the Library) its filters in the URL query
+  // string so a view is shareable and survives a refresh. Navigation pushes a
+  // history entry; filter changes replace the current one.
   useEffect(()=>{
-    if(tab!=="browse")return;
     const params = new URLSearchParams();
-    if(selectedGame!=="All") params.set("game",selectedGame);
-    if(typeFilter!=="All") params.set("type",typeFilter);
-    if(diffFilter!=="All") params.set("diff",diffFilter);
-    if(lenFilter!=="All") params.set("len",lenFilter);
-    if(videoFilter!=="All") params.set("video",videoFilter);
-    if(notStartedOnly) params.set("notStarted","1");
-    if(missableOnly) params.set("missable","1");
-    if(catFilter!=="All") params.set("cat",catFilter);
-    if(chapterFilter!=="All") params.set("chapter",chapterFilter);
-    if(regionFilter!=="All") params.set("region",regionFilter);
-    if(search) params.set("q",search);
+    if(tab!==LIVE_TABS[0]) params.set("tab",tab);
+    if(openGame) params.set("page",openGame);
+    if(tab==="browse"){
+      if(selectedGame!=="All") params.set("game",selectedGame);
+      if(typeFilter!=="All") params.set("type",typeFilter);
+      if(diffFilter!=="All") params.set("diff",diffFilter);
+      if(lenFilter!=="All") params.set("len",lenFilter);
+      if(videoFilter!=="All") params.set("video",videoFilter);
+      if(notStartedOnly) params.set("notStarted","1");
+      if(missableOnly) params.set("missable","1");
+      if(catFilter!=="All") params.set("cat",catFilter);
+      if(chapterFilter!=="All") params.set("chapter",chapterFilter);
+      if(regionFilter!=="All") params.set("region",regionFilter);
+      if(search) params.set("q",search);
+    }
     const qs = params.toString();
-    window.history.replaceState(null,"",qs?`${window.location.pathname}?${qs}`:window.location.pathname);
-  },[tab,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
+    const url = qs?`${window.location.pathname}?${qs}`:window.location.pathname;
+    const push = navPending.current; navPending.current = false;
+    if(url===window.location.pathname+window.location.search) return;
+    if(push) window.history.pushState(null,"",url); else window.history.replaceState(null,"",url);
+  },[tab,openGame,selectedGame,typeFilter,diffFilter,lenFilter,videoFilter,notStartedOnly,missableOnly,catFilter,chapterFilter,regionFilter,search]);
 
   // Custom PWA install prompt: capture the browser's default prompt so it can
   // be triggered from a Settings button instead (the default one is easy to
@@ -1806,7 +1829,7 @@ export default function App() {
 
   // Switching tabs (e.g. a Home shortcut jumping to the Library) should start
   // at the top, not wherever the previous tab was scrolled to.
-  useEffect(()=>{ window.scrollTo(0,0); setOpenGame(null); },[tab]);
+  useEffect(()=>{ window.scrollTo(0,0); },[tab]);
 
   // Only promoted tabs are reachable in both prod and staging (staging mirrors
   // prod); a shortcut to an un-promoted tab is a no-op.
