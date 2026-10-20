@@ -18,10 +18,20 @@ const PROD_DATA = path.resolve(
 );
 const OUT = path.resolve(__dirname, "../src/generated/data.ts");
 
-// The deploy publishes the vanilla site under /newapp/classic/, so its images/
-// dir lives at /newapp/classic/images/. Use an absolute URL so covers resolve
-// no matter where the redesign is hosted (/staging/, /app/, or local dev).
-const IMG_BASE = "https://kbarbu12.github.io/newapp/classic/";
+// Cover art ships with each build: copy the source site's cover files into
+// public/covers/ and reference them relatively, so /staging/ shows its own
+// branch's covers and nothing depends on the live site being reachable.
+const SITE_DIR = path.resolve(__dirname, "../../ps5-rpg-sidequest-summarizer");
+const COVERS_OUT = path.resolve(__dirname, "../public/covers");
+fs.rmSync(COVERS_OUT, { recursive: true, force: true });
+fs.mkdirSync(COVERS_OUT, { recursive: true });
+const copyCover = (rel) => {
+  const from = path.join(SITE_DIR, rel.replace(/^\.?\//, ""));
+  const name = path.basename(from);
+  if (fs.existsSync(from)) fs.copyFileSync(from, path.join(COVERS_OUT, name));
+  else console.warn(`gen-data: cover not found: ${rel}`);
+  return `covers/${name}`;
+};
 
 // The prod file declares `const gameImages = {...}` and `const quests = [...]`
 // with no exports. Append an export line, import it as a temp ESM module.
@@ -40,7 +50,7 @@ const lastHex = (g) => {
 const GAMES = {};
 for (const [name, gi] of Object.entries(gameImages)) {
   GAMES[name] = {
-    cover: IMG_BASE + gi.cover.replace(/^\.?\//, ""),
+    cover: copyCover(gi.cover),
     abbr: gi.abbr,
     accent: lastHex(gi.gradient),
     gradient: gi.gradient,
@@ -256,6 +266,25 @@ for (const [name, qs] of Object.entries(byGame)) {
 }
 
 // Keep only the fields the design consumes.
+// ── Quest details (loaded lazily) ───────────────────────────────────────────
+// Walkthrough steps, tips and rewards are about half the data but are only
+// read when a quest is opened or the chat answers, so they ship as a separate
+// JSON the app fetches after first render (see src/app/questDetails.ts).
+// Cards only need the step count, which stays in QUESTS as `steps`.
+const hasSteps = (q) => Array.isArray(q.walkthrough) && q.walkthrough.length > 0;
+const DETAILS = {};
+for (const q of quests) {
+  const d = {
+    ...(q.aiTip ? { aiTip: q.aiTip } : {}),
+    ...(q.reward ? { reward: q.reward } : {}),
+    ...(hasSteps(q) ? { walkthrough: q.walkthrough } : {}),
+  };
+  if (Object.keys(d).length) DETAILS[q.id] = d;
+}
+const DETAILS_OUT = path.resolve(__dirname, "../src/generated/quest-details.json");
+fs.mkdirSync(path.dirname(DETAILS_OUT), { recursive: true });
+fs.writeFileSync(DETAILS_OUT, JSON.stringify(DETAILS));
+
 const QUESTS = quests.map((q) => ({
   id: q.id,
   type: questType(q),
@@ -270,17 +299,77 @@ const QUESTS = quests.map((q) => ({
   summary: q.summary,
   ...(q.location ? { location: q.location } : {}),
   ...(q.region ? { region: q.region } : {}),
-  ...(q.aiTip ? { aiTip: q.aiTip } : {}),
   ...(hasRealVideo(q.video) ? { video: q.video } : {}),
-  ...(q.reward ? { reward: q.reward } : {}),
-  ...(Array.isArray(q.walkthrough) && q.walkthrough.length
-    ? { walkthrough: q.walkthrough }
-    : {}),
+  ...(hasSteps(q) ? { steps: q.walkthrough.length } : {}),
   // No source data yet for which quests are missable — defaults to false/
   // omitted until real per-quest data is authored (see quest-guide-
   // improvement-spec-2026-07-15.md).
   ...(q.missable ? { missable: true, ...(q.missableWindow ? { missableWindow: q.missableWindow } : {}) } : {}),
 }));
+
+// ── News (from CHANGELOG.md) ────────────────────────────────────────────────
+// The News tab shows real updates: each prod deploy's CHANGELOG entries, newest
+// first. Process/tooling entries (logs, templates, audit rules, promotions)
+// mean nothing to players and are skipped; PR numbers and version tags are
+// stripped from the text.
+const CHANGELOG = path.resolve(__dirname, "../../CHANGELOG.md");
+const INTERNAL = /PROGRESS\.md|CHANGELOG|TODO|PR template|semver|audit|one-PR|QA & release|Promote .* to production|title-check results/i;
+// Short names the changelog uses → game. More specific names first.
+const GAME_ALIASES = [
+  ["Deadfire", "Pillars of Eternity II: Deadfire"],
+  ["AC Odyssey", "Assassin's Creed Odyssey"],
+  ["Valhalla", "Assassin's Creed Valhalla"],
+  ["Witcher 3", "The Witcher 3: Wild Hunt"],
+  ["Baldur's Gate 3", "Baldur's Gate 3"],
+  ["Black Myth", "Black Myth: Wukong"],
+  ["Ghost of Yotei", "Ghost of Yotei"],
+  ["Tsushima", "Ghost of Tsushima"],
+  ["Jedi: Survivor", "Star Wars Jedi: Survivor"],
+  ["God of War", "God of War Ragnarök"],
+  ["Horizon", "Horizon Forbidden West"],
+  ["Hogwarts", "Hogwarts Legacy"],
+  ["Skyrim", "The Elder Scrolls V: Skyrim"],
+  ["Elden Ring", "Elden Ring"],
+  ["Metaphor", "Metaphor: ReFantazio"],
+  ["Persona 5", "Persona 5 Royal"],
+  ["Pillars of Eternity", "Pillars of Eternity"],
+];
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const NEWS = [];
+if (fs.existsSync(CHANGELOG)) {
+  let date = "";
+  // Each entry is a "- **Title** …" bullet, possibly wrapped over several lines.
+  const entries = [];
+  for (const line of fs.readFileSync(CHANGELOG, "utf8").split("\n")) {
+    const h = line.match(/^## (\d{4})-(\d{2})-(\d{2})/);
+    if (h) { date = `${MONTHS[Number(h[2]) - 1]} ${Number(h[3])}, ${h[1]}`; continue; }
+    if (line.startsWith("- **")) entries.push({ date, text: line.slice(2) });
+    else if (/^\s+\S/.test(line) && entries.length) entries[entries.length - 1].text += " " + line.trim();
+  }
+  for (const e of entries) {
+    const m = e.text.match(/^\*\*(.+?)\*\*\s*(.*)$/);
+    if (!m || INTERNAL.test(m[1])) continue;
+    const title = m[1].trim();
+    const body = m[2]
+      .replace(/\((?:PRs?|PR) #[^)]*\)/g, "")          // (PR #270), (PRs #258–#263)
+      .replace(/\s*—\s*`v[\d.]+`\s*(?:patch|minor|major)\.?/g, "") // — `v2.4.15` patch.
+      .replace(/\s*\((?:#\d+[^)]*)\)/g, "")              // (#2594), (#171, #172, …)
+      .replace(/\*\*|`/g, "").replace(/(^|\s)- /g, "$1")    // markdown bold/code/bullets
+      .replace(/^[—\s.]+/, "").replace(/\s+/g, " ").replace(/\s+([.,;:])/g, "$1").trim()
+      .replace(/^[a-z]/, (c) => c.toUpperCase());
+    const isNewGame = /^Add .*\(\d+ (?:quests|entries)\)/.test(title);
+    const isNewContent = !isNewGame && /^(Add \d+|\d+ more)\b/.test(title);
+    const game = Object.keys(GAMES).find((g) => title.includes(g)) ??
+      GAME_ALIASES.find(([alias]) => title.includes(alias))?.[1];
+    NEWS.push({
+      id: NEWS.length + 1,
+      type: isNewGame ? "new-game" : isNewContent ? "new-quest" : "update",
+      tag: isNewGame ? "New Game" : isNewContent ? "New Content" : "Updated",
+      date: e.date, title, body,
+      ...(game && GAMES[game] ? { game } : {}),
+    });
+  }
+}
 
 const banner =
   "// AUTO-GENERATED by scripts/gen-data.mjs from the live quest data.\n" +
@@ -292,8 +381,10 @@ const body =
   "export interface Quest {\n" +
   "  id: number; type: QuestType; game: string; title: string; category?: string; arc?: string; chapterId?: string;\n" +
   "  length: \"short\" | \"medium\" | \"long\"; difficulty: \"Low\" | \"Medium\" | \"High\"; points: number;\n" +
-  "  summary: string; location?: string; region?: string; aiTip?: string;\n" +
-  "  video?: string; reward?: string; walkthrough?: string[];\n" +
+  "  summary: string; location?: string; region?: string;\n" +
+  "  video?: string; steps?: number;\n" +
+  "  /** Lazily loaded (quest-details.json) — undefined until questDetails has loaded. */\n" +
+  "  reward?: string; aiTip?: string; walkthrough?: string[];\n" +
   "  missable?: boolean; missableWindow?: string;\n" +
   "}\n\n" +
   "export interface Chapter { id: string; name: string; questIds: number[]; }\n\n" +
@@ -312,10 +403,15 @@ const body =
   "}\n\n" +
   `export const GAMES: Record<string, GameMeta> = ${JSON.stringify(GAMES, null, 2)};\n\n` +
   `export const QUESTS: Quest[] = ${JSON.stringify(QUESTS, null, 2)};\n\n` +
-  `export const ACHIEVEMENTS: Record<string, Achievement[]> = ${JSON.stringify(ACHIEVEMENTS, null, 2)};\n`;
+  `export const ACHIEVEMENTS: Record<string, Achievement[]> = ${JSON.stringify(ACHIEVEMENTS, null, 2)};\n\n` +
+  "export interface NewsItem {\n" +
+  "  id: number; type: \"new-quest\" | \"update\" | \"new-game\"; tag: string;\n" +
+  "  date: string; title: string; body: string; game?: string;\n" +
+  "}\n\n" +
+  `export const NEWS: NewsItem[] = ${JSON.stringify(NEWS, null, 2)};\n`;
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, body);
 console.log(
-  `gen-data: wrote ${QUESTS.length} quests, ${Object.keys(GAMES).length} games -> ${path.relative(process.cwd(), OUT)}`
+  `gen-data: wrote ${QUESTS.length} quests, ${Object.keys(GAMES).length} games, ${NEWS.length} news items -> ${path.relative(process.cwd(), OUT)}`
 );

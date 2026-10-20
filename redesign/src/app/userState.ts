@@ -14,6 +14,9 @@ import { QUESTS, GAMES, ACHIEVEMENTS, type Quest, type Achievement } from "../ge
 
 const KEY = "rqg:v2";
 const GAME_FINISH_BONUS = 500;
+// Share of a game's quests that must be done before it can be marked finished
+// (and before its finish bonus counts) — owner decision, QA 2026-10-20.
+export const FINISH_MIN_SHARE = 0.5;
 
 export interface UserState {
   completed: Record<number, string>; // questId -> ISO completedAt
@@ -97,15 +100,26 @@ function reconcileAchievements(
   return next;
 }
 
-/** Total points: completed quests' points + a bonus per finished game. */
+/** Has at least FINISH_MIN_SHARE of this game's quests been completed? */
+export function canFinishGame(game: string, completed: Record<number, string>): boolean {
+  const gq = QUESTS_BY_GAME[game] ?? [];
+  return gq.length > 0 && gq.filter((q) => completed[q.id]).length >= gq.length * FINISH_MIN_SHARE;
+}
+
+/** Total points: completed quests' points + a bonus per finished game. A
+ *  finished game only earns its bonus while it still meets the threshold. */
 export function totalPoints(s: UserState): number {
   let p = 0;
   for (const id of Object.keys(s.completed)) p += QUEST_BY_ID.get(Number(id))?.points ?? 0;
-  const finished = Object.values(s.games).filter((g) => g.finishedAt).length;
+  const finished = Object.entries(s.games).filter(([name, g]) => g.finishedAt && canFinishGame(name, s.completed)).length;
   return p + finished * GAME_FINISH_BONUS;
 }
 
-const dayKey = (iso: string) => iso.slice(0, 10); // YYYY-MM-DD
+// Streak days are the player's *local* calendar days (YYYY-MM-DD), not UTC —
+// otherwise an evening session west of UTC lands on "tomorrow".
+const localDay = (x: Date) =>
+  `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`;
+const dayKey = (iso: string) => localDay(new Date(iso));
 
 /** Consecutive-day completion streak ending today (or yesterday, still alive). */
 export function currentStreak(s: UserState, now = new Date()): number {
@@ -113,13 +127,12 @@ export function currentStreak(s: UserState, now = new Date()): number {
   if (!days.size) return 0;
   const d = new Date(now);
   // Streak stays alive if there's activity today or yesterday.
-  const iso = (x: Date) => x.toISOString().slice(0, 10);
-  if (!days.has(iso(d))) {
+  if (!days.has(localDay(d))) {
     d.setDate(d.getDate() - 1);
-    if (!days.has(iso(d))) return 0;
+    if (!days.has(localDay(d))) return 0;
   }
   let streak = 0;
-  while (days.has(iso(d))) {
+  while (days.has(localDay(d))) {
     streak++;
     d.setDate(d.getDate() - 1);
   }
@@ -173,6 +186,17 @@ export { GAMES };
 export function useUserState() {
   const [state, setState] = useState<UserState>(loadState);
   useEffect(() => saveState(state), [state]);
+
+  // Another tab wrote progress: adopt it, so this tab's next save doesn't
+  // overwrite it with a stale copy. (The `storage` event only fires in *other*
+  // tabs, and re-saving an identical value doesn't fire it, so no ping-pong.)
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === KEY) setState(loadState());
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
 
   // On first mount, backfill achievement timestamps for quests that were
   // already completed (e.g. migrated pre-v2 progress) so the panel is accurate
@@ -246,6 +270,7 @@ export function useUserState() {
   const setGameFinished = useCallback(
     (name: string, finished: boolean) =>
       setState((s) => {
+        if (finished && !canFinishGame(name, s.completed)) return s;
         const g = { ...(s.games[name] ?? {}) };
         if (finished) {
           g.finishedAt = new Date().toISOString();

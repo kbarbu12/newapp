@@ -77,8 +77,16 @@ function withSynonyms(toks: string[]): string[] {
 // name that is unique to it (appears in no other game's name). Shared words like
 // "final"/"fantasy" are excluded so they can't produce false multi-game matches
 // (which would misfire the two-game compare intent). Computed once at load.
+// Lower-case and strip accents, so "Ragnarök" and "ragnarok" match each other
+// (otherwise the "ö" splits the word in two).
+const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const NAME_WORDS = (name: string) =>
-  name.toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(w => w.length > 3);
+  fold(name).replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(w => w.length > 3);
+// Common names a game's distinctive title words miss — "God of War" is all
+// short words, so nothing above identifies it.
+const ALIASES: Record<string, string[]> = {
+  "God of War Ragnarök": ["god of war"],
+};
 const WORD_FREQ: Record<string, number> = {};
 for (const name of Object.keys(GAMES)) for (const w of new Set(NAME_WORDS(name))) WORD_FREQ[w] = (WORD_FREQ[w] ?? 0) + 1;
 const GAME_IDS = Object.keys(GAMES).map(name => ({
@@ -92,10 +100,11 @@ const GAME_IDS = Object.keys(GAMES).map(name => ({
 // and two-game comparisons). Falls back to a single fuzzy match on any title
 // word when nothing distinctive hits, so "quests in the witcher" still resolves.
 function findGames(q: string): string[] {
-  const lc = q.toLowerCase();
+  const lc = fold(q);
   const out: string[] = [];
   for (const g of GAME_IDS) {
-    if (lc.includes(g.name.toLowerCase())
+    if (lc.includes(fold(g.name))
+      || (ALIASES[g.name] ?? []).some(a => lc.includes(a))
       || new RegExp(`\\b${g.abbr}\\b`).test(lc)
       || g.uniq.some(w => new RegExp(`\\b${w}\\b`).test(lc))) out.push(g.name);
   }
@@ -127,7 +136,7 @@ function scoreQuest(q: Quest, toks: string[]): number {
 function detail(q: Quest): string {
   const lines = [
     `${q.title} — ${q.game}`,
-    `${q.type === "main" ? "Main" : "Side"} quest · ${q.difficulty} difficulty · ${q.length} length`,
+    `${{ main: "Main", side: "Side", optional: "Optional" }[q.type]} quest · ${q.difficulty} difficulty · ${q.length} length`,
     "",
     q.summary,
   ];
@@ -197,7 +206,7 @@ function attributeAnswer(lc: string, q: Quest): string | null {
 export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   const q = raw.trim();
   const lc = q.toLowerCase();
-  const toks = tokenize(q);
+  const toks = tokenize(fold(q));
   const games = findGames(q);
   const game = games[0];
 
@@ -205,8 +214,11 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   // When a game is named the pool is already filtered to it, so its own title
   // words ("elden", "ring") carry no signal — strip them before scoring, or
   // they inflate every quest's score and suppress filtered listings like
-  // "short Elden Ring quests".
-  const gameWords = game ? new Set(NAME_WORDS(game)) : undefined;
+  // "short Elden Ring quests". Includes alias words, so "god"/"war" from
+  // "God of War quests" don't make every quest with "War" in its title a hit.
+  const gameWords = game
+    ? new Set([...NAME_WORDS(game), ...tokenize(fold(game)), ...(ALIASES[game] ?? []).flatMap(tokenize)])
+    : undefined;
   const terms = withSynonyms(gameWords ? toks.filter(t => !gameWords.has(t)) : toks);
   const scored = (game ? QUESTS.filter(x => x.game === game) : QUESTS)
     .map(x => ({ q: x, s: scoreQuest(x, terms) })).sort((a, b) => b.s - a.s);
@@ -331,12 +343,17 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   const len = /\b(short|shortest|quick|fast)\b/.test(lc) ? "short"
     : /\b(long|longest)\b/.test(lc) ? "long" : undefined;
   const wantsVideo = /\bvideo\b/.test(lc);
-  const isListy = /\b(list|show|recommend|suggest|which|what|any|some|best|top|browse)\b/.test(lc);
+  const isListy = /\b(list|show|recommend|suggest|which|what|any|some|best|top|browse|quests)\b/.test(lc);
+  // Difficulty/length/video words are filters ("hard Zelda shrines"), unless
+  // the question is *about* a quest's length or difficulty ("how long is …").
+  const asked = (x: Quest) => wantsAggregate ||
+    ((!diff || x.difficulty === diff) && (!len || x.length === len) && (!wantsVideo || !!x.video));
+  const best = scored.find(x => asked(x.q));
 
   const pool = game ? QUESTS.filter(x => x.game === game) : QUESTS;
 
   // Filtered listing: a game/difficulty/length request without one clear target.
-  if ((game || diff || len || wantsVideo) && (isListy || !top || top.s < 6)) {
+  if ((game || diff || len || wantsVideo) && (isListy || !best || best.s < 6)) {
     const list = pool
       .filter(x => (!diff || x.difficulty === diff) && (!len || x.length === len) && (!wantsVideo || !!x.video))
       .sort((a, b) => DIFF_RANK[b.difficulty] - DIFF_RANK[a.difficulty])
@@ -350,7 +367,7 @@ export function answerQuestion(raw: string, ctx: ChatContext = {}): ChatReply {
   }
 
   // Strong single match → full quest answer.
-  if (top && top.s >= 6) return { content: detail(top.q), quest: top.q, context: { lastQuest: top.q, lastGame: top.q.game } };
+  if (best && best.s >= 6) return { content: detail(best.q), quest: best.q, context: { lastQuest: best.q, lastGame: best.q.game } };
 
   // Weak matches → offer the closest quests.
   const sugg = scored.filter(x => x.s > 0).slice(0, 3);
