@@ -13,9 +13,9 @@
 export type Tab = "home" | "browse" | "news" | "saved" | "progress" | "settings";
 
 export const PROMOTED_TABS: Record<Tab, boolean> = {
-  home: false,     // not yet promoted
+  home: true,      // live in prod
   browse: true,    // Library — live in prod
-  news: false,     // not yet promoted
+  news: true,      // live in prod
   saved: true,     // live in prod
   progress: true,  // live in prod
   settings: true,  // live in prod
