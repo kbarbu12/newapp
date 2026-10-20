@@ -1031,7 +1031,7 @@ function LibraryView(props:{
                 ))}
               </ol>}
           <div className="flex items-center gap-2">
-            <select value="" onChange={e=>{ if(e.target.value) onToggleWishlist(e.target.value); }} className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50">
+            <select value="" aria-label="Add a game to Plan to Play" onChange={e=>{ if(e.target.value) onToggleWishlist(e.target.value); }} className="bg-secondary border border-border rounded-lg px-2.5 py-2 text-xs text-foreground outline-none focus:border-primary/50">
               <option value="">＋ Add a game to Plan to Play…</option>
               {wishlistPool.map(g=><option key={g} value={g}>{g}</option>)}
             </select>
@@ -1191,13 +1191,13 @@ function SettingsTab({
     <div className="flex flex-col gap-6 max-w-lg">
       <SettingsSection title="Reading">
         <SettingsRow label="Hide spoilers by default" hint="Blur walkthrough steps until you choose to reveal them.">
-          <Switch checked={hideSpoilers} onCheckedChange={setHideSpoilers}/>
+          <Switch checked={hideSpoilers} onCheckedChange={setHideSpoilers} aria-label="Hide spoilers by default"/>
         </SettingsRow>
         <SettingsRow label="Autoplay walkthrough video" hint="Start playing the embedded video as soon as a quest opens.">
-          <Switch checked={autoplayVideo} onCheckedChange={setAutoplayVideo}/>
+          <Switch checked={autoplayVideo} onCheckedChange={setAutoplayVideo} aria-label="Autoplay walkthrough video"/>
         </SettingsRow>
         <SettingsRow label="Default difficulty filter" hint="Applied to the Library until you pick a different filter.">
-          <select value={defaultDifficulty} onChange={e=>setDefaultDifficulty(e.target.value as DiffFilter)} className="bg-secondary border border-border rounded-lg px-2.5 py-1.5 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
+          <select value={defaultDifficulty} aria-label="Default difficulty filter" onChange={e=>setDefaultDifficulty(e.target.value as DiffFilter)} className="bg-secondary border border-border rounded-lg px-2.5 py-1.5 text-xs text-foreground outline-none focus:border-primary/50 transition-colors">
             {(["All","Low","Medium","High"] as DiffFilter[]).map(d=><option key={d} value={d}>{d}</option>)}
           </select>
         </SettingsRow>
@@ -1205,9 +1205,9 @@ function SettingsTab({
 
       <SettingsSection title="Appearance">
         <SettingsRow label="Theme" hint="Switch between the dark and light palette.">
-          <div className="flex rounded-lg border border-border overflow-hidden">
+          <div role="group" aria-label="Theme" className="flex rounded-lg border border-border overflow-hidden">
             {(["dark","light"] as const).map(t=>(
-              <button key={t} onClick={()=>setTheme(t)}
+              <button key={t} onClick={()=>setTheme(t)} aria-pressed={theme===t}
                 className={`px-3 py-1.5 text-xs font-medium capitalize transition-colors ${theme===t?"bg-primary text-primary-foreground":"bg-secondary text-muted-foreground hover:text-foreground"}`}>{t}</button>
             ))}
           </div>
