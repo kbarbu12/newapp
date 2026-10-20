@@ -45,3 +45,15 @@ These are merged into `main` and safe to delete via the GitHub UI:
 - `claude/add-pr-template` (PR #38 — PR template)
 - `claude/qa-and-changelog-rules` (PR #39 — QA & release rules)
 - `claude/add-todo` (PR #40 — this file, once merged)
+
+## Decisions from QA 2026-10-20 (`docs/qa-session-2026-10-20.md`)
+- **M7 "Mark finished" bonus — DECIDED, to build:** a game can only be marked
+  finished (and earn the +500) once **at least 50%** of its quests are done.
+- **M8 reminders — PARKED until there's a server:** the owner wants real
+  reminders, but scheduled notifications while the app is closed need a push
+  service. Until then, leave "Enable reminders" as is (or hide it). Revisit
+  when a backend exists.
+- **Quest data fixes — after the app fixes:** re-type AC Valhalla's Order
+  of the Ancients entry (the other 141 are correctly `main`; Valhalla's World
+  Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
+  fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
