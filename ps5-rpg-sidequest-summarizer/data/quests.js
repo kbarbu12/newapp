@@ -6154,7 +6154,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Zion Wylde, a nomad pushed past his limit. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Zion Wylde is out at Vasquez Pass. Bring a blunt weapon or non-lethal quickhacks if you want the bonus for taking him alive.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Drive to Vasquez Pass in the Badlands.",
@@ -6170,17 +6170,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Badlands",
     title: "Cyberpsycho Sighting: The Wasteland",
-    location: "Badlands",
+    location: "Crashed vehicles → bridge, eastern Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos, reported in Badlands. Regina Jones wants them stopped, and alive if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Euralio Alma, in the eastern Badlands. A large shield and an exoskeleton protect him, and his battery is the weak point.",
+    aiTip: "Shoot for Euralio Alma's battery. His shield and exoskeleton soak damage until you break it.",
     walkthrough: [
       "Accept the Cyberpsycho Sighting from Regina Jones.",
-      "Travel to the marked area in Badlands and scan the scene for clues.",
-      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
-      "Loot the shard nearby, then call Regina to report back."
+      "Go to the two crashed vehicles in the east of the Badlands and scan the scene.",
+      "Follow the trail to Euralio Alma by the bridge.",
+      "Target his battery to get past his shield and exoskeleton, using non-lethal damage to take him alive.",
+      "Loot the shard and call Regina."
     ],
     video: "https://www.youtube.com/watch?v=34OvcZxR0mI"
   },
@@ -6195,7 +6196,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Russell Greene, a veteran barricaded on his property. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Russell Greene is barricaded on his homestead in Rocky Ridge, so scan the property before you go in.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Drive to the Greene Homestead in Rocky Ridge.",
@@ -6216,7 +6217,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Chase Coley, a ripperdoc's botched patient. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Chase Coley is in the south-east corner of Rancho Coronado. Read the shard afterwards for what the botched ripperdoc job did to him.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go to the south-east corner of Rancho Coronado.",
@@ -6237,7 +6238,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Ellis Carter, a fixer's enforcer gone berserk. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Ellis Carter is down the alley by the Totentanz. Fast travel to Pershing St and walk in.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go down the alley by the Totentanz, near the Pershing St fast travel point.",
@@ -6279,7 +6280,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Lely Hein, a grave-robbing cyberpsycho. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Follow the train tracks from the Ebunike Docks fast travel point to find Lely Hein.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Follow the train tracks near the Ebunike Docks fast travel point.",
@@ -6300,7 +6301,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Matt Liaw, a soldier reliving the war. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Matt Liaw is up on the unfinished highway bridge north of Charter St, so climb up before you engage.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Climb the unfinished highway bridge north of the Charter St fast travel point.",
@@ -6342,7 +6343,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Alec Johnson, a washed-up athlete chromed to death. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Alec Johnson is in the storage facility on the south-west side of Little China.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go to the storage facility on the south-west side of Little China.",
@@ -6358,17 +6359,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "City Center",
     title: "Cyberpsycho Sighting: Phantom of Night City",
-    location: "City Center",
+    location: "Street-level room, Corpo Plaza – City Center",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos, reported in City Center. Regina Jones wants them stopped, and alive if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Norio Akuhara, a Tyger Claw holed up in a street-level room in Corpo Plaza. He recharges to full health when he runs.",
+    aiTip: "Don't let Norio Akuhara break away, because he recharges to full when he runs. Loot the crate in the room for Legendary Mantis Blades.",
     walkthrough: [
-      "Accept the Cyberpsycho Sighting from Regina Jones.",
-      "Travel to the marked area in City Center and scan the scene for clues.",
-      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
-      "Loot the shard nearby, then call Regina to report back."
+      "After The Rescue, go to Corpo Plaza, north-west of the Arasaka Tower fast travel point.",
+      "Find Norio Akuhara alone in a room at street level.",
+      "Keep the pressure on, since he recharges to full health if he gets away.",
+      "Bring him down (non-lethally for the bonus) and loot the crate in the room for Legendary Mantis Blades.",
+      "Loot the shard and call Regina."
     ],
     video: "https://www.youtube.com/watch?v=lRI-j_pWRQI"
   },
@@ -6383,7 +6385,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Cedric Muller, deafened and enraged by implants. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Cedric Muller is on the ground floor of the west Downtown parking lot. Use the elevated bridge to get there.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go to the ground floor of the parking lot in west Downtown, reached by the elevated bridge.",
@@ -6399,17 +6401,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Pacifica",
     title: "Cyberpsycho Sighting: Smoke on the Water",
-    location: "Pacifica",
+    location: "Far end of Pacifica Pier, Coastview – Pacifica",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos, reported in Pacifica. Regina Jones wants them stopped, and alive if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Diego Ramirez, at the far end of Pacifica Pier in Coastview. He carries a shotgun, and Regina specifically wants him taken down non-lethally.",
+    aiTip: "Diego Ramirez has a shotgun. Keep to mid or long range on the pier, and use non-lethal weapons, since Regina wants him alive.",
     walkthrough: [
-      "Accept the Cyberpsycho Sighting from Regina Jones.",
-      "Travel to the marked area in Pacifica and scan the scene for clues.",
-      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
-      "Loot the shard nearby, then call Regina to report back."
+      "Go west of the Pacifica Pier fast travel point in Coastview.",
+      "Head to the far end of the pier.",
+      "Fight Diego Ramirez from mid to long range to stay out of his shotgun's reach.",
+      "Take him down non-lethally, as Regina asks.",
+      "Loot the shard and call Regina."
     ],
     video: "https://www.youtube.com/watch?v=_1iBsy9Yhvg"
   },
@@ -6419,17 +6422,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Pacifica",
     title: "Cyberpsycho Sighting: Lex Talionis",
-    location: "Pacifica",
+    location: "Garage west of Batty's Hotel, Coastview – Pacifica",
     length: "short",
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
-    summary: "One of Night City's 17 cyberpsychos, reported in Pacifica. Regina Jones wants them stopped, and alive if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    summary: "One of Night City's 17 cyberpsychos: Ben DeBailon, behind a garage door in Coastview, Pacifica, guarded by robots and drones.",
+    aiTip: "Clear the robots and drones first, then focus Ben DeBailon. Search his computer before you text Regina.",
     walkthrough: [
-      "Accept the Cyberpsycho Sighting from Regina Jones.",
-      "Travel to the marked area in Pacifica and scan the scene for clues.",
-      "Fight the cyberpsycho. Use non-lethal weapons or quickhacks to bring them down alive.",
-      "Loot the shard nearby, then call Regina to report back."
+      "After Transmission, go west of Batty's Hotel fast travel point near the water in Coastview.",
+      "Interact with the garage door to get in.",
+      "Deal with the robots and drones guarding Ben DeBailon.",
+      "Take him down (non-lethally for the bonus), then search his computer.",
+      "Text Regina Jones to finish."
     ],
     video: "https://www.youtube.com/watch?v=H9cm9TANZ38"
   },
@@ -6444,7 +6448,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Gaston Phillips, a rogue enforcer taking the law into his own hands near Wellsprings' southern beach.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Gaston Phillips is on the southern beach in west Heywood, near Wellsprings.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go to the southern beach in west Heywood.",
@@ -6465,7 +6469,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Dao Hyunh, who turned a seaside cafe into a bloodbath in south-west Heywood.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Dao Hyunh is in the seaside cafe on the south-west Heywood shore. Scan the cafe before you go in.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Go to the shore in south-west Heywood.",
@@ -6486,7 +6490,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Regina reward, non-lethal bonus, victim's shard",
     summary: "One of Night City's 17 cyberpsychos: Tamara Cosby, ambushing travelers under an overpass. Regina Jones wants them stopped — subdued rather than killed, if you can manage it.",
-    aiTip: "Blunt weapons, short-circuit and reboot-optics quickhacks keep them alive for the non-lethal bonus. Read the victim's shard afterward for the tragic backstory.",
+    aiTip: "Tamara Cosby ambushes from the encampment under the Arroyo highway, so approach slowly and scan ahead.",
     walkthrough: [
       "Accept Regina Jones's Cyberpsycho Sighting.",
       "Find the encampment below the highway in Arroyo.",
@@ -12204,7 +12208,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
     summary: "A late Rogue gig (Street Cred 35, after Ghost Town): grab Rebeca Price from the basement of the Data Inc. store, held by the Animals.",
-    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    aiTip: "Use the free side shutter on the left of the Data Inc. store if you don't have Body 5. If Rebeca dies, you can just leave.",
     walkthrough: [
       "Finish Ghost Town and reach Street Cred 35 — Rogue gives this gig.",
       "Get into Data Inc. through a side shutter (Body 5 on the right, free on the left).",
@@ -12365,18 +12369,17 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Heywood",
     title: "Gig: God Bless This Mess",
-    location: "Heywood",
+    location: "The Glen – Heywood (Padre)",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout and street cred",
-    summary: "A fixer gig in Heywood. Read the gig details in your journal for the exact objective.",
-    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
+    summary: "Padre's last job, which comes in after you finish his Heywood gigs (added in patch 1.5). The reward is Seraph, an iconic pistol that lands in your apartment stash.",
+    aiTip: "Seraph doesn't drop in the field. It's waiting in your apartment stash once the job is done.",
     walkthrough: [
-      "Accept God Bless This Mess from the fixer when it appears on your map or phone.",
-      "Read the gig details to see the exact objective.",
-      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
-      "Complete the objective by stealth, hacking or combat.",
-      "Report back to the fixer for the payout."
+      "Finish Padre's Heywood gigs, and he calls you with one last job.",
+      "Meet him and take on God Bless This Mess.",
+      "Complete the job.",
+      "Collect Seraph, the iconic pistol, from the stash in your apartment."
     ],
     video: "https://www.youtube.com/watch?v=sAlrujgxvr4"
   },
@@ -12446,20 +12449,20 @@ const quests = [
     id: 573,
     type: "side",
     game: "Cyberpunk 2077: Ultimate Edition",
-    region: "Pacifica",
+    region: "Badlands",
     title: "Gig: No Fixers",
-    location: "Pacifica",
+    location: "Wraith outpost south-east of Medeski Fuel Station – Badlands",
     length: "short",
     difficulty: "Medium",
     reward: "Fixer payout and street cred",
-    summary: "A fixer gig in Pacifica. Read the gig details in your journal for the exact objective.",
-    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
+    summary: "A Dakota Smith gig in the Badlands (Street Cred 1). Tech specialist Iris Tanner got in too deep with the Wraiths. Get her and her van out of their camp.",
+    aiTip: "Disable the autoturret covering the garage exit before you drive Iris's van out. She won't leave without it.",
     walkthrough: [
-      "Accept No Fixers from the fixer when it appears on your map or phone.",
-      "Read the gig details to see the exact objective.",
-      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
-      "Complete the objective by stealth, hacking or combat.",
-      "Report back to the fixer for the payout."
+      "Go to the Wraith outpost south-east of the Medeski Fuel Station in the Badlands.",
+      "Take the left path, avoid the mines, and distract the back-tent guard with the fuel dispenser.",
+      "Lure the guard watching Iris away with the nearby computer, then talk to her.",
+      "Take down the forklift guard and steal Iris's van, disabling the autoturret at the garage exit first.",
+      "Drive to Dakota's shop, park in the garage and speak with her."
     ],
     video: "https://www.youtube.com/watch?v=-mtkXXJ_GJs"
   },
@@ -12495,7 +12498,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
     summary: "A hidden side job from the Edgerunners update (patch 1.6): pick up a braindance in David Martinez's old apartment to start the story that earns his jacket.",
-    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    aiTip: "This one isn't on the map. Go to David's old apartment in Megabuilding H4 and pick up the braindance to start it.",
     walkthrough: [
       "Go to Megabuilding H4 in Arroyo.",
       "Find David's old apartment.",
@@ -12599,7 +12602,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
     summary: "A Padre Gun for Hire gig (Street Cred 1): take out Gustavo Orta in his high-rise apartment.",
-    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    aiTip: "Gustavo Orta is on floor 32. Streetkids can talk past the intercom; otherwise use the front door (Body 17), the side door (Tech 9) or the balcony via the garage.",
     walkthrough: [
       "Take the gig from Padre and go to Petrel St in Corpo Plaza.",
       "Take the elevator to floor 32.",
@@ -12620,7 +12623,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
     summary: "A Regina Thievery gig (Street Cred 1): get into the Revere Courier Services facility and take the van.",
-    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    aiTip: "The call comes when you're in the south-east corner of Northside, by Little China and the Arasaka Waterfront.",
     walkthrough: [
       "Go to the south-east corner of Northside (by Little China and Arasaka Waterfront) for Regina's call.",
       "Get into the Revere Courier Services facility.",
@@ -12640,7 +12643,7 @@ const quests = [
     difficulty: "Medium",
     reward: "Fixer payout, street cred, gear",
     summary: "A Padre gig (Street Cred 13): the Valentinos took the Militech SUV the nomads bought. Steal it back.",
-    aiTip: "Scout the site first — stealth extraction usually beats a loud firefight for the full payout.",
+    aiTip: "Padre calls at Street Cred 13 while you're in Wellsprings. Once you have the SUV, just get it to the Russell St garage and walk away.",
     walkthrough: [
       "Roam Wellsprings at Street Cred 13 for Padre's call.",
       "Go to the Valentinos' auto shop and find the SUV.",
@@ -12722,18 +12725,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Dogtown",
     title: "Phantom Liberty Gig: Spy in the Jungle",
-    location: "Dogtown",
+    location: "Paradise Hotel → Organitopia, Dogtown",
     length: "short",
     difficulty: "Medium",
     reward: "Mr. Hands payout and street cred",
-    summary: "A fixer gig in Dogtown. Read the gig details in your journal for the exact objective.",
-    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
+    summary: "Two agents at the Paradise Hotel tell you their presumed-dead mentor Mark Bana's biomonitor has switched back on in Dogtown. Mr. Hands wants it found.",
+    aiTip: "Think before the final choice. Letting a certain character die here locks you out of a later side job.",
     walkthrough: [
-      "Accept Spy in the Jungle from Mr. Hands when it appears on your map or phone.",
-      "Read the gig details to see the exact objective.",
-      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
-      "Complete the objective by stealth, hacking or combat.",
-      "Report back to Mr. Hands for the payout."
+      "Meet agents Steven Santos and Ana Friedman at the Paradise Hotel in the Longshore Stacks.",
+      "Find a way into Organitopia and fight past the Scavs at Terra Cognita (stealth or loud, your call).",
+      "Find Bana in the museum and defeat Ribakov.",
+      "Enter the secret room and confront Katya.",
+      "Take the biomonitor and deliver it to the fixer's drop point or hand it to Ana."
     ],
     video: "https://www.youtube.com/watch?v=uwu4V_mI7aY"
   },
@@ -12743,18 +12746,18 @@ const quests = [
     game: "Cyberpunk 2077: Ultimate Edition",
     region: "Dogtown",
     title: "Phantom Liberty Gig: Waiting for Dodger",
-    location: "Dogtown",
+    location: "Outside the Dogtown gate → Dodger's base",
     length: "short",
     difficulty: "Medium",
     reward: "Mr. Hands payout and street cred",
-    summary: "A fixer gig in Dogtown. Read the gig details in your journal for the exact objective.",
-    aiTip: "Scout the site first. Stealth usually earns the full payout, and some gigs pay a bonus for not raising the alarm.",
+    summary: "Stella is waiting in a car by the tents outside the Dogtown gate. Her fiancé Bill and his friend were on a job for Dodger that went south, and she needs them pulled out.",
+    aiTip: "Your answers in the car don't matter, but the choice with Dodger at the end does. Decide who you're siding with before the garage.",
     walkthrough: [
-      "Accept Waiting for Dodger from Mr. Hands when it appears on your map or phone.",
-      "Read the gig details to see the exact objective.",
-      "Travel to the marked location and scan it with your optics to tag enemies and cameras.",
-      "Complete the objective by stealth, hacking or combat.",
-      "Report back to Mr. Hands for the payout."
+      "After Lucretia My Reflection, leave by the Dogtown gate and turn left to Stella's car by the tents.",
+      "Get in and talk to her (your answers don't change the outcome).",
+      "Enter Dodger's base, find Bill and Charles, and help Charles open the door.",
+      "Escort them to the squad car and deal with the threat.",
+      "Confront Dodger in the garage and make the final choice."
     ],
     video: "https://www.youtube.com/watch?v=VRrJGMacNb8"
   },
