@@ -6,7 +6,7 @@ import {
   TrendingUp, Calendar, Home, Grid3X3, CheckCircle2, Circle, Settings, Check,
   Lock, Award, ArrowLeft
 } from "lucide-react";
-import { GAMES, QUESTS, ACHIEVEMENTS, NEWS, type Quest, type Achievement } from "../generated/data";
+import { GAMES, QUESTS, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
 import { useUserState, achievementMet } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
@@ -18,6 +18,7 @@ import { answerQuestion, type ChatContext } from "./chatEngine";
 
 // NEWS is generated from CHANGELOG.md at build time (see scripts/gen-data.mjs),
 // newest first, so the News tab always reflects what actually shipped.
+import { NEWS } from "../generated/data";
 
 type Tab = "home"|"browse"|"news"|"saved"|"progress"|"settings";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
