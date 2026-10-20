@@ -42329,7 +42329,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
   },
 {
     id: 1998,
-    type: "main",
+    type: "side",
     category: "Order of the Ancients",
     arc: "Order of the Ancients",
     game: "Assassin's Creed Valhalla",
