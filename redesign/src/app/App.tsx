@@ -2016,7 +2016,7 @@ export default function App() {
 
           <span className="text-xs text-muted-foreground hidden md:block">
             {tab==="browse" && selectedGame!=="All"
-              ? `${filtered.length} quests · ${selectedGame}`
+              ? `${filtered.length} quest${filtered.length!==1?"s":""} · ${selectedGame}`
               : `${QUESTS.length} quests · ${Object.keys(GAMES).length} games`}
           </span>
         </div>
@@ -2045,7 +2045,7 @@ export default function App() {
                 </button>
               )}
               <p className="text-xs text-muted-foreground mt-0.5">
-                {tab==="browse" ? `${filtered.length} quests${selectedGame!=="All"?` in ${selectedGame}`:""}` :
+                {tab==="browse" ? `${filtered.length} quest${filtered.length!==1?"s":""}${selectedGame!=="All"?` in ${selectedGame}`:""}` :
                  tab==="news"   ? `${NEWS.length} updates` :
                  tab==="progress" ? `${completedIds.size} of ${QUESTS.length} completed` :
                  tab==="settings" ? "Reading, offline, and data preferences" :
