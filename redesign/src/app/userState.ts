@@ -174,6 +174,17 @@ export function useUserState() {
   const [state, setState] = useState<UserState>(loadState);
   useEffect(() => saveState(state), [state]);
 
+  // Another tab wrote progress: adopt it, so this tab's next save doesn't
+  // overwrite it with a stale copy. (The `storage` event only fires in *other*
+  // tabs, and re-saving an identical value doesn't fire it, so no ping-pong.)
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === KEY) setState(loadState());
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
   // On first mount, backfill achievement timestamps for quests that were
   // already completed (e.g. migrated pre-v2 progress) so the panel is accurate
   // immediately. Uses "now" since the real earn dates weren't recorded.
