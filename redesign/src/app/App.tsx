@@ -426,16 +426,14 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
   const col  = meta?.accent ?? "#c5933a";
   const [open, setOpen] = useState(false);
   // Radix returns focus to its own DialogTrigger on close, but this card
-  // isn't one — it's a whole clickable article. Track it ourselves so focus
-  // lands back on the card (not <body>) once the modal closes.
-  const triggerRef = useRef<HTMLElement>(null);
+  // isn't one — it's a whole clickable article. Track the title button
+  // ourselves so focus lands back on it (not <body>) once the modal closes.
+  const triggerRef = useRef<HTMLButtonElement>(null);
   const status = questStatus(quest, completed);
 
   return (
     <>
     <article
-      ref={triggerRef}
-      tabIndex={-1}
       onClick={()=>{setOpen(true);onOpen?.(quest.id);}}
       className="group flex items-center gap-3 sm:gap-3.5 bg-card border rounded-xl p-3 sm:p-[15px] cursor-pointer transition-all duration-200 hover:-translate-y-0.5"
       style={{ borderColor: status.border }}
@@ -452,7 +450,9 @@ function QuestCard({ quest, saved, onSave, completed=false, completedAt, onCompl
       {/* content column */}
       <div className="flex-1 min-w-0">
         <div className="text-[10.5px] sm:text-[11px] font-bold mb-1 truncate" style={{ color:status.color }}>{status.label}</div>
-        <div className="font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</div>
+        {/* The title is the card's keyboard/screen-reader entry point: Enter or
+            Space clicks it, and the click bubbles to the article's handler. */}
+        <button ref={triggerRef} type="button" aria-haspopup="dialog" className="block w-full text-left font-semibold leading-tight mb-1.5 sm:mb-2 text-[14px] sm:text-base text-foreground group-hover:text-primary transition-colors truncate rounded-sm outline-none focus-visible:ring-2 focus-visible:ring-primary" style={{ fontFamily:"'Spectral',serif" }}>{quest.title}</button>
         <div className="flex items-center gap-1.5 flex-wrap">
           <QuestTypeBadge type={quest.type}/>
           <ActTag quest={quest}/>
