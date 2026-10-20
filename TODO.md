@@ -57,3 +57,17 @@ These are merged into `main` and safe to delete via the GitHub UI:
   of the Ancients entry (the other 141 are correctly `main`; Valhalla's World
   Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
   fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
+
+## NEXT SESSION: quest data (remind the owner first)
+App fixes shipped in `v2.5.0`/`v2.6.0`; the Valhalla re-type (#301) and TotK
+shrine fix (#300) are done. Still to do, both blocked on 2026-10-20 because the
+session couldn't reach guide sites (powerpyx, game8, fandom, gamerguides,
+youtube) even after the owner opened network access — a fresh session should
+pick the new setting up. Check access first (`curl -sI https://www.powerpyx.com`).
+- **D4 — fill coverage gaps:** Hogwarts Legacy (10 missing), FF7 Rebirth (7),
+  Witcher 3 (6), Cyberpunk 2077 (3), Ghost of Tsushima (3), Black Myth:
+  Wukong (1). Details in `docs/qa-session-2026-10-20.md`.
+- **D2 — rewrite templated tips/summaries**, mostly AC Odyssey.
+- **Open decision:** whether to add Valhalla's World Events.
+
+Remove the reminder in `CLAUDE.md` once this section is done.
