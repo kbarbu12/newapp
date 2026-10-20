@@ -33,4 +33,21 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+
+  // Split the bundle so each part caches on its own: the generated quest data
+  // (~85% of the bytes) changes with content edits, third-party code rarely,
+  // and the app itself with code changes. A code-only deploy then doesn't make
+  // returning visitors re-download the data, and vice versa.
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('/src/generated/')) return 'quest-data'
+          if (id.includes('/node_modules/')) return 'vendor'
+        },
+      },
+    },
+    // The quest-data chunk is large by design; don't warn about it.
+    chunkSizeWarningLimit: 3000,
+  },
 })
