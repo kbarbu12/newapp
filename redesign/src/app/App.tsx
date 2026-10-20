@@ -34,7 +34,7 @@ const NEWS: NewsItem[] = [
 
 type Tab = "home"|"browse"|"news"|"saved"|"progress"|"settings";
 type DiffFilter = "All"|"Low"|"Medium"|"High";
-type TypeFilter = "All"|"main"|"side";
+type TypeFilter = "All"|"main"|"side"|"optional";
 type LenFilter  = "All"|"short"|"medium"|"long";
 // Walkthrough filter — mirrors the live site's All / Video / No video options.
 type VideoFilter = "All"|"Video Only"|"No Video";
@@ -1689,7 +1689,7 @@ export default function App() {
   const firstValid = <T extends string>(allowed:readonly string[], ...vals:(string|null)[]) =>
     (vals.find(v=>v!=null && allowed.includes(v)) ?? "All") as T;
   const [selectedGame,setSelectedGame]= useState(()=>firstValid<string>(["All",...Object.keys(GAMES)], urlParams.get("game"), localStorage.getItem("lastGame")));
-  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>firstValid<TypeFilter>(["All","main","side"], urlParams.get("type"), localStorage.getItem("lastType")));
+  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>(()=>firstValid<TypeFilter>(["All","main","side","optional"], urlParams.get("type"), localStorage.getItem("lastType")));
   // A chosen default difficulty (Settings) applies on every visit; a link's own
   // difficulty still wins, and with no default the last-used filter is kept.
   const storedDefaultDiff = localStorage.getItem("defaultDifficulty");
@@ -1888,8 +1888,8 @@ export default function App() {
   // duplicate of the chapter filter and is hidden below.
   const chapterSource = selectedMeta?.chapterSource ?? "";
 
-  const pills=<T extends string>(opts:T[],cur:T,set:(v:T)=>void)=>opts.map(o=>(
-    <button key={o} onClick={()=>set(o)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${cur===o?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{o}</button>
+  const pills=<T extends string>(opts:T[],cur:T,set:(v:T)=>void,label:(v:T)=>string=v=>v)=>opts.map(o=>(
+    <button key={o} onClick={()=>set(o)} className={`px-2.5 py-1 rounded text-xs border transition-all duration-150 ${cur===o?"bg-primary/15 text-primary border-primary/30 font-medium":"text-muted-foreground border-border hover:text-foreground hover:border-white/15"}`}>{label(o)}</button>
   ));
 
   // Reset every Library filter to its default — shared by the Filters panel,
@@ -1902,7 +1902,7 @@ export default function App() {
 
   const filterChips = [
     selectedGame!=="All" && { label:selectedGame, tone:"gold", onRemove:()=>setSelectedGame("All") },
-    typeFilter!=="All" && { label:`Type: ${typeFilter}`, tone:"gold", onRemove:()=>setTypeFilter("All") },
+    typeFilter!=="All" && { label:`Type: ${TYPE_BADGE[typeFilter].label}`, tone:"gold", onRemove:()=>setTypeFilter("All") },
     diffFilter!=="All" && { label:`Difficulty: ${diffFilter}`, tone:"amber", onRemove:()=>setDiffFilter("All") },
     lenFilter!=="All" && { label:`Length: ${lenFilter}`, tone:"gold", onRemove:()=>setLenFilter("All") },
     videoFilter!=="All" && { label:videoFilter, tone:"purple", onRemove:()=>setVideoFilter("All") },
@@ -2087,7 +2087,7 @@ export default function App() {
                     {search && <button onClick={()=>setSearch("")} aria-label="Clear search" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"><X size={14}/></button>}
                   </div>
                   <FiltersPopover activeFilters={activeFilters} onReset={resetFilters} resultCount={filtered.length}>
-                    <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side"] as TypeFilter[],typeFilter,setTypeFilter)}</div></div>
+                    <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Type</span><div className="flex gap-1.5 flex-wrap">{pills(["All","main","side","optional"] as TypeFilter[],typeFilter,setTypeFilter,t=>t==="All"?"All":TYPE_BADGE[t].label)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Difficulty</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Low","Medium","High"] as DiffFilter[],diffFilter,setDiffFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Length</span><div className="flex gap-1.5 flex-wrap">{pills(["All","short","medium","long"] as LenFilter[],lenFilter,setLenFilter)}</div></div>
                     <div className="flex flex-col gap-1"><span className="text-[11px] font-bold text-muted-foreground uppercase tracking-widest">Walkthrough</span><div className="flex gap-1.5 flex-wrap">{pills(["All","Video Only","No Video"] as VideoFilter[],videoFilter,setVideoFilter)}</div></div>
