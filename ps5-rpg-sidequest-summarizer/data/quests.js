@@ -13847,6 +13847,143 @@ const quests = [
     video: "https://www.youtube.com/watch?v=4mryuJ3SLjM"
   },
 {
+    id: 2607,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Matter of Life and Death",
+    location: "Triss's hideout → fish market → Vegelbud estate, Novigrad",
+    length: "medium",
+    difficulty: "Low",
+    reward: "Masquerade ball with Triss; leads to Now or Never",
+    summary:
+      "Triss needs a way to smuggle Novigrad's mages out of the city. Geralt escorts her to the Vegelbud family's masquerade ball, where Ingrid Vegelbud can help — and the witch hunters are watching.",
+    aiTip:
+      "Finishing this can lock Triss out of several other Novigrad side quests, so clear those first. The Fox Mask for Triss costs just 1 crown at Elihal's.",
+    walkthrough: [
+      "After Count Reuven's Treasure, talk to Triss at her hideout northeast of Hierarch Square.",
+      "Use Witcher Senses at the fish market to find the Vegelbud servant (blue tunic, keys on his belt) and give him the passphrase.",
+      "Follow him across the bridge and fight off the witch hunters' thugs; he explains the ball is cover to get Albert Vegelbud out of the city.",
+      "Buy the Fox Mask for Triss and a mask for Geralt from Elihal's shop in the elven quarter (new clothes are optional).",
+      "Give Triss her mask, go to the Vegelbud residence and find Ingrid Vegelbud in the gardens.",
+    ],
+    video: "https://www.youtube.com/watch?v=ot4yHboTxD8"
+  },
+{
+    id: 2608,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "King's Gambit",
+    location: "Kaer Trolde, Ard Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Crach an Craite's silver sword Fate; leads to Coronation",
+    summary:
+      "With Hjalmar and Cerys both in the race for the throne, Crach an Craite hosts a feast at Kaer Trolde. Cursed berserkers turn it into a massacre, and Geralt has to find out who set them loose.",
+    aiTip:
+      "Finish The Cave of Dreams before entering the feast, and keep your silver sword ready — the attackers are cursed beings, not ordinary men.",
+    walkthrough: [
+      "Complete The Lord of Undvik and Possession; Arnvald then meets you at the Kaer Trolde gate.",
+      "Join the feast hall, where Cerys and Hjalmar are arguing (Hjalmar's fistfight with the Vildkaarl brothers is optional).",
+      "Speak with Birna at the entrance to Crach's chamber, then with Crach, who gives you the silver sword Fate.",
+      "Fight off the cursed berserkers when they attack the hall.",
+      "Examine the crime scene with Witcher Senses; the quest ends with Coronation at Gedyneith.",
+    ],
+    video: "https://www.youtube.com/watch?v=rrzdVZR8GhM"
+  },
+{
+    id: 2609,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "No Place Like Home",
+    location: "Kaer Morhen",
+    length: "short",
+    difficulty: "Low",
+    reward: "A drunken night with Eskel, Lambert and Yennefer",
+    summary:
+      "While Vesemir and Yennefer try a gentler way to lift Uma's curse, Geralt, Eskel, Lambert and (later) Yennefer spend a long night drinking, swapping stories and playing pranks in Kaer Morhen's main hall.",
+    aiTip:
+      "Say yes to everything here — the optional scenes are the point. A private scene with Yennefer only plays if Geralt told her he loved her in The Last Wish.",
+    walkthrough: [
+      "Finish Ugly Baby's side tasks for Lambert and Eskel; the quest starts right after the next talk with Yennefer.",
+      "Go to the main hall and join the drinking with Eskel, Lambert and Yennefer.",
+      "Take any of the optional activities: swap stories, play Never Ever, play gwent, or dress up as sorceresses.",
+      "When the alcohol runs out and Eskel disappears, track him with Witcher Senses — he's passed out outside the keep with Lil' Bleater.",
+    ],
+    video: "https://www.youtube.com/watch?v=cE6ccmxhp20"
+  },
+{
+    id: 2610,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Final Preparations",
+    location: "The Chameleon & Crippled Kate's, Novigrad",
+    length: "long",
+    difficulty: "Medium",
+    reward: "Allies ready for the final battle; a choice about the Lodge of Sorceresses",
+    summary:
+      "Before the last battle, Geralt helps his allies settle their own business in Novigrad. This umbrella quest runs four sub-quests: Ciri's Payback, Triss's Blindingly Obvious, Yennefer's The Great Escape and Avallac'h's Through Time and Space.",
+    aiTip:
+      "The sub-quests can be done in any order, but the Lodge meeting at the end is a real decision. Read what each sorceress wants before you answer.",
+    walkthrough: [
+      "Talk to Avallac'h on the top floor of the Chameleon to start Through Time and Space.",
+      "Talk to Triss upstairs at the Chameleon for Blindingly Obvious.",
+      "Find Yennefer (Crippled Kate's) for The Great Escape.",
+      "Meet Ciri in northern Novigrad during the day for Payback.",
+      "With all four done, meet Yennefer and the Lodge of Sorceresses at Dandelion's inn, the Rosemary and Thyme.",
+    ],
+    video: "https://www.youtube.com/watch?v=bq7-8L72lME"
+  },
+{
+    id: 2611,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Night of Long Fangs",
+    location: "Beauclair, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "200 XP for the bruxa; the path to Syanna or Dettlaff",
+    summary:
+      "Vampires overrun Beauclair. Geralt fights a bruxa while Regis escorts the duchess to safety, then searches the burning city for Captain Damien and Orianna to learn where the Unseen Elder lies.",
+    aiTip:
+      "Apply Vampire Oil and drink Black Blood before the opening bruxa. The street vampires are level 47, so expect long fights all the way through the city.",
+    walkthrough: [
+      "Fight the bruxa (it turns invisible to close in) while Regis gets the duchess away.",
+      "Choose a plan: free Syanna for Tesham Mutna, force a fight with Dettlaff, or tell Regis you're undecided (you can change your mind).",
+      "Cross Beauclair, killing the vampires on the way, including a katakan fighting Delwyn of Creigiau.",
+      "Track Damien's unit with Witcher Senses and save them; at the palace, search the playroom and find 'The Land of a Thousand Fables'.",
+      "Kill the vampire attacking Orianna and ask her where to find the Unseen Elder.",
+    ],
+    video: "https://www.youtube.com/watch?v=PRGOTsrD5z0"
+  },
+{
+    id: 2612,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Blood Simple",
+    location: "Orianna's orphanage, Beauclair",
+    length: "medium",
+    difficulty: "High",
+    reward: "1000 XP, garkain trophy, magic key",
+    summary:
+      "Orianna will help Geralt find the Unseen Elder, but first her orphanage has been attacked. Geralt follows the trail of an alpha garkain that killed the children and their guardians.",
+    aiTip:
+      "The alpha garkain is this quest's boss — go in with Vampire Oil on your silver sword and keep Quen up.",
+    walkthrough: [
+      "Go with Orianna to her orphanage and search it with Witcher Senses.",
+      "Follow the scent, then the tracks and the wagon north out of the city.",
+      "Find the garkain's hideout and kill the alpha garkain.",
+      "Take the trophy and return to Orianna.",
+      "Tell the birds you're ready to meet Regis.",
+    ],
+    video: "https://www.youtube.com/watch?v=vO1qHy2feh4"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
