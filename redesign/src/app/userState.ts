@@ -105,7 +105,11 @@ export function totalPoints(s: UserState): number {
   return p + finished * GAME_FINISH_BONUS;
 }
 
-const dayKey = (iso: string) => iso.slice(0, 10); // YYYY-MM-DD
+// Streak days are the player's *local* calendar days (YYYY-MM-DD), not UTC —
+// otherwise an evening session west of UTC lands on "tomorrow".
+const localDay = (x: Date) =>
+  `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`;
+const dayKey = (iso: string) => localDay(new Date(iso));
 
 /** Consecutive-day completion streak ending today (or yesterday, still alive). */
 export function currentStreak(s: UserState, now = new Date()): number {
@@ -113,13 +117,12 @@ export function currentStreak(s: UserState, now = new Date()): number {
   if (!days.size) return 0;
   const d = new Date(now);
   // Streak stays alive if there's activity today or yesterday.
-  const iso = (x: Date) => x.toISOString().slice(0, 10);
-  if (!days.has(iso(d))) {
+  if (!days.has(localDay(d))) {
     d.setDate(d.getDate() - 1);
-    if (!days.has(iso(d))) return 0;
+    if (!days.has(localDay(d))) return 0;
   }
   let streak = 0;
-  while (days.has(iso(d))) {
+  while (days.has(localDay(d))) {
     streak++;
     d.setDate(d.getDate() - 1);
   }
