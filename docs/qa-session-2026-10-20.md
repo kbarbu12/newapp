@@ -184,9 +184,11 @@ Fix these before flipping either tab on in `promotion.ts`:
 The CI audit passes. These are content-quality findings it doesn't check:
 
 1. **AC Valhalla has 142 main quests and 0 side quests.** Every entry is
-   `type: "main"`, including the Mythology, Order of the Ancients and Vinland
-   Saga content. This skews the "Main" filter and points, and makes the
-   "Story Complete" achievement identical to "Completionist".
+   `type: "main"`, which makes the "Story Complete" achievement identical to
+   "Completionist". (Correction after a closer look: 141 of these are
+   story-arc quests the game itself marks as main, so only the Order of the
+   Ancients hunt was mis-typed; fixed in #301. The real gap is coverage:
+   Valhalla's side content, its World Events, isn't in the data.)
 2. **Templated, copy-pasted text across large groups.** The audit's
    filler-text check doesn't catch it:
    - AC Odyssey: one `aiTip` shared by **43** Cult of Kosmos members
@@ -225,7 +227,7 @@ The CI audit passes. These are content-quality findings it doesn't check:
 4. H3 multi-tab sync.
 5. M4/M5/M6 chat and filter polish; decide on M7 (finish bonus) and M8
    (reminders).
-6. Data: re-type Valhalla side content; rewrite the templated tips and
+6. Data: re-type the one Valhalla side entry; rewrite the templated tips and
    summaries game by game.
 
 ## Verification commands

@@ -53,6 +53,7 @@ These are merged into `main` and safe to delete via the GitHub UI:
   reminders, but scheduled notifications while the app is closed need a push
   service. Until then, leave "Enable reminders" as is (or hide it). Revisit
   when a backend exists.
-- **Quest data fixes — after the app fixes:** re-type AC Valhalla side content
-  (all 142 are `main`), rewrite templated tips/summaries (mostly AC Odyssey),
+- **Quest data fixes — after the app fixes:** re-type AC Valhalla's Order
+  of the Ancients entry (the other 141 are correctly `main`; Valhalla's World
+  Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
   fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
