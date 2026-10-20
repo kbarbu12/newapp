@@ -18565,6 +18565,27 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     video: "https://www.youtube.com/watch?v=AnsTyPcEQzU"
   },
 {
+    id: 2623,
+    type: "side",
+    game: "Black Myth: Wukong",
+    chapter: 5,
+    title: "Bishui Golden-Eyed Beast – Bishui Cave Secret Boss",
+    location: "SECRET: Bishui Cave (Flaming Mountains)",
+    length: "medium",
+    difficulty: "High",
+    reward: "Bull King Iron Horn (Bull King armor set material), secret cutscene",
+    summary: "The optional boss at the end of Chapter 5's secret Bishui Cave, reached only by finishing the Five Element Carts quest. Beating it plays a secret cutscene.",
+    aiTip: "You can only get four Bull King Iron Horns per playthrough, and this boss is one source. Don't skip it if you want the Bull King set.",
+    walkthrough: [
+      "Finish the Five Element Carts quest for the Pale-Axe Stalwart. Destroying the last cart, the Rusty Gold Cart near the Cooling Slope, opens the way.",
+      "Once the flames are fanned out, return to the Ashen Pass III shrine and take the path where you fought the Flint Vanguard and Mother of Flamlings.",
+      "Follow it into the Bishui Cave secret area.",
+      "Head to the end of the cave to reach the Bishui Golden-Eyed Beast.",
+      "Defeat it to watch the secret cutscene and collect its loot."
+    ],
+    video: "https://www.youtube.com/watch?v=ldnxuMoJetQ"
+  },
+{
     id: 843,
     type: "side",
     game: "Black Myth: Wukong",
