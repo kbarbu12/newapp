@@ -33,7 +33,7 @@ const REQUIRED = ["id", "type", "game", "title", "location", "length", "difficul
 const TARGETS = {
   "Cyberpunk 2077: Ultimate Edition": 150,
   "The Witcher 3: Wild Hunt": 100,
-  "Final Fantasy VII Rebirth": 80,
+  "Final Fantasy VII Rebirth": 73,
   "God of War Ragnarök": 68,
   "Hogwarts Legacy": 130,
   "Elden Ring": 60,
