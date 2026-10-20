@@ -202,9 +202,11 @@ The CI audit passes. These are content-quality findings it doesn't check:
    - Total: 7 groups of identical walkthroughs, 7 duplicated summaries, 18
      duplicated tips.
 3. **The data doesn't match `SCHEMA.md`.** 31 TotK quests have `type:
-   "shrine"` (the schema allows only `main`/`side`), and 253 TotK quests carry
-   an extra `questType` field. The audit doesn't flag either. The redesign
-   tolerates them by mapping to side/optional.
+   "shrine"` (the schema allows only `main`/`side`), and the audit doesn't
+   flag it. On the classic site these quests appear under neither the Main
+   nor the Side type filter; the redesign tolerates them by mapping to side.
+   (Correction: TotK's `questType` field is *not* drift. It's the field TotK's
+   sub-filter is configured on, which the schema allows.)
 4. **2 playlist-only videos** (#134, #179). They pass the audit but don't
    embed in the redesign (see M3).
 5. **Coverage gaps** reported by the audit: Hogwarts Legacy (10), FF7 Rebirth
