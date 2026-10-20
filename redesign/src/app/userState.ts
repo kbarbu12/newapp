@@ -14,6 +14,9 @@ import { QUESTS, GAMES, ACHIEVEMENTS, type Quest, type Achievement } from "../ge
 
 const KEY = "rqg:v2";
 const GAME_FINISH_BONUS = 500;
+// Share of a game's quests that must be done before it can be marked finished
+// (and before its finish bonus counts) — owner decision, QA 2026-10-20.
+export const FINISH_MIN_SHARE = 0.5;
 
 export interface UserState {
   completed: Record<number, string>; // questId -> ISO completedAt
@@ -97,11 +100,18 @@ function reconcileAchievements(
   return next;
 }
 
-/** Total points: completed quests' points + a bonus per finished game. */
+/** Has at least FINISH_MIN_SHARE of this game's quests been completed? */
+export function canFinishGame(game: string, completed: Record<number, string>): boolean {
+  const gq = QUESTS_BY_GAME[game] ?? [];
+  return gq.length > 0 && gq.filter((q) => completed[q.id]).length >= gq.length * FINISH_MIN_SHARE;
+}
+
+/** Total points: completed quests' points + a bonus per finished game. A
+ *  finished game only earns its bonus while it still meets the threshold. */
 export function totalPoints(s: UserState): number {
   let p = 0;
   for (const id of Object.keys(s.completed)) p += QUEST_BY_ID.get(Number(id))?.points ?? 0;
-  const finished = Object.values(s.games).filter((g) => g.finishedAt).length;
+  const finished = Object.entries(s.games).filter(([name, g]) => g.finishedAt && canFinishGame(name, s.completed)).length;
   return p + finished * GAME_FINISH_BONUS;
 }
 
@@ -257,6 +267,7 @@ export function useUserState() {
   const setGameFinished = useCallback(
     (name: string, finished: boolean) =>
       setState((s) => {
+        if (finished && !canFinishGame(name, s.completed)) return s;
         const g = { ...(s.games[name] ?? {}) };
         if (finished) {
           g.finishedAt = new Date().toISOString();

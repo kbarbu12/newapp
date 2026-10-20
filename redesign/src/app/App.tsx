@@ -7,7 +7,7 @@ import {
   Lock, Award, ArrowLeft
 } from "lucide-react";
 import { GAMES, QUESTS, ACHIEVEMENTS, type Quest, type Achievement } from "../generated/data";
-import { useUserState, achievementMet } from "./userState";
+import { useUserState, achievementMet, canFinishGame, FINISH_MIN_SHARE } from "./userState";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/ui/dialog";
 import { Switch } from "./components/ui/switch";
 import { isTabLive, IS_STAGING, LIVE_TABS } from "../config/promotion";
@@ -1101,7 +1101,7 @@ function PointsGuide() {
         </div>
         <div className="flex items-start gap-2">
           <span className="inline-flex items-center px-2 py-[3px] rounded-md font-bold text-[11px] shrink-0" style={{background:"#0f2318",color:"#6bbf8a"}}>+500</span>
-          <span className="text-muted-foreground">Bonus each time you <span className="text-foreground font-medium">finish a whole game</span>.</span>
+          <span className="text-muted-foreground">Bonus each time you <span className="text-foreground font-medium">mark a game finished</span> — available once at least half its quests are done.</span>
         </div>
       </div>
       <p className="text-[11px] text-muted-foreground/80 border-t border-[var(--hairline)] pt-3 leading-relaxed">
@@ -1613,6 +1613,9 @@ function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, 
   const [gtab, setGtab] = useState<GameTab>("overview");
   const savedGame = savedGames.includes(game);
   const finished = !!games[game]?.finishedAt;
+  const canFinish = canFinishGame(game, completedAt);
+  const toFinish = Math.ceil(p.total*FINISH_MIN_SHARE) - p.done;
+  const finishHint = `Complete ${toFinish} more quest${toFinish===1?"":"s"} to mark it finished (half of ${p.total}).`;
   const wished = wishlist.includes(game);
   const tabs:{id:GameTab;label:React.ReactNode}[] = [
     { id:"overview", label:"Overview" },
@@ -1641,9 +1644,10 @@ function GamePage({ game, onClose, savedIds, onSave, completedIds, completedAt, 
             {/* F6 finished ribbon / F9 save / F10 wishlist */}
             <div className="flex items-center gap-2 mt-3 flex-wrap">
               {finished && <span className="text-[11px] font-bold px-2 py-1 rounded" style={{ background:"#6bbf8a", color:"#0c1710" }}>✓ FINISHED</span>}
-              <button onClick={()=>onSetFinished(game,!finished)} className="inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors" style={finished?{borderColor:"#6bbf8a4d",color:"#6bbf8a"}:{background:"#6bbf8a",color:"#0c1710",borderColor:"transparent"}}>
+              <button onClick={()=>onSetFinished(game,!finished)} disabled={!finished&&!canFinish} title={!finished&&!canFinish?finishHint:undefined} className="inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors disabled:opacity-50 disabled:cursor-not-allowed" style={finished?{borderColor:"#6bbf8a4d",color:"#6bbf8a"}:{background:"#6bbf8a",color:"#0c1710",borderColor:"transparent"}}>
                 <Trophy size={12}/> {finished?"Finished":"Mark finished"}
               </button>
+              {!finished && !canFinish && <span className="text-[11px] text-muted-foreground w-full sm:w-auto">{finishHint}</span>}
               <button onClick={()=>onToggleSavedGame(game)} className={`inline-flex items-center gap-1.5 text-[11px] font-semibold rounded-lg px-2.5 py-1.5 border transition-colors ${savedGame?"text-primary border-primary/40 bg-primary/10":"border-border text-muted-foreground hover:text-foreground"}`}>
                 {savedGame?<BookmarkCheck size={12}/>:<Bookmark size={12}/>} {savedGame?"Saved":"Save game"}
               </button>
