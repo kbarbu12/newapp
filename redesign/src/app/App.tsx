@@ -41,7 +41,16 @@ const chapterIndex = (q:Quest) => {
   return i < 0 ? Number.MAX_SAFE_INTEGER : i;
 };
 // Tab / game page named in the URL, if valid (unknown values fall back).
-const tabFromUrl = ():Tab => { const t = new URLSearchParams(window.location.search).get("tab") as Tab; return LIVE_TABS.includes(t) ? t : (LIVE_TABS[0] ?? "home"); };
+// A link carrying Library filters but no tab (shared before Home went live, or
+// built by hand) opens the Library rather than the default landing tab.
+const LIBRARY_PARAMS = ["game","type","diff","len","video","notStarted","missable","cat","chapter","region","q"];
+const tabFromUrl = ():Tab => {
+  const sp = new URLSearchParams(window.location.search);
+  const t = sp.get("tab") as Tab;
+  if(LIVE_TABS.includes(t)) return t;
+  if(isTabLive("browse") && LIBRARY_PARAMS.some(k=>sp.has(k))) return "browse";
+  return LIVE_TABS[0] ?? "home";
+};
 const gamePageFromUrl = ():string|null => { const g = new URLSearchParams(window.location.search).get("page"); return g && GAMES[g] ? g : null; };
 interface ChatMsg { role:"user"|"assistant"; content:string; quest?:Quest; }
 
@@ -623,8 +632,8 @@ function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achieve
             {[
               { label:"Quests",          value:QUESTS.length.toLocaleString()},
               { label:"Games",           value:Object.keys(GAMES).length },
-              { label:"With Video",      value:QUESTS.filter(q=>q.video).length },
-              { label:"High Difficulty", value:QUESTS.filter(q=>q.difficulty==="High").length },
+              { label:"With Video",      value:QUESTS.filter(q=>q.video).length.toLocaleString() },
+              { label:"High Difficulty", value:QUESTS.filter(q=>q.difficulty==="High").length.toLocaleString() },
             ].map(({label,value})=>(
               <div key={label} className="flex flex-col">
                 <span className="text-2xl font-bold text-primary" style={{fontFamily:"'Spectral',serif"}}>{value}</span>
