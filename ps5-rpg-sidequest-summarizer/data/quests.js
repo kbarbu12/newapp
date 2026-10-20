@@ -11156,6 +11156,75 @@ const quests = [
     video: "https://www.youtube.com/watch?v=aNdqjgJi_9M"
   },
 {
+    id: 2613,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Badlands",
+    title: "The Nomad",
+    location: "Badlands – Yucca → Night City border",
+    length: "short",
+    difficulty: "Low",
+    reward: "Nomad lifepath opening; meet Jackie Welles",
+    summary:
+      "The Nomad lifepath prologue. Alone in the Badlands, V patches up a broken car, talks past the local sheriff and teams up with Jackie Welles to smuggle a package across the border into Night City.",
+    aiTip:
+      "Your answers to Sheriff Jones and the border guard don't change the outcome — pick whatever fits your V. The three lifepaths meet up again in The Rescue.",
+    walkthrough: [
+      "At the Yucca garage, deal with the mechanic, Mike, and get the car running (hotwire it if you can; keep trying the engine).",
+      "Answer Sheriff Andrew Jones's questions, then drive away.",
+      "Break into the Yucca telecom tower and climb to the control box; Willie McCoy gives you Jackie's location over the radio.",
+      "Meet Jackie at his trailer in Dry Creek and take the package you're smuggling, then get the car through the border checkpoint.",
+      "Escape the pursuit after the crossing and lose them in a garage with Jackie."
+    ],
+    video: "https://www.youtube.com/watch?v=cFkDs3pvXeg"
+  },
+{
+    id: 2614,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "Heywood",
+    title: "The Streetkid",
+    location: "Heywood – El Coyote Cojo → Embers, City Center",
+    length: "short",
+    difficulty: "Low",
+    reward: "Streetkid lifepath opening; meet Jackie Welles",
+    summary:
+      "The Streetkid lifepath prologue. To clear Pepe's debt, V takes a job from the fixer Kirk Sawyer: steal a Rayfield Aerondight from the garage under Embers. The job goes sideways when another merc, Jackie Welles, is after the same car.",
+    aiTip:
+      "Use the device Kirk gives you on the car's locks. When Jackie pulls you out, you can step out as he says or try to floor it.",
+    walkthrough: [
+      "At El Coyote Cojo in Heywood, find Kirk Sawyer on the second floor and take the car job to clear Pepe's debt.",
+      "Leave the bar and ride with Padre to Embers.",
+      "Take the elevator down to the garage and find the Rayfield at the back.",
+      "Disable the locks with Kirk's device, get in and try to steal it.",
+      "Deal with Jackie Welles when he drags you out of the car."
+    ],
+    video: "https://www.youtube.com/watch?v=_SQM1lOReWE"
+  },
+{
+    id: 2615,
+    type: "main",
+    game: "Cyberpunk 2077: Ultimate Edition",
+    region: "City Center",
+    title: "The Corpo-Rat",
+    location: "City Center – Arasaka Tower → Watson",
+    length: "short",
+    difficulty: "Low",
+    reward: "Corpo lifepath opening; meet Jackie Welles",
+    summary:
+      "The Corpo lifepath prologue. V, a counter-intelligence agent at Arasaka, is asked by their boss Arthur Jenkins to take down his rival Susan Abernathy. The plan collapses and V loses their place at Arasaka.",
+    aiTip:
+      "The optional report on your terminal and the board vote add flavor about Jenkins and Abernathy. Losing your job is scripted and doesn't depend on your choices.",
+    walkthrough: [
+      "Take Jackie's call in the Arasaka Tower bathroom, then go to Arthur Jenkins's office.",
+      "Take the money and the datashard on Susan Abernathy from Jenkins.",
+      "Go to the AV garage and fly out.",
+      "Head to Lizzie's Bar in Watson to meet Jackie.",
+      "Watch the fallout as V loses their place at Arasaka."
+    ],
+    video: "https://www.youtube.com/watch?v=grrh7DSg43Q"
+  },
+{
     id: 517,
     type: "main",
     game: "Cyberpunk 2077: Ultimate Edition",
