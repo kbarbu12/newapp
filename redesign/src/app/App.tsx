@@ -209,7 +209,7 @@ const NEWS_ICON: Record<string,React.ReactNode> = {
   "new-game":<Sparkles size={11}/>, community:<Trophy size={11}/>,
 };
 
-// Cover images are hot-linked from the classic site; a request that fails or is
+// A cover image request that fails or is
 // aborted during a cold first load leaves the <img> blank until a manual refresh.
 // Retry a failed cover a few times (cache-busted) so it self-heals in place.
 function retryCover(e: React.SyntheticEvent<HTMLImageElement>) {

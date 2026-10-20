@@ -18,10 +18,20 @@ const PROD_DATA = path.resolve(
 );
 const OUT = path.resolve(__dirname, "../src/generated/data.ts");
 
-// The deploy publishes the vanilla site under /newapp/classic/, so its images/
-// dir lives at /newapp/classic/images/. Use an absolute URL so covers resolve
-// no matter where the redesign is hosted (/staging/, /app/, or local dev).
-const IMG_BASE = "https://kbarbu12.github.io/newapp/classic/";
+// Cover art ships with each build: copy the source site's cover files into
+// public/covers/ and reference them relatively, so /staging/ shows its own
+// branch's covers and nothing depends on the live site being reachable.
+const SITE_DIR = path.resolve(__dirname, "../../ps5-rpg-sidequest-summarizer");
+const COVERS_OUT = path.resolve(__dirname, "../public/covers");
+fs.rmSync(COVERS_OUT, { recursive: true, force: true });
+fs.mkdirSync(COVERS_OUT, { recursive: true });
+const copyCover = (rel) => {
+  const from = path.join(SITE_DIR, rel.replace(/^\.?\//, ""));
+  const name = path.basename(from);
+  if (fs.existsSync(from)) fs.copyFileSync(from, path.join(COVERS_OUT, name));
+  else console.warn(`gen-data: cover not found: ${rel}`);
+  return `covers/${name}`;
+};
 
 // The prod file declares `const gameImages = {...}` and `const quests = [...]`
 // with no exports. Append an export line, import it as a temp ESM module.
@@ -40,7 +50,7 @@ const lastHex = (g) => {
 const GAMES = {};
 for (const [name, gi] of Object.entries(gameImages)) {
   GAMES[name] = {
-    cover: IMG_BASE + gi.cover.replace(/^\.?\//, ""),
+    cover: copyCover(gi.cover),
     abbr: gi.abbr,
     accent: lastHex(gi.gradient),
     gradient: gi.gradient,
