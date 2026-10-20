@@ -1013,7 +1013,7 @@ function LibraryView(props:{
       {sub==="wishlist" && (
         <div className="flex flex-col gap-3">
           {wishlist.length===0
-            ? emptyState(<Star size={30} className="text-muted-foreground/20"/>,"Your Plan to Play list is empty.","Add a game below and drag it up or down to set your priority.")
+            ? emptyState(<Star size={30} className="text-muted-foreground/20"/>,"Your Plan to Play list is empty.","Add a game below, then use ▲ ▼ to set your priority.")
             : <ol className="flex flex-col gap-2 list-none">
                 {wishlist.map((g,i)=>(
                   <li key={g} className="flex items-center gap-2.5 rounded-xl border border-border bg-card p-2.5">
