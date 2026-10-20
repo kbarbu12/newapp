@@ -564,7 +564,9 @@ function GameGallery({ selectedGame, onSelect, completedIds }: { selectedGame:st
 // ─── Home Tab ─────────────────────────────────────────────────────────────────
 
 function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achievementsLabel }: { onGoTo:(tab:Tab,filters?:QuestFilters)=>void; savedIds:Set<number>; onSave:(id:number)=>void; points:number; questsDone:number; streak:number; achievementsLabel:string }) {
-  const questOfWeek = QUESTS.find(q=>q.id===11)!; // The Bloody Baron
+  // Look up by title: ids get renumbered as games are added (id 11 drifted to
+  // a Cyberpunk quest while this still claimed to be the Bloody Baron).
+  const questOfWeek = QUESTS.find(q=>q.title==="The Bloody Baron" && q.game==="The Witcher 3: Wild Hunt") ?? QUESTS[0];
   const recentQuests = QUESTS.slice(0, 6);
   const latestNews = NEWS.slice(0, 3);
 
@@ -599,7 +601,7 @@ function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achieve
           </h1>
 
           <p className="text-muted-foreground text-base max-w-lg leading-relaxed">
-            Browse, filter, and master side quests and walkthroughs across {Object.keys(GAMES).length} RPGs. Over {QUESTS.length}+ quests documented with AI tips, video links, and difficulty ratings.
+            Browse, filter, and master side quests and walkthroughs across {Object.keys(GAMES).length} RPGs. {QUESTS.length.toLocaleString()} quests documented with AI tips, video links, and difficulty ratings.
           </p>
 
           {/* CTA buttons */}
@@ -622,7 +624,7 @@ function HomeTab({ onGoTo, savedIds, onSave, points, questsDone, streak, achieve
           {/* Stats row */}
           <div className="flex items-center gap-8 flex-wrap pt-2 border-t border-border/50">
             {[
-              { label:"Quests",          value:QUESTS.length+"+"},
+              { label:"Quests",          value:QUESTS.length.toLocaleString()},
               { label:"Games",           value:Object.keys(GAMES).length },
               { label:"With Video",      value:QUESTS.filter(q=>q.video).length },
               { label:"High Difficulty", value:QUESTS.filter(q=>q.difficulty==="High").length },
