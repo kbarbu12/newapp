@@ -2153,7 +2153,7 @@ export default function App() {
 
       {/* The one quest-detail dialog — opened from any quest card or a chat answer */}
       <Dialog open={!!openQuest} onOpenChange={o=>{ if(!o) setOpenQuestId(null); }}>
-        <DialogContent className="w-full h-full sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
+        <DialogContent className="w-full h-full max-w-none border-0 sm:border sm:w-[calc(100%-2rem)] sm:h-auto sm:max-w-4xl sm:max-h-[88vh] overflow-hidden p-0 gap-0 flex flex-col rounded-none sm:rounded-lg"
           onCloseAutoFocus={e=>{ const t=questTriggerRef.current; if(t?.isConnected){ e.preventDefault(); t.focus(); } }}>
           {openQuest && <QuestDetail key={openQuest.id} quest={openQuest} onClose={()=>setOpenQuestId(null)} onSave={toggleSave} saved={savedIds.has(openQuest.id)} onComplete={toggleComplete} completed={completedIds.has(openQuest.id)} completedAt={completedAt[openQuest.id]} completedSteps={completedSteps[openQuest.id]} onToggleStep={i=>toggleStep(openQuest.id,i)} hideSpoilers={hideSpoilers} autoplayVideo={autoplayVideo}/>}
         </DialogContent>
