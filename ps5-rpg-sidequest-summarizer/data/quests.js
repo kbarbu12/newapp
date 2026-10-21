@@ -15838,6 +15838,317 @@ const quests = [
     video: "https://www.youtube.com/watch?v=6xhxIDZu1l0"
   },
 {
+    id: 2832,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Coronation",
+    location: "Kaer Trolde, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "With the succession settled, Skellige crowns its new ruler, whoever you backed in King's Gambit.",
+    aiTip:
+      "It starts automatically after King's Gambit and is just a scene. Visit Ermion afterwards if you want him for Kaer Morhen.",
+    walkthrough: [
+      "Finish King's Gambit.",
+      "Return to Kaer Trolde for the ceremony.",
+      "Watch the new king or queen crowned to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=9X29PT2fvnY"
+  },
+{
+    id: 2833,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "A Hallowed Horn",
+    location: "Bandit camp by a large stone and broken boat, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A druid's sacred horn has been stolen. Track the thieves to their camp and bring it back, though he may not like how you got it.",
+    aiTip:
+      "The horn is in a chest inside the bandits' tent. Mathios won't be pleased if you killed everyone to get it back.",
+    walkthrough: [
+      "Read the horn notice on the Kaer Muire board.",
+      "Head to the bandit camp by the large stone and broken boat.",
+      "Deal with the bandits.",
+      "Open the chest in the tent and take the horn.",
+      "Return the horn to Mathios."
+    ],
+    video: "https://www.youtube.com/watch?v=dALgf39TxXw"
+  },
+{
+    id: 2834,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Tower Outta Nowheres",
+    location: "Urialla Harbor, An Skellig",
+    length: "medium",
+    difficulty: "High",
+    reward: "Lesser Svarog runestone, a leveled Moonblade and 65 crowns",
+    summary:
+      "A mage's tower has appeared out of nowhere above Urialla Harbor, and the rain hasn't stopped since. Go inside, beat its golem and free the mage trapped within.",
+    aiTip:
+      "You need the Library Key from a small chest in the laboratory to reach Gottfried's Omni-opening Grimoire, which frees Sigo Buntz. Bring Dimeritium bombs for the golem.",
+    walkthrough: [
+      "Talk to the villagers by the campfire in Urialla Harbor.",
+      "Enter the tower through the portal at the base of the stairs.",
+      "Destroy the guardian golem.",
+      "Find the Library Key in the laboratory and take the grimoire.",
+      "Use it to free Sigo Buntz, then collect the villagers' reward."
+    ],
+    video: "https://www.youtube.com/watch?v=anRx8DXyyxw"
+  },
+{
+    id: 2835,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Path of Warriors",
+    location: "Trail to Yngvar's Fang, north-east of Urialla Harbor, An Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Gunnar challenges Geralt to walk the old warriors' trial, two paths, one up a mountain and one through a cave, each ending in a token.",
+    aiTip:
+      "Finish The Tower Outta Nowheres first. The climbing is harder than the fighting, so take it slow, and if Gunnar won't finish it, reset with Witcher Senses and talk to him again.",
+    walkthrough: [
+      "Complete The Tower Outta Nowheres.",
+      "Talk to Gunnar on the trail to Yngvar's Fang.",
+      "Climb the mountain path and take the token at the top.",
+      "Go through the underground cave and take the second token.",
+      "Return both tokens to Gunnar."
+    ],
+    video: "https://www.youtube.com/watch?v=D9LsIkcqW7k"
+  },
+{
+    id: 2836,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Flesh for Sale",
+    location: "Trottheim, Faroe, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the captives freed",
+    summary:
+      "Pirates in Trottheim mistake Geralt for the slave trader they've been waiting for. Free their captives by paying, tricking or fighting.",
+    aiTip:
+      "Missable: it vanishes once you talk to Lambert in Following the Thread. Axii (Delusion) convinces the slaver he's already been paid, which saves the 500 crowns.",
+    walkthrough: [
+      "Arrive at the Trottheim gate on Faroe and play along as the 'courier'.",
+      "Meet the slaver holding the captives.",
+      "Pay 500 crowns, use Axii, or fight all the pirates.",
+      "Free the captives."
+    ],
+    video: "https://www.youtube.com/watch?v=cLkQhevZ6Co"
+  },
+{
+    id: 2837,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Family Blade",
+    location: "Kaer Trolde to the Whale Graveyard, Ard Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "75 XP and 20 crowns",
+    summary:
+      "Crach an Craite's ancestral sword has been stolen from Kaer Trolde. Chase the thieves through three bandit camps to the Whale Graveyard.",
+    aiTip:
+      "Read the thief's journal on the bodies at each camp, since each one points to the next stop.",
+    walkthrough: [
+      "Take the notice from the Kaer Trolde Harbor board.",
+      "Track the thieves to the first bandit camp and read the journal.",
+      "Follow the trail to the second camp.",
+      "Reach the Whale Graveyard and recover the sword.",
+      "Return the blade."
+    ],
+    video: "https://www.youtube.com/watch?v=ISbf3P-e46U"
+  },
+{
+    id: 2838,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Black Pearl",
+    location: "Novigrad, then the broken bridge north of Arinbjorn, Skellige",
+    length: "medium",
+    difficulty: "Low",
+    reward: "A few crowns from Nidas back in Novigrad",
+    summary:
+      "Nidas hopes a black pearl from Skellige can cure his wife's failing memory. Dive for it and protect him from drowners.",
+    aiTip:
+      "You need Destination: Skellige done for the second half. After you surface with the pearl, rush back, because drowners attack Nidas.",
+    walkthrough: [
+      "Talk to Nidas west of Hierarch Square in Novigrad.",
+      "After reaching Skellige, meet him at the broken bridge north of Arinbjorn.",
+      "Swim west to the search area and dive for oysters.",
+      "Find the pearl and kill the drowners attacking Nidas.",
+      "Meet him in Novigrad to see the bittersweet ending."
+    ],
+    video: "https://www.youtube.com/watch?v=yHAWwCN-N0I"
+  },
+{
+    id: 2839,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Sad Tale of the Grossbart Brothers",
+    location: "Blandare and a grotto on Ard Skellig's south-east coast",
+    length: "short",
+    difficulty: "High",
+    reward: "XP and a bounty",
+    summary:
+      "Bounty hunter Djenge Frett wants help bringing down the three Grossbart brothers holed up in a coastal grotto.",
+    aiTip:
+      "If Djenge dies the quest fails, so keep him out of trouble. The three brothers (sword, axe and bow) are level 26, so kill the archer first.",
+    walkthrough: [
+      "Talk to Djenge Frett in Blandare.",
+      "Sail or swim to the grotto on the south-east coast.",
+      "Fight the three Grossbart brothers.",
+      "Keep Djenge alive until all three are dead."
+    ],
+    video: "https://www.youtube.com/watch?v=qXVqKdiXN6o"
+  },
+{
+    id: 2840,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Peace Disturbed",
+    location: "Crypt north of the Crossroads, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Two women outside a crypt fear the dead inside won't rest. Clear the wraiths and the nightwraith in the final chamber.",
+    aiTip:
+      "Use Yrden on the nightwraith to make it vulnerable. A hidden entrance near Kaer Trolde lets you skip most of the crypt and face only the boss.",
+    walkthrough: [
+      "Talk to the two women outside the crypt north of the Crossroads.",
+      "Enter the crypt and clear the wraiths.",
+      "Reach the final room.",
+      "Use Yrden and kill the nightwraith."
+    ],
+    video: "https://www.youtube.com/watch?v=IFgztlSHmp0"
+  },
+{
+    id: 2841,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Brave Fools Die Young",
+    location: "Grymmdjarr Monument, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Two young fishermen, Petter and Ulf, tried lighting a fire atop the Grymmdjarr Monument, and Petter fell and hurt his leg. Help him or leave them to it.",
+    aiTip:
+      "Have celandine on you to treat Petter. It never shows in the journal if you walk away, so it's easy to miss.",
+    walkthrough: [
+      "Find the two men at the Grymmdjarr Monument.",
+      "Talk to them about Petter's fall.",
+      "Give Petter celandine, or leave them be."
+    ],
+    video: "https://www.youtube.com/watch?v=x_amgvaWjQo"
+  },
+{
+    id: 2842,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Abandoned Sawmill",
+    location: "Sawmill in eastern Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The lumberjacks of an abandoned sawmill were killed by something in the woods. Examine the bones and face the leshen that appears.",
+    aiTip:
+      "It starts as soon as you reach the sawmill. Bring Relict Oil and Igni, and destroy the leshen's totem if you find one first.",
+    walkthrough: [
+      "Travel to the abandoned sawmill on Ard Skellig.",
+      "Examine the human bones.",
+      "Optionally search the nearby buildings for clues.",
+      "Kill the leshen when it appears."
+    ],
+    video: "https://www.youtube.com/watch?v=Gqx1HQLfKZQ"
+  },
+{
+    id: 2843,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Gwent: Skellige Style",
+    location: "Kaer Trolde, Ard Skellig and around the islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique cards (Leshen, Draug, Mysterious Elf, Vampire: Katakan, Yaevinn) and Emhyr: The White Flame",
+    summary:
+      "Beat Skellige's gwent players, Ermion, Crach an Craite, Gremist, Sjusta and Madman Lugos, for their unique cards.",
+    aiTip:
+      "Ermion needs Echoes of the Past done and Gremist may need Practicum in Advanced Alchemy. Play Madman Lugos early, as he's gone once Battle Preparations starts unless Svanrige is king.",
+    walkthrough: [
+      "Beat Ermion for the Leshen card.",
+      "Beat Crach an Craite for the Draug card.",
+      "Beat Gremist for the Mysterious Elf card.",
+      "Beat Madman Lugos for Vampire: Katakan.",
+      "Beat Sjusta for Yaevinn to finish the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=ZMKvcqrC2ko"
+  },
+{
+    id: 2844,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "A Mysterious Passenger",
+    location: "Larvik, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Low",
+    reward: "None (lore)",
+    summary:
+      "Skjall saw a strange creature with Ciri on Hindarsfjall. Ask Jarl Donar an Hindar about it.",
+    aiTip:
+      "Only appears if you finish The Calm Before the Storm before Ciri's Story: Out of the Shadows in Velen. It gives no XP and is purely story.",
+    walkthrough: [
+      "Finish The Calm Before the Storm before Out of the Shadows.",
+      "Travel to Larvik on Hindarsfjall.",
+      "Talk to Jarl Donar an Hindar about the creature Skjall saw."
+    ],
+    video: "https://www.youtube.com/watch?v=3eIU1IT3NMo"
+  },
+{
+    id: 2845,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "The Witchers' Forge",
+    location: "Kaer Morhen and an old mine nearby",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "25 XP and armour",
+    summary:
+      "A book in Kaer Morhen's main hall points to the old witchers' forge. Track it down to an abandoned iron mine with a secret passage.",
+    aiTip:
+      "You need the Eye of Nehaleni from Wandering in the Dark to reveal the hidden passage. It's missable, so pick up the book on your first visit.",
+    walkthrough: [
+      "Find and read the book in Kaer Morhen's main hall.",
+      "Head to the old iron mine near the keep.",
+      "Use the Eye of Nehaleni to reveal the secret passage.",
+      "Explore the old forge and claim the armour."
+    ],
+    video: "https://www.youtube.com/watch?v=kVRRE1XgVzE"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
