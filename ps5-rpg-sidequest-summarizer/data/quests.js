@@ -16149,6 +16149,298 @@ const quests = [
     video: "https://www.youtube.com/watch?v=kVRRE1XgVzE"
   },
 {
+    id: 2846,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: Witcher Seasonings",
+    location: "Oxenfurt (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; fewer guards for the heist",
+    summary:
+      "To thin out the Redanian guard around the Borsodi auction house, Geralt goes after the soldiers' cook, Maarten, and his kitchen.",
+    aiTip:
+      "Use Axii on Maarten to skip paying him the 500-crown bribe. Witcher Senses on the soldiers in Oxenfurt tell you where to find him.",
+    walkthrough: [
+      "Spy on the Redanian soldiers in Oxenfurt with Witcher Senses to learn where their cook is.",
+      "Listen in on the soldiers' conversation at the auction house.",
+      "Find Maarten the cook.",
+      "Bribe him or use Axii to have him spoil the soldiers' meal."
+    ],
+    video: "https://www.youtube.com/watch?v=Sz6PGHG8ALg"
+  },
+{
+    id: 2847,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: Breaking and Entering",
+    location: "Oxenfurt and surroundings (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; a burglar for the heist",
+    summary:
+      "The heist needs a burglar. Geralt can try Hugo Hoff or Eveline Gallo, 'the Ermine', who's working at a circus camp.",
+    aiTip:
+      "Hugo Hoff is often already dead when you get there, so Eveline is the usual pick. Shoot the four apples off the performer with your crossbow to win her over, and watch for three level 33 thugs on the riverbank.",
+    walkthrough: [
+      "Choose between Hugo Hoff and Eveline Gallo.",
+      "For Hugo, follow the trail with Witcher Senses to the riverbank and fight the thugs.",
+      "For Eveline, find her at the circus camp.",
+      "Shoot the four apples off the other performer.",
+      "Bring your burglar on board."
+    ],
+    video: "https://www.youtube.com/watch?v=VOlHKQgvjUM"
+  },
+{
+    id: 2848,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: The Safecracker",
+    location: "Oxenfurt area (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; a safecracker for the heist",
+    summary:
+      "Recruit a safecracker for the Borsodi vault, either the dwarf Casimir or Quinto, who is being held in a mercenary camp.",
+    aiTip:
+      "With Casimir, Axii at level 2 ends the conversation and gets him on board. Freeing Quinto costs more if you made Hans pay extra in The Creature from Oxenfurt Forest.",
+    walkthrough: [
+      "Choose between Casimir and Quinto.",
+      "For Casimir, find him and use Axii to recruit him.",
+      "For Quinto, go to the mercenary camp and pay for his release.",
+      "Bring the safecracker back to the crew."
+    ],
+    video: "https://www.youtube.com/watch?v=6nkjSC7ivkE"
+  },
+{
+    id: 2849,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Enchanting: Start-Up Costs",
+    location: "Ofieri camp at the Upper Mill (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Access to the runewright's enchanting",
+    summary:
+      "An Ofieri runewright at the Upper Mill can enchant gear with runewords, but first he needs 5,000 crowns to replace his lost tools.",
+    aiTip:
+      "Save up the 5,000 crowns first. Advanced and master runewords cost another 10,000 and 15,000 later.",
+    walkthrough: [
+      "Meet the runewright at the Ofieri camp at the Upper Mill.",
+      "Pay him 5,000 crowns.",
+      "This starts Enchanting: Quality Has Its Price."
+    ],
+    video: "https://www.youtube.com/watch?v=4nZpOTpsMxw"
+  },
+{
+    id: 2850,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Enchanting: Quality Has Its Price",
+    location: "Bloodrot Pit (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Runewright's shop and enchanting unlocked",
+    summary:
+      "The runewright needs high-quality jade for his work. Grab a pickaxe and dig the right deposit out of a cave.",
+    aiTip:
+      "Of the three search areas, only Bloodrot Pit has enough jade, so skip the other two. Take the pickaxe from the barn east of his tent first.",
+    walkthrough: [
+      "Take the pickaxe from the barn east of the runewright's tent.",
+      "Head to Bloodrot Pit.",
+      "Use Witcher Senses to find the mound in the cave.",
+      "Dig out the jade with the pickaxe.",
+      "Bring it back to the runewright."
+    ],
+    video: "https://www.youtube.com/watch?v=eJIU1OifPI4"
+  },
+{
+    id: 2851,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Races: Swift as the Western Winds",
+    location: "Upper Mill, east of Brunwich (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "A saddle that adds 85 to carrying capacity",
+    summary:
+      "An Ofieri merchant at the Upper Mill boasts about his horses. Challenge him to a race and dodge the barrels he rolls into your path.",
+    aiTip:
+      "Watch for the rolling barrels and steer around them rather than slowing down. The saddle is one of the best for carrying weight.",
+    walkthrough: [
+      "Talk to the Ofieri merchant at the Upper Mill about horses.",
+      "Accept his race.",
+      "Ride the course, avoiding the rolling barrels.",
+      "Win to claim the saddle."
+    ],
+    video: "https://www.youtube.com/watch?v=GgbWZ9VmjeY"
+  },
+{
+    id: 2852,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Rose on a Red Field",
+    location: "Garin Estate, Bowdon and Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Adela of the Wild Company asks Geralt to find whoever murdered her friend Kluivert. The trail runs through ghoul-infested Bowdon to a knights' cart and a lab.",
+    aiTip:
+      "Bowdon is overrun with ghouls, so bring Necrophage Oil. The quest can't be missed or failed, even after the main story ends.",
+    walkthrough: [
+      "Talk to Adela when leaving the Garin Estate.",
+      "Investigate in Bowdon, clearing the ghouls.",
+      "Examine the knights' cart and the lab.",
+      "Follow the lead to The Alchemy inn in Oxenfurt.",
+      "Report back to Adela."
+    ],
+    video: "https://www.youtube.com/watch?v=V_NVF8R3-Oc"
+  },
+{
+    id: 2853,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Drakenborg Redemption",
+    location: "Bloodrot Pit, Novigrad outskirts (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 456 florens and loot",
+    summary:
+      "A corpse in Bloodrot Pit holds a bent key and a letter about treasure buried at the back of the cave, guarded by arachnomorphs.",
+    aiTip:
+      "Expect arachnomorphs by the body, more by the chest, and a large one in the second part of the cave. Bring Insectoid Oil.",
+    walkthrough: [
+      "Find the corpse in Bloodrot Pit and take the Bent Key and letter.",
+      "Read the letter to start the treasure hunt.",
+      "Kill the arachnomorphs and push to the back of the cave.",
+      "Defeat the large arachnomorph.",
+      "Open the chest with the key."
+    ],
+    video: "https://www.youtube.com/watch?v=XgXlMkLcgok"
+  },
+{
+    id: 2854,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Secret Life of Count Romilly",
+    location: "Arnskrone Castle Ruins (Hearts of Stone)",
+    length: "short",
+    difficulty: "High",
+    reward: "Random loot, possibly a diagram",
+    summary:
+      "A journal and key on a body outside the swamp-bound Arnskrone ruins lead to Count Romilly's hidden chest.",
+    aiTip:
+      "A level 37 ancient leshen patrols the area, so come prepared or sneak past. The chest is down the spiral stairs in the broken western tower.",
+    walkthrough: [
+      "Find the body near the Arnskrone ruins and read the journal.",
+      "Take the Tarnished Key.",
+      "Go down the spiral staircase in the western tower.",
+      "Open the chest across from the stairs."
+    ],
+    video: "https://www.youtube.com/watch?v=LJV-KP5yvjM"
+  },
+{
+    id: 2855,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Sword, Famine and Perfidy",
+    location: "Coastal hut north of Novigrad and a sunken ship (Hearts of Stone)",
+    length: "short",
+    difficulty: "High",
+    reward: "A Stribog runestone, florens and crafting materials",
+    summary:
+      "A trapdoor under a coastal hut hides a body, a letter written in blood and a rusted key that points to a sunken ship's chest.",
+    aiTip:
+      "Smash the barrels on the right side of the hut to find the trapdoor. Take the boat south-west of the house instead of swimming, and use your crossbow on the drowned dead underwater.",
+    walkthrough: [
+      "Clear the monsters at the hut on the coast north of Novigrad.",
+      "Smash the barrels inside to reveal the trapdoor.",
+      "Read the blood-written letter and take the rusted key.",
+      "Take the boat to the wreck and dive down.",
+      "Kill the drowned dead and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=bnZCCXWL51k"
+  },
+{
+    id: 2856,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Tinker, Hunter, Soldier, Spy",
+    location: "Mohrin Village watchtower and lake (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Florens, a Mastercrafted saddle and crafting materials",
+    summary:
+      "A corpse in a watchtower near Mohrin Village has a bloody letter and an encrusted key pointing to a chest hidden at a nearby lake.",
+    aiTip:
+      "Keep your distance from the Fallen Knights near the tower. The chest is directly under the pier, so look from the shore, not from the pier itself.",
+    walkthrough: [
+      "Climb the watchtower at abandoned Mohrin Village.",
+      "Loot the body for the letter and key.",
+      "Read the letter and ride to the lake.",
+      "Use Witcher Senses to find the chest beneath the pier.",
+      "Open it with the key."
+    ],
+    video: "https://www.youtube.com/watch?v=LxgrRDrSQ9M"
+  },
+{
+    id: 2857,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Without a Trace",
+    location: "Brunwich and Erde (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "200 crowns and 100 XP",
+    summary:
+      "The herbalist's halfling apprentice Folkert has gone missing. His abandoned cart and a blood trail lead to an old couple in Erde with a grim secret.",
+    aiTip:
+      "Every ending pays the same. If you kill the couple, their Rusty Key opens the house.",
+    walkthrough: [
+      "Take the notice from the Brunwich board and talk to the herbalist east of Oxenfurt.",
+      "Find Folkert's cart in the woods.",
+      "Follow the blood trail north to Erde.",
+      "Confront the old couple and choose their fate.",
+      "Return to the herbalist."
+    ],
+    video: "https://www.youtube.com/watch?v=pACNv0sqDg8"
+  },
+{
+    id: 2858,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Taxman Cometh",
+    location: "Oxenfurt market (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "A tax certificate, or a 1,000-crown penalty",
+    summary:
+      "Carry 35,000 crowns through Oxenfurt's market and a deputy tax enumerator wants to know exactly how a witcher came by so much money.",
+    aiTip:
+      "Deny the rawhide trading, pearl dealing and 'entering homes' questions to walk away with a certificate. Admit to two or more and you owe 1,000 crowns at the Vivaldi Bank.",
+    walkthrough: [
+      "Carry about 35,000 crowns into Oxenfurt's market.",
+      "Talk to Walthemor Mitty, the deputy tax enumerator.",
+      "Answer his three questions.",
+      "Take the certificate, or pay the penalty at the Vivaldi Bank in Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=4HGcn_qRzq8"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
