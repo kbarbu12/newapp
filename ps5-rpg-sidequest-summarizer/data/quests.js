@@ -16441,6 +16441,326 @@ const quests = [
     video: "https://www.youtube.com/watch?v=4HGcn_qRzq8"
   },
 {
+    id: 2859,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Where Children Toil, Toys Waste Away",
+    location: "Beauclair Port and The Rocking Horse toy shop, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; leads into Wine is Sacred",
+    summary:
+      "A bootblack from Regis's vision is the next lead on the Beast. Find the boy in Beauclair Port and follow his trail to an abandoned toy shop.",
+    aiTip:
+      "The bootblack only works 8am–8pm, so meditate if needed. Axii saves you his 500-crown fee, though paying him counts as Generosity for There Can Be Only One. Visit Count de la Croix's Mill first if you want Amidst the Mill's Grist.",
+    walkthrough: [
+      "Find the bootblack in Beauclair Port between 8am and 8pm.",
+      "Pay him, haggle, or use Axii to get the information.",
+      "Deal with the fight that follows when the guards arrive.",
+      "Go with Regis to The Rocking Horse toy shop.",
+      "Examine the letter in the box and the papers in the corner."
+    ],
+    video: "https://www.youtube.com/watch?v=ylnEjeJHUtE"
+  },
+{
+    id: 2860,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine is Sacred",
+    location: "Beauclair Palace and a vineyard cellar, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The Beast's next target is tied to a vintage of Sangreal. Investigate the wine cellar, find the right barrels and survive the ambush on the way out.",
+    aiTip:
+      "Grab the tapping hammer and barrel tap from the lower west section of the cellar first. The 1269 barrel is upstairs in the south-east corner. Bandits under Hornitz ambush you when you leave.",
+    walkthrough: [
+      "Talk to the Duchess and Damien de la Tour at Beauclair Palace.",
+      "Head to the vineyard's wine cellar.",
+      "Find the tapping hammer and barrel tap.",
+      "Tap the 1269 Sangreal barrels and see that the wine isn't right.",
+      "Fight off Hornitz and his bandits on the way out."
+    ],
+    video: "https://www.youtube.com/watch?v=UwVfFAsSb3Y"
+  },
+{
+    id: 2861,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Man from Cintra",
+    location: "Mountebank Alley and the Mandragora party, Beauclair",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Geralt and the Duchess go to a masked party at the Mandragora to find a mysterious Cintrian, but they arrive too late.",
+    aiTip:
+      "Buy formal clothes from Pierre's tailor shop northwest of the Gran'Place if you want to impress Anna Henrietta, though she'll provide a mask either way.",
+    walkthrough: [
+      "Optionally buy formal clothes from Pierre's tailor's workshop.",
+      "Meet Anna Henrietta in Mountebank Alley.",
+      "At the party, find the woman with a Koviri orchid in her hair.",
+      "Use Witcher Senses on the refreshment tables to find the heart-shaped box.",
+      "Follow the tracks across the balconies and investigate the room."
+    ],
+    video: "https://www.youtube.com/watch?v=Qttn45voNRU"
+  },
+{
+    id: 2862,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Capture the Castle",
+    location: "Count de la Croix's Mill and Dun Tynne, Toussaint",
+    length: "long",
+    difficulty: "High",
+    reward: "XP; leads into The Night of Long Fangs",
+    summary:
+      "Damien and Geralt plan an assault on Dun Tynne castle, where the Beast's accomplice is holed up. It's the point of no return for much of Toussaint's side content.",
+    aiTip:
+      "Meet Damien at the mill only after midnight. Make a manual save first, since you can't save during the assault, and finish The Warble of a Smitten Knight beforehand.",
+    walkthrough: [
+      "Go to Count de la Croix's Mill after midnight and meet Damien.",
+      "Plan the assault on Dun Tynne.",
+      "Fight through the gate guards and the courtyard.",
+      "Defeat Roderick's group and choose whether to help him.",
+      "Push on through the castle."
+    ],
+    video: "https://www.youtube.com/watch?v=cmayDR3wkfw"
+  },
+{
+    id: 2863,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "What Lies Unseen",
+    location: "Hidden cave by the lake south-west of Beauclair",
+    length: "long",
+    difficulty: "High",
+    reward: "XP and Hen Gaidth gauntlets (optional)",
+    summary:
+      "Regis takes Geralt to the lair of the Unseen Elder, the oldest higher vampire, to ask for help finding Dettlaff.",
+    aiTip:
+      "Take the dry path so Regis can help. The wet route has a chest with Hen Gaidth gauntlets. With the Elder, don't ask too many questions or give poor answers, or he kills you.",
+    walkthrough: [
+      "Open the hidden entrance on the cliff with Orianna's Magic Stone.",
+      "Choose the dry path (with Regis) or the wet path (gauntlets chest).",
+      "Deal with the fleders along the way.",
+      "Reach the Unseen Elder with an offering.",
+      "Answer carefully to get his help against Dettlaff."
+    ],
+    video: "https://www.youtube.com/watch?v=WGDIg-y9sDY"
+  },
+{
+    id: 2864,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Burlap is the New Stripe",
+    location: "Toussaint prison, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "If Syanna dies, Geralt is thrown into prison in Toussaint. Get through prison life until Dandelion arranges a way out.",
+    aiTip:
+      "Only appears if Syanna dies in the Tesham Mutna storyline. Pick the Axii option in the yard fight to turn three guards into two.",
+    walkthrough: [
+      "Wake up imprisoned in Toussaint.",
+      "Collect the dirty clothing and soap and drop them at the laundry tubs.",
+      "Pick up a stick and fight the guards, using Axii to even the odds.",
+      "Follow the guard to the exit.",
+      "Recover your belongings from the room left of the first gate."
+    ],
+    video: "https://www.youtube.com/watch?v=SFJ_sBzNvCI"
+  },
+{
+    id: 2865,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Be It Ever So Humble...",
+    location: "Corvo Bianco vineyard, Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "The epilogue",
+    summary:
+      "After the story ends, Geralt returns home to Corvo Bianco, where a visitor waits, depending on who he's closest to.",
+    aiTip:
+      "Your visitor (Yennefer, Triss, Ciri or Dandelion) depends on your romance and Ciri's ending. Upgrade the vineyard first for the full effect.",
+    walkthrough: [
+      "Finish the Blood and Wine main story.",
+      "Return home to Corvo Bianco.",
+      "Greet your visitor.",
+      "Finish the conversation to end the expansion."
+    ],
+    video: "https://www.youtube.com/watch?v=zp8JSv_Ofmo"
+  },
+{
+    id: 2866,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Extreme Cosplay",
+    location: "Road east of Francollarts and the Doren Alma estate, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 300 crowns and 250 XP",
+    summary:
+      "Gaston is tending a man hurt by a 'mad knight' who thinks he's an elf king. Follow the burn marks to the estate and stop the performance before the living statues get out of hand.",
+    aiTip:
+      "Agree to let Gaston come along, since telling him it's not your concern fails the quest. Use Aard on the locked gate.",
+    walkthrough: [
+      "Talk to Gaston by the injured man east of Francollarts.",
+      "Let Gaston come with you to the Doren Alma estate.",
+      "Use Aard on the locked gate.",
+      "Follow the burn marks to Durand.",
+      "Light the garden lamps and place the elven bread and wine, then deal with the statues."
+    ],
+    video: "https://www.youtube.com/watch?v=j8103sbIrbI"
+  },
+{
+    id: 2867,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Father Knows Worst",
+    location: "Cave north-west of Beauclair Palace, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and the Virtue of Wisdom for the peaceful ending",
+    summary:
+      "Two Monnart brothers want Geralt's help rescuing their brother Hugo from a cave full of kikimores. Things are more complicated than they seem.",
+    aiTip:
+      "Use Quen against the hot-spring damage in the cave. Resolving it peacefully among the brothers earns the Virtue of Wisdom for There Can Be Only One.",
+    walkthrough: [
+      "Take the 'Armed Escort Wanted!' notice in Beauclair.",
+      "Meet the brothers and enter the cave north-west of the palace.",
+      "Fight the kikimore workers.",
+      "Find Hugo.",
+      "Settle things between the brothers peacefully, or fight them."
+    ],
+    video: "https://www.youtube.com/watch?v=Ig-vDH0LfO8"
+  },
+{
+    id: 2868,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Goodness, Gracious, Great Balls of Granite!",
+    location: "Gran'Place, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "A reward from the curator, or the stones",
+    summary:
+      "Stone pieces have vanished from a monument to Reginald d'Aubry. Track them down to a thief named Hughes, who has his own reasons for taking them.",
+    aiTip:
+      "There are three endings: let Hughes keep the stones for a reward, demand them back, or lend them to him for a day.",
+    walkthrough: [
+      "Read the notice or talk to the art curator at the Gran'Place.",
+      "Investigate the monument with Witcher Senses.",
+      "Follow the trail to Hughes's house.",
+      "Choose to give, take or lend the stones."
+    ],
+    video: "https://www.youtube.com/watch?v=rLf8RV_wzZo"
+  },
+{
+    id: 2869,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Duck, Duck, Goosed!",
+    location: "Land of a Thousand Fables, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Golden Egg (eat it for a skill point)",
+    summary:
+      "In the fairytale land, a notice asks for help rescuing a goose that lays golden eggs. Follow the feathers to Redbeard's bandits.",
+    aiTip:
+      "Do this before finishing Beyond Hill and Dale..., because you can't return afterwards. The notice is near the Little Flint Girl and easy to miss.",
+    walkthrough: [
+      "Read the notice near the Little Flint Girl.",
+      "Use Witcher Senses to follow the goose feathers.",
+      "Fight Redbeard and his bandits.",
+      "Take the cage key from the bodies.",
+      "Free the goose and collect the Golden Egg."
+    ],
+    video: "https://www.youtube.com/watch?v=lXNdJOYsl50"
+  },
+{
+    id: 2870,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: The Tufo Monster",
+    location: "Flovive and its cellars, Toussaint",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns and a bonus for destroying every egg",
+    summary:
+      "Something is terrorising Flovive from below. Clear the kikimore eggs in the tunnels, then lure out the shaelmaar behind it all.",
+    aiTip:
+      "Destroy every kikimore egg in the tunnels for a bonus. The shaelmaar hits hard and rolls at you, so dodge sideways and strike after each attack.",
+    walkthrough: [
+      "Take the contract from the Flovive notice board.",
+      "Clear the cellar tunnels and destroy the kikimore eggs.",
+      "Follow the tracks with Witcher Senses.",
+      "Brew the bait and lure out the shaelmaar.",
+      "Kill it and claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Z6VzKecVHw8"
+  },
+{
+    id: 2871,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Feet as Cold as Ice",
+    location: "West of the Nilfgaardian Embassy signpost, Toussaint",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns and XP",
+    summary:
+      "A woman west of the Nilfgaardian Embassy needs a witcher. The hunt ends in a cave with an ancient relict.",
+    aiTip:
+      "Use Witcher Senses to find the monster, then set the plants on fire to lure it out. Relict Oil, Dimeritium bombs and Igni all work well against it.",
+    walkthrough: [
+      "Talk to the woman west of the Nilfgaardian Embassy signpost.",
+      "Investigate with Witcher Senses.",
+      "Track the monster to its cave.",
+      "Set the plants alight to lure it out.",
+      "Kill it and return for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ysXClroqCZI"
+  },
+{
+    id: 2872,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Bovine Blues",
+    location: "Quarry site in Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "A cow and a worker have been killed at a quarry. Clear the ghouls, work out what really happened and follow the blood trail to the killer.",
+    aiTip:
+      "Examine both the cow and the worker to unlock the final 'cause of the accident' clue. Fight up close with Quen up.",
+    walkthrough: [
+      "Take the contract and go to the quarry site.",
+      "Clear the ghouls and alghouls.",
+      "Examine the dead cow and the worker.",
+      "Follow the blood trail east.",
+      "Kill the monster and report back."
+    ],
+    video: "https://www.youtube.com/watch?v=px8GECmvwi0"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
