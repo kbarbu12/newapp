@@ -15505,6 +15505,339 @@ const quests = [
     video: "https://www.youtube.com/watch?v=xcuMAkGzHjE"
   },
 {
+    id: 2817,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "High Stakes",
+    location: "Passiflora, Novigrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Leader cards including Foltest, Emhyr var Emreis, Francesca Findabair and Eredin",
+    summary:
+      "Count Tybalt is hosting a high-stakes gwent tournament at the Passiflora. Fight your way through the bracket and beat him for the title.",
+    aiTip:
+      "Save before every match, because losing a single game fails the quest. It's required for the Gwent Master achievement, so bring your strongest deck.",
+    walkthrough: [
+      "Read the tournament notice on the Hierarch Square board.",
+      "Go to the Passiflora and register with the scribe on the ground floor.",
+      "Win each round of the tournament, saving before every match.",
+      "Beat Count Tybalt in the final to win the tournament."
+    ],
+    video: "https://www.youtube.com/watch?v=VhgSdU0xPOI"
+  },
+{
+    id: 2818,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Message from an Old Friend",
+    location: "Books and scrolls shop north of Hierarch Square, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "50 XP and 51 crowns",
+    summary:
+      "Bookseller Marcus T.K. Hodgson says someone left a red book for Geralt years ago, but he can't remember where he put it. Find it and read the letter inside.",
+    aiTip:
+      "Use Witcher Senses on the upper floors. The book, 'My Manifesto - The Life of Jacques de Aldersberg', is on the second floor near the stairs up.",
+    walkthrough: [
+      "Enter the bookshop north of Hierarch Square and talk to Marcus T.K. Hodgson.",
+      "Search the shop with Witcher Senses for a book with a red cover.",
+      "Pick it up on the second floor near the stairs to the third.",
+      "Read the letter inside to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=H0fut8DHdyI"
+  },
+{
+    id: 2819,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Nobleman Statuette",
+    location: "Gildorf, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "30 crowns, 50 XP and a random lesser glyph",
+    summary:
+      "A jade figurine on a Gildorf stall turns out to hold a cursed nobleman. Bring it to Triss to lift the spell.",
+    aiTip:
+      "Do this before Now or Never, since Triss leaves Novigrad afterwards and the quest can't trigger until much later. The figurine only costs four crowns.",
+    walkthrough: [
+      "Buy the jade figurine from the stall in Gildorf.",
+      "Take it to Triss while she's still in Novigrad.",
+      "Help Triss break the curse.",
+      "Talk to the freed nobleman for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=C-sV-1iZPFU"
+  },
+{
+    id: 2820,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad Hospitality",
+    location: "Road near Yantra, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bards' belongings (worth about 100 crowns) if you demand them",
+    summary:
+      "Two friendly bards, Victor and Gascoigne, invite Geralt for a drink. He wakes the next morning without his shirt, boots or weapons.",
+    aiTip:
+      "Follow the footprints with Witcher Senses back to Yantra. Demanding all their possessions pays better than letting the thieves go.",
+    walkthrough: [
+      "Accept the drink from Victor and Gascoigne on the road near Yantra.",
+      "Wake up robbed of your gear.",
+      "Follow the footprints with Witcher Senses to Yantra.",
+      "Recover your gear and decide whether to let the bards go or take their belongings."
+    ],
+    video: "https://www.youtube.com/watch?v=iUT3hJgP_tU"
+  },
+{
+    id: 2821,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad, Closed City",
+    location: "St. Gregory's Bridge and The Bits, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Nigredo formula and the contents of the safe",
+    summary:
+      "Lussi calls Geralt over on St. Gregory's Bridge and leads him into an ambush. Her key starts a hunt for three keys to a safe, with witch hunters and bandits both after it.",
+    aiTip:
+      "Search the dead witch hunter for the warrant naming Fritz and Wallter, the other two key-holders. The second part ends with a choice between the bandits and the witch hunters.",
+    walkthrough: [
+      "Talk to Lussi on St. Gregory's Bridge and follow her home.",
+      "Kill the two witch hunters waiting there, then take Lussi's key.",
+      "Read the warrant to find Fritz and Wallter.",
+      "Get the keys from both of them.",
+      "Open the safe and choose between the bandits and the witch hunters."
+    ],
+    video: "https://www.youtube.com/watch?v=664LEui5rvs"
+  },
+{
+    id: 2822,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "An Eye for an Eye",
+    location: "Temerian hideout and Mulbrydale, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "50 XP; Roche and Ves can join at Kaer Morhen",
+    summary:
+      "Roche's lieutenant Ves has gone to attack Nilfgaardians in Mulbrydale against orders. Help Roche get her out alive.",
+    aiTip:
+      "Ves must survive, or the quest fails and you lose Roche and Ves for Kaer Morhen. Killing the last Nilfgaardian brings reprisals and closes Mulbrydale's shops.",
+    walkthrough: [
+      "Get the quest from Roche during Get Junior.",
+      "Meet Roche at the Hanged Man's Tree north of Mulbrydale.",
+      "Fight the Nilfgaardians in Mulbrydale and keep Ves alive.",
+      "Decide whether to spare or kill the last Nilfgaardian soldier."
+    ],
+    video: "https://www.youtube.com/watch?v=hUMkZ_zXEqU"
+  },
+{
+    id: 2823,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Feast for Crows",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "20 crowns if you hand over the key",
+    summary:
+      "Geralt catches the smell of a corpse and finds a dead man clutching a key. Before long, the bandits who want that key come looking.",
+    aiTip:
+      "Available after Broken Flowers. Give them the key for 20 crowns or fight them, and they're not tough.",
+    walkthrough: [
+      "Follow the smell of decay to the corpse.",
+      "Take the key from the dead man's hand.",
+      "Meet the bandits looking for it.",
+      "Hand over the key for 20 crowns, or fight them."
+    ],
+    video: "https://www.youtube.com/watch?v=FlCL1XT4SqA"
+  },
+{
+    id: 2824,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Tome Entombed",
+    location: "Novigrad sewers",
+    length: "short",
+    difficulty: "Medium",
+    reward: "50 XP",
+    summary:
+      "Deep in the Novigrad sewers, Professor Vairmont Jonne is trying to open a sealed sarcophagus for an elven manuscript. Inside sleeps a katakan vampire.",
+    aiTip:
+      "Go in through the tunnel in The Bits or the archway tower past the Tretogor Gate. Look for the weak wall on the left before the gated arch and break it with Aard.",
+    walkthrough: [
+      "Enter the sewers from The Bits or the tower past the Tretogor Gate.",
+      "Find the weak wall on the left and break it with Aard.",
+      "Meet Professor Vairmont Jonne at the sealed sarcophagus.",
+      "Deal with what's inside to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=pWulC9IZ04Q"
+  },
+{
+    id: 2825,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Flame of Hatred",
+    location: "East of Hierarch Square, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and loot from the thugs",
+    summary:
+      "An Eternal Fire preacher heckles Geralt in public. Humiliate him, and a few days later two 'guards' come to settle the score.",
+    aiTip:
+      "Don't hand over your weapons when the guards ask. They're the preacher's men looking for revenge, so just fight them.",
+    walkthrough: [
+      "Pass the preacher east of Hierarch Square and let him heckle you.",
+      "Talk him down with one of the first two replies.",
+      "A few days later, meet the two 'guards' who stop you.",
+      "Refuse to surrender your weapons and kill the thugs."
+    ],
+    video: "https://www.youtube.com/watch?v=WswbSN3jKiI"
+  },
+{
+    id: 2826,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Karmic Justice",
+    location: "Alley north of the dye pits, Farcorners, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Three elves have cornered a human merchant, claiming he sold poisoned fisstech to their young. He says they're robbing him. Decide who to believe.",
+    aiTip:
+      "Talk to them quickly, because if you wait too long the elves kill the merchant and you can't intervene. There's no hard evidence either way.",
+    walkthrough: [
+      "Find the elves and the merchant in the alley north of the Farcorners dye pits.",
+      "Talk to them before the elves act.",
+      "Hear both sides of the story.",
+      "Side with the elves or the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=d9pWOfigDOk"
+  },
+{
+    id: 2827,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Race: The Great Erasmus Vegelbud Memorial Derby",
+    location: "Vegelbud Residence, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prize crowns plus the Superior Racing Saddle and Superior Cavalry Saddle",
+    summary:
+      "The Vegelbuds' memorial derby is three long horse races on different courses, the last against Luc Vegelbud himself.",
+    aiTip:
+      "Each race costs 100 crowns to enter, so bring 300. Keep tapping gallop to manage stamina and stick close to the racing line.",
+    walkthrough: [
+      "Pick up the derby invitation from the table in Hierarch Square after Get Junior.",
+      "Pay the 100-crown fee and win the first race.",
+      "Win the second race.",
+      "Beat Luc Vegelbud in the third race.",
+      "Collect your winnings and the messenger's letter as you leave."
+    ],
+    video: "https://www.youtube.com/watch?v=O9xBkyWj568"
+  },
+{
+    id: 2828,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Most Truest of Basilisks",
+    location: "Road north-east of the Novigrad Gate, outside Oxenfurt",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP",
+    summary:
+      "A beast tamer is showing soldiers a caged 'basilisk' that is really a wyvern. Call him out, then deal with the wyvern when it breaks loose.",
+    aiTip:
+      "The marker only appears between 7am and 6pm. Have Draconid Oil ready, because the wyvern escapes as soon as you expose the fraud.",
+    walkthrough: [
+      "Visit the road north-east of the Novigrad Gate during the day.",
+      "Talk to the beast tamer and the soldiers.",
+      "Point out that the creature is a wyvern.",
+      "Kill the wyvern when it escapes its cage."
+    ],
+    video: "https://www.youtube.com/watch?v=KHC0T3Xb5mg"
+  },
+{
+    id: 2829,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Fencing Lessons",
+    location: "South of Novigrad's Southern Gate and the Seven Cats Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP",
+    summary:
+      "Rosa var Attre wants another fencing lesson, and then needs help when a pair of drunkards cause trouble at the Seven Cats Inn.",
+    aiTip:
+      "Agree to more lessons during Broken Flowers to unlock this, and finish it before The Isle of Mists. You can fight, pay off or Axii the drunkards.",
+    walkthrough: [
+      "Agree to another lesson with Rosa during Broken Flowers.",
+      "Talk to the guard captain, then find Rosa south of the Southern Gate.",
+      "Duel Rosa.",
+      "Follow the footprints with Witcher Senses to the Seven Cats Inn.",
+      "Deal with the two drunkards to help Rosa."
+    ],
+    video: "https://www.youtube.com/watch?v=tbk_FRZ1nTA"
+  },
+{
+    id: 2830,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Gwent: Big City Players",
+    location: "Novigrad and the woods to the south",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique cards: Vesemir, Morvran Voorhis, Esterad Thyssen, Ciri and Francesca Findabair",
+    summary:
+      "Take on Novigrad's gwent elite: Vimme Vivaldi, Marquise Serenity, Sigi Reuven and a Scoia'tael merchant in the woods.",
+    aiTip:
+      "Vivaldi plays Scoia'tael and Serenity plays Nilfgaard, so build your deck to counter each. The Scoia'tael merchant is last and pays out two cards.",
+    walkthrough: [
+      "Beat Vimme Vivaldi at his bank for Vesemir.",
+      "Beat Marquise Serenity at the Passiflora for Morvran Voorhis.",
+      "Beat Sigi Reuven at his bathhouse for Esterad Thyssen.",
+      "Beat the Scoia'tael merchant in the woods south of Novigrad for Ciri and Francesca."
+    ],
+    video: "https://www.youtube.com/watch?v=y-s6D1CgzcQ"
+  },
+{
+    id: 2831,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Fists of Fury: Novigrad",
+    location: "Novigrad (the Golden Sturgeon and around the city)",
+    length: "medium",
+    difficulty: "Low",
+    reward: "XP and bet winnings",
+    summary:
+      "Fight your way up Novigrad's fist-fighting ladder: Georgius 'Piledriver' Georg, Archibald O'Neill and Captain Iron Mortimer, then the champion, Durden the Tailor.",
+    aiTip:
+      "Durden only shows up after the other three are beaten. Throwing the fight with Georg is an option and can pay well, with up to 240 crowns.",
+    walkthrough: [
+      "Beat Georgius Georg at the Golden Sturgeon (or throw the fight).",
+      "Beat Archibald O'Neill.",
+      "Beat Captain Iron Mortimer.",
+      "Defeat Durden the Tailor to become Novigrad's champion."
+    ],
+    video: "https://www.youtube.com/watch?v=6xhxIDZu1l0"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
