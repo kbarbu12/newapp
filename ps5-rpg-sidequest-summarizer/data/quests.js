@@ -7565,22 +7565,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "On Death's Bed",
-    location: "White Orchard",
+    location: "Tomira's herbalist hut, White Orchard",
     length: "short",
     difficulty: "Low",
-    reward: "Herbalist alliance, crafting supplies",
+    reward: "50 crowns, venom extract, the Cursed Oil manuscript and a book",
     summary:
-      "A poisoned man clings to life; Geralt gathers the herbs for a cure — or lets nature take its course.",
+      "The herbalist Tomira is caring for Lena, a girl badly wounded by the griffin. Brew her a Swallow potion before you leave White Orchard.",
     aiTip:
-      "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
+      "You need Dwarven spirit (sold at the inn), five celandine from the fields and a drowner brain. The quest fails if you leave White Orchard without delivering it.",
     walkthrough: [
-      "In White Orchard, speak with the dying man's household and agree to help find a cure.",
-      "Consult Tomira the herbalist about what the wound needs.",
-      "Use Witcher Senses to locate and gather the required herbs, clearing any monsters at the spot.",
-      "Bring the herbs back so the remedy can be prepared.",
-      "Decide the outcome based on what you uncover about the man — then report back to close the quest."
+      "Visit Tomira's hut once The Beast of White Orchard has started.",
+      "Learn about Lena's injuries and get the Swallow formula.",
+      "Gather Dwarven spirit, five celandine and a drowner brain.",
+      "Brew the Swallow potion.",
+      "Give it to Tomira for Lena before leaving White Orchard."
     ],
-    video: "https://www.youtube.com/watch?v=KpJKjAl4Ybo"
+    video: "https://www.youtube.com/watch?v=npXGOpCTbow"
   },
 {
     id: 350,
@@ -7588,92 +7588,91 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Twisted Firestarter",
-    location: "White Orchard",
+    location: "Willis's forge and the riverbank, White Orchard",
     length: "short",
     difficulty: "Low",
-    reward: "Coin, blacksmith access",
+    reward: "Crowns, XP and a discount with Willis (less XP if you take the bribe)",
     summary:
-      "Geralt investigates who torched the local smith's forge in sleepy White Orchard.",
+      "Someone torched Willis the blacksmith's forge. Follow the arsonist's tracks down to the river and decide what to do with the culprit, Napp.",
     aiTip:
-      "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
+      "Four drowners may jump you along the river. Refuse Napp's bribe and use Axii for extra XP, then march him back to Willis for the discount.",
     walkthrough: [
-      "Talk to the White Orchard blacksmith about his torched forge.",
-      "Examine the burnt forge with Witcher Senses to pick up the arsonist's trail.",
-      "Follow the tracks away from the village to the culprit.",
-      "Confront the arsonist and choose how to resolve the dispute (fight or talk them down).",
-      "Return to the smith for the reward."
+      "Read the notice in White Orchard or talk to Willis.",
+      "Find the tracks behind his house.",
+      "Follow them down to the river and north past the bridge.",
+      "Find Napp hiding in a house.",
+      "Take his bribe, or bring him back to Willis."
     ],
-    video: "https://www.youtube.com/watch?v=ueylh5enSj0"
+    video: "https://www.youtube.com/watch?v=QXjqrwwpp8g"
   },
 {
     id: 352,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Princess in Distress",
-    location: "Velen",
+    location: "The Pellar's hut, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Baron questline progress",
+    reward: "100 XP and the Pellar's help with the spirits",
     summary:
-      "Part of the Bloody Baron saga: help track the missing Anna and uncover the family's dark story.",
+      "Before he'll help find the Baron's family, the Pellar needs his runaway goat, 'Princess', brought home.",
     aiTip:
-      "Ties directly into the Baron's main arc — do it before leaving Velen.",
+      "Ring the Pellar's bell whenever the goat stops to eat, or keep using Axii on her. A bear turns up near the cave, so be ready with Igni and Quen.",
     walkthrough: [
-      "In Velen, find the children playing and learn a girl has gone missing near the swamp.",
-      "Follow the trail with Witcher Senses toward Crookback Bog.",
-      "Track the 'princess' to a cave and deal with the monsters inside.",
-      "Uncover the truth of what happened and rescue or recover the child.",
-      "Return to report the outcome."
+      "Talk to the Pellar, then follow the hoofprints with Witcher Senses.",
+      "Find the goat and lure her with the Pellar's bell.",
+      "Keep ringing the bell whenever she stops to graze.",
+      "Kill the bear that appears near the cave.",
+      "Lead the goat back to the Pellar."
     ],
-    video: "https://www.youtube.com/watch?v=eiEGU-prtmM"
+    video: "https://www.youtube.com/watch?v=fDZ0myVByY0"
   },
 {
     id: 354,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Hunting a Witch",
-    location: "Velen",
+    location: "Midcopse and a hut in the forest north-east of it, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Keira Metz alliance",
+    reward: "100 XP; leads to Wandering in the Dark",
     summary:
-      "Follow the trail of the sorceress Keira Metz through the swamps of Velen.",
+      "A lead on Ciri points to a 'witch' near Midcopse. Ask around the village, find her hut and step through her portal to meet the sorceress Keira Metz.",
     aiTip:
-      "Reading the hidden notes reveals Keira's true motives before you meet her.",
+      "The pipe-smoking man at the western entrance tells you for free. Or skip the questioning and head straight to the hut north-east of the village.",
     walkthrough: [
-      "Begin at the Velen village where a woman is accused of witchcraft.",
-      "Use Witcher Senses to follow her tracks into the woods.",
-      "Investigate her hut and the surrounding signs of what she really is.",
-      "Confront the 'witch' and choose whether to spare or fight her.",
-      "Resolve the villagers' fate and finish the quest."
+      "Ask the villagers of Midcopse about the witch.",
+      "Head to her hut in the forest north-east of the village.",
+      "Search the hut with Witcher Senses.",
+      "Examine the skull in the side room to open a portal.",
+      "Step through to meet Keira Metz."
     ],
-    video: "https://www.youtube.com/watch?v=kV_3-CnQj80"
+    video: "https://www.youtube.com/watch?v=CxBwZprqjfg"
   },
 {
     id: 355,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Wandering in the Dark",
-    location: "Velen",
-    length: "medium",
+    location: "Elven ruins south of Midcopse, Velen",
+    length: "long",
     difficulty: "Medium",
-    reward: "Keira questline, elven ruins loot",
+    reward: "XP and the Eye of Nehaleni; leads into Magic Lamp",
     summary:
-      "Geralt and Keira delve into an ancient elven ruin sealed for centuries, chased by a monstrous gargoyle.",
+      "Keira guides Geralt through elven ruins on the trail of Ciri's escape from the Wild Hunt, past rats, wraiths and a golem, to a showdown with Nithral.",
     aiTip:
-      "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
+      "Stock up on food before going in. Bring Elementa Oil and Dimeritium bombs for the golem, and stay near Keira while she closes the White Frost portals, since her shield protects you from Nithral.",
     walkthrough: [
-      "Meet Keira Metz and agree to explore the elven ruins beneath the lake.",
-      "Descend into the ruins, using Igni to light braziers and Aard on weak walls.",
-      "Fight through the drowners and the Gargoyle guardians in the depths.",
-      "Solve the ruin's puzzles to reach the mage Alexander's laboratory.",
-      "Recover what Keira seeks and escape as the ruin's defenders wake.",
-      "Return to Keira to complete the quest and continue her storyline."
+      "Meet Keira at the elven ruins south of Midcopse.",
+      "Burn the rat nests and follow the swallow symbols to the mage's projections.",
+      "Fight through the drowners, wraiths and the golem.",
+      "Guard Keira while she closes three White Frost portals.",
+      "Defeat Nithral of the Wild Hunt."
     ],
-    video: "https://www.youtube.com/watch?v=f_Wb1H68i8k"
+    video: "https://www.youtube.com/watch?v=W62TX8-03tI"
   },
 {
     id: 356,
@@ -7681,20 +7680,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Magic Lamp",
-    location: "Velen",
+    location: "Elven ruins south of Midcopse, Velen",
     length: "short",
-    difficulty: "Low",
-    reward: "Keira questline, sealed vault",
+    difficulty: "Medium",
+    reward: "XP and Keira's goodwill",
     summary:
-      "Use a captured djinn's lamp to breach a mage's sealed sanctum during Keira's quest.",
+      "Right after Wandering in the Dark, Keira asks Geralt to help her find an elven magic lamp deeper in the ruins. A statue puzzle guards it.",
     aiTip:
-      "Equip the lamp and use it on the shimmering barriers to press forward.",
+      "Light the braziers in the order 3, 2, 4, 1, counting the statues left to right. A wrong statue spawns a wraith. Don't leave the ruins, or the quest fails.",
     walkthrough: [
-      "Join Keira Metz and take the enchanted Magic Lamp she gives you.",
-      "Explore the cavern, using the lamp to reveal and dispel hidden specters.",
-      "Follow the visions the lamp uncovers to piece together what happened here.",
-      "Clear the wraiths blocking the way and reach the sealed chamber.",
-      "Uncover the truth of the site and report back to Keira."
+      "Accept Keira's request at the end of Wandering in the Dark.",
+      "Find the room with the four statues.",
+      "Interact with them in the order third, second, fourth, first.",
+      "Take the lamp.",
+      "Defeat the golem by the stairs with Keira."
     ],
     video: "https://www.youtube.com/watch?v=cGm5ZqiwVaM"
   },
@@ -7704,89 +7703,89 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Contract: Woodland Beast",
-    location: "Velen",
+    location: "Pontar bridge and the river ford, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Coin, monster trophy",
+    difficulty: "Low",
+    reward: "30 crowns and a Letter of Safe Conduct",
     summary:
-      "A leshen terrorizes a superstitious hamlet that half-worships it.",
+      "A captain at the Pontar bridge blames a 'shaggy beast' for attacks on his transports. Geralt finds that the real killers were Scoia'tael elves.",
     aiTip:
-      "Torch the leshen's totems first, then bring Relict Oil and Igni.",
+      "The alghouls at the site only fed on the bodies afterwards. Follow the footprints across the ford, killing the drowners on the way.",
     walkthrough: [
-      "Take the contract and question the villagers about the woodland killings.",
-      "Track the victims and territorial markings with Witcher Senses to the leshen's grove.",
-      "Destroy the totems the leshen uses, then apply Relict Oil and ready Igni.",
-      "Fight the leshen — dodge its root attacks and burn the animals it summons.",
-      "Slay it, take the trophy, and claim the fee (or honor a druid's plea, if offered)."
+      "Read the notice on the Pontar bridge board and talk to the captain.",
+      "Kill the alghouls at the attack site.",
+      "Examine the scene with Witcher Senses.",
+      "Cross the river ford and follow the footprints up the hill.",
+      "Deal with the Scoia'tael and report back to the captain."
     ],
     video: "https://www.youtube.com/watch?v=hu1DF5FwK4I"
   },
 {
     id: 358,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Novigrad Dreaming",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Corinne Tilly seer contact",
+    location: "Corinne Tilly's house, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; leads to Broken Flowers",
     summary:
-      "A house is said to be haunted; Geralt investigates the tragic ghost of a devoted dog and its master.",
+      "Triss sends Geralt to Corinne Tilly, a dream-reader who may know where Dandelion is. Corinne is stuck in an enchanted sleep, and the cause is a godling named Sarah hiding in the house.",
     aiTip:
-      "A short, poignant contract — follow the flowers to piece the story together.",
+      "Put the doll in the crib in the attic to reveal the oven drawing that leads to the cellar. You can make a deal with Sarah or drive her out with burdock, and the choice changes the reward.",
     walkthrough: [
-      "In Novigrad, investigate the disturbances at the painter's house.",
-      "Use Witcher Senses to follow the ghostly clues through the building.",
-      "Track the source to the garden and the buried remains behind the haunting.",
-      "Lay the spirit to rest by resolving its unfinished business.",
-      "Report back to complete the quest."
+      "Talk to Corinne Tilly after Pyres of Novigrad.",
+      "Search her house for the cause of her endless sleep.",
+      "Place the doll in the crib in the attic.",
+      "Find the godling Sarah in the cellar.",
+      "Make a deal with Sarah or drive her out, then hold the séance."
     ],
-    video: "https://www.youtube.com/watch?v=6QCNwwXAsE8"
+    video: "https://www.youtube.com/watch?v=OcXmW6s1DMM"
   },
 {
     id: 359,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "The Play's the Thing",
-    location: "Novigrad",
+    location: "Kingfisher Inn and the Butcher's Yard theatre, Novigrad",
     length: "medium",
     difficulty: "Low",
-    reward: "Priscilla & Dandelion arc, unique scene",
+    reward: "XP; a perfect performance gives a 10% Novigrad merchant discount",
     summary:
-      "Geralt moonlights as an actor in Irina's theatre to draw out a lead on Dandelion.",
+      "To lure out Dudu, a doppler who knows what happened to Dandelion, Priscilla writes a play about a witcher and a doppler, and Geralt has to star in it.",
     aiTip:
-      "Ham it up on stage — the performance choices are pure delight and affect the scene.",
+      "Pick comedy as the genre, because drama ends in a riot. Cast Abelard Rizza as the doppler, since Maxim shows up drunk. Hit every timed line on stage for the discount.",
     walkthrough: [
-      "Meet Priscilla and Irina at the Novigrad theatre to stage the play.",
-      "Gather the props and cast — recruit the doppler Dudu for the role.",
-      "Choose costumes and coach the performance during rehearsal.",
-      "Play your part on stage during the live performance (use the right cues).",
-      "See the play through to acclaim and continue Dandelion's storyline."
+      "Tell Priscilla at the Kingfisher about Dudu and write the script with her.",
+      "Take the script to Irina Renarde at the Butcher's Yard.",
+      "Hire Sofus and Hal as ushers at the docks, and drive off the Puffins.",
+      "Cast the play with Irina.",
+      "Perform, choosing the right lines when prompted."
     ],
-    video: "https://www.youtube.com/watch?v=dO5qY-18uRM"
+    video: "https://www.youtube.com/watch?v=GcRT5MVhW4U"
   },
 {
     id: 360,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Poet Under Pressure",
-    location: "Novigrad",
+    location: "Road outside Novigrad (ambush site)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Dandelion rescued",
+    reward: "XP; unlocks Cabaret and Ciri's Story: Breakneck Speed",
     summary:
-      "Storm the Whoreson Junior's operation to rescue the captured bard Dandelion.",
+      "Dandelion is being moved under witch-hunter guard. Geralt and Zoltan ambush the convoy to break him out.",
     aiTip:
-      "Bring good armor; the hideout is a tough multi-wave fight.",
+      "Ask Dijkstra for more men and tell him the plan, and he sends six instead of three. You don't need to kill every guard, just free Dandelion.",
     walkthrough: [
-      "Find Dandelion's associates in Novigrad to learn he's in trouble.",
-      "Follow the leads through the city with Witcher Senses.",
-      "Deal with the pressure on the poet — talk or fight your way past his captors.",
-      "Secure the information or person you were after.",
-      "Report back to advance the search for Dandelion."
+      "Ask Dijkstra for men for the rescue.",
+      "Meet Zoltan at the ambush site.",
+      "Ambush the convoy carrying Dandelion.",
+      "Free Dandelion from the witch hunters.",
+      "Hear his story about Ciri."
     ],
     video: "https://www.youtube.com/watch?v=4cldzU0djB4"
   },
@@ -7796,46 +7795,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Cabaret",
-    location: "Novigrad",
-    length: "short",
+    location: "Rosemary and Thyme, Novigrad",
+    length: "medium",
     difficulty: "Low",
-    reward: "Coin, Priscilla's cabaret opens",
+    reward: "XP and the Chameleon cabaret",
     summary:
-      "Help Dandelion turn a rundown building into the Chameleon cabaret with an eventful 'date'.",
+      "Dandelion wants to turn the Rosemary and Thyme into a cabaret and needs a loan. Geralt helps him put on a staged scene to win over his lender and gather what the club needs.",
     aiTip:
-      "A charming lighthearted quest — enjoy the banter, low combat.",
+      "Borrow the prop sword from Madame Irina for the staged fight, and lose to Dandelion on purpose. Get the Hierarch Hemmelfart painting from the halflings for the décor. It fails if left until The Isle of Mists.",
     walkthrough: [
-      "Meet Priscilla to plan the cabaret at the Rosemary and Thyme.",
-      "Run the errands to fit out the tavern for the show.",
-      "Handle the interruptions and toughs who show up.",
-      "Get the venue ready and stage the cabaret.",
-      "Wrap up to progress Dandelion's arc."
+      "Meet Dandelion at the Rosemary and Thyme.",
+      "Borrow a prop sword from Madame Irina.",
+      "Play the thug in Dandelion's staged fight and lose on purpose.",
+      "Bring Dandelion the painting of Hierarch Hemmelfart.",
+      "See the cabaret open."
     ],
-    video: "https://www.youtube.com/watch?v=-qxFYLApUMI"
+    video: "https://www.youtube.com/watch?v=DuUAXkAXx3U"
   },
 {
     id: 362,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Count Reuven's Treasure",
-    location: "Novigrad",
+    location: "Dijkstra's bathhouse, the sewers and Menge's headquarters, Novigrad",
     length: "long",
     difficulty: "Medium",
-    reward: "Triss arc, Sigismund Dijkstra ally",
+    reward: "200 XP; Dijkstra's help later",
     summary:
-      "Investigate the theft of Dijkstra's fortune, uncovering the pogrom against Novigrad's mages.",
+      "Sigi Reuven, really Dijkstra, has had his vault robbed. Geralt follows the trail through the sewers and Margrave Henckel's house to the witch hunter Caleb Menge, with Triss's help.",
     aiTip:
-      "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
+      "Make a manual save before meeting Triss at the Eternal Fire shrine. Take Dijkstra's antidote before crossing the mould in the sewers. Expect a big fight against Menge and his witch hunters.",
     walkthrough: [
-      "Meet Sigi Reuven (Dijkstra) and agree to recover his stolen treasure.",
-      "Investigate the bathhouse tunnels flooded by the heist, using Aard and Senses.",
-      "Trace the thieves' route and interrogate Whoreson Junior's leads.",
-      "Fight through the ambush in the underground passages.",
-      "Recover the treasure's fate and uncover the traitor.",
-      "Report to Dijkstra to close the quest and advance the Novigrad plot."
+      "Follow Dijkstra down to his robbed vault and meet Bart the troll.",
+      "Take the antidote and follow the water current through the sewers.",
+      "Search Margrave Henckel's house and solve the wine-rack riddle.",
+      "Meet Triss and go with her to Caleb Menge.",
+      "Kill Menge and his witch hunters, then take the vault key to Dijkstra."
     ],
-    video: "https://www.youtube.com/watch?v=ocpnQrHmJ2Y"
+    video: "https://www.youtube.com/watch?v=uTI7E-1wyNM"
   },
 {
     id: 363,
