@@ -73,7 +73,8 @@ walkthrough is duplicated in the data. Still open:
   missing base-game main quests; batch 2 the 19 missing base-game witcher
   contracts; batch 3 19 White Orchard/Velen secondary quests; batch 4 15
   Novigrad secondary quests; batch 5 14 Skellige/Kaer Morhen secondary quests
-  (193/290). Next: Hearts of Stone and Blood and Wine quests, plus the base-game
+  (193/290); batch 6 13 Hearts of Stone quests (206/290). Next: Blood and Wine
+  quests, plus the base-game
   stragglers held back for thin sources (Master Armorers, Take What You Want,
   Looters, Following the Thread, Witch Hunter Raids, Little Red, Hard Times,
   Free Spirit, Stocked Up, Ciri's Room).
