@@ -12785,20 +12785,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Lilac and Gooseberries",
-    location: "White Orchard",
+    location: "White Orchard road, the White Orchard Inn and the Nilfgaardian garrison",
     length: "short",
     difficulty: "Low",
-    reward: "Yennefer's trail, story start",
+    reward: "XP; Yennefer's trail leads to the garrison",
     summary:
-      "Geralt and Vesemir follow Yennefer's summons to war-torn White Orchard, hunting a griffin along the way.",
+      "Geralt and Vesemir follow Yennefer's trail into White Orchard. Ghouls, a griffin attack on the road and a tavern brawl later, the Nilfgaardian captain agrees to share what he knows if Geralt takes on a witcher's job.",
     aiTip:
-      "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
+      "Pick up the crystal skull after the ghoul fight. Use Axii on one of the three thugs outside the inn for bonus XP, and decline the merchant's coin if you want a discount at his shop instead.",
     walkthrough: [
-      "Start in White Orchard and meet Vesemir at the inn.",
-      "Follow the leads on Yennefer's whereabouts, talking to the locals.",
-      "Handle the tavern brawl/interruptions as they arise.",
-      "Pick up Yennefer's trail toward the garrison.",
-      "Advance to the next objective to continue the hunt."
+      "Fight off the ghouls on the road and pick up Yennefer's crystal skull.",
+      "Follow Vesemir to the merchant the griffin attacked.",
+      "Ask at the White Orchard Inn about Yennefer.",
+      "Deal with the three men who confront you outside.",
+      "Speak to Captain Peter Saar Gwynleve at the garrison; he'll trade information for a witcher's job."
     ],
     video: "https://www.youtube.com/watch?v=EHu5ubLkSrg"
   },
@@ -12808,20 +12808,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "The Beast of White Orchard",
-    location: "White Orchard",
+    location: "Mislav's hut, Tomira's cottage, the river and the ambush field, White Orchard",
     length: "medium",
     difficulty: "Medium",
-    reward: "Griffin slain, Nilfgaard contact",
+    reward: "XP; Yennefer's whereabouts and the road to Vizima",
     summary:
-      "Track and slay the royal griffin terrorizing White Orchard to earn passage and information.",
+      "To earn the captain's information, Geralt has to kill the royal griffin. The hunter Mislav knows where it struck, the herbalist Tomira knows its bait (buckthorn), and Vesemir picks the ambush field.",
     aiTip:
-      "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
+      "Visit Mislav before you find the nest, and Tomira before the griffin dies, or you lose XP and the side quest On Death's Bed. Buckthorn grows on the riverbed to the east.",
     walkthrough: [
-      "Agree to help the White Orchard garrison hunt the griffin.",
-      "Gather buckthorn and the bait, and investigate the griffin's kills with Senses.",
-      "Set the trap and lure the griffin, applying Hybrid Oil.",
-      "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
-      "Kill the beast and report back to advance to Vizima."
+      "Track Mislav from his empty hut and help him with the wild dogs.",
+      "Let him show you the attack site and examine it with Witcher Senses.",
+      "Ask Tomira about bait, then dive in the river to the east for buckthorn.",
+      "Report to Vesemir at the inn; he has found a field for the ambush.",
+      "Lure the griffin with the bait and kill it, then return to the captain."
     ],
     video: "https://www.youtube.com/watch?v=sSual5rK6GI"
   },
@@ -12831,20 +12831,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Imperial Audience",
-    location: "Velen",
+    location: "Royal Palace, Vizima",
     length: "short",
     difficulty: "Low",
-    reward: "Emperor's contract, Ciri's trail",
+    reward: "Emhyr's contract to find Ciri",
     summary:
-      "Geralt is escorted to Emperor Emhyr, who hires him to find Ciri before the Wild Hunt does.",
+      "In the palace at Vizima, Geralt is shaved and dressed for court while General Morvran Voorhis questions him. Emperor Emhyr then hires him to find Ciri before the Wild Hunt does.",
     aiTip:
-      "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
+      "Voorhis's questions stand in for a Witcher 2 save, so think about the answers. The Aryan La Valette answer changes part of Broken Flowers, and Letho's fate decides whether Ghosts of the Past appears.",
     walkthrough: [
-      "Travel to Vizima for the audience with Emperor Emhyr.",
-      "Follow the palace protocol and speak with the chamberlain.",
-      "Attend the audience and learn Emhyr's task regarding Ciri.",
-      "Accept the commission and gather your leads.",
-      "Set out for Velen to begin the search."
+      "Answer Morvran Voorhis's questions during the shave.",
+      "Choose an outfit and show the chamberlain a proper bow.",
+      "Meet Emperor Emhyr and accept his contract to find Ciri.",
+      "Talk to Yennefer in her quarters.",
+      "Collect your gear from the chamberlain and travel to Velen."
     ],
     video: "https://www.youtube.com/watch?v=_DYV6xDDo5E"
   },
@@ -12854,20 +12854,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Nilfgaardian Connection",
-    location: "Velen",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Ciri lead, Baron introduction",
+    location: "Inn at the Crossroads and Heatherton, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; leads to the Bloody Baron and Keira Metz",
     summary:
-      "Chase Ciri's trail to Velen's Bloody Baron, following a Nilfgaardian informant network.",
+      "Emhyr's spy in Velen, Hendrik, is supposed to have news of Ciri. The innkeep at the Crossroads sends Geralt to Heatherton, where Hendrik is dead. His hidden ledger points to Crow's Perch.",
     aiTip:
-      "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
+      "When you examine Hendrik's body, say he hid something in his boots to find the key straight away. Pull the red-outlined candle in the cellar to open the hidden chest.",
     walkthrough: [
-      "In Velen, seek the Nilfgaardian contact tied to Ciri's trail.",
-      "Follow the leads to the hanged-man's trees and the deserters, using Senses.",
-      "Clear the enemies and recover the information/package.",
-      "Meet the informant to learn where Ciri was seen.",
-      "Report the lead and continue toward the Baron."
+      "Talk to the innkeep at the Inn at the Crossroads and deal with the Baron's men.",
+      "Ride to Hendrik's hideout in Heatherton.",
+      "Examine his body and find the key in his boot.",
+      "Uncover the trapdoor under the dirt pile and enter the cellar.",
+      "Pull the candle to reveal the chest and read the ledger: it points to Crow's Perch."
     ],
     video: "https://www.youtube.com/watch?v=JnhCBQyTbms"
   },
@@ -12877,21 +12877,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Family Matters",
-    location: "Velen",
+    location: "Crow's Perch, the pellar's hut near Blackbough and the Baron's burial site, Velen",
     length: "long",
-    difficulty: "High",
-    reward: "Baron's family, Ciri intel",
+    difficulty: "Medium",
+    reward: "XP; leads on Ciri, Anna and Tamara",
     summary:
-      "Help the Bloody Baron find his missing wife and daughter in exchange for news of Ciri.",
+      "The Bloody Baron will share news of Ciri if Geralt finds his missing wife and daughter. A pellar's augury exposes a miscarriage the Baron buried in shame, now a botchling, and a confession the Baron has to be beaten into.",
     aiTip:
-      "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
+      "Spare the botchling: have the Baron bury it properly and it becomes a lubberkin that leads you to the women. Skip the cunning woman in Midcopse and go straight to the pellar.",
     walkthrough: [
-      "Meet the Bloody Baron at Crow's Perch and agree to find his wife and daughter.",
-      "Investigate the estate and follow the trail with Witcher Senses.",
-      "Track Anna and Tamara's leads across Velen, fighting the monsters en route.",
-      "Uncover the botchling/curse tied to the family and resolve it (raise or bury it).",
-      "Confront the truth of what happened to the Baron's family.",
-      "See the storyline to its branching outcome and gain the next lead on Ciri."
+      "Search Anna's room at Crow's Perch and take the wooden talisman to the Baron.",
+      "Go to the pellar near Blackbough and get his goat, Princess, back.",
+      "Hear the augury's revelation, then beat the drunk Baron in a fistfight for his confession.",
+      "At midnight, deal with the botchling: kill it or lift its curse with the Baron's burial.",
+      "Follow the trail to the fisherman's hut, then on to Oxenfurt to find Tamara."
     ],
     video: "https://www.youtube.com/watch?v=6OYlqX-bP38"
   },
@@ -12924,20 +12923,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Broken Flowers",
-    location: "Novigrad",
-    length: "medium",
+    location: "Rosemary and Thyme, the Var Attre estate and the Kingfisher Inn, Novigrad",
+    length: "long",
     difficulty: "Medium",
-    reward: "Dandelion's trail, old contacts",
+    reward: "XP; Priscilla's account of Dandelion's last days",
     summary:
-      "Search Novigrad's underworld for Dandelion by retracing his romances and debts.",
+      "Dandelion isn't at his own inn; Zoltan is. They split the list of women from Dandelion's planner, and the witness descriptions point to Priscilla, who is performing at the Kingfisher.",
     aiTip:
-      "Visit all the leads — the trail winds through the city's most colorful characters.",
+      "To reach Rosa var Attre you have to pose as a fencing instructor and spar with her. Priscilla only plays after dark, so wait for sundown before going to the Kingfisher.",
     walkthrough: [
-      "Reach Novigrad and start searching for Dandelion via his known associates.",
-      "Track down Dandelion's three former lovers for leads, using Senses.",
-      "Complete each associate's task to earn their information.",
-      "Piece together where Dandelion has gone.",
-      "Report the lead to continue the Novigrad hunt."
+      "Meet Zoltan at Rosemary and Thyme and search for Dandelion's planner.",
+      "Split the list of women with Zoltan and question your half.",
+      "Get into the Var Attre estate and spar with Rosa.",
+      "Work out from the descriptions that the woman was Priscilla.",
+      "Watch her perform at the Kingfisher Inn after sundown and hear Dandelion's story."
     ],
     video: "https://www.youtube.com/watch?v=S9-RvqtAcmE"
   },
@@ -12947,20 +12946,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Get Junior",
-    location: "Novigrad",
+    location: "The bathhouse, Junior's casino, arena and hideout, Novigrad; a guarded house in Oxenfurt",
     length: "long",
-    difficulty: "High",
-    reward: "Dandelion found, Whoreson Junior",
+    difficulty: "Medium",
+    reward: "XP; Junior's account of Ciri and Dandelion",
     summary:
-      "Take down the sadistic crime boss Whoreson Junior to rescue Dandelion.",
+      "Sigi Reuven (Dijkstra) points Geralt at Whoreson Junior's casino, arena and hideout. Roche's contact, who turns out to be King Radovid, says Junior is hiding in a house in Oxenfurt.",
     aiTip:
-      "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
+      "Don't ask Dijkstra about Dandelion in the bathhouse, or you start Count Reuven's Treasure early. Finish The Gangs of Novigrad before meeting Roche's contact, or it fails.",
     walkthrough: [
-      "Follow the trail to Whoreson Junior to find Dandelion and Ciri's lead.",
-      "Investigate Junior's casino/arena and hideouts with Senses.",
-      "Fight through his gang to corner him.",
-      "Confront Whoreson Junior and decide his fate.",
-      "Uncover what he knows about Ciri and Dandelion, then report back."
+      "Meet Sigi Reuven at the bathhouse and fight off the assassins.",
+      "Visit Junior's casino and arena, with Cleaver's men if you sided with him.",
+      "Search Junior's hideout with Witcher Senses.",
+      "Find Roche east of the city and meet his contact (Radovid) at the Oxenfurt chess club.",
+      "Fight through the house in Oxenfurt, hear what Junior knows about Ciri, then kill or spare him."
     ],
     video: "https://www.youtube.com/watch?v=elfbiqKrY4Q"
   },
@@ -13083,20 +13082,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Isle of Mists",
-    location: "Skellige",
-    length: "long",
-    difficulty: "High",
-    reward: "Ciri found, act turn",
+    location: "The Isle of Mists, reached from Undvik, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ciri found; Act 2 begins",
     summary:
-      "Geralt braves the cursed Isle of Mists to find Ciri — a pivotal, mood-defining chapter.",
+      "A magic firefly guides Geralt from Undvik to the Isle of Mists. Dwarves in a hut won't open the door until their three missing companions come back, and inside Ciri lies seemingly dead.",
     aiTip:
-      "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
+      "This is a point of no return for several Novigrad and Velen side quests, so save first. Gaspard falls asleep repeatedly, so keep waking him on the way back.",
     walkthrough: [
-      "Reach the Isle of Mists to finally find Ciri (this locks out missable Velen/Novigrad quests).",
-      "Search the island with Witcher Senses, clearing the monsters.",
-      "Solve the path through the mists to the chapel.",
-      "Find Ciri and rouse her.",
-      "Escape the island and set course for Kaer Morhen."
+      "Follow the firefly from the arch on northern Undvik to the island.",
+      "Fight through the erynias and reach the dwarves' hut.",
+      "Find Ferenc (dead, on the coast), Ivo (in a cave) and Gaspard (near the lighthouse).",
+      "Bring the survivors back to the hut.",
+      "Enter and find Ciri, who wakes when the firefly reaches her, then talk with her."
     ],
     video: "https://www.youtube.com/watch?v=JttpAKQC-UI"
   },
@@ -13106,21 +13105,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "The Battle of Kaer Morhen",
-    location: "Kaer Morhen",
+    location: "The forest around Kaer Morhen and the keep",
     length: "long",
     difficulty: "High",
-    reward: "Wild Hunt repelled, allies' cost",
+    reward: "The Wild Hunt is driven off, at a cost",
     summary:
-      "Rally the witchers, sorceresses, and friends to defend Kaer Morhen against the Wild Hunt.",
+      "The Wild Hunt comes for Ciri at Kaer Morhen. Geralt closes the Hunt's portals in the forest, falls back through the keep's gates and courtyards, and Ciri fights alongside him until the battle turns tragic.",
     aiTip:
-      "Recruit as many allies beforehand as you can — it changes who survives the siege.",
+      "Cast Yrden on the portals to close them without using a bomb, and save dimeritium bombs for when you're surrounded. The defense choices you made during preparation shape each wave.",
     walkthrough: [
-      "Gather your allies and prepare the defenses of Kaer Morhen.",
-      "Set traps, bombs, and positions with the witchers before the assault.",
-      "Hold the walls as the Wild Hunt attacks in waves.",
-      "Fight Imlerith and the Hunt's commanders at the keep.",
-      "Protect Ciri and the mages through the battle's turning point.",
-      "See the battle to its costly conclusion."
+      "Close the three Wild Hunt portals in the forest.",
+      "Fall back to the keep and close the main gate.",
+      "Retreat to the middle courtyard and reach Triss on the battlements.",
+      "As Ciri, use the amulet's fireballs carefully, since they also hurt her.",
+      "Help Eskel defeat Caranthir's warriors and open the inner courtyard gate."
     ],
     video: "https://www.youtube.com/watch?v=_8GKIvmLwY4"
   },
@@ -13132,18 +13130,18 @@ const quests = [
     title: "Blood on the Battlefield",
     location: "Kaer Morhen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Aftermath, Ciri's grief",
+    difficulty: "Low",
+    reward: "Affects Ciri's ending",
     summary:
-      "Pick up the pieces after the Wild Hunt's assault and steady Ciri for the road ahead.",
+      "After Vesemir's pyre, Ciri trains with Avallac'h and struggles with her power and her grief. Ciri's ending is shaped by how Geralt handles that, and by whether he takes her straight to Bald Mountain.",
     aiTip:
-      "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
+      "Say \"Relax. You don't have to be good at everything,\" then \"I think I know what might lift your spirits\" for the snowball fight. Both are positive choices for Ciri.",
     walkthrough: [
-      "In the battle's aftermath, tend to the fallen and the survivors.",
-      "Talk to each ally to take stock of the losses.",
-      "Handle the grim tasks the aftermath demands.",
-      "Plan the counterstroke against the Wild Hunt.",
-      "Advance the story toward Velen's Bald Mountain."
+      "Attend Vesemir's pyre and speak to the allies.",
+      "Go down the hill to Avallac'h and the others.",
+      "Choose the supportive reply when Ciri struggles with her power.",
+      "Cheer her up with the snowball fight (or a drink).",
+      "In the morning, agree to her plan to strike Imlerith on Bald Mountain."
     ],
     video: "https://www.youtube.com/watch?v=x6yXoTkfX88"
   },
@@ -13153,45 +13151,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Bald Mountain",
-    location: "Velen",
-    length: "long",
+    location: "Bald Mountain, Velen",
+    length: "medium",
     difficulty: "High",
-    reward: "Crones defeated, Ciri's power",
+    reward: "Imlerith slain; the Magic Acorn (2 skill points)",
     summary:
-      "Geralt and Ciri storm Bald Mountain to end the Crones and unleash Ciri's Elder Blood.",
+      "Ciri learns Imlerith will attend the Crones' sabbath on Bald Mountain. Geralt fights Imlerith on the summit while Ciri takes on the Crones.",
     aiTip:
-      "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
+      "Imlerith's armor shrugs off a lot of damage, so Igni with armor-piercing skills helps. Loot the Magic Acorn from his body after the fight: eating it grants 2 skill points.",
     walkthrough: [
-      "Travel with Ciri to Bald Mountain to strike at Imlerith.",
-      "Fight up the mountain through the Hunt and the beasts.",
-      "Reach the Crones' sabbath and deal with them.",
-      "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
-      "Defeat Imlerith and secure the next step against Eredin."
+      "Get Thecla's permission to climb and retrieve the coin she throws into the water.",
+      "Defeat Fugas on the way up.",
+      "Win the argument with Ciri over who fights Imlerith (rock-paper-scissors).",
+      "Fight Imlerith across his two phases at the summit.",
+      "Loot the Magic Acorn and the chest near the throne, then regroup with Ciri."
     ],
-    video: "https://www.youtube.com/watch?v=i_c0ajXUwE0"
+    video: "https://www.youtube.com/watch?v=XKCdkVwpKkk"
   },
 {
     id: 606,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Novigrad",
     title: "Through Time and Space",
-    location: "Skellige",
+    location: "The Chameleon cellar, Novigrad, and the worlds beyond the portal",
     length: "medium",
-    difficulty: "High",
-    reward: "Avallac'h's path, elven worlds",
+    difficulty: "Medium",
+    reward: "Ge'els's help luring Eredin with the Sunstone",
     summary:
-      "Travel with Avallac'h across shattered worlds via magic portals to find a way to stop the White Frost.",
+      "Avallac'h opens a portal in the cellar under the Chameleon in Novigrad. He and Geralt cross a dead desert world, poisoned valleys and a frozen world to reach Tir ná Lia, where Ge'els agrees to turn against Eredin.",
     aiTip:
-      "A surreal, linear chapter — enjoy the alien vistas between fights.",
+      "In the poisoned world, stay out of the valley gas. Keep pace with Avallac'h, because the portals only stay open for a while.",
     walkthrough: [
-      "Follow Avallac'h's plan and step through the portal with Ciri.",
-      "Traverse the shifting worlds (desert, frozen sea, red sky), keeping pace with Ciri.",
-      "Solve the traversal hazards of each world.",
-      "Escape the Wild Hunt pursuing you across the realms.",
-      "Return to your world to prepare for the final confrontation."
+      "Meet Avallac'h at the Chameleon and break the cellar wall to reveal the portal.",
+      "Survive the sandcrabs in the desert world while the portal charges.",
+      "Cross the poisoned world, avoiding the gas clouds, to rejoin Avallac'h.",
+      "Find Avallac'h at the lighthouse in the frozen world.",
+      "In Tir ná Lia, find Ge'els and win his help with the Sunstone."
     ],
-    video: "https://www.youtube.com/watch?v=dgf8L1d_AyQ"
+    video: "https://www.youtube.com/watch?v=X7WlzcfQw6I"
   },
 {
     id: 607,
