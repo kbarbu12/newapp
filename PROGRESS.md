@@ -1,9 +1,51 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-21
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
+
+---
+
+## Session 2026-10-20 → 21 — QA follow-ups, Valhalla World Events, Witcher 3 expansion and corrections
+All work below is on `staging` only; nothing was promoted to prod.
+
+### 2026-10-20
+- Watched and merged PRs #274–#304 (app fixes from the 2026-10-20 QA
+  session, Vite upgrade, lazy data, chunk splitting) into `staging`.
+- Coverage gaps (D4): #307 Hogwarts Legacy +9, #308 Witcher 3 +6, #309
+  Cyberpunk lifepath prologues, #311 Ghost of Tsushima +7 main missions, #313
+  Wukong's Bishui Golden-Eyed Beast, #314 FF7 Rebirth target set to 73.
+- Templated tips/summaries (D2): #316, #318–#323 (AC Odyssey cultists, main
+  story, tombs, Lost Tales, romances, beasts, Ostraka riddles), #324
+  Cyberpunk, #325 Jedi: Survivor, #326 TotK (23 quests), #327 Pillars, #328
+  Deadfire; #329 removed the quest-data reminder.
+- #330: AC Valhalla World Events (129, IDs 2624–2752).
+
+### 2026-10-21 — Witcher 3 (target 290, now 229)
+- New quests: #332 26 main quests (2753–2778), #335 19 contracts, #336 19
+  White Orchard/Velen side quests, #337 15 Novigrad, #338 14 Skellige/Kaer
+  Morhen, #339 13 Hearts of Stone, #340 14 Blood and Wine, #341 9 quests held
+  back for conflicting sources, now verified (2873–2881).
+- Correcting the original entries to match the guides (many described the
+  wrong quest, had generic text, or the wrong main/side type): #342 (IDs
+  349–362), #343 (363–375), #344 (376–382, 594, 597–600, 629), #345 (589–606
+  main quests; CI green, not yet merged).
+
+### Still to do
+1. Merge #345.
+2. Batch 5: Tedd Deireadh, Something Ends Something Begins, Evil's Soft
+   First Touches, Whatsoever a Man Soweth, A Midnight Clear (actually the
+   optional Shani side quest), Envoys Wineboys, Blood Run, Tesham Mutna, Pomp
+   and Strange Circumstance. Researched, not yet written; videos unchecked.
+3. Batch 6: original side quests/Gwent/contracts/scavenger hunts (IDs
+   618–628, 630–635).
+4. Final pass over IDs 13–44, 2354–2357, 2607–2612 (look mostly right).
+5. Add ~61 more quests to reach 290, mostly Blood and Wine (Wine Wars
+   Belgaard/Coronata/Vermentino/Deus in the Machina, Knight for Hire, Equine
+   Phantoms, There Can Be Only One, A Portrait of the Witcher as an Old Man,
+   Fists of Fury: Toussaint, vineyard contracts).
+6. Promote to prod only on the owner's say-so, then CHANGELOG + prod QA.
 
 ---
 

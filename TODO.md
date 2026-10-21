@@ -75,6 +75,7 @@ walkthrough is duplicated in the data. Still open:
   Novigrad secondary quests; batch 5 14 Skellige/Kaer Morhen secondary quests
   (193/290); batch 6 13 Hearts of Stone quests; batch 7 14 Blood and Wine
   quests; batch 8 the 9 quests held back for conflicting sources, now verified
-  (229/290). Next: re-verify the original 100 Witcher 3 entries (IDs 13-635,
-  several describe the wrong quest) and add the remaining Blood and Wine side
-  quests and contracts.
+  (229/290). Correcting the original entries: #342–#344 merged, #345 open
+  (CI green). Remaining: batch 5 (endgame + DLC main quests), batch 6 (IDs
+  618–635), a final pass over IDs 13–44, then ~61 more Blood and Wine quests
+  to reach 290. Full list in PROGRESS.md "Session 2026-10-20 → 21".
