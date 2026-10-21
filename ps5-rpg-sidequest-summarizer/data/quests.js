@@ -15078,6 +15078,433 @@ const quests = [
     video: "https://www.youtube.com/watch?v=HShQGwMk28o"
   },
 {
+    id: 2798,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "A Frying Pan, Spick and Span",
+    location: "Riverside hut north-west of White Orchard village",
+    length: "short",
+    difficulty: "Low",
+    reward: "10 XP and some food",
+    summary:
+      "An old woman is stuck outside a locked hut by the river. She only wants back the frying pan she lent the man inside.",
+    aiTip:
+      "Blast the door open with Aard. The pan is on the bench by the oven, and the corpse, monocle and burnt papers are optional clues.",
+    walkthrough: [
+      "Talk to the old woman outside the locked hut by the river.",
+      "Break the door open with Aard.",
+      "Look around with Witcher Senses (body, silver monocle, burnt papers).",
+      "Take the frying pan from the bench by the oven.",
+      "Return it to the old woman."
+    ],
+    video: "https://www.youtube.com/watch?v=od2Y-NzDRys"
+  },
+{
+    id: 2799,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Precious Cargo",
+    location: "Road south of the Nilfgaardian camp, White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns or XP, depending on your choice",
+    summary:
+      "A 'merchant' by the road begs Geralt to recover a little box from his cart, which veered off the road during a monster attack. The box holds medicine, and his story doesn't add up.",
+    aiTip:
+      "Watch out for drowners around the overturned cart. Taking the merchant and the medicine to the Nilfgaardians is one of three endings, and he may try to run.",
+    walkthrough: [
+      "Talk to the merchant by the road.",
+      "Use Witcher Senses to find where the cart left the road.",
+      "Follow the tracks into the swamp and kill the drowners.",
+      "Find the little box by the dead horse.",
+      "Return the box, chase him down, or take him to the Nilfgaardians."
+    ],
+    video: "https://www.youtube.com/watch?v=cExfxD3x5uo"
+  },
+{
+    id: 2800,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Bitter Harvest",
+    location: "Battlefield south of the Border Post, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "50 crowns (20 if Albin dies)",
+    summary:
+      "Albin Hart's crew is scavenging a battlefield when ghouls start pouring in. Hold them off for four waves and keep Albin alive.",
+    aiTip:
+      "Albin must survive, both for the full pay and so his Shady Merchant can sell you a cheaper fake pass for Fake Papers. Stay close to him and use Necrophage Oil.",
+    walkthrough: [
+      "Talk to Albin Hart on the battlefield south of the Border Post.",
+      "Defend his crew against the first ghoul waves.",
+      "Kill the rotfiend in the later wave.",
+      "Survive all four waves with Albin alive.",
+      "Collect your pay from Albin."
+    ],
+    video: "https://www.youtube.com/watch?v=zPBaqJdWANE"
+  },
+{
+    id: 2801,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Lynch Mob",
+    location: "Hangman's Alley, between Blackbough and Midcopse, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP if you save him",
+    summary:
+      "Peasants at Hangman's Alley are about to hang a Nilfgaardian deserter. Step in or walk away.",
+    aiTip:
+      "It's easy to miss and disappears once you start A Favor for a Friend, so do it early. Saving the soldier means killing all four peasants.",
+    walkthrough: [
+      "Follow the road between Blackbough and Midcopse to Hangman's Alley.",
+      "Find the peasants about to hang the deserter.",
+      "Ask them to let him go, or leave without interfering.",
+      "If you intervene, kill the four peasants to save him."
+    ],
+    video: "https://www.youtube.com/watch?v=UJkO_a2XNhs"
+  },
+{
+    id: 2802,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "An Invitation from Keira Metz",
+    location: "Keira's hut north of Midcopse, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, the Magic Lamp and a Xenovox",
+    summary:
+      "The sorceress Keira Metz invites Geralt to her hidden hut and asks for help lifting the curse on Fyke Isle, handing over a Magic Lamp to speak with its spirits.",
+    aiTip:
+      "The hut is hidden behind an illusion, so walk through the portal under it. Helping her find the Magic Lamp earlier keeps her friendlier, though it's not required.",
+    walkthrough: [
+      "Finish Wandering in the Dark or Magic Lamp.",
+      "Travel to Keira's hut north of Midcopse and step through the portal under the illusion.",
+      "Talk to Keira and accept her job.",
+      "Take the Magic Lamp and Xenovox, which starts A Towerful of Mice."
+    ],
+    video: "https://www.youtube.com/watch?v=UrQG0Y1VYBk"
+  },
+{
+    id: 2803,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Favor for a Friend",
+    location: "Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and Keira's notes",
+    summary:
+      "After A Towerful of Mice, Keira wants one more favour: a package lost on a damaged wagon. Bring it back, and decide whether to stay the night.",
+    aiTip:
+      "Look under the damaged wagon for the small box with Keira's package. Agreeing to stay is the romance path, and starting this closes Lynch Mob for good.",
+    walkthrough: [
+      "Talk to Keira after A Towerful of Mice.",
+      "Find the damaged wagon and search underneath it for her package.",
+      "Take the package back to her hut.",
+      "Choose whether to stay with Keira."
+    ],
+    video: "https://www.youtube.com/watch?v=uxGT96_5aY0"
+  },
+{
+    id: 2804,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "For the Advancement of Learning",
+    location: "Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; decides Keira's fate",
+    summary:
+      "Keira's research is finished, and she plans to take it to King Radovid. Geralt confronts her about her notes and decides where she goes next.",
+    aiTip:
+      "Telling her 'Radovid doesn't forget, Radovid doesn't forgive' and pointing her to Kaer Morhen saves her. Letting her go to Radovid gets her executed.",
+    walkthrough: [
+      "Return to Keira after A Favor for a Friend.",
+      "Talk to her about her research and her plans for Radovid.",
+      "Warn her that 'Radovid doesn't forget, Radovid doesn't forgive'.",
+      "Convince her to go to Kaer Morhen, let her go to Radovid, or stop her and take the notes."
+    ],
+    video: "https://www.youtube.com/watch?v=vO3PAXujJDw"
+  },
+{
+    id: 2805,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ghosts of the Past",
+    location: "Reardon Manor near Lindenvale, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; Letho can join at Kaer Morhen",
+    summary:
+      "During The Fall of the House of Reardon, Geralt finds Letho of Gulet hiding in the manor's barn, hunted by bounty hunters. Help an old rival escape.",
+    aiTip:
+      "Only appears if you told Morvran in Vizima that Letho was alive. Disarm the traps with Witcher Senses, and invite Letho to Kaer Morhen at the end.",
+    walkthrough: [
+      "Start The Fall of the House of Reardon from the Lindenvale notice board.",
+      "Disarm the traps at Reardon Manor with Witcher Senses.",
+      "Climb into the loft of the south barn and examine the ladder to meet Letho.",
+      "Fight off the bounty hunters in the courtyard.",
+      "Ride after Letho, kill the mercenaries at the camp and invite him to Kaer Morhen."
+    ],
+    video: "https://www.youtube.com/watch?v=fdOdBhVFLlo"
+  },
+{
+    id: 2806,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Last Rites",
+    location: "Bridge north of Blackbough and the cemetery near the Pellar's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "At night, an old woman on a bridge asks Geralt to leave her ring on her late husband's grave so the two can be reconciled.",
+    aiTip:
+      "She only appears after dark, so meditate to around 11 PM. You must have beaten the students in Defender of the Faith, and you'll need Keira's Magic Lamp.",
+    walkthrough: [
+      "Finish Defender of the Faith by beating the students.",
+      "Visit the bridge north of Blackbough at night and talk to the old woman.",
+      "Find her husband's gravestone in the cemetery near the Pellar's hut (watch for ghouls).",
+      "Place the ring and use the Magic Lamp to see the ghosts reconcile.",
+      "Return to the old woman."
+    ],
+    video: "https://www.youtube.com/watch?v=9YBgNrU1ydY"
+  },
+{
+    id: 2807,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Wild at Heart",
+    location: "Blackbough, Velen",
+    length: "medium",
+    difficulty: "High",
+    reward: "XP and crowns, depending on the ending",
+    summary:
+      "Niellen the hunter wants his missing wife Hanna found. The trail leads to a hidden cave under a cabin and a werewolf fight.",
+    aiTip:
+      "It's one of the tougher fights in Velen, so bring Moon Dust bombs and Cursed Oil. A bear may be outside the cabin, so clear it first.",
+    walkthrough: [
+      "Read the Missing Wife notice and talk to Niellen in Blackbough.",
+      "Ask the neighbours about Hanna.",
+      "Follow the clues to the cabin, killing the bear outside.",
+      "Follow the blood trail with Witcher Senses and open the door under the cabin with Aard.",
+      "Fight the werewolf and decide what to tell Niellen."
+    ],
+    video: "https://www.youtube.com/watch?v=cQH4e-2zN8g"
+  },
+{
+    id: 2808,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Deadly Crossing",
+    location: "Troll Bridge and other bridges in Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Vagrants and looters have taken over Velen's bridges and are charging tolls. Pay up, talk them down or fight your way across.",
+    aiTip:
+      "At Troll Bridge they want 50 crowns. Axii at level 2 talks them down for free, and fighting works too.",
+    walkthrough: [
+      "Approach the Troll Bridge.",
+      "Pay the 50-crown toll, use Axii, or fight the vagrants.",
+      "Find the other gangs along Velen's crossings.",
+      "Deal with each group to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=20RENM9wefE"
+  },
+{
+    id: 2809,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Defender of the Faith",
+    location: "Shrines around Blackbough, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; unlocks Last Rites",
+    summary:
+      "An old woman near Blackbough is upset that the local shrines have been damaged. Fix them, and deal with the students vandalising them.",
+    aiTip:
+      "Only two shrines need finding after the first. One is on a hill to the south-west, one at a road junction east of Blackbough. Beat the students to unlock Last Rites.",
+    walkthrough: [
+      "Talk to the old woman by the road near Blackbough.",
+      "Repair the shrine on the hill to the south-west.",
+      "Repair the shrine at the junction east of Blackbough.",
+      "At the third shrine, confront the students.",
+      "Order them to leave and defeat them when they attack."
+    ],
+    video: "https://www.youtube.com/watch?v=7dyhA_NEhm4"
+  },
+{
+    id: 2810,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Face Me if You Dare!",
+    location: "Crow's Perch, Velen, then Novigrad",
+    length: "medium",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Ronvid of the Small Marsh has sworn to duel a hundred knights and picks Geralt as the next. He keeps coming back, from Crow's Perch all the way to Novigrad.",
+    aiTip:
+      "Lower his health until he yields each time. In the final meeting in Silverton, Axii at level 2 ('Go home') sends him home alive, and the other options mean fighting him and two thugs.",
+    walkthrough: [
+      "Meet Ronvid by the huts west of the Crow's Perch signpost and win the duel.",
+      "Beat him again by the river near Novigrad's Tretogor Gate.",
+      "Find him in Silverton with two thugs.",
+      "Use Axii to send them home, or fight all three."
+    ],
+    video: "https://www.youtube.com/watch?v=eow9WqD8HpM"
+  },
+{
+    id: 2811,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Forefathers' Eve",
+    location: "Stone circle on Fyke Isle, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The Pellar asks Geralt to protect a ritual honouring the dead on Fyke Isle at midnight. Monsters, witch hunters and wraiths all try to disrupt it.",
+    aiTip:
+      "Come prepared for several fights in a row: drowners, a water hag, witch hunters, then wraiths. Declining the ritual ends the quest with a smaller reward.",
+    walkthrough: [
+      "Talk to the Pellar after your first visit.",
+      "Meet him at the stone circle on Fyke Isle at midnight.",
+      "Defend the ritual from the drowners and water hag.",
+      "Fight off the witch hunters.",
+      "Defeat the wraiths to finish the ritual."
+    ],
+    video: "https://www.youtube.com/watch?v=8d0VmSkms94"
+  },
+{
+    id: 2812,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Highway Robbery",
+    location: "Road between Crow's Perch and Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bandits' loot",
+    summary:
+      "A trader on the road is calling for help, surrounded by bandits. It's a setup, and he's one of them.",
+    aiTip:
+      "Expect four attackers once you get close, since the 'trader' joins in. Sell their gear afterwards, as there's no real reward.",
+    walkthrough: [
+      "Find the trader calling for help on the road from Crow's Perch.",
+      "Approach the three bandits around him.",
+      "Fight all four when the trader reveals himself.",
+      "Loot the bodies."
+    ],
+    video: "https://www.youtube.com/watch?v=b8L7G_4KtFg"
+  },
+{
+    id: 2813,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Harassing a Troll",
+    location: "Riverside campfire north-west of the Inn at the Crossroads, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a chance at an elf head",
+    summary:
+      "A friendly rock troll is being mobbed by nekkers at a riverside campfire. Help him out, then chat about nekker soup.",
+    aiTip:
+      "Kill the nekkers without hitting the troll. Asking him about the soup is optional, and the quest completes either way.",
+    walkthrough: [
+      "Go to the campfire by the river north-west of the Inn at the Crossroads.",
+      "Help the rock troll fight off the nekkers.",
+      "Talk to the troll and optionally ask about nekker soup."
+    ],
+    video: "https://www.youtube.com/watch?v=XotvowZlAQ8"
+  },
+{
+    id: 2814,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Death by Fire",
+    location: "Huts on the western path of Codgers' Quarry, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and hidden loot",
+    summary:
+      "Bandits have set a hut on fire with someone inside. Fight them off, free the elf trapped indoors and find what's hidden nearby.",
+    aiTip:
+      "Blast the door with Aard and the elf inside joins the fight with his bow. Afterwards, use Witcher Senses to find the stump with the hidden loot.",
+    walkthrough: [
+      "Find the burning hut surrounded by bandits near Codgers' Quarry.",
+      "Fight the bandits, or Aard the door so the elf can help.",
+      "Kill all the bandits.",
+      "Use Witcher Senses to find the stump and its loot."
+    ],
+    video: "https://www.youtube.com/watch?v=K08tRESNjhA"
+  },
+{
+    id: 2815,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Fists of Fury: Velen",
+    location: "Lindenvale, the Inn at the Crossroads, Blackbough and Crow's Perch",
+    length: "medium",
+    difficulty: "Low",
+    reward: "25 XP per fight, bet winnings and about 160 crowns from the champion",
+    summary:
+      "Fist-fight your way through Velen's best brawlers: Fishgulper, Smithy and Jonah, then the champion, the Sergeant, at Crow's Perch.",
+    aiTip:
+      "Fight the first three in any order. Fishgulper asks you to throw the match for food money, so lose on purpose or win and slip him a few crowns.",
+    walkthrough: [
+      "Read the notice at Crow's Perch.",
+      "Beat Stan Fishgulper outside the Lindenvale inn.",
+      "Beat Smithy at the Inn at the Crossroads.",
+      "Beat Jonah in Blackbough.",
+      "Defeat the Sergeant at Crow's Perch to become Velen's champion."
+    ],
+    video: "https://www.youtube.com/watch?v=g8gUV1MrzYk"
+  },
+{
+    id: 2816,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Gwent: Velen Players",
+    location: "Crow's Perch, Benek, Oreton and Midcopse, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique gwent cards for each win",
+    summary:
+      "Beat Velen's best gwent players, the Bloody Baron, the soothsayer in Benek, the boatwright in Oreton and Haddy of Midcopse, to collect their unique cards.",
+    aiTip:
+      "The soothsayer plays a Monsters deck, so bring weather cards. This quest is required for the Card Collector achievement.",
+    walkthrough: [
+      "Read the notice at Crow's Perch or Midcopse, or challenge the Baron.",
+      "Beat the Bloody Baron.",
+      "Beat the soothsayer in Benek.",
+      "Beat the boatwright in Oreton.",
+      "Beat Haddy of Midcopse."
+    ],
+    video: "https://www.youtube.com/watch?v=xcuMAkGzHjE"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
