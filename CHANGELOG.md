@@ -3,6 +3,20 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-21
+
+- **Quest data: coverage gaps, real tips and Valhalla World Events** — `v2.7.0`
+  minor. 155 new quests and 279 rewritten entries:
+  - **New quests:** 129 AC Valhalla World Events across every region (#330);
+    Hogwarts Legacy +9 (#307), Witcher 3 +6 (#308), Cyberpunk lifepaths +3
+    (#309), Ghost of Tsushima main story +7 (#311), Black Myth: Wukong's
+    Bishui Golden-Eyed Beast (#313); FF7 Rebirth target set to 73 (#314).
+  - **Templated tips and summaries rewritten:** AC Odyssey cultists, main
+    story, tombs, Lost Tales, romances, beasts and riddles (#316, #318–#323);
+    Cyberpunk (#324), Jedi: Survivor rumors (#325), TotK (#326), Pillars of
+    Eternity (#327) and Deadfire (#328). Next-session reminder added and
+    retired (#317, #329).
+
 ## 2026-10-20
 
 - **Turn on the Home and News tabs** — `v2.6.0` minor (#310). The site now
