@@ -7841,20 +7841,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Redania's Most Wanted",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Triss questline progress",
+    location: "Radovid's ship and Est Tayiar, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; counts toward Reason of State",
     summary:
-      "Help Triss and the hunted mages of Novigrad evade the witch hunters.",
+      "King Radovid wants the sorceress Philippa Eilhart found, and the trail leads to her abandoned hideout at Est Tayiar and a sealed teleport.",
     aiTip:
-      "Ties into the Triss romance path — pursue it if you want that ending.",
+      "Activate the crystals with Aard and get the power cell from the witch hunter, who you can talk round with Axii. It fails if not finished before The Isle of Mists.",
     walkthrough: [
-      "Look into the witch-hunter propaganda gripping Novigrad.",
-      "Follow the clues with Witcher Senses to the source of the smear campaign.",
-      "Deal with the agents behind it (talk or fight).",
-      "Expose or resolve the plot as you choose.",
-      "Report back for the reward."
+      "Accept Radovid's request after A Favor for Radovid.",
+      "Travel to Est Tayiar.",
+      "Activate the crystals with Aard and deal with the nekkers.",
+      "Get the power cell from the witch hunter (Axii or fight).",
+      "Use the portal to follow Philippa's trail and report back."
     ],
     video: "https://www.youtube.com/watch?v=zO27yTOk2PU"
   },
@@ -7864,21 +7864,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Contract: Deadly Delights",
-    location: "Novigrad",
+    location: "Novigrad docks, the fish market and Crippled Kate's",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, katakan trophy",
+    reward: "About 250 crowns; sparing the succubus can also earn the Maugrim silver sword",
     summary:
-      "A string of romantic rendezvous end in death — a katakan vampire is hunting lovers.",
+      "Men are turning up dead around the Novigrad docks. The killer behind the two-legged hoofprints is a succubus named Salma.",
     aiTip:
-      "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
+      "Axii on the Madame at Crippled Kate's skips the perfume trail. You can kill Salma or spare her, and the choice changes your reward.",
     walkthrough: [
-      "Take the contract on the Novigrad murders and question witnesses.",
-      "Investigate the crime scenes with Witcher Senses to follow the scent trail.",
-      "Track the killer to its lair beneath the city.",
-      "Apply Cursed Oil and prepare Yrden/Quen for the succubus.",
-      "Fight or parley with the succubus depending on what you learn, then resolve the contract.",
-      "Claim the reward from the quest-giver."
+      "Take the notice near the Golden Sturgeon and talk to the guard at the fish market.",
+      "Visit the doctor who examined the bodies.",
+      "Follow the hoofprints behind Crippled Kate's.",
+      "Question the Madame (Axii) or follow the perfume trail.",
+      "Confront Salma the succubus and kill or spare her."
     ],
     video: "https://www.youtube.com/watch?v=4rWFCE2iAxI"
   },
@@ -7888,68 +7887,67 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Honor Among Thieves",
-    location: "Novigrad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Triss arc, mage-smuggling caper",
+    location: "Junior's casino and the King of Beggars' Putrid Grove, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "100 XP, the Eirlithrad sword and Freya's warrior armour",
     summary:
-      "Help Triss run a daring operation to smuggle mages out of Novigrad by sea.",
+      "In Whoreson Junior's casino, Geralt frees Rico, a halfling held prisoner on the third floor. The King of Beggars rewards him for it.",
     aiTip:
-      "The auction house infiltration rewards patience over brute force.",
+      "Pick 'Run' when you free Rico. The reward never expires, so collect it from the King of Beggars whenever you like.",
     walkthrough: [
-      "Meet Cleaver and agree to hunt down the dwarves who robbed him.",
-      "Track the culprits across Novigrad with Witcher Senses.",
-      "Follow the trail to their hideout, dealing with lookouts.",
-      "Confront the thieves and recover Cleaver's money.",
-      "Decide their fate and report back for the reward."
+      "Find Rico in the third-floor room of Junior's casino.",
+      "Free him and tell him to run.",
+      "Go to the King of Beggars at the Putrid Grove.",
+      "Collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=sGKUDvgfeb4"
+    video: "https://www.youtube.com/watch?v=ClfhE7AEt8o"
   },
 {
     id: 366,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Echoes of the Past",
-    location: "Skellige",
+    location: "Cataclysm site, Ard Skellig",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ciri flashback, Skjall's tale",
+    reward: "XP; leads to Missing Persons",
     summary:
-      "Follow Ciri's trail on Skellige and learn of the villager Skjall who sheltered her.",
+      "Yennefer uses the Mask of Uroboros, stolen from Ermion, to see what happened when Ciri arrived on Skellige. Geralt follows the visions across the cataclysm site.",
     aiTip:
-      "The Wild Hunt flashback battle is scripted — focus on survival.",
+      "Use the mask wherever blue-green sparks float, and kill a foglet after each vision. The final vision points to where the attacker landed, under a fallen tree.",
     walkthrough: [
-      "Travel to Skellige and meet Yennefer to investigate Ciri's trail.",
-      "Explore the site of the megascope/ritual, using Senses for clues.",
-      "Reconstruct the events with Yennefer's magic, fighting any wraiths raised.",
-      "Uncover what Ciri and the Wild Hunt did here.",
-      "Report the findings to advance the search for Ciri."
+      "Meet Yennefer at the cataclysm site, where she's arguing with Ermion.",
+      "Help Yennefer fight off the foglets and take the mask.",
+      "Use the mask at each spot with floating sparks to watch the visions.",
+      "Find the body under the fallen tree.",
+      "Hear from Ermion about the raid on Lofoten."
     ],
     video: "https://www.youtube.com/watch?v=ADmzfOU9IkY"
   },
 {
     id: 367,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Kaer Morhen",
     title: "The Final Trial",
-    location: "Skellige",
-    length: "short",
+    location: "Kaer Morhen and the Circle of Elements",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Ciri questline progress",
+    reward: "500 XP",
     summary:
-      "Ciri must complete a Skellige rite to be recognized — with the Wild Hunt closing in.",
+      "Part of Ugly Baby. Lambert takes Geralt to the Circle of Elements to charge Ciri's phylactery for Yennefer, past harpies, a water hag, Old Speartip and a band of trolls.",
     aiTip:
-      "A story-driven quest with a memorable Ciri-playable segment.",
+      "A Cat potion helps you find alternate paths in the dark caves. You can sneak past Old Speartip and talk your way past the trolls instead of fighting.",
     walkthrough: [
-      "Meet the witcher trying to complete the Trial of the Grasses and agree to help.",
-      "Gather the alchemical ingredients across Skellige with Witcher Senses.",
-      "Return the components and assist with the dangerous trial.",
-      "Deal with the fallout of the experiment.",
-      "See the outcome through and collect the reward."
+      "Find Lambert in the keep and take the phylactery.",
+      "Follow him past the harpies to the lakeshore and take the boat.",
+      "Kill the drowned dead and the water hag.",
+      "Get through the cave (past Old Speartip) and deal with the trolls.",
+      "Light the lanterns at the altar and place the phylactery."
     ],
-    video: "https://www.youtube.com/watch?v=B5-R5CrBZRQ"
+    video: "https://www.youtube.com/watch?v=jetvPkAfrn0"
   },
 {
     id: 368,
@@ -7957,45 +7955,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Practicum in Advanced Alchemy",
-    location: "Skellige",
-    length: "short",
-    difficulty: "Low",
-    reward: "Alchemy formula, coin",
+    location: "Gremist's house, Ard Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; Gremist's alchemy shop opens",
     summary:
-      "Investigate a mage's mysterious death at a coastal alchemical lab.",
+      "The cantankerous druid alchemist Gremist agrees to take Geralt as an apprentice once he completes three tasks: fetch pimpernel, get some spirit and enlist the weather druid Fritjof.",
     aiTip:
-      "Piece together the reagents with Witcher Senses to reconstruct the accident.",
+      "Do the three tasks in any order. The ritual then takes a full day, so leave and meditate for 24 hours. It can't fail.",
     walkthrough: [
-      "Find the alchemist's lab in Skellige and take on the practicum.",
-      "Collect the reagents required for the advanced formula.",
-      "Brew the concoction correctly using the notes provided.",
-      "Handle the reaction/monster the experiment attracts.",
-      "Deliver the result to complete the quest."
+      "Approach Gremist (or get sent by Otto Bamber or Yolar).",
+      "Find pimpernel in Morskogen Forest, past the white wolves.",
+      "Get the spirit from the old distillery.",
+      "Persuade Fritjof the weather druid to help.",
+      "Return to Gremist, wait a day, and see the ritual through."
     ],
-    video: "https://www.youtube.com/watch?v=WMH9JgWzKhc"
+    video: "https://www.youtube.com/watch?v=R_0QCG3rF3U"
   },
 {
     id: 369,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Novigrad",
     title: "Contract: The White Lady",
-    location: "Skellige",
+    location: "Farcorners notice board and Castle Drahim ruins, Novigrad outskirts",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, wraith trophy",
+    reward: "Crowns and a noonwraith trophy",
     summary:
-      "A pale spirit haunts a Skellige homestead, and the truth is a family tragedy.",
+      "A widow named Helma wants the 'White Lady' killing people near Castle Drahim stopped. She's a noonwraith bound to something from her past.",
     aiTip:
-      "Specter Oil and Yrden as always for wraith-type foes.",
+      "Throw the silver dagger into the fire to force the noonwraith out. Use Yrden to make her solid and Specter Oil on your silver sword.",
     walkthrough: [
-      "Take the contract and ask the villagers about the White Lady haunting.",
-      "Investigate the manor and grounds with Witcher Senses after dark.",
-      "Apply Specter Oil and use Yrden to make the noonwraith corporeal.",
-      "Dodge its swift strikes, dispel its illusions, and burn it with Igni.",
-      "Banish the wraith, take the trophy, and claim the fee."
+      "Read the notice at Farcorners and talk to Helma.",
+      "Find the victims' bodies and investigate the attack site.",
+      "Follow the tracks to the ruined tower.",
+      "Throw the silver dagger into the fire to summon the noonwraith.",
+      "Kill her, take a trophy and collect your reward from Helma."
     ],
-    video: "https://www.youtube.com/watch?v=Gxy56GWAbpU"
+    video: "https://www.youtube.com/watch?v=PSSC_m27Dno"
   },
 {
     id: 370,
@@ -8003,114 +8001,112 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Contract: Skellige's Most Wanted",
-    location: "Skellige",
+    location: "Fyresdal and the hills to the north-east, Ard Skellig",
     length: "medium",
     difficulty: "High",
-    reward: "Coin, arachas trophy",
+    reward: "Crowns and XP",
     summary:
-      "A bounty on a nest of monstrous arachasae draws Geralt into the mountains.",
+      "Something is killing travellers near Fyresdal and trying to make it look like nekkers. The trail leads to a cave of endregas and an arachas, then to a meeting of monsters: a doppler, a godling, an ice troll and their werewolf leader.",
     aiTip:
-      "Bring Insectoid Oil and dodge the ranged spit before closing in.",
+      "Visit the meeting place at night to catch the culprits together. Bring Insectoid Oil for the cave and Cursed Oil for the werewolf.",
     walkthrough: [
-      "Accept the contract and gather reports of the beast attacks across Skellige.",
-      "Track each kill site with Witcher Senses to pinpoint the lair.",
-      "Identify the monster's class and apply the matching oil, readying Quen.",
-      "Fight the beast, dodging its heavy attacks and exploiting its weakness.",
-      "Slay it, take the trophy, and claim the substantial reward."
+      "Read the notice or talk to the Skelliger in Fyresdal.",
+      "Investigate the attack site north-east of Fyresdal.",
+      "Follow the tracks to the cave and kill the endregas and the arachas.",
+      "Go to the meeting place at night.",
+      "Confront the doppler, godling, ice troll and werewolf."
     ],
     video: "https://www.youtube.com/watch?v=sMReQTykjII"
   },
 {
     id: 372,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "Ugly Baby",
-    location: "Velen",
-    length: "medium",
+    location: "Crow's Perch, Vizima and Kaer Morhen",
+    length: "long",
     difficulty: "Medium",
-    reward: "Uma's curse lead, allies gather",
+    reward: "XP; Uma's curse lifted",
     summary:
-      "Bring the cursed 'Uma' to Kaer Morhen and gather the witchers to attempt a brutal curse-breaking.",
+      "The umbrella quest for Act II. Geralt takes the cursed Uma from Crow's Perch to Kaer Morhen, where the witchers and Yennefer prepare to break his curse.",
     aiTip:
-      "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
+      "Finish The Last Wish and Following the Thread before taking Uma from Crow's Perch. Disturbance, To Bait a Forktail and The Final Trial can be done in any order.",
     walkthrough: [
-      "Meet Yennefer to prepare the ritual needed to help Uma.",
-      "Gather the rare ingredients and tools across Velen and Novigrad.",
-      "Bring everything to the lab and assist with the dangerous curse-breaking ritual.",
-      "Protect the process from the forces it unleashes.",
-      "See the ritual to its outcome and advance the main story."
+      "Collect Uma from Crow's Perch.",
+      "Report to Emhyr in Vizima.",
+      "Bring Uma to Kaer Morhen.",
+      "Complete Disturbance, To Bait a Forktail and The Final Trial.",
+      "Finish No Place Like Home and Va Fail, Elaine to lift the curse."
     ],
     video: "https://www.youtube.com/watch?v=dmXn4LkPoCA"
   },
 {
     id: 373,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Dead Man's Party",
-    location: "Velen",
-    length: "medium",
+    location: "Shani's clinic, the von Everec crypt and the wedding, Oxenfurt (Hearts of Stone)",
+    length: "long",
     difficulty: "Medium",
-    reward: "Hearts of Stone arc, Vlodimir body-share",
+    reward: "XP; Olgierd's first wish granted",
     summary:
-      "Possessed by the ghost Vlodimir, Geralt crashes a wedding in the wildest quest in the game.",
+      "Olgierd's first wish: give his long-dead brother Vlodimir the time of his life. Geralt raises Vlodimir's ghost and lets it possess him for a wild wedding night with Shani.",
     aiTip:
-      "Just go with it — the outrageous choices are the whole point and mostly harmless.",
+      "Leave fishing Shani's shoe out of the pond until last and do every optional wedding activity first for the Let the Good Times Roll achievement.",
     walkthrough: [
-      "In Velen, meet the sisters/loved ones planning the wake and agree to help.",
-      "Run the errands — food, drink, and guests — using Senses to track them down.",
-      "Handle the uninvited monsters or troublemakers that crash the party.",
-      "Keep the celebration going through its beats.",
-      "Finish the wake and collect the reward."
+      "Talk to Shani at her Oxenfurt clinic about the von Everec crypt.",
+      "Find Vlodimir's grave in the crypt and use the censer.",
+      "Light the central votive and fight off the von Everec ghosts.",
+      "Let Vlodimir possess Geralt and go to the wedding.",
+      "Do the wedding activities, ending with Shani's shoe."
     ],
     video: "https://www.youtube.com/watch?v=ykCSvQ9ZSh0"
   },
 {
     id: 374,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Open Sesame!",
-    location: "Velen",
+    location: "Borsodi auction house, Oxenfurt (Hearts of Stone)",
     length: "long",
     difficulty: "High",
-    reward: "Hearts of Stone heist, Ofieri gear",
+    reward: "XP; Olgierd's second wish (Maximilian Borsodi's House)",
     summary:
-      "Pull off an elaborate auction-house heist for Olgierd's cursed employer, Gaunter O'Dimm.",
+      "Olgierd's second wish is 'Maximilian Borsodi's House', a casket in the Borsodi auction house vault. Geralt teams up with the disinherited Ewald Borsodi to pull off a heist.",
     aiTip:
-      "The vault has a fistfight and a puzzle — prep both combat and patience.",
+      "Bring around 700 crowns for the auction. In the vault, siding with one brother means the other dies, and the Viper sword diagram there can't be collected later.",
     walkthrough: [
-      "Meet Yennefer at the ransacked estate and agree to break into the sealed vault.",
-      "Explore the manor, using Aard and Senses to find the hidden mechanism.",
-      "Solve the vault puzzle to open the way (deal with the magical wards).",
-      "Fight the guardian/wraith protecting the treasure.",
-      "Recover the contents and decide what to do with them.",
-      "Report to Yennefer to close the quest."
+      "Get into the auction as Vimme Vivaldi's guest.",
+      "Meet Ewald, the hooded stranger, and plan the heist.",
+      "Recruit your crew (Witcher Seasonings, Breaking and Entering, The Safecracker).",
+      "Break into the vault and choose between Horst and Ewald.",
+      "Escape and bring the casket to Olgierd."
     ],
-    video: "https://www.youtube.com/watch?v=7J9IJHFDEnI"
+    video: "https://www.youtube.com/watch?v=ssRaolY46Sk"
   },
 {
     id: 375,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scenes From a Marriage",
-    location: "Velen",
+    location: "Von Everec manor east of Oxenfurt (Hearts of Stone)",
     length: "long",
     difficulty: "Medium",
-    reward: "Iris von Everec's painted world",
+    reward: "XP; Olgierd's third wish (Iris's rose)",
     summary:
-      "Enter the haunted painted world of Iris von Everec to reunite her sundered memories.",
+      "Olgierd's third wish is the rose he gave his wife Iris. At the abandoned von Everec manor, Geralt enters a painted world of Iris's memories to find it.",
     aiTip:
-      "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
+      "In the dining room, ignore the red herrings: light the two candleholders nearest the people at the table and the fireplace to match the painting. Leave the rose with Iris to keep her painting.",
     walkthrough: [
-      "Travel with the spirit to the drowned house and agree to reconcile the family's ghosts.",
-      "Explore the vision of the home, using Senses to relive each family member's story.",
-      "Complete each spirit's unfinished task around the house.",
-      "Confront the truth of what tore the family apart.",
-      "Choose how to resolve the haunting and see the emotional outcome.",
-      "Return to finish the quest."
+      "Get into the locked von Everec manor.",
+      "Find Iris upstairs and bury her remains in the garden.",
+      "Follow Iris's spirit into the painted world.",
+      "Restore each memory with Witcher Senses (palette, glass, candles).",
+      "Decide whether to take the rose from Iris."
     ],
     video: "https://www.youtube.com/watch?v=k43ZRYxUftw"
   },
