@@ -68,5 +68,7 @@ walkthrough is duplicated in the data. Still open:
   Events across all regions (IDs 2624–2752), under a new "World Events" category.
 - Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
   could be confirmed, so nothing was guessed.
-- The Witcher 3's target (100) undercounts a game with several hundred quests.
-  Raise it in `scripts/audit.js` if you want the remaining gap tracked.
+- The Witcher 3's target is now 290 (about 207 base-game main/side/contract
+  quests plus ~24 Hearts of Stone and ~58 Blood and Wine). Batch 1 added the 26
+  missing base-game main quests (126/290). Next: base-game secondary quests and
+  contracts, then the expansions.

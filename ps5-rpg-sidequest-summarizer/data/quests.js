@@ -14057,6 +14057,592 @@ const quests = [
     video: "https://www.youtube.com/watch?v=vO1qHy2feh4"
   },
 {
+    id: 2753,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Kaer Morhen",
+    location: "Kaer Morhen (dream prologue)",
+    length: "short",
+    difficulty: "Low",
+    reward: "None (tutorial)",
+    summary:
+      "A dream of Geralt's past at Kaer Morhen, where Yennefer, Vesemir and a young Ciri walk him through the basics of movement, combat and signs.",
+    aiTip:
+      "The race against Ciri and the sparring with Vesemir are optional, so skip them if you already know the controls. Use Witcher Senses to find the key in Yennefer's room.",
+    walkthrough: [
+      "Wake in Yennefer's room and use Witcher Senses to find the door key.",
+      "Head down to the courtyard and meet Vesemir and young Ciri.",
+      "Optionally race Ciri around the keep.",
+      "Optionally spar with Vesemir to learn sword fighting and signs.",
+      "Finish the training to wake from the dream and start the story proper."
+    ],
+    video: "https://www.youtube.com/watch?v=DULFPalFCU0"
+  },
+{
+    id: 2754,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "The Incident at White Orchard",
+    location: "White Orchard tavern",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 300 XP",
+    summary:
+      "Back at the White Orchard tavern, a group of thugs picks a fight with Geralt and Vesemir just as Nilfgaardian riders arrive to escort Geralt to the Emperor.",
+    aiTip:
+      "Open with Igni to catch most of the bandits at once. Finishing this also completes Lilac and Gooseberries and starts Imperial Audience automatically.",
+    walkthrough: [
+      "Return to the White Orchard tavern.",
+      "Fight the bandits who attack you inside.",
+      "Open with Igni to hit several of them at once, then clean up with your sword.",
+      "Watch the cutscene as the Nilfgaardian escort arrives, which starts Imperial Audience."
+    ],
+    video: "https://www.youtube.com/watch?v=TeXDNlsatq8"
+  },
+{
+    id: 2755,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: The King of the Wolves",
+    location: "Lindenvale riverbed, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Playing as Ciri during the Bloody Baron's tale, you rescue a little girl named Gretka from wolves and walk her home through the valley.",
+    aiTip:
+      "Ciri can't parry, so keep dodging and use her blink to get behind the wolves. A second pack attacks on the way back, so stay close to Gretka.",
+    walkthrough: [
+      "As Ciri, follow the riverbed.",
+      "Kill the wolves surrounding Gretka on the tree branch.",
+      "Escort Gretka back toward her home.",
+      "Fight off the second pack of wolves that attacks.",
+      "Get Gretka home to finish the flashback."
+    ],
+    video: "https://www.youtube.com/watch?v=csDDCyqt4cI"
+  },
+{
+    id: 2756,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: The Race",
+    location: "Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "As the Baron tells it, Ciri bet him that she could beat him in a horse race, with the mount of her choice as the prize. Race the Bloody Baron as Ciri.",
+    aiTip:
+      "Stay on the yellow path, since the white dotted path is longer. Win or lose, the story plays out the same, and a basilisk cuts the race short at the tower.",
+    walkthrough: [
+      "As Ciri, accept the Baron's wager.",
+      "Race him along the yellow track, galloping the whole way.",
+      "Cut in front of the Baron to block him if your stamina runs low.",
+      "Reach the tower at the finish, where a basilisk interrupts the race."
+    ],
+    video: "https://www.youtube.com/watch?v=cwQs5KXzPoI"
+  },
+{
+    id: 2757,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: Out of the Shadows",
+    location: "Abandoned Tower, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The basilisk that ended the race has the Bloody Baron in its sights. As Ciri, kill the beast and climb the ruined tower to rescue him.",
+    aiTip:
+      "Ciri can't parry, so dodge the basilisk's lunges and use her blink to get in behind it. This quest can't be failed or missed.",
+    walkthrough: [
+      "As Ciri, fight the basilisk at the foot of the Abandoned Tower.",
+      "Dodge its attacks and strike from behind until it falls.",
+      "Climb the ledges of the tower.",
+      "Reach the Baron at the top and rescue him."
+    ],
+    video: "https://www.youtube.com/watch?v=hCt4aJ1hX64"
+  },
+{
+    id: 2758,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: Fleeing the Bog",
+    location: "Crookback Bog, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "In a flashback, Ciri escapes Crookback Bog with drowners and Wild Hunt hounds on her heels, ending with her hiding from Imlerith in a tree.",
+    aiTip:
+      "You don't need to fight. The hounds keep coming through portals, so just run straight to the marker on the far side of the bog.",
+    walkthrough: [
+      "As Ciri, flee from the Crones' hut through Crookback Bog.",
+      "Dodge past the drowners and the Wild Hunt hounds.",
+      "Keep running to the marker on the other side of the bog.",
+      "Hide in the tree as Imlerith searches for her."
+    ],
+    video: "https://www.youtube.com/watch?v=kKQ_EYpD2NQ"
+  },
+{
+    id: 2759,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Pyres of Novigrad",
+    location: "Triss's house and the city, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and the Novigrad story threads",
+    summary:
+      "Geralt's first real lead in Novigrad sends him to Triss's house, where looters, traps and witch hunters show just how dangerous the city has become for mages.",
+    aiTip:
+      "Expect a fight with three witch hunters in the warehouse at the end. Have Quen up before the doors open.",
+    walkthrough: [
+      "Go to Triss's house in Novigrad.",
+      "Deal with the looters outside.",
+      "Search the house and follow the clues through the city.",
+      "Get past the traps along the way.",
+      "Fight the three witch hunters in the warehouse."
+    ],
+    video: "https://www.youtube.com/watch?v=tXAypJR-ouA"
+  },
+{
+    id: 2760,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Ciri's Story: Breakneck Speed",
+    location: "Temple Isle, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "As Dandelion recounts it, Ciri tries to break out of Temple Isle with him after Junior raises the alarm. Ride for the gate, then fight through Junior's henchmen.",
+    aiTip:
+      "You're near a cliff edge outside the Great Temple of the Eternal Fire, so don't blink wildly or you'll fall to your death.",
+    walkthrough: [
+      "As Ciri, run out of the alley and turn right to the large gate where Dandelion waits.",
+      "Mount one of the two horses beyond the gate and ride.",
+      "Dismount to get through the door into the Great Temple of the Eternal Fire.",
+      "Kill Junior's henchmen guarding the door."
+    ],
+    video: "https://www.youtube.com/watch?v=phb6aY6FeNE"
+  },
+{
+    id: 2761,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Ciri's Story: Visiting Junior",
+    location: "Junior's hideout, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "After Get Junior, the story flashes back to Ciri sneaking into Whoreson Junior's hideout to face him and his men.",
+    aiTip:
+      "Ciri can't parry or counter, so lean on dodges and blink. Thin out the henchmen first before you go for Junior.",
+    walkthrough: [
+      "Finish Get Junior to unlock this flashback.",
+      "As Ciri, climb to the rooftop of Junior's hideout.",
+      "Enter through the window.",
+      "Fight Junior and his henchmen."
+    ],
+    video: "https://www.youtube.com/watch?v=_ezmPTPcIb8"
+  },
+{
+    id: 2762,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Missing Persons",
+    location: "Hindarsfjall and Lofoten, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Geralt follows Yennefer to Lofoten on Hindarsfjall, where the Wild Hunt has left a village grieving. The survivors point to a man called Craven who was last seen with Ciri.",
+    aiTip:
+      "Follow Yennefer straight after Echoes of the Past, since skipping that can leave the quest stuck. The trail ends at Freya's Garden, where Nameless begins.",
+    walkthrough: [
+      "Meet Yennefer on Hindarsfjall and travel with her to Lofoten.",
+      "Question the villagers about the Wild Hunt's attack.",
+      "Talk to the priestesses about Craven, the man seen with Ciri.",
+      "Follow Craven's trail to Freya's Garden, which starts Nameless."
+    ],
+    video: "https://www.youtube.com/watch?v=KOVL3QJy44o"
+  },
+{
+    id: 2763,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Ciri's Story: The Calm Before the Storm",
+    location: "Lofoten, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "In a flashback, Ciri recovers in Skjall's house in Lofoten until the Wild Hunt descends on the village. With Skjall's help she flees on horseback.",
+    aiTip:
+      "There are too many riders to beat, so don't stay and fight. Get on a horse and ride for Drowned Dead Rock.",
+    walkthrough: [
+      "As Ciri, wake in Skjall's house in Lofoten.",
+      "Go to the sauna with Astrid and her mother.",
+      "Fight the riders when the Wild Hunt attacks, then break away.",
+      "Get on a horse and flee toward Drowned Dead Rock with Skjall.",
+      "Ride on alone when Skjall turns back to draw the Hunt away."
+    ],
+    video: "https://www.youtube.com/watch?v=u1qxWHhpMQs"
+  },
+{
+    id: 2764,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Disturbance",
+    location: "Kaer Morhen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Yennefer has felt a magical disturbance somewhere in Kaer Morhen. Take her Potestaquisitor and track down the source.",
+    aiTip:
+      "Follow the Potestaquisitor's noise to a sealed container near Vesemir and Uma's cage. Picking certain lines with Yennefer can teleport Geralt into the lake, so be careful with dialogue.",
+    walkthrough: [
+      "Find Yennefer in the upper part of the castle.",
+      "Take the Potestaquisitor from her.",
+      "Follow its signal to the sealed container near Uma's cage.",
+      "Examine the container to trigger the cutscene."
+    ],
+    video: "https://www.youtube.com/watch?v=tC-iCXubkXM"
+  },
+{
+    id: 2765,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Va Fail, Elaine",
+    location: "Kaer Morhen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and the Magic Firefly",
+    summary:
+      "Yennefer and the witchers attempt to lift Uma's curse with the Trial of the Grasses decoctions. The ritual reveals who Uma really is: the elven sage Avallac'h.",
+    aiTip:
+      "Collect the Bryonia, ribleaf, mandrake root and forktail spinal fluid from the chest before brewing. During the ritual, keep stirring all three potions or the scene won't advance.",
+    walkthrough: [
+      "Finish No Place Like Home to start the quest.",
+      "Take the Decoction of the Grasses formula and find the chest with the ingredients.",
+      "Brew the three potions and bring them to Yennefer.",
+      "Stir each of the three potions during the ritual.",
+      "Learn that Uma is Avallac'h, who reveals Ciri is on the Isle of Mists and gives you the Magic Firefly."
+    ],
+    video: "https://www.youtube.com/watch?v=TrBQH32-G-Q"
+  },
+{
+    id: 2766,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Brothers in Arms: Novigrad",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Gather allies in Novigrad for the battle at Kaer Morhen. Triss, Roche and Ves, and Zoltan can join, depending on what you did for them earlier.",
+    aiTip:
+      "Roche and Ves need Eye for an Eye done, with Ves alive. Zoltan needs A Dangerous Game. Dijkstra won't fight, but he pays you if you found his treasure in Count Reuven's Treasure.",
+    walkthrough: [
+      "Talk to Triss, who joins if you finished A Matter of Life and Death.",
+      "Visit Roche and Ves, who join if Eye for an Eye is done.",
+      "Ask Zoltan, who joins if you completed A Dangerous Game.",
+      "Speak to Dijkstra, who won't fight but may pay you.",
+      "Head back to Kaer Morhen with your allies."
+    ],
+    video: "https://www.youtube.com/watch?v=5qjdWvCxoys"
+  },
+{
+    id: 2767,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Brothers in Arms: Skellige",
+    location: "Kaer Trolde and the Skellige isles",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Rally the Skelligers for the fight at Kaer Morhen once the islands have a new ruler. Hjalmar, Ermion, and Folan and Vigi can all answer the call.",
+    aiTip:
+      "Hjalmar needs Possession, The Lord of Undvik and King's Gambit done, plus a ruler crowned. Saving Folan and Vigi on Undvik earns two extra fighters.",
+    walkthrough: [
+      "Settle the succession to the Skellige throne at Kaer Trolde.",
+      "Ask Hjalmar to join, which needs his questline and King's Gambit done.",
+      "Visit Ermion and ask for his help.",
+      "Recruit Folan and Vigi if you saved them during The Lord of Undvik."
+    ],
+    video: "https://www.youtube.com/watch?v=aw7P0hgFgds"
+  },
+{
+    id: 2768,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Brothers in Arms: Velen",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Look for allies in Velen. Keira Metz can join if you saw her storyline through, and Letho if he survived The Witcher 2.",
+    aiTip:
+      "Keira needs A Towerful of Mice, A Favor for a Friend and For the Advancement of Learning done, and the wrong dialogue choice loses her. Letho also needs Ghosts of the Past.",
+    walkthrough: [
+      "Finish Keira Metz's quests (A Towerful of Mice, A Favor for a Friend, For the Advancement of Learning).",
+      "Convince Keira to go to Kaer Morhen.",
+      "Complete Ghosts of the Past if Letho survived The Witcher 2, then recruit him.",
+      "Return to Kaer Morhen."
+    ],
+    video: "https://www.youtube.com/watch?v=DOU0IRil_YU"
+  },
+{
+    id: 2769,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Brothers in Arms: Nilfgaard",
+    location: "Royal Palace in Vizima",
+    length: "short",
+    difficulty: "Low",
+    reward: "None if you refuse Emhyr's terms",
+    summary:
+      "Ask Emperor Emhyr for troops to defend Kaer Morhen. He'll only send them under Morvran Voorhis's command, and Geralt won't accept that.",
+    aiTip:
+      "There's no way to get Nilfgaard's soldiers, so the quest ends in a refusal whatever you say. It still counts toward finishing the Brothers in Arms set.",
+    walkthrough: [
+      "Travel to the Royal Palace in Vizima.",
+      "Ask Emhyr for troops.",
+      "Refuse his condition that Morvran Voorhis leads them.",
+      "Leave without Nilfgaard's support."
+    ],
+    video: "https://www.youtube.com/watch?v=fWZT9bi0Jvg"
+  },
+{
+    id: 2770,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Great Escape",
+    location: "Crippled Kate's and the prison in Oxenfurt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "To bring the sorceresses into the fight, Geralt helps free Margarita from Radovid's prison in Oxenfurt, starting with an informant who bolts the moment you approach.",
+    aiTip:
+      "Stop the fleeing informant with a punch or Aard rather than chasing him around. Zoltan helps you find the way in, which is through the well.",
+    walkthrough: [
+      "Catch the runaway informant (a punch or Aard stops him).",
+      "Go to Crippled Kate's.",
+      "Ask Zoltan for help.",
+      "Enter the prison through the well and search the ruins.",
+      "Find the missing part of the mechanism, repair it and free the prisoner."
+    ],
+    video: "https://www.youtube.com/watch?v=YRbZPTyED00"
+  },
+{
+    id: 2771,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Blindingly Obvious",
+    location: "Novigrad bathhouse and cellars",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; opens Reason of State",
+    summary:
+      "Triss uses one of Philippa's feathers to track her, and the trail leads to an exploding bathhouse and Dijkstra's mind-controlled men. Find Philippa before she brings the place down.",
+    aiTip:
+      "At Dijkstra's troll, pick 'I want to help her' to get past without a fight. Philippa summons a fire elemental, so bring Northern Wind or Aard.",
+    walkthrough: [
+      "Meet Triss and follow her to the fountain behind the Passiflora for the hydromancy.",
+      "Head to the bathhouse and fight Dijkstra's mind-controlled henchmen.",
+      "Drop through the hole in the bath floor into the cellars.",
+      "Talk your way past Dijkstra's troll.",
+      "Defeat Philippa's fire elemental and capture her, then deal with Dijkstra."
+    ],
+    video: "https://www.youtube.com/watch?v=nio1O0mGZEs"
+  },
+{
+    id: 2772,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Payback",
+    location: "Novigrad (Golden Sturgeon and Farcorners)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "700 XP",
+    summary:
+      "Before the final battle, Ciri wants to settle some old scores in Novigrad. Follow her through bar fights, a horse race and, if you're game, a little horse theft.",
+    aiTip:
+      "Agreeing to help steal the horses from the Novigrad stables makes Ciri happy, which matters for the ending. Calm them with Axii as you sneak in.",
+    walkthrough: [
+      "Talk to Ciri in Novigrad.",
+      "Go to Temple Isle or the Bits, depending on Junior's fate in Get Junior.",
+      "Head to the Golden Sturgeon and deal with the thugs harassing Bea.",
+      "Meet Valdo and Aegar in Farcorners and beat Valdo in the horse race.",
+      "Choose whether to help steal horses from the stables."
+    ],
+    video: "https://www.youtube.com/watch?v=c_SFigsYAQs"
+  },
+{
+    id: 2773,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Battle Preparations",
+    location: "Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "XP and the final assault on the Wild Hunt",
+    summary:
+      "The umbrella quest for the endgame in Skellige. Find the Sunstone, free Fringilla Vigo and learn what Avallac'h has been hiding before the last battle.",
+    aiTip:
+      "Do The Sunstone first, since you learn where the ruins are along the way. Saying yes to Ciri in Child of the Elder Blood opens Skjall's Grave and helps her ending.",
+    walkthrough: [
+      "Arrive in Skellige with Yennefer, Philippa and Ciri.",
+      "Complete The Sunstone.",
+      "Complete Veni Vidi Vigo.",
+      "Complete Child of the Elder Blood.",
+      "Optionally complete Skjall's Grave, then head into On Thin Ice."
+    ],
+    video: "https://www.youtube.com/watch?v=N1z3nu1ZV34"
+  },
+{
+    id: 2774,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Sunstone",
+    location: "Ancient Crypt, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Philippa needs a legendary elven artifact, the Sunstone, to trap the Wild Hunt. Track down the ruins hiding it and solve the mirror puzzle inside.",
+    aiTip:
+      "Tell Eyvind you're 'gathering material for an adventure novel' to get the location. In the crypt, pull each of the three mirror levers once.",
+    walkthrough: [
+      "Ask Ermion for a lead on the elven ruins.",
+      "Get the cave's location from the bard Eyvind or the pearl divers.",
+      "Explore the Ancient Crypt.",
+      "Solve the mirror puzzle by pulling each of the three levers once.",
+      "Return to Yennefer at Kaer Trolde harbor with the Sunstone."
+    ],
+    video: "https://www.youtube.com/watch?v=9vuMvVJ9xwE"
+  },
+{
+    id: 2775,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Veni Vidi Vigo",
+    location: "Emhyr's flagship off Undvik, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Fringilla Vigo freed",
+    summary:
+      "Emhyr is holding the sorceress Fringilla Vigo aboard his flagship. Swim out at night, sneak aboard and use Yennefer's letter to get her released.",
+    aiTip:
+      "Fast travel to Marlin Coast, drink a Killer Whale potion and swim deep to stay out of the searchlights. Climb the anchor on the ship's northern side.",
+    walkthrough: [
+      "Take Yennefer's letter for Emhyr.",
+      "Fast travel to Marlin Coast and swim out to the fleet at night.",
+      "Stay underwater to avoid the searchlights.",
+      "Climb the flagship's anchor to get aboard.",
+      "Exhaust the dialogue with Emhyr to secure Fringilla's release."
+    ],
+    video: "https://www.youtube.com/watch?v=G7yswvXhc9U"
+  },
+{
+    id: 2776,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Child of the Elder Blood",
+    location: "Avallac'h's laboratory, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Ciri suspects Avallac'h is hiding something. Search his island laboratory with Geralt and face what you find there.",
+    aiTip:
+      "When Ciri asks you to come with her afterwards, agreeing opens Skjall's Grave and pushes her toward the good ending.",
+    walkthrough: [
+      "Reach Avallac'h's island and speak with Yennefer.",
+      "Wait for the laboratory door to open.",
+      "Defeat the golem guarding the lab.",
+      "Search the lab with Witcher Senses.",
+      "Talk to Yennefer and Ciri, and agree to go with Ciri."
+    ],
+    video: "https://www.youtube.com/watch?v=roT4K65sZ_E"
+  },
+{
+    id: 2777,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Skjall's Grave",
+    location: "Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Ciri finds Skjall's body dumped in a ditch on Hindarsfjall and insists on burying him properly, whatever the locals think of the 'coward'.",
+    aiTip:
+      "When the Skelligers object, back Ciri up rather than talking her down. Supporting her here counts toward the best ending.",
+    walkthrough: [
+      "Travel to Hindarsfjall with Ciri.",
+      "Recover Skjall's body from the ditch.",
+      "Help Ciri bury him near the cemetery.",
+      "Stand with Ciri when the angry locals confront her."
+    ],
+    video: "https://www.youtube.com/watch?v=K61eucPHwu0"
+  },
+{
+    id: 2778,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "On Thin Ice",
+    location: "Undvik, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "The final battle against the Wild Hunt",
+    summary:
+      "The final battle against the Wild Hunt on Undvik. Ciri takes on Caranthir while Geralt boards the Naglfar to face Eredin.",
+    aiTip:
+      "As Ciri, dodge behind Caranthir each time he swings his staff. Against Eredin, save Igni until his frost armour drops, since he regains it every time he teleports.",
+    walkthrough: [
+      "Meet Avallac'h at the Nilfgaardian camp on Undvik.",
+      "Fight through the Wild Hunt's attack.",
+      "As Ciri, defeat Caranthir and destroy his staff.",
+      "As Geralt, board the Naglfar.",
+      "Defeat Eredin in a two-phase fight."
+    ],
+    video: "https://www.youtube.com/watch?v=cyaDHEhNMrE"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
