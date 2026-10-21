@@ -57,3 +57,16 @@ These are merged into `main` and safe to delete via the GitHub UI:
   of the Ancients entry (the other 141 are correctly `main`; Valhalla's World
   Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
   fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
+
+## ~~Quest data: coverage gaps + templated tips~~ — DONE 2026-10-20
+D4 and D2 from the 2026-10-20 QA report were done in PRs #307–#328 (to `staging`)
+(coverage: Hogwarts, Witcher 3, Cyberpunk, Ghost of Tsushima, Wukong, plus a
+corrected FF7 Rebirth target; tips/summaries: AC Odyssey, Cyberpunk, Jedi:
+Survivor, TotK, Pillars, Deadfire). With all of them merged, no tip, summary or
+walkthrough is duplicated in the data. Still open:
+- ~~**Decision:** whether to add Valhalla's World Events.~~ Added: 129 World
+  Events across all regions (IDs 2624–2752), under a new "World Events" category.
+- Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
+  could be confirmed, so nothing was guessed.
+- The Witcher 3's target (100) undercounts a game with several hundred quests.
+  Raise it in `scripts/audit.js` if you want the remaining gap tracked.
