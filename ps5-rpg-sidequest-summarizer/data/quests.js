@@ -14643,6 +14643,441 @@ const quests = [
     video: "https://www.youtube.com/watch?v=cyaDHEhNMrE"
   },
 {
+    id: 2779,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Patrol Gone Missing",
+    location: "Nilfgaardian Army camp and the swamp to the north-west, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns and a draconid trophy (or XP for refusing payment)",
+    summary:
+      "A Nilfgaardian scouting patrol vanished across the swamp. Quartermaster Eggebracht wants to know what happened, and the trail leads to a flying draconid.",
+    aiTip:
+      "Coat your silver sword with Draconid Oil and bring Grapeshot or a crossbow to knock it out of the air. How you handle the quartermaster afterwards changes the payout.",
+    walkthrough: [
+      "Read the missing soldiers notice or talk to Quartermaster Eggebracht at the Nilfgaardian camp.",
+      "Head north-west to the abandoned scout camp.",
+      "Use Witcher Senses to follow the footprints, then the scent trail.",
+      "Kill the draconid and take its trophy.",
+      "Return to the quartermaster for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=I8FJfqmW0i8"
+  },
+{
+    id: 2780,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Shrieker",
+    location: "Cave near Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns and XP",
+    summary:
+      "A shrieker has made its nest near Crow's Perch and keeps preying on locals. Drive it out of its cave and bring it down.",
+    aiTip:
+      "Throw a Samum, Grapeshot or Dancing Star bomb into the cave to force it out, then chase it down. A crossbow bolt grounds it when it takes off.",
+    walkthrough: [
+      "Take the notice from the Crow's Perch notice board, or find the shrieker's cave first.",
+      "Track the creature to its cave.",
+      "Use a bomb to drive it out of the lair.",
+      "Chase it down and kill it.",
+      "Take the trophy back for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=jBoZ-3Db-tE"
+  },
+{
+    id: 2781,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Swamp Thing",
+    location: "Peat bog by Downwarren, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns (up to about 300 if you haggle), XP and a foglet trophy",
+    summary:
+      "Peat diggers by Downwarren keep vanishing into a mist that spreads over the bog. The killer is an old foglet called Ignis Fatuus.",
+    aiTip:
+      "Get the Eye of Nehaleni from Keira first, which lets you see the foglet's illusions. Keep Quen up during the fight, as the bestiary suggests.",
+    walkthrough: [
+      "Read the notice in Downwarren or talk to Leslav the peat digger.",
+      "Head into the bog where the mist gathers.",
+      "Investigate the victims with Witcher Senses.",
+      "Fight the old foglet, keeping Quen active.",
+      "Take the trophy back to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=tI-5VbriQEQ"
+  },
+{
+    id: 2782,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Mysterious Tracks",
+    location: "Cave in the cliffs south of Lindenvale, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and a chort trophy",
+    summary:
+      "Something is tearing apart wolves near Lindenvale. The trail leads to a cave and a dead fiend, but the real culprit is a territorial chort called Howler.",
+    aiTip:
+      "Craft the Chort Lure and spray it at the four marked spots around the hill to draw Howler out. Dodge sideways, not back, when it charges.",
+    walkthrough: [
+      "Read the Lindenvale notice or find the mauled wolves.",
+      "Follow the tracks south past the glowing red rock to the cliffs.",
+      "Drop through the hole in the ground to enter the cave and examine the dead fiend.",
+      "Craft the Chort Lure and spread it at four points around the hill.",
+      "Kill Howler when it appears and take its trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=nPxuBvVMuAY"
+  },
+{
+    id: 2783,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Mystery of the Byways Murders",
+    location: "Byways, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Byways has been abandoned and a soldier swears a monster is to blame, but the villagers insist there isn't one. The truth lies in the elven ruins they were digging up under the village.",
+    aiTip:
+      "Clear the ghouls in the village first. Then use Witcher Senses on the bodies and follow the scent to the hut where the villagers confess what they woke underground.",
+    walkthrough: [
+      "Pick up the contract and travel to Byways.",
+      "Kill the ghouls overrunning the village.",
+      "Examine the corpses with Witcher Senses and follow the scent to a hut.",
+      "Hear the villagers admit they disturbed something in the elven ruins below.",
+      "Go down into the ruins and kill the beast."
+    ],
+    video: "https://www.youtube.com/watch?v=s3jHYP1qEd4"
+  },
+{
+    id: 2784,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Phantom of the Trade Route",
+    location: "East of Benek, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Wyvern trophy and a leveled Anathema silver sword",
+    summary:
+      "Three men from Benek guided a merchant caravan east and never came back. Two wyvern nests and the royal wyvern ruling them explain why.",
+    aiTip:
+      "Use Draconid Oil and destroy both nests to make the royal wyvern appear. It drops the Anathema silver sword as well as its trophy.",
+    walkthrough: [
+      "Talk to the refugee in Benek about the missing guides.",
+      "Head east and find the first wyvern nest.",
+      "Kill the guarding wyvern and destroy the nest.",
+      "Do the same at the second nest.",
+      "Kill the royal wyvern when it arrives and loot its trophy and Anathema."
+    ],
+    video: "https://www.youtube.com/watch?v=Iwfan6ql2rE"
+  },
+{
+    id: 2785,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Griffin from the Highlands",
+    location: "Hills north of Crow's Perch, near Heatherton, Velen",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns, the Tracker's Trousers diagram and an archgriffin trophy",
+    summary:
+      "An archgriffin is terrorising the highlands north of Crow's Perch. This contract comes up during Master Armorers and gets you the acid gland Fergus needs.",
+    aiTip:
+      "It's a level 24–26 archgriffin, much tougher than the White Orchard griffin. Use Draconid Oil and a crossbow to ground it, and remember to loot its acid gland for Master Armorers.",
+    walkthrough: [
+      "Hand the high-quality smithing tools to Fergus during Master Armorers.",
+      "Take the griffin contract at Crow's Perch.",
+      "Head north to the highlands near Heatherton.",
+      "Use Witcher Senses on the corpse and follow the blood trail to the nest.",
+      "Kill the archgriffin, loot the acid gland and trophy, and return to the quartermaster."
+    ],
+    video: "https://www.youtube.com/watch?v=j5AmtEnGCEo"
+  },
+{
+    id: 2786,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Beast of Honorton",
+    location: "Honorton, between Claywich and the Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; leads into Where the Cat and Wolf Play",
+    summary:
+      "Ealdorman Sobemir of Honorton wants a 'spook' dealt with. The village is overrun by alghouls, and the trail ends at a far stranger monster, a cursed witcher.",
+    aiTip:
+      "Bring Necrophage Oil for the alghouls feeding in the village. This free DLC contract continues straight into Where the Cat and Wolf Play.",
+    walkthrough: [
+      "Read the notice in Oreton or Crow's Perch, or just approach Honorton.",
+      "Talk to the ealdorman about the spook.",
+      "Kill the alghouls feeding on a body near the huts.",
+      "Follow the clues to the true 'beast', which leads into Where the Cat and Wolf Play."
+    ],
+    video: "https://www.youtube.com/watch?v=redskq5vYqc"
+  },
+{
+    id: 2787,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: An Elusive Thief",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 182 crowns for killing the doppler or 91 for letting it go",
+    summary:
+      "Sylvester Amello wants an 'imp' caught for stealing from his household. The thief turns out to be a doppler, and catching it means fighting a perfect copy of Geralt.",
+    aiTip:
+      "Track it with Witcher Senses, and expect to fight a doppler disguised as Geralt. Sparing it pays half, but resolving it either way unlocks The Doppler Effect achievement.",
+    walkthrough: [
+      "Take the Contract: Imp notice and talk to Sylvester Amello.",
+      "Use Witcher Senses to track the thief through the city.",
+      "Corner the creature, which turns out to be a doppler.",
+      "Defeat the doppler in its Geralt form.",
+      "Kill it or let it go, then collect your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=yfoGRWFq0mA"
+  },
+{
+    id: 2788,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: The Apiarian Phantom",
+    location: "Honeyfill Meadworks, Novigrad outskirts",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Something is wrecking the halfling Honeyfill family's beehives and leaving them coated in frost. The 'phantom' is a Hound of the Wild Hunt.",
+    aiTip:
+      "The frost on the hives is the giveaway that this is no ordinary phantom. Igni is your best friend against a Hound of the Wild Hunt.",
+    walkthrough: [
+      "Take the contract and visit Honeyfill Meadworks.",
+      "Examine the frosted beehive, the dried blood and the footprints.",
+      "Follow the trail to the cellar door, which Franklin unlocks for you.",
+      "Kill the Hound of the Wild Hunt.",
+      "Return to the Honeyfills for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=VlivFMhA5y4"
+  },
+{
+    id: 2789,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: Doors Slamming Shut",
+    location: "Moldavie Residence, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Kurt Dysart's family mansion is shaking, creaking and slamming its doors on its own. Investigate the 'haunting' and find an earth elemental under the house.",
+    aiTip:
+      "Look for the breakable wall that leads to the secret cave. Bring Dimeritium bombs and Elementa Oil for the elemental.",
+    walkthrough: [
+      "Take the notice from Hierarch Square or Gildorf and talk to Kurt Dysart.",
+      "Investigate the Moldavie Residence.",
+      "Break through the wall to the hidden cave.",
+      "Deactivate the magic barrier.",
+      "Kill the earth elemental and report back."
+    ],
+    video: "https://www.youtube.com/watch?v=FJVUn1ZHc-k"
+  },
+{
+    id: 2790,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: Lord of the Wood",
+    location: "Forest near the Logger's Hut, Novigrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns and a leshen trophy",
+    summary:
+      "A band of dwarves was slaughtered in a forest near Novigrad, and their friend Brean Hotsch wants the killer found. The culprit is a leshen.",
+    aiTip:
+      "Find the leshen's totem with Witcher Senses and destroy it with Aard before the fight, otherwise it keeps coming back. Use Relict Oil and Igni.",
+    walkthrough: [
+      "Pick up the Contract: Devil in the Woods notice.",
+      "Talk to Brean Hotsch and the witnesses.",
+      "Find the site of the attack and follow the trail.",
+      "Locate and destroy the leshen's totem with Aard.",
+      "Kill the leshen and claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=uNOuiYGBFno"
+  },
+{
+    id: 2791,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Strange Beast",
+    location: "Larvik road, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Travellers on the Larvik road are being ambushed by something clever enough to set traps. The leader is a nekker warrior named Hagubman.",
+    aiTip:
+      "Hagubman keeps summoning nekkers, so kill him first. Northern Wind bombs are his biggest weakness.",
+    walkthrough: [
+      "Read the notice on the Larvik notice board.",
+      "Examine the bodies and the cart at the ambush site.",
+      "Follow the clues to the nekker nest.",
+      "Kill Hagubman and his nekkers."
+    ],
+    video: "https://www.youtube.com/watch?v=CGjRG-D3cOA"
+  },
+{
+    id: 2792,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Muire D'yaeblen",
+    location: "Kjerag Cliffs near Kaer Trolde, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Drowners have been seen behaving strangely near Kaer Trolde. Follow witness accounts to their cave and lure out the creature leading them.",
+    aiTip:
+      "Craft and drink the Drowner Pheromones potion to lure the Muire D'yaeblen out. Necrophage Oil helps, and igniting the toxic gas in the cave wipes out drowners in one go.",
+    walkthrough: [
+      "Take the notice in Kaer Trolde Harbor or talk to Bjorg.",
+      "Question the witnesses and investigate the sightings at the Kjerag Cliffs.",
+      "Follow the drowners' stench to their cave.",
+      "Drink the Drowner Pheromones potion and hide to lure out the monster.",
+      "Kill the Muire D'yaeblen."
+    ],
+    video: "https://www.youtube.com/watch?v=YAukYMBTqW0"
+  },
+{
+    id: 2793,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Here Comes the Groom",
+    location: "Svorlag, Spikeroog, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Nils vanished just before his wedding, and his fiancée Britt is desperate. The trail leads to caves and old ruins, and a siren.",
+    aiTip:
+      "Talk to Kevan first, then Britt, who points you to the right cave. Use Witcher Senses on every clue inside before moving on.",
+    walkthrough: [
+      "Read the notice about Nils' disappearance on the Svorlag board.",
+      "Talk to Kevan near the docks.",
+      "Talk to Britt, who sends you to a cave.",
+      "Examine the clues in the cave with Witcher Senses.",
+      "Follow the trail to the ruins and deal with the siren."
+    ],
+    video: "https://www.youtube.com/watch?v=7l6QL4I3yxA"
+  },
+{
+    id: 2794,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: In the Heart of the Woods",
+    location: "Fayrlund, Ard Skellig, Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns or the leshen's favour, depending on your choice",
+    summary:
+      "A woodland spirit has been killing the people of Fayrlund. Geralt finds it's an ancient leshen, and the village is split over whether to appease it or destroy it.",
+    aiTip:
+      "There are two endings. You can do Harald's ritual (five wolf hearts at the altar), or tell Sven, destroy the totems and fight the leshen. The Woodland Spirit trophy is missable.",
+    walkthrough: [
+      "Talk to the villagers in Fayrlund about the woodland spirit.",
+      "Follow the monster's trail with Witcher Senses and identify the ancient leshen.",
+      "For Harald's ritual, kill five wolves at the altar and place their hearts on it.",
+      "Or tell Sven instead, destroy the leshen's totems and kill the leshen and its wolves.",
+      "Return to the village to see the outcome."
+    ],
+    video: "https://www.youtube.com/watch?v=UFE47DVQ2JQ"
+  },
+{
+    id: 2795,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Missing Miners",
+    location: "Miners' camp and cave near Blandare, Skellige",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns from the elder, or 50 crowns and silver ore from the troll",
+    summary:
+      "Miners from Blandare have gone missing. Their trail leads to a cave and a rock troll named Wham-a-Wham, who would rather talk than fight.",
+    aiTip:
+      "Use Ogre Oil and keep your distance, because the troll hits very hard. After the short fight you can spare him for silver ore or kill him for his trophy.",
+    walkthrough: [
+      "Read the notice in Blandare or find a dead miner near the camp.",
+      "Talk to Gjarr, the village elder.",
+      "Use Witcher Senses at the Miners' Camp and follow the tracks to the cave.",
+      "Fight Wham-a-Wham at the back of the cave until he stops to talk.",
+      "Spare him for his reward or kill him for the trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=fJxZtGAM5X4"
+  },
+{
+    id: 2796,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Dragon",
+    location: "Fyresdal, Ard Skellig, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and a forktail trophy",
+    summary:
+      "Fyresdal's people swear a dragon is killing them. Geralt follows the blood trail and finds it's 'only' a forktail.",
+    aiTip:
+      "Get the sheep from Vagn and use Axii to lead it to the lair as bait. Draconid Oil and a crossbow keep the forktail grounded.",
+    walkthrough: [
+      "Take the notice in Fyresdal or talk to Vagn, the village elder.",
+      "Examine the victims' bodies with Witcher Senses.",
+      "Follow the blood trail to the monster's tracks.",
+      "Use Axii on Vagn's sheep and lead it near the lair as bait.",
+      "Kill the forktail and take its trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=UyUvL1rMyF4"
+  },
+{
+    id: 2797,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Missing Son",
+    location: "Rannvaig and the ruins near Boxholm, Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns, diagrams and a 300 oren treasure chest",
+    summary:
+      "Odhen of Rannvaig's son Olve has gone missing. The search leads to castle ruins and a fiend called Morvudd.",
+    aiTip:
+      "Samum bombs disable the fiend's third eye, which it uses to hypnotise you. Expect two fights and a spit attack that blinds you briefly.",
+    walkthrough: [
+      "Talk to Odhen of Rannvaig about his missing son.",
+      "Examine the castle ruins.",
+      "Fight Morvudd the fiend, using Samum against its third eye.",
+      "Find the fiend's lair and fight it again.",
+      "Collect the hidden diagrams and the treasure chest."
+    ],
+    video: "https://www.youtube.com/watch?v=HShQGwMk28o"
+  },
+{
     id: 636,
     type: "side",
     game: "Final Fantasy VII Rebirth",
