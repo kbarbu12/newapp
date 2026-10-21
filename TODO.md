@@ -71,6 +71,6 @@ walkthrough is duplicated in the data. Still open:
 - The Witcher 3's target is now 290 (about 207 base-game main/side/contract
   quests plus ~24 Hearts of Stone and ~58 Blood and Wine). Batch 1 added the 26
   missing base-game main quests; batch 2 the 19 missing base-game witcher
-  contracts; batch 3 19 White Orchard/Velen secondary quests (164/290). Next:
-  remaining base-game secondary quests (Novigrad, Skellige, Kaer Morhen), then
-  the expansions.
+  contracts; batch 3 19 White Orchard/Velen secondary quests; batch 4 15
+  Novigrad secondary quests (179/290). Next: Skellige and Kaer Morhen secondary
+  quests, then the expansions.
