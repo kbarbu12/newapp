@@ -8112,48 +8112,49 @@ const quests = [
   },
 {
     id: 376,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "The Beast of Toussaint",
-    location: "Toussaint",
-    length: "medium",
+    location: "Cockatrice Inn riverbank, Corvo Bianco, the Tourney Grounds and the palace gardens, Toussaint",
+    length: "long",
     difficulty: "Medium",
-    reward: "Blood and Wine main arc start",
+    reward: "XP; Proofs of Compassion and Wisdom for There Can Be Only One",
     summary:
-      "A monstrous killer stalks the fairy-tale duchy of Toussaint; Geralt is summoned to hunt it.",
+      "Milton and Palmerin bring Geralt to Toussaint to hunt the Beast that has been killing knights. The trail runs from the riverbank to a bruxa in a vineyard cellar, then to a palace riddle that points to the greenhouse.",
     aiTip:
-      "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
+      "Spare the shaelmaar and answer the riddle with \"the greenhouse\" to earn two of the proofs for There Can Be Only One. Moon Dust cancels the bruxa's invisibility.",
     walkthrough: [
-      "Reach Toussaint and take the investigation into the vineyard killings.",
-      "Examine the victims and territory with Witcher Senses to follow the beast.",
-      "Uncover that the attacks stem from a bruxa/higher vampire's curse.",
-      "Apply Vampire Oil and ready Black Blood and Moon Dust for the fight.",
-      "Defeat the creature, dispelling its invisibility with Yrden.",
-      "Resolve the contract and claim the reward."
+      "Follow Milton to the riverbank by the Cockatrice Inn and track the trail with Witcher Senses; kill the scurvers.",
+      "Dive and search the fishing net for a handkerchief monogrammed 'd.l.C.' and give it to Milton.",
+      "Question the inn, then follow the lead to the Corvo Bianco cellar and kill the bruxa.",
+      "Meet Palmerin at the Tourney Grounds and help Guillaume against the shaelmaar; choose to spare or slay it.",
+      "Collect the unicorn horn and the golden fish while the duchess takes the phoenix egg, then solve the riddle (the greenhouse).",
+      "Reach the greenhouse, where the Beast escapes; Blood Run begins."
     ],
     video: "https://www.youtube.com/watch?v=84DPLlp7Kds"
   },
 {
     id: 377,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "La Cage au Fou",
-    location: "Toussaint",
+    location: "Mère-Lachaiselongue Cemetery and the Trastamara Estate Ruins, Toussaint",
     length: "medium",
     difficulty: "Medium",
-    reward: "Bruxa mystery, Blood and Wine progress",
+    reward: "XP; the Casus Foederis sword (hidden in the crypt)",
     summary:
-      "Investigate a grisly killing tied to the elusive vampire threat haunting Beauclair.",
+      "Regis is holed up in a crypt under Mère-Lachaiselongue Cemetery. To help him track Dettlaff he needs the saliva gland of a spotted wight, which lives in the ruins of the Trastamara estate.",
     aiTip:
-      "Vampire Oil and Black Blood are essential against the higher vampires.",
+      "At the wight's table, choose to eat without a spoon to lift her curse instead of killing her. Use the Eye of Nehaleni in the crypt to reveal the illusion wall hiding Casus Foederis.",
     walkthrough: [
-      "Take the contract at the Toussaint arena and speak with the organizer.",
-      "Investigate the beast rampaging in the cage with Witcher Senses.",
-      "Prepare the matching oil and defensive signs.",
-      "Fight the creature in the arena, exploiting its weakness.",
-      "Slay it and collect the prize."
+      "Go to Mère-Lachaiselongue Cemetery; the crypt door is locked, so vault into the open tomb nearby.",
+      "Fight through the kikimores in the tunnels and burn their eggs with Igni.",
+      "Use Aard on the stone wall to reach Regis and hear his plan.",
+      "Ride to the Trastamara Estate Ruins, watching for the barghest in the fields, and find the wight's lair.",
+      "Look into the cauldron, hide in the wardrobe and either fight the wight or lift her curse at the table.",
+      "Take the saliva gland back to Regis; the hunt continues in Tesham Mutna."
     ],
     video: "https://www.youtube.com/watch?v=lBzNaXax18E"
   },
@@ -8186,20 +8187,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Wine Wars: Consorting",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Low",
-    reward: "Vineyard reward, coin",
+    location: "Coronata and Vermentino vineyards, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 200 XP and 1,050 crowns; leads to Wine Wars: Belgaard",
     summary:
-      "If you finish The Deus in the Machina before Vermentino and Coronata, the two vineyards' troubles merge into one quest: help rival heirs Liam and Matilda clear their estates of monsters and sabotage.",
+      "If you finish The Deus in the Machina before turning in Coronata or Vermentino, the two quests merge. Liam de Coronata and Matilda Vermentino agree to take Belgaard jointly once the troubles on both estates are cleared.",
     aiTip:
-      "Save before talking to the vineyard owners — finishing both estates' tasks under Consorting is what lets Liam and Matilda take Belgaard together.",
+      "Don't finish all five tasks of either Coronata or Vermentino before Deus in the Machina, or only one family gets Belgaard. Burn the archespores with Igni.",
     walkthrough: [
-      "Turn in Wine Wars: The Deus in the Machina while Vermentino and Coronata are still open — they merge into Consorting.",
-      "Meet Liam of Vermentino and Matilda of Coronata, heirs of the feuding vineyards.",
-      "Clear the monsters plaguing both estates' vineyards.",
-      "Follow the sabotage trail to its source and destroy what is poisoning the vines.",
-      "Report back to both families, then continue to Wine Wars: Belgaard."
+      "Complete Wine Wars: The Deus in the Machina while Coronata and Vermentino are still open; they merge into Consorting.",
+      "Finish the remaining tasks on both estates, including the archespores and the rock trolls.",
+      "Clear the bandits underground and rescue the herbalist.",
+      "Report to Liam and Matilda together.",
+      "Continue to Wine Wars: Belgaard."
     ],
     video: "https://www.youtube.com/watch?v=EqLq7n0xcQU"
   },
@@ -8207,22 +8208,22 @@ const quests = [
     id: 380,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Velen",
+    region: "Novigrad",
     title: "Contract: The Creature from the Oxenfurt Forest",
-    location: "Velen",
+    location: "Oxenfurt notice board and the forest east of Oxenfurt",
     length: "short",
-    difficulty: "Medium",
-    reward: "Coin, fiend trophy",
+    difficulty: "High",
+    reward: "About 300 XP and crowns; Griffin trophy, Zireael armor, archgriffin mutagen",
     summary:
-      "A fiend terrorizes travelers in the woods near Oxenfurt (Hearts of Stone).",
+      "Hans of Cidaris posts a notice about a beast in the forest near Oxenfurt that took two of his men. It is an archgriffin named Opinicus.",
     aiTip:
-      "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
+      "Fight it at night when it is in the nest, and carry Grapeshot and Hybrid Oil. A letter at the nest shows Hans was already paid to kill it, which opens a better payout.",
     walkthrough: [
-      "Take the contract and question the Oxenfurt-forest locals about the attacks.",
-      "Track the creature with Witcher Senses to its forest lair.",
-      "Identify its class, apply the matching oil, and ready Quen and Igni.",
-      "Fight the beast, dodging its lunges and exploiting its weakness.",
-      "Kill it, take the trophy, and claim the fee."
+      "Take the notice from the Oxenfurt board and meet Hans of Cidaris at his camp.",
+      "Haggle for the fee, then search where his men were taken with Witcher Senses.",
+      "Follow the blood and raven trail to the nest.",
+      "Kill Opinicus, ideally at night.",
+      "Read the letter on the body at the nest and return to Hans for your pay."
     ],
     video: "https://www.youtube.com/watch?v=C0qznYEqSnQ"
   },
@@ -8232,20 +8233,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Turn and Face the Strange",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Low",
-    reward: "Manor renovation, coin",
+    location: "Orlémurs Cemetery and the sunken ruins of Dol Naev'de, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; unlocks the Mutations system",
     summary:
-      "Settle into Corvo Bianco vineyard and set its restoration in motion.",
+      "A messenger brings word about the late Professor Moreau. His grave has been robbed, and the trail leads to his hidden mutagenic laboratory in the flooded elven ruins of Dol Naev'de.",
     aiTip:
-      "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
+      "Strip off all gear before entering Moreau's machine. In the portal room, follow the direction the statues face, since a wrong portal sends you back to the start.",
     walkthrough: [
-      "Begin the odd Toussaint quest and speak with the eccentric quest-giver.",
-      "Follow the strange clues with Witcher Senses.",
-      "Complete the unusual tasks it sets in order.",
-      "Resolve the twist at the end.",
-      "Report back for the reward."
+      "Get the note from the messenger in Beauclair after Blood Run.",
+      "Find Moreau's half-opened grave at Orlémurs Cemetery and follow the footprints with Witcher Senses.",
+      "Use the old map to locate the lab in the ruins of Dol Naev'de.",
+      "Shoot the four stone buttons with the crossbow, defeat the gargoyle and solve the portal puzzle.",
+      "Fetch giant centipede albumen from the nearby cave and place it in the machine.",
+      "Remove your gear, enter the machine and unlock Mutations."
     ],
     video: "https://www.youtube.com/watch?v=kF4tIqf6MLU"
   },
@@ -8255,20 +8257,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Big Game Hunter",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Coin, kikimore trophy",
+    location: "Chuchote Cave camp and the hunting grounds, Toussaint",
+    length: "medium",
+    difficulty: "Low",
+    reward: "About 200 XP and 200 crowns; The White Wolf painting",
     summary:
-      "Hunt a monstrous kikimore queen threatening Toussaint's countryside.",
+      "Count Beledal doesn't want monsters killed. He wants pictures of Toussaint's wildlife, and he hires Geralt to escort him while he records panthers, centipedes and peacocks.",
     aiTip:
-      "Insectoid Oil and dodge the burrow-and-lunge pattern.",
+      "Harm nothing except the centipedes. Calm the trapped panther with Axii so it escapes with its cub, then visit Francollarts at noon the next day for the painting.",
     walkthrough: [
-      "Take the big-game hunt contract in Toussaint.",
-      "Track the large beast across the countryside with Witcher Senses.",
-      "Apply the oil matching its class and prepare Quen.",
-      "Bring the beast down, dodging its charges.",
-      "Claim the trophy and reward."
+      "Take the 'Wanted: The White Wolf' notice and find Count Beledal at his camp near Chuchote Cave.",
+      "Use his map to find the panthers; free the snared mother with Axii and avoid the bear.",
+      "Find a vantage point, then destroy the nest to draw out the giant centipedes for him.",
+      "Use Axii on three peacocks so they show their tails.",
+      "Visit him at Francollarts at noon the next day for The White Wolf painting."
     ],
     video: "https://www.youtube.com/watch?v=MySJfM12CTA"
   },
@@ -12899,21 +12901,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Ladies of the Wood",
-    location: "Velen",
+    location: "Crookback Bog and Downwarren, Velen",
     length: "long",
-    difficulty: "High",
-    reward: "Crones' bargain, orphans' fate",
+    difficulty: "Medium",
+    reward: "About 200 XP; continues Family Matters",
     summary:
-      "Deal with the sinister Crones of Crookback Bog and the Ghost in the Whispering Hillock.",
+      "Keira Metz's book explains how to find the Crones of Crookback Bog. Following a trail of offerings to their hut, Geralt learns that Ciri escaped them, and that Gran is the Baron's missing wife, Anna.",
     aiTip:
-      "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
+      "The Crones' price is dealing with the spirit in the Whispering Hillock, and what you do there decides the Baron's ending. Learn the facts before you choose.",
     walkthrough: [
-      "Travel to the spirit-haunted wood and seek the Crones' help via the Ladies of the Wood.",
-      "Do the Crones' bidding — investigate the orphans and the whispering hillock.",
-      "Make the pivotal choice about the spirit under the tree.",
-      "Return to the Crones and survive the consequences.",
-      "Learn what they know of Ciri and escape Crookback Bog.",
-      "Advance toward Novigrad or Skellige on Ciri's trail."
+      "Read 'The Ladies of the Wood' from Keira and find the shrine on the north edge of Crookback Bog.",
+      "Follow the trail of offerings to the orphanage and talk to the children.",
+      "Track Johnny through the bog and coax him out of his burrow.",
+      "Search the raven nest in Downwarren and give Johnny the bottle so he can speak.",
+      "Meet the Crones, learn Ciri's fate and that Gran is Anna, then accept their price at the Whispering Hillock."
     ],
     video: "https://www.youtube.com/watch?v=c7SaJZIbbFk"
   },
@@ -12965,52 +12966,49 @@ const quests = [
   },
 {
     id: 597,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Favor for Radovid",
-    location: "Novigrad",
+    location: "HMS Oxenfurt-Tretogor, Oxenfurt harbor",
     length: "short",
-    difficulty: "Medium",
-    reward: "Radovid's aid, Dijkstra path",
+    difficulty: "Low",
+    reward: "Small XP; starts Redania's Most Wanted",
     summary:
-      "The mad king Radovid offers help finding Dandelion's associates — for a price.",
+      "After Get Junior, Redanian soldiers escort Geralt to King Radovid's ship in Oxenfurt harbor. Radovid orders him to find the sorceress Philippa Eilhart.",
     aiTip:
-      "Radovid is dangerous; his questline steers Novigrad's political ending.",
+      "Whatever you tell Radovid, the quest ends after the meeting and hands you Redania's Most Wanted.",
     walkthrough: [
-      "Meet Radovid's agent and agree to the king's favor.",
-      "Travel to the marked location and carry out the covert task.",
-      "Deal with the complications that arise.",
-      "Complete the favor and return.",
-      "Advance the Novigrad political thread."
+      "Finish Get Junior and leave Junior's hideout.",
+      "Let the Redanian soldiers take you to the HMS Oxenfurt-Tretogor.",
+      "Talk to Radovid and hear his order to find Philippa Eilhart.",
+      "Answer him; the quest ends and Redania's Most Wanted begins."
     ],
     video: "https://www.youtube.com/watch?v=W3xfqhGxbLs"
   },
 {
     id: 598,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "The Gangs of Novigrad",
-    missable: true,
-    missableWindow: "Before Act 3 (Isle of Mists)",
-    location: "Novigrad",
-    length: "long",
-    difficulty: "High",
-    reward: "Dijkstra alliance, coup groundwork",
+    location: "Hierarch Square, Junior's casino and arena, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Cleaver's men help clear Junior's casino and arena",
     summary:
-      "Broker between Dijkstra, Roche, and the city's gangs to plot against Radovid.",
+      "During Get Junior, Carlo \"Cleaver\" Varese offers his men to help Geralt hit Whoreson Junior's casino and arena.",
     aiTip:
-      "Sets up the Novigrad power struggle — choices here decide who rules the North.",
+      "Turn it in to Cleaver before you meet Roche's contact in Get Junior, or it fails. Freeing Rico at the casino also starts Honor Among Thieves.",
     walkthrough: [
-      "Ally with Dijkstra, Roche, and the underworld to move against the witch hunters.",
-      "Carry out the coordinated hits/heists across Novigrad.",
-      "Fight through the enemy strongholds.",
-      "Secure the objective that breaks the hunters' grip.",
-      "Regroup with your allies to set up the next phase.",
-      "Complete the operation to advance the main story."
+      "After meeting the Big Four, find Cleaver at Hierarch Square.",
+      "Agree to let his men help against Junior's operations.",
+      "Raid the casino and arena alongside Cleaver's crew.",
+      "Return to Cleaver before going on to Roche's contact."
     ],
-    video: "https://www.youtube.com/watch?v=OB97gasJWSk"
+    video: "https://www.youtube.com/watch?v=OB97gasJWSk",
+    missable: true,
+    missableWindow: "During Get Junior, before meeting Roche's contact"
   },
 {
     id: 599,
@@ -13018,20 +13016,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Destination: Skellige",
-    location: "Skellige",
+    location: "Novigrad harbor, the sea crossing and Kaer Trolde harbor, Ard Skellig",
     length: "short",
     difficulty: "Medium",
-    reward: "Skellige reached, Ciri's trail",
+    reward: "Opens Skellige; reunion with Yennefer",
     summary:
-      "Sail to the storm-lashed isles of Skellige to continue the hunt for Ciri.",
+      "No captain wants to brave the pirate waters except Wolverstone, who charges 1,000 crowns. Pirates attack, the ship hits an iceberg, and Geralt washes up on Skellige in time for King Bran's funeral.",
     aiTip:
-      "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
+      "The 1,000 crowns aren't lost. Wolverstone's body by the wreck still has them, along with several treasure chests.",
     walkthrough: [
-      "Meet Yennefer aboard ship and set sail for Skellige.",
-      "Survive the storm and shipwreck as the Wild Hunt attacks.",
-      "Fight ashore through the drowners on the beach.",
-      "Regroup and reach Kaer Trolde to reunite with Yennefer.",
-      "Begin the search for Ciri's trail in Skellige."
+      "Ask the captains at Novigrad harbor and find Captain Wolverstone at the Golden Sturgeon.",
+      "Pay the 1,000-crown fare and set sail.",
+      "Fight off the pirates until the ship strikes an iceberg.",
+      "Wake on the shore and deal with Steingrim.",
+      "Reach Kaer Trolde harbor during King Bran's funeral and meet Yennefer on the pier."
     ],
     video: "https://www.youtube.com/watch?v=BG9tChk1z2Y"
   },
@@ -13041,20 +13039,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The King is Dead — Long Live the King",
-    location: "Skellige",
+    location: "Kaer Trolde and Ermion's workshop, Ard Skellig",
     length: "long",
-    difficulty: "High",
-    reward: "Cerys/Hjalmar succession, Ciri clue",
+    difficulty: "Medium",
+    reward: "XP; Skellige formal clothes; continues to Nameless",
     summary:
-      "A royal wedding turns to bloodshed as Skellige's succession crisis explodes.",
+      "At King Bran's wake in Kaer Trolde, Geralt meets the contenders for the throne. Afterwards he helps Yennefer investigate the magic that drew her to Skellige, which leads into Ermion's workshop.",
     aiTip:
-      "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
+      "Wear the formal outfit Yennefer gives you. At the statue puzzle, the mead cup is the right offering, but a wrong pick carries no penalty.",
     walkthrough: [
-      "Attend King Bran's funeral feast at Kaer Trolde with Yennefer.",
-      "Navigate the succession politics among the clans.",
-      "When the Wild Hunt attacks the feast, fight your way through the hall.",
-      "Battle the Hunt's warriors and the hound on the docks.",
-      "Escape with Yennefer and pursue the next lead on Ciri."
+      "Change into the Skellige formal clothes Yennefer gives you.",
+      "Attend the wake: meet Cerys, Hjalmar and Svanrige, and help Hjalmar against the bear if you like.",
+      "Pull Hjalmar's axe from the stump.",
+      "Go with Yennefer to Ermion's workshop and kill the earth elemental.",
+      "Escape the trapped doorway and its hallucinated beasts, then place the mead cup in the statue's hand."
     ],
     video: "https://www.youtube.com/watch?v=t7vE6XjCAnE"
   },
@@ -13660,22 +13658,22 @@ const quests = [
     id: 629,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Velen",
+    region: "Novigrad",
     title: "Contract: The Oxenfurt Drunk",
-    location: "Velen (Hearts of Stone)",
+    location: "Oxenfurt notice board and the katakan's lair",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, monster trophy",
+    reward: "About 300 XP and 204-273 crowns; Katakan trophy, the Deargdeith sword",
     summary:
-      "A 'drunk' terrorizing Oxenfurt's outskirts turns out to be something far worse.",
+      "A Redanian officer, Nikolas Friedman, wants the killer stalking drunks in Oxenfurt stopped. The 'drunk' is Gael, a katakan who feeds only on blood laced with alcohol.",
     aiTip:
-      "Investigate the attacks first — the true culprit isn't the obvious one.",
+      "Get drunk at the tavern to bait Gael. Haggle with Friedman to push the pay toward 273 crowns.",
     walkthrough: [
-      "Take the Hearts of Stone contract on the Oxenfurt attacks.",
-      "Question the drunk and witnesses, then follow the trail with Witcher Senses.",
-      "Identify the monster's class and apply the matching oil, readying Quen.",
-      "Fight the creature, dodging its attacks and exploiting its weakness.",
-      "Slay it, take the trophy, and claim the fee."
+      "Take the notice in Oxenfurt and talk to Nikolas Friedman.",
+      "Talk to the witness and examine the attack site with Witcher Senses.",
+      "Drink with the innkeep to make yourself bait.",
+      "Track Gael to his hideout and kill him.",
+      "Loot the Deargdeith sword and the lair key, then collect your pay from Friedman."
     ],
     video: "https://www.youtube.com/watch?v=6ayCa5PPkmM"
   },
