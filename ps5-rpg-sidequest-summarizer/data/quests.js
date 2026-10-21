@@ -8167,24 +8167,24 @@ const quests = [
     id: 378,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Toussaint",
+    region: "Velen",
     title: "Where the Cat and Wolf Play",
-    location: "Toussaint",
+    location: "Honorton, Velen",
     length: "medium",
-    difficulty: "Medium",
-    reward: "Village tragedy, moral choice",
+    difficulty: "High",
+    reward: "200 XP; sparing Gaetan unlocks Take What You Want (Teigr sword and crowns)",
     summary:
-      "A witcher of the Cat School has slaughtered a village; Geralt uncovers the grim full story.",
+      "Straight after The Beast of Honorton, Geralt tracks the Cat School witcher Gaetan, who massacred Honorton after the villagers tried to kill him over his fee. Only a girl named Millie was spared.",
     aiTip:
-      "There's a lone survivor — how you handle her is the quest's real weight.",
+      "Sparing Gaetan avoids the fight and still gets you Teigr and his stash. If you fight, don't let him drink a potion first, or he opens with a blinding bomb.",
     walkthrough: [
-      "Begin the Cat School gear treasure hunt in Toussaint.",
-      "Follow the map/clues to the ruined tower with Witcher Senses.",
-      "Clear the guardians and solve the tower's approach.",
-      "Recover the diagrams and uncover the tragic story of the cat witchers.",
-      "Return to craft or claim the gear and finish the hunt."
+      "Finish Contract: The Beast of Honorton.",
+      "Follow Gaetan's trail with Witcher Senses.",
+      "Find Gaetan and hear his side of the massacre.",
+      "Decide whether to spare him or fight him.",
+      "Spare him to unlock Take What You Want, or loot Teigr from his body."
     ],
-    video: "https://www.youtube.com/watch?v=Kky_t6C68kI"
+    video: "https://www.youtube.com/watch?v=hLzRLwC0SPY"
   },
 {
     id: 379,
@@ -14745,15 +14745,15 @@ const quests = [
     difficulty: "Medium",
     reward: "Crowns and XP",
     summary:
-      "Byways has been abandoned and a soldier swears a monster is to blame, but the villagers insist there isn't one. The truth lies in the elven ruins they were digging up under the village.",
+      "Byways has been abandoned and a soldier swears a monster is to blame, but the villagers insist there isn't one. Their digging woke Sarasti, an ancient ekimmara sleeping in the elven ruins under the village.",
     aiTip:
-      "Clear the ghouls in the village first. Then use Witcher Senses on the bodies and follow the scent to the hut where the villagers confess what they woke underground.",
+      "Clear the ghouls first, then follow the scent from the bodies to the hut. Sarasti can turn invisible, so bring Vampire Oil, Igni and Devil's Puffball bombs.",
     walkthrough: [
       "Pick up the contract and travel to Byways.",
       "Kill the ghouls overrunning the village.",
       "Examine the corpses with Witcher Senses and follow the scent to a hut.",
-      "Hear the villagers admit they disturbed something in the elven ruins below.",
-      "Go down into the ruins and kill the beast."
+      "Hear the villagers admit they dug into the elven ruins below.",
+      "Go down into the ruins and kill Sarasti, the ekimmara."
     ],
     video: "https://www.youtube.com/watch?v=s3jHYP1qEd4"
   },
@@ -16725,9 +16725,9 @@ const quests = [
     difficulty: "High",
     reward: "Crowns and XP",
     summary:
-      "A woman west of the Nilfgaardian Embassy needs a witcher. The hunt ends in a cave with an ancient relict.",
+      "A woman west of the Nilfgaardian Embassy needs a witcher. The hunt ends at a cave at the foot of Mount Gorgon, home of Grottore, a spriggan.",
     aiTip:
-      "Use Witcher Senses to find the monster, then set the plants on fire to lure it out. Relict Oil, Dimeritium bombs and Igni all work well against it.",
+      "Grottore is a spriggan, a leshen-like relict. Find it with Witcher Senses, set the plants on fire to lure it out, and use Relict Oil, Dimeritium bombs and Igni.",
     walkthrough: [
       "Talk to the woman west of the Nilfgaardian Embassy signpost.",
       "Investigate with Witcher Senses.",
@@ -16748,9 +16748,9 @@ const quests = [
     difficulty: "Medium",
     reward: "Crowns and XP",
     summary:
-      "A cow and a worker have been killed at a quarry. Clear the ghouls, work out what really happened and follow the blood trail to the killer.",
+      "A cow and a worker have been killed at a quarry. Clear the ghouls, work out what really happened and follow the blood trail to the slyzards behind it.",
     aiTip:
-      "Examine both the cow and the worker to unlock the final 'cause of the accident' clue. Fight up close with Quen up.",
+      "Examine both the cow and the worker to unlock the final 'cause of the accident' clue. The killers are slyzards, so use Draconid Oil, stay close and keep Quen up.",
     walkthrough: [
       "Take the contract and go to the quarry site.",
       "Clear the ghouls and alghouls.",
@@ -16759,6 +16759,208 @@ const quests = [
       "Kill the monster and report back."
     ],
     video: "https://www.youtube.com/watch?v=px8GECmvwi0"
+  },
+{
+    id: 2873,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Master Armorers",
+    location: "Crow's Perch, Velen, with the tools on Undvik, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Mastercrafted armour unlocked with Yoana",
+    summary:
+      "Journeyman armorer Fergus Graem at Crow's Perch says Yoana could make mastercrafted armour, if Geralt brings her the high-quality tools from a forge on Undvik and an archgriffin's acid gland.",
+    aiTip:
+      "You'll likely find the Undvik forge during The Lord of Undvik, where the chest is guarded by a troll. The acid gland comes from Contract: The Griffin from the Highlands. Agree to Yoana's armour test, or she leaves and the quest fails.",
+    walkthrough: [
+      "Talk to Fergus Graem by the Crow's Perch notice board (or the armorers in Novigrad or Kaer Trolde).",
+      "Find the forge in the Clan Tordarroch area of Undvik and take the high-quality smithing tools from the chest.",
+      "Bring the tools back to Crow's Perch.",
+      "Complete Contract: The Griffin from the Highlands and loot the archgriffin's acid gland.",
+      "Give Yoana the gland, agree to her test, and return a day later for the armour."
+    ],
+    video: "https://www.youtube.com/watch?v=p9feVyNum6w"
+  },
+{
+    id: 2874,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Take What You Want",
+    location: "Stash north of Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns, a letter and the Teigr steel sword",
+    summary:
+      "If you spared the Cat witcher Gaetan in Where the Cat and Wolf Play, he tells Geralt where he hid his stash and to take whatever he wants.",
+    aiTip:
+      "Three bandits are camped at the entrance, so clear them first. The quest can't fail.",
+    walkthrough: [
+      "Spare Gaetan at the end of Where the Cat and Wolf Play.",
+      "Go to the hiding place north of Keira Metz's hut.",
+      "Kill the three bandits at the entrance.",
+      "Climb down into the hole and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=KKnb_apxDNs"
+  },
+{
+    id: 2875,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Following the Thread",
+    location: "The Bits, Novigrad, then Trottheim on Faroe, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Crowns, an ekimmara hide and XP",
+    summary:
+      "A contract on a monster in the Bits brings Geralt together with Lambert, who's hunting the same ekimmara, and with a bloody grudge of his own to settle in Skellige.",
+    aiTip:
+      "Do Flesh for Sale before you talk to Lambert at the Seven Cats Inn, because that conversation locks it out. The whole quest fails if you start Ugly Baby before finishing it.",
+    walkthrough: [
+      "Take Contract: Monster in the Bits from the Hierarch Square board and talk to the supervisor.",
+      "Examine the crime scene and follow the claw marks across the river.",
+      "Help Lambert kill the ekimmara, then confront the supervisor and his three guards.",
+      "Meet Lambert at the Seven Cats Inn.",
+      "Sail to Trottheim on Faroe, kill Hammond at his shrine, then meet Lambert at the Nowhere Inn."
+    ],
+    video: "https://www.youtube.com/watch?v=Uc5-sLV9lwI"
+  },
+{
+    id: 2876,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Witch Hunter Raids",
+    location: "Farcorners, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Witch hunters raid a Farcorners house looking for magic users. Step in to save Remi Villeroy before they drag him off.",
+    aiTip:
+      "This unmarked quest opens after Pyres of Novigrad and disappears once Now or Never is done. If you don't intervene, Remi is taken and killed.",
+    walkthrough: [
+      "Finish Pyres of Novigrad.",
+      "Find the witch hunters at the house in Farcorners.",
+      "Follow them inside.",
+      "Kill the witch hunters to save Remi Villeroy."
+    ],
+    video: "https://www.youtube.com/watch?v=bNjz4boFMMI"
+  },
+{
+    id: 2877,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Little Red",
+    location: "Western edge of Yantra, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25 XP for sparing her or 50 for killing her",
+    summary:
+      "The villagers of Yantra fear Little Red's bandits will attack at dusk over Bertram's betrayal. Meet her and decide whether to hand Bertram over or defend the village.",
+    aiTip:
+      "Meditate to the evening for her band to show up. Fighting means a werewolf and six bandits, so thin out the bandits first.",
+    walkthrough: [
+      "Talk to the villagers on the western edge of Yantra.",
+      "Wait until evening for Little Red's band to arrive.",
+      "Meet Little Red on the west side of town.",
+      "Let her take Bertram, or fight her werewolf and bandits."
+    ],
+    video: "https://www.youtube.com/watch?v=AC0h5IJMhU4"
+  },
+{
+    id: 2878,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Hard Times",
+    location: "Road between Blandare and the Miners' Camp, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the Kaer Trolde blacksmith stays a trading partner",
+    summary:
+      "A cyclops is guarding an overturned wagon on the road near Blandare. Kill it, then follow the trail to learn what happened to the wagon's owner.",
+    aiTip:
+      "Use Ogroid Oil and Quen against the cyclops. Telling the Kaer Trolde blacksmith the truth keeps him as a trader. The quest can't fail.",
+    walkthrough: [
+      "Kill the cyclops by the overturned wagon.",
+      "Examine the blood pools by the wagon and horse with Witcher Senses.",
+      "Follow the footprints across the road, past the nekkers.",
+      "Take the Letter to Yanne from the body.",
+      "Deliver it to the blacksmith at Kaer Trolde."
+    ],
+    video: "https://www.youtube.com/watch?v=NJIKPUmHaI4"
+  },
+{
+    id: 2879,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Free Spirit",
+    location: "Southern shore of Snidhall Isle, Skellige",
+    length: "medium",
+    difficulty: "Low",
+    reward: "50 XP",
+    summary:
+      "Geralt saves Ivar from an attacking warrior on Snidhall Isle. Ivar wants five books from the mainland to prove a priestess of Freya can leave her vows.",
+    aiTip:
+      "Kill the attacker fast, because if Ivar dies the quest never starts. The books cost 10 crowns each: Religion and Life (Crow's Perch), The Cult of Freya (Electors' Square), The Curious Cases of Virtuous Vegga (Gildorf), Change Your Life! A Handbook (The Bits) and Tristianna and Isador (Lindenvale).",
+    walkthrough: [
+      "Sail to the southern shore of Snidhall Isle and save Ivar from the warrior.",
+      "Agree to find the five books he needs.",
+      "Buy each book from its merchant in Velen and Novigrad.",
+      "Return to Snidhall Isle and find Ivar at his new spot.",
+      "Hand over the books, one at a time if he won't take them all."
+    ],
+    video: "https://www.youtube.com/watch?v=Il0-xX4oNXI"
+  },
+{
+    id: 2880,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Room",
+    location: "Guest room in the main keep, Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "During the Bloody Baron's story, Geralt searches the room Ciri stayed in at Crow's Perch for clues about where she went.",
+    aiTip:
+      "Check the spinning top by the bed, the clothes on the floor and the book The Natural Obscurity of Curses. It fails if you leave it until The Isle of Mists.",
+    walkthrough: [
+      "Talk to the Baron at Crow's Perch to get the quest.",
+      "Go to the guest room on the ground floor of the keep.",
+      "Use Witcher Senses on the spinning top, Ciri's clothes and the book.",
+      "Talk to Gretka in the kitchen across the hall."
+    ],
+    video: "https://www.youtube.com/watch?v=pEO1JWecTbc"
+  },
+{
+    id: 2881,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Avid Collector",
+    location: "Borsodi auction house, Oxenfurt, and Hodgson's shop, Novigrad (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and a conserved shaelmaar trophy",
+    summary:
+      "At the Borsodi auction, art buff Yaromir tests Geralt's eye. Pass, and he tips you off about a van Rogh painting that bookseller Marcus Hodgson will pay well for.",
+    aiTip:
+      "Pick Edward van der Knoob's portrait of the merchant with the pearl, since any other answer ends it. Keep Yaromir's tip from Vimme and the painting costs 20 crowns instead of 60.",
+    walkthrough: [
+      "During Open Sesame!, say you know about art when Vimme introduces Yaromir.",
+      "Pick the portrait of the merchant with the pearl.",
+      "Keep the tip to yourself and buy the van Rogh painting at the auction.",
+      "Take it to Marcus Hodgson's shop in Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=FSw_UQ9ujJQ"
   },
 {
     id: 636,
