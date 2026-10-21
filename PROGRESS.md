@@ -1,11 +1,75 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-21
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
+
+## 2026-10-21 — quest data release (v2.7.0)
+- QA'd the quest data work from a parallel session (PRs #307–#330) on
+  staging:
+  - Audit clean.
+  - Every new or edited entry has all fields, valid values, and a real video
+    or walkthrough; no tip is copy-pasted.
+  - All 155 new quests open in the app with every key field, 0 page errors.
+- Shipped as v2.7.0 (changelog PR #331, promotion PR #334):
+  - 155 new quests: 129 AC Valhalla World Events; Hogwarts +9, Witcher 3 +6,
+    Cyberpunk +3, Ghost of Tsushima +7, Wukong +1.
+  - 279 templated tips and summaries rewritten (AC Odyssey, TotK, Cyberpunk,
+    Jedi: Survivor, Pillars, Deadfire).
+  - Prod build QA'd: all 155 new quests render, 0 errors.
+- Staging moved twice during the release (#330, then #332). Each time the
+  promotion paused for QA and the owner's call. #334 promoted a fixed snapshot
+  of staging, so the untested Witcher 3 batch stayed out; #333, which tracked
+  the moving branch, was closed.
+- Since then the parallel session has merged more Witcher 3 work to staging
+  (#332, #335–#344): about 129 new quests (229 / 290) and 36 corrected
+  original entries. Not QA'd or promoted yet.
+
+## 2026-10-20 — full app QA, fixes (v2.5.0), Home and News live (v2.6.0)
+- Full QA of the redesign and quest data, written up in
+  `docs/qa-session-2026-10-20.md` (PR #274). It found 4 high, 9 medium,
+  12 low, 3 latent (Home/News) and 6 data issues.
+- Owner decisions:
+  - A game can be marked finished only at 50% done.
+  - Reminders are parked until there's a server.
+  - Quest data work comes after the app fixes.
+- Fixes, one PR each (#275–#305), shipped as **v2.5.0**:
+  - Every high and low issue and 8 of the 9 medium; only M8 reminders is
+    parked.
+  - Library: infinite scroll after clearing a search, bad shared links,
+    Default difficulty, Optional filter, multi-tab sync.
+  - Quest window and navigation: keyboard access, the dialog stays open when
+    its card leaves the list, full-screen on phones, Back/Forward and reload.
+  - Video and chat: playlist-only videos embed; chat recognises God of War
+    and keeps filters, and fits 320px phones.
+  - Data: 31 TotK shrine quests and Valhalla's Order quest re-typed.
+  - Build: lazy-loaded quest details (first-load JS 672 → 349 kB gzipped),
+    real app icons, bundled covers, 13 unused dependencies removed, Vite
+    6.4.4 (`npm audit` 0 vulnerabilities). News items now come from
+    `CHANGELOG.md`.
+- **v2.6.0:** Home and News tabs turned on (PR #310). Legacy `?game=` / `?q=`
+  links still open the Library with their filters.
+- Added a next-session reminder for the quest data work (PR #317). The
+  parallel session did the work and removed the reminder (#329).
+
+### Next
+1. QA the Witcher 3 batches on staging (#332, #335–#344), then promote on the
+   owner's say-so.
+2. Witcher 3, the rest:
+   - Finish re-checking the original 100 entries (IDs 13–635); some describe
+     the wrong quest.
+   - Add the remaining Blood and Wine side quests and contracts (229 / 290).
+3. Replace the 2 allowlisted shared videos (#1320–1322, #725–726).
+4. Hogwarts Legacy: 1 short of its estimated 130.
+5. Fact-check the new data:
+   - Game facts and video contents weren't verifiable here; guide sites and
+     YouTube are blocked.
+   - The data was written from search snippets.
+6. Parked: M8 reminders (needs a server); live-site prod QA (github.io
+   blocked, see `TODO.md`).
 
 ## 2026-10-18 (2) — older-video title check started, review list refreshed (v2.4.15)
 - Round 2 of the video title check: the ~1,160 videos that were in the app
