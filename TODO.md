@@ -121,8 +121,13 @@ Prod is `v2.9.3`; `staging` and `main` match. In priority order:
      - Cyberpunk had 1 clear error out of 21.
      - TotK, Hogwarts Legacy, Ghost of Tsushima, Deadfire and Pillars of
        Eternity had none.
-   - **Next (fewer errors):** the 354 unchecked Witcher 3 (245) and AC
-     Valhalla (109) entries.
+   - **Witcher 3 full pass: DONE (2026-10-23).** All 245 remaining entries
+     were checked: 8 had a clear error and 21 a smaller problem, all fixed;
+     2 more got extra reward detail from the guides. Examples: the Bear
+     School first map is sold at Kaer Trolde (not Oxenfurt), the Ofieri
+     saddle adds stamina (not carry weight), Tinker, Hunter, Soldier, Spy is
+     a base-game quest, and the Aerondight virtue proofs were wrong.
+   - **Next (fewer errors):** the 109 unchecked AC Valhalla entries.
    - **Method:** check each entry's location, rewards and amounts, choices,
      requirements and tip against the guides. Fix anything wrong and hedge
      anything only one guide supports. Ship one PR per game.
