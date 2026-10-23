@@ -39,6 +39,14 @@ rule verify the *real* deployment:
 
 Until then, prod QA = `npm run build:prod` + local headless render.
 
+## Delete the duplicate `v2.9.0` release (agent can't; git proxy rejects ref deletion)
+The v2.8.0 deploy (PR #357, commit `215e9c4`) was tagged twice because GitHub
+delivered the push to `main` twice. `v2.8.0` is the real release; `v2.9.0` points
+at the same commit. Delete the `v2.9.0` release and its tag in the GitHub UI
+(Releases → v2.9.0 → Delete, then Tags → v2.9.0 → Delete), or the next prod
+deploy will be numbered from v2.9.0. `release.yml` now skips already-tagged
+commits so this can't recur.
+
 ## Delete merged branches (agent can't; git proxy rejects ref deletion)
 These are merged into `main` and safe to delete via the GitHub UI:
 - `claude/ps5-rpg-sidequest-summarizer-xaidg6` (PR #37 — Valhalla)

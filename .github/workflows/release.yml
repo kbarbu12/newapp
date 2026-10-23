@@ -59,7 +59,14 @@ jobs:
         id: guard
         run: |
           set -euo pipefail
-          if git rev-parse -q --verify "refs/tags/${{ steps.version.outputs.version }}" >/dev/null; then
+          # GitHub can deliver the same push twice; the second run would compute
+          # the *next* version and tag this commit again (v2.8.0 + v2.9.0 on one
+          # merge). Skip any commit that already carries a v* tag.
+          tagged="$(git tag --points-at HEAD -l 'v*' | head -n1)"
+          if [ -n "$tagged" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "HEAD is already tagged $tagged; skipping."
+          elif git rev-parse -q --verify "refs/tags/${{ steps.version.outputs.version }}" >/dev/null; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Tag ${{ steps.version.outputs.version }} already exists; skipping."
           else
