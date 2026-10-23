@@ -33,9 +33,14 @@ The Witcher 3 work (#332 onward) is on `staging` only.
   349–362), #343 (363–375), #344 (376–382, 594, 597–600, 629), #345 (589–606
   main quests), #348 (607–617 endgame and DLC main quests), #349 (618–635),
   #350 (final pass: 13, 42, 2354, 2355). All original entries now checked.
+- More new quests (only names confirmed by the guide lists): #351 16 Blood and
+  Wine (vintner's contracts, Wine Wars, side quests), #352 11 (virtues, Gwent,
+  fist fights, hidden Skellige chain), #353 13 (horse races, arena, Gwent,
+  Novigrad encounters), #354 7 (Grandmaster gear hunts, In Wolf's Clothing,
+  The Perks of Being a Jailbird). Witcher 3 now 276 / 290.
 
 ### Still to do
-1. Add ~61 more quests to reach 290, mostly Blood and Wine (Wine Wars
+1. Add the last ~14 quests to reach 290. (Done since: Wine Wars
    Belgaard/Coronata/Vermentino/Deus in the Machina, Knight for Hire, Equine
    Phantoms, There Can Be Only One, A Portrait of the Witcher as an Old Man,
    Fists of Fury: Toussaint, vineyard contracts).
