@@ -31394,7 +31394,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
+    video: "https://www.youtube.com/watch?v=QvVTvhYurVM"
   },
 {
     id: 1321,
@@ -31416,7 +31416,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
+    video: "https://www.youtube.com/watch?v=F9LTCniVyHA"
   },
 {
     id: 1322,
@@ -31438,7 +31438,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
       "Loot the Bounty Puck from the body.",
       "Trade the puck to Caij at Pyloon's Saloon for blaster parts, perks or cosmetics."
     ],
-    video: "https://www.youtube.com/watch?v=jDvmQQVqWGs"
+    video: "https://www.youtube.com/watch?v=eGI5BlF_hIc"
   },
 {
     id: 1323,
@@ -33160,7 +33160,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "Tolerance +4; 4,000 Reeve",
     summary: "The Kindly Boy asks you to buy a rare flower from St. Fermis Church on Sunlumeo Street.",
     aiTip: "Purchase the flower at St. Fermis Church, then bring it back.",
-    video: "https://www.youtube.com/watch?v=X1deZpHKJ9I",
+    video: "https://www.youtube.com/watch?v=YXVqwn55Qow",
     walkthrough: [
       "Talk to the Kindly Boy to accept the quest.",
       "Buy the rare flower at St. Fermis Church on Sunlumeo Street.",
@@ -33180,7 +33180,7 @@ video: "https://www.youtube.com/watch?v=WOvbWbOswRE",
     reward: "15,000 Reeve",
     summary: "The Sullen Man on Seabreeze Street blames his toothache on \"tooth monsters\" and asks for the Toothbrush of Hygienia, sold in the nearby village of Inundo.",
     aiTip: "Buy the toothbrush from the Key Items tab of Inundo's shop for 500 Reeve. The trip takes a day, so go well before the August 9 deadline.",
-    video: "https://www.youtube.com/watch?v=X1deZpHKJ9I",
+    video: "https://www.youtube.com/watch?v=Xl5yqn9rbFc",
     walkthrough: [
       "Accept the quest from the Sullen Man on Seabreeze Street in Port Brilehaven.",
       "Travel to Inundo on the Gauntlet Runner (a day passes).",

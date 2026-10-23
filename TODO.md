@@ -90,8 +90,10 @@ walkthrough is duplicated in the data. Still open:
 
 ## What's left (as of 2026-10-23)
 Prod is `v2.9.1`; `staging` and `main` match. In priority order:
-1. **Replace the 2 allowlisted shared videos** with quest-specific ones:
-   `jDvmQQVqWGs` on #1320–1322 and `X1deZpHKJ9I` on #725–726.
+1. ~~**Replace the 2 allowlisted shared videos**~~ Done (#363): each of
+   #1320–1322 and #725–726 now has its own video and the audit allowlist is
+   empty. Jedi: Survivor's three are one combined fight, so their videos all
+   show that fight from different uploads.
 2. **Fact-check the new quest data** (`v2.7.0` and the Witcher 3 work in
    `v2.8.0`):
    - Game facts and video contents weren't verified first-hand, because the
