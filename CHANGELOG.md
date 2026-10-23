@@ -3,6 +3,15 @@
 Prod (`main`) deploys, newest first. Each entry lists the shipped PR(s) and a
 short summary of what changed. See `DEPLOY.md` for the staging → prod flow.
 
+## 2026-10-23 (8)
+
+- **AC Valhalla fact-check: 26 entries fixed** — `v2.9.7` patch (#379). All
+  109 AC Valhalla World Events the sample hadn't covered were checked against
+  the guides. 7 had a clear error (for example A Dog's Rescue saves a dog,
+  not a fox; King of Shitsby is at Cruwland and ends in a fight; Tiny Black
+  Market's password and hoard map were made up) and 14 had a smaller one. 5
+  entries got more detail. This completes the full fact-check pass.
+
 ## 2026-10-23 (7)
 
 - **Witcher 3 fact-check: 31 entries fixed** — `v2.9.6` patch (#376). All
