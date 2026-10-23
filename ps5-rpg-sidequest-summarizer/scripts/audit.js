@@ -32,7 +32,7 @@ const REQUIRED = ["id", "type", "game", "title", "location", "length", "difficul
 // the real lists get enumerated. Games at/above target are considered covered.
 const TARGETS = {
   "Cyberpunk 2077: Ultimate Edition": 150,
-  "The Witcher 3: Wild Hunt": 100,
+  "The Witcher 3: Wild Hunt": 290,
   "Final Fantasy VII Rebirth": 73,
   "God of War Ragnarök": 68,
   "Hogwarts Legacy": 130,

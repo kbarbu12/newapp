@@ -831,8 +831,10 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Story progression, moral consequences",
-    summary: "A famous questline about family trauma, guilt, war, and consequence. It feels like a main story arc but functions as one of the game's defining side narratives.",
-    aiTip: "Do not rush the dialogue. Choices in related Velen quests can affect how this storyline resolves.",
+    summary:
+      "The Baron of Crow's Perch will share what he knows of Ciri if Geralt finds his missing wife Anna and daughter Tamara. The search exposes his drinking, his violence and a buried child, and it's one of the game's defining stories.",
+    aiTip:
+      "Don't rush the dialogue. Your choice at the Whispering Hillock decides how the Baron's family story ends.",
     walkthrough: [
       "Arrive at Crow's Perch and meet Phillip Strenger, the Bloody Baron, while hunting for Ciri.",
       "Win his trust (or fight his men), then investigate Ciri's trail around the keep with Witcher Senses.",
@@ -1354,14 +1356,16 @@ const quests = [
     length: "long",
     difficulty: "Medium",
     reward: "Tournament rewards, unique armor, romance option",
-    summary: "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
-    aiTip: "Practice the jousting timing — it's about rhythm, not button mashing. Choose your tournament alias carefully, it affects NPC reactions.",
+    summary:
+      "Enter a chivalric tournament in Toussaint's fairytale-like kingdom. Jousting, melee combat, and courtly intrigue — a lighter, more whimsical quest that showcases the Blood & Wine expansion's tone.",
+    aiTip:
+      "Finish it before you meet Captain de la Tour in Capture the Castle, or it fails. The alias you enter under decides one fight: Prince Anséis as Geralt, or Tailles and his thugs as Ravix of Fourhorn.",
     walkthrough: [
-      "After saving Guillaume de Launfal in The Beast of Toussaint, agree to stand in for him at the tourney.",
-      "Train in horsemanship, marksmanship and fencing (take the horse race slowly).",
-      "Enter as Geralt or as 'Ravix of Fourhorn' and win the three events.",
-      "Follow Vivienne into the woods tracking the bird with Witcher Senses; fight the panthers and the wight in the cave.",
-      "Tell Guillaume about the curse for an extra way to save Vivienne."
+      "Visit Guillaume in the medics' tent at the Tourney Grounds and agree to stand in for him.",
+      "Compete in archery (right to left), the horse race (all nine checkpoints) and the melee.",
+      "Enter as Geralt of Rivia or as 'Ravix of Fourhorn'; the alias changes your final opponent.",
+      "Search Vivienne's tent with Witcher Senses, then follow the bird to the cave, fighting barghests and wights.",
+      "Learn of Vivienne's curse and choose whether to tell Guillaume, then kill the panther in the glade with her."
     ],
     video: "https://www.youtube.com/watch?v=EHhayw2Na0Y"
   },
@@ -7565,22 +7569,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "On Death's Bed",
-    location: "White Orchard",
+    location: "Tomira's herbalist hut, White Orchard",
     length: "short",
     difficulty: "Low",
-    reward: "Herbalist alliance, crafting supplies",
+    reward: "50 crowns, venom extract, the Cursed Oil manuscript and a book",
     summary:
-      "A poisoned man clings to life; Geralt gathers the herbs for a cure — or lets nature take its course.",
+      "The herbalist Tomira is caring for Lena, a girl badly wounded by the griffin. Brew her a Swallow potion before you leave White Orchard.",
     aiTip:
-      "Save him for a friendly herbalist vendor; the choice has a small karmic echo.",
+      "You need Dwarven spirit (sold at the inn), five celandine from the fields and a drowner brain. The quest fails if you leave White Orchard without delivering it.",
     walkthrough: [
-      "In White Orchard, speak with the dying man's household and agree to help find a cure.",
-      "Consult Tomira the herbalist about what the wound needs.",
-      "Use Witcher Senses to locate and gather the required herbs, clearing any monsters at the spot.",
-      "Bring the herbs back so the remedy can be prepared.",
-      "Decide the outcome based on what you uncover about the man — then report back to close the quest."
+      "Visit Tomira's hut once The Beast of White Orchard has started.",
+      "Learn about Lena's injuries and get the Swallow formula.",
+      "Gather Dwarven spirit, five celandine and a drowner brain.",
+      "Brew the Swallow potion.",
+      "Give it to Tomira for Lena before leaving White Orchard."
     ],
-    video: "https://www.youtube.com/watch?v=KpJKjAl4Ybo"
+    video: "https://www.youtube.com/watch?v=npXGOpCTbow"
   },
 {
     id: 350,
@@ -7588,92 +7592,91 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Twisted Firestarter",
-    location: "White Orchard",
+    location: "Willis's forge and the riverbank, White Orchard",
     length: "short",
     difficulty: "Low",
-    reward: "Coin, blacksmith access",
+    reward: "Crowns, XP and a discount with Willis (less XP if you take the bribe)",
     summary:
-      "Geralt investigates who torched the local smith's forge in sleepy White Orchard.",
+      "Someone torched Willis the blacksmith's forge. Follow the arsonist's tracks down to the river and decide what to do with the culprit, Napp.",
     aiTip:
-      "A gentle intro contract — follow the scorch marks with your Witcher Senses.",
+      "Four drowners may jump you along the river. Refuse Napp's bribe and use Axii for extra XP, then march him back to Willis for the discount.",
     walkthrough: [
-      "Talk to the White Orchard blacksmith about his torched forge.",
-      "Examine the burnt forge with Witcher Senses to pick up the arsonist's trail.",
-      "Follow the tracks away from the village to the culprit.",
-      "Confront the arsonist and choose how to resolve the dispute (fight or talk them down).",
-      "Return to the smith for the reward."
+      "Read the notice in White Orchard or talk to Willis.",
+      "Find the tracks behind his house.",
+      "Follow them down to the river and north past the bridge.",
+      "Find Napp hiding in a house.",
+      "Take his bribe, or bring him back to Willis."
     ],
-    video: "https://www.youtube.com/watch?v=ueylh5enSj0"
+    video: "https://www.youtube.com/watch?v=QXjqrwwpp8g"
   },
 {
     id: 352,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Princess in Distress",
-    location: "Velen",
+    location: "The Pellar's hut, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Baron questline progress",
+    reward: "100 XP and the Pellar's help with the spirits",
     summary:
-      "Part of the Bloody Baron saga: help track the missing Anna and uncover the family's dark story.",
+      "Before he'll help find the Baron's family, the Pellar needs his runaway goat, 'Princess', brought home.",
     aiTip:
-      "Ties directly into the Baron's main arc — do it before leaving Velen.",
+      "Ring the Pellar's bell whenever the goat stops to eat, or keep using Axii on her. A bear turns up near the cave, so be ready with Igni and Quen.",
     walkthrough: [
-      "In Velen, find the children playing and learn a girl has gone missing near the swamp.",
-      "Follow the trail with Witcher Senses toward Crookback Bog.",
-      "Track the 'princess' to a cave and deal with the monsters inside.",
-      "Uncover the truth of what happened and rescue or recover the child.",
-      "Return to report the outcome."
+      "Talk to the Pellar, then follow the hoofprints with Witcher Senses.",
+      "Find the goat and lure her with the Pellar's bell.",
+      "Keep ringing the bell whenever she stops to graze.",
+      "Kill the bear that appears near the cave.",
+      "Lead the goat back to the Pellar."
     ],
-    video: "https://www.youtube.com/watch?v=eiEGU-prtmM"
+    video: "https://www.youtube.com/watch?v=fDZ0myVByY0"
   },
 {
     id: 354,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Hunting a Witch",
-    location: "Velen",
+    location: "Midcopse and a hut in the forest north-east of it, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Keira Metz alliance",
+    reward: "100 XP; leads to Wandering in the Dark",
     summary:
-      "Follow the trail of the sorceress Keira Metz through the swamps of Velen.",
+      "A lead on Ciri points to a 'witch' near Midcopse. Ask around the village, find her hut and step through her portal to meet the sorceress Keira Metz.",
     aiTip:
-      "Reading the hidden notes reveals Keira's true motives before you meet her.",
+      "The pipe-smoking man at the western entrance tells you for free. Or skip the questioning and head straight to the hut north-east of the village.",
     walkthrough: [
-      "Begin at the Velen village where a woman is accused of witchcraft.",
-      "Use Witcher Senses to follow her tracks into the woods.",
-      "Investigate her hut and the surrounding signs of what she really is.",
-      "Confront the 'witch' and choose whether to spare or fight her.",
-      "Resolve the villagers' fate and finish the quest."
+      "Ask the villagers of Midcopse about the witch.",
+      "Head to her hut in the forest north-east of the village.",
+      "Search the hut with Witcher Senses.",
+      "Examine the skull in the side room to open a portal.",
+      "Step through to meet Keira Metz."
     ],
-    video: "https://www.youtube.com/watch?v=kV_3-CnQj80"
+    video: "https://www.youtube.com/watch?v=CxBwZprqjfg"
   },
 {
     id: 355,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Wandering in the Dark",
-    location: "Velen",
-    length: "medium",
+    location: "Elven ruins south of Midcopse, Velen",
+    length: "long",
     difficulty: "Medium",
-    reward: "Keira questline, elven ruins loot",
+    reward: "XP and the Eye of Nehaleni; leads into Magic Lamp",
     summary:
-      "Geralt and Keira delve into an ancient elven ruin sealed for centuries, chased by a monstrous gargoyle.",
+      "Keira guides Geralt through elven ruins on the trail of Ciri's escape from the Wild Hunt, past rats, wraiths and a golem, to a showdown with Nithral.",
     aiTip:
-      "Bring a strong sword; the Caretaker-style guardians here hit like trucks.",
+      "Stock up on food before going in. Bring Elementa Oil and Dimeritium bombs for the golem, and stay near Keira while she closes the White Frost portals, since her shield protects you from Nithral.",
     walkthrough: [
-      "Meet Keira Metz and agree to explore the elven ruins beneath the lake.",
-      "Descend into the ruins, using Igni to light braziers and Aard on weak walls.",
-      "Fight through the drowners and the Gargoyle guardians in the depths.",
-      "Solve the ruin's puzzles to reach the mage Alexander's laboratory.",
-      "Recover what Keira seeks and escape as the ruin's defenders wake.",
-      "Return to Keira to complete the quest and continue her storyline."
+      "Meet Keira at the elven ruins south of Midcopse.",
+      "Burn the rat nests and follow the swallow symbols to the mage's projections.",
+      "Fight through the drowners, wraiths and the golem.",
+      "Guard Keira while she closes three White Frost portals.",
+      "Defeat Nithral of the Wild Hunt."
     ],
-    video: "https://www.youtube.com/watch?v=f_Wb1H68i8k"
+    video: "https://www.youtube.com/watch?v=W62TX8-03tI"
   },
 {
     id: 356,
@@ -7681,20 +7684,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Magic Lamp",
-    location: "Velen",
+    location: "Elven ruins south of Midcopse, Velen",
     length: "short",
-    difficulty: "Low",
-    reward: "Keira questline, sealed vault",
+    difficulty: "Medium",
+    reward: "XP and Keira's goodwill",
     summary:
-      "Use a captured djinn's lamp to breach a mage's sealed sanctum during Keira's quest.",
+      "Right after Wandering in the Dark, Keira asks Geralt to help her find an elven magic lamp deeper in the ruins. A statue puzzle guards it.",
     aiTip:
-      "Equip the lamp and use it on the shimmering barriers to press forward.",
+      "Light the braziers in the order 3, 2, 4, 1, counting the statues left to right. A wrong statue spawns a wraith. Don't leave the ruins, or the quest fails.",
     walkthrough: [
-      "Join Keira Metz and take the enchanted Magic Lamp she gives you.",
-      "Explore the cavern, using the lamp to reveal and dispel hidden specters.",
-      "Follow the visions the lamp uncovers to piece together what happened here.",
-      "Clear the wraiths blocking the way and reach the sealed chamber.",
-      "Uncover the truth of the site and report back to Keira."
+      "Accept Keira's request at the end of Wandering in the Dark.",
+      "Find the room with the four statues.",
+      "Interact with them in the order third, second, fourth, first.",
+      "Take the lamp.",
+      "Defeat the golem by the stairs with Keira."
     ],
     video: "https://www.youtube.com/watch?v=cGm5ZqiwVaM"
   },
@@ -7704,89 +7707,89 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Contract: Woodland Beast",
-    location: "Velen",
+    location: "Pontar bridge and the river ford, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Coin, monster trophy",
+    difficulty: "Low",
+    reward: "30 crowns and a Letter of Safe Conduct",
     summary:
-      "A leshen terrorizes a superstitious hamlet that half-worships it.",
+      "A captain at the Pontar bridge blames a 'shaggy beast' for attacks on his transports. Geralt finds that the real killers were Scoia'tael elves.",
     aiTip:
-      "Torch the leshen's totems first, then bring Relict Oil and Igni.",
+      "The alghouls at the site only fed on the bodies afterwards. Follow the footprints across the ford, killing the drowners on the way.",
     walkthrough: [
-      "Take the contract and question the villagers about the woodland killings.",
-      "Track the victims and territorial markings with Witcher Senses to the leshen's grove.",
-      "Destroy the totems the leshen uses, then apply Relict Oil and ready Igni.",
-      "Fight the leshen — dodge its root attacks and burn the animals it summons.",
-      "Slay it, take the trophy, and claim the fee (or honor a druid's plea, if offered)."
+      "Read the notice on the Pontar bridge board and talk to the captain.",
+      "Kill the alghouls at the attack site.",
+      "Examine the scene with Witcher Senses.",
+      "Cross the river ford and follow the footprints up the hill.",
+      "Deal with the Scoia'tael and report back to the captain."
     ],
     video: "https://www.youtube.com/watch?v=hu1DF5FwK4I"
   },
 {
     id: 358,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Novigrad Dreaming",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Corinne Tilly seer contact",
+    location: "Corinne Tilly's house, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; leads to Broken Flowers",
     summary:
-      "A house is said to be haunted; Geralt investigates the tragic ghost of a devoted dog and its master.",
+      "Triss sends Geralt to Corinne Tilly, a dream-reader who may know where Dandelion is. Corinne is stuck in an enchanted sleep, and the cause is a godling named Sarah hiding in the house.",
     aiTip:
-      "A short, poignant contract — follow the flowers to piece the story together.",
+      "Put the doll in the crib in the attic to reveal the oven drawing that leads to the cellar. You can make a deal with Sarah or drive her out with burdock, and the choice changes the reward.",
     walkthrough: [
-      "In Novigrad, investigate the disturbances at the painter's house.",
-      "Use Witcher Senses to follow the ghostly clues through the building.",
-      "Track the source to the garden and the buried remains behind the haunting.",
-      "Lay the spirit to rest by resolving its unfinished business.",
-      "Report back to complete the quest."
+      "Talk to Corinne Tilly after Pyres of Novigrad.",
+      "Search her house for the cause of her endless sleep.",
+      "Place the doll in the crib in the attic.",
+      "Find the godling Sarah in the cellar.",
+      "Make a deal with Sarah or drive her out, then hold the séance."
     ],
-    video: "https://www.youtube.com/watch?v=6QCNwwXAsE8"
+    video: "https://www.youtube.com/watch?v=OcXmW6s1DMM"
   },
 {
     id: 359,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "The Play's the Thing",
-    location: "Novigrad",
+    location: "Kingfisher Inn and the Butcher's Yard theatre, Novigrad",
     length: "medium",
     difficulty: "Low",
-    reward: "Priscilla & Dandelion arc, unique scene",
+    reward: "XP; a perfect performance gives a 10% Novigrad merchant discount",
     summary:
-      "Geralt moonlights as an actor in Irina's theatre to draw out a lead on Dandelion.",
+      "To lure out Dudu, a doppler who knows what happened to Dandelion, Priscilla writes a play about a witcher and a doppler, and Geralt has to star in it.",
     aiTip:
-      "Ham it up on stage — the performance choices are pure delight and affect the scene.",
+      "Pick comedy as the genre, because drama ends in a riot. Cast Abelard Rizza as the doppler, since Maxim shows up drunk. Hit every timed line on stage for the discount.",
     walkthrough: [
-      "Meet Priscilla and Irina at the Novigrad theatre to stage the play.",
-      "Gather the props and cast — recruit the doppler Dudu for the role.",
-      "Choose costumes and coach the performance during rehearsal.",
-      "Play your part on stage during the live performance (use the right cues).",
-      "See the play through to acclaim and continue Dandelion's storyline."
+      "Tell Priscilla at the Kingfisher about Dudu and write the script with her.",
+      "Take the script to Irina Renarde at the Butcher's Yard.",
+      "Hire Sofus and Hal as ushers at the docks, and drive off the Puffins.",
+      "Cast the play with Irina.",
+      "Perform, choosing the right lines when prompted."
     ],
-    video: "https://www.youtube.com/watch?v=dO5qY-18uRM"
+    video: "https://www.youtube.com/watch?v=GcRT5MVhW4U"
   },
 {
     id: 360,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Poet Under Pressure",
-    location: "Novigrad",
+    location: "Road outside Novigrad (ambush site)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Dandelion rescued",
+    reward: "XP; unlocks Cabaret and Ciri's Story: Breakneck Speed",
     summary:
-      "Storm the Whoreson Junior's operation to rescue the captured bard Dandelion.",
+      "Dandelion is being moved under witch-hunter guard. Geralt and Zoltan ambush the convoy to break him out.",
     aiTip:
-      "Bring good armor; the hideout is a tough multi-wave fight.",
+      "Ask Dijkstra for more men and tell him the plan, and he sends six instead of three. You don't need to kill every guard, just free Dandelion.",
     walkthrough: [
-      "Find Dandelion's associates in Novigrad to learn he's in trouble.",
-      "Follow the leads through the city with Witcher Senses.",
-      "Deal with the pressure on the poet — talk or fight your way past his captors.",
-      "Secure the information or person you were after.",
-      "Report back to advance the search for Dandelion."
+      "Ask Dijkstra for men for the rescue.",
+      "Meet Zoltan at the ambush site.",
+      "Ambush the convoy carrying Dandelion.",
+      "Free Dandelion from the witch hunters.",
+      "Hear his story about Ciri."
     ],
     video: "https://www.youtube.com/watch?v=4cldzU0djB4"
   },
@@ -7796,46 +7799,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Cabaret",
-    location: "Novigrad",
-    length: "short",
+    location: "Rosemary and Thyme, Novigrad",
+    length: "medium",
     difficulty: "Low",
-    reward: "Coin, Priscilla's cabaret opens",
+    reward: "XP and the Chameleon cabaret",
     summary:
-      "Help Dandelion turn a rundown building into the Chameleon cabaret with an eventful 'date'.",
+      "Dandelion wants to turn the Rosemary and Thyme into a cabaret and needs a loan. Geralt helps him put on a staged scene to win over his lender and gather what the club needs.",
     aiTip:
-      "A charming lighthearted quest — enjoy the banter, low combat.",
+      "Borrow the prop sword from Madame Irina for the staged fight, and lose to Dandelion on purpose. Get the Hierarch Hemmelfart painting from the halflings for the décor. It fails if left until The Isle of Mists.",
     walkthrough: [
-      "Meet Priscilla to plan the cabaret at the Rosemary and Thyme.",
-      "Run the errands to fit out the tavern for the show.",
-      "Handle the interruptions and toughs who show up.",
-      "Get the venue ready and stage the cabaret.",
-      "Wrap up to progress Dandelion's arc."
+      "Meet Dandelion at the Rosemary and Thyme.",
+      "Borrow a prop sword from Madame Irina.",
+      "Play the thug in Dandelion's staged fight and lose on purpose.",
+      "Bring Dandelion the painting of Hierarch Hemmelfart.",
+      "See the cabaret open."
     ],
-    video: "https://www.youtube.com/watch?v=-qxFYLApUMI"
+    video: "https://www.youtube.com/watch?v=DuUAXkAXx3U"
   },
 {
     id: 362,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Count Reuven's Treasure",
-    location: "Novigrad",
+    location: "Dijkstra's bathhouse, the sewers and Menge's headquarters, Novigrad",
     length: "long",
     difficulty: "Medium",
-    reward: "Triss arc, Sigismund Dijkstra ally",
+    reward: "200 XP; Dijkstra's help later",
     summary:
-      "Investigate the theft of Dijkstra's fortune, uncovering the pogrom against Novigrad's mages.",
+      "Sigi Reuven, really Dijkstra, has had his vault robbed. Geralt follows the trail through the sewers and Margrave Henckel's house to the witch hunter Caleb Menge, with Triss's help.",
     aiTip:
-      "The bathhouse ambush is a set-piece fight — pop Quen before it starts.",
+      "Make a manual save before meeting Triss at the Eternal Fire shrine. Take Dijkstra's antidote before crossing the mould in the sewers. Expect a big fight against Menge and his witch hunters.",
     walkthrough: [
-      "Meet Sigi Reuven (Dijkstra) and agree to recover his stolen treasure.",
-      "Investigate the bathhouse tunnels flooded by the heist, using Aard and Senses.",
-      "Trace the thieves' route and interrogate Whoreson Junior's leads.",
-      "Fight through the ambush in the underground passages.",
-      "Recover the treasure's fate and uncover the traitor.",
-      "Report to Dijkstra to close the quest and advance the Novigrad plot."
+      "Follow Dijkstra down to his robbed vault and meet Bart the troll.",
+      "Take the antidote and follow the water current through the sewers.",
+      "Search Margrave Henckel's house and solve the wine-rack riddle.",
+      "Meet Triss and go with her to Caleb Menge.",
+      "Kill Menge and his witch hunters, then take the vault key to Dijkstra."
     ],
-    video: "https://www.youtube.com/watch?v=ocpnQrHmJ2Y"
+    video: "https://www.youtube.com/watch?v=uTI7E-1wyNM"
   },
 {
     id: 363,
@@ -7843,20 +7845,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Redania's Most Wanted",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Triss questline progress",
+    location: "Radovid's ship and Est Tayiar, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; counts toward Reason of State",
     summary:
-      "Help Triss and the hunted mages of Novigrad evade the witch hunters.",
+      "King Radovid wants the sorceress Philippa Eilhart found, and the trail leads to her abandoned hideout at Est Tayiar and a sealed teleport.",
     aiTip:
-      "Ties into the Triss romance path — pursue it if you want that ending.",
+      "Activate the crystals with Aard and get the power cell from the witch hunter, who you can talk round with Axii. It fails if not finished before The Isle of Mists.",
     walkthrough: [
-      "Look into the witch-hunter propaganda gripping Novigrad.",
-      "Follow the clues with Witcher Senses to the source of the smear campaign.",
-      "Deal with the agents behind it (talk or fight).",
-      "Expose or resolve the plot as you choose.",
-      "Report back for the reward."
+      "Accept Radovid's request after A Favor for Radovid.",
+      "Travel to Est Tayiar.",
+      "Activate the crystals with Aard and deal with the nekkers.",
+      "Get the power cell from the witch hunter (Axii or fight).",
+      "Use the portal to follow Philippa's trail and report back."
     ],
     video: "https://www.youtube.com/watch?v=zO27yTOk2PU"
   },
@@ -7866,21 +7868,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Contract: Deadly Delights",
-    location: "Novigrad",
+    location: "Novigrad docks, the fish market and Crippled Kate's",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, katakan trophy",
+    reward: "About 250 crowns; sparing the succubus can also earn the Maugrim silver sword",
     summary:
-      "A string of romantic rendezvous end in death — a katakan vampire is hunting lovers.",
+      "Men are turning up dead around the Novigrad docks. The killer behind the two-legged hoofprints is a succubus named Salma.",
     aiTip:
-      "Craft Vampire Oil and Black Blood; the katakan turns invisible, so use Yrden.",
+      "Axii on the Madame at Crippled Kate's skips the perfume trail. You can kill Salma or spare her, and the choice changes your reward.",
     walkthrough: [
-      "Take the contract on the Novigrad murders and question witnesses.",
-      "Investigate the crime scenes with Witcher Senses to follow the scent trail.",
-      "Track the killer to its lair beneath the city.",
-      "Apply Cursed Oil and prepare Yrden/Quen for the succubus.",
-      "Fight or parley with the succubus depending on what you learn, then resolve the contract.",
-      "Claim the reward from the quest-giver."
+      "Take the notice near the Golden Sturgeon and talk to the guard at the fish market.",
+      "Visit the doctor who examined the bodies.",
+      "Follow the hoofprints behind Crippled Kate's.",
+      "Question the Madame (Axii) or follow the perfume trail.",
+      "Confront Salma the succubus and kill or spare her."
     ],
     video: "https://www.youtube.com/watch?v=4rWFCE2iAxI"
   },
@@ -7890,68 +7891,67 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Honor Among Thieves",
-    location: "Novigrad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Triss arc, mage-smuggling caper",
+    location: "Junior's casino and the King of Beggars' Putrid Grove, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "100 XP, the Eirlithrad sword and Freya's warrior armour",
     summary:
-      "Help Triss run a daring operation to smuggle mages out of Novigrad by sea.",
+      "In Whoreson Junior's casino, Geralt frees Rico, a halfling held prisoner on the third floor. The King of Beggars rewards him for it.",
     aiTip:
-      "The auction house infiltration rewards patience over brute force.",
+      "Pick 'Run' when you free Rico. The reward never expires, so collect it from the King of Beggars whenever you like.",
     walkthrough: [
-      "Meet Cleaver and agree to hunt down the dwarves who robbed him.",
-      "Track the culprits across Novigrad with Witcher Senses.",
-      "Follow the trail to their hideout, dealing with lookouts.",
-      "Confront the thieves and recover Cleaver's money.",
-      "Decide their fate and report back for the reward."
+      "Find Rico in the third-floor room of Junior's casino.",
+      "Free him and tell him to run.",
+      "Go to the King of Beggars at the Putrid Grove.",
+      "Collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=sGKUDvgfeb4"
+    video: "https://www.youtube.com/watch?v=ClfhE7AEt8o"
   },
 {
     id: 366,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Echoes of the Past",
-    location: "Skellige",
+    location: "Cataclysm site, Ard Skellig",
     length: "medium",
     difficulty: "Medium",
-    reward: "Ciri flashback, Skjall's tale",
+    reward: "XP; leads to Missing Persons",
     summary:
-      "Follow Ciri's trail on Skellige and learn of the villager Skjall who sheltered her.",
+      "Yennefer uses the Mask of Uroboros, stolen from Ermion, to see what happened when Ciri arrived on Skellige. Geralt follows the visions across the cataclysm site.",
     aiTip:
-      "The Wild Hunt flashback battle is scripted — focus on survival.",
+      "Use the mask wherever blue-green sparks float, and kill a foglet after each vision. The final vision points to where the attacker landed, under a fallen tree.",
     walkthrough: [
-      "Travel to Skellige and meet Yennefer to investigate Ciri's trail.",
-      "Explore the site of the megascope/ritual, using Senses for clues.",
-      "Reconstruct the events with Yennefer's magic, fighting any wraiths raised.",
-      "Uncover what Ciri and the Wild Hunt did here.",
-      "Report the findings to advance the search for Ciri."
+      "Meet Yennefer at the cataclysm site, where she's arguing with Ermion.",
+      "Help Yennefer fight off the foglets and take the mask.",
+      "Use the mask at each spot with floating sparks to watch the visions.",
+      "Find the body under the fallen tree.",
+      "Hear from Ermion about the raid on Lofoten."
     ],
     video: "https://www.youtube.com/watch?v=ADmzfOU9IkY"
   },
 {
     id: 367,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Kaer Morhen",
     title: "The Final Trial",
-    location: "Skellige",
-    length: "short",
+    location: "Kaer Morhen and the Circle of Elements",
+    length: "medium",
     difficulty: "Medium",
-    reward: "Ciri questline progress",
+    reward: "500 XP",
     summary:
-      "Ciri must complete a Skellige rite to be recognized — with the Wild Hunt closing in.",
+      "Part of Ugly Baby. Lambert takes Geralt to the Circle of Elements to charge Ciri's phylactery for Yennefer, past harpies, a water hag, Old Speartip and a band of trolls.",
     aiTip:
-      "A story-driven quest with a memorable Ciri-playable segment.",
+      "A Cat potion helps you find alternate paths in the dark caves. You can sneak past Old Speartip and talk your way past the trolls instead of fighting.",
     walkthrough: [
-      "Meet the witcher trying to complete the Trial of the Grasses and agree to help.",
-      "Gather the alchemical ingredients across Skellige with Witcher Senses.",
-      "Return the components and assist with the dangerous trial.",
-      "Deal with the fallout of the experiment.",
-      "See the outcome through and collect the reward."
+      "Find Lambert in the keep and take the phylactery.",
+      "Follow him past the harpies to the lakeshore and take the boat.",
+      "Kill the drowned dead and the water hag.",
+      "Get through the cave (past Old Speartip) and deal with the trolls.",
+      "Light the lanterns at the altar and place the phylactery."
     ],
-    video: "https://www.youtube.com/watch?v=B5-R5CrBZRQ"
+    video: "https://www.youtube.com/watch?v=jetvPkAfrn0"
   },
 {
     id: 368,
@@ -7959,45 +7959,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Practicum in Advanced Alchemy",
-    location: "Skellige",
-    length: "short",
-    difficulty: "Low",
-    reward: "Alchemy formula, coin",
+    location: "Gremist's house, Ard Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; Gremist's alchemy shop opens",
     summary:
-      "Investigate a mage's mysterious death at a coastal alchemical lab.",
+      "The cantankerous druid alchemist Gremist agrees to take Geralt as an apprentice once he completes three tasks: fetch pimpernel, get some spirit and enlist the weather druid Fritjof.",
     aiTip:
-      "Piece together the reagents with Witcher Senses to reconstruct the accident.",
+      "Do the three tasks in any order. The ritual then takes a full day, so leave and meditate for 24 hours. It can't fail.",
     walkthrough: [
-      "Find the alchemist's lab in Skellige and take on the practicum.",
-      "Collect the reagents required for the advanced formula.",
-      "Brew the concoction correctly using the notes provided.",
-      "Handle the reaction/monster the experiment attracts.",
-      "Deliver the result to complete the quest."
+      "Approach Gremist (or get sent by Otto Bamber or Yolar).",
+      "Find pimpernel in Morskogen Forest, past the white wolves.",
+      "Get the spirit from the old distillery.",
+      "Persuade Fritjof the weather druid to help.",
+      "Return to Gremist, wait a day, and see the ritual through."
     ],
-    video: "https://www.youtube.com/watch?v=WMH9JgWzKhc"
+    video: "https://www.youtube.com/watch?v=R_0QCG3rF3U"
   },
 {
     id: 369,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Novigrad",
     title: "Contract: The White Lady",
-    location: "Skellige",
+    location: "Farcorners notice board and Castle Drahim ruins, Novigrad outskirts",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, wraith trophy",
+    reward: "Crowns and a noonwraith trophy",
     summary:
-      "A pale spirit haunts a Skellige homestead, and the truth is a family tragedy.",
+      "A widow named Helma wants the 'White Lady' killing people near Castle Drahim stopped. She's a noonwraith bound to something from her past.",
     aiTip:
-      "Specter Oil and Yrden as always for wraith-type foes.",
+      "Throw the silver dagger into the fire to force the noonwraith out. Use Yrden to make her solid and Specter Oil on your silver sword.",
     walkthrough: [
-      "Take the contract and ask the villagers about the White Lady haunting.",
-      "Investigate the manor and grounds with Witcher Senses after dark.",
-      "Apply Specter Oil and use Yrden to make the noonwraith corporeal.",
-      "Dodge its swift strikes, dispel its illusions, and burn it with Igni.",
-      "Banish the wraith, take the trophy, and claim the fee."
+      "Read the notice at Farcorners and talk to Helma.",
+      "Find the victims' bodies and investigate the attack site.",
+      "Follow the tracks to the ruined tower.",
+      "Throw the silver dagger into the fire to summon the noonwraith.",
+      "Kill her, take a trophy and collect your reward from Helma."
     ],
-    video: "https://www.youtube.com/watch?v=Gxy56GWAbpU"
+    video: "https://www.youtube.com/watch?v=PSSC_m27Dno"
   },
 {
     id: 370,
@@ -8005,161 +8005,160 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Contract: Skellige's Most Wanted",
-    location: "Skellige",
+    location: "Fyresdal and the hills to the north-east, Ard Skellig",
     length: "medium",
     difficulty: "High",
-    reward: "Coin, arachas trophy",
+    reward: "Crowns and XP",
     summary:
-      "A bounty on a nest of monstrous arachasae draws Geralt into the mountains.",
+      "Something is killing travellers near Fyresdal and trying to make it look like nekkers. The trail leads to a cave of endregas and an arachas, then to a meeting of monsters: a doppler, a godling, an ice troll and their werewolf leader.",
     aiTip:
-      "Bring Insectoid Oil and dodge the ranged spit before closing in.",
+      "Visit the meeting place at night to catch the culprits together. Bring Insectoid Oil for the cave and Cursed Oil for the werewolf.",
     walkthrough: [
-      "Accept the contract and gather reports of the beast attacks across Skellige.",
-      "Track each kill site with Witcher Senses to pinpoint the lair.",
-      "Identify the monster's class and apply the matching oil, readying Quen.",
-      "Fight the beast, dodging its heavy attacks and exploiting its weakness.",
-      "Slay it, take the trophy, and claim the substantial reward."
+      "Read the notice or talk to the Skelliger in Fyresdal.",
+      "Investigate the attack site north-east of Fyresdal.",
+      "Follow the tracks to the cave and kill the endregas and the arachas.",
+      "Go to the meeting place at night.",
+      "Confront the doppler, godling, ice troll and werewolf."
     ],
     video: "https://www.youtube.com/watch?v=sMReQTykjII"
   },
 {
     id: 372,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "Ugly Baby",
-    location: "Velen",
-    length: "medium",
+    location: "Crow's Perch, Vizima and Kaer Morhen",
+    length: "long",
     difficulty: "Medium",
-    reward: "Uma's curse lead, allies gather",
+    reward: "XP; Uma's curse lifted",
     summary:
-      "Bring the cursed 'Uma' to Kaer Morhen and gather the witchers to attempt a brutal curse-breaking.",
+      "The umbrella quest for Act II. Geralt takes the cursed Uma from Crow's Perch to Kaer Morhen, where the witchers and Yennefer prepare to break his curse.",
     aiTip:
-      "Stock potions — the Trial of the Grasses ritual triggers a tough fight.",
+      "Finish The Last Wish and Following the Thread before taking Uma from Crow's Perch. Disturbance, To Bait a Forktail and The Final Trial can be done in any order.",
     walkthrough: [
-      "Meet Yennefer to prepare the ritual needed to help Uma.",
-      "Gather the rare ingredients and tools across Velen and Novigrad.",
-      "Bring everything to the lab and assist with the dangerous curse-breaking ritual.",
-      "Protect the process from the forces it unleashes.",
-      "See the ritual to its outcome and advance the main story."
+      "Collect Uma from Crow's Perch.",
+      "Report to Emhyr in Vizima.",
+      "Bring Uma to Kaer Morhen.",
+      "Complete Disturbance, To Bait a Forktail and The Final Trial.",
+      "Finish No Place Like Home and Va Fail, Elaine to lift the curse."
     ],
     video: "https://www.youtube.com/watch?v=dmXn4LkPoCA"
   },
 {
     id: 373,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Dead Man's Party",
-    location: "Velen",
-    length: "medium",
+    location: "Shani's clinic, the von Everec crypt and the wedding, Oxenfurt (Hearts of Stone)",
+    length: "long",
     difficulty: "Medium",
-    reward: "Hearts of Stone arc, Vlodimir body-share",
+    reward: "XP; Olgierd's first wish granted",
     summary:
-      "Possessed by the ghost Vlodimir, Geralt crashes a wedding in the wildest quest in the game.",
+      "Olgierd's first wish: give his long-dead brother Vlodimir the time of his life. Geralt raises Vlodimir's ghost and lets it possess him for a wild wedding night with Shani.",
     aiTip:
-      "Just go with it — the outrageous choices are the whole point and mostly harmless.",
+      "Leave fishing Shani's shoe out of the pond until last and do every optional wedding activity first for the Let the Good Times Roll achievement.",
     walkthrough: [
-      "In Velen, meet the sisters/loved ones planning the wake and agree to help.",
-      "Run the errands — food, drink, and guests — using Senses to track them down.",
-      "Handle the uninvited monsters or troublemakers that crash the party.",
-      "Keep the celebration going through its beats.",
-      "Finish the wake and collect the reward."
+      "Talk to Shani at her Oxenfurt clinic about the von Everec crypt.",
+      "Find Vlodimir's grave in the crypt and use the censer.",
+      "Light the central votive and fight off the von Everec ghosts.",
+      "Let Vlodimir possess Geralt and go to the wedding.",
+      "Do the wedding activities, ending with Shani's shoe."
     ],
     video: "https://www.youtube.com/watch?v=ykCSvQ9ZSh0"
   },
 {
     id: 374,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Open Sesame!",
-    location: "Velen",
+    location: "Borsodi auction house, Oxenfurt (Hearts of Stone)",
     length: "long",
     difficulty: "High",
-    reward: "Hearts of Stone heist, Ofieri gear",
+    reward: "XP; Olgierd's second wish (Maximilian Borsodi's House)",
     summary:
-      "Pull off an elaborate auction-house heist for Olgierd's cursed employer, Gaunter O'Dimm.",
+      "Olgierd's second wish is 'Maximilian Borsodi's House', a casket in the Borsodi auction house vault. Geralt teams up with the disinherited Ewald Borsodi to pull off a heist.",
     aiTip:
-      "The vault has a fistfight and a puzzle — prep both combat and patience.",
+      "Bring around 700 crowns for the auction. In the vault, siding with one brother means the other dies, and the Viper sword diagram there can't be collected later.",
     walkthrough: [
-      "Meet Yennefer at the ransacked estate and agree to break into the sealed vault.",
-      "Explore the manor, using Aard and Senses to find the hidden mechanism.",
-      "Solve the vault puzzle to open the way (deal with the magical wards).",
-      "Fight the guardian/wraith protecting the treasure.",
-      "Recover the contents and decide what to do with them.",
-      "Report to Yennefer to close the quest."
+      "Get into the auction as Vimme Vivaldi's guest.",
+      "Meet Ewald, the hooded stranger, and plan the heist.",
+      "Recruit your crew (Witcher Seasonings, Breaking and Entering, The Safecracker).",
+      "Break into the vault and choose between Horst and Ewald.",
+      "Escape and bring the casket to Olgierd."
     ],
-    video: "https://www.youtube.com/watch?v=7J9IJHFDEnI"
+    video: "https://www.youtube.com/watch?v=ssRaolY46Sk"
   },
 {
     id: 375,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scenes From a Marriage",
-    location: "Velen",
+    location: "Von Everec manor east of Oxenfurt (Hearts of Stone)",
     length: "long",
     difficulty: "Medium",
-    reward: "Iris von Everec's painted world",
+    reward: "XP; Olgierd's third wish (Iris's rose)",
     summary:
-      "Enter the haunted painted world of Iris von Everec to reunite her sundered memories.",
+      "Olgierd's third wish is the rose he gave his wife Iris. At the abandoned von Everec manor, Geralt enters a painted world of Iris's memories to find it.",
     aiTip:
-      "Your choices here decide Iris's fate and Olgierd's heart — read the rooms.",
+      "In the dining room, ignore the red herrings: light the two candleholders nearest the people at the table and the fireplace to match the painting. Leave the rose with Iris to keep her painting.",
     walkthrough: [
-      "Travel with the spirit to the drowned house and agree to reconcile the family's ghosts.",
-      "Explore the vision of the home, using Senses to relive each family member's story.",
-      "Complete each spirit's unfinished task around the house.",
-      "Confront the truth of what tore the family apart.",
-      "Choose how to resolve the haunting and see the emotional outcome.",
-      "Return to finish the quest."
+      "Get into the locked von Everec manor.",
+      "Find Iris upstairs and bury her remains in the garden.",
+      "Follow Iris's spirit into the painted world.",
+      "Restore each memory with Witcher Senses (palette, glass, candles).",
+      "Decide whether to take the rose from Iris."
     ],
     video: "https://www.youtube.com/watch?v=k43ZRYxUftw"
   },
 {
     id: 376,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "The Beast of Toussaint",
-    location: "Toussaint",
-    length: "medium",
+    location: "Cockatrice Inn riverbank, Corvo Bianco, the Tourney Grounds and the palace gardens, Toussaint",
+    length: "long",
     difficulty: "Medium",
-    reward: "Blood and Wine main arc start",
+    reward: "XP; Proofs of Compassion and Wisdom for There Can Be Only One",
     summary:
-      "A monstrous killer stalks the fairy-tale duchy of Toussaint; Geralt is summoned to hunt it.",
+      "Milton and Palmerin bring Geralt to Toussaint to hunt the Beast that has been killing knights. The trail runs from the riverbank to a bruxa in a vineyard cellar, then to a palace riddle that points to the greenhouse.",
     aiTip:
-      "Kicks off the Blood and Wine expansion — expect a long, rich storyline.",
+      "Spare the shaelmaar and answer the riddle with \"the greenhouse\" to earn two of the proofs for There Can Be Only One. Moon Dust cancels the bruxa's invisibility.",
     walkthrough: [
-      "Reach Toussaint and take the investigation into the vineyard killings.",
-      "Examine the victims and territory with Witcher Senses to follow the beast.",
-      "Uncover that the attacks stem from a bruxa/higher vampire's curse.",
-      "Apply Vampire Oil and ready Black Blood and Moon Dust for the fight.",
-      "Defeat the creature, dispelling its invisibility with Yrden.",
-      "Resolve the contract and claim the reward."
+      "Follow Milton to the riverbank by the Cockatrice Inn and track the trail with Witcher Senses; kill the scurvers.",
+      "Dive and search the fishing net for a handkerchief monogrammed 'd.l.C.' and give it to Milton.",
+      "Question the inn, then follow the lead to the Corvo Bianco cellar and kill the bruxa.",
+      "Meet Palmerin at the Tourney Grounds and help Guillaume against the shaelmaar; choose to spare or slay it.",
+      "Collect the unicorn horn and the golden fish while the duchess takes the phoenix egg, then solve the riddle (the greenhouse).",
+      "Reach the greenhouse, where the Beast escapes; Blood Run begins."
     ],
     video: "https://www.youtube.com/watch?v=84DPLlp7Kds"
   },
 {
     id: 377,
-    type: "side",
+    type: "main",
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "La Cage au Fou",
-    location: "Toussaint",
+    location: "Mère-Lachaiselongue Cemetery and the Trastamara Estate Ruins, Toussaint",
     length: "medium",
     difficulty: "Medium",
-    reward: "Bruxa mystery, Blood and Wine progress",
+    reward: "XP; the Casus Foederis sword (hidden in the crypt)",
     summary:
-      "Investigate a grisly killing tied to the elusive vampire threat haunting Beauclair.",
+      "Regis is holed up in a crypt under Mère-Lachaiselongue Cemetery. To help him track Dettlaff he needs the saliva gland of a spotted wight, which lives in the ruins of the Trastamara estate.",
     aiTip:
-      "Vampire Oil and Black Blood are essential against the higher vampires.",
+      "At the wight's table, choose to eat without a spoon to lift her curse instead of killing her. Use the Eye of Nehaleni in the crypt to reveal the illusion wall hiding Casus Foederis.",
     walkthrough: [
-      "Take the contract at the Toussaint arena and speak with the organizer.",
-      "Investigate the beast rampaging in the cage with Witcher Senses.",
-      "Prepare the matching oil and defensive signs.",
-      "Fight the creature in the arena, exploiting its weakness.",
-      "Slay it and collect the prize."
+      "Go to Mère-Lachaiselongue Cemetery; the crypt door is locked, so vault into the open tomb nearby.",
+      "Fight through the kikimores in the tunnels and burn their eggs with Igni.",
+      "Use Aard on the stone wall to reach Regis and hear his plan.",
+      "Ride to the Trastamara Estate Ruins, watching for the barghest in the fields, and find the wight's lair.",
+      "Look into the cauldron, hide in the wardrobe and either fight the wight or lift her curse at the table.",
+      "Take the saliva gland back to Regis; the hunt continues in Tesham Mutna."
     ],
     video: "https://www.youtube.com/watch?v=lBzNaXax18E"
   },
@@ -8167,24 +8166,24 @@ const quests = [
     id: 378,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Toussaint",
+    region: "Velen",
     title: "Where the Cat and Wolf Play",
-    location: "Toussaint",
+    location: "Honorton, Velen",
     length: "medium",
-    difficulty: "Medium",
-    reward: "Village tragedy, moral choice",
+    difficulty: "High",
+    reward: "200 XP; sparing Gaetan unlocks Take What You Want (Teigr sword and crowns)",
     summary:
-      "A witcher of the Cat School has slaughtered a village; Geralt uncovers the grim full story.",
+      "Straight after The Beast of Honorton, Geralt tracks the Cat School witcher Gaetan, who massacred Honorton after the villagers tried to kill him over his fee. Only a girl named Millie was spared.",
     aiTip:
-      "There's a lone survivor — how you handle her is the quest's real weight.",
+      "Sparing Gaetan avoids the fight and still gets you Teigr and his stash. If you fight, don't let him drink a potion first, or he opens with a blinding bomb.",
     walkthrough: [
-      "Begin the Cat School gear treasure hunt in Toussaint.",
-      "Follow the map/clues to the ruined tower with Witcher Senses.",
-      "Clear the guardians and solve the tower's approach.",
-      "Recover the diagrams and uncover the tragic story of the cat witchers.",
-      "Return to craft or claim the gear and finish the hunt."
+      "Finish Contract: The Beast of Honorton.",
+      "Follow Gaetan's trail with Witcher Senses.",
+      "Find Gaetan and hear his side of the massacre.",
+      "Decide whether to spare him or fight him.",
+      "Spare him to unlock Take What You Want, or loot Teigr from his body."
     ],
-    video: "https://www.youtube.com/watch?v=Kky_t6C68kI"
+    video: "https://www.youtube.com/watch?v=hLzRLwC0SPY"
   },
 {
     id: 379,
@@ -8192,20 +8191,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Wine Wars: Consorting",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Low",
-    reward: "Vineyard reward, coin",
+    location: "Coronata and Vermentino vineyards, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 200 XP and 1,050 crowns; leads to Wine Wars: Belgaard",
     summary:
-      "If you finish The Deus in the Machina before Vermentino and Coronata, the two vineyards' troubles merge into one quest: help rival heirs Liam and Matilda clear their estates of monsters and sabotage.",
+      "If you finish The Deus in the Machina before turning in Coronata or Vermentino, the two quests merge. Liam de Coronata and Matilda Vermentino agree to take Belgaard jointly once the troubles on both estates are cleared.",
     aiTip:
-      "Save before talking to the vineyard owners — finishing both estates' tasks under Consorting is what lets Liam and Matilda take Belgaard together.",
+      "Don't finish all five tasks of either Coronata or Vermentino before Deus in the Machina, or only one family gets Belgaard. Burn the archespores with Igni.",
     walkthrough: [
-      "Turn in Wine Wars: The Deus in the Machina while Vermentino and Coronata are still open — they merge into Consorting.",
-      "Meet Liam of Vermentino and Matilda of Coronata, heirs of the feuding vineyards.",
-      "Clear the monsters plaguing both estates' vineyards.",
-      "Follow the sabotage trail to its source and destroy what is poisoning the vines.",
-      "Report back to both families, then continue to Wine Wars: Belgaard."
+      "Complete Wine Wars: The Deus in the Machina while Coronata and Vermentino are still open; they merge into Consorting.",
+      "Finish the remaining tasks on both estates, including the archespores and the rock trolls.",
+      "Clear the bandits underground and rescue the herbalist.",
+      "Report to Liam and Matilda together.",
+      "Continue to Wine Wars: Belgaard."
     ],
     video: "https://www.youtube.com/watch?v=EqLq7n0xcQU"
   },
@@ -8213,22 +8212,22 @@ const quests = [
     id: 380,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Velen",
+    region: "Novigrad",
     title: "Contract: The Creature from the Oxenfurt Forest",
-    location: "Velen",
+    location: "Oxenfurt notice board and the forest east of Oxenfurt",
     length: "short",
-    difficulty: "Medium",
-    reward: "Coin, fiend trophy",
+    difficulty: "High",
+    reward: "About 300 XP and crowns; Griffin trophy, Zireael armor, archgriffin mutagen",
     summary:
-      "A fiend terrorizes travelers in the woods near Oxenfurt (Hearts of Stone).",
+      "Hans of Cidaris posts a notice about a beast in the forest near Oxenfurt that took two of his men. It is an archgriffin named Opinicus.",
     aiTip:
-      "Relict Oil, Quen, and dodging its charge — the fiend's confusion glow is deadly.",
+      "Fight it at night when it is in the nest, and carry Grapeshot and Hybrid Oil. A letter at the nest shows Hans was already paid to kill it, which opens a better payout.",
     walkthrough: [
-      "Take the contract and question the Oxenfurt-forest locals about the attacks.",
-      "Track the creature with Witcher Senses to its forest lair.",
-      "Identify its class, apply the matching oil, and ready Quen and Igni.",
-      "Fight the beast, dodging its lunges and exploiting its weakness.",
-      "Kill it, take the trophy, and claim the fee."
+      "Take the notice from the Oxenfurt board and meet Hans of Cidaris at his camp.",
+      "Haggle for the fee, then search where his men were taken with Witcher Senses.",
+      "Follow the blood and raven trail to the nest.",
+      "Kill Opinicus, ideally at night.",
+      "Read the letter on the body at the nest and return to Hans for your pay."
     ],
     video: "https://www.youtube.com/watch?v=C0qznYEqSnQ"
   },
@@ -8238,20 +8237,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Turn and Face the Strange",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Low",
-    reward: "Manor renovation, coin",
+    location: "Orlémurs Cemetery and the sunken ruins of Dol Naev'de, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; unlocks the Mutations system",
     summary:
-      "Settle into Corvo Bianco vineyard and set its restoration in motion.",
+      "A messenger brings word about the late Professor Moreau. His grave has been robbed, and the trail leads to his hidden mutagenic laboratory in the flooded elven ruins of Dol Naev'de.",
     aiTip:
-      "Invest in the vineyard upgrades — they grant real bonuses like the meditation bed buff.",
+      "Strip off all gear before entering Moreau's machine. In the portal room, follow the direction the statues face, since a wrong portal sends you back to the start.",
     walkthrough: [
-      "Begin the odd Toussaint quest and speak with the eccentric quest-giver.",
-      "Follow the strange clues with Witcher Senses.",
-      "Complete the unusual tasks it sets in order.",
-      "Resolve the twist at the end.",
-      "Report back for the reward."
+      "Get the note from the messenger in Beauclair after Blood Run.",
+      "Find Moreau's half-opened grave at Orlémurs Cemetery and follow the footprints with Witcher Senses.",
+      "Use the old map to locate the lab in the ruins of Dol Naev'de.",
+      "Shoot the four stone buttons with the crossbow, defeat the gargoyle and solve the portal puzzle.",
+      "Fetch giant centipede albumen from the nearby cave and place it in the machine.",
+      "Remove your gear, enter the machine and unlock Mutations."
     ],
     video: "https://www.youtube.com/watch?v=kF4tIqf6MLU"
   },
@@ -8261,20 +8261,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Big Game Hunter",
-    location: "Toussaint",
-    length: "short",
-    difficulty: "Medium",
-    reward: "Coin, kikimore trophy",
+    location: "Chuchote Cave camp and the hunting grounds, Toussaint",
+    length: "medium",
+    difficulty: "Low",
+    reward: "About 200 XP and 200 crowns; The White Wolf painting",
     summary:
-      "Hunt a monstrous kikimore queen threatening Toussaint's countryside.",
+      "Count Beledal doesn't want monsters killed. He wants pictures of Toussaint's wildlife, and he hires Geralt to escort him while he records panthers, centipedes and peacocks.",
     aiTip:
-      "Insectoid Oil and dodge the burrow-and-lunge pattern.",
+      "Harm nothing except the centipedes. Calm the trapped panther with Axii so it escapes with its cub, then visit Francollarts at noon the next day for the painting.",
     walkthrough: [
-      "Take the big-game hunt contract in Toussaint.",
-      "Track the large beast across the countryside with Witcher Senses.",
-      "Apply the oil matching its class and prepare Quen.",
-      "Bring the beast down, dodging its charges.",
-      "Claim the trophy and reward."
+      "Take the 'Wanted: The White Wolf' notice and find Count Beledal at his camp near Chuchote Cave.",
+      "Use his map to find the panthers; free the snared mother with Axii and avoid the bear.",
+      "Find a vantage point, then destroy the nest to draw out the giant centipedes for him.",
+      "Use Axii on three peacocks so they show their tails.",
+      "Visit him at Francollarts at noon the next day for The White Wolf painting."
     ],
     video: "https://www.youtube.com/watch?v=MySJfM12CTA"
   },
@@ -12789,20 +12789,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "Lilac and Gooseberries",
-    location: "White Orchard",
+    location: "White Orchard road, the White Orchard Inn and the Nilfgaardian garrison",
     length: "short",
     difficulty: "Low",
-    reward: "Yennefer's trail, story start",
+    reward: "XP; Yennefer's trail leads to the garrison",
     summary:
-      "Geralt and Vesemir follow Yennefer's summons to war-torn White Orchard, hunting a griffin along the way.",
+      "Geralt and Vesemir follow Yennefer's trail into White Orchard. Ghouls, a griffin attack on the road and a tavern brawl later, the Nilfgaardian captain agrees to share what he knows if Geralt takes on a witcher's job.",
     aiTip:
-      "The prologue teaches combat basics — do the fistfight and griffin hunt before moving on.",
+      "Pick up the crystal skull after the ghoul fight. Use Axii on one of the three thugs outside the inn for bonus XP, and decline the merchant's coin if you want a discount at his shop instead.",
     walkthrough: [
-      "Start in White Orchard and meet Vesemir at the inn.",
-      "Follow the leads on Yennefer's whereabouts, talking to the locals.",
-      "Handle the tavern brawl/interruptions as they arise.",
-      "Pick up Yennefer's trail toward the garrison.",
-      "Advance to the next objective to continue the hunt."
+      "Fight off the ghouls on the road and pick up Yennefer's crystal skull.",
+      "Follow Vesemir to the merchant the griffin attacked.",
+      "Ask at the White Orchard Inn about Yennefer.",
+      "Deal with the three men who confront you outside.",
+      "Speak to Captain Peter Saar Gwynleve at the garrison; he'll trade information for a witcher's job."
     ],
     video: "https://www.youtube.com/watch?v=EHu5ubLkSrg"
   },
@@ -12812,20 +12812,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "White Orchard",
     title: "The Beast of White Orchard",
-    location: "White Orchard",
+    location: "Mislav's hut, Tomira's cottage, the river and the ambush field, White Orchard",
     length: "medium",
     difficulty: "Medium",
-    reward: "Griffin slain, Nilfgaard contact",
+    reward: "XP; Yennefer's whereabouts and the road to Vizima",
     summary:
-      "Track and slay the royal griffin terrorizing White Orchard to earn passage and information.",
+      "To earn the captain's information, Geralt has to kill the royal griffin. The hunter Mislav knows where it struck, the herbalist Tomira knows its bait (buckthorn), and Vesemir picks the ambush field.",
     aiTip:
-      "Craft Grapeshot bombs and use the crossbow to ground the griffin mid-flight.",
+      "Visit Mislav before you find the nest, and Tomira before the griffin dies, or you lose XP and the side quest On Death's Bed. Buckthorn grows on the riverbed to the east.",
     walkthrough: [
-      "Agree to help the White Orchard garrison hunt the griffin.",
-      "Gather buckthorn and the bait, and investigate the griffin's kills with Senses.",
-      "Set the trap and lure the griffin, applying Hybrid Oil.",
-      "Fight the griffin — use the crossbow to ground it and Aard/Quen to counter its dives.",
-      "Kill the beast and report back to advance to Vizima."
+      "Track Mislav from his empty hut and help him with the wild dogs.",
+      "Let him show you the attack site and examine it with Witcher Senses.",
+      "Ask Tomira about bait, then dive in the river to the east for buckthorn.",
+      "Report to Vesemir at the inn; he has found a field for the ambush.",
+      "Lure the griffin with the bait and kill it, then return to the captain."
     ],
     video: "https://www.youtube.com/watch?v=sSual5rK6GI"
   },
@@ -12835,20 +12835,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Imperial Audience",
-    location: "Velen",
+    location: "Royal Palace, Vizima",
     length: "short",
     difficulty: "Low",
-    reward: "Emperor's contract, Ciri's trail",
+    reward: "Emhyr's contract to find Ciri",
     summary:
-      "Geralt is escorted to Emperor Emhyr, who hires him to find Ciri before the Wild Hunt does.",
+      "In the palace at Vizima, Geralt is shaved and dressed for court while General Morvran Voorhis questions him. Emperor Emhyr then hires him to find Ciri before the Wild Hunt does.",
     aiTip:
-      "Dialogue-only — sets the whole story in motion and your reward for finding Ciri.",
+      "Voorhis's questions stand in for a Witcher 2 save, so think about the answers. The Aryan La Valette answer changes part of Broken Flowers, and Letho's fate decides whether Ghosts of the Past appears.",
     walkthrough: [
-      "Travel to Vizima for the audience with Emperor Emhyr.",
-      "Follow the palace protocol and speak with the chamberlain.",
-      "Attend the audience and learn Emhyr's task regarding Ciri.",
-      "Accept the commission and gather your leads.",
-      "Set out for Velen to begin the search."
+      "Answer Morvran Voorhis's questions during the shave.",
+      "Choose an outfit and show the chamberlain a proper bow.",
+      "Meet Emperor Emhyr and accept his contract to find Ciri.",
+      "Talk to Yennefer in her quarters.",
+      "Collect your gear from the chamberlain and travel to Velen."
     ],
     video: "https://www.youtube.com/watch?v=_DYV6xDDo5E"
   },
@@ -12858,20 +12858,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Nilfgaardian Connection",
-    location: "Velen",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Ciri lead, Baron introduction",
+    location: "Inn at the Crossroads and Heatherton, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; leads to the Bloody Baron and Keira Metz",
     summary:
-      "Chase Ciri's trail to Velen's Bloody Baron, following a Nilfgaardian informant network.",
+      "Emhyr's spy in Velen, Hendrik, is supposed to have news of Ciri. The innkeep at the Crossroads sends Geralt to Heatherton, where Hendrik is dead. His hidden ledger points to Crow's Perch.",
     aiTip:
-      "Opens the Velen questlines — the Baron holds the key to Ciri's whereabouts.",
+      "When you examine Hendrik's body, say he hid something in his boots to find the key straight away. Pull the red-outlined candle in the cellar to open the hidden chest.",
     walkthrough: [
-      "In Velen, seek the Nilfgaardian contact tied to Ciri's trail.",
-      "Follow the leads to the hanged-man's trees and the deserters, using Senses.",
-      "Clear the enemies and recover the information/package.",
-      "Meet the informant to learn where Ciri was seen.",
-      "Report the lead and continue toward the Baron."
+      "Talk to the innkeep at the Inn at the Crossroads and deal with the Baron's men.",
+      "Ride to Hendrik's hideout in Heatherton.",
+      "Examine his body and find the key in his boot.",
+      "Uncover the trapdoor under the dirt pile and enter the cellar.",
+      "Pull the candle to reveal the chest and read the ledger: it points to Crow's Perch."
     ],
     video: "https://www.youtube.com/watch?v=JnhCBQyTbms"
   },
@@ -12881,21 +12881,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Family Matters",
-    location: "Velen",
+    location: "Crow's Perch, the pellar's hut near Blackbough and the Baron's burial site, Velen",
     length: "long",
-    difficulty: "High",
-    reward: "Baron's family, Ciri intel",
+    difficulty: "Medium",
+    reward: "XP; leads on Ciri, Anna and Tamara",
     summary:
-      "Help the Bloody Baron find his missing wife and daughter in exchange for news of Ciri.",
+      "The Bloody Baron will share news of Ciri if Geralt finds his missing wife and daughter. A pellar's augury exposes a miscarriage the Baron buried in shame, now a botchling, and a confession the Baron has to be beaten into.",
     aiTip:
-      "Your choices about the Baron's family have major, lasting consequences — tread carefully.",
+      "Spare the botchling: have the Baron bury it properly and it becomes a lubberkin that leads you to the women. Skip the cunning woman in Midcopse and go straight to the pellar.",
     walkthrough: [
-      "Meet the Bloody Baron at Crow's Perch and agree to find his wife and daughter.",
-      "Investigate the estate and follow the trail with Witcher Senses.",
-      "Track Anna and Tamara's leads across Velen, fighting the monsters en route.",
-      "Uncover the botchling/curse tied to the family and resolve it (raise or bury it).",
-      "Confront the truth of what happened to the Baron's family.",
-      "See the storyline to its branching outcome and gain the next lead on Ciri."
+      "Search Anna's room at Crow's Perch and take the wooden talisman to the Baron.",
+      "Go to the pellar near Blackbough and get his goat, Princess, back.",
+      "Hear the augury's revelation, then beat the drunk Baron in a fistfight for his confession.",
+      "At midnight, deal with the botchling: kill it or lift its curse with the Baron's burial.",
+      "Follow the trail to the fisherman's hut, then on to Oxenfurt to find Tamara."
     ],
     video: "https://www.youtube.com/watch?v=6OYlqX-bP38"
   },
@@ -12905,21 +12904,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Ladies of the Wood",
-    location: "Velen",
+    location: "Crookback Bog and Downwarren, Velen",
     length: "long",
-    difficulty: "High",
-    reward: "Crones' bargain, orphans' fate",
+    difficulty: "Medium",
+    reward: "About 200 XP; continues Family Matters",
     summary:
-      "Deal with the sinister Crones of Crookback Bog and the Ghost in the Whispering Hillock.",
+      "Keira Metz's book explains how to find the Crones of Crookback Bog. Following a trail of offerings to their hut, Geralt learns that Ciri escaped them, and that Gran is the Baron's missing wife, Anna.",
     aiTip:
-      "The Whispering Hillock choice ripples into the Baron's fate — think before you free the spirit.",
+      "The Crones' price is dealing with the spirit in the Whispering Hillock, and what you do there decides the Baron's ending. Learn the facts before you choose.",
     walkthrough: [
-      "Travel to the spirit-haunted wood and seek the Crones' help via the Ladies of the Wood.",
-      "Do the Crones' bidding — investigate the orphans and the whispering hillock.",
-      "Make the pivotal choice about the spirit under the tree.",
-      "Return to the Crones and survive the consequences.",
-      "Learn what they know of Ciri and escape Crookback Bog.",
-      "Advance toward Novigrad or Skellige on Ciri's trail."
+      "Read 'The Ladies of the Wood' from Keira and find the shrine on the north edge of Crookback Bog.",
+      "Follow the trail of offerings to the orphanage and talk to the children.",
+      "Track Johnny through the bog and coax him out of his burrow.",
+      "Search the raven nest in Downwarren and give Johnny the bottle so he can speak.",
+      "Meet the Crones, learn Ciri's fate and that Gran is Anna, then accept their price at the Whispering Hillock."
     ],
     video: "https://www.youtube.com/watch?v=c7SaJZIbbFk"
   },
@@ -12929,20 +12927,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Broken Flowers",
-    location: "Novigrad",
-    length: "medium",
+    location: "Rosemary and Thyme, the Var Attre estate and the Kingfisher Inn, Novigrad",
+    length: "long",
     difficulty: "Medium",
-    reward: "Dandelion's trail, old contacts",
+    reward: "XP; Priscilla's account of Dandelion's last days",
     summary:
-      "Search Novigrad's underworld for Dandelion by retracing his romances and debts.",
+      "Dandelion isn't at his own inn; Zoltan is. They split the list of women from Dandelion's planner, and the witness descriptions point to Priscilla, who is performing at the Kingfisher.",
     aiTip:
-      "Visit all the leads — the trail winds through the city's most colorful characters.",
+      "To reach Rosa var Attre you have to pose as a fencing instructor and spar with her. Priscilla only plays after dark, so wait for sundown before going to the Kingfisher.",
     walkthrough: [
-      "Reach Novigrad and start searching for Dandelion via his known associates.",
-      "Track down Dandelion's three former lovers for leads, using Senses.",
-      "Complete each associate's task to earn their information.",
-      "Piece together where Dandelion has gone.",
-      "Report the lead to continue the Novigrad hunt."
+      "Meet Zoltan at Rosemary and Thyme and search for Dandelion's planner.",
+      "Split the list of women with Zoltan and question your half.",
+      "Get into the Var Attre estate and spar with Rosa.",
+      "Work out from the descriptions that the woman was Priscilla.",
+      "Watch her perform at the Kingfisher Inn after sundown and hear Dandelion's story."
     ],
     video: "https://www.youtube.com/watch?v=S9-RvqtAcmE"
   },
@@ -12952,71 +12950,68 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Get Junior",
-    location: "Novigrad",
+    location: "The bathhouse, Junior's casino, arena and hideout, Novigrad; a guarded house in Oxenfurt",
     length: "long",
-    difficulty: "High",
-    reward: "Dandelion found, Whoreson Junior",
+    difficulty: "Medium",
+    reward: "XP; Junior's account of Ciri and Dandelion",
     summary:
-      "Take down the sadistic crime boss Whoreson Junior to rescue Dandelion.",
+      "Sigi Reuven (Dijkstra) points Geralt at Whoreson Junior's casino, arena and hideout. Roche's contact, who turns out to be King Radovid, says Junior is hiding in a house in Oxenfurt.",
     aiTip:
-      "The casino/arena fight is tough — bring Golden Oriole and heavy attacks.",
+      "Don't ask Dijkstra about Dandelion in the bathhouse, or you start Count Reuven's Treasure early. Finish The Gangs of Novigrad before meeting Roche's contact, or it fails.",
     walkthrough: [
-      "Follow the trail to Whoreson Junior to find Dandelion and Ciri's lead.",
-      "Investigate Junior's casino/arena and hideouts with Senses.",
-      "Fight through his gang to corner him.",
-      "Confront Whoreson Junior and decide his fate.",
-      "Uncover what he knows about Ciri and Dandelion, then report back."
+      "Meet Sigi Reuven at the bathhouse and fight off the assassins.",
+      "Visit Junior's casino and arena, with Cleaver's men if you sided with him.",
+      "Search Junior's hideout with Witcher Senses.",
+      "Find Roche east of the city and meet his contact (Radovid) at the Oxenfurt chess club.",
+      "Fight through the house in Oxenfurt, hear what Junior knows about Ciri, then kill or spare him."
     ],
     video: "https://www.youtube.com/watch?v=elfbiqKrY4Q"
   },
 {
     id: 597,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Favor for Radovid",
-    location: "Novigrad",
+    location: "HMS Oxenfurt-Tretogor, Oxenfurt harbor",
     length: "short",
-    difficulty: "Medium",
-    reward: "Radovid's aid, Dijkstra path",
+    difficulty: "Low",
+    reward: "Small XP; starts Redania's Most Wanted",
     summary:
-      "The mad king Radovid offers help finding Dandelion's associates — for a price.",
+      "After Get Junior, Redanian soldiers escort Geralt to King Radovid's ship in Oxenfurt harbor. Radovid orders him to find the sorceress Philippa Eilhart.",
     aiTip:
-      "Radovid is dangerous; his questline steers Novigrad's political ending.",
+      "Whatever you tell Radovid, the quest ends after the meeting and hands you Redania's Most Wanted.",
     walkthrough: [
-      "Meet Radovid's agent and agree to the king's favor.",
-      "Travel to the marked location and carry out the covert task.",
-      "Deal with the complications that arise.",
-      "Complete the favor and return.",
-      "Advance the Novigrad political thread."
+      "Finish Get Junior and leave Junior's hideout.",
+      "Let the Redanian soldiers take you to the HMS Oxenfurt-Tretogor.",
+      "Talk to Radovid and hear his order to find Philippa Eilhart.",
+      "Answer him; the quest ends and Redania's Most Wanted begins."
     ],
     video: "https://www.youtube.com/watch?v=W3xfqhGxbLs"
   },
 {
     id: 598,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "The Gangs of Novigrad",
-    missable: true,
-    missableWindow: "Before Act 3 (Isle of Mists)",
-    location: "Novigrad",
-    length: "long",
-    difficulty: "High",
-    reward: "Dijkstra alliance, coup groundwork",
+    location: "Hierarch Square, Junior's casino and arena, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Cleaver's men help clear Junior's casino and arena",
     summary:
-      "Broker between Dijkstra, Roche, and the city's gangs to plot against Radovid.",
+      "During Get Junior, Carlo \"Cleaver\" Varese offers his men to help Geralt hit Whoreson Junior's casino and arena.",
     aiTip:
-      "Sets up the Novigrad power struggle — choices here decide who rules the North.",
+      "Turn it in to Cleaver before you meet Roche's contact in Get Junior, or it fails. Freeing Rico at the casino also starts Honor Among Thieves.",
     walkthrough: [
-      "Ally with Dijkstra, Roche, and the underworld to move against the witch hunters.",
-      "Carry out the coordinated hits/heists across Novigrad.",
-      "Fight through the enemy strongholds.",
-      "Secure the objective that breaks the hunters' grip.",
-      "Regroup with your allies to set up the next phase.",
-      "Complete the operation to advance the main story."
+      "After meeting the Big Four, find Cleaver at Hierarch Square.",
+      "Agree to let his men help against Junior's operations.",
+      "Raid the casino and arena alongside Cleaver's crew.",
+      "Return to Cleaver before going on to Roche's contact."
     ],
-    video: "https://www.youtube.com/watch?v=OB97gasJWSk"
+    video: "https://www.youtube.com/watch?v=OB97gasJWSk",
+    missable: true,
+    missableWindow: "During Get Junior, before meeting Roche's contact"
   },
 {
     id: 599,
@@ -13024,20 +13019,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Destination: Skellige",
-    location: "Skellige",
+    location: "Novigrad harbor, the sea crossing and Kaer Trolde harbor, Ard Skellig",
     length: "short",
     difficulty: "Medium",
-    reward: "Skellige reached, Ciri's trail",
+    reward: "Opens Skellige; reunion with Yennefer",
     summary:
-      "Sail to the storm-lashed isles of Skellige to continue the hunt for Ciri.",
+      "No captain wants to brave the pirate waters except Wolverstone, who charges 1,000 crowns. Pirates attack, the ship hits an iceberg, and Geralt washes up on Skellige in time for King Bran's funeral.",
     aiTip:
-      "Opens the Skellige map — buy a Skellige boat and start exploring the smugglers' caches.",
+      "The 1,000 crowns aren't lost. Wolverstone's body by the wreck still has them, along with several treasure chests.",
     walkthrough: [
-      "Meet Yennefer aboard ship and set sail for Skellige.",
-      "Survive the storm and shipwreck as the Wild Hunt attacks.",
-      "Fight ashore through the drowners on the beach.",
-      "Regroup and reach Kaer Trolde to reunite with Yennefer.",
-      "Begin the search for Ciri's trail in Skellige."
+      "Ask the captains at Novigrad harbor and find Captain Wolverstone at the Golden Sturgeon.",
+      "Pay the 1,000-crown fare and set sail.",
+      "Fight off the pirates until the ship strikes an iceberg.",
+      "Wake on the shore and deal with Steingrim.",
+      "Reach Kaer Trolde harbor during King Bran's funeral and meet Yennefer on the pier."
     ],
     video: "https://www.youtube.com/watch?v=BG9tChk1z2Y"
   },
@@ -13047,20 +13042,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The King is Dead — Long Live the King",
-    location: "Skellige",
+    location: "Kaer Trolde and Ermion's workshop, Ard Skellig",
     length: "long",
-    difficulty: "High",
-    reward: "Cerys/Hjalmar succession, Ciri clue",
+    difficulty: "Medium",
+    reward: "XP; Skellige formal clothes; continues to Nameless",
     summary:
-      "A royal wedding turns to bloodshed as Skellige's succession crisis explodes.",
+      "At King Bran's wake in Kaer Trolde, Geralt meets the contenders for the throne. Afterwards he helps Yennefer investigate the magic that drew her to Skellige, which leads into Ermion's workshop.",
     aiTip:
-      "Your support of Cerys or Hjalmar decides who becomes ruler of Skellige.",
+      "Wear the formal outfit Yennefer gives you. At the statue puzzle, the mead cup is the right offering, but a wrong pick carries no penalty.",
     walkthrough: [
-      "Attend King Bran's funeral feast at Kaer Trolde with Yennefer.",
-      "Navigate the succession politics among the clans.",
-      "When the Wild Hunt attacks the feast, fight your way through the hall.",
-      "Battle the Hunt's warriors and the hound on the docks.",
-      "Escape with Yennefer and pursue the next lead on Ciri."
+      "Change into the Skellige formal clothes Yennefer gives you.",
+      "Attend the wake: meet Cerys, Hjalmar and Svanrige, and help Hjalmar against the bear if you like.",
+      "Pull Hjalmar's axe from the stump.",
+      "Go with Yennefer to Ermion's workshop and kill the earth elemental.",
+      "Escape the trapped doorway and its hallucinated beasts, then place the mead cup in the statue's hand."
     ],
     video: "https://www.youtube.com/watch?v=t7vE6XjCAnE"
   },
@@ -13091,20 +13086,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Isle of Mists",
-    location: "Skellige",
-    length: "long",
-    difficulty: "High",
-    reward: "Ciri found, act turn",
+    location: "The Isle of Mists, reached from Undvik, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ciri found; Act 2 begins",
     summary:
-      "Geralt braves the cursed Isle of Mists to find Ciri — a pivotal, mood-defining chapter.",
+      "A magic firefly guides Geralt from Undvik to the Isle of Mists. Dwarves in a hut won't open the door until their three missing companions come back, and inside Ciri lies seemingly dead.",
     aiTip:
-      "Your accumulated choices toward Ciri start paying off here; be kind, not commanding.",
+      "This is a point of no return for several Novigrad and Velen side quests, so save first. Gaspard falls asleep repeatedly, so keep waking him on the way back.",
     walkthrough: [
-      "Reach the Isle of Mists to finally find Ciri (this locks out missable Velen/Novigrad quests).",
-      "Search the island with Witcher Senses, clearing the monsters.",
-      "Solve the path through the mists to the chapel.",
-      "Find Ciri and rouse her.",
-      "Escape the island and set course for Kaer Morhen."
+      "Follow the firefly from the arch on northern Undvik to the island.",
+      "Fight through the erynias and reach the dwarves' hut.",
+      "Find Ferenc (dead, on the coast), Ivo (in a cave) and Gaspard (near the lighthouse).",
+      "Bring the survivors back to the hut.",
+      "Enter and find Ciri, who wakes when the firefly reaches her, then talk with her."
     ],
     video: "https://www.youtube.com/watch?v=JttpAKQC-UI"
   },
@@ -13114,21 +13109,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "The Battle of Kaer Morhen",
-    location: "Kaer Morhen",
+    location: "The forest around Kaer Morhen and the keep",
     length: "long",
     difficulty: "High",
-    reward: "Wild Hunt repelled, allies' cost",
+    reward: "The Wild Hunt is driven off, at a cost",
     summary:
-      "Rally the witchers, sorceresses, and friends to defend Kaer Morhen against the Wild Hunt.",
+      "The Wild Hunt comes for Ciri at Kaer Morhen. Geralt closes the Hunt's portals in the forest, falls back through the keep's gates and courtyards, and Ciri fights alongside him until the battle turns tragic.",
     aiTip:
-      "Recruit as many allies beforehand as you can — it changes who survives the siege.",
+      "Cast Yrden on the portals to close them without using a bomb, and save dimeritium bombs for when you're surrounded. The defense choices you made during preparation shape each wave.",
     walkthrough: [
-      "Gather your allies and prepare the defenses of Kaer Morhen.",
-      "Set traps, bombs, and positions with the witchers before the assault.",
-      "Hold the walls as the Wild Hunt attacks in waves.",
-      "Fight Imlerith and the Hunt's commanders at the keep.",
-      "Protect Ciri and the mages through the battle's turning point.",
-      "See the battle to its costly conclusion."
+      "Close the three Wild Hunt portals in the forest.",
+      "Fall back to the keep and close the main gate.",
+      "Retreat to the middle courtyard and reach Triss on the battlements.",
+      "As Ciri, use the amulet's fireballs carefully, since they also hurt her.",
+      "Help Eskel defeat Caranthir's warriors and open the inner courtyard gate."
     ],
     video: "https://www.youtube.com/watch?v=_8GKIvmLwY4"
   },
@@ -13140,18 +13134,18 @@ const quests = [
     title: "Blood on the Battlefield",
     location: "Kaer Morhen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Aftermath, Ciri's grief",
+    difficulty: "Low",
+    reward: "Affects Ciri's ending",
     summary:
-      "Pick up the pieces after the Wild Hunt's assault and steady Ciri for the road ahead.",
+      "After Vesemir's pyre, Ciri trains with Avallac'h and struggles with her power and her grief. Ciri's ending is shaped by how Geralt handles that, and by whether he takes her straight to Bald Mountain.",
     aiTip:
-      "How you comfort Ciri here feeds into her ending — encourage, don't pressure.",
+      "Say \"Relax. You don't have to be good at everything,\" then \"I think I know what might lift your spirits\" for the snowball fight. Both are positive choices for Ciri.",
     walkthrough: [
-      "In the battle's aftermath, tend to the fallen and the survivors.",
-      "Talk to each ally to take stock of the losses.",
-      "Handle the grim tasks the aftermath demands.",
-      "Plan the counterstroke against the Wild Hunt.",
-      "Advance the story toward Velen's Bald Mountain."
+      "Attend Vesemir's pyre and speak to the allies.",
+      "Go down the hill to Avallac'h and the others.",
+      "Choose the supportive reply when Ciri struggles with her power.",
+      "Cheer her up with the snowball fight (or a drink).",
+      "In the morning, agree to her plan to strike Imlerith on Bald Mountain."
     ],
     video: "https://www.youtube.com/watch?v=x6yXoTkfX88"
   },
@@ -13161,45 +13155,45 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Bald Mountain",
-    location: "Velen",
-    length: "long",
+    location: "Bald Mountain, Velen",
+    length: "medium",
     difficulty: "High",
-    reward: "Crones defeated, Ciri's power",
+    reward: "Imlerith slain; the Magic Acorn (2 skill points)",
     summary:
-      "Geralt and Ciri storm Bald Mountain to end the Crones and unleash Ciri's Elder Blood.",
+      "Ciri learns Imlerith will attend the Crones' sabbath on Bald Mountain. Geralt fights Imlerith on the summit while Ciri takes on the Crones.",
     aiTip:
-      "Let Ciri take the lead in the playable segment; it strengthens her confidence.",
+      "Imlerith's armor shrugs off a lot of damage, so Igni with armor-piercing skills helps. Loot the Magic Acorn from his body after the fight: eating it grants 2 skill points.",
     walkthrough: [
-      "Travel with Ciri to Bald Mountain to strike at Imlerith.",
-      "Fight up the mountain through the Hunt and the beasts.",
-      "Reach the Crones' sabbath and deal with them.",
-      "Battle Imlerith atop the peak — dodge his mace, use Quen and Aard.",
-      "Defeat Imlerith and secure the next step against Eredin."
+      "Get Thecla's permission to climb and retrieve the coin she throws into the water.",
+      "Defeat Fugas on the way up.",
+      "Win the argument with Ciri over who fights Imlerith (rock-paper-scissors).",
+      "Fight Imlerith across his two phases at the summit.",
+      "Loot the Magic Acorn and the chest near the throne, then regroup with Ciri."
     ],
-    video: "https://www.youtube.com/watch?v=i_c0ajXUwE0"
+    video: "https://www.youtube.com/watch?v=XKCdkVwpKkk"
   },
 {
     id: 606,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Skellige",
+    region: "Novigrad",
     title: "Through Time and Space",
-    location: "Skellige",
+    location: "The Chameleon cellar, Novigrad, and the worlds beyond the portal",
     length: "medium",
-    difficulty: "High",
-    reward: "Avallac'h's path, elven worlds",
+    difficulty: "Medium",
+    reward: "Ge'els's help luring Eredin with the Sunstone",
     summary:
-      "Travel with Avallac'h across shattered worlds via magic portals to find a way to stop the White Frost.",
+      "Avallac'h opens a portal in the cellar under the Chameleon in Novigrad. He and Geralt cross a dead desert world, poisoned valleys and a frozen world to reach Tir ná Lia, where Ge'els agrees to turn against Eredin.",
     aiTip:
-      "A surreal, linear chapter — enjoy the alien vistas between fights.",
+      "In the poisoned world, stay out of the valley gas. Keep pace with Avallac'h, because the portals only stay open for a while.",
     walkthrough: [
-      "Follow Avallac'h's plan and step through the portal with Ciri.",
-      "Traverse the shifting worlds (desert, frozen sea, red sky), keeping pace with Ciri.",
-      "Solve the traversal hazards of each world.",
-      "Escape the Wild Hunt pursuing you across the realms.",
-      "Return to your world to prepare for the final confrontation."
+      "Meet Avallac'h at the Chameleon and break the cellar wall to reveal the portal.",
+      "Survive the sandcrabs in the desert world while the portal charges.",
+      "Cross the poisoned world, avoiding the gas clouds, to rejoin Avallac'h.",
+      "Find Avallac'h at the lighthouse in the frozen world.",
+      "In Tir ná Lia, find Ge'els and win his help with the Sunstone."
     ],
-    video: "https://www.youtube.com/watch?v=dgf8L1d_AyQ"
+    video: "https://www.youtube.com/watch?v=X7WlzcfQw6I"
   },
 {
     id: 607,
@@ -13207,45 +13201,44 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Tedd Deireadh, the Final Age",
-    location: "Undvik / Skellige",
-    length: "long",
-    difficulty: "High",
-    reward: "Final battle, Eredin defeated",
+    location: "Undvik and the tower of Tor Gvalch'ca, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Story conclusion; sets up the ending",
     summary:
-      "The climactic confrontation with the Wild Hunt's king, Eredin Bréacc Glas.",
+      "With Eredin dead, Yennefer teleports Geralt to Undvik and they fight through the White Frost to the tower of Tor Gvalch'ca, where Avallac'h and Ciri wait. Ciri then decides to face the Frost herself.",
     aiTip:
-      "Your choices across the whole game converge here — the Eredin duel is the story's peak.",
+      "Stay under Yennefer's shield in the freezing stretch. How Geralt has treated Ciri across the game, not just here, decides which of the three endings you get.",
     walkthrough: [
-      "Rally the alliance for the final stand against Eredin at Undvik.",
-      "Fight through the Wild Hunt's forces to reach Eredin.",
-      "Battle Eredin — dodge his teleport strikes, use Yrden and Quen, punish openings.",
-      "Defeat Eredin and secure the Sunstone's power.",
-      "Set up the confrontation with the White Frost."
+      "Leave Naglfar with Yennefer and head for the tower on Undvik.",
+      "Follow her on foot and horseback, dodging the falling projectiles.",
+      "Kill the Hounds of the Wild Hunt and keep under her protective dome in the cold.",
+      "Pass through the barrier alone; Avallac'h throws down his sword instead of fighting.",
+      "Hear Ciri's plan and answer her as you see fit."
     ],
-    video: "https://www.youtube.com/watch?v=zC_0ldgttto"
+    video: "https://www.youtube.com/watch?v=epuJdDA6rgc"
   },
 {
     id: 608,
     type: "main",
     game: "The Witcher 3: Wild Hunt",
-    region: "Kaer Morhen",
+    region: "White Orchard",
     title: "Something Ends, Something Begins",
-    location: "Various",
+    location: "Varies by ending: White Orchard, Vizima or Crookback Bog",
     length: "short",
-    difficulty: "Medium",
-    reward: "Epilogue, Ciri's fate",
+    difficulty: "Low",
+    reward: "The ending: Ciri becomes a witcher, becomes Empress, or does not return",
     summary:
-      "The quiet epilogue where Geralt's and Ciri's fates are sealed by everything you've done.",
+      "The epilogue plays out according to Geralt's earlier choices with Ciri. She returns to become a witcher or the Empress of Nilfgaard, or she doesn't come back and Geralt hunts the last Crone in Crookback Bog.",
     aiTip:
-      "There are three Ciri endings — small kindnesses throughout the game decide which you get.",
+      "The witcher and Empress endings both need Ciri to survive, which takes mostly supportive choices. The Empress ending also needs Emhyr alive, so don't help kill him in Reason of State.",
     walkthrough: [
-      "Play through the epilogue following the final battle.",
-      "Visit the people and places shaped by your choices.",
-      "See Ciri's fate resolve based on your key decisions.",
-      "Tie off the remaining character threads.",
-      "Conclude Geralt's story."
+      "Witcher ending: find the sword in the ruins and give it to Ciri at the White Orchard inn.",
+      "Empress ending: meet the hunter at Mislav's hut, kill the forktail at the Griffin's nest, then see Ciri in Vizima.",
+      "Death ending: track down the Crone Weavess in Crookback Bog.",
+      "Watch the closing slides for the world's fate."
     ],
-    video: "https://www.youtube.com/watch?v=EUj1Tg33dO8"
+    video: "https://www.youtube.com/watch?v=YLthjIMAjII"
   },
 {
     id: 609,
@@ -13253,22 +13246,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Evil's Soft First Touches",
-    location: "Oxenfurt (Hearts of Stone)",
+    location: "Seven Cats Inn notice board, the Garin Estate and the Oxenfurt sewers (Hearts of Stone)",
     length: "medium",
-    difficulty: "High",
-    reward: "Olgierd's pact, Gaunter O'Dimm",
+    difficulty: "Medium",
+    reward: "XP; Gaunter O'Dimm's pact and Olgierd's three wishes",
     summary:
-      "Bound to the immortal Olgierd von Everec by Gaunter O'Dimm, Geralt must grant three impossible wishes.",
+      "A contract leads Geralt to Olgierd von Everec and a toad in the Oxenfurt sewers. Killing it reveals an Ofieri prince, so Geralt is shipped off as a prisoner until Gaunter O'Dimm frees him in exchange for serving Olgierd.",
     aiTip:
-      "Kicks off Hearts of Stone — O'Dimm is the franchise's most sinister figure; watch his words.",
+      "Drink Golden Oriole before the Toad Prince fight to be immune to its poison. On the ship, choose the bottom line '…alle'khe uhl eghullath!' for bonus XP.",
     walkthrough: [
-      "Take the Oxenfurt contract and confront Olgierd's target, Gaunter O'Dimm's mark.",
-      "Fight the Ofieri prince's monster/the toad prince in the sewers, using Quen and dodging its tongue.",
-      "Survive O'Dimm's bargain and accept the pact's terms.",
-      "Begin serving Olgierd's three impossible wishes.",
-      "Advance the Hearts of Stone story."
+      "Take the notice at the Seven Cats Inn and meet Olgierd at the Garin Estate.",
+      "Enter the Oxenfurt sewers through the well and break the wall with Aard.",
+      "Follow the slime with Witcher Senses and lure the Toad Prince out with alcohol.",
+      "Kill it, wake aboard the Ofieri ship and accept O'Dimm's pact.",
+      "Escape the wreck, meet Master Mirror at midnight, then return to the Garin Estate."
     ],
-    video: "https://www.youtube.com/watch?v=7OkR8EmjRnw"
+    video: "https://www.youtube.com/watch?v=0fGeUXStPiQ"
   },
 {
     id: 610,
@@ -13276,46 +13269,44 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Whatsoever a Man Soweth...",
-    location: "Oxenfurt (Hearts of Stone)",
+    location: "The Alchemy Inn, Oxenfurt Academy and the Temple of Lilvani (Hearts of Stone)",
     length: "medium",
     difficulty: "Medium",
-    reward: "Olgierd's first wish, heist prep",
+    reward: "Iris (sword) if you save Olgierd, or a wish from O'Dimm",
     summary:
-      "Fulfill Olgierd's first bizarre wish involving a rowdy wedding and a runaway spirit.",
+      "After the third wish, O'Dimm orders Geralt to bring Olgierd to the Temple of Lilvani to settle their contract. Geralt can let O'Dimm take Olgierd's soul or challenge him to a riddle contest for it.",
     aiTip:
-      "Leads into Dead Man's Party — expect chaos and comedy in equal measure.",
+      "Visit Shani and Professor Shakeslock at the Academy beforehand, or you can't challenge O'Dimm. The riddle's answer is the reflection in the water: Aard the cracked wall by the dry fountain.",
     walkthrough: [
-      "Take on Olgierd's wish and travel to the marked estate.",
-      "Investigate the site with Witcher Senses.",
-      "Deal with the supernatural obstacle in your way.",
-      "Complete the wish's task as instructed.",
-      "Report back to Olgierd to continue the pact."
+      "Meet O'Dimm at the Alchemy Inn in Oxenfurt.",
+      "See Shani, then Professor Shakeslock at the Academy, to learn how to beat O'Dimm.",
+      "Take Olgierd to the Temple of Lilvani and hand over the rose.",
+      "Choose to intervene and enter O'Dimm's riddle world.",
+      "Find the reflection by the dry fountain, then accept Olgierd's thanks and his sword Iris."
     ],
     video: "https://www.youtube.com/watch?v=_RtNHhOZ8ww"
   },
 {
     id: 611,
-    type: "main",
+    type: "side",
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Midnight Clear",
-    location: "Garin Estate (Hearts of Stone)",
-    length: "medium",
-    difficulty: "High",
-    reward: "O'Dimm's game, final choice",
+    location: "The wedding in Dead Man's Party, near Oxenfurt (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; romance scene with Shani",
     summary:
-      "The reckoning with Gaunter O'Dimm — outwit the devil in a deadly riddle to save your soul.",
+      "At the wedding Geralt attends with Shani in Dead Man's Party, he can look for a gift to cheer her up. The night ends with a scene between them, which plays out differently depending on the gift.",
     aiTip:
-      "The final riddle has a time limit and a hidden solution; explore the mirror-world fully.",
+      "Rowanberry brandy from the barn or the rowan flowers on the nearby tree are the right gifts; a bottle of mead is a poor choice. Leaving the wedding fails the quest.",
     walkthrough: [
-      "Attend the heist/wedding at the Borsodi/Garin estate as the plan requires.",
-      "Move through the event, handling guests and guards.",
-      "Enter the spirit-world segment and relive Iris's painted memories.",
-      "Fight the manifestations of Olgierd's past (the caretaker/creatures).",
-      "Reach the heart of the estate and make the pivotal choice.",
-      "Resolve the confrontation and advance toward the finale."
+      "Pick up the quest during the wedding in Dead Man's Party.",
+      "Use Witcher Senses to find a gift for Shani.",
+      "Take rowanberry brandy from the barn or rowan flowers from the tree.",
+      "Give it to Shani and see the night through with her."
     ],
-    video: "https://www.youtube.com/watch?v=TTEmgmPJUcI"
+    video: "https://www.youtube.com/watch?v=oPkouAEmCko"
   },
 {
     id: 612,
@@ -13323,20 +13314,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Envoys, Wineboys",
-    location: "Toussaint (Blood and Wine)",
-    length: "medium",
+    location: "Velen notice boards and Holloway (Stonecutters' Settlement) west of Oxenfurt; then Toussaint",
+    length: "short",
     difficulty: "Medium",
-    reward: "Toussaint arrives, knights' errand",
+    reward: "XP; travel to Toussaint",
     summary:
-      "Duchess Anna Henrietta's knights summon Geralt to fairy-tale Toussaint to hunt a beast slaying knights.",
+      "A notice addressed to Geralt brings him to the knights Milton and Palmerin, sent from Toussaint. A band of level-35 bandits troubles their camp; Geralt can wait and fight them, or talk the knights out of it, before riding south.",
     aiTip:
-      "Opens Blood and Wine and the Corvo Bianco vineyard — a huge, gorgeous new region.",
+      "The notice 'Appeal to Sir Geralt of Rivia, the Bridge his Crest' can turn up on any Velen board. You can skip the bandit fight by pointing out that new bandits would just replace them.",
     walkthrough: [
-      "Arrive in Toussaint and meet the knights errant sent to fetch you.",
-      "Investigate the first beast attack site with Witcher Senses.",
-      "Follow the trail to the victim and the clues left behind.",
-      "Report to Duchess Anna Henrietta at Beauclair Palace.",
-      "Accept the investigation into the Beast of Beauclair."
+      "Take the 'Appeal to Sir Geralt of Rivia' notice from a Velen board.",
+      "Meet Milton and Palmerin at Holloway, west of Oxenfurt.",
+      "Wait until morning and fight the bandits, or talk the knights out of it.",
+      "Ride with the knights to Toussaint."
     ],
     video: "https://www.youtube.com/watch?v=UDswuA6sYuc"
   },
@@ -13346,20 +13336,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Blood Run",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
-    difficulty: "High",
-    reward: "Dettlaff confrontation, Syanna lead",
+    location: "Beauclair, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Regis returns",
     summary:
-      "Chase the vampire Dettlaff through Beauclair as the conspiracy tightens around Syanna.",
+      "Geralt catches up with the Beast, the higher vampire Dettlaff, in a building in Beauclair. Win or lose, the fight is cut short when Regis steps in.",
     aiTip:
-      "A dramatic set-piece pursuit — your handling of Syanna shapes the expansion's ending.",
+      "Use Black Blood and Vampire Oil, and keep Active Shield Quen up. If he blocks two hits in a row he teleports behind you, so dodge then counter.",
     walkthrough: [
-      "Follow the lead on Dettlaff through Beauclair with Witcher Senses.",
-      "Investigate Syanna's trail and the vineyard clues.",
-      "Fight through the ambushes as the conspiracy unfolds.",
-      "Reach the confrontation the trail leads to.",
-      "Resolve the encounter and advance the mystery."
+      "Follow the Beast's trail into Beauclair.",
+      "Corner Dettlaff in the building he flees to.",
+      "Fight him; the outcome doesn't change the story.",
+      "Watch Regis intervene and talk with him."
     ],
     video: "https://www.youtube.com/watch?v=yHttMKZf8UU"
   },
@@ -13369,20 +13358,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Tesham Mutna",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
+    location: "The Tesham Mutna ruins, Toussaint",
+    length: "medium",
     difficulty: "High",
-    reward: "Regis's aid, vampire lore",
+    reward: "Tesham Mutna armor set; Regis's lead on Dettlaff",
     summary:
-      "Delve into vampire history with Regis to find a way to stop Dettlaff's rampage.",
+      "Regis needs the blood of a higher vampire in a frenzy, his own. At the ruins of Tesham Mutna he locks himself in a cage while Geralt baits the chamber and holds off the monsters until Regis's bloodlust peaks.",
     aiTip:
-      "Regis is a fantastic companion here — soak in the lore before the finale.",
+      "Loot the Tesham Mutna armor chests before you start the cage section, because the area locks you in. Keep Quen up, since monsters come from all four entrances.",
     walkthrough: [
-      "Travel to Tesham Mutna to find the way to reach Dettlaff.",
-      "Explore the ancient vampire ruin, using Senses and clearing its guardians.",
-      "Undergo or arrange the ritual needed to summon/parley with Dettlaff.",
-      "Deal with Regis's plan and the fallout.",
-      "Set up the final confrontation with Dettlaff."
+      "Reach the Tesham Mutna ruins with Regis and collect the armor from the chests.",
+      "Place the bait around the chamber, clearing the spots with Aard.",
+      "Talk to Regis to lock him in the cage.",
+      "Kill the monsters pouring in from all four entrances.",
+      "Hold out until Regis's bloodlust is high enough."
     ],
     video: "https://www.youtube.com/watch?v=k6M-NTUIoUQ"
   },
@@ -13392,20 +13381,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Pomp and Strange Circumstance",
-    location: "Toussaint (Blood and Wine)",
-    length: "long",
-    difficulty: "High",
-    reward: "Blood and Wine finale, ending choice",
+    location: "Beauclair Palace and the city, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Blood and Wine ending (Syanna and the duchess)",
     summary:
-      "The climax of Blood and Wine, where the fate of Dettlaff, Syanna, and the duchess is decided.",
+      "After Dettlaff is defeated, Geralt can track down his fifth intended victim and talk with Syanna before her trial. What he says decides whether the sisters reconcile, one of them dies, or both do.",
     aiTip:
-      "The ending hinges on earlier choices about Syanna — there's no purely happy outcome.",
+      "You need the ribbon from the flint girl (win at Gwent or pay 500 crowns) for Syanna to survive. Find the bootblack for the fifth-victim letter, and at the trial say \"You were children then, both.\"",
     walkthrough: [
-      "Reach the finale and confront Dettlaff over Syanna's fate.",
-      "Make the pivotal choice that decides the confrontation.",
-      "Fight Dettlaff — dodge his claw combos and summoned monsters, use Yrden and Vampire Oil.",
-      "Resolve the battle and its consequences for Beauclair.",
-      "See the Blood and Wine story to its ending."
+      "Follow the bootblack lead, then speak with the beggar to learn the fifth victim's name.",
+      "Get the letter that reveals the fifth victim.",
+      "Talk with Syanna: tell her Anna turned her back on her and ask if she ever thought to forgive her.",
+      "Attend the trial and choose \"You were children then, both.\"",
+      "See the ending play out."
     ],
     video: "https://www.youtube.com/watch?v=JlsjC9a4ziQ"
   },
@@ -13415,20 +13404,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Fake Papers",
-    location: "Velen",
+    location: "Refugee camp by the bridge north of the Hangman's Tree, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Refugee saved, coin",
+    reward: "A transit pass into Novigrad; small XP",
     summary:
-      "Help a refugee forge papers to escape Velen's war and the Nilfgaardian dragnet.",
+      "A shady merchant at a refugee camp in Velen sells forged transit passes for crossing into Novigrad. He'll take 100 crowns, less if Geralt uses Axii or helps his brother-in-law in Bitter Harvest.",
     aiTip:
-      "A small mercy quest — the outcome depends on trusting the right smuggler.",
+      "If you take on Bitter Harvest, keep Albin Hart alive, or the merchant refuses to sell you a pass at all. A strong enough Axii halves the price.",
     walkthrough: [
-      "Take the job in Velen to obtain forged papers from the local fixer.",
-      "Run the errand or recover the item the forger demands.",
-      "Deal with any guards or complications.",
-      "Return with the payment/goods to get the papers.",
-      "Collect the reward and finish the quest."
+      "Talk to the shady merchant at the refugee camp near the bridge north of the Hangman's Tree.",
+      "Pay 100 crowns, use Axii to haggle, or ask about another way.",
+      "For the cheaper price, help his brother-in-law in Bitter Harvest and keep Albin Hart alive.",
+      "Return to the merchant and buy the transit pass."
     ],
     video: "https://www.youtube.com/watch?v=yx2VlkUYAvk"
   },
@@ -13438,22 +13426,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "A Greedy God",
-    location: "Velen",
+    location: "Ruins with an altar south of Wastrel Manor, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Sylvan/godling lore, reward",
+    difficulty: "Low",
+    reward: "Up to 100 XP and 100 crowns, depending on the outcome",
     summary:
-      "Investigate a bog 'god' extorting a village and decide the fate of the creature behind it.",
+      "Two peasants, Dagmar and Preben, argue at a ruined altar over the 'Allgod' that demands ever-richer offerings. The god turns out to be a sylvan hiding in a cellar behind an illusion.",
     aiTip:
-      "Read the situation — the 'god' isn't quite what the frightened villagers claim.",
+      "You need the Eye of Nehaleni from Keira Metz to dispel the illusion. Loot the cellar chests before you finish, since you may not get back in. 'Settle for humble offerings – or die' pays best.",
     walkthrough: [
-      "Investigate the Velen villagers' offerings to their 'god' in the woods.",
-      "Follow the trail with Witcher Senses to the creature's grove.",
-      "Discover it's a monster exploiting the village (a godling/sylvan).",
-      "Confront it — fight it or broker a resolution.",
-      "Report back to settle the village's fate."
+      "Meet Dagmar and Preben at the ruined altar south of Wastrel Manor.",
+      "Use Witcher Senses on the crack in the wall and the vinegar-smelling bottle.",
+      "Dispel the illusory rubble with the Eye of Nehaleni and go down to the cellar.",
+      "Confront the Allgod: kill it, or bargain it down to humble offerings.",
+      "Report back to the peasants for your reward."
     ],
-    video: "https://www.youtube.com/watch?v=98LFNd6Sl4I"
+    video: "https://www.youtube.com/watch?v=yOh9UiIArV8"
   },
 {
     id: 620,
@@ -13461,22 +13449,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Volunteer",
-    location: "Velen",
+    location: "White Eagle Fort and Oxenfurt, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Elf's fate, karma",
+    reward: "50 XP; sparing him gives the Gven'nel and Axeman's Gauntlets diagrams plus hides",
     summary:
-      "An elf begs Geralt to help find her people amid the ruins of a flooded elven bath house.",
+      "A rock troll at White Eagle Fort believes he's a Redanian soldier guarding the boats, after accidentally killing everyone there. Geralt can kill him or help him paint the Redanian eagle on his shield.",
     aiTip:
-      "A melancholy quest about Velen's forgotten dead — light on combat, heavy on mood.",
+      "Sparing him pays better: buy the paint from the marked merchant in Oxenfurt. Check the chest on the nearby island first for the Enhanced Griffin Armor diagram.",
     walkthrough: [
-      "Meet the young volunteer near the plague-struck site in Velen.",
-      "Escort or assist him to the marked location, clearing monsters.",
-      "Uncover the grim situation he's walked into.",
-      "Make the choice the situation demands.",
-      "Resolve the quest and report back."
+      "Read the 'Beware of Trolls!' notice in Oxenfurt, or go straight to White Eagle Fort.",
+      "Talk to the troll and hear his story.",
+      "Kill him, or agree to fetch paint for his shield.",
+      "Buy the paint from the merchant in Oxenfurt.",
+      "Give it to the troll and help him paint the eagle."
     ],
-    video: "https://www.youtube.com/watch?v=2D9AD-2_c8A"
+    video: "https://www.youtube.com/watch?v=fGjSARozF38"
   },
 {
     id: 621,
@@ -13484,20 +13472,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Funeral Pyres",
-    location: "Velen",
+    location: "Road west of Mulbrydale and three corpse pits, Velen",
     length: "short",
     difficulty: "Low",
-    reward: "Coin, karma",
+    reward: "Small XP and coin, or a bigger bribe if you question the priest",
     summary:
-      "Deal with the Nilfgaardian soldiers desecrating the dead across Velen's battlefields.",
+      "A priest of the Eternal Fire hires Geralt to burn three pits of corpses. At the last pit a survivor, Titus, reveals the priest's men killed people over a fisstech deal and want the evidence burned.",
     aiTip:
-      "A quick moral-choice quest as you cross Velen — small reward, clear conscience.",
+      "The pits can be done in any order: clear the necrophages, douse the bodies with the holy oil and light them with Igni. Save Titus to learn the truth before you go back.",
     walkthrough: [
-      "Take the request to deal with the unburied dead around Velen.",
-      "Travel to the battlefield and clear the necrophages feeding there.",
-      "Build and light the funeral pyres as instructed.",
-      "Defend the site while the bodies burn.",
-      "Return to complete the quest."
+      "Meet the priest on the road west of Mulbrydale and take the three flasks of oil.",
+      "Clear the rotfiend and ghouls at each pit.",
+      "Douse the bodies and light them with Igni.",
+      "Rescue Titus at the last pit and hear his story.",
+      "Return to the priest near the Novigrad bridge and take the fee, or his bribe."
     ],
     video: "https://www.youtube.com/watch?v=BI3KTQscdSg"
   },
@@ -13507,20 +13495,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "The Fall of the House of Reardon",
-    location: "Velen",
+    location: "Reardon Manor, Lindenvale, Velen",
     length: "short",
-    difficulty: "Medium",
-    reward: "Wraith lore, treasure",
+    difficulty: "Low",
+    reward: "About 25-205 XP and 100 florens from Dolores's lockbox",
     summary:
-      "Investigate a haunted, abandoned estate and the tragedy that cursed the Reardon family.",
+      "Old Dolores Reardon wants her abandoned family estate cleared. What Geralt finds depends on Letho's fate in The Witcher 2: wraiths if he died, traps and a hidden figure if he lived.",
     aiTip:
-      "Specter Oil and Yrden for the wraith; loot the manor for a tidy sum.",
+      "With Letho alive, the visit starts Ghosts of the Past, so watch for tripwires. Use Witcher Senses on the barn wall to find the lockbox, and read Dolores's diary for extra XP.",
     walkthrough: [
-      "Investigate the haunted Reardon manor in Velen.",
-      "Explore the house with Witcher Senses to follow the ghostly clues.",
-      "Piece together the family's grim end.",
-      "Confront and put down the wraith/monster inside (Specter Oil, Yrden).",
-      "Resolve the haunting and claim the reward."
+      "Take the Lindenvale notice or speak to Dolores, and get her lockbox key.",
+      "Go to Reardon Manor and clear the wraiths (or disarm the traps if Letho lived).",
+      "Find the Sturdy Barn Key in the small chest in the eastern house.",
+      "Reveal the writing on the barn wall with Witcher Senses and open the lockbox.",
+      "Optionally read Dolores's diary and search the cellar behind the barn."
     ],
     video: "https://www.youtube.com/watch?v=n02RlOoI6X8"
   },
@@ -13530,20 +13518,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Gwent: Old Pals",
-    location: "Novigrad",
-    length: "short",
-    difficulty: "Low",
-    reward: "Rare Gwent cards",
+    location: "Novigrad, The Nowhere Inn and Kaer Morhen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Eithné, Saesenthessis and Triss Merigold cards, plus XP per win",
     summary:
-      "Play Novigrad's finest Gwent players to win rare cards for your collection.",
+      "Geralt plays Gwent against four old friends: Zoltan, Vernon Roche, Lambert and Thaler. Each win earns a unique card.",
     aiTip:
-      "Build a solid Northern Realms or Nilfgaard deck first — these opponents don't hold back.",
+      "Thaler is easy to lose: if you side with Dijkstra and Thaler dies in Reason of State, you can't finish. This quest is required for the Card Collector achievement.",
     walkthrough: [
-      "Find the old-timers in Novigrad who play Gwent and challenge each in turn.",
-      "Win matches to collect the cards they wager.",
-      "Track down each named player across the city.",
-      "Beat the toughest of them to claim their rare card.",
-      "Complete the set to finish the quest."
+      "Beat Zoltan (during Broken Flowers, or after A Poet Under Pressure).",
+      "Find Roche at the Temerian partisan hideout and beat him.",
+      "Track down Lambert at The Nowhere Inn or Kaer Morhen.",
+      "Beat Thaler before Reason of State resolves."
     ],
     video: "https://www.youtube.com/watch?v=hHubdnDzwOo"
   },
@@ -13553,20 +13540,18 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Gwent: Playing Innkeeps",
-    location: "Velen",
-    length: "short",
-    difficulty: "Low",
-    reward: "Gwent cards, coin",
+    location: "Inn at the Crossroads (Velen), The Alchemy (Oxenfurt) and The Kingfisher (Novigrad)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Menno Coehoorn, Yennefer of Vengerberg and Tibor Eggebracht cards, plus XP",
     summary:
-      "Tour the taverns of Velen and Novigrad beating innkeepers at Gwent.",
+      "Three innkeepers play Gwent for unique cards: the innkeeper at the Inn at the Crossroads, Stjepan at The Alchemy in Oxenfurt, and Olivier at The Kingfisher in Novigrad.",
     aiTip:
-      "A relaxing card-collecting circuit — grab every card you can before the bigger tournaments.",
+      "Stjepan's Emhyr leader cancels yours, so build a deck that doesn't rely on it. If Olivier dies in Now or Never, his Tibor Eggebracht card is in a lockbox in the room next to the bar.",
     walkthrough: [
-      "Travel Velen's inns and challenge each innkeep to Gwent.",
-      "Win matches to earn the cards they stake.",
-      "Visit every marked tavern on the map.",
-      "Beat them all to collect their cards.",
-      "Finish the quest once each innkeep is defeated."
+      "Beat the innkeeper at the Inn at the Crossroads for Menno Coehoorn.",
+      "Get a pass into Oxenfurt and beat Stjepan at The Alchemy for Yennefer.",
+      "Beat Olivier at The Kingfisher in Novigrad for Tibor Eggebracht."
     ],
     video: "https://www.youtube.com/watch?v=BuBHQRo4XCg"
   },
@@ -13576,22 +13561,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "A Deadly Plot",
-    location: "Novigrad",
-    length: "medium",
-    difficulty: "Medium",
-    reward: "Triss & mages arc, ambush foiled",
+    location: "Passiflora, Novigrad, and the Redanian border south of the bridge",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP",
     summary:
-      "Uncover a witch-hunter plot targeting Triss and the fleeing mages of Novigrad.",
+      "Dijkstra's contact Thaler has gone missing on the way into Novigrad. Geralt follows a trail of shoes from his abandoned cart to a troll cave, where three trolls are holding the cobbler-spy.",
     aiTip:
-      "Ties into the Triss romance and the mage-smuggling arc — investigate thoroughly.",
+      "Pick the second dialogue option twice to talk the trolls down without a fight. Finish it before The Isle of Mists or it fails.",
     walkthrough: [
-      "Begin the Novigrad plot uncovering a conspiracy against a target.",
-      "Follow the leads with Witcher Senses through the city.",
-      "Infiltrate the meeting/hideout to learn the plan.",
-      "Fight or outmaneuver the plotters.",
-      "Foil (or allow) the plot and report the outcome."
+      "Meet Dijkstra at the Passiflora after Now or Never.",
+      "Talk to Gregor at the Redanian border post.",
+      "Find the abandoned cart south of the bridge and kill the wolves.",
+      "Follow the trail of shoes to Rogg, then to the trolls' cave.",
+      "Free Thaler and escort him back to his cart."
     ],
-    video: "https://www.youtube.com/watch?v=5Y5lUv384Xk"
+    video: "https://www.youtube.com/watch?v=ueKvJgQPYKY"
   },
 {
     id: 626,
@@ -13599,20 +13584,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Contract: The Phantom of Eldberg",
-    location: "Skellige",
+    location: "Arinbjorn tavern and the Eldberg lighthouse, Skellige",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, wraith trophy",
+    reward: "About 184 crowns and 250-310 XP; Wraith trophy and the Ashrune sword",
     summary:
-      "A lighthouse keeper's death has loosed a vicious wraith on a Skellige isle.",
+      "Jorund in Arinbjorn hires Geralt to deal with a wraith haunting the Eldberg lighthouse. The keeper, Mikkjal, has a guilty past, and the wraith (the Penitent) only shows itself when the brazier is lit.",
     aiTip:
-      "Restore the lighthouse flame and use Yrden against the penitent wraith.",
+      "Read the letter on the lighthouse's second floor before relighting the brazier. Specter Oil and Yrden make the Penitent much easier.",
     walkthrough: [
-      "Take the contract and travel to the Eldberg lighthouse in Skellige.",
-      "Investigate the keeper's fate with Witcher Senses; relight the lighthouse fire.",
-      "Apply Specter Oil and use Yrden to trap the penitent wraith it summons.",
-      "Dodge its strikes and dispel its illusions with Igni.",
-      "Banish the penitent, take the trophy, and claim the fee."
+      "Talk to Jorund in the Arinbjorn tavern.",
+      "Sail to Eldberg and find Mikkjal.",
+      "Examine the lighthouse with Witcher Senses and read the letter upstairs.",
+      "Help Mikkjal light the brazier and kill the Penitent.",
+      "Take the trophy and return to Jorund for your pay."
     ],
     video: "https://www.youtube.com/watch?v=vFU3uJazcVU"
   },
@@ -13620,24 +13605,24 @@ const quests = [
     id: 627,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "White Orchard",
+    region: "Velen",
     title: "Contract: Missing Brother",
-    location: "White Orchard",
+    location: "Inn at the Crossroads and the old mine southwest of the Border Post, Velen",
     length: "short",
-    difficulty: "Low",
-    reward: "Coin, cockatrice/monster trophy",
+    difficulty: "Medium",
+    reward: "Crowns and XP; Arachas trophy",
     summary:
-      "A woman's brother has vanished on the road; follow the grisly trail to the culprit.",
+      "Bruno at the Inn at the Crossroads wants his brother Mikkel found. Mikkel led a group of women to an old mine near the Border Post, and the mine is now the lair of an arachas called Harrisi.",
     aiTip:
-      "An early contract that teaches monster tracking with Witcher Senses.",
+      "Destroy the arachas eggs with Signs as you go. Use Insectoid Oil and Quen against Harrisi's venom.",
     walkthrough: [
-      "Take the White Orchard contract and question the man about his missing brother.",
-      "Follow the trail with Witcher Senses toward the marked search area.",
-      "Clear the necrophages/monsters at the site.",
-      "Find the brother's fate and any survivors.",
-      "Report back to the contract-giver for the reward."
+      "Take the notice at the Inn at the Crossroads and talk to Bruno.",
+      "Go to the old mine southwest of the Border Post and examine the tracks outside.",
+      "Track through the mine with Witcher Senses, swimming through the flooded passage.",
+      "Destroy the eggs and kill Harrisi.",
+      "Return to Bruno with the news."
     ],
-    video: "https://www.youtube.com/watch?v=JpsLmcTnKLw"
+    video: "https://www.youtube.com/watch?v=pbEm6es_ilo"
   },
 {
     id: 628,
@@ -13645,43 +13630,43 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Contract: The Merry Widow",
-    location: "Velen",
+    location: "Lindenvale cemetery and a nearby hut, Velen",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, grave hag trophy",
+    reward: "About 190-240 XP and 180-260 crowns; grave hag trophy",
     summary:
-      "Villagers near a crossroads are slain by a grave hag feeding on the war dead.",
+      "The gravedigger of Lindenvale posts a notice about trouble at the cemetery and a missing boy. The culprit is a grave hag, Mourntart, who has to be lured out with the skulls from her hut.",
     aiTip:
-      "Golden Oriole against its poison, and strike hard when it lunges from the ground.",
+      "Wait until midnight at the cemetery after placing the skulls, or she won't appear. Necrophage Oil and Igni work well, so dodge her tongue lash.",
     walkthrough: [
-      "Accept the Velen contract and question the widow and villagers about the grave attacks.",
-      "Track the disturbance with Witcher Senses to the haunted cemetery.",
-      "Apply Necrophage Oil and ready Igni/Quen for the Grave Hag.",
-      "Bait its tongue-grab, dodge, and burn it down.",
-      "Kill the Grave Hag, take the trophy, and claim the reward."
+      "Take the notice in Lindenvale and talk to the gravedigger.",
+      "Clear the cemetery and follow the cadaverine scent to the hut.",
+      "Examine the clues and take the skulls.",
+      "Place the skulls in the cemetery and wait for midnight.",
+      "Kill Mourntart, take the trophy and collect your reward."
     ],
-    video: "https://www.youtube.com/watch?v=gifrgo8GM-M"
+    video: "https://www.youtube.com/watch?v=xzFKT02Nz1I"
   },
 {
     id: 629,
     type: "side",
     game: "The Witcher 3: Wild Hunt",
-    region: "Velen",
+    region: "Novigrad",
     title: "Contract: The Oxenfurt Drunk",
-    location: "Velen (Hearts of Stone)",
+    location: "Oxenfurt notice board and the katakan's lair",
     length: "short",
     difficulty: "Medium",
-    reward: "Coin, monster trophy",
+    reward: "About 300 XP and 204-273 crowns; Katakan trophy, the Deargdeith sword",
     summary:
-      "A 'drunk' terrorizing Oxenfurt's outskirts turns out to be something far worse.",
+      "A Redanian officer, Nikolas Friedman, wants the killer stalking drunks in Oxenfurt stopped. The 'drunk' is Gael, a katakan who feeds only on blood laced with alcohol.",
     aiTip:
-      "Investigate the attacks first — the true culprit isn't the obvious one.",
+      "Get drunk at the tavern to bait Gael. Haggle with Friedman to push the pay toward 273 crowns.",
     walkthrough: [
-      "Take the Hearts of Stone contract on the Oxenfurt attacks.",
-      "Question the drunk and witnesses, then follow the trail with Witcher Senses.",
-      "Identify the monster's class and apply the matching oil, readying Quen.",
-      "Fight the creature, dodging its attacks and exploiting its weakness.",
-      "Slay it, take the trophy, and claim the fee."
+      "Take the notice in Oxenfurt and talk to Nikolas Friedman.",
+      "Talk to the witness and examine the attack site with Witcher Senses.",
+      "Drink with the innkeep to make yourself bait.",
+      "Track Gael to his hideout and kill him.",
+      "Loot the Deargdeith sword and the lair key, then collect your pay from Friedman."
     ],
     video: "https://www.youtube.com/watch?v=6ayCa5PPkmM"
   },
@@ -13691,22 +13676,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scavenger Hunt: Cat School Gear",
-    location: "Velen / Novigrad",
+    location: "Velen and Novigrad (base set); upgrades across the map",
     length: "medium",
     difficulty: "Medium",
-    reward: "Feline witcher armor set",
+    reward: "Feline (Cat School) gear diagrams",
     summary:
-      "Follow old maps to recover the fast, light Feline (Cat) School witcher gear.",
+      "The light, fast Feline gear is scattered across Velen and Novigrad. Picking up any diagram starts the hunt, and the treasure maps only add markers.",
     aiTip:
-      "Great for a crit/speed build — the upgrade diagrams span multiple regions.",
+      "The first map is sold by a merchant in Blackbough, but you can skip it and grab the diagrams directly. Higher tiers continue in later parts, ending with the Grandmaster set in Toussaint.",
     walkthrough: [
-      "Pick up the Cat School Gear diagrams' scavenger-hunt maps (Velen/Novigrad).",
-      "Follow each map with Witcher Senses to its stash, clearing guardians.",
-      "Collect all six diagrams for the set (swords, armor, gauntlets, trousers, boots).",
-      "Loot the required crafting materials for each piece.",
-      "Take the diagrams and mats to a craftsman to forge the Feline set."
+      "Buy the first map in Blackbough, or pick up any Cat diagram to start the hunt.",
+      "Follow each marker with Witcher Senses and clear the guardians.",
+      "Collect the swords, armor, gauntlets, trousers and boots diagrams.",
+      "Take them to a blacksmith and armorer to craft the Feline set."
     ],
-    video: "https://www.youtube.com/watch?v=a1nlEzNIs9A"
+    video: "https://www.youtube.com/watch?v=wkgIiGGbU2k"
   },
 {
     id: 631,
@@ -13714,20 +13698,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Velen",
     title: "Scavenger Hunt: Griffin School Gear",
-    location: "Velen",
+    location: "Dragonslayer's Grotto and Velen (base set); upgrades in Novigrad and Skellige",
     length: "medium",
     difficulty: "Medium",
-    reward: "Griffin witcher armor set",
+    reward: "Griffin School gear diagrams (good for Sign builds)",
     summary:
-      "Track down the Griffin School gear diagrams, ideal for a Sign-focused build.",
+      "Edwin Greloff's maps, sold by the armorer in Midcopse, all point to Dragonslayer's Grotto first. The base Griffin set is spread around Velen, including Hindhold and an underwater cave by Lornruk.",
     aiTip:
-      "Griffin gear boosts Sign intensity — perfect for an Igni/Yrden playstyle.",
+      "Harpies nest on Hindhold's roof by the steel sword diagram. To get into Lornruk, dive next to the shrine.",
     walkthrough: [
-      "Pick up the Griffin School Gear scavenger-hunt maps in Velen.",
-      "Follow each clue with Witcher Senses to its hidden chest, defeating guards.",
-      "Collect all the Griffin (Ursine-style) diagrams across the region.",
-      "Gather the crafting materials each piece needs.",
-      "Craft the Griffin set at a blacksmith and armorer."
+      "Buy Edwin Greloff's map from the Midcopse armorer, or find any Griffin diagram.",
+      "Start at Dragonslayer's Grotto, northwest of Downwarren.",
+      "Collect the steel sword diagram at Hindhold and the silver sword near Lornruk.",
+      "Gather the remaining diagrams across Velen.",
+      "Craft the set with a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/watch?v=dXFYFSZK_nE"
   },
@@ -13737,22 +13721,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Scavenger Hunt: Bear School Gear",
-    location: "Skellige",
+    location: "Skellige (base and enhanced sets); later tiers in Velen",
     length: "medium",
     difficulty: "High",
-    reward: "Ursine (Bear) witcher armor set",
+    reward: "Ursine (Bear School) gear diagrams: heavy armor",
     summary:
-      "Climb Skellige's peaks and dive its wrecks for the heavy, tanky Ursine gear.",
+      "Ibrahim Savi's maps lead to the heavy Ursine set. The first is sold by the Oxenfurt armorer and the rest by the armorer at Kaer Trolde, with the base and enhanced pieces across Skellige's isles.",
     aiTip:
-      "Bear gear favors heavy attacks and raw defense — a bruiser's set.",
+      "Several stashes sit in monster dens: the Grossbart brothers' grotto and a troll cave both hold diagrams. The Superior and Mastercrafted tiers move back to Velen.",
     walkthrough: [
-      "Pick up the Bear (Ursine) School Gear maps in Skellige.",
-      "Sail and climb to each stash, using Senses and clearing the tough guardians.",
-      "Collect all the Ursine diagrams scattered across the isles.",
-      "Gather the required materials (some need higher-level components).",
-      "Forge the Bear School set with a smith and armorer."
+      "Buy Ibrahim Savi's first map from the armorer in Oxenfurt.",
+      "Buy the later maps from the armorer at Kaer Trolde.",
+      "Sail to each marked spot in Skellige and clear its guardians.",
+      "Collect the swords, armor and crossbow diagrams.",
+      "Craft the Ursine set with a blacksmith and armorer."
     ],
-    video: "https://www.youtube.com/watch?v=ETR_BCc-jck"
+    video: "https://www.youtube.com/watch?v=ClH5G7iyfwU"
   },
 {
     id: 633,
@@ -13760,20 +13744,19 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Kaer Morhen",
     title: "Scavenger Hunt: Wolf School Gear",
-    location: "Kaer Morhen",
+    location: "The Old Signal Tower near Kaer Morhen (base set); Velen and Skellige for upgrades",
     length: "medium",
     difficulty: "Medium",
-    reward: "Wolven witcher armor set (balanced)",
+    reward: "Wolven (Wolf School) gear diagrams: balanced armor",
     summary:
-      "Recover the balanced Wolf School gear scattered around Kaer Morhen and Velen.",
+      "The balanced Wolven set starts at the Old Signal Tower just south of the Kaer Morhen signpost. Notes sold by the blacksmith in Lindenvale or by Hattori in Novigrad mark the way.",
     aiTip:
-      "A well-rounded set — a safe default while you gather the specialized schools.",
+      "The enhanced silver sword diagram is in the underground passage to Crow's Perch, the same well route as in Family Matters. Later tiers' maps are sold at Kaer Trolde and Kaer Muire.",
     walkthrough: [
-      "Pick up the Wolf School Gear maps around Kaer Morhen and Velen.",
-      "Follow each clue with Witcher Senses to its cache, clearing monsters.",
-      "Collect all the Wolven diagrams for the set.",
-      "Gather the crafting materials each piece requires.",
-      "Craft the Wolf School set at a blacksmith and armorer."
+      "Buy the 'slightly torn notes' from the Lindenvale blacksmith or Hattori.",
+      "Go to the Old Signal Tower south of the Kaer Morhen signpost for the armor diagrams.",
+      "Follow the remaining markers around Kaer Morhen.",
+      "Craft the Wolven set with a blacksmith and armorer."
     ],
     video: "https://www.youtube.com/watch?v=CP70nZSEYIg"
   },
@@ -13783,22 +13766,22 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Toussaint",
     title: "Scavenger Hunt: Grandmaster Manticore Gear",
-    location: "Toussaint (Blood and Wine)",
+    location: "Bastoy Prison ruins, Lebioda's temple, a hidden chapel cave and the Lake of Cleansing, Toussaint (Blood and Wine)",
     length: "medium",
     difficulty: "High",
-    reward: "Manticore witcher set (alchemy)",
+    reward: "Grandmaster Manticore gear diagrams (alchemy set)",
     summary:
-      "Hunt the Manticore School gear across Toussaint for a potent alchemy-focused set.",
+      "Lafargue, the smith in Beauclair, starts the hunt for the alchemy-focused Manticore set during Master Master Master Master!. Merten's six diagrams are scattered across Toussaint.",
     aiTip:
-      "Blood and Wine's best witcher set for a mutation/alchemy build — worth the trek.",
+      "The gauntlets are at the bottom of the Lake of Cleansing, northeast of Basane Farm, so clear the bandits before diving. Crafting it needs a grandmaster smith.",
     walkthrough: [
-      "Start the Manticore School Gear hunt in Toussaint (Blood and Wine).",
-      "Follow each map with Witcher Senses to its stash, defeating the guardians.",
-      "Collect all the Manticore diagrams across Toussaint.",
-      "Gather the high-tier crafting materials the set needs.",
-      "Forge the Manticore set at a master craftsman."
+      "Ask Lafargue in Beauclair about Manticore gear.",
+      "Get the steel sword diagram at the Bastoy Prison ruins.",
+      "Get the armor in the cliff tunnel, and the trousers and boots at Lebioda's temple.",
+      "Find the silver sword in the hidden chapel cave.",
+      "Dive for the gauntlets in the Lake of Cleansing, then have the set crafted."
     ],
-    video: "https://www.youtube.com/watch?v=cnti-X6O794"
+    video: "https://www.youtube.com/watch?v=DOqe5LJtvYk"
   },
 {
     id: 635,
@@ -13806,22 +13789,21 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "Fists of Fury: Skellige",
-    location: "Skellige",
+    location: "Kaer Trolde Harbor, Arinbjorn, Faroe and the arena near Urialla Harbor, Skellige",
     length: "short",
     difficulty: "Medium",
-    reward: "Boxing champion coin",
+    reward: "About 70 crowns per fighter (90 for Olaf); The Digger and Nilfgaardian guardsman armor diagrams; the Gwestog sword",
     summary:
-      "Beat Skellige's toughest brawlers in bare-knuckle boxing matches.",
+      "Geralt fist-fights his way through Skellige's champions, Valgard, Grim and Einar, to reach the island's champion Olaf, who turns out to be a bear.",
     aiTip:
-      "Dodge and counter — trading blows with the islanders is a losing game.",
+      "Valgard asks you to throw the fight to impress Eryka, but you can refuse. Block and counter rather than trading blows, especially against Olaf.",
     walkthrough: [
-      "Take the Fists of Fury challenge in Skellige and find the local brawlers.",
-      "Beat each opponent in bare-knuckle fights (block and counter, watch stamina).",
-      "Work up the ladder to the island's champion.",
-      "Defeat the champion in the final bout.",
-      "Claim the prize money and complete the tournament."
+      "Beat Valgard outside the New Port Inn at Kaer Trolde Harbor.",
+      "Beat Grim in Arinbjorn.",
+      "Beat Einar on Faroe.",
+      "Face Olaf in the arena northeast of Urialla Harbor on An Skellig."
     ],
-    video: "https://www.youtube.com/watch?v=ugogRW-mnJg"
+    video: "https://www.youtube.com/watch?v=zeLREkG8d2g"
   },
 {
     id: 2354,
@@ -13829,20 +13811,20 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Skellige",
     title: "The Last Wish",
-    location: "Skellige (Larvik / sunken ship)",
+    location: "Larvik, Hindarsfjall, the seas off Skellige and a mountaintop on Ard Skellig",
     length: "medium",
     difficulty: "Medium",
     reward: "Djinn's last wish, Yennefer romance path",
     summary:
-      "Yennefer asks Geralt to help her recapture the djinn that once bound their fates, so she can learn whether their love is real or just the product of his final wish. The hunt leads to a sunken ship off Skellige and a dangerous confrontation with the freed genie.",
+      "Yennefer wants to find the djinn that bound her fate to Geralt's, to learn whether their love is real or just the effect of his last wish. They sail from Larvik to search the wrecks for the djinn's seal.",
     aiTip:
-      "Bring Elementa Oil and keep Quen up — the djinn hits hard with wind and lightning. Completing this is the gateway to Geralt and Yennefer's romance, so mind your dialogue at the end.",
+      "Stay inside each search area until Yennefer moves on, or she leaves and the quest fails. Finish it before Ugly Baby. On the mountaintop, don't try to climb down: sliding off the summit kills Geralt.",
     walkthrough: [
-      "Meet Yennefer in Larvik on Skellige and sail out to the marked spot to find the seal fragments.",
-      "Dive to the sunken ship and recover the broken seal pieces, avoiding the sirens and drowners.",
-      "Return to Yennefer so she can perform the ritual that frees the djinn.",
-      "Apply Elementa Oil and cast Quen, then fight the djinn — dodge its wind vortex and lightning strikes.",
-      "Defeat the djinn to break the bond, then choose honestly in the conversation with Yennefer that follows.",
+      "After Nameless, find Yennefer at the inn in Larvik on Hindarsfjall.",
+      "Sail with her to the first two wreck sites (a Clan Drummond wreck, then old Heymaey longships), both the wrong ships.",
+      "At the third site, dive to the wreck and bring back the broken seal.",
+      "Go through Yennefer's portal to the mountaintop on Ard Skellig.",
+      "Face the djinn with her, then say what you really feel about Yennefer."
     ],
     video: "https://www.youtube.com/watch?v=cE7Bdij1sJ8"
   },
@@ -13852,8 +13834,6 @@ const quests = [
     game: "The Witcher 3: Wild Hunt",
     region: "Novigrad",
     title: "Reason of State",
-    missable: true,
-    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first",
     location: "Novigrad / Oxenfurt",
     length: "long",
     difficulty: "High",
@@ -13861,16 +13841,17 @@ const quests = [
     summary:
       "The conspiracy to assassinate the mad King Radovid comes to a head. Working with Roche, Ves, Thaler and Dijkstra, Geralt helps set the trap — but Dijkstra has his own designs on the throne, forcing a final, bloody choice.",
     aiTip:
-      "This quest is highly missable: you must side correctly in 'An Eye for an Eye' and 'Blindingly Obvious' (get Philippa from Dijkstra) to unlock it. After Radovid falls, decide whether to stand with Dijkstra or Roche's group — it shapes the Northern Kingdoms' fate.",
+      "To unlock it, finish A Deadly Plot (which needs Triss's A Matter of Life and Death and Now or Never), An Eye for an Eye and Redania's Most Wanted. In Blindingly Obvious, settle things with Dijkstra peacefully. Finish it before On Thin Ice or it fails.",
     walkthrough: [
-      "Complete the lead-in quests (An Eye for an Eye, Blindingly Obvious) so the conspirators trust you and Philippa is freed.",
-      "Meet the plotters and take up your position to lure Radovid off his ship.",
-      "Spring the ambush and let Philippa deliver the killing blow to Radovid.",
-      "When Dijkstra turns on Roche's group, choose your side.",
-      "Fight Dijkstra and his men if you side with Roche (or stand aside), then survive the confrontation.",
-      "See the outcome that sets Nilfgaard or Redania on the path to victory.",
+      "Complete the lead-in quests so Roche, Dijkstra and Philippa all trust you.",
+      "Take Vizimir II's ring from Philippa as proof to lure Radovid.",
+      "Board Radovid's ship at the docks, show him the ring and lead him to St. Gregory's Bridge.",
+      "Watch Philippa kill Radovid.",
+      "When Dijkstra turns on Roche, Ves and Thaler, defend them (fight Dijkstra) or walk away."
     ],
-    video: "https://www.youtube.com/watch?v=OIstcrq-IIc"
+    video: "https://www.youtube.com/watch?v=OIstcrq-IIc",
+    missable: true,
+    missableWindow: "Act 3 — requires the Roche/Dijkstra setup quests first"
   },
 {
     id: 2356,
@@ -14055,6 +14036,4262 @@ const quests = [
       "Tell the birds you're ready to meet Regis.",
     ],
     video: "https://www.youtube.com/watch?v=vO1qHy2feh4"
+  },
+{
+    id: 2753,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Kaer Morhen",
+    location: "Kaer Morhen (dream prologue)",
+    length: "short",
+    difficulty: "Low",
+    reward: "None (tutorial)",
+    summary:
+      "A dream of Geralt's past at Kaer Morhen, where Yennefer, Vesemir and a young Ciri walk him through the basics of movement, combat and signs.",
+    aiTip:
+      "The race against Ciri and the sparring with Vesemir are optional, so skip them if you already know the controls. Use Witcher Senses to find the key in Yennefer's room.",
+    walkthrough: [
+      "Wake in Yennefer's room and use Witcher Senses to find the door key.",
+      "Head down to the courtyard and meet Vesemir and young Ciri.",
+      "Optionally race Ciri around the keep.",
+      "Optionally spar with Vesemir to learn sword fighting and signs.",
+      "Finish the training to wake from the dream and start the story proper."
+    ],
+    video: "https://www.youtube.com/watch?v=DULFPalFCU0"
+  },
+{
+    id: 2754,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "The Incident at White Orchard",
+    location: "White Orchard tavern",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 300 XP",
+    summary:
+      "Back at the White Orchard tavern, a group of thugs picks a fight with Geralt and Vesemir just as Nilfgaardian riders arrive to escort Geralt to the Emperor.",
+    aiTip:
+      "Open with Igni to catch most of the bandits at once. Finishing this also completes Lilac and Gooseberries and starts Imperial Audience automatically.",
+    walkthrough: [
+      "Return to the White Orchard tavern.",
+      "Fight the bandits who attack you inside.",
+      "Open with Igni to hit several of them at once, then clean up with your sword.",
+      "Watch the cutscene as the Nilfgaardian escort arrives, which starts Imperial Audience."
+    ],
+    video: "https://www.youtube.com/watch?v=TeXDNlsatq8"
+  },
+{
+    id: 2755,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: The King of the Wolves",
+    location: "Lindenvale riverbed, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Playing as Ciri during the Bloody Baron's tale, you rescue a little girl named Gretka from wolves and walk her home through the valley.",
+    aiTip:
+      "Ciri can't parry, so keep dodging and use her blink to get behind the wolves. A second pack attacks on the way back, so stay close to Gretka.",
+    walkthrough: [
+      "As Ciri, follow the riverbed.",
+      "Kill the wolves surrounding Gretka on the tree branch.",
+      "Escort Gretka back toward her home.",
+      "Fight off the second pack of wolves that attacks.",
+      "Get Gretka home to finish the flashback."
+    ],
+    video: "https://www.youtube.com/watch?v=csDDCyqt4cI"
+  },
+{
+    id: 2756,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: The Race",
+    location: "Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "As the Baron tells it, Ciri bet him that she could beat him in a horse race, with the mount of her choice as the prize. Race the Bloody Baron as Ciri.",
+    aiTip:
+      "Stay on the yellow path, since the white dotted path is longer. Win or lose, the story plays out the same, and a basilisk cuts the race short at the tower.",
+    walkthrough: [
+      "As Ciri, accept the Baron's wager.",
+      "Race him along the yellow track, galloping the whole way.",
+      "Cut in front of the Baron to block him if your stamina runs low.",
+      "Reach the tower at the finish, where a basilisk interrupts the race."
+    ],
+    video: "https://www.youtube.com/watch?v=cwQs5KXzPoI"
+  },
+{
+    id: 2757,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: Out of the Shadows",
+    location: "Abandoned Tower, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The basilisk that ended the race has the Bloody Baron in its sights. As Ciri, kill the beast and climb the ruined tower to rescue him.",
+    aiTip:
+      "Ciri can't parry, so dodge the basilisk's lunges and use her blink to get in behind it. This quest can't be failed or missed.",
+    walkthrough: [
+      "As Ciri, fight the basilisk at the foot of the Abandoned Tower.",
+      "Dodge its attacks and strike from behind until it falls.",
+      "Climb the ledges of the tower.",
+      "Reach the Baron at the top and rescue him."
+    ],
+    video: "https://www.youtube.com/watch?v=hCt4aJ1hX64"
+  },
+{
+    id: 2758,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Story: Fleeing the Bog",
+    location: "Crookback Bog, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "In a flashback, Ciri escapes Crookback Bog with drowners and Wild Hunt hounds on her heels, ending with her hiding from Imlerith in a tree.",
+    aiTip:
+      "You don't need to fight. The hounds keep coming through portals, so just run straight to the marker on the far side of the bog.",
+    walkthrough: [
+      "As Ciri, flee from the Crones' hut through Crookback Bog.",
+      "Dodge past the drowners and the Wild Hunt hounds.",
+      "Keep running to the marker on the other side of the bog.",
+      "Hide in the tree as Imlerith searches for her."
+    ],
+    video: "https://www.youtube.com/watch?v=kKQ_EYpD2NQ"
+  },
+{
+    id: 2759,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Pyres of Novigrad",
+    location: "Triss's house and the city, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and the Novigrad story threads",
+    summary:
+      "Geralt's first real lead in Novigrad sends him to Triss's house, where looters, traps and witch hunters show just how dangerous the city has become for mages.",
+    aiTip:
+      "Expect a fight with three witch hunters in the warehouse at the end. Have Quen up before the doors open.",
+    walkthrough: [
+      "Go to Triss's house in Novigrad.",
+      "Deal with the looters outside.",
+      "Search the house and follow the clues through the city.",
+      "Get past the traps along the way.",
+      "Fight the three witch hunters in the warehouse."
+    ],
+    video: "https://www.youtube.com/watch?v=tXAypJR-ouA"
+  },
+{
+    id: 2760,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Ciri's Story: Breakneck Speed",
+    location: "Temple Isle, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "As Dandelion recounts it, Ciri tries to break out of Temple Isle with him after Junior raises the alarm. Ride for the gate, then fight through Junior's henchmen.",
+    aiTip:
+      "You're near a cliff edge outside the Great Temple of the Eternal Fire, so don't blink wildly or you'll fall to your death.",
+    walkthrough: [
+      "As Ciri, run out of the alley and turn right to the large gate where Dandelion waits.",
+      "Mount one of the two horses beyond the gate and ride.",
+      "Dismount to get through the door into the Great Temple of the Eternal Fire.",
+      "Kill Junior's henchmen guarding the door."
+    ],
+    video: "https://www.youtube.com/watch?v=phb6aY6FeNE"
+  },
+{
+    id: 2761,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Ciri's Story: Visiting Junior",
+    location: "Junior's hideout, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "After Get Junior, the story flashes back to Ciri sneaking into Whoreson Junior's hideout to face him and his men.",
+    aiTip:
+      "Ciri can't parry or counter, so lean on dodges and blink. Thin out the henchmen first before you go for Junior.",
+    walkthrough: [
+      "Finish Get Junior to unlock this flashback.",
+      "As Ciri, climb to the rooftop of Junior's hideout.",
+      "Enter through the window.",
+      "Fight Junior and his henchmen."
+    ],
+    video: "https://www.youtube.com/watch?v=_ezmPTPcIb8"
+  },
+{
+    id: 2762,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Missing Persons",
+    location: "Hindarsfjall and Lofoten, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Geralt follows Yennefer to Lofoten on Hindarsfjall, where the Wild Hunt has left a village grieving. The survivors point to a man called Craven who was last seen with Ciri.",
+    aiTip:
+      "Follow Yennefer straight after Echoes of the Past, since skipping that can leave the quest stuck. The trail ends at Freya's Garden, where Nameless begins.",
+    walkthrough: [
+      "Meet Yennefer on Hindarsfjall and travel with her to Lofoten.",
+      "Question the villagers about the Wild Hunt's attack.",
+      "Talk to the priestesses about Craven, the man seen with Ciri.",
+      "Follow Craven's trail to Freya's Garden, which starts Nameless."
+    ],
+    video: "https://www.youtube.com/watch?v=KOVL3QJy44o"
+  },
+{
+    id: 2763,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Ciri's Story: The Calm Before the Storm",
+    location: "Lofoten, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "In a flashback, Ciri recovers in Skjall's house in Lofoten until the Wild Hunt descends on the village. With Skjall's help she flees on horseback.",
+    aiTip:
+      "There are too many riders to beat, so don't stay and fight. Get on a horse and ride for Drowned Dead Rock.",
+    walkthrough: [
+      "As Ciri, wake in Skjall's house in Lofoten.",
+      "Go to the sauna with Astrid and her mother.",
+      "Fight the riders when the Wild Hunt attacks, then break away.",
+      "Get on a horse and flee toward Drowned Dead Rock with Skjall.",
+      "Ride on alone when Skjall turns back to draw the Hunt away."
+    ],
+    video: "https://www.youtube.com/watch?v=u1qxWHhpMQs"
+  },
+{
+    id: 2764,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Disturbance",
+    location: "Kaer Morhen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Yennefer has felt a magical disturbance somewhere in Kaer Morhen. Take her Potestaquisitor and track down the source.",
+    aiTip:
+      "Follow the Potestaquisitor's noise to a sealed container near Vesemir and Uma's cage. Picking certain lines with Yennefer can teleport Geralt into the lake, so be careful with dialogue.",
+    walkthrough: [
+      "Find Yennefer in the upper part of the castle.",
+      "Take the Potestaquisitor from her.",
+      "Follow its signal to the sealed container near Uma's cage.",
+      "Examine the container to trigger the cutscene."
+    ],
+    video: "https://www.youtube.com/watch?v=tC-iCXubkXM"
+  },
+{
+    id: 2765,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "Va Fail, Elaine",
+    location: "Kaer Morhen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and the Magic Firefly",
+    summary:
+      "Yennefer and the witchers attempt to lift Uma's curse with the Trial of the Grasses decoctions. The ritual reveals who Uma really is: the elven sage Avallac'h.",
+    aiTip:
+      "Collect the Bryonia, ribleaf, mandrake root and forktail spinal fluid from the chest before brewing. During the ritual, keep stirring all three potions or the scene won't advance.",
+    walkthrough: [
+      "Finish No Place Like Home to start the quest.",
+      "Take the Decoction of the Grasses formula and find the chest with the ingredients.",
+      "Brew the three potions and bring them to Yennefer.",
+      "Stir each of the three potions during the ritual.",
+      "Learn that Uma is Avallac'h, who reveals Ciri is on the Isle of Mists and gives you the Magic Firefly."
+    ],
+    video: "https://www.youtube.com/watch?v=TrBQH32-G-Q"
+  },
+{
+    id: 2766,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Brothers in Arms: Novigrad",
+    location: "Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Gather allies in Novigrad for the battle at Kaer Morhen. Triss, Roche and Ves, and Zoltan can join, depending on what you did for them earlier.",
+    aiTip:
+      "Roche and Ves need Eye for an Eye done, with Ves alive. Zoltan needs A Dangerous Game. Dijkstra won't fight, but he pays you if you found his treasure in Count Reuven's Treasure.",
+    walkthrough: [
+      "Talk to Triss, who joins if you finished A Matter of Life and Death.",
+      "Visit Roche and Ves, who join if Eye for an Eye is done.",
+      "Ask Zoltan, who joins if you completed A Dangerous Game.",
+      "Speak to Dijkstra, who won't fight but may pay you.",
+      "Head back to Kaer Morhen with your allies."
+    ],
+    video: "https://www.youtube.com/watch?v=5qjdWvCxoys"
+  },
+{
+    id: 2767,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Brothers in Arms: Skellige",
+    location: "Kaer Trolde and the Skellige isles",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Rally the Skelligers for the fight at Kaer Morhen once the islands have a new ruler. Hjalmar, Ermion, and Folan and Vigi can all answer the call.",
+    aiTip:
+      "Hjalmar needs Possession, The Lord of Undvik and King's Gambit done, plus a ruler crowned. Saving Folan and Vigi on Undvik earns two extra fighters.",
+    walkthrough: [
+      "Settle the succession to the Skellige throne at Kaer Trolde.",
+      "Ask Hjalmar to join, which needs his questline and King's Gambit done.",
+      "Visit Ermion and ask for his help.",
+      "Recruit Folan and Vigi if you saved them during The Lord of Undvik."
+    ],
+    video: "https://www.youtube.com/watch?v=aw7P0hgFgds"
+  },
+{
+    id: 2768,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Brothers in Arms: Velen",
+    location: "Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Allies for the Battle of Kaer Morhen",
+    summary:
+      "Look for allies in Velen. Keira Metz can join if you saw her storyline through, and Letho if he survived The Witcher 2.",
+    aiTip:
+      "Keira needs A Towerful of Mice, A Favor for a Friend and For the Advancement of Learning done, and the wrong dialogue choice loses her. Letho also needs Ghosts of the Past.",
+    walkthrough: [
+      "Finish Keira Metz's quests (A Towerful of Mice, A Favor for a Friend, For the Advancement of Learning).",
+      "Convince Keira to go to Kaer Morhen.",
+      "Complete Ghosts of the Past if Letho survived The Witcher 2, then recruit him.",
+      "Return to Kaer Morhen."
+    ],
+    video: "https://www.youtube.com/watch?v=DOU0IRil_YU"
+  },
+{
+    id: 2769,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Brothers in Arms: Nilfgaard",
+    location: "Royal Palace in Vizima",
+    length: "short",
+    difficulty: "Low",
+    reward: "None if you refuse Emhyr's terms",
+    summary:
+      "Ask Emperor Emhyr for troops to defend Kaer Morhen. He'll only send them under Morvran Voorhis's command, and Geralt won't accept that.",
+    aiTip:
+      "There's no way to get Nilfgaard's soldiers, so the quest ends in a refusal whatever you say. It still counts toward finishing the Brothers in Arms set.",
+    walkthrough: [
+      "Travel to the Royal Palace in Vizima.",
+      "Ask Emhyr for troops.",
+      "Refuse his condition that Morvran Voorhis leads them.",
+      "Leave without Nilfgaard's support."
+    ],
+    video: "https://www.youtube.com/watch?v=fWZT9bi0Jvg"
+  },
+{
+    id: 2770,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Great Escape",
+    location: "Crippled Kate's and the prison in Oxenfurt",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "To bring the sorceresses into the fight, Geralt helps free Margarita from Radovid's prison in Oxenfurt, starting with an informant who bolts the moment you approach.",
+    aiTip:
+      "Stop the fleeing informant with a punch or Aard rather than chasing him around. Zoltan helps you find the way in, which is through the well.",
+    walkthrough: [
+      "Catch the runaway informant (a punch or Aard stops him).",
+      "Go to Crippled Kate's.",
+      "Ask Zoltan for help.",
+      "Enter the prison through the well and search the ruins.",
+      "Find the missing part of the mechanism, repair it and free the prisoner."
+    ],
+    video: "https://www.youtube.com/watch?v=YRbZPTyED00"
+  },
+{
+    id: 2771,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Blindingly Obvious",
+    location: "Novigrad bathhouse and cellars",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; opens Reason of State",
+    summary:
+      "Triss uses one of Philippa's feathers to track her, and the trail leads to an exploding bathhouse and Dijkstra's mind-controlled men. Find Philippa before she brings the place down.",
+    aiTip:
+      "At Dijkstra's troll, pick 'I want to help her' to get past without a fight. Philippa summons a fire elemental, so bring Northern Wind or Aard.",
+    walkthrough: [
+      "Meet Triss and follow her to the fountain behind the Passiflora for the hydromancy.",
+      "Head to the bathhouse and fight Dijkstra's mind-controlled henchmen.",
+      "Drop through the hole in the bath floor into the cellars.",
+      "Talk your way past Dijkstra's troll.",
+      "Defeat Philippa's fire elemental and capture her, then deal with Dijkstra."
+    ],
+    video: "https://www.youtube.com/watch?v=nio1O0mGZEs"
+  },
+{
+    id: 2772,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Payback",
+    location: "Novigrad (Golden Sturgeon and Farcorners)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "700 XP",
+    summary:
+      "Before the final battle, Ciri wants to settle some old scores in Novigrad. Follow her through bar fights, a horse race and, if you're game, a little horse theft.",
+    aiTip:
+      "Agreeing to help steal the horses from the Novigrad stables makes Ciri happy, which matters for the ending. Calm them with Axii as you sneak in.",
+    walkthrough: [
+      "Talk to Ciri in Novigrad.",
+      "Go to Temple Isle or the Bits, depending on Junior's fate in Get Junior.",
+      "Head to the Golden Sturgeon and deal with the thugs harassing Bea.",
+      "Meet Valdo and Aegar in Farcorners and beat Valdo in the horse race.",
+      "Choose whether to help steal horses from the stables."
+    ],
+    video: "https://www.youtube.com/watch?v=c_SFigsYAQs"
+  },
+{
+    id: 2773,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Battle Preparations",
+    location: "Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "XP and the final assault on the Wild Hunt",
+    summary:
+      "The umbrella quest for the endgame in Skellige. Find the Sunstone, free Fringilla Vigo and learn what Avallac'h has been hiding before the last battle.",
+    aiTip:
+      "Do The Sunstone first, since you learn where the ruins are along the way. Saying yes to Ciri in Child of the Elder Blood opens Skjall's Grave and helps her ending.",
+    walkthrough: [
+      "Arrive in Skellige with Yennefer, Philippa and Ciri.",
+      "Complete The Sunstone.",
+      "Complete Veni Vidi Vigo.",
+      "Complete Child of the Elder Blood.",
+      "Optionally complete Skjall's Grave, then head into On Thin Ice."
+    ],
+    video: "https://www.youtube.com/watch?v=N1z3nu1ZV34"
+  },
+{
+    id: 2774,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Sunstone",
+    location: "Ancient Crypt, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Philippa needs a legendary elven artifact, the Sunstone, to trap the Wild Hunt. Track down the ruins hiding it and solve the mirror puzzle inside.",
+    aiTip:
+      "Tell Eyvind you're 'gathering material for an adventure novel' to get the location. In the crypt, pull each of the three mirror levers once.",
+    walkthrough: [
+      "Ask Ermion for a lead on the elven ruins.",
+      "Get the cave's location from the bard Eyvind or the pearl divers.",
+      "Explore the Ancient Crypt.",
+      "Solve the mirror puzzle by pulling each of the three levers once.",
+      "Return to Yennefer at Kaer Trolde harbor with the Sunstone."
+    ],
+    video: "https://www.youtube.com/watch?v=9vuMvVJ9xwE"
+  },
+{
+    id: 2775,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Veni Vidi Vigo",
+    location: "Emhyr's flagship off Undvik, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; Fringilla Vigo freed",
+    summary:
+      "Emhyr is holding the sorceress Fringilla Vigo aboard his flagship. Swim out at night, sneak aboard and use Yennefer's letter to get her released.",
+    aiTip:
+      "Fast travel to Marlin Coast, drink a Killer Whale potion and swim deep to stay out of the searchlights. Climb the anchor on the ship's northern side.",
+    walkthrough: [
+      "Take Yennefer's letter for Emhyr.",
+      "Fast travel to Marlin Coast and swim out to the fleet at night.",
+      "Stay underwater to avoid the searchlights.",
+      "Climb the flagship's anchor to get aboard.",
+      "Exhaust the dialogue with Emhyr to secure Fringilla's release."
+    ],
+    video: "https://www.youtube.com/watch?v=G7yswvXhc9U"
+  },
+{
+    id: 2776,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Child of the Elder Blood",
+    location: "Avallac'h's laboratory, Skellige",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Ciri suspects Avallac'h is hiding something. Search his island laboratory with Geralt and face what you find there.",
+    aiTip:
+      "When Ciri asks you to come with her afterwards, agreeing opens Skjall's Grave and pushes her toward the good ending.",
+    walkthrough: [
+      "Reach Avallac'h's island and speak with Yennefer.",
+      "Wait for the laboratory door to open.",
+      "Defeat the golem guarding the lab.",
+      "Search the lab with Witcher Senses.",
+      "Talk to Yennefer and Ciri, and agree to go with Ciri."
+    ],
+    video: "https://www.youtube.com/watch?v=roT4K65sZ_E"
+  },
+{
+    id: 2777,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Skjall's Grave",
+    location: "Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Ciri finds Skjall's body dumped in a ditch on Hindarsfjall and insists on burying him properly, whatever the locals think of the 'coward'.",
+    aiTip:
+      "When the Skelligers object, back Ciri up rather than talking her down. Supporting her here counts toward the best ending.",
+    walkthrough: [
+      "Travel to Hindarsfjall with Ciri.",
+      "Recover Skjall's body from the ditch.",
+      "Help Ciri bury him near the cemetery.",
+      "Stand with Ciri when the angry locals confront her."
+    ],
+    video: "https://www.youtube.com/watch?v=K61eucPHwu0"
+  },
+{
+    id: 2778,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "On Thin Ice",
+    location: "Undvik, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "The final battle against the Wild Hunt",
+    summary:
+      "The final battle against the Wild Hunt on Undvik. Ciri takes on Caranthir while Geralt boards the Naglfar to face Eredin.",
+    aiTip:
+      "As Ciri, dodge behind Caranthir each time he swings his staff. Against Eredin, save Igni until his frost armour drops, since he regains it every time he teleports.",
+    walkthrough: [
+      "Meet Avallac'h at the Nilfgaardian camp on Undvik.",
+      "Fight through the Wild Hunt's attack.",
+      "As Ciri, defeat Caranthir and destroy his staff.",
+      "As Geralt, board the Naglfar.",
+      "Defeat Eredin in a two-phase fight."
+    ],
+    video: "https://www.youtube.com/watch?v=cyaDHEhNMrE"
+  },
+{
+    id: 2779,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Patrol Gone Missing",
+    location: "Nilfgaardian Army camp and the swamp to the north-west, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns and a draconid trophy (or XP for refusing payment)",
+    summary:
+      "A Nilfgaardian scouting patrol vanished across the swamp. Quartermaster Eggebracht wants to know what happened, and the trail leads to a flying draconid.",
+    aiTip:
+      "Coat your silver sword with Draconid Oil and bring Grapeshot or a crossbow to knock it out of the air. How you handle the quartermaster afterwards changes the payout.",
+    walkthrough: [
+      "Read the missing soldiers notice or talk to Quartermaster Eggebracht at the Nilfgaardian camp.",
+      "Head north-west to the abandoned scout camp.",
+      "Use Witcher Senses to follow the footprints, then the scent trail.",
+      "Kill the draconid and take its trophy.",
+      "Return to the quartermaster for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=I8FJfqmW0i8"
+  },
+{
+    id: 2780,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Shrieker",
+    location: "Cave near Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns and XP",
+    summary:
+      "A shrieker has made its nest near Crow's Perch and keeps preying on locals. Drive it out of its cave and bring it down.",
+    aiTip:
+      "Throw a Samum, Grapeshot or Dancing Star bomb into the cave to force it out, then chase it down. A crossbow bolt grounds it when it takes off.",
+    walkthrough: [
+      "Take the notice from the Crow's Perch notice board, or find the shrieker's cave first.",
+      "Track the creature to its cave.",
+      "Use a bomb to drive it out of the lair.",
+      "Chase it down and kill it.",
+      "Take the trophy back for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=jBoZ-3Db-tE"
+  },
+{
+    id: 2781,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Swamp Thing",
+    location: "Peat bog by Downwarren, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns (up to about 300 if you haggle), XP and a foglet trophy",
+    summary:
+      "Peat diggers by Downwarren keep vanishing into a mist that spreads over the bog. The killer is an old foglet called Ignis Fatuus.",
+    aiTip:
+      "Get the Eye of Nehaleni from Keira first, which lets you see the foglet's illusions. Keep Quen up during the fight, as the bestiary suggests.",
+    walkthrough: [
+      "Read the notice in Downwarren or talk to Leslav the peat digger.",
+      "Head into the bog where the mist gathers.",
+      "Investigate the victims with Witcher Senses.",
+      "Fight the old foglet, keeping Quen active.",
+      "Take the trophy back to claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=tI-5VbriQEQ"
+  },
+{
+    id: 2782,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Mysterious Tracks",
+    location: "Cave in the cliffs south of Lindenvale, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and a chort trophy",
+    summary:
+      "Something is tearing apart wolves near Lindenvale. The trail leads to a cave and a dead fiend, but the real culprit is a territorial chort called Howler.",
+    aiTip:
+      "Craft the Chort Lure and spray it at the four marked spots around the hill to draw Howler out. Dodge sideways, not back, when it charges.",
+    walkthrough: [
+      "Read the Lindenvale notice or find the mauled wolves.",
+      "Follow the tracks south past the glowing red rock to the cliffs.",
+      "Drop through the hole in the ground to enter the cave and examine the dead fiend.",
+      "Craft the Chort Lure and spread it at four points around the hill.",
+      "Kill Howler when it appears and take its trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=nPxuBvVMuAY"
+  },
+{
+    id: 2783,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Mystery of the Byways Murders",
+    location: "Byways, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Byways has been abandoned and a soldier swears a monster is to blame, but the villagers insist there isn't one. Their digging woke Sarasti, an ancient ekimmara sleeping in the elven ruins under the village.",
+    aiTip:
+      "Clear the ghouls first, then follow the scent from the bodies to the hut. Sarasti can turn invisible, so bring Vampire Oil, Igni and Devil's Puffball bombs.",
+    walkthrough: [
+      "Pick up the contract and travel to Byways.",
+      "Kill the ghouls overrunning the village.",
+      "Examine the corpses with Witcher Senses and follow the scent to a hut.",
+      "Hear the villagers admit they dug into the elven ruins below.",
+      "Go down into the ruins and kill Sarasti, the ekimmara."
+    ],
+    video: "https://www.youtube.com/watch?v=s3jHYP1qEd4"
+  },
+{
+    id: 2784,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: Phantom of the Trade Route",
+    location: "East of Benek, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Wyvern trophy and a leveled Anathema silver sword",
+    summary:
+      "Three men from Benek guided a merchant caravan east and never came back. Two wyvern nests and the royal wyvern ruling them explain why.",
+    aiTip:
+      "Use Draconid Oil and destroy both nests to make the royal wyvern appear. It drops the Anathema silver sword as well as its trophy.",
+    walkthrough: [
+      "Talk to the refugee in Benek about the missing guides.",
+      "Head east and find the first wyvern nest.",
+      "Kill the guarding wyvern and destroy the nest.",
+      "Do the same at the second nest.",
+      "Kill the royal wyvern when it arrives and loot its trophy and Anathema."
+    ],
+    video: "https://www.youtube.com/watch?v=Iwfan6ql2rE"
+  },
+{
+    id: 2785,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Griffin from the Highlands",
+    location: "Hills north of Crow's Perch, near Heatherton, Velen",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns, the Tracker's Trousers diagram and an archgriffin trophy",
+    summary:
+      "An archgriffin is terrorising the highlands north of Crow's Perch. This contract comes up during Master Armorers and gets you the acid gland Fergus needs.",
+    aiTip:
+      "It's a level 24–26 archgriffin, much tougher than the White Orchard griffin. Use Draconid Oil and a crossbow to ground it, and remember to loot its acid gland for Master Armorers.",
+    walkthrough: [
+      "Hand the high-quality smithing tools to Fergus during Master Armorers.",
+      "Take the griffin contract at Crow's Perch.",
+      "Head north to the highlands near Heatherton.",
+      "Use Witcher Senses on the corpse and follow the blood trail to the nest.",
+      "Kill the archgriffin, loot the acid gland and trophy, and return to the quartermaster."
+    ],
+    video: "https://www.youtube.com/watch?v=j5AmtEnGCEo"
+  },
+{
+    id: 2786,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Contract: The Beast of Honorton",
+    location: "Honorton, between Claywich and the Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; leads into Where the Cat and Wolf Play",
+    summary:
+      "Ealdorman Sobemir of Honorton wants a 'spook' dealt with. The village is overrun by alghouls, and the trail ends at a far stranger monster, a cursed witcher.",
+    aiTip:
+      "Bring Necrophage Oil for the alghouls feeding in the village. This free DLC contract continues straight into Where the Cat and Wolf Play.",
+    walkthrough: [
+      "Read the notice in Oreton or Crow's Perch, or just approach Honorton.",
+      "Talk to the ealdorman about the spook.",
+      "Kill the alghouls feeding on a body near the huts.",
+      "Follow the clues to the true 'beast', which leads into Where the Cat and Wolf Play."
+    ],
+    video: "https://www.youtube.com/watch?v=redskq5vYqc"
+  },
+{
+    id: 2787,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: An Elusive Thief",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 182 crowns for killing the doppler or 91 for letting it go",
+    summary:
+      "Sylvester Amello wants an 'imp' caught for stealing from his household. The thief turns out to be a doppler, and catching it means fighting a perfect copy of Geralt.",
+    aiTip:
+      "Track it with Witcher Senses, and expect to fight a doppler disguised as Geralt. Sparing it pays half, but resolving it either way unlocks The Doppler Effect achievement.",
+    walkthrough: [
+      "Take the Contract: Imp notice and talk to Sylvester Amello.",
+      "Use Witcher Senses to track the thief through the city.",
+      "Corner the creature, which turns out to be a doppler.",
+      "Defeat the doppler in its Geralt form.",
+      "Kill it or let it go, then collect your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=yfoGRWFq0mA"
+  },
+{
+    id: 2788,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: The Apiarian Phantom",
+    location: "Honeyfill Meadworks, Novigrad outskirts",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Something is wrecking the halfling Honeyfill family's beehives and leaving them coated in frost. The 'phantom' is a Hound of the Wild Hunt.",
+    aiTip:
+      "The frost on the hives is the giveaway that this is no ordinary phantom. Igni is your best friend against a Hound of the Wild Hunt.",
+    walkthrough: [
+      "Take the contract and visit Honeyfill Meadworks.",
+      "Examine the frosted beehive, the dried blood and the footprints.",
+      "Follow the trail to the cellar door, which Franklin unlocks for you.",
+      "Kill the Hound of the Wild Hunt.",
+      "Return to the Honeyfills for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=VlivFMhA5y4"
+  },
+{
+    id: 2789,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: Doors Slamming Shut",
+    location: "Moldavie Residence, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Kurt Dysart's family mansion is shaking, creaking and slamming its doors on its own. Investigate the 'haunting' and find an earth elemental under the house.",
+    aiTip:
+      "Look for the breakable wall that leads to the secret cave. Bring Dimeritium bombs and Elementa Oil for the elemental.",
+    walkthrough: [
+      "Take the notice from Hierarch Square or Gildorf and talk to Kurt Dysart.",
+      "Investigate the Moldavie Residence.",
+      "Break through the wall to the hidden cave.",
+      "Deactivate the magic barrier.",
+      "Kill the earth elemental and report back."
+    ],
+    video: "https://www.youtube.com/watch?v=FJVUn1ZHc-k"
+  },
+{
+    id: 2790,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Contract: Lord of the Wood",
+    location: "Forest near the Logger's Hut, Novigrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns and a leshen trophy",
+    summary:
+      "A band of dwarves was slaughtered in a forest near Novigrad, and their friend Brean Hotsch wants the killer found. The culprit is a leshen.",
+    aiTip:
+      "Find the leshen's totem with Witcher Senses and destroy it with Aard before the fight, otherwise it keeps coming back. Use Relict Oil and Igni.",
+    walkthrough: [
+      "Pick up the Contract: Devil in the Woods notice.",
+      "Talk to Brean Hotsch and the witnesses.",
+      "Find the site of the attack and follow the trail.",
+      "Locate and destroy the leshen's totem with Aard.",
+      "Kill the leshen and claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=uNOuiYGBFno"
+  },
+{
+    id: 2791,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Strange Beast",
+    location: "Larvik road, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Travellers on the Larvik road are being ambushed by something clever enough to set traps. The leader is a nekker warrior named Hagubman.",
+    aiTip:
+      "Hagubman keeps summoning nekkers, so kill him first. Northern Wind bombs are his biggest weakness.",
+    walkthrough: [
+      "Read the notice on the Larvik notice board.",
+      "Examine the bodies and the cart at the ambush site.",
+      "Follow the clues to the nekker nest.",
+      "Kill Hagubman and his nekkers."
+    ],
+    video: "https://www.youtube.com/watch?v=CGjRG-D3cOA"
+  },
+{
+    id: 2792,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Muire D'yaeblen",
+    location: "Kjerag Cliffs near Kaer Trolde, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Drowners have been seen behaving strangely near Kaer Trolde. Follow witness accounts to their cave and lure out the creature leading them.",
+    aiTip:
+      "Craft and drink the Drowner Pheromones potion to lure the Muire D'yaeblen out. Necrophage Oil helps, and igniting the toxic gas in the cave wipes out drowners in one go.",
+    walkthrough: [
+      "Take the notice in Kaer Trolde Harbor or talk to Bjorg.",
+      "Question the witnesses and investigate the sightings at the Kjerag Cliffs.",
+      "Follow the drowners' stench to their cave.",
+      "Drink the Drowner Pheromones potion and hide to lure out the monster.",
+      "Kill the Muire D'yaeblen."
+    ],
+    video: "https://www.youtube.com/watch?v=YAukYMBTqW0"
+  },
+{
+    id: 2793,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Here Comes the Groom",
+    location: "Svorlag, Spikeroog, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "Nils vanished just before his wedding, and his fiancée Britt is desperate. The trail leads to caves and old ruins, and a siren.",
+    aiTip:
+      "Talk to Kevan first, then Britt, who points you to the right cave. Use Witcher Senses on every clue inside before moving on.",
+    walkthrough: [
+      "Read the notice about Nils' disappearance on the Svorlag board.",
+      "Talk to Kevan near the docks.",
+      "Talk to Britt, who sends you to a cave.",
+      "Examine the clues in the cave with Witcher Senses.",
+      "Follow the trail to the ruins and deal with the siren."
+    ],
+    video: "https://www.youtube.com/watch?v=7l6QL4I3yxA"
+  },
+{
+    id: 2794,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: In the Heart of the Woods",
+    location: "Fayrlund, Ard Skellig, Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns or the leshen's favour, depending on your choice",
+    summary:
+      "A woodland spirit has been killing the people of Fayrlund. Geralt finds it's an ancient leshen, and the village is split over whether to appease it or destroy it.",
+    aiTip:
+      "There are two endings. You can do Harald's ritual (five wolf hearts at the altar), or tell Sven, destroy the totems and fight the leshen. The Woodland Spirit trophy is missable.",
+    walkthrough: [
+      "Talk to the villagers in Fayrlund about the woodland spirit.",
+      "Follow the monster's trail with Witcher Senses and identify the ancient leshen.",
+      "For Harald's ritual, kill five wolves at the altar and place their hearts on it.",
+      "Or tell Sven instead, destroy the leshen's totems and kill the leshen and its wolves.",
+      "Return to the village to see the outcome."
+    ],
+    video: "https://www.youtube.com/watch?v=UFE47DVQ2JQ"
+  },
+{
+    id: 2795,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Missing Miners",
+    location: "Miners' camp and cave near Blandare, Skellige",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns from the elder, or 50 crowns and silver ore from the troll",
+    summary:
+      "Miners from Blandare have gone missing. Their trail leads to a cave and a rock troll named Wham-a-Wham, who would rather talk than fight.",
+    aiTip:
+      "Use Ogre Oil and keep your distance, because the troll hits very hard. After the short fight you can spare him for silver ore or kill him for his trophy.",
+    walkthrough: [
+      "Read the notice in Blandare or find a dead miner near the camp.",
+      "Talk to Gjarr, the village elder.",
+      "Use Witcher Senses at the Miners' Camp and follow the tracks to the cave.",
+      "Fight Wham-a-Wham at the back of the cave until he stops to talk.",
+      "Spare him for his reward or kill him for the trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=fJxZtGAM5X4"
+  },
+{
+    id: 2796,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Dragon",
+    location: "Fyresdal, Ard Skellig, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and a forktail trophy",
+    summary:
+      "Fyresdal's people swear a dragon is killing them. Geralt follows the blood trail and finds it's 'only' a forktail.",
+    aiTip:
+      "Get the sheep from Vagn and use Axii to lead it to the lair as bait. Draconid Oil and a crossbow keep the forktail grounded.",
+    walkthrough: [
+      "Take the notice in Fyresdal or talk to Vagn, the village elder.",
+      "Examine the victims' bodies with Witcher Senses.",
+      "Follow the blood trail to the monster's tracks.",
+      "Use Axii on Vagn's sheep and lead it near the lair as bait.",
+      "Kill the forktail and take its trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=UyUvL1rMyF4"
+  },
+{
+    id: 2797,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Contract: Missing Son",
+    location: "Rannvaig and the ruins near Boxholm, Skellige",
+    length: "medium",
+    difficulty: "High",
+    reward: "Crowns, diagrams and a 300 oren treasure chest",
+    summary:
+      "Odhen of Rannvaig's son Olve has gone missing. The search leads to castle ruins and a fiend called Morvudd.",
+    aiTip:
+      "Samum bombs disable the fiend's third eye, which it uses to hypnotise you. Expect two fights and a spit attack that blinds you briefly.",
+    walkthrough: [
+      "Talk to Odhen of Rannvaig about his missing son.",
+      "Examine the castle ruins.",
+      "Fight Morvudd the fiend, using Samum against its third eye.",
+      "Find the fiend's lair and fight it again.",
+      "Collect the hidden diagrams and the treasure chest."
+    ],
+    video: "https://www.youtube.com/watch?v=HShQGwMk28o"
+  },
+{
+    id: 2798,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "A Frying Pan, Spick and Span",
+    location: "Riverside hut north-west of White Orchard village",
+    length: "short",
+    difficulty: "Low",
+    reward: "10 XP and some food",
+    summary:
+      "An old woman is stuck outside a locked hut by the river. She only wants back the frying pan she lent the man inside.",
+    aiTip:
+      "Blast the door open with Aard. The pan is on the bench by the oven, and the corpse, monocle and burnt papers are optional clues.",
+    walkthrough: [
+      "Talk to the old woman outside the locked hut by the river.",
+      "Break the door open with Aard.",
+      "Look around with Witcher Senses (body, silver monocle, burnt papers).",
+      "Take the frying pan from the bench by the oven.",
+      "Return it to the old woman."
+    ],
+    video: "https://www.youtube.com/watch?v=od2Y-NzDRys"
+  },
+{
+    id: 2799,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Precious Cargo",
+    location: "Road south of the Nilfgaardian camp, White Orchard",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns or XP, depending on your choice",
+    summary:
+      "A 'merchant' by the road begs Geralt to recover a little box from his cart, which veered off the road during a monster attack. The box holds medicine, and his story doesn't add up.",
+    aiTip:
+      "Watch out for drowners around the overturned cart. Taking the merchant and the medicine to the Nilfgaardians is one of three endings, and he may try to run.",
+    walkthrough: [
+      "Talk to the merchant by the road.",
+      "Use Witcher Senses to find where the cart left the road.",
+      "Follow the tracks into the swamp and kill the drowners.",
+      "Find the little box by the dead horse.",
+      "Return the box, chase him down, or take him to the Nilfgaardians."
+    ],
+    video: "https://www.youtube.com/watch?v=cExfxD3x5uo"
+  },
+{
+    id: 2800,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Bitter Harvest",
+    location: "Battlefield south of the Border Post, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "50 crowns (20 if Albin dies)",
+    summary:
+      "Albin Hart's crew is scavenging a battlefield when ghouls start pouring in. Hold them off for four waves and keep Albin alive.",
+    aiTip:
+      "Albin must survive, both for the full pay and so his Shady Merchant can sell you a cheaper fake pass for Fake Papers. Stay close to him and use Necrophage Oil.",
+    walkthrough: [
+      "Talk to Albin Hart on the battlefield south of the Border Post.",
+      "Defend his crew against the first ghoul waves.",
+      "Kill the rotfiend in the later wave.",
+      "Survive all four waves with Albin alive.",
+      "Collect your pay from Albin."
+    ],
+    video: "https://www.youtube.com/watch?v=zPBaqJdWANE"
+  },
+{
+    id: 2801,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Lynch Mob",
+    location: "Hangman's Alley, between Blackbough and Midcopse, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP if you save him",
+    summary:
+      "Peasants at Hangman's Alley are about to hang a Nilfgaardian deserter. Step in or walk away.",
+    aiTip:
+      "It's easy to miss and disappears once you start A Favor for a Friend, so do it early. Saving the soldier means killing all four peasants.",
+    walkthrough: [
+      "Follow the road between Blackbough and Midcopse to Hangman's Alley.",
+      "Find the peasants about to hang the deserter.",
+      "Ask them to let him go, or leave without interfering.",
+      "If you intervene, kill the four peasants to save him."
+    ],
+    video: "https://www.youtube.com/watch?v=UJkO_a2XNhs"
+  },
+{
+    id: 2802,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "An Invitation from Keira Metz",
+    location: "Keira's hut north of Midcopse, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP, the Magic Lamp and a Xenovox",
+    summary:
+      "The sorceress Keira Metz invites Geralt to her hidden hut and asks for help lifting the curse on Fyke Isle, handing over a Magic Lamp to speak with its spirits.",
+    aiTip:
+      "The hut is hidden behind an illusion, so walk through the portal under it. Helping her find the Magic Lamp earlier keeps her friendlier, though it's not required.",
+    walkthrough: [
+      "Finish Wandering in the Dark or Magic Lamp.",
+      "Travel to Keira's hut north of Midcopse and step through the portal under the illusion.",
+      "Talk to Keira and accept her job.",
+      "Take the Magic Lamp and Xenovox, which starts A Towerful of Mice."
+    ],
+    video: "https://www.youtube.com/watch?v=UrQG0Y1VYBk"
+  },
+{
+    id: 2803,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Favor for a Friend",
+    location: "Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and Keira's notes",
+    summary:
+      "After A Towerful of Mice, Keira wants one more favour: a package lost on a damaged wagon. Bring it back, and decide whether to stay the night.",
+    aiTip:
+      "Look under the damaged wagon for the small box with Keira's package. Agreeing to stay is the romance path, and starting this closes Lynch Mob for good.",
+    walkthrough: [
+      "Talk to Keira after A Towerful of Mice.",
+      "Find the damaged wagon and search underneath it for her package.",
+      "Take the package back to her hut.",
+      "Choose whether to stay with Keira."
+    ],
+    video: "https://www.youtube.com/watch?v=uxGT96_5aY0"
+  },
+{
+    id: 2804,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "For the Advancement of Learning",
+    location: "Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; decides Keira's fate",
+    summary:
+      "Keira's research is finished, and she plans to take it to King Radovid. Geralt confronts her about her notes and decides where she goes next.",
+    aiTip:
+      "Telling her 'Radovid doesn't forget, Radovid doesn't forgive' and pointing her to Kaer Morhen saves her. Letting her go to Radovid gets her executed.",
+    walkthrough: [
+      "Return to Keira after A Favor for a Friend.",
+      "Talk to her about her research and her plans for Radovid.",
+      "Warn her that 'Radovid doesn't forget, Radovid doesn't forgive'.",
+      "Convince her to go to Kaer Morhen, let her go to Radovid, or stop her and take the notes."
+    ],
+    video: "https://www.youtube.com/watch?v=vO3PAXujJDw"
+  },
+{
+    id: 2805,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ghosts of the Past",
+    location: "Reardon Manor near Lindenvale, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; Letho can join at Kaer Morhen",
+    summary:
+      "During The Fall of the House of Reardon, Geralt finds Letho of Gulet hiding in the manor's barn, hunted by bounty hunters. Help an old rival escape.",
+    aiTip:
+      "Only appears if you told Morvran in Vizima that Letho was alive. Disarm the traps with Witcher Senses, and invite Letho to Kaer Morhen at the end.",
+    walkthrough: [
+      "Start The Fall of the House of Reardon from the Lindenvale notice board.",
+      "Disarm the traps at Reardon Manor with Witcher Senses.",
+      "Climb into the loft of the south barn and examine the ladder to meet Letho.",
+      "Fight off the bounty hunters in the courtyard.",
+      "Ride after Letho, kill the mercenaries at the camp and invite him to Kaer Morhen."
+    ],
+    video: "https://www.youtube.com/watch?v=fdOdBhVFLlo"
+  },
+{
+    id: 2806,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Last Rites",
+    location: "Bridge north of Blackbough and the cemetery near the Pellar's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "At night, an old woman on a bridge asks Geralt to leave her ring on her late husband's grave so the two can be reconciled.",
+    aiTip:
+      "She only appears after dark, so meditate to around 11 PM. You must have beaten the students in Defender of the Faith, and you'll need Keira's Magic Lamp.",
+    walkthrough: [
+      "Finish Defender of the Faith by beating the students.",
+      "Visit the bridge north of Blackbough at night and talk to the old woman.",
+      "Find her husband's gravestone in the cemetery near the Pellar's hut (watch for ghouls).",
+      "Place the ring and use the Magic Lamp to see the ghosts reconcile.",
+      "Return to the old woman."
+    ],
+    video: "https://www.youtube.com/watch?v=9YBgNrU1ydY"
+  },
+{
+    id: 2807,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Wild at Heart",
+    location: "Blackbough, Velen",
+    length: "medium",
+    difficulty: "High",
+    reward: "XP and crowns, depending on the ending",
+    summary:
+      "Niellen the hunter wants his missing wife Hanna found. The trail leads to a hidden cave under a cabin and a werewolf fight.",
+    aiTip:
+      "It's one of the tougher fights in Velen, so bring Moon Dust bombs and Cursed Oil. A bear may be outside the cabin, so clear it first.",
+    walkthrough: [
+      "Read the Missing Wife notice and talk to Niellen in Blackbough.",
+      "Ask the neighbours about Hanna.",
+      "Follow the clues to the cabin, killing the bear outside.",
+      "Follow the blood trail with Witcher Senses and open the door under the cabin with Aard.",
+      "Fight the werewolf and decide what to tell Niellen."
+    ],
+    video: "https://www.youtube.com/watch?v=cQH4e-2zN8g"
+  },
+{
+    id: 2808,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Deadly Crossing",
+    location: "Troll Bridge and other bridges in Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Vagrants and looters have taken over Velen's bridges and are charging tolls. Pay up, talk them down or fight your way across.",
+    aiTip:
+      "At Troll Bridge they want 50 crowns. Axii at level 2 talks them down for free, and fighting works too.",
+    walkthrough: [
+      "Approach the Troll Bridge.",
+      "Pay the 50-crown toll, use Axii, or fight the vagrants.",
+      "Find the other gangs along Velen's crossings.",
+      "Deal with each group to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=20RENM9wefE"
+  },
+{
+    id: 2809,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Defender of the Faith",
+    location: "Shrines around Blackbough, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; unlocks Last Rites",
+    summary:
+      "An old woman near Blackbough is upset that the local shrines have been damaged. Fix them, and deal with the students vandalising them.",
+    aiTip:
+      "Only two shrines need finding after the first. One is on a hill to the south-west, one at a road junction east of Blackbough. Beat the students to unlock Last Rites.",
+    walkthrough: [
+      "Talk to the old woman by the road near Blackbough.",
+      "Repair the shrine on the hill to the south-west.",
+      "Repair the shrine at the junction east of Blackbough.",
+      "At the third shrine, confront the students.",
+      "Order them to leave and defeat them when they attack."
+    ],
+    video: "https://www.youtube.com/watch?v=7dyhA_NEhm4"
+  },
+{
+    id: 2810,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Face Me if You Dare!",
+    location: "Crow's Perch, Velen, then Novigrad",
+    length: "medium",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Ronvid of the Small Marsh has sworn to duel a hundred knights and picks Geralt as the next. He keeps coming back, from Crow's Perch all the way to Novigrad.",
+    aiTip:
+      "Lower his health until he yields each time. In the final meeting in Silverton, Axii at level 2 ('Go home') sends him home alive, and the other options mean fighting him and two thugs.",
+    walkthrough: [
+      "Meet Ronvid by the huts west of the Crow's Perch signpost and win the duel.",
+      "Beat him again by the river near Novigrad's Tretogor Gate.",
+      "Find him in Silverton with two thugs.",
+      "Use Axii to send them home, or fight all three."
+    ],
+    video: "https://www.youtube.com/watch?v=eow9WqD8HpM"
+  },
+{
+    id: 2811,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Forefathers' Eve",
+    location: "Stone circle on Fyke Isle, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The Pellar asks Geralt to protect a ritual honouring the dead on Fyke Isle at midnight. Monsters, witch hunters and wraiths all try to disrupt it.",
+    aiTip:
+      "Come prepared for several fights in a row: drowners, a water hag, witch hunters, then wraiths. Declining the ritual ends the quest with a smaller reward.",
+    walkthrough: [
+      "Talk to the Pellar after your first visit.",
+      "Meet him at the stone circle on Fyke Isle at midnight.",
+      "Defend the ritual from the drowners and water hag.",
+      "Fight off the witch hunters.",
+      "Defeat the wraiths to finish the ritual."
+    ],
+    video: "https://www.youtube.com/watch?v=8d0VmSkms94"
+  },
+{
+    id: 2812,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Highway Robbery",
+    location: "Road between Crow's Perch and Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bandits' loot",
+    summary:
+      "A trader on the road is calling for help, surrounded by bandits. It's a setup, and he's one of them.",
+    aiTip:
+      "Expect four attackers once you get close, since the 'trader' joins in. Sell their gear afterwards, as there's no real reward.",
+    walkthrough: [
+      "Find the trader calling for help on the road from Crow's Perch.",
+      "Approach the three bandits around him.",
+      "Fight all four when the trader reveals himself.",
+      "Loot the bodies."
+    ],
+    video: "https://www.youtube.com/watch?v=b8L7G_4KtFg"
+  },
+{
+    id: 2813,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Harassing a Troll",
+    location: "Riverside campfire north-west of the Inn at the Crossroads, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and a chance at an elf head",
+    summary:
+      "A friendly rock troll is being mobbed by nekkers at a riverside campfire. Help him out, then chat about nekker soup.",
+    aiTip:
+      "Kill the nekkers without hitting the troll. Asking him about the soup is optional, and the quest completes either way.",
+    walkthrough: [
+      "Go to the campfire by the river north-west of the Inn at the Crossroads.",
+      "Help the rock troll fight off the nekkers.",
+      "Talk to the troll and optionally ask about nekker soup."
+    ],
+    video: "https://www.youtube.com/watch?v=XotvowZlAQ8"
+  },
+{
+    id: 2814,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Death by Fire",
+    location: "Huts on the western path of Codgers' Quarry, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and hidden loot",
+    summary:
+      "Bandits have set a hut on fire with someone inside. Fight them off, free the elf trapped indoors and find what's hidden nearby.",
+    aiTip:
+      "Blast the door with Aard and the elf inside joins the fight with his bow. Afterwards, use Witcher Senses to find the stump with the hidden loot.",
+    walkthrough: [
+      "Find the burning hut surrounded by bandits near Codgers' Quarry.",
+      "Fight the bandits, or Aard the door so the elf can help.",
+      "Kill all the bandits.",
+      "Use Witcher Senses to find the stump and its loot."
+    ],
+    video: "https://www.youtube.com/watch?v=K08tRESNjhA"
+  },
+{
+    id: 2815,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Fists of Fury: Velen",
+    location: "Lindenvale, the Inn at the Crossroads, Blackbough and Crow's Perch",
+    length: "medium",
+    difficulty: "Low",
+    reward: "25 XP per fight, bet winnings and about 160 crowns from the champion",
+    summary:
+      "Fist-fight your way through Velen's best brawlers: Fishgulper, Smithy and Jonah, then the champion, the Sergeant, at Crow's Perch.",
+    aiTip:
+      "Fight the first three in any order. Fishgulper asks you to throw the match for food money, so lose on purpose or win and slip him a few crowns.",
+    walkthrough: [
+      "Read the notice at Crow's Perch.",
+      "Beat Stan Fishgulper outside the Lindenvale inn.",
+      "Beat Smithy at the Inn at the Crossroads.",
+      "Beat Jonah in Blackbough.",
+      "Defeat the Sergeant at Crow's Perch to become Velen's champion."
+    ],
+    video: "https://www.youtube.com/watch?v=g8gUV1MrzYk"
+  },
+{
+    id: 2816,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Gwent: Velen Players",
+    location: "Crow's Perch, Benek, Oreton and Midcopse, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique gwent cards for each win",
+    summary:
+      "Beat Velen's best gwent players, the Bloody Baron, the soothsayer in Benek, the boatwright in Oreton and Haddy of Midcopse, to collect their unique cards.",
+    aiTip:
+      "The soothsayer plays a Monsters deck, so bring weather cards. This quest is required for the Card Collector achievement.",
+    walkthrough: [
+      "Read the notice at Crow's Perch or Midcopse, or challenge the Baron.",
+      "Beat the Bloody Baron.",
+      "Beat the soothsayer in Benek.",
+      "Beat the boatwright in Oreton.",
+      "Beat Haddy of Midcopse."
+    ],
+    video: "https://www.youtube.com/watch?v=xcuMAkGzHjE"
+  },
+{
+    id: 2817,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "High Stakes",
+    location: "Passiflora, Novigrad",
+    length: "medium",
+    difficulty: "High",
+    reward: "Leader cards including Foltest, Emhyr var Emreis, Francesca Findabair and Eredin",
+    summary:
+      "Count Tybalt is hosting a high-stakes gwent tournament at the Passiflora. Fight your way through the bracket and beat him for the title.",
+    aiTip:
+      "Save before every match, because losing a single game fails the quest. It's required for the Gwent Master achievement, so bring your strongest deck.",
+    walkthrough: [
+      "Read the tournament notice on the Hierarch Square board.",
+      "Go to the Passiflora and register with the scribe on the ground floor.",
+      "Win each round of the tournament, saving before every match.",
+      "Beat Count Tybalt in the final to win the tournament."
+    ],
+    video: "https://www.youtube.com/watch?v=VhgSdU0xPOI"
+  },
+{
+    id: 2818,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Message from an Old Friend",
+    location: "Books and scrolls shop north of Hierarch Square, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "50 XP and 51 crowns",
+    summary:
+      "Bookseller Marcus T.K. Hodgson says someone left a red book for Geralt years ago, but he can't remember where he put it. Find it and read the letter inside.",
+    aiTip:
+      "Use Witcher Senses on the upper floors. The book, 'My Manifesto - The Life of Jacques de Aldersberg', is on the second floor near the stairs up.",
+    walkthrough: [
+      "Enter the bookshop north of Hierarch Square and talk to Marcus T.K. Hodgson.",
+      "Search the shop with Witcher Senses for a book with a red cover.",
+      "Pick it up on the second floor near the stairs to the third.",
+      "Read the letter inside to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=H0fut8DHdyI"
+  },
+{
+    id: 2819,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Nobleman Statuette",
+    location: "Gildorf, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "30 crowns, 50 XP and a random lesser glyph",
+    summary:
+      "A jade figurine on a Gildorf stall turns out to hold a cursed nobleman. Bring it to Triss to lift the spell.",
+    aiTip:
+      "Do this before Now or Never, since Triss leaves Novigrad afterwards and the quest can't trigger until much later. The figurine only costs four crowns.",
+    walkthrough: [
+      "Buy the jade figurine from the stall in Gildorf.",
+      "Take it to Triss while she's still in Novigrad.",
+      "Help Triss break the curse.",
+      "Talk to the freed nobleman for your reward."
+    ],
+    video: "https://www.youtube.com/watch?v=C-sV-1iZPFU"
+  },
+{
+    id: 2820,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad Hospitality",
+    location: "Road near Yantra, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "Bards' belongings (worth about 100 crowns) if you demand them",
+    summary:
+      "Two friendly bards, Victor and Gascoigne, invite Geralt for a drink. He wakes the next morning without his shirt, boots or weapons.",
+    aiTip:
+      "Follow the footprints with Witcher Senses back to Yantra. Demanding all their possessions pays better than letting the thieves go.",
+    walkthrough: [
+      "Accept the drink from Victor and Gascoigne on the road near Yantra.",
+      "Wake up robbed of your gear.",
+      "Follow the footprints with Witcher Senses to Yantra.",
+      "Recover your gear and decide whether to let the bards go or take their belongings."
+    ],
+    video: "https://www.youtube.com/watch?v=iUT3hJgP_tU"
+  },
+{
+    id: 2821,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad, Closed City",
+    location: "St. Gregory's Bridge and The Bits, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "The Nigredo formula and the contents of the safe",
+    summary:
+      "Lussi calls Geralt over on St. Gregory's Bridge and leads him into an ambush. Her key starts a hunt for three keys to a safe, with witch hunters and bandits both after it.",
+    aiTip:
+      "Search the dead witch hunter for the warrant naming Fritz and Wallter, the other two key-holders. The second part ends with a choice between the bandits and the witch hunters.",
+    walkthrough: [
+      "Talk to Lussi on St. Gregory's Bridge and follow her home.",
+      "Kill the two witch hunters waiting there, then take Lussi's key.",
+      "Read the warrant to find Fritz and Wallter.",
+      "Get the keys from both of them.",
+      "Open the safe and choose between the bandits and the witch hunters."
+    ],
+    video: "https://www.youtube.com/watch?v=664LEui5rvs"
+  },
+{
+    id: 2822,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "An Eye for an Eye",
+    location: "Temerian hideout and Mulbrydale, Velen",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "50 XP; Roche and Ves can join at Kaer Morhen",
+    summary:
+      "Roche's lieutenant Ves has gone to attack Nilfgaardians in Mulbrydale against orders. Help Roche get her out alive.",
+    aiTip:
+      "Ves must survive, or the quest fails and you lose Roche and Ves for Kaer Morhen. Killing the last Nilfgaardian brings reprisals and closes Mulbrydale's shops.",
+    walkthrough: [
+      "Get the quest from Roche during Get Junior.",
+      "Meet Roche at the Hanged Man's Tree north of Mulbrydale.",
+      "Fight the Nilfgaardians in Mulbrydale and keep Ves alive.",
+      "Decide whether to spare or kill the last Nilfgaardian soldier."
+    ],
+    video: "https://www.youtube.com/watch?v=hUMkZ_zXEqU"
+  },
+{
+    id: 2823,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Feast for Crows",
+    location: "Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "20 crowns if you hand over the key",
+    summary:
+      "Geralt catches the smell of a corpse and finds a dead man clutching a key. Before long, the bandits who want that key come looking.",
+    aiTip:
+      "Available after Broken Flowers. Give them the key for 20 crowns or fight them, and they're not tough.",
+    walkthrough: [
+      "Follow the smell of decay to the corpse.",
+      "Take the key from the dead man's hand.",
+      "Meet the bandits looking for it.",
+      "Hand over the key for 20 crowns, or fight them."
+    ],
+    video: "https://www.youtube.com/watch?v=FlCL1XT4SqA"
+  },
+{
+    id: 2824,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "A Tome Entombed",
+    location: "Novigrad sewers",
+    length: "short",
+    difficulty: "Medium",
+    reward: "50 XP",
+    summary:
+      "Deep in the Novigrad sewers, Professor Vairmont Jonne is trying to open a sealed sarcophagus for an elven manuscript. Inside sleeps a katakan vampire.",
+    aiTip:
+      "Go in through the tunnel in The Bits or the archway tower past the Tretogor Gate. Look for the weak wall on the left before the gated arch and break it with Aard.",
+    walkthrough: [
+      "Enter the sewers from The Bits or the tower past the Tretogor Gate.",
+      "Find the weak wall on the left and break it with Aard.",
+      "Meet Professor Vairmont Jonne at the sealed sarcophagus.",
+      "Deal with what's inside to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=pWulC9IZ04Q"
+  },
+{
+    id: 2825,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Flame of Hatred",
+    location: "East of Hierarch Square, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP and loot from the thugs",
+    summary:
+      "An Eternal Fire preacher heckles Geralt in public. Humiliate him, and a few days later two 'guards' come to settle the score.",
+    aiTip:
+      "Don't hand over your weapons when the guards ask. They're the preacher's men looking for revenge, so just fight them.",
+    walkthrough: [
+      "Pass the preacher east of Hierarch Square and let him heckle you.",
+      "Talk him down with one of the first two replies.",
+      "A few days later, meet the two 'guards' who stop you.",
+      "Refuse to surrender your weapons and kill the thugs."
+    ],
+    video: "https://www.youtube.com/watch?v=WswbSN3jKiI"
+  },
+{
+    id: 2826,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Karmic Justice",
+    location: "Alley north of the dye pits, Farcorners, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Three elves have cornered a human merchant, claiming he sold poisoned fisstech to their young. He says they're robbing him. Decide who to believe.",
+    aiTip:
+      "Talk to them quickly, because if you wait too long the elves kill the merchant and you can't intervene. There's no hard evidence either way.",
+    walkthrough: [
+      "Find the elves and the merchant in the alley north of the Farcorners dye pits.",
+      "Talk to them before the elves act.",
+      "Hear both sides of the story.",
+      "Side with the elves or the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=d9pWOfigDOk"
+  },
+{
+    id: 2827,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Race: The Great Erasmus Vegelbud Memorial Derby",
+    location: "Vegelbud Residence, Novigrad",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Prize crowns plus the Superior Racing Saddle and Superior Cavalry Saddle",
+    summary:
+      "The Vegelbuds' memorial derby is three long horse races on different courses, the last against Luc Vegelbud himself.",
+    aiTip:
+      "Each race costs 100 crowns to enter, so bring 300. Keep tapping gallop to manage stamina and stick close to the racing line.",
+    walkthrough: [
+      "Pick up the derby invitation from the table in Hierarch Square after Get Junior.",
+      "Pay the 100-crown fee and win the first race.",
+      "Win the second race.",
+      "Beat Luc Vegelbud in the third race.",
+      "Collect your winnings and the messenger's letter as you leave."
+    ],
+    video: "https://www.youtube.com/watch?v=O9xBkyWj568"
+  },
+{
+    id: 2828,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Most Truest of Basilisks",
+    location: "Road north-east of the Novigrad Gate, outside Oxenfurt",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP",
+    summary:
+      "A beast tamer is showing soldiers a caged 'basilisk' that is really a wyvern. Call him out, then deal with the wyvern when it breaks loose.",
+    aiTip:
+      "The marker only appears between 7am and 6pm. Have Draconid Oil ready, because the wyvern escapes as soon as you expose the fraud.",
+    walkthrough: [
+      "Visit the road north-east of the Novigrad Gate during the day.",
+      "Talk to the beast tamer and the soldiers.",
+      "Point out that the creature is a wyvern.",
+      "Kill the wyvern when it escapes its cage."
+    ],
+    video: "https://www.youtube.com/watch?v=KHC0T3Xb5mg"
+  },
+{
+    id: 2829,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Fencing Lessons",
+    location: "South of Novigrad's Southern Gate and the Seven Cats Inn",
+    length: "short",
+    difficulty: "Low",
+    reward: "25 XP",
+    summary:
+      "Rosa var Attre wants another fencing lesson, and then needs help when a pair of drunkards cause trouble at the Seven Cats Inn.",
+    aiTip:
+      "Agree to more lessons during Broken Flowers to unlock this, and finish it before The Isle of Mists. You can fight, pay off or Axii the drunkards.",
+    walkthrough: [
+      "Agree to another lesson with Rosa during Broken Flowers.",
+      "Talk to the guard captain, then find Rosa south of the Southern Gate.",
+      "Duel Rosa.",
+      "Follow the footprints with Witcher Senses to the Seven Cats Inn.",
+      "Deal with the two drunkards to help Rosa."
+    ],
+    video: "https://www.youtube.com/watch?v=tbk_FRZ1nTA"
+  },
+{
+    id: 2830,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Gwent: Big City Players",
+    location: "Novigrad and the woods to the south",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique cards: Vesemir, Morvran Voorhis, Esterad Thyssen, Ciri and Francesca Findabair",
+    summary:
+      "Take on Novigrad's gwent elite: Vimme Vivaldi, Marquise Serenity, Sigi Reuven and a Scoia'tael merchant in the woods.",
+    aiTip:
+      "Vivaldi plays Scoia'tael and Serenity plays Nilfgaard, so build your deck to counter each. The Scoia'tael merchant is last and pays out two cards.",
+    walkthrough: [
+      "Beat Vimme Vivaldi at his bank for Vesemir.",
+      "Beat Marquise Serenity at the Passiflora for Morvran Voorhis.",
+      "Beat Sigi Reuven at his bathhouse for Esterad Thyssen.",
+      "Beat the Scoia'tael merchant in the woods south of Novigrad for Ciri and Francesca."
+    ],
+    video: "https://www.youtube.com/watch?v=y-s6D1CgzcQ"
+  },
+{
+    id: 2831,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Fists of Fury: Novigrad",
+    location: "Novigrad (the Golden Sturgeon and around the city)",
+    length: "medium",
+    difficulty: "Low",
+    reward: "XP and bet winnings",
+    summary:
+      "Fight your way up Novigrad's fist-fighting ladder: Georgius 'Piledriver' Georg, Archibald O'Neill and Captain Iron Mortimer, then the champion, Durden the Tailor.",
+    aiTip:
+      "Durden only shows up after the other three are beaten. Throwing the fight with Georg is an option and can pay well, with up to 240 crowns.",
+    walkthrough: [
+      "Beat Georgius Georg at the Golden Sturgeon (or throw the fight).",
+      "Beat Archibald O'Neill.",
+      "Beat Captain Iron Mortimer.",
+      "Defeat Durden the Tailor to become Novigrad's champion."
+    ],
+    video: "https://www.youtube.com/watch?v=6xhxIDZu1l0"
+  },
+{
+    id: 2832,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Coronation",
+    location: "Kaer Trolde, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "With the succession settled, Skellige crowns its new ruler, whoever you backed in King's Gambit.",
+    aiTip:
+      "It starts automatically after King's Gambit and is just a scene. Visit Ermion afterwards if you want him for Kaer Morhen.",
+    walkthrough: [
+      "Finish King's Gambit.",
+      "Return to Kaer Trolde for the ceremony.",
+      "Watch the new king or queen crowned to complete the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=9X29PT2fvnY"
+  },
+{
+    id: 2833,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "A Hallowed Horn",
+    location: "Bandit camp by a large stone and broken boat, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "A druid's sacred horn has been stolen. Track the thieves to their camp and bring it back, though he may not like how you got it.",
+    aiTip:
+      "The horn is in a chest inside the bandits' tent. Mathios won't be pleased if you killed everyone to get it back.",
+    walkthrough: [
+      "Read the horn notice on the Kaer Muire board.",
+      "Head to the bandit camp by the large stone and broken boat.",
+      "Deal with the bandits.",
+      "Open the chest in the tent and take the horn.",
+      "Return the horn to Mathios."
+    ],
+    video: "https://www.youtube.com/watch?v=dALgf39TxXw"
+  },
+{
+    id: 2834,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Tower Outta Nowheres",
+    location: "Urialla Harbor, An Skellig",
+    length: "medium",
+    difficulty: "High",
+    reward: "Lesser Svarog runestone, a leveled Moonblade and 65 crowns",
+    summary:
+      "A mage's tower has appeared out of nowhere above Urialla Harbor, and the rain hasn't stopped since. Go inside, beat its golem and free the mage trapped within.",
+    aiTip:
+      "You need the Library Key from a small chest in the laboratory to reach Gottfried's Omni-opening Grimoire, which frees Sigo Buntz. Bring Dimeritium bombs for the golem.",
+    walkthrough: [
+      "Talk to the villagers by the campfire in Urialla Harbor.",
+      "Enter the tower through the portal at the base of the stairs.",
+      "Destroy the guardian golem.",
+      "Find the Library Key in the laboratory and take the grimoire.",
+      "Use it to free Sigo Buntz, then collect the villagers' reward."
+    ],
+    video: "https://www.youtube.com/watch?v=anRx8DXyyxw"
+  },
+{
+    id: 2835,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Path of Warriors",
+    location: "Trail to Yngvar's Fang, north-east of Urialla Harbor, An Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Gunnar challenges Geralt to walk the old warriors' trial, two paths, one up a mountain and one through a cave, each ending in a token.",
+    aiTip:
+      "Finish The Tower Outta Nowheres first. The climbing is harder than the fighting, so take it slow, and if Gunnar won't finish it, reset with Witcher Senses and talk to him again.",
+    walkthrough: [
+      "Complete The Tower Outta Nowheres.",
+      "Talk to Gunnar on the trail to Yngvar's Fang.",
+      "Climb the mountain path and take the token at the top.",
+      "Go through the underground cave and take the second token.",
+      "Return both tokens to Gunnar."
+    ],
+    video: "https://www.youtube.com/watch?v=D9LsIkcqW7k"
+  },
+{
+    id: 2836,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Flesh for Sale",
+    location: "Trottheim, Faroe, Skellige",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the captives freed",
+    summary:
+      "Pirates in Trottheim mistake Geralt for the slave trader they've been waiting for. Free their captives by paying, tricking or fighting.",
+    aiTip:
+      "Missable: it vanishes once you talk to Lambert in Following the Thread. Axii (Delusion) convinces the slaver he's already been paid, which saves the 500 crowns.",
+    walkthrough: [
+      "Arrive at the Trottheim gate on Faroe and play along as the 'courier'.",
+      "Meet the slaver holding the captives.",
+      "Pay 500 crowns, use Axii, or fight all the pirates.",
+      "Free the captives."
+    ],
+    video: "https://www.youtube.com/watch?v=cLkQhevZ6Co"
+  },
+{
+    id: 2837,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Family Blade",
+    location: "Kaer Trolde to the Whale Graveyard, Ard Skellig",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "75 XP and 20 crowns",
+    summary:
+      "Crach an Craite's ancestral sword has been stolen from Kaer Trolde. Chase the thieves through three bandit camps to the Whale Graveyard.",
+    aiTip:
+      "Read the thief's journal on the bodies at each camp, since each one points to the next stop.",
+    walkthrough: [
+      "Take the notice from the Kaer Trolde Harbor board.",
+      "Track the thieves to the first bandit camp and read the journal.",
+      "Follow the trail to the second camp.",
+      "Reach the Whale Graveyard and recover the sword.",
+      "Return the blade."
+    ],
+    video: "https://www.youtube.com/watch?v=ISbf3P-e46U"
+  },
+{
+    id: 2838,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Black Pearl",
+    location: "Novigrad, then the broken bridge north of Arinbjorn, Skellige",
+    length: "medium",
+    difficulty: "Low",
+    reward: "A few crowns from Nidas back in Novigrad",
+    summary:
+      "Nidas hopes a black pearl from Skellige can cure his wife's failing memory. Dive for it and protect him from drowners.",
+    aiTip:
+      "You need Destination: Skellige done for the second half. After you surface with the pearl, rush back, because drowners attack Nidas.",
+    walkthrough: [
+      "Talk to Nidas west of Hierarch Square in Novigrad.",
+      "After reaching Skellige, meet him at the broken bridge north of Arinbjorn.",
+      "Swim west to the search area and dive for oysters.",
+      "Find the pearl and kill the drowners attacking Nidas.",
+      "Meet him in Novigrad to see the bittersweet ending."
+    ],
+    video: "https://www.youtube.com/watch?v=yHAWwCN-N0I"
+  },
+{
+    id: 2839,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Sad Tale of the Grossbart Brothers",
+    location: "Blandare and a grotto on Ard Skellig's south-east coast",
+    length: "short",
+    difficulty: "High",
+    reward: "XP and a bounty",
+    summary:
+      "Bounty hunter Djenge Frett wants help bringing down the three Grossbart brothers holed up in a coastal grotto.",
+    aiTip:
+      "If Djenge dies the quest fails, so keep him out of trouble. The three brothers (sword, axe and bow) are level 26, so kill the archer first.",
+    walkthrough: [
+      "Talk to Djenge Frett in Blandare.",
+      "Sail or swim to the grotto on the south-east coast.",
+      "Fight the three Grossbart brothers.",
+      "Keep Djenge alive until all three are dead."
+    ],
+    video: "https://www.youtube.com/watch?v=qXVqKdiXN6o"
+  },
+{
+    id: 2840,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Peace Disturbed",
+    location: "Crypt north of the Crossroads, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Two women outside a crypt fear the dead inside won't rest. Clear the wraiths and the nightwraith in the final chamber.",
+    aiTip:
+      "Use Yrden on the nightwraith to make it vulnerable. A hidden entrance near Kaer Trolde lets you skip most of the crypt and face only the boss.",
+    walkthrough: [
+      "Talk to the two women outside the crypt north of the Crossroads.",
+      "Enter the crypt and clear the wraiths.",
+      "Reach the final room.",
+      "Use Yrden and kill the nightwraith."
+    ],
+    video: "https://www.youtube.com/watch?v=IFgztlSHmp0"
+  },
+{
+    id: 2841,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Brave Fools Die Young",
+    location: "Grymmdjarr Monument, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Two young fishermen, Petter and Ulf, tried lighting a fire atop the Grymmdjarr Monument, and Petter fell and hurt his leg. Help him or leave them to it.",
+    aiTip:
+      "Have celandine on you to treat Petter. It never shows in the journal if you walk away, so it's easy to miss.",
+    walkthrough: [
+      "Find the two men at the Grymmdjarr Monument.",
+      "Talk to them about Petter's fall.",
+      "Give Petter celandine, or leave them be."
+    ],
+    video: "https://www.youtube.com/watch?v=x_amgvaWjQo"
+  },
+{
+    id: 2842,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Abandoned Sawmill",
+    location: "Sawmill in eastern Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The lumberjacks of an abandoned sawmill were killed by something in the woods. Examine the bones and face the leshen that appears.",
+    aiTip:
+      "It starts as soon as you reach the sawmill. Bring Relict Oil and Igni, and destroy the leshen's totem if you find one first.",
+    walkthrough: [
+      "Travel to the abandoned sawmill on Ard Skellig.",
+      "Examine the human bones.",
+      "Optionally search the nearby buildings for clues.",
+      "Kill the leshen when it appears."
+    ],
+    video: "https://www.youtube.com/watch?v=Gqx1HQLfKZQ"
+  },
+{
+    id: 2843,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Gwent: Skellige Style",
+    location: "Kaer Trolde, Ard Skellig and around the islands",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Unique cards (Leshen, Draug, Mysterious Elf, Vampire: Katakan, Yaevinn) and Emhyr: The White Flame",
+    summary:
+      "Beat Skellige's gwent players, Ermion, Crach an Craite, Gremist, Sjusta and Madman Lugos, for their unique cards.",
+    aiTip:
+      "Ermion needs Echoes of the Past done and Gremist may need Practicum in Advanced Alchemy. Play Madman Lugos early, as he's gone once Battle Preparations starts unless Svanrige is king.",
+    walkthrough: [
+      "Beat Ermion for the Leshen card.",
+      "Beat Crach an Craite for the Draug card.",
+      "Beat Gremist for the Mysterious Elf card.",
+      "Beat Madman Lugos for Vampire: Katakan.",
+      "Beat Sjusta for Yaevinn to finish the quest."
+    ],
+    video: "https://www.youtube.com/watch?v=ZMKvcqrC2ko"
+  },
+{
+    id: 2844,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "A Mysterious Passenger",
+    location: "Larvik, Hindarsfjall, Skellige",
+    length: "short",
+    difficulty: "Low",
+    reward: "None (lore)",
+    summary:
+      "Skjall saw a strange creature with Ciri on Hindarsfjall. Ask Jarl Donar an Hindar about it.",
+    aiTip:
+      "Only appears if you finish The Calm Before the Storm before Ciri's Story: Out of the Shadows in Velen. It gives no XP and is purely story.",
+    walkthrough: [
+      "Finish The Calm Before the Storm before Out of the Shadows.",
+      "Travel to Larvik on Hindarsfjall.",
+      "Talk to Jarl Donar an Hindar about the creature Skjall saw."
+    ],
+    video: "https://www.youtube.com/watch?v=3eIU1IT3NMo"
+  },
+{
+    id: 2845,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Kaer Morhen",
+    title: "The Witchers' Forge",
+    location: "Kaer Morhen and an old mine nearby",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "25 XP and armour",
+    summary:
+      "A book in Kaer Morhen's main hall points to the old witchers' forge. Track it down to an abandoned iron mine with a secret passage.",
+    aiTip:
+      "You need the Eye of Nehaleni from Wandering in the Dark to reveal the hidden passage. It's missable, so pick up the book on your first visit.",
+    walkthrough: [
+      "Find and read the book in Kaer Morhen's main hall.",
+      "Head to the old iron mine near the keep.",
+      "Use the Eye of Nehaleni to reveal the secret passage.",
+      "Explore the old forge and claim the armour."
+    ],
+    video: "https://www.youtube.com/watch?v=kVRRE1XgVzE"
+  },
+{
+    id: 2846,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: Witcher Seasonings",
+    location: "Oxenfurt (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP; fewer guards for the heist",
+    summary:
+      "To thin out the Redanian guard around the Borsodi auction house, Geralt goes after the soldiers' cook, Maarten, and his kitchen.",
+    aiTip:
+      "Use Axii on Maarten to skip paying him the 500-crown bribe. Witcher Senses on the soldiers in Oxenfurt tell you where to find him.",
+    walkthrough: [
+      "Spy on the Redanian soldiers in Oxenfurt with Witcher Senses to learn where their cook is.",
+      "Listen in on the soldiers' conversation at the auction house.",
+      "Find Maarten the cook.",
+      "Bribe him or use Axii to have him spoil the soldiers' meal."
+    ],
+    video: "https://www.youtube.com/watch?v=Sz6PGHG8ALg"
+  },
+{
+    id: 2847,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: Breaking and Entering",
+    location: "Oxenfurt and surroundings (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; a burglar for the heist",
+    summary:
+      "The heist needs a burglar. Geralt can try Hugo Hoff or Eveline Gallo, 'the Ermine', who's working at a circus camp.",
+    aiTip:
+      "Hugo Hoff is often already dead when you get there, so Eveline is the usual pick. Shoot the four apples off the performer with your crossbow to win her over, and watch for three level 33 thugs on the riverbank.",
+    walkthrough: [
+      "Choose between Hugo Hoff and Eveline Gallo.",
+      "For Hugo, follow the trail with Witcher Senses to the riverbank and fight the thugs.",
+      "For Eveline, find her at the circus camp.",
+      "Shoot the four apples off the other performer.",
+      "Bring your burglar on board."
+    ],
+    video: "https://www.youtube.com/watch?v=VOlHKQgvjUM"
+  },
+{
+    id: 2848,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Open Sesame: The Safecracker",
+    location: "Oxenfurt area (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; a safecracker for the heist",
+    summary:
+      "Recruit a safecracker for the Borsodi vault, either the dwarf Casimir or Quinto, who is being held in a mercenary camp.",
+    aiTip:
+      "With Casimir, Axii at level 2 ends the conversation and gets him on board. Freeing Quinto costs more if you made Hans pay extra in The Creature from Oxenfurt Forest.",
+    walkthrough: [
+      "Choose between Casimir and Quinto.",
+      "For Casimir, find him and use Axii to recruit him.",
+      "For Quinto, go to the mercenary camp and pay for his release.",
+      "Bring the safecracker back to the crew."
+    ],
+    video: "https://www.youtube.com/watch?v=6nkjSC7ivkE"
+  },
+{
+    id: 2849,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Enchanting: Start-Up Costs",
+    location: "Ofieri camp at the Upper Mill (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "Access to the runewright's enchanting",
+    summary:
+      "An Ofieri runewright at the Upper Mill can enchant gear with runewords, but first he needs 5,000 crowns to replace his lost tools.",
+    aiTip:
+      "Save up the 5,000 crowns first. Advanced and master runewords cost another 10,000 and 15,000 later.",
+    walkthrough: [
+      "Meet the runewright at the Ofieri camp at the Upper Mill.",
+      "Pay him 5,000 crowns.",
+      "This starts Enchanting: Quality Has Its Price."
+    ],
+    video: "https://www.youtube.com/watch?v=4nZpOTpsMxw"
+  },
+{
+    id: 2850,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Enchanting: Quality Has Its Price",
+    location: "Bloodrot Pit (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Runewright's shop and enchanting unlocked",
+    summary:
+      "The runewright needs high-quality jade for his work. Grab a pickaxe and dig the right deposit out of a cave.",
+    aiTip:
+      "Of the three search areas, only Bloodrot Pit has enough jade, so skip the other two. Take the pickaxe from the barn east of his tent first.",
+    walkthrough: [
+      "Take the pickaxe from the barn east of the runewright's tent.",
+      "Head to Bloodrot Pit.",
+      "Use Witcher Senses to find the mound in the cave.",
+      "Dig out the jade with the pickaxe.",
+      "Bring it back to the runewright."
+    ],
+    video: "https://www.youtube.com/watch?v=eJIU1OifPI4"
+  },
+{
+    id: 2851,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Races: Swift as the Western Winds",
+    location: "Upper Mill, east of Brunwich (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "A saddle that adds 85 to carrying capacity",
+    summary:
+      "An Ofieri merchant at the Upper Mill boasts about his horses. Challenge him to a race and dodge the barrels he rolls into your path.",
+    aiTip:
+      "Watch for the rolling barrels and steer around them rather than slowing down. The saddle is one of the best for carrying weight.",
+    walkthrough: [
+      "Talk to the Ofieri merchant at the Upper Mill about horses.",
+      "Accept his race.",
+      "Ride the course, avoiding the rolling barrels.",
+      "Win to claim the saddle."
+    ],
+    video: "https://www.youtube.com/watch?v=GgbWZ9VmjeY"
+  },
+{
+    id: 2852,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Rose on a Red Field",
+    location: "Garin Estate, Bowdon and Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Adela of the Wild Company asks Geralt to find whoever murdered her friend Kluivert. The trail runs through ghoul-infested Bowdon to a knights' cart and a lab.",
+    aiTip:
+      "Bowdon is overrun with ghouls, so bring Necrophage Oil. The quest can't be missed or failed, even after the main story ends.",
+    walkthrough: [
+      "Talk to Adela when leaving the Garin Estate.",
+      "Investigate in Bowdon, clearing the ghouls.",
+      "Examine the knights' cart and the lab.",
+      "Follow the lead to The Alchemy inn in Oxenfurt.",
+      "Report back to Adela."
+    ],
+    video: "https://www.youtube.com/watch?v=V_NVF8R3-Oc"
+  },
+{
+    id: 2853,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Drakenborg Redemption",
+    location: "Bloodrot Pit, Novigrad outskirts (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 456 florens and loot",
+    summary:
+      "A corpse in Bloodrot Pit holds a bent key and a letter about treasure buried at the back of the cave, guarded by arachnomorphs.",
+    aiTip:
+      "Expect arachnomorphs by the body, more by the chest, and a large one in the second part of the cave. Bring Insectoid Oil.",
+    walkthrough: [
+      "Find the corpse in Bloodrot Pit and take the Bent Key and letter.",
+      "Read the letter to start the treasure hunt.",
+      "Kill the arachnomorphs and push to the back of the cave.",
+      "Defeat the large arachnomorph.",
+      "Open the chest with the key."
+    ],
+    video: "https://www.youtube.com/watch?v=XgXlMkLcgok"
+  },
+{
+    id: 2854,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Secret Life of Count Romilly",
+    location: "Arnskrone Castle Ruins (Hearts of Stone)",
+    length: "short",
+    difficulty: "High",
+    reward: "Random loot, possibly a diagram",
+    summary:
+      "A journal and key on a body outside the swamp-bound Arnskrone ruins lead to Count Romilly's hidden chest.",
+    aiTip:
+      "A level 37 ancient leshen patrols the area, so come prepared or sneak past. The chest is down the spiral stairs in the broken western tower.",
+    walkthrough: [
+      "Find the body near the Arnskrone ruins and read the journal.",
+      "Take the Tarnished Key.",
+      "Go down the spiral staircase in the western tower.",
+      "Open the chest across from the stairs."
+    ],
+    video: "https://www.youtube.com/watch?v=LJV-KP5yvjM"
+  },
+{
+    id: 2855,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Sword, Famine and Perfidy",
+    location: "Coastal hut north of Novigrad and a sunken ship (Hearts of Stone)",
+    length: "short",
+    difficulty: "High",
+    reward: "A Stribog runestone, florens and crafting materials",
+    summary:
+      "A trapdoor under a coastal hut hides a body, a letter written in blood and a rusted key that points to a sunken ship's chest.",
+    aiTip:
+      "Smash the barrels on the right side of the hut to find the trapdoor. Take the boat south-west of the house instead of swimming, and use your crossbow on the drowned dead underwater.",
+    walkthrough: [
+      "Clear the monsters at the hut on the coast north of Novigrad.",
+      "Smash the barrels inside to reveal the trapdoor.",
+      "Read the blood-written letter and take the rusted key.",
+      "Take the boat to the wreck and dive down.",
+      "Kill the drowned dead and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=bnZCCXWL51k"
+  },
+{
+    id: 2856,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Tinker, Hunter, Soldier, Spy",
+    location: "Mohrin Village watchtower and lake (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Florens, a Mastercrafted saddle and crafting materials",
+    summary:
+      "A corpse in a watchtower near Mohrin Village has a bloody letter and an encrusted key pointing to a chest hidden at a nearby lake.",
+    aiTip:
+      "Keep your distance from the Fallen Knights near the tower. The chest is directly under the pier, so look from the shore, not from the pier itself.",
+    walkthrough: [
+      "Climb the watchtower at abandoned Mohrin Village.",
+      "Loot the body for the letter and key.",
+      "Read the letter and ride to the lake.",
+      "Use Witcher Senses to find the chest beneath the pier.",
+      "Open it with the key."
+    ],
+    video: "https://www.youtube.com/watch?v=LxgrRDrSQ9M"
+  },
+{
+    id: 2857,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Without a Trace",
+    location: "Brunwich and Erde (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "200 crowns and 100 XP",
+    summary:
+      "The herbalist's halfling apprentice Folkert has gone missing. His abandoned cart and a blood trail lead to an old couple in Erde with a grim secret.",
+    aiTip:
+      "Every ending pays the same. If you kill the couple, their Rusty Key opens the house.",
+    walkthrough: [
+      "Take the notice from the Brunwich board and talk to the herbalist east of Oxenfurt.",
+      "Find Folkert's cart in the woods.",
+      "Follow the blood trail north to Erde.",
+      "Confront the old couple and choose their fate.",
+      "Return to the herbalist."
+    ],
+    video: "https://www.youtube.com/watch?v=pACNv0sqDg8"
+  },
+{
+    id: 2858,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Taxman Cometh",
+    location: "Oxenfurt market (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "A tax certificate, or a 1,000-crown penalty",
+    summary:
+      "Carry 35,000 crowns through Oxenfurt's market and a deputy tax enumerator wants to know exactly how a witcher came by so much money.",
+    aiTip:
+      "Deny the rawhide trading, pearl dealing and 'entering homes' questions to walk away with a certificate. Admit to two or more and you owe 1,000 crowns at the Vivaldi Bank.",
+    walkthrough: [
+      "Carry about 35,000 crowns into Oxenfurt's market.",
+      "Talk to Walthemor Mitty, the deputy tax enumerator.",
+      "Answer his three questions.",
+      "Take the certificate, or pay the penalty at the Vivaldi Bank in Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=4HGcn_qRzq8"
+  },
+{
+    id: 2859,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Where Children Toil, Toys Waste Away",
+    location: "Beauclair Port and The Rocking Horse toy shop, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP; leads into Wine is Sacred",
+    summary:
+      "A bootblack from Regis's vision is the next lead on the Beast. Find the boy in Beauclair Port and follow his trail to an abandoned toy shop.",
+    aiTip:
+      "The bootblack only works 8am–8pm, so meditate if needed. Axii saves you his 500-crown fee, though paying him counts as Generosity for There Can Be Only One. Visit Count de la Croix's Mill first if you want Amidst the Mill's Grist.",
+    walkthrough: [
+      "Find the bootblack in Beauclair Port between 8am and 8pm.",
+      "Pay him, haggle, or use Axii to get the information.",
+      "Deal with the fight that follows when the guards arrive.",
+      "Go with Regis to The Rocking Horse toy shop.",
+      "Examine the letter in the box and the papers in the corner."
+    ],
+    video: "https://www.youtube.com/watch?v=ylnEjeJHUtE"
+  },
+{
+    id: 2860,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine is Sacred",
+    location: "Beauclair Palace and a vineyard cellar, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "The Beast's next target is tied to a vintage of Sangreal. Investigate the wine cellar, find the right barrels and survive the ambush on the way out.",
+    aiTip:
+      "Grab the tapping hammer and barrel tap from the lower west section of the cellar first. The 1269 barrel is upstairs in the south-east corner. Bandits under Hornitz ambush you when you leave.",
+    walkthrough: [
+      "Talk to the Duchess and Damien de la Tour at Beauclair Palace.",
+      "Head to the vineyard's wine cellar.",
+      "Find the tapping hammer and barrel tap.",
+      "Tap the 1269 Sangreal barrels and see that the wine isn't right.",
+      "Fight off Hornitz and his bandits on the way out."
+    ],
+    video: "https://www.youtube.com/watch?v=UwVfFAsSb3Y"
+  },
+{
+    id: 2861,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Man from Cintra",
+    location: "Mountebank Alley and the Mandragora party, Beauclair",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP",
+    summary:
+      "Geralt and the Duchess go to a masked party at the Mandragora to find a mysterious Cintrian, but they arrive too late.",
+    aiTip:
+      "Buy formal clothes from Pierre's tailor shop northwest of the Gran'Place if you want to impress Anna Henrietta, though she'll provide a mask either way.",
+    walkthrough: [
+      "Optionally buy formal clothes from Pierre's tailor's workshop.",
+      "Meet Anna Henrietta in Mountebank Alley.",
+      "At the party, find the woman with a Koviri orchid in her hair.",
+      "Use Witcher Senses on the refreshment tables to find the heart-shaped box.",
+      "Follow the tracks across the balconies and investigate the room."
+    ],
+    video: "https://www.youtube.com/watch?v=Qttn45voNRU"
+  },
+{
+    id: 2862,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Capture the Castle",
+    location: "Count de la Croix's Mill and Dun Tynne, Toussaint",
+    length: "long",
+    difficulty: "High",
+    reward: "XP; leads into The Night of Long Fangs",
+    summary:
+      "Damien and Geralt plan an assault on Dun Tynne castle, where the Beast's accomplice is holed up. It's the point of no return for much of Toussaint's side content.",
+    aiTip:
+      "Meet Damien at the mill only after midnight. Make a manual save first, since you can't save during the assault, and finish The Warble of a Smitten Knight beforehand.",
+    walkthrough: [
+      "Go to Count de la Croix's Mill after midnight and meet Damien.",
+      "Plan the assault on Dun Tynne.",
+      "Fight through the gate guards and the courtyard.",
+      "Defeat Roderick's group and choose whether to help him.",
+      "Push on through the castle."
+    ],
+    video: "https://www.youtube.com/watch?v=cmayDR3wkfw"
+  },
+{
+    id: 2863,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "What Lies Unseen",
+    location: "Hidden cave by the lake south-west of Beauclair",
+    length: "long",
+    difficulty: "High",
+    reward: "XP and Hen Gaidth gauntlets (optional)",
+    summary:
+      "Regis takes Geralt to the lair of the Unseen Elder, the oldest higher vampire, to ask for help finding Dettlaff.",
+    aiTip:
+      "Take the dry path so Regis can help. The wet route has a chest with Hen Gaidth gauntlets. With the Elder, don't ask too many questions or give poor answers, or he kills you.",
+    walkthrough: [
+      "Open the hidden entrance on the cliff with Orianna's Magic Stone.",
+      "Choose the dry path (with Regis) or the wet path (gauntlets chest).",
+      "Deal with the fleders along the way.",
+      "Reach the Unseen Elder with an offering.",
+      "Answer carefully to get his help against Dettlaff."
+    ],
+    video: "https://www.youtube.com/watch?v=WGDIg-y9sDY"
+  },
+{
+    id: 2864,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Burlap is the New Stripe",
+    location: "Toussaint prison, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "If Syanna dies, Geralt is thrown into prison in Toussaint. Get through prison life until Dandelion arranges a way out.",
+    aiTip:
+      "Only appears if Syanna dies in the Tesham Mutna storyline. Pick the Axii option in the yard fight to turn three guards into two.",
+    walkthrough: [
+      "Wake up imprisoned in Toussaint.",
+      "Collect the dirty clothing and soap and drop them at the laundry tubs.",
+      "Pick up a stick and fight the guards, using Axii to even the odds.",
+      "Follow the guard to the exit.",
+      "Recover your belongings from the room left of the first gate."
+    ],
+    video: "https://www.youtube.com/watch?v=SFJ_sBzNvCI"
+  },
+{
+    id: 2865,
+    type: "main",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Be It Ever So Humble...",
+    location: "Corvo Bianco vineyard, Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "The epilogue",
+    summary:
+      "After the story ends, Geralt returns home to Corvo Bianco, where a visitor waits, depending on who he's closest to.",
+    aiTip:
+      "Your visitor (Yennefer, Triss, Ciri or Dandelion) depends on your romance and Ciri's ending. Upgrade the vineyard first for the full effect.",
+    walkthrough: [
+      "Finish the Blood and Wine main story.",
+      "Return home to Corvo Bianco.",
+      "Greet your visitor.",
+      "Finish the conversation to end the expansion."
+    ],
+    video: "https://www.youtube.com/watch?v=zp8JSv_Ofmo"
+  },
+{
+    id: 2866,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Extreme Cosplay",
+    location: "Road east of Francollarts and the Doren Alma estate, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 300 crowns and 250 XP",
+    summary:
+      "Gaston is tending a man hurt by a 'mad knight' who thinks he's an elf king. Follow the burn marks to the estate and stop the performance before the living statues get out of hand.",
+    aiTip:
+      "Agree to let Gaston come along, since telling him it's not your concern fails the quest. Use Aard on the locked gate.",
+    walkthrough: [
+      "Talk to Gaston by the injured man east of Francollarts.",
+      "Let Gaston come with you to the Doren Alma estate.",
+      "Use Aard on the locked gate.",
+      "Follow the burn marks to Durand.",
+      "Light the garden lamps and place the elven bread and wine, then deal with the statues."
+    ],
+    video: "https://www.youtube.com/watch?v=j8103sbIrbI"
+  },
+{
+    id: 2867,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Father Knows Worst",
+    location: "Cave north-west of Beauclair Palace, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP and the Virtue of Wisdom for the peaceful ending",
+    summary:
+      "Two Monnart brothers want Geralt's help rescuing their brother Hugo from a cave full of kikimores. Things are more complicated than they seem.",
+    aiTip:
+      "Use Quen against the hot-spring damage in the cave. Resolving it peacefully among the brothers earns the Virtue of Wisdom for There Can Be Only One.",
+    walkthrough: [
+      "Take the 'Armed Escort Wanted!' notice in Beauclair.",
+      "Meet the brothers and enter the cave north-west of the palace.",
+      "Fight the kikimore workers.",
+      "Find Hugo.",
+      "Settle things between the brothers peacefully, or fight them."
+    ],
+    video: "https://www.youtube.com/watch?v=Ig-vDH0LfO8"
+  },
+{
+    id: 2868,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Goodness, Gracious, Great Balls of Granite!",
+    location: "Gran'Place, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "A reward from the curator, or the stones",
+    summary:
+      "Stone pieces have vanished from a monument to Reginald d'Aubry. Track them down to a thief named Hughes, who has his own reasons for taking them.",
+    aiTip:
+      "There are three endings: let Hughes keep the stones for a reward, demand them back, or lend them to him for a day.",
+    walkthrough: [
+      "Read the notice or talk to the art curator at the Gran'Place.",
+      "Investigate the monument with Witcher Senses.",
+      "Follow the trail to Hughes's house.",
+      "Choose to give, take or lend the stones."
+    ],
+    video: "https://www.youtube.com/watch?v=rLf8RV_wzZo"
+  },
+{
+    id: 2869,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Duck, Duck, Goosed!",
+    location: "Land of a Thousand Fables, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Golden Egg (eat it for a skill point)",
+    summary:
+      "In the fairytale land, a notice asks for help rescuing a goose that lays golden eggs. Follow the feathers to Redbeard's bandits.",
+    aiTip:
+      "Do this before finishing Beyond Hill and Dale..., because you can't return afterwards. The notice is near the Little Flint Girl and easy to miss.",
+    walkthrough: [
+      "Read the notice near the Little Flint Girl.",
+      "Use Witcher Senses to follow the goose feathers.",
+      "Fight Redbeard and his bandits.",
+      "Take the cage key from the bodies.",
+      "Free the goose and collect the Golden Egg."
+    ],
+    video: "https://www.youtube.com/watch?v=lXNdJOYsl50"
+  },
+{
+    id: 2870,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: The Tufo Monster",
+    location: "Flovive and its cellars, Toussaint",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns and a bonus for destroying every egg",
+    summary:
+      "Something is terrorising Flovive from below. Clear the kikimore eggs in the tunnels, then lure out the shaelmaar behind it all.",
+    aiTip:
+      "Destroy every kikimore egg in the tunnels for a bonus. The shaelmaar hits hard and rolls at you, so dodge sideways and strike after each attack.",
+    walkthrough: [
+      "Take the contract from the Flovive notice board.",
+      "Clear the cellar tunnels and destroy the kikimore eggs.",
+      "Follow the tracks with Witcher Senses.",
+      "Brew the bait and lure out the shaelmaar.",
+      "Kill it and claim the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=Z6VzKecVHw8"
+  },
+{
+    id: 2871,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Feet as Cold as Ice",
+    location: "West of the Nilfgaardian Embassy signpost, Toussaint",
+    length: "short",
+    difficulty: "High",
+    reward: "Crowns and XP",
+    summary:
+      "A woman west of the Nilfgaardian Embassy needs a witcher. The hunt ends at a cave at the foot of Mount Gorgon, home of Grottore, a spriggan.",
+    aiTip:
+      "Grottore is a spriggan, a leshen-like relict. Find it with Witcher Senses, set the plants on fire to lure it out, and use Relict Oil, Dimeritium bombs and Igni.",
+    walkthrough: [
+      "Talk to the woman west of the Nilfgaardian Embassy signpost.",
+      "Investigate with Witcher Senses.",
+      "Track the monster to its cave.",
+      "Set the plants alight to lure it out.",
+      "Kill it and return for the reward."
+    ],
+    video: "https://www.youtube.com/watch?v=ysXClroqCZI"
+  },
+{
+    id: 2872,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Bovine Blues",
+    location: "Quarry site in Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Crowns and XP",
+    summary:
+      "A cow and a worker have been killed at a quarry. Clear the ghouls, work out what really happened and follow the blood trail to the slyzards behind it.",
+    aiTip:
+      "Examine both the cow and the worker to unlock the final 'cause of the accident' clue. The killers are slyzards, so use Draconid Oil, stay close and keep Quen up.",
+    walkthrough: [
+      "Take the contract and go to the quarry site.",
+      "Clear the ghouls and alghouls.",
+      "Examine the dead cow and the worker.",
+      "Follow the blood trail east.",
+      "Kill the monster and report back."
+    ],
+    video: "https://www.youtube.com/watch?v=px8GECmvwi0"
+  },
+{
+    id: 2873,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Master Armorers",
+    location: "Crow's Perch, Velen, with the tools on Undvik, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Mastercrafted armour unlocked with Yoana",
+    summary:
+      "Journeyman armorer Fergus Graem at Crow's Perch says Yoana could make mastercrafted armour, if Geralt brings her the high-quality tools from a forge on Undvik and an archgriffin's acid gland.",
+    aiTip:
+      "You'll likely find the Undvik forge during The Lord of Undvik, where the chest is guarded by a troll. The acid gland comes from Contract: The Griffin from the Highlands. Agree to Yoana's armour test, or she leaves and the quest fails.",
+    walkthrough: [
+      "Talk to Fergus Graem by the Crow's Perch notice board (or the armorers in Novigrad or Kaer Trolde).",
+      "Find the forge in the Clan Tordarroch area of Undvik and take the high-quality smithing tools from the chest.",
+      "Bring the tools back to Crow's Perch.",
+      "Complete Contract: The Griffin from the Highlands and loot the archgriffin's acid gland.",
+      "Give Yoana the gland, agree to her test, and return a day later for the armour."
+    ],
+    video: "https://www.youtube.com/watch?v=p9feVyNum6w"
+  },
+{
+    id: 2874,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Take What You Want",
+    location: "Stash north of Keira Metz's hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Crowns, a letter and the Teigr steel sword",
+    summary:
+      "If you spared the Cat witcher Gaetan in Where the Cat and Wolf Play, he tells Geralt where he hid his stash and to take whatever he wants.",
+    aiTip:
+      "Three bandits are camped at the entrance, so clear them first. The quest can't fail.",
+    walkthrough: [
+      "Spare Gaetan at the end of Where the Cat and Wolf Play.",
+      "Go to the hiding place north of Keira Metz's hut.",
+      "Kill the three bandits at the entrance.",
+      "Climb down into the hole and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=KKnb_apxDNs"
+  },
+{
+    id: 2875,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Following the Thread",
+    location: "The Bits, Novigrad, then Trottheim on Faroe, Skellige",
+    length: "long",
+    difficulty: "High",
+    reward: "Crowns, an ekimmara hide and XP",
+    summary:
+      "A contract on a monster in the Bits brings Geralt together with Lambert, who's hunting the same ekimmara, and with a bloody grudge of his own to settle in Skellige.",
+    aiTip:
+      "Do Flesh for Sale before you talk to Lambert at the Seven Cats Inn, because that conversation locks it out. The whole quest fails if you start Ugly Baby before finishing it.",
+    walkthrough: [
+      "Take Contract: Monster in the Bits from the Hierarch Square board and talk to the supervisor.",
+      "Examine the crime scene and follow the claw marks across the river.",
+      "Help Lambert kill the ekimmara, then confront the supervisor and his three guards.",
+      "Meet Lambert at the Seven Cats Inn.",
+      "Sail to Trottheim on Faroe, kill Hammond at his shrine, then meet Lambert at the Nowhere Inn."
+    ],
+    video: "https://www.youtube.com/watch?v=Uc5-sLV9lwI"
+  },
+{
+    id: 2876,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Witch Hunter Raids",
+    location: "Farcorners, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "Witch hunters raid a Farcorners house looking for magic users. Step in to save Remi Villeroy before they drag him off.",
+    aiTip:
+      "This unmarked quest opens after Pyres of Novigrad and disappears once Now or Never is done. If you don't intervene, Remi is taken and killed.",
+    walkthrough: [
+      "Finish Pyres of Novigrad.",
+      "Find the witch hunters at the house in Farcorners.",
+      "Follow them inside.",
+      "Kill the witch hunters to save Remi Villeroy."
+    ],
+    video: "https://www.youtube.com/watch?v=bNjz4boFMMI"
+  },
+{
+    id: 2877,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Little Red",
+    location: "Western edge of Yantra, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25 XP for sparing her or 50 for killing her",
+    summary:
+      "The villagers of Yantra fear Little Red's bandits will attack at dusk over Bertram's betrayal. Meet her and decide whether to hand Bertram over or defend the village.",
+    aiTip:
+      "Meditate to the evening for her band to show up. Fighting means a werewolf and six bandits, so thin out the bandits first.",
+    walkthrough: [
+      "Talk to the villagers on the western edge of Yantra.",
+      "Wait until evening for Little Red's band to arrive.",
+      "Meet Little Red on the west side of town.",
+      "Let her take Bertram, or fight her werewolf and bandits."
+    ],
+    video: "https://www.youtube.com/watch?v=AC0h5IJMhU4"
+  },
+{
+    id: 2878,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Hard Times",
+    location: "Road between Blandare and the Miners' Camp, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "XP; the Kaer Trolde blacksmith stays a trading partner",
+    summary:
+      "A cyclops is guarding an overturned wagon on the road near Blandare. Kill it, then follow the trail to learn what happened to the wagon's owner.",
+    aiTip:
+      "Use Ogroid Oil and Quen against the cyclops. Telling the Kaer Trolde blacksmith the truth keeps him as a trader. The quest can't fail.",
+    walkthrough: [
+      "Kill the cyclops by the overturned wagon.",
+      "Examine the blood pools by the wagon and horse with Witcher Senses.",
+      "Follow the footprints across the road, past the nekkers.",
+      "Take the Letter to Yanne from the body.",
+      "Deliver it to the blacksmith at Kaer Trolde."
+    ],
+    video: "https://www.youtube.com/watch?v=NJIKPUmHaI4"
+  },
+{
+    id: 2879,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Free Spirit",
+    location: "Southern shore of Snidhall Isle, Skellige",
+    length: "medium",
+    difficulty: "Low",
+    reward: "50 XP",
+    summary:
+      "Geralt saves Ivar from an attacking warrior on Snidhall Isle. Ivar wants five books from the mainland to prove a priestess of Freya can leave her vows.",
+    aiTip:
+      "Kill the attacker fast, because if Ivar dies the quest never starts. The books cost 10 crowns each: Religion and Life (Crow's Perch), The Cult of Freya (Electors' Square), The Curious Cases of Virtuous Vegga (Gildorf), Change Your Life! A Handbook (The Bits) and Tristianna and Isador (Lindenvale).",
+    walkthrough: [
+      "Sail to the southern shore of Snidhall Isle and save Ivar from the warrior.",
+      "Agree to find the five books he needs.",
+      "Buy each book from its merchant in Velen and Novigrad.",
+      "Return to Snidhall Isle and find Ivar at his new spot.",
+      "Hand over the books, one at a time if he won't take them all."
+    ],
+    video: "https://www.youtube.com/watch?v=Il0-xX4oNXI"
+  },
+{
+    id: 2880,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Ciri's Room",
+    location: "Guest room in the main keep, Crow's Perch, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "XP",
+    summary:
+      "During the Bloody Baron's story, Geralt searches the room Ciri stayed in at Crow's Perch for clues about where she went.",
+    aiTip:
+      "Check the spinning top by the bed, the clothes on the floor and the book The Natural Obscurity of Curses. It fails if you leave it until The Isle of Mists.",
+    walkthrough: [
+      "Talk to the Baron at Crow's Perch to get the quest.",
+      "Go to the guest room on the ground floor of the keep.",
+      "Use Witcher Senses on the spinning top, Ciri's clothes and the book.",
+      "Talk to Gretka in the kitchen across the hall."
+    ],
+    video: "https://www.youtube.com/watch?v=pEO1JWecTbc"
+  },
+{
+    id: 2881,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Avid Collector",
+    location: "Borsodi auction house, Oxenfurt, and Hodgson's shop, Novigrad (Hearts of Stone)",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and a conserved shaelmaar trophy",
+    summary:
+      "At the Borsodi auction, art buff Yaromir tests Geralt's eye. Pass, and he tips you off about a van Rogh painting that bookseller Marcus Hodgson will pay well for.",
+    aiTip:
+      "Pick Edward van der Knoob's portrait of the merchant with the pearl, since any other answer ends it. Keep Yaromir's tip from Vimme and the painting costs 20 crowns instead of 60.",
+    walkthrough: [
+      "During Open Sesame!, say you know about art when Vimme introduces Yaromir.",
+      "Pick the portrait of the merchant with the pearl.",
+      "Keep the tip to yourself and buy the van Rogh painting at the auction.",
+      "Take it to Marcus Hodgson's shop in Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=FSw_UQ9ujJQ"
+  },
+{
+    id: 2882,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Contract: Equine Phantoms",
+    location: "Pinastri's Hermitage, northeast of Dun Tynne Crossroads, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP; payment in potatoes",
+    summary:
+      "The hermit Pinastri is tormented by a phantom horse at night. A hallucinogenic brew lets Geralt talk to Roach, and together they chase the spirit back to its tomb.",
+    aiTip:
+      "Drink the Common Graytop Brew she gives you so Roach can talk. At the gravestone, forgiving the spirit, or letting Roach decide, lets Pinastri live; refusing means a fight.",
+    walkthrough: [
+      "Talk to Pinastri at her hermitage northeast of Dun Tynne Crossroads.",
+      "Examine the hut with Witcher Senses (moths, note, bloody pillow, locked window) and follow the blood trail.",
+      "Drink the Common Graytop Brew and investigate with Roach.",
+      "Ride after the umbra when it appears and follow it to the tomb.",
+      "Defeat the apparitions, examine the gravestone and decide whether to forgive the spirit."
+    ],
+    video: "https://www.youtube.com/watch?v=k9cENIDHWVI"
+  },
+{
+    id: 2883,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Chuchote Cave",
+    location: "Chuchote Cave, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP and 150 crowns",
+    summary:
+      "A wine merchant wants Chuchote Cave for storing barrels, but six arachnomorphs have made it their nest.",
+    aiTip:
+      "Two arachnomorphs hide in side tunnels and four wait in the big chamber to the north, so take the side ones first. If the quest won't complete, meditating for a few days can respawn a missed one.",
+    walkthrough: [
+      "Talk to the wine merchant outside Chuchote Cave.",
+      "Kill the two arachnomorphs in the side tunnels.",
+      "Clear the four in the large northern chamber.",
+      "Return to the merchant for your fee."
+    ],
+    video: "https://www.youtube.com/watch?v=xhlJn1irRfw"
+  },
+{
+    id: 2884,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Cleaning Those Hard-to-Reach Places",
+    location: "Cave north of Gelenser Farm, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP and 200 crowns",
+    summary:
+      "A wine merchant north of Gelenser Farm wants to age his wine in a nearby cave. Two gargoyles stand in the way.",
+    aiTip:
+      "Gargoyles hit hard and knock you back. Keep Quen up and attack from the sides, or throw Dimeritium Bombs from range.",
+    walkthrough: [
+      "Talk to the wine merchant just north of Gelenser Farm.",
+      "Enter the cave and take the left passage to the first gargoyle.",
+      "Kill the second gargoyle in the room past the waterfall.",
+      "Return to the merchant to hand in the contract."
+    ],
+    video: "https://www.youtube.com/watch?v=n9cQpXebuOc"
+  },
+{
+    id: 2885,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Dun Tynne Hillside",
+    location: "Cave west of Dun Tynne Crossroads, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP and 150 crowns; the merchant's discounted wares",
+    summary:
+      "An injured wine merchant near Dun Tynne needs the giant centipedes cleared out of the cave he wants for storage.",
+    aiTip:
+      "Cast Yrden where the centipedes burrow to trap them as they surface. Two attack at once in the lower chamber, so don't rush in.",
+    walkthrough: [
+      "Talk to the injured wine merchant west of Dun Tynne Crossroads.",
+      "Kill the giant centipede in the first chamber.",
+      "Drop into the larger room below and kill the remaining two.",
+      "Return to the merchant for your pay."
+    ],
+    video: "https://www.youtube.com/watch?v=5exR76dihqI"
+  },
+{
+    id: 2886,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Duchaton Crest",
+    location: "Cave at Duchaton Crest, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 150 XP and 200 crowns; the merchant's discounted wares",
+    summary:
+      "Originally called 'Griffin-in-the-Vines', this contract sends Geralt into a cave a vintner wants for his wine cellar. The monster inside is a shaelmaar.",
+    aiTip:
+      "Stun the shaelmaar with Aard, or dodge its charges so it slams into the wall, then punish it while it's dazed. Relic Oil helps.",
+    walkthrough: [
+      "Talk to the wine merchant near the Duchaton Crest cave.",
+      "Enter the cave and find the shaelmaar.",
+      "Kill it using Aard stuns and wall crashes.",
+      "Loot the cave and return to the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=R4JH54li6rQ"
+  },
+{
+    id: 2887,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Vintner's Contract: Rivecalme Storehouse",
+    location: "Storehouse cave north of the Cockatrice Inn, Toussaint",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 100 XP and 150 crowns",
+    summary:
+      "A wine merchant's storehouse cave has been taken over by ghouls and an alghoul.",
+    aiTip:
+      "One ghoul hides in a tunnel behind a wooden platform near the pool, so check there if the quest won't finish. There are two chests underwater.",
+    walkthrough: [
+      "Talk to the wine merchant west of Dulcinea Windmill.",
+      "Enter the storehouse and kill the ghouls and the alghoul.",
+      "Find the last ghoul behind the wooden platform by the pool.",
+      "Loot the underwater chests and return to the merchant."
+    ],
+    video: "https://www.youtube.com/watch?v=gpJQDE_6ksE"
+  },
+{
+    id: 2888,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "A Knight's Tales",
+    location: "Castel Ravello area and the woods of western Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 150-313 XP and 100-369 crowns",
+    summary:
+      "A woodcutter, Jacob, finds a tree that bleeds when cut. It's Daphne, a girl cursed long ago, and Geralt has to find a way to free her.",
+    aiTip:
+      "There are several endings. Lifting the curse without the witch's help gives the best one, and killing Daphne's wraith is the worst. Burn the kikimore eggs in the hillside cave with Igni.",
+    walkthrough: [
+      "Take the notice from the Castel Ravello board and meet Jacob at the bleeding tree.",
+      "Examine the tree with Witcher Senses and get the 'Tales and Fables' book from Jacob.",
+      "Search the witch's hut and find the Silk Kerchief behind the bear pelt.",
+      "Clear the kikimores in the cave on the hill.",
+      "Choose how to break the curse: on your own, with the Witch of Lynx Crag, or by force."
+    ],
+    video: "https://www.youtube.com/watch?v=qsLeDqkMCVE"
+  },
+{
+    id: 2889,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "A Portrait of the Witcher as an Old Man",
+    location: "Tent square south of the Gran'place, Beauclair, and a cave nearby",
+    length: "short",
+    difficulty: "Medium",
+    reward: "300 crowns; a Griffin trophy; the chance to buy Geralt's portrait for Corvo Bianco",
+    summary:
+      "A painter wants Geralt as his model. The sitting goes wrong when his paints go missing, and then a griffin interrupts the session.",
+    aiTip:
+      "It only appears after The Warble of a Smitten Knight. Buying the finished portrait for 1,000 crowns counts as Proof of Generosity for There Can Be Only One.",
+    walkthrough: [
+      "Meet the painter in the tent square south of the Gran'place.",
+      "Join him around noon at the palace's western gate and go to the picnic site.",
+      "Track the spilled paint with Witcher Senses into the cave and take it back from the nekkers.",
+      "Pick one of three poses, then fight the griffin.",
+      "Wait a day and view the finished painting at the market."
+    ],
+    video: "https://www.youtube.com/watch?v=BXXKhG97zd4"
+  },
+{
+    id: 2890,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Big Feet to Fill",
+    location: "Ardaiso Quarry and the Prophet Lebioda statue site, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 150 XP and 800 crowns",
+    summary:
+      "After Bovine Blues, the foreman Pafnuzio at Ardaiso Quarry needs help getting a giant statue of the Prophet Lebioda built. Five worker groups each have their own trouble to sort out.",
+    aiTip:
+      "The five groups can be helped in any order. Once all five are done, the foreman pays out at the statue site.",
+    walkthrough: [
+      "Finish Contract: Bovine Blues, then talk to Foreman Pafnuzio at Ardaiso Quarry.",
+      "Find the five worker groups and solve each group's problem.",
+      "Return to the foreman once all five are done.",
+      "Collect the 800 crowns at the Prophet Lebioda statue."
+    ],
+    video: "https://www.youtube.com/watch?v=qc81w9R44EE"
+  },
+{
+    id: 2891,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Knight for Hire",
+    location: "Toussaint notice boards and the ducal camerlengo, Beauclair",
+    length: "long",
+    difficulty: "High",
+    reward: "About 300 XP, 1,500 crowns (100 per task) and a trophy that boosts XP and gold",
+    summary:
+      "The ducal camerlengo hires Geralt to clear 15 sites across Toussaint of bandits and monsters, including the hanse holed up at Mont Crane Castle.",
+    aiTip:
+      "Most of the 15 sites are undiscovered locations you'll clear while exploring anyway. Collect your 100 crowns per task as you go or all at once at the end. The quest can't be failed.",
+    walkthrough: [
+      "Take the notice from a Toussaint board (e.g. the Cockatrice Inn).",
+      "Talk to the ducal camerlengo for the list of tasks.",
+      "Clear all 15 marked sites of enemies.",
+      "Return to the camerlengo for your pay and the trophy."
+    ],
+    video: "https://www.youtube.com/watch?v=GTYUe5JMeXg"
+  },
+{
+    id: 2892,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Paperchase",
+    location: "Cianfanelli Bank, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and the Reckoner sword if you wait; 200 crowns if you force it",
+    summary:
+      "An old client says he banked Geralt's fee years ago. Withdrawing it at the Cianfanelli Bank means running a gauntlet of forms, windows and a clerk who has Geralt down as dead.",
+    aiTip:
+      "Give the banker a week and you get 500 crowns plus the sword The Reckoner. Demanding the money now means a fight and bans you from the bank's exchange.",
+    walkthrough: [
+      "Meet the vineyard owner near Trentin's workshop.",
+      "Go to the Cianfanelli Bank and ask about your account.",
+      "Get Permit A38 from Window 1, then Form 202 from the records office upstairs.",
+      "Charm the clerk (flowers, perfume or flattery) and learn you're listed as dead.",
+      "Show Giacomo Cianfanelli the duchess's summons, then wait a week or demand the money."
+    ],
+    video: "https://www.youtube.com/watch?v=9Yv7Y_Bqf_Y"
+  },
+{
+    id: 2893,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Raging Wolf",
+    location: "Docks at the northeastern end of Beauclair",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 200 XP, crowns and the Fist Fighting Championship Trophy",
+    summary:
+      "Having beaten Beauclair's three lesser champions in Fists of Fury: Toussaint, Geralt challenges the reigning champion, the Maestro, who insists they get drunk first.",
+    aiTip:
+      "Losing doesn't end the quest; you can keep challenging him. Winning counts as Proof of Valor for There Can Be Only One.",
+    walkthrough: [
+      "Beat the three lesser champions in Fists of Fury: Toussaint.",
+      "Find the Maestro at the Beauclair docks.",
+      "Match him drink for drink.",
+      "Win the fistfight."
+    ],
+    video: "https://www.youtube.com/watch?v=J--u0rZbNzY"
+  },
+{
+    id: 2894,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Belgaard",
+    location: "Plegmund's Bridge and the Belgaard estate, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "About 150 XP and 900+ crowns; naming the new wine; weekly bottles at Corvo Bianco",
+    summary:
+      "Liam and Matilda now co-own Belgaard. After the auction, Geralt clears five monster and bandit sites around the estate, then comes back to name their new wine.",
+    aiTip:
+      "Return after three days to name the wine. 'Butcher of Blaviken' has the same effect as the other names but lasts 30 seconds longer.",
+    walkthrough: [
+      "Take the notice at Plegmund's Bridge and meet Liam and Matilda at Belgaard.",
+      "Attend the auction.",
+      "Clear the five monster and bandit sites around the estate.",
+      "Return after three days and name the new wine."
+    ],
+    video: "https://www.youtube.com/watch?v=ZLGIW6C0sns"
+  },
+{
+    id: 2895,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Coronata",
+    location: "Coronata vineyard and nearby sites, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Crowns and XP; leads to The Deus in the Machina",
+    summary:
+      "Liam de Coronata asks Geralt to sort out five problems on his vineyard. Archespores and a note on the bodies suggest someone is sabotaging him.",
+    aiTip:
+      "Loot every corpse and read every note to reveal the optional objectives. Leave the last task open if you want Consorting and the joint Belgaard ending.",
+    walkthrough: [
+      "Agree to help Liam at Plegmund's Bridge.",
+      "Clear the archespores from the Coronata vineyard and the nearby sites.",
+      "Kill the monsters near the bodies and read the note about sabotage.",
+      "Work through the rest of the five tasks."
+    ],
+    video: "https://www.youtube.com/watch?v=TwPJE3zC8Ig"
+  },
+{
+    id: 2896,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: Vermentino",
+    location: "Vermentino vineyard and sites around Corvo Bianco, Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "About 525 crowns plus XP",
+    summary:
+      "Matilda Vermentino needs five troubles on her estate resolved. Archespores have overrun abandoned sites near Corvo Bianco, and a key and a letter on a corpse hint at a larger scheme.",
+    aiTip:
+      "Like Coronata, leave the final task open until The Deus in the Machina is done if you want the two families to share Belgaard.",
+    walkthrough: [
+      "Agree to help Matilda at Plegmund's Bridge.",
+      "Kill the archespores north of Corvo Bianco and take the heavy brass key and letter from the corpse.",
+      "Clear the other troubled sites on her estate.",
+      "Finish the last abandoned site west of Corvo Bianco."
+    ],
+    video: "https://www.youtube.com/watch?v=L3dVe7sa3Sk"
+  },
+{
+    id: 2897,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Wine Wars: The Deus in the Machina",
+    location: "An isolated house and its cellar in southeastern Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 100 XP for the bulbs plus XP for the fight",
+    summary:
+      "A note found during Coronata or Vermentino reveals a third party behind the vineyard sabotage. The trail leads to a cellar where a giant archespore is being grown.",
+    aiTip:
+      "The key opens the door underneath the house, not the front door. Burn the dormant bulbs along the northwest wall with Igni for 100 XP, and use Golden Oriole against the poison.",
+    walkthrough: [
+      "Read the note found during Coronata or Vermentino.",
+      "Find the isolated house in southeastern Toussaint.",
+      "Use the key on the door beneath the house and enter the cellar.",
+      "Kill the archespore and burn the dormant bulbs with Igni.",
+      "Report back to Liam and Matilda."
+    ],
+    video: "https://www.youtube.com/watch?v=t4P7XX0geGw"
+  },
+{
+    id: 2898,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "There Can Be Only One",
+    location: "Lac Célavy, Toussaint",
+    length: "long",
+    difficulty: "Medium",
+    reward: "About 300-350 XP and the silver sword Aerondight",
+    summary:
+      "A hermit on an island in Lac Célavy challenges Geralt to prove the five chivalric virtues: honor, compassion, wisdom, generosity and valor. Proving all five earns a duel beneath the lake and Aerondight from the Lady of the Lake.",
+    aiTip:
+      "Read the five stones on the island's north side for hints. Proofs come from other quests: sparing the shaelmaar and the basilisk (compassion), the greenhouse riddle (wisdom), buying Geralt's portrait (generosity) and beating the Maestro (valor).",
+    walkthrough: [
+      "Read 'Test Yourself with the Trials of the Virtues!' in Beauclair, or go straight to the hermit at Lac Célavy.",
+      "Read the inscriptions on the five stones on the island.",
+      "Earn each virtue through your choices in other Toussaint quests.",
+      "Return to the hermit and fight him beneath the lake.",
+      "Receive Aerondight from the Lady of the Lake."
+    ],
+    video: "https://www.youtube.com/watch?v=QCcK6FV6UNs"
+  },
+{
+    id: 2899,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Mutual of Beauclair's Wild Kingdom",
+    location: "Cockatrice Inn notice board and the trading post at Venin Rocks, Toussaint",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 200 XP and 350-400 crowns, depending on the choice",
+    summary:
+      "Geralt joins the Crinfrid Reavers on the trail of a rare silver basilisk, Iocaste. At its nest he has to choose between killing it with the Reavers and taking the count's money to let it live.",
+    aiTip:
+      "Killing Iocaste counts as valor for There Can Be Only One, sparing her counts as compassion, and sparing her while refusing the extra payment counts as generosity. The quest can't be failed.",
+    walkthrough: [
+      "Take the notice from the Cockatrice Inn board.",
+      "Go to the trading post at Venin Rocks.",
+      "Track the basilisk and meet the Crinfrid Reavers.",
+      "Decide Iocaste's fate: fight her with the Reavers, or let her live.",
+      "Collect your payment."
+    ],
+    video: "https://www.youtube.com/watch?v=f0PDuJ65K9A"
+  },
+{
+    id: 2900,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Fists of Fury: Toussaint",
+    location: "Beauclair (Gran'place notice board, uptown and southern districts)",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 100 XP per opponent plus wagers; unlocks Raging Wolf",
+    summary:
+      "Beauclair's fistfighting circuit has three lesser champions: Still Waters, Mancomb and Colossus. Beating all three earns a shot at the Maestro in Raging Wolf.",
+    aiTip:
+      "Mancomb can be beaten with insults: pick the rhyming retort each time. Accept Colossus's parry challenge and parry him three times for bonus XP.",
+    walkthrough: [
+      "Take the notice from the Gran'place board.",
+      "Beat Still Waters in a normal fistfight.",
+      "Out-insult Mancomb near the Nilfgaardian Embassy.",
+      "Take on Colossus's parry challenge (or just fight him).",
+      "Raging Wolf begins once all three are beaten."
+    ],
+    video: "https://www.youtube.com/watch?v=bOnlRmvKaOM"
+  },
+{
+    id: 2901,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Gwent: Never Fear, Skellige's Here",
+    location: "The Pheasantry in Beauclair and players across Toussaint",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "All 19 cards for the new Skellige deck",
+    summary:
+      "Blood and Wine adds a Skellige Gwent deck. Count Monnier at the Pheasantry gives Geralt a basic one, and the rest of the cards are won from players scattered across Toussaint.",
+    aiTip:
+      "Finishing the deck unlocks the Beauclair Gwent tournament. Card holders include the innkeep at the Barrel and Bung (Cerys) and the herbalist at Castel Ravello.",
+    walkthrough: [
+      "Get a basic Skellige deck from Count Monnier at the Pheasantry (or win any Skellige card).",
+      "Play the marked card holders around Toussaint.",
+      "Win all 19 Skellige cards.",
+      "Move on to the Beauclair tournament."
+    ],
+    video: "https://www.youtube.com/watch?v=cu6oHzLft9k"
+  },
+{
+    id: 2902,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Gwent: To Everything - Turn, Turn, Tournament!",
+    location: "The Pheasantry, Beauclair",
+    length: "short",
+    difficulty: "High",
+    reward: "The Victor's Cup, 1,000 crowns, and the steel sword Blave if you take Hamal's bet",
+    summary:
+      "The grand Gwent tournament at the Pheasantry: beat Hamal ogn Dangbahli, Ambassador von Hinn and Count Monnier, then face Yaki Rafiberg in a last match for a bigger payout.",
+    aiTip:
+      "Take Hamal's side bet (your silver sword against his) to win the Blave sword. Your silver sword comes back at the end. Losing to Yaki doesn't cost you the cup.",
+    walkthrough: [
+      "Pick up the tournament notice from a Beauclair board.",
+      "Beat Hamal ogn Dangbahli (Monsters), taking his side bet.",
+      "Beat Ambassador von Hinn (Nilfgaard).",
+      "Beat Count Monnier (Skellige) to win the Victor's Cup.",
+      "Play Yaki Rafiberg for the full 1,000-crown payout."
+    ],
+    video: "https://www.youtube.com/watch?v=j_p-_0hHlQ4"
+  },
+{
+    id: 2903,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Truth is in the Stars",
+    location: "Benek and a cave to the southeast, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP",
+    summary:
+      "An old sage in Benek is said to be a swindler. He'll read Geralt's fate if Geralt brings him dragonsroot from a ghoul-infested cave, and the reading turns out to be about Ciri and Ithlinne's prophecy.",
+    aiTip:
+      "Answer 'I'll see what I can do'. Refusing to fetch the root fails the quest at once. The sage is also a Gwent player worth beating.",
+    walkthrough: [
+      "Read 'Careful! There's a Swindler About!' in Oxenfurt, or go straight to the old sage in Benek.",
+      "Agree to fetch the dragonsroot.",
+      "Clear the four ghouls in the cave southeast of Benek.",
+      "Find the root with Witcher Senses and bring it back for your reading."
+    ],
+    video: "https://www.youtube.com/watch?v=NxhDqsePdTU"
+  },
+{
+    id: 2904,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Taken as a Lass",
+    location: "East coast of Ard Skellig (south of Redgill) and Freya's temple, Hindarsfjall",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Up to about 125 XP",
+    summary:
+      "A warrior fighting pirates on Ard Skellig's east coast is searching for his sister Kurisu, who was taken by pirates. She jumped overboard in a storm and is recovering at Freya's temple on Hindarsfjall.",
+    aiTip:
+      "You can meet either sibling first. If you find the brother first, the beached wreck off southwest Hindarsfjall has the 'Notes of a Pirate' that point to her.",
+    walkthrough: [
+      "Help the warrior fight off two pirates on Ard Skellig's east coast.",
+      "Agree to look for his sister.",
+      "Sail to the smallest island off southwest Hindarsfjall, kill the ekhidna and read the 'Notes of a Pirate'.",
+      "Find Kurisu at Freya's temple and tell her about her brother."
+    ],
+    video: "https://www.youtube.com/watch?v=ix88-4LtZH0"
+  },
+{
+    id: 2905,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Stranger in a Strange Land",
+    location: "Arinbjorn tavern and Madman Lugos' keep, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP; opens The Cave of Dreams and An Unpaid Debt",
+    summary:
+      "After The Phantom of Eldberg, two brothers start a fight in the Arinbjorn tavern and kill Jorund. Geralt kills them, is tried for it, and ends up in Madman Lugos' prison owing a blood price.",
+    aiTip:
+      "Use Axii on the guard, or take Simun Brambling's offer to blackmail him. Taking Simun's help starts An Unpaid Debt later.",
+    walkthrough: [
+      "After The Phantom of Eldberg, go outside the Arinbjorn tavern to check the commotion.",
+      "Fight Kori and Kraki after they kill Jorund.",
+      "Accept the trial and be locked up in Madman Lugos' keep.",
+      "Get out with Axii, the blood price, or Simun's blackmail."
+    ],
+    video: "https://www.youtube.com/watch?v=rOGQQNCtMDo"
+  },
+{
+    id: 2906,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Cave of Dreams",
+    location: "Cave on Ard Skellig's southern beach",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25-50 XP",
+    summary:
+      "To work off his debt, Geralt joins Blueboy Lugos at the Cave of Dreams. After fighting off nekkers, they drink a potion that sends Geralt into a dream version of the cave to face his fears.",
+    aiTip:
+      "It disappears once King's Gambit starts, so do it right after Stranger in a Strange Land. Expect a fire spirit and ice-armored Wild Hunt warriors in the dream.",
+    walkthrough: [
+      "After Stranger in a Strange Land, find Blueboy Lugos' boat by the southern cave.",
+      "Enter the cave and kill the nekkers.",
+      "Drink Lugos' concoction to enter the dream cave.",
+      "Face the visions of your fears and return to Lugos."
+    ],
+    video: "https://www.youtube.com/watch?v=1HoCwwGwUSQ"
+  },
+{
+    id: 2907,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "An Unpaid Debt",
+    location: "New Port Inn at Kaer Trolde, and a hut by a lake near Blandare, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 50 XP",
+    summary:
+      "Simun Brambling, who got Geralt out of Lugos' prison, comes to collect. At a hut near Blandare he wants Geralt to kill Volund, a man who says Simun murdered his brother.",
+    aiTip:
+      "Only available if you took Simun's help in Stranger in a Strange Land and finished The Cave of Dreams, and only before King's Gambit. Either choice gives the same XP, so pick what you can live with.",
+    walkthrough: [
+      "Meet Simun outside the New Port Inn at Kaer Trolde a few days later.",
+      "Go to the lakeside hut near Blandare.",
+      "Hear Volund's accusation.",
+      "Kill Volund for Simun, or refuse and fight Simun."
+    ],
+    video: "https://www.youtube.com/watch?v=2OHxU943s5Q"
+  },
+{
+    id: 2908,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Thou Shalt Not Pass",
+    location: "The Border Post (Velen) or the Western Gate of Oxenfurt",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 75 XP",
+    summary:
+      "Redanian guards won't let Geralt into Novigrad or Oxenfurt without a pass. He can buy one from the shady merchant, earn one in Family Matters, or get one during A Deadly Plot.",
+    aiTip:
+      "Pay the guard 10 crowns or use Axii to hear how to get a pass. You can also just swim the Pontar far from a post or fast travel across, but the quest stays open until you show a pass.",
+    walkthrough: [
+      "Talk to the Redanian guard at the Border Post or Oxenfurt's Western Gate.",
+      "Pay or use Axii to learn how to get a pass.",
+      "Get one: the shady merchant (Fake Papers), Family Matters, or A Deadly Plot.",
+      "Return and show the guard your pass."
+    ],
+    video: "https://www.youtube.com/watch?v=3dHFaPjc4Lc"
+  },
+{
+    id: 2909,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Kaer Trolde",
+    location: "Road northeast of Rannvaig to Kaer Trolde's gate, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 80 crowns, 30 XP and Zerrikanian blinders",
+    summary:
+      "One of three qualifying horse races for Skellige's Heroes' Pursuits. The course runs along the roads to Kaer Trolde's gate with no obstacles.",
+    aiTip:
+      "Win all three qualifiers (Kaer Trolde, Fayrlund and Fyresdal) to unlock the final race on Hindarsfjall. The blinders keep Roach calmer around monsters.",
+    walkthrough: [
+      "Talk to the race master on the road northeast of Rannvaig.",
+      "Race along the roads to Kaer Trolde's gate.",
+      "Finish first to win the blinders."
+    ],
+    video: "https://www.youtube.com/watch?v=Kpg4w80wLZY"
+  },
+{
+    id: 2910,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Fyresdal",
+    location: "From between Blandare and the Palisade to Fyresdal, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 crowns, 25 XP and a cavalry saddle",
+    summary:
+      "A long qualifying race for the Heroes' Pursuits, run from between Blandare and the Palisade down to Fyresdal on Ard Skellig's south coast while a storm rolls overhead.",
+    aiTip:
+      "The storm is cosmetic and doesn't affect the race. You can do it before speaking to Svana in Larvik by talking to the race master directly.",
+    walkthrough: [
+      "Find the race master between Blandare and the Palisade.",
+      "Race through the Palisade to Fyresdal.",
+      "Finish first for the cavalry saddle."
+    ],
+    video: "https://www.youtube.com/watch?v=16Vr5_s0Jxk"
+  },
+{
+    id: 2911,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: Fayrlund",
+    location: "Road east-northeast of Fayrlund, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 crowns, 25 XP and Zerrikanian saddlebags",
+    summary:
+      "The shortest of the three Heroes' Pursuits qualifiers, raced against Red Rikka on the roads around Fayrlund.",
+    aiTip:
+      "The track is short, so take the corners carefully. Rikka is faster off the line but doesn't always take the best line, so catch her on the bends.",
+    walkthrough: [
+      "Talk to the race master on the road east-northeast of Fayrlund.",
+      "Race Red Rikka along the short course.",
+      "Finish first for the saddlebags."
+    ],
+    video: "https://www.youtube.com/watch?v=2s12b5Rkbn8"
+  },
+{
+    id: 2912,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "The Heroes' Pursuits: For the Goddess' Glory!",
+    location: "Larvik to Freya's Garden, Hindarsfjall",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 90 crowns, 50 XP and the Zerrikanian saddle",
+    summary:
+      "The Heroes' Pursuits final. Once Geralt has won the three qualifiers, the priestess Svana in Larvik lets him race the reigning champion, Astrid the Vipress, to Freya's Garden.",
+    aiTip:
+      "Cut the sharp turn by taking the path just before the crossroads. Winning every base-game race counts toward the Fast and Furious achievement.",
+    walkthrough: [
+      "Read the Larvik notice and talk to Svana.",
+      "Win the Kaer Trolde, Fayrlund and Fyresdal qualifiers.",
+      "Return to Svana and line up at Larvik's western gate.",
+      "Beat Astrid the Vipress to Freya's Garden."
+    ],
+    video: "https://www.youtube.com/watch?v=R7gzBFEn_Tk"
+  },
+{
+    id: 2913,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Races: Crow's Perch",
+    location: "Crow's Perch notice board and race start, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Racing saddle, saddlebags, horse blinders, 20-40 crowns per race plus double your bet",
+    summary:
+      "The first horse races in the game: Stuttering Matko, Iron-Arse Hans and Black Bogdan, each for Roach upgrades and a wager.",
+    aiTip:
+      "Bet 1 to 50 crowns per race. A win pays double, and you can rerun any race you lose. Matko's racing saddle is the most useful prize early.",
+    walkthrough: [
+      "Read the race notice at Crow's Perch and talk to Radko at the start.",
+      "Beat Stuttering Matko for the racing saddle.",
+      "Beat Iron-Arse Hans for the saddlebags.",
+      "Beat Black Bogdan for the horse blinders."
+    ],
+    video: "https://www.youtube.com/watch?v=JukV8QWfUD0"
+  },
+{
+    id: 2914,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Master of the Arena",
+    location: "The arena at Hov, Spikeroog",
+    length: "short",
+    difficulty: "Low",
+    reward: "15 crowns plus a later 20-crown share; about 10-25 XP",
+    summary:
+      "Hov's arena is haunted by Ulle the Unlucky, a fighter who can't rest until he finally wins a bout. Geralt can't kill him, so he has to find another way to send him on.",
+    aiTip:
+      "Talk to the guards in the tower before fighting Ulle, or your blows won't land and you lose the second payment. Let Ulle win by dropping to about a quarter health. Champion of Champions needs this done.",
+    walkthrough: [
+      "Go to the arena at Hov on Spikeroog.",
+      "Talk to the guards in the tower about Ulle.",
+      "Fight Ulle; the bout stops once he's at half health.",
+      "Let him win so his spirit can rest.",
+      "Return to the guards a few days later for their share of the profits."
+    ],
+    video: "https://www.youtube.com/watch?v=42wEDW_hWZ4"
+  },
+{
+    id: 2915,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Fists of Fury: Champion of Champions",
+    location: "The arena at Hov, Spikeroog",
+    length: "short",
+    difficulty: "High",
+    reward: "About 50 XP, 90 crowns and The Tamer diagram; the Brawl Master achievement",
+    summary:
+      "With Velen, Novigrad and Skellige's fist-fighting circuits won and Ulle laid to rest, the bookie in Hov sets up the final bout: a rock troll.",
+    aiTip:
+      "Save first: if you lose and the quest locks, the achievement is gone. Weapons and signs are disabled, so eat food and drink potions during the fight.",
+    walkthrough: [
+      "Win Fists of Fury in Velen, Novigrad and Skellige.",
+      "Finish Master of the Arena.",
+      "Talk to the bookie at the Hov arena.",
+      "Beat the rock troll bare-handed."
+    ],
+    video: "https://www.youtube.com/watch?v=nRh3ozYGLiE"
+  },
+{
+    id: 2916,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "White Orchard",
+    title: "Collect 'Em All",
+    location: "White Orchard Inn, then every region",
+    length: "long",
+    difficulty: "Medium",
+    reward: "The Card Collector achievement (expansion cards don't count)",
+    summary:
+      "Aldert Geert at the White Orchard Inn teaches Geralt Gwent and starts the hunt for one copy of every base-game card: 120 unique cards.",
+    aiTip:
+      "Several cards are missable: the Vegelbud masquerade tournament and quest-specific players like Thaler. Buy from innkeepers and merchants in each region before story events remove them. A Miraculous Guide to Gwent tracks what's left.",
+    walkthrough: [
+      "Beat Aldert Geert at the White Orchard Inn for Zoltan Chivay and the Gwent guide book.",
+      "Buy and win cards from innkeepers and merchants in each region.",
+      "Complete the named Gwent quests and the two tournaments.",
+      "Collect all 120 unique base-game cards."
+    ],
+    video: "https://www.youtube.com/watch?v=Kdc1PLwtMj8"
+  },
+{
+    id: 2917,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Gwent: Playing Thaler",
+    location: "Thaler's wagon, then the Seven Cats Inn, Novigrad",
+    length: "short",
+    difficulty: "Medium",
+    reward: "About 25 XP and the Geralt of Rivia card",
+    summary:
+      "Once A Deadly Plot is done, Thaler is open to a game of Gwent. Beating him wins the Geralt of Rivia hero card.",
+    aiTip:
+      "Play him right after A Deadly Plot. It fails once Reason of State starts, and the card can be lost if Thaler dies there. If A Deadly Plot ended before you played Roche, Thaler moves into Gwent: Old Pals instead.",
+    walkthrough: [
+      "Finish A Deadly Plot.",
+      "Challenge Thaler at his wagon or at the Seven Cats Inn.",
+      "Win for the Geralt of Rivia card."
+    ],
+    video: "https://www.youtube.com/watch?v=8wYrLBtCjgo"
+  },
+{
+    id: 2918,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Never Trust Children",
+    location: "Near Triss's house in The Bits, Novigrad (and a road between Sund and Arinbjorn, Skellige)",
+    length: "short",
+    difficulty: "Low",
+    reward: "None directly; the Novigrad part unlocks Hidden Messages of the Nilfgaardian Kind",
+    summary:
+      "A crying child near Triss's house begs for help, then leads Geralt into an ambush. A second child on a Skellige road pulls the same trick.",
+    aiTip:
+      "It's proximity-based: once the marker appears, staying away makes it vanish. Kill the thugs in Novigrad to open Hidden Messages of the Nilfgaardian Kind.",
+    walkthrough: [
+      "Find the crying child at the corner just north of Triss's house in The Bits.",
+      "Ask what's wrong and follow the child.",
+      "Kill the two thugs waiting in the alley.",
+      "On Skellige, follow the boy on the road between Sund and Arinbjorn into the second ambush."
+    ],
+    video: "https://www.youtube.com/watch?v=dAC0xanFsPw"
+  },
+{
+    id: 2919,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Strangers in the Night",
+    location: "Riverbank camp on Novigrad's outskirts",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP; siding with Rufus also gives the Skellige gambeson diagram",
+    summary:
+      "Three men at a campfire, Manfred, Rufus and Theophile, invite Geralt to sit down. The conversation turns deadly depending on who he believes.",
+    aiTip:
+      "Leaving right after introductions is the only way nobody dies. Siding with Rufus gets the gambeson diagram. Refusing to give your name turns them hostile.",
+    walkthrough: [
+      "Find the three men at the riverbank campfire.",
+      "Introduce yourself and listen.",
+      "Leave, side with Rufus, or refuse to help.",
+      "Collect your reward, if any."
+    ],
+    video: "https://www.youtube.com/watch?v=kfRxGeuvBY4"
+  },
+{
+    id: 2920,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "The Soldier Statuette",
+    location: "Caesar Bilzen's house, then Triss's hideout or the Chameleon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 10 XP",
+    summary:
+      "The jade figurine of a Nilfgaardian soldier from Caesar Bilzen's treasure room is a real man, magically compressed. Triss can restore him.",
+    aiTip:
+      "Grab the figurine during A Dangerous Game, and show Triss before Now or Never. If she leaves Novigrad, you have to wait until after Kaer Morhen.",
+    walkthrough: [
+      "Take the jade figurine from the drawers in Caesar Bilzen's secret room during A Dangerous Game.",
+      "Show it to Triss at her hideout or the Chameleon.",
+      "Follow her to a quiet house and watch her restore the soldier.",
+      "Hear his story; Triss sends him to Ambassador var Attre."
+    ],
+    video: "https://www.youtube.com/watch?v=xxaVO8amVRE"
+  },
+{
+    id: 2921,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Hidden Messages of the Nilfgaardian Kind",
+    location: "The Bits, Crippled Kate's archway and the Gildorf sewers, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25 XP, 50 crowns and random loot (often a runestone or armor)",
+    summary:
+      "Two men leave a note behind a brick west of Triss's house. It's the first of a chain of Nilfgaardian dead drops that ends in a chest in the sewers.",
+    aiTip:
+      "It only triggers after the Novigrad part of Never Trust Children. Expect drowners in the sewer before you can open the chest.",
+    walkthrough: [
+      "Finish the Novigrad part of Never Trust Children.",
+      "Go west of Triss's house to the arches, and check the brick with Witcher Senses after the two men leave.",
+      "Find the second brick at Crippled Kate's archway for the note and key.",
+      "Go down into the Gildorf sewers, kill the drowners and open the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=rASKq5shJ3Q"
+  },
+{
+    id: 2922,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Master Master Master Master!",
+    location: "Lafargue's workshop, Beauclair",
+    length: "short",
+    difficulty: "Low",
+    reward: "500 crowns and 150 XP; unlocks Grandmaster crafting",
+    summary:
+      "Lazare Lafargue, a grandmaster smith in Beauclair, knows where the lost Grandmaster witcher-gear diagrams are. Asking him about each school opens the five Grandmaster scavenger hunts.",
+    aiTip:
+      "You only need to bring him one full set of diagrams to finish. The quest can't be missed or failed, even after the main story.",
+    walkthrough: [
+      "Take the Beauclair notice, pick up any Grandmaster diagram, or go straight to Lafargue.",
+      "Ask him about the contract and the vanished witchers to start the five hunts.",
+      "Complete one school's Grandmaster hunt.",
+      "Return to Lafargue with the diagrams for your pay."
+    ],
+    video: "https://www.youtube.com/watch?v=mtWptGb2uKc"
+  },
+{
+    id: 2923,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Feline Gear",
+    location: "Bartolomé de Launay's estate, the Arthach Palace ruins and the Pits of Brume, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Feline (Cat School) diagrams",
+    summary:
+      "The final tier of the Cat School set. Lafargue's lead takes Geralt to Bartolomé de Launay's estate in northern Toussaint, then to the Arthach Palace ruins and the Pits of Brume.",
+    aiTip:
+      "At de Launay's estate, examine the portrait to find the first diagrams. Crafting the set needs Lafargue or another grandmaster smith.",
+    walkthrough: [
+      "Start the hunt by asking Lafargue about the Cat School.",
+      "Search Bartolomé de Launay's estate and examine the portrait.",
+      "Follow the trail to the Arthach Palace ruins.",
+      "Finish in the Pits of Brume and collect the remaining diagrams."
+    ],
+    video: "https://www.youtube.com/watch?v=jEN9jTs0SpI"
+  },
+{
+    id: 2924,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Griffin Gear",
+    location: "Fort Ussar ruins and Mont Crane Castle, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Griffin School diagrams",
+    summary:
+      "The last tier of the Griffin set. The steel sword, gauntlets and boots are hidden at the Fort Ussar ruins; the armor, trousers and silver sword are at Mont Crane Castle to the northwest.",
+    aiTip:
+      "At Fort Ussar, kill the reptilian guardians first, then check the chest under the broken stairs on the east side. Mont Crane holds the rest, so expect a fight there too.",
+    walkthrough: [
+      "Ask Lafargue about the Griffin School.",
+      "Go to the Fort Ussar ruins and defeat the guardians.",
+      "Open the chest under the broken stairs on the east side for three diagrams.",
+      "Head northwest to Mont Crane Castle for the armor, trousers and silver sword."
+    ],
+    video: "https://www.youtube.com/watch?v=HuLdW1f5ZD4"
+  },
+{
+    id: 2925,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Ursine Gear",
+    location: "Flovive and the Tufo vineyard area, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Ursine (Bear School) diagrams",
+    summary:
+      "The final tier of the heavy Bear School set. The trail runs through Flovive and the area around the Tufo vineyard, where a rubble-blocked chest holds several diagrams.",
+    aiTip:
+      "Use Aard to clear the rubble in Flovive and reach the chest. Doing Contract: The Tufo Monster first clears the area.",
+    walkthrough: [
+      "Ask Lafargue about the Bear School.",
+      "Go to Flovive and blast the rubble with Aard to reach the chest.",
+      "Follow the trail to the Tufo vineyard area.",
+      "Collect the remaining diagrams."
+    ],
+    video: "https://www.youtube.com/watch?v=qyUquj_Qt1w"
+  },
+{
+    id: 2926,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "Scavenger Hunt: Grandmaster Wolven Gear",
+    location: "An archaeologists' camp and a burial site, Toussaint",
+    length: "medium",
+    difficulty: "High",
+    reward: "Grandmaster Wolven (Wolf School) diagrams",
+    summary:
+      "The final tier of the balanced Wolf School set. The hunt starts at an abandoned archaeologists' camp and leads to a burial room holding most of the diagrams and a dead witcher.",
+    aiTip:
+      "The armor, trousers and boots are in the burial room. Search the witcher's remains for the swords and gauntlets.",
+    walkthrough: [
+      "Ask Lafargue about the Wolf School.",
+      "Find the archaeologists' camp.",
+      "Search the burial room for the armor, trousers and boots diagrams.",
+      "Take the swords and gauntlets from the witcher's remains."
+    ],
+    video: "https://www.youtube.com/watch?v=OFiCml9aezk"
+  },
+{
+    id: 2927,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "In Wolf's Clothing",
+    location: "Freya's Garden and Larvik, Hindarsfjall",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "XP and crowns; the curse lifted or the werewolf slain",
+    summary:
+      "The werewolf Morkvarg haunts Freya's Garden on Hindarsfjall. His journal shows he and the 'innocent' survivor Einar were once on the same pirate crew, and that the curse is his punishment.",
+    aiTip:
+      "Don't kill Morkvarg before you learn how the curse works, or you lose the option to lift it. The key to the chapter house is in a flooded cave past the floodgates.",
+    walkthrough: [
+      "Meet Morkvarg in Freya's Garden (during Nameless or from the Larvik contract).",
+      "Work the two levers by the southeastern bridge to open the right-hand floodgate.",
+      "Find the key in the flooded cave with Witcher Senses.",
+      "Unlock the chapter house and read Morkvarg's journal.",
+      "Confront Einar, then lift Morkvarg's curse or kill him."
+    ],
+    video: "https://www.youtube.com/watch?v=nd1gkmItvt0"
+  },
+{
+    id: 2928,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Toussaint",
+    title: "The Perks of Being a Jailbird",
+    location: "Toussaint prison courtyard",
+    length: "short",
+    difficulty: "Low",
+    reward: "A prison poster for Corvo Bianco",
+    summary:
+      "Only available if Syanna died and Geralt was thrown in prison. A note in a loose courtyard brick says another inmate needs a hammer and chisel.",
+    aiTip:
+      "Finish it before Burlap is the New Stripe ends, or it fails. The tools are in the wagon under the gallows.",
+    walkthrough: [
+      "Find the loose brick in the courtyard wall with Witcher Senses and read the note.",
+      "Get the hammer and chisel from the wagon under the gallows.",
+      "Put them back in the brick.",
+      "Wait seven days and collect the poster from the same spot."
+    ],
+    video: "https://www.youtube.com/watch?v=3m8ls4Ulhl8"
+  },
+{
+    id: 2929,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Novigrad, Closed City II",
+    location: "Silverton, northwest of the Golden Sturgeon, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "No fixed reward; loot from the bandits if you fight",
+    summary:
+      "After A Matter of Life and Death, some bandits ask Geralt to help find their wounded friend. The 'friend' is a witch hunter they want to finish off.",
+    aiTip:
+      "Follow the slime-covered footprints to the northeast. Wandering off in other directions makes the bandits give up and fails the quest. Protecting the hunter means fighting three bandits.",
+    walkthrough: [
+      "Talk to the bandits between the Silverton fish market and the flower-garden house.",
+      "Track the two sewer-slime footprints to the northeast with Witcher Senses.",
+      "Find the wounded witch hunter.",
+      "Let the bandits kill him, or protect him and fight them.",
+      "If you saved him, take him to the hospital or leave him."
+    ],
+    video: "https://www.youtube.com/watch?v=dSj9lr9GD9c"
+  },
+{
+    id: 2930,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Highwayman's Cache",
+    location: "Bandits' Camp bridge east of the Boatmakers' Hut, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "Coin and one or two random crafting diagrams",
+    summary:
+      "Three bandits demand a toll to cross a bridge in the Mire. Their stash is hidden under the bridge itself.",
+    aiTip:
+      "Show them your witcher medallion and they leave without a fight. Then follow the footprints from their campfire to the chest in the reeds under the bridge.",
+    walkthrough: [
+      "Head east from the Boatmakers' Hut to the bridge.",
+      "Pay the toll, fight, or show your medallion to scare them off.",
+      "Use Witcher Senses at the campfire and follow the footprints.",
+      "Open the chest hidden under the bridge."
+    ],
+    video: "https://www.youtube.com/watch?v=PB9rf9QTqqY"
+  },
+{
+    id: 2931,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Siren's Call",
+    location: "Road west of Sund, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 50 XP",
+    summary:
+      "A shepherd and his flock are under attack by sirens on the road west of Sund. Save him and he says the sirens are coming from Undvik.",
+    aiTip:
+      "Bring a crossbow to ground the sirens. A few days later you can find the shepherd reunited with his brother in Arinbjorn.",
+    walkthrough: [
+      "Find the shepherd fighting sirens on the road west of Sund.",
+      "Kill the sirens.",
+      "Talk to him about where they came from.",
+      "Visit Arinbjorn a few days later to see him with his brother."
+    ],
+    video: "https://www.youtube.com/watch?v=JvQZV1EijzA"
+  },
+{
+    id: 2932,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Woe Is Me",
+    location: "The Palisade, Ard Skellig",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 15 XP",
+    summary:
+      "A 'wounded' man by the Palisade calls for help. It's a bandit ambush, and his two accomplices are waiting nearby.",
+    aiTip:
+      "It's easy to miss: the encounter only triggers from one direction, so if it doesn't appear, approach the Palisade from the other side.",
+    walkthrough: [
+      "Approach the Palisade fast-travel point.",
+      "Talk to the wounded man, or walk past him.",
+      "Kill him and the two ambushers who jump out."
+    ],
+    video: "https://www.youtube.com/watch?v=l0oCl0-BNho"
+  },
+{
+    id: 2933,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Crime and Punishment",
+    location: "Peninsula east of the Ancient Crypt, Ard Skellig, and Rogne",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 10 XP",
+    summary:
+      "Harpies are attacking Yorg, a man chained to the rocks for his uncle's murder. He swears he was framed. A visit to Rogne afterwards reveals what really happened.",
+    aiTip:
+      "The journal says Undvik, but he's actually on Ard Skellig east of the Ancient Crypt. Shoot the harpies from your boat. Then talk to the girl by Gretter's grave in Rogne for the full story.",
+    walkthrough: [
+      "Sail to the peninsula east of the Ancient Crypt.",
+      "Kill the three harpies attacking Yorg.",
+      "Hear his story, then free him or leave him.",
+      "Travel to Rogne and speak with the crying girl by Gretter's grave."
+    ],
+    video: "https://www.youtube.com/watch?v=IaeUAUkFCeg"
+  },
+{
+    id: 2934,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Finders Keepers",
+    location: "Islet north of the Giants' Toes, and Svorlag on Spikeroog",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 55 crowns and 25-75 XP for returning the sword",
+    summary:
+      "Bandits are looting a shipwreck of Clan Brokvar cargo on a small islet. Among the crates is a sword its owner, a merchant in Svorlag, wants back.",
+    aiTip:
+      "Check the chest under the rocks on the islet's western side for the sword. Returning it pays 55 crowns; keeping it pays slightly less if you sell it.",
+    walkthrough: [
+      "Sail to the islet north of the Giants' Toes and kill the looting bandits.",
+      "Use Witcher Senses on the crates and the inscription.",
+      "Take the sword from the chest under the rocks on the west side.",
+      "Return it to the dock merchant in Svorlag."
+    ],
+    video: "https://www.youtube.com/watch?v=YkaLt8bV40Y"
+  },
+{
+    id: 2935,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "From Ofier's Distant Shores",
+    location: "Upper Mill and bandit camps around Oxenfurt (Hearts of Stone)",
+    length: "medium",
+    difficulty: "Medium",
+    reward: "Ofieri scale armor, boots, gauntlets and sharovary diagrams",
+    summary:
+      "An Ofieri merchant at Upper Mill was robbed of his armor diagrams. The thieves split them among several bandit camps.",
+    aiTip:
+      "Crafting the four Ofieri pieces is needed for the 'I Wore Ofieri Before It Was Cool' achievement. The merchant needs a day to translate the diagrams.",
+    walkthrough: [
+      "Talk to the Ofieri merchant at Upper Mill, or find one of the stolen diagrams.",
+      "Track the robbers from the ambush site to the hatch of their underground hideout.",
+      "Take the scale armor diagram and the letter with orders.",
+      "Clear the three camps the letter names for the boots, gauntlets and sharovary.",
+      "Return the diagrams and collect the translations the next day."
+    ],
+    video: "https://www.youtube.com/watch?v=yWC8TS3L6Gc"
+  },
+{
+    id: 2936,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "A Surprise Inheritance",
+    location: "Hilltop north of Heddel (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Runestones and some coin",
+    summary:
+      "A body on a ghoul-infested hilltop carries Knut Kreutzman's journal and a key to a hidden chest. An archgriffin nests between Geralt and the treasure.",
+    aiTip:
+      "Clear the ghouls first, then bring the archgriffin down with crossbow bolts or Aard while it's flying. The chest is in a cellar under the small ruin at the north end.",
+    walkthrough: [
+      "Kill the ghouls on the hilltop north of Heddel and loot the body.",
+      "Read Kreutzman's journal and take the key.",
+      "Kill the archgriffin guarding the area.",
+      "Open the trapdoor in the northern ruin and use the key on the chest."
+    ],
+    video: "https://www.youtube.com/watch?v=a49U3DslBek"
+  },
+{
+    id: 2937,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Cursed Chapel",
+    location: "Old chapel between Brunwich and Upper Mill (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "The Dazhbog runestone and loot",
+    summary:
+      "A diary on a body at an old chapel tells of a curse on its crypt. Wraiths guard the courtyard, and a wraith called the Cursed Mother waits below.",
+    aiTip:
+      "Use Yrden and Specter Oil. Hit the Cursed Mother while she's trapped in the circle. Loot the body in the crypt to finish.",
+    walkthrough: [
+      "Loot the body at the chapel and read Father Glaedfried's diary.",
+      "Kill the three wraiths in the courtyard behind the chapel.",
+      "Enter the crypt and defeat the Cursed Mother.",
+      "Loot the corpse in the crypt."
+    ],
+    video: "https://www.youtube.com/watch?v=V-uSc7SFdAg"
+  },
+{
+    id: 2938,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "The Royal Air Force",
+    location: "Vikk Watchtower, Novigrad outskirts (Hearts of Stone)",
+    length: "short",
+    difficulty: "Medium",
+    reward: "New Moon trousers, runestone diagrams, horse blinders and loot",
+    summary:
+      "Nicolas Vogel tried to train harpies at Vikk Watchtower. His notebook and key lead to a chest at the top of the ruined tower, now home to his harpies.",
+    aiTip:
+      "Use the collapsed floors on the eastern side as ramps to climb. The chest is next to a harpy nest, so clear the harpies first.",
+    walkthrough: [
+      "Loot Vogel's body at the watchtower entrance and read his notebook.",
+      "Climb the ruined tower using the collapsed floors.",
+      "Kill the harpies at the top.",
+      "Open the chest by the nest with Vogel's key."
+    ],
+    video: "https://www.youtube.com/watch?v=CmrLaJlCkm4"
+  },
+{
+    id: 2939,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "At the Mercy of Strangers",
+    location: "Riverbank west of Mulbrydale, Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "About 25-50 XP; later 50 crowns or a fight",
+    summary:
+      "A Temerian deserter, John Verdun, is tied up on a riverbank among drowners. If Geralt frees him, they meet again north of the Pontar, where John now leads a band of brigands.",
+    aiTip:
+      "Leave him tied and you'll find his body later. If you free him, you can take his coin or fight him when you meet again.",
+    walkthrough: [
+      "Follow the screams to the riverbank west of Mulbrydale and kill the drowners.",
+      "Untie John Verdun, or leave him.",
+      "Later, find John's camp between the Widows' Grotto and Ursten.",
+      "Take his coin, or kill him and his men."
+    ],
+    video: "https://www.youtube.com/watch?v=D6CEi9nSoHU"
+  },
+{
+    id: 2940,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Novigrad",
+    title: "Racists of Novigrad",
+    location: "North of Portside Gate, then the dye pits northeast of Tretogor Gate, Novigrad",
+    length: "short",
+    difficulty: "Low",
+    reward: "No fixed reward",
+    summary:
+      "Townsmen harass an elf woman near Portside Gate. Defending her sets up a second encounter, where a group of men are beating two male elves by the dye pits.",
+    aiTip:
+      "The female-elf encounter has to come first. In the second part, standing up for the elves means killing the townsmen, then you can warn the elves to leave the city.",
+    walkthrough: [
+      "Find the elf woman being harassed at the second intersection north of Portside Gate.",
+      "Defend her, or stay out of it.",
+      "Later, go to the dye pits northeast of Tretogor Gate.",
+      "Defend the male elves and warn them to leave Novigrad."
+    ],
+    video: "https://www.youtube.com/watch?v=Z40y4PEiMyM"
+  },
+{
+    id: 2941,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Skellige",
+    title: "Farting Trolls",
+    location: "Cave between Arinbjorn and Kaer Muire, Ard Skellig",
+    length: "short",
+    difficulty: "Medium",
+    reward: "Troll livers; the Enhanced Ursine Boots diagram is in the cave",
+    summary:
+      "Three chatty rock trolls in a cave on Ard Skellig, an easter egg named after three YouTubers. They attack the moment Geralt walks in.",
+    aiTip:
+      "Stay back and let their thrown debris hit each other. Grab the chest by the boat for the Enhanced Ursine Boots diagram. The cave is a good spot to farm troll mutagens.",
+    walkthrough: [
+      "Fast travel to Holmstein's Port and head north to the cave.",
+      "Enter and listen to the trolls.",
+      "Kill all three, staying on the defensive.",
+      "Loot the chest by the boat."
+    ],
+    video: "https://www.youtube.com/watch?v=7lqUN-drBnA"
+  },
+{
+    id: 2942,
+    type: "side",
+    game: "The Witcher 3: Wild Hunt",
+    region: "Velen",
+    title: "Man's Best Friend",
+    location: "A hut in northern Velen",
+    length: "short",
+    difficulty: "Low",
+    reward: "The book 'In Beast's Clothing' (Werewolf Decoction manuscript)",
+    summary:
+      "A wild dog prowls outside a hut where starving orphans are hiding. Geralt can feed them, give them coin or walk away.",
+    aiTip:
+      "The marker only appears when you're near the hut. Give food or 25 crowns and the girl hands over a book holding the Werewolf Decoction manuscript.",
+    walkthrough: [
+      "Kill the wild dog outside the hut.",
+      "Examine the scene, including the second dog by the campfire.",
+      "Knock and talk to the girl inside.",
+      "Give food or money for the book, or leave."
+    ],
+    video: "https://www.youtube.com/watch?v=uJRsaAGh4iA"
   },
 {
     id: 636,

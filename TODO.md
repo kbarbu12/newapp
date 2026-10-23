@@ -47,16 +47,18 @@ These are merged into `main` and safe to delete via the GitHub UI:
 - `claude/add-todo` (PR #40 — this file, once merged)
 
 ## Decisions from QA 2026-10-20 (`docs/qa-session-2026-10-20.md`)
-- **M7 "Mark finished" bonus — DECIDED, to build:** a game can only be marked
-  finished (and earn the +500) once **at least 50%** of its quests are done.
+- ~~**M7 "Mark finished" bonus — DECIDED, to build:** a game can only be marked
+  finished (and earn the +500) once **at least 50%** of its quests are done.~~
+  Built in #286, live in `v2.5.0`.
 - **M8 reminders — PARKED until there's a server:** the owner wants real
   reminders, but scheduled notifications while the app is closed need a push
   service. Until then, leave "Enable reminders" as is (or hide it). Revisit
   when a backend exists.
-- **Quest data fixes — after the app fixes:** re-type AC Valhalla's Order
+- ~~**Quest data fixes — after the app fixes:** re-type AC Valhalla's Order
   of the Ancients entry (the other 141 are correctly `main`; Valhalla's World
   Events are missing entirely — a content decision), rewrite templated tips/summaries (mostly AC Odyssey),
-  fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.
+  fix the 31 TotK `type: "shrine"` entries, fill coverage gaps.~~ All done
+  (#300, #301, #307–#330); live in `v2.5.0` and `v2.7.0`.
 
 ## ~~Quest data: coverage gaps + templated tips~~ — DONE 2026-10-20
 D4 and D2 from the 2026-10-20 QA report were done in PRs #307–#328 (to `staging`)
@@ -68,5 +70,37 @@ walkthrough is duplicated in the data. Still open:
   Events across all regions (IDs 2624–2752), under a new "World Events" category.
 - Hogwarts Legacy is 1 short of its estimated 130. No further missing quest
   could be confirmed, so nothing was guessed.
-- The Witcher 3's target (100) undercounts a game with several hundred quests.
-  Raise it in `scripts/audit.js` if you want the remaining gap tracked.
+- The Witcher 3's target is now 290 (about 207 base-game main/side/contract
+  quests plus ~24 Hearts of Stone and ~58 Blood and Wine). Batch 1 added the 26
+  missing base-game main quests; batch 2 the 19 missing base-game witcher
+  contracts; batch 3 19 White Orchard/Velen secondary quests; batch 4 15
+  Novigrad secondary quests; batch 5 14 Skellige/Kaer Morhen secondary quests
+  (193/290); batch 6 13 Hearts of Stone quests; batch 7 14 Blood and Wine
+  quests; batch 8 the 9 quests held back for conflicting sources, now verified
+  (229/290). All 100 original entries have been re-checked against the guides
+  and 82 corrected (#341–#345, #348–#350). New quests since: #351–#355. **Witcher 3 is complete at
+  290/290** (only names confirmed by the guide lists were added).
+
+## What's left (as of 2026-10-21)
+Prod is `v2.7.0`. In priority order:
+1. **Ship the Witcher 3 batches waiting on `staging`** (#332, #335–#355):
+   - About 190 new quests (Witcher 3 at 290 / 290) and 82 corrected original
+     entries.
+   - Needs: QA on staging, then the owner's go-ahead to promote.
+2. **Finish Witcher 3:**
+   - ~~Re-check the original entries~~ Done (#348–#350).
+   - ~~Add the last quests to reach 290~~ Done (#355).
+3. **Replace the 2 allowlisted shared videos** with quest-specific ones:
+   `jDvmQQVqWGs` on #1320–1322 and `X1deZpHKJ9I` on #725–726.
+4. **Hogwarts Legacy:** 1 short of its estimated 130 (see above).
+5. **Fact-check the new quest data** (v2.7.0 and the Witcher 3 batches):
+   - Game facts and video contents weren't verified, because the guide sites
+     and YouTube are blocked from the agent environment.
+   - The data was written from search snippets. Spot-check in-game, or re-run
+     with network access.
+6. **Owner reviews still pending:**
+   - The video-candidates review page and the AC Odyssey leftovers (see above).
+   - The merged branches to delete (see above).
+7. **Parked:**
+   - M8 reminders, until there's a server.
+   - Live-site prod QA, until `kbarbu12.github.io` is allowlisted (see above).

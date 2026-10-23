@@ -1,11 +1,114 @@
 # RPG Quest Guide — Progress & Roadmap
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-21
 **Branch:** `claude/design-based-on-user-feedback-stln63` (redesign — see §0)
 **Live site:** https://kbarbu12.github.io/newapp/
 **Staging preview:** https://kbarbu12.github.io/newapp/staging/
 
 ---
+
+## Session 2026-10-20 → 21 — QA follow-ups, Valhalla World Events, Witcher 3 expansion and corrections
+The 2026-10-20 items and #330 shipped to prod as v2.7.0 (see the next entry).
+The Witcher 3 work (#332 onward) is on `staging` only.
+
+### 2026-10-20
+- Watched and merged PRs #274–#304 (app fixes from the 2026-10-20 QA
+  session, Vite upgrade, lazy data, chunk splitting) into `staging`.
+- Coverage gaps (D4): #307 Hogwarts Legacy +9, #308 Witcher 3 +6, #309
+  Cyberpunk lifepath prologues, #311 Ghost of Tsushima +7 main missions, #313
+  Wukong's Bishui Golden-Eyed Beast, #314 FF7 Rebirth target set to 73.
+- Templated tips/summaries (D2): #316, #318–#323 (AC Odyssey cultists, main
+  story, tombs, Lost Tales, romances, beasts, Ostraka riddles), #324
+  Cyberpunk, #325 Jedi: Survivor, #326 TotK (23 quests), #327 Pillars, #328
+  Deadfire; #329 removed the quest-data reminder.
+- #330: AC Valhalla World Events (129, IDs 2624–2752).
+
+### 2026-10-21 — Witcher 3 (target 290, now 229)
+- New quests: #332 26 main quests (2753–2778), #335 19 contracts, #336 19
+  White Orchard/Velen side quests, #337 15 Novigrad, #338 14 Skellige/Kaer
+  Morhen, #339 13 Hearts of Stone, #340 14 Blood and Wine, #341 9 quests held
+  back for conflicting sources, now verified (2873–2881).
+- Correcting the original entries to match the guides (many described the
+  wrong quest, had generic text, or the wrong main/side type): #342 (IDs
+  349–362), #343 (363–375), #344 (376–382, 594, 597–600, 629), #345 (589–606
+  main quests), #348 (607–617 endgame and DLC main quests), #349 (618–635),
+  #350 (final pass: 13, 42, 2354, 2355). All original entries now checked.
+- More new quests (only names confirmed by the guide lists): #351 16 Blood and
+  Wine (vintner's contracts, Wine Wars, side quests), #352 11 (virtues, Gwent,
+  fist fights, hidden Skellige chain), #353 13 (horse races, arena, Gwent,
+  Novigrad encounters), #354 7 (Grandmaster gear hunts, In Wolf's Clothing,
+  The Perks of Being a Jailbird), #355 14 (unmarked Velen/Novigrad/Skellige
+  encounters and four Hearts of Stone treasure hunts). Witcher 3 complete at
+  290 / 290.
+
+### Still to do
+1. ~~Reach 290 Witcher 3 quests~~ Done (#355).
+2. Promote to prod only on the owner's say-so, then CHANGELOG + prod QA.
+
+---
+## 2026-10-21 — quest data release (v2.7.0)
+- QA'd the quest data work from a parallel session (PRs #307–#330) on
+  staging:
+  - Audit clean.
+  - Every new or edited entry has all fields, valid values, and a real video
+    or walkthrough; no tip is copy-pasted.
+  - All 155 new quests open in the app with every key field, 0 page errors.
+- Shipped as v2.7.0 (changelog PR #331, promotion PR #334):
+  - 155 new quests: 129 AC Valhalla World Events; Hogwarts +9, Witcher 3 +6,
+    Cyberpunk +3, Ghost of Tsushima +7, Wukong +1.
+  - 279 templated tips and summaries rewritten (AC Odyssey, TotK, Cyberpunk,
+    Jedi: Survivor, Pillars, Deadfire).
+  - Prod build QA'd: all 155 new quests render, 0 errors.
+- Staging moved twice during the release (#330, then #332). Each time the
+  promotion paused for QA and the owner's call. #334 promoted a fixed snapshot
+  of staging, so the untested Witcher 3 batch stayed out; #333, which tracked
+  the moving branch, was closed.
+- Since then the parallel session has merged more Witcher 3 work to staging
+  (#332, #335–#344): about 129 new quests (229 / 290) and 36 corrected
+  original entries. Not QA'd or promoted yet.
+
+## 2026-10-20 — full app QA, fixes (v2.5.0), Home and News live (v2.6.0)
+- Full QA of the redesign and quest data, written up in
+  `docs/qa-session-2026-10-20.md` (PR #274). It found 4 high, 9 medium,
+  12 low, 3 latent (Home/News) and 6 data issues.
+- Owner decisions:
+  - A game can be marked finished only at 50% done.
+  - Reminders are parked until there's a server.
+  - Quest data work comes after the app fixes.
+- Fixes, one PR each (#275–#305), shipped as **v2.5.0**:
+  - Every high and low issue and 8 of the 9 medium; only M8 reminders is
+    parked.
+  - Library: infinite scroll after clearing a search, bad shared links,
+    Default difficulty, Optional filter, multi-tab sync.
+  - Quest window and navigation: keyboard access, the dialog stays open when
+    its card leaves the list, full-screen on phones, Back/Forward and reload.
+  - Video and chat: playlist-only videos embed; chat recognises God of War
+    and keeps filters, and fits 320px phones.
+  - Data: 31 TotK shrine quests and Valhalla's Order quest re-typed.
+  - Build: lazy-loaded quest details (first-load JS 672 → 349 kB gzipped),
+    real app icons, bundled covers, 13 unused dependencies removed, Vite
+    6.4.4 (`npm audit` 0 vulnerabilities). News items now come from
+    `CHANGELOG.md`.
+- **v2.6.0:** Home and News tabs turned on (PR #310). Legacy `?game=` / `?q=`
+  links still open the Library with their filters.
+- Added a next-session reminder for the quest data work (PR #317). The
+  parallel session did the work and removed the reminder (#329).
+
+### Next
+1. QA the Witcher 3 batches on staging (#332, #335–#344), then promote on the
+   owner's say-so.
+2. Witcher 3, the rest:
+   - Finish re-checking the original 100 entries (IDs 13–635); some describe
+     the wrong quest.
+   - Add the remaining Blood and Wine side quests and contracts (229 / 290).
+3. Replace the 2 allowlisted shared videos (#1320–1322, #725–726).
+4. Hogwarts Legacy: 1 short of its estimated 130.
+5. Fact-check the new data:
+   - Game facts and video contents weren't verifiable here; guide sites and
+     YouTube are blocked.
+   - The data was written from search snippets.
+6. Parked: M8 reminders (needs a server); live-site prod QA (github.io
+   blocked, see `TODO.md`).
 
 ## 2026-10-18 (2) — older-video title check started, review list refreshed (v2.4.15)
 - Round 2 of the video title check: the ~1,160 videos that were in the app
