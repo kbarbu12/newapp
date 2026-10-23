@@ -37,13 +37,12 @@ The Witcher 3 work (#332 onward) is on `staging` only.
   Wine (vintner's contracts, Wine Wars, side quests), #352 11 (virtues, Gwent,
   fist fights, hidden Skellige chain), #353 13 (horse races, arena, Gwent,
   Novigrad encounters), #354 7 (Grandmaster gear hunts, In Wolf's Clothing,
-  The Perks of Being a Jailbird). Witcher 3 now 276 / 290.
+  The Perks of Being a Jailbird), #355 14 (unmarked Velen/Novigrad/Skellige
+  encounters and four Hearts of Stone treasure hunts). Witcher 3 complete at
+  290 / 290.
 
 ### Still to do
-1. Add the last ~14 quests to reach 290. (Done since: Wine Wars
-   Belgaard/Coronata/Vermentino/Deus in the Machina, Knight for Hire, Equine
-   Phantoms, There Can Be Only One, A Portrait of the Witcher as an Old Man,
-   Fists of Fury: Toussaint, vineyard contracts).
+1. ~~Reach 290 Witcher 3 quests~~ Done (#355).
 2. Promote to prod only on the owner's say-so, then CHANGELOG + prod QA.
 
 ---
